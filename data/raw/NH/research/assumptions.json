@@ -1,0 +1,541 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Narayana Hrudayalaya (consolidated, ₹ crore). Segment model on the businesses the company reports: India hospitals, Cayman hospitals, UK (Practice Plus Group, consolidated from 6-Nov-2025), Cayman insurance (CIHL), India clinics + India insurance (NHIC + NHIL, reported together), and an eliminations line (zero margin). Segment split follows PL's reading of the company's disclosures (see segments.json). EBITDA is post-Ind AS 116 (Screener basis); lease liabilities (₹991 cr at Mar-26, mostly UK) sit in borrowings, so the model's net debt includes them. FX held at the Q1FY27 averages implied by the deck and PL (₹94.7/US$, ₹127/GBP). Shares: Screener's FY26 Net Profit ÷ EPS gives 20.45 cr, matching the 20.44 cr shares outstanding (20,43,60,804, incl. 12.6 lakh held by the ESOP trust), so no patch is needed; minorities are ~₹0.4 cr a year. Valued on a sum of the parts (EV/EBITDA by segment on Sep-28E), as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "ind",
+   "name": "India hospitals",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 4670.2,
+   "growth": [
+    14.0679,
+    10.9025,
+    12.0108
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    23.5,
+    23.5,
+    23
+   ],
+   "hist": {
+    "driver": "indRev",
+    "revenue": "indRev",
+    "adjEbitda": "indEbitda"
+   },
+   "_why": "Bed build (businessLines.india): occupied beds × ARPOB (₹ mn per occupied bed a year, the company's measure) less ~₹66 cr of revenue the company's India-hospital figure carries but consolidation eliminates (PL split; FY26 ₹69 cr, Q1FY27 ₹16.5 cr). FY26: ₹4,740 cr = ~2,648 occupied beds × ₹17.9 mn. FY27E: 2,780 occupied beds (+5%: IP discharges +8% and OP +9% YoY in Q1FY27 with no new beds; South-West Bengaluru, 100 leased beds, opens end-Q2FY27) × ₹19.4 mn (+8%; Q1FY27 ₹19.2 mn, +9% YoY on case mix, robotics and ALOS falling from 4.3 toward 3.9-4.0 days; list-price increases are 'low to mid single digits'). FY28E: 2,900 × ₹20.6 mn (HSR 215 beds and Raipur 300 beds complete in FY28, so little revenue that year). FY29E: 3,080 × ₹21.7 mn (HSR and Raipur ramping; Rajarhat and Central Bengaluru pushed to FY29, South Bengaluru to FY30 in the Q1FY27 deck). Revenue +14% / +11% / +12% (FY26 +10%, Q1FY27 +16%).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "PL-basis EBITDA margin 19.3% (FY25), 21.8% (FY26), 23.2% (Q1FY27; company basis 24.8%, which includes the eliminated income). No beds were added for 7-8 quarters, so ARPOB growth fell through to margin (+400bp YoY in Q1). Management expects core margin expansion to continue but says new-centre losses start from late FY27 (South-West Bengaluru) and FY28 (HSR, Raipur). We hold 23.5% for FY27-28E and trim to 23.0% in FY29E as two new hospitals carry start-up losses. Each 1pp is ~₹59 cr of FY28E EBITDA (~₹2.3 of EPS)."
+  },
+  {
+   "key": "cay",
+   "name": "Cayman hospitals",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1520.4,
+   "growth": [
+    15.7901,
+    6.993,
+    5.9829
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    44,
+    44.5,
+    44.5
+   ],
+   "hist": {
+    "driver": "cayRev",
+    "revenue": "cayRev",
+    "adjEbitda": "cayEbitda"
+   },
+   "_why": "Health City Cayman Islands (East End) and Health City Camana Bay, 164 operational beds. Hospital revenue net of insurance eliminations: US$172.1 mn in FY26 (US$178.7 mn less US$6.6 mn), +27% on the Camana Bay ramp and steerage from the group's own insurer. Q1FY27 US$42.8 mn net, +5% YoY (seasonally weak; discharges +6%, OP +12%; July-August 'improved'). Management: double-digit growth 'not physically possible' to sustain; growth will come from the insurer and other Caribbean islands. US$185.9 / 198.9 / 210.8 mn (+8% / +7% / +6%) at ₹94.7 (FY26 average ~₹88.3, so FY27E ₹ growth +16%). No new Cayman capex is planned.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "PL-basis margin 42.7% (FY25), 45.6% (FY26), 41.3% (Q1FY27, the seasonal low; 43.7% in Q1FY26). PL's split puts the eliminated income in Cayman; on the company's own India figure the Cayman hospital margin is ~39%. Management: hospital margin 'preserved' through the Camana Bay expansion. 44% / 44.5% / 44.5%."
+  },
+  {
+   "key": "uk",
+   "name": "UK (Practice Plus Group)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1299.2,
+   "growth": [
+    160.0216,
+    5.2632,
+    5
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    9.5,
+    11,
+    12
+   ],
+   "hist": {
+    "driver": "ukRev",
+    "revenue": "ukRev",
+    "adjEbitda": "ukEbitda"
+   },
+   "_why": "13 facilities, 330 beds, 37 theatres, ~95% NHS-funded at acquisition. FY26 holds five months (£110 mn). Pre-deal revenue £229 mn (FY24, Sep year-end) and £250 mn (FY25E), 12% CAGR over five years; Q1FY27 £65.0 mn, +5% YoY on a like-for-like basis, hit by a heatwave that cost operating days (some impact spilled into Q2). £266 / 280 / 294 mn (+5% a year) at ₹127/£: FY27E is the first full year.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Post-IFRS 16 EBITDA after new-centre (Birmingham) losses: 8.6% (Q3FY26 stub), 10.5% (Q4FY26), 8.8% (Q1FY27; pre-IFRS 5.1%). Levers: procurement, NH's software (certification delayed 4-6 months), more private/self-pay patients (a 4-5 year journey from ~95% NHS; the nearest peer is ~70% NHS). Management: UK margins will move toward local peers, not India/Cayman levels. 9.5% / 11% / 12%."
+  },
+  {
+   "key": "cihl",
+   "name": "Cayman insurance (CIHL)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 368.9,
+   "growth": [
+    64.2938,
+    6.25,
+    4.4118
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -12.5,
+    -2.9412,
+    2.1127
+   ],
+   "hist": {
+    "driver": "cihlRev",
+    "revenue": "cihlRev",
+    "adjEbitda": "cihlEbitda"
+   },
+   "_why": "Cayman Integrated Healthcare Ltd, selling policies since Jan-2025: revenue US$3.6 mn (FY25), US$41.8 mn (FY26), US$15.4 mn in Q1FY27; book ~US$60 mn annualised. New client additions are being slowed after a 110-112% loss ratio. US$64 / 68 / 71 mn at ₹94.7.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA US$-8.0 mn in FY26 (Q4 US$-5.1 mn), US$-3.7 mn in Q1FY27. July-2026 renewals (about a third of accounts) repriced with 100% retention; January renewals next; management says the worst is behind it barring large claims; Kotak expects breakeven by end-FY28. US$-8.0 / -2.0 / +1.5 mn (-12.5% / -2.9% / +2.1%)."
+  },
+  {
+   "key": "ic",
+   "name": "India clinics & insurance (NHIC + NHIL)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 77.65,
+   "growth": [
+    64.8422,
+    44.5313,
+    35.1351
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -93.75,
+    -51.3514,
+    -28
+   ],
+   "hist": {
+    "driver": "icRev",
+    "revenue": "icRev",
+    "adjEbitda": "icEbitda"
+   },
+   "_why": "Clinics (NHIC: 11 clinics in Bengaluru and Hosur, revenue ₹60.9 cr in FY26, ₹17.1 cr in Q1FY27, +26%) plus Narayana Health Insurance (NHIL: GWP ₹43.8 cr in FY26, ₹26.2 cr in Q1FY27; net earned premium ₹10.1 cr in Q1FY27; FY26 revenue ~₹16.8 cr = AR insurance segment less CIHL). Clinics to double over time (Kolkata in FY27): clinics ₹78 / 95 / 110 cr, NHIL earned premium ₹50 / 90 / 140 cr.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Reported only together: EBITDA ₹-32.4 cr (FY24), ₹-64.5 cr (FY25), ₹-67.2 cr (FY26), ₹-32.8 cr in Q1FY27 alone (clinics ~₹-15 cr; NHIL claims ratio 219% on a small book). Management: clinic cash burn continues at a similar run rate; insurance losses volatile until the book scales. Kotak expects ₹-120 cr in FY27E. We use ₹-120 / -95 / -70 cr."
+  },
+  {
+   "key": "elim",
+   "name": "Eliminations & other",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": -40.35,
+   "growth": [
+    -38.0421,
+    8,
+    11.1111
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elimRev",
+    "revenue": "elimRev",
+    "adjEbitda": "elimEbitda"
+   },
+   "_why": "Consolidated revenue less the segments (inter-company sales between insurers, clinics and hospitals, software subsidiaries): ₹-23 cr (FY25), ₹-40 cr (FY26), ₹-6 cr in Q1FY27. ₹-25 / -27 / -30 cr.",
+   "_revWhy": "Plug.",
+   "_marginWhy": "Zero margin (engine workaround: no elimination line)."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Unallocated: one-time acquisition costs and Screener reclassification",
+ "_unallocWhy": "Sum of segment EBITDA less Screener EBITDA: ₹56 cr in FY26 = the ₹76 cr one-time PPG acquisition cost less ~₹24 cr that Screener moves from finance cost into EBITDA, less rounding. Zero in Q1FY27 (Screener ₹468 cr = company ₹470 cr = sum of PL's segments). Zero in forecasts.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "businessLines": {
+  "_why": "Revenue build behind the segments; NH.ctx.js checks that it sums to model revenue. India: occupied beds = revenue ÷ ARPOB (the company reports ARPOB as ₹ mn per occupied bed a year and does not report occupancy; it says it 'typically operates between 60% and 65%' on its census basis). Occupied beds were ~2,774 (FY24), ~2,708 (FY25), ~2,648 (FY26) and ~2,712 in Q1FY27 on ~5,450 operational beds (~50% of operational beds): ARPOB did the work. Operational beds: 5,451 (Mar-26), 5,461 (Jun-26); +100 South-West Bengaluru (end-Q2FY27), +515 HSR and Raipur (FY28, weighted ~150 in FY28E and ~515 in FY29E). FX held at the Q1FY27 averages implied by the deck and PL's rupee figures (₹94.7/US$, ₹127/GBP; FY26 averages ~₹88.3 and ~₹118).",
+  "india": {
+   "occupiedBeds": [
+    2780,
+    2900,
+    3080
+   ],
+   "arpobMn": [
+    19.4,
+    20.6,
+    21.7
+   ],
+   "intercoCr": [
+    66,
+    66,
+    66
+   ],
+   "opBedsAvg": [
+    5510,
+    5710,
+    6080
+   ]
+  },
+  "cayman": {
+   "hospUsdMnNet": [
+    185.9,
+    198.9,
+    210.8
+   ]
+  },
+  "cihl": {
+   "usdMn": [
+    64,
+    68,
+    71
+   ],
+   "ebitdaUsdMn": [
+    -8,
+    -2,
+    1.5
+   ]
+  },
+  "uk": {
+   "gbpMn": [
+    266,
+    280,
+    294
+   ]
+  },
+  "indiaCare": {
+   "clinicsCr": [
+    78,
+    95,
+    110
+   ],
+   "nhilCr": [
+    50,
+    90,
+    140
+   ],
+   "ebitdaCr": [
+    -120,
+    -95,
+    -70
+   ]
+  },
+  "elimCr": [
+   -25,
+   -27,
+   -30
+  ],
+  "fx": {
+   "usd": 94.7,
+   "gbp": 127
+  }
+ },
+ "capex": [
+  950,
+  1350,
+  1300
+ ],
+ "_capexWhy": "India: FY27 plan ₹460 cr greenfield + ₹270 cr replacement/maintenance (Q1FY27 actual ₹74.5 cr + ₹31.4 cr); the six projects (2,035 beds for ₹2,974 cr: HSR 215 beds ₹490 cr FY28, Raipur 300 beds ₹540 cr FY28, Rajarhat 350 beds ₹900 cr FY29, Central Bengaluru 220 beds ₹160 cr FY29, South Bengaluru 350 beds ₹800 cr FY30, South-West Bengaluru 100 beds ₹84 cr FY27) need ~₹2,700 cr more; management said ~₹1,000 cr a year in FY28-29 (Q4FY26 call). Plus UK and Cayman maintenance (~₹80-100 cr; no Cayman expansion planned) and new leases (~₹100-130 cr a year; the model counts leases as debt, so new leases are added to capex). ₹950 / 1,350 / 1,300 cr. The engine depreciates capex at once while it sits in CWIP, which overstates FY28-29E depreciation slightly.",
+ "depRateOnGrossBlock": 6.1,
+ "_depWhy": "FY26 D&A ₹448 cr with five months of UK (incl. right-of-use ₹79 cr and intangibles ₹70 cr, of which PPG purchase-price amortisation ~£2.3 mn); Q1FY27 ₹156 cr (₹624 cr annualised) with a full UK quarter = ~6.1% of average gross block. FY27E ~₹627 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Zero: the engine applies the yield to net cash, and NH has net debt (₹3,156 cr incl. ₹991 cr of leases at Mar-26). Treasury income is built on gross cash in otherIncome.",
+ "otherIncome": [
+  120,
+  105,
+  94
+ ],
+ "_otherIncomeWhy": "Built from AR FY26 note 24 (₹100.2 cr): (1) treasury = deposit interest ₹29.4 cr + interest on amortised-cost assets ₹19.0 cr + mutual-fund gains ₹18.4 cr = ₹66.8 cr on ~₹2,200 cr average cash and investments (cash rose late in the year); Q1FY27 ~₹27.5 cr on ~₹2,760 cr = ~4.0%. We take 4.0% on average gross cash of ₹2,500 / 2,100 / 1,800 cr as capex draws it down = ₹100 / 84 / 72 cr. (2) Recurring non-treasury: other interest ₹11.0 cr, grant income ₹7.3 cr (non-cash), miscellaneous ₹13.8 cr: ₹28 / 29 / 30 cr. (3) Share of associate/JV losses (Reya Health, Everhope JV): ₹-5.6 cr in FY26, ₹-1.9 cr in Q1FY27: ₹-8 cr a year. Left out: write-backs ₹1.2 cr. FY27E ₹120 cr vs company FY26 ₹100.2 cr and the twelve months to Jun-26 ~₹112 cr (company). Screener's FY26 ₹37 cr and TTM ₹55 cr are lower because Screener nets the ₹51 cr labour-code exceptional and the associate loss into other income.",
+ "interest": [
+  345,
+  365,
+  375
+ ],
+ "_interestLabel": "Finance cost (term loans, NCDs, leases)",
+ "_interestWhy": "FY26 ₹243.7 cr (term loans ₹122.9 cr, NCDs ₹66.8 cr, leases ₹40.1 cr, other ₹14.0 cr; Screener ₹266 cr); Q1FY27 ₹86.8 cr (₹347 cr annualised) with a full quarter of the £150 mn PPG acquisition loan and UK leases. Borrowings ₹4,878 cr at Jun-26 (US$115 mn and £150 mn foreign-currency). Net debt rises for 2-3 years as the ₹3,000 cr India programme is part debt-funded (management: back below today's levels by FY30), while the UK loan amortises from UK cash flow over seven years: ₹345 / 365 / 375 cr.",
+ "taxRate": [
+  18.5,
+  19,
+  19.5
+ ],
+ "_taxWhy": "Effective tax 15.4% (FY25), 16.3% (FY26, incl. a deferred-tax credit), 20.4% (Q1FY27). Cayman profits are not taxed locally; India and the UK pay ~25%. As India's share of profit rises, 18.5% / 19% / 19.5%. Minorities (Meridian Medical, Shepton Mallet JV) are ~₹0.4 cr a year: ignored.",
+ "payout": [
+  11,
+  11,
+  11
+ ],
+ "_payoutWhy": "Dividend ~10-12% of profit (₹91 cr paid in FY26, ₹4.5 a share); capex absorbs the rest.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 21,
+  "fadeCapexPctTo": 6.5,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at one rate. Net debt incl. leases ~₹3,000-3,600 cr against ~₹36,600 cr of market value (~9% of EV): cost of equity ~12.1% (beta 0.93) on ~91% and post-tax cost of debt ~5.6% on ~9% gives a WACC of ~11.6%, which is what beta 0.85 produces (6.5% + 0.85 × 6%).",
+  "_tgWhy": "India hospitals can grow 8-10% nominal for a long time, but Cayman is a small island market and the UK is NHS-priced: a blended 5.5%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~9% (FY29E) to 7% by year 15 as the India bed programme matures and the overseas businesses grow at mid-single digits.",
+  "_fadeMarginWhy": "21% post-Ind AS: India ~23-24% less start-up losses, Cayman ~44% on a shrinking share, UK low-teens, insurance at breakeven.",
+  "_fadeCapexWhy": "Capex (incl. new leases) falls from ~10-11% of revenue in FY28-29E to 6.5%: maintenance (~3%) plus growth beds; depreciation ~5.5% of revenue."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "India hospitals keep compounding ARPOB at ~9% with volumes rising as new beds open on time, Cayman insurance breaks even in FY28 and steers more patients to the hospital, and the UK reaches ~13-14% margins on a richer private mix.",
+   "fadeMarginTo": 22.5,
+   "segments": {
+    "ind": {
+     "growthDelta": 2,
+     "marginDelta": 1
+    },
+    "cay": {
+     "growthDelta": 2,
+     "marginDelta": 1
+    },
+    "uk": {
+     "growthDelta": 2,
+     "marginDelta": 2
+    },
+    "cihl": {
+     "marginDelta": 4
+    },
+    "ic": {
+     "marginDelta": 15
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "India ARPOB growth slows to price increases only while HSR, Raipur and Rajarhat slip and carry start-up losses, Cayman growth stalls and insurance keeps losing money, and the UK stays near 8% margins with NHS tariff pressure.",
+   "fadeMarginTo": 19.5,
+   "segments": {
+    "ind": {
+     "growthDelta": -3,
+     "marginDelta": -1.5
+    },
+    "cay": {
+     "growthDelta": -3,
+     "marginDelta": -2
+    },
+    "uk": {
+     "growthDelta": -2,
+     "marginDelta": -2
+    },
+    "cihl": {
+     "marginDelta": -6
+    },
+    "ic": {
+     "marginDelta": -20
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "India hospitals",
+    "seg": "ind",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (half FY28E + half FY29E) x EV/EBITDA",
+    "multiple": {
+     "base": 17,
+     "bull": 22,
+     "bear": 15.5
+    },
+    "note": "Derived: NH's own one-year-forward EV/EBITDA since Apr-2021 has a median of 16.4x (no trough years; leases in EV, post-Ind AS EBITDA; points before the Nov-2025 UK deal use forward EBITDA without the UK). Listed hospital peers traded a median 12.3% below their five-year EV/EBITDA medians on 30-Sep-2026 (Apollo, Max, Fortis, Medanta, Rainbow, Jupiter; KIMS and Aster left out), so the India + Cayman business is worth ~14.4x. Cayman's EBITDA grows ~8.6% a year in FY26-29E against India's ~14.4%, so we value Cayman at 0.6x the India multiple (the street uses 0.60-0.67x). On the FY25-26 mix (India 60%, Cayman 40% of the two businesses' EBITDA) that solves to India 17.1x → 17x and Cayman 10.3x → 10.5x. Street: PL 25x, ICICI Direct 24x on FY28E. Bull 22x / bear 15.5x = the 75th / 25th percentile of the history (18.7x / 12.9x) on the same split."
+   },
+   {
+    "name": "Less: India clinics & insurance, PV of losses to breakeven",
+    "lossKey": "ic",
+    "year": "Sep-27E",
+    "metricLabel": "PV at Sep-2027 of losses still to come (H2FY28E onward), breakeven FY32E (bull FY31E, bear FY33E), at a 12.1% cost of equity",
+    "adj": {
+     "base": -162.3,
+     "bull": -74.6,
+     "bear": -304.4
+    },
+    "note": "Present value of the forecast losses until breakeven, not a perpetuity: NHIC clinics + NHIL lose ₹120 / 95 / 70 cr in FY27-29E on our numbers and run off to zero by FY32E. Losses before the target date are in net debt; NHIL's capital is in consolidated cash (not added again)."
+   },
+   {
+    "name": "Cayman hospitals",
+    "seg": "cay",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA x EV/EBITDA",
+    "multiple": {
+     "base": 10.5,
+     "bull": 13.5,
+     "bear": 9
+    },
+    "note": "0.6x the India multiple (relative EBITDA growth FY26-29E: Cayman hospitals ~8.6% a year vs India ~14.4%); PL 15x 'international', ICICI Direct 16x. US-dollar, untaxed locally, but one island and slowing growth. Bull 13.5x, bear 9x."
+   },
+   {
+    "name": "Less: Cayman insurance, PV of losses to breakeven",
+    "lossKey": "cihl",
+    "year": "Sep-27E",
+    "metricLabel": "PV at Sep-2027 of losses still to come, breakeven FY29E (bull FY28E, bear FY30E), at a 12.1% cost of equity",
+    "adj": {
+     "base": -9.2,
+     "bull": 0,
+     "bear": -51.3
+    },
+    "note": "Present value of CIHL's remaining losses (half of FY28E's US$-2.0 mn) until breakeven in FY29E; later profits are captured in Cayman hospital volumes. Its capital is in consolidated cash."
+   },
+   {
+    "name": "UK (Practice Plus Group)",
+    "seg": "uk",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (post-IFRS 16) x EV/EBITDA",
+    "multiple": {
+     "base": 7,
+     "bull": 9,
+     "bear": 5
+    },
+    "note": "At cost: NH paid ₹2,201 cr (£188.8 mn) and took on ₹708 cr of leases, ~₹2,860 cr of EV after ₹46 cr of acquired cash; 7x our Sep-28E post-IFRS 16 EBITDA (~₹420 cr) returns roughly that. The deal was 9.2x FY25 pre-IFRS EBITDA (7-8x NTM). We carry the UK at cost until it shows it can earn its cost of capital. Bull 9x (the price paid on FY27E actual EBITDA), bear 5x (ICICI Direct uses 4x)."
+   },
+   {
+    "name": "Less: net debt incl. leases at Sep-27E",
+    "netCash": true,
+    "roll": [
+     "FY27E",
+     "FY28E",
+     0.5
+    ],
+    "metricLabel": "Net debt at the target date (half Mar-27E + half Mar-28E)",
+    "note": "Model forecast: borrowings incl. lease liabilities less cash and investments, half Mar-27E + half Mar-28E (the 12-month target date)."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values Narayana: every disclosed method is a sum of the parts on EV/EBITDA (PL: India 25x, international 15x on FY28E; ICICI Direct: India 24x, Cayman 16x, UK 4x; Kotak's summary cites ~17x pre-Ind AS for India). The businesses differ in growth, currency, tax and risk, so we value India hospitals, Cayman hospitals and the UK on Sep-28E EBITDA (post-Ind AS), deduct the present value of the start-up losses of the India clinics + insurer and the Cayman insurer until breakeven, less net debt including lease liabilities at Sep-27E. Multiples are derived from NH's own forward EV/EBITDA history and the sector de-rating, not taken from the street."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 26,
+      "bull": 33,
+      "bear": 23
+     },
+     "why": "Cross-check on earnings: NH's one-year-forward P/E since Apr-2021 has a median of 30.1x (forwardMedian; no trough years), cut by the 13.4% median P/E de-rating of the same six peers = 26.1x → 26x on Sep-28E EPS. Bull 33x (75th percentile, 33.3x), bear 23x (scaled with the EV/EBITDA anchor)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF (capex incl. new leases), discount rate 11.6% (beta set so the single rate equals WACC), terminal growth 5.5%, less net debt incl. leases at Mar-27E."
+    }
+   ]
+  },
+  "lossPV": {
+   "ke": 12.1,
+   "_why": "Start-up losses are valued at the present value of the losses still to come until breakeven, not as a perpetuity (a negative EBITDA × a multiple assumes they never end). PV at the Sep-2027 target date of: half of FY28E, FY29E, then a straight-line run-off to zero in the breakeven year; pre-tax EBITDA losses; discounted at our 12.1% cost of equity (6.5% + 0.93 × 6%, see dcf._betaWhy). Losses before the target date are already in net debt at Sep-27E. The insurers' capital (AR FY26 note 33: insurance segment capital employed ₹170 cr at Mar-26; NH's equity investment in NHIL ₹122 cr) sits in consolidated cash and investments and so already reduces our net debt; we do not add it again. Cayman insurance's profits after breakeven are not valued separately: they show up as patient steerage in Cayman hospital EBITDA (management asks that Cayman be judged as one business).",
+   "ic": {
+    "breakeven": {
+     "base": "FY32E",
+     "bull": "FY31E",
+     "bear": "FY33E"
+    },
+    "_why": "No sourced breakeven date: management says clinics break even ~18 months after opening and current losses are mostly integrated-care overheads, but cash burn continues at a similar rate in FY27 while the clinic count doubles; for NHIL it 'can't give a date'. Neither unit is described as structurally loss-making (clinics are being folded into the hospitals, overheads shared with the parent; NHIL is scaling toward retail/SME with solvency of 167%), so no perpetuity charge is kept. Base: our ₹-120 / -95 / -70 cr path (FY27-29E) runs off to zero by FY32E; bull (losses shrink faster) FY31E; bear FY33E."
+   },
+   "cihl": {
+    "breakeven": {
+     "base": "FY29E",
+     "bull": "FY28E",
+     "bear": "FY30E"
+    },
+    "_why": "Kotak expects CIHL breakeven by end-FY28E; management says losses have bottomed and repricing (July and January renewals) improves profitability over 2-3 quarters. Our base has US$-2.0 mn in FY28E and +US$1.5 mn in FY29E (breakeven in FY29E); bull FY28E; bear FY30E."
+   }
+  },
+  "_roundWhy": "Target rounded to ₹5, not ₹10: the base and bear SOTP values (₹1,684.99 and ₹1,244.99) sit on the ₹10 rounding boundary, where the Excel model's own recalculation (₹1,685.0 and ₹1,245.0) would round the other way. Presentation only; the valuation is unchanged."
+ }
+}

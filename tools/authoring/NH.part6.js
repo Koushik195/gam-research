@@ -1,0 +1,56 @@
+// Narayana Hrudayalaya report, part 6: glossary and statement notes.
+const glossary = {
+  id: 'glossary', nav: 'Glossary', kicker: 'Appendix', title: 'Glossary',
+  blocks: [
+    { exhibit: { type: 'table', title: 'Terms used in this report', head: ['Term', 'What it means'], wide: [1], rows: [
+      ['Capacity / operational beds', 'Beds built vs beds staffed and open. Narayana: 6,269 capacity and 5,955 operational beds (Jun-2026), of which 5,461 operational in India.'],
+      ['ARPOB', 'Average revenue per occupied bed. Narayana reports it per year (₹19.2 mn in Q1FY27, ~₹52,600 a day): hospital revenue ÷ occupied beds.'],
+      ['Occupied beds / occupancy', 'Beds filled on an average day. Narayana does not report occupancy; we derive occupied beds as India hospital revenue ÷ ARPOB.'],
+      ['ARPP', 'Average revenue per patient (inpatient or outpatient). Narayana prefers it to ARPOB.'],
+      ['ALOS', 'Average length of stay of an inpatient (4.3 days in Q1FY27; target 3.9-4.0).'],
+      ['IP / OP', 'Inpatients (admitted; counted as discharges) and outpatients (consultations, day care).'],
+      ['Owned vs operated hospitals', 'Owned: Narayana owns the land and building. Operated: it runs a trust- or government-owned hospital on rental or revenue-share terms and keeps the P&L.'],
+      ['NHIC / NHIL / CIHL', 'NH Integrated Care (clinics in Bengaluru and Hosur); Narayana Health Insurance (India); Cayman Integrated Healthcare (the Cayman insurer).'],
+      ['Integrated care / payer-provider', 'One group that both insures and treats the patient, so it gains when patients stay healthy and are treated efficiently.'],
+      ['GWP / NEP / claims ratio / combined ratio', 'Gross written premium (policies sold); net earned premium (the part of premium that belongs to the period, after reinsurance); claims ÷ NEP; claims plus expenses ÷ premium. Above 100% = underwriting loss.'],
+      ['NHS / private pay', 'The UK\'s state-funded National Health Service, which buys ~95% of PPG\'s care at set tariffs; private pay = self-pay patients and private medical insurance.'],
+      ['EBITDA (post-Ind AS 116)', 'Earnings before interest, tax, depreciation and amortisation, with rent treated as a lease (interest + depreciation) rather than an expense. Pre-Ind AS (or pre-IFRS 16) EBITDA deducts rent. Narayana\'s own "EBITDA" also includes other income; ours does not.'],
+      ['Lease liabilities', 'The present value of future rent under long leases, shown as debt under Ind AS 116 (₹991 cr at Mar-2026). We count them in net debt because our EBITDA excludes rent.'],
+      ['PPA / goodwill', 'Purchase-price allocation: on an acquisition, the price above the book value of assets is split into identifiable intangibles (amortised) and goodwill (not amortised, tested for impairment).'],
+      ['Sum of the parts (SOTP)', 'Valuing each business separately (here EV/EBITDA multiples on each segment\'s EBITDA) and adding them up, less net debt.'],
+      ['EV / EV/EBITDA', 'Enterprise value = market value of equity + net debt (incl. leases). EV/EBITDA = what investors pay per rupee of EBITDA.'],
+      ['Forward multiple', 'Price (or EV) ÷ next full fiscal year\'s earnings (or EBITDA).'],
+      ['Sep-28E', 'Half FY28E + half FY29E: the twelve months a buyer looks at in September 2027, when our 12-month target falls due.'],
+      ['De-rating', 'A fall in the multiple investors pay; we measure it as the trailing multiple vs its own five-year median.'],
+      ['ROCE / ROE', 'Return on capital employed (operating profit ÷ debt + equity); return on equity (net profit ÷ shareholders\' equity).'],
+      ['DCF / WACC', 'Discounted cash flow: the present value of future free cash flows. WACC: the blended cost of equity and debt used to discount them.'],
+      ['Pre-IFRS 16 (UK)', 'The UK equivalent of pre-Ind AS 116: EBITDA after deducting rent. PPG FY25: £20 mn pre-IFRS 16, £29 mn post.'],
+    ], source: 'GAM Research' } },
+  ],
+};
+
+const statementNotes = {
+  'sales@FY21': '−17%: Covid lockdowns emptied hospitals of elective and international patients.',
+  'pat@FY21': 'Loss of ₹14 cr in the Covid year.',
+  'sales@FY22': '+43%: recovery in India and Cayman.',
+  'pat@FY22': 'Negative tax rate (deferred-tax credit) lifted profit to ₹342 cr.',
+  'sales@FY23': '+22%: India volumes and prices recovered; Cayman grew.',
+  'ebitdaMargin@FY23': '21.8%: operating leverage with no new beds.',
+  'capex@FY24': '₹971 cr: nearly double FY23 as expansion spending resumed.',
+  'sales@FY25': '+12%: India ARPOB +14%; Cayman +13% in US$.',
+  'sales@FY26': '+44%: UK (PPG) consolidated from 6-Nov-2025 (₹1,299 cr in five months); Cayman +60% in ₹ (Camana Bay, own insurer). Ex-UK ~+20%.',
+  'ebitdaMargin@FY26': '−290bp: UK at ~10%, ₹76 cr one-time acquisition cost, ₹139 cr of insurance and clinic losses; India hospitals 23.1%.',
+  'dep@FY26': '+61%: UK assets, right-of-use leases and PPA amortisation.',
+  'otherIncome@FY26': '₹37 cr (Screener) nets the ₹51 cr labour-code exceptional; company other income ₹100 cr.',
+  'pat@FY26': 'Flat (₹806 cr): higher interest (UK loan), depreciation and one-offs absorbed EBITDA growth.',
+  'capex@FY26': '₹875 cr capex; the ₹2,155 cr UK acquisition (net of cash) is outside capex.',
+  'sales@FY27E': '+42%: first full year of the UK and a weaker rupee; India hospitals +14%.',
+  'sales@Q3FY26': '+61%: UK from 6-Nov-2025.',
+  'opm@Q3FY26': '17%: ₹76 cr one-time UK acquisition cost.',
+  'otherIncome@Q3FY26': 'Negative: Screener nets the ₹51 cr labour-code charge.',
+  'sales@Q4FY26': '+76%: full UK quarter (£68 mn); India +13%.',
+  'sales@Q1FY27': '+78%: UK £65 mn; India hospitals +16%; Cayman hospital +5% in US$.',
+  'opm@Q1FY27': '17%: UK heatwave (8.8% margin), insurance and clinic losses of ₹68 cr; India hospitals 24.8%.',
+};
+
+module.exports = { glossary, statementNotes };
