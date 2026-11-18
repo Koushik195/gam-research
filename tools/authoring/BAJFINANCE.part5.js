@@ -40,7 +40,7 @@ const forecasts = {
       { name: 'Credit cost (% avg AUM)', ref: 'fin.creditCost', fmt: 'pct' }, { name: 'Net profit (₹ cr)', ref: 'fin.pat', fmt: 'num', hl: true }, { name: 'Minority interest (₹ cr)', ref: 'fin.minority', fmt: 'num' },
       { name: 'EPS (₹)', ref: 'fin.eps', fmt: 'n2', hl: true }, { name: 'EPS growth (%)', ref: 'fin.epsGrowth', fmt: 'pct' }, { name: 'Book value per share (₹)', ref: 'fin.bvps', fmt: 'n1' },
       { name: 'ROA on total assets (%)', ref: 'fin.roa', fmt: 'pct' }, { name: 'ROE (%)', ref: 'fin.roe', fmt: 'pct', hl: true },
-    ], source: 'Company, Screener.in; GAM estimates. Dividend: ₹6.00 a share for FY26 (incl. a ₹0.60 special); we model an 18% payout, ₹{{F.dps.0|n2}} for FY27E.' } },
+    ], source: `Company, Screener.in; GAM estimates. Dividend: ₹6.00 a share for FY26 (incl. a ₹0.60 special); we model an 18% payout, ₹${n2(F.dps[0])} for FY27E.` } },
     { p: `FY27E EPS growth of {{F.epsGrowth.0|pct}} looks high but is mostly the reversal of FY26's ₹1,813 cr of one-off charges: on FY26 EPS before one-offs (₹${n2(epsAdj26)}) it is ${pc((F.eps[0] / epsAdj26 - 1) * 100)}. It is also in line with Q1: profit was ₹6,081 cr in Q1 and our FY27E of ₹{{F.pat.0|num}} cr needs ~₹${n0((F.pat[0] - 6081) / 3)} cr a quarter for the rest of the year, ${pc(((F.pat[0] - 6081) / 3 / 6081 - 1) * 100)} above Q1, as AUM grows ~5% a quarter.` },
     { exhibit: { type: 'table', title: 'Our estimates vs the street (estimates standing on 30-Sep-2026)', head: ['Metric', 'GAM', 'Street', 'Source of street figure'], wide: [3], rows: [
       cmpRow('FY27E EPS (₹)', '{{F.eps.0|n2}}', n1(streetEps.iciciFY27), 'ICICI Direct: PAT ₹23,409 cr ÷ 622 cr shares (31-Jul-2026)'),
