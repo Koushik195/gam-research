@@ -49,3 +49,10 @@ node tools/lookahead.js SYMBOL 2026-09-30         # check a report has no inform
 
 Upside from the as-of price to the 12-month target: **BUY** at +15% or more, **HOLD** from −5% to
 +15%, **SELL** below −5% (`src/ratings.js`).
+
+## Website version (GitHub Pages)
+
+A read-only snapshot of the published library is online at
+https://koushik195.github.io/gam-research/library/ (no install needed). To update it after publishing
+reports, start the app and run `node tools/deploy-pages.js`. Preview the export locally with
+`node tools/serve-static.js` and open http://localhost:5190/gam-research/.
