@@ -1,0 +1,5061 @@
+{
+ "symbol": "APOLLOHOSP",
+ "listing": "NSE: APOLLOHOSP · BSE: 508869",
+ "date": "30 September 2026",
+ "rating": "HOLD",
+ "analysts": "GAM Research — Healthcare",
+ "cover": {
+  "headline": "India's best hospital franchise at a fair price: the hospitals justify today's value, but there is little left over for the pharmacy spin-off",
+  "lead": "Apollo runs India's largest private hospital network (48 owned and 6 managed hospitals, ~10,000 census beds), supplies ~7,440 Apollo pharmacies through Apollo HealthCo, and owns clinics and diagnostics (AHLL). Hospitals are the engine: occupancy rose to 70% in Q1FY27, revenue per in-patient grew 8%, and established hospitals earn a 25.9% EBITDA margin. The pharmacy and digital arm is being spun off: after a scheme approved by shareholders in Jun-2026, Apollo's shareholders will own **59.6%** of a listed NewCo that also absorbs Keimed, a promoter-linked wholesaler. The street values Apollo on a **sum of the parts (SOTP)**, hospitals at 26-30x EV/EBITDA. We forecast EBITDA of ₹4,574 / 5,549 / 6,511 cr and EPS of ₹167.7 / 209.8 / 250.8 for FY27-29E, below the street. Valuing hospitals at **24x Sep-28E EBITDA**, NewCo at 18x (Apollo's 59.6%), AHLL at 18x, and deducting minorities the street ignores gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with HOLD.** Cross-checks: P/E ₹10,364, DCF ₹5,660. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "The best hospital franchise in India, getting better",
+    "p": "Q1FY27: in-patient volumes +13%, occupancy 70% (65% a year earlier), revenue per in-patient ₹1,86,630 (+8%), hospital ROCE 28.5%. Cardiac, oncology, transplant, neuro, gastro and ortho are 62% of in-patient revenue; self-pay and insurance ~85% of in-patient revenue. We model group revenue +{{F.salesGrowth.0|pct}} in FY27, with hospitals +19.5% from a bed-by-bed build."
+   },
+   {
+    "h": "A bigger bed plan, and harder markets",
+    "p": "Census beds go from 9,857 to ~14,100 by FY31 (+4,330) for ~₹11,150 cr, with ~₹7,500 cr still to spend; most new beds are in the North and West (Gurgaon from Oct-2026, then Worli, Dwarka, Varanasi, Ranchi), where Apollo's record is weaker (West occupancy 58%). New hospitals lose ~₹150 cr in FY27; we hold the hospital margin at 23.8-24.7% (FY27-29E)."
+   },
+   {
+    "h": "Pharmacy: losses gone, value shared",
+    "p": "Apollo 24/7 ran up ~₹2,100 cr of operating costs over FY23-26; its cash loss was down to ₹10 cr in Q1FY27. NewCo (pharmacy distribution, 24/7, Keimed) targets ₹25,000 cr of annualised revenue at a 6.5-7% EBITDA margin by Q4FY27 and listing by Q4FY27. But it is a distribution business, and Advent (12.1%) and Keimed's owners (25.3%) share it; we value Apollo's 59.6% at ~₹1,376 a share."
+   },
+   {
+    "h": "Valuation: fair, not cheap",
+    "p": "At ₹8,166 the market pays ~20.8x our Sep-28E hospital EBITDA once the other parts are valued, against our derived 24x (Apollo's 25.4x forward median since 2021, less the ~7% hospital-sector de-rating). The street's higher targets (avg ~₹10,110 after Q1) use 26-30x and deduct nothing for minorities (~₹267 a share). The Parliamentary panel's pricing ideas are the main threat to the multiple."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "GREEN"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "AMBER"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): digital cash breakeven (guided for Q2), hospital margin with Gurgaon pre-opening costs, the seasonal quarter's occupancy.",
+   "Gurgaon (380 census beds): soft launch in Sep-2026 and opening in Oct-2026 guided; revenue from Q4FY27.",
+   "NCLT sanction of the HealthCo-Keimed scheme and the NewCo listing (estimated by Q4FY27 \"post all approvals\").",
+   "Completion of the Cloudnine deal (CCI approved on 1-Sep-2026; ~₹750 cr of cash and a 9.9% stake).",
+   "Any government move on the Parliamentary committee's hospital-pricing recommendations (room-rent benchmarks, package rates)."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating beds barely grew in FY22-26; the jump starts now",
+       "unit": "Operating beds, network incl. Delhi (year end; Q1FY27 = Jun-26)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Operating beds",
+         "values": [
+          7875,
+          7860,
+          7945,
+          8025,
+          8131,
+          8352
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Q1FY27",
+       "min": 7000,
+       "source": "AR FY26 KPIs; Q1FY27 presentation"
+      },
+      {
+       "type": "line",
+       "title": "Occupancy: 63% in FY22, 70% in Q1FY27",
+       "unit": "Bed occupancy (%)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Occupancy",
+         "values": [
+          63,
+          64,
+          65,
+          68,
+          67,
+          65,
+          70
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 55,
+       "max": 75,
+       "source": "AR FY26 KPIs; Q1FY27 presentation"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue per in-patient: +26% in three years",
+       "unit": "Average revenue per in-patient (₹)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ARPP",
+         "values": [
+          142958,
+          141175,
+          152280,
+          162902,
+          178434,
+          186630
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Q1FY27",
+       "source": "AR FY26 KPIs; Q1FY27 presentation"
+      },
+      {
+       "type": "line",
+       "title": "Patients stay almost a day less than in FY22",
+       "unit": "Average length of stay (days)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ALOS",
+         "values": [
+          3.96,
+          3.41,
+          3.33,
+          3.32,
+          3.17,
+          3.09
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "min": 2.5,
+       "max": 4.2,
+       "source": "AR FY26 KPIs; Q1FY27 presentation"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "Revenue: hospitals and pharmacy grow side by side",
+       "unit": "Revenue by business (₹ crore)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Hospitals",
+         "values": [
+          8677,
+          9867,
+          11148,
+          12555,
+          15007,
+          17678,
+          19918
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "HealthCo",
+         "values": [
+          6705,
+          7827,
+          9093,
+          10808,
+          12862,
+          15048,
+          17456
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "AHLL",
+         "values": [
+          1231,
+          1365,
+          1554,
+          1865,
+          1889,
+          1969,
+          2303
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 1500,
+       "source": "Company presentations; GAM estimates FY27-29E"
+      },
+      {
+       "type": "stacked",
+       "title": "EBITDA: hospitals are ~76% of it even in FY29E",
+       "unit": "EBITDA by business, post-Ind AS (₹ crore)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Hospitals",
+         "values": [
+          2133,
+          2356,
+          2701,
+          3069,
+          3572,
+          4260,
+          4920
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "HealthCo (after 24/7 costs)",
+         "values": [
+          -202,
+          -82,
+          168,
+          488,
+          772,
+          1023,
+          1257
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "AHLL",
+         "values": [
+          118,
+          117,
+          154,
+          213,
+          230,
+          266,
+          334
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 400,
+       "source": "Company presentations; GAM estimates FY27-29E"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward EV/EBITDA: median 25.4x since 2021, 22.1x now",
+       "unit": "EV (incl. leases and CCPS) ÷ next full-year EBITDA, post-Ind AS (x)",
+       "x": [
+        "2021-04-01",
+        "2021-04-09",
+        "2021-04-16",
+        "2021-04-23",
+        "2021-04-30",
+        "2021-05-07",
+        "2021-05-14",
+        "2021-05-21",
+        "2021-05-28",
+        "2021-06-04",
+        "2021-06-11",
+        "2021-06-18",
+        "2021-06-25",
+        "2021-07-02",
+        "2021-07-09",
+        "2021-07-16",
+        "2021-07-23",
+        "2021-07-30",
+        "2021-08-06",
+        "2021-08-13",
+        "2021-08-20",
+        "2021-08-27",
+        "2021-09-03",
+        "2021-09-09",
+        "2021-09-17",
+        "2021-09-24",
+        "2021-10-01",
+        "2021-10-08",
+        "2021-10-14",
+        "2021-10-22",
+        "2021-10-29",
+        "2021-11-04",
+        "2021-11-12",
+        "2021-11-18",
+        "2021-11-26",
+        "2021-12-03",
+        "2021-12-10",
+        "2021-12-17",
+        "2021-12-24",
+        "2021-12-31",
+        "2022-01-07",
+        "2022-01-14",
+        "2022-01-21",
+        "2022-01-28",
+        "2022-02-04",
+        "2022-02-11",
+        "2022-02-18",
+        "2022-02-25",
+        "2022-03-04",
+        "2022-03-11",
+        "2022-03-17",
+        "2022-03-25",
+        "2022-04-01",
+        "2022-04-08",
+        "2022-04-13",
+        "2022-04-22",
+        "2022-04-29",
+        "2022-05-06",
+        "2022-05-13",
+        "2022-05-20",
+        "2022-05-27",
+        "2022-06-03",
+        "2022-06-10",
+        "2022-06-17",
+        "2022-06-24",
+        "2022-07-01",
+        "2022-07-08",
+        "2022-07-15",
+        "2022-07-22",
+        "2022-07-29",
+        "2022-08-05",
+        "2022-08-12",
+        "2022-08-19",
+        "2022-08-26",
+        "2022-09-02",
+        "2022-09-09",
+        "2022-09-16",
+        "2022-09-23",
+        "2022-09-30",
+        "2022-10-07",
+        "2022-10-14",
+        "2022-10-21",
+        "2022-10-28",
+        "2022-11-04",
+        "2022-11-11",
+        "2022-11-18",
+        "2022-11-25",
+        "2022-12-02",
+        "2022-12-09",
+        "2022-12-16",
+        "2022-12-23",
+        "2022-12-30",
+        "2023-01-06",
+        "2023-01-13",
+        "2023-01-20",
+        "2023-01-27",
+        "2023-02-03",
+        "2023-02-10",
+        "2023-02-17",
+        "2023-02-24",
+        "2023-03-03",
+        "2023-03-10",
+        "2023-03-17",
+        "2023-03-24",
+        "2023-03-31",
+        "2023-04-06",
+        "2023-04-13",
+        "2023-04-21",
+        "2023-04-28",
+        "2023-05-05",
+        "2023-05-12",
+        "2023-05-19",
+        "2023-05-26",
+        "2023-06-02",
+        "2023-06-09",
+        "2023-06-16",
+        "2023-06-23",
+        "2023-06-30",
+        "2023-07-07",
+        "2023-07-14",
+        "2023-07-21",
+        "2023-07-28",
+        "2023-08-04",
+        "2023-08-11",
+        "2023-08-18",
+        "2023-08-25",
+        "2023-09-01",
+        "2023-09-08",
+        "2023-09-15",
+        "2023-09-22",
+        "2023-09-29",
+        "2023-10-06",
+        "2023-10-13",
+        "2023-10-20",
+        "2023-10-27",
+        "2023-11-03",
+        "2023-11-12",
+        "2023-11-17",
+        "2023-11-24",
+        "2023-12-01",
+        "2023-12-08",
+        "2023-12-15",
+        "2023-12-22",
+        "2023-12-29",
+        "2024-01-05",
+        "2024-01-12",
+        "2024-01-20",
+        "2024-01-25",
+        "2024-02-02",
+        "2024-02-09",
+        "2024-02-16",
+        "2024-02-23",
+        "2024-03-02",
+        "2024-03-07",
+        "2024-03-15",
+        "2024-03-22",
+        "2024-03-28",
+        "2024-04-05",
+        "2024-04-12",
+        "2024-04-19",
+        "2024-04-26",
+        "2024-05-03",
+        "2024-05-10",
+        "2024-05-18",
+        "2024-05-24",
+        "2024-05-31",
+        "2024-06-07",
+        "2024-06-14",
+        "2024-06-21",
+        "2024-06-28",
+        "2024-07-05",
+        "2024-07-12",
+        "2024-07-19",
+        "2024-07-26",
+        "2024-08-02",
+        "2024-08-09",
+        "2024-08-16",
+        "2024-08-23",
+        "2024-08-30",
+        "2024-09-06",
+        "2024-09-13",
+        "2024-09-20",
+        "2024-09-27",
+        "2024-10-04",
+        "2024-10-11",
+        "2024-10-18",
+        "2024-10-25",
+        "2024-11-01",
+        "2024-11-08",
+        "2024-11-14",
+        "2024-11-22",
+        "2024-11-29",
+        "2024-12-06",
+        "2024-12-13",
+        "2024-12-20",
+        "2024-12-27",
+        "2025-01-03",
+        "2025-01-10",
+        "2025-01-17",
+        "2025-01-24",
+        "2025-02-01",
+        "2025-02-07",
+        "2025-02-14",
+        "2025-02-21",
+        "2025-02-28",
+        "2025-03-07",
+        "2025-03-13",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-04",
+        "2025-04-11",
+        "2025-04-17",
+        "2025-04-25",
+        "2025-05-02",
+        "2025-05-09",
+        "2025-05-16",
+        "2025-05-23",
+        "2025-05-30",
+        "2025-06-06",
+        "2025-06-13",
+        "2025-06-20",
+        "2025-06-27",
+        "2025-07-04",
+        "2025-07-11",
+        "2025-07-18",
+        "2025-07-25",
+        "2025-08-01",
+        "2025-08-08",
+        "2025-08-14",
+        "2025-08-22",
+        "2025-08-29",
+        "2025-09-05",
+        "2025-09-12",
+        "2025-09-19",
+        "2025-09-26",
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          21.5,
+          23.1,
+          22.6,
+          23.6,
+          23.6,
+          24.4,
+          23.2,
+          23.9,
+          23.2,
+          24.6,
+          24.2,
+          23.4,
+          25,
+          27,
+          27,
+          27.3,
+          28.3,
+          29.1,
+          29.5,
+          29.3,
+          34.1,
+          34.2,
+          35.9,
+          33.9,
+          35.2,
+          34,
+          32.1,
+          31.5,
+          31.2,
+          29.1,
+          30.7,
+          31.9,
+          33.5,
+          39.9,
+          40.6,
+          38.8,
+          37.5,
+          34.3,
+          34.7,
+          35.9,
+          36,
+          35.7,
+          33.7,
+          32.2,
+          33.7,
+          32.5,
+          32.2,
+          33.3,
+          34.1,
+          34.8,
+          34.7,
+          33.6,
+          27.9,
+          28.5,
+          29.4,
+          29.8,
+          27.6,
+          23.9,
+          22.2,
+          22.9,
+          24.1,
+          22.5,
+          23.2,
+          23.2,
+          24,
+          23.4,
+          24.6,
+          24.6,
+          25.8,
+          26.3,
+          27.2,
+          26.9,
+          25.8,
+          26.3,
+          26.9,
+          27.8,
+          26.7,
+          27.5,
+          27.3,
+          27.4,
+          26.8,
+          27.3,
+          28.4,
+          27.2,
+          27.5,
+          27.4,
+          29.7,
+          30.2,
+          29.1,
+          28.4,
+          29.2,
+          27.9,
+          27.3,
+          27,
+          26.7,
+          26.5,
+          26.5,
+          27.5,
+          28.7,
+          27.8,
+          27.5,
+          26.9,
+          27.1,
+          26.7,
+          26.9,
+          20.7,
+          21.6,
+          21.4,
+          22.2,
+          22.6,
+          22.6,
+          21.9,
+          22.6,
+          24.5,
+          24.3,
+          25.6,
+          24.9,
+          25.2,
+          25.4,
+          25.5,
+          25.7,
+          26.3,
+          24.6,
+          24.2,
+          24,
+          24.1,
+          23.9,
+          24.6,
+          25.1,
+          24.6,
+          25.3,
+          25,
+          24.8,
+          24.6,
+          23.9,
+          25.4,
+          26,
+          27,
+          26.6,
+          27.5,
+          27.3,
+          27.3,
+          27.3,
+          28,
+          28.3,
+          28.5,
+          30,
+          30.2,
+          31,
+          31.5,
+          32.3,
+          33.1,
+          30.1,
+          29.7,
+          29.4,
+          31.2,
+          31.1,
+          25.1,
+          25.2,
+          24.3,
+          24.6,
+          23.7,
+          23,
+          23.4,
+          23.3,
+          23.1,
+          23.8,
+          24.5,
+          24.4,
+          24.4,
+          25,
+          25.1,
+          25.2,
+          26.3,
+          26.4,
+          26,
+          26.4,
+          27,
+          27.3,
+          27.2,
+          27.6,
+          27.9,
+          28.4,
+          26.7,
+          27.5,
+          27.5,
+          27.3,
+          27.7,
+          29.1,
+          27,
+          27.3,
+          26.9,
+          28.4,
+          28.5,
+          28.5,
+          28.5,
+          28.7,
+          27.7,
+          26.9,
+          26.6,
+          26.9,
+          26.7,
+          24.8,
+          24.9,
+          23.9,
+          24.6,
+          24.1,
+          26.1,
+          26.1,
+          21.9,
+          22.1,
+          23,
+          22.6,
+          22.6,
+          21.9,
+          22.8,
+          23,
+          22.5,
+          22.7,
+          22.9,
+          23.1,
+          23.8,
+          24.6,
+          23.5,
+          23.8,
+          24.3,
+          24,
+          23.1,
+          25.5,
+          25.8,
+          24.8,
+          25.4,
+          25.6,
+          25.4,
+          24.5,
+          24.3,
+          25,
+          25.7,
+          25.5,
+          25,
+          24.9,
+          24.2,
+          24.1,
+          23.9,
+          23.5,
+          23.2,
+          22.9,
+          23.4,
+          23.3,
+          23.7,
+          23.6,
+          22.3,
+          22.7,
+          23.4,
+          24.6,
+          24.8,
+          25.5,
+          25.2,
+          24.6,
+          24,
+          24.6,
+          19.7,
+          20.2,
+          20.7,
+          20.8,
+          20.5,
+          21.7,
+          21.7,
+          22.4,
+          21.9,
+          22.4,
+          22.9,
+          22.9,
+          23.2,
+          23.9,
+          23.8,
+          23.8,
+          23.7,
+          24.1,
+          24.1,
+          24,
+          23.4,
+          23.8,
+          23.3,
+          23.8,
+          24.1,
+          23.9,
+          22.1
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 25.4,
+         "text": "Median: 25.4x"
+        },
+        {
+         "v": 24,
+         "text": "Hospitals target: 24x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices and balance sheets; GAM estimates FY27-29E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (notes standing on 30-Sep-26)",
+       "unit": "₹ per share; CMP ₹8,166",
+       "x": [
+        "Motilal Oswal (13-Aug-26)",
+        "Prabhudas Lilladher (14-Aug-26)",
+        "ICICI Securities (14-Aug-26)",
+        "Antique Stock Broking (29-Jun-26)",
+        "Jefferies (22-May-26)",
+        "Citi (30-Mar-26)",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          10160,
+          10000,
+          10170,
+          9790,
+          9700,
+          9600,
+          9190
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and aggregators (Mar-2026 to Aug-2026), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Apollo does",
+   "kicker": "The business",
+   "title": "Three businesses in one stock: hospitals that earn the money, a pharmacy arm that turns it over, clinics that feed both",
+   "blocks": [
+    {
+     "p": "**Healthcare Services (hospitals)** is half of revenue and four-fifths of EBITDA: ₹12,555 cr of revenue and ₹3,069 cr of EBITDA (24.4%) in FY26. The network had 8,352 operating beds in Jun-2026 (6 metros 4,848 beds at 72% occupancy and ₹2.23 lakh per in-patient; 18 smaller cities 3,504 beds at 66% and ₹1.32 lakh). The Delhi hospital (Indraprastha, 22% owned, listed) is in the bed counts but only its profit share is consolidated. Apollo is a tertiary-care chain: cardiac, oncology (incl. a proton-therapy centre in Chennai), transplants, neurosciences, gastro and orthopaedics (\"CONGO-T\") are 62% of in-patient revenue; 6% comes from international patients from ~150 countries."
+    },
+    {
+     "p": "**Apollo HealthCo** (₹10,808 cr revenue, ₹488 cr EBITDA after digital costs in FY26) buys medicines and supplies the ~7,440 Apollo pharmacies, which are owned by Apollo Medicals (AMPL, an associate) rather than by Apollo itself; it also runs private-label products (15.2% of sales) and **Apollo 24/7**, the app (49 mn registered users) for teleconsults, medicine delivery, diagnostics booking and insurance. Before digital costs it earns ~8.8%; after the ₹349 cr of 24/7 operating cost and ₹118 cr of ESOP charges in FY26, 4.5%. **AHLL** (₹1,865 cr, 11.4% margin) runs 299 clinics, diagnostics (₹706 cr of revenue in FY26), Spectra day-surgery centres, dialysis and dental chains, and (until the Cloudnine deal completes) Cradle maternity and fertility centres."
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Hospitals: half the revenue, four-fifths of the profit",
+       "unit": "FY26 share of revenue and EBITDA (%)",
+       "x": [
+        "Hospitals: revenue",
+        "Hospitals: EBITDA",
+        "HealthCo: revenue",
+        "HealthCo: EBITDA",
+        "AHLL: revenue",
+        "AHLL: EBITDA"
+       ],
+       "series": [
+        {
+         "name": "FY26",
+         "values": [
+          49.8,
+          81.4,
+          42.8,
+          12.9,
+          7.4,
+          5.7
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 presentation (segment table)"
+      },
+      {
+       "type": "hbar",
+       "title": "Who pays for in-patients (Q1FY27)",
+       "unit": "Share of in-patient revenue (%)",
+       "x": [
+        "Insurance",
+        "Self-pay (cash)",
+        "PSU & government",
+        "International patients"
+       ],
+       "series": [
+        {
+         "name": "Q1FY27",
+         "values": [
+          46,
+          39,
+          9,
+          6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation p.13"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Hospital regions, Q1FY27 (network incl. Delhi)",
+      "head": [
+       "Region",
+       "Operating beds",
+       "Occupancy (prior year)",
+       "Revenue per in-patient (₹)",
+       "Net revenue (₹ cr)"
+      ],
+      "rows": [
+       [
+        "Tamil Nadu",
+        "2,002",
+        "70% (62%)",
+        "2,13,309",
+        "1,140"
+       ],
+       [
+        "AP & Telangana",
+        "1,415",
+        "67% (63%)",
+        "1,94,605",
+        "655"
+       ],
+       [
+        "Karnataka",
+        "831",
+        "70% (69%)",
+        "1,96,748",
+        "430"
+       ],
+       [
+        "East",
+        "1,931",
+        "76% (71%)",
+        "1,58,942",
+        "734"
+       ],
+       [
+        "West",
+        "940",
+        "58% (52%)",
+        "1,73,128",
+        "316"
+       ],
+       [
+        "North (incl. Delhi)",
+        "1,233",
+        "73% (70%)",
+        "1,79,989",
+        "615"
+       ]
+      ],
+      "source": "Q1FY27 presentation pp.16-21; East revenue per patient excludes fee-for-service doctor fees in Kolkata"
+     }
+    },
+    {
+     "callout": "**So what:** most of Apollo's value is the hospitals, and within them the old, dense South Indian clusters (Chennai, Hyderabad, Bengaluru) and Kolkata. The pharmacy arm is large but thin-margin, and its economics are changing hands: after the scheme, Apollo's shareholders own 59.6% of it, not 100%. Read every consolidated number with that in mind."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "Forty years from one Chennai hospital; the last five spent building, then splitting, a pharmacy and digital empire",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1983",
+        "Dr Prathap C. Reddy opens Apollo's first hospital in Chennai, India's first corporate hospital.",
+        "Founder-led group; the Reddy family (four daughters run the businesses) still controls it with 28%."
+       ],
+       [
+        "FY21",
+        "Covid year: revenue -6%, EBITDA -28%; equity raised through a QIP (share capital ₹70 cr to ₹72 cr).",
+        "FY21 is a trough year in the history (EPS ₹10.5)."
+       ],
+       [
+        "FY22",
+        "Pharmacy restructuring: the front-end store chain moved to Apollo Medicals (AMPL, an associate); Apollo HealthCo formed in Mar-2022 to run back-end distribution and Apollo 24/7. Covid vaccination and testing revenue boosted FY22.",
+        "HealthCo revenue is wholesale distribution, so its margins look thin (8-9% before digital costs). FY22 PAT included ₹220 cr of exceptional gains."
+       ],
+       [
+        "FY23-FY25",
+        "Apollo 24/7 build-out: digital operating costs of ₹657 cr (FY23), ₹619 cr (FY24) and ₹478 cr (FY25) pushed HealthCo EBITDA negative in FY23-24.",
+        "Group EBITDA margin 12.3-12.5% in FY23-24 vs 13.9% in FY25 and 14.9% in FY26 as digital losses shrank."
+       ],
+       [
+        "Sep-2024 / Mar-2025",
+        "Advent International invests ₹2,475 cr in Apollo HealthCo through CCPS; Apollo HealthCo buys Keimed shares.",
+        "CCPS of ₹2,457 cr booked as a liability in consolidated borrowings (Screener borrowings up from ₹5,333 cr to ₹7,864 cr in FY25)."
+       ],
+       [
+        "Jun-2025",
+        "Composite scheme announced: demerge pharmacy distribution + 24/7 + telehealth into Apollo Healthtech (NewCo), merge Keimed into it, list it; 195.2 NewCo shares per 100 Apollo shares.",
+        "Apollo's shareholders will own 59.6% of NewCo (42.1% directly, 17.5% through Apollo). Shareholders approved on 24-Jun-2026; NCLT sanction pending."
+       ],
+       [
+        "Jul-Sep 2025",
+        "Promoter Suneeta Reddy sells 1.9 mn shares (1.32%); promoter holding falls from 29.34% to 28.02%.",
+        "Small, but the second family sell-down since 2019 (promoters held 34.4% in Mar-2019)."
+       ],
+       [
+        "Mar-2026",
+        "Apollo buys out IFC and other minorities in AHLL for ₹1,273 cr; AHLL becomes 100% owned. IFC's put option (liability of ₹684 cr) extinguished.",
+        "Cash outflow pushed the company to net debt of ₹866 cr at Mar-26 from net cash; removes a minority leak from AHLL."
+       ],
+       [
+        "FY26",
+        "Four new hospitals commissioned (Pune, Sonarpur, Gachibowli, Defence Colony; ~855 census beds) and Sarjapur-1 acquired; labour-code provision of ₹19 cr.",
+        "New-hospital losses (~₹41 cr in Q4FY26) start to weigh on the hospital margin."
+       ],
+       [
+        "May-2026",
+        "Apollo Cradle and Fertility to combine with Cloudnine at ~₹1,550 cr (~35x EBITDA); CCI approval 1-Sep-2026.",
+        "AHLL loses ~₹450 cr of revenue (24% of FY26) and gets ~₹750 cr of cash plus a 9.9% stake in Cloudnine."
+       ],
+       [
+        "Aug-2026",
+        "Board approves Price Waterhouse as statutory auditor for five years from the 2027 AGM, replacing Deloitte Haskins & Sells.",
+        "Rotation at the end of Deloitte's term; no qualification reported."
+       ]
+      ],
+      "source": "Annual reports, presentations, exchange filings and press (to 30-Sep-2026)"
+     }
+    },
+    {
+     "callout": "**Why it matters:** history explains three quirks in the data. (1) FY22 is inflated by Covid revenue and exceptional gains. (2) The FY23-24 margin dip was the digital build-out, not hospitals. (3) Since FY25 Screener's \"borrowings\" include Advent's ₹2,457 cr CCPS, which is equity in the pharmacy company in all but accounting form; we add it back in the valuation."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Too few good beds, and a regulator starting to look at prices",
+   "blocks": [
+    {
+     "p": "India spends little on healthcare and has few hospital beds (government beds ~0.79 per 1,000 people), so demand for quality private tertiary care keeps outrunning supply. Antique estimates healthcare delivery grows 10-12% a year to ~₹12 lakh cr by FY30, with private providers' share of treatments rising from 64% to ~69%. The listed chains are responding with the biggest building programme in their history: ~19,000 beds added in FY23-26 and plans for +54% more (to ~108,000) by FY30, two-thirds brownfield. Insurance is the fastest-growing payer and now negotiates hard, resetting tariffs every two years. Pricing is also becoming political: on 7-Aug-2026 a Parliamentary committee recommended linking metro room charges to three-star hotel rates, ending room-linked pricing of procedures and creating a hospital-price regulator."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Industry facts that matter for Apollo",
+      "head": [
+       "Topic",
+       "Fact",
+       "Source"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Market",
+        "Healthcare delivery expected to grow 10-12% a year to ~₹12 lakh cr by FY30; private providers' share of treatments from 64% (FY20) to ~69% (FY30E).",
+        "Antique Stock Broking sector initiation via Business Today (29-Jun-26)"
+       ],
+       [
+        "Bed supply",
+        "15 listed/large chains added ~19,000 beds in FY23-26 to 70,000+ and plan +54% to ~108,000 by FY30E; ~63% of planned beds are brownfield; ARPOB growth seen at 4-5% a year.",
+        "Antique via Business Today (29-Jun-26)"
+       ],
+       [
+        "Under-supply",
+        "Government beds of only ~0.79 per 1,000 people; private care 8-15x costlier (Parliamentary committee). Apollo: India still needs 2.4 mn high-quality beds.",
+        "moneylife.in (Aug-26)"
+       ],
+       [
+        "Regulation",
+        "Parliamentary Standing Committee on Health (176th report, 7-Aug-2026): benchmark metro room rents to three-star hotels, end room-linked procedure pricing, standard packages, a hospital-price regulator. Recommendations only.",
+        "outlookbusiness.com (Aug-26)"
+       ],
+       [
+        "Payers",
+        "Insurance is the fastest-growing payer: 46% of Apollo's in-patient revenue in Q1FY27 (45% in FY26), growing 25% vs 16% for self-pay; insurers re-negotiate tariffs every two years.",
+        "Apollo Q1FY27 presentation and call (13-Aug-26)"
+       ],
+       [
+        "Pharmacy",
+        "Organised pharmacy chains are a small share of India's retail pharmacy market; Apollo (~7,440 stores) and MedPlus are the largest chains; e-pharmacy and quick-commerce players compete on delivery speed.",
+        "Apollo Q1FY27 presentation; MedPlus filings (12-Aug-26)"
+       ]
+      ],
+      "source": "As cited; all published before 30-Sep-2026"
+     }
+    },
+    {
+     "callout": "**Our read:** the demand side is not the issue for Apollo; supply is. When every chain adds 50% more beds by FY30, mostly in the same metros (Delhi NCR, Mumbai, Bengaluru, Hyderabad), occupancy and doctor costs become the battleground. Apollo has the brand to win that fight in its home markets, less obviously in the North and West where Max, Medanta and Fortis are entrenched."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Does the sector tailwind reach Apollo? Mostly yes in hospitals, partly in pharmacy",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Tailwind test",
+      "head": [
+       "Tailwind",
+       "Reaches Apollo?",
+       "Evidence",
+       "So what"
+      ],
+      "wide": [
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "Rising insurance penetration",
+        "Yes",
+        "Insurance revenue +25% in Q1FY27 vs +16% self-pay; 46% of in-patient revenue (45% in FY26).",
+        "Volume support, but insurers cap price growth (two-year resets)."
+       ],
+       [
+        "Shift to complex, high-value care",
+        "Yes",
+        "CONGO-T revenue +24% on +15% volume; robotic surgeries +85%; revenue per in-patient +8%.",
+        "Drives ARPP faster than price increases."
+       ],
+       [
+        "Medical tourism",
+        "Partly",
+        "International revenue +26% in Q1FY27, but Bangladesh volumes only 60-70% of their peak after the 2024-25 disruption.",
+        "Upside if Bangladesh normalises fully."
+       ],
+       [
+        "Under-supply of beds",
+        "Yes, with a lag",
+        "Operating beds rose only 3% FY22-26; occupancy rose from 63% to 70%. +4,330 census beds planned by FY31.",
+        "Growth from FY28 depends on new beds filling."
+       ],
+       [
+        "Organised pharmacy and e-pharmacy",
+        "Partly",
+        "HealthCo revenue +19% in FY26; digital pharmacy +25-30%; but the stores belong to AMPL and quick-commerce rivals compete on delivery.",
+        "Apollo shareholders keep 59.6% of the upside after the scheme."
+       ],
+       [
+        "Diagnostics consolidation",
+        "Partly",
+        "AHLL diagnostics +31% in Q1FY27 at a 14% margin vs 25-40% for listed labs.",
+        "Sub-scale; margin target 20%."
+       ]
+      ],
+      "source": "Q1FY27 presentation and call; GAM Research"
+     }
+    },
+    {
+     "callout": "**Verdict:** the hospital tailwinds reach Apollo in full; its occupancy and price/mix gains in Q1FY27 are among the best in the sector. The risk is the other side of the same coin: the higher Apollo's prices go in metros (₹2.23 lakh per in-patient), the more it is exposed if regulation targets room-linked pricing."
+    }
+   ]
+  },
+  {
+   "id": "hospitals",
+   "nav": "Beds, occupancy & pricing",
+   "kicker": "Operating KPIs",
+   "title": "Hospital revenue = beds × occupancy × patients × price: for four years Apollo grew on occupancy and price, not beds",
+   "blocks": [
+    {
+     "p": "Apollo reports its hospitals as a network that includes the 22%-owned Delhi hospital: **operating beds**, **occupancy**, **in-patient discharges**, **average length of stay (ALOS)** and **average revenue per in-patient (ARPP)**. Discharges × ARPP gives in-patient revenue (~82% of the network's net revenue; the rest is out-patients and other services), and the consolidated hospital segment is ~91% of network revenue (the gap is mainly Delhi). From FY22 to FY26 operating beds rose only 3% (7,875 → 8,131), but occupancy rose from 63% to 67% (70% in Q1FY27), stays fell from 3.96 to 3.17 days (so each bed treated more patients), and ARPP rose 25% (₹1.43 lakh → ₹1.78 lakh) on price (~4-5% a year) and sicker, more complex cases. Revenue per occupied bed-day (ARPP ÷ ALOS) was ₹56,288 in FY26 and ₹60,398 in Q1FY27."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The revenue identity, checked (network incl. Delhi; ₹ crore unless stated)",
+      "head": [
+       "",
+       "FY23",
+       "FY24",
+       "FY25",
+       "FY26"
+      ],
+      "rows": [
+       [
+        "Operating beds (year end)",
+        "7,860",
+        "7,945",
+        "8,025",
+        "8,131"
+       ],
+       [
+        "Occupancy",
+        "64%",
+        "65%",
+        "68%",
+        "67%"
+       ],
+       [
+        "In-patient discharges ('000)",
+        "540",
+        "560",
+        "604",
+        "629"
+       ],
+       [
+        "× revenue per in-patient (₹)",
+        "1,41,175",
+        "1,52,280",
+        "1,62,902",
+        "1,78,434"
+       ],
+       [
+        "= in-patient revenue",
+        "7,623",
+        "8,528",
+        "9,839",
+        "11,223"
+       ],
+       [
+        "Network net revenue incl. Delhi",
+        "–",
+        "–",
+        "12,182",
+        "13,740"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Hospital segment revenue (consolidated)**",
+         "**8,677**",
+         "**9,867**",
+         "**11,148**",
+         "**12,555**"
+        ]
+       }
+      ],
+      "source": "AR FY26 KPIs; Q4FY26 presentation p.18; GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Occupancy: 65-73% by quarter; 70% in Q1FY27",
+       "unit": "Bed occupancy (%), quarterly",
+       "x": [
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Occupancy",
+         "values": [
+          73,
+          68,
+          67,
+          65,
+          69,
+          67,
+          68,
+          70
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 55,
+       "max": 80,
+       "source": "Company presentations"
+      },
+      {
+       "type": "column",
+       "title": "Revenue per in-patient: +8-11% a year in each of the last four quarters",
+       "unit": "Average revenue per in-patient (₹)",
+       "x": [
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ARPP",
+         "values": [
+          159379,
+          162957,
+          171358,
+          172328,
+          173318,
+          180917,
+          187208,
+          186630
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Established vs new hospitals",
+      "head": [
+       "",
+       "Q4FY26",
+       "Q1FY27",
+       "Note"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Established hospitals: EBITDA margin",
+        "25.5%",
+        "25.9%",
+        "~26% \"a good sustainable number\" (CFO)"
+       ],
+       [
+        "Established hospitals: occupancy",
+        "69% (FY26)",
+        "72%",
+        "Q1FY26: 65%"
+       ],
+       [
+        "New hospitals: revenue (₹ cr)",
+        "–",
+        "92",
+        "380 operational beds in five new units"
+       ],
+       [
+        "New hospitals: EBITDA (₹ cr)",
+        "−41",
+        "−38",
+        "Guided ~−150 for FY27, breakeven by Q3-Q4 FY28"
+       ],
+       [
+        "Hospital EBITDA per operating bed (₹ lakh, annualised)",
+        "37.7",
+        "41.3",
+        "Network beds include Delhi, so this understates (Delhi profit is not in the segment)"
+       ]
+      ],
+      "source": "Q4FY26 and Q1FY27 presentations and calls; GAM Research"
+     }
+    },
+    {
+     "callout": "**What moves the numbers:** each 1pp of occupancy on ~8,600 beds is ~10,000 more discharges a year, or ~₹217 cr of revenue at FY27E prices; each 1% of ARPP is ~₹150 cr. The established hospitals are already at 72% occupancy, near the practical ceiling of ~75-80%, so the next leg of growth has to come from new beds and price, which is exactly where regulation and execution risk sit."
+    }
+   ]
+  },
+  {
+   "id": "expansion",
+   "nav": "Expansion pipeline",
+   "kicker": "Growth plan",
+   "title": "+4,330 census beds by FY31 for ~₹11,150 cr: the biggest build in Apollo's history, mostly outside its home turf",
+   "blocks": [
+    {
+     "p": "Census beds 9,857 (Jun-2026) to ~14,100 by FY31 (+4,330 census beds, +5,798 total beds) for a project cost of ~₹11,150 cr, of which ~₹7,500 cr was still to be spent at Jun-2026 (₹3,650 cr already incurred, per ICICI Direct). 380 of ~1,000 recently commissioned census beds (excluding Gurgaon) were operational at Jun-2026; the other ~620 to open over 12-18 months. Of the plan, 1,387 census beds belong to FY26-27 (Pune, Sonarpur, Gachibowli, Defence Colony, Sarjapur-1 and Gurgaon), 327 to FY28-29 (brownfield additions in Hyderabad, Bengaluru/Mysore and Indore), and 2,996 to FY30-31 (Worli, Dwarka, OMR Chennai, Varanasi, Sarjapur-2, Ranchi, Indore, Lucknow and two proton/cancer centres). The average cost is ~₹2.4 cr per census bed, from ₹0.9-1.1 cr for asset-light leased hospitals (Sonarpur, Gachibowli) to ₹2.6-2.7 cr for Worli and Dwarka. Jubilee Hills and Secunderabad slipped to FY28-29 (re-design, landlord delays)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Bed pipeline (company plan, Q1FY27)",
+      "head": [
+       "Project",
+       "Phase",
+       "Type",
+       "Census beds",
+       "Cost (₹ cr)",
+       "₹ cr per census bed",
+       "Operational (Jun-26)"
+      ],
+      "rows": [
+       [
+        "Pune (Phase 1 & 2)",
+        "FY26-27",
+        "Asset-light greenfield",
+        "305",
+        "665",
+        "2.18",
+        "100"
+       ],
+       [
+        "Sonarpur, Kolkata",
+        "FY26-27",
+        "Asset-light greenfield",
+        "220",
+        "310",
+        "1.41",
+        "75"
+       ],
+       [
+        "Gachibowli (Financial District), Hyderabad",
+        "FY26-27",
+        "Asset-light greenfield",
+        "300",
+        "550",
+        "1.83",
+        "123"
+       ],
+       [
+        "Defence Colony, Delhi",
+        "FY26-27",
+        "Asset-light greenfield",
+        "32",
+        "65",
+        "2.03",
+        "32"
+       ],
+       [
+        "Sarjapur-1, Bengaluru",
+        "FY26-27",
+        "Acquisition",
+        "150",
+        "300",
+        "2.00",
+        "50"
+       ],
+       [
+        "Gurgaon, NCR",
+        "FY26-27",
+        "Greenfield + acquisition",
+        "380",
+        "1,295",
+        "3.41",
+        "0"
+       ],
+       [
+        "Jubilee Hills (expansion)",
+        "FY28-29",
+        "Brownfield",
+        "80",
+        "230",
+        "2.88",
+        "–"
+       ],
+       [
+        "Secunderabad (expansion)",
+        "FY28-29",
+        "Brownfield",
+        "80",
+        "70",
+        "0.88",
+        "–"
+       ],
+       [
+        "Malleswaram & Mysore (expansion)",
+        "FY28-29",
+        "Brownfield",
+        "125",
+        "205",
+        "1.64",
+        "–"
+       ],
+       [
+        "Indore oncology (expansion)",
+        "FY28-29",
+        "Brownfield",
+        "42",
+        "70",
+        "1.67",
+        "–"
+       ],
+       [
+        "Sarjapur-2, Bengaluru",
+        "FY30-31",
+        "Greenfield",
+        "360",
+        "944",
+        "2.62",
+        "–"
+       ],
+       [
+        "OMR, Chennai",
+        "FY30-31",
+        "Greenfield",
+        "500",
+        "945",
+        "1.89",
+        "–"
+       ],
+       [
+        "Varanasi",
+        "FY30-31",
+        "Greenfield",
+        "300",
+        "640",
+        "2.13",
+        "–"
+       ],
+       [
+        "Lucknow (expansion)",
+        "FY30-31",
+        "Brownfield",
+        "160",
+        "320",
+        "2.00",
+        "–"
+       ],
+       [
+        "Worli, Mumbai",
+        "FY30-31",
+        "Greenfield",
+        "500",
+        "1,315",
+        "2.63",
+        "–"
+       ],
+       [
+        "Hyderabad cancer care + proton",
+        "FY30-31",
+        "Brownfield",
+        "110",
+        "570",
+        "5.18",
+        "–"
+       ],
+       [
+        "Guwahati (expansion)",
+        "FY30-31",
+        "Brownfield",
+        "82",
+        "100",
+        "1.22",
+        "–"
+       ],
+       [
+        "Indore",
+        "FY30-31",
+        "Greenfield",
+        "164",
+        "350",
+        "2.13",
+        "–"
+       ],
+       [
+        "Dwarka, Delhi",
+        "FY30-31",
+        "Land lease, greenfield",
+        "480",
+        "1,290",
+        "2.69",
+        "–"
+       ],
+       [
+        "Delhi cancer centre & proton",
+        "FY30-31",
+        "Greenfield",
+        "100",
+        "573",
+        "5.73",
+        "–"
+       ],
+       [
+        "Ranchi",
+        "FY30-31",
+        "Greenfield",
+        "240",
+        "345",
+        "1.44",
+        "–"
+       ]
+      ],
+      "source": "Q1FY27 presentation p.14 (project list, cost); Q1FY27 call (Gurgaon timing)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Census beds: 9,857 now, ~14,100 by FY31 (company)",
+       "unit": "Census beds (owned, managed and AHLL)",
+       "x": [
+        "Jun-26",
+        "+ rest of FY26-27 projects",
+        "+ FY28-29",
+        "+ FY30-31",
+        "FY31 plan"
+       ],
+       "series": [
+        {
+         "name": "Beds",
+         "values": [
+          9857,
+          1007,
+          327,
+          2996,
+          14187
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "FY31 plan",
+       "source": "Q1FY27 presentation p.14 (company: ~14,100)"
+      },
+      {
+       "type": "column",
+       "title": "Our average operating beds: +13% by FY29E",
+       "unit": "Average operating beds, network (GAM build)",
+       "x": [
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Beds",
+         "values": [
+          8071,
+          8600,
+          9250,
+          9550
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company (FY26 quarterly average); GAM estimates"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the FY26-27 wave is mostly asset-light or acquired and cheap per bed; the FY30-31 wave is expensive metro greenfield. At maturity a hospital bed earns ~₹40-45 lakh of EBITDA a year in Apollo's system (our estimate), so ₹2.4 cr of capex per bed is a ~17-19% pre-tax return at maturity, good but below today's 25-28% hospital ROCE. Hospital returns will therefore drift down through FY31 even if execution is good, and the new markets (Mumbai, Delhi, Varanasi, Ranchi) are where Apollo's record is weakest."
+    }
+   ]
+  },
+  {
+   "id": "healthco",
+   "nav": "HealthCo & the NewCo spin-off",
+   "kicker": "Pharmacy & digital",
+   "title": "Apollo HealthCo: the digital bleed has stopped; now the spin-off decides who keeps the value",
+   "blocks": [
+    {
+     "p": "HealthCo grew revenue 19% in FY26 and 20% in Q1FY27 (₹2,977 cr). Its offline distribution business earns ~7.3% EBITDA; the online pharmacy and 24/7 platform earn ~20% before the platform's operating cost (₹81 cr in Q1FY27), and the \"digital cash loss\" fell from ₹49 cr in Q1FY26 to ₹10 cr in Q1FY27, with breakeven guided for Q2FY27. Under the composite scheme approved by shareholders on 24-Jun-2026, HealthCo, 24/7 and telehealth move into **Apollo Healthtech (NewCo)**, which also absorbs **Keimed**, a promoter-linked pharmaceutical wholesaler (Q1FY27 revenue ₹4,115 cr, EBITDA ₹134 cr, 3.2%). Apollo shareholders get 195.2 NewCo shares per 100 Apollo shares (42.1% of NewCo) and Apollo keeps 15% plus ~2.5% through FHPL: **59.6% in all**. Advent (which put ₹2,475 cr into HealthCo in 2024-25) gets 12.1%, ESOPs 3.0%, Keimed's owners 25.3%. NCLT sanction is pending; listing is estimated by Q4FY27."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "HealthCo EBITDA after digital costs: ₹23 cr to ₹171 cr a quarter",
+       "unit": "EBITDA after 24/7 cost and ESOP (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBITDA",
+         "values": [
+          23,
+          52,
+          57,
+          36,
+          94,
+          110,
+          128,
+          156,
+          171
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      },
+      {
+       "type": "column",
+       "title": "Digital cash loss: ₹49 cr to ₹10 cr in a year",
+       "unit": "Digital cash loss, ex-ESOP (₹ crore)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Cash loss",
+         "values": [
+          -48.7,
+          -38.6,
+          -29.2,
+          -16.4,
+          -9.7
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation p.28"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "NewCo: who owns what, and what it earns",
+      "head": [
+       "",
+       "Value",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Apollo shareholders directly / Apollo (incl. FHPL)",
+        "42.1% / 17.5%",
+        "59.6% look-through for an Apollo shareholder"
+       ],
+       [
+        "Advent / ESOP trust / Keimed promoters and others",
+        "12.1% / 3.0% / 25.3%",
+        "Keimed is linked to the promoter family"
+       ],
+       [
+        "Combined revenue FY26 / Q1FY27 (₹ cr)",
+        "19,037 / 5,347",
+        "Net of sales between HealthCo and Keimed"
+       ],
+       [
+        "Combined EBITDA after digital costs FY26 / Q1FY27 (₹ cr)",
+        "908 (4.8%) / 299 (5.6%)",
+        "Pre-Ind AS; 6.5% / 6.4% excluding digital"
+       ],
+       [
+        "Guidance (Q4FY27 run-rate)",
+        "₹25,000 cr revenue, 6.5-7.0% EBITDA",
+        "= ₹1,625-1,750 cr annualised EBITDA"
+       ],
+       [
+        "GAM Sep-28E EBITDA: HealthCo + Keimed (₹ cr)",
+        "1,140 + ~705",
+        "At 18x = ~₹33,211 cr EV for 100% of NewCo"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Value to Apollo shareholders (59.6%)**",
+         "**₹19,793 cr**",
+         "**~₹1,376 a share, before NewCo debt**"
+        ]
+       }
+      ],
+      "source": "Q1FY27 presentation pp.29-31; scheme terms; GAM estimates"
+     }
+    },
+    {
+     "callout": "**Our view:** the operating story is good: digital costs are under control and offline distribution grows ~20%. The ownership story is less good for Apollo's shareholders: they swap 100% of HealthCo (with Advent's CCPS as a claim) for 59.6% of a bigger company in which a promoter-linked distributor gets a quarter. Keimed is a 3% margin wholesaler; bringing it in raises NewCo's revenue far more than its value. We value NewCo at 18x Sep-28E EBITDA, a distribution multiple, not the 25x some brokers apply to offline pharmacy."
+    }
+   ]
+  },
+  {
+   "id": "ahll",
+   "nav": "AHLL: clinics & diagnostics",
+   "kicker": "Retail health",
+   "title": "AHLL: selling Cradle at 35x EBITDA, keeping a sub-scale diagnostics and clinics business",
+   "blocks": [
+    {
+     "p": "AHLL had ₹1,865 cr of revenue in FY26 at an 11.4% EBITDA margin. In Q1FY27 primary care (299 clinics) made ₹127 cr of revenue (19% margin), diagnostics ₹200 cr (14%; +31% growth), and specialty care (Spectra, Cradle, fertility, dialysis) ₹193 cr (11%), less ₹15 cr of corporate costs. Apollo bought out IFC and other minorities for ₹1,273 cr in Mar-2026, then agreed in May-2026 to combine Cradle and fertility (₹450 cr revenue, ₹45 cr IGAAP EBITDA in FY26) with Cloudnine for ~₹1,550 cr (~35x EBITDA): ~₹750 cr in cash and a 9.9% stake in Cloudnine. CCI approved the deal on 1-Sep-2026; management expected completion in Q2FY27, so we deconsolidate it from Q3FY27."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "AHLL quarterly EBITDA: ₹31 cr to ₹59 cr in two years",
+       "unit": "AHLL EBITDA (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBITDA",
+         "values": [
+          31,
+          41,
+          34,
+          47,
+          40,
+          50,
+          48,
+          75,
+          59
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      },
+      {
+       "type": "hbar",
+       "title": "Q1FY27: diagnostics is the biggest and fastest-growing unit",
+       "unit": "Q1FY27 revenue (₹ crore)",
+       "x": [
+        "Diagnostics",
+        "Specialty care (Spectra, Cradle, fertility)",
+        "Primary care (clinics)"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          200,
+          193,
+          127
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation p.24"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** selling Cradle at ~35x EBITDA is good capital allocation; it crystallises more value than we would give the whole of AHLL per rupee of EBITDA. What remains is sub-scale: diagnostics at a 14% margin against 25-40% at Dr Lal, Metropolis and Vijaya. We model continuing AHLL EBITDA of ₹266 cr in FY28E and value it at 18x Sep-28E, a discount to listed labs for lower margins and a mixed portfolio."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: a real moat in brand and clinical depth, weaker in pricing and outside the South",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Brand and clinical reputation",
+       "Strong (5/5)",
+       "40-year brand; 150 countries send patients; transplant, oncology (proton) and cardiac programmes; Chennai children's hospital in Newsweek's list.",
+       "Supports a premium multiple"
+      ],
+      [
+       "Scale and density",
+       "Good (4/5)",
+       "Largest network (~10,000 census beds); dense in Chennai (11 hospitals), Hyderabad (8), Bengaluru (10) and Kolkata; weaker in Mumbai (58% occupancy in the West) and the North.",
+       "Supports a premium multiple"
+      ],
+      [
+       "Pricing power",
+       "Moderate (3/5)",
+       "ARPP +8% in Q1FY27 (price +4%), but 46% of revenue now comes from insurers who negotiate, and a Parliamentary panel wants caps.",
+       "Limits it"
+      ],
+      [
+       "Ecosystem (pharmacy, 24/7, clinics)",
+       "Moderate (3/5)",
+       "Referral funnel and 49 mn app users; but the digital arm burned ~₹2,000 cr of operating cost in FY23-26 and is only now breaking even.",
+       "Limits it"
+      ],
+      [
+       "Cost of capital and returns",
+       "Good (4/5)",
+       "Hospital ROCE 25-28% on capital excl. CWIP (company); new greenfields at ~₹2.4 cr a census bed will dilute it for years.",
+       "Supports a premium multiple"
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings and calls to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** Apollo has the strongest hospital brand in India and genuine clinical depth (transplants, oncology, proton therapy, complex cardiac care), which lets it charge the highest prices per patient in its markets and attract international patients. That moat is deepest where Apollo has density (Chennai, Hyderabad, Bengaluru, Kolkata). It is not a moat against regulation or against well-funded rivals in Delhi NCR and Mumbai, where Max, Medanta and Fortis are strong and where most of Apollo's new beds go. The pharmacy and digital ecosystem is a feeder, not a moat: it cost ~₹2,100 cr of operating spend to build and is now being shared with Advent and Keimed's owners."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue up 2.2x since FY20 and margins at a decade high, because the digital losses finally shrank",
+   "blocks": [
+    {
+     "p": "Apollo's revenue grew from ₹11,247 cr in FY20 to ₹25,228 cr in FY26 (14% a year). Covid cut FY21 by 6%; FY22 jumped 39% on the recovery, Covid testing and vaccination, and the new pharmacy-distribution structure. Since then growth has been a steady 13-16% a year. The margin story is the digital platform: Apollo 24/7 cost ₹619-657 cr a year in FY23-24 and pushed the group EBITDA margin down to ~12.5%; as those costs fell (₹349 cr in FY26) and hospital margins held at ~24%, the group margin rose to 15.0% in FY26 and 15.5% in Q1FY27. Profit attributable to shareholders went from ₹819 cr (FY23) to ₹1,942 cr (FY26), 33% a year."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: 14% a year since FY20",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num",
+         "growth": true
+        }
+       ],
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit: up 2.4x in three years",
+       "unit": "Net profit attributable to shareholders (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; profit attributable to owners), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 12.4% in FY23, 15.0% in FY26",
+       "unit": "EBITDA margin, post-Ind AS (%)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 8,
+       "max": 18,
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "hbar",
+       "title": "Medicines are half the cost: pharmacy distribution is a low-margin trade",
+       "unit": "FY26 costs and EBITDA, % of revenue",
+       "x": [
+        "Medicines and consumables (incl. goods for resale)",
+        "Other expenses (incl. doctors' fees, utilities)",
+        "Employees",
+        "EBITDA (post-Ind AS)"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          51.8,
+          21.3,
+          11.9,
+          14.9
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "EBITDA (post-Ind AS)",
+       "source": "AR FY26 consolidated P&L (materials ₹3,041 cr + purchases ₹10,056 cr; employees ₹3,000 cr; other expenses ₹5,383 cr)"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** two businesses with very different economics share one P&L. Hospitals earn ~24% EBITDA margins and ~25% ROCE; HealthCo turns over ₹10,800 cr at a 4.5% margin after digital costs. Group margins will keep rising only if both mix (more hospitals) and digital (breakeven) keep helping; after FY27 most of the easy digital gain is behind us."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: revenue +21%, EBITDA +28%, profit +34%; management guides ~20% hospital growth",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q1FY27",
+       "Change"
+      ],
+      "rows": [
+       [
+        "Revenue (as published)",
+        "5,842",
+        "7,044",
+        "+21%"
+       ],
+       [
+        "  Hospitals / HealthCo / AHLL",
+        "2,935 / 2,472 / 435",
+        "3,567 / 2,977 / 500",
+        "+22% / +20% / +15%"
+       ],
+       [
+        "Operating beds / occupancy",
+        "8,030 / 65%",
+        "8,352 / 70%",
+        "+4% / +5pp"
+       ],
+       [
+        "Discharges / ALOS (days) / revenue per in-patient (₹)",
+        "151,517 / 3.14 / 172,328",
+        "1,71,662 / 3.09 / 1,86,630",
+        "+13% / −2% / +8%"
+       ],
+       [
+        "EBITDA: hospitals / HealthCo / AHLL",
+        "718 / 94 / 40",
+        "862 / 171 / 59",
+        "+20% / +83% / +46%"
+       ],
+       [
+        "EBITDA (post-Ind AS) / margin",
+        "852 / 14.6%",
+        "1,092 / 15.5%",
+        "+28% / +90bp"
+       ],
+       [
+        "Other income incl. associates / interest / depreciation",
+        "53.8 / 108.3 / 214.7",
+        "62.2 / 120.4 / 235.1",
+        ""
+       ],
+       [
+        "Minorities",
+        "8.2",
+        "29.7",
+        "3.6x"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net profit to owners**",
+         "**432.8**",
+         "**580.7**",
+         "**+34%**"
+        ]
+       }
+      ],
+      "source": "Q1FY27 presentation (12-Aug-2026) and call (13-Aug-2026); ICICI Direct and PL quarterly tables (14-Aug-2026)"
+     }
+    },
+    {
+     "bullets": [
+      "**Growth quality:** established hospitals grew 18% (volume +11%, price +4%, case and payer mix +3%), helped by a 60% quarter-on-quarter rebound in Bangladesh patients (still 60-70% of their peak); the five new hospitals added ₹92 cr. Management called the volume growth \"not seasonal\" and broad-based.",
+      "**Margins:** established-hospital margin 25.9% (24.5% for all hospitals a year earlier); new hospitals lost ₹38 cr. HealthCo's margin rose to 5.8% as digital costs fell; AHLL to 11.8% on diagnostics.",
+      "**Watch:** minorities jumped to ₹30 cr (₹8 cr a year earlier) without explanation; the Parliamentary committee's pricing report landed a week before the call."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (May-Aug 2026)",
+      "head": [
+       "Topic",
+       "What was said",
+       "Source"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Hospital revenue growth FY27",
+        "~18-20%; established 13-14% a year + ~7% from new hospitals over the next 24 months",
+        "Q1FY27 call (13-Aug-26)"
+       ],
+       [
+        "Established-hospital EBITDA margin",
+        "~26% sustainable, 'inch up a bit' over 24 months",
+        "Q1FY27 call (13-Aug-26)"
+       ],
+       [
+        "New-hospital losses",
+        "~₹150 cr in FY27 (₹38 cr in Q1); cluster breakeven by Q3-Q4 FY28",
+        "Q1FY27 call (13-Aug-26)"
+       ],
+       [
+        "Pricing",
+        "~5% a year; insurance contracts reset every two years",
+        "Q1FY27 call (13-Aug-26)"
+       ],
+       [
+        "NewCo (HealthCo + Keimed) run-rate",
+        "₹25,000 cr annualised revenue in Q4FY27 with EBITDA of ~6.5-7.0% (combined Q1FY27: ₹5,347 cr revenue, EBITDA 5.6%)",
+        "Q1FY27 presentation (12-Aug-26)"
+       ],
+       [
+        "Digital and insurance",
+        "24/7 cash breakeven in Q2FY27; insurance breakeven by end-Q3FY27; 24/7 cost ~₹80 cr a quarter",
+        "Q1FY27 call (13-Aug-26)"
+       ],
+       [
+        "AHLL diagnostics",
+        "20%+ growth and ~20% EBITDA margin over 6-8 quarters (14% in Q1FY27)",
+        "Q1FY27 call (13-Aug-26)"
+       ],
+       [
+        "Funding",
+        "Expansion funded 'largely from internal accruals'; hospital operating cash after dividends and ~₹550 cr recurring capex ~₹1,550 cr a year, all redeployable into growth capex (FY26)",
+        "Q4FY26 call (21-May-26)"
+       ]
+      ],
+      "source": "Company presentations and earnings calls"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 call: the points that matter",
+      "head": [
+       "#",
+       "Point"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1",
+        "Hospital revenue growth of ~20% in FY27 'on track' (MD); 18-20% for the year (CFO). Established hospitals to grow 13-14% a year (7-8% volume) and new hospitals to add ~7% over the next 24 months."
+       ],
+       [
+        "2",
+        "Established-hospital margin of ~26% is 'a good sustainable number' (CFO); margins to 'inch up a bit' over 24 months."
+       ],
+       [
+        "3",
+        "New-hospital losses ~₹150 cr for FY27, rising by ~₹20 cr a quarter when Gurgaon opens (soft launch Sep-2026, opening Oct-2026, revenue from Q4FY27); Hyderabad Financial District to break even in Q2FY27; the new-hospital cluster to break even by Q3-Q4 FY28."
+       ],
+       [
+        "4",
+        "Pricing: ~5% a year ('medical inflation'); insurance contracts reset every two years. 70% of patients pay under ₹2 lakh per admission."
+       ],
+       [
+        "5",
+        "Bangladesh in-patient volumes back to 60-70% of their peak; international revenue +26%."
+       ],
+       [
+        "6",
+        "Digital (24/7) cash breakeven expected in Q2FY27; insurance broking breakeven by end-Q3FY27; steady-state 24/7 cost ~₹80 cr a quarter."
+       ],
+       [
+        "7",
+        "Payer mix: cash + insurance at ~85% 'very maintained' even outside the South."
+       ],
+       [
+        "8",
+        "MD on the Parliamentary committee's pricing recommendations: price controls 'may dis-incentivise investments'; tariff increases mirror inflation."
+       ]
+      ],
+      "source": "Q1FY27 earnings call transcript (13-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Why it matters:** management's guidance (18-20% hospital growth, ~26% established margin, ~₹150 cr of new-hospital losses) is credible after Q1, and our FY27 forecast sits inside it. The bigger NewCo promise (₹25,000 cr run-rate at 6.5-7% EBITDA by Q4FY27) needs HealthCo and Keimed margins to rise faster than they have; we model less."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "Self-funded so far; ₹7,500 cr of bed capex still to come",
+   "blocks": [
+    {
+     "p": "Over FY25-26 Apollo generated ₹4,992 cr of operating cash, spent ₹3,675 cr on capex, ₹1,342 cr buying out minorities (IFC and others in AHLL; more of Assam) and ~₹570 cr on dividends; lease payments took another ~₹548 cr. Advent's ₹2,475 cr in Apollo HealthCo (FY25) funded HealthCo's purchase of Keimed shares rather than hospitals. Returns are good and rising: Screener ROCE (all capital, incl. leases and the CCPS) was 14-15% in FY23-24 and 17% in FY26; the company's hospital ROCE, which leaves out work in progress, was 25.4% in FY26 and 28.5% in Q1FY27. The bed plan to FY31 costs ~₹11,150 cr, of which ~₹7,500 cr is still to be spent: ~₹1,500 cr a year on top of ~₹550 cr of recurring capex."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash flow vs capex",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 8% in FY21, 17% in FY25-26",
+       "unit": "Return on capital employed (%)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          12,
+          9,
+          8,
+          7,
+          10,
+          14,
+          8,
+          17,
+          14,
+          15,
+          17,
+          17
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 25,
+       "source": "Screener.in (capital includes lease liabilities and the CCPS)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY25",
+       "FY26",
+       "Two years"
+      ],
+      "rows": [
+       [
+        "Cash from operations (Screener)",
+        "{{A.cfo.10|num}}",
+        "{{A.cfo.11|num}}",
+        "4,992"
+       ],
+       [
+        "Capex (property, plant and equipment)",
+        "{{A.capex.10|num}}",
+        "{{A.capex.11|num}}",
+        "3,675"
+       ],
+       [
+        "Lease payments: principal + interest (AR note 23)",
+        "256",
+        "291",
+        "548"
+       ],
+       [
+        "Minority buy-outs (AHLL ₹1,273 cr in Mar-26; Assam ₹69 cr)",
+        "–",
+        "1,342",
+        "1,342"
+       ],
+       [
+        "Dividends",
+        "{{A.dividendsPaid.10|num}}",
+        "{{A.dividendsPaid.11|num}}",
+        "571"
+       ],
+       [
+        "Memo: Advent CCPS raised in HealthCo / Keimed shares bought with it",
+        "2,475 / 625",
+        "–",
+        ""
+       ]
+      ],
+      "source": "Screener.in cash flow; AR FY26 notes 21, 23, 56. Treasury income and acquisitions of investments sit in investing cash flow."
+     }
+    },
+    {
+     "callout": "**The capital question:** management says the bed plan is funded \"largely from internal accruals\"; the hospital business generated ~₹1,550 cr a year after recurring capex and dividends in FY26 (CFO). On our numbers group capex of ~₹2,450-2,550 cr a year (incl. new leases) is covered by operating cash, so net debt excluding leases stays low. The test is returns: new beds cost ~₹2.4 cr per census bed in the FY30-31 plan (Worli ₹2.6 cr, Dwarka ₹2.7 cr), against ~₹1 cr of revenue per bed today."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean audit, but four things distort the headline numbers",
+   "blocks": [
+    {
+     "bullets": [
+      "**Leases (Ind AS 116).** EBITDA is post-Ind AS 116: lease rent (₹85 cr in Q1FY27, ~₹291 cr of lease payments in FY26) is excluded and shows up as right-of-use depreciation and lease interest (₹174 cr of lease finance cost in FY26). Lease liabilities ₹2,834 cr (Mar-26), ₹2,877 cr (Jun-26). Pre-Ind AS (after rent) the FY26 EBITDA margin was ~13.8%, not 15.0%. We value on post-Ind AS EBITDA and count lease liabilities as debt, consistently.",
+      "**Advent's CCPS.** Advent's CCPS in Apollo HealthCo (₹2,457 cr) are classified entirely as a liability (equity component negligible) and as current, as management expects conversion within a year. It inflates Screener's debt by ₹2,457 cr; we add it back in the SOTP because Advent's claim is in the 40.4% of NewCo we do not value.",
+      "**Minorities.** Profit to minorities was ₹61 cr in FY26 (Assam ₹23 cr, Lucknow ₹20 cr, Ahmedabad ₹12 cr, Imperial ₹9 cr) and ₹30 cr in Q1FY27 alone. Screener's \"net profit\" is before them; we use profit attributable to shareholders and deduct the minorities' share of value.",
+      "**Restated quarters.** Screener now shows Q2FY26 and Q1FY27 revenue lower than first published (₹6,189 cr and ₹6,932 cr vs ₹6,303.5 cr and ₹7,043.5 cr); we use the figures published by 30-Sep-2026.",
+      "**ESOPs and one-offs.** HealthCo ESOP charges (₹118 cr in FY26, ₹10 cr in Q1FY27) are inside EBITDA; group share-based pay was ₹159 cr in FY26. FY26 had a ₹19 cr labour-code provision (exceptional); FY22 had ₹220 cr of exceptional gains. Other income (₹237 cr in FY26 incl. associates) is ~9% of pre-tax profit, mostly treasury gains.",
+      "**Cash conversion.** Operating cash flow was 76% of EBITDA in FY26 (70% in FY25), and lease payments (₹291 cr) come on top in financing cash flow.",
+      "**Audit.** Deloitte Haskins & Sells, unqualified FY26 opinion; Price Waterhouse takes over after the 2027 AGM (rotation)."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** Nothing suggests the numbers are wrong, but the reported structure is complex: three kinds of \"debt\", a pharmacy business whose economics are being redistributed, minorities in five hospital subsidiaries, a related-party wholesaler (Keimed, ₹968 cr of purchases in FY26) and restated quarters. Investors who take Screener's net profit, debt and EV at face value will mis-value the stock."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & leases",
+   "kicker": "Balance sheet",
+   "title": "Three kinds of \"debt\": ₹3,202 cr of bank debt, ₹2,834 cr of leases and ₹2,457 cr of Advent preference shares",
+   "blocks": [
+    {
+     "p": "Read Apollo's balance sheet carefully. Screener's \"borrowings\" of ₹8,493 cr (Mar-26) are three different things: ₹3,202 cr of bank and other debt, ₹2,834 cr of lease liabilities (the present value of hospital rents under Ind AS 116) and ₹2,457 cr of compulsorily convertible preference shares (CCPS) that Advent bought in Apollo HealthCo, which accounting rules treat as a liability but which will turn into Advent's 12.1% of the new pharmacy company. Against this the group holds ₹2,336 cr of cash, deposits and liquid funds, plus strategic stakes that Screener counts as investments (Keimed ₹800 cr, the Delhi hospital ₹179 cr at book). So the company reports **net debt of ₹866 cr** (Mar-26; ₹748 cr in Jun-26) excluding leases and CCPS, which is ~0.2x EBITDA."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Borrowings on Screener tripled in five years, mostly leases and CCPS",
+       "unit": "Borrowings incl. lease liabilities and CCPS (₹ crore)",
+       "x": "A.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "Borrowings",
+         "ref": "A.borrowings",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; AR FY26 notes 22-23"
+      },
+      {
+       "type": "line",
+       "title": "Receivable days ~50; supplier credit shrinking",
+       "unit": "Days",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Receivable days",
+         "values": [
+          43,
+          36,
+          38,
+          37,
+          39,
+          33,
+          46,
+          44,
+          49,
+          48,
+          51,
+          50
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          59,
+          66,
+          51,
+          55,
+          56,
+          60,
+          74,
+          79,
+          82,
+          88,
+          72,
+          63
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth (owners)",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings on Screener (all three kinds)",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "  of which bank and other debt (company \"gross debt\")",
+        "3,162",
+        "2,830",
+        "3,202"
+       ],
+       [
+        "  of which CCPS (Advent, in HealthCo)",
+        "–",
+        "2,445",
+        "2,457"
+       ],
+       [
+        "  of which lease liabilities",
+        "2,171",
+        "2,589",
+        "2,834"
+       ],
+       [
+        "Cash, deposits and liquid funds (company)",
+        "1,658",
+        "2,841",
+        "2,336"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net debt excl. leases and CCPS (company)**",
+         "**1,504**",
+         "**−11 (net cash)**",
+         "**866**"
+        ]
+       },
+       {
+        "hl": true,
+        "cells": [
+         "**Net debt incl. leases, excl. CCPS**",
+         "**3,675**",
+         "**2,578**",
+         "**3,700**"
+        ]
+       },
+       [
+        "Net fixed assets (incl. right-of-use)",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ]
+      ],
+      "source": "Screener.in; AR FY26 notes 22-23 (CCPS, leases); Q4FY24, Q4FY25 and Q4FY26 presentations (gross debt, cash)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: the Reddy family at 28%, Indian funds buying as foreign funds trim",
+   "blocks": [
+    {
+     "p": "The Reddy family owns 28.02% (Jun-2026), mostly through PCR Investments (18.93%); the four daughters (Preetha, Suneeta, Sangita, Shobana) hold 0.7-2.0% each. The family's stake has fallen from 34.4% in Mar-2019 and from 29.3% to 28.0% in Q2FY26 after Suneeta Reddy sold 1.32%. Foreign investors own 41.49% (down from 46% in Dec-2023), Indian institutions 23.72% (mutual funds ~17%) and the public 6.53%. ~0.7% of the company (~2.5% of the promoter stake) pledged per PL's ₹8.67 bn figure (14-Aug-2026); exact Jun-2026 pledge filing not retrieved."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "DIIs up from 19% to 24%; FIIs down from 46% to 41%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoters: 29.3% to 28.0% after a sale in Q2FY26",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 20,
+       "max": 35,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest holders",
+      "head": [
+       "Holder",
+       "Stake",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "PCR Investments Ltd (Reddy family holding company)",
+        "18.93%",
+        "Promoter group (31-Mar-2026)"
+       ],
+       [
+        "Suneeta Reddy",
+        "2.04%",
+        "Promoter group (31-Mar-2026)"
+       ],
+       [
+        "Sangita Reddy",
+        "1.69%",
+        "Promoter group (31-Mar-2026)"
+       ],
+       [
+        "Shobana Kamineni",
+        "1.56%",
+        "Promoter group (31-Mar-2026)"
+       ],
+       [
+        "K Vishweshwar Reddy",
+        "1.1%",
+        "Promoter group (31-Mar-2026)"
+       ],
+       [
+        "Preetha Reddy",
+        "0.73%",
+        "Promoter group (31-Mar-2026)"
+       ],
+       [
+        "Others (family)",
+        "1.97%",
+        "Promoter group (31-Mar-2026)"
+       ],
+       [
+        "All promoters (Jun-2026)",
+        "28.02%",
+        "Small pledge (see text)"
+       ],
+       [
+        "Government of Singapore (GIC)",
+        "2.1%",
+        "Foreign investor (31-Mar-2026)"
+       ],
+       [
+        "Axis Mutual Fund",
+        "1.86%",
+        "Domestic fund / insurer (31-Mar-2026)"
+       ],
+       [
+        "SBI Nifty 50 ETF",
+        "1.86%",
+        "Domestic fund / insurer (31-Mar-2026)"
+       ],
+       [
+        "Mirae Asset ELSS Tax Saver Fund",
+        "1.81%",
+        "Domestic fund / insurer (31-Mar-2026)"
+       ],
+       [
+        "Life Insurance Corporation of India",
+        "1.66%",
+        "Domestic fund / insurer (31-Mar-2026)"
+       ],
+       [
+        "Government Pension Fund Global (Norway)",
+        "1.65%",
+        "Foreign investor (31-Mar-2026)"
+       ],
+       [
+        "Aditya Birla Sun Life MF",
+        "1.48%",
+        "Domestic fund / insurer (31-Mar-2026)"
+       ]
+      ],
+      "source": "BSE shareholding via Screener.in (Jun-2026); AR FY26 (Mar-2026 holders); PL Q1FY27 note (mutual funds, pledge)"
+     }
+    },
+    {
+     "callout": "**Our read:** a founder family with only 28% and a long, slow sell-down, running the company through four family executives; but a very institutional register (65% FII+DII) and deep liquidity. The bigger alignment question is the scheme: the family is on both sides of the Keimed merger."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: professional operations, family control, and a related-party merger to watch",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Dr Prathap C. Reddy",
+        "Founder and Executive Chairman (re-appointment for two more years put to the 2026 AGM)",
+        "FY26 pay ₹20.3 cr (incl. ₹7.5 cr commission)."
+       ],
+       [
+        "Preetha Reddy",
+        "Executive Vice Chairperson",
+        "FY26 pay ₹9.4 cr."
+       ],
+       [
+        "Suneeta Reddy",
+        "Managing Director",
+        "FY26 pay ₹9.5 cr; sold 1.32% of the company in FY26."
+       ],
+       [
+        "Sangita Reddy",
+        "Joint Managing Director",
+        "FY26 pay ₹9.4 cr."
+       ],
+       [
+        "Shobana Kamineni",
+        "Executive Vice Chairperson (pharmacy and HealthCo)",
+        "FY26 pay ₹8.1 cr; Keimed is promoter-linked."
+       ],
+       [
+        "A. Krishnan",
+        "Group CFO",
+        ""
+       ],
+       [
+        "Dr Madhu Sasidhar",
+        "President and CEO, Hospitals",
+        ""
+       ],
+       [
+        "Madhivanan Balakrishnan",
+        "CEO, Apollo HealthCo",
+        ""
+       ]
+      ],
+      "source": "AR FY26 (remuneration table, notice), Q1FY27 call"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Good",
+       "Deloitte, unqualified; detailed segment, KPI and Ind AS 116 disclosure every quarter.",
+       "Complex structure, but well disclosed."
+      ],
+      [
+       "Promoter",
+       "Moderate",
+       "Family at 28.0% and selling slowly; family pay ₹56.7 cr in FY26 (2.9% of profit); founder (Executive Chairman) up for re-appointment.",
+       "Control without a large economic stake."
+      ],
+      [
+       "Related parties",
+       "Watch",
+       "Keimed (promoter-linked wholesaler) supplied ₹968 cr of goods to the group in FY26 (₹813 cr in FY25) and is being merged into NewCo at a swap ratio set by the board; Apollo's shareholders get 59.6% of NewCo for HealthCo, Keimed's owners 25.3%.",
+       "The swap ratio decides how much value moves to the family."
+      ],
+      [
+       "Management depth",
+       "Good",
+       "Group CFO A. Krishnan; hospital CEO Dr Madhu Sasidhar; separate CEOs for HealthCo and AHLL.",
+       "Bench is deep for a family company."
+      ],
+      [
+       "Legal and regulatory",
+       "Watch",
+       "Karnataka revenue department cancelled the land grant of Imperial Hospital (Bengaluru) in Feb-2026, arguing the share purchase by Apollo alienated the land; the High Court stayed the order on 10-Apr-2026. Parliamentary pricing review (Aug-2026).",
+       "Low cost so far; headline risk."
+      ],
+      [
+       "Capital allocation",
+       "Good",
+       "Cradle sold at ~35x EBITDA; IFC bought out; bed plan self-funded; Advent money used for Keimed shares.",
+       "Sensible, but returns on FY30-31 greenfields are untested."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation (AR FY26, filings to Sep-2026)"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: revenue ~16% a year, EBITDA ~20%, EPS ~23%, below the street on hospital margins",
+   "blocks": [
+    {
+     "p": "We forecast each reported business separately and add them up. Hospital revenue comes from a bed build (average operating beds × occupancy × 365 ÷ length of stay = discharges; × revenue per in-patient; grossed up for out-patients and scaled from the network, which includes Delhi, to the consolidated hospitals); the authoring script checks the build equals model revenue. HealthCo and AHLL run on revenue growth and margins. EBITDA is post-Ind AS (rent excluded), as reported, so lease liabilities count as debt and new leases are in capex. Depreciation is 5.0% of gross block, finance cost rises with leases and capex, tax plus minorities is 27.7%, payout 15%. Every assumption, with our reasoning, is in the Excel model's Assumptions sheet, which recalculates this report's target price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Hospital bed build (checked to equal model hospital revenue)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Average operating beds (network incl. Delhi)",
+        "~8,071",
+        "8,600",
+        "9,250",
+        "9,550"
+       ],
+       [
+        "Occupancy",
+        "67% (67.7% on average beds)",
+        "69%",
+        "69.5%",
+        "70.5%"
+       ],
+       [
+        "ALOS (days)",
+        "3.17",
+        "3.10",
+        "3.05",
+        "3.02"
+       ],
+       [
+        "= discharges ('000)",
+        "629",
+        "699",
+        "769",
+        "814"
+       ],
+       [
+        "× revenue per in-patient (₹)",
+        "1,78,434",
+        "1,92,000",
+        "2,05,400",
+        "2,18,800"
+       ],
+       [
+        "  memo: revenue per occupied bed-day (₹)",
+        "56,288",
+        "61,935",
+        "67,344",
+        "72,450"
+       ],
+       [
+        "= in-patient revenue (₹ cr)",
+        "11,223",
+        "13,415",
+        "15,802",
+        "17,804"
+       ],
+       [
+        "÷ in-patient share → network net revenue (₹ cr)",
+        "13,740 (81.7%)",
+        "16,419 (81.7%)",
+        "19,342 (81.7%)",
+        "21,792 (81.7%)"
+       ],
+       [
+        "× consolidated share (excl. Delhi)",
+        "91.4%",
+        "91.4%",
+        "91.4%",
+        "91.4%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Hospital revenue (model, ₹ cr)**",
+         "**12,555**",
+         "**15,007**",
+         "**17,678**",
+         "**19,918**"
+        ]
+       },
+       [
+        "  growth",
+        "+13%",
+        "+20%",
+        "+18%",
+        "+13%"
+       ]
+      ],
+      "source": "Company KPIs (FY26, Q1FY27); GAM estimates (assumptions.json businessLines)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Segment build (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       {
+        "sec": "Hospitals"
+       },
+       [
+        "Revenue",
+        "12,555",
+        "15,007",
+        "17,678",
+        "19,918"
+       ],
+       [
+        "EBITDA margin",
+        "24.4%",
+        "23.8%",
+        "24.1%",
+        "24.7%"
+       ],
+       [
+        "EBITDA",
+        "3,069",
+        "3,572",
+        "4,260",
+        "4,920"
+       ],
+       {
+        "sec": "Apollo HealthCo (after 24/7 cost and ESOP)"
+       },
+       [
+        "Revenue",
+        "10,808",
+        "12,862",
+        "15,048",
+        "17,456"
+       ],
+       [
+        "EBITDA margin",
+        "4.5%",
+        "6.0%",
+        "6.8%",
+        "7.2%"
+       ],
+       [
+        "EBITDA",
+        "488",
+        "772",
+        "1,023",
+        "1,257"
+       ],
+       {
+        "sec": "AHLL (Cradle and fertility deconsolidated from Q3FY27)"
+       },
+       [
+        "Revenue",
+        "1,865",
+        "1,889",
+        "1,969",
+        "2,303"
+       ],
+       [
+        "EBITDA margin",
+        "11.4%",
+        "12.2%",
+        "13.5%",
+        "14.5%"
+       ],
+       [
+        "EBITDA",
+        "213",
+        "230",
+        "266",
+        "334"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Group EBITDA (post-Ind AS)**",
+         "**3,769**",
+         "**{{F.ebitda.0|num}}**",
+         "**{{F.ebitda.1|num}}**",
+         "**{{F.ebitda.2|num}}**"
+        ]
+       }
+      ],
+      "source": "Company (FY26); GAM estimates. FY26 group EBITDA is the company figure (Screener ₹3,779 cr)."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Other income, built (₹ crore; includes share of associates, as Screener does)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Treasury: deposit interest + fund gains",
+        "139.0",
+        "128",
+        "129",
+        "127"
+       ],
+       [
+        "  basis: 5.5% × opening company treasury",
+        "~5.3% on ~₹2,600 cr",
+        "₹2,336 cr",
+        "₹2,350 cr",
+        "₹2,300 cr"
+       ],
+       [
+        "Recurring: other interest, dividends, misc., write-backs",
+        "50.7",
+        "45",
+        "48",
+        "49"
+       ],
+       [
+        "Share of associates (Delhi hospital, FHPL, others)",
+        "44.9",
+        "52",
+        "58",
+        "64"
+       ],
+       [
+        "One-offs (PPE gains); labour-code exceptional and reclassification (Screener)",
+        "1.9; −29.2",
+        "0",
+        "0",
+        "0"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Other income (model)**",
+         "**207**",
+         "**{{F.otherIncome.0|num}}**",
+         "**{{F.otherIncome.1|num}}**",
+         "**{{F.otherIncome.2|num}}**"
+        ]
+       },
+       [
+        "Memo: twelve months to Jun-26 (patched Screener) / Q1FY27",
+        "225 / 62.2",
+        "",
+        "",
+        ""
+       ]
+      ],
+      "source": "AR FY26 notes 10 and 32; company treasury (Mar-26 ₹2,336 cr; Jun-26 ₹2,496 cr); GAM estimates. Built on gross treasury because the model's net cash is after leases and CCPS."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "Group P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA (post-Ind AS)",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Other income (incl. associates)",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit (owners)",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex (forecasts incl. new leases)",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "Cash & investments (forecasts net of leases and CCPS)",
+        "ref": "fin.treasury"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates. Cash is gross in actual years and net of all borrowings (bank debt, lease liabilities and CCPS; ₹8,493 cr at Mar-26) in forecasts."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Pre-Ind AS view (rent deducted)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "EBITDA post-Ind AS",
+        "3,769",
+        "{{F.ebitda.0|num}}",
+        "{{F.ebitda.1|num}}",
+        "{{F.ebitda.2|num}}"
+       ],
+       [
+        "Less: lease payments (FY27-29E = GAM estimate)",
+        "291",
+        "340",
+        "370",
+        "400"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**EBITDA pre-Ind AS**",
+         "**3,478**",
+         "**4,234**",
+         "**5,179**",
+         "**6,111**"
+        ]
+       },
+       [
+        "  margin",
+        "13.8%",
+        "14.2%",
+        "14.9%",
+        "15.4%"
+       ]
+      ],
+      "source": "AR FY26 note 23 (lease payments ₹290.7 cr); Q1FY27 lease rent ₹84.7 cr; GAM estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E"
+      ],
+      "rows": [
+       [
+        "EPS (₹): PL (14-Aug-26) / ICICI Securities (14-Aug-26)",
+        "{{F.eps.0|n1}}",
+        "180.9 / 183.6",
+        "{{F.eps.1|n1}}",
+        "229.6 / 214.2"
+       ],
+       [
+        "Revenue (₹ cr): PL / ICICI",
+        "{{F.sales.0|num}}",
+        "29,666 / 29,756",
+        "{{F.sales.1|num}}",
+        "33,805 / 34,361"
+       ],
+       [
+        "EBITDA (₹ cr): PL / ICICI",
+        "{{F.ebitda.0|num}}",
+        "4,811 / 4,635",
+        "{{F.ebitda.1|num}}",
+        "5,878 / 5,552"
+       ],
+       [
+        "EBITDA margin: PL / ICICI",
+        "{{F.ebitdaMargin.0|pct}}",
+        "16.2% / 15.6%",
+        "{{F.ebitdaMargin.1|pct}}",
+        "17.4% / 16.2%"
+       ]
+      ],
+      "source": "PL Q1FY27 note (14-Aug-2026, PDF); ICICI Direct Q1FY27 note (14-Aug-2026, PDF). No consensus dated before 30-Sep-2026 was found."
+     }
+    },
+    {
+     "callout": "Our revenue is in line with the street; the gap is margin. We hold the hospital margin at 23.8%-24.7% because Gurgaon and the other new hospitals lose money into FY28, and we give HealthCo slower margin gains than management's NewCo target. So our EPS is −7% vs PL and −9% vs ICICI for FY27, and −9% / −2% for FY28. EPS still grows ~23% a year over FY26-29E and EBITDA ~20%."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: all Buy, targets ₹9,600-10,170, all on a sum of the parts",
+   "blocks": [
+    {
+     "p": "Three houses published after the Q1FY27 results, all Buy: Motilal Oswal ₹10,160 (hospitals 30x, offline pharmacy 25x, AHLL 24x EV/EBITDA, Apollo 24/7 2x sales), ICICI Securities ₹10,170 (FY28E: hospitals 28x EBITDA, HealthCo 2x sales and Keimed 1.5x sales at 59.6%, AHLL 12x) and Prabhudas Lilladher ₹10,000 (hospitals 27x, offline pharmacy 25x, AHLL 20x), an average of ~₹10,110. Earlier calls still standing: Antique (initiated Buy, ₹9,790, Jun-2026, hospitals 26x FY28E), Jefferies (Buy, ₹9,700, May-2026) and Citi (Buy, ₹9,600, Mar-2026). The stock was ₹8,600-8,800 when the Q1 notes came out and ₹8,166 on 30-Sep-2026, so the street saw 18-25% upside at the as-of date. Bulls argue hospitals now compound at ~20% with margins stable, the digital drag is over and the NewCo listing will crystallise value. We found no Sell or Hold standing."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "The street applies 26-30x to 100% of hospital EBITDA and deducts nothing for minorities in the hospital subsidiaries (Assam, Lucknow, Ahmedabad, Imperial, Indore and others: ₹57 cr of profit in FY26, 3.4% of hospital profit). We deduct 3.4% of the hospitals' equity value plus small AHLL step-down minorities (~₹3,830 cr, ~₹267 a share); HealthCo minorities are excluded because NewCo is valued at Apollo's 59.6%.",
+        "GAM"
+       ],
+       [
+        "NewCo is a distribution business (8.8% margin before digital costs at HealthCo, 3.2% at Keimed); valuing 'offline pharmacy' at 25x EBITDA treats it like a retailer. The Advent round (₹2,475 cr for 12.1% in 2024) valued the combined platform at ~₹20,000 cr of equity.",
+        "GAM; Advent deal terms"
+       ],
+       [
+        "Keimed is promoter-linked, so the 25.3% of NewCo it brings in is a related-party transfer of value; the swap ratio was set by the board and approved by shareholders, but minority investors had little to compare it with.",
+        "GAM; scheme filings"
+       ],
+       [
+        "Growth after FY28 depends on ₹7,400 cr of FY30-31 greenfields in Mumbai, Delhi, Varanasi, Ranchi and Chennai OMR; Apollo's record outside the South (West occupancy 58%) is weaker.",
+        "Q1FY27 presentation"
+       ],
+       [
+        "Pricing scrutiny: room-rent benchmarks or package caps would hit metro tertiary hospitals hardest; management argues 70% of patients pay under ₹2 lakh.",
+        "Parliamentary committee; Q1FY27 call"
+       ],
+       [
+        "Bulls: occupancy back at 70% (established 72%), established margin ~26%, digital losses nearly gone, and the NewCo listing will crystallise value.",
+        "PL, ICICI Securities, Motilal Oswal"
+       ]
+      ],
+      "source": "Broker notes, earnings calls, filings and press to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: a sum of the parts gives {{dcf.tp|inr}}; hospitals at 24x Sep-28E EBITDA",
+   "blocks": [
+    {
+     "h": "How the street values Apollo"
+    },
+    {
+     "p": "Every note we found values Apollo as a **sum of the parts (SOTP)**: the hospitals on EV/EBITDA (enterprise value ÷ operating profit), the pharmacy and digital business on its own multiple (EBITDA, or sales for the loss-making digital arm), AHLL separately, then less net debt. ICICI Securities already takes only the 59.6% of HealthCo and Keimed that Apollo's shareholders will own after the scheme. We use the same method so our target is comparable; the differences are our lower hospital multiple, a distribution multiple for NewCo, and two deductions the street leaves out: minorities in hospital subsidiaries and lease liabilities (brokers use post-Ind AS EBITDA but deduct net debt excluding leases, ~₹200 a share)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values Apollo (latest note per broker, to 30-Sep-2026)",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Date",
+       "Method",
+       "Multiples",
+       "On",
+       "Thesis / note"
+      ],
+      "wide": [
+       5,
+       7
+      ],
+      "rows": [
+       [
+        "Motilal Oswal",
+        "BUY",
+        "10,160",
+        "13-Aug-26",
+        "SOTP",
+        "Hospitals 30x, offline pharmacy 25x, AHLL 24x EV/EBITDA; 24/7 2x EV/sales",
+        "12-month forward",
+        "Volume-led beat; digital breakeven by Q3-end; diagnostics +31%; EPS raised 2-3%"
+       ],
+       [
+        "Prabhudas Lilladher",
+        "BUY",
+        "10,000",
+        "14-Aug-26",
+        "SOTP",
+        "Hospitals 27x, offline pharmacy 25x, AHLL 20x EV/EBITDA",
+        "FY28E (n.d.)",
+        "25% EBITDA CAGR FY26-28E; established margin 26%+; NewCo exit EBITDA ₹1,650-1,750 cr gives comfort"
+       ],
+       [
+        "ICICI Securities",
+        "BUY",
+        "10,170",
+        "14-Aug-26",
+        "SOTP",
+        "Hospitals 28x EBITDA; HealthCo 2x sales and Keimed 1.5x sales (59.6%); AHLL 12x EBITDA",
+        "FY28E",
+        "All three businesses compounding; value unlock from NewCo listing; 'despite rich valuations'"
+       ],
+       [
+        "Antique Stock Broking",
+        "BUY",
+        "9,790",
+        "29-Jun-26",
+        "SOTP",
+        "Hospitals 26x EV/EBITDA",
+        "FY28E",
+        "Initiation: revenue/EBITDA/PAT CAGR 16%/20%/24% FY26-28E; stock at 23x FY28E vs 22x five-year average"
+       ],
+       [
+        "Jefferies",
+        "BUY",
+        "9,700",
+        "22-May-26",
+        "n.d.",
+        "–",
+        "–",
+        "Target raised from ₹9,250 after Q4FY26 (date per MarketScreener listing)"
+       ],
+       [
+        "Citi",
+        "BUY",
+        "9,600",
+        "30-Mar-26",
+        "n.d.",
+        "–",
+        "–",
+        "Pan-Asia focus list; core hospital EBITDA 23% CAGR FY25-28; pricing power"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**HOLD**",
+         "**{{dcf.tp|num}}**",
+         "30-Sep-26",
+         "**SOTP**",
+         "**Hospitals 24x, NewCo 18x (59.6%), AHLL 18x EV/EBITDA; less minorities and net debt incl. leases**",
+         "**Sep-28E**",
+         "Strong franchise, fairly priced; NewCo value shared"
+        ]
+       }
+      ],
+      "source": "Motilal Oswal via investmentguruindia; PL and ICICI Direct notes (PDF); Antique via Business Today; Jefferies via MarketScreener; Citi via Sahi. n.d. = method not disclosed"
+     }
+    },
+    {
+     "h": "Our sum of the parts"
+    },
+    {
+     "p": "The target is a 12-month price, so each business is valued on the EBITDA the market will look at in September 2027: **Sep-28E** (half FY28E, half FY29E), post-Ind AS, with lease liabilities in net debt. NewCo is valued at 100% (HealthCo from our model plus our estimate for Keimed, which is not consolidated today) and Apollo's shareholders get 59.6%. Because the model's debt includes Advent's CCPS and its cash includes the Keimed and FHPL stakes, we add the CCPS back and take the stakes out: both belong to NewCo. The Delhi hospital (IMCL, listed) is valued at market less 20%, the Cloudnine proceeds at deal value. Minorities are deducted only where the SOTP counts 100% of a business: the partners in eight hospital subsidiaries took 3.4% of hospital profit in FY26 (₹57.4 cr of ₹1,685 cr), so we deduct 3.4% of the hospitals' equity value (EV less ~₹3,100 cr of hospital net debt incl. leases), plus the small AHLL step-down minorities. HealthCo's minority is not deducted, because NewCo is already valued at Apollo's 59.6%."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Sum of the parts (base case)",
+      "head": [
+       "Part",
+       "Sep-28E EBITDA (₹ cr)",
+       "Multiple",
+       "Value (₹ cr)",
+       "₹ / share",
+       "Basis"
+      ],
+      "wide": [
+       5
+      ],
+      "rows": [
+       [
+        "**Hospitals (Healthcare Services)**",
+        "{{dcf.sotp.parts.0.metric|num}}",
+        "24.0x",
+        "{{dcf.sotp.parts.0.value|num}}",
+        "{{dcf.sotp.parts.0.perShare|num}}",
+        "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA"
+       ],
+       [
+        "**Apollo HealthCo: 59.6% of NewCo**",
+        "{{dcf.sotp.parts.1.metric|num}}",
+        "10.7x",
+        "{{dcf.sotp.parts.1.value|num}}",
+        "{{dcf.sotp.parts.1.perShare|num}}",
+        "Sep-28E EBITDA after 24/7 cost × NewCo multiple × 59.6%"
+       ],
+       [
+        "**Keimed: 59.6% of its value in NewCo**",
+        "–",
+        "–",
+        "{{dcf.sotp.parts.2.value|num}}",
+        "{{dcf.sotp.parts.2.perShare|num}}",
+        "GAM Sep-28E Keimed EBITDA ~₹705 cr × NewCo multiple × 59.6%"
+       ],
+       [
+        "**AHLL (continuing: clinics, diagnostics, Spectra, dialysis)**",
+        "{{dcf.sotp.parts.3.metric|num}}",
+        "18.0x",
+        "{{dcf.sotp.parts.3.value|num}}",
+        "{{dcf.sotp.parts.3.perShare|num}}",
+        "Sep-28E EBITDA × EV/EBITDA"
+       ],
+       [
+        "**Cloudnine deal: ~Rs750 cr cash + 9.9% stake at deal value less 20%**",
+        "–",
+        "–",
+        "{{dcf.sotp.parts.4.value|num}}",
+        "{{dcf.sotp.parts.4.perShare|num}}",
+        "₹750 cr + ₹800 cr × (1 − discount)"
+       ],
+       [
+        "**Delhi hospital (IMCL, 22.03%) at market less 20%, replacing book**",
+        "–",
+        "–",
+        "{{dcf.sotp.parts.5.value|num}}",
+        "{{dcf.sotp.parts.5.perShare|num}}",
+        "2.02 cr shares × ₹348.95 (30-Sep-2026) × 0.8 − ₹179 cr book in model cash"
+       ],
+       [
+        "**Add back: Advent CCPS (in model debt; Advent's claim is in NewCo's 40.4%)**",
+        "–",
+        "–",
+        "{{dcf.sotp.parts.6.value|num}}",
+        "{{dcf.sotp.parts.6.perShare|num}}",
+        "CCPS carrying value, Mar-26 (AR FY26 note 22)"
+       ],
+       [
+        "**Less: Keimed shares and FHPL held in model cash (inside the 59.6%)**",
+        "–",
+        "–",
+        "{{dcf.sotp.parts.7.value|num}}",
+        "{{dcf.sotp.parts.7.perShare|num}}",
+        "Keimed ₹800 cr at fair value + FHPL ₹60 cr at book (Mar-26)"
+       ],
+       [
+        "**Add back: 40.4% of HealthCo net debt (NewCo-level debt shared with Advent and Keimed owners)**",
+        "–",
+        "–",
+        "{{dcf.sotp.parts.8.value|num}}",
+        "{{dcf.sotp.parts.8.perShare|num}}",
+        "40.4% × ₹297 cr (Jun-26)"
+       ],
+       [
+        "**Less: minorities in hospital subsidiaries (3.41% of hospital equity value)**",
+        "–",
+        "–",
+        "{{dcf.sotp.parts.9.value|num}}",
+        "{{dcf.sotp.parts.9.perShare|num}}",
+        "3.41% (FY26 hospital minorities ₹57.4 cr ÷ hospital PAT before minorities ₹1,685 cr) × (hospital EV − ~₹3,100 cr hospital net debt incl. leases)"
+       ],
+       [
+        "**Less: minorities in AHLL step-down subsidiaries**",
+        "–",
+        "–",
+        "{{dcf.sotp.parts.10.value|num}}",
+        "{{dcf.sotp.parts.10.perShare|num}}",
+        "FY26 AHLL-line minorities ₹5.7 cr × AHLL multiple ÷ 0.549 (same PAT/EBITDA conversion)"
+       ],
+       [
+        "**Net debt at Sep-28E (model: borrowings incl. leases and CCPS less cash and investments)**",
+        "–",
+        "–",
+        "{{dcf.sotp.parts.11.value|num}}",
+        "{{dcf.sotp.parts.11.perShare|num}}",
+        "½ Mar-28E + ½ Mar-29E"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Equity value / target (rounded)**",
+         "",
+         "",
+         "**{{dcf.sotp.equity|num}}**",
+         "**{{dcf.tp|num}}**",
+         "vs price ₹{{P.last|num}}: {{dcf.upside|chg}}"
+        ]
+       }
+      ],
+      "source": "GAM Research. The HealthCo multiple shown is the effective one (NewCo multiple × 59.6%)."
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "waterfall",
+       "title": "Hospitals are ~85% of the value",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "Hospitals",
+        "NewCo (59.6%)",
+        "AHLL + Cloudnine + IMCL",
+        "CCPS, stakes, NewCo debt",
+        "Minorities",
+        "Net debt",
+        "SOTP value"
+       ],
+       "series": [
+        {
+         "name": "₹/share",
+         "values": [
+          7660,
+          1376,
+          499,
+          119,
+          -267,
+          -201,
+          9186
+         ]
+        }
+       ],
+       "fmt": "num",
+       "totalFmt": "num",
+       "source": "GAM Research"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "Sum of the parts (target)",
+        "P/E cross-check",
+        "DCF cross-check",
+        "Share price"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          9187,
+          10364,
+          5660,
+          8165.5
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Sum of the parts (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "h": "How we derive the multiples"
+    },
+    {
+     "p": "House rule: start from the stock's own one-year-forward multiple since Apr-2021 (leaving out trough years), adjust for how far the sector had de-rated by 30-Sep-2026, then test growth, peers, returns and the street. Apollo has no listed hospital-only history, so the starting point is the group's forward EV/EBITDA, computed in our files on the target's basis (EV incl. lease liabilities; Screener's debt also includes the CCPS from FY25, offset by the Keimed shares it bought). If anything this overstates the hospital multiple: in FY22-24 HealthCo's EBITDA was negative, so the group multiple was inflated by a pharmacy business earning almost nothing."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the hospital multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Own history",
+        "One-year-forward EV/EBITDA since Apr-2021: median 25.4x (25th-75th percentile 23.8-27.8x); calendar medians 2021 29.5x, 2022 27.5x, 2023 25.4x, 2024 27.3x, 2025 24.3x, 2026 23.6x. Trough years left out: none (forward EBITDA never fell below half its prior peak). On 30-Sep-2026: 22.1x FY28E",
+        "Starting point: 25.4x"
+       ],
+       [
+        "2. Sector de-rating",
+        "Trailing EV/EBITDA vs each stock's five-year median on 30-Sep-2026: Max Healthcare −13%, Fortis +0%, Narayana Hrudayalaya −2%, Medanta +4%, Rainbow −11%, Jupiter Life Line −24% (median −7%); Apollo itself −14%. Left out: KIMS +49%, Aster DM +91% (new-hospital losses and the 2024 GCC demerger inflate their multiples); with them −1%",
+        "25.4x × 0.933 ≈ 23.7x → **24x**"
+       ],
+       [
+        "3. Growth",
+        "Hospital EBITDA grew 13% a year in FY23-26; we forecast ~17% for FY26-29E, bought with ~₹7,450 cr of capex and new leases over three years",
+        "No premium: faster growth comes with lower returns on new beds"
+       ],
+       [
+        "4. Peers",
+        "Trailing EV/EBITDA on 30-Sep-2026: Max 37.4x, Medanta 34.0x, Fortis 27.7x, Rainbow 23.1x, Jupiter 22.9x, Narayana 21.7x; Apollo group 29.4x",
+        "24x Sep-28E ≈ 35.9x trailing FY26 hospital EBITDA: with Max and Medanta, above Fortis"
+       ],
+       [
+        "5. Returns",
+        "Hospital ROCE 25.4% (FY26) and 28.5% (Q1FY27) on capital excl. CWIP vs an 11.6% cost of equity; new beds at ~₹2.4 cr each earn less",
+        "Supports a premium multiple, not a re-rating"
+       ],
+       [
+        "6. Street and market",
+        "ICICI Securities' 28x FY28E = 26.0x our Sep-28E hospital EBITDA; Antique 26x FY28E; MOSL 30x, PL 27x (year n.d.). At the 30-Sep-2026 price the market pays ~20.8x for the hospitals once the other parts are valued our way",
+        "Our 24x sits between the market (20.8x) and the street (26-30x)"
+       ]
+      ],
+      "source": "Screener.in prices, balance sheets and multiples to 30-Sep-2026; broker notes; GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the NewCo, AHLL and P/E multiples",
+      "head": [
+       "Part",
+       "Evidence",
+       "Multiple"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "NewCo (HealthCo + Keimed)",
+        "Closest listed peers on 30-Sep-2026: Entero (healthcare distribution) 24.0x trailing (median since its 2024 listing 25.7x, −7%); MedPlus (pharmacy retail) 12.9x (−46% vs its median). One to two years of ~15-20% EBITDA growth turn Entero's 24x trailing into ~18x Sep-28E. Street: offline pharmacy 25x EBITDA (PL, MOSL); ICICI 2x sales (≈29.4x our FY28E HealthCo EBITDA). Advent paid ₹2,475 cr for 12.1% in 2024 (~₹20,000 cr of equity)",
+        "**18x** (bull 24x = Entero trailing; bear 13x = MedPlus) × 59.6%"
+       ],
+       [
+        "AHLL (continuing)",
+        "Listed labs on 30-Sep-2026: Dr Lal PathLabs 34.6x (+7%), Metropolis 25.6x (−9%), Vijaya Diagnostic 39.4x (+24%); median of their five-year medians 31.9x trailing (~25x a year forward at ~25% growth). AHLL's margins are 12-15% vs 25-41%; JM Financial applied a 20% discount; street 12-24x",
+        "**18x** (bull 22x, bear 14x)"
+       ],
+       [
+        "P/E cross-check",
+        "Own one-year-forward P/E median since Apr-2021 51.7x (no trough years; 25th percentile 45.0x), less the 12% P/E de-rating of the same six peers = 45.5x; 38.9x on FY28E at the as-of price",
+        "**45x** Sep-28E EPS (bull 51.7x → 52x; bear 39.6x → 40x)"
+       ]
+      ],
+      "source": "Screener.in (peer multiples and medians); broker notes; Advent deal terms; GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward EV/EBITDA since 2021: median 25.4x, hospitals target 24x",
+       "unit": "EV (incl. leases and CCPS) ÷ next full-year EBITDA (x)",
+       "x": [
+        "2021-04-01",
+        "2021-04-16",
+        "2021-04-30",
+        "2021-05-14",
+        "2021-05-28",
+        "2021-06-11",
+        "2021-06-25",
+        "2021-07-09",
+        "2021-07-23",
+        "2021-08-06",
+        "2021-08-20",
+        "2021-09-03",
+        "2021-09-17",
+        "2021-10-01",
+        "2021-10-14",
+        "2021-10-29",
+        "2021-11-12",
+        "2021-11-26",
+        "2021-12-10",
+        "2021-12-24",
+        "2022-01-07",
+        "2022-01-21",
+        "2022-02-04",
+        "2022-02-18",
+        "2022-03-04",
+        "2022-03-17",
+        "2022-04-01",
+        "2022-04-13",
+        "2022-04-29",
+        "2022-05-13",
+        "2022-05-27",
+        "2022-06-10",
+        "2022-06-24",
+        "2022-07-08",
+        "2022-07-22",
+        "2022-08-05",
+        "2022-08-19",
+        "2022-09-02",
+        "2022-09-16",
+        "2022-09-30",
+        "2022-10-14",
+        "2022-10-28",
+        "2022-11-11",
+        "2022-11-25",
+        "2022-12-09",
+        "2022-12-23",
+        "2023-01-06",
+        "2023-01-20",
+        "2023-02-03",
+        "2023-02-17",
+        "2023-03-03",
+        "2023-03-17",
+        "2023-03-31",
+        "2023-04-13",
+        "2023-04-28",
+        "2023-05-12",
+        "2023-05-26",
+        "2023-06-09",
+        "2023-06-23",
+        "2023-07-07",
+        "2023-07-21",
+        "2023-08-04",
+        "2023-08-18",
+        "2023-09-01",
+        "2023-09-15",
+        "2023-09-29",
+        "2023-10-13",
+        "2023-10-27",
+        "2023-11-12",
+        "2023-11-24",
+        "2023-12-08",
+        "2023-12-22",
+        "2024-01-05",
+        "2024-01-20",
+        "2024-02-02",
+        "2024-02-16",
+        "2024-03-02",
+        "2024-03-15",
+        "2024-03-28",
+        "2024-04-12",
+        "2024-04-26",
+        "2024-05-10",
+        "2024-05-24",
+        "2024-06-07",
+        "2024-06-21",
+        "2024-07-05",
+        "2024-07-19",
+        "2024-08-02",
+        "2024-08-16",
+        "2024-08-30",
+        "2024-09-13",
+        "2024-09-27",
+        "2024-10-11",
+        "2024-10-25",
+        "2024-11-08",
+        "2024-11-22",
+        "2024-12-06",
+        "2024-12-20",
+        "2025-01-03",
+        "2025-01-17",
+        "2025-02-01",
+        "2025-02-14",
+        "2025-02-28",
+        "2025-03-13",
+        "2025-03-28",
+        "2025-04-11",
+        "2025-04-25",
+        "2025-05-09",
+        "2025-05-23",
+        "2025-06-06",
+        "2025-06-20",
+        "2025-07-04",
+        "2025-07-18",
+        "2025-08-01",
+        "2025-08-14",
+        "2025-08-29",
+        "2025-09-12",
+        "2025-09-26",
+        "2025-10-10",
+        "2025-10-24",
+        "2025-11-07",
+        "2025-11-21",
+        "2025-12-05",
+        "2025-12-19",
+        "2026-01-02",
+        "2026-01-16",
+        "2026-02-01",
+        "2026-02-13",
+        "2026-02-27",
+        "2026-03-13",
+        "2026-03-27",
+        "2026-04-10",
+        "2026-04-24",
+        "2026-05-08",
+        "2026-05-22",
+        "2026-06-05",
+        "2026-06-19",
+        "2026-07-03",
+        "2026-07-17",
+        "2026-07-31",
+        "2026-08-14",
+        "2026-08-28",
+        "2026-09-11",
+        "2026-09-25"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          21.5,
+          22.6,
+          23.6,
+          23.2,
+          23.2,
+          24.2,
+          25,
+          27,
+          28.3,
+          29.5,
+          34.1,
+          35.9,
+          35.2,
+          32.1,
+          31.2,
+          30.7,
+          33.5,
+          40.6,
+          37.5,
+          34.7,
+          36,
+          33.7,
+          33.7,
+          32.2,
+          34.1,
+          34.7,
+          27.9,
+          29.4,
+          27.6,
+          22.2,
+          24.1,
+          23.2,
+          24,
+          24.6,
+          25.8,
+          27.2,
+          25.8,
+          26.9,
+          26.7,
+          27.3,
+          26.8,
+          28.4,
+          27.5,
+          29.7,
+          29.1,
+          29.2,
+          27.3,
+          26.7,
+          26.5,
+          28.7,
+          27.5,
+          27.1,
+          26.9,
+          21.6,
+          22.2,
+          22.6,
+          22.6,
+          24.3,
+          24.9,
+          25.4,
+          25.7,
+          24.6,
+          24,
+          23.9,
+          25.1,
+          25.3,
+          24.8,
+          23.9,
+          26,
+          26.6,
+          27.3,
+          27.3,
+          28.3,
+          30,
+          31,
+          32.3,
+          30.1,
+          29.4,
+          31.1,
+          25.2,
+          24.6,
+          23,
+          23.3,
+          23.8,
+          24.4,
+          25,
+          25.2,
+          26.4,
+          26.4,
+          27.3,
+          27.6,
+          28.4,
+          27.5,
+          27.3,
+          29.1,
+          27.3,
+          28.4,
+          28.5,
+          28.7,
+          26.9,
+          26.9,
+          24.8,
+          23.9,
+          24.1,
+          26.1,
+          22.1,
+          22.6,
+          21.9,
+          23,
+          22.7,
+          23.1,
+          24.6,
+          23.8,
+          24,
+          25.5,
+          24.8,
+          25.6,
+          24.5,
+          25,
+          25.5,
+          24.9,
+          24.1,
+          23.5,
+          22.9,
+          23.3,
+          23.6,
+          22.7,
+          24.6,
+          25.5,
+          24.6,
+          24.6,
+          20.2,
+          20.8,
+          21.7,
+          22.4,
+          22.4,
+          22.9,
+          23.9,
+          23.8,
+          24.1,
+          24,
+          23.8,
+          23.8,
+          23.9
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 25.4,
+         "text": "Median: 25.4x"
+        },
+        {
+         "v": 24,
+         "text": "Hospitals: 24x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in; GAM estimates for FY27-29E"
+      },
+      {
+       "type": "line",
+       "title": "Forward P/E since 2021: median 51.7x, 38.9x now",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          50.8,
+          58.1,
+          58.6,
+          66.3,
+          83.3,
+          83.1,
+          74.8,
+          95.4,
+          88.1,
+          79.3,
+          85,
+          77,
+          61.8,
+          59.8,
+          70,
+          71.4,
+          68.8,
+          70.4,
+          75.2,
+          67.9,
+          70.5,
+          41.8,
+          45.8,
+          51.7,
+          51.8,
+          48.4,
+          51.1,
+          51.2,
+          55.2,
+          57.6,
+          65.6,
+          63.4,
+          46.3,
+          43.2,
+          46.9,
+          48.8,
+          52,
+          51.7,
+          51.4,
+          53.7,
+          50.7,
+          46,
+          40.4,
+          41.8,
+          42.1,
+          44.5,
+          45.4,
+          44.4,
+          45.6,
+          42.4,
+          43.2,
+          45.4,
+          45,
+          36.4,
+          39.6,
+          42.1,
+          42.5,
+          42.6
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 51.7,
+         "text": "Median: 51.7x"
+        },
+        {
+         "v": 45,
+         "text": "Cross-check: 45x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in; GAM estimates (forwardMedian)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**Sum of the parts**",
+        "**Target**",
+        "Sep-28E EBITDA by business; Apollo's 59.6% of NewCo",
+        "Hospitals 24x (bull 28x, bear 22x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "P/E",
+        "Cross-check",
+        "Sep-28E EPS ₹230.3",
+        "45x (bull 52x, bear 40x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "+13%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "15-year FCFF, 11.6% discount rate, g 6%",
+        "implies 27.0x FY28E EPS",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-38%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs price",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** The P/E value (₹10,364) is +13% above the SOTP because it capitalises 100% of HealthCo's earnings (Apollo's share falls to 59.6% after the scheme) and ignores the minorities' share of value; adjust for those and it lands close to the SOTP. The DCF (₹5,660) is 38% below the target and ~31% below the share price: with capex (incl. new leases) at ~6.5% of revenue and an 11.6% cost of equity, the cash flows the business can show over 15 years do not support today's price unless margins and growth stay high for longer than we assume. Like every Indian hospital stock, Apollo trades on the multiple the market is willing to pay, which it has done consistently since 2021 (it has rarely paid less than 23.8x forward EBITDA for the group)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Street basis vs ours: leases and minorities",
+      "head": [
+       "Item",
+       "₹ per share",
+       "Why it matters"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Lease liabilities (Jun-26 ₹2,877 cr)",
+        "−200",
+        "Brokers apply multiples to post-Ind AS EBITDA (rent excluded) but most deduct net debt excluding leases; consistent treatment deducts them."
+       ],
+       [
+        "Minorities in hospital subsidiaries and AHLL step-downs",
+        "−267",
+        "3.4% of hospital profit (₹57.4 cr in FY26; ~₹86 cr Sep-28E) belongs to partners in Assam, Lucknow, Ahmedabad, Imperial, Indore and others; valued at 42.5x, the hospital multiple converted to earnings (24x × 0.972 ÷ 0.549 PAT/EBITDA). HealthCo's minority is excluded (NewCo is valued at 59.6%)."
+       ],
+       [
+        "ICICI's 28x FY28E hospital multiple on our basis",
+        "26.0x Sep-28E",
+        "Our 24x is ~8% lower, the rest of the gap to the street is the two deductions above and our lower NewCo value."
+       ]
+      ],
+      "source": "Q1FY27 presentation p.34 (leases); AR FY26 note 21 (minorities); GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Hospital growth +2pp a year and margin +1pp; HealthCo growth +3pp, margin +0.8pp; hospitals 28x (75th percentile of the group's forward history), NewCo 24x, AHLL 22x."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Group revenue +{{F.salesGrowth.0|pct}} / +{{F.salesGrowth.1|pct}} / +{{F.salesGrowth.2|pct}}; hospital margin 23.8% → 24.7%; hospitals 24x, NewCo 18x, AHLL 18x Sep-28E EBITDA."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Hospital growth −3pp a year and margin −1.5pp; HealthCo growth −4pp, margin −1pp; hospitals 22x (25th percentile less the sector de-rating), NewCo 13x, AHLL 14x."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow (capex incl. new leases)",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: model net cash at Mar-27E (negative = net debt incl. leases and CCPS)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research; tax line includes minorities (27.7%); consolidated cash flows incl. 100% of HealthCo, with the CCPS counted as debt"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): discount rate down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed peers (trailing, at the 30-Sep-2026 close)",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "EV/EBITDA (x)",
+       "vs 5-yr median",
+       "P/E (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Apollo (group)**",
+        "1,17,612",
+        "25,228",
+        "15%",
+        "29.4",
+        "−14%",
+        "55.4",
+        "22.6%"
+       ],
+       [
+        "Max Healthcare",
+        "90,531",
+        "8,373",
+        "26.8%",
+        "37.4",
+        "−13%",
+        "60.4",
+        "14.3%"
+       ],
+       [
+        "Fortis",
+        "58,135",
+        "9,128",
+        "22.8%",
+        "27.7",
+        "+0%",
+        "54.5",
+        "11.3%"
+       ],
+       [
+        "Narayana Hrudayalaya",
+        "36,619",
+        "7,896",
+        "20.8%",
+        "21.7",
+        "−2%",
+        "42.4",
+        "19.7%"
+       ],
+       [
+        "Medanta",
+        "36,704",
+        "4,410",
+        "21.1%",
+        "34.0",
+        "+4%",
+        "64.1",
+        "15.1%"
+       ],
+       [
+        "Rainbow",
+        "13,347",
+        "1,703",
+        "32.2%",
+        "23.1",
+        "−11%",
+        "46.6",
+        "18.1%"
+       ],
+       [
+        "Jupiter Life Line",
+        "8,303",
+        "1,500",
+        "22.9%",
+        "22.9",
+        "−24%",
+        "43.5",
+        "13.4%"
+       ],
+       [
+        "KIMS",
+        "31,349",
+        "3,905",
+        "20.9%",
+        "40.6",
+        "+49%",
+        "150.3",
+        "11%"
+       ],
+       [
+        "Aster DM",
+        "60,773",
+        "4,643",
+        "18.8%",
+        "59.1",
+        "+91%",
+        "168.4",
+        "11.8%"
+       ],
+       [
+        "Dr Lal PathLabs",
+        "33,348",
+        "2,763",
+        "28.3%",
+        "34.6",
+        "+7%",
+        "59.3",
+        "21.8%"
+       ],
+       [
+        "Metropolis",
+        "11,247",
+        "1,646",
+        "24.7%",
+        "25.6",
+        "−9%",
+        "54.0",
+        "13.4%"
+       ],
+       [
+        "Vijaya Diagnostic",
+        "14,804",
+        "814",
+        "41.4%",
+        "39.4",
+        "+24%",
+        "79.0",
+        "19.7%"
+       ],
+       [
+        "Entero Healthcare",
+        "7,444",
+        "6,591",
+        "4%",
+        "24.0",
+        "−7%",
+        "57.6",
+        "8.6%"
+       ],
+       [
+        "MedPlus",
+        "7,869",
+        "6,892",
+        "8.8%",
+        "12.9",
+        "−46%",
+        "37.4",
+        "11.8%"
+       ]
+      ],
+      "source": "Screener.in (post-Ind AS EBITDA; EV includes lease liabilities), multiples scaled to the NSE close on 30-Sep-2026. Apollo's P/E and ROE use Screener's profit before minorities."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: own the franchise, but the price already pays for it",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's strongest hospital brand, with occupancy at 70%, ~26% margins in established hospitals, 25-28% hospital ROCE and a funded plan to add ~4,300 census beds; plus 59.6% of a soon-to-list pharmacy and digital company whose losses have almost gone."
+    },
+    {
+     "callout": "**What you are paying:** 38.9x our FY28E EPS and ~20.8x Sep-28E EBITDA for the hospitals once the other parts are valued. On the street's method with our inputs the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): a HOLD. The DCF (₹5,660) is the warning that the stock already discounts a long run of high growth."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Gurgaon and the five new hospitals break even on schedule (by Q3-Q4 FY28) without diluting the established margin",
+        "Medium",
+        "New-hospital losses vs ~₹150 cr guidance"
+       ],
+       [
+        "NewCo lists and the market values it above a distribution multiple",
+        "Medium",
+        "NCLT sanction, listing date, NewCo margin vs 6.5-7%"
+       ],
+       [
+        "Pricing review fades without caps",
+        "Medium",
+        "Government response to the 176th report"
+       ],
+       [
+        "A pull-back towards ~₹7,900",
+        "n.a.",
+        "Below ~₹7,990 the rule turns BUY"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Room-rent or package caps for metro hospitals",
+        "Low-medium",
+        "Revenue per patient growth halves; bear case {{scen.bear.tp|inr}}"
+       ],
+       [
+        "North and West greenfields ramp slowly (Worli, Dwarka, Varanasi, Ranchi)",
+        "Medium",
+        "Margins stuck near 23%; ROCE falls"
+       ],
+       [
+        "Keimed swap ratio or NewCo listing disappoints",
+        "Medium",
+        "Lower value for Apollo's 59.6%"
+       ],
+       [
+        "Doctor and nurse cost inflation in metros",
+        "Medium",
+        "Margin pressure as every chain adds beds"
+       ],
+       [
+        "Bangladesh and international volumes fall again",
+        "Low",
+        "6% of in-patient revenue"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: HOLD, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would turn buyers below ~₹7,990** and sellers above ~₹9,670 on today's numbers; we would cut the hospital multiple if regulation caps prices or new hospitals miss their breakeven dates.",
+      "**Biggest swing factor:** the hospital multiple. Each 1x on Sep-28E hospital EBITDA (₹4,590 cr) is ~₹319 a share; each 1pp of hospital margin is ~₹177 cr of FY28E EBITDA (~₹295 a share at our multiple)."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Occupancy, Q1FY27",
+        "v": "70%",
+        "d": "established 72%; FY22 63%"
+       },
+       {
+        "k": "Census beds, now → FY31",
+        "v": "9,857 → ~14,100",
+        "d": "~₹7,500 cr still to spend"
+       },
+       {
+        "k": "Revenue per in-patient",
+        "v": "₹1,86,630",
+        "d": "+8% YoY in Q1FY27"
+       },
+       {
+        "k": "Implied hospital multiple",
+        "v": "20.8x",
+        "d": "our 24x Sep-28E EBITDA"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY15–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA (post-Ind AS)",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 150
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation (incl. right-of-use)"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. associates)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (owners)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 25
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex (forecasts incl. new leases)"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (owners)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Healthcare Services (HCS)",
+        "Apollo's hospital business, as reported. Consolidated figures exclude the Delhi hospital (a 22% associate); the company's bed and patient KPIs include it."
+       ],
+       [
+        "Apollo HealthCo (AHL)",
+        "Subsidiary that distributes medicines to the Apollo pharmacy stores (owned by Apollo Medicals, an associate), sells private-label products and runs the Apollo 24/7 app."
+       ],
+       [
+        "Apollo 24/7 / digital cash loss",
+        "Apollo's health app (teleconsults, medicine delivery, diagnostics, insurance). The \"digital cash loss\" is its EBITDA after its operating cost, before ESOP charges."
+       ],
+       [
+        "AHLL",
+        "Apollo Health & Lifestyle: clinics, diagnostics, Spectra day-surgery centres, dialysis, dental, and (until sold to Cloudnine) Cradle maternity and fertility centres."
+       ],
+       [
+        "NewCo / Apollo Healthtech",
+        "The company that will hold HealthCo, Apollo 24/7, telehealth and Keimed after the composite scheme, to be listed; Apollo's shareholders will own 59.6% of it."
+       ],
+       [
+        "Keimed",
+        "A pharmaceutical wholesaler linked to the promoter family; supplies the Apollo network (₹968 cr in FY26); merges into NewCo."
+       ],
+       [
+        "CCPS",
+        "Compulsorily convertible preference shares. Advent's ₹2,475 cr in HealthCo; booked as a liability (₹2,457 cr) but will convert into Advent's 12.1% of NewCo."
+       ],
+       [
+        "Census / operating beds",
+        "Census beds are in-patient beds counted for occupancy (excluding day-care, recovery, dialysis); operating beds are those open and staffed."
+       ],
+       [
+        "Occupancy",
+        "Occupied bed-days ÷ (operating beds × days in the period)."
+       ],
+       [
+        "ALOS",
+        "Average length of stay: occupied bed-days ÷ in-patient discharges."
+       ],
+       [
+        "ARPP",
+        "Average revenue per in-patient (per admission). Apollo's main price-and-mix measure."
+       ],
+       [
+        "ARPOB",
+        "Average revenue per occupied bed-day; here ARPP ÷ ALOS."
+       ],
+       [
+        "CONGO-T",
+        "Apollo's high-acuity specialties: cardiac, oncology, neurosciences, gastro, orthopaedics and transplants (62% of in-patient revenue)."
+       ],
+       [
+        "Established / new hospitals",
+        "New = the five hospitals commissioned in FY26-27 (Pune, Sonarpur, Gachibowli, Defence Colony, Sarjapur-1); established = the rest."
+       ],
+       [
+        "Self-pay / insurance / PSU / IPS",
+        "Payer types: patients paying cash, insurers (incl. TPAs), public-sector and government schemes, international patients."
+       ],
+       [
+        "Ind AS 116 (leases)",
+        "Accounting rule that puts leased buildings on the balance sheet: rent is replaced by depreciation and interest, and future rent appears as a lease liability."
+       ],
+       [
+        "Pre-/post-Ind AS EBITDA",
+        "EBITDA after deducting rent (pre-Ind AS) vs before rent (post-Ind AS, as reported and as on Screener)."
+       ],
+       [
+        "Minorities",
+        "Partners' share of subsidiaries Apollo does not fully own (Assam, Lucknow, Ahmedabad, Indore, Imperial and others); not Apollo shareholders' profit."
+       ],
+       [
+        "SOTP",
+        "Sum of the parts: each business valued separately, then added up, less net debt and other claims."
+       ],
+       [
+        "EV/EBITDA, P/E",
+        "Enterprise value (market value plus net debt, here including lease liabilities) ÷ EBITDA; share price ÷ earnings per share."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "Holding-company discount",
+        "The discount at which a listed stake is valued in a SOTP, because the parent's shareholders cannot sell it directly."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, 11.6%; debt excluding the CCPS is small)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY21": "−6%: Covid lockdowns cut elective surgery and international patients.",
+  "pat@FY21": "−67%: Covid year; EPS ₹10.5.",
+  "sales@FY22": "+39%: recovery, Covid testing and vaccination, and the new pharmacy-distribution structure (HealthCo from Mar-2022).",
+  "pat@FY22": "Includes ~₹220 cr of exceptional gains.",
+  "ebitdaMargin@FY23": "−250bp: Apollo 24/7 operating costs of ₹657 cr; HealthCo EBITDA negative.",
+  "pat@FY23": "−22%: digital losses; FY22 base had exceptional gains.",
+  "ebitdaMargin@FY25": "+130bp: digital costs down to ₹478 cr; hospital margin 24.2%.",
+  "pat@FY25": "+61%: margin recovery as digital costs fell; low FY24 base.",
+  "otherIncome@FY25": "Higher treasury after Advent's ₹2,475 cr CCPS (Screener incl. associates).",
+  "capex@FY25": "₹1,713 cr: hospital projects commissioned in FY26-27.",
+  "sales@FY26": "+16%: hospitals +13% (volume +4%, ARPP +10%), HealthCo +19%, AHLL +20%.",
+  "pat@FY26": "+34%; after a ₹19 cr labour-code provision (exceptional) and ₹61 cr of minorities.",
+  "capex@FY26": "₹1,962 cr; plus ₹1,342 cr to buy out AHLL and Assam minorities (financing).",
+  "sales@Q2FY26": "As first published (₹6,303.5 cr); Screener now shows a restated ₹6,189 cr.",
+  "pat@Q4FY26": "+36%; four new hospitals commissioned in FY26 lost ₹41 cr in the quarter.",
+  "sales@Q1FY27": "+21% as first published (₹7,043.5 cr): hospitals +22% (volume +13%, ARPP +8%), HealthCo +20%.",
+  "opm@Q1FY27": "15.5%: established hospitals 25.9%; new hospitals −₹38 cr; digital cash loss ₹10 cr.",
+  "pat@Q1FY27": "+34%; minorities jumped to ₹30 cr.",
+  "sales@FY27E": "GAM: hospitals +19.5% (bed build), HealthCo +19%, AHLL +1% (Cradle and fertility leave from Q3FY27).",
+  "ebitdaMargin@FY27E": "GAM: hospitals 23.8% (Gurgaon and new-hospital losses ~₹175 cr), HealthCo 6.0%.",
+  "capex@FY27E": "Cash capex ~₹2,200 cr plus ~₹250 cr of new leases (right-of-use).",
+  "sales@FY29E": "Hospital growth slows to ~13%: few beds open before the FY30-31 greenfields."
+ }
+}

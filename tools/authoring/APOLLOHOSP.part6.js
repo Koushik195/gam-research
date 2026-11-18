@@ -1,0 +1,58 @@
+// Apollo report, part 6: glossary and statement notes.
+const glossary = {
+  id: 'glossary', nav: 'Glossary', kicker: 'Appendix', title: 'Glossary',
+  blocks: [
+    { exhibit: { type: 'table', title: 'Terms used in this report', head: ['Term', 'What it means'], wide: [1], rows: [
+      ['Healthcare Services (HCS)', 'Apollo\'s hospital business, as reported. Consolidated figures exclude the Delhi hospital (a 22% associate); the company\'s bed and patient KPIs include it.'],
+      ['Apollo HealthCo (AHL)', 'Subsidiary that distributes medicines to the Apollo pharmacy stores (owned by Apollo Medicals, an associate), sells private-label products and runs the Apollo 24/7 app.'],
+      ['Apollo 24/7 / digital cash loss', 'Apollo\'s health app (teleconsults, medicine delivery, diagnostics, insurance). The "digital cash loss" is its EBITDA after its operating cost, before ESOP charges.'],
+      ['AHLL', 'Apollo Health & Lifestyle: clinics, diagnostics, Spectra day-surgery centres, dialysis, dental, and (until sold to Cloudnine) Cradle maternity and fertility centres.'],
+      ['NewCo / Apollo Healthtech', 'The company that will hold HealthCo, Apollo 24/7, telehealth and Keimed after the composite scheme, to be listed; Apollo\'s shareholders will own 59.6% of it.'],
+      ['Keimed', 'A pharmaceutical wholesaler linked to the promoter family; supplies the Apollo network (₹968 cr in FY26); merges into NewCo.'],
+      ['CCPS', 'Compulsorily convertible preference shares. Advent\'s ₹2,475 cr in HealthCo; booked as a liability (₹2,457 cr) but will convert into Advent\'s 12.1% of NewCo.'],
+      ['Census / operating beds', 'Census beds are in-patient beds counted for occupancy (excluding day-care, recovery, dialysis); operating beds are those open and staffed.'],
+      ['Occupancy', 'Occupied bed-days ÷ (operating beds × days in the period).'],
+      ['ALOS', 'Average length of stay: occupied bed-days ÷ in-patient discharges.'],
+      ['ARPP', 'Average revenue per in-patient (per admission). Apollo\'s main price-and-mix measure.'],
+      ['ARPOB', 'Average revenue per occupied bed-day; here ARPP ÷ ALOS.'],
+      ['CONGO-T', 'Apollo\'s high-acuity specialties: cardiac, oncology, neurosciences, gastro, orthopaedics and transplants (62% of in-patient revenue).'],
+      ['Established / new hospitals', 'New = the five hospitals commissioned in FY26-27 (Pune, Sonarpur, Gachibowli, Defence Colony, Sarjapur-1); established = the rest.'],
+      ['Self-pay / insurance / PSU / IPS', 'Payer types: patients paying cash, insurers (incl. TPAs), public-sector and government schemes, international patients.'],
+      ['Ind AS 116 (leases)', 'Accounting rule that puts leased buildings on the balance sheet: rent is replaced by depreciation and interest, and future rent appears as a lease liability.'],
+      ['Pre-/post-Ind AS EBITDA', 'EBITDA after deducting rent (pre-Ind AS) vs before rent (post-Ind AS, as reported and as on Screener).'],
+      ['Minorities', 'Partners\' share of subsidiaries Apollo does not fully own (Assam, Lucknow, Ahmedabad, Indore, Imperial and others); not Apollo shareholders\' profit.'],
+      ['SOTP', 'Sum of the parts: each business valued separately, then added up, less net debt and other claims.'],
+      ['EV/EBITDA, P/E', 'Enterprise value (market value plus net debt, here including lease liabilities) ÷ EBITDA; share price ÷ earnings per share.'],
+      ['Sep-28E', 'Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027.'],
+      ['Holding-company discount', 'The discount at which a listed stake is valued in a SOTP, because the parent\'s shareholders cannot sell it directly.'],
+      ['DCF / WACC', 'Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, 11.6%; debt excluding the CCPS is small).'],
+    ], source: 'GAM Research' } },
+  ],
+};
+
+const statementNotes = {
+  'sales@FY21': '−6%: Covid lockdowns cut elective surgery and international patients.',
+  'pat@FY21': '−67%: Covid year; EPS ₹10.5.',
+  'sales@FY22': '+39%: recovery, Covid testing and vaccination, and the new pharmacy-distribution structure (HealthCo from Mar-2022).',
+  'pat@FY22': 'Includes ~₹220 cr of exceptional gains.',
+  'ebitdaMargin@FY23': '−250bp: Apollo 24/7 operating costs of ₹657 cr; HealthCo EBITDA negative.',
+  'pat@FY23': '−22%: digital losses; FY22 base had exceptional gains.',
+  'ebitdaMargin@FY25': '+130bp: digital costs down to ₹478 cr; hospital margin 24.2%.',
+  'pat@FY25': '+61%: margin recovery as digital costs fell; low FY24 base.',
+  'otherIncome@FY25': 'Higher treasury after Advent\'s ₹2,475 cr CCPS (Screener incl. associates).',
+  'capex@FY25': '₹1,713 cr: hospital projects commissioned in FY26-27.',
+  'sales@FY26': '+16%: hospitals +13% (volume +4%, ARPP +10%), HealthCo +19%, AHLL +20%.',
+  'pat@FY26': '+34%; after a ₹19 cr labour-code provision (exceptional) and ₹61 cr of minorities.',
+  'capex@FY26': '₹1,962 cr; plus ₹1,342 cr to buy out AHLL and Assam minorities (financing).',
+  'sales@Q2FY26': 'As first published (₹6,303.5 cr); Screener now shows a restated ₹6,189 cr.',
+  'pat@Q4FY26': '+36%; four new hospitals commissioned in FY26 lost ₹41 cr in the quarter.',
+  'sales@Q1FY27': '+21% as first published (₹7,043.5 cr): hospitals +22% (volume +13%, ARPP +8%), HealthCo +20%.',
+  'opm@Q1FY27': '15.5%: established hospitals 25.9%; new hospitals −₹38 cr; digital cash loss ₹10 cr.',
+  'pat@Q1FY27': '+34%; minorities jumped to ₹30 cr.',
+  'sales@FY27E': 'GAM: hospitals +19.5% (bed build), HealthCo +19%, AHLL +1% (Cradle and fertility leave from Q3FY27).',
+  'ebitdaMargin@FY27E': 'GAM: hospitals 23.8% (Gurgaon and new-hospital losses ~₹175 cr), HealthCo 6.0%.',
+  'capex@FY27E': 'Cash capex ~₹2,200 cr plus ~₹250 cr of new leases (right-of-use).',
+  'sales@FY29E': 'Hospital growth slows to ~13%: few beds open before the FY30-31 greenfields.',
+};
+
+module.exports = { glossary, statementNotes };
