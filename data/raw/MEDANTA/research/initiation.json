@@ -1,0 +1,3918 @@
+{
+ "symbol": "MEDANTA",
+ "listing": "NSE: MEDANTA · BSE: 543654",
+ "date": "30 September 2026",
+ "rating": "HOLD",
+ "analysts": "GAM Research — Healthcare",
+ "cover": {
+  "headline": "One of India's best hospital franchises, priced for a plan that starts paying only in FY30",
+  "lead": "Medanta runs six large super-specialty hospitals in North and East India (3,737 beds at Jun-2026), anchored by the 1,440-bed Medicity in Gurugram and by first-mover hospitals in Lucknow and Patna that fill at 68-70% and earn ~32% margins without price increases. Q1FY27 revenue rose 26.5% (in-patients +28%) and the new Noida hospital's loss shrank from ₹32 cr a quarter to ₹4.9 cr. Next comes a near-doubling of beds: 418 brownfield beds in FY27, then 2,950 beds in five greenfields (three in Delhi and Mumbai) that management expects to contribute \"more FY30 numbers\", for ₹4,858 cr of capex. The street values Medanta on **EV/EBITDA on FY28E or Sep-28E (25-28x)**. We forecast EBITDA (after ESOP, before other income) of ₹1,234 / 1,487 / 1,634 cr and EPS of ₹25.9 / 30.9 / 32.6 for FY27-29E. Applying **22.5x to Sep-28E EBITDA of ₹1,560 cr** (post-Ind AS, lease liabilities in net debt) gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with HOLD.** Cross-checks: P/E ₹1,271, DCF ₹572. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "A brand that fills hospitals",
+    "p": "Gurugram is ranked India's best hospital (Newsweek 2026) and draws complex cases from across North India and abroad. Lucknow and Patna broke even in their first full year; in Q1FY27 they grew 28% at a 32% margin with no tariff increase in Patna in 4.5 years. In-patient volumes doubled from FY22 to FY26."
+   },
+   {
+    "h": "FY27-28 look strong",
+    "p": "Noida swings from a ₹78 cr loss (FY26) to profit, 418 brownfield beds open and Lucknow/Patna keep compounding. We model revenue +{{F.salesGrowth.0|pct}} and +{{F.salesGrowth.1|pct}} and EBITDA in line with the street for FY27-28; our margin is lower (23.2% FY28E vs PL's 24.7%) because grant income fades and doctors are hired ahead of the new hospitals."
+   },
+   {
+    "h": "Then an air pocket",
+    "p": "No greenfield opens before FY30, so revenue growth slows to ~{{F.salesGrowth.2|pct}} in FY29E while ₹1,300-1,400 cr a year of capex goes in; net debt (incl. leases) moves from ~zero to ~₹280 cr and ROE dips to ~15%. Our DCF (₹572) shows how much of today's price depends on the hospitals that open after FY30."
+   },
+   {
+    "h": "Valuation: at its own history while peers de-rated",
+    "p": "At ₹1,365 the stock trades at 24.6x our FY28E EV/EBITDA, close to its 25.8x forward median since listing, while listed hospital peers had de-rated ~12% by 30-Sep-2026: that gives 22.5x and {{dcf.tp|inr}}. The street (average post-Q1 target ₹1,630) pays 27-28x."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "GREEN"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "RED"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): Noida breakeven (guided for H2FY27, now \"earlier\"), the Indore 80-bed cancer unit (end-Q2/early-Q3FY27) and Gurugram's extra operating theatres and cath labs.",
+   "Brownfield beds: Lucknow +172 (H2FY27), Patna +49 (Q4FY27), Noida to 550; any tariff increase in Patna or Lucknow.",
+   "Greenfield milestones: Mumbai (MHADA and environmental clearances), Pitampura building plans, South Delhi civil works, Guwahati construction.",
+   "Supply: block sales by Temasek (14.85%) or the co-founder (~10%), who sold 0.74% in May-Jun 2026.",
+   "Any O&M or acquisition deal (\"a couple\" under study, May-2026)."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "In-patients doubled in four years: growth is volume-led",
+       "unit": "In-patient volumes ('000 a year)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "In-patients",
+         "values": [
+          102,
+          135,
+          156,
+          174,
+          202
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26 p.14; company presentations"
+      },
+      {
+       "type": "line",
+       "title": "ARPOB +22% since FY22 with shorter stays",
+       "unit": "Revenue per occupied bed-day (₹)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ARPOB",
+         "values": [
+          54547,
+          59098,
+          61890,
+          62722,
+          66550
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Lucknow + Patna grow ~30% a year; Gurugram-led Cluster 1 ~10%",
+       "unit": "Total income growth, year on year (%)",
+       "x": [
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Cluster 1",
+         "values": [
+          9,
+          10.1
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Lucknow + Patna",
+         "values": [
+          29.2,
+          28.2
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 presentation pp. 20-21; Q1FY27 presentation pp. 15-16"
+      },
+      {
+       "type": "column",
+       "title": "Noida: from a ₹32 cr quarterly loss to almost breakeven",
+       "unit": "Noida EBITDA, company basis (₹ crore)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBITDA",
+         "values": [
+          -3,
+          -19.7,
+          -32,
+          -23.6,
+          -4.9
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation p.10"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: Noida took it down in FY26; it recovers, then flattens",
+       "unit": "EBITDA margin, after ESOP, before other income (%)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Margin",
+         "values": [
+          21.1,
+          23.5,
+          24.7,
+          24,
+          21.1,
+          22.4,
+          23.2,
+          23.3
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 15,
+       "max": 30,
+       "source": "Screener.in; GAM estimates FY27-29E"
+      },
+      {
+       "type": "column",
+       "title": "Revenue growth accelerated to 26.5% in Q1FY27",
+       "unit": "Revenue growth, year on year (%)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Growth",
+         "values": [
+          19.7,
+          14.8,
+          18.9,
+          24.5,
+          26.5
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward EV/EBITDA: median 25.8x since listing, 24.6x now",
+       "unit": "EV (incl. lease liabilities) ÷ next full-year EBITDA, after ESOP (x)",
+       "x": [
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          13.5,
+          14.5,
+          14.3,
+          16.5,
+          14.2,
+          16.3,
+          19.4,
+          21.3,
+          21.1,
+          21.5,
+          24.2,
+          28.1,
+          30.7,
+          43.3,
+          38.6,
+          41.6,
+          34,
+          36.2,
+          32.3,
+          32,
+          30.4,
+          31.7,
+          31.1,
+          30.6,
+          35,
+          27.3,
+          25.8,
+          24.3,
+          28.5,
+          29.6,
+          28.6,
+          26.9,
+          24.7,
+          24.6,
+          24.3,
+          21.1,
+          19.9,
+          22.4,
+          24.1,
+          25.7,
+          27.1,
+          24.6
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 25.8,
+         "text": "Median since listing: 25.8x"
+        },
+        {
+         "v": 22.5,
+         "text": "Our target: 22.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices and balance sheets; company cash; GAM estimates FY27-29E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (notes standing on 30-Sep-26)",
+       "unit": "₹ per share; CMP ₹1,365",
+       "x": [
+        "Prabhudas Lilladher (25-Aug-26)",
+        "Motilal Oswal (1-Aug-26)",
+        "Choice Institutional Equities (1-Aug-26)",
+        "Anand Rathi (31-Jul-26)",
+        "Antique Stock Broking (29-Jun-26)",
+        "JM Financial (25-Mar-26)",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          1750,
+          1670,
+          1550,
+          1550,
+          1520,
+          1382,
+          1300
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and summaries (Mar-2026 to Aug-2026), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Medanta does",
+   "kicker": "The business",
+   "title": "Big, procedure-heavy super-specialty hospitals in North and East India, led by a famous founder",
+   "blocks": [
+    {
+     "p": "Medanta runs six large hospitals: the 1,440-bed Medicity in Gurugram (2009), Indore (175 beds), Ranchi (two units, 310 beds), Lucknow (778 of 950 planned), Patna (601 of 650) and Noida (433 of 550, opened Sep-2025), **3,737 installed beds** at Jun-2026, a quarter of them ICU beds. It is a tertiary and quaternary referral centre: heart (~21% of healthcare revenue), cancer (~14%), neurosciences, digestive and liver diseases (~11% each), kidney and urology (~8%), orthopaedics and transplants, with 100+ operating theatres and a heavy use of robotics. Gurugram, Indore and Ranchi make up **Cluster 1** (63% of FY26 income, growing ~10%); Lucknow, Patna and Noida make up **Cluster 2** (growing 37-55%). Around the hospitals sit 9 clinics, 12 labs, 22 pharmacies and 825+ collection centres."
+    },
+    {
+     "p": "Doctors are a mix of employees and full-time retainers working in specialty teams under department heads (2,480+ doctors). In FY26 in-patients brought ₹3,387 cr of revenue, out-patients ₹706 cr, pharmacy sales to out-patients ₹182 cr, labs ₹44 cr and government (EPCG) grants ₹56 cr. 56% of in-patient revenue was paid directly by patients, 25% by insurers on a cashless basis, 11% by CGHS, ECHS and the Railways, and international patients were 7% of revenue. There is almost no exposure to the low-priced government scheme PM-JAY."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The network at Jun-2026 (installed beds)",
+      "head": [
+       "Hospital",
+       "Opened",
+       "Beds (ICU)",
+       "Planned",
+       "Cluster",
+       "Model"
+      ],
+      "wide": [
+       5
+      ],
+      "rows": [
+       [
+        "**Medanta – The Medicity, Gurugram**",
+        "2009",
+        "1,440 (316)",
+        "1,440",
+        "Cluster 1",
+        "Flagship campus; corporate costs are loaded here"
+       ],
+       [
+        "**Medanta Indore**",
+        "2014",
+        "175 (53)",
+        "255",
+        "Cluster 1",
+        "27-year lease; 80-bed cancer unit 500 m away taken over under a business transfer agreement (Apr-2026), opening Q2/Q3FY27"
+       ],
+       [
+        "**Medanta Ranchi (two units)**",
+        "2015; Unit 2 Jul-2025",
+        "310 (102)",
+        "310",
+        "Cluster 1",
+        "200-bed hospital on a 15-year lease; 110-bed new unit nearby under an O&M arrangement"
+       ],
+       [
+        "**Medanta Lucknow**",
+        "2019",
+        "778 (211)",
+        "950",
+        "Cluster 2",
+        "Greenfield; JCI accredited Jan-2026 (first in UP)"
+       ],
+       [
+        "**Jai Prabha Medanta, Patna**",
+        "OPD 2020, IPD 2021",
+        "601 (176)",
+        "650",
+        "Cluster 2",
+        "33-year concession agreement (Bihar)"
+       ],
+       [
+        "**Medanta Noida**",
+        "Sep-2025 (inaugurated 27-Nov-2025)",
+        "433 (98)",
+        "550",
+        "Cluster 2",
+        "Greenfield on land under a 90-year lease; 14 OTs; ₹416 cr of FY26 capex"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total**",
+         "",
+         "**3,737**",
+         "**4,155**",
+         "",
+         "Plus five greenfields (2,950 beds) from FY30"
+        ]
+       }
+      ],
+      "source": "Q1FY27 presentation pp. 22-24 (installed beds at 30-Jun-2026); AR FY26 p.7 timeline (lease and concession terms); Q4FY26 presentation p.7"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Gurugram is still the giant: 39% of installed beds",
+       "unit": "Installed beds, Jun-2026",
+       "x": [
+        "Gurugram",
+        "Indore",
+        "Ranchi",
+        "Lucknow",
+        "Patna",
+        "Noida"
+       ],
+       "series": [
+        {
+         "name": "Beds",
+         "values": [
+          1440,
+          175,
+          310,
+          778,
+          601,
+          433
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Gurugram",
+       "source": "Q1FY27 presentation p.23"
+      },
+      {
+       "type": "hbar",
+       "title": "Revenue mix: in-patients are three-quarters",
+       "unit": "FY26 revenue (₹ crore)",
+       "x": [
+        "In-patients",
+        "Out-patients",
+        "OPD pharmacy",
+        "Labs",
+        "EPCG grants",
+        "Training, research, other"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          3387,
+          706,
+          182,
+          44,
+          56,
+          36
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "In-patients",
+       "source": "AR FY26 consolidated note 27"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Operating scale",
+      "head": [
+       "",
+       "FY23",
+       "FY24",
+       "FY25",
+       "FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "In-patients ('000)",
+        "135.2",
+        "155.9",
+        "174.2",
+        "202.1",
+        "60.2"
+       ],
+       [
+        "Out-patient encounters (lakh)",
+        "22.7",
+        "26.8",
+        "29.4",
+        "34.9",
+        "11.0"
+       ],
+       [
+        "Census beds (average)",
+        "2,049",
+        "2,231",
+        "2,440",
+        "2,737",
+        "3,037"
+       ],
+       [
+        "Average length of stay (days)",
+        "3.25",
+        "3.23",
+        "3.17",
+        "3.04",
+        "2.87"
+       ],
+       [
+        "Cash share of IP revenue (by payment type)",
+        "63%",
+        "61%",
+        "57%",
+        "56%",
+        "56%"
+       ]
+      ],
+      "source": "Company presentations; AR FY26 p.14-15"
+     }
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From one Gurugram campus (2009) to six hospitals and a plan to double beds",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "2004",
+        "Global Health Pvt Ltd incorporated by Dr Naresh Trehan",
+        "Holding company of the Medanta network"
+       ],
+       [
+        "2009",
+        "Medanta – The Medicity opens in Gurugram",
+        "1,440 beds today, 316 ICU beds; with Indore and Ranchi (Cluster 1) 63% of FY26 total income"
+       ],
+       [
+        "2013",
+        "Carlyle (Anant Investments) buys a minority stake",
+        "Exited completely in the Nov-2022 IPO (company)"
+       ],
+       [
+        "2014-2015",
+        "Indore (175 beds, 27-year lease) and Ranchi (200 beds, 15-year lease) added; Temasek (Dunearn Investments) buys a minority stake (2015)",
+        "Asset-light entry to Tier-2 cities"
+       ],
+       [
+        "2019-2021",
+        "Lucknow (950-bed capacity) opens in 2019; Patna OPD 2020 and IPD 2021 under a 33-year concession",
+        "Both broke even in their first full year (Lucknow FY21, Patna FY23: PL); now 32% EBITDA margin"
+       ],
+       [
+        "Nov-2022",
+        "IPO at ₹336 (₹2,206 cr; ₹500 cr fresh to repay subsidiary debt); listed 16-Nov-2022",
+        "Net cash from FY23; Carlyle out"
+       ],
+       [
+        "Dec-2023",
+        "GHL Hospital Ltd formed with DLF (50:50) for a 400-bed South Delhi hospital",
+        "Consolidated subsidiary; DLF's half shows as minority interest from FY26"
+       ],
+       [
+        "FY25-26",
+        "Medanta Holdings (Lucknow) merged into the listed company",
+        "₹49.9 cr stamp duty charged in FY25, ₹16 cr reversed in FY26; ₹19.6 cr EPCG interest reversal (Q1FY26)"
+       ],
+       [
+        "Oct-2024 / Sep-2025",
+        "Land bought for Mumbai (Oshiwara) and Guwahati",
+        "₹131 cr and ₹140 cr of land payments in FY25 and FY26"
+       ],
+       [
+        "Jul-Nov 2025",
+        "Ranchi Unit 2 (110 beds, O&M) opens Jul-2025; Noida starts Sep-2025 (inaugurated 27-Nov-2025)",
+        "Noida EBITDA loss ₹78 cr in FY26: margin down from 24.0% to 21.1% (Screener basis)"
+       ],
+       [
+        "Nov-2025",
+        "New Labour Codes notified",
+        "₹36.6 cr one-time charge in Q3FY26 (exceptional)"
+       ],
+       [
+        "Mar-Apr 2026",
+        "Varanasi 400-bed project (built-to-suit lease) and the Indore 80-bed cancer hospital takeover (~₹30 cr) announced",
+        "Adds to the pipeline"
+       ],
+       [
+        "May-Jun 2026",
+        "Co-founder Sunil Sachdeva sells 20 lakh shares (0.74%) to HDFC Mutual Fund in two blocks at ~₹1,225-1,300",
+        "Holds ~10% after (10.79% at Mar-2026)"
+       ],
+       [
+        "Jul-2026",
+        "Guwahati raised to 650 beds (₹970 cr) after new building norms",
+        "Pipeline ~3,350 beds; capex left ₹4,858 cr"
+       ]
+      ],
+      "source": "AR FY26 p.7 timeline and notes 36, 46; Q1FY27 and Q4FY26 presentations; IPO coverage (Business Standard, 28-Oct-2022); Business Today (26-Jun-2026) on the Sachdeva blocks; PL (25-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Corporate actions and per-share data:** no bonus, split or buyback since listing; 26.87 cr shares (ESOP allotments only). The South Delhi company (GHL Hospital Ltd, 50% DLF) brought the first minority interest in FY26; it is a small loss, so Screener's \"Net Profit\" (₹554 cr) is slightly below profit to owners (₹556 cr) while its EPS (₹20.71) is on owners' profit. We use the attributable basis (MEDANTA.patch.js) so the share count is right. Carlyle sold out in the IPO; Temasek (14.85%) has been on the register since 2015."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Demand is growing and insured, but everyone is building beds, especially in NCR",
+   "blocks": [
+    {
+     "p": "Indian private hospitals are in a capacity boom backed by demand that is still growing: health-insurance premiums rose 15.4% to ₹1.4 lakh crore in FY26 (40.8% of non-life premiums), GST on retail health cover was cut from 18% to nil in Sep-2025, 43.5 crore Ayushman cards had been issued by Mar-2026, and the Medanta AR cites private hospital revenue growth of 16-18% a year with ARPOB growth of 6-8%. Listed operators are expected to add ~15,000 beds. For Medanta the tailwind is real but uneven: Tier-2 cities in UP and Bihar (Lucknow, Patna) have little high-end supply, while Delhi NCR, where Gurugram and Noida sit and two of the five new projects go (Mumbai is a third), is the most contested hospital market in India."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Forces acting on Medanta's market (as of 30-Sep-2026)",
+      "head": [
+       "Theme",
+       "Direction",
+       "What it means for Medanta"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Insurance penetration and GST cut on health cover",
+        "Tailwind",
+        "Insured patients pay for complex procedures; Medanta's TPA (cashless insurance) share is steady at ~25% of IP revenue, with 56% paid directly by patients."
+       ],
+       [
+        "CGHS rate revision (Oct-2025, first in years)",
+        "Tailwind, small",
+        "CGHS/ECHS/Railways is 10-12% of Medanta's IP revenue; management says the hike helps but does not move revenue 'by several hundred basis points'."
+       ],
+       [
+        "Tier-2 cities short of tertiary care (eastern UP, Bihar, Northeast)",
+        "Tailwind",
+        "Lucknow and Patna grew volumes 20%+ with no tariff increase; Guwahati (650 beds) targets patients who now travel out of the Northeast."
+       ],
+       [
+        "Hospital bed boom in NCR and metros",
+        "Headwind for pricing and doctors",
+        "Noida, South Delhi, Pitampura and Mumbai enter markets where Max, Fortis, Apollo, Manipal and others are also adding beds; doctor costs rise first."
+       ],
+       [
+        "Medical tourism",
+        "Tailwind, volatile",
+        "International revenue ₹278 cr in FY26 (+33%, 7% of revenue); Middle East flight disruptions hit Q4FY26; Bangladesh is still weak."
+       ],
+       [
+        "Government price controls and schemes",
+        "Risk",
+        "Low exposure today (no PM-JAY focus), but price caps on procedures or stents would hit a cardiac-heavy mix (heart ~21% of healthcare revenue)."
+       ]
+      ],
+      "source": "AR FY26 MD&A pp. 66-68 (industry data as quoted there); Antique Stock Broking via Business Today (29-Jun-2026)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Q1FY27 revenue growth: Medanta 26.5%, near the top of the group",
+       "unit": "Consolidated revenue growth, Jun-2026 quarter, year on year (%)",
+       "x": [
+        "Medanta",
+        "Apollo Hospitals",
+        "Max Healthcare",
+        "Fortis",
+        "Narayana Hrudayalaya",
+        "Rainbow",
+        "KIMS",
+        "Jupiter Life Line"
+       ],
+       "series": [
+        {
+         "name": "Growth",
+         "values": [
+          26.5,
+          18.7,
+          16.7,
+          17.4,
+          78.1,
+          33.1,
+          35.3,
+          16.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Medanta",
+       "source": "Screener.in quarterly results (Narayana and Rainbow include acquisitions)"
+      },
+      {
+       "type": "hbar",
+       "title": "Over three years it was mid-pack: 18% a year",
+       "unit": "Revenue growth, FY23-26, a year (%)",
+       "x": [
+        "Medanta",
+        "Apollo Hospitals",
+        "Max Healthcare",
+        "Fortis",
+        "Narayana Hrudayalaya",
+        "Rainbow",
+        "KIMS",
+        "Jupiter Life Line"
+       ],
+       "series": [
+        {
+         "name": "CAGR",
+         "values": [
+          17.6,
+          14.9,
+          22.4,
+          13.2,
+          20.4,
+          13.2,
+          21.1,
+          18.9
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Medanta",
+       "source": "Screener.in (consolidated; acquisitions included for peers)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: Medanta captures the flight to quality in Tier-2 cities best",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Flight to quality in Tier-2 cities",
+       "Yes, strongly",
+       "Lucknow + Patna income +28% in Q1FY27 (ex Noida) at 32% margins, with no tariff increase in Patna in 4.5 years; occupancy 68-70%.",
+       "The best growth engine in the group; Guwahati and Varanasi repeat the formula from FY30."
+      ],
+      [
+       "Insurance and rising incomes",
+       "Yes",
+       "IP volumes +16% in FY26 and +28% in Q1FY27; cashless insurance steady at ~25% of IP revenue, self-pay 56%.",
+       "Volume-led growth; prices have room to rise."
+      ],
+      [
+       "Higher acuity and robotics",
+       "Yes",
+       "ARPOB +6% in FY26 and +5.5% in Q1FY27 with shorter stays (ALOS 3.04 → 2.87 days); Lucknow passed 1,000 robotic joint replacements in a year.",
+       "Supports ARPOB growth of 5-6% a year in our model."
+      ],
+      [
+       "Medical tourism",
+       "Partly",
+       "International revenue +33% in FY26 to ₹278 cr, +23% in Q1FY27; dented by Middle East flight disruptions; Bangladesh weak.",
+       "Useful but volatile; 6-7% of revenue."
+      ],
+      [
+       "Government price revisions (CGHS)",
+       "Small",
+       "CGHS rates revised Oct-2025; CGHS is 10-12% of revenue, impact \"not moving the needle\" (CEO).",
+       "A minor help, not a driver."
+      ],
+      [
+       "NCR premium market",
+       "Not yet proven",
+       "Noida loss ₹78 cr in FY26, near breakeven in Q1FY27; South Delhi and Pitampura (1,150 beds) open from FY30 against Max, Fortis, Apollo and others.",
+       "The new money goes where competition is fiercest."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "Global Health (Medanta) presentations, earnings calls and annual report; GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "hospitals",
+   "nav": "Beds, occupancy & ARPOB",
+   "kicker": "Operating KPIs",
+   "title": "Revenue = beds × occupancy × ARPOB: Medanta has grown all three",
+   "blocks": [
+    {
+     "p": "Hospital revenue is the product of **census beds** (beds available for overnight patients), **occupancy** and **ARPOB** (average revenue per occupied bed-day; Medanta counts in-patient and out-patient revenue but not OPD pharmacy or other income). From FY22 to FY26 census beds rose 54% (1,779 → 2,737), occupancy stayed at 59-62% even as beds were added, and ARPOB rose 22% (₹54,547 → ₹66,550): hospital revenue grew ~2.1x. ARPOB has risen with case mix (more cancer, transplants and robotic surgery), price increases in Gurugram and CGHS, and shorter stays (ALOS 3.76 → 3.04 days; 2.87 in Q1FY27), which free beds for more patients. Unlike most listed peers Medanta's growth has been mostly volume: in-patients doubled from 102,000 to 202,000 a year."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Census beds +54% since FY22; occupancy held at ~60%",
+       "unit": "Average census beds; occupancy (%) in labels",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Census beds",
+         "values": [
+          1779,
+          2049,
+          2231,
+          2440,
+          2737,
+          3037
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Q1FY27",
+       "source": "Company presentations (occupancy: FY22 60%, FY23 59%, FY24-26 62%, Q1FY27 63%)"
+      },
+      {
+       "type": "line",
+       "title": "ARPOB: +22% in four years, +5.5% in Q1FY27",
+       "unit": "ARPOB (₹ per occupied bed-day)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ARPOB",
+         "values": [
+          54547,
+          59098,
+          61890,
+          62722,
+          66550,
+          67361,
+          66687,
+          70244
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations (annual, then Q3FY26-Q1FY27)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The revenue identity, checked",
+      "head": [
+       "",
+       "FY23",
+       "FY24",
+       "FY25",
+       "FY26"
+      ],
+      "rows": [
+       [
+        "Census beds (average)",
+        "2,049",
+        "2,231",
+        "2,440",
+        "2,737"
+       ],
+       [
+        "× occupancy",
+        "58.8%",
+        "61.6%",
+        "62.0%",
+        "61.6%"
+       ],
+       [
+        "= occupied bed-days ('000)",
+        "440",
+        "502",
+        "553",
+        "615"
+       ],
+       [
+        "× ARPOB (₹)",
+        "59,098",
+        "61,890",
+        "62,722",
+        "66,550"
+       ],
+       [
+        "= hospital revenue (₹ cr)",
+        "2,599",
+        "3,106",
+        "3,466",
+        "4,093"
+       ],
+       [
+        "+ OPD pharmacy, labs, grants, other (₹ cr)",
+        "111",
+        "169",
+        "226",
+        "317"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**= reported revenue (₹ cr)**",
+         "**2,710**",
+         "**3,275**",
+         "**3,692**",
+         "**4,410**"
+        ]
+       }
+      ],
+      "source": "Company KPIs (definitions in the decks); Screener.in revenue; FY26 hospital revenue equals the AR's in-patient ₹3,387 cr + out-patient ₹706 cr"
+     }
+    },
+    {
+     "callout": "**What would move the numbers:** each 1pp of occupancy on our FY27E ~3,170 census beds is ~11,571 bed-days, or ~₹82 cr of revenue at FY27E ARPOB (₹71,154). Each 1% of ARPOB is ~₹51 cr. Network EBITDA was ₹34 lakh per census bed in FY26 (₹930 cr ÷ 2,737) and ~₹38 lakh annualised in Q1FY27; a new bed costs ₹1.5-1.65 cr in the current projects (below), so a mature bed earns back its cost in about four years before tax."
+    }
+   ]
+  },
+  {
+   "id": "clusters",
+   "nav": "Cluster 1 vs Cluster 2",
+   "kicker": "Hospital cohorts",
+   "title": "Two Medantas: a mature Gurugram-led cluster growing ~10%, and a Tier-2 cluster growing 30%+ at higher margins",
+   "blocks": [
+    {
+     "p": "**Cluster 1** (Gurugram, Indore, Ranchi) earned ₹2,848 cr of income in FY26 (+9%) at a 24.4% margin (company basis), carrying all group overheads. Its occupied bed-days were flat in FY26 (the new 110-bed Ranchi unit diluted occupancy to 61%); ARPOB (+10%) did the work. In Q1FY27 it grew 10% with volumes +14% and margin 24.1%. **Cluster 2** (Lucknow, Patna and, since Sep-2025, Noida) earned ₹1,504 cr (+37%); without Noida, ₹1,413 cr (+29%) at a 31.5% margin. Lucknow and Patna run at 68-70% occupancy with lower ARPOB (₹61,742 in Q1FY27 incl. Noida, vs ₹78,172 in Cluster 1) but less legacy cost and no corporate overhead. Management says Lucknow and Patna still grow \"in the upwards of 20%\" on volume alone and that tariffs in Patna have not been raised in 4.5 years."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Cluster 1 vs Cluster 2 (company basis: EBITDA before ESOP, income incl. allocated other income)",
+      "head": [
+       "",
+       "Income (₹ cr)",
+       "EBITDA margin",
+       "Occupied bed-days",
+       "ARPOB (₹)",
+       "Occupancy",
+       "EBITDA per occupied bed-day (₹)"
+      ],
+      "rows": [
+       {
+        "sec": "Cluster 1: Gurugram, Indore, Ranchi"
+       },
+       [
+        "FY25",
+        "2,612",
+        "24.8%",
+        "3,55,526",
+        "67,754",
+        "64%",
+        "18,229"
+       ],
+       [
+        "FY26",
+        "2,848",
+        "24.4%",
+        "3,54,826",
+        "74,493",
+        "61%",
+        "19,576"
+       ],
+       [
+        "Q1FY26",
+        "701",
+        "23.4%",
+        "87,629",
+        "73,256",
+        "63%",
+        "18,715"
+       ],
+       [
+        "Q1FY27",
+        "772",
+        "24.1%",
+        "93,663",
+        "78,172",
+        "63%",
+        "19,837"
+       ],
+       {
+        "sec": "Cluster 2: Lucknow, Patna, Noida (Noida from Sep-2025)"
+       },
+       [
+        "FY25",
+        "1,094",
+        "30.1%",
+        "1,96,966",
+        "54,303",
+        "59%",
+        "16,703"
+       ],
+       [
+        "FY26",
+        "1,504",
+        "24.4% (31.5% ex Noida)",
+        "2,60,147",
+        "56,500",
+        "60%",
+        "14,081"
+       ],
+       [
+        "Q1FY26",
+        "322",
+        "29.3%",
+        "55,269",
+        "56,704",
+        "64%",
+        "17,044"
+       ],
+       [
+        "Q1FY27",
+        "498",
+        "25.5% (32% ex Noida)",
+        "79,401",
+        "61,742",
+        "62%",
+        "16,020"
+       ]
+      ],
+      "source": "Q4FY26 presentation pp. 20-21; AR FY26 p.15; Q1FY27 presentation pp. 15-16; Q4FY26 call (Lucknow + Patna occupancy 68%, Patna ~70%)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Income growth: Cluster 2 has carried the group",
+       "unit": "Year-on-year growth in total income (%)",
+       "x": [
+        "FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Cluster 1",
+         "values": [
+          9,
+          10.9,
+          10.1
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Cluster 2",
+         "values": [
+          37.5,
+          51.2,
+          54.8
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Cluster 2 ex Noida",
+         "values": [
+          29.2,
+          32.5,
+          28.2
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 presentation pp. 20-21; Q1FY27 presentation pp. 15-16"
+      },
+      {
+       "type": "column",
+       "title": "Margins: Lucknow + Patna above Gurugram-led Cluster 1",
+       "unit": "EBITDA margin, company basis (%)",
+       "x": [
+        "FY25",
+        "FY26",
+        "Q1FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Cluster 1",
+         "values": [
+          24.8,
+          24.4,
+          23.4,
+          24.1
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Cluster 2 ex Noida",
+         "values": [
+          30.1,
+          31.5,
+          29.3,
+          32
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations (Cluster 2 FY25 and Q1FY26 had no Noida income)"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** Cluster 2 is what investors are paying for, and it deserves it: first-mover super-specialty hospitals in cities of 100 million+ people, filled without price increases. Cluster 1 is a high-quality but maturing business: Gurugram is 15 years old and \"running quite full\", so its growth now comes from ARPOB, operating theatres and cath labs, not beds. By FY29E we expect Cluster 2 (with Noida) to be ~46% of hospital revenue, up from ~36% in FY26."
+    }
+   ]
+  },
+  {
+   "id": "noida",
+   "nav": "Noida ramp-up",
+   "kicker": "New hospital",
+   "title": "Noida: from a ₹32 cr quarterly loss to almost breakeven in three quarters",
+   "blocks": [
+    {
+     "p": "Medanta Noida (550-bed capacity) opened in September 2025 and was formally inaugurated on 27-Nov-2025. Beds were opened floor by floor: 226 installed beds at Sep-2025, 328 at Dec-2025, 382 at Mar-2026 and 433 at Jun-2026 (323 census beds), with all 14 operating theatres, radiation oncology and robotics live from the start. The loss peaked at ₹32 cr in Q3FY26 and fell to ₹4.9 cr in Q1FY27 on ₹85.5 cr of income, after insurance, PSU and (in May-2026) CGHS empanelments. Management first guided breakeven in H2FY27 (15-May-2026), then said it would come \"earlier than our previous expectations\" (31-Jul-2026). Occupancy is still only 30-40%; hospitals of this kind break even at 40-45% (CEO)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Noida income: ₹4 cr to ₹86 cr a quarter in a year",
+       "unit": "Noida total income (₹ crore)",
+       "x": [
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Income",
+         "values": [
+          3.9,
+          34.3,
+          52.5,
+          85.5
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation p.10"
+      },
+      {
+       "type": "column",
+       "title": "Noida EBITDA loss: peak in Q3FY26, nearly gone by Q1FY27",
+       "unit": "Noida EBITDA, company basis (₹ crore)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBITDA",
+         "values": [
+          -3,
+          -19.7,
+          -32,
+          -23.6,
+          -4.9
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation p.10; Q4FY26 presentation p.13 (FY26 loss ₹78.3 cr)"
+      }
+     ]
+    },
+    {
+     "callout": "**Why it matters:** Noida is the swing factor for FY27-28. Going from a ₹78 cr loss in FY26 to breakeven adds ~1.8pp to the group margin on its own; we assume ₹5 cr of EBITDA in FY27E and ₹60 cr in FY28E (PL assumes ₹87 cr). Lucknow and Patna both broke even in their first full year, so the track record supports a fast ramp; the difference is that Noida competes with established NCR hospitals rather than filling a gap."
+    }
+   ]
+  },
+  {
+   "id": "expansion",
+   "nav": "Expansion pipeline",
+   "kicker": "Growth plan",
+   "title": "The next 3,370 beds: 418 brownfield beds now, five greenfields from FY30",
+   "blocks": [
+    {
+     "p": "Medanta plans to nearly double installed beds from 3,737 to ~7,105. **Brownfield (418 beds, FY27):** the 80-bed Indore cancer hospital taken over in Apr-2026 (Q2/Q3FY27), Lucknow to 950 beds (+172 in H2FY27), Patna to 650 (+49 in Q4FY27) and Noida to 550; management says these need \"minimum capex\". **Greenfield (2,950 beds):** South Delhi (400, a 50:50 company with DLF that Medanta runs; construction started), Pitampura in north-west Delhi (~750, built jointly with and operated for a society), Oshiwara in Mumbai (750+, land bought Oct-2024, approvals pending), Guwahati (650, raised from 400 after new building norms; approvals in) and Varanasi (400, built by a developer and leased). The CEO's own timeline: \"May of 2029 hospitals could be up and running. But that may not be FY29 numbers, that may be more FY30 numbers.\" Remaining capex is ₹4,858 cr over five years."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Pipeline, capex and our assumptions",
+      "head": [
+       "Project",
+       "Beds",
+       "Status / timing",
+       "Type",
+       "Capex left (₹ cr)",
+       "Capex per bed (₹ cr)",
+       "In our FY27-29E revenue?"
+      ],
+      "wide": [
+       0,
+       2
+      ],
+      "rows": [
+       [
+        "Indore cancer unit (business transfer, Apr-2026)",
+        "80",
+        "Q2/Q3FY27",
+        "Brownfield takeover",
+        "40",
+        "0.50",
+        "Yes (in the clusters)"
+       ],
+       [
+        "Lucknow (778 → 950), Patna (601 → 650), Noida (433 → 550), Ranchi new unit",
+        "338",
+        "FY27 (Lucknow +172 in H2FY27, Patna +49 in Q4FY27: PL, 25-Aug-2026)",
+        "Brownfield",
+        "343",
+        "1.01",
+        "Yes (in the clusters)"
+       ],
+       [
+        "South Delhi (50:50 SPV with DLF, Medanta runs it)",
+        "400",
+        "Construction under way on site 1; ~3-year build",
+        "Greenfield JV",
+        "583",
+        "1.46",
+        "No (FY30+)"
+       ],
+       [
+        "Pitampura, New Delhi (O&M with a society, jointly built)",
+        "750",
+        "Building plan under preparation; ~4-year build",
+        "O&M + build",
+        "590",
+        "0.79",
+        "No (FY30+)"
+       ],
+       [
+        "Oshiwara, Mumbai (land bought Oct-2024)",
+        "750",
+        "Fire and FSI approvals in; MHADA and environmental clearance awaited",
+        "Greenfield",
+        "1,238",
+        "1.65",
+        "No (FY30+)"
+       ],
+       [
+        "Guwahati, Assam (land owned)",
+        "650",
+        "Approvals in; construction starting (raised from 400 beds, total cost ₹970 cr)",
+        "Greenfield",
+        "904",
+        "1.39",
+        "No (FY30+)"
+       ],
+       [
+        "Varanasi (built-to-suit lease; Medanta funds fit-out and equipment)",
+        "400",
+        "Building plans under preparation",
+        "Leased greenfield",
+        "in ₹561 cr*",
+        "–",
+        "No (FY30+)"
+       ],
+       [
+        "Maintenance capex (three years)",
+        "–",
+        "FY27-29",
+        "–",
+        "600",
+        "–",
+        "–"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total**",
+         "**3,368**",
+         "",
+         "",
+         "**4,858**",
+         "",
+         ""
+        ]
+       }
+      ],
+      "source": "Q1FY27 presentation pp. 18-20 (chart values; Varanasi, medical college and guest house shown together because the chart labels cannot be matched one to one); Q4FY26 presentation pp. 32-37; Q1FY27 call. *Varanasi, medical college and guest house ₹561 cr together. Guwahati total cost ₹970 cr (₹1.49 cr a bed); Pitampura is cheaper per bed because the partner shares the build."
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Installed beds: 3,737 → ~4,155 in FY27 → ~7,105 with greenfields",
+       "unit": "Installed beds (company plan)",
+       "x": [
+        "Mar-25",
+        "Mar-26",
+        "Jun-26",
+        "FY27e",
+        "All projects"
+       ],
+       "series": [
+        {
+         "name": "Beds",
+         "values": [
+          3042,
+          3665,
+          3737,
+          4155,
+          7105
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation p.18"
+      },
+      {
+       "type": "stacked",
+       "title": "Our revenue build: no greenfield revenue before FY30",
+       "unit": "Revenue by source (₹ crore)",
+       "x": [
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Cluster 1 hospitals",
+         "values": [
+          2997,
+          3316,
+          3543
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Cluster 2 hospitals",
+         "values": [
+          2150,
+          2672,
+          2989
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Pharmacy, labs, grants, other",
+         "values": [
+          360,
+          420,
+          480
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 200,
+       "source": "GAM estimates; sums to model revenue"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the plan is credible (three greenfields delivered, Noida close to breakeven within a year) and fundable from operating cash plus modest debt, but it changes the shape of the next five years. FY27-28 look excellent as Noida and 418 brownfield beds fill; FY29 is an air pocket (our revenue growth 9.4%) because the greenfields are still being built while ₹1,300-1,400 cr a year is spent; FY30-32 bring 2,950 new beds and, if Noida is a guide (₹78 cr lost in its first seven months), several quarters of start-up losses per hospital. Three of the five (South Delhi, Pitampura, Mumbai: 1,900 beds and ₹2,410 cr) are in metros where land, doctors and competition are expensive."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: a strong brand and clinical moat, widest where competition is thinnest",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Brand and clinical reputation",
+       "Strong advantage",
+       "Gurugram ranked India's best hospital in Newsweek's World's Best Hospitals 2026 (seven years in a row) and in the global top 110; JCI at Gurugram and Lucknow; founder Dr Trehan is among India's best-known cardiac surgeons.",
+       "Draws complex, high-paying cases from across North India and abroad (international 7% of revenue)."
+      ],
+      [
+       "Clinical depth (department heads, 30+ specialties)",
+       "Advantage",
+       "2,480+ doctors; 550+ hired in FY26 and 70+ in Q1FY27 with 'negligible' senior attrition; transplant, robotics, oncology and cardiac programmes at scale.",
+       "Hard to copy quickly, but doctors are mobile and NCR rivals pay well."
+      ],
+      [
+       "Scale in under-served Tier-2 cities",
+       "Strong advantage",
+       "Lucknow (778 beds) and Patna (601) are the largest private hospitals in their states; 68-70% occupancy; 32% EBITDA margin with no tariff increase in Patna in 4.5 years.",
+       "First-mover position in markets of 100 million+ people; pricing power still unused."
+      ],
+      [
+       "Execution of greenfields",
+       "Advantage, proven three times",
+       "Lucknow and Patna broke even in their first full year; Noida's quarterly loss fell from ₹32 cr (Q3FY26) to ₹4.9 cr (Q1FY27).",
+       "Lowers the risk of the 2,950-bed pipeline, but four of five new projects are in costlier metros."
+      ],
+      [
+       "Cost position",
+       "Neutral",
+       "FY26 EBITDA margin (Screener basis) 21.1% vs 26.8% at Max, 22.8% at Fortis and 20.8% at Narayana; corporate costs sit in Gurugram; doctors' retainers 15% of revenue.",
+       "Medanta is not a low-cost operator; its margin depends on case mix."
+      ],
+      [
+       "Balance sheet",
+       "Advantage",
+       "Net cash ₹591 cr (company, Mar-2026) before leases; CRISIL AA/Stable.",
+       "Can fund most of ₹4,858 cr of capex with accruals plus modest debt."
+      ],
+      [
+       "Payer mix",
+       "Advantage",
+       "56% of IP revenue paid directly by patients, 25% cashless insurance, 11% CGHS/ECHS/Railways, almost no PM-JAY.",
+       "Protects realisations; insurers' price pressure is a slow-moving risk."
+      ],
+      [
+       "Concentration",
+       "Weakness",
+       "Cluster 1 (mostly Gurugram) was 63% of FY26 total income and growing ~10% a year; Gurugram is 15 years old and 'running quite full'.",
+       "Group growth now depends on Lucknow, Patna, Noida and the new projects."
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings and calls to Sep-2026; Newsweek ranking as cited in the Q4FY26 deck)"
+    },
+    {
+     "callout": "**Honest verdict:** Medanta has a real moat: the brand and clinical depth built around Dr Trehan and its department heads, recognised in global rankings, which pulls complex cases from across North India, the Northeast and abroad. In Lucknow and Patna the moat is close to a local monopoly on super-specialty care. In Delhi NCR and Mumbai, where half of the remaining capex goes, it is one strong brand among several (Max, Fortis, Apollo, Manipal), so returns there depend on execution rather than on scarcity. The moat also has a key-person element: the founder is still Chairman, Managing Director and Chief Cardiac Surgeon; management depth below him (Group CEO Pankaj Sahni, department heads) is real but a succession has not been tested."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue doubled in four years; the FY26 margin dip was Noida, not the core",
+   "blocks": [
+    {
+     "p": "Medanta's revenue grew from ₹2,167 cr in FY22 to ₹4,410 cr in FY26 (19% a year): +25% in FY23 as Lucknow and Patna filled, +21% in FY24, a slower +13% in FY25 (PL cites issues at the Lucknow unit; Noida was not yet open) and +19% in FY26. Profit attributable to shareholders rose from ₹196 cr to ₹556 cr (30% a year), helped by interest on the IPO cash. The EBITDA margin (after ESOP cost, before other income) climbed from 21% in FY22 to 24.7% in FY24, held at 24.0% in FY25 and fell to 21.1% in FY26, when the new Noida hospital lost ₹78 cr before it filled. Without Noida the margin kept rising (company basis 25.7% in FY26 vs 25.4%)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: 19% a year since FY22",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num",
+         "growth": true
+        }
+       ],
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; EBITDA after ESOP, before other income), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit to owners: almost tripled since FY22",
+       "unit": "Net profit attributable to shareholders (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; EBITDA after ESOP, before other income), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 24.7% peak in FY24, 21.1% in FY26 with Noida's start-up loss",
+       "unit": "EBITDA margin, after ESOP, before other income (%)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 5,
+       "max": 30,
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; EBITDA after ESOP, before other income), GAM Research"
+      },
+      {
+       "type": "hbar",
+       "title": "Staff and doctors are the biggest cost: 40% of revenue",
+       "unit": "FY26 costs and EBITDA, % of revenue",
+       "x": [
+        "Employees (ex ESOP)",
+        "Medicines and consumables (incl. pharmacy stock)",
+        "Other expenses",
+        "Retainer doctors' fees",
+        "ESOP cost",
+        "EBITDA (after ESOP, ex other income)"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          24,
+          22.6,
+          16.8,
+          14.9,
+          0.9,
+          20.8
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "EBITDA (after ESOP, ex other income)",
+       "source": "AR FY26 consolidated P&L and notes 29-35 (EBITDA ₹919 cr on the AR basis; Screener ₹930 cr)"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** Medanta's core economics are good and improving: Lucknow and Patna earn ~32% (company basis) and the Gurugram-led cluster ~24% with all group overheads. The headline margin is a mix effect. Noida pulled it down in FY26 and will lift it in FY27-28 as it breaks even; then the next wave of hospitals (2,950 beds, from FY30) will pull it down again."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: revenue +26%, EBITDA +26%, Noida nearly breaks even; profit flat only because of a one-off a year ago",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q1FY27",
+       "Change"
+      ],
+      "rows": [
+       [
+        "Revenue from operations",
+        "1030.8",
+        "1304.1",
+        "+27%"
+       ],
+       [
+        "  of which Noida (total income)",
+        "0",
+        "85.5",
+        ""
+       ],
+       [
+        "Installed / census beds",
+        "3,062 / 2,487",
+        "3,737 / 3,037",
+        "+22% / +22%"
+       ],
+       [
+        "Occupancy / ARPOB (₹)",
+        "63.2% / 66,584",
+        "62.6% / 70,244",
+        "−0.6pp / +5.5%"
+       ],
+       [
+        "In-patients / out-patient encounters (lakh)",
+        "47,150 / 8.2",
+        "60,214 / 11.0",
+        "+28% / +34%"
+       ],
+       [
+        "EBITDA, company basis (before ESOP, incl. other income)",
+        "255.3",
+        "315.3",
+        "+24%"
+       ],
+       [
+        "  margin on total income (ex Noida)",
+        "24.3% (24.6%)",
+        "23.8% (25.8%)",
+        "−50bp (+120bp)"
+       ],
+       [
+        "EBITDA, model basis (after ESOP, ex other income; Q1FY26 ex the ₹19.6 cr EPCG reversal)",
+        "227",
+        "287",
+        "+26%"
+       ],
+       [
+        "Finance cost / depreciation",
+        "13.8 / 45.1",
+        "26.7 / 69.0",
+        "+93% / +53%"
+       ],
+       [
+        "Exceptional income",
+        "19.6",
+        "0",
+        ""
+       ],
+       [
+        "Profit before tax",
+        "208.1",
+        "213.3",
+        "+2.5% (+13% ex one-off)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net profit to owners**",
+         "**159**",
+         "**159**",
+         "**flat**"
+        ]
+       }
+      ],
+      "source": "Q1FY27 presentation (30-Jul-2026) pp. 5-13, 29-30; Q1FY27 call (31-Jul-2026); Screener.in (model-basis EBITDA, profit to owners)"
+     }
+    },
+    {
+     "bullets": [
+      "**Why profit was flat:** Q1FY26 had ₹19.6 cr of exceptional income (EPCG interest reversal); and Noida now carries full depreciation and loan interest (D&A +53%, finance cost +93%). Before the one-off, pre-tax profit grew 13%.",
+      "**Growth quality:** volume-led. Cluster 1 income +10% (in-patients +14%, ARPOB +7%, margin 24.1%); Lucknow + Patna +28% at a 32% margin (in-patient volumes +27% ex Noida); Noida ₹85.5 cr income with a ₹4.9 cr loss (₹23.6 cr in Q4FY26). OPD pharmacy +51%, international patients +23%.",
+      "**Capacity:** 72 beds added (Noida 51, Lucknow 21); 70+ doctors hired, 50+ of them senior; Guwahati scaled up to 650 beds; capex ₹161 cr in the quarter."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (May-Jul 2026)",
+      "head": [
+       "When",
+       "Topic",
+       "What was said",
+       "Outcome so far"
+      ],
+      "wide": [
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "15-May-26",
+        "Noida breakeven",
+        "'During the course of the second half of this financial year, we do expect the unit to break-even'; occupancy 'around 30%'; hospitals break even at 40-45% occupancy (CEO)",
+        "Q1FY27 loss ₹4.9 cr (₹23.6 cr in Q4FY26); on 31-Jul breakeven expected 'earlier than our previous expectations'"
+       ],
+       [
+        "15-May-26",
+        "Cluster 1 margin",
+        "'Fairly confident about the margin profile remaining in this kind of 24%-25% range'; corporate costs all sit in Gurugram",
+        "Q1FY27 24.1% (23.4% a year earlier)"
+       ],
+       [
+        "15-May-26",
+        "Bed additions",
+        "~500 beds in existing hospitals 'with a minimum capex investment'; ~2,700 beds in 5 greenfield projects over 3-4 years; ~₹4,500 cr of capex over 5 years",
+        "31-Jul: pipeline ~3,350 beds (Guwahati raised to 650), capex ₹4,858 cr still to spend"
+       ],
+       [
+        "15-May-26",
+        "Greenfield timing",
+        "Noida took ~3 years to build; 'May of 2029 hospitals could be up and running. But that may not be FY29 numbers, that may be more FY30 numbers'",
+        "South Delhi civil work under way; Mumbai, Pitampura, Varanasi still in approvals or design"
+       ],
+       [
+        "15-May-26",
+        "Pricing in Lucknow and Patna",
+        "'We have not taken a single rupee of tariff increase in Patna'; tariff adjustments possible in Patna and Lucknow; Lucknow + Patna occupancy 68% (Patna ~70%)",
+        "Q1FY27 Cluster 2 ARPOB +8.9%"
+       ],
+       [
+        "15-May-26",
+        "M&A",
+        "'A couple of other transactions that we are looking at, both on the O&M side as well as on the M&A side'",
+        "None announced by 30-Sep-2026 beyond the Indore cancer unit"
+       ],
+       [
+        "31-Jul-26",
+        "Margins",
+        "'We don't give margin guidance'; ~24% including Noida and ~26% without it (company basis); 'no very significant structural reason' for margins to fall; operating leverage as Noida matures",
+        "–"
+       ],
+       [
+        "31-Jul-26",
+        "Volumes",
+        "Lucknow and Patna growing 'in the upwards of 20% range', mostly volume (no tariff increase taken); Gurugram 7-10% volume growth",
+        "Q1FY27 IP volumes +28% (Cluster 1 +14%, Cluster 2 +50%)"
+       ],
+       [
+        "31-Jul-26",
+        "Capacity in Q2FY27",
+        "Indore 80-bed cancer unit 'towards the end of Q2, maybe early Q3'; Gurugram to reach 44-45 OTs, 2-3 more cath labs in Q2",
+        "–"
+       ],
+       [
+        "31-Jul-26",
+        "Funding",
+        "Cash flow 'is basically what is going to fund our growth in future along with debt'; ₹4,850 cr is future capex; ₹161 cr spent in Q1",
+        "–"
+       ]
+      ],
+      "source": "Q4FY26 call (15-May-2026) and Q1FY27 call (31-Jul-2026) transcripts"
+     }
+    },
+    {
+     "callout": "**Why it matters:** management does not give revenue or margin guidance, but its few specific statements have held (Noida breakeven brought forward; Cluster 1 margin in the 24-25% band; volume growth above 20% in Lucknow and Patna). The Q2FY27 results (due by mid-November 2026) will show whether Noida broke even and whether the Indore cancer unit and Gurugram's new operating theatres arrived on time."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "The IPO cash is being spent: capex doubled in FY26 and stays ~₹1,000-1,400 cr a year",
+   "blocks": [
+    {
+     "p": "Medanta generated ₹624 cr of operating cash in FY25 and ₹714 cr in FY26, but spent ₹517 cr and ₹838 cr on hospitals and equipment plus ₹131 cr and ₹140 cr on land (Mumbai, Guwahati), so free cash flow turned negative in FY26 and debt rose ₹303 cr (Noida project loan). The company reported ₹940 cr of FY26 capex, ₹416 cr of it at Noida. Returns have dropped as capital went in ahead of profits: Screener ROCE fell from 20% (FY24-25) to 17% (FY26); the company's own consolidated ROCE fell from 18.1% to 14.9% (21.3% excluding Noida and projects). The next phase is bigger: ₹4,858 cr of project capex over five years plus ₹600 cr of maintenance over three, \"funded by a combination of debt funding and internal accruals\"."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash flow vs capex",
+       "unit": "₹ crore (capex excludes land payments)",
+       "x": "A.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; EBITDA after ESOP, before other income), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 20% in FY24-25, 17% in FY26",
+       "unit": "Return on capital employed (%)",
+       "x": [
+        "FY16",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          null,
+          null,
+          6,
+          6,
+          5,
+          15,
+          17,
+          20,
+          20,
+          17
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 25,
+       "source": "Screener.in (capital includes lease liabilities)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY25",
+       "FY26",
+       "Two years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "{{A.cfo.8|num}}",
+        "{{A.cfo.9|num}}",
+        "1,338"
+       ],
+       [
+        "Capex (hospitals, equipment)",
+        "{{A.capex.8|num}}",
+        "{{A.capex.9|num}}",
+        "1,355"
+       ],
+       [
+        "Land (Mumbai, Guwahati; right-of-use)",
+        "131",
+        "140",
+        "271"
+       ],
+       [
+        "Lease payments (interest + principal)",
+        "39",
+        "47",
+        "86"
+       ],
+       [
+        "Dividends",
+        "0",
+        "{{A.dividendsPaid.9|num}}",
+        "13"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over before financing and interest income**",
+         "**−63**",
+         "**−324**",
+         "**−387**"
+        ]
+       },
+       [
+        "Memo: net new borrowings / interest received",
+        "−34 / 67",
+        "357 / 78",
+        ""
+       ],
+       [
+        "Memo: company cash, end of year",
+        "1,140",
+        "1,222",
+        ""
+       ]
+      ],
+      "source": "Screener.in cash flow; AR FY26 consolidated cash flow (land, leases, interest). Interest received sits in investing cash flow."
+     }
+    },
+    {
+     "callout": "**The capital question:** on our numbers operating cash (₹900-1,200 cr a year in FY27-29E) roughly matches capex, so net debt including leases moves from ~zero at Mar-2026 to ~₹280 cr by Mar-2029. The balance sheet can carry that easily. The issue is returns: ~₹3,650 cr of capex over FY27-29E, much of it for hospitals that open only from FY30, so ROE drifts from ~16% to ~15% before it can rise."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean books, but three EBITDA numbers, grant income and yearly one-offs",
+   "blocks": [
+    {
+     "bullets": [
+      "**Three EBITDA numbers.** Company EBITDA for FY26 is ₹1,056 cr (23.4% of total income): before the ₹38 cr ESOP cost and including ₹99 cr of other income. Screener (and our model) show ₹930 cr (21.1%) after ESOP and before other income; the AR P&L gives ₹919 cr on that basis (Screener puts ₹11 cr more into finance cost). Brokers use ₹919 cr. Always compare like with like.",
+      "**EPCG grant income in revenue.** Duty saved on imported equipment under the export-promotion scheme is booked as a government grant and released to revenue as export obligations are met: ₹55.8 cr in FY26 (₹16.2 cr in FY25), about 6% of EBITDA, boosted by the licences' transfer after the merger. ₹77.8 cr remains deferred. We assume ₹30 / 25 / 22 cr in FY27-29E.",
+      "**Doctors are partly outside employee cost.** Retainer doctors are paid \"retainers and consultants fee\" (₹658 cr, 14.9% of revenue) on top of ₹1,096 cr of employee cost; together ~40% of revenue.",
+      "**One-offs every year.** FY25: ₹49.9 cr stamp duty on the subsidiary merger. FY26: +₹19.6 cr EPCG interest reversal, +₹16.0 cr stamp duty reversal, −₹36.6 cr Labour Codes charge. Screener folds these into \"other income\" in its quarterly table, so its quarterly other income swings (−₹27 cr in Q4FY25, −₹15 cr in Q3FY26).",
+      "**Interest capitalisation.** Interest and costs of projects under construction are capitalised; when Noida opened its loan interest and depreciation hit the P&L (finance cost ₹26.7 cr in Q1FY27 vs ₹13.8 cr). The same will happen as each greenfield opens from FY30.",
+      "**Cash conversion.** Operating cash flow was 77% of model-basis EBITDA in FY26 (70% in FY25; company: 68% of its EBITDA). Receivable days rose from 24 (FY24) to 34 (FY26) with CGHS and insurer dues; ₹15 cr of receivables were written off in FY26.",
+      "**Other income** was ₹99 cr in FY26 (14% of pre-tax profit): deposit interest ₹73 cr, interest on tax refunds ₹12 cr (one-off), write-backs ₹8 cr. We build it rather than extrapolate it (see Forecasts).",
+      "**Audit.** Walker Chandiok & Co LLP (Grant Thornton network), unmodified opinion. Leases are small (₹559 cr; lease payments ₹47 cr a year), so Ind AS 116 barely flatters EBITDA."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** Nothing suggests aggressive accounting, and disclosure is good (cluster and Noida economics every quarter). We flag AMBER because reported EBITDA mixes in grant income that tripled in FY26, the headline company EBITDA includes other income and excludes ESOP, and a one-off line has appeared in each of the last two years. Read the margin on the after-ESOP, ex-other-income basis."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & leases",
+   "kicker": "Balance sheet",
+   "title": "Net cash of ₹591 cr before leases, about zero after them: a strong base for the build-out",
+   "blocks": [
+    {
+     "p": "At Mar-2026 Medanta had ₹631 cr of bank debt (₹303 cr more than a year earlier, mainly the Noida project loan), ₹1,222 cr of cash and deposits (company figure, incl. ₹89 cr of longer deposits outside Screener's cash line) and ₹559 cr of lease liabilities (hospital buildings, land and equipment under Ind AS 116; ₹216 cr of new leases in FY26). So the company has **net cash of ₹591 cr ignoring leases**, or **net cash of ~₹30 cr including them**. Rent is small (lease payments ₹47 cr a year, ~1% of revenue), so the choice of basis matters less than at peers that lease most of their hospitals, but we keep it consistent: post-Ind AS EBITDA with lease liabilities counted as debt. CRISIL upgraded the bank loans to AA/Stable in Dec-2025."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Borrowings including leases: down after the IPO, up again with Noida",
+       "unit": "Borrowings incl. lease liabilities (₹ crore)",
+       "x": "A.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "Borrowings",
+         "ref": "A.borrowings",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in (FY26: bank debt ₹631 cr + leases ₹559 cr)"
+      },
+      {
+       "type": "line",
+       "title": "Receivable days creeping up with insurers and CGHS",
+       "unit": "Days",
+       "x": [
+        "FY16",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Receivable days",
+         "values": [
+          20,
+          41,
+          41,
+          36,
+          34,
+          30,
+          26,
+          24,
+          29,
+          34
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          92,
+          124,
+          142,
+          147,
+          138,
+          90,
+          114,
+          90,
+          81,
+          89
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-23",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth (owners)",
+        "{{A.netWorth.6|num}}",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.8|num}}",
+        "{{A.netWorth.9|num}}"
+       ],
+       [
+        "Bank debt (company)",
+        "842",
+        "419",
+        "328",
+        "631"
+       ],
+       [
+        "Lease liabilities",
+        "280",
+        "383",
+        "390",
+        "559"
+       ],
+       [
+        "Cash, deposits and investments (company)",
+        "1,311",
+        "1,191",
+        "1,140",
+        "1,222"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net cash excl. leases**",
+         "**469**",
+         "**772**",
+         "**812**",
+         "**591**"
+        ]
+       },
+       {
+        "hl": true,
+        "cells": [
+         "**Net cash incl. leases**",
+         "**189**",
+         "**389**",
+         "**422**",
+         "**32**"
+        ]
+       },
+       [
+        "Net fixed assets (incl. right-of-use) + CWIP",
+        "2,377",
+        "2,624",
+        "3,047",
+        "3,927"
+       ]
+      ],
+      "source": "Q4FY26 presentation p.22 (debt, cash); Screener.in (leases, net worth, fixed assets); GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: founder at 33%, Temasek at ~15%, and Indian funds buying",
+   "blocks": [
+    {
+     "p": "Dr Naresh Trehan holds 33% (Jun-2026), with no pledge reported. The rest of the register is concentrated: Temasek's Dunearn Investments (14.85% at Mar-2026, on the register since 2015), co-founder Sunil Sachdeva (10.79% at Mar-2026; he sold 20 lakh shares, ~0.74%, to HDFC Mutual Fund in May-Jun 2026) and RJ Corp (6.59%) all sit in the \"public\" category. Mutual funds own 16.03% and all domestic institutions 16.89% (11.15% in Dec-2023); foreign portfolio investors 9.46%. Carlyle (Anant Investments) bought in 2013 and sold its entire stake (~5.07 crore shares) in the Nov-2022 IPO, as the company states; there is no Carlyle overhang. The remaining financial investor is Temasek (Dunearn), in since 2015: it sold ~3 million shares (~1.1%) in Feb-2024 at ~₹1,315 (RJ Corp bought ~2.88 million) and held 14.86% at Mar-2025 and 14.85% at Mar-2026, i.e. no sale in FY26. The 2026 supply came from co-founder Sunil Sachdeva: 10 lakh shares to HDFC MF in May-2026 (~₹122.5 cr) and 10 lakh in Jun-2026 (~₹130 cr, ~₹1,300 a share)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "DIIs up from 11% to 17%; FIIs down from 11% to 9%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoter steady at 33%",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 25,
+       "max": 40,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest holders",
+      "head": [
+       "Holder",
+       "Stake",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Dr Naresh Trehan (incl. jointly with Mrs Madhu Trehan)",
+        "33.03%",
+        "Promoter (31-Mar-2026)"
+       ],
+       [
+        "Dunearn Investments (Mauritius) Pte Ltd (Temasek)",
+        "14.85%",
+        "Foreign corporate (PE, since 2015) (31-Mar-2026)"
+       ],
+       [
+        "Sunil Sachdeva jointly with Suman Sachdeva",
+        "10.79%",
+        "Co-founder, non-executive director (31-Mar-2026)"
+       ],
+       [
+        "RJ Corp Ltd (Ravi Jaipuria group)",
+        "6.59%",
+        "Corporate investor (31-Mar-2026)"
+       ],
+       [
+        "Promoter (Jun-2026)",
+        "33%",
+        "No pledge reported"
+       ],
+       [
+        "Mutual funds (Jun-2026)",
+        "16.03%",
+        "HDFC MF bought the Sachdeva blocks"
+       ],
+       [
+        "Foreign portfolio investors (Jun-2026)",
+        "9.46%",
+        "Down from 12.9% in Jun-2024"
+       ]
+      ],
+      "source": "Screener.in / BSE shareholding pattern (Jun-2026 categories); PL note 25-Aug-2026 (MF 16.03%); AR FY26 note 19 and p.95; Q1FY27 presentation p.22; IPO coverage (Nov-2022); Business Today (26-Jun-2026); press reports of the Feb-2024 block"
+     }
+    },
+    {
+     "callout": "**Our read:** an aligned founder, but with only a third of the company, and ~32% held by three non-promoter blocks (Temasek, the co-founder and RJ Corp). Retail and other corporate holders own only ~8%, so the real free float is thin and any sale by Temasek or the co-founder is a supply event. Carlyle is not an overhang: it sold out in the 2022 IPO."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: founder-led with a professional CEO; generous pay for the founder-surgeon",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Dr Naresh Trehan",
+        "Founder, Chairman & Managing Director; Chief Cardiac Surgeon",
+        "Promoter (33.0% with Mrs Madhu Trehan); CMD pay 193x the median employee, plus ₹22.8 cr paid as Chief Cardiac Surgeon in FY26"
+       ],
+       [
+        "Pankaj Sahni",
+        "Group CEO & Director",
+        "151x median (excluding long-term share incentives)"
+       ],
+       [
+        "Yogesh Kumar Gupta",
+        "Chief Financial Officer",
+        ""
+       ],
+       [
+        "Rahul Ranjan",
+        "Company Secretary",
+        ""
+       ],
+       [
+        "Sunil Sachdeva",
+        "Co-founder, Non-executive Director (not in the promoter group)",
+        "10.79% jointly with Mrs Suman Sachdeva at Mar-2026; sold ~0.74% in May-Jun 2026"
+       ],
+       [
+        "Dr Ravi Gupta",
+        "Lead Independent Director",
+        ""
+       ]
+      ],
+      "source": "AR FY26 Board's report (Annexure 2, remuneration ratios), corporate governance report pp. 89-93, note 19 (shareholders above 5%)"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Good",
+       "Walker Chandiok (Grant Thornton); unmodified; cluster and Noida economics disclosed quarterly.",
+       "No red flags; watch grant income and one-offs."
+      ],
+      [
+       "Promoter",
+       "Good",
+       "Founder at 33.0%, steady since listing; no pledge.",
+       "Aligned, but a minority owner."
+      ],
+      [
+       "Pay",
+       "Watch",
+       "CMD pay 193x the median employee plus ₹22.8 cr as Chief Cardiac Surgeon; KMP short-term pay ₹39.9 cr in FY26 plus ₹11.9 cr of share-based pay.",
+       "High in absolute terms, though he is also a practising surgeon."
+      ],
+      [
+       "Board",
+       "Adequate",
+       "10 directors, 5 independent (one woman); Lead Independent Director Dr Ravi Gupta.",
+       "Reasonable for the size."
+      ],
+      [
+       "Related parties",
+       "Minor",
+       "Small dealings with trusts and entities linked to KMPs (under ₹2 cr); no material RPTs reported.",
+       "Clean."
+      ],
+      [
+       "Capital allocation",
+       "Watch",
+       "₹4,858 cr of new capex, three of the five greenfields in Delhi and Mumbai; JV with DLF and O&M with a society leave part of the value with partners.",
+       "Returns on this cycle decide the stock."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation (AR FY26)"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: revenue +25% / +16% / +9%, EPS ~16% a year, then an air pocket before the new hospitals",
+   "blocks": [
+    {
+     "p": "We forecast revenue bottom-up, cluster by cluster (census beds × 365 × occupancy × ARPOB) plus pharmacy, labs and other operating revenue, and run the model on the resulting growth rate (the authoring script checks the build equals model revenue). EBITDA is on Screener's basis (after ESOP cost, before other income, post-Ind AS 116); lease liabilities count as debt. Depreciation is 5.0% of gross block, finance cost rises from ₹108 cr to ₹128 cr, tax (net of the small minority loss) 25.5%, payout 3%. Every assumption, with our reasoning, is in the Excel model's Assumptions sheet, which recalculates this report's target price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Bed build (₹ crore; checked to sum to model revenue)",
+      "head": [
+       "",
+       "FY26 (actual)",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       {
+        "sec": "Cluster 1: Gurugram, Indore, Ranchi"
+       },
+       [
+        "Census beds / occupancy / ARPOB (₹)",
+        "~1,594 / 61% / 74,493",
+        "1,650 / 63% / 79,000",
+        "1,700 / 64% / 83,500",
+        "1,710 / 64.5% / 88,000"
+       ],
+       [
+        "Hospital revenue",
+        "2,643",
+        "2,997",
+        "3,316",
+        "3,543"
+       ],
+       {
+        "sec": "Cluster 2: Lucknow, Patna, Noida"
+       },
+       [
+        "Census beds / occupancy / ARPOB (₹)",
+        "~1,188 / 60% / 56,500",
+        "1,520 / 62% / 62,500",
+        "1,720 / 64% / 66,500",
+        "1,760 / 66% / 70,500"
+       ],
+       [
+        "Hospital revenue",
+        "1,470",
+        "2,150",
+        "2,672",
+        "2,989"
+       ],
+       {
+        "sec": "Pharmacy, labs, EPCG grants, other"
+       },
+       [
+        "Revenue",
+        "317",
+        "360",
+        "420",
+        "480"
+       ],
+       [
+        "Memo: network beds / occupancy / ARPOB",
+        "2,737 / 61.6% / 66,550",
+        "3,170 / 62.5% / 71,154",
+        "3,420 / 64.0% / 74,950",
+        "3,470 / 65.3% / 79,023"
+       ],
+       [
+        "Memo: Noida income / EBITDA (inside Cluster 2)",
+        "91 / −78",
+        "420 / 5",
+        "600 / 60",
+        "720 / 100"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Revenue (model)**",
+         "**4,410**",
+         "**{{F.sales.0|num}}**",
+         "**{{F.sales.1|num}}**",
+         "**{{F.sales.2|num}}**"
+        ]
+       }
+      ],
+      "source": "Company KPIs (FY26, Q1FY27); GAM estimates (assumptions.json businessLines). FY26 cluster beds derived from bed-days and occupancy; cluster revenues sum to ₹4,113 cr vs ₹4,093 cr for the network because of rounding in the disclosed ARPOBs."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Other income, built (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Treasury: interest on bank deposits",
+        "73.0",
+        "75.6",
+        "69.4",
+        "62.0"
+       ],
+       [
+        "  basis: 6.2% × average gross cash",
+        "6.2% on ~₹1,181 cr",
+        "₹1,220 cr",
+        "₹1,120 cr",
+        "₹1,000 cr"
+       ],
+       [
+        "Recurring non-treasury (rent, misc., normal write-backs)",
+        "~8",
+        "8.4",
+        "8.6",
+        "9.0"
+       ],
+       [
+        "One-offs (tax-refund interest ₹12.2 cr, excess write-backs ~₹5 cr)",
+        "~17",
+        "0",
+        "0",
+        "0"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Other income (model)**",
+         "**98.6**",
+         "**{{F.otherIncome.0|num}}**",
+         "**{{F.otherIncome.1|num}}**",
+         "**{{F.otherIncome.2|num}}**"
+        ]
+       },
+       [
+        "Memo: twelve months to Jun-26 (Screener, ex exceptional) / Q1FY27",
+        "100 / 22.2",
+        "",
+        "",
+        ""
+       ]
+      ],
+      "source": "AR FY26 note 28; company cash (Mar-25 ₹1,140 cr, Mar-26 ₹1,222 cr); GAM estimates. Built on gross cash because the model's net cash is after debt and lease liabilities."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "Group P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA (after ESOP, ex other income)",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit (owners)",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex (forecasts incl. new leases)",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "Cash & investments (forecasts net of debt and leases)",
+        "ref": "fin.treasury"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates. Cash is gross in actual years and net of bank debt and lease liabilities (₹1,190 cr at Mar-26) in forecasts."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026; EBITDA after ESOP, before other income)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E"
+      ],
+      "rows": [
+       [
+        "Revenue (₹ cr): PL / Choice / Anand Rathi",
+        "{{F.sales.0|num}}",
+        "5,371 / 5,240 / 5,132",
+        "{{F.sales.1|num}}",
+        "6,167 / 6,310 / 5,967"
+       ],
+       [
+        "EBITDA (₹ cr): PL / Choice / Anand Rathi",
+        "{{F.ebitda.0|num}}",
+        "1,252 / 1,240 / 1,196",
+        "{{F.ebitda.1|num}}",
+        "1,524 / 1,540 / 1,447"
+       ],
+       [
+        "EBITDA margin: PL / Choice",
+        "{{F.ebitdaMargin.0|pct}}",
+        "23.3% / 23.7%",
+        "{{F.ebitdaMargin.1|pct}}",
+        "24.7% / 24.4%"
+       ],
+       [
+        "EPS (₹): PL / Choice",
+        "{{F.eps.0|n1}}",
+        "27.3 / 28.7",
+        "{{F.eps.1|n1}}",
+        "33.9 / 36.1"
+       ],
+       [
+        "FY29E: GAM vs PL (revenue / EBITDA / EPS)",
+        "{{F.sales.2|num}} / {{F.ebitda.2|num}} / {{F.eps.2|n1}}",
+        "6,875 / 1,744 / 38.2",
+        "Motilal Oswal FY28E: revenue ₹5,800 cr, EBITDA ₹1,500 cr",
+        ""
+       ]
+      ],
+      "source": "PL note (PDF, 25-Aug-26); Choice result update (PDF, 1-Aug-26); Anand Rathi and Motilal Oswal via DSIJ (31-Jul-26, 1-Aug-26). No consensus dated before 30-Sep-2026 was found."
+     }
+    },
+    {
+     "callout": "Our revenue is +3% vs PL for FY27 and +4% for FY28 (Q1FY27 beat the street by 4-12%), but our margin is lower (23.2% vs PL 24.7% in FY28E: we assume grants fade and doctors are hired ahead of the new hospitals), so EBITDA is in line for FY27-28 (−2% vs PL in FY28E) and −6% in FY29E. EPS is lower (−9% vs PL in FY28E, −15% in FY29E) because we carry more depreciation and interest for the capex programme. EPS grows ~16% a year over FY26-29E and EBITDA ~21%."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: Buy or Add everywhere, targets ₹1,550-1,750 after Q1, all on 27-28x EV/EBITDA",
+   "blocks": [
+    {
+     "p": "Four houses published after the Q1FY27 results: Prabhudas Lilladher Buy ₹1,750 (28x Sep-28E EV/EBITDA; raised from ₹1,600 on 1-Aug and ₹1,450 at initiation), Motilal Oswal Buy ₹1,670 (28x 12-month forward), Anand Rathi Buy ₹1,550 (28x FY28E, up from 26x) and Choice Add ₹1,550 (27x FY28E; downgraded from Buy on valuation), an average of ~₹1,630. Earlier calls: Antique initiated at Buy ₹1,520 (27x FY28E) on 29-Jun-2026 and JM Financial had Buy ₹1,382 (25x FY28E) in Mar-2026. The stock was ~₹1,406-1,414 when the post-Q1 notes came out and ₹1,365 on 30-Sep-2026, so the street saw ~19% upside. Bulls argue Noida breaks even early, Lucknow and Patna keep compounding and the balance sheet funds a doubling of beds (PL: EBITDA ~24% a year FY26-29E). Almost all of the debate is about the multiple: every house has raised it this year. We found no Sell or Hold call and no consensus dated before 30-Sep-2026."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "The stock already prices the plan: the street pays 27-28x FY28E/Sep-28E EBITDA, above Medanta's own ~24x average of the last three years (Antique) and well above de-rated peers such as Narayana and Rainbow (~22-23x trailing).",
+        "GAM; Antique (29-Jun-2026)"
+       ],
+       [
+        "Growth air pocket in FY29: the brownfield beds (418) are in by FY27-28 but none of the five greenfields (2,950 beds) opens before FY30 on management's own timeline, while ₹4,858 cr is spent.",
+        "Q4FY26 call (CEO: 'more FY30 numbers'); GAM"
+       ],
+       [
+        "Returns fall during the build: consolidated ROCE dropped from 18.1% to 14.9% in FY26 (company) and capex of ~₹1,000-1,300 cr a year will keep capital rising faster than profit until FY31.",
+        "Q4FY26 presentation p.22; GAM"
+       ],
+       [
+        "FY26 EBITDA included ₹55.8 cr of EPCG grant income (₹16.2 cr in FY25), about 6% of EBITDA; it is tied to imports and export obligations, not to patients.",
+        "AR FY26 notes 26-27"
+       ],
+       [
+        "Metro entry is harder than Tier-2: Noida, South Delhi, Pitampura and Mumbai face entrenched competitors; the Lucknow/Patna playbook (no competition, no tariff increase needed) does not transfer.",
+        "GAM; Q1FY27 call (CEO on demographics)"
+       ],
+       [
+        "Gurugram is maturing: Cluster 1 income grew 9% in FY26 and 10% in Q1FY27, with occupied bed-days flat in FY26; ARPOB (+10%) did the work.",
+        "Q4FY26 presentation p.20; Q1FY27 presentation p.15"
+       ],
+       [
+        "Free float is thin and supply is real: promoter 33%, Temasek ~15%, co-founder ~10%, RJ Corp ~7%; the co-founder sold 0.74% in May-Jun 2026.",
+        "AR FY26; Business Today (26-Jun-2026)"
+       ],
+       [
+        "Bulls' answer: Noida breaks even early, Lucknow/Patna keep growing 20%+ with tariff headroom, and the balance sheet funds a near-doubling of beds; Medanta has executed every greenfield so far.",
+        "PL (25-Aug-2026), Motilal Oswal (Aug-2026)"
+       ]
+      ],
+      "source": "Broker notes, earnings calls and filings to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 22.5x Sep-28E EBITDA gives {{dcf.tp|inr}}; the street pays 27-28x",
+   "blocks": [
+    {
+     "h": "How the street values Global Health"
+    },
+    {
+     "p": "Every note we found values Medanta on **EV/EBITDA on FY28E or Sep-28E**, at 25-28x. We use the same method, applied to the EBITDA the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). Two basis points matter. (1) EBITDA: we use Screener's basis (after ESOP cost, before other income, post-Ind AS 116), which is what PL and Choice use (₹919-930 cr in FY26), not the company's ₹1,056 cr (before ESOP, including other income). (2) Leases: we count lease liabilities as debt, as we must when rent is left out of EBITDA; PL leaves them out of EV. Leases are small for Medanta (~₹600 cr), so the translation is under half a turn of EBITDA."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "Thesis"
+      ],
+      "wide": [
+       6
+      ],
+      "rows": [
+       [
+        "Prabhudas Lilladher (25-Aug-26)",
+        "Buy",
+        "1,750",
+        "EV/EBITDA",
+        "28x",
+        "Sep-28E EBITDA",
+        "Noida breaks even in Q2FY27 and earns ₹87 cr / ₹140 cr EBITDA in FY28-29E; 418 brownfield beds; EBITDA ~24% CAGR FY26-29E"
+       ],
+       [
+        "Motilal Oswal (1-Aug-26)",
+        "Buy",
+        "1,670",
+        "EV/EBITDA",
+        "28x",
+        "12-month forward EBITDA",
+        "Volume-led beat; Noida close to breakeven much faster than a usual greenfield; internal accruals and comfortable leverage fund the projects"
+       ],
+       [
+        "Choice Institutional Equities (1-Aug-26)",
+        "Add",
+        "1,550",
+        "EV/EBITDA",
+        "27x",
+        "FY28E EBITDA",
+        "Downgraded from Buy on valuation after the rally; 3,350-bed pipeline, faster Noida breakeven"
+       ],
+       [
+        "Anand Rathi (31-Jul-26)",
+        "Buy",
+        "1,550",
+        "EV/EBITDA",
+        "28x",
+        "FY28E EBITDA",
+        "Above-par Q1; multiple raised from 26x"
+       ],
+       [
+        "Antique Stock Broking (29-Jun-26)",
+        "Buy",
+        "1,520",
+        "EV/EBITDA",
+        "27x",
+        "FY28E EBITDA",
+        "Initiation; 27x vs its own three-year average of 24x; brownfield-led sector growth"
+       ],
+       [
+        "JM Financial (25-Mar-26)",
+        "Buy",
+        "1,382",
+        "EV/EBITDA",
+        "25x",
+        "FY28E EBITDA",
+        "Valuation attractive after the correction; last note we could date before 30-Sep-2026 (may have been revised since; not found)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**HOLD**",
+         "**{{dcf.tp|num}}**",
+         "**EV/EBITDA**",
+         "**22.5x**",
+         "**Sep-28E**",
+         "Excellent franchise at a full price; FY29 air pocket before the greenfields"
+        ]
+       }
+      ],
+      "source": "PL notes (PDF); Choice (PDF); Motilal Oswal and Anand Rathi via DSIJ; Antique via Business Today; JM Financial via Business Standard"
+     }
+    },
+    {
+     "h": "Our target multiple: 22.5x, and why"
+    },
+    {
+     "p": "We start from Medanta's own one-year-forward EV/EBITDA since listing (Nov-2022), computed in our files on the same basis as the target (EV = market value + bank debt + lease liabilities − cash, deposits and investments; EBITDA after ESOP, before other income), adjust for how far listed hospital peers had de-rated by 30-Sep-2026, and then check growth, peers and returns."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Its own history",
+        "One-year-forward EV/EBITDA since listing: median 25.8x (25th-75th percentile 21.3-30.7x; 13.5x at listing, 43.3x peak in 2024); calendar medians 2023 21.1x, 2024 32.3x, 2025 28.5x, 2026 24.3x. Trough years left out: none (forward EBITDA never fell below half its prior three-year peak). On 30-Sep-2026: 24.6x our FY28E, 29.7x FY27E",
+        "Starting point: 25.8x"
+       ],
+       [
+        "2. Sector de-rating",
+        "Trailing EV/EBITDA vs each stock's five-year median on 30-Sep-2026: Apollo Hospitals −14%, Max Healthcare −13%, Fortis +0%, Narayana Hrudayalaya −2%, Rainbow −11%, Jupiter Life Line −24% (median −12%); Medanta itself +4% (its trailing multiple is inflated by Noida's FY26 loss). Left out: KIMS +49%, Aster DM +91% (new-hospital losses and the 2024 GCC demerger inflate their multiples); with them the median is −7%",
+        "25.8x × 0.877 ≈ 22.6x → **22.5x**"
+       ],
+       [
+        "3. Growth",
+        "EBITDA grew 13% a year in FY23-26; we forecast ~21% for FY26-29E, but most of it is Noida swinging from a ₹78 cr loss to profit, growth slows to ~10% in FY29E, and ~₹3,650 cr of capex goes in before the greenfields earn",
+        "No premium, no further discount"
+       ],
+       [
+        "4. Peers",
+        "Trailing EV/EBITDA on 30-Sep-2026: Narayana 21.7x, Jupiter 22.9x, Rainbow 23.1x, Fortis 27.7x, Apollo 29.4x, Max 37.4x; Medanta 34.0x",
+        "22.5x Sep-28E = 23.6x our FY28E: between Rainbow/Narayana and Fortis/Apollo"
+       ],
+       [
+        "5. Returns",
+        "ROE 15.1% (FY26); company ROCE 14.9% consolidated, 21.3% excluding Noida and projects, vs an 11.3% cost of equity; our ROE {{F.roe.0|pct}} → {{F.roe.2|pct}} as capital goes in ahead of the greenfields",
+        "Supports a premium to book, not a re-rating"
+       ],
+       [
+        "6. Street basis",
+        "PL's 28x Sep-28E (EV without leases) ≈ 28.4x on our basis; our 22.5x ≈ 22.1x on PL's basis (Choice and Antique 27x, JM 25x)",
+        "Our multiple is ~5-6 turns below the street's"
+       ]
+      ],
+      "source": "Screener.in prices, balance sheets and multiples to 30-Sep-2026; Q4FY26 presentation (company cash and debt); broker notes; GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "hbar",
+      "title": "Target and cross-checks vs the share price",
+      "unit": "₹ per share (base case)",
+      "x": [
+       "EV/EBITDA (target)",
+       "P/E",
+       "DCF",
+       "Share price today"
+      ],
+      "series": [
+       {
+        "name": "Value",
+        "values": [
+         1299,
+         1271,
+         572,
+         1365
+        ],
+        "fmt": "inr"
+       }
+      ],
+      "labels": "all",
+      "highlight": "EV/EBITDA (target)",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**EV/EBITDA**",
+        "**Target**",
+        "EBITDA Sep-28E ₹1,560 cr",
+        "22.5x (bull 30.5x, bear 21.5x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "P/E",
+        "Cross-check",
+        "EPS Sep-28E ₹31.8",
+        "40x (bull 54x, bear 38x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "-2%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-56%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** P/E (40x Sep-28E EPS of ₹31.8) gives ₹1,271: 40x is Medanta's 46.4x forward P/E median since listing cut by the 13% P/E de-rating of the same six peers, so earnings and EBITDA agree. The DCF (₹572) is 56% below the target: with capex at ~20% of revenue to FY29E, growth averaging ~9% after FY29E and margins reaching 25% by FY42E, cash flows at an 11.3% cost of capital support well under half of today's price. To justify ₹1,365 on cash flows you need margins near 30% or a cost of capital near 9%. Like the street's targets, ours rests on the market continuing to pay well over 20x forward EBITDA for scarce, growing hospital franchises, which it has done since 2023 (it has rarely paid less than 21.3x)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward EV/EBITDA since listing: our 22.5x vs history",
+       "unit": "EV (incl. lease liabilities) ÷ next full-year EBITDA, after ESOP (x)",
+       "x": [
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          13.5,
+          14.5,
+          14.3,
+          16.5,
+          14.2,
+          16.3,
+          19.4,
+          21.3,
+          21.1,
+          21.5,
+          24.2,
+          28.1,
+          30.7,
+          43.3,
+          38.6,
+          41.6,
+          34,
+          36.2,
+          32.3,
+          32,
+          30.4,
+          31.7,
+          31.1,
+          30.6,
+          35,
+          27.3,
+          25.8,
+          24.3,
+          28.5,
+          29.6,
+          28.6,
+          26.9,
+          24.7,
+          24.6,
+          24.3,
+          21.1,
+          19.9,
+          22.4,
+          24.1,
+          25.7,
+          27.1,
+          24.6
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 25.8,
+         "text": "Median: 25.8x"
+        },
+        {
+         "v": 22.5,
+         "text": "Our target: 22.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in; Q4FY26 presentation (company cash); GAM estimates for FY27-29E"
+      },
+      {
+       "type": "line",
+       "title": "Forward P/E since listing: median 46.4x, 44.2x our FY28E now",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          23.3,
+          25,
+          24.6,
+          28.3,
+          26.6,
+          30.3,
+          36.2,
+          39.6,
+          39.3,
+          40,
+          45,
+          52.2,
+          56.9,
+          80.1,
+          71.5,
+          69.9,
+          57.6,
+          61.2,
+          54.8,
+          54.3,
+          51.6,
+          53.8,
+          52.7,
+          51.9,
+          59.2,
+          49.1,
+          46.4,
+          43.7,
+          51.1,
+          53.1,
+          51.3,
+          48.4,
+          44.5,
+          44.2,
+          43.6,
+          38.1,
+          36.1,
+          40.1,
+          43.3,
+          46,
+          48.5
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 46.4,
+         "text": "Median: 46.4x"
+        },
+        {
+         "v": 40,
+         "text": "Cross-check: 40x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in; GAM estimates (forwardMedian)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "From EV to target price (₹ crore unless stated)",
+      "head": [
+       "",
+       "Base",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Sep-28E EBITDA (after ESOP, ex other income)",
+        "1,560",
+        "Half FY28E ({{F.ebitda.1|num}}) + half FY29E ({{F.ebitda.2|num}})"
+       ],
+       [
+        "× target multiple",
+        "22.5x",
+        "Own forward median since listing, less sector de-rating"
+       ],
+       [
+        "= Enterprise value",
+        "35,104",
+        "Includes leased assets"
+       ],
+       [
+        "Less: net debt incl. lease liabilities, Sep-28E",
+        "206",
+        "Bank debt and ~₹635 cr of leases less cash (model)"
+       ],
+       [
+        "= Equity value",
+        "34,898",
+        "Minorities (DLF's half of the South Delhi company) not deducted: book value ₹23 cr"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**÷ shares (cr) = target (rounded)**",
+         "**26.9 → {{dcf.tp|inr}}**",
+         "vs CMP ₹1,365: {{dcf.upside|chg}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Revenue growth +3pp a year, margin +1.5pp; 30.5x (75th percentile since listing, close to the street)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Revenue +{{F.salesGrowth.0|pct}} / +{{F.salesGrowth.1|pct}} / +{{F.salesGrowth.2|pct}}; margin {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 22.5x Sep-28E EBITDA."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Revenue growth −4pp a year, margin −2pp; 21.5x (25th percentile since listing)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow (capex incl. new leases)",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27 (after bank debt and lease liabilities)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed hospital peers (trailing, at the 30-Sep-2026 close)",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "EV/EBITDA (x)",
+       "vs 5-yr median",
+       "P/E (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Medanta**",
+        "36,704",
+        "4,410",
+        "21.1%",
+        "34.0",
+        "+4%",
+        "64.1",
+        "15.1%"
+       ],
+       [
+        "Apollo Hospitals",
+        "1,17,612",
+        "25,228",
+        "15%",
+        "29.4",
+        "−14%",
+        "55.4",
+        "22.6%"
+       ],
+       [
+        "Max Healthcare",
+        "90,531",
+        "8,373",
+        "26.8%",
+        "37.4",
+        "−13%",
+        "60.4",
+        "14.3%"
+       ],
+       [
+        "Fortis",
+        "58,135",
+        "9,128",
+        "22.8%",
+        "27.7",
+        "+0%",
+        "54.5",
+        "11.3%"
+       ],
+       [
+        "Narayana Hrudayalaya",
+        "36,619",
+        "7,896",
+        "20.8%",
+        "21.7",
+        "−2%",
+        "42.4",
+        "19.7%"
+       ],
+       [
+        "Rainbow",
+        "13,347",
+        "1,703",
+        "32.2%",
+        "23.1",
+        "−11%",
+        "46.6",
+        "18.1%"
+       ],
+       [
+        "KIMS",
+        "31,349",
+        "3,905",
+        "20.9%",
+        "40.6",
+        "+49%",
+        "150.3",
+        "11%"
+       ],
+       [
+        "Aster DM",
+        "60,773",
+        "4,643",
+        "18.8%",
+        "59.1",
+        "+91%",
+        "168.4",
+        "11.8%"
+       ],
+       [
+        "Jupiter Life Line",
+        "8,303",
+        "1,500",
+        "22.9%",
+        "22.9",
+        "−24%",
+        "43.5",
+        "13.4%"
+       ]
+      ],
+      "source": "Screener.in (post-Ind AS EBITDA; EV includes lease liabilities), multiples scaled to the NSE close on 30-Sep-2026. Medanta's five-year median runs from its Nov-2022 listing."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a franchise worth owning, at a price that already assumes the plan works",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** one of India's best hospital brands, run by its founder-surgeon and a professional CEO, with a proven record of filling greenfield hospitals in under-served cities, Noida about to turn profitable, net cash before leases, and a plan to nearly double beds that the balance sheet can fund."
+    },
+    {
+     "callout": "**What you are paying:** 24.6x our FY28E EV/EBITDA and 44.2x FY28E EPS, close to Medanta's own forward medians since listing (25.8x and 46.4x) at a time when listed hospital peers trade ~12% below theirs. On the street's method and our inputs the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): a HOLD. The street's 27-28x needs the FY30+ greenfields to be priced in today; the DCF (₹572) says cash flows alone do not support the price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Noida above 10% EBITDA margin within FY28",
+        "Medium",
+        "Quarterly Noida income and EBITDA"
+       ],
+       [
+        "Tariff increases in Lucknow and Patna without losing volume",
+        "Medium",
+        "Cluster 2 ARPOB and in-patient growth"
+       ],
+       [
+        "Mumbai and Pitampura approvals, keeping greenfields on a 2029-30 timeline",
+        "Medium",
+        "Project updates each quarter"
+       ],
+       [
+        "A pull-back to below ~₹1,130",
+        "Medium",
+        "Price (BUY level on our numbers)"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Greenfield delays or cost overruns (five greenfields, ₹3,300 cr+ left; three in Delhi and Mumbai)",
+        "Medium",
+        "Capex without EBITDA for longer; bear case {{scen.bear.tp|inr}}"
+       ],
+       [
+        "Noida stalls near breakeven against NCR competition",
+        "Medium",
+        "Each ₹50 cr of EBITDA is ~₹42 a share at our multiple"
+       ],
+       [
+        "Gurugram growth slows to mid-single digits",
+        "Medium",
+        "Cluster 1 is 63% of income"
+       ],
+       [
+        "EPCG grant income fades faster",
+        "Medium",
+        "₹56 cr in FY26 vs ₹30 cr assumed in FY27E"
+       ],
+       [
+        "Price controls (CGHS, procedure caps) or insurer pressure",
+        "Low-medium",
+        "Cardiac and cancer-heavy mix"
+       ],
+       [
+        "Block sales by Temasek or the co-founder",
+        "Medium",
+        "~25% of shares held by the two; thin free float"
+       ],
+       [
+        "Key-person risk around the founder",
+        "Low",
+        "Brand and referrals built around Dr Trehan"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: HOLD, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would turn buyers below ~₹1,130** and sellers above ~₹1,370 on today's numbers: the stock sits at the top of our HOLD band.",
+      "**Biggest swing factor:** the multiple, not the estimates. Our EBITDA is close to the street's; each 1x of Sep-28E EV/EBITDA is ~₹58 a share."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Beds, Jun-2026 → plan",
+        "v": "3,737 → ~7,105",
+        "d": "₹4,858 cr of capex left"
+       },
+       {
+        "k": "Noida EBITDA, Q1FY27",
+        "v": "−₹4.9 cr",
+        "d": "from −₹32 cr in Q3FY26"
+       },
+       {
+        "k": "Lucknow + Patna margin",
+        "v": "32%",
+        "d": "Q1FY27, company basis"
+       },
+       {
+        "k": "Forward EV/EBITDA",
+        "v": "24.6x",
+        "d": "median since listing 25.8x"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY16–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA (after ESOP, ex other income)",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 200
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation (incl. right-of-use)"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (owners)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 25
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex (forecasts incl. new leases)"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (Screener incl. exceptional items)"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (owners)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Tertiary / quaternary care",
+        "Complex specialist treatment (cardiac surgery, cancer, neurosurgery) and the most advanced procedures (transplants, robotic and experimental treatments), usually on referral."
+       ],
+       [
+        "Installed / census beds",
+        "Installed beds = all beds in the hospital, incl. day-care. Census beds = beds available for overnight patients; Medanta measures occupancy on census beds."
+       ],
+       [
+        "Occupancy",
+        "Patients counted at midnight ÷ census beds, averaged over the period."
+       ],
+       [
+        "ARPOB",
+        "Average revenue per occupied bed-day. Medanta divides in-patient and out-patient hospital revenue (excluding OPD pharmacy and other income) by occupied bed-days."
+       ],
+       [
+        "ARPP",
+        "Average revenue per in-patient: hospital revenue ÷ in-patient volume (disclosed from Q1FY27). It moves less with length of stay than ARPOB."
+       ],
+       [
+        "ALOS",
+        "Average length of stay of admitted patients, in days. Shorter stays free beds for more patients and raise ARPOB."
+       ],
+       [
+        "IP / OP / OPD",
+        "In-patients (admitted); out-patients (consultations without admission, counted as encounters); OPD = out-patient department."
+       ],
+       [
+        "Cluster 1 / Cluster 2",
+        "Medanta's hospital groups: Gurugram, Indore and Ranchi (formerly \"mature\") vs Lucknow, Patna and Noida (formerly \"developing\")."
+       ],
+       [
+        "Brownfield / greenfield",
+        "Adding beds to an existing hospital or campus vs building a new hospital on a new site."
+       ],
+       [
+        "O&M agreement",
+        "Operations and management contract: Medanta runs a hospital owned or co-built by another party (Ranchi Unit 2, Pitampura)."
+       ],
+       [
+        "Built-to-suit lease",
+        "A developer builds the hospital to Medanta's design and leases it; Medanta pays for fit-out and equipment (Varanasi)."
+       ],
+       [
+        "CGHS / ECHS",
+        "Central Government Health Scheme and Ex-servicemen Contributory Health Scheme: government schemes that pay hospitals at fixed rates (10-12% of Medanta's revenue)."
+       ],
+       [
+        "TPA",
+        "Third-party administrator: the insurer's agent for cashless hospital bills."
+       ],
+       [
+        "PM-JAY",
+        "Pradhan Mantri Jan Arogya Yojana (Ayushman Bharat): the government's low-price insurance scheme for poorer families; Medanta has almost no exposure."
+       ],
+       [
+        "EPCG grant",
+        "Export Promotion Capital Goods scheme: customs duty waived on imported equipment against future foreign-exchange earnings (international patients); booked as grant income when the obligation is met."
+       ],
+       [
+        "ESOP cost",
+        "The accounting cost of employee share options; Medanta's own EBITDA excludes it, Screener's and ours include it."
+       ],
+       [
+        "Ind AS 116 (leases)",
+        "Accounting rule that puts leased assets on the balance sheet: rent is replaced by depreciation and interest, and future rent appears as a lease liability."
+       ],
+       [
+        "Minorities",
+        "DLF's 50% of GHL Hospital Ltd (the South Delhi hospital company Medanta controls); its share of profit or loss is not Medanta shareholders'."
+       ],
+       [
+        "EV/EBITDA, P/E",
+        "Enterprise value (market value plus bank debt and lease liabilities, less cash) ÷ EBITDA; share price ÷ earnings per share."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, 11.3%; debt is small)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY21": "−4%: Covid; elective surgery and international patients stopped.",
+  "sales@FY22": "+50%: recovery and Covid care; Lucknow (opened 2019) filling.",
+  "ebitdaMargin@FY22": "+750bp: operating leverage as volumes returned.",
+  "pat@FY22": "From ₹29 cr to ₹196 cr on the recovery.",
+  "sales@FY23": "+25%: Lucknow and Patna (IPD from 2021) ramping; in-patients +32%.",
+  "otherIncome@FY23": "Interest on IPO proceeds (Nov-2022) begins.",
+  "otherIncome@FY24": "₹75 cr: a full year of interest on the IPO cash (company cash ₹1,191 cr at Mar-24).",
+  "ebitdaMargin@FY24": "24.7%: the peak so far.",
+  "sales@FY25": "+13%: issues at the Lucknow unit (PL); Noida not yet open.",
+  "otherIncome@FY25": "Screener nets the ₹50 cr merger stamp duty (exceptional) against ₹79 cr of normal other income.",
+  "pat@FY25": "Flat: ₹37 cr after-tax stamp duty on the merger of the Lucknow subsidiary.",
+  "sales@FY26": "+19%: Noida (₹91 cr, from Sep-2025), Patna +131 beds, Ranchi Unit 2; in-patients +16%.",
+  "ebitdaMargin@FY26": "−290bp: Noida start-up loss ₹78 cr and a new ₹38 cr ESOP cost; ₹56 cr of EPCG grants helped.",
+  "otherIncome@FY26": "₹98 cr incl. ₹12 cr of interest on tax refunds (one-off); exceptional items net −₹1 cr.",
+  "capex@FY26": "₹838 cr plus ₹140 cr of land (Guwahati); ₹416 cr went into Noida.",
+  "pat@FY26": "+16%: attributable to owners (DLF's share of the South Delhi company is a small loss).",
+  "otherIncome@Q4FY25": "−₹27 cr: Screener nets the ₹50 cr stamp duty (exceptional).",
+  "opm@Q1FY26": "Screener includes ₹19.6 cr of EPCG interest reversal in operating profit (22.0% without it).",
+  "sales@Q2FY26": "Noida opens (Sep-2025); Ranchi Unit 2 from Jul-2025.",
+  "otherIncome@Q2FY26": "₹36 cr incl. ₹16 cr stamp duty reversal (exceptional).",
+  "opm@Q3FY26": "19%: Noida's peak loss (₹32 cr).",
+  "otherIncome@Q3FY26": "−₹15 cr: Screener nets the ₹36.6 cr Labour Codes charge (exceptional).",
+  "pat@Q3FY26": "−34%: ₹29 cr after-tax Labour Codes charge and Noida's peak loss.",
+  "sales@Q4FY26": "+24%: Noida ₹52.5 cr; Patna +32 beds.",
+  "sales@Q1FY27": "+26.5%: in-patients +28%, ARPOB +5.5%; Noida ₹85.5 cr.",
+  "opm@Q1FY27": "22%: Noida loss down to ₹4.9 cr; Lucknow + Patna 32% (company basis).",
+  "pat@Q1FY27": "Flat: Q1FY26 had ₹19.6 cr of one-off income; D&A +53%, finance cost +93% (Noida).",
+  "sales@FY27E": "GAM bed build: Cluster 1 63% / ₹79,000; Cluster 2 62% / ₹62,500; other ₹360 cr.",
+  "ebitdaMargin@FY27E": "GAM: Noida near breakeven (₹5 cr), grants fall to ₹30 cr.",
+  "capex@FY27E": "Brownfield, Indore, maintenance, South Delhi and Guwahati; incl. small new leases.",
+  "sales@FY29E": "+9%: no greenfield opens before FY30 (management)."
+ }
+}
