@@ -1,0 +1,57 @@
+// Rainbow report, part 6: glossary and statement notes.
+const glossary = {
+  id: 'glossary', nav: 'Glossary', kicker: 'Appendix', title: 'Glossary',
+  blocks: [
+    { exhibit: { type: 'table', title: 'Terms used in this report', head: ['Term', 'What it means'], wide: [1], rows: [
+      ['Paediatrics / perinatal care', 'Medical care of children; care of mother and baby around birth (pregnancy, delivery, newborn).'],
+      ['NICU / PICU', 'Neonatal (newborn) and paediatric intensive care units. Level 3-4 NICUs treat the sickest and most premature babies.'],
+      ['ECMO', 'A machine that takes over the work of the heart and/or lungs for critically ill patients; Rainbow runs a mobile ECMO retrieval team.'],
+      ['Hub and spoke', 'A large hospital with complex specialties (hub) supported by smaller nearby hospitals (spokes) that handle emergencies, deliveries and outpatients and refer complex cases.'],
+      ['Capacity / operational beds', 'Beds built vs beds actually staffed and open. Occupancy is measured on operational beds (weighted for the days they were open).'],
+      ['Occupancy', 'Occupied bed-days ÷ (operational beds × days in the period).'],
+      ['ARPOB', 'Average revenue per occupied bed-day. Rainbow divides total operating revenue (incl. outpatients and pharmacy) by occupied bed-days.'],
+      ['ARPP', 'Average revenue per patient. Management prefers it to ARPOB because it moves less with the length of stay.'],
+      ['ALOS', 'Average length of stay: occupied bed-days ÷ inpatient discharges.'],
+      ['IP / OP', 'Inpatients (admitted) and outpatients (consultations without admission).'],
+      ['Mature / new hospitals', 'Rainbow\'s cohorts: operating for five years or more vs less than five years.'],
+      ['Ind AS 116 (leases)', 'Accounting rule that puts leased buildings on the balance sheet: rent is replaced by depreciation and interest, and the future rent appears as a lease liability.'],
+      ['Pre-/post-Ind AS EBITDA', 'EBITDA after deducting rent (pre-Ind AS, the cash view the street uses) vs before rent (post-Ind AS, as reported and as on Screener).'],
+      ['Professional fees to doctors', 'Payments to Rainbow\'s full-time, retainer-based doctors, shown separately from employee cost.'],
+      ['DNB', 'Diplomate of National Board: a postgraduate medical training programme run in hospitals; Rainbow runs the largest private paediatric one.'],
+      ['JCI / NABH', 'International (Joint Commission International) and Indian hospital-quality accreditations.'],
+      ['Minorities', 'The 24% of the Warangal and Guwahati hospitals still owned by their sellers; their share of profit is not Rainbow shareholders\' profit.'],
+      ['TFR', 'Total fertility rate: births per woman over her lifetime; 2.1 keeps a population stable. India 1.9 (2023).'],
+      ['EV/EBITDA, P/E', 'Enterprise value (market value plus net debt, here including lease liabilities) ÷ EBITDA; share price ÷ earnings per share.'],
+      ['Sep-28E', 'Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027.'],
+      ['DCF / WACC', 'Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, 11.3%; lease debt is small).'],
+    ], source: 'GAM Research' } },
+  ],
+};
+
+const statementNotes = {
+  'sales@FY21': '−10%: Covid lockdowns emptied children\'s hospitals (elective and seasonal care fell).',
+  'sales@FY22': '+50%: recovery plus ₹96 cr of Covid-vaccine revenue (one-off).',
+  'ebitdaMargin@FY22': '+620bp: recovery and high-margin vaccine revenue.',
+  'pat@FY22': '+245%: recovery from the Covid year; lower-cost base.',
+  'sales@FY23': '+21% despite the vaccine base: occupancy 55% (FY22 45%); OMR Chennai and Financial District opened.',
+  'otherIncome@FY23': 'Interest on IPO proceeds (May-2022).',
+  'sales@FY24': '+10%: four hospitals opened in Jan-Mar 2024; occupancy fell to 48%.',
+  'capex@FY24': '₹354 cr: four new hospitals in Hyderabad, Bengaluru and Chennai.',
+  'sales@FY25': '+17%: occupancy back to 51%, strong Q2 season.',
+  'otherIncome@FY25': '₹51 cr: mutual-fund fair-value gains on a ~₹700 cr treasury book.',
+  'sales@FY26': '+12%: weak season (management: 18-20% otherwise); acquisitions added ₹84 cr (Guwahati, Warangal).',
+  'pat@FY26': 'Includes a ₹13 cr deferred-tax credit at Rosewalk (Q4FY26); attributable to owners.',
+  'otherIncome@FY26': '−14%: cash used for acquisitions and projects; lower fair-value gains.',
+  'capex@FY26': '₹216 cr capex plus ₹203 cr for the two acquisitions (shown in investing cash flow).',
+  'sales@Q2FY26': '+7%: weak infection season; occupancy 52% vs 60%.',
+  'sales@Q4FY26': '+24%: acquisitions (~7-8 points) and new hospitals; occupancy 45.3%.',
+  'pat@Q4FY26': 'Includes the ₹13 cr Rosewalk deferred-tax credit.',
+  'sales@Q1FY27': '+33%: organic ~24%, acquisitions ~₹38 cr; occupancy 41.2%, ARPOB +6%.',
+  'opm@Q1FY27': '29%: losses at the new Bengaluru hospitals (HRBR, Electronic City); pre-Ind AS margin 23.0%.',
+  'sales@FY27E': 'GAM bed build: mature 50.5% / ₹67,500, new 38% / ₹57,000, pipeline ₹44 cr.',
+  'ebitdaMargin@FY27E': 'GAM: ~24.8% pre-Ind AS, in line with the 24-25% guidance.',
+  'capex@FY27E': 'Cash capex ₹380 cr plus ~₹100 cr of new leases (right-of-use).',
+  'sales@FY29E': 'Pipeline hospitals ~₹425 cr (Gurugram, Malad, Coimbatore, Pune and others).',
+};
+
+module.exports = { glossary, statementNotes };

@@ -41,7 +41,7 @@ const balance = {
       { type: 'stacked', title: 'Equity has kept pace with borrowings', unit: '₹ \'000 crore at March', x: 'fin.labels', from: 'FY18', to: 'FY29E', series: [{ name: 'Borrowings', ref: 'fin.borrowings', scale: 0.001, fmt: 'num' }, { name: 'Net worth', ref: 'fin.netWorth', scale: 0.001, fmt: 'num' }], minLabel: 40, source: SRC.est },
       { type: 'line', title: 'Cash flow is negative by design: loans grow faster than profit', unit: 'Cash from operations (₹ crore)', x: 'A.labels', from: 'FY17', series: [{ name: 'Cash from operations', ref: 'A.cfo', fmt: 'num' }], labels: 'last', source: 'Screener.in cash flow (consolidated)' },
     ] },
-    { callout: '**Read this right:** a lender\'s operating cash flow is negative whenever its loan book grows, because new loans are an operating outflow. What matters is whether equity grows fast enough to support the book. Retained profit added ~18-20% a year to equity in FY24-26 against AUM growth of 22-34%, which is why AUM ÷ equity has crept up and why management has been talking about capital since Q1 (see the capital chapter).' },
+    { callout: '**Read this right:** a lender\'s operating cash flow is negative whenever its loan book grows, because new loans are an operating outflow. What matters is whether equity grows fast enough to support the book. Retained profit added 16-23% a year to equity in FY24-26 against AUM growth of 22-34%. The gap has been filled by equity raises every two to four years (₹4,538 cr in FY18, ₹8,568 cr in FY20, ₹9,067 cr in FY24, per the cash-flow statement) and by gains on selling Bajaj Housing Finance shares. A fifth raise was put to the board in late September 2026 (see the capital chapter).' },
   ],
 };
 

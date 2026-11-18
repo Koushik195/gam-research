@@ -37,14 +37,14 @@
   "rf": 6.5, "beta": 1.1, "erp": 6, "g": 10, "sustainableRoe": 20, "terminalGrowth": 6, "years": 15, "fadeYears": 8, "payoutTo": 30, "rollForwardMonths": 6,
   "_why": "Ke = 6.5% + 1.1 × 6% = 13.1% (house rf and ERP; beta 1.1 for a large, rate- and credit-sensitive lender). sustainableRoe 20% = middle of the company's long-term 19-21% corridor. g = 10% long-run book growth in the justified P/B (about nominal GDP; below the 15-16% the franchise can fund today). Residual income fades ROE to 20% over 8 years, payout rising to 30%, 6% terminal growth.",
   "blend": { "round": 10, "methods": [
-   { "key": "pb", "name": "P/B", "method": "pb", "role": "primary", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 4.0, "bull": 4.6, "bear": 3.4 }, "why": "DRAFT" },
+   { "key": "pb", "name": "P/B", "method": "pb", "role": "primary", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 4.0, "bull": 4.6, "bear": 3.4 }, "why": "The street's method (Motilal Oswal 4.8x FY28E, Nomura 4.2x Sep-28E, ICICI Direct 4.4x FY28E standalone + subsidiaries). 4.0x = own median forward P/B since Apr-2021 (4.6x) × the listed-lender move vs five-year medians (−4.5%) × the growth regime since Apr-2023 (4.2x ÷ 4.6x). Bull 4.6x = median since 2021; bear 3.4x = lowest since 2021." },
    { "key": "jpb", "name": "Justified P/B", "method": "jpb", "role": "cross-check", "year": "Sep-27E", "roll": ["FY27E", "FY28E", 0.5], "why": "(ROE − g) ÷ (Ke − g) = (20 − 10) ÷ (13.1 − 10) on book at the 12-month target date." },
    { "key": "ri", "name": "Residual income", "method": "ri", "role": "cross-check", "why": "Book plus the present value of profit above the 13.1% cost of equity, ROE fading to 20%, rolled forward 6 months." },
-   { "key": "pe", "name": "P/E", "method": "pe", "role": "cross-check", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 20, "bull": 25.7, "bear": 18.3 }, "why": "DRAFT" }
+   { "key": "pe", "name": "P/E", "method": "pe", "role": "cross-check", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 20, "bull": 25.7, "bear": 18.3 }, "why": "Cross-check only. 20x = median forward P/E since Apr-2021 (25.7x, no trough years) × listed-lender P/E move vs five-year medians (−13.6%) × growth regime since Apr-2023 (23.2x ÷ 25.7x). Bull = median; bear = lowest since 2021." }
   ] }
  },
  "scenarios": {
-  "bull": { "label": "Bull", "aumGrowthDelta": 2, "yieldDelta": 0.1, "opexDelta": -0.05, "creditCostDelta": -0.2, "sustainableRoe": 22, "narrative": "DRAFT" },
-  "bear": { "label": "Bear", "aumGrowthDelta": -5, "yieldDelta": -0.3, "cofDelta": 0.2, "creditCostDelta": 0.6, "sustainableRoe": 17, "narrative": "DRAFT" }
+  "bull": { "label": "Bull", "aumGrowthDelta": 2, "yieldDelta": 0.1, "opexDelta": -0.05, "creditCostDelta": -0.2, "sustainableRoe": 22, "narrative": "Guidance raised after Q2: AUM +26/25/24% (Nomura-style 25%+), the revolving-credit draft softened (yield +10bp), credit cost stays near Q1's 1.31% (−20bp), AI keeps opex 5bp lower; long-run ROE 22%." },
+  "bear": { "label": "Bear", "aumGrowthDelta": -5, "yieldDelta": -0.3, "cofDelta": 0.2, "creditCostDelta": 0.6, "sustainableRoe": 17, "narrative": "Revolving credit banned as drafted and flexi customers lost (AUM +19/18/17%, yield −30bp), funding 20bp dearer, credit cost back at ~2.1% (FY26 level incl. one-offs); long-run ROE 17%." }
  }
 }
