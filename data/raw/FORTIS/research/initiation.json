@@ -1,0 +1,4594 @@
+{
+ "symbol": "FORTIS",
+ "listing": "NSE: FORTIS · BSE: 532843",
+ "date": "30 September 2026",
+ "rating": "SELL",
+ "analysts": "GAM Research — Healthcare",
+ "cover": {
+  "headline": "A good hospital chain at a full price, with the 2018 deal back in court: we initiate with a Sell",
+  "lead": "Fortis runs 36 facilities with ~6,150 operational beds (incl. ~1,200 managed for others), led by FMRI Gurugram and a dense NCR-Punjab network, and owns 88% of Agilus Diagnostics. Under IHH (31%) it has turned around: operating EBITDA ₹1,101 cr → ₹2,085 cr in FY23-26, margin 17.5% → 22.8%. But growth now depends on new beds (ARPOB +2.6% in Q1FY27, occupancy flat at ~69%), a new ESOP costs ~₹150 cr in FY27, and on 31-Aug-2026 the Delhi High Court ordered a forensic audit of the 2018 IHH deal (the Supreme Court declined to interfere on 25-Sep). The street values Fortis on a **sum of the parts (hospitals 27-30x, diagnostics 23-24x EV/EBITDA)**. We forecast EBITDA of ₹2,301 / 2,743 / 3,178 cr and EPS of ₹14.9 / 19.1 / 23.2 for FY27-29E, below the street on margins. Applying **18.5x to Sep-28E hospital EBITDA and 18x to Agilus** (Fortis's own forward median since 2021, less the sector's de-rating), less ESOP, the Agilus minority and net debt incl. leases, gives **{{dcf.tp|inr}} ({{dcf.upside|chg}}): we initiate with SELL.** Cross-checks: P/E ₹656, DCF ₹505. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "Good hospitals, mostly fixed already",
+    "p": "14 of 24 facilities earn above 20% (70% of revenue) at 74% occupancy; FMRI runs at 85-90%. The turnaround gains are in the numbers; the remaining lever is six ramp-up units with ~10% of revenue and new beds in full hospitals (~1,800 by FY30, only 173 in FY28)."
+   },
+   {
+    "h": "Margins: the target moved, the numbers did not",
+    "p": "Hospital margin before ESOP was 21.5% in Q1FY27 (22.1% a year earlier); the 25% FY28 target now has to absorb ~₹120 cr of ESOP. We model 22.6% / 23.4% / 23.8% before ESOP ({{F.ebitdaMargin.0|pct}} / {{F.ebitdaMargin.1|pct}} / {{F.ebitdaMargin.2|pct}} group after it): FY28E EPS 12% below Prabhudas Lilladher."
+   },
+   {
+    "h": "Overhangs are back",
+    "p": "A forensic audit (report due ~6 months after the 31-Aug-2026 order) re-examines the 2018 IHH investment and the RHT buyback; the Supreme Court questioned hospital drug mark-ups on 29-Sep-2026; CGHS/ECHS drug caps have already cut oncology growth to ~5%. IHH's plans to go to ~50%, inject capital and merge Gleneagles wait on the courts."
+   },
+   {
+    "h": "Valuation: above peers and its own history",
+    "p": "At ₹770 Fortis trades at 22.4x our FY28E EV/EBITDA vs a 21.0x forward median since 2021 and a ~20.3x peer median. The street's ₹1,030-1,150 targets rest on 27-30x hospital multiples: on our estimates those multiples alone give ₹923-1,008."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "AMBER"
+   },
+   {
+    "k": "Competitive position",
+    "v": "AMBER"
+   },
+   {
+    "k": "Valuation",
+    "v": "RED"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): first full quarter of the ~₹40 cr ESOP charge; whether the FMRI tower (~200 beds) has opened; hospital margin vs the 25%-by-FY28 path.",
+   "The forensic auditor's questionnaire (due ~4 weeks after the 31-Aug-2026 order) and report (~6 months); any appeal or further court steps.",
+   "The Supreme Court hearing on hospital drug pricing (adjourned at the 29-Sep-2026 hearing): any move towards a margin cap on medicines.",
+   "IHH: terms of any equity infusion, stake increase or Gleneagles merger (needs a majority-of-minority vote).",
+   "Agilus under its new CEO (from Jul-2026): test volumes and the 12-13% growth guidance; Manesar oncology (by Nov-2026) and Greater Noida reaching mid-teens margins by end-FY27."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Occupied beds: +28% since FY23, with occupancy held at ~68-69%",
+       "unit": "Average occupied beds; Q1FY27 = Jun-26 quarter",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Occupied beds",
+         "values": [
+          2665,
+          2700,
+          2838,
+          3270,
+          3418
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Q1FY27",
+       "source": "Company presentations"
+      },
+      {
+       "type": "column",
+       "title": "ARPOB growth has slowed from 11% to 3%",
+       "unit": "ARPOB growth, year on year (%)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ARPOB growth",
+         "values": [
+          11.5,
+          10.8,
+          9,
+          3.4,
+          2.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Q1FY27",
+       "source": "Company presentations (gross ARPOB)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Hospital margin: big gains done; ESOP takes ~1.5pp from FY27",
+       "unit": "Hospital operating EBITDA margin (%): before and after ESOP",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Before ESOP",
+         "values": [
+          15.4,
+          16.9,
+          18.6,
+          20.5,
+          22.2,
+          22.6,
+          23.4,
+          23.8
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "After ESOP",
+         "values": [
+          null,
+          null,
+          null,
+          null,
+          22.2,
+          20.9,
+          22.2,
+          22.9
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 28,
+       "source": "Company presentations; GAM estimates FY27-29E (management target: 25% after ESOP by FY28)"
+      },
+      {
+       "type": "column",
+       "title": "Agilus: revenue back above the Covid peak only in FY27E",
+       "unit": "Agilus gross revenue (₹ crore)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Gross revenue",
+         "values": [
+          1605,
+          1348,
+          1372,
+          1407,
+          1527,
+          1695,
+          1881,
+          2088
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations; GAM estimates"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward EV/EBITDA: median 21.0x since 2021, 22.4x now",
+       "unit": "EV (incl. leases and minorities) ÷ next full-year EBITDA (x)",
+       "x": [
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          17.2,
+          19.3,
+          19.1,
+          19.2,
+          22.1,
+          21.7,
+          19.9,
+          22.7,
+          22.8,
+          20.9,
+          20.5,
+          19,
+          16.7,
+          16.6,
+          18.3,
+          19.7,
+          18.9,
+          19.6,
+          18.7,
+          19.3,
+          19,
+          14.1,
+          14.9,
+          16.5,
+          17.7,
+          17.6,
+          18,
+          17.7,
+          20,
+          21.8,
+          22.4,
+          21,
+          17.4,
+          18.6,
+          18.1,
+          19.1,
+          22.5,
+          23.4,
+          26.2,
+          26,
+          24,
+          24.1,
+          22.5,
+          24.2,
+          25.9,
+          28.8,
+          31,
+          33.3,
+          34.6,
+          29.8,
+          30.5,
+          31.3,
+          27.8,
+          26.3,
+          27.9,
+          27.9,
+          26.8,
+          25.6,
+          22.4
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 21,
+         "text": "Median: 21.0x"
+        },
+        {
+         "v": 18.5,
+         "text": "Hospitals target: 18.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices and balance sheets; AR FY26; GAM estimates FY27-29E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (notes standing on 30-Sep-26)",
+       "unit": "₹ per share; CMP ₹770",
+       "x": [
+        "Motilal Oswal (4-Sep-26)",
+        "ICICI Securities (6-Sep-26)",
+        "Prabhudas Lilladher (8-Aug-26)",
+        "Nomura (10-Aug-26)",
+        "Geojit BNP Paribas (15-Jun-26)",
+        "Axis Direct (28-Feb-26)",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          1130,
+          1075,
+          1120,
+          1030,
+          1150,
+          1038,
+          690
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and aggregators (Feb-2026 to Sep-2026), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Fortis fell 19% after July, more than Apollo, Max or Narayana",
+       "unit": "Share price change, 31-Jul to 30-Sep-2026 (%)",
+       "x": [
+        "Fortis",
+        "Apollo Hospitals",
+        "Max Healthcare",
+        "Narayana Hrudayalaya",
+        "Medanta (Global Health)",
+        "Rainbow Children's",
+        "Jupiter Life Line"
+       ],
+       "series": [
+        {
+         "name": "Change",
+         "values": [
+          -18.5,
+          -8.8,
+          -15.4,
+          -11.7,
+          -2.9,
+          -13.8,
+          -23.5
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Fortis",
+       "source": "Screener.in weekly prices; NSE closes on 30-Sep-2026"
+      },
+      {
+       "type": "hbar",
+       "title": "Where our target comes from",
+       "unit": "₹ per share (base case, Sep-28E)",
+       "x": [
+        "Hospitals",
+        "Less: ESOP",
+        "Agilus (100%)",
+        "Less: Agilus minority",
+        "Less: net debt incl. leases",
+        "Target"
+       ],
+       "series": [
+        {
+         "name": "₹/share",
+         "values": [
+          633,
+          -27,
+          116,
+          -14,
+          -23,
+          690
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Target",
+       "source": "GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Fortis does",
+   "kicker": "The business",
+   "title": "A North-India-heavy hospital chain with a national diagnostics arm",
+   "blocks": [
+    {
+     "p": "Fortis runs multi-specialty hospitals: 36 facilities with 6,150+ operational beds, of which ~4,970 are its own and ~1,200 are managed for others under operations & management (O&M) contracts for a fee. Hospitals earned ₹7,773 cr in FY26 (85% of revenue). The network is concentrated: Delhi NCR (~2,190 beds, led by the flagship Fortis Memorial Research Institute, FMRI, in Gurugram) and Punjab (~990 beds) are half the beds; Bengaluru, Mumbai, Kolkata and Jaipur make up most of the rest. Six specialties (oncology, cardiac, neuro, ortho, gastro and renal) bring 62% of hospital revenue; doctors are mostly paid fees per case, as in most Indian chains."
+    },
+    {
+     "p": "The second business is **Agilus Diagnostics** (formerly SRL), 88.32% owned: a national pathology chain with 4,493 customer touchpoints, 40.8 mn tests a year and ₹1,527 cr of gross revenue in FY26 (₹171 cr of it from tests for Fortis hospitals). Agilus earned a 23.6% operating margin in FY26 but has grown only ~4% a year since FY23. The controlling shareholder is **IHH Healthcare** of Malaysia (31.17%), Asia's largest listed hospital group, which also owns the Gleneagles hospitals in India that Fortis has managed since Jul-2025."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The network at Jun-2026 (operational beds incl. O&M)",
+      "head": [
+       "Cluster",
+       "Beds",
+       "Hospitals"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "**Delhi NCR**",
+        "2,191",
+        "FMRI Gurugram (flagship), FEHI Okhla, Shalimar Bagh, Noida, Faridabad, Manesar, Greater Noida (lease), La Femme GK, Defence Colony, Adayu (mental health); Vasant Kunj and C-DOC on O&M"
+       ],
+       [
+        "**Punjab**",
+        "989",
+        "Mohali, Ludhiana (2), Amritsar, Jalandhar (Shrimann, acquired Jul-2025)"
+       ],
+       [
+        "**Karnataka (Bengaluru)**",
+        "888",
+        "BG Road, CG Road, Nagarbhavi, Rajajinagar, Yeshwanthpur (People Tree, acquired Jan-2026); Kengeri and Richmond Road on O&M"
+       ],
+       [
+        "**Maharashtra (MMR)**",
+        "768",
+        "Mulund, Vashi, Kalyan; SL Raheja on O&M"
+       ],
+       [
+        "**West Bengal (Kolkata)**",
+        "385",
+        "Anandpur, FHKI & FMC"
+       ],
+       [
+        "**Rajasthan**",
+        "275",
+        "Jaipur"
+       ],
+       [
+        "**Telangana (O&M)**",
+        "271",
+        "Lakdi-ka-Pul and LB Nagar (Gleneagles, O&M)"
+       ],
+       [
+        "**Tamil Nadu (O&M)**",
+        "241",
+        "Perumbakkam-Sholinganallur (Gleneagles, O&M)"
+       ],
+       [
+        "**Himachal Pradesh**",
+        "81",
+        "Kangra"
+       ],
+       [
+        "**Chhattisgarh (O&M)**",
+        "70",
+        "Raigarh (O&M)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total**",
+         "**6,159**",
+         "36 facilities; ~1,200 O&M beds (Gleneagles, Vasant Kunj, C-DOC, Raigarh, SL Raheja and others)"
+        ]
+       }
+      ],
+      "source": "Q1FY27 presentation p.3 (operational beds incl. ~1,200 O&M beds; total 6,150+)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "NCR and Punjab are half the beds",
+       "unit": "Operational beds by cluster, Jun-2026",
+       "x": [
+        "Delhi NCR",
+        "Punjab",
+        "Karnataka",
+        "Maharashtra",
+        "West Bengal",
+        "Rajasthan",
+        "Telangana",
+        "Tamil Nadu",
+        "Himachal Pradesh",
+        "Chhattisgarh"
+       ],
+       "series": [
+        {
+         "name": "Beds",
+         "values": [
+          2191,
+          989,
+          888,
+          768,
+          385,
+          275,
+          271,
+          241,
+          81,
+          70
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Delhi NCR",
+       "source": "Q1FY27 presentation p.3"
+      },
+      {
+       "type": "hbar",
+       "title": "Who pays: insurers and cash patients 70%, government ~21%",
+       "unit": "Hospital revenue by payer, FY26 (%)",
+       "x": [
+        "Insurance (TPAs)",
+        "Cash: domestic",
+        "International patients",
+        "Government & PSUs",
+        "ECHS (ex-servicemen)",
+        "CGHS (central government)",
+        "Private corporates"
+       ],
+       "series": [
+        {
+         "name": "FY26",
+         "values": [
+          36.3,
+          34,
+          7.8,
+          8.7,
+          7.3,
+          4.7,
+          1.2
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 presentation p.24; Q1FY27 presentation p.17 (% of hospital revenue)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Operating scale",
+      "head": [
+       "",
+       "FY24",
+       "FY25",
+       "FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "Hospital revenue (₹ cr)",
+        "5,686",
+        "6,528",
+        "7,773",
+        "2,187"
+       ],
+       [
+        "Occupied beds (average)",
+        "2,700",
+        "2,838",
+        "3,270",
+        "3,418"
+       ],
+       [
+        "Occupancy",
+        "65%",
+        "69%",
+        "68%",
+        "68.7%"
+       ],
+       [
+        "ARPOB (₹ cr per bed per year, gross)",
+        "2.22",
+        "2.42",
+        "2.51",
+        "2.71"
+       ],
+       [
+        "International patient revenue (₹ cr)",
+        "–",
+        "539",
+        "639",
+        "174"
+       ],
+       [
+        "Agilus tests (mn)",
+        "38.8",
+        "39.2",
+        "40.8",
+        "10.5"
+       ],
+       [
+        "Agilus B2C share of revenue",
+        "–",
+        "52%",
+        "52%",
+        "53%"
+       ]
+      ],
+      "source": "Company presentations (Q4FY24-Q1FY27); ARPOB on gross revenue"
+     }
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From the Singh brothers' crisis to IHH control, and a legal tail that will not end",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1996",
+        "Incorporated in Punjab by the Ranbaxy promoter family (Malvinder and Shivinder Singh); registered office still at Fortis Hospital, Mohali",
+        "Punjab is still ~1,000 beds (Mohali, Ludhiana, Amritsar, Jalandhar)"
+       ],
+       [
+        "2000s",
+        "Grew by acquisition: Escorts Heart Institute (FEHI, still a subsidiary), later SRL diagnostics (now Agilus); listed on NSE and BSE",
+        "FEHI Okhla is a core NCR hospital; Agilus is the diagnostics segment"
+       ],
+       [
+        "2010s",
+        "Hospital assets moved into Religare Health Trust (RHT, Singapore-listed) and leased back",
+        "Rents to RHT drained cash until the 2019 buyback"
+       ],
+       [
+        "2016-2018",
+        "Daiichi Sankyo's arbitral award against the promoters; promoter pledges invoked; loans to former-promoter entities exposed (Fortis still pursues ~₹397 cr plus interest); promoters lose their stake (Feb-2018)",
+        "FY18 loss ₹934 cr; legacy SFIO and court cases still running"
+       ],
+       [
+        "Nov-2018",
+        "IHH buys 31.17% via a ₹4,000 cr preferential issue at ₹170; Dr Ashutosh Raghuvanshi leads the company as MD & CEO",
+        "Share count 75.5 cr since then; no bonus, split or buyback"
+       ],
+       [
+        "2019",
+        "Hospital assets bought back from RHT Health Trust (~₹4,666 cr paid to RHT, per ICICI Securities)",
+        "Rent replaced by ownership: EBITDA margin rose from 5% (FY19) to 13% (FY20)"
+       ],
+       [
+        "FY21-FY22",
+        "Covid: FY21 revenue −13%; FY22 +42% with a Covid-testing boom at SRL (diagnostics EBITDA ₹412 cr)",
+        "FY22 diagnostics peak; FY23 diagnostics EBITDA fell 42%"
+       ],
+       [
+        "FY23-FY26",
+        "Margin turnaround: hospital operating margin 16.9% → 22.2%; facilities above 20% margin 10 → 13",
+        "Operating EBITDA ₹1,101 cr → ₹2,085 cr (24% a year)"
+       ],
+       [
+        "FY25",
+        "Agilus: 31.21% bought from PE investors for ₹1,778 cr (stake 88.32%); SRL rebranded Agilus",
+        "Minority share of profit fell from ₹235 cr (FY22) to ₹22 cr (FY26); net debt up"
+       ],
+       [
+        "FY26",
+        "~800 beds added: Shrimann Jalandhar (₹462 cr), Greater Noida lease, People Tree Bengaluru (₹430 cr), ~250 brownfield beds; Gleneagles O&M (~700 beds)",
+        "Net debt ₹1,694 → ₹2,334 cr; lease liabilities ₹280 → ₹600 cr"
+       ],
+       [
+        "Apr-2026",
+        "Broad-based ESOP scheme (55-60% to doctors)",
+        "~₹150 cr cost in FY27, ~₹120 cr FY28, ~₹100 cr FY29"
+       ],
+       [
+        "Aug-Sep 2026",
+        "Delhi High Court orders a forensic audit (31-Aug); Supreme Court declines to interfere (25-Sep)",
+        "Stock −19% from 31-Jul to 30-Sep (sector −9% to −15%)"
+       ]
+      ],
+      "source": "AR FY26; company presentations; Screener.in; GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The Daiichi-IHH legal saga, as it stood on 30-Sep-2026",
+      "head": [
+       "Date",
+       "Event"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "2016",
+        "Singapore arbitral award for Daiichi Sankyo against the former promoters (Malvinder and Shivinder Singh) over the Ranbaxy sale: ₹2,562 cr per LiveLaw; ~₹5,300 cr outstanding with interest per press reports (Aug-2026); award year per press"
+       ],
+       [
+        "Feb-18",
+        "Singh brothers' Fortis stake falls to near zero as lenders sell pledged shares; SFIO investigation ordered"
+       ],
+       [
+        "13-Nov-18",
+        "IHH (Northern TK Venture) subscribes 23.5 cr new shares at ₹170 (₹4,000 cr) after a contest run by the then independent directors; money used to buy back the hospital assets from RHT Health Trust"
+       ],
+       [
+        "14-Dec-18",
+        "Supreme Court orders status quo on the sale of the controlling stake: IHH's 26% open offer for Fortis (and for Fortis Malar) frozen"
+       ],
+       [
+        "22-Sep-22",
+        "Supreme Court judgment: Singh brothers jailed for contempt; RHT transaction 'prima facie' an acquisition to benefit the former promoters; Delhi High Court may consider a forensic audit; open offer stays on hold (stock fell ~20% that day)"
+       ],
+       [
+        "Oct-25",
+        "SEBI allows IHH to proceed with the open offer at the 2018 price of ₹170 plus 10% annual interest from Sep-2022"
+       ],
+       [
+        "10-Nov-25",
+        "Open offer completed; IHH still at 31.17% (market price ~₹1,000, so almost no shares were tendered)"
+       ],
+       [
+        "31-Aug-26",
+        "Delhi High Court orders a forensic audit (S Ramanand Aiyar & Co; questionnaire in 4 weeks, report in 6 months; cost borne by Daiichi) of the dissipation of the former promoters' shares, IHH/NTK's acquisition of control and use of the money for RHT assets, the role of Fortis officers and of 17 lenders. No liability fixed"
+       ],
+       [
+        "4-Sep-26",
+        "Fortis/IHH call: operations, capex and M&A plans unaffected; IHH 'fully backing Fortis', still plans to go to ~50% and to merge Gleneagles 'at the appropriate time'"
+       ],
+       [
+        "25-Sep-26",
+        "Supreme Court declines to interfere with the forensic audit; says the High Court's observations on Fortis are tentative and must not influence the audit"
+       ]
+      ],
+      "source": "AR FY26 Directors' Report; Sep-2026 call transcript (filed 10-Sep-2026); LiveLaw (25-Sep-2026); IHH SGX filing (11-Nov-2025); Business Standard (3-Oct-2025); Deccan Herald (22-Sep-2022)"
+     }
+    },
+    {
+     "callout": "**Corporate actions and per-share data:** no bonus, split or buyback since the 2018 preferential issue; 75.49 cr shares. Screener's consolidated \"Net Profit\" (₹1,064 cr in FY26) is before minorities while its EPS (₹13.80) is after them, so we put profit on the attributable basis (₹1,042 cr; FORTIS.patch.js) to keep the share count right. **What the legal saga means for minority shareholders:** Fortis is neither the judgment debtor nor a garnishee, no liability has been fixed and the audit is paid for by Daiichi; but the audit re-opens the 2018 IHH deal and the RHT buyback, and for six months or more it hangs over IHH's plans to raise its stake, inject capital or merge Gleneagles. The open offer that could have given minorities an exit was at ₹170, so it never mattered at today's prices."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Too few beds, more insurance, and more regulation of what hospitals charge",
+   "blocks": [
+    {
+     "p": "India has ~16 hospital beds per 10,000 people vs a global average of ~33, and ~14 outside the metros; only ~6% of hospitals are accredited (Crisil, Praxis, via Fortis AR FY26 MD&A). Health-insurance coverage rose from 35% (FY2019) to 41% (FY2024) of the population (Crisil, IRDA); 36% of Fortis's FY26 hospital revenue came through insurers (TPAs) and ~21% from government schemes (CGHS, ECHS, PSUs). These are the reasons Indian hospital chains have grown revenue 13-25% a year and why listed chains are building beds as fast as they can. The other side is price: about a fifth of Fortis's revenue comes from government schemes that set their own rates, insurers negotiate package prices, and in Sep-2026 the Supreme Court openly questioned hospital mark-ups on medicines. Indian diagnostics market ₹860-870 bn in FY24, projected ₹1,275-1,375 bn by FY28 (10-12% a year; Crisil, Axis Capital); still fragmented, with organised chains (Dr Lal, Metropolis, Agilus, Vijaya, Apollo, Redcliffe and online players) gaining share."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Forces acting on Fortis's markets (as of 30-Sep-2026)",
+      "head": [
+       "Theme",
+       "Direction",
+       "What it means for Fortis"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Bed shortage and rising incomes",
+        "Supportive",
+        "Demand for tertiary care in Fortis's metros (NCR, Bengaluru, Mumbai, Kolkata, Punjab) keeps occupancy ~68-70% even as beds grow 15-17%."
+       ],
+       [
+        "Insurance penetration",
+        "Supportive",
+        "TPAs are 36-37% of hospital revenue; insured patients choose branded chains, but insurers also push back on tariffs."
+       ],
+       [
+        "Government payers (CGHS/ECHS)",
+        "Mixed",
+        "~21% of revenue. CGHS raised package rates in FY26 but capped chemotherapy drugs at MRP less 30%: Fortis's oncology growth fell from 23-24% to ~5%."
+       ],
+       [
+        "Drug and consumable mark-ups",
+        "Negative risk",
+        "On 29-Sep-2026 the Supreme Court called hospital cancer-drug mark-ups 'carnage' and asked the Centre whether a uniform 16% margin on MRP could be an option. Not a ruling yet; hospital stocks fell 4-7% on 30-Sep-2026 (Fortis −5.2% in morning trade). Pharmacy is a large profit pool for every hospital chain; Fortis does not disclose its pharmacy revenue."
+       ],
+       [
+        "New supply in NCR and Bengaluru",
+        "Negative",
+        "Large new hospitals in Noida and Gurugram caused doctor churn (management, Aug-2026); BG Road Bengaluru runs at ~55% occupancy against a larger competitor next door."
+       ],
+       [
+        "Medical tourism",
+        "Mixed",
+        "International patients 7.5-7.8% of hospital revenue (₹639 cr in FY26, +18.5%), but growth slowed to 11-13% in Q4FY26-Q1FY27 (Bangladesh, travel)."
+       ],
+       [
+        "Diagnostics price competition",
+        "Negative",
+        "Agilus grew 4% a year in FY23-26 vs a 10-12% market; online aggregators and hospital-led labs compete on price."
+       ]
+      ],
+      "source": "Fortis AR FY26 MD&A pp.188-193 (Crisil, Praxis, IRDA, Axis Capital); company calls; press (30-Sep-2026)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Q1FY27 revenue growth: Fortis in the middle of the pack",
+       "unit": "Consolidated revenue growth, Jun-2026 quarter, year on year (%)",
+       "x": [
+        "Fortis",
+        "Apollo Hospitals",
+        "Max Healthcare",
+        "Narayana Hrudayalaya",
+        "Medanta (Global Health)",
+        "KIMS",
+        "Rainbow Children's",
+        "Jupiter Life Line"
+       ],
+       "series": [
+        {
+         "name": "Growth",
+         "values": [
+          17.4,
+          18.7,
+          16.7,
+          78.1,
+          26.5,
+          35.3,
+          33.1,
+          16.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Fortis",
+       "source": "Screener.in quarterly results (acquisitions included)"
+      },
+      {
+       "type": "hbar",
+       "title": "Three-year growth: Fortis 13% a year, like Apollo",
+       "unit": "Revenue growth, FY23-26, a year (%)",
+       "x": [
+        "Fortis",
+        "Apollo Hospitals",
+        "Max Healthcare",
+        "Narayana Hrudayalaya",
+        "Medanta (Global Health)",
+        "KIMS",
+        "Rainbow Children's",
+        "Jupiter Life Line"
+       ],
+       "series": [
+        {
+         "name": "CAGR",
+         "values": [
+          13.2,
+          14.9,
+          22.4,
+          20.4,
+          17.6,
+          21.1,
+          13.2,
+          18.9
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Fortis",
+       "source": "Screener.in (consolidated)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: Fortis captures demand for beds, less so price and diagnostics growth",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Bed shortage in metros",
+       "Yes",
+       "Occupied beds +15% in FY26 and +17% in Q1FY27 while occupancy held at 68-69%; FMRI runs at 85-90%.",
+       "New beds fill; growth is capacity-led."
+      ],
+      [
+       "Higher acuity and technology",
+       "Yes",
+       "Robotic surgeries +66% and radiation therapy +19% in FY26; renal +28%, neuro +27%, ortho +23% in Q1FY27.",
+       "Supports ARPOB growth of ~3-4% a year."
+      ],
+      [
+       "Price (ARPOB) growth",
+       "Partly",
+       "ARPOB +9% in FY25 but +3.4% in FY26 and +2.6% in Q1FY27, held back by oncology drug caps and lower-ARPOB acquired units.",
+       "Price is no longer the main lever."
+      ],
+      [
+       "Insurance penetration",
+       "Yes",
+       "Insurers (TPAs) 36-37% of hospital revenue; cash patients ~34%.",
+       "Stable payer mix, insurers push on tariffs."
+      ],
+      [
+       "Government schemes",
+       "Mixed",
+       "CGHS raised package rates but capped chemo drugs at MRP less 30%: oncology growth fell from 23-24% to ~5%.",
+       "A fifth of revenue at prices Fortis does not set."
+      ],
+      [
+       "Medical tourism",
+       "Slowing",
+       "International revenue ₹639 cr in FY26 (+18.5%) but +13% in Q1FY27; share 7.5%.",
+       "Helpful, not a driver."
+      ],
+      [
+       "Diagnostics market growth (10-12%)",
+       "No",
+       "Agilus gross revenue +4% a year in FY23-26; +10% in Q1FY27.",
+       "Agilus has lost share; recovery not yet proven."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "Fortis Healthcare presentations, earnings calls and annual report; GAM Research"
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Diagnostics: Agilus has grown slowest of the listed chains",
+       "unit": "FY23-26 revenue growth a year (%; Fortis = consolidated, Agilus gross ~4%)",
+       "x": [
+        "Agilus (gross)",
+        "Dr Lal PathLabs",
+        "Metropolis",
+        "Vijaya Diagnostic"
+       ],
+       "series": [
+        {
+         "name": "CAGR",
+         "values": [
+          4.2,
+          11.1,
+          12.8,
+          21
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Agilus (gross)",
+       "source": "Company presentations (Agilus); Screener.in (peers)"
+      },
+      {
+       "type": "hbar",
+       "title": "And on margins it trails Dr Lal and Vijaya",
+       "unit": "FY26 EBITDA margin (%)",
+       "x": [
+        "Agilus (operating)",
+        "Dr Lal PathLabs",
+        "Metropolis",
+        "Vijaya Diagnostic"
+       ],
+       "series": [
+        {
+         "name": "Margin",
+         "values": [
+          23.6,
+          28.3,
+          24.7,
+          41.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Agilus (operating)",
+       "source": "Company presentations; Screener.in (peers)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hospitals",
+   "nav": "Beds, occupancy & ARPOB",
+   "kicker": "Operating KPIs",
+   "title": "Revenue = beds × occupancy × ARPOB: beds now do the work, price growth has slowed",
+   "blocks": [
+    {
+     "p": "Hospital revenue is the product of three numbers: **operational beds**, **occupancy** (share of beds filled) and **ARPOB** (average revenue per occupied bed; Fortis quotes it in ₹ crore per bed per year, on gross revenue). From FY23 to FY26 occupied beds rose 23% (2,665 → 3,270) and ARPOB 25% (₹2.01 cr → ₹2.51 cr), so hospital revenue grew 52%. The mix has flipped: in FY24-25 price did most of the work (ARPOB +11% and +9%); in FY26 and Q1FY27 ARPOB rose only 3.4% and 2.6% while occupied beds jumped 15% and 17%, helped by ~800 beds added in FY26 (acquisitions and brownfield). Occupancy has stayed at 67-72% throughout, which says the new beds are filling. Because ARPOB is on gross revenue, reported revenue is ~5% below occupied beds × ARPOB every year (ratio 0.947 in FY26)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Occupied beds: +23% in three years, +17% in the last year",
+       "unit": "Average occupied beds",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Occupied beds",
+         "values": [
+          2665,
+          2700,
+          2838,
+          3270,
+          3418
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Q1FY27",
+       "source": "Company presentations"
+      },
+      {
+       "type": "line",
+       "title": "Quarterly ARPOB: Q1 highest, Q2 lowest; +2.6% YoY in Q1FY27",
+       "unit": "ARPOB (₹ cr per occupied bed per year, gross)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ARPOB",
+         "values": [
+          2.41,
+          2.37,
+          2.45,
+          2.51,
+          2.64,
+          2.51,
+          2.56,
+          2.56,
+          2.71
+         ],
+         "fmt": "n2"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The revenue identity, checked",
+      "head": [
+       "",
+       "FY23",
+       "FY24",
+       "FY25",
+       "FY26",
+       "Q1FY27 (annualised)"
+      ],
+      "rows": [
+       [
+        "Occupied beds",
+        "2,665",
+        "2,700",
+        "2,838",
+        "3,270",
+        "3,418"
+       ],
+       [
+        "× ARPOB (₹ cr per year, gross)",
+        "2.01",
+        "2.22",
+        "2.42",
+        "2.51",
+        "2.71"
+       ],
+       [
+        "= gross revenue (₹ cr)",
+        "5,357",
+        "5,994",
+        "6,868",
+        "8,208",
+        "9,263"
+       ],
+       [
+        "Reported hospital revenue (₹ cr)",
+        "5,107",
+        "5,686",
+        "6,528",
+        "7,773",
+        "8,748"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Ratio reported ÷ gross**",
+         "**0.953**",
+         "**0.949**",
+         "**0.951**",
+         "**0.947**",
+         "**0.944**"
+        ]
+       },
+       [
+        "Occupancy",
+        "67%",
+        "65%",
+        "69%",
+        "68%",
+        "68.7%"
+       ],
+       [
+        "Implied average operational beds",
+        "3,978",
+        "4,154",
+        "4,113",
+        "4,809",
+        "4,975"
+       ]
+      ],
+      "source": "Company KPIs (Q4FY23-Q1FY27 decks); GAM Research"
+     }
+    },
+    {
+     "callout": "**What would move the numbers:** each 1pp of occupancy on ~5,100 operational beds is ~51 occupied beds, or ~₹130 cr of revenue at FY27E ARPOB; each 1% of ARPOB is ~₹90 cr. Management guides another 2-3pp of occupancy as Manesar, Greater Noida, Yeshwanthpur and BG Road fill. Our build gets network occupancy to 69.2% / 70.7% / 71.6% and ARPOB to ₹2.72 / 2.84 / 2.95 cr in FY27-29E."
+    }
+   ]
+  },
+  {
+   "id": "matrix",
+   "nav": "Mature vs ramp-up hospitals",
+   "kicker": "Hospital cohorts",
+   "title": "Fourteen hospitals earn 70% of revenue at 20%+ margins; six are still ramping up",
+   "blocks": [
+    {
+     "p": "Fortis does not give profit by hospital, but every quarter it groups facilities by EBITDA margin. In Q1FY27, 14 facilities (3,212 beds) earned more than 20% and brought 70% of hospital revenue, at 74% occupancy and ₹2.71 cr ARPOB; 4 more (809 beds) earned 15-20%, with the highest ARPOB (₹3.19 cr). The tail is 6 facilities (919 beds) below 15%: Yeshwanthpur (People Tree, bought Jan-2026), Manesar (opened Sep-2024) and Greater Noida (leased from Sep-2025) among them, at 54% occupancy and ~₹2 cr ARPOB. Management says the new units cost 0.4pp of margin in Q1FY27 and should add ~1pp once mature; Manesar and Greater Noida are guided to mid-teens margins by end-FY27. A greenfield hospital takes 18-24 months to break even and another year to reach 18-20%; brownfield beds fill almost at once."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Hospital margin matrix (operating EBITDA before ESOP)",
+      "head": [
+       "EBITDA margin band",
+       "Facilities",
+       "Revenue share",
+       "Operational beds",
+       "ARPOB (₹ cr)",
+       "Occupancy"
+      ],
+      "rows": [
+       {
+        "sec": "Q1FY27 (24 facilities, 4,940 beds)"
+       },
+       [
+        ">20%",
+        14,
+        "70.3%",
+        "3,212",
+        "2.71",
+        "74%"
+       ],
+       [
+        "15-20%",
+        4,
+        "18%",
+        "809",
+        "3.19",
+        "66%"
+       ],
+       [
+        "10-15%",
+        2,
+        "4.1%",
+        "331",
+        "2.08",
+        "54%"
+       ],
+       [
+        "<10%",
+        4,
+        "6.4%",
+        "588",
+        "1.93",
+        "54%"
+       ],
+       {
+        "sec": "FY26"
+       },
+       [
+        ">20%",
+        13,
+        "76.2%",
+        "3,238",
+        "2.66",
+        "72%"
+       ],
+       [
+        "15-20%",
+        4,
+        "11.6%",
+        "559",
+        "2.52",
+        "69%"
+       ],
+       [
+        "10-15%",
+        1,
+        "2.2%",
+        "119",
+        "2.21",
+        "67%"
+       ],
+       [
+        "<10%",
+        6,
+        "8.8%",
+        "875",
+        "1.62",
+        "52%"
+       ],
+       {
+        "sec": "FY25 (excl. Richmond Road, divested)"
+       },
+       [
+        ">20%",
+        10,
+        "73.2%",
+        "2,611",
+        "2.67",
+        "72%"
+       ],
+       [
+        "15-20%",
+        5,
+        "9.2%",
+        "523",
+        "1.64",
+        "74%"
+       ],
+       [
+        "10-15%",
+        2,
+        "10%",
+        "429",
+        "2.35",
+        "69%"
+       ],
+       [
+        "<10%",
+        4,
+        "6.3%",
+        "533",
+        "1.67",
+        "50%"
+       ]
+      ],
+      "source": "Q1FY27 presentation p.18; Q4FY26 presentation p.27"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "More hospitals above 20% margin: 10 → 13 → 14",
+       "unit": "Facilities above 20% operating EBITDA margin",
+       "x": [
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Facilities",
+         "values": [
+          10,
+          13,
+          14
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      },
+      {
+       "type": "hbar",
+       "title": "Low-margin hospitals also have the lowest ARPOB",
+       "unit": "Q1FY27 ARPOB by margin band (₹ cr per bed per year, gross)",
+       "x": [
+        ">20% margin",
+        "15-20% margin",
+        "10-15% margin",
+        "<10% margin"
+       ],
+       "series": [
+        {
+         "name": "ARPOB",
+         "values": [
+          2.71,
+          3.19,
+          2.08,
+          1.93
+         ],
+         "fmt": "n2"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation p.18"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the matrix is the best evidence that the turnaround worked (13 → 14 hospitals above 20%), and also that it is maturing: the >20% group already runs at 74% occupancy, FMRI at 85-90%. Margin upside now depends on the ramp-up group (only ~10% of revenue) and on new beds in already-full hospitals. That is why we model the hospital margin rising ~0.5pp a year, not the ~1.5-2pp management talks about."
+    }
+   ]
+  },
+  {
+   "id": "expansion",
+   "nav": "Bed pipeline",
+   "kicker": "Growth plan",
+   "title": "~1,800 brownfield beds over FY27-30: back-ended, with FY28 the gap year",
+   "blocks": [
+    {
+     "p": "Fortis plans to grow operational beds from 4,968 (Mar-2026) to 6,774 by FY30 (+36%), almost all brownfield (new towers and floors at existing hospitals), plus ~1,200 O&M beds. The phasing is uneven: 472 beds in FY27 (~100 done in Q1, led by a ~200-bed tower at FMRI awaiting its occupancy certificate in August), only 173 in FY28 after the Shalimar Bagh extension slipped on approvals, then 702 in FY29 and 429 in FY30 (towers at Mohali, Shalimar Bagh and Amritsar, 2.5-3 years away in May-2026). New O&M deals (Lucknow 550 beds, Cuttack 300) need no capital. Management is also \"actively pursuing\" acquisitions in its clusters; none is in our numbers."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Pipeline (company)",
+      "head": [
+       "Project",
+       "Beds",
+       "Timing",
+       "Type"
+      ],
+      "wide": [
+       0,
+       2
+      ],
+      "rows": [
+       [
+        "FMRI Gurugram new tower",
+        "~200",
+        "FY27 (occupancy certificate awaited, Aug-2026); opened in phases, ~100 beds planned in FY27",
+        "Brownfield, own"
+       ],
+       [
+        "Noida, Manesar, Amritsar, FHKI Kolkata",
+        "~270",
+        "FY27 (Noida/Amritsar/Jalandhar ~100 beds added in Q1FY27)",
+        "Brownfield"
+       ],
+       [
+        "Proton therapy centre, FMRI",
+        "–",
+        "Board-approved Aug-2026; capex ~₹252 cr",
+        "Equipment"
+       ],
+       [
+        "Shalimar Bagh extension",
+        "large (part of FY28-29 additions)",
+        "Delayed to FY29: approvals pending",
+        "Brownfield tower"
+       ],
+       [
+        "Mohali and Amritsar new towers",
+        "large (FY29-30 additions)",
+        "~2.5-3 years from May-2026",
+        "Brownfield tower"
+       ],
+       [
+        "Jalandhar (Shrimann) expansion",
+        "228 → 450+",
+        "Adjacent land acquired with the hospital",
+        "Brownfield"
+       ],
+       [
+        "Yeshwanthpur (People Tree) expansion",
+        "125 → 300+",
+        "Adjacent land acquired",
+        "Brownfield"
+       ],
+       [
+        "Lucknow (Ekana Group)",
+        "550",
+        "Greenfield to be built by the owner",
+        "O&M (no capital)"
+       ],
+       [
+        "Cuttack, Odisha",
+        "300",
+        "Greenfield to be built by the owner; signed Jul/Aug-2026",
+        "O&M (no capital)"
+       ]
+      ],
+      "source": "Q4FY26 call (25-May-2026); Q1FY27 call (7-Aug-2026); Q4FY26 presentation p.9"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Own operational beds: 4,968 → 6,774 by FY30 (company plan)",
+       "unit": "Operational beds (excl. ~1,184 O&M), end of year",
+       "x": [
+        "FY25",
+        "FY26",
+        "FY27",
+        "FY28",
+        "FY29",
+        "FY30"
+       ],
+       "series": [
+        {
+         "name": "Beds",
+         "values": [
+          4175,
+          4968,
+          5440,
+          5613,
+          6315,
+          6774
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 presentation p.29 (capacity additions; ramp-up follows occupancy)"
+      },
+      {
+       "type": "stacked",
+       "title": "Our build: new beds are ~14% of hospital revenue by FY29E",
+       "unit": "Hospital revenue by cohort (₹ crore)",
+       "x": [
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Mature hospitals",
+         "values": [
+          7796,
+          8239,
+          8691
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Ramp-up hospitals",
+         "values": [
+          997,
+          1158,
+          1309
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "New brownfield beds",
+         "values": [
+          255,
+          867,
+          1624
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 200,
+       "source": "GAM estimates; sums to model hospital revenue"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Bed build by cohort (₹ crore; checked to sum to model hospital revenue)",
+      "head": [
+       "",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       {
+        "sec": "Mature hospitals (>15% margin; 4,021 beds)"
+       },
+       [
+        "Average operational beds / occupancy / ARPOB (₹ cr)",
+        "4,021 / 72.5% / 2.83",
+        "4,021 / 73.5% / 2.95",
+        "4,021 / 74.5% / 3.07"
+       ],
+       [
+        "Revenue (× 0.945 gross-to-reported)",
+        "7,796",
+        "8,239",
+        "8,691"
+       ],
+       {
+        "sec": "Ramp-up hospitals (<15%; 919 beds)"
+       },
+       [
+        "Average operational beds / occupancy / ARPOB (₹ cr)",
+        "919 / 56% / 2.05",
+        "919 / 62% / 2.15",
+        "919 / 67% / 2.25"
+       ],
+       [
+        "Revenue (× 0.945 gross-to-reported)",
+        "997",
+        "1,158",
+        "1,309"
+       ],
+       {
+        "sec": "New brownfield beds (after Q1FY27)"
+       },
+       [
+        "Average operational beds / occupancy / ARPOB (₹ cr)",
+        "150 / 60% / 3.00",
+        "470 / 64% / 3.05",
+        "880 / 63% / 3.10"
+       ],
+       [
+        "Revenue (× 0.945 gross-to-reported)",
+        "255",
+        "867",
+        "1,624"
+       ],
+       [
+        "Network: beds / occupancy / ARPOB",
+        "5,090 / 69.2% / 2.72",
+        "5,410 / 70.7% / 2.84",
+        "5,820 / 71.6% / 2.95"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Hospital revenue (model)**",
+         "**9,049**",
+         "**10,264**",
+         "**11,625**"
+        ]
+       },
+       [
+        "Operating EBITDA per operational bed (₹ lakh, before ESOP)",
+        "40.2",
+        "44.4",
+        "47.5"
+       ]
+      ],
+      "source": "Company KPIs (Q1FY27 margin matrix, bed plan); GAM estimates (assumptions.json businessLines)"
+     }
+    },
+    {
+     "callout": "**Capex per bed:** Fortis does not disclose it. On our numbers (₹3,600 cr of capex in FY27-29E, of which ~₹1,600 cr maintenance at the guided 60% of ₹900 cr and ₹252 cr for the proton centre) growth capex is roughly ₹1-1.3 cr per brownfield bed (1,350-1,780 beds), against ~₹40 lakh of operating EBITDA per operational bed in FY27E. Brownfield beds in full hospitals are the best use of Fortis's cash, if the towers open on time; the FY28 gap (173 beds) shows how easily they slip."
+    }
+   ]
+  },
+  {
+   "id": "agilus",
+   "nav": "Agilus Diagnostics",
+   "kicker": "Diagnostics",
+   "title": "Agilus: a national lab chain that lost three years; margins are back, growth is not yet",
+   "blocks": [
+    {
+     "p": "Agilus (SRL until its 2024-25 rebranding) is the second business: pathology and some radiology through 4,493 customer touchpoints and a network of labs, half to consumers (B2C 53% in Q1FY27) and half to hospitals, labs and corporates (B2B). It had a Covid boom (FY22 gross revenue ₹1,605 cr, EBITDA ₹412 cr) and then a long hangover: FY23 revenue −16%, FY24 +2%, FY25 +3%, with the margin at 15-18% after rebranding costs and a contingent payment for an old lab acquisition. FY26 was the first good year (gross revenue +8.5% to ₹1,527 cr, operating margin 23.6%), and Q1FY27 grew 10.2% at 23.9%, but test volumes still rose only 3% (10.46 mn); most of the growth was realisation per test (+7% to ₹387). A new CEO, Vijender Singh, replaced Dr Anand K in Jul-2026 and guides 12-13% growth at 24-25% margins."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Agilus revenue: below the FY22 Covid peak until FY26",
+       "unit": "Gross revenue (₹ crore)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Gross revenue",
+         "values": [
+          1605,
+          1348,
+          1372,
+          1407,
+          1527
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      },
+      {
+       "type": "line",
+       "title": "Margin recovered to ~24% (operating, before ESOP)",
+       "unit": "Agilus operating EBITDA margin on gross revenue (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Margin",
+         "values": [
+          16,
+          21.5,
+          14.3,
+          18.1,
+          23,
+          26,
+          23.2,
+          22,
+          23.8
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 30,
+       "source": "Company presentations (Q1FY25-Q3FY25 after rebranding one-offs)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Agilus: what we model",
+      "head": [
+       "",
+       "FY25",
+       "FY26",
+       "Q1FY27",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Gross revenue (₹ cr)",
+        "1,407",
+        "1,527",
+        "407",
+        "1,695",
+        "1,881",
+        "2,088"
+       ],
+       [
+        "  growth",
+        "+2.5%",
+        "+8.5%",
+        "+10.2%",
+        "+11%",
+        "+11%",
+        "+11%"
+       ],
+       [
+        "Operating EBITDA (₹ cr)",
+        "249",
+        "360",
+        "97",
+        "407",
+        "461",
+        "512"
+       ],
+       [
+        "  margin",
+        "17.7%",
+        "23.6%",
+        "23.9%",
+        "24.0%",
+        "24.5%",
+        "24.5%"
+       ],
+       [
+        "Tests (mn) / B2C share",
+        "39.2 / 52%",
+        "40.8 / 52%",
+        "10.46 / 53%",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Less: tests for Fortis hospitals (₹ cr)",
+        "152",
+        "171",
+        "49",
+        "196",
+        "217",
+        "241"
+       ]
+      ],
+      "source": "Company presentations; GAM estimates (FY25 margin after ₹61 cr of one-offs; FY26 incl. an ₹8 cr brand-fee write-back)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What is Agilus worth? Four reference points",
+      "head": [
+       "Reference",
+       "Multiple",
+       "Comment"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Fortis buys 31.21% from PE investors (FY25)",
+        "~16.2x next-year EBITDA",
+        "₹1,778 cr for 31.21% = ~₹5,696 cr for 100%; FY26 operating EBITDA excl. one-offs ₹352 cr"
+       ],
+       [
+        "Metropolis (30-Sep-2026)",
+        "25.6x trailing",
+        "Similar margin (24.7%), smaller; −9% vs its five-year median (28.1x)"
+       ],
+       [
+        "Dr Lal PathLabs (30-Sep-2026)",
+        "34.6x trailing",
+        "Largest listed pathology chain by market value, 28.3% margin; +7% vs its median"
+       ],
+       [
+        "Street (Motilal Oswal, ICICI Securities)",
+        "23-24x forward",
+        "Assumes Agilus re-rates towards listed peers"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM**",
+         "**18x Sep-28E**",
+         "**₹486 cr Sep-28E EBITDA; a small premium to the buyout price, a discount to Metropolis for slower growth**"
+        ]
+       }
+      ],
+      "source": "AR FY26 note 12(b); Screener.in (30-Sep-2026 close); broker notes; GAM Research"
+     }
+    },
+    {
+     "callout": "**Our view:** the margin repair is real (B2C mix, test mix, lab rationalisation), but Agilus has not yet shown it can grow with the market (10-12%) against Dr Lal, Metropolis, hospital labs and online aggregators. The best evidence of its value is what Fortis itself paid minorities 18 months ago: ~16x forward EBITDA. Brokers at 23-24x are paying in advance for a recovery. A demerger or listing could unlock value, but management said in May-2026 it is \"not the right time\"."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: strong flagships and clusters, no network-wide moat",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Brand and clinical depth",
+       "Moderate advantage",
+       "FMRI Gurugram (₹1,137 cr revenue, ~85-90% occupancy, ARPOB ~₹4.7 cr) and FEHI are national referral centres; 4 JCI hospitals; 62% of revenue from high-end specialties.",
+       "Pricing power in flagship units, not network-wide."
+      ],
+      [
+       "Cluster density",
+       "Advantage in NCR and Punjab",
+       "~2,190 beds in NCR and ~990 in Punjab; brownfield beds fill 'immediately' (Faridabad, Noida).",
+       "Cheap growth: brownfield beds earn more than new hospitals."
+      ],
+      [
+       "Asset quality and returns",
+       "Weak",
+       "ROCE ~13% (FY26) on a base with ₹4,722 cr of goodwill; 6 of 24 facilities below 15% margin; BG Road at ~55% occupancy.",
+       "Returns barely above the ~11.6% cost of capital."
+      ],
+      [
+       "Doctor model",
+       "No advantage",
+       "Visiting/fee-for-service doctors like most peers; new ESOP (₹150 cr in FY27) to stop poaching in NCR.",
+       "Doctors, not the brand, own many patient relationships."
+      ],
+      [
+       "Diagnostics (Agilus)",
+       "Weakened",
+       "A national pathology network (4,493 touchpoints, 40.8 mn tests), but growth 4% a year FY23-26 vs 10-12% for the market; new CEO from Jul-2026.",
+       "Scale without share gains; valued below listed peers."
+      ],
+      [
+       "Parent (IHH)",
+       "Mixed",
+       "IHH brings capital, procurement and governance; it also controls the Gleneagles assets Fortis may buy or merge with.",
+       "Support for growth, but related-party terms matter."
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings and calls to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** Fortis has a real but narrow moat. FMRI and FEHI are destination hospitals with clinical reputations that take decades to build, and the NCR and Punjab clusters give it referral density and cheap brownfield growth. But most of its doctors are fee-for-service and can move (the ESOP is an admission of that), new hospitals in Noida and Gurugram compete for the same patients and doctors, a fifth of revenue comes from government payers who set prices, and Agilus has no edge it has been able to show in growth. Returns on capital (~13% ROCE) are only a little above its cost of capital, which is what a moderate moat looks like."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "From crisis to 23% margins: revenue 2.3x since FY15, profit only since FY22",
+   "blocks": [
+    {
+     "p": "Fortis's revenue went from ₹3,966 cr in FY15 to ₹9,128 cr in FY26, but the first half of that decade was lost: under the former promoters the company paid rent on its own hospitals to RHT Health Trust, lent money to promoter entities and lost ₹934 cr in FY18. After IHH took control (Nov-2018) and the hospitals were bought back from RHT (2019), the EBITDA margin rose from 5% (FY19) to 13% (FY20); Covid then swung the numbers (FY21 revenue −13%, FY22 +42% with a testing boom at Agilus). Since FY23 the story has been clean: revenue +13% a year, operating EBITDA ₹1,101 cr → ₹2,085 cr (+24% a year) and margin 17.5% → 22.8%. Profit attributable to shareholders reached ₹1,042 cr in FY26."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: flat for six years, then 13% a year since FY23",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num",
+         "growth": true
+        }
+       ],
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Profit: losses until FY21, ₹1,042 cr in FY26",
+       "unit": "Net profit attributable to shareholders (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; profit attributable to owners), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 5% in FY19, 23% in FY26",
+       "unit": "EBITDA margin, post-Ind AS (%)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 30,
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "hbar",
+       "title": "Doctors' fees and drugs take 44% of revenue",
+       "unit": "FY26 costs and EBITDA, % of revenue",
+       "x": [
+        "Medical consumables and drugs",
+        "Professional fees to doctors",
+        "Employees (nurses, staff)",
+        "Other expenses",
+        "Operating EBITDA"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          22.9,
+          21.4,
+          14.2,
+          18.6,
+          22.8
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Operating EBITDA",
+       "source": "AR FY26 consolidated notes 6(xxiv), 6(xxvii); Screener.in"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the turnaround under IHH is real and mostly done. The margin gain of FY23-26 came from fixing weak hospitals (facilities above 20% margin went from 10 to 13), pricing and case mix, and Agilus recovering from its post-Covid slump. From here growth has to come from new beds, and the margin is held back by a new ESOP charge, doctor costs in NCR and government drug-price caps."
+    }
+   ]
+  },
+  {
+   "id": "seasons",
+   "nav": "Quarterly pattern",
+   "kicker": "Quarterly pattern",
+   "title": "A steady business: Q2 is the strongest quarter, Q1 the richest per bed",
+   "blocks": [
+    {
+     "p": "Fortis has little seasonality compared with a children's or infectious-disease hospital. The monsoon quarter (Q2, July-September) brings dengue and other medical cases: occupancy peaks (72% in Q2FY25, 71% in Q2FY26) but ARPOB dips because medical patients pay less per day than surgical ones. Q1 (April-June) is surgery-heavy with the highest ARPOB (₹2.71 cr in Q1FY27). Revenue has grown 17-18% year on year in each of the last five quarters, helped by the FY26 acquisitions (Jalandhar from Jul-2025, Greater Noida from Sep-2025, People Tree from Jan-2026)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Quarterly revenue: up every year, Q2 a little higher",
+       "unit": "Revenue (₹ crore)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "Q.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Occupancy steady at 67-72% while beds grow",
+       "unit": "Hospital occupancy (%), quarterly",
+       "x": "R.segments.quarterly[].q",
+       "series": [
+        {
+         "name": "Occupancy",
+         "ref": "R.segments.quarterly[].occupancyPct",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 60,
+       "max": 75,
+       "source": "Company presentations (Q1FY25-Q1FY27)"
+      }
+     ]
+    },
+    {
+     "callout": "**Why it matters now:** Q1FY27 was in line but the margin slipped: 21.5% before ESOP (22.1% a year earlier) and 20.1% after it. Q2FY27 results (due by mid-November 2026) are the first full quarter of the ~₹40 cr quarterly ESOP charge and should show whether the FMRI tower opened."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: revenue +17.5%, margin down; the 25% FY28 target now has to absorb the ESOP",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q1FY27",
+       "Change"
+      ],
+      "rows": [
+       [
+        "Consolidated revenue",
+        "2,167",
+        "2,545",
+        "+18%"
+       ],
+       [
+        "  Hospitals",
+        "1,838",
+        "2,187",
+        "+19%"
+       ],
+       [
+        "  Diagnostics (gross)",
+        "369",
+        "407",
+        "+10%"
+       ],
+       [
+        "Occupied beds / occupancy",
+        "2,928 / 69%",
+        "3,418 / 68.7%",
+        "+17% / −0.3pp"
+       ],
+       [
+        "ARPOB (₹ cr per year, gross)",
+        "2.64",
+        "2.71",
+        "+2.6%"
+       ],
+       [
+        "Hospital operating EBITDA (before ESOP)",
+        "406",
+        "471",
+        "+16%"
+       ],
+       [
+        "  margin",
+        "22.1%",
+        "21.5%",
+        "−60bp"
+       ],
+       [
+        "Diagnostics operating EBITDA",
+        "85",
+        "97",
+        "+14%"
+       ],
+       [
+        "  margin",
+        "23%",
+        "23.9%",
+        "+90bp"
+       ],
+       [
+        "ESOP charge (new)",
+        "–",
+        "31",
+        ""
+       ],
+       [
+        "Consolidated EBITDA after ESOP (Screener)",
+        "491",
+        "537",
+        "+9%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net profit to owners**",
+         "**260.3**",
+         "**266.4**",
+         "**+2%**"
+        ]
+       }
+      ],
+      "source": "Q1FY27 presentation (6-Aug-2026) and call (7-Aug-2026); Screener.in"
+     }
+    },
+    {
+     "bullets": [
+      "**Why profit grew only 2%:** the first ESOP charge (₹31 cr for ~10 weeks), new units still below 10% margin (Yeshwanthpur, Manesar, Greater Noida; −0.4pp of margin), higher legal costs from the Delhi High Court hearings, more provisions for slow government and insurer payments, depreciation +20% and interest +16% after FY26's acquisitions.",
+      "**Growth quality:** occupied beds +17% and ARPOB +2.6%; like-for-like hospital margin ~22%, flat. Oncology slowed to ~5% growth (share 14.4% vs 16.4%) because of the CGHS/ECHS chemotherapy price cap; renal +28%, neuro +27%, ortho +23%.",
+      "**Agilus:** +10% with realisation per test +7% and tests +3%; margin 23.9%. New CEO from Jul-2026."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (May-Sep 2026)",
+      "head": [
+       "When",
+       "Topic",
+       "What was said",
+       "Outcome so far"
+      ],
+      "wide": [
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "25-May-26",
+        "FY27 hospital revenue",
+        "'15% plus' growth on the existing business; acquisitions would be extra (CFO)",
+        "Q1FY27 +19% (incl. FY26 acquisitions)"
+       ],
+       [
+        "25-May-26",
+        "Hospital margin",
+        "25% by FY28 'absolutely intact'; 1.5-2pp of improvement every year; +150bp in FY27",
+        "Q1FY27 21.5% before ESOP, 60bp lower YoY"
+       ],
+       [
+        "7-Aug-26",
+        "Margin target after ESOP",
+        "'We are aspiring to achieve 25% EBITDA margin after running the ESOP cost' by FY28 (CFO); the earlier +150-200bp for FY27 was before ESOP",
+        "Q1FY27 hospital margin after ESOP 20.1%"
+       ],
+       [
+        "25-May-26",
+        "Diagnostics",
+        "Double-digit revenue growth (~70% volume, ~30% price); EBITDA margin 23-24%",
+        "Q1FY27 +10.2%, 23.9%"
+       ],
+       [
+        "7-Aug-26",
+        "Diagnostics (new Agilus CEO)",
+        "Revenue growth ~12-13%, EBITDA margin 24-25%; B2C share 53% → 55-58%",
+        "–"
+       ],
+       [
+        "7-Aug-26",
+        "Beds",
+        "~500 beds in FY27 (100 done in Q1, ~400 in Q2-Q4, ~200 at FMRI); ~1,800 beds over FY27-30",
+        "FMRI tower awaiting occupancy certificate (Aug-2026)"
+       ],
+       [
+        "25-May-26",
+        "Capex",
+        "~₹900 cr a year (about 60% maintenance); Aug-2026: ~50% of EBITDA for brownfield growth, excluding acquisitions; proton centre ~₹252 cr",
+        "–"
+       ],
+       [
+        "7-Aug-26",
+        "Occupancy",
+        "~70% on the enlarged base; another 2-3pp as new units mature (Manesar, Yeshwanthpur, Greater Noida, BG Road)",
+        "Q1FY27 68.7%"
+       ],
+       [
+        "7-Aug-26",
+        "Oncology",
+        "Growth slowed from 23-24% to ~5% after the CGHS/ECHS chemotherapy price rule (MRP less 30%); 10-12% expected ahead",
+        "Onco share 14.4% vs 16.4%"
+       ],
+       [
+        "4-Sep-26",
+        "Legal costs",
+        "~₹25 cr in FY26; 'similar amount one can budget' for FY27; no provision needed for the forensic audit (no liability fixed)",
+        "–"
+       ]
+      ],
+      "source": "Q4FY26 call (25-May-2026), Q1FY27 call (7-Aug-2026), conference call on the Delhi High Court order (4-Sep-2026)"
+     }
+    },
+    {
+     "callout": "**Why it matters:** in May the hospital margin was to rise 150-200bp in FY27 and reach 25% by FY28; in August the CFO said the 25% is now \"after running the ESOP cost\" (worth ~1.2pp in FY28). That makes the target harder, not easier: from 20.1% after ESOP in Q1FY27 to 25% in FY28 needs ~5pp in under two years. We assume 22.2% after ESOP in FY28E (23.4% before it)."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "Cash went into buying back minorities and hospitals; returns are only just above the cost of capital",
+   "blocks": [
+    {
+     "p": "Over FY25-26 Fortis generated ₹3,025 cr of operating cash. It spent ₹1,792 cr on capex, ₹1,778 cr buying 31% of Agilus from private-equity holders, ₹645 cr on acquisitions and other investments (deal values: Jalandhar ₹462 cr, People Tree ₹430 cr), ₹552 cr on interest and lease payments and ₹187 cr on dividends; the gap was borrowed (₹1,550 cr of NCDs in FY25; net debt excluding leases ₹1,694 cr at Mar-25 and ₹2,334 cr at Mar-26). Returns are improving but modest: ROCE (Screener) was 10% in FY22-24 and 13% in FY26, because ₹4,722 cr of goodwill from past deals sits in the capital base. Management now guides ~50% of EBITDA (~₹1,150-1,250 cr a year) for brownfield beds, robots and a ₹252 cr proton centre, plus acquisitions \"in our clusters\"."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash flow vs capex",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated, post-Ind AS 116; profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 13% in FY26, barely above the cost of capital",
+       "unit": "Return on capital employed (%)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          0,
+          3,
+          11,
+          3,
+          6,
+          4,
+          2,
+          10,
+          10,
+          10,
+          12,
+          13
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 20,
+       "source": "Screener.in (capital includes goodwill and lease liabilities)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY25",
+       "FY26",
+       "Two years"
+      ],
+      "rows": [
+       [
+        "Cash from operations (Screener)",
+        "{{A.cfo.10|num}}",
+        "{{A.cfo.11|num}}",
+        "3,025"
+       ],
+       [
+        "Capex",
+        "{{A.capex.10|num}}",
+        "{{A.capex.11|num}}",
+        "1,792"
+       ],
+       [
+        "Agilus minority buyout (31.21%, financing cash flow)",
+        "1,778",
+        "0",
+        "1,778"
+       ],
+       [
+        "Acquisitions and other investing (Screener)",
+        "8",
+        "637",
+        "645"
+       ],
+       [
+        "Interest paid and lease principal",
+        "190",
+        "362",
+        "552"
+       ],
+       [
+        "Dividends",
+        "{{A.dividendsPaid.10|num}}",
+        "{{A.dividendsPaid.11|num}}",
+        "187"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over (funded by debt)**",
+         "**−1,508**",
+         "**−421**",
+         "**−1,929**"
+        ]
+       },
+       [
+        "Memo: net debt excl. leases, year end (company)",
+        "1,694",
+        "2,334",
+        ""
+       ]
+      ],
+      "source": "Screener.in cash flow and schedules; AR FY26 (deal values Jalandhar ₹462 cr, People Tree ₹430 cr; part of the purchase sits in capex as land and buildings); company presentations."
+     }
+    },
+    {
+     "callout": "**The capital question:** on our numbers free cash flow after capex is ~₹600-1,150 cr a year in FY27-29E, so Fortis can fund its brownfield plan and pay down most of its debt by FY29 without IHH's money. The risk is the opposite: a large acquisition, or a merger with IHH's Gleneagles hospitals on terms set by the parent."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: cleaner than its history, but read the minority, ESOP and exceptional lines",
+   "blocks": [
+    {
+     "bullets": [
+      "**Three EBITDA numbers.** Company \"operating EBITDA\" (₹2,085 cr in FY26) excludes other income and, from Q1FY27, the ESOP charge; \"reported EBITDA\" in the P&L appendix includes other income, FX and one-offs (₹2,136 cr). Screener's operating profit equals revenue minus expenses, i.e. after ESOP. We model segments before ESOP and deduct the ESOP separately, so model EBITDA matches Screener.",
+      "**Leases are small.** Post-Ind AS 116 rent sits in depreciation (₹85 cr right-of-use amortisation) and interest (₹41 cr); lease liabilities are ₹600 cr (₹616 cr at Jun-2026). Pre-Ind AS EBITDA would be ~₹100 cr (1.1pp of revenue) lower. Brokers use reported (post-Ind AS) EBITDA, as we do; leases sit in our net debt.",
+      "**Minorities.** 11.68% of Agilus belongs to others: ₹22 cr of FY26 profit (₹235 cr in FY22, before the buyout). We use profit attributable to owners throughout (FORTIS.patch.js) and deduct the Agilus minority in the valuation.",
+      "**Exceptional items every year.** FY25 −₹89 cr (associate and asset impairments, partly offset by the Richmond Road gain), FY26 −₹22 cr (Labour Codes ₹55 cr less a ₹33 cr reversal of an associate impairment), Q1FY27 +₹9.5 cr. Screener books them in other income; our forecasts assume none.",
+      "**Doctor fees sit outside staff cost.** Professional fees to doctors were ₹1,950 cr (21.4% of revenue) in FY26, on top of ₹1,297 cr (14.2%) of employee cost.",
+      "**Cash conversion.** Operating cash flow was 77% of EBITDA in FY26 (90% in FY25); receivable days rose from 33 (FY24) to 42 (FY26) on slower government and insurer payments.",
+      "**Goodwill.** ₹4,722 cr (35% of capital employed) from the RHT buyback, SRL/Agilus and FY26 deals; tested every year (key audit matter). Impairments have hit associates (Lanka Hospitals, RHT), not the core.",
+      "**Audit.** B S R & Co. (KPMG network); unqualified, with an Emphasis of Matter on the SFIO investigation and other legacy matters from the former promoters' era."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** The current numbers are well disclosed (segment and hospital-band KPIs every quarter) and cash-backed. Amber because of recurring exceptional items, a new non-cash ESOP charge excluded from the headline \"operating EBITDA\", a legacy SFIO investigation in the audit report, and rising receivable days."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & leases",
+   "kicker": "Balance sheet",
+   "title": "Net debt ₹2,334 cr plus ₹600 cr of leases: comfortable at ~1.1x EBITDA",
+   "blocks": [
+    {
+     "p": "Fortis owns most of its hospitals since the 2019 RHT buyback, so leases are small for an Indian hospital chain: ₹600 cr of lease liabilities at Mar-2026 (₹280 cr a year earlier; the Greater Noida hospital was taken on a 15-year lease in Sep-2025). Borrowings were ₹2,872 cr (incl. ₹1,550 cr of NCDs raised for the Agilus buyout) against ₹538 cr of cash: net debt ₹2,334 cr excluding leases (1.09x annualised EBITDA), ₹2,580 cr of debt and ₹2,233 cr of net debt at Jun-2026. Goodwill of ₹4,722 cr is 35% of capital employed. Minorities on the balance sheet are only ₹273 cr at book, but the 11.68% of Agilus they own is worth ~₹1,000 cr at our multiple."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Borrowings jumped in FY25-26 to fund the Agilus buyout and acquisitions",
+       "unit": "Borrowings incl. lease liabilities (₹ crore)",
+       "x": "A.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "Borrowings",
+         "ref": "A.borrowings",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in (borrowings include lease liabilities: ₹280 cr FY25, ₹600 cr FY26)"
+      },
+      {
+       "type": "line",
+       "title": "Suppliers and doctors fund the working capital",
+       "unit": "Days",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Receivable days",
+         "values": [
+          38,
+          39,
+          38,
+          38,
+          44,
+          36,
+          41,
+          33,
+          34,
+          33,
+          37,
+          42
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          207,
+          218,
+          215,
+          279,
+          296,
+          226,
+          205,
+          178,
+          179,
+          164,
+          161,
+          165
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-23",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth (owners)",
+        "{{A.netWorth.8|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings incl. lease liabilities",
+        "{{A.borrowings.8|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "  of which lease liabilities",
+        "223",
+        "297",
+        "280",
+        "600"
+       ],
+       [
+        "Cash (Screener)",
+        "363",
+        "598",
+        "508",
+        "544"
+       ],
+       [
+        "Investments (mostly associates at equity value)",
+        "{{A.investments.8|num}}",
+        "{{A.investments.9|num}}",
+        "{{A.investments.10|num}}",
+        "{{A.investments.11|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net debt excl. leases (company)**",
+         "–",
+         "–",
+         "**1,694**",
+         "**2,334**"
+        ]
+       },
+       [
+        "Minorities at book",
+        "858",
+        "893",
+        "253",
+        "273"
+       ],
+       [
+        "Goodwill (company)",
+        "–",
+        "–",
+        "4,194",
+        "4,722"
+       ]
+      ],
+      "source": "Screener.in balance sheet and schedules; Q4FY26 presentation p.21 (net debt, goodwill; company cash ₹502 cr at Mar-25 and ₹538 cr at Mar-26)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: IHH at 31%, Indian funds now own more than foreign ones",
+   "blocks": [
+    {
+     "p": "IHH Healthcare owns 31.17% through Northern TK Venture (Jun-2026), with no pledge; it has held exactly the shares it subscribed in 2018 because its open offer was frozen by the courts until 2025 and then priced at ₹170, far below the market. Indian institutions own 32.23% (mutual funds 25.81%, insurers 4.58%), up from 29.8% a year earlier; foreign investors 25.2% (27.2% in Jun-2025); the public 11.4%. IHH says it wants to take its stake to ~50%+ over time (3-5 years per an analyst on the Sep-2026 call) and could put in ~₹10,000 cr of fresh equity for growth (CFO, May-2026); Gleneagles India merger 'at the appropriate time' (needs majority-of-minority approval). No terms announced by 30-Sep-2026."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "DIIs up from 29.8% to 32.2% in a year; FIIs down to 25.2%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "IHH unchanged at 31.17% since 2018",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 20,
+       "max": 40,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest holders (30-Jun-2026)",
+      "head": [
+       "Holder",
+       "Stake",
+       "Type"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Northern TK Venture Pte Ltd (IHH Healthcare Berhad)",
+        "31.17%",
+        "Promoter; no pledge"
+       ],
+       [
+        "HDFC Mutual Fund",
+        "6.54%",
+        "Domestic fund"
+       ],
+       [
+        "Kotak Mahindra Mutual Fund",
+        "5.76%",
+        "Domestic fund"
+       ],
+       [
+        "Axis Mutual Fund",
+        "2.94%",
+        "Domestic fund"
+       ],
+       [
+        "Nippon India Mutual Fund",
+        "2.50%",
+        "Domestic fund"
+       ],
+       [
+        "SBI Life Insurance",
+        "1.73%",
+        "Insurer"
+       ],
+       [
+        "Amansa Holdings",
+        "1.61%",
+        "Foreign investor"
+       ],
+       [
+        "DSP Mutual Fund (Nifty Midcap 150 ETF)",
+        "1.44%",
+        "Domestic fund"
+       ],
+       [
+        "Edelweiss Mutual Fund",
+        "1.24%",
+        "Domestic fund"
+       ],
+       [
+        "HDFC Life Insurance",
+        "1.22%",
+        "Insurer"
+       ],
+       [
+        "Axis Bank",
+        "1.19%",
+        "Bank"
+       ],
+       [
+        "Jupiter India Fund",
+        "1.13%",
+        "Foreign investor"
+       ],
+       [
+        "Kotak Funds - India Midcap Fund",
+        "1.13%",
+        "Foreign investor"
+       ],
+       [
+        "Aditya Birla Sun Life Mutual Fund",
+        "1.09%",
+        "Domestic fund"
+       ],
+       [
+        "Fidelity Funds - India Focus Fund",
+        "1.05%",
+        "Foreign investor"
+       ]
+      ],
+      "source": "Fortis shareholding pattern at 30-Jun-2026 (company website, scanned filing pp.6-15); Screener.in shareholding table; Q4FY26 and Sep-2026 calls"
+     }
+    },
+    {
+     "callout": "**Our read:** a strategic parent with a minority stake (31%) but full board control (five of nine directors are IHH nominees) and stated ambitions to reach ~50%. Free float is ~69% and liquid, owned mostly by Indian mutual funds (HDFC and Kotak alone hold 12%). The big ownership question is how IHH gets to 50%: a preferential issue at market (neutral), a Gleneagles merger (depends on the swap ratio; minorities get a vote), or creeping purchases."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: professional management under IHH, but the legacy is not over",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Dr Ashutosh Raghuvanshi",
+        "Managing Director & CEO",
+        "Cardiac surgeon, ex-Narayana Health; FY26 pay ₹10.30 cr (216x the median employee, +6%)"
+       ],
+       [
+        "Vivek Goyal",
+        "Chief Financial Officer",
+        "Gives most of the financial guidance on calls"
+       ],
+       [
+        "Vijender Singh",
+        "MD & CEO, Agilus Diagnostics (joined Jul-2026)",
+        "Replaced Dr Anand K (CEO at the May-2026 call)"
+       ],
+       [
+        "Leo Puri",
+        "Independent Director & Chairman",
+        "FY26 pay ₹2.07 cr"
+       ],
+       [
+        "Dr Prem Kumar Nair",
+        "Non-Executive Vice Chairman (IHH nominee)",
+        "IHH group CEO; said IHH wants to take its stake to ~50% and could invest ~₹10,000 cr of fresh equity (per CFO, May-2026)"
+       ],
+       [
+        "Dilip Kadambi",
+        "Non-Executive Director (IHH nominee)",
+        "IHH group CFO"
+       ]
+      ],
+      "source": "AR FY26 (board, remuneration table); Q4FY26 and Q1FY27 calls; Sep-2026 call"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Adequate",
+       "B S R & Co.; unqualified with an Emphasis of Matter on legacy SFIO matters; detailed segment and hospital-band disclosure.",
+       "Current numbers credible; legacy noise remains."
+      ],
+      [
+       "Controlling shareholder",
+       "Mixed",
+       "IHH (31.17%, five of nine board seats) brought capital and governance since 2018; it also owns Gleneagles India, which Fortis manages (3% fee) and may merge with.",
+       "Aligned on growth; related-party terms need watching."
+      ],
+      [
+       "Legal overhang",
+       "Weak",
+       "Delhi High Court forensic audit (31-Aug-2026) of the 2018 IHH deal, the RHT buyback and Fortis officers' role; Supreme Court declined to interfere (25-Sep-2026); SFIO, EOW and ED probes of the former promoters' era continue.",
+       "Six months or more of uncertainty; ~₹25 cr a year of legal costs."
+      ],
+      [
+       "Board independence",
+       "Weak",
+       "3 independent directors of 9 (one-third, the legal minimum with an independent chair); IHH nominees hold 5 seats.",
+       "Minority interests depend on the independent chair and audit committee."
+      ],
+      [
+       "Management",
+       "Strong",
+       "MD & CEO Dr Ashutosh Raghuvanshi has led the IHH-era turnaround (margin 13% in FY20 → 23% in FY26); stable CFO. Pay ₹10.3 cr (216x median).",
+       "Credible operators; guidance has mostly been met until the ESOP change."
+      ],
+      [
+       "Capital allocation",
+       "Watch",
+       "Agilus buyout at ~16x forward EBITDA (good price), two hospital buys (₹892 cr) and ~₹1,150-1,250 cr a year of capex; dividend only ₹1 a share.",
+       "Sensible so far; M&A \"actively pursued\"."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation (AR FY26; calls May-Sep 2026; court reports)"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: revenue ~14% a year from beds; EPS ~19% a year, 5-12% below the street",
+   "blocks": [
+    {
+     "p": "We forecast the hospitals bottom-up (operational beds × occupancy × gross ARPOB × 0.945, by cohort; see Bed pipeline) and Agilus from revenue growth and margin, and deduct the tests Agilus does for Fortis hospitals. Segment margins are company operating EBITDA (before ESOP); the ESOP charge (₹151 / 120 / 100 cr) is deducted separately, so model EBITDA equals Screener's. Depreciation is 3.3% of gross block, finance cost falls as free cash flow repays debt, tax plus minorities is ~26.5%, payout 7%. We model no acquisitions and no IHH equity. Every assumption, with our reasoning, is in the Excel model's Assumptions sheet, which recalculates this report's target price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Segment build (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       {
+        "sec": "Hospitals"
+       },
+       [
+        "Revenue",
+        "7,773",
+        "9,049",
+        "10,264",
+        "11,625"
+       ],
+       [
+        "  growth",
+        "+19.1%",
+        "+16.41%",
+        "+13.43%",
+        "+13.26%"
+       ],
+       [
+        "  network occupancy / ARPOB (₹ cr)",
+        "68% / 2.51",
+        "69.2% / 2.72",
+        "70.7% / 2.84",
+        "71.6% / 2.95"
+       ],
+       [
+        "Operating EBITDA (before ESOP)",
+        "1,724",
+        "2,045",
+        "2,402",
+        "2,767"
+       ],
+       [
+        "  margin",
+        "22.2%",
+        "22.6%",
+        "23.4%",
+        "23.8%"
+       ],
+       [
+        "  margin after ESOP",
+        "22.2%",
+        "20.9%",
+        "22.2%",
+        "22.9%"
+       ],
+       {
+        "sec": "Diagnostics (Agilus, gross)"
+       },
+       [
+        "Revenue",
+        "1,527",
+        "1,695",
+        "1,881",
+        "2,088"
+       ],
+       [
+        "Operating EBITDA",
+        "360",
+        "407",
+        "461",
+        "512"
+       ],
+       [
+        "  margin",
+        "23.6%",
+        "24.0%",
+        "24.5%",
+        "24.5%"
+       ],
+       {
+        "sec": "Group"
+       },
+       [
+        "Inter-segment eliminations",
+        "−172",
+        "-196",
+        "-217",
+        "-241"
+       ],
+       [
+        "Less: ESOP charge",
+        "–",
+        "−151",
+        "−120",
+        "−100"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Revenue (model)**",
+         "**9,128**",
+         "**{{F.sales.0|num}}**",
+         "**{{F.sales.1|num}}**",
+         "**{{F.sales.2|num}}**"
+        ]
+       },
+       {
+        "hl": true,
+        "cells": [
+         "**EBITDA after ESOP (model)**",
+         "**2,085**",
+         "**{{F.ebitda.0|num}}**",
+         "**{{F.ebitda.1|num}}**",
+         "**{{F.ebitda.2|num}}**"
+        ]
+       }
+      ],
+      "source": "Company (FY26); GAM estimates (assumptions.json segments and businessLines)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Other income, built (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Bank-deposit interest (4.25% on ~₹550-590 cr of cash)",
+        "22.1",
+        "23",
+        "23",
+        "25"
+       ],
+       [
+        "Interest on income-tax refunds (fading)",
+        "13.2",
+        "8",
+        "4",
+        "2"
+       ],
+       [
+        "Interest on other financial assets",
+        "4.1",
+        "4",
+        "4",
+        "4"
+       ],
+       [
+        "Recurring miscellaneous income",
+        "7.2",
+        "7",
+        "7",
+        "7"
+       ],
+       [
+        "Share of associates and JVs (Lanka Hospitals, RHT, C-Doc)",
+        "16.4",
+        "17",
+        "18",
+        "19"
+       ],
+       [
+        "One-offs (asset-sale, FX and fair-value gains)",
+        "4.0",
+        "0",
+        "0",
+        "0"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Other income incl. associates (model)**",
+         "**67.0**",
+         "**{{F.otherIncome.0|num}}**",
+         "**{{F.otherIncome.1|num}}**",
+         "**{{F.otherIncome.2|num}}**"
+        ]
+       },
+       [
+        "Memo: exceptional items (Screener books them here)",
+        "−22.2",
+        "0",
+        "0",
+        "0"
+       ],
+       [
+        "Memo: twelve months to Jun-26, Screener (incl. −₹25 cr exceptional) / before exceptional",
+        "42 / 68",
+        "",
+        "",
+        ""
+       ]
+      ],
+      "source": "AR FY26 note 6(xxii) and P&L; quarterly presentations; GAM estimates. Built on gross cash because the model's net cash is after debt and leases."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "Group P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA (after ESOP)",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit (owners)",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "Cash & investments (forecasts net of debt and leases)",
+        "ref": "fin.treasury"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates. Cash is gross in actual years and net of borrowings and lease liabilities in forecasts (net debt ₹2,686 cr at Mar-26 on that basis)."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Pre-Ind AS view (lease payments deducted)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "EBITDA post-Ind AS (model)",
+        "2,085",
+        "{{F.ebitda.0|num}}",
+        "{{F.ebitda.1|num}}",
+        "{{F.ebitda.2|num}}"
+       ],
+       [
+        "Less: lease payments (FY27-29E = GAM estimate)",
+        "99.6",
+        "104",
+        "108",
+        "112"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**EBITDA pre-Ind AS**",
+         "**1,985**",
+         "**2,197**",
+         "**2,635**",
+         "**3,066**"
+        ]
+       },
+       [
+        "  margin",
+        "21.8%",
+        "20.8%",
+        "22.1%",
+        "22.8%"
+       ]
+      ],
+      "source": "AR FY26 note 10 (lease cash outflow ₹99.6 cr); GAM estimates. The difference is small for Fortis, which owns most of its hospitals."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E"
+      ],
+      "rows": [
+       [
+        "Revenue (₹ cr), PL (8-Aug-26) / MOSL (4-Sep-26)",
+        "{{F.sales.0|num}}",
+        "10,500 / 10,300",
+        "{{F.sales.1|num}}",
+        "11,901 / 11,530"
+       ],
+       [
+        "EBITDA after ESOP (₹ cr), PL / MOSL",
+        "{{F.ebitda.0|num}}",
+        "2,360 / 2,390",
+        "{{F.ebitda.1|num}}",
+        "2,873 / 2,830"
+       ],
+       [
+        "EBITDA margin, PL / MOSL",
+        "{{F.ebitdaMargin.0|pct}}",
+        "22.5% / 23.2%",
+        "{{F.ebitdaMargin.1|pct}}",
+        "24.1% / 24.5%"
+       ],
+       [
+        "EPS (₹), PL / MOSL",
+        "{{F.eps.0|n1}}",
+        "16.2 / 15.9",
+        "{{F.eps.1|n1}}",
+        "21.8 / 20.1"
+       ]
+      ],
+      "source": "PL Q1FY27 note (8-Aug-2026); MOSL notes (8-Aug and 4-Sep-2026). ICICI Securities, Nomura and others: estimates not public. No consensus dated before 30-Sep-2026 was found."
+     }
+    },
+    {
+     "callout": "Our revenue is in line with the street (+0% vs PL and +2% vs MOSL for FY27E). The gap is the margin: we assume the hospital margin before ESOP rises to 23.4% by FY28E, not to the ~26% that management's 25%-after-ESOP target implies, so our FY28E EBITDA is −5% vs PL and −3% vs MOSL, and EPS −12% / −5%. EPS still grows ~19% a year over FY26-29E as interest falls and Agilus minorities stay small."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: five Buys and a Neutral, targets ₹1,030-1,150, all far above the price",
+   "blocks": [
+    {
+     "p": "Four houses published after the Q1FY27 results. Motilal Oswal (Buy, ₹1,130; 30x hospitals and 23x diagnostics on 12-month-forward EV/EBITDA), ICICI Securities (upgraded to Buy, ₹1,075; 27x / 24x FY28E) and Prabhudas Lilladher (Buy, ₹1,120; 30x FY28E hospital EBITDA plus the Agilus stake) all use a sum of the parts; Nomura stayed Neutral (₹1,030). MOSL and ICICI Securities kept their calls after the Delhi High Court ordered the forensic audit (4 and 6-Sep-2026), calling it \"neutral to operations\" and \"an overhang on price\". The post-Q1 average target is ₹1,089: +41% from the ₹770 close on 30-Sep-2026, after the stock fell 19% from end-July. The bull case everyone shares: ~2,000 brownfield beds, 25% margins by FY28 and an Agilus recovery. We found no Sell, and no consensus dated before 30-Sep-2026."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "The forensic audit (report due ~6 months after 31-Aug-2026) puts the 2018 IHH deal and the RHT buyback under review again; the Supreme Court refused to stop it on 25-Sep-2026",
+        "Delhi High Court order; LiveLaw; ICICI Securities (overhang on price)"
+       ],
+       [
+        "Margin guidance moved: +150-200bp in FY27 was before ESOP; Q1FY27 margin fell 60bp YoY before ESOP and 200bp after it",
+        "Q1FY27 call; ICICI Securities"
+       ],
+       [
+        "Occupancy is flat at ~69% despite 17% more occupied beds; the top hospitals are near full, so growth now depends on new beds",
+        "Company KPIs; ICICI Securities question on the Q1 call"
+       ],
+       [
+        "Agilus has lagged the diagnostics market for three years; the street still pays 23-24x for it, ~45% more than Fortis paid minorities in FY25",
+        "MOSL, ICICI Securities; AR FY26 note 12(b)"
+       ],
+       [
+        "Government payers (~21% of revenue) are cutting drug margins (CGHS chemo cap; Supreme Court remarks on 29-Sep-2026)",
+        "Q4FY26 call; Business Today"
+       ],
+       [
+        "Related-party risk: Gleneagles O&M (3% fee) and a possible merger with IHH's other Indian hospitals",
+        "AR FY26; Q1FY27 and Sep-2026 calls"
+       ]
+      ],
+      "source": "Broker notes, earnings calls, court reports and filings to 30-Sep-2026"
+     }
+    },
+    {
+     "callout": "**Where we differ:** not on revenue but on the multiple. Applying ICICI Securities' multiples (27x / 24x FY28E) to our own estimates gives ~₹923 a share and MOSL's (30x / 23x) ~₹1,008: the street's targets are mostly the multiple. Listed hospital peers traded at a median ~20.3x FY28E EBITDA on 30-Sep-2026, and Fortis's own forward multiple has averaged ~21.0x since 2021. A 27-30x multiple assumes a re-rating that the sector was moving away from in September 2026."
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: sum of the parts gives {{dcf.tp|inr}} ({{dcf.upside|chg}}): the stock prices in more than the business delivers",
+   "blocks": [
+    {
+     "h": "How the street values Fortis Healthcare"
+    },
+    {
+     "p": "Every post-Q1 note with a disclosed method values Fortis on a **sum of the parts**: hospitals and diagnostics on separate EV/EBITDA multiples, less net debt, with the Agilus stake at Fortis's 88%. We do the same, on Sep-28E EBITDA (half FY28E, half FY29E: what the market will look at in September 2027), with three things done explicitly that brokers often skip: the ESOP charge is capitalised at the hospital multiple, the 11.68% Agilus minority is deducted, and lease liabilities are in net debt (EBITDA is post-Ind AS, as reported)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "Thesis"
+      ],
+      "wide": [
+       6
+      ],
+      "rows": [
+       [
+        "Motilal Oswal (4-Sep-26)",
+        "Buy",
+        "1,130",
+        "SOTP (EV/EBITDA)",
+        "30x hospitals / 23x diagnostics",
+        "12M forward (Sep-27E)",
+        "Volume-led hospital growth (occupancy held at 69% on 17% more beds), ~2,000 brownfield beds, Agilus revival under a new CEO; forensic audit 'operationally neutral'"
+       ],
+       [
+        "ICICI Securities (6-Sep-26)",
+        "Buy",
+        "1,075",
+        "SOTP (EV/EBITDA)",
+        "27x hospitals / 24x diagnostics",
+        "FY28E",
+        "Upgraded to Buy after Q1 (9-Aug-2026): brownfield beds improve metrics; FY27/28E EBITDA cut 6%/4% for ESOP; forensic audit 'an overhang on price, but neutral to operations' (6-Sep-2026)"
+       ],
+       [
+        "Prabhudas Lilladher (8-Aug-26)",
+        "Buy",
+        "1,120",
+        "EV/EBITDA (hospitals) + Agilus stake",
+        "30x hospitals",
+        "FY28E",
+        "Margin guidance (25% by FY28, after ESOP) intact; 20% EBITDA CAGR ex-ESOP FY26-28E; ramp-up of Manesar/Greater Noida, acquisitions and Gleneagles O&M"
+       ],
+       [
+        "Nomura (10-Aug-26)",
+        "Neutral",
+        "1,030",
+        "n.d.",
+        "–",
+        "–",
+        "Kept Neutral with a lower target after Q1 (details not public)"
+       ],
+       [
+        "Geojit BNP Paribas (15-Jun-26)",
+        "Buy",
+        "1,150",
+        "n.d.",
+        "–",
+        "–",
+        "Q4FY26 update: diagnostics recovery, hospital margins up"
+       ],
+       [
+        "Axis Direct (28-Feb-26)",
+        "Buy",
+        "1,038",
+        "n.d.",
+        "–",
+        "–",
+        "Pick of the week (~10% upside then); no later note found before 30-Sep-2026"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**SELL**",
+         "**{{dcf.tp|num}}**",
+         "**Sum of the parts**",
+         "**–**",
+         "**–**",
+         "Good hospitals, but priced above peers and its own history while the legal overhang returns and margins disappoint the target"
+        ]
+       }
+      ],
+      "source": "MOSL and PL notes (PDF); ICICI Securities via Trendlyne, Moneycontrol and DSIJ summaries; Nomura via Whalesbook (10-Aug-2026); Geojit and Axis Direct via Trendlyne. n.d. = method not disclosed"
+     }
+    },
+    {
+     "h": "Our multiples: 18.5x hospitals, 18x Agilus, and why"
+    },
+    {
+     "p": "We start from Fortis's own one-year-forward EV/EBITDA since Apr-2021 (computed in our files: EV = market value + borrowings incl. leases − cash and investments + minorities; EBITDA of the next full fiscal year, actual then our estimates), cut it by how far listed hospital peers had de-rated by 30-Sep-2026, and check the result against peers' forward multiples, growth and returns. Agilus is anchored on the price Fortis itself paid for 31% of it and on listed diagnostics peers."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Fortis's own history",
+        "One-year-forward EV/EBITDA since Apr-2021: median 21.0x with minorities at the value implied by the FY25 Agilus buyout (20.0x with minorities at book); 25th-75th percentile 18.7-25.9x; calendar medians 2021 19.9x, 2022 19.0x, 2023 17.7x, 2024 21.8x, 2025 28.8x, 2026 27.8x. Trough years: none (forward EBITDA never fell below half its prior three-year peak). On 30-Sep-2026: 22.4x our FY28E, 26.7x FY27E",
+        "Starting point: 21.0x"
+       ],
+       [
+        "2. Sector de-rating",
+        "Trailing EV/EBITDA vs each stock's five-year median on 30-Sep-2026: Apollo Hospitals −14%, Max Healthcare −13%, Narayana Hrudayalaya −2%, Medanta (Global Health) +4%, Rainbow Children's −11%, Jupiter Life Line −24% (median −12%); Fortis itself +0%. Left out: KIMS +49%, Aster DM +91% (new-hospital losses and Aster's 2024 GCC demerger inflate their multiples); with them the median is −7%",
+        "21.0x × 0.877 ≈ 18.4x → **18.5x hospitals**"
+       ],
+       [
+        "3. Growth",
+        "EBITDA grew 24% a year in FY23-26 (margin repair, Agilus recovery, acquisitions); we forecast ~15% for FY26-29E, after ESOP, with the margin gain mostly behind it",
+        "No premium to history"
+       ],
+       [
+        "4. Peers",
+        "FY28E EV/EBITDA (MOSL estimates) at the 30-Sep close: Apollo Hospitals 22.4x, Max Healthcare 24.1x, Medanta (Global Health) 24.3x, Narayana Hrudayalaya 15.7x, Rainbow Children's 18.2x, Jupiter Life Line 17.3x; median 20.3x; Fortis 21.0x (MOSL) / 22.4x (ours)",
+        "18.5x Sep-28E ≈ 20.1x our FY28E hospital EBITDA after ESOP: at the peer median, below Fortis's current premium"
+       ],
+       [
+        "5. Returns",
+        "ROE 11.1% and ROCE 13% (FY26; ₹4,722 cr of goodwill in the base) vs an 11.6% cost of capital; our ROE rises to {{F.roe.2|pct}} by FY29E",
+        "Returns just above the cost of capital: no re-rating case"
+       ],
+       [
+        "6. Agilus",
+        "Fortis paid ₹1,778 cr for 31.21% in FY25 (~₹5,696 cr for 100%, ~16.2x next-year EBITDA); Metropolis 25.6x and Dr Lal 34.6x trailing (diagnostics median +7% vs five-year medians: no de-rating); Agilus grew 4% a year in FY23-26",
+        "**18x Sep-28E**: a small premium to the buyout, below Metropolis"
+       ]
+      ],
+      "source": "Screener.in prices, balance sheets and multiples to 30-Sep-2026; AR FY26 (Agilus buyout); MOSL peer table (4-Sep-2026) scaled to 30-Sep closes; GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "hbar",
+      "title": "Target and cross-checks vs the share price",
+      "unit": "₹ per share (base case)",
+      "x": [
+       "Sum of the parts (target)",
+       "P/E",
+       "DCF",
+       "Share price today"
+      ],
+      "series": [
+       {
+        "name": "Value",
+        "values": [
+         686,
+         656,
+         505,
+         770
+        ],
+        "fmt": "inr"
+       }
+      ],
+      "labels": "all",
+      "highlight": "Sum of the parts (target)",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**Sum of the parts**",
+        "**Target**",
+        "Sum of the parts",
+        "–",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "P/E",
+        "Cross-check",
+        "EPS Sep-28E ₹21.2",
+        "31x (bull 41x, bear 26x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "-4%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-26%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** P/E (31x Sep-28E EPS of ₹21.2) gives ₹656: 31x is Fortis's 36.3x forward P/E median since Apr-2021 (no trough years) cut by the 13% P/E de-rating of the same six peers. The DCF (₹505) is 26% below the target: at an 11.6% cost of capital, capex of ~10% of revenue to FY29E and a 24% long-run margin, cash flows support well under today's price. All three methods sit below ₹770. The stock needs either the street's 27-30x multiples or management's 25% margin (after ESOP) by FY28 to be worth more than it costs; we assume neither."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward EV/EBITDA since 2021: median 21.0x, 22.4x now",
+       "unit": "EV (incl. leases and minorities) ÷ next full-year EBITDA, post-Ind AS (x)",
+       "x": [
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          17.2,
+          19.3,
+          19.1,
+          19.2,
+          22.1,
+          21.7,
+          19.9,
+          22.7,
+          22.8,
+          20.9,
+          20.5,
+          19,
+          16.7,
+          16.6,
+          18.3,
+          19.7,
+          18.9,
+          19.6,
+          18.7,
+          19.3,
+          19,
+          14.1,
+          14.9,
+          16.5,
+          17.7,
+          17.6,
+          18,
+          17.7,
+          20,
+          21.8,
+          22.4,
+          21,
+          17.4,
+          18.6,
+          18.1,
+          19.1,
+          22.5,
+          23.4,
+          26.2,
+          26,
+          24,
+          24.1,
+          22.5,
+          24.2,
+          25.9,
+          28.8,
+          31,
+          33.3,
+          34.6,
+          29.8,
+          30.5,
+          31.3,
+          27.8,
+          26.3,
+          27.9,
+          27.9,
+          26.8,
+          25.6,
+          22.4
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 21,
+         "text": "Median: 21.0x"
+        },
+        {
+         "v": 18.5,
+         "text": "Hospitals target: 18.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices and balance sheets; AR FY26 (Agilus buyout value for minorities); GAM estimates FY27-29E"
+      },
+      {
+       "type": "line",
+       "title": "Forward P/E since 2021: median 36.3x, 40.3x now",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          25.9,
+          29.9,
+          29.9,
+          30.2,
+          35.6,
+          34.8,
+          31.3,
+          36.6,
+          36.8,
+          33.2,
+          32.6,
+          34.6,
+          29.6,
+          29.7,
+          33.3,
+          36.3,
+          34.6,
+          36,
+          34.3,
+          35.4,
+          34.9,
+          24.7,
+          26.4,
+          30.2,
+          32.7,
+          32.5,
+          33.1,
+          32.6,
+          37.2,
+          41.1,
+          42.3,
+          39.4,
+          32.1,
+          34.4,
+          33.5,
+          35.5,
+          42.3,
+          44.2,
+          49.7,
+          49.4,
+          45.4,
+          45.6,
+          43.7,
+          47.1,
+          50.8,
+          56.9,
+          61.4,
+          66,
+          68.7,
+          58.8,
+          60.3,
+          62,
+          54.8,
+          48.4,
+          50.8,
+          50.7,
+          48.7,
+          46.4
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 36.3,
+         "text": "Median: 36.3x"
+        },
+        {
+         "v": 31,
+         "text": "Cross-check: 31x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in; GAM estimates (forwardMedian)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Sum of the parts (₹ crore unless stated)",
+      "head": [
+       "Part",
+       "Sep-28E metric",
+       "Multiple",
+       "Value",
+       "₹ / share",
+       "Basis"
+      ],
+      "wide": [
+       5
+      ],
+      "rows": [
+       [
+        "Hospitals",
+        "2,584",
+        "18.5x",
+        "47,808",
+        "633",
+        "Operating EBITDA before ESOP, half FY28E (2,402) + half FY29E (2,767)"
+       ],
+       [
+        "Less: ESOP charge, capitalised",
+        "-110",
+        "18.5x",
+        "-2,035",
+        "-27",
+        "Recurring cost of retaining doctors (₹120 cr FY28E, ₹100 cr FY29E)"
+       ],
+       [
+        "Diagnostics (Agilus, 100%)",
+        "486",
+        "18x",
+        "8,753",
+        "116",
+        "Operating EBITDA on gross revenue"
+       ],
+       [
+        "Less: Agilus minority (11.68%)",
+        "",
+        "",
+        "-1,022",
+        "-14",
+        "Others' share of the Agilus value"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Enterprise value attributable to Fortis**",
+         "",
+         "",
+         "**53,504**",
+         "**709**",
+         ""
+        ]
+       },
+       [
+        "Less: net debt incl. ₹600-616 cr of leases, Sep-27E",
+        "",
+        "",
+        "-1,709",
+        "-23",
+        "Model: half Mar-27E + half Mar-28E; associates at book"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Equity value ÷ 75.5 cr shares = target (rounded)**",
+         "",
+         "",
+         "**51,795**",
+         "**{{dcf.tp|inr}}**",
+         "vs CMP ₹770: {{dcf.upside|chg}}"
+        ]
+       }
+      ],
+      "source": "GAM Research (assumptions.json valuation parts; live in the Excel SOTP sheet)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Hospital growth +2pp a year and margin +1.2pp; Agilus +2pp and +1pp; 25x hospitals, 22x Agilus (Fortis's own 75th percentile, near the street)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Revenue +{{F.salesGrowth.0|pct}} / +{{F.salesGrowth.1|pct}} / +{{F.salesGrowth.2|pct}}; EBITDA margin after ESOP {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 18.5x hospitals, 18x Agilus."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Hospital and Agilus growth −3pp a year, margins −1.5pp; 15.5x hospitals, 15x Agilus."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27E (negative = net debt incl. leases)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research (minorities via the tax line; no separate deduction)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed hospital and diagnostics peers (trailing, at the 30-Sep-2026 close)",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "EV/EBITDA (x)",
+       "vs 5-yr median",
+       "P/E (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Fortis**",
+        "58,135",
+        "9,128",
+        "22.8%",
+        "27.7",
+        "+0%",
+        "54.5",
+        "11.3%"
+       ],
+       [
+        "Apollo Hospitals",
+        "1,17,612",
+        "25,228",
+        "15%",
+        "29.4",
+        "−14%",
+        "55.4",
+        "22.6%"
+       ],
+       [
+        "Max Healthcare",
+        "90,531",
+        "8,373",
+        "26.8%",
+        "37.4",
+        "−13%",
+        "60.4",
+        "14.3%"
+       ],
+       [
+        "Narayana Hrudayalaya",
+        "36,619",
+        "7,896",
+        "20.8%",
+        "21.7",
+        "−2%",
+        "42.4",
+        "19.7%"
+       ],
+       [
+        "Medanta (Global Health)",
+        "36,704",
+        "4,410",
+        "21.1%",
+        "34.0",
+        "+4%",
+        "64.1",
+        "15.1%"
+       ],
+       [
+        "Rainbow Children's",
+        "13,347",
+        "1,703",
+        "32.2%",
+        "23.1",
+        "−11%",
+        "46.6",
+        "18.1%"
+       ],
+       [
+        "Jupiter Life Line",
+        "8,303",
+        "1,500",
+        "22.9%",
+        "22.9",
+        "−24%",
+        "43.5",
+        "13.4%"
+       ],
+       [
+        "KIMS",
+        "31,349",
+        "3,905",
+        "20.9%",
+        "40.6",
+        "+49%",
+        "150.3",
+        "11%"
+       ],
+       [
+        "Aster DM",
+        "60,773",
+        "4,643",
+        "18.8%",
+        "59.1",
+        "+91%",
+        "168.4",
+        "11.8%"
+       ],
+       [
+        "Dr Lal PathLabs",
+        "33,348",
+        "2,763",
+        "28.3%",
+        "34.6",
+        "+7%",
+        "59.3",
+        "21.8%"
+       ],
+       [
+        "Metropolis",
+        "11,247",
+        "1,646",
+        "24.7%",
+        "25.6",
+        "−9%",
+        "54.0",
+        "13.4%"
+       ],
+       [
+        "Vijaya Diagnostic",
+        "14,804",
+        "814",
+        "41.4%",
+        "39.4",
+        "+24%",
+        "79.0",
+        "19.7%"
+       ]
+      ],
+      "source": "Screener.in (post-Ind AS EBITDA incl. other income; EV includes lease liabilities), multiples scaled to the NSE close on 30-Sep-2026. Fortis ROE on reported (pre-minority) profit."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a better company than in 2018, but the price already assumes the best case",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** a national hospital network (₹7,773 cr of hospital revenue in FY26), with flagship hospitals in NCR, 68-70% occupancy, a 22% hospital margin, ~1,800 brownfield beds to add by FY30 that its own cash can fund, a controlling shareholder with deep pockets, and an 88% stake in a national lab chain whose margins have recovered."
+    },
+    {
+     "callout": "**What you are paying:** 22.4x our FY28E EV/EBITDA and 40.3x FY28E EPS: above Fortis's own forward medians since 2021 (21.0x and 36.3x) and above the peer median, for ~15% EBITDA growth and a ~12-13% ROE, just as the 2018 deal goes back under a court-ordered forensic audit and the Supreme Court questions hospital drug margins. On the street's method and our inputs the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): **SELL**. P/E (₹656) and DCF (₹505) agree that the price is ahead of the fundamentals."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Hospital margin after ESOP heads to 25% by FY28 (our FY28E 22.2%)",
+        "Low-medium",
+        "Quarterly hospital margin, ramp-up units reaching mid-teens"
+       ],
+       [
+        "Forensic audit closes with no finding against Fortis or IHH",
+        "Medium",
+        "Auditor's report (due ~6 months after the 31-Aug-2026 order); next court steps"
+       ],
+       [
+        "IHH injects equity at or above market, or merges Gleneagles on fair terms",
+        "Medium",
+        "Terms, swap ratio, majority-of-minority vote"
+       ],
+       [
+        "Agilus grows 12%+ with test volumes, not just price",
+        "Medium",
+        "Tests per quarter, B2C share"
+       ],
+       [
+        "A price fall to below ~₹600",
+        "–",
+        "At that level the stock would be a Buy on our numbers"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Drug and consumable margins capped (Supreme Court, CGHS/ECHS)",
+        "Medium",
+        "Pharmacy is a large part of hospital profit; a cap on mark-ups would hit margins across the sector"
+       ],
+       [
+        "Forensic audit drags on or makes adverse findings",
+        "Low-medium",
+        "Delays IHH's stake increase and capital; management distraction; legal costs (~₹25 cr a year)"
+       ],
+       [
+        "Doctor poaching and new supply in NCR and Bengaluru",
+        "Medium",
+        "Higher doctor costs, lower occupancy (BG Road already ~55%)"
+       ],
+       [
+        "Tower delays (Shalimar Bagh already slipped a year)",
+        "Medium",
+        "Growth falls toward ~10% in FY28"
+       ],
+       [
+        "A large acquisition or a related-party merger on poor terms",
+        "Low-medium",
+        "Dilution of returns; goodwill already ₹4,722 cr"
+       ],
+       [
+        "Upside risk to our call: the market keeps paying 27-30x",
+        "Medium",
+        "Bull case {{scen.bull.tp|inr}}"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: SELL, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would turn buyers below ~₹600** and stay sellers above ~₹730 on today's numbers; we would raise the hospital multiple if the audit closes cleanly and margins after ESOP reach 23% (our FY28E 22.2%).",
+      "**Biggest swing factor:** the hospital multiple. Each 1x on Sep-28E hospital EBITDA after ESOP is ~₹33 a share; at ~20x Sep-28E (≈ 21.5x FY28E) the target would be ~₹739, a Hold."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Occupancy, Q1FY27",
+        "v": "68.7%",
+        "d": "flat YoY on +17% occupied beds"
+       },
+       {
+        "k": "Beds, Mar-26 → FY30 plan",
+        "v": "4,968 → 6,774",
+        "d": "plus ~1,200 O&M beds"
+       },
+       {
+        "k": "Hospital margin, Q1FY27",
+        "v": "21.5%",
+        "d": "before ESOP; target 25% after ESOP by FY28"
+       },
+       {
+        "k": "Forward EV/EBITDA",
+        "v": "22.4x",
+        "d": "median since 2021 21.0x"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY15–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA (post-Ind AS, after ESOP)",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 200
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation (incl. right-of-use)"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. associates; history incl. exceptional items)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (owners)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 25
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. exceptional)"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (owners)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Operational / O&M beds",
+        "Beds open and staffed. O&M (operations & management) beds belong to other owners; Fortis runs them for a fee (e.g. 3% of revenue at Gleneagles) and does not consolidate their revenue."
+       ],
+       [
+        "Occupancy",
+        "Occupied beds ÷ operational beds, averaged over the period."
+       ],
+       [
+        "ARPOB",
+        "Average revenue per occupied bed. Fortis quotes it in ₹ crore per bed per year on gross revenue (₹2.51 cr in FY26 ≈ ₹68,800 per bed-day); reported revenue is ~5% lower."
+       ],
+       [
+        "ALOS",
+        "Average length of stay of an inpatient (days). Fortis does not report it; a broker put it at 4.19 days in Q1FY27."
+       ],
+       [
+        "Brownfield / greenfield",
+        "Adding beds to an existing hospital (new floors or towers) vs building a new hospital on a new site. Brownfield beds fill faster and cost less."
+       ],
+       [
+        "Margin matrix",
+        "Fortis's quarterly grouping of its hospitals by EBITDA margin band (>20%, 15-20%, 10-15%, <10%)."
+       ],
+       [
+        "Operating EBITDA",
+        "Company measure: revenue less operating costs, excluding other income and (from Q1FY27) the ESOP charge. Our model EBITDA deducts the ESOP charge."
+       ],
+       [
+        "ESOP",
+        "Employee stock option plan: shares granted to doctors and staff; the fair value is charged to profit over the vesting period (non-cash)."
+       ],
+       [
+        "TPA",
+        "Third-party administrator: processes claims for health insurers; stands for insured patients in the payer mix."
+       ],
+       [
+        "CGHS / ECHS",
+        "Central Government Health Scheme and Ex-servicemen Contributory Health Scheme: government payers that set package prices and, since FY26, cap chemotherapy drug prices at MRP less 30%."
+       ],
+       [
+        "B2C / B2B (diagnostics)",
+        "Tests sold to patients directly vs to hospitals, labs and corporates. B2C is stickier and more profitable."
+       ],
+       [
+        "Customer touchpoints",
+        "Agilus collection centres and pick-up points (4,493 at Jun-2026)."
+       ],
+       [
+        "Ind AS 116 (leases)",
+        "Accounting rule that puts leased buildings on the balance sheet: rent becomes depreciation and interest; future rent appears as a lease liability (₹600 cr for Fortis at Mar-2026)."
+       ],
+       [
+        "Minority interest",
+        "The part of a subsidiary owned by others: 11.68% of Agilus. Their share of profit is not Fortis shareholders' profit."
+       ],
+       [
+        "Forensic audit",
+        "A court-ordered investigation of transactions; here into the 2016-2018 dissipation of the former promoters' Fortis shares, IHH's 2018 investment and the RHT buyback."
+       ],
+       [
+        "Open offer / MTO",
+        "Mandatory tender offer an acquirer must make to minority shareholders under SEBI rules; IHH's, at ₹170 a share, was frozen from 2018 and completed in Nov-2025."
+       ],
+       [
+        "Sum of the parts (SOTP)",
+        "Valuing each business separately (here hospitals and Agilus on EV/EBITDA), then deducting net debt and minorities."
+       ],
+       [
+        "EV/EBITDA, P/E",
+        "Enterprise value (market value plus net debt, incl. lease liabilities, plus minorities) ÷ EBITDA; share price ÷ earnings per share."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here 11.6%, close to the cost of equity because debt is small)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "pat@FY16": "Small profit after a FY15 loss; rent to RHT Health Trust weighed on margins (EBITDA margin 2%).",
+  "pat@FY17": "₹422 cr owners' profit thanks to ~₹650 cr of other income (one-off gains).",
+  "pat@FY18": "−₹1,009 cr (owners) after ~₹790 cr of exceptional items in the crisis year; the former promoters lost their stake (Feb-2018).",
+  "ebitdaMargin@FY19": "5%: crisis year; rent to RHT and lost doctors.",
+  "ebitdaMargin@FY20": "+800bp: IHH capital used to buy back the RHT hospitals, so rent stopped.",
+  "sales@FY21": "−13%: Covid lockdowns emptied hospitals; Agilus Covid testing partly offset.",
+  "sales@FY22": "+42%: recovery plus a Covid-testing boom at Agilus (diagnostics EBITDA ₹412 cr).",
+  "pat@FY22": "Includes ₹255 cr of exceptional gains; minorities took ₹235 cr (Agilus 43% minority).",
+  "ebitdaMargin@FY23": "Down: Agilus EBITDA fell 42% after Covid testing ended; hospitals improved to 16.9%.",
+  "sales@FY25": "+13%: ARPOB +9%, occupied beds +5%; Manesar opened (Sep-2024).",
+  "pat@FY25": "Owners' profit +29%; Fortis bought 31% of Agilus late in the year (minorities ₹35 cr vs ₹46 cr); −₹89 cr exceptional items.",
+  "otherIncome@FY25": "Screener figure is after −₹89 cr of exceptional items (other income ₹67 cr, associates ₹11.5 cr).",
+  "sales@FY26": "+17%: hospitals +19% (Jalandhar, Greater Noida, People Tree added), Agilus +9%.",
+  "ebitdaMargin@FY26": "22.8%: hospital margin 22.2% (20.5%), Agilus 23.6% (17.7%, rebranding one-offs in FY25).",
+  "pat@FY26": "+35% to ₹1,042 cr; −₹22 cr exceptional (Labour Codes ₹55 cr less ₹33 cr impairment reversal).",
+  "capex@FY26": "₹945 cr plus ~₹640 cr of acquisitions and other investing (Jalandhar ₹462 cr, People Tree ₹430 cr deal values).",
+  "otherIncome@Q3FY26": "Includes −₹46 cr of exceptional items (Labour Codes).",
+  "opm@Q1FY27": "21%: first ESOP charge (₹31 cr); before ESOP 22.3%. New units, legal costs and bad-debt provisions also weighed.",
+  "sales@Q1FY27": "+17.5%: hospitals +19% (occupied beds +17%, ARPOB +2.6%), Agilus gross +10%.",
+  "sales@FY27E": "GAM bed build: ~5,090 operational beds, 69% occupancy, ARPOB ₹2.72 cr (gross); Agilus +11%.",
+  "ebitdaMargin@FY27E": "Hospitals 22.6% and Agilus 24.0% before ESOP, less ~₹151 cr of ESOP: 21.8%.",
+  "ebitdaMargin@FY28E": "Hospitals 23.4% before ESOP (management target 25% after ESOP).",
+  "capex@FY27E": "₹1,150 cr: FMRI tower, brownfield beds, robots and part of the ₹252 cr proton centre; no acquisitions modelled.",
+  "sales@FY29E": "702 new beds (Mohali, Shalimar Bagh, Amritsar towers) start filling."
+ }
+}
