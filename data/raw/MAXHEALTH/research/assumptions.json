@@ -1,0 +1,195 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Max Healthcare Institute (MHIL consolidated, ₹ crore, Screener basis). One reportable segment, so the engine runs on a single revenue-growth path and a post-Ind AS 116 EBITDA margin (rent is not in EBITDA; lease interest is in interest; lease liabilities sit in borrowings, so the model's net cash is net of leases). The company's KPIs are on the 'Network' basis (MHIL plus three Partner Healthcare Facility societies); the bed build in `businessLines` builds Network hospital revenue (beds x 365 x occupancy x ARPOB), adds Max Lab, converts gross to net revenue and takes MHIL's consolidated share; the authoring script checks it equals model revenue. Shares: Screener FY26 profit / EPS = 97.30 cr = actual 97.33 cr (no patch). Valued on EV/EBITDA, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  19.195,
+  17.705,
+  14.766
+ ],
+ "_revenueWhy": "From the bed build below. FY27 +19%: Q1 consolidated revenue +16.7% (Network gross +16%, +20% excluding oncology) with Kalinga only from 18-May; Q2-Q4 get the rest of Max Smart (PHF, but Max earns service fees), the last ~50 Nanavati beds, Kalinga for a full year, +100 Lucknow beds and the first ~200 Gurugram beds from end-CY2026, the oncology base effect from Q3 and the ~6% insurer price revision from Sep-Oct. FY28 +18%: Gurugram ramp, Zirakpur Mohali (400) and Nagpur (100). FY29 +15%: Pitampura, Dehradun, Patparganj (PHF, end-FY29). Street (Network net revenue) FY27E +18.5% (PL) to +24% (MOSL).",
+ "businessLines": {
+  "_why": "Network hospital gross revenue = average operational beds x 365 x occupancy x ARPOB (company definition: gross revenue excl. Max Lab ÷ OBDs). FY26 check: (₹10,538 cr gross - ₹201 cr Max Lab) ÷ ₹77,800 = 13.29 lakh OBDs = 4,790 average beds at 76% (Mar-25 4,654, Mar-26 4,966). FY27 5,540 average beds (Q1 implied 5,231; 5,379 at Jun-26 rising to ~5,950 by Mar-27), occupancy 74% (75% in Q1; Gurugram starts low), ARPOB ₹82,300 (+6%: Q1 ₹81.9k; oncology base effect, CGHS rate revision, insurer hikes, less ~2% dilution from Kalinga at ₹35k). FY28 6,250 beds, 73%, ₹86,500 (+5%); FY29 6,750 beds, 73.5%, ₹91,250 (+5.5%) — management: ARPOB grows a couple of points above inflation. Max Lab ₹240 / 285 / 335 cr (+18-20% a year; ₹58 cr in Q1FY27, +20%). Net/gross 0.952 (FY26 0.955, Q1FY27 0.951). MHIL's consolidated share of Network net revenue 0.835 / 0.84 / 0.84 (FY25 0.811, FY26 0.832, Q1FY27 0.835): it rises as owned units (Gurugram, Kalinga, Lucknow, Mohali, Nagpur) grow faster than the PHFs, offset by Max Smart's new tower sitting in a PHF.",
+  "network": {
+   "avgOpBeds": [
+    5540,
+    6250,
+    6750
+   ],
+   "occupancyPct": [
+    74,
+    73,
+    73.5
+   ],
+   "arpob": [
+    82300,
+    86500,
+    91250
+   ]
+  },
+  "maxLab": [
+   240,
+   285,
+   335
+  ],
+  "grossToNet": [
+   0.952,
+   0.952,
+   0.952
+  ],
+  "consShare": [
+   0.835,
+   0.84,
+   0.84
+  ]
+ },
+ "ebitdaMargin": [
+  26.4,
+  26.9,
+  27.4
+ ],
+ "_marginWhy": "Consolidated EBITDA margin (Screener basis: after ESOP cost; post-Ind AS 116): 27.6% FY24, 26.3% FY25, 26.8% FY26 (Q2-Q4FY26: 26.9%, 26.0%, 28.3%), 25.3% in Q1FY27 (25.8% a year earlier) with ₹195 cr of Network overheads for new units. Management: no significant rise in indirect costs until Gurugram opens, so new-bed revenue drops through from Q2. FY27 26.4%: Q2-Q4 ~0.5pp above FY26's quarters, less Gurugram start-up costs; FY28 26.9%: brownfield towers mature, oncology normalised, offset by Gurugram, Zirakpur and Nagpur start-up losses; FY29 27.4%. Network equivalents are ~0.5-1pp lower (Network operating margin 26.2% in FY26). Street (Network): PL 26.6% / 26.6%, MOSL 25.4% / 26.4%, Antique ~27% by FY28.",
+ "capex": [
+  2300,
+  3010,
+  2565
+ ],
+ "_capexWhy": "FY27 ₹2,300 cr = ₹386 cr paid for Kalinga and YPPL in Q1 + ₹1,711 cr of project outflow (company estimate for FY27) + ~₹200 cr routine capex. FY28 ₹3,010 cr = ₹2,340 cr project outflow + ₹220 cr routine + ~₹450 cr of new lease liabilities for the 400-bed built-to-suit Zirakpur, Mohali hospital (GAM estimate from Dwarka: lease liabilities rose ₹372 cr in FY25 for ~300 beds). FY29 ₹2,565 cr = ₹2,025 cr + ₹240 cr routine + ~₹300 cr of leases (Pitampura, Dehradun). Project outflow (deck, 17-Aug-2026) excludes land and the medical-college plan (~₹300 cr per college, not firmed); it includes the funding of PHF projects (Max Smart, Patparganj), which Max lends to the societies at ~9.25% — we treat it all as capex (cash-conservative; the engine has no separate loan asset). New leases are added because lease liabilities count as debt in the model.",
+ "depRateOnGrossBlock": 3.4,
+ "_depWhy": "FY26 depreciation ₹447 cr = 3.1% of average gross block (₹14,232 cr, which includes ~₹6,000 cr of goodwill-like merger intangibles that are barely amortised); Q1FY27 ₹132 cr (₹528 cr annualised) after Mohali, Nanavati and Lucknow capitalisation. 3.4% gives FY27E ~₹553 cr. The engine depreciates capex at once while projects sit in CWIP (₹592 cr at Mar-26).",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Zero because the engine applies the yield to net cash after borrowings and lease liabilities, which is negative (net debt ₹2,812 cr at Mar-26). Interest income is built in `otherIncome` instead.",
+ "otherIncome": [
+  156,
+  161,
+  169
+ ],
+ "otherIncomeBuild": {
+  "_why": "Built from AR FY26 note 28 (consolidated other income ₹162.6 cr; ₹155.6 cr in FY25). Treasury: bank-deposit interest ₹29.6 cr (FY25 ₹53.1 cr) on ~₹690 cr average cash (4.3%); we take 4.5% on ₹600 / 500 / 450 cr of average cash as capex absorbs cash. Loans to PHFs (₹746 cr at Mar-26 to Gujarmal Modi Hospital for Max Smart, 9.25%): ₹68.6 cr in FY26; ~₹800 / 900 / 1,000 cr average loans at 9.25% as Smart and Patparganj are funded. Recurring other (₹58 cr in FY26, ₹62 cr in FY25): unwinding on long-dated receivables and deposits ~₹11 cr, write-backs of unclaimed balances ₹24-31 cr a year (we take ~₹28 cr), deferred EPCG credit, tax-refund interest and others ~₹16-18 cr: ₹55 / 56 / 57 cr. Left out as one-offs: fair-value gain on contingent consideration ₹5.1 cr, asset-sale gain, lease modification. FY27E ₹156 cr vs FY26 ₹162.6 cr and ₹166.6 cr in the twelve months to Jun-26 (before exceptional items): lower deposit interest as cash funds Kalinga and projects.",
+  "treasury": [
+   27,
+   22,
+   20
+  ],
+  "phfLoans": [
+   74,
+   83,
+   92
+  ],
+  "recurring": [
+   55,
+   56,
+   57
+  ]
+ },
+ "interest": [
+  300,
+  360,
+  400
+ ],
+ "_interestLabel": "Finance cost (borrowings + lease interest; gross, before interest income)",
+ "_interestWhy": "FY26 ₹235 cr (incl. ₹54 cr of lease interest); Q1FY27 ₹71 cr (₹284 cr annualised) after the ECB for Kalinga. Gross debt rises with ~₹7,900 cr of capex and leases over FY27-29 against ~₹7,500 cr of operating cash; interest on ~8% of average borrowings plus lease interest (~9.5%) and less capitalisation as projects complete: ₹300 / 360 / 400 cr.",
+ "taxRate": [
+  24.5,
+  24.5,
+  24.5
+ ],
+ "_taxWhy": "Tax plus minorities (the engine has no minority line). The enacted rate is 25.17%; profits of the managed facilities (silos) are not taxed at MHIL, worth ~2.4pp in FY26 (AR FY26 tax reconciliation: ₹40 cr on ₹1,676 cr PBT). FY26 underlying 22.4% (₹233 cr reported plus the ₹142 cr one-time amalgamation gain); FY25 23.5%; but Q4FY26 26.4% and Q1FY27 26.0% (MHIL). We use 24.5%, incl. ~0.3pp for minorities (41.72% of Kalinga, ~49.78% of YPPL, both small). Brokers use 20-23% on the Network, where the PHF societies pay little tax.",
+ "payout": [
+  13,
+  13,
+  13
+ ],
+ "_payoutWhy": "Dividends: ₹1.5 a share for FY25 (₹146 cr), ₹2 recommended for FY26 (~13% of profit).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 27.5,
+  "fadeCapexPctTo": 9,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Ke = 6.5% + 0.85 x 6% = 11.6%. Net debt incl. leases is ~3% of enterprise value, so WACC is ~11.4%; the engine discounts at the cost of equity, which we keep (slightly conservative). Defensive demand; regulatory and expansion risk.",
+  "_tgWhy": "6%: bed density in North India is well below the WHO norm and ARPOB grows above inflation, but supply is rising fast in NCR.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~15% (FY29E) to 9% by year 15 as the ~10,000-bed network matures.",
+  "_fadeMarginWhy": "27.5% consolidated (FY24 27.6%, FY26 26.8%): new hospitals mature, but more beds sit in lower-ARPOB cities (Lucknow, Nagpur, Bhubaneswar) and doctor costs rise.",
+  "_fadeCapexWhy": "Capex incl. leases falls from ~19-26% of revenue (expansion) to 9%: replacement (depreciation ~5.5% of revenue) plus growth capex for ~9% growth via brownfields."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Brownfield towers fill as fast as Smart (80% in weeks), Gurugram breaks even within a year, oncology recovers fully and insurer price revisions stick; institutional share keeps falling.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 1,
+   "fadeMarginTo": 28.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Drug-margin caps (CGHS, Supreme Court case) spread, NCR competition lifts doctor costs, Gurugram and Zirakpur ramp slowly and acquisitions dilute ARPOB.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 26
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 30,
+      "bull": 37.5,
+      "bear": 26
+     },
+     "why": "How the street values Max: EV/EBITDA on FY28E or 12-month-forward EBITDA (PL 30x, Anand Rathi 32x and Antique 30x on hospitals, MOSL 33x), all on Network EBITDA. We use MHIL consolidated EBITDA (Screener; post-Ind AS 116) with net debt including lease liabilities, the basis of the model, of Max's own multiple history and of the peer multiples. 30x = Max's 31.8x median one-year-forward EV/EBITDA since Apr-2021 (no trough years: forward EBITDA never fell below half its prior peak), cut by the 6.7% median de-rating of six listed hospital peers versus their five-year median EV/EBITDA on 30-Sep-2026 (Apollo, Fortis, Narayana, Medanta, Jupiter, Rainbow; KIMS and Aster left out because new-hospital losses and the 2024 GCC demerger distort their history) = 29.7x, rounded to 30x. No growth adjustment: EBITDA growth slows from 22% a year (FY23-26, with acquisitions) to ~18% (FY26-29E) while capex doubles. Bull 37.5x and bear 26x = the 75th and 25th percentiles of the same history (40.3x, 28.2x) after the same de-rating."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 48,
+      "bull": 60,
+      "bear": 42
+     },
+     "why": "Cross-check on earnings. 48x = Max's 54.6x median one-year-forward P/E since Apr-2021 on EPS before one-offs (FY23 ex the ₹244 cr deferred-tax gain, FY25 ex the YEIDA charge and DTL gain, FY26 ex the ₹142 cr amalgamation tax gain and exceptional items; 55.4x on reported EPS via forwardMedian; no trough years) cut by the 12.1% median P/E de-rating of the same six peers (= 48.0x). Bull 60x, bear 42x scale with the EV/EBITDA multiples."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF (capex incl. new leases and PHF funding), Ke 11.6%, terminal growth 6%, less net debt incl. leases."
+    }
+   ]
+  }
+ }
+}

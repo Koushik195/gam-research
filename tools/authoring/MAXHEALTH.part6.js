@@ -1,0 +1,55 @@
+// Max Healthcare report, part 6: glossary and statement notes.
+const glossary = {
+  id: 'glossary', nav: 'Glossary', kicker: 'Appendix', title: 'Glossary',
+  blocks: [
+    { exhibit: { type: 'table', title: 'Terms used in this report', head: ['Term', 'What it means'], wide: [1], rows: [
+      ['Tertiary / quaternary care', 'Complex hospital care (cancer, cardiac surgery, neurosurgery) and the most advanced (transplants, robotic surgery, bone-marrow transplants).'],
+      ['Operational beds', 'Beds staffed and open for patients (capacity beds may not all be open yet). Occupancy is measured on operational beds.'],
+      ['Occupancy', 'Occupied bed-days ÷ (operational beds × days in the period).'],
+      ['ARPOB', 'Average revenue per occupied bed-day. Max divides gross revenue (incl. outpatients and pharmacy, excl. Max Lab) by occupied bed-days.'],
+      ['OBDs', 'Occupied bed-days: one patient in one bed for one day.'],
+      ['ALOS', 'Average length of stay of discharged inpatients (days).'],
+      ['EBITDA per bed', 'Max\'s measure: operating EBITDA per occupied bed, annualised (₹ lakh).'],
+      ['Network vs consolidated', 'Network = MHIL plus three charitable societies whose hospitals Max runs under long contracts (Partner Healthcare Facilities); consolidated = MHIL\'s audited accounts, which exclude the societies.'],
+      ['Partner Healthcare Facility (PHF)', 'A hospital owned by a society (Balaji, Gujarmal Modi, Devki Devi) that Max operates under a medical-service agreement; Max earns fees and interest, not the society\'s profit.'],
+      ['Managed facility / silo', 'A hospital run by Max under a long-term contract that is consolidated as a separate "silo" (e.g. BLK-Max, Nanavati-Max).'],
+      ['Brownfield / greenfield', 'Brownfield = new beds at or within 1 km of an existing Max hospital; greenfield = a new hospital in a new location.'],
+      ['Asset-light / built-to-suit', 'A partner builds the hospital and leases it to Max, which fits it out and runs it; the lease becomes a lease liability.'],
+      ['Institutional patients', 'Patients under government schemes (CGHS for central-government staff, ECHS for ex-servicemen, PSU employees) who pay fixed package rates.'],
+      ['CGHS MoU', 'The agreement between hospitals and the Central Government Health Scheme setting rates and terms; the Oct-2025 version capped margins on high-value drugs.'],
+      ['International patients / medical value travel', 'Patients who travel from abroad for treatment; ~9% of Max\'s hospital revenue.'],
+      ['Ind AS 116 (leases)', 'Accounting rule that puts leased buildings on the balance sheet: rent is replaced by depreciation and interest, and future rent appears as a lease liability.'],
+      ['Pre-tax ROCE (company)', 'Max\'s own return on capital: EBIT (with normal depreciation) ÷ capital employed excluding the 2020 merger fair-value uplift and short-term deposits.'],
+      ['Contingent consideration', 'Amounts Max owes societies over the life of O&M contracts; changes in their fair value are non-cash and sit below the company\'s operating EBITDA.'],
+      ['EV/EBITDA, P/E', 'Enterprise value (market value plus net debt, here including lease liabilities) ÷ EBITDA; share price ÷ earnings per share.'],
+      ['Sep-28E', 'Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027.'],
+      ['DCF / WACC', 'Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, 11.6%; debt is ~3% of EV).'],
+    ], source: 'GAM Research; company definitions' } },
+  ],
+};
+
+const statementNotes = {
+  'sales@FY21': 'First year after the Radiant merger (Jun-2020); Covid lockdowns in Q1.',
+  'sales@FY22': '+57%: full year of the merged network and Covid recovery; ~₹236 cr of vaccine-related revenue (Network).',
+  'ebitdaMargin@FY22': '+800bp: ~₹330 cr of cost savings and merger synergies (FY20-22).',
+  'pat@FY23': 'Includes a ₹244 cr deferred-tax gain (liquidation of subsidiaries); ₹860 cr before it.',
+  'otherIncome@FY21': 'Includes ₹234 cr of exceptional charges, which Screener nets in other income.',
+  'sales@FY25': '+30%: Lucknow (550 beds), Nagpur (200) and Noida (~500) acquired; Dwarka (300, asset-light) opened.',
+  'otherIncome@FY25': 'After ₹73 cr exceptional charge (YEIDA fee for the Jaypee acquisition).',
+  'capex@FY25': '₹944 cr plus acquisitions; lease liabilities +₹372 cr with Dwarka.',
+  'pat@FY25': 'Higher depreciation (+47%) and interest (+175%) after acquisitions; ₹1,114 cr before one-offs.',
+  'sales@FY26': '+19%; oncology fell after the CGHS MoU (Oct-2025); towers at Mohali, Nanavati and Smart commissioned from H2.',
+  'pat@FY26': 'Includes ~₹142 cr one-time tax gain (CRL-JHL amalgamation) and ₹41 cr exceptional charges; ₹1,341 cr before them.',
+  'otherIncome@FY26': '₹163 cr before ₹48 cr exceptional items (Labour Code, stamp duty); interest on loans to the Max Smart society ₹69 cr.',
+  'capex@FY26': '₹1,485 cr plus ₹363 cr lent to the Max Smart society for its 400-bed tower.',
+  'sales@Q3FY26': '+11%: high-value chemotherapy stopped for CGHS patients; oncology share of IP revenue 24% (26% a year earlier).',
+  'pat@Q2FY26': 'Includes the ~₹149 cr deferred-tax asset recognised on the amalgamation (tax rate −10%).',
+  'sales@Q1FY27': '+17%: new towers, Kalinga from 18-May (₹19 cr); +20% ex-oncology (Network).',
+  'opm@Q1FY27': '25%: ₹195 cr of Network overheads for new units before their revenue.',
+  'sales@FY27E': 'GAM bed build: avg. 5,540 operational beds, 74% occupancy, ARPOB ₹82,300 (Network); MHIL share 83.5%.',
+  'capex@FY27E': '₹386 cr for Kalinga and YPPL + ₹1,711 cr project outflow (company) + routine capex.',
+  'capex@FY28E': 'Project outflow ₹2,340 cr + routine capex + ~₹450 cr of leases for the 400-bed Zirakpur hospital (GAM estimate).',
+  'sales@FY29E': 'Avg. 6,750 operational beds; FY30 openings (~2,000 beds) are outside the forecast window.',
+};
+
+module.exports = { glossary, statementNotes };
