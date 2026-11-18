@@ -1,0 +1,207 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Aster DM Quality Care Ltd (formerly Aster DM Healthcare), consolidated, Rs crore. Basis: the MERGED company (Aster + Quality Care India, QCIL), which is what the share price represents on 30-Sep-2026 (merger effective 1-Jul-2026; 87.17 cr shares after the 13-Jul-2026 allotment). The base year FY26 is pro-forma combined (ASTERDM.patch.js; Rs9,273 cr revenue, Rs1,967 cr post-Ind AS EBITDA), so FY27E-FY29E are full combined years. Reported FY27 will include QCIL only from 1-Jul-2026 (memo in the report). EBITDA is post-Ind AS 116 (rent excluded); lease liabilities sit in net debt (pro-forma Rs2,549 cr incl. Rs1,785 cr of leases at Mar-26, built as Aster's borrowings less cash plus a treasury plug for QCIL; see ASTERDM.patch.js), so the model's net cash is net of leases. Minorities: the tax line carries minorities' share of profit and associates' losses (no minority line in the engine); in the valuation the EV/EBITDA multiple is applied to EBITDA after minorities (see valuation.minorityShareOfEbitdaPct), and book minorities are not in net debt (Aster's sit in other liabilities, QCIL's are netted in the CWIP balancing line), so they are not deducted twice. One reportable segment (healthcare services); the bed build sits in businessLines and the authoring script checks it sums to model revenue.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  16.136,
+  15.3803,
+  15.7497
+ ],
+ "_revenueWhy": "From the bed build in businessLines (operational beds x 365 x occupancy x revenue per occupied bed-day, plus labs/pharmacy/other). FY27E +16%: pro-forma Q1FY27 revenue +20% (Aster +22%, QCIL +19%) with occupancy up 510bp to 64%; growth slows as the occupancy gain laps and new beds (Trivandrum from ~Jan-2027) start empty. FY28E +15%, FY29E +16%: price/mix +7.5% a year (management: ARPP growth 7-8%, volume 5-6%), existing-network occupancy +1.5-2pp a year, and the bed plan (634 / 1,190 / 1,555 capacity beds in FY27 / FY28 / FY29, Q1FY27 deck p.17) opening at 35-45% occupancy. Management calls low-to-mid-teen growth sustainable (Q1FY27 call). Street FY28E revenue: ICICI Securities Rs12,495 cr, PL Rs13,142 cr, Motilal Oswal Rs13,247 cr; we are at the low end because we assume slower ramps of the new beds.",
+ "businessLines": {
+  "_why": "Hospital revenue = beds x 365 x occupancy x revenue per occupied bed-day. The company reports occupancy on census beds and ARPP (revenue per inpatient), not a combined ARPOB, so we use an IMPLIED ARPOB on operational beds: hospital & clinic revenue / (operational beds x days x occupancy). Q1FY27: Rs2,535 cr / (10,559 x 91 x 64%) = Rs41,223; FY26 pro-forma ~Rs38,600 (Rs9,041 cr on ~10,350 average beds at 62%). Existing network = the 10,559 operational beds at Jun-2026: occupancy 65.0 / 67.0 / 68.5% (Q1FY27 64%, +5.1pp YoY; mature hospitals can run near 70%), implied ARPOB +7.5% a year. New beds = weighted-average operational beds from the expansion plan (Trivandrum 454 beds from ~Jan-2027; Hyderabad women & children 300 from ~Apr-2027; Sarjapur phase I 460 in H2FY28; QCIL brownfield blocks at Bhubaneswar, Raipur, Kottayam, Nagercoil, Banjara Hills; Indore greenfield): 250 / 1,100 / 2,200 beds at 35 / 42 / 45% occupancy and ~80% of the network ARPOB. Other = labs, out-patient pharmacy and other operating income (~Rs232 cr in FY26, ~5% of Aster's revenue; Q1FY27 Rs62 cr), +15% a year.",
+  "existing": {
+   "opBeds": [
+    10559,
+    10559,
+    10559
+   ],
+   "occupancyPct": [
+    65,
+    67,
+    68.5
+   ],
+   "arpob": [
+    41500,
+    44600,
+    47900
+   ]
+  },
+  "newBeds": {
+   "opBeds": [
+    250,
+    1100,
+    2200
+   ],
+   "occupancyPct": [
+    35,
+    42,
+    45
+   ],
+   "arpob": [
+    33200,
+    35700,
+    38300
+   ]
+  },
+  "other": [
+   267,
+   307,
+   353
+  ]
+ },
+ "ebitdaMargin": [
+  22.3,
+  23.2,
+  23.6
+ ],
+ "_marginWhy": "Post-Ind AS EBITDA margin. Pro-forma FY26 21.2% (Aster 19.4% post-Ind AS after ESOP and variable O&M fees; QCIL 23.0% operating); Q1FY27 ~21.7% post-Ind AS (Aster 20.2% + QCIL 23.2%). Management targets a 24-25% operating EBITDA margin 'somewhere between 2028 and 2029' (Group CFO, 5-Aug-2026) from Rs150-200 cr of merger synergies (10-15% of FY24 pro-forma EBITDA), new units breaking even and operating leverage. We model 22.3 / 23.2 / 23.6%: synergies mostly from FY28, offset by start-up losses at Trivandrum (FY27), Hyderabad and Sarjapur (FY28) and the FY29 openings. 23.6% post-Ind AS is ~24% on the company's operating basis (ESOP and variable O&M fees add ~0.5pp): the low end of guidance. Each 1pp of margin is ~Rs125 cr of FY28E EBITDA (~6% of EPS).",
+ "capex": [
+  1550,
+  1900,
+  2000
+ ],
+ "_capexWhy": "Aster: ~2,500 beds over four years for Rs2,700 cr, Rs350 cr spent by Mar-26 (Q4FY26 call), i.e. ~Rs600-700 cr a year of project capex; QCIL: ~Rs2,000 cr for ~1,700 beds over 3-4 years (Rs1-1.1 cr a bed; greenfield Rs1.5 cr, brownfield Rs0.8-1.0 cr) plus maintenance at ~5% of revenue (3% refresh, 2% new programmes); Aster's FY26 capex was Rs549 cr. Total cash capex ~Rs1,450 / 1,800 / 1,900 cr, plus ~Rs100 cr a year of new leases (right-of-use additions) because the model's net debt includes lease liabilities. Motilal Oswal models Rs1,646 cr (FY27E, nine months of QCIL) and Rs2,686 cr (FY28E).",
+ "depRateOnGrossBlock": 9,
+ "_depWhy": "Pro-forma FY26 depreciation Rs564 cr (Aster 264 reported + QCIL ~300 estimated). Engine/Excel workaround: the Excel model reads Aster's gross block from Screener, so QCIL's depreciable assets cannot be added to it; QCIL's net operating assets sit in the CWIP balancing line, which the engine does not depreciate. We therefore charge a higher rate on Aster's gross block plus new capex: 9.0% gives Rs577 / 732 / 907 cr in FY27-29E (Aster ~290 + QCIL ~320 in FY27E plus the expansion). Because new capex is depreciated at the same high rate, D&A rises faster than a like-for-like path (~Rs100 cr above it by FY29E), which makes our EPS conservative. Street FY28E D&A: ICICI Securities Rs804 cr, Motilal Oswal Rs895 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Zero because the engine would apply it to net cash after leases, which is negative (Rs2,549 cr of net debt including Rs1,785 cr of leases at Mar-26 pro-forma). Treasury income is built on gross cash in otherIncome instead.",
+ "otherIncome": [
+  120,
+  115,
+  115
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (AR FY26 note 21). Aster FY26 Rs125.6 cr = bank-deposit interest Rs84.2 cr (on ~Rs1,300-1,400 cr of cash; ~6.3%) + lease-deposit interest Rs1.9 cr + other non-operating Rs39.5 cr (incl. one-offs: finance-lease derecognition Rs9.4 cr, interest on tax refunds Rs5.0 cr; recurring grants Rs8.6 cr, brand fees, rents). QCIL: small (standalone H1FY26 Rs1 cr); GAM ~Rs20 cr. Forecast: treasury ~6.3% on ~Rs1,100-1,200 cr of gross cash (Aster's Rs1,325 cr less merger costs of Rs114 cr and debt repayment; capex absorbs free cash) = ~Rs70-75 cr, + recurring non-treasury ~Rs25 cr (Aster) + QCIL ~Rs20 cr = Rs120 / 115 / 115 cr. Reconciliation: FY26 pro-forma Rs146 cr and the twelve months to Jun-26 Rs129 cr before exceptional items (Aster alone, Screener) plus ~Rs20 cr for QCIL = ~Rs150 cr; FY27E is ~Rs30 cr lower because ~Rs15 cr of FY26 one-offs do not recur and the cash pile is smaller after merger costs.",
+ "otherTreasury": {
+  "base": 0,
+  "_why": "None. Net debt is set through the FY26 treasury plug in ASTERDM.patch.js (investments = -Rs1,280 cr: QCIL net debt and leases less the CCPS reserve Screener counts as debt), which the engine and the Excel both read; Aster's cash, bank deposits and current investments (Rs1,327 cr) are all in Screener's cash line."
+ },
+ "interest": [
+  330,
+  340,
+  350
+ ],
+ "_interestLabel": "Finance cost (bank debt and lease interest)",
+ "_interestWhy": "Pro-forma FY26 Rs323 cr: Aster Rs123 cr (AR FY26) + QCIL ~Rs200 cr (GAM estimate: QCIL's standalone finance cost alone was Rs50.6 cr in H1FY26; group net debt rose to Rs1,388 cr by Mar-26 after paying ~Rs672 cr of deferred consideration for Evercare, plus ~Rs270 cr of leases). Combined net debt Rs1,162 cr excluding leases at Jun-26 (company). We hold debt roughly flat (capex funded from operating cash) and add lease interest on new leases: Rs330 / 340 / 350 cr. Street FY28E: Motilal Oswal Rs248 cr, ICICI Securities Rs276 cr; ours is more conservative.",
+ "taxRate": [
+  35,
+  34.5,
+  34.3
+ ],
+ "_taxWhy": "Tax plus minorities plus associates (engine workaround: no minority or associate line). Tax ~25% (Aster's FY26 effective rate 22.4%, Q1FY27 24.3%; QCIL assumed 25%). Minorities ~8% of PBT: KIMSHEALTH's founder keeps 15-20%, and several Aster (MIMS, Ramesh) and CARE hospitals have partners; brokers put minorities at 10-13% of EBITDA (Motilal Oswal 10%, PL 12.7%), which is ~8% of PBT. Associates (Alfaone retail pharmacies, loss-making, ~49% owned) ~Rs30 cr a year, 1.3-1.9% of PBT. Pro-forma FY26 leakage was 36.5% (Rs290 cr tax + Rs120 cr minorities + Rs37 cr associates on Rs1,226 cr PBT).",
+ "payout": [
+  25,
+  25,
+  25
+ ],
+ "_payoutWhy": "Aster paid an interim dividend of Rs3.0 a share for FY26 (~Rs155 cr, 40% of its profit); the merger documents promise a 'balanced approach' between dividends and reinvestment. With ~Rs1,900 cr a year of capex we assume ~25% (DPS ~Rs3-4.5).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 24.5,
+  "fadeCapexPctTo": 7,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net debt including leases is ~4% of enterprise value, so WACC is close to the 11.6% cost of equity the engine uses. Hospital demand is defensive, but the merger integration, a Rs4,000 cr+ expansion and the 30-Sep-2026 Supreme Court remarks on drug mark-ups add risk: 0.85.",
+  "_tgWhy": "6% nominal: under-penetrated Indian hospital care, rising insurance cover and price/mix growth of 5-6%; top of the house range, as for other hospital chains.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~16% to 8% by year 15 as the 15,000-bed network matures.",
+  "_fadeMarginWhy": "24.5% post-Ind AS (~25% operating): the top of management's 24-25% target, reached only as the 2026-30 openings mature.",
+  "_fadeCapexWhy": "Capex incl. new leases falls from ~14-15% of revenue (expansion) to 7%: maintenance ~5% of revenue (QCIL guidance: 3% refresh + 2% new programmes) plus growth capex for 6-8% growth.",
+  "_taxNote": "The DCF uses the last forecast year's tax rate (34.3%, incl. minorities), so NOPAT is roughly after minorities' share."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Synergies of Rs200 cr+ arrive in FY28, the existing network fills to 70%+, Trivandrum, Hyderabad and Sarjapur ramp in under a year and medical value travel keeps growing 50%+; the margin reaches ~24.5% post-Ind AS by FY29.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 1,
+   "fadeMarginTo": 25.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Integration distracts management, doctors leave in Bengaluru and Kerala, new hospitals ramp slowly, and price caps on drugs and consumables (after the Supreme Court's 30-Sep-2026 remarks) cut pharmacy margins; the margin stalls near 22%.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 23
+  }
+ },
+ "valuation": {
+  "minorityShareOfEbitdaPct": 11,
+  "_minorityWhy": "Share of consolidated EBITDA that belongs to minority shareholders of subsidiaries (KIMSHEALTH founder 15-20%; partners in MIMS, Ramesh, CARE and Evercare units). Not disclosed; Motilal Oswal uses 10% (Rs27.7 bn of Rs30.7 bn), PL ~12.5% (FY27-28E). We take 11%. The engine multiple below is the consolidated-equivalent: multiple on EBITDA after minorities x 0.89.",
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 20.5,
+      "bull": 24.1,
+      "bear": 18.3
+     },
+     "why": "How the street values the merged company: EV/EBITDA on FY28E / 12-month-forward EBITDA (Motilal Oswal 27x after minorities, ICICI Securities 28x, HDFC Securities 28x Q1FY29E, PL 32x pre-Ind AS after minorities). We apply the multiple to Sep-28E post-Ind AS EBITDA AFTER minorities (11% of EBITDA), with leases in net debt; 20.5x on consolidated EBITDA = 23.0x after minorities. 23.0x = the stock's 25.9x median look-through forward EV/EBITDA since the merger was announced (29-Nov-2024 to 30-Sep-2026: price x 87.17 cr post-merger shares + pro-forma net debt incl. leases, over the next full year's pro-forma EBITDA after minorities; no trough years) cut by the 11.5% median de-rating of seven listed hospital peers versus their five-year median EV/EBITDA on 30-Sep-2026 (Apollo, Max, Fortis, Narayana, Medanta, Jupiter, Rainbow; Aster excluded as the subject and because Screener divides the merged market value by Aster-only EBITDA; KIMS excluded because new-hospital losses inflate its trailing multiple, +49% vs its median) = 22.9x. Older history is not used: before FY25 the stock included the Gulf business, and Apr-Nov 2024 was Aster alone (forward ~27x). Bull 27.1x (the 75th percentile since the deal, no de-rating) = 24.1x consolidated; bear 20.6x (the lowest since the deal, Mar-2025) = 18.3x consolidated."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 46,
+      "bull": 55,
+      "bear": 40
+     },
+     "why": "Cross-check on earnings after minorities. 46x = the 52.1x median look-through forward P/E since the deal (price / next full year pro-forma EPS on 87.17 cr shares) cut by the 12.1% median P/E de-rating of the same seven peers = 45.8x. The house forwardMedian on Screener EPS returns no median from May-2024 (every year is a trough against FY25 EPS of Rs107.66, which includes the Rs4,981 cr GCC gain; all-points median ~52x), so the one-off-adjusted series is used. Bull 55x (75th percentile), bear 40x (post-deal low)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF (capex incl. new leases), cost of capital 11.6%, terminal growth 6%, less net debt including leases at Mar-27."
+    }
+   ]
+  }
+ },
+ "standalone": {
+  "_why": "Scenario only (the merger is done): legacy Aster valued on its own at the same multiple after minorities. Revenue +17% / +16% / +16% (Aster alone grew 22% in Q1FY27, 12% in FY26; Trivandrum, Hyderabad, Sarjapur add beds) and post-Ind AS margin 20.5 / 21.3 / 21.8% (FY26 19.4%, Q1FY27 20.2%); Aster minorities ~9% (Rs39 cr of Rs427 cr FY26 profit before minorities); net debt incl. leases ~Rs1,500 cr by Sep-28 (Rs892 cr at Mar-26 plus ~Rs2,350 cr of remaining project capex less operating cash), on the pre-merger 51.81 cr shares. GAM estimates.",
+  "revenue": [
+   5432,
+   6301,
+   7309
+  ],
+  "margin": [
+   20.5,
+   21.3,
+   21.8
+  ],
+  "minorityPct": 9,
+  "netDebtSep28": 1500
+ }
+}
