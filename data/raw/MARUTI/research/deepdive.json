@@ -1,0 +1,2142 @@
+{
+ "_meta": {
+  "compiledOn": "2026-10-23",
+  "scope": "Company-specific deep-dive layer for MARUTI initiation; complements company.json / industry.json / street.json (not duplicated).",
+  "notes": [
+   "Unit economics base = standalone AR abridged P&L (Rs mn) / total units (domestic + exports incl. sales to Toyota). FY25-FY26 = AR FY26 figures RESTATED for SMG amalgamation (appointed date 1-Apr-2025): Gujarat plant economics now in-house, so EBITDA/vehicle and D&A step up. FY18-FY24: Gujarat cars bought from SMG at cost under the CMA, so SMG depreciation and royalty sat inside RM cost.",
+   "realisationPerVehicle = net sales (vehicles + spares/components) / units. vehicleRevenuePerUnit = 'Vehicles' revenue line / units; FY15-FY17 vehicle line is GROSS of excise and FY18 includes Q1 excise, so not comparable with FY19+.",
+   "EBITDA = net sales + other operating revenue (+ sale of services FY25-26) - RM - employee - other expenses; EBIT = EBITDA - D&A. Derived; FY15-FY16 IGAAP, FY17+ Ind AS.",
+   "discountPerVehicle (annual) = 'Discount & incentives as per contract/scheme bulletins' deducted from gross contract price (Ind AS 115 revenue reconciliation note) / total units. Includes dealer incentives; broader than the consumer-discount figure quoted on calls. Not disclosed pre-FY18. Call/broker quarterly points in discountHistoryCalls.",
+   "royaltyPct = P&L royalty / standalone net sales. FY18-FY24 royalty on Gujarat-made cars was paid by SMG to SMC and embedded in MSIL's purchase price, so MSIL P&L royalty understates the group burden (Q3FY20: total 5.4% = MSIL 3.8% + SMG 1.6%, BOBCAPS). FY25-26 (merged) is the all-in basis: 3.47% / 3.09%. FY19 royalty restated to Rs44,983mn in AR FY20 (vs 37,926 as reported) - as-reported used.",
+   "R&D = Board's report 'Expenditure incurred on R&D' (capital + net revenue). FY25/FY26 per AR FY26 (3,795+2,083; 3,879+2,884) look narrower in basis than FY24 (9,135) - use with caution.",
+   "adPct = 'Advertisement' line / net sales; salesPromoPct = 'Sales promotion' line (excludes discounts netted from revenue)."
+  ]
+ },
+ "unitEconomics": [
+  {
+   "fy": "FY15",
+   "units": 1292415,
+   "realisationPerVehicle": 376083,
+   "vehicleRevenuePerUnit": 379759,
+   "ebitdaPerVehicle": 51941,
+   "ebitdaMarginPct": 13.4,
+   "ebitPerVehicle": 32827,
+   "employeeCostPerVehicle": 12431,
+   "discountPerVehicle": null,
+   "discountRsMn": null,
+   "royaltyPct": 5.47,
+   "royaltyCr": 2658,
+   "adPct": 0.95,
+   "adCr": 464,
+   "salesPromoPct": 0.62,
+   "salesPromoCr": 300,
+   "rndCr": 656,
+   "rndPct": 1.35,
+   "depreciationCr": 2470,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000315.pdf ; comparatives: https://www.bseindia.com/bseplus/AnnualReport/532500/5325000316.pdf"
+  },
+  {
+   "fy": "FY16",
+   "units": 1429248,
+   "realisationPerVehicle": 394266,
+   "vehicleRevenuePerUnit": 407872,
+   "ebitdaPerVehicle": 62820,
+   "ebitdaMarginPct": 15.5,
+   "ebitPerVehicle": 43062,
+   "employeeCostPerVehicle": 13914,
+   "discountPerVehicle": null,
+   "discountRsMn": null,
+   "royaltyPct": 5.76,
+   "royaltyCr": 3244,
+   "adPct": 1.37,
+   "adCr": 772,
+   "salesPromoPct": 0.81,
+   "salesPromoCr": 457,
+   "rndCr": 594,
+   "rndPct": 1.05,
+   "depreciationCr": 2824,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000316.pdf ; comparatives: https://www.bseindia.com/bseplus/AnnualReport/532500/5325000317.pdf"
+  },
+  {
+   "fy": "FY17",
+   "units": 1568603,
+   "realisationPerVehicle": 426554,
+   "vehicleRevenuePerUnit": 443868,
+   "ebitdaPerVehicle": 65993,
+   "ebitdaMarginPct": 15.2,
+   "ebitPerVehicle": 49404,
+   "employeeCostPerVehicle": 14860,
+   "discountPerVehicle": null,
+   "discountRsMn": null,
+   "royaltyPct": 5.75,
+   "royaltyCr": 3848,
+   "adPct": 1.24,
+   "adCr": 832,
+   "salesPromoPct": 0.82,
+   "salesPromoCr": 551,
+   "rndCr": 640,
+   "rndPct": 0.96,
+   "depreciationCr": 2602,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000317.pdf ; comparatives: https://www.bseindia.com/bseplus/AnnualReport/532500/5325000318.pdf"
+  },
+  {
+   "fy": "FY18",
+   "units": 1779574,
+   "realisationPerVehicle": 438896,
+   "vehicleRevenuePerUnit": 410949,
+   "ebitdaPerVehicle": 67777,
+   "ebitdaMarginPct": 15.1,
+   "ebitPerVehicle": 52280,
+   "employeeCostPerVehicle": 15924,
+   "discountPerVehicle": 19631,
+   "discountRsMn": 34934,
+   "royaltyPct": 4.82,
+   "royaltyCr": 3767,
+   "adPct": 1.11,
+   "adCr": 869,
+   "salesPromoPct": 1.07,
+   "salesPromoCr": 838,
+   "rndCr": 832,
+   "rndPct": 1.06,
+   "depreciationCr": 2758,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000318.pdf"
+  },
+  {
+   "fy": "FY19",
+   "units": 1862449,
+   "realisationPerVehicle": 445792,
+   "vehicleRevenuePerUnit": 401469,
+   "ebitdaPerVehicle": 59058,
+   "ebitdaMarginPct": 12.8,
+   "ebitPerVehicle": 42849,
+   "employeeCostPerVehicle": 17476,
+   "discountPerVehicle": 22334,
+   "discountRsMn": 41596,
+   "royaltyPct": 4.57,
+   "royaltyCr": 3793,
+   "adPct": 0.88,
+   "adCr": 734,
+   "salesPromoPct": 1.01,
+   "salesPromoCr": 837,
+   "rndCr": 713,
+   "rndPct": 0.86,
+   "depreciationCr": 3019,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000319.pdf"
+  },
+  {
+   "fy": "FY20",
+   "units": 1563297,
+   "realisationPerVehicle": 458585,
+   "vehicleRevenuePerUnit": 404444,
+   "ebitdaPerVehicle": 46713,
+   "ebitdaMarginPct": 9.7,
+   "ebitPerVehicle": 24160,
+   "employeeCostPerVehicle": 21646,
+   "discountPerVehicle": 29222,
+   "discountRsMn": 45683,
+   "royaltyPct": 5.32,
+   "royaltyCr": 3817,
+   "adPct": 0.93,
+   "adCr": 670,
+   "salesPromoPct": 0.74,
+   "salesPromoCr": 531,
+   "rndCr": 764,
+   "rndPct": 1.07,
+   "depreciationCr": 3526,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000320.pdf"
+  },
+  {
+   "fy": "FY21",
+   "units": 1457861,
+   "realisationPerVehicle": 456574,
+   "vehicleRevenuePerUnit": 404743,
+   "ebitdaPerVehicle": 36665,
+   "ebitdaMarginPct": 7.6,
+   "ebitPerVehicle": 15871,
+   "employeeCostPerVehicle": 23342,
+   "discountPerVehicle": 23958,
+   "discountRsMn": 34927,
+   "royaltyPct": 4.84,
+   "royaltyCr": 3222,
+   "adPct": 0.84,
+   "adCr": 561,
+   "salesPromoPct": 0.4,
+   "salesPromoCr": 268,
+   "rndCr": 626,
+   "rndPct": 0.94,
+   "depreciationCr": 3032,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/69235532500.pdf"
+  },
+  {
+   "fy": "FY22",
+   "units": 1652653,
+   "realisationPerVehicle": 507052,
+   "vehicleRevenuePerUnit": 446501,
+   "ebitdaPerVehicle": 34497,
+   "ebitdaMarginPct": 6.5,
+   "ebitPerVehicle": 17636,
+   "employeeCostPerVehicle": 24338,
+   "discountPerVehicle": 19521,
+   "discountRsMn": 32261,
+   "royaltyPct": 3.59,
+   "royaltyCr": 3005,
+   "adPct": 0.8,
+   "adCr": 668,
+   "salesPromoPct": 0.37,
+   "salesPromoCr": 307,
+   "rndCr": 423,
+   "rndPct": 0.51,
+   "depreciationCr": 2787,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf"
+  },
+  {
+   "fy": "FY23",
+   "units": 1966164,
+   "realisationPerVehicle": 572184,
+   "vehicleRevenuePerUnit": 500059,
+   "ebitdaPerVehicle": 55986,
+   "ebitdaMarginPct": 9.4,
+   "ebitPerVehicle": 41626,
+   "employeeCostPerVehicle": 23422,
+   "discountPerVehicle": 21127,
+   "discountRsMn": 41540,
+   "royaltyPct": 3.75,
+   "royaltyCr": 4222,
+   "adPct": 0.84,
+   "adCr": 948,
+   "salesPromoPct": 0.38,
+   "salesPromoCr": 429,
+   "rndCr": 765,
+   "rndPct": 0.68,
+   "depreciationCr": 2823,
+   "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4ebd5c99-ed36-4252-bc72-c301faae8dab.pdf"
+  },
+  {
+   "fy": "FY24",
+   "units": 2135323,
+   "realisationPerVehicle": 631932,
+   "vehicleRevenuePerUnit": 548116,
+   "ebitdaPerVehicle": 76809,
+   "ebitdaMarginPct": 11.6,
+   "ebitPerVehicle": 62655,
+   "employeeCostPerVehicle": 25656,
+   "discountPerVehicle": 24683,
+   "discountRsMn": 52706,
+   "royaltyPct": 3.64,
+   "royaltyCr": 4908,
+   "adPct": 0.77,
+   "adCr": 1041,
+   "salesPromoPct": 0.38,
+   "salesPromoCr": 517,
+   "rndCr": 914,
+   "rndPct": 0.68,
+   "depreciationCr": 3022,
+   "src": "https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf"
+  },
+  {
+   "fy": "FY25",
+   "units": 2234266,
+   "realisationPerVehicle": 649421,
+   "vehicleRevenuePerUnit": 562642,
+   "ebitdaPerVehicle": 90183,
+   "ebitdaMarginPct": 13.2,
+   "ebitPerVehicle": 65087,
+   "employeeCostPerVehicle": 31356,
+   "discountPerVehicle": 29811,
+   "discountRsMn": 66605,
+   "royaltyPct": 3.47,
+   "royaltyCr": 5038,
+   "adPct": 0.78,
+   "adCr": 1128,
+   "salesPromoPct": 0.42,
+   "salesPromoCr": 615,
+   "rndCr": 588,
+   "rndPct": 0.41,
+   "depreciationCr": 5607,
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf) [FY25 = restated for SMG amalgamation in AR FY26; FY25 standalone AR not retrieved]"
+  },
+  {
+   "fy": "FY26",
+   "units": 2422713,
+   "realisationPerVehicle": 719728,
+   "vehicleRevenuePerUnit": 604973,
+   "ebitdaPerVehicle": 88538,
+   "ebitdaMarginPct": 11.7,
+   "ebitPerVehicle": 60716,
+   "employeeCostPerVehicle": 37268,
+   "discountPerVehicle": 26588,
+   "discountRsMn": 64415,
+   "royaltyPct": 3.09,
+   "royaltyCr": 5392,
+   "adPct": 0.62,
+   "adCr": 1089,
+   "salesPromoPct": 0.31,
+   "salesPromoCr": 548,
+   "rndCr": 676,
+   "rndPct": 0.39,
+   "depreciationCr": 6741,
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+  }
+ ],
+ "discountHistoryCalls": [
+  {
+   "period": "Q2FY19",
+   "rs": 18700,
+   "src": "https://www.business-standard.com/amp/article/companies/high-discounts-commodity-prices-may-hurt-maruti-profits-for-oct-dec-119010600627_1.html"
+  },
+  {
+   "period": "Q3FY19",
+   "rs": 24300,
+   "note": "record at the time; 9MFY19 avg Rs19,200",
+   "src": "https://www.business-standard.com/article/companies/maruti-suzuki-s-q3-profit-misses-expectations-slips-17-to-rs-1-489-crore-119012501493_1.html"
+  },
+  {
+   "period": "Q3FY20",
+   "rs": 33000,
+   "note": "highest ever then; ~130-140bp margin hit",
+   "src": "https://www.barodaetrade.com/Reports/MarutiSuzuki-Q3FY20ResultReview29Jan20-Research.pdf"
+  },
+  {
+   "period": "Q2FY21",
+   "rs": 17300,
+   "src": "https://www.barodaetrade.com/Reports/MarutiSuzuki-Q2FY21ResultReview29Oct20-Research.pdf"
+  },
+  {
+   "period": "Q1FY23",
+   "rs": 12748,
+   "note": "'last year' per Q1FY24 call",
+   "src": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q1_FY24.pdf"
+  },
+  {
+   "period": "Q1FY24",
+   "rs": 13269,
+   "src": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q1_FY24.pdf"
+  },
+  {
+   "period": "Q2FY24",
+   "rs": 17700,
+   "src": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q2_FY24.pdf"
+  },
+  {
+   "period": "Q3FY24",
+   "rs": 23300,
+   "src": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q3_FY_24.pdf"
+  },
+  {
+   "period": "Q4FY24",
+   "rs": 14500,
+   "src": "https://deccanherald.com/business/companies/maruti-suzuki-profit-jumps-47-to-rs-3650-cr-in-april-june-quarter-3130484"
+  },
+  {
+   "period": "Q1FY25",
+   "rs": 21700,
+   "src": "https://deccanherald.com/business/companies/maruti-suzuki-profit-jumps-47-to-rs-3650-cr-in-april-june-quarter-3130484"
+  },
+  {
+   "period": "Q2FY25",
+   "rs": 29300,
+   "src": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q2_FY_25.pdf"
+  },
+  {
+   "period": "Q3FY25",
+   "rs": 30999,
+   "src": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q3_FY_25.pdf"
+  },
+  {
+   "period": "Q1FY26",
+   "rs": null,
+   "note": "'flat on a rupees per car basis' YoY",
+   "src": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q1_FY_26.pdf"
+  },
+  {
+   "period": "Q2FY26",
+   "rs": null,
+   "note": "analyst cited ~Rs30,000; not confirmed by mgmt",
+   "src": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q2_FY_26.pdf"
+  }
+ ],
+ "costStructure": {
+  "rmBasket": {
+   "asPctOfNetSales": {
+    "steel": "10-11%",
+    "aluminium": "~3%",
+    "copper": "~1%",
+    "pgm_platinum_palladium_rhodium": "~2.5%",
+    "plasticsOthers": null,
+    "asOf": "Q4FY24 call (Apr-2024)",
+    "src": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_24.pdf"
+   },
+   "steelShareOfCommodityBasket": "'almost half' of commodities consumed (CFO, Q2FY24 call, 27-Oct-2023)",
+   "steelSrc": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q2_FY24.pdf",
+   "pgmPerVehicle": "Rs25,000-30,000 per unit precious-metal cost (analyst figure in Q1FY24 call; CFO did not dispute)",
+   "pgmSrc": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q1_FY24.pdf",
+   "rmToNetSalesPct": {
+    "FY15": 72,
+    "FY16": 68.8,
+    "FY17": 69.7,
+    "FY18": 70.3,
+    "FY19": 72.4,
+    "FY20": 74,
+    "FY21": 76.2,
+    "FY22": 78.6,
+    "FY23": 76.5,
+    "FY24": 74.4,
+    "FY25": 73.8,
+    "FY26": 75.9,
+    "note": "RM, components & traded goods / net sales; FY25-26 restated merged basis",
+    "src": "Annual reports abridged P&L (see unitEconomics src)"
+   }
+  },
+  "importContent": {
+   "directImportedRmPctOfConsumption": {
+    "FY14": 9,
+    "FY15": 7,
+    "FY16": 7,
+    "FY17": 8,
+    "FY18": 7,
+    "FY19": 7,
+    "FY20": 6,
+    "FY21": 6,
+    "FY22": 7,
+    "FY23": 4,
+    "FY24": 4,
+    "FY25": null,
+    "FY26": null,
+    "note": "AR note 'Value of imported and indigenous materials consumed' (direct imports only, standalone)",
+    "src": "AR FY15-FY24 (URLs in unitEconomics)"
+   },
+   "importedRmRsMn": {
+    "FY14": 26571,
+    "FY15": 23953,
+    "FY16": 26158,
+    "FY17": 33221,
+    "FY18": 29965,
+    "FY19": 29489,
+    "FY20": 20193,
+    "FY21": 20960,
+    "FY22": 29713,
+    "FY23": 20332,
+    "FY24": 18017
+   },
+   "forexExposureGuidance": "FY25 guidance: direct import exposure ~3% of net sales (2.5% JPY, 0.5% USD); indirect via vendors (~1-quarter lag) ~4% JPY, ~4.6% USD, ~1.2% EUR (CFO, Q4FY24 call)",
+   "forexSrc": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_24.pdf",
+   "fxCashFlowsRsMn": {
+    "FY15": {
+     "inflow": 51550,
+     "outflow": 82986
+    },
+    "FY16": {
+     "inflow": 46728,
+     "outflow": 81201
+    },
+    "FY18": {
+     "inflow": 54559,
+     "outflow": 93284
+    },
+    "FY19": {
+     "inflow": 52186,
+     "outflow": 128027
+    },
+    "FY20": {
+     "inflow": 54246,
+     "outflow": 90990
+    },
+    "FY21": {
+     "inflow": 45857,
+     "outflow": 78550
+    },
+    "FY22": {
+     "inflow": 110642,
+     "outflow": 74672
+    },
+    "FY23": {
+     "inflow": 158306,
+     "outflow": 67170
+    },
+    "FY24": {
+     "inflow": 184745,
+     "outflow": 76320
+    },
+    "FY26": {
+     "inflow": 346964,
+     "outflow": 180103
+    },
+    "note": "Board's report 'Foreign exchange earnings and outgo (cash basis)'. Net FX earner from FY22 (exports) = natural hedge. FY26 outflow jump likely e Vitara cells/SMC parts (inference).",
+    "src": "AR FY15-FY26"
+   },
+   "cifImportsRsMn": {
+    "FY14": {
+     "rm": 30955,
+     "capitalGoods": 17312
+    },
+    "FY15": {
+     "rm": 31818,
+     "capitalGoods": 10112
+    },
+    "FY16": {
+     "rm": 33632,
+     "capitalGoods": 7383
+    },
+    "FY17": {
+     "rm": 37254,
+     "capitalGoods": 14818
+    },
+    "src": "AR FY15-FY17 note 'CIF value of imports'"
+   },
+   "jpyBalanceSheetSensitivityRsMn": {
+    "basis": "P&L impact of 10% INR move vs JPY on outstanding monetary items (Ind AS 107)",
+    "FY17": 1632,
+    "FY18": 1529,
+    "FY19": 1021,
+    "FY20": 1081,
+    "FY21": 952,
+    "FY22": 736,
+    "FY23": 593,
+    "FY24": 491,
+    "FY26consolidated": 1396,
+    "note": "Translation sensitivity only; management 'x bps per 1% yen' NOT disclosed",
+    "src": "AR FY18-FY26 financial-risk note"
+   },
+   "marginWalkFx": [
+    "Q3FY25 forex adverse ~20bp (yen)",
+    "Q1FY26 forex adverse ~40bp",
+    "Q3FY26 forex adverse ~15bp; PGM ~60bp discussed"
+   ],
+   "marginWalkSrc": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q3_FY_25.pdf ; https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q1_FY_26.pdf ; https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q3_FY_26.pdf"
+  },
+  "localisation": {
+   "statement": "'The Company has minimal import content but is still working on an ambitious plan to reduce it significantly' (AR FY20). ~88% of Tier-1 plants within 100km (FY18); localisation savings Rs60.5cr FY18, Rs27.5cr FY19, Rs57.2cr FY20; total cost-reduction savings Rs223.8cr FY22, Rs498.7cr FY23.",
+   "localisationPctOverall": null,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000318.pdf ; https://www.bseindia.com/bseplus/AnnualReport/532500/5325000320.pdf ; https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf ; https://www.bseindia.com/xml-data/corpfiling/AttachHis/4ebd5c99-ed36-4252-bc72-c301faae8dab.pdf"
+  }
+ },
+ "portfolio": [
+  {
+   "model": "Alto K10",
+   "segment": "mini",
+   "channel": "Arena",
+   "launched": "2010 (gen 2022)",
+   "priceLakh": "3.70-5.45",
+   "fy26Volume": 93740,
+   "segmentShare": null,
+   "rival": "Renault Kwid",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "S-Presso",
+   "segment": "mini",
+   "channel": "Arena",
+   "launched": "2019",
+   "priceLakh": "3.50-5.25",
+   "fy26Volume": 18551,
+   "segmentShare": null,
+   "rival": "Renault Kwid",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Celerio",
+   "segment": "compact hatch",
+   "channel": "Arena",
+   "launched": "2014 (gen 2021)",
+   "priceLakh": "4.70-6.75",
+   "fy26Volume": 18005,
+   "segmentShare": null,
+   "rival": "Tata Tiago",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Wagon R",
+   "segment": "compact hatch",
+   "channel": "Arena",
+   "launched": "1999 (gen 2019)",
+   "priceLakh": "4.99-7.24",
+   "fy26Volume": 180134,
+   "segmentShare": null,
+   "rival": "Tata Tiago",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Swift",
+   "segment": "compact hatch",
+   "channel": "Arena",
+   "launched": "2005 (gen 2024)",
+   "priceLakh": "5.84-8.74",
+   "fy26Volume": 185350,
+   "segmentShare": null,
+   "rival": "Hyundai Grand i10 Nios",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Ignis",
+   "segment": "compact hatch",
+   "channel": "Nexa",
+   "launched": "2017",
+   "priceLakh": "5.35-7.42",
+   "fy26Volume": 22924,
+   "segmentShare": null,
+   "rival": "Tata Punch",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Baleno",
+   "segment": "premium hatch",
+   "channel": "Nexa",
+   "launched": "2015 (gen 2022)",
+   "priceLakh": "5.99-9.99",
+   "fy26Volume": 172560,
+   "segmentShare": "Maruti ~70% of premium hatch (mgmt, Sep-2026)",
+   "rival": "Hyundai i20 / Tata Altroz",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Dzire",
+   "segment": "compact sedan",
+   "channel": "Arena",
+   "launched": "2008 (gen 2024)",
+   "priceLakh": "6.31-9.41",
+   "fy26Volume": 229130,
+   "segmentShare": "51-67% of sedan segment monthly, Apr-Sep 2026; India's #1 car FY26",
+   "rival": "Hyundai Aura / Honda Amaze",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Ciaz",
+   "segment": "mid sedan",
+   "channel": "Nexa",
+   "launched": "2014 (discontinued Apr-2025)",
+   "priceLakh": null,
+   "fy26Volume": 1980,
+   "segmentShare": null,
+   "rival": "Honda City / Hyundai Verna",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Fronx",
+   "segment": "compact SUV <4m",
+   "channel": "Nexa",
+   "launched": "2023",
+   "priceLakh": "6.85-11.84",
+   "fy26Volume": 172363,
+   "segmentShare": null,
+   "rival": "Tata Punch / Nexon",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Brezza",
+   "segment": "compact SUV <4m",
+   "channel": "Arena",
+   "launched": "2016 (gen 2022; 2026 facelift)",
+   "priceLakh": "7.40-13.55",
+   "fy26Volume": 180104,
+   "segmentShare": null,
+   "rival": "Tata Nexon",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Jimny 5-door",
+   "segment": "compact SUV <4m (off-roader)",
+   "channel": "Nexa",
+   "launched": "2023",
+   "priceLakh": "12.39-14.36",
+   "fy26Volume": 6675,
+   "segmentShare": null,
+   "rival": "Mahindra Thar",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Grand Vitara",
+   "segment": "mid-SUV",
+   "channel": "Nexa",
+   "launched": "2022",
+   "priceLakh": "10.77-19.62",
+   "fy26Volume": 86973,
+   "segmentShare": null,
+   "rival": "Hyundai Creta / Toyota Hyryder",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Victoris",
+   "segment": "mid-SUV",
+   "channel": "Arena",
+   "launched": "Sep-2025",
+   "priceLakh": "10.50-19.99",
+   "fy26Volume": 75590,
+   "segmentShare": "15-18% of 4.2-4.5m SUV segment Apr-Jun 2026",
+   "rival": "Hyundai Creta",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "e Vitara",
+   "segment": "BEV mid-SUV",
+   "channel": "Nexa",
+   "launched": "Feb-2026 India (exports Aug-2025)",
+   "priceLakh": "16.19-19.99 (BaaS 10.99-14.29 + Rs3.99/km)",
+   "fy26Volume": 3652,
+   "segmentShare": null,
+   "rival": "Hyundai Creta Electric / Tata Curvv EV",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Ertiga",
+   "segment": "MPV",
+   "channel": "Arena",
+   "launched": "2012 (gen 2018)",
+   "priceLakh": "8.90-13.04",
+   "fy26Volume": 198876,
+   "segmentShare": "~43% of top-10 MPV volume Aug-2026",
+   "rival": "Kia Carens",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "XL6",
+   "segment": "MPV",
+   "channel": "Nexa",
+   "launched": "2019",
+   "priceLakh": "11.62-14.42",
+   "fy26Volume": 37159,
+   "segmentShare": null,
+   "rival": "Kia Carens",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Invicto",
+   "segment": "MPV (Toyota-made)",
+   "channel": "Nexa",
+   "launched": "2023",
+   "priceLakh": "24.97-28.60",
+   "fy26Volume": 3247,
+   "segmentShare": null,
+   "rival": "Toyota Innova Hycross",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Eeco",
+   "segment": "van",
+   "channel": "Arena",
+   "launched": "2010",
+   "priceLakh": "5.28-6.46",
+   "fy26Volume": 139769,
+   "segmentShare": "~100% of van segment",
+   "rival": "none direct",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  },
+  {
+   "model": "Super Carry",
+   "segment": "LCV",
+   "channel": "Commercial",
+   "launched": "2016",
+   "priceLakh": null,
+   "fy26Volume": 38574,
+   "segmentShare": null,
+   "rival": "Tata Ace",
+   "src": "Volumes (FY26 domestic wholesale): https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/ ; prices (ex-showroom, Oct-2026): https://www.autocarindia.com/cars/maruti-suzuki ; launch years partly general knowledge - verify"
+  }
+ ],
+ "portfolioExportsFY26": {
+  "Fronx": 90186,
+  "Jimny": 72209,
+  "Swift": 53661,
+  "Baleno": 41032,
+  "Dzire": 40979,
+  "S-Presso": 40210,
+  "e Vitara": 25549,
+  "Celerio": 23527,
+  "Ertiga": 20525,
+  "Grand Vitara": 11913,
+  "Eeco": 10510,
+  "src": "https://www.autopunditz.com/post/indian-car-export-figures-fy2026"
+ },
+ "portfolioNotes": "PV model rows sum to 1,823,130 (FY26 domestic PV). e Vitara domestic derived (Jan-Mar 2026 dispatches). Super Carry derived (domestic 1,861,704 - PV). Nexa share of Maruti domestic: FY16 ~5%, FY24 32% (561,050), FY25 31% (543,050), FY26 ~27.6% derived (https://www.autocarpro.in/analysis-sales/327-million-nexa-vehicles-sold-in-10-years-21-share-of-maruti-suzuki-sales-128104). Share of sales above Rs10 lakh: NOT FOUND.",
+ "segmentShares": [
+  {
+   "segment": "Overall PV (wholesale)",
+   "marutiShare": 41.6,
+   "year": "FY24",
+   "src": "https://www.globalsuzuki.com/ir/library/meeting/pdf/meeting.pdf"
+  },
+  {
+   "segment": "Overall PV (wholesale)",
+   "marutiShare": 40.6,
+   "year": "FY25",
+   "src": "https://www.globalsuzuki.com/ir/library/meeting/pdf/meeting.pdf"
+  },
+  {
+   "segment": "Overall PV (wholesale)",
+   "marutiShare": 38.7,
+   "year": "FY26",
+   "src": "https://www.globalsuzuki.com/ir/library/meeting/pdf/meeting.pdf"
+  },
+  {
+   "segment": "Overall PV (wholesale)",
+   "marutiShare": 41,
+   "year": "Q1FY27",
+   "src": "https://www.globalsuzuki.com/ir/library/meeting/pdf/meeting.pdf"
+  },
+  {
+   "segment": "SUV",
+   "marutiShare": 16.8,
+   "year": "FY20",
+   "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5e535086-f03f-40be-97bd-e966c116c483.pdf"
+  },
+  {
+   "segment": "SUV",
+   "marutiShare": 20,
+   "year": "FY25 (approx.)",
+   "src": "https://www.outlookbusiness.com/news/maruti-suzuki-loses-market-grip-amid-suv-shift-share-slips-to-13-year-low-in-fy26"
+  },
+  {
+   "segment": "SUV",
+   "marutiShare": 19.6,
+   "year": "FY26 Apr-Feb",
+   "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5e535086-f03f-40be-97bd-e966c116c483.pdf"
+  },
+  {
+   "segment": "SUV",
+   "marutiShare": 27,
+   "year": "May-2026 (Emkay, single month)",
+   "src": "https://www.business-standard.com/companies/news/industry-auto-maruti-bets-on-premium-hatchbacks-as-demand-outpaces-industry-126090600219_1.html"
+  },
+  {
+   "segment": "Premium hatch",
+   "marutiShare": 70,
+   "year": "2026 (mgmt, approx.)",
+   "src": "https://www.business-standard.com/companies/news/industry-auto-maruti-bets-on-premium-hatchbacks-as-demand-outpaces-industry-126090600219_1.html"
+  },
+  {
+   "segment": "Sub-4m cars overall",
+   "marutiShare": 67,
+   "year": "FY26 (approx.)",
+   "src": "https://www.outlookbusiness.com/news/maruti-suzuki-loses-market-grip-amid-suv-shift-share-slips-to-13-year-low-in-fy26"
+  },
+  {
+   "segment": "Small cars <=909kg (CAFE carve-out debate)",
+   "marutiShare": 95,
+   "year": "2025",
+   "src": "https://www.5paisa.com/index.php/blog/cafe-3-norms-finalised-without-separate-relief-for-small-cars-new-rules-from-april-2027"
+  },
+  {
+   "segment": "Vans",
+   "marutiShare": 100,
+   "year": "FY26 (approx., Eeco)",
+   "src": "https://www.gaadiwaadi.com/maruti-suzuki-fy26-sales-analysis-dzire-ertiga-swift-wagonr-brezza-victoris/"
+  },
+  {
+   "segment": "CNG PVs",
+   "marutiShare": 69.8,
+   "year": "FY26 (Vahan retail)",
+   "src": "https://www.autopunditz.com/post/cng-car-sales-in-india-model-wise-analysis-for-fy2026"
+  },
+  {
+   "segment": "CNG PVs",
+   "marutiShare": 71,
+   "year": "Q1FY27",
+   "src": "https://www.autopunditz.com/post/cng-car-sales-in-india-model-wise-analysis-for-fy2026"
+  },
+  {
+   "segment": "Strong hybrids",
+   "marutiShare": 17,
+   "year": "FY25",
+   "src": "https://www.autocarpro.in/analysis-sales/toyota-india-rules-strong-hybrid-car-suv-and-mpv-market-with-81-share-in-q1-fy2026-127731"
+  },
+  {
+   "segment": "Strong hybrids",
+   "marutiShare": 16.5,
+   "year": "FY26 (derived)",
+   "src": "https://www.autopunditz.com/post/hybrid-cars-sales-in-india-fy2026-analysis"
+  },
+  {
+   "segment": "Mini / compact hatch / compact sedan / compact SUV / mid-SUV / MPV (full-year)",
+   "marutiShare": null,
+   "year": "FY24-FY26",
+   "src": null,
+   "note": "Not found as full-year shares; only monthly Rushlane/Autopunditz data"
+  }
+ ],
+ "powertrainMix": [
+  {
+   "fy": "FY18",
+   "cng": 74597,
+   "cngPct": null,
+   "diesel": 474953,
+   "dieselPct": 29,
+   "hybrid": null,
+   "ev": 0,
+   "petrol": null,
+   "src": "https://www.autocarindia.com/car-news-amp/what-next-for-maruti-diesels-412514 ; CNG (PV+LCV) chart in https://www.bseindia.com/xml-data/corpfiling/AttachHis/4ebd5c99-ed36-4252-bc72-c301faae8dab.pdf"
+  },
+  {
+   "fy": "FY19",
+   "cng": "~105-106k",
+   "cngPct": null,
+   "diesel": 441091,
+   "dieselPct": 25,
+   "hybrid": null,
+   "ev": 0,
+   "petrol": null,
+   "note": "The Week gives 4.63 lakh / 23% diesel - conflict",
+   "src": "https://www.autocarindia.com/car-news-amp/what-next-for-maruti-diesels-412514"
+  },
+  {
+   "fy": "FY20",
+   "cng": "~105-106k",
+   "cngPct": null,
+   "diesel": null,
+   "dieselPct": null,
+   "hybrid": null,
+   "ev": 0,
+   "petrol": null,
+   "note": "Diesel discontinued from 1-Apr-2020 (BS-VI)",
+   "src": "https://www.autocarpro.in/news-national/cng-variants-high-on-marutis-order-backlog-81679"
+  },
+  {
+   "fy": "FY21",
+   "cng": 157954,
+   "cngPct": 11.9,
+   "diesel": 0,
+   "hybrid": null,
+   "ev": 0,
+   "petrol": null,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf"
+  },
+  {
+   "fy": "FY22",
+   "cng": 234196,
+   "cngPct": 17.2,
+   "diesel": 0,
+   "hybrid": null,
+   "ev": 0,
+   "petrol": null,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf"
+  },
+  {
+   "fy": "FY23",
+   "cng": 328798,
+   "cngPct": 20,
+   "greenPct": 37,
+   "diesel": 0,
+   "hybrid": null,
+   "ev": 0,
+   "petrol": null,
+   "note": "green = CNG + mild + strong hybrid",
+   "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4ebd5c99-ed36-4252-bc72-c301faae8dab.pdf ; https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf"
+  },
+  {
+   "fy": "FY24",
+   "cng": 483000,
+   "cngPct": 27,
+   "greenPct": 42,
+   "diesel": 0,
+   "hybrid": null,
+   "ev": 0,
+   "petrol": null,
+   "src": "https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf ; https://www.globalsuzuki.com/ir/library/meeting/pdf/meeting.pdf"
+  },
+  {
+   "fy": "FY25",
+   "cng": 620000,
+   "cngPct": 35,
+   "strongHybridUnits": 13829,
+   "diesel": 0,
+   "ev": 0,
+   "petrol": null,
+   "src": "https://www.globalsuzuki.com/ir/library/meeting/pdf/meeting.pdf ; https://www.autopunditz.com/post/hybrid-cars-sales-in-india-fy2026-analysis"
+  },
+  {
+   "fy": "FY26",
+   "cng": 746000,
+   "cngPct": 40,
+   "strongHybridUnits": 20336,
+   "evDomestic": 3652,
+   "evExports": 25549,
+   "diesel": 0,
+   "petrol": null,
+   "note": "CNG 7.46 lakh per Chairman (AR FY26); Suzuki deck ~740k; FY27 target ~9 lakh. Strong-hybrid units = Vahan retail, derived.",
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf) ; https://www.autopunditz.com/post/hybrid-cars-sales-in-india-fy2026-analysis"
+  },
+  {
+   "fy": "Q1FY27",
+   "cng": 218000,
+   "cngPct": 41,
+   "hybridInclMild": 61000,
+   "hybridPct": 11,
+   "greenPct": 52,
+   "evDomestic": "~5k",
+   "src": "https://www.globalsuzuki.com/ir/library/meeting/pdf/meeting.pdf"
+  }
+ ],
+ "distribution": [
+  {
+   "fy": "FY15",
+   "salesOutlets": 1619,
+   "arena": 1619,
+   "nexa": 0,
+   "commercial": 0,
+   "cities": null,
+   "serviceWorkshops": 3089,
+   "serviceCities": 1471,
+   "ruralShare": null,
+   "firstTimeBuyers": null,
+   "financePenetration": 75,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000316.pdf ; https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf"
+  },
+  {
+   "fy": "FY16",
+   "salesOutlets": 1947,
+   "arena": 1820,
+   "nexa": 127,
+   "commercial": 0,
+   "cities": null,
+   "serviceWorkshops": 3145,
+   "serviceCities": 1506,
+   "ruralShare": null,
+   "firstTimeBuyers": null,
+   "financePenetration": 77,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000316.pdf"
+  },
+  {
+   "fy": "FY17",
+   "salesOutlets": 2312,
+   "arena": 2020,
+   "nexa": 252,
+   "commercial": 40,
+   "cities": null,
+   "serviceWorkshops": 3305,
+   "serviceCities": 1570,
+   "ruralShare": null,
+   "firstTimeBuyers": null,
+   "financePenetration": 77,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf (network chart) ; https://www.bseindia.com/bseplus/AnnualReport/532500/5325000317.pdf"
+  },
+  {
+   "fy": "FY18",
+   "salesOutlets": 2627,
+   "arena": 2121,
+   "nexa": 316,
+   "commercial": 190,
+   "trueValue": 154,
+   "cities": null,
+   "serviceWorkshops": 3403,
+   "serviceCities": 1659,
+   "ruralShare": null,
+   "firstTimeBuyers": null,
+   "financePenetration": 80,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000318.pdf ; https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf"
+  },
+  {
+   "fy": "FY19",
+   "salesOutlets": 2934,
+   "arena": 2264,
+   "nexa": 360,
+   "commercial": 310,
+   "cities": null,
+   "serviceWorkshops": 3614,
+   "serviceCities": 1784,
+   "ruralShare": null,
+   "firstTimeBuyers": 48,
+   "financePenetration": null,
+   "note": "customer profile 48/22/30 - assignment inferred",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000319.pdf ; https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf"
+  },
+  {
+   "fy": "FY20",
+   "salesOutlets": 3086,
+   "arena": 2390,
+   "nexa": 375,
+   "commercial": 321,
+   "trueValue": 280,
+   "cities": null,
+   "serviceWorkshops": 3864,
+   "serviceCities": 1914,
+   "ruralShare": 38.4,
+   "firstTimeBuyers": null,
+   "financePenetration": null,
+   "note": "rural derived from FY21 (+2.5pp to 40.9%); BOBCAPS Q3FY20 '~38%'",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000320.pdf ; https://www.bseindia.com/bseplus/AnnualReport/532500/69235532500.pdf"
+  },
+  {
+   "fy": "FY21",
+   "salesOutlets": 3120,
+   "arena": 2413,
+   "nexa": 380,
+   "commercial": 327,
+   "cities": null,
+   "serviceWorkshops": 4044,
+   "serviceCities": 2014,
+   "ruralShare": 40.9,
+   "firstTimeBuyers": null,
+   "financePenetration": 80,
+   "note": "finance penetration Q2FY21 (BOBCAPS)",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/69235532500.pdf ; https://www.barodaetrade.com/Reports/MarutiSuzuki-Q2FY21ResultReview29Oct20-Research.pdf"
+  },
+  {
+   "fy": "FY22",
+   "salesOutlets": 3357,
+   "arena": 2588,
+   "nexa": 410,
+   "commercial": 359,
+   "cities": null,
+   "serviceWorkshops": 4254,
+   "serviceCities": 2134,
+   "ruralShare": 43.6,
+   "firstTimeBuyers": null,
+   "financePenetration": null,
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf"
+  },
+  {
+   "fy": "FY23",
+   "salesOutlets": 3640,
+   "arena": 2801,
+   "nexa": 460,
+   "commercial": 379,
+   "cities": null,
+   "serviceWorkshops": 4564,
+   "serviceCities": 2304,
+   "ruralShare": 44.5,
+   "firstTimeBuyers": 42,
+   "mssfShareOfBuyers": 33,
+   "financePenetration": null,
+   "note": "Nexa 460 = 410 + 50 added; commercial derived; AR FY26 chart shows FY23 total 3,570 (conflict); rural '~1pp up to ~44%'",
+   "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4ebd5c99-ed36-4252-bc72-c301faae8dab.pdf"
+  },
+  {
+   "fy": "FY24",
+   "salesOutlets": 3863,
+   "arena": 2987,
+   "nexa": 495,
+   "commercial": 381,
+   "cities": null,
+   "serviceWorkshops": 4964,
+   "serviceCities": 2519,
+   "ruralShare": 45,
+   "firstTimeBuyers": 40,
+   "mssfShareOfBuyers": 37,
+   "financePenetration": null,
+   "note": "customer profile 40/22/38 assignment inferred",
+   "src": "https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf"
+  },
+  {
+   "fy": "FY25",
+   "salesOutlets": 4235,
+   "arena": 3232,
+   "nexa": 630,
+   "commercial": 373,
+   "cities": null,
+   "serviceWorkshops": 5424,
+   "serviceCities": null,
+   "ruralShare": 48,
+   "firstTimeBuyers": 40,
+   "financePenetration": null,
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+  },
+  {
+   "fy": "FY26",
+   "salesOutlets": 4601,
+   "arena": 3482,
+   "nexa": 751,
+   "commercial": 368,
+   "trueValue": 641,
+   "cities": "Arena 2,968; Nexa 540; Commercial 264; True Value 328 cities",
+   "serviceWorkshops": 5926,
+   "serviceCities": 2959,
+   "ruralShare": 52,
+   "firstTimeBuyers": 46,
+   "financePenetration": null,
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+  }
+ ],
+ "distributionNotes": "Outlet counts exclude True Value. FY26: 366 outlets added; >2,900 outlets in non-urban markets; QRT 806 vehicles / 457 cities; service-on-wheels 541-594. Service workshops = 'touchpoints' from FY22. Maruti Driving School count NOT FOUND. MSSF >1mn loans by FY24. Quarterly first-time-buyer data in company.json.",
+ "plants": [
+  {
+   "name": "Gurugram (Haryana)",
+   "capacity": "~700,000 (Suzuki chart)",
+   "started": 1983,
+   "notes": "Original JV plant, land-locked; relocation to Kharkhoda approved 2022 (900 acres, Rs18,000cr for 3x250k plants), exit to take 'years'; no wind-down timeline found as of Oct-2026; also houses R&D and TAG building.",
+   "src": "https://indiainfrahub.com/news/maruti-to-shift-from-gurugram-but-remain-in-haryana-gets-nod-for-900-acre-land-in-kharkhoda-for-new-facility/ ; https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e535086-f03f-40be-97bd-e966c116c483.pdf"
+  },
+  {
+   "name": "Manesar (Haryana)",
+   "capacity": "~900,000 (incl. +100k Mar-2024)",
+   "started": 2006,
+   "notes": "Gurugram+Manesar AR installed capacity: 1.49mn FY15 -> 1.576mn FY19, re-rated 1.308mn FY20-21, 1.30mn FY22-24; rail siding",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000320.pdf ; https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf ; https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_24.pdf"
+  },
+  {
+   "name": "Hansalpur, Gujarat (ex-SMG) Plant A",
+   "capacity": 250000,
+   "started": "Feb-2017",
+   "notes": "Baleno + Toyota models",
+   "src": "https://www.globalsuzuki.com/globalnews/2023/1206a.html"
+  },
+  {
+   "name": "Hansalpur Plant B",
+   "capacity": 250000,
+   "started": "Jan-2019",
+   "notes": "Swift, Dzire",
+   "src": "https://www.globalsuzuki.com/globalnews/2023/1206a.html"
+  },
+  {
+   "name": "Hansalpur Plant C",
+   "capacity": 250000,
+   "started": "Apr-2021",
+   "notes": "Dzire, Fronx; FY23 SMG output ~675k; SMG acquired Nov-2023 (Rs12,841cr share swap), amalgamated 1-Dec-2025",
+   "src": "https://www.globalsuzuki.com/globalnews/2023/1206a.html"
+  },
+  {
+   "name": "Hansalpur Plant D (4th line)",
+   "capacity": 250000,
+   "started": "Jul-2026",
+   "notes": "Hansalpur -> 1mn, Suzuki's largest plant worldwide; e Vitara BEV from Aug-2025",
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+  },
+  {
+   "name": "Kharkhoda (Haryana) P1",
+   "capacity": 250000,
+   "started": "Feb-2025",
+   "notes": "Greenfield; Brezza",
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+  },
+  {
+   "name": "Kharkhoda P2",
+   "capacity": 250000,
+   "started": "May-2026",
+   "notes": "Brezza/Victoris; site scalable to 1mn; 3rd line under construction",
+   "src": "https://www.automotiveworld.com/news/maruti-suzuki-opens-second-kharkhoda-plant-in-india/ ; https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+  },
+  {
+   "name": "Khoraj / Sanand (Gujarat) greenfield",
+   "capacity": "1,000,000 planned (Phase 1 250k by 2029, Rs10,189cr)",
+   "started": "under development",
+   "notes": "Proposed investment Rs35,000cr; installed capacity 2.9mn end-FY27, 3.65mn end-FY31 (Chairman, AR FY26); SMC (Sep-2026) cites ~4mn 'from FY2030' - conflict",
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf) ; https://www.autocarpro.in/news/maruti-suzuki-approves-%e2%82%b910189-crore-capacity-expansion-at-khoraj-industrial-estate-131791"
+  },
+  {
+   "name": "TDSG battery plant, Hansalpur (Suzuki 50/Toshiba 40/Denso 10)",
+   "capacity": null,
+   "started": "2021",
+   "notes": "LTO cells/packs for hybrids; Rs4,930cr MoU (2019); hybrid-battery electrode localisation Aug-2025",
+   "src": "https://battery-tech.net/company/tds-lithium-ion-battery-gujarat-private-limited/"
+  }
+ ],
+ "utilisation": [
+  {
+   "fy": "FY15",
+   "capacity": 1490000,
+   "production": 1308537,
+   "utilisation": 87.8,
+   "basis": "standalone (Gurugram+Manesar)",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000315.pdf"
+  },
+  {
+   "fy": "FY16",
+   "capacity": 1522000,
+   "production": 1424330,
+   "utilisation": 93.6,
+   "basis": "standalone",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000316.pdf"
+  },
+  {
+   "fy": "FY17",
+   "capacity": 1555000,
+   "production": 1573414,
+   "utilisation": 101.2,
+   "basis": "standalone; SMG Plant A from Feb-17",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000317.pdf"
+  },
+  {
+   "fy": "FY18",
+   "capacity": 1566800,
+   "production": 1624487,
+   "utilisation": 103.7,
+   "basis": "standalone; Suzuki India total 1,781k",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000318.pdf"
+  },
+  {
+   "fy": "FY19",
+   "capacity": 1576000,
+   "production": 1562938,
+   "utilisation": 99.2,
+   "basis": "standalone; Suzuki India total 1,850k; SMG Plant B from Jan-19",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000319.pdf"
+  },
+  {
+   "fy": "FY20",
+   "capacity": 1308000,
+   "production": 1171800,
+   "utilisation": 89.6,
+   "basis": "standalone (capacity re-rated)",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000320.pdf"
+  },
+  {
+   "fy": "FY21",
+   "capacity": 1308000,
+   "production": 1075530,
+   "utilisation": 82.2,
+   "basis": "standalone",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/69235532500.pdf"
+  },
+  {
+   "fy": "FY22",
+   "capacity": 1300000,
+   "production": 1116908,
+   "utilisation": 85.9,
+   "basis": "standalone (capacity per FY23 AR comparative)",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf ; https://www.bseindia.com/xml-data/corpfiling/AttachHis/4ebd5c99-ed36-4252-bc72-c301faae8dab.pdf"
+  },
+  {
+   "fy": "FY23",
+   "capacity": 2050000,
+   "production": 1922000,
+   "utilisation": 93.8,
+   "basis": "group: standalone 1,246,603/1.30mn (95.9%) + SMG ~675k/750k (90%)",
+   "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4ebd5c99-ed36-4252-bc72-c301faae8dab.pdf ; https://www.globalsuzuki.com/globalnews/2023/1206a.html"
+  },
+  {
+   "fy": "FY24",
+   "capacity": 2350000,
+   "production": 1984579,
+   "utilisation": 84.5,
+   "basis": "group (MSIL+SMG); standalone 1,158,897/1.30mn = 89.1%",
+   "src": "https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf ; https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+  },
+  {
+   "fy": "FY25",
+   "capacity": 2400000,
+   "production": 2102808,
+   "utilisation": 87.6,
+   "basis": "merged installed capacity per AR FY26 note",
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+  },
+  {
+   "fy": "FY26",
+   "capacity": 2400000,
+   "production": 2347792,
+   "utilisation": 97.8,
+   "basis": "merged; 'nearly full utilisation in H2FY26'",
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+  }
+ ],
+ "utilisationCrossCheckSMC": {
+  "indiaProductionK": {
+   "FY15": 1308,
+   "FY16": 1424,
+   "FY17": 1585,
+   "FY18": 1781,
+   "FY19": 1850,
+   "FY20": 1580,
+   "FY21": 1440,
+   "FY22": 1659,
+   "FY23": 1922,
+   "FY24": 1984,
+   "FY25": 2102,
+   "FY26": 2347
+  },
+  "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2025/financial_reference.pdf (and prior-year financial_reference.pdf)"
+ },
+ "capexDepreciation": {
+  "capexRsMn": {
+   "FY14": 34984,
+   "FY15": 32468,
+   "FY16": 24663,
+   "FY17": 32498,
+   "FY18": 38918,
+   "FY19": 47447,
+   "FY20": 31936,
+   "FY21": 21316,
+   "FY22": 32057,
+   "FY23": 61154,
+   "FY24": 67269,
+   "FY24consolidated": 89162,
+   "FY25": 102310,
+   "FY26": 101215
+  },
+  "depreciationRsMn": {
+   "FY15": 24703,
+   "FY16": 28239,
+   "FY17": 26021,
+   "FY18": 27579,
+   "FY19": 30189,
+   "FY20": 35257,
+   "FY21": 30315,
+   "FY22": 27865,
+   "FY23": 28233,
+   "FY24": 30223,
+   "FY25": 56070,
+   "FY26": 67405
+  },
+  "note": "Standalone cash flow 'payments for PPE & CWIP'; FY25-26 merged/restated. D&A step-up FY25 = Gujarat assets + Kharkhoda. FY27 capex guided ~Rs14,000cr (company.json).",
+  "src": "AR FY15-FY26 cash-flow statements"
+ },
+ "exports": {
+  "destinations": [
+   {
+    "fy": "FY16",
+    "top5": {
+     "Sri Lanka": 39950,
+     "Chile": 10866,
+     "Philippines": 6427,
+     "Peru": 5197,
+     "Bolivia": 4635
+    },
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000316.pdf"
+   },
+   {
+    "fy": "FY17",
+    "top5": {
+     "Chile": 12931,
+     "Indonesia": 8508,
+     "Nepal": 7960,
+     "Sri Lanka": 7771,
+     "Bolivia": 5583
+    },
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000317.pdf"
+   },
+   {
+    "fy": "FY19",
+    "top5": {
+     "Chile": 17637,
+     "Indonesia": 14921,
+     "South Africa": 12159,
+     "Nepal": 6502,
+     "Uruguay": 4608
+    },
+    "countries": 95,
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000319.pdf"
+   },
+   {
+    "fy": "FY20",
+    "top5": {
+     "South Africa": 17048,
+     "Chile": 14195,
+     "Indonesia": 10068,
+     "Bolivia": 4700,
+     "Uruguay": 4465
+    },
+    "countries": 90,
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000320.pdf"
+   },
+   {
+    "fy": "FY22",
+    "top5": {
+     "South Africa": 63752,
+     "Chile": 28241,
+     "Egypt": 24420,
+     "Colombia": null,
+     "Philippines": null
+    },
+    "note": "Africa ~50% of export volume",
+    "countries": "~100",
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf"
+   },
+   {
+    "fy": "FY23",
+    "top5": {
+     "South Africa": 89483,
+     "Chile / Saudi Arabia / Ethiopia / Ivory Coast": "12.3k-15.0k each (chart order unclear)"
+    },
+    "regions": "Africa > Latin America > Middle East > ASEAN",
+    "countries": "~100",
+    "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4ebd5c99-ed36-4252-bc72-c301faae8dab.pdf"
+   },
+   {
+    "fy": "FY24",
+    "top5": {
+     "South Africa": 82776,
+     "Saudi Arabia": 36166,
+     "Chile": 16451,
+     "Mexico": 15028,
+     "Philippines": 12274
+    },
+    "countries": "~100",
+    "src": "https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf"
+   },
+   {
+    "fy": "FY26",
+    "top5": {
+     "South Africa": 117648,
+     "Japan": 60762,
+     "Saudi Arabia": 35079,
+     "EU region": 24192,
+     "Chile": 20949
+    },
+    "countries": "~120",
+    "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+   }
+  ],
+  "countries": "~120 (FY26); ~100 FY18-FY24",
+  "overseasRevenue": [
+   {
+    "fy": "FY17",
+    "overseasRsMn": 60764,
+    "pctOfRevenue": 7.9,
+    "exportRealisationPerUnit": 489787,
+    "domesticRealisationPerUnit": 492820
+   },
+   {
+    "fy": "FY18",
+    "overseasRsMn": 58208,
+    "pctOfRevenue": 7.1,
+    "exportRealisationPerUnit": 461697,
+    "domesticRealisationPerUnit": 460681
+   },
+   {
+    "fy": "FY19",
+    "overseasRsMn": 57306,
+    "pctOfRevenue": 6.7,
+    "exportRealisationPerUnit": 526957,
+    "domesticRealisationPerUnit": 457830
+   },
+   {
+    "fy": "FY20",
+    "overseasRsMn": 52448,
+    "pctOfRevenue": 6.9,
+    "exportRealisationPerUnit": 513335,
+    "domesticRealisationPerUnit": 481586
+   },
+   {
+    "fy": "FY21",
+    "overseasRsMn": 48425,
+    "pctOfRevenue": 6.9,
+    "exportRealisationPerUnit": 503698,
+    "domesticRealisationPerUnit": 480935
+   },
+   {
+    "fy": "FY22",
+    "overseasRsMn": 124907,
+    "pctOfRevenue": 14.1,
+    "exportRealisationPerUnit": 523992,
+    "domesticRealisationPerUnit": 535998
+   },
+   {
+    "fy": "FY23",
+    "overseasRsMn": 148180,
+    "pctOfRevenue": 12.6,
+    "exportRealisationPerUnit": 571389,
+    "domesticRealisationPerUnit": 601729
+   },
+   {
+    "fy": "FY24",
+    "overseasRsMn": 179518,
+    "pctOfRevenue": 12.7,
+    "exportRealisationPerUnit": 639510,
+    "domesticRealisationPerUnit": 663108
+   },
+   {
+    "fy": "FY25",
+    "overseasRsMn": 227666,
+    "pctOfRevenue": 14.9,
+    "exportRealisationPerUnit": 684535,
+    "domesticRealisationPerUnit": 684138
+   },
+   {
+    "fy": "FY26",
+    "overseasRsMn": 355175,
+    "pctOfRevenue": 19.4,
+    "exportRealisationPerUnit": 793201,
+    "domesticRealisationPerUnit": 748117
+   }
+  ],
+  "overseasRevenueNote": "AR 'entity-wide disclosure' (revenue from operations to customers outside India). Realisations derived: overseas revenue / export units vs domestic revenue / domestic units (both incl. spares/services; indicative). Exports out-realise domestic in FY26 (Fronx/Jimny/e Vitara to Japan & Europe).",
+  "japan": "Japan exports: Baleno (2016), Fronx (2024), Jimny 5-door (2025), e Vitara (2025-26); combined >100k cumulative; Japan #2 destination FY26 (60,762); Chairman (Aug-2026) calls it #3",
+  "eVitaraExports": "FY26 >25,000 units to 44 countries; >35,000 to 46 countries by May-2026",
+  "targets": "Exports 750-800k p.a. by ~FY31; MSIL ~49-50% of India PV exports FY26",
+  "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf) ; https://www.outlookbusiness.com/corporate/made-in-india-jimny-5-door-fronx-e-vitara-cross-1-lakh-exports-milestone-in-japan-maruti-suzuki ; https://www.autocarpro.in/analysis/maruti-e-vitara-sales-in-india-cross-7000-units-exports-exceed-35000-units-133224 ; https://timesofoman.com/article/153269-maruti-suzuki-to-double-production-capacity-to-4-million-units-by-2030"
+ },
+ "suzuki": {
+  "stakeHistory": [
+   {
+    "date": "FY15-FY19",
+    "pct": 56.21,
+    "shares": 169788440,
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000315.pdf"
+   },
+   {
+    "date": "31-Mar-2020",
+    "pct": 56.28,
+    "shares": 169999440,
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000320.pdf"
+   },
+   {
+    "date": "31-Mar-2021",
+    "pct": 56.37,
+    "shares": 170283762,
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/69235532500.pdf"
+   },
+   {
+    "date": "31-Mar-2022",
+    "pct": 56.37,
+    "shares": 170283762,
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf"
+   },
+   {
+    "date": "31-Mar-2023",
+    "pct": 56.48,
+    "shares": 170628962,
+    "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4ebd5c99-ed36-4252-bc72-c301faae8dab.pdf"
+   },
+   {
+    "date": "31-Mar-2024",
+    "pct": 58.19,
+    "shares": 182951476,
+    "note": "+12,322,514 shares at Rs10,420.85 for 100% of SMG (Rs12,841cr)",
+    "src": "https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf ; https://www.businesstoday.in/amp/latest/corporate/story/maruti-suzuki-to-issue-123-cr-preference-shares-to-suzuki-motor-corp-for-local-plant-402261-2023-10-17"
+   },
+   {
+    "date": "31-Mar-2025",
+    "pct": 58.28,
+    "shares": 183246476,
+    "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+   },
+   {
+    "date": "31-Mar-2026",
+    "pct": 58.53,
+    "shares": 184005476,
+    "note": "SMC creeping purchases",
+    "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+   }
+  ],
+  "relatedPartyUnits": "Rs mn",
+  "relatedParty": [
+   {
+    "fy": "FY15",
+    "royalty": 26575,
+    "purchases": null,
+    "other": "dividend to SMC 4,245; lump-sum royalty 2,104; technical fees 1,262 (FX accrual)",
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000315.pdf"
+   },
+   {
+    "fy": "FY16",
+    "royalty": 32443,
+    "purchases": null,
+    "other": "dividend to SMC 4,245; technical fees 1,417",
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000316.pdf ; https://www.bseindia.com/bseplus/AnnualReport/532500/5325000317.pdf"
+   },
+   {
+    "fy": "FY17",
+    "royalty": 38480,
+    "purchases": {
+     "SMC": 15116,
+     "SMG": 6816
+    },
+    "other": "dividend to SMC 5,943; technical fees 751; lump-sum royalty 1,143",
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000317.pdf ; https://www.bseindia.com/bseplus/AnnualReport/532500/5325000318.pdf"
+   },
+   {
+    "fy": "FY18",
+    "royalty": 37672,
+    "purchases": {
+     "SMC": 14150,
+     "SMG": 50874
+    },
+    "other": "dividend to SMC 12,734; related-party royalty to SMC 40,352",
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000318.pdf"
+   },
+   {
+    "fy": "FY19",
+    "royalty": 37926,
+    "purchases": {
+     "SMC": 18012,
+     "SMG": 90433
+    },
+    "other": "dividend to SMC 13,583",
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000319.pdf ; https://www.bseindia.com/bseplus/AnnualReport/532500/5325000320.pdf"
+   },
+   {
+    "fy": "FY20",
+    "royalty": 38173,
+    "purchases": {
+     "SMC": 10987,
+     "SMG": 142935
+    },
+    "other": "dividend to SMC 13,583",
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000320.pdf"
+   },
+   {
+    "fy": "FY21",
+    "royalty": 32218,
+    "purchases": {
+     "SMC": 13214,
+     "SMG": 139738
+    },
+    "other": "dividend to SMC 10,200",
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/69235532500.pdf ; https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf"
+   },
+   {
+    "fy": "FY22",
+    "royalty": 30054,
+    "purchases": {
+     "SMC": 21068,
+     "SMG": 212100
+    },
+    "other": "dividend to SMC 7,663; services from SMC 2,875",
+    "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf"
+   },
+   {
+    "fy": "FY23",
+    "royalty": 42217,
+    "purchases": {
+     "SMC": 21150,
+     "SMG": 283453
+    },
+    "other": "dividend to SMC 10,217",
+    "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4ebd5c99-ed36-4252-bc72-c301faae8dab.pdf ; https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf"
+   },
+   {
+    "fy": "FY24",
+    "royalty": 49080,
+    "purchases": {
+     "SMC": 23526,
+     "SMG": 355712
+    },
+    "other": "dividend to SMC 15,355",
+    "src": "https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf"
+   },
+   {
+    "fy": "FY25",
+    "royalty": 50380,
+    "purchases": {
+     "SMC": 48999,
+     "SMG": "n.a. (merged)"
+    },
+    "other": "dividend to SMC 22,869; services from SMC 2,066",
+    "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+   },
+   {
+    "fy": "FY26",
+    "royalty": 53918,
+    "purchases": {
+     "SMC": 100507,
+     "SMG": "n.a. (merged)"
+    },
+    "other": "dividend to SMC 24,736; services from SMC 3,052; purchases from SMC doubled (likely e Vitara/EV & Japan-sourced parts - inference)",
+    "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+   }
+  ],
+  "royaltyHistory": "Royalty rose from 2.7% of sales (FY08) to ~6% (FY14; Q1FY15 6.2%). Sep-2014: royalty on new models rupee-denominated; co-developed models carry lower royalty; FY18 lower-royalty method from Ignis + volume discount. All-in ~3.1% FY26.",
+  "royaltySrc": "https://www.business-standard.com/article/reuters/maruti-suzuki-to-pay-japanese-parent-royalties-in-rupees-for-future-models-114090400293_1.html ; https://www.india.com/car-and-bike/latest-news/news-cars/maruti-suzuki-india-lesser-royalty-as-more-co-developed-models-hit-market-3301724/",
+  "toyotaArrangement": "2018 Toyota-Suzuki mutual supply pact: MSIL supplies Baleno->Glanza, Brezza->Urban Cruiser (disc.), Ertiga->Rumion (2023), Fronx->Taisor (2024), e Vitara->Toyota BEV (made by MSIL Gujarat); Toyota supplies Innova Hycross->Invicto; Grand Vitara/Hyryder co-developed, made by Toyota Kirloskar. MSIL 'sales to other OEMs' FY26 113,235 (company.json). Toyota-side rebadged sales FY24 107,151 (43% of Toyota India). Model pairs partly general knowledge.",
+  "toyotaSrc": "https://www.autocarpro.in/news-national/toyota-suzuki-sign-mutual-supply-pact-hybrids-cars-india-28820 ; https://autocarpro.in/analysis-sales/maruti-rebadged-models-account-for-52-of-toyota-india-sales-in-april-july-2024-122242",
+  "midTermPlan": [
+   {
+    "plan": "Growth Strategy for FY2030 (Jan-2023)",
+    "items": [
+     "6 BEVs in India by FY2030",
+     "India mix FY31: BEV 15%, hybrid 25%, ICE incl. CNG/biogas/flex 60%",
+     "India sales ~3mn"
+    ],
+    "src": "https://www.outlookbusiness.com/news/suzuki-motor-corp-to-launch-six-battery-electric-vehicles-in-india-by-2030-news-256963 ; https://www.storyboard18.com/amp/quantum-brief/15-percent-of-all-maruti-suzuki-cars-will-be-evs-by-2030-shashank-srivastava-19341.htm"
+   },
+   {
+    "plan": "Mid-term plan 'By Your Side' FY2025-FY2030 (20-Feb-2025)",
+    "items": [
+     "Group FY31: revenue ¥8tn, OP ¥800bn (>=10%), ROE 13%",
+     "Global sales 4.2mn; India 2.54mn (cut from 3mn) ~60% of global",
+     "Capex ¥2tn + R&D ¥2tn; ~¥1.2tn (~Rs70,000cr) of capex to India over 5 yrs (capacity Rs32,000cr, models Rs23,240cr, CN/quality Rs15,000cr)",
+     "Regain ~50% India share (from ~41%)",
+     "MSIL capacity 4mn 'at appropriate time'",
+     "India BEVs cut from 6 to 4 by FY2030",
+     "India as export hub; models 18 -> 27"
+    ],
+    "src": "https://autocarpro.in/news/suzuki-motor-raises-fy31-revenue-operating-profit-targets-125035 ; https://www.outlookbusiness.com/corporate/aim-to-regain-50-market-share-in-india-by-fy30-suzuki-motor ; https://autocarpro.in/news/suzuki-motor-to-invest-close-to-rs-70000-crore-in-india-in-five-years-125078"
+   },
+   {
+    "plan": "Aug-2025 pledge",
+    "items": [
+     "~Rs70,000cr in India over 5-6 yrs (T. Suzuki, e Vitara flag-off)"
+    ],
+    "src": "https://www.theweek.in/wire-updates/business/2025/08/26/del47-biz-ld-suzuki-investment.html"
+   },
+   {
+    "plan": "MSIL AR FY26 (Aug-2026)",
+    "items": [
+     "Installed capacity 2.9mn end-FY27, 3.65mn end-FY31",
+     "Sanand/Khoraj 1mn, Rs35,000cr",
+     "7 new SUVs in 5-6 yrs",
+     "Industry 6.1-6.3mn by FY31"
+    ],
+    "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf) ; https://www.gdnonline.com/Details/1402950"
+   },
+   {
+    "plan": "SMC Technology Strategy Briefing (25-Sep-2026)",
+    "items": [
+     "~4mn India capacity 'from FY2030' (conflicts with MSIL 3.65mn by FY31)",
+     "Halve development lead time by 2030; +30% dev efficiency, +50% mfg efficiency"
+    ],
+    "src": "https://businesstoday.in/auto/story/suzuki-targets-4-million-vehicles-a-year-in-india-by-fy30-plans-to-halve-new-car-development-time-557785-2026-09-25"
+   },
+   {
+    "plan": "R&D shift to India",
+    "items": [
+     "Aug-2022: SMC set up wholly-owned Suzuki R&D Center India",
+     "MSIL R&D (Rohtak + Gurugram) co-develops global models; R&D engineers 2,176 (FY23) -> 2,487 (FY24)"
+    ],
+    "src": "https://autocarpro.in/news-national/suzuki-motor-corp-to-establish-global-r&d-centre-in-india-92634 ; https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf"
+   }
+  ],
+  "indiaShareOfSuzuki": [
+   {
+    "fy": "FY15 (SMC FY2014)",
+    "indiaProductionK": 1308,
+    "suzukiProductionK": 3043,
+    "unitsShare": 43,
+    "indiaSalesK": 1171,
+    "suzukiSalesK": 2867,
+    "salesShare": 40.8,
+    "suzukiRevenueYenBn": 3015.5,
+    "indiaRevenueYenBn": null,
+    "revenueShare": null,
+    "suzukiOPYenBn": 179.4,
+    "asiaOPYenBn": 81.6,
+    "profitShare": 45.5,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2014/financial_reference.pdf"
+   },
+   {
+    "fy": "FY16 (SMC FY2015)",
+    "indiaProductionK": 1424,
+    "suzukiProductionK": 2951,
+    "unitsShare": 48.3,
+    "indiaSalesK": 1305,
+    "suzukiSalesK": 2861,
+    "salesShare": 45.6,
+    "suzukiRevenueYenBn": 3180.7,
+    "indiaRevenueYenBn": null,
+    "revenueShare": null,
+    "suzukiOPYenBn": 195.3,
+    "asiaOPYenBn": 103.8,
+    "profitShare": 53.1,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2015/financial_reference.pdf"
+   },
+   {
+    "fy": "FY17 (SMC FY2016)",
+    "indiaProductionK": 1585,
+    "suzukiProductionK": 3075,
+    "unitsShare": 51.5,
+    "indiaSalesK": 1445,
+    "suzukiSalesK": 2918,
+    "salesShare": 49.5,
+    "suzukiRevenueYenBn": 3169.5,
+    "indiaRevenueYenBn": 987,
+    "revenueShare": 31.1,
+    "suzukiOPYenBn": 266.7,
+    "asiaOPYenBn": 121.4,
+    "profitShare": 45.5,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2016/financial_reference.pdf"
+   },
+   {
+    "fy": "FY18 (SMC FY2017)",
+    "indiaProductionK": 1781,
+    "suzukiProductionK": 3338,
+    "unitsShare": 53.4,
+    "indiaSalesK": 1654,
+    "suzukiSalesK": 3224,
+    "salesShare": 51.3,
+    "suzukiRevenueYenBn": 3757.2,
+    "indiaRevenueYenBn": 1259.8,
+    "revenueShare": 33.5,
+    "suzukiOPYenBn": 374.2,
+    "asiaOPYenBn": 191.3,
+    "profitShare": 51.1,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2017/financial_reference.pdf"
+   },
+   {
+    "fy": "FY19 (SMC FY2018)",
+    "indiaProductionK": 1850,
+    "suzukiProductionK": 3394,
+    "unitsShare": 54.5,
+    "indiaSalesK": 1754,
+    "suzukiSalesK": 3327,
+    "salesShare": 52.7,
+    "suzukiRevenueYenBn": 3871.5,
+    "indiaRevenueYenBn": 1252.8,
+    "revenueShare": 32.4,
+    "suzukiOPYenBn": 324.4,
+    "asiaOPYenBn": 144.2,
+    "profitShare": 44.5,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2018/financial_reference.pdf"
+   },
+   {
+    "fy": "FY20 (SMC FY2019)",
+    "indiaProductionK": 1580,
+    "suzukiProductionK": 2967,
+    "unitsShare": 53.3,
+    "indiaSalesK": 1436,
+    "suzukiSalesK": 2852,
+    "salesShare": 50.4,
+    "suzukiRevenueYenBn": 3488.4,
+    "indiaRevenueYenBn": 1058.7,
+    "revenueShare": 30.3,
+    "suzukiOPYenBn": 215.1,
+    "asiaOPYenBn": 62.7,
+    "profitShare": 29.1,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2019/financial_reference.pdf"
+   },
+   {
+    "fy": "FY21 (SMC FY2020)",
+    "indiaProductionK": 1440,
+    "suzukiProductionK": 2651,
+    "unitsShare": 54.3,
+    "indiaSalesK": 1323,
+    "suzukiSalesK": 2571,
+    "salesShare": 51.5,
+    "suzukiRevenueYenBn": 3178.2,
+    "indiaRevenueYenBn": 915.7,
+    "revenueShare": 28.8,
+    "suzukiOPYenBn": 194.4,
+    "asiaOPYenBn": 56,
+    "profitShare": 28.8,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2020/financial_reference.pdf"
+   },
+   {
+    "fy": "FY22 (SMC FY2021)",
+    "indiaProductionK": 1659,
+    "suzukiProductionK": 2822,
+    "unitsShare": 58.8,
+    "indiaSalesK": 1365,
+    "suzukiSalesK": 2707,
+    "salesShare": 50.4,
+    "suzukiRevenueYenBn": 3568.4,
+    "indiaRevenueYenBn": 1110.7,
+    "revenueShare": 31.1,
+    "suzukiOPYenBn": 191.5,
+    "asiaOPYenBn": 43.8,
+    "profitShare": 22.9,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2021/financial_reference.pdf"
+   },
+   {
+    "fy": "FY23 (SMC FY2022)",
+    "indiaProductionK": 1922,
+    "suzukiProductionK": 3210,
+    "unitsShare": 59.9,
+    "indiaSalesK": 1645,
+    "suzukiSalesK": 3000,
+    "salesShare": 54.8,
+    "suzukiRevenueYenBn": 4641.6,
+    "indiaRevenueYenBn": 1698.7,
+    "revenueShare": 36.6,
+    "suzukiOPYenBn": 350.6,
+    "asiaOPYenBn": 153.5,
+    "profitShare": 43.8,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2022/financial_reference.pdf"
+   },
+   {
+    "fy": "FY24 (SMC FY2023)",
+    "indiaProductionK": 1984,
+    "suzukiProductionK": 3265,
+    "unitsShare": 60.8,
+    "indiaSalesK": 1794,
+    "suzukiSalesK": 3168,
+    "salesShare": 56.6,
+    "suzukiRevenueYenBn": 5374.3,
+    "indiaRevenueYenBn": 2113,
+    "revenueShare": 39.3,
+    "suzukiOPYenBn": 465.6,
+    "asiaOPYenBn": 245.9,
+    "profitShare": 52.8,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2023/financial_reference.pdf"
+   },
+   {
+    "fy": "FY25 (SMC FY2024)",
+    "indiaProductionK": 2102,
+    "suzukiProductionK": 3296,
+    "unitsShare": 63.8,
+    "indiaSalesK": 1795,
+    "suzukiSalesK": 3241,
+    "salesShare": 55.4,
+    "suzukiRevenueYenBn": 5825.2,
+    "indiaRevenueYenBn": 2301.5,
+    "revenueShare": 39.5,
+    "suzukiOPYenBn": 642.9,
+    "asiaOPYenBn": 304.1,
+    "profitShare": 47.3,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2024/financial_reference.pdf"
+   },
+   {
+    "fy": "FY26 (SMC FY2025)",
+    "indiaProductionK": 2347,
+    "suzukiProductionK": 3533,
+    "unitsShare": 66.4,
+    "indiaSalesK": 1862,
+    "suzukiSalesK": 3320,
+    "salesShare": 56.1,
+    "suzukiRevenueYenBn": 6293,
+    "indiaRevenueYenBn": 2516.2,
+    "revenueShare": 40,
+    "suzukiOPYenBn": 622.9,
+    "asiaOPYenBn": 292.4,
+    "profitShare": 46.9,
+    "profitShareBasis": "Asia-region OP / total OP (proxy; India OP not disclosed)",
+    "src": "https://www.globalsuzuki.com/ir/library/financialresults/pdf/2025/financial_reference.pdf"
+   }
+  ],
+  "indiaShareNotes": "Units = Suzuki-brand autos excl. OEM supply. India revenue = autos sold to customers in India (excl. exports), disclosed from FY2016. JGAAP to FY2023, IFRS from FY2024. SMC FY2026 forecast: India ~+10%."
+ },
+ "treasury": [
+  {
+   "fy": "FY15",
+   "investments": 126442,
+   "otherIncome": 8316,
+   "treasuryIncome": 7488,
+   "yield": 6.47,
+   "composition": "Debt MF 100% (FY14: 95% debt MF)",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000315.pdf"
+  },
+  {
+   "fy": "FY16",
+   "investments": 176158,
+   "otherIncome": 4619,
+   "treasuryIncome": 3002,
+   "yield": 1.98,
+   "composition": "Debt mutual funds ~100%",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000316.pdf"
+  },
+  {
+   "fy": "FY17",
+   "investments": 273658,
+   "otherIncome": 23001,
+   "treasuryIncome": 21827,
+   "yield": 9.7,
+   "composition": "Debt mutual funds ~100%",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000317.pdf"
+  },
+  {
+   "fy": "FY18",
+   "investments": 340820,
+   "otherIncome": 20455,
+   "treasuryIncome": 19582,
+   "yield": 6.37,
+   "composition": "Debt mutual funds ~100%",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000318.pdf"
+  },
+  {
+   "fy": "FY19",
+   "investments": 354810,
+   "otherIncome": 25610,
+   "treasuryIncome": 24450,
+   "yield": 7.03,
+   "composition": "Debt mutual funds ~100%",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000319.pdf"
+  },
+  {
+   "fy": "FY20",
+   "investments": 358089,
+   "otherIncome": 34208,
+   "treasuryIncome": 30917,
+   "yield": 8.67,
+   "composition": "Debt mutual funds ~100%",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000320.pdf"
+  },
+  {
+   "fy": "FY21",
+   "investments": 435705,
+   "otherIncome": 29464,
+   "treasuryIncome": 28218,
+   "yield": 7.11,
+   "composition": "Debt MF 405,705 + FD 30,000",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/69235532500.pdf"
+  },
+  {
+   "fy": "FY22",
+   "investments": 420543,
+   "otherIncome": 17935,
+   "treasuryIncome": 16953,
+   "yield": 3.96,
+   "composition": "Debt MF 390,543 + FD 30,000",
+   "src": "https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf"
+  },
+  {
+   "fy": "FY23",
+   "investments": 458525,
+   "otherIncome": 21613,
+   "treasuryIncome": 20547,
+   "yield": 4.67,
+   "composition": "Debt mutual funds ~100%",
+   "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4ebd5c99-ed36-4252-bc72-c301faae8dab.pdf"
+  },
+  {
+   "fy": "FY24",
+   "investments": 537553,
+   "otherIncome": 38548,
+   "treasuryIncome": 36949,
+   "yield": 7.42,
+   "composition": "Debt MF 533,203 + FD 4,350",
+   "src": "https://nsearchives.nseindia.com/annual_reports/AR_26250_MARUTI_2023_2024_26092024102330.pdf"
+  },
+  {
+   "fy": "FY25",
+   "investments": 648587,
+   "otherIncome": 50647,
+   "treasuryIncome": 48521,
+   "yield": 8.18,
+   "composition": "Debt MF 619,339 + FD 29,248",
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf) [FY25 = restated for SMG amalgamation in AR FY26; FY25 standalone AR not retrieved]"
+  },
+  {
+   "fy": "FY26",
+   "investments": 732338,
+   "otherIncome": 43919,
+   "treasuryIncome": 38963,
+   "yield": 5.64,
+   "composition": "Debt MF 717,238 + FD 15,100",
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/august/maruti-suzuki-annual-integrated-report-2025-26 (Annual Integrated Report 2025-26; NSE intimation https://nsearchives.nseindia.com/corporate/MARUTIASHISH_08082026220927_STxIntimation_PR_8Aug2026.pdf)"
+  }
+ ],
+ "treasuryNotes": "Rs mn; MD&A 'Investment of surplus funds' table (excludes strategic stakes in associates/JVs). treasuryIncome = income from that book; yield = treasury income / average book (derived). IGAAP FY15-16 recognised only realised gains (low FY16); Ind AS from FY17 = fair value. No govt securities or equity MFs in surplus book. Finance Act 2024 removed indexation on debt MFs (deferred-tax charge Rs8,376mn in FY25). FY25-26 other income on merged basis.",
+ "ev": {
+  "eVitara": {
+   "productionStart": "26-Aug-2025, Hansalpur",
+   "platform": "HEARTECT-e",
+   "battery": "49 kWh / 61 kWh LFP blade cells reportedly from BYD (FinDreams) - not officially confirmed; range up to 543km",
+   "indiaLaunch": "Deliveries from 17-Feb-2026",
+   "price": "Outright ~Rs16-20 lakh (uncertain); BaaS from Rs10.99 lakh + Rs3.99/km (49kWh) or Rs4.39/km, introductory to 31-Mar-2026",
+   "buyback": "60% at 3yr/45k km; 50% at 4yr/60k km",
+   "warranty": "8yr/160k km battery",
+   "domesticVolumes": "Jan-May 2026: 7,097 dispatches (~2,000-2,500/month allocation)",
+   "exports": "FY26 >25,000 units (44 countries); >35,000 by May-2026; Toyota version supplied",
+   "economics": "No margin disclosure; imported cells + BaaS imply thin/negative initial margin (inference)",
+   "src": "https://www.marutisuzuki.com/corporate/media/press-releases/2026/february/india-goes-electric-with-maruti-suzuki-e-vitara-introductory-baas-price-starts ; https://www.electrive.com/2026/02/19/india-maruti-suzuki-launches-the-e-vitara-as-its-first-ev/ ; https://www.autocarpro.in/analysis/maruti-e-vitara-sales-in-india-cross-7000-units-exports-exceed-35000-units-133224"
+  },
+  "batterySourcing": {
+   "TDSG": "TDS Lithium-Ion Battery Gujarat (Suzuki 50/Toshiba 40/Denso 10); Rs4,930cr MoU (2019); LTO cells/packs for hybrids; Aug-2025 hybrid-battery electrode localisation (>80% of battery value made in India)",
+   "src": "https://battery-tech.net/company/tds-lithium-ion-battery-gujarat-private-limited/ ; https://www.indiatvnews.com/auto/pm-modi-inaugurates-maruti-suzuki-e-vitara-ev-export-hybrid-battery-electrode-production-in-gujarat-2025-08-26-1005202"
+  },
+  "charging": {
+   "status": "Dec-2025: >2,000 Maruti-exclusive charging points in >1,100 cities + 13 CPO partners in 'e for me' app; >1,500 EV-ready workshops",
+   "target": "100,000+ charging points by 2030 (~Rs250cr); charger every 5-10km in top-100 cities",
+   "src": "https://www.business-standard.com/companies/news/maruti-has-established-2k-exclusive-charging-points-across-1-100-cities-md-125120201173_1.html ; https://www.autocarpro.in/news/maruti-suzuki-eyes-1-lakh-ev-charging-points-by-2030-invests-%e2%82%b9250-crore-130018"
+  },
+  "hybridPolicy": {
+   "ask": "Long-standing ask for hybrids taxed closer to EVs (Bhargava 2017: 43% GST makes hybrids unviable)",
+   "gst2": "GST 2.0 (22-Sep-2025): hybrids <=1200cc & <4m at 18%, larger at 40%, no cess",
+   "plans": "In-house series hybrid (Z12E-based) for mass models - timing unverified",
+   "src": "https://thequint.com/news/business/higher-gst-rate-on-luxury-cars ; https://gaadify.com/gst-2-0-understanding-the-new-gst-tax-rates-for-cars ; https://www.carlelo.com/news/maruti-suzuki-to-launch-new-affordable-hybrid-cars-4-evs"
+  },
+  "cafe3": {
+   "rules": "Final CAFE-III (~29-Sep-2026), Apr-2027 to Mar-2032; small-car (<=909kg) relief sought by Maruti DROPPED; reference weight 1,170->1,229kg; super-credits BEV 3x, PHEV/flex strong hybrid 2.5x, strong hybrid 1.6x, flex-fuel 1.1x",
+   "positioning": "Maruti ~95% of sub-909kg cars -> compliance via CNG, strong hybrids, 4 BEVs; Maruti's reaction to final rules not found",
+   "src": "https://www.5paisa.com/index.php/blog/cafe-3-norms-finalised-without-separate-relief-for-small-cars-new-rules-from-april-2027"
+  },
+  "targets": "BEV 15% / hybrid 25% / ICE 60% by FY31 (2023 plan; BEV 15% reportedly retained 2025); 4 BEVs by FY30; ~1.5mn electrified vehicles by 2031 (headline, unverified)",
+  "targetsSrc": "https://www.autocarpro.in/news/suzuki-scales-back-ev-lineup-for-india-now-plans-4-bevs-by-2030-125032 ; https://www.autocarindia.com/car-news-amp/maruti-suzuki-to-produce-15-million-electrified-vehicles-by-2031-428963"
+ },
+ "gaps": [
+  "FY25 standalone AR not retrieved (FY25 = restated merged figures from AR FY26)",
+  "Annual discount/vehicle pre-FY18; mgmt call discount for FY26 quarters",
+  "RM basket split for plastics/others and over time (FY24 snapshot only)",
+  "Overall localisation % and mgmt yen sensitivity (bps per 1%)",
+  "Full-year segment shares (mini, compact SUV, mid-SUV, MPV) and share of sales >Rs10 lakh",
+  "Maruti Driving School count; outlet city coverage by year (FY26 only)",
+  "Units supplied to Toyota by year",
+  "e Vitara unit economics; battery supplier not officially confirmed",
+  "India-only OP share of Suzuki (Asia-region proxy used)"
+ ]
+}

@@ -1,0 +1,389 @@
+{
+ "symbol": "GSFC",
+ "asOf": "2026-09-30",
+ "_note": "Industry, street, ownership, moat, critiques, gaps and the holding-value history, to 30-Sep-2026. Source keys refer to company.json sources.",
+ "industry": {
+  "fertiliser": [
+   {
+    "point": "Policy sets the economics. Urea is under the New Urea Policy: the farm price is fixed and the subsidy covers the gap to cost incl. gas, so gas price moves are passed through (\"even if the natural gas price is increased, we get the subsidy in the urea\"). P&K fertilisers (DAP, APS, AS, NPK) get a fixed subsidy per kg of N, P, K and S (NBS), reset each kharif (Apr-Sep) and rabi (Oct-Mar).",
+    "src": "q1fy27call; nbsKharif26",
+    "published": "2026-08-18"
+   },
+   {
+    "point": "Kharif 2026 NBS (Apr-Sep 2026): N ₹47.32, P ₹52.76, K ₹2.38, S ₹3.16 per kg (~10% above rabi 2025-26 for N, P and S); outlay ₹41,534 cr. Rabi 2026-27 rates were not announced by 30-Sep-2026.",
+    "src": "nbsKharif26; q4fy26rel",
+    "published": "2026-04-09"
+   },
+   {
+    "point": "DAP special package: DAP is compensated at import parity plus a 4% margin, so DAP and urea are \"fully covered\"; the squeeze falls on sulphur-based APS, AS and NPK, where MRPs are nominally free but farmers' ability to pay caps them.",
+    "src": "q1fy27call; q4fy26call",
+    "published": "2026-08-18"
+   },
+   {
+    "point": "Input prices (CFR, US$/t): P2O5 1,003 (FY25 avg) to 1,248 (FY26 avg) and 1,290 at 31-Mar-2026; ammonia 394 to 439 (880 at 31-Mar-2026); sulphur 142 to 376 (532); rock 148 to 172; benzene 1,001 to 722 (770).",
+    "src": "ar26",
+    "published": "2026-09-04"
+   },
+   {
+    "point": "Q1FY27 (Middle East supply shock, Strait of Hormuz disruption in Q4FY26): sulphur +231%, ammonia +144%, gas +38%, P2O5 +30% YoY; sulphur ~₹82,000/t average in Q1 and above ₹115,000/t by mid-August; P2O5 $1,700/t; international sulphur above $1,000/t.",
+    "src": "q1fy27rel; q1fy27call",
+    "published": "2026-08-18"
+   },
+   {
+    "point": "India FY26: fertiliser sales a record 708.9 lakh t (+2%); urea 396.4 lakh t (+2%), DAP ~94 lakh t (+1%), NPK slightly lower (affordability), SSP 55.3 lakh t (+12%); DAP imports +37% to 62.5 lakh t, NPK imports +64% to 37.2 lakh t.",
+    "src": "ar26",
+    "published": "2026-09-04"
+   },
+   {
+    "point": "Monsoon 2026: subdued June, revival in July improved the rabi outlook (company); all-India season rainfall ended at 87% of the long-period average.",
+    "src": "q1fy27rel; imd",
+    "published": "2026-09-30"
+   }
+  ],
+  "chemicals": [
+   {
+    "point": "Caprolactam, nylon-6 chips and melamine are priced off China, which has added capacity: international prices fell ~20% (caprolactam), ~21% (nylon-6 chips) and ~10% (melamine) in FY26; the capro-benzene spread averaged $578/t in FY25 and $535/t in FY26.",
+    "src": "ar26; q4fy26rel",
+    "published": "2026-09-04"
+   },
+   {
+    "point": "Spread by quarter (US$/t): 582, 620, 588 (Q1-Q3FY25), 521 (Mar-25), 540, 512, 495, 593 (FY26), 816 (Q1FY27) after China curbed exports during the crisis. Management (Aug-2026): \"stable to soft\" near term; melamine hit by cheap Chinese imports (GSFC halted output; anti-dumping duty sought).",
+    "src": "q1fy27rel; q1fy27call",
+    "published": "2026-08-18"
+   }
+  ]
+ },
+ "street": {
+  "split": "Coverage is effectively nil. We found no broker note on GSFC dated between July and September 2026, and no dated FY27-28 consensus. The last full research series we could find is Emkay's (2018-19), which valued GSFC on a sum of the parts; IIFL kept an ADD with a ₹140 target in April 2023 (method not given). One aggregator (Trendlyne, accessed after 30-Sep-2026) shows a single analyst with a ₹160 target and FY27 profit -32.5%, but gives no broker name or date, so we do not treat it as standing on 30-Sep-2026.",
+  "brokers": [
+   {
+    "broker": "Emkay Global",
+    "rating": "BUY",
+    "tp": 138,
+    "method": "SOTP",
+    "multiple": "n.d.",
+    "on": "FY20E",
+    "thesis": "Fertiliser volume recovery; chemicals spread; investments in the SOTP (stale)",
+    "date": "10-Apr-2019"
+   },
+   {
+    "broker": "Emkay Global",
+    "rating": "BUY",
+    "tp": 136,
+    "method": "SOTP",
+    "multiple": "n.d.",
+    "on": "FY20E",
+    "thesis": "EPS cut 14%/5% (FY19/20E); SOTP target cut from ₹150 (stale)",
+    "date": "01-Aug-2018"
+   },
+   {
+    "broker": "SPA Research",
+    "rating": "BUY",
+    "tp": 161,
+    "method": "n.d.",
+    "multiple": "n.d.",
+    "on": "–",
+    "thesis": "Capro-benzene spread ~$1,000/t; AS subsidy dues (stale)",
+    "date": "26-Feb-2018"
+   },
+   {
+    "broker": "IIFL Securities",
+    "rating": "ADD",
+    "tp": 140,
+    "method": "n.d.",
+    "multiple": "n.d.",
+    "on": "–",
+    "thesis": "Gujarat PSU payout policy helpful, but heavy capex may keep payout below the mandate (stale)",
+    "date": "27-Apr-2023"
+   }
+  ],
+  "src": "trendlyne; iifl"
+ },
+ "ownership": {
+  "pattern": {
+   "quarter": "Jun-2026",
+   "promoters": 37.84,
+   "fiis": 12.36,
+   "diis": 7.32,
+   "government": 5.65,
+   "public": 36.82,
+   "shareholders": 298987
+  },
+  "named": [
+   {
+    "name": "Gujarat State Investments Ltd (Government of Gujarat)",
+    "pct": 37.84,
+    "type": "Promoter"
+   },
+   {
+    "name": "Quant Mutual Fund (Quant Small Cap Fund)",
+    "pct": 3.43,
+    "type": "Domestic mutual fund"
+   },
+   {
+    "name": "ICICI Prudential Small Cap Fund",
+    "pct": 1.67,
+    "type": "Domestic mutual fund"
+   }
+  ],
+  "trend": "FIIs held 19.82% in Dec-2023 and 12.36% in Jun-2026, while the number of shareholders rose from 1.98 lakh to 2.99 lakh.",
+  "src": "screener (categories); holders (named, Jun-2026); q1fy27rel (37.84% GSIL, 39.84 cr shares)"
+ },
+ "moat": [
+  {
+   "dimension": "Scale in caprolactam / nylon-6",
+   "verdict": "advantage",
+   "evidence": "One of only two Indian caprolactam producers (with FACT); ~0.8 lakh t a year integrated into nylon-6. But price is set by Chinese imports."
+  },
+  {
+   "dimension": "Integration and site",
+   "verdict": "advantage",
+   "evidence": "Gas-based ammonia, four sulphuric acid plants (steam for the complex), own jetty and ammonia storage at Sikka; the SA-V plant (Jan-2026) and the planned Sikka phosphoric acid plant extend it."
+  },
+  {
+   "dimension": "Cost position in fertilisers",
+   "verdict": "parity",
+   "evidence": "Vintage plants (Urea-II revamped in 2025); no captive rock or phosphoric acid; buys sulphur from refiners at market prices."
+  },
+  {
+   "dimension": "Pricing power",
+   "verdict": "disadvantage",
+   "evidence": "Urea and DAP economics set by the government; APS/AS/NPK MRPs capped by farmer affordability; chemicals by China."
+  },
+  {
+   "dimension": "Distribution and brand",
+   "verdict": "parity",
+   "evidence": "Strong in Gujarat and western India through GSFC Agrotech and cooperative channels; record AS and APS volumes in FY26; no national franchise like Coromandel."
+  },
+  {
+   "dimension": "Balance sheet",
+   "verdict": "advantage",
+   "evidence": "No long-term debt; ~₹5,400 cr of shares in other companies (30-Sep-2026 prices for the listed part) and ₹1,160 cr of deposits at Mar-26."
+  },
+  {
+   "dimension": "Capital allocation",
+   "verdict": "disadvantage",
+   "evidence": "ROE 5% in FY26; Karnalyte (impaired) and TIFERT (nil) write-offs; the portfolio is never sold; payout ~30% of profit, below the state policy's 5%-of-net-worth floor."
+  }
+ ],
+ "critiques": [
+  {
+   "argument": "Bull: the market cap is barely above the value of the shares GSFC owns; buy the investments and get the business for free.",
+   "who": "Common retail/value framing; Emkay SOTP (2018-19)"
+  },
+  {
+   "argument": "Bear: the investments have never been sold or distributed; as a state company GSFC cannot or will not unlock them, so the discount is permanent.",
+   "who": "GAM; GSFC's own history (market cap ~1.6x the listed stakes since 2021)"
+  },
+  {
+   "argument": "Bull: DAP and urea are now fully protected (special package, New Urea Policy); rabi NBS rates should catch up with sulphur and ammonia.",
+   "who": "Management (May and Aug 2026 calls)"
+  },
+  {
+   "argument": "Bear: APS and AS are GSFC's biggest manufactured products and both run on sulphur; with sulphur above ₹115,000/t and no NBS reset, FY27 fertiliser margins stay near Q1's 4%.",
+   "who": "GAM; Q1FY27 call"
+  },
+  {
+   "argument": "Bull: a $816/t capro-benzene spread and China's export curbs make the industrial products segment a profit engine again.",
+   "who": "Q1FY27 release"
+  },
+  {
+   "argument": "Bear: the spread spike is crisis-driven; management itself expects \"stable to soft\", and melamine production has already stopped on Chinese imports.",
+   "who": "Q1FY27 call; GAM"
+  },
+  {
+   "argument": "Bear: a new multi-year capex cycle (Sikka acid plants, Dahej complex) with no disclosed cost or return, run by a board whose MD changed three times in FY26.",
+   "who": "GAM; AR FY26"
+  }
+ ],
+ "gaps": [
+  "No broker note dated Jul-Sep 2026 and no dated FY27-28 consensus: the street table is historical and our estimates cannot be compared with a standing consensus.",
+  "Quarterly segment data come from media releases (standalone); IP EBIT for Q1, Q3 and Q4 FY25 is not disclosed; Q4 figures are derived as full year less nine months; quarterly segment depreciation is not disclosed.",
+  "Cost of the Sikka phosphoric/sulphuric acid project was not disclosed by 30-Sep-2026; our ~₹1,100-1,200 cr is an estimate based on Coromandel's similar-sized Kakinada plants.",
+  "Indian Potash (₹1,275 cr) and Gujarat Chemical Port (₹242 cr) are unlisted; we use the company's Mar-26 level-3 fair values.",
+  "Holdings at 30-Sep-2026 are the Mar-26 holdings (AR note 7) adjusted for the GSPC swap and the GSPL Transmission demerger; no sale was disclosed by 30-Sep, but a Sep-2026 holding statement was not available.",
+  "Net cash at Jun/Sep/Dec quarter-ends is interpolated between March balance sheets; actual quarter-end cash swings with subsidy and inventory (e.g., ₹500 cr of borrowings at Jun-2026).",
+  "Breakdown of the ₹1,333 cr \"other\" contingent liabilities is not given in the annual report.",
+  "Named FII/insurance holders above 1% at Jun-2026 were not available; the ~5.65% \"government\" category holder is not named in our sources.",
+  "FY25 standalone vs consolidated: segment revenue in quarters is standalone; consolidated adds GSFC Agrotech (~₹118 cr of fertiliser revenue in FY26)."
+ ],
+ "conflicts": [
+  "Trendlyne consensus page (accessed Nov-2026) shows one analyst, target ₹160, FY27 profit -32.5%, with no broker or date: not used as a 30-Sep-2026 view.",
+  "Capro-benzene spread for Q4FY26: the deck chart shows $593/t (quarter-end) while the CFO cited ~$670/t for Q4 and \"more than $800\" in May; we use the deck series.",
+  "The Q1FY27 media release says standalone PAT ₹161 cr; consolidated PAT (Screener and the call) is ₹159 cr; we use consolidated."
+ ],
+ "holdcoHistory": {
+  "_note": "GSFC market value vs its holdings at each quarter-end since Jun-2021. rows = [date, GSFC NSE close (Rs), listed holdings at that day's NSE closes (Rs cr), unlisted holdings at the latest March book value (Rs cr; aggregate unquoted carrying value, standalone), trailing four-quarter EBITDA known on that date (Rs cr; Screener quarterly sales x OPM)]. Holdings: GNFC 3.0779 cr shares until the Dec-2023 buyback, 2.9186 cr after; GIPCL 2.2363 cr until FY25, 2.4345 cr after; Gujarat Gas 4.6914 cr (4.7685 cr from the May-2026 GSPC swap); GACL 16.55 lakh; Bandhan 11.36 lakh; IDBI 5.49 lakh; Mangalore Chemicals 5.79 lakh (Paradeep 10.83 lakh after the merger). Net cash (cash, bank and FI deposits less borrowings) is the March balance-sheet figure, interpolated in between; Mar-27 is our estimate.",
+  "shares": 39.8478,
+  "rows": [
+   [
+    "2021-06-30",
+    115.7,
+    4559,
+    510.65,
+    569
+   ],
+   [
+    "2021-09-30",
+    129.25,
+    4670,
+    510.65,
+    680
+   ],
+   [
+    "2021-12-31",
+    121.5,
+    4662,
+    510.65,
+    803
+   ],
+   [
+    "2022-03-31",
+    162.05,
+    5315,
+    950.02,
+    1045
+   ],
+   [
+    "2022-06-30",
+    132,
+    4048,
+    950.02,
+    1320
+   ],
+   [
+    "2022-09-30",
+    130.9,
+    4713,
+    950.02,
+    1645
+   ],
+   [
+    "2022-12-30",
+    139.75,
+    4341,
+    950.02,
+    1705
+   ],
+   [
+    "2023-03-31",
+    119,
+    4021,
+    1257.71,
+    1680
+   ],
+   [
+    "2023-06-30",
+    163.9,
+    4401,
+    1257.71,
+    1587
+   ],
+   [
+    "2023-09-29",
+    173.45,
+    4339,
+    1257.71,
+    1205
+   ],
+   [
+    "2023-12-29",
+    241.4,
+    4918,
+    1257.71,
+    1051
+   ],
+   [
+    "2024-03-28",
+    195.65,
+    4885,
+    1071.6,
+    813
+   ],
+   [
+    "2024-06-28",
+    242.4,
+    5713,
+    1071.6,
+    513
+   ],
+   [
+    "2024-09-30",
+    218.23,
+    5563,
+    1071.6,
+    481
+   ],
+   [
+    "2024-12-31",
+    197.64,
+    4636,
+    1071.6,
+    527
+   ],
+   [
+    "2025-03-28",
+    177.28,
+    3948,
+    1044.67,
+    578
+   ],
+   [
+    "2025-06-30",
+    204.22,
+    4516,
+    1044.67,
+    632
+   ],
+   [
+    "2025-09-30",
+    196.32,
+    4022,
+    1044.67,
+    715
+   ],
+   [
+    "2025-12-31",
+    182.54,
+    3880,
+    1044.67,
+    768
+   ],
+   [
+    "2026-03-30",
+    139.22,
+    2930,
+    1582.81,
+    787
+   ],
+   [
+    "2026-06-30",
+    161.84,
+    3681,
+    1582.81,
+    790
+   ]
+  ],
+  "netCashMar": {
+   "2021": 211,
+   "2022": 330,
+   "2023": 1438,
+   "2024": 2298,
+   "2025": 1905,
+   "2026": 1333
+  },
+  "netCashJun26Actual": {
+   "value": -500,
+   "note": "CFO, Q1FY27 call: about ₹500 cr of borrowings and no cash surplus at 30-Jun-2026 (seasonal working-capital peak)"
+  },
+  "asOf": {
+   "date": "2026-09-30",
+   "close": 150.79,
+   "listed": 3707.7,
+   "unlistedFv": 1520.52,
+   "associates": 135.3,
+   "invBookMar26": 4609.7
+  },
+  "src": "NSE bhavcopies (quarter-end closes); annual reports FY20-FY26 (holdings, unquoted values, cash and borrowings); Screener (quarterly sales and OPM)"
+ }
+}

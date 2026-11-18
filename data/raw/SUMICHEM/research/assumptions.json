@@ -1,0 +1,145 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Sumitomo Chemical India (consolidated, ₹ crore). One reportable segment (crop protection, plus environmental-health and animal-nutrition distribution). Revenue grows at a single rate; EBITDA margin is a driver; treasury income = yield × opening cash, deposits and investments. Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  3,
+  11,
+  10
+ ],
+ "_revenueWhy": "FY27: Q1 +1% (domestic −3% as the monsoon arrived late; exports +26%), and the June-September monsoon ended ~13% below normal, the weakest since 2015, so the kharif season will be soft; we assume H2 +6% on a normal rabi. FY28-29: a normal monsoon, new plants for the parent (Bhavnagar Q4FY27, Tarapur/Dahej FY28-29) and 1-2 launches a year. Still below the street: revenue has not grown since FY23.",
+ "ebitdaMargin": [
+  20.5,
+  21,
+  21
+ ],
+ "_marginWhy": "20.7% in FY26; 21.9% in Q1FY27 helped by April-May price increases and low-cost opening stock. H2 is seasonally weaker (18.6% in H2FY26). Management aims to stay at or above 20%; CRISIL expects 19-20%.",
+ "capex": [
+  120,
+  200,
+  160
+ ],
+ "_capexWhy": "Maintenance ₹50-70 cr a year plus the ₹55 cr Bhavnagar plant (FY27), ₹150 cr Dahej herbicide intermediate and ₹20 cr Tarapur fitments (FY28-29), all for the parent. CRISIL: ₹150-160 cr a year over the medium term.",
+ "depRateOnGrossBlock": 7.4,
+ "_depWhy": "FY26 depreciation ₹66 cr ≈ 7.4% of average gross block.",
+ "treasuryYield": [
+  8.5,
+  7.5,
+  7.5
+ ],
+ "_treasuryWhy": "Applied to opening cash, deposits and investments (₹2,113 cr at Mar-26, company figure): FY26 other income ₹147 cr on ₹1,668 cr opening = 8.8%, because cash builds through the year. Q1FY27 ₹47 cr excluding the insurance claim. Lower from FY28 as deposit rates fall.",
+ "otherIncome": [
+  27,
+  0,
+  0
+ ],
+ "_otherIncomeWhy": "FY27: ₹26.9 cr business-interruption insurance claim for the FY23 Bhavnagar fire (Q1FY27; Screener shows it in other income).",
+ "otherTreasury": {
+  "base": 839,
+  "_why": "Corporate deposits, bank deposits and non-current financial investments reported under other assets: the company's cash and liquid investments were ₹2,113 cr at Mar-26 vs ₹1,274 cr of cash and investments on Screener."
+ },
+ "interest": [
+  8,
+  8,
+  8
+ ],
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "FY26 effective 26%; new regime ~25.2% plus disallowances.",
+ "payout": [
+  12,
+  12,
+  12
+ ],
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 20,
+  "fadeCapexPctTo": 3.5,
+  "depPctOfSales": 2.3,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Debt-free with a large cash pile, but earnings swing with the monsoon: slightly below market sensitivity.",
+  "_tgWhy": "Indian crop-protection demand grows with farm output and prices; 6% nominal.",
+  "_fadeGrowthWhy": "Industry growth of 5-6% plus share gains from the parent's new molecules.",
+  "_fadeCapexWhy": "Asset-light formulator; capex rises only for plants built for the parent."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Normal monsoons from FY28; the parent's new molecules and plants built for it lift growth to the mid-teens; Japan orders recover; margin ~21.5%.",
+   "volumeGrowthDelta": 0,
+   "marginDelta": 1,
+   "revenueGrowthDelta": 4,
+   "fadeMarginTo": 21
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Another weak monsoon or a glyphosate restriction; Chinese generic prices fall; growth stays in low single digits; margin ~19%.",
+   "volumeGrowthDelta": 0,
+   "marginDelta": -1.5,
+   "revenueGrowthDelta": -5,
+   "fadeMarginTo": 18.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 28,
+      "bull": 35,
+      "bear": 22
+     },
+     "why": "How the street values Sumitomo (ICICI Direct 45x, Anand Rathi 40x, ICICI Securities 36.5x, all on FY28E EPS). 28x = its ~42x one-year-forward median since 2023, cut by the ~23% sector de-rating (PI Industries, Dhanuka) to ~32x, and again for growth: the street's multiples come with 13-21% a year EPS growth; we forecast ~8%."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 18,
+      "bull": 22,
+      "bear": 14
+     },
+     "why": "Values the business and the cash separately. A P/E on total earnings capitalises interest income at 28x, i.e. pays ~1.6 rupees for each rupee of cash. 18x ≈ the ~34x median since listing less the same de-rating and growth discount (ICICI Securities used 29x)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 11.6%, terminal growth 6%, plus net cash."
+    }
+   ]
+  }
+ }
+}

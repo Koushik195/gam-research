@@ -1,0 +1,102 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Asian Paints (consolidated, Rs crore). Asian Paints reports no operating segments, so revenue and EBITDA are built on two lines that reconcile exactly to reported figures: STANDALONE (Asian Paints Ltd: decorative paints in India, ~97% of it, plus kitchens and bath fittings) and SUBSIDIARIES & CONSOLIDATION (consolidated less standalone: international, Asian Paints PPG industrial coatings, White Teak, Weatherseal, white cement, less eliminations). History in research/segments.json. EBITDA = operating profit before other income. History is attributable to Asian Paints' shareholders (Screener Net Profit replaced by Profit for EPS, see tools/authoring/ASIANPAINT.patch.js); the tax line also carries minorities. Valued on P/E, as the street does.",
+ "years": ["FY27E", "FY28E", "FY29E"],
+ "segments": [
+  {
+   "key": "sa",
+   "name": "Standalone (decorative India, kitchens, bath)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 30769,
+   "growth": [14, 8, 8],
+   "revPct": [100, 100, 100],
+   "marginPct": [20.3, 20.6, 20.6],
+   "hist": { "driver": "saRev", "revenue": "saRev", "adjEbitda": "saEbitda" },
+   "_why": "FY27 +14%: Q1 standalone revenue +16.7% (decorative volume +9.0%, value +16.6% with ~7% weighted price and a better mix). Price increases of ~13-14% at list level were in place by June, so Q2-Q3 carry ~8-9% price on volume growth near the 8-10% guidance; but management has flagged possible price cuts in H2 if crude-linked inputs keep easing, Q3-Q4 face a higher base (Q4FY26 +10%), and the economy range (putty, low-end emulsions) keeps growing faster than premium. We assume volume ~9% and price/mix ~5% for the year (Q2 ~+15%, H2 ~+11%). FY28 +8%: price laps and partly reverses; volume ~8-9% with the long-run value-volume gap of 3-4% narrowing to ~1% as premium grows. FY29 +8%: volume ~8-9%, small negative mix. Brokers model consolidated revenue +14-17% in FY27 and +6-11% in FY28.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Standalone EBITDA margin (Screener basis, before other income) was 24.3% (FY21), 18.2% (FY22, raw-material spike), 22.6% (FY24, deflation), 18.8% (FY25, price cuts and competition) and 20.1% (FY26); Q1FY27 21.9% on low-cost inventory. Q2FY27 carries ~25% material inflation against ~8-9% price (PL models ~70 bp YoY gross-margin contraction in Q2); H2 depends on crude. FY27 20.3%; FY28-29 20.6% as VAM-VAE (300-500 bp gross-margin benefit on products using in-house VAE, 2-2.5 year ramp) offsets continued discounting by Birla Opus and JSW. Consolidated margin ~19.0-19.2%, inside management's 18-20% band and in line with brokers (19.0-19.4%). We do not return to FY24's 22.6%: competition has changed the industry's pricing."
+  },
+  {
+   "key": "subs",
+   "name": "Subsidiaries & consolidation (international, industrial, decor)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 4815,
+   "growth": [16, 11, 11],
+   "revPct": [100, 100, 100],
+   "marginPct": [11.0, 11.0, 11.0],
+   "hist": { "driver": "subRev", "revenue": "subRev", "adjEbitda": "subEbitda" },
+   "_why": "Consolidated less standalone revenue grew 10.6% in FY26 (Rs4,815 cr) and 26.9% in Q1FY27 (Rs1,359 cr): international +27% (+20% constant currency; FY26 Rs3,340 cr), Asian Paints PPG +21% (FY26 Rs1,334 cr), Weatherseal +11%, White Teak -7%. FY27 +16% (international ~+15% with Middle East conflict risk and Ethiopia currency, APPPG ~+17%, white cement ramp-up); FY28-29 +11% (international high single digit to low double digit, industrial ~15%).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Consolidated less standalone EBITDA margin: 10.0% (FY20), 5.5% (FY22), 12.7% (FY24), 10.3% (FY25), 10.7% (FY26), 11.6% (Q1FY27). International PBT margin rose to 8.5% (Q4FY26) and 7.9% (Q1FY27) after exiting Indonesia; APPPG PBT margin 6.9-8% (price increases lag); White Teak, Weatherseal and white cement still lose money (FY26 net losses Rs56 cr, Rs23 cr, Rs43 cr). 11% a year: international gains offset by start-up losses."
+  }
+ ],
+ "unallocated": [0, 0, 0],
+ "_unallocLabel": "Unallocated (none: the two lines sum to reported EBITDA)",
+ "_unallocWhy": "Standalone plus subsidiaries-and-consolidation equals reported consolidated revenue and EBITDA by construction (history in segments.json).",
+ "esop": [0, 0, 0],
+ "capex": [1400, 1400, 1400],
+ "_capexWhy": "Cash-flow capex Rs2,496 cr (FY24), Rs1,830 cr (FY25), Rs1,487 cr (FY26; standalone Rs1,178 cr). Committed: balance of the ~Rs3,250 cr VAM-VAE project (Dahej, first phase from Aug-2026), a second UAE paint plant (~Rs340 cr), a 4 lakh KL Madhya Pradesh paint plant (~Rs2,000 cr, within three years of environmental clearance), plus ~Rs500-600 cr of maintenance, stores and IT. Rs1,400 cr a year (3.4% of FY27E revenue falling to 3.0%).",
+ "depRateOnGrossBlock": 8.2,
+ "_depWhy": "FY26 depreciation Rs1,229 cr = 8.4% of average gross block (Rs14,707 cr); Q1FY27 Rs304 cr (Rs1,216 cr annualised). The engine holds CWIP flat (Rs1,849 cr at Mar-26) and depreciates capex at once; VAM-VAE capitalisation from FY27 adds depreciation. 8.2% gives Rs1,312 cr in FY27E.",
+ "otherTreasury": { "base": 2439, "_why": "Term deposits with more than 12 months' maturity sit in other financial assets (non-current Rs1,153 cr + current Rs1,285 cr at Mar-26, AR FY26 consolidated note 8), i.e. inside Screener's 'other assets'. They are treasury, not working capital." },
+ "treasuryYield": [7.5, 7.5, 7.5],
+ "_treasuryWhy": "Applied to cash, investments and term deposits less borrowings (incl. leases): Rs6,646 cr at Mar-26 (cash Rs1,074 cr + investments Rs7,062 cr + deposits Rs2,439 cr - borrowings Rs3,929 cr). FY26 treasury income (interest Rs181 cr + FVTPL gains Rs287 cr + dividends Rs2 cr = Rs470 cr) was ~5.5% of average gross treasury but ~8.5% of average net cash, because borrowing costs are shown separately as interest. 7.5% on net cash.",
+ "otherIncome": [420, 450, 480],
+ "_otherIncomeWhy": "Non-treasury other income: share of profit of the PPG Asian Paints associate (Rs141 cr FY25, Rs166 cr FY26; PPGAP revenue +13.5% in Q1FY27) and other non-operating income ('others' Rs237 cr, royalty, insurance claims ~Rs250 cr in FY26). Rs420 / 450 / 480 cr. FY26 Screener other income (Rs728 cr) was after Rs158 cr of exceptional charges; Q1FY27 Rs279 cr.",
+ "interest": [200, 200, 200],
+ "_interestLabel": "Interest cost (leases and working-capital lines)",
+ "_interestWhy": "FY26 Rs195 cr; Q1FY27 Rs48 cr. Borrowings Rs3,929 cr at Mar-26 incl. Rs1,636 cr leases and Rs805 cr long-term debt taken over with the polymers subsidiary (VAM-VAE).",
+ "taxRate": [26.6, 26.6, 26.6],
+ "_taxWhy": "Tax plus minorities (engine workaround: there is no minority line). Q1FY27: PBT Rs2,096 cr, attributable PAT Rs1,539 cr = 26.6% (tax ~25.6% + minorities ~1.0%). FY26: tax Rs1,609 cr on PBT Rs6,003 cr (26.8%, incl. non-deductible exceptional items) and minorities Rs76 cr. Minorities are mainly PPG's 50% of Asian Paints PPG and partners in Nepal, Egypt, Ethiopia, Weatherseal and the UAE white-cement unit.",
+ "payout": [60, 60, 60],
+ "_payoutWhy": "Dividend policy: 60% of standalone PAT before exceptional items (FY25 and FY26: Rs24.80 and Rs27.50 a share). 60% of consolidated EPS is close to that.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.8,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 19,
+  "fadeCapexPctTo": 3,
+  "depPctOfSales": 3.2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, defensive consumer franchise; below-market sensitivity (Ke 11.3%).",
+  "_tgWhy": "India's nominal GDP grows ~10%; paint demand tracks housing, repainting and penetration. The house range is 5-6%; we use 6% for the category leader, as for Pidilite.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~8% to 8% over 15 years: per-capita paint use in India is low, so volume can compound at high single digits for long, but competition caps price and mix.",
+  "_fadeMarginWhy": "EBITDA margin ~19.2% in FY29E held near 19%, the middle of management's 18-20% band: the new competitive structure does not allow a return to the 21-22% of FY21/FY24.",
+  "_fadeCapexWhy": "Capex falls from ~3% of revenue to 3% (maintenance plus regular capacity additions)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Birla Opus and JSW shift from share-chasing to profitability (Nomura's thesis), discounting eases, price increases largely stick as inputs fall, and VAM-VAE delivers its 300-500 bp benefit on a growing share of products; decorative volume 10-11%, standalone margin ~21.5%, consolidated ~20%, the top of the band.",
+   "fadeMarginTo": 20.5,
+   "segments": {
+    "sa": { "growthDelta": 3, "marginDelta": 1.0 },
+    "subs": { "growthDelta": 2, "marginDelta": 1.0 }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Inflation persists into H2 while competitors keep discounting; Asian Paints cuts prices or raises rebates to defend share, Birla Opus keeps gaining ~30 bp a quarter and JSW Dulux turns aggressive; decorative value growth falls to low single digits in FY28 and consolidated margin slips to ~17.5%, below the 18-20% band (as in FY22 and FY25).",
+   "fadeMarginTo": 17,
+   "segments": {
+    "sa": { "growthDelta": -4, "marginDelta": -1.8 },
+    "subs": { "growthDelta": -3, "marginDelta": -1.5 }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    { "key": "pe", "name": "P/E", "method": "pe", "role": "primary", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 43, "bull": 48, "bear": 38 }, "why": "How the street values Asian Paints: every broker that discloses a method uses P/E on FY28E EPS (Motilal Oswal, ICICI Securities and Anand Rathi 50x, MNCL 52x, Prabhudas Lilladher ~46.5x; Jul-2026). 43x = the stock's 59.6x median one-year-forward P/E since Apr-2021 (forwardMedian; no trough years) cut by the ~28% median de-rating of six paint and consumer peers versus their five-year median P/E at 30-Sep-2026 (Berger -27%, Kansai -44%, Indigo -25%, Pidilite -35%, HUL -27%, Astral -29%) = 42.9x. No further growth adjustment: our FY26-29E EPS growth (~14% a year, ~10% after FY27's price boost) is above the 7% of FY21-26, and the competition risk sits in our margin forecast (19%, not 21-22%). 43x is close to the 44x median of the last two years. Bull 48x (its 25th-percentile forward P/E since 2021); bear 38x (~5% below its lowest forward P/E since 2016, 40x)." },
+    { "key": "ev", "name": "EV/EBITDA", "method": "evEbitda", "role": "cross-check", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 24, "bull": 28, "bear": 20 }, "why": "Counts net cash at face value. 24x Sep-28E EBITDA = Asian Paints' 39.9x median trailing EV/EBITDA since Apr-2021, less the same ~28% sector de-rating (28.7x trailing), restated for Sep-28E EBITDA being ~22% above the twelve months to Jun-26 (Rs7,240 cr)." },
+    { "key": "dcf", "name": "DCF", "method": "dcf", "role": "cross-check", "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 11.3%, terminal growth 6%, plus net cash." }
+   ]
+  }
+ }
+}

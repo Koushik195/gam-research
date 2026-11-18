@@ -1,0 +1,55 @@
+// Asian Paints report, part 4b: glossary and statement notes (explain every big change in the statements).
+const glossary = {
+  id: 'glossary', nav: 'Glossary', kicker: 'Appendix', title: 'Glossary',
+  blocks: [
+    { exhibit: { type: 'table', title: 'Terms used in this report', head: ['Term', 'What it means'], wide: [1], rows: [
+      ['Decorative paints', 'Paints for homes and buildings (wall emulsions, enamels, wood finishes, putty, waterproofing), sold through dealers who tint colours to order. Distinct from industrial coatings for cars, factories and machines.'],
+      ['Volume growth / value growth', 'Growth in litres/kilos sold vs growth in rupee sales. Value below volume means lower prices, bigger discounts or a shift to cheaper products (e.g. putty).'],
+      ['Value-volume gap', 'Value growth minus volume growth, in percentage points.'],
+      ['Standalone', 'The listed company Asian Paints Ltd on its own (mostly decorative paints in India), excluding subsidiaries.'],
+      ['Subsidiaries & consolidation', 'Our second business line: consolidated figures less standalone (international, Asian Paints PPG, home-decor subsidiaries, less inter-company eliminations).'],
+      ['PPGAP / APPPG', 'PPG Asian Paints (car and industrial coatings; 50%, equity-accounted) and Asian Paints PPG (protective and powder coatings; 50%, consolidated): joint ventures with PPG Industries of the US.'],
+      ['Birla Opus / JSW Dulux', 'Decorative paint businesses of Grasim (Aditya Birla group, launched Feb-2024) and of JSW Paints (which bought control of Akzo Nobel India, maker of Dulux, in 2025).'],
+      ['TiO2, VAM, VAE', 'Titanium dioxide (white pigment, the largest raw material); vinyl acetate monomer and vinyl acetate-ethylene emulsion (binders used in paints and adhesives), which Asian Paints now makes at Dahej.'],
+      ['Gross margin', 'Revenue less raw-material cost, as % of revenue. Company decks use net sales; Screener\'s version includes traded goods.'],
+      ['EBITDA / PBDIT', 'Operating profit before depreciation, interest and tax (and here before other income). Asian Paints calls it PBDIT.'],
+      ['Minorities (non-controlling interest)', 'The share of subsidiaries\' profit owned by partners (e.g. PPG\'s 50% of Asian Paints PPG); excluded from the profit attributable to Asian Paints\' shareholders.'],
+      ['CCI / DG', 'Competition Commission of India and its Director General (investigation arm).'],
+      ['Pledge', 'Shares given as security for a loan; if the borrower defaults the lender can sell them.'],
+      ['P/E, EV/EBITDA', 'Share price ÷ earnings per share; enterprise value (market value less net cash) ÷ EBITDA.'],
+      ['Sep-28E', 'Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027.'],
+      ['DCF / WACC', 'Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, as Asian Paints has net cash).'],
+    ], source: 'GAM Research' } },
+  ],
+};
+
+const statementNotes = {
+  'sales@FY20': '+5%: slowing demand before Covid.',
+  'ebitdaMargin@FY21': '+180bp to 22.4%: cheap inputs and Covid-era cost savings.',
+  'sales@FY22': '+34%: demand rebound after Covid plus price increases as crude and other inputs spiked.',
+  'ebitdaMargin@FY22': '−590bp to 16.5%: raw-material inflation ran ahead of price increases.',
+  'cfo@FY22': 'Down 73%: inventory built up (+₹2,354 cr) and receivables rose during the input spike.',
+  'sales@FY23': '+19%: carry-over of FY22 price increases plus volume growth.',
+  'ebitdaMargin@FY24': '+320bp to a record 21.4%: input deflation before the new entrants arrived.',
+  'pat@FY24': '+33%: margin peak; EPS ₹56.9.',
+  'sales@FY25': '−4.5%: weak demand, price cuts and higher dealer schemes as Birla Opus launched; decorative volume +2.5%, value −5.7%.',
+  'ebitdaMargin@FY25': '−370bp to 17.7%: price cuts, negative mix and operating deleverage.',
+  'pat@FY25': '−33%: lower margins plus ₹363 cr of exceptional charges (Ethiopia devaluation, impairments, Indonesia exit).',
+  'otherIncome@FY25': 'After −₹360 cr of exceptional items (Screener includes them in other income).',
+  'sales@FY26': '+5%: decorative volume +8.7% but value only +4.3% (value-volume gap of −4.4 pts).',
+  'ebitdaMargin@FY26': '+110bp to 18.8%: raw-material deflation and cost savings.',
+  'pat@FY26': '+18%; includes −₹158 cr exceptional items (White Teak intangibles, labour code).',
+  'cfo@FY26': '+60% to ₹7,088 cr: ₹976 cr inventory release and better working capital.',
+  'sales@Q2FY25': '−5%: decorative volume −0.5%, the weakest quarter; prices cut against competition.',
+  'pat@Q2FY25': '−42%: margin fell to 15% on price cuts and deleverage.',
+  'sales@Q4FY26': '+11%: decorative volume +12.4%, value +10.2%; some upstocking in March before price increases.',
+  'sales@Q1FY27': '+18%: decorative volume +9.0%, value +16.6% (~7% weighted price increase, ~3% better mix); international +27%.',
+  'opm@Q1FY27': '21%: low-cost inventory for about half the quarter, price increases and cost cuts; Q2 to carry ~25% material inflation.',
+  'pat@Q1FY27': '+40% to ₹1,539 cr (attributable).',
+  'sales@FY27E': 'GAM: standalone +14% (volume ~9%, price/mix ~5%), subsidiaries +16%.',
+  'ebitdaMargin@FY27E': 'GAM: Q1\'s 20.6% gives back in Q2 (high-cost inventory); full year inside the 18-20% band.',
+  'sales@FY28E': 'GAM: price increases lap and partly reverse as inputs fall; volume ~8-9%.',
+  'ebitdaMargin@FY28E': 'GAM: VAM-VAE benefits offset continued discounting.',
+};
+
+module.exports = { glossary, statementNotes };

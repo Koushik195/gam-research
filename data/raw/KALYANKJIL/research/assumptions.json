@@ -1,0 +1,253 @@
+{
+ "asOf": "2026-10-24",
+ "_note": "GAM Research forecast drivers for Kalyan Jewellers (consolidated, ₹ crore). Segment-driven revenue (India, Middle East, Candere); valued on a 15-year DCF.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "india",
+   "name": "India (Kalyan showrooms)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 31027,
+   "growth": [
+    21,
+    18,
+    17
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    6.1,
+    6,
+    6
+   ],
+   "hist": {
+    "driver": "indiaRev",
+    "revenue": "indiaRev",
+    "adjEbitda": "indiaEbitda"
+   },
+   "_why": "Q1FY27 +38% and Q2FY27 +27% (ex-bullion) on the gold price; H2 faces a very high base (Q4FY26 +68%), the May-2026 duty hike and the PM's appeal to defer gold buying, so we assume ~12% in H2. FY28-29: ~85 franchise stores a year (~20% store growth) plus mid-single-digit same-store growth.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "6.8% in FY26; 5.9% in Q1FY27 including a ₹41 cr one-off duty gain (5.1% underlying). Franchise (FOCO) stores share margin with partners, and gold-exchange sales dilute margin by 20-30bp. We assume ~6%, below FY26."
+  },
+  {
+   "key": "me",
+   "name": "Middle East",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 4038,
+   "growth": [
+    17,
+    12,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    7,
+    7,
+    7
+   ],
+   "hist": {
+    "driver": "meRev",
+    "revenue": "meRev",
+    "adjEbitda": "meEbitda"
+   },
+   "_why": "Q1FY27 +29%, Q2FY27 +12%. Store count flat at 38; growth is mostly the gold price and same-store sales.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "7.1% in FY26, 6.8% in Q1FY27."
+  },
+  {
+   "key": "candere",
+   "name": "Candere (online + stores)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 425,
+   "growth": [
+    55,
+    40,
+    35
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    1,
+    3,
+    4
+   ],
+   "hist": {
+    "driver": "candereRev",
+    "revenue": "candereRev",
+    "adjEbitda": "candereEbitda"
+   },
+   "_why": "Q2FY27 +64%; ~50 new stores in FY27 (138 at Sep-26).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Turned marginally profitable in H2FY26; EBITDA not disclosed. We assume a slow climb."
+  }
+ ],
+ "unallocated": [
+  -120,
+  -130,
+  -140
+ ],
+ "_unallocLabel": "Reconciling items: other operating income less eliminations (negative = adds to EBITDA)",
+ "_unallocWhy": "FY26 reported EBITDA (₹2,562 cr, Screener) exceeds the sum of segment EBITDA (₹2,412 cr) by ~₹150 cr: other operating income (royalty from franchisees), less inter-segment eliminations.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  450,
+  500,
+  550
+ ],
+ "_capexWhy": "Cash capex below ₹250 cr a year (ICRA) because franchise partners fund new stores; plus lease principal (~₹280 cr in FY26), since rent sits below EBITDA under Ind AS 116.",
+ "depRateOnGrossBlock": 9.7,
+ "_depWhy": "Q1FY27 depreciation ₹115 cr (~₹470 cr a year) ≈ 9.7% of gross block.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net debt, so no treasury income; other income is entered separately.",
+ "otherIncome": [
+  190,
+  170,
+  180
+ ],
+ "_otherIncomeWhy": "FY26 normal other income ₹208 cr (interest on deposits, misc.); FY27 includes part of the ₹102 cr non-core land sale.",
+ "interest": [
+  430,
+  420,
+  420
+ ],
+ "_interestLabel": "Interest cost (gold metal loans, leases)",
+ "_interestWhy": "FY26 ₹499 cr; Q1FY27 ₹108 cr. Non-gold-loan debt in India fully repaid by Sep-2026; gold metal loans (~₹3,600 cr) remain and cost more as the gold price rises.",
+ "taxRate": [
+  25.2,
+  25.2,
+  25.2
+ ],
+ "_taxWhy": "25.2% corporate rate; FY26 effective 25%.",
+ "payout": [
+  20,
+  20,
+  20
+ ],
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 10,
+  "fadeMarginTo": 6.5,
+  "fadeCapexPctTo": 1.2,
+  "depPctOfSales": 1.2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Discretionary spend tied to gold prices; market-like sensitivity.",
+  "_tgWhy": "Jewellery demand tracks nominal GDP and the gold price; 6% allows for slowing volumes as gold gets dearer.",
+  "_fadeGrowthWhy": "≈4-5% volume (organised share gains) + ~5-6% gold-price inflation.",
+  "_fadeCapexWhy": "Asset-light franchise model keeps capex low."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Gold stays high and demand holds; franchise roll-out of 90+ stores a year continues; India margin back to ~6.8% as cash-for-gold and studded mix help.",
+   "fadeMarginTo": 7.2,
+   "segments": {
+    "india": {
+     "growthDelta": 4,
+     "marginDelta": 0.6
+    },
+    "me": {
+     "growthDelta": 3
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Higher duty and a falling gold price hit value growth; franchise dilution pushes India margin to ~5.3%; growth slows to low teens.",
+   "fadeMarginTo": 5.5,
+   "segments": {
+    "india": {
+     "growthDelta": -8,
+     "marginDelta": -0.7
+    },
+    "me": {
+     "growthDelta": -5,
+     "marginDelta": -0.5
+    }
+   }
+  }
+ },
+ "operatingDebt": {
+  "base": 3588,
+  "label": "Gold metal loans (inventory funding)",
+  "_why": "Gold borrowed from banks to stock showrooms, repaid in gold; ~10% of revenue at Mar-26. Treated as working-capital funding (as the company, ICRA and brokers do), not as financing debt."
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 30,
+      "bull": 36,
+      "bear": 24
+     },
+     "why": "How the street values Kalyan (Jefferies, Citi, MOFSL, BOBCAPS all use P/E on 2028 EPS). 30x = Kalyan's 40x median one-year-forward P/E since 2023, cut by the 24% sector de-rating (Titan at 65x vs its 86x five-year median). Bull 36x (half the de-rating), bear 24x (Kalyan's 2023 levels)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 12.5%, terminal growth 6%. Thin margins and inventory keep free cash low, so the DCF sits below the market multiples."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 17,
+      "bull": 20,
+      "bear": 13
+     },
+     "why": "Adjusts for debt. 17x Sep-28E EBITDA is consistent with 30x P/E after interest and tax; Kalyan trades at 20.5x trailing today (30x median since 2023)."
+    }
+   ]
+  }
+ }
+}

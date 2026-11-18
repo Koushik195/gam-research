@@ -1,0 +1,3546 @@
+{
+ "symbol": "BERGEPAINT",
+ "listing": "NSE: BERGEPAINT · BSE: 509480",
+ "date": "30 September 2026",
+ "rating": "HOLD",
+ "analysts": "GAM Research — Consumer & Building Materials",
+ "cover": {
+  "headline": "A strong No.2 that new rivals have made cheaper to fight: volumes keep growing, pricing power has not come back, and the stock is fairly priced",
+  "lead": "Berger is India's second-largest paint company (~20% of listed players' sales), with 64,000+ dealers, No.1 in protective coatings and net cash. Its problem since 2024 is not volume (standalone volume grew 4-12% a quarter) but value: Grasim's Birla Opus pushed dealer schemes up and prices down, JSW took over Dulux in Dec-2025, and Berger's revenue grew only 3% a year in FY25-26. The 2026 crude spike reversed that for now: Q1FY27 revenue rose 12% (volume +8.4%, price ~5%) and PAT 29%. The street values Berger on **P/E (46-50x FY28E EPS)**. We forecast EPS of ₹11.7 (FY27E), ₹12.7 (FY28E) and ₹14.1 (FY29E). Applying **37x to Sep-28E EPS of ₹13.4** gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with HOLD.** Cross-checks: EV/EBITDA ₹433, DCF ₹263. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "Volume yes, pricing no",
+    "p": "In the eight quarters to Q4FY26 standalone volume grew 4-12% but value only −0.4% to +6.7%: cheaper products (putty, textures, tile adhesives), economy-emulsion price cuts and heavier dealer schemes. Q1FY27's 12.7% value growth is the industry's crude-led price rise (list prices +12-13%, ~5% realised), not new pricing power."
+   },
+   {
+    "h": "Competition changed the economics",
+    "p": "Birla Opus sold ₹1,661 cr of paint in Q1FY27 (+64%), half Berger's standalone quarter, and calls itself the No.3 organised decorative player. Berger's share stopped rising at ~20% and the MD admitted a small loss in 9MFY26, \"mostly to Birla\". The challenger has raised its list prices, but rebates and \"10% free material\" continue."
+   },
+   {
+    "h": "FY27 is a good year; FY28 is the test",
+    "p": "We model EPS +{{F.epsGrowth.0|pct}} in FY27E (price, operating leverage, a low FY26 base hit by one-offs), then +{{F.epsGrowth.1|pct}} and +{{F.epsGrowth.2|pct}} as price laps and part is given back. EBITDA margin {{F.ebitdaMargin.0|pct}} / {{F.ebitdaMargin.1|pct}} / {{F.ebitdaMargin.2|pct}}, inside the 15-17% band Berger has lived in for a decade."
+   },
+   {
+    "h": "Valuation: fair, not cheap",
+    "p": "At ₹455 the stock trades at 39.0x our FY27E and 35.9x FY28E EPS. Its 52x median forward P/E since 2021, cut by the ~30% de-rating of paint and adhesive peers, gives 37x and {{dcf.tp|inr}}. The DCF (₹263) shows the price still assumes long, high growth."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "GREEN"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "AMBER"
+   },
+   {
+    "k": "Valuation",
+    "v": "AMBER"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): realised price (guided 7.5-8.5%), volume (guided 7.5-8%) and whether the margin rose year on year as promised.",
+   "Post-Diwali pricing: if crude stays lower, a price cut or bigger dealer rebates would hit FY28 value growth; past cuts came 3-4 months after inputs fell.",
+   "Birla Opus and JSW Dulux: Grasim's quarterly paint revenue, dealer schemes, painter incentives.",
+   "Panagarh plant start (end of FY27) and the capex run-rate (₹600-800 cr guided for FY27).",
+   "East India demand: West Bengal (a large market for Berger) after the change of government; North-East floods."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Two years of volume without value, then price arrived",
+       "unit": "Standalone growth, year on year (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Volume",
+         "values": [
+          11.8,
+          3.6,
+          7.4,
+          7.4,
+          5.6,
+          8.8,
+          8.5,
+          11.8,
+          8.4
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Value (revenue)",
+         "values": [
+          2.4,
+          -0.4,
+          0.4,
+          4.4,
+          2,
+          1.1,
+          0.4,
+          6.7,
+          12.7
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "none",
+       "source": "Company presentations (Q1FY26 volume = decorative)"
+      },
+      {
+       "type": "column",
+       "title": "Share of listed players: ~20-21% on the company count, slipping in 9MFY26",
+       "unit": "Berger India share of five listed paint companies' sales (%, company estimate)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "Q1FY26"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          18.9,
+          19.3,
+          19.5,
+          20.3,
+          21.2
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 15,
+       "max": 23,
+       "source": "Q4FY25 and Q1FY26 decks; Q4FY26 deck says \"~20%\"; MD (Feb-2026): 19.4-19.6% in 9MFY26 on his basis"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Birla Opus already sells half as much paint as Berger India",
+       "unit": "Revenue, Jun-2026 quarter (₹ crore)",
+       "x": [
+        "Asian Paints (standalone)",
+        "Berger (standalone)",
+        "Kansai Nerolac (consolidated)",
+        "Birla Opus (Grasim paints)",
+        "Indigo Paints"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          9156,
+          3226.7,
+          2374,
+          1661,
+          370
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Berger (standalone)",
+       "source": "Company results (Asian Paints standalone net sales per press summaries; Kansai and Indigo per Screener.in); Grasim Q1FY27 release"
+      },
+      {
+       "type": "line",
+       "title": "Standalone margins: gross 39-42%, EBITDA 13-18%",
+       "unit": "Standalone margin (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Gross margin",
+         "values": [
+          39.3,
+          40.4,
+          39.7,
+          41.2,
+          40.1,
+          39.6,
+          41.2,
+          42.3,
+          39.3
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "EBITDA margin",
+         "values": [
+          17.2,
+          15.8,
+          16.2,
+          16.6,
+          17.4,
+          12.7,
+          16.1,
+          18.3,
+          17.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "min": 0,
+       "max": 50,
+       "source": "Company presentations (margin-trend slides)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: inside 15-17% for most of a decade",
+       "unit": "Consolidated EBITDA margin (%); dashed lines = management's 15-17% range",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 20,
+       "lines": [
+        {
+         "v": 15,
+         "text": ""
+        },
+        {
+         "v": 17,
+         "text": ""
+        }
+       ],
+       "source": "Screener.in; GAM estimates FY27-29E"
+      },
+      {
+       "type": "stacked",
+       "title": "Our build: decorative carries the growth",
+       "unit": "Revenue by business line (₹ '000 crore)",
+       "x": [
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Decorative",
+         "values": [
+          9.7,
+          11,
+          11.9,
+          13.1
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "Industrial",
+         "values": [
+          2.1,
+          2.4,
+          2.6,
+          2.8
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "minLabel": 1,
+       "source": "AR FY26 (industrial 18% of FY26 sales); GAM estimates"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: from 95x in 2021 to ~36x",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2016-04-08",
+        "2016-05-13",
+        "2016-06-17",
+        "2016-07-22",
+        "2016-08-26",
+        "2016-09-30",
+        "2016-11-04",
+        "2016-12-09",
+        "2017-01-13",
+        "2017-02-17",
+        "2017-03-24",
+        "2017-04-28",
+        "2017-06-02",
+        "2017-07-07",
+        "2017-08-11",
+        "2017-09-15",
+        "2017-10-19",
+        "2017-11-24",
+        "2017-12-29",
+        "2018-02-02",
+        "2018-03-09",
+        "2018-04-13",
+        "2018-05-18",
+        "2018-06-22",
+        "2018-07-27",
+        "2018-08-31",
+        "2018-10-05",
+        "2018-11-09",
+        "2018-12-14",
+        "2019-01-18",
+        "2019-02-22",
+        "2019-03-29",
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          37.6,
+          43.5,
+          43.8,
+          49.7,
+          52.9,
+          55.1,
+          54.8,
+          46.4,
+          45.1,
+          47.3,
+          48.2,
+          51.3,
+          49.9,
+          48.2,
+          46.8,
+          52,
+          51.5,
+          50.5,
+          53.8,
+          48.5,
+          48.6,
+          40.2,
+          41.4,
+          42.2,
+          47.1,
+          49.5,
+          39.6,
+          45.7,
+          47.7,
+          48.2,
+          43.4,
+          47.8,
+          42.1,
+          44.1,
+          41.8,
+          49.4,
+          54,
+          66.1,
+          67.1,
+          68.9,
+          77.1,
+          61.9,
+          60.2,
+          53.4,
+          59.6,
+          61.4,
+          64.4,
+          70.3,
+          76.1,
+          82.9,
+          90.3,
+          79.3,
+          86.4,
+          80.9,
+          91.1,
+          95.4,
+          92.6,
+          95,
+          83.8,
+          82.5,
+          89.4,
+          81.2,
+          81.2,
+          59.6,
+          47.8,
+          48.4,
+          56,
+          55.2,
+          50.9,
+          50.2,
+          47.9,
+          44.9,
+          48.3,
+          49.2,
+          52.2,
+          55.5,
+          56.9,
+          58,
+          56.2,
+          54.7,
+          57.2,
+          58.9,
+          55.6,
+          55.2,
+          52.1,
+          47.6,
+          53.3,
+          55,
+          64.5,
+          57.6,
+          49.3,
+          45.8,
+          50.9,
+          52.7,
+          45.4,
+          49.3,
+          45.9,
+          47.8,
+          45.6,
+          46.5,
+          45.5,
+          46.3,
+          44.5,
+          39,
+          35.5,
+          37.3,
+          38.6,
+          39.2,
+          42.9,
+          36.1
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 52,
+         "text": "Median since 2021: 52x"
+        }
+       ],
+       "source": "Screener.in prices (bonus-adjusted); actual EPS, GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (latest notes standing on 30-Sep-26)",
+       "unit": "₹ per share; CMP ₹455",
+       "x": [
+        "Nomura",
+        "ICICI Securities",
+        "Monarch Networth",
+        "Macquarie",
+        "Morgan Stanley",
+        "Geojit",
+        "Equirus",
+        "Nuvama",
+        "Investec",
+        "Systematix",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          675,
+          575,
+          577,
+          425,
+          429,
+          554,
+          577,
+          635,
+          525,
+          570,
+          500
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and aggregators (May-Sep 2026), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Berger does",
+   "kicker": "The business",
+   "title": "India's No.2 paint maker: four-fifths decorative, one-fifth industrial",
+   "blocks": [
+    {
+     "p": "Berger makes paints and coatings. **Decorative** paints (about 82% of FY26 consolidated sales) go on homes and buildings: interior and exterior emulsions, enamels, distempers, putty and primers, wood coatings, and a fast-growing range of construction chemicals and waterproofing (Home Shield, Roof Kool & Seal, Dampshield) and tile adhesives. They are sold through 64,475 dealers, most of whom tint paint to order on Berger's machines, and applied by contract painters, who influence what the homeowner buys. **Industrial** coatings (18%) are sold to companies: protective coatings for bridges, refineries, pipelines and rail (Berger is No.1 in India), automotive coatings (directly and through a 49% joint venture with Nippon Paint), general industrial and powder coatings, and coil coatings through a 49% joint venture with Becker. Subsidiaries add ₹1,460 cr of revenue (net of eliminations): Bolix in Poland (external insulation systems), BJN in Nepal (decorative paints), STP (construction chemicals) and smaller Indian units."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What Berger sells (FY26)",
+      "head": [
+       "Business line",
+       "Share of sales",
+       "Products and brands",
+       "Who buys"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "**Decorative**",
+        "**~82%**",
+        "",
+        ""
+       ],
+       [
+        "  Emulsions, enamels, distempers, putty, wood coatings",
+        "",
+        "Kolor Plus and Kolor Plus Glow (premium interior), WeatherCoat Anti Dustt (exterior), Silk Metallics, Luxol Metallics (enamel)",
+        "Homeowners via dealers and painters; builders (projects)"
+       ],
+       [
+        "  Construction chemicals and waterproofing",
+        "~10-12% of decorative",
+        "Home Shield range, Roof Kool & Seal, Tank Kool, Dampshield; tile adhesives, admixtures, textures",
+        "Homeowners, masons, builders"
+       ],
+       [
+        "**Industrial**",
+        "**18%**",
+        "",
+        ""
+       ],
+       [
+        "  Protective and infrastructure",
+        "",
+        "High-performance coatings (fluoropolymer, polysiloxane), pipe coatings, coatings for rail",
+        "Government and private infrastructure, oil & gas, power"
+       ],
+       [
+        "  Automotive, general industrial, powder",
+        "",
+        "OEM coatings (two-wheelers, CVs, EVs); soft-touch and speciality finishes; architectural powder",
+        "Vehicle makers, appliance and fan makers"
+       ],
+       [
+        "  Joint ventures (equity-accounted, not in revenue)",
+        "",
+        "Berger Nippon Paint Automotive Coatings (49%); Berger Becker Coatings (48.98%)",
+        "Car makers; coil and packaging users"
+       ]
+      ],
+      "source": "AR FY26 (MD message, segment note 52, subsidiary list); Q1FY27 call (construction chemicals share); Q4FY26 and Q1FY27 decks"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "The parent is 88% of revenue",
+       "unit": "FY26 revenue (₹ crore)",
+       "x": [
+        "Berger Paints India (standalone)",
+        "Subsidiaries (consolidated less standalone)"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          10420,
+          1460
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Berger Paints India (standalone)",
+       "source": "AR FY26; Screener.in; GAM (subsidiaries = difference)"
+      },
+      {
+       "type": "hbar",
+       "title": "India is 92% of customer revenue",
+       "unit": "FY26 revenue from contracts with customers, by destination (₹ crore)",
+       "x": [
+        "Within India",
+        "Outside India"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          10789,
+          1001
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Within India",
+       "source": "AR FY26 consolidated note 52"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Reach and assets",
+      "head": [
+       "",
+       "Detail"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Distribution",
+        "64,475 dealers and distributors in FY26 (61,661 in FY25), 11,100+ added in the year; top 10 dealers only 1.9% of sales; ~1,900 exclusive stores (~900 urban), 700 opened in FY26"
+       ],
+       [
+        "Tinting",
+        "10,000+ tinting machines installed in FY26 (2,600+ in Q4), 2,100+ in Q1FY27; aim ~10,000 again in FY27, mostly in under-indexed pin codes"
+       ],
+       [
+        "Manufacturing",
+        "15 domestic paint factories (excluding subsidiaries) incl. Jammu, Sikandrabad, Sandila, Howrah, Rishra, Nalbari, Naltali, Puducherry, Hindupur, Goa, Jejuri, Taloja; 30+ worldwide incl. subsidiaries and JVs; new plants at Panagarh (West Bengal) and Khordha (Odisha)"
+       ],
+       [
+        "People",
+        "9,119 permanent employees (standalone)"
+       ],
+       [
+        "Overseas",
+        "Nepal (BJN), Poland (Bolix, with units in the UK, France and Ukraine), Russia; revenue outside India ₹1,001 cr in FY26 (+18%)"
+       ]
+      ],
+      "source": "AR FY26 (pp. 4-8, BRSR); Q4FY26 and Q1FY27 decks and call"
+     }
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From Hadfield's of Calcutta (1923) to a Dhingra-run No.2",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1923",
+        "Hadfield's (India) Ltd set up in Calcutta (today's Berger Paints India; CIN L51434WB1923PLC004793)",
+        "Origin of the Indian company"
+       ],
+       [
+        "1976",
+        "Foreign holding diluted below 40% by a sale to the UB Group (Vittal Mallya)",
+        "–"
+       ],
+       [
+        "1991",
+        "The Dhingra brothers (Kuldip Singh and Gurbachan Singh Dhingra) acquired control",
+        "Current promoter family; 75% holding today"
+       ],
+       [
+        "2008",
+        "Bought Bolix S.A. (Poland), an external-insulation (ETICS) maker",
+        "Main overseas business; with Nepal, outside-India sales ₹1,001 cr in FY26"
+       ],
+       [
+        "Sep-2023",
+        "1:5 bonus issue (19.43 cr shares); centenary year",
+        "Share count 97.1 cr to 116.6 cr; all per-share data restated"
+       ],
+       [
+        "2024",
+        "Grasim launched Birla Opus; heavy dealer schemes and painter spends across the industry",
+        "Standalone value growth fell to 0-4% in FY25-26 while volumes grew 4-12%; price cuts in economy emulsions"
+       ],
+       [
+        "FY26",
+        "Barasat warehouse fire (₹36.8 cr loss, insured) and Labour Code charge (₹53.3 cr)",
+        "FY26 reported PAT −4.6%"
+       ],
+       [
+        "Dec-2025",
+        "JSW Paints took control of Akzo Nobel India (Dulux); promoter holding consolidated into U K Paints (India)",
+        "A second large, well-funded rival; no change in Berger's promoter stake"
+       ],
+       [
+        "Mar-Jun 2026",
+        "West Asia conflict lifts crude-linked inputs; industry raises prices 14-16% in stages",
+        "Value growth back to double digits in Q1FY27"
+       ],
+       [
+        "May-2026",
+        "Panagarh and Khordha plants (₹1,800-2,000 cr) confirmed; MD & CEO re-appointed to 2031",
+        "Capex steps up to ₹600-1,000 cr a year"
+       ]
+      ],
+      "source": "Company website (history milestones); Goodreturns company history; AR FY26 notes 20 and 60; Q1FY25-Q1FY27 decks and calls"
+     }
+    },
+    {
+     "callout": "**Corporate actions and per-share data:** the 1:5 bonus of Sep-2023 raised the share count from 97.1 cr to 116.6 cr. Screener, and every per-share figure in this report, is restated for it. No buyback or equity raise since; dividends (₹4.00 a share for FY26, ₹466 cr) are the main return of cash. The Dec-2025 promoter restructuring moved shares between promoter companies (U K Paints (India) now holds 64.56%); total promoter holding stayed at 75%."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "A growing market that turned from a cosy oligopoly into a capacity race",
+   "blocks": [
+    {
+     "p": "Indian paint demand grows with housing, repainting, rising incomes and the shift from lime wash and unbranded paint to branded emulsions. Use per person is low (about 4.1 kg against a global average of 13-15 kg) and the unorganised sector is still nearly a quarter of the market. For two decades the organised market was a stable oligopoly led by Asian Paints, with Berger, Kansai Nerolac and Akzo Nobel (Dulux) behind; prices rose with inputs and rarely fell much. That changed in 2024, when Grasim launched Birla Opus with large new plants and aggressive dealer terms, and again in Dec-2025, when JSW Paints took control of Akzo Nobel India. Industry value growth fell close to zero in FY25-26 while volumes kept growing."
+    },
+    {
+     "p": "The cost side is crude oil. Petroleum derivatives (solvents, monomers for emulsions, resins) are 55-60% of raw materials and titanium dioxide is the other big input. When the West Asia conflict lifted crude in early 2026, the industry raised prices 14-16% in stages between March and June, Birla Opus included. That is why Q1FY27 growth jumped for every listed player. The question for FY28 is how much of it stays when inputs ease."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Forces acting on Berger's markets (as of 30-Sep-2026)",
+      "head": [
+       "Theme",
+       "Direction",
+       "What it means for Berger"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "New entrants: Birla Opus (Grasim) and JSW Dulux (ex-Akzo Nobel India)",
+        "Headwind, stabilising",
+        "Birla Opus booked ₹1,661 cr of paint revenue in Q1FY27 (+64% YoY) and calls itself the No.3 organised decorative player; Investec puts its share gain at ~3-4% in two years. JSW took control of Akzo Nobel India in Dec-2025. Berger's MD: share lost 'mostly to Birla'; intensity 'reduced, but it still remains at an elevated level' (Aug-2026)."
+       ],
+       [
+        "Input costs and prices (West Asia conflict, crude, TiO2)",
+        "Mixed",
+        "Petroleum derivatives are 55-60% of paint inputs. The industry raised prices 14-16% in stages over Mar-Jun 2026; Brent fell ~15% in June. Price cuts usually come 3-4 months after inputs fall and are smaller than the rises (ICICI Securities, Jun-2026), but a cut before or after Diwali is the main risk to FY27-28 value growth."
+       ],
+       [
+        "Demand: weather, festive timing, housing",
+        "Improving",
+        "FY26 was hurt by a long, heavy monsoon and an early Diwali; Q4FY26 standalone volume +11.8%, Q1FY27 +8.4% with drier weather and a later Diwali. Q2 volume guided at 7.5-8%."
+       ],
+       [
+        "Mix: construction chemicals, waterproofing, tile adhesives, economy emulsions",
+        "Volume tailwind, value drag",
+        "Construction chemicals are ~10-12% of Berger's decorative sales and grow much faster than paint, but they are low-price-per-kg products; with downtrading to economy emulsions they opened a 5-8pp gap between volume and value growth in FY25-26."
+       ],
+       [
+        "Industrial coatings: autos, infrastructure, government capex",
+        "Tailwind",
+        "GST on two-wheelers and cars cut from 28% to 18% helped automotive coatings; Union Budget FY27 public capex ₹12.2 lakh cr supports protective coatings, where Berger is No.1."
+       ],
+       [
+        "Penetration and formalisation",
+        "Long-term tailwind",
+        "India uses ~4.1 kg of paint per person vs 13-15 kg globally; the unorganised sector is still nearly a quarter of the market (AR FY26). Capacity added by new entrants speeds up formalisation but also caps pricing."
+       ]
+      ],
+      "source": "Grasim Q1FY27 press release (Aug-2026); Business Today on ICICI Securities (30-Jun-2026); Multibagg summary of Investec/ICICI/Equirus (May-2026); Berger Q3FY26 and Q1FY27 calls; AR FY26 (operating context)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Q1FY27: price lifted everyone; Berger in the middle",
+       "unit": "Consolidated revenue growth, Jun-2026 quarter, year on year (%)",
+       "x": [
+        "Pidilite",
+        "Indigo Paints",
+        "Asian Paints",
+        "Berger Paints",
+        "Kansai Nerolac"
+       ],
+       "series": [
+        {
+         "name": "Growth",
+         "values": [
+          21.3,
+          19.7,
+          17.9,
+          12,
+          9.8
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Berger Paints",
+       "source": "Screener.in quarterly results"
+      },
+      {
+       "type": "hbar",
+       "title": "Over three years Berger outgrew the leader",
+       "unit": "Revenue growth, FY23-26, a year (%)",
+       "x": [
+        "Berger Paints",
+        "Asian Paints",
+        "Kansai Nerolac",
+        "Indigo Paints",
+        "Pidilite"
+       ],
+       "series": [
+        {
+         "name": "CAGR",
+         "values": [
+          4,
+          1,
+          2.2,
+          9.4,
+          7.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Berger Paints",
+       "source": "Screener.in (consolidated)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: Berger gets the volume tailwinds, not the pricing ones",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Demand recovery (weather, festive timing, tax cuts)",
+       "Yes",
+       "Standalone volume +11.8% in Q4FY26 and +8.4% in Q1FY27; secondary sales in July \"much better than last year\" (MD).",
+       "Volume is real; East and North-East still muted."
+      ],
+      [
+       "Industry price rises (crude)",
+       "Yes, for now",
+       "Value growth 12.7% in Q1FY27 vs 0-7% for two years; but only ~5% realised against a 12-13% list-price rise.",
+       "Borrowed from crude; may be handed back."
+      ],
+      [
+       "Construction chemicals and waterproofing",
+       "Yes",
+       "~10-12% of decorative sales, growing \"significantly higher\" than paint; Roof Kool & Seal, Dampshield.",
+       "Adds volume, dilutes price per kg."
+      ],
+      [
+       "Premiumisation",
+       "Partly",
+       "Kolor Plus gained traction in premium interiors; but FY26 saw downtrading to economy emulsions and lower exterior sales.",
+       "Mix helped Q1FY27 (stocking ahead of price rises)."
+      ],
+      [
+       "Industrial capex, autos (GST cut)",
+       "Yes",
+       "Automotive double-digit value growth in Q1FY27; protective margins in the high teens; GI and powder recovered late in FY26.",
+       "Industrial lagged on price in Q1, catches up in Q2."
+      ],
+      [
+       "Penetration and formalisation",
+       "Shared",
+       "Per-capita use 4.1 kg; but the new entrants are the ones adding most capacity and dealers.",
+       "Berger must spend to hold share."
+      ],
+      [
+       "Overseas",
+       "No",
+       "Bolix flat in Q1FY27, UK subdued, Nepal hit by elections in Q4FY26.",
+       "Small (8% of revenue) and slow."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "Berger Paints investor presentations, earnings calls and annual reports; GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "nav": "The new competition",
+   "kicker": "The central question",
+   "title": "Birla Opus and JSW: Berger is holding volume share, but paying for it",
+   "blocks": [
+    {
+     "p": "Grasim launched Birla Opus in 2024 with large new plants and generous dealer terms; by Q1FY27 it was selling ₹1,661 cr of paint a quarter (+64% year on year), about half of Berger India's quarterly sales, and calls itself the No.3 organised decorative player. Investec estimates it took ~3-4% of the market in two years. In Dec-2025 JSW Paints took control of Akzo Nobel India (Dulux), creating a second well-funded challenger. Berger's own numbers show what that did. Volume kept growing (standalone 4-12% a quarter) and its share of the five listed players' sales rose to a company-estimated 20.3% in FY25 and 21.2% in Q1FY26, because Asian Paints lost more. But value growth collapsed to −0.4% to +6.7%, and in Feb-2026 the MD conceded a small loss: share \"was at 19.5, 19.6, it would have probably gone down to 19.4\", gone \"mostly to Birla\". In Aug-2026 he said Berger had regained \"a little bit\" in Q1FY27."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Revenue growth: Berger beat the leader through the shock (consolidated, year on year)",
+      "head": [
+       "Company",
+       "FY24",
+       "FY25",
+       "FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "Berger Paints",
+        "6.0%",
+        "3.1%",
+        "2.9%",
+        "12.0%"
+       ],
+       [
+        "Asian Paints",
+        "2.9%",
+        "-4.5%",
+        "4.9%",
+        "17.9%"
+       ],
+       [
+        "Kansai Nerolac",
+        "3.4%",
+        "0.3%",
+        "2.9%",
+        "9.8%"
+       ],
+       [
+        "Indigo Paints",
+        "21.7%",
+        "2.7%",
+        "4.8%",
+        "19.7%"
+       ]
+      ],
+      "source": "Screener.in (consolidated). Birla Opus is inside Grasim; JSW Dulux not on file"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "EBITDA margin: everyone gave some back (consolidated)",
+      "head": [
+       "Company",
+       "FY24",
+       "FY25",
+       "FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "Berger Paints",
+        "16.6%",
+        "16.1%",
+        "15.4%",
+        "16.9%"
+       ],
+       [
+        "Asian Paints",
+        "21.4%",
+        "17.7%",
+        "18.8%",
+        "20.6%"
+       ],
+       [
+        "Kansai Nerolac",
+        "13.2%",
+        "12.0%",
+        "12.1%",
+        "13.8%"
+       ],
+       [
+        "Indigo Paints",
+        "18.2%",
+        "17.4%",
+        "18.1%",
+        "16.8%"
+       ]
+      ],
+      "source": "Screener.in (consolidated)"
+     }
+    },
+    {
+     "h": "Have margins reset lower?"
+    },
+    {
+     "p": "Partly. Berger's gross margin did not fall: the standalone figure was 41.2% and 42.3% in Q3-Q4FY26, the best in three years, helped by cheaper inputs, mix and the end of the anti-dumping duty on titanium dioxide. The money went below the gross line. In FY26 consolidated other expenses (which include advertising and selling costs) rose to 19.4% of revenue from 18.3%, and staff costs to 7.7% from 7.1%, so EBITDA margin fell from 16.1% to 15.4% even as gross margin rose. Management keeps guiding to 15-17% and Q1FY27 came in at 16.9%. Our read: the band has not moved, but Berger now needs a good gross margin just to stay in the middle of it, and any price give-back in FY28 lands on a cost base that has been raised for good."
+    },
+    {
+     "bullets": [
+      "**What the challenger is doing now (MD, 5-Aug-2026):** its dealer price list was ~5% below Berger's and has been raised to match; rebates to bigger dealers went up; \"10% free material continues in most of the packs\"; painter spends normalised. Intensity \"reduced, but it still remains at an elevated level\".",
+      "**Other entrants:** smaller and foreign players together cut industry growth by \"1-1 and a half percent\" (MD, Feb-2026); Pidilite's Haisha is entering East India, Berger's home market.",
+      "**Berger's response:** 11,100+ dealers added and 10,000+ tinting machines in FY26, 700 new stores, a corporate-brand campaign, new products (Kolor Plus, Roof Kool & Seal, Dampshield), and ad spend \"on par\" with its share while the challenger spends far above its share (MD).",
+      "**The bull case on competition:** Investec (May-2026) thinks \"peak competitive intensity may be over\" and sees Opus's further gains at ~1.5-2%; ICICI Securities notes Birla Opus raised prices more than peers in 2026."
+     ]
+    },
+    {
+     "callout": "**Verdict:** Berger is not losing the volume war; three-year revenue growth of 4% a year beat Asian Paints' 1% and Kansai's 2%. It has lost the pricing it used to enjoy, and it now spends more on dealers and brand to stand still. The 2026 price rises were an industry event caused by crude, not proof that discipline is back. We assume the 15-17% margin band holds, but at {{F.ebitdaMargin.1|pct}} in FY28E, not the top of it."
+    }
+   ]
+  },
+  {
+   "id": "deco",
+   "nav": "Decorative",
+   "kicker": "Business line",
+   "title": "Decorative: steady volume, and a price line the company does not control",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Value minus volume: −8pp to +4pp in two years",
+       "unit": "Standalone value growth less volume growth (percentage points)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Price and mix",
+         "values": [
+          -9.4,
+          -4,
+          -7,
+          -3,
+          -3.6,
+          -7.7,
+          -8.1,
+          -5.1,
+          4.3
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations; GAM"
+      },
+      {
+       "type": "column",
+       "title": "Volume: 4-12% a quarter through the competitive shock",
+       "unit": "Standalone volume growth, year on year (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Volume",
+         "values": [
+          11.8,
+          3.6,
+          7.4,
+          7.4,
+          5.6,
+          8.8,
+          8.5,
+          11.8,
+          8.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations (Q1FY26 = decorative)"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**What it is.** Paints, putty, wood coatings and construction chemicals for homes and buildings: ~₹9,742 cr in FY26 on the company's 82/18 split (CRISIL: ~80%). FY26 decorative volume +7.7%, value +3% (consolidated).",
+      "**Why value lagged volume in FY25-26.** Price cuts in economy emulsions taken in FY25, a shift to cheaper products (putty, textures, tile adhesives, economy emulsions), lower sales of exterior emulsions in two long monsoons, and dealer schemes to defend share against Birla Opus. Management's own description: \"volume growth happens to be there, but the value growth is relatively muted\".",
+      "**Q1FY27.** Decorative value ~13.5% (highest in 12 quarters) and operating profit ~+20%, on calibrated price rises effective for part of the quarter, exterior emulsions and Kolor Plus. Some dealer stocking ahead of price rises (\"there has been some amount of stocking up\").",
+      "**Where it is strong.** A clear leader in the North-East and strong in East India (West Bengal is over 10% of revenue, per Equirus); under-indexed in the South and West, where most new tinting machines and the corporate-brand campaign are aimed. Project (builder) sales grow 1-2pp faster than retail.",
+      "**Competition.** The challenger's dealer price list was ~5% below Berger's and has been equalised; rebates to big dealers and 10% free material in most packs continue; painter incentives have normalised (MD, Aug-2026)."
+     ]
+    },
+    {
+     "callout": "**Our view:** decorative volume growth of 8-10% looks durable: more dealers, tinting machines and stores, construction chemicals, and a low base in many states. Value growth is the industry's to decide. We model decorative revenue +12.5% / +9% / +10% (FY27-29E): price stays through FY27, is partly given back in FY28 (about 2-3pp of price lost against ~9-10% volume), and only mix helps in FY29."
+    }
+   ]
+  },
+  {
+   "id": "industrial",
+   "nav": "Industrial & subsidiaries",
+   "kicker": "Business line",
+   "title": "Industrial and overseas: a real niche in protective coatings, small elsewhere",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Subsidiaries' revenue grew 9% a year (FY22-26)",
+       "unit": "Consolidated less standalone revenue (₹ crore)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Subsidiaries (net)",
+         "values": [
+          1021,
+          1097,
+          1196,
+          1376,
+          1460
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; AR FY26 five-year summary; GAM"
+      },
+      {
+       "type": "column",
+       "title": "Outside-India sales up 18% in FY26",
+       "unit": "Revenue from customers outside India (₹ crore)",
+       "x": [
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Outside India",
+         "values": [
+          847,
+          1001
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26 consolidated note 52"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**Industrial in India.** 18% of FY26 consolidated sales, revenue +2.4%. Protective coatings (No.1 in India): value +2.3%, volume +8.2%, operating margins \"at high teens\" in Q4FY26; government capex is the driver. Automotive did well after the GST cut on vehicles (28% to 18%); general industrial and powder coatings were weak most of FY26 and recovered at the year end.",
+      "**Price lag.** Industrial customers accept price rises slowly: in Q1FY27 protective, GI and powder grew less because increases came only towards the end of the quarter, after what the MD called a protracted battle in the field; the full benefit comes in Q2. Industrial is \"almost 20%\" of Berger against much less for Asian Paints, so Berger's margins move later in an inflation cycle.",
+      "**Joint ventures.** Berger Nippon Paint Automotive Coatings (49%) and Berger Becker Coatings (48.98%) are equity-accounted: their sales are not in Berger's revenue, only the profit share (₹35 cr in FY25, ₹51 cr in FY26, ₹11.8 cr in Q1FY27).",
+      "**Subsidiaries.** BJN Nepal (decorative; double-digit growth in Q1FY27 after an election-hit Q4FY26), Bolix S.A. Poland (external insulation; flat in Q1FY27 on seasonality, UK operations subdued and being cut back to profitable lines), STP (construction chemicals; a plant disruption in Q1FY27), SBL Specialty Coatings, Berger Rock Paints (51%), Berger Hesse Wood Coatings (51%). Subsidiary revenue rose only 2% in Q4FY26, but gross margins expanded (Equirus)."
+     ]
+    },
+    {
+     "callout": "Industrial is Berger's one clear competitive edge (the new entrants are decorative-only) and a hedge against a decorative price war, but at ~18% of sales it cannot carry the group. We model industrial revenue +10% / +9% / +10% (FY27-29E). Overseas is a profitability fix, not a growth story: management has dropped geographic expansion in Europe in favour of margins."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: a narrow moat in decorative, a real one in protective coatings",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Brand",
+       "Moderate",
+       "No.2 decorative brand with ~20% share of listed players, but Asian Paints is ~3x its size; Berger's ad spend is 'on par' with its market share while Birla Opus spends far above its share (MD, Feb-2026). A new corporate-brand campaign launched in Q1FY27.",
+       "Recognised, not dominant: it does not set prices."
+      ],
+      [
+       "Distribution and influencers",
+       "Moderate",
+       "64,475 dealers (11,100+ added in FY26), 10,000+ tinting machines a year, ~1,900 stores; clear leader in the North-East and strong in the East. But Birla Opus built 1,450+ franchise outlets and a No.3 position in about two years.",
+       "Valuable, but shown to be copyable with enough capital."
+      ],
+      [
+       "Pricing power",
+       "Weak",
+       "Standalone value growth was −0.4% to +6.7% in the eight quarters to Q4FY26 while volume grew 4-12%; economy-emulsion prices were cut; 2026 price rises followed the leader and the challenger. Realised price in Q1FY27 was ~5% against a 12-13% list-price rise.",
+       "Margins depend on the industry staying rational."
+      ],
+      [
+       "Cost position and backward integration",
+       "Neutral",
+       "Emulsions and most resins made in-house; high standalone gross margin (39-42%); mega plants at Panagarh and Khordha planned. Asian Paints is integrating further back and the new entrants have new, large plants.",
+       "No lasting cost edge either way."
+      ],
+      [
+       "Industrial niches (protective, automotive JV)",
+       "Strong advantage",
+       "No.1 in Indian protective coatings; automotive and coil coatings through JVs with Nippon Paint and Becker; industrial is ~18% of sales. New entrants are decorative-only.",
+       "A real niche, but too small to carry the group."
+      ],
+      [
+       "Customer switching costs",
+       "Weak",
+       "Homeowners rarely know the brand they buy; painters and dealers choose, and dealer schemes (10% free material, rebates) sway them.",
+       "Share can move with trade spending."
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings and calls, CRISIL, broker notes to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** in decorative paints Berger has scale, a dense dealer and tinting network and a known brand, but not a wide moat. The last two years proved it: a new entrant with money built a No.3 position in about two years, and Berger had to cut prices in economy products and spend more to keep its share. The moat protects **volume share**, not **price**. The one place it is genuinely hard to dislodge is industrial (No.1 in protective coatings, JVs with Nippon Paint and Becker), and that is under a fifth of sales. Net: a well-run No.2 in an industry that has become more competitive for good; it does not deserve the premium multiple it carried in 2021."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Ten years: revenue up 2.8x, but the last three years added only 4% a year",
+   "blocks": [
+    {
+     "p": "Berger's revenue grew from ₹4,223 cr in FY16 to ₹11,880 cr in FY26, about 11% a year, and net profit from ₹371 cr to ₹1,128 cr, also about 11-12% a year. The decade splits in two. Up to FY23 growth was strong: revenue jumped 29% in FY22 and 21% in FY23 as demand came back after Covid and the industry raised prices to pass on raw-material inflation. Since then revenue grew only 6%, 3% and 3% (FY24-26), even though volumes grew 7-9% a year: prices were cut in economy emulsions, the mix moved to cheaper products (putty, textures, tile adhesives), and new competitors (Birla Opus from 2024) pushed dealer schemes up. Profit followed: up 36% in FY24 when input costs fell, then flat in FY25 and down 5% in FY26 (including a ₹53 cr Labour Code charge)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: fast to FY23, then 3-6% a year",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit: a step up in FY24, flat since",
+       "unit": "Net profit (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 14-17% for a decade",
+       "unit": "EBITDA margin (%)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 20,
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Growth: price did the work in FY22-23, volume since",
+       "unit": "Revenue growth, year on year (%)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue growth",
+         "ref": "fin.salesGrowth",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** Berger is a steady compounder of volume (high single digits most years), but in paints the value line is set by the industry's pricing. When raw materials spike, everyone raises prices and revenue jumps (FY22-23, Q1FY27); when they fall or a new entrant buys share, prices drift down and revenue lags volume (FY24-26). The EBITDA margin has stayed in a 14-17% band through all of it, the band management still guides to. We do not assume it breaks out."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: double-digit growth, mostly price, and margin up 40bp",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q1FY27",
+       "Change"
+      ],
+      "rows": [
+       [
+        "Consolidated revenue",
+        "3,201",
+        "3,584",
+        "+12%"
+       ],
+       [
+        "  Standalone revenue",
+        "2,863",
+        "3,227",
+        "+13%"
+       ],
+       [
+        "  Standalone volume growth",
+        "5.6% (decorative)",
+        "8.4%",
+        "price/mix ~5%"
+       ],
+       [
+        "  Subsidiaries (consolidated less standalone)",
+        "338",
+        "357",
+        "+6%"
+       ],
+       [
+        "Material cost, % of revenue (consolidated)",
+        "58.6%",
+        "59.1%",
+        "+50bp"
+       ],
+       [
+        "Standalone gross margin",
+        "40.1%",
+        "39.3%",
+        "−80bp"
+       ],
+       [
+        "Consolidated EBITDA",
+        "528",
+        "607",
+        "+15%"
+       ],
+       [
+        "EBITDA margin",
+        "16.5%",
+        "16.9%",
+        "+40bp"
+       ],
+       [
+        "Other income + JV share",
+        "40",
+        "51",
+        "+28%"
+       ],
+       [
+        "Exceptional items",
+        "-36.8",
+        "–",
+        "warehouse fire in Q1FY26"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net profit**",
+         "**315**",
+         "**405**",
+         "**+29%**"
+        ]
+       }
+      ],
+      "source": "Q1FY27 investor presentation (5-Aug-2026); call transcript"
+     }
+    },
+    {
+     "bullets": [
+      "**Decorative led:** value ~13.5%, the best in 12 quarters, operating profit ~+20%; exterior emulsions and Kolor Plus did well; construction chemicals and wood coatings grew strongly.",
+      "**Industrial lagged:** protective, GI and powder grew less because price rises came at the end of the quarter; automotive grew double digits. Gross margin slipped because of this lag, not decorative.",
+      "**Net cash rose** to ₹1,424 cr at Jun-2026 (₹1,198 cr at Mar-2026); most of it is earmarked for the Panagarh and Odisha plants.",
+      "**Why profit grew 29% while EBITDA grew 15%:** Q1FY26 carried a ₹36.8 cr fire charge (later recovered from insurers), and other income rose with the cash pile. Adjusted for the charge, PAT grew ~15%."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (Feb-Aug 2026)",
+      "head": [
+       "When",
+       "Topic",
+       "What was said",
+       "Outcome so far"
+      ],
+      "wide": [
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "5-Feb-26",
+        "Volume vs value",
+        "Double-digit volume growth 'should happen'; the value-volume gap 'will remain in the extent of 4-5%' (said before the 2026 price rises)",
+        "Q4FY26 volume 11.8%, value 6.7%; gap reversed in Q1FY27 (volume 8.4%, value 12.7%) after price rises"
+       ],
+       [
+        "5-Feb-26",
+        "Capital allocation",
+        "Two plants (Panagarh, West Bengal; Odisha) 'together is an investment of about 1,800 to 2,000 crore', funded from cash; no buyback 'at this present'; only small acquisitions",
+        "Repeated in AR FY26 (May-2026)"
+       ],
+       [
+        "12-May-26",
+        "FY27 outlook",
+        "Staggered price rises from March to support gross margin; operating margin within the guided 15-17%; competitive intensity 'expected to remain elevated'",
+        "Q1FY27 consolidated 16.9%, standalone 17.4%"
+       ],
+       [
+        "5-Aug-26",
+        "Revenue FY27",
+        "Double-digit revenue growth to sustain; Q2 revenue growth 'slightly ahead' of Q1; Q2 volume 7.5-8%, price impact 7.5-8.5% (about 5% in Q1)",
+        "Q2FY27 results due by mid-November 2026"
+       ],
+       [
+        "5-Aug-26",
+        "Margins",
+        "Operating margin 15-17%; Q2 margin up year on year as industrial price rises flow in; full-year expansion 'if it holds true at these prices'",
+        "To be tested in Q2FY27"
+       ],
+       [
+        "5-Aug-26",
+        "Capex FY27",
+        "₹600-800 cr for the year; the Panagarh project 'will start at the end of this fiscal'",
+        "FY26 capex ₹518 cr (Screener cash flow)"
+       ],
+       [
+        "5-Aug-26",
+        "Price cuts",
+        "A cut in H2 only if raw materials fall 'substantially, and there is peace'; 'very, very difficult to say'",
+        "Open"
+       ]
+      ],
+      "source": "Q3FY26 call (5-Feb-2026), Q4FY26 deck (12-May-2026), Q1FY27 call (5-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Why it matters:** management's record on the 15-17% margin band is good (FY24-26 all inside it). Its volume calls are reasonable. The open question is price: the 7.5-8.5% realisation guided for Q2 depends on mix, and the MD himself flagged that a price cut in H2 is possible if raw materials fall \"substantially, and there is peace\". We assume most of the price holds in FY27 and some is given back in FY28."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "Returns falling from ~28% to ~22%, and a ₹1,800-2,000 cr plant build-out ahead",
+   "blocks": [
+    {
+     "p": "Over FY15-26 Berger generated ₹9,899 cr of operating cash, spent ₹4,504 cr on capex and paid ₹2,925 cr of dividends. Capex came in waves: ₹1,522 cr in FY22-23, then ₹275-518 cr a year. The next wave is bigger: two plants at Panagarh (West Bengal) and Khordha (Odisha) for ₹1,800-2,000 cr together, with Panagarh due to start at the end of FY27. Management guides to ₹600-800 cr of capex in FY27 and CRISIL expects ~₹1,000 cr a year for the next few years. ROCE has drifted from 27-31% (FY16-21, FY24) to 22% in FY26 as value growth stalled; ROE was 17.3% in FY26 against an 11.3% cost of equity."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Cash from operations covers capex and dividends",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: from ~30% to 22%",
+       "unit": "Return on capital employed (%)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          25,
+          30,
+          31,
+          29,
+          27,
+          28,
+          27,
+          26,
+          24,
+          28,
+          25,
+          22
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 40,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY21-23",
+       "FY24-26",
+       "Six years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "2,338",
+        "4,400",
+        "6,738"
+       ],
+       [
+        "Capex",
+        "1,708",
+        "1,222",
+        "2,930"
+       ],
+       [
+        "Dividends paid",
+        "602",
+        "1,162",
+        "1,764"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over**",
+         "**28**",
+         "**2,016**",
+         "**2,044**"
+        ]
+       },
+       [
+        "Memo: cash and investments at the end",
+        "{{A.cashAndInvestments.8|num}}",
+        "{{A.cashAndInvestments.11|num}}",
+        ""
+       ]
+      ],
+      "source": "Screener.in cash flow (consolidated)"
+     }
+    },
+    {
+     "callout": "**The capital question:** the new plants add capacity for 10+ years of growth and lower freight to the East, Berger's strongest region. But they arrive when Birla Opus and JSW have also added large capacity. We model capex of {{F.capex.0|num}} / {{F.capex.1|num}} / {{F.capex.2|num}} cr (FY27-29E), all from cash; ROE stays near 18-19% only if volumes keep growing ~9% a year. There is no buyback plan (MD, Feb-2026); dividends are ~40% of profit."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean and cash-backed, with thin disclosure on the business lines",
+   "blocks": [
+    {
+     "bullets": [
+      "**Cash backs profit.** Operating cash flow was 137% of net profit in FY26, 107% in FY25 and 136% in FY24; over FY15-26 cash from operations (₹9,899 cr) exceeded net profit (₹8,615 cr). FY22 (68%) was the exception, when inventory was built as input prices rose.",
+      "**One-offs are small and explained.** FY26: a ₹53.3 cr Labour Code charge (Q3) and a ₹36.8 cr warehouse fire (Q1) offset by an insurance claim receivable (Q4). Adding back the Labour Code charge, FY26 profit was roughly ₹1,170 cr, about flat on FY25.",
+      "**Other income is modest.** Screener's other income (₹104 cr in FY26, 7% of pre-tax profit) is the company's other income (₹106.7 cr: treasury ₹61.8 cr, recurring items such as discounts and miscellaneous income ₹33.5 cr, one-offs ₹11.4 cr; AR note 36) plus the share of JV profit (₹51 cr) less the ₹53.3 cr exceptional charge.",
+      "**Revenue is net of dealer schemes.** Rebates, discounts and free material are deducted from revenue; rising schemes show up as weaker value growth, which is what happened in FY25-26.",
+      "**Disclosure.** One reported segment; decorative vs industrial only as growth rates and an annual share; volume growth every quarter but no tonnage or realisation; market-share figures on a changing basket (21.2% in a company chart, \"~20%\" and \"19.4%\" elsewhere).",
+      "**Auditor change.** B S R & Co. LLP replaced S. R. Batliboi & Co. LLP from the 2025 AGM at the end of its term; FY26 opinion unqualified."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: GREEN.** Strong cash conversion, small and explained one-offs, a simple balance sheet and a Big-Four auditor. The weaknesses are disclosure (no segment margins) and the dependence of reported revenue on scheme accounting in a price war."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash, but inventory-heavy: five months of stock on hand",
+   "blocks": [
+    {
+     "p": "Berger is net cash: the company reports ₹1,198 cr at Mar-2026 and ₹1,424 cr at Jun-2026 (₹992 cr a year earlier). On Screener's basis (cash and investments less borrowings, which include leases) it was ₹859 cr at Mar-2026. CRISIL rates it AAA/Stable (reaffirmed 28-Aug-2026) with gearing of ~0.1x and interest cover of 34x. Working capital is the heavy item: inventory of ~144 days of revenue and receivables of ~48 days, against payables of ~105 days, so the cash conversion cycle was 87 days in FY26, up from 73 in FY24. Paint companies carry many SKUs and shades and stock dealers ahead of the festive season; Berger's cycle is long even by that standard."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Working-capital days: inventory ~140-145 days",
+       "unit": "Days (of revenue)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          104,
+          108,
+          153,
+          140,
+          138,
+          142,
+          174,
+          178,
+          142,
+          134,
+          143,
+          144
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          47,
+          47,
+          46,
+          49,
+          40,
+          41,
+          55,
+          44,
+          43,
+          42,
+          49,
+          48
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          81,
+          99,
+          124,
+          133,
+          112,
+          118,
+          161,
+          139,
+          108,
+          103,
+          105,
+          105
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Cash and investments rebuilt since FY23",
+       "unit": "Cash and investments (₹ crore)",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash and investments",
+         "ref": "A.cashAndInvestments",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and investments (incl. JV holdings)",
+        "{{A.cashAndInvestments.7|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "Net fixed assets",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Capital work in progress",
+        "{{A.cwip.7|num}}",
+        "{{A.cwip.9|num}}",
+        "{{A.cwip.10|num}}",
+        "{{A.cwip.11|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.7|num}}",
+        "{{A.inventories.9|num}}",
+        "{{A.inventories.10|num}}",
+        "{{A.inventories.11|num}}"
+       ],
+       [
+        "Trade receivables",
+        "{{A.receivables.7|num}}",
+        "{{A.receivables.9|num}}",
+        "{{A.receivables.10|num}}",
+        "{{A.receivables.11|num}}"
+       ],
+       [
+        "Trade payables",
+        "{{A.payables.7|num}}",
+        "{{A.payables.9|num}}",
+        "{{A.payables.10|num}}",
+        "{{A.payables.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated), GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: the Dhingra family at 75%, foreign funds have halved",
+   "blocks": [
+    {
+     "p": "The Dhingra family owns 74.98% (Jun-2026), mostly through U K Paints (India) Pvt Ltd (64.56%), at the 75% maximum allowed for a listed company. Foreign investors own only 4.82% (down from 10.7% in Dec-2023), Indian institutions 11.78% (mutual funds 7.01%, insurers 4.74%) and the public 8.4%. The number of shareholders fell from ~393,000 (Dec-2023) to ~313,000 (Jun-2026)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Foreign funds sold, Indian institutions bought",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoters fixed at the 75% ceiling",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 50,
+       "max": 80,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest holders (30-Jun-2026)",
+      "head": [
+       "Holder",
+       "Stake",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "U K Paints (India) Pvt Ltd",
+        "64.56%",
+        "Promoter group"
+       ],
+       [
+        "Citland Commercial Credits Ltd",
+        "3.18%",
+        "Promoter group"
+       ],
+       [
+        "Wang Investment and Finance Pvt Ltd",
+        "3.09%",
+        "Promoter group"
+       ],
+       [
+        "Dhingra family individuals and HUFs (12)",
+        "3.33%",
+        "Promoter group"
+       ],
+       [
+        "KSD Family Trust",
+        "0.86%",
+        "Promoter group"
+       ],
+       [
+        "Bigg Investment and Finance Pvt Ltd",
+        "0.82%",
+        "Promoter group"
+       ],
+       [
+        "GBS Dhingra Family Trust",
+        "0.61%",
+        "Promoter group"
+       ],
+       [
+        "All promoters",
+        "74.98%",
+        "At the 75% ceiling"
+       ],
+       [
+        "SBI Large & Midcap Fund",
+        "4.32%",
+        "Mutual fund"
+       ],
+       [
+        "Life Insurance Corporation of India",
+        "4.2%",
+        "Insurer"
+       ],
+       [
+        "Nalanda India Fund",
+        "2.59%",
+        "Foreign fund"
+       ],
+       [
+        "Foreign portfolio investors (all)",
+        "4.82%",
+        ""
+       ],
+       [
+        "Mutual funds (all)",
+        "7.01%",
+        ""
+       ]
+      ],
+      "source": "BSE shareholding pattern for the Jun-2026 quarter via Trendlyne (named holders) and Screener.in (categories, counts). Promoter pledge data were not checked."
+     }
+    },
+    {
+     "callout": "**Our read:** a stable family owner with a professional MD. The free float is only 25% and three holders (SBI Large & Midcap Fund, LIC, Nalanda) own ~11% of the company, so the stock is thinly traded; foreign funds have been sellers for two years."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: a family board, a long-serving professional CEO",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Abhijit Roy",
+        "Managing Director & CEO",
+        "MD & CEO since Jul-2012, with Berger since 1996; re-appointed for 4 years from 1-Jul-2027 to 30-Jun-2031 (board 12-May-2026, AGM 12-Aug-2026); FY26 pay ₹10.55 cr, 110x the median employee, +13%"
+       ],
+       [
+        "Kaushik Ghosh",
+        "Chief Financial Officer",
+        ""
+       ],
+       [
+        "Arunito Ganguly",
+        "Vice President & Company Secretary",
+        ""
+       ],
+       [
+        "Rishma Kaur",
+        "Non-Executive Chairman",
+        "Promoter family; FY26 commission ₹0.79 cr"
+       ],
+       [
+        "Kanwardip Singh Dhingra",
+        "Non-Executive Vice Chairman",
+        "Promoter family; FY26 commission ₹0.79 cr"
+       ],
+       [
+        "Kuldip Singh Dhingra, Gurbachan Singh Dhingra",
+        "Non-Executive Directors",
+        "Promoters (the Dhingra brothers); FY26 remuneration ₹0.18 cr and ₹0.10 cr"
+       ]
+      ],
+      "source": "AR FY26 (AGM notice item 4; board report, remuneration disclosure)"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "B S R & Co. LLP (since the 2025 AGM), previously S. R. Batliboi; unqualified opinions.",
+       "No accounting red flags."
+      ],
+      [
+       "Promoter",
+       "Strong",
+       "75% held by the Dhingra family since 1991; Dec-2025 restructuring moved shares inside the group (U K Paints (India) now 64.56%).",
+       "Aligned, patient owner."
+      ],
+      [
+       "Professional management",
+       "Strong",
+       "Abhijit Roy MD & CEO since 2012 (with Berger since 1996), re-appointed to Jun-2031; revenue up 4x and profit 6x during his tenure.",
+       "Continuity; succession not yet visible."
+      ],
+      [
+       "Board",
+       "Moderate",
+       "Four promoter-family directors (incl. the non-executive Chairman and Vice Chairman) and five non-family non-executive directors (₹8.25 lakh each in FY26).",
+       "Family influence is high."
+      ],
+      [
+       "Pay",
+       "Moderate",
+       "MD ₹10.55 cr in FY26 (110x the median employee, +13%) in a year profit fell 5%; family Chairman and Vice Chairman ₹0.79 cr each in commission.",
+       "High in a weak year."
+      ],
+      [
+       "Capital allocation",
+       "Moderate",
+       "Dividends ~35-40% of profit; ₹1,800-2,000 cr of new plants into an industry adding capacity; small acquisitions only; no buyback.",
+       "Returns on the new plants are the test."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation (AR FY26)"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: a price-led FY27, then ~9-10% growth; EPS ~10% a year after FY27",
+   "blocks": [
+    {
+     "p": "Berger reports one segment, so our model runs on consolidated revenue growth and EBITDA margin, cross-checked against a build of the two business lines the company describes (decorative ~82%, industrial ~18% of FY26 sales). Depreciation is 7% of gross block (the model expenses capex at once, so the rate is set to match the Q1FY27 run-rate); other income is 7% on opening net cash, plus the share of JV profit and only the recurring non-treasury items in the FY26 accounts (note 36), giving {{F.otherIncome.0|num}} / {{F.otherIncome.1|num}} / {{F.otherIncome.2|num}} cr; tax 25%; payout 40%. Every assumption, with our reasoning, is in the Excel model's Assumptions sheet, which recalculates this report's target price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Business-line build (₹ crore; checked to sum to model revenue)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Decorative",
+        "9,742",
+        "10,960",
+        "11,946",
+        "13,140"
+       ],
+       [
+        "  growth",
+        "",
+        "+12.5%",
+        "+9%",
+        "+10%"
+       ],
+       [
+        "Industrial",
+        "2,138",
+        "2,352",
+        "2,564",
+        "2,820"
+       ],
+       [
+        "  growth",
+        "",
+        "+10%",
+        "+9%",
+        "+10%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Revenue (model)**",
+         "**11,880**",
+         "**{{F.sales.0|num}}**",
+         "**{{F.sales.1|num}}**",
+         "**{{F.sales.2|num}}**"
+        ]
+       }
+      ],
+      "source": "AR FY26 (82/18 split); GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "Group P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Other income (incl. JV share)",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "Cash & investments (forecasts net of debt)",
+        "ref": "fin.treasury"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates. Cash is gross in actual years and net of borrowings (~₹635 cr) in forecasts."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E"
+      ],
+      "rows": [
+       [
+        "EPS (₹), ICICI Securities (13-May-26)*",
+        "{{F.eps.0|n1}}",
+        "12.1",
+        "{{F.eps.1|n1}}",
+        "13.7"
+       ],
+       [
+        "EPS (₹), Equirus (13-May-26)",
+        "{{F.eps.0|n1}}",
+        "10.5",
+        "{{F.eps.1|n1}}",
+        "12.2"
+       ],
+       [
+        "EPS (₹), Nomura (6-Aug-26), implied by ₹675 at 50x",
+        "{{F.eps.0|n1}}",
+        "n.a.",
+        "{{F.eps.1|n1}}",
+        "13.5"
+       ],
+       [
+        "EPS (₹), Monarch Networth (5-Aug-26), implied by ₹577 at 48x",
+        "{{F.eps.0|n1}}",
+        "n.a.",
+        "{{F.eps.1|n1}}",
+        "12.0"
+       ],
+       [
+        "Revenue (₹ cr), ICICI Securities / Equirus",
+        "{{F.sales.0|num}}",
+        "13,418 / 13,060",
+        "{{F.sales.1|num}}",
+        "14,768 / 14,331"
+       ],
+       [
+        "EBITDA margin, ICICI Securities / Equirus",
+        "{{F.ebitdaMargin.0|pct}}",
+        "15.9% / 15.2%",
+        "{{F.ebitdaMargin.1|pct}}",
+        "15.9% / 16.1%"
+       ]
+      ],
+      "source": "ICICI Securities and Equirus result reviews (13-May-2026, PDFs); Nomura via Business Standard (6-Aug-2026); Monarch Networth (5-Aug-2026). * ICICI raised its target after Q1 (₹575); revised EPS not seen. Implied EPS = target ÷ multiple (GAM)."
+     }
+    },
+    {
+     "callout": "Our FY28E EPS is −7% to +6% versus the four street figures we could find (₹12.0-13.7): in the middle. We are above Equirus because we assume more of the 2026 price rise sticks in FY27; below ICICI Securities and Nomura because we assume part of the price is given back in FY28. EPS grows ~13% a year over FY26-29E, but only ~10% a year after FY27."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: mostly positive, targets ₹425-675, method P/E on FY28E",
+   "blocks": [
+    {
+     "p": "Three houses published after Q1FY27 (5-6 Aug 2026): Nomura Buy ₹675 (50x FY28E EPS, raised from ₹650), Monarch Networth Accumulate ₹577 (48x FY28E) and ICICI Securities Add ₹575 (DCF, raised from ₹550; its May note said the DCF value equalled ~40x FY28E EPS), an average of ~₹609. Before the results, Macquarie kept Underperform (₹425, Jul-2026) and Morgan Stanley is Underweight (₹429; the item we saw is undated). From the Q4FY26 round in May: Equirus Long ₹577 (46x Jun-28E EPS), Nuvama Buy ₹635, Investec Hold ₹525 (upgraded from Sell) and Systematix (top pick) ₹570; Geojit had ₹554 in June. The average of all ten targets is ~₹554. We found no dated consensus as of 30-Sep-2026. The stock fell 16% between mid-August and 30-Sep-2026, with the rest of the sector, so most targets now sit above the price. Bulls focus on volume share gains and easing competition; bears on weak industry growth visibility and the new entrants."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "For two years Berger grew volume, not value: standalone volume +4-12% a quarter but value −0.4% to +6.7% (FY25-Q4FY26), from cheaper mix and price cuts",
+        "Company decks; GAM"
+       ],
+       [
+        "Share has stopped rising: ~20% of listed players; the MD conceded a 0.2pp loss in 9MFY26, 'mostly to Birla'",
+        "Q3FY26 call (Feb-2026)"
+       ],
+       [
+        "Q1FY27's double-digit value growth is price-led; prices may be cut once crude falls, as in past cycles, and dealer rebates were already rising",
+        "ICICI Securities via Business Today (Jun-2026); MD (Aug-2026)"
+       ],
+       [
+        "EBITDA margin has been stuck at 15-17% (15.4% in FY26, EBITDA −1%), below Asian Paints' ~19-21%",
+        "Screener.in; company guidance"
+       ],
+       [
+        "A ₹1,800-2,000 cr plant build-out arrives while the industry is adding a lot of capacity; returns on it depend on volumes the new entrants are fighting for",
+        "AR FY26; CRISIL (Aug-2026); GAM"
+       ],
+       [
+        "Bears: Morgan Stanley (Underweight, ₹429) and Macquarie (Underperform, ₹425) see weak industry growth visibility and elevated competition",
+        "Stockopedia; Investing.com (Jul-2026)"
+       ],
+       [
+        "Bulls: 'peak competitive intensity may be over' (Investec) and Birla Opus raised prices more than peers (ICICI Securities); Berger gains from stores and tinting machines",
+        "Multibagg summary (May-2026); ICICI Securities (May-2026)"
+       ]
+      ],
+      "source": "Broker notes, earnings calls, CRISIL and filings to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 37x Sep-28E earnings gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values Berger Paints"
+    },
+    {
+     "p": "The brokers that disclose a method value Berger on **P/E**: Nomura 50x and Monarch Networth 48x FY28E EPS, Equirus 46x Jun-28E EPS; ICICI Securities uses a DCF that it equates to ~40x FY28E. We use the same method so our target is comparable, applied to the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). The \"At our EPS\" column applies each broker's multiple to our EPS for its year: the gap to the street is mostly our lower multiple."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Nomura (6-Aug-26)",
+        "Buy",
+        "675",
+        "P/E",
+        "50x",
+        "FY28E EPS",
+        "635",
+        "Raised target after Q1FY27; saw ~23% upside"
+       ],
+       [
+        "ICICI Securities (6-Aug-26)",
+        "Add",
+        "575",
+        "DCF",
+        "~40x implied",
+        "FY28E EPS",
+        "–",
+        "FY27 a turnaround year: low-teens price rises, volume revival; Birla Opus raised prices more than peers so competition eased; share gains from stores and tinting machines"
+       ],
+       [
+        "Monarch Networth (5-Aug-26)",
+        "Accumulate",
+        "577",
+        "P/E",
+        "48x",
+        "FY28E EPS",
+        "610",
+        "Decorative strongest in 12 quarters; demand recovery, share gains, premiumisation; competition limits margin expansion"
+       ],
+       [
+        "Macquarie (17-Jul-26)",
+        "Underperform",
+        "425",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Bearish on paints competition (target only seen)"
+       ],
+       [
+        "Morgan Stanley (undated, 2026)",
+        "Underweight",
+        "429",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Recent price rises support FY27 revenue growth, but industry growth visibility stays weak amid elevated competition"
+       ],
+       [
+        "Geojit (Jun-26)",
+        "–",
+        "554",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Target only seen"
+       ],
+       [
+        "Equirus (13-May-26)",
+        "Long",
+        "577",
+        "P/E",
+        "46x",
+        "Jun-28E EPS",
+        "600",
+        "Steady volumes with share gains; value growth to overtake volume as price rises flow; FY27 margin at the low end of 15-17%"
+       ],
+       [
+        "Nuvama (13-May-26)",
+        "Buy",
+        "635",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Value growth to outpace volume in FY27; EPS raised 2-3%"
+       ],
+       [
+        "Investec (13-May-26)",
+        "Hold",
+        "525",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Upgraded from Sell: 'peak competitive intensity may be over'; Birla Opus gains to slow to ~1.5-2% from ~3-4%"
+       ],
+       [
+        "Systematix (13-May-26)",
+        "Top pick",
+        "570",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Preferred paint stock: consistent growth outperformance in decorative and industrial"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**HOLD**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**37x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Strong No.2, volumes fine, pricing power gone; fairly priced"
+        ]
+       }
+      ],
+      "source": "Nomura via Business Standard and Investing.com; ICICI Securities via Investing.com and its May-2026 note (PDF); Monarch Networth company update; Equirus note (PDF); Macquarie via Investing.com; Morgan Stanley via Stockopedia (undated); Nuvama, Investec, Systematix via Multibagg/Informist summaries; Geojit via Trendlyne. n.d. = method not disclosed in the sources we saw"
+     }
+    },
+    {
+     "h": "Our target multiple: 37x, and why"
+    },
+    {
+     "p": "We start from the stock's own one-year-forward P/E since April 2021, adjust for how far comparable paint and adhesive stocks had de-rated by 30-Sep-2026, and then check growth, peers and returns."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Its own history",
+        "One-year-forward P/E: median 52.2x since Apr-2021 (no trough years to exclude: forward EPS never fell below half its prior three-year peak); 25th-75th percentile 46.3-58.0x; peak 95x in 2021; 50.9x since 2016; 45.6x over the last two years; 35.9x on 30-Sep-2026 on our FY28E",
+        "Starting point: 52x"
+       ],
+       [
+        "2. Sector de-rating",
+        "On 30-Sep-2026 four paint and adhesive peers traded below their five-year median trailing P/E: Asian Paints −24%, Kansai Nerolac −44%, Indigo Paints −25%, Pidilite −35% (median −30%); Berger itself −27%",
+        "52.2x × 0.70 ≈ 36.6x"
+       ],
+       [
+        "3. Growth",
+        "EPS grew 9% a year in FY21-26; we forecast ~13% for FY26-29E, but that includes a price-led FY27 off a base hit by one-offs; FY27-29E is ~10%, in line with history. The street's 46-50x come with FY28E EPS of ₹12-13.7, close to ours",
+        "No further adjustment: **37x** (rounded)"
+       ],
+       [
+        "4. Peers",
+        "Trailing P/E: Asian Paints 47.3x, Pidilite 56.4x, Indigo 31.5x, Kansai Nerolac 22.4x; Berger 43.2x",
+        "37x Sep-28E = 39.0x our FY28E: below Asian Paints and Pidilite, above Indigo and Kansai"
+       ],
+       [
+        "5. Returns",
+        "ROE 17.3% in FY26 and ~18-19% in FY27-29E against an 11.3% cost of equity",
+        "Supports a premium to the market, not a re-rating"
+       ],
+       [
+        "6. What the price implies",
+        "34.0x Sep-28E EPS. A DCF reaches only ~₹390 even with a 10.3% cost of capital and 7.0% terminal growth",
+        "The price already assumes long, high growth"
+       ]
+      ],
+      "source": "Screener.in (P/E history to 30-Sep-2026), broker notes, GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "One-year-forward P/E: our 37x vs history",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2016-04-08",
+        "2016-05-13",
+        "2016-06-17",
+        "2016-07-22",
+        "2016-08-26",
+        "2016-09-30",
+        "2016-11-04",
+        "2016-12-09",
+        "2017-01-13",
+        "2017-02-17",
+        "2017-03-24",
+        "2017-04-28",
+        "2017-06-02",
+        "2017-07-07",
+        "2017-08-11",
+        "2017-09-15",
+        "2017-10-19",
+        "2017-11-24",
+        "2017-12-29",
+        "2018-02-02",
+        "2018-03-09",
+        "2018-04-13",
+        "2018-05-18",
+        "2018-06-22",
+        "2018-07-27",
+        "2018-08-31",
+        "2018-10-05",
+        "2018-11-09",
+        "2018-12-14",
+        "2019-01-18",
+        "2019-02-22",
+        "2019-03-29",
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward multiple",
+         "values": [
+          37.6,
+          43.5,
+          43.8,
+          49.7,
+          52.9,
+          55.1,
+          54.8,
+          46.4,
+          45.1,
+          47.3,
+          48.2,
+          51.3,
+          49.9,
+          48.2,
+          46.8,
+          52,
+          51.5,
+          50.5,
+          53.8,
+          48.5,
+          48.6,
+          40.2,
+          41.4,
+          42.2,
+          47.1,
+          49.5,
+          39.6,
+          45.7,
+          47.7,
+          48.2,
+          43.4,
+          47.8,
+          42.1,
+          44.1,
+          41.8,
+          49.4,
+          54,
+          66.1,
+          67.1,
+          68.9,
+          77.1,
+          61.9,
+          60.2,
+          53.4,
+          59.6,
+          61.4,
+          64.4,
+          70.3,
+          76.1,
+          82.9,
+          90.3,
+          79.3,
+          86.4,
+          80.9,
+          91.1,
+          95.4,
+          92.6,
+          95,
+          83.8,
+          82.5,
+          89.4,
+          81.2,
+          81.2,
+          59.6,
+          47.8,
+          48.4,
+          56,
+          55.2,
+          50.9,
+          50.2,
+          47.9,
+          44.9,
+          48.3,
+          49.2,
+          52.2,
+          55.5,
+          56.9,
+          58,
+          56.2,
+          54.7,
+          57.2,
+          58.9,
+          55.6,
+          55.2,
+          52.1,
+          47.6,
+          53.3,
+          55,
+          64.5,
+          57.6,
+          49.3,
+          45.8,
+          50.9,
+          52.7,
+          45.4,
+          49.3,
+          45.9,
+          47.8,
+          45.6,
+          46.5,
+          45.5,
+          46.3,
+          44.5,
+          39,
+          35.5,
+          37.3,
+          38.6,
+          39.2,
+          42.9,
+          36.1
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 52,
+         "text": "Median since 2021: 52x"
+        },
+        {
+         "v": 37,
+         "text": "Our target: 37x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual earnings, GAM estimates for forecast years"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Share price today"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          495,
+          433,
+          263,
+          455.45
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "EPS Sep-28E ₹13.4",
+        "37x (bull 45x, bear 29x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "EBITDA Sep-28E ₹2,452 cr",
+        "20x (bull 24x, bear 16x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "-13%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-47%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA (20x Sep-28E EBITDA of ₹2,452 cr plus net cash) gives ₹433, 13% below the P/E target: 20x comes from Berger's 36.4x median trailing EV/EBITDA since 2021, cut by the same sector de-rating and restated for Sep-28E EBITDA being 28% above the twelve months to Jun-26 (₹1,912 cr). The gap says our P/E target is not conservative. The DCF (₹263) is far lower: at an 11.3% cost of equity and 6% terminal growth, revenue growth fading from ~10% to 8% over 15 years at a 16% margin supports only ~58% of today's price. Paint stocks have always looked expensive on a DCF; the multiple reflects the long runway of Indian paint demand. But with pricing power weaker than in the past, we would not pay above the de-rated history."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Revenue growth +3pp a year and margin +1pp vs base; 45x (its 25th-percentile forward P/E since 2021)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Revenue {{F.salesGrowth.0|chg}} / {{F.salesGrowth.1|chg}} / {{F.salesGrowth.2|chg}} (FY27-29E); EBITDA margin {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 37x Sep-28E EPS."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Revenue growth −4pp a year and margin −1.5pp vs base; 29x (the median forward P/E cut by the worst peer de-rating, Kansai Nerolac's −44%)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27 (Screener basis)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed peers: paints and adhesives",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "vs 5-yr median P/E",
+       "EV/EBITDA (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Berger Paints**",
+        "53,161",
+        "11,880",
+        "15.4%",
+        "43.2",
+        "−27%",
+        "25.6",
+        "17.3%"
+       ],
+       [
+        "Asian Paints",
+        "2,30,462",
+        "35,584",
+        "18.8%",
+        "47.3",
+        "−24%",
+        "28.5",
+        "21.6%"
+       ],
+       [
+        "Kansai Nerolac",
+        "14,433",
+        "8,052",
+        "12.1%",
+        "22.4",
+        "−44%",
+        "12.6",
+        "8.8%"
+       ],
+       [
+        "Indigo Paints",
+        "5,206",
+        "1,405",
+        "18.1%",
+        "31.5",
+        "−25%",
+        "18.0",
+        "13.5%"
+       ],
+       [
+        "Pidilite",
+        "1,49,250",
+        "14,601",
+        "24.1%",
+        "56.4",
+        "−35%",
+        "36.9",
+        "24%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a good business at a fair price; wait for a better entry",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's No.2 paint company with ~20% of listed players' sales, 64,000+ dealers, No.1 in protective coatings, volume growth of 8-10% a year through a competitive shock, net cash, a 17.3% ROE and a professional MD re-appointed to 2031."
+    },
+    {
+     "callout": "**What you are paying:** 39.0x our FY27E and 35.9x FY28E EPS for an industry that has lost much of its pricing power to Birla Opus and JSW. FY27 earnings are flattered by the crude-led price rise. On the street's method and our inputs the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): a HOLD."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹430 (BUY on our rule)",
+        "Medium",
+        "Share price around the Q2FY27 results; the stock was ₹408 in March-2026"
+       ],
+       [
+        "Value growth holds near volume growth after inputs ease (no big price cut)",
+        "Medium",
+        "Standalone value vs volume each quarter; dealer price lists after Diwali"
+       ],
+       [
+        "Share gains confirmed against Asian Paints and Birla Opus",
+        "Medium",
+        "Quarterly growth vs peers; Grasim paints revenue"
+       ],
+       [
+        "EBITDA margin settles at 16.5-17% (top of the band)",
+        "Low",
+        "Other expenses and staff costs as % of revenue"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "A price war: post-Diwali cuts plus heavier schemes as inputs fall",
+        "Medium",
+        "FY28 revenue growth in low single digits; margin toward 14-15%"
+       ],
+       [
+        "Birla Opus or JSW Dulux steps up dealer terms again; Berger loses share in East India",
+        "Medium",
+        "Volume growth falls to 5-6% (our bear case)"
+       ],
+       [
+        "A renewed crude spike that outruns price rises",
+        "Medium",
+        "Gross margin down 1-2pp for two to three quarters"
+       ],
+       [
+        "New plants commissioned into a market with too much capacity",
+        "Medium",
+        "ROE drifts toward 15%; depreciation rises ahead of volume"
+       ],
+       [
+        "De-rating of paint stocks continues",
+        "Medium",
+        "At 29x Sep-28E (bear multiple) on bear EPS the stock is worth {{scen.bear.tp|inr}}"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: HOLD, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would turn buyers below ~₹430** and sellers above ~₹530 on today's numbers, or sooner if FY28 visibility improves (value growth near volume growth after inputs ease, with margin near 16.5%).",
+      "**Biggest swing factors:** realised price and the EBITDA margin. Each 1pp of margin is ~₹145 cr of EBITDA in FY28E, ~7% of our FY28E EPS (~₹36 a share at 37x Sep-28E)."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Standalone volume growth, Q1FY27",
+        "v": "8.4%",
+        "d": "value 12.7%, price ~5%"
+       },
+       {
+        "k": "Value growth, FY25-26 quarters",
+        "v": "−0.4% to +6.7%",
+        "d": "while volume grew 4-12%"
+       },
+       {
+        "k": "Birla Opus paint revenue, Q1FY27",
+        "v": "₹1,661 cr",
+        "d": "+64% YoY; half of Berger India"
+       },
+       {
+        "k": "Price ÷ our FY28E EPS",
+        "v": "35.9x",
+        "d": "median since 2021: 52x (forward)"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY15–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 12
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 150
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. JV share)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹, bonus-adjusted)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 10
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Decorative paints",
+        "Paints for homes and buildings (emulsions, enamels, distempers, putty, wood finishes), plus waterproofing and construction chemicals sold through the same dealers."
+       ],
+       [
+        "Industrial coatings",
+        "Coatings sold to companies: protective (steel structures, pipelines, refineries), automotive, general industrial, powder and coil coatings."
+       ],
+       [
+        "Emulsion / enamel / distemper / putty",
+        "Water-based wall paint / solvent-based glossy paint for wood and metal / cheap chalk-based wall finish / filler applied before paint."
+       ],
+       [
+        "Volume growth vs value growth",
+        "Growth in tonnes or litres sold vs growth in revenue. Value below volume means lower prices or a cheaper mix; value above volume means price rises or a richer mix."
+       ],
+       [
+        "Tinting machine",
+        "A machine at the dealer that mixes a base paint with colourants to make any shade on demand; a key tool for winning dealers."
+       ],
+       [
+        "Dealer price list (DPL), rebates, schemes",
+        "The list price to dealers; discounts paid later for volume; free goods or incentives. Schemes are deducted from revenue."
+       ],
+       [
+        "Birla Opus",
+        "Grasim Industries' paint business, launched in 2024; No.3 organised decorative player by its own account."
+       ],
+       [
+        "JSW Dulux",
+        "Akzo Nobel India after JSW Paints bought 60.76% from AkzoNobel (Dec-2025)."
+       ],
+       [
+        "ETICS",
+        "External thermal insulation composite systems, Bolix's main product in Poland."
+       ],
+       [
+        "Gross margin",
+        "Revenue less raw-material cost, as % of revenue (company definition)."
+       ],
+       [
+        "EBITDA",
+        "Operating profit before depreciation, interest and tax (excludes other income and JV profit)."
+       ],
+       [
+        "JV (joint venture) share of profit",
+        "Berger's 49% share of the profit of Berger Nippon Paint Automotive Coatings and Berger Becker Coatings; their revenue is not in Berger's revenue."
+       ],
+       [
+        "P/E, EV/EBITDA",
+        "Share price ÷ earnings per share; enterprise value (market value less net cash) ÷ EBITDA."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, as Berger has net cash)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY22": "+29%: post-Covid demand rebound plus price rises as raw materials spiked.",
+  "ebitdaMargin@FY22": "−210bp: raw-material inflation ran ahead of price rises.",
+  "sales@FY23": "+21%: price rises passed through plus volume growth (split not collected).",
+  "ebitdaMargin@FY23": "−120bp: input costs peaked.",
+  "ebitdaMargin@FY24": "+260bp: raw materials eased; ~5% price cuts in Q3-Q4FY24 came later.",
+  "pat@FY24": "+36%: margin recovery.",
+  "sales@FY25": "+3%: volume ~7-8% but price cuts, cheaper mix and new competition (Birla Opus).",
+  "sales@FY26": "+2.9%: decorative volume +7.7%, value +3%: long monsoon, early Diwali, competition.",
+  "ebitdaMargin@FY26": "−70bp: gross margin up, but brand, dealer and staff costs rose faster.",
+  "pat@FY26": "−4.6%: includes a ₹53 cr Labour Code charge; EBITDA −1%.",
+  "cfo@FY22": "−29%: inventory built as input prices rose (inventory days 178).",
+  "cfo@FY24": "+63%: inventory released as input costs fell.",
+  "capex@FY22": "₹774 cr, then ₹748 cr in FY23: the last big capacity wave.",
+  "pat@Q1FY26": "Includes −₹36.8 cr warehouse fire loss (Barasat).",
+  "opm@Q2FY26": "12%: weak value growth in a long monsoon, lower operating leverage, higher brand spend.",
+  "pat@Q3FY26": "Includes −₹53.3 cr Labour Code charge.",
+  "sales@Q4FY26": "+6%: standalone volume +11.8%, helped by dealer buying ahead of price rises.",
+  "pat@Q4FY26": "Includes +₹36.8 cr insurance claim for the Q1FY26 fire.",
+  "sales@Q1FY27": "+12%: standalone volume +8.4%, price/mix ~5%; decorative value ~13.5%.",
+  "sales@FY27E": "GAM: volume ~8% plus ~4% net price; double-digit growth guided.",
+  "ebitdaMargin@FY27E": "GAM: 16.0%, the middle of the 15-17% band.",
+  "sales@FY28E": "GAM: price laps and part is given back; volume ~9%.",
+  "capex@FY28E": "GAM: Panagarh and Khordha plants (₹1,800-2,000 cr in total)."
+ }
+}

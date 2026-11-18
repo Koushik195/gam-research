@@ -1,0 +1,102 @@
+{
+ "symbol": "PARADEEP",
+ "asOf": "2026-09-30",
+ "_note": "Industry, street, ownership, moat, critiques and gaps for the Q1FY27 initiation. Only sources published on or before 30-Sep-2026; later facts go to updates/later-facts.json.",
+ "industry": [
+  { "point": "India's phosphatic market is ~24 mt a year: DAP ~10 mt and NPK complexes ~14 mt, of which NPK 20:20:0:13 (Paradeep's lead grade) is 6-7 mt. Farmer-level phosphatic sales grew ~1% in Q1FY27.", "src": "q1fy27call", "published": "2026-07-31" },
+  { "point": "FY26: industry NPK (standalone) −1%, NPK+TSP +1.6%; Paradeep +10% and +15%. Paradeep's NPK 20:20:0:13 volume 1.45 mt (+9%).", "src": "q4fy26call", "published": "2026-05-13" },
+  { "point": "The Middle East crisis: 70-75% of world sulphur and ammonia trade passes the Strait of Hormuz; sulphur ~$850/t in Q1FY27 and $1,000+ by end-July (vs ~$350/t a year earlier); ammonia ~$850/t (vs ~$550/t); phosphoric acid contract $1,700/t P2O5 for Jul-Sep 2026 (+25%); DAP imports $915-935/t CFR in Aug-2026.", "src": "q1fy27call; plVisit; paContract; dapSep", "published": "2026-09-10" },
+  { "point": "Q1FY27 industry DAP+NPK production fell 21% and imports 38% because Kharif NBS rates (+~10%) did not cover the cost jump (Coromandel's Q1FY27 call).", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b11c029-c75f-41b4-bff8-b6a8cbe1382e.pdf", "published": "2026-07-31" },
+  { "point": "Policy: Kharif 2026 NBS ₹41,534 cr (N ₹47.32, P ₹52.76, S ₹3.16 per kg; +~10%); DAP MRP held at ₹1,350 a bag with ₹3,500/t extra support and import-price compensation (reported extended through rabi); rabi 2026-27 rates not announced by 30-Sep-2026; FY27 budget for NBS + urea ₹1,70,799 cr.", "src": "nbsKharif26; dapPkg", "published": "2026-08-22" },
+  { "point": "Urea: National Investment Policy for Urea-2026 approved 15-Jul-2026 (8-9 new gas-based plants); energy norms tightened on 30-Jul-2026 (CRISIL: legacy plant profit −25% to ~₹1,250/t); Paradeep expects +₹1,500/t at Goa and −₹700-800/t at Mangalore.", "src": "ureaNorms; q1fy27call", "published": "2026-08-12" },
+  { "point": "2026 south-west monsoon 87% of the long-period average; south peninsula 76%, east & north-east 74% (Paradeep sells most in the east, south and west).", "src": "imd", "published": "2026-09-30" },
+  { "point": "Granulation additions FY26-28 by peers ~1.5 mt (Coromandel 0.75 mt, RCF, Madhya Bharat) vs Paradeep's planned ~1.3 mt (1.0 mt greenfield + ~0.3 mt debottlenecking).", "src": "plInit", "published": "2026-03-23" }
+ ],
+ "peersNote": "Peer table is computed at the 30-Sep-2026 NSE close from each peer's Screener file (tools/authoring/asof-peers.js). FACT (Fertilisers & Chemicals Travancore) was fetched but left out: its trailing P/E (~3,300x) is meaningless on near-zero profit.",
+ "street": {
+  "brokers": [
+   { "broker": "Prabhudas Lilladher", "rating": "Accumulate", "tp": 158, "date": "31-Jul-2026", "method": "P/E", "multiple": "13x", "on": "FY28E", "thesis": "Q1 beat on low-cost inventory; costs to weigh on Q2 unless subsidy rises; debottlenecking from H2FY27 and full acid integration by FY29; FY27E/FY28E EPS ₹9.6 / ₹12.6", "src": "plQ1", "published": "2026-07-31" },
+   { "broker": "Elara Capital", "rating": "Buy", "tp": 156, "date": "13-May-2026", "method": "EV/EBITDA", "multiple": "8.0x", "on": "FY28E", "thesis": "Cut FY27E EBITDA ~27% as sulphur and ammonia rose 80-100%; multiple cut from 11.5x for higher leverage (net debt ~1x equity, ~3x EBITDA); expansions drive EBITDA from FY29 (latest note found; before Q1FY27)", "src": "https://investmentguruindia.com/newsdetail/buy-paradeep-phosphates-ltd-for-target-rs-156-by-elara-capital895140", "published": "2026-05-14" }
+  ],
+  "older": [
+   { "broker": "Prabhudas Lilladher", "rating": "Accumulate", "tp": 133, "date": "1-Jun-2026", "method": "11x FY28E EPS (plant visit)" },
+   { "broker": "Prabhudas Lilladher", "rating": "Accumulate", "tp": 141, "date": "13-May-2026", "method": "11x FY28E EPS (Q4FY26 update)" },
+   { "broker": "Prabhudas Lilladher", "rating": "Accumulate", "tp": 120, "date": "23-Mar-2026", "method": "10x FY28E EPS (initiation)" },
+   { "broker": "Elara Capital", "rating": "Buy", "tp": 247, "date": "5-Feb-2026", "method": "11.5x H1FY28E EV/EBITDA (before the Middle East shock)" }
+  ],
+  "estimates": {
+   "pl": { "FY27E": { "sales": 27702, "ebitda": 2138, "pat": 1002, "eps": 9.6, "debt": 6300 }, "FY28E": { "sales": 28706, "ebitda": 2601, "pat": 1310, "eps": 12.6, "debt": 6100, "volumeMt": 4.7 }, "note": "PL's EBITDA is the company's basis before other income (FY26 ₹2,152 cr vs Screener ₹2,208 cr, which nets plant-discard losses in other income)", "src": "plQ1" }
+  },
+  "consensus": { "note": "No dated FY27-28 consensus published between the Q1FY27 results and 30-Sep-2026 was found. Aggregators seen in Nov-2026 (Trendlyne, StockAnalysis: 3-4 analysts, targets ₹133-170) are not dated to 30-Sep and are not used." },
+  "split": "Two brokers with published calls by 30-Sep-2026: Prabhudas Lilladher (Accumulate, ₹158, 13x FY28E P/E, after Q1FY27) and Elara Capital (Buy, ₹156, 8x FY28E EV/EBITDA, May-2026). No Sell found. The latest method is P/E on FY28E."
+ },
+ "ownership": {
+  "period": "Jun-2026",
+  "pattern": { "promoters": 57.86, "fiis": 5.10, "diis": 18.07, "mutualFunds": 17.83, "government": 0.10, "public": 18.85, "shareholders": 329116 },
+  "named": [
+   { "name": "Zuari Maroc Phosphates Pvt Ltd (50:50 Adventz-OCP JV)", "pct": 50.37, "type": "Promoter" },
+   { "name": "Zuari Agro Chemicals Ltd", "pct": 6.30, "type": "Promoter (shares received for its MCFL stake)" },
+   { "name": "Adventz Finance, Zuari Industries and Poddar family members (combined)", "pct": 1.19, "type": "Promoter group" },
+   { "name": "Nippon India Small Cap Fund", "pct": 3.84, "type": "Domestic MF" },
+   { "name": "SBI Multicap Fund", "pct": 3.41, "type": "Domestic MF" },
+   { "name": "ICICI Prudential Multicap Fund", "pct": 2.99, "type": "Domestic MF" },
+   { "name": "Bandhan Small Cap Fund", "pct": 2.62, "type": "Domestic MF" },
+   { "name": "Invesco India Small Cap Fund", "pct": 1.85, "type": "Domestic MF" },
+   { "name": "HSBC Value Fund", "pct": 1.38, "type": "Domestic MF" },
+   { "name": "HDFC Large and Mid Cap Fund", "pct": 1.29, "type": "Domestic MF" }
+  ],
+  "notes": [
+   "FIIs fell from 15.01% (Sep-2025) to 5.10% (Jun-2026); DIIs rose from 14.56% to 18.07%; shareholders rose from 244,870 (Jun-2025) to 329,116 as MCFL holders received PPL shares.",
+   "No foreign institution held 1% or more in Jun-2026 (Morgan Stanley Asia held 1.04% in Mar-2026).",
+   "Promoters 57.20% (Sep-2025) → 57.70% (Dec-2025, after the merger allotment) → 57.86% (Jun-2026), with small open-market purchases by ZMPPL in May-Jun 2026. No promoter stake sale found.",
+   "Pledges (Jun-2026): 9.21 cr shares = 15.3% of the promoter holding (ZMPPL 6.50 cr, ZACL 2.71 cr = 41% of its stake). A ZMPPL filing reported via a secondary source shows ~6.49 cr shares released by Tata Capital on 19-Aug-2026."
+  ],
+  "src": "shp; Screener.in shareholder lists (Jun-2026 quarter); pledgeRelease"
+ },
+ "stockEvents": [
+  { "date": "2022-05", "event": "Listed 27-May-2022; first Screener close ₹43.9", "src": "Screener.in price series" },
+  { "date": "2023-2024", "event": "₹50-85 range through the FY24 earnings trough; merger with MCFL announced 7-Feb-2024", "src": "Screener.in; merger2024" },
+  { "date": "2025-08", "event": "All-time high ~₹225 (week of 8-Aug-2025) after FY25 profits tripled and a strong Q1FY26", "src": "Screener.in price series" },
+  { "date": "2026-03", "event": "Low of ~₹105 (week of 6-Mar-2026) as the Middle East crisis lifted sulphur and ammonia prices", "src": "Screener.in price series" },
+  { "date": "2026-07", "event": "Shares rose ~13-15% on the Q1FY27 results and the aluminium-fluoride approval (29-Jul-2026)", "src": "https://www.businesstoday.in/markets/stocks/story/paradeep-phosphates-shares-jump-13-on-strong-q1-results-rs-250-crore-alf3-plant-approval-545880-2026-07-29" },
+  { "date": "2026-09-30", "event": "NSE close ₹154.28; market value ~₹16,000 cr", "src": "data/market/closes/2026-09-30.json" }
+ ],
+ "moat": [
+  { "dimension": "Raw-material security (OCP as co-promoter)", "verdict": "advantage", "evidence": "OCP group supplied ~₹8,200 cr of rock, acid, TSP and DAP in FY26 (about half of purchases); no rock or acid shortage in the 2026 crisis; 10-year rock agreement, OCP supplies Paradeep exclusively in India (plant visit)." },
+  { "dimension": "Port-based plants and logistics", "verdict": "advantage", "evidence": "Captive berth and 3.4 km conveyor at Paradeep port, ammonia and acid pipelines; Goa near Mormugao, Mangalore on its port; product lines switch in 4-5 hours." },
+  { "dimension": "Backward integration", "verdict": "parity", "evidence": "Paradeep 'almost fully integrated' in phosphoric acid (0.5 mt) and sulphuric acid (~2 mt); Goa and Mangalore buy acid; full integration only after the ₹3,600 cr programme (FY29-30). Coromandel already makes ~60% of its acid." },
+  { "dimension": "Product breadth and brands", "verdict": "parity", "evidence": "Among the top 2-3 NPK sellers (NPK 20:20:0:13 1.45 mt); Jai Kisaan Navratna/Mangala brands; ~₹250-300 a bag premium claimed (plant visit) but no disclosed proof in margins." },
+  { "dimension": "Pricing power", "verdict": "disadvantage", "evidence": "Subsidy (NBS) and the DAP MRP (₹1,350 a bag) set the economics; NPK price rises are capped by farmer demand (₹1,000 a bag gap to DAP in Q1FY27)." },
+  { "dimension": "Balance sheet", "verdict": "disadvantage", "evidence": "Net debt ~₹6,500 cr at Mar-2026 (~3x EBITDA, ~1x equity) with ₹3,600 cr of capex ahead; the government owed ₹4,600 cr at Jun-2026. Coromandel and Chambal are net cash." },
+  { "dimension": "Scale", "verdict": "parity", "evidence": "4.21 mt sold in FY26, second-largest private phosphatic maker; 3.7 mt granulation (4.0 mt after debottlenecking) vs IFFCO and Coromandel." }
+ ],
+ "critiques": [
+  { "argument": "Subsidy rates lag raw-material costs: Kharif 2026 NBS rose ~10% while sulphur and ammonia rose 80-100%; the gain from own acid shrinks as sulphur rises.", "who": "Elara Capital (May-2026), management (Q1FY27 call)" },
+  { "argument": "Q1FY27's ~₹7,300/t EBITDA was flattered by low-cost opening stock; management itself guides ~₹5,000/t for the year.", "who": "Management (Q1FY27 call), Prabhudas Lilladher" },
+  { "argument": "Leverage: net debt near 1x equity and 3x EBITDA before the ₹3,600 cr programme; Elara cut its multiple from 11.5x to 8x EV/EBITDA for this reason.", "who": "Elara Capital, GAM" },
+  { "argument": "The bull case: full acid integration (+30-35% on ₹5,000/t), 1.3 mt of new granulation and MCFL synergies take EBITDA towards ₹7,000/t and volumes towards 5 mt by FY29-30.", "who": "Management, Prabhudas Lilladher, Elara Capital" },
+  { "argument": "Governance: 15% of promoter shares were pledged in Jun-2026 (ZACL 41% of its stake), and about half of purchases come from OCP group companies, a shareholder.", "who": "GAM (shareholding pattern, annual report)" },
+  { "argument": "Working capital: FY26 operating cash flow was −₹1,012 cr; every price spike swells inventory and subsidy receivables, which debt funds.", "who": "Analysts on the Q4FY26 call, GAM" }
+ ],
+ "gaps": [
+  "No product or plant-level profit: manufactured vs traded EBITDA is given only as a range (~₹2,000/t trading vs ₹6,000-7,000/t integrated, plant visit).",
+  "Rabi 2026-27 NBS rates were not known at 30-Sep-2026; our H2FY27 margins are assumptions.",
+  "Cost split of the ₹3,600 cr programme is from broker notes (PL: granulation ~₹700 cr, acid ~₹1,500 cr; Elara: ₹800 cr and ₹1,500 cr), not the company; timing guidance moved from end-FY28 to around Q2FY29-FY30.",
+  "No Jun-2026 balance sheet: only gross debt (₹6,500 cr) and subsidy outstanding (₹4,600 cr) from the call.",
+  "No dated consensus by 30-Sep-2026; Elara's post-Q1FY27 view was not found (its May-2026 note is known only from an aggregator summary).",
+  "An Antique Stock Broking initiation (Buy, ₹100) reported in the press could not be dated or opened; not used.",
+  "The Aug-2026 pledge release is from a secondary report of ZMPPL's filing, not the exchange filing itself.",
+  "Pre-merger history (FY19-FY24) is PPL alone; MCFL's own FY24 figures were not reviewed, so the FY24→FY25 growth is not like-for-like.",
+  "FY22-FY24 sales volumes were not compiled; volume history starts FY25 (restated).",
+  "Q1FY25 restated quarter is derived (H1FY25 less Q2FY25 from the Q2FY26 presentation).",
+  "Monsoon regional figures are taken from the IMD end-season summary as cited in our Coromandel initiation; we did not re-open the IMD file."
+ ],
+ "conflicts": [
+  { "item": "Subsidy receivable", "a": "PL plant-visit note (1-Jun-2026): '~₹12bn' outstanding", "b": "Company: ₹3,847 cr (Mar-2026 annual report), ~₹3,800 cr (13-May call), ₹4,600 cr (30-Jun, Q1 call)", "use": "Company figures" },
+  { "item": "FY25 EPS", "a": "Screener ₹8.12 (restated profit ÷ pre-merger shares)", "b": "Company restated basic EPS ₹6.39 (original pre-merger PPL ₹6.77)", "use": "₹6.39 (PARADEEP.patch.js)" },
+  { "item": "FY26 EBITDA", "a": "Screener ₹2,208 cr (nets ₹56 cr plant-discard loss in other income)", "b": "Company ₹2,259 cr incl. other income and the exceptional item; PL ₹2,152 cr (ex other income)", "use": "Screener basis in the model; company figures quoted where labelled" },
+  { "item": "Q1FY27 sulphur price", "a": "Q1 call: Q1 average ~$850/t, $1,000-plus at the call", "b": "PL note: Q1 landed cost 'exceeded $1,000/t' and 'average ~$800/t' in the same list", "use": "Transcript" },
+  { "item": "Big expansion timing", "a": "Q2FY26 call: full capacity by end-FY28; Q3FY26: Paradeep acid ~Mar-2028", "b": "Q1FY27 call: 'FY29-30' / 'around second quarter of FY29'; PL: early FY29", "use": "Commissioning around Q2FY29-FY30; little FY29E volume credit" },
+  { "item": "Promoter pledge", "a": "PL Q1 note: promoter pledge '-'", "b": "Jun-2026 shareholding pattern: 9.21 cr shares pledged", "use": "Shareholding pattern" }
+ ]
+}

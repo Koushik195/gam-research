@@ -1,0 +1,88 @@
+{
+ "symbol": "GODREJAGRO", "asOf": "2026-09-30",
+ "_note": "Industry, street, ownership, moat, critiques, gaps. Sources dated on or before 30-Sep-2026; later facts are in updates/later-facts.json.",
+ "industry": {
+  "animalFeed": [
+   { "point": "Compound feed is a volume-and-cost business: maize and soymeal are most of the cost; feed makers pass on 60-70% of commodity moves with a lag (GAVL, Q1FY27).", "src": "q1call" },
+   { "point": "High milk procurement prices push dairy farmers from home-mixed to branded compound feed (GAVL cattle-feed volume +18% in FY26, +24% in Q4FY26, +15% in Q1FY27).", "src": "q4call, q1ppt" },
+   { "point": "Ethanol blending has made maize a fuel feedstock as well as a feed grain; GAVL flagged a 'huge price increase' in maize on the Q1FY27 call.", "src": "q1call" } ],
+  "palmOil": [
+   { "point": "India's crude palm oil output was 3.80 lakh t in 2024-25 (1.91 lakh t in 2014-15) against an NMEO-OP target of 11.20 lakh t by 2025-26 and 28 lakh t by 2029-30; oil palm area 6.20 lakh ha by Nov-2025.", "src": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/dec/doc2025128722301.pdf", "published": "2025-12-08" },
+   { "point": "Farmers are paid a state-notified monthly FFB price linked to CPO prices, so mill margins move with CPO; GAVL's Q1FY27 margin fell on a formula change.", "src": "q1call; https://telanganatoday.com/telangana-brings-2-74-lakh-acres-under-oil-palm-cultivation-since-2021-22", "published": "2026-09-16" },
+   { "point": "On 24-Sep-2026 the government cut basic customs duty on crude palm and soybean oil from 10% to 5% (effective duty 16.5% to 11%) and on refined oils from 32.5% to 27.5%, to cool festive-season prices: domestic CPO prices, and GAVL's realisations, follow landed import costs.", "src": "duty", "published": "2026-09-24" },
+   { "point": "CPO realisation for GAVL: ₹1,03,708/t (FY25), ₹1,12,781/t (FY26), ₹1,34,783/t (Q1FY27, +18%), lifted by the Middle East war (palm oil tracks crude through biodiesel, per the Chairman).", "src": "q4ppt, q1ppt, q4call" } ],
+  "cropProtection": [
+   { "point": "Domestic demand is monsoon-timed: June 2026 rainfall was ~35-40% below normal, delaying kharif sowing and herbicide use; the 2026 season ended at 87% of the long-period average (June 65%, July 101%, Aug 84%, Sep 92%).", "src": "imd; q1call", "published": "2026-09-30" },
+   { "point": "Generic agrochemical prices bottomed in FY26 as Chinese competition stabilised; Astec sees CDMO demand recovering (Q4FY26 call).", "src": "q4call" } ],
+  "dairy": [
+   { "point": "Milk procurement prices rose for four quarters to Jun-2026 and were expected to stay high for 2-3 more; processors passed on ~70%.", "src": "q1call" } ],
+  "poultry": [
+   { "point": "Live-bird prices are volatile; branded frozen and processed chicken is small but growing fast through quick commerce, which solves the cold chain (GAVL, May-2026).", "src": "q4call" } ]
+ },
+ "street": {
+  "brokers": [
+   { "broker": "Motilal Oswal", "rating": "Buy", "tp": 675, "date": "2026-08-06", "method": "SOTP", "multiple": "10x FY28E EV/EBITDA (crop protection, palm oil, feed, less central costs); 11x Creamline, Godrej Foods, ACI (50%); Astec at market value less 20%", "on": "FY28E", "thesis": "Near-term weakness, recovery underway; FY26-28E revenue/EBITDA/PAT CAGR 11%/16%/18%; FY27-28E EBITDA cut 3-4%", "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/3aa09310_GOAGRO-20260806-MOFSL-RU-PG012.pdf", "published": "2026-08-06" },
+   { "broker": "ICICI Securities", "rating": "Buy", "tp": 900, "date": "2026-05-04", "method": "SOTP", "multiple": "FY28E EV/EBITDA by segment (multiples not in the public summary)", "on": "FY28E", "thesis": "Strong animal feed and foods support Q4FY26; crop protection and vegetable oil weaker (before Q1FY27)", "src": "https://trendlyne.com/posts/5625431/strong-animal-feed-foods-segments-support-q4fy26-earnings", "published": "2026-05-04" },
+   { "broker": "FundsIndia", "rating": "Buy", "tp": 683, "date": "2026-05-15", "method": null, "multiple": null, "on": null, "thesis": "Early double-digit revenue growth in FY27; recovery in crop care and Astec (before Q1FY27)", "src": "https://trendlyne.com/posts/5691536/feed-to-food-agri-business", "published": "2026-05-15" } ],
+  "older": [
+   { "broker": "Motilal Oswal", "rating": "Buy", "tp": 700, "date": "4-Feb-2026", "method": "SOTP (Q3FY26 update)" },
+   { "broker": "ICICI Securities", "rating": "Buy", "tp": 935, "date": "7-Nov-2025", "method": "SOTP (Q2FY26 update)" },
+   { "broker": "ICICI Securities", "rating": "Buy", "tp": 980, "date": "26-Sep-2025", "method": "Initiation, SOTP" },
+   { "broker": "Motilal Oswal", "rating": "Buy", "tp": 940, "date": "7-Aug-2025", "method": "SOTP (Q1FY26 update)" } ],
+  "estimates": { "mosl": { "FY26A": { "sales": 10233, "ebitda": 864, "adjPat": 496, "eps": 25.8 }, "FY27E": { "sales": 11618, "ebitda": 1042, "adjPat": 581, "eps": 30.2 }, "FY28E": { "sales": 12505, "ebitda": 1170, "adjPat": 691, "eps": 36.0 }, "sotpFy28Ebitda": { "cropProtection": 291.6, "palmOil": 518.3, "animalFeed": 453.3, "unallocated": -275.9, "creamline": 92.6, "godrejFoods": 99.6, "aci100pct": 264.9 } } },
+  "unknown": "BP Equities published a Q1FY27 result update on 7-Aug-2026 (Trendlyne); its rating and target were not visible without a login.",
+  "consensus": { "note": "No dated FY27-28 consensus published between the Q1FY27 results and 30-Sep-2026 was found; aggregator averages we saw were dated November 2026 and are not used." },
+  "split": "Latest call per broker standing on 30-Sep-2026: three Buys (Motilal Oswal ₹675 after Q1FY27; ICICI Securities ₹900 and FundsIndia ₹683 from May-2026, before Q1). Targets have fallen from ₹940-980 a year earlier. No Sell or Hold found."
+ },
+ "ownership": {
+  "period": "Jun-2026",
+  "pattern": { "promoters": 67.75, "fiis": 6.48, "diis": 5.28, "public": 20.49, "shareholders": 114250 },
+  "named": [
+   { "name": "Godrej Industries Ltd (holding company)", "pct": 65.05, "type": "Promoter" },
+   { "name": "Godrej family trusts and members (Nadir/Adi Godrej branches, combined)", "pct": 2.70, "type": "Promoter" },
+   { "name": "V-Sciences Investments Pte (Temasek)", "pct": 2.43, "type": "Foreign institution" },
+   { "name": "Nippon India Mutual Fund (small-cap scheme)", "pct": 2.09, "type": "Domestic MF" },
+   { "name": "Balram Singh Yadav (former MD)", "pct": 1.74, "type": "Individual" },
+   { "name": "Life Insurance Corporation of India", "pct": 1.21, "type": "Insurance" },
+   { "name": "Jamshyd Godrej (two holdings, 1.08% each)", "pct": 2.16, "type": "Public (Godrej Enterprises Group, reclassified Dec-2024)" },
+   { "name": "Smita Godrej Crishna (two holdings, 1.08% each)", "pct": 2.16, "type": "Public (Godrej Enterprises Group, reclassified Dec-2024)" } ],
+  "notes": [
+   "Promoter holding fell from 74.02% (Sep-2024) to 67.56% (Dec-2024) because 6.48% held by the Jamshyd and Smita Godrej branch was reclassified as public after the 2024 Godrej family realignment; no shares were sold.",
+   "Godrej Industries raised its stake from 64.87% (Mar-2025) to 65.05%.",
+   "Temasek (V-Sciences) cut its stake from 4.49% (Sep-2024) to 2.43%; LIC from 2.39% to 1.21%; Nippon India raised to 2.09%."
+  ],
+  "src": "holders"
+ },
+ "moat": [
+  { "dimension": "Scale and sourcing in feed", "verdict": "advantage", "evidence": "16.5 lakh t of feed (FY26), volume +12% vs the market; commodity buying and R&D formulation let it beat industry growth and hold ₹2,000+ EBIT per tonne." },
+  { "dimension": "Oil palm franchise", "verdict": "advantage", "evidence": "~80,000 ha of farmer plantations in allotted factory zones, best-in-class OER (18.8% in Q1FY27), 24 Samadhan farmer centres; zones are allotted by states and take 4-8 years to mature." },
+  { "dimension": "Crop care brands and in-house molecules", "verdict": "advantage", "evidence": "30-45% EBIT margins on Hitweed (cotton herbicide) and Gracia; but concentrated in two crops, and new in-licensed products earn less." },
+  { "dimension": "Pricing power", "verdict": "weakness", "evidence": "Feed passes on only 60-70% of cost; palm-oil margins follow CPO prices and import duties; dairy passes on ~70% of milk costs." },
+  { "dimension": "Dairy and foods brands", "verdict": "parity", "evidence": "Godrej Jersey and Yummiez are regional/early; dairy margins (2-5%) are half of listed peers'." },
+  { "dimension": "Astec (chemistry, CDMO)", "verdict": "weakness", "evidence": "Losses in FY24-26 (₹47 cr, ₹135 cr, ₹81 cr); 47% of imports from China; CDMO pipeline unproven." },
+  { "dimension": "Balance sheet and group backing", "verdict": "parity", "evidence": "CRISIL A1+; adjusted gearing 0.81x after the Creamline buyout; group lowers funding cost." }
+ ],
+ "critiques": [
+  { "argument": "Two of six businesses (oil palm and feed) earned ~70% of FY26 segment EBITDA; oil palm's FY26-27 profits ride war-inflated CPO prices, and the 24-Sep-2026 duty cut works the other way.", "who": "GAM; Business Today (24-Sep-2026)" },
+  { "argument": "Working-capital 'efficiency' is largely supplier financing (payables up ₹766 cr in FY26); it can reverse and its cost is hidden inside segment costs.", "who": "GAM, AR FY26" },
+  { "argument": "Capital allocation: ₹1,250 cr paid since FY25 for minority stakes in Creamline and Godrej Foods, businesses earning 3-6% EBITDA margins; ₹953 cr of it charged to equity as the price paid above book value.", "who": "GAM, AR FY26" },
+  { "argument": "Crop Care profit fell two years running (segment result ₹308 cr standalone in FY25, ₹224 cr in FY26, -38% in Q1FY27): new products dilute margins and weather risk is high.", "who": "GAM, company decks" },
+  { "argument": "The bull case: a new CEO is simplifying a sprawling portfolio, oil palm has a 'demographic dividend' as juvenile trees mature, and the stock trades below its own history.", "who": "Motilal Oswal (Aug-2026), management (May/Aug-2026)" }
+ ],
+ "gaps": [
+  "Segment D&A is annual only; quarterly segment data are business-level figures from the presentations (EBIT for feed, oil palm, crop care; EBITDA for Astec, dairy, foods).",
+  "Standalone crop care D&A is not disclosed: our 'cc' line is the consolidated Crop Care segment less Astec (Screener), which nets sales between them.",
+  "Exact location, cost and capacity of the integrated palm complex and specialty-fats refinery are not disclosed.",
+  "No dated maize or soymeal price series to 30-Sep-2026 was collected; we rely on management commentary.",
+  "ICICI Securities' May-2026 segment multiples and BP Equities' Q1FY27 rating/target were not publicly visible.",
+  "ICRA rationale (28-Jul-2026) not readable without login; only CRISIL (A1+, 6-Jul-2026) used.",
+  "Monthly state FFB price notifications and the exact pricing formula change in Q1FY27 were not collected.",
+  "The share of feed volume sold in each region and market-share data are not disclosed.",
+  "Sunil Kataria's earlier career is not covered in the documents we used."
+ ],
+ "conflicts": [
+  "Dairy EBITDA: segment result + D&A gives ₹56.5 cr for FY26; the presentation shows ₹53 cr excluding wage code and land gains. We use the segment-note basis for the model and the presentation for quarters.",
+  "Q1FY26 oil palm segment result: ₹86 cr in the Q1FY26 deck, ₹87 cr in the Q1FY27 deck (restated); we use ₹87 cr.",
+  "Astec EBITDA FY26: company ₹1 cr; Screener operating profit -₹4 cr. We use Screener for the model, the company figure in text."
+ ]
+}

@@ -1,0 +1,401 @@
+{
+  "asOf": "2026-09-30",
+  "exclusions": {
+    "note": "Items in company.json / deep.json (both stamped asOf 2026-10-28) that were NOT public on 30-Sep-2026, plus items whose fact is pre-cutoff but whose only cited source is post-cutoff. action: strip = remove; strip-part = remove only the quoted part; replace-source = keep fact, swap the cited source for the pre-cutoff one given; correct = fact must be restated as of 30-Sep. Key post-cutoff dates: Q2 FY27 results/deck 26-Oct-2026, Q2 call 27-Oct-2026, ICICI Securities TP cut 28-Oct-2026, ICICI Direct downgrade 29-Oct-2026, Sep-2026 shareholding pattern (filed Oct-2026), all Screener/StockAnalysis/Trendlyne/MarketsMojo reads on 28-Oct-2026.",
+    "companyJson": [
+      {"path": "asOf", "what": "File stamped 2026-10-28", "date": "2026-10-28", "action": "correct", "replaceWith": "2026-09-30"},
+      {"path": "sources.q2fy27Ppt", "what": "Q2 FY27 investor deck (Pname 6ebb3856...)", "date": "2026-10-26", "action": "strip"},
+      {"path": "sources.q2fy27Results", "what": "Q2 FY27 results PDF (Pname b380f857...)", "date": "2026-10-26", "action": "strip"},
+      {"path": "sources.q2fy27CallTranscript_thirdParty", "what": "Investing.com transcript of 27-Oct-2026 call", "date": "2026-10-27", "action": "strip"},
+      {"path": "revenueMixAnnual[FY21].src", "what": "Cites the Q2 FY27 deck; FY21 figures themselves come from AR2021/AR2022", "date": "2026-10-26", "action": "replace-source", "replaceWith": "https://www.bseindia.com/bseplus/AnnualReport/542920/68717542920.pdf ; https://www.bseindia.com/bseplus/AnnualReport/542920/73357542920.pdf"},
+      {"path": "revenueMixQuarterly[q=Q2FY27]", "what": "Whole Q2 FY27 entry (revenue 907.3, domestic +2%, exports -23%, category growth, H1 mix, Japan exports halved)", "date": "2026-10-26/27", "action": "strip"},
+      {"path": "categories.keyBrands (Topgrain, Helibex/Helibax)", "what": "Described as 'launched Q2FY27'; launch confirmed only in Oct-2026 deck/call", "date": "2026-10-26", "action": "correct", "replaceWith": "On track for launch during Q2FY27 (Q1 deck, 27-Jul-2026)"},
+      {"path": "categories.src", "what": "Cites Q2 FY27 deck for portfolio stats (200+ brands, 700+ SKUs, 14 actives, 25+ patents, 200+ registrations)", "date": "2026-10-26", "action": "replace-source", "replaceWith": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ce88b9-34b9-419d-9364-1c118e0a77de.pdf (Q1 deck p.22, 27-Jul-2026)"},
+      {"path": "parent.exportsToParent", "what": "'In H1FY27 exports to Japan roughly halved because of over-stocking at the parent; management expects normalisation next year'", "date": "2026-10-27", "action": "strip-part", "asOf30SepInstead": "Q1 deck: exports +26% led by South America, Asia ex-India, Africa, 'partially offset by lower sales in Japan and North America'; Japan ~2% of Q1FY27 revenue vs ~3% in Q1FY26 (pie labels)"},
+      {"path": "parent.semiconductor", "what": "'(Oct-2026 call: at MoU stage)' and Mittal's refusal to say which entity will house it", "date": "2026-10-27", "action": "strip-part", "keep": "SCC-Tata Electronics MoU (Tata release 18-Sep, SCC release 19-Sep-2026; SCIL not named); Dongwoo JV (3-Jul-2026); joint meetings with govt/customers (May-2026 call)"},
+      {"path": "parent.src", "what": "Cites the 27-Oct transcript and Trendlyne 'latest' shareholding (Sep-2026 pattern)", "date": "2026-10-27/28", "action": "replace-source"},
+      {"path": "pipeline.launchesFY27", "what": "Topgrain and Helibex listed as launched in Q2FY27", "date": "2026-10-26", "action": "correct", "replaceWith": "Planned for Q2FY27 (Q1 deck); one more product awaiting registration (May-2026 call - keep)"},
+      {"path": "pipeline.newProductContribution", "what": "'specialty brands +22% in H1FY27; Excalia Max +50% in H1FY27'", "date": "2026-10-27", "action": "strip-part"},
+      {"path": "pipeline.patentedVsGeneric", "what": "'Generic 71-72% / specialty 28-29% (FY26/H1FY27)' - the H1FY27 72/28 split is from the Q2 deck", "date": "2026-10-26", "action": "strip-part", "asOf30SepInstead": "Q1FY27 generic 76% / specialty 24% (Q1FY26 75/25) per Q1 deck"},
+      {"path": "pipeline.src", "what": "Cites Q2 deck and 27-Oct transcript", "date": "2026-10-26/27", "action": "replace-source"},
+      {"path": "capex.projects[announced=Jan-2026].src", "what": "Cite Q2 deck; same capex slide is p.29 of the Q1 deck", "date": "2026-10-26", "action": "replace-source", "replaceWith": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ce88b9-34b9-419d-9364-1c118e0a77de.pdf"},
+      {"path": "capex.src", "what": "Cites 27-Oct transcript and Q2 deck; 'one Dahej project a year' is supported by the May-2026 call (keep)", "date": "2026-10-26/27", "action": "replace-source", "replaceWith": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9b0e9e7-b8a4-41cd-acd4-4dedc97b0dc9.pdf"},
+      {"path": "guidance.formal", "what": "'reiterated 27-Oct-2026'", "date": "2026-10-27", "action": "strip-part", "asOf30SepInstead": "No numeric guidance in May-2026 call or Q1 deck; deck says business 'best monitored on an annual basis'"},
+      {"path": "guidance.margin", "what": "'Aim to keep EBITDA margin at or above 20%; stable performance incl. margins expected (Oct-2026)' - not found in May-2026 transcript or AR2026", "date": "2026-10-27", "action": "strip", "asOf30SepInstead": "May-2026 call: margins achieved are 'sustainable' and will be protected via calibrated price pass-through"},
+      {"path": "guidance.h2fy27", "what": "Whole item (extended El Nino, reservoirs ~71%, focus states, lower rice acreage) - management H2 outlook from 27-Oct call", "date": "2026-10-27", "action": "strip"},
+      {"path": "guidance.exports", "what": "Japan shortfall 'one-year phenomenon'", "date": "2026-10-27", "action": "strip"},
+      {"path": "guidance.growthAspiration", "what": "'(not repeated in 2026 calls)' refers to the Oct call", "date": "2026-10-27", "action": "strip-part"},
+      {"path": "guidance.cashUse", "what": "'No plan to return surplus cash now; evaluating strategic acquisitions; board may return unused cash' - Oct-call phrasing", "date": "2026-10-27", "action": "strip", "asOf30SepInstead": "May-2026 call (Mittal): accumulated cash expected to fund several new capex projects at Dahej for the parent's global needs"},
+      {"path": "guidance.transformation", "what": "'Good to Great' programme - not in May-2026 transcript or AR2026; appears to come from the 27-Oct call", "date": "2026-10-27 (inferred)", "action": "strip"},
+      {"path": "guidance.src", "what": "Cites 27-Oct transcript and Q2 deck", "date": "2026-10-26/27", "action": "replace-source"},
+      {"path": "q1fy27.drivers[4]", "what": "'consumption of lower-cost opening inventory' as a Q1 gross-margin driver - not in the Q1 deck (deck: improved realisation and healthier business mix; April-May price revisions); the inventory-cost explanation came with Q2", "date": "2026-10-27", "action": "strip-part"},
+      {"path": "q2fy27", "what": "Whole block (Q2 results, H1, drivers, 27-Oct call quotes, analysts on call)", "date": "2026-10-26/27", "action": "strip"},
+      {"path": "cashAndTreasury.cashAndLiquidInvestmentsCr[date=2026-09-30]", "what": "Rs 2,523 cr at 30-Sep-2026", "date": "2026-10-26", "action": "strip"},
+      {"path": "cashAndTreasury.sep26BalanceSheetComponentsCr", "what": "Sep-2026 balance-sheet components", "date": "2026-10-26", "action": "strip"},
+      {"path": "cashAndTreasury.cashPerShareRs", "what": "~50.5 based on Sep-26 cash", "date": "2026-10-26", "action": "correct", "replaceWith": "~51.1 (derived: Rs 2,549 cr at 30-Jun-2026 / 49.91 cr shares)"},
+      {"path": "cashAndTreasury.cashShareOfMcapPct", "what": "~15% vs Rs 16,771 cr mcap on 28-Oct-2026", "date": "2026-10-28", "action": "correct", "replaceWith": "~11.8% (derived: 2,549 / 21,625 mcap at 30-Sep-2026 close Rs 433.25)"},
+      {"path": "cashAndTreasury.otherIncomeCr.Q2FY27", "what": "Rs 43.6 cr", "date": "2026-10-26", "action": "strip"},
+      {"path": "cashAndTreasury.debt", "what": "'borrowings Rs 1.4 cr (Sep-2026)'", "date": "2026-10-26", "action": "strip-part"},
+      {"path": "cashAndTreasury.dividendPolicy", "what": "'Management (Oct-2026): no plan to return surplus cash now'", "date": "2026-10-27", "action": "strip-part"},
+      {"path": "cashAndTreasury.src", "what": "Cites Q2 deck", "date": "2026-10-26", "action": "replace-source"},
+      {"path": "workingCapital.points[date=2026-09-30]", "what": "Sep-26 NWC point (inventory 747.1/115 days, NWC 76 days)", "date": "2026-10-26", "action": "strip"},
+      {"path": "workingCapital.comment", "what": "'Sep-26 inventory days 115 (95) on price increases and soft liquidation; corrective action in H2FY27'", "date": "2026-10-26/27", "action": "strip-part"},
+      {"path": "workingCapital.collectionsCr.H1FY27 (and H1FY26 comparison from the Q2 deck)", "what": "Rs 2,231 cr / Rs 2,277 cr", "date": "2026-10-26", "action": "strip"},
+      {"path": "workingCapital.src", "what": "Cites Q2 deck", "date": "2026-10-26", "action": "replace-source"},
+      {"path": "history[date=FY23].src", "what": "Cites Q2 results PDF for the Rs 26.9 cr insurance claim; Q1 results note 5 (27-Jul-2026) carries it", "date": "2026-10-26", "action": "replace-source", "replaceWith": "https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026132520_Outcome_of_BM_DSC.pdf"},
+      {"path": "history[date=2026-01].src", "what": "Cites Q2 deck", "date": "2026-10-26", "action": "replace-source", "replaceWith": "Q1 deck p.29"},
+      {"path": "history[date=2026-09-01]", "what": "'Chetan Shah becomes non-executive Chairman' - no source on or before 30-Sep confirms the Board made him Chairman; AGM (27-Jul) appointed him Non-Executive Non-Independent Director from 1-Sep and the Q1 deck says he 'will be considered to be appointed as the Chairman by the Board'", "date": "post-30-Sep (only confirmed in Oct-2026 material)", "action": "correct"},
+      {"path": "corporateActions.src", "what": "Cites Q2 results PDF", "date": "2026-10-26", "action": "replace-source"},
+      {"path": "management[name=Chetan Shah].role", "what": "'Chairman ... (from 1-Sep-2026)'", "date": "post-30-Sep", "action": "correct", "replaceWith": "Non-Executive Non-Independent Director from 1-Sep-2026 (MD to 31-Aug-2026); to be considered for Chairman by the Board"},
+      {"path": "management[Kunal Mittal, Fumio Suzuki, Hajime Shinomiya, Tadashi Katayama, Masanori Uzawa, Preeti Mehta, Anand Mohan Tiwari].src", "what": "Cite Q2 deck; same facts are in the Q1 deck (org chart wef 1-Sep-2026, board slides)", "date": "2026-10-26", "action": "replace-source", "replaceWith": "Q1 deck pp.7-8, 33-34"},
+      {"path": "governance.board", "what": "'non-executive Chairman (ex-MD)'", "date": "post-30-Sep", "action": "correct"},
+      {"path": "governance.src", "what": "Cites Q2 results PDF", "date": "2026-10-26", "action": "replace-source"},
+      {"path": "accounting.schemeLiability", "what": "'Rs 566.5 cr (Sep-26)'", "date": "2026-10-26", "action": "strip-part"},
+      {"path": "accounting.otherIncome", "what": "'MarketsMojo computes non-operating income at ~44% of a recent quarter's profit' (MarketsMojo 52-week-low article, late Oct-2026)", "date": "2026-10-26/27", "action": "strip-part"},
+      {"path": "accounting.src", "what": "Cites Q2 results PDF and Oct-2026 MarketsMojo page", "date": "2026-10", "action": "replace-source"},
+      {"path": "notes[last]", "what": "Screener OCR note on Q2FY27 PAT (Rs 1,674 mn vs 1,574 mn)", "date": "2026-10-26", "action": "strip"}
+    ],
+    "deepJson": [
+      {"path": "asOf", "what": "Stamped 2026-10-28", "date": "2026-10-28", "action": "correct", "replaceWith": "2026-09-30"},
+      {"path": "industry.chinaAndPricingSrc / industry.biologicalsSrc", "what": "Include 27-Oct transcript; the facts are supported by the May-2026 call and Q1 deck", "date": "2026-10-27", "action": "replace-source"},
+      {"path": "industry.regulation[item=Paraquat dichloride]", "what": "'SCIL management called it recently banned and sees larger glyphosate opportunity'", "date": "2026-10-27", "action": "strip-part", "asOf30SepInstead": "Draft ban S.O. 3800(E) 10-Jul-2026; final order S.O. 5234(E) 22-Sep-2026 (see monsoonAndSector.regulatory)"},
+      {"path": "industry.regulation[item=Glyphosate].src", "what": "Cites Q2 results PDF", "date": "2026-10-26", "action": "replace-source"},
+      {"path": "industry.monsoon2026", "what": "Whole block - sourced to Q2 deck, 27-Oct call and an 8-Oct-2026 Whalesbook sector-downgrade piece; includes Q2FY27 sector previews (revenue declines up to ~12%) dated October", "date": "2026-10-08 to 2026-10-27", "action": "strip", "asOf30SepInstead": "monsoonAndSector block in this file"},
+      {"path": "peers[*] price, mcapCr, pe, peFwd, evEbitda, date", "what": "All valuation fields priced 28-Oct-2026 (SUMICHEM Rs 336, mcap 16,771; peFwd from StockAnalysis consensus read 28-Oct)", "date": "2026-10-28", "action": "strip-part", "note": "FY26 revenue/margin/ROE fields are pre-cutoff facts and can stay; reprice to 30-Sep-2026"},
+      {"path": "street.summary", "what": "Live range 'Rs 485 (ICICI Securities, cut 28-Oct-2026)'; S&P average ~Rs 584 and Trendlyne ~Rs 586 read 28-Oct vs Rs 336 price", "date": "2026-10-28", "action": "strip"},
+      {"path": "street.brokers[0]", "what": "ICICI Securities BUY Rs 485", "date": "2026-10-28", "action": "strip"},
+      {"path": "street.consensus.stockAnalysis_SnP", "what": "9 analysts, TP avg 583.63, FY27E EPS 12.23, next-year EPS 14.10 - snapshot read 28-Oct-2026", "date": "2026-10-28", "action": "strip"},
+      {"path": "street.consensus.trendlyne", "what": "TP avg 586, FY27 revenue -4.5% - read 28-Oct-2026", "date": "2026-10-28", "action": "strip"},
+      {"path": "street.ratingCount (asOf 2026-10)", "what": "Oct-2026 rating count", "date": "2026-10-28", "action": "strip-part", "note": "Mar-26/Jun-26 history columns may stay with a 'read post-cutoff' caveat"},
+      {"path": "ownership.trend (Sep 2026 column)", "what": "FII 2.89, DII 9.68, MF 7.68, public 12.42, holders 109,118 - Sep-2026 pattern filed in Oct-2026", "date": "2026-10 (by 21-Oct)", "action": "strip"},
+      {"path": "ownership.holders / holdersAsOf / holdersSrc", "what": "Named holders as of 30-Sep-2026 (ABSL Flexi Cap 2.24, Edelweiss 1.25, HSBC 1.09, Clarus Capital I 1.04, 33 MF schemes, 112 FPIs)", "date": "2026-10", "action": "strip", "asOf30SepInstead": "holders block in this file (Jun-2026 pattern)"},
+      {"path": "ownership.observations", "what": "Uses Sep-2026 figures (MF 7.7%, FII 2.89%, ~109k holders)", "date": "2026-10", "action": "correct", "replaceWith": "Jun-2026: MF 7.27%, FII 3.02%, 110,464 holders"},
+      {"path": "stockEvents[date=2026-07-03]", "what": "'+~11% intraday to Rs 492' was an early snapshot", "date": "n/a", "action": "correct", "replaceWith": "NSE high Rs 509.40 (+15.5%), close Rs 502.30 (+13.8%) on 2.95 cr shares (NSE bhavcopy 03-Jul-2026)"},
+      {"path": "stockEvents[date=2026-07-20 to 2026-08-14]", "what": "52-week high dated 14-Aug and sourced to an Oct-2026 MarketsMojo page", "date": "2026-10", "action": "correct", "replaceWith": "NSE intraday high Rs 572.05 on 17-Aug-2026; highest close Rs 564.95 on 14-Aug-2026"},
+      {"path": "stockEvents[date=2026-10-08]", "what": "Broker estimate cuts on 12.2% monsoon deficit; prices 1-16 Oct", "date": "2026-10-08", "action": "strip"},
+      {"path": "stockEvents[date=2026-10-20 to 2026-10-28]", "what": "Q2-results slide, 52-week lows 358.25/353.65/334.5, ICICI Sec Rs 485", "date": "2026-10-20 to 28", "action": "strip"},
+      {"path": "why52WeekLow + why52WeekLowSrc", "what": "Explains Oct-2026 lows using Q2 miss, Japan over-stocking, Oct-call commentary", "date": "2026-10", "action": "strip"},
+      {"path": "moat[dimension=Access to parent's proprietary molecules].evidence", "what": "'Excalia Max +50% in H1FY27' and 'Japan over-stocking'", "date": "2026-10-27", "action": "strip-part"},
+      {"path": "moat[dimension=Balance sheet].evidence", "what": "'Rs 2,523 cr cash (Sep-2026), ~15% of market cap'", "date": "2026-10-26/28", "action": "correct", "replaceWith": "Rs 2,549 cr (30-Jun-2026), ~11.8% of 30-Sep mcap (derived)"},
+      {"path": "moat[dimension=Channel discipline / credit].evidence", "what": "'Receivable days 82-83' - 82 is Sep-26", "date": "2026-10-26", "action": "strip-part", "asOf30SepInstead": "83 days (Mar-26), 68 days (Jun-26, seasonal)"},
+      {"path": "critiques[1]", "what": "Attribution to Abhishek Sharma, Nine Rivers Capital (27-Oct call)", "date": "2026-10-27", "action": "strip-part", "keep": "Anand Rathi 20-Jul-2026 'structure risk' and SCC's 19-Sep MoU not naming SCIL"},
+      {"path": "critiques[2]", "what": "'Lazy balance sheet' critique from Nine Rivers on the 27-Oct call (Rs 2,500 cr, refusal to return cash, ~3 years of parent talks)", "date": "2026-10-27", "action": "strip"},
+      {"path": "critiques[4]", "what": "'exports to Japan halved in H1FY27 on SCC over-stocking'", "date": "2026-10-27", "action": "strip-part"},
+      {"path": "critiques[6]", "what": "'inventory days at 115'", "date": "2026-10-26", "action": "strip-part", "asOf30SepInstead": "Inventory days 124 at Jun-26 (90 at Jun-25), 149 at Mar-26"},
+      {"path": "critiques[7]", "what": "'ex-MD becomes non-executive chairman'", "date": "post-30-Sep", "action": "correct", "replaceWith": "ex-MD stays on board as non-executive director and is to be considered for Chairman"},
+      {"path": "gaps[0], gaps[1]", "what": "References to the 27-Oct transcript and the Rs 485 target", "date": "2026-10-27/28", "action": "strip"},
+      {"path": "conflicts (Q2 PAT OCR; Q2 gross-margin bps; 52-week low Rs 334.05-334.5 on 27-Oct)", "what": "Post-cutoff conflicts", "date": "2026-10-26/27", "action": "strip"}
+    ]
+  },
+  "street": {
+    "summary": "Four houses had a published call standing on 30-Sep-2026, all BUY: ICICI Securities institutional Rs 580 (29-May), ICICI Direct Rs 625 (29-Jul, reiterated 10-Aug), Anand Rathi Rs 650 (20-Jul) and Elara Rs 605 (last seen 4/9-Apr). Every disclosed method is P/E on FY28E earnings (36x-45x); ICICI Securities' initiation blended P/E with EV/EBITDA. Only ICICI Direct updated after Q1 results (27-Jul). Anand Rathi's Rs 650 came on 20-Jul, a week BEFORE Q1 results, on the semiconductor thesis; no Anand Rathi Q1 note was found. No calls dated Aug-Sep 2026 other than ICICI Direct's 10-Aug reiteration.",
+    "priceOn30Sep": {"closeRs": 433.25, "src": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_30092026.csv", "published": "2026-09-30"},
+    "standingCalls": [
+      {
+        "broker": "ICICI Securities (institutional; Probal Sen, Hardik Solanki)",
+        "rating": "BUY", "tpRs": 580, "date": "2026-05-29", "priceAtReportRs": 501.55,
+        "method": "Not verified for the 29-May note (PDF behind Trendlyne login). The 13-Apr-2026 initiation used the average of P/E and EV/EBITDA with a PEG cross-check.",
+        "initiationBasis": {"date": "2026-04-13", "tpRs": 515, "priceAtReportRs": 419, "multiples": "36.5x FY28E P/E; 29.3x FY28E EV/EBITDA; implied PEG 2.7x", "fy27E": {"revenueCr": 3582.9, "ebitdaCr": 748.8, "patCr": 596.3, "epsRs": 11.9}, "fy28E": {"revenueCr": 4021.5, "ebitdaCr": 852.6, "patCr": 687.8, "epsRs": 13.8}, "src": "https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/20260413050213_Sumitomo-Chemicals-1304026-icici.pdf", "published": "2026-04-13"},
+        "earningsYear": "FY28E (per initiation; May-note basis not seen)",
+        "thesis": "Q4FY26 EBITDA/PAT +12% YoY beat street on ~200bp gross-margin gain; new product launches and parent-linked capex to drive long-run growth.",
+        "upsideVs30SepPct": 33.9,
+        "upsideNote": "derived: 580 / 433.25 - 1",
+        "src": "https://trendlyne.com/posts/5675114/a-good-q4fy26-despite-challenges-new-product-launches-capex-to-drive-growth-in-long-run ; https://www.whalesbook.com/news/English/brokerage-reports/Sumitomo-Chemical-Target-Hiked-Despite-Stagnant-Revenue-Growth/6a1931cb49974139aece81bd",
+        "published": "2026-05-29"
+      },
+      {
+        "broker": "ICICI Direct (ICICI Securities retail research; Siddhant Khandekar, Shubh Mehta, Deep Thosani)",
+        "rating": "BUY", "tpRs": 625, "date": "2026-07-29", "priceAtReportRs": 510,
+        "reiterated": {"date": "2026-08-10", "priceAtReportRs": 525, "format": "Shubh Nivesh pick, same TP and estimates; notes cumulative monsoon deficit narrowed to 11% in August", "src": "https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_sumitomochemicals_%20shubhnivesh_aug26.pdf", "published": "2026-08-10"},
+        "method": "P/E", "multiple": 45, "earningsYear": "FY28E", "epsUsedRs": 13.9,
+        "fy27E": {"revenueCr": 3556.7, "ebitdaCr": 800.3, "ebitdaMarginPct": 22.5, "patCr": 613.6, "epsRs": 12.3},
+        "fy28E": {"revenueCr": 4007.2, "ebitdaCr": 921.7, "ebitdaMarginPct": 23.0, "patCr": 695.8, "epsRs": 13.9},
+        "thesis": "Closer SCC engagement (India in SCC's tier-1 early-trial group, parent-linked capex at Dahej/Bhavnagar/Tarapur, possible semiconductor-chemicals foray) separates SCIL from other MNC agrochem names and justifies a premium; Q1 resilient despite delayed monsoon.",
+        "previousCall": {"date": "2026-06-01", "rating": "BUY (upgrade)", "tpRs": 600, "src": "https://trendlyne.com/posts/5674467/sumitomo-chemicals", "published": "2026-06-01"},
+        "upsideVs30SepPct": 44.3, "impliedPeOnFY28EAt30Sep": 31.2,
+        "derivedNote": "upside = 625/433.25-1; P/E = 433.25/13.9",
+        "src": "https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_sumitomochemicals_q1fy27.pdf",
+        "published": "2026-07-29"
+      },
+      {
+        "broker": "Anand Rathi (Himanshu Binani)",
+        "rating": "BUY", "tpRs": 650, "date": "2026-07-20", "priceAtReportRs": 535,
+        "timingNote": "Published 20-Jul-2026, BEFORE Q1 FY27 results (27-Jul). Not a Q1 note. No Anand Rathi Q1 update found on Trendlyne, DSIJ or in the press.",
+        "method": "P/E", "multiple": 40, "earningsYear": "FY28E", "epsUsedRs": 16.0,
+        "fy27E": {"revenueCr": 3602.5, "ebitdaCr": 769.1, "ebitdaMarginPct": 21.4, "patCr": 657.3, "epsRs": 13.2},
+        "fy28E": {"revenueCr": 4158.6, "ebitdaCr": 923.2, "ebitdaMarginPct": 22.2, "patCr": 798.0, "epsRs": 16.0},
+        "thesis": "Target multiple raised from 36x to 40x because the SCC-Tata Electronics semiconductor-chemicals project is expected to sit under or close to listed SCIL (back-of-envelope ~Rs 300 cr EBITDA from FY30E, ~25% above estimates; 30% ISM 2.0 capex subsidy); core ~15% EBITDA CAGR FY26-30E. Key risk: SCC uses a wholly owned vehicle and SCIL earns only rent; full glyphosate ban (~14-15% of FY26 revenue).",
+        "previousCall": {"date": "2026-05-28", "rating": "BUY", "tpRs": 570, "method": "36x FY28E P/E", "src": "https://www.tradingview.com/news/moneycontrol:89ff11f6a094b:0-buy-sumitomo-chemicals-target-of-rs-570-anand-rathi/ ; https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/SUMICHEM_CU_200726.pdf", "published": "2026-05-28"},
+        "upsideVs30SepPct": 50.0, "impliedPeOnFY28EAt30Sep": 27.1,
+        "derivedNote": "upside = 650/433.25-1; P/E = 433.25/16.0",
+        "src": "https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/SUMICHEM_CU_200726.pdf",
+        "published": "2026-07-20"
+      },
+      {
+        "broker": "Elara Securities (Prashant Biyani)",
+        "rating": "BUY", "tpRs": 605, "date": "2026-01-27 (TP set); reiterated 2026-04-04 and 2026-04-09",
+        "priceAtReportRs": {"2026-01-27": 405, "2026-04-04": 380, "2026-04-09": 395},
+        "method": "Not disclosed in the sector previews; TP is ~39x the FY28E EPS implied by Elara's own PAT (derived, not stated)",
+        "earningsYear": "FY28E (inferred)",
+        "fy27E": {"revenueCr": 3689.5, "adjPatCr": 667.2, "epsRsDerived": 13.37},
+        "fy28E": {"revenueCr": 4082.9, "adjPatCr": 770.1, "epsRsDerived": 15.43},
+        "derivedNote": "EPS = Elara PAT / 49.915 cr shares; Elara's P/E at Rs 380 was 28.4x FY27E and 24.6x FY28E",
+        "thesis": "Top pick in agrochemicals (with Dhanuka): strong domestic brands, pricing tailwind from cost-led hikes, demand recovery from a low base, valuation after a 9-12 month correction.",
+        "staleness": "No Elara note on SUMICHEM after 9-Apr-2026 found (no Q4FY26 or Q1FY27 result update located). Elara hosted SCIL 1x1/group investor meetings in Mumbai on 3-Sep-2026, so coverage appears active.",
+        "upsideVs30SepPct": 39.6,
+        "src": "https://img.etimg.com/photo/130052128.cms ; https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/premarketreports/Q4FY26%20Preview%20-%20Elara%20Securities%20-%209%20April%202026.pdf ; https://nsearchives.nseindia.com/corporate/SUMICHEM_25082026110033_Analyst_Meet_03_09_2026.pdf",
+        "published": "2026-04-04 / 2026-04-09 / 2026-08-25"
+      }
+    ],
+    "aggregate": {
+      "standingTpsRs": [580, 625, 650, 605],
+      "simpleAverageTpRs": 615,
+      "averageTpUpsideVs30SepPct": 41.9,
+      "highLowRs": [650, 580],
+      "note": "GAM-derived from the four standing calls above (not a vendor consensus). Trendlyne's own 3-broker average (ICICI Sec, ICICI Direct, Anand Rathi) = Rs 618.33.",
+      "src": "derived from street.standingCalls ; https://trendlyne.com/research-reports/stock/182906/SUMICHEM/sumitomo-chemical-india-ltd/",
+      "published": "2026-09-30 (derived)"
+    },
+    "methodTally": {"P/E on FY28E": ["ICICI Direct 45x (EPS 13.9)", "Anand Rathi 40x (EPS 16.0)", "ICICI Securities 36.5x blended with EV/EBITDA (initiation)"], "EV/EBITDA on FY28E": ["ICICI Securities 29.3x (initiation, blended)"], "DCF": [], "notDisclosed": ["Elara"]},
+    "otherBrokersSearched": "No SUMICHEM notes dated 1-Apr to 30-Sep-2026 found for Nuvama, Axis Capital, Equirus, Systematix, Kotak, Motilal Oswal, HDFC Securities, JM, Antique, Dalal & Broacha, Nirmal Bang, Prabhudas Lilladher, Centrum, BOB Caps, Emkay or Sharekhan (Sharekhan's last call 29-Oct-2024, PL's 31-Oct-2023 per Trendlyne). Axis Direct Q1FY27 previews (7/9-Jul) and Anand Rathi's sector preview (10-Jul) did not cover SUMICHEM. Motilal Oswal hosted an SCIL group meet on 19-Aug-2026 (NSE filing 10-Aug), which is corporate access, not coverage.",
+    "postCutoffCallsForReference": "Do not use as of 30-Sep: ICICI Securities BUY Rs 485 (28-Oct-2026); ICICI Direct downgrade to HOLD Rs 355 (29-Oct-2026)."
+  },
+  "consensus": {
+    "summary": "No vendor (Bloomberg/S&P/Refinitiv) consensus EPS or revenue dated Jul-Sep 2026 was found. The best dated items are: an April-2026 Bloomberg consensus printed in ICICI Securities' initiation, a Wayback capture of Trendlyne on 22-Jul-2026 (average TP Rs 565 from 9 analysts), and S&P monthly rating counts. A GAM-derived average of the three brokers with full published estimates is given for reference.",
+    "bloombergViaICICISec": {
+      "asOf": "2026-04-10 (pricing date of the table)",
+      "fy26E": {"revenueCr": 3285.1, "ebitdaCr": 645.2, "patCr": 552.9},
+      "fy27E": {"revenueCr": 3633.3, "ebitdaCr": 765.2, "patCr": 645.6, "epsRsDerived": 12.93},
+      "fy28E": {"revenueCr": 4053.4, "ebitdaCr": 881.6, "patCr": 753.9, "epsRsDerived": 15.10},
+      "note": "Exhibit 19 of the initiation, in Rs mn converted to Rs cr; EPS derived on 49.915 cr shares. Outside the Jul-Sep window and pre-Q4FY26/Q1FY27 results.",
+      "src": "https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/20260413050213_Sumitomo-Chemicals-1304026-icici.pdf",
+      "published": "2026-04-13"
+    },
+    "trendlyneTargetSnapshot": {
+      "asOf": "2026-07-22",
+      "analysts": 9, "averageTpRs": 565, "priceOnPageRs": 525.15, "upsidePct": 8,
+      "caveat": "Read from a Wayback capture (2026-07-22 07:02 UTC) by a research sub-agent; the archive returned HTTP 429 on re-check, so treat as single-read. No capture exists between 22-Jul and 30-Sep. The 9-analyst count includes houses with no 2026 public notes.",
+      "src": "https://web.archive.org/web/20260722070247/https://trendlyne.com/equity/182906/SUMICHEM/sumitomo-chemical-india-ltd/",
+      "published": "2026-07-22"
+    },
+    "ratingCountSnP": {
+      "jul2026": {"analysts": 9, "strongBuy": 5, "buy": 3, "hold": 1, "sell": 0},
+      "jun2026": {"analysts": 9},
+      "caveat": "Historical monthly columns on StockAnalysis (S&P Global data) read on 13-Nov-2026; no Aug/Sep columns shown; its current EPS/revenue estimates are post-cutoff and not used.",
+      "src": "https://stockanalysis.com/quote/nse/SUMICHEM/forecast/",
+      "published": "read 2026-11-13 (historical Jul-2026 column)"
+    },
+    "gamDerivedVisibleBrokerAverage": {
+      "constituents": "ICICI Direct (29-Jul-2026), Anand Rathi (20-Jul-2026), Elara (4-Apr-2026). ICICI Securities excluded because its post-May estimates were not seen.",
+      "fy27E": {"revenueCr": 3616.2, "epsRs": 12.96},
+      "fy28E": {"revenueCr": 4082.9, "epsRs": 15.11},
+      "range": {"fy27EEpsRs": [12.3, 13.37], "fy28EEpsRs": [13.9, 16.0], "fy28ERevenueCr": [4007.2, 4158.6]},
+      "impliedPeAt30Sep": {"fy27E": 33.4, "fy28E": 28.7},
+      "note": "Simple averages, derived; not a vendor consensus. Elara EPS derived from its PAT.",
+      "src": "derived from street.standingCalls",
+      "published": "2026-09-30 (derived)"
+    }
+  },
+  "q1fy27": {
+    "reportingDates": {
+      "boardMeeting": "2026-07-27 11:10-13:10 IST; results filed with NSE 13:27 IST; investor presentation filed 20:14 IST; AGM held same day 14:30 IST by video conference",
+      "correction": "Q1 FY27 was reported on 27-Jul-2026, not in early August.",
+      "earningsCall": "None held for Q1 (no transcript/audio filed; company holds calls with H1 and full-year results)",
+      "src": "https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026132520_Outcome_of_BM_DSC.pdf ; https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026201434_Letter_to_SEs_Investor_Presentation_Q1_2026_27_combined_signed.pdf ; https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026164742_AGM_Proceedings_2025_26_signed.pdf",
+      "published": "2026-07-27"
+    },
+    "results": {
+      "units": "Rs crore, consolidated",
+      "revenue": 1063.3, "revenuePrev": 1056.8, "revenueYoYPct": 1,
+      "cogs": 646.6, "grossProfit": 416.7, "grossMarginPct": 39.2, "grossMarginPrevPct": 38.1, "grossMarginChangeBps": 111,
+      "employee": 73.2, "otherOpex": 110.2,
+      "ebitda": 233.3, "ebitdaPrev": 219.2, "ebitdaYoYPct": 6, "ebitdaMarginPct": 21.9, "ebitdaMarginPrevPct": 20.7,
+      "otherIncome": 47.3, "otherIncomePrev": 38.8, "depreciation": 17.2, "interest": 2.0,
+      "pbtBeforeExceptional": 261.3, "pbtBeforeExceptionalYoYPct": 9,
+      "exceptionalGain": 26.9, "pbt": 288.2, "pbtPrev": 240.6, "tax": 73.7,
+      "pat": 214.5, "patPrev": 178.1, "patYoYPct": 20, "patMarginPct": 20.2,
+      "epsRs": 4.30, "epsPrevRs": 3.57,
+      "patExExceptionalApprox": 194.5,
+      "patExExceptionalNote": "derived: 214.5 - 26.9 x (1 - 73.7/288.2); not reported",
+      "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ce88b9-34b9-419d-9364-1c118e0a77de.pdf ; https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026132520_Outcome_of_BM_DSC.pdf",
+      "published": "2026-07-27"
+    },
+    "insuranceClaim": {
+      "amountCr": 26.9, "amountRsMn": 268.96,
+      "nature": "Business-interruption insurance claim received for the fire at the Bhavnagar plant in FY2022-23; shown as an exceptional item (gain). Reported PBT and PAT +20% YoY include it; PBT before exceptional +9%.",
+      "src": "https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026132520_Outcome_of_BM_DSC.pdf ; https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ce88b9-34b9-419d-9364-1c118e0a77de.pdf",
+      "published": "2026-07-27"
+    },
+    "domesticVsExports": {
+      "domesticCr": 893, "domesticYoYPct": -3, "domesticSharePct": 84, "domesticSharePrevPct": 87,
+      "exportsCr": 170, "exportsYoYPct": 26, "exportSharePct": 16,
+      "exportDrivers": "Strong growth in South America, Asia (ex-India) and Africa, partly offset by lower sales in Japan and North America",
+      "geographyPctOfRevenue": {"Q1FY27": {"domestic": 84, "southAmerica": 6, "africa": 4, "asiaExIndia": 3, "japan": 2, "europe": 1, "northAmerica": 0, "australia": 0}, "Q1FY26": {"domestic": 87, "southAmerica": 3, "africa": 3, "japan": 3, "asiaExIndia": 2, "europe": 1, "northAmerica": 1, "australia": 0}},
+      "caveat": "Rs cr split from ICICI Direct; shares and regional split read from the deck's pie-chart labels (approximate).",
+      "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ce88b9-34b9-419d-9364-1c118e0a77de.pdf ; https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_sumitomochemicals_q1fy27.pdf",
+      "published": "2026-07-27 / 2026-07-29"
+    },
+    "categories": {
+      "sharePctQ1FY27": {"insecticides": 35, "herbicides": 31, "pgr": 6, "metalPhosphides": 10, "fungicides": 5, "andEhd": 13},
+      "sharePctQ1FY26": {"insecticides": 35, "herbicides": 34, "pgr": 7, "metalPhosphides": 8, "fungicides": 5, "andEhd": 11},
+      "yoyPct_companyDeck": {"metalPhosphides": 21, "andEhd": 11, "herbicidesFungicidesPgr": "softer (no % given)"},
+      "yoyPct_ICICIDirect": {"insecticides": 0, "herbicides": -8, "metalPhosphides": 26, "andEhd": 19},
+      "conflict": "Metal phosphides +21% and AND&EHD +11% (company deck) vs +26% and +19% (ICICI Direct). Use the deck.",
+      "genericVsSpecialtyPct": {"Q1FY27": [76, 24], "Q1FY26": [75, 25]},
+      "brandedSharePct": {"domesticQ1FY27": 77, "domesticQ1FY26": 78, "exportsQ1FY27": 36, "exportsQ1FY26": 34},
+      "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ce88b9-34b9-419d-9364-1c118e0a77de.pdf ; https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_sumitomochemicals_q1fy27.pdf",
+      "published": "2026-07-27 / 2026-07-29"
+    },
+    "grossMargin": {
+      "q1fy27Pct": 39.2, "changeBps": 111,
+      "companyExplanation": "Calibrated price revisions in April and May to offset input-cost inflation; 'improved realization and a healthier business mix'. (The 'lower-cost opening inventory' explanation in company.json is from the Oct-2026 call and should not be used.)",
+      "q4fy26Pct": 42.3, "fy26Pct": 42.0,
+      "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ce88b9-34b9-419d-9364-1c118e0a77de.pdf",
+      "published": "2026-07-27"
+    },
+    "workingCapitalAndCash": {
+      "jun26": {"inventory": 883.6, "inventoryDays": 124, "receivables": 799.8, "receivableDays": 68, "payables": 632.3, "payableDays": 89, "otherFinLiab": 553.3, "otherFinLiabDays": 47, "nwc": 497.8, "nwcDays": 56},
+      "jun25": {"inventory": 648.6, "inventoryDays": 90, "receivableDays": 76, "nwc": 450.6, "nwcDays": 43},
+      "cashAndLiquidCr": 2549, "collectionsQ1Cr": 1178,
+      "comment": "NWC days up on seasonal pre-kharif inventory build and higher inventory carrying value; receivable days improved.",
+      "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ce88b9-34b9-419d-9364-1c118e0a77de.pdf",
+      "published": "2026-07-27"
+    },
+    "monsoonCommentaryThen": {
+      "rainfallJun1toJul1": {"normalMm": 172.9, "actualMm": 108.1, "departurePct": -37.48, "subdivisions": {"excess": 1, "normal": 8, "deficient": 25, "largeDeficient": 2}},
+      "companyText": "Delayed onset of the South-West monsoon, 40% rainfall deficit till June-end, lower reservoir levels, ~20% decline in kharif sowing area early in the season; elevated channel inventory after March-April advance buying and subsequent price corrections. 'With monsoon progress improving during July', management expects gradual recovery in sowing.",
+      "kharifAcreageAsOn10Jul": {"lakhHa2026": 531.25, "lakhHa2025": 632.69, "yoyPct": -16.0, "cropYoYPct": {"rice": -8.6, "pulses": -23.3, "coarseCereals": -22.5, "oilseeds": -21.0, "sugarcane": 1.5, "juteMesta": 1.9, "cotton": -15.3}},
+      "brokerReadAcross": "ICICI Direct (29-Jul): August is the key rainfall month for volume recovery and channel-inventory clearance in Q2FY27; (10-Aug): cumulative deficit narrowed to 11%.",
+      "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ce88b9-34b9-419d-9364-1c118e0a77de.pdf (slides 5-6; IMD and Ministry of Agriculture data via KBK Infographics) ; https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_sumitomochemicals_q1fy27.pdf ; https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_sumitomochemicals_%20shubhnivesh_aug26.pdf",
+      "published": "2026-07-27 / 2026-07-29 / 2026-08-10"
+    },
+    "guidanceAndOutlook": {
+      "numericGuidance": "None in the Q1 deck; deck says the business is best monitored annually.",
+      "productLaunches": "Topgrain (biostimulant, from SCC group) and Helibax (pyridalyl + emamectin) on track for launch in Q2FY27; FY26 launches Lentigo and Excalia Max beat internal targets (ICICI Direct); 3-4 SCC products in the launch pipeline; products launched in the last 3 years = 8% of domestic revenue.",
+      "boardChanges": "From 1-Sep-2026: Dr Suresh Ramachandran MD; Chetan Shah's MD term ends 31-Aug and he becomes Non-Executive Non-Independent Director, to be considered for Chairman by the Board; Chairman Mukul Asher, ED Sushil Marfatia and NED Ninad Gupte leave on 31-Aug; N. Sivaraman re-appointed ID to 31-Aug-2029; Anand Mohan Tiwari ID from 31-Aug-2026. Kunal Mittal EVP heads finance, planning, procurement, business development (new segments) and manufacturing.",
+      "standingGuidanceFromMay2026Call": "Supply-chain planning on a normal kharif; flagged risks: monsoon (IMD forecast 92% of LPA), El Nino, fertiliser availability; ~55% of net sown area irrigated; CSM sales to parent to be held at ~Rs 110-140 cr in FY27, incremental from FY28-29 as projects commission; roughly one new Dahej project a year; royalty to parent on 2-3 products capped at Rs 2 cr; margins described as sustainable; accumulated cash to fund parent-linked capex; one more product awaiting registration; biologicals ~8-10% of revenue; India in SCC's tier-1 early-trial group with 2 molecules in Indian trials.",
+      "semiconductor": "ICICI Direct (29-Jul): parent indicated plans to commercialise high-purity semiconductor chemicals in India; discussions with government agencies and customers ongoing jointly with SCIL. May-2026 call: 'hopefully, very soon, you may officially hear from us'.",
+      "managementInterviewsAugSep2026": "None found (no CNBC-TV18, ET Now, NDTV Profit, Moneycontrol or Business Standard interview with Shah, Ramachandran or Mittal dated Aug-Sep 2026).",
+      "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ce88b9-34b9-419d-9364-1c118e0a77de.pdf ; https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_sumitomochemicals_q1fy27.pdf ; https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9b0e9e7-b8a4-41cd-acd4-4dedc97b0dc9.pdf ; https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026164742_AGM_Proceedings_2025_26_signed.pdf",
+      "published": "2026-07-27 / 2026-07-29 / 2026-06-04 (May call transcript)"
+    },
+    "correctionsToCompanyJson": [
+      "Reporting date is 27-Jul-2026 (not early August).",
+      "Add EPS Rs 4.30 (Q1FY26 Rs 3.57) and PBT before exceptional Rs 261.3 cr (+9%).",
+      "Drop 'consumption of lower-cost opening inventory' from the gross-margin driver; deck cites price revisions, realisation and mix.",
+      "Add geographic split (South America 6%, Africa 4%, Asia ex-India 3%, Japan 2% of revenue) and branded/bulk shares.",
+      "Herbicides -8% and insecticides flat are ICICI Direct figures; the deck gives only metal phosphides +21% and AND&EHD +11%."
+    ]
+  },
+  "monsoonAndSector": {
+    "monsoon2026": {
+      "seasonTotal": {"period": "1-Jun to 30-Sep-2026", "actualMm": 759.4, "lpaMm": 868.6, "pctOfLpa": 87, "departurePct": -12.6, "classification": "Deficient (<90% of LPA); 4th lowest since 2001, 13th lowest since 1901", "src": "https://mausam.imd.gov.in/Forecast/marquee_data/Salient_Features_SW_MONSOON%20_2026_30_sep.pdf ; https://www.business-standard.com/india-news/india-monsoon-lowest-rainfall-one-decade-el-nino-impact-rains-126093000722_1.html ; https://www.uniindia.com/national/weather-monsoon-deficit/198635", "published": "2026-09-30"},
+      "monthlyPctOfLpa": {"june": 65, "july": 101, "august": 84, "september": 92, "augSep": 87, "caveat": "IMD's own text also gives June as 104 mm / -37%; Business Standard (14-Sep) gave -36.5%", "src": "https://mausam.imd.gov.in/Forecast/marquee_data/Salient_Features_SW_MONSOON%20_2026_30_sep.pdf", "published": "2026-09-30"},
+      "regionsPctOfLpa": {"northwest": 94, "central": 97, "eastNortheast": 74, "southPeninsula": 76, "note": "East & Northeast 1,016.3 mm = lowest since 1901; South Peninsula 542 mm = 4th lowest since 1901; monsoon core zone 779.9 mm, below normal band", "src": "https://mausam.imd.gov.in/Forecast/marquee_data/Salient_Features_SW_MONSOON%20_2026_30_sep.pdf", "published": "2026-09-30"},
+      "subdivisionsAndDistricts": {"subdivisionsExcess": 1, "subdivisionsNormal": 18, "subdivisionsDeficient": 17, "deficientAreaPct": 42, "districts": {"largeExcess": 16, "excess": 90, "normal": 312, "deficient": 282, "largeDeficient": 34, "noData": 7}, "src": "https://mausam.imd.gov.in/Forecast/marquee_data/Salient_Features_SW_MONSOON%20_2026_30_sep.pdf", "published": "2026-09-30"},
+      "worstSubdivisionsTo24Sep": {"arunachalPradesh": -42, "punjab": -41, "assamMeghalaya": -38, "marathwada": -37, "rayalaseema": -37, "bihar": -36, "southInteriorKarnataka": -32, "westRajasthan": -30, "src": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-24-09-2026-121.pdf", "published": "2026-09-24"},
+      "deficitPath": [
+        {"to": "2026-08-05", "departurePct": -11, "src": "https://eng.ruralvoice.in/kharif-sowing-trails-last-year-by-18-lakh-hectares-rainfall-11-pc-below-normal-reservoir-storage-also-under-pressure", "published": "2026-08-11"},
+        {"to": "2026-08-21", "departurePct": -13, "src": "https://eng.ruralvoice.in/india-kharif-sowing-trails-last-year-by-1.50-percent-as-rainfall-deficit-persists", "published": "2026-08-21"},
+        {"to": "2026-09-13", "departurePct": -15, "southPeninsulaPct": -28, "eastNortheastPct": -25, "src": "https://www.business-standard.com/india-news/monsoon-might-start-withdrawing-from-september-19-from-west-rajasthan-126091400690_1.html", "published": "2026-09-14"}
+      ],
+      "timing": {"keralaOnset": "2026-06-04", "withdrawalBegan": "2026-09-19 (2 days late)", "src": "https://mausam.imd.gov.in/Forecast/marquee_data/Salient_Features_SW_MONSOON%20_2026_30_sep.pdf", "published": "2026-09-30"},
+      "outlook": {"octoberRainfall": "Below 85% of LPA (LPA 75.4 mm)", "ondSouthPeninsula": "Normal, 88-112% of LPA (LPA 334.1 mm); most of the rest of India below normal", "elNino": "Strong and expected to strengthen to year-end; IOD neutral; WMO expects a very strong El Nino through Feb-2027", "rabiRisk": "IMD flags soil-moisture and reservoir-recharge risk for rabi", "src": "https://mausam.imd.gov.in/Forecast/marquee_data/Press_Release%20OND_30-09-2026.pdf ; https://www.deccanchronicle.com/nation/el-nio-to-persist-until-february-2027-what-it-means-for-india-1984818", "published": "2026-09-30 / 2026-09-04"},
+      "reservoirs": {"asOf": "2026-09-24", "reservoirs": 178, "storageBcm": 130.746, "pctOfCapacity": 70.76, "pctOfLastYear": 78.82, "pctOfNormal": 88.48, "southPctOfCapacity": 49.98, "southVsNormalPct": -33.22, "northVsNormalPct": -21.72, "stateVsNormalPct": {"andhraPradesh": -49.43, "telangana": -48.27, "tamilNadu": -40.83, "karnataka": -22.27}, "src": "https://rsms.cwc.gov.in/admin/storage/bulletins/bulletin-24-09-2026-121.pdf", "published": "2026-09-24"}
+    },
+    "kharifSowing": {
+      "normalFullSeasonLakhHa": 1104.46,
+      "progress": [
+        {"asOn": "2026-08-07", "totalLakhHa": 967.92, "lastYear": 985.89, "yoyPct": -1.82, "rice": 344.78, "riceLastYear": 360.67, "pulses": 103.78, "oilseeds": 180.20, "cotton": 106.01, "src": "https://eng.ruralvoice.in/kharif-sowing-trails-last-year-by-18-lakh-hectares-rainfall-11-pc-below-normal-reservoir-storage-also-under-pressure", "published": "2026-08-11"},
+        {"asOn": "2026-08-21", "totalLakhHa": 1056.70, "lastYear": 1072.77, "yoyPct": -1.50, "rice": 405.10, "riceLastYear": 418.29, "pulses": 113.63, "src": "https://eng.ruralvoice.in/india-kharif-sowing-trails-last-year-by-1.50-percent-as-rainfall-deficit-persists", "published": "2026-08-21"},
+        {"asOn": "2026-09-04", "totalLakhHa": 1086.31, "lastYear": 1104.00, "rice": 421.82, "riceLastYear": 438.19, "soybean": 121.82, "cotton": 109.17, "src": "https://dailypioneer.com/news/kharif-paddy-sowing-lags-3-7-amid-dip-in-karnataka-telangana", "published": "2026-09-09"},
+        {"asOn": "2026-09-11", "totalLakhHa": 1096.49, "lastYear": 1112.54, "yoyPct": -1.45, "vsFiveYearNormalPct": -0.72, "rice": 426.81, "riceLastYear": 443.78, "riceYoYPct": -4, "pulses": 118.46, "coarseCereals": 183.17, "oilseeds": 193.90, "cotton": 109.34, "cottonLastYear": 110.31, "note": "Urad, moong, soybean and cotton significantly below 5-year average (Business Standard)", "src": "https://dailypioneer.com/news/paddy-acreage-falls-4-per-cent-in-2026-kharif-season", "published": "2026-09-14"}
+      ],
+      "caveat": "News reports of Agriculture Ministry data; PIB releases not accessed; no release after 11-Sep found."
+    },
+    "sectorCommentaryAugSep2026": [
+      {"who": "Rallis India Q1 FY27 call", "date": "2026-07-21", "points": "Weak demand and sustained pricing pressure after aggressive March channel filling; 15-20% channel price hikes in Mar-May accepted only in June; channel inventory 'normalized now'; higher sales-return provisions expected, pre-emergent herbicides to be taken back in Q2; industry working capital up 15-20 days; raw materials 'significantly tapered down' from peak; FY27 industry growth 6-8%, price-led; Rallis Q1 volume +2%, price +5%", "src": "https://www.rallis.com/Upload/PDF/earnings-conference-call-transcript-q1-fy2026-27.pdf", "published": "2026-07 (call 21-Jul)"},
+      {"who": "PI Industries Q1 FY27 call", "date": "2026-08-12", "points": "High inventories from prior years; monsoon delay hit pre-placement; margin pressure from high input costs; domestic volume +12% but revenue +3%; price escalation only in generics", "src": "https://www.piindustries.com/wp-content/uploads/2026/08/Transcript-of-Q1-FY27-Earnings-conference-call.pdf", "published": "2026-08-18"},
+      {"who": "Dhanuka Agritech (secondary, SAHI)", "date": "2026-08-04", "points": "Q1 revenue -12.56%, volume -12.75%; FY27 guidance cut to low single-digit growth with ~200bp margin contraction", "src": "SAHI report of 4-Aug-2026 (URL not captured; secondary)", "published": "2026-08-04"},
+      {"who": "UPL", "date": "2026-08-04", "points": "India business +15% YoY with pricing offsetting monsoon volume softness; FY27 revenue guidance 7-11% kept", "src": "https://www.business-standard.com/markets/news/upl-stays-on-growth-path-despite-geopolitical-risks-demand-uncertainty-126080401612_1.html", "published": "2026-08-04"},
+      {"who": "Anand Rathi sector preview (via ANI/Tribune)", "date": "2026-07-10", "points": "March-May price hikes rolled back; sector Q1 revenue +3%, EBITDA -3%; sales shifted into Q2", "src": "Tribune/ANI report of 10-Jul-2026 (URL not captured)", "published": "2026-07-10"},
+      {"who": "360 ONE Capital (via ANI/Tribune)", "date": "2026-09-12", "points": "Channel inventories largely back to normal; pricing weakness 'structural'; El Nino a further demand risk", "src": "https://www.tribuneindia.com/news/business/indian-agrochemical-firms-may-benefit-from-volume-recovery-but-weak-pricing-competition-could-pressure-margins-report/", "published": "2026-09-12"}
+    ],
+    "regulatory": [
+      {"item": "Paraquat", "status": "Draft S.O. 3800(E) dated 10-Jul-2026 (public 13-Jul) proposed full ban on manufacture, import, sale and use; final S.O. 5234(E) dated 22-Sep-2026 prohibits registration and cancels registrations from Gazette publication (trade summary; Gazette text not seen). SCIL not named; seen as positive for glyphosate.", "src": "https://www.sahi.com (15-Jul-2026 report; exact URL not captured) ; worldtradescanner.com summary (page metadata 28-Sep-2026; exact URL not captured)", "published": "2026-07-15 / 2026-09-28"},
+      {"item": "Glyphosate", "status": "Registration Committee (30-Jul-2026) reportedly kept the restriction to pest-control operators; matter sub judice in Delhi HC. Low confidence: source page could not be opened.", "src": "global-agriculture.com report dated 13-Aug-2026 (not opened)", "published": "2026-08-13"},
+      {"item": "Pesticides Management Bill", "status": "No 2026 bill introduced or passed in the Monsoon Session (20-Jul to 13-Aug-2026); only the 2020 bill listed as pending.", "src": "https://prsindia.org/sessiontrack/monsoon-session-2026/session-wrap", "published": "2026-08 (exact date not verified)"}
+    ],
+    "q2Previews": "No Q2 FY27 agrochem previews dated on or before 30-Sep-2026 found (Nuvama/Elara previews are dated October and are post-cutoff)."
+  },
+  "events": {
+    "priceSnapshot": {
+      "close30Sep2026Rs": 433.25,
+      "close30Jun2026Rs": 420.85,
+      "quarterChangePct": 2.9,
+      "marketCapCr": 21625,
+      "marketCapNote": "derived: 433.25 x 49.9146 cr shares",
+      "high52wRs": 572.05, "high52wDate": "2026-08-17", "highestClose52wRs": 564.95, "highestCloseDate": "2026-08-14",
+      "low52wRs": 362.60, "low52wDate": "2026-03-30", "lowestClose52wRs": 364.45,
+      "drawdownFromPeakClosePct": -23.3,
+      "bseCrossCheck": "MarketsMojo (29-Sep-2026, BSE data) gives 52-week high Rs 572.55 and low Rs 363.30",
+      "method": "NSE intraday high/low from daily bhavcopies; window 1-Oct-2025 to 30-Sep-2026. Checked Oct-2025 (max high Rs 549.00), 16-Feb to 20-Apr-2026 and Jul-Sep-2026 day by day; other months corroborated by broker data sheets (52-week low Rs 363 in Jul/Aug notes) and MarketsMojo.",
+      "src": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_30092026.csv ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_17082026.csv ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_30032026.csv ; https://www.marketsmojo.com/news/stocks-in-action/sumitomo-chemical-india-ltd-faces-technical-momentum-shift-amid-market-pressure-4207671",
+      "published": "2026-09-30 / 2026-08-17 / 2026-03-30 / 2026-09-29"
+    },
+    "timeline": [
+      {"date": "2026-07-02", "event": "During Japan PM's India visit, Foreign Secretary Misri said Sumitomo Chemical and Tata Electronics are collaborating on local manufacturing of semiconductor materials (the item Anand Rathi's 20-Jul note links to)", "closeRs": 441.20, "changePct": 1.4, "src": "https://www.globalsecurity.org/wmd/library/news/india/2026/india-260703-india-meab02.htm ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_02072026.csv", "published": "2026-07-02"},
+      {"date": "2026-07-03", "event": "SCC's Korean unit Dongwoo Fine-Chem signs glass-core-substrate JV with Samsung Electro-Mechanics (SEMCO 66% / Dongwoo 34%); SCIL not a party", "highRs": 509.40, "closeRs": 502.30, "changePct": 13.8, "volumeShares": 29488311, "src": "https://tradebrains.in/why-did-sumitomo-chemical-india-shares-jump-11-today/ ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_03072026.csv", "published": "2026-07-03"},
+      {"date": "2026-07-10 to 2026-07-13", "event": "Rally, no company-specific trigger found", "closeRs": 531.90, "changePct": "+6.8% (10-Jul), +3.5% (13-Jul)", "src": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_10072026.csv ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_13072026.csv", "published": "2026-07-10 / 2026-07-13"},
+      {"date": "2026-07-17", "event": "Record date for FY26 final dividend Rs 1.30/share", "closeRs": 538.55, "src": "https://nsearchives.nseindia.com/corporate/SUMICHEM_17062026105623_Record_Date.pdf", "published": "2026-06-17"},
+      {"date": "2026-07-20", "event": "Anand Rathi raises TP to Rs 650 (40x FY28E) on semiconductor thesis", "closeRs": 540.65, "changePct": 0.4, "src": "https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/SUMICHEM_CU_200726.pdf ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_20072026.csv", "published": "2026-07-20"},
+      {"date": "2026-07-27", "event": "Q1 FY27 results (revenue +1%, EBITDA +6%, PAT +20% incl. Rs 26.9 cr insurance gain); 26th AGM; Ninad Gupte resignation effective 31-Aug filed", "highRs": 551.90, "closeRs": 538.85, "changePct": 3.5, "src": "https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026132520_Outcome_of_BM_DSC.pdf ; https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026133604_Signed_NDG_Resignation.pdf ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_27072026.csv", "published": "2026-07-27"},
+      {"date": "2026-07-28 to 2026-07-29", "event": "Post-results selloff; ICICI Direct maintains BUY Rs 625 (29-Jul)", "closeRs": 501.70, "changePct": "-1.9% (28-Jul), -5.1% (29-Jul)", "src": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_29072026.csv ; https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_sumitomochemicals_q1fy27.pdf", "published": "2026-07-29"},
+      {"date": "2026-08-10", "event": "ICICI Direct Shubh Nivesh reiteration (BUY Rs 625); Motilal Oswal group meet for 19-Aug intimated", "closeRs": 561.25, "changePct": 5.3, "src": "https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_sumitomochemicals_%20shubhnivesh_aug26.pdf ; https://nsearchives.nseindia.com/corporate/SUMICHEM_10082026110510_AnalystMeet_19_08_2026.pdf ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_10082026.csv", "published": "2026-08-10"},
+      {"date": "2026-08-14 / 2026-08-17", "event": "52-week (and quarter) peak: highest close 14-Aug, intraday high 17-Aug; no company-specific catalyst reported", "closeRs": 564.95, "highRs": 572.05, "src": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_14082026.csv ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_17082026.csv", "published": "2026-08-14 / 2026-08-17"},
+      {"date": "2026-09-01", "event": "Dr Suresh Ramachandran takes over as MD; Chetan Shah becomes Non-Executive Non-Independent Director", "closeRs": 514.20, "changePct": -0.6, "src": "https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026164742_AGM_Proceedings_2025_26_signed.pdf ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_01092026.csv", "published": "2026-07-27 / 2026-09-01"},
+      {"date": "2026-09-03", "event": "Elara 1x1/group investor meetings in Mumbai (intimated 25-Aug); no presentation filed", "src": "https://nsearchives.nseindia.com/corporate/SUMICHEM_25082026110033_Analyst_Meet_03_09_2026.pdf", "published": "2026-08-25"},
+      {"date": "2026-09-15", "event": "Sharp fall, no trigger found (14-Sep market holiday)", "closeRs": 451.95, "changePct": -5.1, "src": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_15092026.csv", "published": "2026-09-15"},
+      {"date": "2026-09-18 / 2026-09-19", "event": "Tata Electronics release (18-Sep) and SCC release (19-Sep): MoU to explore collaboration on semiconductor materials in India, incl. 'potential establishment of a semiconductor chemicals facility in India'. Signed by the parent; SCIL not mentioned; no SCIL exchange filing.", "closeRs": 460.85, "changePct": "+1.2% (18-Sep); -1.4% next session (21-Sep, Rs 454.55)", "src": "https://www.sumitomo-chem.co.jp/english/news/detail/20260919e.html ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_18092026.csv ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_21092026.csv", "published": "2026-09-18 / 2026-09-19"},
+      {"date": "2026-09-22", "event": "Government final order S.O. 5234(E) on paraquat (registration prohibited/cancelled)", "src": "worldtradescanner.com summary (metadata 28-Sep-2026; URL not captured)", "published": "2026-09-28"},
+      {"date": "2026-09-24 to 2026-09-30", "event": "Drift lower into quarter-end as IMD confirms a deficient monsoon (30-Sep)", "closeRs": 433.25, "changePct": "-3.1% (24-Sep); close Rs 433.25 on 30-Sep", "src": "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_24092026.csv ; https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_30092026.csv", "published": "2026-09-24 / 2026-09-30"}
+    ],
+    "filingsNote": "NSE announcements 1-Jul to 30-Sep-2026 (11 filings) contain no price-movement clarification, credit-rating action or MoU-related filing; none in September. BSE-only filings and bulk/block deals not checked (BSE API blocked)."
+  },
+  "holders": {
+    "pattern": "Jun-2026 (quarter ended 30-Jun-2026) - latest public on 30-Sep-2026; Sep-2026 pattern was filed in October and is excluded",
+    "categoriesPct": {"promoter": 75.00, "fii": 3.02, "dii": 9.33, "mutualFunds": 7.27, "insurance": 0.82, "banks": 0.01, "public": 12.65, "pledgedPromoter": 0},
+    "counts": {"shareholders": 110464, "mfSchemes": 30, "fpiCatIHolders": 98, "fpiCatIIHolders": 11, "insuranceCompanies": 7, "retailUpToRs2Lakh": 105344, "hniAboveRs2Lakh": 269},
+    "publicDetailPct": {"fpiCatI": 2.75, "fpiCatII": 0.27, "retailUpToRs2Lakh": 6.28, "hniAboveRs2Lakh": 2.84, "bodiesCorporate": 1.37, "nri": 0.54, "trusts": 0.52, "iepf": 0.46, "huf": 0.45},
+    "named": [
+      {"name": "Sumitomo Chemical Co. Ltd (promoter)", "pct": 75.00, "shares": 374359302},
+      {"name": "Aditya Birla Sun Life Flexi Cap Fund", "pct": 2.28, "shares": 11395387},
+      {"name": "Edelweiss Mid Cap Fund", "pct": 1.24, "shares": 6175957},
+      {"name": "HSBC Small Cap Fund", "pct": 1.09, "shares": 5426721}
+    ],
+    "notAbove1PctInJun2026": "No FPI held >=1% in Jun-2026 (Clarus Capital I appears at 1.04% only in the Sep-2026 pattern).",
+    "trend": {"periods": ["Jun 2025", "Sep 2025", "Dec 2025", "Mar 2026", "Jun 2026"], "fiiPct": [3.65, 3.65, 3.37, 3.41, 3.02], "diiPct": [8.15, 8.47, 8.65, 8.98, 9.33], "mfPct": [6.16, 6.56, 6.53, 6.88, 7.27], "publicPct": [13.19, 12.88, 12.97, 12.60, 12.65], "shareholders": [124950, 115793, 114878, 111892, 110464]},
+    "evidenceOfPreCutoffPublication": "ICICI Direct's 29-Jul-2026 note already shows the Jun-26 pattern (Promoter 75.0, FII 3.0, DII 9.3, Other 12.7).",
+    "src": "https://trendlyne.com/equity/share-holding/182906/SUMICHEM/2026-06-30/sumitomo-chemical-india-ltd/ ; https://www.screener.in/api/3/1274728/investors/domestic_institutions/quarterly/ ; https://www.screener.in/company/SUMICHEM/consolidated/ ; https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_sumitomochemicals_q1fy27.pdf",
+    "published": "Jun-2026 shareholding pattern filed with exchanges in Jul-2026 (exact filing date not captured; public by 29-Jul-2026); aggregator pages read 2026-11-13"
+  },
+  "gaps": [
+    "ICICI Securities 29-May-2026 note (BUY Rs 580): valuation method, multiples, FY27E/FY28E EPS and any consensus table not seen (PDF behind Trendlyne login). No ICICI Securities Q1 FY27 note found.",
+    "Anand Rathi: no Q1 FY27 result update found; the standing Rs 650 call predates Q1 results. A late-Oct article implies a pre-Q2 FY28E EPS of ~15.5 (vs 16.0 in the 20-Jul note), suggesting an unindexed revision between Jul and Oct; not verified.",
+    "Elara: no SUMICHEM note after 9-Apr-2026 found (no Q4FY26/Q1FY27 result update); valuation method/multiple not disclosed in the sector previews.",
+    "No vendor consensus (Bloomberg/S&P/Refinitiv) FY27E/FY28E EPS or revenue dated Jul-Sep 2026; the only dated Bloomberg table is from 10/13-Apr-2026. Trendlyne 22-Jul-2026 Wayback figure (avg TP Rs 565, 9 analysts) could not be re-verified (archive HTTP 429).",
+    "Analyst count/average target for Aug-Sep 2026 not found (no Wayback captures of StockAnalysis, MarketScreener, Investing.com, Tickertape or Trendlyne consensus pages between 22-Jul and 30-Sep).",
+    "No management interviews (TV/print) dated Aug-Sep 2026 found; no Q1 call held.",
+    "Triggers for the 10-13 Jul, 10-Aug, 15-Sep and 29-Jul price moves not identified.",
+    "Bulk/block deals and BSE-only filings for Jul-Sep 2026 not checked (BSE API blocked; NSE deals API errored).",
+    "52-week high/low checked day-by-day only for Oct-2025, 16-Feb to 20-Apr-2026 and Jul-Sep-2026; other months rely on broker data sheets and MarketsMojo (BSE 572.55/363.30).",
+    "Exact URLs not captured for: Tata Electronics 18-Sep-2026 press release, SAHI paraquat/Dhanuka reports, Tribune/ANI 10-Jul Anand Rathi sector preview, worldtradescanner paraquat summary; glyphosate Registration Committee report (13-Aug) could not be opened.",
+    "Paraquat final order S.O. 5234(E) (22-Sep-2026) Gazette text not seen; scope (registration-only vs sale/use) per trade summary only.",
+    "Kharif sowing: no Agriculture Ministry release after 11-Sep-2026 found; PIB primary releases not accessed.",
+    "No Q2 FY27 agrochem sector previews dated on or before 30-Sep-2026 found.",
+    "Exact filing date of the Jun-2026 shareholding pattern not captured (public by 29-Jul-2026).",
+    "Pre-cutoff source for 'EBITDA margin at or above 20%' aim and the 'Good to Great' programme not found (absent from May-2026 transcript and AR2026); treated as Oct-2026 material.",
+    "Chetan Shah's appointment as Board Chairman: no source dated on or before 30-Sep-2026 confirms it.",
+    "initiation.json, assumptions.json and segments.json were not reviewed for post-cutoff content (out of scope of this pass)."
+  ]
+}

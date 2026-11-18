@@ -1,0 +1,599 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Godrej Agrovet (consolidated, Rs crore). Built by reported segment: Animal Nutrition, Vegetable Oil (oil palm), Crop Care (standalone, i.e. the consolidated Crop Care segment less Astec), Astec LifeSciences (67.03%-owned, listed), Dairy (Creamline), Poultry & processed foods (Godrej Foods) and Others, plus a line that removes inter-segment sales. Segment EBITDA = segment result (PBIT) + segment D&A from the Ind AS 108 note; group EBITDA = sum of segments less central costs, on Screener's basis (other income below EBITDA). History is attributable to owners (Screener Net Profit replaced by Profit for EPS, see tools/authoring/GODREJAGRO.patch.js). Valued on sum of the parts, as the street does (Motilal Oswal Aug-2026, ICICI Securities): each business on Sep-28E EV/EBITDA, Astec at market value less a 20% holding-company discount, the ACI Godrej JV on P/E, less net debt.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "an",
+   "name": "Animal Nutrition",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 4941.54,
+   "growth": [
+    11,
+    9,
+    8
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    8,
+    8,
+    8.1
+   ],
+   "hist": {
+    "driver": "anRev",
+    "revenue": "anRev",
+    "adjEbitda": "anEbitda"
+   },
+   "_why": "FY26 revenue +3% on volume +12% (16.5 lakh t; cattle feed +18%) and lower realisations; Q1FY27 revenue +12.6% on volume +7% (cattle feed +15%, fish +20%; poultry cut by choice) and realisations +5% as maize rose. Guidance (May/Aug-2026): double-digit, volume-led revenue growth. FY27 +11%, FY28 +9% (volume ~8%, price ~1%), FY29 +8%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin 5.2% (FY20), 7.6% (FY21), 6.5% (FY22), 4.6% (FY23), 5.9% (FY24), 7.5% (FY25), 8.3% (FY26, incl. ~Rs9.5 cr of pet-food manufacturing income in Q4 and favourable commodity positions). Reported segment result per tonne Rs2,108 in FY26; guidance Rs2,050-2,150 per tonne (Aug-2026). Supplier-financing cost now sits in this segment (Q1FY27 reported 6.4% EBIT margin vs 7.8% underlying). 8.0-8.1% keeps EBIT per tonne at ~Rs2,050-2,100, the guided range, not the FY26 Q4 spike."
+  },
+  {
+   "key": "veg",
+   "name": "Vegetable Oil (oil palm)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1997.76,
+   "growth": [
+    18,
+    6,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    20.5,
+    19.5,
+    19.5
+   ],
+   "hist": {
+    "driver": "vegRev",
+    "revenue": "vegRev",
+    "adjEbitda": "vegEbitda"
+   },
+   "_why": "Revenue incl. ~Rs90 cr of trading. FY26 +39% (FFB +19%, OER +70 bp, CPO realisation +9%, PKO +47%); Q1FY27 +29% (CPO Rs1,34,783/t, +18%; FFB flat after the driest June in decades). Guidance: FFB volume high single to early double digit a year for 4-5 years (area 80,000 ha to ~1,50,000 ha; ~50% of trees still juvenile), specialty-fats refinery from H2FY27. FY27 +18% (price + ~9% volume); FY28 +6% (volume +10%, CPO price assumed to ease from war-time levels); FY29 +10%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin 17.4% (FY20), 15.4% (FY21), 21.3% (FY22), 21.5% (FY23), 17.1% (FY24), 18.8% (FY25), 21.4% (FY26). Q1FY27 segment result margin 16.7% vs 18.9% (state pricing-formula change). Margin is price-linked: farmers are paid by a formula tied to CPO prices, so the company keeps a share of each price move. 20.5% in FY27 (high CPO), 19.5% in FY28-29 (price eases; OER and scale offset; downstream fats add little before FY29)."
+  },
+  {
+   "key": "cc",
+   "name": "Crop Care (standalone)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 740.31,
+   "growth": [
+    3,
+    12,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    28,
+    30,
+    30
+   ],
+   "hist": {
+    "driver": "ccRev",
+    "revenue": "ccRev",
+    "adjEbitda": "ccEbitda"
+   },
+   "_why": "Consolidated Crop Care segment less Astec (= standalone crop care net of sales between Astec and GAVL). Standalone revenue Rs764 cr (FY25), Rs772 cr (FY26, +1%); Q1FY27 -17% (cotton herbicide volumes after a 40% June rain deficit). New products (Ashitaka maize herbicide, Takai insecticide, Ghassnash soybean herbicide) were ~18-20% of Q1 sales; management will give FY27 guidance only after September. FY27 +3% (H2 on a weak base), FY28 +12%, FY29 +10% as the portfolio diversifies.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin on this basis 30.3% (FY20), 28.5% (FY21), 23.1% (FY22), 16.4% (FY23), 35.0% (FY24), 43.3% (FY25), 32.8% (FY26). Standalone EBIT margin 40.3% (FY25), 29.1% (FY26), 31.7% (Q1FY27 vs 42.2%). Management targets a 26-27% standalone EBIT margin for FY27 (~29-30% on our basis). We take 28% for FY27 (weak Q1, monsoon still erratic in Q2) and 30% for FY28-29: in-licensed products earn less than in-house Hitweed, so the 40%+ of FY25 does not come back."
+  },
+  {
+   "key": "ast",
+   "name": "Astec LifeSciences (67.03%)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 448,
+   "growth": [
+    15,
+    15,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    3,
+    7,
+    9
+   ],
+   "hist": {
+    "driver": "astRev",
+    "revenue": "astRev",
+    "adjEbitda": "astEbitda"
+   },
+   "_why": "Astec (Screener consolidated): revenue Rs628 cr (FY23), Rs458 cr (FY24), Rs381 cr (FY25), Rs448 cr (FY26); Q1FY27 Rs83 cr (-9%). Astec guided >20% growth for FY27 on CDMO orders shifting to H2 (Aug-2026); we take 15%, 15%, 12%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Operating profit margin 16.3% (FY20), 20.2% (FY21), 22.7% (FY22), 12.3% (FY23), -1.3% (FY24), -17.3% (FY25), -0.9% (FY26; company EBITDA +Rs1 cr); Q1FY27 break-even. 3% / 7% / 9%: a slow recovery as CDMO utilisation rises; still far below the FY21-22 peak."
+  },
+  {
+   "key": "dairy",
+   "name": "Dairy (Creamline)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1589.02,
+   "growth": [
+    9,
+    8,
+    8
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    2.5,
+    3.5,
+    4
+   ],
+   "hist": {
+    "driver": "dairyRev",
+    "revenue": "dairyRev",
+    "adjEbitda": "dairyEbitda"
+   },
+   "_why": "Revenue Rs1,501 cr (FY23), Rs1,573 cr (FY24), Rs1,585 cr (FY25), Rs1,589 cr (FY26); Q1FY27 +11.4% (volume +8%; value-added products 49% of sales vs 42%). Route-to-market reset over 18-20 months under a new CEO. FY27 +9%, FY28-29 +8%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin 2.6% (FY20), 3.7% (FY21), 0.4% (FY22), -0.8% (FY23), 4.2% (FY24), 5.0% (FY25), 3.6% (FY26, incl. land-sale gains); Q1FY27 company EBITDA margin 1.5% (milk procurement prices up, war-led packaging inflation; ~70% of cost passed on). 2.5% / 3.5% / 4.0%."
+  },
+  {
+   "key": "food",
+   "name": "Poultry & processed foods (Godrej Foods)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 768.13,
+   "growth": [
+    4,
+    8,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    5,
+    6,
+    6.5
+   ],
+   "hist": {
+    "driver": "foodRev",
+    "revenue": "foodRev",
+    "adjEbitda": "foodEbitda"
+   },
+   "_why": "Revenue Rs1,003 cr (FY23), Rs986 cr (FY24), Rs826 cr (FY25), Rs768 cr (FY26) as live-bird trading is cut 15-20% a year; branded B2C (Yummiez, Real Good Chicken) ~32% of the business, growing ~20% in value. Q1FY27 +0.7%. FY27 +4%, FY28 +8%, FY29 +10% as branded outgrows the live-bird decline.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin -9.3% (FY20), 6.9% (FY21), 2.8% (FY22), 3.4% (FY23), 6.5% (FY24), 6.0% (FY25), 6.5% (FY26); Q1FY27 company EBITDA margin 2.6% (input costs, advertising behind new products). Management: 3-4 years of investment (EBITDA plus advertising). 5.0% / 6.0% / 6.5%."
+  },
+  {
+   "key": "oth",
+   "name": "Others (seeds, cattle genetics, windmills, real estate)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 157.42,
+   "growth": [
+    5,
+    5,
+    5
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    2,
+    2,
+    2
+   ],
+   "hist": {
+    "driver": "othRev",
+    "revenue": "othRev",
+    "adjEbitda": "othEbitda"
+   },
+   "_why": "Other businesses Rs54.6 cr (FY23) to Rs157.4 cr (FY26); seeds and cattle genetics are under strategic review. +5% a year.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA -Rs2.8 cr (FY25), +Rs2.8 cr (FY26): 2%."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-segment eliminations",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": -409.5,
+   "growth": [
+    8,
+    8,
+    8
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elimRev",
+    "revenue": "elimRev",
+    "adjEbitda": "elimEbitda"
+   },
+   "_why": "Sales between segments (mainly oil and feed ingredients) removed on consolidation: Rs637 cr (FY23), Rs565 cr (FY24), Rs474 cr (FY25), Rs410 cr (FY26). Grows with the group: +8%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Inter-segment profit is not separately disclosed: modelled at zero."
+  }
+ ],
+ "unallocated": [
+  300,
+  310,
+  320
+ ],
+ "_unallocLabel": "Central costs and other income inside segment results (sum of segment EBITDA less Screener EBITDA)",
+ "_unallocWhy": "Sum of segment EBITDA less Screener EBITDA: Rs173 cr (FY23), Rs188 cr (FY24), Rs187 cr (FY25), Rs323 cr (FY26). It holds (a) unallocated corporate expenditure net of corporate income (Rs83 cr FY23, Rs166 cr FY24, Rs168 cr FY25, Rs240 cr FY26: strategy reset, SAP, wage code) and (b) other income booked inside segment results that Screener shows below EBITDA (FY26: land-sale gains ~Rs34 cr, pet-food manufacturing income ~Rs9.5 cr). We assume Rs300-320 cr: corporate costs stay at the FY26 level and segment other income normalises.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  400,
+  350,
+  350
+ ],
+ "_capexWhy": "Capex Rs359 cr (FY23), Rs384 cr (FY24), Rs225 cr (FY25), Rs297 cr (FY26, cash). Guidance: \"close to Rs400 crores\" in FY27 (May-2026), then Rs300-350 cr a year from internal accruals, ~75-80% growth capex and ~50% oil palm (integrated palm complex, specialty-fats refinery, nurseries).",
+ "depRateOnGrossBlock": 5.5,
+ "_depWhy": "FY26 D&A Rs229 cr = 5.4% of average gross block (Rs4,268 cr, incl. Rs320 cr of brands/goodwill that are not amortised); Q1FY27 Rs57 cr. 5.5% gives ~Rs250 cr / ~Rs270 cr / ~Rs290 cr as the new oil-palm assets are capitalised.",
+ "treasuryYield": [
+  7,
+  7,
+  7
+ ],
+ "_treasuryWhy": "The group has net debt (Mar-26: borrowings Rs1,574 cr incl. Rs106 cr leases, cash Rs302 cr, investments Rs115 cr incl. the ACI JV at Rs91 cr), so the treasury yield earns nothing in the model; interest is entered separately.",
+ "otherIncome": [
+  115,
+  125,
+  135
+ ],
+ "_otherIncomeWhy": "Screener other income (normal) Rs70 cr (FY23), Rs93 cr (FY24), Rs97 cr (FY25), Rs106 cr (FY26); Q1FY27 Rs27 cr. It includes the share of the ACI Godrej JV (Rs32 cr FY23, Rs52 cr FY24, Rs54 cr FY25, Rs40 cr FY26 after Bangladesh raised the tax rate to 27.5%), interest and dividends (~Rs18 cr) and other income inside segment results (pet-food manufacturing, scrap, grants). Rs115 / 125 / 135 cr as the JV recovers (Q1FY27 PBT +12%) and pet-food income runs for a full year.",
+ "interest": [
+  125,
+  115,
+  105
+ ],
+ "_interestLabel": "Finance cost",
+ "_interestWhy": "Finance cost Rs99 cr (FY23), Rs108 cr (FY24), Rs133 cr (FY25), Rs138 cr (FY26); Q1FY27 Rs30 cr. Debt rose to fund the Rs718 cr Creamline buyout (Q1FY26) but part of the working capital moved to supplier financing (whose cost sits in Animal Nutrition costs). Rs125 cr in FY27, falling as free cash flow (~Rs100-125 cr surplus after capex guided for FY27) repays debt.",
+ "taxRate": [
+  23.4,
+  24.9,
+  25.8
+ ],
+ "_taxWhy": "Underlying tax ~26% (FY25 27%, FY26 27%; Q1FY27 29% incl. a deferred-tax remeasurement; statutory 25.17%; Astec losses get no credit). The tax line also carries minorities (engine workaround): 32.97% of Astec's loss is borne by its other shareholders, which RAISES profit attributable to GAVL. Astec loss assumed ~Rs55 cr / ~Rs31 cr / ~Rs10 cr (FY27-29E), minorities' share ~Rs18 cr / ~Rs10 cr / ~Rs3 cr. So the line = 26% less those amounts as a share of PBT. Model EPS = profit attributable to owners / 19.23 cr shares.",
+ "payout": [
+  45,
+  45,
+  45
+ ],
+ "_payoutWhy": "Dividend Rs10 (FY24), Rs11 (FY25), Rs11 (FY26) a share: 45-53% of EPS. Management: \"consistently good dividend... range of 48-odd percent\", decided each year. 45%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5.5,
+  "years": 12,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 9,
+  "fadeCapexPctTo": 2.8,
+  "depPctOfSales": 2.2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at one rate (cost of equity = WACC). GAVL has modest net debt (~Rs1,160 cr vs ~Rs12,000 cr market value, ~9% of capital). Cost of equity ~12.5% (beta 1.0: commodity-linked feed and palm oil, monsoon-dependent crop care) weighted ~91%, post-tax cost of debt ~6% weighted ~9% = ~11.9%, which beta 0.9 produces.",
+  "_tgWhy": "Feed, edible oil, dairy and protein demand grow with nominal food consumption: 5.5% nominal.",
+  "_fadeGrowthWhy": "Revenue growth fades to 8% by year 12 (volume 4-5% plus price).",
+  "_fadeMarginWhy": "Group EBITDA margin was 6-9% in FY20-26 (8.4% in FY26); 9% long run as oil palm and branded foods grow in the mix.",
+  "_fadeCapexWhy": "Capex 2.8% of revenue long run (FY22-26 average ~3.4%), depreciation 2.2% of revenue (FY26 2.2%).",
+  "_yearsWhy": "12-year explicit/fade period: oil-palm plantations take 4-8 years to mature."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "CPO stays near war-time prices and FFB grows double digit; Crop Care's new products restore a 30%+ EBIT margin quickly; Astec's CDMO orders lift it back to high-single-digit margins; milk costs ease so Creamline earns 5%+.",
+   "fadeMarginTo": 10,
+   "segments": {
+    "an": {
+     "growthDelta": 2,
+     "marginDelta": 0.5
+    },
+    "veg": {
+     "growthDelta": 3,
+     "marginDelta": 1.5
+    },
+    "cc": {
+     "growthDelta": 4,
+     "marginDelta": 2.5
+    },
+    "ast": {
+     "growthDelta": 5,
+     "marginDelta": 3
+    },
+    "dairy": {
+     "marginDelta": 1.5
+    },
+    "food": {
+     "marginDelta": 1.5
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "CPO prices fall back to pre-war levels (or import duties are cut again) while the farmer price formula holds; another poor monsoon keeps cotton-herbicide volumes down; Astec stays loss-making; milk procurement costs stay high.",
+   "fadeMarginTo": 8,
+   "segments": {
+    "an": {
+     "growthDelta": -2,
+     "marginDelta": -0.7
+    },
+    "veg": {
+     "growthDelta": -6,
+     "marginDelta": -3
+    },
+    "cc": {
+     "growthDelta": -5,
+     "marginDelta": -3
+    },
+    "ast": {
+     "growthDelta": -8,
+     "marginDelta": -3
+    },
+    "dairy": {
+     "marginDelta": -1
+    },
+    "food": {
+     "marginDelta": -1
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 10,
+  "parts": [
+   {
+    "name": "Animal Nutrition",
+    "seg": "an",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 11,
+     "bull": 13,
+     "bear": 9
+    },
+    "note": "India's largest compound cattle-feed maker; volume +12% (FY26), EBIT per tonne guided at ₹2,050-2,150; commodity-linked margins (5-8%). Peers at 30-Sep-2026: Avanti Feeds 10.9x trailing EV/EBITDA, Venky's 8.1x; Motilal Oswal 10x. 11x = the derived group multiple (11.5x) less a little for commodity exposure."
+   },
+   {
+    "name": "Vegetable Oil (oil palm)",
+    "seg": "veg",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 11,
+     "bull": 13,
+     "bear": 9
+    },
+    "note": "Largest Indian crude palm oil producer: structural volume growth (area to ~1.5 lakh ha, half the trees still juvenile), ~66% segment ROCE, but margins move with CPO prices and FY26-27 prices are war-inflated. Peers: AWL 8.0x (refiner), Patanjali Foods 19.2x; Motilal Oswal 10x. 11x: growth offsets price cyclicality."
+   },
+   {
+    "name": "Crop Care (standalone)",
+    "seg": "cc",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 12,
+     "bull": 14,
+     "bear": 10
+    },
+    "note": "High-margin (30%+) branded domestic crop protection, but concentrated in cotton herbicide and down two years running. Peers: Dhanuka 9.9x, Rallis 8.9x, Bayer CropScience 14.1x, PI Industries 18.1x trailing; Motilal Oswal 10x. 12x: premium margins, discounted for concentration."
+   },
+   {
+    "name": "Dairy (Creamline)",
+    "seg": "dairy",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 14,
+     "bull": 16,
+     "bear": 12
+    },
+    "note": "Creamline (Godrej Jersey), South India; EBITDA margin 2-5% vs peers' 6-8%. Peers: Heritage Foods 14.4x, Dodla Dairy 17.2x trailing; Motilal Oswal 11x. 14x on depressed Sep-28E EBITDA (3.8% margin): below listed dairy peers because returns are ~5%."
+   },
+   {
+    "name": "Godrej Foods",
+    "seg": "food",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 12,
+     "bull": 14,
+     "bear": 10
+    },
+    "note": "Godrej Foods (Real Good Chicken, Yummiez): branded B2C growing ~20%, live-bird trading being wound down; thin margins while it invests. Peer: Venky's 8.1x; Motilal Oswal 11x. 12x: a branded-foods premium to Venky's, held back by 5-6% margins."
+   },
+   {
+    "name": "Others",
+    "seg": "oth",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 5,
+     "bull": 6,
+     "bear": 4
+    },
+    "note": "Seeds, cattle genetics, windmills: small and under strategic review; low multiple."
+   },
+   {
+    "name": "Central costs (net of other income inside segments)",
+    "unalloc": true,
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E central costs × the blended operating multiple",
+    "multiple": {
+     "base": 11.4,
+     "bull": 13.4,
+     "bear": 9.4
+    },
+    "note": "Valued at the EBITDA-weighted average of the operating multiples, so the businesses are valued after their share of head-office cost."
+   },
+   {
+    "name": "Astec LifeSciences: 67.03% at market value less holding-company discount",
+    "adj": {
+     "base": 869,
+     "bull": 977,
+     "bear": 760
+    },
+    "metricLabel": "67.03% × ₹1,620 cr market value (₹722.75 × 2.24 cr shares on 30-Sep-2026) × (1 − discount)",
+    "note": "Street method (Motilal Oswal: market value less 20%). Discount 20% base, 10% bull, 30% bear. Astec's EBITDA is therefore not valued again and its 32.97% minority is not deducted again."
+   },
+   {
+    "name": "Add back: Astec net debt inside consolidated net debt",
+    "adj": {
+     "base": 437,
+     "bull": 437,
+     "bear": 437
+    },
+    "metricLabel": "Astec Mar-26 borrowings ₹449 cr − cash ₹12 cr",
+    "note": "Astec's market value is already after its own debt; the consolidated net debt below includes it, so we add it back to avoid deducting it twice."
+   },
+   {
+    "name": "ACI Godrej Agrovet (Bangladesh JV, 50%) on P/E",
+    "adj": {
+     "base": 482,
+     "bull": 563,
+     "bear": 402
+    },
+    "metricLabel": "GAVL's FY26 share of JV profit ₹40.18 cr × P/E 12x (bull 14x, bear 10x)",
+    "note": "Equity-accounted, unlisted; profit ₹110 cr (FY25) and ₹80 cr (FY26, 100%) as Bangladesh raised its tax rate; pays dividends. Motilal Oswal uses 11x EV/EBITDA."
+   },
+   {
+    "name": "Less: ACI JV at book (inside model net cash)",
+    "adj": {
+     "base": -91.49,
+     "bull": -91.49,
+     "bear": -91.49
+    },
+    "metricLabel": "Carrying amount at Mar-26 (AR FY26 note 55A)",
+    "note": "The model's net cash counts investments (incl. the JV at book) as cash; the JV is valued separately above."
+   },
+   {
+    "name": "Net debt at Sep-27E (model: cash and investments less borrowings incl. leases)",
+    "netCash": true,
+    "roll": [
+     "FY27E",
+     "FY28E",
+     0.5
+    ],
+    "metricLabel": "½ Mar-27E + ½ Mar-28E",
+    "note": "Mar-26: cash ₹302 cr + investments ₹115 cr − borrowings ₹1,574 cr (incl. ₹106 cr leases) = −₹1,157 cr."
+   }
+  ],
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values Godrej Agrovet (Motilal Oswal Aug-2026, ICICI Securities): six businesses with very different economics, a listed loss-making subsidiary and an unlisted JV."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 22.7,
+      "bull": 26.5,
+      "bear": 18
+     },
+     "why": "House rule: the stock's one-year-forward P/E median since Apr-2021 is 26.5x (no trough years), cut by the 14% median de-rating of 12 feed, dairy, edible-oil and crop-protection peers at 30-Sep-2026 = 22.7x; bull 26.5x (no de-rating), bear 18x (the stock's FY28-window level). Applied to Sep-28E EPS."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 12-year FCFF at ~11.9% WACC (beta 0.9), terminal growth 5.5%, EBITDA margin fading to 9%, plus model net debt."
+    }
+   ]
+  }
+ }
+}

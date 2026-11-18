@@ -1,0 +1,172 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Paradeep Phosphates (consolidated incl. MCFL, ₹ crore). One reported segment, so the engine runs on revenue growth and EBITDA margin; both come from the business build below (tonnes sold × revenue per tonne; EBITDA per tonne), which the authoring script checks against the model. EBITDA is Screener's basis (excludes other income), ~₹50-100/t below the company's 'EBITDA per tonne', which includes other income. Net-debt company: no treasury yield, explicit finance cost. Valued on Sep-28E P/E (the street's latest method), with EV/EBITDA and DCF (at a WACC) as cross-checks.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "build": {
+  "volumeMt": [
+   4.35,
+   4.55,
+   4.8
+  ],
+  "manufacturedMt": [
+   3.4,
+   3.85,
+   4.05
+  ],
+  "tradedMt": [
+   0.95,
+   0.7,
+   0.75
+  ],
+  "revPerTonne": [
+   61000,
+   58000,
+   58000
+  ],
+  "ebitdaPerTonne": [
+   4900,
+   5400,
+   5800
+  ],
+  "_why": "Volumes: FY26 4.21 mt (manufactured 3.57, traded 0.64); Q1FY27 0.985 mt (+4.7%; manufactured 0.86, traded 0.13). FY27: plants run near 70% of phosphoric-acid capacity while sulphur and ammonia are scarce, so manufactured volume slips to ~3.40 mt despite the 0.3 mt granulation debottleneck from Dec-2026; ~0.5 mt of imports secured for rabi lift traded volume to ~0.95 mt. FY28: capacity 4.0 mt and phosphoric acid 0.7 mt from Aug-Sep 2027, manufactured 3.85 mt, trading back to ~0.70 mt. FY29: manufactured 4.05 mt (the debottlenecked 4.0 mt run fully plus a little from the 1.0 mt granulation train, guided for around Q2FY29-FY30), traded 0.75 mt. Revenue per tonne: FY26 ₹51,845, Q1FY27 ₹62,165 (NPK prices +₹400-500 a bag, Kharif NBS +10%, more DAP and imports); FY27 ₹61,000; FY28-29 ₹58,000 as input prices ease partly. EBITDA per tonne (Screener basis): FY25 ₹4,120, FY26 ₹5,245, Q1FY27 ₹7,309 on low-cost stock. FY27 ₹4,900, a touch under management's 'realistic ~₹5,000', because Q2 buys sulphur at $1,000+ and acid at $1,700 against an unchanged Kharif subsidy, rabi rates were unknown and trading (~₹2,000/t) is a bigger share. FY28 ₹5,400 (phase-1 acid, Goa energy savings, debottlenecked volumes) and FY29 ₹5,800: well short of management's ₹6,500-7,000+ after full integration, which needs the big project and normal raw-material prices."
+ },
+ "revenueGrowth": [
+  21.57,
+  -0.55,
+  5.49
+ ],
+ "_revenueWhy": "From the build: 4.35 mt × ₹61,000 = ₹26,535 cr (FY27E, +21.6%); 4.55 mt × ₹58,000 = ₹26,390 cr (FY28E, −0.5%); 4.80 mt × ₹58,000 = ₹27,840 cr (FY29E, +5.5%). Price, not volume, drives FY27; volume drives FY29.",
+ "ebitdaMargin": [
+  8.03,
+  9.31,
+  10
+ ],
+ "_marginWhy": "EBITDA per tonne ÷ revenue per tonne: ₹4,900 / ₹61,000 = 8.0%; ₹5,400 / ₹58,000 = 9.3%; ₹5,800 / ₹58,000 = 10.0%. Screener EBITDA margin: 5.8% (FY24, PPL alone), 9.3% (FY25), 10.1% (FY26), 11.8% (Q1FY27).",
+ "capex": [
+  800,
+  1600,
+  1500
+ ],
+ "_capexWhy": "FY26 cash capex ₹868 cr (sulphuric acid plants, Goa energy project). FY27 ₹800 cr: '~₹600 cr' normal capex incl. some major-project outflow (CFO, May-2026), ₹600-700 cr per the Jun-2026 plant visit, plus the first ~₹100 cr of the ₹250 cr aluminium fluoride plant. FY28-29 ₹1,600 cr and ₹1,500 cr: most of the ₹3,600 cr programme (1.0 mt granulation, 0.3 mt phosphoric acid with matching sulphuric acid) plus the rest of aluminium fluoride and ~₹200 cr a year of maintenance. Management funds new projects ~70% with debt.",
+ "depRateOnGrossBlock": 5.3,
+ "_depWhy": "FY26 D&A ₹403 cr = 5.8% of average gross block (₹6,944 cr); Q4FY26 ₹126 cr and Q1FY27 ₹106 cr (~₹424 cr a year) after the new sulphuric acid plants. The engine holds CWIP flat and depreciates capex at once, but most FY28-29 capex is construction work in progress that earns no depreciation until the big project is commissioned (Q2FY29-FY30), so we use 5.3%: ~₹421 / ₹485 / ₹567 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net-debt company: borrowings ₹6,872 cr plus ₹34 cr of leases at Mar-2026 against cash, bank balances and liquid funds of ₹409 cr (net debt ~₹6,500 cr). Interest income is built into other income below, not earned on a treasury book.",
+ "otherIncome": [
+  85,
+  85,
+  90
+ ],
+ "_otherIncomeWhy": "Built, Screener basis (which nets the loss on discarded plant). FY26 company other income ₹147 cr = interest ₹29 cr (bank ₹12 cr, tax refund ₹3 cr, other ₹14 cr) + mutual-fund gains ₹59 cr (parking subsidy receipts) + rent ₹5 cr + miscellaneous ₹50 cr + write-backs ₹4 cr; Screener shows ₹88 cr 'normal' after netting ₹56 cr of plant-discard loss. FY27E ₹85 cr = interest ₹20 cr (cash fell from ₹1,036 cr to ₹392 cr) + fund gains ₹30 cr (smaller surpluses with debt up) + rent and miscellaneous ₹55 cr − discard losses ₹20 cr; write-backs excluded. Check: Q1FY27 normal other income ₹21.6 cr (×4 = ₹86 cr); TTM normal ₹134 cr before Screener's annual netting of discard losses. FY29E ₹90 cr. The +₹21.8 cr Q1FY27 exceptional (Labour Code reversal) is excluded.",
+ "interest": [
+  540,
+  520,
+  545
+ ],
+ "_interestLabel": "Finance cost (interest, bank charges, exchange loss on foreign-currency borrowings)",
+ "_interestWhy": "FY26 ₹528 cr = interest ₹333 cr + exchange loss on buyer's credit ₹145 cr + bank charges ₹45 cr + tax interest ₹4 cr; Q1FY27 ₹132 cr (~₹527 cr a year) on gross debt of ₹6,500 cr. FY27E ₹540 cr: debt stays high with subsidy receivables at ₹4,600 cr and costlier imports; we assume a smaller exchange loss than FY26. FY28E ₹520 cr: working capital eases but project debt builds, with interest during construction capitalised. FY29E ₹545 cr as project debt peaks (~5.8% on ~₹8,500 cr plus ~₹50 cr of bank charges and ~₹30 cr of exchange cost, less capitalised interest).",
+ "taxRate": [
+  25.2,
+  25.2,
+  25.2
+ ],
+ "_taxWhy": "Effective tax 25.0% (FY26), 25.4% (Q1FY27); new-regime statutory rate 25.17%. Paradeep's merged entity has no minorities (MCFL merged, not a subsidiary), so model EPS = profit ÷ 103.75 cr shares (actual 103.82 cr).",
+ "payout": [
+  15,
+  15,
+  15
+ ],
+ "_payoutWhy": "FY26 dividend ₹1.50 a share (15.6% of EPS); FY25 ₹1.00. Capex years: we assume 15%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.75,
+  "terminalGrowth": 5.5,
+  "years": 12,
+  "fadeGrowthTo": 6,
+  "fadeMarginTo": 10.5,
+  "fadeCapexPctTo": 3,
+  "depPctOfSales": 2.2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts free cash flow at one rate and labels it the cost of equity. Paradeep carries ~₹6,500-7,500 cr of net debt against a market value of ~₹16,000 cr, so we enter a WACC: cost of equity ~13.1% (beta 1.1: subsidy-policy and raw-material risk plus leverage) weighted ~70%, post-tax cost of debt ~6.0% (8% pre-tax at the margin) weighted ~30% = ~11.0%, which is what beta 0.75 produces. The same rate rolls the value forward six months.",
+  "_tgWhy": "Phosphatic fertiliser demand grows ~2-3% a year in volume plus price; 5.5% nominal in rupees.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~5.5% (FY29E) to 6% by year 12: ~2-3% volume (the 1.0 mt granulation train and acid expansion fill, then market growth) plus ~3% price.",
+  "_fadeMarginWhy": "EBITDA margin drifts from 10.0% (FY29E) to 10.5% (~₹6,100/t on ₹58,000/t) as integration completes; policy (NBS, reasonable-margin rules) keeps it below management's ₹7,000/t aspiration.",
+  "_fadeCapexWhy": "Capex falls from ~5.4% of revenue (FY29E, big project) to 3%, above depreciation at 2.2% to fund volume growth.",
+  "_yearsWhy": "12-year explicit/fade period so the FY28-29 project spend is followed by the years in which it earns."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Rabi and FY28 subsidy rates cover the Middle East cost spike, sulphur and ammonia normalise, the big project lands on time and integration lifts EBITDA towards ₹6,500/t by FY29 (management's path); volumes grow faster with the new granulation train.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 1,
+   "fadeMarginTo": 11.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Subsidy rates lag input costs for another year, sulphur stays above $1,000/t, trading is a larger share, the big project slips and the government tightens reasonable-margin rules: EBITDA stays near ~₹4,500-5,000/t while debt keeps rising.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1.2,
+   "fadeMarginTo": 9
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 9.5,
+      "bull": 13,
+      "bear": 8
+     },
+     "why": "How the street values Paradeep now: Prabhudas Lilladher 13x FY28E EPS (Accumulate, ₹158, 31-Jul-2026; 10-11x in Mar-Jun 2026). 9.5x is derived: the stock's one-year-forward P/E median since listing (May-2022) is 11.6x after putting FY25 EPS on the merger-consistent basis and leaving out the FY24 trough year (10.9x on Screener's unadjusted EPS); seven listed fertiliser peers traded a median 17% below their five-year median P/E on 30-Sep-2026, so 11.6x × 0.83 ≈ 9.6x, rounded to 9.5x. No premium for growth: EPS compounds ~10% a year FY26-29E, ROE (~14%) only matches the ~13% cost of equity and net debt stays near 3x EBITDA. Bull 13x (the street's multiple: the market keeps paying for the integration story); bear 8x (where Chambal, GNFC and GSFC trade: a plain, indebted fertiliser maker under subsidy stress)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 8,
+      "bull": 9.5,
+      "bear": 6.5
+     },
+     "why": "Elara Capital's method (8.0x FY28E, May-2026). Paradeep's trailing EV/EBITDA median since listing is 10.0x outside the FY24 trough window; peers traded a median 5% below their five-year EV/EBITDA, i.e. ~9.5x trailing, which on Sep-28E EBITDA (~14% above the trailing twelve months) is ~8.3x: we use 8x and deduct Sep-28E net debt (~₹7,800 cr)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: FCFF FY28-FY39E with revenue growth fading to 6%, EBITDA margin to 10.5%, capex to 3% of revenue and working capital at the FY26 ratio (31% of revenue), discounted at an 11% WACC (entered as beta 0.75), terminal growth 5.5%, less Mar-27E net debt."
+    }
+   ]
+  }
+ }
+}

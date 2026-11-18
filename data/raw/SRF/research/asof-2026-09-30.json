@@ -1,0 +1,439 @@
+{
+  "asOf": "2026-09-30",
+  "meta": {
+    "built": "2026-11-13",
+    "rule": "Only information published on or before 2026-09-30. Items whose only evidence is post-dated are flagged evidencePostCutoff=true and must not be used as facts in the 30-Sep report without that caveat.",
+    "units": "INR crore unless stated; broker figures in INR mn converted to crore where marked; prices INR/share (NSE close unless stated).",
+    "searchLimitNote": "The web-search budget ran out partway through this pass, so some brokers (Goldman, Nomura, CLSA, Macquarie, BofA, Ambit, IIFL Capital, 360 ONE) were not searched exhaustively. See gaps."
+  },
+  "exclusions": [
+    {"path": "company.json:asOf", "what": "asOf 2026-10-28", "date": "2026-10-28", "action": "update to 2026-09-30"},
+    {"path": "company.json:segmentsQuarterly[q=Q2FY27]", "what": "Whole Q2FY27 segment/P&L row: chem Rs2,079.5cr / EBIT 527.8, PFF 2,122.4 / 206.2, TT 595.1 / 72.3, revenue 4,904.2, PAT 509.1, D&A 228.8, interest 70.9, forex 63.1, EBITDA 946 / 1,010 variants", "date": "2026-10-21", "src": "BSE Q2 results 6d566d1e / 4bee2b6e; PL 22-Oct; MOSL (DSIJ 45806)", "action": "strip"},
+    {"path": "company.json:chemSplit.growth[period=Q2FY27]", "what": "Q2FY27 chemicals +25%, specialty subdued, chem EBIT margin 25.4% vs 28.9%, Kotak attributes decline to specialty", "date": "2026-10-21/23", "action": "strip"},
+    {"path": "company.json:chemSplit.specialtyPipeline", "what": "Clauses 'registrations for two AIs progressing in Brazil (Oct-2026)' and 'two Western pharma innovators, one oncology molecule to contribute very quickly' (Q2 call); sources investing.com Q2 transcript and ICICI Direct Q2 note", "date": "2026-10-22/23", "action": "strip those clauses; keep 7-8 agro products (May-2026) and 6-7 AIs / US$400-500mn analyst question (Jul-2026)"},
+    {"path": "company.json:chemSplit.specialtyPipelineSrc", "what": "investing.com Q2 transcript and idirect_srf_q2fy27.pdf sources", "date": "2026-10-22/23", "action": "strip those two URLs"},
+    {"path": "company.json:refrigerants.srfPosition[5]", "what": "'refrigerant demand and pricing to remain broadly stable barring seasonality (Oct-2026)' sourced to Q2 deck 4bee2b6e", "date": "2026-10-21", "action": "strip Oct source; same view was stated in Q1 deck (22-Jul: 'stable demand-price environment globally') and Q1 call (Q2/Q3 seasonally weaker) - re-source to those"},
+    {"path": "company.json:refrigerants.hfo.fact", "what": "'environmental clearance received' for the Odisha HFO site (source Q2 deck / Q2 call). Q1 deck (22-Jul-2026) said 'site regulatory approvals being applied for as per schedule'", "date": "2026-10-21/22", "action": "strip 'EC received'; as of 30-Sep: approvals being applied for; Feb-2028 commissioning (May-2026 call) and ~Rs2,300cr (Rs22.85bn board approval 5-May-2026) are pre-cutoff and stay"},
+    {"path": "company.json:refrigerants.hfo.src", "what": "4bee2b6e Q2 deck and investing.com Q2 transcript URLs", "date": "2026-10-21/22", "action": "strip those URLs"},
+    {"path": "company.json:capex.projects[HFO].status", "what": "'EC received' (Q2 deck)", "date": "2026-10-21", "action": "replace with 'Odisha site approvals being applied for (Jul-2026); commissioning Feb-2028 (May-2026)'"},
+    {"path": "company.json:capex.projects[HFC debottlenecking].status", "what": "'Dahej brownfield progressing ahead of baseline deadline' (ICICI Direct Q2 note)", "date": "2026-10-23", "action": "strip clause; keep approval May-2026"},
+    {"path": "company.json:capex.projects[PVDF].status", "what": "'final commissioning; capitalisation Q3FY27' (Q2 deck)", "date": "2026-10-21", "action": "replace with Jul-2026 guidance: commissioning towards end of Q2FY27 (by Sep-2026); meaningful volumes/realisations from start of FY28. No public confirmation of commissioning found by 30-Sep"},
+    {"path": "company.json:capex.projects[Chemours].status", "what": "'first plant Q4FY27, second Q1FY28' (PL 22-Oct, ICICI Direct Q2)", "date": "2026-10-22/23", "action": "replace with Jul-2026 wording: FP3/FP4 may move out 3-4 months vs the December (2026) timeline on Chemours design changes/European equipment; revenue within first year; FY28 lower, full stream FY29"},
+    {"path": "company.json:capex.projects[FEP for wire/cable]", "what": "'Q1FY28 capitalisation' (Q2 deck)", "date": "2026-10-21", "action": "strip"},
+    {"path": "company.json:capex.projects[Electronic-grade HF]", "what": "'site work underway; Q3FY28 capitalisation' (Q2 deck)", "date": "2026-10-21", "action": "strip (May-2026 call only says EHF is part of the Odisha Rs2,300cr scope)"},
+    {"path": "company.json:capex.projects[PTFE value-added grades].src", "what": "Q2 deck 4bee2b6e", "date": "2026-10-21", "action": "strip URL; Jul call supports 'meaningful scale end Q4FY27/early FY28'"},
+    {"path": "company.json:capex.projects[Capacitor-grade BOPP (KAPLAR)].status", "what": "'commercial sales ahead of schedule' and 'board approval in place for a potential second line' (ICICI Direct Q2)", "date": "2026-10-23", "action": "strip those clauses; keep capitalised Q1FY27, early revenue late Q2FY27, near-full capacity Q1/Q2 FY28 (Jul call)"},
+    {"path": "company.json:capex.projects[BOPP-BOPE hybrid line].status", "what": "'commercialisation Q3FY27' (ICICI Direct Q2)", "date": "2026-10-23", "action": "replace with May-2026 guidance: production expected to commence July 2026 / closer to Q2"},
+    {"path": "company.json:capex.projects[Aluminium foil for capacitors]", "what": "'commercial sales from Q3FY27' (Q2 deck)", "date": "2026-10-21", "action": "strip"},
+    {"path": "company.json:capex.projects[Battery-grade aluminium foil 12,000 tpa]", "what": "Rs600cr battery foil project approved 21-Oct-2026 (Phase I/II, realisation premium)", "date": "2026-10-21", "action": "strip. Note: on 23-Jul-2026 the CFO said no foil expansion was on the cards"},
+    {"path": "company.json:guidance[Chemicals revenue growth FY27].value", "what": "'reiterated Oct-2026 towards the higher end'", "date": "2026-10-22", "action": "replace with Jul-2026: 15-20% held, 'hopefully ... land at the higher end'"},
+    {"path": "company.json:guidance[Chemicals margins]", "what": "'declined to commit to return to 28-30% chemicals EBIT margin (Oct-2026)'", "date": "2026-10-22", "action": "strip (keep 'no margin guidance')"},
+    {"path": "company.json:guidance[Specialty chemicals].src", "what": "investing.com Q2 transcript", "date": "2026-10-22", "action": "strip URL; Jul call supports linear slow recovery, H2>H1, bottom scraped"},
+    {"path": "company.json:guidance[Aluminium foil].value", "what": "'existing foil business to turn profitable by FY27 exit' (Q2 call/ICICI Q2)", "date": "2026-10-22/23", "action": "strip clause; keep '~half of volume to Europe' (Jul call)"},
+    {"path": "company.json:guidance[Technical textiles].src", "what": "Q2 deck 4bee2b6e", "date": "2026-10-21", "action": "strip URL; Jul call supports the statement"},
+    {"path": "company.json:guidance[Sunrise sectors]", "what": "US$1bn+ revenue opportunity across energy storage, electronics, semis, etc. (Q2 deck)", "date": "2026-10-21", "action": "strip"},
+    {"path": "company.json:q2fy27", "what": "Entire Q2FY27 block: results, vsExpectations (PL/MOSL/Kotak/Mint consensus misses), drivers, call commentary, transcriptStatus", "date": "2026-10-21 to 2026-10-28", "action": "strip"},
+    {"path": "company.json:debt.annual[date=2026-09-30]", "what": "Gross borrowings ~Rs5,200cr at Sep-26 (MOSL Q2 note)", "date": "2026-10-22", "action": "strip"},
+    {"path": "company.json:debt.companyRatios.src", "what": "Sourced to Q2 deck 4bee2b6e", "date": "2026-10-21", "action": "keep numbers; re-source to Q1 deck 6d0a3bb3 (22-Jul-2026), which carries the same FY17-FY26 ratio table"},
+    {"path": "company.json:history[date=2026-10-21]", "what": "Q2FY27 margin miss, battery-foil capex, 52-week low Rs2,178.30 on 22-Oct, Street cuts", "date": "2026-10-21/22", "action": "strip"},
+    {"path": "company.json:history[date=1970,1989].src", "what": "Old facts partly sourced to Q2 filings 6d566d1e / 4bee2b6e", "date": "2026-10-21", "action": "keep facts; drop post-dated URLs (Wikipedia/AR suffice)"},
+    {"path": "company.json:management[Geeta Jadhav / Sanjay Rao]", "what": "Lists Geeta Jadhav as President & CHRO", "date": "2026-09-23", "action": "update (pre-cutoff fact): she resigned effective 23-Sep-2026. Do NOT add successor Jyothsana Vasudevan (appointed 5-Oct-2026, post-cutoff)"},
+    {"path": "company.json:management[Non-executive directors].src", "what": "Board composition partly sourced to Q2 deck", "date": "2026-10-21", "action": "re-source to AR2026"},
+    {"path": "company.json:governance.promoterSrc", "what": "Trendlyne 'latest' shareholding = Sep-2026 pattern (filed Oct-2026)", "date": "2026-10", "action": "re-source KAMA 49.13% / KAMA Realty 1.08% to SAST disclosures of 18-24 Sep 2026 (see holders)"},
+    {"path": "company.json:governance.creditRating", "what": "India Ratings grade left as 'unverified'", "date": "n/a", "action": "update (pre-cutoff): IND AA+/Stable affirmed 10-Jun-2026; additional bank facilities rated IND AA+/Stable 28-Sep-2026"},
+    {"path": "company.json:governance.src", "what": "4bee2b6e Q2 deck URL", "date": "2026-10-21", "action": "strip URL"},
+    {"path": "company.json:accounting[Forex hedging].detail", "what": "'Q2FY27 ~Rs63cr' and 'Screener OPM 25%/19% vs company EBITDA 27.3%/~20.6%' (the 19%/20.6% are Q2); src DSIJ 45806", "date": "2026-10-21/22", "action": "strip Q2 parts; keep FY25 Rs119.2cr, FY26 Rs188.3cr, Q1FY27 Rs102cr"},
+    {"path": "company.json:accounting[Inventory gains].detail", "what": "'... that reversed in Q2FY27' (PL 22-Oct)", "date": "2026-10-22", "action": "strip clause; Q1 inventory gains themselves are in the Q1 deck and CMD statement (22/23-Jul)"},
+    {"path": "company.json:geography.fy26RevenueSplitPct / geography.src", "what": "India 49 / US&EU 21 / MEA 7 / Others 23 sourced to Q2 deck 4bee2b6e", "date": "2026-10-21", "action": "strip unless re-sourced to AR2026 (country revenue table from AR stays)"},
+    {"path": "company.json:notes[3]", "what": "'Q2FY27 transcript not yet published...'", "date": "2026-10", "action": "strip"},
+    {"path": "company.json:notes[4]", "what": "'Patents: 539 filed, 160 granted (Sep-2026)' (Q2 deck)", "date": "2026-10-21", "action": "replace with 528 filed / 159 granted (Q1 deck, 22-Jul-2026)"},
+    {"path": "deep.json:asOf", "what": "asOf 2026-10-28", "date": "2026-10-28", "action": "update"},
+    {"path": "deep.json:industry.refrigerantsAndFluoro[5]", "what": "Navin mcap ~Rs43,600cr, GFL mcap ~Rs46,800cr (Screener, 28-Oct)", "date": "2026-10-28", "action": "strip market caps (refresh to 30-Sep); FY26 sales/OPM stay"},
+    {"path": "deep.json:industry.specialtyChemicals[0].src", "what": "ICICI Direct Q2 note", "date": "2026-10-23", "action": "strip URL; 'innovators de-risking towards India' is an Oct statement - drop it"},
+    {"path": "deep.json:industry.packagingFilms[3]", "what": "Battery foil context: India >150 GWh cell capacity, ACC PLI (Q2 deck)", "date": "2026-10-21", "action": "strip"},
+    {"path": "deep.json:industry.chinaPlusOne", "what": "'innovators de-risking supply chains ... (management, Oct-2026)'", "date": "2026-10-22/23", "action": "strip the Oct quote (Crisil May-2026 part can stay)"},
+    {"path": "deep.json:peers[*] (all 10 rows)", "what": "mcapCr, price, pe, peFwd, evEbitda, roe/roce snapshot dated 2026-10-28; SRF note on MarketScreener consensus EV/EBITDA/P/E", "date": "2026-10-28", "action": "strip market data; refresh to 30-Sep (SRF close Rs2,472.50, mcap ~Rs73,291cr); FY26 financials stay"},
+    {"path": "deep.json:street.brokers[Prabhudas Lilladher]", "what": "Hold (upgraded from Reduce), TP Rs2,349, SOTP 18x/8x/6x on avg FY28-29E, estimates", "date": "2026-10-22", "action": "replace with PL Reduce Rs2,482 (23-Jul-2026). PL also wrote Reduce Rs2,355 on 07-Oct-2026 (post-cutoff)"},
+    {"path": "deep.json:street.brokers[Motilal Oswal]", "what": "Buy Rs3,000, chem 23x/others on FY28E, estimate cuts; history field includes Rs3,000 (Oct-26)", "date": "2026-10-22", "action": "replace with Buy Rs3,200 (23-Jul-2026)"},
+    {"path": "deep.json:street.brokers[ICICI Securities (ICICI Direct)]", "what": "Buy Rs2,845, 20x/9x/4x on FY29E, estimates", "date": "2026-10-23", "action": "replace with Buy Rs3,160, 25x/10x/5x on FY28E (24-Jul-2026)"},
+    {"path": "deep.json:street.brokers[Kotak]", "what": "Sell FV Rs2,210, chemicals 15x (cut from 18x)", "date": "2026-10-23", "action": "replace with pre-cut FV Rs2,380, chemicals 18x (evidence only from the 23-Oct note; flag)"},
+    {"path": "deep.json:street.brokers[Jefferies]", "what": "Hold Rs2,540 dated 22-Oct (Zeebiz) and verificationNote", "date": "2026-10-22", "action": "replace with Hold Rs2,540 set 24-Jul-2026 (upgrade from Underperform Rs2,450). Post-cutoff: raised to Rs2,640 on 22-Oct"},
+    {"path": "deep.json:street.brokers[UBS]", "what": "Oct-2026 reiteration (Zeebiz)", "date": "2026-10-22", "action": "keep the 27-Apr-2026 Sell Rs2,300 call only"},
+    {"path": "deep.json:street.brokers[Morgan Stanley]", "what": "UW Rs2,260 (22-Oct)", "date": "2026-10-21/22", "action": "replace with UW Rs2,209 standing pre-Oct (date unknown) / last dated UW Rs2,177 (21-Jan-2026)"},
+    {"path": "deep.json:street.brokers[Nuvama]", "what": "Chemicals cut to 20x from 25x", "date": "2026-10-23", "action": "replace with chemicals 25x pre-cut; latest dated call Buy Rs3,584 (21-Jan-2026)"},
+    {"path": "deep.json:street.brokers[Mirae Asset Sharekhan]", "what": "Q2FY27 below expectations commentary", "date": "2026-10-22", "action": "strip"},
+    {"path": "deep.json:street.brokers[Emkay Global]", "what": "Add Rs3,250 (21-Jan-2026) is stale", "date": "2026-05-06", "action": "update (pre-cutoff): Add Rs3,000 on 6-May-2026"},
+    {"path": "deep.json:street.methodSummary", "what": "Built on Oct-2026 multiples (Kotak 15x, PL 18x, ICICI 20x, Nuvama cut, MOSL 23x) and MarketScreener 28-Oct consensus P/E", "date": "2026-10-22 to 28", "action": "rewrite from street block in this file"},
+    {"path": "deep.json:street.consensus", "what": "MarketScreener FY27E-FY29E consensus, targets mean Rs2,788.41 / 29 analysts / last close 2,336.65; Trendlyne and stockanalysis snapshots", "date": "2026-10-28", "action": "strip"},
+    {"path": "deep.json:street.ratingCount", "what": "Post-Q2 rating counts and ranges (2,210-3,000), MarketScreener 29 analysts", "date": "2026-10-28", "action": "strip"},
+    {"path": "deep.json:ownership.trend (Sep 2026 column)", "what": "Promoter 50.26, FII 15.2, DII 22.5, public 12, shareholders 184,708; comment 'MFs 13.6% at Sep-26'", "date": "Sep-2026 pattern filed Oct-2026", "action": "strip Sep-2026 column/comment; Jun-2026 is the latest public pattern"},
+    {"path": "deep.json:ownership.latestQuarter", "what": "Sep-2026 quarter: FII 15.2, MF 13.6, insurance 7.19, DII 22.5, 37 MF schemes, 611 FPIs", "date": "Oct-2026", "action": "replace with Jun-2026 (see holders)"},
+    {"path": "deep.json:ownership.holders", "what": "Sep-2026 named holders: Kotak 5.07, LIC 3.51, Norway 1.89, GIC 1.75, NPS 1.58, Amansa 1.17, SBI 1.05", "date": "Oct-2026", "action": "replace with Jun-2026 named holders (see holders). KAMA 49.13 / KAMA Realty 1.08 are pre-cutoff via SAST"},
+    {"path": "deep.json:ownership.pledge.src", "what": "Trendlyne Sep-2026 and PL 22-Oct", "date": "2026-10", "action": "re-source nil pledge to Jun-2026 pattern / PL 23-Jul note"},
+    {"path": "deep.json:stockEvents[date=2026-07-22 to 2026-07-24].priceMove", "what": "'-1.25% on results day' (investing.com headline) is wrong", "date": "2026-07-23", "action": "correct: 22-Jul close 2,867.20 (-2.44%), 23-Jul 2,622.70 (-8.53%), 24-Jul 2,664.70 (+1.60%)"},
+    {"path": "deep.json:stockEvents[date=2026-10-22]", "what": "Q2 margin miss, 52-week low Rs2,178.30, -27% YTD", "date": "2026-10-22", "action": "strip"},
+    {"path": "deep.json:stockEvents[date=2026-10-28]", "what": "Latest price Rs2,343.90, mcap ~Rs69,450cr", "date": "2026-10-28", "action": "strip; use 30-Sep close Rs2,472.50"},
+    {"path": "deep.json:fiftyTwoWeek", "what": "Low 2,178.3 (22-Oct-2026); highs from Screener (current), PL/ICICI Oct notes, Univest", "date": "2026-10-22 onward", "action": "replace with NSE file effective 30-Sep-2026: high 3,210 (17-Oct-2025), low 2,355 (06-Apr-2026)"},
+    {"path": "deep.json:moat[Process technology].evidence", "what": "539 patents filed / 160 granted (Q2 deck)", "date": "2026-10-21", "action": "replace with 528 / 159 (Q1 deck)"},
+    {"path": "deep.json:moat[Customer relationships].evidence", "what": "'two Western pharma innovators incl. an oncology molecule' (Q2 call)", "date": "2026-10-22", "action": "strip clause"},
+    {"path": "deep.json:moat[Cost position vs China - specialty].evidence", "what": "'margin squeeze in Q2FY27' (Kotak/ICICI Oct)", "date": "2026-10-23", "action": "strip clause"},
+    {"path": "deep.json:moat[Balance sheet].src", "what": "Q2 deck URL", "date": "2026-10-21", "action": "re-source to Q1 deck / AR2026"},
+    {"path": "deep.json:critiques[UBS]", "what": "'Sell, Apr/Oct 2026' - Oct reiteration", "date": "2026-10-22", "action": "keep Apr-2026 only"},
+    {"path": "deep.json:critiques[Kotak Sell FV Rs2,210]", "what": "Entire critique incl. 'entire Q2 margin decline from specialty', 'acceleration may wait till FY29'", "date": "2026-10-23", "action": "strip"},
+    {"path": "deep.json:critiques[Nuvama via Mint]", "what": "Multiple cut to 20x, Street not convinced", "date": "2026-10-23", "action": "strip"},
+    {"path": "deep.json:critiques[PL Hold Rs2,349]", "what": "Oct critique", "date": "2026-10-22", "action": "replace with PL 23-Jul Reduce thesis ('Agrochemical uncertainty continue to persist'; films margin to normalise from Q2)"},
+    {"path": "deep.json:critiques[Q1FY27 one-off]", "what": "'Q2 films margin fell back to 9.7%' and PL/Sharekhan Oct sources", "date": "2026-10-21/22", "action": "strip Q2 part; management's own 'aberration' remark (23-Jul) stays"},
+    {"path": "deep.json:critiques[Heavy capex]", "what": "Kotak (growth waits till FY29) Oct source", "date": "2026-10-23", "action": "strip Kotak attribution"},
+    {"path": "deep.json:critiques[Hedging]", "what": "'~Rs165cr in H1FY27' (includes Q2)", "date": "2026-10-22", "action": "replace with Q1FY27 Rs102cr"},
+    {"path": "deep.json:critiques[Freight inflation]", "what": "Freight 15-20%+ not passable, working capital lengthening (Oct-2026)", "date": "2026-10-22/23", "action": "strip (Q1 deck did flag Thailand freight surge - may use that instead)"},
+    {"path": "deep.json:gaps[0,1,2,11] and conflicts[1,2,3,11,12]", "what": "Gaps/conflicts about Q2 transcript, post-Q2 broker calls, Sep-26 balance sheet, Q2 EBITDA definitions, ICICI FY27E PAT vs H1 PAT, Q2 TT margin", "date": "2026-10", "action": "strip"}
+  ],
+  "street": {
+    "asOfNote": "Latest call standing on 30-Sep-2026 per broker. 'postQ1' = note written between 23-Jul and 30-Sep-2026.",
+    "brokers": [
+      {
+        "broker": "Motilal Oswal (MOFSL)", "rating": "Buy", "target": 3200, "noteDate": "2026-07-23", "postQ1": true,
+        "priceAtNote": 2622.7,
+        "method": "SOTP (EV/EBITDA)", "multiples": {"chemicals": null, "films": null, "textiles": null, "others": null}, "earningsYear": "not stated in accessible source",
+        "estimates": {"note": "FY26-28E CAGR revenue 17% / EBITDA 18% / adj PAT 20%; absolute figures not found"},
+        "thesis": "Strong Q1 (EBIT +61%) across chemicals, PFF and textiles; diversified portfolio supports Buy. Previous TP Rs3,350 (24-Jun-2026), Rs3,400 (6-May-2026).",
+        "src": "https://askfuzz.ai/discover/news/investment-ideas/motilal-oswal-sets-srf-target-at-3200 ; https://trendlyne.com/research-reports/stock/1283/SRF/srf-ltd/",
+        "published": "2026-07-24 (askfuzz); Trendlyne row dated 2026-07-23 (page accessed 2026-11-13)",
+        "confidence": "rating/TP verified (two secondary sources); multiples not found",
+        "notes": "Post-cutoff: cut to Rs3,000 on 22-Oct-2026 with chemicals 23x / PFF & TT 11x / others 10x on FY28E - do not assume the Jul multiples were the same."
+      },
+      {
+        "broker": "IDBI Capital", "rating": "Buy", "target": 3604, "noteDate": "2026-07-23", "postQ1": true, "priceAtNote": 2622.7,
+        "method": "not found", "multiples": null, "earningsYear": null,
+        "thesis": "Post-Q1FY27 note (IDBI analyst Jason Soans asked about PFF drivers and chemicals growth on the call). Previous TP Rs3,579 (6-May-2026).",
+        "src": "https://trendlyne.com/research-reports/stock/1283/SRF/srf-ltd/",
+        "published": "Trendlyne row dated 2026-07-23 (page accessed 2026-11-13)",
+        "confidence": "rating/TP verified on Trendlyne; report body not accessed"
+      },
+      {
+        "broker": "ICICI Securities - ICICI Direct (retail research)", "rating": "Buy", "target": 3160, "noteDate": "2026-07-24", "postQ1": true, "priceAtNote": 2670,
+        "method": "SOTP EV/EBITDA", "multiples": {"chemicals": 25, "films": 10, "textiles": 5, "others": null}, "earningsYear": "FY28E EBITDA",
+        "sotpCr": {"chemEbitdaFY28E": 3480.5, "chemEv": 87012, "filmsEbitdaFY28E": 945.6, "filmsEv": 9456.4, "textilesEbitdaFY28E": 269.0, "textilesEv": 1345.1, "netDebtFY28E": 3783.1, "impliedMcap": 94029.9, "sharesCr": 29.7},
+        "estimatesCr": {"FY27E": {"revenue": 17843.7, "ebitda": 3873.2, "pat": 1963.3, "eps": 66.0}, "FY28E": {"revenue": 20256.8, "ebitda": 4731.8, "pat": 2497.5, "eps": 84.0}},
+        "thesis": "HFC business strong; gradual specialty recovery (China price erosion bottomed); PFF shifting to non-cyclical VAP (BOPET thick film, capacitor BOPP, aseptic foil) so cyclicality falls even as Q1 margins normalise. Risks: specialty pricing, HFC capex delay.",
+        "src": "https://mailcontent.icicidirect.com/mailcontent/idirect_srf_q1fy27.pdf", "published": "2026-07-24",
+        "confidence": "verified in report text",
+        "notes": "Previous TP Rs3,235 (7-May-2026, Trendlyne). Post-cutoff: cut to Rs2,845 on 23-Oct."
+      },
+      {
+        "broker": "Prabhudas Lilladher (PL)", "rating": "Reduce", "target": 2482, "noteDate": "2026-07-23", "postQ1": true, "priceAtNote": 2623,
+        "method": "SOTP EV/EBITDA", "multiples": {"chemicals": 20, "films": 8, "textiles": 7, "others": null}, "earningsYear": "FY28E EBITDA",
+        "sotpRsMn": {"chemEbitda": 33143, "chemEv": 662870, "filmsEbitda": 9879, "filmsEv": 79033, "textilesEbitda": 3164, "textilesEv": 22150, "totalEv": 764053, "netDebt": 29480, "equity": 734573, "sharesMn": 296},
+        "estimatesRsMn": {"FY27E": {"revenue": 179164, "ebitda": 39679, "pat": 22400, "eps": 75.3}, "FY28E": {"revenue": 194265, "ebitda": 43740, "pat": 24935, "eps": 83.8}, "previous": {"FY27E": {"revenue": 174730, "ebitda": 37722, "eps": 68.8}, "FY28E": {"revenue": 189324, "ebitda": 41769, "eps": 76.7}}},
+        "thesis": "'Agrochemical uncertainty continue to persist': specialty pricing pressure from Chinese competition; PFF margins to normalise from Q2 as supply-disruption benefits recede; refrigerant realisations strong. TP cut from Rs2,603 (7-Jul-2026).",
+        "src": "https://plindia.com/ResReport/SRF-23-7-26-PL.pdf", "published": "2026-07-23",
+        "confidence": "verified in report text (text says Rs2,485 in one place, exhibit Rs2,482)",
+        "notes": "PL's next note was 07-Oct-2026 (Reduce Rs2,355) - post-cutoff (recommendation history in PL 22-Oct note)."
+      },
+      {
+        "broker": "Jefferies", "rating": "Hold (upgraded from Underperform)", "target": 2540, "noteDate": "2026-07-24", "postQ1": true,
+        "method": "not found", "multiples": null, "earningsYear": null,
+        "thesis": "Not found. Previous: Underperform Rs2,450 (7-May-2026, from Rs2,640).",
+        "src": "https://ca.marketscreener.com/quote/stock/SRF-LIMITED-6498495/news/ ; https://www.tradingview.com/news/cnbctv:16c9365ba094b:0/",
+        "published": "2026-07-24 (MT Newswires headline on MarketScreener); 2026-08-20 (CNBC-TV18 'biggest upgrades and downgrades by Jefferies during the Q1 results season')",
+        "confidence": "headline-level, two sources",
+        "notes": "Post-cutoff: TP raised to Rs2,640 on 22-Oct (stockanalysis)."
+      },
+      {
+        "broker": "HSBC", "rating": "Buy", "target": 3300, "noteDate": "2026-09-17", "postQ1": true, "priceAtNote": 2480.1,
+        "method": "not stated", "multiples": null, "earningsYear": null,
+        "thesis": "China cut R32 exports by ~17kt in Jan-Jul 2026, helping Indian producers; China quota shift to R134a partly eases oversupply; specialty recovery a catalyst. Risk: ~81kt new Indian R32 capacity into 2027.",
+        "src": "https://businessupturn.com/finance/stock-market/srf-shares-surge-nearly-3-after-hsbc-maintains-buy-rating-with-rs-3-300-target-price/",
+        "published": "2026-09-17",
+        "confidence": "verified in article",
+        "notes": "Initiated Buy Rs3,390 on 13-May-2026 (ScanX headline, snippet only); post-Q1 reiteration Buy Rs3,300 late Jul-2026 (TradeBrains snippet only)."
+      },
+      {
+        "broker": "Axis Capital", "rating": "Buy", "target": 3160, "noteDate": "2026-06-12", "postQ1": false,
+        "method": "not stated", "multiples": null, "earningsYear": null,
+        "thesis": "Specialty recovery from H2FY27 on new launches and normalising prices; refrigerants (+~60% FY26) offset specialty (-~6%); annual capex >Rs2,500cr.",
+        "src": "https://www.businessupturn.com/finance/stock-market/srf-shares-in-focus-axis-capital-maintains-buy-check-%E2%82%B93160-target-price-and-specialty-chemicals-outlook/",
+        "published": "2026-06-12", "confidence": "verified in article", "notes": "No post-Q1 Axis note found."
+      },
+      {
+        "broker": "Citi", "rating": "Sell", "target": 2675, "noteDate": "2026-05-07", "postQ1": false,
+        "method": "not stated", "multiples": null, "earningsYear": null,
+        "thesis": "R32 supply additions in India through CY26-27; each US$1/kg move in R32 changes EBITDA ~7%. TP raised from Rs2,575.",
+        "src": "https://scanx.trade/stock-market-news/companies/citi-maintains-sell-rating-on-srf-raises-target-price-to-2675-amid-r32-supply-concerns/39677694",
+        "published": "2026-05-07", "confidence": "verified (secondary)"
+      },
+      {
+        "broker": "Emkay Global", "rating": "Add", "target": 3000, "noteDate": "2026-05-06", "postQ1": false, "priceAtNote": 2720,
+        "method": "SOTP EV/EBITDA", "multiples": {"chemicals": "specialty 30x, fluorochemicals 18x", "films": 12, "textiles": "8 (TTB/others)", "blended": 18.4}, "earningsYear": "Mar-28E (FY28E) EBITDA; TP horizon Mar-27",
+        "estimatesRsMn": {"FY27E": {"revenue": 183055, "ebitda": 42585, "pat": 24210, "eps": 81.7}, "FY28E": {"revenue": 212715, "ebitda": 50498, "pat": 29502, "eps": 99.5}},
+        "thesis": "Elevated HFC pricing offsets specialty pressure; cut FY27/28E EBITDA 5-7% for lower ref-gas pricing in CY27; film cycle bottomed. TP cut from Rs3,250.",
+        "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/756410a7_SRF%20Q4FY26%20Result%20Update_Others.pdf",
+        "published": "2026-05-06", "confidence": "verified in report text (segment-multiple table partly garbled in extraction)", "notes": "No post-Q1 Emkay note found."
+      },
+      {
+        "broker": "UBS", "rating": "Sell", "target": 2300, "noteDate": "2026-04-27", "postQ1": false, "priceAtNote": 2508,
+        "method": "not stated", "multiples": null, "earningsYear": null,
+        "thesis": "Refrigerant prices near peak and HFC-to-HFO tailwind priced in; agchem destocking; Iran-conflict input/freight costs; EPS cut 11-13%; TP from Rs2,400.",
+        "src": "https://www.businessupturn.com/finance/stock-market/brokerages/ubs-slashes-srf-target-to-%E2%82%B92300-and-cuts-earnings-by-13-heres-whats-going-wrong-for-the-chemicals-giant/ ; https://researchdmz.ibb.ubs.com/openaccess/compliance/128147_1_new.html",
+        "published": "2026-04-27 (UBS disclosure page, generated 2026-11-13, lists no rating/TP change after 2026-04-27)", "confidence": "verified"
+      },
+      {
+        "broker": "Avendus Spark", "rating": "Reduce (upgraded from Sell)", "target": 2400, "noteDate": "2026-03-19", "postQ1": false,
+        "method": "not found", "multiples": null, "earningsYear": null, "thesis": "not found",
+        "src": "https://ca.marketscreener.com/quote/stock/SRF-LIMITED-6498495/news/", "published": "2026-03-19 (MT headline; year inferred from list order)",
+        "confidence": "headline only"
+      },
+      {
+        "broker": "Geojit BNP Paribas", "rating": "Buy", "target": 3385, "noteDate": "2026-02-04", "postQ1": false, "priceAtNote": 2920.6,
+        "method": "not found", "multiples": null, "earningsYear": null, "thesis": "not found",
+        "src": "https://trendlyne.com/research-reports/stock/1283/SRF/srf-ltd/", "published": "Trendlyne row dated 2026-02-04", "confidence": "Trendlyne listing"
+      },
+      {
+        "broker": "Nuvama Institutional Equities", "rating": "Buy", "target": 3584, "noteDate": "2026-01-21", "postQ1": false,
+        "method": "SOTP EV/EBITDA", "multiples": {"chemicals": 25, "films": null, "textiles": null}, "earningsYear": "not confirmed (Oct-2025 initiation rolled to Q2FY28E EV/EBITDA - snippet)",
+        "thesis": "TP cut from Rs3,841 (Oct-2025 initiation).",
+        "src": "https://scanx.trade/stock-market-news/stocks/nuvama-maintains-buy-rating-on-srf-revises-target-price-to-3-584/30512767",
+        "published": "2026-01-21", "confidence": "rating/TP verified (secondary); TP likely stale - no May-Sep note found",
+        "evidencePostCutoff": true,
+        "notes": "Chemicals 25x pre-Oct comes only from Mint via TradingView 23-Oct-2026 ('de-rating ... to 20x EV/EBITDA from 25x'): https://www.tradingview.com/news/moodys:3999bfc6d4a2e:0-srf-s-persistent-pain-point-hampers-investors-confidence-on-earnings-outlook/"
+      },
+      {
+        "broker": "Morgan Stanley", "rating": "Underweight", "target": 2209, "noteDate": "unknown (between 21-Jan-2026 and 21-Oct-2026)", "postQ1": null,
+        "method": "not found", "multiples": null, "earningsYear": null,
+        "thesis": "Last dated note (21-Jan-2026, UW Rs2,177): FY26 guidance needed 15% Q4 growth; R-32 could fall ~25% from peak; refrigerants ~1/3 of earnings; US$1/kg = 8-13% EPS.",
+        "src": "https://scanx.trade/stock-market-news/stocks/morgan-stanley-sets-underweight-rating-on-srf-with-2-177-target-price/30512793 ; https://businessupturn.com/finance/stock-market/brokerages/morgan-stanley-halves-pi-industries-target-upgrades-aarti-in-chemicals-rejig/",
+        "published": "2026-01-21 (UW Rs2,177, verified); 2026-10-21 (post-cutoff article saying target raised to Rs2,260 from Rs2,209)",
+        "evidencePostCutoff": true, "confidence": "Rs2,209 standing value known only from a post-cutoff article; last pre-cutoff-verified call is UW Rs2,177 (21-Jan-2026)"
+      },
+      {
+        "broker": "Elara Capital", "rating": "Accumulate", "target": 3258, "noteDate": "2026-01-20", "postQ1": false,
+        "method": "DCF", "multiples": {"wacc": "9.8%", "terminalGrowth": "5.0%", "avgEbitdaMarginFY26_28E": "23.5%"}, "earningsYear": "DCF",
+        "thesis": "Weak specialty demand, resilient refrigerants; EBITDA cut 14%/13%/10% FY26/27/28E; TP from Rs3,423.",
+        "src": "https://investmentguruindia.com/newsdetail/accumulate-srf-ltd-for-the-target-rs-3-258-by-elara-capital837941 ; https://www.business-standard.com/markets/news/srf-q3-prompts-cautious-optimism-from-analysts-specialty-chemicals-weigh-126012100171_1.html",
+        "published": "2026-01-21", "confidence": "verified", "notes": "No later Elara note found."
+      },
+      {
+        "broker": "Kotak Institutional Equities", "rating": "Sell (inferred - the Oct note shows SELL with no rating change mentioned)", "target": 2380, "noteDate": "unknown (pre-Oct-2026)", "postQ1": null,
+        "method": "SOTP EV/EBITDA", "multiples": {"chemicals": "18 (blended)", "films": null, "textiles": null}, "earningsYear": "fair-value date for Rs2,380 not stated (Oct note moved to Sep-2027E)",
+        "thesis": "Not available from a pre-cutoff source.",
+        "src": "https://www.kotakneo.com/uploads/SRF_One_Pager_Q2_FY_27_Update_e95674e548.pdf",
+        "published": "2026-10-23 (post-cutoff; states 'Fair Value to Rs2,210 (down from Rs2,380)' and 'chemicals ... decreased to 15X from 18X')",
+        "evidencePostCutoff": true, "confidence": "low for date/rating; no pre-cutoff Kotak source found"
+      },
+      {
+        "broker": "ICICI Securities (institutional)", "rating": "Buy", "target": 3450, "noteDate": "2025-12-08", "postQ1": false,
+        "method": "not found", "multiples": null, "earningsYear": null, "thesis": "not found",
+        "src": "https://trendlyne.com/research-reports/stock/1283/SRF/srf-ltd/", "published": "Trendlyne row dated 2025-12-08", "confidence": "Trendlyne listing; stale",
+        "notes": "Separate from ICICI Direct retail (Rs3,160). Analyst Sanjesh Jain asked first question on 23-Jul call."
+      },
+      {
+        "broker": "Antique Stock Broking", "rating": "Buy (initiation)", "target": 3540, "noteDate": "2025-10-14 (approx)", "postQ1": false,
+        "method": "not found", "multiples": null, "earningsYear": null, "thesis": "Fluoro-specialty, polymers and refrigerant gases",
+        "src": "https://www.business-standard.com/amp/markets/news/srf-gets-new-buy-rating-from-antique-check-target-outlook-here-125101500093_1.html",
+        "published": "2025-10-15", "confidence": "search snippet only; stale"
+      },
+      {
+        "broker": "JM Financial", "rating": "Buy", "target": 3200, "noteDate": "unknown", "postQ1": false,
+        "method": "not found", "multiples": null, "earningsYear": null, "thesis": "not found",
+        "src": "https://univest.in/blogs/srf-stock-prediction-2026", "published": "2026-06-09 (aggregator)", "confidence": "low - no primary source"
+      },
+      {
+        "broker": "Mirae Asset Sharekhan", "rating": "not shown", "target": null, "noteDate": "2026-07-24", "postQ1": true,
+        "thesis": "Stock update 'All-round beat in Q1; H2 outlook better' (24-Jul); sector note 17-Sep: China cut R32 exports ~17kt Jan-Jul 2026, positive near term for Navin and SRF; R32 prices to ease in CY2027 as new supply arrives.",
+        "src": "https://www.sharekhan.com/stock/srf-ltd", "published": "2026-07-24 ; 2026-09-17", "confidence": "headlines/summary only; rating and TP not visible"
+      },
+      {
+        "broker": "BP Wealth", "rating": "Results update (no rating shown)", "target": null, "noteDate": "2026-05-07", "src": "https://trendlyne.com/research-reports/stock/1283/SRF/srf-ltd/", "published": "Trendlyne row 2026-05-07", "notes": "No post-Q1 BP Wealth entry on Trendlyne."
+      }
+    ],
+    "notFound": ["Goldman Sachs", "Nomura", "CLSA", "Macquarie", "BofA", "Investec", "Ambit (hosted the Q1 call)", "IIFL Capital (on Q1 call)", "360 ONE (on Q1 call)", "Systematix", "Aditya Birla (on Q1 call)"],
+    "summary": {
+      "postQ1NotesCount": 6,
+      "postQ1": {"buy": 4, "hold": 1, "reduceSell": 1, "targetLow": 2482, "targetHigh": 3604, "targetMeanGamComputed": 3047.7, "detail": "Buy: IDBI 3,604, HSBC 3,300, MOSL 3,200, ICICI Direct 3,160. Hold: Jefferies 2,540. Reduce: PL 2,482."},
+      "allStanding2026": {"count": 16, "buyAddAccumulate": 9, "hold": 1, "reduceSellUW": 6, "targetLow": 2209, "targetHigh": 3604, "targetMeanGamComputed": 2914.8, "targetMedianGamComputed": 3080, "detail": "Buy side: IDBI 3,604, Nuvama 3,584 (Jan, stale), Geojit 3,385, HSBC 3,300, Elara 3,258 (Acc), MOSL 3,200, ICICI Direct 3,160, Axis 3,160, Emkay 3,000 (Add). Hold: Jefferies 2,540. Sell side: Citi 2,675, PL 2,482, Avendus Spark 2,400, Kotak 2,380 (post-dated evidence), UBS 2,300, Morgan Stanley 2,209 (post-dated evidence; 2,177 last verified)."},
+      "closeOn30Sep": 2472.5,
+      "methodSummary": "Where disclosed, the street uses SOTP EV/EBITDA on FY28E with chemicals carrying most of the value: chemicals 18x (Kotak, blended) / 20x (PL) / 25x (ICICI Direct, Nuvama) / Emkay specialty 30x + fluoro 18x; films 8x (PL) - 10x (ICICI) - 12x (Emkay); technical textiles 5x (ICICI) - 7x (PL) - 8x (Emkay). Elara is DCF (WACC 9.8%, g 5%). MOSL is SOTP but Jul multiples not found.",
+      "src": "this file, street.brokers"
+    }
+  },
+  "consensus": {
+    "fyEstimates": {
+      "status": "not found for Jul-Sep 2026",
+      "note": "No source dated Jul-Sep 2026 quoting Bloomberg/FactSet consensus FY27E/FY28E EPS, revenue or EBITDA was found (web-search budget ran out). Post-cutoff consensus (MarketScreener 28-Oct, stockanalysis 22-Oct: FY27E EPS 80.54, FY28E 87.99) must not be used.",
+      "brokerEstimateRangeJulSep": {
+        "FY27E": {"revenueCr": [17843.7, 17916.4], "ebitdaCr": [3873.2, 3967.9], "eps": [66.0, 75.3]},
+        "FY28E": {"revenueCr": [19426.5, 20256.8], "ebitdaCr": [4374.0, 4731.8], "eps": [83.8, 84.0]},
+        "basis": "Only two post-Q1 broker models found: ICICI Direct (24-Jul) and PL (23-Jul). Not a consensus.",
+        "src": "https://mailcontent.icicidirect.com/mailcontent/idirect_srf_q1fy27.pdf ; https://plindia.com/ResReport/SRF-23-7-26-PL.pdf",
+        "published": "2026-07-23/24"
+      }
+    },
+    "q1fy27QuarterConsensus": [
+      {"item": "Q1FY27 revenue consensus", "value": 4263, "actual": 5033.3, "unit": "Rs cr", "src": "https://www.bajajbroking.in/share-market-news/srf-becomes-top-nifty-500-loser-despite-strong-q1-fy27-results", "published": "2026-07-23"},
+      {"item": "Q1FY27 EBITDA consensus (pre-other-income, post-forex basis)", "value": 917, "marginPct": 21.5, "actual": 1236.6, "unit": "Rs cr", "src": "https://www.bajajbroking.in/share-market-news/srf-becomes-top-nifty-500-loser-despite-strong-q1-fy27-results", "published": "2026-07-23"},
+      {"item": "Q1FY27 revenue consensus (PL)", "value": 4260, "plEstimate": 4280.9, "unit": "Rs cr (Rs42.6bn)", "src": "https://plindia.com/ResReport/SRF-23-7-26-PL.pdf", "published": "2026-07-23"}
+    ],
+    "analystCounts": [
+      {"date": "2026-08-20", "analysts": 33, "buy": 21, "hold": 5, "sell": 8, "note": "As printed; 21+5+8 = 34, so one count is off", "src": "https://www.tradingview.com/news/cnbctv:16c9365ba094b:0/", "published": "2026-08-20"},
+      {"date": "2026-09-17 (approx)", "analysts": 35, "buy": 22, "hold": 5, "sell": 8, "src": "https://www.indiaipo.in/news/detail/explained-heres-why-hsbc-expects-a-33-upside-on-srf-shares", "published": "~2026-09-17", "confidence": "search snippet only; page now returns 410"}
+    ],
+    "averageTarget": [
+      {"date": "2026-05-07", "meanTarget": 2986.56, "averageRating": "Hold", "source": "FactSet via MT Newswires", "src": "https://www.placera.se/telegram/jefferies-adjusts-srf-s-price-target-to-inr2-450-from-inr2-640-keeps-at-underperform-20260507", "published": "2026-05-07", "note": "Latest dated consensus TP found; pre-window"},
+      {"date": "2026-09-30", "meanTarget": 2914.8, "medianTarget": 3080, "count": 16, "source": "GAM computed from the 16 standing 2026 broker calls in street.brokers (not a vendor consensus)", "src": "this file", "published": "n/a"},
+      {"date": "post-Q1 only", "meanTarget": 3047.7, "count": 6, "source": "GAM computed (MOSL, IDBI, ICICI Direct, PL, Jefferies, HSBC)", "src": "this file", "published": "n/a"}
+    ]
+  },
+  "q1fy27": {
+    "dates": {"results": "2026-07-22 (board meeting; results released during market hours ~15:20)", "call": "2026-07-23 11:00, hosted by Ambit Capital", "transcriptFiled": "2026-07-29", "src": "https://scanx.trade/stock-market-news/companies/srf-limited-to-host-q1-fy27-earnings-call-on-july-23/45843706 ; https://scanx.trade/stock-market-news/companies/srf-q1fy27-pat-jumps-76-to-759-crore-revenue-rises-32/46349023", "published": "2026-07-17 ; 2026-07-29"},
+    "results": {
+      "grossOperatingRevenue": 5033.3, "revenueQ1FY26": 3818.6, "revenueYoYPct": 31.8,
+      "companyEbidta": 1372.6, "companyEbidtaQ1FY26": 850.3, "companyEbidtaYoYPct": 61.4, "companyEbidtaMarginPct": 27.3,
+      "depreciation": 222.9, "interest": 68.6, "ecfLoss": 102.0, "ecfQ1FY26": -8.7,
+      "pbt": 979.1, "pbtQ1FY26": 575.8, "pat": 758.9, "patQ1FY26": 432.3, "patYoYPct": 75.5, "patMarginPct": 15.1,
+      "basicEps": 25.60, "basicEpsQ1FY26": 14.58,
+      "operationalEbit": 1116.1, "operationalEbitQ1FY26": 694.2, "operationalEbitYoYPct": 61, "operationalEbitMarginPct": 22,
+      "interimDividendPerShare": 5, "dividendRecordDate": "2026-07-28", "dividendPayableBy": "2026-08-18",
+      "ebitdaDefinitions": "Company EBIDTA Rs1,372.6cr includes other income (~Rs33.9cr) and is before the Rs102cr ECF (forex) loss. Brokers/Bajaj use Rs1,236.6-1,236.7cr (24.6%) = 1,372.6 - 33.9 - 102.0, i.e. excluding other income and after forex.",
+      "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf ; https://plindia.com/ResReport/SRF-23-7-26-PL.pdf ; https://www.angelone.in/news/stocks/srf-q1-fy27-results-net-profit-jumps-76-percent-to-rs-759-crore-revenue-rises-32-percent-interim-dividend-of-rs-5-announced",
+      "published": "2026-07-22 (deck/results); 2026-07-23 (PL)"
+    },
+    "segments": [
+      {"segment": "Chemicals", "revenue": 2314.9, "revenueQ1FY26": 1838.9, "revenueYoYPct": 25.9, "ebit": 638.4, "ebitQ1FY26": 502.9, "ebitYoYPct": 26.9, "ebitMarginPct": 27.6, "ebitMarginQ1FY26Pct": 27.3, "shareOfRevenuePct": 46.0, "shareOfEbitPct": 57.2},
+      {"segment": "Performance Films & Foil", "revenue": 2016.7, "revenueQ1FY26": 1418.2, "revenueYoYPct": 42.2, "ebit": 349.7, "ebitQ1FY26": 140.2, "ebitYoYPct": 149.4, "ebitMarginPct": 17.3, "ebitMarginQ1FY26Pct": 9.9, "shareOfRevenuePct": 40.1, "shareOfEbitPct": 31.3},
+      {"segment": "Technical Textiles", "revenue": 596.8, "revenueQ1FY26": 466.6, "revenueYoYPct": 27.9, "ebit": 107.8, "ebitQ1FY26": 37.6, "ebitYoYPct": 186.4, "ebitMarginPct": 18.1, "ebitMarginQ1FY26Pct": 8.1, "shareOfRevenuePct": 11.8, "shareOfEbitPct": 9.7},
+      {"segment": "Others (coated & laminated fabrics)", "revenue": 104.9, "revenueQ1FY26": 94.9, "revenueYoYPct": 10.5, "ebit": 20.2, "ebitQ1FY26": 13.4, "ebitYoYPct": 50.3, "ebitMarginPct": 19.2, "ebitMarginQ1FY26Pct": 14.1, "shareOfRevenuePct": 2.1, "shareOfEbitPct": 1.8},
+      {"src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf", "published": "2026-07-22", "qoq": "Chemicals -5% QoQ with EBIT margin -440bps QoQ (32.0% in Q4FY26) on specialty pricing; PFF +26% QoQ; TT +24% QoQ (PL 23-Jul)"}
+    ],
+    "vsExpectations": {"text": "Large beat: revenue Rs5,033cr vs consensus Rs4,263cr (Bajaj) / Rs4,260cr (PL) and PL est Rs4,281cr; EBITDA Rs1,237cr vs consensus Rs917cr (Bajaj) and PL est Rs951cr (+30%); PAT Rs759cr vs PL est Rs530cr (+43%). Gross margin 51.2% (incl. inventory gains).", "src": "https://www.bajajbroking.in/share-market-news/srf-becomes-top-nifty-500-loser-despite-strong-q1-fy27-results ; https://plindia.com/ResReport/SRF-23-7-26-PL.pdf", "published": "2026-07-23"},
+    "drivers": [
+      {"text": "Chemicals: fluorochemicals strong on healthy domestic demand and robust exports; higher volumes in refrigerants, industrial chemicals and fluoropolymers plus better realisations offset raw-material inflation from supply-chain disruption; HFC plants at high utilisation; Middle East volumes and pricing very robust in Q1 after Q4 disruption ('Floron commands differentiated pricing'). Specialty: 'steady' but pricing pressure from Chinese competition continues; early volume uptick and marginal price improvement in core products; some opportunistic buying.", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf ; https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf", "published": "2026-07-22/23"},
+      {"text": "Performance Films & Foil: best-ever quarter; Middle East war shut competitor capacity while SRF ran at 100% (DTA unit, global raw-material sourcing); customer panic buying lifted prices; CFO: 'In a perverse way, the war has helped us'. Overseas units (South Africa, Thailand, Hungary) all improved. Foil: close to half of Q1 volume went to Europe.", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf", "published": "2026-07-23"},
+      {"text": "Technical Textiles: demand recovery supported by inventory gains; belting exports to US after tariff rationalisation; PIY share gains (geotextile, seatbelt) helped by QCO stay order from May-2026; difficulty renegotiating spreads early in the quarter.", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf ; https://www.srf.com/storage/files/earning-calls/1785301598.pdf", "published": "2026-07-22/23"},
+      {"text": "Below the line: ECF (forex) loss Rs102cr vs Rs8.7cr gain in Q1FY26. CMD Ashish Bharat Ram: 'best-ever quarterly performance'; 'inventory gains provided some support during the June quarter'.", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf ; https://www.businesstoday.in/markets/stocks/story/despite-strong-q1-earnings-srf-stock-crashes-net-profit-revenue-heres-why-544795-2026-07-23", "published": "2026-07-22/23"}
+    ],
+    "guidanceAsStated": [
+      {"topic": "Chemicals growth FY27", "text": "15-20% guidance held; 'Hopefully, we will eventually land at the higher end of that by the end of the year, given how strong Q1 has been.'", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf", "published": "2026-07-23"},
+      {"topic": "Seasonality", "text": "Chemicals highly seasonal; Q2 lower than Q1 sequentially but growth YoY.", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf", "published": "2026-07-23"},
+      {"topic": "Refrigerants", "text": "Ref-gas pricing expected to stay at current levels or get better; Q2/Q3 weaker than Q1 for India and Middle East in both volume and price, but strong YoY growth in Q2; China pricing to hold at least to FY27 end; quota-related outcomes through December 'significantly positive'. Deck: stable demand-price environment globally; focus on maximising HFC production and capacity expansion; prolonged Middle East conflict may pressure key raw materials; chloromethanes range-bound.", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf ; https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf", "published": "2026-07-22/23"},
+      {"topic": "Specialty chemicals", "text": "Green shoots in volume and price on core products; 'scraped the bottom'; recovery 'linear and probably slow', not a hockey stick; H2 stronger than H1. 6-7 innovator AIs: capacity and chemistry ready, but launch depends on innovator registrations - timelines 'uncertain at this point to say it mildly'. Pharma target 20-30% (of specialty revenue) by 2030; deck: new launches planned in coming quarters; generics pressure on agro innovators continues. Dahej has space for specialty growth for ~24 months.", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf ; https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf", "published": "2026-07-22/23"},
+      {"topic": "Performance Films & Foil", "text": "Q1 'is an aberration. Do not peg it over there'; Q2 to stabilise at more normal levels, no 'steep cliff'; baseline margin to be north of the historical 8-12% EBIT range (overseas turnaround + VAP mix). Crude ~US$70 supportive. Deck: BOPET/BOPP demand to revert to normal as customers rationalise inventories; Thailand hit by ocean freight surge; Hungary holiday slowdown Aug-26; new metallizers (Thailand, South Africa) and offline coater (India) to cushion.", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf ; https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf", "published": "2026-07-22/23"},
+      {"topic": "Aluminium foil", "text": "Already ramped up; ~half of volume to Europe; aseptic-packaging approvals could open a new segment from early FY28; no foil capacity expansion 'on the cards' (Jetapur site has space).", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf", "published": "2026-07-23"},
+      {"topic": "Technical Textiles", "text": "Q2 to normalise but improve YoY; TCF demand flat to marginally positive; new dipping line to lift share; belting exports to grow; PIY stable.", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf ; https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf", "published": "2026-07-22/23"},
+      {"topic": "Capex FY27", "text": "~Rs2,500cr maintained (ICICI Direct summary of call). New: Rs250cr BOPET thick-film line 25,000 tpa (India), ~24 months, debt + accruals.", "src": "https://mailcontent.icicidirect.com/mailcontent/idirect_srf_q1fy27.pdf ; https://scanx.trade/stock-market-news/companies/srf-approves-rs-250-crore-capex-for-bopet-thick-film-line/46258885", "published": "2026-07-22/24"},
+      {"topic": "HFO / Odisha", "text": "Odisha projects (HFO, backward integration, specialty fluoropolymers) progressing to plan; site regulatory approvals being applied for; post-HFO SRF to be top 3-4 refrigerant makers globally. Prior guidance (6-May-2026): ~Rs2,300cr (board Rs22.85bn) over 2 years for 20,000 tpa HFO + 30,000 tpa HF + EHF; commissioning 'Feb 2028 potential timeline'.", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf ; https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf ; https://www.srf.com/storage/files/earning-calls/1778580319.pdf", "published": "2026-07-22/23 ; 2026-05-06"},
+      {"topic": "PVDF", "text": "Plant 'set to be commissioned towards the end of this quarter' (i.e. by Sep-2026); meaningful volumes/realisations from start of FY28.", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf", "published": "2026-07-23"},
+      {"topic": "Chemours (FP3/FP4)", "text": "Chemours requested design changes and specific European equipment; FP3/FP4 could move out '3, 4 months versus the December timelines'; return-on-investment style contract; revenue within first year of commissioning; FY28 lower, full stream FY29.", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf", "published": "2026-07-23"},
+      {"topic": "Fluoropolymers overall / PTFE", "text": "PTFE value-added grades to show meaningful scale end-Q4FY27 / early Q1FY28; whole fluoropolymer portfolio meaningful volumes end FY28 / early FY29, full stream during FY29.", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf", "published": "2026-07-23"},
+      {"topic": "Capacitor BOPP (KAPLAR)", "text": "Capitalised early Q1FY27; approvals from several leading customers; early revenue towards end of Q2FY27; close to full capacity by Q1/Q2 FY28; pricing significantly above vanilla film. Analyst cited ~Rs520cr electronic films capex (not confirmed).", "src": "https://www.srf.com/storage/files/earning-calls/1785301598.pdf", "published": "2026-07-23"},
+      {"topic": "Other projects (prior guidance)", "text": "BOPP-BOPE line to commence production in July 2026; BOPA line (Rs180cr) by Sep-2027; second BOPP line deferred indefinitely; HFC debottleneck (Rs88cr) to >65,000 tpa with environmental clearances in place.", "src": "https://www.srf.com/storage/files/earning-calls/1778580319.pdf", "published": "2026-05-06"}
+    ],
+    "callParticipants": "ICICI Securities (Sanjesh Jain), IDBI Capital (Jason Soans), Kotak (Arjun Khanna), Aditya Birla (Naushad Chaudhary), 360 ONE (Rohit Nagraj), Nuvama (Archit Joshi), IIFL Capital (Ranjit Cirumalla), Axis Capital (Ankur Periwal); host Ambit (Kumar Saumya)",
+    "otherDeckFacts": {"patentsFiled": 528, "patentsGranted": 159, "newProcessPatentsQ1": 3, "twoNewLoomsOthers": "June 2026", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf", "published": "2026-07-22"},
+    "stockReaction": {"text": "22-Jul close 2,867.20 (-2.44%); 23-Jul (call day) -8.53% to 2,622.70, low 2,615.00, top Nifty 500 loser, on guidance of softer Q2/Q3 (seasonal ref-gas correction, PFF normalisation); 24-Jul 2,664.70 (+1.60%).", "src": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260723_F_0000.csv.zip ; https://www.businesstoday.in/markets/stocks/story/despite-strong-q1-earnings-srf-stock-crashes-net-profit-revenue-heres-why-544795-2026-07-23", "published": "2026-07-23"},
+    "correctionsToCompanyJson": [
+      "q1fy27 block numbers are correct (revenue 5,033.3, EBIDTA 1,372.6 / 27.3%, op EBIT 1,116.1 / +61%, ECF 102, PBT 979.1, PAT 758.9 / +75.5%, EPS 25.60, interim dividend Rs5). Q1FY26 op EBIT is 694.2 in the deck (segmentsQuarterly has 694.1).",
+      "Add the EBITDA-definition note (company 1,372.6 vs broker 1,236.6) and the consensus beat.",
+      "Replace post-dated project timings (PVDF Q3FY27, Chemours Q4FY27/Q1FY28, BOPP-BOPE Q3FY27, HFO 'EC received') with the Jul/May wording above.",
+      "ICICI Direct (24-Jul) also says the board approved 'an additional Rs250 crore investment towards ... specialty chemicals intermediates'; the company deck and filings mention only the Rs250cr BOPET thick-film line - treat as an ICICI error unless verified."
+    ]
+  },
+  "events": {
+    "closeOn30Sep": {"date": "2026-09-30", "nseClose": 2472.50, "bseClose": 2474.00, "dayChangePct": 2.17, "mcapCrApprox": 73291, "mcapBasis": "29,64,24,825 shares (SAST filings) x NSE close; GAM computed", "src": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260930_F_0000.csv.zip ; https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_20260930_F_0000.CSV", "published": "2026-09-30"},
+    "fiftyTwoWeek": {"high": 3210.00, "highDate": "2025-10-17", "low": 2355.00, "lowDate": "2026-04-06", "closingBasisHigh": 3190.00, "closingBasisHighDate": "2025-10-16", "closingBasisLow": 2391.50, "closingBasisLowDate": "2026-03-23", "src": "https://nsearchives.nseindia.com/content/CM_52_wk_High_low_30092026.csv", "published": "2026-09-30 (NSE file 'Effective for 30-Sep-2026')", "conflicts": "PL (23-Jul) shows 52W 3,260/2,313 and ICICI Direct (24-Jul) 3,239/2,314 - different windows/exchanges; Business Upturn (17-Sep) matches NSE 3,210/2,355."},
+    "returns": {"september2026Pct": -3.43, "quarterJulSepPct": -9.73, "ytd2026Pct": -19.6, "oneYearPct": -12.4, "basis": "NSE closes: 30-Jun-26 2,739.00; 31-Aug-26 2,560.40; 31-Dec-25 3,075.00; 30-Sep-25 2,823.60 (GAM computed)", "src": "NSE bhavcopies https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_YYYYMMDD_F_0000.csv.zip", "published": "trade dates"},
+    "priceTable": [
+      {"date": "2026-06-30", "close": 2739.00, "dayPct": 2.79},
+      {"date": "2026-07-08", "close": 2709.50, "dayPct": -3.60},
+      {"date": "2026-07-16", "close": 2889.30, "dayPct": 4.10},
+      {"date": "2026-07-21", "close": 2939.00, "dayPct": 2.34, "note": "highest close of the quarter; intraday high 2,970"},
+      {"date": "2026-07-22", "close": 2867.20, "dayPct": -2.44, "note": "results day"},
+      {"date": "2026-07-23", "close": 2622.70, "dayPct": -8.53, "note": "call day; low 2,615.00"},
+      {"date": "2026-07-24", "close": 2664.70, "dayPct": 1.60},
+      {"date": "2026-07-28", "close": 2633.40, "dayPct": -0.12, "note": "ex-dividend Rs5"},
+      {"date": "2026-07-31", "close": 2622.50},
+      {"date": "2026-08-31", "close": 2560.40, "note": "no August day moved >2%"},
+      {"date": "2026-09-04", "close": 2547.00, "dayPct": -2.67},
+      {"date": "2026-09-11", "close": 2482.40, "dayPct": -1.45},
+      {"date": "2026-09-16", "close": 2480.10},
+      {"date": "2026-09-17", "close": 2536.00, "dayPct": 2.25, "note": "HSBC Buy Rs3,300 reiterated"},
+      {"date": "2026-09-29", "close": 2420.10, "dayPct": -2.87, "note": "lowest close of the quarter"},
+      {"date": "2026-09-30", "close": 2472.50, "dayPct": 2.17},
+      {"src": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_YYYYMMDD_F_0000.csv.zip (NSE EQ closes; matched Yahoo SRF.NS)", "published": "each trade date"}
+    ],
+    "list": [
+      {"date": "2026-06-30", "event": "55th AGM: all 7 resolutions passed incl. Rs1,500cr NCD private placement, Kartik Bharat Ram re-appointed JMD (87.57%), Arun Bharat Ram Chairman Emeritus from 1-Apr-2027", "priceMove": "+2.79%", "src": "https://scanx.trade/stock-market-news/companies/srf-limited-passes-all-resolutions-at-55th-agm-on-jun-30-2026/44364305", "published": "2026-07-01"},
+      {"date": "2026-07-16", "event": "Sector rally in specialty chemicals/refrigerants, heavy call-option activity; no company news", "priceMove": "+4.10% to 2,889.30", "src": "https://univest.in/blogs/srf-share-price-16-july-2026 ; https://www.marketsmojo.com/news/stocks-in-action/srf-ltd-gains-411-4-key-factors-driving-the-weeks-momentum-4107413", "published": "2026-07-16 ; 2026-07-18"},
+      {"date": "2026-07-22", "event": "Q1FY27 results: revenue Rs5,033cr (+32%), PAT Rs759cr (+76%), interim dividend Rs5 (record 28-Jul, pay by 18-Aug); board approves Rs250cr BOPET thick-film line (25,000 tpa, ~24 months)", "priceMove": "-2.44% to 2,867.20", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d0a3bb3-5ead-49eb-9ca5-8b3a978d3476.pdf ; https://scanx.trade/stock-market-news/companies/srf-approves-rs-250-crore-capex-for-bopet-thick-film-line/46258885", "published": "2026-07-22"},
+      {"date": "2026-07-23", "event": "Earnings call guides softer Q2/Q3 (seasonal ref-gas correction, PFF normalisation), Chemours slip of 3-4 months; SRF top Nifty 500 loser. Broker notes: PL Reduce Rs2,482, MOSL Buy Rs3,200, IDBI Buy Rs3,604", "priceMove": "-8.53% to 2,622.70 (largest one-day fall in 12+ months of data checked)", "src": "https://www.businesstoday.in/markets/stocks/story/despite-strong-q1-earnings-srf-stock-crashes-net-profit-revenue-heres-why-544795-2026-07-23 ; https://www.bajajbroking.in/share-market-news/srf-becomes-top-nifty-500-loser-despite-strong-q1-fy27-results", "published": "2026-07-23"},
+      {"date": "2026-07-24", "event": "Jefferies upgrades to Hold (TP Rs2,540 from Rs2,450); ICICI Direct Buy Rs3,160; Sharekhan 'All-round beat in Q1; H2 outlook better'", "priceMove": "+1.60% to 2,664.70", "src": "https://ca.marketscreener.com/quote/stock/SRF-LIMITED-6498495/news/ ; https://mailcontent.icicidirect.com/mailcontent/idirect_srf_q1fy27.pdf ; https://www.sharekhan.com/stock/srf-ltd", "published": "2026-07-24"},
+      {"date": "2026-07-28", "event": "Ex/record date for Rs5 interim dividend; income-tax demand for AY2022-23 cut to Rs9.46cr from Rs327.44cr via rectification order", "priceMove": "-0.12%", "src": "https://www.angelone.in/news/stocks/dividend-stocks-trading-ex-date-tomorrow-july-28-2026-srf-godrej-properties-solar-industries-and-more ; https://scanx.trade/stock-market-news/companies/srf-ltd-tax-demand-cut-to-9-46-cr-from-327-44-cr-via-rectification/46707217", "published": "2026-07-27 ; 2026-07-28"},
+      {"date": "2026-08", "event": "No company-specific catalyst found; CNBC-TV18 (20-Aug) notes stock -10.1% over the month, -15.6% YTD, 33 analysts (21 Buy/5 Hold/8 Sell)", "priceMove": "August -2.37% (2,622.50 to 2,560.40)", "src": "https://www.tradingview.com/news/cnbctv:16c9365ba094b:0/", "published": "2026-08-20"},
+      {"date": "2026-09-09", "event": "KAMA Holdings board approves off-market inter-se transfer of up to 32,00,000 SRF shares (1.08%) to wholly owned KAMA Realty (Delhi) at previous-day close, by 30-Sep; KAMA to invest Rs690.30cr in KAMA Realty (1,17,000 shares at Rs59,000)", "priceMove": "n/a", "src": "https://scanx.trade/stock-market-news/companies/kama-holdings-transfer-32-lakh-srf-shares-subsidiary-krdl/50510191 ; https://scanx.trade/stock-market-news/companies/kama-holdings-approves-690-30-crore-infusion-subsidiary-krdl/50510228", "published": "2026-09-09"},
+      {"date": "2026-09-10", "event": "KAMA Realty Reg 10(5) intimation (60-day NSE VWAP Rs2,710.70); promoter group unchanged at 50.26%", "priceMove": "close 2,519.00", "src": "https://scanx.trade/stock-market-news/companies/kama-realty-acquire-1-08-stake-srf-via-inter-se-transfer/50556330", "published": "2026-09-10"},
+      {"date": "2026-09-17", "event": "HSBC reiterates Buy Rs3,300 (China R32 export cut ~17kt Jan-Jul); Sharekhan sector note on the same theme", "priceMove": "+2.25% to 2,536.00 (intraday high 2,554)", "src": "https://businessupturn.com/finance/stock-market/srf-shares-surge-nearly-3-after-hsbc-maintains-buy-rating-with-rs-3-300-target-price/", "published": "2026-09-17"},
+      {"date": "2026-09-18 to 2026-09-24", "event": "Inter-se transfer executed in four tranches (10.00 / 9.95 / 10.10 / 1.95 lakh shares on 18, 21, 23, 24 Sep); KAMA Holdings 50.21% to 49.13%, KAMA Realty 0 to 1.08%; KAMA Realty Reg 10(6) report 24-Sep", "priceMove": "2,512.00 / 2,540.00 / 2,550.00 / 2,533.80", "src": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6A36D5B8_A987_411C_B2C9_7AB77EC4F7C1_112643.pdf ; https://www.bseindia.com/xml-data/corpfiling/AttachHis/A4C611EA_88EC_4CA3_A7A9_A9223219783C_172133.pdf ; https://scanx.trade/stock-market-news/companies/kama-realty-acquires-10-lakh-srf-shares-first-tranche-off-market/51355693", "published": "2026-09-21 ; 2026-09-23 ; 2026-09-25"},
+      {"date": "2026-09-23", "event": "President & CHRO Geeta Jadhav resigns (effective 23-Sep)", "priceMove": "+0.46%", "src": "https://scanx.trade/stock-market-news/companies/srf-ltd-accepts-resignation-chro-geeta-jadhav-effective-sep-23/51717494", "published": "2026-09-23"},
+      {"date": "2026-09-28", "event": "India Ratings assigns IND AA+/Stable to additional bank facilities, affirms existing (amount not shown). Earlier: India Ratings AA+/Stable, A1+ affirmed 10-Jun-2026; Crisil AA+/Stable, A1+ reaffirmed 21-May-2026", "priceMove": "n/a", "src": "https://trendlyne.com/credit-ratings/1283/SRF/srf-ltd", "published": "2026-09-28 (listing date)"},
+      {"date": "2026-09-29", "event": "No catalyst found", "priceMove": "-2.87% to 2,420.10 (lowest close of quarter)", "src": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260929_F_0000.csv.zip", "published": "2026-09-29"},
+      {"date": "2026-09-30", "event": "Trading-window closure intimation (ahead of Q2)", "priceMove": "+2.17% to 2,472.50", "src": "https://www.sharekhan.com/stock/srf-ltd", "published": "2026-09-30"}
+    ],
+    "excludedNearMisses": ["GST show-cause notice Rs266.32cr dated 29-Sep but disclosed 1-Oct-2026 (post-cutoff)", "New CHRO Jyothsana Vasudevan appointed 5-Oct-2026", "KAMA board dropping the 3% sale plan (~6-Nov-2026) and KAMA Realty open-market buying in Nov-2026"]
+  },
+  "holders": {
+    "pattern": "Quarter ended 30-Jun-2026 (latest public on 30-Sep-2026; statutory filing deadline 21-Jul-2026)",
+    "categories": {
+      "promoterPct": 50.26, "promoterShares": 148982500, "pledgedPct": 0,
+      "fiiPct": 15.45, "fpiCatIPct": 15.11, "fpiCatIIPct": 0.34,
+      "diiPct": 22.48, "mutualFundsPct": 13.47, "mfSchemes": 35, "insurancePct": 7.37, "banksFisPct": 0.04, "otherDiiPct": 1.60,
+      "publicPct": 11.81, "individualsUpTo2LakhPct": 7.56, "individualsAbove2LakhPct": 1.18, "nriPct": 1.38, "bodiesCorporatePct": 0.58, "iepfPct": 0.71,
+      "shareholders": 177423, "shareholdersMar2026": 180341,
+      "trend": "FII 16.67% (Mar-26) to 15.45%; MF 12.33% to 13.47%",
+      "src": "https://trendlyne.com/equity/share-holding/1283/SRF/30-06-2026/srf-ltd/ ; https://www.screener.in/company/SRF/consolidated/ ; https://plindia.com/ResReport/SRF-23-7-26-PL.pdf ; https://mailcontent.icicidirect.com/mailcontent/idirect_srf_q1fy27.pdf",
+      "published": "Jun-2026 pattern (filed by ~21-Jul-2026); PL 23-Jul-2026 shows Promoters 50.26 / FIIs 15.45 / MFs 13.47 / other DIIs 8.97 / public 11.85; ICICI Direct 24-Jul shows 50.3 / 15.4 / 22.4 / 11.8"
+    },
+    "named": [
+      {"name": "KAMA Holdings Ltd (promoter)", "pct": 50.21, "shares": 148845000},
+      {"name": "Arun / Ashish / Kartik Bharat Ram (promoter group)", "pct": 0.05, "note": "0.03 / 0.01 / 0.01"},
+      {"name": "Kotak Mahindra MF (listed under 'Kotak Aggressive Hybrid Fund')", "pct": 4.88, "shares": 14458929},
+      {"name": "LIC (listed as 'LICI New Endowment Plus-Secured Fund')", "pct": 3.33, "shares": 9879583},
+      {"name": "Government Pension Fund Global (Norges)", "pct": 1.98, "shares": 5879699},
+      {"name": "Government of Singapore", "pct": 1.75, "shares": 5201202},
+      {"name": "NPS Trust A/c LIC Pension Fund (UPS pool)", "pct": 1.42, "shares": 4202938},
+      {"name": "Amansa Holdings", "pct": 1.17, "shares": 3462724},
+      {"name": "HDFC Life Insurance", "pct": 1.04, "shares": 3069667},
+      {"src": "https://trendlyne.com/equity/share-holding/1283/SRF/30-06-2026/srf-ltd/", "published": "Jun-2026 pattern (page accessed 2026-11-13; Jun-2026 column)", "note": "Holders below 1% not disclosed (SBI MF etc. not named). Earlier SAST: Kotak MF crossed 5% (5.01%) on 30-Oct-2025."}
+    ],
+    "promoterTransactions": [
+      {"date": "2026-02-17", "what": "KAMA Holdings board approves sale of up to 3% of SRF in the open market by 31-Mar-2027 (could take KAMA below 50%)", "src": "https://scanx.trade/stock-market-news/orders-deals/kama-holdings-board-approves-disposal-of-up-to-3-stake-in-srf-limited/32861428", "published": "2026-02-17"},
+      {"date": "2026-04-06", "what": "KAMA shareholders approve via postal ballot (99.97% in favour); no open-market sale under this approval found by 30-Sep", "src": "https://scanx.trade/stock-market-news/companies/kama-holdings-shareholders-approve-disposal-of-srf-limited-stake-through-postal-ballot/37114462", "published": "2026-04-07"},
+      {"date": "2026-09-09", "what": "KAMA board approves inter-se transfer of up to 32,00,000 shares (1.08%) to KAMA Realty (Delhi) Ltd (wholly owned), at previous close, by 30-Sep", "src": "https://scanx.trade/stock-market-news/companies/kama-holdings-transfer-32-lakh-srf-shares-subsidiary-krdl/50510191", "published": "2026-09-09"},
+      {"date": "2026-09-18", "what": "Tranche 1: 10,00,000 shares; KAMA 14,78,45,000 (49.88%)", "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/A4C611EA_88EC_4CA3_A7A9_A9223219783C_172133.pdf", "published": "2026-09-23"},
+      {"date": "2026-09-21", "what": "Tranche 2: 9,95,000 shares; KAMA 14,68,50,000 (49.54%)", "src": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6A36D5B8_A987_411C_B2C9_7AB77EC4F7C1_112643.pdf", "published": "2026-09-21"},
+      {"date": "2026-09-23", "what": "Tranche 3: 10,10,000 shares; KAMA 14,58,40,000 (49.20%), KAMA Realty 30,05,000 (1.01%)", "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/A4C611EA_88EC_4CA3_A7A9_A9223219783C_172133.pdf", "published": "2026-09-23"},
+      {"date": "2026-09-24", "what": "Tranche 4 (final): 1,95,000 shares; KAMA 14,56,45,000 (49.13%), KAMA Realty 32,00,000 (1.08%); promoter group 14,89,82,500 (50.26%) unchanged; KAMA completed ~Rs550cr final tranche of its KAMA Realty subscription the same day", "src": "https://scanx.trade/stock-market-news/companies/kama-realty-acquires-10-lakh-srf-shares-first-tranche-off-market/51355693 ; https://scanx.trade/stock-market-news/companies/kama-holdings-completes-550-crore-equity-subscription-subsidiary/51792428", "published": "2026-09-25 ; 2026-09-24"}
+    ],
+    "asOf30SepPostTransfer": {"kamaHoldingsPct": 49.13, "kamaRealtyPct": 1.08, "promoterGroupPct": 50.26, "note": "Known from SAST disclosures by 24-Sep; the Sep-2026 shareholding pattern itself was filed after 30-Sep", "src": "https://scanx.trade/stock-market-news/companies/kama-realty-acquires-10-lakh-srf-shares-first-tranche-off-market/51355693", "published": "2026-09-25"}
+  },
+  "gaps": [
+    "Consensus FY27E/FY28E EPS, revenue and EBITDA (Bloomberg/FactSet) as of Jul-Sep 2026: not found. Latest dated vendor consensus is FactSet mean TP Rs2,986.56 / average rating Hold (7-May-2026). Only Q1-quarter consensus (revenue ~Rs4,260cr, EBITDA Rs917cr) found for the window.",
+    "Motilal Oswal Jul-2026 (Rs3,200) segment multiples and absolute estimates not found (only SOTP + FY26-28E CAGRs).",
+    "IDBI Capital (Rs3,604), Jefferies (Rs2,540), HSBC (Rs3,300), Axis (Rs3,160), Citi, UBS, Avendus Spark, Geojit: valuation method/multiples not found.",
+    "Kotak: no pre-cutoff source found; FV Rs2,380 and chemicals 18x are known only from the 23-Oct-2026 note; the date and rating of the note that set Rs2,380 are unknown.",
+    "Nuvama: latest dated call found is Buy Rs3,584 (21-Jan-2026); May-Sep 2026 notes (likely after Q4 and Q1) not found; chemicals 25x known only from a 23-Oct-2026 Mint article.",
+    "Morgan Stanley: standing Rs2,209 known only from a 21-Oct-2026 article; date of that note unknown. Last pre-cutoff-verified call UW Rs2,177 (21-Jan-2026).",
+    "No 2026 notes found for Goldman Sachs, Nomura, CLSA, Macquarie, BofA, Investec, Ambit, IIFL Capital, 360 ONE, Aditya Birla, Systematix; no Jul-Sep notes for Emkay, Elara, Antique, JM, Axis, Citi, UBS (web-search budget exhausted).",
+    "Sharekhan 24-Jul-2026 stock update: rating and TP not visible.",
+    "PVDF commissioning (guided by end-Q2FY27, i.e. by 30-Sep) not confirmed by any public announcement on or before 30-Sep.",
+    "BOPP-BOPE line start (guided for July 2026) not confirmed on or before 30-Sep.",
+    "No specific news cause found for falls on 4-Sep, 11-Sep and 29-Sep-2026.",
+    "Refrigerant policy/price news Jul-Sep 2026 (China quota, India DGTR/ADD, R32 prices) not covered beyond the 17-Sep China R32 export-cut notes (HSBC, Sharekhan).",
+    "Exact filing date of the Jun-2026 shareholding pattern and official BSE/NSE pattern pages not accessed (BSE API returned 403); figures from Trendlyne, cross-checked with Screener, PL and ICICI Direct.",
+    "Size of India Ratings' 28-Sep-2026 additional bank facilities not shown.",
+    "Conflict: CNBC-TV18 (20-Aug) prints 33 analysts but 21+5+8 = 34.",
+    "Conflict: 52-week range - NSE 3,210/2,355 vs PL 3,260/2,313 vs ICICI Direct 3,239/2,314 (as of late Jul).",
+    "Conflict: Q1FY27 EBITDA Rs1,372.6cr (company EBIDTA, incl. other income, pre-forex) vs Rs1,236.6cr (Bajaj/ICICI/PL, ex-other income, post-forex).",
+    "Conflict: PL TP printed as Rs2,482 (exhibit) and Rs2,485 (text) in the 23-Jul note.",
+    "Conflict: ICICI Direct 24-Jul mentions an 'additional Rs250 crore' specialty-intermediates approval not found in company filings (company announced Rs250cr BOPET thick-film line).",
+    "Conflict: Business Today (23-Jul) says the stock 'fell to Rs2,614.75' (BSE intraday low); NSE close was 2,622.70 and BSE close 2,622.05."
+  ]
+}

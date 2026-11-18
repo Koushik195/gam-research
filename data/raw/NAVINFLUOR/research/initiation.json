@@ -1,0 +1,3520 @@
+{
+ "symbol": "NAVINFLUOR",
+ "listing": "NSE: NAVINFLUOR · BSE: 532504",
+ "date": "30 September 2026",
+ "rating": "HOLD",
+ "analysts": "GAM Research — Chemicals",
+ "cover": {
+  "headline": "Three engines firing at once, and a price that already assumes they keep firing",
+  "lead": "Navin Fluorine makes refrigerant gases and hydrofluoric acid (HPP, 49% of FY26 revenue), fluorinated intermediates for agrochemical and pharma innovators (specialty, 35%) and pharma ingredients under contract (CDMO, 16%). After two flat years, five years of capex started to pay in FY26: revenue +41%, net profit +130%, EBITDA margin 32.6%; Q1FY27 added +44% and +108%. The street values the stock on **P/E on FY28E earnings (34-45x)**. Applying **36x to Sep-28E EPS of ₹225.9** gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with HOLD.** The business is excellent; the price already pays for it. The cross-checks agree or are lower (EV/EBITDA ₹8,025, DCF ₹4,076). Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "All three businesses are growing fast",
+    "p": "Q1FY27: HPP ₹540 cr (+33%), specialty ₹325 cr (+48%), CDMO ₹180 cr (+82%). New capacity arrives every quarter of FY27: AHF (Feb-2026), Dahej MPP debottleneck (29-Sep-2026), 15,000 t of R32 (Q3), Chemours (end-Q2), cGMP4 phase 2 (Q4)."
+   },
+   {
+    "h": "The refrigerant boom has an expiry date",
+    "p": "China's R32 price hit a decade high in Jun-2026 (CNY62,700-65,500/t) and India's HFC quotas freeze from Jan-2028 on 2024-26 output. But calendar 2027 is a \"free year\": anyone with capacity may sell, and ~81 kt of new Indian R32 capacity is coming (HSBC). Management itself says India will be \"oversupplied for five years\". We assume softer prices in FY28."
+   },
+   {
+    "h": "Great customers, but few of them",
+    "p": "Three customers were 39% of FY26 revenue. The CDMO business rests on one molecule for one partner (the darolutamide intermediate for Fermion), Chemours has one plant (Navin's), and the Honeywell HFO contract runs to 2029. These contracts are the moat, and also the risk."
+   },
+   {
+    "h": "Valuation: fair, not cheap",
+    "p": "At ₹8,245 the stock trades at 39.6x our FY28E EPS, close to the street's 40x average and 4% below its record weekly close. Navin's one-year-forward P/E has a ~45x median since 2021, and Indian chemical stocks have de-rated ~19%; 36x gives {{dcf.upside|chg}}. We would buy below ~₹7,070."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "AMBER"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): margin after raw-material inflation; first months of the Dahej MPP debottleneck.",
+   "Commissioning of the 15,000 t R32-equivalent plant (Q3FY27) and how much of it is sold on five-year contracts (target 35-45%).",
+   "Chemours liquid-cooling plant start (end-Q2FY27) and early orders from data-centre customers.",
+   "FDA read-outs on 3-4 CDMO molecules in the next 8-12 months; CDMO revenue against the US$100 mn FY27 target.",
+   "India's final HFC quota rules (government view expected early 2027) and China's 2027 quota."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "Revenue nearly tripled since FY21; all three engines grew",
+       "unit": "Revenue by business (₹ crore)",
+       "x": "R.segments.annual[].fy",
+       "series": [
+        {
+         "name": "HPP (refrigerants, HFO, AHF)",
+         "ref": "R.segments.annual[].hppRev",
+         "fmt": "num"
+        },
+        {
+         "name": "Specialty chemicals",
+         "ref": "R.segments.annual[].specialtyRev",
+         "fmt": "num"
+        },
+        {
+         "name": "CDMO",
+         "ref": "R.segments.annual[].cdmoRev",
+         "fmt": "num"
+        },
+        {
+         "name": "Unallocated (old classification)",
+         "ref": "R.segments.annual[].unallocatedRev",
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 150,
+       "source": "Annual reports FY21-FY26"
+      },
+      {
+       "type": "stacked",
+       "title": "Quarterly revenue doubled in two years",
+       "unit": "Revenue by business, quarterly (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "HPP",
+         "values": [
+          281,
+          293,
+          306,
+          326,
+          407,
+          404,
+          412,
+          393,
+          540
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Specialty",
+         "values": [
+          162,
+          158,
+          221,
+          259,
+          219,
+          220,
+          354,
+          360,
+          325
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "CDMO",
+         "values": [
+          81,
+          68,
+          79,
+          115,
+          99,
+          134,
+          127,
+          186,
+          180
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 90,
+       "source": "Quarterly investor presentations"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 19% in FY24, ~34% now; we assume ~32-33%",
+       "unit": "EBITDA margin (%)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 40,
+       "source": "Screener.in; GAM estimates FY27-29E"
+      },
+      {
+       "type": "column",
+       "title": "CDMO: lumpy history, now scaling",
+       "unit": "CDMO revenue (₹ crore); FY27E = GAM",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E"
+       ],
+       "series": [
+        {
+         "name": "CDMO",
+         "values": [
+          172.86,
+          279.17,
+          298,
+          448,
+          262,
+          342.82,
+          546.43,
+          820
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Annual reports; GAM estimate (management target US$100 mn ≈ ₹870 cr)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Indian R32 capacity is growing faster than demand",
+       "unit": "R32 capacity, thousand tonnes a year (PL, May-2026); India demand ~17-18 kt",
+       "x": [
+        "SRF (mid-point)",
+        "Navin after expansion",
+        "Gujarat Fluorochem",
+        "Navin today",
+        "Stallion India"
+       ],
+       "series": [
+        {
+         "name": "Capacity",
+         "values": [
+          27.5,
+          24,
+          10,
+          9,
+          4
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Navin after expansion",
+       "lines": [
+        {
+         "v": 17.5,
+         "axis": "x",
+         "text": "India demand",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "PL (25-May-2026); SRF CMD (Jan-2026) for demand"
+      },
+      {
+       "type": "hbar",
+       "title": "Three customers = 39% of FY26 revenue",
+       "unit": "Revenue from customers above 10% of sales, FY26 (% of revenue)",
+       "x": [
+        "Customer A",
+        "Customer B",
+        "Customer C",
+        "All other customers"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          16.4,
+          11.8,
+          10.3,
+          61.5
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Annual report FY26, note 43 (names not disclosed)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: ~40x now, ~45x median since 2021",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          13,
+          13.4,
+          12.5,
+          12.3,
+          14.3,
+          17.3,
+          16.8,
+          19.2,
+          21.9,
+          26,
+          26.7,
+          28,
+          30.1,
+          33.2,
+          37.7,
+          37.2,
+          47.5,
+          49.4,
+          47,
+          47.9,
+          36.7,
+          44.5,
+          44.2,
+          51.4,
+          49.1,
+          51.5,
+          44.1,
+          50.6,
+          52.7,
+          52,
+          54,
+          73.9,
+          67.6,
+          67.5,
+          82,
+          80.1,
+          84.5,
+          78.8,
+          74.9,
+          70,
+          77.4,
+          73.1,
+          81.6,
+          80,
+          75.4,
+          77.5,
+          64.7,
+          60.8,
+          65.4,
+          60.7,
+          54.5,
+          53.2,
+          25.6,
+          24.6,
+          28.3,
+          27.4,
+          25.3,
+          26.1,
+          25.7,
+          25.6,
+          31.9,
+          31.5,
+          22.8,
+          23.6,
+          26,
+          27.8,
+          26,
+          25.6,
+          33.2,
+          34,
+          34.2,
+          36.3,
+          33.6,
+          32.8,
+          33.8,
+          37.1,
+          39.6,
+          41.3
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 45,
+         "text": "Median since 2021: ~45x"
+        }
+       ],
+       "source": "Screener.in prices; actual EPS, GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street",
+       "unit": "₹ per share; CMP ₹8,245",
+       "x": [
+        "ICICI Sec.",
+        "Ambit",
+        "Elara",
+        "Nuvama",
+        "UBS",
+        "Axis Sec.",
+        "JM Financial",
+        "Jefferies",
+        "Prabhudas Lilladher",
+        "Motilal Oswal",
+        "Citi",
+        "Morgan Stanley",
+        "Kotak",
+        "Equirus",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          9635,
+          9600,
+          9185,
+          9071,
+          9045,
+          9040,
+          9000,
+          9000,
+          8812,
+          8300,
+          7200,
+          5720,
+          5250,
+          4700,
+          8130
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and press round-ups (Aug-2026), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What it does",
+   "kicker": "The business",
+   "title": "One fluorine platform, three businesses that look nothing alike",
+   "blocks": [
+    {
+     "p": "Everything Navin makes starts with fluorine. It buys fluorspar (mostly imported), turns it into hydrofluoric acid (HF) at Surat and now Dahej, and uses that HF three ways. **HPP** sells HF itself, refrigerant gases (R22 and R32 under the Mafron brand), inorganic fluorides such as boron trifluoride, and an HFO (a new low-global-warming refrigerant/blowing agent) made only for Honeywell under a US$410 mn contract. **Specialty chemicals** makes fluorinated building blocks for agrochemical and pharma innovators, mostly as campaigns in multi-purpose plants (MPPs) plus one dedicated plant (Project Nectar) for a marquee customer. **CDMO** (Navin Molecular, Dewas) makes advanced intermediates for drug companies under contract, mainly for Fermion (part of Orion), which makes darolutamide, the active ingredient in Bayer's prostate-cancer drug Nubeqa. A fourth business, **advanced materials** (data-centre cooling fluid for Chemours, electronic-grade HF, defence materials), is being incubated."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The three verticals in FY26",
+      "head": [
+       "Vertical",
+       "Revenue (₹ cr)",
+       "Share",
+       "Growth",
+       "Exports",
+       "What drives it"
+      ],
+      "wide": [
+       5
+      ],
+      "rows": [
+       [
+        "**HPP**",
+        "1,615",
+        "49%",
+        "+34%",
+        "55%",
+        "R32/R22 prices and volumes; HFO for Honeywell (contract to 2029, 3-year extension option); AHF sales from Feb-2026"
+       ],
+       [
+        "**Specialty chemicals**",
+        "1,152",
+        "35%",
+        "+44%",
+        "71%",
+        "Agro innovators' campaigns (13 new molecules in FY26); Project Nectar; MPP utilisation (~80% visibility for FY27)"
+       ],
+       [
+        "**CDMO**",
+        "546",
+        "16%",
+        "+59%",
+        "96%",
+        "Fermion (darolutamide) on a dedicated cGMP4 block; ~50-55 molecules in work"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Consolidated**",
+         "3,314",
+         "100%",
+         "+41%",
+         "67%",
+         "India ₹1,110 cr, USA ₹761 cr, rest of world ₹1,443 cr"
+        ]
+       }
+      ],
+      "source": "Annual report FY26 (revenue mix p.178; segment note 43)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Assets and capabilities",
+      "head": [
+       "",
+       "Detail"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Plants",
+        "Surat (refrigerants, HF, BF3, specialty, R&D centre); Dahej via subsidiary NFASL (HFO for Honeywell, MPPs, Project Nectar, AHF 40,000 t); Dewas (CDMO cGMP1-4); Runcorn, UK (Manchester Organics research lab)"
+       ],
+       [
+        "HF capacity",
+        "~60,000 t of anhydrous HF between Surat and Dahej: \"good enough for us over the next four to five years\" (CFO, Aug-2026)"
+       ],
+       [
+        "R32",
+        "9,000-10,000 t today; +15,000 t R32-equivalent from Q3FY27 (₹236.5 cr)"
+       ],
+       [
+        "People and R&D",
+        "1,498 employees (Mar-2025); R&D spend ₹48.7 cr in FY26 (1.5% of revenue); three R&D centres"
+       ],
+       [
+        "Customers",
+        "900+ customers; but three were 38.5% of FY26 revenue"
+       ]
+      ],
+      "source": "Company presentations (Apr-2026, Aug-2026), annual report FY26, Q1FY27 call"
+     }
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From India's first refrigerant maker (1967) to a contract-led fluorine platform",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1967-1969",
+        "Mafatlal group sets up the Surat site; commercial production of refrigerant gases from 1969 (one of India's first; Mafron brand)",
+        "Origin of the HPP business and the HF / fluorine chemistry base"
+       ],
+       [
+        "1978-2009",
+        "Dewas site (1978); boron trifluoride, fluoro-aromatics and other specialty plants at Surat (2000-2008); dedicated CDMO unit at Dewas (2009)",
+        "Builds the specialty and CDMO verticals"
+       ],
+       [
+        "2011",
+        "Acquires controlling stake in Manchester Organics (Runcorn, UK), a research-chemistry company",
+        "Early-stage CDMO / research capability"
+       ],
+       [
+        "Jun-2017",
+        "Shares split 5-for-1 (₹10 to ₹2 face value)",
+        "Share count ~4.9 cr thereafter"
+       ],
+       [
+        "2020",
+        "Third cGMP multi-purpose plant commissioned at Dewas",
+        "CDMO capacity behind FY21-23 growth"
+       ],
+       [
+        "FY21",
+        "US$410 mn multi-year contract with a global company (Honeywell) for an HFO; ~₹365 cr plant + ₹71 cr captive power at Dahej via NFASL; Dahej greenfield site",
+        "HFO commercialised Jul-2022; ~₹460-470 cr a year of revenue (analyst reading of annual reports); 7-year term + 3-year extension option"
+       ],
+       [
+        "FY23",
+        "Record year: revenue +43% to ₹2,077 cr; HPP +64% on HFO and refrigerant prices; ₹450 cr AHF and ₹80 cr R32 capex approved",
+        "EBITDA margin 26.5%"
+       ],
+       [
+        "Oct-Dec 2023",
+        "MD Radhesh Welling resigns (effective 15-Dec-2023) days after re-appointment; stock falls ~16% in four days",
+        "Leadership gap during a capex-heavy downturn"
+       ],
+       [
+        "FY24",
+        "Downturn: revenue flat (₹2,065 cr), CDMO -42%, R22 prices weak; first R32 plant starts; multi-year contract with a European CDMO major (Fermion, for the darolutamide intermediate); ₹288 cr cGMP4 approved (Feb-2024)",
+        "EBITDA margin 19.3%, PAT -28%"
+       ],
+       [
+        "Jun-2024",
+        "Nitin Kulkarni appointed MD (24-Jun-2024 to 23-Jun-2029)",
+        "New management; cost actions in FY25-26"
+       ],
+       [
+        "Dec-2024 / Mar-2025",
+        "Project Nectar (₹540 cr) starts; second R32 plant (₹84 cr) commissioned",
+        "Specialty and HPP capacity for FY26 growth"
+       ],
+       [
+        "May-2025",
+        "Agreement with Chemours to make Opteon two-phase immersion cooling fluid (data centres)",
+        "Entry into advanced materials"
+       ],
+       [
+        "Jul-2025",
+        "₹750 cr QIP: 16,02,564 shares at ₹4,680 (allotted 11-Jul-2025)",
+        "~3.2% dilution; balance sheet de-levered (net debt/equity 0.01x at Mar-26)"
+       ],
+       [
+        "FY26",
+        "Breakout year: revenue +41% to ₹3,314 cr, EBITDA x2 to ₹1,082 cr (margin 32.6%), PAT +130% to ₹664 cr; AHF commissioned Feb-2026; cGMP4 phase 1 in Q3",
+        "ROE 20%, ROCE 21%"
+       ],
+       [
+        "Aug-2026",
+        "Q1FY27: revenue +44%, PAT +108%; ₹90 cr advanced-materials and ₹125 cr cGMP4 phase-2 capex; DRDO project",
+        "Stock +8% next day"
+       ],
+       [
+        "29-Sep-2026",
+        "₹75 cr Dahej MPP debottlenecking commissioned",
+        "Peak ₹140-160 cr revenue a year"
+       ]
+      ],
+      "source": "Annual reports FY21-FY26, investor presentations and calls, press"
+     }
+    },
+    {
+     "callout": "**Corporate actions:** a 5-for-1 share split (₹10 to ₹2 face value, 2017); one equity raise in recent years, the ₹750 cr QIP at ₹4,680 a share in Jul-2025 (~3% dilution); no bonus issue or buyback. The dividend was ₹15.1 a share in FY26 (₹12 in FY25), but the payout is low (~12% of consolidated profit) because most cash goes into capex. Leadership: the MD resigned in 2023 days after being re-appointed; Nitin Kulkarni took over in Jun-2024, under Executive Chairman Vishad Mafatlal (the promoter)."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Refrigerants at a cyclical high, pharma outsourcing growing, agro still weak",
+   "blocks": [
+    {
+     "p": "Navin sells into three very different markets. **Refrigerants** are a regulated commodity: the Kigali Amendment to the Montreal Protocol caps production of HFCs (gases such as R32 used in air-conditioners) country by country. China, the biggest producer, has run on quotas since 2024, and its R32 price reached a decade high in mid-2026. India freezes HFC output from Jan-2028 at the 2024-26 average plus a share of old HCFC (R22) production, so producers raced to run plants flat out and add capacity before the freeze. **Pharma CDMO** grows with drug companies outsourcing and with \"China plus one\" sourcing, but each contract depends on one drug's success. **Agro intermediates** are recovering in volume after the 2023-25 destocking, but prices remain under Chinese pressure."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Refrigerants: the facts that matter",
+      "head": [
+       "Theme",
+       "Fact",
+       "Source date"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "India quota rules",
+        "Freeze from 1-Jan-2028 at the 2024-26 average plus 65% of the HCFC baseline; cuts of 10% by 2032 and 20% by 2037. New capacity must be up by 31-Dec-2027; calendar 2027 is a \"free year\".",
+        "Apr-2026"
+       ],
+       [
+        "China",
+        "2026 HFC production quota 797,800 t (top six firms ~90%); draft 2027 quota keeps the framework. R32 CNY62,700-65,500/t in Jun-2026, a decade high; R32 exports Jan-Apr 2026 −50% YoY.",
+        "Jun-2026"
+       ],
+       [
+        "China exports",
+        "China cut R32 exports ~17 kt in Jan-Jul 2026, helping Indian producers (HSBC).",
+        "Sep-2026"
+       ],
+       [
+        "India supply",
+        "Capacity: SRF ~25-30 kt, Gujarat Fluorochemicals ~10 kt, Navin ~9 kt (+15 kt), Stallion ~4 kt (new); domestic demand ~17-18 kt. ~81 kt of new Indian capacity into 2027 (HSBC).",
+        "May-Sep 2026"
+       ],
+       [
+        "Price outlook",
+        "Navin: China R32 \"close to about $9\" a kg (Apr-2026); Sharekhan: R32 prices to ease in CY2027 as new supply arrives.",
+        "Apr / Sep 2026"
+       ],
+       [
+        "US and EU",
+        "US AIM Act: allowances 60% of baseline 2024-28, 30% from 2029. EU: HFC consumption phase-out by 2050. Long-run demand moves to HFOs and low-GWP blends (R32 is a blend component).",
+        "2025"
+       ]
+      ],
+      "source": "MoEFCC, BigGo Finance/SunSirs (China prices), PL (25-May-2026), HSBC and Sharekhan (17-Sep-2026), Navin calls, US EPA"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "China R32 price: a decade high in 2026",
+       "unit": "China R32 price, CNY per tonne",
+       "x": [
+        "Dec-2025",
+        "Jun-2026 (E. China avg)",
+        "Jun-2026 (Zhejiang high)"
+       ],
+       "series": [
+        {
+         "name": "R32",
+         "values": [
+          63000,
+          62700,
+          65500
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "source": "SunSirs (12-Dec-2025); BigGo Finance (12/16-Jun-2026)"
+      },
+      {
+       "type": "hbar",
+       "title": "What we pay for each kind of business",
+       "unit": "Trailing P/E at the 30-Sep-2026 close (x)",
+       "x": [
+        "Divi's (pure CDMO)",
+        "Navin Fluorine",
+        "SRF (fluoro + films)",
+        "PI Industries (agro CSM)",
+        "Aarti Industries"
+       ],
+       "series": [
+        {
+         "name": "P/E",
+         "values": [
+          82.8,
+          53.2,
+          32.7,
+          32.6,
+          33.1
+         ],
+         "fmt": "x"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Navin Fluorine",
+       "source": "Screener.in at the NSE close"
+      }
+     ]
+    },
+    {
+     "callout": "**So what:** the refrigerant tailwind is real and has a regulatory floor from 2028, but the next 15 months are the riskiest: every Indian producer is adding capacity to secure quota, and those tonnes must be sold somewhere in 2027. Navin's answer is to lock 35-45% of the new plant into five-year contracts and to stay the lowest-cost producer via its own HF. We model softer R32 prices in FY28."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: Navin is catching most of the tailwinds",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "HFC phase-down / quota scarcity",
+       "Yes",
+       "HPP revenue ₹955 cr (FY24) to ₹1,615 cr (FY26); Q1FY27 +33%; R32 plants run flat out to build quota history; +15 kt before the Dec-2027 deadline.",
+       "The biggest profit driver today, and the most cyclical."
+      ],
+      [
+       "China plus one in pharma (CDMO)",
+       "Yes",
+       "CDMO ₹262 cr (FY24) to ₹546 cr (FY26); Q1FY27 +82%; dedicated cGMP4 block for Fermion; moving to API-minus-1.",
+       "Real, but concentrated in one molecule."
+      ],
+      [
+       "Agro innovators outsourcing fluorinated intermediates",
+       "Partly",
+       "Specialty ₹848 cr (FY24), ₹800 cr (FY25, −6%), ₹1,152 cr (FY26, +44%); management: \"pricing pressure continues\"; Nectar utilisation slower than hoped.",
+       "Volume growth, no pricing power."
+      ],
+      [
+       "AI data centres (immersion cooling)",
+       "Early",
+       "Chemours plant (₹120 cr) due end-Q2FY27; Navin is Chemours' only site; Chemours booked only ~US$1 mn of sales in a quarter.",
+       "An option; not in our numbers in any size."
+      ],
+      [
+       "Semiconductors / electronics (electronic-grade HF)",
+       "Not yet",
+       "Technology tie-up with Buss ChemTech (2025); ₹90 cr adoption plant (Q2FY28); 4-5 lab-approved products.",
+       "Long-dated; payback five to six years out (Kotak)."
+      ],
+      [
+       "Indian AC demand growth",
+       "Partly",
+       "HPP India share rose to 55% in Q4FY26 (46% in Q1FY27); domestic R32 demand only ~17-18 kt vs much larger capacity.",
+       "India alone cannot absorb the new tonnes."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "Navin Fluorine annual reports and investor presentations, GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "hpp",
+   "nav": "HPP (refrigerants, HFO, HF)",
+   "kicker": "Vertical 1",
+   "title": "HPP: ₹1,615 cr of revenue riding the refrigerant cycle",
+   "blocks": [
+    {
+     "p": "HPP is half of Navin and the main reason for the FY26 profit jump. It has four parts: **R22 and R32 refrigerants** (sold in India and exported; R22 also feeds fluoropolymers), **HFO** made at Dahej only for Honeywell (commercialised Jul-2022, seven-year term plus a three-year option; running at ~80% of capacity), **anhydrous HF** (new 40,000 t Dahej plant commissioned Feb-2026, partly sold to outside customers until Navin's own downstream plants need it), and **inorganic fluorides** such as boron trifluoride, where Navin is one of the largest global producers. HPP revenue was flat at ~₹400 cr a quarter through FY26, then jumped to ₹540 cr in Q1FY27 on AHF sales, higher R32 prices and the summer air-conditioner season."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "HPP revenue: +34% in FY26; we expect +27% in FY27",
+       "unit": "HPP revenue (₹ crore); FY27-29E = GAM",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "HPP",
+         "values": [
+          468.37,
+          401.18,
+          540,
+          886,
+          955,
+          1206.14,
+          1615.38,
+          2050,
+          2420,
+          2710
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Annual reports (FY20-22 old classification); GAM estimates"
+      },
+      {
+       "type": "column",
+       "title": "Quarterly HPP: a step up in Q1FY27",
+       "unit": "HPP revenue, quarterly (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "HPP",
+         "values": [
+          281,
+          293,
+          306,
+          326,
+          407,
+          404,
+          412,
+          393,
+          540
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Quarterly investor presentations"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The new R32 plant: what it could earn",
+      "head": [
+       "",
+       "Value",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Capacity added",
+        "15,000 t a year (R32-equivalent)",
+        "Commissioning Q3FY27; capex ₹236.5 cr (internal accruals)"
+       ],
+       [
+        "Management \"peak revenue\"",
+        "₹600-825 cr a year",
+        "The board's downside case: implies ~US$5-6/kg at full use"
+       ],
+       [
+        "At China's Apr-2026 price (~US$9/kg)",
+        "~₹1,175 cr a year",
+        "GAM arithmetic: 15,000 t × US$9 × ₹87; not a forecast"
+       ],
+       [
+        "Contracted share",
+        "35-45% on five-year contracts",
+        "\"A couple of contracts\" signed by Aug-2026; ~30-40% of the new capacity contracted (PL, Aug-2026)"
+       ],
+       [
+        "Our FY28E assumption",
+        "HPP +18%",
+        "New plant at ~60% use; legacy R32 prices lower in the 2027 free year"
+       ],
+       [
+        "Sensitivity",
+        "~₹209 cr of revenue (~₹31 of EPS) per US$1/kg",
+        "On ~24 kt of total R32 at full use, if the whole price change reaches profit (GAM arithmetic)"
+       ]
+      ],
+      "source": "Q1FY27 presentation and call, Q4FY26 call, PL (21-Aug-2026), GAM Research"
+     }
+    },
+    {
+     "callout": "**Our view:** HPP's FY26-27 growth is a mix of better plants (AHF, R32 phase 2) and a very strong price cycle. The quota from 2028 should keep prices from collapsing, but 2027 will test it: ~81 kt of new Indian capacity versus ~17-18 kt of domestic demand. Each US$1/kg on R32 moves our EPS by roughly ₹31 at full volumes, about 15% of FY28E EPS. That is why we do not pay a CDMO-style multiple for half of the business."
+    }
+   ]
+  },
+  {
+   "id": "specialty",
+   "nav": "Specialty chemicals",
+   "kicker": "Vertical 2",
+   "title": "Specialty chemicals: volume up, prices flat, plants filling",
+   "blocks": [
+    {
+     "p": "Specialty chemicals makes fluorinated intermediates (key starting materials) for global agrochemical companies and some pharma customers. It is a campaign business: a customer orders a few hundred tonnes of a molecule, Navin runs it in a multi-purpose plant for weeks, then switches to the next. Revenue fell 6% in FY25 as the global agro industry destocked, then rose 44% in FY26 to ₹1,152 cr as the Dahej plants filled and 13 new molecules were added. Q1FY27 was ₹325 cr (+48%), below the ₹354-360 cr of the previous two quarters because of campaign timing."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Specialty: a lost FY25, then +44%",
+       "unit": "Specialty revenue (₹ crore); FY27-29E = GAM",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Specialty",
+         "values": [
+          381.04,
+          452.75,
+          566,
+          743,
+          848,
+          800.42,
+          1152.09,
+          1435,
+          1665,
+          1900
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Annual reports; GAM estimates"
+      },
+      {
+       "type": "column",
+       "title": "Quarterly specialty: campaign-driven swings",
+       "unit": "Specialty revenue, quarterly (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Specialty",
+         "values": [
+          162,
+          158,
+          221,
+          259,
+          219,
+          220,
+          354,
+          360,
+          325
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Quarterly investor presentations"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Growth blocks for FY27-29",
+      "head": [
+       "Block",
+       "Status (to Sep-2026)",
+       "What it adds"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Project Nectar (₹540 cr dedicated plant, Dahej)",
+        "Started Dec-2024; 50-60% utilisation in FY27; 75-80% by end-FY28 (\"slower than we would have liked\")",
+        "Contracted volumes for a marquee customer plus qualification for 2-3 others"
+       ],
+       [
+        "Dahej MPP debottleneck (₹75 cr)",
+        "Commissioned 29-Sep-2026; purchase order for CY26",
+        "₹140-160 cr a year at peak (~2x asset turn)"
+       ],
+       [
+        "New agro molecules",
+        "Campaign orders for 4-5 molecules in FY27, three patented",
+        "Management: these are ~15% of the year's expanded revenue (Axis)"
+       ],
+       [
+        "Chemours (classified here until advanced materials is split out)",
+        "Plant due end-Q2FY27 (slipped from Q1)",
+        "Ramp-up over ~15 months; revenue confidential"
+       ],
+       [
+        "Pricing",
+        "\"While volume growth is recovering, pricing pressure continues to remain, particularly in the LatAm market\"",
+        "No price tailwind in our model"
+       ]
+      ],
+      "source": "Q4FY26 and Q1FY27 calls and presentations; Dahej MPP filing (29-Sep-2026); Axis (21-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Our view:** specialty is the least differentiated of the three: China makes the same intermediates at scale, and the CFO concedes the business will not return to the \"old days of 30% EBITDA\". Growth now comes from filling plants already built, which is good for returns. We assume +25% in FY27 and mid-teens after."
+    }
+   ]
+  },
+  {
+   "id": "cdmo",
+   "nav": "CDMO (Navin Molecular)",
+   "kicker": "Vertical 3",
+   "title": "CDMO: one blockbuster drug, a US$100 mn target and a lot of concentration",
+   "blocks": [
+    {
+     "p": "CDMO (contract development and manufacturing) means making drug intermediates to a pharma customer's recipe under strict quality rules (cGMP). Navin's CDMO revenue has swung wildly: ₹448 cr in FY23, ₹262 cr in FY24 (−42%), ₹546 cr in FY26 (+59%) and ₹180 cr in Q1FY27 alone (+82%). The swing factor is a multi-year contract signed in FY24 with Fermion, Orion's API unit, for an intermediate of darolutamide (Bayer/Orion's Nubeqa), a prostate-cancer drug that the CFO says could reach ~US$5 bn of peak sales. Navin built a dedicated block in cGMP4 (₹288 cr approved Feb-2024; phase 1 running since Q3FY26) and has started phase 2 (₹125 cr, ready Q4FY27). It is also moving one step closer to the final drug (API-minus-1) and working on an early-stage molecule for the same customer."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "CDMO revenue: we assume ₹{{as.businessLines.FY27E.cdmo|num}} cr in FY27",
+       "unit": "CDMO revenue (₹ crore); FY27-29E = GAM",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "CDMO",
+         "values": [
+          172.86,
+          279.17,
+          298,
+          448,
+          262,
+          342.82,
+          546.43,
+          820,
+          1025,
+          1210
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Annual reports; GAM estimates"
+      },
+      {
+       "type": "column",
+       "title": "Quarterly CDMO: ₹180-186 cr a quarter now",
+       "unit": "CDMO revenue, quarterly (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "CDMO",
+         "values": [
+          81,
+          68,
+          79,
+          115,
+          99,
+          134,
+          127,
+          186,
+          180
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Quarterly investor presentations"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The CDMO arithmetic",
+      "head": [
+       "",
+       "Value",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "FY27 target",
+        "US$100 mn (~₹870 cr)",
+        "\"Very much on track\" (Aug-2026); Q1 run-rate ₹720 cr a year"
+       ],
+       [
+        "Our FY27E",
+        "₹820 cr (+50%)",
+        "About 95% of the target"
+       ],
+       [
+        "cGMP4 at ~3x asset turn",
+        "~₹864 cr a year",
+        "Management: by FY29 \"maybe sooner\"; on top of the older cGMP1-3 plants"
+       ],
+       [
+        "Pipeline",
+        "30-40 molecules in work (50-55 in April), ~10 late stage",
+        "3-4 FDA read-outs in the next 8-12 months; one recent read-out \"didn't come quite well\""
+       ],
+       [
+        "Our FY28-29E",
+        "₹1,025 cr / ₹1,210 cr",
+        "Phase 2 for a full year; new molecules only if approved"
+       ]
+      ],
+      "source": "Q4FY26 and Q1FY27 calls; GAM Research"
+     }
+    },
+    {
+     "callout": "**Our view:** this is the most valuable part of Navin and the hardest to forecast. A blockbuster drug on a dedicated block is about as good as Indian CDMO gets, and Navin's contract terms are not public (the CFO refused to discuss pricing). But one molecule and one customer drive most of the growth; the FY24 collapse shows how quickly CDMO revenue can fall when campaigns end. We do not give Navin a Divi's-like multiple for it."
+    }
+   ]
+  },
+  {
+   "id": "advanced",
+   "nav": "Advanced materials",
+   "kicker": "The option",
+   "title": "Advanced materials: a good idea that will not move the numbers before FY29",
+   "blocks": [
+    {
+     "p": "Management wants a fourth vertical, as large as today's CDMO business by the end of the decade (~10-15% of revenue by FY30; ~₹1,400 cr of revenue by FY35, as reported from the Aug-2026 analyst meet). It rests on three projects: the **Chemours** plant for Opteon, a two-phase immersion cooling fluid for AI data centres (₹120 cr, 35% paid by Chemours, Navin the only manufacturing site, due end-Q2FY27); a **₹90 cr adoption plant** at Surat (Q2FY28) to take 4-5 lab-approved products to commercial-scale qualification for semiconductor, electronics and defence customers; and a **DRDO** technology-development project for an imported defence material (sodium borohydride, per ICICI Securities). Electronic-grade HF (with Buss ChemTech) would follow."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What is known and what is not",
+      "head": [
+       "Item",
+       "Known (to Sep-2026)",
+       "Not known"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Chemours",
+        "Plant due end-Q2FY27; a phase 2 could cost ~10x the first (~US$14 mn) (PL, May-2026); Chemours booked ~US$1 mn of sales in a quarter",
+        "Volumes, pricing, contract length; whether Chemours adds a second source"
+       ],
+       [
+        "Adoption plant (₹90 cr)",
+        "Two platforms; ~a dozen products in the basket; 4-5 lab-approved",
+        "Asset turn (\"consciously not reflected\"), customers"
+       ],
+       [
+        "DRDO",
+        "Indigenous process for a critical imported material; applications beyond defence",
+        "Commercial terms (confidential)"
+       ],
+       [
+        "Payback",
+        "CFO: \"payback is going to be pretty soon\" on the ₹90 cr",
+        "Kotak: significant Chemours revenue not before FY31-32"
+       ]
+      ],
+      "source": "Q1FY27 presentation and call; PL (25-May and 21-Aug-2026); ICICI Securities (07-Aug-2026); Trade Brains on Kotak (Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Our view:** this is the kind of niche, high-margin chemistry Navin is good at, and Chemours choosing it as sole supplier is a real endorsement. But revenue in FY27-29 will be small, so we include only modest amounts inside specialty and value nothing extra for it. It is the main upside to our bull case."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: contracts, fluorine know-how and a quota, but no pricing power in half the portfolio",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Integrated fluorine chain (fluorspar to AHF to R32/HFO/intermediates)",
+       "Advantage",
+       "Own AHF at Surat and Dahej (60,000 t); CFO claims 'lowest cost of manufacturing on 32'; but fluorspar is imported and China's quota holders set world prices.",
+       "Cost edge in refrigerants and fluorination, not a price-setter."
+      ],
+      [
+       "HFC quota entitlement from 2028",
+       "Advantage",
+       "Quotas go to 2024-26 producers; Navin ran plants full and is adding 15,000 t before the Dec-2027 deadline.",
+       "A regulatory moat from 2028, but capacity floods in during the 2027 free year."
+      ],
+      [
+       "Contracts with global innovators (Honeywell, Fermion/Bayer, Chemours, agro majors)",
+       "Advantage",
+       "Honeywell HFO to 2029 (+3-year option); Fermion MSA with dedicated cGMP4 block; Chemours' only plant; three customers = 38.5% of FY26 revenue.",
+       "Sticky, but concentrated: one lost contract hurts."
+      ],
+      [
+       "Fluorination know-how and handling HF safely",
+       "Advantage",
+       "Six decades of fluorine chemistry; 13 new specialty molecules in FY26; R&D ₹49 cr (1.5% of sales).",
+       "Hard to copy quickly; China has the same chemistry at larger scale."
+      ],
+      [
+       "CDMO track record",
+       "Parity",
+       "~50-55 molecules, half late-stage; one recent FDA read-out failed; revenue swung from -42% (FY24) to +59% (FY26).",
+       "Growing fast but lumpy; not yet a Divi's."
+      ],
+      [
+       "Pricing power in agro intermediates",
+       "Disadvantage",
+       "Management: pricing pressure continues, LatAm well supplied; 'not going back to 30% EBITDA' in spec chem.",
+       "Volume growth only; China sets prices."
+      ],
+      [
+       "Balance sheet",
+       "Advantage",
+       "Net-debt-free in Q1FY27 after the ₹750 cr QIP; ROE 20%.",
+       "Can fund ₹700-1,000 cr a year of capex internally."
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings and calls to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** Navin has a **real but narrow moat**. Handling HF and fluorination safely at scale is hard, global innovators (Honeywell, Bayer's supply chain via Fermion, Chemours) have chosen it as a sole or main supplier, and from 2028 the HFC quota will keep new entrants out of refrigerants. But it has **no pricing power** in agro intermediates or in R32 during the 2027 free year, and its best contracts are concentrated in a handful of customers. That deserves a premium to commodity chemical makers, not a pharma-CDMO multiple across the whole business."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Two flat years, then profit more than doubled in FY26",
+   "blocks": [
+    {
+     "p": "Navin Fluorine's revenue grew from ₹742 cr in FY17 to ₹2,077 cr in FY23, about 19% a year, as the company added specialty chemicals, contract manufacturing (CDMO) and the HFO plant built for Honeywell. Then it stalled: revenue was flat in FY24 (₹2,065 cr) and grew 14% in FY25, while new plants added depreciation and interest, so net profit fell from ₹375 cr (FY23) to ₹270-289 cr. FY26 was the breakout: revenue +41% to ₹3,314 cr, EBITDA doubled to ₹1,082 cr and net profit rose 130% to ₹664 cr, as refrigerant prices rose, CDMO grew 59% and the Dahej plants filled up. Q1FY27 kept going: revenue +44%, profit +108%."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: ~4.5x since FY17, with a pause in FY24",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num",
+         "growth": true
+        }
+       ],
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit: FY20 boosted by a tax credit; FY26 a true record",
+       "unit": "Net profit (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: from a 19% trough to a 33% peak",
+       "unit": "EBITDA margin (%)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 40,
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Quarterly margin has been ~34% for three quarters",
+       "unit": "EBITDA margin (%)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "Q.opm",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** FY26 was not a lucky year; it was the year five years of capex (₹3,125 cr over FY22-26) started to earn. The CFO attributes ~70% of the 990bp margin gain to volumes from new capacity and ~30% to pricing. But part of the pricing is the refrigerant cycle (China R32 at a decade high in 2026), which will not last forever, and Navin does not disclose profit by business, so investors cannot see how much of the margin is cyclical."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "₹3,125 cr of capex in five years: returns have only just caught up",
+   "blocks": [
+    {
+     "p": "Over FY22-26 Navin generated ₹2,226 cr of operating cash but spent ₹3,125 cr on plants (the Honeywell HFO plant, Dahej multi-purpose plants, Project Nectar, two R32 plants, the AHF plant and cGMP4) and ₹310 cr on dividends. The gap was funded first with debt (borrowings rose from ₹25 cr in FY21 to ₹1,466 cr in FY25) and then with a ₹750 cr share sale (QIP) in July 2025. Returns collapsed while the plants were being built (ROCE 11% in FY24-25) and recovered to 21% in FY26. The next leg needs ₹700-1,000 cr a year of capex again (FY27-30 guidance)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Capex ran ahead of operating cash for four years",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 11% during the build, 21% now",
+       "unit": "Return on capital employed (%)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          11,
+          17,
+          22,
+          29,
+          21,
+          21,
+          22,
+          19,
+          20,
+          11,
+          11,
+          21
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 35,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY17-21",
+       "FY22-26",
+       "Ten years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "745",
+        "2,226",
+        "2,971"
+       ],
+       [
+        "Capex",
+        "494",
+        "3,125",
+        "3,619"
+       ],
+       [
+        "Free cash flow",
+        "251",
+        "−899",
+        "−648"
+       ],
+       [
+        "Dividends paid",
+        "240",
+        "310",
+        "550"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Gap funded by debt and the FY26 QIP**",
+         "**+11**",
+         "**−1,209**",
+         "**−1,198**"
+        ]
+       }
+      ],
+      "source": "Company filings, Screener.in (consolidated), GAM Research"
+     }
+    },
+    {
+     "callout": "**So what:** the big question for FY27-30 is whether the next ₹2,500-3,500 cr of capex (R32, cGMP4 phase 2, advanced materials, Chemours, cGMP5/6) earns the same ~20% returns. Management says each project passes technical, commercial and financial stage gates and some are customer-funded (35% of Chemours). The FY22-25 record shows that returns can stay low for two to three years after a plant is built."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean audit and real cash, but too little disclosure by business",
+   "blocks": [
+    {
+     "bullets": [
+      "**No profit by business.** Navin reports one segment and discloses only revenue by vertical. Investors cannot see whether the FY26 margin jump came from refrigerant prices (cyclical) or CDMO (structural). The CFO's split (70% volumes, 30% pricing) is helpful but unaudited.",
+      "**Customer concentration.** Three customers were ₹545 cr, ₹391 cr and ₹342 cr of FY26 revenue (39% together); in FY25 one customer was 21%. Names are not disclosed.",
+      "**Cash conversion is good.** Operating cash flow ₹894 cr in FY26 (83% of EBITDA) and ₹173 cr in Q1FY27; net working capital fell to 74 days.",
+      "**Exceptional items are small.** FY26: −₹20.5 cr Labour Codes charge in Q3 and +₹13.7 cr credit in Q4 (not explained in what we read); net −₹6.8 cr.",
+      "**Customer-funded capex.** Contract liabilities of ₹212 cr are advances for the Chemours and Nectar plants: genuine commitment, but revenue still to be delivered.",
+      "**Other income** (₹65 cr in FY26, ₹35 cr in Q1FY27) is mostly treasury income on the QIP money; it falls as debt is repaid.",
+      "**FY20 profit (₹409 cr) was flattered by a negative tax charge** (tax rate −56% on Screener); it is not a comparable base.",
+      "**Depreciation** is ~4.2% of gross block, similar to SRF (4.6%): no sign of under-depreciation."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** The audit (Price Waterhouse Chartered Accountants LLP) is clean, there are no restatements and the business converts profit into cash. The amber is for disclosure: with one reported segment and three customers making up ~40% of revenue, outsiders have to take the mix of cyclical and structural profit on trust."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net-debt-free after the QIP; working capital back under control",
+   "blocks": [
+    {
+     "p": "At March 2026 Navin had ₹1,226 cr of borrowings (term loans and ECBs taken for the Dahej projects, mostly in the subsidiary NFASL) and ₹1,321 cr of cash and current investments, mostly the QIP money, so net debt was almost nil (0.01x equity). The company says it became net-debt-free during Q1FY27. Working capital improved sharply: net working capital fell to 74 days of sales in FY26 from 90 days, and management now guides 75-80 days. Inventory days peaked at 197 in FY23 (when new plants were stocking up) and are 121 now."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Working-capital days: the FY23 bulge is gone",
+       "unit": "Days (of revenue)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          96,
+          89,
+          136,
+          110,
+          91,
+          127,
+          129,
+          149,
+          197,
+          150,
+          117,
+          121
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          74,
+          81,
+          68,
+          62,
+          63,
+          75,
+          88,
+          90,
+          99,
+          91,
+          90,
+          83
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          113,
+          112,
+          94,
+          92,
+          58,
+          79,
+          77,
+          85,
+          103,
+          122,
+          118,
+          144
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Borrowings: built up for capex, now matched by cash",
+       "unit": "Borrowings incl. leases (₹ crore)",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Borrowings",
+         "ref": "A.borrowings",
+         "fmt": "num"
+        },
+        {
+         "name": "Cash & investments",
+         "ref": "A.cashAndInvestments",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and investments",
+        "{{A.cashAndInvestments.7|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "Net fixed assets",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Capital work in progress",
+        "{{A.cwip.7|num}}",
+        "{{A.cwip.9|num}}",
+        "{{A.cwip.10|num}}",
+        "{{A.cwip.11|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.7|num}}",
+        "{{A.inventories.9|num}}",
+        "{{A.inventories.10|num}}",
+        "{{A.inventories.11|num}}"
+       ],
+       [
+        "Trade receivables",
+        "{{A.receivables.7|num}}",
+        "{{A.receivables.9|num}}",
+        "{{A.receivables.10|num}}",
+        "{{A.receivables.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated), GAM Research"
+     }
+    },
+    {
+     "callout": "**Contract liabilities** rose to ₹212 cr (from ₹140 cr): advances from customers towards plant costs (Chemours and the Nectar customer's added molecule). That is a good sign of customer commitment, but it also means part of the capex is effectively pre-paid revenue that must be delivered."
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: a 27% promoter, and foreign funds buying while LIC sells",
+   "blocks": [
+    {
+     "p": "The Mafatlal family owns 27.08% (Jun-2026), almost all through Mafatlal Impex, with nothing pledged; its stake was 28.8% in Dec-2023 and was diluted mainly by the Jul-2025 QIP. Institutions own most of the rest: foreign investors 23.73% and domestic institutions 28.46% (mutual funds 21.02%). Retail holders fell from ~173,000 to ~139,000 over 2.5 years."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "FIIs up from 15.9% to 23.7% in 2.5 years",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoter (Mafatlal family) at ~27%, diluted by the QIP",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 20,
+       "max": 32,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Named holders (Jun-2026)",
+      "head": [
+       "Holder",
+       "Stake",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Mafatlal Impex Pvt Ltd (promoter)",
+        "25.42%",
+        "Promoter company; nil pledge"
+       ],
+       [
+        "Vishad Mafatlal, family trusts and other promoter entities",
+        "1.66%",
+        ""
+       ],
+       [
+        "SBI Mutual Fund",
+        "4.93%",
+        "Up from 3.91% in Jun-2025"
+       ],
+       [
+        "Norges Bank (Government Pension Fund Global)",
+        "3.55%",
+        ""
+       ],
+       [
+        "Life Insurance Corporation of India",
+        "3.55%",
+        "Down from 10.08% in Sep-2024"
+       ],
+       [
+        "Axis Mutual Fund",
+        "2.36%",
+        ""
+       ],
+       [
+        "Aditya Birla Sun Life MF",
+        "1.45%",
+        ""
+       ],
+       [
+        "Nippon India MF",
+        "1.29%",
+        ""
+       ],
+       [
+        "HSBC Mutual Fund",
+        "1.28%",
+        ""
+       ],
+       [
+        "IEPF Authority",
+        "1.16%",
+        ""
+       ],
+       [
+        "Baroda BNP Paribas ELSS Fund",
+        "1.08%",
+        ""
+       ],
+       [
+        "Vanguard Total International Stock Index Fund",
+        "1.05%",
+        ""
+       ],
+       [
+        "Ajay Upadhyaya (individual)",
+        "1.01%",
+        ""
+       ],
+       [
+        "All mutual funds",
+        "21.02%",
+        ""
+       ],
+       [
+        "Foreign portfolio investors",
+        "23.73%",
+        "up from 15.9% in Dec-2023"
+       ]
+      ],
+      "source": "BSE shareholding pattern (quarter to Jun-2026, the latest public on 30-Sep-2026) via Screener.in; mutual-fund total from PL (06-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Our read:** a 27% promoter is low for an Indian mid-cap and leaves room for institutions to drive the stock both ways. The clearest flows: LIC has sold steadily (10.1% to 3.6% in seven quarters) while SBI MF, Norges Bank and index funds bought. We found no stated reason for LIC's selling; it coincides with the stock's re-rating."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: a capable team, a clean audit, and a pay bill that is high for the company's size",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Vishad P. Mafatlal",
+        "Executive Chairman (promoter)",
+        "Executive Chairman since 2021 AGM; re-appointed for five years from 20-Aug-2026 (AGM 06-Aug-2026). FY26 pay ₹17.06 cr (+73%), 190x the median employee."
+       ],
+       [
+        "Nitin G. Kulkarni",
+        "Managing Director",
+        "MD since 24-Jun-2024 (to 23-Jun-2029); 30+ years in fluorochemicals and CDMO. FY26 pay ₹12.47 cr (+83%), 139x median."
+       ],
+       [
+        "Anish P. Ganatra",
+        "Chief Financial Officer",
+        "Leads investor calls; CFO through FY25-FY26 annual reports."
+       ],
+       [
+        "Niraj B. Mankad",
+        "President Legal & Company Secretary",
+        ""
+       ],
+       [
+        "Radhesh R. Welling",
+        "Former MD",
+        "Resigned effective 15-Dec-2023."
+       ]
+      ],
+      "source": "Annual reports FY24-FY26, Q1FY27 presentation"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "Price Waterhouse Chartered Accountants LLP; no qualification or restatement; contingent liabilities tiny (~₹8 cr standalone).",
+       "No accounting concerns found."
+      ],
+      [
+       "Board",
+       "Moderate",
+       "10 directors, 6 independent, 1 woman; Executive Chairman is the promoter (re-appointed for five years from 20-Aug-2026).",
+       "Independent majority, but the promoter runs the company day to day."
+      ],
+      [
+       "Pay",
+       "Weak",
+       "FY26: Executive Chairman ₹17.1 cr (+73%, 190x median employee), MD ₹12.5 cr (+83%, 139x); together 4.4% of net profit.",
+       "High for a ₹3,300 cr-revenue company; pay rose faster than the dividend."
+      ],
+      [
+       "Leadership stability",
+       "Moderate",
+       "MD resigned in 2023 days after re-appointment; new MD since Jun-2024; CFO Anish Ganatra leads investor communication.",
+       "Current team has delivered; the 2023 exit is a reminder of key-person risk."
+      ],
+      [
+       "Capital allocation",
+       "Moderate",
+       "₹3,125 cr of capex FY22-26 earned little for three years, then ROCE 21%; QIP at ₹4,680 (stock ₹8,245 on 30-Sep-2026); stage-gated, partly customer-funded projects.",
+       "Disciplined lately; the next ₹2,500-3,500 cr must earn ~20% too."
+      ],
+      [
+       "Disclosure",
+       "Moderate",
+       "Good quarterly decks and candid calls, but one segment, no vertical profit, customer names withheld, Fermion and Chemours terms confidential.",
+       "Investors must trust the mix of cyclical and structural profit."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EPS +39% in FY27, then ~16% a year",
+   "blocks": [
+    {
+     "p": "Navin does not disclose profit by business, so the model runs on one revenue line and one EBITDA margin. We build revenue bottom-up from the three verticals (table below) and check that it adds up to the model. FY27 revenue grows ~30% on Q1's run-rate plus the new plants; FY28-29 slow to ~19% and ~14% as the R32 plant fills and prices soften in the 2027 free year. The EBITDA margin stays at 32-33%, inside management's 32-33% ±1% range. Capex follows guidance (₹700 cr in FY27, ₹850 cr a year after). Every assumption is in the Excel model's Assumptions sheet."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Revenue build by vertical (₹ crore)",
+      "head": [
+       "Vertical",
+       "FY26A",
+       "FY27E",
+       "FY28E",
+       "FY29E",
+       "Why"
+      ],
+      "wide": [
+       5
+      ],
+      "rows": [
+       [
+        "HPP",
+        "1,615",
+        "2,050 (+27%)",
+        "2,420 (+18%)",
+        "2,710 (+12%)",
+        "AHF ramp and the new R32 plant; softer R32 prices in CY2027"
+       ],
+       [
+        "Specialty",
+        "1,152",
+        "1,435 (+25%)",
+        "1,665 (+16%)",
+        "1,900 (+14%)",
+        "Nectar, MPP debottleneck, new molecules, Chemours"
+       ],
+       [
+        "CDMO",
+        "546",
+        "820 (+50%)",
+        "1,025 (+25%)",
+        "1,210 (+18%)",
+        "~95% of the US$100 mn target; cGMP4 phase 2"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total = model revenue**",
+         "3,314",
+         "{{F.sales.0|num}}",
+         "{{F.sales.1|num}}",
+         "{{F.sales.2|num}}",
+         ""
+        ]
+       }
+      ],
+      "source": "Company (FY26), GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "Cash & investments (actual) / net cash (forecast)",
+        "ref": "fin.treasury"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E"
+      ],
+      "rows": [
+       [
+        "EPS (₹), ICICI Securities (Aug-26)",
+        "{{F.eps.0|n1}}",
+        "161.1",
+        "{{F.eps.1|n1}}",
+        "214.1"
+       ],
+       [
+        "EPS (₹), Prabhudas Lilladher (Aug-26)",
+        "{{F.eps.0|n1}}",
+        "178.6",
+        "{{F.eps.1|n1}}",
+        "214.9"
+       ],
+       [
+        "EPS (₹), Axis Securities (Aug-26)",
+        "{{F.eps.0|n1}}",
+        "207.1",
+        "{{F.eps.1|n1}}",
+        "267.4"
+       ],
+       [
+        "EPS (₹), Motilal Oswal (Aug-26)",
+        "{{F.eps.0|n1}}",
+        "177.5",
+        "{{F.eps.1|n1}}",
+        "207.2"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**EPS (₹), median of the four**",
+         "**{{F.eps.0|n1}}**",
+         "**178.1**",
+         "**{{F.eps.1|n1}}**",
+         "**214.5**"
+        ]
+       },
+       [
+        "Revenue (₹ cr), ICICI Securities",
+        "{{F.sales.0|num}}",
+        "4,165",
+        "{{F.sales.1|num}}",
+        "5,167"
+       ],
+       [
+        "Revenue (₹ cr), Prabhudas Lilladher",
+        "{{F.sales.0|num}}",
+        "4,219",
+        "{{F.sales.1|num}}",
+        "4,933"
+       ],
+       [
+        "Revenue (₹ cr), Axis Securities",
+        "{{F.sales.0|num}}",
+        "4,714",
+        "{{F.sales.1|num}}",
+        "5,862"
+       ],
+       [
+        "Revenue (₹ cr), Motilal Oswal",
+        "{{F.sales.0|num}}",
+        "4,380",
+        "{{F.sales.1|num}}",
+        "5,280"
+       ]
+      ],
+      "source": "Broker notes (Aug-2026): ICICI Securities 07-Aug, PL 21-Aug, Axis Securities 21-Aug (via DSIJ summary), MOFSL 05-Aug. No Bloomberg/Refinitiv consensus dated Jul-Sep 2026 found."
+     }
+    },
+    {
+     "callout": "We are in line with the street for FY27 (+1% vs the median) and −3% for FY28: our FY28 margin (32%) is below PL's 33.6% because we expect softer R32 prices in the 2027 free year. Axis is the outlier at ₹267 FY28E EPS (revenue ₹5,862 cr). The real disagreement with the street is not earnings but what multiple a business with half its revenue in a regulated, cyclical commodity deserves."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: mostly Buy, all on P/E, with a vocal group of sellers",
+   "blocks": [
+    {
+     "p": "Coverage is wide. After the Q1FY27 results, 14 of 18 brokers reviewing them reiterated Buy, Add or Accumulate (Business Today, 06-Aug-2026); a later count showed 23 of 29 analysts at Buy, 2 Hold and 4 Sell. The 14 targets we could find have a median of ₹9,000 (range ₹4,700-9,635). Every disclosed method is P/E on FY28E or Jun-28E EPS at 34-45x. The bulls (ICICI Securities, Ambit, Elara, Nuvama, UBS) point to three engines growing at once and the advanced-materials option; the bears (Kotak, Morgan Stanley, Equirus, Citi) argue the price already discounts years of growth and that R32 is heading into oversupply."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Valuation already discounts years of growth; advanced materials pay back only in five to six years",
+        "Kotak (Sell, ₹5,250; Aug-2026), Morgan Stanley (Underweight ₹5,720), Equirus (₹4,700)"
+       ],
+       [
+        "R32 oversupply: ~81 kt of new Indian capacity into 2027 and R32 prices to ease in CY2027",
+        "HSBC and Sharekhan sector notes (17-Sep-2026); Kotak"
+       ],
+       [
+        "Customer concentration: three customers = 38.5% of FY26 revenue; HFO contract renewal in 2029",
+        "GAM reading of the FY26 annual report; analyst question on the Q1FY27 call"
+       ],
+       [
+        "CDMO is lumpy and binary: one FDA read-out 'didn't come quite well'; FY24 CDMO revenue fell 42%",
+        "Q1FY27 call; FY24 annual report"
+       ],
+       [
+        "Agro specialty prices remain under Chinese pressure; Project Nectar utilisation slower than hoped (75-80% by end-FY28)",
+        "Q4FY26 and Q1FY27 calls"
+       ],
+       [
+        "Executive pay rose 73-83% in FY26 (Executive Chairman ₹17.1 cr, MD ₹12.5 cr), 4.4% of PAT",
+        "GAM reading of the FY26 annual report"
+       ]
+      ],
+      "source": "Broker notes, calls, filings and press to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 36x Sep-28E earnings gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values Navin Fluorine International"
+    },
+    {
+     "p": "Every broker whose method we could find values Navin on **P/E**: ICICI Securities 45x, PL 41x, MOFSL 40x and Axis 34x FY28E EPS; Nuvama 40x Q1FY29E and JM 40x Jun-28E. We use the same method, applied to the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). Our disagreement is about the multiple, not the method."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "ICICI Securities (ICICI Direct)",
+        "Buy",
+        "9,635",
+        "P/E",
+        "45x",
+        "FY28E",
+        "9,360",
+        "Growth momentum and execution warrant a premium valuation"
+       ],
+       [
+        "Prabhudas Lilladher",
+        "Accumulate",
+        "8,812",
+        "P/E",
+        "41x",
+        "FY28E",
+        "8,528",
+        "~25% revenue CAGR to FY30; R32 20-25% of revenue by FY28; advanced materials 10-15% by FY30"
+       ],
+       [
+        "Axis Securities",
+        "Buy",
+        "9,040",
+        "P/E",
+        "34x",
+        "FY28E",
+        "7,072",
+        "Expansion across HPP, specialty, CDMO and the new advanced-materials vertical"
+       ],
+       [
+        "Motilal Oswal",
+        "Neutral",
+        "8,300",
+        "P/E",
+        "40x",
+        "FY28E",
+        "8,320",
+        "Diversified growth engines, but the stock already trades at ~37x FY28E"
+       ],
+       [
+        "Nuvama",
+        "Buy",
+        "9,071",
+        "P/E",
+        "40x",
+        "Jun-28E (Q1FY29E)",
+        "8,680",
+        "Stellar quarter: CDMO, R32 and agro intermediates; FY27/28E EPS raised 16.8%/9.7%"
+       ],
+       [
+        "JM Financial",
+        "Buy",
+        "9,000",
+        "P/E",
+        "40x",
+        "Jun-28E",
+        "8,680",
+        "Strong Q1; FY27/28E EPS raised 13%/5%"
+       ],
+       [
+        "Elara",
+        "Buy",
+        "9,185",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Order visibility for 4-5 agro molecules (3 patented); MPP debottleneck on track"
+       ],
+       [
+        "UBS",
+        "Buy",
+        "9,045",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Jefferies",
+        "Buy",
+        "9,000",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "CDMO, R32 and the Chemours project"
+       ],
+       [
+        "Ambit Capital",
+        "n.d.",
+        "9,600",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Highest target on the street"
+       ],
+       [
+        "Citi",
+        "Sell",
+        "7,200",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Morgan Stanley",
+        "Underweight",
+        "5,720",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Kotak Institutional Equities",
+        "Sell",
+        "5,250",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Price already reflects years of growth; R32 oversupply in India; advanced-materials payback is five to six years away"
+       ],
+       [
+        "Equirus",
+        "n.d.",
+        "4,700",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Lowest target on the street"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**HOLD**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**36x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Excellent execution, fully priced; R32 risk in 2027"
+        ]
+       }
+      ],
+      "source": "Broker notes (Aug-2026; ICICI Securities, PL, MOFSL read directly; Axis via DSIJ; others via Business Today 06-Aug-2026 and Trade Brains); \"At our EPS\" applies each broker's multiple to GAM EPS for the same year; n.d. = not disclosed"
+     }
+    },
+    {
+     "h": "Our target multiple: 36x, and why"
+    },
+    {
+     "p": "We start from Navin's own one-year-forward P/E history, adjust for how far Indian chemical stocks had de-rated by 30-Sep-2026, and then test the result against growth, peers and returns."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Its own history",
+        "One-year-forward P/E: median ~45x since Apr-2021 (25th-75th percentile 32-68x); ~33-41x in 2026. Trailing P/E 53.2x vs a five-year median of 71.0x",
+        "Starting point: 45x"
+       ],
+       [
+        "2. Sector de-rating",
+        "On 30-Sep-2026 Indian chemical peers traded a median 19% below their five-year median P/E: Vinati Organics −45%, Clean Science −35%, Deepak Nitrite −30%, SRF −30%, Aarti Industries −19%, PI Industries −14%; only those with depressed earnings were above (Gujarat Fluorochem +41%, Anupam Rasayan +8%, Tatva Chintan +3%)",
+        "45x × 0.81 ≈ **36x**"
+       ],
+       [
+        "3. Growth",
+        "Street multiples come with ~26-29% a year EPS growth FY26-28 (MOFSL, PL); ours is 27% a year, similar, but slows to ~17% in FY29 as the R32 and CDMO step-ups mature",
+        "No premium or discount: 36x"
+       ],
+       [
+        "4. Peers",
+        "SRF 32.7x, PI Industries 32.6x, Aarti 33.1x trailing; Divi's (pure CDMO) 82.8x; Gujarat Fluorochemicals 78.4x on depressed earnings",
+        "36x forward keeps a premium to SRF and PI for higher ROE (20% vs 12-14%) and the CDMO mix"
+       ],
+       [
+        "5. Returns",
+        "ROE ~20% vs a 12.5% cost of equity (ROE/Ke ~1.6x); but ₹700-1,000 cr a year of capex keeps free cash flow at only 0.6% of market value in FY28E",
+        "Supports a premium multiple, not an unlimited one"
+       ]
+      ],
+      "source": "Screener.in (P/E history to 30-Sep-2026), broker notes, GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "One-year-forward P/E: our 36x vs history",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward multiple",
+         "values": [
+          13,
+          13.4,
+          12.5,
+          12.3,
+          14.3,
+          17.3,
+          16.8,
+          19.2,
+          21.9,
+          26,
+          26.7,
+          28,
+          30.1,
+          33.2,
+          37.7,
+          37.2,
+          47.5,
+          49.4,
+          47,
+          47.9,
+          36.7,
+          44.5,
+          44.2,
+          51.4,
+          49.1,
+          51.5,
+          44.1,
+          50.6,
+          52.7,
+          52,
+          54,
+          73.9,
+          67.6,
+          67.5,
+          82,
+          80.1,
+          84.5,
+          78.8,
+          74.9,
+          70,
+          77.4,
+          73.1,
+          81.6,
+          80,
+          75.4,
+          77.5,
+          64.7,
+          60.8,
+          65.4,
+          60.7,
+          54.5,
+          53.2,
+          25.6,
+          24.6,
+          28.3,
+          27.4,
+          25.3,
+          26.1,
+          25.7,
+          25.6,
+          31.9,
+          31.5,
+          22.8,
+          23.6,
+          26,
+          27.8,
+          26,
+          25.6,
+          33.2,
+          34,
+          34.2,
+          36.3,
+          33.6,
+          32.8,
+          33.8,
+          37.1,
+          39.6,
+          41.3
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 45,
+         "text": "Median since 2021: ~45x"
+        },
+        {
+         "v": 36,
+         "text": "Our target: 36x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual earnings, GAM estimates for forecast years"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Share price today"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          8131,
+          8025,
+          4076,
+          8245
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "EPS Sep-28E ₹225.9",
+        "36x (bull 42x, bear 28x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "EBITDA Sep-28E ₹1,763 cr",
+        "23x (bull 27x, bear 18x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "-1%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-50%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA (23x Sep-28E EBITDA plus net cash) gives ₹8,025, 1% below the P/E target, so the two market methods agree. The DCF (₹4,076) is far lower: at a 12.5% cost of capital, with ₹700-1,000 cr a year of capex and margins fading towards 30%, cash flows support only about half of today's price; 55% of the DCF value sits in the terminal value. The market is paying for growth well beyond FY29 (CDMO approvals, advanced materials), which our DCF does not assume."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple back to 42x (half the de-rating reverses; ICICI Securities uses 45x)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Revenue +30% / +19% / +14% (FY27-29E), EBITDA margin 32-33%; 36x Sep-28E EPS."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple falls to 28x, close to the 2024-25 forward lows."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed chemical and CDMO peers",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "EV/EBITDA (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Navin Fluorine**",
+        "42,308",
+        "3,314",
+        "32.6%",
+        "53.2",
+        "32.9",
+        "20.1%"
+       ],
+       [
+        "SRF",
+        "73,276",
+        "15,787",
+        "21.6%",
+        "32.7",
+        "19.8",
+        "13.8%"
+       ],
+       [
+        "Gujarat Fluorochem",
+        "48,389",
+        "4,996",
+        "24%",
+        "78.4",
+        "36.2",
+        "7.6%"
+       ],
+       [
+        "PI Industries",
+        "35,043",
+        "6,714",
+        "25.8%",
+        "32.6",
+        "18.2",
+        "12.4%"
+       ],
+       [
+        "Aarti Industries",
+        "17,263",
+        "8,286",
+        "14.1%",
+        "33.1",
+        "16.0",
+        "7.2%"
+       ],
+       [
+        "Deepak Nitrite",
+        "20,862",
+        "7,887",
+        "12.5%",
+        "26.3",
+        "16.1",
+        "9.8%"
+       ],
+       [
+        "Clean Science",
+        "8,439",
+        "957",
+        "37.2%",
+        "36.2",
+        "21.5",
+        "15.3%"
+       ],
+       [
+        "Vinati Organics",
+        "12,102",
+        "2,227",
+        "29.4%",
+        "27.0",
+        "16.9",
+        "14.9%"
+       ],
+       [
+        "Anupam Rasayan",
+        "13,453",
+        "2,365",
+        "22.2%",
+        "77.0",
+        "25.4",
+        "7.2%"
+       ],
+       [
+        "Tatva Chintan",
+        "4,172",
+        "506",
+        "18.6%",
+        "79.7",
+        "37.8",
+        "5.5%"
+       ],
+       [
+        "Divi's Labs",
+        "2,47,414",
+        "10,560",
+        "32.6%",
+        "82.8",
+        "55.1",
+        "16.2%"
+       ]
+      ],
+      "source": "Screener.in (consolidated), trailing multiples at the NSE close on 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a top-quality business at a full price",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's most integrated fluorine platform, with sole-supplier contracts with Honeywell, Fermion (Bayer's Nubeqa) and Chemours, an HFC quota from 2028, a net-debt-free balance sheet, ROE of ~20% and three businesses all growing 30-80%."
+    },
+    {
+     "callout": "**What you are paying:** 45.8x our FY27E and 39.6x our FY28E earnings, for a company where half the revenue rides a refrigerant price cycle that faces a supply wave in 2027, three customers are ~39% of sales, and ₹700-1,000 cr a year of capex keeps free cash flow thin. On the street's method and our inputs the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): a HOLD. The DCF says the price needs growth well beyond FY29."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹7,070 (BUY on our current target)",
+        "Medium",
+        "Share price; a market or sector sell-off"
+       ],
+       [
+        "R32 prices hold through 2027 and contracts cover most of the new plant",
+        "Medium",
+        "China/India R32 prices; contract announcements; Q3-Q4FY27 HPP revenue"
+       ],
+       [
+        "CDMO beats US$100 mn and wins new commercial molecules",
+        "Medium",
+        "FDA read-outs in the next 8-12 months; cGMP5/6 announcements"
+       ],
+       [
+        "Chemours / advanced materials scale early",
+        "Low-medium",
+        "Chemours data-centre orders; a phase-2 capex decision"
+       ],
+       [
+        "Profit disclosure by business",
+        "Low",
+        "Segment reporting in the FY27 annual report"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "R32 price falls towards the US$5-6/kg \"downside case\" in 2027",
+        "Medium",
+        "~₹31 of EPS per US$1/kg at full volumes; bear case {{scen.bear.tp|inr}}"
+       ],
+       [
+        "CDMO: a campaign pause or a failed molecule",
+        "Medium",
+        "FY24 showed CDMO revenue can fall 42% in a year"
+       ],
+       [
+        "Loss or re-pricing of a top-three customer (HFO contract ends 2029, extendable)",
+        "Low-medium",
+        "Up to 10-16% of revenue each"
+       ],
+       [
+        "Raw-material and energy inflation (Middle East conflict, fluorspar, sulphur)",
+        "Medium",
+        "Gross margin fell ~100bp QoQ in Q1FY27"
+       ],
+       [
+        "Safety incident at an HF plant",
+        "Low",
+        "HF is highly hazardous; plant shutdowns"
+       ],
+       [
+        "Capex returns disappoint again (FY23-25 repeat)",
+        "Medium",
+        "ROCE back towards 11-15%"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: HOLD, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would move to BUY below ~₹7,070 and to SELL above ~₹8,560** (the stock's record weekly close, ₹8,590, was above that line), or sooner if R32 prices or CDMO approvals change our earnings.",
+      "**Biggest swing factor:** R32 pricing in calendar 2027. The second is the CDMO pipeline beyond darolutamide."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Net profit, FY24 → FY26",
+        "v": "₹270 → ₹664 cr",
+        "d": "capacity plus the refrigerant cycle"
+       },
+       {
+        "k": "Top three customers",
+        "v": "~39%",
+        "d": "of FY26 revenue"
+       },
+       {
+        "k": "New R32 capacity",
+        "v": "+15,000 t",
+        "d": "vs India demand ~17-18 kt"
+       },
+       {
+        "k": "Our FY28E EPS vs the street",
+        "v": "₹208.0",
+        "d": "street median ₹214.5"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY18–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 250
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 25
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "interest",
+        "name": "Interest"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "HF / AHF",
+        "Hydrofluoric acid / anhydrous (water-free) hydrofluoric acid, made from fluorspar; the starting point for almost all fluorochemicals."
+       ],
+       [
+        "HPP",
+        "High Performance Products: Navin's refrigerants, HFO, HF and inorganic fluorides business."
+       ],
+       [
+        "R22, R32, HFC, HCFC",
+        "Refrigerant gases. R22 is an HCFC (being phased out, still used as a feedstock); R32 is an HFC used in modern air-conditioners and blends."
+       ],
+       [
+        "HFO",
+        "Hydrofluoro-olefin: newer refrigerant / blowing agent with very low global-warming impact; Navin makes one for Honeywell."
+       ],
+       [
+        "Kigali Amendment / quota",
+        "Global agreement to cut HFC production; India freezes output from 2028 at the 2024-26 average; producers get quotas based on past output."
+       ],
+       [
+        "Free year",
+        "Calendar 2027 in India: after the baseline years and before the freeze, so anyone with capacity can sell."
+       ],
+       [
+        "CDMO / cGMP",
+        "Contract development and manufacturing for drug companies / current Good Manufacturing Practice, the quality rules for pharma plants."
+       ],
+       [
+        "API, API-minus-1",
+        "Active pharmaceutical ingredient / the step just before it in the chemical chain."
+       ],
+       [
+        "MPP / campaign",
+        "Multi-purpose plant that can make many molecules; a campaign is one production run of one molecule for a customer."
+       ],
+       [
+        "Specialty chemicals (here)",
+        "Fluorinated intermediates made for agrochemical and pharma innovators."
+       ],
+       [
+        "Immersion cooling",
+        "Cooling servers by dipping them in a non-conductive fluid; Chemours' Opteon two-phase fluid boils and condenses to carry heat away."
+       ],
+       [
+        "QIP",
+        "Qualified institutional placement: a share sale to institutional investors."
+       ],
+       [
+        "P/E, EV/EBITDA",
+        "Share price ÷ earnings per share; enterprise value (market value plus net debt) ÷ operating profit before depreciation."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the required annual return used to discount future cash."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY16": "Growth years before the Dahej build-out; drivers not reviewed (pre-FY20 annual reports not read).",
+  "sales@FY18": "Drivers not reviewed (pre-FY20 annual reports not read).",
+  "ebitdaMargin@FY16": "Mix shift towards specialty and CRAMS; drivers not reviewed in detail (pre-FY20).",
+  "ebitdaMargin@FY17": "Drivers not reviewed in detail (pre-FY20 annual reports not read).",
+  "ebitdaMargin@FY18": "Drivers not reviewed in detail (pre-FY20 annual reports not read).",
+  "ebitdaMargin@FY20": "Drivers not reviewed in detail (FY20 annual report not read).",
+  "pat@FY16": "Drivers not reviewed (pre-FY20 annual reports not read).",
+  "pat@FY17": "Drivers not reviewed (pre-FY20 annual reports not read).",
+  "pat@FY18": "Drivers not reviewed (pre-FY20 annual reports not read).",
+  "pat@FY21": "−37%: against an FY20 base inflated by a negative tax charge; FY21 tax rate normal (31%).",
+  "sales@FY22": "+23%: specialty +25% (₹453 cr to ₹566 cr), inorganic fluorides +42%, CRAMS +6%; legacy refrigerants and inorganics +35% on better prices.",
+  "pat@FY23": "+43%: HPP +64% on HFO supplies to Honeywell and better refrigerant prices.",
+  "ebitdaMargin@FY24": "−716bp: refrigerant prices hit by Chinese material in the Middle East; CDMO −42%; agro destocking.",
+  "ebitdaMargin@FY25": "+341bp: R32 volumes and better realisations (HPP +26%); CDMO +31% (Q4 +141%).",
+  "sales@FY26": "+41%: HPP +34%, specialty +44%, CDMO +59%.",
+  "sales@Q3FY25": "+21%: HPP +22%, specialty +26%, CDMO +8%.",
+  "sales@Q1FY26": "+38%: HPP +45%, specialty +35%, CDMO +23%.",
+  "sales@Q2FY26": "+46%: HPP +38%, specialty +39%, CDMO +98%.",
+  "sales@Q3FY26": "+47%: HPP +35%, specialty +60% (highest-ever quarter), CDMO +61%.",
+  "sales@Q4FY26": "+34%: HPP only +20% (planned shutdown, catalyst recharge, ~₹15-16 cr of Middle East shipments missed); specialty +39%, CDMO +61%.",
+  "sales@Q1FY27": "+44%: HPP +33% (AHF, R32 price and volume), specialty +48%, CDMO +82%.",
+  "sales@FY23": "+43%: HFO supplies to Honeywell began (Jul-2022) and refrigerant prices were strong; CDMO +29%.",
+  "pat@FY20": "Inflated by a negative tax charge (tax rate −56%); not a comparable base.",
+  "sales@FY24": "Flat: CDMO −42% (campaigns ended), R22 prices weak; specialty +14%.",
+  "pat@FY24": "−28%: depreciation and interest on the new Dahej plants.",
+  "sales@FY25": "+14%: HPP +26%, CDMO +31%, specialty −6% (agro destocking).",
+  "ebitdaMargin@FY26": "+990bp: ~70% from volumes on new capacity, ~30% pricing (CFO).",
+  "pat@FY26": "+130%: record; includes a net −₹6.8 cr exceptional charge.",
+  "sales@FY27E": "GAM: +30% (Q1 +44%); new R32, MPP debottleneck, Chemours, CDMO ~US$95 mn.",
+  "ebitdaMargin@FY28E": "GAM: 32%, softer R32 prices in India's 2027 free year.",
+  "sales@FY28E": "GAM: +19%; new R32 plant at ~60% use; cGMP4 phase 2."
+ }
+}

@@ -1,0 +1,316 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Chambal Fertilisers & Chemicals (consolidated, ₹ crore). Segment-driven: urea (own manufactured), complex fertilisers (traded P&K), CPC/speciality nutrients/seeds and the new TAN plant each grow revenue and earn an EBITDA margin (segment PBIT + segment D&A). Group EBITDA = sum of segments less unallocated items (Screener basis, excluding other income and the IMACID share). Urea is built from volume x realisation and EBITDA per tonne in ureaBuild (checked against the segment line by the authoring script). Valued on P/E, as most of the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "urea",
+   "name": "Urea (own manufactured)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 12565.61,
+   "growth": [
+    13.8,
+    -1.08,
+    -1.45
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    14.82,
+    12.85,
+    12.98
+   ],
+   "hist": {
+    "driver": "ureaRev",
+    "revenue": "ureaRev",
+    "adjEbitda": "ureaEbitda"
+   },
+   "_why": "Revenue = sales volume x realisation (ureaBuild). Volume: 34.06 lakh t in FY26 (34.71 in FY25); Q1FY27 only 6.10 lakh t (8.41) because the Gadepan-I turnaround and an extended Gadepan-II shutdown were bunched; the plants run above 100% of capacity otherwise, so we take 32.5 / 34.5 / 34.0 lakh t (FY29 has the next turnaround cycle). Realisation tracks the pooled gas price, which is passed through in subsidy: ₹36,893/t in FY26, ₹46,885/t in Q1FY27 (gas US$17.25/mmBtu vs US$14.6-15 a year earlier); we assume ₹44,000 / ₹41,000 / ₹41,000 as gas eases from the Middle East peak. Revenue moves with gas; profit does not.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Margin = EBITDA per tonne ÷ realisation. FY26 EBITDA ₹2,190 cr = ₹6,431/t (17.4%). Gadepan-III (1.27 mt) is priced under NIP-2012 until its eight-year period ends (December 2026 per management and brokers); after that the government applies a cost-based formula not yet decided. We cut Gadepan-III EBITDA by ₹3,000/t from Dec-2026 (Elara: 'nearly one-third' of its EBITDA/t; IIFL: EBIT/t ₹7,494 to ₹4,400). Group urea EBITDA/t ₹6,520 (FY27: eight months of NIP-2012, strong Q1 on G-III mix, forex and surplus ammonia, four months of the cut) then ₹5,270 / ₹5,320 (full cut, surplus ammonia now feeds the TAN plant)."
+  },
+  {
+   "key": "cf",
+   "name": "Complex fertilisers (traded DAP, MOP, NPK)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 7025.14,
+   "growth": [
+    -2.92,
+    6.3,
+    7.31
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    6,
+    4,
+    4
+   ],
+   "hist": {
+    "driver": "cfRev",
+    "revenue": "cfRev",
+    "adjEbitda": "cfEbitda"
+   },
+   "_why": "FY26 volume 12.31 lakh t (5.64 in FY25) at ₹57,069/t. FY27: Q1 2.80 lakh t (4.21) on delayed sowing; 8.5-9 lakh t of P&K was tied up with suppliers from January (Kharif and part of Rabi), but Rabi availability and NBS rates were unknown on 30-Sep: 11.0 lakh t at ~₹62,000/t (Q1 blended ₹62,024). FY28 12.5 lakh t at ₹58,000; FY29 13.3 lakh t at ₹58,500.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin -4.0% (FY23), 3.6% (FY24), 6.8% (FY25), 4.0% (FY26). Q1FY27 13.7% on low-cost inventory bought before the war; management says margins 'will decline as the averaging of the prices happens'. FY27 6.0% (Q1 ₹239 cr plus ~3.5% on the rest of the year); 4.0% from FY28 (DAP is a fixed-margin product; NPK pricing is capped by affordability)."
+  },
+  {
+   "key": "cpc",
+   "name": "CPC, speciality nutrients & seeds",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1202.91,
+   "growth": [
+    15,
+    18,
+    16
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    23,
+    22.5,
+    22.5
+   ],
+   "hist": {
+    "driver": "cpcRev",
+    "revenue": "cpcRev",
+    "adjEbitda": "cpcEbitda"
+   },
+   "_why": "Revenue ₹761 cr (FY24), ₹926 cr (FY25), ₹1,203 cr (FY26, +30%). Q1FY27 -6% (farmers deferred purchases after a 23% fall in June sowing); 14 CPC launches planned for FY27 (7 done in Q1), biologicals +57% in FY26, seeds and Nutrien products starting. Management targets >20% growth: we take +15% (Q1 drag), +18%, +16%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin 19.0% (FY23), 20.1% (FY24), 23.1% (FY25), 23.6% (FY26); Q1FY27 PBIT margin 25.2%. Asset-light trading of sourced products: we assume 23.0% / 22.5% / 22.5% as the mix shifts towards lower-margin generics and seeds at scale."
+  },
+  {
+   "key": "tan",
+   "name": "Technical ammonium nitrate (TAN)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1,
+   "growth": [
+    35900,
+    100,
+    9.72
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    20,
+    25,
+    25
+   ],
+   "hist": {
+    "driver": "tanDriver",
+    "revenue": "tanRev",
+    "adjEbitda": "tanEbitda"
+   },
+   "_why": "No TAN revenue in FY26 (base ₹1 cr is notional: the engine needs a non-zero base). 2.4 lakh t TAN / 2.1 lakh t weak nitric acid plant (₹1,645 cr); WNA and ammonium nitrate solution production started in June 2026 but sales are capitalised until the high-density AN unit is commissioned (Q1 call). Management targets 75-80% utilisation in FY27 and a budget price of ₹37,000-38,000/t (prices were ~40% higher in May). We assume ~0.9 lakh t booked in FY27 at ~₹40,000/t (₹360 cr), 1.9 lakh t at ₹38,000 in FY28 (79% utilisation, ₹720 cr) and 2.1 lakh t at ₹37,500 in FY29 (₹790 cr).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Margins not disclosed ('better than budgeted'). Elara assumes ~₹15,000/t of EBITDA at 63% utilisation in FY27. We assume 20% in FY27 (start-up, part year) and 25% thereafter (~₹9,500/t), as Russian imports and new domestic capacity (Deepak's Gopalpur, Coal India) are expected to make the market long within one to two years."
+  }
+ ],
+ "unallocated": [
+  70,
+  70,
+  70
+ ],
+ "_unallocLabel": "Unallocated items (sum of segment EBITDA less Screener EBITDA)",
+ "_unallocWhy": "Sum of segment EBITDA less Screener EBITDA: ₹104 cr (FY23), ₹75 cr (FY24), ₹48 cr (FY25), ₹63 cr (FY26): unallocated expenses net of unallocated income and Screener's classification differences. We assume ₹70 cr a year.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "ureaBuild": {
+  "_why": "Urea revenue and EBITDA built from volume, realisation and EBITDA per tonne; the authoring script checks it against the urea segment line (±0.5%).",
+  "volumeLakhT": {
+   "FY26": 34.06,
+   "FY27E": 32.5,
+   "FY28E": 34.5,
+   "FY29E": 34
+  },
+  "realisationPerT": {
+   "FY26": 36893,
+   "FY27E": 44000,
+   "FY28E": 41000,
+   "FY29E": 41000
+  },
+  "ebitdaPerT": {
+   "FY26": 6431,
+   "FY27E": 6520,
+   "FY28E": 5270,
+   "FY29E": 5320
+  },
+  "g3VolumeLakhT": 13,
+  "g3CutPerT": 3000,
+  "g3CutMonthsFY27": 4
+ },
+ "capex": [
+  500,
+  250,
+  250
+ ],
+ "_capexWhy": "FY26 cash capex ₹892 cr (TAN). Capital commitments ₹496 cr at Mar-2026; management guided ~₹500 cr for FY27 (TAN balance plus routine capex of ₹160-180 cr a year). FY28-29 ₹250 cr: routine capex plus warehouses, TERI lab and CPC. The ₹9,500-10,000 cr fourth urea plant under NIPU-2026 is not in our numbers: financial bids were due mid-October, and Board and government approvals were pending on 30-Sep.",
+ "depRateOnGrossBlock": 4.75,
+ "_depWhy": "FY26 D&A ₹349 cr = 4.1% of average gross block. The TAN plant (~₹1,645 cr, in CWIP at Mar-26) is capitalised in FY27; the engine holds CWIP flat, so we lift the rate to 4.75% to charge its depreciation (~₹75 cr a year over ~22 years): D&A ~₹425 / ₹444 / ₹458 cr.",
+ "treasuryYield": [
+  6.5,
+  6.5,
+  6.5
+ ],
+ "_treasuryWhy": "6.5% on the opening net treasury (FY26 treasury income ₹69 cr = deposit interest ₹16 cr + gains on liquid funds ₹53 cr, ~7% on ~₹965 cr of opening net cash; AR FY26 note 18). The engine's opening FY27 treasury (₹570 cr = cash ₹557 cr + investments ₹1,081 cr - borrowings ₹1,068 cr) includes the IMACID stake at book value (₹577 cr); true net cash at Mar-26 was ~nil and Chambal had net debt of ~₹200 cr at Jun-26. The yield the engine applies to the IMACID book value is deducted in otherIncome.",
+ "otherIncome": [
+  43,
+  108,
+  123
+ ],
+ "_otherIncomeWhy": "Non-treasury other income, built from sourced parts (Screener puts the JV share in other income): (1) IMACID share of profit ₹131.7 cr (FY25), ₹128.8 cr (FY26), -₹25.1 cr in Q1FY27 (sulphur shortage shutdown; production resumed in July): ₹65 cr in FY27, ₹130 cr in FY28, ₹145 cr in FY29 as P2O5 capacity rises from 5 to 7 lakh t (Apr-Jun 2027). (2) Recurring items in note 18 (other interest, rent, scrap, miscellaneous): ~₹11 cr in FY26; we take ₹15 cr. Insurance claims (₹23 cr FY26, ₹42 cr FY25), derivative gains (₹18 cr) and tax-refund interest are left out as one-offs. (3) Less 6.5% on the ₹577 cr IMACID book value inside the engine's treasury (₹37.5 cr). FY27E total other income ~₹80 cr vs ₹178 cr in the twelve months to Jun-26 (company other income ₹110 cr + JV ₹68 cr): the gap is treasury income (net cash fell from ~₹965 cr to ~nil) and the one-offs.",
+ "interest": [
+  40,
+  15,
+  15
+ ],
+ "_interestLabel": "Finance cost (working-capital borrowings, leases)",
+ "_interestWhy": "₹7 cr in FY26 after long-term debt was prepaid in FY25; ₹17 cr in Q1FY27 on short-term borrowings (₹963 cr at Mar-26, ~₹1,668 cr at Jun-26) that fund subsidy receivables of ₹2,462 cr. ₹40 cr in FY27 as receivables unwind, then ₹15 cr.",
+ "taxRate": [
+  26,
+  25,
+  25
+ ],
+ "_taxWhy": "Section 115BAA (25.17%) from FY26; FY26 tax ₹625 cr = 25.5% of PBT before the JV share. Q1FY27 28.9% because tax on the IMACID dividend received by the parent (₹155 cr in standalone other income) is charged while the dividend itself is eliminated. The engine taxes PBT including the JV share (received post-tax), so 26% / 25% / 25% approximates 25.17% on operating PBT plus dividend tax.",
+ "payout": [
+  25,
+  25,
+  25
+ ],
+ "_payoutWhy": "FY26 dividend ₹11 a share (interim ₹5, final ₹6) = 23% of EPS; FY25 ₹10 (24%). Management: 'a 25% or so' payout policy will be maintained; a buyback only if no projects (Q1FY27 call). We assume 25%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5,
+  "years": 10,
+  "fadeGrowthTo": 5.5,
+  "fadeMarginTo": 10.5,
+  "fadeCapexPctTo": 2,
+  "depPctOfSales": 1.9,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash and cost-plus urea economics, but earnings swing with subsidy policy, the Gadepan-III reset and traded-fertiliser prices: slightly below market risk.",
+  "_tgWhy": "Urea volumes are capped by capacity; growth comes from price (gas pass-through), traded fertilisers, CPC and TAN: 5% nominal.",
+  "_fadeGrowthWhy": "5.5% by year 10: flat urea volume plus price, faster CPC and TAN.",
+  "_fadeMarginWhy": "Group EBITDA margin was 6.6% (FY23, price spike), 11.4% (FY24), 15.0% (FY25), 13.0% (FY26); post-Gadepan-III reset ~11% (FY28-29E). 10.5% long run as traded fertilisers (4% margin) grow faster than urea.",
+  "_fadeCapexWhy": "Routine capex is ~₹160-180 cr a year (~1% of revenue); 2% long run allows for debottlenecking and TAN/CPC growth, above depreciation at 1.9%.",
+  "_yearsWhy": "10-year explicit/fade period: a mature, capacity-bound business; no project J-curve in our numbers."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The government's new formula for Gadepan-III keeps most of its returns (cut of ~₹1,500/t instead of ₹3,000/t), traded-fertiliser margins hold near FY25 levels, CPC compounds at 20%+ and TAN prices stay firm.",
+   "fadeMarginTo": 11.5,
+   "segments": {
+    "urea": {
+     "marginDelta": 1.5
+    },
+    "cf": {
+     "marginDelta": 1
+    },
+    "cpc": {
+     "growthDelta": 5
+    },
+    "tan": {
+     "marginDelta": 5
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Gadepan-III is put on Gadepan-I/II-type economics (cut of ~₹4,500/t), Rabi subsidy rates leave traded NPK/DAP loss-making for a season, CPC growth stalls and TAN prices fall as the market goes long.",
+   "fadeMarginTo": 9.5,
+   "segments": {
+    "urea": {
+     "marginDelta": -1.5
+    },
+    "cf": {
+     "marginDelta": -1.5
+    },
+    "cpc": {
+     "growthDelta": -5,
+     "marginDelta": -2
+    },
+    "tan": {
+     "growthDelta": -20,
+     "marginDelta": -8
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 8.8,
+      "bull": 11,
+      "bear": 7
+     },
+     "why": "How most of the street values Chambal: IIFL 14x Jun-28E, Elara 11x Jun-28E and JRK 9.5x FY28E EPS (SKP and Systematix use 8x and 5.6x FY28E EV/EBITDA). 8.8x = the stock's 10.1x one-year-forward P/E median since Apr-2021 (no trough years; 10.3x on EPS before Screener's exceptional tags) cut by the 12% median de-rating of seven listed fertiliser peers at 30-Sep-2026. Bull 11x (its five-year median trailing P/E: no de-rating); bear 7x (the Apr-2023 to Mar-2024 forward level, when the market priced a subsidy reset after the 2022 price spike)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 7.1,
+      "bull": 8,
+      "bear": 5.5
+     },
+     "why": "Values the operating business and the Sep-28E net treasury (incl. IMACID at book) separately. 7.1x = the stock's 7.4x five-year median trailing EV/EBITDA less the 5% median EV/EBITDA de-rating of the same seven peers; bull 8x (SKP), bear 5.5x (about Systematix's 5.6x). It ignores the TAN plant's depreciation and the tax on treasury income, so it reads high against P/E."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: FCFF FY28-FY37E fading to a 10.5% EBITDA margin and capex at 2% of revenue, Ke 11.9% (beta 0.9), terminal growth 5%, plus net treasury at Mar-27E (incl. IMACID at book)."
+    }
+   ]
+  }
+ }
+}

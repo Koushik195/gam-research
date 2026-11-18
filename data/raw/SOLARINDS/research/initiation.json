@@ -1,0 +1,3922 @@
+{
+ "symbol": "SOLARINDS",
+ "listing": "NSE: SOLARINDS · BSE: 532725",
+ "date": "30 September 2026",
+ "rating": "SELL",
+ "analysts": "GAM Research — Defence & Industrials",
+ "cover": {
+  "headline": "India's explosives leader turned defence exporter: the growth is real, but the price already pays for it, and Omnia adds debt rather than value",
+  "lead": "Solar makes a quarter of India's commercial explosives, runs plants in 11 countries and has built, in a decade, a defence business that sold ₹2,634 cr in FY26 (from ₹249 cr in FY22): explosives for missiles, propellants, Pinaka rockets, ammunition and drones. Q1FY27 was excellent: revenue +70%, profit +89%, with defence +123%. Management targets ₹14,000 cr of revenue in FY27 (+42%) and ₹4,500 cr from defence. On 14-Sep-2026 it agreed to buy South Africa's Omnia for ₹12,951 cr in cash, which would double revenue at half the margin. The street values Solar on **P/E (50-70x FY28-Sep-28E EPS)**. We forecast organic EPS of ₹267 / ₹320 / ₹379 for FY27-29E, close to the street for FY27 and ~5-7% below PL for FY28-29. Applying **50x to Sep-28E EPS of ₹350** gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with SELL.** Cross-checks: EV/EBITDA ₹15,830, DCF ₹6,241. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "The defence engine is real",
+    "p": "Defence revenue grew ~80% a year over FY22-26 to 27% of sales; the defence order book is ~₹18,000 cr (Pinaka ~₹6,000 cr, exports ~₹11,000 cr). The defence subsidiary earned a 30% pre-tax margin in FY26, which is why group EBITDA margin rose from 19% (FY23) to 28%. We model defence at ₹{{as.businessLines.FY27E.defence|num}} / {{as.businessLines.FY28E.defence|num}} / {{as.businessLines.FY29E.defence|num}} cr."
+   },
+   {
+    "h": "But it is mostly exports, and the book has stopped growing",
+    "p": "60% of FY26 revenue was billed outside India; after international explosives that leaves ~₹2,000 cr, which we infer is mainly defence exports, ~75% of defence. The defence order book was ~₹18,000 cr in both Mar-26 and Jun-26: execution now runs ahead of new orders. Exports are lumpy and policy-exposed."
+   },
+   {
+    "h": "Explosives: steady volumes, inflated by price in FY27",
+    "p": "Domestic explosives grew only 3% in FY26 as coal overburden removal fell; FY27's guided +30-33% for explosives is 18-20% price as ammonium nitrate costs are passed on. International grew 32% in FY26 and should grow ~30% in FY27 (Omnia excluded). Price pass-through lifts revenue, not profit: we hold EBITDA margin at {{F.ebitdaMargin.0|pct}}-{{F.ebitdaMargin.2|pct}}."
+   },
+   {
+    "h": "Valuation: above its own history; Omnia does not change the math",
+    "p": "At ₹19,700 Solar trades at 61.6x our FY28E EPS vs a 46.5x median forward P/E since 2021. Our 50x gives {{dcf.tp|inr}}. Omnia, on a full year, would add ~₹420 cr of pre-tax profit (~10% of ours) for ~₹11,900 cr of net debt; at 6-10x EBITDA it is worth −₹170 to +₹590 a share to Solar."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "num"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "RED"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): defence run-rate against the ₹4,500 cr target, working-capital release, margins as ammonium nitrate costs pass through.",
+   "Omnia: shareholder vote, competition and regulatory approvals and the final funding structure; completion expected early-to-mid 2027.",
+   "Defence orders: Pinaka follow-ons (Mk2, guided, replenishment), Bhargavastra counter-drone trials (management: complete in calendar 2026), 155 mm qualification, further export orders.",
+   "Ammonium nitrate prices and coal overburden removal after a weak FY26; the new Dhule, Odisha and South India plants.",
+   "Capex delivery (₹2,050 cr in FY27) and whether new capacity earns its cost while debt rises."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "Defence went from 5% to 27% of revenue in five years",
+       "unit": "Revenue by customer line (₹ '000 crore)",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Domestic explosives",
+         "values": [
+          1.3,
+          1.3,
+          2.2,
+          3.7,
+          3.1,
+          3.2,
+          3.3
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "International",
+         "values": [
+          0.8,
+          1,
+          1.4,
+          2.8,
+          2.5,
+          2.9,
+          3.8
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "Defence",
+         "values": [
+          0.1,
+          0.1,
+          0.2,
+          0.4,
+          0.5,
+          1.4,
+          2.6
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "minLabel": 0.5,
+       "source": "Company fact sheets (customer split); others (<1%) not shown"
+      },
+      {
+       "type": "column",
+       "title": "Defence revenue by quarter: lumpy, and back-ended",
+       "unit": "Defence revenue (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Defence",
+         "values": [
+          194,
+          322,
+          409,
+          430,
+          418,
+          506,
+          702,
+          1008,
+          933
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company fact sheets"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Defence order book: a jump in FY25, flat since",
+       "unit": "Order book (₹ '000 crore)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Jun-26"
+       ],
+       "series": [
+        {
+         "name": "Defence",
+         "values": [
+          0.5,
+          1.1,
+          2.6,
+          15.2,
+          18,
+          18
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "Total",
+         "values": [
+          3,
+          2.9,
+          5.1,
+          17,
+          21.3,
+          21.35
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "MOFSL (21-Sep-2026) from company data; Jun-26 from the Q1FY27 fact sheet and broker notes"
+      },
+      {
+       "type": "stacked",
+       "title": "Most revenue is now billed outside India",
+       "unit": "Revenue from external customers by location (₹ '000 crore)",
+       "x": [
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "India",
+         "values": [
+          3.5,
+          3.8
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "Outside India",
+         "values": [
+          3.9,
+          5.8
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "minLabel": 0.5,
+       "source": "AR FY26, consolidated note 32 (geographical information)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: a defence-mix step-up, then held near 28%",
+       "unit": "EBITDA margin (%, Screener basis)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 32,
+       "source": "Screener.in; GAM estimates FY27-29E"
+      },
+      {
+       "type": "column",
+       "title": "FY26: profit up, cash from operations down",
+       "unit": "₹ crore",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Net profit",
+         "values": [
+          288,
+          455,
+          811,
+          875,
+          1288,
+          1737
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Cash from operations",
+         "values": [
+          357,
+          298,
+          656,
+          1406,
+          2468,
+          621
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Screener.in (consolidated)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: ~62x now vs a 46.5x median since 2021",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2016-04-29",
+        "2016-06-03",
+        "2016-07-08",
+        "2016-08-12",
+        "2016-09-16",
+        "2016-10-21",
+        "2016-11-25",
+        "2016-12-30",
+        "2017-02-03",
+        "2017-03-10",
+        "2017-04-13",
+        "2017-05-19",
+        "2017-06-23",
+        "2017-07-28",
+        "2017-09-01",
+        "2017-10-06",
+        "2017-11-10",
+        "2017-12-15",
+        "2018-01-19",
+        "2018-02-23",
+        "2018-03-28",
+        "2018-05-04",
+        "2018-06-08",
+        "2018-07-13",
+        "2018-08-17",
+        "2018-09-21",
+        "2018-10-26",
+        "2018-11-30",
+        "2019-01-04",
+        "2019-02-08",
+        "2019-03-15",
+        "2019-04-18",
+        "2019-05-24",
+        "2019-06-28",
+        "2019-08-02",
+        "2019-09-06",
+        "2019-10-11",
+        "2019-11-15",
+        "2019-12-20",
+        "2020-01-24",
+        "2020-02-28",
+        "2020-04-03",
+        "2020-05-08",
+        "2020-06-12",
+        "2020-07-17",
+        "2020-08-21",
+        "2020-09-25",
+        "2020-10-30",
+        "2020-12-04",
+        "2021-01-08",
+        "2021-02-12",
+        "2021-03-19",
+        "2021-04-23",
+        "2021-05-28",
+        "2021-07-02",
+        "2021-08-06",
+        "2021-09-09",
+        "2021-10-14",
+        "2021-11-18",
+        "2021-12-24",
+        "2022-01-28",
+        "2022-03-04",
+        "2022-04-08",
+        "2022-05-13",
+        "2022-06-17",
+        "2022-07-22",
+        "2022-08-26",
+        "2022-09-30",
+        "2022-11-04",
+        "2022-12-09",
+        "2023-01-13",
+        "2023-02-17",
+        "2023-03-24",
+        "2023-04-28",
+        "2023-06-02",
+        "2023-07-07",
+        "2023-08-11",
+        "2023-09-15",
+        "2023-10-20",
+        "2023-11-24",
+        "2023-12-29",
+        "2024-02-02",
+        "2024-03-07",
+        "2024-04-12",
+        "2024-05-18",
+        "2024-06-21",
+        "2024-07-26",
+        "2024-08-30",
+        "2024-10-04",
+        "2024-11-08",
+        "2024-12-13",
+        "2025-01-17",
+        "2025-02-21",
+        "2025-03-28",
+        "2025-05-02",
+        "2025-06-06",
+        "2025-07-11",
+        "2025-08-14",
+        "2025-09-19",
+        "2025-10-24",
+        "2025-11-28",
+        "2026-01-02",
+        "2026-02-06",
+        "2026-03-13",
+        "2026-04-17",
+        "2026-05-22",
+        "2026-06-25",
+        "2026-07-31",
+        "2026-09-04",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          27.8,
+          25.7,
+          26.7,
+          25.4,
+          26.4,
+          27.1,
+          26,
+          27.7,
+          30.2,
+          29.6,
+          28.5,
+          28.5,
+          28.1,
+          31.1,
+          30.5,
+          32.5,
+          36.9,
+          40.4,
+          39.3,
+          35.1,
+          37,
+          35.7,
+          39.2,
+          38.7,
+          41.4,
+          37.2,
+          32,
+          34.8,
+          35.8,
+          33.3,
+          34.9,
+          35,
+          38.5,
+          41.3,
+          35.3,
+          35.4,
+          35.8,
+          33.3,
+          34.9,
+          38.6,
+          37.9,
+          18.2,
+          17.6,
+          19.7,
+          21.1,
+          22.4,
+          21,
+          20.7,
+          21.8,
+          23.1,
+          25.4,
+          26.5,
+          15,
+          16.8,
+          19.3,
+          21.2,
+          21.4,
+          30.3,
+          33.2,
+          28.2,
+          29,
+          27.2,
+          32.5,
+          30.1,
+          29.9,
+          30.5,
+          36.2,
+          42.4,
+          43.4,
+          43.7,
+          46.5,
+          43.6,
+          41.5,
+          28.6,
+          28.3,
+          27.4,
+          30.5,
+          34.8,
+          39.4,
+          50.8,
+          50.3,
+          48.3,
+          56.2,
+          46,
+          48.4,
+          54.1,
+          59.2,
+          57.9,
+          59.1,
+          54.8,
+          56.1,
+          52.4,
+          47.7,
+          60.7,
+          48.9,
+          61.9,
+          57.8,
+          56.6,
+          55,
+          52.5,
+          49.7,
+          46.2,
+          48.7,
+          53.4,
+          47.2,
+          56.7,
+          54.5,
+          57.5,
+          67,
+          61.6
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 46.5,
+         "text": "Median since 2021: 46.5x"
+        }
+       ],
+       "source": "Screener.in prices (monthly samples plus the 30-Sep-2026 close); actual EPS, GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (Jul-Sep 2026)",
+       "unit": "₹ per share; CMP ₹19,700",
+       "x": [
+        "PL",
+        "Motilal Oswal",
+        "ICICI Securities",
+        "ICICI Direct",
+        "Kotak IE",
+        "DAM Capital",
+        "Morgan Stanley",
+        "Antique",
+        "Goldman Sachs",
+        "Jefferies",
+        "Nuvama",
+        "Kotak Securities PCG",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          23124,
+          23000,
+          23500,
+          23200,
+          11200,
+          22000,
+          22753,
+          24418,
+          26550,
+          28160,
+          23435,
+          10300,
+          17490
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and press reports (Jul-Sep 2026); median target ₹23,162"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Solar does",
+   "kicker": "The business",
+   "title": "Explosives for mines, and now rockets, shells and drones for armies",
+   "blocks": [
+    {
+     "p": "Solar Industries makes the explosives that break rock in coal, iron-ore and limestone mines, quarries and tunnels, and the detonators and cords that set them off (\"initiating systems\"). It sells **bulk explosives** (emulsions pumped into blast holes at the mine, often from trucks), **packaged explosives** (cartridges; management calls Solar the world's largest maker) and **initiating systems**. Since about 2010 it has added **defence**: high-energy materials (HMX, RDX, TNT), propellants for the Akash, Pinaka and BrahMos missiles, complete Pinaka rockets, warheads, 23-155 mm ammunition, Nagastra loitering munitions (drones that dive onto a target) and the Bhargavastra counter-drone system now in trials. The company reports one segment; its fact sheets split revenue by customer."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What Solar sells, FY26 (by customer line)",
+      "head": [
+       "Line",
+       "Revenue (₹ cr)",
+       "Share",
+       "Growth",
+       "What it is"
+      ],
+      "wide": [
+       4
+      ],
+      "rows": [
+       [
+        "**Domestic explosives**",
+        "**3,343**",
+        "**34%**",
+        "**+3%**",
+        ""
+       ],
+       [
+        "  Coal India (CIL)",
+        "924",
+        "9%",
+        "−4%",
+        "Bulk explosives for CIL's open-cast coal mines, bought by tender (Solar ~20-23% of CIL's purchases)"
+       ],
+       [
+        "  Non-CIL & institutional",
+        "1,222",
+        "12%",
+        "+9%",
+        "Singareni, captive and commercial coal mines, iron ore, limestone, other miners"
+       ],
+       [
+        "  Housing & infrastructure",
+        "1,197",
+        "12%",
+        "+3%",
+        "Packaged explosives and detonators through dealers for quarries, roads, tunnels, dams"
+       ],
+       [
+        "**International**",
+        "**3,815**",
+        "**39%**",
+        "**+32%**",
+        "Exports from India plus plants in Africa (Zambia, South Africa, Nigeria, Ghana, Tanzania, Zimbabwe), Turkey, Kazakhstan, South-East Asia"
+       ],
+       [
+        "**Defence**",
+        "**2,634**",
+        "**27%**",
+        "**+94%**",
+        "High-energy materials, propellants, Pinaka rockets, warheads, ammunition, drones; India and export customers"
+       ],
+       [
+        "Others",
+        "46",
+        "0%",
+        "−6%",
+        ""
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total**",
+         "**9,838**",
+         "**100%**",
+         "**+30%**",
+         ""
+        ]
+       }
+      ],
+      "source": "Q4FY26 fact sheet (15-May-2026)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "By customer, defence was 27% of FY26 revenue",
+       "unit": "FY26 revenue by customer line (₹ crore)",
+       "x": [
+        "International",
+        "Defence",
+        "Non-CIL & institutional",
+        "Housing & infra",
+        "Coal India"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          3815,
+          2634,
+          1222,
+          1197,
+          924
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Defence",
+       "source": "Q4FY26 fact sheet"
+      },
+      {
+       "type": "hbar",
+       "title": "By product, defence was 42%",
+       "unit": "Product-wise revenue mix (%)",
+       "x": [
+        "Explosives FY26",
+        "Initiating systems FY26",
+        "Defence FY26",
+        "Explosives FY25",
+        "Initiating systems FY25",
+        "Defence FY25"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          47,
+          11,
+          42,
+          59,
+          13,
+          28
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Defence FY26",
+       "source": "AR FY26, MD&A (\"Product-Wise Revenue Mix\" chart)"
+      }
+     ]
+    },
+    {
+     "callout": "**Why two numbers for defence?** The fact sheet counts sales \"to defence customers\" (₹2,634 cr, 27%); the annual report's product chart counts \"defence products\" (42%, roughly ₹4,100 cr). The likely difference is defence products sold abroad being booked under \"International\". Either way, Solar is more of a defence company than its customer split suggests, and more of an exporter: 60% of FY26 revenue came from customers outside India."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Reach and assets",
+      "head": [
+       "",
+       "Detail"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Plants",
+        "Core complex at Nagpur (packaged explosives, initiating systems, defence); new explosives plants at Dhule (West India, commissioned) and in North India (acquired), Dholpur expansion; Odisha and Telangana/Andhra Pradesh next. Manufacturing in 11 countries; Australia and Sierra Leone starting"
+       ],
+       [
+        "Customers",
+        "Coal India (₹964 cr, ~10% of revenue, the only customer above 10%), Singareni, private and captive miners, dealers for quarries and infrastructure; Indian Army and MoD (Pinaka); export defence customers; miners in 90+ countries"
+       ],
+       [
+        "Defence subsidiary",
+        "Solar Defence and Aerospace Ltd (formerly Economic Explosives): FY26 turnover ₹1,577 cr, pre-tax profit ₹474 cr (30% margin), 20% of group profit"
+       ],
+       [
+        "Backward integration",
+        "Emulsifiers, detonator shells, PETN, TNT and RDX made in-house (MOFSL); ammonium nitrate is bought (Solar is India's largest AN consumer, PL)"
+       ],
+       [
+        "People",
+        "2,351 permanent employees in the parent company (AR FY26); 3,500+ more would come with Omnia"
+       ]
+      ],
+      "source": "AR FY26; Q4FY26 call; MOFSL and PL initiations (Sep-2026)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest subsidiaries, FY26 (₹ crore)",
+      "head": [
+       "Subsidiary",
+       "Turnover",
+       "Net profit",
+       "Note"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Solar Defence and Aerospace Ltd (formerly Economic Explosives)",
+        "1,577",
+        "349",
+        "Main defence subsidiary; 20.1% of group profit"
+       ],
+       [
+        "Solar Mining Services Pty (South Africa)",
+        "1,083",
+        "83",
+        ""
+       ],
+       [
+        "Solar Patlayici Maddeler (Turkey)",
+        "994",
+        "-3",
+        ""
+       ],
+       [
+        "Problast BS (Pty) (South Africa, acquired 2024)",
+        "531",
+        "39",
+        ""
+       ],
+       [
+        "Solar Nigachem Ltd",
+        "490",
+        "36",
+        ""
+       ],
+       [
+        "Solar Nitro Ghana",
+        "413",
+        "83",
+        ""
+       ],
+       [
+        "Solar Explochem Zambia",
+        "374",
+        "13",
+        ""
+       ]
+      ],
+      "source": "AR FY26, Form AOC-1 Part A (read from the rotated table; turnover before inter-company eliminations)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From a Nagpur cartridge maker (1995) to a global explosives and defence group",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1995",
+        "Founded in Nagpur (Chairman: Satyanarayan Nuwal); packaged explosives and initiating systems",
+        "Origin of the domestic franchise"
+       ],
+       [
+        "2005-06",
+        "Listed on the stock exchanges (MD: 'since our listing in 2005')",
+        "–"
+       ],
+       [
+        "2010",
+        "First overseas plant (Zambia); start of the SADC (southern Africa) build-out; later Nigeria, Ghana, Tanzania, Turkey, Kazakhstan, Zimbabwe, Thailand, Indonesia",
+        "Exports & overseas ₹400 cr (2015) to ~₹800 cr (2018-21), ₹3,815 cr (FY26)"
+       ],
+       [
+        "c.2010-16",
+        "Defence entry (MD, Sep-2026: built over the 'last 15 years'): HMX/RDX/TNT and propellants via Economic Explosives, now Solar Defence and Aerospace",
+        "Defence ~5% of sales until FY23"
+       ],
+       [
+        "2015-17",
+        "South Africa distribution (2015), Middelburg plant (2017)",
+        "Hub for Africa"
+       ],
+       [
+        "Nov-2019",
+        "Vice Chairman Kailashchandra Nuwal vacated office (undisclosed related-party rent agreement); NCLT/NCLAT litigation; Supreme Court disposed of the appeal on 26-Aug-2025; his and his wife's 29.2% moved to a Nuwal family trust in FY26",
+        "Governance overhang removed; promoter stake unchanged at 73.15%"
+       ],
+       [
+        "FY22-23",
+        "Ammonium nitrate price spike (Russia-Ukraine): revenue +57% and +75%",
+        "EBITDA margin ~19%; FY24 revenue -12% as prices fell"
+       ],
+       [
+        "2024",
+        "Acquired Problast (South Africa drilling and blasting services); ₹12,700 cr Maharashtra defence MoU",
+        "Services capability; long capex runway"
+       ],
+       [
+        "Feb-2025",
+        "MoD contract for Pinaka ADM Type-1 and HEPF Mk-1 rockets (Solar's share ~₹6,084 cr of ₹10,147 cr)",
+        "Defence order book to ~₹15,000 cr; FY25-26 defence revenue +162% and +94%"
+       ],
+       [
+        "Jul-2025",
+        "Ban on traditional electric detonators; industry moves to electronic detonators",
+        "Mix shift in initiating systems"
+       ],
+       [
+        "FY26",
+        "First private company to dispatch Pinaka Enhanced Mk-I rockets; Nagastra-1 performance; defence exports (e.g. ₹1,076 cr order, 29-May-2026)",
+        "Defence 27% of FY26 sales"
+       ],
+       [
+        "Sep-2026",
+        "Agreement to buy Omnia Holdings (US$1.355 bn, all cash)",
+        "Would roughly double revenue from FY28 at ~20% margins; debt to ₹10,000-11,000 cr"
+       ]
+      ],
+      "source": "AR FY26; Solar calls (May-2026, Sep-2026); ICRA (Feb-2025); broker notes"
+     }
+    },
+    {
+     "callout": "**Corporate actions and per-share data:** no bonus, split, buyback or equity raise in FY15-FY27 to date; 9.049 cr shares of ₹2. Per-share data need no restatement. Management has ruled out issuing equity for Omnia. The one capital event that changes the numbers is Omnia itself: if completed (expected early-to-mid 2027), it would roughly double revenue from FY28 at a ~20% group EBITDA margin and add ₹10,000-11,000 cr of debt."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Two industries: a slow-growing, price-led explosives market and a fast-growing defence market",
+   "blocks": [
+    {
+     "p": "India produced about 2.3 million tonnes of commercial explosives in FY25, up from 1.5 million in FY20 (~9% a year, PESO data via MOFSL). Mining, mostly coal, takes a substantial share (AR FY26); the rest goes to quarries, roads, tunnels and dams. Demand follows overburden removal (the rock stripped to reach coal) more than coal output itself. FY26 was weak: coal output was \"quite muted\" at 1,036 mt as heavy rain cut Coal India and Singareni production, though captive and commercial mines grew 10%. Explosives are sold largely by tender, so suppliers compete on cost, and ammonium nitrate (the main input) is passed on with a lag."
+    },
+    {
+     "p": "Defence is a different market. India's defence capital spending is expected to grow ~16% a year for four years and private companies' share of listed defence revenue rose from 9% to 16% over FY23-26 (Jefferies). Abroad, wars in Europe and West Asia have created a shortage of artillery shells, rockets and explosives, with demand visibility of 5-7 years (AR FY26). Solar sits at the intersection: it makes the energetic materials every munition needs and is integrating up into complete rockets and drones."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Forces acting on Solar's markets (as of 30-Sep-2026)",
+      "head": [
+       "Theme",
+       "Direction",
+       "What it means for Solar"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Coal and mining demand",
+        "Weak FY26, recovering",
+        "India's coal output was 'quite muted' at 1,036 mt in FY26 as heavy monsoons cut Coal India and Singareni output; captive/commercial mines grew 10% to 210 mt. Overburden removal at CIL, SCCL and private mines was 'on a negative side' (MD). Ministry of Coal sees demand of ~1.5-1.67 bn t by FY30."
+       ],
+       [
+        "Ammonium nitrate and input costs (West Asia conflict, 2026)",
+        "Revenue up, margin squeeze risk",
+        "Key raw-material prices rose 30-40% (ICICI Direct, Aug-2026); Solar raised prices, and contracts carry rise-and-fall clauses, but pass-through covers ~60% of an increase (MD). In FY22-23 a similar spike lifted revenue 57% and 75% while EBITDA margin fell to ~19%."
+       ],
+       [
+        "Defence spending and indigenisation",
+        "Strong tailwind",
+        "Jefferies (Sep-2026): India's domestic defence capex to grow ~16% a year for four years; private firms' share of listed defence revenue rose from 9% (FY23) to 16% (FY26); defence exports to grow ~11% a year to ₹58,400 cr by FY30."
+       ],
+       [
+        "Global ammunition and artillery shortage",
+        "Tailwind for exports",
+        "AR FY26: 'well-documented global shortage of medium and large calibre ammunition, especially 155mm'; demand visibility of 5-7 years as Europe, Asia and the Middle East restock. Solar's defence order book includes ~₹11,000 cr of international orders (MOFSL)."
+       ],
+       [
+        "Electronic detonators and regulation",
+        "Mix change",
+        "Traditional electric detonators banned from Jul-2025, moving the industry to electronic systems; the Explosives Regulation Bill 2025 replaces century-old law with digital licensing and tracking."
+       ],
+       [
+        "Global explosives consolidation",
+        "Solar becomes a buyer",
+        "Orica, Dyno Nobel, Enaex, EPC earn ~14-20% EBITDA margins and trade at ~6-8x EV/EBITDA (PL, Bloomberg). Solar agreed to buy Omnia (BME) in Sep-2026 for ~8x."
+       ],
+       [
+        "Competition",
+        "Rising",
+        "Kalyani group reported to be entering explosives (Nomura question, May-2026); Munitions India (state-owned) shares the Pinaka order; Premier Explosives and others in propellants. Domestic mining tenders are price-led (Coal India buys on tender)."
+       ]
+      ],
+      "source": "AR FY26 MD&A (Jul-2026); Solar Q4FY26 call (15-May-2026); ICICI Direct (14-Aug-2026, via DSIJ); Jefferies initiation (8-Sep-2026, via Business Today); MOFSL (21-Sep-2026) and PL (23-Sep-2026) initiations"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Solar's domestic volume share rose from ~23% to ~26%",
+       "unit": "Solar domestic explosives volume ÷ India production (%)",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          23.3,
+          22.2,
+          24.3,
+          23.8,
+          25.8,
+          26.2
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 30,
+       "source": "Company year-end decks (volumes); PESO production via MOFSL; GAM calculation"
+      },
+      {
+       "type": "hbar",
+       "title": "Jun-2026 quarter: Solar +70%, behind only BDL's low-base rebound",
+       "unit": "Revenue growth, Jun-2026 quarter, year on year (%)",
+       "x": [
+        "Solar Industries",
+        "Bharat Electronics",
+        "Hindustan Aeronautics",
+        "Bharat Dynamics",
+        "Premier Explosives"
+       ],
+       "series": [
+        {
+         "name": "Growth",
+         "values": [
+          70.3,
+          24.9,
+          14.4,
+          130.6,
+          -27.5
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Solar Industries",
+       "source": "Screener.in quarterly results (BDL standalone)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: Solar captures the defence and export tailwinds; domestic mining has not helped",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Indian defence indigenisation",
+       "Yes",
+       "Pinaka rockets (~₹6,000 cr order), propellants and explosives for Indian missiles; first private firm to dispatch Pinaka Enhanced Mk-I.",
+       "Domestic defence is a smaller part of defence revenue than exports, but it anchors credibility."
+      ],
+      [
+       "Global ammunition shortage",
+       "Yes",
+       "~₹11,000 cr of international defence orders in the book; we infer ~₹2,000 cr of FY26 defence revenue was exported.",
+       "The biggest driver, and the most cyclical."
+      ],
+      [
+       "Coal and mining growth in India",
+       "No (FY26)",
+       "Domestic explosives +3% in FY26; CIL revenue −4%; overburden removal fell. Q1FY27 +52% includes price.",
+       "Steady, not a growth engine."
+      ],
+      [
+       "Infrastructure and housing",
+       "Partly",
+       "Housing & infra ₹1,197 cr, +3% in FY26 after +4% in FY25; Q4FY26 +25%.",
+       "Recovering from a weak base."
+      ],
+      [
+       "Mining abroad (Africa, Turkey, Asia)",
+       "Yes",
+       "International +32% in FY26, +65% in Q1FY27; new plants in Zimbabwe, Kazakhstan, Ghana.",
+       "Real share gains, now to be supercharged (and diluted) by Omnia."
+      ],
+      [
+       "Input-cost cycle (ammonium nitrate)",
+       "Mixed",
+       "Price rises lift revenue (18-20% of FY27 explosives growth) but pass-through is partial (~60%).",
+       "A revenue tailwind, a margin headwind."
+      ],
+      [
+       "Electronic detonators (2025 rule change)",
+       "Probably",
+       "Electric detonators banned from Jul-2025; Solar makes electronic systems and Omnia owns the AXXIS brand.",
+       "Mix upgrade in initiating systems."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "Solar Industries fact sheets, calls and annual reports; GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "domestic",
+   "nav": "Domestic explosives",
+   "kicker": "Business line",
+   "title": "Domestic explosives: the market leader in a tender-driven, low-growth market",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Domestic explosives revenue by quarter",
+       "unit": "Revenue (₹ crore); Q1FY27 includes ammonium-nitrate price pass-through",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Domestic",
+         "values": [
+          903,
+          584,
+          794,
+          955,
+          898,
+          598,
+          815,
+          1033,
+          1361
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company fact sheets"
+      },
+      {
+       "type": "stacked",
+       "title": "Flat for three years after the FY23 price spike",
+       "unit": "Domestic revenue by customer (₹ '000 crore)",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Coal India",
+         "values": [
+          0.4,
+          0.4,
+          0.7,
+          1.1,
+          0.9,
+          1,
+          0.9
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "Non-CIL & institutional",
+         "values": [
+          0.3,
+          0.3,
+          0.5,
+          1.3,
+          1,
+          1.1,
+          1.2
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "Housing & infra",
+         "values": [
+          0.6,
+          0.6,
+          1,
+          1.3,
+          1.1,
+          1.2,
+          1.2
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "minLabel": 0.6,
+       "source": "Company fact sheets"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Volume vs price: FY23 was price, FY24-25 was volume",
+      "head": [
+       "",
+       "FY20",
+       "FY21",
+       "FY22",
+       "FY23",
+       "FY24",
+       "FY25"
+      ],
+      "rows": [
+       [
+        "Domestic explosives volume (tonnes)",
+        "3,37,456",
+        "3,33,081",
+        "4,06,372",
+        "4,59,549",
+        "5,50,092",
+        "5,88,834"
+       ],
+       [
+        "Realisation (₹ per tonne)",
+        "33,521",
+        "34,797",
+        "50,417",
+        "70,360",
+        "47,700",
+        "48,353"
+       ],
+       [
+        "India production ('000 t, PESO)",
+        "1,450",
+        "1,501",
+        "1,672",
+        "1,928",
+        "2,131",
+        "2,250"
+       ],
+       [
+        "Solar volume share",
+        "23.3%",
+        "22.2%",
+        "24.3%",
+        "23.8%",
+        "25.8%",
+        "26.2%"
+       ]
+      ],
+      "source": "Company year-end decks (FY26 volumes not disclosed); PESO via MOFSL; GAM calculation"
+     }
+    },
+    {
+     "bullets": [
+      "**What it is.** Bulk and packaged explosives and detonators for Indian mines and construction: ₹3,343 cr in FY26 (34% of revenue), ~21% a year since FY21. Coal India alone bought ₹924 cr; Solar supplies ~20-23% of CIL's explosives.",
+      "**Price, not volume, drives the big years.** FY23 realisation jumped 39% as ammonium nitrate spiked; FY24 it fell 32% and revenue with it. Volumes grew ~7-22% a year in FY22-25, faster than the market, so share rose to ~26%.",
+      "**FY26 was flat** (+3%): heavy monsoons cut CIL and Singareni output and overburden removal \"was on a negative side\" (MD). **Q1FY27 rebounded +52%**, helped by new plants near customers (Dhule, North India) and AN price pass-through (management: 18-20% of FY27 explosives growth is price).",
+      "**Competition:** a price-led tender market with established rivals and a possible new entrant (Kalyani group); management: \"we cannot say that we will have 100% market share\"."
+     ]
+    },
+    {
+     "callout": "**Our view:** a solid, cash-generating base with real scale advantages, but not where the growth or the premium comes from. We model ₹{{as.businessLines.FY27E.domestic|num}} cr in FY27E (+30%, mostly price), then +10% and +11% as prices normalise and volumes grow high single digits."
+    }
+   ]
+  },
+  {
+   "id": "intl",
+   "nav": "International",
+   "kicker": "Business line",
+   "title": "International: a decade of plant-building in Africa and Turkey is now paying off",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "International revenue by quarter",
+       "unit": "Revenue (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "International",
+         "values": [
+          579,
+          799,
+          758,
+          764,
+          826,
+          963,
+          1020,
+          1006,
+          1364
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company fact sheets"
+      },
+      {
+       "type": "column",
+       "title": "Five times FY20 in six years",
+       "unit": "International (exports & overseas) revenue (₹ crore)",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "International",
+         "values": [
+          792.74,
+          1044.67,
+          1435.17,
+          2796,
+          2458,
+          2900,
+          3815
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company fact sheets"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**What it is.** Explosives exported from India plus output of plants in Zambia, South Africa (Middelburg, Problast services), Nigeria, Ghana, Tanzania, Zimbabwe, Turkey, Kazakhstan, Thailand and Indonesia: ₹3,815 cr in FY26 (+32%), 39% of revenue. Africa brings ~US$300 mn a year (MD, Sep-2026).",
+      "**Why it took off.** Exports and overseas stalled at ~₹800 cr in 2018-21 while plants were built and customers qualified them; revenue reached ~₹1,400 cr in FY22 and ₹3,815 cr in FY26 (MD).",
+      "**Growth outlook.** Management: world mining-explosives demand grows 2-3% a year, Solar ~10% in volume and ~15% in value; FY27 ~+30% (price helps). Q1FY27 +65%.",
+      "**Profitability is uneven.** South Africa earned ₹83 cr on ₹1,083 cr of turnover, Ghana ₹83 cr on ₹413 cr, but Turkey (₹994 cr turnover) was at a small loss and its hyperinflation accounting cost ₹94.5 cr in FY26 (₹65 cr in FY25). Subsidiaries' margins were \"subdued\" in H1FY26 and improved from Q3 (MD)."
+     ]
+    },
+    {
+     "callout": "**Our view:** a genuine growth engine where Solar is gaining share against much larger global players (Orica, Dyno Nobel, Enaex). We model ₹{{as.businessLines.FY27E.intl|num}} / {{as.businessLines.FY28E.intl|num}} / {{as.businessLines.FY29E.intl|num}} cr for FY27-29E, organic only. Omnia would add ~₹13,000-15,000 cr a year, mostly in Africa, at about half Solar's margin."
+    }
+   ]
+  },
+  {
+   "id": "defence",
+   "nav": "Defence",
+   "kicker": "Business line",
+   "title": "Defence: from 5% to 27% of revenue in five years, and the reason for the premium",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Defence revenue: we expect ₹4,500 cr in FY27, as guided",
+       "unit": "Defence revenue (₹ crore); FY27-29E = GAM",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Defence",
+         "values": [
+          122.17,
+          122.86,
+          248.94,
+          396,
+          517,
+          1355,
+          2634,
+          4500,
+          5900,
+          7400
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company fact sheets; GAM estimates"
+      },
+      {
+       "type": "column",
+       "title": "Order book covers ~4 years of FY27 defence revenue",
+       "unit": "Defence order book ÷ that year's defence revenue (x)",
+       "x": [
+        "FY24",
+        "FY25",
+        "FY26",
+        "Jun-26 (on FY27E)"
+       ],
+       "series": [
+        {
+         "name": "Cover",
+         "values": [
+          5,
+          11.2,
+          6.8,
+          4
+         ],
+         "fmt": "x"
+        }
+       ],
+       "labels": "all",
+       "source": "MOFSL order-book series; company revenue; GAM calculation"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**What it is.** Energetic materials (HMX, RDX, TNT and their compounds), composite propellants for Akash, Pinaka and BrahMos, complete Pinaka rockets, warheads, mines, bombs, 30/81/155 mm ammunition, multi-mode hand grenades, Nagastra loitering munitions, MALE-class UAV and counter-drone programmes. Most sits in Solar Defence and Aerospace, which earned ₹474 cr pre-tax on ₹1,577 cr of turnover in FY26.",
+      "**Orders.** Defence order book ~₹18,000 cr at Mar-26 and Jun-26: ~₹6,000 cr Pinaka (Feb-2025 MoD contract) and ~₹11,000 cr international (MOFSL); export wins include ₹1,076 cr (29-May-2026) and ₹830 cr and ₹589 cr (Jan-2026), each over three to four years.",
+      "**Exports dominate.** Revenue billed outside India was ₹5,790 cr in FY26 vs ₹3,815 cr of international explosives; the ~₹2,000 cr difference is, we think, mainly defence exports (~75% of defence revenue). Solar does not disclose the split.",
+      "**Pipeline.** Pinaka follow-ons (guided, Mk2, replenishment, Armenia exports), Bhargavastra trials \"in this calendar year\", 155 mm complete rounds after a coupling facility, medium-calibre ammunition in qualification; Project Kusha and MALE UAVs are longer-dated (PL, MOFSL).",
+      "**What can go wrong.** Trials take \"longer time than what we expect\" (MD); export orders depend on governments, conflicts and Indian export licences; the defence order book was flat between Mar-26 and Jun-26 after revenue doubled in FY26."
+     ]
+    },
+    {
+     "callout": "**Our view:** this is the best business in the group and the reason the stock trades at 60x. We model ₹{{as.businessLines.FY27E.defence|num}} cr in FY27E (guidance), then +31% and +25%, which the existing book can cover; PL and MOFSL are 3-5% higher for FY28. Defence reaches 38% of revenue in FY29E. Upside needs new platform orders; downside is execution slippage on lumpy export contracts."
+    }
+   ]
+  },
+  {
+   "id": "omnia",
+   "nav": "The Omnia deal",
+   "kicker": "Acquisition",
+   "title": "Omnia: a large, cheap, low-margin business bought with debt; roughly value-neutral at the price paid",
+   "blocks": [
+    {
+     "p": "On 14-Sep-2026 Solar agreed to buy 100% of Johannesburg-listed Omnia Holdings for ZAR 134.5 a share in cash: about US$1.355 bn or ₹12,951 cr, Solar's largest deal by far. Founded 1953, Johannesburg; 23 countries, 70+ distribution centres, 3,500+ employees. FY26 (Mar) revenue ZAR 24.2 bn (~US$1.41 bn, ₹13,307 cr): agriculture 54%, mining (BME: bulk and packaged explosives, AXXIS electronic detonators, blasting services) 41%, chemicals (Protea) 5%. Segment EBITDA ZAR 2.98 bn (agri 1.66, mining 1.31, chemicals 0.01); net cash ~US$110 mn. Owns nitric acid / ammonium nitrate plants (largest in the region). Completion needs Omnia shareholders, competition and other regulators, and is expected in early-to-mid 2027. Solar's stock fell ~17% in two days. We keep Omnia **out of our forecasts and target** until it closes and the funding is fixed, as PL and Goldman Sachs do (MOFSL includes it), and show its effect here."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said about FY28 with Omnia (15-Sep-2026 call)",
+      "head": [
+       "",
+       "Solar alone",
+       "Omnia",
+       "Combined"
+      ],
+      "rows": [
+       [
+        "Revenue (₹ cr)",
+        "~16,500",
+        "15,000+",
+        "31,000-32,000"
+       ],
+       [
+        "EBITDA (₹ cr)",
+        "~4,800 (29%)",
+        "US$180 mn (~₹1,700 cr) before synergies",
+        "6,800-7,000 (22-23%)"
+       ],
+       [
+        "EBIT / interest / PBT (₹ cr)",
+        "",
+        "",
+        "EBIT 6,200-6,300 / interest 1,000-1,100 / PBT 5,000+"
+       ],
+       [
+        "Total debt (₹ cr)",
+        "",
+        "",
+        "10,000-11,000 by FY28; net debt below 2x EBITDA"
+       ]
+      ],
+      "source": "Solar business update call transcript (15-Sep-2026, filed 17-Sep)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Our simple pro forma for a full year of Omnia (FY28, before synergies)",
+      "head": [
+       "",
+       "₹ crore",
+       "Basis"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Omnia EBITDA",
+        "1,720",
+        "US$180 mn (management) at ₹95.6/US$ (the deal's own rate)"
+       ],
+       [
+        "Less depreciation",
+        "−250",
+        "Combined D&A ~₹700 cr implied by management's EBITDA-EBIT gap, less our organic FY28E"
+       ],
+       [
+        "Less interest on acquisition debt",
+        "−1,050",
+        "Management and Kotak: ₹1,000-1,100 cr a year"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Omnia pre-tax profit added**",
+         "**420**",
+         "**~10% of our organic FY28E pre-tax profit (₹{{F.pbt.1|num}} cr)**"
+        ]
+       },
+       [
+        "Net debt taken on",
+        "11,900",
+        "Price ₹12,951 cr less Omnia's ~US$110 mn net cash (PL)"
+       ],
+       [
+        "Value per Solar share at 6x / 8x / 10x EV/EBITDA",
+        "−₹174 / +₹206 / +₹586",
+        "Omnia EBITDA × multiple less net debt taken on, ÷ 9.05 cr shares"
+       ]
+      ],
+      "source": "GAM Research arithmetic on management and broker inputs; global explosives peers trade at ~6-8x EV/EBITDA (PL, Bloomberg)"
+     }
+    },
+    {
+     "bullets": [
+      "**Street pro formas differ widely.** PL: EPS +2% in FY28E (half-year consolidation) and +9% in FY29E, with EBITDA margin falling from ~27.5% to ~19-20%, and Omnia worth ~₹754 a share at 12x/10x EV/EBITDA. Goldman Sachs: +11-25% to FY28 EPS. Kotak: accretion depends on synergies and funding.",
+      "**The strategic case is real.** Omnia owns the region's largest ammonium nitrate and nitric acid plants (Solar's key input), the BME mining brand with AXXIS electronic detonators, and a footprint in 23 countries including Canada, Australia and Indonesia; manufacturing would rise from 11 to ~25 countries.",
+      "**The costs are also real.** 54% of Omnia's revenue is agriculture (fertilisers, biostimulants), a business Solar does not know; chemicals is being restructured; group margins halve; Solar's debt rises about seven-fold; and integration spans two continents."
+     ]
+    },
+    {
+     "callout": "**Our view:** at ~8x EBITDA Solar is not overpaying for a business that trades at 4-8x, but it is buying lower-quality earnings with debt. Value per share is close to zero at the price paid (± a few hundred rupees, ~1-3% of the share price) unless synergies come through. The bigger effect may be on the multiple: half of revenue would come from a ~13%-margin mining and agri business, and the market should not pay defence multiples for that."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: a cost moat in explosives, a capability lead in defence, no pricing power",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Domestic scale and cost",
+       "Strong",
+       "~26% of India's explosives volume (FY25), the world's largest packaged-explosives maker (MD); plants near mines; emulsifiers, detonator shells, PETN, TNT and RDX made in-house.",
+       "Lowest-cost supplier in a tender market."
+      ],
+      [
+       "Licences and qualification",
+       "Strong",
+       "Explosives need PESO licences; defence products need years of trials; Solar was first private firm to dispatch Pinaka Enhanced Mk-I rockets.",
+       "Slows new entrants, does not stop funded ones (Kalyani)."
+      ],
+      [
+       "Pricing power, domestic mining",
+       "Weak",
+       "Coal India (10% of revenue) buys by tender; pass-through of input costs covers ~60% of an increase.",
+       "Margins in explosives are earned on cost, not price."
+      ],
+      [
+       "Raw materials",
+       "Weak (today)",
+       "No captive ammonium nitrate; FY22-23 spike cut margins to ~19%. Omnia's AN plant would change this in southern Africa only.",
+       "Input shocks hit profit."
+      ],
+      [
+       "Defence capability",
+       "Strong but young",
+       "Integrated from explosives to rockets and drones; defence revenue ₹2,634 cr (FY26) from ₹249 cr (FY22); SDAL 30% pre-tax margin.",
+       "The source of the premium, and of the risk."
+      ],
+      [
+       "International footprint",
+       "Moderate",
+       "Plants in 11 countries; international revenue ₹3,815 cr; but rivals are Orica, Dyno Nobel, Enaex, AEL; Turkey subsidiary ~break-even.",
+       "Real growth engine, not a moat."
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings, calls and broker notes to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** Solar has a real but narrow moat. In explosives it is the scale, low-cost, licensed incumbent close to the mines, which wins tenders and share, but tender buyers set the price and ammonium nitrate is bought in. In defence it has a genuine capability lead among Indian private firms (integrated from energetic materials to complete rockets), which is why defence margins are higher; but that lead is being contested by well-funded groups, it depends on government trials and export licences, and it is young. The premium the market pays assumes the defence lead converts into a decade of large orders. That is possible, not proven."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Ten years of 21% growth, with one input-cost boom and bust and a defence-led margin step-up",
+   "blocks": [
+    {
+     "p": "Solar's revenue grew from ₹1,449 cr in FY16 to ₹9,838 cr in FY26, about 21% a year, and net profit from ₹178 cr to ₹1,737 cr, about 26% a year. The path had three phases. Until FY21 it was a pure explosives company (exports and overseas already ~35-42% of sales) growing ~12% a year with a ~20% EBITDA margin. In FY22-23 the ammonium nitrate (AN) price spike after the Russia-Ukraine war pushed revenue up 57% and 75% (prices are passed on), while the margin slipped to ~19%; when AN fell, FY24 revenue dropped 12%. Since FY24 defence has changed the mix: defence rose from 9% of revenue in FY24 to 27% in FY26, and EBITDA margin rose from 19% in FY23 to 28% in FY26."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: 21% a year, with an AN-price bulge in FY23",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit: up six times since FY21",
+       "unit": "Net profit incl. minority (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Gross margin fell when AN spiked, then rose with defence",
+       "unit": "Gross margin (%)",
+       "x": "A.labels",
+       "from": "FY16",
+       "series": [
+        {
+         "name": "Gross margin",
+         "ref": "A.grossMargin",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 30,
+       "max": 55,
+       "source": "Screener.in (100 − material cost % of revenue)"
+      },
+      {
+       "type": "line",
+       "title": "EBITDA margin: ~20% for a decade, 28% now",
+       "unit": "EBITDA margin (%, Screener basis)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 32,
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the FY24-26 margin step-up is real and mostly mix: defence (higher margin) went from a tenth to over a quarter of revenue, and the domestic explosives business, which is sold by tender, stayed flat. The swing factor in explosives is ammonium nitrate: Solar passes on most of a price rise with a lag, so revenue jumps and the percentage margin falls. That is happening again in FY27 (management: 18-20% of explosives growth is price)."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: a blow-out quarter, a quarter of the way to an ambitious FY27 target",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q1FY27",
+       "Change"
+      ],
+      "rows": [
+       [
+        "Revenue",
+        "2,154",
+        "3,668",
+        "+70%"
+       ],
+       [
+        "  Domestic explosives",
+        "898",
+        "1,361",
+        "+52%"
+       ],
+       [
+        "  International",
+        "826",
+        "1,364",
+        "+65%"
+       ],
+       [
+        "  Defence",
+        "418",
+        "933",
+        "+123%"
+       ],
+       [
+        "Material cost, % of revenue",
+        "50.8%",
+        "50.63%",
+        "−17bp"
+       ],
+       [
+        "Employee cost, % of revenue",
+        "8.5%",
+        "6.97%",
+        "−156bp"
+       ],
+       [
+        "EBITDA (company basis, incl. other income)",
+        "564",
+        "1,024",
+        "+82%"
+       ],
+       [
+        "EBITDA margin",
+        "26.2%",
+        "27.91%",
+        "+173bp"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net profit (incl. minority)**",
+         "**353**",
+         "**666**",
+         "**+89%**"
+        ]
+       },
+       [
+        "Memo: Bloomberg consensus profit / revenue",
+        "",
+        "519 / 2,995",
+        "Beat by ~26% / ~22%"
+       ]
+      ],
+      "source": "Q1FY27 fact sheet (13-Aug-2026); consensus via Business Today (13-Aug-2026)"
+     }
+    },
+    {
+     "bullets": [
+      "**Broad-based beat.** All three lines grew 50%+; operating leverage on employee and other costs lifted the margin. Attributable profit was ₹653 cr (EPS ₹72.1).",
+      "**Against the FY27 targets.** Q1 revenue is 26% of the ₹14,000 cr target and defence 21% of the ₹4,500 cr target. Defence is usually back-ended (FY26: ₹418 cr in Q1, ₹1,008 cr in Q4), so the defence target needs ~₹1,190 cr a quarter for the rest of the year.",
+      "**No earnings call.** Solar filed only the fact sheet for Q1FY27; the 15-Sep Omnia call excluded questions on current operations. Order book ₹21,350 cr (defence ~₹18,000 cr); ~₹450 cr of the ₹2,050 cr capex spent in Q1 (ICICI Direct)."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (May-Sep 2026)",
+      "head": [
+       "When",
+       "Topic",
+       "What was said",
+       "Outcome so far"
+      ],
+      "wide": [
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "15-May-26",
+        "FY27 revenue",
+        "'targeting to achieve a revenue of INR14,000 crores in FY '27, while maintaining current margins' (MD)",
+        "Q1FY27 ₹3,668 cr = 26% of the target; reiterated in the Q1 release (Aug-2026) and on the 15-Sep call"
+       ],
+       [
+        "15-May-26",
+        "Defence FY27",
+        "'we should cross defense revenue of INR4,500 crores in FY '27' (FY26 ₹2,634 cr)",
+        "Q1 ₹933 cr (21% of the target); defence is back-ended (FY26: Q1 ₹418 cr, Q4 ₹1,008 cr)"
+       ],
+       [
+        "15-May-26",
+        "Explosives FY27 (domestic + international)",
+        "Ex-defence ~₹9,500 cr, +30-33%: 10-15% from volume and 18-20% from price (crude/gas-linked inputs); international ~+30%",
+        "Q1: domestic +52%, international +65%"
+       ],
+       [
+        "15-May-26",
+        "Margins",
+        "'we should be able to maintain the current EBITDA margins' despite input inflation; contracts carry rise-and-fall clauses but pass-through covers ~60% of an increase",
+        "Q1FY27 27.9% (company basis) vs 26.2% a year earlier"
+       ],
+       [
+        "15-May-26",
+        "Capex and dividend",
+        "FY27 capex ₹2,050 cr (₹2,700 cr invested over FY25-26); dividend ₹11/share for FY26",
+        "~₹450 cr spent in Q1FY27 (ICICI Direct)"
+       ],
+       [
+        "15-May-26",
+        "Order book",
+        "₹21,300 cr: defence ~₹18,000 cr (biggest single order Pinaka), non-defence ~₹3,000 cr",
+        "₹21,350 cr at Jun-2026"
+       ],
+       [
+        "15-May-26",
+        "New products",
+        "Bhargavastra trials to complete 'in this calendar year'; 155 mm complete rounds after a coupling facility in 'next couple of quarters'; medium-calibre plant commissioned, supplying for qualification",
+        "No order disclosed by 30-Sep-2026"
+       ],
+       [
+        "20-Jul-26",
+        "Margin range (AR)",
+        "'the Company expects sustainable EBITDA margins in the 27-28% range' as defence and international grow (AR FY26 MD&A)",
+        "–"
+       ],
+       [
+        "15-Sep-26",
+        "FY28 (pre-Omnia)",
+        "Solar FY27 ~₹14,000 cr at 28-29% EBITDA margin; FY28 +17-20% to ~₹16,500 cr; with Omnia (US$180 mn EBITDA) combined FY28 revenue ~₹31,000-32,000 cr, EBITDA ₹6,800-7,000 cr, EBIT ~₹6,200-6,300 cr, interest ₹1,000-1,100 cr, PBT ₹5,000 cr+; debt ₹10,000-11,000 cr by FY28; net debt/EBITDA below 2x; no equity raise",
+        "Deal pending approvals"
+       ]
+      ],
+      "source": "Q4FY26 call (15-May-2026), AR FY26 (Jul-2026), Omnia call (15-Sep-2026)"
+     }
+    },
+    {
+     "callout": "**Why it matters:** management has a good recent record (FY26 revenue +30% and a margin above its own guidance), and Q1 suggests FY27 revenue of ₹14,000 cr is within reach; we model ₹{{F.sales.0|num}} cr. The less certain part is FY28-29: the defence order book has stopped growing and FY27 is inflated by input-price pass-through, which reverses if ammonium nitrate falls."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "Returns above 30%, but capex and working capital now eat most of the profit",
+   "blocks": [
+    {
+     "p": "Over FY15-26 Solar generated ₹7,290 cr of operating cash and spent ₹5,506 cr on capex, so free cash flow was only ₹1,784 cr against cumulative profit of ₹6,773 cr. Capex has stepped up sharply: ₹560 cr in FY24, ₹1,006 cr in FY25 and ₹1,739 cr in FY26 on Screener's cash flow (company: ₹1,182 cr and ₹1,556 cr for FY25-26), with ₹2,050 cr guided for FY27, for defence capacity (Nagpur, Dhule, Dholpur), new explosives plants and overseas units. Returns are still high: ROE was 32% and ROCE 38% in FY26, against our 12.5% cost of equity. Dividends are small (₹11 a share, ~6% of profit)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Capex has overtaken operating cash flow",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: ~20-25% before defence, 32-38% since FY23",
+       "unit": "Return on capital employed (%)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          19,
+          23,
+          22,
+          24,
+          26,
+          19,
+          19,
+          25,
+          36,
+          32,
+          38,
+          38
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 45,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY21-23",
+       "FY24-26",
+       "Six years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "1,311",
+        "4,495",
+        "5,806"
+       ],
+       [
+        "Capex",
+        "1,031",
+        "3,305",
+        "4,336"
+       ],
+       [
+        "Acquisitions (Problast etc.)",
+        "13",
+        "245",
+        "258"
+       ],
+       [
+        "Dividends paid",
+        "176",
+        "287",
+        "463"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over**",
+         "**91**",
+         "**658**",
+         "**749**"
+        ]
+       },
+       [
+        "Memo: net debt at the end (negative = net cash)",
+        "836",
+        "757",
+        ""
+       ]
+      ],
+      "source": "Screener.in cash flow (consolidated); net debt = borrowings incl. leases less cash and investments"
+     }
+    },
+    {
+     "callout": "**The capital question:** the business needs more capital than it used to. Defence plants, overseas units and working capital absorbed all of FY26's operating cash, and on our forecasts free cash flow is negative in FY27 (₹{{F.fcf.0|num}} cr) before turning positive. Then comes Omnia: ₹12,951 cr in cash, mostly borrowed. Solar's returns justify investing, but shareholders should expect debt, not cash, to build for the next two years."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: profits are real, but cash lagged badly in FY26 and the definitions need care",
+   "blocks": [
+    {
+     "bullets": [
+      "**Cash lagged profit in FY26.** Operating cash flow was 36% of net profit in FY26 (₹621 cr vs ₹1,737 cr), after 192% in FY25 and 161% in FY24. Over FY15-26 operating cash (₹7,290 cr) slightly exceeded profit (₹6,773 cr). The FY26 gap is inventory (₹1,742 cr vs ₹1,040 cr) and receivables (₹1,858 cr vs ₹1,239 cr); management says the inventory build was deliberate.",
+      "**A recurring \"below-the-line\" loss.** Turkey is accounted for as a hyperinflationary economy; the restatement cost ₹94.5 cr in FY26 and ₹65 cr in FY25 (in other expenses). Other income of ₹128 cr includes a ₹68 cr foreign-exchange gain. Screener moves the Turkish loss out of operating profit, so its EBITDA margin (27.6%) is a little flattering; the company's own EBITDA (₹2,750 cr) includes other income.",
+      "**Minority interest.** ₹59 cr in FY26 (3.4% of profit) and ₹78 cr in FY25; EPS uses attributable profit (₹1,678 cr). Our model carries profit including minorities and divides by Screener's implied share count (9.4 cr), which keeps EPS on an attributable basis.",
+      "**Estimates in revenue.** The auditors' key audit matters are the \"powder factor\" provision (₹37 cr: a deduction from sales based on blast output achieved at customer sites, settled later) and the Level-3 fair value of ₹135 cr of unlisted equity and preference-share investments.",
+      "**Currency.** A weaker rupee lifted reported profit (export receivables) and added ₹276 cr of translation gains to equity in FY26; the reverse can happen.",
+      "**Disclosure gaps.** One reported segment, no EBITDA by line, no split of defence between India and exports, no Q1FY27 call. Investors are asked to trust a defence story they can only see in aggregate."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** Audits are clean (S R B C & Co jointly with Gandhi Rathi & Co) and profits are cash-backed over time. The flag is for FY26's weak cash conversion, a recurring hyperinflation charge outside \"EBITDA\", and thin disclosure on the defence business that carries the valuation."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & debt",
+   "kicker": "Balance sheet",
+   "title": "From net cash to net debt in one year, as inventory and receivables ballooned",
+   "blocks": [
+    {
+     "p": "At Mar-2026 Solar had ₹1,524 cr of borrowings (incl. leases) and ₹767 cr of cash and investments: net debt of ₹757 cr, against net cash of ₹426 cr a year earlier (company: net debt ₹867 cr, 0.32x EBITDA). The swing came from working capital: inventory days rose from 95 to 130 and receivable days from 60 to 69. Management says the inventory was built on purpose \"to mitigate the risk arising from geopolitical uncertainties\" and should normalise \"maybe in the next 2 quarters\". Our model holds working capital at FY26's share of revenue, which is conservative if that happens."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Working-capital days jumped in FY26",
+       "unit": "Days (of revenue)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          83,
+          67,
+          73,
+          80,
+          74,
+          99,
+          119,
+          113,
+          92,
+          97,
+          95,
+          130
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          55,
+          68,
+          74,
+          69,
+          59,
+          60,
+          66,
+          50,
+          44,
+          51,
+          60,
+          69
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          31,
+          45,
+          36,
+          49,
+          43,
+          46,
+          78,
+          73,
+          41,
+          37,
+          45,
+          47
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Net debt: back after one year of net cash",
+       "unit": "Net debt, ₹ crore (negative = net cash)",
+       "x": [
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Net debt",
+         "values": [
+          478,
+          586,
+          626,
+          771,
+          836,
+          481,
+          -426,
+          757
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26",
+       "Mar-27E",
+       "Mar-28E"
+      ],
+      "rows": [
+       [
+        "Net worth (attributable; minority interest of ₹272 cr at Mar-26 excluded)",
+        "1,914",
+        "3,306",
+        "4,413",
+        "6,277",
+        "{{F.netWorth.0|num}}",
+        "{{F.netWorth.1|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "888",
+        "1,138",
+        "975",
+        "1,524",
+        "",
+        ""
+       ],
+       [
+        "Cash and investments",
+        "117",
+        "657",
+        "1,401",
+        "767",
+        "",
+        ""
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net debt (negative = net cash)**",
+         "**771**",
+         "**481**",
+         "**-426**",
+         "**757**",
+         "**1,077**",
+         "**253**"
+        ]
+       },
+       [
+        "Inventories",
+        "719",
+        "847",
+        "1,040",
+        "1,742",
+        "",
+        ""
+       ],
+       [
+        "Trade receivables",
+        "541",
+        "845",
+        "1,239",
+        "1,858",
+        "",
+        ""
+       ],
+       [
+        "Trade payables",
+        "465",
+        "323",
+        "493",
+        "632",
+        "",
+        ""
+       ]
+      ],
+      "source": "Screener.in (consolidated); GAM estimates for Mar-27E/28E (organic, before any Omnia acquisition debt)"
+     }
+    },
+    {
+     "callout": "Before Omnia the balance sheet is comfortable: net debt below 0.5x EBITDA on our forecasts. With Omnia, management expects total debt of ₹10,000-11,000 cr by FY28 and promises to stay below 2x net debt to EBITDA. That is manageable for a business earning ~₹4,700 cr of organic EBITDA in FY28E, but it ends Solar's history as a near-debt-free company."
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: the Nuwal family at 73%, Indian funds 12%, a thin free float",
+   "blocks": [
+    {
+     "p": "The Nuwal family owns 73.15% (Jun-2026), unchanged for years, with no shares pledged: Managing Director Manish Nuwal holds 38.93% directly, a family trust (Sohan Devi Nand Lal Nuwal Family Trust) 29.23% and Chairman Satyanarayan Nuwal 3.58% (Mar-2026). The trust received the 29.2% held by Kailashchandra Nuwal and his wife during FY26, after the Supreme Court disposed of his long-running case against the company. Mutual funds and AIFs own 12.46%, foreign investors 6.24% and the public 6.42%. Shareholders numbered ~117,000 at Jun-2026, double the Dec-2023 count."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Indian institutions ~13%, foreign funds ~6%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoters unchanged at 73.15%",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 50,
+       "max": 80,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Named holders",
+      "head": [
+       "Holder",
+       "Stake",
+       "Date"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Manish Nuwal (promoter)",
+        "38.93%",
+        "Mar-2026"
+       ],
+       [
+        "Sohan Devi Nand Lal Nuwal Family Trust (promoter)",
+        "29.23%",
+        "Mar-2026"
+       ],
+       [
+        "Satyanarayan Nuwal (promoter)",
+        "3.58%",
+        "Mar-2026"
+       ],
+       [
+        "Seema Manish Nuwal (promoter)",
+        "1.37%",
+        "Mar-2026"
+       ],
+       [
+        "SBI Mutual Fund",
+        "3.62%",
+        "Jun-2026"
+       ],
+       [
+        "Kotak Mutual Fund",
+        "2.81%",
+        "Jun-2026"
+       ],
+       [
+        "Axis Mutual Fund",
+        "1.22%",
+        "Jun-2026"
+       ],
+       [
+        "Other mutual funds and AIFs",
+        "4.81%",
+        "Jun-2026"
+       ],
+       [
+        "Vanguard funds",
+        "1.16%",
+        "Mar-2026"
+       ],
+       [
+        "iShares funds",
+        "1.07%",
+        "Mar-2026"
+       ],
+       [
+        "All foreign portfolio investors",
+        "6.24%",
+        "Jun-2026"
+       ]
+      ],
+      "source": "Q1FY27 fact sheet (shareholding at 30-Jun-2026); Q4FY26 fact sheet (FPI names at 31-Mar-2026); Screener.in (BSE pattern, shareholder count); AR FY26 note 11 (promoter holders at 31-Mar-2026)"
+     }
+    },
+    {
+     "callout": "**Our read:** a committed founding family with 73% and no pledge, and a free float of only ~27%, most of it in Indian mutual funds (SBI, Kotak, Axis). That makes the stock sensitive to domestic fund flows into defence themes; foreign ownership is low at ~6%."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: founder-run and capable, with high pay and one past related-party episode",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Satyanarayan Nuwal",
+        "Founder, Chairman",
+        "Pay Rs 24.5 cr in FY26 (Rs 18.0 cr in FY25)"
+       ],
+       [
+        "Manish Nuwal",
+        "Managing Director & CEO",
+        "Promoter (38.93%); pay Rs 50.5 cr (Rs 30.0 cr), 780x the median employee, +60%"
+       ],
+       [
+        "Suresh Menon",
+        "Executive Director",
+        "35x median"
+       ],
+       [
+        "Milind Deshmukh",
+        "Executive Director",
+        "Re-appointment proposed at the 11-Aug-2026 AGM"
+       ],
+       [
+        "Moneesh Agrawal / Shalinee Mandhana",
+        "Joint CFOs",
+        ""
+       ],
+       [
+        "Khushboo Pasari",
+        "Company Secretary",
+        ""
+       ]
+      ],
+      "source": "AR FY26 (board report, note 31)"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Good",
+       "Joint auditors (S R B C & Co, Gandhi Rathi & Co); unqualified FY26 opinion.",
+       "No red flags."
+      ],
+      [
+       "Promoter and pledge",
+       "Strong",
+       "73.15% held by the Nuwal family, nil pledged.",
+       "Aligned, long-term owners."
+      ],
+      [
+       "Execution record",
+       "Strong",
+       "Built international and defence businesses from scratch; FY26 beat its own guidance.",
+       "Management credibility is an asset."
+      ],
+      [
+       "Pay",
+       "Weak",
+       "MD ₹50.5 cr (₹30.0 cr in FY25; 780x the median employee), Chairman ₹24.5 cr in FY26; directors' and KMP pay +54%.",
+       "About 4.5% of attributable profit to two family executives."
+      ],
+      [
+       "Related parties",
+       "Watch",
+       "In 2019 a then-Vice Chairman was found to have facilitated an unapproved related-party rent agreement and vacated office; litigation ended Aug-2025.",
+       "Handled through the board and courts; no repeat seen."
+      ],
+      [
+       "Capital allocation",
+       "Watch",
+       "High-return organic capex so far; Omnia is a ₹12,951 cr, debt-funded move into agriculture and chemicals.",
+       "The biggest test of judgement yet."
+      ],
+      [
+       "Disclosure",
+       "Moderate",
+       "Customer-line revenue each quarter; no segment margins; no Q1FY27 call; defence export split not disclosed.",
+       "Below what a 60x stock should offer."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: FY27 at guidance, then ~18% growth; EPS ~27% a year (organic)",
+   "blocks": [
+    {
+     "p": "We forecast revenue by customer line, then a group EBITDA margin (Solar does not report margins by line), depreciation on the gross block, interest, tax at 26.5% and a 6% payout. Omnia is excluded until it closes. Every assumption, with our reasoning, is in the Excel model's Assumptions sheet, which recalculates this report's target price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Revenue build by line (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Domestic explosives",
+        "3,343",
+        "4,350",
+        "4,785",
+        "5,310"
+       ],
+       [
+        "International (organic)",
+        "3,815",
+        "5,040",
+        "5,950",
+        "6,840"
+       ],
+       [
+        "Defence",
+        "2,634",
+        "4,500",
+        "5,900",
+        "7,400"
+       ],
+       [
+        "Others",
+        "46",
+        "50",
+        "50",
+        "50"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total revenue**",
+         "**9,838**",
+         "**{{F.sales.0|num}}**",
+         "**{{F.sales.1|num}}**",
+         "**{{F.sales.2|num}}**"
+        ]
+       },
+       [
+        "Defence share of revenue",
+        "27%",
+        "32%",
+        "35%",
+        "38%"
+       ]
+      ],
+      "source": "Q4FY26 fact sheet; GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "Group P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Net profit (incl. minority)",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "Cash & investments (forecasts: net of debt)",
+        "ref": "fin.treasury"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates. Cash is gross in actual years; forecasts show net cash (negative = net debt)."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E",
+       "GAM FY29E",
+       "Street FY29E"
+      ],
+      "rows": [
+       [
+        "EPS (₹), PL (23-Sep-26, excl. Omnia)",
+        "{{F.eps.0|num}}",
+        "264",
+        "{{F.eps.1|num}}",
+        "336",
+        "{{F.eps.2|num}}",
+        "410"
+       ],
+       [
+        "EPS (₹), MOFSL (21-Sep-26, Omnia from FY28)",
+        "{{F.eps.0|num}}",
+        "285",
+        "{{F.eps.1|num}}",
+        "378*",
+        "{{F.eps.2|num}}",
+        "482*"
+       ],
+       [
+        "EPS (₹), Nuvama (14-Aug-26, derived)",
+        "{{F.eps.0|num}}",
+        "~290",
+        "{{F.eps.1|num}}",
+        "~383",
+        "{{F.eps.2|num}}",
+        "n.a."
+       ],
+       [
+        "Revenue (₹ cr), PL",
+        "{{F.sales.0|num}}",
+        "13,640",
+        "{{F.sales.1|num}}",
+        "17,169",
+        "{{F.sales.2|num}}",
+        "20,733"
+       ],
+       [
+        "EBITDA margin, PL (excludes the ~1pp of costs Screener moves below EBITDA)",
+        "{{F.ebitdaMargin.0|pct}}",
+        "27.1%",
+        "{{F.ebitdaMargin.1|pct}}",
+        "27.5%",
+        "{{F.ebitdaMargin.2|pct}}",
+        "27.6%"
+       ]
+      ],
+      "source": "PL and MOFSL initiation PDFs (Sep-2026); Nuvama via Business Today (EPS derived by GAM from its stated P/E). * includes Omnia, not comparable."
+     }
+    },
+    {
+     "callout": "We are 1% from PL for FY27, 5% below for FY28 and 7% below for FY29. The gap is revenue: we follow management's FY28 indication (~₹16,500 cr) and assume no unannounced defence platform orders, while PL has ₹17,169 cr for FY28. Our EPS still compounds ~27% a year over FY26-29E."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: 10 of 12 positive, targets bunched at ₹22,000-24,500, two Kotak sells far below",
+   "blocks": [
+    {
+     "p": "We found 12 notes standing on 30-Sep-2026: 10 Buy/Overweight and 2 Sell. Targets range from ₹10,300 to ₹28,160, median ₹23,162. Every broker that discloses a relative method uses **P/E**, at 50-70x on FY28E to Dec-28E earnings: Jefferies 70x Sep-28E (₹28,160), PL 62x Sep-28E (₹23,124), Antique 60x (₹24,418), Nuvama 55x Sep-28E (₹23,435), ICICI Direct 70x FY28E (₹23,200) and MOFSL 50x Dec-28E including Omnia (₹23,000; it cut the multiple because Omnia raises the non-defence share). The two sells (Kotak Institutional Equities ₹11,200, Kotak's private-client desk ₹10,300) use DCF. On Omnia the street is split: PL and Goldman Sachs keep it out of their base estimates, MOFSL includes it. Bulls focus on defence (Jefferies: defence from 27% to 40% of sales, 31% EPS CAGR); bears on valuation and the debt Omnia brings."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "The price already assumes years of defence growth: ~62x our FY28E EPS; Kotak's DCF gives ₹11,200 and ours far less.",
+        "Kotak IE, Kotak PCG; GAM"
+       ],
+       [
+        "Omnia brings ~₹11,000-12,000 cr of debt whose interest (₹1,000-1,100 cr) roughly cancels Omnia's FY28 profit; margins fall to ~20%.",
+        "PL, Kotak"
+       ],
+       [
+        "More than half of revenue (60% in FY26) is billed outside India; most defence growth is exports (our inference from the geography note), which are lumpy and policy-exposed.",
+        "GAM; MOFSL (Africa country risk)"
+       ],
+       [
+        "Defence order book stood at ~₹18,000 cr in Mar-26 and Jun-26: execution is running ahead of new orders.",
+        "GAM"
+       ],
+       [
+        "FY26 cash from operations was ₹621 cr against ₹1,737 cr of profit: inventory built for geopolitical risk.",
+        "Investor on the May-2026 call; GAM"
+       ],
+       [
+        "Domestic explosives grew 3% in FY26 as coal overburden removal fell.",
+        "Company"
+       ],
+       [
+        "Founder and MD were paid ₹75 cr in FY26 (+56%), the MD 780x the median employee.",
+        "AR FY26; GAM"
+       ],
+       [
+        "Bull case: defence rises from 27% to ~40% of sales and EPS compounds ~31% a year; Omnia adds up to 25% to FY28 EPS.",
+        "Jefferies, Goldman Sachs"
+       ]
+      ],
+      "source": "Broker notes, company calls and filings to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 50x Sep-28E earnings gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values Solar Industries"
+    },
+    {
+     "p": "The brokers that disclose a relative method value Solar on **P/E**, mostly on Sep-28E or FY28E earnings. We use the same method, applied to the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E), on organic estimates (Omnia excluded until it closes). The \"At our EPS\" column applies each broker's multiple to our EPS for its year: most of the gap to the street is the multiple, not the earnings."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Prabhudas Lilladher (23-Sep-26)",
+        "Buy",
+        "23,124",
+        "P/E",
+        "62x",
+        "Sep-28E EPS",
+        "21,669",
+        "Initiation: 28% revenue CAGR FY26-29E, defence 27% to 37% of sales; Omnia EPS-accretive only from FY29 and growth-dilutive"
+       ],
+       [
+        "Motilal Oswal (21-Sep-26)",
+        "Buy",
+        "23,000",
+        "P/E",
+        "50x",
+        "Dec-28E EPS",
+        "–",
+        "Initiation: lower multiple than history because Omnia raises the non-defence share; 43%/34% revenue/PAT CAGR FY26-30E"
+       ],
+       [
+        "ICICI Securities (16-Sep-26)",
+        "Buy",
+        "23,500",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Omnia a 'step towards becoming global explosives behemoth; execution is key'; target unchanged from the Q1 note (14-Aug)"
+       ],
+       [
+        "ICICI Direct (16-Sep-26)",
+        "Buy",
+        "23,200",
+        "P/E",
+        "70x",
+        "FY28E EPS",
+        "22,400",
+        "Q1 beat; revenue/PAT CAGR of 30%/32% FY26-28E; defence the next growth leg"
+       ],
+       [
+        "Kotak Institutional Equities (16-Sep-26)",
+        "Sell",
+        "11,200",
+        "DCF",
+        "–",
+        "–",
+        "–",
+        "Omnia cheap (~8x) and AN-integrated, but ~₹12,000 cr borrowing and ₹1,000-1,100 cr interest; valuation leaves no margin of safety"
+       ],
+       [
+        "DAM Capital (16-Sep-26)",
+        "Buy",
+        "22,000",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Omnia 'transformational' at ~7.9x EV/EBITDA; agri/chemicals earnings a monitorable"
+       ],
+       [
+        "Morgan Stanley (15-Sep-26)",
+        "Overweight",
+        "22,753",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Overweight kept after the Omnia deal (target ₹20,270 after Q1)"
+       ],
+       [
+        "Antique (15-Sep-26)",
+        "Buy",
+        "24,418",
+        "P/E",
+        "60x",
+        "H1 of FY2029 (as stated)",
+        "–",
+        "Target raised from ₹23,197; South Africa a large market Solar can expand in through Omnia"
+       ],
+       [
+        "Goldman Sachs (13-Sep-26)",
+        "Buy",
+        "26,550",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Omnia could add 11-25% to FY28 EPS; not in base estimates until completion"
+       ],
+       [
+        "Jefferies (8-Sep-26)",
+        "Buy",
+        "28,160",
+        "P/E",
+        "70x",
+        "Sep-28E EPS",
+        "24,465",
+        "Initiation: defence from 27% to 40% of sales drives 31% EPS CAGR FY26-30E"
+       ],
+       [
+        "Nuvama (14-Aug-26)",
+        "Buy",
+        "23,435",
+        "P/E",
+        "55x",
+        "Sep-28E EPS",
+        "19,223",
+        "Q1 PAT 26% above consensus; catalysts: Pinaka ER order, capacity, 155 mm commercialisation"
+       ],
+       [
+        "Kotak Securities (PCG) (9-Jul-26)",
+        "Sell",
+        "10,300",
+        "DCF",
+        "–",
+        "–",
+        "–",
+        "Initiation: ~55x FY28E P/E leaves limited margin of safety"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**SELL**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**50x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Strong business; defence growth is priced in; Omnia adds debt, not value"
+        ]
+       }
+      ],
+      "source": "PL and MOFSL initiation PDFs; Kotak PCG PDF; Business Today (Jefferies, Nuvama, Morgan Stanley, Antique, Goldman Sachs, DAM, ICICI Direct); DSIJ (Kotak IE, ICICI Direct); Trendlyne listing (ICICI Securities). n.d. = method not disclosed in the sources we saw"
+     }
+    },
+    {
+     "h": "Our target multiple: 50x, and why"
+    },
+    {
+     "p": "We start from the stock's own one-year-forward P/E since April 2021 (the house window), adjust for how far defence and explosives peers had re-rated by 30-Sep-2026, and then check growth, peers and returns."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Its own history",
+        "One-year-forward P/E: median 46.5x since Apr-2021 (trough years excluded: none (EPS rose every year)); 25th-75th percentile 30.5-54.5x; 35.3x since 2016; 54.8x over the last two years; 61.6x on 30-Sep-2026 on our FY28E",
+        "Starting point: 46.5x"
+       ],
+       [
+        "2. Sector re-rating",
+        "On 30-Sep-2026 defence and explosives peers traded above their five-year median P/E: Bharat Electronics +13%, Hindustan Aeronautics +11%, Bharat Dynamics +15%, Premier Explosives +28% (median +14%); Solar itself +15%",
+        "46.5x × 1.14 ≈ 53.0x"
+       ],
+       [
+        "3. Growth",
+        "EPS grew 43% a year in FY21-26 and 30% in FY23-26, the years in which the median was set and defence went from 5% to 27% of sales; we forecast ~27% for FY26-29E (PL ~30%)",
+        "~5% discount: **50x**"
+       ],
+       [
+        "4. Peers",
+        "Trailing P/E: Bharat Electronics 46.2x, Hindustan Aeronautics 33.5x, Bharat Dynamics 78.1x, Premier Explosives 106.9x; Solar 89.4x",
+        "50x Sep-28E = 54.7x our FY28E: a premium to BEL and HAL for faster growth"
+       ],
+       [
+        "5. Returns",
+        "ROE 32.5% and ROCE 38% in FY26 against a 12.5% cost of equity; returns will fall as capex and (with Omnia) debt rise",
+        "Supports a premium, not a further re-rating"
+       ],
+       [
+        "6. What the price implies",
+        "56.3x our Sep-28E EPS. Our DCF reaches only ~₹8,710 even at a 11.5% discount rate and 7.0% terminal growth",
+        "The price assumes defence keeps compounding well beyond FY29"
+       ]
+      ],
+      "source": "Screener.in (P/E history to 30-Sep-2026), broker notes, GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "One-year-forward P/E: our 50x vs history",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2016-04-29",
+        "2016-06-03",
+        "2016-07-08",
+        "2016-08-12",
+        "2016-09-16",
+        "2016-10-21",
+        "2016-11-25",
+        "2016-12-30",
+        "2017-02-03",
+        "2017-03-10",
+        "2017-04-13",
+        "2017-05-19",
+        "2017-06-23",
+        "2017-07-28",
+        "2017-09-01",
+        "2017-10-06",
+        "2017-11-10",
+        "2017-12-15",
+        "2018-01-19",
+        "2018-02-23",
+        "2018-03-28",
+        "2018-05-04",
+        "2018-06-08",
+        "2018-07-13",
+        "2018-08-17",
+        "2018-09-21",
+        "2018-10-26",
+        "2018-11-30",
+        "2019-01-04",
+        "2019-02-08",
+        "2019-03-15",
+        "2019-04-18",
+        "2019-05-24",
+        "2019-06-28",
+        "2019-08-02",
+        "2019-09-06",
+        "2019-10-11",
+        "2019-11-15",
+        "2019-12-20",
+        "2020-01-24",
+        "2020-02-28",
+        "2020-04-03",
+        "2020-05-08",
+        "2020-06-12",
+        "2020-07-17",
+        "2020-08-21",
+        "2020-09-25",
+        "2020-10-30",
+        "2020-12-04",
+        "2021-01-08",
+        "2021-02-12",
+        "2021-03-19",
+        "2021-04-23",
+        "2021-05-28",
+        "2021-07-02",
+        "2021-08-06",
+        "2021-09-09",
+        "2021-10-14",
+        "2021-11-18",
+        "2021-12-24",
+        "2022-01-28",
+        "2022-03-04",
+        "2022-04-08",
+        "2022-05-13",
+        "2022-06-17",
+        "2022-07-22",
+        "2022-08-26",
+        "2022-09-30",
+        "2022-11-04",
+        "2022-12-09",
+        "2023-01-13",
+        "2023-02-17",
+        "2023-03-24",
+        "2023-04-28",
+        "2023-06-02",
+        "2023-07-07",
+        "2023-08-11",
+        "2023-09-15",
+        "2023-10-20",
+        "2023-11-24",
+        "2023-12-29",
+        "2024-02-02",
+        "2024-03-07",
+        "2024-04-12",
+        "2024-05-18",
+        "2024-06-21",
+        "2024-07-26",
+        "2024-08-30",
+        "2024-10-04",
+        "2024-11-08",
+        "2024-12-13",
+        "2025-01-17",
+        "2025-02-21",
+        "2025-03-28",
+        "2025-05-02",
+        "2025-06-06",
+        "2025-07-11",
+        "2025-08-14",
+        "2025-09-19",
+        "2025-10-24",
+        "2025-11-28",
+        "2026-01-02",
+        "2026-02-06",
+        "2026-03-13",
+        "2026-04-17",
+        "2026-05-22",
+        "2026-06-25",
+        "2026-07-31",
+        "2026-09-04"
+       ],
+       "series": [
+        {
+         "name": "Forward multiple",
+         "values": [
+          27.8,
+          25.7,
+          26.7,
+          25.4,
+          26.4,
+          27.1,
+          26,
+          27.7,
+          30.2,
+          29.6,
+          28.5,
+          28.5,
+          28.1,
+          31.1,
+          30.5,
+          32.5,
+          36.9,
+          40.4,
+          39.3,
+          35.1,
+          37,
+          35.7,
+          39.2,
+          38.7,
+          41.4,
+          37.2,
+          32,
+          34.8,
+          35.8,
+          33.3,
+          34.9,
+          35,
+          38.5,
+          41.3,
+          35.3,
+          35.4,
+          35.8,
+          33.3,
+          34.9,
+          38.6,
+          37.9,
+          18.2,
+          17.6,
+          19.7,
+          21.1,
+          22.4,
+          21,
+          20.7,
+          21.8,
+          23.1,
+          25.4,
+          26.5,
+          15,
+          16.8,
+          19.3,
+          21.2,
+          21.4,
+          30.3,
+          33.2,
+          28.2,
+          29,
+          27.2,
+          32.5,
+          30.1,
+          29.9,
+          30.5,
+          36.2,
+          42.4,
+          43.4,
+          43.7,
+          46.5,
+          43.6,
+          41.5,
+          28.6,
+          28.3,
+          27.4,
+          30.5,
+          34.8,
+          39.4,
+          50.8,
+          50.3,
+          48.3,
+          56.2,
+          46,
+          48.4,
+          54.1,
+          59.2,
+          57.9,
+          59.1,
+          54.8,
+          56.1,
+          52.4,
+          47.7,
+          60.7,
+          48.9,
+          61.9,
+          57.8,
+          56.6,
+          55,
+          52.5,
+          49.7,
+          46.2,
+          48.7,
+          53.4,
+          47.2,
+          56.7,
+          54.5,
+          57.5,
+          67
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 46.5,
+         "text": "Median since 2021: 46.5x"
+        },
+        {
+         "v": 50,
+         "text": "Our target: 50x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual earnings, GAM estimates for forecast years"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Share price today"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          17492,
+          15830,
+          6241,
+          19700
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "EPS Sep-28E ₹349.8",
+        "50x (bull 54x, bear 30x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "EBITDA Sep-28E ₹5,099 cr",
+        "29x (bull 31x, bear 17x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "-9%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-64%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA (29x Sep-28E EBITDA of ₹5,099 cr, less net debt) gives ₹15,830, below the P/E target: 29x comes from Solar's 43.4x median trailing EV/EBITDA since 2021, raised by the same sector re-rating and restated for Sep-28E EBITDA being 64% above the twelve months to Jun-26 (₹3,101 cr). The DCF (₹6,241) is far lower: at a 12.5% discount rate, with capex at 9-15% of revenue for three years, working capital held at FY26's bloated 23% of revenue, and growth fading from ~17% to 9% over 15 years, the cash flows support about a third of today's price. Kotak's DCF (₹11,200) is less harsh but tells the same story. Solar's price rests on its multiple, and the multiple rests on defence."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple 54x (its 75th-percentile forward P/E since 2021)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Revenue {{F.sales.0|num}} / {{F.sales.1|num}} / {{F.sales.2|num}} cr (FY27-29E), defence to {{as.businessLines.FY29E.defence|num}} cr; EBITDA margin {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 50x Sep-28E EPS; Omnia excluded."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple 30x (its 25th-percentile forward P/E since 2021, where it traded before defence scaled up)."
+       ],
+       [
+        "Omnia (not in any case)",
+        "−1% to +3% of target",
+        "",
+        "Value per share of −₹174 to +₹586 at 6-10x EV/EBITDA after acquisition debt (Omnia chapter)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27 (negative = net debt)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): discount rate down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "Rate \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed peers: defence and explosives",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "vs 5-yr median P/E",
+       "EV/EBITDA (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Solar Industries**",
+        "1,78,263",
+        "9,838",
+        "27.6%",
+        "89.4",
+        "+15%",
+        "55.7",
+        "32.5%"
+       ],
+       [
+        "Bharat Electronics",
+        "2,83,909",
+        "27,610",
+        "29.2%",
+        "46.2",
+        "+13%",
+        "31.4",
+        "27.6%"
+       ],
+       [
+        "Hindustan Aeronautics",
+        "3,12,204",
+        "33,089",
+        "29.6%",
+        "33.5",
+        "+11%",
+        "19.3",
+        "24%"
+       ],
+       [
+        "Bharat Dynamics",
+        "40,689",
+        "2,442",
+        "9.2%",
+        "78.1",
+        "+15%",
+        "45.6",
+        "10.2%"
+       ],
+       [
+        "Premier Explosives",
+        "3,676",
+        "388",
+        "10.3%",
+        "106.9",
+        "+28%",
+        "59.2",
+        "17.2%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026 (BDL standalone). Global explosives peers (Orica, Dyno Nobel, EPC) trade at ~7-8x CY26E EV/EBITDA (PL, Bloomberg)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: own the business on a pullback, not at 62x FY28E earnings",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's lowest-cost explosives maker with ~26% of the market, a fast-growing international business, and the most integrated private defence-energetics platform in India, with a ~₹18,000 cr defence order book, a 32.5% ROE and a founder-owner who has executed well for 30 years."
+    },
+    {
+     "callout": "**What you are paying:** 73.8x our FY27E and 61.6x FY28E EPS, for ~27% EPS growth a year, with FY27 revenue lifted by input-price pass-through (18-20 points of explosives growth, per management). The price assumes defence (mostly exports we cannot see in detail) keeps compounding long after the current order book is delivered, and it ignores the debt and lower-margin earnings Omnia will bring. On the street's method and our inputs the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): a SELL."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹15,210 (BUY on our rule)",
+        "Low-Medium",
+        "Share price; it traded at ₹18,480 on 16-Sep-2026"
+       ],
+       [
+        "Large new defence orders (Pinaka Mk2/guided, Bhargavastra, 155 mm exports) that lift the order book above ~₹25,000 cr",
+        "Medium",
+        "Order announcements; defence book in quarterly fact sheets"
+       ],
+       [
+        "Working capital releases as promised, turning FY27 free cash flow positive",
+        "Medium",
+        "Inventory and receivable days at H1FY27"
+       ],
+       [
+        "Omnia closes with synergies visible (AN supply, initiating systems into BME)",
+        "Medium",
+        "Omnia margins after completion; funding cost"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Defence export orders slow or are delayed (licences, customer budgets, conflicts ending)",
+        "Medium",
+        "~₹2,000 cr of FY26 revenue is, we infer, defence exports; a pause would cut growth sharply"
+       ],
+       [
+        "Trial or qualification delays for Bhargavastra, 155 mm and Pinaka variants",
+        "Medium",
+        "FY28-29 defence growth below our 25-31%"
+       ],
+       [
+        "Ammonium nitrate falls and takes realisations with it, or spikes and squeezes margins",
+        "Medium",
+        "FY23-24 showed revenue swings of +75% and −12%"
+       ],
+       [
+        "Omnia: integration, agriculture cycle, South African and multi-country risk, ~₹11,000 cr of debt",
+        "Medium",
+        "EPS dilution in FY28 if synergies lag; lower multiple for a less defence-heavy group"
+       ],
+       [
+        "De-rating of defence stocks from today's above-median multiples",
+        "Medium",
+        "At the bear multiple (30x) on our base EPS the stock would be worth ~₹10,490"
+       ],
+       [
+        "Safety incident at an explosives or ammunition plant",
+        "Low",
+        "Shutdowns, penalties, reputational damage"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: SELL, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would turn buyers below ~₹15,210** and are sellers above ~₹18,410 on today's numbers, or sooner if new defence orders lift FY29 visibility (each ₹1,000 cr of extra FY29 defence revenue adds ~₹590 to our target at a 30% margin).",
+      "**Biggest swing factor:** the multiple. Each 5x on Sep-28E EPS is ~₹1,750 a share; the gap between our 50x and the street's ~60x is worth ~₹3,500."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Defence revenue, FY26",
+        "v": "₹2,634 cr",
+        "d": "+94%; ₹4,500 cr guided for FY27"
+       },
+       {
+        "k": "Revenue billed outside India, FY26",
+        "v": "60%",
+        "d": "most defence growth is exports"
+       },
+       {
+        "k": "Cash from operations ÷ profit, FY26",
+        "v": "36%",
+        "d": "inventory build"
+       },
+       {
+        "k": "Price ÷ our FY28E EPS",
+        "v": "61.6x",
+        "d": "median since 2021: 46.5x (forward)"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY15–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 200
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (net of hyperinflation loss)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (incl. minority)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 25
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 25
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Bulk / packaged explosives",
+        "Bulk: emulsion or ANFO explosives mixed and pumped into blast holes at the mine. Packaged: explosives in cartridges, sold through dealers."
+       ],
+       [
+        "Initiating systems",
+        "Detonators, cords and boosters that set off the main charge; electronic detonators fire on a programmed delay. Electric (non-electronic) detonators were banned in India from Jul-2025."
+       ],
+       [
+        "Ammonium nitrate (AN)",
+        "The main raw material for commercial explosives; its price follows gas and fertiliser markets."
+       ],
+       [
+        "Overburden removal",
+        "Rock and soil removed to reach coal in open-cast mines; it drives explosives demand more than coal output does."
+       ],
+       [
+        "CIL / SCCL",
+        "Coal India Ltd and Singareni Collieries, the state-owned coal miners; they buy explosives by tender."
+       ],
+       [
+        "PESO",
+        "Petroleum and Explosives Safety Organisation, India's licensing regulator for explosives."
+       ],
+       [
+        "HMX, RDX, TNT",
+        "Military high explosives used in warheads, shells and missiles; Solar makes all three."
+       ],
+       [
+        "Pinaka",
+        "India's multi-barrel rocket launcher system; Solar makes the rockets (with state-owned Munitions India)."
+       ],
+       [
+        "Loitering munition (Nagastra)",
+        "A drone that circles a target area and then dives onto a target. Counter-drone (Bhargavastra): a system that shoots down drones."
+       ],
+       [
+        "Order book",
+        "Value of signed orders not yet delivered and billed."
+       ],
+       [
+        "Powder factor",
+        "Explosive used per unit of rock broken; some contracts adjust the price for the blast output achieved, settled after the sale."
+       ],
+       [
+        "Hyperinflation accounting",
+        "Rules for subsidiaries in very high-inflation countries (here Turkey): results are restated, creating a loss on monetary assets."
+       ],
+       [
+        "Minority (non-controlling) interest",
+        "The part of subsidiaries' profit that belongs to outside shareholders; EPS excludes it."
+       ],
+       [
+        "Omnia / BME",
+        "South African mining, agriculture and chemicals group Solar agreed to buy in Sep-2026; BME is its mining-explosives brand."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "P/E, EV/EBITDA",
+        "Share price ÷ earnings per share; enterprise value (market value plus net debt) ÷ EBITDA."
+       ],
+       [
+        "DCF",
+        "Discounted cash flow valuation: future free cash flows discounted at the cost of capital (here 12.5%)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY22": "+57%: domestic tonnes +22% and realisations +45% as ammonium nitrate rose; exports & overseas +37%.",
+  "sales@FY23": "+75%: domestic realisation +39% (AN spike after the Russia-Ukraine war); exports & overseas +95%.",
+  "sales@FY24": "−12%: AN prices fell; domestic realisation −32% despite +20% volume.",
+  "ebitdaMargin@FY24": "+510bp: cheaper inputs and a higher defence share (9% of sales).",
+  "pat@FY24": "+8%: lower revenue, higher margin.",
+  "sales@FY25": "+24%: defence +162% (Pinaka, exports); international +18%; domestic +6%.",
+  "ebitdaMargin@FY25": "+250bp: defence 18% of sales from 9%.",
+  "pat@FY25": "+47%: margin expansion and defence growth.",
+  "sales@FY26": "+30%: defence +94%, international +32%, domestic +3% (weak coal overburden removal).",
+  "pat@FY26": "+35%; minority share of profit fell to 3.4% from 6.1%.",
+  "cfo@FY26": "₹621 cr, 36% of profit: inventory and receivables rose ~₹1,300 cr (deliberate stock-building for geopolitical risk).",
+  "capex@FY26": "₹1,739 cr on Screener (company: ₹1,556 cr) for defence and explosives capacity.",
+  "otherIncome@FY26": "Net of a ₹94.5 cr hyperinflation loss on the Turkish subsidiary (₹128 cr reported other income).",
+  "sales@Q2FY26": "+21%: domestic +2% in a heavy monsoon (CIL −8%), international +21%, defence +57%.",
+  "sales@Q4FY26": "+41%: defence ₹1,008 cr (+134%) crossed ₹1,000 cr in a quarter for the first time.",
+  "sales@Q1FY27": "+70%: defence +123%, international +65%, domestic +52% (includes AN price pass-through).",
+  "opm@Q1FY27": "~28%: operating leverage on employee and other costs.",
+  "sales@FY27E": "GAM: management target ₹14,000 cr; defence ₹4,500 cr; explosives +30% incl. 18-20% price.",
+  "ebitdaMargin@FY27E": "GAM: near FY26; defence mix offsets AN price pass-through.",
+  "sales@FY28E": "GAM: +20%, in line with management's pre-Omnia +17-20%; Omnia excluded.",
+  "capex@FY27E": "GAM: management guidance ₹2,050 cr."
+ }
+}

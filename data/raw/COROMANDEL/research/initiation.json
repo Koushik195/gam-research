@@ -1,0 +1,3478 @@
+{
+ "symbol": "COROMANDEL",
+ "listing": "NSE: COROMANDEL · BSE: 506395",
+ "date": "30 September 2026",
+ "rating": "SELL",
+ "analysts": "GAM Research — Agri inputs",
+ "cover": {
+  "headline": "A well-run fertiliser leader in a subsidy squeeze, priced as if the squeeze were over",
+  "lead": "Coromandel is India's largest private phosphatic fertiliser maker (Nutrient & allied, ~87% of revenue and ~84% of segment EBITDA in FY26) with a fast-growing crop protection arm that now includes 53%-owned NACL Industries. Q1FY27 showed both sides: crop protection had a record quarter (standalone EBIT +44%), but fertiliser profit fell 24% as Middle East-driven ammonia, sulphur and phosphoric acid costs ran ahead of a 10% subsidy increase. The 2026 monsoon ended at 87% of normal (76% in the south, Coromandel's core market), and rabi subsidy rates were still unannounced on 30-Sep. We value Coromandel the way the street does, on **P/E: 15x Sep-28E EPS of ₹87.5**. That gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with SELL.** EV/EBITDA (₹1,609) and DCF (₹1,711) are higher but also below the share price. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "Fertiliser margins are set in Delhi, not Chennai",
+    "p": "About 77% of Q1FY27 revenue was subsidised fertiliser. The government fixes the subsidy per kg of nutrient (NBS) and, in practice, the farm-gate price. Kharif 2026 rates rose ~10% while phosphoric acid rose from $1,360 to $1,700 a tonne; Nutrient PBIT fell 24% to ₹479 cr (6.9% margin vs 9.9%). Rabi rates were unknown on 30-Sep. Manufactured EBITDA was \"₹5,000 plus\" per tonne in FY26 and below ₹3,500 in Q4."
+   },
+   {
+    "h": "Backward integration helps, but adds costs first",
+    "p": "The new Kakinada sulphuric and phosphoric acid plants (60% of acid needs), the Senegal rock mine and a 7.5 lakh t granulation train (Q4FY27) should lift EBITDA per tonne towards management's ₹6,500 target. But D&A jumped to ₹203 cr in Q1FY27 (₹121 cr a year earlier) from the acid plants, mine amortisation and NACL intangibles, so EPS lags EBITDA. We model fertiliser EBITDA margins of 9.2% / 11.0% / 11.2% (FY27-29E): back to FY25 levels, not above."
+   },
+   {
+    "h": "Crop protection is the growth engine, but still small",
+    "p": "Crop protection revenue rose 50% to ₹3,968 cr in FY26 (NACL from Aug-2025) and standalone EBIT margin is ~19%. We model +30% / +14% / +12% at a 15.5-16.5% EBITDA margin; NACL earns ~11% and 46% of it belongs to minorities. Even by FY29E, crop protection is only ~22% of segment EBITDA: not enough to make Coromandel an \"agrochemical\" stock."
+   },
+   {
+    "h": "Valuation: the street pays for a recovery we cannot yet see",
+    "p": "Brokers use 25-30x FY28E EPS (Motilal Oswal 25x on ~₹101.2 implied). Our FY28E EPS of ₹81.1 is 20% lower because we charge the higher D&A and finance cost and assume only partial subsidy relief. The stock's one-year-forward P/E median since 2021 is 17.5x; fertiliser and agrochemical peers trade ~14% below their own medians. At ₹1,758 it trades at 21.7x our FY28E."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA (₹ cr)",
+    "ebitda",
+    "num"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "RED"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "RED"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "RED"
+   }
+  ],
+  "catalysts": [
+   "Rabi 2026-27 NBS subsidy rates (due before the October-March season): the single biggest swing factor for H2FY27 fertiliser margins.",
+   "Q2FY27 results (due by mid-November 2026): Kharif-season margins at a $1,700/t phosphoric acid price; subsidy receivables.",
+   "Rabi demand in Andhra Pradesh, Telangana and Karnataka after a monsoon at 76% of normal in the south peninsula and low reservoirs.",
+   "Commissioning of the 7.5 lakh t granulation train (Q4FY27) and stable running of the new phosphoric acid plant.",
+   "Clarity on the government's \"reasonable margin\" guidelines for P&K fertilisers (a possible profit cap)."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "Fertilisers still earn ~84% of segment EBITDA",
+       "unit": "Segment EBITDA (₹ crore)",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Nutrient & allied",
+         "values": [
+          1628,
+          1815,
+          1901,
+          2733,
+          2341,
+          2486,
+          2992
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Crop protection",
+         "values": [
+          257,
+          390,
+          413,
+          408,
+          343,
+          424,
+          587
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 300,
+       "source": "Annual reports (segment note); EBITDA = segment PBIT + D&A, ex-impairments"
+      },
+      {
+       "type": "line",
+       "title": "Fertiliser margin has drifted down since FY21",
+       "unit": "Segment EBITDA margin (%)",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Nutrient & allied",
+         "values": [
+          14.1,
+          14.8,
+          11.4,
+          10.1,
+          11.8,
+          11.5,
+          10.8
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Crop protection",
+         "values": [
+          15.3,
+          18.7,
+          16.5,
+          15.5,
+          14,
+          16.1,
+          14.8
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 20,
+       "source": "Annual reports, GAM calculation"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Q1FY27: fertiliser margin squeezed, crop protection firm",
+       "unit": "Segment PBIT margin (%, quarterly)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Nutrient & allied",
+         "values": [
+          10.3,
+          12.6,
+          9.8,
+          6.9,
+          9.9,
+          11.3,
+          7.8,
+          4.9,
+          6.9
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Crop protection",
+         "values": [
+          11.4,
+          14.4,
+          14.3,
+          14.4,
+          15.3,
+          13.6,
+          12.2,
+          11.2,
+          13.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "min": 0,
+       "max": 18,
+       "source": "Coromandel results presentations, earnings calls and annual reports, GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "The NBS subsidy on phosphorus swings by policy",
+       "unit": "NBS rate for P (₹ per kg)",
+       "x": [
+        "FY24 H1",
+        "FY24 H2",
+        "FY25 H1",
+        "FY25 H2",
+        "FY26 H1",
+        "FY26 H2",
+        "FY27 H1"
+       ],
+       "series": [
+        {
+         "name": "P",
+         "values": [
+          41.03,
+          20.82,
+          28.72,
+          30.8,
+          43.6,
+          47.96,
+          52.76
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q2FY26 presentation; Kharif 2026 per Cabinet approval (Apr-2026)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Depreciation has stepped up with the new assets",
+       "unit": "D&A (₹ crore, quarterly)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "D&A",
+         "ref": "Q.dep",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in (consolidated)"
+      },
+      {
+       "type": "column",
+       "title": "Net cash: spent on NACL and capex, rebuilding from FY27E",
+       "unit": "Net cash incl. ICDs (₹ crore)",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Net cash",
+         "values": [
+          -1730,
+          551,
+          1601,
+          1312,
+          3221,
+          4574,
+          2596,
+          3442,
+          5281,
+          7480
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company (FY20-26; ICDs from FY25), GAM Research estimates"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: 21.7x our FY28E today",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          9.4,
+          9.4,
+          8.8,
+          7.6,
+          9.2,
+          10.4,
+          10.5,
+          11.9,
+          13.7,
+          13.2,
+          10.4,
+          12.5,
+          14.5,
+          15,
+          14.3,
+          13.9,
+          14.4,
+          15,
+          16,
+          14.8,
+          10.9,
+          10.7,
+          12.4,
+          12.6,
+          12,
+          11.8,
+          11.5,
+          11,
+          11.4,
+          11.5,
+          12.4,
+          14.9,
+          16.8,
+          17.3,
+          18.8,
+          18.7,
+          17.3,
+          16.2,
+          15.5,
+          15.3,
+          16.3,
+          13.2,
+          13.8,
+          13.4,
+          14,
+          15.2,
+          16.3,
+          15.3,
+          17.5,
+          16.8,
+          15.5,
+          15.2,
+          17.9,
+          19.7,
+          24,
+          25.5,
+          25.6,
+          24.4,
+          27.2,
+          27.8,
+          27,
+          26.5,
+          36,
+          42.8,
+          40.5,
+          42.7,
+          40.3,
+          40.2,
+          37.5,
+          40.7,
+          40.6,
+          39.7,
+          33.7,
+          24.4,
+          22.2,
+          25.5,
+          25.8,
+          24.7
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 17.5,
+         "text": "Median since 2021: 17.5x"
+        },
+        {
+         "v": 15,
+         "text": "Our target: 15x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; reported EPS, GAM estimates for FY27-29E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street",
+       "unit": "₹ per share; CMP ₹1,758",
+       "x": [
+        "Motilal Oswal",
+        "DAM Capital",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          2530,
+          2750,
+          1310
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and press reports (Jul-2026), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Coromandel does",
+   "kicker": "The business",
+   "title": "A phosphatic fertiliser franchise with a crop protection business attached",
+   "blocks": [
+    {
+     "p": "Coromandel makes and sells phosphatic fertilisers (DAP and NPK \"complex\" grades) from two large complexes at Visakhapatnam and Kakinada, sells single super phosphate (SSP) from eight smaller plants, and trades imported DAP, urea and potash. Around this core it sells specialty and organic nutrients, nano DAP, drone spraying and ~1,200 own retail stores, mostly in Andhra Pradesh, Telangana and Karnataka. The crop protection segment makes technicals (mancozeb is the largest) and branded formulations, sells B2B and exports, and since August 2025 consolidates NACL Industries. It is a Murugappa group company: E.I.D. Parry owns 55.6%."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The two segments in FY26",
+      "head": [
+       "Segment",
+       "What it sells",
+       "Revenue (₹ cr)",
+       "EBITDA (₹ cr)",
+       "EBITDA margin",
+       "PBIT (₹ cr)",
+       "Capital employed (₹ cr)"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "**Nutrient & allied**",
+        "DAP/NPK (4.3 mt sold, 17.5% share), SSP (8.4 lakh t, #1), traded urea/MOP, specialty and organic nutrients, nano, retail, drones, Senegal rock. Subsidy = ₹11,139 cr of revenue",
+        "27,727",
+        "2,992",
+        "10.8%",
+        "2,464",
+        "6,461"
+       ],
+       [
+        "**Crop protection**",
+        "Technicals (mancozeb etc.), domestic formulations, exports/B2B, bio-pesticides; NACL Industries (53.7%) from 8-Aug-2025",
+        "3,968",
+        "587",
+        "14.8%",
+        "511",
+        "3,349"
+       ],
+       [
+        "Less inter-segment",
+        "",
+        "−216",
+        "",
+        "",
+        "",
+        ""
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Consolidated**",
+         "",
+         "31,480",
+         "3,232 (after ₹343 cr central costs)",
+         "10.3%",
+         "",
+         ""
+        ]
+       }
+      ],
+      "source": "Integrated Report 2025-26 (note 31); EBITDA = segment PBIT + D&A, excluding the ₹70.56 cr drone goodwill impairment; capital employed = segment assets − segment liabilities"
+     }
+    },
+    {
+     "h": "How each business makes money"
+    },
+    {
+     "p": "**Fertilisers are a regulated conversion business.** Coromandel buys phosphoric acid, ammonia, sulphur and rock phosphate (largely imported), converts them into DAP and NPK, and sells at a maximum retail price that is effectively capped. The government pays a subsidy per kg of nitrogen (N), phosphorus (P), potash (K) and sulphur (S) under the Nutrient Based Subsidy (NBS) scheme, revised every season. Profit per tonne = MRP + subsidy − raw-material cost − conversion cost. When global raw materials jump and the subsidy lags (FY23, Q4FY26-Q1FY27), margins compress; when policy catches up, they recover. **Crop protection is a chemistry and brands business**: technicals compete on cost with China, branded formulations on distribution and new products. It is not subsidised and can pass on costs, which is why its margins are steadier."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Crop protection: ~13% of revenue, ~16% of segment EBITDA",
+       "unit": "Crop protection share (%)",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Share of segment revenue",
+         "values": [
+          12.7,
+          14.6,
+          13.1,
+          8.8,
+          11.1,
+          10.9,
+          12.5
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Share of segment EBITDA",
+         "values": [
+          13.7,
+          17.7,
+          17.9,
+          13,
+          12.8,
+          14.6,
+          16.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 25,
+       "source": "Annual reports (segment note), GAM calculation"
+      },
+      {
+       "type": "column",
+       "title": "DAP + NPK volumes: +36% in six years",
+       "unit": "Company sales volume (lakh tonnes)",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "DAP + NPK",
+         "values": [
+          31.5,
+          33.5,
+          33.2,
+          36.5,
+          35.4,
+          39.8,
+          42.8
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "SSP",
+         "values": [
+          5.7,
+          6.7,
+          7.6,
+          8.1,
+          6.5,
+          7.7,
+          8.4
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Integrated Report 2025-26 (MD&A)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From a 1961 joint venture to an integrated agri-inputs group",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1961-1967",
+        "Incorporated as Coromandel Fertilisers (IMC, Chevron, EID Parry); first complex fertiliser plant at Visakhapatnam (1967)",
+        "Origin of the phosphatic franchise in Andhra Pradesh"
+       ],
+       [
+        "1981-2003",
+        "Murugappa group takes control of EID Parry; Coromandel becomes a Murugappa company; capacity expansions at Visakhapatnam",
+        "E.I.D. Parry remains the 55.6% parent"
+       ],
+       [
+        "2004-2007",
+        "Investment in Godavari Fertilisers (Kakinada), becoming India's 2nd-largest phosphatic player; Foskor (South Africa) stake for acid; first rural retail store",
+        "Kakinada is today the largest complex"
+       ],
+       [
+        "2011",
+        "Acquired Sabero Organics (agrochemical technicals, exports)",
+        "Base of today's crop protection segment"
+       ],
+       [
+        "2013-2014",
+        "Acquired Liberty Phosphates (SSP, West/North India)",
+        "Largest SSP player"
+       ],
+       [
+        "2016-2022",
+        "TIFERT (Tunisia) acid JV, 1,500 TPD sulphuric acid and desalination at Vizag, EID Parry's bio-pesticide business, Kakinada 'C' train",
+        "Partial backward integration"
+       ],
+       [
+        "FY23",
+        "Record revenue ₹29,628 cr on global fertiliser price spike after the Russia-Ukraine war; Dhaksha drones stake",
+        "Revenue +55%, then -26% in FY24 as prices fell"
+       ],
+       [
+        "FY25",
+        "BMCC (Senegal) becomes a subsidiary; gain of ₹397.71 cr on assignment of leasehold land rights; SPA to buy 53% of NACL (Mar-2025)",
+        "FY25 PAT ₹2,055 cr flattered by the land gain"
+       ],
+       [
+        "Aug-2025",
+        "NACL Industries consolidated (53%); ₹820 cr",
+        "CP revenue +50% in FY26; adds ~₹80 cr a year of acquisition amortisation and minority interest"
+       ],
+       [
+        "FY26",
+        "Middle East crisis lifts ammonia, sulphur and phosphoric acid prices from Q4; Q4 PAT ₹115 cr after ₹70.56 cr drone goodwill impairment",
+        "FY26 PAT -8% despite revenue +31%"
+       ],
+       [
+        "Mar-2026",
+        "Kakinada sulphuric acid (2,000 TPD) and phosphoric acid (650 TPD) plants commissioned",
+        "60% acid self-sufficiency; higher depreciation from FY27"
+       ],
+       [
+        "Jul-2026",
+        "Q1FY27: revenue +16%, EBITDA -3%, PAT -24%; CP record, fertiliser margins squeezed",
+        "Brokers cut FY27 estimates"
+       ]
+      ],
+      "source": "Integrated Report 2025-26 (legacy and milestones), annual reports, company calls, Screener.in"
+     }
+    },
+    {
+     "callout": "**Corporate actions:** No bonus, split, buyback, QIP or rights issue found in FY20-FY27 filings reviewed; equity grows only through ESOP allotments (₹29.46 cr to ₹29.50 cr face value FY25-26). Dividend ₹11 a share for FY26 (interim ₹9 + final ₹2). Growth since FY21 has been funded from internal cash: the company had net cash of ~₹4,570 cr (incl. ICDs) at Mar-2025 before buying NACL and building the acid plants."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Indian fertilisers: steady demand, imported inputs, and a subsidy that sets the margin",
+   "blocks": [
+    {
+     "p": "India used 71 mt of fertilisers in FY26 (POS sales), up from 63 mt in FY23. Urea (40 mt) is fully price-controlled; DAP (9 mt), NPK complexes (14 mt) and SSP (5.5 mt) are under the NBS scheme. NPKs have taken share from DAP and are now ~60% of phosphatics. Two features matter for Coromandel. **First, inputs are imported:** India relies on imports for more than 80% of its ammonia and sulphur and much of its phosphoric acid and rock, so costs follow world prices and the rupee (₹92.6-96.8 per $ in Q1FY27). **Second, the margin is a policy outcome:** the government revises NBS rates each season, and in a cost spike it decides how much of the increase the industry absorbs. In Q1FY27 industry DAP+NPK production fell 21% and imports 38% because the Kharif 2026 rates (+~10%) did not cover the Middle East-driven jump in costs."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Indian fertiliser market (million tonnes)",
+      "head": [
+       "",
+       "Consumption FY23",
+       "FY24",
+       "FY25",
+       "FY26",
+       "Production FY26",
+       "Imports FY26"
+      ],
+      "rows": [
+       [
+        "Urea",
+        "35.7",
+        "35.8",
+        "38.8",
+        "39.7",
+        "29.3",
+        "10.3"
+       ],
+       [
+        "DAP",
+        "10.4",
+        "10.8",
+        "9.3",
+        "9.4",
+        "3.9",
+        "6.2"
+       ],
+       [
+        "NPK complexes",
+        "10.1",
+        "11.1",
+        "14.2",
+        "14.1",
+        "12.0",
+        "3.7"
+       ],
+       [
+        "SSP",
+        "5.0",
+        "4.5",
+        "4.9",
+        "5.5",
+        "5.7",
+        "–"
+       ],
+       [
+        "MOP",
+        "1.6",
+        "1.6",
+        "2.2",
+        "2.3",
+        "–",
+        "2.9"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total**",
+         "62.9",
+         "63.8",
+         "69.4",
+         "71.0",
+         "50.9",
+         "23.1"
+        ]
+       }
+      ],
+      "source": "Fertiliser Association of India, via Coromandel Integrated Report 2025-26 (MD&A)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Market forces at 30-Sep-2026",
+      "head": [
+       "Theme",
+       "Direction",
+       "What it means for Coromandel"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Middle East crisis (from Q4FY26): ammonia ~$840-850/t, sulphur ~$800/t, phosphoric acid $1,700/t for Q2FY27",
+        "Headwind",
+        "Input costs up 25%+; own acid and Senegal rock cushion part of it."
+       ],
+       [
+        "NBS Kharif 2026: +~10% for N, P and S; rabi 2026-27 not yet announced",
+        "Headwind (pending)",
+        "Q1 fertiliser PBIT −24%; H2 depends on the rabi rates."
+       ],
+       [
+        "2026 monsoon 87% of normal; south peninsula 76%; southern reservoirs low",
+        "Headwind",
+        "Rabi demand risk in AP, Telangana and Karnataka, the core markets."
+       ],
+       [
+        "Shift from DAP to NPK and SSP; government push on balanced nutrition and QR-code sales tracking",
+        "Tailwind",
+        "Favours the largest NPK and SSP maker; tracking could curb DAP/urea overuse."
+       ],
+       [
+        "Reasonable-margin guidelines for P&K fertilisers",
+        "Headwind (pending)",
+        "Could cap the profit from backward integration."
+       ],
+       [
+        "Agrochemicals: destocking over; China keeps AI prices low",
+        "Mixed",
+        "Exports recovering; Coromandel's molecules face less Chinese competition."
+       ]
+      ],
+      "source": "Company calls (May/Jul-2026), Cabinet NBS approval (Apr-2026), IMD (30-Sep-2026), Integrated Report 2025-26"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: Coromandel captures the structural shifts, not the cost shock",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Shift from DAP to NPK complexes",
+       "Yes",
+       "DAP+NPK sales 3.15 mt (FY20) → 4.28 mt (FY26); consumption share 17.5%; 35% unique grades.",
+       "Core of the franchise."
+      ],
+      [
+       "Import substitution in acid and rock",
+       "Yes (from FY27)",
+       "Own phosphoric acid now 60% of needs; Senegal rock 3.5 lakh t (FY26), ~5 lakh t run-rate.",
+       "Margin support once raw materials normalise."
+      ],
+      [
+       "Higher global fertiliser prices",
+       "No",
+       "Revenue up, margins down: Nutrient PBIT margin 6.9% in Q1FY27 vs 9.9%.",
+       "Under NBS, price spikes hurt before policy catches up."
+      ],
+      [
+       "Balanced nutrition / specialty nutrients",
+       "Partly",
+       "Specialty nutrients growing 25-30% at ~20% EBITDA margin; SSP premium grades >50%.",
+       "Small in group terms; not disclosed separately."
+      ],
+      [
+       "Agrochemical recovery and China+1",
+       "Yes",
+       "Standalone CP EBIT +55% in FY26 and +44% in Q1FY27.",
+       "The fastest-growing profit pool."
+      ],
+      [
+       "Rural retail and agri services",
+       "Partly",
+       "~1,200 stores, retail revenue +85% in Q1FY27, 76% of stores profitable.",
+       "Distribution moat; profit not disclosed."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "Coromandel results presentations, earnings calls and annual reports, GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "nutrient",
+   "nav": "Nutrient & allied",
+   "kicker": "Segment",
+   "title": "Nutrient & allied: the leader, at the mercy of the subsidy table",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Nutrient revenue by quarter",
+       "unit": "Revenue (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Nutrient & allied",
+         "values": [
+          4214,
+          6750,
+          6367,
+          4321,
+          6352,
+          8661,
+          7762,
+          4953,
+          6951
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Coromandel results presentations, earnings calls and annual reports, GAM Research; Q1FY25 derived"
+      },
+      {
+       "type": "column",
+       "title": "Nutrient PBIT: ₹479 cr in Q1FY27, −24%",
+       "unit": "Segment PBIT (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "PBIT",
+         "values": [
+          432,
+          851,
+          626,
+          297,
+          629,
+          983,
+          607,
+          244,
+          479
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Coromandel results presentations, earnings calls and annual reports, GAM Research"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**Volume leader.** Record DAP+NPK sales of 4.3 mt in FY26 (+7%), 17.5% of consumption, and record production of 3.5 mt. In Q1FY27 it deliberately cut production to 6.9 lakh t (72% utilisation) to avoid high-cost inventory; volumes fell 9% but primary share rose to 22% (18%).",
+      "**Margins are the problem.** Segment EBITDA margin: 10.1% (FY23), 11.8% (FY24), 11.5% (FY25), 10.8% (FY26). Manufactured EBITDA was \"₹5,000 plus\" a tonne in FY26 and below ₹3,500 in Q4FY26; trading earns 4-5%. Management's ₹6,500 target needs normal raw-material prices.",
+      "**Subsidy dependence.** Government subsidy was ₹11,139 cr of the segment's ₹27,727 cr revenue in FY26 (40%); the subsidy business was 85% of FY26 revenue and 66% of EBITDA (77% and 48% in Q1FY27). Receivables from the government: ₹2,168 cr (Mar-26), ₹3,254 cr (Jun-26).",
+      "**Beyond DAP/NPK.** SSP 8.4 lakh t (#1, >50% premium grades, ₹2,500-3,000/t); specialty nutrients +25-30% a year at ~20% margin; nano DAP ~50-60% share but banned in UP and Maharashtra; ~1,200 retail stores (revenue +85% in Q1FY27); Senegal rock now consolidated."
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "NPK+DAP volumes: imports fell in Q1FY27",
+       "unit": "Sales volume (lakh tonnes)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Manufactured",
+         "values": [
+          8.12,
+          10.86,
+          9.12,
+          6.07,
+          8.9,
+          10.73,
+          8.92,
+          5.3,
+          8.9
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "Imported",
+         "values": [
+          0.26,
+          2.24,
+          2.27,
+          0.97,
+          2.1,
+          3.33,
+          2.27,
+          1.23,
+          1.2
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "none",
+       "source": "Coromandel results presentations, earnings calls and annual reports, GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Our forecast: Nutrient EBITDA back above ₹3,600 cr by FY28E",
+       "unit": "Nutrient & allied EBITDA (₹ crore)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "EBITDA",
+         "values": [
+          2733,
+          2341,
+          2486,
+          2992,
+          2806,
+          3623,
+          3947
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company, GAM Research estimates"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** a strong franchise with no pricing power. We model revenue +10% / +8% / +7% (FY27-29E) and EBITDA margin 9.2% / 11% / 11.2%: FY27 absorbs the subsidy gap in H1 and a weak southern rabi; FY28-29 benefit from own acid, Senegal rock and the granulation train, but stay at FY25 margin levels. Every 1 point of Nutrient margin moves FY28E EPS by ~₹8.3."
+    }
+   ]
+  },
+  {
+   "id": "projects",
+   "nav": "Backward integration",
+   "kicker": "Projects",
+   "title": "Backward integration: the right strategy, with the costs arriving first",
+   "blocks": [
+    {
+     "p": "Coromandel spent ~₹7,000 cr in three to four years (management) on four things: (1) a 2,000 TPD sulphuric acid and 650 TPD (~2 lakh t a year) phosphoric acid plant at Kakinada, commissioned in March 2026, which lifts own acid to ~60% of needs; (2) control of BMCC, a rock phosphate mine in Senegal (71.5%), producing 3.5 lakh t in FY26 and heading for ~5 lakh t; (3) a 7.5 lakh t granulation train at Kakinada, due in Q4FY27, half to be sold through its own stores; (4) NACL Industries (₹820 cr). Smaller projects: a technical MAP plant, seaweed granulation, mancozeb capacity and a fluorination launch plant for CDMO."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Projects (as stated by Sep-2026)",
+      "head": [
+       "Project",
+       "Cost (₹ cr)",
+       "Status / timing"
+      ],
+      "wide": [
+       0,
+       2
+      ],
+      "rows": [
+       [
+        "Sulphuric acid (2,000 TPD) and phosphoric acid (650 TPD, ~2 lakh t a year) plants, Kakinada",
+        "~1,000-1,100",
+        "Commissioned Mar-2026; stabilising in Q1FY27 (60% of acid needs in-house). Cost and a ~2-year payback at a $250-300/t acid margin per an analyst on the Q2FY26 call, which the MD called 'not off the target'"
+       ],
+       [
+        "Granulation train, Kakinada (+7.5 lakh t)",
+        "n.d.",
+        "Commissioning Q4FY27"
+       ],
+       [
+        "Technical MAP plant (specialty nutrients) and seaweed granulation",
+        "n.d.",
+        "Under construction; MAP 'after 1 year or so'"
+       ],
+       [
+        "Mancozeb +10,000 t (Dahej, done) and +20,000 t (Sarigam)",
+        "n.d.",
+        "Sarigam expected by September 2026"
+       ],
+       [
+        "Fluorination launch plant, Ankleshwar (CDMO)",
+        "n.d.",
+        "Being set up"
+       ],
+       [
+        "SSP unit in Senegal (100-150 kt)",
+        "$5-6 mn",
+        "Under evaluation"
+       ],
+       [
+        "NACL Industries 53% stake + open offer; rights issue participation",
+        "820",
+        "Completed 8-Aug-2025; stake 53.69% at Mar-2026 after ₹250 cr NACL rights issue"
+       ]
+      ],
+      "source": "Company calls (May/Jul-2026), Integrated Report 2025-26; n.d. = not disclosed"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Capex peaked in FY26; we model ₹600-900 cr",
+       "unit": "Capex (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "Capex",
+         "ref": "fin.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company, GAM Research estimates"
+      },
+      {
+       "type": "column",
+       "title": "Depreciation: ₹534 cr (FY26) to ~₹870 cr (FY29E)",
+       "unit": "Depreciation & amortisation (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "D&A",
+         "ref": "fin.dep",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company, GAM Research estimates"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the logic is sound: owning acid and rock removes the most volatile part of the cost base, and the ~2-year payback discussed on the Q2FY26 call ($250-300 of margin per tonne of acid on ~₹1,000-1,100 cr of capex, i.e. up to ~₹500 cr a year on ~2 lakh t) is plausible at normal sulphur prices. But in Q1FY27 sulphur was so expensive that the new acid plant ran at moderate rates, and the new assets added ~₹80 cr a quarter of depreciation and amortisation. We give the projects credit from FY28 (Nutrient margin 11.0%) rather than in FY27."
+    }
+   ]
+  },
+  {
+   "id": "crop",
+   "nav": "Crop protection & NACL",
+   "kicker": "Segment",
+   "title": "Crop protection: a good business that has just added a weaker one half its size",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "CP revenue: standalone plus NACL from Q2FY26",
+       "unit": "Crop protection revenue (₹ crore)",
+       "x": [
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Coromandel standalone",
+         "values": [
+          755,
+          631,
+          698,
+          724,
+          829,
+          785,
+          715,
+          870
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "NACL (consolidated less standalone)",
+         "values": [
+          0,
+          0,
+          0,
+          0,
+          240,
+          313,
+          361,
+          381
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 150,
+       "source": "Coromandel results presentations, earnings calls and annual reports, GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Standalone margin ~19%; consolidated lower",
+       "unit": "PBIT margin (%)",
+       "x": [
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Standalone",
+         "values": [
+          14.6,
+          14.4,
+          14.8,
+          15.3,
+          19.5,
+          20.1,
+          19.3,
+          18.3
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Consolidated (incl. NACL)",
+         "values": [
+          14.4,
+          14.3,
+          14.4,
+          15.3,
+          13.6,
+          12.2,
+          11.2,
+          13.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "min": 0,
+       "max": 25,
+       "source": "Coromandel results presentations, earnings calls and annual reports, GAM Research"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**Standalone is strong.** Revenue ₹3,054 cr in FY26 (+16%), PBIT ₹569 cr (+55%, 19% margin); Q1FY27 revenue +20% to ₹870 cr and EBIT +44% to ₹159 cr on exports, B2B and price pass-through. New products were 32% of domestic B2C sales. Guidance: 20-25% growth at ~19% margin; 20,000 t more mancozeb at Sarigam.",
+      "**NACL is a turnaround, not yet a compounder.** Bought for ₹820 cr (53%) at ₹76.70 a share; a ₹250 cr rights issue cut its debt. FY26 revenue ₹1,585 cr, EBITDA ₹103 cr; Q1FY27 revenue ₹383 cr (export prices weaker), EBITDA ₹41 cr (11%). Management: 11% is a \"reasonable level\"; more needs new products over 2-3 years. In consolidation it lost ₹64 cr in FY26 after ~₹80 cr a year of acquisition amortisation, and 46% of its profit belongs to minorities.",
+      "**Next steps:** CDMO/fluorination launch plant at Ankleshwar, intermediates for MNCs using NACL's spare capacity, Latin America push. None is quantified."
+     ]
+    },
+    {
+     "callout": "**Our view:** this is the part of Coromandel the bulls are paying for, and it deserves a higher multiple than fertilisers. But it is ~16% of segment EBITDA today and ~22% in FY29E. We model revenue +30% / +14% / +12% and EBITDA margin 15.5% / 16% / 16.5%, taking segment EBITDA from ₹587 cr (FY26) to ₹{{F.seg.cp.adjEbitda.2|num}} cr (FY29E)."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: scale, distribution and integration, but no pricing power",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Scale and distribution in South India",
+       "Advantage",
+       "Largest private phosphatic player: 17.5% consumption share, 4.3 mt DAP+NPK sales, ~1,200 own stores (76% profitable), 12,000 channel partners.",
+       "Protects volume, cost and share."
+      ],
+      [
+       "Raw-material security",
+       "Advantage",
+       "Own sulphuric and phosphoric acid (60% of needs from FY27), Senegal rock (71.5%), TIFERT and Foskor ties; kept producing in Q1FY27 when peers cut output.",
+       "Protects volume, cost and share."
+      ],
+      [
+       "Pricing power in fertilisers",
+       "Disadvantage",
+       "MRP and subsidy set by government policy; Q1FY27 margins fell when NBS lagged costs; reasonable-margin guidelines cap returns.",
+       "Caps margins and returns."
+      ],
+      [
+       "Product differentiation",
+       "Parity",
+       "35% of volumes from unique grades; SSP premium grades >50%; specialty nutrients at ~20% margin, but most NPK grades are commodities.",
+       "Keeps Coromandel competitive; does not set it apart."
+      ],
+      [
+       "Crop protection chemistry",
+       "Parity",
+       "Strong in mancozeb and a few molecules; ~19% standalone margin; NACL at 11%; no proprietary molecules, CDMO only at launch-plant stage.",
+       "Keeps Coromandel competitive; does not set it apart."
+      ],
+      [
+       "Balance sheet",
+       "Advantage",
+       "Net cash ~₹2,600 cr incl. ICDs (Mar-2026); AAA ratings; can carry subsidy receivables of ₹2,000-3,800 cr.",
+       "Protects volume, cost and share."
+      ],
+      [
+       "Cost position",
+       "Parity",
+       "Manufactured EBITDA ~₹5,000/t (FY26), <₹3,500/t in Q4FY26; integration should help, but imported ammonia and sulphur remain the swing cost.",
+       "Keeps Coromandel competitive; does not set it apart."
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings and calls to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** Coromandel has a **real but narrow advantage**: the best distribution and brand in South Indian phosphatics, the largest NPK and SSP volumes, a net-cash balance sheet that can carry ₹3,000+ cr of subsidy receivables, and now partial ownership of its raw materials. That makes it the most resilient producer in a downturn (it kept producing in Q1FY27 while the industry cut output by a fifth). It does **not** give pricing power: the government sets the subsidy and, in effect, the price, and reasonable-margin rules cap the upside. In crop protection it is a solid generic player, not an innovator. Expect high-teens ROE through the cycle, not a compounding franchise that re-rates for ever."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue has tripled in ten years; profit per rupee of sales has not",
+   "blocks": [
+    {
+     "p": "Coromandel's revenue rose from ₹11,306 cr in FY15 to ₹31,480 cr in FY26. Most of that is price, not volume: fertiliser prices and subsidies follow global raw materials, so revenue jumped 55% in FY23 (after the Russia-Ukraine war), fell 26% in FY24 and rose 31% in FY26 as the Middle East crisis lifted input prices again. Profit has grown more slowly. Net profit was ₹1,329 cr in FY21 and ₹1,898 cr in FY26 (₹1,956 cr attributable to shareholders), and FY25's ₹2,055 cr included a ₹398 cr land gain. EBITDA margin fell from 14% in FY21 to 10.3% in FY26. Q1FY27 continued the squeeze: revenue +16%, net profit −24% to ₹382 cr."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue swings with global fertiliser prices",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num",
+         "growth": true
+        }
+       ],
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit: up 43% in five years, flat since FY23",
+       "unit": "Net profit (₹ crore, incl. minorities)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 14% in FY21, 10% in FY26",
+       "unit": "EBITDA margin (%)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 16,
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Quarterly profit: Q2 is the big quarter, Q4 the weak one",
+       "unit": "Net profit (₹ crore)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "Q.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** this is a policy-regulated volume business. The government sets the subsidy per kg of nutrient and, in practice, the farm-gate price, so fertiliser margins are squeezed whenever raw materials rise faster than the subsidy (FY23, Q4FY26-Q1FY27) and recover when policy catches up. Growth in profit comes from volume, cost (backward integration) and the non-subsidy businesses (crop protection, specialty nutrients, retail), not from pricing power."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "The cash pile has gone into acid plants, a mine and an agrochemical company; returns are falling",
+   "blocks": [
+    {
+     "p": "In FY19-22 Coromandel generated ₹8,616 cr of operating cash and spent only ₹1,002 cr on plants: it repaid ~₹2,560 cr of debt and built a cash pile. In FY23-26 capex rose to ₹3,523 cr (the Kakinada sulphuric and phosphoric acid plants, granulation, crop protection capacity), and it bought control of the Senegal rock mine (BMCC) and 53% of NACL Industries (₹820 cr). Management puts the total at \"close to ₹7,000 crores\" over three to four years. So far returns have fallen: ROCE was 35-38% in FY22-23 and 22% in FY26, because the new assets are not yet earning and FY26 fertiliser margins were squeezed."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Capex vs operating cash flow",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: from 38% (FY23) to 22% (FY26)",
+       "unit": "Return on capital employed (%)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          19,
+          15,
+          18,
+          23,
+          23,
+          26,
+          32,
+          35,
+          38,
+          26,
+          23,
+          22
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 45,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY19-22",
+       "FY23-26",
+       "Eight years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "8,616",
+        "6,041",
+        "14,657"
+       ],
+       [
+        "Capex",
+        "1,002",
+        "3,523",
+        "4,525"
+       ],
+       [
+        "Free cash flow",
+        "7,614",
+        "2,518",
+        "10,132"
+       ],
+       [
+        "Dividends paid",
+        "1,232",
+        "1,421",
+        "2,653"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left after dividends**",
+         "**6,382**",
+         "**1,097**",
+         "**7,479**"
+        ]
+       },
+       [
+        "Acquisitions: NACL ₹820 cr + ₹144 cr rights, BMCC ₹103 cr",
+        "–",
+        "≥1,067",
+        "≥1,067"
+       ]
+      ],
+      "source": "Screener.in cash flow (capex = fixed assets purchased); acquisitions from annual reports FY25-26 (notes 38A-B), GAM Research"
+     }
+    },
+    {
+     "callout": "**The test is FY27-29.** Management says it will now pause big projects (\"normal sustainable capex of ₹300 crores\") and harvest: own acid for 60% of needs, ~5 lakh t a year of Senegal rock, a 7.5 lakh t granulation train from Q4FY27, and NACL. If fertiliser EBITDA per tonne rises from ~₹5,000 to the targeted ₹6,500, returns recover; if subsidies keep lagging costs, the new assets mainly add depreciation (Q1FY27 D&A ₹203 cr vs ₹121 cr a year earlier)."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: a clean audit, but one-offs, subsidies and minorities to strip out",
+   "blocks": [
+    {
+     "bullets": [
+      "**Subsidy income is 35% of revenue.** ₹11,139 cr of FY26 revenue is government subsidy, recognised on notified NBS rates and DBT sales; the auditor (S.R. Batliboi, EY network) makes its recognition and recoverability a key audit matter. Cash lags: ₹2,168 cr owed at Mar-26 and ₹3,254 cr at Jun-26.",
+      "**One-offs in both directions.** FY25 profit includes a ₹397.71 cr gain on assigning leasehold land rights (exceptional) and a ₹50.94 cr asset impairment; FY26 includes a ₹70.56 cr goodwill impairment on the drone subsidiary Dhaksha, booked inside segment profit. Underlying FY25 EPS was therefore lower than reported, and FY26 higher.",
+      "**Minorities now matter.** NACL (46% minority) and BMCC (28.5%) are consolidated. In FY26 minorities absorbed ₹58 cr of losses, so profit attributable to shareholders (₹1,956 cr) exceeded total profit (₹1,898 cr). As NACL improves this reverses: minorities will take a share of profit.",
+      "**Acquisition and mine amortisation below EBITDA.** ~₹21 cr a quarter of NACL intangibles and ~₹30 cr of Senegal mine overburden run through D&A (Q1FY27). EBITDA growth therefore overstates growth in earnings: Q1FY27 EBITDA −3%, PAT −24%.",
+      "**Working capital is funded by suppliers' banks.** ₹5,022 cr of the ₹8,827 cr of trade payables are acceptances (bank-backed credit for imported raw materials); their cost sits in finance cost, which rose from ₹262 cr (FY25) to ₹343 cr (FY26).",
+      "**Reasonable-margin guidelines.** The company says it awaits clarity on new government guidelines limiting profit on subsidised P&K fertilisers (note 31.6). A binding cap would make part of today's profit, and of the integration upside, temporary.",
+      "**Definitions.** Company EBITDA (₹3,232 cr in FY26) excludes exceptional items and JV share and equals Screener's; the annual report's other income (₹348 cr) includes ~₹16 cr Screener counts as operating."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** The books are clean (Big-4-network auditor, contingent liabilities only ₹189 cr) and cash conversion over time is reasonable. But a third of revenue is a government payment at policy-set rates, recent years carry one-offs either way, minorities and acquisition amortisation now separate EBITDA from EPS, and a pending profit cap hangs over the fertiliser margin."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash, but the government is the biggest debtor",
+   "blocks": [
+    {
+     "p": "Coromandel has net cash: at Mar-2026 cash, investments and ₹1,564 cr of inter-corporate deposits with Bajaj Finance exceeded borrowings and leases (₹1,506 cr) by ~₹2,600 cr, down from ~₹4,570 cr a year earlier after the NACL purchase, capex and a build-up of working capital. Working capital is driven by two things it does not control: raw-material prices (inventory rose 51% to ₹7,204 cr in FY26; much of it is funded by ₹5,022 cr of acceptances, i.e. bank-backed supplier credit) and the pace of subsidy payments (₹2,168 cr owed by the government at Mar-2026, ₹3,254 cr at Jun-2026). Borrowings rose to ₹1,506 cr (incl. ₹639 cr of leases) as NACL's debt was consolidated."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Working-capital days: inventory up to 111",
+       "unit": "Days (of revenue)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          96,
+          98,
+          88,
+          109,
+          127,
+          109,
+          98,
+          94,
+          69,
+          102,
+          98,
+          111
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          131,
+          135,
+          150,
+          162,
+          147,
+          135,
+          110,
+          100,
+          83,
+          119,
+          123,
+          136
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days (ex-subsidy)",
+         "values": [
+          47,
+          52,
+          59,
+          52,
+          50,
+          48,
+          14,
+          5,
+          7,
+          23,
+          19,
+          24
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Net debt: negative = net cash (ex-ICDs)",
+       "unit": "Net debt (₹ crore; negative = net cash; excludes ICDs)",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Net debt",
+         "ref": "A.netDebt",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth (incl. minorities on Screener)",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and investments (ex-ICDs)",
+        "{{A.cashAndInvestments.7|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "ICDs with Bajaj Finance",
+        "–",
+        "–",
+        "785",
+        "1,564"
+       ],
+       [
+        "Government subsidy receivable",
+        "n.a.",
+        "1,377",
+        "1,654",
+        "2,168"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.7|num}}",
+        "{{A.inventories.9|num}}",
+        "{{A.inventories.10|num}}",
+        "{{A.inventories.11|num}}"
+       ],
+       [
+        "Trade payables (incl. acceptances)",
+        "{{A.payables.7|num}}",
+        "{{A.payables.9|num}}",
+        "{{A.payables.10|num}}",
+        "{{A.payables.11|num}}"
+       ],
+       [
+        "Net fixed assets",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ]
+      ],
+      "source": "Screener.in; annual reports FY25-26 (subsidy receivable, ICDs); n.a. = not collected"
+     }
+    },
+    {
+     "callout": "**What the model does with cash:** our forecasts treat cash, investments and the ICDs as one net-cash figure (the engine shows net cash, not gross cash, for forecast years). Net cash rises to ~₹{{F.treasury.2|num}} cr by Mar-29E because capex falls and the payout stays ~18%. A higher dividend or another acquisition is the obvious use; neither is in our numbers."
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: a Murugappa company, with Indian funds replacing foreign ones",
+   "blocks": [
+    {
+     "p": "E.I.D. Parry (India) Ltd, the Murugappa group's listed agri company, owns 55.58% and other family members and trusts 0.77%: promoters 56.35% in Jun-2026, with no pledge. Foreign investors cut their holding from 14.5% (Sep-2025) to 11.5% while Indian institutions rose from 15.8% to 19.92%, led by Kotak, DSP, HDFC and Axis mutual funds; no single foreign institution held 1%. Groupe Chimique Tunisien, Coromandel's partner in the TIFERT phosphoric acid JV, holds 1.63%."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "FIIs down to 11.5%, DIIs up to 19.9%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoters steady at ~56-57%",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 50,
+       "max": 60,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Named holders (Jun-2026)",
+      "head": [
+       "Holder",
+       "Stake",
+       "Type"
+      ],
+      "rows": [
+       [
+        "E.I.D. Parry (India) Ltd (Murugappa group)",
+        "55.58%",
+        "Promoter"
+       ],
+       [
+        "Other Murugappa family members and trusts (combined)",
+        "0.77%",
+        "Promoter"
+       ],
+       [
+        "Kotak Mahindra Mutual Fund (schemes)",
+        "4.02%",
+        "Domestic MF"
+       ],
+       [
+        "DSP Mutual Fund (schemes)",
+        "2.53%",
+        "Domestic MF"
+       ],
+       [
+        "HDFC Mutual Fund (schemes)",
+        "1.87%",
+        "Domestic MF"
+       ],
+       [
+        "Groupe Chimique Tunisien",
+        "1.63%",
+        "Strategic (TIFERT acid JV partner)"
+       ],
+       [
+        "Axis Mutual Fund (schemes)",
+        "1.60%",
+        "Domestic MF"
+       ],
+       [
+        "Investor Education and Protection Fund",
+        "1.43%",
+        "Government"
+       ],
+       [
+        "NPS Trust (UTI Pension Fund)",
+        "1.33%",
+        "Pension"
+       ],
+       [
+        "LIC (schemes)",
+        "1.31%",
+        "Insurance"
+       ]
+      ],
+      "source": "BSE shareholding pattern via Screener.in (Jun-2026 quarter); fund-house holdings aggregated by Screener under one scheme name"
+     }
+    },
+    {
+     "callout": "**Our read:** a stable group promoter with a long record and no pledge is a strength. Note the structure: minority shareholders of Coromandel sit below E.I.D. Parry, which itself is controlled by the Murugappa family; decisions such as the NACL purchase are taken at group level. Free float is ~44%."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: professional and group-backed; pay and disclosure are the soft spots",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Arun Alagappan",
+        "Executive Chairman",
+        "Fourth-generation Murugappa family; ex-MD of Cholamandalam Investment & Finance; also Chairman of NACL. FY26 pay 177.5x the median employee (+26%)."
+       ],
+       [
+        "S. Sankarasubramanian",
+        "Managing Director & CEO (since Aug-2024)",
+        "At Coromandel since 2003; CFO from 2011, then head of fertilisers; cost accountant"
+       ],
+       [
+        "Deepak Natarajan",
+        "Chief Financial Officer",
+        "Chartered accountant; ex-Tata Projects, GE, Cisco, Vodafone"
+       ],
+       [
+        "Prameet Kamat",
+        "EVP & Business Head, Crop Protection",
+        "ISB MBA; 25 years across agriculture, renewables, telecom, chemicals"
+       ],
+       [
+        "Natarajan Srinivasan",
+        "Executive Vice Chairman (FY26 pay ratio 41.1x)",
+        "Board member per FY26 remuneration table"
+       ],
+       [
+        "B. Shanmugasundaram",
+        "Company Secretary",
+        "Signs exchange filings"
+       ]
+      ],
+      "source": "Integrated Report 2025-26, company filings"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Board",
+       "Strong",
+       "50% independent directors; >92% average attendance (FY26).",
+       "Adequate oversight."
+      ],
+      [
+       "Promoter and pledge",
+       "Strong",
+       "56.35% promoter, no pledge; group company with AAA ratings.",
+       "Aligned and stable."
+      ],
+      [
+       "Pay",
+       "Moderate",
+       "Executive Chairman paid 177.5x the median employee in FY26 (+26%) while profit fell 8%.",
+       "High for a down year."
+      ],
+      [
+       "Disclosure",
+       "Moderate",
+       "Good segment and volume data; no split of manufactured vs traded EBITDA, specialty, retail, nano or BMCC profit; project costs not given.",
+       "Hard to test management's ₹6,500/t target."
+      ],
+      [
+       "Execution",
+       "Strong",
+       "Acid plants commissioned on schedule (Mar-2026); record production in FY26; granulation on track.",
+       "Delivers projects."
+      ],
+      [
+       "Capital allocation",
+       "Moderate",
+       "Integration projects logical; NACL bought at a ₹386 cr goodwill premium and earns ~11% EBITDA margin; drone goodwill impaired (₹71 cr).",
+       "Mixed record on acquisitions."
+      ],
+      [
+       "Audit and legal",
+       "Strong",
+       "S.R. Batliboi; contingent liabilities ₹189 cr; no qualifications.",
+       "Clean."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: a weak FY27, a recovery in FY28, still well below the street",
+   "blocks": [
+    {
+     "p": "We forecast each segment's revenue and EBITDA margin (segment PBIT plus its D&A), remove inter-segment sales and deduct central costs (~₹360-400 cr). Below EBITDA, depreciation rises to ~₹763 cr in FY27E (Q1 run-rate ₹812 cr) and finance cost stays ~₹370-400 cr because acceptances fund costlier imported raw materials. Tax is 26%. **Engine note:** the model has no minority-interest line and derives its share count from FY26 total profit ÷ EPS (28.62 cr vs 29.50 cr actual); we carry minorities and that difference in the tax line, so model EPS equals profit attributable to shareholders ÷ 29.50 cr shares. Every assumption is in the Excel model's Assumptions sheet."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Segment forecasts (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       {
+        "sec": "Nutrient & allied"
+       },
+       [
+        "Revenue",
+        "27,727",
+        "{{F.seg.nut.revenue.0|num}}",
+        "{{F.seg.nut.revenue.1|num}}",
+        "{{F.seg.nut.revenue.2|num}}"
+       ],
+       [
+        "EBITDA",
+        "2,992",
+        "{{F.seg.nut.adjEbitda.0|num}}",
+        "{{F.seg.nut.adjEbitda.1|num}}",
+        "{{F.seg.nut.adjEbitda.2|num}}"
+       ],
+       {
+        "sec": "Crop protection"
+       },
+       [
+        "Revenue",
+        "3,968",
+        "{{F.seg.cp.revenue.0|num}}",
+        "{{F.seg.cp.revenue.1|num}}",
+        "{{F.seg.cp.revenue.2|num}}"
+       ],
+       [
+        "EBITDA",
+        "587",
+        "{{F.seg.cp.adjEbitda.0|num}}",
+        "{{F.seg.cp.adjEbitda.1|num}}",
+        "{{F.seg.cp.adjEbitda.2|num}}"
+       ],
+       [
+        "Inter-segment eliminations (revenue)",
+        "−216",
+        "{{F.seg.elim.revenue.0|num}}",
+        "{{F.seg.elim.revenue.1|num}}",
+        "{{F.seg.elim.revenue.2|num}}"
+       ],
+       [
+        "Central costs",
+        "−343",
+        "{{F.unalloc.0|num}}",
+        "{{F.unalloc.1|num}}",
+        "{{F.unalloc.2|num}}"
+       ]
+      ],
+      "source": "Company (FY26), GAM Research estimates; FY26 central costs = segment EBITDA ₹3,575 cr less EBITDA ₹3,232 cr"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "Group P&L and cash flow summary (₹ crore)",
+      "from": "FY24",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Profit before tax",
+        "ref": "fin.pbt"
+       },
+       {
+        "name": "EPS (₹, attributable)",
+        "ref": "fin.eps",
+        "fmt": "n1",
+        "hl": true
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "FY26A",
+       "GAM FY27E",
+       "GAM FY28E",
+       "GAM FY29E",
+       "MOSL FY28E",
+       "Sharekhan FY28E (Dec-25)"
+      ],
+      "rows": [
+       [
+        "EBITDA (₹ cr)",
+        "3,232",
+        "{{F.ebitda.0|num}}",
+        "{{F.ebitda.1|num}}",
+        "{{F.ebitda.2|num}}",
+        "~4,500 (implied by 18% CAGR)",
+        "4,602"
+       ],
+       [
+        "Profit to shareholders (₹ cr)",
+        "1,956",
+        "1,688",
+        "2,392",
+        "2,770",
+        "~2,870-2,970 (21% CAGR)",
+        "3,448"
+       ],
+       [
+        "EPS (₹)",
+        "66.3",
+        "{{F.eps.0|n1}}",
+        "{{F.eps.1|n1}}",
+        "{{F.eps.2|n1}}",
+        "~101.2 (₹2,530 ÷ 25x)",
+        "117.0"
+       ]
+      ],
+      "source": "Motilal Oswal (25-Jul-2026: FY26-28 EBITDA CAGR 18%, PAT CAGR 21%, TP ₹2,530 at 25x FY28E), Sharekhan (3-Dec-2025, before the Middle East shock), GAM Research. No dated consensus found for Jul-Sep 2026."
+     }
+    },
+    {
+     "callout": "Our FY27E EPS (₹57.2) is 14% below FY26 because Q1 fertiliser profit fell 24% and H2 depends on rabi subsidy rates not yet announced. Our FY28E EPS (₹81.1) is 20% below Motilal Oswal's implied ~₹101.2 and 31% below Sharekhan's pre-crisis ₹117.0. The gap is mostly (1) fertiliser margin: we assume 11.0% in FY28E, i.e. back to FY25 levels, not a step-up to the ₹6,500/t target; (2) depreciation (~₹821 cr) and finance cost (~₹370 cr), which the Q1FY27 run-rate shows are structurally higher; (3) minorities' share of NACL's profit."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: uniformly positive, on earnings set before the cost shock",
+   "blocks": [
+    {
+     "p": "Latest call per broker found by 30-Sep-2026: 2 Buys after Q1FY27 (Motilal Oswal ₹2,530, DAM Capital ₹2,750); older Buys from Sharekhan (₹2,900), Nuvama (₹3,234) and Accumulate from Geojit (₹2,548), all set before the Middle East cost shock. No Sell found. Bulls argue that crop protection, backward integration and NACL make Coromandel an \"agri-solutions\" company worth 25-30x earnings, and that subsidy lags are temporary. We agree the lags are temporary in principle (policy envisages compensating input costs over time), but the fertiliser margin has been on a downward trend since FY21, and the street's FY28 earnings still look closer to the pre-crisis numbers than to the Q1FY27 run-rate."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Earlier calls (for context)",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Date",
+       "Note"
+      ],
+      "wide": [
+       4
+      ],
+      "rows": [
+       [
+        "Motilal Oswal",
+        "Buy",
+        "2,800",
+        "2-Feb-2026",
+        "P/E (Q3FY26 update)"
+       ],
+       [
+        "Sharekhan",
+        "Buy",
+        "2,900",
+        "3-Dec-2025",
+        "26x FY28E EPS; FY27E/FY28E EPS ₹102.4 / ₹117.0, OPM 13.2% / 13.5%"
+       ],
+       [
+        "Nuvama",
+        "Buy",
+        "3,234",
+        "Dec-2025",
+        "30x Q2FY28E EPS; ~15% revenue CAGR, CP to ~₹10,000 cr in five years"
+       ],
+       [
+        "Geojit BNP Paribas",
+        "Accumulate",
+        "2,548",
+        "14-Nov-2025",
+        "n.d."
+       ],
+       [
+        "Motilal Oswal",
+        "Buy",
+        "2,800",
+        "1-Nov-2025",
+        "P/E"
+       ]
+      ],
+      "source": "Trendlyne research-report list, Sharekhan note (3-Dec-2025), Business Standard (Dec-2025)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Subsidy (NBS) rates lag raw-material costs: Kharif 2026 rates rose only ~10% while acid rose 25%+, and rabi rates were still pending at 30-Sep.",
+        "Management (Q1FY27 call), MOSL, DAM Capital"
+       ],
+       [
+        "Depreciation and finance cost have stepped up (Q1FY27 D&A ₹203 cr vs ₹121 cr) so EBITDA growth converts poorly into EPS.",
+        "Analysts on the Q1FY27 call (Antique), GAM"
+       ],
+       [
+        "A weak 2026 monsoon in the south peninsula (76% of normal) and low reservoirs threaten rabi volumes in Coromandel's core markets.",
+        "GAM, IMD data"
+       ],
+       [
+        "NACL margins have plateaued at ~11% EBITDA; further improvement needs new products over 2-3 years; minority shareholders take 46%.",
+        "Management (Q1FY27 call)"
+       ],
+       [
+        "Working capital rises with input prices (subsidy outstanding ₹3,254 cr at Jun-2026), absorbing cash.",
+        "MOSL (Jul-2026), management"
+       ],
+       [
+        "Crop protection and backward integration justify a re-rating to an 'agri-solutions' multiple of 25-30x.",
+        "Bulls: MOSL, Nuvama, Sharekhan"
+       ]
+      ],
+      "source": "Broker notes, earnings calls and IMD data to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 15x Sep-28E earnings gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values Coromandel International"
+    },
+    {
+     "p": "Brokers value Coromandel on **P/E on FY28E earnings**: Motilal Oswal (25x, after Q1FY27), and before the cost shock Sharekhan (26x) and Nuvama (30x Q2FY28E). We set our target the same way. The differences are in the inputs: our EPS is lower and our multiple is anchored on the stock's own history. \"At our EPS\" applies each broker's multiple to our FY28E EPS."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Motilal Oswal",
+        "Buy",
+        "2,530",
+        "P/E",
+        "25x",
+        "FY28E",
+        "2,027",
+        "Crop protection the bright spot (standalone EBIT +44%); fertiliser margins hit by Middle East-led input inflation; FY27E cut 10%, FY28E maintained; FY26-28 EBITDA CAGR 18%, PAT 21% (25-Jul-2026)"
+       ],
+       [
+        "DAM Capital",
+        "Buy",
+        "2,750",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Long-term story intact (crop protection, NACL); cut FY27-28 EPS on fertiliser margin pressure, rupee depreciation and lower subsidy support (27-Jul-2026)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**SELL**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**15x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Subsidy squeeze in FY27; integration benefits from FY28 at FY25-level margins"
+        ]
+       }
+      ],
+      "source": "Broker notes and press reports to 30-Sep-2026 (latest call per broker after Q1FY27); n.d. = method not disclosed"
+     }
+    },
+    {
+     "h": "Our target multiple: 15x, and why"
+    },
+    {
+     "p": "The target is a 12-month price, so we apply a one-year-forward multiple to the earnings the market will look at in September 2027: **Sep-28E EPS of ₹87.5** (half FY28E, half FY29E)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. The street",
+        "Motilal Oswal 25x FY28E (Jul-2026); Sharekhan 26x FY28E and Nuvama 30x Q2FY28E (Dec-2025, before the cost shock); DAM Capital n.d.",
+        "Range 25-30x"
+       ],
+       [
+        "2. Coromandel's own history",
+        "One-year-forward P/E median since Apr-2021: 17.5x (2025-26 points use our depressed FY27-28E EPS; yearly medians 2021 11.8x, 2022 16.2x, 2023 15.3x, 2024 24.0x, 2025 40.3x, 2026 25.8x); trailing P/E five-year median 19.1x",
+        "Starting point: 17.5x (house window)"
+       ],
+       [
+        "3. Sector de-rating",
+        "On 30-Sep-2026 the median of 11 fertiliser and agrochemical peers traded 14% below its five-year median P/E (Chambal -23%, Paradeep -12%, PI -14%, Bayer -34%, Rallis -44%). Coromandel itself trades 46% above its own median",
+        "17.5x × 0.86 ≈ **15x**"
+       ],
+       [
+        "4. Growth vs the street",
+        "Our EPS: ₹66.3 (FY26) → ₹93.9 (FY29E), ~12% a year, with FY27 a trough; the street's 25-30x come with FY28E EPS of ~₹100-117",
+        "No upward adjustment"
+       ],
+       [
+        "5. Peers",
+        "Trailing P/E on 30-Sep-2026: fertiliser peers' median 14.6x, agrochemical peers' median 23.1x; weighted by our FY29E EBITDA mix (~78/22) ≈ 16.5x trailing",
+        "15x forward is consistent"
+       ],
+       [
+        "6. Returns",
+        "ROE ~16-16% in FY28-29E vs a 11.9% cost of equity; a fertiliser maker earning a modest spread over its cost of capital",
+        "Supports a mid-teens multiple"
+       ]
+      ],
+      "source": "Screener.in (P/E history to 30-Sep-2026; 11 peers' trailing P/E vs five-year medians), broker notes, GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "One-year-forward P/E: 15x vs history",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward multiple",
+         "values": [
+          9.4,
+          9.4,
+          8.8,
+          7.6,
+          9.2,
+          10.4,
+          10.5,
+          11.9,
+          13.7,
+          13.2,
+          10.4,
+          12.5,
+          14.5,
+          15,
+          14.3,
+          13.9,
+          14.4,
+          15,
+          16,
+          14.8,
+          10.9,
+          10.7,
+          12.4,
+          12.6,
+          12,
+          11.8,
+          11.5,
+          11,
+          11.4,
+          11.5,
+          12.4,
+          14.9,
+          16.8,
+          17.3,
+          18.8,
+          18.7,
+          17.3,
+          16.2,
+          15.5,
+          15.3,
+          16.3,
+          13.2,
+          13.8,
+          13.4,
+          14,
+          15.2,
+          16.3,
+          15.3,
+          17.5,
+          16.8,
+          15.5,
+          15.2,
+          17.9,
+          19.7,
+          24,
+          25.5,
+          25.6,
+          24.4,
+          27.2,
+          27.8,
+          27,
+          26.5,
+          36,
+          42.8,
+          40.5,
+          42.7,
+          40.3,
+          40.2,
+          37.5,
+          40.7,
+          40.6,
+          39.7,
+          33.7,
+          24.4,
+          22.2,
+          25.5,
+          25.8,
+          24.7
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 17.5,
+         "text": "Median since 2021: 17.5x"
+        },
+        {
+         "v": 15,
+         "text": "Our target: 15x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual earnings, GAM estimates for forecast years"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Share price today"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          1312,
+          1609,
+          1711,
+          1758.2
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "EPS Sep-28E ₹87.5",
+        "15x (bull 19x, bear 12x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "EBITDA Sep-28E ₹4,409 cr",
+        "9x (bull 11x, bear 7.5x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "+23%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "+30%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA at 9x Sep-28E (the 11.8x five-year median less the peers' 22% EV/EBITDA de-rating) gives ₹1,609, and the DCF ₹1,711: both above our P/E target, because EBITDA-based methods do not charge the step-up in depreciation and both count the growing net cash at full value. Both overstate slightly: the engine divides by 28.62 cr shares (29.50 cr actual) and ignores minorities; on actual shares and after deducting minorities at book value the DCF is ~₹1,640. All three methods sit below the ₹1,758 share price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} FY28E EPS ₹97.2 (≈ the street); 19x Sep-28E EPS."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Nutrient revenue +10% / +8% / +7% at 9.2% / 11.0% / 11.2% EBITDA margin; crop protection +30% / +14% / +12% at 15.5-16.5%; 15x Sep-28E EPS."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} FY28E EPS ₹61.9; 12x Sep-28E EPS (the 2021 level)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "p": "FCFF from FY28E to FY38E: explicit FY28-29E, then revenue growth fading to 8%, EBITDA margin to 11% (the FY22-26 range) and capex to 2.5% of revenue, depreciation at 2.0% of revenue, terminal growth 6%, discounted at the cost of equity of 11.9% (6.5% + 0.9 × 6%). Coromandel is net cash, so the engine's use of the cost of equity as the discount rate is appropriate. Net cash at Mar-27E (₹3,442 cr incl. ICDs) is added."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-38E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27E (incl. ICDs)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value (before minorities)",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27; 28.62 cr model shares)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "On 29.50 cr shares, less minorities at book (₹575 cr)",
+        "₹1,640"
+       ],
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): discount rate down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "Ke \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed peers (trailing multiples at the 30-Sep-2026 close)",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "ROE",
+       "P/E (x)",
+       "5-yr median P/E (x)",
+       "vs median",
+       "EV/EBITDA (x)"
+      ],
+      "rows": [
+       [
+        "**Coromandel**",
+        "51,862",
+        "31,480",
+        "10.3%",
+        "16.1%",
+        "27.8",
+        "19.1",
+        "+46%",
+        "15.0"
+       ],
+       [
+        "Chambal Fertilisers (F)",
+        "16,397",
+        "20,794",
+        "13%",
+        "20.4%",
+        "8.5",
+        "11.0",
+        "-23%",
+        "5.8"
+       ],
+       [
+        "Paradeep Phosphates (F)",
+        "16,010",
+        "21,826",
+        "10.1%",
+        "15.7%",
+        "14.8",
+        "16.9",
+        "-12%",
+        "9.2"
+       ],
+       [
+        "Deepak Fertilisers (F)",
+        "17,054",
+        "11,506",
+        "14.6%",
+        "11.3%",
+        "17.3",
+        "13.9",
+        "+24%",
+        "10.5"
+       ],
+       [
+        "RCF (F)",
+        "6,066",
+        "18,480",
+        "5.2%",
+        "8.7%",
+        "14.6",
+        "18.5",
+        "-21%",
+        "8.4"
+       ],
+       [
+        "GSFC (F)",
+        "6,004",
+        "10,946",
+        "7.2%",
+        "5.5%",
+        "8.7",
+        "9.4",
+        "-7%",
+        "5.3"
+       ],
+       [
+        "PI Industries (CP)",
+        "35,036",
+        "6,714",
+        "25.8%",
+        "12.4%",
+        "32.4",
+        "37.8",
+        "-14%",
+        "18.1"
+       ],
+       [
+        "UPL (CP)",
+        "45,509",
+        "51,839",
+        "17.5%",
+        "6%",
+        "23.1",
+        "17.7",
+        "+31%",
+        "6.4"
+       ],
+       [
+        "Sumitomo Chemical India (CP)",
+        "21,626",
+        "3,238",
+        "20.7%",
+        "17.3%",
+        "37.9",
+        "50.8",
+        "-25%",
+        "25.6"
+       ],
+       [
+        "Bayer CropScience (CP)",
+        "16,303",
+        "5,675",
+        "15.4%",
+        "23.7%",
+        "22.2",
+        "33.8",
+        "-34%",
+        "14.1"
+       ],
+       [
+        "Dhanuka Agritech (CP)",
+        "4,141",
+        "2,020",
+        "20%",
+        "18.6%",
+        "15.4",
+        "17.6",
+        "-12%",
+        "9.9"
+       ],
+       [
+        "Rallis India (CP)",
+        "3,883",
+        "2,897",
+        "12.5%",
+        "9.3%",
+        "17.0",
+        "30.6",
+        "-44%",
+        "8.9"
+       ]
+      ],
+      "source": "Screener.in: trailing P/E and EV/EBITDA at the NSE close on 30-Sep-2026; five-year median of weekly trailing P/E (Oct-2021 to Sep-2026); (F) fertiliser, (CP) crop protection"
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a good company in a squeeze, priced for the recovery",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's largest private phosphatic fertiliser maker, with the best distribution in the south, a net-cash balance sheet and newly integrated acid and rock supply; plus a crop protection business growing 20%+ (with a half-owned, low-margin NACL attached). Its profits depend on subsidy rates set by the government each season, on imported raw materials and on the monsoon."
+    },
+    {
+     "callout": "**What you are paying:** 21.7x our FY28E EPS and 20.1x Sep-28E, against a one-year-forward median of 17.5x since 2021 and fertiliser peers on ~14.6x trailing. On the street's own method with our inputs the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}). The stock already fell ~10% in the last three trading days of September, but it still prices a fast return to pre-crisis margins."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹1,380 (the HOLD line on our target)",
+        "Medium",
+        "Share price after the rabi subsidy decision and Q2FY27"
+       ],
+       [
+        "Rabi NBS rates that compensate the Middle East cost spike",
+        "Medium",
+        "Per-kg rates for N and P vs the six-month average input cost; any special package"
+       ],
+       [
+        "Fertiliser EBITDA/t back above ₹5,500 with own acid running fully",
+        "Medium",
+        "Nutrient PBIT margin above 9% in H2FY27; phosphoric acid utilisation"
+       ],
+       [
+        "Crop protection keeps compounding at 20%+",
+        "Medium-high",
+        "Standalone CP EBIT; NACL margin above 11%; CDMO orders"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Rabi subsidy stays inadequate; sulphur and ammonia stay high",
+        "Medium",
+        "Bear-case FY28E EPS ₹61.9, 24% below our base"
+       ],
+       [
+        "Weak southern rabi after a 76%-of-normal monsoon in the south",
+        "Medium",
+        "Lower volumes in AP, Telangana and Karnataka; higher inventory and finance cost"
+       ],
+       [
+        "Reasonable-margin guidelines cap fertiliser profit",
+        "Low-medium",
+        "Removes the upside from backward integration"
+       ],
+       [
+        "Subsidy payments slow (fiscal pressure)",
+        "Medium",
+        "Receivables above ₹3,000 cr absorb cash; higher interest"
+       ],
+       [
+        "NACL stalls or needs more capital",
+        "Medium",
+        "More minority losses and goodwill risk (₹386 cr)"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: SELL, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**Turn neutral (HOLD) below ~₹1,380**, and positive below ~₹1,140, or on evidence that the rabi subsidy and own acid restore fertiliser EBITDA to ₹5,500-6,500/t.",
+      "**Biggest swing factor:** the subsidy-adjusted fertiliser margin. Every 1 point of Nutrient & allied EBITDA margin moves FY28E EPS by ~₹8.3 (≈10%).",
+      "**Second swing factor:** the multiple. The street pays 25-30x for the agri-solutions story; at 15x we pay the stock's own history less the sector de-rating. At 19x (bull) on our base EPS the value would be ~₹1,662, still below the share price."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Nutrient PBIT margin, Q1FY27",
+        "v": "6.9%",
+        "d": "9.9% a year earlier"
+       },
+       {
+        "k": "D&A, Q1FY27",
+        "v": "₹203 cr",
+        "d": "₹121 cr a year earlier"
+       },
+       {
+        "k": "Monsoon, south peninsula",
+        "v": "76% of normal",
+        "d": "All-India 87% (2026 season)"
+       },
+       {
+        "k": "Net cash, Mar-27E",
+        "v": "₹3,400 cr",
+        "d": "incl. ICDs; ₹2,596 cr at Mar-26"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "Company, IMD, GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY15–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 150
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit*",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Operating cash"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "interest",
+        "name": "Interest"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       }
+      ]
+     }
+    },
+    {
+     "p": "*History: total profit incl. minorities (Screener). Forecasts: profit attributable to shareholders × 0.97, an engine workaround that keeps EPS correct (see Forecasts)."
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "DAP",
+        "Di-ammonium phosphate (18% N, 46% P₂O₅): the most used phosphatic fertiliser; its farm price is held at ₹1,350 a 50 kg bag."
+       ],
+       [
+        "NPK / complex fertilisers",
+        "Granular fertilisers that combine nitrogen (N), phosphorus (P) and potash (K) in set grades, e.g. 20:20:0:13."
+       ],
+       [
+        "SSP",
+        "Single super phosphate: a low-cost phosphatic fertiliser (16% P₂O₅) made from rock phosphate and sulphuric acid."
+       ],
+       [
+        "Urea / MOP",
+        "Urea is the main nitrogen fertiliser (price fully controlled); MOP is muriate of potash. Coromandel trades both."
+       ],
+       [
+        "NBS",
+        "Nutrient Based Subsidy: the government pays a fixed subsidy per kg of N, P, K and S in each P&K fertiliser, revised every season (kharif: Apr-Sep; rabi: Oct-Mar)."
+       ],
+       [
+        "MRP",
+        "Maximum retail price; for DAP effectively fixed by the government, for NPKs in practice constrained."
+       ],
+       [
+        "Phosphoric / sulphuric acid",
+        "Phosphoric acid (from rock phosphate and sulphuric acid) is the main input for DAP/NPK; sulphuric acid is made by burning sulphur."
+       ],
+       [
+        "Ammonia",
+        "The nitrogen input for DAP and NPKs; India imports most of it."
+       ],
+       [
+        "Backward integration",
+        "Making one's own raw materials (here acid and rock) instead of buying them."
+       ],
+       [
+        "Reasonable-margin guidelines",
+        "Government rules capping the profit companies may earn on subsidised P&K fertilisers."
+       ],
+       [
+        "Technical / formulation",
+        "In crop protection: the active ingredient (technical) and the ready-to-use product sold to farmers (formulation)."
+       ],
+       [
+        "CDMO",
+        "Contract development and manufacturing for other companies."
+       ],
+       [
+        "ICDs",
+        "Inter-corporate deposits: here, deposits placed with Bajaj Finance, counted as cash."
+       ],
+       [
+        "Acceptances",
+        "Bank-backed credit from suppliers (usually for imported raw materials), shown within trade payables."
+       ],
+       [
+        "Minorities (NCI)",
+        "The share of a subsidiary's profit that belongs to its other shareholders (46% of NACL, 28.5% of BMCC)."
+       ],
+       [
+        "Segment PBIT / EBITDA",
+        "Profit of a segment before interest, tax and central costs (PBIT); EBITDA adds back the segment's depreciation."
+       ],
+       [
+        "P/E; EV/EBITDA",
+        "Share price ÷ earnings per share; enterprise value (market value − net cash) ÷ EBITDA."
+       ],
+       [
+        "DCF / Ke",
+        "Discounted cash flow valuation; Ke is the cost of equity (here 11.9% = 6.5% risk-free + 0.9 × 6% equity risk premium)."
+       ],
+       [
+        "LPA",
+        "Long-period average rainfall used by IMD to define a normal monsoon."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY19": "Higher fertiliser revenue (FY19 segment detail not reviewed).",
+  "ebitdaMargin@FY17": "EBITDA +28% on flat-to-lower revenue (FY17 detail not reviewed).",
+  "ebitdaMargin@FY18": "EBITDA +28% again (FY18 detail not reviewed).",
+  "ebitdaMargin@FY20": "Nutrient EBITDA margin 14.1%, crop protection 15.3% (first year of our segment series; drivers not reviewed).",
+  "pat@FY17": "EBITDA +28% (FY17 detail not reviewed).",
+  "pat@FY18": "EBITDA +28% and lower finance cost (₹224 cr → ₹178 cr).",
+  "pat@FY20": "PBT +26% (EBITDA +20%); the rest from a lower tax charge (FY20 tax detail not reviewed).",
+  "pat@FY21": "EBITDA +15%; finance cost fell from ₹235 cr to ₹106 cr as borrowings were cut from ₹2,019 cr to ₹385 cr.",
+  "pat@FY23": "Record prices; Nutrient PBIT +46% to ₹2,594 cr.",
+  "sales@Q3FY25": "Recovery in fertiliser volumes and prices after the weak FY24 (Q3FY24 segment detail not reviewed); Nutrient ₹6,367 cr.",
+  "sales@Q4FY25": "Nutrient ₹4,321 cr, crop protection ₹699 cr (Q4FY24 segment detail not reviewed).",
+  "sales@Q1FY26": "Nutrient +51% (DAP+NPK volume 8.4 → 11.0 lakh t); crop protection +31%.",
+  "sales@Q2FY26": "Nutrient +28% (DAP+NPK volume +7%, imports +49%); crop protection +42% with NACL from 8-Aug-2025.",
+  "sales@Q3FY26": "Nutrient +22% (traded urea 9.3 vs 4.2 lakh t); crop protection +73% with NACL.",
+  "sales@Q4FY26": "Nutrient +15% despite DAP+NPK volume −7%; crop protection +54% with NACL.",
+  "sales@FY22": "Global fertiliser prices rose after Covid; Nutrient revenue +37% to ₹16,714 cr.",
+  "sales@FY23": "Russia-Ukraine war: record prices and subsidy (₹14,488 cr); revenue +55%.",
+  "sales@FY24": "Prices and subsidy fell back (subsidy ₹8,175 cr); revenue −26%.",
+  "sales@FY26": "Nutrient revenue +28% (volume +7%, higher subsidy and prices); crop protection +50% with NACL from Aug-2025.",
+  "ebitdaMargin@FY21": "Peak margin: low input costs and strong rabi demand; crop protection EBITDA margin 18.7%.",
+  "ebitdaMargin@FY22": "Input costs rose faster than subsidies; Nutrient margin 14.8% → 11.4%.",
+  "ebitdaMargin@FY23": "Record prices inflate revenue; Nutrient margin 10.1%.",
+  "ebitdaMargin@FY24": "Prices normalised; Nutrient margin recovered to 11.8%.",
+  "ebitdaMargin@FY26": "Middle East crisis squeezed Q4 (manufactured EBITDA <₹3,500/t); NACL's lower margin consolidated.",
+  "pat@FY24": "Lower subsidy and prices: Nutrient PBIT −16%.",
+  "pat@FY25": "Includes a ₹397.71 cr gain on assignment of leasehold land rights and a ₹50.94 cr impairment.",
+  "pat@FY26": "Includes a ₹70.56 cr drone goodwill impairment; minorities absorbed ₹58 cr of losses (profit to shareholders ₹1,956 cr).",
+  "dep@FY26": "BMCC (Senegal mine) and NACL consolidated; acquisition intangibles amortised.",
+  "sales@Q1FY27": "Nutrient +9% (prices up 25-30%, volumes −9%); crop protection +73% with NACL.",
+  "pat@Q1FY27": "Fertiliser PBIT −24% as inputs outran the 10% NBS increase; D&A ₹203 cr vs ₹121 cr.",
+  "pat@Q4FY26": "Annual maintenance, compressed fertiliser margins and the ₹71 cr drone impairment."
+ }
+}

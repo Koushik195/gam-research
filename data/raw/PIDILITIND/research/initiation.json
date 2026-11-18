@@ -1,0 +1,3609 @@
+{
+ "symbol": "PIDILITIND",
+ "listing": "NSE: PIDILITIND · BSE: 500331",
+ "date": "30 September 2026",
+ "rating": "HOLD",
+ "analysts": "GAM Research — Consumer & Building Materials",
+ "cover": {
+  "headline": "India's best consumer franchise, priced for it: FY27 growth is half price, and the multiple already assumes decades of compounding",
+  "lead": "Pidilite owns Fevicol, Dr. Fixit, M-Seal and Fevikwik, sells through ~5,700 distributors and lakhs of small dealers, and earns a 31% ROCE with net cash. Volumes are strong: underlying volume growth (UVG) was 11.1% in FY26 and 11.3% in Q1FY27, even after price rises of up to 12-15% to cover a spike in vinyl acetate monomer (VAM) during the West Asia conflict. But Q1FY27's 21% revenue growth was about half price, VAM has since halved from its peak, management expects to pass some price back, and FY26's 24% EBITDA margin was already the top of its own 20-24% corridor. The street values Pidilite on **P/E (50x FY28E or Jun-28E EPS)**. We forecast EPS of ₹27.8 in FY27E and ₹31.6 in FY28E, close to the street for FY27 and ~5% below for FY28. Applying **45x to Sep-28E EPS of ₹33.7** gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with HOLD.** Cross-checks: EV/EBITDA ₹1,509, DCF ₹866. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "A genuine moat in the core",
+    "p": "Fevicol is \"synonymous with adhesives\" (CRISIL); competitors copy Pidilite's price moves \"almost to a T\" (MD). C&B UVG was 12.2% in Q1FY27 on top of the price rises. Consolidated C&B segment EBITDA margin was 33.0% in FY26 and ROE 24.0%, with capex of only 3-5% of revenue."
+   },
+   {
+    "h": "FY27 growth is flattered by price",
+    "p": "Q1FY27 standalone revenue +22.2% = UVG 11.3% plus ~10% price and mix. VAM was consumed at US$1,370/t in Q1 (US$924 a year earlier) and fell ~50% from its peak by August; management talks of rebates. We forecast revenue +{{F.salesGrowth.0|pct}} in FY27E, then +{{F.salesGrowth.1|pct}} as price laps."
+   },
+   {
+    "h": "Margins are at the top of the range",
+    "p": "EBITDA margin was 17% in FY23 when inputs spiked and 24.1% in FY26 on cheap ones; Q1FY27 26.3% included low-cost inventory that \"will unravel in the second quarter\" (CFO). We model {{F.ebitdaMargin.0|pct}} / {{F.ebitdaMargin.1|pct}} / {{F.ebitdaMargin.2|pct}}: no further expansion."
+   },
+   {
+    "h": "Valuation: fair, not cheap",
+    "p": "At ₹1,465 the stock trades at 52.7x our FY27E and 46.4x FY28E EPS. Its 64x median forward P/E since 2021 has de-rated with consumer peers; our 45x gives {{dcf.tp|inr}}. A DCF at an 11.3% cost of equity gives only ₹866: even 15 years of double-digit growth does not support today's price at that discount rate."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "GREEN"
+   },
+   {
+    "k": "Predictability",
+    "v": "GREEN"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "AMBER"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "RED"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): how much margin the high-cost VAM inventory takes in the quarter, and whether rebates start.",
+   "VAM and crude prices: a lasting fall supports margins but brings price give-backs; a renewed spike hits margins again.",
+   "UVG through FY27: management wants double digit and \"about 100 bps\" a year of improvement; watch for demand compression from industry-wide price rises.",
+   "Competition in tile adhesives (cement and tile makers entering) and waterproofing; the export recovery in B2B.",
+   "Use of ₹4,200 cr of net cash: pioneering categories, partnerships or acquisitions."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "Consumer & Bazaar is four-fifths of revenue",
+       "unit": "Consolidated net revenue by segment (₹ '000 crore)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Consumer & Bazaar",
+         "values": [
+          5.8,
+          7.8,
+          9.4,
+          9.9,
+          10.3,
+          11.5
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "Business to Business",
+         "values": [
+          1.5,
+          2.1,
+          2.3,
+          2.4,
+          2.7,
+          3
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "Others",
+         "values": [
+          0,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "minLabel": 1,
+       "source": "Annual reports, consolidated segment notes (net of inter-segment sales)"
+      },
+      {
+       "type": "column",
+       "title": "Underlying volume growth: 8-10%, then 15% and 11%",
+       "unit": "Standalone UVG, year on year (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "UVG",
+         "values": [
+          null,
+          8,
+          9.7,
+          9.8,
+          9.9,
+          10.3,
+          9.3,
+          15.3,
+          11.3
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations (Q1FY25: \"double digit\", exact figure not given)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Q1FY27: revenue +22%, of which volume +11%",
+       "unit": "Standalone growth, year on year (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Revenue growth",
+         "values": [
+          6.2,
+          7.1,
+          9.3,
+          10.2,
+          10.6,
+          10.4,
+          11,
+          15.3,
+          22.2
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "UVG",
+         "values": [
+          null,
+          8,
+          9.7,
+          9.8,
+          9.9,
+          10.3,
+          9.3,
+          15.3,
+          11.3
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "none",
+       "source": "Company presentations"
+      },
+      {
+       "type": "column",
+       "title": "VAM: from US$840/t to ~US$1,800 and back down",
+       "unit": "VAM price (US$ per tonne)",
+       "x": [
+        "Q1FY26 (consumed)",
+        "Q4FY26 (consumed)",
+        "May-26 (spot)",
+        "Q1FY27 (consumed)"
+       ],
+       "series": [
+        {
+         "name": "VAM",
+         "values": [
+          924,
+          840,
+          1800,
+          1370
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Q1FY27 (consumed)",
+       "source": "Pidilite calls (8-May-2026, 5-Aug-2026); PL (Aug-2026): ~50% off the peak by August"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: now at the top of the 20-24% corridor",
+       "unit": "Consolidated EBITDA margin (%); dashed lines = management corridor of 20-24%",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 30,
+       "lines": [
+        {
+         "v": 20,
+         "text": ""
+        },
+        {
+         "v": 24,
+         "text": ""
+        }
+       ],
+       "source": "Screener.in; GAM estimates FY27-29E"
+      },
+      {
+       "type": "column",
+       "title": "Segment margins: C&B 33%, B2B 20% in FY26",
+       "unit": "Segment EBITDA margin (% of net revenue)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Consumer & Bazaar",
+         "values": [
+          32.5,
+          26.6,
+          23.4,
+          29,
+          30.9,
+          33
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Business to Business",
+         "values": [
+          10.8,
+          9.9,
+          12.7,
+          17,
+          20.6,
+          20.1
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "none",
+       "source": "Annual reports: segment result + allocable depreciation, consolidated"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: from 109x in 2021 to ~46x",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2016-04-08",
+        "2016-05-13",
+        "2016-06-17",
+        "2016-07-22",
+        "2016-08-26",
+        "2016-09-30",
+        "2016-11-04",
+        "2016-12-09",
+        "2017-01-13",
+        "2017-02-17",
+        "2017-03-24",
+        "2017-04-28",
+        "2017-06-02",
+        "2017-07-07",
+        "2017-08-11",
+        "2017-09-15",
+        "2017-10-19",
+        "2017-11-24",
+        "2017-12-29",
+        "2018-02-02",
+        "2018-03-09",
+        "2018-04-13",
+        "2018-05-18",
+        "2018-06-22",
+        "2018-07-27",
+        "2018-08-31",
+        "2018-10-05",
+        "2018-11-09",
+        "2018-12-14",
+        "2019-01-18",
+        "2019-02-22",
+        "2019-03-29",
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          31.5,
+          32,
+          37,
+          38.6,
+          36.2,
+          35.9,
+          36.6,
+          33.8,
+          33.8,
+          36.1,
+          36.3,
+          39.5,
+          43.5,
+          44.6,
+          43.4,
+          46.1,
+          44,
+          46.3,
+          49.6,
+          47.4,
+          48.3,
+          46.6,
+          49.2,
+          47.8,
+          51.3,
+          53.2,
+          44,
+          47.4,
+          53.1,
+          52.3,
+          49,
+          56.7,
+          54,
+          56.4,
+          53.2,
+          61.5,
+          63.3,
+          60.7,
+          58.5,
+          62.8,
+          70,
+          68.5,
+          61.9,
+          58.8,
+          58.4,
+          57.1,
+          60.4,
+          62,
+          66.5,
+          72.9,
+          73,
+          71,
+          72.8,
+          72.5,
+          84.5,
+          89.6,
+          90.5,
+          97.9,
+          92.4,
+          88.2,
+          108.8,
+          97.1,
+          100.3,
+          71.4,
+          63.6,
+          63.5,
+          77.7,
+          83.7,
+          77.1,
+          79.4,
+          73.2,
+          67.4,
+          68.2,
+          57.1,
+          63.4,
+          66.1,
+          65.2,
+          61.9,
+          59.8,
+          60.2,
+          62.8,
+          67,
+          66.4,
+          72.5,
+          62,
+          61.7,
+          64.4,
+          65.1,
+          68.8,
+          66.2,
+          61.4,
+          60.6,
+          61.2,
+          57.2,
+          53.1,
+          55.6,
+          53.1,
+          51.9,
+          54.8,
+          53.5,
+          52.3,
+          53.1,
+          53.1,
+          52.7,
+          47.3,
+          43.5,
+          46.7,
+          50.6,
+          53.6,
+          49.8
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 64,
+         "text": "Median since 2021: 64x"
+        }
+       ],
+       "source": "Screener.in prices (bonus-adjusted); actual EPS, GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (latest notes, Jul-Sep 2026)",
+       "unit": "₹ per share; CMP ₹1,465",
+       "x": [
+        "Motilal Oswal",
+        "Prabhudas Lilladher",
+        "Jefferies",
+        "Axis Capital",
+        "Macquarie",
+        "HSBC",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          1700,
+          1739,
+          1730,
+          1800,
+          1350,
+          1890,
+          1520
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and aggregators (Jul-Sep 2026), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Pidilite does",
+   "kicker": "The business",
+   "title": "Glue, waterproofing and tile fixing: a brand house sold through India's tradesmen",
+   "blocks": [
+    {
+     "p": "Pidilite makes the products India's carpenters, plumbers, masons, painters and households use to stick, seal and waterproof. Its **Consumer & Bazaar (C&B)** segment (81.6% of FY26 standalone sales) sells branded adhesives and sealants (Fevicol, Fevikwik, Fevistik, M-Seal, Araldite), construction and paint chemicals (Dr. Fixit waterproofing, Roff tile adhesives and grouts) and art and craft materials (Fevicryl). \"Bazaar\" means sales through dealers to tradesmen rather than to households. Its **Business to Business (B2B)** segment (18%) sells industrial adhesives, resins, construction chemicals for projects and organic pigments to other companies. Management sorts the portfolio into **core** (established brands growing at 1-2x real GDP), **growth** (waterproofing, tile adhesives, projects, joineries: 2-4x GDP) and **pioneer** categories (new bets such as Unofin renders, Haisha paints and electronics adhesives), with core and the rest \"nearly 50-50\"."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What Pidilite sells (FY26, standalone, % of sales)",
+      "head": [
+       "Segment / category",
+       "Share",
+       "Main brands and products"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "**Consumer & Bazaar**",
+        "**81.6%**",
+        ""
+       ],
+       [
+        "  Adhesives & sealants",
+        "53.4%",
+        "Fevicol (white glue, contact adhesives), Fevikwik, Fevistik, M-Seal, Araldite, Feviseal"
+       ],
+       [
+        "  Construction & paint chemicals",
+        "22.6%",
+        "Dr. Fixit waterproofing, Roff / Starlike / Tenax tile and stone care, WD-40, ICA wood finishes, Haisha paints"
+       ],
+       [
+        "  Art & craft and others",
+        "5.6%",
+        "Fevicryl, Hobby Ideas"
+       ],
+       [
+        "**Business to Business**",
+        "**18%**",
+        ""
+       ],
+       [
+        "  Industrial resins, construction chemicals (projects)",
+        "9.7%",
+        "Pidilite Professional Solutions (systems for builders, metros, data centres), Nina Percept (waterproofing contracting)"
+       ],
+       [
+        "  Industrial adhesives",
+        "4.9%",
+        "Packaging, footwear, joineries (Jowat hot-melts)"
+       ],
+       [
+        "  Pigments & preparations",
+        "3.4%",
+        "Organic pigments for paints, inks and textiles; the main export line"
+       ],
+       [
+        "Others",
+        "0.4%",
+        "Raw-material sales, NBFC"
+       ]
+      ],
+      "source": "Q1FY27 earnings presentation (industry segment composition, FY26 standalone)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Consolidated segments, FY26",
+      "head": [
+       "Segment",
+       "Net revenue (₹ cr)",
+       "Share",
+       "Growth",
+       "Segment EBITDA (₹ cr)",
+       "Margin"
+      ],
+      "rows": [
+       [
+        "Consumer & Bazaar",
+        "11,505",
+        "79%",
+        "+11%",
+        "3,792",
+        "33.0%"
+       ],
+       [
+        "Business to Business",
+        "3,036",
+        "21%",
+        "+10%",
+        "609",
+        "20.1%"
+       ],
+       [
+        "Others",
+        "61",
+        "0%",
+        "+7%",
+        "-9",
+        "–"
+       ],
+       [
+        "Less: corporate costs not allocated",
+        "",
+        "",
+        "",
+        "−871",
+        ""
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Group (Screener basis)**",
+         "**14,601**",
+         "**100%**",
+         "**+11%**",
+         "**3,521**",
+         "**24.1%**"
+        ]
+       }
+      ],
+      "source": "AR FY26 note 46 (segment result + allocable depreciation); Screener.in; GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "India standalone is 83% of revenue",
+       "unit": "FY26 revenue by entity (₹ crore, before consolidation adjustments)",
+       "x": [
+        "Standalone, India",
+        "Standalone exports",
+        "Domestic subsidiaries",
+        "International subsidiaries"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          12570,
+          918,
+          952,
+          715
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Standalone, India",
+       "source": "Q1FY27 earnings presentation (company at a glance)"
+      },
+      {
+       "type": "hbar",
+       "title": "Adhesives & sealants still more than half of sales",
+       "unit": "FY26 standalone sales mix (%)",
+       "x": [
+        "Adhesives & sealants",
+        "Construction & paint chem.",
+        "Industrial resins, projects",
+        "Art & craft, others",
+        "Industrial adhesives",
+        "Pigments"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          53.4,
+          22.6,
+          9.7,
+          5.6,
+          4.9,
+          3.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Adhesives & sealants",
+       "source": "Q1FY27 earnings presentation"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Reach and assets",
+      "head": [
+       "",
+       "Detail"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Manufacturing",
+        "33 plants (CRISIL); ~70 manufacturing units incl. co-makers and 50+ distribution centres (company); ₹3,300+ cr of capex over 10 years"
+       ],
+       [
+        "Distribution",
+        "5,700+ distributors; Emerging India: ~2,000 stockists, ~3,300 sub-stockists, ~3.8 lakh dealers, 40,000+ rurban towns; 24,000+ Pidilite ki Duniya outlets; 1,700+ Dr. Fixit centres; e-commerce and quick commerce the fastest-growing channel over five years"
+       ],
+       [
+        "People and products",
+        "8,835 permanent standalone employees; 840+ products, 6,000+ SKUs; R&D ~₹115 cr a year (0.8% of revenue)"
+       ],
+       [
+        "Partners",
+        "JVs and technology tie-ups with ICA (wood finishes), Litokol (grouts), Grupo Puma (tile adhesives, Unofin), Jowat (hot-melts), WD-40"
+       ],
+       [
+        "International",
+        "Subsidiaries in the UAE, Bangladesh, Sri Lanka, Egypt, Kenya, Thailand; FY26 sales Asia ₹359 cr (EBITDA margin ~22%), Middle East & Africa ₹341 cr (~9%); Q1FY27 +12%"
+       ]
+      ],
+      "source": "Q1FY27 and Q4FY26 presentations, investor presentation (May-2026), AR FY26, CRISIL"
+     }
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From one glue brand (1959) to a category creator",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1959",
+        "Fevicol brand established; plants for Acron pigment emulsions and Fevicol adhesive",
+        "Origin of the core adhesives franchise"
+       ],
+       [
+        "1969",
+        "Pidilite Industries incorporated (Parekh family)",
+        "–"
+       ],
+       [
+        "1993",
+        "IPO (company valued at ₹60 cr)",
+        "–"
+       ],
+       [
+        "1994-2004",
+        "Dr. Fixit and M-Seal introduced; 'Bus' ad wins Silver Lion at Cannes (2002); revenue crosses ₹1,000 cr",
+        "Waterproofing becomes the second leg"
+       ],
+       [
+        "2005-2019",
+        "Roff (tile adhesives) acquired; Nina Waterproofing and Percept acquired; Pidilite Middle East set up; JV with ICA (Italy, wood finishes, 2016); CIPY (flooring) acquired; JVs with Jowat, Litokol (2019) and Grupo Puma; Bharat Puri MD (2015)",
+        "Growth categories built by brand + acquisitions + global partners"
+       ],
+       [
+        "Nov-2020",
+        "Acquired 100% of Huntsman's Indian sub-continent consumer adhesives business (Araldite, Araldite Karpenter, Araseal), now Pidilite Adhesives Pvt Ltd; ~90% paid at closing, ~10% earn-out",
+        "Gross block +₹2,777 cr in FY21 (Screener); goodwill and brand intangibles on the balance sheet"
+       ],
+       [
+        "FY22-23",
+        "VAM and other input costs spike",
+        "EBITDA margin fell to 19% (FY22) and 17% (FY23); C&B segment EBITDA margin 23.4% in FY23"
+       ],
+       [
+        "2023-26",
+        "Majority stake in Tenax India Stone Products; Haisha interior paints (rurban); Unofin renders (JV with Grupo Puma, production from FY24); start-up stakes (Kaarwan, Onsite, Wiffy, Pace Robotics; earlier Pepperfry, Homelane, Livspace)",
+        "Pioneer categories; small revenue"
+       ],
+       [
+        "10-Apr-2025",
+        "Sudhanshu Vats (ex-Deputy MD) becomes MD, Kavinder Singh Joint MD; Bharat Puri becomes non-executive director",
+        "First new MD in a decade"
+       ],
+       [
+        "24-Sep-2025",
+        "1:1 bonus issue (50.89 cr shares allotted; record date 23-Sep-2025); special interim dividend ₹10 pre-bonus (₹5 post) for the founder's 101st birth anniversary",
+        "Share count 50.9 cr -> 101.8 cr; all per-share history in this report is bonus-adjusted"
+       ],
+       [
+        "Mar-May 2026",
+        "West Asia conflict: VAM and the raw-material basket spike (+40-50% at the peak); exports disrupted from March; two price rises (Apr, May)",
+        "Q1FY27 revenue +21% (UVG 11%, the rest price)"
+       ],
+       [
+        "May-2026",
+        "BuildNext (construction platform) transferred to JSW One in a share swap; Pidilite gets an 'insignificant' stake in JSW One",
+        "Small"
+       ]
+      ],
+      "source": "Company presentations (May-2026), annual reports FY22-FY26, earnings calls"
+     }
+    },
+    {
+     "callout": "**Corporate actions and per-share data:** the 1:1 bonus of Sep-2025 doubled the share count to 101.8 cr. Screener, and every per-share figure in this report, is restated for it: FY26 EPS of ₹24.06 equals ₹48 on the old share count. Broker targets from before the bonus (₹3,000-3,400) are not comparable with today's (₹1,350-1,890). No buyback or equity raise in the period; dividends are the main return of cash (₹1,526 cr paid in FY26 including the special)."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Under-penetrated categories, a volatile input-cost cycle and more competition",
+   "blocks": [
+    {
+     "p": "Pidilite's categories grow with home building, renovation and furniture making, and with the shift from crude methods (cement to fix tiles, no waterproofing) to branded chemicals. That shift has a long way to run: management puts tile-adhesive penetration at 20-30% of the ~₹6,500 cr tile & stone market, and waterproofing in small builders' projects is still \"not being done\". Demand was strong into 2026: urban demand turned \"buoyant\" in Jan-Mar 2026 after the GST 2.0 rate cuts and income-tax relief, in the MD's view."
+    },
+    {
+     "p": "The cost side is a petrochemical cycle. Pidilite's key inputs (VAM, polymers, acrylates, resins) follow crude oil and supply shocks. Raw and packaging materials were ~45% of sales in FY26 (CRISIL). The West Asia conflict that started in early 2026 pushed the weighted raw-material basket up 40-50% at the peak; VAM more than doubled. Pidilite and its rivals raised prices together, and by August VAM had fallen back about half way. The other change is competition: paint majors are pushing into waterproofing (and one has built its own VAM/VAE plant), and cement and tile makers are entering tile adhesives."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Forces acting on Pidilite's markets (as of 30-Sep-2026)",
+      "head": [
+       "Theme",
+       "Direction",
+       "What it means for Pidilite"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Input costs (West Asia conflict)",
+        "Headwind, easing",
+        "VAM went from ~US$840/t (Q4FY26) to ~US$1,800-2,000/t at the peak; Pidilite consumed it at US$1,370/t in Q1FY27. By August it was ~50% off the peak (PL). Pidilite raised prices 2-12% by category and expects to pass some back as rebates."
+       ],
+       [
+        "Urban demand and renovation",
+        "Tailwind",
+        "MD (May-2026): 'buoyancy in urban demand' after GST 2.0 cuts and the income-tax relief; 'demand is holding quite well' (Aug-2026)."
+       ],
+       [
+        "Penetration of tile adhesives and waterproofing",
+        "Tailwind",
+        "Tile & stone solutions market ~Rs 6,500 cr with 20-30% penetration (most tiles still fixed with cement); waterproofing back to 'mid-teens plus' growth for Pidilite in FY26-27."
+       ],
+       [
+        "New competition",
+        "Headwind",
+        "A South Indian cement maker and tile makers entering tile adhesives; the largest paint company has built its own VAM/VAE plant; paint majors push waterproofing."
+       ],
+       [
+        "Exports and West Asia disruption",
+        "Headwind",
+        "B2B export UVG −28.8% (Q3FY26), −21.8% (Q4FY26), −8.4% (Q1FY27); pigments are the main export line."
+       ],
+       [
+        "Rural demand and the monsoon",
+        "Mixed",
+        "Rural/rurban growth ahead of urban for years (company); CRISIL flags weather risk to rural demand. June-September 2026 rain ended ~12.6% below normal (IMD)."
+       ],
+       [
+        "Unorganised players under supply stress",
+        "Small tailwind",
+        "MD: unorganised players 'struggle a little bit' in volatile input markets; 'too early' to see share gains."
+       ]
+      ],
+      "source": "Pidilite calls (8-May-2026, 5-Aug-2026); investor presentation (22-May-2026); CRISIL (2-Sep-2026); PL (5-Aug-2026); IMD end-of-season statement (30-Sep-2026)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Pidilite grew fastest of the building-material names in Q1FY27",
+       "unit": "Consolidated revenue growth, Jun-2026 quarter, year on year (%)",
+       "x": [
+        "Pidilite",
+        "Asian Paints",
+        "Astral",
+        "Berger Paints",
+        "Hindustan Unilever",
+        "Kansai Nerolac"
+       ],
+       "series": [
+        {
+         "name": "Growth",
+         "values": [
+          21.3,
+          17.9,
+          15.9,
+          12,
+          10.1,
+          9.8
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Pidilite",
+       "source": "Screener.in quarterly results"
+      },
+      {
+       "type": "hbar",
+       "title": "And over three years",
+       "unit": "Revenue growth, FY23-26, a year (%)",
+       "x": [
+        "Pidilite",
+        "Astral",
+        "Berger Paints",
+        "Kansai Nerolac",
+        "Hindustan Unilever",
+        "Asian Paints"
+       ],
+       "series": [
+        {
+         "name": "CAGR",
+         "values": [
+          7.4,
+          8.4,
+          4,
+          2.2,
+          2.1,
+          1
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Pidilite",
+       "source": "Screener.in (consolidated)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: Pidilite captures the domestic tailwinds; the cost tailwind has turned",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Urban consumption recovery (tax cuts, GST 2.0)",
+       "Yes",
+       "Q4FY26 UVG 15.3% (C&B 15.4%), Q1FY27 11.3% even with price rises; Fevicol grew double digit in Q4FY26.",
+       "Volumes are real, not just price."
+      ],
+      [
+       "Housing, renovation and construction",
+       "Yes",
+       "Waterproofing back to \"mid-teens plus\" growth; domestic B2B (projects) UVG 21.5% in Q4FY26 and 10.4% in Q1FY27.",
+       "Growth categories are firing."
+      ],
+      [
+       "Penetration of tile adhesives and waterproofing",
+       "Yes, but contested",
+       "Pidilite says it grows fastest in tile adhesives (~1.5-2x market); new entrants from cement, tiles and paints.",
+       "Share gains continue; pricing power is lower here than in Fevicol."
+      ],
+      [
+       "Rural and rurban India",
+       "Partly",
+       "Rurban growth ahead of urban for years (company); the 2026 monsoon ended ~13% below normal.",
+       "A watch item for H2FY27."
+      ],
+      [
+       "Input-cost cycle",
+       "Turned",
+       "Benign inputs lifted EBITDA margin from 17% (FY23) to 24% (FY26); the 2026 spike reversed it and prices had to rise.",
+       "The margin tailwind is behind us."
+      ],
+      [
+       "Exports and global markets",
+       "No",
+       "B2B export UVG −28.8%, −21.8%, -8.4% in the last three quarters; exports ~7% of standalone sales.",
+       "Small, but drags B2B."
+      ],
+      [
+       "New categories (paints, electronics, Unofin)",
+       "Not yet",
+       "MD: still \"refining\" the urban playbook in paints; electronics and Unofin show \"green shoots\".",
+       "Options, not earnings."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "Pidilite earnings presentations, calls and annual reports; GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "cb",
+   "nav": "Consumer & Bazaar",
+   "kicker": "Segment",
+   "title": "Consumer & Bazaar: the moat, now growing on price as well as volume",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "C&B revenue by quarter (standalone)",
+       "unit": "Segment revenue (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "C&B",
+         "values": [
+          2557,
+          2385,
+          2486,
+          2203,
+          2818,
+          2656,
+          2802,
+          2561,
+          3458
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations (Q2FY26 derived from 9M less Q1 and Q3)"
+      },
+      {
+       "type": "column",
+       "title": "C&B volume growth stepped up from 6-8% to 9-15%",
+       "unit": "C&B UVG, year on year (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "C&B UVG",
+         "values": [
+          8,
+          6,
+          7.3,
+          8,
+          9.3,
+          10.4,
+          9.7,
+          15.4,
+          12.2
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**What it is.** Branded adhesives, sealants, waterproofing, tile adhesives and art materials sold through dealers to tradesmen and households: ₹11,505 cr of consolidated net revenue in FY26 (79% of the group), growing ~15% a year since FY21.",
+      "**Margins track inputs.** Consolidated C&B segment EBITDA margin: FY21 32.5%, FY22 26.6%, FY23 23.4%, FY24 29.0%, FY25 30.9%, FY26 33.0%. The FY23 trough came when VAM and other inputs spiked; FY26 is a record.",
+      "**FY26-Q1FY27 acceleration.** C&B UVG rose from 7.2% in FY25 to 11.1% in FY26 and 12.2% in Q1FY27. Management credits urban buoyancy, more field marketing (standalone A&SP +19% in FY26, +37% in Q1FY27) and share gains in growth categories, and says it did not load the channel in March.",
+      "**Pricing.** Fevicol prices rose ~5% in April and another 7-9% in May 2026 (12-15% in all); company-wide ~4-5% plus ~7-8%. Rivals followed. With VAM falling, management expects to give some back through rebates, \"particularly in our Bazaar business\".",
+      "**Competition.** Pidilite is the leader in consumer adhesives; in tile adhesives the top 4-5 players hold 80-90%, and cement and tile makers are entering; Pidilite answers with more plants (Nio Pro now made in four), quality and \"total delivered cost\"."
+     ]
+    },
+    {
+     "callout": "**Our view:** C&B is the best part of Pidilite and the reason it deserves a premium. We model C&B revenue {{as.segments.0.growth.0|chg}} in FY27E (UVG ~10.5% plus ~7.5% price after rebates), then +11% and +12%, with segment EBITDA margin of 32.2-32.4%, a little below FY26's 33.0%. The risk is not volume; it is that margins revert toward the 23-29% of FY22-24 if input costs spike again."
+    }
+   ]
+  },
+  {
+   "id": "b2b",
+   "nav": "Business to Business",
+   "kicker": "Segment",
+   "title": "B2B: projects are growing, pigment exports are not, and there is no moat",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "B2B revenue by quarter (standalone)",
+       "unit": "Segment revenue (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "B2B",
+         "values": [
+          629,
+          613,
+          642,
+          682,
+          702,
+          679,
+          667,
+          752,
+          821
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      },
+      {
+       "type": "column",
+       "title": "B2B volume growth fell as exports shrank",
+       "unit": "UVG, year on year (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "B2B UVG",
+         "values": [
+          18,
+          21,
+          21.7,
+          16.4,
+          12.6,
+          9.9,
+          7.4,
+          14.8,
+          7.3
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "of which exports",
+         "values": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          -28.8,
+          -21.8,
+          -8.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "none",
+       "source": "Company presentations (export UVG disclosed from Q3FY26)"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**What it is.** Industrial adhesives, resins, project construction chemicals and organic pigments: ₹3,036 cr of consolidated net revenue in FY26. CRISIL calls it \"a bulk commodity business\"; segment EBITDA margin has ranged from 10.8% (FY21) to 20.6% (FY25).",
+      "**Two halves.** Domestic B2B (Pidilite Professional Solutions selling waterproofing and construction systems to builders, metros, hotels and data centres; industrial adhesives for packaging, footwear, joineries) grew UVG 15.6%, 21.5% and 10.4% in the last three quarters. Exports (mainly pigments) fell each quarter, hit by the West Asia conflict from March 2026.",
+      "**Subsidiaries.** Domestic B2B subsidiaries (incl. Nina Percept, waterproofing contracting) shrank 5% in FY26 to ₹359 cr; Nina's order book is \"very, very healthy\" but sites were shut by pollution curbs."
+     ]
+    },
+    {
+     "callout": "B2B is a useful second leg (its revenue more than doubled since FY21) but it does not carry the brand premium. We model revenue {{as.segments.1.growth.0|chg}} in FY27E and +10-11% after, with segment EBITDA margin of 19.5-20%, close to FY25-26 and well above the 10-13% of FY21-23."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: a wide moat in the core, a contested one in growth categories",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Brands (Fevicol, Dr. Fixit, M-Seal, Fevikwik, Araldite)",
+       "Strong advantage",
+       "Fevicol 'synonymous with adhesives' (CRISIL); 12-15% price rises on Fevicol in Apr-May 2026 with C&B UVG still 12.2% in Q1FY27; competitors follow Pidilite's price moves 'almost to a T' (MD).",
+       "Real pricing power in the core."
+      ],
+      [
+       "Distribution and influencer network",
+       "Strong advantage",
+       "5,700+ distributors, ~3.8 lakh dealers in Emerging India, 40,000+ rurban towns, 24,000+ Pidilite ki Duniya outlets, 1,700+ Dr. Fixit centres; carpenter, plumber and applicator programmes.",
+       "Hard and slow to copy."
+      ],
+      [
+       "Cost position in raw materials",
+       "Disadvantage",
+       "No captive VAM: Pidilite buys at market and 'rides the crests and troughs'; the largest paint company has built a VAM/VAE plant. Margins fell to 17-19% in FY22-23 when input costs spiked.",
+       "Margins swing with VAM; the moat protects share, not the margin in a spike."
+      ],
+      [
+       "Growth categories (waterproofing, tile adhesives)",
+       "Contested",
+       "Pidilite says it grows fastest in tile adhesives (top 4-5 players hold 80-90%); new entrants from cement and tiles; paint majors in waterproofing.",
+       "Leadership, but no lock-in yet."
+      ],
+      [
+       "B2B (industrial adhesives, resins, pigments)",
+       "No moat",
+       "CRISIL calls it a 'bulk commodity business'; segment EBITDA margin 10-21% and export-dependent.",
+       "18% of revenue with cyclical returns."
+      ],
+      [
+       "Innovation and partners",
+       "Moderate",
+       "R&D ~₹115 cr (0.8% of revenue); technology partners Jowat, Litokol, Grupo Puma, ICA; new products (X-PER, M-Seal Advanced).",
+       "Steady renewal of the core rather than breakthrough IP."
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings, calls and CRISIL to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** Pidilite has one of the widest moats in Indian consumer goods. Fevicol's brand, the relationship with millions of carpenters and other tradesmen, and a dealer network that reaches 40,000+ towns let it lead price moves and grow volumes 10%+ a year in a category it created. The moat protects **share and volume**, not the **gross margin**: Pidilite has no captive raw materials, so a VAM spike hits profit until prices catch up (FY22-23, early FY27). In the growth categories (tile adhesives, waterproofing) Pidilite is the leader but faces well-funded new entrants, and B2B has no moat at all. Net: a premium franchise, but not one whose margins can only go up."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Ten years of steady compounding, with two input-cost dips",
+   "blocks": [
+    {
+     "p": "Pidilite's revenue grew from ₹5,361 cr in FY16 to ₹14,601 cr in FY26, about 10.5% a year, and net profit from ₹807 cr to ₹2,471 cr, about 12% a year. The path was not smooth. Revenue was flat in FY20-21 (slowdown, then Covid), then jumped 36% in FY22 as demand came back and the Araldite business (bought from Huntsman in Nov-2020) was added. Profit lagged in FY22-23 because raw-material costs spiked: gross margin fell from 54% to 43% and EBITDA margin to 17%. As input costs fell in FY24-26, margins recovered to a record 24% and EPS grew 36%, 20% and 18%."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: 10.5% a year for ten years",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit: flat in FY20-23, then up 92% in three years",
+       "unit": "Net profit (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Gross margin swings with VAM and other inputs",
+       "unit": "Gross margin (%)",
+       "x": "A.labels",
+       "from": "FY16",
+       "series": [
+        {
+         "name": "Gross margin",
+         "ref": "A.grossMargin",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 35,
+       "max": 60,
+       "source": "Screener.in (100 − material cost % of revenue)"
+      },
+      {
+       "type": "line",
+       "title": "EBITDA margin: 17% at the FY23 trough, 24% now",
+       "unit": "EBITDA margin (%)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 30,
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** volume growth is the engine and it has been reliable (underlying volume growth of ~9-11% a year in FY25-26). The swing factor is the gross margin: Pidilite buys vinyl acetate monomer (VAM) and other petrochemicals at market prices and passes cost changes on with a lag. FY26's 24% EBITDA margin is the top of management's own 20-24% corridor, earned on cheap inputs. We do not assume it keeps rising."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: a strong quarter, helped by cheap inventory that management says will reverse",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q1FY27",
+       "Change"
+      ],
+      "rows": [
+       [
+        "Consolidated net sales",
+        "3,742",
+        "4,541",
+        "+21%"
+       ],
+       [
+        "Standalone net sales",
+        "3,467",
+        "4,237",
+        "+22%"
+       ],
+       [
+        "  Underlying volume growth (UVG)",
+        "9.9%",
+        "11.3%",
+        ""
+       ],
+       [
+        "  C&B revenue / UVG",
+        "+10.2% / 9.3%",
+        "+22.5% / 12.2%",
+        ""
+       ],
+       [
+        "  B2B revenue / UVG",
+        "+11.6% / 12.6%",
+        "+16.0% / 7.3%",
+        "Exports UVG −8.4%"
+       ],
+       [
+        "Standalone gross margin",
+        "53.4%",
+        "52.5%",
+        "−90bp"
+       ],
+       [
+        "Advertising & sales promotion (consolidated)",
+        "118",
+        "159",
+        "+35%"
+       ],
+       [
+        "Consolidated EBITDA",
+        "941",
+        "1,194",
+        "+27%"
+       ],
+       [
+        "EBITDA margin",
+        "25.1%",
+        "26.3%",
+        "+120bp"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net profit**",
+         "**678**",
+         "**884**",
+         "**+30%**"
+        ]
+       }
+      ],
+      "source": "Q1FY27 earnings presentation (4-Aug-2026); Q1FY26 presentation"
+     }
+    },
+    {
+     "bullets": [
+      "**Why margins rose despite inflation:** proactive pricing \"based on replacement margins\", carry-over of low-cost inventory and fewer trade schemes. All three partly reverse in Q2: \"That benefit will unravel in the second quarter because we have bought inventory or materials at higher prices than what prevailed today\" (CFO).",
+      "**Demand:** \"holding quite well\", with no visible price elasticity yet; the MD conceded a little upstocking was possible in a quarter of staggered price rises.",
+      "**Margin corridor:** 20-24% kept; the low end was retained because margins fell to the \"high teens\" in the last big inflation (FY22-23)."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (May-Aug 2026)",
+      "head": [
+       "When",
+       "Topic",
+       "What was said",
+       "Outcome so far"
+      ],
+      "wide": [
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "8-May-26",
+        "EBITDA margin",
+        "Corridor of 20-24% kept; FY26 delivered at the higher end on benign input costs; 'this year, with the raw material inflation, it will be different'",
+        "Q1FY27 26.3% consolidated, above the corridor"
+       ],
+       [
+        "8-May-26",
+        "UVG FY27",
+        "Aim to keep lifting UVG by ~100 bps a year, but 'too early' to guess FY27 given the conflict; 'there will be some demand compression' with this inflation",
+        "Q1FY27 UVG 11.3%"
+       ],
+       [
+        "8-May-26",
+        "Capex",
+        "3-5% of revenue; FY26 ~₹570 cr vs ₹430 cr; large premium white-glue plant in West India commissioning in Q1FY27",
+        "–"
+       ],
+       [
+        "8-May-26",
+        "Pricing",
+        "Blended price rise ~4-5% in April and ~7-8% in early May; Fevicol 12-15%; may have to pass back if costs cool",
+        "Rebates being considered (Aug-2026)"
+       ],
+       [
+        "5-Aug-26",
+        "Q2FY27 margin",
+        "Low-cost-inventory benefit 'will unravel in the second quarter'; look at a normalised H1",
+        "–"
+       ],
+       [
+        "5-Aug-26",
+        "Margin FY27",
+        "Could be 'middle to higher end of the band' if crude stays mid-80s and volatility eases - 'big if'",
+        "–"
+       ],
+       [
+        "5-Aug-26",
+        "Exports",
+        "Will come back as geopolitics normalise; some customers may have made alternate arrangements",
+        "–"
+       ]
+      ],
+      "source": "Pidilite earnings calls (8-May-2026, 5-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Why it matters:** Pidilite's guidance is a corridor, not a number, and its record is good: FY26 UVG of 11.1% and a 24% margin both met or beat what was said. The open question for FY27 is not demand but how much of the ~10% price stays once VAM has halved. We assume about three-quarters of it does for the year."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "A capital-light franchise: returns above 30%, cash piling up",
+   "blocks": [
+    {
+     "p": "Pidilite needs little capital. Over FY15-26 it generated ₹16,918 cr of operating cash, spent ₹4,554 cr on capex (about 3-4% of revenue) and paid ₹5,918 cr of dividends. The one big acquisition, Huntsman's Indian Araldite business (Nov-2020), added about ₹2,800 cr to the gross block and is the main reason ROCE fell from 33% in FY20 to 24-25% in FY22-23 (input-cost inflation did the rest). Returns have since recovered: ROCE was 31% and ROE 24% in FY26, against a cost of equity near 11%. Cash and investments rose to ₹4,649 cr at Mar-2026."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Cash from operations far exceeds capex",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: diluted by Araldite in FY21-23, back above 30%",
+       "unit": "Return on capital employed (%)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          32,
+          45,
+          39,
+          36,
+          33,
+          33,
+          28,
+          25,
+          24,
+          30,
+          30,
+          31
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 50,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY21-23",
+       "FY24-26",
+       "Six years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "3,905",
+        "7,839",
+        "11,744"
+       ],
+       [
+        "Capex",
+        "1,234",
+        "1,604",
+        "2,838"
+       ],
+       [
+        "Dividends paid (FY26 incl. the ₹509 cr special)",
+        "941",
+        "2,899",
+        "3,840"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over**",
+         "**1,730**",
+         "**3,336**",
+         "**5,066**"
+        ]
+       },
+       [
+        "Memo: cash and investments at the end",
+        "{{A.cashAndInvestments.8|num}}",
+        "{{A.cashAndInvestments.11|num}}",
+        ""
+       ]
+      ],
+      "source": "Screener.in cash flow (consolidated). The Huntsman payment in FY21 sits in other investing flows, so it is not in the \"left over\" line."
+     }
+    },
+    {
+     "callout": "**The capital question:** with capex at 3-5% of revenue (management) and a 50% payout, Pidilite will keep adding ~₹1,000-1,400 cr of net cash a year on our forecasts. Management talks of \"pioneering\" uses (electronics adhesives, paints, Unofin) and of partnerships, not of buybacks. Large acquisitions have been rare and mostly in its own categories; a big diversifying deal is the main capital-allocation risk."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean, cash-backed and simple",
+   "blocks": [
+    {
+     "bullets": [
+      "**Cash backs profit.** Operating cash flow was 114% of net profit in FY26, 109% in FY25 and 156% in FY24; over FY15-26 cash from operations (₹16,918 cr) exceeded net profit (₹15,136 cr).",
+      "**Few one-offs.** Exceptional items were −₹14 cr in FY26, −₹25 cr in FY25 and −₹72 cr in FY24. FY26 costs include a ₹80 cr New Labour Code charge (consolidated), so the underlying FY26 margin was ~0.5pp higher; Q4FY26 staff costs were helped by reversing a ~₹20 cr discretionary-benefit provision.",
+      "**Other income is small.** ₹248 cr in FY26, 7% of pre-tax profit; it fell in Q4FY26 on mark-to-market losses on bonds and rebounded in Q1FY27.",
+      "**Revenue recognition.** The auditor's key audit matter is revenue measured net of trade discounts and schemes (variable consideration) - the line that will move if Pidilite passes back price through rebates.",
+      "**Related party.** Purchases from Vinyl Chemicals (India), an associate with promoter director A B Parekh on its board, were ₹558 cr in FY26 (₹570 cr in FY25). Disclosed every year; we cannot test the pricing.",
+      "**Disclosure.** Good on segments (annual allocable depreciation) and volumes (UVG every quarter); no brand-level revenue or tonnage; quarterly segment data in the decks are standalone only."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: GREEN.** Unqualified audit (B S R & Co. LLP), strong cash conversion, minor one-offs and a simple balance sheet. The things to watch are scheme and rebate accounting as prices fall back, and the size of related-party purchases."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash of ~₹4,200 cr and suppliers fund most of the working capital",
+   "blocks": [
+    {
+     "p": "Pidilite has almost no debt: ₹417 cr of borrowings (mostly leases and subsidiaries' lines) at Mar-2026 against ₹4,649 cr of cash and investments; CRISIL counts an unencumbered surplus of over ₹3,920 cr and rates it AAA. Working capital is tight: inventory of ~98 days and receivables of ~55 days are largely funded by ~86 days of payables, so net working-capital days were only ~18 in FY26. Receivable days did rise from 50 to 55 in FY26, and in May-2026 the CFO said Pidilite was carrying \"much higher than normal covers\" of critical raw materials such as VAM, so inventory is likely to run higher during FY27."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Working-capital days: inventory and payables both high",
+       "unit": "Days (of revenue)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          88,
+          89,
+          100,
+          102,
+          95,
+          100,
+          133,
+          114,
+          98,
+          86,
+          103,
+          98
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          44,
+          48,
+          50,
+          56,
+          54,
+          54,
+          66,
+          53,
+          47,
+          49,
+          50,
+          55
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          45,
+          53,
+          54,
+          69,
+          59,
+          67,
+          109,
+          70,
+          57,
+          70,
+          85,
+          86
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Cash and investments rebuilt after the Araldite deal",
+       "unit": "Cash and investments (₹ crore)",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash and investments",
+         "ref": "A.cashAndInvestments",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and investments",
+        "{{A.cashAndInvestments.7|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "Net fixed assets (incl. Araldite intangibles)",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.7|num}}",
+        "{{A.inventories.9|num}}",
+        "{{A.inventories.10|num}}",
+        "{{A.inventories.11|num}}"
+       ],
+       [
+        "Trade receivables",
+        "{{A.receivables.7|num}}",
+        "{{A.receivables.9|num}}",
+        "{{A.receivables.10|num}}",
+        "{{A.receivables.11|num}}"
+       ],
+       [
+        "Trade payables",
+        "{{A.payables.7|num}}",
+        "{{A.payables.9|num}}",
+        "{{A.payables.10|num}}",
+        "{{A.payables.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated), GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: the Parekh family at 69%, a thin free float",
+   "blocks": [
+    {
+     "p": "The Parekh family owns 69.24% (Jun-2026), held through family members, four partnership firms, family companies and trusts, with no pledge. Foreign investors own 11.69%, Indian institutions 9.81% (mutual funds 4.33%) and the public 9.18%. The number of shareholders was ~510,000 at Jun-2026, against ~276,000 at Mar-2021."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Foreign funds ~12%, Indian institutions creeping up to ~10%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoters steady near 69%",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 50,
+       "max": 75,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest promoter holding vehicles (31-Mar-2026)",
+      "head": [
+       "Holder",
+       "Stake",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Triveni Corporations (M B Parekh, partner)",
+        "9.42%",
+        "Partnership firm (promoter group)"
+       ],
+       [
+        "J. Ben & Co. (N K Parekh, partner)",
+        "8.53%",
+        "Partnership firm (promoter group)"
+       ],
+       [
+        "PBS Business Corporation (A B Parekh, partner)",
+        "7.43%",
+        "Partnership firm (promoter group)"
+       ],
+       [
+        "Kalva Commercial Company (Mrudula Parekh, partner)",
+        "7.17%",
+        "Partnership firm (promoter group)"
+       ],
+       [
+        "Devkalyan Sales Pvt Ltd",
+        "5.15%",
+        "Family company (promoter group)"
+       ],
+       [
+        "Ishijas Chemicals Pvt Ltd",
+        "4.96%",
+        "Family company (promoter group)"
+       ],
+       [
+        "Harton Pvt Ltd",
+        "2.43%",
+        "Family company (promoter group)"
+       ],
+       [
+        "The Vacuum Forming Company Pvt Ltd",
+        "2.43%",
+        "Family company (promoter group)"
+       ],
+       [
+        "Pidichem Pvt Ltd",
+        "1.75%",
+        "Family company (promoter group)"
+       ],
+       [
+        "All promoters (Jun-2026)",
+        "69.24%",
+        "Nil pledged"
+       ],
+       [
+        "Foreign portfolio investors (Jun-2026)",
+        "11.69%",
+        ""
+       ],
+       [
+        "Mutual funds (Jun-2026)",
+        "4.33%",
+        ""
+       ]
+      ],
+      "source": "AR FY26 note 20 (promoter vehicles at 31-Mar-2026); BSE shareholding pattern for Jun-2026 via Screener.in and the Q1FY27 deck. Named institutional holders at Jun-2026 were not available to us."
+     }
+    },
+    {
+     "callout": "**Our read:** a stable, unpledged family owner with a professional management team. The free float is only ~31% and Indian funds own little (mutual funds 4.3%), so index flows and foreign funds drive the stock."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: family-controlled, professionally run, with one related-party habit to watch",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "M B Parekh",
+        "Executive Chairman",
+        "Promoter family; pay 43x median employee (FY26)"
+       ],
+       [
+        "A N Parekh",
+        "Executive Vice Chairman",
+        "Promoter family; pay 105x median"
+       ],
+       [
+        "A B Parekh",
+        "Non-Executive Vice Chairman",
+        "Promoter family"
+       ],
+       [
+        "Sudhanshu Vats",
+        "Managing Director (since 10-Apr-2025)",
+        "Pay 120x median; ex-FMCG executive"
+       ],
+       [
+        "Kavinder Singh",
+        "Joint Managing Director",
+        "Pay 97x median; leads growth categories and projects (Pidilite Professional Solutions)"
+       ],
+       [
+        "Sandeep Batra",
+        "Executive Director - Finance & CFO",
+        "Pay 58x median"
+       ],
+       [
+        "Bharat Puri",
+        "Non-Executive Non-Independent Director",
+        "MD 2015 to 9-Apr-2025"
+       ],
+       [
+        "Swaminathan K",
+        "Director - Operations (from 1-Aug-2025)",
+        ""
+       ]
+      ],
+      "source": "AR FY26 (Annexure 5 and board report); Q1FY27 call"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "B S R & Co. LLP; unqualified; detailed segment and related-party notes.",
+       "No accounting red flags."
+      ],
+      [
+       "Promoter and pledge",
+       "Strong",
+       "69% held by the Parekh family, nil pledged; holding stable for a decade.",
+       "Aligned, patient owner."
+      ],
+      [
+       "Professional management",
+       "Strong",
+       "Outside MDs since 2015 (Bharat Puri, then Sudhanshu Vats from Apr-2025) with Kavinder Singh as JMD; smooth handover.",
+       "Not dependent on one family member."
+      ],
+      [
+       "Board",
+       "Moderate",
+       "About half independent (CRISIL); three Parekh family directors, two executive.",
+       "Adequate."
+      ],
+      [
+       "Pay",
+       "Moderate",
+       "MD 120x, Executive Vice Chairman 105x, JMD 97x the median employee in FY26; rises of 9-13% in a year profit grew 18%.",
+       "High in absolute terms, in line with results."
+      ],
+      [
+       "Related parties",
+       "Watch",
+       "Purchases of ₹558 cr from associate Vinyl Chemicals (India), where a promoter director sits on the board.",
+       "Disclosed; size matters."
+      ],
+      [
+       "Capital allocation",
+       "Moderate",
+       "Disciplined capex (3-5% of revenue), Araldite deal earned back; cash pile growing with no buyback.",
+       "Idle cash dilutes ROE."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: FY27 boosted by price, then ~11% growth; EPS ~14% a year",
+   "blocks": [
+    {
+     "p": "We forecast revenue and segment EBITDA for C&B and B2B on the consolidated segment basis (net of inter-segment sales), then deduct corporate costs that are not allocated to segments (~6% of revenue in FY26). Capex follows management's 3-5% of revenue; other income is 7% on net cash; tax 25.5%; payout 50%. Every assumption, with our reasoning, is in the Excel model's Assumptions sheet, which recalculates this report's target price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Segment forecasts (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       {
+        "sec": "Consumer & Bazaar"
+       },
+       [
+        "Revenue",
+        "11,505",
+        "{{F.seg.cb.revenue.0|num}}",
+        "{{F.seg.cb.revenue.1|num}}",
+        "{{F.seg.cb.revenue.2|num}}"
+       ],
+       [
+        "Segment EBITDA",
+        "3,792",
+        "{{F.seg.cb.adjEbitda.0|num}}",
+        "{{F.seg.cb.adjEbitda.1|num}}",
+        "{{F.seg.cb.adjEbitda.2|num}}"
+       ],
+       [
+        "Margin",
+        "33.0%",
+        "32.2%",
+        "32.4%",
+        "32.4%"
+       ],
+       {
+        "sec": "Business to Business"
+       },
+       [
+        "Revenue",
+        "3,036",
+        "{{F.seg.b2b.revenue.0|num}}",
+        "{{F.seg.b2b.revenue.1|num}}",
+        "{{F.seg.b2b.revenue.2|num}}"
+       ],
+       [
+        "Segment EBITDA",
+        "609",
+        "{{F.seg.b2b.adjEbitda.0|num}}",
+        "{{F.seg.b2b.adjEbitda.1|num}}",
+        "{{F.seg.b2b.adjEbitda.2|num}}"
+       ],
+       [
+        "Margin",
+        "20.1%",
+        "19.5%",
+        "20%",
+        "20%"
+       ],
+       [
+        "Others: revenue",
+        "61",
+        "{{F.seg.oth.revenue.0|num}}",
+        "{{F.seg.oth.revenue.1|num}}",
+        "{{F.seg.oth.revenue.2|num}}"
+       ],
+       [
+        "Corporate costs not allocated",
+        "−871",
+        "{{F.unalloc.0|num}}",
+        "{{F.unalloc.1|num}}",
+        "{{F.unalloc.2|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Group EBITDA**",
+         "**3,521**",
+         "**{{F.ebitda.0|num}}**",
+         "**{{F.ebitda.1|num}}**",
+         "**{{F.ebitda.2|num}}**"
+        ]
+       }
+      ],
+      "source": "AR FY26 note 46 (FY26), GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "Group P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "Cash & investments (forecasts net of debt)",
+        "ref": "fin.treasury"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates. Cash is gross in actual years and net of borrowings (~₹420 cr) in forecasts."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E"
+      ],
+      "rows": [
+       [
+        "EPS (₹), Prabhudas Lilladher (5-Aug-26)",
+        "{{F.eps.0|n1}}",
+        "28.3",
+        "{{F.eps.1|n1}}",
+        "33.4"
+       ],
+       [
+        "EPS (₹), Motilal Oswal (5-Aug-26)*",
+        "{{F.eps.0|n1}}",
+        "29.3",
+        "{{F.eps.1|n1}}",
+        "33.2"
+       ],
+       [
+        "EPS (₹), consensus of 21 (7-Aug-26)",
+        "{{F.eps.0|n1}}",
+        "28.2",
+        "{{F.eps.1|n1}}",
+        "n.a."
+       ],
+       [
+        "Revenue (₹ cr), Prabhudas Lilladher",
+        "{{F.sales.0|num}}",
+        "17,063",
+        "{{F.sales.1|num}}",
+        "19,272"
+       ],
+       [
+        "Revenue (₹ cr), Motilal Oswal",
+        "{{F.sales.0|num}}",
+        "17,170",
+        "{{F.sales.1|num}}",
+        "19,150"
+       ],
+       [
+        "EBITDA margin, Prabhudas Lilladher / Motilal Oswal",
+        "{{F.ebitdaMargin.0|pct}}",
+        "23.5% / 24.1%",
+        "{{F.ebitdaMargin.1|pct}}",
+        "24.3% / 24.4%"
+       ]
+      ],
+      "source": "PL Q1FY27 note (PDF); DSIJ summary of the MOSL note; Simply Wall St consensus. * MOSL EPS = its PAT estimate ÷ 101.78 cr shares (GAM)."
+     }
+    },
+    {
+     "callout": "We are 2-5% below the two brokers for FY27 and ~5% below for FY28. Revenue is close; the gap is the margin: we hold EBITDA margin near 23.6-23.9% while the brokers take it to 24.3-24.4% in FY28. Our EPS still compounds ~14% a year over FY26-29E."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: mostly positive, with targets bunched around ₹1,700-1,900",
+   "blocks": [
+    {
+     "p": "Four houses published after Q1FY27 (Aug-Sep 2026): Prabhudas Lilladher Accumulate ₹1,739 (downgraded from Buy), Motilal Oswal Neutral ₹1,700, Jefferies Hold ₹1,730 and Axis Capital Buy ₹1,800, an average of ~₹1,742. In July HSBC initiated at Buy (₹1,890) and Macquarie kept Sell (₹1,350). Older calls from May still standing include Goldman Sachs Buy ₹1,700 and BofA Underperform ₹1,475. A consensus of 21 analysts on 7-Aug-26 had an average target of ₹1,741 (range ₹1,400-2,065) and FY27E EPS of ₹28.2, up from ₹26.3 before the results. The two notes with a method both use **50x P/E** on FY28E or Jun-28E earnings. Bulls focus on volume acceleration and growth categories; bears and neutrals on peak margins and valuation."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "At ~46x our FY28E EPS the stock prices in two decades of mid-teens growth; a DCF at an 11.3% cost of equity supports only ~60% of the price",
+        "GAM Research"
+       ],
+       [
+        "Margins are near a cyclical peak: consolidated EBITDA margin 24% in FY26 and 26% in Q1FY27, above the middle of the 20-24% corridor",
+        "Prabhudas Lilladher (Aug-2026); Motilal Oswal (Aug-2026); CRISIL expects 20-23%"
+       ],
+       [
+        "Q1FY27's 21% growth was half price; some channel upstocking in a quarter of staggered price rises was possible ('Perhaps yes')",
+        "MD on the Q1FY27 call; CRISIL ('equal mix of volume and realisations')"
+       ],
+       [
+        "Prices may have to be given back as VAM falls ~50% from its peak",
+        "MD and CFO (May and Aug-2026)"
+       ],
+       [
+        "New competition in tile adhesives (cement and tile makers) and a rival's captive VAM",
+        "Nuvama and Kotak analysts on the Q1FY27 call"
+       ],
+       [
+        "B2B exports and pigments remain weak and volatile",
+        "CRISIL (Sep-2026); company decks"
+       ],
+       [
+        "Pioneer bets (paints in bigger towns, Unofin) have not yet found a 'right to win'",
+        "MD (May and Aug-2026)"
+       ],
+       [
+        "Bulls: UVG accelerating to 11-15%, waterproofing and tile adhesives under-penetrated, operating leverage, net cash",
+        "HSBC (initiated Buy, Jul-2026); Axis Capital (Buy); Goldman Sachs (Buy, May-2026)"
+       ]
+      ],
+      "source": "Broker notes, earnings calls, CRISIL and filings to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 45x Sep-28E earnings gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values Pidilite Industries"
+    },
+    {
+     "p": "The brokers that disclose a method value Pidilite on **P/E**: Motilal Oswal 50x FY28E EPS and Prabhudas Lilladher 50x Jun-28E EPS (it moved from a DCF in August). We use the same method so our target is comparable, applied to the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). The \"At our EPS\" column applies each broker's multiple to our EPS for its year: the gap to the street is split between our lower FY28 earnings and our lower multiple."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Motilal Oswal (5-Aug-26)",
+        "Neutral",
+        "1,700",
+        "P/E",
+        "50x",
+        "FY28E EPS",
+        "1,580",
+        "Market leader, better placed to handle inflation; input costs may moderate FY27 margins from 24%+; EPS raised 4-5%"
+       ],
+       [
+        "Prabhudas Lilladher (5-Aug-26)",
+        "Accumulate",
+        "1,739",
+        "P/E",
+        "50x",
+        "Jun-28E EPS",
+        "1,633",
+        "Demand outlook positive; 18% EPS CAGR FY26-28E; margin expansion constrained by 'cyclical peak margins'; downgraded from Buy, moved from DCF to 50x Jun-28E"
+       ],
+       [
+        "Jefferies (19-Aug-26)",
+        "Hold",
+        "1,730",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Target raised from ₹1,610 (Hold kept); method not seen"
+       ],
+       [
+        "Axis Capital (23-Sep-26)",
+        "Buy",
+        "1,800",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Target cut from ₹1,850 (Buy kept); method not seen"
+       ],
+       [
+        "Macquarie (17-Jul-26)",
+        "Sell",
+        "1,350",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Sell kept, target ₹1,350 (from ₹1,250); method not seen"
+       ],
+       [
+        "HSBC (15-Jul-26)",
+        "Buy",
+        "1,890",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Initiation at Buy; method not seen"
+       ],
+       [
+        "Goldman Sachs (11-May-26)",
+        "Buy",
+        "1,700",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Buy kept after Q4FY26"
+       ],
+       [
+        "BofA Securities (10-May-26)",
+        "Underperform",
+        "1,475",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Underperform kept after Q4FY26, target raised"
+       ],
+       [
+        "Geojit BNP Paribas (26-May-26)",
+        "Buy",
+        "1,647",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Post-Q4FY26 note"
+       ],
+       [
+        "FundsIndia (29-May-26)",
+        "Buy",
+        "1,761",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Post-Q4FY26 note"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**HOLD**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**45x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Great franchise; FY27 growth is price; fair value near the price"
+        ]
+       }
+      ],
+      "source": "PL note (PDF); MOSL via DSIJ; Jefferies, Axis Capital, Macquarie via Investing.com; HSBC via MarketScreener; Goldman Sachs and BofA via ScanX; Geojit and FundsIndia via Trendlyne. n.d. = method not disclosed in the sources we saw"
+     }
+    },
+    {
+     "h": "Our target multiple: 45x, and why"
+    },
+    {
+     "p": "We start from the stock's own one-year-forward P/E since April 2021, adjust for how far comparable consumer and building-material stocks had de-rated by 30-Sep-2026, and then check growth, peers and returns."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Its own history",
+        "One-year-forward P/E: median 63.6x since Apr-2021 (25th-75th percentile 54.8-72.8x; peak 109x in 2021); 58.5x since 2016; 53.1x over the last two years; 46.4x on 30-Sep-2026 on our FY28E",
+        "Starting point: 64x"
+       ],
+       [
+        "2. Sector de-rating",
+        "On 30-Sep-2026 six comparable stocks traded below their five-year median P/E: Asian Paints −24%, Berger Paints −27%, Kansai Nerolac −44%, Astral −29%, Hindustan Unilever −26%, Titan −19% (median −27%); Pidilite itself −35%",
+        "64x × 0.73 ≈ 46.7x"
+       ],
+       [
+        "3. Growth",
+        "EPS grew 17% a year in FY21-26; we forecast ~14% for FY26-29E, with FY27 helped by price and margins already near the top of the corridor",
+        "A further ~4% discount: **45x**"
+       ],
+       [
+        "4. Peers",
+        "Trailing P/E: Asian Paints 47.3x, Berger 43.2x, Hindustan Unilever 40.0x, Astral 62.2x, Titan 69.8x; Pidilite 56.4x",
+        "45x Sep-28E = 48.0x our FY28E: a premium to paints and HUL, below Astral and Titan"
+       ],
+       [
+        "5. Returns",
+        "ROE 24.0% and ROCE ~31% in FY26 against an 11.3% cost of equity",
+        "Supports a premium to the market, not a re-rating"
+       ],
+       [
+        "6. What the price implies",
+        "43.5x Sep-28E EPS. A DCF only reaches ~₹1,260 even with a 10.3% cost of capital and 7.0% terminal growth",
+        "The price already assumes very long, high growth"
+       ]
+      ],
+      "source": "Screener.in (P/E history to 30-Sep-2026), broker notes, GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "One-year-forward P/E: our 45x vs history",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2016-04-08",
+        "2016-05-13",
+        "2016-06-17",
+        "2016-07-22",
+        "2016-08-26",
+        "2016-09-30",
+        "2016-11-04",
+        "2016-12-09",
+        "2017-01-13",
+        "2017-02-17",
+        "2017-03-24",
+        "2017-04-28",
+        "2017-06-02",
+        "2017-07-07",
+        "2017-08-11",
+        "2017-09-15",
+        "2017-10-19",
+        "2017-11-24",
+        "2017-12-29",
+        "2018-02-02",
+        "2018-03-09",
+        "2018-04-13",
+        "2018-05-18",
+        "2018-06-22",
+        "2018-07-27",
+        "2018-08-31",
+        "2018-10-05",
+        "2018-11-09",
+        "2018-12-14",
+        "2019-01-18",
+        "2019-02-22",
+        "2019-03-29",
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward multiple",
+         "values": [
+          31.5,
+          32,
+          37,
+          38.6,
+          36.2,
+          35.9,
+          36.6,
+          33.8,
+          33.8,
+          36.1,
+          36.3,
+          39.5,
+          43.5,
+          44.6,
+          43.4,
+          46.1,
+          44,
+          46.3,
+          49.6,
+          47.4,
+          48.3,
+          46.6,
+          49.2,
+          47.8,
+          51.3,
+          53.2,
+          44,
+          47.4,
+          53.1,
+          52.3,
+          49,
+          56.7,
+          54,
+          56.4,
+          53.2,
+          61.5,
+          63.3,
+          60.7,
+          58.5,
+          62.8,
+          70,
+          68.5,
+          61.9,
+          58.8,
+          58.4,
+          57.1,
+          60.4,
+          62,
+          66.5,
+          72.9,
+          73,
+          71,
+          72.8,
+          72.5,
+          84.5,
+          89.6,
+          90.5,
+          97.9,
+          92.4,
+          88.2,
+          108.8,
+          97.1,
+          100.3,
+          71.4,
+          63.6,
+          63.5,
+          77.7,
+          83.7,
+          77.1,
+          79.4,
+          73.2,
+          67.4,
+          68.2,
+          57.1,
+          63.4,
+          66.1,
+          65.2,
+          61.9,
+          59.8,
+          60.2,
+          62.8,
+          67,
+          66.4,
+          72.5,
+          62,
+          61.7,
+          64.4,
+          65.1,
+          68.8,
+          66.2,
+          61.4,
+          60.6,
+          61.2,
+          57.2,
+          53.1,
+          55.6,
+          53.1,
+          51.9,
+          54.8,
+          53.5,
+          52.3,
+          53.1,
+          53.1,
+          52.7,
+          47.3,
+          43.5,
+          46.7,
+          50.6,
+          53.6,
+          49.8
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 64,
+         "text": "Median since 2021: 64x"
+        },
+        {
+         "v": 45,
+         "text": "Our target: 45x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual earnings, GAM estimates for forecast years"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Share price today"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          1517,
+          1509,
+          866,
+          1465.1
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "EPS Sep-28E ₹33.7",
+        "45x (bull 55x, bear 40x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "EBITDA Sep-28E ₹4,769 cr",
+        "31x (bull 37x, bear 26x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "-1%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-43%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA (31x Sep-28E EBITDA of ₹4,769 cr plus net cash) gives ₹1,509, in line with the P/E target: 31x comes from Pidilite's 55.8x median trailing EV/EBITDA since 2021, cut by the same sector de-rating and restated for Sep-28E EBITDA being 27% above the twelve months to Jun-26 (₹3,769 cr). The DCF (₹866) is far lower. At an 11.3% cost of equity and 6% terminal growth, even revenue growth fading only slowly from ~12% to 9% over 15 years supports ~60% of today's price. Pidilite has always looked expensive on a DCF; the multiple reflects how rare and durable its growth has been. But it means the stock needs growth to stay high for very long just to earn its cost of capital."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple 55x (its 25th-percentile forward P/E since 2021)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "C&B {{as.segments.0.growth.0|chg}} / +11% / +12%, B2B {{as.segments.1.growth.0|chg}} / +10% / +11% (FY27-29E); EBITDA margin {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 45x Sep-28E EPS."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple 40x (its 10th-percentile forward P/E since 2016)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed peers: building materials and consumer compounders",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "vs 5-yr median P/E",
+       "EV/EBITDA (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Pidilite**",
+        "1,49,250",
+        "14,601",
+        "24.1%",
+        "56.4",
+        "−35%",
+        "36.9",
+        "24%"
+       ],
+       [
+        "Asian Paints",
+        "2,30,426",
+        "35,584",
+        "18.8%",
+        "47.3",
+        "−24%",
+        "28.5",
+        "21.6%"
+       ],
+       [
+        "Berger Paints",
+        "53,106",
+        "11,880",
+        "15.4%",
+        "43.2",
+        "−27%",
+        "25.6",
+        "17.3%"
+       ],
+       [
+        "Kansai Nerolac",
+        "14,372",
+        "8,052",
+        "12.1%",
+        "22.4",
+        "−44%",
+        "12.6",
+        "8.8%"
+       ],
+       [
+        "Astral",
+        "36,816",
+        "6,569",
+        "16.2%",
+        "62.2",
+        "−29%",
+        "31.1",
+        "13.9%"
+       ],
+       [
+        "Hindustan Unilever",
+        "4,41,556",
+        "64,468",
+        "23.3%",
+        "40.0",
+        "−26%",
+        "27.4",
+        "30.7%"
+       ],
+       [
+        "Titan",
+        "4,07,199",
+        "87,584",
+        "9.5%",
+        "69.8",
+        "−19%",
+        "43.3",
+        "37.1%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: buy the franchise on weakness, not at 46x FY28E",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's dominant adhesives brand and the leader in waterproofing and tile adhesives, with a distribution reach rivals cannot easily copy, volume growth of 10%+ a year, a 24.0% ROE, net cash of ~₹4,200 cr and a professional management team."
+    },
+    {
+     "callout": "**What you are paying:** 52.7x our FY27E and 46.4x FY28E EPS, for ~14% EPS growth that includes a one-off price boost in FY27 and margins at the top of the company's own range. On the street's method and our inputs the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): a HOLD."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹1,320 (BUY on our rule)",
+        "Medium",
+        "Share price around the Q2FY27 results"
+       ],
+       [
+        "UVG holds at 11%+ after prices stop rising, without heavy rebates",
+        "Medium",
+        "UVG and gross margin each quarter"
+       ],
+       [
+        "Margins hold near 24% as VAM falls (price kept)",
+        "Medium",
+        "Gross margin vs VAM; rebate commentary"
+       ],
+       [
+        "A pioneer category (electronics, Unofin, paints) reaches scale",
+        "Low",
+        "Management disclosure of ₹100 cr+ categories"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "A renewed VAM/crude spike from the West Asia conflict",
+        "Medium",
+        "Margins back toward 20-21%; EPS 10-15% below our estimate"
+       ],
+       [
+        "Price give-backs faster than input relief; demand compression from industry-wide price rises",
+        "Medium",
+        "FY27-28 revenue growth in single digits"
+       ],
+       [
+        "New entrants take share in tile adhesives and waterproofing",
+        "Medium",
+        "Growth categories slow to 1-2x GDP"
+       ],
+       [
+        "A large, diversifying acquisition with the cash",
+        "Low",
+        "Lower returns; CRISIL's downgrade trigger is gearing above 0.3x"
+       ],
+       [
+        "De-rating of consumer stocks continues",
+        "Medium",
+        "At 40x Sep-28E (bear multiple) on our EPS the stock is worth ~₹1,350"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: HOLD, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would turn buyers below ~₹1,320** and sellers above ~₹1,600 on today's numbers, or sooner if FY28 earnings visibility improves (UVG 11%+ with margins near 24% after price laps).",
+      "**Biggest swing factor:** the gross margin. Each 1pp of EBITDA margin is ~4% of our EPS; the width of the 20-24% corridor is worth ~₹260 a share at our multiple."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Underlying volume growth, FY26",
+        "v": "11.1%",
+        "d": "Q1FY27 11.3%, C&B 12.2%"
+       },
+       {
+        "k": "Q1FY27 revenue growth",
+        "v": "+21%",
+        "d": "about half price"
+       },
+       {
+        "k": "C&B segment EBITDA margin, FY26",
+        "v": "33.0%",
+        "d": "23.4% in FY23"
+       },
+       {
+        "k": "Price ÷ our FY28E EPS",
+        "v": "46.4x",
+        "d": "median since 2021: 64x (forward)"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY15–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 12
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 200
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹, bonus-adjusted)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "C&B (Consumer & Bazaar)",
+        "Pidilite's branded products sold to households and, through dealers (\"bazaar\"), to tradesmen such as carpenters, plumbers and masons."
+       ],
+       [
+        "B2B (Business to Business)",
+        "Industrial adhesives, resins, project construction chemicals and pigments sold to other companies."
+       ],
+       [
+        "UVG (underlying volume growth)",
+        "Pidilite's measure of growth at constant prices, including product mix. Tonnage growth is higher, because cheaper products (e.g. tile adhesives) grow faster."
+       ],
+       [
+        "VAM (vinyl acetate monomer)",
+        "A petrochemical used to make the polymer in white glue (Fevicol); under 10% of Pidilite's raw materials in FY26 but the most volatile."
+       ],
+       [
+        "Gross margin",
+        "Revenue less raw-material cost, as % of revenue."
+       ],
+       [
+        "EBITDA / segment EBITDA",
+        "Operating profit before depreciation, interest and tax. Segment EBITDA here = the segment result reported by the company plus the depreciation it allocates to that segment."
+       ],
+       [
+        "A&SP",
+        "Advertising and sales promotion spending."
+       ],
+       [
+        "Core / growth / pioneer",
+        "Management's portfolio buckets: established brands (1-2x GDP growth), emerging categories (2-4x GDP) and new bets (target ₹100 cr revenue in three years)."
+       ],
+       [
+        "Rurban",
+        "Rural and very small towns."
+       ],
+       [
+        "Bonus issue",
+        "Free shares to existing holders (1:1 in Sep-2025): the share count doubles and the price halves; nothing else changes."
+       ],
+       [
+        "P/E, EV/EBITDA",
+        "Share price ÷ earnings per share; enterprise value (market value less net cash) ÷ EBITDA."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, as Pidilite has no net debt)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "ebitdaMargin@FY16": "+600bp: input costs fell with crude; gross margin 45% → 52%.",
+  "ebitdaMargin@FY19": "−270bp: VAM and other inputs rose; gross margin 52.5% → 49.3%.",
+  "sales@FY19": "+16.5%: strong demand; gross margin fell as input costs rose.",
+  "sales@FY21": "Flat: Covid lockdown in Q1FY21, then a sharp recovery; Araldite (Huntsman) consolidated from Nov-2020.",
+  "sales@FY22": "+36%: demand rebound, full year of Araldite, and price rises as inputs spiked.",
+  "ebitdaMargin@FY22": "−440bp: raw-material inflation (VAM peak); gross margin 53.7% → 45.1%.",
+  "sales@FY23": "+19%: price rises to pass on input inflation plus volume growth (split not collected).",
+  "ebitdaMargin@FY23": "−190bp: gross margin trough of 42.7%.",
+  "sales@FY24": "+5%: prices cut as input costs fell, so value growth lagged volumes.",
+  "ebitdaMargin@FY24": "+510bp: gross margin back to 51.6% on cheaper inputs.",
+  "pat@FY24": "+36%: margin recovery; includes −₹72 cr exceptional items.",
+  "otherIncome@FY25": "+250%: income on a cash pile that rose to ₹3,887 cr.",
+  "sales@FY26": "+11%: UVG 11.1%; little price.",
+  "ebitdaMargin@FY26": "+120bp to a record 24.1% despite an ₹80 cr Labour Code charge.",
+  "cfo@FY22": "Down 31%: inventory built up as input prices rose.",
+  "sales@Q4FY26": "+14%: UVG 15.3%, the fastest in years; exports hit from March by the West Asia conflict.",
+  "sales@Q1FY27": "+21%: UVG 11.3% plus price rises of ~4-5% (Apr) and ~7-8% (May).",
+  "opm@Q1FY27": "26%: low-cost VAM inventory, price rises and fewer schemes; management expects Q2 to give some back.",
+  "pat@Q4FY24": "Includes −₹72 cr exceptional items before tax.",
+  "sales@FY27E": "GAM: UVG ~10.5% plus ~7% price and mix after rebates.",
+  "ebitdaMargin@FY27E": "GAM: below FY26 as high-cost inventory and rebates offset Q1's 26%.",
+  "sales@FY28E": "GAM: price laps; growth back to ~11% (volume)."
+ }
+}

@@ -1,0 +1,257 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Coromandel International (consolidated, ₹ crore). Segment-driven: Nutrient & allied and Crop protection each grow revenue and earn an EBITDA margin (segment PBIT + segment D&A, excluding impairments). A third line removes inter-segment sales. Group EBITDA = sum of segments less central costs (Screener basis, excluding other income). Valued on P/E, as the street does. Engine workaround: the tax line also carries minorities and a share-count true-up (see _taxWhy).",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "nut",
+   "name": "Nutrient & allied",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 27726.87,
+   "growth": [
+    10,
+    8,
+    7
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    9.2,
+    11,
+    11.2
+   ],
+   "hist": {
+    "driver": "nutRev",
+    "revenue": "nutRev",
+    "adjEbitda": "nutEbitda"
+   },
+   "_why": "FY27: Q1 revenue +9% (prices up 25-30% across grades, DAP+NPK volumes -9% as production was cut to 72% utilisation); rabi demand at risk after a monsoon at 87% of normal (south peninsula 76%) and low southern reservoirs, and imported DAP limited: +10%. FY28 +8%: the 7.5 lakh t granulation train (commissioning Q4FY27) adds volume while prices ease if Middle East supply normalises. FY29 +7%: volume growth from the expanded Kakinada complex and SSP/specialty nutrients.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin 14.1% (FY20), 14.8% (FY21), 11.4% (FY22), 10.1% (FY23), 11.8% (FY24), 11.5% (FY25), 10.8% (FY26). Q1FY27 PBIT margin 6.9% vs 9.9% a year earlier as ammonia, sulphur and phosphoric acid ($1,700/t for Q2 vs $1,360) outran a 10% NBS increase. FY27 9.2% assumes only partial relief in H2. FY28 11.0% and FY29 11.2%: own sulphuric/phosphoric acid (60% of needs), Senegal rock and granulation volumes lift EBITDA/t towards ~₹5,500-6,000 (management target ₹6,500), but subsidy policy and reasonable-margin guidelines cap the upside: still below FY24-25 margins on today's higher price base."
+  },
+  {
+   "key": "cp",
+   "name": "Crop protection",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 3968.25,
+   "growth": [
+    30,
+    14,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    15.5,
+    16,
+    16.5
+   ],
+   "hist": {
+    "driver": "cpRev",
+    "revenue": "cpRev",
+    "adjEbitda": "cpEbitda"
+   },
+   "_why": "FY27 +30%: a full year of NACL (consolidated from 8-Aug-2025; FY26 NACL revenue ₹1,585 cr, of which ₹923 cr consolidated) plus standalone growth of ~18% (Q1 +20%; guidance 20-25%; 20,000 t mancozeb expansion at Sarigam). FY28 +14% (standalone ~17%, NACL ~5%); FY29 +12%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin 15.3-18.7% (FY20-21), 14.0-16.5% (FY22-25), 14.8% in FY26 with NACL's low-margin months and acquisition amortisation-free EBITDA. Standalone PBIT margin ~19% (FY26) and 18% in Q1FY27; NACL EBITDA margin 11% in Q1FY27 ('reasonable level' without new products). Mix-weighted 15.5% / 16.0% / 16.5% as NACL slowly improves."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-segment eliminations",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": -215.58,
+   "growth": [
+    10,
+    10,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elimRev",
+    "revenue": "elimRev",
+    "adjEbitda": "elimEbitda"
+   },
+   "_why": "Sales between the segments removed on consolidation: ₹174 cr (FY24), ₹204 cr (FY25), ₹216 cr (FY26); we assume +10% a year.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Inter-segment profit adjustment has been within ±₹6 cr a year: modelled at zero."
+  }
+ ],
+ "unallocated": [
+  360,
+  380,
+  400
+ ],
+ "_unallocLabel": "Central costs not allocated to segments (sum of segment EBITDA less Screener EBITDA)",
+ "_unallocWhy": "Sum of segment EBITDA less Screener EBITDA: ₹310 cr (FY24), ₹335 cr (FY25), ₹343 cr (FY26); reported unallocable expense ₹291 cr / ₹283 cr / ₹359 cr. We assume ₹360-400 cr as corporate, R&D and retail-network costs grow.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  900,
+  600,
+  600
+ ],
+ "_capexWhy": "FY26 cash capex ₹1,540 cr (Kakinada acid plants). FY27 ₹900 cr = capital commitments of ₹619 cr at Mar-2026 (granulation, T-MAP, mancozeb, fluorination launch plant) plus ~₹300 cr of maintenance; FY28-29 ₹600 cr = management's 'normal sustainable capex of ₹300 crores' for Coromandel plus NACL, Senegal and retail-store spending.",
+ "depRateOnGrossBlock": 7.8,
+ "_depWhy": "FY26 D&A ₹534 cr = 6.8% of average gross block, but Q1FY27 D&A was ₹203 cr (₹812 cr annualised) as the acid plants (+₹16-18 cr a quarter), NACL acquisition intangibles (~₹21 cr) and Senegal mine overburden (~₹30 cr) came in. 7.8% gives ~₹760 cr / ~₹820 cr / ~₹870 cr for FY27-29.",
+ "treasuryYield": [
+  6.5,
+  6.5,
+  6.5
+ ],
+ "_treasuryWhy": "Net treasury at Mar-2026: cash ₹494 cr + investments ₹2,044 cr + ICDs with Bajaj Finance ₹1,564 cr (6.8-8.2%) less borrowings incl. leases ₹1,506 cr = ₹2,596 cr. 6.5% on the opening balance, below the deposit rate because seasonal working capital (subsidy receivables peak in Q2) absorbs part of the cash during the year.",
+ "otherIncome": [
+  30,
+  30,
+  30
+ ],
+ "_otherIncomeWhy": "Other income ₹240 cr in FY26 (Screener, normal) and ₹50 cr in Q1FY27 as the cash pile fell after the NACL purchase and capex; ~₹30 cr a year of non-treasury items on top of the treasury yield (FY27E total ~₹200 cr).",
+ "otherTreasury": {
+  "base": 1564.34,
+  "label": "Inter-corporate deposits with Bajaj Finance (in other assets)",
+  "_why": "ICDs of ₹1,564 cr placed with Bajaj Finance at 6.8-8.2% sit in 'loans' (other assets) on Screener; the company itself counts them as cash in its net-debt calculation (note 32.1)."
+ },
+ "interest": [
+  400,
+  370,
+  370
+ ],
+ "_interestLabel": "Finance cost (acceptances, working-capital debt, leases)",
+ "_interestWhy": "FY26 ₹343 cr; Q1FY27 ₹89 cr (₹68 cr a year earlier). Most of it is the cost of acceptances and working-capital lines that fund imported raw materials, which cost more at today's prices: ₹400 cr in FY27, easing to ₹370 cr as prices normalise.",
+ "taxRate": [
+  28.2,
+  28.5,
+  28.7
+ ],
+ "_taxWhy": "Underlying tax rate 26% (FY26 27.5% incl. the non-deductible drone impairment; Q1FY27 26%; statutory 25.17% plus subsidiaries' losses without tax credit). Engine workaround: the model has no minority-interest line and takes its share count from FY26 total profit ÷ EPS (₹1,898 cr ÷ ₹66.31 = 28.62 cr shares vs 29.50 cr actual diluted shares, because FY26 profit attributable to owners, ₹1,956 cr, exceeded total profit as minorities absorbed ₹58 cr of losses). So the 'tax' line here = 1 − (28.62 ÷ 29.50) × (1 − 26%) + minorities' share of profit (₹0 / ₹10 / ₹20 cr in FY27-29E). Model EPS then equals profit attributable to owners ÷ 29.50 cr shares; model 'net profit' is that profit × 0.97.",
+ "payout": [
+  18,
+  18,
+  18
+ ],
+ "_payoutWhy": "FY26 dividend ₹11 a share (interim ₹9 + final ₹2) = 17% of EPS; FY25 payout ~11-21%. We assume 18%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 6,
+  "years": 12,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 11,
+  "fadeCapexPctTo": 2.5,
+  "depPctOfSales": 2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash and essential, policy-supported demand, but earnings swing with subsidy rates, imported raw materials and the monsoon: slightly below market risk.",
+  "_tgWhy": "Indian fertiliser and crop-protection demand grows with farm output and prices; 6% nominal.",
+  "_fadeGrowthWhy": "Phosphatic demand grows ~3-4% in volume plus price; crop protection faster: 8% by year 12.",
+  "_fadeMarginWhy": "Group EBITDA margin was 10.3-11.3% in FY22-26 (14% in FY21): 11% long-run, as subsidy policy caps fertiliser returns.",
+  "_fadeCapexWhy": "Capex 2.5% of revenue long-run (FY22-25 average ~2.6%), above depreciation at 2.0% to fund volume growth.",
+  "_yearsWhy": "12-year explicit/fade period: the business is mature and net-cash, so no project J-curve to accommodate."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The government compensates the Middle East cost spike in the rabi NBS rates, raw-material prices normalise, own acid and Senegal rock lift fertiliser EBITDA towards ₹6,500/t, and crop protection compounds at 20%+.",
+   "fadeMarginTo": 12,
+   "segments": {
+    "nut": {
+     "growthDelta": 2,
+     "marginDelta": 1
+    },
+    "cp": {
+     "growthDelta": 4,
+     "marginDelta": 1.5
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Rabi subsidy rates stay inadequate while sulphur and ammonia stay high; a weak southern rabi after the 2026 monsoon cuts volumes; reasonable-margin guidelines cap fertiliser profits; NACL stalls.",
+   "fadeMarginTo": 9.5,
+   "segments": {
+    "nut": {
+     "growthDelta": -3,
+     "marginDelta": -1.2
+    },
+    "cp": {
+     "growthDelta": -5,
+     "marginDelta": -2
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 15,
+      "bull": 19,
+      "bear": 12
+     },
+     "why": "How the street values Coromandel: Motilal Oswal 25x FY28E EPS (Jul-2026); earlier Sharekhan 26x FY28E and Nuvama 30x Q2FY28E (Dec-2025). 15x = the stock's 17.5x one-year-forward P/E median since Apr-2021 cut by the ~14% de-rating of Indian fertiliser and agrochemical stocks at 30-Sep-2026. Bull 19x (its five-year median trailing P/E: no de-rating, the market keeps paying for the agri-solutions story); bear 12x (the 2021 level, a plain fertiliser maker under subsidy stress)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 9,
+      "bull": 11,
+      "bear": 7.5
+     },
+     "why": "Values the business and the ~₹6,400 cr of Sep-28E net cash separately. 9x = the stock's 11.8x five-year median trailing EV/EBITDA less the ~22% EV/EBITDA de-rating of the same peers; it does not charge the step-up in depreciation (Senegal mine, NACL intangibles, acid plants)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: FCFF FY28-FY38E fading to an 11% EBITDA margin and capex at 2.5% of revenue, Ke 11.9% (beta 0.9), terminal growth 6%, plus net cash."
+    }
+   ]
+  }
+ }
+}

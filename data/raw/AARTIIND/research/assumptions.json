@@ -1,0 +1,91 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Aarti Industries (consolidated, ₹ crore, revenue NET of GST as in the audited P&L and Screener; the company's headline 'revenue' of ₹9,018 cr for FY26 includes ₹732 cr of GST). One reportable segment (Ind AS 108), so revenue grows at a single rate and the EBITDA margin is a driver; energy / non-energy and value-chain volumes are tracked as KPIs. Net debt company: treasury yield is nil, interest is an explicit line. Valued on Sep-28E EV/EBITDA (primary), with P/E and DCF cross-checks.",
+ "years": ["FY27E", "FY28E", "FY29E"],
+ "revenueGrowth": [18, 8, 10],
+ "_revenueWhy": "FY27: Q1 net revenue +43% YoY, 'primarily driven by higher input prices passed on to customers' after the West Asia conflict lifted benzene, aniline, sulphur and methanol prices; volumes fell 12% QoQ. CRISIL (29-Sep-2026) expects >15% growth in FY27; PL 9,878 cr (+19%), ICICI Direct 9,688 cr (+17%). We use +18%: full-year fuel-additive capacity of 360 kT (vs 238 kT produced in FY26), DCB debottlenecking, the $150 mn agro contract, partly offset by softer prices in H2 and the winter dip in fuel additives. FY28: volumes +10-12% (Zone IV blocks, MPP, PEDA, Augene supplies) but input prices assumed to ease, so revenue +8%. FY29: +10% (CRISIL medium-term range 10-15%).",
+ "ebitdaMargin": [14.3, 15.0, 15.5],
+ "_marginWhy": "FY26 14.1%. Q1FY27 16.0% included ₹50-60 cr of inventory and currency gains; CRISIL puts the underlying margin at ~14%. FY27 14.3% (Q1 actual plus ~14% for Q2-Q4, with the usual winter softness in fuel additives). FY28-29 15.0-15.5% as Zone IV and the NCB chain (China's export-VAT rebate removal) add margin and cost savings of ₹150-200 cr accrue; still below management's 14-15%-margin path to ₹1,800-2,200 cr of FY28 EBITDA, which we think will be met a year late at the low end (Aarti missed its first FY24 EBITDA target by ~29% and its FY25 target by ~41%).",
+ "capex": [750, 350, 300],
+ "_capexWhy": "FY27: management ₹700-800 cr (₹180 cr spent in Q1): Zone IV completion, the 15-year backward-integration project (₹200-250 cr over two years) and ~₹150 cr maintenance. FY28-29: CRISIL expects ₹200-250 cr a year; we use ₹300-350 cr because the backward-integration project spills into FY28 and Aarti's capex has repeatedly come in above early guidance (FY26: ~₹1,000 cr guided, ₹1,125 cr spent).",
+ "depRateOnGrossBlock": 6.0,
+ "_depWhy": "FY26 depreciation ₹474 cr = 5.5% of average gross block (₹8,680 cr). Zone IV (~₹2,030 cr of capital work in progress at Mar-26) is capitalised during FY27; the engine adds only capex to the gross block and holds CWIP flat, so we use 6.0% on that smaller base to land depreciation at ~₹560-610 cr, in line with the CFO's FY28 bridge of ₹580-620 cr (May-2025 call).",
+ "treasuryYield": [0, 0, 0],
+ "_treasuryWhy": "Aarti carries net debt (~₹4,300 cr at Mar-26), so no treasury income is modelled; interest is an explicit line.",
+ "otherIncome": [15, 20, 25],
+ "_otherIncomeWhy": "Non-operating income ₹5-20 cr a year (FY25 ₹17.5 cr, FY26 ₹4.9 cr before exceptional items) plus, from FY28, a small share of profit from the 50:50 Augene JV (equity-accounted; steady-state JV revenue guided at ₹300-400 cr).",
+ "interest": [330, 300, 270],
+ "_interestWhy": "FY26 finance cost ₹340 cr included ₹64 cr of exchange losses on foreign-currency loans; interest proper was ₹254 cr. Q1FY27 ₹83 cr as working-capital debt rose with input prices. FY27 ₹330 cr; FY28-29 lower as capex falls and debt is repaid (scheduled repayments ₹248-350 cr a year per CRISIL). CFO's FY28 bridge assumed ~₹250-270 cr at ₹1,800 cr EBITDA; we keep more debt because our EBITDA is lower.",
+ "taxRate": [14, 15, 18],
+ "_taxWhy": "FY26 effective tax was −15% (tax credit: income-tax depreciation on new capacity, MAT credit and deferred tax assets on tax losses). Q1FY27 14%. Management guides 10-15% for FY27 and 9-15% thereafter while Zone IV tax depreciation lasts. We use 14% / 15% / 18%: the DCF applies the FY29 rate to all later years, so we lift FY29 towards the normal ~25% rate.",
+ "payout": [9, 9, 9],
+ "_payoutWhy": "DPS ₹1 in FY24-FY26 (~9% of FY26 EPS); no change expected while net debt is above the company's 2.5x target.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 15.5,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 4.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts free cash flow at one rate (cost of equity = WACC). Aarti has debt, so we enter a WACC: cost of equity ~13.1% (beta 1.1) weighted ~78%, post-tax cost of debt ~6.5% weighted ~22% (net debt ~₹4,300 cr vs market value ~₹17,300 cr) = ~11.6%, which is what beta 0.85 produces. The same rate rolls the value forward 6 months.",
+  "_tgWhy": "Indian specialty-chemical demand grows with nominal GDP; 5.5% nominal.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% (FY29E) to 8% by year 15: volumes from new chemistry and fuel additives, little pricing power.",
+  "_fadeCapexWhy": "Capex fades to 5% of revenue, above maintenance, because Aarti has historically reinvested heavily; depreciation 4.5% of revenue."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Zone IV ramps on time from FY28, fuel additives run at full 360 kT with the Middle East reopening, and China's anti-involution keeps NCB margins firm: FY28 EBITDA reaches ~₹1,800 cr, the low end of guidance.",
+   "volumeGrowthDelta": 0,
+   "revenueGrowthDelta": 4,
+   "marginDelta": 1.5,
+   "fadeMarginTo": 17
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Crude-linked input prices fall and reverse the Q1 inventory gains, gasoline-naphtha cracks collapse (fuel-additive demand falls), Zone IV slips again and Chinese pricing pressure returns: EBITDA stays near ₹1,200-1,300 cr and net debt does not fall.",
+   "volumeGrowthDelta": 0,
+   "revenueGrowthDelta": -5,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 13.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": ["FY28E", "FY29E", 0.5],
+     "multiple": { "base": 12, "bull": 14, "bear": 9 },
+     "why": "The street is split between EV/EBITDA (ICICI Direct 14x FY28E) and P/E (PL 28x FY28E). We use EV/EBITDA because net debt is 3.6x EBITDA, the tax rate is temporarily 10-15% and depreciation on not-yet-earning assets depresses EPS: EBITDA less net debt captures all three. 12x = the stock's ~16x one-year-forward median since Apr-2023, less the ~31% sector de-rating (peer median vs post-2023 medians), plus ~1x for faster EBITDA growth as new capacity ramps up; no premium while ROCE (~7%) is below the cost of capital."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": ["FY28E", "FY29E", 0.5],
+     "multiple": { "base": 25, "bull": 30, "bear": 18 },
+     "why": "The other half of the street (PL 28x FY28E EPS). 25x on Sep-28E: the stock's ~32x forward P/E median since Apr-2025 less part of the sector de-rating; lower than PL's 28x because our EPS is a year further out and taxed at only 15-18%."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at ~11.6% WACC, terminal growth 5.5%, less net debt."
+    }
+   ]
+  }
+ }
+}

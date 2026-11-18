@@ -1,0 +1,349 @@
+{
+ "_note": "Segment-driven model: each business's driver (GOV or revenue) grows; revenue and adjusted EBITDA are % of the driver. Consolidated reported EBITDA = sum of segment adjusted EBITDA − ESOP + Ind AS 116 rent add-back. Valued on sum of the parts (FY28E). ₹ crore.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "food",
+   "name": "Food delivery",
+   "driverLabel": "GOV",
+   "base": 34592,
+   "growth": [
+    17.5,
+    18,
+    17
+   ],
+   "revPct": [
+    23.3,
+    23.5,
+    23.5
+   ],
+   "marginPct": [
+    3.4,
+    3.9,
+    4.3
+   ],
+   "hist": {
+    "driver": "foodGov",
+    "revenue": "foodRev",
+    "adjEbitda": "foodAdjEbitda"
+   },
+   "_why": "H1FY27 GOV +17.5%; management guides 18-20% (ex-Toing). We stay at the low end because Zomato is growing faster (21.5% in Q2).",
+   "_revWhy": "Take rate (commission + fees + ads) 23.3% of GOV in H1FY27, up from 22.6% in FY26.",
+   "_marginWhy": "2.9% in FY26, 3.4% in Q2FY27. Management's path is 5%; Eternal already earns 5.5%. We assume ~0.45pp a year."
+  },
+  {
+   "key": "im",
+   "name": "Instamart (quick commerce)",
+   "driverLabel": "GOV",
+   "base": 28496,
+   "growth": [
+    35,
+    30,
+    28
+   ],
+   "revPct": [
+    17,
+    45,
+    55
+   ],
+   "marginPct": [
+    -8.8,
+    -4.5,
+    -1.5
+   ],
+   "hist": {
+    "driver": "imGov",
+    "revenue": "imRev",
+    "adjEbitda": "imAdjEbitda"
+   },
+   "_why": "H1FY27 GOV +35%; Q3 guidance of double-digit QoQ growth. Blinkit grows ~80%, so we fade growth.",
+   "_revWhy": "Accounting switch: from mid-Q3FY27 Instamart moves to an inventory (1P) model and books the full sale value as revenue, not just fees. Revenue % of GOV jumps from ~14% to ~55% over 2-3 years. This inflates revenue, not profit.",
+   "_marginWhy": "−12.3% in FY26, −9.7% in Q2FY27. Management says losses peaked in Q2 and guides ~1pp a quarter improvement. We assume −8.8% for FY27 and breakeven only after FY29 (management needs ~2.3x today's scale)."
+  },
+  {
+   "key": "ooh",
+   "name": "Out-of-home (Dineout, events)",
+   "driverLabel": "GOV",
+   "base": 4645,
+   "growth": [
+    35,
+    30,
+    28
+   ],
+   "revPct": [
+    8.5,
+    8.5,
+    8.5
+   ],
+   "marginPct": [
+    0.8,
+    1.5,
+    2.2
+   ],
+   "hist": {
+    "driver": "oohGov",
+    "revenue": "oohRev",
+    "adjEbitda": "oohAdjEbitda"
+   },
+   "_why": "H1FY27 GOV +40%. FY31 target ₹20-25k cr GOV.",
+   "_revWhy": "8.5% of GOV in H1FY27.",
+   "_marginWhy": "0.6% in FY26, 0.7% in H1FY27; target 4%+ by FY31."
+  },
+  {
+   "key": "sc",
+   "name": "Supply chain & distribution",
+   "driverLabel": "Revenue",
+   "base": 10935,
+   "growth": [
+    15,
+    -55,
+    -20
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -0.6,
+    -1,
+    -1
+   ],
+   "hist": {
+    "driver": "scRev",
+    "revenue": "scRev",
+    "adjEbitda": "scAdjEbitda"
+   },
+   "_why": "This unit sells goods to Instamart's sellers. When Instamart buys inventory itself (1P), most of this revenue moves inside Instamart, so it shrinks. Lynks (a distribution unit) was sold in Q2FY27.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "−1.8% in FY26; Lynks sale adds ~₹20 cr a quarter from Q3FY27."
+  },
+  {
+   "key": "pi",
+   "name": "Platform innovations (Toing, new bets)",
+   "driverLabel": "Revenue",
+   "base": 52,
+   "growth": [
+    570,
+    60,
+    40
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -170,
+    -90,
+    -50
+   ],
+   "hist": {
+    "driver": "piRev",
+    "revenue": "piRev",
+    "adjEbitda": "piAdjEbitda"
+   },
+   "_why": "Toing (affordable meals app, 50 cities) scaled fast: revenue ₹51 cr in Q1FY27, ₹106 cr in Q2FY27.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Loss of ₹131 cr in Q1 and ₹162 cr in Q2. We assume losses of ~₹600 cr in FY27, then shrinking; brokers want Toing shut."
+  }
+ ],
+ "unallocated": [
+  -740,
+  -820,
+  -900
+ ],
+ "_unallocLabel": "Ind AS 116 rent add-back (negative = raises reported EBITDA)",
+ "_unallocWhy": "Segment adjusted EBITDA is after dark-store and office rent; reported EBITDA moves rent below EBITDA (into depreciation and interest). FY26 ₹607 cr; Q2FY27 ₹184 cr a quarter and rising with stores.",
+ "esop": [
+  720,
+  650,
+  600
+ ],
+ "_esopWhy": "Share-based pay: ₹1,173 cr FY25, ₹966 cr FY26, ₹367 cr in H1FY27. Non-cash, but it dilutes shareholders.",
+ "capex": [
+  1250,
+  1350,
+  1450
+ ],
+ "_capexWhy": "Cash capex (~₹700 cr, management says it falls in FY27) plus the principal part of lease payments (~₹550 cr), because reported EBITDA excludes rent.",
+ "treasuryYield": [
+  5.5,
+  5.5,
+  5.5
+ ],
+ "_treasuryWhy": "Other income ₹504 cr in FY26 on average cash of ~₹11,000 cr; ₹423 cr in H1FY27.",
+ "interest": [
+  215,
+  235,
+  255
+ ],
+ "taxRate": [
+  0,
+  0,
+  0
+ ],
+ "_taxWhy": "Losses: no tax until accumulated losses are used up.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "otherTreasury": {
+  "base": 4976,
+  "label": "Bank deposits held in other financial assets (treasury)",
+  "_why": "Company-reported cash & investments ₹15,053 cr at Mar-26, less ₹10,077 cr shown as cash and investments on the balance sheet."
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "Food delivery",
+    "seg": "food",
+    "field": "adjEbitda",
+    "year": "FY28E",
+    "metricLabel": "FY28E adjusted EBITDA × EV/EBITDA",
+    "multiple": {
+     "base": 30,
+     "bull": 38,
+     "bear": 22
+    },
+    "note": "Brokers value Swiggy food at 30-40x FY28E EBITDA (Anand Rathi 30x, MOFSL 32x, Elara 34x, JM 35x, Nomura and HDFC Sec 40x). Eternal's food business is valued at ~38x; 30x is a ~20% discount for lower margins and share loss."
+   },
+   {
+    "name": "Instamart (quick commerce)",
+    "seg": "im",
+    "field": "driver",
+    "year": "FY28E",
+    "metricLabel": "FY28E GOV × EV/GOV, less losses still to fund",
+    "multiple": {
+     "base": 0.2,
+     "bull": 0.5,
+     "bear": 0
+    },
+    "adj": {
+     "base": -3500,
+     "bull": -2000,
+     "bear": -7000
+    },
+    "note": "Blinkit is valued at ~1.2x GOV by brokers; Instamart at a deep discount as a distant #2. Adjustment = losses from FY28 until breakeven (bear: it never gets there)."
+   },
+   {
+    "name": "Out-of-home (Dineout)",
+    "seg": "ooh",
+    "field": "driver",
+    "year": "FY28E",
+    "metricLabel": "FY28E GOV × EV/GOV",
+    "multiple": {
+     "base": 0.6,
+     "bull": 0.9,
+     "bear": 0.3
+    },
+    "note": "Small, profitable, growing 35-40%."
+   },
+   {
+    "name": "Supply chain & distribution",
+    "seg": "sc",
+    "field": "driver",
+    "year": "FY28E",
+    "metricLabel": "FY28E revenue × EV/sales",
+    "multiple": {
+     "base": 0.2,
+     "bull": 0.3,
+     "bear": 0.1
+    },
+    "note": "Low-margin trading business shrinking as Instamart goes 1P."
+   },
+   {
+    "name": "Platform innovations (Toing)",
+    "seg": "pi",
+    "field": "adjEbitda",
+    "year": "FY28E",
+    "metricLabel": "FY28E adjusted EBITDA (loss) × years of losses",
+    "multiple": {
+     "base": 3,
+     "bull": 1,
+     "bear": 5
+    },
+    "note": "Capitalised cost of new bets: three years of FY28E losses (bull: shut in a year; bear: five years)."
+   },
+   {
+    "name": "Net cash at end-FY27E (after leases)",
+    "netCash": true,
+    "note": "Model forecast: cash + investments + deposits − borrowings (incl. lease liabilities) at Mar-27."
+   },
+   {
+    "name": "Add back lease liabilities",
+    "metricLabel": "Rent is already deducted in segment EBITDA",
+    "adj": {
+     "base": 2451,
+     "bull": 2451,
+     "bear": 2451
+    },
+    "note": "Lease liabilities (₹2,451 cr, Mar-26) are dark-store rent obligations; segment EBITDA is after rent, so deducting them again would double count."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "why": "Swiggy is five businesses at very different stages (profitable food, loss-making Instamart): each needs its own yardstick. Primary method.",
+     "role": "primary"
+    },
+    {
+     "key": "gov",
+     "name": "EV/GOV",
+     "method": "evGov",
+     "year": "FY28E",
+     "multiple": {
+      "base": 0.6,
+      "bull": 0.9,
+      "bear": 0.3
+     },
+     "why": "How the market compares delivery platforms that do not yet make profits. Eternal trades at ~2x its order value; Swiggy at ~0.5x FY26 GOV today. 0.6x FY28E GOV is a ~70% discount to Eternal for lower margins and share loss.",
+     "role": "cross-check"
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Food margins reach ~5% by FY29 and earn 38x; Instamart grows faster, loses less and is valued at 0.5x GOV; Toing is shut.",
+   "segments": {
+    "food": {
+     "growthDelta": 2,
+     "marginDelta": 0.4
+    },
+    "im": {
+     "growthDelta": 8,
+     "marginDelta": 2
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Food keeps losing share (22x on lower margins); Instamart growth slows and losses stay high, so quick commerce is worth less than nothing; Toing keeps burning.",
+   "segments": {
+    "food": {
+     "growthDelta": -4,
+     "marginDelta": -0.6
+    },
+    "im": {
+     "growthDelta": -10,
+     "marginDelta": -3
+    }
+   }
+  }
+ },
+ "depRateOnGrossBlock": 16,
+ "_depWhy": "FY26 actual ~20% on a smaller, younger block; H1FY27 run-rate ~₹1,210 cr a year ≈ 16% of gross block."
+}

@@ -1,0 +1,3054 @@
+{
+ "symbol": "HSCL",
+ "listing": "NSE: HSCL · BSE: 500184",
+ "date": "30 September 2026",
+ "rating": "SELL",
+ "analysts": "GAM Research — Chemicals",
+ "cover": {
+  "headline": "A coal-tar champion priced as a battery-materials company: the profits have not caught up with the price",
+  "lead": "Himadri turns coal tar, a by-product of steel-making, into pitch for aluminium smelters and graphite electrodes, carbon black for tyres and plastics, naphthalene and speciality oils. It is India's largest pitch maker (65%+ share) and has quadrupled its EBITDA per tonne since FY22, taking net profit from ₹39 cr to ₹755 cr. Now it is spending ~₹2,000 cr on battery materials (LFP cathode, anode), carbon nanotubes and a revived tyre brand (Birla Tyres). The only institutional broker, ICICI Securities, values it on a sum of the parts with the core on EV/EBITDA; we use **P/E: 25x Sep-28E EPS of ₹20.9** (its own forward median since 2021), which gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**, so **we initiate with SELL.** EV/EBITDA (₹489) agrees; the DCF (₹330) is lower still. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "The core business has been transformed",
+    "p": "EBITDA per tonne rose from ~₹4,400 (FY22) to ₹17,331 (FY26) and ~₹23,654 in Q1FY27, on speciality carbon black (now 130 kt), better pitch grades and cost control. ROE is ~18% and the company is net cash. This is a well-run, integrated business."
+   },
+   {
+    "h": "But growth was margin, not volume, and margins can turn",
+    "p": "Revenue was flat from FY23 to FY26 and volume grew 2% in FY26; Q1FY27 volume fell 6% while prices rose 23% on costlier raw materials. We assume EBITDA per tonne eases to ~₹20,500 in FY27. The new capacity (pitch exports, anthraquinone, SSCB, CNT) is real but small next to a ₹4,400 cr core."
+   },
+   {
+    "h": "The new bets are early and capital-hungry",
+    "p": "LFP (₹1,125 cr) starts with a 2,000 t plant in Q3FY27 and has no disclosed orders; the company prices at par with China. Tyres absorbed ~₹490 cr of NCD funding for ₹187 cr of FY26 revenue at break-even. Free cash flow turns negative in FY27-28E on our numbers, and ROE dips to ~16%."
+   },
+   {
+    "h": "The price already pays for success",
+    "p": "At ₹678 the stock trades at 35.2x our FY28E EPS and 42.9x trailing (five-year median 39.1x), while listed chemical peers trade a median 28% below their medians. Valuing the core at 16x EBITDA, the market implies ~₹10,400 cr for battery materials that have yet to sell."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "RED"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): whether volume returns (management promised growth \"from both volume and value\") and whether EBITDA per tonne holds near Q1's ~₹23,700.",
+   "LFP: commissioning of the 2,000 tpa plant (Q3FY27) and the first customer approvals (sample stages C and D); any disclosed offtake.",
+   "Anode: announcement of a commercial-scale plant and its capex; Sicona and IBC milestones (IBC's India gigafactory targeted for Q4FY27).",
+   "Birla Tyres: EBITDA break-even in FY27 as guided; approvals for the scheme to demerge DBRL's tyre business into HSCL.",
+   "Anthraquinone/carbazole Phase 1 (Q2FY27), CNT (Q4FY27); liquid pitch export volumes.",
+   "Management's FY28 target of ₹1,100 cr+ PAT: we are at ~₹{{F.pat.1|num}} cr."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "EBITDA per tonne quadrupled in four years",
+       "unit": "Core EBITDA per tonne sold (₹)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "EBITDA per tonne",
+         "values": [
+          4382,
+          10376,
+          13352,
+          15334,
+          17331
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company EBITDA (core segments) and standalone sales volume; GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Volume grew far less: +2% in FY26",
+       "unit": "Sales volume (000 tonnes, standalone)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Volume",
+         "values": [
+          372,
+          404,
+          476,
+          552,
+          564
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor presentations"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Q1FY27: a jump to ~₹22,900 per tonne",
+       "unit": "Standalone EBITDA per tonne (₹)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBITDA per tonne",
+         "values": [
+          13508,
+          14455,
+          16152,
+          16993,
+          16701,
+          17932,
+          16278,
+          18604,
+          22857
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "min": 10000,
+       "max": 25000,
+       "source": "Investor presentations (standalone); GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "...as prices rose 23% while volume fell",
+       "unit": "Standalone revenue per tonne (₹)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Revenue per tonne",
+         "values": [
+          86222,
+          81621,
+          82359,
+          82694,
+          78551,
+          79033,
+          74068,
+          81197,
+          96649
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "min": 60000,
+       "max": 100000,
+       "source": "Investor presentations (standalone; Q2-Q3FY26 revenue derived); GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Birla Tyres is ramping up inside \"Others\"",
+       "unit": "Others segment revenue (₹ crore)",
+       "x": [
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Others (tyres and mining)",
+         "values": [
+          47,
+          69,
+          158,
+          144
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Quarterly segment results (Q2FY26 derived)"
+      },
+      {
+       "type": "column",
+       "title": "Capex: ₹53 cr in FY24, ~₹1,000 cr a year in FY27-28",
+       "unit": "Capex (₹ crore)",
+       "x": [
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E"
+       ],
+       "series": [
+        {
+         "name": "Capex",
+         "values": [
+          53,
+          171,
+          450,
+          1000,
+          1000
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; management guidance (Q1FY27 call); GAM estimates"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: ~10x in 2021-22, ~29x since 2024",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          8.8,
+          9.8,
+          11,
+          10.9,
+          8.9,
+          10.5,
+          10.6,
+          9.1,
+          9.4,
+          12.4,
+          12.1,
+          9.1,
+          7.8,
+          7.2,
+          11.2,
+          12,
+          12.2,
+          12.3,
+          10.3,
+          10.9,
+          10.5,
+          8,
+          10.8,
+          11.8,
+          12.5,
+          17,
+          21.6,
+          21.7,
+          26.4,
+          32.9,
+          32.4,
+          27.9,
+          24.9,
+          22.4,
+          27.1,
+          32,
+          38.5,
+          41.6,
+          32.8,
+          38.5,
+          33.3,
+          29.2,
+          24.9,
+          26.4,
+          25.1,
+          28.5,
+          25.5,
+          25.8,
+          25.9,
+          26.6,
+          27,
+          28,
+          25.3,
+          31.6,
+          35.6,
+          34.3,
+          40.6,
+          35.1
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 25,
+         "text": "Median since Apr-2021 (24.9x) = our 25x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual EPS, GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street",
+       "unit": "₹ per share; CMP ₹678",
+       "x": [
+        "ICICI Securities (Jul-26)",
+        "Mehta Equities (Feb-26)",
+        "ICICI Securities (Apr-26)",
+        "ICICI Securities (Jan-26)",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          720,
+          571,
+          550,
+          470,
+          520
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and press to 30-Sep-2026; only the Jul-26 ICICI call was standing on 30-Sep-2026"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Himadri does",
+   "kicker": "The business",
+   "title": "One coal-tar chain, three businesses",
+   "blocks": [
+    {
+     "p": "Coal tar is a sticky by-product of the coke ovens that feed steel blast furnaces. Himadri buys it from steel makers and importers and distils it (600,000 tpa; the largest single-location complex in the world, per the company). About half becomes **coal tar pitch**, the binder in the carbon anodes of aluminium smelters and in graphite electrodes. The lighter fractions become **naphthalene** (for phthalic anhydride, SNF concrete admixtures and mothballs) and **speciality oils**, which also feed its own **carbon black** plants (tyres and rubber, plus speciality grades for plastics, inks, cables and batteries). A captive power plant runs on carbon-black tail gas. Exports were 29% of FY26 revenue (61 countries). On top of this core sit two new businesses: **Birla Tyres** (restarted in May-2025) and **new energy materials** (LFP cathode and anode for lithium-ion batteries)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The three businesses in FY26",
+      "head": [
+       "Business",
+       "What it makes",
+       "Revenue (₹ cr)",
+       "Share",
+       "EBITDA (₹ cr)",
+       "Note"
+      ],
+      "wide": [
+       1,
+       5
+      ],
+      "rows": [
+       [
+        "**Carbon materials & chemicals**",
+        "Coal tar pitch, carbon black (130 kt speciality of 250 kt), naphthalene, speciality oils, SNF/PCE; captive power",
+        "4,386",
+        "94%",
+        "978",
+        "65%+ of India's pitch, ~67% of naphthalene; segment EBIT margin 19%"
+       ],
+       [
+        "**Others: Birla Tyres and mining**",
+        "Agri, OTR and truck-bus bias tyres; mining",
+        "274",
+        "6%",
+        "28",
+        "Tyres ₹187 cr; profit mostly from mining"
+       ],
+       [
+        "**New energy materials**",
+        "Anode (200 tpa from Apr-2026); LFP cathode (2,000 tpa in Q3FY27, 40,000 tpa Phase 1)",
+        "0",
+        "0%",
+        "–",
+        "Plus stakes in Sicona, IBC (19.44%), Invati (40%)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Consolidated**",
+         "",
+         "4,661",
+         "100%",
+         "1,006",
+         "Company EBITDA before forex (Screener ₹962 cr after the ₹43.6 cr forex loss)"
+        ]
+       }
+      ],
+      "source": "FY26 annual report (segment note), Q4FY26 and Q1FY27 calls; core = carbon materials and chemicals plus power's external sales"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "India buys 71% of output",
+       "unit": "FY26 revenue by customer location (₹ crore)",
+       "x": [
+        "India",
+        "Outside India"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          3303,
+          1358
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "India",
+       "source": "FY26 annual report (segment note)"
+      },
+      {
+       "type": "hbar",
+       "title": "Management's revenue potential for the new projects",
+       "unit": "Revenue at full use, today's prices (₹ crore)",
+       "x": [
+        "LFP Phase 1 (40,000 t)",
+        "Super speciality black (6,000 t)",
+        "Anthraquinone + carbazole",
+        "Anode (200 t)",
+        "CNT (200 t)"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          3000,
+          500,
+          275,
+          125,
+          70
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 call (anthraquinone: midpoint of ₹250-300 cr; anode ₹120-130 cr; CNT \"less than ₹100 cr\", ~₹50-70 cr per the questioner)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From a Howrah tar distiller (1990) to a would-be advanced-materials company",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1987-1992",
+        "Incorporated in West Bengal (CIN 1987); first coal tar distillation plant in Howrah (1990); renamed Himadri Chemicals & Industries (1991); public limited company (1992). Promoters: the Choudhary family (founder Shyam Sundar Choudhary)."
+       ],
+       [
+        "2000-2009",
+        "Built the Mahistikry (Hooghly) complex: coal tar distillation (2004), by-product refining (2006), carbon black with a captive power plant (2009); Korba plant (2007); SNF construction chemicals via a Vapi acquisition (2009)."
+       ],
+       [
+        "Dec-2009 to Mar-2010",
+        "Bain Capital's first Indian deal: ₹412.72 cr for a minority stake (about 15% before an open offer). Bain sold down from Feb-2021 (1.19% at ₹52.75 in Jul-2021, leaving 10.31%) and had fully exited in FY2021-22; its special rights in the articles were removed in 2025."
+       ],
+       [
+        "2011-2015",
+        "Carbon black expansion, Falta SEZ export unit, coal tar pitch plant in Longkou (China); coal tar distillation capacity up 60% (2014); entry into speciality carbon black (2014); Sambalpur pitch-melting plant started (2015)."
+       ],
+       [
+        "2016",
+        "Renamed Himadri Speciality Chemical Ltd; continuous furnace for advanced carbon materials at Falta SEZ."
+       ],
+       [
+        "FY21-FY22",
+        "Profit trough: EBITDA margin fell to 8% (FY21) and 6% (FY22) as raw-material costs rose faster than prices; net profit ₹47 cr and ₹39 cr."
+       ],
+       [
+        "2020-2024",
+        "60,000 tpa speciality carbon black line; 60+ speciality grades; LFP cathode pilot plant. Dec-2023: plan for 200,000 tpa LFP cathode material (₹4,800 cr over ~5-6 years)."
+       ],
+       [
+        "Oct-2023",
+        "Birla Tyres acquired out of insolvency with Dalmia Bharat Refractories (NCLT order 19-Oct-2023); plant restarted May-2025."
+       ],
+       [
+        "May-2024 to Nov-2025",
+        "1.08 cr warrants at ₹316 issued to promoters and identified investors (₹342 cr in total); converted Aug-Nov 2025, the promoters' 1 cr warrants on 7-Nov-2025 (₹237 cr balance paid), lifting the promoter stake to 52.5%."
+       ],
+       [
+        "FY26",
+        "70,000 tpa speciality carbon black line (₹220 cr; commercial production Feb-2026) takes speciality capacity to 130,000 tpa; coal tar distillation debottlenecked to 600,000 tpa; liquid pitch terminals at Haldia and Mangalore; investments in Sicona (May-2025), IBC (16.24%, later 19.44%) and Invati (40%)."
+       ],
+       [
+        "Apr-2026",
+        "200 tpa anode material plant commissioned at Mahistikry (23-Apr-2026), entirely in-house technology."
+       ],
+       [
+        "Jul-2026",
+        "Q1FY27 record quarter; CNT (200 tpa, ₹70 cr) and SSCB (6,000 tpa, ₹170 cr) projects announced; ICRA upgraded the long-term rating to AA (Stable)."
+       ],
+       [
+        "21-Sep-2026",
+        "Board approved a scheme to demerge DBRL's tyre business into HSCL (1 HSCL share per 260 DBRL shares)."
+       ]
+      ],
+      "source": "Annual reports, investor presentations, exchange filings, Venture Intelligence (Bain)"
+     }
+    },
+    {
+     "callout": "**Corporate actions:** the share count rose from ~42 cr (FY18) to 50.46 cr (Sep-2026), mostly through preferential issues: the 2024 warrants at ₹316 (1.08 cr shares, ₹342 cr, of which 1 cr went to the promoters, lifting them to 52.5%) plus ESOP allotments. No bonus, split or buyback recently; dividends are token (₹0.80 a share for FY26). The DBRL tyre demerger adds only ~1.76 lakh shares (0.03%). Bain Capital, the only large outside investor (₹413 cr in 2009-10), sold out in FY2021-22."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Coal tar is a by-product business; carbon black and batteries are global commodities",
+   "blocks": [
+    {
+     "p": "Coal tar supply is set by steel-making, not by demand for pitch: every tonne of metallurgical coke yields a few per cent of tar, so supply grows with India's blast-furnace steel output and imports fill the gap. Demand comes from three places. **Aluminium smelters** need pitch to bind their carbon anodes (India is adding smelter and refinery capacity). **Graphite electrodes** for electric-arc steel use pitch as binder and impregnant (an oversupplied industry: HEG and Graphite India earned 3-7% ROE in FY26). **Carbon black** for tyres is a ~15 mn t global market growing ~2-3% a year, of which speciality grades (~1.1 mn t) grow ~4% (Notch Consulting via the annual report). Battery materials are a different world: China makes essentially all LFP cathode and most anode material, and cell-component prices fell 50-60% in 4-5 years."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Forces acting on Himadri's markets",
+      "head": [
+       "Theme",
+       "Direction",
+       "What it means"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Raw material and pricing",
+        "Mixed",
+        "Coal tar is a by-product of steel-making coke ovens; prices follow coal and crude. After the West Asia crisis (Apr-May 2026) input costs rose and Himadri passed them on: Q1FY27 realisation +23%, volume -6%."
+       ],
+       [
+        "Speciality carbon black",
+        "Tailwind",
+        "Demand from plastics, inks, batteries and cables grows faster than tyre black; Himadri now has 130 kt of speciality capacity (the world's largest single site, per the company) and is adding super speciality grades."
+       ],
+       [
+        "Aluminium and electrodes",
+        "Steady",
+        "Indian aluminium smelter expansions support pitch demand; graphite electrodes are oversupplied. Liquid pitch exports from Haldia and Mangalore open the Middle East and Southeast Asia."
+       ],
+       [
+        "Competition in carbon black",
+        "Headwind",
+        "PCBL is India's largest carbon black maker (FY26 revenue ₹8,189 cr, EBITDA margin 12.7%, ROE 5%); global majors (Cabot, Orion, Birla Carbon) dominate speciality grades."
+       ],
+       [
+        "Battery materials in India",
+        "Tailwind with risk",
+        "India's cell makers need local cathode and anode suppliers; but China supplies all LFP today at very low prices, and approvals take 1.5-2 years."
+       ],
+       [
+        "Tyres",
+        "Mixed",
+        "Indian tyre market ~USD 12 bn (FY25) growing 8-9% a year (annual report); Birla Tyres is a small re-entrant in agri, OTR and truck bias tyres against large incumbents."
+       ]
+      ],
+      "source": "FY26 annual report, Q4FY26 and Q1FY27 calls, Screener.in (peers)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed Indian peers on 30-Sep-2026: Himadri earns the best returns of the carbon names",
+      "head": [
+       "Company",
+       "Business",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "ROE",
+       "Trailing P/E"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "**Himadri**",
+        "Pitch, carbon black, chemicals, tyres",
+        "4,661",
+        "20.6%",
+        "17.9%",
+        "42.8x"
+       ],
+       [
+        "PCBL Chemical",
+        "Carbon black (India #1), Aquapharm water chemicals, battery-material plans",
+        "8,189",
+        "12.7%",
+        "5.1%",
+        "49.2x"
+       ],
+       [
+        "HEG Advanced Materials",
+        "Graphite electrodes (a pitch customer)",
+        "2,568",
+        "15.5%",
+        "7.4%",
+        "38.0x"
+       ],
+       [
+        "Graphite India",
+        "Graphite electrodes (a pitch customer)",
+        "2,852",
+        "7.1%",
+        "2.9%",
+        "68.2x"
+       ],
+       [
+        "Gujarat Fluorochemicals",
+        "Fluoropolymers, refrigerants, battery chemicals",
+        "4,996",
+        "24%",
+        "7.6%",
+        "78.4x"
+       ],
+       [
+        "Neogen Chemicals",
+        "Bromine chemicals, battery electrolytes",
+        "862",
+        "15.9%",
+        "3.6%",
+        "207.1x"
+       ],
+       [
+        "Epigral",
+        "Chlor-alkali, CPVC, derivatives",
+        "2,527",
+        "22.4%",
+        "16.1%",
+        "16.1x"
+       ]
+      ],
+      "source": "Screener.in (consolidated FY26; multiples at the 30-Sep-2026 NSE close)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: the speciality shift has reached Himadri; batteries have not yet",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Speciality carbon black demand",
+       "Yes",
+       "Speciality capacity 60 kt to 130 kt (FY26); new line expected at 85-90% use in FY27; EBITDA per tonne +13% in FY26.",
+       "The main reason margins rose."
+      ],
+      [
+       "Aluminium growth in India and the Gulf",
+       "Yes",
+       "65%+ domestic pitch share; liquid pitch terminals at Haldia and Mangalore; first Middle East shipment Nov-2025; ~50 kt of pitch for export by FY28.",
+       "Steady volume, not a margin driver."
+      ],
+      [
+       "Electric-arc steel and graphite electrodes",
+       "Partly",
+       "Electrode makers are oversupplied with weak returns; pitch is a small cost for them.",
+       "Volume support, little pricing power."
+      ],
+      [
+       "China+1 in chemicals",
+       "Partly",
+       "Customers in 61 countries (from 56); anthraquinone and carbazole replace imports from Q2FY27.",
+       "Small revenue (₹250-300 cr potential)."
+      ],
+      [
+       "Lithium-ion batteries (LFP, anode)",
+       "No (not yet)",
+       "Anode 200 tpa since Apr-2026, samples at stage B; LFP 2,000 tpa from Q3FY27; no orders disclosed; China prices set the market.",
+       "An option worth watching, not yet earnings."
+      ],
+      [
+       "Tyre demand",
+       "Partly",
+       "Birla Tyres revenue ₹187 cr in FY26, ~₹127 cr in Q1FY27; target ₹3,000 cr in 4-5 years.",
+       "Revenue yes, profit not yet."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "Company filings and calls to Sep-2026, GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "core",
+   "nav": "Pitch & chemicals",
+   "kicker": "Segment",
+   "title": "Carbon materials & chemicals: the cash engine, now priced off higher raw-material costs",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Core revenue: flat for three years, +15% in Q1FY27",
+       "unit": "Carbon materials & chemicals incl. power, external (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Core revenue",
+         "values": [
+          1200,
+          1137,
+          1141,
+          1135,
+          1118,
+          1024,
+          1115,
+          1130,
+          1288
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Quarterly segment results; GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Segment EBIT margin: 13% to 21%",
+       "unit": "Carbon materials & chemicals EBIT margin (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBIT margin",
+         "values": [
+          12.7,
+          14.8,
+          16.3,
+          17.3,
+          17.8,
+          19.8,
+          19.3,
+          19,
+          20.5
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 25,
+       "source": "Quarterly segment results (Q2FY26 restated split derived)"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**What drives it.** Volume (capacity ~80% used in Q1FY27, 90%+ expected in FY27) times realisation (raw-material costs are passed on with a lag) times the mix of higher-value products. The company does not disclose product-wise volumes or prices, so we cannot split pitch from carbon black or oils.",
+      "**Q1FY27.** Standalone volume 131,844 t (-6% YoY) but revenue +16%: coal tar and oil prices rose after the April-May West Asia crisis and Himadri passed them on. Standalone EBITDA per tonne was ~₹22,900, up from ~₹16,700 a year ago and ~₹18,600 in Q4FY26. Management says the margins are \"sustainable\" and denies inventory gains.",
+      "**New capacity.** Distillation debottlenecked from 500 kt to 600 kt; liquid pitch terminals at Haldia and Mangalore; anthraquinone and carbazole (2,600 tpa in Q2FY27, 5,300 tpa by Q2FY28, ₹248 cr capex); CNT 200 tpa (Q4FY27, ₹70 cr). Management says there is no further capex in distillation.",
+      "**Competition.** Domestic pitch rivals are small (Himadri 65%+), and management says it sells pitch in India below Chinese prices. Carbon black competes with PCBL and global majors."
+     ]
+    },
+    {
+     "callout": "**Our view:** this is a good business with scale and integration that newcomers cannot copy quickly. But FY22-26 profit growth came almost entirely from EBITDA per tonne, which is partly cyclical (raw-material spreads). We assume ~₹20,500 per tonne in FY27 (Q1: ~₹23,654 on a consolidated core basis), rising to ~₹21,500 by FY29 with the mix, on volume growth of 6% / 8% / 5%. Core EBITDA: ₹{{F.seg.core.adjEbitda.0|num}} cr / ₹{{F.seg.core.adjEbitda.1|num}} cr / ₹{{F.seg.core.adjEbitda.2|num}} cr (FY26: ₹978 cr)."
+    }
+   ]
+  },
+  {
+   "id": "carbonblack",
+   "nav": "Speciality carbon black",
+   "kicker": "Segment",
+   "title": "Carbon black: the move to speciality grades is the real story of FY22-26",
+   "blocks": [
+    {
+     "p": "Carbon black is fine soot made by burning heavy oil in a controlled way; ~90% of the world's output goes into tyres and rubber. Speciality grades (for plastics, masterbatch, inks, coatings, cables and battery electrodes) need tighter control of particle size and purity and sell at higher prices per kilogram, not per tonne. Himadri makes its own feedstock oil from coal tar, which is its edge. It has 250 kt of carbon black capacity, of which 130 kt is speciality after a 70 kt line (₹220 cr) started in FY26, sold under nine brands (Energex and Electra for batteries, Jetex for cables, Klarex and Colorx for plastics and inks, among others). Next: 6,000 tpa of **super speciality black** (₹170 cr, Q4FY28), converted from commodity rubber-black lines, which management says carries margins \"significantly higher\" than speciality."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Carbon black: what we know and what we do not",
+      "head": [
+       "Item",
+       "Disclosed",
+       "Not disclosed"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Capacity",
+        "250 kt total; 130 kt speciality; +6 kt super speciality by Q4FY28",
+        "Utilisation by line"
+       ],
+       [
+        "Profitability",
+        "Basket EBITDA ~₹17,000/t in FY26; speciality \"significantly higher\"",
+        "Carbon black EBITDA per tonne; commodity vs speciality split"
+       ],
+       [
+        "Market",
+        "Speciality ~1.1 mn t globally growing ~4%; super speciality ~0.3 mn t",
+        "Himadri's share by grade"
+       ],
+       [
+        "Customers",
+        "Global tyre and polymer majors (Bridgestone, Continental, Goodyear, Yokohama, Apollo, CEAT, BASF, among those listed in the deck)",
+        "Customer concentration (no customer above 10% of revenue in FY26)"
+       ]
+      ],
+      "source": "Q3FY26 and Q1FY27 presentations, Q4FY26 and Q1FY27 calls, FY26 annual report"
+     }
+    },
+    {
+     "callout": "**Our view:** the speciality shift is genuine and it is why ICICI Securities saw \"EBITDA/kg continues to surprise positively\" in 2025. It is also where spreads can compress: in Q3FY26 EBITDA per kilogram dipped as speciality spreads came under pressure (ICICI Securities, Jan-2026). The new 70 kt line is the main volume driver of FY27; super speciality is too small (6 kt) to move group numbers before FY29."
+    }
+   ]
+  },
+  {
+   "id": "tyres",
+   "nav": "Birla Tyres",
+   "kicker": "Segment",
+   "title": "Birla Tyres: revenue is coming back, profit is not here yet",
+   "blocks": [
+    {
+     "p": "Birla Tyres was a well-known bias-tyre brand that went bankrupt. In Oct-2023 Himadri and Dalmia Bharat Refractories (DBRL) won it in insolvency; the plant restarted on 29-May-2025. The structure is complicated: the manufacturing undertaking sits in DBRL, funded by NCDs that Himadri holds (₹487 cr at Mar-26, up from ₹187 cr); Himadri owns the brand company (Birla Tyres Ltd, 100%) and 49%, with control, of the selling company. On 21-Sep-2026 the boards approved a scheme to demerge DBRL's tyre business into HSCL (1 HSCL share per 260 DBRL shares; FY26 turnover of that business ₹149 cr), which would simplify this. The focus is agri, off-the-road (OTR) and truck-bus bias tyres, with a radial car-tyre (PCR) plant for EVs and SUVs planned by FY28."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Others segment: from ₹47 cr to ₹144 cr a quarter",
+       "unit": "Revenue (₹ crore)",
+       "x": [
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          47,
+          69,
+          158,
+          144
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Quarterly segment results (Q2FY26 derived)"
+      },
+      {
+       "type": "column",
+       "title": "Segment EBIT: mining profit in Q4, ~nil without it",
+       "unit": "Others segment EBIT (₹ crore)",
+       "x": [
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBIT",
+         "values": [
+          -0.6,
+          3,
+          25.4,
+          1.2
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Quarterly segment results; Q1FY27 call (no mining in Q1)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What has been promised, and what has happened",
+      "head": [
+       "Item",
+       "Plan / guidance",
+       "Status at Sep-2026"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Revenue",
+        "₹3,000 cr in 4-5 years (Q1FY27 call)",
+        "FY26 ₹187 cr; Q1FY27 ~₹127 cr"
+       ],
+       [
+        "Profitability",
+        "EBITDA break-even in FY27, cash positive",
+        "Others EBIT ₹1 cr in Q1FY27 (no mining)"
+       ],
+       [
+        "Distribution",
+        "Deeper network, exports",
+        "49 distributors (40 India, 9 abroad), 1,000+ dealers; 145+ SKUs, ~400 in development"
+       ],
+       [
+        "Capacity",
+        "Convert truck-bus bias capacity to OTR over 3 years; PCR plant by FY28",
+        "~₹500 cr of capex planned in FY27"
+       ],
+       [
+        "Structure",
+        "Demerge DBRL tyre business into HSCL",
+        "Board approval 21-Sep-2026; needs SEBI, exchanges, NCLT, shareholders"
+       ]
+      ],
+      "source": "Q4FY26 and Q1FY27 calls, Jul-2026 presentation, board outcome 21-Sep-2026, FY26 annual report"
+     }
+    },
+    {
+     "callout": "**Our view:** we model Others (tyres plus mining) at ₹{{F.seg.oth.revenue.0|num}} cr / ₹{{F.seg.oth.revenue.1|num}} cr / ₹{{F.seg.oth.revenue.2|num}} cr (FY27-29E) at 2% / 5% / 7% EBITDA margins: about half of management's revenue path. Bias tyres are a shrinking, competitive product in India; a sub-scale re-entrant will struggle to match the 12-15% margins of the large tyre makers. By FY28 Himadri will have put ~₹1,000 cr (NCDs plus capex) into a business earning perhaps ₹50 cr of EBITDA."
+    }
+   ]
+  },
+  {
+   "id": "battery",
+   "nav": "Battery materials",
+   "kicker": "Segment",
+   "title": "Battery materials: a ₹1,245 cr bet on beating China at its own game",
+   "blocks": [
+    {
+     "p": "Himadri has worked on battery chemistry for over a decade and is building three things. (1) **Anode material** from its own specially engineered pitch: a 200 tpa plant started on 23-Apr-2026 (₹120 cr), revenue potential ₹120-130 cr, samples at stage B of a four-stage approval that takes 1.5-2 years; a commercial-scale plant is still to be announced. (2) **LFP cathode** (lithium iron phosphate, the chemistry of most EV and grid-storage batteries): 2,000 tpa in Q3FY27, then the rest of a 40,000 tpa Phase 1 (₹1,125 cr) over about 12 months, with FY29 the first full year; management says ~₹3,000 cr of revenue at full use, a 2x asset turn, and a long-term goal of 200,000 tpa (₹4,800 cr). It claims to be the first commercial LFP plant outside China. (3) **Partnerships**: a licence for Sicona's silicon-carbon anode (Australia), 19.44% of International Battery Company (US cell maker with a Korean plant and an Indian gigafactory planned for Q4FY27), and 40% of Invati."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The risks management did not answer",
+      "head": [
+       "Question",
+       "What management said",
+       "Our read"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Who will buy the LFP?",
+        "Samples encouraging; IBC a partner; MoUs under NDA",
+        "No binding offtake disclosed; approvals take 1.5-2 years"
+       ],
+       [
+        "Can it make money at Chinese prices?",
+        "Prices at par with China; cost edge from non-Chinese raw materials and an Indian base; sources confidential",
+        "An analyst on the Q1 call calculated a negative spread; Chinese LFP makers earn thin margins"
+       ],
+       [
+        "How big is anode?",
+        "Capex to be announced once approvals progress",
+        "No anode revenue in our numbers beyond samples"
+       ],
+       [
+        "What is it worth today?",
+        "₹30,000 cr battery-materials revenue ambition over 5-6 years (100 GWh)",
+        "An ambition, not a plan with funding"
+       ]
+      ],
+      "source": "Q4FY26 and Q1FY27 calls, Jul-2026 presentation"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What is the battery business worth? Three yardsticks",
+      "head": [
+       "Yardstick",
+       "Value (₹ cr)",
+       "₹ per share",
+       "Comment"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Capital committed (LFP Phase 1 + anode plant)",
+        "1,245",
+        "25",
+        "What has been or will soon be spent; a floor only if the plants work"
+       ],
+       [
+        "What the share price implies",
+        "10,400",
+        "205",
+        "Market value ₹34,228 cr less core at 16x and Others at 10x Sep-28E EBITDA (₹1,410 cr and ₹78 cr) and net cash and investments at Sep-27E (₹504 cr, model basis)"
+       ],
+       [
+        "Our FY29E battery EBITDA at 16x",
+        "1,281",
+        "25",
+        "FY29E revenue ₹{{F.seg.nem.revenue.2|num}} cr at 8%; anything more must come from the multiple"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**Our view:** the battery push is credible in intent (in-house R&D, own pitch for anodes, a phased build that waits for approvals) but unproven commercially, and it enters a market where China sets prices and cell-component prices have halved. We model ₹20 cr / ₹350 cr / ₹1,000 cr of revenue (FY27-29E), about a third of Phase 1 by FY29, with losses in FY27 and an 8% margin in FY29. The bull case lifts FY29 revenue to ~₹1,300 cr at a 14% margin."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: real in coal tar and pitch; narrow in carbon black; none yet in batteries or tyres",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Scale and integration in coal tar",
+       "Advantage",
+       "600 kt distillation, 65%+ of India's pitch, 8 plants, captive power, 292 heated tankers; by-products feed carbon black and speciality oils.",
+       "Lowest-cost Indian supplier; hard for a newcomer to collect enough coal tar."
+      ],
+      [
+       "Raw material access",
+       "Advantage",
+       "Long relationships with steel makers' coke ovens and imports; no dependence on West Asia (management).",
+       "Feedstock security, but prices pass through both ways."
+      ],
+      [
+       "Speciality carbon black know-how",
+       "Moderate",
+       "70+ grades, 130 kt capacity, EcoVadis Platinum; global majors still lead in high-end grades.",
+       "Mix shift is real; pricing power is not yet proven over a downturn."
+      ],
+      [
+       "Customer qualification (aluminium, electrodes, tyres)",
+       "Advantage",
+       "Approved by major smelters (Hindalco, Vedanta, Nalco, Alba, EGA per the deck) and electrode makers.",
+       "Sticky volumes."
+      ],
+      [
+       "Battery materials",
+       "None yet",
+       "Anode 200 tpa from Apr-2026; LFP 2,000 tpa from Q3FY27; no commercial orders disclosed.",
+       "An option, not a moat."
+      ],
+      [
+       "Tyres",
+       "None",
+       "Sub-scale revived brand against large incumbents.",
+       "Capital sink until scale."
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (filings and calls to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** Himadri has a **narrow moat in coal tar processing and pitch**: scale, integration and customer approvals that a new entrant cannot copy quickly, in a market where supply is tied to steel. In carbon black it has a cost edge from its own feedstock but competes with global majors on quality. It has **no moat yet in battery materials or tyres**, where most of the new capital is going. Margins in the core still move with raw-material spreads, as FY21-22 showed."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Flat revenue, five-fold profit: FY22-26 was a margin story",
+   "blocks": [
+    {
+     "p": "Himadri's numbers fall into two eras. Until FY22 it was a coal tar processor with thin, volatile margins: in FY21-22 raw-material costs ran ahead of prices, the EBITDA margin fell to 6% and net profit to ₹39 cr. Since then revenue has gone up only 67% (₹2,791 cr to ₹4,661 cr, and almost flat from FY23 to FY26), but EBITDA rose six-fold and net profit nearly twenty-fold to ₹755 cr. The driver was EBITDA per tonne: about ₹4,400 in FY22, ₹17,300 in FY26 and ~₹23,700 in Q1FY27, as more of the coal tar went into speciality carbon black, high-grade pitch and oils, and costs came down. Q1FY27 revenue rose 28% (₹1,432 cr) and net profit 27% (₹228 cr), the first quarter with real top-line growth."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: almost flat from FY23 to FY26",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY20",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num",
+         "growth": true
+        }
+       ],
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit: ₹39 cr to ₹755 cr in four years",
+       "unit": "Net profit (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY20",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 6% in FY22, 21% in FY26",
+       "unit": "EBITDA margin (%, after forex)",
+       "x": "fin.labels",
+       "from": "FY20",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 25,
+       "source": "Screener.in (annual accounts basis: forex inside expenses)"
+      },
+      {
+       "type": "column",
+       "title": "Other income jumped to ₹171 cr in FY26",
+       "unit": "Other income (₹ crore)",
+       "x": "A.labels",
+       "from": "FY20",
+       "series": [
+        {
+         "name": "Other income",
+         "ref": "A.otherIncome",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the improvement is real and has lasted four years, but it came mostly from margin, not volume (standalone volume +52% since FY22, +2% in FY26). FY26 profit also had help from other income of ₹171 cr, of which ₹100 cr was a fair-value gain on start-up investments. From FY27 growth must come from new capacity: speciality black, pitch exports, anthraquinone, tyres and, later, battery materials."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "Lean capex until FY25; now the biggest investment cycle in its history",
+   "blocks": [
+    {
+     "p": "For four years Himadri spent little on plants: capex was ₹23-171 cr a year in FY22-25, so most of the ₹1,619 cr of operating cash in FY22-26 went to paying down debt and building cash. That changed in FY26 (capex ₹450 cr, the 70 kt speciality black line) and changes more in FY27-28: management plans ~₹1,000 cr of capex in each year (LFP ₹1,125 cr, tyres ~₹500 cr, CNT, SSCB, anthraquinone). The other big use of cash has been investments outside the plant: ₹1,029 cr of investments bought in FY24-26, mainly Dalmia Bharat Refractories NCDs that fund the Birla Tyres plant (₹487 cr at Mar-26), IBC, Sicona and mutual funds. Returns are good: Screener ROCE 22%, the company's own figure 32% (it leaves out investments and CWIP)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Capex was tiny until FY26",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY22",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 5% in FY22, 22% since FY25",
+       "unit": "Return on capital employed (%)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          5,
+          13,
+          19,
+          22,
+          22
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 30,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went, FY22-26 (₹ crore)",
+      "head": [
+       "",
+       "FY22-23",
+       "FY24-26",
+       "Five years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "385",
+        "1,234",
+        "1,619"
+       ],
+       [
+        "Capex",
+        "106",
+        "674",
+        "780"
+       ],
+       [
+        "Free cash flow",
+        "279",
+        "560",
+        "839"
+       ],
+       [
+        "Investments bought, net (NCDs, IBC, Sicona, funds)",
+        "n.m.",
+        "891",
+        "891"
+       ],
+       [
+        "Warrant money received (₹316 a share)",
+        "–",
+        "342",
+        "342"
+       ],
+       [
+        "Dividends paid",
+        "14",
+        "66",
+        "80"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Borrowings at the end (₹770 cr at Mar-26)**",
+         "",
+         "",
+         ""
+        ]
+       }
+      ],
+      "source": "Screener.in cash flow (investments bought FY24-26: ₹422 + 98 + 509 cr less ₹138 cr sold), FY26 annual report"
+     }
+    },
+    {
+     "callout": "**Where it went right and wrong:** the speciality carbon black and pitch investments paid back quickly: EBITDA per tonne quadrupled. The open question is the next ₹2,000 cr. Batteries (₹1,245 cr committed to LFP and anode) have no orders yet, and tyres have absorbed ~₹490 cr of NCD funding plus ~₹500 cr of planned capex for ₹187 cr of FY26 revenue at about break-even. On our numbers ROE slips from 18% to ~16% in FY28E while that capital ramps up."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean audit, but other income and cash conversion need watching",
+   "blocks": [
+    {
+     "bullets": [
+      "**Forex inside expenses.** The company's EBITDA (₹1,006 cr in FY26) excludes forex; the P&L books forex in other expenses (FY26 loss ₹43.6 cr, Q1FY27 loss ₹25.2 cr). Screener's EBITDA (₹962 cr) is after the loss.",
+      "**Other income.** ₹171 cr in FY26 (₹52 cr FY25; ₹56 cr in Q1FY27): interest on deposits partly funded by short-term borrowing (borrowings rose from ₹313 cr to ₹770 cr in FY26), mutual-fund gains and fair-value gains on IBC, Sicona and Birla Tyres instruments. It was 17% of FY26 pre-tax profit.",
+      "**Fair-value gains in other income.** Of FY26 other income of ₹171.3 cr, ₹100.0 cr was a fair-value gain on non-current investments carried at fair value through P&L (IBC, Sicona and similar; ₹0.2 cr in FY25); interest on bank deposits was ₹43.5 cr. Excluding the fair-value gain, FY26 pre-tax profit would have been ~10% lower.",
+      "**Net cash definition.** Company net cash ₹121 cr at Mar-26 (Q4 call; the Jul-2026 deck shows ₹113 cr), down from ~₹371-392 cr at Mar-25 despite record profit, as capex, strategic investments and working capital absorbed cash.",
+      "**Cash conversion.** Screener: cash from operations ₹382 cr in FY26 vs EBITDA ₹962 cr (40%); inventory days rose from 68 to 96.",
+      "**Consolidation by control.** Invati (40%) and Himadri Birla Tyre Manufacturer (49%) are consolidated as subsidiaries on contractual control (Ind AS 110), so tyre revenue is consolidated while the tyre plant sits in DBRL until the demerger."
+     ]
+    },
+    {
+     "bullets": [
+      "**Related parties.** Himadri carries ₹183 cr of optionally convertible preference shares in Modern Hi-Rise, its own promoter holding company (a 1% non-cumulative instrument from a 2018 amalgamation; the issuer decides on conversion or redemption). Small stakes in group companies Himadri Credit & Finance and Himadri e-Carbon.",
+      "**Tyre funding off the operating line.** The Birla Tyres plant is funded through ₹487 cr of DBRL NCDs shown as investments, not capex; the demerger will bring the assets onto Himadri's balance sheet."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** The audit (Singhi & Co) is unqualified and segment data reconcile. The amber is for the size of other income (17% of FY26 pre-tax profit, over half of it fair-value gains), cash from operations at only 40% of EBITDA in FY26, a sizeable investment in the promoter's holding company, and tyre funding routed through investments."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash, but less of it than the headline suggests",
+   "blocks": [
+    {
+     "p": "The company reported net cash of ₹121 cr at March 2026 (₹113 cr in the July deck), down from ~₹390 cr a year earlier despite record profit. Screener's cash and investments (₹1,795 cr) less borrowings (₹770 cr) gives ₹1,025 cr, but ~₹860 cr of that is long-term investments that cannot pay for capex: DBRL NCDs and preference shares (the Birla Tyres funding), ₹183 cr of preference shares in the promoter holding company Modern Hi-Rise, and the IBC and Sicona stakes. Borrowings rose from ₹313 cr to ₹770 cr: management uses its bank lines and commercial paper and parks the money in deposits for a spread. Working capital rose too: inventory days went from 68 to 96 in FY26. With ~₹2,000 cr of capex in FY27-28, we expect free cash flow to be negative for two years."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Inventory days back up to 96",
+       "unit": "Days (Screener basis)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          125,
+          61,
+          85,
+          68,
+          96
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          66,
+          44,
+          57,
+          50,
+          55
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Borrowings more than doubled in FY26",
+       "unit": "Borrowings (₹ crore)",
+       "x": "A.labels",
+       "from": "FY22",
+       "series": [
+        {
+         "name": "Borrowings",
+         "ref": "A.borrowings",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and investments (incl. strategic and tyre-funding investments)",
+        "{{A.cashAndInvestments.7|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "Net debt (negative = net cash), Screener basis",
+        "{{A.netDebt.7|num}}",
+        "{{A.netDebt.9|num}}",
+        "{{A.netDebt.10|num}}",
+        "{{A.netDebt.11|num}}"
+       ],
+       [
+        "Net fixed assets",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Capital work in progress",
+        "{{A.cwip.7|num}}",
+        "{{A.cwip.9|num}}",
+        "{{A.cwip.10|num}}",
+        "{{A.cwip.11|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.7|num}}",
+        "{{A.inventories.9|num}}",
+        "{{A.inventories.10|num}}",
+        "{{A.inventories.11|num}}"
+       ],
+       [
+        "Trade receivables",
+        "{{A.receivables.7|num}}",
+        "{{A.receivables.9|num}}",
+        "{{A.receivables.10|num}}",
+        "{{A.receivables.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated), GAM Research. Company-defined net cash at Mar-26: ₹121 cr"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: the Choudhary family holds 52.5%; institutions barely 10%",
+   "blocks": [
+    {
+     "p": "The Choudhary family owns 52.5% (Jun-2026), mostly through Modern Hi-Rise Pvt Ltd (36.75%) and CMD Anurag Choudhary (8.59%, Mar-2026). Its stake rose from 44.8% in Dec-2023 after it converted 1 cr warrants at ₹316 in Nov-2025; nothing is pledged. Institutions own little: foreign investors 6.8%, insurers 2.05% and mutual funds just 1.26%. Retail investors (4,14,141 shareholders) hold most of the rest, which makes the stock volatile (52-week range ₹438-790)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "FIIs up to 6.8%; domestic funds only 3.3%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoter stake up from 44.8% to 52.5%",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 40,
+       "max": 55,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Named holders (promoters at Mar-2026; categories at Jun-2026)",
+      "head": [
+       "Holder",
+       "Stake",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Modern Hi-Rise Pvt Ltd (promoter holding company)",
+        "36.75%",
+        "Mar-2026"
+       ],
+       [
+        "Anurag Choudhary (CMD, promoter)",
+        "8.59%",
+        "Mar-2026"
+       ],
+       [
+        "Amit Choudhary (ED, promoter)",
+        "3.52%",
+        "Mar-2026"
+       ],
+       [
+        "Shyam Sundar Choudhary (ED, founder)",
+        "1.64%",
+        "Mar-2026"
+       ],
+       [
+        "Other promoter family members and Himadri Credit & Finance",
+        "2.00%",
+        "Mar-2026"
+       ],
+       [
+        "Foreign portfolio investors",
+        "6.8%",
+        "Jun-2026, none named above 1%"
+       ],
+       [
+        "Insurance companies",
+        "2.05%",
+        "Jun-2026"
+       ],
+       [
+        "Mutual funds",
+        "1.26%",
+        "Jun-2026"
+       ]
+      ],
+      "source": "FY26 annual report (note 17, promoter holdings at 31-Mar-2026); BSE shareholding pattern for Jun-2026 via Screener.in and Trendlyne. Named public holders for Jun-2026 not retrieved"
+     }
+    },
+    {
+     "callout": "**Our read:** a family-controlled company with a rising, unpledged promoter stake, which is good alignment. The weak spots are thin institutional ownership (no large domestic fund has bought in) and the absence of a long-term outside anchor since Bain Capital left in FY2021-22."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: an execution-focused family company with some related-party loops",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Anurag Choudhary",
+        "Chairman, Managing Director and CEO",
+        "Promoter; son of the founder; 8.59% direct holding; remuneration 70x the median employee (FY26)"
+       ],
+       [
+        "Shyam Sundar Choudhary",
+        "Executive Director",
+        "Founder-promoter; 61x median remuneration"
+       ],
+       [
+        "Amit Choudhary",
+        "Executive Director",
+        "Promoter; brother of the CMD; 61x median remuneration"
+       ],
+       [
+        "Kamlesh Kumar Agarwal",
+        "Chief Financial Officer",
+        "Also a director in subsidiaries"
+       ],
+       [
+        "Somesh Satnalika",
+        "Executive Vice President, Tyre and Strategy",
+        "On the Q1FY27 call"
+       ],
+       [
+        "Monika Saraswat",
+        "Company Secretary and Compliance Officer",
+        ""
+       ]
+      ],
+      "source": "FY26 annual report, Q1FY27 call"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Promoter alignment",
+       "Good",
+       "Promoters 52.5% (from 44.8% in Dec-2023), no pledge; bought 1 cr shares at ₹316 via warrants.",
+       "Family money at stake alongside minorities."
+      ],
+      [
+       "Related parties",
+       "Weak",
+       "₹183 cr in preference shares of the promoter holding company; tyre business funded through DBRL NCDs; group-company stakes.",
+       "Capital that sits outside the operating business."
+      ],
+      [
+       "Board",
+       "Moderate",
+       "Three promoter executives (father and two sons) and four independent directors; CMD is also chairman.",
+       "Family-dominated; independent majority only just."
+      ],
+      [
+       "Pay",
+       "Moderate",
+       "KMP pay ₹15.0 cr in FY26 (2% of PAT); CMD 70x and each executive director 61x median pay.",
+       "Not excessive for the profit, but high multiples."
+      ],
+      [
+       "Audit and disclosure",
+       "Moderate",
+       "Singhi & Co, unqualified; no product-wise volume, price or margin disclosure; no annual guidance except the FY28 PAT goal.",
+       "Hard to check the investment case from outside."
+      ],
+      [
+       "Capital allocation",
+       "Moderate",
+       "Disciplined in FY22-25 (low capex, debt repaid, phased LFP build); now ~₹2,000 cr into new areas plus ~₹490 cr already in tyre NCDs.",
+       "The next two years decide the verdict."
+      ],
+      [
+       "Credit",
+       "Good",
+       "ICRA long-term AA (Stable), upgraded from AA- (Positive) on 10-Jul-2026; short-term A1+; ₹2,480.86 cr rated",
+       "Lenders see a strong balance sheet."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "FY26 annual report, ICRA (Jul-2026), GAM research compilation"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: below management's FY28 goal and a little below the street",
+   "blocks": [
+    {
+     "p": "We forecast three business lines. The core (pitch, carbon black, chemicals and captive power) is built from volume and EBITDA per tonne; tyres and battery materials have their own revenue and margin paths. Other income falls as cash goes into capex and we assume no repeat of FY26's fair-value gains; capex follows management (~₹1,000 cr in each of FY27 and FY28). Every assumption, with its reasoning, is in the Excel model's Assumptions sheet."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Business-line forecasts (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Carbon materials & chemicals revenue",
+        "4,386",
+        "{{F.seg.core.revenue.0|num}}",
+        "{{F.seg.core.revenue.1|num}}",
+        "{{F.seg.core.revenue.2|num}}"
+       ],
+       [
+        "Others (Birla Tyres, mining) revenue",
+        "274",
+        "{{F.seg.oth.revenue.0|num}}",
+        "{{F.seg.oth.revenue.1|num}}",
+        "{{F.seg.oth.revenue.2|num}}"
+       ],
+       [
+        "New energy materials revenue",
+        "0",
+        "{{F.seg.nem.revenue.0|num}}",
+        "{{F.seg.nem.revenue.1|num}}",
+        "{{F.seg.nem.revenue.2|num}}"
+       ],
+       [
+        "Core EBITDA",
+        "978",
+        "{{F.seg.core.adjEbitda.0|num}}",
+        "{{F.seg.core.adjEbitda.1|num}}",
+        "{{F.seg.core.adjEbitda.2|num}}"
+       ],
+       [
+        "Others EBITDA",
+        "28",
+        "{{F.seg.oth.adjEbitda.0|num}}",
+        "{{F.seg.oth.adjEbitda.1|num}}",
+        "{{F.seg.oth.adjEbitda.2|num}}"
+       ],
+       [
+        "New energy materials EBITDA",
+        "–",
+        "{{F.seg.nem.adjEbitda.0|num}}",
+        "{{F.seg.nem.adjEbitda.1|num}}",
+        "{{F.seg.nem.adjEbitda.2|num}}"
+       ],
+       [
+        "Sales volume, core (000 t)",
+        "564",
+        "600",
+        "648",
+        "680"
+       ],
+       [
+        "Core EBITDA per tonne (₹)",
+        "17,331",
+        "20,528",
+        "20,987",
+        "21,472"
+       ],
+       [
+        "Net cash and investments, model basis (year end)",
+        "1,025",
+        "634",
+        "373",
+        "465"
+       ]
+      ],
+      "source": "Company (FY26 segment note; company EBITDA before forex), GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates (history: Screener EBITDA after forex)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street and management (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Management / street FY28E"
+      ],
+      "rows": [
+       [
+        "Revenue (₹ cr)",
+        "{{F.sales.0|num}}",
+        "~6,283 (+34.8%)",
+        "{{F.sales.1|num}}",
+        "n.a."
+       ],
+       [
+        "Net profit (₹ cr)",
+        "{{F.pat.0|num}}",
+        "~939 (+24.4%)",
+        "{{F.pat.1|num}}",
+        "1,100+ (management goal)"
+       ],
+       [
+        "EPS (₹)",
+        "{{F.eps.0|n1}}",
+        "~18.6",
+        "{{F.eps.1|n1}}",
+        "~21.8 at ₹1,100 cr"
+       ]
+      ],
+      "source": "Trendlyne consensus page as indexed on 22-Jul-2026 (one analyst; by elimination ICICI Securities); growth rates applied to FY26 actuals by GAM. Management goal: Q4FY26 and Q1FY27 calls. No FY28E consensus EPS dated by 30-Sep-2026 was found"
+     }
+    },
+    {
+     "callout": "For FY27 we are ~5% below the only consensus figure we found, mainly because we assume EBITDA per tonne eases from Q1's peak and other income falls (no fair-value gains). Our revenue is lower too (+24% vs +34.8%), as we assume realisations soften. For FY28 our net profit of ₹{{F.pat.1|num}} cr is ~11% below management's ₹1,100 cr+ goal: reaching it needs EBITDA per tonne near Q1's ~₹23,700 or a faster battery ramp. Our EPS grows ~15% a year over FY26-29E."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: one institutional broker, at HOLD, with targets chasing the price",
+   "blocks": [
+    {
+     "p": "Coverage is thin for a ₹34,000 cr company. ICICI Securities is the only institutional broker with a standing call on 30-Sep-2026: HOLD, target ₹720 (17-Jul-2026), raised from ₹550 (Apr) and ₹470 (Jan) as the share price rose; its method is a sum of the parts with the core on FY28E EV/EBITDA (12x in Jan, 15x in Apr; the July multiple is not public). Retail desks are more bullish: Mehta Equities (Feb, ₹571, buy on dips; battery business at 2.2x invested capital, 30x FY27E P/E as a check) and a technical call from IDBI Capital's derivatives desk (Jun, ₹900). The one consensus figure we found (Trendlyne, one analyst) expects FY27 revenue +35% and profit +24%. Bulls point to the speciality mix and the battery option; the brokers' own caution is about valuation and the battery timeline."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "The stock trades above ICICI's earlier SoTP values; ICICI stayed at HOLD through 2026 even as it raised targets",
+        "ICICI Securities (Jan-Jul 2026)"
+       ],
+       [
+        "LFP at Chinese prices may leave a negative gross spread",
+        "Anand Rathi analyst on the Q1FY27 call (management disputed it)"
+       ],
+       [
+        "Revenue was flat for three years (FY23-FY26); profit growth came from margins, which can reverse",
+        "GAM Research; management acknowledged on the Q4FY26 call"
+       ],
+       [
+        "Net cash fell from ~₹390 cr to ~₹120 cr in FY26 despite record profit; borrowings rose to ₹770 cr",
+        "Analyst question, Q4FY26 call"
+       ],
+       [
+        "Other income (₹171 cr) included ₹100 cr of fair-value gains on start-up investments",
+        "GAM Research (FY26 annual report)"
+       ],
+       [
+        "The tyre business has absorbed ~₹490 cr of NCD funding via DBRL for ₹187 cr of FY26 revenue at about break-even",
+        "GAM Research"
+       ]
+      ],
+      "source": "Broker notes, press and calls to 30-Sep-2026; GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 25x Sep-28E earnings gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values Himadri Speciality Chemical"
+    },
+    {
+     "p": "Only one institutional broker covers Himadri: **ICICI Securities values it on a sum of the parts, with the core business on FY28E EV/EBITDA** (12x in Jan-2026, 15x in Apr-2026; the July multiple behind its ₹720 target is not public). We use **P/E** instead, for four reasons: Himadri has net cash and little interest, so for the core EV/EBITDA and P/E carry the same information; ICICI's other parts (tyres, batteries, investments) are not disclosed, so we cannot copy them; management sets its goal in profit (₹1,100 cr+ PAT in FY28); and retail brokers use P/E. Our EV/EBITDA cross-check replicates ICICI's core method. We apply the multiple to the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "ICICI Securities (17-Jul-26)",
+        "Hold",
+        "720",
+        "SoTP (core EV/EBITDA)",
+        "n.d.",
+        "FY28E",
+        "–",
+        "Continued value creation in the core; Birla Tyres ramping up"
+       ],
+       [
+        "ICICI Securities (28-Apr-26)",
+        "Hold",
+        "550",
+        "SoTP (core EV/EBITDA)",
+        "15x",
+        "FY28E",
+        "–",
+        "Raised EBITDA 16-25% on Others; batteries from FY28"
+       ],
+       [
+        "ICICI Securities (22-Jan-26)",
+        "Hold",
+        "470",
+        "SoTP (core EV/EBITDA)",
+        "12x",
+        "FY28E",
+        "–",
+        "Speciality black spreads under pressure"
+       ],
+       [
+        "Mehta Equities (17-Feb-26)",
+        "Buy on dips",
+        "571",
+        "P/E (+ battery at EV/IC)",
+        "30x",
+        "FY27E",
+        "–",
+        "Better mix; battery growth; investment phase temporary"
+       ],
+       [
+        "IDBI Capital, derivatives desk (9-Jun-26)",
+        "Buy",
+        "900",
+        "Technical",
+        "–",
+        "–",
+        "–",
+        "Momentum; stop-loss ₹579"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**SELL**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**25x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Excellent core; the price already pays for FY28 goals and the battery bet"
+        ]
+       }
+      ],
+      "source": "Broker notes and press to 30-Sep-2026 (Trendlyne, Whalesbook, Business Today, Multibagg). Only the 17-Jul ICICI Securities call was standing as an institutional view on 30-Sep-2026. \"At our EPS\" applies P/E multiples to GAM EPS; n.d. = not disclosed"
+     }
+    },
+    {
+     "h": "Our target multiple: 25x, and why"
+    },
+    {
+     "p": "We start from the stock's own one-year-forward P/E since April 2021 and test it against the sector, growth, peers and returns."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Its own history",
+        "One-year-forward P/E median 24.9x since Apr-2021 (trough years excluded: none). Two regimes: ~11x in 2021-23 as a commodity tar processor (ROE 2-10%), ~29x since 2024 as a speciality mix (ROE 15-18%)",
+        "Starting point: 24.9x ≈ **25x**"
+       ],
+       [
+        "2. Sector de-rating",
+        "On 30-Sep-2026 listed chemical peers traded a median 28% below their five-year median P/E (SRF −28%, Navin −22%, PI −11%, Aarti −17%, Deepak −28%, Vinati −43%, Clean Science −34%, Atul −45%). Carbon and graphite names traded above theirs only on depressed earnings (PCBL +136%, HEG +280%, Graphite India +165%). Himadri re-rated: 42.9x trailing vs a 39.1x median",
+        "No cut: Himadri's median already includes 2021-23 at 8-13x, when chemical peers were at their richest. Applying the cut gives ~18x (our bear case)"
+       ],
+       [
+        "3. Growth",
+        "Our EPS grows ~15% a year over FY26-29E; the street's FY27 profit growth is ~24%; management's FY28 goal implies ~21% a year from FY26",
+        "No premium: growth slows as margins normalise"
+       ],
+       [
+        "4. Peers",
+        "Epigral 16.1x (ROE 16.1%), PCBL 49.2x (ROE 5.1%), HEG 38.0x, Gujarat Fluorochemicals 78.4x trailing; Himadri 42.8x (ROE 17.9%)",
+        "25x Sep-28E = 27.2x our FY28E: in line with large chemical peers, below trough-inflated carbon names"
+       ],
+       [
+        "5. Returns",
+        "ROE ~16% in FY28E vs a 12.5% cost of equity; free cash flow negative in FY27-28E (−₹451 cr and −₹284 cr) as ₹2,000 cr of capex and working capital absorb cash",
+        "Supports the historical multiple, not a premium to it"
+       ],
+       [
+        "6. What the price implies",
+        "32.4x Sep-28E EPS; after valuing the core at 16x and Others at 10x EBITDA, ~₹10,400 cr for battery materials",
+        "The market already pays for a large battery business"
+       ]
+      ],
+      "source": "Screener.in (P/E history to 30-Sep-2026); forwardMedian (valuation-blend.js); broker notes; GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "One-year-forward P/E: our 25x vs history",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward multiple",
+         "values": [
+          8.8,
+          9.8,
+          11,
+          10.9,
+          8.9,
+          10.5,
+          10.6,
+          9.1,
+          9.4,
+          12.4,
+          12.1,
+          9.1,
+          7.8,
+          7.2,
+          11.2,
+          12,
+          12.2,
+          12.3,
+          10.3,
+          10.9,
+          10.5,
+          8,
+          10.8,
+          11.8,
+          12.5,
+          17,
+          21.6,
+          21.7,
+          26.4,
+          32.9,
+          32.4,
+          27.9,
+          24.9,
+          22.4,
+          27.1,
+          32,
+          38.5,
+          41.6,
+          32.8,
+          38.5,
+          33.3,
+          29.2,
+          24.9,
+          26.4,
+          25.1,
+          28.5,
+          25.5,
+          25.8,
+          25.9,
+          26.6,
+          27,
+          28,
+          25.3,
+          31.6,
+          35.6,
+          34.3,
+          40.6,
+          35.1
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 25,
+         "text": "Our target: 25x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual earnings, GAM estimates for forecast years"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Share price today"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          523,
+          489,
+          330,
+          677.8
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "EPS Sep-28E ₹20.9",
+        "25x (bull 32x, bear 18x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "EBITDA Sep-28E ₹1,523 cr",
+        "16x (bull 20x, bear 12x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "-6%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-37%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA (16x Sep-28E EBITDA, close to ICICI Securities' 15x core multiple, plus net cash and investments at Sep-27E) gives ₹489, 6% below the P/E target, so the street's method lands in the same place on our numbers. The DCF (₹330) is lower still: capex of ~₹1,000 cr a year in FY27-28 and working capital at ~29% of revenue keep free cash flow negative until FY29, and 68% of the value sits in the terminal year. On every method the share price needs EBITDA per tonne to stay near Q1FY27's peak and batteries to arrive on time."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} FY29E EPS ₹{{scen.bull.eps.2|n1}}; 32x Sep-28E EPS (the post-2024 forward median)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Core EBITDA per tonne ~₹20,500-21,500, volume +5-8% a year; tyres at half of management's path; LFP a third of Phase 1 by FY29; 25x Sep-28E EPS."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} FY29E EPS ₹{{scen.bear.eps.2|n1}}; 18x (our median cut by the sector de-rating)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-39E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash and investments at Mar-27E (model basis)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research (discount rate 12.5% = cost of equity = WACC with net cash, beta 1.0; terminal growth 5.5%)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): discount rate down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed peers",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "EV/EBITDA (x)",
+       "ROE",
+       "P/E vs 5-yr median"
+      ],
+      "rows": [
+       [
+        "**Himadri Speciality**",
+        "34,228",
+        "4,661",
+        "20.6%",
+        "42.8",
+        "28.4",
+        "17.9%",
+        "+10%"
+       ],
+       [
+        "PCBL Chemical",
+        "13,030",
+        "8,189",
+        "12.7%",
+        "49.2",
+        "15.2",
+        "5.1%",
+        "+136%"
+       ],
+       [
+        "Epigral",
+        "4,367",
+        "2,527",
+        "22.4%",
+        "16.1",
+        "8.3",
+        "16.1%",
+        "−10%"
+       ],
+       [
+        "Neogen Chemicals",
+        "7,364",
+        "862",
+        "15.9%",
+        "207.1",
+        "53.9",
+        "3.6%",
+        "+110%"
+       ],
+       [
+        "Gujarat Fluorochemicals",
+        "48,392",
+        "4,996",
+        "24%",
+        "78.4",
+        "36.2",
+        "7.6%",
+        "+42%"
+       ],
+       [
+        "HEG Advanced Materials",
+        "7,835",
+        "2,568",
+        "15.5%",
+        "38.0",
+        "17.4",
+        "7.4%",
+        "+280%"
+       ],
+       [
+        "Graphite India",
+        "14,942",
+        "2,852",
+        "7.1%",
+        "68.2",
+        "36.1",
+        "2.9%",
+        "+165%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a better business than it was, at a price that assumes it keeps getting better",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's dominant coal tar pitch and naphthalene maker, with a fast-growing speciality carbon black arm, a debt-free balance sheet and ~18% ROE; plus two early bets, battery materials (LFP and anode) and a revived tyre brand, that will absorb most of the next ₹2,000 cr of capex."
+    },
+    {
+     "callout": "**What you are paying:** 35.2x our FY28E EPS and 32.4x Sep-28E, against a forward median of ~25x since 2021, for EPS growth of ~15% a year once margins normalise. On P/E and our inputs the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}); ICICI Securities' EV/EBITDA approach on our numbers lands slightly lower, and the DCF lower still."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹550 (HOLD) or ~₹450 (BUY)",
+        "Medium",
+        "Share price around the Q2FY27 results"
+       ],
+       [
+        "EBITDA per tonne holds above ~₹22,000 for several quarters",
+        "Medium",
+        "Q1FY27 ~₹23,654 (consolidated core basis); a second strong quarter after raw-material prices settle"
+       ],
+       [
+        "LFP or anode orders with named customers",
+        "Low-medium",
+        "Approvals (sample stages C-D) after the 2,000 tpa plant starts in Q3FY27"
+       ],
+       [
+        "Birla Tyres profitable at scale",
+        "Low-medium",
+        "EBITDA break-even in FY27; revenue run-rate above ₹200 cr a quarter"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Raw-material spreads compress (coal tar, carbon black feedstock)",
+        "Medium",
+        "Each ₹1,000/t of EBITDA ≈ ₹65 cr, ~5% of FY28E EPS"
+       ],
+       [
+        "LFP approvals slip or Chinese prices make it loss-making",
+        "Medium",
+        "Bear case: battery losses continue into FY29"
+       ],
+       [
+        "Tyres need more capital without profit",
+        "Medium",
+        "~₹1,000 cr tied up by FY28 for little EBITDA"
+       ],
+       [
+        "Other income falls further (no fair-value gains, less cash)",
+        "Medium",
+        "FY26 had ₹100 cr of fair-value gains; we assume none"
+       ],
+       [
+        "Steel sector shifts from blast furnaces (less coal tar)",
+        "Low (long term)",
+        "Feedstock tightness, higher import dependence"
+       ],
+       [
+        "Related-party transactions grow (promoter holding company, DBRL)",
+        "Low-medium",
+        "Governance discount"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: SELL, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would move to HOLD if the price fell below ~₹550 and to BUY below ~₹450**, or sooner if EBITDA per tonne proves sustainable near Q1FY27's level (our bull case) or LFP wins named orders.",
+      "**Biggest swing factor:** core EBITDA per tonne. Our base case assumes it eases from ~₹23,700 in Q1FY27 to ~₹20,500 for FY27; holding the Q1 level would add ~13% to FY28E EPS."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Core EBITDA per tonne, FY26",
+        "v": "₹17,331",
+        "d": "~₹4,400 in FY22; ~₹23,700 in Q1FY27"
+       },
+       {
+        "k": "Volume growth, FY26",
+        "v": "+2%",
+        "d": "Q1FY27 −6% YoY; prices +23%"
+       },
+       {
+        "k": "New capex, FY27-28E",
+        "v": "~₹2,000 cr",
+        "d": "LFP ₹1,125 cr, tyres ~₹500 cr"
+       },
+       {
+        "k": "Our FY28E EPS",
+        "v": "₹19.2",
+        "d": "management goal implies ~₹21.8"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY15–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 300
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 25
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA (after forex)"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "interest",
+        "name": "Interest"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Coal tar",
+        "A thick liquid by-product of turning coal into coke for steel-making; Himadri's main raw material."
+       ],
+       [
+        "Coal tar pitch (CTP)",
+        "The solid or liquid residue of distilling coal tar; binds the carbon anodes in aluminium smelters and graphite electrodes."
+       ],
+       [
+        "Carbon black",
+        "Fine carbon powder made by burning heavy oil; reinforces tyres and rubber. Speciality grades colour and conduct in plastics, inks, cables and batteries."
+       ],
+       [
+        "SSCB / CNT",
+        "Super speciality carbon black (high-purity niche grades) and carbon nanotubes (rolled graphene, used as conductive additives in batteries and electronics)."
+       ],
+       [
+        "Naphthalene / SNF",
+        "A coal tar fraction used for phthalic anhydride, dyes and mothballs; SNF (sulphonated naphthalene formaldehyde) is a concrete admixture."
+       ],
+       [
+        "Anthraquinone / carbazole",
+        "Speciality chemicals from coal tar used in dyes, hydrogen peroxide, pharma and electronics; India imports them today."
+       ],
+       [
+        "LFP cathode / anode",
+        "Lithium iron phosphate, the positive-electrode powder in most EV and storage batteries; the anode is the negative electrode, usually graphite."
+       ],
+       [
+        "EBITDA per tonne",
+        "Operating profit before depreciation divided by tonnes sold; our main measure of the core's profitability."
+       ],
+       [
+        "OTR / PCR / TBB",
+        "Off-the-road tyres (mining, construction), passenger-car radial tyres, truck-bus bias tyres."
+       ],
+       [
+        "SoTP",
+        "Sum of the parts: valuing each business separately and adding them up."
+       ],
+       [
+        "P/E, EV/EBITDA",
+        "Share price ÷ earnings per share; enterprise value (market value plus net debt) ÷ operating profit before depreciation."
+       ],
+       [
+        "ROE / ROCE",
+        "Profit as % of shareholders' equity / operating profit as % of capital employed."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the blended required return used to discount future cash."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "pat@FY21": "Profit trough: raw-material costs ran ahead of prices; EBITDA margin 8%.",
+  "pat@FY22": "₹39 cr: EBITDA margin 6% (company EBITDA ₹163 cr).",
+  "sales@FY23": "+49%: higher prices across the coal tar chain.",
+  "pat@FY23": "Recovery: EBITDA per tonne ~₹10,400.",
+  "pat@FY24": "+90%: speciality carbon black mix; EBITDA per tonne ~₹13,400.",
+  "otherIncome@FY26": "Includes ₹100 cr fair-value gain on investments (IBC, Sicona etc.).",
+  "ebitda@FY26": "After a ₹43.6 cr forex loss (company EBITDA ₹1,006 cr).",
+  "capex@FY26": "New 70 kt speciality carbon black line (₹220 cr).",
+  "sales@FY27E": "GAM: core +17% (volume +6%, prices +11%); tyres ₹620 cr.",
+  "capex@FY27E": "Management: ~₹1,000 cr (LFP, tyres, CNT, SSCB, anthraquinone).",
+  "pat@FY28E": "GAM ₹{{F.pat.1|num}} cr vs management goal ₹1,100 cr+."
+ }
+}

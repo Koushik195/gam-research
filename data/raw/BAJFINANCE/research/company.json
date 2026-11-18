@@ -1,0 +1,53 @@
+{
+ "symbol": "BAJFINANCE",
+ "asOf": "2026-09-30",
+ "_note": "Bajaj Finance fact base, as of 30-Sep-2026 (Q1FY27 basis). Consolidated unless stated. Sources keyed in 'sources'; each block names its source and page.",
+ "sources": {
+  "q1ppt": { "title": "Q1FY27 investor presentation", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12138db5-13e0-4417-a325-d6d8bffa5cb2.pdf", "published": "2026-07-30" },
+  "q1call": { "title": "Q1FY27 earnings call transcript (call 30-Jul-2026)", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b101e24e-b807-4c74-9025-90009f4b47a5.pdf", "published": "2026-08-04" },
+  "q4ppt": { "title": "Q4FY26 investor presentation", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be6ffd5d-c69b-4fcf-8214-1a6f302c6794.pdf", "published": "2026-04-29" },
+  "q4fy25ppt": { "title": "Q4FY25 investor presentation", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8beec986-70dd-415a-8ac3-27fecfef2d68.pdf", "published": "2025-04-29" },
+  "q4fy24ppt": { "title": "Q4FY24 investor presentation", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0f1f368-0789-4d62-9fd8-92ac57c452f0.pdf", "published": "2024-04-25" },
+  "q4fy23ppt": { "title": "Q4FY23 investor presentation", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc2c9ce5-f0cd-44d5-8d93-da71e8350bd2.pdf", "published": "2023-04-27" },
+  "screener": { "title": "Screener.in consolidated financials", "src": "https://www.screener.in/company/BAJFINANCE/consolidated/", "published": "frozen at 30-Sep-2026 by the model" }
+ },
+ "annualKpis": [
+  { "fy": "FY18", "customersMm": 26.2, "newLoansMm": 15.3, "costToIncome": 40.5, "creditCost": 1.40, "roa": 3.7, "roe": 20.1, "nnpa": 0.43, "pcr": 70, "crar": 24.7, "src": "q1ppt p27 (after presentation change)" },
+  { "fy": "FY19", "customersMm": 34.5, "newLoansMm": 23.5, "costToIncome": 35.6, "creditCost": 1.47, "roa": 4.2, "roe": 22.5, "nnpa": 0.63, "pcr": 60, "crar": 20.7, "src": "q1ppt p27" },
+  { "fy": "FY20", "customersMm": 42.6, "newLoansMm": 27.4, "costToIncome": 33.8, "creditCost": 2.98, "roa": 4.1, "roe": 20.2, "nnpa": 0.65, "pcr": 60, "crar": 25.0, "src": "q1ppt p27" },
+  { "fy": "FY21", "customersMm": 48.6, "newLoansMm": 16.9, "costToIncome": 31.0, "creditCost": 4.03, "roa": 3.1, "roe": 12.8, "nnpa": 0.75, "pcr": 58, "crar": 28.3, "src": "q1ppt p27" },
+  { "fy": "FY22", "customersMm": 57.6, "newLoansMm": 24.7, "costToIncome": 36.1, "creditCost": 2.31, "roa": 4.2, "roe": 17.4, "nnpa": 0.68, "pcr": 58, "crar": 27.2, "src": "q1ppt p27" },
+  { "fy": "FY23", "customersMm": 69.1, "newLoansMm": 29.6, "costToIncome": 36.5, "creditCost": 0.96, "roa": 5.3, "roe": 23.5, "nnpa": 0.34, "pcr": 64, "crar": 25.0, "src": "q1ppt p27" },
+  { "fy": "FY24", "customersMm": 83.6, "newLoansMm": 36.2, "costToIncome": 34.8, "creditCost": 1.33, "roa": 5.1, "roe": 22.1, "nnpa": 0.37, "pcr": 57, "crar": 22.5, "src": "q1ppt p27" },
+  { "fy": "FY25", "customersMm": 101.8, "newLoansMm": 43.4, "costToIncome": 33.9, "creditCost": 1.93, "roa": 4.6, "roe": 19.2, "nnpa": 0.44, "pcr": 54, "crar": 21.9, "src": "q1ppt p27, p37" },
+  { "fy": "FY26", "customersMm": 119.3, "newLoansMm": 52.5, "costToIncome": 33.3, "creditCost": 2.09, "roa": 4.3, "roe": 18.1, "nnpa": 0.41, "pcr": 60, "crar": 21.6, "src": "q1ppt p27, p37; q4ppt p21" }
+ ],
+ "annualKpisNote": "Company-reported ratios after the Q4FY26 presentation change (recoveries of written-off loans netted in loan losses). ROA is on average assets under finance (AUF), so it is higher than ROA on total assets. CRAR is standalone. customersMm / newLoansMm in million.",
+ "lossDetail": {
+  "llpBefore": { "FY18": 1030, "FY19": 1501, "FY20": 3929, "FY21": 5969, "FY22": 4803, "FY23": 3190, "FY24": 4631, "FY25": 7966, "FY26": 10282 },
+  "llpAfter": { "FY18": 957, "FY19": 1411, "FY20": 3778, "FY21": 5805, "FY22": 3910, "FY23": 2085, "FY24": 3776, "FY25": 7088, "FY26": 9482 },
+  "src": "q1ppt p26-27"
+ },
+ "fy26": { "aum": 509975, "auf": 498944, "interestIncome": 72776, "interestExpense": 28666, "nii": 44110, "nonInterestIncome": 9214, "nti": 53324, "opex": 17776, "ppop": 35548, "llp": 9482, "associates": 16, "exceptional": -265, "pbt": 25817, "pat": 19332, "patAttrib": 19017, "epsBasic": 30.60, "pbtBeforeOneOffs": 27630, "patBeforeOneOffs": 20689, "oneOffs": "Q3FY26 accelerated ECL ₹1,406 cr and Labour Code charge ₹265 cr; Q4FY26 overlay ₹142 cr", "cof": 7.54, "dps": 6.00, "specialDps": 0.60, "src": "q1ppt p37; q4ppt p21-23" },
+ "fy26Guidance": { "aumGrowth": "24-25%", "aumActual": 22, "nim": "stable", "nimActual": "marginally lower", "feeGrowth": "13-15%", "feeActual": 17, "opexImprovementBp": "40-50", "opexActualBp": 36, "creditCost": "1.85-1.95%", "creditCostActual": 1.93, "roa": "4.4-4.6%", "roaActual": 4.6, "roe": "19-20%", "roeActual": 19.2, "src": "q4ppt p27 (before one-offs and presentation change)" },
+ "fy27Guidance": { "customers": "15-17 MM (raised to 18-20 MM in Q1)", "aumGrowth": "22-24%", "nim": "marginal moderation (10-15bp)", "nonInterestIncomeGrowth": "16-18%", "opexToNtiImprovementBp": "25-40", "creditCost": "1.45-1.60% of average AUF", "roa": "4.4-4.6%", "roe": "19-20% (given excess capital)", "gnpaNnpa": "below long-term guidance (<1.4% / <0.5%)", "newLoans": "60-62 MM", "locations": "+150-175", "goldBranches": "2,700-2,800 by Mar-27; gold AUM ₹29-31k cr", "src": "q4ppt p28; q1ppt p6-7; q1call" },
+ "longTermGuidance": { "aumGrowth": "23-25%", "profitGrowth": "23-24%", "gnpa": "<1.4%", "nnpa": "<0.5%", "roa": "4.3-4.7%", "roe": "19-21%", "src": "q1ppt p23" },
+ "q1fy27": { "aum": 546944, "aumAdded": 36969, "aumGrowth": 24, "auf": 536138, "interestIncome": 20513, "interestExpense": 7942, "nii": 12571, "niiGrowth": 23, "nonInterestIncome": 2653, "nti": 15224, "opex": 5087, "costToIncome": 33.4, "ppop": 10137, "llp": 1993, "overlay": 296, "creditCost": 1.54, "creditCostExOverlay": 1.31, "pbt": 8149, "pat": 6081, "patGrowth": 28, "roa": 4.7, "roe": 20.4, "gnpa": 0.96, "nnpa": 0.39, "pcr": 60, "stage23Pct": 1.87, "crar": 20.90, "tier1": 20.01, "cof": 7.40, "deposits": 68534, "depositShare": 15, "liquidity": 17847, "newLoansMm": 16.13, "customersAddedMm": 5.10, "customersMm": 124.43, "crossSellMm": 79.22, "employees": 73261, "lcr": 231, "leverageStandalone": 4.3, "leverageConsolidated": 4.6, "src": "q1ppt p6-9, p37, p42-44; q1call" },
+ "bhfl": { "stake": 86.70, "targetStake": 75, "aumJun26": 149624, "aumGrowth": 24, "patQ1": 715, "patFY26": 2560, "roeQ1": 12.5, "gnpa": 0.29, "nnpa": 0.12, "crar": 21.59, "sharesCr": 832.9, "price30Sep": 82.0, "src": "q1ppt p16-17, p22; q1call ('We are at 86.7%. We will go down to 75%'); Screener BAJAJHFL" },
+ "funding": { "mix": "Money markets 50% : banks 30% : deposits 15% : ECB 5% (consolidated, Jun-26)", "ratings": "AAA/Stable (CRISIL, ICRA, CARE, India Ratings); S&P BBB/Stable; Moody's Baa3", "src": "q1ppt p24, p32" },
+ "management": [
+  { "name": "Sanjiv Bajaj", "role": "Chairman (Bajaj Finserv CMD)" },
+  { "name": "Rajeev Jain", "role": "Vice-Chairman & MD; MD 2015-Mar-2025, Vice-Chairman from Apr-2025, re-designated VC & MD on 21-Jul-2025; term to 31-Mar-2028; renewal decision 'by December 2027-January 2028' (Q1 call)" },
+  { "name": "Anup Saha", "role": "MD from Apr-2025; resigned 21-Jul-2025 after four months" },
+  { "name": "Sandeep Jain", "role": "COO & CFO" },
+  { "name": "Anurag Chottani", "role": "Chief Operating Officer (technology, AI)" }
+ ],
+ "quarterlyKpis": [
+  { "q": "Q4FY25", "aum": 416661, "customers": 101.82, "creditCost": 2.17, "src": "q4fy25ppt; q1ppt p49" },
+  { "q": "Q1FY26", "aum": 441450, "customers": 106.51, "creditCost": 1.87, "costOfFunds": 7.79, "src": "q1ppt p6, p37, p43, p49" },
+  { "q": "Q2FY26", "customers": 110.64, "costOfFunds": 7.52, "src": "q1ppt p43, p49" },
+  { "q": "Q3FY26", "aum": 484477, "customers": 115.40, "costOfFunds": 7.45, "src": "q4ppt p7 (Mar-26 AUM less Q4 addition of ₹25,498 cr); q1ppt p43, p49" },
+  { "q": "Q4FY26", "aum": 509975, "customers": 119.33, "creditCost": 1.65, "costOfFunds": 7.41, "crar": 21.55, "src": "q4ppt p5-9" },
+  { "q": "Q1FY27", "aum": 546944, "customers": 124.43, "creditCost": 1.54, "costOfFunds": 7.40, "crar": 20.90, "roe": 20.4, "src": "q1ppt p6-9" }
+ ]
+}

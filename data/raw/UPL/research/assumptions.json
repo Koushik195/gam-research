@@ -1,0 +1,473 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for UPL Ltd (consolidated, ₹ crore). Platform-driven: the four 'pure-play' platforms UPL reports in every investor presentation (UPL Corp = international crop protection, UPL SAS = India crop protection, Advanta = seeds and post-harvest, SUPERFORM = active ingredients and specialty chemicals) each grow revenue and earn an EBITDA margin on the company's own basis. Inter-platform sales (SUPERFORM's active ingredients sold to UPL Corp and UPL SAS) are removed by a negative 'eliminations' segment with zero margin. Group EBITDA is on the statutory/Screener basis: sum of platforms less 'unallocated' (group items, exchange losses on trade receivables/payables and the share of losses of associates and JVs, all of which UPL reports below its own EBITDA). Net Profit = profit attributable to UPL shareholders (after minority interests): see the tax-rate note. Valued on Sep-28E P/E (primary, as most brokers do), with a platform sum-of-the-parts and a DCF as cross-checks.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "corp",
+   "name": "UPL Corp (international crop protection)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 38277,
+   "growth": [
+    7,
+    7,
+    6
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    16.2,
+    16.8,
+    17.2
+   ],
+   "hist": {
+    "driver": "corpRev",
+    "revenue": "corpRev",
+    "adjEbitda": "corpEbitda"
+   },
+   "_why": "FY26 +11% (volume +7%, price −3%, FX +7%); Q1FY27 +7% (volume −7%, price flat, FX +14%) as Europe's heatwave and Latin America (Argentina, Colombia) hurt volumes. Management expects the global market 'flat to slightly up' and UPL to keep gaining share, with Q2-Q4 'led by volume'; FX helps less once the rupee stops falling (guidance assumes the June rate). We take +7% in FY27-28 (low-single-digit price, mid-single-digit volume, small FX) and +6% in FY29.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin 14.6% in FY25, 15.7% in FY26, 8.4% in the seasonally small Q1FY27 (+190 bp YoY on mix, pricing ahead of costs and lower credit-loss charges). FY27E 16.2%, then +40-60 bp a year from new products (innovation rate ~16% → >20% by FY30) and SG&A discipline; still below the 19-22% statutory EBITDA margin the whole group earned at the top of the cycle (FY21-23)."
+  },
+  {
+   "key": "sas",
+   "name": "UPL SAS (India crop protection)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 3212,
+   "growth": [
+    5,
+    8,
+    8
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    20,
+    19.5,
+    19.5
+   ],
+   "hist": {
+    "driver": "sasRev",
+    "revenue": "sasRev",
+    "adjEbitda": "sasEbitda"
+   },
+   "_why": "Flat revenue in FY25-26 (₹3,229 cr → ₹3,212 cr) as UPL dropped low-margin products; Q1FY27 flat (volume −8%, price +8%) on a delayed monsoon. ~65% of revenue comes in H1. FY27E +5%; FY28-29E +8% (Indian crop-protection market growth plus new brands).",
+   "_revWhy": "Driver is revenue itself (proforma India crop protection, excluding 'Nurture').",
+   "_marginWhy": "17.1% in FY26; Q1FY27 29.8% was seasonal and helped by price rises taken ahead of cost (CEO: part 'will normalise'). CFO: FY27 margin 'materially higher' than FY26. We use 20% in FY27E and 19.5% after."
+  },
+  {
+   "key": "adv",
+   "name": "Advanta (seeds and post-harvest)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 6837,
+   "growth": [
+    18,
+    15,
+    14
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    25.5,
+    26,
+    26.5
+   ],
+   "hist": {
+    "driver": "advRev",
+    "revenue": "advRev",
+    "adjEbitda": "advEbitda"
+   },
+   "_why": "+23% in FY26 (volume +12%, price +6%, FX +5%) and +26% in Q1FY27, led by field corn in India (ethanol demand), Latin America and South-East Asia. Figures include Decco (post-harvest), moved into Advanta in Q2FY26. FY27E +18% (FX tailwind fades), FY28E +15%, FY29E +14%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "23.8% in FY25, 25.2% in FY26, 20.4% in Q1FY27 (seasonally low). Operating leverage adds ~50 bp a year."
+  },
+  {
+   "key": "sf",
+   "name": "SUPERFORM (active ingredients and specialty chemicals)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 10298,
+   "growth": [
+    10,
+    10,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    12.5,
+    13,
+    13.5
+   ],
+   "hist": {
+    "driver": "sfRev",
+    "revenue": "sfRev",
+    "adjEbitda": "sfEbitda"
+   },
+   "_why": "~71% of revenue is active ingredients sold to UPL Corp and UPL SAS; 29% is 'super specialty chemicals' (SSC) sold to outsiders (lubricant additives, cyanide derivatives). FY26 +1% (SSC +20%, AI −5%); Q1FY27 +14% (SSC +51%). Management targets a 55:45 AI:SSC mix in 3-4 years. FY27-29E +10% a year (SSC +25-30%, AI +3-5%).",
+   "_revWhy": "Driver is revenue itself (including sales to group companies, removed in eliminations).",
+   "_marginWhy": "11.2% in FY25, 12.2% in FY26, 12.3% in Q1FY27 with higher overheads; SSC mix lifts the margin by ~50 bp a year."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-platform eliminations",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": -6785,
+   "growth": [
+    5,
+    5,
+    5
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elimRev",
+    "revenue": "elimRev",
+    "adjEbitda": "elimEbitda"
+   },
+   "_why": "Group revenue less the sum of the four platforms: −₹6,720 cr in FY25 and −₹6,785 cr in FY26 (about 92% of SUPERFORM's active-ingredient sales, which go to UPL Corp and UPL SAS). Grows with AI sales: +5% a year.",
+   "_revWhy": "Negative segment (engine has no elimination line).",
+   "_marginWhy": "Zero: the EBITDA effect of eliminations sits in 'unallocated'."
+  }
+ ],
+ "unallocated": [
+  520,
+  420,
+  380
+ ],
+ "_unallocLabel": "Group items, exchange losses on trade balances and share of losses of associates/JVs (platform EBITDA − statutory EBITDA)",
+ "_unallocWhy": "FY26: platforms ₹9,539 cr; company EBITDA ₹9,588 cr (+₹49 cr group items); statutory/Screener EBITDA ₹9,078 cr after exchange losses on trade receivables and payables (₹316 cr) and the share of losses of associates and JVs (₹194 cr), which UPL shows below EBITDA. FY25: ₹807 cr (FX ₹520 cr, associates ₹472 cr). Q1FY27: ₹222 cr (group −₹89 cr, associates ₹83 cr on Brazilian JV losses). FY27E ₹520 cr; easing to ₹380 cr by FY29E as associate losses narrow.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  2600,
+  2700,
+  2800
+ ],
+ "_capexWhy": "FY26 capex ₹2,352 cr ($261 mn, company cash flow; Screener ₹2,406 cr) after ₹1,254 cr in FY25; Q1FY27 ₹434 cr vs ₹294 cr ('higher planned capex'). The company gave no FY27 number on its calls; CARE (30-Jun-2026) cites FY27 capex of ₹2,500-3,000 cr. We use ₹2,600 cr, then ₹2,700-2,800 cr (~4.3% of revenue). Strategic investments (e.g., ₹669 cr into the Brazilian associate Sinova in Q1FY27) are not in capex.",
+ "depRateOnGrossBlock": 5,
+ "_depWhy": "FY26 D&A ₹3,244 cr = 5.2% of average gross block (₹62,774 cr, incl. intangibles from the 2019 Arysta deal); Q1FY27 ₹832 cr (+14% YoY). 5.0% on our capex gives ₹3,390-3,660 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net debt company: interest income is in 'other income'.",
+ "otherIncome": [
+  650,
+  600,
+  600
+ ],
+ "_otherIncomeWhy": "Statutory other income ₹663 cr in FY26 (₹486 cr FY25), mostly interest income; Q1FY27 ₹217 cr. Exceptional items assumed nil.",
+ "interest": [
+  3200,
+  2850,
+  2550
+ ],
+ "_interestLabel": "Finance costs (gross, incl. factoring and exchange on borrowings)",
+ "_interestWhy": "Statutory finance costs ₹3,627 cr (FY25) → ₹3,401 cr (FY26); Q1FY27 ₹852 cr (−15% YoY). Gross debt fell $850 mn in FY26 to $2.3 bn; the next $500 mn falls due Dec-2026 and $500 mn in FY28. Free cash flow of ~₹3,000 cr a year and Advanta IPO proceeds (UPL sells 7.8% in the offer for sale) reduce debt; costs also include non-recourse factoring of ₹6,800-10,200 cr of receivables. FY27E ₹3,200 cr, FY28E ₹2,850 cr, FY29E ₹2,550 cr.",
+ "taxRate": [
+  38,
+  40,
+  41.5
+ ],
+ "_taxWhy": "This line is tax PLUS minority interests, as % of profit before tax (the engine has no minority line; our Net Profit is profit attributable to UPL shareholders). FY26: tax ₹937 cr (29.7%) + minorities ₹298 cr = 39.1% of PBT. Forecast: tax 28% plus minorities taking 14% (FY27E), 16.5% (FY28E) and 18.5% (FY29E) of profit after tax, rising because the fast-growing Advanta pays 21.8% to minorities (29.6% after UPL sells 7.8% in the IPO) and UPL Corp (22.2% minority) earns more as interest falls.",
+ "payout": [
+  25,
+  25,
+  25
+ ],
+ "_payoutWhy": "DPS ₹6 for FY25 and FY26 (~26% of FY26 attributable profit); ₹1 in FY24; ₹10 in FY21-23.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 4.5,
+  "years": 15,
+  "fadeGrowthTo": 5,
+  "fadeMarginTo": 17.5,
+  "fadeCapexPctTo": 4.5,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at one rate (cost of equity = WACC). UPL is leveraged, so we enter a WACC: cost of equity ~13.7% (beta 1.2) weighted ~75%, post-tax cost of debt ~5.5% weighted ~25% (net debt ~₹15,300 cr plus factored receivables vs ~₹45,600 cr market value) = ~11.9%, which beta 0.9 produces. The tax line includes minorities (~41% in FY29E), so FCFF is roughly UPL's share of cash flow; net debt is deducted in full, which is conservative.",
+  "_tgWhy": "Global crop protection grows 1-3% a year in dollars (company, AgbioInvestor); in rupees add ~2-3% depreciation: 4.5%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~8% to 5%; EBITDA margin fades to 17.5%, the FY20-26 average on the statutory basis (it was 10% in the FY24 trough and 22% at the FY21 peak), because crop protection is cyclical.",
+  "_fadeCapexWhy": "Capex ~4.5% of revenue (FY26 4.5%); depreciation 5% of revenue as Arysta intangibles amortise."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Crop-protection volumes recover on share gains and new products, prices firm as the industry passes on higher costs, and Advanta keeps growing above 20%; the Advanta IPO and UPL Global listing narrow the holding-company discount.",
+   "fadeMarginTo": 19.5,
+   "segments": {
+    "corp": {
+     "growthDelta": 2,
+     "marginDelta": 1
+    },
+    "adv": {
+     "growthDelta": 4,
+     "marginDelta": 1
+    },
+    "sf": {
+     "growthDelta": 3,
+     "marginDelta": 0.5
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Chinese generic oversupply returns, prices fall again as in FY24, the channel destocks in Latin America and Europe, India's monsoon disappoints and Advanta slows; working capital rises and debt does not fall.",
+   "fadeMarginTo": 15.5,
+   "segments": {
+    "corp": {
+     "growthDelta": -4,
+     "marginDelta": -1.5
+    },
+    "sas": {
+     "marginDelta": -3
+    },
+    "adv": {
+     "growthDelta": -5,
+     "marginDelta": -1.5
+    },
+    "sf": {
+     "growthDelta": -4,
+     "marginDelta": -1
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 10,
+  "parts": [
+   {
+    "name": "UPL Corp (international crop protection)",
+    "seg": "corp",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 7,
+     "bull": 8,
+     "bear": 5.5
+    },
+    "note": "Post-patent crop protection: Nuvama 7x FY28E for Global Crop Protection, Anand Rathi 10x for UPL Global; Elara 6.3x and Arihant 7.5x for the whole group. Generic agchem peers (FMC, Nufarm, ADAMA) earn lower margins and trade on mid-to-high single-digit EV/EBITDA. 7x: no premium while ROCE is ~10%."
+   },
+   {
+    "name": "UPL SAS (India crop protection)",
+    "seg": "sas",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA × EV/EBITDA",
+    "multiple": {
+     "base": 12,
+     "bull": 15,
+     "bear": 9
+    },
+    "note": "Indian crop-protection peers trade at ~12-20x trailing EV/EBITDA (Dhanuka, Rallis, Bayer CropScience); SAS has had flat revenue for two years and a volatile margin, so it sits at the bottom of that range."
+   },
+   {
+    "name": "Advanta (seeds and post-harvest)",
+    "seg": "adv",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA × EV/EBITDA",
+    "multiple": {
+     "base": 15,
+     "bull": 20,
+     "bear": 11
+    },
+    "note": "Alpha Wave paid $350 mn for ~12.5% in Nov-2024 at an enterprise value of ~$2.8 bn (~20x Advanta's then trailing EBITDA). Anand Rathi and Nuvama use 25x. We use 15x forward: the business grows 15-20% with a 25% margin, but the IPO will price it against global seed companies on lower multiples."
+   },
+   {
+    "name": "SUPERFORM (AI and specialty chemicals)",
+    "seg": "sf",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA × EV/EBITDA",
+    "multiple": {
+     "base": 10,
+     "bull": 13,
+     "bear": 7
+    },
+    "note": "~70% captive active ingredients at a 12-13% margin, ~30% fast-growing specialty chemicals. Anand Rathi 15x (a 20% discount to specialty peers). 10x: between agchem manufacturers and specialty-chemical peers."
+   },
+   {
+    "name": "Less: group items, FX and associates",
+    "unalloc": true,
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E unallocated (negative) × multiple",
+    "multiple": {
+     "base": 7,
+     "bull": 8,
+     "bear": 5.5
+    },
+    "note": "Exchange losses on trade balances and associate/JV losses recur every year; valued like UPL Corp."
+   },
+   {
+    "name": "Less: 22.2% of UPL Corp owned by TPG, ADIA and Brookfield",
+    "seg": "corp",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "−22.21% × UPL Corp EV, plus their share of its net debt",
+    "multiple": {
+     "base": -1.555,
+     "bull": -1.777,
+     "bear": -1.222
+    },
+    "adj": {
+     "base": 2890,
+     "bull": 2890,
+     "bear": 2890
+    },
+    "note": "Minority share of UPL Corp's equity = 22.21% × (EV − net debt). Net debt of UPL Corp is not disclosed; we allocate ~₹13,000 cr (about 85% of group net debt, in line with Nuvama's split and UPL Global's guided 2.0-2.3x net debt/EBITDA), so 22.21% × ₹13,000 cr = ₹2,890 cr is added back."
+   },
+   {
+    "name": "Less: 9.1% of UPL SAS owned by TPG, ADIA and Brookfield",
+    "seg": "sas",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "−9.09% × UPL SAS EV",
+    "multiple": {
+     "base": -1.091,
+     "bull": -1.364,
+     "bear": -0.818
+    },
+    "note": "UPL SAS is assumed debt-free."
+   },
+   {
+    "name": "Less: 21.8% of Advanta owned by KKR and Alpha Wave",
+    "seg": "adv",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "−21.79% × Advanta EV",
+    "multiple": {
+     "base": -3.269,
+     "bull": -4.358,
+     "bear": -2.397
+    },
+    "note": "UPL group owns 78.21% (Feb-2026). The IPO is an offer for sale, so it moves value from shares to cash and does not change the total; Advanta is assumed debt-free."
+   },
+   {
+    "name": "Less: net debt at Sep-27E",
+    "netCash": true,
+    "roll": [
+     "FY27E",
+     "FY28E",
+     0.5
+    ],
+    "metricLabel": "Model net debt at the target date (½ Mar-27E + ½ Mar-28E)",
+    "note": "Borrowings incl. leases less cash and all investments (investments include ~₹2,000 cr of stakes in associates and JVs, taken at book value). Excludes ₹10,231 cr of receivables factored without recourse (Mar-26)."
+   }
+  ],
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 12,
+      "bull": 14,
+      "bear": 9
+     },
+     "why": "How most of the street values UPL (Motilal Oswal 12x, Jefferies 14x Jun-28E, Anand Rathi 15x and Antique 16x FY28E). Derivation: UPL’s one-year-forward P/E median since Apr-2021 on the house rule (forwardMedian: trough years left out) is 16.6x; forward FY25 and FY26 are excluded as trough years (EPS ₹11.5 and ₹22.8, below half of FY23’s ₹45.6) and the FY24 loss drops out automatically (all dates: 22.5x). Indian crop-protection peers trade ~25% below their five-year median P/E (median ratio 0.75; Coromandel, a fertiliser company, left out). 16.6x × 0.75 ≈ 12.4x → 12x (nearest whole multiple); no premium while ROE (8-11%) is below the ~13.7% cost of equity and minorities take a rising share of profit: 12x. Bull 14x (Jefferies’ long-term average), bear 9x."
+    },
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "cross-check",
+     "why": "Each platform on Sep-28E EV/EBITDA, less group items, UPL's minority partners' share of each platform and net debt; no holding-company discount. Shows what the platforms could be worth if listed separately."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "15-year FCFF at ~11.9% WACC, terminal growth 5%, less group net debt."
+    }
+   ]
+  }
+ }
+}

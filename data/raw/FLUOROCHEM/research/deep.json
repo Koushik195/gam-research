@@ -1,0 +1,1237 @@
+{
+ "symbol": "FLUOROCHEM",
+ "asOf": "2026-09-30",
+ "_note": "Industry, street, ownership, moat, gaps and conflicts as of 30-Sep-2026. Street and industry items compiled by GAM research assistants from sources dated on or before 30-Sep-2026 (later items are in updates/later-facts.json).",
+ "industry": {
+  "market": [
+   {
+    "fact": "MarketsandMarkets: global fluoropolymers market USD 10.32bn in 2025, forecast USD 14.13bn by 2030 (6.5% CAGR). Asia Pacific is the largest region. Drivers cited: EVs (batteries, wiring, seals), semiconductors (ultra-pure grades), renewables (solar, Li-ion, hydrogen films/membranes). PTFE is the largest product type.",
+    "value": {
+     "2025_usd_bn": 10.32,
+     "2030_usd_bn": 14.13,
+     "cagr_pct": 6.5
+    },
+    "src": "https://pr.lakeoconeebreeze.net/article/Fluoropolymers-Market-worth-dollar1413-billion-in-2030-at-a-CAGR-of-65percent-says-MarketsandMarketstm/69bc024f3971457808b0b47e",
+    "published": "2026-03-19"
+   },
+   {
+    "fact": "MarketsandMarkets: PTFE market USD 3.12bn in 2026, forecast USD 3.87bn by 2031 (4.4% CAGR). Asia Pacific held 50.5% share in 2025. Leading players named: Daikin, Dongyue, Gujarat Fluorochemicals. (Paid press release; publisher's own estimates.)",
+    "value": {
+     "2026_usd_bn": 3.12,
+     "2031_usd_bn": 3.87,
+     "cagr_pct": 4.4,
+     "apac_share_2025_pct": 50.5
+    },
+    "src": "https://smb.winchestersun.com/article/PTFE-Market-to-Reach-USD-387-Billion-by-2031-at-a-CAGR-of-44percent-MarketsandMarketstm/6a85b7bce2557832e110fcd8",
+    "published": "2026-08-19"
+   },
+   {
+    "fact": "Global Market Insights: fluoropolymers used in semiconductor manufacturing were USD 1.6bn in 2025, forecast USD 3.1bn by 2035 (6.9% CAGR, 2026-35). Drivers: 300mm fab build-outs, EUV/high-NA lithography, advanced packaging. Top 5 hold ~63% (Chemours ~18.6%, Daikin, Syensqo, Arkema, Saint-Gobain).",
+    "value": {
+     "2025_usd_bn": 1.6,
+     "2035_usd_bn": 3.1,
+     "cagr_pct": 6.9,
+     "chemours_share_pct": 18.6
+    },
+    "src": "https://www.gminsights.com/industry-analysis/fluoropolymers-in-semiconductor-manufacturing-market",
+    "published": "2026-08 (day not stated)"
+   },
+   {
+    "fact": "Market-size estimates differ a lot by publisher (scope differs). Treat ~USD 9-10bn (2025) with ~4-6.5% CAGR as the range. Other pre-cutoff estimates are paywalled teasers; IMARC and Fortune pages were updated after the cutoff (see laterFacts).",
+    "value": null,
+    "src": "https://pr.lakeoconeebreeze.net/article/Fluoropolymers-Market-worth-dollar1413-billion-in-2030-at-a-CAGR-of-65percent-says-MarketsandMarketstm/69bc024f3971457808b0b47e",
+    "published": "2026-03-19"
+   },
+   {
+    "fact": "Demand driver (AI/semis/new energy): Dongyue says H1 2026 fluoropolymer demand recovered and prices rose year on year because AI, semiconductors and new energy grew fast. Segment revenue +10.35%, segment result +69.2%.",
+    "value": {
+     "h1_2026_fluoropolymer_rev_growth_pct": 10.35,
+     "h1_2026_result_growth_pct": 69.21
+    },
+    "src": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082001423.pdf",
+    "published": "2026-08-20"
+   },
+   {
+    "fact": "Demand driver (data centres/semis): Chemours (Q4 2025 call) cited a strengthening semiconductor order book and rising AI/data-centre demand for high-purity PFA and Teflon products. It called auto, industrial and construction weak (down to flat).",
+    "value": null,
+    "src": "https://www.fool.com/earnings/call-transcripts/2026/02/20/chemours-cc-q4-2025-earnings-call-transcript",
+    "published": "2026-02-20"
+   },
+   {
+    "fact": "Demand driver (data centres/semis), H1 2026 check: Chemours Q2 2026 says Performance Solutions sales rose 8% year on year on demand for specialty products for data centres and semiconductors. Overall APM sales still fell 6% because of the Capstone exit and the Washington Works outage.",
+    "value": {
+     "performance_solutions_sales_growth_pct": 8
+    },
+    "src": "https://chemours.gcs-web.com/news-releases/news-release-details/chemours-company-reports-second-quarter-results",
+    "published": "2026-08-04"
+   },
+   {
+    "fact": "Hydrogen is a weak spot, not a driver, in 2025: Chemours' FY2025 10-K cites 'weakness in ... products serving hydrogen markets' (Nafion membranes, Performance Solutions) as a reason for lower APM volumes. Chemours also announced closing its Villers-Saint-Paul (France) site, which was originally meant for hydrogen.",
+    "value": null,
+    "src": "https://www.sec.gov/Archives/edgar/data/1627223/000119312526065201/cc-20251231.htm",
+    "published": "2026-02-24"
+   },
+   {
+    "fact": "PFA (semiconductor-grade) context: PFA sells at a ~30-50% premium to PTFE. Foreign producers hold >70% of the global PFA market. In China only Dongyue and Juhua can make ultra-pure PFA in batches. SEMI certification takes 6-12 months plus 12-24 months of customer qualification. GFL is listed among the foreign PFA producers.",
+    "value": {
+     "pfa_premium_to_ptfe_pct": "30-50",
+     "foreign_share_global_pfa_pct": ">70"
+    },
+    "src": "https://www.chinabaogao.com/free/202607/807552.html",
+    "published": "2026-07-21"
+   }
+  ],
+  "supplyExits": [
+   {
+    "fact": "3M completed its exit from PFAS manufacturing at the end of 2025, per its annual report (quoted by ChemSec). Critics note 3M's sales of PFAS it made more than doubled in 2025 vs 2024 as it ran down output, and that ~14,000 3M products still contain PFAS bought from suppliers.",
+    "value": null,
+    "src": "https://chemsec.org/3m-promised-to-phase-out-pfas-how-has-it-turned-out/",
+    "published": "2026-02-26"
+   },
+   {
+    "fact": "3M announced the exit on 20 Dec 2022, covering fluoropolymers (Dyneon), fluorinated fluids and PFAS-based additives, with a deadline of end-2025.",
+    "value": null,
+    "src": "https://watertechonline.com/industry/article/14287731/3m-to-exit-pfas-manufacturing-by-end-of-2025",
+    "published": "2023-01-03"
+   },
+   {
+    "fact": "AGC Chemicals Europe proposed ceasing operations at its Hillhouse site (Thornton-Cleveleys, Lancashire, UK), which makes PTFE, ETFE and fluoroelastomers. Consultation of at least 45 days began 13 Jul 2026. If confirmed, production ends by end-2026. Affects ~190 employees and 18 agency staff. Reason given: four straight years of losses in a volatile, competitive market. Capacity in tonnes was not disclosed. No final decision found as of the cutoff.",
+    "value": {
+     "employees": 190,
+     "agency_staff": 18,
+     "target_cessation": "end-2026"
+    },
+    "src": "https://www.chemicalprocessing.com/industrynews/news/55390505/agc-chemicals-europe-proposes-uk-plant-closure-by-year-end",
+    "published": "2026-07-13"
+   },
+   {
+    "fact": "AGC Hillhouse context: the site faces possible legal claims from residents over PFOA contamination (it emitted an estimated 49 t of PFOA from the 1950s to 2012). AGC did not cite this as a reason for closing.",
+    "value": {
+     "historic_pfoa_emissions_t": 49
+    },
+    "src": "https://www.thechemicalengineer.com/news/lancashire-chemicals-plant-linked-to-pfas-contamination-announces-closure/",
+    "published": "2026-07-27"
+   },
+   {
+    "fact": "Chemours restructuring: it completed the exit of the SPS Capstone product line in Q3 2025, announced the closure of its Villers-Saint-Paul (France) site, and continues a European asset review into 2027. No exit of fluoropolymer (PTFE/PFA) capacity was announced.",
+    "value": null,
+    "src": "https://www.fool.com/earnings/call-transcripts/2026/02/20/chemours-cc-q4-2025-earnings-call-transcript",
+    "published": "2026-02-20"
+   },
+   {
+    "fact": "Chemours Washington Works (WV, main US fluoropolymer site): unscheduled full shutdown in 2025 (~USD 20m Q3 2025 hit), then another outage in Jan 2026 (est. USD 20-25m hit to Q1 2026 EBITDA). Q1 2026 APM Adjusted EBITDA was guided to breakeven to USD 5m. This is an involuntary supply disruption, not a permanent exit.",
+    "value": {
+     "q1_2026_ebitda_hit_usd_m": "20-25",
+     "q1_2026_apm_ebitda_guide_usd_m": "0-5"
+    },
+    "src": "https://www.fool.com/earnings/call-transcripts/2026/02/20/chemours-cc-q4-2025-earnings-call-transcript",
+    "published": "2026-02-20"
+   }
+  ],
+  "china": [
+   {
+    "fact": "Dongyue FY2025: fluoropolymer segment revenue RMB 3,930m (+2.75%), segment result RMB 357m (-29.8%), margin 9.07% (2024: 13.28%). Management: competition 'continued at the same intense level', average selling prices 'did not see significant improvement'. This is direct evidence of weak Chinese PTFE pricing in 2025.",
+    "value": {
+     "rev_rmb_m": 3930.1,
+     "result_rmb_m": 356.6,
+     "margin_2025_pct": 9.07,
+     "margin_2024_pct": 13.28
+    },
+    "src": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032501517.pdf",
+    "published": "2026-03-25"
+   },
+   {
+    "fact": "Dongyue H1 2026: fluoropolymer revenue RMB 2,141m (+10.35% y/y), segment result RMB 439m (+69%), margin 20.49% (H1 2025: 13.36%). Product prices rose year on year. This shows Chinese fluoropolymer pricing turned up in 2026.",
+    "value": {
+     "rev_rmb_m": 2140.5,
+     "result_rmb_m": 438.6,
+     "margin_h1_2026_pct": 20.49,
+     "margin_h1_2025_pct": 13.36
+    },
+    "src": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082001423.pdf",
+    "published": "2026-08-20"
+   },
+   {
+    "fact": "ChemNet (via ITA Beijing newsletter): from 1 Jun 2026 Chinese makers raised factory prices for all fluoropolymers, citing raw-material and logistics costs. PTFE and FEP +5%; battery-grade PVDF +5%; coating-grade PVDF +10%; fluororubber (FKM) up to +15% (or USD 1.38/kg).",
+    "value": {
+     "ptfe_fep_pct": 5,
+     "pvdf_battery_pct": 5,
+     "pvdf_coating_pct": 10,
+     "fkm_pct_max": 15
+    },
+    "src": "https://www.ice.it/it/sites/default/files/inline-files/CHEMICAL%20PHARMACEUTICAL.docx_9.pdf",
+    "published": "2026-06-07"
+   },
+   {
+    "fact": "LOW-CONFIDENCE: Chinese industry report says global PTFE capacity was ~320 kt in 2025, with China ~175 kt (55%). Dongyue ~60 kt, second only to Juhua. Sanmei's Shaowu base added 15 kt/yr (phase 1), online late 2025. China is still import-dependent in high-end grades (ePTFE, semiconductor grade). The same report has inconsistent refrigerant figures.",
+    "value": {
+     "global_ptfe_capacity_kt_2025": 320,
+     "china_ptfe_capacity_kt_2025": 175,
+     "china_share_pct": 55
+    },
+    "src": "https://faxiangongchang.com/en/reports/china-fluorochemical-2026",
+    "published": "2026-06-23"
+   },
+   {
+    "fact": "LOW-CONFIDENCE: same report: PVDF capacity China ~140 kt of ~230 kt global. Battery-grade PVDF averaged ~RMB 80,000-100,000/t in 2025 after peaking ~RMB 600,000/t in H1 2022. PVDF 'overcapacity persists 2026-2028'; 2024-26 outlook range RMB 70,000-120,000/t.",
+    "value": {
+     "china_pvdf_capacity_kt": 140,
+     "global_pvdf_capacity_kt": 230,
+     "battery_pvdf_2025_rmb_t": "80000-100000"
+    },
+    "src": "https://faxiangongchang.com/en/reports/china-fluorochemical-2026",
+    "published": "2026-06-23"
+   },
+   {
+    "fact": "China 2026 HFC production quotas: total 797,845 t (+5,963 t vs 2025). R32 281,500 t (+1,171 t). R134a 211,500 t (+3,242 t). Quotas for HFC-143a, 227ea and 152a were cut. Supply stays capped (third-generation refrigerants).",
+    "value": {
+     "total_hfc_quota_t": 797845,
+     "r32_quota_t": 281500,
+     "r134a_quota_t": 211500
+    },
+    "src": "https://www.sunsirs.com/uk/detail_news-29297.html",
+    "published": "2025-12-31"
+   },
+   {
+    "fact": "China R32 price RMB 63,000/t (export RMB 61,000/t), R134a RMB 57,500/t, R125 RMB 46,000/t as of 12 Dec 2025 (Kaiyuan Securities). The 2026 quota plan keeps supply at roughly early-2025 levels.",
+    "value": {
+     "r32_rmb_t": 63000,
+     "r134a_rmb_t": 57500,
+     "r125_rmb_t": 46000,
+     "as_of": "2025-12-12"
+    },
+    "src": "https://www.itiger.com/news/1139744620",
+    "published": "2025-12-15"
+   },
+   {
+    "fact": "China R32 RMB 63,000-63,500/t (a slight pullback from highs), R125 RMB 54,000-57,000/t, R134a RMB 58,500-59,000/t. Q2 2026 long-term contracts for R32/R410a were raised by RMB 3,000-5,000/t. Quota limits keep supply tight and inventories are low.",
+    "value": {
+     "r32_rmb_t": "63000-63500",
+     "r125_rmb_t": "54000-57000",
+     "r134a_rmb_t": "58500-59000"
+    },
+    "src": "https://www.sunsirs.com/uk/detail_news-32008.html",
+    "published": "2026-04-10"
+   },
+   {
+    "fact": "Dongyue H1 2026: refrigerant segment revenue RMB 2,569m (+12%), result RMB 1,246m (+21%), margin 48.5%. Higher R32 and R410a prices were 'mainly related to quota restrictions'. FY2025 refrigerant result was RMB 2,288m (+184%, margin 46.3%).",
+    "value": {
+     "h1_2026_refrig_margin_pct": 48.51,
+     "fy2025_refrig_result_rmb_m": 2287.7
+    },
+    "src": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082001423.pdf",
+    "published": "2026-08-20"
+   }
+  ],
+  "peers": [
+   {
+    "fact": "Chemours Advanced Performance Materials (APM) FY2025: net sales USD 1,263m (-5%; volume -8%, price +3%). Adjusted EBITDA USD 108m, margin 9% (FY2024: USD 1,326m sales, USD 160m EBITDA, 12%). Main causes: the Washington Works outage, the SPS Capstone exit, and weak cyclical/hydrogen markets.",
+    "value": {
+     "sales_usd_m_2025": 1263,
+     "adj_ebitda_usd_m_2025": 108,
+     "margin_2025_pct": 9,
+     "sales_usd_m_2024": 1326,
+     "adj_ebitda_usd_m_2024": 160,
+     "margin_2024_pct": 12
+    },
+    "src": "https://www.sec.gov/Archives/edgar/data/1627223/000119312526065201/cc-20251231.htm",
+    "published": "2026-02-24"
+   },
+   {
+    "fact": "Chemours APM Q2 2026: net sales USD 326m (-6% y/y; volume -9%, price +2%). Adjusted EBITDA USD 26m (vs USD 50m), margin ~8%. Q1 2026 sales were USD 243m.",
+    "value": {
+     "q2_2026_sales_usd_m": 326,
+     "q2_2026_adj_ebitda_usd_m": 26,
+     "q2_2025_adj_ebitda_usd_m": 50
+    },
+    "src": "https://chemours.gcs-web.com/news-releases/news-release-details/chemours-company-reports-second-quarter-results",
+    "published": "2026-08-04"
+   },
+   {
+    "fact": "Daikin Chemicals segment, FY ended Mar-2026: sales JPY 281,469m (+7.0%), operating profit JPY 33,089m (-28.3%), margin 11.7%. FY ended Mar-2025: sales JPY 263,028m, OP JPY 46,119m, margin 17.5%. Decline blamed on the semiconductor slowdown and distributor inventory adjustment. Source is an aggregator of Daikin filings; not checked against Daikin's own release.",
+    "value": {
+     "sales_jpy_m_fy3_2026": 281469,
+     "op_jpy_m_fy3_2026": 33089,
+     "margin_fy3_2026_pct": 11.7,
+     "sales_jpy_m_fy3_2025": 263028,
+     "op_jpy_m_fy3_2025": 46119,
+     "margin_fy3_2025_pct": 17.5
+    },
+    "src": "https://envalith.com/en/companies/6367/segments",
+    "published": "2026-07-17 (page last updated)"
+   },
+   {
+    "fact": "Syensqo Specialty Polymers FY2025: net sales EUR 2,289m vs EUR 2,590m (-12% reported, -9% organic), on lower Electronics volumes and Automotive pricing. Segment EBITDA is not disclosed separately. The Materials segment (Specialty Polymers + Composites) had underlying EBITDA of EUR 986m, margin 28.4% (2024: EUR 1,185m, 31.4%).",
+    "value": {
+     "sp_sales_eur_m_2025": 2289,
+     "sp_sales_eur_m_2024": 2590,
+     "materials_ebitda_eur_m_2025": 986,
+     "materials_margin_2025_pct": 28.4,
+     "materials_margin_2024_pct": 31.4
+    },
+    "src": "https://ml-eu.globenewswire.com/Resource/Download/7dc4149f-189d-4cda-a0aa-9c175fa70466",
+    "published": "2026-02-26"
+   },
+   {
+    "fact": "Syensqo group FY2025 (pro forma incl. Oil & Gas): net sales EUR 6,140m, underlying EBITDA EUR 1,210m, margin 19.7% (2024: 21.5%). 2026 guidance: underlying EBITDA ~EUR 1.1bn (ex-Oil & Gas). Specialty Polymers volumes to grow modestly, offset by a ~EUR 30m EBITDA headwind from consumer electronics and a product phase-out.",
+    "value": {
+     "group_sales_eur_m": 6140,
+     "group_ebitda_eur_m": 1210,
+     "margin_pct": 19.7
+    },
+    "src": "https://mfn.se/all/a/syensqo/syensqo-fourth-quarter-and-full-year-2025-results-55e81a5e",
+    "published": "2026-02-26"
+   },
+   {
+    "fact": "Dongyue Group FY2025: revenue RMB 14,355m (+1.2%), gross margin 30.81% (2024: 21.62%), profit attributable RMB 1,642m (+102%). Segments: refrigerants RMB 4,941m rev / 2,288m result; fluoropolymers RMB 3,930m / 357m (9.1% margin); organic silicon RMB 3,824m / loss of 52m; DCM and liquid alkali RMB 1,223m / 358m.",
+    "value": {
+     "revenue_rmb_m": 14355,
+     "gross_margin_pct": 30.81,
+     "pat_attrib_rmb_m": 1642
+    },
+    "src": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032501517.pdf",
+    "published": "2026-03-25"
+   },
+   {
+    "fact": "Dongyue H1 2026: revenue RMB 8,060m (+8%), gross margin 37.18%, profit attributable RMB 1,027m (+31.8%). Group segment-result margin 24.5%.",
+    "value": {
+     "revenue_rmb_m": 8060,
+     "gross_margin_pct": 37.18,
+     "pat_attrib_rmb_m": 1027
+    },
+    "src": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082001423.pdf",
+    "published": "2026-08-20"
+   }
+  ],
+  "pfas": [
+   {
+    "fact": "ECHA's Risk Assessment Committee (RAC) adopted its final opinion on the universal PFAS restriction on 2 Mar 2026. SEAC agreed its draft opinion on 10 Mar 2026. Both were published on 26 Mar 2026 with a 60-day consultation on the SEAC draft (closed 25 May 2026). SEAC's final opinion is expected by end-2026, then the Commission drafts the restriction for a REACH Committee vote.",
+    "value": null,
+    "src": "https://public.cdxsystem.com/web/cdx/w/eu-pfas-restriction-rac-final-opinion-and-seac-draft-published",
+    "published": "2026-03-10 (updated with 26 Mar publication)"
+   },
+   {
+    "fact": "Fluoropolymers stay in scope. RAC backs a full restriction (option RO1) and rejects grouped derogations for so-called 'fully degradable PFAS' (fluoropolymers and volatile PFAS). SEAC agrees and calls the dossier's site-specific management plans for fluoropolymers/PFPEs impractical.",
+    "value": null,
+    "src": "https://sustainablefutures.linklaters.com/post/102mp62/eu-universal-pfas-restriction-process-enters-its-decisive-phase-seac-draft-opin",
+    "published": "2026-04-09"
+   },
+   {
+    "fact": "SEAC draft: general transition period of 18 months, plus use-specific derogations of 5 or 12 years where alternatives are lacking. It recommends an interim, time-limited generic derogation for 8 sectors added later that SEAC did not assess: printing, sealing, machinery, other medical, military, explosives, technical textiles, broader industrial uses.",
+    "value": {
+     "transition_months": 18,
+     "derogation_years": "5 or 12"
+    },
+    "src": "https://sustainablefutures.linklaters.com/post/102mp62/eu-universal-pfas-restriction-process-enters-its-decisive-phase-seac-draft-opin",
+    "published": "2026-04-09"
+   },
+   {
+    "fact": "RAC wants any derogation tied to site-specific PFAS management plans, emissions monitoring, supply-chain communication, consumer labelling and reporting of industrial emissions to ECHA. The restriction covers ~14,000 substances and their manufacture, placing on the market and use.",
+    "value": {
+     "substances_covered": 14000
+    },
+    "src": "https://cms.law/en/bel/legal-updates/support-for-eu-wide-pfas-restriction-with-targeted-derogations-what-happens-next",
+    "published": "2026-04-08"
+   },
+   {
+    "fact": "A European Parliament (ITRE) study on six key fluoropolymers and F-gases found substitution often not technically feasible in aerospace, defence, green energy and semiconductors. It recommended time-unlimited derogations for critical sectors and longer transitions for green technologies.",
+    "value": null,
+    "src": "https://public.cdxsystem.com/web/cdx/w/eu-pfas-restriction-rac-final-opinion-and-seac-draft-published",
+    "published": "2026-03-10"
+   },
+   {
+    "fact": "Risk read for exporters to Europe: as of the cutoff, no restriction is law. Earliest path is SEAC final (end-2026), then Commission draft, REACH Committee vote and Parliament/Council scrutiny, then 18 months before the general ban applies. Fluoropolymer sales to the EU therefore look exposed from roughly 2028 onward, except where use-specific 5/12-year derogations apply. This is an inference from the timeline above, not a sourced forecast.",
+    "value": null,
+    "src": "https://sustainablefutures.linklaters.com/post/102mp62/eu-universal-pfas-restriction-process-enters-its-decisive-phase-seac-draft-opin",
+    "published": "2026-04-09"
+   }
+  ],
+  "usTrade": [
+   {
+    "fact": "Correction to the brief: there is no 2018 US order. In 2018 the US ITC made negative final injury determinations on PTFE resin from China and India: the India CVD case (Jul 2018) and the China/India AD cases (31 Oct 2018). So no orders were issued then.",
+    "value": null,
+    "src": "https://usitc.gov/press_room/news_release/2018/er1031ll1028.htm",
+    "published": "2018-10-31"
+   },
+   {
+    "fact": "The current US antidumping and countervailing duty orders on granular PTFE resin from India (and Russia) were published 15 Mar 2022 (87 FR 14509 / 14514). In the original investigation, GFL got an AD rate of 13.09% (10.01% after adjusting for export subsidies) and a CVD rate of 31.89%. US imports from India were USD 22.1m (2017), 31.1m (2018) and 12.0m (2019).",
+    "value": {
+     "gfl_ad_orig_pct": 10.01,
+     "gfl_ad_unadjusted_pct": 13.09,
+     "gfl_cvd_orig_pct": 31.89
+    },
+    "src": "https://www.trade.gov/faq/final-determination-antidumping-duty-and-countervailing-duty-investigations-granular",
+    "published": "2022-01-19 (Commerce final determinations)"
+   },
+   {
+    "fact": "US AD administrative review (POR 1 Mar 2023 - 29 Feb 2024): final margin for GFL 1.83%, which became its cash deposit rate. All-others rate 10.36%.",
+    "value": {
+     "gfl_ad_pct": 1.83,
+     "all_others_pct": 10.36
+    },
+    "src": "https://policyrisk.com/federal-register/2026-03679",
+    "published": "2026-02-24"
+   },
+   {
+    "fact": "Amended for ministerial errors: GFL AD margin 1.80% (same POR), effective 2 Apr 2026. This is GFL's current AD cash deposit rate.",
+    "value": {
+     "gfl_ad_pct": 1.8
+    },
+    "src": "https://policyrisk.com/research/federal-register/2026-06447",
+    "published": "2026-04-02"
+   },
+   {
+    "fact": "US CVD administrative review (POR CY2023): final net countervailable subsidy rate for GFL (cross-owned with Inox Leasing and Finance) 5.16%.",
+    "value": {
+     "gfl_cvd_pct": 5.16
+    },
+    "src": "https://www.govinfo.gov/content/pkg/FR-2025-09-19/pdf/2025-18133.pdf",
+    "published": "2025-09-19"
+   },
+   {
+    "fact": "Sunset review: the orders date from Mar 2022, so the first five-year sunset review falls due around Feb-Mar 2027. None had started or concluded by the cutoff, so there is no sunset outcome yet.",
+    "value": null,
+    "src": "https://www.trade.gov/faq/final-determination-antidumping-duty-and-countervailing-duty-investigations-granular",
+    "published": "2022-01-19"
+   },
+   {
+    "fact": "2025 US tariffs on India: 25% 'reciprocal' tariff effective 7 Aug 2025 (EO 14326), plus an extra 25% penalty for Russian-oil purchases effective 27 Aug 2025. Total 50% on most goods. Section 232 goods and Annex II items were excluded.",
+    "value": {
+     "reciprocal_pct": 25,
+     "russia_oil_penalty_pct": 25,
+     "total_pct": 50
+    },
+    "src": "https://www.polsinelli.com/publications/new-25-percent-additional-tariffs-on-imports-from-india",
+    "published": "2025-08 (day not stated)"
+   },
+   {
+    "fact": "India-US deal: Trump announced on 2 Feb 2026 that tariffs on India would fall from 50% to 18%. A US-India joint statement on an interim framework followed on 6 Feb 2026, and the 25% Russia-oil penalty was removed by executive order. Plastics and rubber and organic chemicals were listed at 18%; generic pharma, gems and some others were set for zero. This was a framework, not a signed comprehensive BTA.",
+    "value": {
+     "new_reciprocal_pct": 18
+    },
+    "src": "https://www.india-briefing.com/news/us-india-interim-trade-agreement-18-percent-tariff-42514.html/",
+    "published": "2026-02-07 (updated 2026-02-11)"
+   },
+   {
+    "fact": "On 20 Feb 2026 the US Supreme Court ruled 6-3 that the IEEPA tariffs (reciprocal tariffs and the India penalty) were unlawful. The administration replaced them with a temporary Section 122 global tariff of 10% from 24 Feb 2026, limited to 150 days. India's rate fell from 18% to 10%.",
+    "value": {
+     "section122_pct": 10
+    },
+    "src": "https://www.theweek.in/news/biz-tech/2026/02/21/trump-imposes-10percent-global-tariff-after-supreme-court-setback-india-deal-unaffected.html",
+    "published": "2026-02-21"
+   },
+   {
+    "fact": "The Section 122 surcharge lapsed on 24 Jul 2026. Under USTR's 23 Jul notice, India is among 17 economies facing a 10% Section 301 forced-labour duty, which can last up to 4 years. Chemicals are not exempt; pharmaceuticals and semiconductors are zero. The India-US trade deal was still not concluded.",
+    "value": {
+     "section301_india_pct": 10
+    },
+    "src": "https://www.theweek.in/news/biz-tech/2026/07/24/us-tariffs-section-301-india.html",
+    "published": "2026-07-24"
+   },
+   {
+    "fact": "On 11 Mar 2026 USTR started a Section 301 investigation into 'structural excess capacity' in 16 economies, including India (sectors flagged for India: solar modules, textiles, health). It was pending at the cutoff and could lead to more tariffs on industrial goods.",
+    "value": null,
+    "src": "https://elplaw.in/wp-content/uploads/2026/03/ELP-Trade-Update-USTR-initiates-Section-301-investigations-over-excess-global-capacity-Potential-Implications-for-India.pdf",
+    "published": "2026-03 (day not stated)"
+   },
+   {
+    "fact": "R125 angle: the US has AD duties on R-125 (pentafluoroethane) from China. Final results of the administrative review (POR Mar 2023 - Feb 2024): Zhejiang Sanmei 48.67%, China-wide entity 267.51%. This shuts most Chinese R125 out of the US and helps non-Chinese suppliers. No US trade action specific to Indian R125 was found.",
+    "value": {
+     "sanmei_pct": 48.67,
+     "china_wide_pct": 267.51
+    },
+    "src": "https://policyrisk.com/research/federal-register/2026-05002",
+    "published": "2026-03-16"
+   }
+  ],
+  "hfc": [
+   {
+    "fact": "MoEFCC Office Memorandum (1 Apr 2026). India's HFC baseline = average HFC production/consumption in 2024, 2025 and 2026 plus 65% of the 2009-10 HCFC-22 baseline. Freeze from 1 Jan 2028. Reductions: 10% by 2032, 20% by 2037, 30% by 2042, 85% by 2047. The baseline will be set as of 1 Jan 2027, and the ODS Rules 2000 will be amended.",
+    "value": {
+     "freeze": "2028-01-01",
+     "cut_2032_pct": 10,
+     "cut_2037_pct": 20,
+     "cut_2042_pct": 30,
+     "cut_2047_pct": 85
+    },
+    "src": "https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/1002_07042026062522.pdf",
+    "published": "2026-04-01"
+   },
+   {
+    "fact": "The same OM says no environmental clearance will be granted for new or added HFC capacity (controlled uses) beyond 31 Dec 2027. Capacity already cleared cannot start production after 31 Dec 2027. Future production permits will consider the capacity of units operating as on 1 Jan 2028. Feedstock uses are exempt. HFCs made in India: HFC-32, HFC-134a, HFC-125. This explains the 2026-27 rush to commission R32/R134a capacity.",
+    "value": {
+     "capacity_cutoff": "2027-12-31"
+    },
+    "src": "https://parivesh.nic.in/publicdocument/UPLOAD_OM_NOTIFICATION/IA_DOCS/1002_07042026062522.pdf",
+    "published": "2026-04-01"
+   },
+   {
+    "fact": "Quota allocation: no HFC quota rules or company quotas had been notified by the cutoff. SRF (Q4 FY26 call) flagged uncertainty over how the government will treat HCFC inclusion and quota allocation. It called CY2027 a 'free year', with quota constraints from 1 Jan 2028.",
+    "value": null,
+    "src": "https://www.multibagg.ai/market-pulse/articles/srf-fy26-93373",
+    "published": "2026-05-06"
+   },
+   {
+    "fact": "UNEP: India is in Kigali Group 2 (with Gulf states, Iran, Iraq, Pakistan). Group 2's freeze is 2028, four years after Group 1's 2024 freeze.",
+    "value": null,
+    "src": "https://wedocs.unep.org/bitstream/handle/20.500.11822/26589/HFC_Phasedown_EN.pdf",
+    "published": "not stated (UNEP fact sheet, pre-2020)"
+   },
+   {
+    "fact": "The Union Cabinet approved ratifying the Kigali Amendment on 18 Aug 2021, with a national HFC phase-down strategy to follow.",
+    "value": null,
+    "src": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1746946&reg=48&lang=2",
+    "published": "2021-08-18"
+   },
+   {
+    "fact": "HCFC phase-out: India met the 67.5% HCFC phase-out target (production and consumption for controlled uses) as of 1 Jan 2025.",
+    "value": {
+     "phaseout_by_2025_pct": 67.5
+    },
+    "src": "https://www.theweek.in/wire-updates/national/2025/09/16/del29-env-ozone-minister.html",
+    "published": "2025-09-16"
+   },
+   {
+    "fact": "HCFC phase-out: Stage III of India's HCFC Phase-out Management Plan aims for complete phase-out by 2030 (97.5% cut, with a 2.5% servicing tail allowed to 2040 per Montreal Protocol rules). HCFC-22 used as feedstock (e.g. for PTFE/TFE) is not controlled.",
+    "value": {
+     "target_year": 2030
+    },
+    "src": "https://india.mongabay.com/2025/01/the-journey-of-phasing-out-ozone-depleting-substances",
+    "published": "2025-01 (day not stated)"
+   },
+   {
+    "fact": "R32 price trend 2026 (China benchmark, which drives import parity): about RMB 63,000/t in Dec 2025 and RMB 63,000-63,500/t in Apr 2026. Prices are near multi-year highs, held up by capped Chinese quotas and higher quarterly contract prices. See the china section for sources.",
+    "value": {
+     "r32_rmb_t_apr2026": "63000-63500"
+    },
+    "src": "https://www.sunsirs.com/uk/detail_news-32008.html",
+    "published": "2026-04-10"
+   },
+   {
+    "fact": "Navin Fluorine board approved INR 236.5 crore of capex for up to 15,000 MTPA of additional HFC (R32) capacity, funded from internal accruals.",
+    "value": {
+     "capex_inr_cr": 236.5,
+     "capacity_mtpa": 15000
+    },
+    "src": "https://www.investywise.com/?p=18737",
+    "published": "2025-11-04"
+   },
+   {
+    "fact": "SRF: about INR 88 crore Dahej HFC debottleneck, taking HFC capacity above 65,000 MTPA, in line with its Kigali entitlement. Separately, the Odisha HFO project's capex was raised to ~INR 2,300 crore: 20,000 MTPA HFO (1234yf/ze, 1233zd) plus 30,000 MTPA HF, targeted around Feb 2028.",
+    "value": {
+     "dahej_capex_inr_cr": 88,
+     "hfc_capacity_mtpa": ">65000",
+     "odisha_capex_inr_cr": 2300
+    },
+    "src": "https://www.multibagg.ai/market-pulse/articles/srf-fy26-93373",
+    "published": "2026-05-06"
+   },
+   {
+    "fact": "GFL plans to add R134a capacity alongside its R32, R22, R125 and R410A to fully use its Kigali entitlement. It says it already has approvals and infrastructure; tonnage and capex were not disclosed. It also set up a semiconductor and advanced-materials subsidiary (GFCL Semiconductor and Advanced Materials Ltd, incorporated 26 Jun 2026).",
+    "value": null,
+    "src": "https://chemicalweekly.com/latestnews/gfl-expand-refrigerant-capacity-sets-up-semiconductor-focused-chemicals-arm/2490",
+    "published": "2026-07-03"
+   },
+   {
+    "fact": "GFL R32 expansion: per a search summary of the Q1 FY27 call, the CEO said it would be commissioned in Q2 FY27 (Jul-Sep 2026), and R134a within FY27. Not checked line by line against the transcript.",
+    "value": null,
+    "src": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_19082026150741_GFCL_Trancript_of_ConCall_19August2026.pdf",
+    "published": "2026-08-19"
+   }
+  ],
+  "battery": [
+   {
+    "fact": "India PLI-ACC: INR 18,100 crore, 50 GWh target. 40 GWh was allocated in earlier rounds. The Ministry of Heavy Industries tendered the last 10 GWh for grid-scale storage (bids due 13 Oct 2026). Bidders must reach 25% domestic value addition within 2 years and 40% within 5, and commit to 1-4 GWh each.",
+    "value": {
+     "scheme_inr_cr": 18100,
+     "target_gwh": 50,
+     "allocated_gwh": 40,
+     "grid_tender_gwh": 10
+    },
+    "src": "https://www.ess-news.com/2026/07/17/india-launches-tender-for-10-gwh-battery-cell-manufacturing-capacity-for-grid-storage/",
+    "published": "2026-07-17"
+   },
+   {
+    "fact": "Battery-components policy: India was reported (citing Bloomberg) to be preparing an incentive of up to INR 13,000 crore (~USD 1.37bn) for anode and cathode active materials, electrolytes, separator film and copper foil. It was heading to the Finance Ministry's Expenditure Finance Committee and was not approved by the cutoff. The ministry said on 10 Feb that PLI cell makers' delays stemmed partly from 'non-availability of upstream components'.",
+    "value": {
+     "proposed_inr_cr": 13000
+    },
+    "src": "https://www.businesstoday.in/latest/corporate/story/india-eyes-rs13000-crore-battery-component-push-to-reduce-reliance-on-china-report-551890-2026-08-27",
+    "published": "2026-08-27"
+   },
+   {
+    "fact": "India demand outlook (Nuvama): advanced-chemistry-cell demand to grow at a 39% CAGR over 2025-30, BESS demand at a 78% CAGR, and EV battery demand ~35% CAGR over FY25-30. More than 10 makers have announced ~178 GWh of battery capacity.",
+    "value": {
+     "acc_demand_cagr_pct": 39,
+     "bess_cagr_pct": 78,
+     "announced_capacity_gwh": 178
+    },
+    "src": "https://www.newkerala.com/news/a/indias-rechargeable-battery-cells-demand-reach-39-cagr-228.htm",
+    "published": "2026-07-24"
+   },
+   {
+    "fact": "NITI Aayog estimates India's annual battery demand at ~250 GWh by 2030 (~40% from EVs). In 2024 the Heavy Industries Secretary expected 110-120 GWh of cell capacity by 2027-28 (50 GWh under PLI plus 60-70 GWh from others).",
+    "value": {
+     "demand_2030_gwh": 250,
+     "capacity_2027_28_gwh": "110-120"
+    },
+    "src": "https://www.autocarpro.in/news/indias-battery-manufacturing-capacity-seen-at-110-120-gwh-by-2027-28-says-heavy-ind-secy-119360?amp=1",
+    "published": "2024-02-26"
+   },
+   {
+    "fact": "India BESS: 8.2 GWh installed in 1H 2026 (~84x 1H 2025), 9.3 GWh cumulative by end-Jun 2026. Storage tenders were 28 GW in 1H 2026, with ~9 GW auctioned.",
+    "value": {
+     "installed_1h2026_gwh": 8.2,
+     "cumulative_jun2026_gwh": 9.3,
+     "tenders_1h2026_gw": 28
+    },
+    "src": "https://www.mercomindia.com/indias-battery-storage-additions-jump-84-fold-to-8-2-gwh-in-1h-2026",
+    "published": "2026-09-10"
+   },
+   {
+    "fact": "On 15 Jul 2025, China's MOFCOM and MOST added battery cathode preparation technology (LFP, LMFP, phosphate precursors) and five lithium extraction/processing technologies to the catalogue of technologies restricted from export. Licences are now needed to transfer them abroad.",
+    "value": null,
+    "src": "https://www.electrive.com/2025/07/15/china-restricts-battery-cathode-material-technology-exports/",
+    "published": "2025-07-15"
+   },
+   {
+    "fact": "On 9 Oct 2025, China's Announcement No. 58 put export controls on lithium batteries, cathode materials, artificial graphite anode and related equipment/technology, effective 8 Nov 2025. On 7 Nov 2025, Announcement No. 70 suspended it until 10 Nov 2026. The July 2025 technology-export restrictions were not part of that suspension.",
+    "value": {
+     "suspension_end": "2026-11-10"
+    },
+    "src": "https://cirs-group.com/en/chemicals/china-temporarily-suspends-export-controls-on-key-raw-materials-including-rare-earths-lithium-batteries-and-diamond",
+    "published": "2025-11-12"
+   },
+   {
+    "fact": "LiPF6 price (China): ~RMB 47,000/t in Jul 2025, rising to ~RMB 180,000/t by end-Dec 2025 (+280%), then ~RMB 138,000/t on 3 Feb 2026 (-20%+ in a month). An industry deficit of ~7,000 t was projected for Q4 2026.",
+    "value": {
+     "jul2025_rmb_t": 47000,
+     "dec2025_rmb_t": 180000,
+     "feb2026_rmb_t": 138000
+    },
+    "src": "https://www.sunsirs.com/uk/detail_news-30361.html",
+    "published": "2026-02-04"
+   },
+   {
+    "fact": "LiPF6 battery-grade spot RMB 105,000-120,000/t on 21 May 2026, with high-end grades at RMB 170,000-180,000/t. Effective capacity is only ~270-300 kt of 500 kt nominal; social inventory ~6,000 t (about a week). Cost of production is ~RMB 85,000-90,000/t, with lithium carbonate at RMB 192,000/t.",
+    "value": {
+     "spot_rmb_t": "105000-120000",
+     "effective_capacity_kt": "270-300",
+     "nominal_capacity_kt": 500
+    },
+    "src": "https://www.sunsirs.com/commodity-news/petail-33030.html",
+    "published": "2026-05-21"
+   }
+  ],
+  "indiaTrade": [
+   {
+    "fact": "DGTR final findings (19 Sep 2025) recommended AD duty on PTFE from China and Russia. Applicant: GFL. POI Apr 2023 - Mar 2024. China: Shandong Dongyue USD 2,884.01/MT; Shaowu Yonghe Jintang USD 5,206.75/MT; Chemours Changshu and Zhonghao Chenguang nil (negative margins); others USD 5,933.70/MT. Russia: any producer USD 4,578.80/MT.",
+    "value": {
+     "dongyue_usd_mt": 2884.01,
+     "yonghe_usd_mt": 5206.75,
+     "china_others_usd_mt": 5933.7,
+     "russia_usd_mt": 4578.8
+    },
+    "src": "https://tpm.in/?p=409",
+    "published": "2025-09-19"
+   },
+   {
+    "fact": "DGTR opened a fresh AD investigation on PTFE from China and Russia (F. No. 6/07/2026-DGTR) on 20 Mar 2026. Applicant GFL, supporter SRF. POI 1 Oct 2024 - 30 Sep 2025. No Finance Ministry notification imposing the Sep-2025 recommendation was found, which suggests it was not imposed (inference, not confirmed).",
+    "value": null,
+    "src": "https://tpm.in/?p=841",
+    "published": "2026-03-20"
+   },
+   {
+    "fact": "FKM (fluoroelastomer) from China: the second sunset review was opened on GFL's application (16 Jun 2025), and the existing duty was extended to 26 Feb 2026 (Notification 29/2025-Customs (ADD), 19 Aug 2025). DGTR final findings of 29 Oct 2025 recommended continuing the duty for 5 years at USD 1.04-8.86/kg.",
+    "value": {
+     "duty_usd_kg": "1.04-8.86",
+     "years": 5
+    },
+    "src": "https://www.sunsirs.com/uk/detail_news-27686.html",
+    "published": "2025-11-05"
+   },
+   {
+    "fact": "R-125 (HFC-125) from China: DGTR final findings (Case AD(OI)-31/2025, dated 23 Sep 2026) recommended AD duty of USD 1,335/MT. Joint applicants SRF and GFL, who make 100% of domestic output. Imposition was not confirmed by the cutoff.",
+    "value": {
+     "duty_usd_mt": 1335
+    },
+    "src": "https://worldtradescanner.com/DGTR%20Recommends%20Anti-Dumping%20Duty%20of%20US$1335%20per%20MT%20on%20Chinese%20HFC%20Component%20R-125%20Imports%20in%20Final%20Findings%20on%20Complaint.htm",
+    "published": "2026-09-23"
+   },
+   {
+    "fact": "India imposed a five-year AD duty of up to USD 5,251/t on R-134a from China (finance ministry notification, Dec 2025), on DGTR's recommendation.",
+    "value": {
+     "duty_usd_t_max": 5251
+    },
+    "src": "https://www.freepressjournal.in/business/india-imposes-anti-dumping-duty-on-chinese-steel-and-refrigerant-gas-imports",
+    "published": "2025-12-26"
+   },
+   {
+    "fact": "ICRA (chlor-alkali): caustic soda prices eased ~2-4% in FY2026, partly offset by a West Asia-driven spike in Mar 2026. ECU realisations rose 2% y/y in FY2026. Over 11M FY2026, imports fell ~52% and exports rose 27%. Sector outlook negative because of oversupply, energy costs and negative chlorine realisations.",
+    "value": {
+     "caustic_price_chg_fy26_pct": "-2 to -4",
+     "ecu_chg_fy26_pct": 2,
+     "imports_chg_11mfy26_pct": -52
+    },
+    "src": "https://www.icra.in/Rating/DownloadResearchSpecialCommentReport?id=6933",
+    "published": "2026-05-27 (file date)"
+   },
+   {
+    "fact": "Indian caustic soda prices rose ~15-20% y/y in Mar-Apr 2026 on war-linked energy costs. Power is 30-40% of production cost (CRISIL).",
+    "value": {
+     "price_rise_pct": "15-20"
+    },
+    "src": "https://www.sahi.com/news/energy-crisis-ignites-20-surge-in-caustic-soda-prices-impact-on-indian-chemical-giants-war-PE3_MACR",
+    "published": "2026-04-10"
+   },
+   {
+    "fact": "Grasim Q3 FY26 (Oct-Dec 2025): caustic CFR-SEA USD 443/t (-14% y/y, a two-year low); ECU INR 32,079/t (-6% y/y), dragged down by negative chlorine realisations.",
+    "value": {
+     "cfr_sea_usd_t": 443,
+     "ecu_inr_t": 32079
+    },
+    "src": "https://www.adityabirla.com/media/press-releases/grasim-industries-q3fy26-results-robust-performance-across-businesses/",
+    "published": "2026-02-10"
+   },
+   {
+    "fact": "Grasim Q1 FY27 (Apr-Jun 2026): caustic CFR-SEA USD 483/t (+3% y/y, second straight quarterly recovery); ECU INR 37,955/t (+6% y/y). Chlorine realisations got worse.",
+    "value": {
+     "cfr_sea_usd_t": 483,
+     "ecu_inr_t": 37955
+    },
+    "src": "https://www.adityabirla.com/media/press-releases/grasim-q1-fy2027-results-consolidated-revenue-at-inr48716-cr-up-21-yoy/",
+    "published": "2026-08-12"
+   }
+  ]
+ },
+ "street": {
+  "calls": [
+   {
+    "broker": "ICICI Direct (ICICI Securities retail research)",
+    "rating": "BUY",
+    "tp": 5800,
+    "date": "2026-08-13",
+    "method": "EV/EBITDA (consolidated, one multiple; no separate value for GFCL EV)",
+    "multiple": "30x FY28E EBITDA of Rs 2,316.6 cr (multiple raised; implies ~54.5x FY28E EPS of Rs 106.4)",
+    "on": "FY28E",
+    "evValue": null,
+    "epsFY27E": 86.3,
+    "epsFY28E": 106.4,
+    "epsFY29E": null,
+    "revFY27E": 63087,
+    "revFY28E": 75953,
+    "ebitdaFY27E": 18611,
+    "ebitdaFY28E": 23166,
+    "thesis": "Core fluoropolymers (18-20% growth target, 3M exit share gains) and R32/R134a keep firing; battery materials moving from qualification to commercial scale (3-digit quarterly revenue by Q4FY27, big ramp in FY28), so a higher multiple is justified.",
+    "src": "https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_gujaratfluoro_q1fy27.pdf",
+    "published": "2026-08-13",
+    "note": "CMP in note Rs 4,825. Summary also at https://insights.dsij.in/markets/reports/report-details/gujarat-fluorochemicals-ltd/45207 (DSIJ labels the broker 'ICICI Securities'). Key risks listed: delayed offtake in fluoropolymer and battery businesses, HFC pricing pressure. Method change: the 29-May-2026 note (BUY, TP 4,235) used SOTP = base business 16x FY28E EBITDA ex-EV (Rs 2,035.4 cr) + GFCL EV at last deal value Rs 25,000 cr less 20% holdco discount x 96% stake = Rs 19,200 cr (~Rs 1,750/share); Aug note dropped SOTP for consolidated 30x EBITDA. Rev/EBITDA converted from Rs cr (6,308.7/7,595.3 and 1,861.1/2,316.6)."
+   },
+   {
+    "broker": "ICICI Securities (institutional)",
+    "rating": "ADD (inferred; Investing.com lists 'Buy')",
+    "tp": 5050,
+    "date": "2026-08-13",
+    "method": "not found",
+    "multiple": "not found",
+    "on": "not found",
+    "evValue": null,
+    "epsFY27E": null,
+    "epsFY28E": null,
+    "epsFY29E": null,
+    "revFY27E": null,
+    "revFY28E": null,
+    "ebitdaFY27E": null,
+    "ebitdaFY28E": null,
+    "thesis": "not found for the Aug note.",
+    "src": "Investing.com analyst table (captured after the as-of date)",
+    "published": "2026-08-13",
+    "note": "Note dated 13-Aug-2026; rating and target taken from a later aggregator table (Investing.com), method and estimates not verified."
+   },
+   {
+    "broker": "Axis Capital",
+    "rating": "BUY",
+    "tp": 4800,
+    "date": "2026-08-13",
+    "method": "not found",
+    "multiple": "not found",
+    "on": "not found",
+    "evValue": null,
+    "epsFY27E": null,
+    "epsFY28E": null,
+    "epsFY29E": null,
+    "revFY27E": null,
+    "revFY28E": null,
+    "ebitdaFY27E": null,
+    "ebitdaFY28E": null,
+    "thesis": "not found",
+    "src": "Investing.com analyst table (captured after the as-of date)",
+    "published": "2026-08-13",
+    "note": "Note dated 13-Aug-2026; rating and target taken from a later aggregator table (Investing.com), method and estimates not verified."
+   },
+   {
+    "broker": "Elara Capital (Elara Securities)",
+    "rating": "BUY",
+    "tp": 4698,
+    "date": "2026-05-26",
+    "method": "DCF",
+    "multiple": "DCF: WACC 9.3%, terminal growth 5.0%, FCF FY28E-47E (PV FCF Rs 2,514/sh + PV terminal Rs 2,572/sh = EV Rs 5,085/sh, less net debt Rs 396/sh); implies ~38x FY28E EPS",
+    "on": "FY28E-FY47E cash flows",
+    "evValue": null,
+    "epsFY27E": 88.6,
+    "epsFY28E": 122.5,
+    "epsFY29E": 159.6,
+    "revFY27E": 65532,
+    "revFY28E": 81872,
+    "ebitdaFY27E": 19334,
+    "ebitdaFY28E": 26762,
+    "thesis": "Near-term earnings recovery led by R32 and fluoropolymers; battery materials make FY27 a transition year with FY29 the monetisation year, so DCF captures back-ended EV value.",
+    "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/0b12281e_Gujarat%20Fluorochemicals%20%20-%20Elara%20Securities%20-%2026%20May%202026.pdf",
+    "published": "2026-05-27",
+    "note": "Latest Elara note found (Q4FY26 update, CMP Rs 3,784; TP raised from 4,083). A post-Q1FY27 (Aug 2026) Elara update was NOT found and may exist. FY29E revenue 100,459, EBITDA 33,806. Summary: https://investmentguruindia.com/newsdetail/buy-gujarat-fluorochemicals-ltd-for-target-rs-4-698-by-elara-capital683651"
+   },
+   {
+    "broker": "DRChoksey (Deven Choksey Research)",
+    "rating": "SELL (as tagged by Trendlyne)",
+    "tp": 4612,
+    "date": "2026-08-13",
+    "method": "not found",
+    "multiple": "not found",
+    "on": "not found",
+    "evValue": null,
+    "epsFY27E": null,
+    "epsFY28E": null,
+    "epsFY29E": null,
+    "revFY27E": null,
+    "revFY28E": null,
+    "ebitdaFY27E": null,
+    "ebitdaFY28E": null,
+    "thesis": "Title: 'Scaling High-Value Fluorochemicals, Building the Battery Opportunity'. Q1FY27 revenue Rs 15,880 mn and EBITDA Rs 4,280 mn beat its estimates; still negative rating on valuation (its 8-Jun-2026 note, SELL TP 3,373, was titled 'Fluoropolymers continue to drive growth, but valuations leave limited cushion').",
+    "src": "https://trendlyne.com/posts/5788327/scaling-high-value-fluorochemicals-building-the-battery-opportunity",
+    "published": "2026-08-13",
+    "note": "Trendlyne price at reco Rs 4,565.80; TP is only ~1% above that, so DRC's own label may be REDUCE or HOLD; original PDF is behind a login and was not read."
+   },
+   {
+    "broker": "Prabhudas Lilladher (PL Capital)",
+    "rating": "HOLD",
+    "tp": 4498,
+    "date": "2026-08-13",
+    "method": "P/E (consolidated)",
+    "multiple": "52x FY28E EPS of Rs 86.5",
+    "on": "FY28E",
+    "evValue": null,
+    "epsFY27E": 79.9,
+    "epsFY28E": 86.5,
+    "epsFY29E": null,
+    "revFY27E": 64748,
+    "revFY28E": 74784,
+    "ebitdaFY27E": 18224,
+    "ebitdaFY28E": 21772,
+    "thesis": "Fluoropolymers remain the main growth driver and R32 adds near-term growth, but battery chemicals may take longer to move the topline (LiPF6 the only key FY27 contributor); at 53x FY28E EPS the stock is fairly priced.",
+    "src": "https://www.plindia.com/ResReport/FLUOROCH-13-8-26-PL.pdf",
+    "published": "2026-08-13",
+    "note": "CMP in note Rs 4,566; TP raised from 3,772 (07-Jul-2026 HOLD) after EPS raised 9.2%/12.3% for FY27E/FY28E. Rating history: 27-May-26 REDUCE 3,478 (49x FY28E); 07-Jul-26 HOLD 3,772; 13-Aug-26 HOLD 4,498. Copies: https://insights.dsij.in/markets/reports/report-details/gujarat-fluorochemicals-ltd/45193 (PDF https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/20260813052357_Gujarat-Fluorochemicals-1307026-prabhu.pdf) and https://investmentguruindia.com/newsdetail/hold-gujarat-fluorochemicals-ltd-for-target-rs-4-498-by-prabhudas-liladhar-capital-ltd306747. Local text: pdf/pl-130826.txt."
+   },
+   {
+    "broker": "AMSEC (Asian Markets Securities)",
+    "rating": "BUY",
+    "tp": 3817,
+    "date": "2026-03-19",
+    "method": "not found",
+    "multiple": "not found",
+    "on": "not found",
+    "evValue": null,
+    "epsFY27E": null,
+    "epsFY28E": null,
+    "epsFY29E": null,
+    "revFY27E": null,
+    "revFY28E": null,
+    "ebitdaFY27E": null,
+    "ebitdaFY28E": null,
+    "thesis": "Initiation: growth potential in battery chemicals tied to EV and energy-storage demand.",
+    "src": "https://www.stockopedia.com/share-prices/gujarat-fluorochemicals-NSI:FLUOROCHEM/news/amsec-starts-coverage-of-india-apos-s-gujarat-fluorochemicals-neogen-chemicals-with-apos-buy-apos-019e6a16-0eef-7c7d-9bf9-e82e164430cd/",
+    "published": "2026-03-19",
+    "note": "Reuters headline only (also in Zerodha news feed: stock rose 3.41% to Rs 3,245.90 that day). Latest found; any later AMSEC update not found, so likely stale by 30-Sep (TP 13% below CMP)."
+   },
+   {
+    "broker": "JM Financial Institutional Securities",
+    "rating": "REDUCE",
+    "tp": 3505,
+    "date": "2026-02-12",
+    "method": "SOTP (Mar-27E TP)",
+    "multiple": "Base business 15x EV/EBITDA (Rs 2,588/sh) + battery chemicals 12x FY30E EBITDA of Rs 15,133 mn discounted to Mar-28 (Rs 1,241/sh) - net debt Rs 322/sh; implied ~21x EV/EBITDA, ~35x Mar-28E EPS of Rs 99.6",
+    "on": "Mar-28E (base) / FY30E discounted (battery)",
+    "evValue": 1241,
+    "epsFY27E": 81,
+    "epsFY28E": 99.6,
+    "epsFY29E": null,
+    "revFY27E": 65243,
+    "revFY28E": 81733,
+    "ebitdaFY27E": 18365,
+    "ebitdaFY28E": 22585,
+    "thesis": "Battery-chemicals approval and ramp-up risk could push volume off-take, which is the key downside to FY28E; maintain REDUCE.",
+    "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/7aad9d6d_GFL_3QFY26RU_12Feb26.pdf",
+    "published": "2026-02-13",
+    "note": "Latest JM note found (Q3FY26 update). Q4FY26 (May) and Q1FY27 (Aug) JM notes were NOT found; this call is probably stale. A Univest blog (15-Jun-2026) lists 'JM Financial Buy Rs 4,300' with no date: unverified, not used. Summary page: https://investmentguruindia.com/newsdetail/reduce-gujarat-fluorochemicals-ltd-for-the-target-rs-3-505-by-jm-financial-services-ltd-800981"
+   },
+   {
+    "broker": "IDBI Capital",
+    "rating": "Not Rated (plant visit note)",
+    "tp": null,
+    "date": "2026-07-22",
+    "method": "n/a",
+    "multiple": "n/a",
+    "on": "n/a",
+    "evValue": null,
+    "epsFY27E": null,
+    "epsFY28E": null,
+    "epsFY29E": null,
+    "revFY27E": null,
+    "revFY28E": null,
+    "ebitdaFY27E": null,
+    "ebitdaFY28E": null,
+    "thesis": "Visit to GFCL EV Jolva battery-materials plant: management confident on ramp-up; GFCL EV is the only Indian player addressing ~70% of LFP cell cost; FY27 GFCL EV revenue guidance Rs 5-7bn with EBITDA break-even.",
+    "src": "https://trendlyne.com/posts/5751756/",
+    "published": "2026-07-22",
+    "note": "Not a rated call; useful for the FY27 battery guidance (vs Q1FY27 battery revenue of only Rs 290 mn and EBITDA loss of Rs 300 mn per PL)."
+   },
+   {
+    "broker": "Axis Securities (Axis Alpha, tactical)",
+    "rating": "BUY (30-day tactical)",
+    "tp": 4477,
+    "date": "2026-07-15",
+    "method": "Short-term call (CMP 4,070, stop loss 3,867, duration 30 days)",
+    "multiple": "n/a",
+    "on": "n/a",
+    "evValue": null,
+    "epsFY27E": null,
+    "epsFY28E": null,
+    "epsFY29E": null,
+    "revFY27E": null,
+    "revFY28E": null,
+    "ebitdaFY27E": null,
+    "ebitdaFY28E": null,
+    "thesis": "15-20% fluoropolymer volume growth in FY27 plus R32 ramp from 10kt to 20kt (fully contracted).",
+    "src": "https://simplehai.axisdirect.in/images/2024/Gujarat-Fluorochemicals--Axis-Alpha.pdf",
+    "published": "2026-07-15",
+    "note": "Not a 12-month fundamental call; expired by mid-Aug. Exclude from the valuation table."
+   }
+  ],
+  "consensus": {
+   "simplyWallSt_postQ1": {
+    "analysts": 15,
+    "avgTarget": 4624,
+    "highTarget": 5750,
+    "lowTarget": 3000,
+    "targetChange": "+13% after Q1FY27",
+    "revFY27E": 66300,
+    "revFY27E_prior": 64700,
+    "epsFY27E": 87.08,
+    "epsFY27E_prior": 84.21,
+    "comment": "Q1 revenue 3.9% ahead of expectations, EPS in line; stock +4.9% to Rs 4,738 in the week",
+    "src": "https://simplywall.st/stocks/in/materials/nse-fluorochem/gujarat-fluorochemicals-shares/news/gujarat-fluorochemicals-limited-nsefluorochem-released-earni",
+    "published": "2026-08-17"
+   },
+   "sharpely_snippet": {
+    "analysts": 16,
+    "medianTarget": 4860,
+    "meanTarget": 4794,
+    "highTarget": 5800,
+    "lowTarget": 3000,
+    "buyShare": "~69% Buy/Strong Buy",
+    "src": "https://sharpely.in/stocks/fluorochem/forecast",
+    "published": "search snippet said 24 Aug (year not shown); unverified",
+    "note": "Live page now shows Nov-2026 data (see laterFacts)."
+   },
+   "q1FY27QuarterConsensus": {
+    "revenue": "Rs 15.6bn (actual 15.9bn)",
+    "ebitdaMargin": "26% (actual 27%)",
+    "src": "https://www.plindia.com/ResReport/FLUOROCH-13-8-26-PL.pdf",
+    "published": "2026-08-13"
+   },
+   "olderSnapshots": [
+    {
+     "fact": "Average 12m target ~Rs 3,668.71, high Rs 4,094 (stock Rs 3,052 after -6.28% on GFCL EV $80m raise)",
+     "src": "https://www.whalesbook.com/news/Hinglish/industrial-goodsservices/Gujarat-Fluorochemicals-Shares-Slide-6percent-Despite-dollar130M-EV-Battery-Investment/69c6b20963d6db8f4b570049",
+     "published": "2026-03-27"
+    },
+    {
+     "fact": "S&P Global: 16 analysts, consensus 'Hold', average target Rs 3,897",
+     "src": "https://stockanalysis.com/quote/nse/FLUOROCHEM/forecast/",
+     "published": "2026-06-22 (search-snippet snapshot; unverified)"
+    }
+   ],
+   "computedFromStreetTable": {
+    "basis": "Our arithmetic on the 8 rated 12-month calls above (excludes IDBI not-rated and Axis Securities tactical); CMP 4,405.3 on 30-Sep-2026",
+    "allEight": {
+     "mean": 4598,
+     "median": 4655,
+     "high": 5800,
+     "low": 3505
+    },
+    "postQ1Only_13Aug": {
+     "brokers": "ICICI Direct, ICICI Sec, Axis Capital, DRChoksey, PL",
+     "mean": 4952,
+     "median": 4800
+    },
+    "ratingSplit": "BUY 4 (ICICI Direct, Axis Capital, Elara, AMSEC) / ADD-HOLD 2 (ICICI Sec, PL) / SELL-REDUCE 2 (DRChoksey, JM)",
+    "epsFY28E_range": "86.5 (PL) to 122.5 (Elara); ICICI Direct 106.4, JM 99.6"
+   },
+   "consensusEPS_FY28E": "not found in a source published by 30-Sep-2026"
+  },
+  "events": [
+   {
+    "date": "2026-06-29",
+    "event": "Reuters: GFL plans refrigerant capacity expansion (adds R134a to R32/R22/R125/R410A to use Montreal/Kigali entitlements)",
+    "move": "+2.4% on 30-Jun to Rs 3,964 (NSE close)",
+    "src": "https://www.arihantcapital.com/News/News-Details/1707424/investor-attention",
+    "published": "2026-06-29"
+   },
+   {
+    "date": "2026-07-07",
+    "event": "PL upgrades REDUCE to HOLD, TP 3,772",
+    "move": "Close Rs 3,960.5; -2.8% next day",
+    "src": "https://www.plindia.com/ResReport/FLUOROCH-13-8-26-PL.pdf",
+    "published": "2026-08-13"
+   },
+   {
+    "date": "2026-07-09",
+    "event": "BSE/NSE no-objection letters for composite scheme of arrangement (Inox Leasing & Finance / Inox Holdings / GFCL promoter-entity restructuring)",
+    "move": "no clear move",
+    "src": "https://www.angelone.in/news/stocks/gujarat-fluorochemicals-share-price-in-focus-as-it-gets-noc-from-bse-and-nse-for-composite-scheme-of-arrangement",
+    "published": "2026-07"
+   },
+   {
+    "date": "2026-07-15",
+    "event": "Sharp rise on ~4x normal volume; Axis Securities issued a tactical BUY (TP 4,477) the same day; no other trigger found",
+    "move": "+5.3% to Rs 4,131.6",
+    "src": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260715_F_0000.csv.zip",
+    "published": "2026-07-15"
+   },
+   {
+    "date": "2026-07-21",
+    "event": "Rally to 52-week high attributed to refrigerant (R134a) capacity expansion; +12% in three sessions and +34% from June low of Rs 3,450",
+    "move": "+4.1% on 20-Jul and +6.7% on 21-Jul to Rs 4,607.1 close (intraday 4,639.9)",
+    "src": "https://www.whalesbook.com/news/English/chemicals/Gujarat-Fluorochemicals-Hits-52-Week-High-on-Refrigerant-Expansion/6a5f3b5ffe1c9287f478c72b",
+    "published": "2026-07-21"
+   },
+   {
+    "date": "2026-07-22",
+    "event": "IDBI Capital GFCL EV plant-visit note: FY27 battery revenue guidance Rs 5-7bn with EBITDA break-even",
+    "move": "flat (-0.4%)",
+    "src": "https://trendlyne.com/posts/5751756/",
+    "published": "2026-07-22"
+   },
+   {
+    "date": "2026-07-30",
+    "event": "Pullback before results; cause not found",
+    "move": "-4.1% to Rs 4,395",
+    "src": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260730_F_0000.csv.zip",
+    "published": "2026-07-30"
+   },
+   {
+    "date": "2026-08-12",
+    "event": "Q1FY27 results and call: revenue Rs 15.9bn (+24% YoY), EBITDA Rs 4.28bn (+24%), margin 27%, PAT Rs 2.2bn (+20%); fluorochemicals +52% on R32; fluoropolymer growth guide 15-20%; Oman battery project put on hold and moved to India (Oman sovereign funding not transferable); FY27 capex ~Rs 2,300 cr battery + ~Rs 800 cr chemicals",
+    "move": "+3.4% to Rs 4,565.8 (intraday 4,695) on ~10x volume",
+    "src": "https://www.multibagg.ai/market-pulse/articles/gfl-q1fy27-97962",
+    "published": "2026-08-12"
+   },
+   {
+    "date": "2026-08-13",
+    "event": "Broker upgrades after Q1: PL HOLD TP 4,498 (from 3,772), ICICI Direct BUY 5,800, ICICI Sec 5,050 (from 4,250), Axis Capital BUY 4,800 (from 4,500), DRChoksey 4,612",
+    "move": "Intraday high Rs 4,958.90 (52-week high, +8.6%), closed +3.3% at Rs 4,714.7; JM Financial Services reported +4.48% to Rs 4,770.20 intraday",
+    "src": "https://www.jmfinancialservices.in/market-news-and-insights/1722678",
+    "published": "2026-08-13"
+   },
+   {
+    "date": "2026-08-14",
+    "event": "Week after results",
+    "move": "Simply Wall St: stock +4.9% for the week to Rs 4,738",
+    "src": "https://simplywall.st/stocks/in/materials/nse-fluorochem/gujarat-fluorochemicals-shares/news/gujarat-fluorochemicals-limited-nsefluorochem-released-earni",
+    "published": "2026-08-17"
+   },
+   {
+    "date": "2026-09-04",
+    "event": "Sharp intraday reversal (4,850 to 4,461) on ~4x volume; cause not found",
+    "move": "-3.0% to Rs 4,554",
+    "src": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260904_F_0000.csv.zip",
+    "published": "2026-09-04"
+   },
+   {
+    "date": "2026-09-10",
+    "event": "Highest close of the quarter; press notes +34% in 3 months, P/E 89 vs 3-yr avg 59 and 5-yr avg 36 (Kotak Neo, 11-Sep)",
+    "move": "Close Rs 4,786.3",
+    "src": "https://www.kotakneo.com/news/stocks/gujarat-fluorochemicals-shares-rally-34-percent-in-3-months/",
+    "published": "2026-09-11"
+   },
+   {
+    "date": "2026-09-15",
+    "event": "Drop; cause not found",
+    "move": "-3.6% to Rs 4,601.3",
+    "src": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260915_F_0000.csv.zip",
+    "published": "2026-09-15"
+   },
+   {
+    "date": "2026-09-17",
+    "event": "Ex-dividend Rs 3/share",
+    "move": "-1.4% to Rs 4,471.8",
+    "src": "https://zerodha.com/markets/stocks/NSE/FLUOROCHEM/",
+    "published": "2026"
+   },
+   {
+    "date": "2026-09-24",
+    "event": "8th AGM (video conference); no market-moving news found",
+    "move": "Flat at Rs 4,475.9 (-0.01%)",
+    "src": "https://www.investywise.com/gujarat-fluorochemicals-limited-announces-eighth-annual-general-meeting/",
+    "published": "2026"
+   },
+   {
+    "date": "2026-09-30",
+    "event": "Quarter end: drift lower through late Sep on thin volumes",
+    "move": "Close Rs 4,405.3: +11.1% for Jul-Sep (from 3,964), -11.2% from 13-Aug high of 4,958.9, -8.0% from 10-Sep close",
+    "src": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260930_F_0000.csv.zip",
+    "published": "2026-09-30"
+   }
+  ],
+  "critiques": [
+   {
+    "argument": "Valuation full: 53x FY28E EPS vs its 52x target; battery chemicals may take longer to contribute (only LiPF6 meaningful in FY27)",
+    "who": "Prabhudas Lilladher (HOLD)",
+    "date": "2026-08-13",
+    "src": "https://www.plindia.com/ResReport/FLUOROCH-13-8-26-PL.pdf"
+   },
+   {
+    "argument": "Premium valuation: P/E ~89 vs 3-yr average 59 and 5-yr average 36",
+    "who": "Kotak Neo (press)",
+    "date": "2026-09-11",
+    "src": "https://www.kotakneo.com/news/stocks/gujarat-fluorochemicals-shares-rally-34-percent-in-3-months/"
+   },
+   {
+    "argument": "Valuations leave limited cushion despite fluoropolymer growth (SELL TP 3,373); stays negative after Q1 at TP 4,612",
+    "who": "DRChoksey",
+    "date": "2026-06-08",
+    "src": "https://trendlyne.com/research-reports/stock/169265/FLUOROCHEM/gujarat-fluorochemicals-ltd/"
+   },
+   {
+    "argument": "Battery-chemicals customer approvals could take longer amid industry uncertainty; ramp-up delay is the key downside to FY28E when full utilisation is targeted",
+    "who": "JM Financial (REDUCE)",
+    "date": "2026-02-12",
+    "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/7aad9d6d_GFL_3QFY26RU_12Feb26.pdf"
+   },
+   {
+    "argument": "EV business still loss-making: Q1FY27 battery revenue Rs 290 mn with EBITDA loss Rs 300 mn (Q4FY26: Rs 110 mn revenue, Rs 450 mn EBITDA loss); FY27 is a transition year and full potential only in FY29",
+    "who": "PL; Elara",
+    "date": "2026-08-13",
+    "src": "https://www.plindia.com/ResReport/FLUOROCH-13-8-26-PL.pdf"
+   },
+   {
+    "argument": "Big gap between guidance and run-rate: GFCL EV FY27 revenue guided Rs 5-7bn with EBITDA break-even, yet Q1 battery revenue was Rs 290 mn and management targets only a three-digit (Rs 100 cr+) quarterly run-rate by Q4FY27",
+    "who": "IDBI Capital visit note vs PL/ICICI Direct Q1 notes (our comparison)",
+    "date": "2026-07-22",
+    "src": "https://trendlyne.com/posts/5751756/"
+   },
+   {
+    "argument": "Capex and leverage: FY27 capex ~Rs 3,100 cr (Rs 2,300 cr battery + Rs 800 cr chemicals), Rs 6,000 cr cumulative battery capex by FY28; ICICI Direct sees debt/equity rising from 0.3x (FY26) to 0.6x (FY27E-28E)",
+    "who": "ICICI Direct",
+    "date": "2026-08-13",
+    "src": "https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_gujaratfluoro_q1fy27.pdf"
+   },
+   {
+    "argument": "Oman battery project on hold (geopolitics, delays); Oman-specific sovereign funding will not move to India, so new funding is needed",
+    "who": "ICICI Direct; Multibagg",
+    "date": "2026-08-12",
+    "src": "https://www.multibagg.ai/market-pulse/articles/gfl-q1fy27-97962"
+   },
+   {
+    "argument": "Chinese competition, heavy Rs 6,000 cr capex, departure of key executives, and valuation far above peers; any battery delay or fluoropolymer downturn could de-rate the stock",
+    "who": "Whalesbook (press, on PL downgrade)",
+    "date": "2026-05-27",
+    "src": "https://www.whalesbook.com/news/English/chemicals/Gujarat-Fluorochemicals-Stock-Falls-on-Slower-Battery-Chemical-Growth/6a1673f6b2fe84beaa14d1fb"
+   },
+   {
+    "argument": "Brokers flagged heightened competition, lower realisations and expansion execution risk; Emkay blamed the Q4 loss on overheads and slow revenue ramp-up in battery materials",
+    "who": "ICICI Direct / Emkay via Reuters",
+    "date": "2026-05-27",
+    "src": "https://zerodha.com/markets/stocks/NSE/FLUOROCHEM/"
+   },
+   {
+    "argument": "HFC pricing pressure and delayed offtake in fluoropolymers and battery materials are the main risks",
+    "who": "ICICI Direct",
+    "date": "2026-08-13",
+    "src": "https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_gujaratfluoro_q1fy27.pdf"
+   },
+   {
+    "argument": "Counterpoint on China: management sees limited direct Chinese competition in the high-value fluoropolymer grades it targets",
+    "who": "ICICI Direct (management commentary)",
+    "date": "2026-08-13",
+    "src": "https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_gujaratfluoro_q1fy27.pdf"
+   }
+  ]
+ },
+ "ownership": {
+  "asOf": "Jun-2026",
+  "categoriesPct": {
+   "promoters": 61.39,
+   "mutualFunds": 9.1,
+   "fpi": 4.41,
+   "insurance": 2.88,
+   "public": 20.86
+  },
+  "named": [
+   {
+    "name": "Inox Leasing and Finance Ltd (promoter)",
+    "pct": 52.61
+   },
+   {
+    "name": "Aryavardhan Trading LLP (promoter group)",
+    "pct": 5.08
+   },
+   {
+    "name": "Akash Bhanshali",
+    "pct": 4.75
+   },
+   {
+    "name": "Devansh Trademart LLP (promoter group)",
+    "pct": 3.65
+   },
+   {
+    "name": "Mirae Asset Large & Midcap Fund",
+    "pct": 3.19
+   },
+   {
+    "name": "Life Insurance Corporation of India",
+    "pct": 2.75
+   },
+   {
+    "name": "Motilal Oswal Large and Midcap Fund",
+    "pct": 2
+   },
+   {
+    "name": "HDFC Mid-Cap Fund",
+    "pct": 1.43
+   }
+  ],
+  "pledge": "5.97% of promoter shares (40.26 lakh): Devansh Trademart LLP 74.16% of its holding, Aryavardhan Trading LLP 18.83%",
+  "shareholders": 61120,
+  "src": "https://trendlyne.com/equity/share-holding/169265/FLUOROCHEM/30-06-2026/gujarat-fluorochemicals-ltd/",
+  "published": "2026-07"
+ },
+ "gaps": [
+  "Profit split inside the Chemicals segment (fluoropolymers vs refrigerants vs bulk) is not disclosed; we apply one Chemicals margin to all three.",
+  "Capacities (PTFE, PVDF, FKM, R22, R125, R134a) and volumes/prices are not disclosed; only R32 (10kt, going to 20kt).",
+  "Conversion formula of IFC's Rs 430 cr CCPS into GFCL EV equity is not disclosed, so IFC's implied valuation of GFCL EV is unknown.",
+  "GFCL EV share count after the May-2026 warrant conversion is not disclosed; we estimate ~739 cr shares (GFL 710.2 cr shares = 96.89% at Mar-2026, plus 5.71 cr warrant shares).",
+  "Methods and estimates of ICICI Securities (Rs 5,050) and Axis Capital (Rs 4,800) post-Q1 notes not verified; their targets come from a later Investing.com table.",
+  "No Motilal Oswal, Nuvama, Kotak, Jefferies or HSBC call dated 2026 was found; Elara (May) and JM Financial (Feb) notes may have been updated.",
+  "Consensus FY28E EPS published by 30-Sep-2026 not found.",
+  "Battery-material revenue in Q1FY27: Rs 14 cr external (presentation) vs Rs 29 cr in a broker note (likely includes inter-segment).",
+  "Peer valuation multiples for Chemours, Daikin, Syensqo and Dongyue as of Sep-2026 not found.",
+  "Exact listing date (Oct-2019) is from a third-party profile, not an exchange notice."
+ ],
+ "conflicts": [
+  "Fluoropolymer revenue growth FY26: +19.7% on the audited product split (Rs 3,148.8 cr vs Rs 2,630.4 cr) vs +14% in the DMD letter (Rs 3,154 cr, presentation basis; FY25 presentation total Rs 2,755 cr).",
+  "R32 start date: Q1FY26 presentation says commercial production began in Q1FY26 through retrofitting; the annual report says production and sales of R-32 began in March 2026 (the new 10kt plant).",
+  "Q1FY26 battery PAT: -Rs 12 cr (Q1FY26 deck) vs -Rs 14 cr (Q1FY27 deck comparative).",
+  "FY27 EV revenue: Rs 500-700 cr at EBITDA break-even (Jul-2026 plant-visit note) vs management's Q1 call target of a three-digit quarterly revenue only by Q4FY27."
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "asOf": "2026-10-23",
+ "_note": "GAM Research forecast drivers for Go Digit General Insurance (standalone, IGAAP, ₹ crore). Base year FY26A from company disclosures. Valuation on Ind AS book (fairer economics) via residual income.",
+ "type": "insurer",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "base": {
+  "gwp": 11294,
+  "aum": 22922,
+  "netWorth": 4662,
+  "pat": 544.4,
+  "shares": 92.46
+ },
+ "gwpGrowth": [
+  1,
+  13,
+  14
+ ],
+ "_gwpWhy": "FY27: management is 'soft by choice' and prepared for flat-to-negative growth until Mar-27 (Q1 GWP -8.4%); we assume +1%. FY28-29: market growth ~11-12% plus some help from IDBI Bank bancassurance if the Fairfax transfer completes; we stay below the 16-17% Emkay assumes.",
+ "retention": 74,
+ "earnedRatio": [
+  100,
+  95,
+  95
+ ],
+ "lossRatio": [
+  73,
+  72.2,
+  71.5
+ ],
+ "expenseRatio": [
+  37.8,
+  36.5,
+  35.2
+ ],
+ "_ratioWhy": "FY27 calibrated to the Q1 run-rate (Q1 combined ratio 112.3%, loss ratio 73.3%, expense ratio 39%) with modest H2 relief from OD corrective actions and the DAC unwind. Loss ratio ~72-73% (in line with peers). Expense ratio falls slowly under EoM pressure but stays well above ICICI Lombard (~31%). Combined ratio 111% / 109% / 107% vs Emkay 108.9% / 106.5% / 105%.",
+ "floatToNwp": 2.19,
+ "investmentYield": [
+  7.3,
+  7.3,
+  7.2
+ ],
+ "taxRate": 25.2,
+ "payout": [
+  0,
+  10,
+  15
+ ],
+ "valuation": {
+  "method": "residual-income",
+  "basis": "Ind AS",
+  "rf": 6.6,
+  "beta": 1,
+  "erp": 6,
+  "bookUpliftPerShare": 34.5,
+  "roePath": [
+   10.5,
+   12,
+   13.5
+  ],
+  "sustainableRoe": 16,
+  "terminalGrowth": 6.5,
+  "years": 15,
+  "fadeYears": 8,
+  "payoutTo": 30,
+  "rollForwardMonths": 6,
+  "peYear": "FY28E",
+  "_why": "Cost of equity 12.6% (6.6% G-sec + beta 1.0 x 6% ERP). Book on Ind AS: FY26 Ind AS net worth ₹7,610 cr vs IGAAP ₹4,586 cr (gap = deferred acquisition costs and reserve discounting), i.e. ~₹32.7/share, grown to ~₹34.5 by Mar-27. Ind AS ROE: 17.7% in FY26 (helped by DAC build-up in a growth year); we assume 10.5% in FY27 (flat premiums, full 25% tax, management-KPI PAT already -5% in Q1), 12% FY28, 13.5% FY29, fading to a sustainable 16% - a level that requires the combined ratio to reach ~104% on IGAAP, close to ICICI Lombard today.",
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 25,
+      "bull": 32,
+      "bear": 18
+     },
+     "why": "How the street values Indian general insurers: one-year-forward P/E on Indian GAAP EPS (ICICI Lombard 28-30x, Star Health 22-29x, Go Digit 31-35x at HDFC Sec / Emkay-implied). 25x = ~15% discount to ICICI Lombard for half its ROE and no underwriting profit; bull 32x (street level), bear 18x."
+    },
+    {
+     "key": "ri",
+     "name": "Residual income",
+     "method": "ri",
+     "role": "cross-check",
+     "why": "Intrinsic value on Ind AS book and sustainable ROE (Emkay uses the same approach)."
+    },
+    {
+     "key": "pb",
+     "name": "P/B",
+     "method": "pb",
+     "year": "FY28E",
+     "multiple": {
+      "base": 3.5,
+      "bull": 4.5,
+      "bear": 2.5
+     },
+     "role": "cross-check",
+     "why": "Book-value check: ICICI Lombard ~5.5x on ~19% ROE; 3.5x for Go Digit's ~12-14% ROE."
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "gwpGrowthDelta": 4,
+   "combinedRatioDelta": -1.5,
+   "sustainableRoe": 20,
+   "narrative": "IDBI Bank bancassurance takes off, the motor TP tariff is finally raised, and costs fall to ICICI Lombard levels - long-run ROE reaches ~20%."
+  },
+  "bear": {
+   "label": "Bear",
+   "gwpGrowthDelta": -4,
+   "combinedRatioDelta": 1.5,
+   "sustainableRoe": 13,
+   "narrative": "Soft pricing persists, costs stay ~38% of premium, motor TP claims inflation bites after the Shishupal ruling - long-run ROE stalls near the cost of equity."
+  }
+ }
+}

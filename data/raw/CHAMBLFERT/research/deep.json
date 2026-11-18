@@ -1,0 +1,93 @@
+{
+ "symbol": "CHAMBLFERT",
+ "asOf": "2026-09-30",
+ "_note": "Industry, street, ownership, moat, critiques, gaps and conflicts for the Chambal initiation. Sources dated on or before 30-Sep-2026 only.",
+ "industry": {
+  "urea": { "consumption": 39.64, "productionFY26": 29.32, "productionFY25": 30.64, "importsFY26": 10.38, "importsFY25": 5.65, "cagr5y": 3.78, "unit": "million t", "note": "Urea sales grew ~3.8% a year over FY21-26; imports nearly doubled in FY26 as domestic output fell and demand rose; management puts consumption at ~40.4-40.5 mt vs production ~30.5-30.6 mt (Q1FY27 call).", "src": "ar26 MD&A (FAI data); q1fy27call" },
+  "dap": { "salesFY26": 9.40, "salesFY25": 9.28, "productionFY26": 3.90, "importsFY26": 6.22, "importsFY25": 4.57, "importShare": 66, "unit": "million t", "src": "ar26 MD&A (FAI data)" },
+  "cpc": { "market": "~₹40,000 cr (CPC, speciality nutrients, biologicals), growing 8-9% a year to ~₹54,000 cr by FY30; generics ~70%", "src": "ar26 MD&A" },
+  "tan": { "demand": "~1.2 mt of ammonium nitrate demand in India, growing 6-7% a year with mining and infrastructure; imports (largely Russian) restricted in 2026; new capacity from Chambal, Deepak (Gopalpur) and later Coal India/BHEL; Reliance reportedly evaluating", "src": "q4fy26call; q3fy26call; q1fy27call" },
+  "subsidyBudget": { "fy27BE": 171000, "fy26RE": 186000, "unit": "₹ cr", "note": "Fertiliser subsidy ₹1.71 lakh cr budgeted for FY27 vs ₹1.86 lakh cr revised for FY26; Elara (Apr-2026) estimated actual FY27 outgo of ₹2.19-2.83 lakh cr depending on prices, war duration and the rupee", "src": "SKP Q1FY27 note (3-Aug-2026); Elara sector preview (4-Apr-2026); q3fy26call" },
+  "monsoon2026": { "allIndia": 87, "northwest": 94.1, "central": 97, "south": 76, "northeast": 74, "monthly": "June 65%, July 101%, August 84%, September 92% of LPA", "src": "https://mausam.imd.gov.in/Forecast/marquee_data/Salient_Features_SW_MONSOON%20_2026_30_sep.pdf", "published": "2026-09-30" }
+ },
+ "street": {
+  "brokers": [
+   { "broker": "IIFL Capital", "rating": "Buy", "tp": 610, "date": "31-Jul-2026", "method": "P/E", "multiple": "14x", "on": "Jun-28E", "eps": { "FY27E": 46.6, "FY28E": 42.9, "FY29E": 44.1 }, "ebitda": { "FY27E": 2770, "FY28E": 2567, "FY29E": 2628 }, "thesis": "Beat on traded margins; G-III EBIT/t cut from ₹7,494 (FY26) to ₹4,400 from FY28; strong FCF; fourth urea plant optionality", "note": "Jul note does not restate the basis; 14x Jun-28E is the basis in its 15-May-2026 note (TP ₹620)", "src": "https://www.valoremadvisors.com/assets/admin/research_file/1790314159_IIFL_-_Chambal_Fertilisers_-_1QFY27_Result_update_-_20260731.pdf", "published": "2026-07-31" },
+   { "broker": "SKP Securities", "rating": "Buy", "tp": 566, "date": "3-Aug-2026", "method": "EV/EBITDA", "multiple": "8x", "on": "FY28E", "eps": { "FY27E": 55.7, "FY28E": 46.8 }, "ebitda": { "FY27E": 3014, "FY28E": 2277 }, "thesis": "Prudent NPK sourcing; G-III benefit ends Q4FY27 (EBITDA falls in FY28); TAN and a fourth plant for growth", "src": "https://www.valoremadvisors.com/assets/admin/research_file/1785910403_Chambal_-_Q1FY27_Results_Update_-_SKP.pdf", "published": "2026-08-03" },
+   { "broker": "Elara Securities", "rating": "Buy", "tp": 544, "date": "31-Jul-2026", "method": "P/E", "multiple": "11x", "on": "Jun-28E", "eps": { "FY27E": 63.1, "FY28E": 49.5, "FY29E": 53.5 }, "ebitda": { "FY27E": 3418, "FY28E": 2644, "FY29E": 2804 }, "thesis": "TAN drives FY27; 'nearly one-third' cut in G-III EBITDA/t from Dec-2026; FY27 may be peak PAT, not crossed until FY30", "note": "11x Q1FY29E EPS (₹50.5), i.e. the June-2028 quarter", "src": "https://valoremadvisors.com/assets/admin/research_file/1785910256_Chambal_Fertilisers_-_Elara_Securities_-_31_July_2026.pdf", "published": "2026-07-31" },
+   { "broker": "Systematix", "rating": "Hold", "tp": 500, "date": "3-Aug-2026", "method": "EV/EBITDA", "multiple": "5.6x", "on": "FY28E", "eps": { "FY27E": 51.7, "FY28E": 54.6 }, "ebitda": { "FY27E": 3190, "FY28E": 3360 }, "thesis": "Initiation: urea a regulated annuity, TAN accretion gradual (<5% of revenue), risk-reward balanced", "src": "https://www.valoremadvisors.com/assets/admin/research_file/1785910808_Systematix_Initiating_Coverage_on_Chambal_Fertilisers_and_Chemicals_(1).pdf", "published": "2026-08-03" },
+   { "broker": "JRK Group", "rating": "Buy", "tp": 587, "date": "15-May-2026", "method": "P/E", "multiple": "9.5x", "on": "FY28E", "eps": { "FY27E": 53.06, "FY28E": 61.76 }, "ebitda": { "FY27E": 3042, "FY28E": 3894 }, "thesis": "Before Q1FY27: TAN and diversification; no G-III reset visible in its EPS", "src": "https://www.jrkgroup.in/files/researchfile/639144571590737010_Chambal_Fertilizers_Ltd_Q4FY26_Result_Update.pdf", "published": "2026-05-15" }
+  ],
+  "older": [
+   { "broker": "IIFL Capital", "rating": "Buy", "tp": 620, "date": "15-May-2026", "method": "14x Jun-28E EPS" },
+   { "broker": "Elara Securities", "rating": "Buy (from Accumulate)", "tp": 544, "date": "15-May-2026", "method": "11x FY28E EPS of ₹49.5" },
+   { "broker": "SKP Securities", "rating": "Buy", "tp": 537, "date": "18-May-2026", "method": "8x FY28E EV/EBITDA" },
+   { "broker": "Elara Securities", "rating": "Accumulate", "tp": 522, "date": "4-Apr-2026", "method": "Sector preview: FY27E/FY28E PAT ₹2,204 / ₹1,902 cr" },
+   { "broker": "IIFL Capital", "rating": "Buy", "tp": 610, "date": "12-Feb-2026", "method": "P/E" },
+   { "broker": "Elara Securities", "rating": "Accumulate", "tp": 522, "date": "11-Feb-2026", "method": "11x FY28E EPS of ₹47.5" }
+  ],
+  "consensus": { "note": "IIFL (31-Jul-2026) put its FY27/28/29 EPS 10.9% / 18.5% / 10.6% below consensus, implying consensus EPS of ~₹52.3 / ₹52.6 / ₹49.3. A Trendlyne snapshot dated 4-Sep-2026 (seen via search; the live page now shows later data) gave an average target of ₹549.67 from three analysts (Buy). No other dated consensus was found.", "impliedEps": { "FY27E": 52.3, "FY28E": 52.6, "FY29E": 49.3 } },
+  "split": "Latest call per broker by 30-Sep-2026: four Buys (IIFL ₹610, JRK ₹587 (May), SKP ₹566, Elara ₹544) and one Hold (Systematix ₹500); no Sell. Three value the stock on P/E (9.5-14x FY28/Jun-28 EPS) and two on EV/EBITDA (5.6-8x FY28E). Every target is above the ₹409 share price."
+ },
+ "ownership": {
+  "period": "Jun-2026",
+  "pattern": { "promoters": 61.34, "fiis": 14.92, "diis": 5.34, "public": 18.40, "shareholders": 264797, "pledgedOfPromoter": 23.07 },
+  "named": [
+   { "name": "The Hindustan Times Ltd (Bhartia family)", "pct": 14.28, "type": "Promoter" },
+   { "name": "Zuari Industries Ltd (Poddar family, Adventz)", "pct": 14.22, "type": "Promoter" },
+   { "name": "SIL Investments Ltd (Nopany family)", "pct": 8.19, "type": "Promoter" },
+   { "name": "Earthstone Holding (Two) Pvt Ltd", "pct": 3.56, "type": "Promoter group" },
+   { "name": "Chandra Shekhar Nopany (Shekhar Family Trust)", "pct": 3.47, "type": "Promoter group" },
+   { "name": "HDFC Mutual Fund (schemes)", "pct": 2.61, "type": "Domestic MF" },
+   { "name": "Earthstone Investment & Finance Ltd", "pct": 2.03, "type": "Promoter group" },
+   { "name": "Yashovardhan Investment & Trading Co.", "pct": 1.90, "type": "Promoter group" },
+   { "name": "Ronson Traders Ltd", "pct": 1.72, "type": "Promoter group" },
+   { "name": "Jyotsna Poddar", "pct": 1.66, "type": "Promoter" },
+   { "name": "Uttam Commercial Ltd", "pct": 1.64, "type": "Promoter group" },
+   { "name": "Investor Education and Protection Fund", "pct": 1.59, "type": "Government" },
+   { "name": "Nippon India Mutual Fund (schemes)", "pct": 1.08, "type": "Domestic MF" },
+   { "name": "Nilgiri Plantations Ltd", "pct": 1.03, "type": "Promoter group" }
+  ],
+  "notes": [
+   "Promoters rose from 60.40% (Mar-2025) to 61.34% (Jun-2026) through market purchases (e.g. Jyotsna Poddar 1.06% to 1.66% in FY26).",
+   "FIIs fell from 20.18% (Mar-2025) to 14.92%; DIIs 4.59% to 5.34%. No foreign institution held 1% or more in Jun-2026.",
+   "About 23% of promoter shares were pledged in Jun-2026 (22.3% Sep-2025, 23.7% Dec-2025, 23.5% Mar-2026)."
+  ],
+  "src": "BSE shareholding pattern via Screener.in (Jun-2026 quarter; named holders from Screener's investor tables); pledge from Trendlyne and the Elara/IIFL notes (Jul-2026)"
+ },
+ "moat": [
+  { "dimension": "Energy efficiency", "verdict": "advantage", "evidence": "G-I and G-II run 4-6% below the government's energy norms and G-III 2-3% below (Q3FY26 call); Chambal keeps the saving. Gas is a pass-through, so efficiency is the main controllable lever." },
+  { "dimension": "Scale at one site", "verdict": "advantage", "evidence": "3.4 mt at Gadepan (~10% of Indian output): shared utilities, ammonia surplus that now feeds the TAN plant, land, water, rail siding and gas approval for a fourth plant." },
+  { "dimension": "Distribution in north and central India", "verdict": "advantage", "evidence": "4,918 dealers and 93,000+ retailers in 14 states; urea brings farmers in, which sells traded P&K (12.3 lakh t in FY26) and CPC (₹1,203 cr)." },
+  { "dimension": "Pricing power", "verdict": "disadvantage", "evidence": "Urea MRP and returns are set by policy (NIP-2012, NUP-2015, NIPU-2026's 12-16% ROE band); DAP is a fixed-margin product; NPK prices capped by affordability." },
+  { "dimension": "Traded fertilisers and CPC", "verdict": "parity", "evidence": "Asset-light trading of imported fertilisers (4% EBITDA margin in FY26) and sourced agrochemicals (~3% market share); no manufacturing or patents yet (TERI pipeline from FY29)." },
+  { "dimension": "Balance sheet", "verdict": "advantage", "evidence": "Long-term debt repaid (FY25); short-term borrowings only fund subsidy receivables; can fund a ₹9,500-10,000 cr plant and ride out subsidy delays." }
+ ],
+ "critiques": [
+  { "argument": "Gadepan-III's NIP-2012 pricing ends in December 2026; brokers cut its EBITDA per tonne by about a third (Elara) or EBIT/t from ₹7,494 to ₹4,400 (IIFL), so FY27 may be the profit peak until FY30.", "who": "Elara, IIFL, SKP (Jul-Aug 2026)" },
+  { "argument": "The TAN market may turn long within one to two years (Deepak's Gopalpur plant, Coal India/BHEL, a possible Reliance entry, Russian imports), capping prices that are elevated today.", "who": "Analyst questions on Q1FY27 call; management concedes 'short or slightly long... for not more than a year'" },
+  { "argument": "A fourth urea plant would cost ₹9,500-10,000 cr at returns management itself calls 'dilutive' versus NIP-2012; it would absorb the cash pile and rule out buybacks.", "who": "Q1FY27 call (management, SiMPL, District B)" },
+  { "argument": "Traded-fertiliser profit is lumpy: a ₹419 cr loss in FY23, 4% margin in FY26, 13.7% in Q1FY27 only because stock was bought before the war.", "who": "GAM Research from segment data; management ('it will decline')" },
+  { "argument": "Subsidy receivables ballooned from ₹368 cr (Mar-25) to ₹2,462 cr (Jun-26), turning net cash into net debt of ~₹200 cr; the government's fiscal room is tighter in a high-price year.", "who": "Aequitas on the Q4FY26 call; company data" },
+  { "argument": "About 23% of promoter shares are pledged.", "who": "Elara and IIFL notes (shareholding tables)" }
+ ],
+ "gaps": [
+  "Plant-wise (G-I/G-II vs G-III) EBITDA and depreciation are not disclosed; the Gadepan-III reset is sized from broker estimates (Elara, IIFL).",
+  "The post-December-2026 pricing formula for Gadepan-III was undecided on 30-Sep-2026.",
+  "TAN margins are not disclosed; FY27 booked volume and price are our estimates.",
+  "Rabi 2026-27 NBS rates were not announced by 30-Sep-2026; we leave them out.",
+  "No pooled gas price beyond the Q1FY27 provisional US$17.25/mmBtu; our realisation path is an assumption.",
+  "Surplus ammonia sales volumes are disclosed only occasionally (~23,000 t in Q1FY26).",
+  "IMACID's FY27-29 profit and dividends are our estimates; only its FY25-26 results and the capacity plan are public.",
+  "Exact commissioning years of Gadepan-I and Gadepan-II are not in the sources we reviewed.",
+  "Q1FY25 urea production and the Q4FY25 DAP volume (shown as nil) were not verified.",
+  "No dated consensus EPS by 30-Sep-2026 other than the figure implied by IIFL's 'vs consensus' line; the ₹549.67 Trendlyne average target (4-Sep-2026) was seen only through a search snapshot.",
+  "The fourth urea plant (₹9,500-10,000 cr) and the overseas phosphate JV had no Board decision by 30-Sep-2026 and are not modelled."
+ ],
+ "conflicts": [
+  "Q1FY27 urea segment EBIT: ₹434.5 cr in the company presentation vs ₹431.8 cr in IIFL's table; we use the presentation.",
+  "Promoter pledge: Elara, IIFL and Trendlyne show ~23% of promoter shares pledged; Systematix's initiation shows none. We use ~23%.",
+  "Gadepan-III policy end: management says the new regime applies 'from December 1st'; brokers write 'December 2026' or 'Q4FY27'. We apply the cut from December 2026.",
+  "IMACID expansion timing: 'December 2026' (Q3/Q4FY26 calls) vs 'April to June 2027' (Q1FY27 call); we use the later date."
+ ]
+}

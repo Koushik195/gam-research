@@ -1,0 +1,222 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Linde India (consolidated, Rs crore). Segment model on the two reported segments: Gases & related products (external revenue = segment revenue) and Project Engineering on EXTERNAL revenue only (PED segment revenue less inter-segment plants built for Gases, which are eliminated at cost), so the two sum to reported revenue. Segment margin = segment EBITDA (segment result + segment D&A, AR note 42) as % of segment revenue. Unallocated corporate costs (Screener EBITDA less the sum of segment EBITDA) are a separate line. Treasury income = yield x opening net cash (zero when net debt); other income = recurring non-treasury income plus the LSAS JV share. Valued on P/E, the method the Indian street uses for listed industrial-gas companies.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "gas",
+   "name": "Gases & related products",
+   "driverLabel": "Revenue",
+   "marginLabel": "Segment EBITDA",
+   "base": 2128.18,
+   "growth": [
+    11,
+    12,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    35.5,
+    36,
+    36.5
+   ],
+   "hist": {
+    "driver": "gasRev",
+    "revenue": "gasRev",
+    "adjEbitda": "gasEbitda"
+   },
+   "_why": "FY26 +4.3% (merchant deliveries +12% to 2,360 TPD; on-site power pass-through fell ~Rs 106 cr, depressing reported revenue). Q1FY27 +9.0%. FY27 +11%: full year of the JSL Jajpur 1,450 tpd ASU and IOCL Panipat N2 plant (capitalised in FY26), the second Tata Steel Kalinganagar 1,800 TPD ASU and the third Dahej ASU (commissioning FY27), merchant growth ~8-10%. FY28 +12%: SAIL Rourkela 1,000 TPD and Electrosteel Bokaro 900 TPD ASUs (under construction at Aug-2026) ramp up. FY29 +10%: steel 6-8% and electronics/solar 18-20% end-market growth (company view) with no new large plant assumed.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin 33.7% (FY24), 35.8% (FY25), 40.6% (FY26 incl. the Rs 90 cr reversal; 36.3% without it). Q4FY26 ~36% and Q1FY27 ~35% (PBIT margin 24.3% vs 25.8%: power tariffs, overheads, new-plant depreciation). New on-site plants carry fixed facility fees, so margin rises gently: 35.5% / 36% / 36.5%."
+  },
+  {
+   "key": "ped",
+   "name": "Project Engineering (external)",
+   "driverLabel": "Revenue",
+   "marginLabel": "Segment EBITDA",
+   "base": 402.46,
+   "growth": [
+    60,
+    15,
+    -5
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    16,
+    15,
+    15
+   ],
+   "hist": {
+    "driver": "pedExt",
+    "revenue": "pedExt",
+    "adjEbitda": "pedEbitda"
+   },
+   "_why": "External PED revenue: Rs 768 cr (FY24), Rs 445 cr (FY25), Rs 402 cr (FY26); Q1FY27 Rs 150 cr (2.1x Q1FY26). Third-party order book ~Rs 2,000 cr (AGM, Aug-2026) incl. Tata Electronics' Dholera fab and Assam OSAT, Reliance Nagothane ASU, Adani and PSU nitrogen plants. FY27 ~Rs 644 cr (+60%), FY28 ~Rs 740 cr, FY29 ~Rs 703 cr as the current order book is executed; lumpy.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "PED PBIT margin on external revenue was 11-14% in CY18-FY24, then 22% (FY25) and 30% (FY26) when inter-segment work for the company's own plants was large (Rs 661 cr and Rs 578 cr) and absorbed overheads; Q1FY27 ~16% EBITDA as external work rose and inter-segment work fell to Rs 75 cr. We assume 16% / 15% / 15%, nearer the long-run level."
+  }
+ ],
+ "unallocated": [
+  80,
+  85,
+  90
+ ],
+ "_unallocLabel": "Unallocated corporate costs (sum of segment EBITDA less Screener EBITDA)",
+ "_unallocWhy": "Rs 77 cr (FY24), Rs 70 cr (FY25), Rs 78 cr (FY26): head-office, governance, legal (SEBI/SAT/Supreme Court) and other costs not allocated to segments. Grows ~6% a year.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  900,
+  750,
+  650
+ ],
+ "_capexWhy": "Cash capex Rs 572 cr (FY24), Rs 1,331 cr (FY25), Rs 766 cr (FY26). At Mar-2026: CWIP Rs 1,343 cr, capital commitments Rs 695 cr net of Rs 755 cr of advances already paid. Projects under construction: Tata Kalinganagar second 1,800 TPD ASU, SAIL Rourkela 1,000 TPD, Electrosteel Bokaro 900 TPD, Dahej third ASU, ammonia purification (Gujarat). No guidance; we assume Rs 900 / 750 / 650 cr incl. ~Rs 150 cr a year of maintenance, cylinders and logistics (FY26: Rs 37 cr on special-gas trailers alone).",
+ "depRateOnGrossBlock": 6.6,
+ "_depWhy": "FY26 depreciation Rs 235 cr = 6.2% of average gross block (Rs 3,780 cr). Q1FY27 Rs 62 cr (Rs 250 cr annualised). The engine holds CWIP (Rs 1,343 cr) flat and depreciates capex at once, so we use 6.6% to capture CWIP being capitalised as the Tata, SAIL and Dahej plants start.",
+ "treasuryYield": [
+  6.5,
+  6.5,
+  6.5
+ ],
+ "_treasuryWhy": "Applied only to positive opening net cash (cash Rs 112 cr + Rs 82 cr investments in renewable SPVs less Rs 79 cr lease liabilities at Mar-2026); with capex above operating cash flow, net cash turns to net debt and this line falls to zero.",
+ "otherIncome": [
+  28,
+  30,
+  32
+ ],
+ "_otherIncomeWhy": "Recurring non-treasury other income and the LSAS JV share: FY26 consolidated other income Rs 18 cr plus normal JV share ~Rs 7 cr (excluding the ~Rs 49 cr Bellary Oxygen one-off); Q1FY27 Rs 5.8 cr + Rs 1.6 cr.",
+ "interest": [
+  28,
+  40,
+  44
+ ],
+ "_interestLabel": "Interest cost (leases and borrowings to fund capex)",
+ "_interestWhy": "Rs 13 cr (FY25), Rs 14.5 cr (FY26, incl. Rs 6.2 cr on leases); Q1FY27 Rs 5.9 cr (double Q4FY26). Lease liabilities rose to Rs 79 cr. Capex above operating cash flow after dividends means borrowings of roughly Rs 500-700 cr by FY28 at ~7.5-8%, plus leases.",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "FY26 consolidated 25.2% (Rs 184.5 cr on Rs 733.5 cr PBT); Q1FY27 25.1%; new regime 25.17% plus deferred tax on the JV.",
+ "payout": [
+  24,
+  23,
+  22
+ ],
+ "_payoutWhy": "Dividend held at Rs 12 a share (Rs 102 cr, incl. a special) for FY23-FY26: 19-23% of EPS. We keep roughly Rs 12-13 a share.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 32,
+  "fadeCapexPctTo": 14,
+  "depPctOfSales": 9,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Long-term take-or-pay contracts and a parent-backed balance sheet make cash flows steadier than the market, but merchant pricing, steel and project lumpiness add cyclicality: beta 0.85, cost of equity 11.6%. The engine discounts at the cost of equity; with little debt this is close to WACC.",
+  "_tgWhy": "Industrial gases grow with industrial output and nominal GDP; 6% nominal, the top of the house 5-6% range.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% to 8% by year 15 (India nominal GDP ~10%; gases ~1x industrial growth).",
+  "_fadeMarginWhy": "EBITDA margin fades from ~32% to 32%: gases mix rises but power costs and competition cap it; Linde plc's group EBITDA margin is ~38-40% at global scale.",
+  "_fadeCapexWhy": "Gases are capital-heavy (gross block incl. CWIP ~2x sales); growing ~8% needs capex of ~14% of sales (Linde plc spends ~16% of sales).",
+  "_depWhy": "Depreciation ~9% of sales (9.3% in FY26)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "All four large ASUs start on time and merchant liquid stays tight: gases grow ~14% a year with EBITDA margin near 38%; PED executes the semiconductor and refinery orders faster at ~18%; the Supreme Court sides with the company and the Praxair matter fades.",
+   "fadeMarginTo": 34,
+   "segments": {
+    "gas": {
+     "growthDelta": 3,
+     "marginDelta": 1.5
+    },
+    "ped": {
+     "growthDelta": 10,
+     "marginDelta": 3
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Steel capex slows and project start-ups slip a year; INOX, Air Liquide and Air Water add merchant capacity and liquid prices fall; gases grow ~8% with margin ~33.5%; PED orders are delayed and margins fall to ~12%; SEBI acts on the valuation report.",
+   "fadeMarginTo": 29,
+   "segments": {
+    "gas": {
+     "growthDelta": -3,
+     "marginDelta": -2
+    },
+    "ped": {
+     "growthDelta": -20,
+     "marginDelta": -3
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 85,
+      "bull": 115,
+      "bear": 42
+     },
+     "why": "No broker method for Linde India is public; the Indian street values listed industrial-gas companies on one-year-forward P/E (Motilal Oswal initiated Ellenbarrie at 40x FY27E EPS in Sep-2025). 85x Sep-28E EPS = the stock's 114.5x median one-year-forward P/E since Apr-2021 (forwardMedian; the Apr-2021 to Mar-2022 points drop out because FY23 was a 15-month year; no trough years), cut by the ~25% median de-rating of five Indian industrial and chemical compounders (SRF, Pidilite, Solar Industries, Navin Fluorine, 3M India) against their five-year median P/E by 30-Sep-2026 (about 86x). No further growth adjustment: our FY26-29E underlying EPS growth (~4% a year) is close to the near-flat EPS the stock delivered while it traded at 114x. Bull 115x (its own median, no de-rating); bear 42x (Ellenbarrie's trailing P/E on 30-Sep-2026, the only other listed Indian gas company)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 34,
+      "bull": 45,
+      "bear": 22
+     },
+     "why": "Cross-check that counts net debt. 34x Sep-28E EBITDA = Linde India's ~56x median trailing EV/EBITDA since Apr-2021, less the same ~25% de-rating (about 42x trailing), restated for Sep-28E EBITDA being ~25% above the twelve months to Jun-2026 excluding the Rs 90 cr reversal (about 34x). Bull 45x, bear 22x."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, cost of equity 11.6%, terminal growth 6%, less net debt."
+    }
+   ]
+  }
+ }
+}

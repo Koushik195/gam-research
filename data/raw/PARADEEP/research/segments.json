@@ -1,0 +1,31 @@
+{
+ "asOf": "2026-09-30",
+ "note": "Paradeep reports one segment (Fertilizers and Other Trading Materials). Business lines are tracked through volumes. Revenue and EBITDA are Screener's consolidated basis (EBITDA excludes other income); FY25 and Q1FY25 onwards are restated to include MCFL (appointed date 1-Apr-2024); FY24 and earlier are PPL alone. Quarterly volumes compiled by Prabhudas Lilladher from company data (Q1FY27 note, 31-Jul-2026), checked against the company's quarterly totals. Company-stated EBITDA/t includes other income.",
+ "sources": { "screener": "https://www.screener.in/company/PARADEEP/consolidated/", "plQ1": "https://plindia.com/ResReport/PARADEEP-31-7-26-PL.pdf", "calls": "Company earnings calls Jul-2025 to Jul-2026 (see company.json sources)", "ar26": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/07d55008-83af-4431-be24-19b9fddce9d4.pdf" },
+ "annual": [
+  { "fy": "FY19", "rev": 4358, "ebitda": 452, "basis": "PPL alone" },
+  { "fy": "FY20", "rev": 4193, "ebitda": 467, "basis": "PPL alone" },
+  { "fy": "FY21", "rev": 5165, "ebitda": 549, "basis": "PPL alone" },
+  { "fy": "FY22", "rev": 7859, "ebitda": 684, "basis": "PPL alone" },
+  { "fy": "FY23", "rev": 13341, "ebitda": 816, "basis": "PPL incl. Goa from Jun-2022" },
+  { "fy": "FY24", "rev": 11575, "ebitda": 672, "basis": "PPL alone (pre-merger)" },
+  { "fy": "FY25", "rev": 16959, "ebitda": 1574, "vol": 3820000, "rpt": 44395, "ebitdaPerT": 4120, "subsidyOut": 2357, "basis": "Restated incl. MCFL (original PPL: revenue ₹13,820 cr)" },
+  { "fy": "FY26", "rev": 21826, "ebitda": 2208, "vol": 4209890, "volMfd": 3567871, "volTraded": 642019, "volDap": 761357, "volNpk": 2463741, "volUrea": 844153, "volTsp": 282939, "production": 3666291, "rpt": 51845, "ebitdaPerT": 5245, "ebitdaPerTCo": 5300, "subsidyOut": 3847, "grossDebt": 6872, "basis": "Consolidated incl. MCFL" }
+ ],
+ "quarterly": [
+  { "q": "Q2FY25", "rev": 4619, "ebitda": 507, "vol": 1042387, "volDap": 218221, "volN20": 323156, "volOtherNpk": 192100, "volUrea": 207411, "volMfd": 940888, "volTraded": 101499, "ebitdaPerT": 4864, "rpt": 44312 },
+  { "q": "Q3FY25", "rev": 4990, "ebitda": 438, "vol": 1089284, "volDap": 219985, "volN20": 381886, "volOtherNpk": 107935, "volUrea": 203889, "volMfd": 913695, "volTraded": 175589, "ebitdaPerT": 4021, "rpt": 45810 },
+  { "q": "Q4FY25", "rev": 4194, "ebitda": 383, "vol": 940470, "volDap": 119479, "volN20": 399231, "volOtherNpk": 125036, "volUrea": 215315, "volMfd": 859061, "volTraded": 81409, "ebitdaPerT": 4072, "rpt": 44595 },
+  { "q": "Q1FY26", "rev": 4504, "ebitda": 580, "vol": 940948, "volDap": 158092, "volN20": 301696, "volOtherNpk": 212539, "volUrea": 233569, "volMfd": 905896, "volTraded": 35052, "ebitdaPerT": 6164, "ebitdaPerTCo": 6600, "rpt": 47866, "subsidyOut": 2200, "grossDebt": 4000 },
+  { "q": "Q2FY26", "rev": 6872, "ebitda": 657, "vol": 1355103, "volDap": 127728, "volN20": 494192, "volOtherNpk": 155383, "volUrea": 239809, "volMfd": 1017112, "volTraded": 337991, "ebitdaPerT": 4848, "ebitdaPerTCo": 5200, "rpt": 50712 },
+  { "q": "Q3FY26", "rev": 5749, "ebitda": 472, "vol": 1069676, "volDap": 128759, "volN20": 368565, "volOtherNpk": 213028, "volUrea": 199853, "volMfd": 910205, "volTraded": 159471, "ebitdaPerT": 4413, "ebitdaPerTCo": 4700, "rpt": 53745, "subsidyOut": 3780, "grossDebt": 5400 },
+  { "q": "Q4FY26", "rev": 4702, "ebitda": 442, "vol": 844153, "volDap": 123640, "volN20": 285547, "volOtherNpk": 154549, "volUrea": 170922, "volMfd": 734658, "volTraded": 109495, "ebitdaPerT": 5236, "ebitdaPerTCo": 5700, "rpt": 55701, "subsidyOut": 3847, "grossDebt": 6872 },
+  { "q": "Q1FY27", "rev": 6124, "ebitda": 720, "vol": 985142, "volDap": 244168, "volN20": 275749, "volOtherNpk": 143205, "volUrea": 196646, "volMfd": 859768, "volTraded": 125374, "ebitdaPerT": 7309, "ebitdaPerTCo": 7000, "rpt": 62165, "subsidyOut": 4600, "grossDebt": 6500, "_note": "EBITDA/t helped by low-cost opening stock (management); the company's 'about ₹7,000' includes other income" }
+ ],
+ "kpiBlocks": [
+  ["1   CONSOLIDATED (Screener basis)", [["rev", "Revenue from operations", "₹ cr", 1], ["ebitda", "EBITDA (excl. other income)", "₹ cr", 0, "rev"]]],
+  ["2   SALES VOLUMES", [["vol", "Total fertiliser sales", "t", 1], ["volDap", "DAP (incl. traded)", "t", 1], ["volN20", "NPK 20:20:0:13", "t", 1], ["volOtherNpk", "Other NPK grades and SSP", "t", 1], ["volUrea", "Urea", "t", 1], ["volMfd", "Manufactured products", "t", 1], ["volTraded", "Traded products (DAP, TSP, MOP, AS)", "t", 1]]],
+  ["3   UNIT ECONOMICS", [["rpt", "Revenue per tonne sold", "₹/t", 1], ["ebitdaPerT", "EBITDA per tonne (Screener basis)", "₹/t", 0], ["ebitdaPerTCo", "EBITDA per tonne (company-stated, incl. other income)", "₹/t", 0]]],
+  ["4   SUBSIDY CYCLE AND DEBT", [["subsidyOut", "Subsidy receivable from the government (period end)", "₹ cr", 0], ["grossDebt", "Gross debt (period end, company)", "₹ cr", 0]]]
+ ]
+}

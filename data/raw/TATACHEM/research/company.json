@@ -1,0 +1,122 @@
+{
+ "asOf": "2026-09-30",
+ "company": "Tata Chemicals Ltd",
+ "nse": "TATACHEM",
+ "bse": "500770",
+ "units": "INR crore unless stated. Unit-wise P&L (India standalone, US = TCNA, UK = TCE, Kenya = TCML Magadi, Singapore = Novabay, Rallis at 100%) from the company's quarterly investor decks; consolidated EBITDA = company-defined, before share of JV income. Screener's consolidated 'Net Profit' is BEFORE minorities; 'Profit for EPS' is after minorities.",
+ "sources": {
+  "q1fy27Deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6f748fd-3dcd-4829-b936-7b97e6d61be6.pdf", "published": "2026-07-27" },
+  "q1fy27Call": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5e23d31-3abc-49e9-82eb-72bf5b8b60b6.pdf", "published": "2026-08-03", "note": "call held 27-Jul-2026" },
+  "q4fy26Deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcb561e2-d0a6-47d1-b540-32f865b2999f.pdf", "published": "2026-05-04" },
+  "q4fy26Call": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50e85ee1-258f-4561-983f-e26dfac2762c.pdf", "published": "2026-05-09", "note": "call held 4-May-2026" },
+  "ar2026": { "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/04be08e9-58af-46cb-aef5-60d30d7e4445.pdf", "published": "2026-07 (before the 27-Jul-2026 call, which refers to it)" },
+  "q3fy26Deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a37bdc1-baa1-4878-96b8-70979137b253.pdf", "published": "2026-02" },
+  "q2fy26Deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b90fd51f-017b-4669-8495-68d60444599d.pdf", "published": "2025-11" },
+  "q1fy26Deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c85a1ce7-361d-4e37-9c4d-40180b9f638e.pdf", "published": "2025-08" },
+  "q4fy25Deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be2e3296-89e3-4a96-a873-5ae2b568cb90.pdf", "published": "2025-05" },
+  "q4fy24Deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31c22f91-5dae-4e56-9dd9-cd50d17e7880.pdf", "published": "2024-05" },
+  "q4fy23Deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e58db2e-4f0c-4380-b561-e6d9d487fd4c.pdf", "published": "2023-05" },
+  "shpJun26": { "src": "https://www.tatachemicals.com/tata/sites/default/files/2026-08/shareholding-patternwebsite-june-30%2C-2026.pdf", "published": "2026-07 (quarter ended 30-Jun-2026)" }
+ },
+ "profile": {
+  "incorporated": 1939, "hq": "Bombay House, Mumbai", "promoter": "Tata Sons (31.90%) + Tata Investment Corp (5.97%) = 37.98% promoter group, no pledge (Jun-2026)",
+  "sodaAshCapacityKtpa": { "India_Mithapur": 1091, "US_GreenRiver": 2540, "Kenya_Magadi": 400, "total": "3.9 mt, more than two-thirds natural (trona)", "src": "q1fy27Deck p16; AR FY26 MD&A" },
+  "otherCapacityKtpa": { "India_salt": 1600, "India_bicarb": 290, "India_prebiotics": 6.77, "India_cement": 500, "India_silica": 13.8, "UK_bicarb": 90, "UK_salt": 430, "UK_pharmaSalt": 70, "Singapore_bicarb": 60, "IMACID_phosphoricAcid_33pct": 500, "src": "q1fy27Deck p15-17" },
+  "rallisStakePct": 55.04, "imacidStakePct": 33.33, "tataIndustriesStakePct": 9.13,
+  "indiaMarketShareFY25": "14% soda ash, 32% sodium bicarbonate; >90% of scFOS (prebiotic) in India (AR FY26)",
+  "employeesStandaloneMar26": 1693,
+  "salt": "Mithapur and Mambattu make vacuum/edible salt; Tata Consumer Products is a key customer (branded Tata Salt was demerged to Tata Consumer in FY20). Supply arrangement unchanged since the demerger (Q4FY26 call)."
+ },
+ "unitsAnnual": "see segments.json (FY22-FY26 from Q4 decks)",
+ "fy26": {
+  "revenue": 14584, "ebitda": 1805, "ebitdaPY": 1953, "jvShare": 167, "exceptional": -1956, "exceptionalSplit": "US goodwill impairment 1,837; labour codes 54; UK soda ash plant closure 65",
+  "deferredTaxWriteOffUS": 182, "dtaNote": "Deck says Rs182 cr; call says Rs159 cr (conflict)", "pbtBeforeExcAfterJV": 497, "patBeforeExcNCI": 241, "patAttributable": -1896, "nci": 181,
+  "nciSplit": { "Rallis_44.96pct": 82, "ALCAD_US_partnership_50pct": 99, "src": "AR FY26 consolidated note 18" },
+  "capex": 1205, "capexPY": 2006, "netDebtExLease": 5961, "netDebtExLeasePY": 4884, "leases": 887, "fxImpactOnDebt": 460, "dps": 11,
+  "nonSodaAshRevenue": 6946, "nonSodaAshRevenuePY": 6118,
+  "goodwillImpairmentUSDmn": 208, "miningRightsNote": "US mining rights (Ind AS only) kept, amortised ~Rs100 cr a year over mine life (Q4FY26 call)",
+  "employeeBenefitProvisions": 1190, "employeeBenefitNote": "consolidated provisions for employee benefits, non-current 1,027 + current 163 (pension and post-retirement 1,084), AR note 21",
+  "ncInterestBook": 969,
+  "src": "q4fy26Deck p3, p9-13; q4fy26Call; AR FY26"
+ },
+ "investments": {
+  "quotedMar26": [
+   { "name": "Titan Company", "shares": 13826180, "valueCr": 5463, "nse": "TITAN" },
+   { "name": "The Indian Hotels Co.", "shares": 11877053, "valueCr": 678, "nse": "INDHOTEL" },
+   { "name": "Tata Steel", "shares": 30900510, "valueCr": 593, "nse": "TATASTEEL" },
+   { "name": "Tata Investment Corp", "shares": 441015, "valueCr": 239, "nse": "TATAINVEST", "note": "share count as printed in AR (pre-split basis unclear); valued at Mar-26 book" },
+   { "name": "Tata Motors Passenger Vehicles", "shares": 1966294, "valueCr": 58, "nse": "TMPV" },
+   { "name": "Tata Motors (CV, TMLCV)", "shares": 1966294, "valueCr": 78, "nse": "TMCV" },
+   { "name": "Tata Capital", "shares": 3230859, "valueCr": 99, "nse": "TATACAP" },
+   { "name": "Oriental Hotels", "shares": 2523000, "valueCr": 21, "nse": "ORIENTHOT" }
+  ],
+  "quotedTotalMar26": 7229,
+  "unquotedMar26": { "TataSons_10237sh": 57, "TataInternational": 238, "TataProjects": 183, "others": 4 },
+  "jvCarryingMar26": { "IMACID_33pct": 718, "TataIndustries_9.13pct": 742, "total": 1460 },
+  "currentInvestmentsMar26": 711, "cashMar26": 442,
+  "note": "Screener 'Investments' Mar-26 = 9,886 (non-current 9,175 + current 711). Q1FY27: 'sold some land and some of the shares we were holding' (~Rs300 cr debt reduction incl. land) - which shares not disclosed.",
+  "src": "AR FY26 consolidated note 9; q1fy27Call"
+ },
+ "q1fy27": {
+  "revenue": 4255, "revenuePY": 3719, "ebitda": 555, "ebitdaPY": 649, "ebitdaPQ": 274, "jvShare": -17, "pbt": 110, "pat": 60, "patAttributable": -17, "nci": 77,
+  "screenerEbitda": 538, "screenerNote": "Screener nets the -17 JV share into operating profit for Q1FY27",
+  "netDebtExLease": 5692, "leases": 894,
+  "segments": { "living": { "rev": 1064, "ebit": 188, "revPY": 850, "ebitPY": 204 }, "industrial": { "rev": 2240, "ebit": -70, "revPY": 1987, "ebitPY": 131 }, "farm": { "rev": 1022, "ebit": 156, "revPY": 957, "ebitPY": 122 } },
+  "volumesKt": { "livingSaltBicarb": 544, "industrialSodaAsh": 884, "sodaAsh": { "India": 195, "US": 614, "Kenya": 75 }, "salt": { "India": 402, "UK": 72 }, "bicarb": { "India": 43, "UK": 16, "Singapore": 11 } },
+  "bridge": { "volumeMix": 138, "price": -126, "fixedCost": -107 },
+  "units": { "India": [1281, 364], "US": [1397, 3], "UK": [401, -5], "Kenya": [144, 1], "Singapore": [60, 5], "Rallis": [1022, 185] },
+  "unitPat": { "India": 343, "US": -130, "UK": -68, "Kenya": -7, "Singapore": -1, "Rallis": 125 },
+  "src": "q1fy27Deck p5-12"
+ },
+ "q1fy27Call": [
+  "Segments re-cut from Q1FY27: Living Essentials (salt, bicarb, prebiotics; India, UK, Singapore), Industrial Essentials (soda ash, silica, bromine/chlorine/caustic; India, US, Kenya, South Africa), Farm Essentials (Rallis + IMACID JV).",
+  "Soda ash: near-term outlook 'challenging' on Chinese oversupply; China inventories at an all-time high of 1.73 mt; Chinese export prices US$160-180/t FOB (US$170-190 CIF South-East Asia); 'USD 170 was the bottom', most Chinese producers losing money on a cash basis.",
+  "US: exports to South-East Asia 'just at breakeven level or unremunerative ... likely to remain so at least through the year'; US players have 'more or less vacated' SE Asia to China; domestic US stable, logistics costs rising.",
+  "India: Q1 EBITDA margin 28% helped by volumes, a ~Rs2,000/t soda ash spot price increase (import parity, weaker rupee) and low-cost coal inventory; sustainable margin 'around 18%'; coal and limestone costs could rise if the Middle East conflict runs beyond October.",
+  "UK: one-offs of ~GBP2.4 mn (EU ETS sale loss, prior-period items); expected EBITDA positive and PBT break-even for FY27.",
+  "Kenya: margins hit by HFO fuel prices; hedged up to October.",
+  "Capex: annualised around depreciation (~Rs1,200 cr, CFO agreed FY26 consolidated depreciation is the FY27 marker); non-core land to be monetised from H2.",
+  "Net debt down ~Rs300 cr vs March from sale of land and some shares.",
+  "IMACID did not produce in Q1 on high sulphur prices; expected profitable for the year.",
+  "Projects: 82.5 KTPA IVSD salt at Mithapur operational by year-end, supplies from Q1FY28; 210 KTPA salt (Valinokkam) and 50 KTPA silica (Cuddalore) 24-month execution, operational during 2028.",
+  "Sodium-ion battery: first pack made, pilot testing 6-9 months, full-scale plant at least two years after; LFP recycling at Mithapur with no major capex."
+ ],
+ "q4fy26Call": [
+  "FY27 capex ~Rs1,300 cr (mostly maintenance at Mithapur and US); net debt expected to stay near Mar-26 levels in FY27.",
+  "Soda ash capex only when the cycle turns. Supply: a ~800 kt Chinese plant stopped on a lapsed permit; one US producer with 1.36 mt mothballed; Solvay cut ~180 kt in Spain.",
+  "India: DGTR examining safeguard measures (quantity restrictions) on soda ash imports alongside anti-dumping.",
+  "Solar glass could add ~7,500-10,000 t a month of dense ash demand in India when new units run.",
+  "New projects: IVSD 82.5 KTPA Mithapur (Rs100 cr, Q1FY28), dense soda ash 350 KTPA Mithapur (Rs135 cr, Q3FY28, repurposes the cement plant), precipitated silica 50 KTPA Cuddalore (Rs775 cr, Q4FY28, 'under detailed review'), IVSD 210 KTPA Valinokkam (Rs515 cr, Q2FY29); target IRRs 15-20%+."
+ ],
+ "history": [
+  ["1939", "Incorporated; Mithapur (Gujarat) soda ash and salt works"],
+  ["2005-06", "Brunner Mond Group (UK soda ash/bicarb; Magadi, Kenya) acquired (AR FY26 lists Brunner Mond Group from Oct-2005)"],
+  ["Mar-2008", "General Chemical Industrial Products (Green River, Wyoming natural soda ash) acquired: Tata Chemicals North America"],
+  ["Nov-2009", "Rallis India becomes a subsidiary (55.04% now)"],
+  ["Jan-2011", "British Salt (UK) acquired"],
+  ["FY20", "Consumer products business (Tata Salt etc.) demerged into Tata Consumer Products; large one-off gain in FY20"],
+  ["FY24", "Q4FY24 exceptional charge of Rs963 cr in the UK unit (q4fy24Deck); FY24 profit after minorities Rs268 cr"],
+  ["Jan-2025", "Lostock (UK) soda ash and bicarb manufacturing ceased; UK now imports TCNA soda ash for Winnington bicarb"],
+  ["FY25", "Mithapur soda ash +230 kt and bicarb +140 kt expansions completed; UK 70 kt pharma salt"],
+  ["Mar-2026", "Novabay (Singapore premium bicarb) acquisition completed 19-Mar-2026; Kenya 50 kt electric-calciner soda ash running"],
+  ["Q4FY26", "US goodwill impairment Rs1,837 cr (US$208 mn) and DTA write-off; FY26 loss after minorities Rs1,896 cr"],
+  ["Jul-2026", "Segments re-cut into Living / Industrial / Farm Essentials"]
+ ],
+ "management": [
+  { "name": "S. Padmanabhan", "role": "Chairman (from 30-May-2025)", "note": "Succeeded N. Chandrasekaran" },
+  { "name": "R. Mukundan", "role": "Managing Director & CEO", "note": "Pay 138x median employee in FY26 (+7%); also on Rallis board" },
+  { "name": "Nandakumar S. Tirumalai", "role": "Chief Financial Officer", "note": "" },
+  { "name": "Jeraz E. Mahernosh", "role": "Company Secretary (from 1-Dec-2025)", "note": "" },
+  { "name": "Rajesh V. Kamat", "role": "Chief Strategy & Projects Officer", "note": "" },
+  { "name": "Alok Chandra", "role": "Chief Commercial Officer", "note": "" },
+  { "name": "Modan Saha", "role": "Non-Executive Director (from 28-May-2025)", "note": "Tata Sons nominee" },
+  { "name": "Padmini Khare Kaicker, C. V. Natraj, K. B. S. Anand, Rajiv Dube", "role": "Independent Directors", "note": "Four of seven directors independent (AR FY26)" }
+ ],
+ "governance": {
+  "auditor": "B S R & Co. LLP (KPMG network), second term to the 2027 AGM; no qualification (AR FY26)",
+  "ratings": "CARE AA+/Stable and CRISIL AA+/Stable (NCDs Rs3,200 cr), CRISIL A1+ (CP); Fitch BB+ IDR (AR FY26)",
+  "contingent": "Kenya land-rates demand Rs891 cr (KShs 12.2 bn): Court of Appeal ruled for TCML on 24-Oct-2025; county appealed to the Supreme Court (AR FY26 note 47)",
+  "ukPension": "UK pension deficit support agreement for 2025-2027 (deferred deficit payments to fund Project Natrium); sale of Winnington land after 2027 expected to cut the deficit (AR FY26 risk section)",
+  "relatedParty": "Salt supply to Tata Consumer Products under the arrangement approved at the 2020 demerger"
+ }
+}

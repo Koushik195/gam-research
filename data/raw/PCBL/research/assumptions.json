@@ -1,0 +1,236 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for PCBL Chemical (consolidated, ₹ crore). Segment model on the split management and the street use: (1) Carbon black including power = consolidated revenue and EBITDA less Aquapharm, driven by tonnes sold × realisation (revenue) and EBITDA per tonne (EBITDA); corporate costs and Nanovace R&D sit inside it; (2) Aquapharm (Specialty & Solutions) revenue growth and EBITDA margin. EBITDA is on the Screener basis (excludes other income), so it runs ~₹500/t below the company's 'EBITDA per tonne', which includes other income. Net debt company: no treasury yield, explicit interest. Valued on Sep-28E P/E (the street's method), with EV/EBITDA and DCF cross-checks.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "cb",
+   "name": "Carbon black (incl. power)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 6746.57,
+   "growth": [
+    20.4,
+    1,
+    6
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    13.1,
+    14.6,
+    15
+   ],
+   "hist": {
+    "driver": "cbRev",
+    "revenue": "cbRev",
+    "adjEbitda": "cbEbitda"
+   },
+   "volumeT": [
+    650000,
+    695500,
+    737230
+   ],
+   "realisationRsKg": [
+    125,
+    118,
+    118
+   ],
+   "ebitdaPerT": [
+    16400,
+    17200,
+    17700
+   ],
+   "_why": "Revenue = tonnes × realisation. Volume: FY26 618,956 t (+3.8%); capacity 900 kt after the 90 kt Tamil Nadu line (Q4FY26) and the 20 kt Mundra specialty line (Q1FY27). Management guides 'high single-digit' growth for FY27, but Q1 was flat YoY (153,513 t), management warned of a 'temporary effect on volumes in Q2' and is deliberately cutting low-margin volume: we use +5% (650 kt). FY28 +7% (695.5 kt): full year of new capacity, US/EU export contracts, Indian tyre makers' capex. FY29 +6% (737 kt, ~82% utilisation); the 150 kt Andhra Pradesh greenfield (Phase I, ~₹1,100 cr) spends mostly from FY28 and adds volume only from FY30. Realisation (revenue incl. power ÷ tonnes): FY26 ₹109/kg, Q1FY27 ₹135/kg on $97 Brent; we assume ₹125/kg for FY27 as crude-linked formula prices ease, ₹118/kg for FY28-29 (ICICI Direct carbon-black ASP: ₹128 / ₹118).",
+   "_revWhy": "Driver is revenue itself (tonnes × realisation: 650 kt × ₹125/kg = ₹8,125 cr; 695.5 kt × ₹118 = ₹8,207 cr; 737 kt × ₹118 = ₹8,699 cr).",
+   "_marginWhy": "Margin = EBITDA per tonne ÷ realisation. EBITDA/t (Screener basis): FY24 ₹19,330, FY25 ₹19,170, FY26 ₹14,230 (company basis ₹14,939). FY27 guidance: +14-15% on FY26, i.e. ₹16,500-17,000 on the company basis (reaffirmed 29-Jul-2026 after a Q1 of ₹22,900 that included ~₹70 cr of inventory gains, ₹40-50 cr of which reverse in Q2). We use ₹16,400 (≈₹16,900 company basis, top half of guidance: Q1 is banked, Russian imports into India fell ~40% in Jan-Jun 2026 and power realisation jumped). FY28 ₹17,200 and FY29 ₹17,700 as ₹200-250 cr of cost savings and a richer specialty mix accrue, partly given back in price; far below management's ₹24,000-25,000/t five-year aspiration. Margins: 13.1% / 14.6% / 15.0%."
+  },
+  {
+   "key": "aq",
+   "name": "Aquapharm (Specialty & Solutions)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1442.73,
+   "growth": [
+    8,
+    10,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    11.5,
+    12.5,
+    13.5
+   ],
+   "hist": {
+    "driver": "aqRev",
+    "revenue": "aqRev",
+    "adjEbitda": "aqEbitda"
+   },
+   "_why": "FY25 ₹1,420 cr, FY26 ₹1,443 cr (flat); Q1FY27 ₹394 cr (+3% YoY, volume −12%). Management guided +20-25% for FY27 in Apr-2026 (oil & gas restocking, green chelates with P&G/Henkel/Reckitt, new phosphonates), but the new CEO (joined Jul-2026) declined to reaffirm targets and oil & gas fell 35% YoY in Q1. We use +8% / +10% / +10%: new phosphonates in the next three quarters, green chelates capped by 4,000 t capacity until a new plant is built.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin 13.7% (FY25), 11.2% (FY26, ₹162 cr); Q1FY27 11.9% (₹47 cr) with inventory and surcharge help that management says will not repeat in Q2. Aquapharm made ₹417 cr EBITDA (20%) in FY23 before PCBL bought it; management has missed every recovery target since (FY26 guidance ₹300 cr, Q4FY26 exit ₹75 cr a quarter vs ₹29 cr actual). We assume 11.5% / 12.5% / 13.5%: utilisation rises slowly; no return to pre-deal margins in our horizon."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Unallocated costs (already inside the carbon-black line)",
+ "_unallocWhy": "Corporate costs (Ind AS 'unallocated expenses, net' ₹275 cr in FY26 incl. ₹12 cr depreciation) and Nanovace development costs are inside the carbon-black-incl.-power EBITDA, as in management's EBITDA-per-tonne metric. No battery-materials revenue is modelled before FY30.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  300,
+  800,
+  900
+ ],
+ "_capexWhy": "FY27: '~₹300 cr, plus or minus ₹50 cr' (CFO, 29-Jul-2026), mostly efficiency, with ≤₹100 cr strategic. FY28-29: Andhra Pradesh greenfield Phase I (150 kt, ~₹1,100 cr per CARE, spend 'more in the next year'), coal-tar distillation (capex approval expected Q2FY27, cost not disclosed), a Nanovace commercial plant, acetylene black (4,000 t) and a green-chelates line at Aquapharm (~10,000 t planned). CRISIL expected ₹600-700 cr a year over the medium term. We use ₹800 cr and ₹900 cr.",
+ "depRateOnGrossBlock": 4.4,
+ "_depWhy": "FY26 depreciation ₹373 cr = 4.2% of average gross block (₹8,867 cr, incl. ~₹2,300 cr of Aquapharm acquisition intangibles amortised at ~₹100 cr a year). Q1FY27 ₹103 cr (new Tamil Nadu and Mundra lines), i.e. ~₹415 cr a year. 4.4% gives ~₹417 / ₹441 / ₹479 cr. The engine holds CWIP (₹583 cr) flat and depreciates capex at once, which slightly overstates FY28-29 depreciation while the Andhra plant is under construction.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net debt company (borrowings ₹4,825 cr plus ₹164 cr of leases at Mar-26 vs cash ₹288 cr). The ₹464 cr of 'investments' are stakes in RPSG group companies (CESC ₹253 cr, RPSG Ventures, Spencer's and unquoted group entities), not treasury; their dividends (~₹10 cr) sit in other income.",
+ "otherIncome": [
+  25,
+  30,
+  30
+ ],
+ "_otherIncomeWhy": "Normal other income ₹44 cr (FY25), ₹38 cr (FY26), ₹4 cr in Q1FY27. We assume ₹25-30 cr (interest and group-company dividends). The ₹40-45 cr US tariff refund the CFO expected in Aug-2026 is excluded (one-off; accounting not decided).",
+ "interest": [
+  370,
+  355,
+  360
+ ],
+ "_interestLabel": "Finance cost",
+ "_interestWhy": "FY25 ₹461 cr, FY26 ₹423 cr; Q1FY27 ₹92.5 cr as borrowings fell by ~₹560 cr in FY26. FY27 ₹370 cr (Q1 run-rate; ~₹605 cr of scheduled repayments, part refinanced). FY28-29 ₹355-360 cr: debt stops falling as the Andhra project is debt-funded (CARE), partly offset by interest capitalised during construction.",
+ "taxRate": [
+  25,
+  25,
+  25
+ ],
+ "_taxWhy": "Effective tax 24.7% (FY25), 24.0% (FY26), 24.1% (Q1FY27); new-regime statutory rate 25.17%.",
+ "payout": [
+  50,
+  50,
+  50
+ ],
+ "_payoutWhy": "PCBL has paid ₹5.5-6.0 a share for years regardless of profit (FY26 ₹6.00 = 119% of EPS). An interim of ₹4.50 was declared with Q1FY27 results. We assume 50% of EPS (~₹4.6-7.3 a share); a higher payout would slow deleveraging.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.8,
+  "terminalGrowth": 5.5,
+  "years": 12,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 15.5,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 4.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts free cash flow at one rate. PCBL carries net debt of ~₹4,500 cr against a market value of ~₹13,000 cr, so we enter a WACC: cost of equity ~13.1% (beta 1.1) weighted ~74%, post-tax cost of debt ~6.3% (8.4% pre-tax) weighted ~26% = ~11.3%, which is what beta 0.8 produces. The same rate rolls the value forward 6 months.",
+  "_tgWhy": "Carbon black demand grows with tyre and industrial output; 5.5% nominal in rupees.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~6% (FY29E) to 7% by year 12 as the Andhra Pradesh plant (150 kt Phase I, 300 kt in phases) and specialty lines add volume.",
+  "_fadeMarginWhy": "EBITDA margin drifts from ~14.7% (FY29E) to 15.5%: a richer specialty and battery-materials mix, against commodity rubber-black pricing set by Chinese and Russian supply.",
+  "_fadeCapexWhy": "Capex falls from ~8.5% of revenue (FY29E, Andhra build) to 5% (maintenance plus debottlenecking); depreciation 4.5% of revenue."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Russian supply stays constrained and US/EU contracts land: volumes grow ~9% a year, EBITDA per tonne reaches ~₹19,000-20,000 by FY29 and Aquapharm returns to ~15-16% margins as oil & gas and green chelates recover.",
+   "fadeMarginTo": 17.5,
+   "segments": {
+    "cb": {
+     "growthDelta": 3,
+     "marginDelta": 1.5
+    },
+    "aq": {
+     "growthDelta": 6,
+     "marginDelta": 2.5
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Crude falls, Q1's inventory gains reverse and Indian overcapacity returns: EBITDA per tonne stays near the FY26 level of ~₹14,500-15,000, volumes grow ~3% and Aquapharm stays at ~9% margins, so leverage stays above 3x.",
+   "fadeMarginTo": 13.5,
+   "segments": {
+    "cb": {
+     "growthDelta": -3,
+     "marginDelta": -1.5
+    },
+    "aq": {
+     "growthDelta": -5,
+     "marginDelta": -2.5
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 16,
+      "bull": 22,
+      "bear": 12
+     },
+     "why": "How the street values PCBL: Prabhudas Lilladher 25x and ICICI Direct 20x FY28E EPS, ICICI Securities 20x FY27-28E (Jul-Sep 2026). 16x is derived, not picked: the stock's one-year-forward P/E median since Apr-2021 is 13.7x excluding the FY26 trough year (22.8x including it); that median blends the commodity years (Apr-2021 to Oct-2023, 9.9x) and the post-Aquapharm years (28.4x ex-trough). Weighting today's mix (specialty = 28% of EBITDA per the company) at the commodity-era 9.9x and the specialty-chemical peers' 27x gives 14.7x; we add ~1x for 25% EPS growth over FY27-29E and give no premium for a return on equity (11-12% FY28-29E) below the ~13% cost of equity and net debt near 3x EBITDA. Bull 22x (the street's 20x FY28E, rolled forward); bear 12x (near the commodity-era multiple)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 9,
+      "bull": 11,
+      "bear": 7
+     },
+     "why": "Charges the ₹4,500 cr of net debt directly. 9x = the stock's ~8.3x one-year-forward EV/EBITDA median since Apr-2021 (no trough year on EBITDA; commodity years ~5x, post-Aquapharm ~16x), re-weighted for the 28% specialty share at the specialty peers' ~16x and ~0.5x for growth. Net debt at Sep-28E from the model (it nets ₹464 cr of group-company shares; excluding them lowers the value by ~₹12 a share)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 12-year FCFF at ~11.3% WACC (beta set so Ke = WACC), terminal growth 5.5%, EBITDA margin fading to 15.5%, less net debt at Mar-27E."
+    }
+   ]
+  }
+ }
+}

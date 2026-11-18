@@ -1,0 +1,138 @@
+{
+ "asOf": "2026-10-23",
+ "_note": "GAM Research forecast drivers for Maruti Suzuki (consolidated, INR crore). Base year FY26A from Screener consolidated. Rationale for each line is in initiation.json → 'Earnings model'.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "volume": {
+  "base": 2422713,
+  "growth": [
+   15,
+   7,
+   7.5
+  ],
+  "_why": "FY27: H1 already 1.38mn (+28%); H2 assumed +5% on the GST-boosted H2FY26 base (1.34mn) → ~2.79mn, inside the 2.9mn capacity. FY28-29: industry 5-6% + share gains from 8 new SUVs and exports."
+ },
+ "revPerUnitGrowth": [
+  2,
+  3,
+  3
+ ],
+ "_revPerUnitWhy": "FY27: two price hikes (Jun, Aug) and SUV mix (+44.6% SUV volumes in Q1) offset by small-car-led GST demand. FY28-29: ~2% price + ~1% mix (Victoris, e-Vitara, 3-row SUV).",
+ "ebitdaMargin": [
+  10,
+  11.4,
+  12
+ ],
+ "_marginWhy": "FY27: Q1 8.2% (consolidated) → recovery from settlement-cycle reversal (~110bp), price hikes (~100bp), aluminium off peak; H2 ~11%. FY28: operating leverage on new plants + commodity normalisation. FY29: 12% ≈ FY24-25 average of 13% less new-plant depreciation-heavy capacity and EV mix.",
+ "capex": [
+  14000,
+  13000,
+  12500
+ ],
+ "_capexWhy": "FY27 guided ~₹14,000 cr; Khoraj P1 (₹10,189 cr by 2029) and Kharkhoda P3 keep capex elevated.",
+ "treasuryYield": [
+  6.4,
+  6.4,
+  6.4
+ ],
+ "_treasuryWhy": "FY26 other income ₹4,569 cr on ~₹67,000 cr opening treasury = 6.8%; trimmed for lower debt yields and FY26's MTM noise.",
+ "interest": [
+  240,
+  240,
+  240
+ ],
+ "taxRate": [
+  24,
+  24,
+  24
+ ],
+ "payout": [
+  32,
+  32,
+  32
+ ],
+ "dcf": {
+  "rf": 6.6,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 8.5,
+  "fadeMarginTo": 12.5,
+  "fadeCapexPctTo": 4,
+  "depPctOfSales": 3.6,
+  "rollForwardMonths": 6,
+  "_why": "Cost of equity 6.6% (10y G-sec) + 0.85 β × 6% ERP = 11.7%; no debt so WACC = Ke. 15-year horizon: nominal growth fades to 8.5% (≈5% volume + 3.5% price) and margin to 12.5%; terminal growth 5.5% ≈ India long-run nominal GDP (~10%) less a wide maturity/competition discount."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "volumeGrowthDelta": 2,
+   "marginDelta": 0.8,
+   "revPerUnitDelta": 0.5,
+   "fadeMarginTo": 13,
+   "narrative": "Share back above 43% as SUV launches land; exports re-accelerate to 550k by FY29; margins revert to 13% as commodities ease."
+  },
+  "bear": {
+   "label": "Bear",
+   "volumeGrowthDelta": -4,
+   "marginDelta": -1.5,
+   "revPerUnitDelta": -1,
+   "fadeMarginTo": 10.5,
+   "narrative": "GST pull-forward unwinds in FY28; share slips below 38% to M&M/Tata/Hyundai SUVs; commodity and yen pressure keep margins near 10%."
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 25,
+      "bull": 28,
+      "bear": 21
+     },
+     "why": "How the street values Maruti: every broker that discloses a method uses P/E on FY28E/Sep-28E/FY29E EPS (25.5-32x). 25x = Maruti's median one-year-forward P/E over five years and since 2023; bull 28x (75th percentile), bear 21x (25th percentile)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests cash-flow support: 15-year FCFF, Ke 11.7%, terminal growth 5.5%."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 13,
+      "bull": 16,
+      "bear": 10
+     },
+     "why": "Separates the car business from ~₹3,000/share of cash. 13x Sep-28E EBITDA, below the 18x five-year median trailing multiple."
+    }
+   ]
+  }
+ }
+}

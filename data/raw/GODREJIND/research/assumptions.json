@@ -1,0 +1,347 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Godrej Industries (GIL), consolidated, Rs crore. History is attributable to GIL shareholders (Screener Net Profit replaced by Profit for EPS, see tools/authoring/GODREJIND.patch.js). The consolidated P&L is built from four blocks that sum to reported revenue and EBITDA: GIL's own chemicals business, Godrej Agrovet (100%), Godrej Properties (100%) and a residual that is mostly Godrej Capital (with hospitality, other businesses, corporate costs and eliminations). Godrej Capital's interest cost and Godrej Properties' large other income sit below EBITDA, so EBITDA margins of the blocks are not comparable with each other. The tax line also carries minority interests. The stock is valued as the street values it: a sum of the parts of GIL's stakes and businesses less holding-company net debt and a holding-company discount. Only the chemicals part uses the forecast; the listed stakes are at 30-Sep-2026 closes.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "chem",
+   "name": "Chemicals (GIL standalone)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 4132,
+   "growth": [
+    15,
+    10,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    11.5,
+    11.5,
+    12
+   ],
+   "hist": {
+    "driver": "chemRev",
+    "revenue": "chemRev",
+    "adjEbitda": "chemEbitda"
+   },
+   "_why": "Oleochemicals (fatty acids ~35% of revenue, fatty alcohols ~21%, glycerine ~10%), surfactants (~22%) and specialty (~11%). FY26 revenue +22% to Rs4,132 cr on volumes +9.4% and higher palm/kernel-oil-linked prices; Q1FY27 revenue +31% (volume +9%, exports +20%). FY27E +15%: Q1 actual, then single-digit growth as the price base rises from Q2. FY28-29E +10%: volume ~8-9% (Kundaim reactor +30% capacity, Valia specialty plant, Kheda ethoxylation, Goa food-additives business, first biosurfactant due in Q2FY27) with flat prices.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA (PBIT + segment depreciation): FY25 Rs412 cr (12.2%), FY26 Rs361 cr (8.7%) after weak fractionated fatty acid volumes, costlier feedstock and Q4FY26 PBIT of only Rs40 cr. Q1FY27 PBIT Rs159 cr (13.7% PBIT margin) was the best quarter since FY23. The PBIT margin has swung between 8% and 17% (FY20-26). FY27E 11.5% (Q1 strong, rest of year nearer the FY25-26 average); FY28E 11.5%; FY29E 12% as specialty and surfactants rise in the mix."
+  },
+  {
+   "key": "gavl",
+   "name": "Godrej Agrovet (100%)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 10233,
+   "growth": [
+    9,
+    9,
+    9
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    8.3,
+    8.6,
+    8.8
+   ],
+   "hist": {
+    "driver": "gavlRev",
+    "revenue": "gavlRev",
+    "adjEbitda": "gavlEbitda"
+   },
+   "_why": "Animal feed, vegetable oil (oil palm), crop protection (incl. Astec), dairy (Creamline) and foods. FY26 revenue +9%; Q1FY27 +9% (cattle feed volumes ~+15%). 9% a year. GIL owns 65.1%; the 34.9% minority is deducted in the tax line. Consolidated for the P&L only: in the valuation the stake is at its market price.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "FY26 EBITDA margin 8.4%, FY25 8.8%, Q1FY27 8.4% (Q1FY26 10.3%) as crop protection revenue fell. 8.3% / 8.6% / 8.8%."
+  },
+  {
+   "key": "gpl",
+   "name": "Godrej Properties (100%)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 5131,
+   "growth": [
+    25,
+    20,
+    15
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -6,
+    -2,
+    2
+   ],
+   "hist": {
+    "driver": "gplRev",
+    "revenue": "gplRev",
+    "adjEbitda": "gplEbitda"
+   },
+   "_why": "Real estate revenue is booked when projects are handed over, so it lags bookings by 3-4 years and is lumpy (Q4FY26 Rs3,458 cr, Q1FY27 Rs506 cr). Bookings were Rs34,171 cr in FY26 (+16%) and Rs8,651 cr in Q1FY27 (+22%); deliveries 12.1 mn sq ft in FY26. Revenue FY27E +25%, FY28E +20%, FY29E +15% as the FY23-25 bookings surge is delivered. GIL owns 44.77%; the 55.23% minority is deducted in the tax line.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "GPL's own EBITDA is usually negative (FY26 -8.8%, FY25 -1.5%) because overheads and marketing for a Rs34,000 cr booking business are expensed while revenue is recognised years later; most of its profit arrives as other income (interest from joint-venture partners, JV profits; FY26 Rs3,256 cr). -6% / -2% / +2% as deliveries catch up."
+  },
+  {
+   "key": "fin",
+   "name": "Godrej Capital and others (residual)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 2741,
+   "growth": [
+    40,
+    32,
+    28
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    52,
+    52,
+    52
+   ],
+   "hist": {
+    "driver": "finRev",
+    "revenue": "finRev",
+    "adjEbitda": "finEbitda"
+   },
+   "_why": "Consolidated revenue less chemicals, GAVL and GPL: mostly Godrej Capital (housing finance and MSME/retail loans; AUM Rs27,867 cr at Mar-26, +65%; FY26 total income Rs2,478 cr), plus hospitality, other businesses and eliminations. Residual revenue grew 40% in FY26 and 75% in Q1FY27 (Rs926 cr). FY27E +40%, FY28E +32%, FY29E +28% as AUM growth slows from 65% towards ~30%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Residual EBITDA was 48% of residual revenue in FY25 and 54% in FY26: for a lender this is profit before interest (Godrej Capital's interest, ~Rs1,356 cr in FY26, is in consolidated interest) and after credit costs, less GIL's unallocated corporate costs. 52%."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Corporate costs not in any block (inside the residual)",
+ "_unallocWhy": "Unallocated corporate costs and eliminations are inside the residual block, which is defined so that the four blocks sum to reported consolidated revenue and EBITDA.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  1200,
+  1300,
+  1300
+ ],
+ "_capexWhy": "Consolidated purchase of fixed assets: FY24 Rs1,197 cr, FY25 Rs781 cr, FY26 Rs1,028 cr (chemicals ~Rs135 cr, the rest mainly GAVL and GPL's commercial assets). Rs1,200-1,300 cr a year.",
+ "depRateOnGrossBlock": 5.2,
+ "_depWhy": "FY26 depreciation Rs501 cr = 5.1% of average gross block (Rs9,776 cr); Q1FY27 Rs133 cr (Rs532 cr annualised). 5.2% gives ~Rs560 cr in FY27E.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net-debt group (borrowings Rs51,564 cr at Mar-26, most of it Godrej Capital's lending book and GPL's project debt); other income is entered separately.",
+ "otherIncome": [
+  4000,
+  4400,
+  4800
+ ],
+ "_otherIncomeWhy": "Screener other income includes the share of profit of associates (mainly 23.7% of Godrej Consumer, Rs445 cr in FY26) and exceptional items: FY25 Rs2,636 cr, FY26 Rs4,123 cr, Q1FY27 Rs1,036 cr (Q1FY26 Rs1,352 cr). Most of it is Godrej Properties' interest income from JV partners and JV profits (GPL other income FY26 Rs3,256 cr, Q1FY27 Rs839 cr). FY27E Rs4,000 cr (Q1 run-rate), then +10% a year with GCPL and GPL.",
+ "interest": [
+  3150,
+  3800,
+  4500
+ ],
+ "_interestLabel": "Interest (incl. Godrej Capital's cost of funds)",
+ "_interestWhy": "FY26 Rs2,470 cr, of which ~Rs1,356 cr is Godrej Capital's cost of funds and Rs839 cr is GIL standalone; Q1FY27 Rs745 cr (Q4FY26 Rs684 cr). Godrej Capital's borrowings grow with its AUM (~35-40% a year), the holding company's debt by ~Rs700 cr a year.",
+ "taxRate": [
+  61,
+  60,
+  60
+ ],
+ "_taxWhy": "The tax line also carries minorities (engine workaround, as in TATACHEM and UPL): GPL 55.23%, GAVL 34.95% and Godrej Capital 8.89% of their profits belong to other shareholders. FY26: tax Rs981 cr + minorities Rs1,171 cr = 63% of PBT (Rs3,393 cr); FY25 58%; Q1FY27 61%. 61% / 60% / 60%.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "GIL has paid no dividend since FY20 (Screener dividend payout 0% FY21-26); the cash goes into Godrej Capital.",
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Chemicals margins hold near the Q1FY27 level (13%), Godrej Capital keeps growing ~45% a year and the market values it like listed affordable-housing lenders (3x book); the discount stays where it was on 30-Sep-2026 as investors price in listings of Godrej Capital and chemicals.",
+   "segments": {
+    "chem": {
+     "growthDelta": 2,
+     "marginDelta": 1.5
+    },
+    "gpl": {
+     "marginDelta": 4
+    },
+    "fin": {
+     "growthDelta": 5
+    },
+    "gavl": {
+     "marginDelta": 0.5
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Chemicals margins slip back to the FY26 level (~9%) as palm-oil feedstock costs rise; Godrej Capital's growth slows and credit costs rise (valued at book); GPL deliveries slip; the holding-company discount returns to its 2021-26 median as listing plans drift and the holding company keeps borrowing to fund Godrej Capital.",
+   "segments": {
+    "chem": {
+     "growthDelta": -3,
+     "marginDelta": -2.5
+    },
+    "gpl": {
+     "marginDelta": -4
+    },
+    "fin": {
+     "growthDelta": -8,
+     "marginDelta": -3
+    },
+    "gavl": {
+     "marginDelta": -0.8
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 10,
+  "parts": [
+   {
+    "name": "Chemicals (GIL standalone)",
+    "seg": "chem",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 8,
+     "bull": 10,
+     "bear": 6
+    },
+    "note": "No listed Indian oleochemical pure-play: VVF is unlisted. Galaxy Surfactants (closest listed peer, 8.9% EBITDA margin) traded at 13.4x trailing EBITDA on 30-Sep-2026, down from a 17.4x five-year median; Fine Organic (20% margin, specialty additives) at 22.7x. 8x on Sep-28E EBITDA is ~10x FY27E and ~14x a weak FY26: no premium to Galaxy on recovered earnings: GIL has a more commodity mix (fatty acids, alcohols and glycerine ~66% of revenue) and volatile margins (PBIT margin 7-17% in FY20-26)."
+   },
+   {
+    "name": "Godrej Consumer: 23.73% stake at market",
+    "adj": {
+     "base": 20639,
+     "bull": 20639,
+     "bear": 20639
+    },
+    "metricLabel": "24.28 cr shares × Rs850.00 (NSE close, 30-Sep-2026)",
+    "note": "Associate; shares held per AR FY26 note 4 (unchanged at Jun-26: 23.7%)."
+   },
+   {
+    "name": "Godrej Properties: 44.77% stake at market",
+    "adj": {
+     "base": 21960,
+     "bull": 21960,
+     "bear": 21960
+    },
+    "metricLabel": "13.48 cr shares × Rs1,628.50 (NSE close, 30-Sep-2026)",
+    "note": "Subsidiary (de facto control); 44.8% at Jun-26 (Q1FY27 deck)."
+   },
+   {
+    "name": "Godrej Agrovet: 65.1% stake at market",
+    "adj": {
+     "base": 7809,
+     "bull": 7809,
+     "bear": 7809
+    },
+    "metricLabel": "12.52 cr shares × Rs623.55 (NSE close, 30-Sep-2026)",
+    "note": "Shares from the Q1FY27 deck (market value Rs6,969 cr at the 30-Jun-2026 close of Rs556.50)."
+   },
+   {
+    "name": "Godrej Capital (via Godrej Investment): P/B on GIL's share of book",
+    "adj": {
+     "base": 8660,
+     "bull": 12990,
+     "bear": 4330
+    },
+    "metricLabel": "GIL share of book ~Rs4,330 cr (91.11% × Rs4,346 cr at Mar-26 + Rs370 cr infused in Q1FY27) × P/B 2.0x (bull 3.0x, bear 1.0x)",
+    "note": "FY26 PAT Rs232 cr: ROE ~6%. Listed affordable-housing lenders traded at 2.4-3.1x book on 30-Sep-2026 with 12-20% ROE. GIL's FY26 rights subscriptions were priced at ~1.8x Mar-26 book. 2.0x: a growth platform with half the peers' ROE."
+   },
+   {
+    "name": "Investment property and other unlisted investments (book)",
+    "adj": {
+     "base": 386,
+     "bull": 386,
+     "bear": 386
+    },
+    "metricLabel": "Investment property Rs321 cr + Godrej International entities and others at cost Rs65 cr",
+    "note": "Book value; the investment property earned Rs59 cr of rent in FY26."
+   },
+   {
+    "name": "Less: holding-company net debt (Jun-26E)",
+    "adj": {
+     "base": -10157,
+     "bull": -10157,
+     "bear": -10157
+    },
+    "metricLabel": "Mar-26 standalone borrowings incl. leases Rs11,063 cr − mutual funds Rs1,198 cr − cash Rs77 cr = Rs9,787 cr, + Rs370 cr borrowed for the Q1FY27 Godrej Capital infusion",
+    "note": "GIL standalone only: GPL, GAVL and Godrej Capital debt sits inside their own values."
+   },
+   {
+    "name": "Less: holding-company discount",
+    "adj": {
+     "base": -23963,
+     "bull": -19597,
+     "bear": -29167
+    },
+    "metricLabel": "Discount × look-through value (base 44%, bull 32%, bear 61%)",
+    "note": "Derived from GIL's own discount to its look-through value at 21 quarter-ends since Jun-2021 (see Valuation)."
+   }
+  ],
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values GIL (ICICI Securities, the only recurring broker, valued it on listed stakes less a holding-company discount): over 85% of the look-through value is listed shares."
+    },
+    {
+     "key": "pe",
+     "name": "P/E on consolidated EPS",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 23.6,
+      "bull": 28,
+      "bear": 19.5
+     },
+     "why": "Own one-year-forward P/E median since Apr-2021 with the FY24 trough left out. Rough: consolidated EPS mixes GPL's lumpy revenue recognition and Godrej Capital's early-stage profits."
+    }
+   ]
+  }
+ }
+}

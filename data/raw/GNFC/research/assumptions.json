@@ -1,0 +1,253 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for GNFC (consolidated, Rs crore). Segment-driven: Chemicals, Fertilisers and Others ((n)Code IT) each grow revenue and earn a segment result (EBIT) margin, as GNFC reports them; it does not disclose segment depreciation, so segment EBITDA cannot be built. The 'unallocated' line turns the sum of segment results into Screener EBITDA: it adds back depreciation and removes other income booked inside segments and head-office costs. Treasury (cash, bank deposits, G-secs, equity stakes and the inter-corporate deposits with Gujarat State Financial Services that Screener shows inside 'other assets') earns a yield; other income outside treasury is entered separately. Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "chem",
+   "name": "Chemicals",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBIT (segment result)",
+   "base": 4899.12,
+   "growth": [
+    18,
+    -10,
+    18
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    19.5,
+    16,
+    17
+   ],
+   "hist": {
+    "driver": "chemRev",
+    "revenue": "chemRev",
+    "adjEbitda": "chemEbit"
+   },
+   "_why": "FY27 +18% (~Rs5,780 cr): Q1 Rs1,569 cr (+56% YoY, +5% QoQ) at war-time prices (TDI Rs255k/t vs Rs168k in Q3FY26); we assume ~Rs1,400 cr a quarter for Q2-Q4 as the war premium fades and acetic acid, ethyl acetate and Bharuch TDI lost run-days (Q2 starts with plants shut in July). FY28 -10% (~Rs5,200 cr): prices back to mid-cycle (FY25-26 normal run-rate ~Rs5,000 cr), the planned April-2027 Bharuch shutdown (the FY26 turnaround cost ~Rs375 cr of revenue) partly offset by ~Rs400 cr from WNA-III / AN melt-II from mid-2027. FY29 +18% (~Rs6,140 cr): first full year of the Rs2,800 cr projects (management 'ballpark' +Rs1,200-1,500 cr revenue at war prices; we take ~Rs1,000 cr) and ~4% on the base.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment result margin 5.9% (FY20), 26.5% (FY21), 37.1% (FY22), 28.5% (FY23), 11.5% (FY24), 13.6% (FY25), 18.6% (FY26: 13.2% for Q1-Q3, 30.9% in Q4); Q1FY27 27.1%. FY27 19.5% = Q1 27% and ~17% for Q2-Q4. FY28 16%: between the FY24-25 trough (12.5%) and the FY20-26 median (18.6%), helped by CCPP savings (~Rs80-120 cr a year, ~1.5-2 pts) and hurt by the April-2027 shutdown (~Rs150 cr of profit in FY26's turnaround). FY29 17%: new nitric acid / AN capacity and no shutdown. Global TDI oversupply and Chinese scale cap the margin well below the FY21-23 boom."
+  },
+  {
+   "key": "fert",
+   "name": "Fertilisers",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBIT (segment result)",
+   "base": 2763.7,
+   "growth": [
+    8.5,
+    -5,
+    5
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -5,
+    -4.5,
+    -4
+   ],
+   "hist": {
+    "driver": "fertRev",
+    "revenue": "fertRev",
+    "adjEbitda": "fertEbit"
+   },
+   "_why": "Urea (~Rs2,045 cr in FY26) and ANP (Rs719 cr). FY27 +8.5% (~Rs3,000 cr): higher gas and energy costs are passed into urea subsidy revenue and the Kharif-2026 NBS rate for ANP is ~10% higher (N Rs47.32/kg, P Rs52.76/kg); Q1 Rs649 cr (+12% YoY). FY28 -5%: April-2027 Bharuch shutdown and lower energy pass-through. FY29 +5%: volumes back, ~2-3% price.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Loss in every year since FY21: -1.4% (FY21), -3.7%, -4.4%, -8.0%, -6.2%, -6.8% (FY26, Rs-187 cr; ANP alone Rs-40 cr). Q1FY27 -13.1% (Rs-85 cr), the seasonal low. FY27 -5.0% (~Rs-150 cr) includes the ~Rs61 cr energy-norm arrears (Apr-25 to Jun-26) booked in Q2FY27 and ~Rs49 cr a year of ongoing benefit from the 6.37 Gcal/t norm. FY28 -4.5%, FY29 -4.0%: no fixed-cost revision assumed (management: 'almost no chance' of urea profits until it comes)."
+  },
+  {
+   "key": "oth",
+   "name": "Others ((n)Code IT)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBIT (segment result)",
+   "base": 110.43,
+   "growth": [
+    10,
+    10,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    35,
+    35,
+    35
+   ],
+   "hist": {
+    "driver": "othRev",
+    "revenue": "othRev",
+    "adjEbitda": "othEbit"
+   },
+   "_why": "(n)Code Solutions IT division (~Rs100 cr, e-governance) and neem products. Revenue +20% in FY26; we assume +10% a year.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "30% (FY24), 25% (FY25), 42% (FY26), 45% in Q1FY27; 35% assumed."
+  }
+ ],
+ "unallocated": [
+  -183,
+  -223,
+  -244
+ ],
+ "_unallocLabel": "Reconciliation: depreciation added back, less other income booked in segments and head-office costs (sum of segment results − EBITDA)",
+ "_unallocWhy": "Screener EBITDA = sum of segment results + depreciation − other income booked inside segments − unallocable expenses. FY26: 773 + 307 − 140 − 60 = 879; FY25: 508 + 303 − 140 − 56 = 615. Forecast: depreciation from the model (Rs335 / 378 / 402 cr) less other income in segments (~Rs90 cr: ASGP grant income Rs61 cr + recurring misc. ~Rs30 cr; one-offs such as insurance claims left out) less head-office costs (Rs62 / 65 / 68 cr) = −183 / −223 / −244. Engine workaround: if capex (and so depreciation) is changed in the Excel model, this line should be changed with it.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  1600,
+  800,
+  500
+ ],
+ "_capexWhy": "FY27: Rs300 cr in Q1 plus 'another Rs1,200-1,500 cr' (Aug-2026 call), i.e. Rs1,500-1,800 cr; we use Rs1,600 cr (the May-2026 figure of ~Rs2,800 cr was cut). FY28: the rest of the Rs2,800 cr project list (WNA-III Rs1,420 cr, AN melt-II, ammonia loop, CCPP Rs613 cr; ~Rs1,500 cr to spend 'over the next 2 years') plus the Rs480-500 cr boiler: Rs800 cr. FY29: maintenance (~Rs200 cr a year) and the boiler: Rs500 cr. Not included: BPA, polyols and acetic acid projects under study (BPA plus phenol ~Rs7,000-8,000 cr), decision expected by end-2026.",
+ "depRateOnGrossBlock": 3.6,
+ "_depWhy": "FY26 depreciation Rs307 cr = 3.6% of average gross block (Rs8,469 cr); Q1FY27 Rs76 cr. The engine depreciates capex at once while most of it sits in CWIP until mid-2027; 3.6% gives Rs335 cr in FY27 (Q1 run-rate plus the CCPP from Q2) and Rs378 / 402 cr in FY28-29, slightly low once the projects are capitalised.",
+ "otherTreasury": {
+  "base": 2410,
+  "_why": "Deposits with a body corporate (inter-corporate deposits with Gujarat State Financial Services, a Government of Gujarat finance company) of Rs2,410 cr at Mar-26 (Rs545 cr at Mar-25), AR FY26 consolidated note 9. Screener shows them inside 'Loans n Advances' (other assets); they are surplus treasury, not working capital (CFO, May-2026 call: parked 'with the best yield ... till the time our capex cycle is over', ~7.25%)."
+ },
+ "treasuryYield": [
+  6,
+  6,
+  6
+ ],
+ "_treasuryWhy": "Applied to opening treasury: cash and bank Rs1,109 cr + Screener investments Rs1,693 cr (G-secs Rs695 cr, equity stakes Rs998 cr incl. GSFC, Gujarat Alkalies, Gujarat Gas, Gujarat Chemical Port and the GGRC associate) + ICDs Rs2,410 cr − borrowings Rs5 cr = Rs5,207 cr at Mar-26. FY26 interest Rs313 cr + dividends Rs24 cr = Rs337 cr on ~Rs5,130 cr average (6.6%). We use 6.0%: deposit rates fell after the 2025 rate cuts, ~Rs1,000 cr of the base is equity yielding ~2.4%, and Q1FY27 other income (Rs101 cr) points to ~Rs300 cr a year of treasury income. The interest-bearing book (~Rs4,200 cr) earns ~6.9%.",
+ "otherIncome": [
+  112,
+  112,
+  112
+ ],
+ "_otherIncomeWhy": "Non-treasury other income, built from AR FY26 note 28: amortised ASGP government grant Rs61 cr a year (deferred grant balance Rs455 cr, so it runs to ~FY33; non-cash), recurring miscellaneous income ~Rs30 cr (Rs29 cr FY25, Rs47 cr FY26 incl. one-offs), lease rental Rs9 cr, plus the GGRC associate share (~Rs12 cr, after tax on Screener). One-offs left out: insurance (Rs29 cr FY26), FX gains (Rs13 cr), write-backs (Rs3 cr FY26, Rs51 cr FY25). FY27E total other income ~Rs424 cr vs Rs499 cr in FY26 and Rs450 cr TTM (to Q1FY27): the gap is the one-offs (~Rs45 cr) and a lower yield on a treasury that shrinks as capex is paid.",
+ "interest": [
+  8,
+  8,
+  8
+ ],
+ "_interestLabel": "Interest cost (leases, working-capital lines)",
+ "_interestWhy": "FY26 Rs6 cr, Q1FY27 Rs2 cr; borrowings Rs5 cr (leases) at Mar-26. Capex is funded from treasury.",
+ "taxRate": [
+  25.2,
+  25.2,
+  25.2
+ ],
+ "_taxWhy": "FY26 effective 25.1% (statutory 25.17%, AR FY26 note 26); Q1FY27 25%.",
+ "payout": [
+  35,
+  35,
+  35
+ ],
+ "_payoutWhy": "DPS Rs18 (FY25, 44% of EPS) and Rs21 (FY26, 38%); Rs30 for FY23 (32%). We assume 35% while capex is heavy.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.1,
+  "terminalGrowth": 5,
+  "years": 15,
+  "fadeGrowthTo": 5,
+  "fadeMarginTo": 12,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 4.2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Debt-free, so the cost of equity is the discount rate. Commodity chemicals with a state promoter and volatile earnings: beta 1.1, Ke 13.1%.",
+  "_tgWhy": "Fertiliser and bulk-chemical demand grows with nominal GDP; Chinese oversupply caps price growth: 5%.",
+  "_fadeGrowthWhy": "Revenue growth fades from the FY29E project-led 13% to 5% by year 15.",
+  "_fadeMarginWhy": "EBITDA margin fades to 12%, GNFC's median for FY16-FY26 (mean 14.5%; range 6% in FY24 to 28% in FY22).",
+  "_fadeCapexWhy": "Capex fades to 5% of revenue (maintenance ~Rs200 cr plus periodic debottlenecking); depreciation 4.2% of revenue (FY26 3.9%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The Middle East conflict keeps TDI, AN and acetic acid tight into FY28; the new nitric acid and AN capacity earns what management expects (Rs500-600 cr of contribution); the government revises urea fixed costs. Chemicals margin ~20-21%, fertiliser loss halves; P/E 10x (the own-history median without the FY23 peak and without the sector de-rating).",
+   "fadeMarginTo": 14,
+   "segments": {
+    "chem": {
+     "growthDelta": 5,
+     "marginDelta": 4.5
+    },
+    "fert": {
+     "marginDelta": 2
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The war premium disappears, Chinese TDI and acetic acid flood Asia again and margins return to the FY24-25 trough (chemicals ~12-13%); the April-2027 shutdown runs long and fertiliser losses widen. P/E 6x (the low of the stock's forward P/E in the year before the war).",
+   "fadeMarginTo": 10,
+   "segments": {
+    "chem": {
+     "growthDelta": -4,
+     "marginDelta": -4
+    },
+    "fert": {
+     "marginDelta": -1.5
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 7.5,
+      "bull": 10,
+      "bear": 6
+     },
+     "why": "How the street values GNFC: P/E on forward EPS (HDFC Securities's last full note used 6.5x FY24E). 7.5x = GNFC's 8.0x median one-year-forward P/E since Apr-2021 (forwardMedian, leaving out the FY24-FY25 trough years), cut by the ~7% median de-rating of five fertiliser and commodity-chemical peers (GSFC, Chambal, Deepak Fertilisers, DCM Shriram, GHCL) against their five-year median P/E at 30-Sep-2026 (7.4x, rounded to 7.5x). No growth premium: Sep-28E EPS is no higher than FY26. Bull 10x (the median without the FY23 peak year and without the de-rating); bear 6x (the low of the stock's forward P/E in the year before the war, 5.9x)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 2,
+      "bull": 4,
+      "bear": 1.5
+     },
+     "why": "Counts the treasury at full value and asks what the market has paid for the operations. GNFC's median forward EV/EBITDA since Apr-2021 is 2.0x leaving out trough years (FY24-26; 3.9x on all dates; EV = market value + debt − cash, investments and ICDs), cut by the ~9% median EV/EBITDA de-rating of seven peers (1.8x, rounded to 2x). Bull 4x (the all-dates median), bear 1.5x."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests the cash flows with full credit for the treasury: 15-year FCFF, Ke 13.1%, terminal growth 5%, EBITDA margin fading to the 12% FY16-26 median."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Solar Industries India (consolidated, Rs crore), ORGANIC business only: the Omnia Holdings acquisition (signed 14-Sep-2026, completion expected early-to-mid 2027, subject to approvals) is NOT in the forecasts; its pro-forma effect is shown separately in the report. The company reports one segment, so the model is single-segment (revenue growth x EBITDA margin on Screener's basis); the revenue build by customer line (domestic explosives, international, defence, others) is in businessLines and the authoring script checks that it sums to model revenue. Net profit in the engine includes minority interest (3.4% of FY26 profit); EPS divides by the share count implied by Screener (profit / EPS = 9.37 cr), which gives EPS attributable to Solar's shareholders at a constant minority share. Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "businessLines": {
+  "_why": "Bottom-up revenue by customer line (Rs crore). FY26 actuals from the Q4FY26 fact sheet. Sum = model revenue (checked by the authoring script).",
+  "FY26": {
+   "domestic": 3343,
+   "intl": 3815,
+   "defence": 2634,
+   "others": 46
+  },
+  "FY27E": {
+   "domestic": 4350,
+   "intl": 5040,
+   "defence": 4500,
+   "others": 50
+  },
+  "FY28E": {
+   "domestic": 4785,
+   "intl": 5950,
+   "defence": 5900,
+   "others": 50
+  },
+  "FY29E": {
+   "domestic": 5310,
+   "intl": 6840,
+   "defence": 7400,
+   "others": 50
+  },
+  "_domesticWhy": "FY27 +30%: management guided explosives (domestic + international) +30-33% with 10-15% from volume and 18-20% from price as ammonium-nitrate-linked prices rose; Q1 domestic +52% on a weak, monsoon-hit base (FY26 +3%, coal output 1,036 mt with CIL/SCCL down) and new Dhule/North India capacity. FY28 +10%: price falls back as inputs normalise, volumes grow ~8-10% (captive/commercial coal +10% in FY26, infra). FY29 +11%: Odisha and South India plants; MOFSL models ~15% CAGR FY26-30, we are lower in FY28-29.",
+  "_intlWhy": "FY27 +32%: management 'around 30%' (price-aided); Q1 +65%. FY28 +18% and FY29 +15%: management's long-run 'around 10%' volume and 'around 15%' value growth plus new countries (Sierra Leone, Australia, Kazakhstan ramp). Excludes Omnia. MOFSL ~22% CAGR FY26-30.",
+  "_defenceWhy": "FY27 Rs 4,500 cr = management's 'cross Rs 4,500 cr' (+71%); Q1 Rs 933 cr, the year is back-ended (FY26 Q4 was 38% of the year). FY28 +31% to Rs 5,900 cr and FY29 +25% to Rs 7,400 cr: the ~Rs 18,000 cr defence order book (Jun-26; ~Rs 11,000 cr international, ~Rs 6,000 cr Pinaka) covers FY28-29 if executed on schedule; we do not assume unannounced platform orders (Pinaka Mk2/guided, Bhargavastra, 155 mm). Street: PL ~Rs 6,200 cr FY28E; MOFSL Rs 6,070 cr FY28E and Rs 7,930 cr FY29E.",
+  "_othersWhy": "Small (Rs 46-64 cr a year); held at Rs 50 cr."
+ },
+ "revenueGrowth": [
+  41.69,
+  19.69,
+  17.47
+ ],
+ "_revenueWhy": "Sum of the business lines: FY27E Rs 13,940 cr (management target Rs 14,000 cr), FY28E Rs 16,685 cr (management's pre-Omnia FY28 indication: +17-20% to ~Rs 16,500 cr), FY29E Rs 19,600 cr. Defence rises from 27% of revenue (FY26) to 38% (FY29E).",
+ "ebitdaMargin": [
+  27.8,
+  28,
+  28.2
+ ],
+ "_marginWhy": "Screener basis (FY26 27.6%, Q1FY27 27.7%; the company's own 27.95%/27.91% includes other income). Management: 'maintain the current EBITDA margins' (May-2026), 'sustainable EBITDA margins in the 27-28% range' (AR FY26), 28-29% for FY27 on its basis (15-Sep call). Rising defence mix (higher-margin: Solar Defence and Aerospace earned a 30% pre-tax margin in FY26) is offset by price pass-through of ammonium-nitrate costs, which lifts revenue but not profit (pass-through covers ~60% of an increase). +20bp a year.",
+ "capex": [
+  2050,
+  1800,
+  1800
+ ],
+ "_capexWhy": "FY27 Rs 2,050 cr = management guidance (FY26 Rs 1,556 cr, FY25 Rs 1,182 cr); ~Rs 450 cr spent in Q1. FY28-29 Rs 1,800 cr: the Rs 12,700 cr 10-year Maharashtra defence programme plus explosives plants (Odisha, Telangana/AP); PL assumes ~Rs 1,500 cr a year in FY28-29. Excludes the Omnia purchase.",
+ "depRateOnGrossBlock": 5.6,
+ "_depWhy": "FY26 depreciation Rs 251 cr = 5.9% of average gross block (Rs 4,231 cr, Screener); Q1FY27 Rs 80 cr (Rs 320 cr annualised). The engine adds all capex to gross block at once (CWIP Rs 731 cr held flat), so we use 5.6% to avoid charging a full year of depreciation on plants still being built.",
+ "treasuryYield": [
+  6,
+  6,
+  6
+ ],
+ "_treasuryWhy": "Applies only to net cash; Solar has net debt (Rs 867 cr at Mar-26 per the company), so treasury income is ~zero in the model.",
+ "otherIncome": [
+  35,
+  35,
+  35
+ ],
+ "_otherIncomeWhy": "Net of a recurring hyperinflation-accounting loss. The company books other income of Rs 128 cr in FY26 (incl. Rs 68 cr foreign-exchange gain, Rs 37 cr interest and Rs 20 cr investment gains) and a Rs 94.5 cr loss on subsidiaries in hyperinflationary economies (Turkey) inside other expenses (Rs 65 cr in FY25). Screener moves that loss out of operating profit and nets it against other income (FY26 Rs 33 cr, FY25 Rs 10 cr); our EBITDA margin is on that basis, so we hold net other income at Rs 35 cr a year.",
+ "interest": [
+  170,
+  180,
+  180
+ ],
+ "_interestLabel": "Interest cost (term loans, working-capital lines and leases; excludes Omnia acquisition debt)",
+ "_interestWhy": "FY26 Rs 134 cr on Rs 1,468 cr of debt; Q1FY27 Rs 41 cr (Rs 164 cr annualised). Debt rises with capex and working capital; Rs 170 / 180 / 180 cr. Omnia would add Rs 1,000-1,100 cr a year (management, Kotak).",
+ "taxRate": [
+  26.5,
+  26.5,
+  26.5
+ ],
+ "_taxWhy": "FY26 effective rate 26.6% (Rs 629 cr on Rs 2,365 cr); Q1FY27 26.9%. Mix of 25.2% India rate and overseas rates.",
+ "payout": [
+  6,
+  6,
+  6
+ ],
+ "_payoutWhy": "FY26 dividend Rs 11/share ≈ 6% of attributable profit; 6-10% over FY23-26 as cash goes to capex.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 25,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 3,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Market-level risk: defence orders are lumpy and government-dependent, explosives follow coal and mining cycles, and debt is rising (Omnia would take it to ~1.5-2x EBITDA). Cost of equity 12.5%, used as the discount rate (net debt is small before Omnia).",
+  "_tgWhy": "Top of the house 5-6% range: defence and mining explosives can grow near India's nominal GDP for long, but defence budgets and export orders are cyclical.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~17% (FY29E) to 9% by year 15: domestic explosives at GDP-plus, defence growth slows as the order book matures.",
+  "_fadeMarginWhy": "From ~28% towards 25%: competition in defence (private entrants such as Kalyani, state-owned Munitions India) and in explosives; the FY22-23 input spike took margins to ~19%.",
+  "_fadeCapexWhy": "Capex falls from ~9% of revenue (FY29E) to 6% as the defence build-out ends; FY24-26 averaged ~16%."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Defence wins large new orders (Pinaka Mk2 or guided Pinaka, Bhargavastra after trials, 155 mm exports) and executes faster, taking defence to ~45% of sales by FY29; international grows 25%+ with new countries; margin rises toward 29% as defence mix lifts it.",
+   "revenueGrowthDelta": 6,
+   "marginDelta": 1,
+   "fadeMarginTo": 27
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Defence execution slips (trial delays, slower export orders, Pinaka deliveries spread out), FY27 revenue misses the Rs 14,000 cr target by ~6%, ammonium nitrate prices fall back and take explosives realisations with them, and margins drop toward 26% as new plants run below capacity.",
+   "revenueGrowthDelta": -8,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 23
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 50,
+      "bull": 54,
+      "bear": 30
+     },
+     "why": "How the street values Solar (PL 62x Sep-28E, Nuvama 55x Sep-28E, Jefferies 70x Sep-28E, ICICI Direct 70x FY28E, MOFSL 50x Dec-28E incl. Omnia). 50x = Solar's 46.5x median one-year-forward P/E since Apr-2021 (no trough years), raised by the ~14% by which defence and explosives peers (BEL, HAL, BDL, Premier Explosives) traded above their five-year median P/E on 30-Sep-2026 (≈53x), less ~5% because our FY26-29E EPS growth (~27% a year) is below the 30-43% a year the history was earned on. Bull 54x (its 75th-percentile forward P/E since 2021), bear 30x (25th percentile)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 29,
+      "bull": 31,
+      "bear": 17
+     },
+     "why": "Counts net debt. 29x Sep-28E EBITDA = Solar's 43.4x median trailing EV/EBITDA since Apr-2021, raised by the same ~14% sector re-rating (≈49.5x trailing), restated for Sep-28E EBITDA being ~64% above the twelve months to Jun-26 (≈30x), less the same ~5% growth discount."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, cost of equity 12.5%, terminal growth 6%, less net debt."
+    }
+   ]
+  }
+ }
+}

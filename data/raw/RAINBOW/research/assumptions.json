@@ -1,0 +1,57 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Rainbow Children's Medicare (consolidated, ₹ crore). One reportable segment, so the engine runs on a single revenue-growth path and a post-Ind AS 116 EBITDA margin (Screener basis: rent is not in EBITDA; lease interest sits in interest and right-of-use depreciation in depreciation; lease liabilities sit in borrowings, so the model's net cash is net of leases). The bed build (mature hospitals, new hospitals, pipeline) sits in `businessLines`; the authoring script checks that it sums to model revenue. Profit is attributable to owners (RAINBOW.patch.js); the tax line carries the 24% minorities in the acquired hospitals. Valued on EV/EBITDA, as the street does.",
+ "years": ["FY27E", "FY28E", "FY29E"],
+ "revenueGrowth": [22.43, 21.02, 19.76],
+ "_revenueWhy": "From the bed build below (beds × 365 × occupancy × ARPOB, plus pipeline hospitals). FY27 +22%: Q1 +33% (organic ~24%; acquisitions ₹38 cr), Q2 guided 'above 20%', the acquisition boost fades from Q3 (Guwahati and Warangal were consolidated from Aug-25 and Jul-25) and the 2026 monsoon was late and deficient; management guides ~20% and 'cross ₹2,000 cr'. FY28 +21%, FY29 +20%: ARPOB +5-6% a year (management: ARPP 5-6%), occupancy of new hospitals rising from 34% toward the mid-40s, and the pipeline (Malad, Coimbatore, Gurugram, Pune) starting with low occupancy. Management's medium-term ambition is ~20% a year (double revenue in four years after FY27).",
+ "businessLines": {
+  "_why": "Mature = the 1,202 operational beds that management classifies as mature from FY27 (Q1FY27: occupancy 45.0%, ARPOB ₹70,662). Full-year occupancy has run ~6-8pp above Q1 (FY25 50.5% vs 42.4%; FY26 46.3% vs 40.2%) and ARPOB ~2-5% below Q1, so FY27 mature = 50.5% and ₹67,500 (a normal-to-weak season after a late monsoon), then +1-1.5pp of occupancy and +5-6% ARPOB a year (still below the 56% mature occupancy of FY25). New = the 10 hospitals under five years old (Q1FY27: 660 operational of 885 capacity beds, occupancy 34.4%, ARPOB ₹59,133): operational beds rise as HRBR, Electronic City and Warangal fill (690 / 760 / 800 weighted), occupancy 38% / 43% / 46%, ARPOB ₹57,000 / 60,400 / 63,500. Pipeline revenue is GAM's estimate per hospital (beds × months open × ~25-45% occupancy × ₹45,000-85,000 ARPOB, by city), using the opening dates management gave on 31-Jul-2026; we assume slow ramps for the Gurugram hub and Pune.",
+  "mature": { "opBeds": [1202, 1202, 1202], "occupancyPct": [50.5, 52, 53], "arpob": [67500, 71000, 75000] },
+  "newUnits": { "opBeds": [690, 760, 800], "occupancyPct": [38, 43, 46], "arpob": [57000, 60400, 63500] },
+  "pipeline": {
+   "FY27E": { "Nellore (acquired, 70 beds)": 28, "Guntur (50 beds, leased)": 10, "Indore (25 ICU beds in partner hospital)": 6 },
+   "FY28E": { "Nellore (100 beds)": 65, "Guntur": 30, "Indore": 18, "Malad, Mumbai (100 beds, Q1FY28)": 40, "Coimbatore (130 beds, H2FY28)": 12, "Gurugram Sector 56 (125 beds, Q3FY28)": 18 },
+   "FY29E": { "Nellore": 70, "Guntur": 35, "Indore": 25, "Malad, Mumbai": 65, "Coimbatore": 65, "Gurugram Sector 56": 80, "Gurugram Sector 44 hub (325 beds, Q1FY29)": 60, "Pune (150 beds)": 15, "Seegehalli, Bengaluru (80 beds)": 10 }
+  }
+ },
+ "ebitdaMargin": [30, 30.5, 30],
+ "_marginWhy": "Post-Ind AS EBITDA margin (Screener basis): 33% FY24-25, 32.2% FY26, 28.7% in Q1FY27 (29.5% a year earlier). Management guides the pre-Ind AS margin back to 24-25% for FY27 (Q1FY27 23.0%; FY26 26.3%); rent is ~5pp of revenue (Ind AS impact ₹96 cr in FY26, ₹26 cr in Q1FY27), so 24.5-25% pre-Ind AS ≈ 29.7-30.2% post. FY28 30.5%: HRBR and Electronic City break even (12-18 months guided), offset by start-up losses at Malad, Coimbatore and Gurugram Sector 56. FY29 30.0%: the 325-bed Gurugram hub, Pune and Seegehalli open. Each 1pp of margin is ~₹25 cr of FY28E EBITDA (~5% of EPS).",
+ "capex": [480, 580, 580],
+ "_capexWhy": "Cash capex ₹380 / 460 / 480 cr plus new leases (right-of-use additions) ₹100 / 120 / 100 cr. Cash: maintenance ~₹45 cr a year; Gurugram ₹400-500 cr over two years (own land, own build); other projects at ₹65-70 lakh a bed (Coimbatore 130, Pune 150, Indore 100, Seegehalli 80, Malad fit-out); five-year plan ₹2,200 cr for 2,500 beds (~₹440 cr a year). FY26 capex ₹217 cr, Q1FY27 ₹56 cr. New leases are added because the model's net debt includes lease liabilities: right-of-use additions were ₹146 cr in FY26 (AR note 2.32), and Guntur, Malad, Indore and Seegehalli are leased. Engine workaround: a new lease adds an asset and a liability without cash, which the engine can only show as capex funded from net cash. The Nellore acquisition price is not disclosed and is left out.",
+ "depRateOnGrossBlock": 6.5,
+ "_depWhy": "FY26 depreciation ₹151 cr (incl. right-of-use depreciation ₹54 cr) = 6.6% of average gross block (₹2,294 cr); Q1FY27 ₹42 cr (₹169 cr annualised). 6.5% gives FY27E ≈ ₹181 cr with the new hospitals; the engine depreciates capex at once while projects sit in CWIP.",
+ "treasuryYield": [0, 0, 0],
+ "_treasuryWhy": "Set to zero because the engine applies the yield to net cash after lease liabilities, which is negative (₹583 cr of cash, deposits and investments less ₹891 cr of leases at Mar-26). Treasury income is built on gross cash in `otherIncome` instead.",
+ "otherIncome": [41, 42, 43],
+ "_otherIncomeWhy": "Built from sourced parts (AR FY26 note 2.21). (1) Treasury income = yield × opening gross cash, deposits and mutual funds: FY26 ₹38.4 cr (bank interest ₹8.0 cr + mutual-fund gains ₹30.4 cr) on ~₹645 cr average funds = ~6.0%; company cash & investments ₹594 cr (Mar-26) and ₹613 cr (Jun-26). We take 6.25% on ₹594 / 600 / 610 cr opening funds (capex roughly absorbs free cash flow): ₹37 / 37.5 / 38 cr. (2) Recurring non-treasury interest (loans ₹1.7 cr and other financial assets ₹1.9 cr, unchanged FY25-26): ₹3.6 cr, held at ₹4-5 cr. One-offs left out: asset-sale gain ₹1.2 cr, write-backs ₹0.5 cr, FX. FY27E ₹41 cr vs FY26 ₹43.8 cr and the twelve months to Jun-26 ₹36.5 cr (Screener).",
+ "otherTreasury": { "base": 145, "_why": "Bank deposits reported under other financial assets, not in Screener's cash or investments: ₹104 cr non-current + ₹49 cr current at Mar-26 (AR notes 2.3a/b) less ₹7.8 cr earmarked for CSR and bank guarantees. With Screener's cash (₹34 cr) and mutual funds (₹404 cr) this gives the company's ₹583-594 cr." },
+ "interest": [87, 96, 104],
+ "_interestLabel": "Interest on lease liabilities (no borrowings)",
+ "_interestWhy": "All finance cost is lease interest: ₹77.6 cr in FY26 on ₹764-891 cr of lease liabilities (~9%); ₹21.2 cr in Q1FY27 (₹85 cr annualised). New leases (~₹100-120 cr a year) add ~₹9-10 cr a year.",
+ "taxRate": [27.5, 27.5, 27.5],
+ "_taxWhy": "Tax plus minorities (engine workaround: there is no minority line). Q1FY27: PBT ₹84.0 cr, tax ₹21.4 cr (25.5%), attributable PAT ₹60.6 cr = 27.8% leakage (minorities ~2.3%). FY26 effective tax 21.4% included a one-off ₹13 cr deferred-tax credit at Rosewalk; underlying ~25.5%. Minorities: 24% of Prashanthi and Pratiksha (₹3 cr in FY26, ₹2 cr in Q1FY27); the Malad JV with doctors adds more from FY28.",
+ "payout": [13, 13, 13],
+ "_payoutWhy": "Dividend ~13-14% of profit since listing (₹3 a share paid in FY26, ₹30 cr); capex absorbs the rest.",
+ "dcf": {
+  "rf": 6.5, "erp": 6, "beta": 0.8, "terminalGrowth": 6, "years": 15, "fadeGrowthTo": 9, "fadeMarginTo": 31, "fadeCapexPctTo": 11, "depPctOfSales": 8.5, "rollForwardMonths": 6,
+  "_betaWhy": "No borrowings; lease liabilities are ~6% of enterprise value, so WACC (~11.0-11.1%) is close to the 11.3% cost of equity the engine uses. Defensive demand, but expansion risk outside the home markets.",
+  "_tgWhy": "Births are flat in India, but paediatric and maternity care is moving to organised, specialised hospitals and prices rise 5-6% a year: 6% nominal, the top of the house range.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~20% to 9% by year 15: bed additions slow and the network matures.",
+  "_fadeMarginWhy": "31% post-Ind AS (~26% pre-Ind AS): back near FY26 once the 2026-29 openings mature, but below FY24-25 (33%) as more beds sit in costlier markets (NCR, Mumbai).",
+  "_fadeCapexWhy": "Capex incl. new leases falls from ~19-23% of revenue (expansion) to 11%: replacement of the asset base (depreciation ~8.5% of revenue) plus growth capex for 6-9% growth."
+ },
+ "scenarios": {
+  "bull": { "label": "Bull", "narrative": "A normal paediatric season returns, new hospitals reach 45%+ occupancy a year early, Mumbai and Gurugram open on time with high-acuity mix, and the margin recovers toward 32% (pre-Ind AS ~26.5%).", "revenueGrowthDelta": 3, "marginDelta": 1.5, "fadeMarginTo": 32.5 },
+  "bear": { "label": "Bear", "narrative": "Two more weak seasons, occupancy stuck near 41-45%, the expansion outside the South (NCR, Mumbai, Pune, Indore) ramps slowly and burns cash, and the margin falls toward 28% (pre-Ind AS ~23%).", "revenueGrowthDelta": -4, "marginDelta": -2, "fadeMarginTo": 29 }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    { "key": "ev", "name": "EV/EBITDA", "method": "evEbitda", "role": "primary", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 20, "bull": 24, "bear": 16 }, "why": "PROVISIONAL" },
+    { "key": "pe", "name": "P/E", "method": "pe", "role": "cross-check", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 40, "bull": 48, "bear": 32 }, "why": "PROVISIONAL" },
+    { "key": "dcf", "name": "DCF", "method": "dcf", "role": "cross-check", "why": "Tests whether cash flows support the price: 15-year FCFF (capex includes new leases), Ke 11.3%, terminal growth 6%, less net lease liabilities." }
+   ]
+  }
+ }
+}

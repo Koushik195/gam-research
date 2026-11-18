@@ -1,0 +1,3813 @@
+{
+ "symbol": "AARTIIND",
+ "listing": "NSE: AARTIIND · BSE: 524208",
+ "date": "30 September 2026",
+ "rating": "HOLD",
+ "analysts": "GAM Research — Specialty Chemicals",
+ "cover": {
+  "headline": "A scale leader in benzene chemistry with a decade of capex still waiting to earn",
+  "lead": "Aarti Industries is India's largest maker of benzene-based intermediates (nitrochlorobenzenes, dichlorobenzenes, nitrotoluenes and their derivatives) and, since FY24, a large exporter of a gasoline octane booster (MMA), now 38-43% of revenue. It has spent ~₹7,640 cr on capex over FY21-26, yet FY26 EBITDA of ₹1,168 cr was only 19% above FY21, ROCE is ~7% and net debt has risen to ~₹4,300 cr (3.6x EBITDA). Management targets ₹1,800-2,200 cr of EBITDA in FY28; it missed its first FY24 and FY25 targets by 29% and 41%. We forecast ₹1,584 cr for FY28 and reach the low end a year late. The street is split between **EV/EBITDA** and P/E; we use **12x Sep-28E EV/EBITDA (₹1,692 cr), less ~₹3,246 cr of net debt**, which gives **{{dcf.tp|inr}} ({{dcf.upside|chg}}): we initiate with HOLD.** P/E (₹476) and DCF (₹431) cross-checks agree. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}: the leverage makes the range wide.",
+  "arguments": [
+   {
+    "h": "Real scale, weak pricing power",
+    "p": "Aarti is #1 globally in DCB and has 25-40% global share across its benzene products (CRISIL), with no customer above 10% of revenue. But Chinese supply sets prices: gross margin fell from 42% (FY23) to 34% (9MFY26), and FY26 realisations fell 25% while volumes rose 39%. China's export-VAT rebate removal (Apr-2026) has helped the NCB chain; PDA remains structurally weak."
+   },
+   {
+    "h": "Fuel additives: the growth engine is also the risk",
+    "p": "MMA output rose from 23 kT (FY22) to 238 kT (FY26) and capacity reached 360 kT in Jul-2026. It carries a thin, crack-linked margin, faces 2-3 Indian and 2-3 Chinese competitors, and lost its Middle East market (~15% of company revenue to 2%) in Q1FY27. Volumes are seasonal (weak Oct-Dec)."
+   },
+   {
+    "h": "Guidance has been unreliable; FY28 depends on Zone IV",
+    "p": "FY25 EBITDA guidance started at ~₹1,700 cr and ended at ₹997 cr. Zone IV (₹1,600-1,800 cr, originally due FY25-26) is now commissioning in phases with a two-quarter delay, and none of the new projects has take-or-pay contracts. Q1FY27's record ₹382 cr EBITDA included ₹50-60 cr of inventory and currency gains."
+   },
+   {
+    "h": "Valuation: fair, not cheap",
+    "p": "At ₹475.7 the stock trades at 13.2x our FY28E EV/EBITDA and 28.5x FY28E EPS, 12% below its 52-week high. Our 12x Sep-28E multiple sits below its ~16x forward median since 2023 because the whole sector has de-rated ~31% and Aarti's returns are below its cost of capital. Upside needs EBITDA delivery, not a re-rating."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "RED"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "AMBER"
+   },
+   {
+    "k": "Balance sheet",
+    "v": "RED"
+   },
+   {
+    "k": "Valuation",
+    "v": "AMBER"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (late Oct / early Nov-2026): do volumes recover, and how much of Q1's inventory gain reverses as crude-linked prices ease?",
+   "Zone IV: commissioning of the five chemistry blocks in H2FY27 and customer re-qualification of commercial batches.",
+   "Fuel additives: utilisation of the 360 kT capacity, reopening of the Middle East, and the winter dip in gasoline cracks.",
+   "Net debt: management's internal target to cut net debt in FY27; CRISIL (AA/Negative) downgrade trigger at gross debt/EBITDA above 3.6x.",
+   "Management transition: Suyog Kotecha as MD from 1-Oct-2026, promoter executives move to non-executive roles."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Fuel additives (energy) went from 15% to 43% of revenue",
+       "unit": "Energy as % of company revenue",
+       "x": [
+        "FY23",
+        "FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Energy share",
+         "values": [
+          15,
+          36,
+          36,
+          43,
+          51,
+          42,
+          43,
+          38
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "CRISIL (FY23), company presentations"
+      },
+      {
+       "type": "column",
+       "title": "MMA output up 10x in four years",
+       "unit": "Fuel-additive (MMA) production (kT)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "MMA",
+         "values": [
+          23.1,
+          37.8,
+          89.3,
+          123,
+          237.6
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "AGM presentation (21-Sep-2026)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "₹7,640 cr of capex in six years; EBITDA barely moved",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY21",
+       "series": [
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        },
+        {
+         "name": "EBITDA",
+         "ref": "A.ebitda",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Screener.in (consolidated)"
+      },
+      {
+       "type": "line",
+       "title": "Net debt / EBITDA: 1.6x (FY19) to 3.6x (FY26)",
+       "unit": "Net debt ÷ EBITDA (x)",
+       "x": [
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Net debt / EBITDA",
+         "values": [
+          1.6,
+          1.9,
+          2.4,
+          1.4,
+          2.5,
+          3.2,
+          3.5,
+          3.6
+         ],
+         "fmt": "x"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "lines": [
+        {
+         "v": 2.5,
+         "text": "Company target: <2.5x"
+        }
+       ],
+       "source": "Screener.in; company target"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "EBITDA guidance vs delivery (FY28: our estimate)",
+       "unit": "EBITDA (₹ crore)",
+       "x": [
+        "FY24",
+        "FY25",
+        "FY28"
+       ],
+       "series": [
+        {
+         "name": "First guidance (low end)",
+         "values": [
+          1375,
+          1700,
+          1800
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Actual / GAM FY28E",
+         "values": [
+          978,
+          997,
+          1584
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Earnings calls Nov-2022 to Jul-2026; FY24 = 25% CAGR from ~₹1,100 cr"
+      },
+      {
+       "type": "line",
+       "title": "Gross margin: 42% → 37% as China set prices",
+       "unit": "Gross margin (%)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Gross margin",
+         "values": [
+          42,
+          39,
+          36,
+          37.1
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 30,
+       "max": 45,
+       "source": "India Ratings (FY23-25), CRISIL (FY26)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward EV/EBITDA: ~16x median since 2023, 13.9x now",
+       "unit": "EV ÷ next full-year EBITDA (x)",
+       "x": [
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          14.9,
+          16.1,
+          15.7,
+          14.9,
+          15.2,
+          16.3,
+          15.7,
+          15.7,
+          18.2,
+          16.2,
+          9.9,
+          10.8,
+          10.2,
+          10.5,
+          11.3,
+          10.6,
+          11.6,
+          12.7,
+          12,
+          12.9,
+          22.3,
+          27.3,
+          29.6,
+          28.1,
+          30.3,
+          29.9,
+          31.3,
+          31.2,
+          33.3,
+          32,
+          29.1,
+          33.5,
+          28.2,
+          26.1,
+          29.8,
+          31.4,
+          28.7,
+          26.7,
+          24.3,
+          21.9,
+          22.6,
+          21.9,
+          20.7,
+          21.6,
+          19.8,
+          19.4,
+          20.6,
+          19.4,
+          23.4,
+          25.1,
+          28,
+          26.5,
+          25.5,
+          21.3,
+          25,
+          25.9,
+          20.3,
+          18.9,
+          16,
+          15.4,
+          16.9,
+          15.2,
+          12.1,
+          14.5,
+          13.9,
+          13.7,
+          12.3,
+          12.4,
+          12.7,
+          11.8,
+          11.7,
+          14.2,
+          13.3,
+          13.8,
+          13.1,
+          13.7,
+          14.9,
+          13.9
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 16,
+         "text": "Median since Apr-2023: 16.0x"
+        },
+        {
+         "v": 12,
+         "text": "Our target: 12x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; reported EBITDA and net debt; GAM estimates FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street",
+       "unit": "₹ per share; CMP ₹475.7",
+       "x": [
+        "ICICI Direct (Aug)",
+        "Axis Direct (May)",
+        "PL (Jul)",
+        "HDFC Sec (Jun)",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          565,
+          530,
+          526,
+          450,
+          470
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes standing on 30-Sep-2026; GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What it does",
+   "kicker": "The business",
+   "title": "What Aarti does: turns benzene and toluene into 100+ intermediates, and sells an octane booster",
+   "blocks": [
+    {
+     "p": "Aarti Industries was founded in 1984 by first-generation technocrats of the Gogri family. It buys benzene (from Indian refiners), toluene, chlorine, nitric acid and sulphur, and runs them through chlorination, nitration, hydrogenation and ethylation to make more than 100 intermediates. These go into agrochemicals, pharmaceuticals (paracetamol starts from Aarti's PNCB), dyes and pigments, polymers and, since FY24, gasoline: the fuel-additive (energy) business makes MMA (monomethyl aniline) from imported aniline and sells it to refiners and blenders as an octane booster. It has 16 plants in Gujarat and Maharashtra, 5,800+ employees and 1,100+ customers in 60+ countries; no customer is 10% of revenue. The pharma business was demerged into Aarti Pharmalabs in 2022."
+    },
+    {
+     "p": "**A note on numbers.** Aarti's presentations quote revenue *including* GST: ₹9,018 cr for FY26 and ₹2,627 cr for Q1FY27. The audited net figures, used throughout this report and in our model, are ₹8,286 cr and ₹2,387 cr. The company reports a single business segment; end-use shares and volumes come from its presentations."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Value chains: capacity, FY26 output and what they serve",
+      "head": [
+       "Value chain",
+       "Capacity (kTPA)",
+       "FY26 output (kT)",
+       "FY26 use",
+       "End markets",
+       "Note"
+      ],
+      "wide": [
+       4,
+       5
+      ],
+      "rows": [
+       [
+        "**Nitrochlorobenzenes (NCB)**",
+        "108",
+        "92.7",
+        "86%",
+        "Pharma (paracetamol via PNCB), dyes, agro",
+        "Margins recovered after China removed export VAT rebates (Apr-2026)"
+       ],
+       [
+        "**Dichlorobenzenes (DCB)**",
+        "120 → 140",
+        "96.5",
+        "80%",
+        "Polymers (PDCB for EV-linked PPS), agro, pharma",
+        "Claims #1 globally; debottlenecking to 140 kT"
+       ],
+       [
+        "**Hydrogenation (chloroanilines etc.)**",
+        "60",
+        "50.8",
+        "85%",
+        "Agro, dyes, pigments",
+        "\"Always had decent margins\" (CEO)"
+       ],
+       [
+        "**Phenylenediamines (PDA)**",
+        "12",
+        "6.6",
+        "55%",
+        "Aramid fibres, polymers (US exports)",
+        "\"Structurally weak because of our technological disadvantage\" (CEO); US tariffs, China"
+       ],
+       [
+        "**Nitrotoluenes (NT)**",
+        "45",
+        "37.0",
+        "82%",
+        "Agro, dyes",
+        "Margins suppressed by an isomer imbalance for 2-3 years"
+       ],
+       [
+        "**Ethylation (MEA/DEA)**",
+        "25-30",
+        "20.5",
+        "82%",
+        "Agro (herbicide intermediates)",
+        "Ethylene cost passed through under contracts; PEDA downstream plant"
+       ],
+       [
+        "**Fuel additives (MMA)**",
+        "290 → 360",
+        "237.6",
+        "86%",
+        "Gasoline octane booster (refiners, blenders)",
+        "94% exported; Middle East shut in Q1FY27"
+       ]
+      ],
+      "source": "AGM presentation (21-Sep-2026), Q1FY27 presentation and call; DCB/MMA arrows = expansion"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "Revenue by end use: energy up, others steady",
+       "unit": "% of company revenue",
+       "x": [
+        "FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Energy",
+         "values": [
+          36,
+          36,
+          43,
+          51,
+          42,
+          43,
+          38
+         ],
+         "fmt": "pct0"
+        },
+        {
+         "name": "Agro & fertilisers",
+         "values": [
+          18,
+          18,
+          19,
+          12,
+          19,
+          18,
+          18
+         ],
+         "fmt": "pct0"
+        },
+        {
+         "name": "Polymers",
+         "values": [
+          15,
+          14,
+          12,
+          14,
+          14,
+          14,
+          11
+         ],
+         "fmt": "pct0"
+        },
+        {
+         "name": "Dyes, pharma & others",
+         "values": [
+          31,
+          32,
+          26,
+          23,
+          25,
+          25,
+          33
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "minLabel": 6,
+       "source": "Aarti Industries results and AGM presentations (2025-26)"
+      },
+      {
+       "type": "hbar",
+       "title": "Where it sells: North America and Europe up, Middle East down",
+       "unit": "FY26 revenue by region (%)",
+       "x": [
+        "India",
+        "North America",
+        "Europe",
+        "Middle East",
+        "Rest of Asia",
+        "Rest of world"
+       ],
+       "series": [
+        {
+         "name": "FY26",
+         "values": [
+          43,
+          25,
+          11,
+          9,
+          6,
+          6
+         ],
+         "fmt": "pct0"
+        },
+        {
+         "name": "FY25",
+         "values": [
+          46,
+          18,
+          4,
+          23,
+          6,
+          3
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Annual reports FY25, FY26"
+      }
+     ]
+    },
+    {
+     "callout": "**So what:** Aarti is two businesses. The **non-energy chemistry** (~57-62% of revenue) is a scale business in mature benzene chains where Chinese supply sets the price; the **energy business** is a fast-grown, export-led product whose demand swings with gasoline refining margins. Neither has much pricing power, which is why returns have fallen even as volumes doubled."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From one NCB plant (1986) to a ₹8,300 cr chemicals group, via contracts, a demerger and a capex binge",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1984-95",
+        "Founded as Aarti Organic (1984); first NCB plant (1986); listed on BSE (1992) and NSE (1995)",
+        "Built the benzene-chain base in Vapi and Jhagadia"
+       ],
+       [
+        "FY18-FY19",
+        "Two large multi-year supply contracts with global majors, then a third; ₹750 cr QIP",
+        "Promised ~₹10,000 cr of contracted revenue; funded new blocks"
+       ],
+       [
+        "Jun-2020",
+        "Customer cancels the 10-year dicamba-intermediate contract; $120 mn compensation",
+        "₹631 cr booked in FY22 revenue and EBITDA; the ~₹500 cr plant has been underused since"
+       ],
+       [
+        "FY22",
+        "1:1 bonus; ₹1,200 cr QIP at ₹855 a share",
+        "Share count to 36.3 cr; peak profit year (₹1,186 cr, inflated by the termination fee)"
+       ],
+       [
+        "Oct-2022",
+        "Pharma business demerged into Aarti Pharmalabs (record date 20-Oct-2022; appointed date 1-Jul-2021)",
+        ">₹1,200 cr of gross block left; FY22 and earlier numbers include pharma"
+       ],
+       [
+        "Apr-2023",
+        "20-year nitric-acid supply deal with Deepak Fertilisers",
+        "Avoided a captive plant"
+       ],
+       [
+        "Dec-23 / Jan-24",
+        "9-year ₹3,000 cr+ herbicide-intermediate contract; 4-year ₹6,000 cr+ fuel-additive contract",
+        "Launched the MMA scale-up: energy from ~15% to 43% of revenue"
+       ],
+       [
+        "Aug-2024",
+        "FY25 EBITDA guidance (₹1,450-1,700 cr) withdrawn; Nov-2024: FY28 target ₹1,800-2,200 cr",
+        "Stock fell from ~₹750 to ~₹400 by Dec-2024"
+       ],
+       [
+        "Sep-25 / Feb-26",
+        "CRISIL and India Ratings move outlooks to Negative",
+        "Deleveraging delayed 12-15 months (India Ratings)"
+       ],
+       [
+        "Mar-2026",
+        "Backward-integration amendment (residual 15 years, ₹200-250 cr capex) and a $150 mn agro supply contract to Mar-2030",
+        "Adds fixed margin from Sep-Oct 2027; agro volumes from FY27"
+       ],
+       [
+        "Jul-Sep 2026",
+        "Fuel-additive capacity 360 kT; record Q1FY27; AGM resolutions to make CEO Suyog Kotecha MD from 1-Oct-2026 and move Gogri executives to non-executive roles",
+        "First professional MD in the company's history"
+       ]
+      ],
+      "source": "Annual reports, earnings calls 2022-26, rating rationales"
+     }
+    },
+    {
+     "callout": "**Corporate actions:** 1:1 bonus and a ₹1,200 cr QIP in FY22, a ₹750 cr QIP in FY19, a buyback in FY17-18, and the 2022 pharma demerger. Dividends have been cut from ₹3.50 a share (FY22) to ₹1 (FY25, FY26) as debt rose. **Read FY22 with care:** it includes the ₹631 cr termination fee and the pharma business; the company's restated chemicals-only FY22 EBITDA was ₹919 cr, so we start most comparisons in FY23."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Industry: Chinese overcapacity set the price for three years; policy has started to help",
+   "blocks": [
+    {
+     "p": "India's chemical industry is estimated at USD 155-165 bn and expected to reach USD 230-255 bn by 2030 (~8-9% a year), against 3-4% global growth (Aarti's FY26 annual report, citing industry sources). The opportunity is real: global customers want suppliers outside China, and India is the obvious alternative. But since 2022 Chinese capacity additions have flooded commodity and intermediate chemicals, and prices, not demand, have been the problem. Aarti's gross margin fell from 42% in FY23 to 34% in 9MFY26 against a ~45% decadal average (India Ratings), and its blended realisations fell 25% in FY26 even as volumes rose 39% (CRISIL)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Forces acting on Aarti's markets, 2025-26",
+      "head": [
+       "When",
+       "What happened",
+       "Direction"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Apr-2025",
+        "US 'reciprocal' tariff announcement; partial suspension",
+        "Headwind"
+       ],
+       [
+        "Jul/Aug-2025",
+        "US penalty tariff on India to 50% (about half of Aarti's US sales exempt; PDA chain hit hardest)",
+        "Headwind"
+       ],
+       [
+        "Dec-2025",
+        "China 'anti-involution' drive and reversal of export incentives",
+        "Tailwind"
+       ],
+       [
+        "Jan-2026",
+        "India-EU FTA announced",
+        "Tailwind"
+       ],
+       [
+        "Feb-2026",
+        "India-US trade deal announced: tariff on Indian goods ~18% vs ~34% for China (India Ratings)",
+        "Tailwind"
+       ],
+       [
+        "Mar-2026",
+        "West Asia conflict: crude-linked raw materials spike; Middle East fuel-additive exports halted; freight up",
+        "Mixed"
+       ],
+       [
+        "Apr-2026",
+        "China removes export VAT rebates on major NCB-chain products; NCB margins recover",
+        "Tailwind"
+       ],
+       [
+        "2023-26",
+        "Capacity rationalisation in Europe and North-East Asia; slower Chinese additions (CEO: margins could restructure \"post 28, 29\")",
+        "Tailwind (later)"
+       ]
+      ],
+      "source": "AGM presentation (21-Sep-2026), India Ratings (Feb-2026), Q1FY27 call"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Specialty chemicals de-rated ~30% from their post-2023 medians",
+       "unit": "Trailing EV/EBITDA on 30-Sep-2026 vs median since Apr-2023 (%)",
+       "x": [
+        "Vinati Organics",
+        "Atul",
+        "Clean Science",
+        "Deepak Nitrite",
+        "SRF",
+        "Alkyl Amines",
+        "Aarti",
+        "Laxmi Organic",
+        "Navin Fluorine"
+       ],
+       "series": [
+        {
+         "name": "vs median",
+         "values": [
+          -44,
+          -43,
+          -36,
+          -32,
+          -31,
+          -30,
+          -18,
+          -17,
+          -15
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Aarti",
+       "source": "Screener.in (multiples scaled to the NSE close)"
+      },
+      {
+       "type": "column",
+       "title": "Aarti's US-bound products faced a 50% tariff for six months",
+       "unit": "Share of Aarti revenue (%)",
+       "x": [
+        "US (FY25)",
+        "of which exempt",
+        "Middle East (FY25)",
+        "Middle East (Q1FY27)"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          18,
+          9,
+          23,
+          2
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "India Ratings (US share; \"about half\" exempt), annual reports, Q1FY27 call"
+      }
+     ]
+    },
+    {
+     "callout": "**So what:** the industry backdrop improved in 2026 (US tariff cut to ~18%, China's anti-involution and export-VAT changes, EU FTA), but it was the West Asia conflict that lifted Aarti's Q1 prices, and that is not a durable tailwind. Margins across Indian specialty chemicals are still below their pre-2022 levels, and the sector trades well below its old multiples."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: volumes, yes; margins and returns, not yet",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "\"China+1\": customers diversifying away from China",
+       "Partly",
+       "Repeat long-term contract from a global major (Mar-2026), $150 mn agro contract, no customer >10%; but gross margin 42% → 34% as Chinese prices kept falling.",
+       "Aarti wins volume, not price."
+      ],
+      [
+       "Indian specialty-chemicals growth (~8-9% a year)",
+       "Yes",
+       "Net revenue +8% a year FY23-26; volumes +39% in FY26.",
+       "Growth is there; it came at lower realisations."
+      ],
+      [
+       "Fuel-additive demand (gasoline cracks)",
+       "Yes",
+       "MMA 123 kT → 238 kT in FY26; capacity 360 kT; cracks $15-18/bbl in Q1FY27.",
+       "Captured, but cyclical and seasonal."
+      ],
+      [
+       "China anti-involution / VAT rebate removal",
+       "Partly",
+       "NCB chain margins \"recovered\" in Q1FY27; PDA and fluoro products still under pressure.",
+       "Helps one chain so far."
+      ],
+      [
+       "India-US trade deal (tariff ~18%)",
+       "Partly",
+       "US was ~18% of FY25 sales; PDA volumes hit by the 50% tariff; US shipments resumed in Q3-Q4FY26.",
+       "Removes a headwind rather than adding a tailwind."
+      ],
+      [
+       "Specialty / higher-value chemistry (Zone IV, CDMO)",
+       "No",
+       "Zone IV commissioning in phases, ~1.5-2 years behind the original plan; 5-10 products this year, 25-30 by FY28; no take-or-pay contracts.",
+       "Not yet in the numbers."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "Aarti Industries annual reports, results presentations and earnings calls; GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "chains",
+   "nav": "Non-energy value chains",
+   "kicker": "Value chains",
+   "title": "Non-energy chemistry: volumes up 15-70% since FY23, but each chain has its own problem",
+   "blocks": [
+    {
+     "p": "The non-energy business is Aarti's core: NCB, DCB, hydrogenation, PDA, nitrotoluene, ethylation and sulphuric-acid derivatives, sold to agro (18% of revenue), polymers (11-14%), dyes and pigments (11-15%) and pharma (10-14%). Volumes have grown well: FY26 output of NCB was 92.7 kT (+19% vs FY23), DCB 96.5 kT (+15%), NT 37.0 kT (+55%) and ethylation 20.5 kT (+72%). Most chains ran at 80-86% of capacity in FY26. The problem is margin: management concedes agro margins \"remain under pressure\", PDA is structurally weak because of a technology disadvantage, and NT margins have been depressed by an isomer imbalance. The bright spot is NCB, where China's removal of export VAT rebates (Apr-2026) lifted prices and margins."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Production by chain: steady volume growth",
+       "unit": "Production (kT)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "NCB",
+         "values": [
+          76.6,
+          77.8,
+          73.5,
+          85.3,
+          92.7
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "DCB",
+         "values": [
+          74.6,
+          84.2,
+          80.7,
+          88.6,
+          96.5
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Hydrogenation",
+         "values": [
+          35.7,
+          37.2,
+          39.1,
+          44.4,
+          50.8
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "NT",
+         "values": [
+          16,
+          23.9,
+          30.5,
+          29.4,
+          37
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "AGM presentation (21-Sep-2026)"
+      },
+      {
+       "type": "hbar",
+       "title": "FY26 capacity use: 80-86% except PDA",
+       "unit": "Utilisation, FY26 (%)",
+       "x": [
+        "NCB",
+        "DCB",
+        "Hydrogenation",
+        "PDA",
+        "NT",
+        "Ethylation",
+        "MMA"
+       ],
+       "series": [
+        {
+         "name": "Utilisation",
+         "values": [
+          86,
+          80,
+          85,
+          55,
+          82,
+          82,
+          86
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "highlight": "PDA",
+       "source": "Q4FY26 presentation"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Quarterly DCB and NCB output: DCB at a record in Q4FY26",
+       "unit": "Production (kT)",
+       "x": [
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26"
+       ],
+       "series": [
+        {
+         "name": "DCB",
+         "values": [
+          20.8,
+          20.4,
+          19.3,
+          22,
+          25.9,
+          29.3
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "NCB",
+         "values": [
+          22.9,
+          23.9,
+          21.7,
+          21.5,
+          24.6,
+          24.8
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "none",
+       "source": "Q3FY26 and Q4FY26 presentations (not disclosed from Q1FY27)"
+      },
+      {
+       "type": "column",
+       "title": "Non-energy volumes: +9-12% YoY for three quarters",
+       "unit": "Non-energy volume growth, YoY (%)",
+       "x": [
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Non-energy",
+         "values": [
+          11,
+          9,
+          12
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Aarti Industries results and AGM presentations (2025-26)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "End markets: what management said in Jul-2026",
+      "head": [
+       "End use",
+       "Share Q1FY27",
+       "Domestic / export",
+       "Comment"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Agrochemicals & fertilisers",
+        "18%",
+        "58% / 42%",
+        "Volumes marginally lower as customers resisted high prices; \"margin and pricing pressure remains persistent in select products\"; $150 mn contract volumes from FY27"
+       ],
+       [
+        "Dyes, pigments & inks",
+        "15%",
+        "67% / 33%",
+        "Share up on higher realisations of specialised products; demand soft in a high-price environment"
+       ],
+       [
+        "Pharmaceuticals",
+        "14%",
+        "mainly domestic",
+        "Stable demand; share up on price hikes in PNCB (China VAT removal); NCB debottlenecking possible within existing assets"
+       ],
+       [
+        "Polymers & additives",
+        "11%",
+        "61% / 39%",
+        "Soft Q1 after bulk US shipments in Q4; PDCB demand strong (EV, automotive); MPDA (PDA chain) hit by Chinese competition"
+       ]
+      ],
+      "source": "Q1FY27 presentation (30-Jul-2026) and call (31-Jul-2026)"
+     }
+    },
+    {
+     "callout": "**Our read:** this is a well-run volume business with good assets and customer access, but it is a price-taker. A recovery to the old 20%+ margins needs Chinese discipline to last; we assume only a gradual margin improvement (EBITDA margin 14.3% → 15.5% over FY27-29E for the whole company)."
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "nav": "Energy (fuel additives)",
+   "kicker": "Fuel additives",
+   "title": "The energy business: 43% of revenue, a commodity spread and a single region shut",
+   "blocks": [
+    {
+     "p": "Aarti's \"energy\" business sells MMA (monomethyl aniline), an octane booster that refiners and blenders add to gasoline at under 1-2%. It is not methyl methacrylate and not fuel trading. Aarti makes MMA from imported aniline (mostly from China), so its spread depends on aniline prices on one side and the gasoline-naphtha crack (how much more gasoline is worth than naphtha) on the other. The business was ~15% of revenue in FY22-23; a 4-year ₹6,000 cr+ contract (Jan-2024) with a multinational conglomerate turned it into the growth engine: production rose from 37.8 kT (FY23) to 237.6 kT (FY26), energy revenue rose 36% to ₹3,563 cr in FY26 (CRISIL), and capacity reached 360 kT in Jul-2026."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Quarterly MMA output: doubled in FY26",
+       "unit": "MMA production (kT)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26"
+       ],
+       "series": [
+        {
+         "name": "MMA",
+         "values": [
+          31,
+          20.5,
+          36.6,
+          34.8,
+          38.4,
+          63.5,
+          69,
+          66.6
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Presentations; Q1-Q2FY25 from the Nov-2024 call (not disclosed from Q1FY27)"
+      },
+      {
+       "type": "column",
+       "title": "Energy volumes still +57% YoY in Q1FY27, but −17% QoQ",
+       "unit": "Energy volume growth, YoY (%)",
+       "x": [
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Energy",
+         "values": [
+          78,
+          98,
+          57
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Aarti Industries results and AGM presentations (2025-26)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Fuel-additive economics: what drives it",
+      "head": [
+       "Driver",
+       "Evidence",
+       "Effect"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Gasoline-naphtha crack",
+        "$15-18/bbl in Q1FY27 (\"healthy\"); it went negative on some days in Mar-Apr 2026",
+        "Sets refiners' willingness to pay; volumes fall when cracks fall"
+       ],
+       [
+        "Aniline (raw material)",
+        "Imported, 1-1.5 months of stock; mostly from China",
+        "Inventory gains or losses when prices move sharply"
+       ],
+       [
+        "Seasonality",
+        "Cracks and demand typically weaken from late October to December",
+        "H2 volumes and spreads softer"
+       ],
+       [
+        "Geography",
+        "Middle East fell from ~15% of company revenue to 2% in Q1FY27; volumes redirected to the US, Europe, Africa (US voyages 2-3 months)",
+        "Working capital and revenue-recognition lags up"
+       ],
+       [
+        "Competition",
+        "\"More than two or three\" Indian and Chinese players; Aarti claims leadership and top-decile cost",
+        "Limits spreads; Aarti is broadening to a 3-5 product basket"
+       ],
+       [
+        "Contract",
+        "4-year ₹6,000 cr+ contract (Jan-2024), target volumes met in CY2025; margin guided at 15-17% at constant prices",
+        "Ends around CY2027-28: renewal risk"
+       ]
+      ],
+      "source": "Q4FY26 and Q1FY27 calls; Feb-2024 call; CRISIL (Sep-2026)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Energy share of revenue, quarter by quarter",
+       "unit": "Energy as % of company revenue",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Energy share",
+         "values": [
+          36,
+          43,
+          51,
+          42,
+          38
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Aarti Industries results and AGM presentations (2025-26)"
+      },
+      {
+       "type": "hbar",
+       "title": "Capacity: 200 kT to 360 kT in two years",
+       "unit": "Fuel-additive capacity (kTPA)",
+       "x": [
+        "FY25",
+        "FY26",
+        "Jul-2026"
+       ],
+       "series": [
+        {
+         "name": "Capacity",
+         "values": [
+          200,
+          290,
+          360
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Annual reports, Q1FY27 presentation"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the energy business has been well executed: Aarti found a large niche and filled it fast. But it is a spread business tied to refining margins, with no disclosed margin, a single large contract, new competitors and a seasonal winter. We assume energy volumes fill most of the 360 kT capacity by FY28, at broadly flat spreads; management itself expects energy to fall back to 30-40% of revenue as Zone IV grows."
+    }
+   ]
+  },
+  {
+   "id": "projects",
+   "nav": "Projects & guidance record",
+   "kicker": "Growth projects",
+   "title": "FY28 target of ₹1,800-2,200 cr EBITDA rests on projects that have slipped before",
+   "blocks": [
+    {
+     "p": "Management's FY28 bridge (from FY25 EBITDA of ~₹1,016 cr) adds ₹150-200 cr of cost savings (largely done), ₹350-550 cr from volume and margin ramp-up of existing assets (MMA, DCB, NCB, ethylation, NT) and ₹300-450 cr from new capex (Zone IV, MPP, PEDA, the Augene JV). The first two look achievable; the third depends on Zone IV, which is late. Zone IV is a ₹1,600-1,800 cr greenfield site at Jhagadia designed around chlorotoluene and now built as five flexible chemistry blocks plus a multipurpose plant. In Jul-2026, 97% of equipment was erected and 85% of piping done; the CEO said the delay \"might lead to a bit slower ramp-up compared to our original anticipation\"."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Projects: first promised vs status in Sep-2026",
+      "head": [
+       "Project",
+       "First promised",
+       "Status (Jul-Sep 2026)",
+       "Slippage"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Zone IV chlorotoluene / chemistry blocks (₹1,600-1,800 cr)",
+        "Commissioning FY25, volume FY26 (May-2023)",
+        "Commissioning in phases in FY27; ramp-up FY28-29",
+        "~1.5-2 years"
+       ],
+       [
+        "Multipurpose plant (MPP), Zone IV",
+        "FY25 (Feb-2023)",
+        "First product expected Aug-2026",
+        "~1.5 years"
+       ],
+       [
+        "PEDA (4,000 TPA), Zone IV",
+        "Q4FY26 (Nov-2025)",
+        "Market seeding; \"commercialised soon\"",
+        "~2 quarters"
+       ],
+       [
+        "Calcium chloride, Zone IV",
+        "Q3FY26 (May-2025)",
+        "Commercialised",
+        "~1 quarter"
+       ],
+       [
+        "Fuel additives 200 → 360 kT",
+        "360 kT by Q4FY26 (Feb-2026)",
+        "Completed Jul-2026",
+        "On time / faster"
+       ],
+       [
+        "Ethylation 3x, NT 30 → 45 kT",
+        "H1FY25 (Nov-2022)",
+        "Commissioned Q3FY25",
+        "~1-2 quarters"
+       ],
+       [
+        "Augene JV (amines, 50:50)",
+        "Supplies from Q1FY27 (Aug-2024)",
+        "Commissioning Q2FY27; revenue ₹300-400 cr in 1-2 years",
+        "Small"
+       ],
+       [
+        "Re Aarti plastic recycling JV",
+        "Early FY27 (Aug-2025)",
+        "H2FY27 (labour constraints)",
+        "~2-3 quarters"
+       ],
+       [
+        "Backward-integration project (₹200-250 cr)",
+        "Signed Mar-2026",
+        "Civil work; commissioning Sep-Oct 2027",
+        "New"
+       ]
+      ],
+      "source": "Earnings calls and presentations, Nov-2022 to Jul-2026 (see research/sources/calls-history.json)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "EBITDA guidance track record (₹ crore)",
+      "head": [
+       "Year",
+       "First guidance",
+       "Last word before results",
+       "Actual",
+       "vs first"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "FY24",
+        "25% CAGR from ~₹1,100 cr (implies ~₹1,375 cr), Nov-2022",
+        "₹950-1,000 cr (Nov-2023)",
+        "978",
+        "-29%"
+       ],
+       [
+        "FY25",
+        "~₹1,700 cr, Nov-2022",
+        "₹1,000-1,050 cr (Nov-2024), after withdrawal in Aug-2024",
+        "997",
+        "-41%"
+       ],
+       [
+        "FY26",
+        "No annual guidance; 20-25% EBITDA CAGR goal (Aug-2024) implies ~₹1,220 cr",
+        "Annual guidance dropped (May-2025)",
+        "1,168",
+        "-4%"
+       ],
+       [
+        "FY28",
+        "₹1,800-2,200 cr (Nov-2024)",
+        "Reaffirmed Jul-2026 despite Zone IV delay",
+        "GAM FY28E: 1,584",
+        "−12% vs low end"
+       ]
+      ],
+      "source": "Earnings calls Nov-2022 to Jul-2026; actuals from Screener (company: FY24 ₹984 cr, FY25 ₹1,016 cr)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Management's FY28 EBITDA bridge vs our FY28E",
+      "head": [
+       "Building block",
+       "Management (₹ cr)",
+       "Our view"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "FY25 base (company EBITDA)",
+        "1,016",
+        "Reported"
+       ],
+       [
+        "Cost optimisation",
+        "150-200",
+        "Mostly done (\"~₹100 cr of fixed and variable cost improvements\" in FY26)"
+       ],
+       [
+        "Volume and margin ramp-up of existing assets",
+        "350-550",
+        "Largely visible: FY26 +₹156 cr; MMA 360 kT, DCB 140 kT, $150 mn agro contract still to come"
+       ],
+       [
+        "Capex-led growth (Zone IV, MPP, PEDA, Augene)",
+        "300-450",
+        "Delayed by ~2 quarters; we include ~a third of it in FY28E"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**FY28 EBITDA**",
+         "**1,800-2,200**",
+         "**GAM 1,584 (FY29E 1,800)**"
+        ]
+       }
+      ],
+      "source": "Q1FY27 presentation (bridge), AGM presentation; GAM Research"
+     }
+    },
+    {
+     "callout": "**Honest verdict:** Aarti's management has been consistently optimistic. The FY25 target fell from ~₹1,700 cr to ₹997 cr; FY24 from an implied ~₹1,375 cr to ₹978 cr. Annual guidance was dropped in 2025. The FY28 target was reaffirmed in Jul-2026 even as Zone IV slipped two quarters. We give management credit for what is in its control (volumes, costs) and haircut what is not (new chemistry, prices): our FY28E EBITDA is ₹1,584 cr, 12% below the low end."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: scale and customer access, but no pricing power",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Scale and integration in benzene chains",
+       "Advantage",
+       "Largest Indian maker of NCB, DCB and NT; 25-40% global share across products (CRISIL); #1 globally in DCB (company claim); integrated chlorination-nitration-hydrogenation",
+       "Real and hard to copy"
+      ],
+      [
+       "Pricing power",
+       "Disadvantage",
+       "Gross margin 42% → 34% (FY23 → 9MFY26) as Chinese supply set prices; blended realisations −25% in FY26",
+       "A drag on returns"
+      ],
+      [
+       "Customer relationships and contracts",
+       "Advantage",
+       "No customer ≥10%; majority of FY25 revenue from 10-year+ relationships; repeat contract from a global major (Mar-2026); ~30-40% of business contractual (2024)",
+       "Real and hard to copy"
+      ],
+      [
+       "Technology",
+       "Parity",
+       "Continuous nitration; but CEO concedes a 'technological disadvantage' in PDA; NT margins hit by isomer imbalance",
+       "Competitive, not decisive"
+      ],
+      [
+       "Fuel additives (MMA)",
+       "Parity",
+       "Market leader, top-decile cost, but 2-3 Indian and 2-3 Chinese competitors and a commodity-like spread business tied to gasoline cracks",
+       "Competitive, not decisive"
+      ],
+      [
+       "Balance sheet",
+       "Disadvantage",
+       "Net debt 3.65x EBITDA; CRISIL and India Ratings outlooks Negative",
+       "A drag on returns"
+      ],
+      [
+       "Execution / capital allocation",
+       "Disadvantage",
+       "ROCE 22% (FY22) → 7% (FY26); Zone IV ~1.5-2 years late; FY24-25 EBITDA guidance missed by 29-41%",
+       "A drag on returns"
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (filings, calls, rating rationales to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** Aarti has a **scale and integration advantage** in benzene chemistry (largest Indian producer, global top-3/top-4 positions) and **sticky customer relationships** (long-term contracts, a repeat contract from a global major, no customer above 10%). That is a real moat for *winning volume*. It is **not** a moat for *earning returns*: Chinese producers set the price in most of its chains, the energy business is a spread business, and ROCE has been ~7% for three years. A moat that does not show up in returns deserves a market multiple, not a premium."
+    }
+   ]
+  },
+  {
+   "id": "quarters",
+   "nav": "Quarterly run-rate",
+   "kicker": "Quarters",
+   "title": "Quarters: a record Q1FY27, but inflated by prices, inventory and currency gains",
+   "blocks": [
+    {
+     "p": "Quarterly revenue has risen from ₹1,675 cr in Q1FY26 to ₹2,387 cr in Q1FY27 (+43%), and EBITDA from ₹212 cr to ₹382 cr. Read the Q1FY27 number carefully: management says revenue growth was \"primarily driven by higher input prices passed on to customers\" after the West Asia conflict lifted benzene, sulphur, methanol and aniline prices; volumes actually fell 12% from Q4FY26 (energy −17%, non-energy −7%). EBITDA was helped by ₹50-60 cr of inventory and currency gains (CEO estimate), so the underlying run-rate was roughly ₹320-330 cr, close to Q4FY26. Fuel additives (the energy business) are also seasonal: demand softens from late October to December as gasoline cracks weaken in winter."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Quarterly revenue: a step up on input prices",
+       "unit": "Revenue, net of GST (₹ crore)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "Q.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Quarterly EBITDA: ₹382 cr in Q1FY27 incl. ~₹50-60 cr of gains",
+       "unit": "EBITDA (₹ crore)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "EBITDA",
+         "ref": "Q.ebitda",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 12-16%, never back to the old 20%+",
+       "unit": "EBITDA margin (%)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "Q.opm",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 20,
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Effective tax rate: negative for most of the last two years",
+       "unit": "Tax as % of profit before tax",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "Tax rate",
+         "ref": "Q.taxPct",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**So what:** Q1FY27 annualised gives ~₹1,500 cr of EBITDA, but strip out the one-off gains and the run-rate is ~₹1,300 cr, still ~28% short of the low end of the FY28 target of ₹1,800 cr. Revenue growth is mostly price; if crude-linked raw-material prices fall, revenue falls too, and the inventory gains can turn into losses."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue up 84% since FY21, EBITDA up only 19%: a decade of capex has not yet paid",
+   "blocks": [
+    {
+     "p": "Aarti's net revenue rose from ₹4,506 cr in FY21 to ₹8,286 cr in FY26 (13% a year), helped by new capacity and the fuel-additive (MMA) business. EBITDA did not follow: it peaked at ₹1,720 cr in FY22 (a year flattered by a one-off contract-termination receipt and by the pharma business, demerged in 2022), fell to ₹978 cr in FY24 and recovered only to ₹1,168 cr in FY26, just 19% above FY21. The EBITDA margin halved from 28% in FY22 to 14% in FY26 as Chinese oversupply cut prices across benzene-based chemicals and the fastest-growing product (MMA) carried a thin margin. Meanwhile depreciation and interest more than doubled, so net profit fell from ₹535 cr in FY21 to ₹419 cr in FY26."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Net revenue: ₹8,286 cr in FY26, up 14%",
+       "unit": "Revenue, net of GST (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num",
+         "growth": true
+        }
+       ],
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "EBITDA: still below the FY22 peak",
+       "unit": "EBITDA (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA",
+         "ref": "fin.ebitda",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: from 28% (FY22) to 14%",
+       "unit": "EBITDA margin (%)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 30,
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Depreciation and interest now eat 70% of EBITDA",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "Depreciation",
+         "ref": "A.dep",
+         "fmt": "num"
+        },
+        {
+         "name": "Interest",
+         "ref": "A.interest",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Net profit: ₹419 cr in FY26, below FY21",
+       "unit": "Net profit (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Return on capital employed: 22% → 7%",
+       "unit": "ROCE (%)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          19,
+          20,
+          19,
+          16,
+          18,
+          15,
+          13,
+          22,
+          10,
+          7,
+          6,
+          7
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** Aarti has spent ~₹7,640 cr on capex over FY21-26 and its EBITDA is about where it was in FY21. ROCE of ~7% (CRISIL: 7.2%) is barely above Aarti's ~6% pre-tax borrowing cost and far below a ~13% cost of equity. The FY26 profit of ₹419 cr also benefited from a tax *credit* (effective tax −15%). The investment case rests on the new assets finally earning a return: the company targets ₹1,800-2,200 cr of EBITDA in FY28, 54-88% above FY26."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean audit, but tax credits, inventory gains and FX make profit noisy",
+   "blocks": [
+    {
+     "bullets": [
+      "**Gross vs net revenue.** The headline ₹9,018 cr FY26 revenue includes ₹732 cr of GST; the audited net figure is ₹8,286 cr. Margins quoted by the company on the gross figure (13.0%) look lower than on the net (14.1%).",
+      "**Tax credits.** FY26 profit benefited from a tax *credit* (effective rate −15%): tax depreciation on new plants wiped out normal tax, MAT paid (₹64 cr) was booked as a MAT-credit asset, and deferred-tax assets on tax losses (₹324 cr) exceeded the deferred-tax liability (₹270 cr). Management guides 9-15% while Zone IV tax depreciation lasts; at a normal ~25% rate FY26 profit would have been ~₹270 cr, not ₹419 cr.",
+      "**Inventory and currency gains.** Q1FY27 EBITDA of ₹382 cr included ₹50-60 cr of inventory and FX gains (CEO, CRISIL). FX on trade is in EBITDA; FX on loans is in finance cost (₹64 cr loss in FY26, incl. ₹39 cr in Q4). When crude-linked prices fall, these gains reverse.",
+      "**Exceptional items.** FY26 included +₹28.5 cr of interest on tax refunds and −₹15.4 cr for the new labour codes.",
+      "**Working capital.** Receivables rose from ₹786 cr to ₹1,403 cr in FY26 (longer US voyages, revenue on delivery), operating cash flow fell from ₹1,238 cr to ₹781 cr, and ₹246 cr of supplier-finance arrangements sit inside payables. Working capital rose again in Q1FY27.",
+      "**Contract income.** Shortfall fees from customers (₹24 cr FY26, ₹72 cr FY25) are booked as operating revenue; FY22 included a ₹631 cr termination fee.",
+      "**Related parties.** Sales to promoter-linked Valiant Organics ₹273 cr; transport services from Kalpesh Roadlines ₹170 cr (a related party from Apr-2025); CSR of ₹12 cr to promoter-linked trusts."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** The audit by Gokhale & Sathe is unqualified, with revenue cut-off and inventory as key audit matters. We see no sign of manipulation, but reported profit is flattered by a below-normal tax rate and noisy with inventory and FX swings, and cash conversion weakened in FY26 (CFO/EBITDA 67% vs 124% in FY25)."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net debt has risen to ~₹4,200 cr (3.6x EBITDA) after six years of negative free cash flow",
+   "blocks": [
+    {
+     "p": "Aarti has funded its capex mostly with debt. Over FY21-26 it generated ₹5,940 cr of operating cash flow but spent ₹7,640 cr on capex, and free cash flow was negative in every year (−₹340 cr in FY26). Net debt rose from ₹2,381 cr in FY21 to ₹4,226 cr in FY26 (company: ~₹4,300 cr), or 3.6x EBITDA, against management's own target of below 2.5x. The FY26 balance sheet also shows ₹2,030 cr of capital work in progress, mostly the ~₹1,800 cr Zone IV project that is not yet earning. In Q1FY27 working capital rose again with input prices and exports, so debt and finance costs went up. Receivable days jumped from 39 to 62 in FY26 as exports to the US (2-3 month voyages, revenue booked on delivery) grew."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Net debt: up ~1.8x since FY21",
+       "unit": "Borrowings less cash and investments (₹ crore)",
+       "x": "A.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "Net debt",
+         "ref": "A.netDebt",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Operating cash flow vs capex: capex ahead every year",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Working-capital days: receivables up sharply in FY26",
+       "unit": "Days",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Receivable days",
+         "values": [
+          55,
+          64,
+          61,
+          63,
+          68,
+          66,
+          64,
+          65,
+          52,
+          49,
+          39,
+          62
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Inventory days",
+         "values": [
+          123,
+          108,
+          136,
+          144,
+          152,
+          174,
+          190,
+          143,
+          115,
+          121,
+          126,
+          129
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          55,
+          67,
+          71,
+          69,
+          55,
+          72,
+          117,
+          53,
+          24,
+          76,
+          107,
+          137
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Capital work in progress (incl. intangibles under development): ₹2,187 cr waiting to earn",
+       "unit": "CWIP (₹ crore)",
+       "x": "A.labels",
+       "from": "FY19",
+       "series": [
+        {
+         "name": "CWIP",
+         "ref": "A.cwip",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and investments",
+        "{{A.cashAndInvestments.7|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "Net debt",
+        "{{A.netDebt.7|num}}",
+        "{{A.netDebt.9|num}}",
+        "{{A.netDebt.10|num}}",
+        "{{A.netDebt.11|num}}"
+       ],
+       [
+        "Net fixed assets",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Capital work in progress",
+        "{{A.cwip.7|num}}",
+        "{{A.cwip.9|num}}",
+        "{{A.cwip.10|num}}",
+        "{{A.cwip.11|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.7|num}}",
+        "{{A.inventories.9|num}}",
+        "{{A.inventories.10|num}}",
+        "{{A.inventories.11|num}}"
+       ],
+       [
+        "Trade receivables",
+        "{{A.receivables.7|num}}",
+        "{{A.receivables.9|num}}",
+        "{{A.receivables.10|num}}",
+        "{{A.receivables.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated, revenue net of GST), GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: Gogri-led promoter group at 41.8%, LIC and Indian funds the main outside holders",
+   "blocks": [
+    {
+     "p": "The Gogri-led promoter group owns 41.82% (Jun-2026) through ~50 family members, trusts and investment companies; no single holding exceeds 4.1% and nothing is pledged. The group's stake has drifted down from 43.5% (Dec-2023). Domestic institutions own 21.11% (mutual funds 12.12%, LIC 6.8%), foreign investors 7% (down from 10.8% in Dec-2023), and ~371,000 shareholders hold the rest."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "DIIs up from 15.8% to 21.1%; FIIs down from 10.8% to 7.0%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoter group: a slow drift down to 41.8%",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoter",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 35,
+       "max": 46,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Named holders (Jun-2026)",
+      "head": [
+       "Holder",
+       "Stake",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Life Insurance Corporation of India",
+        "6.8%",
+        ""
+       ],
+       [
+        "ICICI Prudential Mutual Fund (schemes)",
+        "4.5%",
+        ""
+       ],
+       [
+        "HDFC Mutual Fund (schemes)",
+        "2.5%",
+        ""
+       ],
+       [
+        "Nippon Life India (Nippon India MF schemes)",
+        "1.7%",
+        ""
+       ],
+       [
+        "Mahindra Manulife Multi Cap Fund",
+        "1.2%",
+        ""
+       ],
+       [
+        "Largest promoter holdings",
+        "",
+        "Rashesh C. Gogri 4.09%; Mirik R. Gogri 3.08%; Renil R. Gogri 3.08%; Hetal Gogri Gala 2.75%; Anushakti Enterprise Pvt Ltd 2.75%"
+       ],
+       [
+        "Promoter group (total)",
+        "41.82%",
+        "Nil pledged"
+       ],
+       [
+        "Foreign portfolio investors (total)",
+        "7%",
+        "None at 1% or more"
+       ]
+      ],
+      "source": "BSE shareholding pattern via Screener.in (quarter to Jun-2026, the latest public on 30-Sep-2026)"
+     }
+    },
+    {
+     "callout": "**Our read:** Indian institutions (LIC, ICICI Prudential, HDFC, Nippon) have been buyers through the downturn while foreign investors left. The promoter family is fragmented (no single holding above 4.1%), and from Oct-2026 executive control passes to a professional MD."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: a family company moving to professional management",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Chandrakant V. Gogri",
+        "Chairman Emeritus",
+        "Founder"
+       ],
+       [
+        "Rajendra V. Gogri",
+        "Chairman & MD",
+        "Promoter; to become non-executive from 1-Oct-2026; FY26 pay ₹5.19 cr (104x median)"
+       ],
+       [
+        "Rashesh C. Gogri",
+        "Vice Chairman & MD",
+        "Promoter; to become non-executive from 1-Oct-2026; FY26 pay ₹5.19 cr (104x median)"
+       ],
+       [
+        "Renil R. Gogri",
+        "Vice Chairman & Executive Director",
+        "Promoter; to become non-executive from 1-Oct-2026; FY26 pay ₹2.15 cr"
+       ],
+       [
+        "Suyog K. Kotecha",
+        "CEO & Executive Director (MD from 1-Oct-2026, subject to AGM approval)",
+        "Joined Jun-2024 (ex-Reliance, McKinsey); FY26 pay ₹4.78 cr (152x median incl. options)"
+       ],
+       [
+        "Ajay Kumar Gupta",
+        "Chief Manufacturing Officer & ED",
+        "FY26 pay ₹3.91 cr"
+       ],
+       [
+        "Manoj M. Chheda",
+        "Executive Director",
+        "FY26 pay ₹2.49 cr"
+       ],
+       [
+        "Chetan Gandhi",
+        "Chief Financial Officer",
+        ""
+       ],
+       [
+        "Raj Sarraf",
+        "Company Secretary",
+        ""
+       ]
+      ],
+      "source": "Annual report FY26 (27-Aug-2026), Q1FY27 disclosures"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "Gokhale & Sathe; unqualified, no emphasis of matter; KAMs on revenue cut-off and inventory.",
+       "No red flags; tax and FX noise (see earnings quality)."
+      ],
+      [
+       "Board",
+       "Moderate",
+       "14 directors, 7 independent (50%); three promoter executives to become non-executive from 1-Oct-2026.",
+       "Better balance, but the promoter family keeps three board seats plus the chairman emeritus."
+      ],
+      [
+       "Management transition",
+       "Moderate",
+       "CEO Suyog Kotecha (joined Jun-2024, ex-Reliance and McKinsey) to become MD from 1-Oct-2026, subject to AGM approval (21-Sep-2026; vote not verified).",
+       "Positive for execution if the board gives him real authority."
+      ],
+      [
+       "Guidance and disclosure",
+       "Weak",
+       "FY24-25 EBITDA guidance missed by 29-41%; product volumes removed from slides from Q1FY27 because the data were \"getting utilized in a situation which was not favourable for the company\".",
+       "Less disclosure just as the story gets harder to track."
+      ],
+      [
+       "Capital allocation",
+       "Weak",
+       "~₹7,640 cr capex over FY21-26 vs ₹5,940 cr of operating cash flow; ROCE 22% (FY22) → 7%; dividends cut to ₹1.",
+       "Growth has been bought with debt; returns have not followed yet."
+      ],
+      [
+       "Related parties and pay",
+       "Moderate",
+       "Valiant Organics sales ₹273 cr; Kalpesh Roadlines ₹170 cr; FY26 pay: two promoter MDs ₹5.19 cr each (104x median), CEO ₹4.78 cr (152x incl. options).",
+       "Normal for an Indian family group; worth watching."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation (annual report FY26, calls, rating rationales)"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EBITDA up ~16% a year, but below the street and management",
+   "blocks": [
+    {
+     "p": "We forecast revenue as one line (Aarti reports one segment) with the EBITDA margin as a driver, and track energy / non-energy and value-chain volumes as KPIs. **FY27E:** revenue +18% (Q1 +43% on input-price pass-through; CRISIL expects >15%), margin 14.3% (Q1 16.0% included one-off gains; underlying ~14%). **FY28E:** revenue +8% (volumes +10-12%, prices easing), margin 15.0%. **FY29E:** +10%, 15.5%. Capex ₹750 / 350 / 300 cr; tax 14-18%; interest falls as debt is repaid. Every assumption is in the Excel model's Assumptions sheet, which recalculates this report's target price."
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue (net of GST)",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Net debt path (₹ crore)",
+      "head": [
+       "",
+       "FY23",
+       "FY24",
+       "FY25",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Net debt (borrowings less cash and investments)",
+        "2,689",
+        "3,084",
+        "3,505",
+        "4,226",
+        "4,294",
+        "3,652",
+        "2,840"
+       ],
+       [
+        "Net debt / EBITDA (x)",
+        "2.5",
+        "3.2",
+        "3.5",
+        "3.6",
+        "3.1",
+        "2.3",
+        "1.6"
+       ]
+      ],
+      "source": "Screener.in (history; company figure for FY26 is ~₹4,313 cr), GAM estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E"
+      ],
+      "rows": [
+       [
+        "EPS (₹), Prabhudas Lilladher (31-Jul)",
+        "{{F.eps.0|n1}}",
+        "15.1",
+        "{{F.eps.1|n1}}",
+        "18.8"
+       ],
+       [
+        "EPS (₹), ICICI Direct (3-Aug)",
+        "{{F.eps.0|n1}}",
+        "14.3",
+        "{{F.eps.1|n1}}",
+        "21.4"
+       ],
+       [
+        "EBITDA (₹ cr), Prabhudas Lilladher",
+        "{{F.ebitda.0|num}}",
+        "1,443",
+        "{{F.ebitda.1|num}}",
+        "1,630"
+       ],
+       [
+        "EBITDA (₹ cr), ICICI Direct",
+        "{{F.ebitda.0|num}}",
+        "1,484",
+        "{{F.ebitda.1|num}}",
+        "1,779"
+       ],
+       [
+        "Revenue (₹ cr), PL / ICICI Direct",
+        "{{F.sales.0|num}}",
+        "9,878 / 9,688",
+        "{{F.sales.1|num}}",
+        "10,588 / 10,805"
+       ],
+       [
+        "EBITDA (₹ cr), management target",
+        "–",
+        "–",
+        "{{F.ebitda.1|num}}",
+        "1,800-2,200"
+       ]
+      ],
+      "source": "Broker notes (Jul-Aug 2026); company guidance. No consensus dated Jul-Sep 2026 was found."
+     }
+    },
+    {
+     "callout": "Our FY28E EBITDA (₹1,584 cr) is 3-11% below the two brokers and 12% below the low end of management's target; our FY28E EPS (₹16.7) is 11-22% below, because we also assume more depreciation as Zone IV is capitalised and a gradual return of the tax rate. The gap is Zone IV timing and margins. We still forecast strong growth: EBITDA +16% a year and EPS +23% a year over FY26-29E, with free cash flow turning positive from FY28E and net debt falling to ~₹2,840 cr by Mar-29E."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: split on rating and on method; average target ~₹518",
+   "blocks": [
+    {
+     "p": "Four houses had calls standing on 30-Sep-2026: ICICI Direct BUY ₹565 (3-Aug, 14x FY28E EV/EBITDA), Axis Direct HOLD ₹530 (6-May), Prabhudas Lilladher ACCUMULATE ₹526 (31-Jul, 28x FY28E P/E) and HDFC Securities REDUCE ₹450 (Jun-2026; its post-Q1 target was not retrieved). The average is ~₹518, 9% above the 30-Sep price. The bulls see the end of a heavy capex cycle and EBITDA guidance becoming visible; the cautious see margin pressure and execution risk. Multiples were cut through 2025 (Emkay 30x → 25x P/E, PL 25x → 24x) and partly restored in 2026 (PL 28x, ICICI Direct 12x → 14x EV/EBITDA)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "A decade of heavy capex (~₹7,640 cr over FY21-26) with EBITDA only ~19% above FY21 and ROCE ~7%",
+        "India Ratings (Feb-2026); GAM"
+       ],
+       [
+        "Guidance credibility: FY25 EBITDA guidance of ~₹1,700 cr ended at ₹997 cr; FY28 target reaffirmed despite a two-quarter Zone IV delay",
+        "Analysts on the Q1FY27 call (Rohit Nagraj, Aditya Khetan); GAM"
+       ],
+       [
+        "Q1FY27 was flattered by ₹50-60 cr of inventory and FX gains; underlying EBITDA ~₹320-330 cr",
+        "CRISIL (Sep-2026); SMIFS analyst on the Q1 call"
+       ],
+       [
+        "Fuel additives are 38-43% of revenue: cyclical (gasoline cracks), seasonal, exposed to Middle East disruption and to new Indian and Chinese competition",
+        "Analysts on the Q1FY27 call; PL"
+       ],
+       [
+        "Leverage: net debt ~₹4,300 cr (3.65x), working capital rising with input prices and long-haul exports; two rating agencies on Negative outlook",
+        "CRISIL, India Ratings"
+       ],
+       [
+        "EPS is inflated by a below-normal tax rate (−15% in FY26, 9-15% guided)",
+        "GAM"
+       ],
+       [
+        "PDA chain structurally weak; agro margins under pressure; one long-term contract (LTC-4) below original margin expectations",
+        "Company (Q4FY26 and Q1FY27 calls)"
+       ]
+      ],
+      "source": "Broker notes, calls, rating rationales and filings to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 12x Sep-28E EV/EBITDA gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values Aarti Industries"
+    },
+    {
+     "p": "The street is split. ICICI Direct values Aarti on **EV/EBITDA** (14x FY28E EBITDA); Prabhudas Lilladher on **P/E** (28x FY28E EPS); Emkay (2024-25) used P/E. We use **EV/EBITDA** as the primary method because three features of Aarti make P/E misleading: net debt is 3.6x EBITDA (EV/EBITDA charges for it, P/E only through interest); the tax rate is temporarily 9-15% because of tax depreciation on new plants; and depreciation on Zone IV, which is not yet earning, depresses EPS. Management and both rating agencies also frame the story in EBITDA and debt/EBITDA. We apply the multiple to Sep-28E (half FY28E, half FY29E) EBITDA and deduct net debt at the same date. P/E is our cross-check for the other half of the street."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "ICICI Direct (3-Aug)",
+        "Buy",
+        "565",
+        "EV/EBITDA",
+        "14x",
+        "FY28E EBITDA",
+        "–",
+        "End of heavy capex; energy momentum; FY28 guidance visible"
+       ],
+       [
+        "Axis Direct (6-May)",
+        "Hold",
+        "530",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Downgraded from Buy after Q4FY26"
+       ],
+       [
+        "Prabhudas Lilladher (31-Jul)",
+        "Accumulate",
+        "526",
+        "P/E",
+        "28x",
+        "FY28E EPS",
+        "468",
+        "Projects support medium-term growth; near-term margin pressure"
+       ],
+       [
+        "HDFC Securities (8-Jun)",
+        "Reduce",
+        "450",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Cautious on margins and execution"
+       ],
+       [
+        "ICICI Direct (6-Feb, superseded)",
+        "Buy",
+        "515",
+        "EV/EBITDA",
+        "12x",
+        "FY28E EBITDA",
+        "–",
+        "Macro and capex-led tailwinds"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**HOLD**",
+         "**{{dcf.tp|num}}**",
+         "**EV/EBITDA**",
+         "**12x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Good assets, unreliable guidance, leverage; fair value close to the price"
+        ]
+       }
+      ],
+      "source": "Broker notes (Feb-Aug 2026) via Trendlyne; \"At our EPS\" applies P/E multiples to GAM FY28E EPS; n.d. = not disclosed in what we read"
+     }
+    },
+    {
+     "h": "Our target multiple: 12x, and why"
+    },
+    {
+     "p": "We start from the stock's own one-year-forward EV/EBITDA since the 2022 pharma demerger, adjust for the sector's de-rating, and then ask whether Aarti's growth and returns justify more or less than that."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Its own history",
+        "One-year-forward EV/EBITDA: median 16.0x since Apr-2023 (post-demerger); 13.7x since Apr-2025; 13.9x on our FY28E today",
+        "Starting point: ~16x"
+       ],
+       [
+        "2. Sector de-rating",
+        "On 30-Sep-2026 specialty-chemical peers traded -15% to -44% vs their post-2023 median EV/EBITDA (median -31%): Vinati Organics -44%, Atul -43%, Clean Science -36%, Deepak Nitrite -32%",
+        "16x × 0.7 ≈ 11.1x"
+       ],
+       [
+        "3. Growth",
+        "Our EBITDA CAGR FY26-29E is ~16%, faster than most peers as new capacity ramps; but it is back-end loaded and depends on Zone IV",
+        "Add ~1x: **12x**"
+       ],
+       [
+        "4. Returns",
+        "ROCE ~7% (FY26) vs a cost of capital of ~11-12%; peers' median ROE 13.8% vs Aarti 7.2%; peer median trailing EV/EBITDA 20.1x",
+        "No premium until returns exceed the cost of capital"
+       ],
+       [
+        "5. Cross-read",
+        "ICICI Direct's 14x is on FY28E (a year earlier than our Sep-28E basis) and on EBITDA 12% above ours; our 12x on Sep-28E implies 12.8x our FY28E",
+        "Consistent with a lower-conviction view on FY28"
+       ]
+      ],
+      "source": "Screener.in (multiples to 30-Sep-2026), broker notes, GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "hbar",
+      "title": "Target and cross-checks vs the share price",
+      "unit": "₹ per share (base case)",
+      "x": [
+       "EV/EBITDA (target)",
+       "P/E",
+       "DCF",
+       "Share price today"
+      ],
+      "series": [
+       {
+        "name": "Value",
+        "values": [
+         471,
+         476,
+         431,
+         475.7
+        ],
+        "fmt": "inr"
+       }
+      ],
+      "labels": "all",
+      "highlight": "EV/EBITDA (target)",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**EV/EBITDA**",
+        "**Target**",
+        "EBITDA Sep-28E ₹1,692 cr",
+        "12x (bull 14x, bear 9x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "P/E",
+        "Cross-check",
+        "EPS Sep-28E ₹19",
+        "25x (bull 30x, bear 18x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "+1%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-9%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** P/E at 25x Sep-28E EPS of ₹19.0 gives ₹476, 1% above the target, even though EPS benefits from a 15-18% tax rate. The DCF (₹431, ~11.6% WACC, 5.5% terminal growth) is 9% lower: on our cash flows, with capex falling to ~5% of revenue, today's price already discounts most of the EBITDA recovery. All three methods cluster around the share price, which is why we are at HOLD."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "One-year-forward EV/EBITDA: our 12x vs history",
+       "unit": "EV ÷ next full-year EBITDA (x)",
+       "x": [
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          14.9,
+          16.1,
+          15.7,
+          14.9,
+          15.2,
+          16.3,
+          15.7,
+          15.7,
+          18.2,
+          16.2,
+          9.9,
+          10.8,
+          10.2,
+          10.5,
+          11.3,
+          10.6,
+          11.6,
+          12.7,
+          12,
+          12.9,
+          22.3,
+          27.3,
+          29.6,
+          28.1,
+          30.3,
+          29.9,
+          31.3,
+          31.2,
+          33.3,
+          32,
+          29.1,
+          33.5,
+          28.2,
+          26.1,
+          29.8,
+          31.4,
+          28.7,
+          26.7,
+          24.3,
+          21.9,
+          22.6,
+          21.9,
+          20.7,
+          21.6,
+          19.8,
+          19.4,
+          20.6,
+          19.4,
+          23.4,
+          25.1,
+          28,
+          26.5,
+          25.5,
+          21.3,
+          25,
+          25.9,
+          20.3,
+          18.9,
+          16,
+          15.4,
+          16.9,
+          15.2,
+          12.1,
+          14.5,
+          13.9,
+          13.7,
+          12.3,
+          12.4,
+          12.7,
+          11.8,
+          11.7,
+          14.2,
+          13.3,
+          13.8,
+          13.1,
+          13.7,
+          14.9,
+          13.9
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 16,
+         "text": "Median since Apr-2023: 16.0x"
+        },
+        {
+         "v": 12,
+         "text": "Our target: 12x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; reported EBITDA and net debt; GAM estimates for FY27-28E"
+      },
+      {
+       "type": "line",
+       "title": "One-year-forward P/E: our 25x cross-check vs history",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          23.3,
+          26.2,
+          25.4,
+          24.1,
+          24.5,
+          26.5,
+          25.5,
+          25.4,
+          29.9,
+          26.4,
+          13.1,
+          14.3,
+          13.2,
+          13.7,
+          14.8,
+          13.9,
+          15.3,
+          16.9,
+          15.9,
+          17.1,
+          41.2,
+          51.2,
+          54.8,
+          51.7,
+          56.1,
+          55.3,
+          58.2,
+          57.9,
+          62.2,
+          59.6,
+          53.8,
+          72.9,
+          60.5,
+          55.6,
+          64.3,
+          67.9,
+          61.7,
+          56.9,
+          51.4,
+          45.8,
+          47.4,
+          58.8,
+          55,
+          56.9,
+          51.5,
+          50.2,
+          53.8,
+          50.4,
+          62.4,
+          67.5,
+          76.2,
+          71.8,
+          64.7,
+          52.9,
+          62.4,
+          64.7,
+          49.2,
+          45.4,
+          37.3,
+          35.6,
+          39.8,
+          35.1,
+          30.8,
+          38.1,
+          35.4,
+          34.6,
+          30.2,
+          30.6,
+          31.5,
+          28.7,
+          28.5,
+          36.2,
+          33.5,
+          30.4,
+          27.4,
+          29,
+          32,
+          29.4
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 30.8,
+         "text": "Median since Apr-2025: 30.8x"
+        },
+        {
+         "v": 25,
+         "text": "Cross-check: 25x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual EPS, GAM estimates for FY27-28E"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "From EBITDA to target price (base case)",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Sep-28E EBITDA (half FY28E, half FY29E)",
+        "1,692"
+       ],
+       [
+        "× EV/EBITDA multiple",
+        "12x"
+       ],
+       [
+        "= Enterprise value",
+        "20,306"
+       ],
+       [
+        "less net debt at Sep-28E (GAM)",
+        "3,246"
+       ],
+       [
+        "= Equity value",
+        "17,060"
+       ],
+       [
+        "÷ shares (crore)",
+        "36.2"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "**{{dcf.tp|inr}}**"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple 14x; FY28E EPS ₹23.4."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Revenue +18% / +8% / +10% (FY27-29E), EBITDA margin 14.3-15.5%; 12x Sep-28E EV/EBITDA; FY28E EPS ₹16.7."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple 9x; FY28E EPS ₹10.1."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**Why the range is so wide:** net debt of ~₹3,246 cr at Sep-28E is ~16% of our enterprise value, so every 1x of EV/EBITDA moves the target by ~₹47 a share, and every ₹100 cr of EBITDA (at 12x) by ~₹33. Leverage magnifies both the bull and the bear case."
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Less: net debt at Mar-27E",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research. Net debt is shown as a negative number. The engine discounts at one rate: we enter a WACC of ~11.6% (cost of equity ~13.1%, post-tax cost of debt ~6.5%, ~22% debt weight)."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): discount rate down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed specialty-chemical peers",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "EV/EBITDA (x)",
+       "ROE",
+       "EV/EBITDA vs post-2023 median"
+      ],
+      "rows": [
+       [
+        "**Aarti Industries**",
+        "17,258",
+        "8,286",
+        "14.1%",
+        "33.1",
+        "16.0",
+        "7.2%",
+        "−18%"
+       ],
+       [
+        "Deepak Nitrite",
+        "20,860",
+        "7,887",
+        "12.5%",
+        "26.3",
+        "16.1",
+        "9.8%",
+        "−32%"
+       ],
+       [
+        "Atul",
+        "17,420",
+        "6,274",
+        "16.5%",
+        "21.9",
+        "12.5",
+        "11.7%",
+        "−43%"
+       ],
+       [
+        "Vinati Organics",
+        "12,102",
+        "2,227",
+        "29.4%",
+        "27.0",
+        "16.9",
+        "14.9%",
+        "−44%"
+       ],
+       [
+        "Navin Fluorine",
+        "42,310",
+        "3,314",
+        "32.6%",
+        "53.2",
+        "32.9",
+        "20.1%",
+        "−15%"
+       ],
+       [
+        "SRF",
+        "73,291",
+        "15,787",
+        "21.6%",
+        "32.7",
+        "19.8",
+        "13.8%",
+        "−31%"
+       ],
+       [
+        "Clean Science",
+        "8,439",
+        "957",
+        "37.2%",
+        "36.2",
+        "21.5",
+        "15.3%",
+        "−36%"
+       ],
+       [
+        "Laxmi Organic",
+        "4,928",
+        "2,847",
+        "6.0%",
+        "39.2",
+        "20.1",
+        "4.1%",
+        "−17%"
+       ],
+       [
+        "Alkyl Amines",
+        "9,011",
+        "1,536",
+        "18.6%",
+        "40.0",
+        "23.6",
+        "12.3%",
+        "−30%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026 (Alkyl Amines standalone)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: good assets, a stretched balance sheet and a price that already assumes recovery",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's largest benzene-chemistry platform (#1 globally in DCB, 25-40% global share across products), a fast-grown fuel-additive franchise, long customer relationships, ~₹2,000 cr of new capacity about to start, and a professional MD from Oct-2026."
+    },
+    {
+     "callout": "**What you are paying:** 13.2x our FY28E EV/EBITDA and 28.5x FY28E EPS for a company with ~7% ROCE, 3.6x net debt/EBITDA, two Negative rating outlooks and a record of missing its own targets. On the street's EV/EBITDA method and our numbers, the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): HOLD."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹410 (BUY at our target)",
+        "Medium",
+        "Share price around Q2FY27 results"
+       ],
+       [
+        "Zone IV blocks commission on the revised timeline and run at >50% in FY28",
+        "Medium",
+        "Quarterly commissioning updates; new-product revenue"
+       ],
+       [
+        "Underlying EBITDA run-rate above ₹400 cr a quarter without inventory gains",
+        "Medium",
+        "Q2-Q4FY27 results"
+       ],
+       [
+        "Net debt below ₹3,500 cr / <2.5x EBITDA",
+        "Low-medium",
+        "Half-yearly balance sheet; CRISIL outlook"
+       ],
+       [
+        "Middle East fuel-additive exports reopen and cracks stay above $15/bbl",
+        "Medium",
+        "Energy volumes QoQ"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Crude-linked prices fall: inventory losses replace Q1 gains",
+        "Medium",
+        "FY27E EBITDA −₹50-100 cr"
+       ],
+       [
+        "Gasoline-naphtha cracks collapse or the fuel-additive contract is not renewed",
+        "Medium",
+        "Energy volumes and spreads down; FY28E EBITDA −10-15%"
+       ],
+       [
+        "Zone IV slips again or ramps slowly (no take-or-pay)",
+        "Medium",
+        "FY28E EBITDA below ₹1,500 cr; multiple towards 9-10x"
+       ],
+       [
+        "Working capital keeps rising; CRISIL downgrade (gross debt/EBITDA >3.6x)",
+        "Low-medium",
+        "Higher interest; equity raise risk"
+       ],
+       [
+        "Chinese pricing pressure returns after the VAT/anti-involution effect fades",
+        "Medium",
+        "Margin back to ~13%"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: HOLD, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would move to BUY below ~₹410 and to SELL above ~₹495**, or earlier on proof that Zone IV is ramping and underlying quarterly EBITDA is above ₹400 cr.",
+      "**Biggest swing factor:** Zone IV timing and the energy spread. Because of the debt, a ₹100 cr change in Sep-28E EBITDA moves our target by ~₹33 a share."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Capex FY21-26 vs EBITDA growth",
+        "v": "₹7,640 cr",
+        "d": "EBITDA +19% FY21-26"
+       },
+       {
+        "k": "Net debt / EBITDA (FY26)",
+        "v": "3.6x",
+        "d": "target <2.5x"
+       },
+       {
+        "k": "Fuel additives share of revenue",
+        "v": "38-43%",
+        "d": "from 15% in FY23"
+       },
+       {
+        "k": "Our FY28E EBITDA vs guidance",
+        "v": "₹1,584 cr",
+        "d": "guidance ₹1,800-2,200 cr"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY18–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue (net of GST)",
+        "flag": {
+         "type": "pct",
+         "th": 12
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 200
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue (net of GST)",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "interest",
+        "name": "Interest"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Benzene / toluene derivatives",
+        "Chemicals made by adding chlorine, nitro or other groups to benzene or toluene; the building blocks for agrochemicals, drugs, dyes and polymers."
+       ],
+       [
+        "NCB / DCB",
+        "Nitrochlorobenzenes (e.g. PNCB, used for paracetamol) and dichlorobenzenes (e.g. PDCB, used for PPS polymers)."
+       ],
+       [
+        "PDA / NT",
+        "Phenylenediamines (aramid fibres, polymers) and nitrotoluenes (agro, dyes)."
+       ],
+       [
+        "Ethylation / MEA, DEA / PEDA",
+        "Adding ethyl groups using ethylene; MEA and DEA are ethylated anilines used in herbicides; PEDA is a downstream product of DEA."
+       ],
+       [
+        "MMA (monomethyl aniline)",
+        "An aniline derivative used as an octane booster in gasoline; Aarti's \"energy\" or \"fuel additives\" business."
+       ],
+       [
+        "Gasoline-naphtha crack",
+        "The price gap between gasoline and naphtha; when it is high, refiners pay more to upgrade naphtha into gasoline using boosters like MMA."
+       ],
+       [
+        "Zone IV / MPP",
+        "Aarti's new ₹1,600-1,800 cr site at Jhagadia (chlorotoluene and other chemistry blocks) and its multipurpose plant for small-volume products."
+       ],
+       [
+        "Anti-involution",
+        "China's policy push (from 2025) against destructive price wars and excess capacity."
+       ],
+       [
+        "Take-or-pay",
+        "A contract where the customer pays for an agreed volume even if it does not take delivery."
+       ],
+       [
+        "Gross vs net revenue",
+        "Aarti's headline revenue includes GST collected (gross); the audited \"net revenue from operations\" excludes it."
+       ],
+       [
+        "MAT / MAT credit",
+        "Minimum alternate tax paid on book profit when normal tax is lower; it can be set off against future normal tax, so it is booked as an asset."
+       ],
+       [
+        "EV/EBITDA",
+        "Enterprise value (market value plus net debt) ÷ operating profit before depreciation, interest and tax."
+       ],
+       [
+        "ROCE",
+        "Return on capital employed: operating profit ÷ (equity + debt)."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the blended required return on equity and debt used to discount cash flows."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY22": "+35%: includes ₹631 cr contract-termination income and the pharma business (demerged 2022).",
+  "ebitda@FY22": "Includes the ₹631 cr termination fee; restated chemicals-only EBITDA ₹919 cr.",
+  "pat@FY22": "Peak year, flattered by the termination fee.",
+  "ebitda@FY23": "First year after the pharma demerger; FY23 guidance (~₹1,100 cr) met.",
+  "ebitda@FY24": "First guidance implied ~₹1,375 cr; Chinese price pressure and agro destocking.",
+  "sales@FY25": "+14%: volumes +17%; fuel additives scaled up.",
+  "ebitda@FY25": "FY25 guidance started at ~₹1,700 cr; withdrawn Aug-2024.",
+  "pat@FY26": "Includes a tax credit (effective rate −15%) and ₹28.5 cr of interest on tax refunds.",
+  "cfo@FY26": "Receivables up ₹617 cr as US exports (long voyages) grew.",
+  "sales@FY27E": "GAM: +18%, mostly input-price pass-through (Q1 +43%).",
+  "ebitda@FY28E": "GAM ₹1,584 cr vs management target ₹1,800-2,200 cr.",
+  "capex@FY28E": "Capex falls as Zone IV completes (CRISIL: ₹200-250 cr a year from FY28)."
+ }
+}

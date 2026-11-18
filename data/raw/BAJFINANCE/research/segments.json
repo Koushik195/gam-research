@@ -1,0 +1,43 @@
+{
+ "symbol": "BAJFINANCE",
+ "asOf": "2026-09-30",
+ "_note": "Consolidated AUM by business line (₹ crore). FY23-FY26 from the Q4 presentations (Q4FY24 p55, Q4FY25 p62, Q4FY26 p63); Q1FY26/Q1FY27 from the Q1FY27 presentation p54. Groups kept comparable across years: 'rural' = rural sales finance + rural B2C + MFI; 'msme' includes CV & tractor finance (reported inside SME lending until FY25); '2W' = captive + open-market two- and three-wheeler finance. In Q1FY27 the company renamed 'sales finance' to 'consumer finance' and 'B2C loans' to 'personal loans' and moved some products between them (urban consumer finance Jun-25 ₹32,839 cr vs urban sales finance Mar-25 ₹29,109 cr), so Q1 lines are not strictly comparable with the March lines. Each row sums to total AUM.",
+ "lines": [
+  { "key": "mortgages", "name": "Mortgages (mostly Bajaj Housing Finance)" },
+  { "key": "urbanPl", "name": "Urban personal loans (B2C)" },
+  { "key": "urbanCf", "name": "Urban consumer finance (sales finance: durables, digital, lifestyle)" },
+  { "key": "rural", "name": "Rural lending (consumer finance, personal loans, MFI)" },
+  { "key": "msme", "name": "MSME lending (incl. CV & tractor)" },
+  { "key": "commercial", "name": "Commercial lending (mid-corporates)" },
+  { "key": "las", "name": "Loans against securities (incl. margin trade finance)" },
+  { "key": "gold", "name": "Gold loans" },
+  { "key": "car", "name": "Car loans" },
+  { "key": "twoW", "name": "Two- and three-wheeler finance" }
+ ],
+ "annual": [
+  { "fy": "FY23", "mortgages": 77713, "urbanPl": 51346, "urbanCf": 17859, "rural": 21228, "msme": 29764, "commercial": 15834, "las": 15093, "gold": 2800, "car": 2763, "twoW": 12979, "total": 247379, "bhfl": 69228, "src": "Q4FY24 presentation p55" },
+  { "fy": "FY24", "mortgages": 103316, "urbanPl": 66093, "urbanCf": 23448, "rural": 23816, "msme": 38470, "commercial": 22006, "las": 22038, "gold": 4599, "car": 7087, "twoW": 19742, "total": 330615, "bhfl": 91370, "src": "Q4FY24 presentation p55; Q4FY25 presentation p62" },
+  { "fy": "FY25", "mortgages": 129461, "urbanPl": 87696, "urbanCf": 29109, "rural": 29411, "msme": 50345, "commercial": 27760, "las": 25377, "gold": 8307, "car": 11876, "twoW": 17319, "total": 416661, "bhfl": 114684, "src": "Q4FY25 presentation p62; Q4FY26 presentation p63" },
+  { "fy": "FY26", "mortgages": 162077, "urbanPl": 104485, "urbanCf": 37430, "rural": 37991, "msme": 55451, "commercial": 33839, "las": 33247, "gold": 17831, "car": 15011, "twoW": 12613, "total": 509975, "bhfl": 140706, "src": "Q4FY26 presentation p63 (29-Apr-2026)" }
+ ],
+ "quarterly": [
+  { "q": "Q1FY26", "mortgages": 136377, "urbanPl": 92333, "urbanCf": 32839, "rural": 32018, "msme": 52538, "commercial": 29883, "las": 27225, "gold": 9989, "car": 12545, "twoW": 15702, "total": 441450, "bhfl": 120420, "src": "Q1FY27 presentation p54" },
+  { "q": "Q1FY27", "mortgages": 173624, "urbanPl": 109802, "urbanCf": 45220, "rural": 43167, "msme": 55675, "commercial": 33948, "las": 36564, "gold": 21152, "car": 15995, "twoW": 11797, "total": 546944, "bhfl": 149624, "src": "Q1FY27 presentation p54 (30-Jul-2026)" }
+ ],
+ "assetQualityJun26": {
+  "_note": "Gross / net Stage 3 (%) by line, 30-Jun-2026 vs 30-Jun-2025 (Q1FY27 presentation p57).",
+  "rows": [
+   ["Captive 2W & 3W", 9.78, 15.37, 8.94], ["Open-market 2W & 3W", 1.86, 1.55, 0.87], ["Urban consumer finance", 0.59, 0.40, 0.05], ["Urban personal loans", 1.22, 1.19, 0.36],
+   ["Rural consumer finance", 0.63, 0.31, 0.04], ["Rural personal loans", 1.27, 0.84, 0.11], ["MFI", 1.05, 0.41, 0.07], ["Gold loans", 0.29, 0.35, 0.33],
+   ["MSME", 1.83, 2.82, 1.08], ["CV & tractor", 0.27, 0.87, 0.47], ["Car loans", 1.04, 1.12, 0.72], ["Commercial", 0.06, 0.18, 0.10],
+   ["Loans against securities", 0.01, 0.02, 0.01], ["Mortgages", 0.52, 0.55, 0.29], ["Total", 1.03, 0.96, 0.39]
+  ],
+  "head": ["Line", "GNPA Jun-25", "GNPA Jun-26", "NNPA Jun-26"]
+ },
+ "stages": {
+  "_note": "Consolidated ECL stages, ₹ crore (Q1FY27 presentation p58).",
+  "jun26": { "s1": 537054, "s2": 4972, "s3": 5241, "ecl1": 5697, "ecl2": 2304, "ecl3": 3127 },
+  "mar26": { "s1": 499359, "s2": 4766, "s3": 5119, "ecl1": 5088, "ecl2": 2155, "ecl3": 3057 },
+  "jun25": { "s1": 429645, "s2": 5728, "s3": 4518, "ecl1": 3219, "ecl2": 1868, "ecl3": 2346 }
+ }
+}

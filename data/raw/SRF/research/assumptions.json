@@ -1,0 +1,374 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for SRF (consolidated, ₹ crore). Segment-driven: each segment's revenue grows and earns an EBITDA margin (segment EBIT + segment depreciation). Group EBITDA = sum of segments less unallocated corporate costs and forex hedge losses (Screener basis). Valued on sum of the parts (EV/EBITDA by segment), as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "chem",
+   "name": "Chemicals",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 7778.97,
+   "growth": [
+    19,
+    12,
+    16
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    33.5,
+    32.5,
+    33.5
+   ],
+   "hist": {
+    "driver": "chemRev",
+    "revenue": "chemRev",
+    "adjEbitda": "chemEbitda"
+   },
+   "_why": "FY27: Q1 +26% on refrigerant volumes and prices; management guides 15-20% and Q2-Q3 are seasonally weaker for refrigerants. We take 19%. FY28: +12% because calendar 2027 is a \"free year\" before India's HFC quotas, so new capacity can sell and prices may soften; fluoropolymers (PVDF, Chemours FEP/FKM) start to ramp. FY29: +16% as HFOs (Odisha, Q4FY28) and fluoropolymers run for a full year.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin 35.7% in FY26 (EBIT 29.1%); ~33% in Q1FY27 (EBIT 27.6%) as specialty prices stayed under Chinese pressure. We assume no return to FY26's peak: 33.5% / 32.5% / 33.5%."
+  },
+  {
+   "key": "pack",
+   "name": "Performance Films & Foil",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 5764.23,
+   "growth": [
+    18,
+    3,
+    8
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    14.9,
+    13.5,
+    14
+   ],
+   "hist": {
+    "driver": "packRev",
+    "revenue": "packRev",
+    "adjEbitda": "packEbitda"
+   },
+   "_why": "Q1FY27 +42%: the Middle East war shut rival plants and customers panic-bought (management: \"an aberration\"). We assume Q2-Q4 grow ~10%, so FY27 +18%; FY28 +3% as prices normalise; FY29 +8% from capacitor film, BOPA (Sep-2027), thick BOPET and foil.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin 13.2% in FY26 (EBIT 8.8%); ~20% in Q1FY27 (EBIT 17.3%) including low-cost inventory gains. We assume ~12.5% for Q2-Q4 (FY27 14.9%) and 13.5-14% after."
+  },
+  {
+   "key": "text",
+   "name": "Technical Textiles",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1877,
+   "growth": [
+    13,
+    5,
+    5
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    15.5,
+    14,
+    14
+   ],
+   "hist": {
+    "driver": "textRev",
+    "revenue": "textRev",
+    "adjEbitda": "textEbitda"
+   },
+   "_why": "Q1FY27 +28% (belting exports after US tariff cuts, nylon tyre cord, quality-control order on industrial yarn); Q2-Q4 assumed +8%. Mature business: ~5% a year after.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin 13.4% in FY26; ~20% in Q1FY27 including inventory gains. 14% from FY28 (FY22-26 average ~15%)."
+  },
+  {
+   "key": "oth",
+   "name": "Others (coated & laminated fabrics)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 366.38,
+   "growth": [
+    10,
+    5,
+    5
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    15,
+    15,
+    15
+   ],
+   "hist": {
+    "driver": "othRev",
+    "revenue": "othRev",
+    "adjEbitda": "othEbitda"
+   },
+   "_why": "Q1FY27 +11%; small business (2% of revenue).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "16.2% in FY26."
+  }
+ ],
+ "unallocated": [
+  200,
+  150,
+  160
+ ],
+ "_unallocLabel": "Unallocated corporate costs and forex hedge losses (reported EBITDA below sum of segments)",
+ "_unallocWhy": "FY26: ₹434 cr = ₹188 cr forex losses on long-dated export hedges + ₹246 cr corporate costs. Q1FY27 included a ₹102 cr forex loss. FY27E: the Q1 loss plus ~₹100 cr of corporate costs; FY28-29E assume corporate costs only (~₹150 cr) and no further hedge losses.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  2500,
+  2700,
+  2300
+ ],
+ "_capexWhy": "FY27 guided ~₹2,500 cr; FY28 carries most of the ₹2,300 cr Odisha HFO plant, BOPA and thick-film lines; Axis expects >₹2,500 cr a year. FY26 actual ₹1,717 cr.",
+ "depRateOnGrossBlock": 4.6,
+ "_depWhy": "FY26 depreciation ₹852 cr ≈ 4.6% of average gross block; H1FY27 ₹452 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net debt, so no treasury income; other income entered separately.",
+ "otherIncome": [
+  120,
+  100,
+  100
+ ],
+ "_otherIncomeWhy": "FY26 other income ₹107 cr before the ₹85 cr Labour Codes exceptional charge; Q1FY27 ₹34 cr.",
+ "interest": [
+  280,
+  300,
+  295
+ ],
+ "_interestLabel": "Interest cost",
+ "_interestWhy": "FY26 ₹278 cr; Q1FY27 ₹69 cr; debt rising with the capex cycle (₹2,500 cr in FY27).",
+ "taxRate": [
+  24.5,
+  25,
+  25
+ ],
+ "_taxWhy": "Q1FY27 22%; FY26 27% included the exceptional charge; normal ~25%.",
+ "payout": [
+  15,
+  15,
+  15
+ ],
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 22,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Cyclical chemicals and films; market-like sensitivity.",
+  "_tgWhy": "Long-run demand for refrigerants, fluoropolymers and films tracks industrial growth; 6% nominal.",
+  "_fadeGrowthWhy": "≈ India nominal GDP less some maturity of HFCs (phase-down) offset by HFOs and fluoropolymers.",
+  "_fadeCapexWhy": "Capex intensity falls from ~10-12% of revenue to ~6% once the HFO / fluoropolymer cycle is done."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Refrigerant prices hold through the 2027 'free year' and India's 2028 quota freeze; specialty volumes and prices recover with new agro and pharma molecules; HFOs and fluoropolymers ramp on time; films keep a ~14% EBITDA margin.",
+   "fadeMarginTo": 24,
+   "segments": {
+    "chem": {
+     "growthDelta": 4,
+     "marginDelta": 1.5
+    },
+    "pack": {
+     "marginDelta": 1
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "HFC prices fall as new capacity sells in 2027; Chinese overcapacity keeps specialty prices down; HFO volumes slip into FY30; films margins revert to the FY24-25 trough.",
+   "fadeMarginTo": 19,
+   "segments": {
+    "chem": {
+     "growthDelta": -6,
+     "marginDelta": -3
+    },
+    "pack": {
+     "growthDelta": -3,
+     "marginDelta": -2.5
+    },
+    "text": {
+     "marginDelta": -1.5
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 10,
+  "parts": [
+   {
+    "name": "Chemicals",
+    "seg": "chem",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 21,
+     "bull": 25,
+     "bear": 16
+    },
+    "note": "Street after Q1FY27: ICICI Direct 25x and Prabhudas Lilladher 20x (FY28E); Emkay 30x specialty / 18x fluoro; Kotak 18x; Nuvama 25x. 21x = 0.53 × 24x for fluorochemicals (a ~25% discount to Navin Fluorine's ~33x, as SRF's are commodity HFCs) + 0.47 × 18x for specialty (PI Industries), ~20% below SRF's own 26.6x post-2021 median."
+   },
+   {
+    "name": "Performance Films & Foil",
+    "seg": "pack",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA × EV/EBITDA",
+    "multiple": {
+     "base": 7,
+     "bull": 9,
+     "bear": 5
+    },
+    "note": "Street 8-12x (PL 8x, ICICI Direct 10x, Emkay 12x); listed film makers trade at 5-7.5x (Cosmo First 7.5x, Uflex 5.7x, Polyplex 4.8x). 7x = a small premium for SRF's value-added films and foil."
+   },
+   {
+    "name": "Technical Textiles",
+    "seg": "text",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA × EV/EBITDA",
+    "multiple": {
+     "base": 6,
+     "bull": 8,
+     "bear": 4
+    },
+    "note": "Street 5-8x (ICICI Direct 5x, PL 7x, Emkay 8x). Mature, import-exposed business: 6x."
+   },
+   {
+    "name": "Others (coated fabrics)",
+    "seg": "oth",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA × EV/EBITDA",
+    "multiple": {
+     "base": 6,
+     "bull": 8,
+     "bear": 4
+    },
+    "note": "Small; valued like textiles."
+   },
+   {
+    "name": "Less: corporate costs",
+    "unalloc": true,
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E unallocated costs × blended multiple",
+    "multiple": {
+     "base": 17,
+     "bull": 20,
+     "bear": 13
+    },
+    "note": "Head-office costs not in any segment are real costs; valued at the blended multiple of the businesses (~17x). Brokers leave this out, which flatters their SOTP by ~₹85 a share."
+   },
+   {
+    "name": "Less: net debt at Sep-27E",
+    "netCash": true,
+    "roll": [
+     "FY27E",
+     "FY28E",
+     0.5
+    ],
+    "metricLabel": "Net debt at the target date (½ Mar-27E + ½ Mar-28E)",
+    "note": "Model forecast: borrowings less cash and investments."
+   }
+  ],
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values SRF: the brokers that disclose a method after Q1FY27 (ICICI Direct, Prabhudas Lilladher) and earlier (Emkay, Kotak, Nuvama) use segment EV/EBITDA. The four businesses have very different growth and returns, so each needs its own multiple."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 30,
+      "bull": 36,
+      "bear": 24
+     },
+     "why": "SRF's one-year-forward P/E has a median of ~36x since 2019; at 30-Sep-2026 chemical peers traded 10-25% below their five-year medians (PI Industries 32x vs 38x, Navin Fluorine 53x vs 71x). 36x × ~0.83 ≈ 30x."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 12.5%, terminal growth 6%. Heavy capex keeps free cash flow low for three years."
+    }
+   ]
+  }
+ }
+}

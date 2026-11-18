@@ -1,0 +1,161 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Kansai Nerolac Paints (consolidated, Rs crore; Net Profit on the attributable basis via tools/authoring/KANSAINER.patch.js). The company reports one segment (paints), so revenue grows at a single rate and the decorative vs industrial build in businessLines is checked against model revenue in the authoring script. EBITDA margin is a driver. Treasury income = yield x opening cash and investments net of borrowings (incl. leases). Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  10.2,
+  7.2,
+  7.3
+ ],
+ "_revenueWhy": "FY27: Q1 consolidated +9.8% with ~5% price (MD, 3-Aug-2026 call); Q2 adds ~3% in decorative and 3-5% in industrial as price rises flow through; Diwali falls in November so October is a full painting month. Auto production was very strong in Q1 (SIAM: PV dispatches +25.9%, 2W +20.3%) but laps the post-GST-cut surge from Oct-2025. FY28-29: price laps; decorative grows ~5% (low-single-digit volume, mix up, intense competition), industrial ~9% (auto, powder, performance coatings; new auto/powder capacity from ~FY28-29). Weighted: +10.2% / +7.2% / +7.3%. Below ICICI Securities (+12.1% / +9.6%), close to MNCL (~8% CAGR FY26-28).",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "decorative": 3623,
+   "industrial": 4429,
+   "_why": "FY26 consolidated revenue Rs8,052 cr split 45:55 using the MD's words at the Kansai Paint India strategy briefing (26-Feb-2026): 'roughly 45% is the total decorative business out of our total company' and 'we are now more than 50% industrial and about 45% to 50% decorative'. In Nov-2024 the company still described itself as 'generally 55% decorative, 45% industrial'. The split is approximate; the company does not report it."
+  },
+  "decorativeGrowth": [
+   8,
+   5,
+   5
+  ],
+  "industrialGrowth": [
+   12,
+   9,
+   9
+  ],
+  "_why": "Decorative: Q1FY27 value growth high single digit (volume low single digit, price ~5%); +8% in FY27 with the Q2 price rise, then +5% as price laps and Birla Opus and JSW Dulux keep competition intense (management: intensity 'continues to remain intact'). Industrial: Q1FY27 double digit (auto, powder and performance coatings strong, auto refinish flat), price rises lag by 1-2 quarters; +12% in FY27, then +9% (management: double-digit growth aim in performance coatings; auto 8-11% a year with SUV mix and exports). The script checks that the two lines sum to model revenue."
+ },
+ "ebitdaMargin": [
+  12.4,
+  12.8,
+  13
+ ],
+ "_marginWhy": "Consolidated EBITDA margin: 13.2% (FY24), 12.0% (FY25), 12.1% (FY26); Q1FY27 13.8% (14.0%) on low-cost inventory and ~5% price. Management guides 13-14% for FY27 (a range it has repeated for years while delivering 12.7-13.8% standalone and 12-13% consolidated) and aims for '14%+' in 2-3 years. Q2 carries high-cost inventory and industrial pass-through lags; raw materials eased after the June peak. Consolidated runs ~0.6 pts below standalone because of the loss-making Bangladesh subsidiary. We give part credit: 12.4% / 12.8% / 13.0%.",
+ "capex": [
+  350,
+  450,
+  350
+ ],
+ "_capexWhy": "Normal capex Rs150-200 cr a year (MD, 3-Aug-2026) plus Rs601 cr for automotive, powder and resin capacity at Sayakha, Bawal and Hosur over 'about 2 years, 2-plus years' from Aug-2026. FY26 capex Rs230 cr (AR FY26), Rs213 cr in Screener's cash flow.",
+ "depRateOnGrossBlock": 5.4,
+ "_depWhy": "FY26 depreciation Rs228 cr = 5.45% of average gross block (Rs4,187 cr, Screener); Q1FY27 Rs63 cr (Rs252 cr annualised). The engine depreciates capex at once (CWIP held flat), so 5.4% gives Rs~246-290 cr in FY27-29E as the new plants come on stream.",
+ "treasuryYield": [
+  6,
+  6,
+  6
+ ],
+ "_treasuryWhy": "Applied to opening cash and investments net of borrowings incl. leases (Rs2,288 cr at Mar-26 on Screener). FY26 treasury income (interest Rs11.0 cr + profit on sale of current investments Rs71.0 cr + fair-value gains Rs47.2 cr = Rs129.2 cr) was ~7.0% of the opening net balance and ~5.5% of average gross cash and investments; debt-fund returns are falling with rates, so 6%.",
+ "otherIncome": [
+  18,
+  18,
+  18
+ ],
+ "_otherIncomeWhy": "Two items. (1) Non-treasury other income ~Rs8 cr a year (insurance claims, scrap, miscellaneous: Rs16.7 cr in FY26 incl. a Rs15.5 cr insurance claim). (2) The engine has no minority-interest line: the 45% minority in Bangladesh absorbs part of that subsidiary's losses (non-controlling interests -Rs13.6 cr in FY26; Screener 'minority share' +Rs3 cr in Q1FY27), which lifts attributable profit. We add ~Rs10 cr pre-tax (about Rs7-8 cr after tax) so forecast EPS is on the same attributable basis as the patched history.",
+ "interest": [
+  33,
+  34,
+  35
+ ],
+ "_interestWhy": "Rs32 cr in FY26 and Rs8 cr in Q1FY27: mainly interest on lease liabilities (Rs206 cr at Mar-26) and small subsidiary loans; no debt-funded capex (CRISIL: funded from internal accruals).",
+ "taxRate": [
+  26.5,
+  26.5,
+  26.5
+ ],
+ "_taxWhy": "Consolidated effective rate 27.7% in FY26 (Rs221 cr on Rs797 cr) and ~27% in Q1FY27; standalone 26.1%. Subsidiary losses (Bangladesh) get no tax credit. The Nerofix merger (appointed date 1-Apr-2025) lets its losses offset standalone profit. 26.5%.",
+ "payout": [
+  33,
+  33,
+  33
+ ],
+ "_payoutWhy": "Regular dividend Rs2.50 a share for FY24, FY25 and FY26 (plus Rs1.25 specials in FY24 and FY25 from the Kavesar and Lower Parel land sales). Rs2.50 is 34% of FY26 reported EPS (Rs7.29). We assume 33%, which takes DPS to ~Rs2.9-3.4.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 13,
+  "fadeCapexPctTo": 2.6,
+  "depPctOfSales": 2.9,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Debt-free, AAA-rated MNC subsidiary, but earnings swing with the auto cycle and decorative competition: slightly below market sensitivity (Ke 11.9%).",
+  "_tgWhy": "Paint demand grows with construction, repainting and vehicle output; 5.5% nominal, below the 6% we use for faster-growing franchises because Nerolac is losing decorative share.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~7% to 7% (industry-like growth, no share gain in decorative).",
+  "_fadeMarginWhy": "13%: the bottom of management's 13-14% range; we do not assume the '14%+' aspiration is reached.",
+  "_fadeCapexWhy": "Capex settles at ~2.6% of sales (normal Rs150-200 cr on Rs8,000 cr of sales, plus capacity every few years); depreciation ~2.9% of sales (FY26 2.8%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Auto and industrial keep growing double digit as new capacity comes on stream; decorative competition eases and premium mix lifts value growth to high single digit; margin reaches management's 14% aspiration.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 1,
+   "fadeMarginTo": 14
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Birla Opus and JSW Dulux take more decorative share (value growth ~2%), the auto cycle cools after the GST-cut surge and OEMs resist price rises; margin slips back towards 11.5%.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1,
+   "fadeMarginTo": 11.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 22,
+      "bull": 26,
+      "bear": 17
+     },
+     "why": "How the street values Kansai Nerolac (PL 25x Jun-28E, MNCL 23x FY28E, Elara 25x FY28E; ICICI Securities DCF = 22x FY28E). 22x: the house forwardMedian since Apr-2021 is 22.8x (FY26 dropped as a trough year), but it is distorted by Rs1,327 cr of land-sale gains in FY24-25 EPS; on EPS before exceptional items the median is 34.6x. Cut by the ~25% de-rating of listed paint peers (Asian Paints, Berger, Indigo vs their five-year median P/E) gives ~26x; on Nerolac's own de-rating (-44%) it would be ~19x. We take the midpoint (~22.7x) and round down because FY27 growth is mostly price: 22x Sep-28E EPS. Bull 26x (sector de-rating only); bear 17x (below its lowest forward P/E since 2021, ~18.7x)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 12,
+      "bull": 14,
+      "bear": 10
+     },
+     "why": "Counts net cash at face value. 12x Sep-28E EBITDA = roughly its trailing EV/EBITDA at the 30-Sep close (12.6x), near the five-year low (12.5x) and half the 25.9x median since Apr-2021: a no-re-rating check. Bull 14x, bear 10x."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 11.9%, terminal growth 5.5%, plus net cash."
+    }
+   ]
+  }
+ }
+}

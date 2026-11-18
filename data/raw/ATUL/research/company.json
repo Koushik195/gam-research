@@ -1,0 +1,125 @@
+{
+ "symbol": "ATUL",
+ "name": "Atul Ltd",
+ "asOf": "2026-09-30",
+ "_note": "Company fact base for the GAM initiation (as of 30-Sep-2026, Q1FY27 basis). Every number carries src and published. Consolidated unless stated. Later facts are kept out (see updates/later-facts.json).",
+ "sources": {
+  "ar2026": { "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3bba9215-0a95-436a-ace1-bccb0200e5b5.pdf", "published": "2026-06/07 (AGM 31-Jul-2026)" },
+  "ar2024": { "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/76e53124-ad31-40e6-962e-853a903fc49b.pdf", "published": "2024-06" },
+  "ar2022": { "src": "https://www.bseindia.com/bseplus/AnnualReport/500027/73553500027.pdf", "published": "2022-06" },
+  "ar2020": { "src": "https://www.bseindia.com/bseplus/AnnualReport/500027/5000270320.pdf", "published": "2020-06" },
+  "analystMeet2026": { "src": "https://www.atul.co.in/pdf/investors/information-for-stakeholders/presentations/Analyst%20Meet%202026.pdf", "published": "2026-04-30" },
+  "q3fy26ppt": { "src": "https://www.atul.co.in/pdf/investors/information-for-stakeholders/presentations/Investors%20presentation%20on%20results%20for%20period%20ended%20on%20December%2031,%202025.pdf", "published": "2026-01-23" },
+  "q2fy26ppt": { "src": "https://www.atul.co.in/pdf/investors/information-for-stakeholders/presentations/Investor%20presentation_Q2_2025-26.pdf", "published": "2025-10-17" },
+  "q1fy27news": { "src": "https://www.indianchemicalnews.com/chemical/atul-q1-fy27-profit-nearly-doubles-on-strong-chemical-segment-growth-31231", "published": "2026-07-25" },
+  "q1fy27capex": { "src": "https://www.sahi.com/news/atul-reports-q1-consolidated-net-profit-of-245-crore-board-approves-167-crore-capex-21-PE1_CORPO", "published": "2026-07-24" },
+  "q1fy27analysis": { "src": "https://cofacto.ai/market-news/atul-q1-fy27-results-analysis", "published": "2026-07-24" },
+  "board24jul26": { "src": "https://www.atul.co.in/wp-content/uploads/2026/07/Intimation-to-stock-exchanges-–-change-in-director.pdf", "published": "2026-07-24" },
+  "shpJun26": { "src": "https://www.atul.co.in/wp-content/uploads/2026/10/Regulation-311b-–-June-30-2026.pdf", "published": "2026-07 (Jun-2026 quarter pattern)" }
+ },
+ "profile": {
+  "what": "Diversified, integrated Indian chemical company of the Lalbhai group (Ahmedabad). Incorporated 5-Sep-1947 by Kasturbhai Lalbhai; manufacturing began 17-Mar-1952 at Atul (Valsad, Gujarat), the first site in India inaugurated by Prime Minister Nehru. ~1,300-acre integrated site with 73 MW captive power and 32 MLD effluent treatment; 8 production sites; 900+ products and 400 formulations; 142 brands; ~4,000 customers in 32 industries and 88 countries.",
+  "segments": "Two reported segments plus a small 'Others': Life Science Chemicals (LSC: crop protection bulk actives such as 2,4-D, indoxacarb and sulfonylurea herbicides; crop protection retail brands; APIs and intermediates incl. Atul Bioscience) and Performance & Other Chemicals (P&OC: aromatics such as para-cresol and anisole derivatives, bulk chemicals incl. resorcinol, caustic-chlorine and sulphuric acid, colours (textile dyes, pigments), Polymers - Performance Materials (epoxy resins, curing agents, sulfones) and Polymers - Retail (Lapox, Polygrip adhesives)). Others = agri-biotech (tissue-culture date palms), services.",
+  "employees": { "value": 3334, "unit": "permanent employees (standalone)", "src": "ar2026", "published": "2026-07" },
+  "src": "Analyst Meet 2026 (slides 5-10); AR 2025-26 letter to shareholders", "published": "2026-04-30 / 2026-07"
+ },
+ "fy26": {
+  "revenue": 6274, "revenueGrowth": 12, "volumeGrowth": "~10% (of which ~8% from recently completed projects); price +2%", "indiaGrowth": "14% (12% volume, 2% price)", "outsideGrowth": "7% (5% volume, 2% price)",
+  "ebitdaCompany": 1234, "ebitdaCompanyNote": "company EBITDA includes other income of ₹203 cr; ex other income ~₹1,031 cr (Screener ₹1,034 cr)",
+  "otherIncome": 203, "otherIncomeDetail": "dividends ₹20 cr, interest ₹21 cr (incl. interest on a ₹47 cr income-tax refund), FVTPL gains on treasury funds ₹77 cr, exchange gains ₹44 cr, interest subsidy ₹15.5 cr, insurance claim ₹7 cr, other ₹19 cr",
+  "pbt": 901, "pat": 689, "patOwners": 678, "nci": 11, "eps": 230.25, "dps": 30, "payoutPct": 15, "roce": 17, "avgCapitalEmployed": 5525,
+  "lsc": { "revenue": 1805, "ebit": 417, "ebitPct": 23, "capitalEmployed": 1074, "roce": 39 },
+  "poc": { "revenue": 4609, "ebit": 417, "ebitPct": 9, "capitalEmployed": 2936, "roce": 14 },
+  "treasuryNet": 1578, "treasuryNote": "treasury funds net of borrowings (company definition); current investments ₹1,648 cr, borrowings ₹180 cr",
+  "netWorkingCapital": 1340, "cfo": 1023, "capexCash": 172,
+  "src": "Analyst Meet 2026 (slides 26-33); AR 2025-26 (notes 22, 23, 30.15)", "published": "2026-04-30 / 2026-07"
+ },
+ "subSegmentsFY26": {
+  "_note": "Sales by sub-segment, FY26 vs FY25 (₹ cr), as reported in the MD&A (Atul Ltd; subsidiaries shown separately).",
+  "rows": [
+   { "seg": "LSC", "name": "Crop Protection - Bulk Actives", "fy25": 627, "fy26": 725, "note": "+16%: outside India +30% (volume +8%, price +7%); India −8% on weather" },
+   { "seg": "LSC", "name": "Crop Protection - Retail", "fy25": 256, "fy26": 280, "note": "+9% (volume +13%); 59 brands, 71 formulations" },
+   { "seg": "LSC", "name": "Pharmaceuticals and Aromatics - I", "fy25": 633, "fy26": 595, "note": "−6%; exports −17%" },
+   { "seg": "LSC", "name": "Atul Bioscience Ltd (APIs, 100%)", "fy25": 136, "fy26": 148, "note": "+9%; 11 DMFs filed in FY26; all three sites USFDA-inspected" },
+   { "seg": "P&OC", "name": "Aromatics - II (p-cresol, anisole derivatives, perfumery)", "fy25": 837, "fy26": 810, "note": "−3%; value −6%, volume −7% (Analyst Meet)" },
+   { "seg": "P&OC", "name": "Bulk Chemicals and Intermediates", "fy25": 252, "fy26": 272, "note": "+8%; resorcinol, 1,3-CHD, RF resins; much is captive" },
+   { "seg": "P&OC", "name": "Atul Products Ltd (caustic-chlorine and derivatives, 100%)", "fy25": 352, "fy26": 474, "note": "+35%; PBT ₹56 cr (+₹85 cr)" },
+   { "seg": "P&OC", "name": "Colors (dyes, pigments)", "fy25": 630, "fy26": 687, "note": "+9%; JV Rudolf Atul sales ₹162 cr" },
+   { "seg": "P&OC", "name": "Polymers - Performance Materials (epoxy, sulfones)", "fy25": 1445, "fy26": 1710, "note": "+18% (volume +21%); 40% exported; 50 ktpa LER expansion ramping" },
+   { "seg": "P&OC", "name": "Polymers - Retail (Lapox, Polygrip)", "fy25": 245, "fy26": 304, "note": "Analyst Meet: value +20%, volume +19%; MD&A sales basis +24%" }
+  ],
+  "src": "ar2026 (MD&A pp. 91-97); Analyst Meet 2026 (slides 34-64)", "published": "2026-07 / 2026-04-30"
+ },
+ "headroom": { "fromExistingCapacity": 1100, "fromNewProjects": 600, "unit": "₹ cr of sales not yet realised", "src": "analystMeet2026 slide 9", "published": "2026-04-30" },
+ "marketShare": { "items": ["2,4-D: 13% global share", "Indoxacarb: 14% global share", "Epoxy resins and curing agents: significant share in India (3 Indian competitors)", "para-cresol: significant global share (4 Asian competitors)", "Resorcinol: significant share in India", "Vat dyes: significant global share", "Retail: Zura 29%, Salix 28%, Cyno 32% (India)"], "src": "analystMeet2026 slides 34-58", "published": "2026-04-30" },
+ "q1fy27": {
+  "date": "2026-07-24",
+  "revenue": 1847.95, "revenueGrowthYoY": 25.0, "revenueQoQ": 10.7, "ebitda": 394, "ebitdaMarginPct": 21.3, "ebitdaMarginChgBps": 535, "otherIncome": 35, "pbt": 346.83, "pat": 253.93, "patOwners": 245.30, "nci": 8.63, "eps": 83.32, "patGrowth": 92,
+  "rawMaterials": 1103.00, "rawMaterialsPrior": 791.09, "inventoryDrawdown": 187.77, "employee": 132.18, "power": 183.58, "otherExpenses": 191.53, "depreciation": 78.09, "finance": 4.02, "tax": 92.90,
+  "oci": "Total comprehensive income ₹375 cr vs PAT ₹254 cr: ~₹121 cr of fair-value gains on equity investments (FVOCI) in the quarter",
+  "segments": { "pocRev": 1427.44, "pocRevPrior": 1066.93, "pocEbit": 239.83, "pocEbitPrior": 100.0, "pocEbitPct": 16.8, "lscRev": 469.23, "lscRevPrior": 449.20, "lscEbit": 92.78, "lscEbitPrior": 68.41, "lscEbitQ4": 143.06, "othersRev": 25.98, "interSeg": 74.70 },
+  "standalone": { "revenue": 1588.60, "pat": 201.03, "eps": 68.28 },
+  "drivers": "P&OC revenue +34% and EBIT 2.4x; LSC revenue +4%. Brokers attribute the margin jump partly to inventory gains and a spike in domestic chemical spreads during the West Asia conflict (ICICI Securities: 'unlikely to sustain'); cost of materials +39%, inventory drawdown ₹188 cr.",
+  "board": "₹167 cr greenfield capex for 1,000 tpa MCPP-p and 750 tpa MCPA (phenoxy herbicides from in-house o-cresol and MCA), within 67 weeks, internal accruals; Vinayak Deshpande appointed independent director from 1-Aug-2026.",
+  "noCall": "Atul does not host quarterly earnings calls; it publishes an investor presentation and holds an annual analyst meet (30-Apr-2026) and site visits.",
+  "src": "q1fy27news; q1fy27capex; q1fy27analysis; board24jul26; ICICI Securities via https://trendlyne.com/posts/5750622/chemical-inflation-tailwinds", "published": "2026-07-24 / 2026-07-27"
+ },
+ "guidance": [
+  { "item": "Growth headroom (Analyst Meet)", "value": "₹1,100 cr of sales yet to be realised from existing capacity and ₹600 cr from new projects", "src": "analystMeet2026 slide 9", "published": "2026-04-30" },
+  { "item": "Growth headroom (AR chairman's letter)", "value": "existing capacities 'must deliver additional consolidated sales of ₹436 cr'; own expansions 'clarity of additional sales of ₹395 cr'; retail +₹121 cr (long-term aim: retail larger than current B2B sales); JVs 'to start with ₹40 cr'", "src": "ar2026 letter", "published": "2026-07" },
+  { "item": "Records", "value": "FY26 consolidated sales and PBT were the highest ever, but EBITDA margin (20% incl. other income) and ROCE (17%) remain below the 27% (FY21) and 35% (FY20) peaks", "src": "ar2026 letter", "published": "2026-07" },
+  { "item": "Priorities", "value": "Five mandates: manufacturing/R&D excellence, digitalisation incl. AI, people productivity and lean fixed costs, conserve cash (measure performance by free cash flow), work closely with customers; build, acquire or collaborate", "src": "analystMeet2026 slides 10-11", "published": "2026-04-30" },
+  { "item": "Outlook (via Nuvama)", "value": "Focus on sweating existing assets, open to inorganic opportunities, evaluating large investments; near-term geopolitical tensions could weigh on margins", "src": "https://businesstoday.in/markets/stocks/story/nuvama-keeps-buy-on-this-chemical-stock-company-announces-rs-30-dividend-check-record-date-528596-2026-05-03", "published": "2026-05-03" }
+ ],
+ "capex": {
+  "history": "Cash capex ₹591 cr (FY22), ₹875 cr (FY23), ₹504 cr (FY24), ₹270 cr (FY25), ₹175 cr (FY26); segment additions FY26: LSC ₹38 cr, P&OC ₹101 cr. Capital commitments only ₹48 cr at Mar-26.",
+  "projects": [
+   { "project": "Liquid epoxy resin (LER) expansion, Atul", "cost": 200, "status": "Commissioned 25/29-Oct-2024: +50 ktpa to 80 ktpa (old plant at 99% utilisation); plus ₹165 cr working capital; internal accruals" },
+   { "project": "Atul Products Ltd: 300 TPD caustic soda (chlor-alkali) and downstream, Atul", "cost": null, "status": "Commissioned Dec-2023; start-up problems (loss ₹32 cr in FY24); sales ₹352 cr (FY25) → ₹474 cr (FY26), PBT ₹56 cr; ₹670 cr of Atul loans converted to preference shares (FY24)" },
+   { "project": "MCPP-p (1,000 tpa) and MCPA (750 tpa) phenoxy herbicides, greenfield", "cost": 167, "status": "Approved 24-Jul-2026; within 67 weeks; uses in-house o-cresol and MCA; internal accruals" },
+   { "project": "13.2 MW hybrid (wind-solar) captive power with Torrent (26.3% of Torrent Urja 39 for ₹13.86 cr)", "cost": 14, "status": "Agreed Dec-2025; power supply scheduled by end-March 2027" },
+   { "project": "Atul-Buckman Specialities (50:50 JV, water-treatment chemicals)", "cost": null, "status": "Formed 6-Feb-2026" },
+   { "project": "Debottlenecking (aromatics, crop actives, specialty epoxy), new products (DCDPS capacity increase Feb-2024)", "cost": null, "status": "Ongoing; not quantified" }
+  ],
+  "src": "Screener cash flow; AR 2025-26 notes 30.2, 30.15; LER intimation 29-Oct-2024; AR 2023-24; q1fy27capex; TUPL intimation Dec-2025; AR 2025-26 letter", "published": "2024-10 to 2026-07"
+ },
+ "history": [
+  { "when": "1947", "event": "Incorporated (5-Sep-1947) by Kasturbhai Lalbhai", "impact": "Lalbhai family company for 79 years" },
+  { "when": "1952", "event": "Manufacturing starts at Atul, Valsad (17-Mar-1952); site inaugurated by PM Jawaharlal Nehru", "impact": "First of India's chemical 'firsts' (vat dyes, 2,4-D, para-cresol, phosgene)" },
+  { "when": "1955-1999", "event": "JVs with ICI (Atic, dyes), American Cyanamid (Cyanamid India, agchem/pharma) and Ciba-Geigy (Cibatul, resins); all ended by 1999", "impact": "Technology base for dyes, agchem and epoxy" },
+  { "when": "2010-2017", "event": "JVs: Atul Rajasthan Date Palms (74:26 with Govt of Rajasthan, 2010), Rudolf Atul Chemicals (50:50, 2011), Anaven LLP with Nouryon (50:50 MCA plant, 2017)", "impact": "Anaven has run below capacity: loss ₹51 cr (FY24), PBT −₹36 cr (FY26); ₹12 cr of its loan and ₹3 cr interest overdue at Mar-26" },
+  { "when": "FY20-21", "event": "Peak returns: ROCE 35% (FY20), EBITDA margin 27% incl. other income (FY21); first open-market buyback (₹50 cr, 2020-21)", "impact": "EPS ₹225 (FY20) and ₹222 (FY21)" },
+  { "when": "Apr-2022", "event": "Fire at the Atul site (20-Apr-2022); second buyback ₹70 cr (73,296 shares at an average ₹9,536, Apr-May 2022)", "impact": "Insurance claim income ₹37 cr booked in FY25" },
+  { "when": "FY22-FY24", "event": "Capex peak (₹1,970 cr over three years): LER, caustic-chlorine (Atul Products), API plants", "impact": "P&OC capital employed up from ₹1,818 cr (FY22) to ₹2,747 cr (FY24) while P&OC EBIT fell from ₹576 cr to ₹240 cr" },
+  { "when": "FY24", "event": "Agchem destocking and Chinese dumping: revenue −13%, EPS ₹110 (−37%); Atul Products' caustic plant starts (Dec-2023); third buyback ₹50 cr (72,000 shares at ₹6,935, Nov-2023 to Jan-2024)", "impact": "Trough year; LSC EBIT halved to ₹203 cr" },
+  { "when": "FY25", "event": "Recovery: revenue +18%, EPS ₹164; LER +50 ktpa (Oct-2024); US anti-dumping duty on Indian epoxy (Atul 12.69%, Mar-2025)", "impact": "Volume-led recovery" },
+  { "when": "FY26", "event": "Record sales (₹6,274 cr) and PBT (₹901 cr); EPS ₹230; India's anti-dumping duty on epoxy imports (Nov-2025); Atul-Buckman JV", "impact": "FCF ₹851 cr as capex fell to ₹175 cr" },
+  { "when": "Q1FY27", "event": "Record quarter: revenue +25%, EBITDA margin 21%, EPS ₹83 (+92%) on war-time chemical prices and inventory gains; ₹167 cr herbicide project approved", "impact": "TTM EPS ₹270" }
+ ],
+ "corporateActions": "Three open-market buybacks totalling ₹170 cr (₹50 cr in 2020-21, ₹70 cr in Apr-May 2022, ₹50 cr in Nov-2023 to Jan-2024) cut the share count from ~2.966 cr to 2.944 cr. Dividend ₹30 a share on FY26 (₹25 on FY25, ₹20 on FY24). Share capital has only fallen since FY15 (no bonus, split or equity raise in FY15-26).",
+ "management": [
+  { "name": "Sunil Lalbhai", "role": "Chairman and Managing Director", "note": "MD since June 1984, Chairman since Aug-2007; FY26 pay 288x the median employee (134x excluding commission), +16%" },
+  { "name": "Samveg Lalbhai", "role": "Managing Director", "note": "Director since 2000, MD since Dec-2000; 73x median pay; 48% of his direct holding pledged (100,000 shares)" },
+  { "name": "Gopi Kannan Thirukonda", "role": "Whole-time Director and CFO", "note": "Joined 1993; WTD since Oct-2014; 55x median" },
+  { "name": "Vivek Gadre", "role": "Whole-time Director, President - Corporate Strategy", "note": "Joined 1988; WTD since Jan-2025" },
+  { "name": "Lalit Patni", "role": "Company Secretary and Chief Compliance Officer", "note": "" },
+  { "name": "Dhaval Vashi / Vinay Desai", "role": "SVP Pharmaceuticals / President Technology & Manufacturing", "note": "Joined senior management 18-Jul-2026 (Dr Prabhakar Chebiyyam, EVP Pharmaceuticals, retired)" }
+ ],
+ "governance": {
+  "board": "11 directors at Mar-26: 2 promoter executives (CMD, MD), 2 professional whole-time directors and 7 independent directors (8 of 12 from Aug-2026) (Pradeep Banerjee, Rangaswamy Iyer, Sharadchandra Abhyankar, Sujal Shah, Praveen Kadle, Padmaja Chunduru, Shantanu Khosla from Oct-2025, Vinayak Deshpande from Aug-2026); 83% of committees led by independent directors.",
+  "auditor": "Deloitte Haskins & Sells LLP, reappointed at the 45th AGM (Jul-2022) until the 50th AGM (2027); FY26 opinion unmodified, no key audit matters.",
+  "kmpPay": "KMP remuneration ₹28.9 cr in FY26 vs ₹21.8 cr in FY25 (+33%) while PAT rose 38%.",
+  "subsidiaries": "35+ Indian subsidiaries, many dormant shells with ₹0.1 cr of net assets (e.g. Atul Paints, Atul Entertainment, Atul Hospitality, Atul Seeds), plus finance subsidiaries (Atul Finserv, Atul Fin Resources) holding investments; 50% stake in a hospital (Valsad Institute of Medical Sciences, loss ₹11 cr in FY26).",
+  "contingent": "Contingent liabilities only ~₹11 cr; guarantees ₹152 cr for Atul Products' bank loans; GST demand ₹8.3 cr + ₹8.4 cr penalty (Dec-2025, appealed).",
+  "csr": "Atul Foundation received ₹13 cr from the group in FY26.",
+  "src": "ar2026 (board profiles, directors' report, notes 30.1, 30.4, 30.14, 30.16); GST intimation Jan-2026; senior-management intimation 20-Jul-2026", "published": "2026-01 to 2026-07"
+ },
+ "accounting": {
+  "otherIncome": "Other income ₹203 cr in FY26 (22% of PBT): treasury fair-value gains ₹77 cr, exchange gains ₹44 cr, interest incl. a one-off tax refund ₹21 cr, dividends ₹20 cr, interest subsidy ₹15.5 cr.",
+  "segmentAllocation": "Segment results include part of other income; sum of segment EBITDA exceeded reported EBITDA (ex other income) by ₹128 cr in FY26.",
+  "oci": "Fair-value moves on ~₹870 cr of listed equity (Pfizer ₹453 cr, Arvind ₹140 cr, BASF India ₹84 cr, Arvind Fashions ₹64 cr, Anup Engineering ₹49 cr, Novartis India ₹36 cr) go through OCI, not profit.",
+  "inventory": "Q1FY27 inventory drawdown of ₹188 cr: part of the margin was inventory gains.",
+  "eps": "Screener 'net profit' includes minority interest (₹11 cr in FY26); reported EPS is on owners' profit; the model's implied share count (2.99 cr vs 2.944 cr actual) offsets this, so modelled EPS ≈ owners' EPS.",
+  "src": "ar2026 notes 6.2, 22, 23, 30.15; q1fy27analysis", "published": "2026-07 / 2026-07-24"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Navin Fluorine International (consolidated, ₹ crore). The company reports one segment and does not disclose EBITDA by business, so the model runs on one revenue line and one EBITDA margin. Revenue growth is built bottom-up from the three disclosed business verticals (see businessLines, which the authoring script checks against the model). Treasury income = yield × net cash; income on the existing investment book (held while gross debt is still outstanding) and interest on that debt are entered separately. Valued on P/E, as the street does.",
+ "years": ["FY27E", "FY28E", "FY29E"],
+ "businessLines": {
+  "_why": "Bottom-up build of revenue (₹ crore). Sum of the three lines = model revenue (checked by the authoring script). FY26 actuals from the annual report.",
+  "FY26": { "hpp": 1615.38, "specialty": 1152.09, "cdmo": 546.43 },
+  "FY27E": { "hpp": 2050, "specialty": 1435, "cdmo": 820 },
+  "FY28E": { "hpp": 2420, "specialty": 1665, "cdmo": 1025 },
+  "FY29E": { "hpp": 2710, "specialty": 1900, "cdmo": 1210 },
+  "_hppWhy": "FY27 +27%: Q1 ₹540 cr (+33%) on AHF sales (plant commissioned Feb-2026), higher R32 volumes and prices; Q2-Q3 are seasonally softer for refrigerants; the new 15,000 tpa R32-equivalent plant starts in Q3FY27 (small FY27 contribution). FY28 +18%: the new plant at ~60% utilisation adds ~₹450-500 cr (management's 'downside case' peak revenue is ₹600-825 cr), partly offset by softer R32 prices in calendar 2027, India's 'free year' before HFC quotas, when new Indian capacity can sell. FY29 +12%: quota freeze from Jan-2028 supports prices; new plant near full use; Honeywell HFO flat (contract to 2029, extendable by three years at Honeywell's option).",
+  "_specialtyWhy": "FY27 +25%: Q1 ₹325 cr (+48%); management sees ~80% utilisation of agro MPPs, campaign orders for 4-5 new agro molecules (3 patented); Dahej MPP debottleneck (₹75 cr, peak ₹140-160 cr) commissioned 29-Sep-2026; Project Nectar (₹540 cr dedicated plant) ramping to 75-80% by end-FY28. FY28 +16% / FY29 +14%: Nectar and MPP for a full year; Chemours liquid-cooling plant ramps over ~15 months; agro pricing stays weak (LatAm oversupply).",
+  "_cdmoWhy": "FY27 +50%: management targets US$100 mn (~₹870 cr); Q1 ₹180 cr (+82%). We assume ₹820 cr (about 95% of target): cGMP4 phase 1 (commissioned Q3FY26) for the darolutamide intermediate supplied to Fermion (Orion/Bayer's Nubeqa). FY28 +25% / FY29 +18%: cGMP4 phase 2 (₹125 cr, Q4FY27); management talks of ~3x asset turn on the ₹288 cr cGMP4 (~₹860 cr) by FY29, plus the older cGMP1-3 plants; 3-4 molecules await FDA read-outs in 8-12 months (one recent read-out failed)."
+ },
+ "revenueGrowth": [29.9, 18.7, 13.9],
+ "_revenueWhy": "Sum of the business-line build: FY27E ₹4,305 cr (+30%), FY28E ₹5,110 cr (+19%), FY29E ₹5,820 cr (+14%). Management guides a 20-25% revenue CAGR to FY30 (analyst meet 20-Aug-2026, per PL and Axis); our FY25-29 CAGR is ~25%, front-loaded into FY26-27. Street FY27E revenue ₹4,165-4,714 cr, FY28E ₹4,933-5,862 cr.",
+ "ebitdaMargin": [33, 32, 32.5],
+ "_marginWhy": "32.6% in FY26; 34.2% in Q1FY27 and Q4FY26. Management guided 'in the range of 32-33%, plus/minus 1%' for the next one to two years (5-Aug-2026 call), after 'around 30%, ±1-2%' in April. FY27 33%: Q1 strong, but gross margin fell ~100bp QoQ on raw-material inflation and new plants carry start-up costs. FY28 32%: softer R32 prices in the 2027 free year, partly offset by CDMO mix. FY29 32.5%: quota regime and operating leverage. Street 31-33.6%.",
+ "capex": [700, 850, 850],
+ "_capexWhy": "Management guided ~₹700 cr of capex in FY27 and ₹700-1,000 cr a year in FY28-FY30 (analyst meet 20-Aug-2026, per PL and Axis notes): R32 (₹236.5 cr), cGMP4 phase 2 (₹125 cr), advanced-materials adoption plant (₹90 cr), Chemours (₹120 cr, 35% customer-funded), cGMP5/6 infrastructure. FY26 actual ₹489 cr (Screener cash flow).",
+ "depRateOnGrossBlock": 4.2,
+ "_depWhy": "FY26 depreciation ₹149 cr ≈ 4.2% of average gross block (₹3,539 cr); Q1FY27 ₹41.7 cr (₹167 cr annualised) on a ~₹3,950 cr block.",
+ "treasuryYield": [6.5, 6.5, 6.5],
+ "_treasuryWhy": "Applied to net cash (cash and investments less borrowings): ~₹54 cr at Mar-26 (the company turned net-debt-free in Q1FY27); builds from free cash flow.",
+ "otherIncome": [100, 60, 45],
+ "_otherIncomeWhy": "Income on the gross investment book (₹1,229 cr of investments at Mar-26, mostly the Jul-2025 QIP money) held while ₹1,226 cr of debt is still outstanding, plus forex and misc. Q1FY27 ₹35 cr (FY26 ₹58 cr after a ₹6.75 cr exceptional charge). Falls as the investments are used to repay debt.",
+ "interest": [120, 85, 60],
+ "_interestLabel": "Interest cost (term loans / ECBs for the Dahej projects, leases)",
+ "_interestWhy": "FY26 ₹118 cr; Q1FY27 ₹32 cr. Gross borrowings ₹1,226 cr at Mar-26 (₹940 cr non-current, ₹286 cr current); we assume steady repayment (PL assumes debt falls to ~₹490 cr by FY28).",
+ "taxRate": [24.5, 24.5, 24.5],
+ "_taxWhy": "FY26 effective 24.0%; Q1FY27 23.6%; new regime 25.2% less incentives.",
+ "payout": [12, 12, 12],
+ "_payoutWhy": "FY26 dividend ₹15.1 a share (interim ₹6.5 + final ₹8.6) ≈ 12% of consolidated EPS; the company's standalone payout was 16%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.0,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 30,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 4,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Cyclical refrigerant prices plus lumpy CDMO and agro campaigns; market-like sensitivity.",
+  "_tgWhy": "Fluorochemicals, pharma outsourcing and advanced materials grow with global industrial and healthcare spend; 6% nominal.",
+  "_fadeGrowthWhy": "≈ nominal growth in end markets plus share gains; the HFC phase-down caps refrigerant volumes after 2032.",
+  "_fadeMarginWhy": "From 32.5% towards 30%: R32 pricing normalises over a cycle; CDMO and advanced materials support margins.",
+  "_fadeCapexWhy": "Capex falls from ~15% of revenue (FY27-29) to ~6% once the current build-out is done."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "R32 prices hold through the 2027 free year and India's 2028 quota freeze; CDMO beats the US$100 mn target on Nubeqa and new FDA approvals; Chemours and advanced materials scale early; margin ~34%.",
+   "revenueGrowthDelta": 4,
+   "marginDelta": 1.5,
+   "fadeMarginTo": 32
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "New Indian R32 capacity floods the market in calendar 2027 and prices fall towards the US$5-6/kg 'downside case'; a CDMO molecule fails or Fermion orders pause; agro intermediates stay under Chinese price pressure; margin ~29%.",
+   "revenueGrowthDelta": -6,
+   "marginDelta": -3,
+   "fadeMarginTo": 27
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": ["FY28E", "FY29E", 0.5],
+     "multiple": { "base": 36, "bull": 42, "bear": 28 },
+     "why": "How the street values Navin (ICICI Securities 45x, PL 41x, MOFSL 40x, Axis 34x FY28E EPS; Nuvama 40x Q1FY29E; JM 40x Jun-28E). 36x = Navin's ~45x one-year-forward median since 2021, cut by the ~19% de-rating of Indian chemical stocks versus their five-year medians on 30-Sep-2026. Our FY26-28 EPS growth (~27% a year) is in line with the street's, so no further growth adjustment; growth slows to ~16% in FY29."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": ["FY28E", "FY29E", 0.5],
+     "multiple": { "base": 23, "bull": 27, "bear": 18 },
+     "why": "Navin's trailing EV/EBITDA median since 2021 is ~40x; less the same ~19% de-rating ≈ 33x trailing, which is ~23x on Sep-28E EBITDA (about 1.4x the twelve months to Jun-26). Separates the business from the (small) net cash."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 12.5%, terminal growth 6%. Heavy capex (₹700-1,000 cr a year) keeps free cash flow low for three years."
+    }
+   ]
+  }
+ }
+}

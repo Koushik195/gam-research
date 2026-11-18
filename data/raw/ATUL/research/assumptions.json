@@ -1,0 +1,282 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Atul Ltd (consolidated, ₹ crore). Segment-driven: Life Science Chemicals, Performance & Other Chemicals and Others each grow gross revenue and earn an EBITDA margin (segment EBIT + segment depreciation); a fourth line removes inter-segment sales. Group EBITDA = sum of segments less 'unallocated' (segment results include part of other income; Screener EBITDA excludes it). Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "lsc",
+   "name": "Life Science Chemicals",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1805.24,
+   "growth": [
+    6,
+    8,
+    8
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    24.5,
+    24.5,
+    24.5
+   ],
+   "hist": {
+    "driver": "lscRev",
+    "revenue": "lscRev",
+    "adjEbitda": "lscEbitda"
+   },
+   "_why": "FY27: Q1 +4% (₹469 cr); crop-protection exports and APIs grow modestly, domestic agchem hit by weather in FY26; we assume +6% for the year. FY28-29 +8%: new herbicides (MCPP-p and MCPA plant approved Jul-2026, 67 weeks to build, so from FY28), retail launches (three products in May-2026), API ramp-up at Atul Bioscience. LSC grew at only a ~4% CAGR over FY19-26.",
+   "_revWhy": "Driver is gross segment revenue (inter-segment sales are negligible in LSC).",
+   "_marginWhy": "Segment EBITDA margin 19.3% (FY19), 21.0%, 21.3%, 15.3%, 24.0%, 18.4%, 24.3%, 26.9% (FY26, the best in eight years). Q1FY27 EBIT margin 19.8% (~23.5% EBITDA). 2,4-D and other actives face Chinese pricing; we use 24.5%, about the FY23-26 average, not the FY26 peak."
+  },
+  {
+   "key": "poc",
+   "name": "Performance & Other Chemicals",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 4608.73,
+   "growth": [
+    12,
+    8,
+    9
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    17,
+    15.5,
+    16
+   ],
+   "hist": {
+    "driver": "pocRev",
+    "revenue": "pocRev",
+    "adjEbitda": "pocEbitda"
+   },
+   "_why": "FY27: Q1 ₹1,427 cr (+34%) on war-time chemical prices and volume; we assume ~₹1,250 cr a quarter for Q2-Q4 as prices normalise: +12%. FY28 +8%, FY29 +9%: volume growth from the 50 ktpa liquid epoxy resin expansion (Oct-2024), Atul Products' caustic-chlorine chain and debottlenecking, with flat prices. FY19-26 CAGR was 7%.",
+   "_revWhy": "Driver is gross segment revenue, including ~₹220 cr a year of inter-segment sales (removed in the eliminations line).",
+   "_marginWhy": "Segment EBITDA margin 18.9% (FY19), 23.1%, 26.1% (FY21 peak), 18.6%, 10.3% (FY23 trough), 12.0%, 14.4%, 14.3% (FY26). Q1FY27 EBIT margin 16.8% (~21% EBITDA) included inventory gains and war-time spreads (ICICI Securities: unlikely to sustain). FY27 17% (Q1 ~21%, then ~15.5%); FY28 15.5% and FY29 16%: modest improvement on FY26 from LER utilisation, the Indian anti-dumping duty on epoxy resin (Nov-2025) and China's capacity discipline, still well below FY19-22."
+  },
+  {
+   "key": "oth",
+   "name": "Others (agri-biotech, services)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 80.39,
+   "growth": [
+    10,
+    10,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    20,
+    20,
+    20
+   ],
+   "hist": {
+    "driver": "othRev",
+    "revenue": "othRev",
+    "adjEbitda": "othEbitda"
+   },
+   "_why": "Tissue-culture date palms (DPD UK, Atul Rajasthan Date Palms) and services: ₹80 cr in FY26 (+9%); we assume +10% a year.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin 22-24% in FY25-26 (EBIT + depreciation); 20% assumed."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-segment eliminations",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": -220.82,
+   "growth": [
+    18,
+    8,
+    9
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elimRev",
+    "revenue": "elimRev",
+    "adjEbitda": "elimEbitda"
+   },
+   "_why": "Sales between segments (almost all from P&OC: caustic, chlorine, intermediates), removed on consolidation: ₹240 cr (FY25), ₹221 cr (FY26), ₹75 cr in Q1FY27 alone. We assume ~₹260 cr in FY27, then growth in line with P&OC.",
+   "_revWhy": "Driver is revenue itself (negative).",
+   "_marginWhy": "No profit effect."
+  }
+ ],
+ "unallocated": [
+  100,
+  100,
+  105
+ ],
+ "_unallocLabel": "Segment EBITDA above reported EBITDA (other income allocated to segments, less central costs)",
+ "_unallocWhy": "Sum of segment EBITDA less Screener EBITDA (which excludes other income): ₹45 cr (FY19), ₹64 cr, ₹40 cr, ₹39 cr, ₹51 cr, ₹48 cr, ₹97 cr (FY25), ₹128 cr (FY26, incl. exchange gains). Q1FY27 ~₹22 cr. We assume ₹100-105 cr.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  300,
+  350,
+  400
+ ],
+ "_capexWhy": "Capex has been cut from ₹875 cr (FY23) and ₹504 cr (FY24) to ₹270 cr (FY25) and ₹175 cr (FY26) as the company 'conserves cash'. FY27: the ₹167 cr MCPP-p/MCPA plant (67 weeks), debottlenecking, renewable power and maintenance; FY28-29 rising as management 'evaluates large investments' (Nuvama, May-2026). No large project has been announced; any big one would be upside to capex and, later, revenue.",
+ "depRateOnGrossBlock": 7.3,
+ "_depWhy": "FY26 depreciation ₹322 cr = 7.5% of average gross block (₹4,274 cr); Q1FY27 ₹78 cr. 7.3% gives ~₹327 / ₹350 / ₹377 cr as new plants are added.",
+ "treasuryYield": [
+  4.75,
+  4.75,
+  4.75
+ ],
+ "_treasuryWhy": "Treasury book (cash + current investments + equity stakes, less borrowings) ~₹2,500 cr at Mar-26 in the model. FY26 treasury income: dividends ₹20 cr, interest ₹21 cr (incl. a one-off tax-refund interest), fair-value and sale gains on treasury funds ₹77 cr. 4.75% on the opening book, plus ₹20 cr of other non-operating income.",
+ "otherIncome": [
+  20,
+  20,
+  20
+ ],
+ "_otherIncomeWhy": "Lease income, insurance claims, miscellaneous items (₹19-28 cr a year), excluding exchange gains (₹44 cr in FY26) which we do not forecast.",
+ "interest": [
+  16,
+  15,
+  14
+ ],
+ "_interestLabel": "Interest cost",
+ "_interestWhy": "FY26 ₹17 cr; Q1FY27 ₹4 cr. Term loans of ₹173 cr in Atul Products amortise.",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "FY26 effective 23.5% (tax refunds); Q1FY27 26.8%; statutory 25.17% plus disallowances.",
+ "payout": [
+  13,
+  13,
+  13
+ ],
+ "_payoutWhy": "₹30 dividend on FY26 (15% standalone payout, 13% of consolidated EPS); buybacks (₹50 cr FY21, ₹70 cr FY23, ₹50 cr FY24) are not modelled.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5.5,
+  "years": 10,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 18,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 4.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Diversified chemicals with a net-cash balance sheet and no leverage: slightly below market risk (Ke 11.9%).",
+  "_tgWhy": "Indian chemical demand grows with nominal GDP; 5.5% for ever.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~9% in FY29 to 8% by FY37: volume-led growth on existing sites and new projects.",
+  "_fadeMarginWhy": "EBITDA margin drifts to 18%: the FY19-26 average was ~19% on Screener's basis; FY26 16.5%.",
+  "_fadeCapexWhy": "Capex rises to 5% of revenue (FY19-26 average ~8%, FY25-26 ~3-4%) to fund growth.",
+  "_yearsWhy": "Ten-year explicit-plus-fade period; the business needs no long project horizon."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Chinese capacity discipline and India's anti-dumping duties keep P&OC margins near Q1FY27 levels (~19%); the epoxy and caustic-chlorine plants run full; crop protection recovers with exports; a large new project is announced and funded from cash.",
+   "fadeMarginTo": 20,
+   "segments": {
+    "lsc": {
+     "growthDelta": 3,
+     "marginDelta": 2
+    },
+    "poc": {
+     "growthDelta": 3,
+     "marginDelta": 3
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "War-time spreads unwind fully and Chinese dumping returns: P&OC margins fall back to the FY23-24 trough (~12-13%); 2,4-D prices fall and LSC margins return to ~21%; growth stalls as it did in FY23-24.",
+   "fadeMarginTo": 15,
+   "segments": {
+    "lsc": {
+     "growthDelta": -3,
+     "marginDelta": -3
+    },
+    "poc": {
+     "growthDelta": -4,
+     "marginDelta": -3
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 21,
+      "bull": 24,
+      "bear": 17
+     },
+     "why": "How the street values Atul: Motilal Oswal 25x and Nuvama 30x FY28E EPS (2026). 21x = the stock's 34.6x one-year-forward P/E median since Apr-2021, excluding FY24 as a trough year under the house rule (41.1x including it), cut by the ~30% de-rating of Indian chemical stocks at 30-Sep-2026 (≈24x), less ~15% because ROE (~12%) only matches the 11.9% cost of equity (≈20.6x, rounded to 21x). Bull 24x (no returns discount), bear 17x (base less ~20%, the same spread as before; near the stock's FY20 forward-P/E band of 15-22x)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 14,
+      "bull": 17,
+      "bear": 11
+     },
+     "why": "Separates the large net cash from the operating business. 14x ≈ the 24x five-year median EV/EBITDA, less the same ~30% sector de-rating and ~15% returns discount; peers at 30-Sep-2026 traded at 16-20x trailing (Vinati 16.9x, Deepak 16.1x, Aarti 16.0x, PI 18.1x, SRF 19.8x), Atul 12.5x."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: ten-year fade to 8% growth and an 18% EBITDA margin, capex 5% of revenue, Ke 11.9% (beta 0.9), terminal growth 5.5%, Mar-27 net cash added."
+    }
+   ]
+  }
+ }
+}

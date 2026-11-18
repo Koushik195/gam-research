@@ -1,0 +1,23 @@
+{
+  "name": "gam-research",
+  "version": "1.0.0",
+  "description": "GAM equity research app: BSE-500 company stories",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "fetch": "node src/fetch-screener.js",
+    "model": "node src/model.js",
+    "universe": "node src/fetch-universe.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}

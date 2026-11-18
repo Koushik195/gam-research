@@ -1,0 +1,318 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Deepak Fertilisers and Petrochemicals (consolidated, Rs crore). Segment model on the company's reported Ind AS segments: (1) Chemicals (TAN for mining explosives, nitric acid, IPA, ammonia, Australian blasting services; held in DFPCL standalone and Deepak Mining Solutions) and (2) Fertilisers (Mahadhan AgriTech: NP/NPK, specialty and traded fertilisers), plus Realty & others. Segment EBITDA = reported segment EBIT + segment D&A (FY26 annual report note 48); 'unallocated' = sum of segment EBITDA less Screener EBITDA (corporate costs and the other income that sits inside segment results). The Chemicals revenue path is built bottom-up from TAN volume x realisation, industrial chemicals (nitric acid + IPA) and ammonia/other sales (see _why). Net-debt company: explicit interest, no treasury yield. Valued on a sum of the parts (segment EV/EBITDA on Sep-28E, the street's method), with P/E and DCF cross-checks.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "chem",
+   "name": "Chemicals (TAN, nitric acid, IPA, ammonia)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 5304.23,
+   "growth": [
+    39.5,
+    11.5,
+    2.5
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    37.5,
+    32,
+    31
+   ],
+   "hist": {
+    "driver": "chemRev",
+    "revenue": "chemRev",
+    "adjEbitda": "chemEbitda"
+   },
+   "_why": "Built from three lines (FY26 -> FY27E / FY28E / FY29E, Rs cr). TAN: FY26 577 kt at Rs45/kg = Rs2,604 cr; Q1FY27 130 kt at Rs70/kg (Rs904 cr) on war-time FGAN prices, volume cut by PESO portal changes. Existing plants run ~98% full (587 ktpa); the 376 ktpa Gopalpur plant (Rs2,675 cr, 96% complete in Jul-2026, commissioning guided for Q2FY27) adds ~90 kt in FY27 (management: ~80% utilisation by Q4FY27), ~300 kt in FY28 and ~350 kt in FY29. Volume 650 / 880 / 930 kt; realisation Rs58 / 50 / 48 per kg as FGAN prices ease from the Q1 peak (Russia lifted its export ban in May-2026) but stay above FY26 = Rs3,770 / 4,400 / 4,460 cr. Industrial chemicals: FY26 Rs1,842 cr; Q1FY27 Rs490 cr with IPA volumes down 76% on propylene (RGP) curtailment; the Dahej nitric acid plant (300 ktpa WNA + 150 ktpa CNA, Rs1,983 cr, 65% of CNA tied up for 20 years) starts in H2 = Rs2,130 / 2,550 / 2,700 cr. Ammonia sales, Platinum Blasting (Australia) and other: FY26 Rs858 cr, Q1FY27 Rs488 cr on ammonia at ~$780-800/t ME FOB (May-Jun 2026) = Rs1,500 / 1,300 / 1,300 cr. Total Rs7,400 / 8,250 / 8,460 cr = growth 39.5% / 11.5% / 2.5%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin (EBIT + segment D&A): 19.0% (FY20), 27.7% (FY21), 33.1% (FY25), 27.1% (FY26, incl. a ~Rs75 cr ammonia turnaround); EBIT margin 25-31% in FY22-24. Q1FY27 EBIT Rs805 cr on Rs1,882 cr (42.8%; ~47% EBITDA): ammonia at ~$800/t against gas now partly on the 15-year Equinor contract, TAN at Rs70/kg. FY27E 37.5% = Q1 actual plus ~34% for Q2-Q4 (Rs633 cr a quarter): monsoon-soft TAN in Q2, ammonia already back to ~$600/t ME FOB by end-July (management) and $555/t Tampa in September, offset by a full quarter of Equinor gas from Q2 (management: ~Rs300 cr a year of savings at full transition) and new capacity in H2. FY28E 32% = TAN ~Rs16,000/t EBITDA on 880 kt (Emkay assumed Rs14,500/t pre-war) ~Rs1,410 cr + ammonia ~Rs550 cr + blasting services ~Rs120 cr + industrial chemicals ~Rs600 cr = ~Rs2,680 cr; FY29E 31% as Russian supply and new domestic TAN capacity (Coal India, others) cap spreads."
+  },
+  {
+   "key": "fert",
+   "name": "Fertilisers (Mahadhan crop nutrition)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 6165.55,
+   "growth": [
+    2,
+    6,
+    6
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    5.5,
+    7.5,
+    8
+   ],
+   "hist": {
+    "driver": "fertRev",
+    "revenue": "fertRev",
+    "adjEbitda": "fertEbitda"
+   },
+   "_why": "FY25 Rs5,120 cr, FY26 Rs6,166 cr (+20%, traded fertilisers Rs1,760 cr); Q1FY27 Rs1,367 cr (+9% YoY) with ANP/Smartek volume +1% and Bensulf -44% on sulphur costs. Kharif 2026 NBS outlay Rs41,534 cr (+12% vs Kharif 2025, approved Apr-2026); the 2026 monsoon ended at ~87% of normal (IMD, 30-Sep-2026) though Central India, Deepak's core Maharashtra market, got ~97%. Rabi 2026-27 NBS rates were not announced by 30-Sep-2026 and are not in our numbers. FY27E +2% (weak Kharif volumes, higher prices), then +6% a year (specialty and Croptek, ~40% of segment revenue in Q1FY27).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA margin 6.6% (FY20), 10.0% (FY21), 9.6% (FY25), 8.1% (FY26); EBIT margin 0.0% in FY24 when phosphoric acid costs ran ahead of subsidy. Q1FY27 EBIT Rs44 cr (3.2%; ~4.6% EBITDA) with phosphoric acid at $1,360/t CFR (Jun-2026) and subsidy lagging costs. FY27E 5.5% (Q1 plus a partial catch-up in H2 if Rabi rates follow costs, which is not assured); FY28E 7.5% and FY29E 8.0% = mid-cycle, below FY25."
+  },
+  {
+   "key": "oth",
+   "name": "Realty & others",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 36.25,
+   "growth": [
+    0,
+    5,
+    5
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "othRev",
+    "revenue": "othRev",
+    "adjEbitda": "othEbitda"
+   },
+   "_why": "Realty (Pune mall/offices) Rs22 cr and others (furniture trading) Rs14 cr in FY26; segment EBITDA ~Rs1.5 cr. Kept flat-ish at break-even.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment EBITDA -Rs6 cr (FY25), +Rs1.5 cr (FY26): zero."
+  }
+ ],
+ "unallocated": [
+  260,
+  270,
+  280
+ ],
+ "_unallocLabel": "Unallocated costs net of other income in segment results",
+ "_unallocWhy": "Sum of segment EBITDA less Screener EBITDA: Rs185 cr (FY20), Rs173 cr (FY21), Rs256 cr (FY25), Rs248 cr (FY26). It is corporate cost plus the other income (Rs103 cr in FY26) that the company books inside 'unallocable expenditure net of unallocable income' but Screener shows below EBITDA. Rs260 / 270 / 280 cr as head-office costs grow with the subsidiaries (DMSL, MAL) being readied for listing.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  950,
+  500,
+  600
+ ],
+ "_capexWhy": "FY26 Rs1,570 cr (purchase of PPE incl. CWIP). Gopalpur TAN and Dahej nitric acid together cost ~Rs4,650 cr, of which ~Rs3,850 cr was spent by Q1FY27 (Q1FY27 capex Rs515 cr). CFO (29-May-2026): 'almost Rs800-1,000 crores capex spending, including maintenance' in FY27, then 'a normal maintenance capex'. We use Rs950 cr in FY27E, Rs500 cr in FY28E (maintenance plus upgrading the Chardham explosives unit bought for Rs121 cr in May-2026) and Rs600 cr in FY29E (no new large project is announced; management says the next phase comes after stabilisation, which is a risk to this number).",
+ "depRateOnGrossBlock": 6.6,
+ "_depWhy": "FY26 depreciation Rs424 cr; Q1FY27 Rs105 cr (~Rs420 cr a year) before the new plants. The engine holds CWIP (Rs3,053 cr at Mar-26, mostly Gopalpur and Dahej) flat and only adds FY27-29 capex to the gross block, so the ~Rs4,650 cr of new plant would never be depreciated at FY26's rate. We set the rate so that FY28-29E depreciation (~Rs640-660 cr) includes the new plants (~Rs4,650 cr at ~4.5% = ~Rs210 cr a year on top of ~Rs430 cr). FY27E (~Rs600 cr) is overstated by ~Rs80-100 cr because the plants start only in H2.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net-debt company: borrowings incl. leases Rs5,670 cr vs cash, bank balances and liquid funds ~Rs660 cr at Mar-26 (company net debt Rs4,824 cr; Rs4,719 cr at Jun-26). Interest earned on cash is in 'other income' below.",
+ "otherIncome": [
+  30,
+  35,
+  40
+ ],
+ "_otherIncomeWhy": "Built, not plugged. FY26 other income Rs103 cr (annual report note 29) = interest on deposits Rs24 cr + interest on an income-tax refund Rs17 cr (one-off) + gain on selling mutual funds Rs20 cr (the Rs126 cr of funds were fully sold by Jun-26) + realised hedging gains Rs28 cr (volatile) + other Rs14 cr. Q1FY27 Rs6 cr; TTM (Q2FY26-Q1FY27) Rs85 cr. Recurring base = interest on ~Rs350-450 cr of cash (~Rs20 cr) + miscellaneous (~Rs10-15 cr): Rs30 cr in FY27E (Q1 run-rate Rs24 cr), Rs35 / 40 cr as cash rebuilds. Hedging gains and refund interest are left out.",
+ "interest": [
+  430,
+  400,
+  310
+ ],
+ "_interestLabel": "Finance cost",
+ "_interestWhy": "FY25 Rs413 cr, FY26 Rs353 cr after capitalising Rs116 cr of project interest (annual report note 34; gross interest Rs425 cr at 8.6-9.5%); Q1FY27 Rs95 cr. Capitalisation stops when Gopalpur and Dahej start (H2FY27), so P&L interest rises to ~Rs115 cr a quarter: FY27E Rs430 cr. FY28-29E fall with debt (model net debt ~Rs3,400 cr at Mar-28E and ~Rs2,300 cr at Mar-29E; project loans amortise from Dec-2027): Rs380 / 310 cr, incl. the 8% coupon on the liability part of DMSL's Rs800 cr CCDs.",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "Effective tax 26.9% (FY26), 20.6% (FY25, incl. a one-time Rs40 cr credit), ~25% (Q1FY27); statutory 25.17%. No minority line is needed through FY29E: the Rs800 cr DMSL CCDs convert only at the end of 48 months (around May-2029, FY30) and their coupon is in interest; we deduct the holders' claim in the sum of the parts instead.",
+ "payout": [
+  17,
+  17,
+  20
+ ],
+ "_payoutWhy": "Dividend Rs10 a share for FY25 and FY26 (13.5% and 17% of EPS). We assume 17% / 17% / 20% of EPS: debt reduction comes first.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.87,
+  "terminalGrowth": 5.5,
+  "years": 10,
+  "fadeGrowthTo": 6,
+  "fadeMarginTo": 17.5,
+  "fadeCapexPctTo": 4,
+  "depPctOfSales": 4.2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts free cash flow at one rate. Net debt ~Rs4,700 cr against a market value of ~Rs17,000 cr: cost of equity ~13.1% (beta 1.1) weighted ~78%, post-tax cost of debt ~6.6% (8.8% pre-tax) weighted ~22% = WACC ~11.7%, which is what beta 0.87 produces. The same rate rolls the value forward 6 months.",
+  "_tgWhy": "Nitrogen chemicals and fertiliser demand grow with mining, infrastructure and farm output: 5.5% nominal.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~4% (FY29E) to 6% by year 10: volumes grow with mining and nitric acid demand; no new plant is assumed.",
+  "_fadeMarginWhy": "EBITDA margin drifts from ~18.6% (FY29E) to 17.5% as war-time spreads keep normalising; FY21-26 averaged ~17.6%.",
+  "_fadeCapexWhy": "Capex ~4% of revenue (maintenance and debottlenecking); depreciation 4.2% of revenue."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "War-time spreads last into FY28: ammonia stays near $600/t, TAN near Rs55/kg, Gopalpur fills in a year and Rabi subsidies catch up with costs, so Chemicals margins hold at ~36% and Fertilisers recover to ~9-10%.",
+   "fadeMarginTo": 19.5,
+   "segments": {
+    "chem": {
+     "growthDelta": 4,
+     "marginDelta": 4
+    },
+    "fert": {
+     "growthDelta": 2,
+     "marginDelta": 1.5
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Spreads go back to pre-war levels by FY28 (ammonia ~$400/t, TAN ~Rs45/kg as Russian supply returns and new Indian capacity arrives), Gopalpur ramps slowly and subsidies keep lagging: Chemicals margins ~29% / 28% (pre-war spreads plus the Equinor saving) and Fertilisers ~5.5-6%.",
+   "fadeMarginTo": 15.5,
+   "segments": {
+    "chem": {
+     "growthDelta": -5,
+     "marginDelta": -3
+    },
+    "fert": {
+     "growthDelta": -2,
+     "marginDelta": -2
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 10,
+  "parts": [
+   {
+    "name": "Chemicals",
+    "seg": "chem",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (half FY28E + half FY29E) x EV/EBITDA",
+    "multiple": {
+     "base": 7,
+     "bull": 9,
+     "bear": 6
+    },
+    "note": "Derived, not picked: the stock's one-year-forward EV/EBITDA median since Apr-2021 is 6.8x (no EBITDA trough year; 6.8x since Apr-2023, 8.0x since Apr-2024); peers traded a median ~5% below their five-year EV/EBITDA medians on 30-Sep-2026 -> 6.5x for the group. At the FY25-26 mix (Chemicals 76% of segment EBITDA) and Fertilisers at 6x, that implies ~6.6-6.7x for Chemicals; rounded up to 7x because Gopalpur and Dahej fill over two years. Street: Emkay 12x DMSL, 10x industrial chemicals (Nov-2025). Bull 9x, bear 6x."
+   },
+   {
+    "name": "Fertilisers",
+    "seg": "fert",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA x EV/EBITDA",
+    "multiple": {
+     "base": 6,
+     "bull": 7,
+     "bear": 5
+    },
+    "note": "Fertiliser peers excluding Coromandel (Chambal, Paradeep, GNFC, GSFC, RCF) trade at a median ~5.8x trailing EV/EBITDA (five-year median ~7.4x); Emkay uses 6x for crop nutrition. Policy-set margins, sub-scale NPK: 6x (bull 7x, bear 5x)."
+   },
+   {
+    "name": "Less: corporate costs",
+    "unalloc": true,
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E unallocated costs x blended multiple",
+    "multiple": {
+     "base": 6.8,
+     "bull": 8.6,
+     "bear": 5.8
+    },
+    "note": "Head-office costs and the other income booked inside segment results; valued at the blended segment multiple (~6.8x)."
+   },
+   {
+    "name": "Less: DMSL CCD holders' claim",
+    "adj": {
+     "base": -619,
+     "bull": -619,
+     "bear": -619
+    },
+    "metricLabel": "Equity component of DMSL's Rs800 cr CCDs (non-controlling interest, Mar-26)",
+    "note": "The equity component of DMSL's Rs800 cr CCDs (Rs619 cr, shown as non-controlling interest at Mar-26). The CCDs convert into DMSL shares at 48 months (stake not disclosed; Emkay ~6-7%); their Rs181 cr debt component is already in net debt."
+   },
+   {
+    "name": "Less: net debt at Sep-27E",
+    "netCash": true,
+    "roll": [
+     "FY27E",
+     "FY28E",
+     0.5
+    ],
+    "metricLabel": "Net debt at the target date (half Mar-27E + half Mar-28E)",
+    "note": "Model forecast: borrowings incl. leases less cash and investments."
+   }
+  ],
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values Deepak Fertilisers: the only detailed broker method we found (Emkay, Nov-2025) is a sum of the parts on EV/EBITDA (DMSL 12x, industrial chemicals 10x, crop nutrition 6x). The segments differ in quality and returns, debt is material, and management plans to list DMSL and MAL separately. We value the reported segments on Sep-28E EBITDA (Chemicals 7x, Fertilisers 6x), less corporate costs, the CCD holders' claim and net debt at Sep-27E."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 8.5,
+      "bull": 11,
+      "bear": 7
+     },
+     "why": "Cross-check. One-year-forward P/E median since Apr-2021 is 9.7x leaving out FY24 as a trough year (EPS Rs35.9 vs Rs95.9 in FY23; 11.5x including it); peers traded a median ~12% below their five-year P/E medians on 30-Sep-2026 -> 8.5x on Sep-28E EPS. Bull 11x (the post-Apr-2023 median), bear 7x."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Cross-check: 10-year FCFF at ~11.7% (beta 0.87 so that the single discount rate equals WACC), terminal growth 5.5%, EBITDA margin fading to 17.5%, less net debt at Mar-27E."
+    }
+   ]
+  }
+ }
+}

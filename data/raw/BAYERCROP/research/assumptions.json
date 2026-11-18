@@ -1,0 +1,162 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Bayer CropScience Ltd (standalone; no subsidiaries; Rs crore). One reportable segment (crop protection ~76%, hybrid corn seed ~19%, other ~5%). Revenue grows at a single rate; the business-line build (corn vs crop protection) is checked in the authoring script. EBITDA margin is a driver; treasury income = yield x opening cash and liquid funds net of lease liabilities. Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  -3,
+  8,
+  7.5
+ ],
+ "_revenueWhy": "FY27: Q1 -4% (weather, lower acreage; corn held up); the June-September monsoon ended 12.6% below normal (IMD), kharif maize area ~4% below last year at 21-Aug and southern reservoirs ~33% below normal before a rabi season with El Nino expected to persist to Feb-2027; flubendiamide rights sold (Apr-2026). Q2FY26 was a weak base (excess rain, -11%), so we assume H1 about -3% and H2 about -3%. FY28-29: normal monsoons, corn seed +12-14% a year, crop protection +6-7% with launches (Bicota, Camalus, Etciostar, Xivana Smart, Plenexos later). Below management's 'high single to low double digit' aspiration; in line with its FY21-26 record of ~6% a year.",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "corn": 1078,
+   "cropProtectionAndOther": 4597,
+   "_why": "FY26 turnover Rs 5,675 cr split with the BRSR shares (corn seed 19%, crop protection 76% + other 5%); rounded, so approximate."
+  },
+  "cornGrowth": [
+   5,
+   13,
+   13
+  ],
+  "cropProtectionAndOtherGrowth": [
+   -4.9,
+   6.7,
+   6
+  ],
+  "_why": "Corn: Q1FY27 held up despite ~4% lower kharif maize area; rabi risk from southern reservoirs; then +13% a year (FY21-25: ~15%; management: double again over ~5 years). Crop protection and other: -4.9% in FY27 (deficient monsoon, flubendiamide rights sold, older products divested), then +6-7% with launches. The authoring script checks that the two lines sum to model revenue."
+ },
+ "ebitdaMargin": [
+  16,
+  16.5,
+  17
+ ],
+ "_marginWhy": "15.4% in FY26 (12.6% in FY25, 18-19% in FY23-24 when glyphosate prices spiked). Q1FY27 20.0% (18.2%) on price increases and mix. Management guided ~+100bp a year from FY25 for 2-3 years and has already delivered +280bp; more local sourcing, lower receivable write-offs and the partner go-to-market model help, but a falling top line in FY27 and Chinese generic pricing cap it. We stay below the FY20-24 average (~18.6%).",
+ "capex": [
+  110,
+  115,
+  120
+ ],
+ "_capexWhy": "Cash capex Rs 43-77 cr a year in FY22-26 (Rs 64 cr in FY26, incl. Rs 39 cr of R&D capital) plus Rs 26-107 cr a year of new leased assets (warehouses, vehicles), which depreciate like capex. We include ~Rs 40 cr a year of leases so depreciation does not fall artificially.",
+ "depRateOnGrossBlock": 10.5,
+ "_depWhy": "FY26 depreciation and amortisation Rs 94 cr (incl. Rs 55 cr on right-of-use assets) = 10.4% of average gross block (Rs 902 cr, Screener).",
+ "treasuryYield": [
+  4.5,
+  4.5,
+  4.5
+ ],
+ "_treasuryWhy": "Applied to opening cash and liquid funds net of lease liabilities (Rs 1,397 cr at Mar-26). March is the seasonal peak; cash falls through the year as dealers are given credit and two dividends are paid. FY26 treasury income (deposit interest Rs 32.5 cr + mutual-fund gains Rs 15.6 cr) was ~5.9% of the opening net balance.",
+ "otherIncome": [
+  87,
+  23,
+  23
+ ],
+ "_otherIncomeWhy": "Non-treasury other income: rent from group companies (~Rs 13 cr) and penal interest on overdue dealer receivables (~Rs 10 cr) recur; FY27 adds the Rs 63.9 cr gain on selling the flubendiamide marketing rights (Q1FY27). Profit on divesting products (Rs 22-27 cr a year in FY25-26) is not assumed to recur.",
+ "interest": [
+  20,
+  20,
+  20
+ ],
+ "_interestWhy": "Rs 20 cr in FY26: lease interest (Rs 8 cr) and interest on employee benefits/MSME dues; no borrowings.",
+ "taxRate": [
+  20,
+  20,
+  20
+ ],
+ "_taxWhy": "Effective 19.4% in FY26 and 19.7% in FY25: income from producing corn seed is claimed as tax-exempt agricultural income (Rs 64.6 cr tax saving in FY26), under dispute (Rs 233 cr contingent).",
+ "payout": [
+  95,
+  95,
+  95
+ ],
+ "_payoutWhy": "Dividends were 77-105% of EPS in FY22-26 (Rs 150 a share for FY26, ~98%); management said the dividend distribution 'remains intact' through the FY25 dip. The promoter group (71.4%) receives ~71% of it.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 16.5,
+  "fadeCapexPctTo": 1.8,
+  "depPctOfSales": 1.8,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Debt-free with net cash; earnings swing with the monsoon but the parent's support and dividend record lower the risk: slightly below market sensitivity (Ke 11.6%).",
+  "_tgWhy": "Indian crop protection and seed demand grows with farm output and prices; 5.5% nominal, below the 6% we use for faster-growing peers because ~95% of profit is paid out.",
+  "_fadeGrowthWhy": "Industry growth of 5-6% plus corn seed share gains.",
+  "_fadeCapexWhy": "Asset-light formulator and seed producer: capex (incl. leases) ~2% of sales."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "A normal rabi and 2027 monsoon; corn seed keeps growing ~15% and new molecules (Xivana Smart, Plenexos) scale; local sourcing lifts gross margin; margin ~18%.",
+   "volumeGrowthDelta": 0,
+   "marginDelta": 1,
+   "revenueGrowthDelta": 3,
+   "fadeMarginTo": 17.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "El Nino hurts the rabi and the 2027 kharif; glyphosate use restricted; Chinese generic prices fall again and receivable write-offs return; margin ~15%.",
+   "volumeGrowthDelta": 0,
+   "marginDelta": -1.5,
+   "revenueGrowthDelta": -4,
+   "fadeMarginTo": 15
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 24,
+      "bull": 28,
+      "bear": 19
+     },
+     "why": "How the street values Bayer CropScience (HSBC 29x FY27E EPS; Kotak method not disclosed). 24x = its 31.7x one-year-forward median since Apr-2021, cut by the ~20% de-rating of domestic crop-protection peers (Sumitomo, PI, Dhanuka, Rallis) to ~25.5x, and by ~5% because our FY26-29E EPS growth (~6%) is a little below the ~7% it delivered while trading at 31.7x. Bull 28x (its 25th percentile since 2021); bear 19x (dividend-discount value at an 11.6% cost of equity)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 16,
+      "bull": 19,
+      "bear": 13
+     },
+     "why": "Values the business and the net cash separately. 16x Sep-28E EBITDA = its ~25x trailing EV/EBITDA median since Apr-2021, less the same ~20% de-rating and ~5% growth discount (~19x trailing), restated on EBITDA two years ahead (+18%)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 11.6%, terminal growth 5.5%, plus net cash."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "asOf": "2026-09-30",
+ "type": "lender",
+ "years": ["FY27E", "FY28E", "FY29E"],
+ "_note": "Bajaj Finance (consolidated, incl. Bajaj Housing Finance) lender model, as of 30-Sep-2026 on a Q1FY27 basis. Sources: Q1FY27 presentation (30-Jul-2026) and call; Q4FY26 presentation (29-Apr-2026, FY27 'management assessment'); Q4FY23-Q4FY25 presentations for history; Screener.in for the statements. Equity raise noticed on 24-Sep-2026 is NOT in the base case (size and price unknown on 30-Sep); see the valuation chapter for its effect.",
+ "history": {
+  "_why": "Screener-consistent history. aum = consolidated closing AUM (FY22-FY26 exact from the Q4 presentations; FY18-FY21 from the 19-year snapshot in ₹'000 cr, so rounded to ₹100 cr). provisions = loan losses and provisions on the basis Screener uses for that year: FY18-FY24 before the Q4FY26 presentation change (recoveries of written-off loans shown in income), FY25-FY26 after it (recoveries netted in provisions). feeIncome = all non-interest operating income on the same basis (FY22 'fees, commission and other non-interest income'; FY23-FY24 fees + fair-value gains + sale of services + others; FY25-FY26 non-interest income). Each basis ties to Screener revenue within ₹20 cr.",
+  "aum": { "FY18": 82400, "FY19": 115900, "FY20": 147200, "FY21": 152900, "FY22": 197452, "FY23": 247379, "FY24": 330615, "FY25": 416661, "FY26": 509975 },
+  "provisions": { "FY18": 1030, "FY19": 1501, "FY20": 3929, "FY21": 5969, "FY22": 4803, "FY23": 3190, "FY24": 4631, "FY25": 7088, "FY26": 9482 },
+  "feeIncome": { "FY22": 4371, "FY23": 5869, "FY24": 6676, "FY25": 7683, "FY26": 9214 },
+  "src": { "FY26": "Q1FY27 presentation p37 (30-Jul-2026)", "FY25": "Q1FY27 presentation p37; Q4FY25 presentation p45", "FY23-FY24": "Q4FY24 presentation p37-38", "FY22": "Q4FY23 presentation p37", "FY18-FY21": "Q1FY27 presentation p26 (19-year snapshot, before presentation changes)" }
+ },
+ "aumGrowth": [24, 23, 22],
+ "_aumGrowthWhy": "FY27 management assessment (29-Apr-2026): 22-24%; long-term corridor 23-25%. Q1FY27 grew 24% with a record ₹36,969 cr added in one quarter, MSME back to growth from Q3 and gold loans to ₹29-31k cr by Mar-27 (call, 30-Jul-2026). We take the top of FY27 guidance, then fade 1pp a year as the book passes ₹8 lakh cr; FY26 itself fell short of its 24-25% guide (22%).",
+ "yieldOnAum": [15.5, 15.3, 15.15],
+ "_yieldOnAumWhy": "Interest income ÷ average AUM: 16.4% FY25, 15.7% FY26, 15.5% annualised in Q1FY27. Management guides a 10-15bp NIM moderation in FY27; the mix keeps shifting to lower-yield gold, mortgages and loans against securities; the RBI's draft ban on revolving credit for NBFCs (6-Aug-2026) puts ~50bp of extra yield on the ~14% flexi book at risk (Jefferies). We take ~15-20bp off each year.",
+ "feeIncomePct": [1.9, 1.85, 1.8],
+ "_feeIncomePctWhy": "Non-interest income ÷ average AUM: 2.06% FY25, 1.99% FY26, 2.0% in Q1FY27. Guidance: non-interest income +16-18% in FY27 vs AUM +22-24%, so the ratio drifts down.",
+ "costOfFunds": [7.15, 7.2, 7.2],
+ "_costOfFundsWhy": "Interest expense ÷ average Screener borrowings (incl. deposits): 7.64% FY25, 7.26% FY26 (the company's own measure: 7.97% and 7.54%). Reported cost of funds was 7.40% in Q1FY27, 14bp below FY26; management expects it 'range bound with a slight upward bias' as incremental funding is 30-60bp dearer (call, 30-Jul-2026).",
+ "opexPct": [3.69, 3.54, 3.43],
+ "_opexPctWhy": "Operating expenses incl. depreciation ÷ average AUM: 3.99% FY25, 3.78% FY26. Guidance: opex to net total income 25-40bp better in FY27 despite gold-loan/MFI branch openings and the Labour Codes; AI-led productivity. These values give a cost-to-income ratio of ~32.7% in FY27E (33.0% on our FY26 basis) falling ~30bp a year.",
+ "creditCost": [1.5, 1.5, 1.55],
+ "_creditCostWhy": "Provisions ÷ average AUM: 1.90% FY25, 2.05% FY26 (incl. a ₹1,406 cr accelerated ECL charge). FY27 guidance 1.45-1.60% of average AUF; Q1FY27 1.54% incl. a ₹296 cr overlay (1.31% without). 1.50% of AUM ≈ 1.53% of AUF: mid-guidance, keeping room for further overlays. FY29E edges up as a normal cycle: FY23-FY26 ranged 0.96-2.09% (company basis).",
+ "taxRate": [25.2, 25.2, 25.2],
+ "_taxRateWhy": "Statutory rate; FY26 effective 25.1%.",
+ "payout": [18, 18, 18],
+ "_payoutWhy": "FY26 dividend ₹6.00 per share incl. a ₹0.60 special from the BHFL stake sale (19.6% of EPS); ex-special 17.7%. FY24-FY25 payout 15-16%.",
+ "minorityPct": [1.9, 2.9, 3.1],
+ "_minorityPctWhy": "Minority interest in Bajaj Housing Finance. FY26 ₹315 cr (1.6% of PAT) at an 86.7-88.75% stake. Management will cut the stake to 75% (public-float rule), 'first protocol' before any capital raise (call, 30-Jul-2026). We assume two tranches (H2FY27, H1FY28), BHFL profit +21%/+21%/+20% (Q1FY27 +23%, AUM +24%): minority ₹0.46k / 0.88k / 1.13k cr.",
+ "otherIncome": [25, 25, 25],
+ "_otherIncomeWhy": "Screener 'other income' outside operations: ₹19-33 cr a year before exceptional items (FY24-FY26); FY26 included a ₹284 cr Labour Code charge.",
+ "capitalRaise": [2000, 1900, 0],
+ "_capitalRaiseWhy": "Not new shares: the parent's equity gain from selling ~11.7% of BHFL down to 75% (5.85% each in H2FY27 and H1FY28) at ₹82 (30-Sep-2026 close), less ~14.6% tax on the gain (BFL cost ~₹12.2 a share) and less the minority interest created at book. Consolidated accounts book this in equity, not profit (as in FY26).",
+ "newShares": [0, 0, 0],
+ "valuation": {
+  "rf": 6.5, "beta": 1.1, "erp": 6, "g": 10, "sustainableRoe": 20, "terminalGrowth": 6, "years": 15, "fadeYears": 8, "payoutTo": 30, "rollForwardMonths": 6,
+  "_why": "Ke = 6.5% + 1.1 × 6% = 13.1% (house rf and ERP; beta 1.1 for a large, rate- and credit-sensitive lender). sustainableRoe 20% = middle of the company's long-term 19-21% corridor. g = 10% long-run book growth in the justified P/B (about nominal GDP; below the 15-16% the franchise can fund today). Residual income fades ROE to 20% over 8 years, payout rising to 30%, 6% terminal growth.",
+  "blend": { "round": 10, "methods": [
+   { "key": "pb", "name": "P/B", "method": "pb", "role": "primary", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 4.0, "bull": 4.6, "bear": 3.4 }, "why": "DRAFT" },
+   { "key": "jpb", "name": "Justified P/B", "method": "jpb", "role": "cross-check", "year": "Sep-27E", "roll": ["FY27E", "FY28E", 0.5], "why": "(ROE − g) ÷ (Ke − g) = (20 − 10) ÷ (13.1 − 10) on book at the 12-month target date." },
+   { "key": "ri", "name": "Residual income", "method": "ri", "role": "cross-check", "why": "Book plus the present value of profit above the 13.1% cost of equity, ROE fading to 20%, rolled forward 6 months." },
+   { "key": "pe", "name": "P/E", "method": "pe", "role": "cross-check", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 20, "bull": 25.7, "bear": 18.3 }, "why": "DRAFT" }
+  ] }
+ },
+ "scenarios": {
+  "bull": { "label": "Bull", "aumGrowthDelta": 2, "yieldDelta": 0.1, "opexDelta": -0.05, "creditCostDelta": -0.2, "sustainableRoe": 22, "narrative": "DRAFT" },
+  "bear": { "label": "Bear", "aumGrowthDelta": -5, "yieldDelta": -0.3, "cofDelta": 0.2, "creditCostDelta": 0.6, "sustainableRoe": 17, "narrative": "DRAFT" }
+ }
+}
