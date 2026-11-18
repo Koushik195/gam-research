@@ -1,0 +1,58 @@
+// KIMS report, part 6: glossary and statement notes.
+const glossary = {
+  id: 'glossary', nav: 'Glossary', kicker: 'Appendix', title: 'Glossary',
+  blocks: [
+    { exhibit: { type: 'table', title: 'Terms used in this report', head: ['Term', 'What it means'], wide: [1], rows: [
+      ['Tertiary / quaternary care', 'Complex hospital care (heart and brain surgery, transplants, cancer treatment) as opposed to routine (primary/secondary) care.'],
+      ['Bed capacity / operational beds', 'Beds built vs beds staffed and open. KIMS\'s operational beds include census beds (wards, ICUs) and non-census beds (day care, emergency, dialysis).'],
+      ['Occupancy', 'Occupied beds ÷ operational beds (KIMS\'s definition).'],
+      ['ARPOB', 'Average revenue per occupied bed-day: hospital revenue (incl. outpatients and pharmacy) ÷ occupied bed-days.'],
+      ['ARPP', 'Average revenue per inpatient: hospital revenue ÷ number of inpatients. Management prefers it because it moves less with the length of stay.'],
+      ['ALOS', 'Average length of stay: occupied bed-days ÷ inpatients.'],
+      ['IP / OP', 'Inpatients (admitted) and outpatients (consultations without admission).'],
+      ['Cluster', 'KIMS\'s reporting unit: all hospitals in one state (Telangana, Andhra Pradesh, Maharashtra, Kerala, Karnataka).'],
+      ['New units / start-up losses', 'Hospitals in their first year or so; the EBITDA they lose while filling up (₹128 cr in FY26).'],
+      ['O&M (operations and management)', 'KIMS runs a hospital owned by someone else, either for a fee (~9% of revenue) or, where it controls it, consolidating it; often with a call option to buy it later.'],
+      ['Empanelment', 'Approval by an insurer, government health plan (CGHS, ESIC, PSUs) or scheme to treat its members cashlessly. New hospitals need it to attract insured patients.'],
+      ['Aarogyasri', 'The Andhra Pradesh / Telangana state health scheme for poorer families (4-5% of KIMS\'s revenue).'],
+      ['Doctor-partnership hospital', 'A KIMS subsidiary in which local doctors own a minority stake (KIMS holds 51-91%).'],
+      ['Minorities (non-controlling interests)', 'The doctor-partners\' share of those subsidiaries; their share of profit is not KIMS shareholders\' profit.'],
+      ['Ind AS 116 (leases)', 'Accounting rule that puts leased buildings on the balance sheet: rent is replaced by depreciation and interest, and future rent appears as a lease liability.'],
+      ['Pre- / post-Ind AS EBITDA', 'EBITDA after deducting rent (pre-Ind AS) vs before rent (post-Ind AS, as reported and on Screener).'],
+      ['QIP', 'Qualified institutional placement: new shares sold to institutional investors (KIMS: ₹1,500 cr at ₹755 in June 2026).'],
+      ['Warrants', 'Rights to buy new shares at a fixed price (₹779) within 18 months; promoters paid 25% upfront.'],
+      ['Pledge', 'Shares given as security for a loan; if the price falls the lender can sell them.'],
+      ['EV/EBITDA, P/E', 'Enterprise value (market value plus net debt, here including lease liabilities and minorities) ÷ EBITDA; share price ÷ earnings per share.'],
+      ['Sep-28E', 'Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027.'],
+      ['DCF / WACC', 'Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here 11.3%).'],
+    ], source: 'GAM Research' } },
+  ],
+};
+
+const statementNotes = {
+  'sales@FY21': '+18% in the Covid year.',
+  'ebitdaMargin@FY22': '32%: Covid-era peak with full hospitals.',
+  'sales@FY23': '+33%: Sunshine (Begumpet, Gachibowli) and Kingsway, Nagpur consolidated.',
+  'ebitdaMargin@FY23': '−390bp: acquired hospitals at lower margins; Covid tailwind gone.',
+  'sales@FY25': '+21%: Vizag QNRI (Aug-2024), Nashik, Kannur, Kollam; includes a ₹12 cr land sale (Q3).',
+  'otherIncome@FY25': 'Includes a ₹10.9 cr gain on asset sales and a ₹10.8 cr call-option gain (exceptional).',
+  'sales@FY26': '+29%: Thane, Mahadevapura, Electronic City and Kerala; new units ₹597 cr of revenue.',
+  'ebitdaMargin@FY26': '−520bp: new units lost ₹128 cr of EBITDA; mature units ~29%.',
+  'dep@FY26': '+60%: new hospitals capitalised (₹21.5 cr of right-of-use depreciation still went into projects).',
+  'otherIncome@FY26': '₹17 cr after an ₹11.2 cr exceptional loss (call option, Labour Codes).',
+  'pat@FY26': '−37%: higher depreciation and interest on the new hospitals; attributable to owners.',
+  'eps@FY26': 'Pro forma on 42.77 cr shares (after the Jun-2026 QIP, warrants converted); reported ₹6.03.',
+  'capex@FY26': '₹1,428 cr: Kondapur, Bengaluru, Thane, Kerala; plus ₹150 cr to raise the Sunshine stake.',
+  'sales@Q2FY26': '+24%: Thane opened (Jun-2025); Mahadevapura from Sep-2025.',
+  'opm@Q3FY26': '20%: Electronic City opened (Dec-2025); Bengaluru loss ₹26 cr.',
+  'opm@Q4FY26': '19%: Bengaluru loss ₹40 cr; new units −₹32 cr in the quarter.',
+  'sales@Q1FY27': '+35%: Palakkad (Apr) and 10 days of the new Kondapur hospital; ARPOB +10%.',
+  'interest@Q1FY27': '₹83 cr: QIP money arrived ~24-Jun, so debt repayment helps from Q2.',
+  'pat@Q1FY27': '−47%: depreciation +89% and interest +156% as new hospitals moved into the P&L.',
+  'sales@FY27E': 'GAM cluster build: Kondapur ramp, Bengaluru, Thane, Kerala (Palakkad, Thrissur).',
+  'ebitdaMargin@FY27E': 'GAM: start-up losses roughly halve (₹60 cr); Bengaluru near breakeven.',
+  'capex@FY27E': '₹460 cr incl. ~₹60 cr of new leases; maintenance ~₹100 cr.',
+  'pat@FY28E': 'Interest falls with the QIP and warrant money; minorities rise to ~8% of profit.',
+};
+
+module.exports = { glossary, statementNotes };

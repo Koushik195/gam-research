@@ -1,0 +1,274 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for KIMS (consolidated, ₹ crore). One reportable segment, so the engine runs on a single revenue-growth path and a post-Ind AS 116 EBITDA margin excluding other income (Screener basis: rent is not in EBITDA; lease interest sits in interest and right-of-use depreciation in depreciation; lease liabilities sit in borrowings). The cluster build (five states: beds × 365 × occupancy × ARPOB, plus O&M fees less eliminations) sits in `businessLines`; the authoring script checks that it sums to model revenue and that cluster EBITDA reconciles to model EBITDA. Profit is attributable to owners and the share count is pro forma for the Jun-2026 QIP and the Aug-2026 promoter warrants (fully diluted 42.77 cr; KIMS.patch.js); minority interests (book) sit in net debt and their share of profit in the tax line. Valued on EV/EBITDA, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  32.09,
+  20.35,
+  17.63
+ ],
+ "_revenueWhy": "From the cluster build below. FY27 +32%: Q1 +35% (new Kondapur open only 10 days; Palakkad from April), the new Kondapur hospital running ~₹12 cr a month above the old one from July, Bengaluru, Thane and Kerala ramping, and the FY26 base still missing a full year of Mahadevapura and Electronic City. FY28 +20%: occupancy gains at Kondapur, Bengaluru and Kerala (Thrissur O&M from late FY27), ARPOB +4-5% (management guide). FY29 +18%: the Secunderabad replacement block (end-CY27) and Rajahmundry II start. No unannounced acquisitions or greenfields are included. Street: PL ₹5,111 / 6,152 cr, Axis ₹5,264 / 6,222 cr for FY27-28E.",
+ "businessLines": {
+  "_why": "Revenue by state cluster = average operational beds × 365 × occupancy × ARPOB (company definitions; the identity reproduces Q1FY27 cluster revenue within ~1%). Telangana: 2,144 operational beds at Jun-26 including ~450 new Kondapur beds (open 10 days) and excluding ~200 Secunderabad beds under rebuild; occupancy dips to 45% in FY27 (Q1 41.1% on the enlarged base; 61-65% on the old base) and recovers as Kondapur fills (management: ~70% in 3-4 years); ARPOB +8% in FY27 (oncology and transplants at Kondapur; Q1 ₹77,009, +10%), then +4-5%. AP: Rajahmundry II adds beds in FY29; ARPOB base ₹26,000-27,000 (management). Maharashtra: Thane and Nashik ramp (Q1 occupancy 58.6%, July Thane revenue ₹21 cr a month). Kerala: Palakkad full year, Thrissur (O&M, 351 beds) from late FY27. Karnataka: ARPOB normalises to ₹80,000-85,000 (management) as empanelments widen; occupancy 33% → 48%. Other = O&M fees (9% of revenue at Sangli, Guntur, Kompally, Arete and Kakinada) less intercompany eliminations (~1% of cluster revenue). Cluster EBITDA margins are on the company basis (including other income); the reconciling line to model EBITDA (other income in cluster figures, O&M fees, classification) runs at −₹33 to −43 cr a year.",
+  "clusters": {
+   "Telangana": {
+    "opBeds": [
+     2150,
+     2250,
+     2400
+    ],
+    "occupancyPct": [
+     45,
+     47.5,
+     49.5
+    ],
+    "arpob": [
+     75000,
+     78500,
+     82000
+    ],
+    "marginPct": [
+     28.6,
+     29,
+     30
+    ]
+   },
+   "Andhra Pradesh": {
+    "opBeds": [
+     1910,
+     1960,
+     2150
+    ],
+    "occupancyPct": [
+     57,
+     59,
+     58
+    ],
+    "arpob": [
+     27000,
+     28300,
+     29600
+    ],
+    "marginPct": [
+     24,
+     24.5,
+     24.5
+    ]
+   },
+   "Maharashtra": {
+    "opBeds": [
+     680,
+     720,
+     760
+    ],
+    "occupancyPct": [
+     62,
+     65,
+     66
+    ],
+    "arpob": [
+     46000,
+     48500,
+     50800
+    ],
+    "marginPct": [
+     9,
+     12,
+     15
+    ]
+   },
+   "Kerala": {
+    "opBeds": [
+     680,
+     900,
+     960
+    ],
+    "occupancyPct": [
+     47,
+     50,
+     55
+    ],
+    "arpob": [
+     31000,
+     32500,
+     34000
+    ],
+    "marginPct": [
+     8,
+     13,
+     16
+    ]
+   },
+   "Karnataka": {
+    "opBeds": [
+     380,
+     480,
+     560
+    ],
+    "occupancyPct": [
+     33,
+     42,
+     48
+    ],
+    "arpob": [
+     85000,
+     83000,
+     85500
+    ],
+    "marginPct": [
+     -2,
+     8,
+     14
+    ]
+   }
+  },
+  "other": [
+   -22,
+   -22,
+   -25
+  ],
+  "startupLosses": [
+   60,
+   25,
+   30
+  ],
+  "_startupWhy": "EBITDA losses of units in their first year or two, already inside the cluster margins (used only for the start-up-adjusted multiple): FY27 Electronic City, Thane (H1), Kondapur transition (old-hospital rent and pre-operative costs), Palakkad and Thrissur start-up ~₹60 cr (management: 'less than half' of FY26's ₹128 cr); FY28 Thrissur and the extra Kondapur and Secunderabad beds ~₹25 cr; FY29 Rajahmundry II and Secunderabad ~₹30 cr."
+ },
+ "ebitdaMargin": [
+  20.5,
+  22,
+  23.5
+ ],
+ "_marginWhy": "Post-Ind AS EBITDA margin excluding other income (Screener basis): 26% in FY24-25, 20.9% in FY26 (new-unit losses ₹128 cr), 18.9% in Q1FY27 (Q4FY26 19.2%). FY27 20.5%: Bengaluru losses shrink (Q1 −₹19 cr vs Q4FY26 −₹40 cr; cluster guided EBITDA-neutral for the year), Thane breaks even, Nashik positive, offset by the Kondapur transition and Kerala's single-digit margins. FY28 22.0% and FY29 23.5%: new clusters move to mid-teens (Kerala guided mid-teens FY28; Maharashtra 12-15%), Telangana back to ~30%, but new beds at Kondapur, Secunderabad and Rajahmundry keep dragging. Below PL (20.8% / 22.7%) and Axis (22.6% / 23.4%). Rent (Ind AS 116 impact ₹44 cr in FY26, ₹18 cr in Q1FY27) is ~1.5pp of revenue: pre-Ind AS ≈ 19.0% / 20.6% / 22.2%.",
+ "capex": [
+  460,
+  600,
+  650
+ ],
+ "_capexWhy": "Cash capex plus new leases (right-of-use additions, because lease liabilities are in net debt). FY27 ₹460 cr: Q1 ₹60-75 cr, ₹100-125 cr guided for the next nine months (Secunderabad, Rajahmundry II ₹60-75 cr, residual Kondapur), maintenance ~₹100 cr a year, Thrissur/Palakkad fit-outs and equipment, ~₹60 cr of new leases. FY28 ₹600 cr and FY29 ₹650 cr: Secunderabad and Rajahmundry II completion, Kondapur's two extra floors (₹50-75 cr), maintenance, and a first tranche for the greenfields management says it will announce in FY28 (no revenue from them before FY30). FY26 capex was ₹1,428 cr (cash) plus ₹363 cr of new leases. Acquisitions are excluded (none agreed by 30-Sep-2026 with a price).",
+ "depRateOnGrossBlock": 6.25,
+ "_depWhy": "FY26 depreciation ₹283 cr (Screener) = 5.2% of average gross block, depressed because the new hospitals opened during the year and ₹21.5 cr of right-of-use depreciation was capitalised; Q1FY27 ₹101 cr (₹404 cr annualised) after Kondapur, Bengaluru and Palakkad. 6.25% gives FY27E ≈ ₹430 cr (PL ₹397 cr). The engine depreciates capex at once while projects sit in CWIP.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Zero because the engine applies the yield to net cash after borrowings, lease liabilities and minorities, which is negative. Treasury income is built on gross cash in `otherIncome`.",
+ "otherIncome": [
+  47,
+  36,
+  38
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (AR FY26 note 2.18; Screener basis, which includes the associate's profit and exceptional items). FY27E ₹47 cr = Q1FY27 actual ₹17 cr + Q2-Q4: recurring non-treasury items ₹15.5 cr (FY26 run-rate ₹20.6 cr a year: interest on the KHL loan ₹3.9 cr, security deposits ₹2.3 cr, other loans ₹1.8 cr, government grants ₹3.5 cr, rent ₹1.6 cr, miscellaneous ₹7.5 cr) + associate share ₹2.4 cr + treasury ~₹13 cr (6.5% on ~₹270 cr average cash and funds left from the QIP, ₹505 cr at Jun-26 falling as it is spent). FY28E ₹36 cr and FY29E ₹38 cr: recurring ₹22-23 cr, associate ₹4-5 cr (KHL earns rent on the new Kondapur building), treasury ~₹10 cr on ~₹150 cr of working cash. One-offs left out (FY26 exceptional loss ₹11.2 cr; FY25 asset-sale gain ₹10.9 cr). FY26 ₹17 cr (₹28 cr before exceptional items); twelve months to Jun-26 ₹27 cr.",
+ "otherTreasury": {
+  "base": -311,
+  "label": "Minority interests at book, counted as debt (shown negative)",
+  "_why": "Engine workaround: Screener puts minority interests (book value ₹311 cr at Mar-26, AR FY26 note 2.10(c)) inside other liabilities, so the engine would treat them as a working-capital liability that grows with revenue. A negative other-treasury balance of ₹311 cr moves them out of working capital (operating working capital becomes ~8% of revenue, as reported: receivables, inventory and other assets less payables and other liabilities) and into net debt, identically in the engine and the Excel model. EV/EBITDA uses 100% of subsidiaries' EBITDA, so the minorities' claim belongs in net debt; the forward EV/EBITDA history is built the same way."
+ },
+ "interest": [
+  273,
+  220,
+  190
+ ],
+ "_interestLabel": "Interest on bank debt, lease liabilities and other",
+ "_interestWhy": "FY26 ₹215 cr (bank ₹162 cr, leases ₹35 cr, other ₹6 cr) with interest still being capitalised; Q1FY27 ₹83 cr on ~₹3,200 cr of bank debt before the QIP money arrived (24-Jun). Debt fell to ~₹2,400 cr by early August (₹1,125 cr repaid). FY27E = Q1 ₹83 cr + ~₹63 cr a quarter (₹2,300-2,400 cr at ~8.5-9%, plus ~₹42 cr a year on leases). FY28E-29E: debt falls to ~₹1,700 cr and ~₹1,100 cr as the warrant money (₹450 cr) comes in and free cash flow turns positive. PL: ₹280 / 230 cr.",
+ "taxRate": [
+  31,
+  32,
+  33
+ ],
+ "_taxWhy": "Tax plus minorities (engine workaround: there is no minority line). Attributable profit was 70-74% of PBT in FY23-25 (tax ~26%, minorities 7-8% of profit), 72% in FY26 and 74% in Q1FY27 (tax 34%, but minorities absorbed ₹4 cr of Bengaluru/Nashik losses). As those units turn profitable the minorities' share rises: we assume tax ~28% / 26% / 25.5% and minorities ~3% / 6% / 7.5% of PBT (≈3% / 8% / 10% of profit; management: 10-15% long term).",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividend since listing; cash goes to expansion and debt reduction.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.8,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 26,
+  "fadeCapexPctTo": 8,
+  "depPctOfSales": 6.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity. Net debt including leases and minorities is ~8% of enterprise value after the QIP, so WACC (~11.3-11.4%) is close to the 11.3% that beta 0.8 gives; hospitals are defensive, but KIMS carries execution risk in four new states.",
+  "_tgWhy": "Under-bedded country, rising insurance and ageing: 6% nominal, the top of the house range.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~18% to 9% by year 15 as the network matures.",
+  "_fadeMarginWhy": "26% post-Ind AS: mature clusters earn ~30% (Telangana) and ~25% (AP), but a growing share of beds in costlier markets with higher rents (Kerala 20-22% at maturity, Maharashtra, Bengaluru) and continuing openings keep the blend below the 26% of FY24-25.",
+  "_fadeCapexWhy": "Capex including new leases falls from ~9-10% of revenue to 8%: replacement (depreciation ~6.5% of revenue) plus beds for 6-9% growth."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Kondapur reaches ₹70-80 cr a month by FY29, Bengaluru and Thane hit mid-teens margins a year early, Kerala reaches 20%, and the call options on O&M hospitals add profitable beds; margin toward 25% by FY29 (company target ~30% by FY30).",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 1.5,
+   "fadeMarginTo": 28
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Insurer empanelment stays slow, Kondapur and the new states fill at half the pace, and a new round of greenfields restarts losses; margin stuck near 20-21% and debt rises again.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -2,
+   "fadeMarginTo": 23
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 19.5,
+      "bull": 26.5,
+      "bear": 17.5
+     },
+     "why": "How the street values KIMS: EV/EBITDA on FY28E (Prabhudas Lilladher 30x and Axis Securities 27x after Q1FY27; ICICI Direct used 30x FY27E in 2025). We use post-Ind AS EBITDA before other income (the model and Screener basis) with lease liabilities and minority interests (book) in net debt. 19.5x = KIMS's 21.8x median one-year-forward EV/EBITDA since listing (Jun-2021; no trough years: forward EBITDA never fell below half its prior peak), cut by the 11.5% median de-rating of seven listed hospital peers versus their five-year median EV/EBITDA on 30-Sep-2026 (Apollo −13.5%, Max −13.0%, Fortis +0.4%, Narayana −1.8%, Medanta +4.3%, Rainbow −11.5%, Jupiter −24.2%; KIMS itself excluded, Aster left out because its 2024 GCC demerger distorts its history) = 19.3x, rounded to 19.5x. On EBITDA before start-up losses the median is 20.2x (17.9x after de-rating), a lower value; we use the reported basis because KIMS opens hospitals every year, so some start-up drag is permanent. No growth premium: faster EBITDA growth (~28% a year FY26-29E) mostly reverses FY26's start-up losses and comes with returns at or below the cost of equity until FY29E. Bull 26.5x and bear 17.5x = the 75th and 25th percentiles of its forward EV/EBITDA since listing."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 38,
+      "bull": 52,
+      "bear": 34
+     },
+     "why": "Cross-check on earnings. 38x = KIMS's 43.6x median one-year-forward P/E since listing (forwardMedian; no trough years by the house rule, though FY26-27 EPS are depressed by start-up losses and interest) cut by the 12.1% median P/E de-rating of the same seven peers (38.3x). Bull 52x, bear 34x scale with the EV/EBITDA multiples."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF (capex includes new leases), Ke 11.3%, terminal growth 6%, less net debt including leases and minorities (book)."
+    }
+   ]
+  }
+ }
+}
