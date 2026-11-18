@@ -28,10 +28,13 @@ function rewrite(src, name) {
   rep('href="/favicon.ico"', `href="${B}assets/guardian-logo.png"`);
   rep('href="/library"', `href="${B}library/"`);
   rep('href="/"', `href="${B}"`);
-  rep("fetch('/api/universe')", `fetch('${B}api/universe.json')`);
-  rep("fetch('/api/coverage' + (refresh ? '?refresh=1' : ''))", `fetch('${B}api/coverage.json')`);
-  rep("fetch(`/api/model/${encodeURIComponent(SYMBOL)}${refresh ? '?refresh=1' : ''}`)", `fetch(\`${B}api/model/\${encodeURIComponent(SYMBOL)}.json\`)`);
-  rep('fetch(`/api/model/${encodeURIComponent(SYMBOL)}`)', `fetch(\`${B}api/model/\${encodeURIComponent(SYMBOL)}.json\`)`);
+  // GitHub Pages lets browsers cache files for 10 minutes; 'no-cache' makes the page re-check the data
+  // (a cheap 304 when unchanged), so a new export shows up on the next page load.
+  const NC = ", { cache: 'no-cache' }";
+  rep("fetch('/api/universe')", `fetch('${B}api/universe.json'${NC})`);
+  rep("fetch('/api/coverage' + (refresh ? '?refresh=1' : ''))", `fetch('${B}api/coverage.json'${NC})`);
+  rep("fetch(`/api/model/${encodeURIComponent(SYMBOL)}${refresh ? '?refresh=1' : ''}`)", `fetch(\`${B}api/model/\${encodeURIComponent(SYMBOL)}.json\`${NC})`);
+  rep('fetch(`/api/model/${encodeURIComponent(SYMBOL)}`)', `fetch(\`${B}api/model/\${encodeURIComponent(SYMBOL)}.json\`${NC})`);
   for (const [kind, ext] of [['excel', 'xlsx'], ['pdf', 'pdf']]) {
     rep(`\`/api/${kind}/\${encodeURIComponent(SYMBOL)}\``, `\`${B}api/${kind}/\${encodeURIComponent(SYMBOL)}.${ext}\``);
     rep(`"/api/${kind}/\${c.symbol}"`, `"${B}api/${kind}/\${c.symbol}.${ext}"`);
