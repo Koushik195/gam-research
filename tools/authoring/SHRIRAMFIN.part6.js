@@ -1,0 +1,50 @@
+// Shriram Finance report, part 6: valuation (street table, multiple derivation, adjusted forward P/B and P/E
+// charts, cross-checks, scenarios, sensitivities, peers). Risks, glossary and statement notes are in part6b.
+const X = require('./SHRIRAMFIN.ctx');
+const { streetBlocks } = require('./valuation-blend');
+const { F, V, A, AS, SC, fin, n0, n1, n2, pc, ASOF_TXT, price, mv, pbMult, bvSep28, peMult, epsSep28, PB21, PB23, PB2y, PB21raw, PE21, PE23, fwdPb, fwdPe, fwdPbNow, fwdPeNow, trailPbNow, PEERS, P, DR_SYMS, sectorPbDr, sectorPeDr, vehPbDr, shortName, regimePb, regimePe, rating, ST, shortDate, tpAvg, tpAt, roeTw27, pbPeakFeb26 } = X;
+
+const drTxt = (s, k = 'pbVs') => `${shortName(s)} ${pc(P[s][k])}`;
+const jpbV = mv('jpb').value, riV = mv('ri').value, peV = mv('pe').value;
+const streetMult = tpAvg / bvSep28, jpbFy28 = (F.roe[1] - V.g) / (V.ke - V.g);
+const methods = AS.valuation.blend.methods;
+const valuation = {
+  id: 'valuation', nav: 'Valuation', kicker: 'Valuation', title: `Valuation: ${pbMult}x Sep-28E book gives {{dcf.tp|inr}}; every cross-check is below the price too`,
+  blocks: [
+    ...streetBlocks('SHRIRAMFIN', {
+      rating, noOurEps: true,
+      streetIntro: 'Every broker that discloses a method values Shriram Finance on **price to book value (P/B)**, the usual yardstick for lenders: Motilal Oswal 2.2x FY28E book, ICICI Direct ~2.1x FY28E, Emkay 2.1x FY28E (implied by its Jun-27 target), Prabhudas Lilladher 2.4x Mar-28 adjusted book. We use the same method on the book the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). Targets are as they stood on 30-Sep-2026.',
+      street: ST.map(s => [`${s.broker} (${shortDate(s.date)})`, s.rating, s.tp, s.method || 'n.d.', s.multiple || '–', s.on || '–', s.thesis]),
+      ourThesis: 'Sound franchise, safer after MUFG, but ROE 13-14% and the stock near the top of its range',
+      streetSource: 'Motilal Oswal via InvestmentGuruIndia and BusinessToday (29/30-Sep-2026); Prabhudas Lilladher, ICICI Direct and Emkay notes (PDF, 25-27 Jul 2026); ICICI Securities, Axis Direct and IDBI Capital via Trendlyne. n.d. = method not disclosed in the sources we saw',
+      derivationIntro: `We start from the stock's own one-year-forward P/B since April 2021, with one adjustment: for dates before the MUFG deal was announced (19-Dec-2025) whose forward year is FY27, we use FY27E book without the issue (₹${n0(X.bvEx27)} instead of ₹${n0(F.bvps[0])}), because the market could not have priced it. We then adjust for how far listed lenders had moved against their own five-year medians by ${ASOF_TXT} (Shriram itself excluded) and for the post-merger regime. Peers, returns and the street are checks.`,
+      derivation: [
+        ['1. Its own history', `Forward P/B: median ${PB21.med}x since Apr-2021 (${PB21raw.med}x without our MUFG adjustment; 25th-75th percentile ${PB21.p25}-${PB21.p75}x; range ${PB21.min}-${PB21.max}x); ${PB23.med}x since Apr-2023; ${PB2y.med}x over the last two years; ${n1(fwdPbNow)}x on ${ASOF_TXT} on our FY28E book`, `Starting point: ${PB21.med}x`],
+        ['2. Sector move', `Trailing P/B vs five-year median on ${ASOF_TXT}: ${DR_SYMS.map(s => drTxt(s)).join(', ')} (median ${pc(sectorPbDr)}); vehicle lenders (Cholamandalam, M&M Financial, L&T Finance) median ${pc(vehPbDr)}. Left out: Shriram itself, HDB Financial (listed Jul-2025) and Bajaj Housing Finance (listed Sep-2024). Shriram is ${pc(P.SHRIRAMFIN.pbVs)} above its own median (price ÷ Jun-26 book)`, `${PB21.med}x × ${(1 + sectorPbDr / 100).toFixed(3)} ≈ ${n1(PB21.med * (1 + sectorPbDr / 100))}x`],
+        ['3. Post-merger regime', `Since Apr-2023 (the merged, diversified company; ROE 16-18%, AUM growth 15-21%) the median is ${PB23.med}x, ${pc((regimePb - 1) * 100)} above the full window, which includes STFC's Covid years at ~1x. Our forecasts have faster growth (17-18%) but lower ROE (13-14%), so we do not go above the post-merger level`, `× ${regimePb.toFixed(3)} ≈ **${pbMult}x Sep-28E book**`],
+        ['4. Peers', `Trailing P/B: Cholamandalam ${n1(P.CHOLAFIN.pb)}x (ROE ${n1(P.CHOLAFIN.roe)}%), L&T Finance ${n1(P.LTF.pb)}x (${n1(P.LTF.roe)}%), M&M Financial ${n1(P['M&MFIN'].pb)}x (${n1(P['M&MFIN'].roe)}%); Shriram ${n1(trailPbNow)}x on Jun-26 book`, `${pbMult}x Sep-28E = ${n1(V.tp / F.bvps[0])}x Mar-27E book at the target date: between M&M Financial and L&T Finance, which earn ~12% ROE`],
+        ['5. Returns', `ROE ${n1(roeTw27)}% / {{F.roe.1|pct}} / {{F.roe.2|pct}} (FY27E time-weighted, FY28E, FY29E) vs a ${n1(V.ke)}% cost of equity. Justified P/B at FY28E ROE = ${n2(jpbFy28)}x; at a 16% long-run ROE = ${n2(V.justifiedPb)}x Sep-27E book (₹${n0(jpbV)})`, 'Returns today barely cover the cost of equity; a premium needs the re-levering to happen'],
+        ['6. Street', `2.1-2.4x FY28E book (average target ₹${n0(tpAvg)} = ${n2(streetMult)}x our Sep-28E book)`, `The street's multiple equals the stock's ${pbPeakFeb26}x peak (Feb-2026)`],
+      ],
+      derivationSource: `Screener.in (prices to ${ASOF_TXT}), broker notes, GAM Research. The forward series uses next-full-year book (~18 months ahead), so applying the multiple to 12-month-forward Sep-28E book is ~5% conservative (FY29E book is 5.6% above Sep-28E).`,
+      crossNote: `**What the cross-checks tell us.** All three point below the price. P/E (${peMult}x Sep-28E EPS of ₹${n1(epsSep28)}, derived the same way: ${PE21.med}x median forward P/E since 2021, FY25 EPS taken before the SHFL gain, × sector ${pc(sectorPeDr)} × post-merger regime ${regimePe.toFixed(2)}) gives ₹${n0(peV)}. Justified P/B (₹${n0(jpbV)}) and residual income (₹${n0(riV)}) use a ${n1(V.ke)}% cost of equity and assume ROE climbs back to 16%. At ₹${n0(price)} the market is pricing a long-run ROE of ~{{dcf.impliedRoe|pct}} (residual income), higher than in any year since FY19 except FY25, which included a one-off gain. The street's targets rest on a multiple, not on better earnings than ours.`,
+    }),
+    { pair: [
+      { type: 'line', title: `One-year-forward P/B: our ${pbMult}x vs history`, unit: `Price ÷ next full-year book (x), adjusted for the MUFG issue before its announcement; orange line = our ${pbMult}x`, x: fwdPb.filter(x => x[0] >= '2018-04-01').map(x => x[0]), series: [{ name: 'Forward P/B', values: fwdPb.filter(x => x[0] >= '2018-04-01').map(x => x[1]), fmt: 'x', thin: true }], labels: 'last', yearTicks: true, yearStep: 2, min: 0, lines: [{ v: PB23.med, text: `Post-merger median: ${PB23.med}x` }, { v: pbMult, text: '', color: '#cf8f1f' }], source: 'Screener.in prices; book per share; GAM estimates FY27-28E' },
+      { type: 'line', title: `One-year-forward P/E: ${n1(fwdPeNow)}x now vs ${PE21.med}x median since 2021`, unit: 'Price ÷ next full-year EPS (x); FY25 EPS before the SHFL gain', x: fwdPe.filter(x => x[0] >= '2018-04-01').map(x => x[0]), series: [{ name: 'Forward P/E', values: fwdPe.filter(x => x[0] >= '2018-04-01').map(x => x[1]), fmt: 'x', thin: true }], labels: 'last', yearTicks: true, yearStep: 2, min: 0, lines: [{ v: PE21.med, text: `Median since 2021: ${PE21.med}x` }, { v: peMult, text: '', color: '#cf8f1f' }], source: 'Screener.in prices and EPS; GAM estimates' },
+    ] },
+    { exhibit: { type: 'table', title: 'Scenarios', head: ['Scenario', 'Target', 'vs CMP', 'What has to happen'], wide: [3], rows: [
+      ['**Bull**', '{{scen.bull.tp|inr}}', '{{scen.bull.upside|chg}}', `{{as.scenarios.bull.narrative}} Multiple ${methods[0].multiple.bull}x.`],
+      { hl: true, cells: ['**Base (GAM)**', '{{dcf.tp|inr}}', '{{dcf.upside|chg}}', `AUM +17% / +18% / +18%; NIM {{F.nim.0|pct}} → {{F.nim.2|pct}} (on AUM); credit cost {{F.creditCost.0|pct}}-{{F.creditCost.2|pct}}; ROE 13-14%; ${pbMult}x Sep-28E book.`] },
+      ['**Bear**', '{{scen.bear.tp|inr}}', '{{scen.bear.upside|chg}}', `{{as.scenarios.bear.narrative}} Multiple ${methods[0].multiple.bear}x.`],
+    ], source: 'GAM Research' } },
+    { pair: [
+      { type: 'table', title: 'Target sensitivity: P/B multiple × Sep-28E book (₹)', grid: 'dcf.sensPrimary.grid', rowsRef: 'dcf.sensPrimary.mults', colsRef: 'dcf.sensPrimary.metrics', rowFmt: 'x', colFmt: 'inr1', corner: 'P/B \\ book (bear, base, bull)', source: 'GAM Research' },
+      { type: 'table', title: 'Justified P/B value (₹): cost of equity × sustainable ROE', grid: 'dcf.sens.grid', rowsRef: 'dcf.sens.waccs', colsRef: 'dcf.sens.gs', corner: 'Ke \\ ROE', source: 'GAM Research; g = 10%, book at Sep-27E' },
+    ] },
+    { p: `**What the street's targets require.** The average target of ₹${n0(tpAvg)} is ${n2(streetMult)}x our Sep-28E book, about the stock's ${pbPeakFeb26}x forward peak of Feb-2026, reached just after the MUFG announcement. At the last two years' median of ${PB2y.med}x the target would be ~₹${n0(tpAt(PB2y.med))} (a HOLD); at 1.8x (where it trades today on FY28E book) ~₹${n0(tpAt(1.8))}. A BUY on our numbers needs ~${n2(price * 1.15 / bvSep28)}x Sep-28E book, i.e. the market keeping all of its post-MUFG re-rating while ROE stays at 13-14%.` },
+    { exhibit: { type: 'table', title: 'Listed lenders at the 30-Sep-2026 close', head: ['Company', 'Market value (₹ cr)', 'P/B (x)', 'vs 5-yr median P/B', 'P/E (x)', 'ROE FY26', 'ROA FY26', 'Revenue growth FY26'], rows: PEERS.map(p => [p.symbol === 'SHRIRAMFIN' ? '**Shriram Finance**' : shortName(p.symbol), n0(p.mcapCr), p.pb ? n1(p.pb) : 'n.a.', p.pbVs != null && !['HDBFS', 'BAJAJHFL'].includes(p.symbol) ? pc(p.pbVs) : 'n.m.', n1(p.pe), p.roe != null ? `${n1(p.roe)}%` : 'n.a.', p.roa != null ? `${n2(p.roa)}%` : 'n.a.', p.revG != null ? pc(p.revG) : 'n.a.']), source: `Screener.in (consolidated), trailing multiples scaled to the NSE close on ${ASOF_TXT}; ROA on total assets. Shriram: P/B on Jun-26 book (₹461.78) and P/E on the last four quarters' EPS, because Screener's figures ignore the April share issue (it shows ${n1(P.SHRIRAMFIN.pbScreener)}x and ${n1(P.SHRIRAMFIN.peScreener)}x); market value on 235.3 cr shares. HDB Financial (listed Jul-2025) and Bajaj Housing Finance (Sep-2024): n.m.` } },
+  ],
+};
+
+module.exports = { valuation, ...require('./SHRIRAMFIN.part6b') };

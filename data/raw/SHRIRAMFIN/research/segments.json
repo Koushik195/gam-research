@@ -1,0 +1,44 @@
+{
+ "symbol": "SHRIRAMFIN",
+ "asOf": "2026-09-30",
+ "_note": "Standalone AUM by product (₹ crore, incl. securitised and direct-assignment loans), from the company's segment-wise AUM tables: Q4FY26 investor update p9 (Q4FY25-Q4FY26) and Q1FY27 investor update p7 (Q1FY27). Each row sums to total AUM (rounding). Asset quality by product from the provision-analysis pages (Q1FY27 investor update p9-17). The company reports one segment (financing) under Ind AS 108; product lines are not P&L segments.",
+ "lines": [
+  { "key": "cv", "name": "Commercial vehicles (used and new trucks, buses, LCVs)" },
+  { "key": "pv", "name": "Passenger vehicles (used and new cars, MUVs, 3-wheelers)" },
+  { "key": "ce", "name": "Construction equipment" },
+  { "key": "farm", "name": "Farm equipment (tractors)" },
+  { "key": "msme", "name": "MSME loans" },
+  { "key": "twoW", "name": "Two-wheelers" },
+  { "key": "gold", "name": "Gold loans" },
+  { "key": "pl", "name": "Personal loans" }
+ ],
+ "annual": [
+  { "fy": "FY25", "cv": 118561, "pv": 54104, "ce": 17878, "farm": 5207, "msme": 37414, "twoW": 15581, "gold": 4837, "pl": 9610, "total": 263190, "src": "Q4FY26 investor update p9 (Q4FY25 column)" },
+  { "fy": "FY26", "cv": 141667, "pv": 64413, "ce": 13310, "farm": 6887, "msme": 41245, "twoW": 17414, "gold": 6622, "pl": 10717, "total": 302274, "src": "Q4FY26 investor update p9; FY26 annual report p73" }
+ ],
+ "quarterly": [
+  { "q": "Q4FY25", "cv": 118561, "pv": 54104, "ce": 17878, "farm": 5207, "msme": 37414, "twoW": 15581, "gold": 4837, "pl": 9610, "total": 263190, "src": "Q4FY26 investor update p9" },
+  { "q": "Q1FY26", "cv": 123132, "pv": 56635, "ce": 16535, "farm": 5827, "msme": 38824, "twoW": 15856, "gold": 5154, "pl": 10285, "total": 272249, "src": "Q4FY26 investor update p9" },
+  { "q": "Q2FY26", "cv": 128140, "pv": 59551, "ce": 15367, "farm": 6182, "msme": 40635, "twoW": 15551, "gold": 5336, "pl": 10548, "total": 281309, "src": "Q4FY26 investor update p9" },
+  { "q": "Q3FY26", "cv": 133170, "pv": 63217, "ce": 14219, "farm": 6566, "msme": 41077, "twoW": 17372, "gold": 5644, "pl": 10444, "total": 291709, "src": "Q4FY26 investor update p9" },
+  { "q": "Q4FY26", "cv": 141667, "pv": 64413, "ce": 13310, "farm": 6887, "msme": 41245, "twoW": 17414, "gold": 6622, "pl": 10717, "total": 302274, "src": "Q4FY26 investor update p9" },
+  { "q": "Q1FY27", "cv": 147034, "pv": 68650, "ce": 12373, "farm": 7031, "msme": 41962, "twoW": 17814, "gold": 7514, "pl": 11421, "total": 313798, "src": "Q1FY27 investor update p7 (24-Jul-2026)" }
+ ],
+ "assetQuality": {
+  "_note": "Gross Stage 3 (%) by product at Jun-25, Mar-26 and Jun-26; net Stage 3 (%) and Stage 3 coverage (%) at Jun-26. Q1FY27 investor update p9-17.",
+  "head": ["Product", "GS3 Jun-25", "GS3 Mar-26", "GS3 Jun-26", "NS3 Jun-26", "Stage 3 coverage Jun-26"],
+  "rows": [
+   ["Commercial vehicles", 4.84, 4.72, 4.78, 2.60, 46.89], ["Passenger vehicles", 4.13, 3.94, 4.00, 2.14, 47.43], ["Construction equipment", 5.93, 6.90, 7.12, 3.79, 48.67],
+   ["Farm equipment", 7.59, 5.93, 5.95, 2.96, 51.88], ["MSME", 4.12, 5.10, 5.20, 1.90, 64.62], ["Two-wheelers", 3.16, 3.32, 3.41, 1.28, 63.34],
+   ["Gold", 2.06, 2.29, 2.57, 2.24, 12.92], ["Personal loans", 3.99, 4.28, 4.42, 1.31, 71.31], ["Total", 4.53, 4.58, 4.64, 2.33, 50.99]
+  ]
+ },
+ "stages": {
+  "_note": "Standalone ECL stages, ₹ crore (Q1FY27 investor update p8; Q4FY26 investor update p10).",
+  "jun26": { "s1": 275831, "s2": 21703, "s3": 14478, "ecl1": 9507, "ecl2": 1689, "ecl3": 7382 },
+  "mar26": { "s1": 265727, "s2": 20746, "s3": 13743, "ecl1": 9181, "ecl2": 1665, "ecl3": 6918 },
+  "jun25": { "s1": 237412, "s2": 19615, "s3": 12199, "ecl1": 8268, "ecl2": 1619, "ecl3": 5406 },
+  "mar25": { "s1": 230162, "s2": 17916, "s3": 11839, "ecl1": 7970, "ecl2": 1429, "ecl3": 5124 }
+ },
+ "branchAum": { "_note": "Q1FY27 investor update p20: AUM by branch location, ₹ bn.", "jun26": { "metro": 366.5, "urban": 907.4, "semiUrbanRural": 1864.1, "branchesMetro": 362, "branchesUrban": 821, "branchesRural": 2042 }, "jun25": { "metro": 332.0, "urban": 702.7, "semiUrbanRural": 1687.8 } }
+}

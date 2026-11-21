@@ -1,0 +1,213 @@
+{
+ "asOf": "2026-09-30",
+ "type": "lender",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "_note": "Shriram Finance (consolidated; subsidiaries are immaterial since the Dec-2024 sale of Shriram Housing Finance) lender model, as of 30-Sep-2026 on a Q1FY27 basis. Sources: Q1FY27 results and investor update (24-Jul-2026) and call (24-Jul-2026, transcript filed 27-Jul-2026); Q4FY26 results and investor update (24-Apr-2026) and call; annual reports FY2021-22 (STFC), FY2023-24, FY2024-25, FY2025-26; Screener.in for the statements (FY25 P&L patched to the audited continuing-operations basis, see tools/authoring/SHRIRAMFIN.patch.js). The MUFG preferential issue (47.11 cr shares at ₹840.93 = ₹39,617.98 cr, allotted 8-Apr-2026) is IN the base case as FY27 capital.",
+ "history": {
+  "_why": "aum = standalone AUM incl. direct-assignment (off-book) loans at March (FY18-FY22 Shriram Transport Finance before the merger; FY23 onward the merged Shriram Finance). provisions = impairment on financial instruments and feeIncome = revenue from operations less interest income, both consolidated, on the basis Screener uses for that year (FY23-FY24 include Shriram Housing Finance, consolidated then; FY25 continuing operations). FY23 ratios are distorted by the merger (FY23 income includes Shriram City Union for the whole year while Mar-22 AUM is STFC alone); FY23-FY24 income includes SHFL (FY24 turnover ₹1,430 cr, total assets ₹11,859 cr) which standalone AUM excludes, so FY24 yield and NIM read high (SHFL turnover was ~0.7% of average AUM).",
+  "aum": {
+   "FY18": 96253,
+   "FY19": 104482,
+   "FY20": 109750,
+   "FY21": 117243,
+   "FY22": 127041,
+   "FY23": 185682,
+   "FY24": 224862,
+   "FY25": 263190,
+   "FY26": 302274
+  },
+  "provisions": {
+   "FY21": 3118,
+   "FY22": 3861,
+   "FY23": 4169,
+   "FY24": 4552,
+   "FY25": 5312,
+   "FY26": 5339
+  },
+  "feeIncome": {
+   "FY21": 292,
+   "FY22": 609,
+   "FY23": 1271,
+   "FY24": 1681,
+   "FY25": 1527,
+   "FY26": 1475
+  },
+  "src": {
+   "FY26": "Q4FY26 audited consolidated results p29 (24-Apr-2026); AUM: Q4FY26 investor update p8",
+   "FY25": "FY25 annual report, consolidated P&L p387 (continuing operations); AUM: FY26 annual report p34",
+   "FY23-FY24": "FY24 annual report consolidated P&L p343; AUM: FY26 annual report p34 (five-year chart)",
+   "FY21-FY22": "STFC FY22 annual report consolidated P&L p237",
+   "FY18-FY22 AUM": "STFC FY22 annual report p5 (five-year chart, on-book + off-book)"
+  }
+ },
+ "aumGrowth": [
+  17,
+  18,
+  18
+ ],
+ "_aumGrowthWhy": "FY27 guidance ~18% (budget set in Apr-2026, reiterated 24-Jul-2026, to be reassessed after Q2 on the monsoon); Q1FY27 +15.3% YoY / +3.8% QoQ, Q2 guided at 15-16%. FY26 grew 14.85% against a 15% guide. The MUFG capital lets the company target 18-20% (FY26 annual report). We take 17% in FY27 (as PL and Emkay do) and 18% after, when the new-vehicle, gold and MSME pushes have scale.",
+ "yieldOnAum": [
+  16.6,
+  16.35,
+  16.15
+ ],
+ "_yieldOnAumWhy": "Interest income ÷ average AUM: 16.50% FY26; 16.8% annualised in Q1FY27, helped by interest on ~₹38,500 cr of cash and investments parked from the MUFG money. As that liquidity goes into loans and the mix shifts to new vehicles (16-17% of disbursements, targeted at 20-25%) where management is passing on its lower funding cost, we take the yield down ~15-20bp a year.",
+ "feeIncomePct": [
+  0.58,
+  0.55,
+  0.55
+ ],
+ "_feeIncomePctWhy": "Fees, commission, fair-value gains and other operating income ÷ average AUM: 0.52% FY26, 0.63% in Q1FY27 (incl. ₹185 cr of gains on liquid funds holding unused MUFG money). Back to ~0.55% as the liquidity is used.",
+ "costOfFunds": [
+  8.5,
+  8.6,
+  8.45
+ ],
+ "_costOfFundsWhy": "Interest expense ÷ average of opening and closing borrowings: 8.88% FY26 (company 'cost of liabilities' 8.59% at Mar-26, 8.56% at Jun-26; incremental 7.77% after the Apr-2026 AAA upgrades; bank money ~8%). The underlying FY27E rate is ~8.55%, but the MUFG money cut borrowings in April (₹2,50,690 cr in Mar-26 to ₹2,32,639 cr in Jun-26), so true average FY27 borrowings are ~₹9,000 cr below the engine's opening/closing average; we enter 8.25% so that interest expense matches Q1 actual plus Q2-Q4 at 8.55% on a rising balance (₹20,800 cr). FY28E 8.40% and FY29E 8.25% (≈8.15% / 8.0% on the company basis): new money at 7.8-8.0% replaces older, dearer debt; no rate cuts assumed (repo 5.25%, CPI forecast raised to 5.1%).",
+ "opexPct": [
+  2.78,
+  2.75,
+  2.72
+ ],
+ "_opexPctWhy": "Operating expenses incl. fee and commission expenses and depreciation ÷ average AUM: 2.82% FY26 (2.85% FY25), 2.76% annualised in Q1FY27. ~150 new branches and manpower in FY27 and wage inflation (Q1 staff cost +17%); management expects cost ratios broadly stable as volumes absorb the cost. Small scale gains after FY27. Cost-to-income falls to ~26% because income rises with the extra equity, not because costs fall.",
+ "creditCost": [
+  1.95,
+  2,
+  2
+ ],
+ "_creditCostWhy": "Impairment ÷ average AUM: 2.22% FY24 (incl. SHFL), 2.18% FY25, 1.89% FY26, 1.90% annualised in Q1FY27. Management guides 'around 2%' on its own basis (credit cost to total assets: 1.65% FY26, 1.66% Q1FY27), so on that yardstick FY26 came in well below guidance. We keep 1.95-2.0% of average AUM (≈1.7% of total assets): the current run-rate plus a margin for a deficient monsoon (IMD forecast 90% of normal, El Nino) and faster growth in MSME and personal loans.",
+ "taxRate": [
+  25.3,
+  25.3,
+  25.3
+ ],
+ "_taxRateWhy": "FY26 effective 24.8%, Q1FY27 25.5%; statutory 25.17%.",
+ "payout": [
+  20,
+  20,
+  20
+ ],
+ "_payoutWhy": "FY26 dividend ₹10.80 a share (₹4.80 interim + ₹6.00 final) = 20.3% of EPS; FY24-FY25 payout 19-23% (FY25 incl. a special from the SHFL sale). The FY26 final dividend was paid on the enlarged share count incl. MUFG's shares (₹1,411.7 cr).",
+ "minorityPct": [
+  0,
+  0,
+  0
+ ],
+ "_minorityPctWhy": "No minority interests since Shriram Housing Finance was sold (Dec-2024); subsidiaries left (Shriram Overseas Investments) are wholly owned.",
+ "otherIncome": [
+  80,
+  80,
+  80
+ ],
+ "_otherIncomeWhy": "Screener 'other income' outside operations: ₹52 cr FY26 (₹58 cr before small exceptional items), ₹18 cr in Q1FY27; plus ~₹27 cr pre-tax equivalent of the ~₹20 cr share of profit of the associate Shriram Automall (SFL share FY26 ₹20.5 cr, Q1FY27 ₹5.5 cr), which the engine cannot carry separately.",
+ "capitalRaise": [
+  39619,
+  0,
+  0
+ ],
+ "_capitalRaiseWhy": "MUFG Bank preferential issue: 47,11,21,055 shares at ₹840.93 = ₹39,617.98 cr, allotted 8-Apr-2026 (primary capital; MUFG 20.0% on a fully diluted basis), plus ₹0.89 cr of ESOP exercises in Q1FY27. No further raise is planned: management says the capital supports growth for 4-5 years (Motilal Oswal, 29-Sep-2026) and the FY26 annual report targets a calibrated rise in leverage to ~4.5x over 5-6 years.",
+ "newShares": [
+  47.15,
+  0,
+  0
+ ],
+ "_newSharesWhy": "Shares rise from 188.14 cr (FY26 Profit for EPS ÷ EPS; 188.16 cr reported at Mar-26) to 235.29 cr at Jun-26 (Q1FY27 investor update p30): 47.11 cr to MUFG plus 0.02 cr ESOP. EPS uses year-end shares; the allotment on 8-Apr-2026 makes that close to the weighted count.",
+ "valuation": {
+  "rf": 6.5,
+  "beta": 1.15,
+  "erp": 6,
+  "g": 10,
+  "sustainableRoe": 16,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeYears": 8,
+  "payoutTo": 30,
+  "rollForwardMonths": 6,
+  "_why": "Ke = 6.5% + 1.15 × 6% = 13.4% (house rf and ERP; beta 1.15: a cyclical lender to small truck operators and MSMEs, above Bajaj Finance's 1.1, tempered by AAA funding and low leverage after the MUFG money). sustainableRoe 16% = the 15-17% the franchise earned in FY24-FY26 (company basis, pre-MUFG) once leverage climbs back toward the company's ~4.5x target over 5-6 years; ROE is only 12.8-13.5% in FY27-FY28 because of the extra equity. g = 10% long-run book growth in the justified P/B. Residual income fades ROE to 16% over 8 years, payout rising to 30%, 6% terminal growth.",
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pb",
+     "name": "P/B",
+     "method": "pb",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 1.5,
+      "bull": 2,
+      "bear": 1.2
+     },
+     "why": "The street's method (Motilal Oswal 2.2x FY28E book, ICICI Direct ~2.1x FY28E, Emkay 2.1x FY28E, PL 2.4x Mar-28 adjusted book). 1.5x = own median one-year-forward P/B since Apr-2021 (1.4x, book adjusted for the MUFG issue before it was announced) × the listed-lender move vs five-year medians (−6.6%, Shriram excluded) × the post-merger regime since Apr-2023 (1.6x ÷ 1.4x). Bull 2.0x = close to the Feb-2026 peak (2.1x) and the street; bear 1.2x = where it traded in FY22 before the merger."
+    },
+    {
+     "key": "jpb",
+     "name": "Justified P/B",
+     "method": "jpb",
+     "role": "cross-check",
+     "year": "Sep-27E",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "why": "(ROE − g) ÷ (Ke − g) = (16 − 10) ÷ (13.4 − 10) on book at the 12-month target date."
+    },
+    {
+     "key": "ri",
+     "name": "Residual income",
+     "method": "ri",
+     "role": "cross-check",
+     "why": "Book plus the present value of profit above the 13.4% cost of equity, ROE fading to 16%, rolled forward 6 months."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 9,
+      "bull": 10.8,
+      "bear": 7.6
+     },
+     "why": "Cross-check only. 9x = median forward P/E since Apr-2021 (9.2x, FY25 EPS taken before the ₹1,489 cr SHFL gain) × listed-lender P/E move vs five-year medians (−17.4%) × post-merger regime (10.8x ÷ 9.2x). Bull = post-merger median 10.8x; bear = 25th percentile since 2021 (7.6x, adjusted)."
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "aumGrowthDelta": 2,
+   "yieldDelta": 0.1,
+   "opexDelta": -0.05,
+   "creditCostDelta": -0.25,
+   "sustainableRoe": 18,
+   "narrative": "MUFG-backed growth: AUM +19/20/20% (top of the 18-20% ambition), yield +10bp, opex 5bp lower, credit cost ~1.7% of AUM (FY26-type), long-run ROE 18% as leverage rebuilds faster; the market keeps paying close to its Feb-2026 peak."
+  },
+  "bear": {
+   "label": "Bear",
+   "aumGrowthDelta": -5,
+   "yieldDelta": -0.3,
+   "cofDelta": 0.3,
+   "creditCostDelta": 0.6,
+   "sustainableRoe": 13,
+   "narrative": "A weak monsoon and costlier money: AUM +12/13/13%, yield −30bp (pass-through and competition in new vehicles), funding 30bp dearer (rates rise with inflation), credit cost ~2.6% of AUM (FY25 level plus rural stress); long-run ROE 13%; the multiple falls back to its pre-merger level."
+  }
+ }
+}
