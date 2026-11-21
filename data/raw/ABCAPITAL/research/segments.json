@@ -1,0 +1,42 @@
+{
+ "symbol": "ABCAPITAL", "asOf": "2026-09-30",
+ "_note": "Business-level data for Aditya Birla Capital (₹ crore). NBFC AUM mix from the Q1FY27 presentation p19; segment PBT at 100% of each business (before minorities) from the Q4FY26 p6 and Q1FY27 p6 slides; annual business metrics from Q4 presentations FY21-FY26.",
+ "lines": [
+  { "key": "securedBusiness", "name": "Secured business loans (LAP, LRD, SME)" },
+  { "key": "unsecuredBusiness", "name": "Unsecured business loans" },
+  { "key": "personalConsumer", "name": "Personal & consumer loans" },
+  { "key": "corporateMidMarket", "name": "Corporate / mid-market" }
+ ],
+ "mix": [
+  { "q": "Jun-25", "securedBusiness": 60227, "unsecuredBusiness": 12344, "personalConsumer": 16446, "corporateMidMarket": 42211, "total": 131227 },
+  { "q": "Mar-26", "securedBusiness": 73659, "unsecuredBusiness": 17792, "personalConsumer": 21432, "corporateMidMarket": 47033, "total": 159916 },
+  { "q": "Jun-26", "securedBusiness": 76319, "unsecuredBusiness": 18780, "personalConsumer": 23267, "corporateMidMarket": 49090, "total": 167456 }
+ ],
+ "mixHist": [
+  { "fy": "FY23", "business": 40353, "personalConsumer": 15442, "corporateMidMarket": 24761, "total": 80556, "src": "q4fy24ppt p21" },
+  { "fy": "FY24", "business": 56235, "personalConsumer": 17434, "corporateMidMarket": 31970, "total": 105639, "src": "q4fy25ppt p24" },
+  { "fy": "FY25", "business": 70058, "personalConsumer": 15532, "corporateMidMarket": 40760, "total": 126351, "src": "q4fy25ppt p24" },
+  { "fy": "FY26", "business": 91451, "personalConsumer": 21432, "corporateMidMarket": 47033, "total": 159916, "src": "q1ppt p19" }
+ ],
+ "segPbt": {
+  "_why": "Segment PBT at 100% (AMC and health insurance are equity-accounted in the statutory accounts); Others = broking, ARC, standalone costs, ABCD digital platform, eliminations.",
+  "FY25": { "lending": 3360, "hfc": 419, "amc": 1245, "life": 158, "health": 6, "others": 287, "aggregate": 5475, "tax": 1744, "minority": 589, "pat": 3142 },
+  "FY26": { "lending": 4034, "hfc": 839, "amc": 1268, "life": 288, "health": 47, "others": -298, "aggregate": 6179, "tax": 1712, "minority": 670, "pat": 3797 },
+  "Q1FY26": { "lending": 925, "hfc": 154, "amc": 372, "life": 39, "health": -28, "others": -48, "aggregate": 1414, "tax": 423, "minority": 152, "pat": 839 },
+  "Q1FY27": { "lending": 1222, "hfc": 300, "amc": 406, "life": 61, "health": 18, "others": -90, "aggregate": 1917, "tax": 514, "minority": 228, "pat": 1175 },
+  "src": "q4ppt p6 (FY25 'others' includes the AMC share-sale gain; FY26 excludes the ₹32 cr labour-code charge); q1ppt p6"
+ },
+ "annual": [
+  { "fy": "FY21", "nbfcAum": 48689, "hfcNetWorth": 1519, "lifeEv": 6441 },
+  { "fy": "FY22", "nbfcAum": 55180, "nbfcPat": 1108, "nbfcNetWorth": 9860, "hfcNetWorth": 1721, "hfcPat": 197, "lifeEv": 7609, "lifeVnb": 369, "healthGwp": 1727 },
+  { "fy": "FY23", "nbfcAum": 80556, "nbfcPat": 1554, "nbfcNetWorth": 11426, "hfcNetWorth": 1967, "hfcPat": 241, "lifeEv": 9014, "lifeVnb": 800, "healthGwp": 2717 },
+  { "fy": "FY24", "nbfcAum": 105639, "nbfcPat": 2221, "nbfcNetWorth": 15244, "hfcNetWorth": 2260, "lifeEv": 11539, "lifeVnb": 697, "healthGwp": 3701 },
+  { "fy": "FY25", "nbfcAum": 126351, "nbfcPat": 2501, "hfcNetWorth": 3783, "hfcPat": 323, "lifeEv": 13812, "lifeVnb": 818, "healthGwp": 5252, "amcPat": null },
+  { "fy": "FY26", "nbfcAum": 159916, "nbfcPat": 3001, "hfcAum": 47452, "hfcNetWorth": 5979, "hfcPat": 647, "lifeEv": 15447, "lifeVnb": 1055, "healthGwp": 7292, "amcPat": 975, "lifePat": 171, "healthPat": 61 }
+ ],
+ "quarterly": [
+  { "q": "Q1FY26", "nbfcAum": 131227, "nbfcPat": 689, "hfcAum": 34605, "hfcPat": 119, "amcPat": 277, "lifeIndFyp": 795, "healthGwp": 1461, "consPat": 839 },
+  { "q": "Q4FY26", "nbfcAum": 159916, "nbfcPat": 825, "hfcAum": 47452, "hfcPat": 200, "amcPat": 187, "healthGwp": 2336, "consPat": 1011 },
+  { "q": "Q1FY27", "nbfcAum": 167456, "nbfcPat": 927, "hfcAum": 51833, "hfcPat": 233, "amcPat": 309, "lifeIndFyp": 952, "healthGwp": 2196, "consPat": 1175 }
+ ]
+}

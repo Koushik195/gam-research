@@ -1,0 +1,296 @@
+{
+ "asOf": "2026-09-30",
+ "type": "lender",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "_note": "Aditya Birla Capital, lender model on the STANDALONE accounts (screener.json basis = standalone): since the merger of Aditya Birla Finance (effective 1-Apr-2025, appointed date 1-Apr-2024; FY24 restated) ABCL itself is the NBFC, and it carries its subsidiaries and associates at cost (₹8,991 cr at Mar-26) and receives the AMC's dividend. The consolidated accounts mix ~₹29,000 cr of life-insurance premium and claims with lending income, which the lender engine cannot represent, so the housing-finance company, the insurers, the AMC and the rest are valued outside the engine in a sum of the parts (sotp block below; built in tools/authoring/ABCAPITAL.ctx.js). Consolidated EPS (the street's basis) is rebuilt in the ctx file as model PAT − AMC dividend + share of each subsidiary's profit. AUM = NBFC lending AUM.",
+ "history": {
+  "_why": "aum = NBFC AUM at March (Q4FY25 and Q4FY26 presentations; FY24 from the Q4FY24 presentation). provisions = impairment on financial instruments in the standalone P&L (Annual Report FY26 for FY25-26; FY25 annual report's restated FY24). feeIncome = Screener standalone revenue less the annual report's interest income: dividends (AMC ₹311 cr in FY26), fees and commission (incl. insurance distribution), fair-value gains, assignment gains and, in FY24-25, the gains on selling AMC shares (₹636 cr and ₹283 cr). Screener revenue is ₹15-40 cr above the annual report in FY24-25 (it adds part of other income).",
+  "aum": {
+   "FY24": 105639,
+   "FY25": 126351,
+   "FY26": 159916
+  },
+  "provisions": {
+   "FY24": 1356,
+   "FY25": 1448,
+   "FY26": 1569
+  },
+  "feeIncome": {
+   "FY24": 1443,
+   "FY25": 1430,
+   "FY26": 1323
+  },
+  "src": {
+   "aum": "Q4FY26 presentation p19 (4-May-2026); Q4FY25 p24; Q4FY24 p21",
+   "provisions/fees": "Annual Report FY26 standalone P&L (note 27-35); Annual Report FY25 (FY24 restated)"
+  }
+ },
+ "base": {
+  "shares": 261.96,
+  "_why": "2,61,96,06,094 shares at 31-Mar-2026 (Annual Report FY26, directors' report and note on share capital)."
+ },
+ "aumGrowth": [
+  25,
+  23,
+  21
+ ],
+ "_aumGrowthWhy": "NBFC AUM grew 27% in FY26 and 28% YoY in Q1FY27 (5% QoQ) with disbursements +34%. Management has funded three years of NBFC growth with the June raise (87.5% of ₹4,000 cr) and starts gold loans in Q2FY27 (200-300 branches in FY27). We assume 25% / 23% / 21%: a little below the current pace because the book is now ₹1.67 lakh cr, rates were expected to rise and corporate loans (29% of AUM) grow only ~16%.",
+ "yieldOnAum": [
+  11.3,
+  11.35,
+  11.4
+ ],
+ "_yieldOnAumWhy": "Interest income ÷ average AUM was 12.1% in FY25, 11.3% in FY26 and 11.3% annualised in Q1FY27 (company basis incl. fees: 13.10% → 12.68% → 12.58%) as the mix tilted to secured MSME and corporate loans. Management expects yields to rise only once personal & consumer loans (EIR ~16.2%) go from 14% back to 18-19% of AUM, 'a few more quarters'. We add 5bp a year for mix and gold loans.",
+ "feeIncomePct": [
+  0.99,
+  0.91,
+  0.88
+ ],
+ "_feeIncomePctWhy": "Fee and other operating income (incl. the AMC dividend) ÷ average AUM: 0.92% in FY26 (0.71% excluding the ₹311 cr dividend); Q1FY27 ex-dividend run-rate 0.88% after a 60% jump in processing fees and insurance attachment. Build: fees 0.80% / 0.74% / 0.73% (FY28E cut by ~6bp for IRDAI's proposed caps on loan-linked insurance commission) + AMC dividend growing 10% a year (₹342 / 376 / 414 cr = 0.19% / 0.17% / 0.15% of average AUM).",
+ "costOfFunds": [
+  7.3,
+  7.35,
+  7.3
+ ],
+ "_costOfFundsWhy": "Interest expense ÷ average borrowings: 7.29% in FY26 (company: interest cost 6.62% of the average lending book). AAA-rated; Q1FY27 cost of funds fell 5bp QoQ. Most economists expected a 25bp repo hike in Oct-2026 (30% of borrowings are floating), so we hold FY27E flat and add 5bp in FY28E.",
+ "opexPct": [
+  1.95,
+  1.97,
+  1.95
+ ],
+ "_opexPctWhy": "Operating expenses incl. depreciation ÷ average AUM: 1.90% in FY26 and Q1FY27 (company: 1.93% / 1.95% of the lending book). Gold loans add 200-300 branches in FY27 and ~1,000 over three years, so we add 5-7bp before scale benefits return in FY29E.",
+ "creditCost": [
+  1,
+  1.05,
+  1.1
+ ],
+ "_creditCostWhy": "Impairment ÷ average AUM: 1.25% (FY25), 1.10% (FY26), 0.98% annualised in Q1FY27 (company basis 1.03%) after 18-24 months of cohort clean-up; GS3 1.30%, GS2+3 2.43%, PCR 48%. We assume 1.00% in FY27E rising to 1.10% by FY29E as unsecured and personal loans grow again and rates rise.",
+ "taxRate": [
+  25.2,
+  25.2,
+  25.2
+ ],
+ "_taxRateWhy": "FY26 effective rate 25.4% (₹1,059 cr on ₹4,168 cr); new regime 25.17%.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "ABCL has never paid a dividend (Screener payout 0% FY15-FY26) and is raising equity to grow.",
+ "otherIncome": [
+  100,
+  110,
+  120
+ ],
+ "_otherIncomeWhy": "Non-operating other income ₹112 cr in FY26 and ₹134 cr in FY25 (Annual Report FY26), mainly interest on tax refunds and miscellaneous receipts; Screener shows ₹99 cr after the ₹12 cr labour-code charge.",
+ "capitalRaise": [
+  4000,
+  0,
+  0
+ ],
+ "newShares": [
+  11.24,
+  0,
+  0
+ ],
+ "_capitalRaiseWhy": "₹4,000 cr preferential allotment at ₹356.02 in June 2026 (11,23,53,236 shares: Grasim ₹2,880 cr on 23-Jun-2026, Suryaja ₹200 cr, IFC ₹920 cr). Management: no further raise needed for three years. ESOP allotments (a few lakh shares a quarter) ignored.",
+ "valuation": {
+  "rf": 6.5,
+  "beta": 1.15,
+  "erp": 6,
+  "g": 10,
+  "sustainableRoe": 13,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeYears": 8,
+  "payoutTo": 30,
+  "rollForwardMonths": 6,
+  "_why": "Cost of equity 13.4% (beta 1.15 as for other diversified NBFCs). The engine's justified P/B and residual income run on the STANDALONE book, which carries the subsidiaries at cost and earns only the AMC dividend on them, so they are a floor, not a fair value: sustainable standalone ROE 14% (NBFC ~16% on three-quarters of the book, ~3.5% dividend yield on the rest). The target is the sum of the parts; the engine has no SOTP method for lenders, so the SOTP value per share is carried as an implied multiple of standalone Sep-28E book (written by tools/authoring/ABCAPITAL.sotp.js from the sotp block).",
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pb",
+     "name": "SOTP as implied P/B",
+     "method": "pb",
+     "role": "primary",
+     "year": "Sep-28E book",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 2.4675,
+      "bull": 3.0646,
+      "bear": 1.8992
+     },
+     "why": "SOTP value per share expressed as a multiple of standalone Sep-28E book (the engine has no SOTP for lenders): NBFC on P/B, ABHFL on P/B, AMC stake at market, ABSLI on P/EV, ABHI on P/GWP, less the holding discount. Multiples are set by tools/authoring/ABCAPITAL.sotp.js; see the valuation chapter."
+    },
+    {
+     "key": "jpb",
+     "name": "Justified P/B (standalone, subs at cost)",
+     "method": "jpb",
+     "role": "cross-check",
+     "year": "Sep-27E",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "why": "(14 − 10) ÷ (13.4 − 10) on standalone Sep-27E book: values the subsidiaries at cost, so it is a floor."
+    },
+    {
+     "key": "ri",
+     "name": "Residual income (standalone)",
+     "method": "ri",
+     "role": "cross-check",
+     "why": "Standalone book plus profits above a 13.4% cost of equity; subsidiaries at cost. A floor."
+    }
+   ]
+  }
+ },
+ "sotp": {
+  "_why": "Sum of the parts on the house conventions: lending businesses on P/B of Sep-28E book (the house 12-month-forward basis); insurers on embedded value / premium at the 12-month target date (Sep-27E), because their multiples are trailing; listed stakes at the 30-Sep-2026 close; less a holding discount derived from ABCL's own history (ctx). Multiples derived in ABCAPITAL.ctx.js; a warning prints if these differ from the derivation.",
+  "nbfc": {
+   "multiple": {
+    "base": 2.4,
+    "bull": 2.8,
+    "bear": 1.8
+   },
+   "investmentsAtCost": {
+    "FY26": 8991,
+    "FY27E": 9800,
+    "FY28E": 10300,
+    "FY29E": 10800
+   },
+   "_investWhy": "Mar-26 ₹8,991 cr (Annual Report FY26 note 8); +₹608 cr of rights issues in Jul-2026 (ABSLI ₹484.5 cr, ABHI ₹123.9 cr) and ~₹500 cr a year after for the insurers and the digital platform (GAM estimate; 12.5% of the June raise is earmarked for subsidiaries)."
+  },
+  "hfc": {
+   "stake": 85.505,
+   "aum": {
+    "FY26": 47452,
+    "FY27E": 66000,
+    "FY28E": 86000,
+    "FY29E": 108000
+   },
+   "roa": [
+    2,
+    2,
+    2
+   ],
+   "bookFY26": 5979,
+   "advent": 2750,
+   "multiple": {
+    "base": 1.8,
+    "bull": 2.2,
+    "bear": 1.4
+   },
+   "_why": "AUM +50% YoY in Q1FY27 to ₹51,833 cr; target ₹1 lakh cr+ in 6-10 quarters at ~15% ROE; we model +39% / +30% / +26%. ROA 1.88% (FY26), 2.12% (Q1FY27); we use 2.0%. Book Mar-26 ₹5,979 cr + Advent's ₹2,750 cr (17-Apr-2026)."
+  },
+  "amc": {
+   "stake": 44.89,
+   "shares": 12.9643873,
+   "pat": {
+    "FY26": 975,
+    "FY27E": 1070,
+    "FY28E": 1180,
+    "FY29E": 1300
+   },
+   "dps": 24,
+   "_why": "Listed: ABCL's 12.96 cr ABSLAMC shares at the 30-Sep-2026 close. PAT path for the consolidated build only: +10% a year (FY26 ₹975 cr; Q1FY27 +12% YoY)."
+  },
+  "life": {
+   "stake": 51,
+   "evFY26": 15447,
+   "roev": [
+    14,
+    14,
+    14
+   ],
+   "capital": [
+    950,
+    0,
+    0
+   ],
+   "pat": {
+    "FY26": 171,
+    "FY27E": 230,
+    "FY28E": 290,
+    "FY29E": 360
+   },
+   "multiple": {
+    "base": 1.4,
+    "bull": 1.7,
+    "bear": 1.1
+   },
+   "_why": "EV ₹15,447 cr at Mar-26 (operating RoEV 13.2%); we compound at 14% (VNB margin 15.1% in Q1 vs 7.5%, management targets >20% and doubling VNB in three years) plus the Jul-2026 rights issue (₹950 cr for 100%, ABCL's ₹484.5 cr). Economic variance (−₹934 cr in FY26) assumed zero."
+  },
+  "health": {
+   "stake": 45.89,
+   "gwp": {
+    "FY26": 7292,
+    "FY27E": 10060,
+    "FY28E": 12880,
+    "FY29E": 15970
+   },
+   "pat": {
+    "FY26": 61,
+    "FY27E": 150,
+    "FY28E": 300,
+    "FY29E": 450
+   },
+   "multiple": {
+    "base": 1,
+    "bull": 1.3,
+    "bear": 0.7
+   },
+   "_why": "Sales GWP ₹7,292 cr in FY26 (+39%), +50% in Q1FY27; we model +38% / +28% / +24%. Combined ratio 105% (FY26), 106% (Q1); management aims at 100% in FY27; IFRS profit ₹61 cr (FY26) → GAM path ₹150 / 300 / 450 cr."
+  },
+  "money": {
+   "stake": 73.53,
+   "shares": 5.65,
+   "_why": "Listed Aditya Birla Money (BIRLAMONEY) at the 30-Sep close; 5.65 cr shares (₹5.65 cr capital at ₹1 face value, AOC-1)."
+  },
+  "others": {
+   "valueCr": 489,
+   "pat": {
+    "FY26": -312,
+    "FY27E": -320,
+    "FY28E": -300,
+    "FY29E": -270
+   },
+   "_why": "ARC at book (₹489 cr, AOC-1); the ABCD digital platform (FY26 loss ₹264 cr) at zero. 'Others' PAT for the consolidated build is the FY26 residual (−₹312 cr: ABCD, broking, ARC, eliminations) held roughly flat."
+  },
+  "holdco": {
+   "base": 17,
+   "bull": 11,
+   "bear": 20,
+   "_why": "Derived in ABCAPITAL.ctx.js from ABCL's discount to look-through value at each quarter-end since Mar-2022 (constant multiples); a warning prints if these differ."
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "aumGrowthDelta": 3,
+   "yieldDelta": 0.1,
+   "feeDelta": 0.05,
+   "creditCostDelta": -0.15,
+   "sustainableRoe": 15,
+   "narrative": "NBFC AUM grows ~26% a year, margins widen as personal loans and gold rise, credit cost stays below 1%, IRDAI softens its caps; ABHFL reaches ₹1 lakh cr with 15% ROE; ABSLI margins move above 20%; the holding discount stays near today's level."
+  },
+  "bear": {
+   "label": "Bear",
+   "aumGrowthDelta": -5,
+   "cofDelta": 0.25,
+   "feeDelta": -0.15,
+   "creditCostDelta": 0.5,
+   "sustainableRoe": 11,
+   "narrative": "A rate-hike cycle and a turn in unsecured and MSME credit: AUM growth slows to ~17%, credit cost rises to ~1.5-1.6%, funding costs up 25bp and IRDAI's caps take most loan-linked insurance fees; insurers and HFC de-rate; the holding discount returns to its long-run median."
+  }
+ }
+}
