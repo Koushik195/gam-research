@@ -1,0 +1,277 @@
+{
+ "asOf": "2026-09-30",
+ "type": "lender",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "_note": "L&T Finance (consolidated) lender model, as of 30-Sep-2026 on a Q1FY27 basis. AUM = the company's consolidated 'book' (retail + wholesale loans, ₹1,21,728 cr at Mar-26); it excludes the net security receipts (SRs, ₹4,808 cr) from wholesale loans sold to ARCs, which sit in investments. Sources: Q1FY27 presentation and call (13-Jul-2026); Q4FY26 presentation and call (27-Apr-2026); Annual Reports FY22, FY24, FY25 and FY26 for revenue splits and credit losses; Screener.in for statements (FY24 revenue and expenses put on the audited basis by tools/authoring/LTF.patch.js).",
+ "history": {
+  "_why": "aum = consolidated book at March (company presentations: FY19-FY20 Q4FY20 deck p61, FY21 Q4FY21 deck p51, FY22 Q4FY22 deck p51, FY23-FY26 Q4FY26 deck p66/p68). provisions = all credit and investment losses in the audited consolidated P&L: impairment on financial instruments + net loss on derecognition (write-offs) + net loss on fair value changes (mostly mark-downs of security receipts and wholesale assets), the same definition Motilal Oswal uses; FY23 also includes the ₹2,687 cr exceptional fair-valuation loss on the wholesale book (reclassified for accelerated sell-down), which Screener puts in Expenses. feeIncome = revenue from operations less interest income (fees and commission incl. insurance distribution, dividends, fair-value gains). Up to FY24 most insurance distribution income sat in 'other income', which Screener shows below the line, so FY21-FY24 fee ratios are understated.",
+  "aum": {
+   "FY19": 99121,
+   "FY20": 98384,
+   "FY21": 94013,
+   "FY22": 88341,
+   "FY23": 80893,
+   "FY24": 85565,
+   "FY25": 97762,
+   "FY26": 121728
+  },
+  "provisions": {
+   "FY21": 3636,
+   "FY22": 3083,
+   "FY23": 5228,
+   "FY24": 2137,
+   "FY25": 2468,
+   "FY26": 2746
+  },
+  "feeIncome": {
+   "FY21": 248,
+   "FY22": 226,
+   "FY23": 210,
+   "FY24": 663,
+   "FY25": 1261,
+   "FY26": 1298
+  },
+  "src": {
+   "aum": "Company presentations Q4FY20 p61, Q4FY21 p51, Q4FY22 p51, Q4FY26 p66-68",
+   "FY25-FY26": "Annual Report FY26, consolidated P&L (impairment 2,184.10 / 2,193.35; derecognition 561.77 / 275.04; interest income 16,616.01 / 14,663.29)",
+   "FY24": "Annual Report FY25 consolidated P&L comparatives (interest 12,913.93; revenue 13,576.51; FV loss 356.89; derecognition 457.71; impairment 1,322.36)",
+   "FY23": "Annual Report FY24 consolidated P&L comparatives (FV loss 620.54; derecognition 359.69; impairment 1,560.18; exceptional 2,687.17, note 47/54)",
+   "FY21-FY22": "Annual Report FY22 consolidated P&L (FV loss 1,089.11 / 420.42; derecognition 285.01 / 237.25; impairment 1,709.17 / 2,978.03)"
+  }
+ },
+ "base": {
+  "shares": 250.44,
+  "_why": "Paid-up equity capital ₹2,504.39 cr at ₹10 face value on 31-Mar-2026 (Annual Report FY26 balance sheet) = 250.44 cr shares; Screener's FY26 profit ÷ EPS gives 250.5 cr. ESOP allotments add ~0.1 cr a year (250.57 cr implied by Q1FY27 book value per share); not modelled."
+ },
+ "aumGrowth": [
+  24,
+  21,
+  20
+ ],
+ "_aumGrowthWhy": "FY27 guidance 'AUM growth of over 20%' (27-Apr-2026); Lakshya 2031 '20%+ CAGR'. Q1FY27 book +27% YoY and +6.5% QoQ even after management turned away ₹1,000-1,200 cr of disbursements. FY26 delivered 24.5% against '20%+' guidance. We take 24% for FY27E (the quarterly run-rate of ~5% for the rest of the year), fading to 21% and 20% as the personal-loan base effect wears off. Brokers: Emkay 23%/21%, Motilal Oswal ~26%/23%.",
+ "aumBuild": {
+  "_why": "Illustrative business build (GAM), checked in LTF.ctx.js to sum to the model AUM within 1%. Growth % per year; gold loans and the wholesale run-off in ₹ cr. Guidance: 400-500 new gold branches, 150-200 micro-loan and 150-200 micro-LAP branches in FY27; wholesale book to run off (no new lending since FY24).",
+  "base": "FY26",
+  "growth": {
+   "farm": [
+    11,
+    11,
+    10
+   ],
+   "rgl": [
+    18,
+    17,
+    17
+   ],
+   "mlap": [
+    80,
+    50,
+    35
+   ],
+   "tw": [
+    20,
+    17,
+    16
+   ],
+   "pl": [
+    45,
+    28,
+    25
+   ],
+   "hl": [
+    14,
+    14,
+    14
+   ],
+   "lap": [
+    30,
+    25,
+    22
+   ],
+   "sme": [
+    22,
+    22,
+    20
+   ],
+   "acq": [
+    0,
+    0,
+    0
+   ]
+  },
+  "goldCr": [
+   7500,
+   13000,
+   20500
+  ],
+  "wholesaleCr": [
+   1500,
+   900,
+   500
+  ]
+ },
+ "yieldOnAum": [
+  15.2,
+  15.25,
+  15.25
+ ],
+ "_yieldOnAumWhy": "Interest income ÷ average book (our basis; includes treasury income on ~₹14-18k cr of cash and investments): 15.0% FY25, 15.1% FY26 (company basis 15.20% / 14.71% on its own interest-income definition). Q1FY27 revenue ÷ average book (annualised) was 16.6% incl. fees, vs 16.3% in FY26. The mix shifts to personal loans (~16% yield), micro-LAP and gold, and away from home loans and the ₹2,220 cr wholesale book (11-12%); mortgages are the only floating-rate book. We hold the yield broadly flat (+5-10bp), in line with management's 'NIM + fees 10-10.5%' corridor.",
+ "feeIncomePct": [
+  1.2,
+  0.9,
+  0.92
+ ],
+ "_feeIncomePctWhy": "Fees & other operating income ÷ average book: 1.29% FY25, 1.18% FY26. Distribution income (insurance) was ₹1,047 cr in FY26 (life ₹880 cr, general ₹151 cr): 0.95% of average book and ~26% of PBT. IRDAI's consultation paper (23-Sep-2026) proposes a 2% cap on credit-life commission (28% now), nil on loan-packaged motor TP, 5% on health, and a ban on compulsory bundling (IIFL summary); IIFL estimates a 12% PBT hit for LTF even after 50% mitigation, the highest among NBFCs. We assume a third of distribution income is lost from FY28E net of mitigation (−0.30pp of book); the bear case loses most of it.",
+ "costOfFunds": [
+  6.75,
+  6.85,
+  6.85
+ ],
+ "_costOfFundsWhy": "Interest expense ÷ average Screener borrowings: 7.1% FY25, 6.65% FY26 (the company's weighted average cost of borrowing was 7.35% in FY26; our measure, on the average of year-end borrowings, runs ~0.7pp lower, so we model the change rather than the level). Q1FY27 WACB 7.20%; CFO guides FY27 WACB to 7.35-7.40% assuming one or two rate rises (13-Jul-2026); a majority of economists polled expected a 25bp repo hike at the October policy (Moneycontrol, 28-Sep-2026). FY28E carries a full year of higher rates; LTF is AAA-rated with PSL access, so it reprices less than AA peers.",
+ "opexPct": [
+  4,
+  3.9,
+  3.85
+ ],
+ "_opexPctWhy": "Operating expenses incl. depreciation ÷ average book: 4.2% FY25, 4.02% FY26 (company 4.31% / 4.11%); Q1FY27 3.94% annualised (company 4.03%). FY27 adds 400-500 gold branches, 150-200 micro-loan and 150-200 micro-LAP branches and AI build-out; Lakshya 2031 guides opex to book of 3.75-4.0% and opex + credit cost of 5.75-6.0%. Operating leverage only from FY28E.",
+ "creditCost": [
+  2.4,
+  2.25,
+  2.15
+ ],
+ "_creditCostWhy": "Credit and investment losses ÷ average book: 2.53% FY25, 2.50% FY26 (company 2.50% / 2.54% after macro-prudential releases of ₹400 cr / ₹450 cr; 2.93% / 2.95% before). Q1FY27 2.54% with no release. Guidance: 2.0-2.2% by Q4FY27; 'for modelling, plug 2-2.2%' for FY28; below 2% over Lakshya 2031. Slippages fell from ₹944 cr (Q1FY26) to ₹402 cr (Q4FY26). We are 10-15bp above the guided path: FY27E 2.40% (a 2.54% → ~2.2% glide), FY28E 2.25% and FY29E 2.15%, because personal loans (14% of the book, unseasoned at this size) and resumed microfinance growth push the other way and the FY26 ROA guidance (2.4-2.5%) was only just met.",
+ "taxRate": [
+  25.3,
+  25.3,
+  25.3
+ ],
+ "_taxRateWhy": "FY26 effective 25.4% (current ₹1,070.65 cr, deferred −₹55.35 cr on PBT ₹3,998 cr); statutory 25.17%.",
+ "payout": [
+  23,
+  23,
+  23
+ ],
+ "_payoutWhy": "Dividend ₹2.75 a share for FY25 and FY26 (FY26: 23% of EPS ₹11.92), paid in Q1 of the next year (~₹700 cr). We keep a 23% payout.",
+ "otherIncome": [
+  30,
+  0,
+  0
+ ],
+ "_otherIncomeWhy": "Screener 'other income' was ₹16 cr in FY25 and −₹26 cr in FY26 (₹3 cr other income less the ₹28.5 cr one-time labour-code charge). Q1FY27 ₹30 cr (not explained; the CFO said nothing material). We keep the Q1 figure for FY27E and nothing after. SR recoveries are excluded: management will use them to build macro-prudential provisions, not book them as profit.",
+ "bs": {
+  "liquidityPctOfAum": [
+   15,
+   13.8,
+   12.8
+  ],
+  "_why": "Cash, bank balances and investments were ₹18,523 cr at Mar-26 (15.2% of book), incl. ₹4,808 cr of net security receipts (down from ₹6,770 cr in FY24 and ₹5,862 cr in FY25). We let SRs keep resolving (~₹1,000 cr a year, the FY26 pace; 'three to four years', CFO) and hold the rest of the liquidity at ~11% of book, so the ratio falls ~1pp a year; the money is redeployed into loans."
+ },
+ "capitalRaise": [
+  0,
+  0,
+  0
+ ],
+ "newShares": [
+  0,
+  0,
+  0
+ ],
+ "_capitalRaiseWhy": "No raise needed: Tier 1 17.14% and CRAR 17.89% in Jun-2026 (minimum 15%); debt/equity 4.09x. The last equity raise was the ₹3,000 cr rights issue of FY21.",
+ "valuation": {
+  "rf": 6.5,
+  "beta": 1.15,
+  "erp": 6,
+  "g": 10,
+  "sustainableRoe": 15,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeYears": 8,
+  "payoutTo": 30,
+  "rollForwardMonths": 6,
+  "_why": "Ke = 6.5% + 1.15 × 6% = 13.4%. Beta 1.15 (as for Cholamandalam): AAA-rated with L&T as parent, but ~45% of the book is unsecured (microfinance, personal loans, much of SME) and microfinance has had three losses cycles in a decade. sustainableRoe 15%: above anything LTF has earned since FY19 (18% at the wholesale peak; 11-12% in FY25-26) and below the 16-18% Lakshya 2031 target. g = 10% long-run book growth. Residual income fades ROE to 15% over 8 years, payout rising to 30%, 6% terminal growth.",
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "pb",
+     "name": "P/B",
+     "method": "pb",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 1.6,
+      "bull": 2.2,
+      "bear": 1.2
+     },
+     "why": "The street's method (Motilal Oswal, Emkay, ICICI Securities and ICICI Direct: 2.7x FY28E book). 1.6x = LTF's own median forward P/B since Apr-2024, the first full year as a single 94%+ retail lender (1.7x; the house window from Apr-2021 gives 1.3x but is dominated by the wholesale-and-AMC holding company of FY22-FY24), × listed lenders' P/B move vs five-year medians (−6.6%, eight peers excluding LTF) × growth regime 1.00 (the retail-era window already priced the recovery in ROE). Bull 2.2x = 75th percentile since Apr-2024 (≈ the market's level in 2025-26 before IRDAI); bear 1.2x = lowest since Apr-2024."
+    },
+    {
+     "key": "jpb",
+     "name": "Justified P/B",
+     "method": "jpb",
+     "role": "cross-check",
+     "year": "Sep-27E",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "why": "(ROE − g) ÷ (Ke − g) = (15 − 10) ÷ (13.4 − 10) on book at the 12-month target date."
+    },
+    {
+     "key": "ri",
+     "name": "Residual income",
+     "method": "ri",
+     "role": "cross-check",
+     "why": "Book plus the present value of profit above the 13.4% cost of equity, ROE fading to 15%, rolled forward 6 months."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 12,
+      "bull": 17,
+      "bear": 11
+     },
+     "why": "Cross-check only (UBS uses 18x FY28E EPS). 12x = median forward P/E since Apr-2024 (15.1x; since Apr-2021 13.0x reported, 12.6x after removing FY23, when EPS was a loss before the mutual-fund sale gain) × listed-lender P/E move vs five-year medians (−19.7%) × growth 1.00. Bull 17x = 75th percentile since Apr-2024; bear 11x = lowest since Apr-2024."
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "aumGrowthDelta": 2,
+   "feeDelta": 0.15,
+   "creditCostDelta": -0.2,
+   "sustainableRoe": 17,
+   "narrative": "Lakshya 2031 on schedule: AUM +26/23/22%, IRDAI softens its caps so only a sixth of distribution income is lost, credit cost meets guidance (2.2% FY27E, ~2.0% FY28E, below 2% in FY29E) as Cyclops reaches microfinance and mortgages; ROE ~16% by FY29E and 17% long run."
+  },
+  "bear": {
+   "label": "Bear",
+   "aumGrowthDelta": -5,
+   "cofDelta": 0.25,
+   "feeDelta": -0.3,
+   "creditCostDelta": 0.6,
+   "sustainableRoe": 12,
+   "narrative": "A weak (El Niño) monsoon and another microfinance cycle: AUM +19/16/15%, credit cost back to ~3% (FY25's level before provision releases), most insurance distribution income lost to IRDAI caps (−0.6pp of book vs FY26), funding 25bp dearer; ROE stuck near 10-11%, 12% long run."
+  }
+ }
+}

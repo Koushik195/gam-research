@@ -1,0 +1,82 @@
+{
+ "symbol": "LTF",
+ "asOf": "2026-09-30",
+ "_note": "Street, ownership, events, regulation, critiques, gaps and conflicts as of 30-Sep-2026. Broker notes after 30-Sep-2026 (Q2FY27 updates of 16-19 Oct) are excluded (see updates/later-facts.json).",
+ "street": {
+  "_method": "Brokers that disclose a method value LTF on P/B on FY28E (Mar-28E) book: Motilal Oswal, Emkay, ICICI Securities and ICICI Direct all at 2.7x. UBS (23-Sep-2026) uses 18x FY28E EPS.",
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-07-13", "rating": "Buy", "tp": 380, "method": "P/B", "multiple": "2.7x", "on": "Mar-28E book", "thesis": "Lakshya 2031 execution on an AI-led platform; ~25% loan and ~30% PAT CAGR FY26-28E; ROA 2.6% and ROE ~15% in FY28E; further re-rating as ROA rises", "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/eb77f454_LTF-20260713-MOFSL-RU-PG014.pdf", "published": "2026-07-14" },
+   { "broker": "ICICI Direct", "date": "2026-07-13", "rating": "Buy (from Hold)", "tp": 380, "method": "P/B", "multiple": "~2.7x", "on": "FY28E book", "thesis": "~23% AUM CAGR FY26-28E; NIM+fees resilient at 10.47%; credit cost to 2-2.2%; ROA ~2.4% FY27-28E", "src": "https://mailcontent.icicidirect.com/mailcontent/idirect_ltf_q1fy27.pdf", "published": "2026-07-13" },
+   { "broker": "Emkay Global", "date": "2026-07-13", "rating": "Buy", "tp": 370, "method": "P/BV", "multiple": "2.7x", "on": "FY28E book (Jun-27 target)", "thesis": "Strong start to FY27; >20% AUM growth, NIM+fees 10-10.5%, credit cost to ~2-2.2% by FY27 exit; ROA ~2.8% near term and >3% medium term", "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/4b5df3ff_LTF%20Q1FY27%20Result%20Update_Others.pdf", "published": "2026-07-14" },
+   { "broker": "ICICI Securities", "date": "2026-07-12", "rating": "Buy (from Add)", "tp": 370, "method": "P/B", "multiple": "2.7x", "on": "FY28E book", "thesis": "Q1 beat; EPS +2%/+4% FY27/28E; earnings and AUM ~24% CAGR FY26-28E", "src": "https://askfuzz.ai/discover/news/companies/l-t-finance-gets-buy-rating-target-price-raised-to-370", "published": "2026-07-12" },
+   { "broker": "Nomura", "date": "2026-07-13", "rating": "Buy", "tp": 370, "method": null, "multiple": null, "on": null, "thesis": "Q1 profit 8% above estimates; asset quality encouraging (AI underwriting in 2W); risks: monsoon and insurance-distribution reforms", "src": "https://univest.in/blogs/lt-finance-share-price-target-nomura-buy-rs-370", "published": "2026-07-13" },
+   { "broker": "Citi", "date": "2026-07", "rating": "Buy", "tp": 340, "method": null, "multiple": null, "on": null, "thesis": "₹23,800 cr retail disbursements; urban finance +57%; retail AUM +6.6% QoQ", "src": "https://www.loansjagat.com/news/how-much-growth-is-seen-in-the-disbursements-for-lt-finances-retail-loans-in-q1fy27", "published": "2026-07" },
+   { "broker": "JPMorgan", "date": "2026-07-13", "rating": "Neutral", "tp": 320, "method": null, "multiple": null, "on": null, "thesis": "PPoP and PAT beat but NIM pressure and net slippages up 17bp QoQ to 2.14%; at ~2.3x FY28 book, limited room to re-rate", "src": "https://univest.in/blogs/lt-finance-share-price-target-jpmorgan-neutral-rs-320", "published": "2026-07-13" },
+   { "broker": "UBS", "date": "2026-09-23", "rating": "Buy (from Neutral)", "tp": 380, "method": "P/E", "multiple": "18x", "on": "FY28E EPS (₹21)", "thesis": "Stronger unsecured credit cycle (personal loans ~30% growth for NBFCs); LTF a beneficiary; target assumes higher EPS and a higher multiple", "src": "https://www.indmoney.com/blog/stocks/lt-finance-ubs-upgrade", "published": "2026-09-23" },
+   { "broker": "Morgan Stanley", "date": "2026-07", "rating": "Underweight", "tp": 150, "method": null, "multiple": null, "on": null, "thesis": "28% loan growth will not fix returns soon; ROE 15% is 2.5-3 years away (secondary sources only)", "src": "https://univest.in/blogs/lt-finance-share-price-morgan-stanley-underweight-150", "published": "2026-07" }
+  ],
+  "estimates": {
+   "_note": "Broker estimates standing on 30-Sep-2026 (consolidated). None of these notes priced IRDAI's 23-Sep-2026 proposal.",
+   "mosl": { "date": "2026-07-13", "eps": { "FY27E": 15.9, "FY28E": 20.0 }, "bvps": { "FY27E": 124.9, "FY28E": 141.0 }, "roe": { "FY27E": 13.5, "FY28E": 15.1 }, "roa": { "FY27E": 2.5, "FY28E": 2.6 }, "aum": { "FY27E": 153378, "FY28E": 188856 } },
+   "emkay": { "date": "2026-07-13", "eps": { "FY27E": 16.0, "FY28E": 20.7, "FY29E": 26.6 }, "bvps": { "FY27E": 123.7, "FY28E": 139.2, "FY29E": 159.2 }, "roe": { "FY27E": 13.6, "FY28E": 15.7, "FY29E": 17.8 }, "roa": { "FY27E": 2.6, "FY28E": 2.8, "FY29E": 3.0 }, "aumGrowth": { "FY27E": 23.0, "FY28E": 21.4, "FY29E": 21.0 } },
+   "idirect": { "date": "2026-07-13", "eps": { "FY27E": 14.9, "FY28E": 18.2 }, "roe": { "FY27E": 12.1, "FY28E": 13.2 }, "roa": { "FY27E": 2.4, "FY28E": 2.4 }, "pat": { "FY27E": 3742, "FY28E": 4567 } },
+   "ubs": { "date": "2026-09-23", "eps": { "FY28E": 21.0 } }
+  },
+  "consensus": { "date": "2026-09-30", "medianTp": 370, "meanTp": 340, "n": 9, "source": "GAM arithmetic on the nine targets above (no dated consensus EPS available to us)" }
+ },
+ "events": [
+  { "date": "2021", "title": "~₹3,000 cr rights issue (FY21)", "detail": "46.13 cr shares issued; ₹3,005 cr raised in FY21 incl. ESOPs. Equity capital rose from ₹2,005 cr to ₹2,469 cr.", "src": "Annual Report FY22 (share-capital reconciliation; cash-flow statement)", "published": "2022" },
+  { "date": "2022-04", "title": "Lakshya 2026 launched", "detail": "Goals: retailisation >95%, retail book CAGR >25%, GS3 <3%, NS3 <1%, ROA 2.8-3.0% by FY26.", "src": "Q4FY26 presentation p5", "published": "2026-04-24" },
+  { "date": "2022-11-25", "title": "Mutual fund business sold to HSBC Asset Management", "detail": "Gain of ₹2,575 cr on the L&T Investment Management divestment (plus ₹283 cr on a capital reduction), in FY23 discontinued operations.", "src": "Annual Report FY24, note 47", "published": "2024" },
+  { "date": "2023-03", "title": "Accelerated sell-down of the wholesale book", "detail": "One-time fair-valuation loss of ₹2,687 cr on reclassifying the wholesale loan book (FY23 exceptional); continuing operations lost ₹729 cr after tax; wholesale book fell from ₹43,257 cr (FY22) to ₹19,840 cr, much of it sold to ARCs for security receipts.", "src": "Annual Report FY24, P&L and note 47; Q4FY24 presentation p41", "published": "2024" },
+  { "date": "2023-12-04", "title": "Lending subsidiaries merged into the listed company", "detail": "L&T Finance, L&T Infra Credit and L&T Mutual Fund Trustee merged into L&T Finance Holdings (appointed date 1-Apr-2023), renamed L&T Finance Ltd (RBI certificate 29-Apr-2024).", "src": "Annual Report FY24, share-capital note and note 55; Q1FY27 presentation p3", "published": "2024" },
+  { "date": "2024-01-24", "title": "Sudipta Roy becomes MD & CEO", "detail": "Succeeded Dinanath Dubhashi; ex-ICICI Bank, Citibank, Deutsche Bank.", "src": "Annual Report FY26 (directors' details); Annual Report FY24 chairman's letter", "published": "2026-05-04" },
+  { "date": "2024-07", "title": "Microfinance stress (FY25)", "detail": "Over-leveraged borrowers, Karnataka/Tamil Nadu disruption: RBF PAR 1-30 rose to 1.1%; credit cost 3.80% in Q4FY25 before ₹300 cr of macro-prudential releases; ₹850 cr released over Q3FY25-Q2FY26.", "src": "Q1FY27 presentation p34, p46; Q4FY25 call", "published": "2026-07-10" },
+  { "date": "2025-06-09", "title": "Gold loan business of Paul Merchants Finance acquired", "detail": "Slump sale: ₹1,335 cr book, 130 branches, 696 staff for ₹712 cr cash (goodwill ₹182 cr). 343 gold branches by Jun-2026; book ₹3,829 cr.", "src": "Annual Report FY26, note 46; Q1FY27 presentation p25", "published": "2026-05-04" },
+  { "date": "2026-04-27", "title": "Lakshya 2031 unveiled; payments platform approved", "detail": "20%+ book CAGR, credit cost <2%, ROA 3.0-3.2%, ROE 16-18%; Lakshya 2026 ROA goal (2.8-3.0%) missed (2.40% in Q4FY26).", "src": "Q4FY26 presentation p5, p10; Q4FY26 call", "published": "2026-05-05" },
+  { "date": "2026-07-10", "title": "Q1FY27: record PAT ₹902 cr (+29%), book +27%", "detail": "Credit cost 2.54%, ROA 2.48%, ROE 12.71%; ₹1,000-1,200 cr of disbursements turned away; 500 gold branches planned for FY27.", "src": "Q1FY27 presentation; call 13-Jul-2026", "published": "2026-07-10" },
+  { "date": "2026-09-23", "title": "IRDAI consultation paper on insurance distribution", "detail": "Per IIFL's summary: credit-life commission capped at 2% (28% now), nil on loan-packaged motor TP (16%), 5% on health (40%), compulsory bundling banned, curbs on staff incentives; comments by 25-Oct-2026. LTF fell as much as 9.99% to ₹279.65 on 24-Sep; IIFL put LTF's PBT hit at 12% (with 50% mitigation), the highest among NBFCs.", "src": "https://www.businesstoday.in/markets/stocks/story/pb-fintech-shares-fall-20-bajaj-finance-lt-finance-also-take-hit-heres-why-557454-2026-09-24", "published": "2026-09-24" }
+ ],
+ "market": { "detail": "September 2026 sell-off: Nifty and Sensex down ~5% for the month by 28-Sep on foreign selling, Brent ~$106 and US 10-year yields at 5.2%; a majority of economists polled expected a 25bp repo hike at the next RBI meeting. LTF fell from ₹312.8 (18-Sep weekly close) to ₹265.00 on 30-Sep (−15%), most of it after the IRDAI paper.", "src": "https://upstox.com/news/market-news/stocks/september-slump-sensex-nifty-crash-5-as-fii-selling-and-crude-oil-spike-rattle-markets/article-200972/; Screener.in prices; NSE close", "published": "2026-09-28" },
+ "regulatory": {
+  "upperLayer": "NBFC-Upper Layer under RBI scale-based regulation: CRAR ≥15%, Tier 1 ≥10%.",
+  "mfi": "MFIN guardrails (max three lenders incl. LTF, ₹2 lakh total JLG indebtedness); LTF applies stricter in-house norms (0 DPD applicants only). Industry book deleveraged from ~₹4.4 lakh cr peak to ~₹3.3 lakh cr (CEO, 13-Jul-2026). CGFMU cover taken on 35-40% of FY27 microfinance disbursements.",
+  "gold": "RBI's new gold-loan rules (in force from Apr-2026; tiered loan-to-value and need assessment) cut April originations industry-wide (CEO).",
+  "insurance": "IRDAI consultation (23-Sep-2026): see events. LTF distribution income ₹1,047 cr in FY26 (~26% of PBT); life (mostly credit life) ₹880 cr.",
+  "crar": { "value": 17.89, "tier1": 17.14, "asOf": "2026-06-30", "basis": "consolidated", "src": "q1ppt p51" }
+ },
+ "ownership": {
+  "period": "Jun-2026",
+  "promoterGroup": 65.96, "fii": 7.71, "dii": 14.90, "public": 11.45, "shareholders": 732902,
+  "jun25": { "promoterGroup": 66.16, "fii": 6.19, "dii": 14.10, "public": 13.55, "shareholders": 792374 },
+  "holders": [["Larsen & Toubro (promoter)", 65.96]],
+  "note": "L&T held 165.25 cr shares (65.99%) at Mar-26; its share drifts down as ESOP shares are issued. Domestic institutions rose from 8.7% (Mar-24) to 14.9%; foreign investors from 5.5% (Mar-25) to 7.7%. Named holders above 1% were not available to us (gap).",
+  "src": "Screener.in shareholding (BSE pattern); Annual Report FY26 shareholding note"
+ },
+ "critiques": [
+  ["ROE of 15% is 2.5-3 years away; loan growth alone will not fix returns", "Morgan Stanley (Underweight)"],
+  ["Valuation already discounts the good news at ~2.3x FY28 book; NIM pressure and rising slippages", "JPMorgan (Neutral)"],
+  ["Insurance distribution income is at regulatory risk; LTF the most exposed NBFC (12% of PBT even after mitigation)", "IIFL (24-Sep-2026); Nomura and Emkay risk lists"],
+  ["Personal-loan growth (+80% book) through digital partners is unseasoned", "Analysts on the Q1 call; UBS flags untested unsecured books"],
+  ["Monsoon / El Niño risk to microfinance and tractors", "Nomura; Emkay; Q1 call"],
+  ["Core NIM fell 24bp QoQ as leverage rose", "Motilal Oswal; JPMorgan"]
+ ],
+ "gaps": [
+  "Split of the ₹880 cr life-insurance distribution income between credit life sold with microfinance and other loans; our IRDAI haircut (a third of distribution income from FY28E, net of mitigation) is a GAM estimate.",
+  "Segment yields, credit costs and profit by business (the company does not disclose segment P&Ls); the AUM build is illustrative.",
+  "Gold-loan yield, loss rate and profitability; gold AUM targets beyond branch plans.",
+  "Valuation methods of Nomura, Citi, JPMorgan and Morgan Stanley; the Morgan Stanley and Citi notes are from secondary sources only; no dated consensus EPS/BVPS.",
+  "Quarterly split of revenue into interest and fees on the annual-report basis.",
+  "Named institutional holders above 1% and their stakes (Jun-2026).",
+  "Retail vs wholesale book before FY19; provisions and fee split before FY21.",
+  "Resolution timeline and expected recovery on the ₹4,808 cr net security receipts (management: 'three to four years')."
+ ],
+ "conflicts": [
+  "Interest income: annual report ₹16,616 cr vs company presentation ₹15,948 cr (FY26); the company moves ~₹670 cr of treasury and other income into 'fee & other income' (₹1,973 cr vs ₹1,298 cr in the accounts). NIM+fees are unaffected.",
+  "Credit cost: impairment + write-offs ₹2,746 cr (accounts) vs ₹2,751 cr (presentation) in FY26; FY25 ₹2,468 cr vs ₹2,311 cr after ₹400 cr of macro-prudential releases.",
+  "Screener FY24 revenue ₹14,252 cr and expenses ₹6,195 cr vs audited ₹13,577 cr and ₹5,530 cr (same ~₹675 cr in both); we use the audited figures (LTF.patch.js).",
+  "Q1FY27 profit: company ₹902 cr; Screener ₹916 cr before its minority line (Screener EPS ₹3.60 = ₹902 cr).",
+  "Book value per share: Q1FY27 ₹112.6 after the ₹2.75 dividend paid in the quarter; FY26 ₹111.7.",
+  "ICICI Securities' institutional desk (₹370, 12-Jul) and its retail arm ICICI Direct (₹380, 13-Jul) both use ~2.7x FY28E book."
+ ]
+}

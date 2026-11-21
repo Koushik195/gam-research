@@ -1,0 +1,63 @@
+{
+ "symbol": "LTF",
+ "asOf": "2026-09-30",
+ "_note": "Consolidated book by business (₹ crore, March; Q = quarter-end). FY22-FY24 from the Q4FY23/Q4FY24 presentations (micro-LAP then inside rural group loans; 'consumer loans' renamed personal loans); FY25-Q1FY27 from the Q4FY26 and Q1FY27 presentations. Rural = farm equipment + rural group loans & microfinance (100% JLG) + micro-LAP; urban = two-wheelers, personal loans, home loans, LAP; plus SME, gold, an acquired portfolio and the wholesale (infrastructure and real-estate) run-off. Each row sums to the reported total.",
+ "lines": [
+  { "key": "farm", "name": "Farm equipment", "group": "Rural", "secured": true },
+  { "key": "rgl", "name": "Rural group loans & microfinance", "group": "Rural", "secured": false },
+  { "key": "mlap", "name": "Micro-LAP", "group": "Rural", "secured": true },
+  { "key": "tw", "name": "Two-wheelers", "group": "Urban", "secured": true },
+  { "key": "pl", "name": "Personal loans", "group": "Urban", "secured": false },
+  { "key": "hl", "name": "Home loans", "group": "Urban", "secured": true },
+  { "key": "lap", "name": "Loan against property", "group": "Urban", "secured": true },
+  { "key": "sme", "name": "SME finance", "group": "SME", "secured": false },
+  { "key": "gold", "name": "Gold loans", "group": "Gold", "secured": true },
+  { "key": "acq", "name": "Acquired portfolio", "group": "Other", "secured": true },
+  { "key": "whl", "name": "Wholesale (run-off)", "group": "Wholesale", "secured": true }
+ ],
+ "annual": [
+  { "fy": "FY22", "farm": 11317, "rgl": 13278, "mlap": 0, "tw": 7462, "pl": 2301, "hl": 7837, "lap": 2827, "sme": 61, "gold": 0, "acq": 0, "whl": 43257, "total": 88341, "src": "Q4FY22 presentation p51 (wholesale incl. ₹1,526 cr defocused)" },
+  { "fy": "FY23", "farm": 12819, "rgl": 18693, "mlap": 0, "tw": 8960, "pl": 5471, "hl": 10678, "lap": 2732, "sme": 1378, "gold": 0, "acq": 322, "whl": 19840, "total": 80893, "src": "Q4FY24 presentation p41 (wholesale incl. ₹328 cr defocused)" },
+  { "fy": "FY24", "farm": 13892, "rgl": 24716, "mlap": 0, "tw": 11205, "pl": 6440, "hl": 14550, "lap": 3893, "sme": 3905, "gold": 0, "acq": 1435, "whl": 5528, "total": 85565, "src": "Q4FY24 presentation p41" },
+  { "fy": "FY25", "farm": 15219, "rgl": 25838, "mlap": 482, "tw": 12321, "pl": 8648, "hl": 19250, "lap": 5678, "sme": 6524, "gold": 0, "acq": 1220, "whl": 2582, "total": 97762, "src": "Q4FY26 presentation p68" },
+  { "fy": "FY26", "farm": 16970, "rgl": 29367, "mlap": 1438, "tw": 14372, "pl": 14666, "hl": 22021, "lap": 7989, "sme": 8507, "gold": 2845, "acq": 1334, "whl": 2220, "total": 121728, "src": "Q4FY26 presentation p68" }
+ ],
+ "quarterly": [
+  { "q": "Q1FY26", "farm": 15756, "rgl": 25962, "mlap": 654, "tw": 12331, "pl": 9383, "hl": 20199, "lap": 6265, "sme": 6964, "gold": 1360, "acq": 942, "whl": 2498, "total": 102314, "src": "Q1FY27 presentation p48" },
+  { "q": "Q4FY26", "farm": 16970, "rgl": 29367, "mlap": 1438, "tw": 14372, "pl": 14666, "hl": 22021, "lap": 7989, "sme": 8507, "gold": 2845, "acq": 1334, "whl": 2220, "total": 121728, "src": "Q1FY27 presentation p48" },
+  { "q": "Q1FY27", "farm": 17514, "rgl": 30735, "mlap": 1758, "tw": 15068, "pl": 16917, "hl": 23008, "lap": 8622, "sme": 8884, "gold": 3829, "acq": 1201, "whl": 2098, "total": 129634, "src": "Q1FY27 presentation p48" }
+ ],
+ "disbursements": {
+  "_note": "₹ crore. Q1FY27 presentation p47 and Q4FY26 presentation p67. Wholesale disbursements nil since FY25 (₹13 cr in FY26).",
+  "head": ["Period", "Farm", "Rural group & MFI", "Micro-LAP", "Two-wheelers", "Personal loans", "Home loans", "LAP", "SME", "Gold", "Acquired", "Total retail"],
+  "rows": [
+   ["FY25", 7935, 20472, 449, 9285, 6096, 6898, 2685, 5000, 0, 1222, 60040],
+   ["FY26", 8674, 24866, 1015, 10787, 12220, 7643, 3865, 6130, 6700, 1313, 83213],
+   ["Q1FY26", 2200, 5446, 172, 2128, 1942, 1873, 908, 1273, 1530, 49, 17522],
+   ["Q4FY26", 2037, 6843, 365, 2930, 3786, 2016, 1119, 1838, 2779, 395, 24107],
+   ["Q1FY27", 2453, 6600, 361, 3006, 4380, 2216, 1185, 1567, 1928, 157, 23852]
+  ]
+ },
+ "productHistory": {
+  "_note": "Book at March (₹ crore) of the three 'fulcrum' products, FY15-FY26 (Q4FY26 presentation p61-63 charts).",
+  "fy": ["FY15", "FY16", "FY17", "FY18", "FY19", "FY20", "FY21", "FY22", "FY23", "FY24", "FY25", "FY26"],
+  "rgl": [916, 2234, 3551, 7819, 12476, 12495, 12207, 13278, 18693, 24673, 25838, 29367],
+  "farm": [4379, 4739, 4649, 5811, 7362, 8438, 10261, 11317, 12819, 13892, 15219, 16970],
+  "tw": [1436, 1761, 2110, 3414, 5739, 6575, 7122, 7462, 8960, 11205, 12321, 14372]
+ },
+ "rbfQuality": {
+  "_note": "Rural group loans & microfinance portfolio at risk (% of book), Q2FY24-Q1FY27 (Q1FY27 presentation p34); 0-DPD share vs industry (CRIF High Mark).",
+  "q": ["Q2FY24", "Q3FY24", "Q4FY24", "Q1FY25", "Q2FY25", "Q3FY25", "Q4FY25", "Q1FY26", "Q2FY26", "Q3FY26", "Q4FY26", "Q1FY27"],
+  "par1_30": [0.0, 0.1, 0.1, 0.3, 0.6, 1.0, 1.1, 1.1, 0.9, 0.6, 0.5, 0.5],
+  "par31_90": [0.2, 0.3, 0.4, 0.5, 0.9, 1.2, 1.4, 1.2, 1.0, 0.8, 0.6, 0.4],
+  "par90": [3.0, 2.5, 2.5, 2.4, 2.1, 2.1, 2.6, 2.6, 2.6, 2.7, 2.6, 2.6],
+  "zeroDpd": { "LTF": 96.5, "industry": 77.9, "asOf": "Q1FY27 (industry: preceding quarter)" },
+  "ce0dpd": 99.8
+ },
+ "stages": {
+  "_note": "Retail book, stage-wise (₹ crore) and provisions (Q1FY27 presentation p36). Q4FY26 includes the annual ECL refresh: ₹301 cr of overlays moved from Stage 3/2 to Stage 1 (no P&L effect) and ₹125 cr of macro-prudential provisions folded into the model.",
+  "q1fy26": { "s1": 94495, "s2": 2392, "s3": 2928, "ecl1": 532, "ecl2": 696, "ecl3": 2116 },
+  "q4fy26": { "s1": 114434, "s2": 2045, "s3": 3029, "ecl1": 914, "ecl2": 482, "ecl3": 2056 },
+  "q1fy27": { "s1": 122353, "s2": 2018, "s3": 3164, "ecl1": 1046, "ecl2": 498, "ecl3": 2203 }
+ }
+}
