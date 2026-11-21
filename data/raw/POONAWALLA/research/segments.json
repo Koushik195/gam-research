@@ -1,0 +1,62 @@
+{
+ "symbol": "POONAWALLA",
+ "asOf": "2026-09-30",
+ "_note": "Poonawalla reports one lending segment. AUM by product (₹ crore) from the product tables in the Q4FY26 and Q1FY27 presentations (the balance to the reported total is the discontinued book). Groups: secured retail (LAP, pre-owned cars, gold, CV, machinery & medical equipment), unsecured retail (instant consumer loans, Prime PL, business loans, professional loans, consumer durables, shopkeeper), education loans, and mid-market (loans to rated corporates and NBFCs). Annual AUM history from the company (FY23-FY26) and Motilal Oswal's history table (FY21-FY22, standalone).",
+ "lines": [
+  { "key": "lap", "name": "Loan against property", "group": "Secured" },
+  { "key": "car", "name": "Pre-owned car loans", "group": "Secured" },
+  { "key": "gold", "name": "Gold loans", "group": "Secured" },
+  { "key": "cv", "name": "Commercial vehicle loans", "group": "Secured" },
+  { "key": "mme", "name": "Machinery & medical equipment", "group": "Secured" },
+  { "key": "instant", "name": "Instant consumer loans", "group": "Unsecured" },
+  { "key": "primePl", "name": "Prime personal loans", "group": "Unsecured" },
+  { "key": "bl", "name": "Business loans", "group": "Unsecured" },
+  { "key": "prof", "name": "Professional loans", "group": "Unsecured" },
+  { "key": "cd", "name": "Consumer durable loans", "group": "Unsecured" },
+  { "key": "shop", "name": "Shopkeeper loans", "group": "Unsecured" },
+  { "key": "edu", "name": "Education loans", "group": "Education" },
+  { "key": "mid", "name": "Mid-market (corporates, NBFCs)", "group": "Mid-market" },
+  { "key": "disc", "name": "Discontinued book", "group": "Other" }
+ ],
+ "annual": [
+  { "fy": "FY21", "total": 10250, "src": "Motilal Oswal 17-Jul-2026 p9 (standalone)" },
+  { "fy": "FY22", "total": 11770, "src": "Motilal Oswal 17-Jul-2026 p9 (standalone)" },
+  { "fy": "FY23", "total": 16143, "src": "Q4FY24 presentation p32" },
+  { "fy": "FY24", "total": 25003, "securedPct": 49, "src": "Q4FY24 presentation p3, p32" },
+  { "fy": "FY25", "total": 35631, "securedPct": 57, "src": "Q4FY25 presentation p7" },
+  { "fy": "FY26", "lap": 16935, "car": 5392, "gold": 1299, "cv": 939, "mme": 783, "instant": 11197, "primePl": 4802, "bl": 7303, "prof": 787, "cd": 382, "shop": 1, "edu": 876, "mid": 9245, "disc": 407, "total": 60348, "securedPct": 54, "src": "Q4FY26 presentation p6, p12-13" }
+ ],
+ "quarterly": [
+  { "q": "Q1FY26", "total": 41273, "src": "Q1FY27 presentation p20" },
+  { "q": "Q2FY26", "total": 47701, "securedPct": 56, "src": "Q2FY26 presentation p6; Q1FY27 presentation p20" },
+  { "q": "Q3FY26", "total": 55017, "src": "Q1FY27 presentation p20" },
+  { "q": "Q4FY26", "lap": 16935, "car": 5392, "gold": 1299, "cv": 939, "mme": 783, "instant": 11197, "primePl": 4802, "bl": 7303, "prof": 787, "cd": 382, "shop": 1, "edu": 876, "mid": 9245, "disc": 407, "total": 60348, "securedPct": 54, "src": "Q4FY26 presentation p12-13" },
+  { "q": "Q1FY27", "lap": 18965, "car": 5309, "gold": 1825, "cv": 1171, "mme": 827, "instant": 12973, "primePl": 5793, "bl": 7295, "prof": 810, "cd": 580, "shop": 1, "edu": 1295, "mid": 9858, "disc": 352, "total": 67054, "securedPct": 53, "src": "Q1FY27 presentation p6, p12-13" }
+ ],
+ "disbursements": {
+  "_note": "₹ crore. Annual from Motilal Oswal's history table; Q1FY27 monthly run-rates from the Q1FY27 presentation and call.",
+  "annual": { "FY22": 7520, "FY23": 15750, "FY24": 33290, "FY25": 30240, "FY26": 49440, "src": "Motilal Oswal 17-Jul-2026 p9" },
+  "q1fy27Monthly": [["Prime PL", 537], ["Gold loans", 292], ["Education loans", 144], ["Consumer durables", 144], ["Commercial vehicles", 97]],
+  "newProductShare": [["Q3FY26", 20], ["Q4FY26", 24], ["Q1FY27", 26]],
+  "src": "Q1FY27 presentation p7; Q1FY27 call; Q4FY26 call"
+ },
+ "stages": {
+  "_note": "Standalone ECL stages, ₹ crore and coverage (Q1FY27 presentation p25; Q4FY26 presentation p25).",
+  "head": ["", "Mar-25", "Jun-25", "Sep-25", "Dec-25", "Mar-26", "Jun-26"],
+  "s1": [32417, 37440, 43443, 50576, 55397, 61523],
+  "s2": [624, 628, 577, 575, 584, 650],
+  "s3": [619, 712, 711, 785, 818, 863],
+  "ns3": [282, 328, 358, 410, 417, 439],
+  "s1Pcr": [1.3, 1.0, 0.7, 0.6, 0.6, 0.6],
+  "s2Pcr": [27.3, 23.7, 23.6, 22.9, 19.0, 17.9],
+  "s3Pcr": [54.47, 53.93, 49.65, 47.75, 49.00, 49.11],
+  "gnpa": [1.84, 1.84, 1.59, 1.51, 1.44, 1.37],
+  "nnpa": [0.85, 0.85, 0.81, 0.80, 0.74, 0.70]
+ },
+ "earlyDelinquency": {
+  "_note": "6-MoB 30+ (share of amount disbursed that is 30+ days overdue six months after disbursement), retail products, by sourcing quarter.",
+  "head": ["Q1FY25", "Q2FY25", "Q3FY25", "Q4FY25", "Q1FY26", "Q2FY26", "Q3FY26"],
+  "values": [6.74, 3.06, 1.66, 1.52, 1.34, 1.05, 0.64],
+  "src": "Q1FY27 presentation p26; Q4FY26 presentation p26; Q1FY27 call"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "asOf": "2026-09-30",
+ "type": "lender",
+ "years": ["FY27E", "FY28E", "FY29E"],
+ "_note": "Poonawalla Fincorp (consolidated = standalone in substance since the housing unit was sold in Jul-2023) lender model, as of 30-Sep-2026 on a Q1FY27 basis. Sources: Q1FY27 presentation (17-Jul-2026) and call (17-Jul-2026); Q4FY26 presentation and call (5-May-2026); Annual Reports FY25 and FY26 (consolidated P&L, notes 30-37, 41); Q4FY24 presentation; Screener.in for statements (FY24 row patched to the audited basis, see tools/authoring/POONAWALLA.patch.js). The ₹2,500 cr QIP of 13-Apr-2026 is in FY27E. A further ₹3,000 cr raise in FY28E is our assumption (not announced): see _capitalRaiseWhy.",
+ "history": {
+  "_why": "aum = company AUM at March (FY23-FY24 Q4FY24 presentation p32, standalone; FY25-FY26 Q4FY26 presentation p20). provisions = company 'credit cost' = impairment on financial instruments + net loss on derecognition of financial instruments (loss on sale of NPAs to ARCs): FY26 ₹1,104.13 + ₹105.79 cr; FY25 ₹1,458.17 + ₹94.41 cr (incl. the ₹666 cr one-time accelerated provision on the discontinued short-ticket personal-loan book in Q2FY25); FY24 ₹72.02 cr (before the ₹1,473 cr exceptional provision and write-off on the legacy Magma book, which sits in exceptional items with the ₹2,309 cr gain on the housing sale). feeIncome = revenue from operations less interest income (fees and commission incl. cross-sell, servicing income, net gain on derecognition/assignment, rental and fair-value gains). Each ties to the audited consolidated P&L; FY26 ties to Screener (revenue ₹6,790 cr; expenses ₹3,210 cr = opex excl. depreciation ₹2,001 cr + provisions ₹1,210 cr).",
+  "aum": { "FY23": 16143, "FY24": 25003, "FY25": 35631, "FY26": 60348 },
+  "provisions": { "FY24": 72, "FY25": 1553, "FY26": 1210 },
+  "feeIncome": { "FY24": 209, "FY25": 315, "FY26": 649 },
+  "src": {
+   "aum FY23-FY24": "Q4FY24 presentation p32 (29-Apr-2024)",
+   "aum FY25-FY26": "Q4FY26 presentation p20 (5-May-2026)",
+   "FY25-FY26 P&L": "Annual Report FY26, consolidated statement of profit and loss (p372-373), notes 34a/34b",
+   "FY24 P&L": "Annual Report FY25, consolidated statement of profit and loss (comparatives) and note 41 (exceptional items)"
+  }
+ },
+ "base": {
+  "shares": 80.795,
+  "_why": "Equity share capital ₹161.59 cr at 31-Mar-2026 at ₹2 face value (Annual Report FY26 consolidated balance sheet) = 80.795 cr shares. Screener's FY26 profit ÷ EPS gives 81.2 cr; the reported weighted average was 79.19 cr (basic EPS ₹6.84) because the 3.31 cr promoter shares were allotted only on 17-Sep-2025."
+ },
+ "aumGrowth": [40, 32, 27],
+ "_aumGrowthWhy": "Guidance: AUM growth of ~35-40% CAGR 'over the next couple of years' (Q4FY26 and Q1FY27 presentations p6); Q1FY27 grew 11.1% QoQ and 62.5% YoY to ₹67,054 cr. We take the top of the range for FY27 (needs ~8% a quarter for Q2-Q4, below Q1's 11%), then fade to 32% and 27% as the book passes ₹1 lakh cr and capital binds (the MD said the April QIP covers 'the next 4 to 5 quarters').",
+ "yieldOnAum": [13.45, 13.55, 13.55],
+ "_yieldOnAumWhy": "Interest income ÷ average AUM: 13.4% FY24, 12.8% FY25, 12.8% FY26, 13.3% annualised in Q1FY27 (₹2,118 cr). Disbursement yields rose ~40bp in Q4FY26 and ~50bp in Q1FY27 on mix (Prime PL, gold, consumer durables, CV). We add ~15bp in FY27 and ~10bp in FY28, then hold: secured LAP (28% of AUM at 9.75-12%) and education loans (10.5-13%) cap the blend.",
+ "feeIncomePct": [1.3, 1.25, 1.2],
+ "_feeIncomePctWhy": "Fees and other operating income ÷ average AUM: 0.97% FY24, 1.03% FY25, 1.35% FY26, 1.37% in Q1FY27 (cross-sell ₹91 cr, servicing ₹70 cr, assignment gains ₹51 cr). Assignment (DA) gains are lumpy (JM Financial called the Q4FY26 level unsustainable); cross-sell grows slower than the book.",
+ "costOfFunds": [7.55, 7.6, 7.6],
+ "_costOfFundsWhy": "Interest expense ÷ average Screener borrowings (incl. lease liabilities): 7.4% FY25, 7.4% FY26, 7.5% annualised in Q1FY27. Company cost of borrowing 7.63% (Q4FY26) and 7.72% (Q1FY27); management expects 'a small uptick here and there' (CFO, 17-Jul-2026). AAA rating (CRISIL, CARE) and NCDs at ~32% of borrowings.",
+ "opexPct": [3.95, 3.75, 3.6],
+ "_opexPctWhy": "Operating expenses incl. depreciation ÷ average AUM: 4.3% FY25, 4.4% FY26, 3.96% annualised in Q1FY27 (company basis 4.06%). Management's internal benchmark is a lower ratio each March, with 10-25bp quarterly swings from ~400 new gold branches in FY27. We keep FY27 at the Q1 level (branch build-out absorbs the operating leverage) and take ~15-20bp off a year after that.",
+ "creditCost": [2.25, 2.1, 2.05],
+ "_creditCostWhy": "Provisions ÷ average AUM: 4.4% FY25 (incl. the ₹666 cr STPL clean-up), 2.5% FY26, 2.34% annualised in Q1FY27 (company basis 2.40%, from 2.51% in Q4FY26 and 2.62% in Q3FY26). Early delinquency (6-MoB 30+) fell to 0.64% for the Oct-Dec 2025 cohort; write-offs run at ~₹275-280 cr a quarter. Management expects 'structural' improvement for 'a couple of quarters' but gives no number. We take ~10bp off Q1 for FY27 and stop at ~2.05%: 46-47% of AUM is unsecured and most of the new books are less than two years old. Brokers: Motilal 2.2%/1.9%, HDFC Securities ~2%.",
+ "taxRate": [25.2, 25.2, 25.2],
+ "_taxRateWhy": "Statutory rate; FY26 effective 25.1%, Q1FY27 25.3%.",
+ "payout": [0, 10, 10],
+ "_payoutWhy": "No dividend for FY25 (loss) or FY26 ('to conserve capital', Annual Report FY26); ₹2 a share was paid for FY24. We assume none for FY27E and a 10% payout from FY28E (Motilal Oswal models 10-11%).",
+ "minorityPct": 0,
+ "otherIncome": [5, 5, 5],
+ "_otherIncomeWhy": "Non-operating other income: ₹5.47 cr in FY26, ₹7 cr in Q1FY27.",
+ "capitalRaise": [2454, 3000, 0],
+ "_capitalRaiseWhy": "FY27E: the QIP of 13-Apr-2026 (6.743 cr shares at ₹370.75 = ₹2,500 cr gross). ₹2,454 cr is the equity added in Q1FY27 other than profit (net worth ₹13,060 cr at Jun-26 less ₹10,298 cr at Mar-26 less Q1 PAT ₹308 cr; standalone presentation), i.e. net of issue costs. FY28E: ₹3,000 cr is OUR assumption, not announced. Without it, AUM ÷ net worth reaches ~7x by FY28E and capital adequacy (19.46% in Jun-26, regulatory minimum 15%) would fall below ~15%. The board took a 12-month enabling approval for ₹5,500 cr in Jan-2026, of which ₹2,500 cr was used; the MD said in Jul-2026 that the QIP covers 'the next 4 to 5 quarters'. Emkay also builds in a ₹3,000 cr raise in FY28E. Priced at the 30-Sep-2026 close (₹443.85).",
+ "newShares": [6.743, 6.759, 0],
+ "valuation": {
+  "rf": 6.5, "beta": 1.25, "erp": 6, "g": 10, "sustainableRoe": 15, "terminalGrowth": 6, "years": 15, "fadeYears": 8, "payoutTo": 35, "rollForwardMonths": 6,
+  "_why": "Ke = 6.5% + 1.25 × 6% = 14.0% (house rf and ERP; beta 1.25, above Chola and Shriram at 1.15 and Bajaj Finance at 1.1: ~46% unsecured book, most new products under two years old, a credit event in FY25 and a short record under the current team). sustainableRoe 15% = what a 2.5% ROA on AUM at ~6x AUM ÷ equity gives; our FY29E is ~13%, management's 3-3.5% ROA target would give 17-20%. g = 10% long-run book growth in the justified P/B. Residual income fades ROE to 15% over 8 years with payout rising to 35% (steady-state book growth = 15% × 65% ≈ 10%, consistent with g), 6% terminal growth.",
+  "blend": { "round": 10, "methods": [
+   { "key": "pb", "name": "P/B", "method": "pb", "role": "primary", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 2.4, "bull": 2.8, "bear": 1.9 }, "why": "The street's method (Motilal Oswal 3.0x and Deven Choksey 3.2x FY28E book; JM Financial 2.2x; Emkay 1.9x). 2.4x = own median one-year-forward P/B since Apr-2021 excluding the dates whose forward year was a trough (FY25 loss, FY26 below half the prior peak EPS) (2.5x; 2.8x on all dates) × the listed-lender P/B move vs five-year medians, Poonawalla excluded (−2.5%) × growth/returns regime 1.00 (the window priced 32-55% AUM growth and 11-14% ROE, as we forecast). Bull 2.8x = median on all dates since 2021; bear 1.9x = the low since the reset (Jun-2026) and the bears' multiple." },
+   { "key": "jpb", "name": "Justified P/B", "method": "jpb", "role": "cross-check", "year": "Sep-27E", "roll": ["FY27E", "FY28E", 0.5], "why": "(ROE − g) ÷ (Ke − g) on book at the 12-month target date." },
+   { "key": "ri", "name": "Residual income", "method": "ri", "role": "cross-check", "why": "Book plus the present value of profit above the cost of equity, rolled forward 6 months." },
+   { "key": "pe", "name": "P/E", "method": "pe", "role": "cross-check", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 20, "bull": 25, "bear": 18 }, "why": "Cross-check only. 20x = median forward P/E since Apr-2021 on EPS before one-offs, trough year FY26 left out (25.1x; 21.2x on reported EPS, which carries the FY23-24 exceptional gains) × listed-lender P/E move vs five-year medians (−19.5%) × regime 1.00. Bull 25x = the one-off-adjusted median; bear 18x = the low since the reset (17.7x, Jun-2026)." }
+  ] }
+ },
+ "scenarios": {
+  "bull": { "label": "Bull", "aumGrowthDelta": 3, "yieldDelta": 0.2, "opexDelta": -0.15, "creditCostDelta": -0.3, "sustainableRoe": 18, "narrative": "Management delivers its plan: AUM +43/35/30% (top of guidance and then some), disbursement yields keep rising (+20bp), AI and branch productivity take another 15bp off opex, credit cost falls to ~1.8-1.95% as the new books season well; ROA reaches ~2.7% by FY29E (still short of the 3-3.5% target); long-run ROE 18%." },
+  "bear": { "label": "Bear", "aumGrowthDelta": -10, "yieldDelta": -0.2, "cofDelta": 0.2, "creditCostDelta": 0.8, "sustainableRoe": 12, "narrative": "A second credit event: unseasoned unsecured books (instant loans, Prime PL, business loans) sour as they age, credit cost back near 3% (FY25 was 4.4% incl. one-offs), growth cut to +30/22/17%, funding 20bp dearer and yields 20bp lower as the company retreats to safer loans; long-run ROE 12%." }
+ }
+}
