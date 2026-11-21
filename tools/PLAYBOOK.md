@@ -149,6 +149,11 @@ credit cost, funding and liquidity, capital and leverage, and the ROA → ROE tr
 bank layout (deposits/CASA, fees in other income, CRR/SLR, risk-weighted capital), one AUM line, no
 stage-wise ECL forecast.
 
+Peer data notes: `data/raw/ABCAPITAL/screener.json` is the **standalone** fetch (its lender model);
+use `data/raw/ABCAPITAL/research/screener-consolidated.json` when ABCL is a peer. `HDBFS` is also
+standalone (no subsidiaries). `forwardSeries` keeps every 5th weekly point and can drop the as-of
+close: for short histories compute the series on all weekly closes in your ctx (see HDBFS, CHOLAFIN).
+
 ## 8. Do not
 
 Bypass a site that blocks automated access (no forged referer/origin headers, no scraping around a
