@@ -1,0 +1,51 @@
+{
+ "asOf": "2026-09-30",
+ "type": "lender",
+ "years": ["FY27E", "FY28E", "FY29E"],
+ "_note": "HDB Financial Services (standalone = the whole company; no subsidiaries) lender model, as of 30-Sep-2026 on a Q1FY27 basis. Sources: Q1FY27 presentation (15-Jul-2026) and call transcript (filed 20-Jul-2026); Q4FY26 presentation and call (15-Apr-2026); Annual Report FY2025-26; Screener.in standalone statements. The BPO business (services to HDFC Bank) is kept inside the lender layout explicitly: its revenue sits in fees & other income and its costs in operating expenses, exactly as Screener reports them, and both are forecast in rupees (see _feeIncomePctWhy and _opexPctWhy), so the Screener tie-out is exact and BPO does not grow with AUM.",
+ "history": {
+  "_why": "Closing AUM and lending loan losses (impairment on financial instruments, all lending) from the company's 11-year snapshot (Q1FY27 presentation p32), which ties to the audited P&L. Fees & other income = revenue from operations − interest income (audited P&L: BPO sale of services + other financial charges incl. insurance commission + fair-value gains). Screener revenue − these fees = reported interest income within ₹6 cr in every year. FY21 fee split not on file (FY2021-22 annual report not found).",
+  "aum": { "FY21": 61561, "FY22": 61444, "FY23": 70084, "FY24": 90235, "FY25": 107262, "FY26": 118733 },
+  "provisions": { "FY21": 3069, "FY22": 2466, "FY23": 1330, "FY24": 1067, "FY25": 2113, "FY26": 2815 },
+  "feeIncome": { "FY22": 2943, "FY23": 3475, "FY24": 3014, "FY25": 2464, "FY26": 2641 },
+  "src": { "all": "Q1FY27 presentation p32 (11-year snapshot); Annual Reports FY2022-23, FY2023-24 and FY2025-26 (statement of profit and loss)" }
+ },
+ "base": { "shares": 83.03 },
+ "_baseWhy": "83,03,27,216 shares in issue at 31-Mar-2026 (Annual Report FY2025-26, capital structure), after the IPO's 3,37,83,782 fresh shares (30-Jun-2025) and 7.67 lakh ESOP shares. Screener's FY26 EPS (₹30.64) implies the same 83.03 cr on net profit of ₹2,544 cr. The company's basic EPS (₹30.97) uses the weighted average (82.14 cr), so our FY26 EPS is ~1% lower than reported.",
+ "aumGrowth": [14, 16, 17],
+ "_aumGrowthWhy": "AUM grew 18.9% in FY25 and 10.7% in FY26 while HDB cut back used/high-value CVs and unsecured business loans; gross loans +11.4% YoY in Q1FY27 (+2.8% QoQ) on disbursements +16%. Management's medium-term aim is nominal GDP + 6-7% (~16-18%) and it is 'very hopeful' of moving toward ~18%, with business loans growing from Q3FY27 and asset finance 'over the next few quarters'. FY27E 14% needs ~3.5% a quarter for Q2-Q4 (festive and March quarters are the strong ones). We reach 16-17% only in FY28-29E, i.e. we do not assume the full 18% arrives. Street: Motilal Oswal ~15% FY27E, Emkay 15.0/17.8/17.9%, JM 14.3/15.6%, Jefferies 15.6/18.3/19%.",
+ "yieldOnAum": [14.0, 13.95, 13.9],
+ "_yieldOnAumWhy": "Interest income ÷ average AUM: 14.01% FY25, 13.97% FY26, ~14.2% annualised in Q1FY27 (company yield on gross loans 14.19%, seasonally lifted by consumer durables). Management: yields 'fairly constant'; NIM 8%+ is 'non-negotiable'. The mix moves both ways: consumer finance (higher yield) and gold/LAP (lower yield) grow faster than CVs. We hold ~14.0% and trim 5bp a year for competition.",
+ "feeIncomePct": [2.212, 1.979, 1.877],
+ "_feeIncomePctWhy": "Built in rupees, not as a ratio: (a) lending fees and charges (other financial charges incl. insurance commission, fair-value gains) at 1.22% of average AUM in FY27E (FY26 1.25%, Q1FY27 1.21%), cut by a third of insurance commission (0.13% of AUM) from FY28E for the IRDAI consultation on loan-linked insurance commissions (23-Sep-2026; same treatment as our Cholamandalam report); plus (b) BPO revenue from HDFC Bank of ₹1,260 / 1,300 / 1,340 cr (FY26 ₹1,224 cr, Q1FY27 ₹313 cr; +3% a year, not linked to AUM). Total ₹2,810 / 2,893 / 3,197 cr = 2.212 / 1.979 / 1.877% of average AUM. HDBFS.ctx.js re-checks this build.",
+ "bpoBuild": { "lendingFeePct": [1.22, 1.09, 1.09], "bpoRevenue": [1260, 1300, 1340], "bpoMargin": [100, 105, 110], "lendingOpexPct": [3.75, 3.7, 3.65], "screenerReclass": 36, "insuranceCutPct": 0.13, "_why": "Inputs behind feeIncomePct and opexPct (see their notes); not read by the engine. HDBFS.ctx.js checks that feeIncomePct and opexPct equal this build on the model's average AUM." },
+ "costOfFunds": [6.95, 6.95, 7.0],
+ "_costOfFundsWhy": "Interest expense (Screener) ÷ average borrowings: 7.84% FY25, 7.26% FY26, ~6.96% annualised in Q1FY27 (company cost of borrowings 6.93%, down from 7.57% a year earlier as the 2025 repo cuts reset bank loans, 46% of borrowings). Management: 'range-bound' in Q2; Q3 uncertain. By 30-Sep-2026 most economists expected a 25bp repo hike (Cholamandalam report, market context), so we hold the Q1 level and add 5bp in FY29E. HDB's loans are mostly fixed-rate, so a hike squeezes it until the book reprices.",
+ "opexPct": [4.635, 4.493, 4.351],
+ "_opexPctWhy": "Built in rupees: (a) lending opex incl. depreciation at 3.75% / 3.70% / 3.65% of average AUM (FY26 3.78%, Q1FY27 3.81%; management: ~3.7% of gross loans, AI programme 'Shikhar' targets lower servicing and collection costs) plus (b) BPO costs of ₹1,160 / 1,195 / 1,230 cr (BPO revenue less a ₹100 / 105 / 110 cr margin; FY26 margin ₹81 cr, Q1FY27 ₹26 cr), less ₹36 cr a year that Screener moves from other expenses into interest (FY26: Screener interest ₹6,856 cr vs reported finance cost ₹6,820 cr). Total ₹5,888 / 6,568 / 7,412 cr. Lending cost-to-income ~40%, as in Q1FY27 (39.9%).",
+ "creditCost": [2.35, 2.3, 2.3],
+ "_creditCostWhy": "Loan losses ÷ average AUM: 2.14% FY25, 2.49% FY26 (stress in CVs and unsecured business loans), 2.32% annualised in Q1FY27 (company basis, flat QoQ despite a seasonally weak quarter). Management: ~2.3% plus/minus as a steady state over three years. FY27E 2.35% leaves room for the monsoon/El Nino risk management flags and a Q2-Q3 that is usually weaker; then 2.3%. Street: Emkay 2.3% FY27-29E; Motilal Oswal 2.3/2.2%; Jefferies 2.4/2.1%.",
+ "taxRate": [25.2, 25.2, 25.2],
+ "_taxRateWhy": "Statutory 25.17%; effective 24.9% FY26 (prior-year credits) and 25.6% in Q1FY27.",
+ "payout": [13, 13, 13],
+ "_payoutWhy": "FY26 dividend ₹4 a share (₹2 interim + ₹2 final) = 13% of EPS; FY25 ₹1 (pre-IPO). Dividend policy adopted 23-Jan-2026 under the RBI's NBFC dividend rules. We keep 13%; a higher payout would lower book growth but not value.",
+ "otherIncome": [0, 0, 0],
+ "_otherIncomeWhy": "Screener other income is nil to ₹1 cr in every year; BPO is in fees and opex, not here.",
+ "capitalRaise": [0, 0, 0],
+ "_capitalRaiseWhy": "No equity needed: CRAR 21.29% (Tier 1 17.15%) in Jun-2026 vs a 15% minimum, debt ÷ equity 5.0x. The IPO's ₹2,500 cr fresh issue (Jun-2025) is already in the base. HDFC Bank holds 74.1%, so the 25% public-float rule does not force any sale.",
+ "newShares": [0, 0, 0],
+ "valuation": {
+  "rf": 6.5, "beta": 1.1, "erp": 6, "g": 10, "sustainableRoe": 15, "terminalGrowth": 6, "years": 15, "fadeYears": 8, "payoutTo": 30, "rollForwardMonths": 6,
+  "_why": "Ke = 6.5% + 1.1 × 6% = 13.1% (house rf and ERP; beta 1.1 as for Bajaj Finance and SBI Cards: AAA funding and an HDFC Bank parent, against a book that is 26% unsecured and 37% vehicle and equipment loans and whose ROE fell to 4.8% in FY21). sustainableRoe 15% = management's 2.5% ROA target × ~6x assets ÷ equity (5.98x at Mar-26), and the median of HDB's FY16-FY26 ROE (15.7%; range 4.8-19.5%). g = 10% long-run book growth (about nominal GDP). Residual income: ROE fades from FY29E to 15% over 8 years, payout rising to 30%, 6% terminal growth.",
+  "blend": { "round": 10, "methods": [
+   { "key": "pb", "name": "P/B", "method": "pb", "role": "primary", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 2.0, "bull": 2.3, "bear": 1.6 }, "why": "The street's method (Motilal Oswal 2.3x Mar-28E book, Emkay 2.2x FY28E, Nomura 2.3x Jun-28E, Jefferies 2.5x Jun-28E, Equirus 2.5x FY28E). 2.0x = HDB's own median one-year-forward P/B over the last 12 months (2.28x on all weekly closes, Oct-2025 to Sep-2026) × listed lenders' P/B move against their own 12-month medians on 30-Sep-2026 (−11%, median of ten lenders excluding HDB and Bajaj Housing Finance). The first three months after listing (2.7-3.0x: listing pop, anchor and early lock-in expiries) are left out, as in our Bajaj Housing Finance report; the since-listing median is 2.5x. Bull 2.3x = the 12-month median (sector back to its recent norm); bear 1.6x = justified P/B at a 15% ROE and a 13.1% cost of equity." },
+   { "key": "jpb", "name": "Justified P/B", "method": "jpb", "role": "cross-check", "year": "Sep-27E", "roll": ["FY27E", "FY28E", 0.5], "why": "(ROE − g) ÷ (Ke − g) = (15 − 10) ÷ (13.1 − 10) = 1.61x book at the 12-month target date." },
+   { "key": "ri", "name": "Residual income", "method": "ri", "role": "cross-check", "why": "Book plus the present value of profit above the 13.1% cost of equity, ROE fading to 15%, payout rising to 30%, rolled forward 6 months." },
+   { "key": "pe", "name": "P/E", "method": "pe", "role": "cross-check", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 13.5, "bull": 17, "bear": 11 }, "why": "Cross-check only, derived the same way: HDB's median one-year-forward P/E over the last 12 months (16.8x on all weekly closes) × listed lenders' P/E move against their 12-month medians (−19.5%) = 13.5x. Bull 17x = the 12-month median; bear 11x = base scaled like the P/B bear (1.6 ÷ 2.0)." }
+  ] }
+ },
+ "scenarios": {
+  "bull": { "label": "Bull", "aumGrowthDelta": 2, "yieldDelta": 0.05, "creditCostDelta": -0.15, "sustainableRoe": 17, "narrative": "Growth reaches management's ~18% by FY28 as asset finance and business loans turn (AUM +16/18/19%), yields hold 5bp higher and credit cost settles at ~2.15% (FY24 was 1.3%); long-run ROE 17%." },
+  "bear": { "label": "Bear", "aumGrowthDelta": -4, "yieldDelta": -0.1, "cofDelta": 0.25, "creditCostDelta": 0.5, "sustainableRoe": 13, "narrative": "A weak monsoon and a repo hike hit CV and small-business borrowers: AUM +10/12/13%, credit cost back to ~2.8% (above FY26's 2.5%), funding cost +25bp and yield −10bp; long-run ROE stays at 13%, below the cost of equity." }
+ }
+}

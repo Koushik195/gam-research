@@ -1,0 +1,55 @@
+{
+ "symbol": "HDBFS",
+ "asOf": "2026-09-30",
+ "_note": "Gross loan book by vertical and product (₹ crore) and Stage 3 by vertical. Verticals: Mar-25, Jun-25, Dec-25, Mar-26, Jun-26 from the Q4FY26 (p32) and Q1FY27 (p24, p31) presentations; products: Jun-25, Mar-26, Jun-26 (Q1FY27 p24). Each row sums to the gross loan book (rounding). AUM (model) is ~0.2% above the gross loan book.",
+ "verticals": [
+  { "key": "el", "name": "Enterprise lending", "what": "Loans against property, enterprise and unsecured business loans, salaried personal loans, gold loans: small businesses and self-employed" },
+  { "key": "af", "name": "Asset finance", "what": "Commercial vehicles (new and used), construction equipment, tractors: small fleet operators, first-time buyers, contractors" },
+  { "key": "cf", "name": "Consumer finance", "what": "Consumer durables, auto loans, two-wheelers, relationship personal loans, micro lending" }
+ ],
+ "verticalBook": [
+  { "q": "Mar-25", "el": 42006, "af": 40649, "cf": 24223, "total": 106878, "src": "q4ppt p32" },
+  { "q": "Jun-25", "el": 42365, "af": 41305, "cf": 25672, "total": 109342, "src": "q1ppt p24" },
+  { "q": "Dec-25", "el": 43575, "af": 43524, "cf": 27479, "total": 114577, "src": "q4ppt p32" },
+  { "q": "Mar-26", "el": 44841, "af": 44729, "cf": 28923, "total": 118493, "src": "q1ppt p24" },
+  { "q": "Jun-26", "el": 45742, "af": 45009, "cf": 31095, "total": 121846, "src": "q1ppt p24" }
+ ],
+ "verticalStage3": {
+  "_note": "Gross Stage 3 (₹ cr) and provision coverage by vertical (q4ppt p32; q1ppt p31).",
+  "Mar-25": { "el": [751, 57], "af": [1277, 51], "cf": [386, 70] },
+  "Jun-25": { "el": [818, 60], "af": [1500, 51], "cf": [476, 69] },
+  "Dec-25": { "el": [792, 49], "af": [1884, 54], "cf": [539, 70] },
+  "Mar-26": { "el": [708, 50], "af": [1695, 54], "cf": [493, 69] },
+  "Jun-26": { "el": [741, 49], "af": [1605, 54], "cf": [506, 70] }
+ },
+ "products": {
+  "_note": "Gross loan book by product, ₹ crore (q1ppt p24); ticket sizes at origination and tenor (q1ppt p17). Secured share 73.9% in Jun-2026.",
+  "head": ["Product", "Vertical", "Jun-25", "Mar-26", "Jun-26", "Average ticket", "Tenor", "Secured?"],
+  "rows": [
+   ["Loan against property", "el", 23432, 25673, 26422, "₹47 lakh", "~10 yrs", "Yes"],
+   ["Enterprise business loan (secured)", "el", 2008, 2275, 2365, "₹13 lakh", "~9 yrs", "Yes"],
+   ["Business loan (unsecured)", "el", 12463, 11693, 11497, "₹2.99 lakh", "~4 yrs", "No"],
+   ["Salaried personal loan", "el", 3572, 3600, 3584, "₹3.54 lakh", "~5 yrs", "No"],
+   ["Gold loan", "el", 890, 1599, 1874, "₹3.3 lakh", "~3 yrs", "Yes"],
+   ["Commercial vehicle loans", "af", 26872, 29250, 29503, "₹9.07 lakh", "~4 yrs", "Yes"],
+   ["Construction equipment loans", "af", 11499, 12372, 12444, "₹20 lakh", "~4 yrs", "Yes"],
+   ["Tractor loans", "af", 2934, 3107, 3062, "₹3.05 lakh", "~4 yrs", "Yes"],
+   ["Consumer durables loans", "cf", 4479, 5465, 6759, "₹18,000", "~1 yr", "No"],
+   ["Auto loans", "cf", 8763, 10072, 10584, "₹4.46 lakh", "~4 yrs", "Yes"],
+   ["Two-wheeler loans", "cf", 3437, 3764, 3747, "₹52,000", "~3 yrs", "Yes"],
+   ["Relationship personal loan", "cf", 8437, 9062, 9448, "₹56,000", "~2 yrs", "No"],
+   ["Micro lending", "cf", 557, 560, 558, "₹28,000", "~2 yrs", "No"]
+  ]
+ },
+ "kpiBlocks": [
+  { "title": "Gross loan book by vertical (₹ crore)", "unit": "₹ cr", "rows": [
+   { "name": "Enterprise lending", "values": { "FY25": 42006, "FY26": 44841 } },
+   { "name": "Asset finance", "values": { "FY25": 40649, "FY26": 44729 } },
+   { "name": "Consumer finance", "values": { "FY25": 24223, "FY26": 28923 } }
+  ], "source": "Q4FY26 presentation p32; Q1FY27 presentation p24" },
+  { "title": "BPO services for HDFC Bank (₹ crore)", "unit": "₹ cr", "rows": [
+   { "name": "BPO revenue", "values": { "FY22": 2363, "FY23": 2634, "FY24": 1950, "FY25": 1217, "FY26": 1224 } },
+   { "name": "BPO profit before tax", "values": { "FY22": 135, "FY23": 141, "FY24": 158, "FY25": 71, "FY26": 81 } }
+  ], "source": "Annual reports FY23, FY24, FY26 (segment notes); Q1FY27 presentation p32" }
+ ]
+}
