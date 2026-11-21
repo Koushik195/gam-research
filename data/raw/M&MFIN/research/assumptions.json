@@ -1,0 +1,79 @@
+{
+ "asOf": "2026-09-30",
+ "type": "lender",
+ "years": ["FY27E", "FY28E", "FY29E"],
+ "_note": "Mahindra & Mahindra Financial Services (M&M Finance, MMFSL) consolidated lender model, as of 30-Sep-2026 on a Q1FY27 basis. AUM = group lending AUM = MMFSL standalone 'business assets' (incl. provisions) + Mahindra Rural Housing Finance (MRHFL, 98.43% owned) net loans; Mahindra Ideal Finance (Sri Lanka, 58.2%, loans ₹806 cr in FY26) is left out of AUM (0.6%) but its income sits in the consolidated P&L. The company's own 'Total Lending AUM' (₹1,46,623 cr, Jun-2026) uses MRHFL's gross book (₹9,174 cr vs ₹8,976 cr net). Consolidated revenue includes Mahindra Insurance Brokers (MIBL, 100%) broking income (₹1,456 cr FY26), whose payouts sit in 'fees and commission expense' (₹1,318 cr) inside opex: both the fee yield and the opex ratio are therefore ~1pp higher than for a pure lender. Sources: Q1FY27 presentation and call (21-Jul-2026), Q4FY26 presentation and call (24-Apr-2026), Q3FY26 call (28-Jan-2026), annual reports FY20/FY22/FY24/FY26, Screener.in.",
+ "history": {
+  "_why": "aum = MMFSL standalone business assets at March (FY18-FY20 Q4FY20 presentation p38 (₹ mn); FY19-FY21 Q4FY21 presentation p34; FY22-FY24 Q4FY24 presentation p30; FY25 Q4FY25 p30; FY26 Q4FY26 p34) + MRHFL loans & advances net (Q4FY20 subsidiary page 'outstanding loan book' FY18-FY20; Q4FY21, Q4FY23, Q4FY24, Q4FY25 and Q4FY26 subsidiary pages). provisions = consolidated 'impairment on financial instruments' (AR FY20 for FY19-FY20 in ₹ lakh, AR FY22 for FY21-FY22, AR FY24 for FY23-FY24, AR FY26 for FY25-FY26). feeIncome = consolidated revenue from operations less interest income (fees and commission incl. insurance agency commission, MIBL insurance-broking 'sale of services', lease rentals, fair-value gains). Screener's revenue is ₹36-271 cr a year higher than the annual report (it moves part of other income into revenue; FY26 ₹36 cr), so implied interest income is that much above the annual report.",
+  "aum": { "FY18": 57531, "FY19": 70811, "FY20": 75959, "FY21": 71736, "FY22": 71990, "FY23": 89615, "FY24": 109530, "FY25": 126567, "FY26": 142416 },
+  "provisions": { "FY19": 717, "FY20": 2319, "FY21": 3999, "FY22": 2690, "FY23": 1183, "FY24": 1956, "FY25": 2085, "FY26": 2483 },
+  "feeIncome": { "FY19": 402, "FY20": 425, "FY21": 407, "FY22": 459, "FY23": 670, "FY24": 1385, "FY25": 1897, "FY26": 2577 },
+  "aumSplit": {
+   "_why": "Components of the AUM line (₹ cr): MMFSL standalone business assets and MRHFL net loans.",
+   "mmfsl": { "FY18": 51528, "FY19": 63122, "FY20": 68089, "FY21": 64608, "FY22": 64961, "FY23": 82770, "FY24": 102597, "FY25": 119673, "FY26": 134096 },
+   "mrhfl": { "FY18": 6003, "FY19": 7689, "FY20": 7870, "FY21": 7128, "FY22": 7029, "FY23": 6845, "FY24": 6933, "FY25": 6894, "FY26": 8320 }
+  },
+  "src": {
+   "aum MMFSL": "Q4FY20 p38, Q4FY21 p34, Q4FY24 p30, Q4FY25 p30, Q4FY26 p34 (Stage 3 analysis tables: 'Business Assets (including Provisions)')",
+   "aum MRHFL": "Q4FY20, Q4FY21, Q4FY23, Q4FY24, Q4FY25, Q4FY26 subsidiary pages (net loan book)",
+   "provisions/fees FY25-FY26": "Annual Report FY26, consolidated statement of profit and loss (p260)",
+   "FY23-FY24": "Annual Report FY24, consolidated statement of profit and loss",
+   "FY21-FY22": "Annual Report FY22, consolidated statement of profit and loss",
+   "FY19-FY20": "Annual Report FY20, consolidated statement of profit and loss (₹ lakh)"
+  }
+ },
+ "base": {
+  "shares": 138.955,
+  "_why": "1,38,99,71,160 shares issued at 31-Mar-2026 (after the 15.44 cr-share rights issue allotted 9-Jun-2025) less 4,25,999 shares held by the ESOP trust not yet allotted = 1,38,95,45,161 (AR FY26, note 17). Screener's FY26 'Profit for EPS' ÷ EPS gives 139.0 cr; net profit ÷ EPS 139.3 cr (consolidated profit before minorities). The MRHFL merger adds ~3.5 lakh shares from FY28 (negligible; not modelled)."
+ },
+ "aumGrowth": [14, 15, 15],
+ "_aumGrowthWhy": "Group AUM +13.4% in FY26 (MMFSL +12%, MRHFL +21%); Jun-2026 YoY: MMFSL +13%, MRHFL AUM +29% (net loans +29%). Disbursements +22% in Q1FY27 (tractors +45%, PV +24%, used +16%, CV/CE −3%). Guidance: no annual number; 16-18% AUM CAGR FY26-31 with wheels ~11-12% and non-wheels 30%+ (Q1 call; M&M group investor deck Nov-2025). Brokers: Prabhudas Lilladher 13%/15% (FY27/28E), Motilal Oswal ~14% CAGR, Emkay 16.4%/17.1%/18.4%. We take 14% for FY27E (Q1 pace plus faster MRHFL; the weak monsoon, 12.6% below normal, hits H2 tractor and rural demand after Q1 pulled tractor buying forward) and 15% after, below the 16-18% aspiration: the company missed its last growth target (Vision 2025: 2x AUM from FY22; delivered 1.84x by FY25).",
+ "yieldOnAum": [13.7, 13.7, 13.65],
+ "_yieldOnAumWhy": "Interest income ÷ average group AUM: 14.6% FY24, 14.1% FY25, 13.7% FY26 (vehicle-loan pricing passed on falling rates; FY26 included one-offs in Q3: a run-off of non-interest-bearing trade advances and write-backs). Company loan income ÷ average assets 11.6% FY26, 11.8% Q4FY26, 11.5% Q1FY27 (the dip is mostly a larger liquidity buffer, per the CFO). Mix: tractors and used vehicles (higher yield) up; SME, mortgages and prime PV (lower yield) also up; new fixed-rate vehicle loans reprice up if the RBI hikes. We hold 13.7% for FY27-28E and let it slip 5bp in FY29E as mortgages (lower yield) pass 9% of AUM.",
+ "aumBuild": {
+  "_why": "Illustrative build (GAM), checked in M&MFIN.ctx.js to sum to the model AUM within 1%. FY26 base = standalone asset-class shares (Q4FY26 presentation p22) × business assets ₹1,34,096 cr, plus MRHFL net loans ₹8,320 cr. Growth: wheels ~11% (guidance 11-12%; tractors strong in FY27 after Q1 +45% disbursements, then slower on the weak monsoon; CV/CE held back by the exit from fleet HCV/CE), non-wheels ~30% (guidance 30%+; MRHFL merging into MMFSL from Apr-2027).",
+  "base": "FY26",
+  "growth": { "pv": [12, 13, 13], "cv": [4, 7, 8], "used": [13, 14, 14], "tractor": [16, 10, 12], "tw3": [5, 8, 8], "sme": [28, 30, 30], "others": [30, 32, 32], "mrhfl": [30, 32, 32] }
+ },
+ "feeIncomePct": [1.95, 1.82, 1.82],
+ "_feeIncomePctWhy": "Fees and other operating income ÷ average group AUM: 0.8% FY23, 1.4% FY24 (MIBL consolidated from Sep-2023), 1.6% FY25, 1.9% FY26. FY26: corporate-agency insurance commission ₹507 cr (life ₹315 cr, general ₹192 cr; 2.4x FY25), loan fees ₹368 cr, MIBL broking ₹1,456 cr, lease rentals ₹175 cr. Management: standalone fee ratio to stay ~1.4-1.5% of assets. IRDAI's 23-Sep-2026 consultation proposes caps of ~2-5% on commission for loan-linked insurance (comments due 25-Oct-2026). We keep FY27E at 1.95% (rules unlikely to bite before FY28) and cut ~0.13pp from FY28E: roughly half of the credit-life commission and a slice of general-insurance commission lost (MIBL's open-market motor broking is less exposed).",
+ "costOfFunds": [7.25, 7.35, 7.35],
+ "_costOfFundsWhy": "Interest expense ÷ average borrowings (Screener, incl. public deposits and subordinated debt): 7.7% FY24, 7.7% FY25, 7.2% FY26 (RBI cuts in 2025 and the ₹2,996 cr rights issue of Jun-2025 reducing debt); Q1FY27 annualised ~7.15%. CFO (21-Jul-2026): cost of funds up ~10bp QoQ in Q1, expected to stay in this range ±10bp. AAA-rated (CRISIL, India Ratings, CARE); 44% of borrowings floating; public deposits ₹14,674 cr (11% of funding). A majority of economists expected a 25bp repo hike at the October-2026 RBI policy. We take +3bp in FY27E and +10bp more in FY28E.",
+ "opexPct": [4.3, 4.24, 4.18],
+ "_opexPctWhy": "Operating expenses incl. depreciation and fees & commission expense ÷ average group AUM: 4.5% FY24, 4.3% FY25, 4.3% FY26; Q1FY27 annualised 4.3%. About 1pp of this is MIBL's commission payouts and DSA/sourcing costs (fees & commission expense ₹1,318 cr in FY26), which move with MIBL's fee income. Standalone opex is 2.7% of assets (FY26, Q1FY27) and management calls 2.5-2.7% 'a business model requirement'; headcount flat at ~22,600 while the book grows (Udaan digital stack). We allow 6bp a year of operating leverage.",
+ "creditCost": [1.75, 1.75, 1.65],
+ "_creditCostWhy": "Provisions ÷ average group AUM: 3.7% FY22, 1.5% FY23, 2.0% FY24, 1.8% FY25 (flattered by a ₹434 cr release from the Q3FY25 ECL model refresh), 1.85% FY26 (incl. a ₹217 cr Q4 overlay; the ₹635 cr Q3 overlay only offset the ECL-refresh release). Q1FY27 1.57% annualised (company basis 1.5% of assets vs 1.9% in Q1FY26). Guidance: 1.3-1.7% of assets through the cycle, 'lower end if we execute well'. Against that, the 2026 monsoon ended ~12.6-13% below normal (fourth-weakest since 2001; UNI citing IMD, 30-Sep-2026) and tractors are 12% of AUM; after the last back-to-back deficient monsoons (2014: ~12% short; 2015: 86% of normal) ROE fell from 13% (FY16) to 8% (FY17) and profit 43% over FY15-17. We take 1.75% for FY27E and FY28E (≈1.6% on the company's asset basis; overlay of ₹852 cr kept, not released) and 1.65% in FY29E.",
+ "taxRate": [25.2, 25.2, 25.2],
+ "_taxRateWhy": "FY26 effective 25.2% (₹965 cr on PBT ₹3,826 cr); FY25 25.3%.",
+ "payout": [36, 36, 36],
+ "_payoutWhy": "DPS ₹7.50 for FY26 (375% of face value; ₹1,042 cr) = 36.5% of consolidated EPS ₹20.54 and 37% of standalone PAT; ₹6.50 for FY25 (38.5% of standalone profit after restatement), ₹6.30 for FY24. We keep 36%.",
+ "minorityPct": [0.2, 0.2, 0.1],
+ "_minorityPctWhy": "Minority share ₹6 cr of ₹2,861 cr FY26 profit (0.2%): Mahindra Ideal Finance (41.8% minority) and MRHFL (1.57%). MRHFL merges into MMFSL from 1-Apr-2027 (board approval 5-Aug-2026, swap 1.8 MMFSL shares per 10 MRHFL shares), so its minority falls away in FY28E-29E.",
+ "otherIncome": [125, 140, 155],
+ "_otherIncomeWhy": "Screener 'other income' = other income (₹81 cr FY26) + share of associates and JV (₹70 cr: Mahindra Manulife AMC 51% JV, Mahindra Finance USA 49%) less ~₹36 cr moved into revenue, plus exceptional items (−₹133 cr labour-code charge in Q3FY26). FY26 excluding the exceptional ₹116 cr; Q1FY27 ₹29 cr (run-rate ₹116 cr). We grow it with the AMC and US JV.",
+ "capitalRaise": [0, 0, 0],
+ "newShares": [0, 0, 0],
+ "_capitalRaiseWhy": "No raise: Tier 1 16.5% (Jun-2026) vs 10% minimum; MD: no capital needed 'in the next at least 6 to 8 quarters'; CFO comfortable taking debt/equity from 5.0x to '6-plus'. Last raise: ₹2,996 cr rights issue at ₹194 (1-for-8), allotted 9-Jun-2025.",
+ "valuation": {
+  "rf": 6.5, "beta": 1.15, "erp": 6, "g": 9, "sustainableRoe": 14, "terminalGrowth": 6,
+  "years": 15, "fadeYears": 8, "payoutTo": 40, "rollForwardMonths": 6,
+  "_why": "Ke = 6.5% + 1.15 × 6% = 13.4% (house rf and ERP; beta 1.15 as for Shriram and Chola: a rural, cyclical vehicle lender whose profit fell 34-41% in FY17 and FY20-21; AAA funding argues for less, earnings volatility for more). sustainableRoe 14% = the top of the company's own record outside FY19 (FY23 11.7%, FY26 11.9% consolidated; standalone 14.3% annualised in Q1FY27) and roughly what the FY31 'ROA 2.2-2.5%' milestone gives at 5.5-6x leverage; it is above our FY27-29E path. g = 9% long-run book growth. Residual income fades ROE to 14% over 8 years; payout to 40% (FY26: 36.5%; the engine assumes no payout in the forecast years, see report).",
+  "blend": {
+   "round": 5,
+   "methods": [
+    { "key": "pb", "name": "P/B", "method": "pb", "role": "primary", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 1.4, "bull": 1.8, "bear": 1.1 },
+      "why": "The street's method (Motilal Oswal 2.0x Mar-28E book, HSBC 1.8x FY28E, Emkay 1.9x FY28E standalone book plus subsidiaries, Prabhudas Lilladher 1.5x FY28E adjusted book in a sum of the parts). 1.4x = own median forward P/B since Apr-2021 (1.4x) × listed-lender P/B move vs five-year medians (−6.4%, nine peers excluding M&M Finance) × regime 1.07 (median since Apr-2023, 1.5x, ÷ the full-window median, as in the other lender reports) = 1.40x. Our FY27-29E ROE (12.5-13.4%) is still below the 13.4% cost of equity, so we add no further premium for returns; scaling by our forecast ROE vs FY23-26 would give 1.5x (shown as a sensitivity only). Bull 1.8x = the highest forward P/B since 2021 (and HSBC's multiple); bear 1.1x = the FY22-23 median, about the 10th percentile since 2021." },
+    { "key": "jpb", "name": "Justified P/B", "method": "jpb", "role": "cross-check", "year": "Sep-27E", "roll": ["FY27E", "FY28E", 0.5], "why": "(ROE − g) ÷ (Ke − g) = (14 − 9) ÷ (13.4 − 9) on book at the 12-month target date." },
+    { "key": "ri", "name": "Residual income", "method": "ri", "role": "cross-check", "why": "Book plus the present value of profit above the 13.4% cost of equity, ROE fading to 14%, rolled forward 6 months." },
+    { "key": "pe", "name": "P/E", "method": "pe", "role": "cross-check", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 12, "bull": 13.6, "bear": 8.5 },
+      "why": "Cross-check only: 12x = own median forward P/E since Apr-2021 (12.7x; no trough years under the house rule) × listed-lender P/E move vs five-year medians (−15%, nine peers excluding M&M Finance) × regime 1.07 (median since Apr-2023, 13.6x, ÷ the full-window median) = 11.5x, rounded. Bull 13.6x = median since Apr-2023; bear 8.5x = lowest since 2021." }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": { "label": "Bull", "aumGrowthDelta": 3, "feeDelta": 0.1, "opexDelta": -0.08, "creditCostDelta": -0.3, "sustainableRoe": 16,
+    "narrative": "The transformation pays off: AUM +17/18/18% (inside the 16-18% aspiration) as tractors, used vehicles, SME and mortgages all grow; IRDAI's caps are softened (fees ~1.9% of AUM); opex falls faster on the digital stack; credit cost ~1.4-1.45% of AUM (lower end of guidance) as the monsoon damage stays contained and the ₹852 cr overlay is not needed; ROA heads to 2.5% and long-run ROE to 16%." },
+  "bear": { "label": "Bear", "aumGrowthDelta": -4, "cofDelta": 0.2, "feeDelta": -0.12, "creditCostDelta": 0.6, "sustainableRoe": 11,
+    "narrative": "A rural down-cycle like FY16-17 or FY20-21: the weak 2026 monsoon and a second poor year hit tractor and small-transport borrowers; AUM +10/11/11%, credit cost back to ~2.3-2.4% of AUM (FY24-26 average plus the drought), funding 20bp dearer, most loan-linked insurance commission capped away; ROE falls back to ~8.5-9% and long-run ROE to 11%." }
+ }
+}

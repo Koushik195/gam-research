@@ -1,0 +1,39 @@
+// M&M Finance report, part 3b: spread and NIM, asset quality and credit cost.
+const X = require('./M&MFIN.ctx');
+const { C, SG, F, A, AS, fin, fi, n0, n1, n2, pc, Q1, QK, AK, cc10, insCom, insPctAum, feeCut28, feeCutEps28, overlay } = X;
+const st = SG.stages, tot = s => s.s1 + s.s2 + s.s3, ecl = s => s.ecl1 + s.ecl2 + s.ecl3;
+const CB = SG.creditCostBreakdown;
+
+const spread = {
+  id: 'spread', nav: 'Spread & NIM', kicker: 'Margins', title: 'Margins recovered in FY26 on cheaper money and fees; leverage and IRDAI now push the other way',
+  blocks: [
+    { p: `M&M Finance reports a "NIM" that is really its gross spread: total income including fees, less interest cost, over average assets. On that basis it fell from 6.8% in FY24 to 6.5% in FY25 and recovered to 7.1% in FY26 and 7.3% in Q1FY27. The recovery did not come from lending rates, which kept falling (loan income 11.7% of assets in FY25, 11.6% in FY26, 11.5% in Q1FY27): it came from cheaper funding (interest cost 6.3% → 5.8%, helped by RBI cuts and the June-2025 rights issue) and from fees (1.1% → 1.5%). On our basis (interest income only, over average group AUM) NIM was {{fin.nim.9|pct}}, {{fin.nim.10|pct}} and {{fin.nim.11|pct}} in FY24-26, and the yield on AUM fell from {{fin.yieldOnAum.8|pct}} in FY23 to {{fin.yieldOnAum.11|pct}} in FY26.` },
+    { exhibit: { type: 'table', title: 'Spread and margin: history and our forecast (% of average AUM or borrowings)', x: 'fin.labels', from: 'FY20', to: 'FY29E', rowsRef: [
+      { name: 'Yield on average AUM (%)', ref: 'fin.yieldOnAum', fmt: 'pct' }, { name: 'Cost of funds on average borrowings (%)', ref: 'fin.costOfFunds', fmt: 'pct' },
+      { name: 'Spread (pp)', ref: 'fin.spread', fmt: 'n2' }, { name: 'NIM: NII ÷ average AUM (%)', ref: 'fin.nim', fmt: 'pct', hl: true },
+      { name: 'Fees & other income ÷ average AUM (%)', ref: 'fin.feePct', fmt: 'pct' }, { name: 'Net total income ÷ average AUM (%)', ref: 'fin.ntiPct', fmt: 'pct' },
+    ], source: 'Annual reports (interest income), Screener.in, company presentations; GAM estimates. Fees include MIBL\'s insurance-broking income (₹1,456 cr in FY26), whose payouts sit in operating expenses.' } },
+    { p: `**Two things squeeze our forecast margin.** First, **leverage**: at a 36% payout and ~13% ROE, equity grows ~8% a year, so 14-15% AUM growth must be funded with more debt; borrowings rise from 4.8x to {{fin.debtEquity.14|n2}}x equity by FY29E and NIM drifts from {{F.nim.0|pct}} (FY27E) to {{F.nim.2|pct}} (FY29E) even with yields flat. Second, **fees**: of ₹2,577 cr of FY26 fee and other income, ₹${n0(insCom)} cr (${n2(insPctAum)}% of AUM) was insurance commission (life ₹315 cr, mostly credit-linked; general ₹192 cr) and ₹1,456 cr MIBL's broking income. IRDAI's 23-Sep-2026 paper would cap loan-linked commission at ~2-5%; the company has not said how much of its commission is loan-linked (gap). We cut fees by 0.13% of AUM from FY28E (₹${n0(feeCut28)} cr pre-tax, ~₹${n1(feeCutEps28)} of EPS, ${n1(feeCutEps28 / F.eps[1] * 100)}% of FY28E).` },
+    { pair: [
+      { type: 'column', title: 'NII grew faster than AUM in FY26 as funding got cheaper', unit: 'Growth (%)', x: 'fin.labels', from: 'FY22', to: 'FY29E', series: [{ name: 'AUM growth', ref: 'fin.aumGrowth', fmt: 'pct0' }, { name: 'NII growth', ref: 'fin.niiGrowth', fmt: 'pct0' }], labels: 'all', source: 'Company, Screener.in; GAM estimates' },
+      { type: 'line', title: 'Fee yield: 0.8% to 1.9% in three years; IRDAI cut from FY28E', unit: 'Fees & other operating income ÷ average AUM (%)', x: 'fin.labels', from: 'FY19', to: 'FY29E', series: [{ name: 'Fee yield', ref: 'fin.feePct', fmt: 'pct' }], labels: 'all', min: 0, max: 2.5, source: 'Annual reports; GAM estimates' },
+    ] },
+    { callout: '**Our view:** management\'s "NIM above 7%, 7.1%" (company basis, incl. fees) is achievable in FY27E; we model net total income of {{F.ntiPct.0|pct}} of AUM (FY26 {{fin.ntiPct.11|pct}}). Beyond that we see margin pressure rather than expansion: rates are rising, banks compete on price in the safer vehicle segments, leverage is going up, and the regulator is targeting the fee line that did most of the lifting in FY25-26. This is the main reason our FY28E EPS is 7-15% below the brokers\'.' },
+  ],
+};
+
+const quality = {
+  id: 'quality', nav: 'Asset quality & credit cost', kicker: 'Asset quality', title: 'Asset quality: the best in eight years, with a ₹852 crore cushion; the monsoon is the test',
+  blocks: [
+    { p: `Bad loans have fallen steadily. Gross Stage 3 was 9.0% of the book in FY21, 4.5% in FY23 and ${Q1.gnpa}% in Jun-2026; Stage 2 (30-90 days overdue) fell from 5.9% to 4.9% in the year to Jun-2026, and Stage 2+3 is at an eight-year low of ${Q1.stage23}%. Seasonality is smaller too: Stage 2 rose 11bp from March to June 2026 against 41bp a year earlier. Credit cost (company basis) was 1.3% of assets in FY25, 1.7% in FY26 including overlays, and 1.5% in Q1FY27 against 1.9% a year earlier. Management guides to 1.3-1.7% through the cycle.` },
+    { pair: [
+      { type: 'line', title: 'Stage 2+3 at an eight-year low; Stage 3 steady at ~3.4-3.5%', unit: '% of business assets, quarter-end (standalone)', x: QK.map(k => k.q), series: [{ name: 'Stage 3', values: QK.map(k => k.gnpa), fmt: 'n2' }, { name: 'Stage 2 + 3', values: QK.map(k => k.stage23), fmt: 'n2' }], labels: 'ends', min: 0, max: 11, source: 'Company presentations (Q4FY26, Q1FY27); Sep-25 from Emkay and the Q4FY26 chart' },
+      { type: 'column', title: 'Credit cost by quarter: lumpy, because provisions swing', unit: 'Credit cost (% of average assets, company basis)', x: ['Q4FY24', 'Q1FY25', 'Q2FY25', 'Q3FY25', 'Q4FY25', 'Q1FY26', 'Q2FY26', 'Q3FY26', 'Q4FY26', 'Q1FY27'], series: [{ name: 'Credit cost', values: [1.2, 1.5, 2.3, 0.0, 1.4, 1.9, 2.2, 1.3, 1.5, 1.5], fmt: 'n1' }], labels: 'all', highlight: 'Q1FY27', source: 'Q4FY26 presentation p16; Q1FY27 presentation p24 (charts). Q3FY25 0.0% = ECL refresh release' },
+    ] },
+    { exhibit: { type: 'table', title: 'Credit cost split: write-offs are steady, provisions do the swinging (standalone)', head: CB.head, rows: CB.rows.map(r => [r[0], n0(r[1]), n0(r[2]), `${n1(r[3])}%`]), source: 'Q4FY25 p12, p31; Q4FY26 p16; Q1FY27 p24. Q3FY26: the ECL-refresh release was parked as a ₹635 cr overlay and ₹146 cr of the fully provided Aizawl fraud book written off' } },
+    { p: `**Provisions.** M&M Finance held ₹${n0(ecl(st.jun26))} cr of expected-credit-loss provisions in Jun-2026, ${n2(ecl(st.jun26) / tot(st.jun26) * 100)}% of the book, including the ₹${n0(overlay)} cr of management overlays (₹635 cr from Q3FY26, ₹217 cr from Q4FY26). That covers ${n1(st.jun26.ecl3 / st.jun26.s3 * 100)}% of Stage 3 loans and ${n0(ecl(st.jun26) / (st.jun26.s2 + st.jun26.s3) * 100)}% of Stage 2+3, and exceeds the RBI's minimum (IRACP) by ₹${n0(st.iracp.excess)} cr. Two caveats: the Stage 3 cover fell from 63% to 51% in FY25 mainly because the ECL model was refreshed, and write-offs ("end losses") have stayed at 1.2-1.6% of assets every year since FY24 even as Stage 3 fell; the improvement is in provisions, not in the loss rate.` },
+    { callout: `**Our forecast:** credit cost of {{F.creditCost.0|n2}}% / {{F.creditCost.1|n2}}% / {{F.creditCost.2|n2}}% of average AUM in FY27-29E (FY26 {{fin.creditCost.11|n2}}%), about 1.6% of assets on the company's basis: inside guidance, but in its upper half because the monsoon ended ~13% short and tractors are 12% of AUM. M&M Finance's history is a warning: provisions were 3.2% of AUM in FY20 and 5.4% in FY21, and profit fell 43% over FY15-17 after back-to-back weak monsoons. We keep the overlays (not released) in our base. Each 10bp of credit cost is ~${n1(cc10)}% of FY28E profit; the bear case (~2.35% in FY27-28E) takes FY28E EPS to ₹{{scen.bear.eps.1|n2}}.` },
+  ],
+};
+
+module.exports = { spread, quality };
