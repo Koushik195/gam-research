@@ -1,0 +1,247 @@
+{
+ "asOf": "2026-09-30",
+ "type": "lender",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "_note": "SBI Cards and Payment Services (standalone; no subsidiaries) lender model, as of 30-Sep-2026 on a Q1FY27 basis. 'AUM' = gross credit-card receivables. Sources: Q1FY27 presentation (24-Jul-2026) and call; Q4FY26 presentation and call (27-Apr-2026); annual reports FY20-FY26 for history; Screener.in for the statements. Fees are built from card spends (feeBuild) and other income from recoveries of written-off loans (otherBuild); both are converted into the engine's % of average receivables / ₹ cr inputs below and re-checked in tools/authoring/SBICARD.ctx.js.",
+ "history": {
+  "_why": "aum = gross credit-card receivables at March (annual reports). provisions = impairment on financial instruments (gross credit cost: write-offs + change in ECL) plus the small net loss on derecognition of loans (₹61 cr FY21, ₹2 cr FY22); Screener 'Expenses' = fees & commission expense + employee + other opex + impairment, so opex incl. depreciation ties to the company's 'operating cost'. feeIncome = Screener revenue − reported interest income (interchange, fees, membership, business-development incentives, sale of services); it differs from reported non-interest operating revenue by ₹2-18 cr, a Screener reclassification from other income. Recoveries of written-off loans sit in Screener 'Other Income'.",
+  "aum": {
+   "FY18": 14570,
+   "FY19": 18526,
+   "FY20": 24141,
+   "FY21": 25114,
+   "FY22": 31281,
+   "FY23": 40722,
+   "FY24": 50846,
+   "FY25": 55840,
+   "FY26": 56926
+  },
+  "provisions": {
+   "FY19": 1148,
+   "FY20": 1940,
+   "FY21": 2700,
+   "FY22": 2258,
+   "FY23": 2159,
+   "FY24": 3287,
+   "FY25": 4872,
+   "FY26": 4962
+  },
+  "feeIncome": {
+   "FY19": 3441,
+   "FY20": 4440,
+   "FY21": 4354,
+   "FY22": 5813,
+   "FY23": 7517,
+   "FY24": 9059,
+   "FY25": 8727,
+   "FY26": 10000
+  },
+  "src": {
+   "aum": "AR FY26 p25 (FY22-26), AR FY22 p11 (FY18-21)",
+   "provisions": "AR FY26 note 28; AR FY24, FY22, FY21, FY20 P&L",
+   "feeIncome": "Screener revenue less AR interest income (note 24)"
+  }
+ },
+ "aumGrowth": [
+  8,
+  12,
+  13
+ ],
+ "_aumGrowthWhy": "Receivables grew 9.8% in FY25, 1.9% in FY26 and 2.9% YoY in Q1FY27 (₹58,269 cr, +2.4% QoQ). Management gives no number but expects growth to pick up from H2FY27 on higher acquisition (new accounts 10.2 lakh in Q1, +17%) and the festive quarter (call, 24-Jul-2026). 8% needs ~5.5% more over Q2-Q4 (Q2FY26 alone added 5.7%). FY28-29E 12-13%: cards in force grow ~7% and spends 15%+, EMI share rising; still well below the 22% CAGR of FY19-24. Street: Emkay 7.9% / 12% / 15%.",
+ "yieldOnAum": [
+  16.8,
+  16.7,
+  16.7
+ ],
+ "_yieldOnAumWhy": "Total interest income (incl. ~₹400 cr on investments) ÷ average year-end receivables: 17.6% FY26, 16.8% annualised in Q1FY27 (16.7% in Q4FY26). Company yield (cardholder interest, monthly averages) 16.5% FY26, 16.0% Q1FY27. Revolvers 22% of receivables with a 'slight downward bias'; EMI (lower yield) rising; transactors 45%. We hold the Q1 run-rate, edging down 10bp.",
+ "feeIncomePct": [
+  18.36,
+  18.51,
+  18.36
+ ],
+ "_feeIncomePctWhy": "Built from spends (feeBuild): interchange = spends × take rate (1.19% FY26 → 1.15% / 1.13% / 1.11% as corporate and UPI-RuPay spends with thinner rates grow) + late and other fees (flat FY27: late fees fall with delinquency, base effect from H2) + membership (with cards in force) + network incentives + other. Gives ₹10,871 / 12,063 / 13,465 cr = 18.36% / 18.51% / 18.36% of average receivables (17.7% FY26; 18.2% annualised in Q1FY27).",
+ "feeBuild": {
+  "_why": "₹ cr. FY26 actual: spends 4,30,358 (retail 3,53,763 + corporate 76,595, quarterly decks), interchange 5,111 (1.19%), fee-based 2,817, membership 1,238, business-development incentive 757, sale of services + insurance 76.",
+  "retailGrowth": [
+   14,
+   15,
+   15
+  ],
+  "corporateShare": [
+   20,
+   20,
+   20
+  ],
+  "takeRate": [
+   1.15,
+   1.13,
+   1.11
+  ],
+  "feeBasedGrowth": [
+   0,
+   8,
+   10
+  ],
+  "membershipGrowth": [
+   7,
+   8,
+   9
+  ],
+  "bdGrowth": [
+   12,
+   12,
+   12
+  ],
+  "other": [
+   80,
+   85,
+   90
+  ],
+  "base": {
+   "retail": 353763,
+   "corporate": 76595,
+   "feeBased": 2817,
+   "membership": 1238,
+   "bd": 757
+  }
+ },
+ "costOfFunds": [
+  6.7,
+  6.8,
+  6.8
+ ],
+ "_costOfFundsWhy": "Finance cost ÷ average year-end Screener borrowings: 7.5% FY25, 6.9% FY26, 6.5% annualised in Q1FY27 (company: 7.4%, 6.7%, 6.5%; daily average 6.6%). Management: cost of funds to 'trend higher in line with the market rates' (opening remarks), 'similar range' (Q&A). We add ~20bp in FY27 and 10bp more in FY28.",
+ "opexPct": [
+  18.15,
+  17.76,
+  17.54
+ ],
+ "_opexPctWhy": "Operating cost incl. fees & commission expense and depreciation ÷ average receivables: 15.0% FY25, 17.3% FY26 (corporate spends carry pass-back costs), 18.2% annualised in Q1FY27. Guidance: cost-to-income 56-58% for FY27, festive quarter higher; Q1 58.7%. Our values give a company-basis cost-to-income (other income in the denominator) of ~58% in FY27E, the top of guidance, easing to ~57% / ~56.5% as receivables outgrow spends-linked costs.",
+ "creditCost": [
+  6.6,
+  6.4,
+  6.5
+ ],
+ "_creditCostWhy": "Gross credit cost (impairment) ÷ average year-end receivables: 9.1% FY25, 8.8% FY26, 6.6% annualised in Q1FY27 (incl. a ₹65 cr ECL release; gross write-offs alone 7.0%). Management: credit cost 'will see some more moderation', gross credit cost 'within the current range'; Stage 2 3.57% and GNPA 2.04% are post-COVID lows. Through-cycle FY19-FY26 6.0-9.1%. We take the Q1 run-rate for FY27 (no further overlay releases, festive growth), 6.4% in FY28 and 6.5% in FY29 as new vintages season. Street: Motilal Oswal 6.4% / 6.1%, Emkay 7.3% / 7.1% / 6.8%.",
+ "otherIncome": [
+  671,
+  737,
+  827
+ ],
+ "_otherIncomeWhy": "Screener 'other income' is mainly recoveries of written-off loans (₹686 cr FY26 = 1.22% of average receivables; ₹157 cr in Q1FY27 = 1.09% annualised) plus ₹10-20 cr of sundry items; FY26 also had a ₹109 cr provision write-back. We take recoveries at 1.10% of average receivables + ₹20 cr (otherBuild).",
+ "otherBuild": {
+  "recoveryPct": 1.1,
+  "sundry": 20
+ },
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxRateWhy": "Statutory 25.17% plus disallowances; effective 25.7% FY25, 25.6% FY26, 25.6% Q1FY27.",
+ "payout": [
+  12,
+  12,
+  12
+ ],
+ "_payoutWhy": "FY26 interim dividend ₹2.50 a share (11% of EPS); FY25 ₹2.50 (12%). Management called the company 'underleveraged' (Q4 call) but has not signalled a higher payout. Emkay assumes 12-13%.",
+ "valuation": {
+  "rf": 6.5,
+  "beta": 1.1,
+  "erp": 6,
+  "g": 10,
+  "sustainableRoe": 17,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeYears": 8,
+  "payoutTo": 30,
+  "rollForwardMonths": 6,
+  "_why": "Ke = 6.5% + 1.1 × 6% = 13.1% (house rf and ERP; beta 1.1 for an unsecured consumer lender whose profit fell 20% in FY25). sustainableRoe 17% = the middle of the medium-term ROA guidance (4-4.5%) × ~4x assets ÷ equity (4.2x in Q1FY27 and falling as capital builds). g = 10% long-run book growth in the justified P/B. Residual income fades ROE to 17% over 8 years, payout rising to 30%, 6% terminal growth.",
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 21,
+      "bull": 24,
+      "bear": 16
+     },
+     "why": "The street's method (Motilal Oswal 18x FY28E, Emkay 22x FY28E, Equirus 22x one-year-forward EPS). 21x = own one-year-forward P/E since Apr-2021 on EPS normalised to a 7.2% through-cycle credit cost (no trough years), taken at the growth regime since Apr-2024, × the listed-lender P/E move vs five-year medians, converted back to our Sep-28E EPS (whose credit cost is below normal). Derivation table in the valuation chapter. Bull 24x = the same without the sector de-rating; bear 16x = the 30-Sep forward P/E (the lowest since 2021)."
+    },
+    {
+     "key": "pb",
+     "name": "P/B",
+     "method": "pb",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 4.1,
+      "bull": 4.3,
+      "bear": 2.7
+     },
+     "why": "Cross-check only. 4.1x = own median forward P/B since Apr-2021 (5.2x) × the listed-lender P/B move vs five-year medians × the regime since Apr-2024 (4.3x ÷ 5.2x). That history was set at 15-26% ROE with the market expecting a return to 20%+; at our ~17% ROE the justified P/B is ~2.3x. Bull 4.3x = regime median; bear 2.7x = 30-Sep forward P/B."
+    },
+    {
+     "key": "jpb",
+     "name": "Justified P/B",
+     "method": "jpb",
+     "role": "cross-check",
+     "year": "Sep-27E",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "why": "(ROE − g) ÷ (Ke − g) = (17 − 10) ÷ (13.1 − 10) on book at the 12-month target date."
+    },
+    {
+     "key": "ri",
+     "name": "Residual income",
+     "method": "ri",
+     "role": "cross-check",
+     "why": "Book plus the present value of profit above the 13.1% cost of equity, ROE fading to 17%, rolled forward 6 months."
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "aumGrowthDelta": 3,
+   "yieldDelta": 0.2,
+   "opexDelta": -0.2,
+   "creditCostDelta": -0.5,
+   "sustainableRoe": 19,
+   "narrative": "Card acquisition (10 lakh+ a quarter) and festive EMI demand lift receivables +11/15/16%; credit cost settles near 6.1/5.9/6.0% (Motilal Oswal-like); revolver mix steadies (yield +20bp) and spends-linked costs ease (opex −20bp); long-run ROE 19%."
+  },
+  "bear": {
+   "label": "Bear",
+   "aumGrowthDelta": -4,
+   "yieldDelta": -0.3,
+   "cofDelta": 0.3,
+   "opexDelta": 0.3,
+   "creditCostDelta": 1,
+   "sustainableRoe": 14,
+   "narrative": "Growth stays slow (+4/8/9%) as personal loans and UPI eat into revolve; credit cost back at 7.6/7.4/7.5% (Emkay plus a mild cycle); yield −30bp, funding +30bp, opex +30bp; long-run ROE 14%."
+  }
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "symbol": "SBICARD",
+ "asOf": "2026-09-30",
+ "_note": "SBI Card reports one segment (credit cards). These are the business lines inside it: fee income by type (annual), spends by retail / corporate (quarterly), receivables by behaviour (transactor / revolver / EMI) and asset quality. ₹ crore unless stated.",
+ "feeLines": [
+  {
+   "key": "interchange",
+   "name": "Interchange (share of every card spend)"
+  },
+  {
+   "key": "feeBased",
+   "name": "Fee-based income (late fees, cash advance, forex, other instance fees)"
+  },
+  {
+   "key": "membership",
+   "name": "Membership (annual and joining fees)"
+  },
+  {
+   "key": "bd",
+   "name": "Business-development incentives (from card networks)"
+  },
+  {
+   "key": "other",
+   "name": "Sale of services, insurance commission"
+  }
+ ],
+ "annual": [
+  {
+   "fy": "FY21",
+   "interchange": 1712,
+   "feeBased": 1492,
+   "membership": 704,
+   "bd": 299,
+   "other": 143,
+   "interestIncome": 4947,
+   "spends": 122416,
+   "receivables": 25114,
+   "src": "AR FY22 notes 25-26 (FY21 restated)"
+  },
+  {
+   "fy": "FY22",
+   "interchange": 2558,
+   "feeBased": 1871,
+   "membership": 798,
+   "bd": 448,
+   "other": 137,
+   "interestIncome": 4866,
+   "spends": 186353,
+   "receivables": 31281,
+   "src": "AR FY22 P&L, note 26"
+  },
+  {
+   "fy": "FY23",
+   "interchange": 3558,
+   "feeBased": 2076,
+   "membership": 971,
+   "bd": 740,
+   "other": 169,
+   "interestIncome": 6153,
+   "spends": 262000,
+   "receivables": 40722,
+   "src": "AR FY24 P&L, note 26"
+  },
+  {
+   "fy": "FY24",
+   "interchange": 4294,
+   "feeBased": 2740,
+   "membership": 1130,
+   "bd": 710,
+   "other": 167,
+   "interestIncome": 7927,
+   "spends": 330000,
+   "receivables": 50846,
+   "src": "AR FY24 P&L, note 26"
+  },
+  {
+   "fy": "FY25",
+   "interchange": 3916,
+   "feeBased": 2874,
+   "membership": 1213,
+   "bd": 592,
+   "other": 130,
+   "interestIncome": 9347,
+   "spends": 333480,
+   "receivables": 55840,
+   "src": "AR FY26 P&L, note 25"
+  },
+  {
+   "fy": "FY26",
+   "interchange": 5111,
+   "feeBased": 2817,
+   "membership": 1238,
+   "bd": 757,
+   "other": 76,
+   "interestIncome": 9901,
+   "spends": 430358,
+   "receivables": 56926,
+   "src": "AR FY26 P&L (p313), note 25 (p355)"
+  }
+ ],
+ "quarterly": [
+  {
+   "q": "Q1FY26",
+   "retail": 82404,
+   "corporate": 10840,
+   "receivables": 56607,
+   "transactor": 40,
+   "revolver": 24,
+   "emi": 36,
+   "interestIncome": 2493,
+   "feesAndOther": 2384,
+   "otherIncome": 158,
+   "financeCost": 813,
+   "opex": 2123,
+   "impairment": 1352,
+   "pat": 556,
+   "src": "q1ppt p7-8, p11, p24"
+  },
+  {
+   "q": "Q2FY26",
+   "retail": 89611,
+   "corporate": 17452,
+   "receivables": 59845,
+   "transactor": 44,
+   "revolver": 22,
+   "emi": 34,
+   "financeCost": 760,
+   "opex": 2484,
+   "impairment": 1293,
+   "pat": 445,
+   "src": "q1ppt p7-8, p11; Q2FY26 presentation p12",
+   "interestIncome": 2490,
+   "feesAndOther": 2471,
+   "otherIncome": 175
+  },
+  {
+   "q": "Q3FY26",
+   "retail": 91962,
+   "corporate": 22739,
+   "receivables": 57213,
+   "transactor": 44,
+   "revolver": 23,
+   "emi": 34,
+   "interestIncome": 2536,
+   "feesAndOther": 2591,
+   "otherIncome": 226,
+   "financeCost": 785,
+   "opex": 2597,
+   "impairment": 1222,
+   "pat": 557,
+   "src": "q4ppt p8-9, p13, p25"
+  },
+  {
+   "q": "Q4FY26",
+   "retail": 89786,
+   "corporate": 25564,
+   "receivables": 56926,
+   "transactor": 46,
+   "revolver": 22,
+   "emi": 32,
+   "interestIncome": 2382,
+   "feesAndOther": 2553,
+   "otherIncome": 252,
+   "financeCost": 714,
+   "opex": 2561,
+   "impairment": 1097,
+   "pat": 609,
+   "src": "q4ppt p8-9, p13, p25"
+  },
+  {
+   "q": "Q1FY27",
+   "retail": 94033,
+   "corporate": 24442,
+   "receivables": 58269,
+   "transactor": 45,
+   "revolver": 22,
+   "emi": 33,
+   "interestIncome": 2421,
+   "feesAndOther": 2620,
+   "otherIncome": 165,
+   "financeCost": 745,
+   "opex": 2620,
+   "impairment": 948,
+   "pat": 664,
+   "src": "q1ppt p7-8, p11-12, p24"
+  }
+ ],
+ "assetQuality": {
+  "_note": "Quarter-end, % of receivables. GNPA / NNPA from Screener quarterly (company results); Stage 2, PCR and credit costs from the presentations. Gross credit cost = write-offs + change in ECL, % of average receivables (company basis, annualised).",
+  "labels": [
+   "Q2FY24",
+   "Q3FY24",
+   "Q4FY24",
+   "Q1FY25",
+   "Q2FY25",
+   "Q3FY25",
+   "Q4FY25",
+   "Q1FY26",
+   "Q2FY26",
+   "Q3FY26",
+   "Q4FY26",
+   "Q1FY27"
+  ],
+  "gnpa": [
+   2.43,
+   2.64,
+   2.76,
+   3.06,
+   3.27,
+   3.24,
+   3.08,
+   3.07,
+   2.85,
+   2.86,
+   2.41,
+   2.04
+  ],
+  "nnpa": [
+   0.89,
+   0.96,
+   0.99,
+   1.11,
+   1.19,
+   1.18,
+   1.46,
+   1.42,
+   1.29,
+   1.28,
+   1.04,
+   0.83
+  ],
+  "grossCreditCost": {
+   "Q4FY25": 9,
+   "Q1FY26": 9.5,
+   "Q2FY26": 9,
+   "Q3FY26": 8.3,
+   "Q4FY26": 7.7,
+   "Q1FY27": 6.5
+  },
+  "netCreditCost": {
+   "Q4FY26": 6.4,
+   "Q1FY27": 5.5
+  },
+  "jun26": {
+   "stage2": 3.57,
+   "stage3": 2.04,
+   "pcr": 59.9,
+   "ecl": 3.1,
+   "npaStock": 1191,
+   "overlay": 70,
+   "writeOffs": 1013,
+   "recoveries": 157
+  },
+  "mar26": {
+   "stage2Cr": 2090,
+   "npaStock": 1370,
+   "pcr": 57.6,
+   "ecl": 3,
+   "overlay": 220
+  },
+  "src": "Screener.in quarterly; q1ppt p12-14; q4ppt p13-15; q4call; q1call; q2fy26 presentation p12-14 (Q2FY26 9.0%; Q4FY25 = Q4FY26 7.7% + 128bp)"
+ },
+ "sourcing": {
+  "jun26": {
+   "banca": 47,
+   "openMarket": 53
+  },
+  "fy26": {
+   "banca": 46,
+   "openMarket": 54
+  },
+  "target": "50-55% banca, 45-50% open market",
+  "src": "q1call; q4call"
+ }
+}
