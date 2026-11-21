@@ -1,0 +1,255 @@
+{
+ "asOf": "2026-09-30",
+ "type": "lender",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "_note": "Cholamandalam Investment and Finance (consolidated; subsidiaries are small) lender model, as of 30-Sep-2026 on a Q1FY27 basis. AUM = 'Business AUM' (loans incl. ~1.5% assigned off book; excludes the cash and investments that the company's 'Total AUM' of ₹2.43 lakh cr adds). Sources: Q1FY27 presentation (28-Jul-2026) and call; Q4FY26 presentation (30-Apr-2026) and call (4-May-2026); Annual Reports FY22, FY24, FY26 for revenue splits and impairment; Screener.in for statements. CCD conversion (₹630 cr, Jul and 30-Sep-2026) is in FY27E.",
+ "history": {
+  "_why": "aum = Business AUM at March (FY18-FY23 from the Q4FY24 presentation's 15-year snapshot, which still used business AUM; FY24-FY26 from the Q1FY27 presentation p13). provisions = impairment of financial instruments in the consolidated P&L (FY21-FY26, annual reports) and loan losses & provisions in the company snapshot for FY18-FY20 (standalone). feeIncome = consolidated revenue from operations less interest income (fees & commission incl. insurance agency commission, net gain on derecognition/assignment, fair-value gains, servicing fees). Screener revenue is ₹3-47 cr higher each year because it also counts interest on tax refunds (FY26 ₹44 cr), so implied interest income is that much above the annual report.",
+  "aum": {
+   "FY18": 42924,
+   "FY19": 54279,
+   "FY20": 60549,
+   "FY21": 69996,
+   "FY22": 76907,
+   "FY23": 106498,
+   "FY24": 145572,
+   "FY25": 184746,
+   "FY26": 224334
+  },
+  "provisions": {
+   "FY18": 353,
+   "FY19": 367,
+   "FY20": 959,
+   "FY21": 1378,
+   "FY22": 880,
+   "FY23": 850,
+   "FY24": 1318,
+   "FY25": 2494,
+   "FY26": 3536
+  },
+  "feeIncome": {
+   "FY21": 355,
+   "FY22": 573,
+   "FY23": 802,
+   "FY24": 1513,
+   "FY25": 2098,
+   "FY26": 2670
+  },
+  "src": {
+   "aum FY18-FY23": "Q4FY24 presentation p19, p21 (30-Apr-2024)",
+   "aum FY24-FY26": "Q1FY27 presentation p13 (28-Jul-2026)",
+   "provisions/fees FY25-FY26": "Annual Report FY26, consolidated P&L and notes 28-31",
+   "FY23-FY24": "Annual Report FY24, consolidated P&L",
+   "FY21-FY22": "Annual Report FY22, consolidated P&L (₹ lakh)",
+   "provisions FY18-FY20": "Q4FY24 presentation p19 snapshot (standalone)"
+  }
+ },
+ "base": {
+  "shares": 85.24,
+  "_why": "Paid-up capital ₹170.48 cr at 31-Mar-2026 at ₹2 face value (Annual Report FY26, directors' report) = 85.24 cr shares; Screener's FY26 profit ÷ EPS gives 85.21 cr."
+ },
+ "aumGrowth": [
+  22,
+  21,
+  20
+ ],
+ "_aumGrowthWhy": "FY27 guidance 20-23% (4-May-2026), reaffirmed on 28-Jul with '23% ... doable'; Q1FY27 +22% YoY. Segment guidance: vehicle finance ~18%, LAP and home loans 25-30%, SME and SBPL 30%+, gold AUM ₹2,143 cr to ~₹5,000 cr. We take 22% (upper half; FY26 delivered 21% against 20-25% guidance) and fade 1pp a year as vehicle finance (53% of AUM) grows high-teens.",
+ "aumBuild": {
+  "_why": "Illustrative segment build (GAM); checked in CHOLAFIN.ctx.js to sum to the model AUM within 1%. Guidance: VF ~18%, LAP/HL 25-30%, SME/SBPL 30%+, gold ~₹5,000 cr by Mar-27. Growth fades 1pp a year; gold in ₹ cr.",
+  "base": "FY26",
+  "growth": {
+   "vf": [
+    18,
+    17,
+    16
+   ],
+   "lap": [
+    25,
+    24,
+    23
+   ],
+   "hl": [
+    25,
+    24,
+    23
+   ],
+   "sme": [
+    30,
+    28,
+    25
+   ],
+   "sbpl": [
+    30,
+    28,
+    25
+   ],
+   "csel": [
+    15,
+    18,
+    18
+   ]
+  },
+  "goldCr": [
+   5000,
+   8000,
+   11200
+  ]
+ },
+ "yieldOnAum": [
+  14,
+  14.1,
+  14.1
+ ],
+ "_yieldOnAumWhy": "Interest income ÷ average business AUM: 14.0% FY24, 14.4% FY25, 13.9% FY26 (the 2025 repo cuts passed through and more cash earned treasury rates). Q1FY27 revenue ÷ AUM (annualised) was 15.5%, the same as Q1FY26, before the usual drift through the year. Mix moves toward higher-yield CSEL (20%), SBPL (25%) and gold (15-17%), offset by LAP/HL growth (13-16%); floating-rate mortgages reprice up if the RBI hikes (FY28E). The cheque-clearance recognition change lifts yields marginally.",
+ "feeIncomePct": [
+  1.27,
+  1.12,
+  1.1
+ ],
+ "_feeIncomePctWhy": "Non-interest operating income ÷ average AUM: 1.20% FY24, 1.27% FY25, 1.31% FY26 (incl. ₹439 cr assignment gains, lumpy). Insurance agency commission was ₹1,136 cr in FY26 (0.56% of AUM, ~16% of PBT). IRDAI's consultation paper of 23-Sep-2026 proposes capping commission on loan-linked insurance at ~2-5% (NBFC credit-life commissions now 7-47%). We assume a third of insurance commission is lost from FY28E (-0.15pp); the bear case loses most of it.",
+ "costOfFunds": [
+  7.45,
+  7.6,
+  7.6
+ ],
+ "_costOfFundsWhy": "Interest expense ÷ average Screener borrowings: 8.0% FY24, 8.1% FY25, 7.45% FY26; Q1FY27 annualised ~7.4%. CFO (28-Jul-2026): cost of funds flat for FY27 as a % of assets, up 5-10bp in H2, assuming a 25-50bp repo hike; a majority of economists expected a 25bp hike at the October policy (Moneycontrol poll, 28-Sep-2026). FY28E carries the full year of higher rates; ~25-30% of bank loans are MCLR-linked.",
+ "opexPct": [
+  3.25,
+  3.18,
+  3.12
+ ],
+ "_opexPctWhy": "Operating expenses incl. depreciation ÷ average business AUM: 3.3% FY24 (approx.), 3.25% FY26 (company basis 3.0-3.1% of assets). Guidance: opex ~3.0-3.1% of average assets with no operating leverage for 'another year or so' (360 new gold branches, 100 each in HL, LAP and CSEL). Q1 is seasonally the lowest-cost quarter (3.12% annualised). Gentle improvement from FY28E as gold branches mature (₹12-15 cr AUM each, break-even by next year-end).",
+ "creditCost": [
+  1.5,
+  1.5,
+  1.55
+ ],
+ "_creditCostWhy": "Provisions ÷ average business AUM: 1.05% FY24, 1.51% FY25, 1.73% FY26 (incl. a ₹200 cr overlay; 1.63% without). Company basis (on assets): 1.6% FY26 before the overlay, FY27 guidance ~1.5%, Q1FY27 1.5% (1.61% on our basis). Q1 is the seasonally worst quarter (Q1FY26 was 14-24bp above the FY26 full year), and management expects improvement from here. Against that, Stage 2+3 rose 49bp QoQ and vehicle-finance Stage 3 reached 4.05% (highest Q1 since Covid, Nomura). We take 1.50% (about 1.4-1.5% on the company's asset basis, in line with to slightly better than guidance; overlay kept, not released) and edge up to 1.55% in FY29E as CSEL, SBPL and gold (higher-loss products by design) grow faster.",
+ "taxRate": [
+  25.2,
+  25.2,
+  25.2
+ ],
+ "_taxRateWhy": "Statutory rate; FY26 effective 25.0%, FY25 25.8%.",
+ "payout": [
+  3,
+  3,
+  3
+ ],
+ "_payoutWhy": "Dividend has been ₹2.00 a share (100% of face value) every year since FY21; FY26 ₹2.00 = 3.3% of EPS. We assume ~3% (DPS ₹2.5-3.6).",
+ "otherIncome": [
+  470,
+  540,
+  620
+ ],
+ "_otherIncomeWhy": "Screener 'other income' is mostly recoveries of written-off loans (₹415 cr of ₹466 cr in FY26; ₹254 cr in FY24-25) plus interest on tax refunds. TTM to Q1FY27 ₹484 cr; grows with the written-off pool.",
+ "capitalRaise": [
+  630,
+  0,
+  0
+ ],
+ "newShares": [
+  0.511,
+  0,
+  0
+ ],
+ "_capitalRaiseWhy": "Conversion of the last ₹630 cr of the ₹2,000 cr 7.5% CCDs (QIP, Oct-2023): 20,000 CCDs at ₹1,476.08 in Jul-2026 and 43,000 at ₹1,407.59 on 30-Sep-2026 (30.55 lakh shares). Debt becomes equity; no cash raised. Paid-up shares 85.751 cr after the 30-Sep allotment (NSE filing, 30-Sep-2026), incl. ~0.07 cr ESOP shares since March.",
+ "valuation": {
+  "rf": 6.5,
+  "beta": 1.15,
+  "erp": 6,
+  "g": 10,
+  "sustainableRoe": 19,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeYears": 8,
+  "payoutTo": 25,
+  "rollForwardMonths": 6,
+  "_why": "Ke = 6.5% + 1.15 × 6% = 13.4% (house rf and ERP; beta 1.15 for an AA+ rated, wholesale-funded vehicle and small-business lender, above Bajaj Finance's 1.1). sustainableRoe 19% = Chola's FY18-FY26 average (company basis 15-21%, median 20%) and what management's 3.5% pre-tax ROTA target gives at ~7x leverage. g = 10% long-run book growth (about nominal GDP). Residual income fades ROE to 19% over 8 years, payout rising to 25%, 6% terminal growth.",
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pb",
+     "name": "P/B",
+     "method": "pb",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 3.2,
+      "bull": 3.7,
+      "bear": 2.7
+     },
+     "why": "The street's method (Motilal Oswal 4.0x Mar-28E book, Emkay 3.8x FY28E, Prabhudas Lilladher 3.8x FY28E adjusted book). 3.2x = own median forward P/B since Apr-2021 (3.4x) × listed-lender P/B move vs five-year medians (−4.5%, eight peers excluding Chola) × growth regime 1.00 (our 20-22% AUM growth and ~20% ROE sit inside the window's range). Bull 3.7x = median since Apr-2023 (the FY24-FY26 years of 21-37% AUM growth); bear 2.7x = lowest since 2021."
+    },
+    {
+     "key": "jpb",
+     "name": "Justified P/B",
+     "method": "jpb",
+     "role": "cross-check",
+     "year": "Sep-27E",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "why": "(ROE − g) ÷ (Ke − g) = (19 − 10) ÷ (13.4 − 10) on book at the 12-month target date."
+    },
+    {
+     "key": "ri",
+     "name": "Residual income",
+     "method": "ri",
+     "role": "cross-check",
+     "why": "Book plus the present value of profit above the 13.4% cost of equity, ROE fading to 19%, rolled forward 6 months."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 17,
+      "bull": 20.6,
+      "bear": 15
+     },
+     "why": "Cross-check only. 17x = median forward P/E since Apr-2021 (19.4x, no trough years) × listed-lender P/E move vs five-year medians (−11.4%) × growth 1.00. Bull 20.6x = median since Apr-2023; bear 15x = lowest since 2021."
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "aumGrowthDelta": 2,
+   "yieldDelta": 0.1,
+   "feeDelta": 0.13,
+   "creditCostDelta": -0.15,
+   "sustainableRoe": 21,
+   "narrative": "Growth re-accelerates (AUM +24/23/22%) as vehicle demand stays at record levels and mortgages scale; IRDAI caps do not bite (fees hold ~1.25% of AUM); credit cost falls to ~1.35% as CSEL and vehicle finance keep improving; long-run ROE 21%."
+  },
+  "bear": {
+   "label": "Bear",
+   "aumGrowthDelta": -4,
+   "cofDelta": 0.25,
+   "feeDelta": -0.15,
+   "creditCostDelta": 0.5,
+   "sustainableRoe": 16,
+   "narrative": "Rate hikes and a weak monsoon: AUM +18/17/16%, funding 25bp dearer, most loan-linked insurance commission lost to IRDAI caps (−0.15pp), credit cost back to ~2.0% (FY21 Covid level on our basis) as vehicle-finance and LAP Stage 3 keep rising; long-run ROE 16%."
+  }
+ }
+}

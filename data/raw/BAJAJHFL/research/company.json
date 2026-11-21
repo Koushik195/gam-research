@@ -1,0 +1,94 @@
+{
+ "symbol": "BAJAJHFL",
+ "asOf": "2026-09-30",
+ "_note": "Bajaj Housing Finance fact base, as of 30-Sep-2026 (Q1FY27 basis). Standalone (the company has no subsidiaries). Company ratios are on average loan assets (AR = on-book loans); our model ratios are on AUM, which also includes ~12-13% of loans assigned off the balance sheet. Sources keyed in 'sources'.",
+ "sources": {
+  "q1ppt": { "title": "Q1FY27 investor presentation", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7a5680a-163f-4fc9-9846-7d795906dc95.pdf", "published": "2026-07-29" },
+  "q1call": { "title": "Q1FY27 earnings call transcript (call 29-Jul-2026)", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01000808-c7e4-4bb3-a518-d4714cb08639.pdf", "published": "2026-08-04" },
+  "q4ppt": { "title": "Q4FY26 investor presentation", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54446ce0-7b7f-4b95-8453-dadbd3576147.pdf", "published": "2026-04-27" },
+  "q4call": { "title": "Q4FY26 earnings call transcript (call 27-Apr-2026)", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3738018f-7926-453a-a73c-8d2b04c86aad.pdf", "published": "2026-05-04" },
+  "ar26": { "title": "Annual Report FY2025-26 (with AGM notice dated 4-Jul-2026)", "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/04c9c155-cdce-4552-b193-2c3d791a5735.pdf", "published": "2026-07-04" },
+  "ar25": { "title": "Annual Report FY2024-25", "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/fc89009b-135c-4d63-a116-bfa3c3289ad2.pdf", "published": "2025-07" },
+  "bflq1call": { "title": "Bajaj Finance Q1FY27 earnings call transcript (call 30-Jul-2026)", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b101e24e-b807-4c74-9025-90009f4b47a5.pdf", "published": "2026-08-04" },
+  "screener": { "title": "Screener.in standalone financials", "src": "https://www.screener.in/company/BAJAJHFL/", "published": "frozen at 30-Sep-2026 by the model" }
+ },
+ "annualKpis": [
+  { "fy": "FY18", "aum": 3570, "opexToNti": 74.6, "creditCostAr": 0.22, "roaAr": 0.6, "roe": 1.1, "gnpa": 0.00, "nnpa": 0.00, "crar": 45.12, "leverage": 3.03, "capitalInfusion": 1200, "src": "q1ppt p10" },
+  { "fy": "FY19", "aum": 17562, "opexToNti": 63.1, "creditCostAr": 0.24, "roaAr": 1.1, "roe": 4.2, "gnpa": 0.05, "nnpa": 0.04, "pcr": 35, "crar": 25.81, "leverage": 5.26, "capitalInfusion": 2000, "src": "q1ppt p10" },
+  { "fy": "FY20", "aum": 32705, "opexToNti": 32.9, "creditCostAr": 0.55, "roaAr": 1.9, "roe": 9.1, "gnpa": 0.08, "nnpa": 0.05, "pcr": 38, "crar": 25.15, "leverage": 5.62, "capitalInfusion": 1500, "src": "q1ppt p10" },
+  { "fy": "FY21", "aum": 38871, "opexToNti": 27.7, "creditCostAr": 0.80, "roaAr": 1.5, "roe": 7.8, "gnpa": 0.35, "nnpa": 0.22, "pcr": 38, "crar": 21.33, "leverage": 6.28, "capitalInfusion": 0, "src": "q1ppt p10" },
+  { "fy": "FY22", "aum": 53322, "opexToNti": 29.2, "creditCostAr": 0.45, "roaAr": 1.8, "roe": 11.1, "gnpa": 0.31, "nnpa": 0.14, "pcr": 54, "crar": 19.71, "leverage": 7.20, "capitalInfusion": 0, "src": "q1ppt p10" },
+  { "fy": "FY23", "aum": 69228, "opexToNti": 25.8, "creditCostAr": 0.21, "roaAr": 2.3, "roe": 14.6, "gnpa": 0.22, "nnpa": 0.08, "pcr": 64, "crar": 22.97, "leverage": 6.16, "capitalInfusion": 2500, "src": "q1ppt p10" },
+  { "fy": "FY24", "aum": 91370, "opexToNti": 24.2, "creditCostAr": 0.06, "roaAr": 2.4, "roe": 15.2, "gnpa": 0.27, "nnpa": 0.10, "pcr": 64, "crar": 21.28, "leverage": 6.69, "capitalInfusion": 0, "src": "q1ppt p10" },
+  { "fy": "FY25", "aum": 114684, "loanAssets": 99513, "opexToNti": 20.9, "creditCostAr": 0.07, "roaAr": 2.4, "roe": 13.4, "gnpa": 0.29, "nnpa": 0.11, "pcr": 60, "crar": 28.24, "leverage": 5.15, "capitalInfusion": 5560, "src": "q1ppt p10, p22" },
+  { "fy": "FY26", "aum": 140706, "loanAssets": 123745, "opexToNti": 19.7, "creditCostAr": 0.17, "roaAr": 2.3, "roe": 12.1, "gnpa": 0.27, "nnpa": 0.11, "pcr": 60, "crar": 22.46, "leverage": 5.65, "capitalInfusion": 0, "employees": 2052, "src": "q1ppt p10, p22; ar26 (employees)" }
+ ],
+ "annualKpisNote": "Company-reported. creditCostAr and roaAr are on average loan assets (on-book), not AUM. Leverage = total assets ÷ equity. capitalInfusion = equity raised in the year (₹ cr): FY25 = ₹2,000 cr rights issue (3-Apr-2024) + ₹3,560 cr IPO fresh issue (16-Sep-2024).",
+ "pnlHistory": {
+  "_note": "Company 9-year snapshot, ₹ crore (q1ppt p10). fees = fees and other income.",
+  "interestIncome": { "FY18": 74, "FY19": 998, "FY20": 2303, "FY21": 2877, "FY22": 3482, "FY23": 5269, "FY24": 7202, "FY25": 8986, "FY26": 10512 },
+  "interestExpense": { "FY18": 47, "FY19": 685, "FY20": 1616, "FY21": 1966, "FY22": 2155, "FY23": 3211, "FY24": 4692, "FY25": 5979, "FY26": 6760 },
+  "nti": { "FY18": 59, "FY19": 471, "FY20": 1030, "FY21": 1189, "FY22": 1611, "FY23": 2444, "FY24": 2909, "FY25": 3575, "FY26": 4391 },
+  "opex": { "FY18": 44, "FY19": 297, "FY20": 339, "FY21": 329, "FY22": 471, "FY23": 630, "FY24": 703, "FY25": 747, "FY26": 867 },
+  "ppop": { "FY18": 15, "FY19": 174, "FY20": 691, "FY21": 860, "FY22": 1140, "FY23": 1814, "FY24": 2206, "FY25": 2828, "FY26": 3524 },
+  "pat": { "FY18": 10, "FY19": 110, "FY20": 421, "FY21": 453, "FY22": 710, "FY23": 1258, "FY24": 1731, "FY25": 2163, "FY26": 2560 }
+ },
+ "fy26": { "aum": 140706, "loanAssets": 123745, "interestIncome": 10512, "interestExpense": 6760, "nii": 3752, "feesCommission": 298, "fvGains": 86, "saleOfServicesAndAssignment": 216, "otherOpIncome": 39, "nti": 4391, "opex": 867, "ppop": 3524, "llp": 191, "exceptional": -13, "pbt": 3320, "pat": 2560, "eps": 3.07, "netWorth": 22527, "nim": 3.9, "creditCostAr": 0.17, "creditCostExStage2": 0.10, "roaAr": 2.3, "roe": 12.1, "crar": 22.46, "tier1": 22.01, "lcr": 152.52, "pbcOverall": 60.88, "pbcIhl": 50.45, "disbursementQ4": 17506, "src": "q1ppt p22; q4call; ar26 MD&A tables 1(b) and 8" },
+ "fy26Guidance": { "aumGrowth": "21-23%", "aumActual": "23%", "nimModeration": "15-20bp", "nimActual": "7bp", "opexToNti": "20-21%", "opexActual": "19.7%", "gnpa": "35-40bp", "gnpaActual": "27bp", "creditCost": "15-20bp", "creditCostActual": "17bp", "pcr": "50-60%", "pcrActual": "59.78%", "roa": "2.0-2.2%", "roaActual": "2.3%", "leverage": "5.5-6x", "leverageActual": "5.6x", "roe": "11-12%", "roeActual": "12.1%", "src": "q1ppt p42 (FY26 assessment shared Jul-2025 vs actual)" },
+ "fy27Guidance": { "aumGrowth": "21-23%", "nimModeration": "20-25bp vs FY26 (14bp already in Q1; '6-10 bps' more in Q2-Q3)", "opexToNti": "19-20%", "gnpa": "30-35bp", "creditCost": "10-15bp", "pcr": "50-60%", "roa": "2.1-2.3%", "leverage": "5.8-6.3x (likely ~6.1x at Mar-27)", "roe": "12-13% (12.5-13% on the call)", "costOfFundsQ2": "sideways with a downward bias", "mediumTermRoa": "2.0-2.2% (Q4FY26 call)", "src": "q1ppt p41-42; q1call; q4call" },
+ "q1fy27": { "aum": 149624, "aumGrowth": 24, "aumAdded": 8918, "aumAddedQ1FY26": 5736, "loanAssets": 131162, "disbursements": 19509, "disbursementGrowth": 33, "interestIncome": 2856, "interestExpense": 1888, "nii": 968, "niiGrowth": 9, "feesCommission": 105, "fvGains": 23, "saleOfServicesAndAssignment": 68, "others": 11, "nti": 1175, "ntiGrowth": 16, "opex": 230, "opexToNti": 19.6, "ppop": 945, "llp": 16, "creditCostAr": 0.05, "pbt": 929, "pat": 715, "patGrowth": 23, "eps": 0.86, "portfolioYield": 8.9, "costOfFunds": 7.2, "grossSpread": 1.7, "nim": 3.7, "roaAr": 2.3, "roe": 12.5, "gnpa": 0.29, "nnpa": 0.12, "pcr": 58.53, "stage2Pct": 0.32, "crar": 21.59, "tier1": 21.17, "leverage": 5.8, "debtEquity": 4.8, "netWorth": 23234, "lcr": 158, "liquidityBuffer": 2516, "pbc": 61.46, "branches": 224, "locations": 182, "employees": 2025, "assignmentQ1": 2300, "borrowingMix": "money markets 52% : banks 38% : NHB 10%", "src": "q1ppt p3-6, p22-24, p38-39; q1call" },
+ "quarterlyKpis": [
+  { "q": "Q1FY25", "aum": 97071, "loanAssets": 85283, "portfolioYield": 9.8, "costOfFunds": 7.9, "gnpa": 0.28, "nnpa": 0.11, "src": "q1ppt p23-24; Screener" },
+  { "q": "Q2FY25", "aum": 102569, "loanAssets": 89878, "portfolioYield": 9.9, "costOfFunds": 7.9, "gnpa": 0.29, "nnpa": 0.12, "src": "q1ppt p23-24; Screener" },
+  { "q": "Q3FY25", "aum": 108314, "loanAssets": 95570, "portfolioYield": 9.8, "costOfFunds": 7.9, "gnpa": 0.29, "nnpa": 0.13, "src": "q1ppt p23-24; Screener" },
+  { "q": "Q4FY25", "aum": 114684, "loanAssets": 99513, "portfolioYield": 9.7, "costOfFunds": 7.9, "opexToNti": 21.8, "creditCostAr": 0.11, "roe": 12.1, "crar": 28.24, "disbursements": 14250, "gnpa": 0.29, "nnpa": 0.11, "src": "q1ppt p10, p23-24; q4call" },
+  { "q": "Q1FY26", "aum": 120420, "loanAssets": 105954, "portfolioYield": 9.5, "costOfFunds": 7.7, "nim": 3.9, "opexToNti": 21.2, "creditCostAr": 0.15, "roe": 11.6, "disbursements": 14651, "gnpa": 0.30, "nnpa": 0.13, "src": "q1ppt p4-6, p22-24" },
+  { "q": "Q2FY26", "aum": 126749, "loanAssets": 113059, "portfolioYield": 9.3, "costOfFunds": 7.4, "gnpa": 0.26, "nnpa": 0.12, "src": "q1ppt p23-24; Screener" },
+  { "q": "Q3FY26", "aum": 133412, "loanAssets": 117305, "portfolioYield": 9.1, "costOfFunds": 7.3, "nim": 4.0, "gnpa": 0.27, "nnpa": 0.11, "src": "q1ppt p23-24; q4call" },
+  { "q": "Q4FY26", "aum": 140706, "loanAssets": 123745, "portfolioYield": 8.9, "costOfFunds": 7.3, "nim": 3.8, "opexToNti": 19.2, "creditCostAr": 0.19, "roe": 12.2, "crar": 22.46, "disbursements": 17506, "gnpa": 0.27, "nnpa": 0.11, "src": "q4ppt; q4call; q1ppt p23-24" },
+  { "q": "Q1FY27", "aum": 149624, "loanAssets": 131162, "portfolioYield": 8.9, "costOfFunds": 7.2, "nim": 3.7, "opexToNti": 19.6, "creditCostAr": 0.05, "roe": 12.5, "crar": 21.59, "disbursements": 19509, "gnpa": 0.29, "nnpa": 0.12, "src": "q1ppt p3-6, p22-24" }
+ ],
+ "products": {
+  "_note": "AUM by product, ₹ crore. FY24-FY26 from the annual reports (MD&A table 1a); Jun-26 from q1ppt p38; Jun-25 from the mix chart (q1ppt p30) × AUM, rounded.",
+  "rows": [
+   { "key": "hl", "name": "Home loans (incl. top-ups)", "FY24": 52819, "FY25": 64447, "FY26": 76055, "Jun26": 80865, "growthQ1": 20, "gnpaJun26": 0.34, "ats": "₹48.9 lakh at origination; average salary ₹15.7 lakh; 83% salaried; 77.8% CIBIL >750", "what": "Prime salaried and self-employed home loans (new, resale, balance transfer, self-construction), plus Sambhav near-prime and affordable (16% of home loans, 20% by Mar-27)" },
+   { "key": "lap", "name": "Loans against property", "FY24": 9568, "FY25": 12262, "FY26": 15191, "Jun26": 15445, "growthQ1": 22, "gnpaJun26": 0.62, "ats": "₹91.6 lakh; 79% self-employed; 70% self-occupied residential collateral; 15% flexi", "what": "Prime, high-ticket LAP; GNPA historically 50-70bp" },
+   { "key": "lrd", "name": "Lease rental discounting", "FY24": 17637, "FY25": 21913, "FY26": 31531, "Jun26": 34604, "growthQ1": 41, "gnpaJun26": 0, "ats": "₹137 cr; 332 customers; 68% REITs, sovereign funds, MNC funds, large corporates and developers", "what": "Loans against contracted office, warehouse and industrial rents, escrowed; nil GNPA since inception" },
+   { "key": "df", "name": "Developer finance", "FY24": 9599, "FY25": 14346, "FY26": 16226, "Jun26": 17002, "growthQ1": 19, "gnpaJun26": 0.12, "ats": "₹58.8 cr; 608 developers; 895 projects", "what": "Residential and commercial construction finance, milestone-linked with escrow sweeps; feeder for retail home loans" },
+   { "key": "oth", "name": "Other loans", "FY24": 1747, "FY25": 1716, "FY26": 1703, "Jun26": 1708, "growthQ1": null, "gnpaJun26": 1.11, "ats": "", "what": "Non-collateralised loans" }
+  ],
+  "totals": { "FY24": 91370, "FY25": 114684, "FY26": 140706, "Jun25": 120420, "Jun26": 149624 },
+  "mixPct": { "Jun25": { "hl": 55.8, "lap": 10.5, "lrd": 20.4, "df": 11.9, "oth": 1.4 }, "Mar26": { "hl": 54.1, "lap": 10.8, "lrd": 22.4, "df": 11.5, "oth": 1.2 }, "Jun26": { "hl": 54.1, "lap": 10.3, "lrd": 23.1, "df": 11.4, "oth": 1.1 } },
+  "regulatory": { "FY26": { "housingAum": 65448, "nonHousingAum": 24189, "creResidentialAum": 13196, "creAum": 37783, "ihlPbc": 50.45, "pbc": 60.88 }, "FY25": { "housingAum": 54541, "nonHousingAum": 21869, "creResidentialAum": 11837, "creAum": 26437, "ihlPbc": 51.72, "pbc": 63.28 }, "minimum": { "ihlPbc": 50, "pbc": 60 }, "src": "ar26 MD&A table 1(b) and table 8" },
+  "src": "ar25 and ar26 MD&A table 1(a); q1ppt p30-35, p38"
+ },
+ "sambhav": { "monthlyDisbursement": { "Q3FY26": "₹325-350 cr", "Q4FY26": "₹410-425 cr", "Q1FY27": "₹450-465 cr" }, "target": "₹600 cr+ a month within nine months (from Jul-2026)", "ats": "₹28 lakh (affordable ~₹17-18 lakh)", "affordableShare": "33-36% of Sambhav disbursements", "bureau750": 64.8, "salaried": 68, "locations": "73 urban + 72 rural", "targetYield": "near-prime 9-11%, affordable 11-13%", "homeLoanMix": "prime : Sambhav 84 : 16 in Jun-26, 80 : 20 by Mar-27", "src": "q1ppt p32; q1call" },
+ "funding": { "mixJun26": { "banks": 38, "moneyMarkets": 52, "nhb": 10 }, "mixDetailJun26": "bank loans 38.3%, NCDs 46.5%, CP 5.3%, NHB 9.9%, ICD ~0.0%", "floatingBorrowings": 63, "repoLinkedLoans": 17000, "banks": 18, "ratings": "CRISIL AAA/Stable and IND AAA/Stable (long term); CRISIL A1+ and IND A1+ (short term)", "lcrJun26": 158, "alm": "Cumulative behavioural surplus in every bucket up to 1 year (6-17% of outflows); small gaps in 3-5 years (−1%)", "pass_through_certificates": "Floating-rate PTCs issued in FY26 as a new funding source", "src": "q1ppt p26-27, p45; q4call (floating 63%, repo-linked ₹17,000 cr); ar26" },
+ "relatedParty": { "assignedToBflFY26": 3645.28, "servicingFeeReceivedFY26": 25.42, "esopRechargePaidFY26": 10.03, "omnibusApprovalLoanTransfers": 12500, "omnibusServicingFees": 50, "note": "BHFL sells (assigns) loan pools to its parent Bajaj Finance and keeps servicing them for a fee; the 2026 AGM sought omnibus approval for up to ₹12,500 cr of such transfers. Assignment keeps the housing-share (PBC) ratios above the floor and generates 'income on derecognised loans'.", "src": "ar26 AGM notice, RPT annexure (pp 2-14)" },
+ "mps": { "listingDate": "2024-09-16", "ipoPrice": 70, "ipoFresh": 3560, "ipoOfsByBfl": 3000, "ipoSubscription": 63.6, "listingClose": 165, "bflStakePostIpo": 88.75, "bflStakeJun25": 88.70, "bulkDeal": "2-Dec-2025: BFL sold 16.66 cr shares (~2%) via a bulk deal; stake 88.70% → 86.70%; stock fell ~9% to a then-record low of ₹94.90 that day", "deadlineOld": "Sep-2027 (3 years from listing)", "deadlineNew": "15-Sep-2029, after the Securities Contracts (Regulation) Amendment Rules, 2026 (13-Mar-2026) revised the market-cap thresholds", "toSell": "11.70% of shares (~97.5 cr shares) to reach 75%", "parentView": "'We will go down to 75%, while we have time and we are in no hurry. First protocol most likely will be BHFL dilution' (Rajeev Jain, BFL Q1FY27 call, 30-Jul-2026); BFL shares part of its gains on BHFL sales with its own shareholders (BFL Q4FY26 call)", "src": "ar26 directors' report ('Minimum Public Shareholding'); BusinessToday 2-Dec-2025; Business Standard 16/17-Sep-2024; bflq1call" },
+ "management": [
+  { "name": "Sanjiv Bajaj", "role": "Chairman (non-executive; CMD of Bajaj Finserv)" },
+  { "name": "Rajeev Jain", "role": "Vice Chairman (non-executive); Vice-Chairman & MD of Bajaj Finance" },
+  { "name": "Atul Jain", "role": "Managing Director; holds 3.78 lakh BHFL shares" },
+  { "name": "Gaurav Kalani", "role": "Chief Financial Officer" },
+  { "name": "Atul Patni", "role": "Company Secretary" }
+ ],
+ "governance": {
+  "board": "8 directors at Mar-26: Sanjiv Bajaj (chairman) and Rajeev Jain (vice chairman), both non-executive from the group; Atul Jain (MD); five independent directors (Anami N Roy, Dr Arindam Bhattacharya, Jasmine Chaney, S M N Swamy, Ajay Kumar Choudhary from 1-Mar-2026)",
+  "auditors": "Mukund M. Chitale & Co. and Singhi & Co. (joint statutory auditors); FY26 audit report unmodified",
+  "mdPayRatio": 147, "mdPayIncreasePct": 7.75, "medianPayIncreasePct": 13.9, "mdPayNote": "Ratio to median employee pay, excluding perquisites, ESOP fair value and ex gratia; increase on fixed pay",
+  "esop": "ESOP Scheme 2024 via an ESOP trust (41.9 lakh shares allotted at ₹54.5 in FY26); BHFL also reimburses Bajaj Finance for BFL options granted to BHFL staff (₹10 cr in FY26)",
+  "reserveFund": "₹512 cr (20% of FY26 profit) transferred to the statutory reserve under Section 29C of the NHB Act",
+  "regulator": "Upper-layer NBFC under the RBI's scale-based regulation (classified in FY23; listing was mandatory); housing-finance company supervised by the National Housing Bank",
+  "src": "ar26 (corporate information, directors' report, remuneration annexure)"
+ },
+ "corporateActions": [
+  { "when": "FY18", "what": "Lending operations start; ₹1,200 cr equity from Bajaj Finance" },
+  { "when": "FY19-FY20", "what": "₹2,000 cr and ₹1,500 cr of equity from the parent; AUM ₹17,562 cr → ₹32,705 cr" },
+  { "when": "FY23", "what": "₹2,500 cr equity (two rounds); RBI classifies BHFL as an upper-layer NBFC, which forces a listing within three years" },
+  { "when": "3-Apr-2024", "what": "₹2,000 cr rights issue to the parent" },
+  { "when": "16-Sep-2024", "what": "IPO: ₹3,560 cr fresh issue + ₹3,000 cr offer for sale by Bajaj Finance at ₹70; subscribed 63.6x; listed at ₹150, closed ₹165" },
+  { "when": "2-Dec-2025", "what": "Bajaj Finance sells ~2% in a bulk deal (stake to 86.70%)" },
+  { "when": "13-Mar-2026", "what": "SCRR amendment extends BHFL's minimum-public-shareholding deadline to 15-Sep-2029" }
+ ]
+}

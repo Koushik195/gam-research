@@ -1,0 +1,211 @@
+{
+ "asOf": "2026-09-30",
+ "type": "lender",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "_note": "Bajaj Housing Finance (standalone = the whole company; no subsidiaries) lender model, as of 30-Sep-2026 on a Q1FY27 basis. Sources: Q1FY27 investor presentation (29-Jul-2026, incl. the FY27 management assessment) and call transcript (call 29-Jul-2026, filed 4-Aug-2026); Q4FY26 presentation (27-Apr-2026) and call; Annual Report FY2025-26 (notice dated 4-Jul-2026); Screener.in standalone statements (FY20 column repaired by BAJAJHFL.patch.js). All drivers are on AUM, which includes the ~12% of loans assigned off the balance sheet, so yields and margins read lower than the company's ratios on loan assets (AR).",
+ "history": {
+  "_why": "Company 9-year snapshot (Q1FY27 presentation p10): closing AUM, loan losses & provisions, and 'fees and other income' (fees and commission, fair-value gains, sale of services and income on derecognised (assigned) loans, other). Revenue = interest income + fees ties to Screener within ₹16 cr in every year; FY26 ties to ₹1 cr.",
+  "aum": {
+   "FY18": 3570,
+   "FY19": 17562,
+   "FY20": 32705,
+   "FY21": 38871,
+   "FY22": 53322,
+   "FY23": 69228,
+   "FY24": 91370,
+   "FY25": 114684,
+   "FY26": 140706
+  },
+  "provisions": {
+   "FY18": 4,
+   "FY19": 25,
+   "FY20": 124,
+   "FY21": 247,
+   "FY22": 180,
+   "FY23": 114,
+   "FY24": 45,
+   "FY25": 58,
+   "FY26": 191
+  },
+  "feeIncome": {
+   "FY18": 32,
+   "FY19": 158,
+   "FY20": 343,
+   "FY21": 278,
+   "FY22": 284,
+   "FY23": 386,
+   "FY24": 399,
+   "FY25": 568,
+   "FY26": 639
+  },
+  "src": {
+   "all": "Q1FY27 investor presentation p10 (9-year financial snapshot), 29-Jul-2026; FY25-FY26 also p22 and Annual Report FY2025-26 MD&A table 1(a)"
+  }
+ },
+ "base": {
+  "shares": 833.2
+ },
+ "_baseWhy": "833.23 cr equity shares in issue at 31-Mar-2026 (Annual Report FY2025-26, directors' report: ₹8,332.33 cr paid-up at ₹10 face value, after 41.9 lakh ESOP shares allotted to the ESOP trust in FY26); Motilal Oswal and Emkay also use 8,332 mn. Screener's FY26 EPS (₹3.07, rounded) implies 833.9 cr; Screener's equity capital (₹8,329 cr) nets ~0.3 cr shares held by the ESOP trust. The 0.1% gap is rounding.",
+ "aumGrowth": [
+  23,
+  21,
+  20
+ ],
+ "_aumGrowthWhy": "FY27 management assessment (29-Jul-2026): 21-23%. Q1FY27 added a record ₹8,918 cr (₹5,736 cr a year earlier); four more such quarters would be +25%, and balance-transfer (BT-out) attrition eased in Q1. We take the top of guidance for FY27 and fade 2pp a year: the home-loan industry grew only 9.4% in FY26, prime home loans compete head-on with banks, and individual home loans are already at 50.45% of assets vs the 50% regulatory floor (Mar-26), which caps how fast lease-rental and developer loans can grow on the balance sheet. Street: Motilal Oswal ~25% FY27E, Emkay 23.5/24/23.5%, JM Financial 22.3/22.6%.",
+ "yieldOnAum": [
+  7.9,
+  7.86,
+  7.84
+ ],
+ "_yieldOnAumWhy": "Interest income ÷ average AUM: 8.72% FY25, 8.23% FY26, 7.87% annualised in Q1FY27 (portfolio yield 8.9% vs 9.5% a year earlier). Management: the old, higher-yield book keeps running off and is replaced at lower acquisition rates in a stable-rate regime; NIM (on loan assets) to fall 20-25bp in FY27 vs FY26, of which 14bp came in Q1 and '6-10 bps' more is expected. Partly offset by the Sambhav (near-prime and affordable) mix rising from 16% to 20% of home loans (target yield 9-13% vs prime). We take 2bp more off in Q2-Q4 and 3-7bp a year after.",
+ "feeIncomePct": [
+  0.55,
+  0.54,
+  0.54
+ ],
+ "_feeIncomePctWhy": "Fees and other income ÷ average AUM: 0.55% FY25, 0.50% FY26, 0.57% annualised in Q1FY27 (lifted by income on a ~₹2,300 cr assignment; insurance commissions rising with disbursements). Assignments stay at 12-13% of AUM (CFO), so assignment income grows with the book.",
+ "costOfFunds": [
+  7.05,
+  7,
+  6.98
+ ],
+ "_costOfFundsWhy": "Interest expense ÷ average year-end borrowings: 7.91% FY25, 7.28% FY26, ~7.05% annualised in Q1FY27 (company basis 7.2%, down 7bp QoQ; 63% of borrowings floating incl. swaps). Management: Q2 'sideways with a downward bias'; incremental money-market funding was dearer in Q4-Q1 and 'the scenario of a cut of rate is over'. We hold it near the Q1 level.",
+ "opexPct": [
+  0.63,
+  0.6,
+  0.58
+ ],
+ "_opexPctWhy": "Opex incl. depreciation ÷ average AUM: 0.72% FY25, 0.68% FY26, 0.63% annualised in Q1FY27. Guidance: opex to net total income 19-20% (FY26 19.7%, Q1 19.6%), 'sideways' because NIM falls while efficiency improves (AI underwriting, centralised hubs). Our values give ~19.6% / 19.3% / 18.9% cost-to-income for FY27-29E.",
+ "creditCost": [
+  0.105,
+  0.125,
+  0.135
+ ],
+ "_creditCostWhy": "Provisions ÷ average AUM: 0.06% FY25 (incl. a ₹60 cr overlay release), 0.15% FY26 (incl. stronger Stage 2 cover), 0.04% annualised in Q1FY27 (Stage 1 release on a ₹2,300 cr assignment). Guidance: 10-15bp of average loan assets in FY27 = ~9-13bp of AUM. We take the middle for FY27 and edge up as Sambhav (near-prime/affordable) and LAP grow and the young books season. Street: Motilal Oswal 13/14bp of loans FY27/28E.",
+ "taxRate": [
+  23,
+  23,
+  23
+ ],
+ "_taxRateWhy": "Effective rate 22.9% FY26 and 23.0% in Q1FY27 (Screener); special reserve deduction (Section 36(1)(viii)) keeps it below the 25.2% statutory rate.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "BHFL has never paid a dividend (Screener payout 0% FY20-FY26); it retains everything to fund 20%+ growth. A maiden dividend would lower book growth but not value.",
+ "otherIncome": [
+  0,
+  0,
+  0
+ ],
+ "_otherIncomeWhy": "Non-operating items are negligible: Screener other income ₹-2 cr FY25 and ₹-14 cr FY26 (a ₹13 cr Labour Code exceptional charge). We assume none.",
+ "capitalRaise": [
+  0,
+  0,
+  0
+ ],
+ "_capitalRaiseWhy": "No primary equity needed: CRAR 21.59% (Tier 1 21.17%) in Jun-2026 vs a 15% minimum, leverage 5.8x vs an internal ceiling of 8x. The parent's sell-down to 75% (deadline 15-Sep-2029) is a secondary sale: it changes who owns BHFL, not BHFL's equity. A fresh issue to meet the float rule is possible but not announced; see the capital chapter.",
+ "newShares": [
+  0,
+  0,
+  0
+ ],
+ "valuation": {
+  "rf": 6.5,
+  "beta": 1,
+  "erp": 6,
+  "g": 10,
+  "sustainableRoe": 14,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeYears": 8,
+  "payoutTo": 30,
+  "rollForwardMonths": 6,
+  "_why": "Ke = 6.5% + 1.0 × 6% = 12.5% (house rf and ERP; beta 1.0: a low-credit-risk AAA mortgage book, offset by 6x leverage, rate sensitivity and a float overhang; two years of trading history is too short for a statistical beta). sustainableRoe 14% = ROA of 2.0-2.2% on loan assets (management's medium-term range) at 6.5-7x leverage, well inside the 8x internal ceiling; it has never been above 15.2% (FY24). g = 10% long-run book growth in the justified P/B (about nominal GDP; the book grows faster than that for several years, which the residual-income check captures). Residual income: ROE fades from FY29E to 14% over 8 years, payout rising to 30%, 6% terminal growth.",
+  "blend": {
+   "round": 1,
+   "methods": [
+    {
+     "key": "pb",
+     "name": "P/B",
+     "method": "pb",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 2.1,
+      "bull": 2.5,
+      "bear": 1.6
+     },
+     "why": "The street's method (Motilal Oswal 2.7x FY28E, Emkay 2.6x FY28E, JM Financial 2.5x FY28E at initiation). 2.1x = BHFL's own median forward P/B over the last 12 months (2.5x; the same since the parent's first sell-down in Dec-2025) × the housing-finance sector's move against its own last-12-month medians on 30-Sep-2026 (−15%: median of seven listed HFCs). The since-listing median (3.7x) is not used on its own: the first year priced an IPO scarcity premium (63.6x subscription, stock at 2.6x the issue price). Bull 2.5x = BHFL's 12-month median (sector back to its recent norm); bear 1.6x = justified P/B at a 14% ROE, about where listed affordable-housing lenders trade."
+    },
+    {
+     "key": "jpb",
+     "name": "Justified P/B",
+     "method": "jpb",
+     "role": "cross-check",
+     "year": "Sep-27E",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "why": "(ROE − g) ÷ (Ke − g) = (14 − 10) ÷ (12.5 − 10) = 1.6x book at the 12-month target date."
+    },
+    {
+     "key": "ri",
+     "name": "Residual income",
+     "method": "ri",
+     "role": "cross-check",
+     "why": "Book plus the present value of profit above the 12.5% cost of equity, ROE fading to 14%, rolled forward 6 months."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 17,
+      "bull": 20.5,
+      "bear": 12.5
+     },
+     "why": "Cross-check only, derived the same way: BHFL's median forward P/E over the last 12 months (20.7x) × the HFC sector's P/E move against its 12-month medians (−17%) = 17x. Bull 20.5x = the 12-month median; bear 12.5x = the median trailing P/E of seven listed HFCs."
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "aumGrowthDelta": 2,
+   "yieldDelta": 0.05,
+   "opexDelta": -0.02,
+   "creditCostDelta": -0.03,
+   "sustainableRoe": 16,
+   "narrative": "BT-out keeps easing and Sambhav reaches 20%+ of home loans: AUM +25/23/22%, yield +5bp, opex 2bp lower (AI, scale), credit cost 3bp lower (the FY24-25 run-rate); leverage climbs toward 7x and long-run ROE reaches 16%."
+  },
+  "bear": {
+   "label": "Bear",
+   "aumGrowthDelta": -5,
+   "yieldDelta": -0.15,
+   "creditCostDelta": 0.1,
+   "sustainableRoe": 12,
+   "narrative": "Banks keep cutting prime home-loan rates and the commercial book slows (AUM +18/16/15%), yield −15bp, and a commercial real-estate downturn lifts credit cost by 10bp (to ~0.2-0.25% of AUM, still low); long-run ROE stays at 12%."
+  }
+ }
+}

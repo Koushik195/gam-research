@@ -379,6 +379,9 @@ function buildModel(symbol) {
   };
   model.insights = buildInsights(model);
   if (research.assumptions) {
+    // The lender forecast reads Screener schedules: give it this build's patched, as-of-frozen raw
+    // (non-enumerable, so it is never written into the model JSON).
+    Object.defineProperty(model, 'raw', { value: raw, enumerable: false, configurable: true });
     model.forecast = buildForecast(model, research.assumptions);
     model.fin = combinedSeries(annual, model.forecast.F);
     if (model.forecast.finExtra) { Object.assign(model.fin, model.forecast.finExtra); delete model.forecast.finExtra; } // lender lines (aum, nii, nim, roa…) with history

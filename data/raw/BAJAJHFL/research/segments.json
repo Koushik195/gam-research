@@ -1,0 +1,48 @@
+{
+ "symbol": "BAJAJHFL",
+ "asOf": "2026-09-30",
+ "_note": "AUM by product (₹ crore). FY24-FY26 from the annual reports (FY2024-25 and FY2025-26 MD&A table 1a); Q1FY26 (Jun-25) from the Q1FY27 mix chart (p30) × AUM ₹1,20,420 cr, rounded to ₹10 cr; Q1FY27 (Jun-26) exact from the Q1FY27 presentation p38. Each row sums to total AUM (Jun-25 within rounding).",
+ "lines": [
+  { "key": "hl", "name": "Home loans (incl. top-ups)" },
+  { "key": "lap", "name": "Loans against property" },
+  { "key": "lrd", "name": "Lease rental discounting" },
+  { "key": "df", "name": "Developer finance" },
+  { "key": "oth", "name": "Other loans" }
+ ],
+ "annual": [
+  { "fy": "FY24", "hl": 52819, "lap": 9568, "lrd": 17637, "df": 9599, "oth": 1747, "total": 91370, "src": "Annual Report FY2024-25, MD&A table 1(a)" },
+  { "fy": "FY25", "hl": 64447, "lap": 12262, "lrd": 21913, "df": 14346, "oth": 1716, "total": 114684, "src": "Annual Report FY2025-26, MD&A table 1(a)" },
+  { "fy": "FY26", "hl": 76055, "lap": 15191, "lrd": 31531, "df": 16226, "oth": 1703, "total": 140706, "src": "Annual Report FY2025-26, MD&A table 1(a); Q4FY26 presentation" }
+ ],
+ "quarterly": [
+  { "q": "Q1FY26", "hl": 67190, "lap": 12640, "lrd": 24570, "df": 14330, "oth": 1690, "total": 120420, "src": "Q1FY27 presentation p30 (mix 55.8 / 10.5 / 20.4 / 11.9 / 1.4%) × AUM; rounded" },
+  { "q": "Q1FY27", "hl": 80865, "lap": 15445, "lrd": 34604, "df": 17002, "oth": 1708, "total": 149624, "src": "Q1FY27 presentation p38 (29-Jul-2026)" }
+ ],
+ "assetQualityJun26": {
+  "_note": "Gross / net Stage 3 (%) by product and Stage 3 coverage, Q1FY27 presentation p38-39.",
+  "head": ["Product", "AUM Jun-26 (₹ cr)", "GNPA Jun-25", "GNPA Mar-26", "GNPA Jun-26", "NNPA Jun-26", "Stage 3 PCR"],
+  "rows": [
+   ["Home loans", 80865, 0.36, 0.35, 0.34, 0.15, 57.03],
+   ["Loans against property", 15445, 0.61, 0.46, 0.62, 0.25, 60.42],
+   ["Lease rental discounting", 34604, 0, 0, 0, 0, null],
+   ["Developer finance", 17002, 0.03, 0.03, 0.12, 0.06, 47.72],
+   ["Other loans", 1708, 1.09, 1.11, 1.11, 0.19, 83.40],
+   ["Total", 149624, 0.30, 0.27, 0.29, 0.12, 58.53]
+  ]
+ },
+ "stages": {
+  "_note": "Gross assets receivable and ECL by stage, ₹ crore (Q1FY27 presentation p39).",
+  "jun26": { "s1": 131106, "s2": 416, "s3": 380, "ecl1": 401, "ecl2": 117, "ecl3": 222 },
+  "mar26": { "s1": 123692, "s2": 453, "s3": 330, "ecl1": 401, "ecl2": 132, "ecl3": 197 },
+  "jun25": { "s1": 105887, "s2": 364, "s3": 315, "ecl1": 353, "ecl2": 82, "ecl3": 177 }
+ },
+ "kpiBlocks": [
+  { "title": "AUM by product (₹ crore)", "unit": "₹ cr", "rows": [
+   { "name": "Home loans", "values": { "FY24": 52819, "FY25": 64447, "FY26": 76055 } },
+   { "name": "Loans against property", "values": { "FY24": 9568, "FY25": 12262, "FY26": 15191 } },
+   { "name": "Lease rental discounting", "values": { "FY24": 17637, "FY25": 21913, "FY26": 31531 } },
+   { "name": "Developer finance", "values": { "FY24": 9599, "FY25": 14346, "FY26": 16226 } },
+   { "name": "Other loans", "values": { "FY24": 1747, "FY25": 1716, "FY26": 1703 } }
+  ], "source": "Annual reports FY2024-25 and FY2025-26" }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "asOf": "2026-09-30",
+ "type": "lender",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "_note": "Muthoot Finance (consolidated: standalone gold-loan NBFC + Muthoot Money, Belstar Microfinance, Muthoot Homefin, Asia Asset Finance, insurance broking) lender model, as of 30-Sep-2026 on a Q1FY27 basis. Sources: Q1FY27 presentation (1-Aug-2026) and call (1-Aug-2026); Q4FY26 presentation and call (14-May-2026); Q4FY20-Q4FY25 presentations for history; Annual Report FY2025-26 (filed 7-Aug-2026); Screener.in for the statements. Gold price held flat at the 30-Sep-2026 level in the base case (no gold forecast); scenarios move it.",
+ "history": {
+  "_why": "Screener-consistent consolidated history. aum = consolidated loan AUM (principal) at March from the Q4 presentations (₹ Mn ÷ 10). provisions = consolidated 'impairment of financial instruments' (latest restated figure: FY25 ₹1,576 cr per the Q4FY26 deck, ₹1,635 cr as first reported; FY23 ₹243 cr per the Q4FY24 deck). feeIncome = Screener revenue − consolidated interest income (service charges, sale of services and other operating income), so interest income + fees ties to Screener revenue exactly. Screener moves ~₹20-55 cr a year from 'other expenses' into interest (finance cost); profit is unchanged.",
+  "aum": {
+   "FY19": 38304,
+   "FY20": 46871,
+   "FY21": 58280,
+   "FY22": 64494,
+   "FY23": 71497,
+   "FY24": 89079,
+   "FY25": 122181,
+   "FY26": 181917
+  },
+  "provisions": {
+   "FY19": 68,
+   "FY20": 187,
+   "FY21": 255,
+   "FY22": 384,
+   "FY23": 243,
+   "FY24": 554,
+   "FY25": 1576,
+   "FY26": 1026
+  },
+  "feeIncome": {
+   "FY19": 178,
+   "FY20": 266,
+   "FY21": 325,
+   "FY22": 261,
+   "FY23": 343,
+   "FY24": 516,
+   "FY25": 551,
+   "FY26": 838
+  },
+  "src": {
+   "FY26": "Q4FY26 presentation p18-19, p24 (14-May-2026); Q1FY27 presentation p18, p23",
+   "FY25": "Q4FY26 presentation p18-19, p24 (restated)",
+   "FY24": "Q4FY24 presentation (consolidated AUM ₹8,90,786 Mn; results page)",
+   "FY23": "Q4FY24 presentation (₹7,14,968 Mn); Q4FY23 presentation results page",
+   "FY22": "Q4FY22 presentation (₹6,44,939 Mn); Q4FY23 presentation",
+   "FY19-FY21": "Q4FY20 and Q4FY21 presentations"
+  }
+ },
+ "aumGrowth": [
+  18,
+  15,
+  13
+ ],
+ "_aumGrowthWhy": "FY27 guidance is the usual opening 15% (from Mar-26; 'we will revise the guidance in the next quarter', call 1-Aug-2026). Q1FY27 alone added 5.3% (consolidated, ₹1,81,917 → ₹1,91,532 cr) although the gold price Muthoot lends against fell 3.7% in the quarter; on 30-Sep-2026 22-carat gold was ~5-6% above the end-June level. 18% = Q1 plus ~4% a quarter, above guidance but below the 43% of the last year. FY28-29E: gold held flat at the 30-Sep level, so growth = tonnage (+3% a year over FY16-26) + bigger tickets + the new 80-85% LTV tiers for small loans, less competition from banks and new NBFC entrants.",
+ "yieldOnAum": [
+  18.1,
+  17.8,
+  17.5
+ ],
+ "_yieldOnAumWhy": "Consolidated interest income ÷ average AUM: 18.6% FY25, 20.0% FY26 (windfall NPA and ARC recoveries, top-up charges and a 0.5-1% rate rise on some schemes in Q4), 18.3% annualised in Q1FY27. Standalone yield fell from 20.76% (Q4FY26) to 17.93% (Q1FY27); management says 18-18.5% is the steady state but also that 'there is a determined effort to bring down the yield' to grow, and that all lenders cutting rates is 'quite possible'. We take 18.1% for FY27 and 30bp a year off after that for competition (new entrants' gold loans 2.5x in a year, per Jefferies).",
+ "feeIncomePct": [
+  0.35,
+  0.35,
+  0.35
+ ],
+ "_feeIncomePctWhy": "Fees and other operating income ÷ average AUM: 0.52% FY25, 0.55% FY26, ~0.25% annualised in Q1FY27 (top-up charges and one-off income gone). 0.35% sits between.",
+ "costOfFunds": [
+  8.85,
+  8.9,
+  8.9
+ ],
+ "_costOfFundsWhy": "Interest expense ÷ average Screener borrowings: 8.91% FY25, 8.80% FY26, ~8.8% annualised in Q1FY27 (company: interest expense ÷ average loans 7.52% in Q1 vs 7.40% in FY26). CFO: 'I'm not expecting any reductions in the cost of borrowing ... it can go up' (1-Aug-2026). AA+ (CRISIL, ICRA) and BB+/Ba1 abroad; 17% of funding is dollar bonds.",
+ "opexPct": [
+  2.85,
+  2.8,
+  2.8
+ ],
+ "_opexPctWhy": "Operating expenses incl. depreciation ÷ average AUM: 3.75% FY25, 3.21% FY26, 2.82% annualised in Q1FY27 (Q1 already includes the annual pay rise; standalone SG&A 2.30% of loans). The group plans 500-600 new branches in FY27 (~7% more), so costs grow faster than in FY26 but slower than AUM.",
+ "creditCost": [
+  0.4,
+  0.45,
+  0.5
+ ],
+ "_creditCostWhy": "Impairment ÷ average AUM: 0.36% FY23, 0.69% FY24, 1.49% FY25 (microfinance stress at Belstar), 0.67% FY26, 0.26% annualised in Q1FY27. Gold-loan losses are tiny (standalone write-offs 0.14% of loans in FY26), but Stage 2 loans in the standalone book rose from ₹1,062 cr to ₹1,876 cr in Q1 as customers adjust to the new periodic-servicing rules, and microfinance is cyclical. We edge up to 0.5% by FY29E.",
+ "taxRate": [
+  25.6,
+  25.6,
+  25.6
+ ],
+ "_taxRateWhy": "FY26 effective 25.9%, Q1FY27 25.6%.",
+ "payout": [
+  12,
+  12,
+  12
+ ],
+ "_payoutWhy": "FY26 dividend ₹30 a share (interim, declared 10-Apr-2026) = 11.4% of EPS; FY25 ₹26 (19.6%); FY24 ₹24 (22%). The rupee dividend has grown ~10-15% a year while profit doubled, so the payout ratio fell; we hold ~12%.",
+ "minorityPct": [
+  0.9,
+  0.9,
+  0.9
+ ],
+ "_minorityPctWhy": "Minorities own 33.87% of Belstar Microfinance and 27.08% of Asia Asset Finance. FY26 minority interest was only ₹17 cr (Belstar near break-even for the year); Q1FY27 ₹26 cr of ₹2,825 cr (0.9%) with Belstar earning ₹66 cr. We hold 0.9%.",
+ "otherIncome": [
+  60,
+  60,
+  60
+ ],
+ "_otherIncomeWhy": "Screener 'other income' outside operations: ₹51-54 cr in FY25-26, ₹23 cr in Q1FY27.",
+ "capitalRaise": [
+  0,
+  0,
+  0
+ ],
+ "newShares": [
+  0,
+  0,
+  0
+ ],
+ "valuation": {
+  "rf": 6.5,
+  "beta": 1.1,
+  "erp": 6,
+  "g": 8,
+  "sustainableRoe": 20,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeYears": 8,
+  "payoutTo": 60,
+  "rollForwardMonths": 6,
+  "_why": "Ke = 6.5% + 1.1 × 6% = 13.1% (house rf and ERP; beta 1.1 for a single-product lender whose collateral is a commodity price and whose rules are set by the RBI: in FY13-FY15 a gold-price fall plus an LTV cap halved ROE from 30% to 14%). sustainableRoe 20% = through-cycle ROE (consolidated ROE 18-31% in FY20-FY26, 14-30% in FY13-FY15). g = 8% long-run book growth (gold loans grow with the gold price and tonnage; no assumption of a rising gold price). Residual income fades ROE to 20% over 8 years; payoutTo 60% (not the usual 30%) so that steady-state book growth = 20% ROE × 40% retention = 8%, consistent with g; this offsets the engine retaining all profit in FY28-29E. 6% terminal growth.",
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pb",
+     "name": "P/B",
+     "method": "pb",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 1.95,
+      "bull": 2.4,
+      "bear": 1.4
+     },
+     "why": "The street method (Motilal Oswal ~2.0x Mar-28E book; Jefferies cites 2.1x one-year-forward book, its five-year average). 1.95x = own median one-year-forward P/B since Apr-2021 (2.0x) × the lender peers' P/B move vs five-year medians on 30-Sep-2026 (−2.5%, nine peers, Muthoot excluded) × the regime since Apr-2023 (2.0x ÷ 2.0x). Bull 2.4x = 75th percentile since 2021; bear 1.4x = lowest since 2021 (Apr-2023, after a year of rate cuts and slow growth)."
+    },
+    {
+     "key": "jpb",
+     "name": "Justified P/B",
+     "method": "jpb",
+     "role": "cross-check",
+     "year": "Sep-27E",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "why": "(ROE − g) ÷ (Ke − g) = (20 − 8) ÷ (13.1 − 8) on book at the 12-month target date."
+    },
+    {
+     "key": "ri",
+     "name": "Residual income",
+     "method": "ri",
+     "role": "cross-check",
+     "why": "Book plus the present value of profit above the 13.1% cost of equity, ROE fading to 20% over 8 years with payout rising to 60%, rolled forward 6 months."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 8.5,
+      "bull": 9.9,
+      "bear": 6.3
+     },
+     "why": "Cross-check only. 8.5x = median forward P/E since Apr-2021 (9.9x; no trough years) × lender peers' P/E move vs five-year medians (−11.4%, eight peers; Manappuram left out because its FY26 EPS is a trough) × the regime since Apr-2023 (9.5x ÷ 9.9x). Bull = median since 2021; bear = lowest since 2021."
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "aumGrowthDelta": 5,
+   "yieldDelta": 0.3,
+   "creditCostDelta": -0.1,
+   "sustainableRoe": 23,
+   "narrative": "Gold rises another ~10-15% from the 30-Sep level and holds; AUM +23/20/18%; competition stays rational, so yields fall only ~0-30bp a year (+30bp vs base); credit cost 10bp lower; long-run ROE 23%."
+  },
+  "bear": {
+   "label": "Bear",
+   "aumGrowthDelta": -12,
+   "yieldDelta": -0.6,
+   "creditCostDelta": 0.4,
+   "sustainableRoe": 16,
+   "narrative": "Gold falls ~20% from the 30-Sep level in FY28: tonnage cannot replace value, AUM grows only +6/3/1%; rate war with banks and new NBFCs (yield −60bp vs base); auctions and LTV breaches lift credit cost by 40bp; long-run ROE 16% (FY14-FY15 precedent: ROE fell from 30% to 14%)."
+  }
+ }
+}

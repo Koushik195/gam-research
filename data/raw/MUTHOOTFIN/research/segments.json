@@ -1,0 +1,44 @@
+{
+ "symbol": "MUTHOOTFIN",
+ "asOf": "2026-09-30",
+ "_note": "Group loan AUM by entity (principal, ₹ cr) and the standalone gold book by quarter. Muthoot reports no profit segments beyond legal entities; entity PAT is in company.json subsidiaries.",
+ "entities": [
+  { "key": "mfl", "name": "Muthoot Finance (standalone)" },
+  { "key": "mml", "name": "Muthoot Money" },
+  { "key": "belstar", "name": "Belstar Microfinance" },
+  { "key": "homefin", "name": "Muthoot Homefin" },
+  { "key": "aaf", "name": "Asia Asset Finance (Sri Lanka)" },
+  { "key": "intra", "name": "Less: intra-group loans" }
+ ],
+ "annual": [
+  { "fy": "FY22", "mfl": 58053, "mml": 207, "belstar": 4366, "homefin": 1470, "aaf": 446, "intra": -48, "total": 64494, "src": "q4fy23ppt p14" },
+  { "fy": "FY23", "mfl": 63210, "mml": 387, "belstar": 6193, "homefin": 1438, "aaf": 529, "intra": -260, "total": 71497, "src": "q4fy23ppt p14; q4fy24ppt p18" },
+  { "fy": "FY24", "mfl": 75827, "mml": 1123, "belstar": 10023, "homefin": 2035, "aaf": 571, "intra": -500, "total": 89079, "src": "q4fy24ppt p18" },
+  { "fy": "FY25", "mfl": 108648, "mml": 3903, "belstar": 7970, "homefin": 2985, "aaf": 906, "intra": -2230, "total": 122181, "src": "q4ppt p19" },
+  { "fy": "FY26", "mfl": 162826, "mml": 9794, "belstar": 8222, "homefin": 3485, "aaf": 1479, "intra": -3890, "total": 181917, "src": "q4ppt p19" }
+ ],
+ "quarterly": [
+  { "q": "Q1FY26", "mfl": 120031, "mml": 5000, "belstar": 7707, "homefin": 3096, "aaf": 995, "intra": -2890, "total": 133938, "src": "q1ppt p18" },
+  { "q": "Q1FY27", "mfl": 172053, "mml": 10550, "belstar": 7842, "homefin": 3496, "aaf": 1480, "intra": -3890, "total": 191532, "src": "q1ppt p18" }
+ ],
+ "standaloneMix": [
+  { "fy": "FY24", "gold": 72900, "other": 2927, "src": "q4fy24ppt (gold ₹729 bn; other = standalone AUM − gold)" },
+  { "fy": "FY25", "gold": 102956, "other": 5692, "src": "q4ppt p27" },
+  { "fy": "FY26", "gold": 154084, "other": 8742, "src": "q4ppt p27" },
+  { "fy": "Q1FY27", "gold": 163299, "other": 8755, "src": "q1ppt p27" }
+ ],
+ "goldQuarterly": [
+  { "q": "Q4FY24", "goldAum": 72900, "tonnes": 188, "pricePerGram": 6160 },
+  { "q": "Q1FY25", "goldAum": 80900, "tonnes": 194, "pricePerGram": 6580 },
+  { "q": "Q2FY25", "goldAum": 86200, "tonnes": 199, "pricePerGram": 6888 },
+  { "q": "Q3FY25", "goldAum": 93000, "tonnes": 202, "pricePerGram": 6976 },
+  { "q": "Q4FY25", "goldAum": 102956, "tonnes": 208, "pricePerGram": 8167, "yield": 18.57 },
+  { "q": "Q1FY26", "goldAum": 113194, "tonnes": 209, "pricePerGram": 8783, "yield": 19.56, "nim": 12.15 },
+  { "q": "Q2FY26", "goldAum": 124918, "tonnes": 209, "pricePerGram": 10566, "yield": 19.99 },
+  { "q": "Q3FY26", "goldAum": 139658, "tonnes": 205, "pricePerGram": 12201, "yield": 20.34 },
+  { "q": "Q4FY26", "goldAum": 154084, "tonnes": 196, "pricePerGram": 13441, "yield": 20.76, "nim": 13.38 },
+  { "q": "Q1FY27", "goldAum": 163299, "tonnes": 197, "pricePerGram": 12942, "yield": 17.93, "nim": 10.41 }
+ ],
+ "goldQuarterlyNote": "Standalone gold-loan AUM (₹ cr; FY25 quarters before Mar-25 from the ₹ bn series), tonnes of gold pledged, Muthoot's quarter-end gold rate per gram, and standalone interest income ÷ average loan assets (yield) and NIM, company basis. Sources: q4fy24ppt, q4fy25ppt, q4ppt p28 and p37, q1ppt p27-28 and p37.",
+ "stage3Sa": { "head": ["Mar-24", "Jun-24", "Sep-24", "Dec-24", "Mar-25", "Jun-25", "Sep-25", "Dec-25", "Mar-26", "Jun-26"], "values": [3.28, 3.98, 4.30, 4.22, 3.41, 2.58, 2.25, 1.58, 2.35, 2.28], "note": "Standalone Stage 3 % of loans; Mar-26 onward on a borrower-wise basis advised by the RBI (loan-wise before).", "src": "q4fy25ppt; q4ppt p31; q1ppt p31" }
+}

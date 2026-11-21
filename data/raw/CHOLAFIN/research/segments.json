@@ -1,0 +1,70 @@
+{
+ "symbol": "CHOLAFIN",
+ "asOf": "2026-09-30",
+ "_note": "Business AUM by segment (₹ crore, March; standalone, incl. small assigned pools). FY20-FY23 from the Q4FY24 presentation p21 chart; FY24-FY26 and Q1s from the Q1FY27 presentation p13 (chart values; each row sums to the reported total within ₹1-2 cr). Groups: vehicle finance (VF: new and used CVs, cars/MUVs, tractors, 2W/3W, construction equipment); MSME ecosystem = LAP + SME + SBPL; consumer ecosystem = home loans + CSEL (incl. consumer durables) + gold. CSEL, SME and SBPL were launched in FY22-23; gold loans in FY26.",
+ "lines": [
+  { "key": "vf", "name": "Vehicle finance", "group": "Auto" },
+  { "key": "lap", "name": "Loan against property", "group": "MSME" },
+  { "key": "sme", "name": "SME loans", "group": "MSME" },
+  { "key": "sbpl", "name": "Secured business & personal loans", "group": "MSME" },
+  { "key": "hl", "name": "Home loans", "group": "Consumer" },
+  { "key": "csel", "name": "Consumer & small-enterprise loans", "group": "Consumer" },
+  { "key": "gold", "name": "Gold loans", "group": "Consumer" }
+ ],
+ "annual": [
+  { "fy": "FY20", "vf": 44206, "lap": 12960, "sme": 258, "sbpl": 0, "hl": 3125, "csel": 0, "gold": 0, "total": 60549, "src": "Q4FY24 presentation p21" },
+  { "fy": "FY21", "vf": 50415, "lap": 14777, "sme": 458, "sbpl": 0, "hl": 4345, "csel": 0, "gold": 0, "total": 69996, "src": "Q4FY24 presentation p21" },
+  { "fy": "FY22", "vf": 52881, "lap": 16795, "sme": 1058, "sbpl": 11, "hl": 5590, "csel": 573, "gold": 0, "total": 76907, "src": "Q4FY24 presentation p21" },
+  { "fy": "FY23", "vf": 66938, "lap": 21588, "sme": 3550, "sbpl": 444, "hl": 8451, "csel": 5527, "gold": 0, "total": 106498, "src": "Q4FY24 presentation p21" },
+  { "fy": "FY24", "vf": 84498, "lap": 29859, "sme": 4977, "sbpl": 1404, "hl": 13404, "csel": 11430, "gold": 0, "total": 145572, "src": "Q1FY27 presentation p13" },
+  { "fy": "FY25", "vf": 101257, "lap": 41439, "sme": 6628, "sbpl": 2422, "hl": 18427, "csel": 14573, "gold": 0, "total": 184746, "src": "Q1FY27 presentation p13" },
+  { "fy": "FY26", "vf": 119558, "lap": 52295, "sme": 9338, "sbpl": 3537, "hl": 22688, "csel": 15113, "gold": 1804, "total": 224334, "src": "Q1FY27 presentation p13 (30-Apr-2026 figures restated in the Q1 deck)" }
+ ],
+ "quarterly": [
+  { "q": "Q1FY26", "vf": 104720, "lap": 43943, "sme": 7119, "sbpl": 2671, "hl": 19399, "csel": 14199, "gold": 97, "total": 192148, "src": "Q1FY27 presentation p13" },
+  { "q": "Q1FY27", "vf": 124132, "lap": 54130, "sme": 9923, "sbpl": 3730, "hl": 23644, "csel": 15884, "gold": 2143, "total": 233586, "src": "Q1FY27 presentation p13; call (28-Jul-2026)" }
+ ],
+ "disbursements": {
+  "_note": "₹ crore. Gold FY26 and Q1FY27 = total less the other segments. Q1FY27 HL, LAP, SBPL and used-vehicle disbursements are depressed by the switch to recognising disbursement at cheque clearance (like-for-like ~20% growth, CFO).",
+  "head": ["Period", "VF", "LAP", "SME", "SBPL", "HL", "CSEL", "Gold", "Total"],
+  "rows": [
+   ["FY24", 48348, 13554, null, null, null, null, 0, 88725],
+   ["FY25", 53922, 17913, null, null, null, null, 0, 100869],
+   ["FY26", 62123, 20459, 7312, 1667, 7363, 10249, 2469, 111642],
+   ["Q1FY26", 13647, 4705, 1705, 359, 1764, 2046, 99, 24325],
+   ["Q1FY27", 16503, 4780, 1992, 379, 1797, 3408, 753, 29612]
+  ],
+  "src": "Q1FY27 presentation p12, p37, p45, p55, p57-58, p63, p71, p73"
+ },
+ "segmentPl": {
+  "_note": "Company 'managed' segment P&Ls (standalone), FY26 and Q1FY27: ₹ crore and % of segment assets. Unallocated items (assignment gains ₹439 cr and others) explain the gap to company PBT (₹6,961 cr).",
+  "head": ["Segment", "FY26 income", "FY26 net income", "FY26 credit losses", "FY26 PBT", "FY26 ROA (PBT)", "Q1FY27 ROA (PBT)", "Q1FY27 credit cost"],
+  "rows": [
+   ["Vehicle finance", 16511, 8897, 2121, 3145, 2.9, 3.1, 2.0],
+   ["MSME (LAP + SME + SBPL)", 7848, 3761, 320, 2201, 3.8, 4.2, 0.6],
+   ["of which LAP", 6083, 2780, 142, 1818, 3.9, 4.3, 0.4],
+   ["of which SME", 1002, 424, 94, 165, 2.1, 2.3, 1.3],
+   ["of which SBPL", 763, 557, 84, 218, 7.4, 7.9, 2.3],
+   ["Consumer (HL + CSEL + gold)", 6243, 3689, 1112, 1000, 2.8, 3.9, 2.2],
+   ["of which home loans", 3274, 1792, 198, 865, 4.2, 4.7, 0.6],
+   ["of which CSEL", 2876, 1860, 905, 234, 1.6, 3.3, 4.7]
+  ],
+  "src": "Q1FY27 presentation p40, p48, p55, p57, p58, p64, p71, p73"
+ },
+ "stage3": {
+  "_note": "Gross Stage 3 (% of segment gross assets) and provision coverage, Mar-2026 vs Jun-2026 (Q1FY27 presentation p22).",
+  "head": ["Segment", "Gross assets Jun-26 (₹ cr)", "Stage 3 Mar-26", "Stage 3 Jun-26", "Coverage Jun-26", "Net Stage 3 Jun-26"],
+  "rows": [
+   ["Vehicle finance", 127396, 3.84, 4.05, 48.5, 2.08], ["Loan against property", 46977, 2.24, 2.58, 37.7, 1.60], ["Home loans", 23621, 1.33, 1.55, 35.4, 1.00],
+   ["CSEL", 16159, 1.86, 1.64, 60.5, 0.65], ["SME", 10121, 3.22, 3.83, 37.7, 2.39], ["SBPL", 3818, 3.53, 4.70, 36.8, 2.97], ["Gold", 2157, 0.02, 0.08, 100, 0.00],
+   ["Total", 230249, 3.05, 3.29, 45.7, 1.78]
+  ]
+ },
+ "stages": {
+  "_note": "Standalone ECL stages, ₹ crore (Q1FY27 presentation p20-21).",
+  "mar26": { "s1": 209689, "s2": 5486, "s3": 6767, "ecl1": 727, "ecl2": 444, "ecl3": 3200 },
+  "jun26": { "s1": 216420, "s2": 6263, "s3": 7565, "ecl1": 747, "ecl2": 494, "ecl3": 3459 },
+  "overlay": 200,
+  "rbiNpaJun26": { "gross": 10354, "gnpaPct": 4.50, "nnpaPct": 2.95, "pcr": 35.5 }
+ }
+}
