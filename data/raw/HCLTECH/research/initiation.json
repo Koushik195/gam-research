@@ -1,0 +1,4574 @@
+{
+ "symbol": "HCLTECH",
+ "listing": "NSE: HCLTECH · BSE: 532281",
+ "date": "30 September 2026",
+ "rating": "SELL",
+ "analysts": "GAM Research — IT Services",
+ "cover": {
+  "headline": "A well-run cash machine whose growth has shrunk to 3-4%: the price still assumes the AI de-rating will reverse",
+  "lead": "HCLTech is India's third-largest IT services company (US$14.7 bn revenue in FY26, 2.2 lakh people), controlled by the Nadar family (60.9%). It has been the fastest-growing tier-1 Indian IT firm for three years, yet growth keeps falling: +5.4%, +4.7% and +3.9% in constant currency in FY24-26, FY27 guided at 1-4% and +2.6% YoY in Q1FY27. Bookings are strong (record Q1 TCV of US$2.4 bn plus a US$1.14 bn mega deal) and Advanced AI revenue grew 62%, but management itself expects AI to deflate its traditional work by 2-3% a year. The street values HCLTech on **P/E on FY28E EPS (15-19x)**. Our EPS of ₹72.6 (FY27E) and ₹77.0 (FY28E) is in line with the street; FY27's +18% is mostly the weaker rupee. Applying **13x to Sep-28E EPS of ₹78.6** (its 19.8x median forward P/E since 2021, cut by the IT sector's 34% de-rating) gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with SELL.** Cross-checks: EV/EBITDA ₹1,035, DCF ₹1,296. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}. A ~5.6% dividend yield softens, but does not close, the gap.",
+  "arguments": [
+   {
+    "h": "Growth has converged down to the pack",
+    "p": "Constant-currency growth: 13.7% (FY23), 5.4% (FY24), 4.7% (FY25), 3.9% (FY26); FY27 guidance 1-4% and Q1 +2.6%. Two big US telecom clients cut spend, ERS fell 3.7% QoQ and HCLSoftware shrank 5.3%. In dollars we forecast +2.9% / +3.9% / +3.7% for FY27-29E."
+   },
+   {
+    "h": "AI cuts both ways, and the cut is bigger today",
+    "p": "Advanced AI revenue is US$171 m a quarter (+62% YoY) but only ~4.7% of revenue. Management says 40% of the industry's work is \"AI-disrupted\" and can shrink 3-5% a year, 2-3% a year for HCLTech's mix, and that \"very little\" of it is in reported numbers yet. The same deal is ~20% smaller than before."
+   },
+   {
+    "h": "Margins, returns and cash are excellent",
+    "p": "EBIT 17.5% in Q1FY27 before restructuring; ROIC 40.7% (Services 47.8%); free cash flow ~100% of net income; ₹26,900 cr net cash; at least 75% of profit returned by policy (90%+ in practice). We model EBIT of ₹{{F.ebit.0|num}} cr in FY27E, 17.7% of revenue, inside the 17.5-18.5% guidance."
+   },
+   {
+    "h": "The sector has been re-priced; HCLTech only partly",
+    "p": "Eight Indian IT peers trade a median 34% below their five-year median P/E (TCS −53%, Infosys −49%); HCLTech −21%. At ₹1,230 it trades at 16.0x our FY28E EPS against 13x in our target. The street's median target is ₹1,225, flat on the price."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "GREEN"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "AMBER"
+   },
+   {
+    "k": "Competitive position",
+    "v": "AMBER"
+   },
+   {
+    "k": "Valuation",
+    "v": "RED"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): the first test of whether the telecom cuts have bottomed; management said it would revisit FY27 guidance after Q2.",
+   "The US$1.14 bn mega deal: transition through H2FY27, steady state from April 2027 (management), the main support for FY28 growth.",
+   "AI data-centre plan: how much of the up-to-₹3,500 cr comes from HCLTech's balance sheet versus partners, clients and debt, and the returns it earns.",
+   "HCLSoftware: whether Jaspersoft (US$10-15 m a quarter) and the data portfolio stop the revenue decline; ARR has been flat near US$1.05 bn for two years.",
+   "New AI-model releases: Anthropic's tools triggered the February 2026 sell-offs; each new capability re-opens the deflation debate."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Constant-currency growth: 13.7% to 3.9% in three years; ~2.8% in FY27E",
+       "unit": "Revenue growth, constant currency (%)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "CC growth",
+         "values": [
+          13.7,
+          13.7,
+          5.4,
+          4.7,
+          3.9,
+          2.8,
+          3.9,
+          3.7
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 investor release; GAM estimates (FY27E includes Jaspersoft)"
+      },
+      {
+       "type": "line",
+       "title": "Quarterly growth has not re-accelerated",
+       "unit": "Growth, constant currency, year on year (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Company",
+         "values": [
+          5.6,
+          6.2,
+          4.1,
+          2.9,
+          3.7,
+          4.6,
+          4.8,
+          2.4,
+          2.6
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Services",
+         "values": [
+          5.8,
+          5.9,
+          4.9,
+          2.7,
+          4.5,
+          5.5,
+          5,
+          4.2,
+          3.5
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "min": 0,
+       "max": 8,
+       "source": "HCLTech investor releases"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Rupee growth flatters: FY27E +{{F.salesGrowth.0|pct}} in rupees, +2.9% in dollars",
+       "unit": "Revenue growth (%)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "In rupees",
+         "values": [
+          18.5,
+          8.3,
+          6.5,
+          11.2,
+          10.8,
+          4.2,
+          3.7
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "In US dollars",
+         "values": [
+          9.6,
+          5.4,
+          4.3,
+          6,
+          2.9,
+          3.9,
+          3.7
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor releases, Screener.in; GAM estimates at ₹95.5-95.8 per US$"
+      },
+      {
+       "type": "line",
+       "title": "Segment EBIT margins: Services drifting down, software holding",
+       "unit": "Segment EBIT margin (%)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "IT & Business Services",
+         "values": [
+          19.1,
+          17.9,
+          16.6,
+          17,
+          17.1,
+          16
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Engineering & R&D",
+         "values": [
+          21.4,
+          19.2,
+          20.2,
+          19.4,
+          18,
+          16.8
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "HCLSoftware",
+         "values": [
+          26.5,
+          23.7,
+          25.1,
+          24.6,
+          26.6,
+          26.7
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "min": 10,
+       "max": 30,
+       "source": "Annual-report segment notes (restated bases)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Bookings are strong; they convert slowly",
+       "unit": "New deal wins, TCV (US$ m)",
+       "x": [
+        "Q2FY25",
+        "Q3FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "TCV",
+         "values": [
+          2218,
+          2095,
+          1812,
+          2569,
+          3006,
+          1936,
+          2407
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor releases (Q1FY27 excludes the US$1.14 bn mega deal signed in July)"
+      },
+      {
+       "type": "hbar",
+       "title": "IT peers trade 34% below their five-year median P/E (median)",
+       "unit": "Trailing P/E at 30-Sep-2026 vs own five-year median (%)",
+       "x": [
+        "HCLTech",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Tech Mahindra",
+        "LTIMindtree",
+        "Persistent",
+        "Coforge",
+        "Mphasis",
+        "L&T Technology"
+       ],
+       "series": [
+        {
+         "name": "vs median",
+         "values": [
+          -21,
+          -53,
+          -49,
+          -40,
+          -7,
+          -38,
+          -18,
+          -11,
+          -27,
+          -31
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "HCLTech",
+       "source": "Screener.in P/E history; NSE closes 30-Sep-2026; GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: ~16x now vs a 20x median since 2021",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2016-04-08",
+        "2016-05-13",
+        "2016-06-17",
+        "2016-07-22",
+        "2016-08-26",
+        "2016-09-30",
+        "2016-11-04",
+        "2016-12-09",
+        "2017-01-13",
+        "2017-02-17",
+        "2017-03-24",
+        "2017-04-28",
+        "2017-06-02",
+        "2017-07-07",
+        "2017-08-11",
+        "2017-09-15",
+        "2017-10-19",
+        "2017-11-24",
+        "2017-12-29",
+        "2018-02-02",
+        "2018-03-09",
+        "2018-04-13",
+        "2018-05-18",
+        "2018-06-22",
+        "2018-07-27",
+        "2018-08-31",
+        "2018-10-05",
+        "2018-11-09",
+        "2018-12-14",
+        "2019-01-18",
+        "2019-02-22",
+        "2019-03-29",
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          13.3,
+          11.5,
+          12,
+          11.6,
+          12.4,
+          12.8,
+          12.7,
+          12.8,
+          13.6,
+          13.4,
+          13.9,
+          10.9,
+          11.5,
+          11.1,
+          11.7,
+          11.9,
+          12.4,
+          11.5,
+          11.9,
+          13.3,
+          12.6,
+          12.2,
+          10.9,
+          11.1,
+          11.8,
+          12.8,
+          13.3,
+          12.6,
+          11.8,
+          11.9,
+          13.1,
+          13.3,
+          13.9,
+          13.1,
+          12.5,
+          12.9,
+          12.8,
+          13.8,
+          13.7,
+          14.2,
+          14.8,
+          12,
+          9.2,
+          10.7,
+          11.3,
+          14.2,
+          14.1,
+          17.2,
+          16.7,
+          17.9,
+          19.8,
+          18.3,
+          18.3,
+          16.7,
+          18,
+          18.4,
+          20.4,
+          24.8,
+          20.9,
+          21.4,
+          23.6,
+          21.3,
+          21.9,
+          19,
+          17.4,
+          16.9,
+          16.6,
+          16.4,
+          17.3,
+          19.1,
+          17.8,
+          19.3,
+          19.3,
+          17,
+          17.1,
+          17.9,
+          17.4,
+          18,
+          19.3,
+          19.8,
+          21.3,
+          24,
+          26,
+          24.3,
+          24,
+          21.6,
+          24.8,
+          25.9,
+          29.6,
+          30.3,
+          31,
+          30.8,
+          27.6,
+          25.4,
+          19.2,
+          22.9,
+          24,
+          20.5,
+          20.1,
+          19.2,
+          20.8,
+          23.1,
+          23.4,
+          19.8,
+          18.8,
+          15.6,
+          15,
+          15.1,
+          17.7,
+          16.2
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 20,
+         "text": "Median since 2021: 20x"
+        },
+        {
+         "v": 13,
+         "text": "Our target: 13x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual EPS, GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (Jun-Aug 2026)",
+       "unit": "₹ per share; CMP ₹1,230",
+       "x": [
+        "Motilal Oswal",
+        "Equirus",
+        "PL Capital",
+        "ICICI Securities",
+        "Kotak",
+        "Geojit",
+        "HDFC",
+        "Nomura",
+        "UBS",
+        "HSBC",
+        "JPMorgan",
+        "Jefferies",
+        "Citi",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          1450,
+          1290,
+          1160,
+          1140,
+          1200,
+          1459,
+          1160,
+          1290,
+          1390,
+          1255,
+          1060,
+          1070,
+          1040,
+          1020
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Brokers with a published rating; 12 more targets without ratings are in the valuation section (median of all 25: ₹1,225). Broker notes, Business Today (14-Jul-2026), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What HCLTech does",
+   "kicker": "The business",
+   "title": "Three businesses: IT services, engineering services and a software portfolio bought mostly from IBM",
+   "blocks": [
+    {
+     "p": "HCLTech sells technology work to large companies, mostly in the US (56% of Services revenue) and Europe (28%). It reports three segments. **IT & Business Services** (₹96,095 cr in FY26, 74% of revenue) runs and changes clients' systems: applications, cloud and data-centre infrastructure, digital workplace and networks, cybersecurity, back-office processes and, increasingly, AI and data work. It is strongest in long \"managed services\" contracts where HCLTech runs a client's infrastructure for five to ten years. **Engineering & R&D Services** (₹22,063 cr, 17%) designs products for technology, telecom, auto, medical-device and semiconductor companies: software, embedded systems, chips. **HCLSoftware** (₹12,397 cr, 9.5%) owns software products, largely acquired (select IBM products in 2019, Actian, Zeenea, Jaspersoft), sold mostly as subscriptions and support."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The three segments, FY26",
+      "head": [
+       "Segment",
+       "Revenue (₹ cr)",
+       "Share",
+       "CC growth FY26",
+       "EBIT margin",
+       "What drives it"
+      ],
+      "wide": [
+       5
+      ],
+      "rows": [
+       [
+        "**IT & Business Services**",
+        "96,095",
+        "73.8%",
+        "3.7%",
+        "16.0%",
+        "Large managed-services and transformation deals; financial services, manufacturing, retail, public services"
+       ],
+       [
+        "**Engineering & R&D Services**",
+        "22,063",
+        "17.0%",
+        "9.8%",
+        "16.8%",
+        "Tech and telecom R&D budgets; semiconductors, physical AI, medtech"
+       ],
+       [
+        "**HCLSoftware**",
+        "12,397",
+        "9.5%",
+        "-4.1%",
+        "26.7%",
+        "Renewals of subscription and support (85%), perpetual licences (9%, lumpy, government-heavy)"
+       ],
+       [
+        "Inter-segment",
+        "-411",
+        "(0.3%)",
+        "–",
+        "–",
+        "HCLSoftware products used by Services"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**HCLTech**",
+         "**1,30,144**",
+         "**100%**",
+         "**3.9%**",
+         "**17.2%**",
+         "US$14,664 m; ex restructuring 17.9% EBIT"
+        ]
+       }
+      ],
+      "source": "AR FY26 note 3.30; Q4FY26 investor release. EBIT margins exclude the Rs956 cr Labour Codes charge."
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Financial services and manufacturing lead the vertical mix",
+       "unit": "Share of Services revenue, Q1FY27 (%)",
+       "x": [
+        "Financial Services",
+        "Manufacturing",
+        "Technology & Services",
+        "Life Sciences & Healthcare",
+        "Telecom & Media",
+        "Retail & CPG",
+        "Public Services"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          22.1,
+          18.7,
+          14.4,
+          14,
+          11.2,
+          10.3,
+          9.3
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 investor release"
+      },
+      {
+       "type": "hbar",
+       "title": "Vertical growth: Telecom shrinking 11%, Public Services +12%",
+       "unit": "Growth, constant currency, YoY, Q1FY27 (%)",
+       "x": [
+        "Public Services",
+        "Retail & CPG",
+        "Technology & Services",
+        "Financial Services",
+        "Manufacturing",
+        "Life Sciences & Healthcare",
+        "Telecom & Media"
+       ],
+       "series": [
+        {
+         "name": "Growth",
+         "values": [
+          12,
+          10.1,
+          7.3,
+          5.3,
+          3.7,
+          0.4,
+          -10.9
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 investor release"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scale and reach",
+      "head": [
+       "",
+       "Detail"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "People",
+        "2,23,889 at Jun-2026 (down 3,292 in the quarter); LTM attrition 12.7%; revenue per employee US$65.5k a year (+3.3% YoY)"
+       ],
+       [
+        "Clients",
+        "23 clients above US$100 m a year, 60 above US$50 m, 987 above US$1 m (LTM, Jun-2026); top 5 clients 11.6% of revenue, top 20 28.0%"
+       ],
+       [
+        "Geography (Services, Q1FY27)",
+        "US 56.0%, Europe 27.6%, rest of world 13.1%, India 3.3%"
+       ],
+       [
+        "AI",
+        "Advanced AI revenue US$171 m in Q1FY27 (+62.1% YoY CC); AI Force platform in 92 accounts; 23 industry AI solutions; US$150 m stake in Sarvam AI; AI data-centre business announced"
+       ],
+       [
+        "HCLSoftware",
+        "HCL DX, Unica, Commerce, BigFix, AppScan, Workload Automation, UnO, Actian Ingres and data intelligence, Jaspersoft; ARR US$1,063 m"
+       ]
+      ],
+      "source": "Q1FY27 investor release and call"
+     }
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "Fifty years of the HCL group; the IBM software deal still shapes the numbers",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1976 / 1991",
+        "HCL group founded by Shiv Nadar and colleagues (2026 marks its 50th year); HCL Technologies Ltd incorporated in 1991 (CIN L74140DL1991PLC046369).",
+        "Founder-family control through holding companies to this day."
+       ],
+       [
+        "Jul-2018",
+        "Bought Actian (data management software) through a joint venture with Sumeru; minority bought out in FY22 for ₹746 cr.",
+        "Start of the data-software portfolio inside HCLSoftware."
+       ],
+       [
+        "Jun-2019",
+        "Acquisition of select IBM software products consummated on 30-Jun-2019; deferred consideration of ₹6,488 cr paid in FY21.",
+        "Products & Platforms (now HCLSoftware) revenue rose from ₹8,115 cr (FY20) to ₹10,442 cr (FY21); D&A rose from ₹2,073 cr (FY19) to ₹4,611 cr (FY21) as the IP was amortised."
+       ],
+       [
+        "Dec-2019",
+        "1:1 bonus issue (1,356.8 m shares allotted 10-Dec-2019).",
+        "Share count doubled to 271.4 cr; per-share history is adjusted. Buybacks of 71.4 m shares in FY17-19."
+       ],
+       [
+        "2020-2021",
+        "Roshni Nadar Malhotra became Chairperson (she signs the FY21 annual report as Chairperson); Shiv Nadar retired as MD on 19-Jul-2021 and became Chairman Emeritus & Strategic Advisor. C Vijayakumar, CEO since 20-Oct-2016, became CEO & MD; re-appointed to Mar-2030 (AGM Aug-2025).",
+        "Stable leadership; the family keeps control (60.9%)."
+       ],
+       [
+        "FY22",
+        "Capital allocation policy introduced: at least 75% of net income returned over five years.",
+        "Payout 84-98% since; HCLTech became a high-dividend stock (₹60 a share in FY26)."
+       ],
+       [
+        "FY23-FY24",
+        "Smaller buys in engineering and software (GBS banking software Jan-2022, ASAP Group automotive engineering FY24); HCLSoftware brand created.",
+        "ERS grew from ₹13,564 cr (FY22) to ₹17,667 cr (FY24)."
+       ],
+       [
+        "FY25",
+        "Divested its stake in the State Street HCL Services joint venture (Sep-2024; gain of ₹574 cr in other income); bought HPE's Communications Technology Group (2024).",
+        "FY25 other income (₹2,485 cr) was inflated by the one-off gain."
+       ],
+       [
+        "FY26",
+        "Restructuring programme (~65 bp of margin, Q2-Q4) and a one-time ₹956 cr charge for India's New Labour Codes (Q3); agreements to buy HPE's Telco Solutions business (~₹1,400 cr) and Jaspersoft (US$240 m, Dec-2025), plus Wobby and Finergic.",
+        "FY26 EBIT margin 17.2% (17.9% ex restructuring); reported EPS ₹61.33 vs ₹64.0 normalised."
+       ],
+       [
+        "Q1FY27 (Jul-2026)",
+        "US$150 m investment in Sarvam AI; AI data-centre business announced (up to ₹3,500 cr initially); Jaspersoft closed; US$1.14 bn mega deal signed; HPE Telco Solutions closed in Aug-2026.",
+        "~₹5,000 cr of cash deployed in FY27 outside the core business; new capital-heavy line."
+       ]
+      ],
+      "source": "Annual reports FY21-FY26; HCLTech press releases and investor calls; Deccan Herald / HCLTech releases on the HPE Telco Solutions and Jaspersoft deals"
+     }
+    },
+    {
+     "callout": "**Corporate actions and per-share data:** a 1:1 bonus in Dec-2019 doubled the share count to 271.37 cr; there have been no buybacks since FY19 and no bonus or split since. Screener's consolidated \"Net Profit\" is before a small minority interest (₹6-24 cr a year) while its EPS is after; we use the attributable figure (HCLTECH.patch.js), so the model's share count (271.35 cr) matches the 271.37 cr in issue. One-offs in the history: a ₹574 cr gain on selling the State Street JV stake (FY25, inside other income) and the ₹956 cr Labour Codes charge (FY26, which Screener nets into other income)."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "A mature, slowing market that generative AI is re-pricing",
+   "blocks": [
+    {
+     "p": "Indian IT services companies earn most of their money from large US and European companies, doing work that is cheaper to do from India: building and maintaining software, running data centres and networks, back-office processing and engineering. For two decades the industry grew with outsourcing, then cloud and \"digital\" (2020-22). Since FY23 growth has slowed to low single digits in dollars: clients cut discretionary projects after the post-Covid boom, and from 2025 generative AI began to change what clients buy. AI tools write and test code, answer support tickets and monitor systems, so the same work needs fewer people. Most Indian IT contracts are priced on effort (people x time) or on fixed fees renegotiated every few years, so productivity gains flow to clients as lower prices."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Forces acting on IT services (as of 30-Sep-2026)",
+      "head": [
+       "Theme",
+       "Direction",
+       "What it means for HCLTech"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "AI deflation of traditional services",
+        "Headwind, structural",
+        "Management: 40% of industry spend (application support, traditional infrastructure, customer support) can shrink 3-5% a year; 2-3% a year on HCLTech's mix, mostly still to come (from FY27)."
+       ],
+       [
+        "Deal pricing",
+        "Headwind",
+        "\"A US$100 million deal would be much lesser today - maybe 80 million\" (CEO, Apr-2026); FY26 TCV flat at US$9.3 bn despite 25-30% more effort to win; HCLTech walked away from ~US$1 bn of uneconomic deals."
+       ],
+       [
+        "AI-native demand (AI factories, data centres, chip and physical-AI engineering, sovereign AI)",
+        "Tailwind, new",
+        "Advanced AI revenue US$171 m in Q1FY27 (+62% YoY), ~4.7% of revenue; management targets 25-30% growth."
+       ],
+       [
+        "Discretionary spend",
+        "Weak, cyclical",
+        "Two large US telecom clients cut CY2026 discretionary budgets; SAP programmes cancelled for budget reasons; US government shutdown and West Asia conflict delayed software deals in March 2026."
+       ],
+       [
+        "Vendor consolidation and cost take-out deals",
+        "Mixed",
+        "Large deals keep coming (Q1FY27 US$2.4 bn TCV plus a US$1.14 bn mega deal), but they are productivity-led: revenue per deal and margins are under pressure."
+       ],
+       [
+        "Rupee",
+        "Tailwind (translation)",
+        "INR/USD averaged 88.7 in FY26 and 94.7 in Q1FY27; 95.81 on 30-Sep-2026. Lifts rupee revenue and margins (forex +60 bp in Q1), but management is reinvesting it in sales and AI."
+       ],
+       [
+        "US immigration and trade policy",
+        "Headwind",
+        "Tariff volatility was a \"persistent uncertainty\" through FY26 (CEO); visa costs and onshore hiring add cost."
+       ],
+       [
+        "Labour codes (India)",
+        "One-off cost",
+        "₹956 cr one-time charge in Q3FY26; recurring impact 10-20 bp (CFO, Jan-2026)."
+       ]
+      ],
+      "source": "HCLTech Q4FY26 and Q1FY27 calls (Apr/Jul-2026); Reuters (13-Feb-2026); Business Today (24-Feb-2026); Analytics India Magazine (9-Jun-2026); broker notes (Jun-Aug 2026); GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Three-year growth: HCLTech led the tier-1 names",
+       "unit": "Revenue growth FY23-26, a year, in rupees (%)",
+       "x": [
+        "HCLTech",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Tech Mahindra",
+        "LTIMindtree",
+        "Persistent",
+        "Coforge",
+        "Mphasis",
+        "L&T Technology"
+       ],
+       "series": [
+        {
+         "name": "CAGR",
+         "values": [
+          8.7,
+          5.8,
+          6.8,
+          0.8,
+          2.2,
+          8.4,
+          20.9,
+          27,
+          4.8,
+          11.1
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "HCLTech",
+       "source": "Screener.in (consolidated)"
+      },
+      {
+       "type": "hbar",
+       "title": "...but its EPS grew only 3.9% a year, below TCS and Infosys",
+       "unit": "EPS growth FY23-26, a year (%)",
+       "x": [
+        "HCLTech",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Tech Mahindra",
+        "LTIMindtree",
+        "Persistent",
+        "Coforge",
+        "Mphasis",
+        "L&T Technology"
+       ],
+       "series": [
+        {
+         "name": "EPS CAGR",
+         "values": [
+          3.9,
+          5.7,
+          7.7,
+          6.8,
+          -0.3,
+          4.3,
+          25.2,
+          26.8,
+          3.9,
+          2.9
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "HCLTech",
+       "source": "Screener.in (consolidated, reported EPS)"
+      }
+     ]
+    },
+    {
+     "callout": "**So what:** HCLTech's three years of growth leadership came from engineering services, large managed-services deals and acquisitions, but its margins slipped, so shareholders saw little of it. The two mid-caps growing 20%+ (Persistent, Coforge) are where the market still pays for growth (40x+ trailing P/E); the tier-1 names are now priced at 12-18x as low-growth, high-dividend stocks."
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "nav": "The AI question",
+   "kicker": "The central question",
+   "title": "Cycle or lasting de-rating? Mostly lasting: AI is shrinking the work HCLTech is paid for, faster than new AI work replaces it",
+   "blocks": [
+    {
+     "p": "This is the question that decides the stock, and the whole sector. Indian IT shares fell hard in 2025-26: the Nifty IT index was ~25% down in 2026 by early June and ~29% below its late-2025 high (Analytics India Magazine, 9-Jun-2026). By 30-Sep-2026 eight listed IT peers traded a median 34% below their own five-year median P/E (TCS −53%, Infosys −49%, Wipro −40%); HCLTech −21%. Two explanations compete. The **cyclical** one: clients froze discretionary budgets because of tariffs, war in West Asia and an uncertain US economy, and spending will come back as it did after 2009 and 2020. The **structural** one: generative AI lets clients do the same work with far fewer people, and because Indian IT is paid largely for people and time, its revenue pool shrinks for good."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What happened, and what it points to",
+      "head": [
+       "When",
+       "What happened",
+       "Source",
+       "Points to"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Feb-2026",
+        "A new Anthropic tool (launched in January) set off a global tech sell-off: ~US$50 bn wiped off Indian IT market value in February; Nifty IT -8.2% in the week to 13-Feb, its steepest weekly fall since Apr-2025. J.P. Morgan called it \"overly simplistic\" to assume AI replaces IT services value; Centrum saw an over-reaction, \"albeit with a leaner headcount\".",
+        "Reuters via Yahoo Finance, 13-Feb-2026",
+        "Structural fear"
+       ],
+       [
+        "24-Feb-2026",
+        "Anthropic blog on modernising COBOL with Claude Code, plus a Citrini Research note forecasting contract cancellations at Indian IT firms through 2027: Nifty IT fell 5.3% intraday to a 52-week low of 29,875 and closed at 30,053; HCLTech -5.8%, the second-worst large cap.",
+        "Business Today, 24-Feb-2026",
+        "Structural fear"
+       ],
+       [
+        "21-Apr-2026",
+        "HCLTech guides FY27 revenue +1-4% CC (FY26 +3.9%); frames 2-3% a year of AI deflation on its own mix; stock -17% that week (₹1,442 to ₹1,203).",
+        "Q4FY26 call; Screener prices",
+        "Both"
+       ],
+       [
+        "3-Jun-2026",
+        "Nifty IT -5.5% in a day; ~25% down year to date and ~29% below its late-2025 high; UnearthInsight sees 2-3% sector growth in FY27, with budgets reallocated rather than grown.",
+        "Analytics India Magazine 9-Jun-2026",
+        "Structural"
+       ],
+       [
+        "13-Jul-2026",
+        "HCLTech Q1FY27: highest-ever Q1 bookings, Advanced AI +62% YoY, EBIT up 56 bp YoY; guidance unchanged because the macro is unchanged and client-specific cuts continue.",
+        "Q1FY27 release and call",
+        "Cyclical"
+       ],
+       [
+        "Jul-2026",
+        "Brokers cut multiples: ICICI Securities 17x to 15x FY28E (GenAI deflation continues); Equirus 16x = 25-30% below HCLTech's 3- and 5-year mean for AI cannibalisation risk; HDFC 18x to 15x (Jun-2026) as growth leadership fades.",
+        "Broker notes",
+        "Structural"
+       ],
+       [
+        "30-Sep-2026",
+        "Eight IT peers trade 11-53% below their own five-year median P/E (median ~-34%); HCLTech -21%.",
+        "Screener.in; GAM",
+        "Market verdict"
+       ]
+      ],
+      "source": "As cited; GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Management's own framework (Apr-2026): three kinds of IT spend",
+      "head": [
+       "Bucket",
+       "Share of industry spend today",
+       "Expected growth",
+       "Examples",
+       "What it implies"
+      ],
+      "wide": [
+       3,
+       4
+      ],
+      "rows": [
+       [
+        "**AI-disrupted**",
+        "~40%",
+        "Shrinks 3-5% a year; ~25% of spend eventually",
+        "Application development and support, traditional infrastructure operations, customer support",
+        "For HCLTech's mix: 2-3% a year of deflation, \"very little\" of it in reported numbers yet; expected from FY27"
+       ],
+       [
+        "**AI-amplified**",
+        "~55%",
+        "~10%+ a year",
+        "Data, cybersecurity, cloud",
+        "The middle that must carry growth; HCLTech's Financial Services (+7.5% in FY26) is the best example"
+       ],
+       [
+        "**AI-native**",
+        "~5%",
+        "~30% a year; 20%+ of spend in five years",
+        "AI factories and data centres, AI and custom-silicon engineering, physical AI",
+        "HCLTech's Advanced AI: US$171 m a quarter, +62% YoY, ~4.7% of revenue"
+       ]
+      ],
+      "source": "HCLTech Q4FY26 earnings call (21-Apr-2026), CEO C Vijayakumar"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Fewer people: headcount fell 3,292 in Q1FY27",
+       "unit": "Headcount, period end",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "People",
+         "values": [
+          219401,
+          218621,
+          220755,
+          223420,
+          223151,
+          226640,
+          226379,
+          227181,
+          223889
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "min": 200000,
+       "source": "Investor releases"
+      },
+      {
+       "type": "line",
+       "title": "...and more revenue per person: +3.3% in a year",
+       "unit": "Revenue per employee, US$ thousand a year (LTM)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Revenue per employee",
+         "values": [
+          63.4,
+          63.9,
+          64.6,
+          65.1,
+          65.5
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "min": 60,
+       "max": 67,
+       "source": "Investor releases"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The evidence for HCLTech, weighed",
+      "head": [
+       "Evidence",
+       "Cyclical or structural?",
+       "Our reading"
+      ],
+      "wide": [
+       0,
+       2
+      ],
+      "rows": [
+       [
+        "Two large US telecom clients cut CY2026 discretionary spend; SAP programmes cancelled; a manufacturing and a retail client scaled down",
+        "Cyclical",
+        "Client-specific budget decisions (CEO); worth ~0.5-1 pt of FY27 growth; should lap in FY28."
+       ],
+       [
+        "Tariffs, West Asia, US government shutdown delayed software deals in March 2026",
+        "Cyclical",
+        "Hit HCLSoftware's Q4FY26 (-28% QoQ); timing, not lost demand."
+       ],
+       [
+        "\"A US$100 million deal would be ... maybe 80 million\" for the same scope; TCV flat at US$9.3 bn with 25-30% more effort",
+        "Structural",
+        "Price per unit of work is falling; this is the AI deflation, already in bookings."
+       ],
+       [
+        "Annual productivity give-backs in managed-services contracts (-110 bp of margin in Q1FY27 with the ERS decline)",
+        "Structural",
+        "Built into HCLTech's biggest business; AI makes the promised productivity larger."
+       ],
+       [
+        "Headcount down while revenue per employee rises for five quarters",
+        "Structural",
+        "Revenue is decoupling from people: good for margins, bad for the size of the revenue pool."
+       ],
+       [
+        "Record Q1 bookings (US$2.4 bn) plus a US$1.14 bn mega deal",
+        "Cyclical (positive)",
+        "Real share gains; but mega deals are cost take-outs that ramp slowly and re-price lower over time."
+       ],
+       [
+        "Advanced AI revenue +62% YoY; AI Factory deals of US$100-180 m with tech majors",
+        "Structural (positive)",
+        "A genuine new pool, but ~4.7% of revenue: at 30% growth it adds ~1.4 pts a year, about half the 2-3% deflation."
+       ],
+       [
+        "Sector P/E ~34% below five-year medians; brokers cutting multiples for \"cannibalisation risk\"",
+        "Structural (market view)",
+        "The market has decided; it needs earnings evidence to change its mind."
+       ]
+      ],
+      "source": "HCLTech calls (Apr/Jul-2026), investor releases, broker notes; GAM Research"
+     }
+    },
+    {
+     "callout": "**Our verdict: mostly lasting.** The client-specific cuts are cyclical and should fade by FY28. But three things are structural: (1) AI deflation is now visible in deal values (~20% smaller for the same scope) and in productivity give-backs, before most of it has reached revenue; (2) the AI-native work that grows fast is ~5% of revenue and adds ~1.4 pts of growth a year against 2-3 pts of deflation; (3) the people-based model that earned premium multiples for two decades is what AI compresses. We therefore forecast US$ growth of only ~3-4% a year even with the mega deal, hold EBIT margins flat near 18% (productivity goes to clients), and do **not** assume the sector re-rates: our 13x target multiple keeps the full 34% sector de-rating on HCLTech's 19.8x median. What would change our mind: two or three quarters of Services growth above 5% CC with stable pricing, or Advanced AI reaching ~10% of revenue while traditional revenue holds."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: HCLTech catches the AI-native and rupee tailwinds; the software and discretionary ones have stalled",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "AI-native spend (AI factories, data centres, chip and physical-AI engineering)",
+       "Yes, small",
+       "Advanced AI US$171 m in Q1FY27 (+62% YoY); AI Factory programmes worth US$100 m+ and US$180 m+ with tech majors; Gartner \"Market Shaper\" in physical AI.",
+       "Fastest-growing pool, ~4.7% of revenue."
+      ],
+      [
+       "Vendor consolidation and mega deals",
+       "Yes",
+       "Record Q1 TCV US$2.4 bn plus a US$1.14 bn mega deal (Fortune Global 50, digital workplace and networks).",
+       "Supports FY28; productivity-led pricing caps the revenue per deal."
+      ],
+      [
+       "Weaker rupee",
+       "Yes (translation)",
+       "Q1FY27 revenue +13.9% in rupees vs +3.0% in dollars; forex added 60 bp to EBIT. INR/USD 94.73 in Q1, 95.81 at 30-Sep.",
+       "Lifts FY27 EPS; management is reinvesting part of it in sales and AI."
+      ],
+      [
+       "Data and AI preparation in banks",
+       "Yes",
+       "Financial Services +7.5% CC in FY26 and +5.3% in Q1FY27, \"highest in the industry\" (CEO).",
+       "The AI-amplified bucket working."
+      ],
+      [
+       "Engineering and R&D outsourcing",
+       "Partly",
+       "ERS +9.8% in FY26 but +0.3% YoY and -3.7% QoQ in Q1FY27 (telecom and tech cuts).",
+       "Cyclical; the HPE Telco Solutions buy adds scale in telecom."
+      ],
+      [
+       "Software and IP (non-linear revenue)",
+       "No",
+       "HCLSoftware -4.1% CC in FY26 and -5.3% YoY in Q1FY27; perpetual licences -29%; ARR flat near US$1.05 bn.",
+       "A cash generator, not a growth engine."
+      ],
+      [
+       "Sovereign AI and India demand",
+       "Early",
+       "India revenue +16.9% in Q1FY27 but 3.3% of Services; US$150 m in Sarvam; data-centre plan.",
+       "Optionality, with capital risk."
+      ],
+      [
+       "Discretionary spending recovery",
+       "Not yet",
+       "Guidance unchanged in July; macro \"the same\" as in March (CEO).",
+       "Upside if it comes in FY28."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "HCLTech investor releases, calls and annual reports; GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "itbs",
+   "nav": "IT & Business Services",
+   "kicker": "Segment",
+   "title": "IT & Business Services: three-quarters of the company, growing ~4%, with the most AI exposure",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "ITBS revenue by quarter: US$2.5-2.8 bn, flat for three quarters",
+       "unit": "ITBS revenue, US$ m (mix x total revenue)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ITBS",
+         "values": [
+          2506,
+          2570,
+          2579,
+          2564,
+          2623,
+          2704,
+          2742,
+          2762,
+          2748
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "min": 2000,
+       "source": "Investor releases; GAM (segment US$ derived)"
+      },
+      {
+       "type": "line",
+       "title": "ITBS EBIT margin: 15.1% to 17.0% in a year after restructuring",
+       "unit": "ITBS EBIT margin (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ITBS",
+         "values": [
+          16.6,
+          17.6,
+          17.2,
+          17,
+          15.1,
+          16.3,
+          16.4,
+          16.3,
+          17
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 12,
+       "max": 20,
+       "source": "Investor releases"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**What it is.** Applications, infrastructure and cloud, digital workplace, networks, cybersecurity, data and AI, and business-process work. ₹96,095 cr in FY26, up from ₹53,401 cr in FY21 (12.5% a year in rupees). Constant-currency growth was 3.7% in FY26 and 4.2% YoY in Q1FY27 (flat QoQ in a seasonally weak quarter).",
+      "**Margins.** Segment EBIT margin 17.9% (FY22), 16.6% (FY23), 17.0% (FY24), 17.1% (FY25), 16.0% (FY26, after most of the ~65 bp restructuring charge). Q1FY27 17% (+184 bp YoY): the restructuring is paying off and the rupee helps.",
+      "**Where the growth comes from.** Financial services (+5.3% in Q1), public services (+12%), retail (+10%), and large managed-services and modernisation deals; AI Force (HCLTech's delivery platform) is now in 92 accounts. **Where it is weak:** two large US telecom clients cut digital spend for CY2026, two SAP programmes were cancelled, and a retail client scaled back a platform build.",
+      "**The mega deal.** A Europe-headquartered Fortune Global 50 company chose HCLTech in early July 2026 to run its digital workplace and enterprise networks with AI (US$1.14 bn of new TCV per Equirus and PL). Transition starts in H2FY27; steady state in April 2027; \"negligible\" FY27 revenue (CEO).",
+      "**The AI exposure.** This is where most of the \"AI-disrupted\" work sits (application support, infrastructure operations, service desks). HCLTech's answer is to offer the productivity first (\"proactive transformation\"), accepting lower revenue per contract to win share."
+     ]
+    },
+    {
+     "callout": "**Our forecast:** ITBS US$ revenue +3.5% / +4.5% / +4% in constant currency for FY27-29E (FY28 includes ~1 pt from the mega deal), i.e. ₹{{F.seg.itbs.revenue.0|num}} cr / ₹{{F.seg.itbs.revenue.1|num}} cr / ₹{{F.seg.itbs.revenue.2|num}} cr at ₹95.5-95.8 per US$, with EBIT margin of 17.1% / 17.4% / 17.4%. We do not return margins to the 17.9% of FY22: AI productivity goes to clients."
+    }
+   ]
+  },
+  {
+   "id": "ers",
+   "nav": "Engineering & R&D",
+   "kicker": "Segment",
+   "title": "Engineering & R&D: the best FY26 (+9.8%) turned into the weakest Q1 (+0.3%)",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "ERS revenue by quarter: fell 3.7% QoQ in Q1FY27",
+       "unit": "ERS revenue, US$ m (mix x total revenue)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ERS",
+         "values": [
+          535,
+          544,
+          565,
+          598,
+          603,
+          619,
+          637,
+          626,
+          602
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "min": 400,
+       "source": "Investor releases; GAM (segment US$ derived)"
+      },
+      {
+       "type": "line",
+       "title": "ERS EBIT margin: from 18.9% to 15.6% in six quarters",
+       "unit": "ERS EBIT margin (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ERS",
+         "values": [
+          16.7,
+          18.5,
+          18.9,
+          17.9,
+          17.7,
+          17.5,
+          16.6,
+          15.5,
+          15.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 12,
+       "max": 20,
+       "source": "Investor releases"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**What it is.** Product engineering for technology, telecom, auto, aerospace, medical-device and semiconductor companies: software, embedded systems, mechanical design, chip (VLSI) design and verification. ₹22,063 cr in FY26 (13.8% a year since FY21), the largest such business among Indian tier-1 IT companies.",
+      "**FY26 boom, FY27 pause.** CC growth +9.8% in FY26 (Q2FY26 +13.4% YoY), then +0.3% YoY and -3.7% QoQ in Q1FY27: two large US telecom clients cut discretionary engineering spend and technology clients slowed from a high base (CEO, Jul-2026).",
+      "**Margins.** 20.2% (FY23), 19.4% (FY24), 18.0% (FY25), 16.8% (FY26), 15.6% in Q1FY27: wage hikes (~90 bp in Q3FY26), restructuring and now lower utilisation as revenue fell.",
+      "**What could revive it.** Semiconductors (ASIC design on advanced nodes for a global chip major), physical AI and AI-factory engineering, and the HPE Telco Solutions business (telecom software platforms, ~1,500 engineers, closed in Aug-2026). The HPE unit is not in our numbers because its revenue was not disclosed in the sources we saw."
+     ]
+    },
+    {
+     "callout": "**Our forecast:** ERS +1% / +3.5% / +4% CC (₹{{F.seg.ers.revenue.0|num}} cr in FY27E), EBIT margin 16.0% / 16.5% / 16.5%, below the 18-20% of FY22-24: engineering pricing is now also exposed to AI tools, and growth needs the telecom cuts to lap."
+    }
+   ]
+  },
+  {
+   "id": "sw",
+   "nav": "HCLSoftware",
+   "kicker": "Segment",
+   "title": "HCLSoftware: a 27%-margin cash cow with shrinking revenue and flat recurring revenue",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "Software revenue by type: licences fading, subscription flat",
+       "unit": "HCLSoftware revenue, US$ m",
+       "x": [
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Subscription & support",
+         "values": [
+          1173,
+          1190
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Perpetual licences & other",
+         "values": [
+          178,
+          127
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Professional services",
+         "values": [
+          73,
+          78
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 50,
+       "source": "Q4FY26 investor release"
+      },
+      {
+       "type": "line",
+       "title": "ARR stuck around US$1.05 bn for two years",
+       "unit": "Annual recurring revenue, US$ m (quarter end)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ARR",
+         "values": [
+          1014,
+          1049,
+          1022,
+          1033,
+          1057,
+          1062,
+          1065,
+          1045,
+          1063
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "min": 900,
+       "max": 1150,
+       "source": "Investor releases"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**What it is.** Owned software, mostly bought: select IBM products (2019), Actian (data), Zeenea, Wobby and Jaspersoft (analytics, US$240 m, closed Jul-2026). Revenue US$1,395 m in FY26 (-4.1% CC): subscription & support US$1,190 m (85%), perpetual licences US$127 m (-29%), services US$78 m. Q1FY27 US$313 m (-5.3% YoY CC).",
+      "**Margins are high and lumpy.** Segment EBIT 23.7% (FY22) to 26.7% (FY26) on segment revenue; quarterly from 17.6% (Q1FY27) to 35.0% (Q3FY26) because licence renewals bunch in the December quarter. EBITDA is far higher: amortisation of acquired IP was ₹1,759 cr in FY23 (16% of segment revenue, the last year disclosed), and its run-off has propped up EBIT while revenue stalled.",
+      "**Why it shrinks.** Several products (in what management calls the \"experience\" portfolio) are mature and declining; government buyers prefer perpetual licences, which are unpredictable; management expects the data and operations portfolios to offset the decline and sees FY27 as \"flattish or marginally declining\".",
+      "**ROIC 21.6%** (Jun-2026, company measure) against 47.8% for Services: the IBM purchase earns its cost of capital but no more."
+     ]
+    },
+    {
+     "callout": "**Our forecast:** organic CC −2% / −1% / +1%, plus Jaspersoft (+2.6% / +0.9%): ₹{{F.seg.sw.revenue.0|num}} cr in FY27E; EBIT margin 24.5% / 25.0% / 25.0%. None of the brokers we saw values HCLSoftware separately and we do not either: at our 13x P/E its Sep-28E after-tax EBIT is worth ~₹122 a share; even at 4x FY26 revenue, a generous multiple for a shrinking software business, it would be ~₹183, ~₹61 a share more. It does not change the answer."
+    }
+   ]
+  },
+  {
+   "id": "kpis",
+   "nav": "Deals, people & currency",
+   "kicker": "Operating metrics",
+   "title": "Deals, people and currency: bookings up, headcount down, the rupee doing the heavy lifting",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Operating dashboard, last five quarters",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q2FY26",
+       "Q3FY26",
+       "Q4FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "Revenue, US$ m",
+        "3,545",
+        "3,644",
+        "3,793",
+        "3,682",
+        "3,650"
+       ],
+       [
+        "Growth, CC, YoY",
+        "3.7%",
+        "4.6%",
+        "4.8%",
+        "2.4%",
+        "2.6%"
+       ],
+       [
+        "New deal wins (TCV), US$ m",
+        "1,812",
+        "2,569",
+        "3,006",
+        "1,936",
+        "2,407"
+       ],
+       [
+        "Advanced AI revenue, US$ m",
+        "–",
+        "–",
+        "146",
+        "155",
+        "171"
+       ],
+       [
+        "EBIT margin (incl. restructuring)",
+        "16.3%",
+        "17.5%",
+        "18.6%",
+        "16.5%",
+        "16.9%"
+       ],
+       [
+        "  of which restructuring cost",
+        "–",
+        "55 bp",
+        "81 bp",
+        "122 bp",
+        "62 bp"
+       ],
+       [
+        "Headcount (period end)",
+        "2,23,151",
+        "2,26,640",
+        "2,26,379",
+        "2,27,181",
+        "2,23,889"
+       ],
+       [
+        "Attrition, LTM",
+        "12.8%",
+        "12.6%",
+        "12.4%",
+        "12.5%",
+        "12.7%"
+       ],
+       [
+        "Revenue per employee, US$k (LTM)",
+        "63.4",
+        "63.9",
+        "64.6",
+        "65.1",
+        "65.5"
+       ],
+       [
+        "DSO, billed (days)",
+        "59",
+        "–",
+        "61",
+        "61",
+        "59"
+       ],
+       [
+        "Average USD-INR",
+        "85.62",
+        "87.63",
+        "89.34",
+        "92.28",
+        "94.73"
+       ]
+      ],
+      "source": "HCLTech investor releases. Q3FY26 margin excludes the Rs956 cr Labour Codes charge. Advanced AI revenue was first disclosed as a number in Q3FY26 (Q2FY26: \"crossed US$100 m\"). Utilisation is not disclosed."
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Attrition steady at 12.4-13.2%",
+       "unit": "Attrition, LTM (%; voluntary, excl. digital process operations)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Attrition",
+         "values": [
+          12.8,
+          12.9,
+          13.2,
+          13,
+          12.8,
+          12.6,
+          12.4,
+          12.5,
+          12.7
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 15,
+       "source": "Investor releases"
+      },
+      {
+       "type": "line",
+       "title": "The rupee: ₹83.4 to ₹94.7 per US$ in two years",
+       "unit": "Average USD-INR in the quarter",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "USD-INR",
+         "values": [
+          83.4,
+          83.79,
+          84.66,
+          86.45,
+          85.62,
+          87.63,
+          89.34,
+          92.28,
+          94.73
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "min": 80,
+       "max": 98,
+       "source": "Investor releases; 30-Sep-2026 close ₹95.81 (PTI)"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**Bookings.** Net new TCV was US$9.3 bn in FY26, flat on FY25 despite AI deflation and ~US$1 bn of deals HCLTech walked away from (CEO); Q1FY27 US$2,407 m (+33% YoY), plus the US$1.14 bn mega deal signed in July. Book-to-bill on new deals is ~0.6-0.7x a year's revenue: most revenue still comes from renewals.",
+      "**People.** Headcount 2,23,889 (Jun-2026), down 3,292 in the quarter and only 0.3% above a year earlier while revenue grew 3% in dollars. Freshers added: 11,744 in FY26, 1,056 in Q1FY27. Attrition 12.7%.",
+      "**Wage hikes.** FY26 increments hit Q3FY26 (~80 bp of margin) with a second cycle in Q4FY26 (~45 bp). The size and timing of FY27 increments had not been announced by 30-Sep-2026; we assume a similar pattern inside our margins.",
+      "**Currency and hedges.** About 56% of Services revenue is billed in the US and 28% in Europe, while most delivery cost is in rupees, so a weaker rupee lifts margins (forex +60 bp in Q1FY27). HCLTech hedges forward: at Mar-2026 it had US$1.6 bn of USD/INR sell contracts (plus smaller GBP, EUR and other covers) designated as cash-flow hedges, with a mark-to-market liability of ₹1,466 cr and a hedging reserve of −₹1,062 cr after tax, as the rupee had fallen below the hedged rates. These losses show up in the forex line below EBIT (−₹241 cr in FY26, −₹38 cr in Q1FY27). We assume no forex gain or loss in our forecasts; further rupee weakness would add hedge losses.",
+      "**Restructuring.** ~65 bp of margin in FY26 (Q2-Q4) and 62 bp in Q1FY27; FY27 guidance includes 40-50 bp. We assume none in FY28-29."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: real in execution and client relationships, eroding in the labour model",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Scale and client relationships",
+       "Strong",
+       "US$14.8 bn revenue; 23 clients above US$100 m and 60 above US$50 m (Jun-2026); top-20 clients 28% of revenue.",
+       "Hard to dislodge in run-the-business work; does not protect price."
+      ],
+      [
+       "Infrastructure and digital-workplace managed services",
+       "Strong",
+       "Historic leadership; mega deals (US$1.14 bn in Jul-2026) mostly in this area.",
+       "Annuity revenue, but exactly the work AI automation targets: contracts carry yearly productivity give-backs."
+      ],
+      [
+       "Engineering & R&D services",
+       "Above average",
+       "Largest ER&D franchise among Indian tier-1s (17% of revenue); semiconductor, physical-AI and AI-factory work.",
+       "Closer to the AI-native pool; but cyclical (FY26 +9.8%, Q1FY27 +0.3%)."
+      ],
+      [
+       "Owned software (HCLSoftware)",
+       "Mixed",
+       "US$1.4 bn revenue, 85% recurring, 27% EBIT margin; but revenue fell 4.1% in FY26 and -5.3% in Q1FY27; mostly acquired mature products.",
+       "A cash cow, not a growth engine; ARR flat around US$1.05 bn for two years."
+      ],
+      [
+       "Cost and delivery model",
+       "Eroding",
+       "India delivery and labour arbitrage are what generative AI compresses; revenue per employee +3.3% while headcount falls.",
+       "Moat shifts from labour to IP and execution."
+      ],
+      [
+       "AI capability",
+       "Unproven but early",
+       "Advanced AI US$684 m annualised (~4.7% of revenue), +62%; AI Force in 92 accounts; Sarvam stake; data-centre plan.",
+       "Right direction; too small to offset deflation yet."
+      ],
+      [
+       "Capital discipline",
+       "Strong",
+       "ROIC 40.7% (Services 47.8%); FCF ~100% of net income; 90%+ payout.",
+       "Protects shareholders' returns even if growth stalls."
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings, calls and broker notes to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** HCLTech has a moat in execution, not in price. Clients trust it with very large, long contracts (23 accounts above US$100 m a year, renewals of its largest clients, mega deals executed \"to the planned business case\"), and its engineering franchise is the deepest among Indian tier-1s. But the moat that earned 20x+ multiples, cheap skilled labour delivered at scale, is what generative AI attacks. HCLTech's response (sell the productivity first, build AI platforms, buy software, invest in AI data centres) is sensible and early, yet it means accepting lower revenue per contract for a few years. HCLSoftware is a moat of sorts (customers rarely switch core software) but it protects a shrinking revenue base. We score the overall moat as narrow and narrowing."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "A decade of double-digit rupee growth; EPS has slowed to ~4% a year since FY23",
+   "blocks": [
+    {
+     "p": "HCLTech's revenue grew from ₹47,568 cr in FY17 to ₹1,30,144 cr in FY26, about 11.8% a year, helped by the IBM software purchase (2019), steady acquisitions and a weaker rupee. Profit attributable to shareholders went from ₹8,606 cr to ₹16,642 cr (7.6% a year). The last three years were slower: revenue grew 8.7% a year in rupees but only ~5% in dollars (FY24 +5.4%, FY25 +4.7%, FY26 +3.9% in constant currency), and EPS rose from ₹54.7 (FY23) to ₹61.3 (FY26), 3.9% a year. FY26 carried a ₹956 cr one-time charge for India's new Labour Codes and ~65 bp of restructuring; before them EPS was ₹64.0."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: 11.8% a year in rupees since FY17",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "EPS: steady climb, but flat in FY26 (Labour Codes charge)",
+       "unit": "EPS (₹, attributable; adjusted for the 2019 bonus)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EPS",
+         "ref": "fin.eps",
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin peaked at 26.6% in FY21 and has slid to 20.6%",
+       "unit": "EBITDA margin (%), Screener basis",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 15,
+       "max": 30,
+       "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "People cost rose from 48% to 57% of revenue",
+       "unit": "Employee cost (% of revenue)",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Employee cost",
+         "ref": "A.employeePct",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 40,
+       "max": 60,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** HCLTech has been the fastest-growing tier-1 Indian IT company for three years, but that growth has not reached EPS: margins slipped (FY21 was a Covid-era peak, wages and sub-contracting rose, software margins swing), and the rupee did much of the work. In dollars and constant currency, this is now a 3-4% grower. The FY27 EPS jump we forecast (+18%) is mostly the rupee (₹95.5 per US$ vs ₹88.7 in FY26) and the absence of FY26's one-offs, not faster business growth."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: a beat on margins and record bookings, but guidance held at 1-4%",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q1FY27",
+       "Change"
+      ],
+      "rows": [
+       [
+        "Revenue, US$ m",
+        "3,545",
+        "3,650",
+        "+3% (CC +3%)"
+       ],
+       [
+        "Revenue, ₹ cr",
+        "30,349",
+        "34,579",
+        "+14%"
+       ],
+       [
+        "  IT & Business Services, CC YoY",
+        "",
+        "4.2%",
+        "flat QoQ"
+       ],
+       [
+        "  Engineering & R&D, CC YoY",
+        "",
+        "0.3%",
+        "−3.7% QoQ"
+       ],
+       [
+        "  HCLSoftware, CC YoY",
+        "",
+        "-5.3%",
+        "+2.2% QoQ"
+       ],
+       [
+        "EBIT, ₹ cr (margin)",
+        "4,942 (16.3%)",
+        "5,831 (16.9%)",
+        "+18%; +56 bp"
+       ],
+       [
+        "EBIT margin excluding restructuring",
+        "16.3%",
+        "17.5%",
+        "+120 bp"
+       ],
+       [
+        "Segment EBIT: ITBS / ERS / Software",
+        "15.1% / 17.7% / 22.4%",
+        "17% / 15.6% / 17.6%",
+        ""
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net income, ₹ cr / EPS (₹)**",
+         "**3,843 / 14.2**",
+         "**4,624 / 17.04**",
+         "**+20%**"
+        ]
+       },
+       [
+        "New deal TCV, US$ m",
+        "1,812",
+        "2,407",
+        "+33%"
+       ]
+      ],
+      "source": "Q1FY27 investor release (13-Jul-2026); Screener.in"
+     }
+    },
+    {
+     "p": "Reported EBIT +39 bp QoQ to 16.9%: lower restructuring +70 bp, lower doubtful-debt provision +20 bp, forex +60 bp, offset by -110 bp from annual productivity give-backs in managed-services contracts and the ERS decline (CFO)."
+    },
+    {
+     "bullets": [
+      "**Guidance unchanged:** FY27 revenue +1-4% CC (Services +1.5-4.5%), EBIT 17.5-18.5% including ~40-50 bp of restructuring; organic only (excludes Jaspersoft and HPE Telco Solutions). Management will revisit after Q2: the macro \"we saw in March continues to be the same\" (CEO).",
+      "**Bookings:** net new TCV US$2.41 bn, the highest ever first quarter, plus a mega deal with a Europe-headquartered Fortune Global 50 company (digital workplace and enterprise networks, US$1.14 bn per brokers) signed in early July; it reaches steady state only in April 2027, so FY27 revenue impact is negligible.",
+      "**AI:** Advanced AI revenue US$171 m (+10.6% QoQ, +62.1% YoY CC); AI Force deployed in 92 accounts (75 in Q4FY26); 23 industry AI solutions. Management's frame: AI-native and AI-amplified work grows; AI-disrupted traditional work keeps deflating.",
+      "**New bets:** an AI data-centre business (initial investment up to ₹3,500 cr, long-term ambition 50 MW, to be funded partly by partners, client commitments and debt, \"not at the expense of our stated payout policy\"), and a US$150 m strategic investment in Sarvam, an Indian sovereign-AI model company.",
+      "**Weak spots:** ERS fell 3.7% QoQ on cuts at two large US telecom clients and in Technology clients; Life Sciences & Healthcare is slow (end of regulatory work for medical-device clients; US healthcare under stress). HCLSoftware fell 5.3% YoY.",
+      "**Acquisitions:** Jaspersoft closed in the first week of July (US$10-15 m revenue a quarter); the HPE Telco Solutions carve-out was expected to close later in Q2 (it closed in August, HCLTech release dated 3-Aug-2026).",
+      "**People and cash:** headcount down 3,292 to 223,889; revenue per employee +3.3% YoY to US$65.5k; attrition 12.7%. LTM FCF US$1.98 bn (99% of net income); ₹12 interim dividend."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (Jul-2025 to Jul-2026)",
+      "head": [
+       "When",
+       "Topic",
+       "What was said",
+       "Outcome so far"
+      ],
+      "wide": [
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "14-Jul-25",
+        "FY26 guidance (Q1FY26)",
+        "Revenue +3-5% CC, Services +3-5%, EBIT 17-18% (lowered from the 18-19% band given in Apr-2025, which analysts still call the \"original 18-19%\").",
+        "Revenue +3.9% CC; EBIT 17.2% including ~65 bp of restructuring (17.9% excluding it)."
+       ],
+       [
+        "12-Jan-26",
+        "FY26 guidance raised",
+        "Services +4.75-5.25% CC, company +4-4.5% CC; EBIT 17-18% (incl. restructuring, excl. Labour Codes).",
+        "Missed slightly: company +3.9% (10 bp below the band) as software deals slipped and telecom clients cut spend in March."
+       ],
+       [
+        "21-Apr-26",
+        "FY27 guidance",
+        "Revenue +1-4% CC, Services +1.5-4.5%, EBIT 17.5-18.5% (incl. 40-50 bp restructuring); organic.",
+        "Q1: +2.6% YoY CC, EBIT 16.9% (17.5% ex restructuring); retained in July."
+       ],
+       [
+        "21-Apr-26",
+        "AI deflation",
+        "40% of industry spend is AI-disrupted and can shrink 3-5% a year; for HCLTech's mix that is 2-3% a year; \"very little\" is in reported numbers yet, expected from FY27.",
+        "Too early to test; Q1 revenue per employee +3.3% while headcount fell."
+       ],
+       [
+        "21-Apr-26",
+        "Capital allocation",
+        "Policy extended five years: at least 75% of net income returned to shareholders (89.9% paid over FY22-26).",
+        "Q1FY27 LTM payout 93.2%."
+       ],
+       [
+        "13-Jul-26",
+        "Medium-term margins",
+        "Return to the old 18-19% band: will be addressed with FY28 guidance (CFO).",
+        "Open."
+       ]
+      ],
+      "source": "HCLTech investor releases and calls"
+     }
+    },
+    {
+     "callout": "**Why it matters:** management missed its raised FY26 revenue band by 10 bp and cut its margin band during FY26, but it has delivered close to guidance for years, and the FY27 band (1-4% CC, 17.5-18.5% EBIT) looks achievable: Q1 was +2.6% YoY with EBIT 17.5% before restructuring. The issue is not credibility; it is that the guided growth is low. Our FY27E (2.8% CC including Jaspersoft, 17.7% EBIT) sits near the middle of both bands."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capital allocation",
+   "kicker": "Capital allocation",
+   "title": "Almost all the cash goes back to shareholders; the new bets are AI start-ups and data centres",
+   "blocks": [
+    {
+     "p": "HCLTech needs little capital: capex was ₹1,048-1,661 cr a year in FY22-26 (about 1-2% of revenue). Since FY22 a formal policy returns at least 75% of net income; the company actually paid out 89.9% over FY22-26 (US$8.5 bn) and extended the policy for five more years in April 2026. Return on capital employed was 30% in FY26 (Screener) and the company's own ROIC 40.3% (Services 47%). What changed in FY27 is the use of the remaining cash: a US$150 m stake in Sarvam AI, Jaspersoft (US$240 m) and HPE Telco Solutions (~₹1,400 cr), and an AI data-centre business with up to ₹3,500 cr of initial investment."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Cash from operations dwarfs capex",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Dividends jumped after the FY22 payout policy",
+       "unit": "Dividends paid (₹ crore)",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Dividends paid",
+         "ref": "A.dividendsPaid",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY21-23",
+       "FY24-26",
+       "Six years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "54,527",
+        "64,684",
+        "1,19,211"
+       ],
+       [
+        "Capex",
+        "5,210",
+        "3,578",
+        "8,788"
+       ],
+       [
+        "Dividends paid",
+        "27,642",
+        "44,941",
+        "72,583"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over (for acquisitions, buybacks of RSU shares, debt repayment, cash build)**",
+         "**21,675**",
+         "**16,165**",
+         "**37,840**"
+        ]
+       },
+       [
+        "Memo: cash and investments at the end (Screener basis, excl. long-term deposits)",
+        "{{A.cashAndInvestments.8|num}}",
+        "{{A.cashAndInvestments.11|num}}",
+        ""
+       ]
+      ],
+      "source": "Screener.in cash flow (consolidated). FY21 included Rs6,488 cr of deferred consideration for the IBM software products (financing/investing)."
+     }
+    },
+    {
+     "callout": "**The capital question:** the dividend is secure: FY27E free cash flow before the one-off investments is ~₹20,000 cr against ~₹17,700 cr of dividends at a 90% payout. The data-centre plan is the risk to watch. Management says ₹3,500 cr is only \"a fraction\" of the 50 MW ambition, to be funded partly by partners, client commitments and debt, \"not at the expense of our stated payout policy\". An analyst on the July call put a full-stack 50 MW build at ~₹30,000 cr; the CEO agreed with the economics but not the plan to fund it alone. We model ₹3,500 cr over FY27-29."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean accounts and strong cash; watch the hedge book, the \"one-offs\" and acquisition accounting",
+   "blocks": [
+    {
+     "bullets": [
+      "**Cash backs profit.** Operating cash flow was 120% of attributable profit in FY26, 128% in FY25 and 143% in FY24; the company's free cash flow was 107% of net income in FY26 and 99% on a twelve-month basis at Jun-2026. Cash from operations has exceeded profit every year since FY20 (FY18-19 were 89-96%).",
+      "**\"One-offs\" recur.** Restructuring cost ~65 bp of margin in FY26 and 62 bp in Q1FY27, and FY27 guidance includes another 40-50 bp: three years of \"one-time\" charges. The Labour Codes charge (₹956 cr, Q3FY26) is genuinely one-off, with a 10-20 bp recurring cost. We treat restructuring as an operating cost in FY27 and assume none after.",
+      "**Other income is mostly treasury.** FY26 other income ₹1,530 cr (company): interest and fund income ₹1,633 cr, other recurring items ₹138 cr, forex −₹241 cr. FY25's ₹2,485 cr included a ₹574 cr gain on divesting the State Street JV. Screener's FY26 figure (₹574 cr) nets the Labour Codes charge.",
+      "**Hedges.** A US$1.6 bn USD/INR forward book carried a ₹1,466 cr mark-to-market loss at Mar-2026 (hedging reserve −₹1,062 cr after tax), with hedged transactions running to Dec-2030; settlement losses go through the forex line. Not an accounting problem, but it dilutes the rupee benefit.",
+      "**Acquired IP.** About three-quarters of net fixed assets are goodwill (₹23,888 cr at Mar-2026) and other intangibles (~₹5,200 cr), mostly from the IBM software products, Actian and other deals. Amortisation runs through D&A, so EBIT is after it; we do not adjust it back.",
+      "**Pay.** CEO pay of US$18.1 m in FY26 (292x the median employee) and ₹131 cr of share-based pay for key managers: high for a company growing 4%.",
+      "**Disclosure.** Good on segments, verticals, geographies, clients, software ARR and Advanced AI; utilisation and segment D&A are no longer disclosed."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: GREEN.** Unqualified audit by B S R & Co. LLP (re-appointed to 2029), strong cash conversion, net cash, clear segment reporting. The items to watch are the recurring \"restructuring\" line, the hedge losses as the rupee falls, and goodwill on the newer acquisitions (Jaspersoft, HPE Telco Solutions)."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash of ₹33,000 cr at Mar-26, ₹26,900 cr after the June dividend and Sarvam",
+   "blocks": [
+    {
+     "p": "HCLTech has no meaningful debt. At Mar-2026 it held ₹33,447 cr of gross cash (cash ₹8,265 cr, deposits ₹18,222 cr, investment securities ₹6,960 cr) against ₹159 cr of borrowings, so net cash was ₹33,288 cr (company basis); lease liabilities of ₹5,056 cr are the only other debt-like item. By Jun-2026 net cash was ₹26,907 cr after paying the ₹24 final dividend (₹6,492 cr) and investing ₹1,427 cr in Sarvam. Receivables are the main use of working capital: 88 days of revenue at Mar-26 on Screener's basis (DSO 61 days billed, 84-86 days including unbilled), up from 81 days a year earlier."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Cash and investments (Screener basis) rose to ₹30,515 cr",
+       "unit": "₹ crore; excludes ₹3,012 cr of long-term and inter-corporate deposits",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash and investments",
+         "ref": "A.cashAndInvestments",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Receivable days: 88 at Mar-26, up from 64 in FY17",
+       "unit": "Debtor days (of revenue)",
+       "x": [
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Debtor days",
+         "values": [
+          64,
+          70,
+          71,
+          73,
+          85,
+          88,
+          92,
+          85,
+          81,
+          88
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "min": 50,
+       "max": 100,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth (excl. minorities)",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings incl. leases",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and investments (Screener)",
+        "{{A.cashAndInvestments.7|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "Net fixed assets incl. goodwill and IP",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Trade receivables (billed)",
+        "{{A.receivables.7|num}}",
+        "{{A.receivables.9|num}}",
+        "{{A.receivables.10|num}}",
+        "{{A.receivables.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders), GAM Research. Borrowings at Mar-26: leases Rs5,056 cr, bank debt Rs159 cr (US$252 m HCL America notes repaid in Mar-2026)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: the Nadar family holds 60.9%; domestic funds have replaced foreign ones",
+   "blocks": [
+    {
+     "p": "The Nadar family controls HCLTech through holding companies: Vama Sundari Investments (Delhi) held 44.21% and HCL Holdings 16.46% at Mar-2026, with smaller stakes in HCL Corporation, the Shiv Nadar Foundation and the Kiran Nadar Museum of Art; the promoter group held 60.88% at Jun-2026. No promoter shares are pledged. Foreign investors held 14.9% (down from 19.4% in Dec-2024), Indian institutions 18.75% (mutual funds 9.2% and insurers, banks and pension funds 9.7% at Mar-2026) and the public 5.14%. Shareholders jumped to ~10.2 lakh at Jun-2026 from ~8.8 lakh in March as retail investors bought the fall."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Domestic institutions up from 15% to 19%; foreign funds down from 19% to 15%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoters steady at ~60.9%",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 50,
+       "max": 65,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest holders",
+      "head": [
+       "Holder",
+       "Stake",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Vama Sundari Investments (Delhi) Pvt Ltd (promoter)",
+        "44.21%",
+        "At 31-Mar-2026"
+       ],
+       [
+        "HCL Holdings Pvt Ltd (promoter)",
+        "16.46%",
+        "At 31-Mar-2026"
+       ],
+       [
+        "HCL Corporation Pvt Ltd (promoter)",
+        "0.17%",
+        "At 31-Mar-2026"
+       ],
+       [
+        "Kiran Nadar Museum of Art / Shiv Nadar Foundation (promoter group)",
+        "0.16%",
+        "At 31-Mar-2026"
+       ],
+       [
+        "HCL Technologies Stock Options Trust (employee trust)",
+        "0.29%",
+        "At 31-Mar-2026"
+       ],
+       [
+        "Promoter group (Jun-2026)",
+        "60.88%",
+        "Unchanged in substance for years"
+       ],
+       [
+        "Foreign portfolio investors (Jun-2026)",
+        "14.9%",
+        "Mar-2026: 15.6% (AR)"
+       ],
+       [
+        "Domestic institutions (Jun-2026)",
+        "18.75%",
+        "Mar-2026: mutual funds 9.22%, insurers/banks/pension funds 9.66%"
+       ]
+      ],
+      "source": "BSE shareholding pattern via Screener.in (Jun-2026 categories); AR FY26 (Mar-2026 categories and promoter entities). Named institutional holders at Jun-2026 were not available to us."
+     }
+    },
+    {
+     "callout": "**Our read:** a stable, founder-controlled company with a professional CEO. The family has been a patient owner and has backed the high-payout policy, which suits its holding companies (Vama Sundari received ₹6,472 cr of dividends in FY26). Foreign investors have been sellers for two years; domestic funds have absorbed it."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: a clean, family-controlled board; pay is the weak spot",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Roshni Nadar Malhotra",
+        "Chairperson (non-executive, promoter)",
+        "Chair since Jul-2020; daughter of founder Shiv Nadar; also on the HDFC AMC board."
+       ],
+       [
+        "C Vijayakumar",
+        "CEO & Managing Director",
+        "CEO since 20-Oct-2016, joined HCL in 1994; re-appointed CEO & MD to Mar-2030; paid US$18.1 m in FY26 (base 2.5, bonus 2.0, cash LTI 3.9, RSUs exercised 9.4), 292x the median employee; based in the US."
+       ],
+       [
+        "Shiv Walia",
+        "Chief Financial Officer",
+        "Chief Financial Officer (signs the FY26 accounts)."
+       ],
+       [
+        "Shikhar Malhotra",
+        "Non-executive director (promoter group)",
+        "Roshni Nadar Malhotra's husband; re-appointed as director retiring by rotation at the 2026 AGM."
+       ],
+       [
+        "Shiv Nadar",
+        "Founder, Chairman Emeritus",
+        "Founder; promoter entities Vama Sundari Investments (Delhi) 44.2% and HCL Holdings 16.5% at Mar-2026."
+       ],
+       [
+        "B S R & Co. LLP",
+        "Statutory auditor",
+        "Re-appointed at the Aug-2024 AGM for five years to the 2029 AGM; unqualified opinion FY26."
+       ]
+      ],
+      "source": "AR FY26 (Board, Corporate Governance Report, remuneration annexure); investor releases"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "B S R & Co. LLP, re-appointed in Aug-2024 to the 2029 AGM; unqualified FY26 opinion.",
+       "No accounting red flags."
+      ],
+      [
+       "Board",
+       "Adequate",
+       "Chairperson is the promoter (Roshni Nadar Malhotra); her husband is a non-executive director; independent directors include Amitabh Kant, Bhavani Balasubramanian, Deepak Kapoor, Lee Fang Chew, Nishi Vasudeva, Simon England, Vanitha Narayanan and Kimsuka Narsimhan (from Apr-2026).",
+       "Family control, professional management."
+      ],
+      [
+       "Promoters",
+       "Strong",
+       "60.9% held through family companies; no pledges; dividends are the family's main income from the stake.",
+       "Aligned with minority shareholders on payouts."
+      ],
+      [
+       "Management",
+       "Strong",
+       "CEO C Vijayakumar since 2016 (re-appointed to Mar-2030); long-tenured CFO and leadership.",
+       "Continuity through the AI transition."
+      ],
+      [
+       "Pay",
+       "Watch",
+       "CEO US$18.1 m in FY26 (+67% including LTI), 292x the median employee; KMP share-based pay ₹131 cr.",
+       "High relative to growth."
+      ],
+      [
+       "Capital allocation",
+       "Good, with a new risk",
+       "90% payout; small, mostly sensible acquisitions; FY27 adds Sarvam (US$150 m) and an AI data-centre business.",
+       "Watch returns on the data-centre capital."
+      ],
+      [
+       "Related parties",
+       "Clean",
+       "Dealings with family entities are small (receivables ₹32 cr, payables ₹43 cr at Mar-2026).",
+       "No concern."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation (AR FY26, shareholding patterns, filings)"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: ~3-4% dollar growth, flat margins, EPS +18% in FY27 on the rupee and ~5% after",
+   "blocks": [
+    {
+     "p": "We build revenue in US dollars, segment by segment: constant-currency growth, plus cross-currency moves and acquisitions (Jaspersoft), converted at ₹95.53 per US$ in FY27E (Q1 actual 94.73, then the 30-Sep spot of 95.81) and ₹95.81 in FY28-29E (no further depreciation). Each segment earns an EBIT margin as HCLTech reports it; because the model starts from EBITDA, D&A is added back and then charged on gross block, so group EBIT equals the sum of segment EBIT (checked in our files). Other income is built from treasury yield on cash plus recurring items; tax 24.8%; payout 90%. Capex includes the FY27 acquisitions, the Sarvam stake and ₹3,500 cr of data-centre spend over FY27-29, because they consume cash. Every assumption, with our reasoning, is in the Excel model's Assumptions sheet."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Revenue build in US dollars (US$ m)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "IT & Business Services",
+        "10,828",
+        "11,218 (+3.6%)",
+        "11,723 (+4.5%)",
+        "12,192 (+4.0%)"
+       ],
+       [
+        "Engineering & R&D",
+        "2,486",
+        "2,513 (+1.1%)",
+        "2,601 (+3.5%)",
+        "2,705 (+4.0%)"
+       ],
+       [
+        "HCLSoftware",
+        "1,397",
+        "1,407 (+0.7%)",
+        "1,405 (−0.1%)",
+        "1,419 (+1.0%)"
+       ],
+       [
+        "Inter-segment",
+        "-46",
+        "-46 (+0.7%)",
+        "-46 (−0.1%)",
+        "-47 (+1.0%)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total US$ revenue**",
+         "**14,664**",
+         "**15,092 (+2.9%)**",
+         "**15,683 (+3.9%)**",
+         "**16,270 (+3.7%)**"
+        ]
+       },
+       [
+        "  of which constant currency (incl. acquisitions)",
+        "+3.9%",
+        "+2.8%",
+        "+3.9%",
+        "+3.7%"
+       ],
+       [
+        "INR per US$ (average)",
+        "88.75",
+        "95.53",
+        "95.81",
+        "95.81"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Revenue, ₹ cr (model)**",
+         "**1,30,144**",
+         "**{{F.sales.0|num}}**",
+         "**{{F.sales.1|num}}**",
+         "**{{F.sales.2|num}}**"
+        ]
+       }
+      ],
+      "source": "FY26: AR FY26 segment note at the FY26 implied rate (Rs130,144 cr / US$14,664 m = 88.75); segment US$ split derived. GAM estimates. The HPE Telco Solutions acquisition (closed Aug-2026) is not included."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Segment forecasts (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       {
+        "sec": "IT & Business Services"
+       },
+       [
+        "Revenue",
+        "96,095",
+        "{{F.seg.itbs.revenue.0|num}}",
+        "{{F.seg.itbs.revenue.1|num}}",
+        "{{F.seg.itbs.revenue.2|num}}"
+       ],
+       [
+        "EBIT",
+        "15,390",
+        "{{F.seg.itbs.adjEbitda.0|num}}",
+        "{{F.seg.itbs.adjEbitda.1|num}}",
+        "{{F.seg.itbs.adjEbitda.2|num}}"
+       ],
+       [
+        "Margin",
+        "16.0%",
+        "17.1%",
+        "17.4%",
+        "17.4%"
+       ],
+       {
+        "sec": "Engineering & R&D Services"
+       },
+       [
+        "Revenue",
+        "22,063",
+        "{{F.seg.ers.revenue.0|num}}",
+        "{{F.seg.ers.revenue.1|num}}",
+        "{{F.seg.ers.revenue.2|num}}"
+       ],
+       [
+        "EBIT",
+        "3,703",
+        "{{F.seg.ers.adjEbitda.0|num}}",
+        "{{F.seg.ers.adjEbitda.1|num}}",
+        "{{F.seg.ers.adjEbitda.2|num}}"
+       ],
+       [
+        "Margin",
+        "16.8%",
+        "16.0%",
+        "16.5%",
+        "16.5%"
+       ],
+       {
+        "sec": "HCLSoftware"
+       },
+       [
+        "Revenue",
+        "12,397",
+        "{{F.seg.sw.revenue.0|num}}",
+        "{{F.seg.sw.revenue.1|num}}",
+        "{{F.seg.sw.revenue.2|num}}"
+       ],
+       [
+        "EBIT",
+        "3,304",
+        "{{F.seg.sw.adjEbitda.0|num}}",
+        "{{F.seg.sw.adjEbitda.1|num}}",
+        "{{F.seg.sw.adjEbitda.2|num}}"
+       ],
+       [
+        "Margin",
+        "26.7%",
+        "24.5%",
+        "25.0%",
+        "25.0%"
+       ],
+       [
+        "Inter-segment elimination (revenue)",
+        "-411",
+        "{{F.seg.elim.revenue.0|num}}",
+        "{{F.seg.elim.revenue.1|num}}",
+        "{{F.seg.elim.revenue.2|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Group EBIT (sum of segments)**",
+         "**22,397**",
+         "**{{F.ebit.0|num}}**",
+         "**{{F.ebit.1|num}}**",
+         "**{{F.ebit.2|num}}**"
+        ]
+       },
+       [
+        "EBIT margin",
+        "17.2%",
+        "17.7%",
+        "18.0%",
+        "18.0%"
+       ],
+       [
+        "Add back D&A",
+        "4,355",
+        "{{F.dep.0|num}}",
+        "{{F.dep.1|num}}",
+        "{{F.dep.2|num}}"
+       ],
+       [
+        "EBITDA (margin)",
+        "26,752 (20.6%)",
+        "{{F.ebitda.0|num}} ({{F.ebitdaMargin.0|pct}})",
+        "{{F.ebitda.1|num}} ({{F.ebitdaMargin.1|pct}})",
+        "{{F.ebitda.2|num}} ({{F.ebitdaMargin.2|pct}})"
+       ]
+      ],
+      "source": "AR FY26 (FY26 segment results exclude the Rs956 cr Labour Codes charge); GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "Group P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "EBIT margin",
+        "ref": "fin.ebitMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit (attributable)",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex (forecasts incl. acquisitions)",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "Cash & investments (forecasts: net of borrowings, incl. deposits)",
+        "ref": "fin.treasury"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates. FY26 other income is net of the Rs956 cr Labour Codes charge (Screener). Cash is gross in actual years and net of borrowings (incl. leases) in forecasts. DPS forecast: Rs65.3 / 69.3 / 72.2 (90% payout; FY26 actual Rs60)."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Other income: built, not plugged (₹ crore)",
+      "head": [
+       "",
+       "FY26 (company)",
+       "TTM Jun-26 (Screener)",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Treasury income (interest, fund gains)",
+        "1,633",
+        "–",
+        "1,302",
+        "1,379",
+        "1,564"
+       ],
+       [
+        "  yield on opening net treasury",
+        "~6.2%",
+        "",
+        "4.6%",
+        "5.3%",
+        "5.3%"
+       ],
+       [
+        "Recurring non-treasury items",
+        "138",
+        "–",
+        "140",
+        "145",
+        "150"
+       ],
+       [
+        "Forex (mostly hedge settlements)",
+        "-241",
+        "–",
+        "0",
+        "0",
+        "0"
+       ],
+       [
+        "Labour Codes charge (Screener nets it here)",
+        "−956",
+        "−956",
+        "–",
+        "–",
+        "–"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Other income, Screener basis**",
+         "**574**",
+         "**527**",
+         "**{{F.otherIncome.0|num}}**",
+         "**{{F.otherIncome.1|num}}**",
+         "**{{F.otherIncome.2|num}}**"
+        ]
+       },
+       [
+        "Memo: excluding the Labour Codes charge",
+        "1,530",
+        "1,483",
+        "",
+        "",
+        ""
+       ]
+      ],
+      "source": "AR FY26 note 3.20; Screener.in quarters; GAM estimates. Opening net treasury Rs28,312 cr at Mar-26 (Screener cash, investments and Rs3,012 cr of long-term deposits, less Rs5,215 cr of borrowings incl. leases)."
+     }
+    },
+    {
+     "callout": "**Reconciliation:** FY27E other income of ~₹{{F.otherIncome.0|num}} cr is below FY26's ₹1,771 cr before forex because cash is lower: ₹6,492 cr of dividends and ₹1,427 cr for Sarvam left in Q1 and ~₹3,700 cr for Jaspersoft and HPE Telco in Q2 (gross cash ₹33,447 cr at Mar-26, ₹27,058 cr at Jun-26), and deposit yields fell. It is close to the ₹1,483 cr of the twelve months to Jun-26 (which includes forex losses). We assume zero forex; Sarvam's equity-accounted result is unknown and left out."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E"
+      ],
+      "rows": [
+       [
+        "EPS (₹), Motilal Oswal (13-Jul-26)",
+        "{{F.eps.0|n1}}",
+        "73.9",
+        "{{F.eps.1|n1}}",
+        "78.0"
+       ],
+       [
+        "EPS (₹), Equirus (14-Jul-26)",
+        "{{F.eps.0|n1}}",
+        "73.8",
+        "{{F.eps.1|n1}}",
+        "77.8"
+       ],
+       [
+        "EPS (₹), PL Capital (14-Jul-26)",
+        "{{F.eps.0|n1}}",
+        "72.1",
+        "{{F.eps.1|n1}}",
+        "77.0"
+       ],
+       [
+        "EPS (₹), ICICI Securities (14-Jul-26)",
+        "{{F.eps.0|n1}}",
+        "71.8",
+        "{{F.eps.1|n1}}",
+        "76.3"
+       ],
+       [
+        "EPS (₹), Geojit (19-Aug-26)",
+        "{{F.eps.0|n1}}",
+        "71.6",
+        "{{F.eps.1|n1}}",
+        "76.8"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**EPS (₹), average of the five**",
+         "**{{F.eps.0|n1}}**",
+         "**72.6**",
+         "**{{F.eps.1|n1}}**",
+         "**77.2**"
+        ]
+       },
+       [
+        "Revenue (₹ cr), MOSL / Equirus / PL / I-Sec",
+        "{{F.sales.0|num}}",
+        "1,42,300 / 1,42,660 / 1,39,900 / 1,41,661",
+        "{{F.sales.1|num}}",
+        "1,49,700 / 1,48,243 / 1,48,900 / 1,48,269"
+       ],
+       [
+        "EBIT margin, MOSL / I-Sec",
+        "17.7%",
+        "17.8% / 17.5%",
+        "18.0%",
+        "17.9% / 17.9%"
+       ],
+       [
+        "US$ revenue (US$ m), MOSL",
+        "15,092",
+        "15,054",
+        "15,683",
+        "15,757"
+       ]
+      ],
+      "source": "Motilal Oswal (13-Jul-2026), Equirus, PL Capital, ICICI Securities (14-Jul-2026) notes; Geojit (19-Aug-2026, adjusted EPS). A post-results consensus dated before 30-Sep-2026 was not found."
+     }
+    },
+    {
+     "callout": "Our EPS is within 1% of the five-broker average in FY27E and within 1% of it in FY28E. We are a little higher on rupee revenue (₹95.5 per US$ vs Motilal Oswal's 94.5) and a little lower on dollar growth in FY28 (+3.9% vs MOSL's +4.7%). The disagreement with the street is about the multiple, not the earnings. EPS compounds ~8% a year over FY26-29E from the ₹64.0 normalised base, but only ~5% a year after FY27's rupee boost."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: split, targets ₹1,040-1,459, median ₹1,225, flat on the price",
+   "blocks": [
+    {
+     "p": "We found 25 targets dated between 23-Jun and 19-Aug 2026, almost all published around the Q1FY27 results (13-14 Jul). Ratings we could see: 7 Buy/Add (Motilal Oswal ₹1,450, Geojit ₹1,459, UBS ₹1,390, Nomura ₹1,290, Equirus ₹1,290, HSBC ₹1,255, HDFC ₹1,160 pre-results), 4 Sell/Underweight/Reduce (Citi ₹1,040, JPMorgan ₹1,060, Jefferies ₹1,070, Kotak ₹1,200) and Holds (PL ₹1,160, ICICI Securities ₹1,140); others published targets only. The median target is ₹1,225 (average ₹1,247), mostly set when the stock was ₹1,167-1,221; at ₹1,230 on 30-Sep-2026 that is ~0% upside. Every house that discloses a method uses **P/E on FY28E (or one-year-forward) EPS, at 15-19x**; the most common multiple is 15x, cut from 17-18x after the April guidance. Bulls point to bookings, AI positioning and capital returns; bears to fading growth leadership, AI deflation and the premium to TCS and Infosys."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Growth leadership is fading: FY27 guidance (1-4% CC) sits inside the peer range, so the premium to TCS and Infosys is no longer justified.",
+        "HDFC Institutional (Jun-2026), Nuvama (Jul-2026)"
+       ],
+       [
+        "GenAI deflation and weak discretionary spend will continue; the multiple should de-rate with peers.",
+        "ICICI Securities (Jul-2026)"
+       ],
+       [
+        "The AI data-centre business is capital-heavy and unproven for a services company (Rs3,500 cr initially; 50 MW could need ~Rs30,000 cr, per an analyst on the call).",
+        "Kotak Mahindra AMC and Nomura analysts on the Q1 call; Nuvama"
+       ],
+       [
+        "HCLSoftware is shrinking: perpetual licences fell 29% in FY26 and ARR has gone nowhere since FY24.",
+        "GAM Research from company data"
+       ],
+       [
+        "Unchanged guidance despite record bookings shows the bookings are productivity-led and convert slowly.",
+        "Jefferies, Citi (Jul-2026)"
+       ],
+       [
+        "Bull case: HCLTech is investing ahead of the market (Sarvam, data centres, AI Force) and has the best execution record on mega deals; a strong FY28 exit could restore the growth gap.",
+        "Motilal Oswal (Jul-2026)"
+       ],
+       [
+        "Bull case: margins and returns are resilient (17.5% EBIT ex restructuring, ROIC 40.7%) and the ~5% dividend yield cushions the downside.",
+        "PL Capital, Equirus (Jul-2026)"
+       ]
+      ],
+      "source": "Broker notes, calls and filings to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 13x Sep-28E earnings gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values HCL Technologies"
+    },
+    {
+     "p": "The brokers that disclose a method value HCLTech on **P/E on FY28E EPS** (Motilal Oswal 18x, Geojit 19x, PL, ICICI Securities and HDFC 15x), on June-2028 EPS (Kotak 15x) or one-year-forward EPS at Sep-2027 (Equirus 16x). None values HCLSoftware separately. We use the same method so our target is comparable, applied to the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). The \"At our EPS\" column applies each broker's multiple to our EPS for its year: the gap to the street is the multiple, not the earnings."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Motilal Oswal (13-Jul-26)",
+        "Buy",
+        "1,450",
+        "P/E",
+        "18x",
+        "FY28E",
+        "1,386",
+        "Preferred large-cap; AI playbook (Sarvam, data centres) ahead of the curve; stronger exit into FY28"
+       ],
+       [
+        "Equirus (14-Jul-26)",
+        "Add",
+        "1,290",
+        "P/E",
+        "16x",
+        "Sep-28E",
+        "1,258",
+        "Upgraded from Reduce after a ~15% fall; 16x = 25-30% below its 3/5-year mean for AI cannibalisation risk"
+       ],
+       [
+        "PL Capital (14-Jul-26)",
+        "Hold",
+        "1,160",
+        "P/E",
+        "15x",
+        "FY28E",
+        "1,155",
+        "Margins resilient, growth visibility blurry; downgraded on valuation after the run-up"
+       ],
+       [
+        "ICICI Securities (14-Jul-26)",
+        "Hold",
+        "1,140",
+        "P/E",
+        "15x",
+        "FY28E",
+        "1,155",
+        "Unchanged guidance implies GenAI deflation and weak discretionary spend continue; multiple cut from 17x in line with peers"
+       ],
+       [
+        "Kotak (Kotak Neo Research) (14-Jul-26)",
+        "Reduce",
+        "1,200",
+        "P/E",
+        "15x",
+        "Jun-28E",
+        "1,167",
+        "Small beat on margins; fair value raised from ₹1,120; slight downside"
+       ],
+       [
+        "Geojit (19-Aug-26)",
+        "Buy",
+        "1,459",
+        "P/E",
+        "19x",
+        "FY28E",
+        "1,463",
+        "Resilient execution, strong large-deal wins and bookings (adjusted EPS)"
+       ],
+       [
+        "HDFC Institutional Equities (23-Jun-26)",
+        "Add",
+        "1,160",
+        "P/E",
+        "15x",
+        "FY28E",
+        "1,155",
+        "Pre-results: growth leadership fading as guidance falls inside the peer range; best-in-class capital returns"
+       ],
+       [
+        "Nomura (14-Jul-26)",
+        "Buy",
+        "1,290",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "FY27-28 EPS raised 2-3%; guidance held back by two accounts"
+       ],
+       [
+        "UBS (14-Jul-26)",
+        "Buy",
+        "1,390",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Target raised from ₹1,355"
+       ],
+       [
+        "HSBC (14-Jul-26)",
+        "Buy",
+        "1,255",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Target unchanged"
+       ],
+       [
+        "Investec (14-Jul-26)",
+        "n.d.",
+        "1,370",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Target raised from ₹1,350"
+       ],
+       [
+        "CLSA (14-Jul-26)",
+        "n.d.",
+        "1,191",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Target cut from ₹1,202"
+       ],
+       [
+        "Morgan Stanley (14-Jul-26)",
+        "n.d.",
+        "1,152",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Target raised from ₹1,105"
+       ],
+       [
+        "JPMorgan (14-Jul-26)",
+        "Underweight",
+        "1,060",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Weak discretionary tech spend; softness at telecom and manufacturing clients"
+       ],
+       [
+        "Jefferies (14-Jul-26)",
+        "Underperform",
+        "1,070",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Unchanged guidance the biggest disappointment despite strong execution"
+       ],
+       [
+        "Citi (14-Jul-26)",
+        "Sell",
+        "1,040",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Downgraded: unchanged guidance outweighed the beat"
+       ],
+       [
+        "Antique (14-Jul-26)",
+        "n.d.",
+        "1,225",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Systematix (14-Jul-26)",
+        "n.d.",
+        "1,180",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Ambit Capital (14-Jul-26)",
+        "n.d.",
+        "1,045",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Avendus Spark (14-Jul-26)",
+        "n.d.",
+        "1,270",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Choice Equity (14-Jul-26)",
+        "n.d.",
+        "1,330",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "360 ONE Capital (14-Jul-26)",
+        "n.d.",
+        "1,200",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Axis Capital (14-Jul-26)",
+        "n.d.",
+        "1,450",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "DAM Capital (14-Jul-26)",
+        "n.d.",
+        "1,390",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Dolat Capital (14-Jul-26)",
+        "n.d.",
+        "1,400",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**SELL**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**13x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "A well-run, cash-rich franchise whose growth AI is shrinking to 3-4%; the sector de-rating is lasting"
+        ]
+       }
+      ],
+      "source": "Motilal Oswal, Equirus, PL Capital and ICICI Securities notes (PDFs); Kotak Neo Research; Business Today (14-Jul and 23-Jun 2026); NiftyTrader; Geojit via DSIJ. n.d. = not disclosed in the sources we saw"
+     }
+    },
+    {
+     "h": "Our target multiple: 13x, and why"
+    },
+    {
+     "p": "We start from the stock's own one-year-forward P/E since April 2021 (the house rule, leaving out trough years), cut it by how far comparable IT stocks had de-rated by 30-Sep-2026, and then check growth, peers and returns."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Its own history",
+        "One-year-forward P/E since Apr-2021: median 19.8x (25th-75th percentile 17.8-23.6x; range 15.0-31.0x); trough years: none. On EPS before one-offs (FY25 State Street JV gain, FY26 Labour Codes charge) 20.1x. 16.9x since 2016; 12.6x in FY17-20 (range 10.9-14.8x); 16.0x on 30-Sep-2026 on our FY28E",
+        "Starting point: 19.8x (house rule; the one-off version differs by 0.3x)"
+       ],
+       [
+        "2. Sector de-rating",
+        "On 30-Sep-2026 eight IT peers traded below their five-year median P/E: TCS −53%, Infosys −49%, Wipro −40%, LTIMindtree −38%, Persistent −18%, Coforge −11%, Mphasis −27%, L&T Technology −31% (median −34%). Left out: HCLTech itself (−21%) and Tech Mahindra (−7%), whose FY24-25 earnings trough inflates both its median and its current P/E; with it the median is −31%; the tier-1 four alone −44%",
+        "19.8x × 0.656 ≈ 13.0x"
+       ],
+       [
+        "3. Growth",
+        "EPS grew 8.4% a year in FY21-26 (3.9% in FY23-26); we forecast ~8% for FY26-29E from the ₹64.0 normalised base, but ~5% after FY27's rupee boost; US$ growth ~3-4% vs 5-14% (constant currency) in FY22-25. The slowdown is what the sector de-rating prices",
+        "No further adjustment: **13x**"
+       ],
+       [
+        "4. Peers",
+        "Trailing P/E: TCS 13.8x, Infosys 12.9x, Wipro 11.9x, LTIMindtree 21.4x, Mphasis 21.2x; HCLTech 18.4x",
+        "13x Sep-28E = 13.2x our FY28E and 15.9x trailing EPS: still a premium to TCS and Infosys, as growth and payout justify"
+       ],
+       [
+        "5. Returns",
+        "ROE 23.0% in FY26, ~27% in our FY28E; ROIC 40.7%; cost of equity 11.9%. Dividend-discount P/E with a 90% payout and 5% growth: 13.0x; a free-cash-flow DCF including net cash gives more (₹1,296)",
+        "Supports 13-16x; we keep the market-derived 13x"
+       ]
+      ],
+      "source": "Screener.in (P/E history to 30-Sep-2026), broker notes, GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "One-year-forward P/E: our 13x vs history",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2016-04-08",
+        "2016-05-13",
+        "2016-06-17",
+        "2016-07-22",
+        "2016-08-26",
+        "2016-09-30",
+        "2016-11-04",
+        "2016-12-09",
+        "2017-01-13",
+        "2017-02-17",
+        "2017-03-24",
+        "2017-04-28",
+        "2017-06-02",
+        "2017-07-07",
+        "2017-08-11",
+        "2017-09-15",
+        "2017-10-19",
+        "2017-11-24",
+        "2017-12-29",
+        "2018-02-02",
+        "2018-03-09",
+        "2018-04-13",
+        "2018-05-18",
+        "2018-06-22",
+        "2018-07-27",
+        "2018-08-31",
+        "2018-10-05",
+        "2018-11-09",
+        "2018-12-14",
+        "2019-01-18",
+        "2019-02-22",
+        "2019-03-29",
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward multiple",
+         "values": [
+          13.3,
+          11.5,
+          12,
+          11.6,
+          12.4,
+          12.8,
+          12.7,
+          12.8,
+          13.6,
+          13.4,
+          13.9,
+          10.9,
+          11.5,
+          11.1,
+          11.7,
+          11.9,
+          12.4,
+          11.5,
+          11.9,
+          13.3,
+          12.6,
+          12.2,
+          10.9,
+          11.1,
+          11.8,
+          12.8,
+          13.3,
+          12.6,
+          11.8,
+          11.9,
+          13.1,
+          13.3,
+          13.9,
+          13.1,
+          12.5,
+          12.9,
+          12.8,
+          13.8,
+          13.7,
+          14.2,
+          14.8,
+          12,
+          9.2,
+          10.7,
+          11.3,
+          14.2,
+          14.1,
+          17.2,
+          16.7,
+          17.9,
+          19.8,
+          18.3,
+          18.3,
+          16.7,
+          18,
+          18.4,
+          20.4,
+          24.8,
+          20.9,
+          21.4,
+          23.6,
+          21.3,
+          21.9,
+          19,
+          17.4,
+          16.9,
+          16.6,
+          16.4,
+          17.3,
+          19.1,
+          17.8,
+          19.3,
+          19.3,
+          17,
+          17.1,
+          17.9,
+          17.4,
+          18,
+          19.3,
+          19.8,
+          21.3,
+          24,
+          26,
+          24.3,
+          24,
+          21.6,
+          24.8,
+          25.9,
+          29.6,
+          30.3,
+          31,
+          30.8,
+          27.6,
+          25.4,
+          19.2,
+          22.9,
+          24,
+          20.5,
+          20.1,
+          19.2,
+          20.8,
+          23.1,
+          23.4,
+          19.8,
+          18.8,
+          15.6,
+          15,
+          15.1,
+          17.7,
+          16.2
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 20,
+         "text": "Median since 2021: 20x"
+        },
+        {
+         "v": 13,
+         "text": "Our target: 13x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual earnings, GAM estimates for forecast years"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Share price today"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          1022,
+          1035,
+          1296,
+          1230
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "EPS Sep-28E ₹78.6",
+        "13x (bull 16x, bear 11x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "EBITDA Sep-28E ₹32,400 cr",
+        "7.7x (bull 9.7x, bear 6.5x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "+1%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "+27%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA (7.7x Sep-28E EBITDA of ₹32,400 cr plus net cash) gives ₹1,035, within ~1% of the P/E target: 7.7x is the 13.8x median trailing EV/EBITDA since 2021, cut by the same sector de-rating and restated for Sep-28E EBITDA being 18% above the twelve months to Jun-26 (₹27,539 cr). The DCF (₹1,296, +27% vs our target) is higher because it assumes HCLTech's rupee revenue grows 5% a year forever at a ~21% EBITDA margin, i.e. that AI does not shrink the business; at a 12.9% cost of equity and 4% terminal growth it gives ₹1,090. The gap between the DCF and the market-based multiples is the AI question in one number: the market (and our target) price a smaller terminal value than a \"business as usual\" DCF."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple 16x (half the sector de-rating reverses)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "US$ revenue +2.9% / +3.9% / +3.7% (FY27-29E); EBIT margin 17.7% → 18.0%; ₹95.5-95.8 per US$; 13x Sep-28E EPS."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple 11x (the tier-1 peers' 44% de-rating)."
+       ]
+      ],
+      "source": "GAM Research. Scenario changes apply to all three forecast years, including FY27 (one quarter already reported)."
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-37E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research. Cost of equity 11.9% (risk-free 6.5%, beta 0.9, equity premium 6%); terminal growth 5%; EBITDA margin fading to 21%, capex to 2% of revenue."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "scatter",
+       "title": "Growth is what the market pays for: HCLTech sits between the tiers",
+       "points": [
+        {
+         "x": 8.7,
+         "y": 18.4,
+         "label": "HCLTech",
+         "hl": true
+        },
+        {
+         "x": 5.8,
+         "y": 13.8,
+         "label": "TCS",
+         "hl": false
+        },
+        {
+         "x": 6.8,
+         "y": 12.9,
+         "label": "Infosys",
+         "hl": false
+        },
+        {
+         "x": 0.8,
+         "y": 11.9,
+         "label": "Wipro",
+         "hl": false
+        },
+        {
+         "x": 2.2,
+         "y": 28.1,
+         "label": "Tech Mahindra",
+         "hl": false
+        },
+        {
+         "x": 8.4,
+         "y": 21.4,
+         "label": "LTIMindtree",
+         "hl": false
+        },
+        {
+         "x": 20.9,
+         "y": 41.9,
+         "label": "Persistent",
+         "hl": false
+        },
+        {
+         "x": 27,
+         "y": 40.4,
+         "label": "Coforge",
+         "hl": false
+        },
+        {
+         "x": 4.8,
+         "y": 21.2,
+         "label": "Mphasis",
+         "hl": false
+        },
+        {
+         "x": 11.1,
+         "y": 25.7,
+         "label": "L&T Technology",
+         "hl": false
+        }
+       ],
+       "xtitle": "Revenue growth FY23-26, a year (%)",
+       "ytitle": "Trailing P/E at 30-Sep-2026 (x)",
+       "xfmt": "n1",
+       "yfmt": "x",
+       "source": "Screener.in; NSE closes 30-Sep-2026"
+      },
+      {
+       "type": "hbar",
+       "title": "Trailing P/E at the 30-Sep-2026 close",
+       "unit": "P/E (x)",
+       "x": [
+        "HCLTech",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Tech Mahindra",
+        "LTIMindtree",
+        "Persistent",
+        "Coforge",
+        "Mphasis",
+        "L&T Technology"
+       ],
+       "series": [
+        {
+         "name": "P/E",
+         "values": [
+          18.4,
+          13.8,
+          12.9,
+          11.9,
+          28.1,
+          21.4,
+          41.9,
+          40.4,
+          21.2,
+          25.7
+         ],
+         "fmt": "x"
+        }
+       ],
+       "labels": "all",
+       "highlight": "HCLTech",
+       "source": "Screener.in, scaled to NSE closes"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed peers: Indian IT services",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "vs 5-yr median P/E",
+       "EV/EBITDA (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**HCLTech**",
+        "3,33,880",
+        "1,30,144",
+        "20.6%",
+        "18.4",
+        "−21%",
+        "10.9",
+        "23%"
+       ],
+       [
+        "TCS",
+        "7,41,988",
+        "2,67,021",
+        "27.1%",
+        "13.8",
+        "−53%",
+        "9.5",
+        "49%"
+       ],
+       [
+        "Infosys",
+        "4,03,434",
+        "1,78,650",
+        "23.7%",
+        "12.9",
+        "−49%",
+        "8.1",
+        "31.2%"
+       ],
+       [
+        "Wipro",
+        "1,56,756",
+        "92,624",
+        "19.2%",
+        "11.9",
+        "−40%",
+        "7.5",
+        "15.6%"
+       ],
+       [
+        "Tech Mahindra",
+        "1,49,400",
+        "56,815",
+        "15.9%",
+        "28.1",
+        "−7%",
+        "15.4",
+        "16.9%"
+       ],
+       [
+        "LTIMindtree",
+        "1,20,003",
+        "42,308",
+        "17.9%",
+        "21.4",
+        "−38%",
+        "13.4",
+        "21.3%"
+       ],
+       [
+        "Persistent",
+        "87,544",
+        "14,748",
+        "19%",
+        "41.9",
+        "−18%",
+        "26.8",
+        "26.3%"
+       ],
+       [
+        "Coforge",
+        "77,485",
+        "16,403",
+        "17.9%",
+        "40.4",
+        "−11%",
+        "22.1",
+        "21.9%"
+       ],
+       [
+        "Mphasis",
+        "41,171",
+        "15,880",
+        "18.8%",
+        "21.2",
+        "−27%",
+        "12.3",
+        "18.3%"
+       ],
+       [
+        "L&T Technology",
+        "34,258",
+        "10,996",
+        "17.6%",
+        "25.7",
+        "−31%",
+        "14.9",
+        "20.4%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026. Forward P/E on FY28E at Equirus' estimates and 14-Jul prices: TCS 13.1x, Infosys 13.4x, Wipro 12.2x, Tech Mahindra 16.8x, LTIMindtree 17.5x, HCLTech 15.7x (Equirus, 14-Jul-2026)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a quality company at a price that assumes AI is only a cycle; SELL at 16.0x FY28E",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's third-largest IT services company, best-in-class among tier-1s at winning large deals, with the deepest engineering franchise, a profitable (if shrinking) software arm, EBIT margins of ~18%, ROIC of ~40%, ₹26,900 cr of net cash and a policy of returning at least 75% of profit (90%+ in practice): a dividend yield of ~5.6% on our FY28E."
+    },
+    {
+     "callout": "**What you are paying:** 17.0x our FY27E and 16.0x FY28E EPS for a business growing ~3-4% in dollars, in a sector the market has de-rated by ~34% for reasons we think are mostly lasting. On the street's method, with the sector de-rating applied to HCLTech's own history, the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): **SELL**. Including the dividend, the expected total return is still negative (about {{dcf.upside|chg}} plus ~5.6%). The street's median target (₹1,225) is flat on the price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹1,070 (HOLD on our rule) or ~₹890 (BUY)",
+        "Medium",
+        "The stock traded at ₹1,100-1,140 in Jun-Jul 2026; 13% below today is ~₹1,070"
+       ],
+       [
+        "Services growth above 5% CC for two or three quarters with stable pricing",
+        "Low-Medium",
+        "Mega-deal ramp from H2FY27; telecom clients lapping cuts in FY28"
+       ],
+       [
+        "Advanced AI heading to ~10% of revenue while traditional revenue holds",
+        "Low (FY28)",
+        "Quarterly Advanced AI revenue (US$171 m, +62%)"
+       ],
+       [
+        "Sector re-rating as AI fears fade (the cyclical case)",
+        "Medium",
+        "Peers' P/E vs history; client budgets for 2027"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "AI deflation faster than 2-3% a year (renewals re-priced 20-30% lower)",
+        "Medium",
+        "US$ growth near zero; bear case {{scen.bear.tp|inr}}"
+       ],
+       [
+        "Telecom/manufacturing cuts spread; Europe weakens further",
+        "Medium",
+        "FY27 at the bottom of the 1-4% guidance; FY28 below 3%"
+       ],
+       [
+        "Data-centre business needs more capital than guided, with low returns",
+        "Medium",
+        "Lower ROIC; a lower payout would remove a key support for the stock"
+       ],
+       [
+        "Rupee strengthens back towards ₹88-90 per US$",
+        "Low-Medium",
+        "~1% of revenue and ~2% of EPS per 1% move (our estimate; partly offset by hedges)"
+       ],
+       [
+        "HCLSoftware decline accelerates; impairment of acquired IP",
+        "Low-Medium",
+        "Software EBIT falls; goodwill and intangibles are ~₹29,000 cr"
+       ],
+       [
+        "US policy on visas and outsourcing; tariffs",
+        "Medium",
+        "Higher onshore costs; slower client decisions"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: SELL, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would move to HOLD below ~₹1,070** and to BUY below ~₹890 on today's numbers, or sooner if Q2-Q3FY27 show Services growth re-accelerating above guidance without margin give-ups.",
+      "**Biggest swing factor:** the multiple. Each 1x of P/E on Sep-28E EPS of ₹78.6 is ~₹79 a share; the street's modal 15x FY28E on our EPS is ~₹1,155, still below the price. On earnings, each 1pp of EBIT margin is ~5% of FY28E EPS.",
+      "**What we could be wrong about:** if the 2025-26 slowdown is mostly cyclical (client budgets, tariffs, war), HCLTech's execution and payout would deserve something closer to its 2021-25 multiple (~20x), worth ~₹1,500-1,600. Our bull case (half the de-rating reversed) is ₹{{scen.bull.tp|num}}."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Constant-currency growth",
+        "v": "+3.9%",
+        "d": "FY26; FY27 guidance 1-4%; Q1 +2.6%"
+       },
+       {
+        "k": "AI deflation (management)",
+        "v": "2-3% a yr",
+        "d": "on HCLTech's mix, mostly still to come"
+       },
+       {
+        "k": "Advanced AI revenue, Q1FY27",
+        "v": "US$171 m",
+        "d": "+62% YoY; ~4.7% of revenue"
+       },
+       {
+        "k": "Price ÷ our FY28E EPS",
+        "v": "16.0x",
+        "d": "median since 2021: 20x (forward)"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY17–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 12
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 150
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation & amortisation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (Screener: incl. forex and exceptional items)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (attributable)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 15
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex (forecasts incl. acquisitions)"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 12
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation & amortisation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (attributable)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Constant currency (CC)",
+        "Growth as if exchange rates had not changed: the measure of underlying business growth for a company that bills in dollars, euros and pounds."
+       ],
+       [
+        "TCV, net new bookings",
+        "Total contract value of deals signed in the period (new work only, excluding renewals); spread over the contract life, often five years or more."
+       ],
+       [
+        "Managed services / productivity give-backs",
+        "Long contracts to run a client's systems; they usually promise yearly cost cuts, so revenue on the same scope falls each year."
+       ],
+       [
+        "ITBS, ERS, HCLSoftware",
+        "HCLTech's three segments: IT & Business Services, Engineering & R&D Services, and its owned software products."
+       ],
+       [
+        "ARR",
+        "Annual recurring revenue: annualised value of active subscription, support and SaaS contracts at quarter end (HCLSoftware)."
+       ],
+       [
+        "Perpetual licence",
+        "Software sold once for permanent use (revenue booked upfront), as opposed to subscriptions billed over time."
+       ],
+       [
+        "Advanced AI",
+        "HCLTech's label for AI-native work: AI factories and data centres, AI and custom-silicon engineering, physical AI, AI-led services and IP."
+       ],
+       [
+        "AI-disrupted / AI-amplified / AI-native",
+        "Management's three buckets of IT spend: work AI shrinks, work AI grows, and work that exists because of AI."
+       ],
+       [
+        "Attrition (LTM)",
+        "Share of employees who left voluntarily over the last twelve months."
+       ],
+       [
+        "DSO",
+        "Days sales outstanding: receivables expressed in days of revenue (billed only, or including unbilled work)."
+       ],
+       [
+        "EBIT / segment result",
+        "Operating profit after depreciation and amortisation, before other income, interest and tax; HCLTech reports segment profit this way."
+       ],
+       [
+        "Cash-flow hedge",
+        "Forward contracts that lock in a rupee rate for future dollar receipts; when the rupee falls below the locked rate the contracts lose value."
+       ],
+       [
+        "Restructuring cost",
+        "Severance and exit costs of HCLTech's FY26-27 reorganisation, which management reports separately."
+       ],
+       [
+        "Labour Codes",
+        "India's four consolidated labour laws, which took effect in FY26 and raised gratuity and leave liabilities: a one-time ₹956 cr charge for HCLTech."
+       ],
+       [
+        "P/E, EV/EBITDA",
+        "Share price ÷ earnings per share; enterprise value (market value less net cash) ÷ EBITDA."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the twelve-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, as HCLTech has net cash)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY20": "+17%: first full year of the IBM software products (acquired Jun-2019).",
+  "ebitdaMargin@FY21": "+210bp to a record 26.6%: Covid-era savings on travel and facilities, software margins.",
+  "sales@FY22": "+14%: post-Covid digital demand; CC growth 13.7%.",
+  "ebitdaMargin@FY22": "−260bp to 24.0%: wage inflation and attrition costs as demand boomed.",
+  "sales@FY23": "+18.5%: 13.7% CC growth plus a weaker rupee (US$ +9.6%).",
+  "ebitdaMargin@FY23": "−170bp to 22.3%: sub-contracting and wage costs.",
+  "sales@FY24": "+8.3%: CC growth slowed to 5.4% as discretionary spend fell.",
+  "otherIncome@FY25": "Includes a Rs574 cr gain on divesting the State Street HCL Services JV.",
+  "pat@FY25": "+11%: helped by the JV gain (~Rs430 cr after tax, our estimate).",
+  "sales@FY26": "+11.2%: US$ +6.0% (CC +3.9%) plus the rupee (88.7 vs 84.6 per US$).",
+  "ebitdaMargin@FY26": "−120bp to 20.6%: ~65bp restructuring, wage hikes, software timing.",
+  "otherIncome@FY26": "Rs1,530 cr reported less the Rs956 cr Labour Codes charge, which Screener nets here; forex −Rs241 cr.",
+  "pat@FY26": "−4%: Labour Codes charge (Rs719 cr after tax); flat (−0.2%) before it, with ~49bp of restructuring still inside.",
+  "sales@Q3FY26": "+13.3% YoY: software licence season (HCLSoftware +28% QoQ) and the rupee.",
+  "otherIncome@Q3FY26": "−Rs571 cr: includes the Rs956 cr one-time Labour Codes charge.",
+  "pat@Q3FY26": "After the Labour Codes charge (Rs719 cr after tax).",
+  "sales@Q4FY26": "+12.3% YoY in rupees but −3.3% QoQ CC: software seasonality, delayed deals, telecom cuts.",
+  "sales@Q1FY27": "+13.9% YoY: CC +2.6%, rupee at 94.7 vs 85.6 a year earlier.",
+  "opm@Q1FY27": "19.9%: EBIT 16.9% after 62bp of restructuring; forex +60bp, productivity give-backs −110bp.",
+  "pat@Q1FY27": "+20% YoY to Rs4,624 cr: EBIT +18% (margin +56bp despite 62bp of restructuring) and the rupee.",
+  "sales@FY27E": "GAM: US$ +2.9% (CC +2.8% incl. Jaspersoft) at Rs95.5 per US$ (FY26 88.7).",
+  "ebitdaMargin@FY27E": "GAM: EBIT 17.7%, inside the 17.5-18.5% guidance; D&A includes acquired intangibles.",
+  "pat@FY27E": "GAM: +18%, mostly the rupee and the absence of FY26's Labour Codes charge.",
+  "capex@FY27E": "GAM: includes Jaspersoft, HPE Telco Solutions, the Sarvam stake and ~Rs1,000 cr of data-centre spend.",
+  "sales@FY28E": "GAM: US$ +3.9% with the mega-deal ramp; rupee flat at 95.8."
+ }
+}

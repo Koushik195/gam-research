@@ -1,0 +1,427 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for HCL Technologies (consolidated, Rs crore). Revenue is built in US dollars by reported segment (IT & Business Services, Engineering & R&D Services, HCLSoftware, less inter-segment sales), from constant-currency growth plus cross-currency moves and acquisitions, converted at a stated INR/USD path (usdBuild); the segment INR growth rates below are computed from that build. Segment margins are segment EBIT as HCLTech reports it (after allocated depreciation and amortisation; the sum of segment results equals Screener EBITDA less D&A in FY21-26). Because the engine builds EBITDA from segments, the unallocated line adds D&A back (negative cost) and the engine then deducts D&A computed on gross block: group EBIT = sum of segment EBIT, checked in HCLTECH.ctx.js. Profit is attributable to owners (Screener Net Profit replaced by Profit for EPS, tools/authoring/HCLTECH.patch.js); the tax line also carries the tiny minority share. Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "usdBuild": {
+  "_note": "US$ m. Base = FY26 segment revenue (AR FY26 note 3.30) / the FY26 implied rate of 88.75 (Rs130,144 cr / US$14,664 m reported); the bases sum to US$14,664 m. usdGrowth = ccGrowth + crossCurrency + acquisitions; inrGrowth = (1 + usdGrowth) x rate(t) / rate(t-1) - 1. HCLTech discloses revenue by segment only in rupees and as a % of US$ revenue; the US$ split is derived.",
+  "rateFY26": 88.75,
+  "rate": [
+   95.53,
+   95.81,
+   95.81
+  ],
+  "_rateWhy": "INR/USD averages: FY26 88.72 (quarterly 85.62 / 87.63 / 89.34 / 92.28, investor releases), Q1FY27 94.73. The rupee closed at 95.81 on 30-Sep-2026 (PTI). FY27E 95.53 = Q1 actual plus 95.81 for the remaining three quarters; FY28E-29E held at the 30-Sep spot of 95.81. We assume no further depreciation (history: ~3% a year over FY22-26, from 74.6 to 88.7): a 1% weaker rupee adds ~1% to revenue and, with ~60% of costs in rupees, ~2% to EPS. Motilal Oswal uses 94.5 / 95.0 for FY27E / FY28E (13-Jul-2026).",
+  "segments": {
+   "itbs": {
+    "baseUsd": 10828,
+    "ccGrowth": [
+     3.5,
+     4.5,
+     4
+    ],
+    "crossCurrency": [
+     0.1,
+     0,
+     0
+    ],
+    "acquisitions": [
+     0,
+     0,
+     0
+    ],
+    "usdGrowth": [
+     3.6,
+     4.5,
+     4
+    ],
+    "inrGrowth": [
+     11.51,
+     4.81,
+     4
+    ],
+    "_why": "FY27 CC +3.5%: Q1FY27 +4.2% YoY CC (flat QoQ); management kept company guidance at 1-4% CC and Services at 1.5-4.5% (Jul-2026) because two large US telecom clients cut discretionary spend for CY2026 and two other clients (manufacturing, retail) scale down (~0.5 pt headwind); the US$1.14 bn mega deal signed in early July (Europe-based Fortune Global 50 client, digital workplace and networks) reaches steady state only in Apr-2027, with negligible FY27 revenue. FY28 +4.5%: mega-deal ramp (~1 pt) and AI-native work (Advanced AI US$171 m in Q1, +62% YoY) offset 2-3% AI deflation on traditional work (management, Apr-2026). FY29 +4.0%. Cross-currency +0.1% in FY27 (GBP/EUR flat vs FY26 averages; Q1 +0.4 pt)."
+   },
+   "ers": {
+    "baseUsd": 2486,
+    "ccGrowth": [
+     1,
+     3.5,
+     4
+    ],
+    "crossCurrency": [
+     0.1,
+     0,
+     0
+    ],
+    "acquisitions": [
+     0,
+     0,
+     0
+    ],
+    "usdGrowth": [
+     1.1,
+     3.5,
+     4
+    ],
+    "inrGrowth": [
+     8.82,
+     3.8,
+     4
+    ],
+    "_why": "FY27 CC +1.0%: Q1FY27 +0.3% YoY and -3.7% QoQ CC on cuts in Technology and Telecom clients from a high base (FY26 +9.8%). FY28 +3.5% and FY29 +4.0%: semiconductor, physical AI and AI-engineering demand (management) on an easier base. The HPE Telco Solutions business (acquired for ~Rs1,400 cr, closed Aug-2026) is NOT included: its revenue was not disclosed in the sources we saw; it is upside to these numbers."
+   },
+   "sw": {
+    "baseUsd": 1397,
+    "ccGrowth": [
+     -2,
+     -1,
+     1
+    ],
+    "crossCurrency": [
+     0.1,
+     0,
+     0
+    ],
+    "acquisitions": [
+     2.6,
+     0.9,
+     0
+    ],
+    "usdGrowth": [
+     0.7,
+     -0.1,
+     1
+    ],
+    "inrGrowth": [
+     8.39,
+     0.19,
+     1
+    ],
+    "_why": "Organic CC -2% / -1% / +1%: FY26 -4.1% CC (perpetual licences US$127 m, -29%; subscription & support US$1,190 m, +1%); Q1FY27 -5.3% YoY; management expects \"low single digit, flattish or marginally declining\" (Apr-2026); ARR US$1,063 m (+2.0% YoY CC, Jun-2026). Acquisitions: Jaspersoft (US$240 m, closed first week of Jul-2026) adds US$10-15 m a quarter (CFO, Jul-2026): ~US$37 m in FY27 (+2.6%) and ~US$13 m more in FY28 (+0.9%)."
+   },
+   "elim": {
+    "baseUsd": -46,
+    "ccGrowth": [
+     -2,
+     -1,
+     1
+    ],
+    "crossCurrency": [
+     0.1,
+     0,
+     0
+    ],
+    "acquisitions": [
+     2.6,
+     0.9,
+     0
+    ],
+    "usdGrowth": [
+     0.7,
+     -0.1,
+     1
+    ],
+    "inrGrowth": [
+     8.39,
+     0.19,
+     1
+    ],
+    "_why": "Moves with HCLSoftware."
+   }
+  }
+ },
+ "segments": [
+  {
+   "key": "itbs",
+   "name": "IT & Business Services",
+   "driverLabel": "Revenue",
+   "marginLabel": "Segment EBIT",
+   "base": 96095,
+   "growth": [
+    11.51,
+    4.81,
+    4
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    17.1,
+    17.4,
+    17.4
+   ],
+   "hist": {
+    "driver": "itbsRev",
+    "revenue": "itbsRev",
+    "adjEbitda": "itbsEbit"
+   },
+   "_why": "INR growth from the USD build: US$ +3.6% / +4.5% / +4.0% at 95.53 / 95.81 / 95.81 per US$ (FY26 88.75). FY26 INR +11.2% (US$ +6.0%) and Q1FY27 +13.9% were mostly the rupee.",
+   "_revWhy": "Driver is revenue itself (INR growth from the USD build).",
+   "_marginWhy": "Segment EBIT margin: 17.0% (FY24), 17.1% (FY25), 16.0% (FY26, incl. ~65 bp group restructuring), 17.0% in Q1FY27 (+184 bp YoY). FY27 group guidance 17.5-18.5% includes 40-50 bp of restructuring and excludes acquisitions. 17.1% in FY27 (restructuring and the Q1 productivity give-back offset by rupee gains, forex added 60 bp in Q1), 17.4% in FY28-29 (no restructuring; AI-led productivity largely passed to clients; continued AI and sales investment). We do not return to FY22-23 levels."
+  },
+  {
+   "key": "ers",
+   "name": "Engineering & R&D Services",
+   "driverLabel": "Revenue",
+   "marginLabel": "Segment EBIT",
+   "base": 22063,
+   "growth": [
+    8.82,
+    3.8,
+    4
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    16,
+    16.5,
+    16.5
+   ],
+   "hist": {
+    "driver": "ersRev",
+    "revenue": "ersRev",
+    "adjEbitda": "ersEbit"
+   },
+   "_why": "INR growth from the USD build: US$ +1.1% / +3.5% / +4.0%.",
+   "_revWhy": "Driver is revenue itself (INR growth from the USD build).",
+   "_marginWhy": "Segment EBIT margin: 19.2% (FY22), 20.2% (FY23), 19.4% (FY24), 18.0% (FY25), 16.8% (FY26), 15.6% in Q1FY27 (revenue decline). 16.0% in FY27 (weak revenue, telecom cuts), 16.5% in FY28-29 as utilisation recovers; below history because pricing in engineering is now also exposed to AI tools."
+  },
+  {
+   "key": "sw",
+   "name": "HCLSoftware",
+   "driverLabel": "Revenue",
+   "marginLabel": "Segment EBIT",
+   "base": 12397,
+   "growth": [
+    8.39,
+    0.19,
+    1
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    24.5,
+    25,
+    25
+   ],
+   "hist": {
+    "driver": "swRev",
+    "revenue": "swRev",
+    "adjEbitda": "swEbit"
+   },
+   "_why": "INR growth from the USD build: US$ +0.7% / -0.1% / +1.0% (organic decline offset by Jaspersoft).",
+   "_revWhy": "Driver is revenue itself (INR growth from the USD build).",
+   "_marginWhy": "Segment EBIT margin (on segment revenue): 23.7% (FY22), 25.1% (FY23), 24.6% (FY24), 26.6% (FY25), 26.7% (FY26); quarterly it swings with licence timing (Q3FY26 35.0%, Q1FY27 17.6%). 24.5% in FY27 (Jaspersoft amortisation and integration, weak perpetual licences), 25.0% after. Segment D&A (mainly amortisation of the IBM and other acquired IP) was Rs1,759 cr in FY23 (16% of segment revenue): run-off of that amortisation supports EBIT even as revenue stalls."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-segment elimination",
+   "driverLabel": "Revenue",
+   "marginLabel": "Segment EBIT",
+   "base": -411,
+   "growth": [
+    8.39,
+    0.19,
+    1
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elimRev",
+    "revenue": "elimRev",
+    "adjEbitda": "elimEbit"
+   },
+   "_why": "HCLSoftware products used by the Services business (FY26 Rs411 cr, 3.3% of HCLSoftware segment revenue); moves with HCLSoftware.",
+   "_revWhy": "Negative revenue line (engine has no elimination line).",
+   "_marginWhy": "No profit effect."
+  }
+ ],
+ "unallocated": [
+  -4450,
+  -4794,
+  -4988
+ ],
+ "_unallocLabel": "D&A add-back (segment results are after D&A; negative = added back to reach EBITDA)",
+ "_unallocWhy": "Segment results already deduct D&A; the engine starts from EBITDA, so this line adds back the D&A the engine then charges on gross block (Rs4,450 / 4,794 / 4,988 cr). History: reported EBITDA less segment results = D&A (Rs4,084 cr FY25, Rs4,355 cr FY26). Net effect on EBIT: zero (checked in HCLTECH.ctx.js).",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  7700,
+  2950,
+  3050
+ ],
+ "_capexWhy": "Includes acquisitions and strategic investments, because the engine has no acquisition line and they reduce treasury: FY27E Rs7,700 cr = regular capex ~Rs1,600 cr (FY26 Rs1,422 cr, Rs369 cr in Q1FY27) + Jaspersoft (US$240 m, ~Rs2,290 cr, closed Jul-2026) + HPE Telco Solutions (~Rs1,400 cr incl. incentives, closed Aug-2026) + Sarvam AI (US$150 m, Rs1,427 cr equity-method investment, Q1FY27) + ~Rs1,000 cr of the AI data-centre programme (up to Rs3,500 cr initial investment, phased, partly partner- and debt-funded, management Jul-2026). FY28E Rs2,950 cr and FY29E Rs3,050 cr = regular ~Rs1,700-1,800 cr + Rs1,250 cr a year of data-centre spend. No further acquisitions assumed (HCLTech typically buys several small companies a year).",
+ "depRateOnGrossBlock": 6.46,
+ "_depWhy": "FY26 D&A Rs4,355 cr = 6.9% of average gross block (Rs62,815 cr, which includes goodwill and the IBM software IP); Q1FY27 Rs1,039 cr (Rs4,156 cr annualised) as older IP amortisation runs off. 6.46% on gross block (which now includes the FY27 acquisitions) gives Rs4,450 / 4,794 / 4,988 cr: the Q1 run-rate plus amortisation of Jaspersoft/HPE Telco intangibles and data-centre depreciation. D&A only moves the EBITDA line here: EBIT is set by the segment margins.",
+ "otherTreasury": {
+  "base": 3012,
+  "_why": "Bank deposits with more than 12 months maturity (Rs1,996 cr, AR FY26 note 3.7) and inter-corporate deposits with financial institutions (Rs1,016 cr, note 3.6) sit inside Screener's other assets; they are treasury. With cash and other bank balances (Rs23,425 cr) and investment securities (Rs7,090 cr on Screener) the Mar-26 gross treasury is Rs33,527 cr, close to the company's gross cash of Rs33,447 cr (investor release)."
+ },
+ "treasuryYield": [
+  4.6,
+  5.3,
+  5.3
+ ],
+ "_treasuryWhy": "Applied by the engine to OPENING net treasury (gross treasury less borrowings incl. Rs5,056 cr of leases): Rs28,312 cr at Mar-26. FY26 treasury income (interest on debt securities Rs293 cr + bank and other deposits Rs1,168 cr + mutual-fund gains Rs170 cr + Rs2 cr, AR FY26 note 3.20) = Rs1,633 cr, ~5.1% of average gross treasury (~Rs32,000 cr) or ~6.2% of average net. FY27 4.6% (~Rs1,300 cr): cash fell to Rs27,058 cr gross by Jun-26 after the Rs24 final dividend (Rs6,492 cr) and Sarvam (Rs1,427 cr), and the two acquisitions (~Rs3,700 cr) were paid in Q2, so the average invested balance is ~Rs27,000 cr at ~4.8%; Indian deposit yields fell in 2025-26. FY28-29 5.3% on the (lower, post-acquisition) opening net balance, ~4.8% on gross.",
+ "otherIncome": [
+  140,
+  145,
+  150
+ ],
+ "_otherIncomeWhy": "Recurring non-treasury other income (AR FY26 note 3.20): interest on other items Rs81 cr, share of LLP profit Rs22 cr, miscellaneous Rs39 cr, less Rs4 cr loss on asset sales = Rs138 cr. Rs140 / 145 / 150 cr. Left out: exchange differences (FY26 -Rs241 cr mark-to-market on hedges as the rupee fell; FY25 +Rs86 cr), one-off gains (FY25 Rs574 cr on divesting the State Street JV), and Sarvam's equity-accounted share of profit or loss (not disclosed by 30-Sep). FY27E total other income ~Rs1,440 cr vs Rs1,530 cr in FY26 (incl. -Rs241 cr forex) and Rs1,483 cr in the twelve months to Jun-26 excluding the Labour Codes charge that Screener nets into other income.",
+ "interest": [
+  720,
+  750,
+  780
+ ],
+ "_interestLabel": "Finance cost (lease interest, interest on taxes, other interest and bank charges)",
+ "_interestWhy": "FY26 Rs869 cr (lease interest Rs255 cr, interest on direct taxes Rs130 cr, other interest and bank charges Rs484 cr, AR note 3.23); twelve months to Jun-26 Rs744 cr; Q1FY27 only Rs84 cr. Rs720 / 750 / 780 cr as leases grow with the data-centre build.",
+ "taxRate": [
+  24.8,
+  24.8,
+  24.8
+ ],
+ "_taxWhy": "FY26 24.7% (Rs5,450 cr on Rs22,102 cr PBT), FY25 25.2%, Q1FY27 24.3%. 24.8% (Motilal Oswal 24.8-25.0%). Minority share (~Rs10 cr a year) is in this line.",
+ "payout": [
+  90,
+  90,
+  90
+ ],
+ "_payoutWhy": "Capital allocation policy (extended Apr-2026 for five years): at least 75% of net income returned. Actual: 89.9% over FY22-26; FY26 Rs60 a share (97.6% of normalised EPS); Q1FY27 Rs12 (LTM payout 93.2%). 90% (Motilal Oswal 90%, Equirus 92-95%).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5,
+  "years": 10,
+  "fadeGrowthTo": 5,
+  "fadeMarginTo": 21,
+  "fadeCapexPctTo": 2,
+  "depPctOfSales": 3.2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Large, net-cash, US-dollar earner; beta 0.9 (Ke 11.9%) rather than the 0.8 we use for consumer franchises, for the uncertainty AI adds to the terminal value.",
+  "_tgWhy": "Rupee terminal growth 5%: ~3% US$ growth plus ~2% long-run rupee depreciation, below India's nominal GDP because the market is mature and partly shrinking.",
+  "_fadeGrowthWhy": "INR revenue growth moves from ~3.7% (FY29E, rupee flat) to 5% by year 10 as rupee depreciation resumes; US$ growth stays ~3%.",
+  "_fadeMarginWhy": "EBITDA margin ~21% (EBIT ~17.8% + D&A ~3.2%): no margin expansion; AI productivity is shared with clients.",
+  "_fadeCapexWhy": "Capex (incl. tuck-in acquisitions) ~2% of revenue: FY22-26 capex was 1.1-1.6% plus acquisitions."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The AI shift turns out to be a cycle, not a shrink: discretionary spend returns in FY28, AI-native work (AI Factory, physical AI, chip engineering, sovereign AI) grows 30%+ and the data-centre bet adds a new line, so Services grow ~6-7% CC in FY28-29; HCLSoftware stabilises on data products; EBIT margin moves to the top of the 17.5-18.5% band.",
+   "fadeMarginTo": 22,
+   "segments": {
+    "itbs": {
+     "growthDelta": 2,
+     "marginDelta": 0.5
+    },
+    "ers": {
+     "growthDelta": 3,
+     "marginDelta": 0.8
+    },
+    "sw": {
+     "growthDelta": 2,
+     "marginDelta": 1
+    },
+    "elim": {
+     "growthDelta": 2
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "AI deflation runs faster than management's 2-3% (renewals re-priced 20-30% lower, more cost-take-out deals), the telecom and manufacturing cuts spread and Europe stays weak: US$ revenue grows ~0-1% a year; pricing pressure and AI investment push EBIT margin to ~16.5%, below the guided band; HCLSoftware keeps shrinking.",
+   "fadeMarginTo": 19.5,
+   "segments": {
+    "itbs": {
+     "growthDelta": -3,
+     "marginDelta": -1
+    },
+    "ers": {
+     "growthDelta": -3,
+     "marginDelta": -1.2
+    },
+    "sw": {
+     "growthDelta": -3,
+     "marginDelta": -2
+    },
+    "elim": {
+     "growthDelta": -3
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 13,
+      "bull": 16,
+      "bear": 11
+     },
+     "why": "How the street values HCLTech: P/E on FY28E or one-year-forward EPS (Motilal Oswal 18x, Geojit 19x, Equirus 16x Sep-28E, PL / ICICI Securities / HDFC 15x FY28E, Kotak 15x Jun-28E; Jun-Aug 2026). 13x = HCLTech's 19.8x median one-year-forward P/E since Apr-2021 (forwardMedian; no trough years; 20.1x on EPS before the FY25 JV gain and FY26 Labour Codes charge) cut by the 34.5% median de-rating of eight Indian IT peers versus their five-year median P/E at 30-Sep-2026 (TCS -53%, Infosys -49%, Wipro -40%, LTIMindtree -38%, L&T Technology -31%, Mphasis -27%, Persistent -18%, Coforge -11%; Tech Mahindra left out because its trough-and-recovery earnings distort both its median and its current P/E; with it the median is -31%) = 13.0x. No further adjustment: our FY27-29E EPS growth (~5% a year after the rupee boost) is below the 8.4% of FY21-26, but that slowdown is what the sector de-rating prices; a dividend-discount check (90% payout, Ke 11.9%, 5% growth) also gives 13x. Bull 16x (half the de-rating reverses); bear 11x (the 44.5% median de-rating of the tier-1 peers TCS, Infosys, Wipro and LTIMindtree; also HCLTech's 2016-20 low of ~11x)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 7.7,
+      "bull": 9.7,
+      "bear": 6.5
+     },
+     "why": "Counts net cash at face value. 7.7x Sep-28E EBITDA = HCLTech's 13.8x median trailing EV/EBITDA since Apr-2021, less the same 34.5% sector de-rating (9.0x trailing), restated for Sep-28E EBITDA being ~18% above the twelve months to Jun-26 (Rs27,539 cr). Bull 9.7x / bear 6.5x on the same de-rating steps as the P/E."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 10-year FCFF, Ke 11.9%, terminal growth 5%, plus net cash."
+    }
+   ]
+  }
+ }
+}
