@@ -1,0 +1,36 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "ZF CV India reports a single Ind AS 108 segment (automotive components) and discloses revenue by business line in its presentations and calls: domestic OEM, aftermarket, exports of goods, and 'service income + other income' (services exported to ZF group centres plus other operating and other income). Totals in the decks are TOTAL INCOME (revenue + other income) and 'EBITA' includes other income. FY25-FY26 services are split from note 18 of the AR (services Rs453.4 / Rs504.1 cr; other operating revenue Rs37.3 / Rs28.0 cr; other income Rs108.2 / Rs183.2 cr). Quarterly values are read from the Q4FY26 deck chart labels and reconciled to the quarterly total income on Screener.in (within Rs8 cr); Q1FY27 aftermarket and exports are from the call, OEM is derived from the stated +8.6% growth and 'services + other income' as the residual. Rs crore.",
+ "src": "Q4FY26 presentation pp32-33 and analyst-meet presentation p47 (21-Sep-2026); Q4FY26 and Q1FY27 calls; AR FY26 notes 18-19",
+ "annual": [
+  { "fy": "FY23", "oem": 1598, "aftermarket": 429, "exports": 1100, "svcOi": 384, "totalIncome": 3511, "ebitaCo": 537, "ebitaCoPct": 15.3 },
+  { "fy": "FY24", "oem": 1854, "aftermarket": 479, "exports": 1075, "svcOi": 503, "totalIncome": 3910, "ebitaCo": 661, "ebitaCoPct": 16.9 },
+  { "fy": "FY25", "oem": 1682, "aftermarket": 505, "exports": 1154, "svcOi": 599, "services": 453.4, "otherOp": 37.3, "oi": 108.2, "totalIncome": 3939, "ebitaCo": 738, "ebitaCoPct": 18.7 },
+  { "fy": "FY26", "oem": 1978, "aftermarket": 584, "exports": 1025, "svcOi": 715, "services": 504.1, "otherOp": 28.0, "oi": 183.2, "totalIncome": 4302, "ebitaCo": 830, "ebitaCoPct": 19.3 }
+ ],
+ "quarterly": [
+  { "q": "Q4FY25", "oem": 477, "aftermarket": 124, "exports": 286, "svcOi": 152, "totalIncome": 1039, "sales": 1012, "ebitda": 175, "marginPct": 17.3 },
+  { "q": "Q1FY26", "oem": 464, "aftermarket": 137, "exports": 245, "svcOi": 196, "totalIncome": 1042, "sales": 976, "ebitda": 132, "marginPct": 13.5 },
+  { "q": "Q2FY26", "oem": 393, "aftermarket": 138, "exports": 252, "svcOi": 175, "totalIncome": 958, "sales": 913, "ebitda": 134, "marginPct": 14.7 },
+  { "q": "Q3FY26", "oem": 524, "aftermarket": 158, "exports": 259, "svcOi": 164, "totalIncome": 1105, "sales": 1075, "ebitda": 199, "marginPct": 18.5 },
+  { "q": "Q4FY26", "oem": 597, "aftermarket": 151, "exports": 269, "svcOi": 180, "totalIncome": 1197, "sales": 1155, "ebitda": 190, "marginPct": 16.5 },
+  { "q": "Q1FY27", "oem": 504, "aftermarket": 158.4, "exports": 271.4, "svcOi": 168, "totalIncome": 1101.8, "sales": 1066, "ebitda": 138, "marginPct": 12.9, "derived": true }
+ ],
+ "growthLines": {
+  "_note": "Year-on-year growth by business line as stated by management.",
+  "head": ["Period", "Domestic OEM", "Aftermarket", "Exports of goods", "Services"],
+  "rows": [
+   ["FY26", 17.5, 15.6, -11.1, 11.2],
+   ["Q4FY26", 25, 21, -6, 22.5],
+   ["Q1FY27", 8.6, 15.6, 9.7, 12.5]
+  ],
+  "src": "Q4FY26 call (15-May-2026); Q1FY27 call (28-Jul-2026); FY26 services growth from AR note 18 (Rs504.1 cr vs Rs453.4 cr; the CFO said ~10%)"
+ },
+ "kpiBlocks": [
+  ["1   DOMESTIC OEM", [["oem", "Revenue", "₹ cr", 1]]],
+  ["2   AFTERMARKET", [["aftermarket", "Revenue", "₹ cr", 1]]],
+  ["3   EXPORTS OF GOODS", [["exports", "Revenue", "₹ cr", 1]]],
+  ["4   SERVICES + OTHER INCOME", [["svcOi", "Revenue incl. other income", "₹ cr", 1]]],
+  ["5   COMPANY", [["totalIncome", "Total income", "₹ cr", 1], ["sales", "Revenue from operations", "₹ cr", 1], ["ebitda", "EBITDA (excl. other income)", "₹ cr", 0, "sales"]]]
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for ZF Commercial Vehicle Control Systems India (consolidated, Rs crore; per-share figures after the 5:1 bonus of Jun-2026). Revenue is one growth path computed from the business-line build in `build` (domestic OEM, aftermarket, exports of goods, services, other operating revenue); EBITDA margin is for the company as a whole (no margin by line is disclosed). Both are checked in tools/authoring/ZFCVINDIA.ctx.js, together with the other-income build. Valued on P/E, as the street does; the multiple is derived in ZFCVINDIA.ctx.js and written here by ZFCVINDIA.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  11.1,
+  14.07,
+  12.71
+ ],
+ "_revenueWhy": "From the build below. FY27E +11%: Q1 +9.3%, July CV production ~10,000 above a normal July and Aug-Sep 'at par' (Q1 call), price recoveries for metal costs, aftermarket +14%, exports recovering from a low base (+10%); this is above the CFO's cautious May guide ('flattish... single-digit small growth') and close to Anand Rathi's FY27E (Rs4,526 cr, Feb-2026). FY28E +14% and FY29E +13%: the ESC and ADAS mandate for all vehicles above 6 tonnes from Oct-2027 lifts OEM content (half a year in FY28E, full year in FY29E), on CV production growth of ~3-5% a year. Anand Rathi's FY28E (Rs5,482 cr) is 5% above ours.",
+ "ebitdaMargin": [
+  15,
+  16,
+  16.5
+ ],
+ "_marginWhy": "FY24 14.9%, FY25 16.5%, FY26 16.0% (company definition incl. other income: 20.2%); Q1FY27 12.9% on aluminium (~Rs260 to >Rs360/kg), gas and labour costs with recoveries lagging. FY27E 15.0% = Q1 at 12.9% and ~15.7% for Q2-Q4 as recoveries and the July price increase come through. FY28E 16.0% and FY29E 16.5%: operating leverage on ESC volumes, partly offset by electronics content (ECU localisation 40-50% now, >75% by SOP) and royalty (2.5% of revenue).",
+ "capex": [
+  185,
+  200,
+  215
+ ],
+ "_capexWhy": "FY27 guidance Rs180-190 cr (CFO, May-2026; new products, replacement, upgrades); cash capex Rs146 cr in FY26 and Rs128-198 cr in FY23-FY26. FY28-29E rise for ESC assembly and Oragadam expansion ('further expansions, we will be doing in Oragadam').",
+ "depRateOnGrossBlock": 8.5,
+ "_depWhy": "FY26 depreciation Rs132 cr (incl. right-of-use assets) = 8.5% of average gross block (Rs1,537 cr at Mar-25, Rs1,572 cr at Mar-26, Screener). FY27E ~Rs141 cr (Q1FY27 Rs32 cr), FY28E ~Rs158 cr, FY29E ~Rs175 cr as ESC and Oragadam capex comes on stream.",
+ "treasuryYield": [
+  6,
+  6,
+  6
+ ],
+ "_treasuryWhy": "Applied by the engine to opening net treasury (cash, bank deposits and mutual funds less lease liabilities: Rs2,177 cr at Mar-2026). FY26 treasury income (interest Rs84.3 cr + mutual-fund gains Rs26.9 cr = Rs111.2 cr) was ~6.1% of the average net treasury (Rs1,432 cr at Mar-25, Rs2,177 cr at Mar-26). We use 6.0% with the repo rate at 5.25% and most of the money in bank deposits.",
+ "otherIncome": [
+  4,
+  4,
+  4
+ ],
+ "_otherIncomeWhy": "Non-treasury other income: rent and miscellaneous (Rs0.6 cr in FY26) plus small ECL reversals and grants: ~Rs4 cr. FX gains are not forecast: FY26 had Rs61.3 cr (Rs39 cr in Q1FY26 on services billed at a stale euro rate) and Q1FY27 a Rs2 cr FX loss. So FY27E other income (~Rs135 cr) is below FY26's Rs183 cr (note 19) and the Rs144 cr of the twelve months to Jun-2026: the gap is the FX gain and the Rs10 cr ECL reversal, partly offset by income on the larger treasury.",
+ "interest": [
+  5,
+  5,
+  5
+ ],
+ "_interestLabel": "Interest cost (lease liabilities)",
+ "_interestWhy": "FY26 Rs5.3 cr, all on leases (Rs55 cr); no borrowings.",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "FY26 25.4% (consolidated), Q1FY27 25.4%; new-regime rate plus disallowances.",
+ "payout": [
+  10,
+  10,
+  10
+ ],
+ "_payoutWhy": "FY26 dividend Rs4 a share post-bonus (Rs45.5 cr, 8.98% of standalone profit); 8-20% in FY21-FY26. We assume ~10%: the parent prefers to keep cash in the company.",
+ "build": {
+  "_note": "Business-line build (Rs crore). FY26 base from the Q4FY26 call (OEM Rs1,978 cr, aftermarket Rs584 cr, exports Rs1,025 cr) and AR note 18 (services Rs504.1 cr, other operating revenue Rs27.8 cr so that the lines add to the reported Rs4,118.9 cr). Checked against model revenue in ZFCVINDIA.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "oem": 1978,
+   "am": 584,
+   "exports": 1025,
+   "services": 504.1,
+   "other": 27.8
+  },
+  "oemGrowth": [
+   11,
+   18,
+   15
+  ],
+  "amGrowth": [
+   14,
+   12,
+   12
+  ],
+  "exportsGrowth": [
+   10,
+   10,
+   10
+  ],
+  "servicesGrowth": [
+   11,
+   10,
+   10
+  ],
+  "otherGrowth": [
+   0,
+   0,
+   0
+  ],
+  "_why": "OEM: CV>6T production +16.6% in FY26 and +8.4% in Q1FY27; we assume ~+6% production in FY27 plus price recovery and bus ESC/EV content (OEM +11%); FY28E +18% and FY29E +15% = production +3-5% plus ESC on trucks from Oct-2027 (ZF nominated by three major OEMs; current value per vehicle Rs39.5-45.5k). Aftermarket +15.6% in FY26 and Q1FY27 (SPARK new products, 51 new distributor branches): +14%, then +12%. Exports -11% in FY26 (US -22% in Q4), +9.7% in Q1FY27 on new actuator and compressor programmes: +10% a year, still below FY25's Rs1,154 cr until FY28E. Services +11% in FY26, +12.5% in Q1FY27 (engineering work moved to India): +11%, then +10%."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 17,
+  "fadeCapexPctTo": 3.5,
+  "depPctOfSales": 3,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Debt-free with net cash, but earnings follow the Indian truck cycle (revenue -32% in FY20) and US/European truck cycles through exports: 0.9 (Ke 11.9%).",
+  "_tgWhy": "House range 5-6%: 6% for a market leader in regulated CV safety content in a ~10% nominal-GDP economy.",
+  "_fadeGrowthWhy": "Revenue growth fades to 8%: CV production ~4-5% plus content (ESC, ADAS, EBS, e-compressors) and services.",
+  "_fadeMarginWhy": "EBITDA margin drifts to 17%, between FY25's 16.5% and pre-Covid FY16-FY18 (~16%), with electronics mix offsetting scale.",
+  "_fadeCapexWhy": "Capex ~3.5% of revenue (FY23-FY26: 3.4-5.2%); depreciation ~3% of revenue (FY26 3.2%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The truck upcycle runs on through FY29 (GST cut, scrappage, infrastructure), ESC/ADAS content per truck is closer to the ₹65,000 ADAS opportunity Anand Rathi cites, exports recover to FY25 levels within a year and the parent moves more engineering and sourcing to India; margin back above 17%.",
+   "revenueGrowthDelta": 4,
+   "marginDelta": 1,
+   "fadeMarginTo": 18
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "CV production turns down after the regulation-led pre-buying of 2027 (as after BS-VI), OEMs split ESC and ADAS orders among rivals, US tariffs keep exports flat, and commodity costs are recovered late; margin stays near FY24's 15%.",
+   "revenueGrowthDelta": -5,
+   "marginDelta": -1.3,
+   "fadeMarginTo": 15.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 44,
+      "bull": 47.5,
+      "bear": 40.5
+     },
+     "why": "How the street values ZF CV: P/E on one-year-forward EPS (Anand Rathi 50x Mar-28E, Feb-2026). Multiple derived in ZFCVINDIA.ctx.js and written by ZFCVINDIA.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 26,
+      "bull": 28,
+      "bear": 21.5
+     },
+     "why": "Values the operating business and the ~Rs2,200 cr treasury separately."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 11.9%, terminal growth 6%, plus net cash."
+    }
+   ]
+  }
+ }
+}
