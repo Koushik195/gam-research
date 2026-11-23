@@ -1,0 +1,35 @@
+{
+ "_note": "Sona Comstar reports one segment ('Mobility components, systems and sub-systems') and does not disclose revenue by product or business unit ('we don't report segment-wise or BU-wise revenue', CEO, Q3FY26 call). What it does disclose every quarter: BEV revenue and its share of automotive product revenue, the net order book, EV programmes and mix pies. Sales/EBITDA/PAT here are Screener's as-reported consolidated figures (company revenue includes a small net forex gain that Screener books in other income). Railway FY26 is our estimate (see railwayFY26). Q1FY25-Q3FY25 BEV revenue is derived from the year-on-year growth rates the company gave for Q2FY26, H1FY26 and Q3FY26 (marked derived; the FY25 sum is within Rs2 cr of the reported Rs1,223.5 cr).",
+ "src": "Q1FY26-Q1FY27 presentations and call transcripts; AR FY26 pp.24-41; Q4FY26 presentation slides 9-16; Screener.in (as reported)",
+ "annual": [
+  { "fy": "FY20", "sales": 1038, "bev": 23.4, "bevSharePct": 2 },
+  { "fy": "FY21", "sales": 1566, "bev": 205.7, "bevSharePct": 14 },
+  { "fy": "FY22", "sales": 2131, "bev": 504.2, "bevSharePct": 25 },
+  { "fy": "FY23", "sales": 2655, "bev": 670.7, "bevSharePct": 26, "hybridPct": 21, "neutralPct": 38, "icePct": 15 },
+  { "fy": "FY24", "sales": 3185, "bev": 885.9, "bevSharePct": 29, "hybridPct": 24, "neutralPct": 37, "icePct": 10 },
+  { "fy": "FY25", "sales": 3546, "bev": 1223.5, "bevSharePct": 36, "hybridPct": 21, "neutralPct": 34, "icePct": 9, "orderBook": 24200, "indiaPct": 29, "northAmericaPct": 41, "europePct": 24, "asiaPct": 6, "pvPct": 71, "nonAutoPct": 9, "railway": 0 },
+  { "fy": "FY26", "sales": 4449, "bev": 1154.2, "bevSharePct": 35, "hybridPct": 20, "neutralPct": 35, "icePct": 10, "orderBook": 23700, "indiaPct": 51, "northAmericaPct": 17, "europePct": 27, "asiaPct": 5, "pvPct": 49, "nonAutoPct": 31, "railway": 900, "railwayEstimated": true }
+ ],
+ "railwayFY26": {
+  "estimate": 900,
+  "_why": "Not disclosed. Bounds: (a) the business did Rs912.8 cr in FY25 under Escorts Kubota (AR FY25); ten months at that rate = Rs761 cr; (b) non-automotive revenue rose from 9% (FY25, ~Rs320 cr, off-highway) to 31% of FY26 revenue (~Rs1,387 cr) 'driven by the railway acquisition and off-highway growth' (AR FY26): with off-highway up 15-30%, railway = Rs970-1,020 cr. (c) Total revenue grew 26% while BEV fell 6% and management called the year 'tough': ex-railway revenue roughly flat implies ~Rs900 cr. We use Rs900 cr (~Rs90 cr a month), i.e. ~Rs1,080 cr annualised, +18% on FY25.",
+  "q1fy27": 270, "q1fy26": 90
+ },
+ "quarterly": [
+  { "q": "Q1FY25", "sales": 891, "ebitda": 249, "pat": 142, "bev": 282.7, "derived": true },
+  { "q": "Q2FY25", "sales": 922, "ebitda": 252, "pat": 144, "bev": 318.6, "derived": true },
+  { "q": "Q3FY25", "sales": 868, "ebitda": 234, "pat": 151, "bev": 329.9, "derived": true },
+  { "q": "Q4FY25", "sales": 865, "ebitda": 231, "pat": 164, "bev": 294.4, "revenueCo": 868.4, "ebitdaCo": 235, "orderBook": 24200 },
+  { "q": "Q1FY26", "sales": 854, "ebitda": 206, "pat": 125, "bev": 210.6, "bevSharePct": 26, "revenueCo": 850.9, "ebitdaCo": 202.5, "railwayMonths": 1 },
+  { "q": "Q2FY26", "sales": 1138, "ebitda": 284, "pat": 173, "bev": 264.4, "bevSharePct": 32, "revenueCo": 1143.6, "ebitdaCo": 289, "railwayMonths": 3 },
+  { "q": "Q3FY26", "sales": 1200, "ebitda": 296, "pat": 151, "bev": 320, "bevSharePct": 38, "revenueCo": 1209, "ebitdaCo": 305, "railwayMonths": 3 },
+  { "q": "Q4FY26", "sales": 1258, "ebitda": 296, "pat": 192, "bev": 358.8, "bevSharePct": 39, "revenueCo": 1272.3, "ebitdaCo": 310.6, "orderBook": 23700, "evPrograms": 67, "railwayMonths": 3 },
+  { "q": "Q1FY27", "sales": 1301, "ebitda": 293, "pat": 180, "bev": 435.5, "bevSharePct": 44, "revenueCo": 1310.4, "ebitdaCo": 302.6, "orderBook": 24000, "evPrograms": 69, "railwayMonths": 3 }
+ ],
+ "kpiBlocks": [
+  ["1   COMPANY (Screener, as reported)", [["sales", "Revenue from operations", "₹ cr", 1], ["ebitda", "EBITDA", "₹ cr", 0, "sales"], ["pat", "Net profit (attributable)", "₹ cr"]]],
+  ["2   COMPANY-REPORTED (incl. forex gain)", [["revenueCo", "Revenue (company)", "₹ cr", 1], ["ebitdaCo", "EBITDA (company)", "₹ cr", 0, "revenueCo"]]],
+  ["3   ELECTRIFICATION", [["bev", "BEV revenue (Q1-Q3FY25 derived)", "₹ cr", 1], ["bevSharePct", "BEV share of automotive product revenue", "%"], ["evPrograms", "EV programmes (in production + order book)", "nos"]]],
+  ["4   ORDER BOOK", [["orderBook", "Net order book (10-year revenue)", "₹ cr"]]]
+ ]
+}

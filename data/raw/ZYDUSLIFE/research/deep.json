@@ -1,0 +1,330 @@
+{
+ "_meta": {
+  "asOf": "2026-09-30",
+  "note": "Industry, peers, street, ownership, moat, critiques, gaps and conflicts for Zydus Lifesciences. Sources to 30-Sep-2026 only; later facts are in updates/later-facts.json."
+ },
+ "industry": {
+  "ipm": [
+   {
+    "period": "FY25 (MAT Mar-2025)",
+    "valueGrowthPct": 8.3,
+    "volumeGrowthPct": 1.3,
+    "src": "Pharmarack via BioSpectrum",
+    "url": "https://www.biospectrumindia.com/news/73/27157/indian-pharma-market-to-see-growth-rate-of-7-88-1-in-2026-pharmarack.html"
+   },
+   {
+    "period": "Mar-2026 (month)",
+    "valueGrowthPct": 10.1,
+    "valueCr": 20012,
+    "src": "Pharmarack via Medical Dialogues",
+    "url": "https://medicaldialogues.in/amp/news/industry/pharma/indian-pharma-market-grows-101-to-rs-20012-cr-in-march-report-168487"
+   },
+   {
+    "period": "Aug-2026 (month)",
+    "valueGrowthPct": 10.7,
+    "volumeGrowthPct": 0,
+    "src": "Pharmarack via BioSpectrum (Sep-2026)",
+    "url": "https://www.biospectrumindia.com/news/16/28459/ipm-delivers-10-7-value-growth-in-august-2026-as-most-therapies-post-double-digit-gains.html"
+   },
+   {
+    "period": "CY2026 forecast",
+    "valueGrowthPct": 11.3,
+    "note": "Pharmarack raised its CY2026 forecast from 7.8-8.1% to 11.3%",
+    "src": "BioSpectrum",
+    "url": "https://www.biospectrumindia.com/news/16/28087/indian-pharma-market-to-expand-11-3-in-jan-dec-2026-pharmarack.html"
+   }
+  ],
+  "zydusIndia": {
+   "chronicSharePct": 54.2,
+   "chronicShareChange4y": 3.6,
+   "chronicGrowthZydus": 15.8,
+   "chronicGrowthIpm": 12,
+   "brands250mnPlus": 78,
+   "brands250mnPlus2022": 56,
+   "fieldForce": "7,000+",
+   "oncologyRank": 1,
+   "period": "AWACS MAT Jun-2026",
+   "src": "corpdeck",
+   "published": "2026-08-23"
+  },
+  "usGenerics": {
+   "zydusRankRx": 3,
+   "zydusTrxCagr4y": 6,
+   "industryTrxCagr4y": 2,
+   "andasFiled": 513,
+   "andasApproved": 443,
+   "productsMarketed": 274,
+   "topThreeShareOfFamilies": 60,
+   "rankOneShareOfFamilies": 24,
+   "filingsFy26": 30,
+   "approvalsFy26": 26,
+   "pipeline": "210 products incl. multiple FTF and Para IV; 30-35 ANDA filings a year targeted",
+   "period": "IQVIA MAT Jun-2026",
+   "src": "corpdeck",
+   "published": "2026-08-23"
+  },
+  "consumer": {
+   "brandsNo1": "No.1 in 5 of 7 key categories: Sugar Free (sugar substitutes, ~96% share), Glucon-D (glucose powder, ~59%), Everyuth (facial scrub/peel-off), Nutralite (fat spread); Complan No.4-5 in health drinks",
+   "organisedChannelPct": 38,
+   "src": "q4ppt; corpdeck",
+   "published": "2026-08-23"
+  },
+  "rupee": {
+   "fy26Avg": 88.33,
+   "aug21": 95.72,
+   "sep30": 95.81,
+   "src": "corpdeck; PTI via Telangana Today (30-Sep-2026)",
+   "url": "https://telanganatoday.com/rupee-rises-13-paise-to-95-81-against-us-dollar-as-crude-prices-retreat"
+  }
+ },
+ "peers": {
+  "set": [
+   "SUNPHARMA",
+   "DIVISLAB",
+   "TORNTPHARM",
+   "ZYDUSLIFE",
+   "CIPLA",
+   "AUROPHARMA",
+   "ALKEM",
+   "IPCALAB",
+   "ABBOTINDIA"
+  ],
+  "excluded": {
+   "LUPIN": "Loss years inside the five-year window (PLAYBOOK §7c)",
+   "GLENMARK": "Loss years inside the five-year window",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window",
+   "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (Q4FY26 EPS Rs2.65)",
+   "MANKIND": "Listed May-2023: no five-year median"
+  },
+  "note": "Pharma peer set and exclusions as settled in PLAYBOOK §7c (23-Nov-2026). Including all 15 gives the same median."
+ },
+ "street": {
+  "brokers": [
+   {
+    "broker": "Prabhudas Lilladher",
+    "date": "2026-08-12",
+    "rating": "Accumulate",
+    "tp": 1200,
+    "method": "P/E",
+    "multiple": "25x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 41.7,
+     "FY28E": 47.7
+    },
+    "thesis": "Managed the gRevlimid transition with niche launches; US sales +5% CAGR FY26-28E; injectables, 505(b)(2), transdermals, NCEs, biosimilars and vaccines over 2-3 years",
+    "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/849811d5_ZYDUSLIF-12-8-26-PL.pdf"
+   },
+   {
+    "broker": "Motilal Oswal",
+    "date": "2026-08-11",
+    "rating": "Neutral",
+    "tp": 1125,
+    "method": "P/E",
+    "multiple": "23x",
+    "on": "12m fwd (Sep-27)",
+    "eps": {
+     "FY27E": 40.8,
+     "FY28E": 48.8
+    },
+    "thesis": "India and EM outperform, but North America fell for a second quarter; EPS only ~5% CAGR FY26-28; higher D&A, interest and tax",
+    "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/5fd5cd09_ZYDUSLIF-20260811-MOFSL-RU-PG012.pdf"
+   },
+   {
+    "broker": "Deven Choksey",
+    "date": "2026-08-12",
+    "rating": "Hold",
+    "tp": 1255,
+    "method": "n.d.",
+    "multiple": "n.d.",
+    "on": "n.d.",
+    "thesis": "Post-Q1FY27 outlook (report behind a login; only the rating and target are public)",
+    "url": "https://trendlyne.com/research-reports/stock/229/ZYDUSLIFE/zydus-lifesciences-ltd/"
+   },
+   {
+    "broker": "JM Financial",
+    "date": "2026-05-19",
+    "rating": "Reduce",
+    "tp": 970,
+    "method": "P/E",
+    "multiple": "24x",
+    "on": "FY28E (Mar-28)",
+    "eps": {
+     "FY27E": 38.6,
+     "FY28E": 39.1
+    },
+    "thesis": "gRevlimid and Mirabegron (~36% of US sales) erode; revenue/EBITDA CAGR 7%/-1% over two years despite 17% non-US growth",
+    "url": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-05/17792509800.08119400.pdf"
+   },
+   {
+    "broker": "Sharekhan",
+    "date": "2026-02-25",
+    "rating": "Hold",
+    "tp": 990,
+    "method": "P/E",
+    "multiple": "20x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 43.8,
+     "FY28E": 49.5
+    },
+    "thesis": "All-round growth; integration costs weigh on near-term margins; a quick ramp-up of innovation could re-rate",
+    "url": "https://www.sharekhan.com/MediaGalary/docs/ZydusLife-Feb25_2026-202602251849202209158.pdf"
+   },
+   {
+    "broker": "Systematix",
+    "date": "2026-01-20",
+    "rating": "Buy",
+    "tp": 1038,
+    "method": "P/E",
+    "multiple": "25x",
+    "on": "FY27E",
+    "thesis": "Upgrade to Buy on a pipeline-led rerating (Business Today)",
+    "url": "https://www.businesstoday.in/markets/stocks/story/zydus-life-shares-systematix-upgrades-stock-to-buy-sees-18-upside-check-target-price-511634-2026-01-20"
+   },
+   {
+    "broker": "ICICI Securities",
+    "date": "2025-11-07",
+    "rating": "Hold",
+    "tp": 900,
+    "method": "n.d.",
+    "multiple": "n.d.",
+    "on": "n.d.",
+    "thesis": "US headwinds after gRevlimid (Trendlyne listing)",
+    "url": "https://trendlyne.com/research-reports/stock/229/ZYDUSLIFE/zydus-lifesciences-ltd/"
+   }
+  ],
+  "consensusPoll": {
+   "date": "2026-05-22",
+   "analysts": 30,
+   "rating": "Hold",
+   "avgTp": 1067,
+   "src": "S&P Global poll via MarketScreener/stockanalysis (targets last updated 22-May-2026)"
+  },
+  "note": "Method is P/E on one-year-forward or FY28E consolidated EPS in every note that discloses it; no house we found values Zydus Wellness separately. Both PL and MOSL compute EPS on 1,006 mn shares (pre-buyback)."
+ },
+ "ownership": {
+  "date": "2026-06-30",
+  "categories": {
+   "promoters": 75.02,
+   "fii": 6.89,
+   "dii": 11.27,
+   "mutualFunds": 5.12,
+   "otherDii": 6.15,
+   "public": 6.83
+  },
+  "shareholders": 399251,
+  "named": [
+   [
+    "Zydus Family Trust (promoter; Pankaj R. Patel family)",
+    "74.96% before the buyback (754,313,343 shares); promoter group 75.02% at Jun-2026"
+   ]
+  ],
+  "pledge": "Nil",
+  "src": "Screener.in (BSE shareholding pattern, Jun-2026); PL note of 12-Aug-2026 (MF / other DII split); ar26 (Zydus Family Trust)",
+  "freeFloat": "~25%: liquidity is thin for a ~Rs1.16 lakh cr company"
+ },
+ "moat": [
+  [
+   "India branded franchise",
+   "Strong",
+   "#1 in oncology in India; 78 brands above Rs25 cr (56 in 2022); 7,000+ reps; chronic share 54.2%; grew 15-20% vs IPM ~10%",
+   "Pricing is regulated and trade generics grow; but differentiated launches (biosimilars, NCEs, semaglutide device) keep it ahead"
+  ],
+  [
+   "Innovation and differentiation",
+   "Moderate-Strong",
+   "Two in-house NCEs on the Indian market (saroglitazar, desidustat), 16 biosimilars approved in India, 16 vaccines licensed, a US NDA under priority review",
+   "Unusual for an Indian generics company; still small in revenue outside India"
+  ],
+  [
+   "US generics scale",
+   "Moderate",
+   "#3 by US generic prescriptions; ranked in the top three in ~60% of its product families; 274 products marketed",
+   "US generics is a price-taker business; the windfalls (gRevlimid, Mirabegron) were not the moat and are fading"
+  ],
+  [
+   "Compliance record",
+   "Moderate",
+   "Every USFDA inspection since Mar-2025 closed with an EIR (VAI/NAI), including Jarod, previously a problem site",
+   "Clean now, but one bad inspection can freeze launches"
+  ],
+  [
+   "Consumer brands",
+   "Strong (category) / Weak (economics)",
+   "Sugar Free ~96%, Glucon-D ~59%, Everyuth, Nutralite",
+   "Consumer segment earned only Rs267 cr of profit in FY26 on Rs3,954 cr revenue after acquisition costs"
+  ],
+  [
+   "MedTech",
+   "Weak",
+   "Amplitude: ~EUR100 mn French orthopaedics; 20%+ EBITDA before acquisition accounting",
+   "Segment loss of Rs178 cr in FY26; no scale advantage yet"
+  ]
+ ],
+ "critiques": [
+  [
+   "US erosion is the overhang: gRevlimid and Mirabegron were ~36% of US sales and both fade; new launches unlikely to fill the gap fully",
+   "JM Financial (Reduce), May-2026"
+  ],
+  [
+   "EPS grows only ~5% a year FY26-28 even as revenue compounds; D&A, interest and tax rise after the acquisitions",
+   "Motilal Oswal (Neutral), Aug-2026"
+  ],
+  [
+   "North America declined for a second straight quarter on competition in base products, despite a strong launch pace",
+   "Motilal Oswal, Aug-2026"
+  ],
+  [
+   "Integration of acquisitions will weigh on near-term margins; a re-rating needs the innovation business to scale quickly",
+   "Sharekhan (Hold), Feb-2026"
+  ],
+  [
+   "Operating cash flow fell to ~Rs2,100 cr in FY26 against ~Rs8,500 cr of EBITDA (Mirabegron payout, acquisition working capital)",
+   "Analyst on the Q4FY26 call (May-2026)"
+  ],
+  [
+   "Rs7,000+ cr of acquisitions in 12 months across medtech, consumer, CDMO and US specialty: breadth over focus",
+   "GAM Research"
+  ]
+ ],
+ "gaps": [
+  "gRevlimid's sales by year (never disclosed): we cannot compute an ex-gRevlimid forward P/E median (only the combined gRevlimid + Mirabegron estimates from JM, ~36% of US sales, and PL, >45% of FY25 EPS, exist).",
+  "Exact Q1FY27 filing (NSE iXBRL) could not be downloaded (NSE blocks automated access); line items rebuilt from the company release, PL and MOSL notes and the Kotak Neo table, which agree with each other; the patch keeps the figures as first filed.",
+  "Q1FY27 earnings presentation with the forex split by line: only the release and broker notes (forex gain Rs56.9 cr) are available.",
+  "Assertio: cash acquired and treatment of its 6.50% convertible notes due 2027 (fundamental-change repurchase right) not disclosed by 30-Sep-2026; we carry US$166.4 mn of consideration.",
+  "Mirabegron: the per-unit licence fee and the date other generics may enter under their settlements are confidential.",
+  "Segment EBITDA (company discloses only segment PBT): business-level margins are GAM inferences.",
+  "Zydus Wellness PAT forecasts are GAM estimates (used for minorities).",
+  "Deven Choksey and ICICI Securities methods (reports behind logins).",
+  "Consensus EPS as of 30-Sep-2026 (only broker notes; the S&P Global poll is from May-2026).",
+  "Named institutional holders above 1% at Jun-2026 (not in the sources we could access)."
+ ],
+ "conflicts": [
+  [
+   "International markets growth guidance for FY27",
+   "MOSL: 'international markets to sustain double-digit growth'",
+   "PL: 'single-digit growth from international markets'",
+   "The transcript groups IM with India's mid-teens; we model +22% (Q1 +34%) tapering"
+  ],
+  [
+   "FY26 EBITDA",
+   "Company and Screener: Rs8,475 cr (31.2%), incl. Rs1,280 cr of forex gains in other expenses",
+   "PL / MOSL / JM: Rs7,195 cr (26.5%), forex moved to other income",
+   "The engine uses the company basis; we show both"
+  ],
+  [
+   "India formulations FY25",
+   "Q4FY26 presentation: Rs5,928 cr",
+   "PL quarterly sum: Rs5,886 cr",
+   "Annual from the company, quarterly from PL"
+  ],
+  [
+   "Shares outstanding",
+   "1,006.2 mn (FY26 weighted; PL and MOSL EPS)",
+   "997.5 mn after the Jun-2026 buyback",
+   "Target per post-buyback share (ZYDUSLIFE.mult.js)"
+  ]
+ ]
+}

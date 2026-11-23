@@ -1,0 +1,270 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Zydus Lifesciences (consolidated, Rs crore). Zydus reports three segments (Pharmaceuticals, Consumer Products = Zydus Wellness, Medical Technologies = mainly Amplitude Surgical) and discloses revenue by business; it does not disclose EBITDA by business, so the engine runs on one revenue-growth path and a consolidated EBITDA margin (company basis: EBITDA includes the forex gains Zydus books inside other expenses, Rs1,280 cr in FY26 and Rs57 cr in Q1FY27). The business-line build (US$ North America x Rs/$, India formulations, international markets, APIs, alliances, Consumer Wellness, MedTech, other operating revenue) is in `businessLines` and is checked against model revenue in tools/authoring/ZYDUSLIFE.ctx.js. Profit is attributable to owners (ZYDUSLIFE.patch.js puts Screener's Net Profit on the 'Profit for EPS' basis); the tax line carries tax plus the 42.41% minority in Zydus Wellness, net of the tax-free JV share (built in `taxBuild`). Engine workarounds: (1) the Mirabegron licence fee (US$75 mn prepaid on 10-Feb-2026, amortised over 19 months to Sep-2027) is reported inside D&A; the engine has one depreciation rate, so the licence amortisation is carried as a negative item inside other income (`otherIncomeBuild`), and reported-basis D&A = engine depreciation + licence amortisation; (2) the Rs1,100 cr buyback of Jun-2026 (8,730,158 shares at Rs1,260) is carried as part of the FY27E payout (the engine has no buyback line), and the per-share target uses the post-buyback count of 99.75 cr shares through an implied multiple written by tools/authoring/ZYDUSLIFE.mult.js; (3) the Assertio acquisition (US$166.4 mn, completed 16-Jun-2026) is carried in FY27E capex because the engine has no acquisitions line; its purchase price is mostly intangibles that are amortised like capex. Valued on P/E on Sep-28E EPS, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  17.825,
+  8.651,
+  10.261
+ ],
+ "_revenueWhy": "Sum of the business-line build (`businessLines`): FY26 revenue from operations Rs27,148 cr = North America Rs11,682 cr (US$1,323 mn) + India formulations Rs6,574 cr + international markets Rs3,070 cr + APIs Rs641 cr + alliances Rs59 cr + Consumer Wellness Rs3,913 cr + MedTech Rs780 cr + other operating revenue Rs429 cr (Q4FY26 presentation; FY26 business-wise sales Rs267,197 mn). FY27E +17.8% to Rs31,987 cr (Q1FY27 +22%; management guided 'high teens' in May-2026 and 'strong double-digit' in Aug-2026; PL Rs32,207 cr, MOSL Rs32,242 cr). About 6 points of FY27E growth are acquisitions annualising (Comfort Click from 29-Aug-2025, Amplitude from 29-Jul-2025, Assertio from Q2FY27) and ~4 points the weaker rupee (FY26 average Rs88.3/US$, Rs95.81 on 30-Sep-2026). FY28E +8.7% (gMirabegron erosion, Saroglitazar launch year, no acquisitions annualising) and FY29E +10.3% (Saroglitazar and biosimilars ramping).",
+ "ebitdaMargin": [
+  24,
+  23.5,
+  24.5
+ ],
+ "_marginWhy": "Company-basis EBITDA margin (= Screener operating profit; includes forex gains booked in other expenses). History: 27.5% FY24, 30.4% FY25, 31.2% FY26 (26.8% excluding Rs1,198 cr of operating forex gains), 24.1% in Q1FY27 (23.4% excluding the Rs57 cr forex gain). The step down is gRevlimid's end (volume-limited exclusivity; Zydus's sales were 'very little' in Q3FY26 and nil from Q4FY26), lower-margin acquired businesses (Comfort Click, Amplitude), the Mirabegron per-unit licence fee (in cost of goods until Sep-2027) and Saroglitazar pre-launch spending (~US$70 mn in FY27, mostly H2). FY27E 24.0%: management guides '~24%' including Saroglitazar (11-Aug-2026); other expenses ex-R&D at Rs1,900-2,000 cr a quarter; R&D ~8% of revenue. FY28E 23.5%: the Saroglitazar launch year (US launch targeted Apr-2027; 'the first 2 years will be a build-out phase') and more generic competition in Mirabegron, partly offset by India/EM mix and a full year of Rolvedon. FY29E 24.5%: Saroglitazar and specialty revenue scaling (management aims for 28-30% 'as we move closer to the 5-year period'). Street: FY27E 23.8% (PL, ex-forex), 24.2% (MOSL); FY28E 24.1% (PL), 23.4% (MOSL), 22.8% (JM).",
+ "capex": [
+  3144,
+  1500,
+  1500
+ ],
+ "_capexWhy": "Organic capex Rs1,214 cr (FY25) and Rs1,714.5 cr (FY26; Q4FY26 presentation); Q1FY27 Rs585 cr. FY27E guidance Rs1,500-1,600 cr (11-Aug-2026 call: SEZ-3, capacity at Moraiya, Goa, Baddi and SEZ units, a new formulations R&D centre, a one-off land purchase for Zydus Wellness, a CAR-T facility, a vaccine drug-substance plant, Zylidac). FY27E = Rs1,550 cr organic + Rs1,594 cr for Assertio (US$166.4 mn at ~Rs95.8/US$; engine workaround: no acquisitions line; Assertio's purchase price is mostly brand and platform intangibles, per the CFO). FY28-29E Rs1,500 cr a year (~4% of revenue).",
+ "depRateOnGrossBlock": 5.45,
+ "_depWhy": "Engine depreciation excludes the Mirabegron licence amortisation (carried in `otherIncomeBuild`). FY26 reported D&A Rs1,408 cr = 5.0% of average gross block (Rs28,005 cr incl. acquired intangibles). Q1FY27 reported D&A Rs554.7 cr includes ~Rs104.6 cr of licence amortisation (US$75 mn = Rs662.5 cr over 19 months, AR FY26 note 30), so the base run-rate is ~Rs450 cr a quarter (Rs1,800 cr a year), plus Assertio purchase-price amortisation from Q2FY27 (not in Q1, CFO) and new capex. 5.45% of average gross block gives Rs1,956 / 2,082 / 2,164 cr; with the licence amortisation (Rs418 / 187 / 0 cr) reported D&A is Rs2,374 / 2,269 / 2,164 cr (PL Rs2,219 cr FY27E and Rs2,375 cr FY28E; MOSL Rs2,158 cr FY27E). CWIP (Rs3,698 cr on Screener, incl. Rs2,533 cr of intangibles under development) is held flat by the engine.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Zydus is a net borrower (net debt Rs4,305 cr at Mar-26 and Rs5,904 cr at Jun-26, company basis), so the engine's treasury line is negative and earns nothing; treasury interest is built explicitly in `otherIncomeBuild` from the gross cash and investments Zydus still holds (Rs7,464 cr at Mar-26: current investments Rs5,776 cr, cash Rs855 cr, bank balances Rs561 cr and other liquid holdings) and interest cost is entered separately. Screener's net cash (Rs-3,539 cr at Mar-26) differs from the company's net debt because it adds the JV stakes (Rs1,167 cr, equity method) and deducts lease liabilities (Rs727 cr).",
+ "otherIncome": [
+  82,
+  273,
+  480
+ ],
+ "_otherIncomeWhy": "Built in `otherIncomeBuild` from sourced parts: treasury and other income Rs400 / 380 / 360 cr + share of JV profit (Zydus Takeda, Bayer Zydus; tax-paid) Rs100 / 110 / 120 cr - Mirabegron licence amortisation Rs418 / 187 / 0 cr (engine workaround). Before the licence item: Rs500 / 490 / 480 cr against Rs607 cr in FY26 (other income Rs509.5 cr + JV Rs97.1 cr, AR FY26 notes 4 and 34) and Rs561 cr in the twelve months to Jun-26 as filed (other income Rs460.7 cr + JV Rs100.5 cr). The gap to FY26 is the smaller treasury after Rs7,000+ cr of acquisitions and the buyback: FY26 included a swap gain of Rs38 cr and fair-value gains of Rs29 cr, which we do not repeat. Exceptional items (Screener nets them into other income: Rs-516.6 cr in FY26, Rs-18.2 cr in Q1FY27) are not forecast.",
+ "interest": [
+  620,
+  470,
+  360
+ ],
+ "_interestLabel": "Finance cost (term and short-term loans, leases, unwinding of acquisition contingent consideration)",
+ "_interestWhy": "FY26 Rs438.9 cr (interest Rs365 cr: term loans Rs156 cr, short-term loans Rs172 cr, leases Rs5 cr, others Rs31 cr; unwinding of contingent consideration on LiqMeds and other deals Rs63 cr; other Rs11 cr, AR FY26 note 39). Q1FY27 Rs156 cr (Rs624 cr annualised) after the Assertio purchase and the buyback lifted net debt to Rs5,904 cr. Net debt falls with free cash flow (management is 'comfortable around 1x net debt to EBITDA' and plans only bolt-on deals), so FY28-29E fall to Rs520 / 430 cr. Checked against the engine's net-debt path in ZYDUSLIFE.ctx.js.",
+ "taxRate": [
+  27.13,
+  26.91,
+  26.91
+ ],
+ "_taxWhy": "Tax plus minorities (engine workaround: no minority line), net of the JV share, which is already after tax. Built in `taxBuild`: tax at 25.5% / 25% / 25% of PBT excluding the JV share (FY26 22.3% before exceptional items; Q1FY27 27.1% with a UK tax disallowance; FY25 23.4%) plus the 42.41% minority in Zydus Wellness (Rs83.5 cr in FY26, Rs50.4 cr in Q1FY27; GAM estimates Rs110 / 140 / 170 cr on Zydus Wellness PAT of Rs260 / 330 / 400 cr). Checked each year in ZYDUSLIFE.ctx.js.",
+ "payout": [
+  31.8,
+  15,
+  15
+ ],
+ "_payoutWhy": "FY27E includes the Jun-2026 buyback (Rs1,100 cr: 8,730,158 shares at Rs1,260, offer 4-10 Jun-2026, shares extinguished by 29-Jun-2026) plus the FY26 final dividend of Re1 a share (~Rs100 cr): Rs1,200 cr = 31.8% of FY27E profit (engine workaround: there is no buyback line, so the FY27E dividend per share shown by the model, ~Rs12, is really Re1 of dividend plus the buyback). FY28-29E 15%: dividends were Rs3 (FY24), Rs11 (FY25, 24% payout) and Re1 (FY26, 2%) a share; Zydus prefers buybacks (FY23, FY24, FY27) and acquisitions.",
+ "businessLines": {
+  "_note": "Revenue build by business (Rs crore; North America in US$ mn x Rs/US$). FY26 base from the Q4FY26 presentation (business-wise sales) and the FY26 annual report (revenue from operations). Checked against model revenue in ZYDUSLIFE.ctx.js (tolerance 0.5%).",
+  "base": {
+   "fy": "FY26",
+   "naUsdMn": 1323,
+   "fx": 88.3,
+   "na": 11682,
+   "india": 6574,
+   "im": 3070,
+   "api": 641,
+   "alliances": 59,
+   "consumer": 3913,
+   "medtech": 780,
+   "otherOp": 429,
+   "revenue": 27148
+  },
+  "naUsdGrowth": [
+   2.5,
+   3,
+   7
+  ],
+  "fx": [
+   95.6,
+   97.5,
+   99.5
+  ],
+  "indiaGrowth": [
+   15,
+   12,
+   11
+  ],
+  "imGrowth": [
+   22,
+   14,
+   12
+  ],
+  "apiGrowth": [
+   8,
+   6,
+   6
+  ],
+  "alliancesGrowth": [
+   0,
+   0,
+   0
+  ],
+  "consumerGrowth": [
+   32,
+   12,
+   12
+  ],
+  "medtechGrowth": [
+   54,
+   10,
+   10
+  ],
+  "otherOp": [
+   600,
+   500,
+   500
+  ],
+  "_why": "North America (US$): Q1FY27 US$327 mn (-12% YoY in constant currency after gRevlimid; +1.5% QoQ); management guides a US$300-310 mn base plus launches and 'around single-digit growth' for FY27 (May and Aug-2026 calls). FY27E +2.5% to US$1,356 mn: Rolvedon (Assertio) US$15-20 mn a quarter from Q2, Nufymco (ranibizumab), 30-40 launches, against gMirabegron competition. FY28E +3% (Saroglitazar launch Apr-2027 with little first-year revenue, a full year of Rolvedon, palbociclib; more Mirabegron erosion) and FY29E +7% (Saroglitazar year two, PBC peak sales guided at US$200-300 mn; first biosimilars). Rs/US$: 95.6 (Q1FY27 average ~94.7; 95.81 on 30-Sep-2026), then ~2% a year weaker. India formulations: Q1FY27 +19.5%; guidance mid-teens, 300-500bp above the market (IPM +10.7% in Aug-2026); +15% / +12% / +11%. International markets: +40% in FY26, +34% in Q1FY27 (Europe, UK, new EMs, weaker rupee); +22% / +14% / +12%. Consumer Wellness: FY26 had seven months of Comfort Click (Rs1,186 cr; Rs1,890 cr for a full year); domestic +5% in Q1FY27; 'double-digit growth' guided: +32% / +12% / +12%. MedTech: FY26 had eight months of Amplitude (Rs772 cr; Rs1,158 cr for a full year); Q1FY27 Rs283 cr: +54% / +10% / +10%. APIs +8% / +6% / +6%. Other operating revenue (export incentives, licence and milestone income): Rs429 cr in FY26, Rs215 cr in Q1FY27; Rs600 / 500 / 500 cr."
+ },
+ "otherIncomeBuild": {
+  "_note": "Engine 'other income' = treasury and other + JV share - Mirabegron licence amortisation (Rs crore).",
+  "treasury": [
+   400,
+   350,
+   360
+  ],
+  "jv": [
+   100,
+   110,
+   120
+  ],
+  "licenceAmort": [
+   418,
+   187,
+   0
+  ],
+  "fy26": {
+   "interestAmortisedCost": 223.1,
+   "interestDebtInstruments": 193,
+   "interestOthers": 6.4,
+   "swapGain": 38.3,
+   "dividend": 1.2,
+   "fvtplGain": 29.2,
+   "ppeGain": 2.3,
+   "other": 16,
+   "total": 509.5,
+   "jv": 97.1,
+   "exceptional": -516.6,
+   "src": "AR FY26 consolidated notes 4, 34 and 48"
+  },
+  "ttmJun26": {
+   "otherIncome": 460.7,
+   "jv": 100.5,
+   "src": "Q2FY26-Q4FY26 presentations and the Q1FY27 filing (other income Rs109.0 / 111.4 / 134.2 / 106.1 cr; JV Rs5.2 / 57.8 / -0.3 / 37.8 cr)"
+  },
+  "_why": "Treasury: FY26 interest income Rs422.5 cr was earned on ~Rs8,000 cr of average gross cash and investments, part of it an arbitrage of short-term borrowing against government securities (CFO, Aug-2025); the quarterly run-rate was Rs109-134 cr in FY26 and Rs106 cr in Q1FY27 (Rs424 cr annualised); it drifts down as acquisitions and the buyback use cash and short-term debt is repaid. JV: Rs57.8 cr (FY25), Rs97.1 cr (FY26), Rs37.8 cr (Q1FY27). Licence: Rs662.5 cr over 19 months from 10-Feb-2026 = Rs34.9 cr a month: Rs57.5 cr in FY26, Rs418.4 cr in FY27, Rs186.6 cr in FY28 (AR FY26 note 30)."
+ },
+ "taxBuild": {
+  "_note": "Engine tax rate = (tax on PBT ex-JV + minorities) / PBT incl. JV. Rs crore.",
+  "taxOnPbtExJv": [
+   25.5,
+   25,
+   25
+  ],
+  "minorities": [
+   110,
+   140,
+   170
+  ],
+  "zwPat": [
+   260,
+   330,
+   400
+  ],
+  "zwMinorityPct": 42.41,
+  "_why": "Zydus owns 57.59% of Zydus Wellness (AR FY26 note 49; the promoter group's 69.63% includes other family entities). Zydus Wellness PAT: Rs346.9 cr (FY25), Rs197.2 cr (FY26, after Comfort Click acquisition interest and amortisation), Rs119 cr in Q1FY27 (its seasonal peak quarter). Minorities were Rs147.1 cr (FY25), Rs83.5 cr (FY26) and Rs50.4 cr (Q1FY27). We assume Zydus Wellness PAT recovers to Rs260 / 330 / 400 cr with Comfort Click growth and deleveraging."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 25,
+  "fadeCapexPctTo": 4.5,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Pharma is defensive (below-market sensitivity); modest leverage (net debt ~0.7x EBITDA at Jun-26). Beta 0.85 gives a cost of equity of 11.6%; the engine discounts at the cost of equity, which is close to a WACC with ~5% debt in the capital structure.",
+  "_tgWhy": "India's nominal GDP grows ~10%; Zydus is half US generics (low single-digit growth in dollars, ~2% rupee depreciation) and half branded India/EM/consumer (high single digit). House range 5-6%: 5.5%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% (FY29E) to 7% over 15 years.",
+  "_fadeMarginWhy": "EBITDA margin fades from 24.5% to 25%: the branded mix rises (management aims for 28-30%), but US generic price erosion and new launches' costs recur; we do not assume the 31% of FY26, which included gRevlimid and Rs1,280 cr of forex gains.",
+  "_fadeCapexWhy": "Capex moves from ~4% of revenue (FY28-29E) to 4.5%: FY26 organic capex of Rs1,715 cr (6.3% of revenue) included new plants; maintenance plus growth capex for a branded-plus-generics portfolio is ~4.5%."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Saroglitazar is approved on time and launches well in PBC (heading to the upper end of the US$200-300 mn peak range), US generics hold US$330 mn+ a quarter as Mirabegron competition stays limited, India keeps growing ~15% and international markets ~20%; EBITDA margin climbs back above 25% by FY28-29E.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 1.5,
+   "fadeMarginTo": 27
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Saroglitazar is delayed or launches slowly against two entrenched PPAR agonists, gMirabegron and other key US products erode faster (US sales back to ~US$280 mn a quarter), the acquired businesses (Comfort Click, Amplitude, Zylidac) disappoint and an FDA problem hits a key site; EBITDA margin ~22%, the FY22-FY23 level.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -2,
+   "fadeMarginTo": 22.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 19.67,
+      "bull": 25.72,
+      "bear": 13.62
+     },
+     "why": "How the street values Zydus: P/E on 12-month-forward or FY28E consolidated EPS (PL 25x FY28E, MOSL 23x 12-month forward, JM 24x Mar-28, Sharekhan 20x FY28E). Our multiple: Zydus's own one-year-forward P/E median since Apr-2021 on EPS before exceptional items and the FY22 animal-health sale gain (trough years excluded), times the pharma sector factor (+5.45%, PLAYBOOK §7c), nearest half-turn. Applied to EPS per post-buyback share (99.75 cr shares); the engine carries it as an implied multiple of its own Sep-28E EPS (on the FY26 count of 100.62 cr shares), written by tools/authoring/ZYDUSLIFE.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 13.5,
+      "bull": 15.5,
+      "bear": 12.5
+     },
+     "why": "Own trailing EV/EBITDA median since Apr-2021 times the same sector factor, restated from trailing to Sep-28E EBITDA (ZYDUSLIFE.ctx.js). Adds the engine's net cash at Sep-28E; the engine does not deduct the Zydus Wellness minority, so the value is shown before and after that deduction in the report."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether Zydus's cash flows support the price: 15-year FCFF, cost of equity 11.6%, terminal growth 5.5%, plus the engine's net cash at Mar-27."
+    }
+   ]
+  },
+  "derivedPe": {
+   "base": 19.5,
+   "bull": 25.5,
+   "bear": 13.5,
+   "_note": "Derived P/E on EPS per post-buyback share (99.75 cr); pe.multiple is the same value restated on the engine EPS (100.62 cr shares)."
+  }
+ }
+}

@@ -1,0 +1,3677 @@
+{
+ "symbol": "SONACOMS",
+ "listing": "NSE: SONACOMS · BSE: 543300",
+ "date": "30 September 2026",
+ "rating": "SELL",
+ "analysts": "GAM Research — Automobiles & components",
+ "cover": {
+  "headline": "A genuine engineering franchise, priced at its own median multiple while the sector de-rates",
+  "lead": "Sona Comstar makes differential gears and assemblies, starter motors, EV traction and suspension motors and, since Jun-2025, railway brakes and couplers, for 7 of the world's top-10 car makers and India's EV leaders. Q1FY27 was its best quarter (revenue +54%, BEV revenue +107% to 44% of automotive sales), and the 22-Jul-2026 DENSO joint ventures gave it a way into high-voltage and hybrid powertrains. The stock doubled in a year to ₹830 (74.1x trailing EPS). We forecast EPS of ₹12.01 / ₹14.28 / ₹16.94 for FY27-29E (+18% a year) at EBITDA margins in the lower half of the guided 23-25% band. The street values Sona on **P/E on one-year-forward EPS** (Jefferies 55x FY28E). The house multiple, its 53.3x forward-P/E median since mid-2022 cut by the 9.4% auto-component de-rating, is **48.5x Sep-28E EPS of ₹15.61 = {{dcf.tp|inr}} ({{dcf.upside|chg}}): we initiate with SELL.** Cross-checks: EV/EBITDA ₹710, DCF ₹310. Bull {{scen.bull.tp|inr}}; bear {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "The franchise is real: engineering, global share and the EV head start",
+    "p": "8.7% of the world's differential gears and 55-90% of India's; 19 products designed and scaled in-house in seven years (~₹1,800 cr of annualised revenue); 69 EV programmes with 36 customers; a ₹24,000 cr order book (5.4x revenue, 64% EV). DENSO will pay Sona royalties for its 2W/3W motor technology. Net cash ~₹1,000 cr."
+   },
+   {
+    "h": "But FY26 growth was bought and margins have stepped down",
+    "p": "FY26 revenue +25%, but by our estimate the automotive business was flat: the railway purchase (₹1,643 cr) supplied the growth while BEV revenue fell 6%. The EBITDA margin fell from 27.4% (FY25) to 24.7% and 23.1% in Q1FY27 (company basis); the guided band has been cut twice (25-27% at the IPO, now 23-25%). ROE halved from 21% to 11% after the QIP."
+   },
+   {
+    "h": "Q1FY27 is a strong restart, and we model it",
+    "p": "BEV revenue more than doubled and India, Europe and China grew. We model revenue +{{F.salesGrowth.0|n1}}% in FY27E, then +15% and +14%, margins of {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}} (Screener basis) and EPS +17% / +19% / +19%. The DENSO deal (completion by Mar-2027) brings ~₹858 cr of cash and a 49% minority in the 2W/3W motor business: roughly EPS-neutral, so it is not in our numbers."
+   },
+   {
+    "h": "Valuation: the price is at the stock's own median while the sector is 9% below",
+    "p": "At ₹830 Sona trades at 53.2x Sep-28E EPS, the same as its 53.3x forward median since Jun-2022 (we leave out the first year after listing, when it paid up to 117x). Auto-component peers were 9.4% below their five-year medians on 30-Sep-2026; the house rule applies that to Sona too. The call is narrow: we would be at HOLD below ~₹800. Robotics and physical AI (₹800 cr order book) is optionality management itself says matters only beyond three years."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n2"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "GREEN"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "RED"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): whether commodity pass-through lifts the margin back towards 24% (company basis), and whether BEV revenue holds near Q1's record.",
+   "Completion of the DENSO share subscription in Sona eDrive (by 31-Mar-2027) and the incorporation of the HV joint venture (JV2); first JV2 customer nominations.",
+   "US EV demand and tariffs: the anchor EV customer's volumes and any India-US trade deal; the EU-India FTA.",
+   "Robotics and physical AI: start of production of the first of three orders (one \"this quarter\", the rest within 15 months).",
+   "Railway: HVAC and electric-panel orders, and any disclosure of the business's revenue and margin."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: ₹1,038 cr (FY20) to ₹4,449 cr (FY26), ₹7,117 cr by FY29E",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY20",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; GAM estimates FY27-29E (railway from Jun-2025)"
+      },
+      {
+       "type": "column",
+       "title": "BEV revenue: from ₹23 cr to ₹1,224 cr in five years, then a dip in FY26",
+       "unit": "BEV revenue (₹ crore)",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "BEV revenue",
+         "values": [
+          23,
+          206,
+          504,
+          671,
+          886,
+          1224,
+          1154
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations (Q4FY26, Q1FY27)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "BEV share of automotive revenue: a record 44% in Q1FY27",
+       "unit": "BEV share of automotive product revenue (%)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "BEV share",
+         "values": [
+          26,
+          32,
+          38,
+          39,
+          44
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 50,
+       "source": "Quarterly presentations"
+      },
+      {
+       "type": "hbar",
+       "title": "India became the largest market in FY26 (railway and US EV weakness)",
+       "unit": "Share of revenue (%)",
+       "x": [
+        "India",
+        "Europe",
+        "North America",
+        "Asia ex-India"
+       ],
+       "series": [
+        {
+         "name": "FY25",
+         "values": [
+          29,
+          24,
+          41,
+          6
+         ],
+         "fmt": "pct0"
+        },
+        {
+         "name": "FY26",
+         "values": [
+          51,
+          27,
+          17,
+          5
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26, revenue mix by geography"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 28% in FY24, ~23% in our forecasts (Screener basis)",
+       "unit": "EBITDA margin (%)",
+       "x": "fin.labels",
+       "from": "FY20",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 15,
+       "max": 32,
+       "source": "Screener.in; GAM estimates"
+      },
+      {
+       "type": "line",
+       "title": "ROE: 21% in FY24, 11% in FY26, ~14% by FY29E against a 12.5% cost of equity",
+       "unit": "Return on equity (%)",
+       "x": "fin.labels",
+       "from": "FY21",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "ROE",
+         "ref": "fin.roe",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 25,
+       "lines": [
+        {
+         "v": 12.5,
+         "text": "Cost of equity 12.5%"
+        }
+       ],
+       "source": "Screener.in; GAM estimates"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: 58x FY28E (53x Sep-28E) vs a 53x median since mid-2022",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2022-06-24",
+        "2022-07-01",
+        "2022-07-08",
+        "2022-07-15",
+        "2022-07-22",
+        "2022-07-29",
+        "2022-08-05",
+        "2022-08-12",
+        "2022-08-19",
+        "2022-08-26",
+        "2022-09-02",
+        "2022-09-09",
+        "2022-09-16",
+        "2022-09-23",
+        "2022-09-30",
+        "2022-10-07",
+        "2022-10-14",
+        "2022-10-21",
+        "2022-10-28",
+        "2022-11-04",
+        "2022-11-11",
+        "2022-11-18",
+        "2022-11-25",
+        "2022-12-02",
+        "2022-12-09",
+        "2022-12-16",
+        "2022-12-23",
+        "2022-12-30",
+        "2023-01-06",
+        "2023-01-13",
+        "2023-01-20",
+        "2023-01-27",
+        "2023-02-03",
+        "2023-02-10",
+        "2023-02-17",
+        "2023-02-24",
+        "2023-03-03",
+        "2023-03-10",
+        "2023-03-17",
+        "2023-03-24",
+        "2023-03-31",
+        "2023-04-06",
+        "2023-04-13",
+        "2023-04-21",
+        "2023-04-28",
+        "2023-05-05",
+        "2023-05-12",
+        "2023-05-19",
+        "2023-05-26",
+        "2023-06-02",
+        "2023-06-09",
+        "2023-06-16",
+        "2023-06-23",
+        "2023-06-30",
+        "2023-07-07",
+        "2023-07-14",
+        "2023-07-21",
+        "2023-07-28",
+        "2023-08-04",
+        "2023-08-11",
+        "2023-08-18",
+        "2023-08-25",
+        "2023-09-01",
+        "2023-09-08",
+        "2023-09-15",
+        "2023-09-22",
+        "2023-09-29",
+        "2023-10-06",
+        "2023-10-13",
+        "2023-10-20",
+        "2023-10-27",
+        "2023-11-03",
+        "2023-11-12",
+        "2023-11-17",
+        "2023-11-24",
+        "2023-12-01",
+        "2023-12-08",
+        "2023-12-15",
+        "2023-12-22",
+        "2023-12-29",
+        "2024-01-05",
+        "2024-01-12",
+        "2024-01-20",
+        "2024-01-25",
+        "2024-02-02",
+        "2024-02-09",
+        "2024-02-16",
+        "2024-02-23",
+        "2024-03-02",
+        "2024-03-07",
+        "2024-03-15",
+        "2024-03-22",
+        "2024-03-28",
+        "2024-04-05",
+        "2024-04-12",
+        "2024-04-19",
+        "2024-04-26",
+        "2024-05-03",
+        "2024-05-10",
+        "2024-05-18",
+        "2024-05-24",
+        "2024-05-31",
+        "2024-06-07",
+        "2024-06-14",
+        "2024-06-21",
+        "2024-06-28",
+        "2024-07-05",
+        "2024-07-12",
+        "2024-07-19",
+        "2024-07-26",
+        "2024-08-02",
+        "2024-08-09",
+        "2024-08-16",
+        "2024-08-23",
+        "2024-08-30",
+        "2024-09-06",
+        "2024-09-13",
+        "2024-09-20",
+        "2024-09-27",
+        "2024-10-04",
+        "2024-10-11",
+        "2024-10-18",
+        "2024-10-25",
+        "2024-11-01",
+        "2024-11-08",
+        "2024-11-14",
+        "2024-11-22",
+        "2024-11-29",
+        "2024-12-06",
+        "2024-12-13",
+        "2024-12-20",
+        "2024-12-27",
+        "2025-01-03",
+        "2025-01-10",
+        "2025-01-17",
+        "2025-01-24",
+        "2025-02-01",
+        "2025-02-07",
+        "2025-02-14",
+        "2025-02-21",
+        "2025-02-28",
+        "2025-03-07",
+        "2025-03-13",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-04",
+        "2025-04-11",
+        "2025-04-17",
+        "2025-04-25",
+        "2025-05-02",
+        "2025-05-09",
+        "2025-05-16",
+        "2025-05-23",
+        "2025-05-30",
+        "2025-06-06",
+        "2025-06-13",
+        "2025-06-20",
+        "2025-06-27",
+        "2025-07-04",
+        "2025-07-11",
+        "2025-07-18",
+        "2025-07-25",
+        "2025-08-01",
+        "2025-08-08",
+        "2025-08-14",
+        "2025-08-22",
+        "2025-08-29",
+        "2025-09-05",
+        "2025-09-12",
+        "2025-09-19",
+        "2025-09-26",
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          65.8,
+          64.4,
+          64.3,
+          64.6,
+          65.2,
+          64.4,
+          63.2,
+          64.6,
+          59.1,
+          60.2,
+          59.4,
+          59.8,
+          58.4,
+          53.9,
+          52.6,
+          53.5,
+          52.1,
+          54.1,
+          52.6,
+          52.3,
+          51.9,
+          50.5,
+          50.2,
+          52.4,
+          49.7,
+          51.3,
+          45.4,
+          47.6,
+          47.3,
+          48.3,
+          46.3,
+          51.2,
+          50.4,
+          52.5,
+          52.5,
+          52.3,
+          51.7,
+          49.5,
+          47.4,
+          46.6,
+          46.9,
+          43.8,
+          46,
+          48.2,
+          49.6,
+          51.7,
+          55.2,
+          55.4,
+          55.8,
+          55,
+          55.4,
+          53.8,
+          52.4,
+          53.3,
+          55.4,
+          56.6,
+          59.2,
+          58.4,
+          57.7,
+          57.5,
+          58.6,
+          60.6,
+          61.2,
+          61.2,
+          62,
+          60,
+          60.3,
+          58.9,
+          57.9,
+          55.9,
+          57,
+          56.7,
+          59,
+          60.6,
+          58.8,
+          58.1,
+          59.1,
+          57.2,
+          59.7,
+          66.6,
+          66.9,
+          62.6,
+          60.7,
+          60.5,
+          65.2,
+          64,
+          63.5,
+          67.1,
+          71.8,
+          70.8,
+          66.3,
+          71.5,
+          73,
+          64.4,
+          66.1,
+          66.2,
+          62.9,
+          59.3,
+          57.4,
+          59.6,
+          61.3,
+          63.3,
+          64.6,
+          63,
+          61.1,
+          62.3,
+          63.8,
+          70.4,
+          67.4,
+          67.1,
+          67,
+          66,
+          66.7,
+          67.6,
+          66.4,
+          69.9,
+          70.4,
+          72.7,
+          71.5,
+          67.7,
+          64.6,
+          61.9,
+          68,
+          67.8,
+          68.4,
+          65,
+          66.6,
+          65.3,
+          65,
+          61.4,
+          57.2,
+          58.3,
+          57.4,
+          55.3,
+          55.9,
+          51,
+          48.9,
+          51.5,
+          47.5,
+          49.3,
+          48,
+          50.3,
+          47.2,
+          49.5,
+          44.8,
+          35.1,
+          35.8,
+          37.6,
+          37.8,
+          41.4,
+          41.7,
+          45.2,
+          44.7,
+          45.3,
+          42.5,
+          41.8,
+          40.5,
+          39.9,
+          39.8,
+          37.2,
+          39.9,
+          39.1,
+          36.4,
+          37.1,
+          37.6,
+          37.4,
+          36.9,
+          36.7,
+          35.7,
+          36.3,
+          33.9,
+          34.9,
+          36,
+          38.5,
+          39.9,
+          39.4,
+          40.9,
+          40.4,
+          41.9,
+          42.6,
+          41,
+          41,
+          41.4,
+          40.1,
+          40.5,
+          38.3,
+          38.3,
+          38,
+          40.8,
+          42.8,
+          44,
+          44.3,
+          44.5,
+          42.9,
+          40.5,
+          42.2,
+          40.7,
+          34.8,
+          38.8,
+          41.6,
+          39.6,
+          42.5,
+          40.6,
+          40.2,
+          41.6,
+          42.5,
+          42.2,
+          41.5,
+          43,
+          43.4,
+          46.2,
+          46.8,
+          49.4,
+          50.3,
+          53.9,
+          57.3,
+          55.5,
+          57.3,
+          57.1,
+          55.3,
+          55.2,
+          56.6,
+          57.7,
+          58.1
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 53.3,
+         "text": "Median: 53.3x"
+        },
+        {
+         "v": 48.5,
+         "text": "Our multiple: 48.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual EPS, GAM estimates for FY27-28E; from Jun-2022 (first year after listing left out)"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (notes standing on 30-Sep-2026)",
+       "unit": "₹ per share; CMP ₹830",
+       "x": [
+        "Motilal Oswal",
+        "Nomura",
+        "Jefferies",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          652,
+          848,
+          700,
+          760
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Trendlyne (MOSL 23-Jul-2026); Univest (Nomura 24-Jul, Jefferies 23-Jul-2026); median ₹700; GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Sona does",
+   "kicker": "The business",
+   "title": "Gears, motors and now railway brakes: a driveline and motor specialist for the world's car makers",
+   "blocks": [
+    {
+     "p": "Sona BLW Precision Forgings (brand: Sona Comstar) began in 1995 as a maker of precision-forged bevel gears for Indian cars and tractors. In 2019 it merged with Comstar Automotive Technologies (starter motors and alternators), listed in Jun-2021, and since then has moved into electric drivetrains. It reports one segment and does not split revenue by product. Its businesses are: **driveline** (differential gears, differential assemblies including the complete differentials that go into EV e-axles, intermediate and epicyclic gears, steering bevel boxes); **motors** (conventional and micro-hybrid starter motors; traction motors and controllers for electric 2- and 3-wheelers; suspension motors for an active-suspension system built with ClearMotion); **railway** (brakes, couplers, suspension and now HVAC and electric panels, bought from Escorts Kubota in Jun-2025); and **sensors and software** (NOVELIC, Serbia: mmWave radar). Robotics and physical AI was added as a vertical in Jul-2026."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The businesses (company disclosure; product revenue is not reported)",
+      "head": [
+       "Business",
+       "Main products",
+       "What we know about its size",
+       "Position"
+      ],
+      "wide": [
+       1,
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "**Driveline**",
+        "Differential gears and assemblies (ICE, hybrid, EV), epicyclic gear trains, intermediate gears, bevel boxes",
+        "Largest business; differential gears and assemblies were the top two products in FY25 (top four products = 86% of revenue)",
+        "8.7% of global differential gears (CY25); 55-60% of India PV, 80-90% CV, 75-85% tractors"
+       ],
+       [
+        "**Motors**",
+        "Starter motors (conventional, micro-hybrid), EV traction motors and controllers (2W/3W), suspension motors",
+        "Traction motors \"almost 10% of revenue\" (May-2026); the 2W/3W EV business had ₹385.5 cr of FY26 turnover (DENSO filing)",
+        "4.2% of global starter motors; ~25% of India e-2W/3W traction motors (CEO, Q1FY27 call)"
+       ],
+       [
+        "**Railway** (from 1-Jun-2025)",
+        "Brakes, couplers, suspension, air springs; HVAC and electric panels approved in Q4FY26",
+        "₹912.8 cr of revenue in FY25 under Escorts Kubota; our FY26 estimate ~₹900 cr (10 months)",
+        "Leader in Indian railway braking systems (AR FY26)"
+       ],
+       [
+        "**Sensors, software, robotics**",
+        "Short-range and in-cabin radar (NOVELIC), robotics components, AMR perception stack",
+        "Robotics & physical AI order book ₹800 cr (3% of the order book); revenue negligible",
+        "New; first SOPs from Q2FY27"
+       ]
+      ],
+      "source": "AR FY26 pp.24-41; Q1FY27 and Q4FY26 presentations and calls; DENSO board-outcome filing (22-Jul-2026)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Market mix: non-automotive (railway, off-highway) jumped to 31% of revenue",
+       "unit": "Share of FY26 revenue (%)",
+       "x": [
+        "Passenger vehicles",
+        "Non-automotive",
+        "E2W / E3W",
+        "Commercial vehicles",
+        "Semis & software"
+       ],
+       "series": [
+        {
+         "name": "FY25",
+         "values": [
+          71,
+          9,
+          8,
+          11,
+          1
+         ],
+         "fmt": "pct0"
+        },
+        {
+         "name": "FY26",
+         "values": [
+          49,
+          31,
+          10,
+          9,
+          1
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26, revenue mix by market segment"
+      },
+      {
+       "type": "stacked",
+       "title": "Automotive revenue by powertrain: BEV 35%, ICE-dependent only 10%",
+       "unit": "Share of automotive product revenue (%)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "BEV",
+         "values": [
+          26,
+          29,
+          36,
+          35
+         ],
+         "fmt": "pct0"
+        },
+        {
+         "name": "Micro-hybrid / hybrid",
+         "values": [
+          21,
+          24,
+          21,
+          20
+         ],
+         "fmt": "pct0"
+        },
+        {
+         "name": "Power-source neutral",
+         "values": [
+          38,
+          37,
+          34,
+          35
+         ],
+         "fmt": "pct0"
+        },
+        {
+         "name": "ICE-dependent",
+         "values": [
+          15,
+          10,
+          9,
+          10
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "source": "AR FY26 p.40"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Reach and assets",
+      "head": [
+       "",
+       "Detail"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Plants",
+        "12 plants (India: Gurugram, Manesar, Faridabad, Pune, Chennai; US; Mexico x2; China; Serbia R&D), 5 R&D centres, 3 engineering centres"
+       ],
+       [
+        "Customers",
+        "7 of the world's top-10 PV OEMs, 3 of top-10 CV, 7 of top-10 tractor makers, 3 of top-10 EV OEMs; 69 EV programmes with 36 customers (Q1FY27)"
+       ],
+       [
+        "Order book",
+        "₹24,000 cr at Jun-2026 (5.4x FY26 revenue): EV 64%, non-EV 28%, railway 5%, robotics 3%. Net order book = revenue from awarded programmes not yet in production or not fully ramped, over the next 10 years, net of phase-outs and discounted for delays; railway = POs for ~12 months."
+       ],
+       [
+        "R&D",
+        "₹126 cr in FY26 (2.8% of revenue; ₹114 cr in FY25); 29 products, up from 10 five years earlier"
+       ],
+       [
+        "People",
+        "Over 6,000 employees (Mar-2026)"
+       ]
+      ],
+      "source": "Q1FY27 presentation slides 20, 33; AR FY26 (MD&A, note 32)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From a gear forge to a listed EV supplier, then a railway acquisition and a DENSO partnership",
+   "blocks": [
+    {
+     "p": "Three decisions explain most of Sona's growth from FY15 to FY25 (CEO, Q1FY27 call): adding product verticals (Comstar's motors, EV products), selling to the West (North America was 41% of FY25 revenue), and committing early to electrification (BEV share 2% in FY20, 36% in FY25). The former private-equity holding company, Singapore VII Topco III (the \"erstwhile holding company\" in the AR FY26), has exited; the Kapur family's Aureus Investment is now the only promoter (28%). Since FY25 the company has diversified away from the US EV programmes that drove it: a QIP in Sep-2024, the railway business in Jun-2025, and in Jul-2026 two DENSO joint ventures and a new robotics vertical (\"Sona Comstar 2.0\")."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Corporate actions and what they did to the numbers",
+      "head": [
+       "When",
+       "What",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "2019",
+        "Sona BLW acquired Comstar Automotive Technologies (starter motors, alternators); Singapore VII Topco III, the erstwhile holding company and an earlier promoter, has since exited; the two merged into the listed entity",
+        "Comstar merged in: FY20 revenue +48%; FY20 includes a ₹233 cr pre-tax exceptional gain (pre-listing)."
+       ],
+       [
+        "2021-06-24",
+        "Listed on NSE/BSE (IPO; the then holding company Singapore VII Topco III later exited, AR FY26 ERI-plan note). First weekly close on Screener ₹364.7 (25-Jun-2021)",
+        "The post-listing premium unwound within 18 months (−49% from the Dec-2021 peak to Dec-2022)."
+       ],
+       [
+        "2024-09",
+        "QIP: ₹2,400 cr, 3.48 cr shares (~5.6% dilution) at ~₹690; net ₹2,369.5 cr",
+        "+5.6% shares; net cash peaked at ₹2,659 cr (Mar-25); ROE fell from 21% (FY24) to 15% (FY25)."
+       ],
+       [
+        "FY2023-24",
+        "Majority stake in NOVELIC (Serbia; mmWave radar, perception software); last tranche paid in FY26",
+        "Small revenue; minority shareholders absorb part of NOVELIC's losses (Screener's Net Profit row is before them)."
+       ],
+       [
+        "2025-06-01",
+        "Acquired the Railway Equipment Division of Escorts Kubota by slump sale for ₹1,642.6 cr (agreed Oct-2024; FY25 revenue under Escorts ₹912.8 cr): brakes, couplers, suspension; goodwill recognised",
+        "~25 points of FY26 revenue growth; lower margin; goodwill and intangibles added; net cash fell to ₹1,026 cr; treasury income fell."
+       ],
+       [
+        "2026-07-22",
+        "DENSO deals: (1) 2W/3W EV business (air-cooled traction motors, inverters, e-axles; FY26 turnover ₹385.5 cr, net worth ₹347.1 cr) slump-sold to subsidiary Sona eDrive for ₹893.2 cr (₹857.5 cr cash + shares); DENSO subscribes 49% of Sona eDrive at an enterprise value of ₹1,750 cr, Sona keeps 51% and control; completion on or before 31-Mar-2027. (2) JV2 for liquid-cooled HV traction motors/inverters for 4W+: DENSO 51%, Sona 49% (₹26.2 cr of ₹53.5 cr initial capital). Royalties both ways.",
+        "Not in our model (completion by Mar-2027): ~₹857.5 cr of cash in, 49% of a ~₹390 cr-revenue business to DENSO; ~EPS-neutral."
+       ]
+      ],
+      "source": "Annual reports FY25-FY26; DENSO filing (22-Jul-2026); Q1FY27 and Q4FY26 calls; Screener.in"
+     }
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Demand is healthy except in US EVs; costs and rare earths are the squeeze",
+   "blocks": [
+    {
+     "p": "Q1FY27 (call, 23-Jul-2026): demand healthy in all markets; India strongest (PV, CV and e-2W had their best quarters in Q4FY26; India 51% of Sona's FY26 revenue); Europe growing and electrifying (BEV, strong and plug-in hybrids); US EV sales weak (-16% in FY26, -28% YoY in Q4FY26) with a shift to hybrids; China mixed. OEMs are constrained by supply chains, not demand, in EVs."
+    },
+    {
+     "bullets": [
+      "**Electrification.** BEV share of Sona's automotive product revenue: 2% FY20, 25% FY22, 36% FY25, 35% FY26, 44% Q1FY27. Sona's EV content is in differential assemblies (any e-axle, any market), traction motors (Indian e-2W/3W) and soon high-voltage motors via the DENSO JV. Weakness at its anchor EV customer (not named) and a 16% fall in US BEV sales are what made FY26 a \"tough\" year.",
+      "**Hybrids.** North American and European OEMs are adding hybrids; Sona won a hybrid differential programme from a North American OEM in Q1FY27 (₹640 cr) and micro-hybrid starter motors are an established line. 20% of automotive revenue is hybrid / micro-hybrid.",
+      "**Costs.** Steel, aluminium, copper, freight, packaging and energy inflation since late 2025; pass-through to OEMs lags 1-2 quarters; Haryana minimum-wage rise from 1-Apr-2026; new labour codes from 21-Nov-2025 (one-off ₹30 cr provision).",
+      "**Rare earths.** China's heavy rare-earth magnet export curbs (from Apr-2025) remain; Sona has moved to light rare-earth alternatives and says it has no magnet shortage (Q1FY27 call).",
+      "**Railways.** Indian Railways capex ~₹2.9 lakh cr; brakes, couplers and suspension are safety-critical with long approval cycles; new HVAC (₹2,000-2,500 cr market) and electric panels (~₹1,500 cr) approvals in Q4FY26 (Q4FY26 call)."
+     ]
+    },
+    {
+     "callout": "**Why it matters:** Sona's growth depends less on vehicle volumes than on winning programmes and launching them on time. The order book gives visibility, but launches slip, volumes on EV programmes have repeatedly come in below plan, and the company itself discounts the order book. Margins depend on how quickly OEMs accept commodity pass-through."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Does the electrification tailwind reach Sona? Yes in revenue, less so in margin",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Four tailwinds, tested",
+      "head": [
+       "Tailwind",
+       "Evidence it is real",
+       "Does it reach Sona?",
+       "Catch"
+      ],
+      "wide": [
+       1,
+       3
+      ],
+      "rows": [
+       [
+        "Global EV adoption",
+        "BEV revenue ₹23 cr (FY20) to ₹1,224 cr (FY25); +107% in Q1FY27",
+        "Yes: 44% of automotive revenue in Q1FY27",
+        "Lumpy: −6% in FY26 on one customer and US policy; EV products carry lower margins"
+       ],
+       [
+        "India electric 2W/3W",
+        "Best ever quarters in Q4FY26-Q1FY27; ~25% traction-motor share",
+        "Yes, but it will be shared: DENSO takes 49% of this business",
+        "Low value addition; competitive; part of the profit goes to DENSO from FY28"
+       ],
+       [
+        "Indian Railways capex",
+        "Railway order book ₹1,300 cr (12 months); new HVAC/panel approvals",
+        "Yes, since Jun-2025 (bought for ₹1,643 cr)",
+        "Lower margin (~20% by our estimate); slow payers; we paid ~1.8x revenue for it"
+       ],
+       [
+        "Robotics and physical AI",
+        "₹800 cr order book from three orders",
+        "Not yet: revenue negligible",
+        "Management: irrelevant for investment horizons under three years"
+       ]
+      ],
+      "source": "Company presentations and calls; DENSO filing; GAM Research"
+     }
+    },
+    {
+     "callout": "**Verdict:** the tailwinds reach Sona's revenue, which is why it is one of the few Indian component makers with a global EV franchise. They have not reached its margin: every new growth engine (traction motors, railway, suspension motors) earns less than the original differential-gear business, and the guided margin band has moved down as they grew."
+    }
+   ]
+  },
+  {
+   "id": "driveline",
+   "nav": "Driveline",
+   "kicker": "Business line 1",
+   "title": "Driveline: the original franchise, still winning ICE, hybrid and EV programmes",
+   "blocks": [
+    {
+     "p": "Differential gears were Sona's first product and remain its foundation. A differential lets the driven wheels turn at different speeds in a corner; every car, truck, tractor and EV needs one per driven axle. Sona makes the gears (sold to axle and transmission makers) and, increasingly, complete differential assemblies, which carry more value per vehicle and go into EV e-axles made by OEMs and Tier-1s worldwide. It holds 8.7% of the global differential-gear market (CY25; 8.1% in CY23) and dominates India. Outside China it gained share in CY25. Margins are the company's highest: forging, machining and heat treatment are capital- and know-how-intensive, and programmes run for 7-10 years."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Recent driveline wins (order-book additions)",
+      "head": [
+       "Quarter",
+       "Programme",
+       "Customer",
+       "Order value (₹ cr)",
+       "Start of production"
+      ],
+      "rows": [
+       [
+        "Q4FY26",
+        "Differential gears, BEV PVs",
+        "New European OEM",
+        "220",
+        "H1FY29"
+       ],
+       [
+        "Q4FY26",
+        "Differential assemblies, BEV PVs",
+        "New and existing European OEMs, Indian OEM",
+        "140 + 100 + 120",
+        "H1-H2FY28"
+       ],
+       [
+        "Q1FY27",
+        "Hybrid differential assembly, PVs",
+        "Existing North American OEM",
+        "640",
+        "H2FY29"
+       ],
+       [
+        "Q1FY27",
+        "Differential gears, ICE PVs",
+        "Existing North American OEM",
+        "210",
+        "H2FY28"
+       ],
+       [
+        "Q1FY27",
+        "Differential gears, ICE CVs and off-highway",
+        "North American and Indian customers",
+        "40",
+        "H1FY28"
+       ]
+      ],
+      "source": "Q4FY26 presentation slide 10; Q1FY27 presentation slides 17-19"
+     }
+    },
+    {
+     "callout": "**So what:** the driveline business is the reason Sona earns mid-20s margins. It keeps winning programmes in every powertrain, including ICE and hybrids, which reduces the dependence on BEV volumes. But its growth depends on programme launches 2-3 years out (most wins above start in FY28-29), and its share gains have slowed (8.8% in CY24, 8.7% in CY25)."
+    }
+   ]
+  },
+  {
+   "id": "motors",
+   "nav": "Motors & DENSO",
+   "kicker": "Business line 2",
+   "title": "Motors: starters, EV traction and suspension motors, and a DENSO partnership that shares the upside",
+   "blocks": [
+    {
+     "p": "The motor business came with Comstar: starter motors for cars and trucks (4.2% of the global market) and micro-hybrid starters. Sona then built EV traction motors and controllers for electric 2- and 3-wheelers (now \"almost 10% of revenue\", ~25% of the Indian market) and a suspension motor for an active-suspension system (with ClearMotion; production ramping in China), the fastest-growing product in Q1FY27. Traction motors are the lowest-margin product: an assembled item with low value addition, and they dragged the Q1FY27 margin."
+    },
+    {
+     "p": "**The DENSO deal (22-Jul-2026).** Sona will move its 2W/3W EV business (air-cooled traction motors, inverters, e-axles; FY26 turnover ₹385.5 cr, net worth ₹347.1 cr) into a subsidiary, Sona eDrive, for ₹893.2 cr (₹857.5 cr in cash). DENSO subscribes for 49% of Sona eDrive at an enterprise value of ₹1,750 cr; Sona keeps 51% and control. Separately, a new JV for high-voltage, liquid-cooled traction motors and inverters for cars and trucks will be 51% DENSO and 49% Sona (Sona invests ₹26 cr initially). Each partner licenses technology to the JV it controls for a royalty. Completion is due by 31-Mar-2027."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What the DENSO deal does to the numbers (not in our model)",
+      "head": [
+       "Item",
+       "Value",
+       "Comment"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Cash into the group",
+        "₹857.5 cr",
+        "Paid by Sona eDrive to Sona, funded by DENSO's subscription"
+       ],
+       [
+        "After-tax yield on that cash",
+        "~₹45 cr a year",
+        "At our 7% treasury yield and 25.5% tax"
+       ],
+       [
+        "DENSO's 49% share of Sona eDrive profit",
+        "Unknown",
+        "Equals the yield if eDrive earns ₹91 cr of PAT: a 12.1% net margin on ~₹756 cr of FY28 revenue if it grows 40% a year"
+       ],
+       [
+        "Price DENSO paid",
+        "4.5x FY26 sales",
+        "The market values Sona as a whole at ~11.4x FY26 sales (EV ÷ revenue)"
+       ]
+      ],
+      "source": "DENSO board-outcome filing (22-Jul-2026); GAM Research"
+     }
+    },
+    {
+     "callout": "**Our read:** strategically sensible (DENSO brings hybrid and high-voltage technology, customers and export reach Sona could not get alone), and close to EPS-neutral, so we leave it out until it completes. Two points the market may be glossing over: Sona gives away 49% of one of its two fastest-growing lines, and the price (4.5x sales) says a sophisticated buyer values that line far below the ~11x sales the market pays for Sona. JV2 is 49% owned and equity-accounted; with no revenue before its first start of production (timing undisclosed), it is likely to report losses at first."
+    }
+   ]
+  },
+  {
+   "id": "railway",
+   "nav": "Railway",
+   "kicker": "Business line 3",
+   "title": "Railway: ~20% of FY27E revenue, lower margin, bought for ₹1,643 cr",
+   "blocks": [
+    {
+     "p": "On 1-Jun-2025 Sona bought the Railway Equipment Division of Escorts Kubota (brakes, couplers, suspension, air springs for locomotives, coaches, wagons and metros) for ₹1,643 cr in cash; it had ₹912.8 cr of revenue in FY25. Sona does not disclose its revenue or profit (\"our job is not to help build better models\", CEO, Q3FY26). From disclosed bounds we estimate ~₹900 cr in the ten months of FY26 (see the segments file) and ~₹1,107 cr in FY27E. The guided margin band fell a point when it was added, which implies an EBITDA margin around 20% versus ~25% for the rest: we use 20% rising to 21%, and ~25.4% for FY26 automotive."
+    },
+    {
+     "bullets": [
+      "**Growth levers (management):** demand above what is being supplied (capacity and supply-chain fixes), \"white spaces\" in existing product families, and new products: electric panels (~₹1,500 cr market, all rolling stock in 12-15 months) and HVAC (₹2,000-2,500 cr market, at least three years to cover all types). New products become meaningful \"from the third year\".",
+      "**Returns vs margins:** management says railway is \"very high return\" on its own capital though lower margin. On the ₹1,643 cr Sona paid (~1.8x FY25 revenue), the return is much lower: at ~₹1,080 cr of annual revenue and ~20% EBITDA, roughly ₹160 cr of pre-tax operating profit after depreciation and amortisation (our estimate), ~10% pre-tax on the price.",
+      "**Working capital:** railway customers pay slowly; group receivable days rose from 73 to 94 in FY26."
+     ]
+    },
+    {
+     "callout": "**So what:** a sensible diversification away from US EV risk into a policy-backed Indian market, but it dilutes margins and, at the price paid, returns. It explains most of FY26's 25% revenue growth."
+    }
+   ]
+  },
+  {
+   "id": "newv",
+   "nav": "Sensors & robotics",
+   "kicker": "Business line 4",
+   "title": "Sensors, robotics and physical AI: a ₹800 cr order book and a long runway",
+   "blocks": [
+    {
+     "p": "NOVELIC (Serbia) gives Sona mmWave radar: in-cabin occupant sensing and a short-range exterior radar for an Indian commercial-vehicle OEM, aimed at upcoming Indian ADAS rules. In Jul-2026 management announced Robotics & Physical AI as a third growth engine with three orders worth ₹600 cr (an advanced robotics subsystem, a perception software stack for autonomous mobile robots, a radar perception solution), taking the vertical's order book to ₹800 cr; one order starts in Q2FY27, one in Q3 and one within 15 months. It is building its own AMR (shown at CES 2026) and plans cobots."
+    },
+    {
+     "callout": "**Our view:** this is where much of the 2026 re-rating came from (the stock rose ~16% from the Q1 results to 30-Sep), and it may become a real business: motors, gearboxes and sensors are robot building blocks. But management's own rule of thumb is \"first three years no money, year 4 the first dollar, year 7-8 a $100 mn business\", and it told investors that with a horizon under three years \"none of this has any meaning\". We give it no explicit value; it is part of what a 53.5x bull multiple would pay for."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: a narrow but real moat in engineering and programme lock-in",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Technology and engineering",
+       "Strong",
+       "19 in-house products scaled in seven years; EV differentials for global e-axles; DENSO pays royalties for its 2W/3W technology",
+       "Sona can create new product lines; that is its edge"
+      ],
+      [
+       "Scale and share",
+       "Moderate",
+       "8.7% of global differential gears, 4.2% of starter motors; dominant in India",
+       "Large in a niche; customers are far bigger"
+      ],
+      [
+       "Customer lock-in",
+       "Moderate",
+       "Programmes run 7-10 years; validation takes ~32 months; 69 EV programmes, 36 customers",
+       "Revenue is sticky per programme, but every programme is re-bid"
+      ],
+      [
+       "Pricing power",
+       "Weak",
+       "Commodity pass-through lags; margin fell 2.7 pts in FY26; OEMs set prices",
+       "Margins follow mix and inflation"
+      ],
+      [
+       "Diversification",
+       "Improving",
+       "Top four products 86% of revenue in FY25; top eight in FY26; India 51% of revenue",
+       "Less fragile than in FY25, at the cost of margin"
+      ],
+      [
+       "Disclosure",
+       "Weak",
+       "No product or business-unit revenue; order book is a management estimate",
+       "Investors must take mix and margin claims on trust"
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (annual reports, presentations and calls to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** A real but narrow moat: process know-how, cost and qualification lock-in on long programmes. It earns ~24% EBITDA margins and ~16% ROCE, good but not exceptional, and the share price discounts far more."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue up 2.8x in five years; margins have stepped down twice and EPS growth has slowed to single digits",
+   "blocks": [
+    {
+     "p": "Sona's consolidated revenue rose from ₹1,566 cr in FY21 to ₹4,449 cr in FY26 (Screener basis): 23% a year. The path had two phases. Up to FY24 growth was organic and fast (+36%, +25%, +20%) as EV differential assemblies, micro-hybrid starter motors and new customers ramped up, with EBITDA margins of 25-28%. FY25 slowed to +11% (US and European EV demand), and FY26's +25% came almost entirely from buying the railway business of Escorts Kubota (from 1-Jun-2025): by our estimate the automotive business was flat, BEV revenue fell 6% and the margin fell to 24.3%. EPS rose from ₹3.76 (FY21) to ₹10.29 (FY26), but only +10% and +6% in the last two years, because the ₹2,400 cr QIP of Sep-2024 added 5.6% to the share count and the cash it raised went into a lower-margin acquisition."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: ₹1,566 cr (FY21) to ₹4,449 cr (FY26); FY26 includes ten months of railway",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; attributable profit), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "EPS growth slowed to +10% and +6% after the QIP",
+       "unit": "EPS (₹)",
+       "x": "fin.labels",
+       "from": "FY20",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EPS",
+         "ref": "fin.eps",
+         "fmt": "n2"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; attributable profit), GAM Research. FY20 includes a ₹211 cr post-tax exceptional gain (pre-listing)."
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 28% in FY21 and FY24, 24.3% in FY26",
+       "unit": "EBITDA margin (%), Screener basis",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 15,
+       "max": 32,
+       "source": "Company filings, Screener.in (consolidated; attributable profit), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Gross margin down 6 points since FY21 as motors and railway (assembly) grow",
+       "unit": "Gross margin (%)",
+       "x": "A.labels",
+       "from": "FY20",
+       "series": [
+        {
+         "name": "Gross margin",
+         "ref": "A.grossMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 40,
+       "max": 65,
+       "source": "Company filings, Screener.in (consolidated; attributable profit), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** Sona is still a growth company, but the quality of its growth changed in FY25-26. The early EV products (differential assemblies) carried high value addition; the newer growth engines (traction motors, railway, suspension motors) are assembled products with lower gross and EBITDA margins. Management has cut its margin band twice (25-27% at the IPO, 24-26%, then 23-25% after the railway deal). Higher revenue at lower margins and a bigger equity base explain why ROE fell from 21% (FY24) to 11% (FY26)."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: revenue +54%, BEV +107%, margin 23.1% as costs ran ahead of pass-through",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore, company basis)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q1FY27",
+       "Change"
+      ],
+      "rows": [
+       [
+        "Revenue (incl. forex gain)",
+        "850.9",
+        "1310.4",
+        "+54.0%"
+       ],
+       [
+        "of which BEV revenue",
+        "210.6",
+        "435.5",
+        "+106.8%"
+       ],
+       [
+        "EBITDA",
+        "202.5",
+        "302.6",
+        "+49.4%"
+       ],
+       [
+        "EBITDA margin",
+        "23.8%",
+        "23.1%",
+        "−70bp"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net profit**",
+         "**124.7**",
+         "**180.5**",
+         "**+44.7%**"
+        ]
+       },
+       [
+        "BEV share of automotive revenue",
+        "26%",
+        "44%",
+        "+18 pts"
+       ],
+       [
+        "Net order book (₹ cr)",
+        "–",
+        "24,000",
+        "₹1,800 cr added, ₹1,500 cr consumed"
+       ]
+      ],
+      "source": "Q1FY27 presentation (23-Jul-2026) slides 13, 16, 20, 26. Screener basis: revenue ₹1,301 cr, EBITDA ₹293 cr, PAT ₹180 cr."
+     }
+    },
+    {
+     "bullets": [
+      "**The base was weak.** Q1FY26 had one month of railway revenue and BEV revenue had collapsed (customer model weakness, magnet curbs, tariffs). Excluding railway (~₹90 cr in Q1FY26, ~₹270 cr in Q1FY27 on our estimate) revenue grew ~35%.",
+      "**Margin:** \"April was tough, May was even tougher, but June showed improvement\" as pass-through caught up; mix moved to lower-margin traction motors. Management expects recoveries to show \"progressively more\" from Q2.",
+      "**Demand:** India strong (PV, e-2W), Europe growing, US improving through the quarter, China mixed but Sona's fastest-growing region (suspension motors). Eastern markets were 59% of revenue.",
+      "**Wins:** a ₹640 cr hybrid differential programme from a North American OEM, two traction-motor programmes from a new Indian e-2W maker (₹90 cr), ₹250 cr of ICE differential-gear programmes, and ₹600 cr of robotics orders.",
+      "**Cash:** \"best quarter from an operational cash flow perspective\" (lower debtor days); net debt still negative."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (Apr-2026 to Sep-2026)",
+      "head": [
+       "When",
+       "Topic",
+       "What was said"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "May-2026 (Q4 call)",
+        "Margin band",
+        "EBITDA margin band 23-25% after the railway acquisition (24-26% for the core business before it; 25-27% at IPO). CEO, Q4FY26 call, May-2026. Not changed on the Q1FY27 call."
+       ],
+       [
+        "May-2026 (Q4 call)",
+        "Costs",
+        "Commodity inflation (steel, aluminium, copper, freight, energy) and Haryana minimum wage rise from 1-Apr-2026 to pressure margins; pass-through lags (Q4FY26 call)."
+       ],
+       [
+        "Jul-2026 (Q1 call)",
+        "Ambition",
+        "No annual revenue guidance. 'Sona Comstar 2.0' ambition (Jul-2026): another 10x in a decade (FY25 revenue ₹3,555 cr)."
+       ],
+       [
+        "May/Jul-2026",
+        "New businesses",
+        "'If your investment horizon is less than 3 years, none of this [robotics, eVTOL] has any meaning for you as an investor' (CEO, Q4FY26 call). Robotics & Physical AI order book ₹800 cr; first SOPs within 12-15 months."
+       ],
+       [
+        "Jul-2026 (Q1 call)",
+        "Capacity",
+        "\"We have enough and more capacity\"; OEMs are constrained by other suppliers, not demand."
+       ]
+      ],
+      "source": "Q4FY26 call (6-May-2026 transcript); Q1FY27 call (23-Jul-2026)"
+     }
+    },
+    {
+     "callout": "**Why it matters:** Sona gives no revenue guidance; the only number it commits to is the 23-25% EBITDA band (company basis). Q1 was at the bottom of it. Our FY27E margin of {{F.ebitdaMargin.0|pct}} on Screener's basis (~23.3% on the company's) assumes only a modest recovery from Q2."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "Self-funded growth, a ₹2,400 cr QIP and a ₹1,643 cr acquisition: returns are now half the FY24 level",
+   "blocks": [
+    {
+     "p": "Sona has always spent heavily on capacity: capex of 10-16% of revenue in FY21-26 (Screener; FY26 includes ~₹110 cr of land for the railway business). Operating cash flow covered capex and dividends in every year since FY22. In Sep-2024 it raised ₹2,400 cr through a QIP (3.48 cr shares, ~5.6% dilution) with no immediate use; ₹1,643 cr of it went into the railway business in Jun-2025, and the NOVELIC stake was completed. ROCE on Screener's basis fell from 24% (FY24) to 14% (FY26) and ROE from 21% to 11%: the cash raised earns little until it is deployed, and the railway business, which management calls high-return on its own capital, was bought at ~1.8x revenue, so its returns on the purchase price are lower."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash flow vs capex",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY20",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated; attributable profit), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 22-24% in FY21-24, 14% in FY26 (QIP cash, then the railway purchase)",
+       "unit": "Return on capital employed (%), Screener basis",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          19,
+          21,
+          22,
+          22,
+          24,
+          18,
+          14
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 35,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY21-23",
+       "FY24-26",
+       "Six years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "1,121",
+        "2,127",
+        "3,248"
+       ],
+       [
+        "Capex (cash, incl. land)",
+        "901",
+        "1,229",
+        "2,130"
+       ],
+       [
+        "Dividends paid",
+        "255",
+        "567",
+        "822"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over**",
+         "**−35**",
+         "**331**",
+         "**296**"
+        ]
+       },
+       [
+        "Memo: QIP proceeds (Sep-2024, net)",
+        "",
+        "2,370",
+        ""
+       ],
+       [
+        "Memo: railway business (Jun-2025) and NOVELIC",
+        "",
+        "~1,800",
+        ""
+       ]
+      ],
+      "source": "Screener.in cash flow (consolidated); AR FY25 board report 9.1 (QIP); AR FY26 MD&A; Q4FY26 call (acquisitions)"
+     }
+    },
+    {
+     "callout": "**The capital question:** management says its ~₹2,750 cr of acquisitions (Comstar, NOVELIC, railway) now produce ~40% of revenue and would earn ~₹270 cr of net profit \"at comparable margins\" (Q1FY27 call). That is a claim, not a disclosure: the company does not report business-unit profit. What is visible is that ROE fell by half in two years and the DENSO deal values the 2W/3W EV business at 4.5x its sales, well below what the market pays for Sona as a whole."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean accounts and few one-offs; the weak spot is disclosure",
+   "blocks": [
+    {
+     "bullets": [
+      "**Cash conversion is good but slipped in FY26.** Cash from operations was 129% of net profit in FY25 and 103% in FY26 (₹659 cr) as receivables rose with the railway business; free cash flow after capex was ₹180 cr (Screener).",
+      "**Few one-offs.** Exceptional items were small after listing: a ₹30 cr after-tax labour-code provision in Q3FY26 (company adjusted PAT ₹670 cr vs reported ₹641 cr) and minor items in other years. The ₹233 cr gain in FY20 was before listing. We use reported EPS.",
+      "**Other income** (₹115 cr in the four quarters to Jun-26 before the labour-code charge) is treasury income plus forex gains; our FY27E ₹{{F.otherIncome.0|num}} cr sits between that and Q1 annualised (₹140 cr).",
+      "**Minorities:** NOVELIC's minority shareholders absorb part of its losses, so attributable profit is slightly above Screener's Net Profit row; we use attributable profit (EPS consistent with 62.2 cr shares).",
+      "**PLI income** (auto PLI scheme, eight approved products) is booked in operating income; Q4FY25 carried a full year of it, which flattered that quarter's margin by ~1.9 pts (Q4FY26 call).",
+      "**Disclosure:** no product or business-unit revenue, an order book that is a management estimate (10-year revenue, discounted), and margin claims for acquisitions (\"~₹270 cr of profit at comparable margins\") that cannot be checked."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: GREEN.** Walker Chandiok audit without qualification, few exceptional items, modest goodwill from the railway deal and genuine cash generation. Our caution is about disclosure (and therefore predictability), not accounting."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash ~₹1,000 cr after the railway purchase; working capital has stretched",
+   "blocks": [
+    {
+     "p": "At Mar-2026 Sona held ₹348 cr of cash and bank balances, ₹500 cr of current investments (debt funds) and ₹381 cr of fixed deposits, against ₹243 cr of debt (mostly short-term working-capital loans taken in FY26): net cash ₹1,026 cr on the company's basis, down from ₹2,659 cr a year earlier after the railway purchase. In our model the opening net treasury is ₹837 cr because Screener's borrowings also include ~₹199 cr of lease liabilities. Working capital stretched in FY26: receivable days rose to 94 and inventory days to 107 as the railway business (Indian Railways and wagon makers pay slowly) was consolidated; Q1FY27 brought a \"significant reduction in debtor days\" (CFO). Goodwill and intangibles from the railway deal sit in fixed assets (₹3,646 cr at Mar-26 vs ₹2,127 cr)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Receivable and inventory days rose with the railway business",
+       "unit": "Days",
+       "x": [
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          161,
+          173,
+          140,
+          97,
+          92,
+          82,
+          107
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          82,
+          97,
+          76,
+          84,
+          74,
+          73,
+          94
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          95,
+          127,
+          85,
+          74,
+          79,
+          77,
+          80
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Cash and investments on Screener's basis (FDs excluded)",
+       "unit": "Cash and investments (₹ crore)",
+       "x": "A.labels",
+       "from": "FY20",
+       "series": [
+        {
+         "name": "Cash and investments",
+         "ref": "A.cashAndInvestments",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; attributable profit), GAM Research. Fixed deposits (₹381 cr at Mar-26) sit in other assets."
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.3|num}}",
+        "{{A.netWorth.5|num}}",
+        "{{A.netWorth.6|num}}",
+        "{{A.netWorth.7|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "{{A.borrowings.3|num}}",
+        "{{A.borrowings.5|num}}",
+        "{{A.borrowings.6|num}}",
+        "{{A.borrowings.7|num}}"
+       ],
+       [
+        "Cash and investments (Screener basis)",
+        "{{A.cashAndInvestments.3|num}}",
+        "{{A.cashAndInvestments.5|num}}",
+        "{{A.cashAndInvestments.6|num}}",
+        "{{A.cashAndInvestments.7|num}}"
+       ],
+       [
+        "Net fixed assets (incl. goodwill, intangibles)",
+        "{{A.fixedAssets.3|num}}",
+        "{{A.fixedAssets.5|num}}",
+        "{{A.fixedAssets.6|num}}",
+        "{{A.fixedAssets.7|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.3|num}}",
+        "{{A.inventories.5|num}}",
+        "{{A.inventories.6|num}}",
+        "{{A.inventories.7|num}}"
+       ],
+       [
+        "Trade receivables",
+        "{{A.receivables.3|num}}",
+        "{{A.receivables.5|num}}",
+        "{{A.receivables.6|num}}",
+        "{{A.receivables.7|num}}"
+       ],
+       [
+        "Trade payables",
+        "{{A.payables.3|num}}",
+        "{{A.payables.5|num}}",
+        "{{A.payables.6|num}}",
+        "{{A.payables.7|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated; attributable profit), GAM Research. Company net cash Mar-26: cash ₹348 cr + current investments ₹500 cr + FDs ₹381 cr − debt ₹243 cr = ₹1,026 cr (AR FY26 MD&A)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: a 28% promoter, 42% Indian institutions, 24% foreign funds",
+   "blocks": [
+    {
+     "p": "The promoter is Aureus Investment Pvt Ltd (28.01%, Jun-2026), the Kapur family's holding company; nothing is pledged. Mutual funds own 36.68%, insurers 4.3%, foreign portfolio investors 23.6% and retail and others 6.77%: institutions own about two-thirds of the company. Indian funds bought heavily in the FY26 sell-off while foreign funds sold (FPIs 33.3% in Dec-2024, 23.6% in Jun-2026)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Indian institutions up from 31% to 42% in 18 months; foreign funds down from 33% to 24%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoter (Aureus Investment) at ~28% since the Sep-2024 QIP",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 0,
+       "max": 40,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest holders",
+      "head": [
+       "Holder",
+       "Stake"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Aureus Investment Pvt Ltd (promoter; Kapur family vehicle)",
+        "28.01%"
+       ],
+       [
+        "SBI Quality Fund (SBI MF)",
+        "9.53%"
+       ],
+       [
+        "ICICI Prudential Large & Mid Cap Fund",
+        "8%"
+       ],
+       [
+        "Government of Singapore (GIC)",
+        "6.54%"
+       ],
+       [
+        "Axis Mutual Fund",
+        "3.58%"
+       ],
+       [
+        "HDFC Mutual Fund",
+        "3.35%"
+       ],
+       [
+        "Aditya Birla Sun Life MF",
+        "2.96%"
+       ],
+       [
+        "Mirae Asset Focused Fund",
+        "2.53%"
+       ],
+       [
+        "HDFC Life Insurance",
+        "1.58%"
+       ],
+       [
+        "Monetary Authority of Singapore",
+        "1.56%"
+       ],
+       [
+        "LIC",
+        "1.53%"
+       ]
+      ],
+      "source": "Promoter stake and categories at 30-Jun-2026; named public holders at 31-Mar-2026 (AR FY26 top-10 list; Jun-2026 named holdings not available in our sources). Sources: AR FY26 (top-10 public shareholders, note 13A), Trendlyne (Jun-2026 categories)."
+     }
+    },
+    {
+     "callout": "**Our read:** a professionally managed company with a minority promoter. That is a strength (institutional ownership, independent board) and a risk: the Kapur family's dispute over Aureus (2025-26) and a promoter nominee on the audit committee from Jul-2026 are governance items to watch, though none has touched the company's operations."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: independent board and strong management; a family dispute above the promoter vehicle",
+   "blocks": [
+    {
+     "p": "9 directors at Mar-2026: 6 independent (2 women), 2 executive, 1 promoter nominee. Statutory auditor Walker Chandiok & Co LLP. MD & Group CEO Vivek Vikram Singh (since 2016) has led the company through the IPO, the EV build-out and the railway and DENSO deals; CFO Rohit Nanda. Chairman Sunjay Kapur died on 12-Jun-2025. His mother Rani Kapur wrote before the 25-Jul-2025 AGM claiming to be the majority shareholder of the group and asking for the AGM to be postponed; the company called the claims baseless (no shareholding since 2019, when Sunjay Kapur was declared sole beneficial owner of the RK Family Trust behind Aureus) and sent a cease-and-desist notice (Outlook Business, 29-Jul-2025). A family dispute over Aureus continued into 2026 (Mint, Feb-2026). The listed company is professionally run; the promoter holds one board seat."
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "Walker Chandiok & Co, unqualified; few exceptional items",
+       "No accounting red flags"
+      ],
+      [
+       "Board",
+       "Strong",
+       "6 of 9 independent; independent chairman (Jeffrey Mark Overly) since Jun-2025",
+       "Better than most promoter-led peers"
+      ],
+      [
+       "Promoter",
+       "Watch",
+       "Aureus (28%): chairman Sunjay Kapur died Jun-2025; his mother disputed control (Jul-2025, company called it baseless); family dispute continued into 2026; Priya Sachdev Kapur on the board and, from Jul-2026, the audit committee",
+       "Not an operating issue so far; could distract or lead to a stake sale"
+      ],
+      [
+       "Capital allocation",
+       "Moderate",
+       "Railway at ~1.8x revenue; QIP cash parked for nine months; DENSO deal at 4.5x sales",
+       "Disciplined by its own account (\"evaluated 100 opportunities, acted on one\"), but returns have halved"
+      ],
+      [
+       "Pay",
+       "Watch",
+       "MD pay ₹15.0 cr in FY26 (144x the median employee, +15%) when adjusted PAT rose 11%; a former holding company paid exit bonuses to some KMP",
+       "High for a ₹4,500 cr-revenue company"
+      ],
+      [
+       "Disclosure",
+       "Moderate",
+       "Generous on strategy and order wins; no business-unit numbers",
+       "Hard to verify mix and margin"
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "AR FY26 (corporate governance report, remuneration annexure, board report); Outlook Business (29-Jul-2025); DENSO filing (22-Jul-2026)"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EPS ₹{{F.eps.0|n2}} / ₹{{F.eps.1|n2}} / ₹{{F.eps.2|n2}}, +18% a year",
+   "blocks": [
+    {
+     "p": "We forecast revenue from a two-line build: automotive and other (FY26 ~₹3,549 cr on our railway estimate) growing 21% / 16% / 15% and railway growing 23% / 12% / 12% (FY27E includes two extra months). EBITDA margins are 23.6% / 23.8% / 24.1% (automotive) and 20% / 20.5% / 21% (railway), a blended {{F.ebitdaMargin.0|pct}} / {{F.ebitdaMargin.1|pct}} / {{F.ebitdaMargin.2|pct}} on Screener's basis. Capex ₹450 / 500 / 550 cr; depreciation 6.3% of gross block; other income = 7% on net treasury (₹837 cr at Mar-26) plus ₹70-75-80 cr of forex gains and other items; interest ₹40 cr; tax 25.5%; payout 33%. The DENSO deal is not modelled."
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Other income (actuals incl. exceptional items)",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n2"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, Screener.in, GAM Research estimates. FY26 includes ten months of railway."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (what the targets standing on 30-Sep-2026 imply)",
+      "head": [
+       "Broker",
+       "Target (₹)",
+       "Method",
+       "Implied P/E on our Sep-28E EPS",
+       "Implied P/E on our FY28E EPS"
+      ],
+      "rows": [
+       [
+        "Motilal Oswal (23-Jul-26)",
+        "652",
+        "P/E",
+        "41.8x",
+        "45.7x"
+       ],
+       [
+        "Nomura (24-Jul-26)",
+        "848",
+        "n.d.",
+        "54.3x",
+        "59.4x"
+       ],
+       [
+        "Jefferies (23-Jul-26)",
+        "700",
+        "n.d.",
+        "44.8x",
+        "49.0x"
+       ],
+       [
+        "Jefferies (28-Sep-2026)",
+        "n.d.",
+        "P/E 55x FY28E",
+        "–",
+        "55x (≈ ₹785 on our EPS)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**{{dcf.tp|num}}**",
+         "**P/E 48.5x Sep-28E**",
+         "**48.5x**",
+         "**53.2x**"
+        ]
+       }
+      ],
+      "source": "Broker targets as in the street table; broker EPS estimates were not public (gap). GAM Research."
+     }
+    },
+    {
+     "callout": "Broker EPS estimates standing on 30-Sep-2026 were not available to us, so we compare targets instead. At our EPS the post-Q1 targets imply 41.8-54.3x Sep-28E; Jefferies' 55x FY28E would give ~₹785. Our EPS compounds ~18% a year over FY26-29E (FY22-26: ~14% a year). As with most of the street, the debate is the multiple."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street after Q1: split between Buy and Neutral, targets ₹652-848",
+   "blocks": [
+    {
+     "p": "Coverage visible to us is split. Motilal Oswal has been Neutral since the IPO and kept Neutral with ₹652 after Q1 (23-Jul-2026), calling the \"10x in 10 years\" ambition ambitious. Nomura raised its target to ₹848 (Buy, 24-Jul) on the DENSO JV's four-wheeler opportunity. Jefferies kept Buy with ₹700 on the DENSO news (23-Jul) and, on 28-Sep, published a thematic note valuing Sona at 55x FY28E EPS (target not in the press report), above the 44x average multiple since listing, for its shift to higher-value engineering. Median of the three post-Q1 targets: ₹700, −16% vs the 30-Sep-2026 close of ₹830: the stock ran past most targets. Every house that shows a method uses **P/E on one-year-forward EPS**."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Source"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "The order book (₹24,000 cr, 5.4x revenue) is a 10-year, management-discounted estimate; FY26 consumed ₹6,200 cr including a write-down of programmes with low ramp-up visibility.",
+        "GAM Research from company disclosures"
+       ],
+       [
+        "FY26 organic revenue was roughly flat (our estimate): growth came from buying the railway business.",
+        "GAM Research from company disclosures"
+       ],
+       [
+        "Margins have stepped down from 27.4% (FY25) to 24.7% (FY26) and 23.1% (Q1FY27): the band was cut twice (25-27% at IPO, 24-26%, now 23-25%).",
+        "GAM Research from company disclosures"
+       ],
+       [
+        "Robotics and physical AI (₹800 cr order book) is a narrative the market is paying for years before revenue; management itself says it is irrelevant for horizons under three years.",
+        "GAM Research from company disclosures"
+       ],
+       [
+        "The DENSO deal values the 2W/3W EV business at ₹1,750 cr, 4.5x its FY26 turnover of ₹385.5 cr, well below the ~11x EV/sales the market pays for Sona as a whole.",
+        "GAM Research from company disclosures"
+       ]
+      ],
+      "source": "Annual reports, presentations, DENSO filing; GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 48.5x Sep-28E EPS gives {{dcf.tp|inr}}; the market pays 53x",
+   "blocks": [
+    {
+     "h": "How the street values Sona"
+    },
+    {
+     "p": "We use the street's method so our target is comparable: P/E on the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). The \"At our EPS\" column applies a broker's disclosed multiple to our EPS for the same year."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Motilal Oswal (23-Jul-26)",
+        "Neutral",
+        "652",
+        "P/E",
+        "n.d.",
+        "n.d.",
+        "–",
+        "Q1 PAT in line; EBITDA margin -70bp YoY to 23.1% on mix and input costs; 'Sona 2.0' sets an ambitious 10x-in-10-years goal; Neutral since IPO (targets ₹468-652 over FY26)"
+       ],
+       [
+        "Nomura (24-Jul-26)",
+        "Buy",
+        "848",
+        "n.d.",
+        "n.d.",
+        "n.d.",
+        "–",
+        "Target raised; DENSO JV opens 4-wheeler HV/hybrid powertrains; Q1 broadly in line; 'Company 2.0' strategy"
+       ],
+       [
+        "Jefferies (23-Jul-26)",
+        "Buy",
+        "700",
+        "n.d.",
+        "n.d.",
+        "n.d.",
+        "–",
+        "Buy retained after the DENSO JV agreements (published before the results that evening)"
+       ],
+       [
+        "Jefferies (thematic note) (28-Sep-26)",
+        "n.d.",
+        "n.d.",
+        "P/E",
+        "55x",
+        "FY28E",
+        "790",
+        "Shift to higher-value engineering (EVs, railways, robotics, physical AI) and the DENSO partnership justify a premium to the 44x average multiple since the 2021 listing; risks: weaker exports, slower order wins. Target figure not given in the press report."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**SELL**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**48.5x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Good franchise and a strong Q1; the price already pays the stock's own median multiple while the sector trades below its own"
+        ]
+       }
+      ],
+      "source": "Trendlyne report list (MOSL); Univest (Nomura, Jefferies, Jul-2026); Business Today (Jefferies, 28-Sep-2026). Full notes are behind logins."
+     }
+    },
+    {
+     "h": "Our target multiple: 48.5x, and why"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the multiple (house rule, PLAYBOOK §4 and §7c)",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1. Own forward P/E (house function)",
+        "One-year-forward P/E (price ÷ next full year's EPS; actuals, then ours) from 24-Jun-2022, leaving out the first 12 months after the Jun-2021 listing, when it was 54-117x: median 53.3x (25th-75th percentile 43.0-60.6x); no trough years. By forward year: FY23 93.6x, FY24 53.9x, FY25 58.9x, FY26 63.6x, FY27 40.0x, FY28 46.2x",
+        "**Starting point: 53.3x**"
+       ],
+       [
+        "2. Sector de-rating",
+        "Auto-component peers' trailing P/E on 30-Sep-2026 vs their five-year medians: Bosch +29%, Samvardhana Motherson −7%, Uno Minda −9%, Schaeffler India −14%, Tube Investments +0%, Endurance Tech −10%, ZF CV Control −22%, Motherson Sumi Wiring −27%; median −9%. Excluded: Bharat Forge (+53%; earnings distorted); Gabriel India (+59%; no five-year history); all ten −8%. Sona itself (−1%) is not used",
+        "× 0.906"
+       ],
+       [
+        "3. Growth vs the street",
+        "Jefferies pays 55x FY28E for the \"higher-value engineering\" story; our EPS grows ~18% a year over FY26-29E, below the 23% revenue CAGR of FY21-26",
+        "No adjustment (§7c); see sensitivity"
+       ],
+       [
+        "4. Peers",
+        "Peer median trailing P/E 50.7x; Sona 71.3x with a 24% EBITDA margin but 11% ROE",
+        "Sona already trades at a +41% premium to peers"
+       ],
+       [
+        "5. Returns",
+        "ROE 11.2% in FY26, ~{{F.roe.2|pct}} by FY29E vs a 12.5% cost of equity",
+        "Barely above the cost of equity: no case for a premium"
+       ],
+       [
+        "6. Result (nearest half-turn)",
+        "53.3x × 0.906 = 48.3x",
+        "**48.5x Sep-28E EPS of ₹15.6**"
+       ],
+       [
+        "7. Bull / bear",
+        "Bull: no de-rating (53.3x). Bear: 25th-percentile forward P/E, de-rated (43.0x × 0.906)",
+        "53.5x / 39x"
+       ]
+      ],
+      "source": "Screener.in prices and EPS to 30-Sep-2026; GAM estimates for FY27-28E EPS in the forward series"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E since mid-2022: median 53.3x; now 53.2x on Sep-28E",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2021-06-25",
+        "2021-07-02",
+        "2021-07-09",
+        "2021-07-16",
+        "2021-07-23",
+        "2021-07-30",
+        "2021-08-06",
+        "2021-08-13",
+        "2021-08-20",
+        "2021-08-27",
+        "2021-09-03",
+        "2021-09-09",
+        "2021-09-17",
+        "2021-09-24",
+        "2021-10-01",
+        "2021-10-08",
+        "2021-10-14",
+        "2021-10-22",
+        "2021-10-29",
+        "2021-11-04",
+        "2021-11-12",
+        "2021-11-18",
+        "2021-11-26",
+        "2021-12-03",
+        "2021-12-10",
+        "2021-12-17",
+        "2021-12-24",
+        "2021-12-31",
+        "2022-01-07",
+        "2022-01-14",
+        "2022-01-21",
+        "2022-01-28",
+        "2022-02-04",
+        "2022-02-11",
+        "2022-02-18",
+        "2022-02-25",
+        "2022-03-04",
+        "2022-03-11",
+        "2022-03-17",
+        "2022-03-25",
+        "2022-04-01",
+        "2022-04-08",
+        "2022-04-13",
+        "2022-04-22",
+        "2022-04-29",
+        "2022-05-06",
+        "2022-05-13",
+        "2022-05-20",
+        "2022-05-27",
+        "2022-06-03",
+        "2022-06-10",
+        "2022-06-17",
+        "2022-06-24",
+        "2022-07-01",
+        "2022-07-08",
+        "2022-07-15",
+        "2022-07-22",
+        "2022-07-29",
+        "2022-08-05",
+        "2022-08-12",
+        "2022-08-19",
+        "2022-08-26",
+        "2022-09-02",
+        "2022-09-09",
+        "2022-09-16",
+        "2022-09-23",
+        "2022-09-30",
+        "2022-10-07",
+        "2022-10-14",
+        "2022-10-21",
+        "2022-10-28",
+        "2022-11-04",
+        "2022-11-11",
+        "2022-11-18",
+        "2022-11-25",
+        "2022-12-02",
+        "2022-12-09",
+        "2022-12-16",
+        "2022-12-23",
+        "2022-12-30",
+        "2023-01-06",
+        "2023-01-13",
+        "2023-01-20",
+        "2023-01-27",
+        "2023-02-03",
+        "2023-02-10",
+        "2023-02-17",
+        "2023-02-24",
+        "2023-03-03",
+        "2023-03-10",
+        "2023-03-17",
+        "2023-03-24",
+        "2023-03-31",
+        "2023-04-06",
+        "2023-04-13",
+        "2023-04-21",
+        "2023-04-28",
+        "2023-05-05",
+        "2023-05-12",
+        "2023-05-19",
+        "2023-05-26",
+        "2023-06-02",
+        "2023-06-09",
+        "2023-06-16",
+        "2023-06-23",
+        "2023-06-30",
+        "2023-07-07",
+        "2023-07-14",
+        "2023-07-21",
+        "2023-07-28",
+        "2023-08-04",
+        "2023-08-11",
+        "2023-08-18",
+        "2023-08-25",
+        "2023-09-01",
+        "2023-09-08",
+        "2023-09-15",
+        "2023-09-22",
+        "2023-09-29",
+        "2023-10-06",
+        "2023-10-13",
+        "2023-10-20",
+        "2023-10-27",
+        "2023-11-03",
+        "2023-11-12",
+        "2023-11-17",
+        "2023-11-24",
+        "2023-12-01",
+        "2023-12-08",
+        "2023-12-15",
+        "2023-12-22",
+        "2023-12-29",
+        "2024-01-05",
+        "2024-01-12",
+        "2024-01-20",
+        "2024-01-25",
+        "2024-02-02",
+        "2024-02-09",
+        "2024-02-16",
+        "2024-02-23",
+        "2024-03-02",
+        "2024-03-07",
+        "2024-03-15",
+        "2024-03-22",
+        "2024-03-28",
+        "2024-04-05",
+        "2024-04-12",
+        "2024-04-19",
+        "2024-04-26",
+        "2024-05-03",
+        "2024-05-10",
+        "2024-05-18",
+        "2024-05-24",
+        "2024-05-31",
+        "2024-06-07",
+        "2024-06-14",
+        "2024-06-21",
+        "2024-06-28",
+        "2024-07-05",
+        "2024-07-12",
+        "2024-07-19",
+        "2024-07-26",
+        "2024-08-02",
+        "2024-08-09",
+        "2024-08-16",
+        "2024-08-23",
+        "2024-08-30",
+        "2024-09-06",
+        "2024-09-13",
+        "2024-09-20",
+        "2024-09-27",
+        "2024-10-04",
+        "2024-10-11",
+        "2024-10-18",
+        "2024-10-25",
+        "2024-11-01",
+        "2024-11-08",
+        "2024-11-14",
+        "2024-11-22",
+        "2024-11-29",
+        "2024-12-06",
+        "2024-12-13",
+        "2024-12-20",
+        "2024-12-27",
+        "2025-01-03",
+        "2025-01-10",
+        "2025-01-17",
+        "2025-01-24",
+        "2025-02-01",
+        "2025-02-07",
+        "2025-02-14",
+        "2025-02-21",
+        "2025-02-28",
+        "2025-03-07",
+        "2025-03-13",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-04",
+        "2025-04-11",
+        "2025-04-17",
+        "2025-04-25",
+        "2025-05-02",
+        "2025-05-09",
+        "2025-05-16",
+        "2025-05-23",
+        "2025-05-30",
+        "2025-06-06",
+        "2025-06-13",
+        "2025-06-20",
+        "2025-06-27",
+        "2025-07-04",
+        "2025-07-11",
+        "2025-07-18",
+        "2025-07-25",
+        "2025-08-01",
+        "2025-08-08",
+        "2025-08-14",
+        "2025-08-22",
+        "2025-08-29",
+        "2025-09-05",
+        "2025-09-12",
+        "2025-09-19",
+        "2025-09-26",
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E (weekly)",
+         "values": [
+          54,
+          55.9,
+          62.6,
+          59.5,
+          62.7,
+          65.1,
+          61,
+          74.3,
+          69.1,
+          70.3,
+          77.9,
+          81.6,
+          84.5,
+          82.7,
+          83.3,
+          93.5,
+          111.9,
+          91.3,
+          96,
+          98.6,
+          100.7,
+          105.2,
+          108,
+          113.5,
+          116.9,
+          112,
+          105.6,
+          110.2,
+          108.8,
+          112,
+          104,
+          92.7,
+          101,
+          93.6,
+          97.3,
+          96.3,
+          87.4,
+          91.4,
+          101.4,
+          98.1,
+          74.5,
+          74.3,
+          70.4,
+          76.1,
+          72.1,
+          67.5,
+          64.5,
+          63,
+          61,
+          65,
+          68.2,
+          64.3,
+          65.8,
+          64.4,
+          64.3,
+          64.6,
+          65.2,
+          64.4,
+          63.2,
+          64.6,
+          59.1,
+          60.2,
+          59.4,
+          59.8,
+          58.4,
+          53.9,
+          52.6,
+          53.5,
+          52.1,
+          54.1,
+          52.6,
+          52.3,
+          51.9,
+          50.5,
+          50.2,
+          52.4,
+          49.7,
+          51.3,
+          45.4,
+          47.6,
+          47.3,
+          48.3,
+          46.3,
+          51.2,
+          50.4,
+          52.5,
+          52.5,
+          52.3,
+          51.7,
+          49.5,
+          47.4,
+          46.6,
+          46.9,
+          43.8,
+          46,
+          48.2,
+          49.6,
+          51.7,
+          55.2,
+          55.4,
+          55.8,
+          55,
+          55.4,
+          53.8,
+          52.4,
+          53.3,
+          55.4,
+          56.6,
+          59.2,
+          58.4,
+          57.7,
+          57.5,
+          58.6,
+          60.6,
+          61.2,
+          61.2,
+          62,
+          60,
+          60.3,
+          58.9,
+          57.9,
+          55.9,
+          57,
+          56.7,
+          59,
+          60.6,
+          58.8,
+          58.1,
+          59.1,
+          57.2,
+          59.7,
+          66.6,
+          66.9,
+          62.6,
+          60.7,
+          60.5,
+          65.2,
+          64,
+          63.5,
+          67.1,
+          71.8,
+          70.8,
+          66.3,
+          71.5,
+          73,
+          64.4,
+          66.1,
+          66.2,
+          62.9,
+          59.3,
+          57.4,
+          59.6,
+          61.3,
+          63.3,
+          64.6,
+          63,
+          61.1,
+          62.3,
+          63.8,
+          70.4,
+          67.4,
+          67.1,
+          67,
+          66,
+          66.7,
+          67.6,
+          66.4,
+          69.9,
+          70.4,
+          72.7,
+          71.5,
+          67.7,
+          64.6,
+          61.9,
+          68,
+          67.8,
+          68.4,
+          65,
+          66.6,
+          65.3,
+          65,
+          61.4,
+          57.2,
+          58.3,
+          57.4,
+          55.3,
+          55.9,
+          51,
+          48.9,
+          51.5,
+          47.5,
+          49.3,
+          48,
+          50.3,
+          47.2,
+          49.5,
+          44.8,
+          35.1,
+          35.8,
+          37.6,
+          37.8,
+          41.4,
+          41.7,
+          45.2,
+          44.7,
+          45.3,
+          42.5,
+          41.8,
+          40.5,
+          39.9,
+          39.8,
+          37.2,
+          39.9,
+          39.1,
+          36.4,
+          37.1,
+          37.6,
+          37.4,
+          36.9,
+          36.7,
+          35.7,
+          36.3,
+          33.9,
+          34.9,
+          36,
+          38.5,
+          39.9,
+          39.4,
+          40.9,
+          40.4,
+          41.9,
+          42.6,
+          41,
+          41,
+          41.4,
+          40.1,
+          40.5,
+          38.3,
+          38.3,
+          38,
+          40.8,
+          42.8,
+          44,
+          44.3,
+          44.5,
+          42.9,
+          40.5,
+          42.2,
+          40.7,
+          34.8,
+          38.8,
+          41.6,
+          39.6,
+          42.5,
+          40.6,
+          40.2,
+          41.6,
+          42.5,
+          42.2,
+          41.5,
+          43,
+          43.4,
+          46.2,
+          46.8,
+          49.4,
+          50.3,
+          53.9,
+          57.3,
+          55.5,
+          57.3,
+          57.1,
+          55.3,
+          55.2,
+          56.6,
+          57.7,
+          58.1
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 53.3,
+         "text": "Median since Jun-22: 53.3x"
+        },
+        {
+         "v": 48.5,
+         "text": "Our multiple: 48.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in weekly prices from listing; actual EPS, GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Street median target",
+        "Share price"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          757,
+          710,
+          310,
+          700,
+          830
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "Sep-28E EPS ₹15.6",
+        "48.5x (bull 53.5x, bear 39x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "Sep-28E EBITDA ₹1,556 cr + net cash",
+        "27.5x (bull 30x, bear 20x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "−6%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "FCFF FY28-42E, Ke {{dcf.ke|n1}}%, g 6%",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "−59%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA (27.5x Sep-28E EBITDA plus net cash) gives ₹710: 27.5x is Sona's 40.1x median trailing EV/EBITDA since Jun-2022, cut by the same 9.4% de-rating and restated from trailing (₹1,169 cr to Jun-26) to Sep-28E EBITDA (× 0.751). The DCF gives only ₹310 at a 12.5% cost of equity: even at 11.5% and 7.0% terminal growth it is ₹420. A ~23% margin business that reinvests ~8% of revenue and grows 14-15% a year does not generate enough free cash in 15 years to justify ₹830: the price assumes decades of high growth (robotics, DENSO JVs) that a DCF cannot see."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Views we did not put in the base (sensitivity rows only)",
+      "head": [
+       "View",
+       "What it changes",
+       "Value / share (₹)"
+      ],
+      "wide": [
+       0,
+       1
+      ],
+      "rows": [
+       [
+        "From listing (Jun-2021), IPO months included",
+        "57.1x × 0.906",
+        "810"
+       ],
+       [
+        "From Apr-2022",
+        "53.9x × 0.906",
+        "760"
+       ],
+       [
+        "Every weekly close (not every fifth) since Jun-2022",
+        "53.7x × 0.906",
+        "760"
+       ],
+       [
+        "Bharat Forge kept in the peer set",
+        "de-rating −9% → 48.5x",
+        "760"
+       ],
+       [
+        "No sector de-rating (bull multiple)",
+        "53.5x",
+        "840"
+       ],
+       [
+        "Jefferies' 55x on FY28E EPS",
+        "55x × ₹14.3",
+        "790"
+       ],
+       [
+        "Growth premium",
+        "EPS +18% a year FY26-29E; PEG at our multiple 2.7x. The Jun-2022 to Sep-2026 median was paid for next-year EPS growth of 6-31% (FY24-28E), much like our forecast, so no premium is warranted",
+        "not applied"
+       ]
+      ],
+      "source": "GAM Research. Per PLAYBOOK §7c, window choices, peer sub-sets, growth and returns views are shown, not added to the base multiple."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple 53.5x (no sector de-rating)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Revenue {{F.sales.0|num}} / {{F.sales.1|num}} / {{F.sales.2|num}} cr; EBITDA margin {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 48.5x Sep-28E EPS."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple 39x (25th percentile, de-rated)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research. Free cash flow to the firm excludes treasury income; the cost of equity is the discount rate (net cash)."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed auto-component peers",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "vs 5-yr median P/E",
+       "EV/EBITDA (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Sona Comstar**",
+        "51,890",
+        "4,449",
+        "24.3%",
+        "71.3",
+        "−1%",
+        "40.4",
+        "11%"
+       ],
+       [
+        "Bosch",
+        "1,38,927",
+        "20,035",
+        "13.2%",
+        "52.9",
+        "+29%",
+        "34.4",
+        "19.4%"
+       ],
+       [
+        "Samvardhana Motherson",
+        "1,74,206",
+        "1,26,104",
+        "9.6%",
+        "37.7",
+        "−7%",
+        "13.6",
+        "10.8%"
+       ],
+       [
+        "Bharat Forge (excluded)",
+        "94,090",
+        "16,812",
+        "17.4%",
+        "93.2",
+        "+53%",
+        "31.7",
+        "11.6%"
+       ],
+       [
+        "Uno Minda",
+        "67,564",
+        "19,658",
+        "11.5%",
+        "55.2",
+        "−9%",
+        "27.3",
+        "20.5%"
+       ],
+       [
+        "Schaeffler India",
+        "60,975",
+        "Dec year",
+        "–",
+        "48.6",
+        "−14%",
+        "28.8",
+        "–"
+       ],
+       [
+        "Tube Investments",
+        "45,967",
+        "22,847",
+        "10%",
+        "73.4",
+        "+0%",
+        "16.8",
+        "16.8%"
+       ],
+       [
+        "Endurance Tech",
+        "37,365",
+        "14,596",
+        "13.5%",
+        "38.0",
+        "−10%",
+        "17.4",
+        "15.2%"
+       ],
+       [
+        "ZF CV Control",
+        "26,642",
+        "4,119",
+        "16%",
+        "52.7",
+        "−22%",
+        "30.8",
+        "15%"
+       ],
+       [
+        "Motherson Sumi Wiring",
+        "22,616",
+        "11,478",
+        "9.2%",
+        "36.0",
+        "−27%",
+        "21.0",
+        "32.4%"
+       ],
+       [
+        "Gabriel India (excluded)",
+        "23,781",
+        "4,667",
+        "9.4%",
+        "66.0",
+        "+59%",
+        "40.1",
+        "19.8%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026. Schaeffler reports on December years. Same peer set as the Bosch and Motherson initiations."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a good engineering company priced at 53x Sep-28E EPS; SELL",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** one of the few Indian component makers with a global EV franchise: 8.7% of the world's differential gears, EV differentials and traction motors, 69 EV programmes, a ₹24,000 cr order book, a railway business that diversifies away from US EV risk, a DENSO partnership for high-voltage and hybrid powertrains, and net cash. Management is capable, candid about bad quarters and allocates capital carefully."
+    },
+    {
+     "callout": "**What you are paying:** 69.1x our FY27E and 58.1x FY28E EPS for ~18% a year EPS growth, ~23% EBITDA margins and an ROE that only reaches ~14% by FY29E. That is the stock's own median multiple since mid-2022 (53.3x) at a time when auto-component peers trade ~9% below theirs. On the street's method and the house multiple the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): SELL. Our bull case ({{scen.bull.tp|inr}}) needs both faster growth and no de-rating."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹800 (HOLD) or ~₹660 (BUY) on our rule",
+        "Medium",
+        "A fall of ~4% / ~20%"
+       ],
+       [
+        "Margin back to 24-25% (company basis) as pass-through catches up",
+        "Medium",
+        "Q2FY27 results (due by mid-November 2026)"
+       ],
+       [
+        "BEV revenue sustains Q1's ₹436 cr a quarter and US EV demand recovers",
+        "Medium",
+        "BEV share, anchor-customer volumes, US tariffs"
+       ],
+       [
+        "Business-unit disclosure (railway, motors, driveline)",
+        "Low",
+        "Would let investors check the mix and margin story"
+       ],
+       [
+        "Robotics or DENSO JV2 revenue earlier than expected",
+        "Low-Medium",
+        "SOP of the three robotics orders; JV2 nominations"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Commodity inflation outruns pass-through; traction-motor mix keeps rising",
+        "Medium",
+        "Each 1pp of EBITDA margin ≈ 5% of EPS"
+       ],
+       [
+        "US EV slowdown and tariffs hit the anchor customer again (as in FY26)",
+        "Medium",
+        "BEV revenue fell 6% in FY26 and EPS grew 6%"
+       ],
+       [
+        "Programme delays: the order book converts more slowly",
+        "Medium",
+        "Revenue growth in single digits, as in FY25 (+11%)"
+       ],
+       [
+        "Promoter-family dispute escalates or Aureus sells",
+        "Low-Medium",
+        "Overhang; board or audit-committee changes"
+       ],
+       [
+        "More acquisitions at full prices",
+        "Medium",
+        "Returns stay near the cost of equity"
+       ],
+       [
+        "Auto sector de-rates further",
+        "Medium",
+        "At the bear multiple (39x) on base EPS: ~₹610"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: SELL, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**The call is narrow.** We would move to HOLD below ~₹800 and to BUY below ~₹660 on today's numbers, or sooner if FY29 earnings move well above our ₹{{F.eps.2|n2}} (e.g. a margin back at 25% plus faster BEV growth).",
+      "**This is a valuation call, not a business call.** We like the company. But at 53.2x Sep-28E EPS the stock already sits at its own post-IPO median while its sector trades 9.4% below; the house rule (× 0.906) gives 48.5x. The post-Q1 street median target was ₹700; Jefferies' 55x FY28E would be ~₹790 on our EPS.",
+      "**Biggest swing factor:** the multiple. Each 1x is ~₹15.6 a share; each 1pp of EBITDA margin in FY28-29E is ~₹40 at our multiple."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "BEV revenue growth, Q1FY27",
+        "v": "+107%",
+        "d": "44% of automotive revenue"
+       },
+       {
+        "k": "EBITDA margin (company basis)",
+        "v": "23.1%",
+        "d": "Q1FY27; FY25 27.4%"
+       },
+       {
+        "k": "ROE, FY26",
+        "v": "11%",
+        "d": "FY24: 21% (Screener)"
+       },
+       {
+        "k": "Price ÷ our Sep-28E EPS",
+        "v": "53.2x",
+        "d": "median since Jun-22: 53.3x"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY19–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue (FY26 onwards incl. railway)",
+        "flag": {
+         "type": "pct",
+         "th": 25
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 150
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. exceptional items in actual years)",
+        "flag": {
+         "type": "pct",
+         "th": 50
+        }
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (attributable)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 25
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n2"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L (as reported by 30-Sep-2026)",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 25
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. exceptional items)"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (attributable)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Differential",
+        "The gear set that lets a vehicle's driven wheels turn at different speeds in a corner; \"differential assembly\" is the complete unit with its housing."
+       ],
+       [
+        "e-axle",
+        "An integrated electric drive unit: motor, inverter and gearbox (including the differential) in one assembly."
+       ],
+       [
+        "Traction motor / inverter",
+        "The electric motor that drives an EV's wheels, and the electronics that convert battery power to drive it."
+       ],
+       [
+        "Starter motor / micro-hybrid",
+        "The motor that cranks an engine; micro-hybrid starters restart the engine repeatedly in stop-start systems."
+       ],
+       [
+        "BEV / PHEV",
+        "Battery electric vehicle / plug-in hybrid electric vehicle."
+       ],
+       [
+        "BEV share",
+        "BEV revenue as a share of Sona's automotive product revenue (excludes railway)."
+       ],
+       [
+        "Net order book",
+        "Management's estimate of revenue from awarded programmes over the next ten years that are not yet in production or not fully ramped up, net of programmes ending and discounted for delays."
+       ],
+       [
+        "SOP",
+        "Start of production of a vehicle programme."
+       ],
+       [
+        "Slump sale",
+        "Sale of a business as a going concern for a lump sum, without valuing each asset separately."
+       ],
+       [
+        "Sona eDrive / JV1, JV2",
+        "Sona eDrive: the subsidiary taking Sona's 2W/3W EV business, 49% to DENSO. JV2: a new 51:49 DENSO-Sona company for high-voltage motors and inverters."
+       ],
+       [
+        "Physical AI / AMR",
+        "Machines that sense, decide and act with AI (robots); AMR = autonomous mobile robot."
+       ],
+       [
+        "QIP",
+        "Qualified institutional placement: a share sale to institutions (₹2,400 cr in Sep-2024)."
+       ],
+       [
+        "P/E, EV/EBITDA",
+        "Share price ÷ earnings per share; enterprise value (market value less net cash) ÷ EBITDA."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "Sector de-rating",
+        "How far comparable stocks trade below their own five-year median P/E on the valuation date."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, as Sona has net cash)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY20": "+48%: Comstar (starter motors) consolidated after the 2019 merger.",
+  "otherIncome@FY20": "₹237 cr incl. a ₹233 cr exceptional gain (pre-listing).",
+  "pat@FY20": "Includes the ₹211 cr post-tax exceptional gain; FY21 is lower without it.",
+  "sales@FY21": "+51%: EV differential assemblies and micro-hybrid starters ramp up despite Covid.",
+  "ebitdaMargin@FY21": "28.2%: high-value EV differentials, operating leverage.",
+  "sales@FY22": "+36%: listed Jun-2021; EV programmes ramp up.",
+  "ebitdaMargin@FY24": "28.3%, the peak: mix and lower raw-material costs.",
+  "sales@FY25": "+11%: US and European EV demand slows.",
+  "otherIncome@FY25": "₹116 cr incl. ₹21 cr of exceptional items: treasury income on the ₹2,400 cr QIP cash (Sep-2024).",
+  "sales@FY26": "+25%: railway business from 1-Jun-2025 (~₹900 cr, our estimate); automotive roughly flat; BEV −6%.",
+  "ebitdaMargin@FY26": "24.3% (company 24.7%): railway and traction motors dilute; Q1FY26 hit by magnet curbs and one customer.",
+  "pat@FY26": "+6%: lower margin, lower treasury income after the ₹1,643 cr railway purchase, ₹30 cr labour-code charge.",
+  "cfo@FY26": "₹659 cr: receivables up with the railway business (debtor days 94).",
+  "sales@Q2FY26": "First full quarter of the railway business.",
+  "otherIncome@Q3FY26": "Negative: includes the ₹40 cr pre-tax labour-code provision (exceptional).",
+  "sales@Q1FY27": "+52% (Screener; company +54%): BEV +107%, full quarter of railway vs one month.",
+  "opm@Q1FY27": "22.5% (company 23.1%): input-cost inflation ahead of pass-through; traction-motor mix.",
+  "sales@FY27E": "GAM: +21%: automotive +21%, railway +23% (12 months vs 10).",
+  "ebitdaMargin@FY27E": "GAM: automotive 23.6%, railway 20.0% blended; lower half of the 23-25% band (company basis).",
+  "pat@FY27E": "GAM: excludes the DENSO deal (completion by Mar-2027; ~₹858 cr cash in, 49% of Sona eDrive out)."
+ }
+}

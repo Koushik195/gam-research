@@ -1,0 +1,80 @@
+{
+ "_meta": { "symbol": "SONACOMS", "asOf": "2026-09-30", "note": "Only sources published on or before 30-Sep-2026. Company documents are listed in company.json sources." },
+ "industry": {
+  "demand": "Q1FY27 (call, 23-Jul-2026): demand healthy in all markets; India strongest (PV, CV and e-2W had their best quarters in Q4FY26; India 51% of Sona's FY26 revenue); Europe growing and electrifying (BEV, strong and plug-in hybrids); US EV sales weak (-16% in FY26, -28% YoY in Q4FY26) with a shift to hybrids; China mixed. OEMs are constrained by supply chains, not demand, in EVs.",
+  "costs": "Steel, aluminium, copper, freight, packaging and energy inflation since late 2025; pass-through to OEMs lags 1-2 quarters; Haryana minimum-wage rise from 1-Apr-2026; new labour codes from 21-Nov-2025 (one-off Rs30 cr provision).",
+  "rareEarths": "China's heavy rare-earth magnet export curbs (from Apr-2025) remain; Sona has moved to light rare-earth alternatives and says it has no magnet shortage (Q1FY27 call).",
+  "rail": "Indian Railways capex ~Rs2.9 lakh cr; brakes, couplers and suspension are safety-critical with long approval cycles; new HVAC (Rs2,000-2,500 cr market) and electric panels (~Rs1,500 cr) approvals in Q4FY26 (Q4FY26 call).",
+  "evShare": "BEV share of Sona's automotive product revenue: 2% FY20, 25% FY22, 36% FY25, 35% FY26, 44% Q1FY27.",
+  "src": "q1call pp.7-9; q4call pp.2-4, 13-15; ar26 MD&A pp.64-75"
+ },
+ "peers": {
+  "set": ["BOSCHLTD", "MOTHERSON", "BHARATFORG", "UNOMINDA", "SCHAEFFLER", "TIINDIA", "ENDURANCE", "ZFCVINDIA", "MSUMI", "GABRIEL"],
+  "excluded": {
+   "BHARATFORG": "Earnings distorted: exceptional charges in three of the last four quarters (Rs358 cr in Jun-2026, which turned the quarter into a Rs90 cr loss), so its ~93x trailing P/E on 30-Sep-2026 sits on depressed EPS (same exclusion as the Bosch and Motherson initiations).",
+   "GABRIEL": "No five-year history: Screener's P/E series starts in May-2024 (after Gabriel's restructuring), so there is no five-year median (same exclusion as the Motherson initiation)."
+  },
+  "note": "The auto-component peer set used in the Bosch and Motherson initiations (their union), Sona itself left out. SCHAEFFLER (December year-end) has P/E history from Feb-2023, ZFCVINDIA from May-2022 and MSUMI from Apr-2022: their medians cover the history available. Peer multiples at the 30-Sep-2026 close from tools/authoring/asof-peers.js."
+ },
+ "street": {
+  "_note": "Notes published 23-Jul to 30-Sep-2026 (Q1FY27 results and the DENSO deal were announced on 22-23 Jul-2026). Ratings, targets and methods as reported; n.d. = not disclosed in our sources. Full broker PDFs are behind logins; targets come from Trendlyne's report list and press summaries.",
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-07-23", "rating": "Neutral", "tp": 652, "method": "P/E", "multiple": "n.d.", "on": "n.d.", "thesis": "Q1 PAT in line; EBITDA margin -70bp YoY to 23.1% on mix and input costs; 'Sona 2.0' sets an ambitious 10x-in-10-years goal; Neutral since IPO (targets Rs468-652 over FY26)", "src": "https://trendlyne.com/posts/5746144/sona-2-0-unveils-ambitious-target-of-10x-in-10-years" },
+   { "broker": "Nomura", "date": "2026-07-24", "rating": "Buy", "tp": 848, "method": "n.d.", "thesis": "Target raised; DENSO JV opens 4-wheeler HV/hybrid powertrains; Q1 broadly in line; 'Company 2.0' strategy", "src": "https://univest.in/blogs/sona-blw-target-price-nomura-rs-848-buy" },
+   { "broker": "Jefferies", "date": "2026-07-23", "rating": "Buy", "tp": 700, "method": "n.d.", "thesis": "Buy retained after the DENSO JV agreements (published before the results that evening)", "src": "https://univest.in/blogs/sona-blw-share-price-target-denso-joint-venture" },
+   { "broker": "Jefferies (thematic note)", "date": "2026-09-28", "rating": "n.d.", "tp": null, "method": "P/E", "multiple": "55x", "on": "FY28E", "thesis": "Shift to higher-value engineering (EVs, railways, robotics, physical AI) and the DENSO partnership justify a premium to the 44x average multiple since the 2021 listing; risks: weaker exports, slower order wins. Target figure not given in the press report.", "src": "https://www.businesstoday.in/markets/stocks/story/sona-comstar-jefferies-highlights-companys-shift-towards-higher-value-engineering-stock-reacts-558170-2026-09-28" }
+  ],
+  "earlier": [
+   { "broker": "Motilal Oswal", "date": "2026-04-30", "rating": "Neutral", "tp": 546 },
+   { "broker": "Nomura", "date": "2026-05", "rating": "Buy", "tp": 720 },
+   { "broker": "Jefferies", "date": "2026-05", "rating": "Buy", "tp": 700 },
+   { "broker": "ICICI Securities", "date": "2025-10-28", "rating": "Buy", "tp": 600 },
+   { "src": "Trendlyne research-report list; https://www.multibagg.ai/market-pulse/articles/sona-blw-brokerage-buy-targets-cmplcn1phcrabr20jd9r7t1nh (25-May-2026)" }
+  ]
+ },
+ "ownership": {
+  "date": "2026-06-30",
+  "categories": { "promoters": 28.01, "fpi": 23.6, "mutualFunds": 36.68, "insurance": 4.3, "otherDii": 0.63, "retailAndOthers": 6.77 },
+  "named": [["Aureus Investment Pvt Ltd (promoter; Kapur family vehicle)", 28.01], ["SBI Quality Fund (SBI MF)", 9.53], ["ICICI Prudential Large & Mid Cap Fund", 8.0], ["Government of Singapore (GIC)", 6.54], ["Axis Mutual Fund", 3.58], ["HDFC Mutual Fund", 3.35], ["Aditya Birla Sun Life MF", 2.96], ["Mirae Asset Focused Fund", 2.53], ["HDFC Life Insurance", 1.58], ["Monetary Authority of Singapore", 1.56], ["LIC", 1.53]],
+  "namedNote": "Promoter stake and categories at 30-Jun-2026; named public holders at 31-Mar-2026 (AR FY26 top-10 list; Jun-2026 named holdings not available in our sources).",
+  "pledged": "Nil",
+  "shareholders": 364057,
+  "src": "https://trendlyne.com/equity/share-holding/547977/SONACOMS/latest/sona-blw-precision-forgings-ltd/ (Jun-2026 categories); ar26 general shareholder information and note 13(A); Screener (shareholder count)"
+ },
+ "stockEvents": [
+  { "date": "2021-06-24", "what": "Listed; first weekly close Rs365" },
+  { "date": "2021-12", "what": "Post-listing peak ~Rs790 (weekly close), ~112x next-year EPS" },
+  { "date": "2022-12-23", "what": "Trough Rs401: -49% from the peak as the IPO premium unwound" },
+  { "date": "2024-09", "what": "QIP at ~Rs690 (Rs2,400 cr)" },
+  { "date": "2025-09-26", "what": "Rs407: low after the FY26 EV slump, US tariffs and the chairman's death" },
+  { "date": "2026-07-22", "what": "DENSO JVs announced; stock ~Rs720-725 around the Q1 results" },
+  { "date": "2026-09-30", "what": "Rs830 (NSE close), a record; +98% in a year (Nifty -2%)" }
+ ],
+ "moat": {
+  "strengths": ["Engineering and frugal design: 19 products conceived and scaled in-house in seven years (Rs1,800 cr annualised revenue); R&D Rs126 cr in FY26 (2.8% of revenue)", "Global scale in a niche: 8.7% of world differential gears, 4.2% of starter motors; 55-90% of India's differential gears", "Early EV positioning: 69 EV programmes, 36 customers; differential assemblies for e-axles worldwide", "DENSO chose Sona as a partner and will pay royalties for its 2W/3W technology", "Net cash; ROCE ~16% (company basis) even after the QIP"],
+  "weaknesses": ["Customers are huge OEMs that set prices; content is component-level, re-bid every programme", "Concentration: an anchor US EV customer's model weakness cut FY26 BEV revenue; customer shares not disclosed", "New lines (traction motors, railway) earn lower margins; traction motors are an assembled product with low value addition", "No product-level disclosure, so investors cannot check the profitability of each line"],
+  "verdict": "A real but narrow moat: process know-how, cost and qualification lock-in on long programmes. It earns ~24% EBITDA margins and ~16% ROCE, good but not exceptional, and the share price discounts far more."
+ },
+ "critiques": [
+  "The order book (Rs24,000 cr, 5.4x revenue) is a 10-year, management-discounted estimate; FY26 consumed Rs6,200 cr including a write-down of programmes with low ramp-up visibility.",
+  "FY26 organic revenue was roughly flat (our estimate): growth came from buying the railway business.",
+  "Margins have stepped down from 27.4% (FY25) to 24.7% (FY26) and 23.1% (Q1FY27): the band was cut twice (25-27% at IPO, 24-26%, now 23-25%).",
+  "Robotics and physical AI (Rs800 cr order book) is a narrative the market is paying for years before revenue; management itself says it is irrelevant for horizons under three years.",
+  "The DENSO deal values the 2W/3W EV business at Rs1,750 cr, 4.5x its FY26 turnover of Rs385.5 cr, well below the ~11x EV/sales the market pays for Sona as a whole."
+ ],
+ "gaps": [
+  "Revenue and margin by product line / business unit (not disclosed). Railway FY26 revenue is our estimate (Rs900 cr; range Rs760-1,020 cr from disclosed bounds).",
+  "Railway EBITDA margin (we infer ~20% from the guided band moving 1 point lower).",
+  "Sona eDrive (2W/3W EV business) profitability and the expected minority share after DENSO's 49% subscription; exact closing date (by 31-Mar-2027).",
+  "Full broker notes (MOSL, Nomura, Jefferies): valuation multiples, earnings years and EPS estimates are not in the public summaries; Citi's reported Buy/Rs700 could not be traced to a dated source.",
+  "Named shareholders at 30-Jun-2026 (we show 31-Mar-2026 names with Jun-2026 categories).",
+  "Customer concentration (top customer / top-10 share) is not disclosed.",
+  "Capex guidance for FY27."
+ ],
+ "conflicts": [
+  "Revenue basis: company revenue includes net forex gain (FY26 Rs4,475 cr; Q1FY27 Rs1,310 cr) while Screener's excludes it (Rs4,449 cr; Rs1,301 cr). We model on Screener's basis.",
+  "Net Profit: Screener's consolidated row (FY26 Rs629 cr) is before the minorities' share of NOVELIC losses; attributable profit is Rs640 cr (company Rs641 cr). We use attributable (SONACOMS.patch.js).",
+  "Net cash: company Rs1,026 cr at Mar-26 (debt Rs243 cr) vs Rs837 cr in our model, which also deducts ~Rs199 cr of lease liabilities in Screener's borrowings.",
+  "QIP timing: the AR FY25 board report and the Q4FY26 call put it in Sep-2024 (some press says Jun-2024); we use Sep-2024."
+ ]
+}

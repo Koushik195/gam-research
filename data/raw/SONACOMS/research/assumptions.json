@@ -1,0 +1,181 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Sona BLW Precision Forgings (Sona Comstar), consolidated, Rs crore, Screener basis (company revenue/EBITDA also include a small forex gain that Screener books in other income). FY26 includes the railway business from 1-Jun-2025 (10 months). The DENSO transactions of 22-Jul-2026 (49% of the 2W/3W EV business to DENSO for ~Rs857.5 cr of cash into the group; JV2) were not complete on 30-Sep-2026 (completion by 31-Mar-2027) and are NOT in the model: the cash yield and the 49% minority share roughly offset at EPS level (see SONACOMS.ctx.js, denso check).",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  21.405,
+  15.18,
+  14.402
+ ],
+ "_revenueWhy": "From the build below (Screener basis). FY27E: automotive and other non-rail +21% (Q1FY27 ex-railway ~Rs1,031 cr, +35% on a weak Q1FY26 when BEV fell; Q2-Q4 +22%, +15%, +12% as the base normalises; BEV +107% in Q1, 69 EV programmes, Rs24,000 cr order book = 5.4x revenue) plus a full year of railway (12 months vs 10: +23%). FY28E-29E: automotive +16% / +15% (order book conversion, hybrid differential wins, traction/suspension motor ramp-ups; Sona's five-year revenue CAGR is 23% incl. acquisitions), railway +12% a year (management: 'healthy growth over the next 5 years' from capacity, white spaces and new products; Indian Railways capex).",
+ "ebitdaMargin": [
+  22.862,
+  23.142,
+  23.495
+ ],
+ "_marginWhy": "Blended from the build: automotive 23.6% / 23.8% / 24.1% (FY26 ~25.4% on our railway estimate; Q1FY27 ~23.2% after commodity inflation, labour costs and the shift to low-margin traction motors; management: June better as pass-through caught up) and railway 20.0% / 20.5% / 21.0% (lower-margin, higher-return business; the guided band moved from 24-26% to 23-25% when it was added). Screener basis runs ~0.3-0.5 pt below the company's (FY26 24.3% vs 24.7%), so our 22.9-23.4% equals ~23.3-23.9% on the company basis: the lower half of the 23-25% band. Q1FY27 22.5% (company 23.1%).",
+ "capex": [
+  450,
+  500,
+  550
+ ],
+ "_capexWhy": "FY26 Rs369 cr (company; ex Rs110 cr land for the railway business), FY25 Rs416 cr, H1FY26 Rs198 cr. No guidance. Motor and controller lines are capex-light (Rs8-12 of revenue per Rs1 of capex, Q1FY27 call); driveline and railway capacity, robotics (Rs62.6 cr approved Jun-2026) and new programmes: ~8% of revenue.",
+ "depRateOnGrossBlock": 6.3,
+ "_depWhy": "Set so FY27E depreciation (~Rs320 cr) follows Q1FY27's Rs77 cr a quarter with new capacity: FY26 Rs288 cr (incl. railway intangibles amortisation from Jun-2025).",
+ "treasuryYield": [
+  7,
+  7,
+  7
+ ],
+ "_treasuryWhy": "Applied by the engine to opening net treasury (cash + investments + fixed deposits less borrowings): Rs1,026 cr at Mar-26 (company: cash Rs348 cr, current investments Rs500 cr, FDs Rs381 cr, debt Rs243 cr). Gross treasury earns 6.5-7% (deposits, debt funds) and net treasury carries the short-term debt; 7% on net = ~6% on gross.",
+ "otherTreasury": {
+  "base": 380.6,
+  "_why": "Fixed deposits inside other financial assets (Rs3,806.4 mn, AR FY26 MD&A cash and debt table), which Screener keeps in other assets."
+ },
+ "otherIncome": [
+  70,
+  75,
+  80
+ ],
+ "_otherIncomeWhy": "Non-treasury other income: net forex gain on export receivables (company revenue Rs4,475 cr vs Screener Rs4,449 cr in FY26: ~Rs26 cr; Q1FY27 ~Rs9 cr), export incentives, scrap and misc. FY27E total other income ~Rs120 cr vs Q1FY27 Rs35 cr (annualised Rs140 cr), FY26 Rs86 cr before the -Rs14 cr exceptional (treasury was Rs2,659 cr until the Jun-2025 railway payment).",
+ "interest": [
+  40,
+  40,
+  40
+ ],
+ "_interestLabel": "Interest (short-term working-capital debt, leases)",
+ "_interestWhy": "FY26 Rs23 cr; Q1FY27 Rs10 cr after short-term borrowings rose to Rs234 cr at Mar-26.",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "FY26 25%, Q1FY27 26%; India new regime 25.2% plus higher-tax US/Mexico/China units.",
+ "payout": [
+  33,
+  33,
+  33
+ ],
+ "_payoutWhy": "FY26 Rs3.40 a share (interim Rs1.60 + final Rs1.80) = 33% of EPS; FY25 33%, FY24 35%.",
+ "build": {
+  "_note": "Business-line build (Screener basis, Rs crore). Railway FY26 is our estimate (segments.json railwayFY26); automotive = total less railway. Checked against model revenue and EBITDA in SONACOMS.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "auto": 3549,
+   "rail": 900
+  },
+  "autoGrowth": [
+   21,
+   16,
+   15
+  ],
+  "railGrowth": [
+   23,
+   12,
+   12
+  ],
+  "autoMargin": [
+   23.6,
+   23.8,
+   24.1
+  ],
+  "railMargin": [
+   20,
+   20.5,
+   21
+  ],
+  "_why": "Automotive FY26 Rs3,549 cr = flat on FY25 (Rs3,546 cr) on our railway estimate: BEV -6%, US EV slump, one European customer's terms change; Q1FY27 ~+35%. Railway: 12 months in FY27 vs 10 in FY26 (+20%) plus ~3% growth on the run-rate in a year of capacity work; then +12%."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 23.5,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, but export-heavy (US/Europe ~44% of FY26 revenue), EV-programme and tariff risk and a high multiple: 1.0 (Ke 12.5%).",
+  "_tgWhy": "House range 5-6%: 6% (electrification and diversification keep growth above vehicle production).",
+  "_fadeGrowthWhy": "Revenue growth fades from ~14% to 9% over 15 years: order-book conversion and new verticals, then maturity.",
+  "_fadeMarginWhy": "EBITDA margin held at ~23.5% (guided band 23-25%, company basis).",
+  "_fadeCapexWhy": "Capex ~6% of revenue in steady state (FY22-26: 10-12% incl. land; motors are lighter); depreciation ~5.5%."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "EV demand inflects (Q1FY27 BEV +107% proves durable), the North American hybrid and European EV programmes ramp on time, suspension and traction motors scale, commodity pass-through restores a ~24% margin (Screener basis) and the order book converts faster.",
+   "revenueGrowthDelta": 4,
+   "marginDelta": 0.8,
+   "fadeMarginTo": 24.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "US EV weakness and tariffs persist, the anchor EV customer's volumes stay low, traction motors keep diluting the mix, input inflation is passed through late, and railway growth stalls: margin ~21.5% and growth ~10%.",
+   "revenueGrowthDelta": -5,
+   "marginDelta": -1.4,
+   "fadeMarginTo": 22
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 48.5,
+      "bull": 53.5,
+      "bear": 39
+     },
+     "why": "How the street values Sona: P/E on one-year-forward EPS (Jefferies 55x FY28E, 28-Sep-2026). Multiple derived in SONACOMS.ctx.js and written by SONACOMS.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 27.5,
+      "bull": 30,
+      "bear": 20
+     },
+     "why": "Values the operating business and the net cash separately."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 12.5%, terminal growth 6%, plus net cash."
+    }
+   ]
+  }
+ },
+ "esop": [
+  0,
+  0,
+  0
+ ]
+}
