@@ -1,0 +1,97 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, competition, peers, street, ownership, governance, moat, critiques, gaps and conflicts. Sources dated on or before 30-Sep-2026 only." },
+ "industry": {
+  "e2wFY26": { "units": 1400000, "growthPct": 22, "penetrationPct": 6.5, "src": "https://www.autocarpro.in/news/india-e2w-registrations-rise-22-to-14-million-units-in-fy26-penetration-at-65-131923 (Apr-2026)" },
+  "twoWheelerFY26": { "units": 21400000, "scooters": 8500000, "src": "https://www.autocarpro.in/analysis/a-come-back-year-for-two-wheelers-132087 (Apr-2026); AR FY26 MD&A (scooters 0.85 crore, +16.5%)" },
+  "e2wFY27ytd": { "period": "Apr-Aug 2026", "units": 903420, "prior": 529941, "growthPct": 70, "aug": 180569, "augGrowthPct": 65, "src": "https://www.autocarpro.in/news/electric-two-wheeler-registrations-rise-65-percent-in-august-fy27-volumes-cross-9-lakh-134389 (1-Sep-2026, Vahan via Nuvama)" },
+  "q1fy27": { "registrations": 525000, "growthPct": 68, "penetrationPct": 11, "scooterPenetrationPct": 25, "src": "Q1FY27 presentation and call (3-Aug-2026)" },
+  "outlook": "CRISIL (quoted in AR FY26): e-2W sales of 0.60-0.62 crore units by FY30 and 22-25% penetration. Nomura (10-Sep-2026): 22% e-2W penetration by FY30 (45% in scooters).",
+  "policy": "PM E-DRIVE (Oct-2024, outlay Rs10,900 cr): e-2W demand subsidy Rs2,500/kWh capped at Rs5,000 a vehicle since Apr-2025; extended in Mar-2026 to 31-Jul-2026, then on 11-Aug-2026 to 31-Mar-2028 with e-2W allocation raised by ~Rs1,000 cr to Rs2,767 cr. Delhi's draft EV policy (2026) pushes harder; Haryana following (management, Q1 call). PLI-Auto supports local value addition. Subsidy was 16% of Ather's revenue in FY24, 6% in FY25, 3% in FY26 (AR FY26).",
+  "fuel": "From early 2026 the West Asia conflict raised petrol prices and caused availability worries; management cites this, plus rising petrol prices, as the main reason e-2W demand jumped (EV searches +75%, Ather searches +118% in Q1FY27).",
+  "commodities": "Two-wheeler commodity index (HSBC / company) +46% over five quarters to Q1FY27: aluminium, copper, plastics (crude), lithium hydroxide +131%; rare-earth magnet export controls by China (2025)."
+ },
+ "competition": {
+  "_note": "Vahan registrations. FY26 from Autocar Pro / Business Today (1-Apr-2026); Apr-Aug FY27 from Autocar Pro (1-Sep-2026). Ather's own count (wholesale) differs: 262,942 dispatched in FY26.",
+  "rows": [
+   ["TVS Motor (iQube, Orbiter)", 341647, 44, 235302, 92],
+   ["Bajaj Auto (Chetak)", 289323, 25, 204551, 106],
+   ["Ather Energy (450, Rizta, Konarc)", 239124, 82, 148023, 82],
+   ["Ola Electric", 164294, -52, 72036, -26],
+   ["Hero MotoCorp (Vida)", 144099, 196, 99023, 114]
+  ],
+  "aug26Share": { "TVS": 27.1, "Bajaj": 22.7, "Ather": 15.9, "Hero": 10.5, "Ola": 7.7 }
+ },
+ "peers": {
+  "set": ["MARUTI", "M&M", "BAJAJ-AUTO", "EICHERMOT", "HEROMOTOCO", "TVSMOTOR", "ASHOKLEY", "ESCORTS"],
+  "excluded": {
+   "BAJAJ-AUTO": "Earnings distorted: the Mar-2026 quarter carries ~Rs1,894 cr of other income when Bajaj took control of KTM, and KTM is consolidated from that quarter, so its trailing P/E on 30-Sep-2026 sits on an inflated TTM EPS (same treatment as our Eicher and Hyundai reports).",
+   "ESCORTS": "Earnings distorted: FY26 profit inflated by the railway-business sale (PLAYBOOK §7c)."
+  },
+  "notInSet": {
+   "OLAELEC": "Ola Electric: the only other listed pure EV two-wheeler maker, but loss-making (FY26 EBITDA margin -43%), shrinking and listed only in Aug-2024: no P/E history, so it cannot measure a sector move. Shown in the peer table only.",
+   "HYUNDAI": "Listed Oct-2024; no five-year history (PLAYBOOK §7c).",
+   "TMPV": "Listed Oct-2025 after the demerger (PLAYBOOK §7c)."
+  },
+  "twoWheelerSubset": ["BAJAJ-AUTO", "EICHERMOT", "HEROMOTOCO", "TVSMOTOR"]
+ },
+ "street": {
+  "brokers": [
+   { "broker": "Emkay Global", "date": "2026-08-31", "rating": "Buy", "tp": 2200, "prev": 1600, "method": "EV/Sales", "multiple": "7x", "on": "Sep-28E", "thesis": "Structural multi-year demand upcycle; 7x is Eicher's implied multiple for Royal Enfield in its FY13-17 high-growth phase", "src": "https://www.businesstoday.in/markets/stocks/story/ather-energy-shares-can-this-stock-double-after-423-return-over-ipo-price-targets-552166-2026-08-31" },
+   { "broker": "Axis Capital", "date": "2026-08-31", "rating": "Buy", "tp": 2100, "prev": 1480, "method": "n.d.", "multiple": "", "on": "", "thesis": "Capacity-led growth; Konarc widens the addressable market", "src": "Business Today (31-Aug-2026, same article); prior target from Business Today 4-Aug-2026" },
+   { "broker": "Nomura", "date": "2026-09-10", "rating": "Buy", "tp": 1926, "prev": 1714, "method": "EV/Sales", "multiple": "5.5x", "on": "FY29E", "thesis": "Top 2W pick; revenue +54% / +100% / +31% FY27-29F; FY28 volume ~7.94 lakh; e-2W penetration 22% by FY30; EL doubles Ather's TAM; 15-20% long-term margin potential", "src": "https://www.businesstoday.in/markets/stocks/story/ather-energy-shares-climb-4-as-nomura-raises-target-price-what-foreign-brokerage-says-554452-2026-09-10" },
+   { "broker": "CLSA", "date": "2026-08-31", "rating": "Accumulate", "tp": 1850, "prev": 1600, "method": "n.d.", "multiple": "", "on": "", "thesis": "Capacity, not demand, is the constraint; Factory 3.0, price rises and EL support margins", "src": "Business Today 31-Aug-2026; Outlook Business 4-Aug-2026 (Rs1,600)" },
+   { "broker": "JPMorgan", "date": "2026-08-31", "rating": "Overweight", "tp": 1850, "prev": 1570, "method": "n.d.", "multiple": "", "on": "", "thesis": "Initiated Overweight; EBITDA break-even by FY28 at initiation, now earlier", "src": "Business Today 31-Aug-2026 and 4-Aug-2026" },
+   { "broker": "Nirmal Bang", "date": "2026-08-04", "rating": "Buy", "tp": 1538, "method": "n.d.", "multiple": "", "on": "", "thesis": "Demand well ahead of supply; dealer stock 3 days; EL launch and AURIC ramp the catalysts", "src": "https://www.businesstoday.in/markets/stocks/story/ather-energy-shares-soared-18-targets-by-clsa-jpmorgan-hsbc-multibagger-stock-547044-2026-08-04" },
+   { "broker": "HSBC", "date": "2026-08-04", "rating": "Buy", "tp": 1450, "method": "n.d.", "multiple": "", "on": "", "thesis": "Margins beat on a sharp cut in other expenses; share gains as capacity arrives; brand and execution justify a premium", "src": "https://www.outlookbusiness.com/markets/ather-energy-shares-jump-16-to-record-high-as-q1-loss-narrows-brokerages-stay-bullish (4-Aug-2026)" },
+   { "broker": "Ambit Capital", "date": "2026-08-04", "rating": "n.d.", "tp": 1398, "method": "n.d.", "multiple": "", "on": "", "thesis": "Lowest target in the 4-Aug roundup", "src": "Business Today 4-Aug-2026" }
+  ],
+  "consensusAug4": { "tp": 1506.6, "buys": 13, "sells": 0, "src": "Business Today 4-Aug-2026" },
+  "methodsNote": "Every house that discloses a method uses EV/Sales: Emkay 7x Jun-28E (4-Aug) then 7x Sep-28E (31-Aug); Nomura 5.5x FY29E (10-Sep; 5-7x 'should sustain'); earlier in 2026 Emkay and CLSA 7x FY28E and Nomura 6x (aggregator, Jun-2026). No broker uses P/E: Ather has no profits to multiply."
+ },
+ "ownership": {
+  "date": "2026-06-30", "totalShares": 383120970,
+  "categories": { "promoters": 40.72, "fii": 16.23, "dii": 29.28, "mutualFunds": 20.33, "public": 13.76 },
+  "named": [["Hero MotoCorp (promoter)", 30.04], ["Tarun Mehta (founder, CEO) incl. family trusts", 5.32], ["Swapnil Jain (founder, CTO) incl. family trusts", 5.37], ["Caladium Investment (GIC, Singapore)", 7.56], ["SBI Small Cap Fund", 6.2], ["India Japan Fund (NIIF)", 5.86], ["Motilal Oswal Large & Midcap Fund", 3.37], ["Axis Midcap Fund", 2.16], ["HSBC Small Cap Fund", 1.87], ["Aditya Birla SL Flexi Cap Fund", 1.77], ["Kamath Associates", 1.32], ["NKSquared", 1.3], ["Edelweiss Mid Cap Fund", 1.24]],
+  "shareholders": 229896,
+  "afterJun": "QIP (20-Jul) and preferential issue (25-Aug) diluted holders; Hero MotoCorp to ~30.7% on conversion of its warrants (company). Caladium Investment (GIC) sold ~3.05% in the open market on 28-Aug-2026 (market reports of the exchange disclosure; secondary source).",
+  "src": "BSE shareholding pattern Jun-2026 via Trendlyne (https://trendlyne.com/equity/share-holding/3080909/ATHERENERG/30-06-2026/ather-energy-ltd); Screener.in categories"
+ },
+ "governance": {
+  "auditor": "Statutory auditor's report on FY26 standalone statements unmodified (AR FY26).",
+  "board": "Eight directors, three independent (AR FY26): Neelam Dhawan (independent chairperson), Kaushik Dutta and Sanjay Nayak (independent); Tarun Mehta (ED & CEO) and Swapnil Jain (ED & CTO); non-executive directors Pankaj Sood, Vivek Anand and Ram Kuppuswamy (COO-manufacturing at Hero MotoCorp, up for re-appointment at the 2026 AGM). CFO Sohil Parekh. Promoters: Hero MotoCorp and the two founders.",
+  "relatedParty": "Hero MotoCorp is both the largest shareholder (promoter, 30.0% at Jun-2026) and a direct competitor (Vida e-scooters, 1.44 lakh registrations in FY26). Warrants issued to Hero and the founders at Rs1,260 (25% paid) give them an 18-month option on 79 lakh shares.",
+  "esop": "Share-based pay Rs58 cr in FY26 (Rs83 cr FY25), ~1.6% of revenue; ESOP 2025 plan approved; grants continue.",
+  "fame": "FAME-II / PMP show-cause notice (Mar-2023): Ather refunded Rs148 cr of off-board charger prices to customers; Rs9.8 cr outstanding at Mar-2026."
+ },
+ "moat": [
+  ["Brand and product", "Moderate", "Premium e-scooter brand: ASP ~Rs1.61 lakh (Jun-2026), above TVS, Bajaj and Ola; #1 searched EV brand; Rizta took Ather beyond the south", "Pricing power is real today (price rises absorbed in Q1FY27), but demand exceeds supply industry-wide, which flatters everyone's pricing"],
+  ["Software and ecosystem", "Moderate", "AtherStack Pro attach 94%; 6,000+ fast chargers on Ather's LECCS standard (now an Indian standard, 20+ members); non-vehicle revenue 14%", "The best evidence of a moat: a recurring, high-margin layer rivals have not matched. But LECCS is now open, and software can be copied"],
+  ["Scale and cost", "Weak", "2.6 lakh units in FY26 vs TVS 3.4 lakh EVs and 40+ lakh ICE 2Ws; still loss-making on Screener's EBITDA; Hosur capped at 35k/month", "No scale advantage against TVS, Bajaj or Hero, which can cross-subsidise EVs from profitable ICE businesses"],
+  ["Distribution", "Weak", "700 experience centres (Mar-2026) vs thousands of ICE dealers for incumbents", "Expanding fast, but incumbents' service reach is far larger"],
+  ["Technology and IP", "Moderate", "283 patents filed in FY26; in-house battery packs, motor controllers, software, EL platform built for cost", "Real engineering depth for a start-up; incumbents' R&D budgets are larger"]
+ ],
+ "critiques": [
+  ["Ather is losing share while the market booms: 18.6% in Q4FY26, 16.8% in Q1FY27 and 15.9% in Aug-2026 (Vahan) as TVS and Bajaj grew faster; capacity, not demand, is the limit until AURIC ramps", "Autocar Pro (1-Sep-2026); company"],
+  ["Incumbents can price e-scooters off ICE profits; Hero, a 30% shareholder, also sells Vida", "Vahan data; GAM"],
+  ["Gross margin is exposed to lithium, copper and rare earths; Q1FY27 showed a 5.6pp commodity hit", "Q1FY27 call"],
+  ["The stock already prices a lot: the street pays 5.5-7x forward EV/Sales for a company that has not yet made an annual operating profit; profitable 2W makers trade on far lower sales multiples (peer table)", "Nomura (10-Sep-2026: '5-7x should sustain'); GAM"],
+  ["Konarc lowers ASP and may cannibalise Rizta", "Q1FY27 call"],
+  ["Subsidy is small now (3% of revenue) but policy still matters: state EV policies and the PM E-DRIVE cap", "AR FY26; Business Standard (11-Aug-2026)"]
+ ],
+ "gaps": [
+  "QIP issue expenses (not disclosed by 30-Sep-2026): we use gross proceeds of Rs1,300 cr.",
+  "Consolidated balance sheet at Jun-2026 (Ather does not publish quarterly balance sheets); cash at 30-Sep-2026 is therefore Mar-2026 plus the equity raised, not a reported figure.",
+  "Q3FY26 quarterly P&L lines other than revenue and loss: derived as FY26 less the other three quarters (Screener omits the quarter).",
+  "Reason why 15-20% of Q1FY27 vehicles were sold without PM E-DRIVE subsidy (management did not explain).",
+  "FY27 capex guidance: management gave none; we anchor to the unused IPO allocation for AURIC (Rs788 cr) and R&D (Rs478 cr).",
+  "Konarc price list for Z variants and its revenue per unit: not disclosed by 30-Sep.",
+  "Valuation methods and estimates of Axis, CLSA, JPMorgan, Nirmal Bang, HSBC and Ambit: only targets are reported in our sources (n.d.).",
+  "Gross block at Mar-2026: PPE gross block not legible in the AR text; derived as net PPE plus accumulated depreciation (Rs216 cr, from FY25 plus FY26 charge)."
+ ],
+ "conflicts": [
+  ["FY26 E2W market share", "17.4% (company, Vahan + Telangana, ex-Telangana for March)", "17% (Autocar Pro: 239,124 of 1.40 mn)", "We use the company figure for Ather's history and Vahan for peer comparisons"],
+  ["FY26 cash flow from operations", "+Rs31.89 cr (AR FY26 cash-flow statement)", "-Rs721 cr (Screener's 'Mar 2026' column, which actually holds FY25)", "We use the AR (ATHERENERG.patch.js realigns Screener's rows)"],
+  ["FY26 EPS", "-Rs13.99 (AR, standalone, weighted shares)", "-Rs13.51 (Screener, consolidated on year-end shares)", "Model uses pro forma -Rs12.80 on 40.41 cr fully diluted shares (patch)"],
+  ["Q1FY26 market share", "14.2% (AR FY26 milestones)", "14.3% (Q3FY26 presentation)", "We use 14.3% for the quarterly series"]
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "asOf": "2026-09-30",
+ "note": "Divi's reports one segment. Each quarter the CFO discloses the generics : custom synthesis revenue split (generics INCLUDE nutraceuticals: 'the disclosure of 41% generic, which includes nutraceuticals', Q4FY22 call), the nutraceutical revenue, the constant-currency growth and the forex gain/loss. Revenue = consolidated revenue from operations (Screener). csRev = csPct x revenue; genRev = genPct x revenue - nutraRev (generic APIs ex-nutraceuticals); both derived by GAM from the company's rounded percentages, so they carry +/-0.5% of revenue of rounding. grossMarginPct = 100 - material cost % (Screener). Q2FY25 and Q4FY26 splits are implied from half-year / full-year disclosures.",
+ "src": {
+  "annual": "Q4 earnings-call transcripts FY22-FY26 (BSE filings); Screener.in consolidated P&L",
+  "quarterly": "Earnings-call transcripts Q1FY25-Q1FY27 (BSE filings); Screener.in quarterly P&L"
+ },
+ "annual": [
+  {
+   "fy": "FY22",
+   "revenue": 8960,
+   "genPct": 41,
+   "csPct": 59,
+   "nutraRev": 629,
+   "ccGrowthPct": 34,
+   "forexGain": null,
+   "exportPct": 90,
+   "src": "Q4FY22 call (28-May-2022): 41% / 59% for the full year, nutraceuticals Rs629 cr, constant currency +34%"
+  },
+  {
+   "fy": "FY23",
+   "revenue": 7768,
+   "genPct": 56,
+   "csPct": 44,
+   "nutraRev": 650,
+   "ccGrowthPct": -21,
+   "forexGain": 130,
+   "exportPct": 90,
+   "src": "Q4FY23 call (May-2023): 56:44 for the year, nutraceuticals Rs650 cr, constant currency -21%, forex gain Rs130 cr"
+  },
+  {
+   "fy": "FY24",
+   "revenue": 7845,
+   "genPct": 55,
+   "csPct": 45,
+   "nutraRev": 724,
+   "ccGrowthPct": -2,
+   "forexGain": 30,
+   "exportPct": 87,
+   "src": "Q4FY24 call (May-2024): 55% to 45% for the year, nutraceuticals Rs724 cr, constant currency -2%, forex gain Rs30 cr"
+  },
+  {
+   "fy": "FY25",
+   "revenue": 9360,
+   "genPct": 48.5,
+   "csPct": 51.5,
+   "nutraRev": 781,
+   "ccGrowthPct": 18,
+   "forexGain": 48,
+   "exportPct": 88,
+   "src": "Quarterly disclosures (Q1FY25 51/49, H1 49/51, 9M 48/52, Q4 49/51) sum to ~48.5% / 51.5%; the Q4FY25 call (17-May-2025) said 46% / 54% for the year, which does not reconcile with them, so we use the quarterly-consistent split (as PL does). Nutraceuticals Rs781 cr, constant currency +18%; forex gain Rs48 cr (Q4FY26 call)"
+  },
+  {
+   "fy": "FY26",
+   "revenue": 10560,
+   "genPct": 45,
+   "csPct": 55,
+   "nutraRev": 946,
+   "ccGrowthPct": 6.82,
+   "forexGain": 211,
+   "exportPct": 89,
+   "src": "Q4FY26 call (23-May-2026): 45% / 55%, nutraceuticals Rs946 cr, constant currency +6.82%, forex gain Rs211 cr, exports ~89% (Europe + US ~74% of exports)"
+  }
+ ],
+ "quarterly": [
+  {
+   "q": "Q1FY25",
+   "revenue": 2118,
+   "genPct": 51,
+   "csPct": 49,
+   "nutraRev": 178,
+   "ccGrowthPct": 18,
+   "forexGain": -1,
+   "grossMarginPct": 59.7,
+   "ebitdaMarginPct": 29.4,
+   "src": "Q1FY25 call (Aug-2024)"
+  },
+  {
+   "q": "Q2FY25",
+   "revenue": 2338,
+   "genPct": 47,
+   "csPct": 53,
+   "nutraRev": 228,
+   "ccGrowthPct": null,
+   "forexGain": null,
+   "grossMarginPct": 58.6,
+   "ebitdaMarginPct": 30.6,
+   "src": "Q2FY25 call (Nov-2024): H1 49% / 51%, H1 nutraceuticals Rs406 cr; Q2 implied"
+  },
+  {
+   "q": "Q3FY25",
+   "revenue": 2319,
+   "genPct": 47,
+   "csPct": 53,
+   "nutraRev": 170,
+   "ccGrowthPct": null,
+   "forexGain": null,
+   "grossMarginPct": 60.2,
+   "ebitdaMarginPct": 32,
+   "src": "Q3FY25 call (Feb-2025): quarter 47% / 53%, 9M nutraceuticals Rs576 cr"
+  },
+  {
+   "q": "Q4FY25",
+   "revenue": 2585,
+   "genPct": 49,
+   "csPct": 51,
+   "nutraRev": 205,
+   "ccGrowthPct": null,
+   "forexGain": null,
+   "grossMarginPct": 62.1,
+   "ebitdaMarginPct": 34.3,
+   "src": "Q4FY25 call (May-2025)"
+  },
+  {
+   "q": "Q1FY26",
+   "revenue": 2410,
+   "genPct": 47,
+   "csPct": 53,
+   "nutraRev": 250,
+   "ccGrowthPct": 14,
+   "forexGain": 39,
+   "grossMarginPct": 60.3,
+   "ebitdaMarginPct": 30.2,
+   "src": "Q1FY26 call (Aug-2025)"
+  },
+  {
+   "q": "Q2FY26",
+   "revenue": 2715,
+   "genPct": 44,
+   "csPct": 56,
+   "nutraRev": 242,
+   "ccGrowthPct": 10.79,
+   "forexGain": 63,
+   "grossMarginPct": 60.5,
+   "ebitdaMarginPct": 32.7,
+   "src": "Q2FY26 call (7-Nov-2025)"
+  },
+  {
+   "q": "Q3FY26",
+   "revenue": 2604,
+   "genPct": 43,
+   "csPct": 57,
+   "nutraRev": 214,
+   "ccGrowthPct": null,
+   "forexGain": 19,
+   "grossMarginPct": 63.7,
+   "ebitdaMarginPct": 34.2,
+   "src": "Q3FY26 call (11-Feb-2026): 9M constant currency +8.6%"
+  },
+  {
+   "q": "Q4FY26",
+   "revenue": 2831,
+   "genPct": 46,
+   "csPct": 54,
+   "nutraRev": 240,
+   "ccGrowthPct": null,
+   "forexGain": 90,
+   "grossMarginPct": 60.5,
+   "ebitdaMarginPct": 33,
+   "src": "Q4FY26 call (23-May-2026): FY 45% / 55% and nutraceuticals Rs946 cr; Q4 implied"
+  },
+  {
+   "q": "Q1FY27",
+   "revenue": 3080,
+   "genPct": 40,
+   "csPct": 60,
+   "nutraRev": 298,
+   "ccGrowthPct": 10,
+   "forexGain": -7,
+   "grossMarginPct": 68,
+   "ebitdaMarginPct": 40.7,
+   "src": "Q1FY27 call (1-Aug-2026): custom synthesis 60%, generics 40%, nutraceuticals Rs298 cr, standalone constant-currency growth 10%, forex loss Rs7 cr, net material consumption 31.2% (standalone)"
+  }
+ ],
+ "kpiBlocks": [
+  [
+   "1   REVENUE AND MIX (company disclosures)",
+   [
+    [
+     "revenue",
+     "Revenue from operations (consolidated)",
+     "₹ cr",
+     1
+    ],
+    [
+     "csPct",
+     "Custom synthesis, % of revenue",
+     "%"
+    ],
+    [
+     "genPct",
+     "Generics incl. nutraceuticals, % of revenue",
+     "%"
+    ],
+    [
+     "nutraRev",
+     "Nutraceuticals revenue",
+     "₹ cr",
+     1
+    ]
+   ]
+  ],
+  [
+   "2   GROWTH AND CURRENCY",
+   [
+    [
+     "ccGrowthPct",
+     "Constant-currency revenue growth, YoY",
+     "%"
+    ],
+    [
+     "forexGain",
+     "Net forex gain / (loss) in other income",
+     "₹ cr"
+    ]
+   ]
+  ],
+  [
+   "3   MARGINS",
+   [
+    [
+     "grossMarginPct",
+     "Gross margin (100 - material cost %)",
+     "%"
+    ],
+    [
+     "ebitdaMarginPct",
+     "EBITDA margin (before other income)",
+     "%"
+    ]
+   ]
+  ]
+ ]
+}

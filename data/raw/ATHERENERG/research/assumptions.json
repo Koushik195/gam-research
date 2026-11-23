@@ -1,0 +1,176 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Ather Energy (FY26 consolidated, Rs crore). Revenue = scooters sold (wholesale) x revenue per unit (all operating revenue: vehicles net of discounts and PM E-DRIVE subsidy, AtherStack Pro software, accessories, service, charging). FY26 base: 262,942 units, revenue Rs3,671.76 cr, Rs139,642 per unit. The Konarc / existing-range split behind revenue per unit is in `build` and is checked against model revenue in tools/authoring/ATHERENERG.ctx.js. tools/authoring/ATHERENERG.patch.js puts the Mar-2026 balance sheet on a pro forma basis for the Rs2,500 cr raised in Jul/Aug-2026 (QIP, India Japan Fund shares, Hero/founder warrants incl. the 75% due on conversion) and restates FY26 EPS on 40.41 cr fully diluted shares. ESOP cost (Rs58 cr in FY26) is inside employee costs and therefore inside our EBITDA margin; no separate esop line (volume model). Valued on EV/Sales on Sep-28E revenue, as the street does; the multiple is derived in ATHERENERG.ctx.js and written here by ATHERENERG.mult.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "volume": {
+  "base": 262942,
+  "growth": [
+   63.53,
+   62.79,
+   22.86
+  ],
+  "_why": "Wholesale units. FY27E 430,000 (+64%): Q1 83,173 actual; Q2 ~100k and Q3 ~105k with Hosur at its ~35,000-a-month ceiling (management: ~100% utilised by early August); Q4 ~142k as AURIC Phase 1 starts reliable output from January 2027 and ramps over 4-5 months toward 42,000 a month (we assume ~37k from AURIC in Q4). FY28E 700,000 (+63%): capacity ~77,000 a month (Hosur 35k + AURIC 42k, 'very high likelihood' by Q1FY28) used at ~76% on average, Konarc for a full year; this is ~19% of an e-2W market of ~3.7 mn if the industry grows ~45% a year from FY26's 1.40 mn, near Ather's 16-17% share in Q1FY27 and Apr-Aug FY27 plus Konarc's reach into cheaper segments. FY29E 860,000 (+23%): ~93% of Phase 1 capacity (9.2 lakh); AURIC Phase 2 (+5 lakh) is not committed, so we do not assume it before FY30. Street: Nomura FY28 volume ~7.94 lakh (+104% YoY) on faster EV adoption (10-Sep-2026)."
+ },
+ "revPerUnitGrowth": [
+  4.27,
+  -7.36,
+  0.37
+ ],
+ "_revPerUnitWhy": "Revenue per unit Rs139,642 (FY26), Rs146,312 in Q1FY27 (+4.6% YoY; price rises, mix to higher-range variants, AtherStack Pro attach 94%, non-vehicle 14% of revenue). Ex-showroom ASP rose from ~Rs1.50 lakh (Q4FY26) to ~Rs1.61 lakh from June, so Q2 gets a full quarter of price rises (~Rs150.5k per unit). Konarc (launched 29-Aug-2026 from Rs99,999 to Rs1.45 lakh ex-showroom) dilutes from Q3: we assume Rs112-114k per Konarc unit vs Rs150-154k for the 450/Rizta range, and Konarc at ~10% of Q3, ~25% of Q4, 43% of FY28E and 47% of FY29E volume. FY27E Rs145.6k (+4.3%), FY28E Rs134.9k (-7.4%), FY29E Rs135.4k (+0.4%). PM E-DRIVE (Rs5,000 a vehicle, extended to Mar-2028) stays in realisations; its lapse after FY28 is a risk we do not model separately.",
+ "build": {
+  "_note": "Mix build (units in '000, revenue per unit in Rs '000). Checked against model revenue in ATHERENERG.ctx.js.",
+  "konarcUnits": [
+   72,
+   300,
+   400
+  ],
+  "konarcRpu": [
+   113,
+   112,
+   114
+  ],
+  "coreUnits": [
+   358,
+   400,
+   460
+  ],
+  "coreRpu": [
+   152.1,
+   152,
+   154
+  ]
+ },
+ "ebitdaMargin": [
+  -0.5,
+  3.5,
+  6
+ ],
+ "_marginWhy": "EBITDA margin on Screener's basis (before other income): -40% FY23, -39% FY24, -26% FY25, -11.1% FY26, -2.7% Q1FY27 (company's definition, after other income: +0.8%, the first positive quarter). About three-quarters of costs below gross margin are fixed (management), so volume drives the margin. FY27E -0.5%: Q2-Q3 around breakeven to +1.5% (full-quarter price rises, tight fixed costs, no further material raw-material hit per management), Q4 slightly negative as AURIC's fixed costs and Konarc launch costs arrive before volume. FY28E 3.5%: revenue +51% on fixed costs up ~30% (AURIC staff and overheads, marketing for Konarc, ~8% of revenue variable: warranty, logistics) with gross margin ~20.5-21% (Screener basis; Konarc lower-priced, commodity index still high). FY29E 6.0%. Street: JPMorgan and Nirmal Bang had EBITDA breakeven 'by FY28E' at initiation; Nomura sees 15-20% long-term margin potential.",
+ "capex": [
+  1000,
+  600,
+  900
+ ],
+ "_capexWhy": "No capex guidance. FY26 capex Rs506 cr (AR FY26 cash flow). FY27E Rs1,000 cr: AURIC Phase 1 completion (Rs788 cr of the IPO's Rs927 cr factory allocation unspent at Mar-2026) plus capitalised R&D (EL platform; Rs478 cr of the R&D allocation unspent) and Hosur tooling for Konarc. FY28E Rs600 cr: R&D capitalisation (~Rs250 cr), Phase 2 early works, charging and maintenance. FY29E Rs900 cr: AURIC Phase 2 (+5 lakh a year) build-out, needed if FY29E volumes approach the 9.2 lakh Phase 1 ceiling; the Rs2,500 cr raise was sized for it (Q1 call).",
+ "depRateOnGrossBlock": 10,
+ "_depWhy": "FY26 depreciation Rs172.89 cr = 13.2% of average gross block (Rs1,103 cr FY25, ~Rs1,522 cr FY26 incl. intangibles under development; tooling and the 450 platform depreciate over ~7 years). Q1FY27 Rs39 cr. The engine depreciates capex at once while CWIP stays flat, so 10% gives ~Rs202 cr in FY27E (EL platform amortisation from SOP, AURIC from Q4), ~Rs282 cr FY28E and ~Rs357 cr FY29E (~3% of revenue, close to TVS/Bajaj levels).",
+ "treasuryYield": [
+  4.5,
+  6.5,
+  6.5
+ ],
+ "_treasuryWhy": "Treasury (pro forma Mar-26) = cash and bank Rs823 cr + mutual funds Rs552 cr + term deposits in other financial assets Rs1,207 cr + Rs2,500 cr raised in Jul/Aug-2026 - borrowings incl. leases Rs664 cr = ~Rs4,418 cr. FY26 interest on deposits Rs132 cr plus MF gains Rs17 cr (AR note 21) on IPO cash that arrived in May-2025: ~6.5% pre-tax. FY27E uses 4.5% on the pro forma figure because the new money arrived only from 20-Jul and 25-Aug-2026 and Rs750 cr comes on warrant conversion (Q1FY27 other income Rs42.7 cr).",
+ "otherIncome": [
+  40,
+  40,
+  40
+ ],
+ "_otherIncomeWhy": "Yield on cash held against borrowings (the engine applies the yield to net treasury): ~Rs664 cr x ~6% = ~Rs40 cr. FY26 Screener other income Rs146 cr = Rs151 cr (AR) less the Rs5 cr Labour Codes exceptional charge. FY27E total ~Rs240 cr vs Q1 Rs43 cr.",
+ "otherTreasury": {
+  "base": 1206.74,
+  "_why": "Term deposits inside 'other financial assets' (current Rs1,177.56 cr + non-current Rs29.18 cr, AR FY26 notes 3 and 10): IPO money, treasury not working capital."
+ },
+ "interest": [
+  90,
+  95,
+  95
+ ],
+ "_interestLabel": "Interest cost (term loans, working-capital lines, leases)",
+ "_interestWhy": "FY26 Rs82 cr (FY25 Rs111 cr after high-cost debt was refinanced); Q1FY27 Rs21.6 cr. Borrowings Rs513 cr + leases Rs151 cr at Mar-26; modest new working-capital and equipment debt for AURIC.",
+ "taxRate": [
+  0,
+  0,
+  25.17
+ ],
+ "_taxWhy": "No tax while losses run (accumulated losses since FY14 exceed Rs4,000 cr). We charge the full 25.17% from FY29E: conservative, because carried-forward losses would probably shelter FY29E profit, but the engine's DCF applies the last forecast year's rate to every later year.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividends while the company is loss-making and building capacity.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.2,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 12,
+  "fadeCapexPctTo": 4,
+  "depPctOfSales": 3,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, but a loss-making start-up in a young, policy-sensitive market with volatile commodity costs: beta 1.2, cost of equity 13.7%.",
+  "_tgWhy": "6%, the top of the house 5-6% range: e-2W penetration is still low (11% of 2W registrations in Q1FY27).",
+  "_fadeGrowthWhy": "Revenue growth fades from ~23% (FY29E) to 8% over 15 years; that already takes revenue to ~Rs33,000 cr by FY35, i.e. ~2.4 mn units at today's revenue per unit.",
+  "_fadeMarginWhy": "12% long-term EBITDA margin, close to TVS (12.9% in FY26) and below Hero (14.9%) and Bajaj (20.8%): Ather's software attach helps, but incumbents set prices off profitable ICE businesses. Nomura's 15-20% is the bull case.",
+  "_fadeCapexWhy": "Capex falls from ~8% of revenue to 4% once AURIC Phase 2 is built."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "E-2W adoption keeps compounding (fuel worries, state EV policies, PM E-DRIVE to Mar-2028), Konarc wins share in the north and AURIC Phase 2 is fast-tracked, so volumes grow ~8pp a year faster; commodities ease and software and accessories lift gross margin, taking EBITDA margin ~2pp above our base and to 15% in the long run.",
+   "volumeGrowthDelta": 8,
+   "revPerUnitDelta": 1,
+   "marginDelta": 2,
+   "fadeMarginTo": 15
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "TVS, Bajaj and Hero (Vida) out-price and out-distribute Ather as supply catches up with demand; Konarc cannibalises Rizta; the AURIC ramp slips; commodity costs stay high, so volume grows ~15pp a year slower and EBITDA margin stays ~3pp below our base, near breakeven in FY28E, and only 9% in the long run.",
+   "volumeGrowthDelta": -15,
+   "revPerUnitDelta": -1,
+   "marginDelta": -3,
+   "fadeMarginTo": 9
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "evs",
+     "name": "EV/Sales",
+     "method": "evSales",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 3.5,
+      "bull": 4,
+      "bear": 3
+     },
+     "why": "How the street values Ather: every broker that discloses a method uses EV/Sales (Emkay 7x Sep-28E, Nomura 5.5x FY29E). Multiple derived in tools/authoring/ATHERENERG.ctx.js (recently listed: own one-year-forward EV/Sales median over the 12 months to 30-Sep-2026, times the auto-OEM sector's move against the same-window medians, nearest half-turn); written by ATHERENERG.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "FY29E",
+     "multiple": {
+      "base": 14,
+      "bull": 14,
+      "bear": 14
+     },
+     "why": "What FY29E profits are worth at the auto-OEM peers' median EV/EBITDA on 30-Sep-2026: shows how much of the price rests on profits after FY29. Written by ATHERENERG.mult.js."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "15-year FCFF from FY28E, Ke 13.7%, terminal growth 6%, plus pro forma net cash."
+    }
+   ]
+  }
+ }
+}

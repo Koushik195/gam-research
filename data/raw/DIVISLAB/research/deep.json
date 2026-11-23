@@ -1,0 +1,492 @@
+{
+ "_meta": {
+  "asOf": "2026-09-30",
+  "note": "Industry, peers, street, ownership, moat, critiques, gaps and conflicts for Divi's Laboratories. Only sources published on or before 30-Sep-2026; later facts are in research/updates/later-facts.json."
+ },
+ "industry": {
+  "cdmo": {
+   "globalUsdBn2024": 150,
+   "globalUsdBnEarly2030s": "290-300",
+   "apiCdmoUsdBn2024": 107,
+   "apiCdmoUsdBn2033": 210,
+   "indiaCrdmoUsdBnNow": "3-3.5",
+   "indiaCrdmoUsdBn2035": "22-25",
+   "src": "AR FY26 operating context and MD&A (BCG and industry estimates quoted by the company)"
+  },
+  "peptides": {
+   "marketUsdBn2025": 140,
+   "marketUsdBn2033": 295,
+   "metabolicSharePct": 64,
+   "peptideCdmoUsdBn2025": 4,
+   "peptideCdmoUsdBn2030": "20-25",
+   "src": "AR FY26 (market); Macquarie note of 31-Jul-2026 via askfuzz.ai (peptide CDMO market)"
+  },
+  "generics": {
+   "usGenericVolumeSharePct": 90,
+   "chinaRebateWithdrawal": "China withdrew export tax rebates on certain chemicals from 1-Apr-2026; Divi's says the effect is on raw materials, not on competing APIs; 78% of its procurement by quantity is now domestic",
+   "src": "AR FY26; Q3FY26 call (11-Feb-2026)"
+  },
+  "westAsia": {
+   "start": "2026-02-28",
+   "effects": "Solvent prices 'almost double or triple'; ammonia and methanol supply tight; force majeure by suppliers; freight and container shortages; the rupee at record lows (~95-97 per US dollar in May-Jun 2026, ~86-88 a year earlier)",
+   "src": "Q4FY26 and Q1FY27 calls; ThePrint / Scroll rupee reports (May-Jun 2026)"
+  },
+  "biosecure": {
+   "item": "US Senate passed the BIOSECURE Act (Dec-2025), restricting US federal business with certain Chinese biotech suppliers; Macquarie called Divi's the front-runner in capacity creation to benefit",
+   "src": "https://www.tradingview.com/news/moneycontrol:ee4c08837094b:0-pharma-stocks-jump-up-to-5-after-us-senate-passes-biosecure-act-check-top-gainers/"
+  },
+  "tariffs": {
+   "item": "Section 232 (2-Apr-2026): 100% tariff on patented drugs and their APIs from 31-Jul / 29-Sep-2026; 15% cap for EU, Japan and Switzerland; 0-20% for companies with US onshoring and pricing deals; generics exempt. Divi's sells mostly to European and Japanese innovators (Europe 61% of FY26 revenue, North America 13%), whose products enter the US at the capped rates, so the direct hit is small; the risk is pressure on innovators to localise supply.",
+   "src": "https://www.cov.com/en/news-and-insights/insights/2026/04/trump-administration-announces-section-232-tariffs-on-patented-pharmaceuticals-and-ingredients; AR FY26"
+  }
+ },
+ "peers": {
+  "set": [
+   "SUNPHARMA",
+   "TORNTPHARM",
+   "ZYDUSLIFE",
+   "CIPLA",
+   "AUROPHARMA",
+   "ALKEM",
+   "IPCALAB",
+   "ABBOTINDIA"
+  ],
+  "excluded": {
+   "LUPIN": "Loss years inside the five-year window distort its median (PLAYBOOK §7c).",
+   "GLENMARK": "Loss years inside the window (PLAYBOOK §7c).",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "LAURUSLABS": "Boom-bust EPS (Covid ARV/CDMO windfall, then collapse); P/E above 100x inside the window (PLAYBOOK §7c).",
+   "DRREDDY": "gRevlimid windfall FY23-26 then the cliff; Q4FY26 EPS Rs2.65 (PLAYBOOK §7c).",
+   "MANKIND": "Listed May-2023: no five-year median (PLAYBOOK §7c)."
+  },
+  "notes": "Pharma peer set set on 23-Nov-2026 (PLAYBOOK §7c). Factor for DIVISLAB = median of the eight peers excluding Divi's = +5.45% (per-peer de-ratings rounded to 0.1pt; +5.43% unrounded). Including all 14 other names gives the same median. CDMO peers (LAURUSLABS, NEULANDLAB, SAILIFE, SYNGENE, PPLPHARMA) are shown for context only.",
+  "cdmo": [
+   "LAURUSLABS",
+   "NEULANDLAB",
+   "SAILIFE",
+   "SYNGENE",
+   "PPLPHARMA"
+  ]
+ },
+ "street": {
+  "brokers": [
+   {
+    "broker": "Citi",
+    "date": "2026-08-03",
+    "rating": "Buy",
+    "tp": 11700,
+    "prevTp": 9450,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "Top India pharma pick; strong custom synthesis; GLP-1 API supplies from FY27; complex oral peptides (enlicitide, icotrokinra) from CY27 (15-Jul note); sees the Entresto worry as overdone",
+    "src": "https://zerodha.com/markets/stocks/NSE/DIVISLAB/ (Reuters, 3-Aug-2026); https://businessupturn.com/finance/stock-market/brokerages/divi-s-labs-shares-in-focus-as-citi-says-peptide-pipeline-nears-commercial-inflection/ (15-Jul-2026)"
+   },
+   {
+    "broker": "Jefferies",
+    "date": "2026-08-03",
+    "rating": "Buy",
+    "tp": 10200,
+    "prevTp": 7950,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "'Best in class pipeline'; custom synthesis and nutraceuticals growth",
+    "src": "https://zerodha.com/markets/stocks/NSE/DIVISLAB/ (Reuters, 3-Aug-2026)"
+   },
+   {
+    "broker": "Macquarie",
+    "date": "2026-07-31",
+    "rating": "Outperform",
+    "tp": 10200,
+    "prevTp": 7500,
+    "method": "EV/EBITDA",
+    "multiple": "n.d.",
+    "on": "Jun-28E",
+    "thesis": "Peptide CDMO market from ~$4 bn (2025) to $20-25 bn (2030); rolled to Jun-28E EBITDA",
+    "src": "https://askfuzz.ai/discover/news/companies/divis-laboratories-shares-rise-2-06-to-7-397-50"
+   },
+   {
+    "broker": "JM Financial",
+    "date": "2026-08-03",
+    "rating": "Buy",
+    "tp": 9510,
+    "method": "EV/EBITDA",
+    "multiple": "41x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 127.5,
+     "FY28E": 156.1
+    },
+    "rev": {
+     "FY27E": 12713,
+     "FY28E": 15818
+    },
+    "ebitda": {
+     "FY27E": 4869,
+     "FY28E": 6090
+    },
+    "thesis": "CDMO +45%; three dedicated molecules commercialise over the next year; generic APIs +6% despite pricing",
+    "src": "https://www.jmfinancialservices.in/blogs-and-articles/divis-laboratories-stock-jmfs-buy-rating-target-indian-rupee9510"
+   },
+   {
+    "broker": "HDFC Securities",
+    "date": "2026-08-03",
+    "rating": "Buy",
+    "tp": 9230,
+    "prevTp": 7870,
+    "method": "EV/EBITDA",
+    "multiple": "39x (≈56.5x P/E)",
+    "on": "Q1FY29E",
+    "eps": {
+     "FY27E": 125.7,
+     "FY28E": 155.6,
+     "FY29E": 184.3
+    },
+    "rev": {
+     "FY27E": 12882,
+     "FY28E": 15513,
+     "FY29E": 18177
+    },
+    "thesis": "20% sales CAGR FY26-29E, ~26% EBITDA/PAT CAGR; gross margin to normalise from 68%",
+    "src": "https://www.hdfcsec.com/hsl.docs//HSIE%20Results%20Daily%20-%2003%20Aug%2026%20-%20HSIE-202608030647095772393.pdf"
+   },
+   {
+    "broker": "Morgan Stanley",
+    "date": "2026-08-03",
+    "rating": "Overweight",
+    "tp": 9111,
+    "prevTp": 7904,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "n.d.",
+    "src": "https://zerodha.com/markets/stocks/NSE/DIVISLAB/ (Reuters, 3-Aug-2026)"
+   },
+   {
+    "broker": "JPMorgan",
+    "date": "2026-08-04",
+    "rating": "Overweight",
+    "tp": 9100,
+    "prevTp": 7400,
+    "method": "P/E",
+    "multiple": "n.d. (55x Mar-28E EPS at initiation, Sep-2025)",
+    "on": "Mar-28E",
+    "thesis": "Q1 helped by validation-batch shipments; peptide and GLP-1 CDMO opportunity",
+    "src": "Investing.com analyst-ratings log (4-Aug-2026); JPMorgan initiation 18-Sep-2025 (P/E basis) via search summary"
+   },
+   {
+    "broker": "Prabhudas Lilladher",
+    "date": "2026-08-03",
+    "rating": "Accumulate",
+    "tp": 8600,
+    "prevTp": 6900,
+    "method": "P/E",
+    "multiple": "≈60.6x (implied; 57x at CMP)",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 119.5,
+     "FY28E": 142
+    },
+    "rev": {
+     "FY27E": 12563,
+     "FY28E": 14721
+    },
+    "ebitda": {
+     "FY27E": 4464,
+     "FY28E": 5317
+    },
+    "thesis": "Strong beat; 25% EBITDA/PAT CAGR FY26-28E; inventory gains aided gross margin; FY27 OPM in line with FY26 per management",
+    "src": "https://plindia.com/ResReport/DIVI-3-8-26-PL.pdf"
+   },
+   {
+    "broker": "DRChoksey",
+    "date": "2026-08-04",
+    "rating": "Hold",
+    "tp": 8521,
+    "prevTp": 7157,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "n.d.",
+    "src": "https://trendlyne.com/research-reports/stock/336/DIVISLAB/divi-s-laboratories-ltd/"
+   },
+   {
+    "broker": "Systematix",
+    "date": "2026-08",
+    "rating": "Hold",
+    "tp": 7959,
+    "prevTp": 6539,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "n.d.",
+    "src": "Search summary of Q1FY27 broker reactions (exact date not confirmed)"
+   },
+   {
+    "broker": "Motilal Oswal",
+    "date": "2026-08-02",
+    "rating": "Neutral",
+    "tp": 7720,
+    "prevTp": null,
+    "method": "P/E",
+    "multiple": "55x",
+    "on": "12M forward",
+    "thesis": "21% earnings CAGR FY26-28E but limited upside from current valuations; raw-material volatility",
+    "src": "https://investmentguruindia.com/newsdetail/neutral-divi-s-laboratories-ltd-for-the-target-rs-7-720-by-motilal-oswal-financial-services-ltd991055"
+   },
+   {
+    "broker": "BOB Capital Markets",
+    "date": "2026-05-24",
+    "rating": "Hold",
+    "tp": 7500,
+    "method": "P/E",
+    "multiple": "56x",
+    "on": "Mar-28E",
+    "eps": {
+     "FY28E": 133.8
+    },
+    "thesis": "Margin headwinds near term (pre-Q1 note; consensus FY28E EPS then Rs141.2)",
+    "src": "https://www.barodaetrade.com/Reports/DivisLabs-Q4FY26ResultReview24May26-Research.pdf (via search summary; the site blocks automated download)"
+   },
+   {
+    "broker": "ICICI Securities",
+    "date": "2026-08-03",
+    "rating": "Sell",
+    "tp": 6500,
+    "prevTp": 6150,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "Downgraded to Sell after the rally (n.d.)",
+    "src": "Investing.com analyst-ratings log (3-Aug-2026)"
+   },
+   {
+    "broker": "Ambit",
+    "date": "2026-05-25",
+    "rating": "Sell",
+    "tp": 6230,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "Near-term gross-margin pressure and mix (pre-Q1)",
+    "src": "https://zerodha.com/markets/stocks/NSE/DIVISLAB/ (Reuters Street View, 25-May-2026)"
+   },
+   {
+    "broker": "Kotak Institutional Equities",
+    "date": "2026-05-25",
+    "rating": "Sell",
+    "tp": 5850,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "Q4 operating miss, high capex intensity, expensive valuation (pre-Q1; a later raise is reported without a date and is not used)",
+    "src": "https://niftyinvest.com/company/DIVISLAB/related-news"
+   }
+  ],
+  "methodNote": "Brokers that disclose a method mostly use P/E on forward EPS (Motilal Oswal 55x 12M forward, BOBCAPS 56x Mar-28E, JPMorgan 55x Mar-28E at initiation, Sharekhan 51x and Choice 50x FY28E in earlier notes; PL quotes P/E). JM Financial, HDFC Securities and Macquarie use EV/EBITDA; HDFC translates its 39x into 56.5x P/E. With negligible debt and cash ~1.4% of market value, the two are nearly the same yardstick.",
+  "consensus": {
+   "postQ1": {
+    "FY27E": [
+     119.5,
+     127.5,
+     125.7
+    ],
+    "FY28E": [
+     142,
+     156.1,
+     155.6
+    ],
+    "who": "PL, JM Financial, HDFC Securities (3-Aug-2026)"
+   },
+   "lsegMedianTpAug3": 6921,
+   "lsegNote": "LSEG consensus on 3-Aug-2026 (before the post-results revisions): average rating 'hold', median target Rs6,921"
+  },
+  "_laterNote": "Notes published after 30-Sep-2026 (Q2FY27 reactions, October updates) are excluded; see updates/later-facts.json."
+ },
+ "ownership": {
+  "date": "Jun-2026",
+  "totalShares": 265476000,
+  "shareholders": 226324,
+  "categories": {
+   "Promoters": 51.88,
+   "FIIs": 20.19,
+   "DIIs": 19.29,
+   "of which mutual funds": 13.87,
+   "Government": 0.09,
+   "Public": 8.53
+  },
+  "named": [
+   {
+    "holder": "Dr. Satchandra Kiran Divi (promoter, CEO)",
+    "pct": 20.34,
+    "asOf": "Mar-26"
+   },
+   {
+    "holder": "Ms. Nilima Prasad Divi (promoter, WTD Commercial)",
+    "pct": 20.34,
+    "asOf": "Mar-26"
+   },
+   {
+    "holder": "Mrs. Swarnalatha Divi (promoter group)",
+    "pct": 5.27,
+    "asOf": "Mar-26"
+   },
+   {
+    "holder": "Divi's Biotech Pvt Ltd (promoter group)",
+    "pct": 3.01,
+    "asOf": "Mar-26"
+   },
+   {
+    "holder": "Dr. Murali K. Divi (founder, MD)",
+    "pct": 2.85,
+    "asOf": "Mar-26"
+   },
+   {
+    "holder": "Life Insurance Corporation of India",
+    "pct": 2.79,
+    "asOf": "Mar-26 (5.63% at Mar-25)"
+   }
+  ],
+  "pledged": 0,
+  "src": "Screener shareholding (BSE, Jun-2026); PL note 3-Aug-2026 (mutual funds 13.87%); AR FY26 note 11 (named holders, Mar-2026)"
+ },
+ "stock": {
+  "closes": {
+   "2026-06-25": 6713.5,
+   "2026-07-31": 8056,
+   "2026-08-28": 9239,
+   "2026-09-25": 9619.5,
+   "2026-09-30": 9291.5
+  },
+  "events": [
+   {
+    "date": "2026-07-31",
+    "event": "Shares rise ahead of results; Macquarie raises target to Rs10,200"
+   },
+   {
+    "date": "2026-08-03",
+    "event": "Record high Rs8,404.5 intraday after Q1FY27 (+4.3%); up 31.5% year to date (Reuters)"
+   },
+   {
+    "date": "2026-08-26",
+    "event": "Divi's and Laurus hit new highs as pharma/CDMO stocks rally (Business Standard headline; article blocked)"
+   },
+   {
+    "date": "2026-09-25",
+    "event": "Weekly close Rs9,619.5, the high of the period before the as-of date"
+   }
+  ],
+  "src": "Screener weekly prices; NSE close file; Reuters via Zerodha"
+ },
+ "moat": [
+  {
+   "factor": "Process chemistry and cost in generic APIs",
+   "score": "Strong",
+   "evidence": "World's largest maker of 10 key APIs; 60-70% share in several; backward integration (Kakinada) kept share despite two years of price erosion"
+  },
+  {
+   "factor": "Innovator relationships in custom synthesis",
+   "score": "Strong",
+   "evidence": "12 of the top 20 pharma companies, many for 10-25 years; 18-20 projects commercial or being commercialised; customers pre-pay capacity (Rs1,207 cr of advances in FY26)"
+  },
+  {
+   "factor": "Regulatory record",
+   "score": "Strong",
+   "evidence": "Clean USFDA outcomes since the 2017 Unit 2 import alert was lifted; Units 1 and 2 inspected in FY25-26"
+  },
+  {
+   "factor": "Switching costs",
+   "score": "Moderate",
+   "evidence": "Divi's sits in customers' CMC filings; changing supplier needs re-validation and agency approval, but only for the life of each molecule"
+  },
+  {
+   "factor": "Scale and capacity speed",
+   "score": "Moderate-strong",
+   "evidence": "~18,600 KL of reactor capacity; claims to build capacity in ~18 months vs 3-4 years in the West"
+  },
+  {
+   "factor": "Peptide capability",
+   "score": "Unproven",
+   "evidence": "Integrated from protected amino acids to fragments, several 3,000-litre SPPS lines; no disclosed commercial GLP-1 revenue yet"
+  },
+  {
+   "factor": "Pricing power",
+   "score": "Weak in generics",
+   "evidence": "Generic API value growth ~0-7% a year while volumes grow; recent price rises only pass through solvent costs (CEO, Aug-2026)"
+  },
+  {
+   "factor": "Concentration",
+   "score": "Unknown",
+   "evidence": "No customer or product disclosure beyond BRSR (valsartan 5.0%, naproxen 5.0%, levetiracetam 3.2% of FY26 standalone turnover)"
+  }
+ ],
+ "critiques": [
+  [
+   "Valuation already discounts the pipeline: 83x trailing EPS, and our Sep-28E target multiple is still ~60x",
+   "Motilal Oswal (Neutral, 55x), ICICI Securities (Sell), Kotak (Sell, May-2026)"
+  ],
+  [
+   "Q1FY27 gross margin (68%) was flattered by a ~Rs500 cr inventory build; adjusted margin closer to 28-30%",
+   "IIFL (on the Q1FY27 call), PL ('inventory gains'), HDFC Securities ('GM to normalize')"
+  ],
+  [
+   "Much of the growth is the rupee: constant-currency growth was 6.8% in FY26 and ~10% in Q1FY27 vs 12.8% and 27.8% reported",
+   "Company disclosures; JM Financial (Q4FY26 call question)"
+  ],
+  [
+   "Capex runs ahead of revenue: FY26 capex 24% of sales vs a 13% history; gross asset turn ~1.2x; timing of the dedicated projects depends on customers",
+   "Goldman Sachs and JM Financial (Q4FY26 call), Kotak ('high capex intensity')"
+  ],
+  [
+   "Generic API prices keep falling; Chinese competition and late-life-cycle custom products (valsartan/sacubitril) shrink",
+   "BofA (Q2FY26 call), Goldman Sachs (Q1FY26 call); valsartan share 6.4% to 5.0%"
+  ],
+  [
+   "Promoter pay is very high: Rs224 cr to executive directors in FY26, ~6.5% of standalone PBT; MD at 1,692x the median employee",
+   "AR FY26 (GAM reading)"
+  ],
+  [
+   "Working capital is heavy and rising: inventory Rs4,413 cr at Jun-26 (~346 days of material cost in FY26)",
+   "Screener ratios; Q1FY27 call (HSBC, IIFL)"
+  ],
+  [
+   "Little disclosure: no product, customer, capacity or order-book figures (CDAs)",
+   "Repeated on every call"
+  ]
+ ],
+ "gaps": [
+  "Molnupiravir and other Covid-product revenue in FY21-23 is not disclosed by the company; only press/broker estimates (Rs392 cr FY22 estimate).",
+  "Customers, molecules, prices and peak revenue of the three dedicated projects are confidential; we model them only through custom-synthesis growth.",
+  "The April-2024 contract filing itself was not reviewed; its Jan-2027 timeline is as recalled on the Q4FY26 call.",
+  "Peptide capacity (litres, number of SPPS lines) and any GLP-1 revenue are undisclosed; product links (enlicitide, icotrokinra, GLP-1 fragments) are Citi's, not the company's.",
+  "Named institutional holders at Jun-2026 (>1%) not retrieved; named promoter holdings are from the AR at Mar-2026.",
+  "Valuation methods not found for Citi, Jefferies, Morgan Stanley, ICICI Securities, DRChoksey and Systematix; Kotak, Goldman Sachs and BofA post-Q1 targets could not be dated before 30-Sep-2026 and are left out.",
+  "Business Standard and Baroda eTrade (BOBCAPS) pages block automated access; their content is taken from search summaries only.",
+  "Average USD/INR and EUR/INR rates by quarter were not sourced; the currency effect is taken from the company's constant-currency disclosures.",
+  "Whether any Divi's custom-synthesis product falls under the Section 232 patented-API tariff, and at what rate, is not disclosed.",
+  "Q2FY26 and Q3FY25 constant-currency growth and Q2-Q4FY25 forex figures were not recorded in the transcripts we read."
+ ],
+ "conflicts": [
+  [
+   "FY25 custom-synthesis share",
+   "Q4FY25 call: 54% for the year. But the four quarterly disclosures (Q1 49%, H1 51%, 9M 52%, Q4 51%) imply ~51.5%, which is also PL's figure. We use 51.5% (custom synthesis Rs4,820 cr), so FY26 custom-synthesis growth is +20.5%."
+  ],
+  [
+   "Q1FY27 revenue",
+   "Revenue from operations Rs3,080 cr (Screener, PL, HSIE) vs total income Rs3,144 cr (company release, incl. other income). We use Rs3,080 cr."
+  ],
+  [
+   "FY27 margin guidance",
+   "Transcript: EBITDA margin 'would be the similar as last year'. PL: 'OPM to remain in line with FY26'. HDFC Securities: 'higher EBITDA margin in FY27'. We read the transcript literally and give partial credit for currency."
+  ],
+  [
+   "Chairman",
+   "Corporate governance report and Board's report (signed 23-May-2026): Dr. Ramesh B. V. Nimmagadda is Chairman. Related-party note lists K. V. Chowdary as 'Independent Director and Chairman'. We use the governance report."
+  ],
+  [
+   "Generic API pricing",
+   "Industry export data showed API prices up in June-2026 (Goldman Sachs on the call); the CEO says this is only solvent cost pass-through, not a market recovery."
+  ]
+ ]
+}

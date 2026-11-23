@@ -1,0 +1,2913 @@
+{
+ "symbol": "ATHERENERG",
+ "listing": "NSE: ATHERENERG · BSE: 544397",
+ "date": "30 September 2026",
+ "rating": "SELL",
+ "analysts": "GAM Research — Automobiles",
+ "cover": {
+  "headline": "The best e-scooter brand in India, priced as if it had already won",
+  "lead": "Ather Energy makes premium electric scooters (450, Rizta and, from Sep-2026, the cheaper Konarc) at Hosur and, from early 2027, at a new 5-lakh-a-year plant at AURIC near Aurangabad. It sold 2,62,942 scooters in FY26 (+69%) for ₹3,672 cr and lost ₹517 cr; in Q1FY27 it reached EBITDA breakeven on its own definition. Demand is running ahead of supply (1.5 lakh pre-orders in Q1, dealer stock 3 days), but its market share slipped to 16-17% as TVS and Bajaj grew faster. The street values the stock on **EV/Sales (5.5-7x Sep-28E or FY29E)**, with no Sell among the eight houses we track (median target ₹1,850). We forecast revenue of ₹6,261 / 9,442 / 11,644 cr for FY27-29E. Applying the house rule, **3.5x Sep-28E revenue of ₹10,543 cr** (the stock's own 12-month forward median of 4.0x, less the auto sector's 10.0% move) plus net cash gives **{{dcf.tp|inr}} ({{dcf.upside|chg}}): we initiate with SELL.** Cross-checks are lower: DCF ₹465, EV/EBITDA on FY29E ₹341. Bull {{scen.bull.tp|inr}}; bear {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "Growth is real and capacity-bound",
+    "p": "Wholesale volumes rose 81% in Q1FY27 to 83,173; registrations +102%. Hosur tops out at ~35,000 a month; AURIC Phase 1 adds 42,000 a month from January 2027 (4-5 month ramp). We model {{F.volume.0|num}} / {{F.volume.1|num}} / {{F.volume.2|num}} scooters in FY27-29E, about 3.3x FY26 by FY29E."
+   },
+   {
+    "h": "The margin turn has started, but from a low base",
+    "p": "EBITDA margin (before other income) improved from −26% in FY25 to −11% in FY26 and −2.7% in Q1FY27 on operating leverage and price rises, despite a 5.6pp commodity hit to gross margin. Konarc lowers revenue per scooter (from ₹99,999) and AURIC adds fixed costs from Q4. We model {{F.ebitdaMargin.0|pct}} / {{F.ebitdaMargin.1|pct}} / {{F.ebitdaMargin.2|pct}}."
+   },
+   {
+    "h": "No moat against TVS, Bajaj and Hero yet",
+    "p": "Ather's brand, software (94% buy the AtherStack Pro pack) and charging network are real advantages, and its prices are the highest in the segment. But incumbents fund their e-scooters from profitable petrol-bike businesses, and Ather's share fell from 18.6% (Q4FY26) to 15.9% in Aug-2026 while it waited for capacity. Hero MotoCorp, its 30% shareholder, competes with Vida."
+   },
+   {
+    "h": "Valuation: the price assumes the bull case",
+    "p": "At ₹1,425 Ather trades on 5.6x our FY28E and 5.0x Sep-28E revenue, against a 12-month forward median of 4.0x; the multiple more than doubled from ~3x in April to 6.6x in September 2026. P/E cannot be used: FY27E is a loss and FY28E EPS (₹5.9) gives a meaningless ~242x. The street's ₹1,398-2,200 targets rest on 5.5-7x multiples (median 6.25x) that the stock held only in its last two months."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "GREEN"
+   },
+   {
+    "k": "Governance (Hero as shareholder and rival)",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "AMBER"
+   },
+   {
+    "k": "Valuation",
+    "v": "RED"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): first full quarter at Hosur's capacity and of June's price rises; whether EBITDA stays positive.",
+   "AURIC Phase 1: trial output in the festive season, reliable output from January 2027, 42,000 a month by end-Q4FY27 or early FY28.",
+   "Konarc deliveries (phased from mid-Sep-2026; entry variant from Q1 2027) and its effect on Rizta, revenue per scooter and AtherStack Pro attach (guided 75%+).",
+   "Monthly Vahan registrations: does Ather regain share once supply improves, or do TVS, Bajaj and Hero keep gaining?",
+   "AURIC Phase 2 decision (management: firmer timelines \"in a quarter or two\"); commodity prices (lithium, copper, aluminium); state EV policies (Delhi, Haryana)."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Quarterly volumes: 23k in Q1FY25, 83k in Q1FY27",
+       "unit": "Scooters sold (wholesale)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Units",
+         "values": [
+          23426,
+          39305,
+          45252,
+          47411,
+          46078,
+          65595,
+          67851,
+          83418,
+          83173
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor presentations"
+      },
+      {
+       "type": "line",
+       "title": "Market share: 18.8% peak in Q3FY26, then capacity bit",
+       "unit": "Ather share of e-2W registrations (%)",
+       "x": [
+        "Q3FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Market share",
+         "values": [
+          12.3,
+          14.3,
+          17.4,
+          18.8,
+          18.6,
+          16.8
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 8,
+       "max": 22,
+       "source": "Company (Vahan + Telangana portal)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Quarterly EBITDA margin: −36% to −2.7% in eight quarters",
+       "unit": "EBITDA margin before other income (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "values": [
+          -35.6,
+          -23.9,
+          -22.2,
+          -25.5,
+          -20.8,
+          -14.7,
+          -7.5,
+          -5.9,
+          -2.7
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "lines": [
+        {
+         "v": 0,
+         "text": "Breakeven",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Screener.in (Q3FY26 derived); GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Gross margin without subsidy: 12% in FY25, 21% in FY26",
+       "unit": "Adjusted gross margin (% of total income)",
+       "x": [
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "With subsidy",
+         "values": [
+          9,
+          19,
+          24
+         ],
+         "fmt": "pct0"
+        },
+        {
+         "name": "Without subsidy",
+         "values": [
+          null,
+          12,
+          21
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26 MD&A; Q4FY26 presentation"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Volumes: 2.6 lakh in FY26, 8.6 lakh by FY29E",
+       "unit": "Scooters sold",
+       "x": "fin.labels",
+       "from": "FY24",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Volume",
+         "ref": "kpi.units",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company; GAM estimates FY27-29E"
+      },
+      {
+       "type": "column",
+       "title": "Revenue: ₹11,600 cr by FY29E, 3.2x FY26",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; GAM estimates FY27-29E"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward EV/Sales: 5.6x now vs 4.0x 12-month median",
+       "unit": "EV ÷ next full-year revenue (x)",
+       "x": [
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/Sales",
+         "values": [
+          3.32,
+          3.33,
+          3.93,
+          4.01,
+          3.92,
+          3.69,
+          3.66,
+          3.95,
+          4.08,
+          3.82,
+          3.64,
+          3.98,
+          4.03,
+          4.23,
+          3.56,
+          3.48,
+          3.49,
+          3.52,
+          4.01,
+          4.02,
+          4.03,
+          4.04,
+          3.81,
+          4,
+          4.46,
+          4.56,
+          2.89,
+          3.29,
+          3.25,
+          3.38,
+          3.59,
+          3.51,
+          3.6,
+          3.38,
+          3.7,
+          3.99,
+          3.97,
+          3.74,
+          3.84,
+          4.38,
+          4.76,
+          4.99,
+          4.71,
+          4.92,
+          5.85,
+          5.97,
+          5.77,
+          6.45,
+          6.31,
+          6.62,
+          6.55,
+          5.94,
+          5.63
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "lines": [
+        {
+         "v": 3.5,
+         "text": "Our multiple: 3.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; GAM estimates of FY27-28E revenue; shares and net cash step up with the Jul/Aug-2026 raise"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (notes standing on 30-Sep-2026)",
+       "unit": "₹ per share; CMP ₹1,425",
+       "x": [
+        "Emkay Global",
+        "Axis Capital",
+        "Nomura",
+        "CLSA",
+        "JPMorgan",
+        "Nirmal Bang",
+        "HSBC",
+        "Ambit Capital",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          2200,
+          2100,
+          1926,
+          1850,
+          1850,
+          1538,
+          1450,
+          1398,
+          1010
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes, 4-Aug to 10-Sep-2026 (median ₹1,850), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Ather does",
+   "kicker": "The business",
+   "title": "One business: premium electric scooters, plus software, charging and accessories that rivals do not match",
+   "blocks": [
+    {
+     "p": "Ather Energy designs and makes electric scooters and sells them through ~700 franchised experience centres (Mar-2026). It has three families: the **450** (sporty, its first product, 2018), the **Rizta** (a family scooter launched in Apr-2024, now the volume driver: 2 lakh+ sold within 21 months) and the **Konarc** (the first model on its new low-cost EL platform, launched on 29-Aug-2026 from ₹99,999 ex-showroom). It designs the battery packs, motor controllers, vehicle software and dashboards itself and buys cells and most parts. It builds scooters at Hosur (Tamil Nadu; ~35,000 a month, 4.2 lakh a year) and is finishing a second plant at AURIC, Chhatrapati Sambhaji Nagar (Maharashtra; 5 lakh a year in Phase 1, room for another 5 lakh)."
+    },
+    {
+     "p": "What makes it different is the layer around the scooter. **AtherStack Pro**, a paid software pack (navigation, ride modes, theft and crash alerts, over-the-air updates), is bought by 94% of customers; **non-vehicle revenue** (software, accessories, service, charging) was 14% of revenue in Q1FY27. Ather built India's largest two-wheeler fast-charging network (6,000+ points) on its own connector, LECCS, which became an Indian standard used by 20+ companies. Revenue per scooter was ₹1,39,642 in FY26 and ₹1,46,312 in Q1FY27, the highest among mass-market e-scooter makers."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Reach and assets",
+      "head": [
+       "",
+       "Detail"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Capacity",
+        "Hosur 35,000 a month (4,20,000 a year, ~100% used by Aug-2026); AURIC Phase 1 5,00,000 a year from Q4FY27 (dedicated to the EL platform); total 9,20,000, then 14,20,000 with Phase 2 (not yet started)"
+       ],
+       [
+        "Distribution",
+        "700 experience centres and 548 service centres (Mar-2026), doubled in a year; new stores reach operating breakeven in 5-6 months (management). Store openings paused in Q1FY27 because stores could only meet 50-60% of demand"
+       ],
+       [
+        "Demand",
+        "Q1FY27: 7,07,000 enquiries (+95%), 1,50,000 paid pre-orders (+158%), 90,808 registrations (+102%), dealer stock 3 days"
+       ],
+       [
+        "Revenue mix",
+        "Vehicles 86-87%, non-vehicle 13-14% (AtherStack Pro the largest; accessories under ₹100 cr but growing 30-40% a year; service 2-3% of revenue vs 10-12% for incumbents)"
+       ],
+       [
+        "Subsidy",
+        "PM E-DRIVE ₹5,000 a scooter (to Mar-2028); subsidy was 3% of FY26 revenue (6% FY25, 16% FY24)"
+       ]
+      ],
+      "source": "Q1FY27 and Q4FY26 presentations and calls; AR FY26"
+     }
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "Thirteen years, four funding eras: VC, Hero MotoCorp, the IPO and the 2026 top-up",
+   "blocks": [
+    {
+     "p": "Two IIT Madras graduates, Tarun Mehta and Swapnil Jain, founded Ather in 2013. Hero MotoCorp invested from 2016 and is now the largest shareholder; GIC, NIIF and others followed. The subsidy cut of 2023 (FAME-II) hit volumes in FY24 and pushed Ather to sell software packs to rebuild margins. The IPO in May-2025 raised ₹2,626 cr of new money at ₹321 a share (plus a ₹355 cr sale by existing holders). In Jul/Aug-2026, with the stock at ~4x the IPO price and demand outrunning supply, Ather raised another ₹2,500 cr to fund AURIC Phase 2 and faster launches."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Corporate actions and what they did to the numbers",
+      "head": [
+       "When",
+       "What",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "2013",
+        "Founded in Bengaluru by Tarun Mehta and Swapnil Jain (IIT Madras).",
+        "–"
+       ],
+       [
+        "2016-2018",
+        "Hero MotoCorp invests (first round 2016); Ather 450 launched (2018); Ather Grid fast-charging network started.",
+        "–"
+       ],
+       [
+        "2022-2023",
+        "FAME-II subsidy cut (Jun-2023) and the off-board charger show-cause; Ather moves to AtherStack Pro software packs to rebuild margins.",
+        "FY24 revenue flat (−2%); EBITDA loss ₹685 cr; ₹148 cr refunded to customers"
+       ],
+       [
+        "Apr-2024",
+        "Rizta family scooter launched: 2 lakh+ sold by Dec-2025; drives Middle and North India growth.",
+        "Volumes +42% in FY25 and +69% in FY26; Middle and North India now the growth zones"
+       ],
+       [
+        "Jun-2024",
+        "Board approves the AURIC factory (~100 acres, Chhatrapati Sambhaji Nagar; 95-year lease, ₹95.5 cr upfront).",
+        "Capex ₹339 cr FY25, ₹506 cr FY26; capacity +5 lakh from Q4FY27"
+       ],
+       [
+        "6-May-2025",
+        "IPO at ₹321: fresh issue ₹2,626 cr + OFS ₹355 cr; listed.",
+        "Net worth ₹493 cr → ₹2,573 cr; ₹1,617 cr unspent at Mar-2026"
+       ],
+       [
+        "Aug-2025",
+        "EL scooter platform and Zenith motorcycle platform unveiled at Community Day.",
+        "–"
+       ],
+       [
+        "20-Jul-2026",
+        "QIP: 1.08 cr shares at ₹1,202 (₹1,300 cr), 8x subscribed.",
+        "+2.8% shares; +₹1,300 cr cash"
+       ],
+       [
+        "25-Aug-2026",
+        "Preferential issue: 16.3 lakh shares at ₹1,230 to the India Japan Fund (NIIF) and 79.4 lakh warrants at ₹1,260 to Hero MotoCorp and the founders (₹1,200 cr).",
+        "+0.4% shares now, +2.0% on warrant conversion; +₹450 cr cash now, ₹750 cr later"
+       ],
+       [
+        "29-Aug-2026",
+        "Konarc (EL platform) launched from ₹99,999 ex-showroom Bengaluru; six variants; deliveries from mid-Sep in phases.",
+        "Lower revenue per scooter from Q3FY27; wider addressable market"
+       ]
+      ],
+      "source": "Company filings; AR FY26; exchange filings (QIP, preferential issue); Business Today, Autocar Pro"
+     }
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "E-scooters went mainstream in 2026: 70% growth, 11% of all two-wheelers",
+   "blocks": [
+    {
+     "p": "India sold ~21.4 mn two-wheelers in FY26, of which ~1.4 mn were electric (+22%, 6.5% penetration). Then demand jumped: e-2W registrations were 5,25,000 in Q1FY27 (+68%), ~11% of all two-wheelers and ~25% of scooters, and 9,03,420 in Apr-Aug 2026 (+70%). Three things changed at once: the West Asia conflict raised petrol prices and, for the first time, made buyers worry about petrol availability; EV running costs became far cheaper than petrol; and governments pushed harder (Delhi's draft EV policy; PM E-DRIVE extended to Mar-2028)."
+    },
+    {
+     "bullets": [
+      "**Policy.** PM E-DRIVE (Oct-2024, outlay ₹10,900 cr): e-2W demand subsidy ₹2,500/kWh capped at ₹5,000 a vehicle since Apr-2025; extended in Mar-2026 to 31-Jul-2026, then on 11-Aug-2026 to 31-Mar-2028 with e-2W allocation raised by ~₹1,000 cr to ₹2,767 cr. Delhi's draft EV policy (2026) pushes harder; Haryana following (management, Q1 call). PLI-Auto supports local value addition. Subsidy was 16% of Ather's revenue in FY24, 6% in FY25, 3% in FY26 (AR FY26).",
+      "**Fuel.** From early 2026 the West Asia conflict raised petrol prices and caused availability worries; management cites this, plus rising petrol prices, as the main reason e-2W demand jumped (EV searches +75%, Ather searches +118% in Q1FY27).",
+      "**Costs.** Two-wheeler commodity index (HSBC / company) +46% over five quarters to Q1FY27: aluminium, copper, plastics (crude), lithium hydroxide +131%; rare-earth magnet export controls by China (2025).",
+      "**Outlook.** CRISIL (quoted in AR FY26): e-2W sales of 0.60-0.62 crore units by FY30 and 22-25% penetration. Nomura (10-Sep-2026): 22% e-2W penetration by FY30 (45% in scooters). At FY26's ~2.1 crore two-wheelers, 22-25% penetration means ~45-55 lakh e-2Ws a year by FY30, 3-4x FY26.",
+      "**Supply.** Every listed maker was capacity- or supply-constrained in mid-2026; waiting periods of up to two months at Ather (Q1 call). When supply catches up, discounting could return."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Does the EV boom reach Ather? Yes in volume, less in market share",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Four tailwinds, tested",
+      "head": [
+       "Tailwind",
+       "Evidence it is real",
+       "Does it reach Ather?",
+       "Catch"
+      ],
+      "wide": [
+       1,
+       3
+      ],
+      "rows": [
+       [
+        "E-2W adoption (fuel shock, TCO)",
+        "Industry +70% Apr-Aug 2026",
+        "Yes: registrations +102% in Q1FY27; Apr-Aug +82% (1,48,023)",
+        "Capacity-bound until AURIC: share fell to 15.9% in August"
+       ],
+       [
+        "Policy (PM E-DRIVE, state policies)",
+        "Subsidy extended to Mar-2028 (11-Aug-2026)",
+        "Partly: subsidy is only 3% of revenue",
+        "The scheme ends in Mar-2028; Delhi policy still a draft"
+       ],
+       [
+        "Premiumisation and software",
+        "Ather ASP ~₹1.61 lakh; buyers pay for range and warranty",
+        "Yes: AtherStack Pro attach 94%, price rises absorbed in Q1",
+        "Konarc moves Ather down-market, lowering revenue per scooter"
+       ],
+       [
+        "Scooterisation outside the south",
+        "Scooters +16.5% in FY26 (all fuels)",
+        "Yes: Middle India registrations +141%, Rest of India +118% in Q1FY27",
+        "In the north Ather meets Hero, TVS and Bajaj dealer networks head-on"
+       ]
+      ],
+      "source": "Vahan via Autocar Pro (1-Sep-2026); company presentations and calls; AR FY26; GAM Research"
+     }
+    },
+    {
+     "callout": "**Verdict:** the tailwind is real and Ather catches it in volume (+81% wholesale in Q1FY27). But in FY27 it is growing slower than TVS (+92%) and Bajaj (+106%) because it cannot make enough scooters, so the boom so far helps incumbents at least as much as it helps Ather. AURIC from January 2027 is the test."
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "nav": "Competition",
+   "kicker": "Competition",
+   "title": "Four big players: TVS and Bajaj lead, Ather third, Ola collapsing, Hero rising",
+   "blocks": [
+    {
+     "p": "The e-scooter market has consolidated around the petrol incumbents. TVS (iQube) and Bajaj (Chetak) sell through thousands of existing dealers and can price off profitable petrol businesses; Hero MotoCorp's Vida nearly tripled in FY26. Ola Electric, the FY24 leader, lost more than half its volume in FY26 after service problems. Ather is the only independent maker with scale, and the most premium: it is gaining in absolute terms but not in share this year."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "E-2W registrations: FY26 and Apr-Aug FY27",
+      "head": [
+       "Company",
+       "FY26 units",
+       "FY26 growth",
+       "Apr-Aug FY27",
+       "Growth",
+       "Aug-26 share"
+      ],
+      "rows": [
+       [
+        "TVS Motor (iQube, Orbiter)",
+        "3,41,647",
+        "+44%",
+        "2,35,302",
+        "+92%",
+        "27.1%"
+       ],
+       [
+        "Bajaj Auto (Chetak)",
+        "2,89,323",
+        "+25%",
+        "2,04,551",
+        "+106%",
+        "22.7%"
+       ],
+       [
+        "Ather Energy (450, Rizta, Konarc)",
+        "2,39,124",
+        "+82%",
+        "1,48,023",
+        "+82%",
+        "15.9%"
+       ],
+       [
+        "Ola Electric",
+        "1,64,294",
+        "−52%",
+        "72,036",
+        "−26%",
+        "7.7%"
+       ],
+       [
+        "Hero MotoCorp (Vida)",
+        "1,44,099",
+        "+196%",
+        "99,023",
+        "+114%",
+        "10.5%"
+       ]
+      ],
+      "source": "Vahan via Autocar Pro and Business Today (1-Apr-2026, 1-Sep-2026). Ather's own wholesale count for FY26 was 262,942."
+     }
+    },
+    {
+     "callout": "**Our read:** Ather's products and brand are competitive at the top of the market, and Konarc takes it into the ₹1-1.2 lakh segment where TVS, Bajaj and Hero sell most. Hero (30% of Ather) is a shareholder and a rival. We assume Ather holds a 16-19% share of a fast-growing market; regaining the 18-19% of late FY26 needs AURIC on time."
+    }
+   ]
+  },
+  {
+   "id": "volumes",
+   "nav": "Volumes & capacity",
+   "kicker": "Volume drivers",
+   "title": "Volumes: demand is not the limit, the factory is",
+   "blocks": [
+    {
+     "p": "Ather dispatched 2,62,942 scooters in FY26 (+69%) and 83,173 in Q1FY27 (+81%), even though April production was only 24,000 (labour shortages, West Asia supply disruption) before reaching 28,000 in May and 31,000 in June. By August Hosur was running at its ~35,000-a-month ceiling. Management estimates it could have sold another 13-15k a month in Q1. The step-up comes from AURIC: equipment installation was finishing in Aug-2026, trial output from the festive season, reliable output from January 2027 and a 4-5 month ramp to 42,000 a month, taking capacity to ~77,000 a month (9.2 lakh a year) by around Q1FY28. AURIC is dedicated to the Konarc/EL platform; Hosur can make up to 18,000 Konarcs a month instead of Rizta if needed."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Production rose to the Hosur ceiling in Q1FY27",
+       "unit": "Scooters produced per month",
+       "x": [
+        "Apr-26",
+        "May-26",
+        "Jun-26"
+       ],
+       "series": [
+        {
+         "name": "Production",
+         "values": [
+          24000,
+          28000,
+          31000
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "lines": [
+        {
+         "v": 35000,
+         "text": "Hosur ceiling ~35,000",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Q1FY27 call (3-Aug-2026)"
+      },
+      {
+       "type": "column",
+       "title": "Capacity: 4.2 lakh today, 9.2 lakh with AURIC Phase 1",
+       "unit": "Annual capacity (units)",
+       "x": [
+        "Hosur (now)",
+        "+ AURIC Phase 1 (Q4FY27-Q1FY28)",
+        "+ AURIC Phase 2 (not started)"
+       ],
+       "series": [
+        {
+         "name": "Capacity",
+         "values": [
+          420000,
+          920000,
+          1420000
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation and call"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Our volume and revenue build",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Konarc (EL platform) units",
+        "–",
+        "72,000",
+        "3,00,000",
+        "4,00,000"
+       ],
+       [
+        "450 / Rizta units",
+        "2,62,942",
+        "3,58,000",
+        "4,00,000",
+        "4,60,000"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total units**",
+         "**2,62,942**",
+         "**4,30,000**",
+         "**7,00,000**",
+         "**8,60,000**"
+        ]
+       },
+       [
+        "  growth",
+        "+69%",
+        "+63.5%",
+        "+62.8%",
+        "+22.9%"
+       ],
+       [
+        "Konarc share of units",
+        "–",
+        "17%",
+        "43%",
+        "47%"
+       ],
+       [
+        "Revenue per unit: Konarc / core (₹ '000)",
+        "– / 140",
+        "113 / 152.1",
+        "112 / 152",
+        "114 / 154"
+       ],
+       [
+        "Revenue per unit, blended (₹)",
+        "1,39,642",
+        "1,45,553",
+        "1,34,857",
+        "1,35,395"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Revenue (₹ crore)**",
+         "**3,672**",
+         "**6,259**",
+         "**9,440**",
+         "**11,644**"
+        ]
+       },
+       [
+        "Capacity at year-end (a year)",
+        "4,20,000",
+        "9,20,000",
+        "9,20,000",
+        "9,20,000 (Phase 2 under way)"
+       ]
+      ],
+      "source": "Company; GAM estimates (assumptions.json \"build\"); model and build agree on volume and revenue"
+     }
+    },
+    {
+     "callout": "**Our view:** FY27E 4,29,989 (+63.5%) is mostly arithmetic: Hosur full for three quarters plus ~37k from AURIC in Q4. FY28E (6,99,979) assumes AURIC is used at ~76% on average and that Ather holds a ~19% share of an e-2W market growing ~45%; Nomura is higher (~7.9 lakh). FY29E (8,59,994) is ~93% of Phase 1 capacity: anything above needs Phase 2, which was not committed by 30-Sep-2026."
+    }
+   ]
+  },
+  {
+   "id": "economics",
+   "nav": "Unit economics & margins",
+   "kicker": "Unit economics",
+   "title": "Unit economics: gross margin up 15 points in two years, no longer subsidy-led, but commodities bite",
+   "blocks": [
+    {
+     "p": "Ather's adjusted gross margin (AGM, revenue less materials, on total income) rose from 9% in FY24 to 19% in FY25 and 24% in FY26; **without the government subsidy it went from 12% in FY25 to 21% in FY26**, because the materials cost per scooter fell 9% in FY26 (₹1,10,199) through design changes (LFP cells, cheaper electronics), supplier localisation and volume. The subsidy is now only ~3% of revenue (16% in FY24), so a further cut would hurt less than it did in 2023. Then commodities turned: the company's index rose 46% in five quarters (lithium hydroxide +131%, copper, aluminium, plastics), costing ~5.6 points of gross margin in Q1FY27 (AGM 22.4% vs 25.4% at the end of Q4). Price rises (ASP ₹1.50 lakh → ₹1.61 lakh by June) and the software pack offset part of it."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Revenue per scooter: up with price rises; Konarc will dilute it",
+       "unit": "Revenue ÷ scooters sold (₹ '000)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Revenue per scooter",
+         "values": [
+          153.9,
+          148.5,
+          140.3,
+          142.6,
+          139.9,
+          137,
+          140.5,
+          140.8,
+          146.3
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "ends",
+       "source": "Screener.in revenue ÷ company volumes"
+      },
+      {
+       "type": "column",
+       "title": "Subsidy share of revenue: 16% → 3% in two years",
+       "unit": "Subsidy, % of revenue",
+       "x": [
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Subsidy",
+         "values": [
+          16,
+          6,
+          3
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26 MD&A"
+      }
+     ]
+    },
+    {
+     "p": "Below gross margin, about three-quarters of costs (staff, marketing, R&D expensed, rent, IT) are fixed (management). Q1FY27 showed the leverage: employee costs fell to 10% of revenue (18% a year earlier) and other expenses to 13% (22%), so EBITDA before other income improved to −2.7% even as gross margin fell. From Q4FY27 AURIC's staff and overheads start, and Konarc's lower prices arrive before its lower costs. ESOP charges (₹58 cr in FY26) are inside employee costs and our margins."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "From gross margin to EBITDA (% of revenue, Screener basis)",
+      "head": [
+       "",
+       "FY24",
+       "FY25",
+       "FY26",
+       "Q1FY27",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Material cost",
+        "{{A.materialPct.4|pct0}}",
+        "{{A.materialPct.5|pct0}}",
+        "{{A.materialPct.6|pct0}}",
+        "80%",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Employee cost",
+        "{{A.employeePct.4|pct0}}",
+        "{{A.employeePct.5|pct0}}",
+        "{{A.employeePct.6|pct0}}",
+        "10%",
+        "–",
+        "–",
+        "–"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**EBITDA margin**",
+         "{{A.ebitdaMargin.4|pct}}",
+         "{{A.ebitdaMargin.5|pct}}",
+         "{{A.ebitdaMargin.6|pct}}",
+         "−2.7%",
+         "**{{F.ebitdaMargin.0|pct}}**",
+         "**{{F.ebitdaMargin.1|pct}}**",
+         "**{{F.ebitdaMargin.2|pct}}**"
+        ]
+       }
+      ],
+      "source": "Screener.in cost schedules; GAM estimates. Forecast costs are not split by line."
+     }
+    },
+    {
+     "callout": "**Our view:** the margin story is operating leverage first and gross margin second. We model gross margin flat to slightly down (Konarc, commodities) and fixed costs up ~30% in FY28E, giving EBITDA of {{F.ebitdaMargin.1|pct}} in FY28E and {{F.ebitdaMargin.2|pct}} in FY29E. The bulls' 15-20% long-run margin needs both: a recovering gross margin and incumbent-like scale."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: a strong brand and software layer, but no moat yet",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Brand and product",
+       "Moderate",
+       "Premium e-scooter brand: ASP ~₹1.61 lakh (Jun-2026), above TVS, Bajaj and Ola; #1 searched EV brand; Rizta took Ather beyond the south",
+       "Pricing power is real today (price rises absorbed in Q1FY27), but demand exceeds supply industry-wide, which flatters everyone's pricing"
+      ],
+      [
+       "Software and ecosystem",
+       "Moderate",
+       "AtherStack Pro attach 94%; 6,000+ fast chargers on Ather's LECCS standard (now an Indian standard, 20+ members); non-vehicle revenue 14%",
+       "The best evidence of a moat: a recurring, high-margin layer rivals have not matched. But LECCS is now open, and software can be copied"
+      ],
+      [
+       "Scale and cost",
+       "Weak",
+       "2.6 lakh units in FY26 vs TVS 3.4 lakh EVs and 40+ lakh ICE 2Ws; still loss-making on Screener's EBITDA; Hosur capped at 35k/month",
+       "No scale advantage against TVS, Bajaj or Hero, which can cross-subsidise EVs from profitable ICE businesses"
+      ],
+      [
+       "Distribution",
+       "Weak",
+       "700 experience centres (Mar-2026) vs thousands of ICE dealers for incumbents",
+       "Expanding fast, but incumbents' service reach is far larger"
+      ],
+      [
+       "Technology and IP",
+       "Moderate",
+       "283 patents filed in FY26; in-house battery packs, motor controllers, software, EL platform built for cost",
+       "Real engineering depth for a start-up; incumbents' R&D budgets are larger"
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings and calls, Vahan, broker notes to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** Ather has the best product and software ecosystem among Indian e-scooter makers and the pricing power to show it (ASP ~₹1.61 lakh, 94% software attach). That is an edge, not a moat. Incumbents with ten times Ather's two-wheeler volume, larger dealer and service networks and profitable petrol businesses are growing faster in 2026, and nothing stops them copying features. Ather has not yet earned an operating profit over a full year."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue up 100x since FY20; losses halved in FY26 and almost gone in Q1FY27",
+   "blocks": [
+    {
+     "p": "Ather sold ₹35 cr of scooters in FY20 and ₹3,672 cr in FY26. Growth came in two bursts: FY22-FY23 (the 450X and the FAME-II subsidy) and FY25-FY26 (the Rizta family scooter, launched in Apr-2024, which took Ather beyond the south). FY24 was flat because the subsidy was cut in Jun-2023. Losses peaked at ₹1,060 cr in FY24 (₹885 cr before a one-off charge) and fell to ₹812 cr in FY25 and ₹517 cr in FY26. The EBITDA margin (before other income) went from −40% in FY23 to −11% in FY26 and −2.7% in Q1FY27, as revenue grew faster than fixed costs and the cost of materials per scooter fell 9% in FY26."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: ₹408 cr in FY22, ₹3,672 cr in FY26",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY20",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (FY26 consolidated; FY20-FY25 standalone), GAM Research. Mar-2026 balance sheet pro forma for the Rs2,500 cr raised in Jul/Aug-2026 (see Balance sheet)"
+      },
+      {
+       "type": "column",
+       "title": "Net loss: peaked at ₹1,060 cr in FY24, ₹517 cr in FY26",
+       "unit": "Net profit (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY20",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (FY26 consolidated; FY20-FY25 standalone), GAM Research. Mar-2026 balance sheet pro forma for the Rs2,500 cr raised in Jul/Aug-2026 (see Balance sheet)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: −40% in FY23, −11% in FY26",
+       "unit": "EBITDA margin before other income (%)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (FY26 consolidated; FY20-FY25 standalone), GAM Research. Mar-2026 balance sheet pro forma for the Rs2,500 cr raised in Jul/Aug-2026 (see Balance sheet)"
+      },
+      {
+       "type": "column",
+       "title": "Cost of materials fell from 96% to 79% of revenue",
+       "unit": "Material cost, % of revenue",
+       "x": "A.labels",
+       "from": "FY22",
+       "series": [
+        {
+         "name": "Material cost",
+         "ref": "A.materialPct",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the improvement is real and mostly operating leverage: management says about three-quarters of the costs below gross margin are fixed, so each extra scooter lifts the margin. But the business has never made an annual operating profit, and FY26 still lost ₹408 cr at the EBITDA level. Other income (₹146 cr in FY26, mostly interest on IPO cash) is what made the company's own \"EBITDA\" definition look better than Screener's."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: volumes +81%, first positive EBITDA on the company's measure, capacity the bottleneck",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q1FY27",
+       "Change"
+      ],
+      "rows": [
+       [
+        "Scooters sold (wholesale)",
+        "46,078",
+        "83,173",
+        "+80.5%"
+       ],
+       [
+        "Registrations (retail)",
+        "44,900",
+        "90,808",
+        "+102.2%"
+       ],
+       [
+        "Revenue from operations",
+        "645",
+        "1,217",
+        "+88.8%"
+       ],
+       [
+        "Adjusted gross margin (company)",
+        "23%",
+        "22.4%",
+        "−60bp"
+       ],
+       [
+        "EBITDA before other income (Screener)",
+        "-134",
+        "-33",
+        "margin -20.8% → -2.7%"
+       ],
+       [
+        "EBITDA incl. other income (company)",
+        "−106",
+        "9.5",
+        "-16% → +0.8%"
+       ],
+       [
+        "Other income",
+        "28.3",
+        "42.7",
+        "+50.8%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net loss / EPS (₹)**",
+         "**-178.2 / -4.79**",
+         "**-51.1 / -1.33**",
+         "**loss −71%**"
+        ]
+       }
+      ],
+      "source": "Q1FY27 investor presentation (3-Aug-2026); Screener.in"
+     }
+    },
+    {
+     "bullets": [
+      "First positive EBITDA quarter on the company's definition (incl. other income): ₹9.45 cr, 0.8% of total income; on Screener's basis (before other income) EBITDA was still -₹33 cr (-2.7%).",
+      "Wholesale 83,173 (+81%), registrations 90,808 (+102%); paid pre-orders 1.5 lakh in the quarter (+158%); dealer stock down from 14 days to 3. Management thinks it could have sold 13-15k more scooters a month.",
+      "Hosur is capped at ~35,000 a month (4.2 lakh a year) and was ~100% utilised by August; AURIC (Chhatrapati Sambhaji Nagar) Phase 1 adds 5 lakh a year: trial production from the festive season, reliable output from January 2027, a 4-5 month ramp to 42,000 a month (end-Q4FY27 or early FY28).",
+      "Commodities: index +46% over five quarters; ~5.6pp hit to gross margin in Q1 (AGM 22.4% vs 25.4% exit-Q4). Another 1-2pp of risk, largely covered by price rises already taken (ASP ~₹1.61 lakh from June vs ~₹1.50 lakh in Q4).",
+      "Konarc (EL platform) to cannibalise Rizta more than the 450; lower ASP; AtherStack Pro attach guided at 75%+ on EL. Electric motorcycle 'two years plus' away.",
+      "Management said 15-20% of Q1 vehicles may have been sold without the PM E-DRIVE subsidy (reason not given); on the 3-Aug call the extension beyond 31-Jul-2026 was still awaited. The government extended the e-2W subsidy to Mar-2028 on 11-Aug-2026 at ₹2,500/kWh, capped at ₹5,000 a vehicle."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (May-2026 to Aug-2026)",
+      "head": [
+       "When",
+       "Topic",
+       "What was said",
+       "Outcome by 30-Sep-2026"
+      ],
+      "wide": [
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "4-May-26",
+        "AURIC Phase 1",
+        "Revenue from the new factory before the end of FY27, most likely Q4.",
+        "Q1 call: trial output from festive, reliable from Jan-2027."
+       ],
+       [
+        "4-May-26",
+        "Commodity costs",
+        "Short-term margin pressure; only partly passed on so far; hits to come in coming quarters.",
+        "Q1 AGM 22.4% (-5.6pp commodity hit)."
+       ],
+       [
+        "4-May-26",
+        "Stores",
+        "No specific FY27 store guidance (700 ECs at Mar-26).",
+        "Store openings slowed in Q1 (supply-short)."
+       ],
+       [
+        "3-Aug-26",
+        "Capacity",
+        "Total capacity ~75,000 a month by Q1FY28 'very high likelihood'; AURIC ramp 4-5 months to 42,000 a month.",
+        "Not yet tested at 30-Sep."
+       ],
+       [
+        "3-Aug-26",
+        "Margins",
+        "Further 1-2pp commodity risk, largely offset by price rises already taken; Q2 should see no material RM degradation; AURIC fixed costs from Q4.",
+        "Not yet tested at 30-Sep."
+       ],
+       [
+        "3-Aug-26",
+        "AURIC Phase 2",
+        "Planning stage; may be fast-tracked; firmer timelines in a quarter or two; ₹2,500 cr raise sized with it in mind.",
+        "No investment started by 30-Sep."
+       ],
+       [
+        "3-Aug-26",
+        "Konarc / EL",
+        "SOP at Hosur in Q2FY27; up to 60,000 a month across Hosur and AURIC; AtherStack Pro attach 75%+.",
+        "Launched 29-Aug-2026 from ₹99,999; deliveries from mid-Sep in phases."
+       ]
+      ],
+      "source": "Ather calls (4-May-2026, 3-Aug-2026); Business Today (Konarc, 29-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Why it matters:** management gives few hard numbers (no volume, margin or capex guidance), but its operational calls have been broadly right: it flagged the commodity hit a quarter ahead and delivered breakeven while absorbing it. The test for FY27 is the AURIC timetable. A slip of a quarter would cut ~40-50k scooters from our FY27E-FY28E volumes."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Cash burn & funding",
+   "kicker": "Capital",
+   "title": "Cash burn: ₹4,000 cr of equity raised since FY20; free cash flow still negative",
+   "blocks": [
+    {
+     "p": "Ather has always been funded by equity. Shares issued raised ₹220 cr (FY20), ₹344 cr (FY21), ₹1,200 cr (FY23), ₹901 cr (FY24), ₹87 cr (FY25) and ₹2,540 cr in FY26 (the May-2025 IPO, net of costs), and another ₹2,500 cr in Jul/Aug-2026 (QIP ₹1,300 cr; India Japan Fund ₹200 cr; Hero MotoCorp and founder warrants ₹1,000 cr, of which ₹250 cr paid). Cash used by operations peaked at ₹871 cr in FY23; FY26 was the first year operations made cash (+₹32 cr), helped by ₹268 cr more supplier credit, customer advances and deferred software revenue. Capex rose to ₹506 cr in FY26 (AURIC factory, EL platform)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash flow turned positive in FY26",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY21",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Screener.in cash flow realigned to the AR FY26 statement (ATHERENERG.patch.js)"
+      },
+      {
+       "type": "column",
+       "title": "Free cash flow: −₹1,060 cr in FY25, −₹474 cr in FY26",
+       "unit": "Free cash flow (₹ crore)",
+       "x": "A.labels",
+       "from": "FY21",
+       "series": [
+        {
+         "name": "Free cash flow",
+         "ref": "A.fcf",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; AR FY26"
+      }
+     ]
+    },
+    {
+     "callout": "**The capital question:** with ~₹4,400 cr of pro forma net cash, Ather is funded for AURIC Phase 1 and most of Phase 2 on our numbers (free cash flow of {{F.fcf.0|num}} / {{F.fcf.1|num}} / {{F.fcf.2|num}} cr in FY27-29E). The risk is not solvency but dilution and returns: equity has been raised every one or two years, and the company has not yet shown it can earn its cost of capital."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean accounts; watch the company's EBITDA definition, capitalised R&D and the GST credit",
+   "blocks": [
+    {
+     "bullets": [
+      "**Two EBITDA definitions.** Ather's \"EBITDA\" adds other income (mostly interest on IPO cash): Q1FY27 was +₹9.5 cr on its measure but −₹33 cr before other income. We use the stricter Screener basis throughout.",
+      "**Capitalised development.** Product development is capitalised (intangibles ₹439 cr gross, ₹238 cr under development at Mar-2026, mostly the EL platform) and amortised over ~7 years; R&D spend was ₹448 cr in FY26 (₹345 cr in FY25). Amortisation of EL starts with production in FY27, adding to depreciation.",
+      "**Deferred revenue and warranty.** ₹197 cr of software subscriptions and extended battery warranties are booked over time (a conservative feature); warranty provisions were ₹60 cr in FY26 and were recalibrated upward in Q4 for commodity prices.",
+      "**Share-based pay** ₹58 cr in FY26 (₹83 cr in FY25), charged in employee costs.",
+      "**GST credit** of ₹339 cr sits in current assets because EVs pay 5% GST but many inputs 18-28%; it is recovered through refunds and future output tax.",
+      "**FAME-II.** FAME-II/PMP show-cause (29-Mar-2023): Ather agreed to refund off-board charger prices to customers; ₹147.97 cr refunded to Mar-2026, ₹9.81 cr outstanding (deposit held).",
+      "**Exceptional item** ₹5.0 cr in FY26: labour codes (gratuity and leave) one-time provision."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: GREEN.** Unmodified audit opinion, simple structure (tiny overseas subsidiaries), net cash, deferred rather than front-loaded revenue. Two disclosure gaps: no quarterly balance sheet, and Screener's FY26 cash-flow rows are misaligned (we fixed them from the annual report)."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash of ~₹4,400 cr pro forma; suppliers fund the working capital",
+   "blocks": [
+    {
+     "p": "At Mar-2026 Ather held ₹2,582 cr of cash, bank deposits and liquid funds (₹823 cr cash and bank, ₹552 cr mutual funds, ₹1,207 cr term deposits inside other financial assets, mostly unspent IPO money) against ₹664 cr of borrowings and leases: ₹1,918 cr net. Adding the ₹2,500 cr raised in Jul/Aug-2026 (including the ₹750 cr due when the warrants convert) gives **~₹4,418 cr pro forma, ~₹109 a share** on 40.41 cr fully diluted shares. Working capital is negative (−53 days in FY26, company KPI): trade payables (₹830 cr), customer advances (₹126 cr) and deferred software and extended-warranty revenue (₹197 cr) exceed inventory (₹282 cr) and receivables (₹8 cr). Other current assets include ₹339 cr of GST credit (EVs pay 5% GST on sales but 18-28% on many inputs) and ₹75 cr of subsidy receivable."
+    },
+    {
+     "callout": "**Pro forma note:** the engine has no share-issue line for industrial companies, so we add the ₹2,500 cr of equity raised after March to the Mar-2026 balance sheet (investments and reserves) and count the 79.4 lakh warrants as shares. Reported Mar-2026 net worth was ₹2,573 cr; shown here as {{A.netWorth.6|num}} cr. See the statement notes."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-23",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26 (pro forma)"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.3|num}}",
+        "{{A.netWorth.4|num}}",
+        "{{A.netWorth.5|num}}",
+        "{{A.netWorth.6|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "{{A.borrowings.3|num}}",
+        "{{A.borrowings.4|num}}",
+        "{{A.borrowings.5|num}}",
+        "{{A.borrowings.6|num}}"
+       ],
+       [
+        "Cash and bank balances",
+        "{{A.cash.3|num}}",
+        "{{A.cash.4|num}}",
+        "{{A.cash.5|num}}",
+        "{{A.cash.6|num}}"
+       ],
+       [
+        "Investments (pro forma incl. ₹2,500 cr raised)",
+        "{{A.investments.3|num}}",
+        "{{A.investments.4|num}}",
+        "{{A.investments.5|num}}",
+        "{{A.investments.6|num}}"
+       ],
+       [
+        "Net fixed assets",
+        "{{A.fixedAssets.3|num}}",
+        "{{A.fixedAssets.4|num}}",
+        "{{A.fixedAssets.5|num}}",
+        "{{A.fixedAssets.6|num}}"
+       ],
+       [
+        "Capital work in progress",
+        "{{A.cwip.3|num}}",
+        "{{A.cwip.4|num}}",
+        "{{A.cwip.5|num}}",
+        "{{A.cwip.6|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.3|num}}",
+        "{{A.inventories.4|num}}",
+        "{{A.inventories.5|num}}",
+        "{{A.inventories.6|num}}"
+       ],
+       [
+        "Trade payables",
+        "{{A.payables.3|num}}",
+        "{{A.payables.4|num}}",
+        "{{A.payables.5|num}}",
+        "{{A.payables.6|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (FY26 consolidated; FY20-FY25 standalone), GAM Research. Mar-2026 balance sheet pro forma for the Rs2,500 cr raised in Jul/Aug-2026 (see Balance sheet). Term deposits of ₹1,207 cr in other financial assets are not in the cash line."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: Hero MotoCorp 30%, founders 10.7%, Indian funds buying, foreign funds selling",
+   "blocks": [
+    {
+     "p": "At 30-Jun-2026 the promoter group (Hero MotoCorp and the two founders) held 40.72%: Hero 30.04%, the founders ~5.3% each with their family trusts. Mutual funds held 20.33%, all domestic institutions 29.28% and foreign investors 16.23% (GIC's Caladium 7.56%). Foreign holdings fell from 24% after the IPO as pre-IPO investors sold after their lock-ins; Indian funds bought. QIP (20-Jul) and preferential issue (25-Aug) diluted holders; Hero MotoCorp to ~30.7% on conversion of its warrants (company). Caladium Investment (GIC) sold ~3.05% in the open market on 28-Aug-2026 (market reports of the exchange disclosure; secondary source)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Foreign funds sold after the lock-ins ended; Indian funds bought",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Shareholders: 1.4 lakh after the IPO, 2.3 lakh in Jun-2026",
+       "unit": "Number of shareholders",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Shareholders",
+         "ref": "SH.rows.No. of Shareholders",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Shareholding (30-Jun-2026)",
+      "head": [
+       "Holder",
+       "Stake"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Hero MotoCorp (promoter)",
+        "30.04%"
+       ],
+       [
+        "Tarun Mehta (founder, CEO) incl. family trusts",
+        "5.32%"
+       ],
+       [
+        "Swapnil Jain (founder, CTO) incl. family trusts",
+        "5.37%"
+       ],
+       [
+        "Caladium Investment (GIC, Singapore)",
+        "7.56%"
+       ],
+       [
+        "SBI Small Cap Fund",
+        "6.2%"
+       ],
+       [
+        "India Japan Fund (NIIF)",
+        "5.86%"
+       ],
+       [
+        "Motilal Oswal Large & Midcap Fund",
+        "3.37%"
+       ],
+       [
+        "Axis Midcap Fund",
+        "2.16%"
+       ],
+       [
+        "HSBC Small Cap Fund",
+        "1.87%"
+       ],
+       [
+        "Aditya Birla SL Flexi Cap Fund",
+        "1.77%"
+       ],
+       [
+        "Kamath Associates",
+        "1.32%"
+       ],
+       [
+        "NKSquared",
+        "1.3%"
+       ],
+       [
+        "Edelweiss Mid Cap Fund",
+        "1.24%"
+       ],
+       [
+        "Mutual funds (all)",
+        "20.33%"
+       ],
+       [
+        "Foreign investors (all)",
+        "16.23%"
+       ],
+       [
+        "Retail and others",
+        "13.76%"
+       ]
+      ],
+      "source": "BSE shareholding pattern (Jun-2026) via Trendlyne and Screener.in. Founder stakes include family trusts."
+     }
+    },
+    {
+     "callout": "**Our read:** Hero MotoCorp's rising stake (warrants at ₹1,260) and the founders' warrants signal confidence and anchor the register. The overhangs are pre-IPO investors that still hold large blocks (GIC sold ~3% in August) and the 18-month conversion window, which adds ~2% to the share count."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: founder-led and transparent, with one unusual conflict: the biggest shareholder is a rival",
+   "blocks": [
+    {
+     "p": "Eight directors, three independent (AR FY26): Neelam Dhawan (independent chairperson), Kaushik Dutta and Sanjay Nayak (independent); Tarun Mehta (ED & CEO) and Swapnil Jain (ED & CTO); non-executive directors Pankaj Sood, Vivek Anand and Ram Kuppuswamy (COO-manufacturing at Hero MotoCorp, up for re-appointment at the 2026 AGM). CFO Sohil Parekh. Promoters: Hero MotoCorp and the two founders."
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "Statutory auditor's report on FY26 standalone statements unmodified (AR FY26). Simple structure; deferred revenue booked conservatively.",
+       "No accounting red flags."
+      ],
+      [
+       "Board",
+       "Moderate",
+       "Eight directors, three independent including the chair; three non-executive investor nominees.",
+       "Independent chair; investor-heavy board."
+      ],
+      [
+       "Founders",
+       "Strong",
+       "Tarun Mehta (CEO) and Swapnil Jain (CTO) have run Ather since 2013 and are buying more (warrants at ₹1,260).",
+       "Aligned and accountable."
+      ],
+      [
+       "Largest shareholder",
+       "Watch",
+       "Hero MotoCorp is both the largest shareholder (promoter, 30.0% at Jun-2026) and a direct competitor (Vida e-scooters, 1.44 lakh registrations in FY26). Warrants issued to Hero and the founders at ₹1,260 (25% paid) give them an 18-month option on 79 lakh shares.",
+       "Hero gains either way; minority holders need Ather to win share from Vida too."
+      ],
+      [
+       "ESOPs and dilution",
+       "Moderate",
+       "Share-based pay ₹58 cr in FY26 (₹83 cr FY25), ~1.6% of revenue; ESOP 2025 plan approved; grants continue. Equity raised in FY25, FY26 and FY27.",
+       "Dilution has been the price of growth."
+      ],
+      [
+       "Regulatory history",
+       "Moderate",
+       "FAME-II / PMP show-cause notice (Mar-2023): Ather refunded ₹148 cr of off-board charger prices to customers; ₹9.8 cr outstanding at Mar-2026.",
+       "Resolved, but a reminder of subsidy-rule risk."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "AR FY26; exchange filings; shareholding pattern"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: revenue ₹11,600 cr and first annual profit in FY28E",
+   "blocks": [
+    {
+     "p": "We forecast scooters sold × revenue per scooter (Konarc and the 450/Rizta range built separately), an EBITDA margin (before other income) of {{F.ebitdaMargin.0|pct}} / {{F.ebitdaMargin.1|pct}} / {{F.ebitdaMargin.2|pct}}, capex of ₹1,000 / 600 / 900 cr with depreciation at 10% of gross block, other income of 4.5-6.5% on pro forma net cash, no tax until FY29E (then 25.17%, conservatively) and no dividends. Every assumption, with our reasoning, is in the Excel model's Assumptions sheet."
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Volume (scooters)",
+        "ref": "kpi.units"
+       },
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "Net cash (forecast) / cash (actual)",
+        "ref": "fin.treasury"
+       }
+      ],
+      "source": "Company, GAM Research estimates. Actual-year \"net cash\" row is gross cash and investments (engine convention)."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E",
+       "GAM FY29E",
+       "Street FY29E"
+      ],
+      "rows": [
+       [
+        "Revenue growth, Nomura (10-Sep-26)",
+        "{{F.salesGrowth.0|chg}}",
+        "+54%",
+        "{{F.salesGrowth.1|chg}}",
+        "+100%",
+        "{{F.salesGrowth.2|chg}}",
+        "+31%"
+       ],
+       [
+        "Revenue (₹ cr), Nomura implied",
+        "{{F.sales.0|num}}",
+        "5,655",
+        "{{F.sales.1|num}}",
+        "11,310",
+        "{{F.sales.2|num}}",
+        "14,816"
+       ],
+       [
+        "Volume, Nomura",
+        "{{F.volume.0|num}}",
+        "–",
+        "{{F.volume.1|num}}",
+        "~794,000",
+        "{{F.volume.2|num}}",
+        "–"
+       ],
+       [
+        "EBITDA breakeven, JPMorgan / Nirmal Bang (initiations)",
+        "{{F.ebitdaMargin.0|pct}}",
+        "–",
+        "{{F.ebitdaMargin.1|pct}}",
+        "\"by FY28E\"",
+        "{{F.ebitdaMargin.2|pct}}",
+        "–"
+       ]
+      ],
+      "source": "Nomura via Business Today (10-Sep-2026); JPMorgan and Nirmal Bang via Business Today and Multibagg (Jun-Aug 2026). Other brokers' estimates not available to us (gaps)."
+     }
+    },
+    {
+     "callout": "Our FY27E revenue is above Nomura's (we include ~37k AURIC units in Q4); our FY28E-FY29E revenue is well below it (Nomura ~₹11,300 cr in FY28 vs our ₹9,442 cr) because we assume AURIC runs at ~76% in its first full year and that Konarc lowers revenue per scooter by ~7% in FY28E. That revenue gap explains roughly two-fifths of the distance between our target and Nomura's; the multiple (our 3.5x vs its 5.5x) explains the rest."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: all Buy, targets ₹1,398-2,200 (median ₹1,850), all on EV/Sales",
+   "blocks": [
+    {
+     "p": "Eight houses published targets between the Q1FY27 results (3-Aug-2026) and our as-of date: Emkay Buy ₹2,200, Axis Capital ₹2,100, Nomura Buy ₹1,926, CLSA Accumulate ₹1,850, JPMorgan Overweight ₹1,850, Nirmal Bang Buy ₹1,538, HSBC Buy ₹1,450 and Ambit ₹1,398: median ₹1,850, +30% vs the 30-Sep-2026 close of ₹1,425. A 4-Aug roundup counted 13 Buys and no Sells. Every house that discloses a method uses EV/Sales: Emkay 7x Jun-28E (4-Aug) then 7x Sep-28E (31-Aug); Nomura 5.5x FY29E (10-Sep; 5-7x 'should sustain'); earlier in 2026 Emkay and CLSA 7x FY28E and Nomura 6x (aggregator, Jun-2026). No broker uses P/E: Ather has no profits to multiply. The bulls' case is a structural EV upcycle, Konarc doubling the addressable market, AURIC removing the supply cap and 15-20% long-run margins. The stock rose from ₹1,260 (31-Jul) to ₹1,656 (11-Sep) as targets were raised, then fell 14% into the as-of date."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Ather is losing share while the market booms: 18.6% in Q4FY26, 16.8% in Q1FY27 and 15.9% in Aug-2026 (Vahan) as TVS and Bajaj grew faster; capacity, not demand, is the limit until AURIC ramps",
+        "Autocar Pro (1-Sep-2026); company"
+       ],
+       [
+        "Incumbents can price e-scooters off ICE profits; Hero, a 30% shareholder, also sells Vida",
+        "Vahan data; GAM"
+       ],
+       [
+        "Gross margin is exposed to lithium, copper and rare earths; Q1FY27 showed a 5.6pp commodity hit",
+        "Q1FY27 call"
+       ],
+       [
+        "The stock already prices a lot: the street pays 5.5-7x forward EV/Sales for a company that has not yet made an annual operating profit; profitable 2W makers trade on far lower sales multiples (peer table)",
+        "Nomura (10-Sep-2026: '5-7x should sustain'); GAM"
+       ],
+       [
+        "Konarc lowers ASP and may cannibalise Rizta",
+        "Q1FY27 call"
+       ],
+       [
+        "Subsidy is small now (3% of revenue) but policy still matters: state EV policies and the PM E-DRIVE cap",
+        "AR FY26; Business Standard (11-Aug-2026)"
+       ]
+      ],
+      "source": "Broker notes, news and call transcripts to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 3.5x Sep-28E revenue gives {{dcf.tp|inr}}; the stock trades at 5.0x",
+   "blocks": [
+    {
+     "h": "How the street values Ather"
+    },
+    {
+     "p": "Ather has no earnings to put a P/E on: FY26 EPS was −₹13.5 and we forecast −₹2.1 in FY27E. The house P/E routine (forward P/E median since listing, leaving out loss years) is meaningless here: FY27 is a loss year, and the only \"valid\" points are Apr-Sep 2026 on our FY28E EPS of ₹5.9, a median of ~192x. So, like every broker, we use **EV/Sales on the revenue the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E)**, plus net cash."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "EV/Sales implied on our Sep-28E",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Emkay Global (31-Aug-26)",
+        "Buy",
+        "2,200",
+        "EV/Sales",
+        "7x",
+        "Sep-28E",
+        "8.1x",
+        "Structural multi-year demand upcycle; 7x is Eicher's implied multiple for Royal Enfield in its FY13-17 high-growth phase"
+       ],
+       [
+        "Axis Capital (31-Aug-26)",
+        "Buy",
+        "2,100",
+        "n.d.",
+        "–",
+        "–",
+        "7.7x",
+        "Capacity-led growth; Konarc widens the addressable market"
+       ],
+       [
+        "Nomura (10-Sep-26)",
+        "Buy",
+        "1,926",
+        "EV/Sales",
+        "5.5x",
+        "FY29E",
+        "7.0x",
+        "Top 2W pick; revenue +54% / +100% / +31% FY27-29F; FY28 volume ~7.94 lakh; e-2W penetration 22% by FY30; EL doubles Ather's TAM; 15-20% long-term margin potential"
+       ],
+       [
+        "CLSA (31-Aug-26)",
+        "Accumulate",
+        "1,850",
+        "n.d.",
+        "–",
+        "–",
+        "6.7x",
+        "Capacity, not demand, is the constraint; Factory 3.0, price rises and EL support margins"
+       ],
+       [
+        "JPMorgan (31-Aug-26)",
+        "Overweight",
+        "1,850",
+        "n.d.",
+        "–",
+        "–",
+        "6.7x",
+        "Initiated Overweight; EBITDA break-even by FY28 at initiation, now earlier"
+       ],
+       [
+        "Nirmal Bang (4-Aug-26)",
+        "Buy",
+        "1,538",
+        "n.d.",
+        "–",
+        "–",
+        "5.5x",
+        "Demand well ahead of supply; dealer stock 3 days; EL launch and AURIC ramp the catalysts"
+       ],
+       [
+        "HSBC (4-Aug-26)",
+        "Buy",
+        "1,450",
+        "n.d.",
+        "–",
+        "–",
+        "5.2x",
+        "Margins beat on a sharp cut in other expenses; share gains as capacity arrives; brand and execution justify a premium"
+       ],
+       [
+        "Ambit Capital (4-Aug-26)",
+        "n.d.",
+        "1,398",
+        "n.d.",
+        "–",
+        "–",
+        "5.0x",
+        "Lowest target in the 4-Aug roundup"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**SELL**",
+         "**{{dcf.tp|num}}**",
+         "**EV/Sales**",
+         "**3.5x**",
+         "**Sep-28E**",
+         "**3.5x**",
+         "A good business priced for the bull case; capacity and competition still to be proven"
+        ]
+       }
+      ],
+      "source": "Business Today (4-Aug, 31-Aug, 10-Sep-2026), Outlook Business (4-Aug-2026). \"Implied\" = (target × 40.41 cr shares − our Sep-28E net cash) ÷ our Sep-28E revenue. Axis's 31-Aug note: date of the roundup."
+     }
+    },
+    {
+     "h": "Our target multiple: 3.5x, and why"
+    },
+    {
+     "p": "Ather listed on 6-May-2025, so it has under 18 months of history. Under our rule for recently listed stocks we use its one-year-forward EV/Sales over the last 12 months (Oct-2025 to Sep-2026), which skips the post-listing months, and adjust it by how far auto peers trade below their own medians over the same 12 months, so the two windows match."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the multiple (house rule, PLAYBOOK §4 and §7c)",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1. Own history (12 months)",
+        "Forward EV/Sales on every weekly close, 1-Oct-2025 to 30-Sep-2026 (53 points): median 4.0x (25th-75th percentile 3.6-4.6x; range 2.9-6.6x). Oct-25 to Mar-26 on FY27E revenue: 3.9x; Apr-26 to Sep-26 on FY28E: 4.4x. EV = price × shares − net cash, stepping up with the Jul/Aug-2026 raise",
+        "Starting point 4.0x"
+       ],
+       [
+        "2. P/E history (shown)",
+        "Loss in FY27E: every point before Apr-2026 is a trough year; Apr-Sep 2026 on FY28E EPS ₹5.9: median ~192x",
+        "Not usable"
+       ],
+       [
+        "3. Sector move (same window)",
+        "Auto-OEM peers' trailing P/E on 30-Sep-2026 vs their own 12-month medians: Maruti Suzuki −12%, Mahindra & Mahindra −14%, Eicher Motors −11%, Hero MotoCorp −4%, TVS Motor −7%, Ashok Leyland −9%; median −10%. Excluded as distorted: Bajaj Auto (−14%), Escorts Kubota (−23%); with them −11%. EV peers are too few for their own set: Ola Electric is loss-making with no P/E history",
+        "× 0.900"
+       ],
+       [
+        "4. Result (nearest half-turn)",
+        "4.0x × 0.900 = 3.6x",
+        "**3.5x**"
+       ],
+       [
+        "5. Bull / bear",
+        "Bull: no sector move (4.0x). Bear: 25th percentile, de-rated (3.6x × 0.900)",
+        "4x / 3x"
+       ]
+      ],
+      "source": "Screener.in prices to 30-Sep-2026; GAM estimates for FY27-28E revenue in the forward series; peers' P/E from their Screener files"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward EV/Sales: ~3-4.5x for a year, 6.6x in September",
+       "unit": "EV ÷ next full-year revenue (x)",
+       "x": [
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/Sales",
+         "values": [
+          3.32,
+          3.33,
+          3.93,
+          4.01,
+          3.92,
+          3.69,
+          3.66,
+          3.95,
+          4.08,
+          3.82,
+          3.64,
+          3.98,
+          4.03,
+          4.23,
+          3.56,
+          3.48,
+          3.49,
+          3.52,
+          4.01,
+          4.02,
+          4.03,
+          4.04,
+          3.81,
+          4,
+          4.46,
+          4.56,
+          2.89,
+          3.29,
+          3.25,
+          3.38,
+          3.59,
+          3.51,
+          3.6,
+          3.38,
+          3.7,
+          3.99,
+          3.97,
+          3.74,
+          3.84,
+          4.38,
+          4.76,
+          4.99,
+          4.71,
+          4.92,
+          5.85,
+          5.97,
+          5.77,
+          6.45,
+          6.31,
+          6.62,
+          6.55,
+          5.94,
+          5.63
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "lines": [
+        {
+         "v": 3.5,
+         "text": "Our multiple: 3.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; GAM estimates; the step down in April is the roll from FY27E to FY28E revenue"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "EV/Sales (target)",
+        "EV/EBITDA FY29E",
+        "DCF",
+        "Street median target",
+        "Share price"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          1012,
+          341,
+          465,
+          1850,
+          1425
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "EV/Sales (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**EV/Sales**",
+        "**Target**",
+        "Sep-28E revenue ₹10,543 cr + net cash",
+        "3.5x (bull 4x, bear 3x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "FY29E EBITDA ₹699 cr + net cash",
+        "14x (peers' median)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "−66%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "FCFF FY28-42E, Ke {{dcf.ke|n1}}%, g 6%",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "−54%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** Both sit far below the target, which is itself below the price. Valued like a profitable auto maker (14x EV/EBITDA, the auto peers' median on 30-Sep-2026) on FY29E EBITDA, Ather is worth ₹341; the DCF, which already assumes revenue compounding to ~₹33,000 cr by FY35 and a 12% margin, gives ₹465. The market price needs margins well above 12% or growth well beyond our FY29E for longer. At ₹1,425 the stock trades on 5.6x FY28E and 12.5x trailing revenue (₹4,244 cr to Jun-2026)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Views we did not put in the base (sensitivity rows only)",
+      "head": [
+       "View",
+       "What it changes",
+       "Value / share (₹)"
+      ],
+      "wide": [
+       0,
+       1
+      ],
+      "rows": [
+       [
+        "Two-wheeler peers only for the sector move",
+        "Eicher Motors −11%, Hero MotoCorp −4%, TVS Motor −7%: median −7%; 4.0x × 0.934 = 3.5x",
+        "1,010"
+       ],
+       [
+        "Only Apr-Sep 2026 (all on FY28E revenue)",
+        "4.4x × 0.900 = 4x",
+        "1,140"
+       ],
+       [
+        "Five-year sector move instead of 12-month",
+        "4.0x × 0.931 (peers vs five-year medians −7%) = 3.5x",
+        "1,010"
+       ],
+       [
+        "No sector move (bull multiple)",
+        "4x on base revenue",
+        "1,140"
+       ],
+       [
+        "Street median multiple",
+        "~6.25x (Emkay 7x, Nomura 5.5x) on our Sep-28E revenue",
+        "1,730"
+       ],
+       [
+        "Growth premium",
+        "Revenue CAGR ~47% FY26-29E vs the 12-month window's expectations",
+        "not applied"
+       ]
+      ],
+      "source": "GAM Research. Per PLAYBOOK §7c, growth views are shown, not added to the base multiple."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple 4x (no sector move)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Volume +{{as.volume.growth.0|n1}}% / +{{as.volume.growth.1|n1}}% / +{{as.volume.growth.2|n1}}%; EBITDA margin {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 3.5x Sep-28E revenue."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple 3x (25th percentile, de-rated)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27 (pro forma)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed auto peers",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "vs 12-month median",
+       "EV/EBITDA (x)",
+       "≈ EV/Sales (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "Maruti Suzuki",
+        "3,76,246",
+        "1,83,316",
+        "11.7%",
+        "26.3",
+        "−12%",
+        "14.5",
+        "1.7",
+        "14.4%"
+       ],
+       [
+        "Mahindra & Mahindra",
+        "3,66,799",
+        "1,47,765",
+        "15.2%",
+        "22.5",
+        "−14%",
+        "13.4",
+        "2.0",
+        "23%"
+       ],
+       [
+        "Bajaj Auto (excluded)",
+        "2,98,815",
+        "62,905",
+        "20.8%",
+        "25.4",
+        "−14%",
+        "17.9",
+        "3.7",
+        "28.6%"
+       ],
+       [
+        "Eicher Motors",
+        "1,96,299",
+        "23,408",
+        "24.7%",
+        "33.7",
+        "−11%",
+        "23.1",
+        "5.7",
+        "23.8%"
+       ],
+       [
+        "Hero MotoCorp",
+        "1,04,914",
+        "47,411",
+        "14.9%",
+        "19.0",
+        "−4%",
+        "12.6",
+        "1.9",
+        "28.3%"
+       ],
+       [
+        "TVS Motor",
+        "1,95,071",
+        "47,270",
+        "12.9%",
+        "48.2",
+        "−7%",
+        "29.6",
+        "3.8",
+        "34.2%"
+       ],
+       [
+        "Ashok Leyland",
+        "90,485",
+        "56,362",
+        "19.1%",
+        "24.3",
+        "−9%",
+        "12.1",
+        "2.3",
+        "28.1%"
+       ],
+       [
+        "Escorts Kubota (excluded)",
+        "30,376",
+        "11,540",
+        "13%",
+        "21.3",
+        "−23%",
+        "13.9",
+        "1.8",
+        "21.1%"
+       ],
+       [
+        "Ola Electric (not in set)",
+        "18,438",
+        "2,253",
+        "-43.4%",
+        "loss",
+        "–",
+        "neg.",
+        "–",
+        "-43.2%"
+       ],
+       [
+        "**Ather Energy**",
+        "57,578",
+        "3,672",
+        "-11.1%",
+        "loss",
+        "–",
+        "neg.",
+        "12.5 (TTM)",
+        "–"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026. EV/Sales ≈ EV/EBITDA × FY26 EBITDA margin. Ather's market value on 40.41 cr fully diluted shares."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a business we like, at a price that already assumes it wins; SELL",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's most premium e-scooter brand, ~16-17% of a market growing ~70% in 2026, a software and charging ecosystem rivals have not matched, gross margins (21% without subsidy) that no longer depend on Delhi, ~₹4,400 cr of pro forma net cash and a plant that more than doubles capacity from January 2027. Q1FY27 was its first EBITDA-positive quarter on its own measure."
+    },
+    {
+     "callout": "**What you are paying:** ₹1,425 is 5.0x Sep-28E revenue, against a 4.0x median over the past 12 months; the multiple doubled in five months as brokers raised targets. To justify today's price on our 3.5x the company would need Sep-28E revenue of ~₹15,320 cr, ~45% above ours. On the street's method and the house multiple the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): SELL."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹880 (BUY on our rule)",
+        "Low-Medium",
+        "The stock would have to fall ~38%; it traded there in July 2026"
+       ],
+       [
+        "AURIC at 42,000 a month by Q1FY28 and share back above 18%",
+        "Medium",
+        "Monthly Vahan registrations; SIAM production; Q3-Q4 calls"
+       ],
+       [
+        "Konarc sells without hurting revenue per scooter or the software attach rate",
+        "Medium",
+        "Konarc share of volume; AtherStack Pro attach (guided 75%+)"
+       ],
+       [
+        "EBITDA margin above 5% before FY28 (commodities ease, operating leverage)",
+        "Medium",
+        "Quarterly margin before other income"
+       ],
+       [
+        "AURIC Phase 2 committed with demand visibility",
+        "Medium",
+        "Capex announcements; pre-order run-rate"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "TVS, Bajaj and Hero keep taking share as supply catches up; price competition returns",
+        "Medium-High",
+        "Volume and price below ours; margins stay near breakeven"
+       ],
+       [
+        "AURIC ramp slips by a quarter or more",
+        "Medium",
+        "~40-50k fewer scooters across FY27-28E; fixed costs before volume"
+       ],
+       [
+        "Commodities (lithium, copper, rare earths) rise further",
+        "Medium",
+        "Each 1pp of gross margin ≈ ₹94 cr of FY28E EBITDA"
+       ],
+       [
+        "PM E-DRIVE ends in Mar-2028 without a successor; state policies stall",
+        "Medium",
+        "₹5,000 a scooter of realisation; demand pull-forward then a gap"
+       ],
+       [
+        "Fuel shock fades and e-2W adoption slows back to FY26 rates",
+        "Medium",
+        "Industry growth halves; the multiple de-rates"
+       ],
+       [
+        "More equity raised to fund Phase 2 or new platforms (motorcycles)",
+        "Medium",
+        "Dilution; equity has been issued every year since FY23"
+       ],
+       [
+        "Short-term: the multiple returns to its 12-month median",
+        "Medium",
+        "At 4.0x Sep-28E revenue the stock is worth ~₹1,140"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: SELL, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**On today's target we would move to HOLD below ~₹1,060 and to BUY below ~₹880**, or raise the target if AURIC and Konarc deliver volumes and margins above ours.",
+      "**This is a multiple call more than an earnings call.** Our revenue is close to the street for FY27 and below Nomura for FY28-29; but even at the street's revenue the house multiple (3.5x) gives far less than the price. The street's median target (₹1,850) implies ~6.7x our Sep-28E revenue.",
+      "**Biggest swing factor:** the multiple. Each 0.5x on EV/Sales is ~₹130 a share; each 10% on Sep-28E revenue is ~₹90."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Scooters sold, Q1FY27",
+        "v": "83,173",
+        "d": "+81%; Hosur at its ~35,000/month ceiling"
+       },
+       {
+        "k": "E-2W market share, Aug-2026",
+        "v": "15.9%",
+        "d": "18.6% in Q4FY26 (Vahan)"
+       },
+       {
+        "k": "EBITDA margin before other income, Q1FY27",
+        "v": "−2.7%",
+        "d": "FY25 −26%, FY26 −11%"
+       },
+       {
+        "k": "EV ÷ Sep-28E revenue",
+        "v": "5.0x",
+        "d": "12-month forward median 4.0x"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY20–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 25
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 500
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "E-2W, ICE",
+        "Electric two-wheeler (scooter or motorcycle); internal-combustion-engine (petrol) vehicle."
+       ],
+       [
+        "Penetration",
+        "Electric two-wheelers as a share of all two-wheelers sold."
+       ],
+       [
+        "Wholesale vs registrations",
+        "Wholesale = dispatches from the factory to dealers (what Ather reports as \"units sold\"); registrations = vehicles registered on the government Vahan portal (retail sales)."
+       ],
+       [
+        "Vahan",
+        "The government's national vehicle-registration database, the usual source for e-2W market shares."
+       ],
+       [
+        "PM E-DRIVE, FAME, EMPS",
+        "Central-government EV subsidy schemes: FAME-II (2019-24), EMPS (2024), PM E-DRIVE (from Oct-2024; e-2W subsidy ₹5,000 a vehicle, extended to Mar-2028)."
+       ],
+       [
+        "PLI",
+        "Production-linked incentive: payments for local manufacturing of advanced vehicles and components that meet local value-addition rules."
+       ],
+       [
+        "AURIC",
+        "Aurangabad Industrial City in Chhatrapati Sambhaji Nagar, Maharashtra: site of Ather's second plant (\"Factory 3.0\")."
+       ],
+       [
+        "EL platform, Konarc",
+        "Ather's new low-cost scooter platform and its first model (launched 29-Aug-2026 from ₹99,999)."
+       ],
+       [
+        "AtherStack Pro",
+        "Ather's paid software pack (navigation, safety and ride features, updates); \"attach rate\" = share of buyers who take it."
+       ],
+       [
+        "LECCS",
+        "Light Electric Combined Charging System: the charging connector Ather developed, now an Indian standard."
+       ],
+       [
+        "AGM",
+        "Adjusted gross margin: total income less materials and stock changes, as % of total income (company definition)."
+       ],
+       [
+        "EBITDA (two definitions)",
+        "Company: profit before tax, interest and depreciation, including other income. Ours (Screener): excluding other income."
+       ],
+       [
+        "QIP, warrants",
+        "Qualified institutional placement: a share sale to institutions. Warrants: rights to buy shares later at a fixed price (here ₹1,260, 25% paid up front, within 18 months)."
+       ],
+       [
+        "EV/Sales",
+        "Enterprise value (market value less net cash) ÷ revenue. Used for loss-making growth companies."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward figure the market will look at in September 2027."
+       ],
+       [
+        "Sector move",
+        "How far comparable stocks trade below (or above) their own median P/E over the same window, on the valuation date."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the required annual return (here the cost of equity, as Ather has net cash)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY22": "+410%: 450X volumes scale up with FAME-II subsidies.",
+  "sales@FY23": "+336%: first full year at scale; Hosur plant.",
+  "sales@FY24": "−2%: FAME-II subsidy cut (Jun-2023); volumes 1.10 lakh.",
+  "pat@FY24": "Loss ₹1,060 cr incl. ₹174 cr exceptional charge.",
+  "sales@FY25": "+29%: Rizta (Apr-2024); volumes +42% to 1.55 lakh.",
+  "sales@FY26": "+63%: volumes +69% to 2.63 lakh; first consolidated year.",
+  "ebitdaMargin@FY26": "−11%: operating leverage; COGS per unit −9%.",
+  "eps@FY26": "Pro forma: −₹517 cr on 40.41 cr fully diluted shares (QIP, IJF shares and warrants of Jul/Aug-2026). Reported −₹13.51 (Screener) / −₹13.99 (AR, standalone).",
+  "cfo@FY26": "+₹32 cr (AR FY26): first positive year; Screener's cash-flow rows are one year late and were realigned.",
+  "capex@FY26": "AURIC factory and EL platform development.",
+  "sales@Q2FY26": "Volumes +42% to 65,595.",
+  "sales@Q3FY26": "Derived: FY26 less Q1, Q2 and Q4 (Screener omits the quarter).",
+  "opm@Q1FY27": "−2.7% before other income; +0.8% on the company's definition.",
+  "sales@Q1FY27": "+89%: volumes +81%, revenue per unit +4.6%.",
+  "sales@FY27E": "GAM: 4.3 lakh units (+64%); AURIC from Q4.",
+  "ebitdaMargin@FY27E": "GAM: near breakeven; AURIC costs from Q4.",
+  "capex@FY27E": "GAM: AURIC Phase 1 completion and EL capitalisation.",
+  "sales@FY28E": "GAM: 7 lakh units (+63%); Konarc 43% of volume.",
+  "pat@FY28E": "GAM: first annual profit; no tax (carried-forward losses).",
+  "pat@FY29E": "GAM: full 25.17% tax charged (conservative)."
+ }
+}
