@@ -1,0 +1,289 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Gabriel India, consolidated, Rs crore, on the post-scheme basis: FY26 is the company's restated year (pooling, Q1FY27 results) and the Mar-26 balance sheet is pro forma for the scheme and Project Jupiter (GABRIEL.patch.js); all per-share figures use the 19.16 cr shares in issue on 30-Sep-2026. Revenue growth and EBITDA margin come from the two-part entity build below (standalone; subsidiaries), synced by GABRIEL.ctx.js. Other income = recurring other income + the share of profit of the equity-accounted JVs and associates (Dana Anand 25.1%, Henkel Anand 49%, SK Enmove Gabriel 49%, HL Mando Anand 28.99% from 11-Sep-2026, HL Klemove India ~30% from Sep-2026), built in jvBuild. That share is already after tax, so the tax line carries operating tax on profit before the JV share plus minorities (no minority line in the engine): taxRate is the resulting effective rate, synced by the ctx file. The JV stakes sit in Investments, so the engine's 'treasury' is net cash plus the stakes at book.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  15.491,
+  11.617,
+  10.513
+ ],
+ "_revenueWhy": "From the entity build (build._why).",
+ "ebitdaMargin": [
+  9.257,
+  9.752,
+  10.009
+ ],
+ "_marginWhy": "From the entity build. Restated FY26 9.6%, Q1FY27 8.7% (commodity inflation, lagged recoveries, sunroof disruption).",
+ "capex": [
+  260,
+  260,
+  270
+ ],
+ "_capexWhy": "Standalone Rs160-190 cr in FY27 (CFO, Q4FY26 call; ~Rs190 cr in FY26) plus subsidiaries (IGSS second line, Jinhap fasteners, ACYM) ~Rs70-90 cr. Consolidated FY24-26 capex Rs163 / 209 / 240 cr (Screener, pre-scheme).",
+ "depRateOnGrossBlock": 9.3,
+ "_depWhy": "Restated FY26 depreciation Rs123.6 cr; Q1FY27 Rs32.3 cr (Rs129 cr annualised). The engine (and Excel) depreciate the reported gross block (Rs1,273 cr at Mar-26, before the scheme's Anchemco and ACYM assets) and hold CWIP flat, so 9.3% gives ~Rs130 cr in FY27E, in line with the run-rate, rising with capex.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Zero: \"treasury\" in this model is net cash plus ~Rs3,700 cr of JV/associate stakes and ~Rs313 cr of the scheme's operating net assets (engine workaround in GABRIEL.patch.js). The stakes' income is the share of profit in jvBuild; interest on the small cash balance is in recurringOI.",
+ "otherIncome": [
+  264.449,
+  366.947,
+  415.044
+ ],
+ "_otherIncomeWhy": "Built, not plugged (synced from jvBuild by GABRIEL.ctx.js): recurring other income + share of JV/associate profit. Restated FY26 Rs186.3 cr = other income Rs28.6 cr + JV share Rs157.6 cr; Q1FY27 Rs47.4 cr (Rs4.6 + Rs42.7 cr).",
+ "recurringOI": [
+  18,
+  14,
+  16
+ ],
+ "_recurringWhy": "FY26 as reported Rs26.3 cr (AR note 32): FD interest Rs9.5 cr, mutual-fund gains Rs4.3 cr, miscellaneous Rs8.0 cr, PPE gain Rs1.6 cr (one-off), rent and others; restated Rs28.6 cr; Q1FY27 Rs4.6 cr. After Rs1,061 cr was paid out for Jupiter, cash is ~Rs150-250 cr: Rs18 / 14 / 16 cr.",
+ "jvBuild": {
+  "_note": "Gabriel's share of each JV/associate's profit after tax (Rs crore). base = 100% FY26 PAT (decks, KPMG/BDO report); growth = our PAT growth; months = months owned in the year.",
+  "items": [
+   {
+    "key": "dana",
+    "name": "Dana Anand (25.1%)",
+    "stake": 25.1,
+    "basePat": 352,
+    "growth": [
+     12,
+     12,
+     11
+    ],
+    "months": [
+     12,
+     12,
+     12
+    ],
+    "_why": "Axles, driveshafts, EV transmissions for UVs, CVs, tractors; FY23-26 PAT 228 / 319 / 319 / 352 (ROE 33%); grows with UV and CV production; Dana's parent merging with Eaton Mobility is a watch-point (call)."
+   },
+   {
+    "key": "henkel",
+    "name": "Henkel Anand (49%)",
+    "stake": 49,
+    "basePat": 142,
+    "growth": [
+     8,
+     10,
+     10
+    ],
+    "months": [
+     12,
+     12,
+     12
+    ],
+    "_why": "Body-in-white and NVH adhesives; PAT 40 / 121 / 161 / 142 (FY26 down on commodity costs, recoveries due); 96% OEM."
+   },
+   {
+    "key": "sk",
+    "name": "SK Enmove Gabriel (49%)",
+    "stake": 49,
+    "basePat": -2,
+    "growth": [
+     0,
+     0,
+     0
+    ],
+    "abs": [
+     -6,
+     -4,
+     0
+    ],
+    "months": [
+     12,
+     12,
+     12
+    ],
+    "_why": "Lubricants JV started 27-Feb-2026; start-up losses assumed (abs = Gabriel's share, Rs cr)."
+   },
+   {
+    "key": "hmai",
+    "name": "HL Mando Anand (28.99%)",
+    "stake": 28.99,
+    "basePat": 358,
+    "growth": [
+     12,
+     12,
+     11
+    ],
+    "months": [
+     6.6,
+     12,
+     12
+    ],
+    "_why": "Brakes, steering, suspension; FY26 revenue Rs5,886 cr, PAT Rs358 cr, net worth Rs1,924 cr; ~40% of sales to non-Korean OEMs, exports 7-8% (call). Owned from 11-Sep-2026 (6.6 months of FY27). ICICI Securities' FY28E share Rs155 cr implies ~22% a year; we take 12%."
+   },
+   {
+    "key": "klemove",
+    "name": "HL Klemove India (~30%)",
+    "stake": 29.99,
+    "basePat": 71,
+    "growth": [
+     25,
+     25,
+     22
+    ],
+    "months": [
+     6.5,
+     12,
+     12
+    ],
+    "_why": "ADAS (radar, cameras); revenue Rs691 / 800 / 1,049 cr in FY24-26, adjusted EBITDA ~Rs129 cr in FY26 (call); PAT not disclosed: we assume 55% of adjusted EBITDA (Rs71 cr). Content Rs20,000-70,000 per vehicle; Mahindra and Tata business won. Assumed owned from mid-Sep-2026."
+   }
+  ]
+ },
+ "interest": [
+  72,
+  104,
+  98
+ ],
+ "_interestLabel": "Interest (8.15% NCDs from Sep-2026, Anchemco and subsidiary debt, leases)",
+ "_interestWhy": "Restated FY26 Rs26.4 cr; Q1FY27 Rs6.0 cr. Rs1,000 cr NCDs at 8.15% from 10-Sep-2026 (Rs81.5 cr a year; ~Rs46 cr in FY27) plus ~Rs24 cr on other debt and leases: Rs72 cr FY27E, Rs104 cr FY28E, Rs98 cr FY29E as cash pays down short-term debt. The Rs237 cr deferred HL Klemove payment carries no interest.",
+ "opTaxRate": [
+  25.2,
+  25.2,
+  25.2
+ ],
+ "minorities": [
+  4,
+  6,
+  8
+ ],
+ "taxRate": [
+  15.873,
+  14.4,
+  14.753
+ ],
+ "_taxWhy": "Effective rate on PBT incl. the (already taxed) JV share, synced by the ctx file: operating tax 25.2% on PBT before the JV share (restated FY26: Rs91.0 cr on Rs365.6 cr = 24.9%) plus minorities (ACYM 24%, Jinhap 49%: Rs1.6 cr in FY26, Rs0.8 cr in Q1FY27; Rs4 / 6 / 8 cr). Restated FY26 effective 17.4%.",
+ "payout": [
+  20,
+  20,
+  20
+ ],
+ "_payoutWhy": "FY26 DPS Rs5.0 = 21% of restated EPS (Rs24.29); 28-32% of reported EPS in FY24-25. Leverage after Jupiter argues for no increase.",
+ "build": {
+  "_note": "Entity build (Rs crore). Standalone = ride control + Anchemco fluids (restated FY26 Rs4,577.3 cr, EBITDA Rs409.1 cr = 8.9%; Q1FY27 Rs1,274.2 cr, 8.4%). Subsidiaries and consolidation = consolidated less standalone (IGSS sunroofs Rs434 cr at 15.1%, ACYM Rs235 cr at 10.2%, Jinhap, GEEC, eliminations): FY26 Rs667.9 cr, EBITDA Rs93.0 cr (13.9%); Q1FY27 Rs151.4 cr, Rs17.0 cr (11.2%).",
+  "base": {
+   "fy": "FY26",
+   "sa": 4577.3,
+   "sub": 667.9
+  },
+  "saGrowth": [
+   16,
+   11,
+   10
+  ],
+  "subGrowth": [
+   12,
+   16,
+   14
+  ],
+  "saMargin": [
+   8.8,
+   9.2,
+   9.4
+  ],
+  "subMargin": [
+   12.5,
+   13.5,
+   14
+  ],
+  "_why": "Standalone: Q1FY27 +18.9% on 2W +23%, PV +17%, CV +15% production and aftermarket +54%; FY27E +16% as the base hardens after the Sep-2025 GST cut and PV share slipped (model mix); FY28-29E +11% / +10% (industry 7-9% plus content: EV 2W, UV share of business 65%, railways, exports to 10%, solar dampers). Margin 8.9% in FY26, 8.4% in Q1 (commodities, lagged recoveries): 8.8% / 9.2% / 9.4%. Subsidiaries: sunroofs lost 15-20k units in Q1 (Creta), to be recovered; second 2 lakh line from FY26; fasteners ramp; +12% / 16% / 14%; margin 11.2% in Q1, 13.9% in FY26: 12.5% / 13.5% / 14%."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 10.5,
+  "fadeCapexPctTo": 3.5,
+  "depPctOfSales": 2.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Beta 1.0 (Ke 12.5%): cyclical auto volumes, but diversified across 2W, PV, CV and the aftermarket. Net debt (ex the JV stakes) is ~Rs1,200 cr, ~5% of enterprise value, so a WACC would be only slightly lower; the engine discounts at the cost of equity.",
+  "_tgWhy": "5.5%: India vehicle demand and content growth.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% to 8% over 15 years.",
+  "_fadeMarginWhy": "EBITDA margin to 10.5% (FY19-26 range 6-10%).",
+  "_fadeCapexWhy": "Capex 3.5% of revenue in steady state (FY24-26 4-5%); depreciation 2.5%.",
+  "_jvNote": "FCFF excludes the JV share of profit; the JV stakes enter at book value through net cash (stake at cost plus accumulated share of profit), which understates Dana and Henkel (book ~Rs395 cr)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Vehicle production stays strong, Gabriel wins back PV share, sunroofs and fasteners ramp faster and commodity recoveries come through: revenue growth ~3pp a year higher and EBITDA margin +0.6pp.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 0.6,
+   "fadeMarginTo": 11.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "A two-wheeler slowdown after the GST-cut boost, further PV share loss, commodity costs not recovered and IGSS diluted to 65%: revenue growth ~4pp a year lower and EBITDA margin -1.0pp.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -1,
+   "fadeMarginTo": 9.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 35,
+      "bull": 38,
+      "bear": 32
+     },
+     "why": "How the street values Gabriel: P/E on FY28E EPS (Motilal Oswal ~40x, ICICI Securities ~40x, Choice 32x). Multiple derived in GABRIEL.ctx.js (own forward-P/E median since the scheme was announced x the same-window auto-component move) and written by syncMultiples()."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 25,
+      "bull": 27,
+      "bear": 21.5
+     },
+     "why": "Own trailing EV/EBITDA median since the scheme x the same sector move, restated to Sep-28E EBITDA; net cash and the JV stakes at book added."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "15-year FCFF of the consolidated operations at Ke 12.5% and 5.5% terminal growth, plus net cash and the JV stakes at book."
+    }
+   ]
+  }
+ },
+ "esop": [
+  0,
+  0,
+  0
+ ]
+}

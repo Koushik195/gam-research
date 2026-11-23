@@ -1,0 +1,295 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Asahi India Glass (consolidated, Rs crore). FY26 is the last reported year. Segment model on the reported Ind AS 108 basis: Automotive Glass and Float Glass on GROSS segment revenue (incl. sales between segments; float sells raw glass to the auto business) with EBITDA = segment result + segment depreciation (AR notes); 'Consumer glass & unallocated' is the balancing line to Screener revenue and operating profit; inter-segment eliminations are a negative line at zero margin, so revenue and EBITDA tie to Screener (FY26 Rs4,982 cr and Rs910 cr). Minorities are negligible (Rs0.4 cr in FY26). Valued on EV/EBITDA, as the street (ICICI Securities, 22x FY28E) does; the multiple is derived in ASAHIINDIA.ctx.js and written here by ASAHIINDIA.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "auto",
+   "name": "Automotive glass",
+   "driverLabel": "Gross revenue",
+   "marginLabel": "EBITDA",
+   "base": 3382.97,
+   "growth": [
+    14,
+    11,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    17,
+    17,
+    17
+   ],
+   "hist": {
+    "driver": "auto",
+    "revenue": "auto",
+    "adjEbitda": "autoEbitda"
+   },
+   "_why": "FY27E +14%: Q1FY27 gross revenue +22.1% (Rs949 cr) on record passenger-vehicle output (SIAM production +17% in Q1FY27, as quoted by Uno Minda) and more glass per car (larger and laminated glazing, sunroofs, ADAS/HUD windshields); Q2-Q4 slow to ~+18% / +12% / +7% as the base absorbs the Sep-2025 GST cut. Sales to Maruti (a promoter) rose to Rs301 cr in Q1FY27 (Rs873 cr in FY26) and shareholders approved up to Rs1,500 cr for FY27. FY28E +11% and FY29E +10%: PV volumes +5-7% plus 4-5% content and price; ~80% market share leaves no share to win.",
+   "_marginWhy": "EBITDA = segment EBIT + segment depreciation: 18.0% FY21, 16.7% FY22, 12.1% FY23 (energy and soda-ash spike), 16.2% FY24, 16.1% FY25, 14.8% FY26 (higher depreciation and staff cost; Q4FY26 segment EBIT margin -148bp YoY). Q1FY27 segment EBIT 13.4% (10.6% a year earlier); with ~Rs37 cr of quarterly depreciation (FY26 Rs133 cr) EBITDA ~17.4%, helped by in-house float glass from Soniyana. We assume 17.0% in all three years: Q1 less a cushion for energy and wage costs."
+  },
+  {
+   "key": "float",
+   "name": "Float glass",
+   "driverLabel": "Gross revenue",
+   "marginLabel": "EBITDA",
+   "base": 1753.95,
+   "growth": [
+    29,
+    8,
+    8
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    28,
+    27,
+    26
+   ],
+   "hist": {
+    "driver": "float",
+    "revenue": "float",
+    "adjEbitda": "floatEbitda"
+   },
+   "_why": "Gross revenue includes raw glass sold to the auto business (Rs492 cr of Rs1,754 cr in FY26). FY27E +29%: Q1FY27 Rs545 cr (+41%) as the third float line (Soniyana) ran full; Q2-Q4 ~Rs565-585 cr a quarter with the minimum import price (from 18-Aug-2026) supporting realisations; Q3-Q4FY26 already had Soniyana (Rs473 cr and Rs510 cr). FY28E/FY29E +8%: capacity is full (2,150 TPD); growth is price and value-added mix (coated and processed glass). The Rs2,000 cr greenfield float/coatings capex approved in Jan-2026 adds no revenue before FY30 in our model (no timetable disclosed).",
+   "_marginWhy": "EBITDA margin swings with import prices and energy: 22.6% FY21, 34.3% FY22, 31.4% FY23, 20.2% FY24, 18.4% FY25, 21.2% FY26. Q1FY27 segment EBIT 21.5% (+ ~Rs36 cr depreciation = ~28% EBITDA). FY27E 28%: Q1 level, the MIP holding import prices up from Aug-2026. FY28E 27% and FY29E 26%: the MIP is for one year only (to Aug-2027) and new domestic capacity and South-East Asian imports keep pressure on clear-glass prices (AR FY26); anti-dumping duties on Malaysian float glass were recommended for five more years."
+  },
+  {
+   "key": "other",
+   "name": "Consumer glass & unallocated",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 753.55,
+   "growth": [
+    8,
+    10,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    4.5,
+    4.5,
+    4.5
+   ],
+   "hist": {
+    "driver": "other",
+    "revenue": "other",
+    "adjEbitda": "otherEbitda"
+   },
+   "_why": "Balancing line to Screener revenue: AIS Consumer Glass Solutions (AIS Windows, Glasxperts, Windshield Experts; four subsidiaries merged from Jul-2025) and unallocated sales; reported Unallocable/Others gross revenue excl. other income Rs754 cr in FY26 (Rs720 cr in FY25). Q1FY27 Rs219 cr ex other income (+7% YoY). +8% / +10% / +10%.",
+   "_marginWhy": "Balancing EBITDA (Screener operating profit less auto and float EBITDA): Rs37 cr in FY26 (4.9%) and Rs37 cr in FY25 (5.1%); negative in FY21-FY24 when consumer glass lost money. 4.5% in all years."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-segment eliminations",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": -908.47,
+   "growth": [
+    35,
+    8,
+    8
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elim",
+    "revenue": "elim",
+    "adjEbitda": "elimEbitda"
+   },
+   "_why": "Sales between segments, removed on consolidation: -Rs483 cr in FY25, -Rs908 cr in FY26 (float to auto from Soniyana; consumer-glass distribution), -Rs300 cr in Q1FY27 alone (-Rs140 cr a year earlier). FY27E -Rs1,226 cr (Q1 x4 plus growth), then with float.",
+   "_marginWhy": "Zero margin (PLAYBOOK §7): segment profits already include the transfer margin."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "None: unallocated items sit in the balancing line",
+ "_unallocWhy": "The consumer glass & unallocated line already balances to Screener's operating profit.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  850,
+  1000,
+  1000
+ ],
+ "_capexWhy": "FY24-FY26 capex Rs901 / 1,268 / 666 cr (AR segment notes). Brownfield work continues (Patan phase 3 under way and phase 4 initiated, Chennai, Bawal) and the board approved up to Rs2,000 cr for the next round of greenfield float, coatings and processing capacity (30-Jan-2026; no timetable). We assume ~Rs350 cr a year of brownfield and maintenance plus the Rs2,000 cr spread from FY27 (Rs500 cr) to FY29 (Rs650 cr each in FY28-29), i.e. Rs850 / 1,000 / 1,000 cr. ICICI Securities also flags the Rs2,000 cr programme (Jun-2026).",
+ "depRateOnGrossBlock": 5.1,
+ "_depWhy": "FY26 D&A Rs285 cr on average gross block of Rs5,614 cr = 5.1% (FY25 4.3% before Soniyana's full year). Q1FY27 Rs81 cr (~Rs324 cr a year). The engine depreciates capex at once and holds CWIP flat; 5.1% gives FY27E ~Rs327 cr. Greenfield spending sits in CWIP until commissioning, so later years' depreciation is slightly conservative.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "AIS has net debt; treasury income is in the other-income build below (on gross cash, not net cash).",
+ "otherIncome": [
+  25,
+  25,
+  26
+ ],
+ "_otherIncomeWhy": "Built, not plugged (AR FY26 note 26: Rs48.9 cr): (1) interest on ~Rs250-320 cr of cash and deposits at ~5%: Rs15 cr (FY26 Rs15.7 cr, FY25 Rs13.6 cr); (2) recurring write-backs, dividends and miscellaneous income Rs10 / 10 / 11 cr (FY26 Rs18.4 cr incl. Rs7.8 cr of one-time write-backs; FY25 Rs9.4 cr); (3) no asset-sale gains (Rs15.6 cr in FY26, incl. sales of assets to Maruti of Rs10.7 cr). Screener's FY26 Rs37 cr is net of the Rs11.7 cr exceptional charge. Q1FY27 Rs5.75 cr (x4 = Rs23 cr); TTM to Jun-2026 before exceptional items Rs36 cr.",
+ "interest": [
+  187,
+  199,
+  209
+ ],
+ "_interestLabel": "Finance cost (borrowings and leases)",
+ "_interestWhy": "FY26 Rs204 cr on average debt of ~Rs2,450 cr (8.3%); Q1FY27 Rs46.7 cr (~Rs187 cr a year) after the QIP proceeds repaid debt. Debt rises again with the Rs2,000 cr capex: 8.3% on average gross debt (net debt from the model plus ~Rs320 cr of cash), checked in ASAHIINDIA.ctx.js.",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "FY26 24.8% (Rs114 cr on Rs459 cr); Q1FY27 26.4%; new-regime rate 25.2% plus non-deductible items.",
+ "payout": [
+  15,
+  15,
+  15
+ ],
+ "_payoutWhy": "Rs2 a share for FY25 and FY26 (13-15% of profit; 14.1% per the chairman for FY26).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.92,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 20,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity (PLAYBOOK §7). AIS carries ~Rs2,200 cr of debt (8% of enterprise value at the 30-Sep-2026 price); WACC = 92% x 12.5% (beta 1.0 for a cyclical auto and building-materials supplier) + 8% x 6.2% (8.3% pre-tax) = 12.0%. Beta 0.92 sets the discount rate to that WACC; net debt is deducted.",
+  "_tgWhy": "India's nominal GDP grows ~10%; car volumes 5-6% a year plus glass content; float glass tracks construction. House range 5-6%: 6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% in FY29E to 7% over 15 years.",
+  "_fadeMarginWhy": "EBITDA margin (ex other income) fades to 20%: FY21-26 range 16.4-24.0% (average ~19.6%); float profits are cyclical.",
+  "_fadeCapexWhy": "Capex 6% of revenue at maturity (FY21-26 average ~15% in a heavy build-out; ~4% in FY21-22); depreciation 5% of revenue (FY26 5.7%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Car volumes keep growing high single digits and AIS adds content (sunroofs, acoustic and HUD windshields) faster; the minimum import price is extended and float-glass prices hold, keeping float margins near 30%; soda-ash and gas costs ease.",
+   "segments": {
+    "auto": {
+     "growthDelta": 3,
+     "marginDelta": 1
+    },
+    "float": {
+     "growthDelta": 4,
+     "marginDelta": 2.5
+    }
+   },
+   "fadeMarginTo": 21.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Passenger-vehicle demand stalls after the GST-boosted year and Maruti, its biggest customer and shareholder, squeezes prices; the MIP lapses, South-East Asian imports and new domestic float lines push clear-glass prices back to FY25 levels (float EBITDA ~20%); energy costs rise.",
+   "segments": {
+    "auto": {
+     "growthDelta": -4,
+     "marginDelta": -1.5
+    },
+    "float": {
+     "growthDelta": -8,
+     "marginDelta": -6
+    }
+   },
+   "fadeMarginTo": 18
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 15.5,
+      "bull": 18,
+      "bear": 14.5
+     },
+     "why": "How the street values AIS: EV/EBITDA on one-year-forward EBITDA (ICICI Securities 22x FY28E, Jun-2026). Multiple derived in ASAHIINDIA.ctx.js (own forward EV/EBITDA median since Apr-2021 x the auto-component EV/EBITDA de-rating) and written by ASAHIINDIA.val.js; net debt at Sep-28E deducted."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 33,
+      "bull": 36,
+      "bear": 29.5
+     },
+     "why": "Own forward P/E median since Apr-2021 (house forwardMedian) x the auto-component P/E de-rating."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at a 12.0% WACC, terminal growth 6%, less net debt."
+    }
+   ]
+  }
+ },
+ "oiBuild": {
+  "_note": "Other income build (Rs crore), checked against otherIncome in ASAHIINDIA.ctx.js",
+  "treasury": [
+   15,
+   15,
+   15
+  ],
+  "recurring": [
+   10,
+   10,
+   11
+  ],
+  "assetSales": [
+   0,
+   0,
+   0
+  ]
+ }
+}

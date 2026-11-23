@@ -1,0 +1,87 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, peers, street, ownership, moat, critiques, gaps and conflicts for Gabriel India, as known on 30-Sep-2026." },
+ "industry": {
+  "fy26": "SIAM FY26 production: 2W +11.8% (scooters +17.2%, motorcycles +9.6%), 3W +23.9%, PV +9.4% (UVs +12.2%, cars +4.4%), CV +13.1% (M&HCV +16.1%, LCV +11.2%) (Q4FY26 deck slide 17).",
+  "q1fy27": "Q1FY27 production: 2W +23%, PV +17% (UVs +21%), CV +15% (call, 22-Jul-2026).",
+  "gabrielShare": "FY26 shock-absorber market share (company): 2W/3W 32%, PV 25%, CV 88%; electric 2W ~60%; 65% share of business in UVs/SUV-coupes it supplies (Q4FY26 deck slides 17-18).",
+  "mixFY26": "Standalone sales FY26 (Q4 deck): 2W/3W 62%, PV 24%, CV and railways 13%, trading ~1%.",
+  "customers": "2W: TVS, HMSI, Yamaha, Greaves, Suzuki (Access ABS SOP); PV: Maruti, Mahindra, Skoda/VW; CV: Tata Motors, Ashok Leyland, Mahindra, VECV (Q4 deck slide 17).",
+  "newMarkets": "Solar dampers: market ~US$160 mn in 2026, +16% CAGR to 2034, orders from 3 customers (Q4 deck slide 21). Sunroofs: domestic sunroof industry +16% CAGR FY24-27 (Q4 deck slide 24). E-bike forks/dropper posts: samples with European customers.",
+  "src": "Q4FY26 deck (27-May-2026), Q1FY27 call (22-Jul-2026)"
+ },
+ "peers": {
+  "set": ["MOTHERSON", "BOSCHLTD", "UNOMINDA", "SONACOMS", "BHARATFORG", "ENDURANCE", "MSUMI", "SCHAEFFLER", "TIINDIA", "ZFCVINDIA"],
+  "excluded": {
+   "BHARATFORG": "Earnings distorted: a Rs358 cr exceptional charge turned the Jun-2026 quarter into a loss (exceptional items in three of the last four quarters), so its ~93x trailing P/E on 30-Sep-2026 sits on depressed EPS (same exclusion as the Bosch, Motherson, Uno Minda, Sona, Endurance and Craftsman initiations)."
+  },
+  "selfNote": "Gabriel itself is not in its own peer median. The set is the one used in the Endurance and Craftsman initiations (Craftsman is not in it; it is shown in neither median).",
+  "src": "Screener.in multiples at the 30-Sep-2026 close (tools/authoring/asof-peers.js)"
+ },
+ "street": {
+  "_note": "Notes published after the Q1FY27 results (21-Jul-2026) and Project Jupiter, up to 30-Sep-2026. EPS are on the post-Jupiter share count (19.16 cr) unless stated.",
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-07-22", "rating": "Buy", "tp": 1664, "method": "P/E", "multiple": "~40x", "on": "FY28E", "thesis": "EBITDA beat by 15%; transition from a single-product suspension maker to a diversified mobility platform; FY28E EPS raised 15% after dilution, mainly for the acquisitions; EPS CAGR 16% FY26-28E on restated FY26.", "src": "https://investmentguruindia.com/newsdetail/buy-gabriel-india-ltd-for-target-rs-1-664-motilal-oswal-financial-services-ltd901965" },
+   { "broker": "ICICI Securities", "date": "2026-07-23", "rating": "Buy", "tp": 1650, "method": "P/E", "multiple": "~40x", "on": "FY28E", "eps": { "FY28E": 41 }, "pat": { "FY28E": 787 }, "thesis": "Core suspension franchise plus group consolidation; FY28E PAT Rs787 cr = standalone Rs350 cr + sunroof (65%) Rs28 cr + group companies Rs254 cr + 29% of HL Mando Anand Rs155 cr; Rs30/share added for HL Klemove.", "src": "https://mailcontent.icicidirect.com/mailcontent/idirect_gabriel_coupdate_jul26.pdf" },
+   { "broker": "Choice Institutional Equities", "date": "2026-07-22", "rating": "Reduce", "tp": 1315, "method": "P/E", "multiple": "32x", "on": "FY28E", "eps": { "FY27E": 34.7, "FY28E": 41.1 }, "revenue": { "FY27E": 6000, "FY28E": 6830, "FY29E": 7640 }, "ebitda": { "FY27E": 610, "FY28E": 720, "FY29E": 800 }, "thesis": "Acquisitions improve the long-term story (multiple raised from 28x to 32x) but the stock has rallied; sunroof disruption, commodity inflation, higher leverage and integration risk weigh on the near term.", "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/3f212774_research-report%20(66).pdf" },
+   { "broker": "Arihant Capital", "date": "2026-07-24", "rating": "Buy", "tp": 1674, "method": "SOTP", "multiple": "37x core P/E; 14x EV/EBITDA JVs", "on": "FY27-28E", "eps": { "FY27E": 26.5, "FY28E": 35.3, "FY29E": 47.8 }, "revenue": { "FY27E": 5911, "FY28E": 7097, "FY29E": 8605 }, "thesis": "SOTP: Dana Anand and Henkel Anand at 14x EV/EBITDA, HL Mando Anand and HL Klemove at deal value (Rs523/share), core business at 37x blended FY27-28E EPS of Rs31.1 (Rs1,151/share).", "src": "https://arihantresearch.arihantcapital.com/Mumbai_Research/Gabriel_India_ltd_Q1FY27_Result_Update.pdf" }
+  ],
+  "earlier": [
+   { "broker": "Motilal Oswal", "date": "2026-06-09", "rating": "Buy", "tp": 1266, "note": "Initiation, 35x FY28E EPS" },
+   { "broker": "Elara Capital", "date": "2026-05-30", "rating": "Buy", "tp": 1381, "note": "Method not in our sources" },
+   { "broker": "Choice Institutional Equities", "date": "2026-05-29", "rating": "Reduce", "tp": 1050, "note": "28x FY28E EPS" },
+   { "broker": "SBI Securities", "date": "2026-02", "rating": "Buy", "tp": 1140, "note": "Pick of the week" },
+   { "broker": "ICICI Securities", "date": "2025-12-22", "rating": "Buy", "tp": 1235, "note": "35x FY28E P/E" },
+   { "broker": "Anand Rathi", "date": "2025-11-18", "rating": "Buy", "tp": 1260, "note": "Not updated after Q1FY27 in our sources" }
+  ],
+  "consensus": "S&P Global: six analysts, average target ~Rs1,358, range Rs1,250-1,528, as of 22-Jul-2026 (before most post-results revisions; stockanalysis.com).",
+  "src": "Trendlyne research-report list; broker PDFs and summaries as cited"
+ },
+ "ownership": {
+  "asOf": "Jun-2026",
+  "categories": { "promoters": 63.55, "mutualFunds": 12.03, "fpi": 6.35, "insurance": 0.43, "retailAndOthers": 17.64 },
+  "named": [["Asia Investments Pvt Ltd (promoter)", 42.67], ["Anfilco Ltd for Anand Automobiles (promoter group; scheme allottee)", 18.58], ["Kiran Anand (promoter group)", 1.55], ["HDFC Mutual Fund (schemes)", 6.56], ["Union Mutual Fund (Balanced Advantage)", 1.34], ["Motilal Oswal Focused Fund", 1.17]],
+  "after": "11-Sep-2026: AIPL received 1.44 cr new shares; AIPL 46.98%, promoter group ~66.3% of 19.16 cr shares (allotment filing).",
+  "trend": "Promoters 55.0% (Mar-2026) to 63.55% (Jun-2026) on the scheme allotment; DIIs 16.3% to 12.9% and FIIs 6.6% to 6.4% as their shares were diluted.",
+  "src": "Trendlyne shareholding (BSE filing for Jun-2026); Screener shareholding; Arthneeti / Investywise summaries of the 11-Sep-2026 allotment"
+ },
+ "stockEvents": [
+  { "date": "2025-07-04", "event": "Scheme announced (board 30-Jun-2025): weekly close Rs667 to Rs951 (+43%); Elara lifted its target from Rs666 to Rs1,115 (Business Today, 2-Jul-2025)." },
+  { "date": "2025-09-19", "event": "High of the first leg, Rs1,286." },
+  { "date": "2026-03-27", "event": "Low Rs823 (auto-component sell-off; West Asia commodity spike)." },
+  { "date": "2026-07-24", "event": "Project Jupiter and Q1FY27 (21-Jul-2026): weekly close Rs1,336 (17-Jul) to Rs1,364 (24-Jul), then a high of Rs1,498 (7-Aug-2026)." },
+  { "date": "2026-09-30", "event": "Close Rs1,341.8 (NSE)." }
+ ],
+ "moat": [
+  ["Scale and share in ride control", "Leader in CV (88%) and electric 2W (~60%); 32% in 2W/3W and 25% in PV; 500+ models; but Munjal Showa, ZF/Sachs, Endurance, KYB, Tenneco and Mando compete", "AMBER"],
+  ["Customer stickiness", "Platform-level supply for the life of a model; long relationships (TVS, HMSI, Maruti, Tata, Ashok Leyland); but PV share slipped in Q1FY27 as it is absent from some fast-growing UVs", "AMBER"],
+  ["Technology", "Licensed and partner technology (Marelli suspension licence, Inalfa sunroofs, KYB legacy, Henkel, Dana, HL Mando, HL Klemove); 34 patents granted; own R&D in Hosur, Chakan and Belgium. The know-how in the new businesses sits with foreign partners", "AMBER"],
+  ["Pricing power", "Commodity pass-through with a lag; margins 6-10% for two decades; Q1FY27 margin fell on input costs", "RED"],
+  ["Portfolio after Rise and Jupiter", "Minority stakes in high-return JVs (Dana ROE 33%, Henkel 62%, HL Mando ~19%) where partners control technology and the board; Gabriel's earnings now depend on profits it does not control", "AMBER"]
+ ],
+ "critiques": [
+  "Related-party consolidation: the promoter sold Gabriel a 28.99% stake in HL Mando Anand for Rs1,881 cr of new shares plus Rs350 cr of cash; the price (21.5x FY26 PAT) was set by valuers appointed by the board, and the audit committee and AGM approved it, but minority holders paid in stock priced at ~54x restated FY26 EPS.",
+  "Quality of earnings is changing: ~30% of restated FY26 profit before tax, and ~45% of our FY28E, is a share of JV/associate profit, which is non-cash until paid out as dividends and is controlled by foreign partners (Dana, Henkel, HL).",
+  "The core business is a low-margin supplier: consolidated EBITDA margin 8.7% in Q1FY27, 6-10% for 20 years; it lost PV share in Q1FY27.",
+  "Leverage arrives for the first time: Rs1,000 cr of NCDs and Rs237 cr of deferred consideration; interest goes from ~Rs26 cr to ~Rs100 cr a year.",
+  "History is not comparable: FY24-FY25 are pre-scheme, FY26 is restated, the restated Q1FY26/Q4FY26 undertaking figures were not reviewed by the auditor, and FY27 includes the Jupiter stakes for part of the year only.",
+  "Sunroof dilution: Inalfa is to take 35% of IGSS (PN3 approval pending), which would cut Gabriel's share of a 15%-margin business."
+ ],
+ "gaps": [
+  "HL Klemove India's profit after tax was not disclosed by the company (only FY26 revenue Rs1,049 cr and adjusted EBITDA ~Rs129 cr); we assume PAT at 55% of adjusted EBITDA (Arihant's ~Rs143 cr looks inconsistent with the EBITDA).",
+  "Closing date of the HL Klemove purchase: the SPA/JVA were executed on 21-Aug-2026 and tranche 1 (US$73.83 mn) was due by 15-Sep-2026; we found no exchange filing confirming payment by 30-Sep-2026 and treat it as closed in Sep-2026.",
+  "Restated consolidated balance sheet at Mar-2026 (and Jun-2026) was not published by 30-Sep-2026: our pro forma uses restated reserves (Rs1,935.5 cr) and estimates the split of the scheme's net assets.",
+  "Restated Q2FY26 and Q3FY26 were not published separately; we split the restated half-year.",
+  "Equity-method carrying values of the Dana and Henkel stakes: we use the stake times FY26 net worth.",
+  "Purchase-price allocation for the HL Mando Anand and HL Klemove stakes (amortisation of fair-value uplifts inside the share of profit) not known; not modelled.",
+  "Dividends the JVs pay Gabriel: not disclosed for the restated FY26.",
+  "IGSS dilution to 65%: timing of the PN3 approval unknown; we keep 100%.",
+  "Anand Rathi, Elara and Nuvama notes after Q1FY27 not found; Motilal Oswal's EPS figures not in the public summary.",
+  "HL Mando Anand FY27 outlook: no guidance; we grow its PAT ~12%."
+ ],
+ "conflicts": [
+  "HL Klemove price in rupees: Rs948 cr (Autocar Pro) vs Rs935 cr (Daily Pioneer) for US$98.44 mn; we use Rs948 cr.",
+  "HL Klemove PAT: Arihant ~Rs143 cr vs adjusted EBITDA ~Rs129 cr (company); PAT cannot exceed EBITDA without large other income; we do not use Arihant's figure.",
+  "ICICI Securities writes the HL Klemove consideration as '~Rs98 crore' (it is US$98.44 mn).",
+  "FY26 standalone revenue: Rs4,223 cr (CFO, Q4 call) vs Rs4,233 cr (Screener, incl. other operating revenue)."
+ ]
+}
