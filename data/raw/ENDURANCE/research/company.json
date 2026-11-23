@@ -1,0 +1,75 @@
+{
+ "symbol": "ENDURANCE",
+ "name": "Endurance Technologies Ltd",
+ "asOf": "2026-09-30",
+ "_note": "Fact base for the Endurance Technologies initiation (consolidated, Rs crore unless stated). Only sources published on or before 30-Sep-2026. FY26 = year to Mar-2026; Q1FY27 = Apr-Jun 2026. Company 'total income' and 'EBITDA' INCLUDE other income (FY26 EBITDA Rs2,090 cr = Screener operating profit Rs1,966 cr + other income Rs124 cr).",
+ "sources": {
+  "ar26": { "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b7a9e236-ebe8-47b4-92d3-cd1b319dc1e0.pdf", "published": "2026-07-07", "what": "Annual Report FY2025-26 (consolidated and standalone accounts, statutory reports)" },
+  "q4deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93903ef4-4036-4814-9972-e81f70eaa97f.pdf", "published": "2026-05-14", "what": "Q4FY26 results presentation" },
+  "q4call": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8434bd8b-fa33-47f5-8397-4101b676d13c.pdf", "published": "2026-05-22", "what": "Q4FY26 earnings call transcript (call 15-May-2026)" },
+  "q1deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6102b95-f701-4e16-992f-bef45c8c3e86.pdf", "published": "2026-08-13", "what": "Q1FY27 results presentation (board meeting 13-Aug-2026)" },
+  "q1call": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c9cfabe-588a-4126-9848-769415528c8d.pdf", "published": "2026-08-21", "what": "Q1FY27 earnings call transcript (call 14-Aug-2026)" },
+  "q4fy25deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc2adaaa-c3c1-4073-9b4a-1c4e3aa5de56.pdf", "published": "2025-05-15", "what": "Q4FY25 results presentation (FY24-FY25 entity split, FY25 customer shares)" },
+  "q4fy24deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bdc972c2-fd37-4169-aa31-4ce1d50996d6.pdf", "published": "2024-05-16", "what": "Q4FY24 results presentation (FY23-FY24 entity split)" },
+  "q4fy23deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9917e532-b31e-4134-a948-caebdee54712.pdf", "published": "2023-05-18", "what": "Q4FY23 results presentation (FY22-FY23 entity totals)" }
+ },
+ "profile": {
+  "what": "Pune/Chhatrapati Sambhajinagar-based maker of aluminium die-castings (incl. 2W alloy wheels), 2W suspension (front forks, shock absorbers), braking (disc brakes, ABS), transmission (clutches) and, newer, battery packs and battery-management electronics (Maxwell). 34 plants: India and Europe (Italy, Germany). Promoter: Anurang Jain and family (75.0%).",
+  "products": "Aluminium die-casting (incl. machining, forgings, 4W castings), suspension (inverted front forks, mono-shocks), braking (disc brakes, ABS, CBS, 3W and 4W foundation brakes), transmission (clutch assemblies, driveshafts), alloy wheels, aftermarket, battery packs (from Jun-2026), BMS/motor controllers (Maxwell), solar dampers and actuators (non-auto)",
+  "entityFY26": { "standalone": 10696, "maxwell": 161, "europe": 4017, "adjustments": -154, "consolidated": 14720, "src": "q1deck p22 (Q1FY26 Europe restated to Rs1,007 cr)" },
+  "mixFY26": { "india": 71.6, "europe": 27.3, "maxwell": 1.1, "motorcycle": 52.1, "scooter": 8.6, "threeWheeler": 8.0, "fourWheeler": 29.0, "dieCasting": 46.6, "suspension": 24.7, "discBrake": 11.5, "alloyWheel": 7.2, "src": "q4deck p24 (share of consolidated total income)" },
+  "standaloneMix": "~70% of standalone income from motorcycles; scooters 14.3% in Q1FY27 (below 10% a few years ago); 4W ~6% (Rs180 cr in Q1FY27); clutches 3.5% of India sales are the only ICE-only product (q1call).",
+  "marketShareFY26": { "brakeAssemblies": 34.5, "brakeDiscs": 42, "frontForks": 44, "shockAbsorbers": 37, "src": "q1call (India 2W)" },
+  "customers": [["Bajaj Auto", 38.0, 35.0], ["Honda Motorcycle & Scooter", 9.1, 8.5], ["VW-Audi-Porsche", 8.9, 7.8], ["Mercedes", 2.6, 7.4], ["Royal Enfield", 5.7, 6.0], ["Stellantis", 5.5, 5.2], ["Hero MotoCorp", 3.5, 4.0], ["India Yamaha", 3.7, 3.0], ["TVS Motor", 2.6, 2.7], ["Hyundai/Kia", 1.7, 1.4], ["Tata Motors", 1.5, 1.3]],
+  "customersNote": "Share of consolidated total income, FY25 and FY26 (q4deck p29; q4fy25deck p27). Bajaj Auto was 39.4% in FY24. Bajaj's own volume grew 11.6% in FY26 vs Endurance's sales to it +16.1%; HMSI 7.9% vs +16.9%; Royal Enfield 23.9% vs +32.7%; TVS 21.2% vs +29.1% (q4call)."
+ },
+ "shares": { "mar26": 140662848, "faceValue": 10, "promoter": 43396896, "promoterGroup": 62100240, "src": "AR FY26 corporate governance report, distribution of shareholding at 31-Mar-2026" },
+ "fy26": {
+  "revenue": 14595.88, "otherIncome": 123.97, "totalIncome": 14719.85, "ebitdaCompany": 2090, "ebitdaExOI": 1966, "depreciation": 734.22, "financeCost": 57.36, "exceptional": -20.95, "pbt": 1277.08, "tax": 325.37, "pat": 951.71, "eps": 67.66,
+  "revenueIndia": 10217.48, "revenueOutsideIndia": 4122.37, "otherOperatingRevenue": 256.03, "incentivesBooked": 121, "nonCurrentAssetsIndia": 2942.86, "nonCurrentAssetsOutside": 3287.58,
+  "rmcPct": 66.82, "rmcPctFY25": 65.3, "commodityNonValueAdd": 73.7, "marginExCommodity": 13.3,
+  "cfo": 1851, "capexIndia": 828, "capexEuropeEurM": 45, "stoferleConsiderationEurM": 37.74, "goodwillStoferle": 348.68, "goodwillMaxwell": 103.54,
+  "src": "AR FY26 consolidated P&L, notes 19, 27, 26b, KAM; q4deck p26; q4call"
+ },
+ "otherIncomeFY26": { "depositInterest": 4.78, "otherInterest": 0.99, "currentInvestments": 30.08, "writeBacks": 0.98, "ppeGain": 5.37, "misc": 65.63, "fxGain": 16.14, "total": 123.97, "fy25Total": 116.97, "fy25": { "depositInterest": 8.36, "currentInvestments": 51.54, "misc": 30.89, "fxGain": 7.92, "writeBacks": 10.02 }, "src": "AR FY26 consolidated note 19" },
+ "europe": {
+  "fy26EurM": 391.7, "fy25EurM": 303.9, "fy26EbitdaEurM": 72.4, "fy26MarginPct": 18.5, "fy25EbitdaEurM": 51.1, "growthExStoferlePct": 2.0, "partsGrowthExStoferlePct": 6.4,
+  "q4fy26EurM": 106.9, "q4fy26EbitdaEurM": 21.9, "q1fy27EurM": 104.3, "q1fy26EurM": 103.2, "q1fy27EbitdaEurM": 18.9, "q1fy26EbitdaEurM": 18.0, "q1fy27PatEurM": 4.4, "q1fy26PatEurM": 6.4, "q1fy27DepEurM": 11.6, "q1fy26DepEurM": 8.5,
+  "stoferle": { "acquired": "2-Apr-2025, 60% for EUR37.74 mn (Rs350 cr cash; Rs246 cr deferred payable for the remaining 40% under put/call options, 8% a year Jun-2026 to 2030: floor EUR5.03 mn per tranche plus 4.5x normalised EBITDA above EUR17 mn)", "fy26RevenueEurM": 82.1, "fy26EbitdaEurM": 17.9, "fy26PatEurM": 8.0, "fy26CashEurM": 20, "runRateAtDealEurM": "70-80", "stakeJul26": 68, "q1fy27StakePaidEurM": 6.24 },
+  "ordersEurM": { "fy26": 15.8, "q1fy27": 13.9, "fiveYearTotal": 185, "evShare": 47, "hybridShare": 39, "mercedesHybrid": "100% share of business from Jan-2027 (competitor bankrupt); ~EUR40 mn annual potential (MOSL)" },
+  "iceShareOfRevenue": "~30% now, falling to 25% by FY28 (q1deck p10)",
+  "src": "q4call; q1call; q1deck pp9-10, 20; AR FY26 note 26b"
+ },
+ "q1fy27": {
+  "date": "2026-08-13", "revenue": 4315, "totalIncome": 4348, "ebitdaCompany": 569, "ebitdaExOI": 536, "ebitdaMargin": 12.4, "otherIncome": 33, "dep": 222, "interest": 17, "pat": 245, "eps": 17.38,
+  "standalone": { "totalIncome": 3194, "growth": 35.9, "ebitda": 358, "margin": 11.2, "pat": 195, "rmcPct": 68.4, "rmcPctQ1FY26": 64.8, "marginExCommodity": 13.33, "growthExCommodity": "23.5-24%", "netCash": 415.7, "commodityPaidUpfront": 300, "evSales": 129.7, "evSalesQ1FY26": 69.2 },
+  "maxwell": { "totalIncome": 57, "ebitda": 4, "pat": 1 },
+  "europe": { "totalIncome": 1146, "ebitda": 208, "margin": 18.2, "pat": 48 },
+  "industry": "India Q1FY27 sales (SIAM): 2W 7.18 mn (+23.6%; motorcycles +19.3%, scooters +32.7%), 3W 0.37 mn (+40%), 4W 1.79 mn (+22.7%). EU registrations +7.4% (ex-Chinese OEMs +3%); EU production -5%; BEV 21.9%, PHEV 10.1%, mild hybrid 36.1% of registrations.",
+  "src": "q1deck pp13-22; q1call; Screener.in quarterly (consolidated)"
+ },
+ "guidance": {
+  "margin": "No numeric margin guidance. 'Definitely we see a better Q2 and Q3 for sure... it will be better than Q1' (MD, q1call): Q1 raw-material rates were on the Q4FY26 base; Q1-average rates apply from Q2; aluminium alloy (60% of purchases) softer by Rs12-17/kg; conversion-cost (gas, fuel, wage) claims being settled in Q2-Q3.",
+  "capex": "India capex ~Rs800 cr in FY27, similar to FY26 (Rs828 cr standalone); >80% expansion and dies (q4call, q1call). Europe EUR45 mn in FY26; EUR3.6 mn in Q1FY27.",
+  "orders": "India orders won since FY23 Rs5,270 cr (Rs4,241 cr new), excluding Bajaj and Maxwell, peaking by FY29; RFQs Rs4,526 cr; EV orders Rs1,806 cr incl. Bajaj (q1deck p7-8, q1call).",
+  "newPlants": "Bidkin 2W alloy wheels (from Oct-2025; ~Rs600 cr a year at peak by Q3/Q4FY27); Shendra 4W/non-auto machined castings (SOP Sep-2026; >Rs200 cr in FY27; Rs513 cr peak in early FY29); battery packs (SOP Jun-2026 for Hero MotoCorp; Rs300-360 cr, up to Rs600 cr in FY28 per customer outlook; 4W packs Q4FY27, Rs62 cr capex); Chennai brakes (3 mn assemblies; SOP Q2-Q3FY27); ABS +9 lakh units (SOP Sep/Oct-2026); dual-channel ABS for Bajaj (Q2FY27); fifth forging press (Q3FY27); solar dampers and actuators Rs345 cr of orders (q4call, q1call).",
+  "fourWheeler": "4W share ~6% of India sales; 'our plan is to reach 10% soon' (q4call).",
+  "incentives": "Maharashtra PSI-2019 entitlement raised from Rs600 cr to Rs858 cr, availed as state-GST refunds over ~7 years; Rs121 cr booked in FY26 revenue, Rs35 cr in Q1FY27 (q4call, q4deck, q1deck).",
+  "mna": "'In future you will see certain M&As happening both in the automotive as well as the non-automotive field' in Europe (q1call).",
+  "src": "q4call; q1call; q1deck"
+ },
+ "history": [
+  ["1985", "Began with two aluminium die-casting machines in Aurangabad (now Chhatrapati Sambhajinagar)"],
+  ["1996-2004", "Entered 2W suspension, transmission and disc brakes (Paioli, Adler and Grimeca collaborations); aftermarket"],
+  ["2006-2013", "Europe: acquired Amann Druckguss (Germany) and Fondalmec (Italy), the base of today's Endurance Overseas; casting plants in Pune and Chennai; KTM collaboration for inverted front forks and mono-shocks"],
+  ["2016", "Listed on NSE and BSE (first trade 21-Oct-2016)"],
+  ["2016-2021", "Acquired 99% of Italian clutch maker Adler; plants in Kolar (Karnataka), Sanand and Halol (Gujarat), Pantnagar; Vallam casting plant (Tamil Nadu)"],
+  ["2022-2023", "Acquired Maxwell Energy Systems (BMS; from 1-Jul-2022, 100% from May-2025) and Frenotecnica and New Fren (Italy, 2W brakes); SMT electronics line"],
+  ["2025", "Bought 60% of Stöferle (Germany, machined aluminium castings) on 2-Apr-2025 for EUR37.74 mn; Bidkin alloy-wheel plant (Oct-2025)"],
+  ["2026", "Battery-pack SOP for Hero MotoCorp (Jun-2026); Stöferle stake raised to 68% (Q1FY27, EUR6.24 mn); Veicoli Srl (Italy) divested"]
+ ],
+ "historySrc": "AR FY26 'Our journey' pp10-11 and directors' report (subsidiaries); q1deck p5; Screener price history (first trade 21-Oct-2016)",
+ "management": [["Anurang Jain", "Managing Director (promoter; re-appointed from 1-Apr-2026)"], ["Soumendra Basu", "Chairman (non-executive)"], ["Massimo Venuti", "Director; CEO, Endurance Overseas (Europe)"], ["Rajendra Abhange", "Director and COO"], ["Varsha Jain", "Executive Director, Head - CSR and Facility Management (promoter family)"], ["R. S. Raja Gopal Sastry", "Group CFO"], ["Sunil Lalai", "Company Secretary"]],
+ "remuneration": { "mdToMedian": 104.08, "medianEmployeeCr": 0.08, "mdIncreasePct": 5.06, "varshaJainToMedian": 28.82, "cooToMedian": 45.38, "src": "AR FY26 Board's report annexure (Rule 5(1))" },
+ "dividendPolicy": "Payout 16-21% of PAT in FY21-FY26 (Screener); FY26 ~17%."
+}

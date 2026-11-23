@@ -1,0 +1,324 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Endurance Technologies (consolidated, Rs crore). FY26 is the last reported year. Segment model on the company's entity basis: each entity's TOTAL INCOME and EBITDA as the company reports them (both include that entity's other income), plus consolidation adjustments, less consolidated other income as a negative line at 100% margin, so revenue and EBITDA tie to Screener's revenue (Rs14,596 cr) and operating profit (Rs1,966 cr); other income is then added back below EBITDA (built in _otherIncomeWhy). No minorities: Stöferle is consolidated at 100% with the put/call liability for the remaining stake booked as deferred consideration. Valued on P/E, as the street does; the multiple is derived in ENDURANCE.ctx.js and written here by ENDURANCE.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "india",
+   "name": "India (ETL standalone)",
+   "driverLabel": "Total income",
+   "marginLabel": "EBITDA",
+   "base": 10696,
+   "growth": [
+    23,
+    14,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    12,
+    12.6,
+    12.8
+   ],
+   "hist": {
+    "driver": "india",
+    "revenue": "india",
+    "adjEbitda": "indiaEbitda"
+   },
+   "_why": "FY27E +23%: Q1FY27 +35.9% (of which ~12.9 points raw-material pass-through, ~23.5% underlying, q1call) on record 2W volumes (+23.6%); Q2-Q4 assumed ~+19% as the base absorbs the Sep-2025 GST cut from Q3 and new plants ramp (Bidkin alloy wheels to ~Rs600 cr a year by Q4FY27, Shendra castings >Rs200 cr in FY27, battery packs Rs300-360 cr, ABS doubling, Chennai brakes). FY28E +14% and FY29E +12%: 2W volumes +6-8% plus content (ABS regulation if notified, inverted forks, 4W castings to ~10% of sales, battery packs up to Rs600 cr in FY28, Shendra Rs513 cr peak in early FY29). Orders won since FY23: Rs5,270 cr peak value excl. Bajaj (Rs4,241 cr new).",
+   "_marginWhy": "Company EBITDA margin incl. other income: 12.6% in FY26 (13.3% excl. Rs74 cr of non-value-add metal pass-through; Rs121 cr PSI incentives booked), 11.2% in Q1FY27 (RMC 68.4% vs 64.8%: Q1 billed on Q4 rates; Rs300 cr of commodity increases paid up front). Q2-Q3 'better than Q1' as Q1-average rates and conversion-cost claims flow through: Q2-Q4 ~12.3%, FY27E 12.0%. FY28E 12.6% and FY29E 12.8% as new plants pass start-up, still below FY25's 13.7% because pass-through inflates the denominator and battery packs carry lower margins. MOSL standalone ex other income: 10.9% Q1FY27, 11.5% FY27E."
+  },
+  {
+   "key": "maxwell",
+   "name": "Maxwell (BMS electronics)",
+   "driverLabel": "Total income",
+   "marginLabel": "EBITDA",
+   "base": 161,
+   "growth": [
+    50,
+    30,
+    25
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    6,
+    8,
+    9
+   ],
+   "hist": {
+    "driver": "maxwell",
+    "revenue": "maxwell",
+    "adjEbitda": "maxwellEbitda"
+   },
+   "_why": "FY26 Rs161 cr (+130%); Q1FY27 Rs57 cr (+85%; +21% QoQ). Cumulative orders Rs238 cr a year at peak by Q2FY28; RFQs >Rs300 cr. FY27E +50% (MOSL Rs238 cr), FY28E +30%, FY29E +25%.",
+   "_marginWhy": "FY26 0.6% (Rs6 cr Hero Electric inventory provision in Q4); Q1FY27 7%, first PAT-positive quarter. 6% / 8% / 9%."
+  },
+  {
+   "key": "europe",
+   "name": "Europe (Endurance Overseas incl. Stöferle)",
+   "driverLabel": "Total income",
+   "marginLabel": "EBITDA",
+   "base": 4017,
+   "growth": [
+    9.5,
+    5,
+    4
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    18,
+    18.3,
+    18.3
+   ],
+   "hist": {
+    "driver": "europe",
+    "revenue": "europe",
+    "adjEbitda": "europeEbitda"
+   },
+   "_why": "In euros: FY26 EUR391.7 mn (+28.9%; +2% ex Stöferle, parts +6.4%); Q1FY27 EUR104.3 mn (+1.1%) with EU production -5% and Chinese OEMs taking the growth. FY27E EUR ~400 mn (+2%, as MOSL), the Mercedes hybrid transmission part (100% share from Jan-2027, ~EUR40 mn a year) starting in Q4. FY28E +5% in euros (Mercedes full year, VW/Porsche castings) offset by ICE programmes ending (ICE ~30% of sales to 25% by FY28). FY29E +4%. Rupee held at the Q1FY27 rate (Rs110/EUR vs Rs102.6 in FY26), which adds ~7% to FY27E rupee growth; no further currency move assumed.",
+   "_marginWhy": "EBITDA margin incl. other income 18.4% in FY26 (EUR basis 18.5%), 18.2% in Q1FY27; energy prices in Italy +22% YoY (electricity) and gas +23% in Q1FY27. 18.0% / 18.3% / 18.3%: Stöferle integration benefits from Sep-2027 (management) offset by energy and volume risk. The Q1FY27 accelerated depreciation (EUR3 mn) is below EBITDA."
+  },
+  {
+   "key": "adj",
+   "name": "Consolidation adjustments",
+   "driverLabel": "Total income",
+   "marginLabel": "EBITDA",
+   "base": -154,
+   "growth": [
+    25,
+    14,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    2,
+    2,
+    2
+   ],
+   "hist": {
+    "driver": "adj",
+    "revenue": "adj",
+    "adjEbitda": "adjEbitda"
+   },
+   "_why": "Inter-company sales (India to Europe castings, Maxwell BMS to ETL battery packs): -Rs154 cr in FY26, -Rs49 cr in Q1FY27 (-Rs33 cr). Grows with India.",
+   "_marginWhy": "Elimination of unrealised margin: EBITDA -Rs3 cr on -Rs154 cr in FY26 (~2%)."
+  },
+  {
+   "key": "oi",
+   "name": "Less: other income (shown below EBITDA)",
+   "driverLabel": "Other income",
+   "marginLabel": "EBITDA",
+   "base": -124,
+   "growth": [
+    -7.258,
+    4.348,
+    4.167
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    100,
+    100,
+    100
+   ],
+   "hist": {
+    "driver": "oi",
+    "revenue": "oi",
+    "adjEbitda": "oiEbitda"
+   },
+   "_why": "The entity totals above include other income; this line removes consolidated other income (FY26 Rs124 cr) from revenue and EBITDA at 100%. It follows the otherIncome build: Rs115 / 120 / 125 cr.",
+   "_marginWhy": "Other income is all margin."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "None: corporate costs sit inside ETL standalone",
+ "_unallocWhy": "Entity EBITDAs and adjustments add up to the company EBITDA; no separate corporate cost line.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  1200,
+  1250,
+  1300
+ ],
+ "_capexWhy": "India ~Rs800 cr in FY27, similar to FY26's Rs828 cr (q4call, q1call; >80% expansion and dies). Europe EUR45 mn in FY26 (VW/Porsche, Stellantis, Daimler capacity); EUR3.6 mn in Q1FY27; we assume ~EUR35 mn (~Rs385 cr). FY26 consolidated capex ~Rs1,256 cr (MOSL). FY28E Rs1,250 cr and FY29E Rs1,300 cr (MOSL FY27-28E Rs1,250 cr each). Stöferle put/call payments (8% a year from Jun-2026, EUR6.24 mn paid in Q1FY27) settle a liability already booked and are not capex.",
+ "depRateOnGrossBlock": 8.2,
+ "_depWhy": "FY26 D&A Rs734 cr (incl. Stöferle) on average gross block; Q1FY27 Rs222 cr incl. ~EUR3 mn accelerated depreciation of Europe ICE-programme assets (management: those assets are fully written off over ~18 months). The engine depreciates capex at once and holds CWIP flat; the rate gives FY27E ~Rs900 cr (MOSL Rs917 cr), FY28E ~Rs1,000 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Treasury income is in the other-income build below (on gross cash and investments, not on net cash).",
+ "otherIncome": [
+  115,
+  120,
+  125
+ ],
+ "_otherIncomeWhy": "Built, not plugged (AR FY26 note 19: Rs124 cr): (1) treasury income on ~Rs1,900 cr of gross cash and current investments at ~2% after tax-efficient debt funds: Rs40 cr (FY26 Rs36 cr: interest Rs6 cr + income from current investments Rs30 cr; FY25 Rs60 cr); (2) recurring non-operating income Rs75 / 80 / 85 cr (miscellaneous Rs66 cr, asset-sale gains Rs5 cr, write-backs Rs1 cr in FY26); (3) no foreign-exchange gain (Rs16 cr in FY26). FY27E Rs115 cr vs TTM to Jun-2026 Rs121 cr before the labour-code charge (Screener Rs100 cr net of it) and Q1FY27 Rs33 cr; MOSL FY27E Rs139 cr.",
+ "interest": [
+  70,
+  65,
+  60
+ ],
+ "_interestLabel": "Finance cost (borrowings, leases and unwinding of the Stöferle deferred consideration)",
+ "_interestWhy": "FY26 Rs57 cr; Q1FY27 Rs17 cr. Borrowings Rs1,327 cr at Mar-2026 (mostly Europe, incl. Stöferle's) plus the Rs246 cr deferred consideration for the remaining 40% of Stöferle. FY27E Rs70 cr (Q1 run-rate), easing as Europe repays debt (MOSL Rs65 / 61 cr).",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "FY26 25.5% (Rs325 cr on Rs1,277 cr); Q1FY27 25.9%; MOSL 25.4% FY27-28E.",
+ "payout": [
+  17,
+  17,
+  17
+ ],
+ "_payoutWhy": "16-21% of PAT in FY21-FY26 (FY26 ~17%).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 13.5,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 4.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Cyclical auto supplier with net cash and 35% of income from one customer: beta 1.0, cost of equity 12.5%. Net cash, so the cost of equity is the discount rate.",
+  "_tgWhy": "India's nominal GDP grows ~10%; 2W volumes ~5-6% a year plus content; Europe flat to low growth. House range 5-6%: 6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~11% in FY29E to 8% over 15 years.",
+  "_fadeMarginWhy": "EBITDA margin (ex other income) fades to 13.5%: FY22-26 range 11.8-13.5%; no pricing power beyond pass-through.",
+  "_fadeCapexWhy": "Capex 5% of revenue at maturity (FY22-26 average ~8.5% in a heavy build-out incl. Europe); depreciation 4.5% of revenue (FY26 5.0%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "2W volumes keep growing high single digits after the GST step; ABS becomes mandatory for smaller bikes; battery packs, Shendra and Bidkin ramp on time; commodity costs ease and pass-through catches up, lifting India margins back to ~13.5%; Europe holds share as Chinese OEMs localise sourcing.",
+   "segments": {
+    "india": {
+     "growthDelta": 3,
+     "marginDelta": 0.6
+    },
+    "europe": {
+     "growthDelta": 2,
+     "marginDelta": 0.5
+    }
+   },
+   "fadeMarginTo": 14.3
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "2W volumes flatten against the GST base; Bajaj Auto (35% of income) loses share or in-sources; commodity and energy costs are recovered late; Europe loses ICE programmes faster than hybrid/EV orders replace them and energy prices squeeze margins.",
+   "segments": {
+    "india": {
+     "growthDelta": -4,
+     "marginDelta": -0.8
+    },
+    "europe": {
+     "growthDelta": -4,
+     "marginDelta": -1.5
+    }
+   },
+   "fadeMarginTo": 12.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 29,
+      "bull": 31.5,
+      "bear": 25.5
+     },
+     "why": "How the street values Endurance: P/E on one-year-forward EPS (MOSL 32x FY28E, Choice 30x FY28E, JM Financial 32x FY28E at initiation). Multiple derived in ENDURANCE.ctx.js and written by ENDURANCE.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 13.5,
+      "bull": 15,
+      "bear": 12.5
+     },
+     "why": "Own trailing EV/EBITDA median since Apr-2021 with the same sector de-rating, restated to Sep-28E EBITDA."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, cost of equity 12.5%, terminal growth 6%, plus net cash."
+    }
+   ]
+  }
+ },
+ "oiBuild": {
+  "_note": "Other income build (Rs crore), checked against otherIncome and the oi segment in ENDURANCE.ctx.js",
+  "treasury": [
+   40,
+   40,
+   40
+  ],
+  "recurring": [
+   75,
+   80,
+   85
+  ],
+  "fx": [
+   0,
+   0,
+   0
+  ]
+ }
+}
