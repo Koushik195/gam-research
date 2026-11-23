@@ -1,0 +1,156 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Motherson Sumi Wiring India (standalone; no subsidiaries; Rs crore). One business (wiring harnesses and harness components for Indian vehicle makers), so revenue grows at a single rate and EBITDA margin is a driver; the business-line build (existing plants vs the three greenfields) is kept in lineBuild and checked against model revenue in MSUMI.ctx.js. Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  23,
+  14,
+  13
+ ],
+ "_revenueWhy": "FY27: Q1 revenue Rs3,407 cr (+37%; ~7 points copper pass-through, the rest volume, content and new programmes); Q1 x4 is already +19%. We assume Rs3,550 cr in each of Q2 and Q3 and ~Rs3,600 cr in Q4 (growth falls to ~8% in Q4 against a Rs3,335 cr base that already carried copper and the greenfields). FY28-29: PV production +6-8% a year (after the GST-cut year), content per vehicle +4-5% (features, EV/hybrid share 8.5% of revenue in Q1FY27, 1.5-1.7x the content of an ICE car per JM Financial), greenfields reaching ~Rs2,000 cr a year; copper held at Q1FY27 levels (no further pass-through inflation).",
+ "lineBuild": {
+  "_why": "Company disclosure: FY26 revenue Rs11,478 cr = existing plants Rs10,438 cr + greenfields Rs1,040 cr (Q4FY26 presentation p10). Greenfields ran at ~Rs443-450 cr a quarter in Q4FY26-Q1FY27 and are sized for ~Rs2,000 cr a year (Q4FY26 call). Existing plants are the balance.",
+  "fy26": {
+   "existing": 10438,
+   "greenfield": 1040
+  },
+  "greenfield": [
+   1850,
+   2050,
+   2250
+  ]
+ },
+ "ebitdaMargin": [
+  8.3,
+  9.1,
+  9.4
+ ],
+ "_marginWhy": "FY26 9.2% (11.4% excluding Rs127 cr of greenfield start-up losses); Q1FY27 7.6%. FY27: Q1 7.6%, then ~8.5% for Q2-Q4 as the 3-6 month copper lag unwinds (management: majority of customers on a three-month reset) and the greenfields move above breakeven, but the NCR minimum-wage increase (35-40%) is recovered only partly and slowly ('nobody can predict exactly the timeline'). FY28-29: greenfields at parity with old plants and some wage recovery; we stay well below the 11-13% of FY22-25 because copper pass-through at cost permanently inflates revenue (denominator effect, as the CFO said) and royalty, management fee and support fees to the two partners take ~2.4% of revenue.",
+ "capex": [
+  240,
+  270,
+  280
+ ],
+ "_capexWhy": "Cash capex guided at ~Rs200 cr in FY27 (Q4FY26 call), funded internally; FY26 Rs201 cr. Management said in Aug-2026 that new expansion plans will follow 'in the next few quarters' as plants run at ~80%. We add ~Rs40 cr a year of new leased plant (right-of-use assets, most plants are leased from SAMIL) because the engine has no lease line, and lift capex to Rs270-280 cr in FY28-29 for the next round of plants.",
+ "depRateOnGrossBlock": 13.5,
+ "_depWhy": "FY26 depreciation Rs216 cr = 13.5% of average gross block (Rs1,604 cr), high because right-of-use (leased) buildings and harness tooling depreciate fast. Q1FY27 Rs60 cr.",
+ "treasuryYield": [
+  6,
+  6,
+  6
+ ],
+ "_treasuryWhy": "Applied by the engine to net cash only (borrowings include Rs223 cr of lease liabilities, so there is no treasury income until net cash turns positive). Bank deposit yield ~6%.",
+ "otherIncome": [
+  9,
+  6,
+  6
+ ],
+ "_otherIncomeWhy": "Recurring items, not treasury: interest unwinding on security deposits with SAMIL and others (Rs2.7 cr in FY26, AR note 31), interest on deposits and small asset-sale gains. FY26 other income Rs3.9 cr (AR note 22; Rs12.8 cr in FY25 when cash was higher); Q1FY27 Rs5.4 cr. FY27E = Q1 plus ~Rs1.2 cr a quarter; Rs6 cr from FY28.",
+ "interest": [
+  34,
+  34,
+  34
+ ],
+ "_interestWhy": "Mostly interest on lease liabilities (Rs20.5 cr in FY26 incl. leases from SAMIL) plus working-capital lines: external debt rose from Rs10 cr (Mar-26) to Rs61 cr (Jun-26); Q1FY27 finance cost Rs8 cr.",
+ "taxRate": [
+  25.2,
+  25.2,
+  25.2
+ ],
+ "_taxWhy": "New regime 25.17%; FY26 effective 23.9% (MOSL), Q1FY27 25.4%.",
+ "payout": [
+  62,
+  62,
+  62
+ ],
+ "_payoutWhy": "Policy-like payout of ~62% of profit for FY26 (final Rs0.58 a share) and FY25; 59-65% since listing.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.95,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 9.5,
+  "fadeCapexPctTo": 2,
+  "depPctOfSales": 1.8,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Tied to Indian car and truck production (cyclical) but net-debt-free with a 41% customer: beta 0.95, cost of equity 12.2%. Debt is only leases, so the cost of equity is the discount rate.",
+  "_tgWhy": "Indian vehicle production ~5-6% plus content growth; house range 5-6%: 6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~13% in FY29E to 8%.",
+  "_fadeMarginWhy": "EBITDA margin held at ~9.5%: no return to the 11-13% of FY22-25 while copper is at today's price.",
+  "_fadeCapexWhy": "Asset-light assembler: capex ~1.7-2% of revenue in FY24-26; depreciation 1.8-1.9% of revenue."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Car and SUV production keeps growing ~10% a year after the GST cut; customers agree to monthly copper resets and pay for the NCR wage increase; greenfields reach company margins by H2FY27; EV/hybrid share keeps rising; EBITDA margin back to ~10.5%.",
+   "volumeGrowthDelta": 0,
+   "revenueGrowthDelta": 3,
+   "marginDelta": 1,
+   "fadeMarginTo": 10.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The GST-cut boost fades and PV production flattens; copper keeps rising so the lag never closes; wage increases spread to other states without compensation; Pune stays under-used; EBITDA margin stuck near 8%.",
+   "volumeGrowthDelta": 0,
+   "revenueGrowthDelta": -5,
+   "marginDelta": -1,
+   "fadeMarginTo": 8.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 1,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 38.5,
+      "bull": 42,
+      "bear": 34
+     },
+     "why": "How the street values MSWIL: P/E on one-year-forward EPS (MOSL 35x FY28E, Emkay 30x Jun-28E, JM Financial 33x FY28E). Multiple derived in MSUMI.ctx.js (own forward P/E median since listing x auto-component de-rating) and written by MSUMI.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 18.5,
+      "bull": 20,
+      "bear": 16
+     },
+     "why": "Own trailing EV/EBITDA median since listing with the same sector de-rating, restated to Sep-28E EBITDA."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, cost of equity 12.2%, terminal growth 6%."
+    }
+   ]
+  }
+ }
+}

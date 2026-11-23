@@ -1,0 +1,3914 @@
+{
+ "symbol": "MSUMI",
+ "listing": "NSE: MSUMI · BSE: 543498",
+ "date": "30 September 2026",
+ "rating": "BUY",
+ "analysts": "GAM Research — Automobiles & components",
+ "cover": {
+  "headline": "India's wiring-harness leader on a trough multiple: the margin squeeze is mostly timing, the JV toll is permanent",
+  "lead": "Motherson Sumi Wiring India (MSWIL) assembles the wiring harnesses in most Indian cars; it is a joint venture of Samvardhana Motherson (33.4%) and Sumitomo Wiring Systems (25.1%), and one customer (Maruti Suzuki, per Emkay) buys 41% of its output. Revenue grew 23% in FY26 and 37% in Q1FY27, but the EBITDA margin fell to 7.6% as copper ran ahead of price resets, NCR minimum wages jumped 35-40% and new plants ramped up; profit was flat. We forecast EPS of ₹1.01 / ₹1.30 / ₹1.53 for FY27-29E, below the street. The street values MSWIL on **P/E on one-year-forward EPS** (MOSL 35x and JM 33x FY28E, Emkay 30x Jun-28E). The house rule (its own forward P/E median since listing, 41.8x, cut by the 7.8% auto-component de-rating) gives **38.5x Sep-28E EPS of ₹1.41 = {{dcf.tp|inr}} ({{dcf.upside|chg}}): we initiate with BUY.** Cross-checks: EV/EBITDA ₹44; DCF ₹29, below the price. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "Growth is real and well ahead of car production",
+    "p": "Revenue rose 23% in FY26 against passenger-vehicle production growth of 9.4%, and 37% in Q1FY27 (30% without copper) against industry volumes of +17%. The drivers are content (more features, SUVs, EV and hybrid programmes at 8.5% of revenue and 1.5-1.7x the harness value of a petrol car) and three new plants that already sell ~₹450 cr a quarter. We model revenue +{{as.revenueGrowth.0|pct0}} / +{{as.revenueGrowth.1|pct0}} / +{{as.revenueGrowth.2|pct0}}."
+   },
+   {
+    "h": "Two of the three margin hits are temporary; the third is a negotiation",
+    "p": "Copper is passed on at cost with a 3-6 month lag (the CFO put the Q4FY26 hit at 2-2.5 points of margin), and the greenfields, which lost ₹127 cr in FY26, were at breakeven excluding that lag by Q4FY26. The NCR wage increase is a real cost that customers must agree to share; there is no timeline. Copper also inflates revenue for ever, so the old 12-13% margin will not come back at today's copper price. We assume {{as.ebitdaMargin.0|pct}} / {{as.ebitdaMargin.1|pct}} / {{as.ebitdaMargin.2|pct}}, below every broker."
+   },
+   {
+    "h": "The JV toll: minority holders get the assembly margin",
+    "p": "About 65% of raw-material purchases come from SAMIL and Sumitomo, which also take a royalty, an equal management fee and support fees: 2.4% of revenue and a quarter of EBITDA in FY26. Hyundai and Kia are served by a different SAMIL JV. Returns are still ~40% ROCE because the business needs little capital, but growth in the value chain accrues partly outside MSWIL."
+   },
+   {
+    "h": "Valuation: the price assumes the squeeze is permanent",
+    "p": "At ₹34.07 the stock trades at 26.2x our FY28E and 24.1x Sep-28E EPS, against a 41.8x forward median since listing; its trailing P/E sits 27% below its median since listing while auto-component peers sit 7.8% below theirs. Our 38.5x is above the street's 30-35x because the house rule anchors on MSWIL's own history; at the street's 35x our EPS still gives ₹49. The DCF (₹29) does not support the price: the case rests on the multiple."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n2"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "AMBER"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "GREEN"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): whether the Q1 copper increase and part of the NCR wage increase have been recovered from customers, and the greenfields' first profit.",
+   "Shorter copper resets: management is asking customers for monthly (or even 15-day) price resets instead of 3-6 months; any agreement removes most of the timing squeeze.",
+   "New expansion plans \"in the next few quarters\" (COO, Aug-2026): new plants backed by firm orders, e.g. for customers' new car plants.",
+   "Festive-season car production (Oct-Dec 2026) against the GST-cut base; EV and hybrid launches by MSWIL's customers.",
+   "Pune and Chennai greenfields: a new customer or the delayed model launch would lift utilisation from ~50%."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: ₹11,478 cr in FY26; ₹18,187 cr by FY29E",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; GAM estimates FY27-29E"
+      },
+      {
+       "type": "column",
+       "title": "Growth accelerated six quarters in a row, to 37% in Q1FY27",
+       "unit": "Revenue growth year on year (%)",
+       "x": [
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Revenue growth",
+         "values": [
+          10.3,
+          8.7,
+          12.4,
+          14.1,
+          18.7,
+          25.5,
+          32.9,
+          36.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Quarterly results as reported (Screener.in)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "New plants: ₹5 cr in Q1FY25, ~₹450 cr a quarter now",
+       "unit": "Revenue (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Existing plants",
+         "values": [
+          2180,
+          2271.2,
+          2220.3,
+          2390.5,
+          2338,
+          2572,
+          2637,
+          2892,
+          2955.8
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Greenfields",
+         "values": [
+          4.8,
+          54.4,
+          80,
+          119,
+          156,
+          189.9,
+          250.1,
+          442.6,
+          451.5
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 300,
+       "source": "Company decks; Emkay Exhibit 4 (Q1FY27 greenfield split is an Emkay estimate)"
+      },
+      {
+       "type": "line",
+       "title": "Even the old plants slipped from 12-13% to ~9-10%",
+       "unit": "EBITDA margin (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Existing plants",
+         "values": [
+          11.7,
+          12.7,
+          12.5,
+          12.4,
+          11.8,
+          12.7,
+          11.3,
+          10,
+          9.2
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Reported",
+         "values": [
+          10.9,
+          10.7,
+          10.3,
+          10.8,
+          9.8,
+          10.1,
+          9.1,
+          8.2,
+          7.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "min": 6,
+       "max": 14,
+       "source": "Company decks; Emkay Exhibit 4; GAM (Q1FY27 existing plants = reported EBITDA plus Emkay's greenfield-loss estimate)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Copper: ₹883/kg in Q1FY26, ₹1,348/kg in Q1FY27 (+53%)",
+       "unit": "Average copper price (₹ per kg)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Copper",
+         "values": [
+          880,
+          835,
+          836,
+          875,
+          883,
+          929,
+          1067,
+          1259,
+          1348
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company decks; Emkay Exhibit 6"
+      },
+      {
+       "type": "line",
+       "title": "EBITDA margin: 13% in FY22, 9.2% in FY26; 9.4% in FY29E",
+       "unit": "EBITDA margin (%)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 6,
+       "max": 14,
+       "source": "Screener.in; GAM estimates FY27-29E"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: 26.2x FY28E now vs a 41.8x median since listing",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2022-04-01",
+        "2022-04-08",
+        "2022-04-13",
+        "2022-04-22",
+        "2022-04-29",
+        "2022-05-06",
+        "2022-05-13",
+        "2022-05-20",
+        "2022-05-27",
+        "2022-06-03",
+        "2022-06-10",
+        "2022-06-17",
+        "2022-06-24",
+        "2022-07-01",
+        "2022-07-08",
+        "2022-07-15",
+        "2022-07-22",
+        "2022-07-29",
+        "2022-08-05",
+        "2022-08-12",
+        "2022-08-19",
+        "2022-08-26",
+        "2022-09-02",
+        "2022-09-09",
+        "2022-09-16",
+        "2022-09-23",
+        "2022-09-30",
+        "2022-10-07",
+        "2022-10-14",
+        "2022-10-21",
+        "2022-10-28",
+        "2022-11-04",
+        "2022-11-11",
+        "2022-11-18",
+        "2022-11-25",
+        "2022-12-02",
+        "2022-12-09",
+        "2022-12-16",
+        "2022-12-23",
+        "2022-12-30",
+        "2023-01-06",
+        "2023-01-13",
+        "2023-01-20",
+        "2023-01-27",
+        "2023-02-03",
+        "2023-02-10",
+        "2023-02-17",
+        "2023-02-24",
+        "2023-03-03",
+        "2023-03-10",
+        "2023-03-17",
+        "2023-03-24",
+        "2023-03-31",
+        "2023-04-06",
+        "2023-04-13",
+        "2023-04-21",
+        "2023-04-28",
+        "2023-05-05",
+        "2023-05-12",
+        "2023-05-19",
+        "2023-05-26",
+        "2023-06-02",
+        "2023-06-09",
+        "2023-06-16",
+        "2023-06-23",
+        "2023-06-30",
+        "2023-07-07",
+        "2023-07-14",
+        "2023-07-21",
+        "2023-07-28",
+        "2023-08-04",
+        "2023-08-11",
+        "2023-08-18",
+        "2023-08-25",
+        "2023-09-01",
+        "2023-09-08",
+        "2023-09-15",
+        "2023-09-22",
+        "2023-09-29",
+        "2023-10-06",
+        "2023-10-13",
+        "2023-10-20",
+        "2023-10-27",
+        "2023-11-03",
+        "2023-11-12",
+        "2023-11-17",
+        "2023-11-24",
+        "2023-12-01",
+        "2023-12-08",
+        "2023-12-15",
+        "2023-12-22",
+        "2023-12-29",
+        "2024-01-05",
+        "2024-01-12",
+        "2024-01-20",
+        "2024-01-25",
+        "2024-02-02",
+        "2024-02-09",
+        "2024-02-16",
+        "2024-02-23",
+        "2024-03-02",
+        "2024-03-07",
+        "2024-03-15",
+        "2024-03-22",
+        "2024-03-28",
+        "2024-04-05",
+        "2024-04-12",
+        "2024-04-19",
+        "2024-04-26",
+        "2024-05-03",
+        "2024-05-10",
+        "2024-05-18",
+        "2024-05-24",
+        "2024-05-31",
+        "2024-06-07",
+        "2024-06-14",
+        "2024-06-21",
+        "2024-06-28",
+        "2024-07-05",
+        "2024-07-12",
+        "2024-07-19",
+        "2024-07-26",
+        "2024-08-02",
+        "2024-08-09",
+        "2024-08-16",
+        "2024-08-23",
+        "2024-08-30",
+        "2024-09-06",
+        "2024-09-13",
+        "2024-09-20",
+        "2024-09-27",
+        "2024-10-04",
+        "2024-10-11",
+        "2024-10-18",
+        "2024-10-25",
+        "2024-11-01",
+        "2024-11-08",
+        "2024-11-14",
+        "2024-11-22",
+        "2024-11-29",
+        "2024-12-06",
+        "2024-12-13",
+        "2024-12-20",
+        "2024-12-27",
+        "2025-01-03",
+        "2025-01-10",
+        "2025-01-17",
+        "2025-01-24",
+        "2025-02-01",
+        "2025-02-07",
+        "2025-02-14",
+        "2025-02-21",
+        "2025-02-28",
+        "2025-03-07",
+        "2025-03-13",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-04",
+        "2025-04-11",
+        "2025-04-17",
+        "2025-04-25",
+        "2025-05-02",
+        "2025-05-09",
+        "2025-05-16",
+        "2025-05-23",
+        "2025-05-30",
+        "2025-06-06",
+        "2025-06-13",
+        "2025-06-20",
+        "2025-06-27",
+        "2025-07-04",
+        "2025-07-11",
+        "2025-07-18",
+        "2025-07-25",
+        "2025-08-01",
+        "2025-08-08",
+        "2025-08-14",
+        "2025-08-22",
+        "2025-08-29",
+        "2025-09-05",
+        "2025-09-12",
+        "2025-09-19",
+        "2025-09-26",
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          32.1,
+          35.1,
+          36.2,
+          35.3,
+          34.5,
+          33.5,
+          31,
+          30.8,
+          31.6,
+          31.8,
+          32.1,
+          29.8,
+          33.7,
+          34.8,
+          36.6,
+          39.6,
+          40,
+          38.3,
+          39.4,
+          38.8,
+          38.7,
+          39.7,
+          40.6,
+          45.2,
+          43.1,
+          42.7,
+          43.4,
+          43.2,
+          44,
+          42.5,
+          41.8,
+          40.2,
+          41.2,
+          41,
+          39.6,
+          41.8,
+          41.7,
+          40.9,
+          38.8,
+          40.5,
+          38.3,
+          36.1,
+          35.6,
+          35.6,
+          36.4,
+          37.3,
+          35.3,
+          34.6,
+          34.5,
+          34.1,
+          32.1,
+          33.1,
+          33.5,
+          37.4,
+          37.1,
+          37,
+          39.4,
+          39.3,
+          40.9,
+          40.3,
+          41.2,
+          42.7,
+          42.6,
+          42.3,
+          41.4,
+          42.3,
+          42.7,
+          42.5,
+          42.4,
+          43.1,
+          44.3,
+          43.4,
+          43.6,
+          43.7,
+          48.3,
+          48.9,
+          48.1,
+          46.7,
+          47.2,
+          45.4,
+          45.4,
+          46.2,
+          44.8,
+          42.7,
+          43.7,
+          43.6,
+          44.1,
+          44.9,
+          45.4,
+          44.6,
+          45,
+          45.2,
+          48.1,
+          46.2,
+          45.9,
+          44.6,
+          50.8,
+          50.5,
+          53,
+          51.5,
+          52.3,
+          49.6,
+          45.7,
+          46.8,
+          48.4,
+          49.9,
+          49.4,
+          49.8,
+          49.3,
+          48.5,
+          47.9,
+          49.1,
+          48.3,
+          48,
+          48.2,
+          52.4,
+          54,
+          53.4,
+          52.1,
+          52.5,
+          51.5,
+          53.3,
+          51.8,
+          50.5,
+          50,
+          50.2,
+          49.9,
+          49.6,
+          49.3,
+          49.1,
+          51.4,
+          47.8,
+          46.8,
+          45.5,
+          44.3,
+          45.4,
+          45.4,
+          43.2,
+          43.9,
+          45.4,
+          44.7,
+          45.3,
+          42.5,
+          41.4,
+          42.2,
+          39.8,
+          40.1,
+          39,
+          40.2,
+          39.4,
+          35.4,
+          34.8,
+          33.3,
+          37.3,
+          36,
+          38.5,
+          37,
+          34,
+          34.9,
+          34.8,
+          36.7,
+          37,
+          37.6,
+          38.3,
+          38.3,
+          38.2,
+          39.9,
+          40.5,
+          39.5,
+          39.7,
+          39.8,
+          41.9,
+          43.1,
+          40.1,
+          37.1,
+          38.7,
+          37.4,
+          41.3,
+          41.1,
+          44.7,
+          49.6,
+          48,
+          46.4,
+          45.3,
+          44,
+          45.4,
+          46.6,
+          46.7,
+          46.3,
+          47.5,
+          47.9,
+          45.2,
+          45.1,
+          45.5,
+          47.2,
+          44.7,
+          49.4,
+          47.4,
+          44.9,
+          42.6,
+          41.9,
+          42.5,
+          42.4,
+          42.5,
+          42.8,
+          40.9,
+          38.7,
+          36.6,
+          37.5,
+          28.5,
+          30.3,
+          30.4,
+          30.7,
+          31.2,
+          32.7,
+          30.8,
+          30.5,
+          30,
+          29.7,
+          28.3,
+          29.3,
+          31.7,
+          31.8,
+          30.9,
+          31,
+          30.9,
+          31.2,
+          31.7,
+          31,
+          29.5,
+          29,
+          28.1,
+          27.9,
+          27.4,
+          26.4,
+          26.2
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 38.5,
+         "text": "Our multiple: 38.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in weekly prices and EPS; GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (post-Q1 notes)",
+       "unit": "₹ per share; CMP ₹34.07",
+       "x": [
+        "Motilal Oswal (4-Aug)",
+        "Choice Institutional (5-Aug)",
+        "Emkay Global (5-Aug)",
+        "ICICI Securities (5-Aug)",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          48,
+          44,
+          50,
+          50,
+          54
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "MOSL (4-Aug-2026), Choice, Emkay and ICICI Securities (5-Aug-2026); median ₹49; GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What MSWIL does",
+   "kicker": "The business",
+   "title": "One product, one country: wiring harnesses for Indian vehicles, 64% for cars",
+   "blocks": [
+    {
+     "p": "A wiring harness is the bundle of wires, terminals, connectors, junction boxes, tubes and clips that carries power and signals to every electrical part of a vehicle. Each one is designed for a single model and assembled largely by hand, which makes the business labour-intensive (staff cost is 16-17% of revenue), and MSWIL places its plants next to its customers' factories. MSWIL makes them for Indian vehicle makers only (exports are negligible) in 30 plants across 16 states + 3 union territories, with 6,463 permanent employees and ~21,156 associates on the shop floor (60,000+ people including contract labour, per the company). By vehicle, FY26 revenue was 64% passenger vehicles (61% in FY25), 10% commercial vehicles, 12% two-wheelers, 6% tractors and off-road machines and 8% other (mostly components). EV programmes were 6.6% of FY26 revenue and 8.5% in Q1FY27. It supplies 9 of India's 10 best-selling car models; the exception (Hyundai and Kia) is served by a different SAMIL joint venture."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "MSWIL at a glance, FY26",
+      "head": [
+       "Item",
+       "FY26",
+       "Comment"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Revenue",
+        "₹11,478 cr (+23%)",
+        "Crossed ₹10,000 cr for the first time; ~₹1,040 cr from the new greenfield plants"
+       ],
+       [
+        "EBITDA",
+        "₹1,061 cr (9.2%)",
+        "11.4% excluding ₹127 cr of greenfield start-up losses"
+       ],
+       [
+        "Net profit / EPS",
+        "₹625 cr / ₹0.94",
+        "+3%: copper lag and start-up costs absorbed the revenue growth"
+       ],
+       [
+        "Largest customer",
+        "41% of revenue",
+        "Not named; Maruti Suzuki per Emkay. Second customer 16% (12% in FY25)"
+       ],
+       [
+        "Purchases from JV partners",
+        "₹5,243 cr",
+        "~65% of raw-material purchases (SAMIL ₹4,440 cr, Sumitomo ₹826 cr)"
+       ],
+       [
+        "Fees to JV partners",
+        "₹276 cr",
+        "Royalty ₹61 cr (SWS), management fee ₹61 cr and support services ₹151 cr (SAMIL): 2.4% of revenue"
+       ],
+       [
+        "ROCE (Screener)",
+        "39%",
+        "48% in FY24; capital-light assembly"
+       ]
+      ],
+      "source": "AR FY26 (MD&A, notes 26, 31, 34; AGM notice); Q4FY26 presentation"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Cars are 64% of revenue",
+       "unit": "Share of FY26 revenue (%)",
+       "x": [
+        "Passenger vehicles",
+        "Two-wheelers",
+        "Commercial vehicles",
+        "Others",
+        "Off-road and tractors"
+       ],
+       "series": [
+        {
+         "name": "FY26",
+         "values": [
+          64,
+          12,
+          10,
+          8,
+          6
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 presentation p6"
+      },
+      {
+       "type": "column",
+       "title": "Customer 1 bought 41% of FY26 output; Customer 2 16%",
+       "unit": "Share of revenue (%)",
+       "x": [
+        "Customer 1 FY25",
+        "Customer 1 FY26",
+        "Customer 2 FY25",
+        "Customer 2 FY26"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          39.1,
+          41.1,
+          12.3,
+          16
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26 note 34 (customers with 10% or more of revenue; not named)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "Carved out of Motherson in 2022 to keep the Sumitomo partnership in India; two bonus issues since",
+   "blocks": [
+    {
+     "p": "Wiring harnesses are where the Motherson group began: Motherson Sumi Systems (MSSL) was formed with Sumitomo Wiring Systems in 1986, and the domestic harness business stayed its core as MSSL grew into a global supplier of mirrors, bumpers and modules. In 2021-22 the group reorganised. The domestic wiring-harness business (DWH) was moved into a new company, MSWIL, with an appointed date of 1-Apr-2021, and every MSSL shareholder received one MSWIL share for each MSSL share (19-Jan-2022). MSWIL listed on 28-Mar-2022. The result: Sumitomo keeps 25% of the Indian harness business directly, and SAMIL keeps 33%. Since then the share count has risen only through bonus issues (2:5 in Nov-2022, 1:2 in Jul-2025), so per-share figures are comparable once adjusted; no new money has been raised."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Milestones and corporate actions",
+      "head": [
+       "When",
+       "What"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1986",
+        "Motherson Sumi Systems (MSSL) formed as a JV of the Sehgal family and Sumitomo Wiring Systems to make wiring harnesses in India"
+       ],
+       [
+        "2-Jul-2020",
+        "MSWIL incorporated as a wholly owned subsidiary of SAMIL (then MSSL)"
+       ],
+       [
+        "1-Apr-2021",
+        "Appointed date: SAMIL's domestic wiring-harness (DWH) business demerged into MSWIL; FY21 DWH revenue ₹3,938 cr"
+       ],
+       [
+        "22-Dec-2021 / 5-Jan-2022",
+        "NCLT approval; demerger effective"
+       ],
+       [
+        "19-Jan-2022",
+        "SAMIL shareholders receive one MSWIL share for each SAMIL share (record date 17-Jan-2022)"
+       ],
+       [
+        "28-Mar-2022",
+        "Listed on NSE and BSE"
+       ],
+       [
+        "18-Nov-2022",
+        "Bonus issue 2:5 (126.3 cr shares); share count 315.8 cr to 442.1 cr"
+       ],
+       [
+        "FY24-FY26",
+        "Three greenfields (Kharkhoda, Navagam, Pune) plus Pathredi and Chennai; greenfield revenue ₹1,040 cr in FY26"
+       ],
+       [
+        "21-Jul-2025",
+        "Bonus issue 1:2 (221.1 cr shares); share count 663.2 cr"
+       ],
+       [
+        "28-Feb-2026",
+        "ESOP 2025 approved: up to 1.55 cr options, shares bought in the market through a trust (no dilution)"
+       ],
+       [
+        "FY26",
+        "Revenue crosses ₹10,000 cr (₹11,478 cr, +23%)"
+       ]
+      ],
+      "source": "AR FY22 (demerger), AR FY23 (bonus Nov-2022), AR FY26 notes 11 and 46, q4deck; Screener price history (first trade 28-Mar-2022)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Corporate actions and what they did to the numbers",
+      "head": [
+       "When",
+       "Action",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "FY22",
+        "Demerger and listing",
+        "FY22 is MSWIL's first year; ₹65 cr (₹46 cr after tax) exceptional charge for its share of the costs of the reorganisation scheme; a ₹33.5 cr management fee to SAMIL from the appointed date"
+       ],
+       [
+        "Nov-2022",
+        "Bonus 2:5",
+        "Shares 315.8 cr → 442.1 cr; EPS restated (Screener shows all years on today's 663.2 cr shares)"
+       ],
+       [
+        "Jul-2025",
+        "Bonus 1:2",
+        "Shares 442.1 cr → 663.2 cr; the stock price fell by a third on the ex-date, value unchanged"
+       ],
+       [
+        "Feb-2026",
+        "ESOP 2025 (up to 1.55 cr options)",
+        "Shares bought in the market through a trust: no dilution, but a cash cost and a P&L charge"
+       ],
+       [
+        "FY25-27",
+        "Greenfield plants (Kharkhoda, Navagam, Pune; Pathredi and Chennai)",
+        "Start-up losses ₹122 cr (FY25) and ₹127 cr (FY26); ~₹450 cr of quarterly revenue by Q1FY27"
+       ]
+      ],
+      "source": "AR FY22, AR FY23, AR FY26 notes 11 and 46; Q4FY26 presentation"
+     }
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Indian car production +9.4% in FY26 and a GST-led jump in Q1FY27; content per car keeps rising",
+   "blocks": [
+    {
+     "p": "India produced 5.54 mn passenger vehicles in FY26 (+9.4% from 5.06 mn) and 1.17 mn commercial vehicles (+13.1%), per the annual report. Lower GST rates on cars from September 2025 lifted the second half, and industry passenger-vehicle volumes rose 17% in Q1FY27. From Q3FY27 the comparison base includes the GST boost, so volume growth should slow. Harness value grows faster than volumes: SUVs keep taking share, every new model carries more electronics (screens, cameras, sensors, connected features), and electric and hybrid cars need high-voltage harnesses on top of the low-voltage ones. Copper is the swing factor: it makes up 24-28% of MSWIL's cost of goods (CFO, Q4 call) and averaged ₹1,348/kg in Q1FY27, 53% above a year earlier."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What drives harness demand beyond vehicle volumes",
+      "head": [
+       "Driver",
+       "Evidence (to Aug-2026)",
+       "What it means for MSWIL"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "GST rate cuts on cars (Sep-2025)",
+        "AR FY26 cites GST rationalisation supporting affordability; PV industry +17% in Q1FY27 (q1deck)",
+        "Volume tailwind for FY27; a high base from H2FY27"
+       ],
+       [
+        "Feature content and premiumisation",
+        "SUVs keep gaining share (AR FY26); management: 'content rise has been there to a very high extent' (Q1 call)",
+        "Harness value per car rises faster than volumes"
+       ],
+       [
+        "Electrification and hybrids",
+        "EV programmes 8.5% of MSWIL revenue in Q1FY27 vs 6.6% in FY26; EV content 1.5-1.7x an ICE car (JM Financial citing management)",
+        "Higher content; high-voltage harnesses"
+       ],
+       [
+        "Copper",
+        "Average copper ₹1,348/kg in Q1FY27, +53% YoY, +7% QoQ (q1deck); copper is 24-28% of cost of goods (Q4 call)",
+        "Passed through at cost with a 3-6 month lag: inflates revenue, squeezes the margin percentage"
+       ],
+       [
+        "Labour cost",
+        "NCR minimum wages +35-40% in 2026 (Q1 call); harness assembly is labour-intensive (employee cost 17-18% of revenue)",
+        "Margin hit until customers agree to compensate"
+       ],
+       [
+        "New vehicle architectures (zonal, 48V)",
+        "Not yet seen in India; 'we have not seen de-contenting' (Q1 call)",
+        "Long-term risk to harness length and weight"
+       ]
+      ],
+      "source": "AR FY26 MD&A p66-67 (SIAM production); q4deck p2 and q1deck p2 (industry volumes as stated by the company); Q1FY27 call; JM Financial (28-Apr-2026)"
+     }
+    },
+    {
+     "callout": "**Our read:** demand is strong and content growth is structural, but MSWIL captures it as revenue more easily than as profit. The harness is an assembly business with pass-through raw materials: when copper or connectors get dearer, revenue rises and the margin percentage falls. The long-term threat, simpler zonal architectures that cut harness length, is real abroad but not yet visible in India."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Does the tailwind reach the company?",
+   "title": "Tailwind test: yes, with room to spare; it reaches revenue faster than profit",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "MSWIL growth vs its market",
+      "head": [
+       "Period",
+       "Market growth",
+       "MSWIL growth",
+       "Outperformance"
+      ],
+      "rows": [
+       [
+        "FY26",
+        "PV production +9.4%; CV +13.1%",
+        "Revenue +23.2%; existing plants +15%",
+        "~+6 to +14 points"
+       ],
+       [
+        "Q4FY26",
+        "PV industry +11%",
+        "Revenue +32.9% (~+28% ex copper); existing plants +21%",
+        "~+17 points ex copper"
+       ],
+       [
+        "Q1FY27",
+        "PV industry +17%",
+        "Revenue +36.6% (~+30% ex copper); existing plants +26%",
+        "~+13 points ex copper"
+       ],
+       [
+        "FY26 profit",
+        "Volumes up ~9-13%",
+        "EBITDA +6%; net profit +3%",
+        "Negative: margins absorbed the growth"
+       ]
+      ],
+      "source": "AR FY26; Q4FY26 and Q1FY27 presentations and calls; Emkay Exhibit 4 (existing plants)"
+     }
+    },
+    {
+     "bullets": [
+      "**Volumes and content reach MSWIL in full.** Existing plants alone grew 15% in FY26 and 26% in Q1FY27, ahead of car production; Emkay shows MSWIL outgrowing Maruti Suzuki's volumes in every quarter.",
+      "**Part of the growth is copper.** About 5 points of Q4FY26 growth and 7 points of Q1FY27 growth were higher copper prices passed on at cost.",
+      "**Profit did not follow.** FY26 EBITDA rose 6% on 23% more revenue. The tailwind reaches MSWIL's top line; whether it reaches shareholders depends on copper resets, wage recovery and the greenfields turning profitable."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "greenfields",
+   "nav": "The greenfields",
+   "kicker": "New plants",
+   "title": "Three new plants sell ~₹450 cr a quarter and have just reached breakeven; Pune is half empty",
+   "blocks": [
+    {
+     "p": "MSWIL built its first new plants since the demerger in FY25-26 to follow customers' new capacity: Kharkhoda in Haryana (combustion-engine cars, ~80% utilised), Navagam in Gujarat (EV and petrol, ~60%, a new model started in Q4FY26) and Pune (EV and petrol, ~50% because a customer postponed a launch). Two smaller sites followed: Pathredi (EV and petrol, production from Q4FY26) and Chennai (EV, volumes delayed). Together they sold ₹1,040 cr in FY26 and ~₹450 cr a quarter by Q4FY26-Q1FY27, against capacity of ~₹2,000 cr a year. Start-up losses were ₹122 cr in FY25 and ₹127 cr in FY26 (1.1 points of margin), falling to ~₹14 cr in Q4FY26. Management says the plants were at breakeven in Q4 \"if you just remove the copper... lag impact\" and will contribute to profit \"in one or two quarters\". The existing plants run at ~80%, the level at which MSWIL starts building again."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Greenfield revenue: ₹5 cr in Q1FY25, ₹452 cr in Q1FY27",
+       "unit": "Greenfield revenue (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Greenfield revenue",
+         "values": [
+          4.8,
+          54.4,
+          80,
+          119,
+          156,
+          189.9,
+          250.1,
+          442.6,
+          451.5
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company decks; Emkay Exhibit 4 (Q1FY27 = Emkay estimate)"
+      },
+      {
+       "type": "column",
+       "title": "Start-up losses shrinking: −₹46 cr in Q2FY26, −₹14 cr in Q4FY26",
+       "unit": "Greenfield EBITDA (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Greenfield EBITDA",
+         "values": [
+          -17.2,
+          -38.7,
+          -40,
+          -26,
+          -30.7,
+          -46.3,
+          -36.7,
+          -13.9,
+          -13.5
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company decks; Emkay Exhibit 4 (Q1FY27 = Emkay estimate)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The new plants (status at Aug-2026)",
+      "head": [
+       "Plant",
+       "Powertrain",
+       "Status",
+       "Utilisation"
+      ],
+      "rows": [
+       [
+        "Kharkhoda (Haryana)",
+        "Petrol/diesel",
+        "Operating, as planned",
+        "~80%"
+       ],
+       [
+        "Navagam (Gujarat)",
+        "EV + petrol",
+        "Ramping up; new model from Q4FY26",
+        "~60%"
+       ],
+       [
+        "Pune (Maharashtra)",
+        "EV + petrol",
+        "Customer volumes below plan (launch postponed)",
+        "~40-50%"
+       ],
+       [
+        "Pathredi",
+        "EV + petrol",
+        "Production from Q4FY26",
+        "n.d."
+       ],
+       [
+        "Chennai (Tamil Nadu)",
+        "EV",
+        "Customer volumes delayed",
+        "n.d."
+       ]
+      ],
+      "source": "Q4FY26 presentation p5; Q4FY26 call (28-Apr-2026); Q1FY27 call (4-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Our view:** the greenfields are the cleanest source of margin recovery: going from a ₹127 cr loss to breakeven adds ~1 point of margin on FY26 revenue. We assume greenfield revenue of ₹{{as.lineBuild.greenfield.0|num}} / {{as.lineBuild.greenfield.1|num}} / {{as.lineBuild.greenfield.2|num}} cr. The risk is Pune: a plant built for one customer's model sits half empty until that model arrives or a new customer is found (\"it might... slow down maybe for a quarter or 2\", Q4 call)."
+    }
+   ]
+  },
+  {
+   "id": "margins",
+   "nav": "Copper, wages & margins",
+   "kicker": "Margins",
+   "title": "Copper, wages and the arithmetic of pass-through: why 13% margins are not coming back",
+   "blocks": [
+    {
+     "p": "Three things took the EBITDA margin from 10.9% in Q1FY25 to 7.6% in Q1FY27. **Copper**: it is 24-28% of cost of goods and is passed to customers at cost, but with a lag: most customers reset prices every three months, a few every six. Copper rose from ₹883/kg in Q1FY26 to ₹1,348/kg in Q1FY27, so MSWIL kept paying today's price while billing yesterday's; the CFO put the Q4FY26 hit at \"2% to 2.5% on the bottom line\". Raw materials rose to 70.0% of revenue in Q4FY26 and 69.0% in Q1FY27. **Wages**: minimum wages in the NCR region, where many plants are, rose 35-40% in 2026, \"much higher than what would have been anticipated\"; employee cost jumped to ₹602 cr in Q1FY27 (+26.4% year on year). Recovery is \"constructive discussions\" with no timeline. **Greenfields**: covered in the previous chapter."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Raw materials up from 65% to 69-70% of revenue",
+       "unit": "% of revenue",
+       "x": [
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Materials",
+         "values": [
+          65,
+          65,
+          66,
+          65,
+          66,
+          68,
+          70,
+          69
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 60,
+       "max": 72,
+       "source": "Quarterly results (Screener.in cost split)"
+      },
+      {
+       "type": "line",
+       "title": "Staff cost: 15.5% of revenue in Q4FY26, 17.7% in Q1FY27",
+       "unit": "% of revenue",
+       "x": [
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Employee cost",
+         "values": [
+          17,
+          18,
+          17,
+          19,
+          17,
+          17,
+          16,
+          18
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 22,
+       "source": "Quarterly results (Screener.in cost split); Q1 carries the annual wage revision"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The pass-through arithmetic: copper alone lowers the margin even when fully recovered",
+      "head": [
+       "",
+       "Before",
+       "Copper +50%, fully passed on",
+       "Change"
+      ],
+      "rows": [
+       [
+        "Revenue",
+        "100.0",
+        "111.7",
+        "+12%"
+       ],
+       [
+        "Copper cost (26% of costs)",
+        "23.4",
+        "35.1",
+        "+50%"
+       ],
+       [
+        "Other costs",
+        "66.6",
+        "66.6",
+        "–"
+       ],
+       [
+        "EBITDA",
+        "10.0",
+        "10.0",
+        "unchanged in rupees"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**EBITDA margin**",
+         "**10.0%**",
+         "**9.0%**",
+         "**−1.0 point**"
+        ]
+       }
+      ],
+      "source": "GAM illustration using the CFO's 24-28% copper share of cost (Q4FY26 call). With a lag, the margin first falls further, then recovers to the lower level."
+     }
+    },
+    {
+     "callout": "**What we assume:** Q2-Q4 FY27 at ~8.5% as the copper lag unwinds and greenfields turn positive, the wage increase recovered only partly and late: FY27E {{as.ebitdaMargin.0|pct}}, FY28E {{as.ebitdaMargin.1|pct}}, FY29E {{as.ebitdaMargin.2|pct}}. Brokers assume 8.9-9.5% for FY27 and 9.5-10.5% for FY28. Management's own frame is ROCE (\"idea is to have it more than 40%\"), not margin, which tells you where the bargaining with customers ends: a fair return on capital, not a fixed share of revenue."
+    }
+   ]
+  },
+  {
+   "id": "jv",
+   "nav": "The JV & related parties",
+   "kicker": "Structure",
+   "title": "Two partners, two tolls: 65% of purchases and 2.4% of revenue in fees go to SAMIL and Sumitomo",
+   "blocks": [
+    {
+     "p": "MSWIL's two promoters are also its biggest suppliers. In FY26 it bought ₹4,440 cr of wires, terminals, connectors, tubes and EV components from SAMIL and ₹826 cr of child parts from Sumitomo: ₹5,243 cr, ~65% of its ₹8,099 cr of raw-material purchases (FY25: ₹3,887 cr). On top, it pays Sumitomo a royalty for technology (₹60.9 cr; ₹47.5 cr in FY24) and SAMIL a management fee set equal to that royalty (₹60.9 cr), plus ₹151 cr for SAMIL's \"functional support services\" and ~₹100 cr of rent and deposits for plants SAMIL owns. The fees alone were ₹276 cr, 2.4% of revenue and 26% of EBITDA. For FY27 shareholders were asked (Jul-2026 AGM) to approve up to ₹8,592 cr of dealings with SAMIL and ₹1,015 cr with Sumitomo, including ₹75 cr each of royalty and management fee and a new ₹700 cr sale of copper wire to SAMIL."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What flows to the JV partners (₹ crore)",
+      "head": [
+       "Item",
+       "FY25",
+       "FY26",
+       "FY27 approved (ceiling)",
+       "Who"
+      ],
+      "rows": [
+       [
+        "Purchases of materials and capital goods",
+        "3,887",
+        "5,243",
+        "8,195",
+        "SAMIL and Sumitomo"
+       ],
+       [
+        "Royalty (technology)",
+        "54.5",
+        "60.9",
+        75,
+        "Sumitomo Wiring Systems"
+       ],
+       [
+        "Management fee (= royalty)",
+        "54.5",
+        "60.9",
+        75,
+        "SAMIL"
+       ],
+       [
+        "Functional support services",
+        "n.d.",
+        151,
+        "198",
+        "SAMIL"
+       ],
+       [
+        "Leases and deposits",
+        "n.d.",
+        "~100",
+        "115",
+        "SAMIL"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Fees as % of revenue**",
+         "",
+         "**2.4%**",
+         "",
+         "Royalty + management fee + support + design"
+        ]
+       },
+       [
+        "Memo: payables to the JV partners at year-end",
+        "641",
+        "1,108",
+        "",
+        "They fund part of the working capital"
+       ]
+      ],
+      "source": "AR FY26 notes 26 and 31; AGM notice (material related-party transactions for FY2026-27)"
+     }
+    },
+    {
+     "bullets": [
+      "**Why it exists:** the partners bring real things: Sumitomo's harness technology and design tools, SAMIL's in-house wires, connectors and terminals, and their joint relationships with Japanese and Indian carmakers. The annual report states that sales and purchases are at list prices available to third parties.",
+      "**Why it matters:** a minority shareholder in MSWIL owns the assembly margin; the component margin stays with SAMIL (which owns 33% of MSWIL) and Sumitomo. As MSWIL grows, so do the partners' sales to it and the fees, which rise with revenue.",
+      "**Customer allocation:** Hyundai and Kia are served by a different SAMIL joint venture (Q4FY26 presentation), not by MSWIL. The group decides which listed or unlisted entity serves which customer."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: incumbency and scale in Indian harnesses, but no pricing power",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Incumbency on customer programmes",
+       "Strong",
+       "Supplies 9 of India's 10 best-selling car models (FY26); a harness is designed for one model and is re-sourced only when a new model comes",
+       "Hard to dislodge during a model's life; share is won or lost at each new model"
+      ],
+      [
+       "Scale and footprint",
+       "Strong",
+       "Over 40% of the Indian harness market (company, via Screener profile); 30 plants placed next to customers; 'we don't set up plants without firm orders'",
+       "Proximity and scale lower logistics cost and win the next programme"
+      ],
+      [
+       "Technology and design (via Sumitomo)",
+       "Strong, but rented",
+       "SWS supplies technology and child parts for a royalty (₹61 cr in FY26); MSWIL is design partner for a Japanese OEM's future models",
+       "A real technical edge, but paid for every year and owned by the partner"
+      ],
+      [
+       "Vertical integration (via SAMIL)",
+       "Medium",
+       "Wires, terminals and connectors come from SAMIL: reliable supply, but the margin on those parts stays with SAMIL",
+       "Supply security, but part of the chain's profit stays with SAMIL"
+      ],
+      [
+       "Pricing power",
+       "Weak",
+       "Copper, currency and customer-nominated parts are passed through at cost, late; wage increases need negotiation; Customer 1 is 41% of revenue",
+       "The biggest weakness: margins move with copper, wages and the customer's willingness to pay"
+      ],
+      [
+       "Returns on capital",
+       "Strong",
+       "ROCE 39-48% (Screener, FY23-26) because assembly needs little fixed capital and suppliers fund much of the working capital",
+       "Turns a thin margin into high returns; the reason the stock has traded at 40x+"
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (annual report, presentations and calls to Aug-2026; broker notes)"
+    },
+    {
+     "callout": "**Verdict: a real but narrow moat.** MSWIL is the incumbent supplier on most of India's best-selling cars, with Sumitomo's technology and plants next to every major customer; a harness is chosen for each model, so the incumbent keeps the business for that model's life. That shows up in growth well above the market and ROCE near 40%. But it has no pricing power: copper and parts are passed through, labour costs must be negotiated, and one customer takes 41% of output. Part of the value it creates is captured by its two partners. It is a high-return toll on Indian car production, not a franchise that sets its own prices."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue doubled in four years; the EBITDA margin fell from 13% to 9%, so profit grew only half as fast",
+   "blocks": [
+    {
+     "p": "MSWIL's revenue was ₹5,635 cr in FY22, its first year as a separate company, and ₹11,478 cr in FY26: 19% a year (the demerged business had ₹3,938 cr in FY21). Net profit rose from ₹411 cr (₹457 cr before its share of the reorganisation-scheme costs) to ₹625 cr: 11% a year on the reported figure, 8% on the clean one. The difference is the margin. EBITDA was 13.0% of revenue in FY22 and 9.2% in FY26, for three reasons: copper prices rose and are passed on at cost (more revenue, no more profit); the new greenfield plants lost ₹122-127 cr a year in FY25-26 while they ramped up; and wages rose faster than the price customers pay for assembly. Depreciation doubled (₹106 cr to ₹216 cr) as new plants, mostly leased from SAMIL, came in."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: ₹5,635 cr in FY22, ₹11,478 cr in FY26",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (standalone), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit: +11% a year, flat for three years",
+       "unit": "Net profit (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (standalone), GAM Research. FY22 after a ₹46 cr (post-tax) charge for reorganisation-scheme costs."
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 13% in FY22, 9.2% in FY26",
+       "unit": "EBITDA margin (%)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 6,
+       "max": 14,
+       "source": "Company filings, Screener.in (standalone), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Raw materials rose to 67% of revenue; staff cost stays at 16-17%",
+       "unit": "% of revenue",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Materials",
+         "ref": "A.materialPct",
+         "fmt": "pct0"
+        },
+        {
+         "name": "Employees",
+         "ref": "A.employeePct",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in cost split"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** MSWIL is a high-return assembler, not a high-margin one. Each rupee of fixed assets turns over ~15 times a year, so even a 9% margin gives ROCE near 40%. What has gone wrong is the margin, and most of that is either timing (copper lag, greenfield start-up) or permanent arithmetic (copper at a higher price inflates revenue). The part that is a real cost, wages, depends on how much customers agree to pay."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: revenue +37%, EBITDA +6%, profit +2%: copper and wages ate the growth",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q4FY26",
+       "Q1FY27",
+       "Change YoY"
+      ],
+      "rows": [
+       [
+        "Revenue",
+        "2,494",
+        "3,335",
+        "3,407",
+        "+36.6%"
+       ],
+       [
+        "EBITDA",
+        "244",
+        "274",
+        "258",
+        "+5.7%"
+       ],
+       [
+        "EBITDA margin",
+        "9.8%",
+        "8.2%",
+        "7.6%",
+        "-221bp"
+       ],
+       [
+        "Raw materials, % of revenue",
+        "64.7%",
+        "70.5%",
+        "69.1%",
+        "+440bp"
+       ],
+       [
+        "Employee cost, % of revenue",
+        "19.1%",
+        "15.5%",
+        "17.7%",
+        "−140bp (+26% in rupees)"
+       ],
+       [
+        "Depreciation",
+        "49",
+        "57",
+        "60",
+        "+22.4%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net profit**",
+         "**143**",
+         "**167**",
+         "**145**",
+         "**+1.4%**"
+        ]
+       },
+       [
+        "Greenfield revenue (estimate)",
+        "156",
+        "443",
+        "~452",
+        "+189%"
+       ]
+      ],
+      "source": "Screener.in (as reported, 4-Aug-2026); Choice and MOSL Q1FY27 notes (cost ratios); Emkay Exhibit 4 (greenfield split)"
+     }
+    },
+    {
+     "bullets": [
+      "**Revenue +36.6%:** about 7 points from copper, the rest volumes, content, premium models and new programmes; existing plants +26%. EV programmes 8.5% of revenue. Industry passenger-vehicle volumes +17%.",
+      "**Margin 7.6%:** copper rose another 7% quarter on quarter (₹1,348/kg), so the lag still hurt, though less than in Q4 (7% vs 17% sequential rise); the NCR wage increase (35-40%) is fully in the quarter's numbers.",
+      "**Balance sheet:** external debt ₹61 cr and cash ₹21 cr at Jun-2026 (net debt ₹40 cr before ₹199 cr of leases), after ₹56 cr of net cash at Mar-2026: working capital absorbed the copper increase."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (Apr-2026 to Aug-2026)",
+      "head": [
+       "Topic",
+       "What was said"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Copper",
+        "Pass-through with a 3-6 month lag; most customers on a three-month reset, a few on six months; currency also passed through back-to-back. Discussions to shorten the lag ('that's the direction'), no change by Aug-2026."
+       ],
+       [
+        "Wages",
+        "Minimum wages in the NCR region rose 35-40% (unanticipated); fully in Q1FY27 numbers; recovery from customers under negotiation, no timeline ('nobody can predict exactly the timeline')."
+       ],
+       [
+        "Greenfields",
+        "Three greenfields (Kharkhoda ICE ~80%, Navagam/Gujarat EV+ICE ~60%, Pune EV+ICE ~50%: a customer postponed a model) run at ~₹450 cr a quarter, breakeven ex copper lag; ~₹2,000 cr a year at full capacity; to contribute to profit 'in one or two quarters' (Q1 call). Pathredi (EV+ICE) SOP Q4FY26; Chennai (EV) volumes delayed."
+       ],
+       [
+        "Margin",
+        "No margin guidance: 'we are a ROCE-focused company, idea is to have it more than 40%' (COO, Q1 call). After cost recovery 'the ratio becomes a bit different' (denominator effect), then improve via localisation (Q1 call)."
+       ],
+       [
+        "Capex",
+        "FY27 capex ~₹200 cr, similar to FY26 (Q4 call); funded from internal accruals (Q1 call). Mix: new capacity for customers' expansions, automation and digitisation, replacement."
+       ],
+       [
+        "Expansion",
+        "Existing plants ~80% utilised; policy is to expand at 80%, only against firm customer orders. 'In the next few quarters, you will hear us for that [new expansion plans]' (COO, Q1 call)."
+       ],
+       [
+        "New architectures",
+        "Zonal/48V architectures: no de-contenting seen in India; content keeps rising with features; MSWIL is design partner for future models of a Japanese OEM (Q1 call)."
+       ]
+      ],
+      "source": "Q4FY26 call (28-Apr-2026); Q1FY27 presentation and call (4-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Why it matters:** management gives no margin guidance and would not quantify how much of the wage increase customers will pay (\"it's a matter which is between us and the customer\"). Our FY27E margin of {{as.ebitdaMargin.0|pct}} needs ~8.5% in Q2-Q4: the copper lag closing and the greenfields turning positive, with little wage recovery. If customers pay for the wages too, FY27-28 margins would be ~0.5-1 point higher than we model."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "Little capital needed: ₹784 cr of capex in five years, ₹1,283 cr paid out as dividends",
+   "blocks": [
+    {
+     "p": "Over FY22-26 MSWIL generated ₹2,642 cr of operating cash, spent ₹784 cr on capex and paid ₹1,283 cr of dividends (55-65% of profit). Capex is small because most buildings are leased (largely from SAMIL; lease liabilities ₹223 cr at Mar-2026) and harness assembly needs jigs, test boards and crimping machines rather than heavy plant. FY26 capex of ₹201 cr went ₹126 cr to greenfields and ₹75 cr to existing plants; FY27 is guided at ~₹200 cr from internal cash. Operating cash swings with working capital: ₹761 cr in FY26 but ₹365 cr in FY25. Returns stay very high: ROCE 39-48% in FY23-26 on Screener's basis (88% in FY22 on a part-year balance sheet)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash covers capex several times over",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY22",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        },
+        {
+         "name": "Dividends paid",
+         "ref": "A.dividendsPaid",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (standalone), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 44-48% in FY23-24, 39% in FY26",
+       "unit": "Return on capital employed (%), Screener basis",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          44,
+          48,
+          43,
+          39
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 60,
+       "source": "Screener.in (FY22 omitted: part-year capital base after the demerger)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went, FY22-FY26 (₹ crore)",
+      "head": [
+       "",
+       "Five years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "2,642"
+       ],
+       [
+        "Capex (cash)",
+        "784"
+       ],
+       [
+        "Dividends paid",
+        "1,283"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over (before lease payments)**",
+         "**575**"
+        ]
+       },
+       [
+        "Memo: lease payments to SAMIL and others, FY26",
+        "~115"
+       ],
+       [
+        "Memo: FY27E capex guidance",
+        "~200"
+       ]
+      ],
+      "source": "Screener.in cash flow; AR FY26 note 31 (lease payments ₹95 cr to SAMIL, ₹20 cr to other related parties); Q4FY26 call"
+     }
+    },
+    {
+     "callout": "**The capital question:** there is not much of one. MSWIL pays out ~62% of profit and still has no net debt outside leases. The question is the other way round: because the JV partners make the parts and own the buildings, a large share of the capital (and of the value) in this chain sits with SAMIL and Sumitomo, not with MSWIL's minority shareholders."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: simple accounts and a clean audit; the related-party flows are the judgement call",
+   "blocks": [
+    {
+     "bullets": [
+      "**Simple accounts.** One company, no subsidiaries, no acquisitions, no goodwill; exceptional items only in FY22 (₹65 cr, reorganisation costs). Unmodified audit by S.R. Batliboi & Co. (EY network), whose one key audit matter is the related-party transactions.",
+      "**Cash conversion swings with copper.** Cash from operations was ₹761 cr in FY26 (122% of profit) but ₹365 cr in FY25 (60%), as receivables rose from 49 to 60 days. Payables owed to the JV partners (₹1,108 cr at Mar-2026) fund part of the inventory.",
+      "**Leases flatter EBITDA.** Most buildings are leased (₹223 cr of lease liabilities); under Ind AS 116 the ~₹115 cr a year of lease payments appears as depreciation and interest, not as an operating cost, so EBITDA is ~1 point of revenue higher than on a rent-paying basis. Peers with owned plants are not directly comparable on EBITDA margin.",
+      "**Related-party pricing.** ~65% of materials come from the promoters at \"price lists in force and terms that would be available to third parties\" (AR FY26); fees to them were 2.4% of revenue. We cannot test the prices from outside; the audit committee approves them annually.",
+      "**Other income is negligible** (₹4 cr in FY26, ₹5 cr in Q1FY27); earnings are almost entirely operating."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** The accounts are clean and simple, and cash conversion is good over time. The amber is for the size of the related-party flows (purchases, fees, leases) that set much of MSWIL's cost base: the margin minority shareholders see depends on prices agreed between related companies."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Debt-free except leases; working capital jumped in FY26 with copper",
+   "blocks": [
+    {
+     "p": "At Mar-2026 MSWIL had ₹10 cr of bank debt and ₹223 cr of lease liabilities against ₹66-69 cr of cash: net debt ₹167 cr including leases, net cash ₹56 cr without them (company basis). By Jun-2026 bank debt rose to ₹61 cr and cash fell to ₹21 cr (net debt ₹40 cr before leases), as higher copper prices tied up money in stock and receivables. Inventory rose from ₹1,282 cr to ₹1,730 cr in FY26 and receivables from ₹1,244 cr to ₹1,884 cr; payables rose too (₹1,179 cr to ₹1,983 cr), and ₹1,108 cr of the payables are owed to the two JV partners, which therefore fund part of MSWIL's working capital."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Receivable days rose from 39 to 60 in two years",
+       "unit": "Days",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          97,
+          95,
+          76,
+          77,
+          82
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          43,
+          41,
+          39,
+          49,
+          60
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          92,
+          73,
+          62,
+          71,
+          93
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Net debt including leases (negative = net cash)",
+       "unit": "Net debt incl. lease liabilities (₹ crore)",
+       "x": "A.labels",
+       "from": "FY22",
+       "series": [
+        {
+         "name": "Net debt",
+         "ref": "A.netDebt",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (standalone), GAM Research. Borrowings (incl. leases) less cash."
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.0|num}}",
+        "{{A.netWorth.2|num}}",
+        "{{A.netWorth.3|num}}",
+        "{{A.netWorth.4|num}}"
+       ],
+       [
+        "Borrowings incl. leases",
+        "{{A.borrowings.0|num}}",
+        "{{A.borrowings.2|num}}",
+        "{{A.borrowings.3|num}}",
+        "{{A.borrowings.4|num}}"
+       ],
+       [
+        "Cash",
+        "{{A.cashAndInvestments.0|num}}",
+        "{{A.cashAndInvestments.2|num}}",
+        "{{A.cashAndInvestments.3|num}}",
+        "{{A.cashAndInvestments.4|num}}"
+       ],
+       [
+        "Net fixed assets",
+        "{{A.fixedAssets.0|num}}",
+        "{{A.fixedAssets.2|num}}",
+        "{{A.fixedAssets.3|num}}",
+        "{{A.fixedAssets.4|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.0|num}}",
+        "{{A.inventories.2|num}}",
+        "{{A.inventories.3|num}}",
+        "{{A.inventories.4|num}}"
+       ],
+       [
+        "Trade receivables",
+        "{{A.receivables.0|num}}",
+        "{{A.receivables.2|num}}",
+        "{{A.receivables.3|num}}",
+        "{{A.receivables.4|num}}"
+       ],
+       [
+        "Trade payables",
+        "{{A.payables.0|num}}",
+        "{{A.payables.2|num}}",
+        "{{A.payables.3|num}}",
+        "{{A.payables.4|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (standalone), GAM Research. Q1FY27 presentation p5 (Jun-2026 debt and cash)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: SAMIL 33.4%, Sumitomo 25.1%, Indian funds 17.9%, foreign funds down to 8.9%",
+   "blocks": [
+    {
+     "p": "The two joint-venture partners hold 58.5%: SAMIL 33.43% and Sumitomo Wiring Systems 25.1% (25.34% with affiliates); the Sehgal family and other promoter-group holders another 3.19%, for a promoter total of 61.72% (Jun-2026), unchanged since listing. SAMIL is itself promoted by the Sehgal family. Indian institutions own 17.85% (ICICI Prudential MF alone 5.36% at Mar-2026) and foreign investors 8.91%, down from 14.9% at listing. 8,74,956 shareholders hold the rest."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Foreign funds down from 11% to 9%; Indian institutions up to 18%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoter stake fixed at 61.7% since listing",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 50,
+       "max": 70,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest holders",
+      "head": [
+       "Holder",
+       "Stake",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Samvardhana Motherson International (SAMIL)",
+        "33.43%",
+        "Promoter (JV partner); Mar-2026, unchanged since listing"
+       ],
+       [
+        "Sumitomo Wiring Systems (Japan)",
+        "25.1%",
+        "Promoter (JV partner); 25.34% with affiliates"
+       ],
+       [
+        "Sehgal family and other promoter-group holders",
+        "3.19%",
+        "Balance of the promoter group, incl. SWS affiliates (0.24%); V.C. Sehgal 2.32% individually"
+       ],
+       [
+        "ICICI Prudential Mutual Fund",
+        "5.36%",
+        "Mar-2026 (5.56% at Mar-2025)"
+       ]
+      ],
+      "source": "AR FY26 note 11 (31-Mar-2026); Jun-2026 category totals from Screener.in. Named institutional holders above 1% for Jun-2026 were not available to us."
+     }
+    },
+    {
+     "callout": "**Our read:** control is shared and not contestable: neither partner can sell without changing the JV, and each earns more from supplying and charging fees to MSWIL than from its dividends alone. Foreign funds have been sellers for four years; Indian funds have been buyers."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: a professional board, but the company is run inside the Motherson group",
+   "blocks": [
+    {
+     "p": "Board: 10 directors: 5 independent (incl. 2 women), 2 Sumitomo nominees, 2 Sehgals (Chairman V.C. Sehgal, Laksh Vaaman Sehgal), 1 executive (WTD and COO Anurag Gahlot). Auditor S.R. Batliboi & Co. LLP. Management: Vivek Chaand Sehgal (Chairman (non-executive); Motherson group founder); Laksh Vaaman Sehgal (Director (non-executive); Vice Chairman of SAMIL); Anurag Gahlot (Whole-time Director and COO (the only executive director)); Gulshan Pahuja (CFO from 2-Jul-2025 (Mahender Chhabra resigned 4-Jun-2025)); Pankaj Mital (Whole-time Director and President of SAMIL; heads the group's wiring-harness business; speaks on MSWIL calls); Soichiro Namba, Ryuji Sakai (Non-executive directors nominated by Sumitomo Wiring Systems); Rajesh Kumar Seth, Anupam Mohindroo, Anisha Motwani, Suparna Pandhi, Col. Virendra Chand Katoch (Retd.) (Independent directors (5 of 10)). Pay: Only one executive director (₹2.42 cr in FY26, 43x the median employee, +16%); the Sehgals draw no pay from MSWIL."
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "Unmodified opinion; S.R. Batliboi (EY network); key audit matter = related-party transactions",
+       "No accounting red flags."
+      ],
+      [
+       "Board",
+       "Moderate",
+       "Half independent; non-executive chairman is the group founder; two Sumitomo nominees",
+       "Balanced between the partners; minority voice limited to the independents."
+      ],
+      [
+       "Related-party flows",
+       "Weak",
+       "~65% of purchases from the promoters; royalty + equal management fee (₹122 cr), support fees ₹151 cr, leases; FY27 ceilings ₹8,592 cr (SAMIL) and ₹1,015 cr (SWS)",
+       "The main governance risk: the cost base is set between related parties."
+      ],
+      [
+       "Customer allocation",
+       "Moderate",
+       "Hyundai/Kia served by another SAMIL JV; customers decide sourcing, but the group decides which entity bids",
+       "Limits MSWIL's addressable market."
+      ],
+      [
+       "Management pay",
+       "Strong",
+       "Only one executive director (₹2.42 cr in FY26, 43x the median employee, +16%); the Sehgals draw no pay from MSWIL.",
+       "Modest for a ₹11,000 cr company; most management sits in SAMIL and is paid through the fees."
+      ],
+      [
+       "Capital allocation",
+       "Strong",
+       "No acquisitions; capex only against firm orders; ~62% payout; no equity raised",
+       "Disciplined and shareholder-friendly."
+      ],
+      [
+       "Continuity",
+       "Moderate",
+       "CFO resigned Jun-2025, successor from Jul-2025; senior management shared with SAMIL",
+       "No sign of disruption."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "AR FY26 (corporate governance report, related-party notes, Rule 5 annexure, auditor's report, AGM notice)"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EPS ₹{{F.eps.0|n2}} / ₹{{F.eps.1|n2}} / ₹{{F.eps.2|n2}}, below the street",
+   "blocks": [
+    {
+     "p": "Revenue +{{F.salesGrowth.0|pct0}} / +{{F.salesGrowth.1|pct0}} / +{{F.salesGrowth.2|pct0}} (existing plants +17.5% / +14.5% / +13.5%, greenfields ₹{{as.lineBuild.greenfield.0|num}} / {{as.lineBuild.greenfield.1|num}} / {{as.lineBuild.greenfield.2|num}} cr); EBITDA margin {{F.ebitdaMargin.0|pct}} / {{F.ebitdaMargin.1|pct}} / {{F.ebitdaMargin.2|pct}}; capex ₹{{as.capex.0|num}} / {{as.capex.1|num}} / {{as.capex.2|num}} cr (incl. ~₹40 cr a year of new leased plant); depreciation 13.5% of gross block; finance cost ₹34 cr a year (mostly lease interest); tax 25.2%; payout 62%. EPS compounds ~18% a year over FY26-29E against 11% over FY22-26, because FY26-27 is a margin trough rather than a new normal."
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY22",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Finance cost",
+        "ref": "fin.interest"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n2"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       }
+      ],
+      "source": "Company, GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (post-Q1FY27 estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM",
+       "Motilal Oswal",
+       "Choice Institutional",
+       "Emkay Global"
+      ],
+      "rows": [
+       [
+        "Revenue FY27E (₹ cr)",
+        "{{F.sales.0|num}}",
+        "13,658",
+        "13,332",
+        "14,508"
+       ],
+       [
+        "Revenue FY28E (₹ cr)",
+        "{{F.sales.1|num}}",
+        "15,571",
+        "15,235",
+        "16,250"
+       ],
+       [
+        "EBITDA margin FY27E",
+        "{{F.ebitdaMargin.0|pct}}",
+        "8.9%",
+        "9%",
+        "9.5%"
+       ],
+       [
+        "EBITDA margin FY28E",
+        "{{F.ebitdaMargin.1|pct}}",
+        "9.8%",
+        "9.5%",
+        "10.5%"
+       ],
+       [
+        "EPS FY27E (₹)",
+        "{{F.eps.0|n2}}",
+        "1.05",
+        "1.08",
+        "1.25"
+       ],
+       [
+        "EPS FY28E (₹)",
+        "{{F.eps.1|n2}}",
+        "1.38",
+        "1.33",
+        "1.58"
+       ],
+       [
+        "EPS FY29E (₹)",
+        "{{F.eps.2|n2}}",
+        "–",
+        "1.65",
+        "1.82"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM vs street median, FY28E EPS**",
+         "**−6%**",
+         "",
+         "",
+         ""
+        ]
+       }
+      ],
+      "source": "MOSL (4-Aug-2026), Choice and Emkay (5-Aug-2026) result updates; EPS = PAT / 663.2 cr shares. ICICI Securities' estimates were not visible to us; JM Financial (28-Apr-2026, pre-Q1): FY27E/28E EPS ₹1.06/1.45."
+     }
+    },
+    {
+     "callout": "Our FY28E EPS is −6% vs the post-Q1 street median (₹1.38). Revenue is in the street's range (Emkay is highest); the gap is margin: we assume {{F.ebitdaMargin.1|pct}} for FY28E against 9.5-10.5%, because we do not assume the NCR wage increase is fully recovered or that copper resets shorten."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: Buy/Add, targets ₹44-50; post-Q1 median ₹49",
+   "blocks": [
+    {
+     "p": "Four houses updated after the Q1FY27 results (4-Aug-2026): Motilal Oswal (Buy, ₹48, 35x FY28E), Emkay (upgraded to Buy, ₹50, 30x Jun-28E), ICICI Securities (Buy, ₹50) and Choice (downgraded to Add, ₹44, on FY28E EPS). JM Financial's post-Q4 note (Buy, ₹48, 33x FY28E, Apr-2026) is the latest we found from JM. Post-Q1 median ₹49 (+44% vs the 30-Sep-2026 close of ₹34.07); all five ₹48. The stock fell from ~₹40 at the results to ₹34.07 by end-September. Every house that shows its method uses **P/E on one-year-forward EPS**, at 30-35x; their FY28E EPS (₹1.33-1.58) is mostly above ours."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Margins have fallen from 13% (FY22) to 7.6% (Q1FY27) and may not come back: copper pass-through inflates revenue and the wage increase may be shared, not passed on",
+        "Choice (downgrade to Add, 5-Aug-2026); GAM"
+       ],
+       [
+        "Customer concentration: one customer (Maruti Suzuki per Emkay) is 41% of revenue and another 16%",
+        "AR FY26 note 34; GAM"
+       ],
+       [
+        "Two masters: ~65% of raw-material purchases come from the JV partners, which also take a royalty, a management fee and support fees (~2.4% of revenue in FY26)",
+        "AR FY26 notes 26 and 31, AGM notice; GAM"
+       ],
+       [
+        "Hyundai and Kia are supplied by another SAMIL JV, not MSWIL: the group, not the listed company, decides which customers MSWIL serves",
+        "q4deck p4; GAM"
+       ],
+       [
+        "Greenfields are late: Pune ~50% utilised after a customer postponed a model; Chennai EV volumes delayed",
+        "Q4FY26 call; Emkay, JM"
+       ],
+       [
+        "Cheap vs its own history: below -1 SD of its forward P/E since listing",
+        "Emkay (5-Aug-2026)"
+       ]
+      ],
+      "source": "Broker notes and company filings as cited; GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 38.5x Sep-28E EPS gives {{dcf.tp|inr}}; the market pays 24.1x",
+   "blocks": [
+    {
+     "h": "How the street values MSWIL"
+    },
+    {
+     "p": "We use the street's method so our target is comparable: P/E on the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). The \"At our EPS\" column applies each broker's multiple to our Sep-28E EPS."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Motilal Oswal (4-Aug-26)",
+        "Buy",
+        "48",
+        "P/E",
+        "35x",
+        "FY28E",
+        "49",
+        "Premium valuation justified by competitive position, top-decile capital efficiency, EVs and content; margins to normalise as copper pass-through comes in. FY27/28E EPS cut 7%/1%; 16%/20%/21% revenue/EBITDA/PAT CAGR FY26-28E."
+       ],
+       [
+        "Choice Institutional (5-Aug-26)",
+        "Add (from Buy)",
+        "44",
+        "P/E",
+        "~33x (implied)",
+        "FY28E",
+        "47",
+        "Downgrade on lower earnings visibility: copper and wage costs keep margins under pressure; recovery from H2FY27 as costs pass through and greenfields fill. EPS cut 6.3%/7.5%. Target on FY28E EPS; multiple not stated (₹44 / ₹1.33 = ~33x)."
+       ],
+       [
+        "Emkay Global (5-Aug-26)",
+        "Buy (from Add)",
+        "50",
+        "P/E",
+        "30x",
+        "Jun-28E",
+        "42",
+        "Upgrade: underlying revenue +30% ex copper, underlying margin ~10% ex copper and wage effects; stock below -1 SD of its forward P/E since listing; 25% EPS CAGR FY26-29E, ~50% ROCE, 75% FY28E payout. Shorter copper resets under negotiation."
+       ],
+       [
+        "ICICI Securities (5-Aug-26)",
+        "Buy",
+        "50",
+        "n.d.",
+        "not in our source",
+        "n/a",
+        "–",
+        "'Inflationary costs weigh on margins; growth momentum remains robust': revenue 5% above estimate on content growth and new business (Trendlyne summary; note behind login, not read)."
+       ],
+       [
+        "JM Financial (28-Apr-26)",
+        "Buy",
+        "48",
+        "P/E",
+        "33x",
+        "FY28E",
+        "47",
+        "Post-Q4FY26 (no post-Q1 note found): premiumisation and EV/hybrid shift lift content; greenfield ramp supports margin; copper keeps margins under pressure near term."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**BUY**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**38.5x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Growth above the market continues; margins recover only partly; the price already discounts a permanent squeeze"
+        ]
+       }
+      ],
+      "source": "MOSL (4-Aug-2026), Choice, Emkay (5-Aug-2026) result updates; ICICI Securities from the Trendlyne listing (5-Aug-2026, note not read); JM Financial (28-Apr-2026). Earlier: MOSL ₹46 and ICICI Securities ₹50 (Apr-2026), Emkay ₹45 at 30x Mar-28E (29-Apr-2026)"
+     }
+    },
+    {
+     "h": "Our target multiple: 38.5x, and why"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the multiple (house rule, PLAYBOOK §4 and §7c)",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1. Own forward P/E (used)",
+        "Price ÷ next full-year EPS since listing (28-Mar-2022): median 41.8x (all weekly closes: 41.8x), 25th-75th percentile 37.0-45.4x; no trough years. Listing-premium check: the first three months traded at 29.8-36.2x, below the median, so no months are skipped. By forward year: FY24 38.3x, FY25 44.6x, FY26 47.9x, FY27 41.9x, FY28 30.3x",
+        "**Starting point: 41.8x**"
+       ],
+       [
+        "2. One-offs",
+        "The only exceptional item (FY22 reorganisation costs) falls in a year that is never the forward year inside the window",
+        "No adjustment"
+       ],
+       [
+        "3. Sector de-rating",
+        "Auto-component peers' trailing P/E on 30-Sep-2026 vs their five-year medians: Samvardhana Motherson −6.9%, Bosch +29.0%, Uno Minda −8.8%, Sona BLW −1.2%, Endurance −10.0%, Schaeffler India −13.8%, Tube Investments +0.3%, ZF CV Control −22.4%; median −7.8%. Excluded as distorted: Bharat Forge (earnings distorted); Gabriel India (no five-year history); with them −4.1%. MSWIL itself (−27.4% vs its median since listing) is not used",
+        "× 0.922"
+       ],
+       [
+        "4. Growth vs the street",
+        "MOSL's 35x and JM's 33x come with FY26-28E EPS growth of ~20-24% a year; ours is ~18% over FY26-29E",
+        "No adjustment (§7c); see sensitivity"
+       ],
+       [
+        "5. Peers",
+        "Peer median trailing P/E 52.8x; MSWIL 36.0x trailing with ROCE ~40%",
+        "MSWIL trades below most peers: no extra signal"
+       ],
+       [
+        "6. Result (nearest half-turn)",
+        "41.8x × 0.922 = 38.5x",
+        "**38.5x Sep-28E EPS of ₹1.41**"
+       ],
+       [
+        "7. Bull / bear",
+        "Bull: no de-rating (41.8x). Bear: 25th-percentile forward P/E, de-rated (37.0x × 0.922)",
+        "42x / 34x"
+       ]
+      ],
+      "source": "Screener.in prices and EPS to 30-Sep-2026; tools/authoring/valuation-blend.js forwardMedian (from listing); GAM estimates for FY27-28E EPS in the forward series"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E since listing: median 41.8x; 26.2x FY28E now",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2022-04-01",
+        "2022-04-08",
+        "2022-04-13",
+        "2022-04-22",
+        "2022-04-29",
+        "2022-05-06",
+        "2022-05-13",
+        "2022-05-20",
+        "2022-05-27",
+        "2022-06-03",
+        "2022-06-10",
+        "2022-06-17",
+        "2022-06-24",
+        "2022-07-01",
+        "2022-07-08",
+        "2022-07-15",
+        "2022-07-22",
+        "2022-07-29",
+        "2022-08-05",
+        "2022-08-12",
+        "2022-08-19",
+        "2022-08-26",
+        "2022-09-02",
+        "2022-09-09",
+        "2022-09-16",
+        "2022-09-23",
+        "2022-09-30",
+        "2022-10-07",
+        "2022-10-14",
+        "2022-10-21",
+        "2022-10-28",
+        "2022-11-04",
+        "2022-11-11",
+        "2022-11-18",
+        "2022-11-25",
+        "2022-12-02",
+        "2022-12-09",
+        "2022-12-16",
+        "2022-12-23",
+        "2022-12-30",
+        "2023-01-06",
+        "2023-01-13",
+        "2023-01-20",
+        "2023-01-27",
+        "2023-02-03",
+        "2023-02-10",
+        "2023-02-17",
+        "2023-02-24",
+        "2023-03-03",
+        "2023-03-10",
+        "2023-03-17",
+        "2023-03-24",
+        "2023-03-31",
+        "2023-04-06",
+        "2023-04-13",
+        "2023-04-21",
+        "2023-04-28",
+        "2023-05-05",
+        "2023-05-12",
+        "2023-05-19",
+        "2023-05-26",
+        "2023-06-02",
+        "2023-06-09",
+        "2023-06-16",
+        "2023-06-23",
+        "2023-06-30",
+        "2023-07-07",
+        "2023-07-14",
+        "2023-07-21",
+        "2023-07-28",
+        "2023-08-04",
+        "2023-08-11",
+        "2023-08-18",
+        "2023-08-25",
+        "2023-09-01",
+        "2023-09-08",
+        "2023-09-15",
+        "2023-09-22",
+        "2023-09-29",
+        "2023-10-06",
+        "2023-10-13",
+        "2023-10-20",
+        "2023-10-27",
+        "2023-11-03",
+        "2023-11-12",
+        "2023-11-17",
+        "2023-11-24",
+        "2023-12-01",
+        "2023-12-08",
+        "2023-12-15",
+        "2023-12-22",
+        "2023-12-29",
+        "2024-01-05",
+        "2024-01-12",
+        "2024-01-20",
+        "2024-01-25",
+        "2024-02-02",
+        "2024-02-09",
+        "2024-02-16",
+        "2024-02-23",
+        "2024-03-02",
+        "2024-03-07",
+        "2024-03-15",
+        "2024-03-22",
+        "2024-03-28",
+        "2024-04-05",
+        "2024-04-12",
+        "2024-04-19",
+        "2024-04-26",
+        "2024-05-03",
+        "2024-05-10",
+        "2024-05-18",
+        "2024-05-24",
+        "2024-05-31",
+        "2024-06-07",
+        "2024-06-14",
+        "2024-06-21",
+        "2024-06-28",
+        "2024-07-05",
+        "2024-07-12",
+        "2024-07-19",
+        "2024-07-26",
+        "2024-08-02",
+        "2024-08-09",
+        "2024-08-16",
+        "2024-08-23",
+        "2024-08-30",
+        "2024-09-06",
+        "2024-09-13",
+        "2024-09-20",
+        "2024-09-27",
+        "2024-10-04",
+        "2024-10-11",
+        "2024-10-18",
+        "2024-10-25",
+        "2024-11-01",
+        "2024-11-08",
+        "2024-11-14",
+        "2024-11-22",
+        "2024-11-29",
+        "2024-12-06",
+        "2024-12-13",
+        "2024-12-20",
+        "2024-12-27",
+        "2025-01-03",
+        "2025-01-10",
+        "2025-01-17",
+        "2025-01-24",
+        "2025-02-01",
+        "2025-02-07",
+        "2025-02-14",
+        "2025-02-21",
+        "2025-02-28",
+        "2025-03-07",
+        "2025-03-13",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-04",
+        "2025-04-11",
+        "2025-04-17",
+        "2025-04-25",
+        "2025-05-02",
+        "2025-05-09",
+        "2025-05-16",
+        "2025-05-23",
+        "2025-05-30",
+        "2025-06-06",
+        "2025-06-13",
+        "2025-06-20",
+        "2025-06-27",
+        "2025-07-04",
+        "2025-07-11",
+        "2025-07-18",
+        "2025-07-25",
+        "2025-08-01",
+        "2025-08-08",
+        "2025-08-14",
+        "2025-08-22",
+        "2025-08-29",
+        "2025-09-05",
+        "2025-09-12",
+        "2025-09-19",
+        "2025-09-26",
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          32.1,
+          35.1,
+          36.2,
+          35.3,
+          34.5,
+          33.5,
+          31,
+          30.8,
+          31.6,
+          31.8,
+          32.1,
+          29.8,
+          33.7,
+          34.8,
+          36.6,
+          39.6,
+          40,
+          38.3,
+          39.4,
+          38.8,
+          38.7,
+          39.7,
+          40.6,
+          45.2,
+          43.1,
+          42.7,
+          43.4,
+          43.2,
+          44,
+          42.5,
+          41.8,
+          40.2,
+          41.2,
+          41,
+          39.6,
+          41.8,
+          41.7,
+          40.9,
+          38.8,
+          40.5,
+          38.3,
+          36.1,
+          35.6,
+          35.6,
+          36.4,
+          37.3,
+          35.3,
+          34.6,
+          34.5,
+          34.1,
+          32.1,
+          33.1,
+          33.5,
+          37.4,
+          37.1,
+          37,
+          39.4,
+          39.3,
+          40.9,
+          40.3,
+          41.2,
+          42.7,
+          42.6,
+          42.3,
+          41.4,
+          42.3,
+          42.7,
+          42.5,
+          42.4,
+          43.1,
+          44.3,
+          43.4,
+          43.6,
+          43.7,
+          48.3,
+          48.9,
+          48.1,
+          46.7,
+          47.2,
+          45.4,
+          45.4,
+          46.2,
+          44.8,
+          42.7,
+          43.7,
+          43.6,
+          44.1,
+          44.9,
+          45.4,
+          44.6,
+          45,
+          45.2,
+          48.1,
+          46.2,
+          45.9,
+          44.6,
+          50.8,
+          50.5,
+          53,
+          51.5,
+          52.3,
+          49.6,
+          45.7,
+          46.8,
+          48.4,
+          49.9,
+          49.4,
+          49.8,
+          49.3,
+          48.5,
+          47.9,
+          49.1,
+          48.3,
+          48,
+          48.2,
+          52.4,
+          54,
+          53.4,
+          52.1,
+          52.5,
+          51.5,
+          53.3,
+          51.8,
+          50.5,
+          50,
+          50.2,
+          49.9,
+          49.6,
+          49.3,
+          49.1,
+          51.4,
+          47.8,
+          46.8,
+          45.5,
+          44.3,
+          45.4,
+          45.4,
+          43.2,
+          43.9,
+          45.4,
+          44.7,
+          45.3,
+          42.5,
+          41.4,
+          42.2,
+          39.8,
+          40.1,
+          39,
+          40.2,
+          39.4,
+          35.4,
+          34.8,
+          33.3,
+          37.3,
+          36,
+          38.5,
+          37,
+          34,
+          34.9,
+          34.8,
+          36.7,
+          37,
+          37.6,
+          38.3,
+          38.3,
+          38.2,
+          39.9,
+          40.5,
+          39.5,
+          39.7,
+          39.8,
+          41.9,
+          43.1,
+          40.1,
+          37.1,
+          38.7,
+          37.4,
+          41.3,
+          41.1,
+          44.7,
+          49.6,
+          48,
+          46.4,
+          45.3,
+          44,
+          45.4,
+          46.6,
+          46.7,
+          46.3,
+          47.5,
+          47.9,
+          45.2,
+          45.1,
+          45.5,
+          47.2,
+          44.7,
+          49.4,
+          47.4,
+          44.9,
+          42.6,
+          41.9,
+          42.5,
+          42.4,
+          42.5,
+          42.8,
+          40.9,
+          38.7,
+          36.6,
+          37.5,
+          28.5,
+          30.3,
+          30.4,
+          30.7,
+          31.2,
+          32.7,
+          30.8,
+          30.5,
+          30,
+          29.7,
+          28.3,
+          29.3,
+          31.7,
+          31.8,
+          30.9,
+          31,
+          30.9,
+          31.2,
+          31.7,
+          31,
+          29.5,
+          29,
+          28.1,
+          27.9,
+          27.4,
+          26.4,
+          26.2
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 38.5,
+         "text": "Our multiple: 38.5x",
+         "color": "#cf8f1f"
+        },
+        {
+         "v": 41.8,
+         "text": "Median 41.8x",
+         "color": "#8c8c8c"
+        }
+       ],
+       "source": "Screener.in weekly prices and EPS; GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Street median target",
+        "Share price"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          54,
+          44,
+          29,
+          49,
+          34
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "Sep-28E EPS ₹1.41",
+        "38.5x (bull 42x, bear 34x)",
+        "**{{dcf.blend.methods.0.value|n1}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|n1}}",
+        "{{scen.bear.blend.methods.0.value|n1}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "Sep-28E EBITDA ₹1,588 cr less net debt incl. leases",
+        "18.5x (bull 20x, bear 16x)",
+        "{{dcf.blend.methods.1.value|n1}}",
+        "−19%",
+        "{{scen.bull.blend.methods.1.value|n1}}",
+        "{{scen.bear.blend.methods.1.value|n1}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "FCFF FY28-42E, Ke {{dcf.ke|n1}}%, g 6%",
+        "–",
+        "{{dcf.blend.methods.2.value|n1}}",
+        "−46%",
+        "{{scen.bull.blend.methods.2.value|n1}}",
+        "{{scen.bear.blend.methods.2.value|n1}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA (18.5x Sep-28E EBITDA less net debt) gives ₹44, −19% vs the target: 18.5x is MSWIL's 29.5x median trailing EV/EBITDA since listing, cut by the same 7.8% de-rating and restated from trailing (₹1,074 cr in the year to Jun-26) to Sep-28E EBITDA (× 0.677); it is lower because our EBITDA recovery is slower than our EPS recovery (depreciation and interest are small). The DCF gives ₹29, below the price, at a 12.2% cost of equity, 6% terminal growth and a 9.5% long-run margin: the market, like the house rule, is pricing either faster growth for longer or a lower cost of capital. **The BUY rests on the multiple returning towards MSWIL's own history, not on cash-flow value**; the honest caveat is that the history was built when margins were 11-13%."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Views we did not put in the base (sensitivity rows only)",
+      "head": [
+       "View",
+       "What it changes",
+       "Value / share (₹)"
+      ],
+      "wide": [
+       0,
+       1
+      ],
+      "rows": [
+       [
+        "Sector move over the same window as MSWIL's own history (peers vs their medians since Apr-2022)",
+        "−6.9% instead of −7.8%: 41.8x → 39x",
+        "55"
+       ],
+       [
+        "Sector de-rating including all peers",
+        "−4.1% instead of −7.8%",
+        "57"
+       ],
+       [
+        "Only the last two years (since Oct-2024)",
+        "Forward P/E median 39.7x, de-rated 36.6x",
+        "52"
+       ],
+       [
+        "MSWIL's own de-rating instead of the sector's (not allowed by §7c)",
+        "Trailing P/E −27.4% vs its median since listing: 41.8x → 30.5x",
+        "43"
+       ],
+       [
+        "Street multiple (MOSL 35x FY28E)",
+        "35x on our Sep-28E EPS",
+        "49"
+       ],
+       [
+        "Lowest street multiple (Emkay 30x)",
+        "30x on our Sep-28E EPS",
+        "42"
+       ],
+       [
+        "Street EPS at our multiple",
+        "38.5x on the post-Q1 street-median FY28E EPS (₹1.38)",
+        "53"
+       ],
+       [
+        "Growth premium (PEG-style)",
+        "EPS growth ~18% a year FY26-29E vs ~11% FY22-26: more growth than the history paid for, but it is margin recovery, not new demand",
+        "not applied"
+       ],
+       [
+        "Returns premium",
+        "ROCE ~40% vs a 12.2% cost of equity, the same as through the history: no change to justify a different multiple",
+        "not applied"
+       ]
+      ],
+      "source": "GAM Research. Per PLAYBOOK §7c, own de-rating, own-history windows, growth and returns views are shown, not added to the base multiple."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple 42x (no sector de-rating)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Revenue {{F.sales.0|num}} / {{F.sales.1|num}} / {{F.sales.2|num}} cr; EBITDA margin {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 38.5x Sep-28E EPS."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple 34x (25th percentile, de-rated)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Net cash at Mar-27 (negative = net debt incl. leases)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|n1}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rolled forward 6 months at Ke)**",
+         "**₹{{dcf.blend.methods.2.value|n1}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research. Debt is almost all lease liabilities, so the cost of equity is the discount rate. Lease payments are not in free cash flow (the engine treats leases as debt)."
+     }
+    },
+    {
+     "callout": "The engine's DCF sensitivity grid rounds every value to the nearest ₹10, too coarse for a ₹34 stock, so we do not show it as a table: across a cost of equity of 11.2-13.2% and terminal growth of 5-7% it runs from ~₹20 to ~₹40 a share. No combination in that range reaches the {{dcf.tp|inr}} target or much exceeds today's price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed auto-component peers",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "vs 5-yr median P/E",
+       "EV/EBITDA (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Motherson Sumi Wiring**",
+        "22,616",
+        "11,478",
+        "9.2%",
+        "36.0",
+        "−27%",
+        "21.0",
+        "32.4%"
+       ],
+       [
+        "Samvardhana Motherson",
+        "1,74,206",
+        "1,26,104",
+        "9.6%",
+        "37.7",
+        "−7%",
+        "13.6",
+        "10.8%"
+       ],
+       [
+        "Bosch",
+        "1,38,927",
+        "20,035",
+        "13.2%",
+        "52.9",
+        "+29%",
+        "34.4",
+        "19.4%"
+       ],
+       [
+        "Uno Minda",
+        "67,564",
+        "19,658",
+        "11.5%",
+        "55.2",
+        "−9%",
+        "27.3",
+        "20.5%"
+       ],
+       [
+        "Sona BLW",
+        "51,890",
+        "4,449",
+        "24.3%",
+        "71.3",
+        "−1%",
+        "40.4",
+        "11%"
+       ],
+       [
+        "Bharat Forge (excluded)",
+        "94,090",
+        "16,812",
+        "17.4%",
+        "93.2",
+        "+53%",
+        "31.7",
+        "11.6%"
+       ],
+       [
+        "Endurance",
+        "37,365",
+        "14,596",
+        "13.5%",
+        "38.0",
+        "−10%",
+        "17.4",
+        "15.2%"
+       ],
+       [
+        "Schaeffler India",
+        "60,975",
+        "Dec year",
+        "–",
+        "48.6",
+        "−14%",
+        "28.8",
+        "–"
+       ],
+       [
+        "Tube Investments",
+        "45,967",
+        "22,847",
+        "10%",
+        "73.4",
+        "+0%",
+        "16.8",
+        "16.8%"
+       ],
+       [
+        "ZF CV Control",
+        "26,642",
+        "4,119",
+        "16%",
+        "52.7",
+        "−22%",
+        "30.8",
+        "15%"
+       ],
+       [
+        "Gabriel India (excluded)",
+        "23,781",
+        "4,667",
+        "9.4%",
+        "66.0",
+        "+59%",
+        "40.1",
+        "19.8%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026. Schaeffler reports on December years. MSWIL's median is since listing (Mar-2022)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: India's harness leader at 24.1x Sep-28E EPS; BUY, but the case is the multiple",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** the incumbent wiring-harness supplier to most of India's best-selling cars, growing well ahead of car production, with ROCE near 40%, no debt beyond leases and a ~62% payout. You are also buying into a structure where the two promoters supply ~65% of the materials, take 2.4% of revenue in fees and decide which customers MSWIL serves, and where one customer takes 41% of output."
+    },
+    {
+     "callout": "**What you are paying:** 33.7x our FY27E and 26.2x FY28E EPS for ~18% a year EPS growth (mostly margin recovery). Since listing the market has paid a median 41.8x forward for MSWIL; today it pays 26.2x, close to the lowest it has ever paid. The street's targets (median ₹49) sit between today's price and ours."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Customers agree to monthly copper resets",
+        "Medium",
+        "Management is negotiating; Q2/Q3FY27 calls"
+       ],
+       [
+        "NCR wage increase recovered from customers",
+        "Medium",
+        "Employee cost as % of revenue (17.7% in Q1FY27); management commentary"
+       ],
+       [
+        "Greenfields at company margins; Pune finds volumes",
+        "Medium",
+        "Greenfield EBITDA (−₹14 cr in Q4FY26); a new customer or the delayed model launch"
+       ],
+       [
+        "EV and hybrid share keeps rising",
+        "Medium-High",
+        "EV share of revenue (8.5% in Q1FY27); high-voltage harness wins"
+       ],
+       [
+        "Lower fees or a cap on related-party charges",
+        "Low",
+        "AGM approvals (royalty and management fee ceilings ₹75 cr each for FY27)"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Copper keeps rising; the lag never closes",
+        "Medium",
+        "Each 0.5 point of FY28E margin ≈ ₹0.09 of EPS (~7%)"
+       ],
+       [
+        "Wage increases spread to other states without compensation",
+        "Medium",
+        "Staff cost is 16-18% of revenue: a 10% wage rise is ~1.7 points of margin before recovery"
+       ],
+       [
+        "Car production slows against the GST-cut base from H2FY27",
+        "Medium",
+        "Revenue growth falls towards single digits; greenfields stay under-used"
+       ],
+       [
+        "Customer 1 loses share or moves business",
+        "Low-Medium",
+        "41% of revenue; its new plants decide where MSWIL builds next"
+       ],
+       [
+        "Related-party terms move against minorities",
+        "Low-Medium",
+        "Higher fees or component prices from SAMIL/SWS would cut margins directly"
+       ],
+       [
+        "Simpler vehicle architectures (zonal, 48V) shorten harnesses",
+        "Low (5 years)",
+        "Content per vehicle could fall in the long run; not visible in India yet"
+       ],
+       [
+        "The multiple never returns to its history",
+        "Medium",
+        "At the street's low end (30x) our EPS gives ₹42; at the bear case {{scen.bear.tp|inr}}"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: BUY, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would move to HOLD above ~₹47.0** and to SELL above ~₹56.8 on today's numbers.",
+      "**This is a multiple call more than an earnings call.** Our EPS is below the street; our 38.5x is above the street's 30-35x because the house rule anchors on MSWIL's own 41.8x history. At the street's 35x our EPS still gives ₹49 (+45%), and even the bear case is above today's price; the DCF (₹29) is the one method that is not.",
+      "**Biggest swing factor:** the margin. Each 1x of multiple is ~₹1.41 a share; each point of EBITDA margin in FY28-29E moves the target by ~₹7.4."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Q1FY27 revenue growth",
+        "v": "+37%",
+        "d": "~30% excl. copper"
+       },
+       {
+        "k": "EBITDA margin",
+        "v": "7.6%",
+        "d": "Q1FY27; 13.0% in FY22"
+       },
+       {
+        "k": "Fees to JV partners",
+        "v": "2.4%",
+        "d": "of FY26 revenue"
+       },
+       {
+        "k": "Price ÷ our Sep-28E EPS",
+        "v": "24.1x",
+        "d": "median since listing: 41.8x"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY22–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 100
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation (incl. leased buildings)"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (history: net of exceptional items)",
+        "flag": {
+         "type": "pct",
+         "th": 60
+        }
+       },
+       {
+        "key": "interest",
+        "name": "Finance cost (mostly lease interest)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 25
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n2"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L (as reported by 30-Sep-2026)",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Wiring harness",
+        "The bundle of wires, terminals, connectors, junction boxes and protective tubes that carries power and signals around a vehicle."
+       ],
+       [
+        "Low-voltage / high-voltage harness",
+        "Harnesses for the normal 12V electrical system / for the battery and motor of an electric or hybrid vehicle."
+       ],
+       [
+        "OEM",
+        "Original equipment manufacturer: the vehicle maker."
+       ],
+       [
+        "JV (joint venture)",
+        "A company owned jointly by partners: here SAMIL (33.4%) and Sumitomo Wiring Systems (25.1%)."
+       ],
+       [
+        "SAMIL / SWS",
+        "Samvardhana Motherson International (formerly Motherson Sumi Systems) / Sumitomo Wiring Systems, a subsidiary of Sumitomo Electric Industries of Japan."
+       ],
+       [
+        "Demerger",
+        "Splitting a business out of a company into a new company whose shares go to the same shareholders."
+       ],
+       [
+        "Bonus issue",
+        "Free extra shares to existing holders; the share count rises and the price falls in proportion, value unchanged."
+       ],
+       [
+        "Pass-through (with a lag)",
+        "Raw-material price changes are billed to customers at cost, but only after the next price reset (here 3-6 months)."
+       ],
+       [
+        "Greenfield",
+        "A new plant built from scratch on a new site."
+       ],
+       [
+        "Related-party transaction",
+        "A deal between the company and its promoters or their companies; needs audit-committee and, above a size, shareholder approval."
+       ],
+       [
+        "Royalty / management fee",
+        "Payments for the use of technology (to SWS) and for management services (to SAMIL), each ~0.5% of revenue."
+       ],
+       [
+        "Ind AS 116 (leases)",
+        "The accounting rule that shows leased buildings as assets and lease liabilities as debt; rent becomes depreciation plus interest."
+       ],
+       [
+        "ROCE",
+        "Return on capital employed: operating profit ÷ (equity + debt)."
+       ],
+       [
+        "P/E, EV/EBITDA",
+        "Share price ÷ earnings per share; enterprise value (market value plus net debt) ÷ EBITDA."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "Sector de-rating",
+        "How far comparable stocks trade below their own five-year median P/E on the valuation date."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY22": "First year as a separate company (demerger effective from 1-Apr-2021); +43% on the ₹3,938 cr of FY21 (Covid-hit year).",
+  "otherIncome@FY22": "Net of a ₹65 cr exceptional charge: MSWIL's share of the costs of the reorganisation scheme.",
+  "pat@FY22": "₹457 cr before the ₹46 cr (post-tax) reorganisation charge.",
+  "ebitdaMargin@FY23": "11.2% from 13.0%: raw materials rose to 66% of revenue from 64%.",
+  "pat@FY24": "+31%: margin back to 12.2%.",
+  "pat@FY25": "−5%: greenfield start-up losses (₹122 cr) and copper.",
+  "sales@FY26": "+23%: volumes, content and ₹1,040 cr from greenfields (₹258 cr in FY25); copper pass-through.",
+  "ebitdaMargin@FY26": "9.2%: 11.4% excluding ₹127 cr of greenfield losses; copper lag in H2.",
+  "dep@FY26": "+21%: new plants (mostly leased, so depreciation includes right-of-use assets).",
+  "cfo@FY25": "Receivables +₹348 cr: working capital absorbed half the profit.",
+  "cfo@FY26": "Payables (incl. ₹1,108 cr to the JV partners) rose faster than stock and receivables.",
+  "sales@Q4FY26": "+33%: ~5 points from copper; greenfields ₹443 cr.",
+  "opm@Q4FY26": "8.2%: copper rose 18% in the quarter; existing plants 10.0%.",
+  "sales@Q1FY27": "+37%: 7 points from copper; PV industry +17%.",
+  "opm@Q1FY27": "7.6%: copper +7% QoQ and NCR minimum wages +35-40%."
+ }
+}
