@@ -1,0 +1,194 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Wipro (consolidated, Ind AS, Rs crore). Revenue is built in US dollars: IT Services revenue by Strategic Market Unit (usdBuild below), converted at a stated INR/USD path, plus a small IT Products and Ind AS reconciliation line; revenueGrowth is the result of that build and tools/authoring/WIPRO.ctx.js checks the two agree. EBITDA = Screener operating profit before other income; the company's IT Services EBIT margin maps to it as EBIT margin + ~0.3 pp (FX gains, which Ind AS books in other income, and IT Products) and D&A of ~3.2% of revenue. History is attributable to shareholders and FY26 is pro-forma for the June-2026 buyback and post-Mar-26 acquisitions (tools/authoring/WIPRO.patch.js). Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "usdBuild": {
+  "base": {
+   "fy": "FY26",
+   "itsUsdM": 10478.1,
+   "mixPct": {
+    "americas1": 35.6,
+    "americas2": 26.8,
+    "europe": 26.5,
+    "apmea": 11.1
+   },
+   "_src": "Q4FY26 / Q1FY27 datasheets (SMU mix restated for the Apr-2026 realignment)"
+  },
+  "growthPct": {
+   "americas1": [
+    -2,
+    1,
+    2.5
+   ],
+   "americas2": [
+    -6,
+    0,
+    1.5
+   ],
+   "europe": [
+    2.5,
+    2.5,
+    3
+   ],
+   "apmea": [
+    10,
+    5,
+    5
+   ]
+  },
+  "crossCurrencyPct": [
+   0,
+   0,
+   0
+  ],
+  "inrUsd": [
+   94.3,
+   96.2,
+   98.1
+  ],
+  "itProductsAndReconCr": [
+   400,
+   400,
+   400
+  ],
+  "_why": "US$ growth by SMU (reported = constant currency; we assume no cross-currency effect). FY27: Q1 $2,614.5 mn (+0.9% YoY CC) and the Q2 guide of -1.5% to +0.5% QoQ CC ($2,574-2,627 mn) put H1 at ~$5.21 bn; we take Q3 ~$2.59 bn (furloughs) and Q4 ~$2.62 bn, so FY27 ~$10.42 bn (-0.5%). That includes ~3 pp of acquired/strategic-deal revenue (eight more months of DTS at ~0.8% of revenue a month-equivalent per quarter, and Mindsprint/Olam from May-2026), i.e. an underlying decline of ~3%. By SMU: Americas 1 -2% (Q1 -0.3% YoY CC; health -3%, technology & communications +11%); Americas 2 -6% (Q1 -7.3%; BFSI ramp delays and a client-specific issue that ended in Q1, EMR -9%); Europe +2.5% (Q1 +6.0% with BFSI ramps and DTS, fading in H2); APMEA +10% (Q1 +13.5%; Mindsprint in Singapore, full year). FY28 +1.7%: no acquisitions in our numbers; Americas BFSI and the 13 Q1 large deals ramp, offset by 2-3% a year of AI-led price deflation on renewals (HCLTech's reported FY27 view; MOSL, PL, Choice). FY29 +2.7%. Brokers: FY27 -1% to 0%, FY28 -1% to +3.3% (Elara, Emkay, PL, MOSL; Jul-2026). INR/USD: realised Rs93.53 in Q1FY27 and Rs94.50 assumed in the Q2 guide; FY27 average Rs94.3, then +2% a year (FY28 Rs96.2, FY29 Rs98.1), roughly the rupee's forward premium. IT Products (Rs694 cr FY26, Rs104 cr Q1FY27) less FX gains that the segment figures include (Rs185 cr FY26): Rs400 cr a year."
+ },
+ "revenueGrowth": [
+  6.525,
+  3.681,
+  4.716
+ ],
+ "_revenueWhy": "Result of usdBuild: US$ IT Services revenue $10,421 / 10,592 / 10,879 mn x Rs94.3 / 96.2 / 98.1 + Rs400 cr = Rs98,668 / 102,299 / 107,123 cr. FY27's +6.5% is mostly the rupee (+7.3% vs FY26's realised Rs87.91); in dollars Wipro shrinks.",
+ "ebitdaMargin": [
+  19.3,
+  19.5,
+  19.6
+ ],
+ "_marginWhy": "IT Services EBIT margin (company): 16.1% FY24, 17.1% FY25, 17.2% FY26, 16.0% Q1FY27 (wage hike from 1-Mar-2026, large-deal ramp-up costs, AI-native unit investment, acquisitions). Management wants 17-17.5% but gave no timeline. We model 16.3% / 16.6% / 16.8%: no wage hike until ~Mar-2027, rupee tailwind (~25 bp per 1% move) and utilisation help, but AI price deflation on renewals, low-margin starts on cost-takeout deals and continued AI investment hold margins below the band. Street (Jul-2026): FY27 16.1-16.7%, FY28 16.0-17.2%. Mapping to the model: Screener EBIT = IT Services EBIT - ~0.3 pp (Q1FY27: 15.64% vs 16.03%; FX gains of 0.3 pp sit in Ind AS other income) -> 16.0 / 16.3 / 16.5%; plus D&A (Rs3,216 / 3,287 / 3,358 cr, 3.3-3.1% of revenue) = EBITDA 19.3 / 19.5 / 19.6%. Q1FY27 Screener EBITDA margin 18.9%; FY26 19.2%.",
+ "capex": [
+  1500,
+  1500,
+  1500
+ ],
+ "_capexWhy": "Purchase of fixed assets Rs1,504 cr (FY25), Rs1,560 cr (FY26), Rs338 cr in Q1FY27 (IFRS cash flow). Asset-light: offices, laptops and data-centre kit. Rs1,500 cr a year (~1.5% of revenue). No acquisitions are modelled after those closed by Jun-2026.",
+ "depRateOnGrossBlock": 4.73,
+ "_depWhy": "Gross block (incl. ~Rs38,700 cr of goodwill, which is not depreciated) Rs67,237 cr at Mar-26; FY26 depreciation and amortisation Rs2,911 cr = 4.6% of average gross block. Q1FY27 Rs804 cr (Rs3,216 cr annualised) includes amortisation of DTS and two months of Mindsprint intangibles (intangible assets rose from Rs2,918 cr to Rs5,190 cr in Q1). 4.73% on gross block reproduces the Q1 run-rate in FY27E (Rs3,216 cr); the acquired businesses sit in CWIP in the pro-forma balance sheet, so their amortisation is carried by this rate.",
+ "treasuryYield": [
+  6.7,
+  6.7,
+  6.7
+ ],
+ "_treasuryWhy": "Applied to opening net treasury on Screener's basis (cash + investments - borrowings incl. leases): Rs17,616 cr pro-forma at Mar-26 (Rs37,051 cr reported less the Rs15,000 cr buyback and Rs4,435 cr of acquisitions paid in Apr-Jun 2026). 6.7% = FY26 finance and other income Rs3,649 cr (interest Rs2,837 cr + fair-value gains Rs812 cr; AR FY26 note 23) / average interest-earning cash and investments of ~Rs54,700 cr (cash and investments less ~Rs2,160 cr of equity stakes and associates). The company reports a 7.2-7.3% accounting yield on its India investments (Q4FY26, Q1FY27 calls); overseas cash earns less.",
+ "otherIncome": [
+  1986,
+  1481,
+  1481
+ ],
+ "_otherIncomeWhy": "Built, not plugged (Ind AS other income = finance and other income + FX gains). (1) Yield on the part of the investment book funded by borrowings and leases: 6.7% x Rs19,122 cr (borrowings and leases Rs21,282 cr at Jun-26 less Rs2,160 cr of non-interest-bearing equity stakes) = Rs1,281 cr a year; the matching cost is in interest. (2) FX gains booked in other income: Rs185 cr (FY26), Rs78 cr (Q1FY27); Rs200 cr a year. (3) FY27 only: Q1FY27 income earned before the buyback was paid (24-Jun) and the acquisitions closed (May): Q1 other income Rs979 cr less a post-payout run-rate of ~Rs665 cr = Rs314 cr. (4) FY27 only: net treasury rose to Rs21,420 cr by Jun-26 (Q1 cash generation), Rs3,804 cr above the pro-forma opening; 6.7% on it for three quarters = Rs191 cr. Total Rs1,986 / 1,481 / 1,481 cr. With the treasury yield, FY27E other income is ~Rs3,170 cr vs Rs3,874 cr in FY26 (Rs3,860 cr before exceptional items) and Rs3,807 cr in the twelve months to Jun-26: the gap is the Rs19,435 cr of cash that left in June. The engine earns the yield on opening balances, so FY28-29 in-year cash build (~Rs150 cr a year) is left out.",
+ "interest": [
+  1850,
+  1800,
+  1800
+ ],
+ "_interestLabel": "Finance costs (borrowings, leases, put options, other)",
+ "_interestWhy": "FY26 Rs1,458 cr: borrowings Rs537 cr, leases Rs196 cr, put options Rs59 cr, other Rs667 cr (AR FY26 note 26). Q1FY27 Rs473 cr (IFRS finance expenses) as short-term borrowings rose to Rs17,765 cr after the $750 mn notes due Jun-2026 were refinanced. Rs1,850 cr in FY27, Rs1,800 cr after.",
+ "taxRate": [
+  23.3,
+  23.3,
+  23.3
+ ],
+ "_taxWhy": "Tax plus minorities (no minority line in the engine). ETR 23.5% in FY26 and 22.6% in Q1FY27 (IFRS); minorities Rs68 cr in FY26 and Rs4 cr in Q1 (~0.2% of PBT). Q1FY27: PBT Rs4,334 cr, attributable profit Rs3,352 cr (22.7%).",
+ "payout": [
+  60,
+  70,
+  70
+ ],
+ "_payoutWhy": "Policy: return 70%+ of net income over three years via dividends and buybacks. FY26 dividends Rs11 a share (88% of EPS); the Rs15,000 cr buyback in Jun-2026 (~114% of FY26 profit) already covers much of the FY27-29 block, and the Q1FY27 interim was cut to Rs2 (Rs5 a year earlier). We assume ~Rs8 a share in FY27 (60% of EPS) and 70% from FY28; no further buybacks.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5,
+  "years": 10,
+  "fadeGrowthTo": 5,
+  "fadeMarginTo": 19,
+  "fadeCapexPctTo": 1.5,
+  "depPctOfSales": 3.1,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, export earnings that rise when the rupee falls, but a business facing structural pricing risk: beta 0.9, Ke 11.9%.",
+  "_tgWhy": "Rupee revenue growth of ~5% in perpetuity = ~3% in dollars plus ~2% rupee depreciation; the low end of the house range because AI deflation caps volume growth in traditional services.",
+  "_fadeGrowthWhy": "Rupee revenue growth moves from 4.7% (FY29E) to 5% by FY37E.",
+  "_fadeMarginWhy": "EBITDA margin 19% (IT Services EBIT ~16%): below the 17-17.5% band because AI productivity is shared with clients.",
+  "_fadeCapexWhy": "Capex ~1.5% of revenue (offices, devices, data centres)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Americas BFSI and EMR recover as the Q1 large deals ramp, AI services (data, agents, Capco advisory) add more than deflation takes away, and margins return to the 17-17.5% band: US$ revenue +1% in FY27 and ~+4% a year after; EBITDA margin ~20.3% (IT Services EBIT ~17.3%).",
+   "revenueGrowthDelta": 1.5,
+   "marginDelta": 0.8,
+   "fadeMarginTo": 20
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "AI deflation accelerates (10-15% pass-throughs on renewals spread across the book), Americas keeps shrinking and Wipro buys growth at low margins: US$ revenue falls ~3% a year in FY28-29 and IT Services EBIT drops to ~15% (EBITDA ~18.2%).",
+   "revenueGrowthDelta": -3.5,
+   "marginDelta": -1.2,
+   "fadeMarginTo": 17.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 14,
+      "bull": 17,
+      "bear": 11
+     },
+     "why": "How the street values Wipro: every broker that discloses a method uses P/E, mostly on FY28E EPS (MOSL 11x, PL 12x, Choice 12x, Axis 13x, HDFC 14x, Deven Choksey 15x; Emkay 12x and Kotak 10x on Jun-28E), clustered at 11-13x (Jul-2026). 14x = Wipro's 19.5x median one-year-forward P/E since Apr-2021 (forwardMedian; no trough years) cut by the 29.0% median de-rating of the eight-company IT peer set versus each one's five-year median P/E at 30-Sep-2026 (TCS -53%, Infosys -49%, LTIMindtree -38%, L&T Technology -31%, Mphasis -27%, HCLTech -21%, Persistent -18%, Coforge -11%; Wipro itself excluded; Tech Mahindra left out because its FY24-25 earnings trough distorts both its median and its current P/E) = 13.85x. Incumbents only (TCS, Infosys, HCLTech, LTIMindtree: -43%) would give 11.1x, shown as a sensitivity. No further adjustment: our FY26-29E EPS growth (~4% a year on post-buyback shares) is close to the 5% of FY21-26, so Wipro's slowdown is smaller than the sector's; a dividend-discount check (88% payout as in FY24-26, Ke 11.9%, 5% growth) gives 12.8x, which would still mean a BUY. Bull 17x (half the de-rating reverses); bear 11x (the incumbents' 43% de-rating; also near Wipro's 2016-20 10th percentile of 12x)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 8,
+      "bull": 9.5,
+      "bear": 6.5
+     },
+     "why": "Counts net cash at face value. 8x Sep-28E EBITDA = Wipro's 12.7x median trailing EV/EBITDA since Apr-2021, cut by the same 29.0% peer de-rating (9.0x trailing), restated for Sep-28E EBITDA being ~12% above the twelve months to Jun-26 (Rs18,210 cr). Bull 9.5x / bear 6.5x on the same steps as the P/E (half the de-rating reversed; the incumbents' 43% de-rating). Trailing EV/EBITDA on 30-Sep-2026: 7.8x."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 10-year FCFF, Ke 11.9%, terminal growth 5%, plus net cash."
+    }
+   ]
+  }
+ }
+}
