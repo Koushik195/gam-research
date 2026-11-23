@@ -1,26 +1,193 @@
 # Work split between the two teams
 
-Claim a batch here before starting it (pull, edit, commit, push). Status: `claimed` → `published`.
-Team A = the original account (owns shared files and the website deploy). Team B = the second account.
+Two Claude accounts write reports into this repo at the same time. **Each team works only on its own queue below.** No symbol appears in both queues, so there is no overlap.
 
-## Published (55, as of 23-Nov-2026) — all Team A
+- **Team A** = the first account (owns `src/`, `public/`, shared tools, the playbook and the website deploy).
+- **Team B** = the second account.
 
-Batches 1-10: chemicals, paints, fertilisers, agri, hospitals, lenders (NBFCs, HFCs, cards), IT
-services, plus MARUTI, GODIGIT, SWIGGY, KALYANKJIL, SRF, SUMICHEM. See the library or
-`node -e` on `/api/coverage` for the full list.
+## How to use this file
 
-## In progress / claimed
+1. Before starting a batch: `git pull --rebase --autostash origin main`, change the batch's status from `queued` to `claimed (team, date)`, commit only this file, push. If the push is rejected, pull again and re-check.
+2. Work through your own queue in order (you may reorder batches within your own queue, never take symbols from the other queue).
+3. When a report is published, mark the symbol `published` with its rating and target.
+4. If your queue runs out, ask GAM Research to move a whole batch from the other queue; the owning team marks it `moved to A/B` first.
+5. Engine gaps (banks, December year-ends, missing features) go to Team A as a note here under "Engine requests"; Team B does not edit shared files.
 
-| Symbol | Team | Status | Notes |
-|---|---|---|---|
-| M&M | A | claimed (paused 23-Nov, research started) | SOTP; standalone screener, consolidated copy in research/ |
-| BAJAJ-AUTO | A | claimed (paused 23-Nov, research started) | patchRaw for minority losses (KTM) |
-| EICHERMOT | A | claimed (paused 23-Nov, research started) | Royal Enfield + VECV |
-| HEROMOTOCO | A | claimed (paused 23-Nov, research started) | Ather stake, Hero FinCorp |
-| TVSMOTOR | A | claimed (paused 23-Nov, research started) | standalone + TVS Credit SOTP |
+Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4 in progress). Industry labels come from the Nifty 500 list; names outside it are under "Other".
 
-## Proposed next for Team B (confirm with GAM Research before starting)
+## In progress
 
-Autos and auto parts not yet claimed, e.g. ASHOKLEY, TMPV / TMCV (Tata Motors after the 2025
-demerger), ESCORTS, BOSCHLTD, MOTHERSON, SONACOMS, UNOMINDA, BHARATFORG, EXIDEIND, BALKRISIND,
-MRF, APOLLOTYRE, CEATLTD, ENDURANCE, SCHAEFFLER, TIINDIA.
+| Symbol | Team | Status |
+|---|---|---|
+| M&M | A | claimed (batch 11) |
+| BAJAJ-AUTO | A | claimed (batch 11) |
+| HEROMOTOCO | A | claimed (batch 11) |
+| TVSMOTOR | A | claimed (batch 11) |
+
+## Engine requests (for Team A)
+
+- Banks need a bank layout in the lender engine (deposits/CASA, fees in other income, CRR/SLR, risk-weighted capital). Until then, Team A writes all banks.
+- December year-end companies (e.g. CASTROLIND) need December-year support before they can be written.
+
+## Team A queue (220 companies)
+
+### Financial Services (82)
+
+- A01 · queued · HDFCBANK, ICICIBANK, SBIN, LICI, KOTAKBANK
+- A02 · queued · AXISBANK, BAJAJFINSV, SBILIFE, PNB, UNIONBANK
+- A03 · queued · JIOFIN, ICICIAMC, TATACAP, BAJAJHLDNG, BANKBARODA
+- A04 · queued · GROWW, INDIANB, HDFCLIFE, CANBK, PFC
+- A05 · queued · PAYTM, IRFC, HDFCAMC, FEDERALBNK, IDBI
+- A06 · queued · ICICIGI, RECLTD, MCX, AUBANK, INDUSINDBK
+- A07 · queued · IDFCFIRSTB, ICICILIFE, BANKINDIA, MAHABANK, NAM-INDIA
+- A08 · queued · MOTILALOFS, IOB, GICRE, RBLBANK, YESBANK
+- A09 · queued · POLICYBZR, PIRAMALFIN, AIIL, MFSL, 360ONE
+- A10 · queued · ANANDRATHI, CRISIL, STARHEALTH, NUVAMA, HUDCO
+- A11 · queued · PNBHOUSING, IREDA, TATAINVEST, MANAPPURAM, UCOBANK
+- A12 · queued · LICHSGFIN, NIACL, CENTRALBK, ANGELONE, ABSLAMC
+- A13 · queued · BANDHANBNK, CHOLAHLDNG, IIFL, CGCL, CUB
+- A14 · queued · AADHARHFC, PINELABS, CREDITACC, CAMS, IFCI
+- A15 · queued · CHOICEIN, KFINTECH, FIVESTAR, SAMMAANCAP, J&KBANK
+- A16 · queued · UTIAMC, HOMEFIRST, JMFINANCIL, APTUS, CANFINHOME
+- A17 · queued · IEX, AAVAS
+
+### Healthcare (34)
+
+- A18 · queued · SUNPHARMA, DIVISLAB, TORNTPHARM, ZYDUSLIFE, CIPLA
+- A19 · queued · LAURUSLABS, DRREDDY, MANKIND, AUROPHARMA, LUPIN
+- A20 · queued · GLENMARK, ALKEM, ABBOTINDIA, BIOCON, IPCALAB
+- A21 · queued · GLAND, ANTHEM, AJANTPHARM, GLAXO, EMCURE
+- A22 · queued · LALPATHLAB, SAILIFE, WOCKPHARMA, ACUTAAS, PPLPHARMA
+- A23 · queued · NEULANDLAB, GRANULES, COHANCE, CAPLIPOINT, NATCOPHARM
+- A24 · queued · ONESOURCE, SYNGENE, POLYMED, CONCORDBIO
+
+### Fast Moving Consumer Goods (26)
+
+- A25 · queued · HINDUNILVR, ITC, NESTLEIND, VBL, BRITANNIA
+- A26 · queued · MARICO, TATACONSUM, UNITDSPR, GODREJCP, DABUR
+- A27 · queued · RADICO, COLPAL, PATANJALI, UBL, GODFRYPHLP
+- A28 · queued · GILLETTE, AWL, ABDL, EMAMILTD, ZYDUSWELL
+- A29 · queued · HONASA, BALRAMCHIN, LTFOODS, CCL, DOMS
+- A30 · queued · EIDPARRY
+
+### Information Technology (18)
+
+- A31 · queued · LTM, PERSISTENT, COFORGE, OFSS, MPHASIS
+- A32 · queued · LTTS, HEXT, IKS, TATATECH, NETWEB
+- A33 · queued · TATAELXSI, SAGILITY, AFFLE, KPITTECH, CYIENT
+- A34 · queued · ZENSARTECH, BSOFT, INTELLECT
+
+### Power (17)
+
+- A35 · queued · ADANIPOWER, NTPC, POWERGRID, ADANIGREEN, ADANIENSOL
+- A36 · queued · TATAPOWER, JSWENERGY, NHPC, NTPCGREEN, TORNTPOWER
+- A37 · queued · NLCINDIA, ACMESOLAR, SJVN, CESC, NAVA
+- A38 · queued · JPPOWER, RPOWER
+
+### Construction (13)
+
+- A39 · queued · LT, RVNL, KPIL, CEMPRO, IRB
+- A40 · queued · NBCC, ENGINERSIN, TECHNOE, IRCON, RITES
+- A41 · queued · KEC, AFCONS, NCC
+
+### Services (11)
+
+- A42 · queued · ADANIPORTS, INDIGO, GMRAIRPORT, JSWINFRA, CONCOR
+- A43 · queued · REDINGTON, DELHIVERY, GESHIP, FSL, ECLERX
+- A44 · queued · IGIL
+
+### Realty (11)
+
+- A45 · queued · DLF, LODHA, PHOENIXLTD, PRESTIGE, OBEROIRLTY
+- A46 · queued · GODREJPROP, BRIGADE, ANANTRAJ, SOBHA, ABREL
+- A47 · queued · SIGNATURE
+
+### Textiles (5)
+
+- A48 · queued · PAGEIND, KPRMILL, WELSPUNLIV, VTL, TRIDENT
+
+### Media Entertainment & Publication (3)
+
+- A49 · queued · SUNTV, PFOCUS, PVRINOX
+
+## Team B queue (220 companies)
+
+### Capital Goods (63)
+
+- B01 · queued · HAL, BEL, TMCV, BHEL, ABB
+- B02 · queued · CGPOWER, CUMMINSIND, POWERINDIA, SIEMENS, POLYCAB
+- B03 · queued · ENRIN, GVT&D, ASHOKLEY, MAZDOCK, WAAREEENER
+- B04 · queued · WELCORP, APARINDS, APLAPOLLO, SUZLON, CPPLUS
+- B05 · queued · SUPREMEIND, PREMIERENE, PTCIL, BDL, ASTRAL
+- B06 · queued · THERMAX, KEI, AIAENG, SHYAMMETL, COCHINSHIP
+- B07 · queued · ESCORTS, HONAUT, SYRMA, KIRLOSENG, SCHNEIDER
+- B08 · queued · RRKABEL, KAYNES, GRSE, DATAPATTNS, HBLENGINE
+- B09 · queued · TIMKEN, JYOTICNC, CARBORUNIV, FINCABLES, EMMVEE
+- B10 · queued · ELGIEQUIP, BEML, JINDALSAW, TRITURBINE, USHAMART
+- B11 · queued · ZENTEC, GRAPHITE, GPIL, GALLANTT, KIRLOSBROS
+- B12 · queued · ACE, INOXWIND, ELECON, TARIL, TITAGARH
+- B13 · queued · JWL, RHIM, HEGAM
+
+### Other / not in Nifty 500 list (36)
+
+- B14 · queued · 3MINDIA, TVSHLTD, PGHH, GRINDWELL, GUJENERGY
+- B15 · queued · THELEELA, CHALET, ERIS, DCMSHRIRAM, TRAVELFOOD
+- B16 · queued · JUBLPHARMA, 544467, INDGN, JSWDULUX, JSWHL
+- B17 · queued · MANYAVAR, BIKAJI, BLUEDART, FINPIPE, ABLBL
+- B18 · queued · CELLO, BBTC, MAHSEAMLES, MEDPLUS, EMBDL
+- B19 · queued · SONATSOFTW, JYOTHYLAB, NEWGEN, SAPPHIRE, JKLAKSHMI
+- B20 · queued · CERA, RCF, ABFRL, LATENTVIEW, MAPMYINDIA
+- B21 · queued · ALOKINDS
+
+### Automobile and Auto Components (31)
+
+- B22 · queued · MOTHERSON, HYUNDAI, BOSCHLTD, TMPV, BHARATFORG
+- B23 · queued · UNOMINDA, SCHAEFFLER, ATHERENERG, MRF, SONACOMS
+- B24 · queued · BALKRISIND, TIINDIA, ENDURANCE, EXIDEIND, CRAFTSMAN
+- B25 · queued · APOLLOTYRE, ZFCVINDIA, GABRIEL, MSUMI, ASAHIINDIA
+- B26 · queued · FORCEMOT, BELRISE, TENNIND, OLAELEC, MINDACORP
+- B27 · queued · CIEINDIA, ARE&M, CEATLTD, JBMA, RKFORGE
+- B28 · queued · OLECTRA
+
+### Consumer Services (21)
+
+- B29 · queued · ETERNAL, DMART, TRENT, INDHOTEL, LENSKART
+- B30 · queued · MEESHO, NYKAA, NAUKRI, VMM, IRCTC
+- B31 · queued · PWL, ITCHOTELS, JUBLFOOD, URBANCO, EIHOTEL
+- B32 · queued · TBOTEK, DEVYANI, INDIAMART, BLS, LEMONTREE
+- B33 · queued · FIRSTCRY
+
+### Oil Gas & Consumable Fuels (17)
+
+- B34 · queued · RELIANCE, ONGC, COALINDIA, IOC, BPCL
+- B35 · queued · GAIL, OIL, HINDPETRO, ATGL, AEGISLOG
+- B36 · queued · PETRONET, MRPL, AEGISVOPAK, CHENNPETRO, IGL
+- B37 · queued · CASTROLIND, MGL
+
+### Metals & Mining (17)
+
+- B38 · queued · ADANIENT, JSWSTEEL, HINDZINC, TATASTEEL, HINDALCO
+- B39 · queued · VAML, JINDALSTEL, LLOYDSME, SAIL, NMDC
+- B40 · queued · JSL, NATIONALUM, HINDCOPPER, SARDAEN, GMDCLTD
+- B41 · queued · NSLNISP, GRAVITA
+
+### Consumer Durables (12)
+
+- B42 · queued · TITAN, LGEINDIA, DIXON, HAVELLS, VOLTAS
+- B43 · queued · BLUESTARCO, AMBER, KAJARIACER, PGEL, CROMPTON
+- B44 · queued · WHIRLPOOL, BATAINDIA
+
+### Construction Materials (11)
+
+- B45 · queued · ULTRACEMCO, GRASIM, AMBUJACEM, SHREECEM, JKCEMENT
+- B46 · queued · DALBHARAT, ACC, RAMCOCEM, JSWCEMENT, NUVOCO
+- B47 · queued · INDIACEM
+
+### Telecommunication (8)
+
+- B48 · queued · BHARTIARTL, IDEA, INDUSTOWER, BHARTIHEXA, TATACOMM
+- B49 · queued · HFCL, RAILTEL, TEJASNET
+
+### Chemicals (4)
+
+- B50 · queued · AETHER, JUBLINGREA, CLEAN, SWANCORP
