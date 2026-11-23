@@ -33,6 +33,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - (B, 23-Nov) Industrial engine has no share-issue line: a QIP before the as-of date (BHARATFORG, Sep-2026) needs a patch for the post-issue share count, and the QIP cash isn't on the balance sheet.
 - (B, 23-Nov) Team B fetched `data/raw/TATATECH/screener.json` as a TMPV peer (TATATECH is in Team A's queue); refetch freely.
 - (B, 23-Nov) Chart palette has only 4 colours; a fifth series crashes the chart (MOTHERSON sets it explicitly). DCF value and sensitivity grid round to ₹10, coarse for low-priced stocks.
+- (B, 23-Nov) No acquisition line; and Screener back-fills restated quarters after a common-control deal (BOSCHLTD's Sep-2025 and Jun-2026 quarters show the Nov-2026 RBIC restatement), which is look-ahead. BOSCHLTD.patch.js restores the as-reported figures.
 
 ## Team A queue (220 companies)
 
@@ -146,7 +147,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 ### Automobile and Auto Components (31)
 
-- B22 · claimed (B, 23-Nov-2026) · MOTHERSON published (SELL, 131), HYUNDAI published (HOLD, 2,160), BOSCHLTD, TMPV published (BUY, 380), BHARATFORG published (HOLD, 2,070)
+- B22 · published (B, 23-Nov-2026) · MOTHERSON published (SELL, 131), HYUNDAI published (HOLD, 2,160), BOSCHLTD published (SELL, 35,800), TMPV published (BUY, 380), BHARATFORG published (HOLD, 2,070)
 - B23 · queued · UNOMINDA, SCHAEFFLER, ATHERENERG, MRF, SONACOMS
 - B24 · queued · BALKRISIND, TIINDIA, ENDURANCE, EXIDEIND, CRAFTSMAN
 - B25 · queued · APOLLOTYRE, ZFCVINDIA, GABRIEL, MSUMI, ASAHIINDIA

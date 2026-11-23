@@ -1,0 +1,193 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Bosch Ltd (consolidated, Rs crore). FY26 is the last reported year and excludes Bosch Chassis Systems India (RBIC), bought from the parent in Jul-2026 for Rs9,068.68 cr (99.9% cash). As a common-control deal it is pooled: FY27 consolidates RBIC for the whole year (and FY26 will be restated in the FY27 accounts, after our as-of date). The engine has no acquisition line, so (1) tools/authoring/BOSCHLTD.patch.js puts the Mar-26 balance sheet on a pro forma basis (investments and reserves down by the Rs8,020 cr net cash outflow) and puts back the as-reported Q2FY26 and Q1FY27 quarters that Screener has overwritten with later restated numbers; (2) revenue is a single growth path computed from the business-line build in `build` (Automotive, Consumer Goods, Others, RBIC), and EBITDA margin is the build's blended margin; both are checked in tools/authoring/BOSCHLTD.ctx.js. Valued on P/E, as the street does; the multiple is derived in BOSCHLTD.ctx.js and written here by BOSCHLTD.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  41.47,
+  10.29,
+  9.39
+ ],
+ "_revenueWhy": "From the build below. FY27E +41.5% = Bosch's own businesses +14.7% (Rs22,976 cr) plus a full year of RBIC (Rs5,368 cr, pooled from 1-Apr-2026). Bosch alone: Q1FY27 +22% (mobility +25.7%, power tools +20.9%), but from Q3 it laps the GST 2.0 boost of Sep-2025 and management's FY27 production outlook (May-2026) was 'flattish' (26.9-28.3 mn vehicles vs 26.86 mn); we assume Automotive +15.5% for the year (Q2 +18%, Q3 +13%, Q4 +9%). FY28E +10.3% and FY29E +9.4%: vehicle production +3-5%, content gains from CAFE Phase 3 (draft, Apr-2027) and CV ADAS (Jan/Oct-2027), RBIC +11-12% on ESP/ABS and airbag-ECU penetration. Street: MOSL Rs28,944 cr / Rs31,607 cr (FY27E/FY28E, 11-Aug-2026).",
+ "ebitdaMargin": [
+  14.62,
+  14.68,
+  14.74
+ ],
+ "_marginWhy": "Blended from the build: Bosch alone 13.6% / 13.7% / 13.8% (FY24 12.5%, FY25 12.8%, FY26 13.2%, Q1FY27 14.0%; management says the margin is sustainable, but gross margin fell 420bp in Q1 as traded goods rose, royalty and group service fees grew 29% and 24% in FY26, and the >Rs500 cr Q4FY26-Q1FY27 run-rate includes the GST surge) and RBIC 19.0% / 18.8% / 18.6% (12.8% FY23, 15.2% FY24, 19.3% FY25; 'we will hold margins very steady for the next 5 years or so... margins will be under some pressure', Apr-2026). Street: MOSL 14.2% / 14.4%.",
+ "capex": [
+  600,
+  650,
+  700
+ ],
+ "_capexWhy": "Bosch's capex was Rs410 cr in FY26 (company; Rs316 cr cash per Screener) and Rs330-640 cr a year in FY22-FY25 (cash). Plus RBIC, whose capex the company called 'a reasonable percentage of TNS' without a number (gap): we assume ~3% of its revenue (~Rs160-200 cr). Investments in the Tata AutoComp and TSF joint ventures are not in capex and not in our treasury forecast (amounts not quantified in our sources).",
+ "depRateOnGrossBlock": 9.1,
+ "_depWhy": "FY26 D&A Rs392 cr = 7.5% of average gross block (Rs5,259 cr; includes investment-property and lease depreciation). The engine starts from Bosch's gross block only (RBIC's assets are not on the pro forma Mar-26 balance sheet), so the rate is raised to 9.1% to add RBIC's depreciation (~Rs100 cr a year, our estimate from its FY25 EBITDA and PAT margins): FY27E ~Rs520 cr (MOSL Rs520 cr), FY28E ~Rs575 cr, FY29E ~Rs635 cr. Q1FY27 standalone D&A was Rs99 cr.",
+ "otherTreasury": {
+  "base": 5356.6,
+  "_why": "Treasury that Screener books in other assets: bank deposits with original maturity over 12 months Rs4,270.0 cr (current Rs3,738.0 cr + non-current Rs532.0 cr), secured inter-corporate deposits to Bosch group companies Rs950.0 cr (8.90-9.55%, guaranteed by Robert Bosch GmbH) and interest accrued Rs136.6 cr (AR FY26 consolidated notes 7(c), 7(f)). With Screener cash Rs403 cr and investments (pro forma nil) less Rs119 cr of leases, the pro forma Mar-26 net treasury is Rs5,641 cr (Rs13,661 cr before the RBIC payment), including Rs1,198 cr of HDFC Bank, ICICI Bank and start-up stakes and Rs39 cr of equity-accounted associates."
+ },
+ "treasuryYield": [
+  5.45,
+  5.45,
+  5.45
+ ],
+ "_treasuryWhy": "Applied by the engine to opening net treasury, which includes ~Rs1,237 cr of strategic equity and associates that yield only dividends (Rs19 cr in FY26). 5.45% on the total = ~6.25% on the interest-bearing part plus dividends (checked in BOSCHLTD.ctx.js). FY26 treasury income (deposit interest Rs296 cr + group ICDs Rs112 cr + bonds Rs1 cr + fund gains Rs385 cr = Rs794 cr) was ~6.7% of the average interest-bearing treasury; we take 6.25% after the repo rate fell to 5.25% (RBI, held in Aug-2026).",
+ "otherIncome": [
+  141,
+  0,
+  0
+ ],
+ "_otherIncomeWhy": "FY27E only: the April-June quarter earned Rs226 cr of other income on the pre-deal treasury (Rs13,661 cr), Rs141 cr more than one quarter of our post-deal yield on the pro forma Rs5,641 cr. So FY27E other income = Rs226 cr (Q1 actual) + ~Rs224 cr for Q2-Q4 = ~Rs449 cr, against Rs854 cr in FY26 and Rs792 cr in the twelve months to Jun-26: the gap is the ~Rs8,000 cr net paid for RBIC (~Rs500 cr a year of income before tax) and lower deposit yields. FY26 one-offs (Rs20 cr GST-amnesty interest reversal, Rs2 cr tax-refund interest, Rs2 cr write-backs) and exceptional items are not forecast. RBIC's own treasury income is in the yield (its ~Rs1,033 cr of cash is in the pro forma treasury).",
+ "interest": [
+  28,
+  30,
+  32
+ ],
+ "_interestLabel": "Interest cost (leases, interest on taxes, dealer deposits)",
+ "_interestWhy": "FY26 Rs27 cr (leases Rs9 cr, interest on taxes Rs8 cr, dealer security deposits and MSME Rs9 cr); Q1FY27 Rs6 cr. No debt.",
+ "taxRate": [
+  25,
+  25,
+  25
+ ],
+ "_taxWhy": "Q1FY27 25.2%; FY26 23.9% reported (the building-technology gain was taxed at capital-gains rates) and ~24-25% before it; RBIC ~25%. Fund gains (lower tax) shrink with the treasury.",
+ "payout": [
+  55,
+  55,
+  55
+ ],
+ "_payoutWhy": "Dividend policy (AR FY26 annexure H): 55-85% of PAT, up to 100%. FY26 paid only 29% (Rs270 a share) to fund RBIC; FY25 44%, FY24 99% (incl. the business-sale gain). We assume the bottom of the policy range while the treasury is rebuilt.",
+ "build": {
+  "_note": "Business-line build (Rs crore). Bosch lines from AR FY26 note 33 (external revenue; Others net of Rs37 cr inter-segment). RBIC FY26 is our estimate (gap): 9MFY26 revenue Rs3,533 cr (Apr-2026 deck) plus a Q4 ~1% above the 9M quarterly average; FY25 Rs3,936 cr. Checked against model revenue and EBITDA in BOSCHLTD.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "auto": 17807.4,
+   "cg": 1836,
+   "others": 391.3,
+   "rbic": 4750
+  },
+  "autoGrowth": [
+   15.5,
+   10,
+   9
+  ],
+  "cgGrowth": [
+   12,
+   10,
+   10
+  ],
+  "othersGrowth": [
+   -10,
+   3,
+   3
+  ],
+  "rbicGrowth": [
+   13,
+   12,
+   11
+  ],
+  "boschMargin": [
+   13.6,
+   13.7,
+   13.8
+  ],
+  "rbicMargin": [
+   19,
+   18.8,
+   18.6
+  ],
+  "rbicDep": [
+   100,
+   110,
+   120
+  ],
+  "_why": "Automotive: Q1FY27 +23.3%; Q2 +18%, Q3 +13%, Q4 +9% as the GST base bites (FY27 +15.5%), then +10% and +9% (production +3-5% plus content). Consumer Goods (power tools): +6.4% FY26, +20.9% in Q1FY27: +12%, then +10%. Others: building technology sold May-2025 (Q1FY27 Rs88 cr vs Rs115 cr): -10%, then +3%. RBIC: 17% CAGR FY23-25, ~20% in 9MFY26 (deck); MOSL models 12% for FY26-28: 13% / 12% / 11%."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 14.5,
+  "fadeCapexPctTo": 2.2,
+  "depPctOfSales": 2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Debt-free with net cash, but earnings follow vehicle production cycles and the diesel/ICE share of the portfolio adds long-run risk: 0.9 (Ke 11.9%).",
+  "_tgWhy": "India's nominal GDP grows ~10%; vehicle production is expected to grow only 3-4% a year to 2033 (Bosch market prognosis), with content gains on top. House range 5-6%: 6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~9% to 8% over 15 years: volume plus content per vehicle, less ICE erosion.",
+  "_fadeMarginWhy": "EBITDA margin held near 14.5%: RBIC's higher margin offsets royalty and group-fee creep and EV price pressure.",
+  "_fadeCapexWhy": "Asset-light: capex ~2% of revenue (FY26 2.0% incl. investment property); depreciation ~2% of revenue."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Content per vehicle compounds faster: CAFE Phase 3 and CV ADAS lift Power Solutions, 2-wheeler ABS spreads below 125cc, RBIC keeps growing ~17% a year and exports rise; Bosch's own margin moves towards 15% as localisation lowers imports from the parent.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 0.8,
+   "fadeMarginTo": 15.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The GST step-up fades and production grows ~2%; diesel and ICE content shrinks faster with EV adoption in cars and buses; group royalties and service fees keep rising faster than revenue; margin slips back to ~13.4% blended, the FY25 level plus RBIC.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -1.2,
+   "fadeMarginTo": 13
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 30.5,
+      "bull": 33.5,
+      "bear": 25.5
+     },
+     "why": "How the street values Bosch: P/E on one-year-forward EPS (MOSL ~40x FY28E, 11-Aug-2026; Geojit 37x FY27E). Multiple derived in BOSCHLTD.ctx.js and written by BOSCHLTD.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 18,
+      "bull": 20,
+      "bear": 16.5
+     },
+     "why": "Values the operating business and the (much smaller, post-RBIC) treasury separately."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 11.9%, terminal growth 6%, plus pro forma net cash."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "symbol": "BOSCHLTD",
+ "asOf": "2026-09-30",
+ "industry": {
+  "production": {
+   "fy26TotalMn": 26.86, "fy26GrowthPct": 11, "fy26PcMn": 5.61, "fy26PcGrowthPct": 10, "q1fy27TotalMn": 7.29, "q1fy27GrowthPct": 22,
+   "fy27OutlookLowMn": 26.86, "fy27OutlookMidMn": 27.92, "fy27OutlookHighMn": 28.27, "fy27PcLowMn": 5.61, "fy27PcHighMn": 5.90, "longRunCagrPct": "3-4",
+   "src": "Q4FY26 investor presentation (production summary and FY27 prognosis, SIAM; 20-May-2026); Q1FY27 presentation (10-Aug-2026); annual investors meet (long-run 2025-2033 CAGR)"
+  },
+  "regulation": [
+   ["OBD-II (2-wheelers), Apr-2025", "On-board diagnostics for two-wheelers", "Exhaust-gas (lambda) sensors: 2-Wheeler business +69% in FY26, +63% in Q4FY26"],
+   ["GST 2.0, 22-Sep-2025", "GST on small cars, two-wheelers up to 350cc, tractors, trucks and buses cut (28% to 18%)", "Production +11% in FY26 and +22% in Q1FY27; the base gets tough from Q3FY27"],
+   ["CAFE Phase 3 (draft), Apr-2027", "Tighter fleet fuel-efficiency targets for cars", "More fuel-injection, EMS and hybrid content (management: incremental opportunity, not quantified)"],
+   ["CV ADAS, Jan-2027 / Oct-2027", "Advanced driver-assistance systems for new truck and bus models from Jan-2027, all models from Oct-2027", "New regulated market: radar/camera systems; RBIC's braking (ESP/AEB) actuation"],
+   ["2-wheeler ABS (proposed)", "ABS for all new two-wheelers including below 125cc (RBIC deck: 'becomes mandatory'; date not confirmed in our sources)", "Large volume opportunity for RBIC; not in our base case"],
+   ["Airbags and Bharat NCAP", "Six-airbag push and crash ratings", "Airbag control units and sensors (RBIC)"]
+  ],
+  "ev": "Bosch's own prognosis (May-2026): the overall Indian vehicle market grows 3-4% a year to 2033, with battery-electric penetration rising in buses, small (<2t) LCVs and cars on total cost of ownership. Power Solutions (fuel injection, engine management) is ICE content; RBIC's braking and safety content is powertrain-agnostic (EVs need new braking systems such as iBooster for regeneration). Bosch's e-axle entry is through a 50:50 JV with Tata AutoComp (first shipments Q3 of calendar 2027).",
+  "evSrc": "Annual investors meet (20-May-2026); RBIC deck (8-Apr-2026); Q4FY26 call (21-May-2026)"
+ },
+ "peers": {
+  "set": ["MOTHERSON", "BHARATFORG", "UNOMINDA", "SCHAEFFLER", "SONACOMS", "TIINDIA", "ENDURANCE", "ZFCVINDIA", "MSUMI"],
+  "excluded": { "BHARATFORG": "Earnings distorted: exceptional charges in three of the last four quarters (Rs358 cr in Jun-2026, which turned the quarter into a Rs90 cr loss), so its ~93x trailing P/E on 30-Sep-2026 sits on depressed EPS" },
+  "note": "Listed Indian auto-component makers with Screener data (Screener's own peer list for Bosch plus Endurance, ZF CV and Motherson Sumi Wiring). Schaeffler reports on December years (revenue/ROE blank in the as-of table) and its P/E history starts Feb-2023; ZF CV's starts May-2022 and MSUMI's Apr-2022: their medians cover the history available. The same exclusion is used in the Motherson and Bharat Forge initiations."
+ },
+ "street": {
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-08-11", "rating": "Neutral", "tp": 43728, "method": "P/E", "multiple": "40x", "on": "FY28E", "eps": { "FY27E": 1016.3, "FY28E": 1093.2 }, "revenue": { "FY27E": 28944, "FY28E": 31607 }, "ebitdaMarginPct": { "FY27E": 14.2, "FY28E": 14.4 }, "thesis": "Q1 beat (revenue +22%, margin 14%); estimates +11%/+5%; RBIC from Q2; CAFE 3 and CV ADAS are content opportunities; 'fairly valued' at 44.6x/41.4x FY27E/FY28E", "src": "MOSL 1QFY27 results update (PDF)" },
+   { "broker": "Not named in our source (Reduce)", "date": "2026-08-31", "rating": "Reduce", "tp": 34984, "method": "P/E", "multiple": "n.d.", "on": "n.d.", "thesis": "Raised FY27-29E EPS 3-4% but a 40-plus P/E is rich for mid-teen EPS growth of the combined Bosch + RBIC", "src": "Business Standard, 31-Aug-2026, via search excerpt (site blocks automated reading; broker name not visible)" },
+   { "broker": "Not named in our source (highest target)", "date": "2026-08-31", "rating": "n.d.", "tp": 54050, "method": "n.d.", "multiple": "n.d.", "on": "n.d.", "thesis": "Highest target in coverage after Q1 (Business Standard roundup); rating and method not visible in our source", "src": "Business Standard, 31-Aug-2026, via search excerpt" },
+   { "broker": "UBS", "date": "2026-06-12", "rating": "Buy", "tp": 45530, "method": "n.d.", "multiple": "n.d.", "on": "n.d.", "thesis": "Upgraded from Sell (target Rs27,920): the RBIC purchase and the Tata AutoComp/TSF JVs reposition the portfolio and lift growth; risk: powertrain/ICE exposure", "src": "India Blooms citing NDTV Profit, 12-Jun-2026" },
+   { "broker": "Motilal Oswal (superseded)", "date": "2026-04-09", "rating": "Neutral", "tp": 35323, "method": "P/E", "multiple": "36x", "on": "Dec-27E", "thesis": "RBIC deal 'attractively priced for minority shareholders' at 10.6x EV/EBITDA vs Bosch ~40x; +5%/+7% to FY27E/FY28E EPS; stock up ~19% in three sessions", "src": "MOSL company update (PDF)" },
+   { "broker": "Geojit BNP Paribas", "date": "2025-09-19", "rating": "Sell", "tp": 35169, "method": "P/E", "multiple": "37x", "on": "FY27E", "thesis": "Downgrade on US tariff and geopolitical risks (pre-RBIC; no later note found)", "src": "Trendlyne research listing" }
+  ],
+  "notUsed": "ICICI Securities' Buy (Rs62,500) is dated 9-Nov-2026, after our as-of date; Trendlyne's consensus of ~Rs53,000 is a Nov-2026 snapshot.",
+  "consensus": "No post-Q1 consensus dated before 30-Sep-2026 was found; MOSL is the only post-Q1 note with published estimates in our sources."
+ },
+ "ownership": {
+  "date": "2026-06-30",
+  "categories": { "promoters": 70.54, "mutualFunds": 6.67, "insurance": 7.65, "pension": 0.67, "aif": 0.15, "fpi": 7.10, "retailUpTo2L": 5.13, "individualsAbove2L": 0.55 },
+  "named": [
+   ["Robert Bosch Internationale Beteiligungen AG (promoter)", 67.75],
+   ["Bosch Global Software Technologies Pvt Ltd (promoter group)", 2.78],
+   ["HDFC Mutual Fund (various schemes)", 3.78],
+   ["General Insurance Corporation of India", 2.81],
+   ["The New India Assurance Co.", 1.75],
+   ["Life Insurance Corporation of India", 1.38],
+   ["Robert Bosch Investment Nederland B.V. and Robert Bosch LLC (promoter group; 1,230 shares each, allotted 10-Jun-2026)", 0.01]
+  ],
+  "shareholders": 65497,
+  "shares": 29496100,
+  "pledged": 0,
+  "src": "Shareholding pattern for the quarter ended 30-Jun-2026 (bosch.in, generated 20-Jul-2026); Screener.in (shareholder count)"
+ },
+ "stockEvents": [
+  ["9-Apr-2026", "RBIC acquisition announced (8-Apr)", "Stock up ~19% in three sessions (MOSL, 9-Apr-2026) to ~Rs36,000"],
+  ["12-Jun-2026", "UBS upgrades to Buy (target Rs45,530)", "+~5% on the day (prior close Rs37,565)"],
+  ["10/11-Aug-2026", "Q1FY27: revenue +22%, margin 14%", "Up ~18% in August to a record (Business Standard, 18-Aug-2026); Rs48,640 on 28-Aug-2026"],
+  ["30-Sep-2026", "As-of close", "Rs47,100 (NSE)"]
+ ],
+ "moat": [
+  ["Parent technology and IP", "Strong", "Access to Robert Bosch GmbH's products and R&D (~87k researchers group-wide); first to bring ESP/ABS to India (RBIC); 'best in technology' OEM awards (Q1FY27)", "The reason OEMs buy Bosch; but it is rented, not owned: royalty and technical fees were Rs478 cr (2.4% of revenue, +29%) in FY26"],
+  ["Position in engine management and fuel injection", "Strong (ICE)", "Power Solutions grew 17.6% in FY26 and 29% in Q1FY27, ahead of production; 2-wheeler EMS share gains ('we've gained market share', Aug-2026). Market shares not disclosed", "High share in a technology that shrinks as EVs grow; regulation (CAFE 3, OBD) keeps adding content for now"],
+  ["Safety and braking (RBIC)", "Strong", "'Dominant market presence' in ESP/ABS, airbag ECUs and sensors; 17% revenue CAGR FY23-25; EBITDA margin 12.8% to 19.3%; order book 'very, very full'", "Powertrain-agnostic and regulation-driven: the best part of the business, now owned"],
+  ["Aftermarket brand and reach", "Moderate", "Bosch brand, workshop programme, lubricants, batteries, filters; growth only 3.7% in FY26, 9.6% in Q1FY27 after 'corrections in strategy'", "A cash cow that had stalled; the recovery is one quarter old"],
+  ["Cost position", "Weak-Moderate", "58% of purchases from related parties; purchases of traded goods Rs7,987 cr (40% of revenue); gross margin -420bp YoY in Q1FY27; EBITDA margin 12-14% vs Schaeffler, Sona and ZF CV at 16-24%", "A large part of the value chain sits with the parent: margins are structurally lower than the brand suggests"],
+  ["Electrification", "Weak / unproven", "E-axles via a 50:50 JV (Tata AutoComp, first shipments 2027); EV revenue 'not showing up in terms of turnover' (MD, Aug-2026)", "Bosch shares the economics of its EV entry; the ICE franchise has no like-for-like replacement yet"]
+ ],
+ "critiques": [
+  ["A 40-plus P/E is rich for mid-teen EPS growth, even with RBIC.", "Reduce-rated broker (Business Standard, 31-Aug-2026)"],
+  ["Fairly valued at 44.6x/41.4x FY27E/FY28E after a strong quarter.", "Motilal Oswal (11-Aug-2026)"],
+  ["RBIC was bought cheaply (10.6x EV/EBITDA) relative to Bosch's own ~40x: good for minorities.", "Motilal Oswal (9-Apr-2026); bull case"],
+  ["Powertrain and ICE exposure remains the long-term risk.", "UBS (12-Jun-2026)"],
+  ["Related-party flows are large and rising: royalty plus group professional fees Rs1,575 cr (7.9% of revenue) in FY26 vs Rs1,255 cr in FY25; 58% of purchases are from the group; Rs950 cr lent to group companies.", "GAM Research (AR FY26 notes 26, 36, 7(c))"],
+  ["Earnings history is flattered by business sales to the group and others (Rs785 cr gain in FY24, Rs556 cr in FY26): reported EPS overstates the run-rate by 15-35% in those years.", "GAM Research (AR notes 40)"]
+ ],
+ "governance": {
+  "auditor": "S.R. Batliboi & Associates LLP; unqualified opinion",
+  "board": "8 directors (Mar-2026): 4 independent (2 women), the chair (former MD, non-independent), 1 Bosch group nominee and the MD and JMD",
+  "relatedParty": "Royalty and technical fees Rs478 cr; professional and other charges to the group Rs1,097 cr; purchases of goods from the group Rs7,786 cr; ICDs to group companies Rs950 cr at 8.90-9.55%; RBIC bought from the parent for Rs9,069 cr (minority vote by postal ballot, PwC valuation, ICICI Securities fairness opinion)",
+  "capitalAllocation": "Payout 29% in FY26 (policy 55-85%) to fund RBIC; dividends to the parent were Rs1,023 cr in FY26; business sales to group entities in FY24-FY25",
+  "src": "AR FY26 (corporate governance report, notes 26, 36, 7(c)); postal ballot notice (8-Apr-2026)"
+ },
+ "gaps": [
+  "RBIC FY26 full-year revenue, EBITDA, PAT and its Mar-26 balance sheet were not published by 30-Sep-2026 (only 9MFY26 revenue of Rs3,533 cr and FY25 net worth of Rs1,410 cr); our FY26 base of Rs4,750 cr is an estimate.",
+  "RBIC depreciation and capex are not disclosed; we assume ~Rs100 cr and ~3% of revenue.",
+  "Revenue of Power Solutions, 2-Wheeler and Mobility Aftermarket is not disclosed (growth rates only).",
+  "Names, ratings and methods behind the Rs34,984 (Reduce) and Rs54,050 targets: the Business Standard roundup (31-Aug-2026) could not be read (site blocks automated access).",
+  "No post-Q1 consensus estimates dated before 30-Sep-2026 were found.",
+  "Investment amounts for the Tata AutoComp and TSF joint ventures are not quantified in our sources.",
+  "Market shares in fuel injection, EMS and ESP/ABS are not disclosed.",
+  "Segment data for FY20-FY21 were not extracted (annual reports for those years not processed).",
+  "Status of the proposed all-two-wheeler ABS mandate at 30-Sep-2026 not confirmed."
+ ],
+ "conflicts": [
+  "Q1FY27 consolidated PAT: Rs704.9 cr (Free Press Journal/PTI), Rs705 cr (Upstox body; headline Rs795 cr) and Rs706.1 cr with EPS Rs239.41 (Kotak Neo). We use Rs706.1 cr, which matches the EPS.",
+  "Screener's Sep-2025 and Jun-2026 quarters show RBIC-restated figures from the Nov-2026 filing (e.g. Q1FY27 revenue Rs7,167 cr); the numbers reported at the time were Rs4,795 cr and Rs5,842 cr. We use the as-reported numbers (BOSCHLTD.patch.js).",
+  "A search summary attributed the Rs54,050 target to UBS with an 'accumulate' rating; UBS's last target we can verify is Rs45,530 (Buy, 12-Jun-2026). We list the Rs54,050 target as unnamed.",
+  "Exports: management said ~8-8.5% of revenue (Aug-2026); the FY26 directors' report shows export sales of Rs1,492 cr (7.4%) and overseas revenue of Rs1,629 cr (8.1%).",
+  "MOSL's FY27E balance sheet (11-Aug-2026) keeps investments rising to Rs11,095 cr, which does not appear to deduct the ~Rs9,060 cr RBIC payment; our forecast does."
+ ]
+}
