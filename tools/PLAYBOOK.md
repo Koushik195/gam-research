@@ -190,6 +190,12 @@ close: for short histories compute the series on all weekly closes in your ctx (
   directions). Factors excluding self: SUNPHARMA +10.25%, CIPLA +7.5%, DIVISLAB / TORNTPHARM /
   ZYDUSLIFE +5.45%. A limited-competition windfall (e.g., gRevlimid) is not a one-off under §4: the
   base median uses reported EPS, and an ex-windfall median may be shown as a sensitivity row.
+  Names outside the set use the median of all nine: +8.2% (LAURUSLABS, DRREDDY, LUPIN). AUROPHARMA
+  +5.45%. MANKIND (listed May-2023): own median since 1-Nov-2023 (IPO months skipped) × the nine
+  peers' move against their medians over the same window, +11.0%. Batch practice (A18): where
+  exceptional items are material, the base median uses EPS before them (forecasts carry none) and
+  the reported-EPS median is a sensitivity row. A pharma name valued on EV/EBITDA uses the EV/EBITDA
+  analogue of the factor (e.g., TORNTPHARM +5.55%).
 
 ## 8. Do not
 
