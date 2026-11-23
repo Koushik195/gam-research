@@ -61,7 +61,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 ### Healthcare (34)
 
-- A18 · claimed (A, 23-Nov-2026) · SUNPHARMA published (HOLD, 1,800), DIVISLAB published (SELL, 8,710), TORNTPHARM, ZYDUSLIFE published (SELL, 950), CIPLA published (BUY, 1,670)
+- A18 · published (A, 23-Nov-2026) · SUNPHARMA published (HOLD, 1,800), DIVISLAB published (SELL, 8,710), TORNTPHARM published (SELL, 4,260), ZYDUSLIFE published (SELL, 950), CIPLA published (BUY, 1,670)
 - A19 · claimed (A, 23-Nov-2026) · LAURUSLABS, DRREDDY, MANKIND, AUROPHARMA, LUPIN
 - A20 · queued · GLENMARK, ALKEM, ABBOTINDIA, BIOCON, IPCALAB
 - A21 · queued · GLAND, ANTHEM, AJANTPHARM, GLAXO, EMCURE

@@ -1,0 +1,198 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Torrent Pharmaceuticals (consolidated, ₹ crore), on the basis that holds over the target horizon: Torrent with 100% of J.B. Chemicals & Pharmaceuticals (JB) merged in (scheme effective 8-Jul-2026, appointed date 21-Jan-2026) and 38.04 cr shares (4.19 cr allotted on 20-Jul-2026). The base year FY26 is a pro forma combined year (TORNTPHARM.patch.js: revenue ₹17,352 cr per AR FY26 note 42; acquisition interest for the full year), so FY27E growth is like-for-like. One reportable segment (generic formulations), so the engine runs on a single revenue-growth path; the business-line build (India base, JB India, Brazil, US, Germany, rest of world, JB international & CDMO) sits in `businessLines` and the authoring script checks it sums to model revenue. Depreciation includes ₹1,340 cr a year of amortisation of JB's brands and customer relationships created in the purchase accounting (not tax-deductible; a deferred-tax credit offsets it in book tax). No minorities from FY27. Valued on EV/EBITDA on Sep-28E EBITDA, as Prabhudas Lilladher and ICICI Direct do (unaffected by the JB amortisation and the new debt); P/E on EPS before the JB amortisation (Motilal Oswal's method) and a DCF are cross-checks.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  12.46,
+  11.16,
+  10.66
+ ],
+ "_revenueWhy": "Sum of the business-line build below, on the pro forma FY26 base of ₹17,352 cr (reported FY26 ₹13,980 cr had JB for 70 days). FY27E ₹19,513 cr = +40% on reported FY26, +12.5% like-for-like: India base +16% (Q1 +19%, management 'mid-teens', semaglutide injectable out of stock Jul-Aug), JB India +10% (Q1 +13%; brand transfers to Torrent divisions disrupt Q2-Q3; management 'double-digit still possible'), Brazil +16% in rupees (Q1 +3% in BRL after a one-off channel destocking; mid-teens from Q2), US +12% in rupees (Q1 +23% in dollars incl. one-offs; single-digit dollar growth guided), Germany +4% (supplier out of business, lost tenders), rest of world +8%, JB international and CDMO +10% ('high single to low double digit'). FY28-29E: India base +14%/+13%, JB India +11% (revenue synergies only from FY28), Brazil +13%/+12%, US +6%/+5%, Germany +4%, rest of world +8%, JB international +10%.",
+ "businessLines": {
+  "_why": "FY26 pro forma by line: Torrent's FY26 split (AR FY26 MD&A: India ₹7,645 cr, US ₹1,363 cr, Germany ₹1,249 cr, Brazil ₹1,362 cr, others ₹2,361 cr) less JB's 70-day contribution (₹775 cr: India ₹438 cr = Q4 India ₹2,215 cr less Torrent base India ₹1,777 cr [Q4FY25 ₹1,545 cr +15%], international ₹337 cr), plus JB's full FY26 revenue (₹4,148 cr, Screener JBCHEPHARM) split 61/39 India/international as in Q1FY27 (₹733 cr / ₹468 cr of ₹1,201 cr). Growth rates are explained in _revenueWhy.",
+  "base": {
+   "indiaBase": 7207,
+   "jbIndia": 2530,
+   "brazil": 1362,
+   "us": 1363,
+   "germany": 1249,
+   "rowBase": 2024,
+   "jbIntl": 1617
+  },
+  "growth": {
+   "indiaBase": [
+    16,
+    14,
+    13
+   ],
+   "jbIndia": [
+    10,
+    11,
+    11
+   ],
+   "brazil": [
+    16,
+    13,
+    12
+   ],
+   "us": [
+    12,
+    6,
+    5
+   ],
+   "germany": [
+    4,
+    4,
+    4
+   ],
+   "rowBase": [
+    8,
+    8,
+    8
+   ],
+   "jbIntl": [
+    10,
+    10,
+    10
+   ]
+  }
+ },
+ "ebitdaMargin": [
+  33.8,
+  34.7,
+  35.3
+ ],
+ "_marginWhy": "Q1FY27 33.8% (Torrent base 33.3%, JB 35.3% vs 28.8% a year earlier). Built from the two businesses: Torrent base margin +50bp a year (management's standing guidance: 32.8% FY26 → 33.3% / 33.8% / 34.3%); JB 35.5% / 37.5% / 38.5% as the ₹400-450 cr cost synergies (guided for year 3, 'tracking ahead', FY27 'definitely above ₹100 cr') are delivered, against 26.7% in JB's own FY26 books. Weighted: 33.8% / 34.7% / 35.3%. Each 1pp of margin is ~₹217 cr of FY28E EBITDA (~₹4.2 of EPS).",
+ "capex": [
+  800,
+  850,
+  900
+ ],
+ "_capexWhy": "FY26 ₹677 cr (incl. JB for 70 days), FY25 ₹612 cr; JB's own capex ~₹110-200 cr a year (cash flow FY24-26). Combined ~₹800 cr in FY27E rising with revenue (~4% of sales). No acquisitions assumed: management will wait 12-18 months before the next deal.",
+ "depRateOnGrossBlock": 5.83,
+ "_depWhy": "Q1FY27 D&A ₹593 cr (₹2,372 cr annualised): Torrent ~₹205 cr a quarter, JB's own ~₹45 cr, ~₹335 cr of amortisation of JB brands and customer relationships (₹1,340 cr a year: the Q4FY26 stub was ₹257 cr for 70 days and the CFO said to use it for the full year; brands ₹19,627 cr amortised over up to 15 years). 5.83% of the average gross block (₹40,426 cr at Mar-26 incl. ₹20,691 cr of JB intangibles) gives ₹2,380 / 2,428 / 2,479 cr. CWIP is held flat by the engine.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Set to zero because the engine applies the yield to net cash, which is negative (net debt ₹12,684 cr at Mar-26). Treasury income on the gross cash and fund balance is built in otherIncome instead.",
+ "otherIncome": [
+  13,
+  57,
+  77
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (AR FY26 note 29). (1) Treasury income: interest ₹38.4 cr + mutual-fund gains ₹30.9 cr = ₹69.4 cr in FY26, when JB's ₹1,155 cr of cash and funds came in only in January; gross cash, bank and funds ₹2,031 cr at Mar-26, assumed ₹1,500 cr from Mar-27 as surplus cash repays commercial paper; 6.25% gives ₹110 cr in FY27E and ₹94 cr a year after. (2) Foreign exchange and hedging: +₹170 cr FY22, -₹18 cr FY23, -₹4 cr FY24, -₹17 cr FY25, -₹183 cr FY26 (forward-cover losses as the rupee fell; ~₹45 cr in Q3FY26 alone), still negative in Q1FY27 (PL: other income -₹12 cr 'led by forex loss'): we take -₹100 cr in FY27E, -₹40 cr in FY28E and -₹20 cr in FY29E as the old hedges run off (FY23-25 average -₹13 cr). (3) Recurring miscellaneous non-operating income ₹3 cr (FY26 ₹2.8 cr). Left out as one-offs: asset-sale gains (₹17.7 cr in FY26) and exceptional items (FY26 -₹89 cr: ₹70 cr deal costs and ₹19 cr JB distribution severance; Q1FY27 -₹21 cr). Total ₹13 / 57 / 77 cr vs FY26 -₹94 cr (reported other income) and -₹69 cr in the twelve months to Jun-26 (Screener, before exceptional items).",
+ "interest": [
+  1100,
+  890,
+  680
+ ],
+ "_interestLabel": "Interest on borrowings (₹10,990 cr acquisition NCDs at 7.45-7.80%) and leases",
+ "_interestWhy": "Q1FY27 finance cost ₹305 cr on ₹14,798 cr of borrowings (Mar-26: NCDs ₹11,161 cr, commercial paper ₹1,420 cr, working-capital loans ₹1,495 cr, term loans ₹723 cr) plus ₹227 cr of leases. Acquisition debt raised in Jan-2026: ₹1,500 cr one-year CP and NCDs of ₹2,000 / 2,500 / 3,000 / 3,500 cr maturing in 2, 3, 4 and 5 years at 7.45% / 7.60% / 7.70% / 7.80% (weighted 7.66%). Built as 7.7% on average gross borrowings (our net-debt path in the authoring script plus ₹1,500-2,031 cr of gross cash) plus ~₹55 cr of lease and other finance costs: borrowings fall from ₹14,798 cr to ~₹12,700 / 9,900 / 6,700 cr at Mar-27/28/29 as free cash flow repays CP and working-capital lines, then the ₹2,100 cr and ₹2,590 cr NCD maturities (FY28, FY29).",
+ "taxRate": [
+  25,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "Book tax on profit after the JB brand amortisation: FY26 25.6% (₹734 cr on ₹2,872 cr), Q1FY27 22.8% (current tax ₹254 cr, deferred-tax credit ₹87 cr on ₹733 cr). The brand amortisation is not tax-deductible, but the deferred tax liability created in the purchase accounting unwinds at 25.17% of it, so the book rate stays near the statutory 25.17%. No minorities after the merger (JB's subsidiaries are wholly owned).",
+ "payout": [
+  50,
+  50,
+  50
+ ],
+ "_payoutWhy": "Torrent paid out 57-59% of profit in FY24-26 (FY26: ₹29 interim + ₹9 final = ₹38 a share on 33.84 cr shares). We assume 50% while net debt is above ~1x EBITDA (management targets deleveraging over 2-3 years); DPS ~₹31 / ₹41 / ₹52.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.78,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 35,
+  "fadeCapexPctTo": 4.5,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity; beta 0.78 gives 11.2%, equal to our WACC: market value ~₹1.83 lakh cr, net debt ₹12,684 cr (6.5% of capital) at 7.7% pre-tax (5.8% after tax), cost of equity ~11.6% at beta 0.85 for a defensive, domestically led pharma company.",
+  "_tgWhy": "6% nominal: India branded generics (~55% of revenue) grow 8-10% a year in value; Germany and the US grow little.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~11% to 8% by year 15 as the India franchise matures and export markets stay low-growth.",
+  "_fadeMarginWhy": "35%: a little below the FY29E 35.3% (base margin +50bp a year cannot continue forever; price controls, trade generics).",
+  "_fadeCapexWhy": "4.5% of revenue: maintenance plus capacity for 8% growth (FY24-27E 3.5-4.8%).",
+  "_depWhy": "5% of revenue = tax-deductible depreciation and amortisation only (book D&A ex-JB brand amortisation ~5.3% of FY27E revenue). The JB brand amortisation is excluded because it gives no tax saving; including it would overstate cash flow."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "India keeps growing mid-teens (semaglutide recovers, Curatio +30%), the JB brand transfer is smooth and revenue synergies start in FY28, Brazil approves generic semaglutide, and cost synergies reach ₹450 cr a year early.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 1,
+   "fadeMarginTo": 36.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The JB integration loses prescribers (as some past brand transfers did), India growth slips back to ~10% as the market normalises, Germany keeps losing tenders, semaglutide prices collapse, and synergies are reinvested rather than banked.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 33
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 21,
+      "bull": 26,
+      "bear": 18
+     },
+     "why": "How the street values Torrent: two of the three post-Q1 notes that disclose a method use EV/EBITDA on FY28E (Prabhudas Lilladher 28x, ICICI Direct 27x; Motilal Oswal uses P/E). EV/EBITDA is also unaffected by the two things the JB deal changed: ~₹1,340 cr a year of non-cash brand amortisation and the new debt. 21x = Torrent's 19.9x median one-year-forward EV/EBITDA since Apr-2021 (computed in our files: before the deal on Torrent's own 33.84 cr shares, net debt and standalone EBITDA; after the 29-Jun-2025 announcement on 38.04 cr shares, the deal debt and combined forward EBITDA; no trough years) x 1.0555 (pharma peers' median trailing EV/EBITDA vs five-year medians at 30-Sep-2026, excluding Torrent: the EV/EBITDA analogue of the PLAYBOOK §7c P/E factor, as for hospitals) = 21.0x. Bull 26x and bear 18x = the 75th (24.8x) and 25th (17.1x) percentiles x 1.0555. Sep-28E EBITDA less net debt at Sep-28E (model)."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 53.66,
+      "bull": 57.96,
+      "bear": 48.14
+     },
+     "why": "Cross-check on earnings (Motilal Oswal's method). 42x Sep-28E EPS BEFORE the JB brand amortisation (₹1,340 cr a year, ~₹26 a share after its deferred-tax credit), because the P/E history is pre-deal Torrent that never carried it: Torrent's 40.0x median one-year-forward P/E since Apr-2021 on EPS before exceptional items (batch rule, as Sun Pharma and Cipla) x 1.0545 (PLAYBOOK §7c pharma P/E factor) = 42.2x → 42x. The engine values reported EPS, so the multiple here is the equivalent on reported Sep-28E EPS (42 x adjusted ÷ reported: base 53.66x; bull 46.5x and bear 36x on the adjusted basis, translated the same way). Checked in TORNTPHARM.ctx.js."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 11.2% (beta set so the cost of equity equals our WACC), terminal growth 6%; tax shield only on tax-deductible depreciation (JB brand amortisation excluded); less net debt at Mar-27."
+    }
+   ]
+  }
+ },
+ "otherTreasury": {
+  "base": -14866.44,
+  "label": "Offset: minority interest (₹9,196 cr, now equity) and deferred tax on JB brands (₹5,670 cr) in other liabilities",
+  "_why": "Engine workaround (TORNTPHARM.patch.js note 2). Screener's Mar-26 other liabilities, which the Excel model reads unpatched, include the ₹9,196.40 cr non-controlling interest (now owners' equity after the merger) and the ₹5,670.04 cr deferred tax liability; neither is working capital. This negative entry takes both out of working capital (13.45% of pro forma revenue) in the engine and the Excel alike; investments are raised by the same amount in the patch, so net debt is unchanged at ₹12,913 cr incl. leases, and CWIP is lowered by the DTL so the balance sheet balances."
+ }
+}
