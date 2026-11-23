@@ -5,7 +5,7 @@ const ar = br('Anand Rathi'), pl = br('Prabhudas Lilladher'), isec = br('ICICI S
 const gapPct = (g, s) => Math.round((g / s - 1) * 100);
 
 const forecasts = {
-  id: 'forecasts', nav: 'Our forecasts', kicker: 'Earnings model', title: 'Our forecasts: ~6.5% EPS growth a year, more than half of it from the weaker rupee',
+  id: 'forecasts', nav: 'Our forecasts', kicker: 'Earnings model', title: `Our forecasts: ~${n1(X.epsCagrFwd)}% EPS growth a year, more than half of it from the weaker rupee`,
   blocks: [
     { p: `We forecast US$ revenue by vertical (+${n1(usdG[0])}% / +${n1(usdG[1])}% / +${n1(usdG[2])}% in FY27-29E), convert it at ₹95.5 / 97.5 / 99.5 per dollar, and hold the operating (EBIT) margin at ~21% (EBITDA {{F.ebitdaMargin.0|pct}} / {{F.ebitdaMargin.1|pct}} / {{F.ebitdaMargin.2|pct}} after D&A of ~2.6% of revenue). Capex is ~1.5% of revenue; FY27E also carries ~₹4,400 cr for the Optimum and Stratus acquisitions (engine workaround: there is no acquisition line). Tax is 29.6% (guidance 29-30%, incl. minorities); dividends 68% of profit. Every assumption, with our reasoning, is in the Excel model's Assumptions sheet, which recalculates this report's target price.` },
     { exhibit: { type: 'rows', title: 'P&L and cash flow summary (₹ crore)', from: 'FY23', rowsRef: [

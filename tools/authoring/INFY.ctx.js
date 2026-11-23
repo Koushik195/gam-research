@@ -82,8 +82,10 @@ const med5 = sym => medOf((ld(sym).charts?.pe?.['Price to Earning'] || []).filte
 const MED5 = Object.fromEntries(PEER_SYMS.map(s => [s, med5(s)]));
 const derate = Object.fromEntries(PEER_SYMS.map(s => [s, P[s].pe && MED5[s] ? (P[s].pe / MED5[s] - 1) * 100 : null]));
 const INCUMBENTS = ['TCS', 'HCLTECH', 'WIPRO'], MIDCAPS = ['LTM', 'PERSISTENT', 'COFORGE', 'MPHASIS', 'LTTS'], ALL8 = [...INCUMBENTS, ...MIDCAPS];
-const sectorDr = medOf(INCUMBENTS.map(s => derate[s])), allDr = medOf(ALL8.map(s => derate[s])), all9Dr = medOf([...ALL8, 'TECHM'].map(s => derate[s])), midDr = medOf(MIDCAPS.map(s => derate[s]));
-const afterInc = FM.median * (1 + sectorDr / 100), afterAll = FM.median * (1 + allDr / 100);
+// House rule for the IT reports: sector de-rating = median of the full IT peer set (TCS, HCLTech, Wipro, LTIMindtree, Persistent,
+// Coforge, Mphasis, LTTS), excluding Infosys itself and Tech Mahindra (FY24-25 earnings trough). Incumbents-only is a sensitivity.
+const allDr = medOf(ALL8.map(s => derate[s])), sectorDr = allDr, incDr = medOf(INCUMBENTS.map(s => derate[s])), all9Dr = medOf([...ALL8, 'TECHM'].map(s => derate[s])), midDr = medOf(MIDCAPS.map(s => derate[s]));
+const afterInc = FM.median * (1 + incDr / 100), afterAll = FM.median * (1 + allDr / 100);
 const shortName = s => ({ INFY: 'Infosys', TCS: 'TCS', HCLTECH: 'HCLTech', WIPRO: 'Wipro', TECHM: 'Tech Mahindra', LTM: 'LTIMindtree', PERSISTENT: 'Persistent', COFORGE: 'Coforge', MPHASIS: 'Mphasis', LTTS: 'L&T Technology Services' }[s] || s);
 const qGrowth = sym => { const q = ld(sym).tables.quarters; const i = q.periods.indexOf('Jun 2026'), j = q.periods.indexOf('Jun 2025'); return i >= 0 && j >= 0 ? (q.rows.Sales[i] / q.rows.Sales[j] - 1) * 100 : null; };
 const Q1G = Object.fromEntries(PEER_SYMS.map(s => [s, qGrowth(s)]));
@@ -91,6 +93,7 @@ const Q1G = Object.fromEntries(PEER_SYMS.map(s => [s, qGrowth(s)]));
 // Returns: justified forward P/E = cash payout x (1 + g) / (Ke - g); reverse DCF (terminal growth the price implies)
 const cashPayout = 0.90; // ~85% of FCF, FCF ~106% of profit (FY26 adjusted)
 const justPe = (g, ke = V.ke) => cashPayout * (1 + g / 100) / ((ke - g) / 100);
+const gFor = (pe, ke = V.ke) => (pe * ke / 100 - cashPayout) / (pe + cashPayout) * 100; // long-run growth at which justified P/E = pe
 const dcfAt = g => { const w = V.wacc, N = V.rows.length, last = V.rows.at(-1); const tv = last.fcff * (1 + g / 100) / ((w - g) / 100) / Math.pow(1 + w / 100, N); return (V.pvExplicit + tv + V.netCash) / F.shares * Math.pow(1 + V.ke / 100, (AS.dcf.rollForwardMonths ?? 6) / 12); };
 let lo = -5, hi = V.wacc - 0.5; for (let k = 0; k < 50; k++) { const mid = (lo + hi) / 2; if (dcfAt(mid) < price) lo = mid; else hi = mid; }
 const impliedG = (lo + hi) / 2;
@@ -118,5 +121,5 @@ const ratingCount = r => ST.filter(s => s.date >= '2026-07-23' && r.includes(s.r
 
 module.exports = { fs, path, ROOT, RD, C, D, SG, M, F, V, A, AS, SC, S, ASOF, ASOF_TXT, n0, n1, pc, pc1, sg1, rup, cagr, medOf, shortDate, SRC, b, ai, price, mcap, BM, mv, epsSep28, peMult, evMult, ebitdaSep28, ebitM, ebitHist,
   SA, SQ, QL, yr, A26, A25, A21, A20, Q1, FY26, UB, FX, VK, usdV, usdTot, usdG, fxG, epsCagrHist, epsCagrFwd, usdCagr2123, usdCagr2326, netCashScr, divYield,
-  FM, fwdPe, H21, H16, H2y, ONEOFF, fwdAdj, HA, fwdNow, evMed, evMin, ttmEbitda, PEER_SYMS, PEERS, P, MED5, derate, INCUMBENTS, MIDCAPS, ALL8, sectorDr, allDr, all9Dr, midDr, afterInc, afterAll, shortName, Q1G,
-  cashPayout, justPe, dcfAt, impliedG, OI, oiFy26Under, oiTtm, oiTtmUnder, treasuryInc, grossYield, leases, rating, ruleText, buyBelow, sellAbove, ST, br, post, tpSorted, medTp, avgTp, withEps, avgEps, peBrokers, impliedEps, ratingCount };
+  FM, fwdPe, H21, H16, H2y, ONEOFF, fwdAdj, HA, fwdNow, evMed, evMin, ttmEbitda, PEER_SYMS, PEERS, P, MED5, derate, INCUMBENTS, MIDCAPS, ALL8, sectorDr, allDr, incDr, all9Dr, midDr, afterInc, afterAll, shortName, Q1G,
+  cashPayout, justPe, gFor, dcfAt, impliedG, OI, oiFy26Under, oiTtm, oiTtmUnder, treasuryInc, grossYield, leases, rating, ruleText, buyBelow, sellAbove, ST, br, post, tpSorted, medTp, avgTp, withEps, avgEps, peBrokers, impliedEps, ratingCount };

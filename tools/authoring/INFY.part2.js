@@ -66,7 +66,7 @@ const aiQuestion = {
       '**Why the cycle is not the whole story.** Volumes were flat in FY26 even before the 2026 macro shocks, the deflation is described as broad across verticals, and the FY27 cut came despite strong deal wins. Large-deal TCV now converts into less revenue, because renewals are repriced.',
       '**Why it is not a collapse either.** Clients still need someone to run, secure and integrate their systems and to deploy AI inside them; vendor consolidation favours large, trusted suppliers; margins and cash have not cracked; and the industry has absorbed earlier productivity shifts (automation, cloud) by moving to new work.',
     ] },
-    { callout: `**Our verdict:** ${rup(SQn.verdict)} In numbers: we assume organic US$ growth of only ~3-3.5% in FY28-29 (AI work offsetting deflation), a flat ~21% EBIT margin, and a target multiple of 14x - the level to which the large incumbents (TCS, Wipro, HCLTech; median ${pc(sectorDr)}) have de-rated, not the ${pc(allDr)} of the wider peer group, which includes mid-caps still growing in double digits.` },
+    { callout: `**Our verdict:** ${rup(SQn.verdict)} In numbers: we assume organic US$ growth of only ~3-3.5% in FY28-29 (AI work offsetting deflation), a flat ~21% EBIT margin, and a target multiple of ${X.peMult}x: Infosys's own median forward P/E cut by the IT peer group's median de-rating (${pc(sectorDr)}), well below its 2021-25 range. On the large incumbents' deeper de-rating alone (TCS, Wipro, HCLTech; median ${pc(X.incDr)}) it would be ${Math.round(X.afterInc)}x: that gap is the main risk to our target.` },
   ],
 };
 
