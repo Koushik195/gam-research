@@ -1,0 +1,4728 @@
+{
+ "symbol": "TECHM",
+ "listing": "NSE: TECHM · BSE: 532755",
+ "date": "30 September 2026",
+ "rating": "SELL",
+ "analysts": "GAM Research — IT Services",
+ "cover": {
+  "headline": "The turnaround worked, and the price already knows it: a de-rated sector does not pay 18x for a mid-tier IT firm",
+  "lead": "Tech Mahindra, the Mahindra group's USD 6.4 bn IT services company, has delivered almost exactly what CEO Mohit Joshi promised in April 2024: EBIT margin from 6.1% (FY24) to 14.4% in Q1FY27, dollar growth back to 6.6% in constant currency (peers guide 1-4%), USD 4.1 bn of deals in twelve months and 85%+ of free cash flow paid out. The stock held up while Indian IT had its worst year since 2008 on fears that AI agents shrink the work. We forecast EPS of ₹74.5 (FY27E) and ₹85.2 (FY28E), in line with consensus. The street values Tech Mahindra on **P/E on FY28E EPS (16.9-20x)**. Applying **16x to Sep-28E EPS of ₹89.4** (its 23.3x median forward P/E since 2021, cut by the IT sector's 31% de-rating) gives **{{dcf.tp|inr}} ({{dcf.upside|chg}}): we initiate with SELL.** Cross-checks: EV/EBITDA ₹1,436, DCF ₹1,517. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "Promises kept",
+    "p": "EBIT margin up for 11 straight quarters to 14.4%; Q4FY27 \"upwards of 15%\". Q1FY27 revenue +6.1% YoY in dollars with every vertical growing, ROCE 28.3%, FCF 108% of profit. Management credibility is the best it has been in a decade."
+   },
+   {
+    "h": "But FY27 is the easy year",
+    "p": "Growth comes off a flat FY24-26 base, large-deal ramps and an auto programme pulled into Q1 (a 1-1.3% Q2 headwind). Communications (32%) grew only 1.3% with \"volatility in a large US telecoms client\". Margin levers (utilisation 87%, subcontractors, SG&A) are largely used, and there is no plan beyond FY27."
+   },
+   {
+    "h": "AI is a sector problem, not a cycle",
+    "p": "HCLTech says deals are ~20% smaller for the same scope; Cognizant passes AI savings to clients; Gartner cut IT-services growth to 5.3%. Tech Mahindra's mix (BPS 16%, testing, infrastructure operations, telecom run work) is more exposed than most. We expect the sector's lower multiples to last."
+   },
+   {
+    "h": "Valuation: the premium is the risk",
+    "p": "At ₹1,524 the stock trades at 20.5x FY27E and 17.9x FY28E EPS, a 20-35% premium to Tier-1 peers that have de-rated by 40-50%. On the sector's de-rating our 16x gives {{dcf.tp|inr}}. The DCF (₹1,517) says the price is fair only if today's growth and margins hold for a decade."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBIT margin",
+    "ebitMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "AMBER"
+   },
+   {
+    "k": "Valuation",
+    "v": "RED"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): growth after the European auto reversal, the margin hit from phased wage hikes, and whether the large telecom deal starts ramping.",
+   "FY27 delivery: the 15% EBIT margin and above-peer growth; ROCE above 30% by Q4FY27.",
+   "A roadmap beyond FY27 (margin and growth goals for FY28-30), likely with the Q4FY27 results.",
+   "Sector: peers' guidance (Infosys, HCLTech), AI-deflation evidence in renewals, US policy (H-1B fee, proposed HIRE Act).",
+   "Rupee: a faster fall lifts EBIT but brings back hedge losses; the hedge book is down to USD 0.72 bn."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Dollar revenue: flat for two years, now growing again",
+       "unit": "Revenue (USD mn), by quarter",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          1559,
+          1589,
+          1567,
+          1549,
+          1564,
+          1586,
+          1610,
+          1625,
+          1660
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "min": 1400,
+       "source": "Company presentations"
+      },
+      {
+       "type": "line",
+       "title": "Margin: 8.5% to 14.4% in nine quarters",
+       "unit": "EBIT margin, company definition (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBIT margin",
+         "values": [
+          8.5,
+          9.6,
+          10.2,
+          10.5,
+          11.1,
+          12.1,
+          13.1,
+          13.8,
+          14.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 6,
+       "max": 16,
+       "lines": [
+        {
+         "v": 15,
+         "text": "FY27 target"
+        }
+       ],
+       "source": "Company presentations"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Deal wins: three USD 1 bn+ quarters in a row",
+       "unit": "New deal wins (TCV, USD mn)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "TCV",
+         "values": [
+          534,
+          603,
+          745,
+          798,
+          809,
+          816,
+          1096,
+          1073,
+          1078
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      },
+      {
+       "type": "hbar",
+       "title": "The sector de-rated: peers 31% below their five-year P/E (median)",
+       "unit": "Trailing P/E on 30-Sep-2026 vs five-year median (%)",
+       "x": [
+        "TCS",
+        "Infosys",
+        "HCLTech",
+        "Wipro",
+        "LTIMindtree (LTM)",
+        "Persistent",
+        "Coforge",
+        "Mphasis",
+        "L&T Technology Services"
+       ],
+       "series": [
+        {
+         "name": "vs median",
+         "values": [
+          -53,
+          -49,
+          -21,
+          -40,
+          -38,
+          -18,
+          -11,
+          -27,
+          -31
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in, NSE closes"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "EPS: ₹27 in FY24, ₹54 in FY26, ₹94 by FY29E",
+       "unit": "EPS (₹, reported basic)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EPS",
+         "ref": "fin.eps",
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Company; GAM estimates FY27-29E"
+      },
+      {
+       "type": "line",
+       "title": "Forward P/E 17.9x vs a 23x median since 2021; our target 16x",
+       "unit": "Price ÷ next full-year EPS (x), reported EPS",
+       "x": [
+        "2016-04-01",
+        "2016-05-06",
+        "2016-06-10",
+        "2016-07-15",
+        "2016-08-19",
+        "2016-09-23",
+        "2016-10-30",
+        "2016-12-02",
+        "2017-01-06",
+        "2017-02-10",
+        "2017-03-17",
+        "2017-04-21",
+        "2017-05-26",
+        "2017-06-30",
+        "2017-08-04",
+        "2017-09-08",
+        "2017-10-13",
+        "2017-11-17",
+        "2017-12-22",
+        "2018-01-25",
+        "2018-03-01",
+        "2018-04-06",
+        "2018-05-11",
+        "2018-06-15",
+        "2018-07-20",
+        "2018-08-24",
+        "2018-09-28",
+        "2018-11-02",
+        "2018-12-07",
+        "2019-01-11",
+        "2019-02-15",
+        "2019-03-22",
+        "2019-04-26",
+        "2019-05-31",
+        "2019-07-05",
+        "2019-08-09",
+        "2019-09-13",
+        "2019-10-18",
+        "2019-11-22",
+        "2019-12-27",
+        "2020-02-01",
+        "2020-03-06",
+        "2020-04-09",
+        "2020-05-15",
+        "2020-06-19",
+        "2020-07-24",
+        "2020-08-28",
+        "2020-10-01",
+        "2020-11-06",
+        "2020-12-11",
+        "2021-01-15",
+        "2021-02-19",
+        "2021-03-26",
+        "2021-04-30",
+        "2021-06-04",
+        "2021-07-09",
+        "2021-08-13",
+        "2021-09-17",
+        "2021-10-22",
+        "2021-11-26",
+        "2021-12-31",
+        "2022-02-04",
+        "2022-03-11",
+        "2022-04-13",
+        "2022-05-20",
+        "2022-06-24",
+        "2022-07-29",
+        "2022-09-02",
+        "2022-10-07",
+        "2022-11-11",
+        "2022-12-16",
+        "2023-01-20",
+        "2023-02-24",
+        "2023-03-31",
+        "2023-05-05",
+        "2023-06-09",
+        "2023-07-14",
+        "2023-08-18",
+        "2023-09-22",
+        "2023-10-27",
+        "2023-12-01",
+        "2024-01-05",
+        "2024-02-09",
+        "2024-03-15",
+        "2024-04-19",
+        "2024-05-24",
+        "2024-06-28",
+        "2024-08-02",
+        "2024-09-06",
+        "2024-10-11",
+        "2024-11-14",
+        "2024-12-20",
+        "2025-01-24",
+        "2025-02-28",
+        "2025-04-04",
+        "2025-05-09",
+        "2025-06-13",
+        "2025-07-18",
+        "2025-08-22",
+        "2025-09-26",
+        "2025-10-31",
+        "2025-12-05",
+        "2026-01-09",
+        "2026-02-13",
+        "2026-03-20",
+        "2026-04-24",
+        "2026-05-29",
+        "2026-07-03",
+        "2026-08-07",
+        "2026-09-11",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          10.8,
+          11,
+          12.5,
+          11.7,
+          11,
+          10.6,
+          10.2,
+          11,
+          10.9,
+          11.6,
+          11.3,
+          8.8,
+          8.9,
+          7.9,
+          8.5,
+          8.9,
+          9.9,
+          10,
+          10.2,
+          12.4,
+          12.7,
+          13.4,
+          14.4,
+          15.3,
+          14.2,
+          15.5,
+          16.1,
+          14.9,
+          15,
+          15.1,
+          17.3,
+          17,
+          16.3,
+          15,
+          13.4,
+          13.1,
+          14,
+          14.5,
+          14.9,
+          15.4,
+          15.9,
+          14.6,
+          8.6,
+          8.1,
+          8.5,
+          10.3,
+          11.9,
+          13,
+          13.4,
+          14.5,
+          15.9,
+          15.7,
+          15.6,
+          17.5,
+          18.6,
+          19.2,
+          25.2,
+          26.4,
+          27.6,
+          27.8,
+          32.6,
+          26.4,
+          27.1,
+          52.8,
+          42.3,
+          36.7,
+          39.2,
+          39.5,
+          38.3,
+          39.6,
+          38.2,
+          39.2,
+          41.9,
+          41.2,
+          21.6,
+          22.1,
+          25.6,
+          25.2,
+          27.2,
+          23.3,
+          25.4,
+          26,
+          27.3,
+          26.7,
+          22,
+          24.4,
+          26.4,
+          27.8,
+          29.9,
+          30.3,
+          31.1,
+          31.1,
+          31.7,
+          27.4,
+          17.7,
+          20.1,
+          22.3,
+          20.8,
+          20.2,
+          18.9,
+          19.1,
+          21.1,
+          21.2,
+          20.6,
+          18.6,
+          15.9,
+          17.4,
+          16.6,
+          19.2,
+          18.1,
+          17.9
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 23,
+         "text": "Median: 23.3x"
+        },
+        {
+         "v": 16,
+         "text": "Target: 16x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; reported EPS, GAM estimates for forecast years"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Our EBIT margin path: 14.8% → 15.6%",
+       "unit": "EBIT margin (%), Screener basis; FY27-29E GAM",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBIT margin",
+         "ref": "fin.ebitMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 20,
+       "source": "Screener.in; GAM estimates"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (median ₹1,634)",
+       "unit": "₹ per share; CMP ₹1,524",
+       "x": [
+        "Motilal Oswal",
+        "ICICI Direct",
+        "Nuvama",
+        "Prabhudas Lilladher",
+        "Choice",
+        "Deven Choksey",
+        "JM Financial",
+        "JPMorgan",
+        "HSBC",
+        "CLSA",
+        "Elara",
+        "Nomura",
+        "BOB Capital Markets",
+        "ICICI Securities",
+        "UBS",
+        "Goldman Sachs",
+        "Morgan Stanley",
+        "Jefferies",
+        "Axis Capital",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          1900,
+          1800,
+          1800,
+          1780,
+          1775,
+          1726,
+          1705,
+          1700,
+          1635,
+          1634,
+          1620,
+          1600,
+          1547,
+          1470,
+          1460,
+          1420,
+          1270,
+          1260,
+          1080,
+          1430
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and press roundups (16-Jul to 28-Sep 2026), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Tech Mahindra does",
+   "kicker": "The business",
+   "title": "A USD 6.4 bn IT services firm built around telecom, now selling itself as a vertical specialist",
+   "blocks": [
+    {
+     "p": "Tech Mahindra sells IT and business-process work to large companies, mostly in the US and Europe. **IT services** (application development and maintenance, enterprise packages such as SAP and Salesforce, cloud and infrastructure management, engineering services, network services for telecom operators, data and AI) were ₹47,767 cr or 84% of FY26 revenue; **BPS** (customer support, back-office and AI-operations work; ~64,000 people) ₹9,048 cr or 16%. It is part of the Mahindra group (M&M owns 25.3%) and grew out of a 1980s joint venture with British Telecom, which is why **communications is still a third of revenue**, far more than at any large Indian peer. Two portfolio companies have their own products: Comviva (telecom and fintech software, seasonal, strongest in Q4) and Pininfarina (Italian car and architecture design)."
+    },
+    {
+     "p": "FY26 revenue was USD 6,385 mn (₹56,815 cr) from ~1,100 active clients; 29 clients paid more than USD 50 mn a year (33 by Jun-2026) and the top 10 were 24% of revenue. It employed 1,46,760 people at Jun-2026 (IT 74,689, BPS 64,080), 77.5% of IT staff offshore in India. Revenue per head is low against peers because BPS is a large, low-price business."
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Communications is a third of revenue; BFSI only 16%",
+       "unit": "FY26 revenue by vertical (USD mn)",
+       "x": [
+        "Communications",
+        "Manufacturing",
+        "BFSI",
+        "Technology, media & entertainment",
+        "Retail, logistics & transport",
+        "Healthcare & life sciences",
+        "Others"
+       ],
+       "series": [
+        {
+         "name": "FY26",
+         "values": [
+          2126,
+          1149,
+          1041,
+          849,
+          530,
+          466,
+          223
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Communications",
+       "source": "Tech Mahindra earnings presentations (Q4FY26: 22-Apr-2026; Q1FY27: 16-Jul-2026); USD = mix x USD 6,385 mn"
+      },
+      {
+       "type": "column",
+       "title": "Americas ~49%, Europe ~26%, rest of world ~24%",
+       "unit": "FY26 revenue by geography (% of total)",
+       "x": [
+        "Americas",
+        "Europe",
+        "Rest of world"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          49.8,
+          25.8,
+          24.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Tech Mahindra earnings presentations (Q4FY26: 22-Apr-2026; Q1FY27: 16-Jul-2026)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Verticals: size and momentum",
+      "head": [
+       "Vertical",
+       "FY26 (USD mn)",
+       "Share",
+       "FY26 growth",
+       "Q1FY27 YoY",
+       "What drives it"
+      ],
+      "wide": [
+       5
+      ],
+      "rows": [
+       [
+        "Communications",
+        "2,126",
+        "33.3%",
+        "+2.6%",
+        "+1.3%",
+        "Telecom operators (IT, network services, Comviva); two large deals ramping; \"volatility in a large US telecoms client\""
+       ],
+       [
+        "Manufacturing",
+        "1,149",
+        "18%",
+        "+5.9%",
+        "+17.2%",
+        "Auto and aerospace engineering and IT; a European auto programme delivered early in Q1FY27"
+       ],
+       [
+        "BFSI (banking, financial services, insurance)",
+        "1,041",
+        "16.3%",
+        "+3.7%",
+        "+8.1%",
+        "Payments, wealth, insurance; Avant (Canada) bought in May-2026"
+       ],
+       [
+        "Technology, media & entertainment",
+        "849",
+        "13.3%",
+        "−2.7%",
+        "+3.4%",
+        "Hi-tech clients; volatile spend; a client insourced cloud consumption after its takeover"
+       ],
+       [
+        "Retail, logistics & transport",
+        "530",
+        "8.3%",
+        "+7.3%",
+        "+8.6%",
+        "E-commerce, logistics modernisation, warehousing"
+       ],
+       [
+        "Healthcare & life sciences",
+        "466",
+        "7.3%",
+        "−0.6%",
+        "+7.2%",
+        "Providers and life sciences; vendor consolidation and AI-led work"
+       ],
+       [
+        "Others",
+        "223",
+        "3.5%",
+        "−16.4%",
+        "−7.9%",
+        "Public sector and others"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total**",
+         "**6,385**",
+         "**100%**",
+         "**+1.9%**",
+         "**+6.1%**",
+         "6.6% YoY in constant currency in Q1FY27"
+        ]
+       }
+      ],
+      "source": "Tech Mahindra earnings presentations (Q4FY26: 22-Apr-2026; Q1FY27: 16-Jul-2026)"
+     }
+    },
+    {
+     "callout": "**So what:** Tech Mahindra is a mid-tier generalist with one deep specialism (telecom). The new management's strategy is to add similar depth in chosen sub-verticals (payments, wealth, insurance, aerospace, life sciences) and to sell AI on top of that domain knowledge. It is a sensible strategy for a firm that cannot win on scale against TCS or Infosys, but it has only one year of results behind it."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From BT joint venture to Satyam rescuer to turnaround story: what each step did to the numbers",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Corporate history and its impact on the numbers",
+      "head": [
+       "When",
+       "What happened",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1986-2006",
+        "Mahindra-British Telecom joint venture (incorporated 1986); renamed Tech Mahindra and listed in 2006",
+        "Built the telecom franchise that is still a third of revenue"
+       ],
+       [
+        "2009-2013",
+        "Acquired Satyam Computer Services after its accounting fraud; merged in 2013 (effective 1-Apr-2011)",
+        "Doubled the company; left 9.42 cr treasury shares in the TML Benefit Trust and a ₹1,230 cr \"alleged advances\" suspense account"
+       ],
+       [
+        "FY21-23",
+        "Acquisitions (Com Tec Co, Allyis, Activus Connect, Perigord and others) during the post-Covid boom",
+        "Revenue +18% (FY22) and +19% (FY23); goodwill and intangibles rose; margins fell as several buys lost money"
+       ],
+       [
+        "FY24",
+        "Telecom and hi-tech clients cut spend; one-time costs; CEO change (Mohit Joshi from Infosys)",
+        "Revenue −2%, EBIT margin 6.1%, EPS ₹26.7 (half of FY23): the trough year in our P/E history"
+       ],
+       [
+        "Apr-2024",
+        "Three-year plan to FY27: EBIT 15%, ROCE >30%, growth above peers, 85%+ of FCF returned",
+        "The targets the market now prices"
+       ],
+       [
+        "FY25-26",
+        "Project Fortius (cost), portfolio-company integration (~95%), non-core entities liquidated or merged, Surance stake sold",
+        "EBIT 9.7% (FY25), 12.6% (FY26); FY25 includes a ₹450 cr property-sale gain"
+       ],
+       [
+        "Nov-2025",
+        "New Labour Codes notified",
+        "₹272 cr exceptional charge in Q3FY26"
+       ],
+       [
+        "FY26-Q1FY27",
+        "Rupee falls from ~85 to ~95/USD",
+        "Lifts rupee revenue and EBIT; FX hedge losses of ₹480 cr in FY26 and ~₹218 cr in Q1FY27 in other income"
+       ],
+       [
+        "May-2026",
+        "Bought 85% of Avant Techno Solutions (Canada; payments, wealth) for ₹188 cr",
+        "Small; adds to BFSI"
+       ]
+      ],
+      "source": "Annual report FY26, quarterly results and presentations, GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Eleven straight quarters of margin expansion",
+       "unit": "EBIT margin, company definition (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBIT margin",
+         "values": [
+          8.5,
+          9.6,
+          10.2,
+          10.5,
+          11.1,
+          12.1,
+          13.1,
+          13.8,
+          14.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 6,
+       "max": 16,
+       "lines": [
+        {
+         "v": 15,
+         "text": "FY27 target"
+        }
+       ],
+       "source": "Company presentations"
+      },
+      {
+       "type": "column",
+       "title": "Dollar revenue: flat for two years, then +6% YoY",
+       "unit": "Revenue (USD mn), by quarter",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          1559,
+          1589,
+          1567,
+          1549,
+          1564,
+          1586,
+          1610,
+          1625,
+          1660
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "min": 1400,
+       "source": "Company presentations"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry: cycle or AI?",
+   "kicker": "Industry",
+   "title": "The central question: is the 2026 IT de-rating a cycle or AI shrinking the work? Mostly AI, we think",
+   "blocks": [
+    {
+     "p": "Indian IT stocks had their worst year since 2008 in 2026. The trigger was AI: Anthropic's Claude Cowork plug-ins (late Jan-2026) and its post on modernising COBOL with Claude Code (24-Feb) caused the Nifty IT index's worst days since 2020, on the fear that agents will do much of the coding, testing and support work that Indian firms bill by the hour. By 30-Sep-2026 the index was ~28% down for the year against 13% for the Nifty 50, and the five largest IT firms had lost almost half their combined value since Aug-2024. Trailing P/E multiples fell to 13.8x (TCS), 12.9x (Infosys), 11.9x (Wipro) and 18.4x (HCLTech), 31% below their five-year medians (median of nine IT peers). Tech Mahindra fell least (12% in Jan-Feb against 16-24% for peers) because its own earnings are rising."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Tech Mahindra held up; TCS, Infosys and Wipro fell 30-40% in 2026",
+       "unit": "Share price, 31-Dec-2025 = 100 (weekly)",
+       "x": [
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Tech Mahindra",
+         "values": [
+          100,
+          100,
+          98.1,
+          103.6,
+          105.5,
+          106.5,
+          100.5,
+          95.2,
+          90.4,
+          84.2,
+          82.6,
+          82.7,
+          85.9,
+          86.3,
+          89.4,
+          89.3,
+          93.7,
+          84.3,
+          91.4,
+          90.7,
+          85,
+          88.2,
+          92,
+          92,
+          88.6,
+          87.4,
+          89.1,
+          87.5,
+          90.2,
+          97.6,
+          96.7,
+          102.4,
+          101.4,
+          101.3,
+          98.2,
+          101.8,
+          99,
+          95.6,
+          95.3,
+          96,
+          94.5
+         ],
+         "fmt": "n1",
+         "thin": false
+        },
+        {
+         "name": "TCS",
+         "values": [
+          100,
+          99.1,
+          97.8,
+          97.8,
+          96.4,
+          97.2,
+          89.7,
+          82.1,
+          81.9,
+          80.4,
+          78,
+          73.5,
+          72.9,
+          72.9,
+          74.7,
+          77,
+          78.7,
+          73.1,
+          75.4,
+          73,
+          69,
+          70.6,
+          68.9,
+          67,
+          65.9,
+          64.8,
+          63.9,
+          63.8,
+          63.1,
+          69.2,
+          68.7,
+          72.1,
+          74.8,
+          72,
+          70.2,
+          71.4,
+          70.2,
+          67.1,
+          64.2,
+          63.5,
+          62.5
+         ],
+         "fmt": "n1",
+         "thin": true
+        },
+        {
+         "name": "Infosys",
+         "values": [
+          100,
+          99.1,
+          97.5,
+          102,
+          100.9,
+          99.9,
+          91,
+          82.7,
+          81.7,
+          78.5,
+          79,
+          75.4,
+          75.8,
+          76.7,
+          78.5,
+          78,
+          79.6,
+          69.7,
+          71.4,
+          71.2,
+          67.6,
+          70.9,
+          70.1,
+          72.3,
+          67.4,
+          63.5,
+          62.9,
+          63.2,
+          64.5,
+          66.2,
+          62.9,
+          68.2,
+          71,
+          70.6,
+          67.7,
+          69.1,
+          68.2,
+          62.7,
+          63.5,
+          60.4,
+          60
+         ],
+         "fmt": "n1",
+         "thin": true
+        },
+        {
+         "name": "HCLTech",
+         "values": [
+          100,
+          98.8,
+          100,
+          102.2,
+          102.8,
+          100.3,
+          96,
+          87.6,
+          86.5,
+          83.6,
+          81.7,
+          79.8,
+          80.3,
+          82.1,
+          84.4,
+          87.4,
+          86.8,
+          72.4,
+          72.2,
+          72.2,
+          68.2,
+          70.1,
+          71.3,
+          69.5,
+          66.8,
+          68.1,
+          66.3,
+          68.6,
+          70.1,
+          72.5,
+          76.5,
+          81.1,
+          81.7,
+          81.9,
+          78.4,
+          79.2,
+          77.9,
+          72.6,
+          75.2,
+          75.7,
+          74.1
+         ],
+         "fmt": "n1",
+         "thin": true
+        },
+        {
+         "name": "Wipro",
+         "values": [
+          100,
+          101,
+          98.4,
+          100.4,
+          89.5,
+          90.8,
+          86.6,
+          80.4,
+          78.8,
+          75.5,
+          73.4,
+          74.2,
+          71.7,
+          71.9,
+          73.2,
+          76.9,
+          76.7,
+          74.9,
+          75.3,
+          74.3,
+          71.3,
+          76.3,
+          76.7,
+          74.5,
+          67.6,
+          67.9,
+          65.7,
+          66.1,
+          65.9,
+          66.1,
+          66.5,
+          69,
+          70.4,
+          69.1,
+          67.9,
+          67.9,
+          66.2,
+          62.9,
+          62.6,
+          61.6,
+          59.5
+         ],
+         "fmt": "n1",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in weekly closes; NSE close on 30-Sep-2026"
+      },
+      {
+       "type": "hbar",
+       "title": "Peers trade 31% below their five-year P/E (median)",
+       "unit": "Trailing P/E on 30-Sep-2026 vs five-year median (%)",
+       "x": [
+        "TCS",
+        "Infosys",
+        "HCLTech",
+        "Wipro",
+        "LTIMindtree (LTM)",
+        "Persistent",
+        "Coforge",
+        "Mphasis",
+        "L&T Technology Services"
+       ],
+       "series": [
+        {
+         "name": "vs median",
+         "values": [
+          -53,
+          -49,
+          -21,
+          -40,
+          -38,
+          -18,
+          -11,
+          -27,
+          -31
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in P/E history (Sep-2021 to Sep-2026), NSE closes"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The evidence, both ways (all published by 30-Sep-2026)",
+      "head": [
+       "Side",
+       "Date",
+       "What happened"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "AI is shrinking the work",
+        "2026-04",
+        "HCLTech CEO: 'Something that was a $100 million deal may now be an $80 million'; expects AI to deplete legacy revenue 2-3% a year while AI services grow 30-45%. FY27 guidance 1-4% CC."
+       ],
+       [
+        "AI is shrinking the work",
+        "2026-06",
+        "Accenture (Q3 FY26): revenue +3% LC, bookings -3%; CEO: client tech budgets 'haven't been increasing' even with AI ('they're spending it differently')."
+       ],
+       [
+        "AI is shrinking the work",
+        "2026-07",
+        "TCS Q1 FY27 revenue roughly flat QoQ; headcount 593,798, down ~19,000 YoY; discretionary projects subdued, budgets moving from conventional application work to AI."
+       ],
+       [
+        "AI is shrinking the work",
+        "2026-07",
+        "Infosys cut FY27 CC growth guidance to 1.5-3.0% (from 1.5-3.5%) citing softer volumes and pricing."
+       ],
+       [
+        "AI is shrinking the work",
+        "2026-07",
+        "Cognizant cut 2026 guidance to 4.0-5.5% CC; CEO on large deals: 'you could pass on that productivity to clients'."
+       ],
+       [
+        "AI is shrinking the work",
+        "2026-07",
+        "Gartner (Jul-2026): 2026 IT spending +14.2% to USD 6.37 tn, but IT services only +5.3%, down from the 8.7% it forecast in Oct-2025."
+       ],
+       [
+        "AI is shrinking the work",
+        "2026-08",
+        "EPAM cut 2026 organic CC growth guidance to 2-3%; Americas +0.5%."
+       ],
+       [
+        "It is (partly) a cycle",
+        "2026-02",
+        "NASSCOM: FY26 industry revenue USD 315 bn (+6.1%), AI revenue USD 10-12 bn, similar growth expected in FY27; 'AI is compressing traditional work but expanding other areas'."
+       ],
+       [
+        "It is (partly) a cycle",
+        "2026-07",
+        "TCS Q1 FY27 TCV USD 9.5 bn incl. an USD 800 mn AI-led deal; annualised AI revenue USD 2.6 bn (+13.6% QoQ)."
+       ],
+       [
+        "It is (partly) a cycle",
+        "2026-07",
+        "Infosys: AI work 8.2% of revenue; Q1 FY27 large-deal TCV USD 3.6 bn (61% net new)."
+       ],
+       [
+        "It is (partly) a cycle",
+        "2026-06",
+        "Accenture: 'AI will be a tailwind for us and our industry as it scales'; Middle East conflict cost ~USD 100 mn of quarterly revenue."
+       ],
+       [
+        "It is (partly) a cycle",
+        "2026-07",
+        "HCLTech kept FY27 guidance at Q1 with record net new bookings of USD 2.4 bn, but Q1 EBIT 16.9% was below its band."
+       ],
+       [
+        "It is (partly) a cycle",
+        "2026-07",
+        "Wipro Q1 FY27 IT services revenue -1.2% QoQ CC; Q2 guide -1.5% to +0.5%."
+       ]
+      ],
+      "source": "Company releases and calls, Gartner, NASSCOM, press reports; URLs in GAM research files (deep.json)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street now values the sector",
+      "head": [
+       "Date",
+       "View"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "2026-07",
+        "JP Morgan cut Indian IT target P/Es by 25% and large-cap medium-term growth to ~3%; later said the sector is 'only two years into' GenAI deflation and models scale firms at 12-15x."
+       ],
+       [
+        "2026-07",
+        "ICICI Securities reset large-cap target multiples to long-term average minus 2 standard deviations (TCS TP Rs1,860, Infosys Rs950); TCV-revenue gap signals AI deflation in the existing book."
+       ],
+       [
+        "2026-08",
+        "Kotak: incumbent IT worth between 11-12x (no terminal growth) and 17-18x (needs sustained 4-5% CC growth); assumes AI deflation of ~3-3.5% a year to FY29, clients keep ~half of savings; new demand cycle only around CY2027-28."
+       ],
+       [
+        "2026-02",
+        "Jefferies: application managed services (22-45% of revenue) face sharp AI deflation; worst case -3pp revenue CAGR over FY26-31 and a further 30-65% de-rating."
+       ],
+       [
+        "2026-09",
+        "JM Financial: NSE IT index at ~16x one-year-forward consensus EPS, fourth year of subdued growth; Tech Mahindra Add, TP Rs1,705, preferred over Wipro on large-deal ramp-ups."
+       ]
+      ],
+      "source": "Broker notes as reported by Business Today and Kotak Neo"
+     }
+    },
+    {
+     "callout": "**Our answer: mostly structural, with a cyclical layer on top.** The cyclical part is real: US tariffs, the Iran war and oil at ~USD 100, weak discretionary spending and foreign selling of Indian equities (the Nifty 50 is down too). But the strongest evidence comes from the companies themselves: HCLTech says deals are ~20% smaller for the same scope and legacy revenue erodes 2-3% a year; Cognizant passes AI productivity to clients; Accenture says budgets are flat; Gartner cut its IT-services growth forecast while total tech spending accelerated; TCS, Infosys and HCLTech all shrank headcount. Record deal wins (TCS USD 9.5 bn, HCLTech USD 2.4 bn net new, Tech Mahindra USD 1.1 bn) are not turning into revenue growth at the same pace: that gap is what deflation looks like. We therefore treat the de-rating as mostly lasting: a return to the 22-30x multiples of 2021-24 needs growth of 7-8% that no large firm is guiding for. The upside for investors is earnings growth, not a re-rating."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Does Tech Mahindra escape the sector's problem? For FY27 yes; after that, probably not",
+   "blocks": [
+    {
+     "p": "Tech Mahindra grew +6.6% YoY in constant currency in Q1FY27 (organic +6.2%) while Infosys cut its FY27 guidance to 1.5-3%, HCLTech guides 1-4%, TCS was flat sequentially and Wipro shrank. That gap has three sources, and only one of them is durable. (1) **Its own recovery:** FY24-26 revenue was flat, so the comparison base is low and the large deals signed in FY26 (USD 3.8 bn, +42%) are now ramping. (2) **One-offs:** a European auto programme delivered early added 1-1.3% to Q1 and reverses in Q2. (3) **Mix:** telecom, aerospace and BFSI sub-segments where it built domain depth are growing. Against that, communications (32% of revenue) grew only 1.3% and management flags \"volatility in a large US telecoms client\"."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Deal wins doubled in a year: USD 4.1 bn over the last twelve months",
+       "unit": "Deal wins, last twelve months (USD mn)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "LTM TCV",
+         "values": [
+          2055,
+          2018,
+          2382,
+          2680,
+          2955,
+          3168,
+          3518,
+          3794,
+          4063
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      },
+      {
+       "type": "line",
+       "title": "Constant-currency growth turned positive in Q3FY26 and reached 6.6%",
+       "unit": "Revenue growth YoY in constant currency (%)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "CC growth YoY",
+         "values": [
+          -1,
+          -0.3,
+          1.3,
+          2.4,
+          6.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Tailwind scorecard",
+      "head": [
+       "Test",
+       "Verdict",
+       "Evidence"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Deal wins converting to revenue",
+        "Yes, for now",
+        "LTM TCV USD 4,063 mn (+37.5%) on revenue of USD 6.5 bn; Q1 every vertical grew YoY"
+       ],
+       [
+        "Exposure to AI-deflation work",
+        "High",
+        "BPS (16%) and run/managed services are where agents bite first; IT headcount −7% YoY because AI tools lifted fixed-price productivity"
+       ],
+       [
+        "Exposure to telecom budgets",
+        "High",
+        "Communications 32% of revenue; +1.3% YoY in Q1FY27"
+       ],
+       [
+        "Pricing discipline",
+        "Good",
+        "Management walks away from deals that promise 70-80% productivity over five years"
+       ],
+       [
+        "Above-peer growth after FY27",
+        "Unproven",
+        "No guidance beyond FY27; we assume ~5% USD growth, in line with the better peers"
+       ]
+      ],
+      "source": "Company calls and presentations, GAM Research"
+     }
+    },
+    {
+     "callout": "**Verdict:** the tailwind reaching Tech Mahindra in FY27 is mostly its own (recovery from a low base plus large-deal ramps), not a sector upturn. We model USD growth of {{as.usdBuild.usdGrowthPct.0|pct}} in FY27E, then {{as.usdBuild.usdGrowthPct.1|pct}} and {{as.usdBuild.usdGrowthPct.2|pct}}: better than Tier-1 peers' current guidance, but not enough to escape the sector's lower valuation."
+    }
+   ]
+  },
+  {
+   "id": "growth",
+   "nav": "Revenue build (USD)",
+   "kicker": "Segment: revenue",
+   "title": "Our dollar build: 6% growth in FY27, then 5% a year; manufacturing and BFSI lead, communications lags",
+   "blocks": [
+    {
+     "p": "IT services revenue is earned in dollars, euros and pounds, so we forecast in dollars and convert. We grow each vertical from its FY26 base (USD 6,385 mn) at the rates below, which gives USD 6,772 mn in FY27E (+6.1%), 7,111 mn in FY28E and 7,468 mn in FY29E. At 95.5 / 97 / 98.5 rupees per dollar (FY26: 89.0; Q1FY27: 94.6; 30-Sep close: ~95.8) that is ₹{{F.sales.0|num}} cr, ₹{{F.sales.1|num}} cr and ₹{{F.sales.2|num}} cr. FY27's rupee growth of {{F.salesGrowth.0|pct}} is mostly currency: 6.1% in dollars and ~7.3% from the weaker rupee."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Revenue build by vertical (USD mn)",
+      "head": [
+       "Vertical",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E",
+       "Growth FY27E / 28E / 29E",
+       "Why"
+      ],
+      "wide": [
+       6
+      ],
+      "rows": [
+       [
+        "Communications",
+        "2,126",
+        "2,201",
+        "2,267",
+        "2,335",
+        "+3.5% / +3.0% / +3.0%",
+        "Large-deal ramps vs a volatile US telecom client and AI pressure on run work"
+       ],
+       [
+        "Manufacturing",
+        "1,149",
+        "1,287",
+        "1,377",
+        "1,474",
+        "+12.0% / +7.0% / +7.0%",
+        "Aerospace and auto; FY27 helped by the early European auto delivery"
+       ],
+       [
+        "BFSI",
+        "1,041",
+        "1,134",
+        "1,225",
+        "1,311",
+        "+9.0% / +8.0% / +7.0%",
+        "Payments, wealth, insurance; Avant from Jun-2026"
+       ],
+       [
+        "Technology, media & ent.",
+        "849",
+        "866",
+        "884",
+        "910",
+        "+2.0% / +2.0% / +3.0%",
+        "Volatile client spend; cloud pass-through lost"
+       ],
+       [
+        "Retail, logistics & transport",
+        "530",
+        "572",
+        "612",
+        "655",
+        "+8.0% / +7.0% / +7.0%",
+        "Logistics modernisation; +8.6% in Q1"
+       ],
+       [
+        "Healthcare & life sciences",
+        "466",
+        "499",
+        "534",
+        "571",
+        "+7.0% / +7.0% / +7.0%",
+        "Provider and life-sciences wins; +7.2% in Q1"
+       ],
+       [
+        "Others",
+        "223",
+        "212",
+        "212",
+        "212",
+        "−5.0% / +0.0% / +0.0%",
+        "Shrinking"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total (USD mn)**",
+         "**6,385**",
+         "**6,772**",
+         "**7,111**",
+         "**7,468**",
+         "**+6.1% / +5.0% / +5.0%**",
+         "Street FY27E: USD 6,745-6,792 mn"
+        ]
+       },
+       [
+        "INR/USD (average)",
+        "89.0",
+        "95.5",
+        "97.0",
+        "98.5",
+        "",
+        "BMI 97 by Mar-27, 99 by Mar-28"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Revenue (₹ cr) = USD x rate**",
+         "**56,815**",
+         "**64,671**",
+         "**68,977**",
+         "**73,559**",
+         "",
+         "Ties to the model (check in our files)"
+        ]
+       }
+      ],
+      "source": "Company presentations and calls; GAM Research estimates"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "Mix shifts slowly: communications falls from 33% to ~31%",
+       "unit": "Revenue by vertical (USD mn)",
+       "x": [
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Communications",
+         "values": [
+          2126,
+          2201,
+          2267,
+          2335
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Manufacturing",
+         "values": [
+          1149,
+          1287,
+          1377,
+          1474
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "BFSI",
+         "values": [
+          1041,
+          1134,
+          1225,
+          1311
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Other verticals",
+         "values": [
+          2069,
+          2150,
+          2242,
+          2349
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 400,
+       "source": "Company presentations and calls; GAM Research estimates"
+      },
+      {
+       "type": "column",
+       "title": "Europe is the fastest-growing region (+12% YoY in Q1)",
+       "unit": "Revenue share by geography (%)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Americas",
+         "values": [
+          49.2,
+          49.8,
+          50.6,
+          49.7,
+          48.6
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Europe",
+         "values": [
+          26,
+          25.4,
+          25.6,
+          26,
+          27.5
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Rest of world",
+         "values": [
+          24.8,
+          24.8,
+          23.9,
+          24.3,
+          23.9
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "none",
+       "source": "Company presentations"
+      }
+     ]
+    },
+    {
+     "callout": "**Why not faster after FY27?** Peers guide 1-4% for FY27 and the brokers that model FY28 expect 5-7.5% for Tech Mahindra. We sit at the low end (5%): by FY28 the large-deal ramps are in the base, and the same AI productivity pass-backs that HCLTech and Cognizant describe will reach Tech Mahindra's run contracts. Each 1 point of extra dollar growth adds ~1% to FY28E EPS."
+    }
+   ]
+  },
+  {
+   "id": "people",
+   "nav": "Deals, clients & people",
+   "kicker": "Segment: operations",
+   "title": "Fewer people, more revenue: IT headcount −7% while revenue grew 6%",
+   "blocks": [
+    {
+     "p": "Tech Mahindra won USD 1,078 mn of new deals in Q1FY27, its third straight USD 1 bn+ quarter (USD 4,063 mn over twelve months, +37.5%). Clients paying over USD 50 mn rose from 26 to 33 in a year. At the same time IT headcount fell to 74,689 (−7% YoY): management says AI tools lifted productivity on its large fixed-price portfolio, so leavers were not replaced. IT revenue per IT employee rose from ~USD 69,000 in FY26 to ~USD 75,000 (Q1FY27 annualised). Utilisation is a high 87.0%, attrition 11.8%. Wage hikes start in Q2FY27, phased. Two levers are nearly used up: utilisation (little room above 87%) and the onsite mix (22.5%, which large rebadging deals and SAP/ServiceNow work will keep up this year)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Third straight USD 1 bn+ quarter of deal wins",
+       "unit": "New deal wins (TCV, USD mn)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "TCV",
+         "values": [
+          534,
+          603,
+          745,
+          798,
+          809,
+          816,
+          1096,
+          1073,
+          1078
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company presentations (Q3FY25 derived from LTM figures)"
+      },
+      {
+       "type": "line",
+       "title": "IT headcount down ~5,900 since Mar-2025",
+       "unit": "Headcount (nos)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "IT",
+         "values": [
+          80417,
+          80618,
+          80865,
+          80609,
+          79987,
+          78528,
+          76194,
+          75377,
+          74689
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "BPS",
+         "values": [
+          58177,
+          64940,
+          61053,
+          59636,
+          60278,
+          66095,
+          65450,
+          64330,
+          64080
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Company presentations"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Operating KPIs",
+      "head": [
+       "",
+       "Q1FY25",
+       "Q1FY26",
+       "Q4FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "Revenue (USD mn)",
+        "1,559",
+        "1,564",
+        "1,625",
+        "1,660"
+       ],
+       [
+        "EBIT margin",
+        "8.5%",
+        "11.1%",
+        "13.8%",
+        "14.4%"
+       ],
+       [
+        "Total headcount",
+        "1,47,620",
+        "1,48,517",
+        "1,47,623",
+        "1,46,760"
+       ],
+       [
+        "Revenue per employee, annualised (USD '000)",
+        "42.2",
+        "42.1",
+        "44.0",
+        "45.2"
+       ],
+       [
+        "IT utilisation / attrition (LTM)",
+        "86.3% / 10.1%",
+        "85.0% / 12.6%",
+        "86.1% / 12.1%",
+        "87.0% / 11.8%"
+       ],
+       [
+        "IT onsite mix",
+        "24.6%",
+        "21.4%",
+        "22.2%",
+        "22.5%"
+       ],
+       [
+        "Clients > USD 50 mn / top-10 share",
+        "24 / 25.1%",
+        "26 / 25.2%",
+        "29 / 24.3%",
+        "33 / 24.0%"
+       ],
+       [
+        "DSO (days) / FCF (USD mn)",
+        "93 / 106",
+        "95 / 86",
+        "89 / 99",
+        "84 / 167"
+       ]
+      ],
+      "source": "Company presentations"
+     }
+    },
+    {
+     "callout": "**So what:** revenue growth with falling headcount is the AI story in miniature. It flatters margins today (fewer people per dollar) but it is also the mechanism of deflation: when clients renew, they ask for the same savings. Tech Mahindra says it refuses deals that bake in 70-80% productivity over five years; its peers say deal sizes are shrinking ~20%. We assume headcount starts rising again in H2FY27 as management expects."
+    }
+   ]
+  },
+  {
+   "id": "margins",
+   "nav": "Margins: what is left",
+   "kicker": "Segment: margins",
+   "title": "Margins: 6.1% to 14.4% in two years; the last 60-100 bp to 15% is the hardest",
+   "blocks": [
+    {
+     "p": "Project Fortius took the company EBIT margin from 6.1% (FY24) to 12.6% (FY26) and 14.4% in Q1FY27. The Analyst Day bridge (Apr-2026) lists the levers: offshoring, fixed-price productivity, rotating staff to cheaper grades (N-1), cutting subcontractors, G&A savings, pricing, and FX tailwinds, against wage hikes and investments. Compensation fell to 64.4% of revenue in FY26 (−250 bp). In Q1FY27 the gain came from SG&A (portfolio-company back offices merged) while gross margin was hit by visa costs, Comviva seasonality and the low-margin auto acceleration. Q2 brings wage hikes and the auto reversal; management says Q4FY27 \"has to be upwards of 15%\" and that it will \"hit\" 15% for the year, but has set no path beyond FY27."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "EBIT margin by quarter vs the 15% goal",
+       "unit": "EBIT margin, company definition (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBIT margin",
+         "values": [
+          8.5,
+          9.6,
+          10.2,
+          10.5,
+          11.1,
+          12.1,
+          13.1,
+          13.8,
+          14.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "lines": [
+        {
+         "v": 15,
+         "text": "15%"
+        }
+       ],
+       "min": 0,
+       "source": "Company presentations"
+      },
+      {
+       "type": "line",
+       "title": "Our EBIT margin: 14.8% / 15.3% / 15.6%",
+       "unit": "EBIT margin (%), Screener basis; FY27-29E GAM",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBIT margin",
+         "ref": "fin.ebitMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 20,
+       "source": "Screener.in; GAM estimates"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Margin levers: used and remaining",
+      "head": [
+       "Lever",
+       "Used so far",
+       "Left?"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Subcontractors",
+        "Subcontracting 11.0% of revenue in FY25, 10.7% in FY26",
+        "Rose to 11.4% in Q1FY27 (auto programme); some room"
+       ],
+       [
+        "Offshoring / pyramid",
+        "Onsite 24.6% (Q1FY25) to 21.4% (Q1FY26)",
+        "Back to 22.5%; limited this year (rebadged large deals)"
+       ],
+       [
+        "Utilisation",
+        "85.0% (Q1FY26) to 87.0%",
+        "Little; 87% is near the ceiling"
+       ],
+       [
+        "Fixed-price productivity (AI tools)",
+        "IT headcount −7% YoY",
+        "Yes, but clients will ask for a share at renewal"
+       ],
+       [
+        "SG&A / portfolio companies",
+        "SG&A 13.9% of revenue in FY26, 13.0% in Q1FY27",
+        "Some (integration ~95% done)"
+       ],
+       [
+        "Rupee",
+        "Average 85.3 (Q1FY26) to 94.6 (Q1FY27)",
+        "We assume ~1.5% a year: a small tailwind; hedge losses offset part below EBIT"
+       ],
+       [
+        "Wage hikes",
+        "—",
+        "A headwind from Q2FY27"
+       ]
+      ],
+      "source": "Company presentations, results and calls; Screener.in"
+     }
+    },
+    {
+     "callout": "**Our forecast:** EBIT margin {{as.ebitMarginTargetPct.0|n1}}% in FY27E (just below the 15% target, because Q2 carries wages), {{as.ebitMarginTargetPct.1|n1}}% in FY28E and {{as.ebitMarginTargetPct.2|n1}}% in FY29E; the street has 14.7-15.1% for FY27E and 14.8-15.9% for FY28E. Each 1 pp of margin is ~₹{{F.sales.1|num}} cr x 1% ≈ +7% of FY28E EPS. Tech Mahindra has not reported an EBIT margin above 15% since FY15 (15.8%); we do not assume a big step beyond it now."
+    }
+   ]
+  },
+  {
+   "id": "otherincome",
+   "nav": "Other income & FX",
+   "kicker": "Other income",
+   "title": "Why \"other income\" turned negative: rupee hedge losses, not a hidden problem, and they are shrinking",
+   "blocks": [
+    {
+     "p": "Screener shows other income of −₹240 cr for FY26 and −₹564 cr for the twelve months to Jun-2026. Three things are netted in. (1) **FX losses:** Tech Mahindra sells dollars forward to protect its rupee margins; when the rupee fell from ~85 to ~95 per dollar, the old hedges lost money. Its own accounts put FX losses (incl. mark-to-market on derivatives) at ₹480 cr in FY26 and ~₹218 cr in Q1FY27 alone. (2) **An exceptional charge:** ₹272 cr for the new Labour Codes (Q3FY26), which Screener adds to other income. (3) **Associates:** −₹1.5 cr. Before FX, other income was a steady ₹512 cr in FY26. The same rupee fall that caused the hedge losses lifted revenue and EBIT, so the two partly offset: the hedges did their job."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Other income, as reported (₹ crore)",
+      "head": [
+       "",
+       "FY25",
+       "FY26",
+       "Note"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Interest income",
+        "197",
+        "98",
+        "FY25 includes interest on a property-sale receivable"
+       ],
+       [
+        "Gains on mutual funds (FVTPL) + dividends",
+        "132",
+        "154",
+        "Treasury income"
+       ],
+       [
+        "Gain on sale of property and assets",
+        "454",
+        "8",
+        "**FY25 one-off: ₹450 cr land and building sale**"
+       ],
+       [
+        "Rental and miscellaneous income",
+        "311",
+        "252",
+        "Incl. fair-value changes of acquisition earn-outs"
+       ],
+       [
+        "Foreign-exchange loss (incl. derivative MTM)",
+        "-238",
+        "-480",
+        "Rupee 84→86 in FY25, 86→95 in FY26"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Other income (company)**",
+         "**855**",
+         "**32**",
+         ""
+        ]
+       },
+       [
+        "Associates and exceptional items (Screener nets them in)",
+        "+9",
+        "−274",
+        "FY26: Labour Code charge ₹272 cr"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Other income (Screener)**",
+         "**864**",
+         "**-240**",
+         ""
+        ]
+       }
+      ],
+      "source": "Annual report FY26, consolidated note 29 (₹ mn converted); Screener.in"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "By quarter: FX is the whole swing (₹ crore)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q2FY26",
+       "Q3FY26",
+       "Q4FY26",
+       "Q1FY27",
+       "TTM to Jun-26"
+      ],
+      "rows": [
+       [
+        "Other income (ex exceptional)",
+        "219",
+        "40",
+        "-21",
+        "-205",
+        "-106",
+        "-292"
+       ],
+       [
+        "of which FX gain / (loss)",
+        "26",
+        "-109",
+        "-115",
+        "-278",
+        "-218",
+        "-720"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Other income before FX**",
+         "**193**",
+         "**149**",
+         "**95**",
+         "**73**",
+         "**111**",
+         "**428**"
+        ]
+       },
+       [
+        "Hedge book (USD bn, period end)",
+        "–",
+        "–",
+        "1.05",
+        "0.75",
+        "0.72",
+        "Mar-25: 1.96"
+       ]
+      ],
+      "source": "Company presentations (FX in USD mn x the quarter's average rate) and calls; GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Our other-income build (₹ crore)",
+      "head": [
+       "",
+       "FY26A",
+       "FY27E",
+       "FY28E",
+       "FY29E",
+       "Basis"
+      ],
+      "wide": [
+       5
+      ],
+      "rows": [
+       [
+        "Treasury income",
+        "252",
+        "254",
+        "292",
+        "356",
+        "4% on net treasury after leases (opening ₹6,345 cr); FY26 = 4.2% of average net treasury"
+       ],
+       [
+        "Miscellaneous and rental",
+        "260",
+        "190",
+        "200",
+        "210",
+        "FY26 ₹260 cr incl. ₹8 cr asset gains; FY25 ₹311 cr ex the property gain"
+       ],
+       [
+        "FX gain / (loss)",
+        "-480",
+        "-400",
+        "-100",
+        "-50",
+        "Q1FY27 −₹218 cr actual; hedge book cut to USD 0.72 bn, one-year tenor; we assume ~1.5% rupee depreciation a year"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Other income**",
+         "**32**",
+         "**{{F.otherIncome.0|num}}**",
+         "**{{F.otherIncome.1|num}}**",
+         "**{{F.otherIncome.2|num}}**",
+         "Engine: treasury yield x net treasury + the two lines below it"
+        ]
+       }
+      ],
+      "source": "GAM Research estimates"
+     }
+    },
+    {
+     "callout": "**Reconciliation.** FY27E other income of ₹{{F.otherIncome.0|num}} cr compares with ₹32 cr in FY26 (company basis) and −₹292 cr over the twelve months to Jun-2026 (ex the exceptional). Before FX our FY27E is ₹444 cr: equal to Q1FY27 annualised (₹111 cr x 4) and below FY26 (₹512 cr). The whole gap to the TTM is FX: we assume ₹400 cr of losses in FY27E against ₹720 cr in the TTM, because most hedges written before the rupee's fall have matured (book down 63% since Mar-2025, tenor halved). If the rupee falls faster than the ~1.5% a year we assume, FX losses rise again but so does EBIT. The FY25 property gain (₹450 cr) and FY26 Labour Code charge (₹272 cr) are one-offs and are not in our forecasts."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: real telecom depth, no scale edge, and the wrong kind of work for an AI world",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Scale",
+       "Weak",
+       "USD 6.4 bn revenue against TCS ~USD 30 bn, Infosys ~USD 20 bn, HCLTech ~USD 15 bn (FY26 rupee revenue at ~89/USD); operating margin ~11 points below TCS",
+       "No cost or bidding advantage on mega-deals"
+      ],
+      [
+       "Domain depth (telecom)",
+       "Strong",
+       "32% of revenue; OSS/BSS, network services, own software (Comviva); wins with Telefonica Germany, an African telecom group, a NZ operator",
+       "A genuine niche, but in a client industry that is cutting IT budgets"
+      ],
+      [
+       "Domain depth (other verticals)",
+       "Building",
+       "Payments, wealth, insurance, aerospace, life sciences; Avant acquisition; 63 \"must-have\" clients added in FY26",
+       "Promising; one year of evidence"
+      ],
+      [
+       "Switching costs",
+       "Moderate",
+       "Multi-year run and managed-services contracts; top-10 clients 24% of revenue",
+       "Sticky, but run work is where AI pass-backs hit first"
+      ],
+      [
+       "Brand / client satisfaction",
+       "Improving",
+       "Management claims industry-leading NPS; 182 clients added in FY26",
+       "Helps win deals; not a pricing moat"
+      ],
+      [
+       "Parentage",
+       "Helpful",
+       "Mahindra group: captive IT work, credibility in manufacturing and auto",
+       "Support, not a moat"
+      ],
+      [
+       "AI exposure",
+       "Negative",
+       "BPS (16%), testing and infrastructure admin are among the most automatable services; IT headcount −7% YoY",
+       "Higher deflation risk than peers with more consulting or products"
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings, calls and broker notes to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict: no durable moat.** Tech Mahindra has one real specialism (telecom) and a credible plan to build others, but it is a price-taker in most of what it sells, has no scale advantage and is more exposed than the leaders to the kinds of work AI automates first (BPS, testing, infrastructure operations). Its edge today is execution and agility under a strong CEO, which is valuable but not a moat. That matters for the multiple: the market should not pay a Tier-1 quality premium for it."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Ten years of revenue growth, five years of flat earnings: EPS was ₹51 in FY21 and ₹54 in FY26",
+   "blocks": [
+    {
+     "p": "Tech Mahindra's revenue grew from ₹26,494 cr in FY16 to ₹56,815 cr in FY26, about 7.9% a year in rupees, but profit attributable to shareholders only from ₹2,993 cr to ₹4,811 cr (4.9% a year). The last five years were a round trip. Revenue jumped 18% in FY22 and 19% in FY23 on a post-Covid boom and acquisitions (~₹4,600 cr of non-treasury investing outflows in FY22 alone), then fell 2% in FY24 when telecom and hi-tech clients cut spending. The EBITDA margin halved from 18% (FY21-22) to 8.7% (FY24) and EPS fell from ₹63.4 (FY22) to ₹26.7 (FY24). The turnaround since then is real: margin 13.1% in FY25 and 15.9% in FY26, EPS back to ₹54.3. But FY26 EPS is still below FY22, and in dollars revenue was flat for three years (USD 6,277 mn in FY24, 6,264 mn in FY25, 6,385 mn in FY26)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: 7.9% a year, mostly from the rupee and acquisitions",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders, EPS on reported share count), GAM Research; GAM estimates FY27-29E"
+      },
+      {
+       "type": "column",
+       "title": "EPS: ₹63 in FY22, ₹27 in FY24, ₹54 in FY26, ₹74 in FY27E",
+       "unit": "EPS (₹, reported basic; FY27-29E GAM)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EPS",
+         "ref": "fin.eps",
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders, EPS on reported share count), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBIT margin: 6.1% to 12.6% in two years; 15% is the FY27 goal",
+       "unit": "EBIT margin (%), Screener basis (EBITDA less depreciation)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBIT margin",
+         "ref": "fin.ebitMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 20,
+       "lines": [
+        {
+         "v": 15,
+         "text": "FY27 target 15%"
+        }
+       ],
+       "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders, EPS on reported share count), GAM Research. The company's own EBIT was 6.1% (FY24), 9.7% (FY25), 12.6% (FY26)"
+      },
+      {
+       "type": "line",
+       "title": "People costs fell from 56% to 54% of revenue in FY26 (50% in Q1FY27)",
+       "unit": "Employee cost, % of revenue (Screener; subcontracting sits in other costs)",
+       "x": "A.labels",
+       "from": "FY16",
+       "series": [
+        {
+         "name": "Employee cost",
+         "ref": "A.employeePct",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 40,
+       "max": 60,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** two things went wrong in FY23-24 and both were self-inflicted as much as cyclical. Tech Mahindra bought growth (Com Tec Co, Allyis, Activus Connect and Perigord among others; ~₹6,700 cr of non-treasury investing outflows in FY21-23) just before demand turned, and leaned on telecom clients who then cut budgets. The new team's fix (Project Fortius) was cost first: fewer subcontractors, more offshore and fixed-price productivity, integrated back offices. That has worked. What has not yet been proven is growth: FY27's 6% dollar growth would be the first year above peers since FY23."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & the turnaround",
+   "kicker": "Momentum",
+   "title": "Q1FY27 beat on growth and margin; two of the four FY27 targets are already met",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q4FY26",
+       "Q1FY27",
+       "Change YoY"
+      ],
+      "rows": [
+       [
+        "Revenue (USD mn)",
+        "1,564",
+        "1,625",
+        "1,660",
+        "+6.1%"
+       ],
+       [
+        "  constant-currency growth YoY",
+        "−1.0%",
+        "+2.4%",
+        "+6.6%",
+        ""
+       ],
+       [
+        "Revenue (₹ cr)",
+        "13,351",
+        "15,076",
+        "15,712",
+        "+17.7%"
+       ],
+       [
+        "EBIT (USD mn) / margin",
+        "172 / 11.1%",
+        "223 / 13.8%",
+        "238 / 14.4%",
+        "+330 bp"
+       ],
+       [
+        "Other income (₹ cr; FX loss inside)",
+        "219",
+        "−205",
+        "-106",
+        ""
+       ],
+       [
+        "Net profit attributable (₹ cr)",
+        "1,141",
+        "1,354",
+        "1,465",
+        "+28%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Basic EPS (₹)**",
+         "**12.87**",
+         "**15.27**",
+         "**16.53**",
+         "**+28%**"
+        ]
+       },
+       [
+        "Deal wins (USD mn) / free cash flow (USD mn)",
+        "809 / 86",
+        "1,073 / 99",
+        "1,078 / 167",
+        ""
+       ]
+      ],
+      "source": "Q1FY27 results and presentation (16-Jul-2026); Screener.in. Street expected ~1% CC growth QoQ and a 14.1% EBIT margin"
+     }
+    },
+    {
+     "bullets": [
+      "**Growth:** Q2 headwind of ~1-1.3% from a European auto programme delivered early in Q1; offset by a large telecom deal that had not started ramping in Q1; FY27 growth to 'meet or exceed' the peer average; no numeric guidance.",
+      "**Comms:** Communications +1.3% YoY despite Comviva seasonality and a client insourcing cloud consumption after its takeover; 'clearly volatility in a large US telecoms client'.",
+      "**Wages:** Wage increases effective Q2FY27, phased.",
+      "**Margin:** Q1 margin helped by SG&A (portfolio-company consolidation); gross margin hit by visa costs, Comviva seasonality and the low-margin auto acceleration. Levers: fixed-price productivity, utilisation, SG&A.",
+      "**Pyramid:** Onsite mix will not fall this year: large deals with rebadging and onsite-heavy SAP/ServiceNow/Salesforce work limit the offshore lever.",
+      "**Ai:** Demand weak in manual testing, traditional big data, standalone e-commerce, legacy CRM and legacy infra admin; strong in enterprise platforms (ServiceNow, SAP, Salesforce), data & AI; competitors bake 70-80% productivity into 5-year deals ('irrational').",
+      "**Headcount:** IT headcount down ~7% YoY because AI tooling lifted fixed-price productivity; hiring expected later in FY27.",
+      "**Fx:** Hedge book USD 0.72 bn (Mar-25: USD 1.96 bn; tenure cut from two years to one). MTM -USD 24.85 mn, of which USD 14.55 mn in P&L."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The three-year plan: scorecard at 30-Sep-2026",
+      "head": [
+       "FY27 target (set Apr-2024)",
+       "Where it stands",
+       "Verdict"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "EBIT margin 15%",
+        "6.1% (FY24) → 9.7% → 12.6% (FY26) → 14.4% (Q1FY27); Q4FY27 \"upwards of 15%\"",
+        "Likely; FY27 average ~14.8% on our numbers"
+       ],
+       [
+        "Revenue growth above peer average",
+        "Q1FY27 +6.6% CC YoY vs Tier-1 peers guiding 1-4%",
+        "Very likely for FY27"
+       ],
+       [
+        "ROCE above 30%",
+        "22.6% (Q4FY25) → 26.2% (Q4FY26) → 28.3% (Q1FY27)",
+        "Possible by Q4FY27"
+       ],
+       [
+        "Return more than 85% of FCF",
+        "FY26: 91% of FCF (₹51 a share, 94% of EPS)",
+        "Met"
+       ],
+       [
+        "Beyond FY27",
+        "\"For beyond FY27, we will have to spell out a path\" (CEO, Jul-2026)",
+        "Not set: the key gap"
+       ]
+      ],
+      "source": "Analyst Day deck (22-Apr-2026), Q1FY27 call transcript"
+     }
+    },
+    {
+     "callout": "**Why it matters:** the plan has been delivered almost exactly as promised, which is rare in Indian IT and is the main reason the stock held up in 2026. But a delivered plan is a known plan: the market already pays ~18x our FY28E EPS for it. What would move the stock now is a credible FY28-30 roadmap (margins above 16%, growth sustained above 5%) at the Q4FY27 results or a later analyst day."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Cash & returns",
+   "kicker": "Capital allocation",
+   "title": "Cash generation is steady; returns halved in FY24 and are only now back to the FY22 level",
+   "blocks": [
+    {
+     "p": "An IT services company needs little capital: capex was ₹594-1,015 cr a year in FY22-26 (1.1-2.1% of revenue). Cash from operations was ₹6,172 cr in FY26 (128% of attributable profit) and ₹18,334 cr over FY24-26. Most of it goes back to shareholders: ₹11,785 cr of dividends over FY24-26, more than the ₹11,421 cr of profit. The policy is to return at least 85% of free cash flow over five years; FY26's ₹51 a share was 91% of FCF. The weak spot is the past use of capital: goodwill and acquired intangibles are ₹10,426 cr (35% of net worth), much of it from the FY22 spree, and return on capital fell from 26% (FY22) to 12% (FY24)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Cash from operations covers capex several times",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        },
+        {
+         "name": "Dividends paid",
+         "ref": "A.dividendsPaid",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders, EPS on reported share count), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 26% in FY22, 12% in FY24, 23% in FY26",
+       "unit": "Return on capital employed (%), Screener",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          32,
+          27,
+          23,
+          24,
+          25,
+          22,
+          23,
+          26,
+          22,
+          12,
+          19,
+          23
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 35,
+       "source": "Screener.in. Company ROCE (its definition): 22.6% Q4FY25, 26.2% Q4FY26, 28.3% Q1FY27; FY27 goal above 30%"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY21-23",
+       "FY24-26",
+       "Six years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "18,951",
+        "18,334",
+        "37,285"
+       ],
+       [
+        "Capex",
+        "2,639",
+        "2,081",
+        "4,720"
+       ],
+       [
+        "Acquisitions and other investing (net, ex treasury)",
+        "~6,700",
+        "~630",
+        "~7,330"
+       ],
+       [
+        "Dividends paid",
+        "10,003",
+        "11,785",
+        "21,788"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over before acquisitions**",
+         "**6,309**",
+         "**4,468**",
+         "**10,777**"
+        ]
+       }
+      ],
+      "source": "Screener.in cash flow (consolidated). Acquisitions approximated from \"other investing items\" (FY21 −₹1,067 cr, FY22 −₹4,642 cr, FY23 −₹999 cr, FY24 −₹884 cr, FY25 +₹77 cr, FY26 +₹178 cr)."
+     }
+    },
+    {
+     "callout": "**The capital question:** with growth slow and the policy at 85%+ of FCF, the dividend yield is 3.3% at ₹1,524 on FY26's ₹51 and ~4% on our FY27E. The risk is a return to large acquisitions to buy growth; management's stated plan is tuck-ins (Avant, ₹188 cr in May-2026). We model ₹850-950 cr of capex and an 85% payout."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: strong cash conversion, but goodwill, unbilled revenue and a 13-year-old Satyam overhang",
+   "blocks": [
+    {
+     "bullets": [
+      "**Cash backs profit.** Cash from operations was 128% of attributable profit in FY26, 136% in FY25 and 270% in FY24; company free cash flow was 115% of PAT in FY26 and 108% in Q1FY27. Over FY15-26 operating cash (₹59,285 cr) exceeded profit (₹46,811 cr).",
+      "**Unbilled revenue is large.** ₹5,821 cr of the ₹13,358 cr of receivables at Mar-2026 was unbilled (work done, not yet invoiced), typical of fixed-price contracts but a judgement area; DSO 84-95 days is long against Tier-1 peers.",
+      "**Goodwill and acquired intangibles** of ₹10,426 cr (35% of net worth) come mostly from acquisitions; impairment testing is a key audit matter. Small impairments (₹27 cr in FY25) and liquidations of failed units show some buys did not work.",
+      "**One-offs in history:** a ₹450 cr property-sale gain (FY25) and a ₹272 cr Labour Code charge (FY26). We show our P/E history on both reported EPS and EPS before them.",
+      "**Two EPS figures circulate.** Reported basic EPS (FY26 ₹54.28) excludes the 9.42 cr treasury shares held by the TML Benefit Trust; Screener divides by all ~98 cr issued shares (₹49.10). We use the reported basis, as the company and brokers do.",
+      "**Contingent liabilities** are material: income-tax disputes ₹985 cr (mostly transfer pricing), a ₹1,275 cr service-tax demand on onsite services (2008-13) before the Supreme Court, and ₹624 cr of other claims not acknowledged.",
+      "**Satyam legacy:** ₹1,230 cr of \"alleged advances\" claimed by 37 companies from the old Satyam sits in a suspense account outside equity and liabilities by court order; the auditor (B S R & Co.) has repeated an emphasis of matter on it every year. Management expects nothing to be payable."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER (mild).** Unmodified audit opinion, cash conversion above 100% and transparent disclosure of FX and exceptional items. We stop short of green because of the size of goodwill and unbilled revenue, the earn-out fair-value gains that pass through other income, the long-running Satyam emphasis of matter and ₹2,900 cr of tax and other contingent claims (~10% of net worth)."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash of ~₹6,300 cr after leases; receivables are the big asset to watch",
+   "blocks": [
+    {
+     "p": "At Mar-2026 Tech Mahindra held ₹5,105 cr of cash and bank balances and ₹3,371 cr of investments (mostly mutual funds), against ₹70 cr of borrowings and ₹2,117 cr of lease liabilities: net cash of ~₹6,300 cr after leases (USD 892 mn of cash on the company's definition). Cash rose to ₹9,695 cr (USD 1,026 mn) in Jun-2026. The largest operating asset is receivables: ₹13,358 cr billed and unbilled (86 days of revenue on Screener's basis); DSO fell from 95 days (Q1FY26) to 84 (Q1FY27), helped by early client payments that management expects to reverse. Goodwill is ₹8,456 cr. A ₹1,230 cr \"suspense account\" for alleged advances to the old Satyam sits outside liabilities (see governance)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Receivable days jumped after the FY22 acquisitions; now falling",
+       "unit": "Debtor days (Screener, incl. unbilled)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Debtor days",
+         "values": [
+          84,
+          80,
+          67,
+          77,
+          73,
+          75,
+          62,
+          98,
+          88,
+          80,
+          80,
+          86
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in; company DSO 84 days in Q1FY27"
+      },
+      {
+       "type": "column",
+       "title": "Cash and investments: ₹8,531 cr at Mar-26",
+       "unit": "Cash and investments (₹ crore, gross)",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash and investments",
+         "ref": "A.cashAndInvestments",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders, EPS on reported share count), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth (excl. minorities)",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and investments",
+        "{{A.cashAndInvestments.7|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "Net fixed assets (incl. goodwill, intangibles, leases)",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Trade receivables (billed + unbilled)",
+        "{{A.receivables.7|num}}",
+        "{{A.receivables.9|num}}",
+        "{{A.receivables.10|num}}",
+        "{{A.receivables.11|num}}"
+       ],
+       [
+        "Trade payables",
+        "{{A.payables.7|num}}",
+        "{{A.payables.9|num}}",
+        "{{A.payables.10|num}}",
+        "{{A.payables.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated; profit attributable to shareholders, EPS on reported share count), GAM Research. Minorities (₹462 cr at Mar-26) sit in other liabilities on Screener."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: Mahindra & Mahindra 25.3%, domestic institutions now 37%",
+   "blocks": [
+    {
+     "p": "Promoters held 34.96% at Jun-2026: Mahindra & Mahindra 25.3% plus the TML Benefit Trust's 9.6% (treasury shares from the Satyam merger, eliminated in the consolidated accounts). Indian institutions owned 36.92% (Life Insurance Corporation alone 11.4% at Mar-2026, up from 10.1% a year earlier), foreign investors 18.66% (24.2% in Dec-2024) and the public 9.28%. Foreign funds sold through the 2026 IT sell-off while domestic funds bought."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Domestic institutions up from 31% to 37% in 18 months; foreign funds down",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoters ~35% (incl. the 9.6% treasury trust)",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 30,
+       "max": 40,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest holders",
+      "head": [
+       "Holder",
+       "Stake",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Mahindra & Mahindra Ltd",
+        "25.31%",
+        "Mar-2026; unchanged for years"
+       ],
+       [
+        "TML Benefit Trust",
+        "9.62%",
+        "Treasury shares (Satyam merger); excluded from EPS and from our share count"
+       ],
+       [
+        "Life Insurance Corporation of India",
+        "11.44%",
+        "Mar-2026 (10.14% Mar-2025)"
+       ],
+       [
+        "Foreign portfolio investors (Jun-2026)",
+        "18.66%",
+        "Down from 24.2% (Dec-2024)"
+       ],
+       [
+        "Domestic institutions (Jun-2026)",
+        "36.92%",
+        "Up from 30.7% (Dec-2024)"
+       ]
+      ],
+      "source": "BSE shareholding pattern via Screener.in (Jun-2026 categories); annual report FY26 (named holders at Mar-2026). Named holders at Jun-2026 were not available to us."
+     }
+    },
+    {
+     "callout": "**Our read:** a stable anchor owner (M&M) that does not run the company day to day, and a register that has become more domestic. The TML Benefit Trust's 9.4 cr shares (~₹14,400 cr at ₹1,524) are a latent asset: any sale would bring in cash; we value the company on the 88.6 cr shares outside the trust, which treats them as cancelled."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: a capable CEO and a strong board; generous pay and the Satyam legacy to watch",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Mohit Joshi",
+        "MD & CEO (ex-Infosys president); presented the three-year turnaround plan in April 2024",
+        "GBP 5.40 mn in FY26 (salary 1.36, ESOP perquisite 2.93, bonus 1.11); 1,085x median employee pay; remuneration +20.4% excl. ESOPs"
+       ],
+       [
+        "Rohit Anand",
+        "CFO",
+        ""
+       ],
+       [
+        "Atul Soneja",
+        "COO; leads Project Helix (AI)",
+        ""
+       ],
+       [
+        "Anand G. Mahindra",
+        "Chairman (non-executive)",
+        ""
+       ]
+      ],
+      "source": "Annual report FY26; Q1FY27 call"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Delivery against promises",
+       "Strong",
+       "Margin, growth and payout targets set in Apr-2024 met or on track",
+       "Credibility is high"
+      ],
+      [
+       "Board",
+       "Strong",
+       "Chaired by Anand Mahindra; independent directors include Shikha Sharma, Haigreve Khaitan, Tarun Bajaj, Neelam Dhawan, Penelope Fowler, Mukti Khaire",
+       "Experienced, majority-independent board"
+      ],
+      [
+       "Audit",
+       "Watch",
+       "B S R & Co. LLP, unmodified opinion with an emphasis of matter on the Satyam alleged advances (₹1,230 cr) every year",
+       "Legacy issue; no new red flags"
+      ],
+      [
+       "Pay",
+       "Watch",
+       "CEO paid GBP 5.4 mn in FY26 (salary 1.36, ESOP perquisite 2.93, bonus 1.11), 1,085x the median employee; CFO pay +88% excluding ESOPs",
+       "High even by Indian IT standards; mostly ESOPs and bonus tied to targets"
+      ],
+      [
+       "Related parties",
+       "Moderate",
+       "Mahindra group companies are clients (e.g. M&M's enterprise data and AI programme) as well as the anchor shareholder",
+       "Normal for a group company; watch the pricing of group work"
+      ],
+      [
+       "Capital allocation",
+       "Improving",
+       "85%+ of FCF returned; FY21-23 acquisitions destroyed value; now tuck-ins only",
+       "Discipline under the new team"
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation (AR FY26, results, calls)"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EPS +{{F.epsGrowth.0|n1}}% in FY27E on margin and the rupee, then ~12% a year",
+   "blocks": [
+    {
+     "p": "We forecast revenue in dollars by vertical (previous chapter), convert at 95.5 / 97 / 98.5 rupees per dollar and set the company-definition EBIT margin at {{as.ebitMarginTargetPct.0|n1}}% / {{as.ebitMarginTargetPct.1|n1}}% / {{as.ebitMarginTargetPct.2|n1}}%. Depreciation runs at ~3% of revenue; capex ₹850-950 cr; other income is built from treasury yield, miscellaneous income and FX losses (₹400 cr in FY27E); finance costs ₹420-440 cr (mainly leases); the tax line (28.2%) includes minorities; payout 85% of EPS. EPS is on the reported share count (88.6 cr). Every assumption, with reasons, is in the Excel model's Assumptions sheet."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key forecasts",
+      "head": [
+       "",
+       "FY26A",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Revenue (USD mn)",
+        "6,385",
+        "6,772",
+        "7,111",
+        "7,468"
+       ],
+       [
+        "  growth (USD)",
+        "+1.9%",
+        "+6.1%",
+        "+5.0%",
+        "+5.0%"
+       ],
+       [
+        "INR/USD (average)",
+        "89.0",
+        "95.5",
+        "97.0",
+        "98.5"
+       ],
+       [
+        "Revenue (₹ cr)",
+        "56,815",
+        "{{F.sales.0|num}}",
+        "{{F.sales.1|num}}",
+        "{{F.sales.2|num}}"
+       ],
+       [
+        "EBIT margin (company definition)",
+        "12.6%",
+        "14.8%",
+        "15.3%",
+        "15.6%"
+       ],
+       [
+        "EBIT (₹ cr)",
+        "7,151",
+        "{{F.ebit.0|num}}",
+        "{{F.ebit.1|num}}",
+        "{{F.ebit.2|num}}"
+       ],
+       [
+        "Other income (₹ cr)",
+        "32 (company) / −240 (Screener)",
+        "{{F.otherIncome.0|num}}",
+        "{{F.otherIncome.1|num}}",
+        "{{F.otherIncome.2|num}}"
+       ],
+       [
+        "Net profit attributable (₹ cr)",
+        "4,811",
+        "{{F.pat.0|num}}",
+        "{{F.pat.1|num}}",
+        "{{F.pat.2|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**EPS (₹)**",
+         "**54.3**",
+         "**{{F.eps.0|n1}}**",
+         "**{{F.eps.1|n1}}**",
+         "**{{F.eps.2|n1}}**"
+        ]
+       },
+       [
+        "DPS (₹)",
+        "51.0",
+        "{{F.dps.0|n1}}",
+        "{{F.dps.1|n1}}",
+        "{{F.dps.2|n1}}"
+       ],
+       [
+        "ROE",
+        "16.9%",
+        "{{F.roe.0|pct}}",
+        "{{F.roe.1|pct}}",
+        "{{F.roe.2|pct}}"
+       ]
+      ],
+      "source": "Company (FY26), GAM Research estimates. FY26 EBIT on Screener basis (₹7,151 cr; company ₹7,152 cr)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "EBIT margin",
+        "ref": "fin.ebitMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit (attributable)",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "Cash & investments (forecasts: net of borrowings and leases)",
+        "ref": "fin.treasury"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates. Cash is gross in actual years and net of borrowings (incl. leases) in forecasts."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "Broker (date)",
+       "EPS FY27E",
+       "EPS FY28E",
+       "USD revenue FY27E",
+       "EBIT FY27E / FY28E"
+      ],
+      "rows": [
+       [
+        "Motilal Oswal (16-Jul-26)",
+        "82.4",
+        "92.5",
+        "6,785",
+        "14.8% / 14.8%"
+       ],
+       [
+        "Prabhudas Lilladher (17-Jul-26)",
+        "78.1",
+        "88.8",
+        "6,745",
+        "14.8% / 15.1%"
+       ],
+       [
+        "ICICI Direct (17-Jul-26)",
+        "76.2",
+        "88.8",
+        "6,767",
+        "14.7% / 15.1%"
+       ],
+       [
+        "Elara (17-Jul-26)",
+        "77.3",
+        "89.5",
+        "6,785",
+        "14.8% / 15.6%"
+       ],
+       [
+        "BOB Capital Markets (17-Jul-26)",
+        "80.3",
+        "86.9",
+        "6,792",
+        "15.1% / 15.9%"
+       ],
+       [
+        "Choice (10-Sep-26)",
+        "75.5",
+        "89.0",
+        "6,768",
+        "–"
+       ],
+       [
+        "Bloomberg consensus (17-Jul-26)",
+        "77.0",
+        "84.6",
+        "–",
+        "–"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**{{F.eps.0|n1}}**",
+         "**{{F.eps.1|n1}}**",
+         "**6,772**",
+         "**14.8% / 15.3%**"
+        ]
+       }
+      ],
+      "source": "Broker notes (Jul-Sep 2026) as listed in the street table; Bloomberg consensus as printed in the BOB Capital note"
+     }
+    },
+    {
+     "callout": "Our FY27E EPS is 5% below the average of the brokers that publish estimates (₹78.3) and FY28E 5% below (₹89.3); against Bloomberg consensus (₹77.0 / ₹84.6) we are close. Revenue and margins are in line; the gap is below EBIT: we carry ₹400 cr of FX losses in FY27E and a 28.2% tax-plus-minorities rate. Our EPS compounds ~20% a year over FY26-29E but only ~12% over FY27-29E, once the margin catch-up is done. **We are not more bearish than the street on earnings; we differ on what to pay for them.**"
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: split, median target ₹1,634; even the bulls pay only 20x",
+   "blocks": [
+    {
+     "p": "About twenty houses updated their views after the Q1FY27 results (16-17 Jul 2026), plus JM Financial (28-Sep) and Choice (10-Sep). Buys and Overweights: Motilal Oswal ₹1,900, ICICI Direct ₹1,800, Nuvama ₹1,800, Prabhudas Lilladher ₹1,780, JPMorgan ₹1,700 and HSBC ₹1,635. Add/Accumulate: Choice ₹1,775, Deven Choksey ₹1,726, JM Financial ₹1,705, CLSA ₹1,634 and Elara ₹1,620. Hold/Neutral: Nomura ₹1,600, BOB Capital ₹1,547, ICICI Securities ₹1,470 and UBS ₹1,460. Bears: Goldman Sachs (Sell) ₹1,420, Morgan Stanley ₹1,270, Jefferies (Underperform) ₹1,260 and Axis Capital ₹1,080. The median target of these post-results notes is ₹1,634 (average ₹1,589; Bloomberg average ₹1,608 from 43 analysts on 17-Jul), only +7% above the 1,524 close. Every house that discloses a method uses **P/E on FY28E (or Jun-28E) EPS, at 16.9-20x**. Bulls pay for growth leadership and the deal ramp; bears say ~9% EPS growth after FY27 does not justify ~20x when Tier-1 peers trade at 13-14x."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Margin expansion has come from cost (subcontractor cuts, SG&A consolidation, FX) more than pricing; after 15% the easy levers are used and management has not set a path beyond FY27."
+       ],
+       [
+        "FY27 growth is flattered by a European auto programme delivered early (Q2 headwind 1-1.3%) and by large-deal ramp-ups that peers also report; book-to-bill (LTM TCV USD 4.1 bn on USD 6.5 bn revenue) is not exceptional."
+       ],
+       [
+        "Communications is 32% of revenue with 'clearly volatility in a large US telecoms client'."
+       ],
+       [
+        "Reported PAT has been hit by FX hedge losses (Rs480 cr in FY26) while the rupee fall boosts EBIT; the two partly offset."
+       ],
+       [
+        "At ~18x FY28E EPS the stock trades at a ~35% premium to Tier-1 peers that have de-rated by about 40% (HDFC Securities, Jefferies, BOB note the premium)."
+       ]
+      ],
+      "source": "Broker notes, calls and filings to 30-Sep-2026; GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "hbar",
+      "title": "Street targets: ₹1,080-1,900; median ₹1,634",
+      "unit": "12-month target (₹); CMP ₹1,524",
+      "x": [
+       "Motilal Oswal",
+       "ICICI Direct",
+       "Nuvama",
+       "Prabhudas Lilladher",
+       "Choice",
+       "Deven Choksey",
+       "JM Financial",
+       "JPMorgan",
+       "HSBC",
+       "CLSA",
+       "Elara",
+       "Nomura",
+       "BOB Capital Markets",
+       "ICICI Securities",
+       "UBS",
+       "Goldman Sachs",
+       "Morgan Stanley",
+       "Jefferies",
+       "Axis Capital"
+      ],
+      "series": [
+       {
+        "name": "Target",
+        "values": [
+         1900,
+         1800,
+         1800,
+         1780,
+         1775,
+         1726,
+         1705,
+         1700,
+         1635,
+         1634,
+         1620,
+         1600,
+         1547,
+         1470,
+         1460,
+         1420,
+         1270,
+         1260,
+         1080
+        ],
+        "fmt": "inr"
+       }
+      ],
+      "labels": "all",
+      "lines": [
+       {
+        "v": "P.last",
+        "axis": "x",
+        "text": "CMP",
+        "color": "#b4232a"
+       }
+      ],
+      "source": "Broker notes and press roundups, 16-Jul to 28-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 16x Sep-28E earnings gives {{dcf.tp|inr}}; the turnaround is priced in",
+   "blocks": [
+    {
+     "h": "How the street values Tech Mahindra"
+    },
+    {
+     "p": "Every broker that discloses a method values Tech Mahindra on **P/E on FY28E (or Jun-28E) EPS**: Motilal Oswal, Prabhudas Lilladher, ICICI Direct and Choice at 20x, Elara and Nomura at 18x, HDFC Securities at 17x (pre-results) and BOB Capital at 16.9x (a 20% premium to its 14.1x Tier-1 benchmark). We use the same method, applied to the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). The \"At our EPS\" column applies each broker's multiple to our EPS: the gap to the bulls is the multiple, not the earnings."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Motilal Oswal (16-Jul-26)",
+        "Buy",
+        "1,900",
+        "P/E",
+        "20x",
+        "FY28E",
+        "1,704",
+        "Growth leader among large caps; margin target in reach"
+       ],
+       [
+        "Prabhudas Lilladher (17-Jul-26)",
+        "Buy",
+        "1,780",
+        "P/E",
+        "20x",
+        "FY28E",
+        "1,704",
+        "Beat on growth and margin; multiple raised to 20x from 19x"
+       ],
+       [
+        "ICICI Direct (17-Jul-26)",
+        "Buy",
+        "1,800",
+        "P/E",
+        "20x",
+        "FY28E",
+        "1,704",
+        "Deal ramp-ups and margin levers; FY26-28E USD CAGR 6.3%"
+       ],
+       [
+        "Elara (17-Jul-26)",
+        "Accumulate",
+        "1,620",
+        "P/E",
+        "18x",
+        "FY28E",
+        "1,533",
+        "Execution strong; stock at ~19x one-year forward"
+       ],
+       [
+        "BOB Capital Markets (17-Jul-26)",
+        "Hold",
+        "1,547",
+        "P/E",
+        "16.9x",
+        "Jun-28E",
+        "1,475",
+        "20% premium to a 14.1x Tier-1 benchmark is enough"
+       ],
+       [
+        "Choice (10-Sep-26)",
+        "Add",
+        "1,775",
+        "P/E",
+        "20x",
+        "FY28E",
+        "1,704",
+        "Top-3 IT pick; margin resilience and deal conversion"
+       ],
+       [
+        "JM Financial (28-Sep-26)",
+        "Add",
+        "1,705",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Growth leader among large caps; preferred over Wipro on large-deal ramp-ups; Add, not Buy, on valuation"
+       ],
+       [
+        "Nuvama (17-Jul-26)",
+        "Buy",
+        "1,800",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Nomura (17-Jul-26)",
+        "Neutral",
+        "1,600",
+        "P/E",
+        "18x",
+        "–",
+        "–",
+        "Growth ahead of large caps justifies a higher multiple, but valuation limits comfort"
+       ],
+       [
+        "JPMorgan (17-Jul-26)",
+        "Overweight",
+        "1,700",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Deven Choksey (17-Jul-26)",
+        "Accumulate",
+        "1,726",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "HSBC (17-Jul-26)",
+        "Buy",
+        "1,635",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "CLSA (17-Jul-26)",
+        "Accumulate",
+        "1,634",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Kotak Institutional (3-Jul-26)",
+        "Buy",
+        "1,600",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Pre-Q1 note (no later TechM view found)"
+       ],
+       [
+        "ICICI Securities (17-Jul-26)",
+        "Hold",
+        "1,470",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "UBS (17-Jul-26)",
+        "Neutral",
+        "1,460",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Goldman Sachs (17-Jul-26)",
+        "Sell",
+        "1,420",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Morgan Stanley (17-Jul-26)",
+        "–",
+        "1,270",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Jefferies (17-Jul-26)",
+        "Underperform",
+        "1,260",
+        "P/E",
+        "–",
+        "–",
+        "–",
+        "~4% CC revenue / ~9% EPS CAGR (FY27-29) does not justify ~20x P/E"
+       ],
+       [
+        "Axis Capital (17-Jul-26)",
+        "–",
+        "1,080",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**SELL**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**16x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Turnaround delivered and priced in; the sector's lower AI-era multiple applies to Tech Mahindra too"
+        ]
+       }
+      ],
+      "source": "Motilal Oswal, PL, ICICI Direct, Elara, BOB Capital (PDFs, 16-17 Jul 2026); Choice, JM Financial, Kotak and others via Business Today, Outlook Business and Republic roundups. n.d. = method not disclosed in the sources we saw"
+     }
+    },
+    {
+     "h": "Our target multiple: 16x, and why"
+    },
+    {
+     "p": "We start from the stock's own one-year-forward P/E since April 2021 (the house rule, leaving out trough years), cut it by how far IT services peers had de-rated by 30-Sep-2026, and then check growth, peers, returns and the street."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Its own history",
+        "One-year-forward P/E since Apr-2021 on reported EPS. House trough rule (FY24 out: EPS ₹26.7 was less than half of FY22-23): median 23.3x. Other bases: 26.0x with every year in; 21.2x if FY25 is also left out (in 2023-24 the market paid a median 25.6x for depressed FY25 earnings); 23.8x on EPS before the FY25-26 one-offs. 16.1x since 2016 (13.0x in 2016-21); 20.2x over the last two years; 17.9x on our FY28E today",
+        "We use the house rule: 23.3x"
+       ],
+       [
+        "2. Sector de-rating",
+        "On 30-Sep-2026 the nine-stock IT peer set traded below its five-year median P/E: TCS −53%, Infosys −49%, HCLTech −21%, Wipro −40%, LTIMindtree (LTM) −38%, Persistent −18%, Coforge −11%, Mphasis −27%, L&T Technology Services −31% (median −31%). Tech Mahindra itself is left out (batch rule; its own trailing median is also distorted by the FY24 collapse). Sensitivity: incumbents only (TCS, Infosys, HCLTech, Wipro) −44%, which would give 12.9x",
+        "23.3x x 0.687 = 16.0x, i.e. **16x**"
+       ],
+       [
+        "3. Growth",
+        "Our EPS grows ~12% a year in FY27-29E (USD revenue +5%, margin +0.3-0.5 pp a year, rupee +1.5%), faster than the large peers' 1-4% revenue guidance; but the FY27 jump is a one-time margin catch-up, and the de-rating median already includes faster-growing mid-caps (Persistent, Coforge)",
+        "No adjustment"
+       ],
+       [
+        "4. Peers",
+        "Trailing P/E: TCS 13.8x, Infosys 12.9x, HCLTech 18.4x, Wipro 11.9x (median 13.8x), LTIMindtree 21.4x, Mphasis 21.2x, LTTS 25.7x; Tech Mahindra 26.3x on reported EPS",
+        "16x Sep-28E = 16.8x our FY28E: a premium to Tier-1, below LTIMindtree and Mphasis on trailing earnings"
+       ],
+       [
+        "5. Returns",
+        "ROE 16.9% in FY26, ~24% in FY28E against a 12.5% cost of equity; justified forward P/E = payout x (1 + g) / (Ke − g) = 15.1x at 6.5% growth and an 85% payout",
+        "No adjustment (it argues slightly lower, not higher)"
+       ],
+       [
+        "6. The street",
+        "Disclosed multiples 16.9-20x FY28E; at our EPS they give ₹1,440-1,700. Kotak values incumbents at 11-12x with no growth and 17-18x with sustained 4-5% growth; JP Morgan models scale firms at 12-15x",
+        "Our 16x is at the low end of the street, inside the sector frameworks"
+       ]
+      ],
+      "source": "Screener.in prices and P/E history to 30-Sep-2026 (Tech Mahindra history on reported EPS, see note), broker notes, GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "hbar",
+      "title": "Target and cross-checks vs the share price",
+      "unit": "₹ per share (base case)",
+      "x": [
+       "P/E (target)",
+       "EV/EBITDA",
+       "DCF",
+       "Share price today"
+      ],
+      "series": [
+       {
+        "name": "Value",
+        "values": [
+         1430,
+         1436,
+         1517,
+         1524
+        ],
+        "fmt": "inr"
+       }
+      ],
+      "labels": "all",
+      "highlight": "P/E (target)",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "EPS Sep-28E ₹89.4",
+        "16x (bull 18x, bear 13x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "EBITDA Sep-28E ₹13,057 cr",
+        "9x (bull 10x, bear 7x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "+0%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "+6%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA (9x Sep-28E EBITDA of ₹13,057 cr plus net cash) gives ₹1,436, in line with the P/E target: 9x is the stock's 12.7x median forward EV/EBITDA since 2021 cut by the same de-rating (it trades at 10.2x today). The DCF (₹1,517) is higher: at a 12.5% cost of equity, 5% terminal growth and EBITDA margins held near 18% for twelve years, the cash flows roughly support today's price. That is the honest tension in this call: the price is fair if Tech Mahindra keeps growing ~6% in rupees and holds its new margins for a decade; it is too high if the market keeps valuing Indian IT the way it does at 30-Sep-2026, which is what the P/E method (the street's own method) captures. **Note on history:** the engine's standard forward-P/E routine reads Screener's EPS, which counts the trust's 9.4 cr treasury shares; mixed with our reported-basis forecasts it gives 26.9x. We use a consistent series on reported EPS throughout (23.3x)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: 17.9x now vs a 23x median since 2021",
+       "unit": "Price ÷ next full-year EPS (x), reported EPS; FY24 trough points included in the line",
+       "x": [
+        "2016-04-01",
+        "2016-05-06",
+        "2016-06-10",
+        "2016-07-15",
+        "2016-08-19",
+        "2016-09-23",
+        "2016-10-30",
+        "2016-12-02",
+        "2017-01-06",
+        "2017-02-10",
+        "2017-03-17",
+        "2017-04-21",
+        "2017-05-26",
+        "2017-06-30",
+        "2017-08-04",
+        "2017-09-08",
+        "2017-10-13",
+        "2017-11-17",
+        "2017-12-22",
+        "2018-01-25",
+        "2018-03-01",
+        "2018-04-06",
+        "2018-05-11",
+        "2018-06-15",
+        "2018-07-20",
+        "2018-08-24",
+        "2018-09-28",
+        "2018-11-02",
+        "2018-12-07",
+        "2019-01-11",
+        "2019-02-15",
+        "2019-03-22",
+        "2019-04-26",
+        "2019-05-31",
+        "2019-07-05",
+        "2019-08-09",
+        "2019-09-13",
+        "2019-10-18",
+        "2019-11-22",
+        "2019-12-27",
+        "2020-02-01",
+        "2020-03-06",
+        "2020-04-09",
+        "2020-05-15",
+        "2020-06-19",
+        "2020-07-24",
+        "2020-08-28",
+        "2020-10-01",
+        "2020-11-06",
+        "2020-12-11",
+        "2021-01-15",
+        "2021-02-19",
+        "2021-03-26",
+        "2021-04-30",
+        "2021-06-04",
+        "2021-07-09",
+        "2021-08-13",
+        "2021-09-17",
+        "2021-10-22",
+        "2021-11-26",
+        "2021-12-31",
+        "2022-02-04",
+        "2022-03-11",
+        "2022-04-13",
+        "2022-05-20",
+        "2022-06-24",
+        "2022-07-29",
+        "2022-09-02",
+        "2022-10-07",
+        "2022-11-11",
+        "2022-12-16",
+        "2023-01-20",
+        "2023-02-24",
+        "2023-03-31",
+        "2023-05-05",
+        "2023-06-09",
+        "2023-07-14",
+        "2023-08-18",
+        "2023-09-22",
+        "2023-10-27",
+        "2023-12-01",
+        "2024-01-05",
+        "2024-02-09",
+        "2024-03-15",
+        "2024-04-19",
+        "2024-05-24",
+        "2024-06-28",
+        "2024-08-02",
+        "2024-09-06",
+        "2024-10-11",
+        "2024-11-14",
+        "2024-12-20",
+        "2025-01-24",
+        "2025-02-28",
+        "2025-04-04",
+        "2025-05-09",
+        "2025-06-13",
+        "2025-07-18",
+        "2025-08-22",
+        "2025-09-26",
+        "2025-10-31",
+        "2025-12-05",
+        "2026-01-09",
+        "2026-02-13",
+        "2026-03-20",
+        "2026-04-24",
+        "2026-05-29",
+        "2026-07-03",
+        "2026-08-07",
+        "2026-09-11",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          10.8,
+          11,
+          12.5,
+          11.7,
+          11,
+          10.6,
+          10.2,
+          11,
+          10.9,
+          11.6,
+          11.3,
+          8.8,
+          8.9,
+          7.9,
+          8.5,
+          8.9,
+          9.9,
+          10,
+          10.2,
+          12.4,
+          12.7,
+          13.4,
+          14.4,
+          15.3,
+          14.2,
+          15.5,
+          16.1,
+          14.9,
+          15,
+          15.1,
+          17.3,
+          17,
+          16.3,
+          15,
+          13.4,
+          13.1,
+          14,
+          14.5,
+          14.9,
+          15.4,
+          15.9,
+          14.6,
+          8.6,
+          8.1,
+          8.5,
+          10.3,
+          11.9,
+          13,
+          13.4,
+          14.5,
+          15.9,
+          15.7,
+          15.6,
+          17.5,
+          18.6,
+          19.2,
+          25.2,
+          26.4,
+          27.6,
+          27.8,
+          32.6,
+          26.4,
+          27.1,
+          52.8,
+          42.3,
+          36.7,
+          39.2,
+          39.5,
+          38.3,
+          39.6,
+          38.2,
+          39.2,
+          41.9,
+          41.2,
+          21.6,
+          22.1,
+          25.6,
+          25.2,
+          27.2,
+          23.3,
+          25.4,
+          26,
+          27.3,
+          26.7,
+          22,
+          24.4,
+          26.4,
+          27.8,
+          29.9,
+          30.3,
+          31.1,
+          31.1,
+          31.7,
+          27.4,
+          17.7,
+          20.1,
+          22.3,
+          20.8,
+          20.2,
+          18.9,
+          19.1,
+          21.1,
+          21.2,
+          20.6,
+          18.6,
+          15.9,
+          17.4,
+          16.6,
+          19.2,
+          18.1,
+          17.9
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 23,
+         "text": "Median since 2021: 23.3x"
+        },
+        {
+         "v": 16,
+         "text": "Our target: 16x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; reported EPS (TML Benefit Trust shares excluded), GAM estimates for FY27-29E"
+      },
+      {
+       "type": "hbar",
+       "title": "What different multiples are worth on our Sep-28E EPS",
+       "unit": "₹ per share at our Sep-28E EPS of ₹89.4",
+       "x": [
+        "13x (bear: incumbents-only de-rating)",
+        "14.6x (FY24 and FY25 both left out)",
+        "16x (our target)",
+        "16.9x (BOB Capital)",
+        "18x (today's FY28E multiple)",
+        "20x (street bulls)"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          1162,
+          1305,
+          1430,
+          1510,
+          1609,
+          1788
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "16x (our target)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple 18x (today's FY28E multiple)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "USD revenue +{{as.usdBuild.usdGrowthPct.0|n1}}% / +{{as.usdBuild.usdGrowthPct.1|n1}}% / +{{as.usdBuild.usdGrowthPct.2|n1}}% (FY27-29E); EBIT margin {{as.ebitMarginTargetPct.0|n1}}% → {{as.ebitMarginTargetPct.2|n1}}%; 16x Sep-28E EPS of ₹89.4."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple 13x."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-38E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27 (after lease liabilities)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27, 88.6 cr shares)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research. Cost of equity 12.5% (beta 1.0); the company is net cash, so we discount at the cost of equity."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "Ke \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed peers: Indian IT services",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "5-yr median P/E",
+       "vs median",
+       "EV/EBITDA (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Tech Mahindra**",
+        "1,35,077",
+        "56,815",
+        "15.9%",
+        "26.3 (reported EPS)",
+        "30.3",
+        "−7%",
+        "15.4",
+        "16.9%"
+       ],
+       [
+        "TCS",
+        "7,41,988",
+        "2,67,021",
+        "27.1%",
+        "13.8",
+        "29.5",
+        "−53%",
+        "9.5",
+        "49%"
+       ],
+       [
+        "Infosys",
+        "4,03,434",
+        "1,78,650",
+        "23.7%",
+        "12.9",
+        "25.3",
+        "−49%",
+        "8.1",
+        "31.2%"
+       ],
+       [
+        "HCLTech",
+        "3,33,880",
+        "1,30,144",
+        "20.6%",
+        "18.4",
+        "23.4",
+        "−21%",
+        "10.9",
+        "23%"
+       ],
+       [
+        "Wipro",
+        "1,56,756",
+        "92,624",
+        "19.2%",
+        "11.9",
+        "19.8",
+        "−40%",
+        "7.5",
+        "15.6%"
+       ],
+       [
+        "LTIMindtree (LTM)",
+        "1,20,003",
+        "42,308",
+        "17.9%",
+        "21.4",
+        "34.3",
+        "−38%",
+        "13.4",
+        "21.3%"
+       ],
+       [
+        "Mphasis",
+        "41,171",
+        "15,880",
+        "18.8%",
+        "21.2",
+        "28.9",
+        "−27%",
+        "12.3",
+        "18.3%"
+       ],
+       [
+        "Coforge",
+        "77,485",
+        "16,403",
+        "17.9%",
+        "40.4",
+        "45.6",
+        "−11%",
+        "22.1",
+        "21.9%"
+       ],
+       [
+        "Persistent",
+        "87,544",
+        "14,748",
+        "19%",
+        "41.9",
+        "51.3",
+        "−18%",
+        "26.8",
+        "26.3%"
+       ],
+       [
+        "L&T Technology Services",
+        "34,258",
+        "10,996",
+        "17.6%",
+        "25.7",
+        "37.4",
+        "−31%",
+        "14.9",
+        "20.4%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026. Tech Mahindra's market value and P/E use the 88.6 cr shares outside the TML Benefit Trust; Screener's figures (₹1,49,400 cr, 28.1x) count all issued shares."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a well-run turnaround, fully priced; SELL at 17.9x FY28E",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** a mid-tier IT services firm whose new management has done what it promised: EBIT margin from 6.1% to 14.4%, growth back to ~6% in dollars, USD 4 bn of deals a year, ~₹6,300 cr of net cash after leases, 85%+ of free cash flow paid out (yield ~4% on FY27E) and EPS rising ~{{F.epsGrowth.0|n1}}% in FY27E."
+    },
+    {
+     "callout": "**What you are paying:** 20.5x our FY27E and 17.9x FY28E EPS, a 20-35% premium to Tier-1 peers on brokers' estimates (BOB Capital, HDFC Securities), for a company with no scale advantage, a third of revenue from telecom, high exposure to the work AI automates first, and ~12% EPS growth once the margin catch-up is done. On the street's own method, with the sector's de-rating applied, the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): SELL, just past the line."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹1,510 (HOLD) or ~₹1,240 (BUY) on our rule",
+        "Medium",
+        "The stock is only ~1% above the HOLD line"
+       ],
+       [
+        "A credible FY28-30 plan: margin above 16%, growth above 5%",
+        "Medium",
+        "Q4FY27 results (usually in April) / next analyst day"
+       ],
+       [
+        "Large-deal ramps lift FY27 growth towards 8% without margin cost",
+        "Low-Medium",
+        "Q2-Q3 QoQ growth after the auto reversal"
+       ],
+       [
+        "The sector re-rates as AI services revenue outgrows legacy erosion",
+        "Low",
+        "Peer guidance upgrades; AI revenue disclosures"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "AI deflation hits run contracts and BPS at renewal",
+        "Medium-High",
+        "USD growth ~2% after FY27 (our bear case): EPS ~16% below ours by FY29"
+       ],
+       [
+        "A large US telecom client cuts spend further",
+        "Medium",
+        "Communications (32%) shrinks; 1-2% off group growth"
+       ],
+       [
+        "15% margin missed (wage hikes, onsite-heavy deals, pricing)",
+        "Medium",
+        "Each 1 pp of margin ≈ 7% of FY28E EPS"
+       ],
+       [
+        "Rupee falls faster than ~1.5% a year",
+        "Medium",
+        "Helps EBIT, but hedge losses rise again below EBIT"
+       ],
+       [
+        "US policy: H-1B fee, proposed HIRE Act outsourcing tax",
+        "Low-Medium",
+        "Higher onsite costs; client hesitation"
+       ],
+       [
+        "Sector de-rating deepens",
+        "Medium",
+        "At 13x Sep-28E (our bear multiple) on our EPS the stock is worth ~₹1,160"
+       ],
+       [
+        "Large acquisition to buy growth",
+        "Low",
+        "Repeat of FY21-23; goodwill already 29% of net worth"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: SELL, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**This is a valuation call, not a business call.** Our earnings are in line with consensus; we pay 16x (the stock's 23.3x median after the sector's 31% de-rating) where the bulls pay 20x. We would move to HOLD below ~₹1,510 and to BUY below ~₹1,240 on today's numbers, or sooner on a credible post-FY27 plan.",
+      "**Biggest swing factor:** the multiple. Each 1x on Sep-28E EPS is ~₹90 a share; at the street's 18-20x our EPS supports ₹1,610-1,790."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "EBIT margin, Q1FY27",
+        "v": "14.4%",
+        "d": "FY24 6.1%; FY27 target 15%"
+       },
+       {
+        "k": "USD growth, Q1FY27 (CC YoY)",
+        "v": "6.6%",
+        "d": "peers guide 1-4% for FY27"
+       },
+       {
+        "k": "Deal wins, last twelve months",
+        "v": "USD 4.1 bn",
+        "d": "+37.5% YoY"
+       },
+       {
+        "k": "Price ÷ our FY28E EPS",
+        "v": "17.9x",
+        "d": "median since 2021: 23x; target 16x Sep-28E"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY15–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 12
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 200
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation & amortisation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. FX, associates, exceptional items)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (attributable)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹, reported basic)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 12
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (attributable)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "IT services / BPS",
+        "Building and running software and IT systems for clients / running business processes (customer support, back office) for them."
+       ],
+       [
+        "Constant currency (CC)",
+        "Revenue growth with exchange rates held at last year's levels, so that currency moves do not distort it."
+       ],
+       [
+        "TCV / deal wins",
+        "Total contract value of new deals signed: revenue expected over the life of the contract (often 3-7 years)."
+       ],
+       [
+        "EBIT (company definition)",
+        "Operating profit after depreciation and amortisation, before other income, finance costs and tax. Our model uses EBITDA (before depreciation); EBIT = EBITDA − depreciation."
+       ],
+       [
+        "Other income",
+        "Treasury income, rental and miscellaneous income, and gains or losses on foreign exchange and hedges."
+       ],
+       [
+        "Hedge book / MTM",
+        "Forward contracts that lock in a rupee rate for future dollar receipts; mark-to-market (MTM) is their gain or loss as the rupee moves."
+       ],
+       [
+        "Utilisation",
+        "Share of billable IT staff working on paid client projects."
+       ],
+       [
+        "Attrition (LTM)",
+        "Share of IT staff who left over the last twelve months."
+       ],
+       [
+        "Onsite / offshore",
+        "Staff working at the client's location (expensive) vs in India (cheaper)."
+       ],
+       [
+        "Pyramid / N-1",
+        "The mix of junior to senior staff; \"N-1\" means staffing a role one grade lower to cut cost."
+       ],
+       [
+        "Subcontracting",
+        "Work done by outside contractors, usually costlier than own staff."
+       ],
+       [
+        "DSO",
+        "Days sales outstanding: receivables (billed and unbilled) in days of revenue."
+       ],
+       [
+        "Unbilled revenue",
+        "Work done and recognised as revenue but not yet invoiced."
+       ],
+       [
+        "AI deflation / pass-back",
+        "Clients asking for lower prices or smaller contracts because AI tools make the same work cheaper to deliver."
+       ],
+       [
+        "Run vs change work",
+        "Maintaining existing systems (run) vs building new ones (change)."
+       ],
+       [
+        "Project Fortius / Helix",
+        "Tech Mahindra's margin-improvement programme / its AI programme."
+       ],
+       [
+        "TML Benefit Trust",
+        "A trust holding 9.42 cr Tech Mahindra shares (9.6%) left over from the Satyam merger; treated as treasury shares and excluded from EPS."
+       ],
+       [
+        "Forward P/E",
+        "Share price ÷ next full financial year's EPS."
+       ],
+       [
+        "Sector de-rating",
+        "How far peers' P/E multiples have fallen below their own five-year medians."
+       ],
+       [
+        "Justified P/E",
+        "The P/E implied by payout, growth and cost of equity: payout x (1 + g) / (Ke − g)."
+       ],
+       [
+        "ROCE / ROE",
+        "Return on capital employed / return on shareholders' equity."
+       ],
+       [
+        "Ke",
+        "Cost of equity: risk-free rate + beta x equity risk premium (here 6.5% + 1.0 x 6% = 12.5%)."
+       ],
+       [
+        "Tier-1",
+        "The largest Indian IT firms: TCS, Infosys, HCLTech, Wipro (and Tech Mahindra by some definitions)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY22": "+18%: post-Covid demand boom plus acquisitions (Com Tec Co, Allyis, Activus Connect and others).",
+  "sales@FY23": "+19%: full year of acquisitions and a weaker rupee.",
+  "ebitdaMargin@FY23": "−340bp to 14.6%: wage inflation, subcontracting and loss-making acquired units.",
+  "sales@FY24": "−2%: telecom and hi-tech clients cut spending; USD revenue flat at USD 6.3 bn.",
+  "ebitdaMargin@FY24": "−590bp to 8.7%: the trough; company EBIT 6.1%.",
+  "pat@FY24": "−51%: EPS ₹26.7; the trough year excluded from our P/E history.",
+  "pat@FY25": "+80%: margin recovery (Project Fortius) plus a ₹450 cr property-sale gain in other income.",
+  "otherIncome@FY25": "Includes the ₹450 cr property-sale gain; FX loss ₹238 cr.",
+  "ebitdaMargin@FY25": "+440bp to 13.1%: subcontractor cuts, offshoring, portfolio-company integration.",
+  "otherIncome@FY26": "Negative on Screener: FX/hedge loss ₹480 cr and the ₹272 cr Labour Code charge (company other income +₹32 cr).",
+  "ebitdaMargin@FY26": "+280bp to 15.9%: company EBIT 12.6%; rupee tailwind in H2.",
+  "pat@FY26": "+13%: EBIT +39% offset by FX losses and the Labour Code charge.",
+  "sales@FY27E": "+13.8%: USD +6.1% plus the weaker rupee (89.0 to 95.5).",
+  "pat@FY27E": "+37%: EBIT margin to 14.8% and FX losses halve.",
+  "otherIncome@FY27E": "Treasury ₹254 cr + misc ₹190 cr − FX ₹400 cr."
+ }
+}

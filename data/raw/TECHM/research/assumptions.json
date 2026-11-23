@@ -1,0 +1,240 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Tech Mahindra (consolidated, Rs crore). Revenue is built in USD by vertical (usdBuild), converted at the stated INR/USD path; revenueGrowth below is that build expressed in rupees (checked in tools/authoring/TECHM.ctx.js). Margins are set on the company's EBIT definition; the engine's EBITDA margin = EBIT margin + depreciation as a % of revenue (the engine's own depreciation). History is attributable profit and reported basic EPS (tools/authoring/TECHM.patch.js: TML Benefit Trust treasury shares excluded, ~88.6 cr shares). Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "usdBuild": {
+  "base": {
+   "fy": "FY26",
+   "usdRev": 6385,
+   "mixPct": {
+    "comms": 33.3,
+    "mfg": 18,
+    "bfsi": 16.3,
+    "tme": 13.3,
+    "rlt": 8.3,
+    "hls": 7.3,
+    "others": 3.5
+   },
+   "src": "Q4FY26 earnings presentation (22-Apr-2026)"
+  },
+  "verticalGrowthPct": {
+   "comms": [
+    3.5,
+    3,
+    3
+   ],
+   "mfg": [
+    12,
+    7,
+    7
+   ],
+   "bfsi": [
+    9,
+    8,
+    7
+   ],
+   "tme": [
+    2,
+    2,
+    3
+   ],
+   "rlt": [
+    8,
+    7,
+    7
+   ],
+   "hls": [
+    7,
+    7,
+    7
+   ],
+   "others": [
+    -5,
+    0,
+    0
+   ]
+  },
+  "usdRev": [
+   6771.8,
+   7111,
+   7467.9
+  ],
+  "usdGrowthPct": [
+   6.06,
+   5.01,
+   5.02
+  ],
+  "ccGrowthPct": [
+   6.3,
+   5,
+   5
+  ],
+  "inrUsdAvg": [
+   95.5,
+   97,
+   98.5
+  ],
+  "geoMixPct": {
+   "americas": [
+    48.8,
+    48.5,
+    48.3
+   ],
+   "europe": [
+    27.2,
+    27.5,
+    27.7
+   ],
+   "row": [
+    24,
+    24,
+    24
+   ]
+  },
+  "_why": "FY27: Q1 USD 1,660 mn (+6.1% YoY reported, +6.6% CC, organic +6.2%); Q2 loses 1-1.3% from the European auto programme delivered early in Q1, offset by a large telecom deal that had not started ramping and the end of a cloud pass-through drag; we assume ~+1% QoQ in Q2 and ~1.5% in Q3-Q4, i.e. FY27 USD 6,772 mn (+6.1%), in line with brokers (USD 6,745-6,792 mn). By vertical: communications +3.5% (Q1 +1.3% YoY; deal ramp vs 'volatility in a large US telecoms client'), manufacturing +12% (Q1 +17.2%, aerospace, auto pull-forward), BFSI +9% (Q1 +8.1% plus the Avant acquisition), TME +2% (volatile client spend), retail/logistics +8%, healthcare +7%. FY28-29: +5% a year, below the street's 5-7.5% for FY28: once the large-deal ramps are in the base, Tech Mahindra faces the same AI deflation as peers (HCLTech: legacy revenue erosion of 2-3% a year; peers guide 1-4% CC for FY27). Constant-currency growth assumed equal to reported after FY27 (no cross-currency view).",
+  "_fxWhy": "INR/USD averaged 89.0 in FY26, 94.6 in Q1FY27 and closed 95.81-95.83 on 30-Sep-2026. Forecasts published by then: BMI 97 by Mar-2027 and 99 by Mar-2028; Axis Bank 97 by Dec-2026 and 100 by Jun-2027. We use 95.5 / 97.0 / 98.5 (about 1.5% depreciation a year), the cautious end of those forecasts."
+ },
+ "revenueGrowth": [
+  13.827,
+  6.658,
+  6.643
+ ],
+ "_revWhy": "INR revenue = USD build x INR/USD path: Rs64,671 cr (FY27E), Rs68,977 cr (FY28E), Rs73,559 cr (FY29E). FY27's 13.8% rupee growth is 6.1% in dollars plus 7.3% from the weaker rupee (89.0 to 95.5).",
+ "ebitMarginTargetPct": [
+  14.8,
+  15.3,
+  15.6
+ ],
+ "ebitdaMargin": [
+  17.833,
+  18.221,
+  18.416
+ ],
+ "_marginWhy": "EBIT (company definition) 6.1% (FY24), 9.7% (FY25), 12.6% (FY26), 14.4% in Q1FY27 after 11 straight quarters of expansion; management targets 15% for FY27 and says Q4FY27 'has to be upwards of 15%'. Q2 carries phased wage hikes and the auto reversal, so FY27E 14.8% (Q1 14.4, ~14.3 Q2, ~15.0 Q3, ~15.4 Q4), within the street's 14.6-15.1%. FY28E 15.3% and FY29E 15.6%: a weaker rupee (+1.5% a year) and fixed-price productivity help, but the onsite-heavy large deals, AI investment and productivity pass-backs in renewals cap the gain; management has not set a target beyond FY27. Street FY28E 14.8-15.9%. The engine needs EBITDA margin: EBIT margin + depreciation (engine) of Rs1,962 / 2,015 / 2,071 cr = 3.03% / 2.92% / 2.82% of revenue.",
+ "capex": [
+  850,
+  900,
+  950
+ ],
+ "_capexWhy": "Cash capex Rs1,015 cr (FY23), Rs791 cr (FY24), Rs594 cr (FY25), Rs696 cr (FY26): ~1.1-1.3% of revenue for an asset-light services firm (offices, computers, software). Rs850-950 cr (~1.3% of revenue) allows for the new experience centres in Pune and Hyderabad mentioned on the Q1FY27 call. Leased offices (right-of-use assets) are outside capex.",
+ "depRateOnGrossBlock": 6.1,
+ "_depWhy": "FY26 depreciation and amortisation Rs1,882 cr = 6.2% of average gross block (Rs30,426 cr, incl. intangibles and right-of-use assets); Q1FY27 Rs479 cr (Rs1,916 cr annualised). The engine grows gross block only with capex (lease additions are not modelled), so 6.1% gives Rs1,962 cr in FY27E, close to the run-rate.",
+ "treasuryYield": [
+  4,
+  4,
+  4
+ ],
+ "_treasuryWhy": "Applied by the engine to net treasury (cash Rs5,105 cr + investments Rs3,426 cr - borrowings incl. leases Rs2,186 cr = Rs6,345 cr at Mar-26). FY26 treasury income (interest Rs98 cr + gains on FVTPL investments Rs154 cr + dividends Rs0.3 cr = Rs252 cr; AR FY26 note 29) was 3.1% of average gross cash and investments (~Rs8,000 cr, much of it held abroad at low rates) and 4.2% of average net treasury (Rs6,022 cr). 4.0% on net treasury = Rs254 cr in FY27E.",
+ "otherIncome": [
+  -210,
+  100,
+  160
+ ],
+ "_otherIncomeWhy": "Non-treasury other income = miscellaneous and rental income less FX losses. Misc + rental: Rs252 cr in FY26 (misc Rs234 cr incl. fair-value changes of acquisition obligations, rental Rs18 cr), Rs311 cr in FY25; we use Rs190 / 200 / 210 cr. FX (hedge and translation) losses: -USD 52 mn in FY26 (Rs480 cr), -USD 23 mn (~Rs218 cr) in Q1FY27 as the rupee fell from 85.3 to 94.6. The hedge book shrank from USD 1.96 bn (Mar-25) to USD 0.72 bn (Jun-26) with tenor cut to one year, so most hedges written before the fall have matured; Q2FY27 still carries a ~1.4% rupee fall. FX: -Rs400 cr (FY27E: Q1 actual -218, ~-80 in Q2, ~-50 a quarter in H2), -Rs100 cr (FY28E), -Rs50 cr (FY29E). Total other income FY27E ~Rs44 cr vs Rs32 cr in FY26 and -Rs292 cr in the twelve months to Jun-26 (ex the Rs272 cr Labour Code charge); the gap to the TTM is the FX line (TTM -Rs720 cr). Ex-FX, FY27E (Rs444 cr) equals Q1FY27 annualised (Rs111 cr x 4) and is below FY26 (Rs510 cr).",
+ "interest": [
+  420,
+  430,
+  440
+ ],
+ "_interestLabel": "Finance costs (mainly interest on lease liabilities)",
+ "_interestWhy": "Rs326 cr (FY23), Rs392 cr (FY24), Rs322 cr (FY25), Rs337 cr (FY26); Q1FY27 Rs111 cr as lease liabilities rose to Rs2,117 cr (Mar-26) from Rs1,554 cr. Borrowings excluding leases are only ~Rs70 cr.",
+ "taxRate": [
+  28.2,
+  28.2,
+  28.2
+ ],
+ "_taxWhy": "Tax plus minorities (no minority line in the engine). FY26 effective tax 27% (24.3% in Q4); management: FY27 'in a similar range'. Q1FY27: tax Rs556 cr + minorities Rs21 cr on PBT Rs2,042 cr = 28.2%. Minorities are partners in Comviva and other subsidiaries.",
+ "payout": [
+  85,
+  85,
+  85
+ ],
+ "_payoutWhy": "Policy: at least 85% of free cash flow over five years as dividends and/or buybacks. FY26: Rs51 a share (interim 15 + final 36) = 94% of basic EPS and 91% of FCF; FY25 Rs45 = 94%. FCF has run at 100-115% of PAT, so 85% of EPS is the policy floor, not a forecast of cuts.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5,
+  "years": 12,
+  "fadeGrowthTo": 5,
+  "fadeMarginTo": 18,
+  "fadeCapexPctTo": 1.3,
+  "depPctOfSales": 2.9,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, but a mid-tier IT exporter with a volatile earnings history (FY24 EPS halved) and heavy telecom exposure: beta 1.0, Ke 12.5%.",
+  "_tgWhy": "Rupee revenue growth of 5% after FY38 = ~2-3% dollar growth (AI deflation eats part of volume) plus ~2% rupee depreciation; the low end of the house 5-6% range.",
+  "_fadeGrowthWhy": "Rupee revenue growth fades from 6.6% (FY29E) to 5% over twelve years.",
+  "_fadeMarginWhy": "EBITDA margin ~18.4% in FY29E (EBIT 15.6%) eases to 18%: pricing pressure from AI pass-backs offsets further productivity; Tech Mahindra has never sustained an EBIT margin above ~15%.",
+  "_fadeCapexWhy": "Capex stays ~1.3% of revenue."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Large-deal ramps and above-peer growth persist (USD ~7% a year in FY28-29), AI work grows faster than legacy work shrinks, and the margin keeps rising to ~16.5% by FY29 on pyramid and rupee tailwinds; the sector partly re-rates.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 0.8,
+   "fadeMarginTo": 19.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "AI deflation reaches Tech Mahindra's run contracts and communications clients (USD growth ~2% a year after FY27), the 15% margin is missed as pricing gives back productivity, and the stock trades like the de-rated Tier-1 peers.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1.2,
+   "fadeMarginTo": 16.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 16,
+      "bull": 18,
+      "bear": 13
+     },
+     "why": "How the street values Tech Mahindra: every broker that discloses a method uses P/E on FY28E or Jun-28E EPS (16.9-20x; Jul-Sep 2026). 16x = the stock's 23.3x median one-year-forward P/E since Apr-2021 on reported EPS (house trough rule: FY24 left out; 26.0x with it, 21.2x if FY25 is also left out, 23.8x on EPS before the FY25-26 one-offs) cut by the 31.3% median de-rating of the nine-stock IT peer set versus each stock's five-year median P/E at 30-Sep-2026 (TCS -53%, Infosys -49%, Wipro -40%, LTIMindtree -38%, LTTS -31%, Mphasis -27%, HCLTech -21%, Persistent -18%, Coforge -11%) = 16.0x. No further growth or returns adjustment (a justified P/E at our 12.5% cost of equity, 6.5% growth and 85% payout is 15.1x, so returns do not argue for more). Bull 18x (the stock's FY28E multiple today; Elara and Nomura). Bear 13x (the incumbents-only de-rating of -44.5% applied to 23.3x = 12.9x; Infosys and Wipro trade at 12-13x)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 9,
+      "bull": 10,
+      "bear": 7
+     },
+     "why": "Counts net cash at face value. 9x Sep-28E EBITDA = the stock's 12.7x median one-year-forward EV/EBITDA since Apr-2021 (FY24 left out; EV on the 88.6 cr shares outside the TML Benefit Trust) less the same 31.3% sector de-rating = 8.7x. Bull 10x (today's forward multiple), bear 7x (incumbents-only de-rating)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 12-year FCFF at Ke 12.5%, terminal growth 5%, plus net cash."
+    }
+   ]
+  }
+ }
+}
