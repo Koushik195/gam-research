@@ -42,8 +42,10 @@ Worked examples to copy from:
 2. **Fact base.** Research only to 30-Sep-2026: annual reports (Screener `documents`), Q1FY27
    results, presentation and call transcript (Jul/Aug-2026), broker notes (Trendlyne research
    reports, press roundups), CRISIL/ICRA, industry sources. Download PDFs into your own new
-   scratchpad folder and read them with the Read tool (no Python on this machine). Never estimate a
-   number from memory: record it in `gaps`.
+   scratchpad folder and read them with the Read tool (no Python on this machine), at most ~10 pages
+   per read; for long documents extract text first with
+   `node tools/pdfpages-pos.js <pdf> <firstPage> <lastPage> <out.txt>` and search it. Save each
+   research JSON as soon as it is ready. Never estimate a number from memory: record it in `gaps`.
 3. **segments.json** from reported segment data (annual FY20-FY26 where possible; quarterly Q1FY25-Q1FY27).
 4. **assumptions.json.** FY27E-FY29E drivers grounded in Q1FY27 and guidance known then; capex from
    guidance; depreciation rate on gross block; treasury yield / other income; interest; tax;
@@ -56,9 +58,11 @@ Worked examples to copy from:
    - `node src/model.js SYM` → `node tools/authoring/SYM.js` → `node src/model.js SYM`
    - Render check: `node tools/snap-ic.js SYM <your scratchpad dir>` must print `errors: none`
      (needs the app running at http://localhost:5180). Look at the cover and valuation screenshots.
-   - Excel check: download `http://localhost:5180/api/excel/SYM` and run the PowerShell script
-     `C:\Users\Gam\AppData\Local\Temp\claude\c7e8afa9d0e0b507\d7679ed4-ace6-4f73-9178-88e73d31363d\scratchpad\verify-xlsx.ps1 -Path <file>`:
-     zero error cells on every sheet; TargetPrice equals the report's target in all scenarios.
+   - Excel check: download `http://localhost:5180/api/excel/SYM` and run
+     `powershell -ExecutionPolicy Bypass -File tools\verify-xlsx.ps1 -Path <file>` (needs Microsoft
+     Excel): zero error cells on every sheet; TargetPrice equals the report's target in all scenarios.
+   - Rendered-text check: no raw `{{...}}` token may appear in the rendered report (table
+     `source`/`title` fields are not token-rendered — build those strings in JS).
    - Look-ahead check: `node tools/lookahead.js SYM 2026-09-30` → no ISO date after the as-of date,
      and read every "later month-date" it lists. Forward guidance known by 30-Sep is fine
      ("commissioning by Mar-2027"); exact dates announced later are not (a Q2 board-meeting date,
@@ -153,6 +157,25 @@ Peer data notes: `data/raw/ABCAPITAL/screener.json` is the **standalone** fetch 
 use `data/raw/ABCAPITAL/research/screener-consolidated.json` when ABCL is a peer. `HDBFS` is also
 standalone (no subsidiaries). `forwardSeries` keeps every 5th weekly point and can drop the as-of
 close: for short histories compute the series on all weekly closes in your ctx (see HDBFS, CHOLAFIN).
+
+## 7c. Batch valuation rules settled so far (apply them; don't re-litigate)
+
+- Sector de-rating = median of the sector peer set's P/E (or P/B for lenders, EV/EBITDA for
+  hospitals) at the 30-Sep close vs their five-year medians, **excluding the company itself** and any
+  peer whose earnings are distorted (say which and why). Use the full peer set, no hand-picked
+  sub-sets (sub-sets may be shown as sensitivity rows).
+- **Do not blend in the stock's own de-rating** (no midpoint of sector and own), and add no growth
+  or returns uplift/discount to the base multiple; show such views as sensitivity rows and explain
+  them in the text and cross-checks.
+- Round a derived multiple to the nearest half-turn (P/E, EV/EBITDA) or 0.05x/0.1x (P/B), never
+  further in one direction.
+- Start-up losses in a SOTP: present value of losses to breakeven, not a perpetuity multiple.
+- SOTP minorities: deduct only minorities in parts valued at 100%; never double count a stake already
+  valued at the parent's share.
+- Recently listed stocks: skip the post-listing/IPO-premium months; a 12-month window is acceptable
+  (see BAJAJHFL, HDBFS).
+- IT peer set: TCS, INFY, HCLTECH, WIPRO, LTIM (data/raw/LTM), PERSISTENT, COFORGE, MPHASIS, LTTS;
+  TECHM excluded as a peer (trough-distorted).
 
 ## 8. Do not
 

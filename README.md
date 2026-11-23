@@ -50,6 +50,28 @@ node tools/lookahead.js SYMBOL 2026-09-30         # check a report has no inform
 Upside from the as-of price to the 12-month target: **BUY** at +15% or more, **HOLD** from −5% to
 +15%, **SELL** below −5% (`src/ratings.js`).
 
+## Two teams working in parallel
+
+Two Claude accounts write reports into this repository at the same time. To avoid paying twice or
+overwriting each other:
+
+1. **Split by company.** `tools/WORK-SPLIT.md` lists which team owns which symbols. Claim a batch
+   there (pull first, then commit and push the claim) before starting it. Never work on a symbol the
+   other team owns.
+2. **Touch only your own companies' files:** `data/raw/<SYM>/**`, `tools/authoring/<SYM>*.js`,
+   `data/models/<SYM>.json`, and peer `screener.json` files you fetch. Shared files (`src/`,
+   `public/`, the shared scripts in `tools/`, `tools/PLAYBOOK.md`, `tools/authoring/LENDER-NOTES.md`,
+   `tools/authoring/valuation-blend.js`, `tools/authoring/asof-peers.js`) are changed by Team A only;
+   Team B reports engine gaps instead of editing them.
+3. **Commit only your paths, then pull before you push:**
+   `git add data/raw/SYM tools/authoring/SYM.* data/models/SYM.json` →
+   `git pull --rebase origin main` → `git push origin main`.
+4. **Follow `tools/PLAYBOOK.md` exactly**, including §7c (batch valuation rules already settled).
+   Every report is written as of 30-Sep-2026 and reviewed before `node tools/publish.js SYM --asof 2026-09-30`.
+5. **The website is deployed by Team A only** (`node tools/deploy-pages.js` force-pushes the
+   `gh-pages` branch from the local library, so deploying from a clone that is behind `main` would
+   drop the other team's reports).
+
 ## Website version (GitHub Pages)
 
 A read-only snapshot of the published library is online at
