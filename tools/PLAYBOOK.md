@@ -176,6 +176,19 @@ close: for short histories compute the series on all weekly closes in your ctx (
   (see BAJAJHFL, HDBFS).
 - IT peer set: TCS, INFY, HCLTECH, WIPRO, LTIM (data/raw/LTM), PERSISTENT, COFORGE, MPHASIS, LTTS;
   TECHM excluded as a peer (trough-distorted).
+- Auto OEM peer set: MARUTI, M&M, BAJAJ-AUTO, EICHERMOT, HEROMOTOCO, TVSMOTOR, ASHOKLEY, ESCORTS;
+  ESCORTS excluded (FY26 profit inflated by the railway-business sale). Median at 30-Sep: −6.9%,
+  the same with or without Escorts or Bajaj. Names without a five-year P/E history (TMPV, TMCV,
+  HYUNDAI) are not peers, but they use this sector factor.
+- Pharma peer set (set 23-Nov-2026): SUNPHARMA, DIVISLAB, TORNTPHARM, ZYDUSLIFE, CIPLA, AUROPHARMA,
+  ALKEM, IPCALAB, ABBOTINDIA. Excluded as distorted: LUPIN and GLENMARK (loss years inside the
+  window), BIOCON and LAURUSLABS (one-off or boom-bust EPS; P/E above 100x inside the window),
+  DRREDDY (gRevlimid windfall FY23-26, then the cliff; Q4FY26 EPS ₹2.65), MANKIND (listed May-2023,
+  no five-year median). Including all 15 gives the same medians. At 30-Sep pharma trades **above**
+  its five-year medians, so the factor is a re-rating; apply it the same way (it works in both
+  directions). Factors excluding self: SUNPHARMA +10.25%, CIPLA +7.5%, DIVISLAB / TORNTPHARM /
+  ZYDUSLIFE +5.45%. A limited-competition windfall (e.g., gRevlimid) is not a one-off under §4: the
+  base median uses reported EPS, and an ex-windfall median may be shown as a sensitivity row.
 
 ## 8. Do not
 
