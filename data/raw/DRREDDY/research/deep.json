@@ -1,0 +1,528 @@
+{
+ "_meta": {
+  "symbol": "DRREDDY",
+  "asOf": "2026-09-30",
+  "note": "Industry, peers, street, ownership, moat, critiques, gaps and conflicts. Only sources published on or before 30-Sep-2026."
+ },
+ "industry": {
+  "india": {
+   "ipmMatGrowthPct": 11.1,
+   "ipmMqtGrowthPct": 13.5,
+   "drlMatGrowthPct": 13.5,
+   "drlMqtGrowthPct": 14.6,
+   "rankMqt": 9,
+   "rankMat": 10,
+   "brands100cr": 25,
+   "brandsTop300": 15,
+   "src": "IQVIA Jun-2026 via q1ppt and q1pr"
+  },
+  "us": {
+   "drlGrowthExLenaPct": 10.3,
+   "marketGrowthPct": 2.1,
+   "priceErosion": "Moderate (Q1FY27), stable (Q4FY26)",
+   "pendingAndas": 76,
+   "paraIv": 45,
+   "ftf": 24,
+   "cmoShareOfUsSales": "25-30% made by US CMOs",
+   "src": "IQVIA MAT Jun-2026 via q1ppt; q1call"
+  },
+  "russia": {
+   "drlGrowthPct": 10.9,
+   "marketGrowthPct": 15.2,
+   "src": "IQVIA MQT May-2026 via q1ppt (Q4FY26: 9.5% vs 15.9%)"
+  },
+  "semaglutide": {
+   "canadaListCad": 78,
+   "retailMarginPct": 38,
+   "provinceRebatePct": "5-6",
+   "netUsdFloor": 25,
+   "netUsdTypical": "30+",
+   "canadaMarketMix": "about one-third each public, private and cash",
+   "plannedMarkets": "50+ in calendar 2026 and 80+ within 12 months (May-2026 plan)",
+   "src": "q4call; q1call"
+  },
+  "tariffs": "On 22-Jul-2026 the US President announced tariffs on generic medicines (with, per the announcement, a two-year window); management saw no reason for concern yet and noted 25-30% of US sales are made by US CMOs (q1call)."
+ },
+ "peers": {
+  "set": [
+   "SUNPHARMA",
+   "DIVISLAB",
+   "TORNTPHARM",
+   "ZYDUSLIFE",
+   "CIPLA",
+   "AUROPHARMA",
+   "ALKEM",
+   "IPCALAB",
+   "ABBOTINDIA"
+  ],
+  "excluded": {
+   "LUPIN": "Loss years inside the five-year window (PLAYBOOK §7c)",
+   "GLENMARK": "Loss years inside the five-year window",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window",
+   "DRREDDY": "Self; gRevlimid windfall FY23-26, then the cliff (Q4FY26 EPS Rs2.65)",
+   "MANKIND": "Listed May-2023: no five-year median"
+  },
+  "factorSet": 8.2,
+  "note": "PLAYBOOK §7c (23-Nov-2026): names outside the nine-peer set use the median of all nine, +8.2% (DRREDDY). EV/EBITDA analogue for the cross-check: the same nine peers' EV/EBITDA vs their five-year medians."
+ },
+ "street": {
+  "brokers": [
+   {
+    "broker": "Motilal Oswal",
+    "date": "2026-07-23",
+    "rating": "Neutral",
+    "tp": 1125,
+    "method": "P/E",
+    "multiple": "20x",
+    "on": "12m fwd",
+    "eps": {
+     "FY27E": 37.2,
+     "FY28E": 60
+    },
+    "sales": {
+     "FY27E": 34653,
+     "FY28E": 38806
+    },
+    "ebitda": {
+     "FY27E": 5556,
+     "FY28E": 8395
+    },
+    "thesis": "FY27 is a transition year; semaglutide revival and b-abatacept approval are the monitorables; earnings fall in FY27 and revive from FY28",
+    "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/e67114a9_DRRD-20260723-MOFSL-RU-PG012.pdf"
+   },
+   {
+    "broker": "Prabhudas Lilladher",
+    "date": "2026-07-23",
+    "rating": "Accumulate",
+    "tp": 1300,
+    "method": "P/E",
+    "multiple": "23x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 41.5,
+     "FY28E": 56
+    },
+    "sales": {
+     "FY27E": 34505,
+     "FY28E": 38547
+    },
+    "ebitda": {
+     "FY27E": 5969,
+     "FY28E": 7755
+    },
+    "thesis": "gRevlimid cash was invested in peptides, biosimilars and GLP-1; benefits visible from FY27; delay in the semaglutide relaunch is the key risk",
+    "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/8193779b_DRRD-23-7-26-PL.pdf"
+   },
+   {
+    "broker": "Elara Securities",
+    "date": "2026-07-23",
+    "rating": "Reduce",
+    "tp": 1222,
+    "method": "P/E",
+    "multiple": "28x core + cash",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 36.4,
+     "FY28E": 50.3,
+     "FY29E": 62.5
+    },
+    "sales": {
+     "FY27E": 35371,
+     "FY28E": 39110
+    },
+    "ebitda": {
+     "FY27E": 5596,
+     "FY28E": 6796
+    },
+    "thesis": "Margins get reset lower: 13.3% adjusted EBITDA margin vs high-teens expected; street must reset to a structurally lower margin profile",
+    "url": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-07/17847830890.87255900.pdf"
+   },
+   {
+    "broker": "Emkay Global",
+    "date": "2026-07-23",
+    "rating": "Reduce",
+    "tp": 1200,
+    "method": "n.d.",
+    "multiple": "",
+    "on": "Jun-27 TP",
+    "eps": {
+     "FY27E": 45,
+     "FY28E": 59.4,
+     "FY29E": 74.4
+    },
+    "sales": {
+     "FY27E": 35288,
+     "FY28E": 38625
+    },
+    "ebitda": {
+     "FY27E": 6275,
+     "FY28E": 7827
+    },
+    "thesis": "Ex-gRevlimid US base has settled near Emkay's bear case (~US$900 mn a year); SG&A has little froth; consensus downgrades to continue; semaglutide and abatacept already in expectations",
+    "url": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-07/17847830100.91582300.pdf"
+   },
+   {
+    "broker": "ICICI Direct (ICICI Securities retail)",
+    "date": "2026-07-24",
+    "rating": "Buy",
+    "tp": 1340,
+    "method": "P/E",
+    "multiple": "22x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 40.9,
+     "FY28E": 60.7
+    },
+    "sales": {
+     "FY27E": 34335,
+     "FY28E": 39364
+    },
+    "ebitda": {
+     "FY27E": 5613,
+     "FY28E": 8463
+    },
+    "thesis": "Looks beyond quarterly gyrations: GLP-1, biosimilars and in-licensed innovation fill the gRevlimid void; base EBITDA margin ~20% guided",
+    "url": "https://mailcontent.icicidirect.com/mailcontent/idirect_drl_q1fy27.pdf"
+   },
+   {
+    "broker": "BOB Capital Markets",
+    "date": "2026-07-23",
+    "rating": "Buy",
+    "tp": 1471,
+    "method": "P/E",
+    "multiple": "21x",
+    "on": "Jun-28E",
+    "eps": {
+     "FY27E": 52.6,
+     "FY28E": 65.8,
+     "FY29E": 77.5
+    },
+    "thesis": "Valuations to re-rate with biosimilar launches; ~20% base margin despite no gRevlimid and no semaglutide until Nov-2026",
+    "url": "https://www.barodaetrade.com/Reports/DrReddysLabs-Q1FY27ResultReview23Jul26-Research.pdf",
+    "sales": {
+     "FY27E": 35396,
+     "FY28E": 39632
+    },
+    "ebitda": {
+     "FY27E": 6725,
+     "FY28E": 8323
+    }
+   },
+   {
+    "broker": "Nuvama",
+    "date": "2026-07-23",
+    "rating": "Buy",
+    "tp": 1365,
+    "method": "n.d.",
+    "multiple": "",
+    "on": "",
+    "thesis": "Retained Buy; cut FY27E EBITDA 11% and EPS 5% (Business Today)",
+    "url": "https://www.businesstoday.in/amp/markets/stocks/story/dr-reddys-share-price-why-this-stock-plunged-9-today-more-downside-ahead-544644-2026-07-23"
+   },
+   {
+    "broker": "JM Financial",
+    "date": "2026-07-23",
+    "rating": "n.d.",
+    "tp": 1489,
+    "method": "n.d.",
+    "multiple": "",
+    "on": "",
+    "thesis": "Target and an FY28E EPS of Rs80 as reported by Business Today; note not retrieved",
+    "url": "https://www.businesstoday.in/amp/markets/stocks/story/dr-reddys-share-price-why-this-stock-plunged-9-today-more-downside-ahead-544644-2026-07-23"
+   },
+   {
+    "broker": "ICICI Securities (institutional)",
+    "date": "2026-05-13",
+    "rating": "Add",
+    "tp": 1365,
+    "method": "P/E",
+    "multiple": "20x",
+    "on": "FY28E",
+    "thesis": "Pre-Q1 note: ex-Revlimid guidance unchanged; EPS cut ~5% on lower margins",
+    "url": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-05/17786614650.49423600.pdf"
+   },
+   {
+    "broker": "Goldman Sachs",
+    "date": "2026-07-23",
+    "rating": "Sell",
+    "tp": 1050,
+    "method": "n.d.",
+    "thesis": "Press report only",
+    "url": "https://www.businesstoday.in/amp/markets/stocks/story/dr-reddys-labs-share-price-adr-falls-9-targets-by-clsa-nomura-goldman-sachs-citi-others-544636-2026-07-23"
+   },
+   {
+    "broker": "Macquarie",
+    "date": "2026-07-23",
+    "rating": "Neutral",
+    "tp": 1230,
+    "method": "n.d.",
+    "thesis": "Press report only",
+    "url": "https://www.businesstoday.in/amp/markets/stocks/story/dr-reddys-labs-share-price-adr-falls-9-targets-by-clsa-nomura-goldman-sachs-citi-others-544636-2026-07-23"
+   },
+   {
+    "broker": "CLSA",
+    "date": "2026-07-23",
+    "rating": "n.d.",
+    "tp": 1240,
+    "method": "n.d.",
+    "thesis": "Press report only",
+    "url": "https://www.businesstoday.in/amp/markets/stocks/story/dr-reddys-labs-share-price-adr-falls-9-targets-by-clsa-nomura-goldman-sachs-citi-others-544636-2026-07-23"
+   },
+   {
+    "broker": "Morgan Stanley",
+    "date": "2026-07-23",
+    "rating": "Equal-weight",
+    "tp": 1200,
+    "method": "n.d.",
+    "thesis": "Target cut from Rs1,215 (press)",
+    "url": "https://www.businesstoday.in/amp/markets/stocks/story/dr-reddys-labs-share-price-adr-falls-9-targets-by-clsa-nomura-goldman-sachs-citi-others-544636-2026-07-23"
+   },
+   {
+    "broker": "UBS",
+    "date": "2026-07-23",
+    "rating": "n.d.",
+    "tp": 1150,
+    "method": "n.d.",
+    "thesis": "Press report only",
+    "url": "https://www.businesstoday.in/amp/markets/stocks/story/dr-reddys-labs-share-price-adr-falls-9-targets-by-clsa-nomura-goldman-sachs-citi-others-544636-2026-07-23"
+   },
+   {
+    "broker": "JPMorgan",
+    "date": "2026-07-23",
+    "rating": "Underweight",
+    "tp": 1100,
+    "method": "n.d.",
+    "thesis": "Target cut from Rs1,200; FY27-28 EPS cut 12-17% (Outlook Business)",
+    "url": "https://www.outlookbusiness.com/markets/dr-reddys-shares-slide-4-as-brokerages-cut-earnings-estimates-after-q1-miss"
+   },
+   {
+    "broker": "BNP Paribas",
+    "date": "2026-07-23",
+    "rating": "n.d.",
+    "tp": 1220,
+    "method": "n.d.",
+    "thesis": "Press report only",
+    "url": "https://www.businesstoday.in/amp/markets/stocks/story/dr-reddys-labs-share-price-adr-falls-9-targets-by-clsa-nomura-goldman-sachs-citi-others-544636-2026-07-23"
+   },
+   {
+    "broker": "Investec",
+    "date": "2026-07-23",
+    "rating": "n.d.",
+    "tp": 1600,
+    "method": "n.d.",
+    "thesis": "Press report only",
+    "url": "https://www.businesstoday.in/amp/markets/stocks/story/dr-reddys-labs-share-price-adr-falls-9-targets-by-clsa-nomura-goldman-sachs-citi-others-544636-2026-07-23"
+   },
+   {
+    "broker": "Citi",
+    "date": "2026-07-23",
+    "rating": "Sell",
+    "tp": 1040,
+    "method": "n.d.",
+    "thesis": "Sell reiterated (Outlook Business)",
+    "url": "https://www.outlookbusiness.com/markets/dr-reddys-shares-slide-4-as-brokerages-cut-earnings-estimates-after-q1-miss"
+   },
+   {
+    "broker": "Jefferies",
+    "date": "2026-07-23",
+    "rating": "n.d.",
+    "tp": 1040,
+    "method": "n.d.",
+    "thesis": "Lowest target with Citi (Bloomberg data via Business Today)",
+    "url": "https://www.businesstoday.in/amp/markets/stocks/story/dr-reddys-share-price-why-this-stock-plunged-9-today-more-downside-ahead-544644-2026-07-23"
+   },
+   {
+    "broker": "Nomura",
+    "date": "2026-07-23",
+    "rating": "n.d.",
+    "tp": 1740,
+    "method": "n.d.",
+    "thesis": "Highest target (Bloomberg data via Business Today)",
+    "url": "https://www.businesstoday.in/amp/markets/stocks/story/dr-reddys-share-price-why-this-stock-plunged-9-today-more-downside-ahead-544644-2026-07-23"
+   }
+  ],
+  "methodCount": "Six notes disclose a method and all six use P/E on one-year-forward EPS (MOSL 20x 12m fwd, PL 23x FY28E, Elara 28x FY28E core EPS plus cash, ICICI Direct 22x FY28E, BOB 21x Jun-28E, ICICI Securities 20x FY28E in May). Emkay, Nuvama, JM and the global houses did not disclose one in the sources available.",
+  "priceReaction": "The stock fell ~9% on 23-Jul-2026 after Q1FY27 (Business Today); NSE close Rs1,233 on 30-Sep-2026 (52-week range Rs1,148-1,415 per Elara, 22-Jul-2026).",
+  "src": "Broker notes and press reports as dated (all 13-May to 24-Jul-2026)",
+  "consensusPreQ1": {
+   "FY27E": 50.2,
+   "FY28E": 62.9,
+   "src": "Consensus EPS quoted in the BOB Capital Markets note of 23-Jul-2026 (priced 22-Jul-2026, before the cuts that followed Q1FY27)"
+  }
+ },
+ "ownership": {
+  "date": "2026-06-30",
+  "categories": {
+   "promoters": 26.63,
+   "fii": 20.67,
+   "dii": 31.75,
+   "public": 20.76,
+   "others": 0.2,
+   "adrsInPublic": 11.94
+  },
+  "split": {
+   "mutualFunds": 13.19,
+   "insurersAndFis": 14.64,
+   "fpi": 21.14,
+   "adrs": 11.94,
+   "_date": "2026-03-31 (AR distribution table); PL note of 23-Jul-2026 gives Jun-2026 MFs 13.19%, DIIs ex-MF 17.53%, FIIs incl. ADRs 33.08%"
+  },
+  "shareholders": 446086,
+  "named": [
+   [
+    "Life Insurance Corporation of India",
+    "12.16%"
+   ],
+   [
+    "J P Morgan Chase Bank NA (ADR depository)",
+    "11.94%"
+   ],
+   [
+    "GVP Family Trust (promoter)",
+    "11.51%"
+   ],
+   [
+    "VSD Family Trust (promoter)",
+    "9.06%"
+   ],
+   [
+    "ICICI Prudential Mutual Fund",
+    "4.01%"
+   ],
+   [
+    "Kallam Satish Reddy HUF (promoter)",
+    "3.31%"
+   ],
+   [
+    "NPS Trust",
+    "2.77%"
+   ],
+   [
+    "Nippon Life India MF",
+    "2.42%"
+   ],
+   [
+    "Parag Parikh MF",
+    "1.73%"
+   ],
+   [
+    "Gunupati Venkateswara Prasad HUF (promoter)",
+    "1.52%"
+   ],
+   [
+    "SBI Mutual Fund",
+    "1.48%"
+   ],
+   [
+    "K Satish Reddy (promoter)",
+    "1.21%"
+   ],
+   [
+    "Government Pension Fund Global (Norway)",
+    "1.10%"
+   ]
+  ],
+  "namedDate": "2026-03-31",
+  "pledge": "Nil (AR FY26: no pledging by promoters)",
+  "src": "Screener.in (BSE shareholding pattern, Jun-2026); ar26 shareholder information Table 3 (top holders at 31-Mar-2026) and distribution of shareholding; PL 23-Jul-2026"
+ },
+ "moat": [
+  [
+   "India branded franchise",
+   "Moderate",
+   "#9-10 in the IPM, 25 brands above Rs100 cr, out-grew the IPM in FY26 (12.1% vs 9.9% MAT) and Q1FY27 (14.6% vs 13.5% MQT); in-licensed innovation (toripalimab Rs100 cr+), vaccines #2",
+   "Not a top-five player; growth leans on in-licensing and acquired brands (Progynova, Stugeron)"
+  ],
+  [
+   "Emerging markets (Russia, CIS, RoW)",
+   "Moderate",
+   "Present in 48 countries; Russia Rs903 cr a quarter; 129 launches in FY26 re-using the US portfolio",
+   "Russia grew below its market (10.9% vs 15.2%); sanctions and rouble risk"
+  ],
+  [
+   "US generics",
+   "Weak",
+   "79 filings pending, 24 possible first-to-files; bosutinib and sugammadex first-to-market in 2026",
+   "Price-taker; CEO admits R&D failures (iron sucrose, conjugated estrogens, late peptides); base ~US$950 mn a year vs ~US$1 bn in FY22"
+  ],
+  [
+   "Vertical integration in complex APIs (peptides)",
+   "Moderate",
+   "In-house synthetic semaglutide API (300+ capacity units, up to 550 theoretical); supplies other generic makers; PSAI CDMO",
+   "The Jul-2026 scale-up failure shows execution risk; backup supplier is a year away"
+  ],
+  [
+   "Biosimilars",
+   "Early",
+   "Abatacept (first Orencia biosimilar filing), rituximab approved in the US (Aug-2026), denosumab in Europe",
+   "~US$100 mn of sales and loss-making until abatacept launches"
+  ],
+  [
+   "Consumer health (NRT)",
+   "Moderate",
+   "Nicotinell is the #2 NRT brand outside the US; growing high single digit to low double digit",
+   "Bought, not built (GBP458 mn); OTC competition"
+  ],
+  [
+   "Balance sheet",
+   "Strong",
+   "Net cash Rs3,057 cr at Jun-2026; ICRA AA+ (Stable)",
+   "Gross borrowings Rs7,195 cr held against gross cash Rs9,151 cr"
+  ]
+ ],
+ "critiques": [
+  [
+   "The ex-gRevlimid US base has settled at ~US$900 mn a year, near our bear case; consensus downgrades will continue and semaglutide/abatacept are already in the price",
+   "Emkay Global (Reduce), 23-Jul-2026"
+  ],
+  [
+   "Q1 adjusted EBITDA margin of 13.3% shows a structurally lower margin profile than the high-teens to 20% the street expected post-gRevlimid",
+   "Elara Securities (Reduce), 23-Jul-2026"
+  ],
+  [
+   "US base revenue was ~US$1 bn in FY22 and annualises at ~US$950 mn now despite 90-100 launches and the Mayne deal: where has growth gone?",
+   "IIFL analyst on the Q1FY27 call; CEO: 'your analysis is correct'"
+  ],
+  [
+   "We failed in certain complex generics (iron sucrose, conjugated estrogen, late peptides)",
+   "Erez Israeli, CEO, Q1FY27 call"
+  ],
+  [
+   "FY27 is a transition year; earnings fall before reviving in FY28 with semaglutide and b-abatacept",
+   "Motilal Oswal (Neutral), 23-Jul-2026"
+  ],
+  [
+   "Q1 was a disruption, not a change in the longer-term opportunity",
+   "ICICI Direct (Buy), 24-Jul-2026"
+  ]
+ ],
+ "gaps": [
+  "gRevlimid (lenalidomide) sales and profit were never disclosed by year, so an ex-gRevlimid forward P/E median cannot be computed from sourced data (PLAYBOOK §7c allows it only as a sensitivity when sourced).",
+  "drreddys.com press-release listing returned HTTP 403 to automated access; company releases were taken from direct PDF links, BSE filings and press reports instead.",
+  "The NSE/BSE Ind AS results filing for Q1FY27 was not downloaded; the Ind AS quarter was checked against Screener and the ICICI Direct table, which agree.",
+  "Named shareholders are from the FY26 annual report (31-Mar-2026); the Jun-2026 pattern gives categories only.",
+  "Methods, ratings and EPS of the global brokers (Goldman Sachs, Macquarie, CLSA, Morgan Stanley, UBS, JPMorgan, BNP, Investec, Citi, Jefferies, Nomura) and of Nuvama and JM Financial come only from press reports; their notes were not retrieved.",
+  "Semaglutide net price by market, the split of pens between Canada, India and B2B partners, and the US vs Canada split of North America revenue are not disclosed; our semaglutide revenue is an estimate built on management's 6-7 mn pens and US$25-30+ per pen.",
+  "India Ratings/Fitch rating action of 21-Jul-2026: details not retrieved (ICRA AA+ Stable reaffirmed Jan-2026).",
+  "MOSL's FY24 one-off adjustment (adjusted PAT Rs5,283 cr vs reported Rs5,568 cr) is larger than its tax-effected one-off gain; we use MOSL's published adjusted EPS as is."
+ ],
+ "conflicts": [
+  [
+   "Q4FY26 North America ex-SSA",
+   "Company: US$251 mn (Q4 call); MOSL chart: US$235 mn. We use the company figure."
+  ],
+  [
+   "PL valuation text",
+   "PL says the stock trades at '21x P/E on FY28E' while its table shows 23.0x (at different prices); its target uses 23x FY28E EPS."
+  ],
+  [
+   "JM Financial FY28E EPS",
+   "Business Today quotes Rs80, far above every other broker (Rs50-66); treated as unverified."
+  ],
+  [
+   "IFRS vs Ind AS",
+   "Company commentary is IFRS (FY26 revenue Rs33,593 cr, EBITDA Rs7,659 cr incl. other operating income and forex, before impairment); the model is Ind AS (revenue Rs33,700 cr, Screener EBITDA Rs6,454 cr after impairment and excluding other income)."
+  ]
+ ]
+}

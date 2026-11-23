@@ -1,0 +1,261 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Dr. Reddy's Laboratories (consolidated, Ind AS basis as on Screener, Rs crore). The company reports and guides on IFRS; the business-line build uses IFRS segment revenue plus a reconciliation line to Ind AS revenue (Rs107 cr in FY26). The engine runs on one revenue path and one EBITDA margin on Screener's basis (Ind AS operating profit: excludes other income, i.e. interest, mutual-fund gains, forex and divestment gains, and is after impairments; FY26 19.2% vs 22.8% IFRS EBITDA). Profit is attributable to equity holders (DRREDDY.patch.js); the tax line carries tax less the minority's share of losses in the Nestle nutraceutical JV (built in `taxBuild`). Other income is built in `otherIncomeBuild`: treasury income at 6.5% on gross yield-earning cash (the engine applies the yield to its opening net cash; the yield on the gross borrowings held as cash, plus forex, recurring miscellaneous income and the JV share, sit in `otherIncome`). Valued on P/E on Sep-28E EPS, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  4.1715,
+  11.8209,
+  9.9864
+ ],
+ "_revenueWhy": "Sum of the business-line build (`businessLines`), checked against model revenue in tools/authoring/DRREDDY.ctx.js. FY26 IFRS revenue Rs33,593 cr (NA Rs11,374 cr after the Rs453 cr lenalidomide SSA, Europe Rs5,550 cr, India Rs6,219 cr, EM Rs6,761 cr, PSAI Rs3,477 cr, others Rs213 cr; ar26 table 1) + Rs107 cr to Ind AS Rs33,700 cr. FY27E +4.2% to Rs35,106 cr: Q1FY27 Rs8,100 cr (Ind AS, -5.5% YoY) is the trough; bosutinib and sugammadex first-to-market launches from Q2, semaglutide back from Nov-2026 (6-7 mn pens guided Nov-Mar; we assume ~5 mn, ~Rs1,500 cr across segments), India +15%, EM +17% with a weaker rupee. Street FY27E: MOSL Rs34,653 cr, PL Rs34,505 cr, Elara Rs35,371 cr, Emkay Rs35,288 cr, ICICI Direct Rs34,335 cr (Ind AS). FY28E +11.8%: a full year of semaglutide (~Rs2,450 cr), abatacept's first year in the US (~US$80 mn), India +12%; FY29E +10.0%: abatacept US$180 mn incl. the SC launch (Feb/Mar-2028), semaglutide price erosion offset by volume.",
+ "ebitdaMargin": [
+  16,
+  19,
+  20
+ ],
+ "_marginWhy": "Screener basis (Ind AS operating profit, excludes other income, after impairments). History: 23.0% FY23, 28.3% FY24, 26.2% FY25, 19.2% FY26 (22.4% before the SSA, VAT, labour-code and impairment items), 4.7% in Q4FY26 (14.7% before them), 10.6% in Q1FY27 (13.6% before the Rs240 cr semaglutide provision; ~1 point of Middle East freight and solvent costs). Management's 'neighbourhood of 20%' is IFRS EBITDA, which also includes other operating income and forex (about 1.5-2 points more than our basis) and ignores the Q1 provision. FY27E 16.0%: Q1 10.6% actual, then a 15-16% base with bosutinib exclusivity in Q2-Q3 and semaglutide's high contribution in Q3-Q4 (ICICI Direct Ind AS FY27E 16.3%; Elara IFRS 15.8%, MOSL 16.0%, PL 17.3%, Emkay 17.8%). FY28E 19.0% (~20.5% IFRS): base ~15% plus semaglutide (~Rs1,450 cr contribution) and abatacept (~Rs430 cr) with SG&A flat in nominal terms (management: 'gap of 10-12%' between sales and cost growth); street IFRS 17.4% (Elara) to 21.6% (MOSL). FY29E 20.0%: abatacept scales; semaglutide prices fall as competitors enter.",
+ "capex": [
+  1800,
+  1800,
+  1800
+ ],
+ "_capexWhy": "Management guided ~Rs1,800 cr for FY27 and 'around that range' after (22-Jul-2026 call; Rs2,000 cr guided in May; Rs2,302 cr in FY26, Rs3,440 cr in FY25 on Screener). Q1FY27 Rs307 cr (cash). Peptide and biologics capacity is already built (fill-finish, CCM5).",
+ "depRateOnGrossBlock": 4.9,
+ "_depWhy": "FY26 D&A Rs2,059 cr (Ind AS: depreciation Rs1,260 cr + amortisation Rs799 cr, ar26 note 2.19) = 5.1% of average gross block (Rs40,307 cr on Screener). Q1FY27 Rs537 cr (Rs2,148 cr annualised). 4.9% on the growing gross block gives Rs2,193 / 2,281 / 2,369 cr (MOSL IFRS D&A Rs2,212 / 2,356 cr; PL Rs2,198 / 2,357 cr). CWIP (Rs1,460 cr) is held flat by the engine.",
+ "otherTreasury": {
+  "base": 1954,
+  "_why": "Term deposits inside Screener's 'other assets': Rs1,753 cr current (remaining maturity under 12 months) and Rs201 cr non-current (ar26 note 2.7 C). With cash Rs3,349 cr (incl. other bank balances), investments Rs5,285 cr and borrowings Rs7,734 cr (incl. leases Rs1,441 cr) the engine's opening net cash is Rs2,854 cr (company 'net cash surplus' Rs3,271 cr excludes leases and equity stakes)."
+ },
+ "treasuryYield": [
+  6.5,
+  6.5,
+  6.5
+ ],
+ "_treasuryWhy": "FY26 interest income Rs373 cr + fair-value gains on mutual funds Rs236 cr = Rs609 cr on ~Rs8,400 cr of average gross cash and investments (7.2%; ar26 note 2.16); we use 6.5% (Indian short-term rates lower in 2026; part of the cash is in foreign-currency deposits). The engine applies it to its opening net cash; the same 6.5% on the cash that is funded by borrowings is in `otherIncome` (see `otherIncomeBuild`).",
+ "otherIncome": [
+  766,
+  696,
+  696
+ ],
+ "_otherIncomeWhy": "Built in `otherIncomeBuild` from sourced parts: yield on the gross-borrowing-funded cash Rs411 cr (6.5% x (borrowings Rs7,200 cr held flat - Rs880 cr of non-yielding equity stakes inside investments)) + forex gains Rs150 / 80 / 80 cr (FY25 Rs132 cr, FY26 Rs177 cr, ~Rs91 cr in Q1FY27 in IFRS finance income) + recurring miscellaneous and disposal income Rs190 cr (FY25 ~Rs193 cr; FY26 Rs244 cr excluding the Rs189 cr brand divestment and the Rs140 cr litigation settlement) + JV share Rs15 cr (FY25 Rs22 cr, FY26 Rs13 cr). Total FY27E incl. the engine's yield on opening net cash: ~Rs960 cr vs Rs1,043 cr in FY26 and ~Rs1,040 cr in the twelve months to Jun-26 on a comparable basis (excluding the divestment gain and the settlement). No divestment gains or settlements are forecast.",
+ "interest": [
+  490,
+  480,
+  480
+ ],
+ "_interestLabel": "Finance cost (short-term borrowings incl. packing credit, leases)",
+ "_interestWhy": "FY26 Rs374 cr (other borrowings Rs269 cr, leases Rs80 cr, long-term Rs24 cr; ar26 note 2.20); Q1FY27 Rs125.5 cr (Rs502 cr annualised) on borrowings of Rs7,195 cr at Jun-26 (short-term Rs5,769 cr, leases Rs1,426 cr). Borrowings are held flat at ~Rs7,200 cr (the short-term loans fund working capital and an interest carry on deposits), so finance cost stays ~Rs480-490 cr.",
+ "taxRate": [
+  23.23,
+  24.65,
+  24.86
+ ],
+ "_taxWhy": "Tax less the minority's share of JV losses (engine has no minority line). Built in `taxBuild`: tax at 24% / 25% / 25% of PBT (guidance 24-25% for FY27; Q1FY27 21.3% on a tax-provision reversal; FY26 22.5%, FY25 25.4% IFRS) less Nestle India's 49% share of the nutraceutical JV's losses, Rs30 / 20 / 10 cr (FY26 Rs38.4 cr loss to the minority, Q1FY27 Rs8.7 cr). Checked each year in DRREDDY.ctx.js.",
+ "payout": [
+  20,
+  16,
+  15
+ ],
+ "_payoutWhy": "Dividend of Rs8 a share for FY25 and FY26 (Rs668 cr, 16% of FY26 profit; 12% of FY25). We assume Rs8 / Rs9 / Rs10 a share (about 20% / 16% / 15% of our EPS). No buyback since 2016-17.",
+ "businessLines": {
+  "_note": "Revenue build by market (Rs crore; North America in US$ mn x Rs/US$). FY26 base from ar26 MD&A table 1 (IFRS); 'indasRecon' bridges IFRS to Ind AS revenue (FY26 Rs33,700.2 cr - Rs33,593.3 cr). Checked against model revenue in DRREDDY.ctx.js (tolerance 0.5%).",
+  "base": {
+   "fy": "FY26",
+   "naUsdMn": 1300,
+   "fx": 87.5,
+   "na": 11373.7,
+   "europe": 5550.1,
+   "india": 6218.6,
+   "em": 6760.8,
+   "psai": 3477.4,
+   "others": 212.7,
+   "indasRecon": 106.9,
+   "revenueIfrs": 33593.3,
+   "revenueIndas": 33700.2
+  },
+  "naUsdMn": [
+   1060,
+   1200,
+   1300
+  ],
+  "fx": [
+   95.6,
+   97.5,
+   99.5
+  ],
+  "europeGrowth": [
+   9,
+   8,
+   8
+  ],
+  "indiaGrowth": [
+   15,
+   12,
+   12
+  ],
+  "emGrowth": [
+   17,
+   12,
+   10
+  ],
+  "psaiGrowth": [
+   5,
+   8,
+   8
+  ],
+  "others": [
+   100,
+   100,
+   100
+  ],
+  "indasRecon": [
+   110,
+   110,
+   110
+  ],
+  "memo": {
+   "semaglutideRs": [
+    1500,
+    2450,
+    2600
+   ],
+   "abataceptUsdMn": [
+    5,
+    80,
+    180
+   ],
+   "_why": "GAM estimates inside the market lines (not disclosed by the company): semaglutide ~5 mn pens in Nov-26 to Mar-27 at ~US$31 net (management: 6-7 mn pens, US$25-30+ a pen, list price ~half of Novo's), then ~15 mn pens a year at falling prices; abatacept (biosimilar Orencia IV) from a mid-Dec-2026 goal date with a slow first-year ramp, SC from Feb/Mar-2028."
+  },
+  "_why": "North America (US$): FY26 US$1,300 mn reported (US$1,360 mn before the SSA); Q1FY27 US$236 mn with ~2 weeks of bosutinib. FY27E US$1,060 mn = base generics ~US$950 mn (Q1 run-rate; 'double-digit growth ex-lenalidomide' guided) + bosutinib (180-day exclusivity, brand ~US$300 mn) and sugammadex (first to market, 28-Jul-2026) + Canada semaglutide ~US$70 mn; MOSL US$1,066 mn, Emkay Rs10,449 cr. FY28E US$1,200 mn (Canada semaglutide ~US$120 mn, abatacept ~US$80 mn; bosutinib exclusivity over), FY29E US$1,300 mn (abatacept US$180 mn). Rs/US$ 95.6 / 97.5 / 99.5 (95.81 on 30-Sep-2026; Q1FY27 convenience rate 94.66). Europe: Q1FY27 Rs1,444 cr (+13% YoY, NRT Rs656 cr after a profit-neutral gross-to-net change); +9% / +8% / +8% (NRT high single digit to low double digit; generics launches vs price erosion; strong euro). India: Q1FY27 +17% (15.5% organic) vs IPM +13.5% MQT; +15% / +12% / +12% incl. semaglutide (injection and oral). Emerging Markets: FY26 +23%, Q1FY27 +31% (Russia +28%, RoW +42%, forex); +17% / +12% / +10% incl. semaglutide B2B supplies in new markets. PSAI: Q1FY27 +4% (CDMO up, API volumes down); +5% / +8% / +8%. Others (licensing, services): Rs213 cr in FY26, Rs19 cr in Q1FY27; Rs100 cr a year."
+ },
+ "otherIncomeBuild": {
+  "_note": "Engine other income = 6.5% x opening engine net cash (treasuryYield) + otherIncome; otherIncome = carry + forex + misc + jv (Rs crore).",
+  "yieldPct": 6.5,
+  "grossBorrowings": 7200,
+  "nonYieldingStakes": 880,
+  "carry": [
+   411,
+   411,
+   411
+  ],
+  "forex": [
+   150,
+   80,
+   80
+  ],
+  "misc": [
+   190,
+   190,
+   190
+  ],
+  "jv": [
+   15,
+   15,
+   15
+  ],
+  "fy26Comparable": 1042.8,
+  "ttmJun26Comparable": 1040,
+  "_why": "FY26 Ind AS other income Rs1,358.4 cr + JV Rs13.4 cr = Rs1,371.8 cr; excluding the Rs189 cr brand divestment gain and the Rs140 cr litigation settlement: Rs1,042.8 cr (ar26 note 2.16). Twelve months to Jun-26 (Screener quarters Rs330 + 271 + 480 + 356 cr = Rs1,437 cr incl. JV) less the same two items and ~Rs66 cr of other disposal gains: ~Rs1,040 cr. Non-yielding stakes: equity-accounted investees Rs567 cr (Mar-26) + equity investments Rs315 cr (q1pr net-cash reconciliation)."
+ },
+ "taxBuild": {
+  "_note": "Engine tax rate = (tax on PBT + minority share of JV profit, negative when the JV loses money) / PBT.",
+  "taxOnPbt": [
+   24,
+   25,
+   25
+  ],
+  "minorities": [
+   -30,
+   -20,
+   -10
+  ],
+  "_why": "Nestle India owns 49% of 'Dr. Reddy's and Nestle Health Science Limited' (ar26 note 2.39 A). The minority absorbed Rs38.4 cr of losses in FY26 and Rs8.7 cr in Q1FY27 (IFRS NCI Rs-87 mn); we assume the JV's losses narrow as Celevida GLP+ and the licensed Nestle brands scale."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 21,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Pharma is defensive; Dr. Reddy's has net cash (Rs3,057 cr at Jun-26), so the cost of equity is the right discount rate. Beta 0.85 gives 11.6%.",
+  "_tgWhy": "India nominal GDP ~10%; half the business is unbranded generics (US, Europe, PSAI) growing low single digits in dollars, half branded (India, EM, NRT) growing high single digits. House range 5-6%: 5.5%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% (FY29E) to 7% over 15 years.",
+  "_fadeMarginWhy": "Screener-basis EBITDA margin fades from 20% to 21%: the branded mix rises and biosimilars add margin, but US generic erosion and semaglutide price competition recur; we do not assume the 26-28% of the gRevlimid years.",
+  "_fadeCapexWhy": "Capex moves from ~4% of revenue (FY29E) to 5%: maintenance plus biologics and peptide capacity for a ~Rs40,000 cr business (FY23-FY26 capex 7-10% of revenue included the biologics build-out)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Semaglutide restarts on time in Nov-2026 and sells 7 mn+ pens in H2FY27 and 20 mn+ in FY28 across Canada, Brazil and 50+ markets; abatacept is approved in Dec-2026 with little competition; the US base holds ~US$1 bn; EBITDA margin heads to the 25% aspiration on IFRS.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 2,
+   "fadeMarginTo": 23
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The semaglutide validation fails again or Canada prices collapse as generics multiply; abatacept gets FDA queries or a re-inspection and slips a year; US base erosion continues (~US$900 mn); Russia slows; margins stay near Q1FY27's level.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -2.5,
+   "fadeMarginTo": 18
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 21,
+      "bull": 25.5,
+      "bear": 17
+     },
+     "why": "How the street values Dr. Reddy's: P/E on one-year-forward EPS (MOSL 20x 12m fwd, PL 23x FY28E, ICICI Direct 22x FY28E, BOB 21x Jun-28E, Elara 28x FY28E core EPS plus cash, ICICI Securities 20x FY28E). Our multiple: Dr. Reddy's own one-year-forward P/E median since Apr-2021 on EPS before one-off items (trough years excluded) x the pharma sector factor (+8.2%, the median of the nine-peer set, PLAYBOOK §7c), nearest half-turn; bull = 75th percentile x factor, bear = 25th percentile x factor. Written by tools/authoring/DRREDDY.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 13,
+      "bull": 15.5,
+      "bear": 10
+     },
+     "why": "Own one-year-forward EV/EBITDA median since Apr-2021 (EV from Screener's EV multiple x trailing EBITDA; forward EBITDA on Screener's basis before impairments and the FY26 specific items) x the nine peers' EV/EBITDA factor, nearest half-turn; plus the engine's net cash at Sep-28E (DRREDDY.ctx.js)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether Dr. Reddy's cash flows support the price: 15-year FCFF, cost of equity 11.6%, terminal growth 5.5%, plus the engine's net cash at Mar-27."
+    }
+   ]
+  }
+ }
+}

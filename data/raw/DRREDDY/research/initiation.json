@@ -1,0 +1,4462 @@
+{
+ "symbol": "DRREDDY",
+ "listing": "NSE: DRREDDY · BSE: 500124 · NYSE: RDY",
+ "date": "30 September 2026",
+ "rating": "HOLD",
+ "analysts": "GAM Research — Pharmaceuticals & Healthcare",
+ "cover": {
+  "headline": "The gRevlimid years are over; semaglutide and abatacept are late, and the price already allows for both",
+  "lead": "Dr. Reddy's is a ₹34,000 cr generics company that is half branded (India, Russia and emerging markets, Nicotinell) and half unbranded (US and European generics, APIs). FY23-FY25 were windfall years: generic Revlimid lifted EBITDA margins to 26-28% and EPS to ₹68. The windfall ended in Jan-2026: Q4FY26 EPS was ₹2.6 and Q1FY27 ₹5.3, after a ₹240 cr provision when the semaglutide API failed validation at scale and supplies stopped until ~Nov-2026. The street values Dr. Reddy's on **P/E on one-year-forward EPS (20-23x FY28E)**. We forecast EPS of ₹35.7 / ₹51.7 / ₹62.9 for FY27-29E, below the street on margins. Dr. Reddy's own forward P/E since Apr-2021 has a median of 19.6x on EPS before one-offs; times the pharma sector factor (+8.2%) that gives **21x Sep-28E EPS of ₹57.3 = {{dcf.tp|inr}} ({{dcf.upside|chg}})**. **We initiate with HOLD.** Cross-checks agree within ±15% (EV/EBITDA ₹1,369, DCF ₹1,141). Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "North America has fallen off the cliff and is not growing underneath",
+    "p": "US$ sales went from US$400 mn in Q1FY26 to US$236 mn in Q1FY27 as lenalidomide went generic. The base left behind (~US$950 mn a year) is about where it was in FY22 despite ~100 launches; the CEO concedes R&D misses in complex generics. Bosutinib and sugammadex (first to market in 2026) help FY27; after that, growth needs semaglutide in Canada and abatacept. We model US1,060 / 1,200 / 1,300 mn for FY27-29E."
+   },
+   {
+    "h": "The branded half is good and growing",
+    "p": "India grew 17% in Q1FY27 (15.5% organic) against a market growing 13.5%; emerging markets +31% (Russia +28%, Rest of World +42%); Nicotinell (bought from Haleon for GBP458 mn) grows high single digit to low double digit. These businesses were 52% of Q1FY27 revenue and carry the margin today."
+   },
+   {
+    "h": "Two big launches, both delayed once already",
+    "p": "Semaglutide: first to market in India and Canada, then an API scale-up failure in Jul-2026; 6-7 mn pens promised for Nov-26 to Mar-27 (was 10-11 mn). Abatacept (biosimilar Orencia): goal date mid-Dec-2026; the biologics plant passed muster for rituximab in Aug-2026. We include ~₹1,500 cr of semaglutide in FY27E and US$80 mn of abatacept in FY28E: real, but below management's plan."
+   },
+   {
+    "h": "Valuation: fair on the street's own method",
+    "p": "At ₹1,233 the stock trades at 23.8x our FY28E EPS and 21.5x Sep-28E, against a 19.6x median since 2021 (25th-75th percentile 15.7-23.7x). The post-Q1 street median target is ₹1,222 (range ₹1,040-1,740). Our 21x is in the middle of the street's 20-23x; the debate is earnings, not the multiple."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "RED"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "AMBER"
+   },
+   {
+    "k": "Competitive position",
+    "v": "AMBER"
+   },
+   {
+    "k": "Valuation",
+    "v": "AMBER"
+   }
+  ],
+  "catalysts": [
+   "Semaglutide re-validation result (management targeted around 22-23 Sep-2026) and the restart of commercial supplies via OneSource from Oct, pens to market from Nov-2026; Brazil approval (expected \"in the next few weeks\" in Jul-2026).",
+   "Q2FY27 results (due by mid-November 2026; the company's calendar says the fourth week of October): the first quarter with bosutinib exclusivity and sugammadex, and the base margin without semaglutide (\"neighbourhood of 20%\" IFRS guided).",
+   "Abatacept IV: US FDA goal date mid-December 2026; response to the Bachupally Form 483; EU IV filing; SC filing in the US.",
+   "Use of the ~₹3,000 cr net cash: management is \"engaging\" on deals in generics, innovation and biosimilars.",
+   "US tariff on generics (announced 22-Jul-2026) and USFDA follow-up at Srikakulam (Form 483, 3 observations, Jul-2026)."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "North America: US$400 mn a quarter in Q1FY26, US$236 mn in Q1FY27",
+       "unit": "North America revenue (US$ mn a quarter; Q4FY26 after the ~US$50 mn SSA)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "North America",
+         "values": [
+          400,
+          373,
+          338,
+          199,
+          236
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company calls; Q1FY26 implied from the -41% YoY in Q1FY27"
+      },
+      {
+       "type": "stacked",
+       "title": "The mix: North America 45% of FY25 revenue, 34% of FY26",
+       "unit": "Revenue by market (₹ crore, IFRS)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "North America",
+         "values": [
+          7049.4,
+          7491.5,
+          10170.4,
+          12989.5,
+          14516.4,
+          11373.7
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Emerging Markets",
+         "values": [
+          3508.7,
+          4566.7,
+          4552.9,
+          4864,
+          5477.1,
+          6760.8
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "India",
+         "values": [
+          3341.9,
+          4195.7,
+          4893.2,
+          4640.7,
+          5373.4,
+          6218.6
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Europe",
+         "values": [
+          1540.4,
+          1663.1,
+          1760.3,
+          2051.1,
+          3588.2,
+          5550.1
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 2500,
+       "source": "Annual reports FY22, FY24, FY26"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Margins halved in two quarters",
+       "unit": "IFRS EBITDA margin (%): reported vs before specific items",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Reported",
+         "values": [
+          26.7,
+          26.7,
+          23.5,
+          13,
+          12.5
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Before specific items",
+         "values": [
+          26.7,
+          26.7,
+          24.8,
+          19.5,
+          15.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 5,
+       "max": 30,
+       "source": "Company releases and presentations"
+      },
+      {
+       "type": "column",
+       "title": "EPS before one-offs: ₹67 at the FY25 peak, ~₹38 in FY27E",
+       "unit": "EPS (₹): reported vs before one-off items",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Reported",
+         "values": [
+          23.47,
+          26.23,
+          54.14,
+          66.87,
+          67.77,
+          50.27,
+          35.74,
+          51.71,
+          62.94
+         ],
+         "fmt": "n1"
+        },
+        {
+         "name": "Before one-offs",
+         "values": [
+          28.7,
+          35.2,
+          48.9,
+          63.4,
+          67.3,
+          59.1,
+          37.92250391801716,
+          51.71,
+          62.94
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "none",
+       "source": "Screener.in; MOSL adjusted EPS (23-Jul-2026); GAM estimates"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "India and emerging markets kept growing through the cliff",
+       "unit": "India + Emerging Markets revenue (₹ crore a quarter, IFRS)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "India + EM",
+         "values": [
+          2875,
+          3233,
+          3499,
+          3372,
+          3551
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation"
+      },
+      {
+       "type": "column",
+       "title": "Semaglutide pens guided for FY27: 12 mn in May, 6-7 mn in July; we assume ~5 mn",
+       "unit": "Semaglutide pens for FY27 (mn)",
+       "x": [
+        "May guide",
+        "Jul guide",
+        "Q1 sold",
+        "GAM FY27E"
+       ],
+       "series": [
+        {
+         "name": "Pens (mn)",
+         "values": [
+          12,
+          6.5,
+          0.18,
+          5
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 call; semaglutide update and Q1FY27 calls; GAM estimate"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: 22x Sep-28E now vs a 19.6x median since 2021",
+       "unit": "Price ÷ next full-year EPS before one-offs (x)",
+       "x": [
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          18.8,
+          21.2,
+          22.3,
+          22.1,
+          18.6,
+          19.6,
+          19.1,
+          18.8,
+          19.3,
+          17.7,
+          16.5,
+          13.2,
+          13.9,
+          13.8,
+          13.1,
+          13.4,
+          13.6,
+          13.9,
+          13.6,
+          13.6,
+          14,
+          14,
+          13.3,
+          14.6,
+          15.7,
+          17.2,
+          16.6,
+          15.6,
+          17.1,
+          16.9,
+          18.8,
+          18.4,
+          21.2,
+          19.6,
+          22.1,
+          23.7,
+          22.5,
+          22.8,
+          20.5,
+          23.5,
+          20.4,
+          19.2,
+          29.3,
+          32.5,
+          34.9,
+          33.7,
+          33.2,
+          32.9,
+          31.8,
+          33.7,
+          31,
+          33.8,
+          33.8,
+          25.6,
+          24.7,
+          24.1,
+          23.2,
+          22.9
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 19.6,
+         "text": "Median: 19.6x"
+        }
+       ],
+       "source": "Screener.in prices; MOSL adjusted EPS; GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (post-Q1 targets)",
+       "unit": "₹ per share; CMP ₹1,233",
+       "x": [
+        "Motilal Oswal",
+        "Prabhudas Lilladher",
+        "Elara Securities",
+        "Emkay Global",
+        "ICICI Direct",
+        "BOB Capital Markets",
+        "Nuvama",
+        "JM Financial",
+        "Goldman Sachs",
+        "Macquarie",
+        "CLSA",
+        "Morgan Stanley",
+        "UBS",
+        "JPMorgan",
+        "BNP Paribas",
+        "Investec",
+        "Citi",
+        "Jefferies",
+        "Nomura",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          1125,
+          1300,
+          1222,
+          1200,
+          1340,
+          1471,
+          1365,
+          1489,
+          1050,
+          1230,
+          1240,
+          1200,
+          1150,
+          1100,
+          1220,
+          1600,
+          1040,
+          1040,
+          1740,
+          1200
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and press reports 23-24 Jul-2026 (median ₹1,222), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Dr. Reddy's does",
+   "kicker": "Company",
+   "title": "A generics company with four markets and an API arm, turning itself into a branded and biologics business",
+   "blocks": [
+    {
+     "p": "Dr. Reddy's Laboratories, founded in Hyderabad in 1984, makes generic medicines and their active ingredients (APIs). It is the only Indian drug maker listed on the New York Stock Exchange (since 2001). It reports two segments. **Global Generics** (89% of FY26 revenue) sells finished medicines in North America, Europe, India and emerging markets. **PSAI** (10%) sells APIs to other drug makers and runs contract development and manufacturing (CDMO). Branded businesses, where doctors prescribe a Dr. Reddy's brand (India, emerging markets and the nicotine-replacement consumer brands bought from Haleon), were 52% of Q1FY27 revenue."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "FY26 revenue by market and what drives each (IFRS)",
+      "head": [
+       "Market",
+       "FY26 (₹ cr)",
+       "Share",
+       "Q1FY27 growth",
+       "What it is"
+      ],
+      "wide": [
+       4
+      ],
+      "rows": [
+       [
+        "**North America**",
+        "11,374",
+        "33.9%",
+        "−35%",
+        "US generics (oral solids, injectables, a few 505(b)(2) products) and, from Q1FY27, generic semaglutide in Canada. US$1.30 bn in FY26 after the ₹453 cr lenalidomide shelf-stock adjustment; US$236 mn in Q1FY27. 76 ANDAs pending."
+       ],
+       [
+        "**Emerging Markets**",
+        "6,761",
+        "20.1%",
+        "+31%",
+        "Branded generics in Russia (₹903 cr in Q1FY27), other CIS and Romania, and 40+ Rest-of-World countries; 129 launches in FY26."
+       ],
+       [
+        "**India**",
+        "6,219",
+        "18.5%",
+        "+17%",
+        "Branded generics: #9-10 in the market, 25 brands above ₹100 cr, vaccines (#2), in-licensed innovation (toripalimab), semaglutide (Obeda) from Mar-2026."
+       ],
+       [
+        "**Europe**",
+        "5,550",
+        "16.5%",
+        "+13%",
+        "Generics in Germany, the UK, France, Italy and Spain, plus the NRT consumer brands (Nicotinell, ₹656 cr in Q1FY27) bought from Haleon in Sep-2024."
+       ],
+       [
+        "**PSAI**",
+        "3,477",
+        "10.4%",
+        "+4%",
+        "APIs for other generic makers (incl. semaglutide API) and CDMO services; gross margin 17% in FY26, 4.5% in Q1FY27."
+       ],
+       [
+        "Others",
+        "213",
+        "0.6%",
+        "–",
+        "Licensing and Aurigene services."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total (IFRS)**",
+         "**33,593**",
+         "100%",
+         "**−6%**",
+         "Ind AS revenue ₹33,700 cr (the basis of our model)"
+        ]
+       }
+      ],
+      "source": "AR FY26 MD&A table 1; Q1FY27 release and presentation"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "Quarterly revenue by market: North America halved, the rest grew",
+       "unit": "₹ crore (IFRS)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "North America",
+         "values": [
+          3412.3,
+          3240.8,
+          2964.4,
+          1756.2,
+          2204.8
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Emerging Markets",
+         "values": [
+          1404.2,
+          1654.8,
+          1896,
+          1805.7,
+          1832.8
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "India",
+         "values": [
+          1471.1,
+          1578,
+          1603.2,
+          1566.3,
+          1717.7
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Europe",
+         "values": [
+          1274.4,
+          1376.2,
+          1447.6,
+          1452,
+          1444
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 900,
+       "source": "Q1FY27 presentation (historical revenues by segment)"
+      },
+      {
+       "type": "stacked",
+       "title": "Annual mix: North America 60% of FY25 Global Generics, 38% of FY26",
+       "unit": "Revenue by market (₹ crore, IFRS)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "North America",
+         "values": [
+          7049.4,
+          7491.5,
+          10170.4,
+          12989.5,
+          14516.4,
+          11373.7
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Emerging Markets",
+         "values": [
+          3508.7,
+          4566.7,
+          4552.9,
+          4864,
+          5477.1,
+          6760.8
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "India",
+         "values": [
+          3341.9,
+          4195.7,
+          4893.2,
+          4640.7,
+          5373.4,
+          6218.6
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Europe",
+         "values": [
+          1540.4,
+          1663.1,
+          1760.3,
+          2051.1,
+          3588.2,
+          5550.1
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 2500,
+       "source": "Annual reports FY22, FY24, FY26 (MD&A revenue tables)"
+      }
+     ]
+    },
+    {
+     "callout": "**So what:** strip out lenalidomide and Dr. Reddy's is a diversified mid-teens-margin generics company whose growth now comes from branded markets (India, Russia and Rest of World, NRT), not the US. Its big bets for FY27-FY29 are three products: generic semaglutide (outside the US), biosimilar abatacept (US) and a rebuilt US generics launch engine. Each is binary in timing; together they decide whether margins return to 20%+ on our basis."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "Forty years in four eras: building a generics business, the gRevlimid windfall, the cliff, and the search for what comes next",
+   "blocks": [
+    {
+     "p": "The statements make sense only against the events that shaped them. Each left a mark: the FY22 impairments, the FY23-FY26 windfall margins, the FY25-FY26 jump in intangibles (NRT), the minority interest from the Nestle JV, and the FY26-FY27 one-offs."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Corporate actions and what they did to the numbers",
+      "head": [
+       "When",
+       "What happened",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1984-2001",
+        "Founded in 1984 by Dr. K. Anji Reddy; merged Cheminor Drugs (Jan-2001); NYSE ADR listing (Apr-2001).",
+        "ADRs are still 11.94% of shares."
+       ],
+       [
+        "2006",
+        "Bonus issue (1:1) and a further ADR offering.",
+        "Share count to ~16.8 cr (pre-split)."
+       ],
+       [
+        "2016-17",
+        "Buyback of 5.08 mn shares.",
+        "Share count 16.55 cr (pre-split)."
+       ],
+       [
+        "FY22",
+        "Impairments of ₹756 cr (five-year summary).",
+        "Reported EPS ₹26.2; ₹35.2 before one-offs (MOSL)."
+       ],
+       [
+        "FY23-FY26",
+        "Generic Revlimid (lenalidomide) sold under volume-limited settlements: the gRevlimid windfall. North America rose from ₹7,492 cr (FY22) to ₹14,516 cr (FY25).",
+        "EBITDA margin 24% (FY22) to 30% (FY23-FY24) on IFRS; EPS more than doubled."
+       ],
+       [
+        "Before FY26",
+        "Bought Mayne Pharma's US retail generics portfolio.",
+        "Added ~US$100 mn of US revenue (an analyst's figure on the Q1FY27 call, not contradicted by management)."
+       ],
+       [
+        "Apr-2024",
+        "JV with Nestle India for nutraceuticals: Dr. Reddy's 51%, Nestle India 49% (₹811 cr received for transferring its nutraceutical portfolio).",
+        "Creates the only material minority interest (₹339 cr at Mar-26)."
+       ],
+       [
+        "Sep-2024",
+        "Bought Haleon's NRT business outside the US (Nicotinell, Nicabate, Thrive, Habitrol): GBP458 mn upfront plus up to GBP42 mn earn-out.",
+        "Europe revenue +55% in FY26; goodwill ₹717 cr; integration complete Mar-2026."
+       ],
+       [
+        "Oct-2024",
+        "Share split 1:5 (₹5 to Re1).",
+        "834.7 mn shares; history is split-adjusted."
+       ],
+       [
+        "FY25",
+        "Divested the Louisiana US plant (₹149 cr FX reclass gain).",
+        "One-off other income."
+       ],
+       [
+        "FY26",
+        "gRevlimid exclusivity ends (Jan-2026); ₹453 cr shelf-stock adjustment; CAR-T and Eftilagimod write-offs; brand divestments (₹189 cr); bought Progynova/Cyclo-Progynova (India HRT) and Stugeron.",
+        "Reported PBT ₹5,482 cr vs ₹6,463 cr adjusted; Q4FY26 EPS ₹2.64."
+       ],
+       [
+        "Q1FY27",
+        "Semaglutide API scale-up failure; ₹240 cr provision; supplies halted until ~Nov-2026.",
+        "EBITDA margin 12.5% (IFRS)."
+       ]
+      ],
+      "source": "AR FY26 (equity history, notes 2.16, 2.39); AR FY22; Q4FY26 and Q1FY27 calls; SEC Form 6-K (NRT completion, Sep-2024)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "One-off items by year (₹ crore, IFRS; positive = charge)",
+      "head": [
+       "Year",
+       "One-off (gain)/loss",
+       "What",
+       "Reported EPS (₹)",
+       "EPS before one-offs (₹)"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "FY22",
+        "638",
+        "Impairments (₹756 cr in the five-year summary)",
+        "26.2",
+        "35.2"
+       ],
+       [
+        "FY23",
+        "(545)",
+        "One-off gains (MOSL classification)",
+        "54.1",
+        "48.9"
+       ],
+       [
+        "FY24",
+        "(198)",
+        "One-off gains",
+        "66.9",
+        "63.4"
+       ],
+       [
+        "FY25",
+        "(51)",
+        "Net one-off gains (MOSL; incl. the ₹149 cr FX reclass on the Louisiana divestment)",
+        "67.8",
+        "67.3"
+       ],
+       [
+        "FY26",
+        "923",
+        "SSA ₹453 cr, VAT ₹184 cr, CAR-T ₹135 cr, Eftilagimod ₹93 cr, labour codes ₹117 cr (company total ₹981 cr)",
+        "50.3",
+        "59.1"
+       ],
+       [
+        "Q1FY27",
+        "258",
+        "Semaglutide API provision ₹240 cr and related costs",
+        "5.3",
+        "~7.5"
+       ]
+      ],
+      "source": "MOSL result update 23-Jul-2026 (one-off table and adjusted EPS, IFRS); Q4FY26 call; Screener (reported Ind AS EPS)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Three different industries: price-taking US generics, a 11-13%-growth Indian brand market, and branded emerging markets",
+   "blocks": [
+    {
+     "p": "**US generics.** The world's largest generics market is a price-taker business: a few large buyer groups force prices down every year, and excess profit comes only from products with few competitors (first-to-file exclusivity, complex injectables, settlements like lenalidomide's). Dr. Reddy's grew 10.3% excluding lenalidomide against 2.1% for the market (IQVIA MAT Jun-2026), helped by launches. Its CEO is candid: \"the US market, the generic piece of it, is at best single-digit growth, without the upsides\". A new risk appeared on 22-Jul-2026, when the US President announced tariffs on generic medicines; 25-30% of Dr. Reddy's US sales are made by US contract manufacturers."
+    },
+    {
+     "p": "**India.** The Indian pharmaceutical market (IPM) grew 11.1% on a moving annual basis and 13.5% in the quarter to Jun-2026, mostly through price and new products. Dr. Reddy's grew 13.5% / 14.6% and ranks #9-10. The biggest new profit pool is semaglutide: Novo Nordisk's patent expired in Mar-2026 and several Indian companies launched on day one; Dr. Reddy's had ~10% share in its first weeks (May-2026)."
+    },
+    {
+     "p": "**Emerging markets and Canada.** Russia (Dr. Reddy's grew 10.9% vs 15.2% for the market, IQVIA May-2026), CIS and 40+ Rest-of-World countries are branded markets where a company sells its own brands to doctors and pharmacies. Generic semaglutide opens 80+ such markets in 2026-27 as data protection and patents lapse; Canada was first (Dr. Reddy's approval in Q4FY26, launch in Q1FY27). In Canada the list price is ~CAD78 a pen, retailers keep ~38% and provinces take another 5-6%; management expects net prices of US$30+ a pen and not below US$25."
+    },
+    {
+     "h": "Three tailwinds"
+    },
+    {
+     "bullets": [
+      "**GLP-1 genericisation outside the US:** semaglutide loses protection in India, Canada, Brazil and many emerging markets in 2026-27; demand far exceeds supply and few companies make the peptide API in-house.",
+      "**Biosimilars:** the US FDA's draft guidance (raised on the Q4FY26 call) lowers the cost of developing biosimilars, and Dr. Reddy's first US targets (abatacept/Orencia, denosumab/Prolia) are large biologics with few or no biosimilars yet.",
+      "**The rupee:** ₹95.81/US$ on 30-Sep-2026 vs ~₹87.5 average in FY26; about 80% of revenue is earned outside India."
+     ]
+    },
+    {
+     "h": "And three headwinds"
+    },
+    {
+     "bullets": [
+      "**The end of limited-competition windfalls:** gRevlimid volume limits ended in Jan-2026 and prices collapsed (Dr. Reddy's took a ₹453 cr shelf-stock adjustment); US base erosion is single digit to low double digit a year.",
+      "**Execution and regulation:** the semaglutide API scale-up failed validation in Jul-2026; USFDA observations at Bachupally (biologics, 7) and Srikakulam (3) in Jun-Jul 2026; any OAI can stall launches.",
+      "**Geopolitics and costs:** Russia sanctions and rouble swings; the Middle East conflict raised solvent and freight costs by ~1 point of margin in Q1FY27; US tariff threat on generics."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tailwinds",
+   "nav": "Tailwind test",
+   "kicker": "Does the tailwind reach Dr. Reddy's?",
+   "title": "Tailwind test: India, EM and the rupee reach it; semaglutide and biosimilars are promised but not yet banked",
+   "blocks": [
+    {
+     "p": "A sector tailwind helps a shareholder only if the company captures it and keeps the profit. We score each driver."
+    },
+    {
+     "verdicts": [
+      [
+       "India chronic and innovation growth",
+       "Yes",
+       "India +16% in FY26, +17% in Q1FY27 (15.5% organic) vs IPM 11-13%; toripalimab ₹100 cr+ in two years; 28 launches in FY26.",
+       "Real, ~21% of revenue; partly bought (Progynova, Stugeron) and in-licensed."
+      ],
+      [
+       "Semaglutide outside the US",
+       "Partly",
+       "180,000 pens sold before the API failure; 6-7 mn pens guided for Nov-26 to Mar-27 (was 10-11 mn); Canada price already set for three players.",
+       "Large but delayed; competitors (Apotex, Sandoz using Dr. Reddy's product) use the gap."
+      ],
+      [
+       "US biosimilars",
+       "Not yet",
+       "Abatacept goal date mid-Dec-2026; rituximab approved Aug-2026 (Fresenius Kabi sells it); denosumab stuck at partner Alvotech.",
+       "Biologics sales ~US$100 mn and loss-making; break-even only after abatacept."
+      ],
+      [
+       "Emerging-market branded growth",
+       "Yes",
+       "EM +23% in FY26 and +31% in Q1FY27; RoW +42%; 129 launches in FY26.",
+       "Helped by currency; Russia grows below its market."
+      ],
+      [
+       "Weaker rupee",
+       "Yes",
+       "Revenue and other income lift; US$354 mn hedged at ₹92.3-94.6 to Mar-2027.",
+       "Cyclical; hedges cap part of the gain."
+      ],
+      [
+       "US generics launches",
+       "Partly",
+       "Bosutinib and sugammadex first to market in 2026; 27 launches targeted in FY27.",
+       "Base still ~US$950 mn a year vs ~US$1 bn in FY22; CEO admits R&D misses."
+      ],
+      [
+       "Consumer health (NRT)",
+       "Yes",
+       "Nicotinell growing high single digit to low double digit; integration complete Mar-2026; \"very healthy\" margin.",
+       "Bought for GBP458 mn; returns on that price are moderate."
+      ]
+     ],
+     "head": [
+      "Tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind scorecard: four captured, two partly, one not yet",
+     "source": "Company calls and presentations; IQVIA via company; GAM Research"
+    },
+    {
+     "callout": "**Our view:** the tailwinds Dr. Reddy's already captures (India, emerging markets, NRT, the rupee) are steady but modest in margin. The ones that could restore 20%+ margins on our basis (semaglutide, abatacept) are real but each has slipped at least once in 2026. We model them, but later and smaller than management."
+    }
+   ]
+  },
+  {
+   "id": "us",
+   "nav": "North America after gRevlimid",
+   "kicker": "North America",
+   "title": "North America: the gRevlimid cliff has happened; the base is ~US$950 mn a year and barely growing",
+   "blocks": [
+    {
+     "p": "North America was ₹11,374 cr (US$1.30 bn) in FY26, down 22%, and US$236 mn in Q1FY27, down 41% YoY. The reason is one product. **Generic Revlimid** (lenalidomide, a blood-cancer drug) was sold from FY23 under settlements that capped every generic maker's volumes; the caps ended in Jan-2026 and prices fell. Dr. Reddy's sales fell from US$400 mn a quarter (Q1FY26) to US$338 mn (Q3) and US$251 mn (Q4, before a ₹453 cr, ~US$50 mn shelf-stock adjustment that a customer claimed for stock it held when prices dropped; the CEO said \"we were also surprised by that\"). The company never disclosed lenalidomide's sales. What is left is a US generics base that an IIFL analyst put at ~US$1 bn in FY22 and ~US$950 mn annualised now despite 90-100 launches and the Mayne portfolio; the CEO agreed: \"if you take out product like lenalidomide, your analysis is correct\"."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "US$ sales: US$400 mn a quarter in Q1FY26, US$236 mn in Q1FY27",
+       "unit": "North America revenue (US$ mn a quarter; Q4FY26 after the ~US$50 mn SSA)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "US$ mn",
+         "values": [
+          400,
+          373,
+          338,
+          199,
+          236
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company calls (Q2FY26-Q1FY27); Q1FY26 implied from the -41% YoY in Q1FY27"
+      },
+      {
+       "type": "column",
+       "title": "Annual: from US$1.0 bn (FY22) to US$1.72 bn (FY25) and back",
+       "unit": "North America revenue (US$ mn; FY27-29E GAM)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "US$ mn",
+         "values": [
+          948,
+          1003,
+          1256,
+          1578,
+          1719,
+          1300,
+          1060,
+          1200,
+          1300
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "MOSL 23-Jul-2026 (FY21-FY25, average rates); company (FY26); GAM estimates"
+      }
+     ]
+    },
+    {
+     "h": "What has to rebuild it"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "North America growth levers and their size",
+      "head": [
+       "Lever",
+       "Status by 30-Sep-2026",
+       "Size",
+       "Our view"
+      ],
+      "wide": [
+       1,
+       3
+      ],
+      "rows": [
+       [
+        "Base generics",
+        "76 ANDAs pending (45 Para IV, 24 possible first-to-file); 27 launches targeted in FY27, 6 in Q1; price erosion \"moderate\"",
+        "~US$950 mn a year; \"double-digit growth ex-lenalidomide\" guided for FY27",
+        "Launches offset erosion; we assume roughly flat dollars beyond FY27."
+       ],
+       [
+        "Bosutinib 400mg",
+        "First to market, 180-day exclusivity, launched Jun-2026 (two weeks of sales in Q1)",
+        "Brand ~US$300 mn; margin above company average",
+        "A FY27 boost that fades in FY28."
+       ],
+       [
+        "Sugammadex 200mg",
+        "First-to-market generic launched 28-Jul-2026",
+        "Not disclosed (\"tens of millions of dollars\" for a Q2 launch)",
+        "Helpful; more entrants likely."
+       ],
+       [
+        "Semaglutide in Canada",
+        "First generic approval and launch in Q1FY27; supplies halted 9-Jul-2026; restart targeted Nov-2026",
+        "Most of the 6-7 mn pens guided for Nov-Mar",
+        "We assume ~US$70 mn in FY27E and ~US$120 mn in FY28E."
+       ],
+       [
+        "Abatacept biosimilar (US)",
+        "IV BLA goal date mid-Dec-2026; SC around Feb/Mar-2028",
+        "Orencia is ~50:50 IV/SC in the US",
+        "We assume US$5 / 80 / 180 mn in FY27-29E."
+       ],
+       [
+        "US tariff on generics",
+        "Announced 22-Jul-2026 with a two-year window (per the announcement)",
+        "25-30% of US sales already made by US CMOs",
+        "Not in our numbers; a risk to the rest."
+       ]
+      ],
+      "source": "Q1FY27 release, presentation and call; Q4FY26 call; sugammadex launch release (28-Jul-2026)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Our North America path: ₹10,134 cr in FY27E, ₹12,935 cr in FY29E",
+       "unit": "North America revenue (₹ crore)",
+       "x": [
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "North America",
+         "values": [
+          11373.7,
+          10134,
+          11700,
+          12935
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "GAM estimates: US1,060 / 1,200 / 1,300 mn at ₹95.6 / 97.5 / 99.5 per US$"
+      },
+      {
+       "type": "column",
+       "title": "North America falls to ~30% of revenue by FY29E (34% in FY26)",
+       "unit": "North America as % of revenue (IFRS)",
+       "x": [
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          33.9,
+          29,
+          29.9,
+          30
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26; GAM estimates"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** management's \"double-digit growth ex-lenalidomide\" is plausible for FY27 thanks to two first-to-market launches and the weaker rupee, but the base it grows from is smaller than the street hoped (Emkay: \"closer to our bear case\", ~US$900 mn). We model US$1,060 mn in FY27E (MOSL US$1,066 mn), US$1,200 mn in FY28E and US$1,300 mn in FY29E, with Canada semaglutide and abatacept providing almost all of the growth. Without them North America would be flat in dollars."
+    }
+   ]
+  },
+  {
+   "id": "semaglutide",
+   "nav": "Semaglutide & peptides",
+   "kicker": "The GLP-1 bet",
+   "title": "Semaglutide: first to market in Canada and India, then an API failure; 6-7 mn pens promised for Nov-Mar",
+   "blocks": [
+    {
+     "p": "Semaglutide (Novo Nordisk's Ozempic/Wegovy molecule) is the largest generic opportunity of 2026-27 outside the US. Dr. Reddy's makes the peptide API itself by chemical synthesis (the originator uses recombinant DNA), which gives it cost and supply control, and fills pens through partners (OneSource). It was first to approval in India (Nov-2025; brand Obeda launched on the day the patent expired in Mar-2026) and in Canada (approval in Q4FY26, launch in Q1FY27), and has filed in ~30 countries of an 80-country programme. In May-2026 it guided ~12 mn pens for FY27 and 6-7 mn by Dec-2026."
+    },
+    {
+     "p": "Then, on 9-Jul-2026, it disclosed that an impurity in the API from a scaled-up process went out of specification in the finished product during validation. Supplies stopped. Management found the root cause, put the success odds of re-validation at \"80% to 90%\", targeted completion around 22-23 Sep-2026, and now expects 6-7 mn pens between Nov-2026 and Mar-2027 (backed by orders), not 10-11 mn. Q1FY27 carried a ₹240 cr provision for unusable inventory and costs; only ~180,000 pens were sold. The oral tablets (launched in India in Q1FY27) use a different API and are unaffected. A backup API supplier needs a prior-approval supplement, about a year away."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Semaglutide: what we know and what we assume",
+      "head": [
+       "Item",
+       "Company (to 30-Sep-2026)",
+       "GAM assumption"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Volume",
+        "May: ~12 mn pens in FY27; Jul: 6-7 mn in Nov-26 to Mar-27 (3-4 mn a quarter run-rate)",
+        "~5 mn pens in FY27E (one more slip of a few weeks), ~15 mn in FY28E"
+       ],
+       [
+        "Price",
+        "List ~half of Novo's; net US$30+ typical, not below US$25; Canada list CAD78; \"much more\" in some markets",
+        "~US$31 net in FY27E, falling ~15% a year as competitors arrive"
+       ],
+       [
+        "Revenue",
+        "Not guided",
+        "₹1,500 / 2,450 / 2,600 cr in FY27-29E across North America, India, EM and PSAI"
+       ],
+       [
+        "Contribution",
+        "Margin accretive: \"most of the cost associated with the peptide business is already in the cost base\" (ICICI Direct)",
+        "~60% in FY27-28E, ~55% in FY29E"
+       ],
+       [
+        "Competition",
+        "Canada: Apotex approved; a partner using Dr. Reddy's product approved; price already reflects 3+ players; Brazil approval expected \"in the next few weeks\" (Jul-2026)",
+        "More entrants in Canada through 2027; Brazil from H2FY27"
+       ],
+       [
+        "Capacity",
+        "API \"north of 300\" (up to 550 theoretically; units not given); FTO-11 cartridges in FY28; \"it can be 40 mn\" pens if demand exists",
+        "Not a constraint after re-validation"
+       ]
+      ],
+      "source": "Q4FY26 call (12-May-2026); semaglutide update call (9-Jul-2026); Q1FY27 call (22-Jul-2026); ICICI Direct 24-Jul-2026"
+     }
+    },
+    {
+     "callout": "**Our view:** this is a good franchise hurt by a self-inflicted delay. The lost four months cost Dr. Reddy's its head start in Canada, where Apotex keeps selling while Dr. Reddy's and its partner wait for API. We include ₹1,500 cr of semaglutide revenue in FY27E and ₹2,450 cr in FY28E, below management's run-rate. If validation failed again (management gives it a 10-20% chance), FY27E EPS would fall by roughly ₹8.2 and the bear case becomes likely."
+    }
+   ]
+  },
+  {
+   "id": "biosimilars",
+   "nav": "Biosimilars, pipeline & USFDA",
+   "kicker": "Pipeline and compliance",
+   "title": "Biosimilars: abatacept is the prize (goal date mid-Dec-2026); the biologics plant passed its first US approval in Aug-2026",
+   "blocks": [
+    {
+     "p": "Dr. Reddy's has spent years and much of its R&D budget on biosimilars (copies of biological drugs). Global biologics sales are only ~US$100 mn (about 2% of revenue) and not yet profitable. The pivot is **abatacept** (biosimilar Orencia, for rheumatoid arthritis): the intravenous (IV) version's BLA was accepted in Feb-2026 with a mid-December 2026 goal date, the subcutaneous (SC) version follows around Feb/Mar-2028 in the US. In June 2026 the FDA's pre-licence inspection of the Bachupally biologics plant (which covered abatacept and rituximab) ended with seven observations; on 1-Aug-2026 the FDA approved Dr. Reddy's **rituximab** biosimilar after that inspection. Management hopes for US$500-700 mn of biosimilar sales by FY29, \"the lion's share\" from abatacept."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Pipeline: what matters and when",
+      "head": [
+       "Asset",
+       "Status by 30-Sep-2026",
+       "Value",
+       "Source"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Semaglutide injection (generic Ozempic/Wegovy molecule)",
+        "India: approved Nov-2025, 'Obeda' launched on day 1 of patent expiry (Mar-2026), ~10% share; Canada: first approval (T2D) and launch in Q1FY27; Brazil: ANVISA concerns reversed, approval expected 'in the next few weeks' (Jul-2026); supplies halted 9-Jul-2026 on an API impurity at scale-up; restart targeted Nov-2026",
+        "List price about half of Novo's; net US$30+ a pen, not below US$25 (Canada list CAD78)",
+        "q4call; semacall; q1call"
+       ],
+       [
+        "Oral semaglutide (tablets)",
+        "Launched in India in Q1FY27 (different API source, not affected)",
+        "Lifecycle; lower-price markets",
+        "q1call; semacall"
+       ],
+       [
+        "Abatacept biosimilar (Orencia)",
+        "IV BLA accepted Feb-2026; PLI at Bachupally biologics in Jun-2026 (Form 483, 7 observations, answered); goal date mid-Dec-2026; SC filing to follow",
+        "US Orencia sales are ~50:50 IV/SC; 'lion's share' of the US$500-700 mn FY29 biosimilar hope",
+        "q4call; q1call; q1pr"
+       ],
+       [
+        "Rituximab biosimilar",
+        "US FDA approval 1-Aug-2026 after the Bachupally PLI; Fresenius Kabi is the exclusive US partner; sold in India, EU, UK and 25+ emerging markets",
+        "Small; confirms the biologics site can pass a PLI",
+        "ritux"
+       ],
+       [
+        "Denosumab biosimilar (with Alvotech)",
+        "Launched in Europe; US BLA held up by deficiencies at the partner's site; 'in discussions with the partner on what to do with this product'",
+        "Uncertain",
+        "q4call; q1call"
+       ],
+       [
+        "Bosutinib 400mg (US)",
+        "First-to-market generic, 180-day exclusivity, launched Jun-2026",
+        "Brand ~US$300 mn; margin above company average",
+        "q1call; q1ppt"
+       ],
+       [
+        "Sugammadex 200mg (US)",
+        "First-to-market generic launched 28-Jul-2026",
+        "Not quantified",
+        "sugam"
+       ],
+       [
+        "Toripalimab (in-licensed PD-1)",
+        "₹100 cr+ in India within two years; registered in South Africa (Aug-2026)",
+        "EM innovation franchise",
+        "q1call; zytorvi"
+       ],
+       [
+        "Other in-licensing / access",
+        "XACDURO (Innoviva) for LatAm, Russia/CIS; tegoprazan; COYA 302 (ALS, Fast Track); Takeda's Qdenga dengue vaccine (India private market, Sep-2026); Gilead once-yearly lenacapavir voluntary licence (Sep-2026)",
+        "Branded-market pipeline; no material near-term revenue each",
+        "q1call; qdenga; lenacapavir"
+       ],
+       [
+        "Discontinued",
+        "CAR-T programmes (₹135 cr written off) and the Eftilagimod alfa in-licence (₹93 cr) in Q4FY26",
+        "Portfolio pruning",
+        "q4call"
+       ]
+      ],
+      "source": "Company calls, releases and presentations to Sep-2026"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "USFDA inspection record, FY26 to Sep-2026",
+      "head": [
+       "Site",
+       "Outcome",
+       "When",
+       "Source"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "FTO-SEZ PU-01 formulations, Srikakulam",
+        "VAI (GMP + PAI of Dec-2025)",
+        "Mar-2026",
+        "q4call"
+       ],
+       [
+        "Biologics (CCM5 / FFM2), Bachupally",
+        "PLI Jun-2026: Form 483, 7 observations (5 in Sep-2025); responses filed; rituximab approved 1-Aug-2026",
+        "Jun-Aug 2026",
+        "q1pr; q1call; ritux"
+       ],
+       [
+        "FTO-SEZ PU-02, Srikakulam",
+        "PAI + GMP 20-29 Jul-2026: Form 483, 3 observations",
+        "Jul-2026",
+        "srika483"
+       ],
+       [
+        "CTO-6 API, Vizag (semaglutide API)",
+        "US-inspected in 2026 with approval; the scale-up impurity is a validation failure, not a regulatory action",
+        "Jul-2026",
+        "q1call"
+       ],
+       [
+        "API, Mirfield (UK)",
+        "Form 483, 7 observations",
+        "Sep-2025",
+        "Medical Dialogues (Sep-2025)"
+       ]
+      ],
+      "source": "Company releases and calls; Medical Dialogues"
+     }
+    },
+    {
+     "callout": "**Our view:** the rituximab approval is the most important regulatory fact of the quarter: it shows the Bachupally biologics site can pass an FDA pre-licence inspection, which de-risks abatacept's December goal date. We still model a slow ramp (US$5 / 80 / 180 mn in FY27-29E), well below management's US$500-700 mn biosimilar hope for FY29, because the first Orencia biosimilar must win over rheumatologists and payers and the SC form (half the US market) comes only in 2028. Compliance is acceptable rather than strong: three Form 483s in 2025-26 but no warning letter or OAI."
+    }
+   ]
+  },
+  {
+   "id": "branded",
+   "nav": "India & emerging markets",
+   "kicker": "Branded markets",
+   "title": "India and emerging markets: 39% of revenue, growing 15-30%, and the steadiest part of the business",
+   "blocks": [
+    {
+     "p": "**India** revenue was ₹6,219 cr in FY26 (+16%) and ₹1,718 cr in Q1FY27 (+17%; 15.5% organic, i.e. excluding acquired brands). Dr. Reddy's out-grew the market on IQVIA data (14.6% vs 13.5% in the quarter to Jun-2026) and ranks #9-10. The drivers are specific: in-licensed innovation (toripalimab, a PD-1 cancer drug, passed ₹100 cr in under two years), new launches (28 brands in FY26, 7 in Q1FY27), price increases, vaccines (#2) and bought brands (Progynova and Cyclo-Progynova in hormone therapy, Stugeron). Semaglutide (Obeda injection, oral tablets) added little in Q1 because of the supply halt. Its biggest brands (Atarax ₹274 cr, Ketorol ₹265 cr, Econorm ₹249 cr MAT Jun-2026) grow 10-20%."
+    },
+    {
+     "p": "**Emerging Markets** grew from ₹4,567 cr (FY22) to ₹6,761 cr (FY26) and +31% in Q1FY27 to ₹1,833 cr: Russia ₹903 cr (+28%, price increases, launches and a stronger rouble), other CIS and Romania ₹219 cr (+12%), Rest of World ₹710 cr (+42%). The model is to take products developed for the US and launch them across 48 countries (129 launches in FY26, 43 in Q1FY27), plus in-licensed brands (XACDURO, tegoprazan). Adjusted for currency, Elara estimates Russia/CIS grew only low single digits in Q1FY27, and IQVIA shows Dr. Reddy's growing slower than the Russian market (10.9% vs 15.2%)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "India: +17% in Q1FY27",
+       "unit": "India revenue (₹ crore a quarter, IFRS)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "India",
+         "values": [
+          1471.1,
+          1578,
+          1603.2,
+          1566.3,
+          1717.7
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation"
+      },
+      {
+       "type": "column",
+       "title": "Emerging markets: +31% in Q1FY27",
+       "unit": "Emerging Markets revenue (₹ crore a quarter, IFRS)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Emerging Markets",
+         "values": [
+          1404.2,
+          1654.8,
+          1896,
+          1805.7,
+          1832.8
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Branded markets: proof points (to Jun-2026)",
+      "head": [
+       "Measure",
+       "Dr. Reddy's",
+       "Context"
+      ],
+      "rows": [
+       [
+        "India growth vs IPM (MQT / MAT)",
+        "14.6% / 13.5%",
+        "IPM 13.5% / 11.1% (IQVIA Jun-2026)"
+       ],
+       [
+        "India rank",
+        "#9 (MQT), #10 (MAT)",
+        "Not a top-five player"
+       ],
+       [
+        "Brands above ₹100 cr / in IPM top 300",
+        "25 / 15",
+        "Atarax, Ketorol, Econorm, Voveran, Omez lead"
+       ],
+       [
+        "Russia growth vs market",
+        "10.9%",
+        "Market 15.2% (IQVIA MQT May-2026)"
+       ],
+       [
+        "Emerging-market launches",
+        "129 in FY26; 43 in Q1FY27",
+        "48 countries"
+       ]
+      ],
+      "source": "Q1FY27 presentation and release; ICICI Direct 24-Jul-2026 (brand sales, IQVIA)"
+     }
+    },
+    {
+     "callout": "**Our view:** this is the part of Dr. Reddy's that deserves a premium: double-digit growth, pricing power in branded markets and low regulatory risk. We model India +15% / +12% / +12% and Emerging Markets +17% / +12% / +10% for FY27-29E (including semaglutide in both). The caveats: a good part of the growth is currency (rouble, rupee) and acquired or in-licensed brands, which cost money upfront and amortise."
+    }
+   ]
+  },
+  {
+   "id": "consumer",
+   "nav": "Europe, NRT & consumer",
+   "kicker": "Diversification",
+   "title": "Europe, NRT and the Nestle venture: a bought consumer franchise that works, and a nutrition JV still losing money",
+   "blocks": [
+    {
+     "p": "**Europe** jumped from ₹3,588 cr (FY25) to ₹5,550 cr (FY26, +55%; +14% excluding NRT) and was ₹1,444 cr in Q1FY27 (+13%). It has two parts. Generics in Germany (₹407 cr in Q1FY27, +29%), the UK (₹231 cr, +33%), France, Italy and Spain grew on launches (24 in Q1FY27) and a stronger euro against price erosion. **NRT** (nicotine replacement therapy: Nicotinell, Nicabate, Thrive, Habitrol) was bought from Haleon for GBP458 mn upfront plus up to GBP42 mn of earn-out (completed 30-Sep-2024); Nicotinell is the #2 NRT brand outside the US. NRT revenue was ₹656 cr in Q1FY27 (−2% YoY) because, after integration ended in Mar-2026, rebates to distributors are now deducted from revenue (profit-neutral, with lower SG&A). Management says NRT grows high single digit to low double digit with a \"very healthy\" margin."
+    },
+    {
+     "p": "**Consumer health and nutrition.** In Apr-2024 Dr. Reddy's and Nestle India agreed to form \"Dr. Reddy's and Nestle Health Science Limited\" (Dr. Reddy's 51%, Nestle India 49%) to sell nutraceuticals in India: Nestle licensed Nature's Bounty, Osteo Bi-Flex and Ester-C; Dr. Reddy's transferred Celevida, Rebalanz, Antoxid, Kidrich-D3 and Becozinc (receiving ₹811 cr in FY25). In 2026 it launched Celevida GLP+, nutrition for patients on GLP-1 drugs, alongside the semaglutide launch. The JV lost money in FY26: Nestle's 49% absorbed a ₹38 cr loss (Dr. Reddy's share ~₹40 cr). Management runs consumer health as a separate pillar under its own head."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Europe: NRT doubled the business",
+       "unit": "Europe revenue (₹ crore, IFRS)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Europe",
+         "values": [
+          1540.4,
+          1663.1,
+          1760.3,
+          2051.1,
+          3588.2,
+          5550.1
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Annual reports (MD&A revenue tables)"
+      },
+      {
+       "type": "column",
+       "title": "Europe quarterly: flat at ~₹1,450 cr since Q3FY26",
+       "unit": "Europe revenue (₹ crore a quarter, IFRS; Q1FY27 NRT net of distributor rebates)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Europe",
+         "values": [
+          1274.4,
+          1376.2,
+          1447.6,
+          1452,
+          1444
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** NRT has been a sensible use of gRevlimid cash: a durable OTC brand in a defensive category, integrated on time. Europe should grow ~9% a year (generic launches, NRT, currency) against generic price erosion. The Nestle JV is small and loss-making; it matters for the semaglutide ecosystem (nutrition for GLP-1 users) more than for earnings. We model minorities of ₹-30 / -20 / -10 cr (the minority's share of JV losses)."
+    }
+   ]
+  },
+  {
+   "id": "psai",
+   "nav": "PSAI (APIs & CDMO)",
+   "kicker": "PSAI",
+   "title": "PSAI: a ₹3,500 cr API and CDMO arm with thin margins, now carrying the semaglutide API",
+   "blocks": [
+    {
+     "p": "PSAI (Pharmaceutical Services and Active Ingredients) sells APIs to other generic makers and runs contract development and manufacturing. Revenue was ₹3,198 cr in FY21 and ₹3,477 cr in FY26 (+3%): it has barely grown in five years. Gross margin was 17.2% in FY26 (27% in FY25, 23% in FY24 on the five-year summary) and 4.5% in Q1FY27 (12.9% excluding the semaglutide API provision). It filed 128 drug master files in FY26 and 38 in Q1FY27. PSAI makes the semaglutide API for Dr. Reddy's own pens and for other generic companies (management: \"plenty of capacity for both third parties as well as ourselves\")."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "PSAI revenue: flat for five years",
+       "unit": "PSAI revenue (₹ crore, IFRS)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "PSAI",
+         "values": [
+          3198.2,
+          3074,
+          2906.9,
+          2980.1,
+          3384.6,
+          3477.4
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Annual reports"
+      },
+      {
+       "type": "column",
+       "title": "PSAI quarterly: ₹800-950 cr",
+       "unit": "PSAI revenue (₹ crore a quarter, IFRS)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "PSAI",
+         "values": [
+          818.1,
+          945,
+          801.8,
+          912.4,
+          851.9
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 presentation"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** PSAI is strategically useful (in-house APIs underpin semaglutide and cost control) but commercially ordinary. We model +5% / +8% / +8% for FY27-29E, with semaglutide API sales to third parties in FY28-29E as the only real growth driver."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: moderate in branded markets and complex APIs, weak in US generics",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "India branded franchise",
+       "Moderate",
+       "#9-10 in the IPM, 25 brands above ₹100 cr, out-grew the IPM in FY26 (12.1% vs 9.9% MAT) and Q1FY27 (14.6% vs 13.5% MQT); in-licensed innovation (toripalimab ₹100 cr+), vaccines #2",
+       "Not a top-five player; growth leans on in-licensing and acquired brands (Progynova, Stugeron)"
+      ],
+      [
+       "Emerging markets (Russia, CIS, RoW)",
+       "Moderate",
+       "Present in 48 countries; Russia ₹903 cr a quarter; 129 launches in FY26 re-using the US portfolio",
+       "Russia grew below its market (10.9% vs 15.2%); sanctions and rouble risk"
+      ],
+      [
+       "US generics",
+       "Weak",
+       "79 filings pending, 24 possible first-to-files; bosutinib and sugammadex first-to-market in 2026",
+       "Price-taker; CEO admits R&D failures (iron sucrose, conjugated estrogens, late peptides); base ~US$950 mn a year vs ~US$1 bn in FY22"
+      ],
+      [
+       "Vertical integration in complex APIs (peptides)",
+       "Moderate",
+       "In-house synthetic semaglutide API (300+ capacity units, up to 550 theoretical); supplies other generic makers; PSAI CDMO",
+       "The Jul-2026 scale-up failure shows execution risk; backup supplier is a year away"
+      ],
+      [
+       "Biosimilars",
+       "Early",
+       "Abatacept (first Orencia biosimilar filing), rituximab approved in the US (Aug-2026), denosumab in Europe",
+       "~US$100 mn of sales and loss-making until abatacept launches"
+      ],
+      [
+       "Consumer health (NRT)",
+       "Moderate",
+       "Nicotinell is the #2 NRT brand outside the US; growing high single digit to low double digit",
+       "Bought, not built (GBP458 mn); OTC competition"
+      ],
+      [
+       "Balance sheet",
+       "Strong",
+       "Net cash ₹3,057 cr at Jun-2026; ICRA AA+ (Stable)",
+       "Gross borrowings ₹7,195 cr held against gross cash ₹9,151 cr"
+      ]
+     ],
+     "head": [
+      "Source of advantage",
+      "Strength",
+      "Evidence",
+      "Limits"
+     ],
+     "title": "Moat scorecard",
+     "source": "Company presentations, calls and AR FY26; GAM Research"
+    },
+    {
+     "callout": "**Honest verdict:** Dr. Reddy's has no wide moat. Its excess profits in FY23-FY25 came from one time-limited US product. What it does have is a good, diversified branded-generics business (India, Russia, Rest of World, NRT) worth ~half of revenue, real chemistry skill in complex APIs, and a strong balance sheet. Biosimilars could become a moat if abatacept succeeds; today they are a cost. In US generics, by the CEO's own account, R&D productivity lagged peers for years."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue up 1.8x since FY21; profit rode gRevlimid to FY25 and fell back in FY26-27",
+   "blocks": [
+    {
+     "p": "Dr. Reddy's grew revenue from ₹19,048 cr in FY21 to ₹33,700 cr in FY26 (Ind AS, about 12% a year). Profit did something very different. EBITDA (Screener basis: before other income, after impairments) went from ₹3,768 cr in FY22 to ₹8,547 cr in FY25 and the margin from 17.5% to 26-28%, because generic Revlimid (gRevlimid, lenalidomide) was sold in the US under volume-limited settlements with few competitors. EPS more than doubled from ₹26.2 (FY22) to ₹67.8 (FY25). Profit attributable to shareholders was ₹15,740 cr in FY23-FY25, 2.6x the ₹6,160 cr of FY20-FY22. In FY26 the windfall ended: North America fell 22%, EBITDA fell to ₹6,454 cr (19.2%) and EPS to ₹50.3, including about ₹1,100 cr of one-off charges. Q1FY27 EPS was ₹5.32."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: ₹19,048 cr in FY21, ₹33,700 cr in FY26",
+       "unit": "Revenue from operations, Ind AS (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated Ind AS; profit attributable to equity holders), GAM Research; GAM estimates FY27-29E"
+      },
+      {
+       "type": "column",
+       "title": "Profit: the gRevlimid hump of FY23-FY25",
+       "unit": "Net profit attributable to equity holders (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated Ind AS; profit attributable to equity holders), GAM Research. FY22 after ₹756 cr of impairments; FY26 after the SSA, impairments and provisions"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 26-28% in FY23-FY25, 16% in FY27E",
+       "unit": "EBITDA margin, Screener basis (before other income, after impairments, %)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 32,
+       "source": "Company filings, Screener.in (consolidated Ind AS; profit attributable to equity holders), GAM Research; GAM estimates"
+      },
+      {
+       "type": "line",
+       "title": "Return on equity: 21% at the peak, ~8% in FY27E",
+       "unit": "ROE (%), attributable profit on average equity",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "ROE",
+         "ref": "fin.roe",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 25,
+       "source": "Company filings, Screener.in (consolidated Ind AS; profit attributable to equity holders), GAM Research; GAM estimates"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** FY23-FY25 was a windfall, not a new normal. The base business (India, emerging markets, Europe, PSAI and US generics other than lenalidomide) grew double digits, but its margin is mid-teens on Screener's basis, not the high-20s of the gRevlimid years. Our FY27E EPS of {{F.eps.0|inr}} is {{F.epsGrowth.0|chg}} vs FY26; FY28E ({{F.eps.1|inr}}) depends on semaglutide coming back in Nov-2026 and abatacept being approved in Dec-2026."
+    }
+   ]
+  },
+  {
+   "id": "margins",
+   "nav": "Margins",
+   "kicker": "Profitability",
+   "title": "Margins: 26-28% was gRevlimid; the base business earns mid-teens on our basis",
+   "blocks": [
+    {
+     "p": "A word on bases first. Dr. Reddy's reports and guides on **IFRS EBITDA**, which includes other operating income (brand divestment gains, settlements, licence income) and forex, and excludes impairments: 22.8% in FY26 (24.7% before the specific items) and 12.5% in Q1FY27 (15.4% before the semaglutide provision). Our model uses Screener's **Ind AS operating profit**, which is after impairments and before all other income: 19.2% in FY26 and 10.6% in Q1FY27. The gap is 1.5-3.5 points. Management's \"neighbourhood of 20%\" for the base business is the IFRS number; ~18% on our basis, and Q1FY27 delivered 13.6% before the provision."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "FY26 EBITDA: from the company's IFRS number to our Ind AS basis (₹ crore)",
+      "head": [
+       "",
+       "₹ crore",
+       "% of revenue"
+      ],
+      "rows": [
+       [
+        "IFRS EBITDA as reported",
+        "7,659",
+        "22.8%"
+       ],
+       [
+        "Less: impairments (inside Ind AS expenses)",
+        "(352)",
+        ""
+       ],
+       [
+        "Less: other operating income and forex (Ind AS other income)",
+        "(853)",
+        ""
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Ind AS operating profit (Screener, our basis)**",
+         "**6,454**",
+         "**19.2%**"
+        ]
+       },
+       [
+        "Add back: SSA, VAT, labour codes, impairments",
+        "1,106",
+        ""
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**FY26 on our basis before specific items**",
+         "**7,560**",
+         "**22.1%**"
+        ]
+       }
+      ],
+      "source": "AR FY26 (IFRS MD&A and five-year summary; Ind AS P&L); Q4FY26 call; GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "waterfall",
+       "title": "From 22.1% (FY26 before specific items) to 16.0% in FY27E",
+       "unit": "EBITDA margin on our basis, FY26 to FY27E (percentage points; GAM estimates from company data)",
+       "x": [
+        "FY26 adj.",
+        "Lenalidomide gone, erosion, mix (net)",
+        "Q1 semaglutide provision",
+        "Middle East costs (~1pt, Apr-Dec)",
+        "Semaglutide contribution (H2)",
+        "FY27E"
+       ],
+       "series": [
+        {
+         "name": "pp",
+         "values": [
+          22.1,
+          -7.3,
+          -0.7,
+          -0.7,
+          2.6,
+          16
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "fmt": "n1",
+       "totalFmt": "pct",
+       "min": 0,
+       "max": 26,
+       "source": "Q4FY26 and Q1FY27 calls (Middle East ~1 point of margin \"at least up till December\"); GAM estimates (semaglutide ~₹1,500 cr at ~60% contribution; residual)"
+      },
+      {
+       "type": "line",
+       "title": "Quarterly margin: 23-27% in H1FY26, 13% in Q4FY26 and Q1FY27",
+       "unit": "IFRS EBITDA margin (%): reported vs before specific items",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Reported",
+         "values": [
+          26.7,
+          26.7,
+          23.5,
+          13,
+          12.5
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Before specific items",
+         "values": [
+          26.7,
+          26.7,
+          24.8,
+          19.5,
+          15.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 5,
+       "max": 30,
+       "source": "Company releases and presentations (Q3FY26 before specific items 24.8%)"
+      }
+     ]
+    },
+    {
+     "p": "**Where we land:** {{F.ebitdaMargin.0|pct}} in FY27E, {{F.ebitdaMargin.1|pct}} in FY28E (a full year of semaglutide and the first year of abatacept, with SG&A held near FY26's ₹10,435 cr in nominal terms) and {{F.ebitdaMargin.2|pct}} in FY29E. That is ~20-21.5% on the company's IFRS basis in FY28-29E, below the 25% aspiration. The cost structure explains why: SG&A was 35.7% of revenue in Q1FY27 (30% a year earlier) because the branded businesses need field forces and the NRT brands need advertising; R&D is 7-8% of revenue; gross margin ex-semaglutide was 49.4% in Q1FY27 (56.9% a year earlier with lenalidomide)."
+    },
+    {
+     "callout": "**Every 100bp of EBITDA margin is ~₹393 cr of FY28E EBITDA, ~₹3.5 of EPS (~7%).** Each ₹1 move in the rupee against the dollar shifts FY28E North America revenue by ~₹120 cr."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex, deals & returns",
+   "kicker": "Capital allocation",
+   "title": "The gRevlimid cash went into capacity, biologics, NRT and in-licensing; returns have halved",
+   "blocks": [
+    {
+     "p": "Over FY21-26 Dr. Reddy's generated ₹27,129 cr of operating cash flow, spent ₹15,072 cr on fixed assets (₹10,024 cr of it in FY24-26, building biologics, peptide and injectable capacity) and paid ₹3,325 cr of dividends. It also spent heavily on deals and licences: the Haleon NRT business (GBP458 mn upfront, ~₹5,141 cr, Sep-2024), Mayne Pharma's US generics portfolio, Indian brands (Progynova, Cyclo-Progynova, Stugeron) and in-licensed innovation (toripalimab, tegoprazan, XACDURO). Net cash fell from ₹5,369 cr (Mar-23, Screener basis) to ₹900 cr (Mar-26); the company's own \"net cash surplus\", which also counts term deposits and excludes leases, was ₹3,271 cr at Mar-26 and ₹3,057 cr at Jun-26."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash flow vs capex",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated Ind AS; profit attributable to equity holders), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 27% in FY23-24, 13% in FY26",
+       "unit": "Return on capital employed (%), Screener basis",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          22,
+          19,
+          9,
+          8,
+          13,
+          11,
+          16,
+          14,
+          27,
+          27,
+          23,
+          13
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 30,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore, Screener cash flow)",
+      "head": [
+       "",
+       "FY21-23",
+       "FY24-26",
+       "Six years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "12,269",
+        "14,860",
+        "27,129"
+       ],
+       [
+        "Capex (fixed assets)",
+        "5,048",
+        "10,024",
+        "15,072"
+       ],
+       [
+        "All investing cash flow (capex, deals, treasury moves)",
+        "-8,929",
+        "-16,244",
+        "-25,173"
+       ],
+       [
+        "Dividends paid",
+        "1,328",
+        "1,997",
+        "3,325"
+       ],
+       [
+        "Memo: NRT acquisition (Sep-2024)",
+        "–",
+        "GBP458 mn upfront + up to GBP42 mn earn-out",
+        ""
+       ]
+      ],
+      "source": "Screener.in cash flow (consolidated); AR FY26 note 2.39 B (NRT). FY25 investing outflow includes the NRT purchase (Screener \"other investing items\" ₹5,287 cr)."
+     }
+    },
+    {
+     "callout": "**The capital question:** management says the ~₹3,000 cr of net cash \"will be used for inorganic\" growth across generics, innovation and biosimilars. We model capex of ₹1,800 cr a year (guidance) and no deals, so the engine builds cash to ~₹{{F.treasury.2|num}} cr by FY29E and other income rises with it. If that cash buys businesses that earn less than the 11.6% cost of equity, as the CAR-T and Eftilagimod write-offs (₹228 cr in Q4FY26) did, per-share value falls. The record of the last three years is mixed: NRT is growing and profitable; the biologics capacity has not yet earned anything."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Accounting",
+   "title": "Earnings quality: AMBER. Clean books, but \"one-offs\" recur and the company's EBITDA flatters",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What to adjust for when reading Dr. Reddy's numbers",
+      "head": [
+       "Item",
+       "FY26 / Q1FY27",
+       "Treatment",
+       "Our view"
+      ],
+      "wide": [
+       1,
+       3
+      ],
+      "rows": [
+       [
+        "Specific items",
+        "₹981 cr in FY26 (SSA ₹453 cr, VAT ₹184 cr, CAR-T ₹135 cr, Eftilagimod ₹93 cr, labour codes ₹117 cr); ₹240 cr in Q1FY27 (semaglutide API)",
+        "Excluded from the company's \"underlying\" EBITDA and PBT",
+        "Most are genuinely unusual, but one-off items appear in every year from FY21 to Q1FY27 (impairments ₹859 cr in FY21 and ₹756 cr in FY22). We use EPS before one-offs for the multiple (A18 practice) and show reported EPS too."
+       ],
+       [
+        "Other operating income",
+        "₹763 cr in FY26 (₹436 cr FY25): ₹189 cr brand divestments, ₹140 cr litigation settlement income, licence income",
+        "Inside IFRS EBITDA; in Ind AS other income",
+        "We forecast none of the divestment or settlement income; the company's ~20% margin includes some."
+       ],
+       [
+        "Impairments of R&D and in-licensed assets",
+        "₹352 cr FY26, ₹169 cr FY25",
+        "Below IFRS EBITDA; inside Screener EBITDA",
+        "A recurring cost of an in-licensing strategy; we include none in forecasts (a risk)."
+       ],
+       [
+        "Shelf-stock adjustment (SSA)",
+        "₹453 cr (US$50 mn) reduced Q4FY26 revenue",
+        "Specific item",
+        "The last bill of the gRevlimid windfall; does not recur."
+       ],
+       [
+        "Working capital",
+        "Operating working capital ₹14,434 cr (~43% of revenue); receivables 110 days",
+        "—",
+        "Heavy for a generics company; our engine holds working capital at 34% of revenue (Screener basis)."
+       ],
+       [
+        "Tax rate",
+        "FY26 22.5% (Q4 −10.8% on deferred tax assets); Q1FY27 21.3% (provision reversal)",
+        "Guidance 24-25%",
+        "We use 24% / 25% / 25%."
+       ],
+       [
+        "Treasury carry",
+        "Short-term borrowings ₹5,769 cr held alongside ₹9,151 cr of cash and investments (Jun-26)",
+        "Interest in finance cost; yield in other income",
+        "We model both gross (finance cost ~₹480 cr, treasury income ~₹600-800 cr)."
+       ],
+       [
+        "Minority interest",
+        "49% of the Nestle nutraceutical JV: ₹38 cr loss to minority in FY26",
+        "Screener \"Net Profit\" is before minorities",
+        "We use attributable profit (DRREDDY.patch.js)."
+       ]
+      ],
+      "source": "AR FY26 (notes 2.16, 2.20, 2.39; five-year summary); Q4FY26 and Q1FY27 calls and releases"
+     }
+    },
+    {
+     "callout": "**Verdict: AMBER.** The auditor (S.R. Batliboi, an EY member firm) is clean, the company reports under both IFRS and Ind AS, files a US Form 20-F and explains each specific item. But headline \"underlying\" EBITDA leaves out charges that recur in some form most years and includes one-off income, and working capital ties up ~43% of revenue. Read the company's margin guidance as 1.5-3 points above what reaches our P&L basis."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash ₹3,057 cr, but working capital is 43% of revenue and borrowings are rising",
+   "blocks": [
+    {
+     "p": "At Mar-2026 Dr. Reddy's had ₹37,892 cr of equity attributable to shareholders and ₹339 cr of minority interest (Nestle India's 49% of the nutraceutical JV). Against it: goodwill ₹1,480 cr and other intangibles ₹10,506 cr (NRT brands, in-licensed products, acquired Indian brands), inventories ₹7,653 cr and receivables ₹10,123 cr. Operating working capital (inventory + receivables − payables) was ₹14,434 cr, ~43% of revenue, and ₹14,353 cr at Jun-26. Gross cash and investments were ₹9,851 cr against ₹7,734 cr of borrowings (₹6,294 cr short-term, ₹1,441 cr leases). The short-term loans have grown from ₹1,119 cr (Mar-23) as the company funds working capital and keeps an interest carry on its deposits."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Receivable days rose to 110; inventory days fell to 228",
+       "unit": "Days (Screener basis)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          248,
+          248,
+          282,
+          263,
+          273,
+          230,
+          273,
+          250,
+          232,
+          283,
+          260,
+          228
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          100,
+          97,
+          98,
+          104,
+          94,
+          105,
+          95,
+          113,
+          107,
+          105,
+          101,
+          110
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          84,
+          88,
+          104,
+          121,
+          111,
+          100,
+          109,
+          111,
+          108,
+          116,
+          97,
+          91
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Net cash shrank from ₹5,369 cr (Mar-23) to ₹900 cr (Mar-26) on Screener's basis",
+       "unit": "Net debt: borrowings incl. leases less cash and investments (₹ crore; negative = net cash; excludes term deposits in other assets)",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Net debt",
+         "ref": "A.netDebt",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated Ind AS; profit attributable to equity holders), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth (attributable)",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and investments (incl. equity-accounted stakes)",
+        "{{A.cashAndInvestments.7|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "Net fixed assets (incl. intangibles)",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.7|num}}",
+        "{{A.inventories.9|num}}",
+        "{{A.inventories.10|num}}",
+        "{{A.inventories.11|num}}"
+       ],
+       [
+        "Trade receivables",
+        "{{A.receivables.7|num}}",
+        "{{A.receivables.9|num}}",
+        "{{A.receivables.10|num}}",
+        "{{A.receivables.11|num}}"
+       ],
+       [
+        "Trade payables",
+        "{{A.payables.7|num}}",
+        "{{A.payables.9|num}}",
+        "{{A.payables.10|num}}",
+        "{{A.payables.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated Ind AS; profit attributable to equity holders), GAM Research. Screener's cash excludes ₹1,954 cr of term deposits shown in other financial assets at Mar-26 (AR FY26 note 2.7 C), which the model adds to treasury."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: promoters 26.6%, LIC 12.2%, ADR holders 11.9%; a widely held stock",
+   "blocks": [
+    {
+     "p": "Dr. Reddy's is one of India's more widely held pharma companies. The promoter families (of chairman K Satish Reddy and co-chairman G V Prasad) own 26.63%, mostly through two family trusts into which their holdings moved in FY26 (GVP Family Trust 11.51%, VSD Family Trust 9.06%), with no pledge. Life Insurance Corporation alone owns 12.16%, and 11.94% sits in NYSE-listed ADRs (held by J P Morgan as depository). At Jun-2026 foreign portfolio investors held 20.67% (excluding ADRs), domestic institutions 31.75% (mutual funds 13.2%), across 4,46,086 shareholders."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Domestic institutions up, foreign investors down",
+       "unit": "% of shares (FIIs exclude ADR holders)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoters steady at ~26.6%",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 20,
+       "max": 30,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest shareholders (31-Mar-2026) and categories (30-Jun-2026)",
+      "head": [
+       "Holder",
+       "Stake / note"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Life Insurance Corporation of India",
+        "12.16%"
+       ],
+       [
+        "J P Morgan Chase Bank NA (ADR depository)",
+        "11.94%"
+       ],
+       [
+        "GVP Family Trust (promoter)",
+        "11.51%"
+       ],
+       [
+        "VSD Family Trust (promoter)",
+        "9.06%"
+       ],
+       [
+        "ICICI Prudential Mutual Fund",
+        "4.01%"
+       ],
+       [
+        "Kallam Satish Reddy HUF (promoter)",
+        "3.31%"
+       ],
+       [
+        "NPS Trust",
+        "2.77%"
+       ],
+       [
+        "Nippon Life India MF",
+        "2.42%"
+       ],
+       [
+        "Parag Parikh MF",
+        "1.73%"
+       ],
+       [
+        "Gunupati Venkateswara Prasad HUF (promoter)",
+        "1.52%"
+       ],
+       [
+        "SBI Mutual Fund",
+        "1.48%"
+       ],
+       [
+        "K Satish Reddy (promoter)",
+        "1.21%"
+       ],
+       [
+        "Government Pension Fund Global (Norway)",
+        "1.10%"
+       ],
+       [
+        "**Categories at 30-Jun-2026**",
+        ""
+       ],
+       [
+        "Promoter group",
+        "26.63%"
+       ],
+       [
+        "Foreign portfolio investors (excl. ADRs)",
+        "20.67%"
+       ],
+       [
+        "Domestic institutions",
+        "31.75%"
+       ],
+       [
+        "Public, ADRs and others",
+        "21.0%"
+       ],
+       [
+        "Promoter pledge",
+        "Nil (AR FY26: no pledging by promoters)"
+       ]
+      ],
+      "source": "Screener.in (BSE shareholding pattern, Jun-2026); ar26 shareholder information Table 3 (top holders at 31-Mar-2026) and distribution of shareholding; PL 23-Jul-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Management and governance: an independent board and US-grade disclosure; execution is the weak spot",
+   "blocks": [
+    {
+     "p": "K Satish Reddy (Chairman, whole-time director; promoter family). G V Prasad (Co-Chairman & Managing Director; promoter family; re-appointed as whole-time director at the Jul-2025 AGM). CEO: Erez Israeli (Chief Executive Officer; not a director). FY26 fixed pay ₹7.3 cr, 100% target variable pay, long-term incentives of ₹15.3 cr vesting over three years. CFO: M V Narasimham. Board: 10 directors: 2 executive (promoters) and 8 independent - Leo Puri (lead), Arun M Kumar (audit chair), Sanjiv Mehta (NGCC chair), Shikha Sharma, K P Krishnan, Penny Wan, Claudio Albrecht, Alpna Seth. Auditor: S.R. Batliboi & Associates LLP (EY member firm)."
+    },
+    {
+     "verdicts": [
+      [
+       "Board independence",
+       "Strong",
+       "8 of 10 directors independent incl. a lead independent director; audit committee chaired by Arun M Kumar; NYSE listing brings US governance rules.",
+       "Among the better boards in Indian pharma."
+      ],
+      [
+       "Promoter alignment",
+       "Moderate",
+       "26.6% stake, now held via family trusts; no pledge; the founder families hold the chairman and MD roles.",
+       "Low stake for an Indian promoter; professional CEO runs the business."
+      ],
+      [
+       "Executive pay",
+       "Moderate",
+       "MD ₹15.8 cr (202x median) and chairman ₹10.1 cr in FY26, both down ~15% as profit-linked commission fell; CEO fixed pay ₹7.3 cr plus variable and ₹15.3 cr of LTIs.",
+       "High in absolute terms but tied to profit."
+      ],
+      [
+       "Disclosure",
+       "Strong",
+       "IFRS and Ind AS, quarterly calls with transcripts, US 20-F, specific items itemised, a same-day call on the semaglutide API issue (9-Jul-2026).",
+       "Lenalidomide sales were never disclosed."
+      ],
+      [
+       "Capital allocation",
+       "Moderate",
+       "NRT (GBP458 mn) working; CAR-T and Eftilagimod written off (₹228 cr); biologics capacity built ahead of revenue; ~₹3,000 cr earmarked for deals.",
+       "The next deal will define the record."
+      ],
+      [
+       "Legal and compliance",
+       "Moderate",
+       "The FCPA inquiry that began with an anonymous complaint in Sep-2020 (Ukraine and other markets) was closed by the SEC (Feb-2026) and DOJ (Mar-2026) without action; still a defendant in US Revlimid antitrust suits and the Zantac (ranitidine) MDL.",
+       "The largest overhang is gone; no provisions disclosed for the pending suits."
+      ],
+      [
+       "Execution and quality",
+       "Weak-Moderate",
+       "Semaglutide API scale-up failed validation; CEO admits US complex-generics R&D misses; Form 483s at Bachupally (7) and Srikakulam (3) in 2026, no OAI.",
+       "Repeated slips on the products that matter most."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Score",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "AR FY26 (corporate information, governance report Table 5, Annexure V, shareholder information); company calls"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Forecasts vs street",
+   "kicker": "Our numbers",
+   "title": "Our forecasts: EPS ₹35.7 / ₹51.7 / ₹62.9, below the street on margins",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Revenue build by market (₹ crore; North America in US$ mn)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "North America (US$ mn)",
+        "1,300",
+        "1,060",
+        "1,200",
+        "1,300"
+       ],
+       [
+        "Rs per US$",
+        "87.5",
+        "95.6",
+        "97.5",
+        "99.5"
+       ],
+       [
+        "North America (₹ cr)",
+        "11,374",
+        "10,134",
+        "11,700",
+        "12,935"
+       ],
+       [
+        "Europe (incl. NRT)",
+        "5,550",
+        "6,050",
+        "6,534",
+        "7,056"
+       ],
+       [
+        "India",
+        "6,219",
+        "7,151",
+        "8,010",
+        "8,971"
+       ],
+       [
+        "Emerging Markets",
+        "6,761",
+        "7,910",
+        "8,859",
+        "9,745"
+       ],
+       [
+        "PSAI",
+        "3,477",
+        "3,651",
+        "3,943",
+        "4,259"
+       ],
+       [
+        "Others",
+        "213",
+        "100",
+        "100",
+        "100"
+       ],
+       [
+        "= Revenue, IFRS",
+        "33,593",
+        "34,996",
+        "39,146",
+        "43,066"
+       ],
+       [
+        "+ IFRS to Ind AS reconciliation",
+        "107",
+        "110",
+        "110",
+        "110"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Revenue, Ind AS (= model)**",
+         "**33,700**",
+         "**35,106**",
+         "**39,256**",
+         "**43,176**"
+        ]
+       },
+       [
+        "Memo: semaglutide (all markets, GAM)",
+        "~0",
+        "1,500",
+        "2,450",
+        "2,600"
+       ],
+       [
+        "Memo: abatacept (US$ mn, GAM)",
+        "–",
+        "5",
+        "80",
+        "180"
+       ]
+      ],
+      "source": "AR FY26 MD&A table 1; GAM estimates (checked against model revenue in DRREDDY.ctx.js)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Other income, finance cost, tax and minorities: built, not plugged (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "6.5% on opening net cash (engine)",
+        "–",
+        "186",
+        "335",
+        "510"
+       ],
+       [
+        "6.5% on borrowing-funded cash (₹7,200 cr less ₹880 cr of equity stakes)",
+        "–",
+        "411",
+        "411",
+        "411"
+       ],
+       [
+        "= Treasury income (FY26: interest ₹373 cr + mutual-fund gains ₹236 cr)",
+        "609",
+        "597",
+        "746",
+        "921"
+       ],
+       [
+        "Forex gains",
+        "177",
+        "150",
+        "80",
+        "80"
+       ],
+       [
+        "Recurring miscellaneous and disposal income",
+        "244",
+        "190",
+        "190",
+        "190"
+       ],
+       [
+        "Share of JV profit",
+        "13",
+        "15",
+        "15",
+        "15"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Other income (comparable; FY26 excl. ₹189 cr divestment and ₹140 cr settlement)**",
+         "**1,043**",
+         "**952**",
+         "**1,031**",
+         "**1,206**"
+        ]
+       },
+       [
+        "Memo: gross yield-earning cash and investments, opening",
+        "~8,400 avg",
+        "9,174",
+        "11,473",
+        "14,162"
+       ],
+       [
+        "Finance cost",
+        "374",
+        "490",
+        "480",
+        "480"
+       ],
+       [
+        "Tax on PBT",
+        "22.5% (IFRS)",
+        "24%",
+        "25%",
+        "25%"
+       ],
+       [
+        "Minority share of the Nestle JV (negative = loss)",
+        "(38)",
+        "(30)",
+        "(20)",
+        "(10)"
+       ],
+       [
+        "= Model tax line (tax + minority, % of PBT)",
+        "—",
+        "23.2%",
+        "24.7%",
+        "24.9%"
+       ]
+      ],
+      "source": "AR FY26 notes 2.16, 2.20, 2.39; Q1FY27 release (net cash reconciliation); GAM estimates"
+     }
+    },
+    {
+     "p": "**Reconciliation.** FY27E other income of ₹952 cr compares with ₹1,043 cr in FY26 and ~₹1,040 cr in the twelve months to Jun-26 on the same basis (excluding the brand divestment and the litigation settlement): lower because we assume smaller forex gains (₹150 cr vs ₹177 cr) and a 6.5% yield (7.2% in FY26). It then rises with the cash the engine builds (₹{{F.treasury.0|num}} cr / ₹{{F.treasury.1|num}} cr / ₹{{F.treasury.2|num}} cr of net cash at Mar-27/28/29E), because we model no acquisitions. If management spends ~₹3,000 cr on deals, other income falls by ~₹200 cr a year and the deal must earn more than that."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Our forecasts vs the street (notes to 30-Sep-2026; ₹ crore, EPS ₹)",
+      "head": [
+       "",
+       "Revenue FY27E",
+       "Revenue FY28E",
+       "EBITDA FY27E",
+       "EBITDA FY28E",
+       "EPS FY27E",
+       "EPS FY28E"
+      ],
+      "rows": [
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research (Ind AS; EBITDA on Screener basis)**",
+         "**35,106**",
+         "**39,256**",
+         "**5,617**",
+         "**7,459**",
+         "**35.7**",
+         "**51.7**"
+        ]
+       },
+       [
+        "GAM EPS before the Q1 semaglutide provision",
+        "",
+        "",
+        "",
+        "",
+        "37.9",
+        "51.7"
+       ],
+       [
+        "Motilal Oswal (23-Jul-26)",
+        "34,653",
+        "38,806",
+        "5,556",
+        "8,395",
+        "37.2",
+        "60.0"
+       ],
+       [
+        "Prabhudas Lilladher (23-Jul-26)",
+        "34,505",
+        "38,547",
+        "5,969",
+        "7,755",
+        "41.5",
+        "56.0"
+       ],
+       [
+        "Elara Securities (23-Jul-26)",
+        "35,371",
+        "39,110",
+        "5,596",
+        "6,796",
+        "36.4",
+        "50.3"
+       ],
+       [
+        "Emkay Global (23-Jul-26)",
+        "35,288",
+        "38,625",
+        "6,275",
+        "7,827",
+        "45.0",
+        "59.4"
+       ],
+       [
+        "ICICI Direct (24-Jul-26)",
+        "34,335",
+        "39,364",
+        "5,613",
+        "8,463",
+        "40.9",
+        "60.7"
+       ],
+       [
+        "BOB Capital Markets (23-Jul-26)",
+        "35,396",
+        "39,632",
+        "6,725",
+        "8,323",
+        "52.6",
+        "65.8"
+       ],
+       [
+        "Post-Q1 average (six notes above)",
+        "34,925",
+        "39,014",
+        "5,956",
+        "7,927",
+        "42.3",
+        "58.7"
+       ]
+      ],
+      "source": "Broker notes as dated (MOSL, PL, Elara, Emkay, BOB: IFRS revenue and EBITDA incl. other operating income; ICICI Direct: Ind AS). Brokers' EPS are \"adjusted\" on their own definitions."
+     }
+    },
+    {
+     "callout": "**Why we are below the street:** our revenue is in line (FY28E +1% vs the average), but (1) our EBITDA basis excludes the other operating income that brokers' IFRS EBITDA includes (~1-2 points); (2) on a like-for-like basis our FY28E margin (~20.5% IFRS) is below MOSL (21.6%) and ICICI Direct (21.5% Ind AS), close to PL (20.1%) and Emkay (20.3%), above Elara (17.4%); (3) we assume ~5 mn semaglutide pens in FY27E, not 6-7 mn, and a slow abatacept ramp. Our FY28E EPS of {{F.eps.1|inr}} is −12% vs the post-Q1 average of ₹58.7 (range ₹50-66)."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: split down the middle, targets ₹1,040-1,740, all disclosed methods on P/E",
+   "blocks": [
+    {
+     "p": "19 houses published targets after the Q1FY27 results (22-24 Jul-2026), from ₹1,040 (Citi, Jefferies) to ₹1,740 (Nomura): median ₹1,222, −1% vs the 30-Sep-2026 close of ₹1,233. Ratings split roughly evenly between Buy (ICICI Direct, BOB, Nuvama, and by target Investec and Nomura), Hold/Neutral (MOSL, Macquarie, Morgan Stanley) and Sell/Reduce (Elara, Emkay, Goldman Sachs, JPMorgan, Citi). Every note that discloses a method uses **P/E on one-year-forward EPS** (20-23x FY28E or 12-month-forward EPS; Elara 28x FY28E \"core\" EPS plus cash). The stock fell ~9% the day after the results. No broker values Dr. Reddy's as a sum of parts or on EV/EBITDA."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "The ex-gRevlimid US base has settled at ~US$900 mn a year, near our bear case; consensus downgrades will continue and semaglutide/abatacept are already in the price",
+        "Emkay Global (Reduce), 23-Jul-2026"
+       ],
+       [
+        "Q1 adjusted EBITDA margin of 13.3% shows a structurally lower margin profile than the high-teens to 20% the street expected post-gRevlimid",
+        "Elara Securities (Reduce), 23-Jul-2026"
+       ],
+       [
+        "US base revenue was ~US$1 bn in FY22 and annualises at ~US$950 mn now despite 90-100 launches and the Mayne deal: where has growth gone?",
+        "IIFL analyst on the Q1FY27 call; CEO: 'your analysis is correct'"
+       ],
+       [
+        "We failed in certain complex generics (iron sucrose, conjugated estrogen, late peptides)",
+        "Erez Israeli, CEO, Q1FY27 call"
+       ],
+       [
+        "FY27 is a transition year; earnings fall before reviving in FY28 with semaglutide and b-abatacept",
+        "Motilal Oswal (Neutral), 23-Jul-2026"
+       ],
+       [
+        "Q1 was a disruption, not a change in the longer-term opportunity",
+        "ICICI Direct (Buy), 24-Jul-2026"
+       ]
+      ],
+      "source": "Broker notes and call transcripts to 30-Sep-2026"
+     }
+    },
+    {
+     "callout": "**Bulls vs bears, in one line each.** Bulls (ICICI Direct, BOB, Nuvama): look through FY27; semaglutide, abatacept and branded markets restore ~20%+ margins and ~₹65-80 of EPS by FY29. Bears (Elara, Emkay, Goldman, JPMorgan, Citi): the US base is smaller than thought, margins have reset structurally lower and the big launches are already in the price. We sit in the middle on earnings and with the house multiple the stock looks fairly priced."
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 21x Sep-28E EPS gives {{dcf.tp|inr}}; the stock is fairly priced on the street's own method",
+   "blocks": [
+    {
+     "h": "How the street values Dr. Reddy's"
+    },
+    {
+     "p": "We use the street's method so our target is comparable: P/E on the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). The \"At our EPS\" column applies each broker's multiple to our EPS for the same period (a 12-month-forward multiple is read as our Sep-28E)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock (notes standing on 30-Sep-2026)",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Motilal Oswal (23-Jul-26)",
+        "Neutral",
+        "1,125",
+        "P/E",
+        "20x",
+        "12m fwd",
+        "1,150",
+        "FY27 is a transition year; semaglutide revival and b-abatacept approval are the monitorables; earnings fall in FY27 and revive from FY28"
+       ],
+       [
+        "Prabhudas Lilladher (23-Jul-26)",
+        "Accumulate",
+        "1,300",
+        "P/E",
+        "23x",
+        "FY28E",
+        "1,190",
+        "gRevlimid cash was invested in peptides, biosimilars and GLP-1; benefits visible from FY27; delay in the semaglutide relaunch is the key risk"
+       ],
+       [
+        "Elara Securities (23-Jul-26)",
+        "Reduce",
+        "1,222",
+        "P/E",
+        "28x core + cash",
+        "FY28E",
+        "–",
+        "Margins get reset lower: 13.3% adjusted EBITDA margin vs high-teens expected; street must reset to a structurally lower margin profile"
+       ],
+       [
+        "ICICI Direct (ICICI Securities retail) (24-Jul-26)",
+        "Buy",
+        "1,340",
+        "P/E",
+        "22x",
+        "FY28E",
+        "1,140",
+        "Looks beyond quarterly gyrations: GLP-1, biosimilars and in-licensed innovation fill the gRevlimid void; base EBITDA margin ~20% guided"
+       ],
+       [
+        "BOB Capital Markets (23-Jul-26)",
+        "Buy",
+        "1,471",
+        "P/E",
+        "21x",
+        "Jun-28E",
+        "1,140",
+        "Valuations to re-rate with biosimilar launches; ~20% base margin despite no gRevlimid and no semaglutide until Nov-2026"
+       ],
+       [
+        "ICICI Securities (institutional) (13-May-26)",
+        "Add",
+        "1,365",
+        "P/E",
+        "20x",
+        "FY28E",
+        "1,030",
+        "Pre-Q1 note: ex-Revlimid guidance unchanged; EPS cut ~5% on lower margins"
+       ],
+       [
+        "Emkay Global (23-Jul-26)",
+        "Reduce",
+        "1,200",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Ex-gRevlimid US base has settled near Emkay's bear case (~US$900 mn a year); SG&A has little froth; consensus downgrades to continue; semaglutide and abatacept already in expectations"
+       ],
+       [
+        "Nuvama (23-Jul-26)",
+        "Buy",
+        "1,365",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Retained Buy; cut FY27E EBITDA 11% and EPS 5% (Business Today)"
+       ],
+       [
+        "JM Financial (23-Jul-26)",
+        "n.d.",
+        "1,489",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Target and an FY28E EPS of ₹80 as reported by Business Today; note not retrieved"
+       ],
+       [
+        "Goldman Sachs (23-Jul-26)",
+        "Sell",
+        "1,050",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Press report only"
+       ],
+       [
+        "Macquarie (23-Jul-26)",
+        "Neutral",
+        "1,230",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Press report only"
+       ],
+       [
+        "CLSA (23-Jul-26)",
+        "n.d.",
+        "1,240",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Press report only"
+       ],
+       [
+        "Morgan Stanley (23-Jul-26)",
+        "Equal-weight",
+        "1,200",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Target cut from ₹1,215 (press)"
+       ],
+       [
+        "UBS (23-Jul-26)",
+        "n.d.",
+        "1,150",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Press report only"
+       ],
+       [
+        "JPMorgan (23-Jul-26)",
+        "Underweight",
+        "1,100",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Target cut from ₹1,200; FY27-28 EPS cut 12-17% (Outlook Business)"
+       ],
+       [
+        "BNP Paribas (23-Jul-26)",
+        "n.d.",
+        "1,220",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Press report only"
+       ],
+       [
+        "Investec (23-Jul-26)",
+        "n.d.",
+        "1,600",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Press report only"
+       ],
+       [
+        "Citi (23-Jul-26)",
+        "Sell",
+        "1,040",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Sell reiterated (Outlook Business)"
+       ],
+       [
+        "Jefferies (23-Jul-26)",
+        "n.d.",
+        "1,040",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Lowest target with Citi (Bloomberg data via Business Today)"
+       ],
+       [
+        "Nomura (23-Jul-26)",
+        "n.d.",
+        "1,740",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Highest target (Bloomberg data via Business Today)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**HOLD**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**21x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Branded markets are solid; the US windfall is gone; semaglutide and abatacept are real but late; fair value is about today's price"
+        ]
+       }
+      ],
+      "source": "Broker notes (MOSL, PL, Elara, Emkay, ICICI Direct, BOB; ICICI Securities May-2026); Business Today and Outlook Business (23-Jul-2026) for Nuvama, JM Financial and global houses. n.d. = method not disclosed in the source."
+     }
+    },
+    {
+     "h": "Our multiple: 21x, derived"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the multiple (house rule, PLAYBOOK §4 and §7c)",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1a. Own history, reported EPS (house forwardMedian)",
+        "One-year-forward P/E since Apr-2021 (every 5th weekly close, 58 points): median 19.1x (25th-75th 15.5-26.5x). Trough years: none. Reported EPS carries large one-offs (FY26 ₹981 cr of specific items, FY23-FY24 one-off gains), so per A18 practice this is a sensitivity",
+        "19.1x (shown, not used)"
+       ],
+       [
+        "1b. Own history, EPS before one-offs (used)",
+        "Same window and sampling on EPS before one-off items (MOSL adjusted EPS ₹48.9 / 63.4 / 67.3 / 59.1 for FY23-26; FY27E ₹37.9 = our ₹35.7 + the Q1 semaglutide provision after tax; FY28E ₹51.7): median 19.6x (25th-75th 15.7-23.7x; 58 points). No trough years. By forward year: FY23 19.1x, FY24 13.6x, FY25 16.6x, FY26 22.1x, FY27 33.2x, FY28 24.1x",
+        "Starting point: 19.6x"
+       ],
+       [
+        "1c. Trough rule check",
+        "FY27E EPS before one-offs ₹37.9 vs half the best of FY24-26 (₹33.7): not a trough. On reported EPS ₹35.7 vs ₹33.9: not a trough, narrowly. The FY27 forward year (Apr-25 to Mar-26 prices) shows 33.2x because the market looked through the gRevlimid cliff",
+        "Keep FY27 (rule followed)"
+       ],
+       [
+        "2. Sector factor",
+        "Pharma peers' trailing P/E on 30-Sep-2026 vs their five-year medians: Sun Pharma +2.7%, Divi's Labs +22.7%, Torrent Pharma +43.0%, Zydus Lifesciences +12.3%, Cipla +8.2%, Aurobindo +30.1%, Alkem −6.6%, Ipca Labs −7.8%, Abbott India −25.6%; median of the nine +8.2%. PLAYBOOK §7c sets +8.2% for Dr. Reddy's (outside the set; its own +60.3% is trough-distorted and not used). Pharma trades above its medians, so this is a re-rating",
+        "× 1.082"
+       ],
+       [
+        "3. Result (nearest half-turn)",
+        "19.6x × 1.082 = 21.2x",
+        "**21x**"
+       ],
+       [
+        "4. Applied to",
+        "Sep-28E EPS ₹57.3 (½ FY28E ₹51.7 + ½ FY29E ₹62.9; 834.66 mn shares)",
+        "21x × ₹57.3 = ₹1,204"
+       ],
+       [
+        "5. Bull / bear",
+        "Bull: 75th percentile × factor (23.7x → 25.5x) on bull EPS. Bear: 25th percentile × factor (15.7x → 17x) on bear EPS. The low quartile is the FY24 forward year, when the market refused to pay for windfall gRevlimid EPS",
+        "25.5x / 17x"
+       ]
+      ],
+      "source": "Screener.in prices to 30-Sep-2026; MOSL adjusted EPS (23-Jul-2026); GAM estimates for FY27-28E EPS in the forward series"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Sector factor: pharma peers vs their own five-year median P/E (30-Sep-2026 close)",
+      "head": [
+       "Company",
+       "Trailing P/E",
+       "5-yr median",
+       "Premium / (discount)",
+       "EV/EBITDA vs median",
+       "Used?"
+      ],
+      "rows": [
+       [
+        "Sun Pharma",
+        "34.5",
+        "33.6",
+        "+2.7%",
+        "−0.9%",
+        "Yes"
+       ],
+       [
+        "Divi's Labs",
+        "82.8",
+        "67.5",
+        "+22.7%",
+        "+29.6%",
+        "Yes"
+       ],
+       [
+        "Torrent Pharma",
+        "81.8",
+        "57.2",
+        "+43.0%",
+        "+35.8%",
+        "Yes"
+       ],
+       [
+        "Zydus Lifesciences",
+        "23.7",
+        "21.1",
+        "+12.3%",
+        "+7.5%",
+        "Yes"
+       ],
+       [
+        "Cipla",
+        "30.4",
+        "28.1",
+        "+8.2%",
+        "+10.7%",
+        "Yes"
+       ],
+       [
+        "Aurobindo",
+        "25.5",
+        "19.6",
+        "+30.1%",
+        "+24.7%",
+        "Yes"
+       ],
+       [
+        "Alkem",
+        "27.1",
+        "29.0",
+        "−6.6%",
+        "−18.3%",
+        "Yes"
+       ],
+       [
+        "Ipca Labs",
+        "35.6",
+        "38.6",
+        "−7.8%",
+        "+3.6%",
+        "Yes"
+       ],
+       [
+        "Abbott India",
+        "35.7",
+        "48.0",
+        "−25.6%",
+        "−23.8%",
+        "Yes"
+       ],
+       [
+        "Lupin",
+        "15.6",
+        "35.6",
+        "−56.2%",
+        "−54.8%",
+        "No: Loss years inside the five-year window (PLAYBOOK §7c)"
+       ],
+       [
+        "Glenmark",
+        "21.1",
+        "21.1",
+        "+0.0%",
+        "−1.6%",
+        "No: Loss years inside the five-year window"
+       ],
+       [
+        "Biocon",
+        "82.9",
+        "49.7",
+        "+66.8%",
+        "+10.0%",
+        "No: One-off and boom-bust EPS; P/E above 100x inside the window"
+       ],
+       [
+        "Laurus Labs",
+        "97.9",
+        "66.8",
+        "+46.6%",
+        "+78.8%",
+        "No: Boom-bust EPS; P/E above 100x inside the window"
+       ],
+       [
+        "Dr Reddy's",
+        "31.9",
+        "19.9",
+        "+60.3%",
+        "+35.8%",
+        "No (self)"
+       ],
+       [
+        "Mankind",
+        "48.5",
+        "50.7",
+        "−4.3%",
+        "−14.1%",
+        "No: Listed May-2023: no five-year median"
+       ],
+       [
+        "**Median of the nine peers used**",
+        "",
+        "",
+        "**+8.2%**",
+        "**+7.5%**",
+        "PLAYBOOK §7c: +8.2% (P/E)"
+       ],
+       [
+        "Memo: all 14 names excluding Dr. Reddy's",
+        "",
+        "",
+        "+5.4%",
+        "",
+        "Sensitivity only"
+       ]
+      ],
+      "source": "Screener.in (trailing multiples at the NSE close; five-year medians from 30-Sep-2021); peersAsOf"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E since 2021: before one-offs vs reported",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "EPS before one-offs",
+         "values": [
+          18.8,
+          21.2,
+          22.3,
+          22.1,
+          18.6,
+          19.6,
+          19.1,
+          18.8,
+          19.3,
+          17.7,
+          16.5,
+          13.2,
+          13.9,
+          13.8,
+          13.1,
+          13.4,
+          13.6,
+          13.9,
+          13.6,
+          13.6,
+          14,
+          14,
+          13.3,
+          14.6,
+          15.7,
+          17.2,
+          16.6,
+          15.6,
+          17.1,
+          16.9,
+          18.8,
+          18.4,
+          21.2,
+          19.6,
+          22.1,
+          23.7,
+          22.5,
+          22.8,
+          20.5,
+          23.5,
+          20.4,
+          19.2,
+          29.3,
+          32.5,
+          34.9,
+          33.7,
+          33.2,
+          32.9,
+          31.8,
+          33.7,
+          31,
+          33.8,
+          33.8,
+          25.6,
+          24.7,
+          24.1,
+          23.2,
+          22.9
+         ],
+         "fmt": "x",
+         "thin": true
+        },
+        {
+         "name": "Reported EPS (house)",
+         "values": [
+          16.9,
+          19.1,
+          20.1,
+          20,
+          16.8,
+          17.7,
+          17.2,
+          17,
+          17.4,
+          16,
+          14.9,
+          12.5,
+          13.1,
+          13.1,
+          12.4,
+          12.7,
+          12.9,
+          13.2,
+          12.9,
+          12.9,
+          13.3,
+          13.9,
+          13.2,
+          14.5,
+          15.6,
+          17.1,
+          16.5,
+          15.5,
+          17,
+          16.8,
+          18.6,
+          18.3,
+          24.9,
+          23,
+          25.9,
+          27.9,
+          26.5,
+          26.8,
+          24.2,
+          27.6,
+          24,
+          22.5,
+          31,
+          34.4,
+          37.1,
+          35.8,
+          35.3,
+          34.9,
+          33.7,
+          35.8,
+          32.9,
+          35.8,
+          35.9,
+          25.6,
+          24.7,
+          24.1,
+          23.2,
+          22.9
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 21,
+         "text": "Our multiple: 21x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; MOSL adjusted EPS; GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Street median target",
+        "Share price"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          1204,
+          1369,
+          1141,
+          1222,
+          1233
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research; street median of post-Q1 targets"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "Sep-28E EPS ₹57.3",
+        "21x (bull 25.5x, bear 17x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "Sep-28E EBITDA ₹8,047 cr + engine net cash",
+        "13x (bull 15.5x, bear 10x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "+14%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "FCFF FY28-42E, Ke {{dcf.ke|n1}}%, g 5.5%",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "−5%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us, honestly.** EV/EBITDA (13x Sep-28E EBITDA: Dr. Reddy's 12.0x median one-year-forward EV/EBITDA since 2021 × the nine peers' EV/EBITDA factor of +7.5%) gives ₹1,369, +14% vs the target, because it credits the ~₹9,700 cr of net cash the engine builds by Sep-28E with no deals. The DCF gives ₹1,141 (−5%) at an 11.6% cost of equity with heavy working capital (34% of revenue) and a 21% long-run margin. Both sit within ±15% of the P/E target: the methods agree that the stock is roughly fairly priced. Neither is weighted into the target (PLAYBOOK §4)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Views we did not put in the base (sensitivity rows only)",
+      "head": [
+       "View",
+       "What it changes",
+       "Value / share (₹)"
+      ],
+      "wide": [
+       0,
+       1
+      ],
+      "rows": [
+       [
+        "House median on reported EPS",
+        "19.1x × 1.082 = 20.7x → 20.5x",
+        "1,180"
+       ],
+       [
+        "FY27 treated as a trough year",
+        "Median without the FY27 forward year 18.8x → 20.5x",
+        "1,180"
+       ],
+       [
+        "Only forward years FY23-FY26 (gRevlimid in the denominator)",
+        "18.4x → 20x",
+        "1,150"
+       ],
+       [
+        "No sector factor",
+        "19.5x",
+        "1,120"
+       ],
+       [
+        "All 14 pharma names excl. Dr. Reddy's as the factor",
+        "+5.4% → 20.5x",
+        "1,180"
+       ],
+       [
+        "Own re-rating (trailing P/E vs own five-year median)",
+        "+60.3%: trailing EPS is trough-depressed; not meaningful",
+        "not applied"
+       ],
+       [
+        "Street multiples on our EPS",
+        "20x (MOSL) / 22x (ICICI Direct) / 23x (PL) on Sep-28E",
+        "1,150 / 1,260 / 1,320"
+       ],
+       [
+        "Ex-gRevlimid median (windfall rule, PLAYBOOK §7c)",
+        "Would raise the FY23-FY26 forward P/Es; lenalidomide sales and profit were never disclosed",
+        "not computable"
+       ],
+       [
+        "Growth premium",
+        "EPS +2% a year FY26-29E on the before-one-offs base (₹59.1 → ₹62.9): no case for a premium",
+        "not applied"
+       ]
+      ],
+      "source": "GAM Research. Per PLAYBOOK §7c, growth, returns and own-history views are shown, not added to the base multiple."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Revenue growth +3 points a year, margin +2 points; 25.5x."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Revenue +{{as.revenueGrowth.0|n1}}% / +{{as.revenueGrowth.1|n1}}% / +{{as.revenueGrowth.2|n1}}%; EBITDA margin {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 21x Sep-28E."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Revenue growth −3 points a year, margin −2.5 points; 17x."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: engine net cash at Mar-27 (incl. term deposits and equity stakes, less leases)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research. Working capital at the engine's 34% of revenue (Screener basis)."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed pharma peers",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "5-yr median P/E",
+       "vs median",
+       "EV/EBITDA (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "Sun Pharma",
+        "4,35,817",
+        "58,462",
+        "28.2%",
+        "34.5",
+        "33.6",
+        "+2.7%",
+        "21.4",
+        "14.8%"
+       ],
+       [
+        "Divi's Labs",
+        "2,47,414",
+        "10,560",
+        "32.6%",
+        "82.8",
+        "67.5",
+        "+22.7%",
+        "55.1",
+        "16.2%"
+       ],
+       [
+        "Torrent Pharma",
+        "1,82,204",
+        "13,980",
+        "32.6%",
+        "81.8",
+        "57.2",
+        "+43.0%",
+        "38.3",
+        "26.8%"
+       ],
+       [
+        "Zydus Lifesciences",
+        "1,16,341",
+        "27,148",
+        "31.2%",
+        "23.7",
+        "21.1",
+        "+12.3%",
+        "14.4",
+        "20.1%"
+       ],
+       [
+        "Cipla",
+        "1,08,738",
+        "28,163",
+        "20.9%",
+        "30.4",
+        "28.1",
+        "+8.2%",
+        "17.6",
+        "11.8%"
+       ],
+       [
+        "Aurobindo",
+        "96,429",
+        "33,653",
+        "20.4%",
+        "25.5",
+        "19.6",
+        "+30.1%",
+        "12.1",
+        "9.9%"
+       ],
+       [
+        "Alkem",
+        "61,932",
+        "14,712",
+        "20.4%",
+        "27.1",
+        "29.0",
+        "−6.6%",
+        "17.0",
+        "18.2%"
+       ],
+       [
+        "Ipca Labs",
+        "48,853",
+        "9,599",
+        "20.7%",
+        "35.6",
+        "38.6",
+        "−7.8%",
+        "20.4",
+        "15.8%"
+       ],
+       [
+        "Abbott India",
+        "57,626",
+        "6,929",
+        "27.3%",
+        "35.7",
+        "48.0",
+        "−25.6%",
+        "24.6",
+        "34.5%"
+       ],
+       [
+        "Lupin (excluded)",
+        "93,006",
+        "27,958",
+        "29.2%",
+        "15.6",
+        "35.6",
+        "−56.2%",
+        "9.4",
+        "27%"
+       ],
+       [
+        "Glenmark (excluded)",
+        "65,891",
+        "16,983",
+        "26.9%",
+        "21.1",
+        "21.1",
+        "+0.0%",
+        "12.4",
+        "14.1%"
+       ],
+       [
+        "Biocon (excluded)",
+        "60,033",
+        "16,927",
+        "20.5%",
+        "82.9",
+        "49.7",
+        "+66.8%",
+        "18.7",
+        "1.3%"
+       ],
+       [
+        "Laurus Labs (excluded)",
+        "1,06,949",
+        "6,813",
+        "26.2%",
+        "97.9",
+        "66.8",
+        "+46.6%",
+        "52.4",
+        "18.2%"
+       ],
+       [
+        "**Dr Reddy's**",
+        "1,02,974",
+        "33,700",
+        "19.2%",
+        "31.9",
+        "19.9",
+        "+60.3%",
+        "16.3",
+        "11.6%"
+       ],
+       [
+        "Mankind (excluded)",
+        "1,03,616",
+        "14,278",
+        "25.4%",
+        "48.5",
+        "50.7",
+        "−4.3%",
+        "26.2",
+        "12.7%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026; Screener basis (profit before minorities for ROE)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a good branded business between two windfalls, priced about right; HOLD",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** a diversified generics company with a growing branded franchise in India, Russia and 40+ emerging markets, the #2 nicotine-replacement brand outside the US, in-house peptide chemistry, a first-to-file US pipeline, a biologics plant that has just passed its first FDA approval, net cash and a strong independent board. Also: a US base that has not grown in four years, a semaglutide launch that stumbled, abatacept that is still a regulatory event away, heavy working capital and recurring \"one-off\" charges."
+    },
+    {
+     "callout": "**What you are paying:** 34.5x our FY27E and 23.8x FY28E EPS (21.5x Sep-28E). Dr. Reddy's own forward P/E since 2021 has a median of 19.6x on EPS before one-offs; pharma trades ~8% above its five-year medians. On the street's method and the house multiple the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}), close to the post-Q1 street median of ₹1,222: HOLD."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹1,040 (BUY on our rule)",
+        "Low-Medium",
+        "The stock would have to fall ~16%"
+       ],
+       [
+        "Semaglutide back on time with 6-7 mn pens in Nov-26 to Mar-27 and Brazil approved",
+        "Medium",
+        "Re-validation result (late Sep-2026), restart in Nov, Q3-Q4 pen volumes, Canada share vs Apotex"
+       ],
+       [
+        "Abatacept approved at the Dec-2026 goal date with no re-inspection",
+        "Medium",
+        "FDA action; first-quarter uptake; SC filing"
+       ],
+       [
+        "US base growing double digits ex-lenalidomide as guided",
+        "Medium",
+        "Quarterly US$ sales above US$250 mn after bosutinib exclusivity ends"
+       ],
+       [
+        "A value-accretive acquisition of the ~₹3,000 cr net cash",
+        "Low-Medium",
+        "Price paid vs the 11.6% cost of equity"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Semaglutide re-validation fails or slips again; Canada prices fall as generics multiply",
+        "Low-Medium (management: 10-20% failure odds)",
+        "FY27E EPS ~₹8.2 lower; our bear case"
+       ],
+       [
+        "Abatacept FDA queries, re-inspection or a slow launch",
+        "Medium",
+        "FY28-29E EPS 5-10% lower"
+       ],
+       [
+        "US price erosion and the tariff on generics",
+        "Medium",
+        "Each US$10 mn a quarter of lost US sales at ~50% contribution is ~₹1.8 of FY28E EPS"
+       ],
+       [
+        "USFDA action at a key site (Bachupally biologics, Srikakulam, Vizag API)",
+        "Low-Medium",
+        "Launch delays; remediation costs"
+       ],
+       [
+        "Russia: sanctions, rouble, slower growth than the market",
+        "Medium",
+        "EM is 20% of revenue; Russia ~10% (₹3,480 cr in FY26)"
+       ],
+       [
+        "More write-offs of in-licensed or R&D assets; value-destroying M&A",
+        "Medium",
+        "Reported EPS below our before-one-offs base"
+       ],
+       [
+        "Pharma sector de-rates back to its medians",
+        "Medium",
+        "At 17x (bear multiple) on base EPS the stock is worth ~₹970"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: HOLD, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would move to SELL if the price rose above ~₹1,260 (upside below −5%) and to BUY below ~₹1,040** on today's numbers, or sooner if semaglutide and abatacept both arrive on time and margins track management's guidance.",
+      "**This is mostly an earnings call, not a multiple call.** Our 21x is in line with the street's 20-23x; our FY28E EPS (₹51.7) is ~12% below the post-Q1 average because we assume lower margins and later launches. On the street's average EPS (FY28E ₹58.7, FY29E ₹71.5 from the 3 notes that give it) and our multiple, the stock would be worth ~₹1,370.",
+      "**Biggest swing factors:** the multiple (each 1x is ~₹57 a share), semaglutide volumes and abatacept timing. The bull-bear range ({{scen.bear.tp|inr}} to {{scen.bull.tp|inr}}) is wide because the history behind the multiple is wide (25th-75th percentile 15.7-23.7x).",
+      "**Where we could be wrong:** if the base business really runs at ~20% IFRS margin (management) rather than our ~17% equivalent, FY28E EPS would be ~₹60.6 and the target ~₹1,400 (14% upside), close to BUY territory."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "North America, Q1FY27",
+        "v": "US$236 mn",
+        "d": "US$400 mn a year earlier (lenalidomide)"
+       },
+       {
+        "k": "India growth, Q1FY27",
+        "v": "+17%",
+        "d": "IPM +13.5% (MQT); 15.5% organic"
+       },
+       {
+        "k": "EBITDA margin, Q1FY27 (IFRS)",
+        "v": "12.5%",
+        "d": "15.4% before the semaglutide provision"
+       },
+       {
+        "k": "Price ÷ our Sep-28E EPS",
+        "v": "21.5x",
+        "d": "median since 2021: 19.6x (forward, before one-offs)"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY15–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue from operations (Ind AS)",
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA (Screener basis: before other income, after impairments)",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 250
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation & amortisation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. treasury, forex, divestment gains, JV share)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit attributable to equity holders",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 25
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹, split-adjusted)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation & amortisation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (attributable)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Generic / gRevlimid",
+        "A copy of a drug whose patent has expired or been settled. gRevlimid = generic lenalidomide (Revlimid), sold under settlements that capped volumes until Jan-2026."
+       ],
+       [
+        "Limited-competition windfall",
+        "Profits from a generic sold with only a few competitors, which disappear when competition arrives. Not a one-off accounting item, so it stays in the reported history (PLAYBOOK §7c)."
+       ],
+       [
+        "Shelf-stock adjustment (SSA)",
+        "A credit given to wholesalers for stock they hold when a product's price falls; Dr. Reddy's took ₹453 cr for lenalidomide in Q4FY26."
+       ],
+       [
+        "ANDA / NDA / 505(b)(2) / Para IV / FTF",
+        "US filings: ANDA for a generic; NDA for a new drug; 505(b)(2) for a new form of an existing drug. Para IV challenges a patent; first-to-file (FTF) can earn 180 days of exclusivity."
+       ],
+       [
+        "Biosimilar / BLA / PLI",
+        "A near-copy of a biological drug (e.g. abatacept, rituximab); approved through a Biologics Licence Application after a Pre-License Inspection of the plant."
+       ],
+       [
+        "Semaglutide / GLP-1",
+        "Novo Nordisk's diabetes and obesity molecule (Ozempic, Wegovy, Rybelsus), part of the GLP-1 class; generic versions launched in India and Canada in 2026."
+       ],
+       [
+        "API / PSAI / CDMO / DMF",
+        "Active pharmaceutical ingredient; Dr. Reddy's segment that sells APIs and services; contract development and manufacturing; Drug Master File (a filing that lets customers reference the API)."
+       ],
+       [
+        "NRT",
+        "Nicotine replacement therapy (gums, patches, lozenges): Nicotinell and other brands bought from Haleon."
+       ],
+       [
+        "IPM / MAT / MQT",
+        "Indian pharmaceutical market; moving annual / quarterly total (IQVIA sales data)."
+       ],
+       [
+        "USFDA Form 483, VAI, OAI",
+        "A 483 lists inspection observations. VAI = voluntary action indicated (minor), OAI = official action indicated (can block approvals)."
+       ],
+       [
+        "IFRS vs Ind AS",
+        "Dr. Reddy's reports to investors under IFRS (EBITDA incl. other operating income and forex, before impairments); Indian statements and Screener use Ind AS (our model basis)."
+       ],
+       [
+        "EBITDA (our basis)",
+        "Screener's operating profit: revenue less operating costs including impairments, before all other income, interest, D&A and tax."
+       ],
+       [
+        "One-offs / EPS before one-offs",
+        "Large unusual gains or charges (SSA, impairments, settlements, divestment gains). We derive the multiple on EPS before them (A18 practice)."
+       ],
+       [
+        "Forward P/E / Sep-28E",
+        "Share price ÷ next full year's EPS. Sep-28E = half FY28E + half FY29E, the earnings the market looks at in a year."
+       ],
+       [
+        "Sector factor",
+        "How far pharma peers trade above or below their own five-year median P/E (+8.2% for Dr. Reddy's, PLAYBOOK §7c)."
+       ],
+       [
+        "EV/EBITDA, DCF, Ke",
+        "Enterprise value ÷ EBITDA; discounted cash flow; cost of equity (risk-free rate + beta × equity risk premium)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "ebitdaMargin@FY20": "−643bp to 14.1%: ₹1,677 cr of impairments (IFRS five-year summary, AR FY24) inside Screener EBITDA.",
+  "ebitdaMargin@FY17": "−561bp to 17.4%: US price erosion and the Nov-2015 USFDA warning letter on three plants held back launches (AR FY17); revenue −9%.",
+  "pat@FY17": "−39%: the warning-letter years (AR FY17).",
+  "pat@FY18": "−27%: US price erosion and channel consolidation; the warning letter still restricted launches (AR FY18).",
+  "ebitdaMargin@FY19": "+411bp to 20.6%: cost and procurement savings and a recovery in launches (AR FY19).",
+  "pat@FY19": "+106%: margin recovery off a low FY18.",
+  "ebitdaMargin@FY21": "+620bp to 20.3%: impairments fell from ₹1,677 cr (FY20) to ₹859 cr (IFRS five-year summary, AR FY24) and costs were contained in the pandemic year.",
+  "ebitdaMargin@FY22": "−285bp to 17.5%: price erosion in US and European generics, higher costs, ₹756 cr of impairments (AR FY22).",
+  "sales@Q2FY25": "+16% YoY: gRevlimid at its peak and new launches.",
+  "sales@Q3FY25": "+16% YoY: NRT consolidated from 1-Oct-2024 (completed 30-Sep-2024).",
+  "sales@Q4FY25": "+20% YoY: NRT plus gRevlimid; the last strong US quarter before the cliff began.",
+  "pat@FY22": "₹2,182 cr after ₹756 cr of impairments (IFRS five-year summary); ₹2,927 cr before one-offs (MOSL).",
+  "sales@FY23": "+14.5%: generic Revlimid launched under volume-limited settlements; North America +36%.",
+  "ebitdaMargin@FY23": "+870bp to 26.2%: the gRevlimid windfall.",
+  "pat@FY23": "+107%: gRevlimid plus one-off gains (₹545 cr pre-tax, MOSL).",
+  "ebitdaMargin@FY24": "28.3%: peak windfall margin.",
+  "sales@FY25": "+16.5%: NRT from Oct-2024 and the last full gRevlimid year; North America US$1.72 bn.",
+  "sales@FY26": "+3.2%: North America −22% (lenalidomide, ₹453 cr SSA) offset by Europe +55% (NRT), India +16%, EM +23%.",
+  "ebitdaMargin@FY26": "19.2% after ₹1,106 cr of SSA, VAT, labour-code and impairment items (22.1% before them).",
+  "otherIncome@FY26": "₹1,372 cr incl. ₹189 cr brand divestment gain, ₹140 cr litigation settlement and ₹177 cr forex gains.",
+  "pat@FY26": "−26%: ₹4,196 cr attributable; Q4FY26 only ₹221 cr.",
+  "sales@FY27E": "+4.2%: no lenalidomide; bosutinib and sugammadex launches; ~₹1,500 cr of semaglutide from Nov-2026; India +15%, EM +17%.",
+  "ebitdaMargin@FY27E": "Q1 10.6% (₹240 cr semaglutide provision, Middle East costs); recovery in H2 with semaglutide.",
+  "pat@FY27E": "Down ~29% on lower margins; Q1FY27 was ₹444 cr.",
+  "ebitdaMargin@FY28E": "Full year of semaglutide; abatacept launch; SG&A flat in nominal terms.",
+  "pat@FY28E": "+45% off the FY27 trough.",
+  "otherIncome@FY28E": "Rises with the cash the engine builds (no acquisitions modelled).",
+  "pat@FY29E": "Abatacept SC launch and semaglutide volumes; EPS back above FY26 but below FY25."
+ }
+}
