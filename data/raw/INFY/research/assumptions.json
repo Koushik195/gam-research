@@ -1,0 +1,226 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Infosys (consolidated, Rs crore). Infosys is modelled in US dollars first: US$ revenue by vertical (the eight business segments the company discloses) in `usdBuild`, converted at a stated Rs/US$ path; the engine then runs on the resulting rupee revenue growth (`revenueGrowth`) and an EBITDA margin. EBITDA = Screener operating profit before other income and depreciation; the company's EBIT (operating) margin = EBITDA margin less depreciation & amortisation, which we show next to it. The authoring script checks that the US$ build times the Rs/US$ rate equals model revenue. Net profit is attributable to shareholders (tools/authoring/INFY.patch.js); the tax line also carries minorities. Other income = treasury yield on opening net cash + non-treasury items, built from the AR FY26 other-income note (2.19). Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "usdBuild": {
+  "_why": "US$ revenue by vertical. FY26 base = sum of the four quarters (US$ revenue x reported mix, fact sheets); total FY26 US$20,158 mn. FY27 guidance (23-Jul-2026): 1.5-3.0% constant currency, including ~1.7% from the Optimum Healthcare IT and Stratus acquisitions, >1% drag from a large European manufacturing client and 0.75-1% from moving work offshore; FS and EURS to grow above the company average, Retail and Communication weak. Q1FY27: +2.4% YoY cc, +1.0% QoQ (0.5% lost to an EURS programme termination). Growth rates are US$ (we assume no net cross-currency effect after Q1).",
+  "base": {
+   "fs": 5634,
+   "mfg": 3287,
+   "eurs": 2690,
+   "retail": 2605,
+   "comm": 2449,
+   "hitech": 1571,
+   "ls": 1381,
+   "others": 541
+  },
+  "names": {
+   "fs": "Financial services",
+   "mfg": "Manufacturing",
+   "eurs": "Energy, utilities, resources & services",
+   "retail": "Retail",
+   "comm": "Communication",
+   "hitech": "Hi-Tech",
+   "ls": "Life sciences",
+   "others": "Others"
+  },
+  "growth": {
+   "fs": [
+    3.1,
+    4.5,
+    4.5
+   ],
+   "mfg": [
+    -2,
+    1,
+    3
+   ],
+   "eurs": [
+    2.5,
+    4,
+    4.5
+   ],
+   "retail": [
+    -1,
+    1,
+    2
+   ],
+   "comm": [
+    -0.5,
+    2,
+    2.5
+   ],
+   "hitech": [
+    0,
+    2.5,
+    3
+   ],
+   "ls": [
+    22,
+    6,
+    5
+   ],
+   "others": [
+    -8,
+    0,
+    0
+   ]
+  },
+  "growthWhy": {
+   "fs": "FY27 +3.1%: grew 5.4% in FY26 and 2.8% (2.4% cc) in Q1FY27; ~US$1 bn of net new large-deal TCV in Q1 and Stratus (insurance, closed Apr-2026, ~0.25% of company revenue) inside it; management expects FS above the company average. FY28-29 +4.5%: large-deal ramp-ups, vendor consolidation, offset by AI-led price deflation on renewals.",
+   "mfg": "FY27 -2%: lower revenue from one large European manufacturing client (>1% of company revenue; part of it a deal Infosys chose not to pursue, ending in December) and a weak European auto market; Q1 +1.5% YoY. FY28 +1% (the client is fully out of the base only from Q4FY27), FY29 +3%.",
+   "eurs": "FY27 +2.5%: a client terminated a programme in Q1 (~0.5% of company revenue, one-off); management still expects EURS above average (80% of FY26 large-deal TCV was net new, utilities demand from grids and data centres). FY28-29 +4-4.5%.",
+   "retail": "FY27 -1%: consumer budgets 'tightly controlled', clients asking for AI productivity commitments (Q1 -1.8% YoY). Slow recovery after.",
+   "comm": "FY27 -0.5%: Q1 +2.9% YoY but management calls the vertical challenged and budgets flat to negative; FY26 growth came from large-deal ramp-ups that have now annualised. FY28 +2%, FY29 +2.5%.",
+   "hitech": "FY27 flat: Q1 +1.6% YoY; tech clients are the earliest adopters of AI coding tools, which compresses classic work.",
+   "ls": "FY27 +22%: Optimum Healthcare IT (agreement Mar-2026 for up to US$465 mn incl. earn-outs; closed in Q1FY27; ~1.5% of company revenue a year at a ~1.7% combined acquisition contribution less Stratus) plus ~2% organic. Q1FY27 life sciences +26.8% YoY. FY28 +6% (small carry-over), FY29 +5%.",
+   "others": "Shrinking for two years (-12% YoY in Q1FY27); held flat after FY27."
+  }
+ },
+ "fx": {
+  "inrPerUsd": [
+   95.5,
+   97.5,
+   99.5
+  ],
+  "_why": "Rs/US$ conversion rate. FY26 average 88.6 (Rs178,650 cr / US$20,158 mn); Q1FY27 94.9 (Rs48,211 cr / US$5,082 mn); spot 95.81 at the 30-Sep-2026 close (PTI). FY27 95.5 = Q1 actual, ~95.6 for Q2 and the 30-Sep spot for H2. FY28-29: ~2% depreciation a year, roughly the rupee's forward premium and well below its ~3.7% a year average fall since FY20 on Infosys's own conversion rates (71.0 in FY20). Each 1% of rupee depreciation adds 15-17 bp to the operating margin (CFO, Jul-2026), before any reinvestment."
+ },
+ "revenueGrowth": [
+  9.89,
+  5.17,
+  5.67
+ ],
+ "_revenueWhy": "Rupee revenue = US$ build x Rs/US$. US$ growth +2.0% (FY27E), +3.0% (FY28E), +3.6% (FY29E); rupee growth +9.9% / +5.2% / +5.7%, of which ~7.8 / 2.1 / 2.1 points are the weaker rupee. FY27: Q1 US$5,082 mn; we assume Q2 +1.5% QoQ (full quarter of Optimum), Q3-Q4 roughly flat (furloughs, the European client's deal ending in December), i.e. ~2% cc, close to the 2.25% guidance midpoint and PL's 2.0%. FY28-29: organic growth of 3-3.5% - AI services (8.2% of revenue in Q1FY27, growing double digits a quarter) and large-deal ramp-ups offset 3-3.5% a year of AI-led price deflation on the rest (Kotak's assumption, Jul-2026). No acquisitions after Optimum/Stratus are assumed; Versent (75% for up to A$233 mn, pending regulatory approval) is excluded, as in the company's guidance.",
+ "ebitdaMargin": [
+  23.6,
+  23.7,
+  23.7
+ ],
+ "_marginWhy": "Company EBIT (operating) margin: 21.1% (FY25), 21.0% adjusted / 20.3% reported (FY26, Labour Codes charge Rs1,289 cr), 21.1% in Q1FY27; guidance 20-22% kept in Jul-2026. We model EBIT of ~21.0% in each year: rupee depreciation (+70 bp in Q1 alone) and Project Maximus (pricing, utilisation 84.9%, offshore mix, lean automation: +20-30 bp a quarter) offset wage hikes (October 2026 for most staff, January 2027 for seniors), ~50 bp of acquisition costs (amortisation, retention pay) and AI investments; FY28-29 carry AI price deflation against continued offshoring. EBITDA margin (Screener basis) = EBIT + D&A (~2.6% of revenue): FY26 23.7%, Q1FY27 23.7%. Brokers (Jul-2026) model EBIT of 19.8-21.3% for FY27-28.",
+ "capex": [
+  7300,
+  3000,
+  3200
+ ],
+ "_capexWhy": "Cash capex Rs2,201 cr (FY24), Rs2,237 cr (FY25), Rs2,727 cr (FY26) = ~1.5% of revenue; we assume Rs2,900 / 3,000 / 3,200 cr. FY27E also includes ~Rs4,400 cr for the Optimum Healthcare IT and Stratus acquisitions (goodwill and intangibles rose US$466 mn in Q1FY27, IFRS balance sheet): an engine workaround, because the model has no acquisition line. Putting the purchase price into FY27 capex takes the cash out of the treasury and lets the acquired intangibles amortise through depreciation. The DCF starts in FY28 and is unaffected.",
+ "depRateOnGrossBlock": 8,
+ "_depWhy": "FY26 D&A Rs4,902 cr = 8.6% of average gross block (Rs57,227 cr; Screener's gross block includes goodwill and right-of-use assets). Q1FY27 Rs1,246 cr (Rs4,984 cr annualised) before a full quarter of the new acquisitions. 8.0% on a gross block lifted by the FY27 acquisitions gives ~Rs5,100 cr in FY27E (2.6% of revenue), ~Rs5,500 cr in FY28E.",
+ "treasuryYield": [
+  9,
+  9,
+  9
+ ],
+ "_treasuryWhy": "Applied by the engine to OPENING net cash on Screener's basis (cash Rs22,201 cr + investments Rs21,880 cr - lease liabilities Rs9,176 cr = Rs34,905 cr at Mar-26). The company earned 6.7% on its gross cash and investments in FY26 and 6.8% in Q1FY27 (CFO). 9.0% on opening net cash equals ~6.6-6.9% on the average gross balance in our forecasts, because lease interest is charged separately (interest line) and cash builds through the year; the report shows the implied gross yield for each year. FY26 treasury income (AR note 2.19): interest Rs2,693 cr + gains on funds and bonds Rs393 cr = Rs3,086 cr on average cash and investments of Rs45,312 cr (6.8%).",
+ "otherIncome": [
+  650,
+  650,
+  650
+ ],
+ "_otherIncomeWhy": "Non-treasury other income, only recurring items (AR FY26 note 2.19): net exchange gains (forward/option losses Rs2,451 cr against translation gains Rs2,948 cr = +Rs497 cr; FY25 +Rs259 cr) and miscellaneous income excluding the Rs165 cr profit on sale of property (Rs153 cr). We hold Rs650 cr. Left out as non-recurring: interest on income-tax refunds (Rs421 cr FY26, Rs343 cr FY25, Rs1,933 cr FY24) and property sale gains. FY27E total other income ~Rs3,790 cr vs Rs3,736 cr underlying in FY26 (Rs4,322 cr less tax-refund interest and the property gain) and Rs3,883 cr in the twelve months to Jun-26 (Screener Rs2,975 cr plus the Labour Codes charge, less Q4FY26 tax-refund interest): flat, because the Rs18,000 cr buyback (Dec-2025) cut the cash pile by about a third before it rebuilds.",
+ "interest": [
+  470,
+  480,
+  490
+ ],
+ "_interestLabel": "Finance cost (lease liabilities)",
+ "_interestWhy": "FY26 Rs416 cr; Q1FY27 Rs119 cr (more leases with the acquisitions). No borrowings other than leases (Rs9,176 cr at Mar-26).",
+ "taxRate": [
+  29.6,
+  29.6,
+  29.6
+ ],
+ "_taxWhy": "Guidance: effective tax rate 29-30% for FY27 (Apr and Jul 2026). Q1FY27 29.5% (Rs3,253 cr on Rs11,028 cr). FY26 26.3% reported, flattered by Rs774 cr of reversals of prior-year provisions after favourable tax orders. 29.6% includes minorities (~0.1% of PBT; Rs34 cr in FY26). SEZ tax holidays keep expiring, so we do not assume a lower rate later.",
+ "payout": [
+  68,
+  68,
+  68
+ ],
+ "_payoutWhy": "Dividends only. FY26 DPS Rs48 (interim Rs23 + final Rs25) = 67% of reported EPS of Rs71.58; FY25 Rs43 (67%). Policy (from FY25): return ~85% of free cash flow over five years through dividends and/or buybacks/special dividends and raise the DPS every year; FY25-26 returned Rs55,523 cr = 82.1% of FCF incl. the Rs18,000 cr buyback. The engine cannot reduce the share count, so the buyback part of the policy (~20% of profit a year) stays in the treasury and earns interest; at a P/E of ~12x a buyback would add ~1% more to EPS a year than the interest, which we leave out (conservative).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5,
+  "years": 10,
+  "fadeGrowthTo": 5.5,
+  "fadeMarginTo": 23,
+  "fadeCapexPctTo": 1.5,
+  "depPctOfSales": 2.6,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Debt-free, cash-rich, but now exposed to a technology shift that could shrink its core market; 0.9 gives an 11.9% cost of equity, above the 11.3% we use for defensive consumer franchises.",
+  "_tgWhy": "Rupee terminal growth of 5%: ~3% US$ growth for a mature services company plus ~2% rupee depreciation. Below the 5-6% house range for domestic compounders because AI may shrink the traditional services pool.",
+  "_fadeGrowthWhy": "Rupee revenue growth fades from ~5.6% (FY29E) to 5.5% over ten years.",
+  "_fadeMarginWhy": "EBITDA margin fades from 23.7% to 23.0% (EBIT ~20.4%, the bottom half of today's 20-22% band): AI deflation and pricing pressure erode margins slowly.",
+  "_fadeCapexWhy": "Capex ~1.5% of revenue, as in FY24-26."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "AI services (8% of revenue, growing double digits a quarter) become large enough to outrun deflation, discretionary spending returns in FY28 and Versent closes: US$ growth ~4% in FY27 and ~5% in FY28-29, EBIT margin ~21.7%.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 0.7,
+   "fadeMarginTo": 24
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "AI-led deflation accelerates at renewals and clients insource with AI tools: US$ revenue flat to down in FY28-29, pricing cuts push EBIT margin to ~19.8%, the bottom of the guided band.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1.2,
+   "fadeMarginTo": 21.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 14,
+      "bull": 17,
+      "bear": 11
+     },
+     "why": "How the street values Infosys: P/E on FY28E EPS (Motilal Oswal and 360 ONE 14x, PL and Choice 15x, ICICI Securities, Nirmal Bang and Nuvama 13x; Jul-2026). 14x = Infosys's 23.3x median one-year-forward P/E since Apr-2021 (forwardMedian; no trough years; 23.8x on EPS before tax-order one-offs) cut by the 40% median de-rating of the large-cap incumbents most like it - TCS -53%, Wipro -40%, HCLTech -21% vs their five-year median P/E at 30-Sep-2026 (14.0x). We use the incumbents, not all IT peers (median -29%, i.e. 16.6x), because mid-cap challengers still grow in double digits and kept more of their multiples, while our FY26-29E EPS growth (~6.5% a year) is two-thirds of FY21-26 (~10%). Tech Mahindra is left out (turnaround: depressed earnings inflate both its current and its median P/E). Cross-check: a justified P/E of 13.7x (90% cash payout, 11.9% cost of equity, 5% growth). Bull 17x (the all-peer de-rating); bear 11x (justified P/E at 4% growth, ~15% below its lowest forward P/E since 2021)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 9,
+      "bull": 11,
+      "bear": 7
+     },
+     "why": "Counts net cash at face value. 9x Sep-28E EBITDA = Infosys's 16.6x median trailing EV/EBITDA since Apr-2021, cut by the same 40% incumbent de-rating (10.0x trailing), restated for Sep-28E EBITDA being ~15% above the twelve months to Jun-26 (Rs43,745 cr). Bull 11x, bear 7x scale with the P/E multiples."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 10-year FCFF, Ke 11.9%, terminal growth 5%, plus net cash."
+    }
+   ]
+  }
+ }
+}

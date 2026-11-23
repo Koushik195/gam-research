@@ -1,0 +1,55 @@
+// Infosys report, part 4: street view and valuation.
+const X = require('./INFY.ctx');
+const { streetBlocks } = require('./valuation-blend');
+const { D, F, V, A, AS, n0, n1, pc, rup, ASOF_TXT, price, mv, epsSep28, peMult, evMult, ebitdaSep28, FM, H21, H2y, HA, fwdNow, fwdPe, fwdAdj, evMed, ttmEbitda, P, derate, MED5, INCUMBENTS, MIDCAPS, ALL8, sectorDr, allDr, midDr, afterInc, afterAll, shortName, rating, ST, post, medTp, avgTp, tpSorted, shortDate, epsCagrHist, epsCagrFwd, usdCagr2123, usdCagr2326, justPe, impliedG, PEERS, ratingCount, b } = X;
+
+const street = {
+  id: 'street', nav: 'Street view', kicker: 'Street', title: `The street: split between Buy and Hold, targets ₹968-1,610, all on 13-15x FY28E`,
+  blocks: [
+    { p: `${post.length} houses published targets around the Q1FY27 results (23-24 Jul 2026), when the stock was ~₹1,047. Buys or equivalents: Motilal Oswal ₹1,170, Anand Rathi ₹1,270, PL ₹1,240, Nomura ₹1,290, Investec ₹1,330 and Choice (Add) ₹1,140; UBS (₹1,425) and Centrum (₹1,610) are at the top. Holds/Neutrals: ICICI Securities ₹1,000, 360 ONE ₹1,110, Goldman Sachs ₹1,110, HSBC ₹1,110, Citi ₹1,065, JPMorgan ₹1,050 and Jefferies ₹1,020. Sells: Nirmal Bang ₹968 and Ambit ₹990. Almost every target was cut. The median is ₹${n0(medTp)} (average ₹${n0(avgTp)}); at the ${ASOF_TXT} price of ₹${n0(price)} that is ~${Math.round((medTp / price - 1) * 100)}% upside. Every house that discloses a method uses **P/E on FY28E EPS, at 13-15x** (Motilal Oswal and 360 ONE 14x, PL and Choice 15x, ICICI Securities, Nirmal Bang and Nuvama 13x). Kotak (Buy, ₹1,220 on 3-Jul, before the results) had already raised its AI-deflation assumption and cost of equity. Bulls argue the guidance is conservative and the valuation already prices the worst; bears that AI deflation has only begun.` },
+    { exhibit: { type: 'table', title: 'Critiques we take seriously', head: ['Argument', 'Who'], wide: [0], rows: D.critiques.map(r => r.map(rup)), source: 'Broker notes and press reports to 30-Sep-2026' } },
+  ],
+};
+
+const drTxt = s => `${shortName(s)} ${pc(derate[s])}`;
+const houseByDate = Object.fromEntries(fwdPe.map(x => [x[0], x[1]]));
+const valuation = {
+  id: 'valuation', nav: 'Valuation', kicker: 'Valuation', title: `Valuation: ${peMult}x Sep-28E earnings gives {{dcf.tp|inr}}`,
+  blocks: [
+    ...streetBlocks('INFY', {
+      rating,
+      streetIntro: 'The brokers that disclose a method value Infosys on **P/E on FY28E EPS**, at 13-15x. We use the same method so our target is comparable, applied to the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). The "At our EPS" column applies each broker\'s multiple to our EPS for its year: our EPS is a little above the street, so the gap is mostly the multiple.',
+      street: ST.map(s => [`${s.broker} (${shortDate(s.date)})`, s.rating || 'n.d.', s.tp, s.method || 'n.d.', s.multiple || '–', s.on || '–', rup(s.thesis)]),
+      ourThesis: 'Growth mostly gone for good, but margins, cash and payout intact; the de-rating has happened',
+      streetSource: 'Anand Rathi, PL and Nirmal Bang notes (PDFs, 24-Jul-2026); ICICI Securities via DSIJ; Motilal Oswal via Trendlyne; Choice via Investment Guru India; other targets and multiples from Business Today (24-Jul-2026) and Upstox; Kotak from Business Today (3-Jul-2026). n.d. = not disclosed in the sources we saw',
+      derivationIntro: 'We start from the stock\'s own one-year-forward P/E since April 2021 (the house rule, leaving out trough years), adjust for how far comparable IT services stocks had de-rated by 30-Sep-2026, and then check growth, peers and returns.',
+      derivation: [
+        ['1. Its own history', `One-year-forward P/E since Apr-2021: median ${n1(FM.median)}x (25th-75th percentile ${n1(H21.p25)}-${n1(H21.p75)}x; peak ${Math.round(H21.max)}x); trough years excluded: ${FM.troughYears.length ? FM.troughYears.join(', ') : 'none (forward EPS never fell below half its prior peak)'}. On EPS before tax-order one-offs (FY24 −₹4.76, FY25 −₹1.03, FY26 −₹0.43 net) the median is ${n1(HA.med)}x. ${n1(H2y.med)}x over the last two years; ${n1(fwdNow)}x on ${ASOF_TXT} on our FY28E`, `Starting point: ${n1(FM.median)}x (house figure; the one-off adjustment adds only ${n1(HA.med - FM.median)}x)`],
+        ['2. Sector de-rating', `On ${ASOF_TXT}, against their five-year median trailing P/E: large incumbents ${INCUMBENTS.map(drTxt).join(', ')} (median ${pc(sectorDr)}); mid-caps ${MIDCAPS.map(drTxt).join(', ')} (median ${pc(midDr)}); all eight ${pc(allDr)}. Left out: Infosys itself, and Tech Mahindra (${pc(derate.TECHM)}), whose turnaround-depressed earnings inflate both its current and its median P/E`, `Incumbents: ${n1(FM.median)}x × ${(1 + sectorDr / 100).toFixed(2)} ≈ ${n1(afterInc)}x (all eight: ${n1(afterAll)}x)`],
+        ['3. Growth', `EPS grew ${n1(epsCagrHist)}% a year in FY21-26; we forecast ${n1(epsCagrFwd)}% for FY26-29E, more than half of it from the weaker rupee. US$ revenue grew ${n1(usdCagr2123)}% a year in FY20-23, ${n1(usdCagr2326)}% in FY23-26 and ~3% in our FY27-29E. Infosys now grows like the incumbents, not the mid-caps (Coforge and Persistent grew 29-49% in rupees in Q1FY27)`, `Use the incumbents' de-rating: **${peMult}x**`],
+        ['4. Peers', `Trailing P/E at the close: TCS ${n1(P.TCS.pe)}x, Wipro ${n1(P.WIPRO.pe)}x, HCLTech ${n1(P.HCLTECH.pe)}x, LTIMindtree ${n1(P.LTM.pe)}x, Mphasis ${n1(P.MPHASIS.pe)}x, Persistent ${n1(P.PERSISTENT.pe)}x; Infosys ${n1(P.INFY.pe)}x`, `${peMult}x Sep-28E = ${n1(peMult * epsSep28 / F.eps[1])}x our FY28E: in line with TCS`],
+        ['5. Returns', `ROE ${n1(A.roe[b])}% in FY26 (~${Math.round(F.roe[1])}% in our FY28E) against an ${n1(V.ke)}% cost of equity. Justified forward P/E = cash payout (~90% of profit) × (1 + g) ÷ (Ke − g): ${n1(justPe(4))}x at 4% long-run growth, ${n1(justPe(5))}x at 5%, ${n1(justPe(6))}x at 6%`, `Supports 13-16x; ${peMult}x sits at 5% growth`],
+        ['6. The street', 'Disclosed multiples: 13-15x FY28E (median 14x)', `Our ${peMult}x Sep-28E ≈ ${n1(peMult * epsSep28 / F.eps[1])}x FY28E: mid-street`],
+      ],
+      derivationSource: `Screener.in (P/E history and peers at the ${ASOF_TXT} close), Infosys fact sheets (one-offs), broker notes, GAM Research`,
+      history: { field: 'eps', from: '2016-04-01', median: Math.round(FM.median), label: `Median since 2021: ${Math.round(FM.median)}x`, title: `One-year-forward P/E: our ${peMult}x vs history`, yearStep: 2 },
+      crossNote: `**What the cross-checks tell us.** EV/EBITDA (${evMult}x Sep-28E EBITDA of ₹${n0(ebitdaSep28)} cr plus net cash) gives ₹${n0(mv('ev').value)}, ${Math.round(mv('ev').vsTarget)}% above the P/E target: ${evMult}x is Infosys's ${n1(evMed)}x median trailing EV/EBITDA since 2021 cut by the same ${Math.abs(Math.round(sectorDr))}% incumbent de-rating and restated for Sep-28E EBITDA being ${Math.round((ebitdaSep28 / ttmEbitda - 1) * 100)}% above the twelve months to Jun-26 (₹${n0(ttmEbitda)} cr); it gives more because net cash counts in full, and the engine adds it on the same Sep-28E basis (~₹${n0((F.treasury[1] + F.treasury[2]) / 2)} cr, including cash we assume is retained rather than bought back). The DCF (₹${n0(mv('dcf').value)}) is higher still: at an ${n1(V.ke)}% cost of equity, 5% terminal growth and an EBIT margin fading to ~20.4%, the cash flows are worth more than the target. Turned round, on our ten-year forecasts the price of ₹${n0(price)} implies long-run growth of about ${X.sg1(impliedG)}% a year: the market is pricing a business that shrinks after the next decade. That is the bear case, and it is why we see upside even with a de-rated multiple.`,
+    }),
+    { exhibit: { type: 'line', title: 'Forward P/E: reported EPS vs EPS before tax-order one-offs', unit: 'Price ÷ next full-year EPS (x)', x: fwdAdj.map(x => x[0]), series: [{ name: 'Before one-offs (GAM)', values: fwdAdj.map(x => x[1]), fmt: 'x', thin: true }, { name: 'Reported EPS (house series)', values: fwdAdj.map(x => houseByDate[x[0]] ?? null), fmt: 'x', thin: true }], labels: 'last', yearTicks: true, yearStep: 1, lines: [{ v: peMult, text: `Our multiple: ${peMult}x`, color: '#cf8f1f' }], source: 'Screener.in prices; reported EPS (Screener) vs EPS before tax-refund interest and tax reversals (company); GAM estimates FY27-28E' } },
+    { exhibit: { type: 'table', title: 'Scenarios', head: ['Scenario', 'Target', 'vs CMP', 'What has to happen'], wide: [3], rows: [
+      ['**Bull**', '{{scen.bull.tp|inr}}', '{{scen.bull.upside|chg}}', `{{as.scenarios.bull.narrative}} Multiple ${V.blend.methods[0].multiple.bull}x (the all-peer de-rating, ${n1(afterAll)}x).`],
+      { hl: true, cells: ['**Base (GAM)**', '{{dcf.tp|inr}}', '{{dcf.upside|chg}}', `US$ growth ${X.usdG.map(v => n1(v) + '%').join(' / ')} (FY27-29E), EBIT ~21%, ₹95.5-99.5 per US$; ${peMult}x Sep-28E EPS of ₹${n1(epsSep28)}.`] },
+      ['**Bear**', '{{scen.bear.tp|inr}}', '{{scen.bear.upside|chg}}', `{{as.scenarios.bear.narrative}} Multiple ${V.blend.methods[0].multiple.bear}x (justified P/E at 4% growth; ~15% below its lowest forward P/E since 2021).`],
+    ], source: 'GAM Research' } },
+    { h: 'The DCF cross-check in detail' },
+    { exhibit: { type: 'table', title: 'DCF summary', head: ['', '₹ crore / ₹ per share'], rows: [
+      ['Present value of FY28-37E free cash flow', '{{dcf.pvExplicit|num}}'], ['Present value of terminal value', '{{dcf.pvTv|num}}'], ['Enterprise value', '{{dcf.ev|num}}'],
+      ['Add: net cash at Mar-27 (after lease liabilities)', '{{dcf.netCash|num}}'], ['Equity value', '{{dcf.equity|num}}'], ['Value per share (Mar-27)', '{{dcf.perShare|num}}'],
+      { hl: true, cells: ['**12-month DCF value (rounded)**', '**{{dcf.intrinsicTp|inr}}**'] }, ['Terminal value share of EV', '{{dcf.tvShare|pct}}'],
+    ], source: 'GAM Research. Discounted at the cost of equity (11.9%; Infosys has no debt).' } },
+    { exhibit: { type: 'table', title: 'DCF value sensitivity (₹): cost of capital down the side, terminal growth across', grid: 'dcf.sens.grid', rowsRef: 'dcf.sens.waccs', colsRef: 'dcf.sens.gs', corner: 'WACC \\ g', source: 'GAM Research' } },
+    { exhibit: { type: 'table', title: 'Listed Indian IT services peers', head: ['Company', 'Market value (₹ cr)', 'FY26 revenue (₹ cr)', 'EBITDA margin', 'P/E (x)', 'Five-year median P/E', 'vs median', 'EV/EBITDA (x)', 'ROE'], rows: PEERS.map(p => [p.symbol === 'INFY' ? '**Infosys**' : shortName(p.symbol), n0(p.mcapCr), n0(p.revenue), p.ebitdaMargin + '%', n1(p.pe), n1(MED5[p.symbol]), pc(derate[p.symbol]), n1(p.evEbitda), p.roe + '%']), source: `Screener.in, trailing multiples at the NSE close on ${ASOF_TXT}; five-year median = median weekly trailing P/E, Sep-2021 to Sep-2026.` } },
+  ],
+};
+
+module.exports = { street, valuation };
