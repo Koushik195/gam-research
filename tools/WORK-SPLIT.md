@@ -34,6 +34,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - (B, 23-Nov) Team B fetched `data/raw/TATATECH/screener.json` as a TMPV peer (TATATECH is in Team A's queue); refetch freely.
 - (B, 23-Nov) Chart palette has only 4 colours; a fifth series crashes the chart (MOTHERSON sets it explicitly). DCF value and sensitivity grid round to ₹10, coarse for low-priced stocks.
 - (B, 23-Nov) No acquisition line; and Screener back-fills restated quarters after a common-control deal (BOSCHLTD's Sep-2025 and Jun-2026 quarters show the Nov-2026 RBIC restatement), which is look-ahead. BOSCHLTD.patch.js restores the as-reported figures.
+- (B, 23-Nov) Year-end change: MRF's Screener history starts with Sep-2014 and an 18-month Mar-2016 column (MRF.patch.js drops both). Treasury yield applies to net treasury, so income on debt-funded investments must go in `otherIncome`. Small Excel/engine differences can flip the ₹10 rounding of a scenario target. `snap-ic` doesn't check for raw `{{...}}` tokens.
 
 ## Team A queue (220 companies)
 
@@ -59,7 +60,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 ### Healthcare (34)
 
-- A18 · claimed (A, 23-Nov-2026) · SUNPHARMA, DIVISLAB, TORNTPHARM, ZYDUSLIFE, CIPLA published (BUY, 1,670)
+- A18 · claimed (A, 23-Nov-2026) · SUNPHARMA published (HOLD, 1,800), DIVISLAB, TORNTPHARM, ZYDUSLIFE, CIPLA published (BUY, 1,670)
 - A19 · queued · LAURUSLABS, DRREDDY, MANKIND, AUROPHARMA, LUPIN
 - A20 · queued · GLENMARK, ALKEM, ABBOTINDIA, BIOCON, IPCALAB
 - A21 · queued · GLAND, ANTHEM, AJANTPHARM, GLAXO, EMCURE
@@ -148,7 +149,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 ### Automobile and Auto Components (31)
 
 - B22 · published (B, 23-Nov-2026) · MOTHERSON published (SELL, 131), HYUNDAI published (HOLD, 2,160), BOSCHLTD published (SELL, 35,800), TMPV published (BUY, 380), BHARATFORG published (HOLD, 2,070)
-- B23 · claimed (B, 23-Nov-2026) · UNOMINDA, SCHAEFFLER (blocked: December year-end, waits for engine support), ATHERENERG, MRF, SONACOMS
+- B23 · claimed (B, 23-Nov-2026) · UNOMINDA, SCHAEFFLER (blocked: December year-end, waits for engine support), ATHERENERG, MRF published (BUY, 1,46,570), SONACOMS
 - B24 · claimed (B, 23-Nov-2026) · BALKRISIND, TIINDIA, ENDURANCE, EXIDEIND, CRAFTSMAN
 - B25 · queued · APOLLOTYRE, ZFCVINDIA, GABRIEL, MSUMI, ASAHIINDIA
 - B26 · queued · FORCEMOT, BELRISE, TENNIND, OLAELEC, MINDACORP

@@ -1,0 +1,100 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, competition, peers, street, ownership, governance, moat, critiques, gaps and conflicts for Sun Pharma. Sources dated on or before 30-Sep-2026 only." },
+ "industry": {
+  "ipm": { "sizeRsBn": 2527, "asOf": "MAT Jun-2026 (Pharmarack)", "sizeMar26RsBn": 2450, "volumeGrowthQ1Pct": 2.0, "sunVolumeGrowthQ1Pct": 5.4, "diabetesGrowthPct": 15, "src": "q1call; q4call" },
+  "indiaShares": { "_note": "Formulation sales in India, 12 months to Jun-2026 (AIOCD AWACS), Rs mn and share", "rows": [["Sun Pharma", 215380, 8.5], ["Abbott (incl. Abbott HC, Novo)", 148510, 5.9], ["Cipla", 148390, 5.8], ["Mankind", 139220, 5.5], ["Torrent", 128010, 5.0], ["Alkem (incl. Cachet, Indchemie)", 103700, 4.1], ["Intas", 101870, 4.0], ["Lupin", 89720, 3.5], ["Zydus", 81460, 3.2], ["Dr Reddy's", 79560, 3.1], ["Macleods", 75640, 3.0], ["Aristo", 70990, 2.8]], "src": "sepdeck p.28", "published": "2026-09-22" },
+  "sunIndiaMix": { "_note": "Sun's India sales by therapy, % (AIOCD MAT Mar-2026)", "rows": [["Neuro-psychiatry", 19], ["Cardiology", 17], ["Gastroenterology", 14], ["Diabetology", 9], ["Pain / analgesics", 7], ["Anti-infectives", 6], ["Respiratory", 5], ["Vitamins / minerals", 5], ["Gynaecology", 4], ["Dermatology", 4], ["Ophthalmology", 3], ["Urology", 3], ["Others", 3]], "src": "jundeck p.29" },
+  "prescriberRanks": { "_note": "SMSRC prescription rank by specialist, Feb-2023 to Feb-2026", "rows": [["Psychiatrists", 1, 1, 1, 1], ["Neurologists", 1, 1, 1, 1], ["Cardiologists", 1, 1, 1, 1], ["Gastroenterologists", 1, 1, 1, 1], ["Diabetologists", 1, 1, 1, 1], ["Dermatologists", 1, 1, 1, 1], ["Consulting physicians", 1, 1, 1, 1], ["Gynaecologists", 2, 2, 1, 1], ["Nephrologists", 1, 1, 2, 2], ["Ophthalmologists", 2, 1, 1, 2], ["Oncologists", 3, 3, 2, 4]], "src": "jundeck p.30" },
+  "topBrands": { "_note": "Top India brands, MAT Jun-2026, Rs cr (ICICI Direct from AWACS)", "rows": [["Rosuvas", 641.3, 20], ["Levipil", 491.6, 10], ["Gemer", 385.4, 6], ["Pantocid", 378.4, 12], ["Susten", 372.9, 10], ["Pantocid-D", 341.9, 11], ["Sompraz-D", 324.7, 17], ["Montek-LC", 310.7, 9], ["Volini", 309.9, -3], ["Istamet", 263.6, 18]], "src": "ICICI Direct Q1FY27 note (2-Aug-2026), last column = 3-year CAGR %" },
+  "usGenerics": { "rank": 13, "andaFiled": 677, "andaApproved": 558, "andaPending": 119, "ndaFiled": 70, "ndaApproved": 57, "ndaPending": 13, "asOf": "30-Jun-2026", "src": "sepdeck p.22, 25" },
+  "womensHealth": { "marketUsdBn": 35, "growthPct": "6-10", "biosimilarOpportunityUsdBn": 70, "lossOfExclusivityUsdBn": 320, "by": 2035, "src": "dealcall" },
+  "tariff232": "100% on patented imports from 29-Sep-2026 (31-Jul-2026 for Annex III companies); generics and biosimilars excluded; India not a reduced-rate country (see company.json tariffs)"
+ },
+ "peers": {
+  "set": ["DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "list": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": {
+   "LUPIN": "Loss years inside the five-year window distort its median P/E (PLAYBOOK §7c).",
+   "GLENMARK": "Loss years inside the window (PLAYBOOK §7c).",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "DRREDDY": "gRevlimid windfall in FY23-26, then the cliff (Q4FY26 EPS Rs2.65) (PLAYBOOK §7c).",
+   "MANKIND": "Listed May-2023: no five-year median (PLAYBOOK §7c)."
+  },
+  "allFifteen": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA", "LUPIN", "GLENMARK", "BIOCON", "LAURUSLABS", "DRREDDY", "MANKIND"],
+  "note": "Sector factor = median of the eight peers' trailing P/E at the 30-Sep-2026 close vs their five-year median (Sep-2021 to Sep-2026), excluding Sun: +10.25% (PLAYBOOK §7c). All 14 non-Sun names give the same median."
+ },
+ "street": {
+  "brokers": [
+   { "broker": "ICICI Securities (retail)", "date": "2026-08-02", "rating": "Hold", "tp": 2090, "method": "SOTP", "multiple": "Sun 22x + Organon 6x FY28E EV/EBITDA, less net debt", "on": "FY28E", "eps": { "FY27E": 45.5, "FY28E": 89.1 }, "inclOrganon": true, "thesis": "Growth engines firing, but only a third of Organon (innovative + biosimilars) grows and leverage leaves a thin margin of safety", "src": "https://mailcontent.icicidirect.com/mailcontent/idirect_sunpharma_q1fy27.pdf" },
+   { "broker": "Prabhudas Lilladher", "date": "2026-08-03", "rating": "Buy", "tp": 2150, "method": "P/E", "multiple": "25x", "on": "FY28E (combined with Organon)", "eps": { "FY27E": 56.6, "FY28E": 65.2 }, "inclOrganon": "valuation only", "thesis": "Less dependent on US generics; specialty, India and RoW growth visible; Organon EPS-accretive from year one", "src": "https://plindia.com/ResReport/SUNP-3-8-26-PL.pdf" },
+   { "broker": "Motilal Oswal", "date": "2026-08-04", "rating": "Buy", "tp": 2310, "method": "P/E", "multiple": "38x", "on": "12-month forward", "eps": null, "inclOrganon": false, "thesis": "Innovative portfolio +13%, India outgrowing the market; 11% earnings CAGR FY26-28E; Organon on track", "src": "https://investmentguruindia.com/newsdetail/buy-sun-pharma-ltd-for-the-target-rs-2-310-by-motilal-oswal-financial-services-ltd342325" },
+   { "broker": "Emkay", "date": "2026-08-04", "rating": "Add", "tp": 2100, "method": "SOTP", "multiple": "n.d.", "on": "Jun-27E", "eps": null, "inclOrganon": "n.d.", "thesis": "Upside capped near term: US weak (~$1.9 bn a third year), Leqselvi faces AbbVie's Rinvoq, higher tax; estimates cut ~5%", "src": "https://investmentguruindia.com/newsdetail/add-sun-pharma-ltd-for-the-target-rs-2-100-by-emkay-global-financial-services-ltd131614" },
+   { "broker": "Geojit", "date": "2026-09-21", "rating": "Buy", "tp": 2070, "method": "P/E", "multiple": "30x", "on": "FY28E", "eps": null, "inclOrganon": "n.d.", "thesis": "India and innovative medicines drive growth; semaglutide approvals; investment-grade ratings support the Organon financing", "src": "https://investmentguruindia.com/newsdetail/buy-sun-pharmaceutical-industries-ltd-for-target-rs-2-070-by-geojit-financial-services-ltd980941" },
+   { "broker": "Nirmal Bang", "date": "2026-04-28", "rating": "Buy", "tp": 2320, "method": "n.d.", "multiple": "n.d.", "on": "n.d.", "eps": null, "inclOrganon": false, "thesis": "Organon upside not in the target; successful closing would add more", "src": "https://www.businesstoday.in/markets/stocks/story/buy-sun-pharma-shares-up-to-34-upside-what-experts-say-on-indias-biggest-ever-pharma-deal-organon-527710-2026-04-28" },
+   { "broker": "HDFC Securities (institutional)", "date": "2026-04-28", "rating": "Buy", "tp": 2030, "method": "n.d.", "multiple": "n.d.", "on": "n.d.", "eps": null, "inclOrganon": false, "thesis": "Combined growth slows to mid-single digit from 10-12% for Sun alone; integration, biosimilar scale-up and $8.5 bn of debt are the risks", "src": "https://www.businesstoday.in/markets/stocks/story/buy-sun-pharma-shares-up-to-34-upside-what-experts-say-on-indias-biggest-ever-pharma-deal-organon-527710-2026-04-28" },
+   { "broker": "Nuvama", "date": "2026-04-28", "rating": "Buy", "tp": 2000, "method": "P/E", "multiple": "n.d. (stock at 29x FY27E, 25x FY28E)", "on": "FY28E", "eps": null, "inclOrganon": "accretion shown", "thesis": "Pro-forma EPS accretion over 40% on FY28E; scaled biosimilars platform growing 13%; $350 mn synergies", "src": "https://www.businesstoday.in/markets/stocks/story/buy-sun-pharma-shares-up-to-34-upside-what-experts-say-on-indias-biggest-ever-pharma-deal-organon-527710-2026-04-28" }
+  ],
+  "emkayMay": { "date": "2026-05-24", "rating": "Add", "tp": 2000, "eps": { "FY27E": 57.2, "FY28E": 64.4, "FY29E": 72.7 }, "revenue": { "FY27E": 64781, "FY28E": 71102, "FY29E": 78140 }, "ebitdaMarginPct": { "FY27E": 30.5, "FY28E": 31.0 }, "taxPct": 24.5, "note": "EBITDA incl. forex basis; standalone", "src": "Emkay Q4FY26 result update (24-May-2026), via business-standard.com broker tips PDF" },
+  "plEstimates": { "revenue": { "FY27E": 65701, "FY28E": 72562 }, "ebitda": { "FY27E": 19233, "FY28E": 21957 }, "eps": { "FY27E": 56.6, "FY28E": 65.2 }, "taxPct": 28, "src": "PL Q1FY27 note" },
+  "consensus": { "_note": "Standalone street EPS standing on 30-Sep-2026: PL 56.6 / 65.2; Emkay (May) 57.2 / 64.4, cut ~5% in Aug; Geojit implied FY28E ~69 (Rs2,070 / 30x). Average of the three disclosed FY28E: ~66.", "fy27Eps": 56.9, "fy28Eps": 66.2 },
+  "methodSummary": "P/E is the main method: Motilal Oswal 38x 12-month-forward EPS (standalone), Geojit 30x FY28E, Prabhudas Lilladher 25x FY28E combined-entity EPS, Nuvama on P/E. ICICI Securities and Emkay use a sum of the parts (ICICI: EV/EBITDA, Sun 22x and Organon 6x). The Organon deal has split the street on WHICH earnings to capitalise, not on the method.",
+  "priceContext": "Rs1,620 on 24-Apr-2026 (after reports of the bid); Rs1,808 on 30-Apr after the deal call; Rs1,990 on 31-Jul (results day); Rs1,816.6 on 30-Sep-2026 (NSE close)."
+ },
+ "ownership": {
+  "date": "2026-06-30", "totalShares": 2399334970, "shareholders": 710232,
+  "categories": { "promoters": 54.48, "fpi": 14.53, "mutualFunds": 12.84, "insurance": 7.02, "pension": 1.88, "otherDii": 0.44, "government": 0.11, "retailAndOthers": 8.70 },
+  "named": [["Shanghvi Finance Pvt Ltd (promoter holding company)", 40.30], ["Dilip Shanghvi (founder, executive chairman)", 9.60], ["Aditya Medisales Ltd (promoter group)", 1.67], ["Sudhir Valia (co-promoter)", 0.60], ["Life Insurance Corporation of India", 5.53], ["ICICI Prudential Value Fund", 3.72], ["SBI Nifty 50 ETF", 2.36], ["NPS Trust (HDFC Pension Fund scheme E)", 1.88], ["Nippon India Large Cap Fund", 1.38], ["Government Pension Fund Global (Norway)", 1.03]],
+  "pledge": "No promoter shares pledged or encumbered",
+  "trend": "FPIs fell from 18.0% (Dec-2024) to 14.5% (Jun-2026); domestic institutions rose from 18.4% to 22.1%; promoters unchanged at 54.48% for two years",
+  "src": "shp (company website, Jul-2026); Screener shareholding",
+  "published": "2026-07-21"
+ },
+ "governance": {
+  "board": "Nine directors: four executives (Dilip Shanghvi, Kirti Ganorkar, Aalok Shanghvi, Vidhi Shanghvi; three of them from the founding family) and five independents (Pawan Goenka, Gautam Doshi, Rolf Hoffmann, Satyavati Berera, Andreas Busch).",
+  "succession": "Founder Dilip Shanghvi (b. 1955) moved from MD to executive chairman on 1-Sep-2025; professional MD Kirti Ganorkar; son Aalok Shanghvi is COO and the best-paid executive (Rs9.3 cr in FY26); daughter Vidhi Shanghvi joined the board in May-2025.",
+  "pay": "FY26: Dilip Shanghvi Rs7.06 cr (111x median, +22%), Aalok Shanghvi Rs9.32 cr (128x, +20%), Kirti Ganorkar Rs5.87 cr (part year), Vidhi Shanghvi Rs2.0 cr; median employee pay +0.66%. Modest by global standards, but the family's pay rose ~20% in a year when the median employee got <1%.",
+  "related": "Aditya Medisales Ltd, a promoter-group company, holds 1.67%; promoter holdings are concentrated in Shanghvi Finance Pvt Ltd (40.3%). No pledges.",
+  "regulatory": "Four plants under US FDA action (Halol import alert since Dec-2022; Mohali consent-decree batch certification; Dadra and Baska OAI/warning letter); recurring US litigation charges (Ranbaxy-era claims, Taro price-fixing, opioids) every year FY22-FY26.",
+  "capitalAllocation": "History of value-creating deals funded by cash (Taro, DUSA, Concert, Checkpoint) and one large all-stock deal (Ranbaxy, ~15% dilution, the chairman's own regret). Organon is the largest ever and the first to use heavy debt.",
+  "src": "ar26; dealcall; shp",
+  "published": "2026-05-22"
+ },
+ "moat": [
+  ["India franchise", "Strong", "No.1 with 8.5% of a Rs2.5 lakh cr market, No.1 by prescriptions in 12 specialist groups, 30 brands in the top 300, 16,767 medical reps at the industry's highest productivity (Rs11.5 mn each)", "Lets Sun launch generics of new molecules (semaglutide) and win share quickly; chronic therapies (60%+) are sticky"],
+  ["Specialty (innovative) franchise", "Moderate", "$1.42 bn of sales, 29 products, own US sales force in dermatology and onco-derm; Ilumya $796 mn", "Real, but built on in-licensed or acquired molecules with limited patent life; no in-house discovery engine of scale; the 'innovative' business is mid-sized by global standards"],
+  ["US generics", "Weak", "13th largest, 558 approved ANDAs, but four Indian plants under FDA action and few new approvals", "A commodity business with yearly price erosion; it has shrunk in dollars for three years"],
+  ["Emerging markets", "Moderate", "Scale in 80+ countries, 3,300 reps, local plants in eight", "Branded generics earn good margins but are exposed to currency and politics (Russia, Nigeria, Middle East)"],
+  ["Cost and integration", "Moderate", "Vertically integrated (13 API sites), 80% gross margin", "Helps margins; does not stop competitors"],
+  ["Balance sheet", "Strong (until Organon closes)", "$3.4 bn net cash at Jun-2026; investment-grade ratings (Moody's Baa1, S&P BBB+ per Geojit)", "Becomes ~2.3x net debt/EBITDA after Organon"]
+ ],
+ "critiques": [
+  ["Organon is a no-growth business bought with debt: only a third of it (innovative + biosimilars) grows, and the combined entity must 'sweat' the rest", "ICICI Securities (Hold), Aug-2026"],
+  ["The capital could have gone to higher-quality novel assets with better growth and returns; the deal is accretive but less compelling for long-term value", "JM Financial, Apr-2026"],
+  ["Combined growth slows to mid-single digits from 10-12% for Sun alone; servicing ~$8.5 bn of debt", "HDFC Securities (Buy), Apr-2026"],
+  ["US sales stuck around $1.9 bn for a third straight year; AbbVie's Rinvoq threatens Leqselvi's ramp; second year of tax-rate disappointment", "Emkay (Add), Aug-2026"],
+  ["The specialty launches are slow: global innovative sales flat to down for three quarters despite two big launches", "Elara Capital (call question), 31-Jul-2026"],
+  ["Fair multiple for the combined company is the open question", "Emkay, Apr-2026"]
+ ],
+ "gaps": [
+  "Product-level sales for Ilumya in FY27, Leqselvi, Unloxcyt, Cequa, Odomzo, Winlevi (the company gives only global innovative sales and annual Ilumya).",
+  "Split of US sales between innovative medicines, Taro and other generics (only 'US innovative > $1 bn' in FY26).",
+  "gRevlimid sales by year (only qualitative: 'Q1FY26 had some benefit').",
+  "Composition of Q1FY27 other income (Rs724 cr, +56% YoY): not disclosed.",
+  "Total Organon transaction and integration costs (management could not estimate; 'back-ended').",
+  "Final Organon financing mix (bonds vs loans, currency, interest rate) and Sun's post-deal dividend policy.",
+  "Where each patented US product is manufactured (exposure to the 100% Section 232 tariff from 29-Sep-2026).",
+  "Organon's undisturbed share price before the bid reports (premium paid); Organon's FY2025 free cash flow (management: ~$1 bn before financing).",
+  "FY22-FY24 business split is read from a chart (Rs bn, rounded).",
+  "Broker EPS for Motilal Oswal, Emkay (post-cut), Geojit; method details for Emkay's SOTP; no post-Q1 notes found from foreign brokers.",
+  "Related-party transactions with Aditya Medisales and other promoter entities (not extracted from the AR).",
+  "USFDA inspection outcomes after May-2026 (none found)."
+ ],
+ "conflicts": [
+  ["Q1FY27 Organon costs", "Rs161.7 cr (CFO on the call)", "Rs167 cr (presentation: 'Onyx transaction cost Rs1,670 mn'; ICICI Direct)", "We use Rs167 cr as booked"],
+  ["Q1FY27 EBITDA", "Rs4,418 cr incl. forex (company, Screener quarterly)", "Rs4,296 cr before forex (brokers)", "We forecast before forex; forex sits in other income"],
+  ["FY26 EBITDA", "Rs17,731 cr / 30.3% (company, incl. forex)", "Rs16,501 cr / 28.2% (Screener annual, before forex)", "Model uses Screener annual basis"],
+  ["Net cash Mar-26", "$3.2 bn (company)", "Rs31,699 cr on Screener (cash + investments - all borrowings incl. leases)", "Model uses the Screener basis; the company figure excludes some strategic investments"],
+  ["Organon EV/EBITDA", "6.2x (Business Today, Apr-2026)", "~6x (ICICI Direct)", "Same thing, rounding: $11.75 bn / $1.907 bn = 6.16x"]
+ ]
+}

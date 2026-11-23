@@ -1,0 +1,4604 @@
+{
+ "symbol": "SUNPHARMA",
+ "listing": "NSE: SUNPHARMA · BSE: 524715",
+ "date": "30 September 2026",
+ "rating": "HOLD",
+ "analysts": "GAM Research — Healthcare",
+ "cover": {
+  "headline": "India's best pharma franchise, about to become half of a bigger, slower and indebted company",
+  "lead": "Sun is India's largest drugmaker (8.5% of the market), the 13th largest US generics company and, with $1.42 bn of sales from Ilumya, Leqselvi, Unloxcyt and 26 other branded products, the only Indian company with a real global specialty business. On 27-Apr-2026 it agreed to buy **Organon & Co. for an enterprise value of $11.75 bn**, doubling revenue and taking on ~$9.5 bn of net debt; the deal was still awaiting regulatory approvals on 30-Sep-2026 (closing guided for Q4FY27). The street values Sun on **P/E on 12-month-forward or FY28E earnings**. We forecast standalone EPS of ₹51.3 / ₹58.4 / ₹65.2 for FY27-29E, ~8-11% below the street (higher tax, no forex gains, slower US). On the house rule (Sun's 26.6x median forward P/E on adjusted EPS × the +10.25% pharma factor = **29.5x Sep-28E EPS of ₹61.8**) plus Organon at what Sun pays (−₹26.2 a share), our target is **{{dcf.tp|inr}} ({{dcf.upside|chg}}): we initiate with HOLD.** Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "India and innovative medicines carry the growth",
+    "p": "India grew 16% in Q1FY27 (volume +5.4% vs the market's +2%) and Sun's share rose to 8.5% from 8.2%; it is No.1 by prescriptions with 12 specialist groups and No.2 in the new generic semaglutide market. Innovative medicines grew from $674 mn in FY22 to $1,420 mn in FY26 (Ilumya $796 mn) and $351 mn in Q1FY27 (+13%); Ilumya's US decision in psoriatic arthritis is due in late Oct-2026. Together they are ~55% of sales and most of the profit growth."
+   },
+   {
+    "h": "US generics shrink, and the plants are the reason",
+    "p": "US sales fell 9.7% to $427 mn in Q1FY27 as gRevlimid ended and competition rose; they have been ~$1.9 bn for three years. Four Indian plants are under FDA action (Halol import alert since 2022, Mohali under consent-decree batch checks, Dadra warning letter, Baska OAI since Dec-2025) and the chairman admits Sun is not getting approvals. From 29-Sep-2026 patented imports into the US carry a 100% Section 232 tariff unless exempt; Sun calls the FY27 impact marginal."
+   },
+   {
+    "h": "Organon: accretive on paper, not obviously valuable",
+    "p": "Sun pays 6.2x EBITDA and ~4x adjusted earnings for a company whose revenue fell 3% in 2025 and again in H1-2026, so the street sees 30-40% EPS accretion by FY28. But the earnings come with ~2.3x net debt/EBITDA, falling Nexplanon and China sales and only a third of the portfolio growing. A P/E built on Sun's own history should not be applied to Organon's earnings. We value Organon at cost: no value created until the $350 mn of synergies show."
+   },
+   {
+    "h": "Valuation: fair, not cheap",
+    "p": "At ₹1,817 the stock trades at 31.1x our FY28E EPS. Its forward P/E since Apr-2021 has a median of 26.6x on adjusted EPS (29.1x on reported EPS); peers trade 10% above their five-year medians, so the house multiple is 29.5x. That gives {{dcf.tp|inr}}, below the post-results street median of ₹2,100. The gap is mostly earnings: we are ~10% below the street on FY28E EPS (₹58.4 vs ~₹66.2)."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "AMBER"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "AMBER"
+   }
+  ],
+  "catalysts": [
+   "US FDA decision on Ilumya in psoriatic arthritis (action date late Oct-2026): the biggest near-term lever for innovative-medicine growth.",
+   "Q2FY27 results (due by mid-November 2026): the US generics base after gRevlimid, R&D returning to 6-7% of sales, Organon deal costs, the tax rate.",
+   "Organon closing (guided Q4FY27, i.e. Jan-Mar 2027): remaining regulatory approvals, the financing (bonds vs bank debt, cost), the dividend policy and the purchase-price allocation that will set reported EPS.",
+   "Section 232 tariffs on patented drug imports, in force for most companies from 29-Sep-2026: how Sun sources Ilumya, Leqselvi, Unloxcyt and its other branded products for the US.",
+   "FDA re-inspections of Halol, Baska and Dadra; new US generic approvals; AbbVie's Rinvoq decision in alopecia areata (expected by early 2027) against Leqselvi."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "Four businesses of similar size; India and EM grew fastest",
+       "unit": "Gross sales by business (₹ crore)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "India",
+         "values": [
+          12800,
+          13600,
+          14900,
+          16923,
+          19290
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "US",
+         "values": [
+          11400,
+          13500,
+          15300,
+          16240,
+          16824
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Emerging Markets",
+         "values": [
+          6700,
+          7900,
+          8600,
+          9416,
+          11187
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Rest of World + API",
+         "values": [
+          7600,
+          8200,
+          8900,
+          9462,
+          10919
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 4000,
+       "source": "Investor presentations (FY22-24 read from chart, rounded)"
+      },
+      {
+       "type": "column",
+       "title": "Innovative medicines: $674 mn in FY22, $1,420 mn in FY26",
+       "unit": "Global innovative medicines sales ($ mn)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Innovative medicines",
+         "values": [
+          674,
+          871,
+          1039,
+          1216,
+          1420
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor presentations; Q4FY26 call"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "US sales: ~$470 mn a quarter, then $427 mn in Q1FY27",
+       "unit": "US formulations ($ mn per quarter)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "US",
+         "values": [
+          466,
+          516,
+          474,
+          465,
+          473,
+          496,
+          477,
+          459,
+          427
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "PL Q1FY27 note (company data)"
+      },
+      {
+       "type": "column",
+       "title": "India: ₹4,145 cr a quarter two years ago, ₹5,475 cr now",
+       "unit": "India formulations (₹ crore per quarter)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "India",
+         "values": [
+          4145,
+          4265,
+          4300,
+          4213,
+          4721,
+          4735,
+          4999,
+          4836,
+          5475
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "PL Q1FY27 note; company presentations"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin before forex: 28-30% in our forecasts",
+       "unit": "EBITDA margin (%), Screener basis",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 15,
+       "max": 35,
+       "source": "Screener.in; GAM estimates FY27-29E (standalone)"
+      },
+      {
+       "type": "column",
+       "title": "Reported EPS: ₹12 in FY21, ₹48 in FY26, ₹65 in FY29E (standalone)",
+       "unit": "EPS (₹)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EPS",
+         "ref": "fin.eps",
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; GAM estimates FY27-29E (before exceptional items; Organon excluded)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: ~21-23x in 2021-23, ~31-34x since 2024",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2016-04-08",
+        "2016-05-13",
+        "2016-06-17",
+        "2016-07-22",
+        "2016-08-26",
+        "2016-09-30",
+        "2016-11-04",
+        "2016-12-09",
+        "2017-01-13",
+        "2017-02-17",
+        "2017-03-24",
+        "2017-04-28",
+        "2017-06-02",
+        "2017-07-07",
+        "2017-08-11",
+        "2017-09-15",
+        "2017-10-19",
+        "2017-11-24",
+        "2017-12-29",
+        "2018-02-02",
+        "2018-03-09",
+        "2018-04-13",
+        "2018-05-18",
+        "2018-06-22",
+        "2018-07-27",
+        "2018-08-31",
+        "2018-10-05",
+        "2018-11-09",
+        "2018-12-14",
+        "2019-01-18",
+        "2019-02-22",
+        "2019-03-29",
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E (reported EPS)",
+         "values": [
+          93,
+          91.1,
+          85.1,
+          90.1,
+          86.5,
+          85.1,
+          74.6,
+          77.1,
+          74.8,
+          77.4,
+          80.6,
+          57.8,
+          46.3,
+          49.4,
+          40.5,
+          47.2,
+          48.2,
+          49.5,
+          51.4,
+          49.6,
+          45.6,
+          32.7,
+          29.6,
+          36.8,
+          35.5,
+          41.6,
+          38.1,
+          38.1,
+          26.8,
+          24.9,
+          27.4,
+          30.5,
+          37.5,
+          33,
+          33.7,
+          34.3,
+          34.2,
+          34.5,
+          37.2,
+          36.7,
+          35.6,
+          31.8,
+          33.5,
+          34.4,
+          35.2,
+          39,
+          37.6,
+          37.6,
+          37.7,
+          42.2,
+          42.2,
+          43.6,
+          17.3,
+          19.2,
+          19.3,
+          19.5,
+          21.6,
+          21.8,
+          22.5,
+          21.3,
+          23.5,
+          24.9,
+          25.8,
+          23.2,
+          22.6,
+          20.8,
+          23,
+          22.3,
+          24.5,
+          25.3,
+          25.1,
+          26.1,
+          24.2,
+          22.2,
+          21,
+          21.8,
+          24.1,
+          24.3,
+          25.4,
+          25.1,
+          27.1,
+          29.1,
+          33.1,
+          35.3,
+          31.5,
+          30.5,
+          32.8,
+          36.3,
+          38.7,
+          39.9,
+          37.5,
+          38.9,
+          36.4,
+          33.6,
+          32.9,
+          33.8,
+          32.5,
+          33.1,
+          31.1,
+          31.8,
+          33,
+          35,
+          32.6,
+          33.6,
+          35,
+          31,
+          30.5,
+          33.2,
+          33.1,
+          31.5
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 29,
+         "text": "Median since Apr-2021: 29.1x"
+        },
+        {
+         "v": 29.5,
+         "text": "Our standalone multiple: 29.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual EPS, GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (notes standing on 30-Sep-2026)",
+       "unit": "₹ per share; CMP ₹1,817",
+       "x": [
+        "ICICI Securities (retail)",
+        "Prabhudas Lilladher",
+        "Motilal Oswal",
+        "Emkay",
+        "Geojit",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          2090,
+          2150,
+          2310,
+          2100,
+          2070,
+          1800
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes, 2-Aug to 21-Sep-2026 (median ₹2,100), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Sun does",
+   "kicker": "The business",
+   "title": "Four businesses of similar size, and a global specialty arm that runs through three of them",
+   "blocks": [
+    {
+     "p": "Sun makes and sells medicines in 100+ countries from 40 plants. Its FY26 gross sales of ₹58,220 cr came from five lines: **India formulations** (₹19,290 cr, 33%; branded generics sold through ~16,800 medical representatives), **US formulations** (₹16,824 cr, 29%; $1.9 bn, now more than half innovative medicines, the rest generics incl. Taro), **Emerging Markets** (₹11,187 cr, 19%; branded generics in 80+ countries, focus on Romania, Russia, South Africa, Brazil and Mexico), **Rest of World** (₹8,568 cr, 15%; Western Europe, Canada, Japan, Australia, Israel) and **API** (₹2,185 cr, 4%). Cutting across the US, RoW and EM is the **innovative medicines** business: 29 branded products in dermatology, ophthalmology and onco-dermatology, $1,420 mn of sales in FY26 (22% of the total), led by the psoriasis biologic Ilumya ($796 mn)."
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "FY26 sales mix: India the largest single piece",
+       "unit": "% of FY26 gross sales",
+       "x": [
+        "India",
+        "US",
+        "Emerging Markets",
+        "Rest of World",
+        "API & other"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          33.1,
+          28.9,
+          19.2,
+          14.7,
+          4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "India",
+       "source": "Q1FY27 investor presentation p.54"
+      },
+      {
+       "type": "column",
+       "title": "Innovative medicines: 13% of sales in FY22, 22% in FY26",
+       "unit": "Innovative medicines, % of sales",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Share of sales",
+         "values": [
+          13.1,
+          16.2,
+          18,
+          19.8,
+          21.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor presentation Jun-2026 p.20"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The businesses at a glance",
+      "head": [
+       "Business",
+       "FY26 sales",
+       "FY26 growth",
+       "Q1FY27 growth",
+       "What drives it",
+       "Our FY27E-29E"
+      ],
+      "wide": [
+       4
+      ],
+      "rows": [
+       [
+        "India formulations",
+        "₹19,290 cr",
+        "+14.0%",
+        "+16.0%",
+        "No.1 (8.5% share); chronic therapies (neuro, cardiac, gastro, diabetes); volume + new launches (semaglutide)",
+        "+14% / +12% / +11.5%"
+       ],
+       [
+        "US formulations",
+        "$1,905 mn",
+        "−0.8% ($)",
+        "−9.7% ($)",
+        "Innovative medicines up; generics down (gRevlimid ended Jan-2026; FDA issues limit approvals)",
+        "$ −4% / +6% / +6%"
+       ],
+       [
+        "Emerging Markets",
+        "$1,265 mn",
+        "+13.6% ($); +8.2% cc",
+        "+4.2% ($)",
+        "Branded generics; Ilumya in Romania, Brazil; semaglutide in South Africa, Brazil; currency and geopolitics",
+        "$ +6% / +7% / +7%"
+       ],
+       [
+        "Rest of World",
+        "$969 mn",
+        "+14.4% ($)",
+        "0% ($)",
+        "Ilumya and Odomzo in Europe, Japan, Canada, ANZ; generics in Canada, Israel, Japan",
+        "$ +3% / +6% / +6%"
+       ],
+       [
+        "API",
+        "₹2,185 cr",
+        "+2.6%",
+        "+10.5%",
+        "400+ APIs, 13 sites; supports cost and supply",
+        "+8% / +7% / +6%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Innovative medicines (inside US/RoW/EM)**",
+         "**$1,420 mn**",
+         "**+16.8%**",
+         "**+12.8%**",
+         "Ilumya $796 mn; Cequa, Odomzo, Winlevi, Levulan; new: Leqselvi (Jul-2025), Unloxcyt (Jan-2026)",
+         "Not modelled separately"
+        ]
+       }
+      ],
+      "source": "Company presentations and calls (FY26, Q1FY27); GAM estimates. cc = constant currency."
+     }
+    },
+    {
+     "callout": "**So what:** Sun is not one business but a portfolio. India (33.0% of FY27E revenue in our build) is a high-margin, steady compounder; innovative medicines are the growth engine and the reason Sun trades at a premium to generic peers; US generics, once the core, are now a shrinking, low-margin drag held back by factory problems. Organon would add a fifth, larger piece: mature off-patent brands, women's health and biosimilars."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History",
+   "kicker": "History & corporate actions",
+   "title": "Built by acquisition: Caraco, Taro, Ranbaxy, then specialty assets, now Organon",
+   "blocks": [
+    {
+     "p": "Dilip Shanghvi started Sun in 1983 with five psychiatry products and ₹10,000 of capital. Its rise has been a sequence of acquisitions, mostly of troubled assets bought cheaply and fixed: Caraco (US entry, 1997), Taro (2010), DUSA (2012), Ranbaxy (2015, all-stock) and a string of specialty products in 2014-25. Organon (2026) is the largest by far and the first funded with heavy debt."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "Year",
+       "Event",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1983",
+        "Founded by Dilip Shanghvi in Vapi with five psychiatry products",
+        "Start of a chronic-therapy focus that still defines India"
+       ],
+       [
+        "1994",
+        "IPO raising ₹55 cr",
+        ""
+       ],
+       [
+        "1997",
+        "Caraco (Detroit) bought: entry into US generics",
+        "US now 29% of sales"
+       ],
+       [
+        "2010",
+        "Control of Taro Pharmaceutical (Israel): US dermatology generics",
+        "Taro's price-fixing litigation later cost $200 mn+ (GxMDL)"
+       ],
+       [
+        "2012",
+        "DUSA Pharmaceuticals (Levulan): first branded US product",
+        "Start of innovative medicines"
+       ],
+       [
+        "2014-15",
+        "Ranbaxy merger (all-stock; ~15% dilution, completed Mar-2015)",
+        "Made Sun India's No.1; brought Mohali, Dewas, Paonta Sahib and the consent decree; FY22 charge of ₹3,936 cr for Ranbaxy-era US litigation"
+       ],
+       [
+        "2014-16",
+        "In-licensed tildrakizumab (Ilumya) from Merck; bought Odomzo (Novartis), Cequa (Ocular), 14 Novartis brands in Japan, Biosintez (Russia)",
+        "Built today's specialty portfolio"
+       ],
+       [
+        "2018",
+        "Ilumya approved and launched in the US",
+        "Largest product: $796 mn in FY26"
+       ],
+       [
+        "2019-21",
+        "Pola Pharma (Japan); Winlevi licence",
+        ""
+       ],
+       [
+        "2023",
+        "Concert Pharmaceuticals ($576 mn incl. CVR): deuruxolitinib (Leqselvi)",
+        "Screener: ₹4,686 cr acquisition outflow in FY23"
+       ],
+       [
+        "2024",
+        "Taro minority bought out (Jun-2024; ₹2,900 cr outflow in FY25 financing)",
+        "Minorities fall from ₹3,459 cr to ₹268 cr of book value"
+       ],
+       [
+        "2025",
+        "Checkpoint Therapeutics (cosibelimab) acquired 30-May-2025; Leqselvi launched 14-Jul-2025; Dilip Shanghvi hands MD role to Kirti Ganorkar (1-Sep-2025)",
+        "₹3,405 cr acquisition outflow in FY26"
+       ],
+       [
+        "2026",
+        "Unloxcyt launched (Jan); semaglutide launched in India (Mar); Organon acquisition signed (Apr; EV $11.75 bn; close Q4FY27)",
+        "Doubles revenue, adds ~$9.5 bn of net debt"
+       ]
+      ],
+      "source": "Investor presentations (key deals); AR FY26; Screener.in cash flows; company press releases"
+     }
+    },
+    {
+     "callout": "**The pattern to remember:** Sun's best deals were cheap and small relative to the company (Taro, DUSA, Ilumya's licence, Concert). Ranbaxy was large, took five years to fix (Halol and Mohali still carry its legacy) and diluted shareholders ~15%. Organon is Ranbaxy-sized, but paid in cash and debt, so the dilution risk is replaced by a leverage risk."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Three different markets: a growing Indian branded market, a deflating US generics market and a niche specialty market",
+   "blocks": [
+    {
+     "h": "India: ₹2.5 lakh crore, growing ~10% a year, fragmented"
+    },
+    {
+     "p": "The Indian pharmaceutical market was ₹2,52,700 cr in the 12 months to Jun-2026 (Pharmarack). Growth is mostly price and new products; volume grew only ~2% in Q1FY27. The market is fragmented: the top 12 companies hold ~54%. Sun leads with 8.5%, ahead of Abbott (5.9%), Cipla (5.8%) and Mankind (5.5%). Chronic therapies (cardiac, diabetes, neuro, gastro) grow faster than acute ones and are where Sun is strongest. GLP-1 generics (semaglutide went off patent in India in Mar-2026) pushed diabetes growth to ~15%."
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "India: Sun has 8.5%, nobody else above 6%",
+       "unit": "Share of Indian formulation sales, 12 months to Jun-2026 (%)",
+       "x": [
+        "Sun Pharma",
+        "Abbott (incl. Abbott HC, Novo)",
+        "Cipla",
+        "Mankind",
+        "Torrent",
+        "Alkem (incl. Cachet, Indchemie)",
+        "Intas",
+        "Lupin",
+        "Zydus",
+        "Dr Reddy's",
+        "Macleods",
+        "Aristo"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          8.5,
+          5.9,
+          5.8,
+          5.5,
+          5,
+          4.1,
+          4,
+          3.5,
+          3.2,
+          3.1,
+          3,
+          2.8
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Sun Pharma",
+       "source": "AIOCD AWACS via Sun investor presentation Sep-2026"
+      },
+      {
+       "type": "hbar",
+       "title": "Sun India by therapy: neuro, cardiac, gastro = half",
+       "unit": "% of Sun India sales (MAT Mar-2026)",
+       "x": [
+        "Neuro-psychiatry",
+        "Cardiology",
+        "Gastroenterology",
+        "Diabetology",
+        "Pain / analgesics",
+        "Anti-infectives",
+        "Respiratory",
+        "Vitamins / minerals",
+        "Gynaecology",
+        "Dermatology",
+        "Ophthalmology",
+        "Urology",
+        "Others"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          19,
+          17,
+          14,
+          9,
+          7,
+          6,
+          5,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "AIOCD AWACS via Sun investor presentation Jun-2026"
+      }
+     ]
+    },
+    {
+     "h": "US generics: volume grows, prices fall every year"
+    },
+    {
+     "p": "US generics are a commodity market: buying groups negotiate hard, each new competitor cuts prices, and growth comes only from new approvals and limited-competition launches (such as gRevlimid in 2022-26). Sun is the 13th largest player, with 558 approved ANDAs and 119 pending (Jun-2026), but its Indian plants' FDA problems have slowed approvals. From 29-Sep-2026 the US charges a 100% Section 232 tariff on imported **patented** drugs (15% for the EU and Japan, 0% for companies with pricing-and-onshoring agreements); **generics and biosimilars are excluded**, for now: the Commerce Department must report within a year on whether to extend them."
+    },
+    {
+     "h": "Specialty: dermatology, ophthalmology, onco-derm; women's health and biosimilars with Organon"
+    },
+    {
+     "p": "Sun's innovative medicines compete in niches: IL-23 biologics in psoriasis (Ilumya vs J&J's Tremfya and AbbVie's Skyrizi, and cheap Stelara biosimilars), JAK inhibitors in alopecia (Leqselvi vs Lilly's Olumiant, Pfizer's Litfulo and soon AbbVie's Rinvoq), PD-1/PD-L1 drugs in skin cancer (Unloxcyt vs Libtayo and Keytruda). Organon would add women's health (a $35 bn market growing 6-10%, Organon No.2 in contraception, No.3 in fertility) and biosimilars ($320 bn of drugs lose exclusivity by 2035, a ~$70 bn biosimilar opportunity per Sun)."
+    },
+    {
+     "callout": "**So what:** two of Sun's three markets are attractive (India branded, global specialty). The third (US generics) is structurally deflationary and needs a clean factory record, which Sun currently lacks in India."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Does the sector tailwind reach Sun? In India yes, in the US no, in specialty only if the launches work",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Tailwind test",
+      "head": [
+       "Tailwind",
+       "Is it real?",
+       "Does it reach Sun?",
+       "Evidence"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Indian market growth (~10%), chronic shift",
+        "Yes",
+        "Yes, more than peers",
+        "Sun India +14% in FY26, +16% in Q1FY27; share 8.1% → 8.4% → 8.5%; volume +5.4% vs market +2%"
+       ],
+       [
+        "GLP-1 generics (semaglutide off patent in India Mar-2026, then Brazil, South Africa, Canada)",
+        "Yes",
+        "Partly",
+        "No.2 generic semaglutide player in India, auto-injector; approvals in Brazil and South Africa; many rivals, prices falling"
+       ],
+       [
+        "US generics (new launches, shortages)",
+        "Weak",
+        "No",
+        "US sales $1.92 bn (FY25) → $1.91 bn (FY26) → $427 mn in Q1FY27 (−9.7%); four plants under FDA action"
+       ],
+       [
+        "Global specialty demand (IL-23, JAK, PD-L1)",
+        "Yes",
+        "Yes, but slowly",
+        "Innovative sales +16.8% in FY26 but flat sequentially for three quarters; Leqselvi >1,000 prescribers, Unloxcyt still small"
+       ],
+       [
+        "Weak rupee",
+        "Yes (FY26-27)",
+        "Yes, in rupee terms",
+        "Rupee ~88.5 → ~95.8 per $: adds ~5 points to FY27 rupee growth; FY26 forex gain ₹1,240 cr; not a recurring source of value"
+       ],
+       [
+        "US tariffs on patented drugs",
+        "Headwind",
+        "Marginally (management)",
+        "100% on patented imports from 29-Sep-2026 unless exempt; Sun: \"marginal impact\" in FY27"
+       ]
+      ],
+      "source": "Company calls and presentations; IQVIA/AIOCD via company; JD Supra (Section 232)"
+     }
+    },
+    {
+     "callout": "**Verdict:** Sun captures the Indian tailwind better than any large peer and has the only scaled global specialty business among Indian companies. It does not capture the US generics opportunity and will not until the FDA issues are resolved. Much of FY27's rupee growth is currency."
+    }
+   ]
+  },
+  {
+   "id": "innovative",
+   "nav": "Innovative medicines",
+   "kicker": "Segment: global innovative medicines",
+   "title": "$1.42 bn of specialty sales, growing ~13-17%; the new launches are slower than hoped",
+   "blocks": [
+    {
+     "p": "Sun began building a branded (\"innovative\" or \"specialty\") business in 2012 with DUSA's Levulan and now sells 29 such products, mostly in the US through its own sales force. Sales grew from $674 mn in FY22 to $1,420 mn in FY26 (+16.8% in FY26) and were $351 mn in Q1FY27 (+12.8%, 21.9% of Sun's sales). In the US, innovative medicines passed $1 bn in FY26 and are now bigger than Sun's US generics. The engine is **Ilumya** (tildrakizumab, an IL-23 biologic for psoriasis licensed from Merck in 2014): $796 mn in FY26 (+16.7%), launched in ~40 countries, with a US decision on psoriatic arthritis due in late Oct-2026. Behind it come Cequa (dry eye), Odomzo (basal cell carcinoma), Winlevi (acne) and Levulan, and two launches: **Leqselvi** (oral JAK for severe alopecia areata; US launch 14-Jul-2025 after a royalty-bearing settlement with Incyte) and **Unloxcyt** (PD-L1 antibody for advanced cutaneous squamous cell carcinoma; available from 15-Jan-2026)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Innovative sales: +24% a year since FY21, +17% in FY26",
+       "unit": "Global innovative medicines ($ mn)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Innovative medicines",
+         "values": [
+          674,
+          871,
+          1039,
+          1216,
+          1420
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor presentation Jun-2026 p.20; Q4FY26 call"
+      },
+      {
+       "type": "column",
+       "title": "Quarterly: $354 mn in Q4FY26, $351 mn in Q1FY27",
+       "unit": "Innovative medicines ($ mn per quarter; Q2-Q3FY26 not disclosed separately)",
+       "x": [
+        "Q4FY25",
+        "Q1FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Innovative medicines",
+         "values": [
+          295,
+          311,
+          354,
+          351
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 and Q1FY27 calls (growth rates applied to back out the year-ago quarters)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The innovative portfolio",
+      "head": [
+       "Product",
+       "What it is",
+       "Status / numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Ilumya (tildrakizumab)",
+        "IL-23 for moderate-to-severe plaque psoriasis; US, Japan, Canada, Australia, Europe (Almirall), China (CMS); launched in ~40 countries",
+        "FY26 global sales $796 mn (+16.7%); US BLA for psoriatic arthritis accepted, decision due late Oct-2026; Medicare Part B reimbursement unaffected by cheap Stelara biosimilars (management)"
+       ],
+       [
+        "Leqselvi (deuruxolitinib)",
+        "Oral JAK for severe alopecia areata (from the $576 mn Concert acquisition, 2023)",
+        "US launch 14-Jul-2025 after the Incyte patent settlement (royalty-bearing licence); >1,000 prescribers in Jun-2026; adolescent Phase 3 running; rival: Lilly's Olumiant, Pfizer's Litfulo, AbbVie's Rinvoq (US decision expected by Feb-2027 per Emkay)"
+       ],
+       [
+        "Unloxcyt (cosibelimab)",
+        "PD-L1 for advanced cutaneous squamous cell carcinoma (from Checkpoint Therapeutics, acquired 30-May-2025)",
+        "US availability 15-Jan-2026; infused, Medicare Part B; positioned on tolerability vs Regeneron's Libtayo and Merck's Keytruda"
+       ],
+       [
+        "Cequa",
+        "Dry eye (cyclosporine)",
+        "Growing (management, May-2026); US, Canada, India; China via CMS"
+       ],
+       [
+        "Odomzo",
+        "Basal cell carcinoma (from Novartis, 2016)",
+        "US, Canada, EU, Australia, Israel"
+       ],
+       [
+        "Winlevi",
+        "Topical acne (in-licensed from Cassiopea/Cosmo, 2021)",
+        "New commercial model lifting prescriptions (management, May-2026)"
+       ],
+       [
+        "Levulan Kerastick",
+        "Photodynamic therapy for actinic keratoses (from DUSA, 2012)",
+        "Seasonal: weak in Apr-Sep quarters"
+       ],
+       [
+        "Others",
+        "Absorica LD, Yonsa, Xelpros, Sezaby, sprinkle generics for long-term care",
+        ""
+       ]
+      ],
+      "source": "Company presentations and calls; Business Standard (14-Jul-2025); sunpharma.com/usa (15-Jan-2026); Emkay (4-Aug-2026)"
+     }
+    },
+    {
+     "h": "What we watch"
+    },
+    {
+     "p": "Three questions decide this business. (1) **Can Ilumya keep growing?** IL-23 is the fastest-growing class in psoriasis, and Ilumya's Medicare Part B channel is not affected by cheap Stelara biosimilars (management), but it is the third IL-23 in a market led by J&J's Tremfya and AbbVie's Skyrizi; psoriatic arthritis (decision late Oct-2026) adds a second indication. (2) **How fast do Leqselvi and Unloxcyt build?** Management will not give product numbers; Leqselvi passed 1,000 prescribers in June 2026 and has most US covered lives, Unloxcyt is being added to cancer-centre formularies. But global innovative sales were broadly flat for three quarters despite both launches (an analyst's point on the Q1 call), launch spend (~$100 mn in FY26) is now permanent, and AbbVie's Rinvoq could be approved in alopecia by early 2027. (3) **Can Sun replace products that lose exclusivity?** The in-house pipeline is thin (Fibromun in Phase 3, Nidlegy refiled in Europe by its partner, GL0034 and MM-II to be partnered; SCD-044 was dropped in FY26)."
+    },
+    {
+     "callout": "**Our view:** a valuable, profitable franchise (we estimate it earns well above the group margin) that has moved Sun from a generics company to a hybrid. But it is mid-sized by global standards ($1.4 bn), built on in-licensed molecules with limited patent life, and its growth is slowing from 20%+ to low-to-mid teens. We do not model it separately; our US dollar growth of −4% / +6% / +6% assumes innovative medicines grow ~12-15% a year and offset generic erosion from FY28."
+    }
+   ]
+  },
+  {
+   "id": "us",
+   "nav": "US generics & FDA",
+   "kicker": "Segment: US formulations",
+   "title": "US: $1.9 bn for three years, falling in FY27; four plants under FDA action",
+   "blocks": [
+    {
+     "p": "US formulations were $1,921 mn in FY25, $1,905 mn in FY26 and $427 mn in Q1FY27 (−9.7%; 26.6% of sales). The mix has changed: innovative medicines grew to over $1 bn while generics (including Taro, fully owned since Jun-2024) shrank, first through price erosion and then through the end of gRevlimid (the limited-volume generic of Revlimid that boosted many Indian companies in FY23-26 until full generic entry in Jan-2026). Management blames \"additional competition in certain products\" and, more fundamentally, the plants: \"because of the compliance issue, we haven't been getting approval\" (chairman, 22-May-2026)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "US quarterly sales: no growth for two years, then a drop",
+       "unit": "US formulations ($ mn)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "US",
+         "values": [
+          466,
+          516,
+          474,
+          465,
+          473,
+          496,
+          477,
+          459,
+          427
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "PL Q1FY27 note; company calls"
+      },
+      {
+       "type": "column",
+       "title": "Our US build: down in FY27E, +6% a year after",
+       "unit": "US formulations ($ mn), GAM estimates",
+       "x": [
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "US",
+         "values": [
+          1900,
+          1824,
+          1933,
+          2049
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "GAM estimates (businessLines in assumptions.json)"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "US FDA status of key Indian plants (as disclosed by 30-Sep-2026)",
+      "head": [
+       "Site",
+       "Status",
+       "What it means"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Halol (Gujarat)",
+        "Import Alert 66-40 since Dec-2022 and Warning Letter (amended Oct-2023); re-inspected Jun-2025 (8 observations), classified OAI again in Sep-2025",
+        "Largest former US supply site; still blocked"
+       ],
+       [
+        "Mohali (Punjab)",
+        "Ex-Ranbaxy; under the 2012 Ranbaxy consent decree; OAI Aug-2022; FDA non-compliance letter Apr-2023: an independent cGMP expert must certify each batch before US shipment",
+        "Ships to the US only with third-party batch certification"
+       ],
+       [
+        "Dadra",
+        "Inspected Dec-2023, OAI; Warning Letter Jun-2024",
+        "No new US approvals from the site"
+       ],
+       [
+        "Baska (Gujarat)",
+        "Inspected 8-19 Sep-2025, classified OAI in Dec-2025",
+        "Newest problem site"
+       ]
+      ],
+      "source": "AR FY26 standalone note 54 and BRSR; FDA warning letters (15-Dec-2022, 16-Oct-2023, 18-Jun-2024); Business Standard (9-Sep-2025, 18-Dec-2025). No new FDA actions found for Jun-Sep 2026."
+     }
+    },
+    {
+     "h": "Tariffs: generics are exempt; patented products are not"
+    },
+    {
+     "p": "Section 232 proclamation of 2-Apr-2026 (Proclamation 11020): 100% duty on patented pharmaceuticals and their APIs (15% for EU, Japan, Korea, Switzerland; 10% UK; 20% for companies with approved US onshoring plans; 0% to Jan-2029 for companies with MFN-pricing and onshoring agreements); generics and biosimilars excluded (Commerce to review within a year); orphan drugs can get 0%. In force from 31-Jul-2026 for companies named in Annex III and from 29-Sep-2026 for all others. Sun has three US formulation plants (Levulan is made in the US); it does not disclose where Ilumya, Cequa, Odomzo, Winlevi, Leqselvi or Unloxcyt are made. Its North America CEO called the FY27 impact \"marginal\" (22-May-2026) and said Sun is looking at all alternatives. We model no tariff cost; it is a risk to our innovative growth assumption if Sun has to absorb the duty on a large product."
+    },
+    {
+     "callout": "**Our view:** US generics are a drag, not a driver, and will remain so until Halol, Mohali, Dadra and Baska are cleared; the greenfield sterile plant in Madhya Pradesh is years away. We assume US dollar sales fall 4% in FY27E (gRevlimid out of the base; Q1 annualises at ~$1.71 bn) and grow 6% a year in FY28-29E on innovative medicines. Street estimates (Emkay: US ~$1.9 bn for a third year) are similar."
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "nav": "India",
+   "kicker": "Segment: India formulations",
+   "title": "India: No.1 and still gaining share; the most valuable part of Sun",
+   "blocks": [
+    {
+     "p": "India formulations grew 14% to ₹19,290 cr in FY26 and 16% to ₹5,475 cr in Q1FY27 (36% of sales). Sun's share of the Indian market rose from 8.1% to 8.4% in FY26, \"the highest gain since the Ranbaxy acquisition\" (MD), and to 8.5% in the 12 months to Jun-2026. Growth is unusually volume-led: in Q1FY27 40% came from volume and 20% from new products (volume +5.4% vs the market's +2%), helped by field-force expansion into tier-2 and tier-3 towns (medical reps up from 11,149 in FY22 to 16,767 in FY26) while productivity held at ₹11.5 mn per rep, the industry's highest. Sun is No.1 by prescriptions with 12 groups of specialists, has 30 brands in India's top 300 and its top 10 brands are only ~17% of India sales. Semaglutide (launched 21-Mar-2026 as Noveltreat and Sematrinity, with the only auto-injector) made Sun the No.2 generic player within four months."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "India sales: +14% in FY26, +16% in Q1FY27",
+       "unit": "India formulations (₹ crore per quarter)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "India",
+         "values": [
+          4145,
+          4265,
+          4300,
+          4213,
+          4721,
+          4735,
+          4999,
+          4836,
+          5475
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "PL Q1FY27 note; company presentations"
+      },
+      {
+       "type": "column",
+       "title": "Field force up 50% in four years, productivity held",
+       "unit": "Medical representatives (number)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Medical reps",
+         "values": [
+          11149,
+          12692,
+          13984,
+          15109,
+          16767
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor presentation Jun-2026 p.31"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "table",
+       "title": "Top brands (MAT Jun-2026)",
+       "head": [
+        "Brand",
+        "₹ cr",
+        "3-yr CAGR"
+       ],
+       "rows": [
+        [
+         "Rosuvas",
+         "641.3",
+         "20%"
+        ],
+        [
+         "Levipil",
+         "491.6",
+         "10%"
+        ],
+        [
+         "Gemer",
+         "385.4",
+         "6%"
+        ],
+        [
+         "Pantocid",
+         "378.4",
+         "12%"
+        ],
+        [
+         "Susten",
+         "372.9",
+         "10%"
+        ],
+        [
+         "Pantocid-D",
+         "341.9",
+         "11%"
+        ],
+        [
+         "Sompraz-D",
+         "324.7",
+         "17%"
+        ],
+        [
+         "Montek-LC",
+         "310.7",
+         "9%"
+        ],
+        [
+         "Volini",
+         "309.9",
+         "-3%"
+        ],
+        [
+         "Istamet",
+         "263.6",
+         "18%"
+        ]
+       ],
+       "source": "ICICI Direct Q1FY27 note (AWACS data)"
+      },
+      {
+       "type": "table",
+       "title": "Prescription rank by specialist",
+       "head": [
+        "Specialist",
+        "Feb-23",
+        "Feb-24",
+        "Feb-25",
+        "Feb-26"
+       ],
+       "rows": [
+        [
+         "Psychiatrists",
+         1,
+         1,
+         1,
+         1
+        ],
+        [
+         "Neurologists",
+         1,
+         1,
+         1,
+         1
+        ],
+        [
+         "Cardiologists",
+         1,
+         1,
+         1,
+         1
+        ],
+        [
+         "Gastroenterologists",
+         1,
+         1,
+         1,
+         1
+        ],
+        [
+         "Diabetologists",
+         1,
+         1,
+         1,
+         1
+        ],
+        [
+         "Dermatologists",
+         1,
+         1,
+         1,
+         1
+        ],
+        [
+         "Consulting physicians",
+         1,
+         1,
+         1,
+         1
+        ],
+        [
+         "Gynaecologists",
+         2,
+         2,
+         1,
+         1
+        ],
+        [
+         "Nephrologists",
+         1,
+         1,
+         2,
+         2
+        ],
+        [
+         "Ophthalmologists",
+         2,
+         1,
+         1,
+         2
+        ],
+        [
+         "Oncologists",
+         3,
+         3,
+         2,
+         4
+        ]
+       ],
+       "source": "SMSRC via Sun investor presentation Jun-2026"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** this is the crown jewel: a broad, chronic-heavy, prescription-led franchise growing faster than a ~10% market with a light dependence on any one brand. We model +14% in FY27E (semaglutide, field force), then +12% and +11.5%. Risks: price controls (NLEM revisions, trade margin caps), generic-generic competition in GLP-1s, and the Organon deal shrinking India to ~17% of the combined company, which dilutes the best business."
+    }
+   ]
+  },
+  {
+   "id": "emrow",
+   "nav": "EM, RoW & API",
+   "kicker": "Segments: Emerging Markets, Rest of World, API",
+   "title": "EM and RoW: a third of sales, growing high single digits in dollars; currency flatters the rupee numbers",
+   "blocks": [
+    {
+     "p": "**Emerging Markets** (₹11,187 cr, 19% of FY26 sales) are branded generics sold by ~3,300 reps in 80+ countries, with local plants in Bangladesh, South Africa, Malaysia, Romania, Egypt, Nigeria, Morocco and Russia. FY26 sales were $1,265 mn (+13.6%; +8.2% in constant currency); Q1FY27 $311 mn, only +4.2%, which management put down to \"geopolitical issues and difficult macroeconomic conditions in certain countries\". Ilumya is now sold in several EMs (Romania, Brazil) and semaglutide is approved in South Africa (launched) and Brazil (partner launch due). **Rest of World** (₹8,568 cr, 15%) covers Western Europe, Canada, Japan, Australia and Israel: $969 mn in FY26 (+14.4%, led by Ilumya and Odomzo), but flat at $218 mn for two quarters. **API** (₹2,185 cr, 4%) supplies Sun's own formulations and third parties from 13 sites."
+    },
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "EM + RoW: ₹3,951 cr a quarter in Q1FY25, ₹5,014 cr in Q1FY27",
+       "unit": "₹ crore per quarter (EM and RoW split from Q4FY25)",
+       "x": [
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Emerging Markets",
+         "values": [
+          2256,
+          2553,
+          2837,
+          3000,
+          2797,
+          2946
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Rest of World",
+         "values": [
+          1734,
+          1874,
+          2041,
+          2639,
+          2014,
+          2069
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 1500,
+       "source": "Company presentations; Emkay Q4FY26 note; PL Q1FY27 note"
+      },
+      {
+       "type": "column",
+       "title": "Our dollar build: EM +6-7%, RoW +3-6% a year",
+       "unit": "$ mn, GAM estimates",
+       "x": [
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Emerging Markets",
+         "values": [
+          1265,
+          1341,
+          1435,
+          1535
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Rest of World",
+         "values": [
+          969,
+          998,
+          1058,
+          1121
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "GAM estimates"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** good, profitable businesses that diversify Sun away from the US, but their rupee growth in FY26-27 is half currency (the rupee fell from ~85 to ~96 per dollar). We assume dollar growth of +6% / +7% / +7% (EM) and +3% / +6% / +6% (RoW), a flat rupee after Sep-2026, and no Leqselvi or Unloxcyt sales outside the US in FY27 (management)."
+    }
+   ]
+  },
+  {
+   "id": "organon",
+   "nav": "The Organon deal",
+   "kicker": "Pending acquisition",
+   "title": "Organon: Sun doubles in size for $11.75 bn; cheap on earnings, expensive on what it does to the balance sheet",
+   "blocks": [
+    {
+     "p": "On 27-Apr-2026 Sun signed a definitive agreement to buy **Organon & Co.** (NYSE: OGN), the women's-health, biosimilars and established-brands company spun out of Merck in 2021, for **$14.00 a share in cash: equity value $3.99 bn, enterprise value $11.75 bn**. Organon's shareholders approved it in July 2026; regulatory filings were complete and some approvals received by 31-Jul-2026; closing is guided for Q4FY27 (Jan-Mar 2027). Sun will pay $2.0-2.5 bn from its own cash and the rest with committed bank debt, and inherit Organon's ~$8.5 bn of debt. FY2025: revenue $6,216 mn (-3%): women's health $1,752 mn (Nexplanon $921 mn), biosimilars $691 mn (Hadlima, Renflexis; +13% CAGR since 2021), established brands $3,691 mn (Zetia, Atozet, Arcoxia, Hyzaar, Cozaar, Singulair), other $82 mn; adjusted EBITDA $1,907 mn (30.7%); GAAP net income $187 mn; adjusted net income $954 mn (EPS $3.66); debt $8.64 bn, cash $574 mn at Dec-2025. 2026 guidance: revenue ~$6.2 bn, adjusted EBITDA ~$1.9 bn, interest ~$500 mn. Q2-2026 (10-Q, Aug-2026): revenue $1.56 bn (-2%), H1 $3.02 bn (-3%); Nexplanon down, stabilisation expected in H2-2026; China volume-based procurement and LOEs weigh. China sales >$800 mn."
+    },
+    {
+     "pair": [
+      {
+       "type": "table",
+       "title": "Deal terms",
+       "head": [
+        "",
+        "Value"
+       ],
+       "rows": [
+        [
+         "Price per Organon share",
+         "$14.00 cash"
+        ],
+        [
+         "Equity value",
+         "$3.99 bn (₹38,228 cr)"
+        ],
+        [
+         "Enterprise value",
+         "$11.75 bn (₹1,12,577 cr)"
+        ],
+        [
+         "EV / 2025 adjusted EBITDA ($1,907 mn)",
+         "6.2x"
+        ],
+        [
+         "Equity / 2025 adjusted net income ($954 mn)",
+         "4.2x"
+        ],
+        [
+         "Funding",
+         "$2.0-2.5 bn Sun cash + bank debt"
+        ],
+        [
+         "Pro-forma net debt / EBITDA",
+         "~2.3x"
+        ],
+        [
+         "Cost synergies",
+         "~$350 mn in 2-4 years"
+        ],
+        [
+         "Expected closing",
+         "Q4FY27"
+        ]
+       ],
+       "source": "Sun investor call (27-Apr-2026); Organon 8-K (12-Feb-2026); rupee at 95.81 (30-Sep-2026)"
+      },
+      {
+       "type": "hbar",
+       "title": "Organon 2025 revenue: 59% established brands",
+       "unit": "Organon FY2025 revenue by franchise ($ mn)",
+       "x": [
+        "Established brands",
+        "Women's health (Nexplanon $921 mn)",
+        "Biosimilars",
+        "Other"
+       ],
+       "series": [
+        {
+         "name": "Revenue",
+         "values": [
+          3691,
+          1752,
+          691,
+          82
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Organon 8-K, 12-Feb-2026"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What the combined company looks like (management, 27-Apr-2026)",
+      "head": [
+       "",
+       "Sun today",
+       "Sun + Organon"
+      ],
+      "rows": [
+       [
+        "Revenue",
+        "~$6.2 bn",
+        "~$12.4 bn"
+       ],
+       [
+        "Innovative medicines share",
+        "~20%",
+        "~27%"
+       ],
+       [
+        "Established brands + branded generics",
+        "—",
+        "~51%"
+       ],
+       [
+        "Generics / biosimilars",
+        "—",
+        "~15% / ~6%"
+       ],
+       [
+        "Geography",
+        "India 33%, US 29%, EM 19%, RoW 15%",
+        "US 27%, EM 29%, RoW incl. Europe 28%, India 17%"
+       ],
+       [
+        "Markets above $100 mn",
+        "—",
+        "18 (incl. China >$800 mn for Organon)"
+       ],
+       [
+        "Front-line staff",
+        "India 16,767 + EM ~3,300 reps (+ US specialty)",
+        "~24,000"
+       ],
+       [
+        "Balance sheet",
+        "$3.4 bn net cash (Jun-26)",
+        "~2.3x net debt / EBITDA"
+       ],
+       [
+        "Organic growth",
+        "~10% (FY26)",
+        "Mid-single digit (HDFC Securities)"
+       ]
+      ],
+      "source": "Sun Organon investor call (27-Apr-2026); HDFC Securities via Business Today (28-Apr-2026)"
+     }
+    },
+    {
+     "h": "Accretive? Yes. Value-creating? Not yet"
+    },
+    {
+     "p": "Because Sun pays only ~6.2x EBITDA and ~4x earnings while its own shares trade at ~31.1x forward earnings, almost any financing makes the deal EPS-accretive: management says \"from day one\", Nuvama put pro-forma accretion at over 40% of FY28E, ICICI Securities forecasts FY28E EPS of ₹89.1 including Organon, and Prabhudas Lilladher values Sun at 25x \"combined entity\" FY28E EPS (~₹86). Our own illustration (below) gives ~₹37.4 a share of extra FY28E EPS before purchase-price amortisation (+64% on our standalone EPS), and less after it (ICICI's depreciation jumps by ~₹6,500 cr in FY28E). But accretion is not value: the earnings come with ~$9.5 bn of net debt, revenue that fell 3% in 2025 and again in H1-2026, a key product (Nexplanon, 15% of sales) under pressure, China volume-based procurement and patent expiries. Only a third of Organon (women's-health innovation and biosimilars) grows (ICICI Securities)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Illustrative pro-forma FY28E contribution of Organon (₹ crore)",
+      "head": [
+       "Item",
+       "FY28E",
+       "Basis"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Organon EBITDA + 1/3 of synergies",
+        "19,322",
+        "$1.9 bn guidance held flat + $117 mn; ₹95.81/$"
+       ],
+       [
+        "Depreciation (ex purchase-price amortisation)",
+        "−719",
+        "~$75 mn, implied by Organon's 2025 adjusted net income"
+       ],
+       [
+        "Interest on ~$9.5 bn of net debt at ~5.5%",
+        "−5,006",
+        "Organon debt cost (Sun call); ICICI Securities: $9.25-9.75 bn assumed"
+       ],
+       [
+        "Treasury income Sun gives up on $2.25 bn",
+        "−1,293",
+        "6% (our model yield)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Profit after tax added**",
+         "**8,982**",
+         "Tax at 27%; = ₹37.4 a share, +64% on our standalone FY28E"
+        ]
+       },
+       [
+        "Purchase-price amortisation",
+        "not estimated",
+        "Not disclosed until closing; could absorb a large part of the accretion in reported EPS"
+       ]
+      ],
+      "source": "GAM Research illustration from Organon 8-K (12-Feb-2026), Sun investor call (27-Apr-2026), ICICI Direct (2-Aug-2026). Not in our forecasts."
+     }
+    },
+    {
+     "h": "How we treat Organon in the valuation"
+    },
+    {
+     "p": "Our forecasts are **standalone Sun**: the deal had not closed by 30-Sep-2026, management gives no Organon guidance, and the multiple we derive comes from Sun's own history and pharma peers, so applying it to Organon's earnings would be wrong (it would capitalise earnings bought at ~4x at ~29.5x). We add Organon as a separate part of the sum: **valued at what Sun pays** (6.2x EBITDA, close to ICICI Securities' 6x), so the deal itself creates or destroys nothing in our base case. One adjustment remains: the ~$2.25 bn of cash that leaves Sun earns interest that sits inside our standalone EPS (₹3.9 a share after tax), and the P/E multiple values it at ₹116 a share, while it is worth only its face value of ₹90. The difference, **−₹26.2 a share**, comes off. In the bull case we add the $350 mn of cost synergies at the deal multiple, discounted two years (₹69.5 a share); in the bear case we take off a 10% shortfall in Organon's $1.9 bn EBITDA at the same multiple (₹46.7 a share)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Organon in the sum of the parts (₹ per share)",
+      "head": [
+       "",
+       "Base",
+       "Bull",
+       "Bear"
+      ],
+      "rows": [
+       [
+        "Standalone Sun (multiple × Sep-28E EPS)",
+        "29.5x × ₹61.8 = 1,823",
+        "36.5x × ₹67.3 = 2,455",
+        "24.5x × ₹54.2 = 1,328"
+       ],
+       [
+        "Cash used for Organon: face value less capitalised income",
+        "-26.2",
+        "-53.8",
+        "-6.6"
+       ],
+       [
+        "Organon at cost (EV paid = EV received)",
+        "0",
+        "0",
+        "0"
+       ],
+       [
+        "Synergies (bull) / EBITDA shortfall (bear)",
+        "0",
+        "+69.5",
+        "-46.7"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Sum of the parts**",
+         "**1,797**",
+         "**2,470**",
+         "**1,275**"
+        ]
+       },
+       [
+        "Implied P/E on standalone Sep-28E EPS (carried in the model)",
+        "29.1x",
+        "36.7x",
+        "23.5x"
+       ]
+      ],
+      "source": "GAM Research (SUNPHARMA.sotp.js). Transaction and integration costs (₹167 cr booked in Q1FY27, more \"back-ended\") are not estimated."
+     }
+    },
+    {
+     "callout": "**Our view:** strategically logical (scale in Europe, China and EMs, a women's-health and biosimilar platform, a home for Sun's own specialty products abroad) and financially cheap on paper, but it turns a net-cash compounder with ~10% organic growth into a leveraged company growing mid-single digits, and asks a management team that took five years to fix Ranbaxy to fix a company of the same size. We give it no credit until it closes and the synergies show, and no penalty beyond the cash adjustment. Two things would change our mind: evidence that Organon's revenue decline stops (Nexplanon stabilisation was expected in H2-2026), and financing well below Organon's ~5.5% cost."
+    }
+   ]
+  },
+  {
+   "id": "rnd",
+   "nav": "R&D & pipeline",
+   "kicker": "R&D",
+   "title": "R&D at 6% of sales, a third of it on innovation; the in-house pipeline is thin",
+   "blocks": [
+    {
+     "p": "Sun spent ₹3,554 cr on R&D in FY26 (6.1% of sales; ₹33,500 cr cumulatively since inception) through 2,700+ scientists. About 39% of FY26 R&D went to innovative medicines (30% in Q1FY27), the rest to generics for the US, India and other markets. Guidance for FY27 is 6-7% of sales; Q1 was 5.4% because some trials ended before new ones started. The US filing machine is large (677 ANDAs filed, 558 approved, 119 pending; 13 NDAs pending) but its output is held back by the plants' FDA status. The innovative pipeline has one near-term event (Ilumya in psoriatic arthritis) and few new molecules; Sun's strategy is to in-license or buy late-stage assets (Ilumya, Winlevi, Leqselvi, Unloxcyt all came from outside) and partner early ones in big markets."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "R&D: ₹2,219 cr in FY22, ₹3,554 cr in FY26",
+       "unit": "R&D spend (₹ crore)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "R&D",
+         "values": [
+          2219,
+          2368,
+          3178,
+          3248,
+          3554
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor presentation Jun-2026 p.42"
+      },
+      {
+       "type": "line",
+       "title": "R&D intensity 5.5-6.7% of sales",
+       "unit": "R&D, % of sales",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "R&D % of sales",
+         "values": [
+          5.8,
+          5.5,
+          6.7,
+          6.2,
+          6.1
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 8,
+       "source": "Investor presentation Jun-2026 p.42"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Innovative pipeline (Jun-2026)",
+      "head": [
+       "Candidate",
+       "Indication",
+       "Stage"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Ilumya",
+        "Psoriatic arthritis",
+        "Registration (US decision late Oct-2026)"
+       ],
+       [
+        "Fibromun",
+        "Soft-tissue sarcoma / glioblastoma",
+        "Phase 3 / Phase 2 (in-licensed from Philogen, 2024)"
+       ],
+       [
+        "Nidlegy",
+        "Locally advanced melanoma; BCC/cSCC",
+        "EU marketing application resubmitted by partner Philogen (Jul-2026); Sun has Europe, ANZ rights"
+       ],
+       [
+        "GL0034",
+        "Type 2 diabetes (GLP-1R agonist)",
+        "Phase 2; to be partnered in large markets"
+       ],
+       [
+        "MM-II",
+        "Osteoarthritis knee pain (liposomal lubrication)",
+        "Phase 3-ready; to be out-licensed for the US"
+       ],
+       [
+        "SCD-044",
+        "Psoriasis / atopic dermatitis (S1P1)",
+        "Discontinued in FY26 (₹288 cr charge)"
+       ]
+      ],
+      "source": "Investor presentations Jun/Sep-2026 p.18; Q1FY27 call; AR FY26 note 61"
+     }
+    },
+    {
+     "callout": "**Our view:** Sun is a commercial company that buys science rather than discovers it. That has worked (Ilumya), but it means growth depends on deal-making, and the Organon debt will limit deal capacity for two to three years (management will still look at \"close-to-market\" assets)."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat scorecard",
+   "title": "A real moat in India, a moderate one in specialty, none in US generics",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Competitive advantage scorecard",
+      "head": [
+       "Source",
+       "Strength",
+       "Evidence",
+       "So what"
+      ],
+      "wide": [
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "India franchise",
+        "Strong",
+        "No.1 with 8.5% of a ₹2.5 lakh cr market, No.1 by prescriptions in 12 specialist groups, 30 brands in the top 300, 16,767 medical reps at the industry's highest productivity (₹11.5 mn each)",
+        "Lets Sun launch generics of new molecules (semaglutide) and win share quickly; chronic therapies (60%+) are sticky"
+       ],
+       [
+        "Specialty (innovative) franchise",
+        "Moderate",
+        "$1.42 bn of sales, 29 products, own US sales force in dermatology and onco-derm; Ilumya $796 mn",
+        "Real, but built on in-licensed or acquired molecules with limited patent life; no in-house discovery engine of scale; the 'innovative' business is mid-sized by global standards"
+       ],
+       [
+        "US generics",
+        "Weak",
+        "13th largest, 558 approved ANDAs, but four Indian plants under FDA action and few new approvals",
+        "A commodity business with yearly price erosion; it has shrunk in dollars for three years"
+       ],
+       [
+        "Emerging markets",
+        "Moderate",
+        "Scale in 80+ countries, 3,300 reps, local plants in eight",
+        "Branded generics earn good margins but are exposed to currency and politics (Russia, Nigeria, Middle East)"
+       ],
+       [
+        "Cost and integration",
+        "Moderate",
+        "Vertically integrated (13 API sites), 80% gross margin",
+        "Helps margins; does not stop competitors"
+       ],
+       [
+        "Balance sheet",
+        "Strong (until Organon closes)",
+        "$3.4 bn net cash at Jun-2026; investment-grade ratings (Moody's Baa1, S&P BBB+ per Geojit)",
+        "Becomes ~2.3x net debt/EBITDA after Organon"
+       ]
+      ],
+      "source": "Company presentations and calls; AIOCD/SMSRC via company; GAM Research"
+     }
+    },
+    {
+     "callout": "**Verdict:** Sun's moat is its Indian franchise (scale, prescriber reach, brand breadth) and, to a lesser degree, its specialty commercial platform in US dermatology. Both earn high returns. US generics have no moat and currently a handicap (FDA). Organon adds scale and brands but no obvious moat: established brands decline slowly once generics arrive, and biosimilars are a scale-and-cost game."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue up 75% in five years; margins up 3 points; reported profit dented by a charge every year",
+   "blocks": [
+    {
+     "p": "Sun's consolidated revenue went from ₹33,498 cr in FY21 to ₹58,462 cr in FY26: 11.8% a year. EBITDA before forex gains rose from ₹8,470 cr to ₹16,501 cr and the margin from 25.3% to 28.2%, as innovative medicines grew from 13% of sales in FY22 to 22% in FY26 and India kept gaining share. Reported EPS looks volatile (₹12.1 in FY21, ₹13.6 in FY22, ₹47.8 in FY26) because of large litigation charges in FY21-22 (Ranbaxy-era US cases, Taro price-fixing). On the company's adjusted basis EPS rose from ₹32.0 in FY22 to ₹51.7 in FY26, 12.7% a year, and only 3.5% in FY26 as forex gains, gRevlimid and a low tax rate peaked."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: 9-15% growth every year since FY21",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; net profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "EBITDA margin before forex: 21% in FY20, 28-29% now",
+       "unit": "EBITDA margin (%), Screener basis (forex gains excluded)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 15,
+       "max": 35,
+       "source": "Company filings, Screener.in (consolidated; net profit attributable to owners), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Reported net profit: FY21-22 hit by US litigation charges",
+       "unit": "Net profit attributable (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY17",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; net profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Exceptional charges after tax: something every year",
+       "unit": "Exceptional items after tax (₹ crore, Screener)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Exceptional (after tax)",
+         "values": [
+          2824,
+          3444,
+          131,
+          414,
+          527,
+          949,
+          145
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in schedules; company presentations (details in the earnings-quality chapter)"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the FY21-26 record is good but not spectacular: ~12% revenue growth, a 3-point margin gain and ~13% adjusted EPS growth since FY22. The best part of it (innovative medicines, India share gains) is real and recurring. Two parts were windfalls that are now gone or fading: gRevlimid in the US (limited-volume generic sales that ended in Jan-2026) and a ₹1,240 cr forex gain in FY26 as the rupee fell ~10%. Meanwhile a charge of ₹130-950 cr after tax has hit reported profit every year since FY22."
+    }
+   ]
+  },
+  {
+   "id": "q1fy27",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Latest quarter",
+   "title": "Q1FY27: India strong, US weak, profit flat after a higher tax rate; guidance unchanged",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (results 31-Jul-2026)",
+      "head": [
+       "",
+       "Q1FY27",
+       "YoY",
+       "Comment"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Revenue from operations",
+        "₹15,300 cr",
+        "+10.5%",
+        "India +16%, US −0.1% (₹) / −9.7% ($), EM +15.4%, RoW +10.4%, API +10.5%"
+       ],
+       [
+        "Gross margin",
+        "80.5%",
+        "+90bp",
+        "Mix: branded generics and innovative medicines"
+       ],
+       [
+        "EBITDA incl. forex (company)",
+        "₹4,418 cr (28.9%)",
+        "+2.7%",
+        "Q1FY26 had gRevlimid sales; forex gain ₹122 cr (lower than a year ago)"
+       ],
+       [
+        "EBITDA before forex",
+        "₹4,296 cr (28.1%)",
+        "+5.5%",
+        "R&D only 5.4% of sales (−8% YoY); employee costs 21.1% of sales (+15%)"
+       ],
+       [
+        "Exceptional items",
+        "−₹204 cr",
+        "",
+        "Organon deal costs ₹167 cr; labour codes ₹37 cr"
+       ],
+       [
+        "Tax rate",
+        "27.8%",
+        "24.3% a year ago",
+        "\"Low tax rate in India now getting exhausted\"; similar until Organon closes"
+       ],
+       [
+        "Net profit (reported / adjusted)",
+        "₹2,895 cr / ₹3,089 cr",
+        "+27% / +3.1%",
+        "Reported up because Q1FY26 carried ₹594 cr of exceptional charges"
+       ],
+       [
+        "Innovative medicines",
+        "$351 mn",
+        "+12.8%",
+        "21.9% of sales; Levulan seasonality; Leqselvi >1,000 prescribers"
+       ],
+       [
+        "Net cash",
+        "$3.4 bn",
+        "",
+        "Before Organon"
+       ]
+      ],
+      "source": "Q1FY27 call and presentation; ICICI Direct and PL notes (2/3-Aug-2026)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Quarterly EBITDA margin before forex: 24-31%",
+       "unit": "EBITDA before forex, % of revenue",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Margin",
+         "values": [
+          28.9,
+          28.7,
+          30.7,
+          26.4,
+          29.4,
+          28.3,
+          30.9,
+          24.1,
+          28.1
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 15,
+       "max": 35,
+       "source": "ICICI Direct Q1FY27 quarterly table; Screener revenue"
+      },
+      {
+       "type": "column",
+       "title": "R&D dipped to ₹826 cr in Q1FY27; guided 6-7% for FY27",
+       "unit": "R&D (₹ crore per quarter)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "R&D",
+         "values": [
+          794,
+          793,
+          825,
+          817,
+          903,
+          783,
+          893,
+          976,
+          826
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "PL Q1FY27 note; Q4FY26 call"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management guided (standing on 30-Sep-2026)",
+      "head": [
+       "Item",
+       "Guidance"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "FY27 revenue",
+        "High-single-digit consolidated topline growth (22-May-2026), reiterated on 31-Jul-2026 despite Q1 +10%: 'we should stick on to the high single-digit growth for the full year' (CFO), mindful of currency"
+       ],
+       [
+        "FY27 R&D",
+        "6-7% of sales (Q4FY26 call); Q1 5.4% to normalise"
+       ],
+       [
+        "Tax rate",
+        "ETR ~25% (May-2026), then 'in a similar range as in Q1' (27.8%) until Organon closes (Jul-2026)"
+       ],
+       [
+        "Margins",
+        "No margin guidance for FY27; Leqselvi/Unloxcyt launch spend (~$100 mn in FY26) is now base spend"
+       ],
+       [
+        "Leqselvi / Unloxcyt outside the US",
+        "No sales of Leqselvi or Unloxcyt outside the US assumed in FY27"
+       ],
+       [
+        "Organon closing",
+        "Q4FY27 (early 2027)"
+       ]
+      ],
+      "source": "Q4FY26 call (22-May-2026); Q1FY27 call (31-Jul-2026)"
+     }
+    },
+    {
+     "callout": "**Read-across to our forecasts:** we model FY27E revenue +10.3% (above the high-single-digit guidance only because the rupee is ~8% weaker than the FY26 average), an EBITDA margin of 28.4% before forex (R&D back to ~6.3% of sales, no gRevlimid) and a 27.5% tax rate. That gives FY27E EPS of ₹51.3, +7.2% on reported FY26 EPS but slightly below FY26 adjusted EPS of ₹51.7 (which included ₹1,240 cr of forex gains)."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "Cash generative, but ROE stuck at ~15-16% because of a large cash pile and goodwill",
+   "blocks": [
+    {
+     "p": "Over FY21-26 Sun generated ₹58,740 cr of operating cash, spent ₹12,691 cr on capex (incl. intangibles), ₹9,309 cr on acquisitions (Concert ₹4,686 cr in FY23, Checkpoint ₹3,405 cr in FY26) and ₹16,731 cr on dividends, and paid ~₹2,900 cr for Taro's minority in FY25. The rest built ₹31,699 cr of net cash (Screener basis, Mar-26). Working capital is heavy: inventory ~363 days of cost of goods and receivables ~97 days of sales, typical of a global generics and branded business. Reported ROE was 14.7% in FY26 (company: 15.7%; 17.4% in FY25 before charges); ROCE on Screener's basis 21%."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash flow covers capex 3-6x",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated; net profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 10% in FY18-20, 21% in FY26",
+       "unit": "Return on capital employed (%), Screener basis",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          23,
+          18,
+          20,
+          10,
+          10,
+          10,
+          13,
+          17,
+          16,
+          17,
+          20,
+          21
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 30,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY21-23",
+       "FY24-26",
+       "Six years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "20,114",
+        "38,626",
+        "58,740"
+       ],
+       [
+        "Capex (incl. intangibles)",
+        "4,751",
+        "7,940",
+        "12,691"
+       ],
+       [
+        "Acquisitions",
+        "5,488",
+        "3,821",
+        "9,309"
+       ],
+       [
+        "Dividends paid",
+        "6,275",
+        "10,456",
+        "16,731"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over**",
+         "**3,600**",
+         "**16,409**",
+         "**20,009**"
+        ]
+       },
+       [
+        "Memo: Taro minority buyout (FY25, financing cash flow)",
+        "",
+        "~2,900",
+        "~2,900"
+       ]
+      ],
+      "source": "Screener.in cash flow (consolidated)"
+     }
+    },
+    {
+     "callout": "**The capital question has changed.** For a decade Sun was a cash compounder that bought small specialty assets (Concert, Checkpoint, in-licensing) with surplus cash and paid ~33% of profit as dividends. Organon changes that: ~$2.25 bn of cash plus ~$1.75 bn of new debt for the equity and ~$8 bn of Organon debt taken on, for a business growing −3% to +1% a year. Sun goes from net cash to ~2.3x net debt/EBITDA; the chairman says debt repayment comes first and the dividend policy is not yet decided."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: a charge every year, forex inside \"EBITDA\", a rising tax rate",
+   "blocks": [
+    {
+     "p": "Four things a reader of Sun's numbers should know. (1) **Exceptional items every year**: litigation (Ranbaxy-era US claims, Taro price-fixing, opioids), impairments of in-licensed assets and restructuring have cost ₹130-950 cr after tax in each of FY23-26 and ₹145 cr in Q1FY27; Organon will add deal and integration costs. The company's \"adjusted\" EPS excludes them. (2) **Forex gains inside company EBITDA**: Sun's headline FY26 EBITDA of ₹17,731 cr (30.3%) includes a ₹1,240 cr forex gain from the falling rupee; before it, EBITDA was ₹16,491 cr (28.2%). We forecast before forex. (3) **Tax**: the effective rate was 20.2% in FY25 and 23.5% in FY26 (AR note 49, both with one-off items) and 27.8% in Q1FY27 as India tax benefits run out. (4) **Other income** is large (₹1,972 cr in FY26 before forex, ~12% of PBT) and mostly treasury income that will shrink when ~$2.25 bn of cash goes into Organon."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Exceptional items, FY22-Q1FY27",
+      "head": [
+       "Period",
+       "What",
+       "After tax (₹ cr)"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "FY22",
+        "₹4,390 cr provision: US litigation (Ranbaxy Meijer and others ₹3,936 cr), Taro US price-fixing MDL ₹347 cr net of minority, Dexasite impairment ₹150 cr, Japan plant loss ₹38 cr; deferred-tax gain offset by MAT credit reversal",
+        "3,444"
+       ],
+       [
+        "FY23",
+        "₹171 cr net: Medinstill impairment ₹164 cr, Concert acquisition costs ₹64 cr, income from onerous contract ₹57 cr",
+        "131"
+       ],
+       [
+        "FY24",
+        "₹494 cr: Ache Labs intangible impairment ₹149 cr, Nigeria forex loss ₹201 cr, Alchemee restructuring ₹51 cr, Lipitor West Virginia settlement ₹70 cr, Japan restructuring ₹23 cr",
+        "414"
+       ],
+       [
+        "FY25",
+        "₹1,055 cr: US opioid settlement in principle ₹316 cr ($37.4 mn), Lyndra investment write-off ₹260 cr, US restructuring (Concert, Taro) ₹101 cr, deferred-tax asset written off ₹377 cr",
+        "527"
+       ],
+       [
+        "FY26",
+        "₹1,307 cr pre-tax (₹922 cr after tax): GxMDL end-payer settlement charges ₹644 cr ($74.8 mn incl. legal; total settlement $200 mn, approved 23-Jan-2026), new labour codes ₹376 cr, SCD-044 discontinued ₹288 cr",
+        "949"
+       ],
+       [
+        "Q1FY27",
+        "₹204 cr pre-tax: Organon acquisition costs ₹162-167 cr ('more in subsequent quarters, back-ended, a substantial part at closing'), labour code ₹37 cr",
+        "145"
+       ]
+      ],
+      "source": "Investor presentations (adjustment footnotes); AR FY26 note 61; Screener.in schedules (after-tax column)"
+     }
+    },
+    {
+     "h": "Other income: built from its parts, not plugged"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Other-income build (₹ crore)",
+      "head": [
+       "",
+       "FY25",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E",
+       "Basis"
+      ],
+      "wide": [
+       6
+      ],
+      "rows": [
+       [
+        "Treasury income (deposits, bonds, funds, dividends)",
+        "1,451",
+        "1,673",
+        "1,902",
+        "2,287",
+        "2,749",
+        "Forecast: 6% on opening net cash (₹31,699 / 38,122 / 45,813 cr); FY26 = 6.1% of opening"
+       ],
+       [
+        "Interest on income-tax refunds",
+        "351",
+        "128",
+        "0",
+        "0",
+        "0",
+        "One-off: left out"
+       ],
+       [
+        "Recurring non-treasury (other interest, rent, insurance, misc.)",
+        "146",
+        "167",
+        "150",
+        "150",
+        "150",
+        "AR FY26 note 31 items; held at ₹150 cr"
+       ],
+       [
+        "Asset-sale gains, balances written back",
+        "18",
+        "4",
+        "0",
+        "0",
+        "0",
+        "One-off: left out"
+       ],
+       [
+        "Forex gains (outside other income in the accounts)",
+        "186",
+        "1,240",
+        "122",
+        "0",
+        "0",
+        "FY27E = Q1 actual only; no currency forecast"
+       ],
+       [
+        "Associates, JV and minorities (engine has no line)",
+        "–",
+        "–",
+        "-100",
+        "-100",
+        "-100",
+        "FY26: associates −₹56 cr, minorities −₹29 cr after tax"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Other income in the model**",
+         "**2,151**",
+         "**3,212**",
+         "**2,074**",
+         "**2,337**",
+         "**2,799**",
+         "Actuals incl. forex, before exceptional items"
+        ]
+       }
+      ],
+      "source": "AR FY26 consolidated note 31 and P&L; Screener.in; GAM estimates"
+     }
+    },
+    {
+     "p": "**Reconciliation.** FY27E other income of ₹2,074 cr compares with ₹1,972 cr in FY26 before forex (₹3,212 cr with it) and ₹2,231 cr in the twelve months to Jun-26 before forex and exceptional items (Screener quarterly). The gap to the trailing figure is Q1FY27's unusually high ₹724 cr (+56% YoY; composition not disclosed, likely mark-to-market gains on funds) and FY26's ₹128 cr of tax-refund interest, neither of which we extrapolate, and the ₹100 cr deduction for associates and minorities. Treasury income then rises with the cash pile (standalone net cash ₹38,122 cr by Mar-27E); after Organon it would fall sharply, a point the street's combined-entity EPS already reflects."
+    },
+    {
+     "callout": "**Verdict: AMBER.** Revenue and cash conversion are sound (operating cash flow ₹12,419 cr in FY26; pre-tax operating cash was 89% of EBITDA on Screener's measure, 105% and 96% in FY24-25), the auditor is EY's Indian firm, and the adjustments are disclosed in detail. But \"one-offs\" that recur every year are a cost of doing business in US generics; they averaged ~₹2-4 a share in FY23-26 (4-8% of EPS). Our forecasts, like the street's, exclude them, so true earnings power is a little below our EPS."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash of ₹31,699 cr ($3.4 bn) before Organon; heavy working capital",
+   "blocks": [
+    {
+     "p": "At Mar-2026 Sun held ₹11,603 cr of cash and bank balances and ₹24,723 cr of investments (mostly debt funds and bonds, plus strategic stakes) against ₹4,627 cr of borrowings (incl. ₹546 cr of leases): ₹31,699 cr net on Screener's basis; the company quotes $3.2 bn at Mar-26 and $3.4 bn at Jun-26. Net fixed assets rose to ₹32,822 cr as Leqselvi and Unloxcyt intangibles were capitalised. Inventories (₹11,493 cr) and receivables (₹15,510 cr) together are ~46% of sales; payables only ₹7,334 cr. After Organon closes the balance sheet will carry ~$9.5 bn of net debt (ICICI Securities) and a large block of goodwill and acquired intangibles."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Inventory ~360 days of cost of goods; receivables ~95 days",
+       "unit": "Days (Screener basis)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          307,
+          370,
+          307,
+          338,
+          366,
+          311,
+          378,
+          315,
+          360,
+          338,
+          348,
+          363
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          68,
+          87,
+          83,
+          108,
+          112,
+          105,
+          99,
+          99,
+          95,
+          85,
+          91,
+          97
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          178,
+          207,
+          197,
+          234,
+          192,
+          142,
+          167,
+          158,
+          194,
+          194,
+          210,
+          232
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Cash and investments ₹36,326 cr at Mar-26",
+       "unit": "Cash and investments (₹ crore)",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash and investments",
+         "ref": "A.cashAndInvestments",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; net profit attributable to owners), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and investments",
+        "{{A.cashAndInvestments.7|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "Net fixed assets (incl. intangibles)",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.7|num}}",
+        "{{A.inventories.9|num}}",
+        "{{A.inventories.10|num}}",
+        "{{A.inventories.11|num}}"
+       ],
+       [
+        "Trade receivables",
+        "{{A.receivables.7|num}}",
+        "{{A.receivables.9|num}}",
+        "{{A.receivables.10|num}}",
+        "{{A.receivables.11|num}}"
+       ],
+       [
+        "Trade payables",
+        "{{A.payables.7|num}}",
+        "{{A.payables.9|num}}",
+        "{{A.payables.10|num}}",
+        "{{A.payables.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated; net profit attributable to owners), GAM Research. Goodwill (₹9,833 cr at Mar-26) sits inside net fixed assets on Screener."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: the Shanghvi family 54.5%, domestic institutions up to 22%, foreign funds down to 14.5%",
+   "blocks": [
+    {
+     "p": "The Shanghvi family and its companies own 54.48% (Jun-2026), mostly through Shanghvi Finance Pvt Ltd (40.3%) and Dilip Shanghvi directly (9.6%); nothing is pledged. Foreign portfolio investors hold 14.53% (down from 18.0% in Dec-2024), mutual funds 12.84%, insurers 7.02% (LIC 5.5%), pension funds 1.88% and retail and others ~8.7%. The free float is ~45%, so index and foreign-fund flows move the stock."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Foreign funds sold for six quarters; Indian institutions bought",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoters steady at 54.5%",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 40,
+       "max": 60,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest named holders (30-Jun-2026)",
+      "head": [
+       "Holder",
+       "% of shares"
+      ],
+      "rows": [
+       [
+        "Shanghvi Finance Pvt Ltd (promoter holding company)",
+        "40.30%"
+       ],
+       [
+        "Dilip Shanghvi (founder, executive chairman)",
+        "9.60%"
+       ],
+       [
+        "Aditya Medisales Ltd (promoter group)",
+        "1.67%"
+       ],
+       [
+        "Sudhir Valia (co-promoter)",
+        "0.60%"
+       ],
+       [
+        "Life Insurance Corporation of India",
+        "5.53%"
+       ],
+       [
+        "ICICI Prudential Value Fund",
+        "3.72%"
+       ],
+       [
+        "SBI Nifty 50 ETF",
+        "2.36%"
+       ],
+       [
+        "NPS Trust (HDFC Pension Fund scheme E)",
+        "1.88%"
+       ],
+       [
+        "Nippon India Large Cap Fund",
+        "1.38%"
+       ],
+       [
+        "Government Pension Fund Global (Norway)",
+        "1.03%"
+       ]
+      ],
+      "source": "Shareholding pattern 30-Jun-2026 (company website, filed Jul-2026)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Management & governance",
+   "title": "Founder-led, professionally managed; the FDA record is the weak point",
+   "blocks": [
+    {
+     "p": "Executive Chairman Dilip Shanghvi (founder; MD until 31-Aug-2025; term to Aug-2030); MD Kirti Ganorkar (since 1-Sep-2025; ex-head of India business); Whole-time Director & COO Aalok Shanghvi (founder's son); Whole-time Director Vidhi Shanghvi (founder's daughter, since 22-May-2025); independent: Pawan Goenka (lead), Gautam Doshi, Rolf Hoffmann, Satyavati Berera (from 8-May-2026), Andreas Busch (from 12-May-2026); Rama Bijapurkar retired 20-May-2026; Sudhir Valia (co-promoter) retired 31-Jul-2025. CFO Jayashree Satagopan (from 1-Jul-2025; C.S. Muralidharan retired); CEO North America Richard Ascroft. Aditya Medisales Ltd, a promoter-group company, holds 1.67%; promoter holdings are concentrated in Shanghvi Finance Pvt Ltd (40.3%). No pledges."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Governance scorecard",
+      "head": [
+       "Area",
+       "Score",
+       "Evidence"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Promoter alignment",
+        "Good",
+        "54.5% family stake, no pledges, founder still executive chairman; pay modest by global standards"
+       ],
+       [
+        "Board independence",
+        "Adequate",
+        "Five of nine directors independent (Pawan Goenka lead); two new independents in May-2026; three family members on the board"
+       ],
+       [
+        "Succession",
+        "Watch",
+        "Founder (b.1955) moved to executive chairman in Sep-2025; professional MD (Kirti Ganorkar); son Aalok is COO and the best-paid executive"
+       ],
+       [
+        "Pay",
+        "Watch",
+        "Dilip Shanghvi ₹7.1 cr (+22%), Aalok Shanghvi ₹9.3 cr (+20%) in FY26 vs +0.66% for the median employee"
+       ],
+       [
+        "Regulatory record",
+        "Weak",
+        "Four Indian plants under US FDA action; Ranbaxy consent decree legacy at Mohali; US price-fixing and opioid settlements"
+       ],
+       [
+        "Capital allocation",
+        "Mixed",
+        "Cheap, well-integrated deals (Taro, DUSA, Concert); Ranbaxy dilution; Organon is the biggest and most leveraged bet yet"
+       ],
+       [
+        "Disclosure",
+        "Adequate",
+        "Detailed adjustments and FDA disclosures; no product-level specialty sales; no margin guidance"
+       ]
+      ],
+      "source": "AR FY26 (Board's report, Annexure A, corporate governance report); shareholding pattern Jun-2026; FDA letters"
+     }
+    },
+    {
+     "callout": "**Our view:** Dilip Shanghvi has one of the best capital-allocation records in Indian pharma, and the family's interests are aligned with minorities (no pledges, modest pay, cash deals). The weak spots are manufacturing quality, now a five-year problem across several plants, and the size of the Organon bet, which concentrates a decade of balance-sheet strength into one integration."
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Forecasts vs street",
+   "kicker": "Our forecasts",
+   "title": "Our standalone EPS is ~8-11% below the street: higher tax, no forex gains, slower US",
+   "blocks": [
+    {
+     "p": "Our forecasts are for **standalone Sun** (no Organon). Revenue grows 10.3% / 8.4% / 8.1% in FY27-29E, EBITDA margin before forex is 28.4% / 29.2% / 29.6%, and EPS ₹51.3 / ₹58.4 / ₹65.2: ~11% a year from FY26's reported ₹47.8 (or ~8% from the adjusted ₹51.7, which included ₹1,240 cr of forex gains). The street's standalone estimates are higher: Prabhudas Lilladher ₹56.6 / ₹65.2, Emkay ₹57.2 / ₹64.4 (May; cut ~5% in August), Geojit implies ~₹69 for FY28E."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (standalone Sun, ₹ crore unless stated)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "PL FY27E",
+       "Emkay FY27E",
+       "GAM FY28E",
+       "PL FY28E",
+       "Emkay FY28E",
+       "GAM FY29E",
+       "Emkay FY29E"
+      ],
+      "rows": [
+       [
+        "Revenue",
+        "64,507",
+        "65,701",
+        "64,781",
+        "69,945",
+        "72,562",
+        "71,102",
+        "75,617",
+        "78,140"
+       ],
+       [
+        "EBITDA",
+        "18,320",
+        "19,233",
+        "–",
+        "20,424",
+        "21,957",
+        "–",
+        "22,383",
+        "–"
+       ],
+       [
+        "EBITDA margin (before forex)",
+        "28.4%",
+        "29.3%",
+        "30.5% (incl. forex)",
+        "29.2%",
+        "30.3%",
+        "31% (incl. forex)",
+        "29.6%",
+        "–"
+       ],
+       [
+        "Tax rate",
+        "27.5%",
+        "28%",
+        "24.5%",
+        "27%",
+        "28%",
+        "24.5%",
+        "27%",
+        "24.5%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**EPS (₹)**",
+         "**51.3**",
+         "**56.6**",
+         "**57.2**",
+         "**58.4**",
+         "**65.2**",
+         "**64.4**",
+         "**65.2**",
+         "**72.7**"
+        ]
+       },
+       [
+        "GAM vs broker",
+        "",
+        "−9%",
+        "−10%",
+        "",
+        "−10%",
+        "−9%",
+        "",
+        "−10%"
+       ]
+      ],
+      "source": "GAM estimates; Prabhudas Lilladher Q1FY27 note (3-Aug-2026); Emkay Q4FY26 note (24-May-2026; Emkay cut estimates ~5% on 4-Aug-2026 without publishing the new figures here)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Why we are below the street",
+      "head": [
+       "Driver",
+       "GAM",
+       "Street",
+       "Effect on FY28E EPS"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Tax rate",
+        "27% (CFO: Q1 range until Organon closes; India benefits exhausted)",
+        "Emkay 24.5% (pre-Q1); PL 28%",
+        "~−4% vs a 24.5% rate"
+       ],
+       [
+        "Forex gains",
+        "Only Q1FY27's ₹122 cr; none after",
+        "Company \"EBITDA\" and some estimates include them (₹1,240 cr in FY26)",
+        "~−3% to −6% if FY26-like gains recur"
+       ],
+       [
+        "US dollar growth",
+        "−4% in FY27E, +6% after",
+        "Higher specialty ramp in some notes",
+        "~−1% to −2%"
+       ],
+       [
+        "EBITDA margin",
+        "29.2% before forex",
+        "PL 30.3%",
+        "~−3%"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: +8-10% a year (standalone)",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; GAM estimates"
+      },
+      {
+       "type": "line",
+       "title": "ROE: ~14-15% standalone as cash piles up",
+       "unit": "Return on equity (%)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "ROE",
+         "ref": "fin.roe",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 25,
+       "source": "Screener.in; GAM estimates"
+      }
+     ]
+    },
+    {
+     "callout": "**What would make us wrong:** a faster ramp of Leqselvi and Unloxcyt (each $100 mn of extra specialty sales adds ~₹1-2 to EPS), FDA clearance of Halol or Baska, or the tax rate settling near 25% (+₹1.6 on FY28E). Organon is the big swing: on the street's numbers it adds 30-40% to FY28E EPS, but with debt and a lower-quality earnings stream."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: mostly Buy, targets ₹2,070-2,310, split on how to treat Organon",
+   "blocks": [
+    {
+     "p": "Five houses published after the Q1FY27 results (2-Aug to 21-Sep-2026): Motilal Oswal Buy ₹2,310, Prabhudas Lilladher Buy ₹2,150, Emkay Add ₹2,100, ICICI Securities Hold ₹2,090 and Geojit Buy ₹2,070: median ₹2,100, +16% above the 30-Sep-2026 close of ₹1,817. Notes from the Organon announcement still standing include Nirmal Bang ₹2,320, HDFC Securities ₹2,030 and Nuvama ₹2,000 (all Buy, 28-Apr-2026). P/E is the main method: Motilal Oswal 38x 12-month-forward EPS (standalone), Geojit 30x FY28E, Prabhudas Lilladher 25x FY28E combined-entity EPS, Nuvama on P/E. ICICI Securities and Emkay use a sum of the parts (ICICI: EV/EBITDA, Sun 22x and Organon 6x). The Organon deal has split the street on WHICH earnings to capitalise, not on the method. The bulls point to India, specialty and accretion; the cautious notes to US weakness, Organon's quality and leverage, and the tax rate."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Organon is a no-growth business bought with debt: only a third of it (innovative + biosimilars) grows, and the combined entity must 'sweat' the rest",
+        "ICICI Securities (Hold), Aug-2026"
+       ],
+       [
+        "The capital could have gone to higher-quality novel assets with better growth and returns; the deal is accretive but less compelling for long-term value",
+        "JM Financial, Apr-2026"
+       ],
+       [
+        "Combined growth slows to mid-single digits from 10-12% for Sun alone; servicing ~$8.5 bn of debt",
+        "HDFC Securities (Buy), Apr-2026"
+       ],
+       [
+        "US sales stuck around $1.9 bn for a third straight year; AbbVie's Rinvoq threatens Leqselvi's ramp; second year of tax-rate disappointment",
+        "Emkay (Add), Aug-2026"
+       ],
+       [
+        "The specialty launches are slow: global innovative sales flat to down for three quarters despite two big launches",
+        "Elara Capital (call question), 31-Jul-2026"
+       ],
+       [
+        "Fair multiple for the combined company is the open question",
+        "Emkay, Apr-2026"
+       ]
+      ],
+      "source": "Broker notes and call transcripts to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 29.5x standalone Sep-28E EPS plus Organon at cost gives {{dcf.tp|inr}}; the stock is fairly priced",
+   "blocks": [
+    {
+     "h": "How the street values Sun"
+    },
+    {
+     "p": "The street values Sun on P/E: Motilal Oswal 38x 12-month-forward EPS, Geojit 30x FY28E, Prabhudas Lilladher 25x FY28E combined-entity EPS, Nuvama on P/E; ICICI Securities (EV/EBITDA) and Emkay use a sum of the parts that includes Organon. We use the same method on the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). The \"At our EPS\" column applies each P/E multiple to our standalone EPS of the same period."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "ICICI Securities (retail) (2-Aug-26)",
+        "Hold",
+        "2,090",
+        "SOTP",
+        "Sun 22x + Organon 6x FY28E EV/EBITDA, less net debt",
+        "FY28E",
+        "–",
+        "Growth engines firing, but only a third of Organon (innovative + biosimilars) grows and leverage leaves a thin margin of safety"
+       ],
+       [
+        "Prabhudas Lilladher (3-Aug-26)",
+        "Buy",
+        "2,150",
+        "P/E",
+        "25x",
+        "FY28E (combined with Organon)",
+        "n.m. (combined EPS)",
+        "Less dependent on US generics; specialty, India and RoW growth visible; Organon EPS-accretive from year one"
+       ],
+       [
+        "Motilal Oswal (4-Aug-26)",
+        "Buy",
+        "2,310",
+        "P/E",
+        "38x",
+        "12-month forward",
+        "2,350",
+        "Innovative portfolio +13%, India outgrowing the market; 11% earnings CAGR FY26-28E; Organon on track"
+       ],
+       [
+        "Emkay (4-Aug-26)",
+        "Add",
+        "2,100",
+        "SOTP",
+        "n.d.",
+        "Jun-27E",
+        "–",
+        "Upside capped near term: US weak (~$1.9 bn a third year), Leqselvi faces AbbVie's Rinvoq, higher tax; estimates cut ~5%"
+       ],
+       [
+        "Geojit (21-Sep-26)",
+        "Buy",
+        "2,070",
+        "P/E",
+        "30x",
+        "FY28E",
+        "1,750",
+        "India and innovative medicines drive growth; semaglutide approvals; investment-grade ratings support the Organon financing"
+       ],
+       [
+        "Nirmal Bang (28-Apr-26)",
+        "Buy",
+        "2,320",
+        "n.d.",
+        "n.d.",
+        "n.d.",
+        "–",
+        "Organon upside not in the target; successful closing would add more"
+       ],
+       [
+        "HDFC Securities (institutional) (28-Apr-26)",
+        "Buy",
+        "2,030",
+        "n.d.",
+        "n.d.",
+        "n.d.",
+        "–",
+        "Combined growth slows to mid-single digit from 10-12% for Sun alone; integration, biosimilar scale-up and $8.5 bn of debt are the risks"
+       ],
+       [
+        "Nuvama (28-Apr-26)",
+        "Buy",
+        "2,000",
+        "P/E",
+        "n.d. (stock at 29x FY27E, 25x FY28E)",
+        "FY28E",
+        "–",
+        "Pro-forma EPS accretion over 40% on FY28E; scaled biosimilars platform growing 13%; $350 mn synergies"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**HOLD**",
+         "**{{dcf.tp|num}}**",
+         "**P/E + Organon at cost**",
+         "**29.5x standalone (29.1x implied)**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Best Indian pharma franchise; fair price; Organon adds risk, not yet value"
+        ]
+       }
+      ],
+      "source": "ICICI Direct and PL notes (PDFs); Motilal Oswal, Emkay and Geojit via Investment Guru India; Nirmal Bang, HDFC Securities and Nuvama via Business Today (28-Apr-2026); n.d. = not disclosed"
+     }
+    },
+    {
+     "h": "Our multiple: 29.5x standalone, and why"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the multiple (house rule, PLAYBOOK §4 and §7c)",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1. Sun's own history (house rule)",
+        "One-year-forward P/E since Apr-2021 on reported EPS (forwardMedian): median 29.1x, 25th-75th percentile 23.0-33.1x; no trough years",
+        "29.1x (sensitivity)"
+       ],
+       [
+        "2. One-offs (PLAYBOOK §4)",
+        "Reported EPS carries an exceptional charge every year (₹0.6-4.0 a share in FY23-26, after tax and tax one-offs). On the company's adjusted EPS (FY23-26: 36.0 / 42.0 / 49.9 / 51.7) the same median is 26.6x (22.0-32.9x). We use this one: our forecasts and the street's multiples are on EPS before exceptional items, so it is like-for-like",
+        "**Starting point: 26.6x**"
+       ],
+       [
+        "3. Sector factor",
+        "Pharma peers' trailing P/E on 30-Sep-2026 vs their five-year medians (table below): median +10% (settled factor +10.25%). Pharma trades above its history, so the factor is a re-rating. Sun itself is +3% vs its own five-year median (not used)",
+        "× 1.1025"
+       ],
+       [
+        "4. Result (nearest half-turn)",
+        "26.6x × 1.1025 = 29.3x",
+        "**29.5x standalone**"
+       ],
+       [
+        "5. Organon (pending)",
+        "Valued at cost; base adjustment −₹26.2 a share (cash leaves at face value, ₹90, while the P/E valued its interest at ₹116)",
+        "**Implied 29.1x on standalone Sep-28E EPS**"
+       ],
+       [
+        "6. Growth, returns",
+        "EPS growth ~11% a year FY26-29E (standalone) vs ~13% FY23-26 adjusted; ROE ~14-15% vs ~11% cost of equity: neither argues for a premium; shown as sensitivity rows only (§7c)",
+        "No adjustment"
+       ],
+       [
+        "7. Bull / bear",
+        "Bull: 75th percentile 32.9x × factor = 36.5x, plus synergies; bear: 25th percentile 22.0x × factor = 24.5x, less an Organon EBITDA shortfall",
+        "36.7x / 23.5x implied"
+       ]
+      ],
+      "source": "Screener.in prices and EPS to 30-Sep-2026; company adjusted EPS (investor presentations); GAM estimates for FY27-28E EPS in the forward series"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Pharma sector factor: trailing P/E on 30-Sep-2026 vs five-year median (Sep-2021 to Sep-2026)",
+      "head": [
+       "Company",
+       "P/E at 30-Sep-26 (x)",
+       "Five-year median (x)",
+       "vs median"
+      ],
+      "rows": [
+       [
+        "Divi's Labs",
+        "82.8",
+        "67.5",
+        "+23%"
+       ],
+       [
+        "Torrent Pharma",
+        "81.8",
+        "57.2",
+        "+43%"
+       ],
+       [
+        "Zydus Lifesciences",
+        "23.7",
+        "21.1",
+        "+12%"
+       ],
+       [
+        "Cipla",
+        "30.4",
+        "28.1",
+        "+8%"
+       ],
+       [
+        "Aurobindo Pharma",
+        "25.5",
+        "19.6",
+        "+30%"
+       ],
+       [
+        "Alkem Labs",
+        "27.1",
+        "29.0",
+        "−7%"
+       ],
+       [
+        "Ipca Labs",
+        "35.6",
+        "38.6",
+        "−8%"
+       ],
+       [
+        "Abbott India",
+        "35.7",
+        "48.0",
+        "−26%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Median of the eight (factor)**",
+         "",
+         "",
+         "**+10%**"
+        ]
+       },
+       [
+        "Lupin (excluded)",
+        "15.6",
+        "35.6",
+        "−56%"
+       ],
+       [
+        "Glenmark (excluded)",
+        "21.1",
+        "21.1",
+        "+0%"
+       ],
+       [
+        "Biocon (excluded)",
+        "82.9",
+        "49.7",
+        "+67%"
+       ],
+       [
+        "Laurus Labs (excluded)",
+        "97.9",
+        "66.8",
+        "+47%"
+       ],
+       [
+        "Dr Reddy's (excluded)",
+        "31.9",
+        "19.9",
+        "+60%"
+       ],
+       [
+        "Mankind Pharma (excluded)",
+        "48.5",
+        "50.7",
+        "−4%"
+       ],
+       [
+        "Median of all 14 non-Sun names",
+        "",
+        "",
+        "+10%"
+       ],
+       [
+        "Sun Pharma (not used)",
+        "34.5",
+        "33.6",
+        "+3%"
+       ]
+      ],
+      "source": "Screener.in P/E series and NSE closes on 30-Sep-2026 (asof-peers.js); exclusions per PLAYBOOK §7c: Lupin and Glenmark (loss years), Biocon and Laurus (boom-bust EPS, P/E >100x), Dr Reddy's (gRevlimid windfall then cliff), Mankind (listed May-2023)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E since 2021: reported vs adjusted EPS",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Reported EPS",
+         "values": [
+          17.3,
+          19.2,
+          19.3,
+          19.5,
+          21.6,
+          21.8,
+          22.5,
+          21.3,
+          23.5,
+          24.9,
+          25.8,
+          23.2,
+          22.6,
+          20.8,
+          23,
+          22.3,
+          24.5,
+          25.3,
+          25.1,
+          26.1,
+          24.2,
+          22.2,
+          21,
+          21.8,
+          24.1,
+          24.3,
+          25.4,
+          25.1,
+          27.1,
+          29.1,
+          33.1,
+          35.3,
+          31.5,
+          30.5,
+          32.8,
+          36.3,
+          38.7,
+          39.9,
+          37.5,
+          38.9,
+          36.4,
+          33.6,
+          32.9,
+          33.8,
+          32.5,
+          33.1,
+          31.1,
+          31.8,
+          33,
+          35,
+          32.6,
+          33.6,
+          35,
+          31,
+          30.5,
+          33.2,
+          33.1,
+          31.5
+         ],
+         "fmt": "x",
+         "thin": true
+        },
+        {
+         "name": "Adjusted EPS",
+         "values": [
+          17,
+          18.9,
+          18.9,
+          19.1,
+          21.1,
+          21.4,
+          22.1,
+          20.9,
+          23,
+          24.4,
+          25.3,
+          22,
+          21.5,
+          19.7,
+          21.8,
+          21.2,
+          23.2,
+          24,
+          23.8,
+          24.8,
+          23,
+          20.3,
+          19.2,
+          19.9,
+          22,
+          22.2,
+          23.2,
+          22.9,
+          24.8,
+          26.6,
+          30.3,
+          32.2,
+          29.1,
+          28.2,
+          30.3,
+          33.6,
+          35.9,
+          37,
+          34.7,
+          36,
+          33.7,
+          31.1,
+          32.9,
+          33.8,
+          32.5,
+          33.1,
+          31.1,
+          31.8,
+          33,
+          35,
+          32.6,
+          33.6,
+          35,
+          31,
+          30.5,
+          33.2,
+          33.1,
+          31.5
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 29.5,
+         "text": "Our standalone multiple: 29.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; reported and company-adjusted EPS; GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E + Organon (target)",
+        "EV/EBITDA (standalone)",
+        "DCF (standalone)",
+        "Street median target",
+        "Share price"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          1797,
+          1948,
+          1249,
+          2100,
+          1816.6
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E + Organon (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E (standalone) + Organon at cost**",
+        "**Target**",
+        "Sep-28E EPS ₹61.8; Organon −₹26.2",
+        "29.5x (= 29.1x implied; bull 36.7x, bear 23.5x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "Sep-28E EBITDA ₹21,404 cr + net cash",
+        "19.5x (bull 21.5x, bear 17.5x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "+8%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "FCFF FY28-42E, Ke {{dcf.ke|n1}}%, g 5.5%",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "−31%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research. Cross-checks are standalone; the Organon base adjustment (−₹26.2 a share) would apply to them too."
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA (19.5x Sep-28E EBITDA plus net cash) gives ₹1,948: 19.5x is Sun's 21.3x median trailing EV/EBITDA since 2021 × the +10.25% factor, restated from trailing to Sep-28E EBITDA (₹21,404 cr vs ₹17,847 cr in the year to Jun-26 on Screener's basis, which includes forex). It sits +8% above the target because it values the growing cash pile at face value rather than through EPS. The DCF gives only ₹1,249 at an 11.3% cost of equity and 5.5% terminal growth: Sun's heavy working capital (~27% of sales) absorbs a third of each year's operating cash, so free cash flow is well below profit. The market price (₹1,817) needs either more growth or a lower discount rate than our DCF assumes; the P/E on history says the price is fair."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Views we did not put in the base (sensitivity rows only)",
+      "head": [
+       "View",
+       "What it changes",
+       "Value / share (₹)"
+      ],
+      "wide": [
+       0,
+       1
+      ],
+      "rows": [
+       [
+        "House median on reported EPS (incl. exceptional charges)",
+        "29.1x × 1.1025 = 32x",
+        "1,950"
+       ],
+       [
+        "No sector factor (own adjusted median only)",
+        "26.5x",
+        "1,610"
+       ],
+       [
+        "Last two years of history only (FY26-28 forward years)",
+        "~33.0x (FY27 forward-year median)",
+        "2,010"
+       ],
+       [
+        "Street median 12-month multiple (Motilal 38x, Geojit 30x)",
+        "34x on our EPS",
+        "2,080"
+       ],
+       [
+        "Ignore the cash adjustment (Organon fully neutral)",
+        "29.5x, no adjustment",
+        "1,820"
+       ],
+       [
+        "Organon synergies in the base",
+        "+₹69.5 a share",
+        "1,870"
+       ],
+       [
+        "Growth premium (PEG-style)",
+        "EPS growth ~11% FY26-29E vs ~13% FY23-26 (adjusted): no premium",
+        "not applied"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "Scenarios"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Bull, base and bear",
+      "head": [
+       "",
+       "Bear",
+       "Base",
+       "Bull"
+      ],
+      "rows": [
+       [
+        "Revenue growth vs base (pp a year)",
+        "-3",
+        "0",
+        "+2"
+       ],
+       [
+        "EBITDA margin vs base (pp)",
+        "-1.5",
+        "0",
+        "+1"
+       ],
+       [
+        "FY28E EPS (₹)",
+        "51.9",
+        "58.4",
+        "62.9"
+       ],
+       [
+        "Sep-28E EPS (₹)",
+        "54.2",
+        "61.8",
+        "67.3"
+       ],
+       [
+        "Standalone multiple",
+        "24.5x",
+        "29.5x",
+        "36.5x"
+       ],
+       [
+        "Organon part (₹ a share)",
+        "-53.3",
+        "-26.2",
+        "+15.7"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Target (₹)**",
+         "**{{scen.bear.tp|inr}}**",
+         "**{{dcf.tp|inr}}**",
+         "**{{scen.bull.tp|inr}}**"
+        ]
+       },
+       [
+        "Upside",
+        "{{scen.bear.upside|chg}}",
+        "{{dcf.upside|chg}}",
+        "{{scen.bull.upside|chg}}"
+       ],
+       [
+        "What has to happen",
+        "The specialty launches stall against JAK and PD-1 rivals (AbbVie's Rinvoq in alopecia is expected by early 2027), US generics keep shrinking with four plants under FDA action, the 100% US tariff on patented imports bites, and EM slows; margin slips ~1.5pp. Organon's EBITDA falls 10% below its $1.9 bn guidance before Sun can fix it.",
+        "Our forecasts; Organon closes in Q4FY27 at cost",
+        "Leqselvi and Unloxcyt build quickly, Ilumya wins psoriatic arthritis in Oct-2026 and keeps growing mid-teens, US generics turn up as Halol, Baska and Dadra clear their FDA issues, India keeps gaining share with semaglutide; margin rises ~1pp faster. Organon closes on time and the $350 mn of cost synergies are delivered."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "DCF detail"
+    },
+    {
+     "pair": [
+      {
+       "type": "table",
+       "title": "DCF summary (standalone, ₹ crore)",
+       "head": [
+        "",
+        "Value"
+       ],
+       "rows": [
+        [
+         "Cost of equity (rf 6.5% + 0.8 × 6%)",
+         "11.3%"
+        ],
+        [
+         "Terminal growth",
+         "5.5%"
+        ],
+        [
+         "PV of FCFF, FY28-42E",
+         "1,29,390"
+        ],
+        [
+         "PV of terminal value",
+         "1,16,513 (47% of EV)"
+        ],
+        [
+         "Net cash at Mar-27E",
+         "38,122"
+        ],
+        [
+         "Equity value per share (Mar-27)",
+         "1,184"
+        ],
+        [
+         "Rolled to Sep-27 (12-month value)",
+         "1,249"
+        ]
+       ],
+       "source": "GAM Research (engine DCF)"
+      },
+      {
+       "type": "table",
+       "title": "DCF value per share: cost of equity vs terminal growth",
+       "head": [
+        "Ke \\ g",
+        "4.5%",
+        "5.0%",
+        "5.5%",
+        "6.0%",
+        "6.5%"
+       ],
+       "rows": [
+        [
+         "10.3%",
+         "1,350",
+         "1,410",
+         "1,480",
+         "1,570",
+         "1,680"
+        ],
+        [
+         "10.8%",
+         "1,250",
+         "1,300",
+         "1,350",
+         "1,420",
+         "1,500"
+        ],
+        [
+         "11.3%",
+         "1,170",
+         "1,210",
+         "1,250",
+         "1,300",
+         "1,360"
+        ],
+        [
+         "11.8%",
+         "1,100",
+         "1,130",
+         "1,160",
+         "1,200",
+         "1,250"
+        ],
+        [
+         "12.3%",
+         "1,030",
+         "1,060",
+         "1,080",
+         "1,120",
+         "1,150"
+        ]
+       ],
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "h": "Peers on 30-Sep-2026"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Indian pharma peers at the 30-Sep-2026 close",
+      "head": [
+       "Company",
+       "Price (₹)",
+       "Market cap (₹ cr)",
+       "Trailing P/E (x)",
+       "EV/EBITDA (x)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Sun Pharma**",
+        "1,817",
+        "4,35,817",
+        "34.5",
+        "21.4",
+        "58,462",
+        "28.2%",
+        "14.8%"
+       ],
+       [
+        "Divi's Labs",
+        "9,292",
+        "2,47,414",
+        "82.8",
+        "55.1",
+        "10,560",
+        "32.6%",
+        "16.2%"
+       ],
+       [
+        "Torrent Pharma",
+        "4,800",
+        "1,82,204",
+        "81.8",
+        "38.3",
+        "13,980",
+        "32.6%",
+        "26.8%"
+       ],
+       [
+        "Zydus Lifesciences",
+        "1,162",
+        "1,16,341",
+        "23.7",
+        "14.4",
+        "27,148",
+        "31.2%",
+        "20.1%"
+       ],
+       [
+        "Cipla",
+        "1,346",
+        "1,08,738",
+        "30.4",
+        "17.6",
+        "28,163",
+        "20.9%",
+        "11.8%"
+       ],
+       [
+        "Aurobindo Pharma",
+        "1,672",
+        "96,429",
+        "25.5",
+        "12.1",
+        "33,653",
+        "20.4%",
+        "9.9%"
+       ],
+       [
+        "Alkem Labs",
+        "5,164",
+        "61,932",
+        "27.1",
+        "17.0",
+        "14,712",
+        "20.4%",
+        "18.2%"
+       ],
+       [
+        "Ipca Labs",
+        "1,927",
+        "48,853",
+        "35.6",
+        "20.4",
+        "9,599",
+        "20.7%",
+        "15.8%"
+       ],
+       [
+        "Abbott India",
+        "27,125",
+        "57,626",
+        "35.7",
+        "24.6",
+        "6,929",
+        "27.3%",
+        "34.5%"
+       ],
+       [
+        "Lupin",
+        "2,030",
+        "93,006",
+        "15.6",
+        "9.4",
+        "27,958",
+        "29.2%",
+        "27.0%"
+       ],
+       [
+        "Glenmark",
+        "2,335",
+        "65,891",
+        "21.1",
+        "12.4",
+        "16,983",
+        "26.9%",
+        "14.1%"
+       ],
+       [
+        "Biocon",
+        "370",
+        "60,033",
+        "82.9",
+        "18.7",
+        "16,927",
+        "20.5%",
+        "1.3%"
+       ],
+       [
+        "Laurus Labs",
+        "1,980",
+        "1,06,949",
+        "97.9",
+        "52.4",
+        "6,813",
+        "26.2%",
+        "18.2%"
+       ],
+       [
+        "Dr Reddy's",
+        "1,233",
+        "1,02,974",
+        "31.9",
+        "16.3",
+        "33,700",
+        "19.2%",
+        "11.6%"
+       ],
+       [
+        "Mankind Pharma",
+        "2,504",
+        "1,03,616",
+        "48.5",
+        "26.2",
+        "14,278",
+        "25.4%",
+        "12.7%"
+       ]
+      ],
+      "source": "Screener.in via asof-peers.js (NSE closes on 30-Sep-2026; FY26 financials)"
+     }
+    },
+    {
+     "callout": "**Rating: HOLD.** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%. At ₹1,817 the upside to {{dcf.tp|inr}} is {{dcf.upside|chg}}. We would turn buyers below ~₹1,570 and sellers above ~₹1,890, on unchanged estimates."
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & verdict",
+   "kicker": "Risks & honest summary",
+   "title": "Verdict: HOLD. A great franchise at a fair price, with a large, leveraged bet attached",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key risks",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact",
+       "What we watch"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Organon integration and leverage: revenue keeps falling, synergies slip, financing costs more than ~5.5%",
+        "Medium",
+        "High",
+        "Closing terms (Q4FY27), bond pricing, Nexplanon and China trends, first combined guidance"
+       ],
+       [
+        "US FDA: more plants flagged, Halol/Baska/Dadra not cleared, consent-decree escalation at Mohali",
+        "Medium",
+        "High",
+        "Re-inspections, warning letters, new ANDA approvals"
+       ],
+       [
+        "Specialty launches disappoint (Leqselvi vs JAK rivals incl. AbbVie's Rinvoq; Unloxcyt vs Libtayo/Keytruda); Ilumya psoriatic-arthritis decision delayed",
+        "Medium",
+        "Medium-High",
+        "Quarterly innovative sales, prescriber data, FDA action in late Oct-2026"
+       ],
+       [
+        "US Section 232 tariff (100% on patented imports from 29-Sep-2026) or its extension to generics",
+        "Medium",
+        "Medium",
+        "Sun's sourcing disclosures; Commerce review of generics within a year"
+       ],
+       [
+        "US litigation: GxMDL claims beyond the settled end-payer class, opioids, Ranbaxy-era cases",
+        "Medium",
+        "Medium",
+        "Exceptional charges (₹130-950 cr a year after tax in FY23-26)"
+       ],
+       [
+        "India price controls and trade-margin caps; GLP-1 generic price war",
+        "Medium",
+        "Medium",
+        "NLEM revisions, NPPA notices, semaglutide pricing"
+       ],
+       [
+        "Tax rate stays near 28% or rises after Organon; forex reverses (a stronger rupee cuts rupee revenue and creates forex losses)",
+        "Medium",
+        "Low-Medium",
+        "Quarterly ETR; rupee"
+       ],
+       [
+        "Succession and management bandwidth during the largest integration in Sun's history",
+        "Low-Medium",
+        "Medium",
+        "Senior hires, integration office updates"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The honest summary"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What you buy, what you pay",
+      "head": [
+       "",
+       ""
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "What you buy",
+        "India's No.1 pharma franchise (8.5% share, still gaining), the only scaled global specialty business among Indian companies ($1.42 bn), a shrinking US generics arm hobbled by FDA issues, and, from ~Q1 2027, Organon: twice the revenue, ~$9.5 bn of net debt, a slow-declining portfolio and a women's-health and biosimilar platform."
+       ],
+       [
+        "What you pay",
+        "₹1,817: 31.1x our standalone FY28E EPS and 29.4x Sep-28E, against a 26.6x median forward P/E on adjusted EPS since 2021 (29.1x on reported EPS). Our 29.5x standalone multiple plus Organon at cost gives {{dcf.tp|inr}} ({{dcf.upside|chg}}); the post-results street median is ₹2,100."
+       ],
+       [
+        "Why HOLD, not BUY",
+        "Our standalone EPS is ~10% below the street, the multiple the market pays is already at the top of its post-2021 range, and Organon adds risk faster than it adds value. Accretion is not a reason to pay more: it is bought with debt."
+       ],
+       [
+        "Why not SELL",
+        "The core businesses are excellent and growing, the balance sheet is strong until closing, Ilumya has a near-term catalyst, and the street's P/E basis supports the current price."
+       ],
+       [
+        "What would make us more positive",
+        "Proof that Leqselvi/Unloxcyt are building (innovative sales growing >15% again), Ilumya approved in psoriatic arthritis, an FDA clearance at Halol or Baska, Organon financed well below 5.5% with revenue stabilising; or a price below ~₹1,570."
+       ],
+       [
+        "What would make us negative",
+        "A delay or re-pricing of Organon, a new FDA action, a tariff hit on Ilumya, or Organon EBITDA falling 10% (our bear case: {{scen.bear.tp|inr}}); or a price above ~₹1,890."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**How we would act:** hold existing positions; this is a quality compounder priced roughly at our fair value, with the next 12 months dominated by the Organon closing. Our bull case ({{scen.bull.tp|inr}}, 36.5x plus synergies on Sep-28E EPS of ₹67.3) needs both faster specialty growth and a smooth integration; our bear case ({{scen.bear.tp|inr}}) needs only one of the risks above to bite. That asymmetry is why we do not chase the street's ~₹2,100."
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY15–FY29E (standalone Sun: Organon not in the forecasts)",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue from operations",
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA (before forex gains)",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 200
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation and amortisation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. forex gains, after exceptional items in actuals)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (attributable)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex (incl. intangibles)"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L (Screener quarterly basis: EBITDA includes forex gains)",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 15
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA (incl. forex)"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (after exceptional items)"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (attributable)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Generic",
+        "A copy of a medicine whose patent has expired; sold at a fraction of the original price. \"Branded generic\": a generic sold under a brand name and promoted to doctors (India, emerging markets)."
+       ],
+       [
+        "Innovative medicines / specialty",
+        "Patented or differentiated branded products (Ilumya, Leqselvi, Unloxcyt, Cequa…) sold at high prices; Sun's name for its specialty business."
+       ],
+       [
+        "ANDA / NDA / BLA",
+        "US marketing applications for a generic (Abbreviated New Drug Application), a new drug or new formulation (NDA), and a biologic (Biologics License Application)."
+       ],
+       [
+        "USFDA, OAI, warning letter, import alert, consent decree",
+        "The US regulator; \"Official Action Indicated\" is its worst inspection outcome; a warning letter lists violations; an import alert blocks shipments from a plant; a consent decree is a court order imposing remedial steps (Ranbaxy, 2012)."
+       ],
+       [
+        "gRevlimid",
+        "Generic lenalidomide (a cancer drug) that several companies sold in limited, agreed volumes in the US from 2022 until full generic entry in Jan-2026: a temporary windfall."
+       ],
+       [
+        "IL-23, JAK, PD-L1",
+        "Drug classes: IL-23 blockers treat psoriasis (Ilumya); JAK inhibitors treat alopecia and other immune diseases (Leqselvi); PD-L1 antibodies are cancer immunotherapies (Unloxcyt)."
+       ],
+       [
+        "Medicare Part B",
+        "The US government insurance programme that pays for drugs given in a doctor's office or clinic (infusions, injections)."
+       ],
+       [
+        "Biosimilar",
+        "A near-copy of a biologic drug after its patent expires (e.g., Organon's Hadlima, a copy of Humira)."
+       ],
+       [
+        "IPM, MAT, AWACS, SMSRC",
+        "Indian Pharmaceutical Market; Moving Annual Total (last 12 months); AIOCD AWACS (pharmacy sales audit); SMSRC (prescription audit)."
+       ],
+       [
+        "Section 232 tariff",
+        "A US import duty justified on national-security grounds; for pharma, 100% on patented drugs from 29-Sep-2026 unless a lower rate or exemption applies; generics excluded for now."
+       ],
+       [
+        "EBITDA before forex",
+        "Operating profit before depreciation, interest, tax and foreign-exchange gains; Sun's own EBITDA includes forex gains."
+       ],
+       [
+        "Exceptional items / adjusted EPS",
+        "Charges or gains the company treats as one-offs (litigation, impairments, restructuring); adjusted EPS excludes them."
+       ],
+       [
+        "One-year-forward P/E",
+        "Share price divided by the next full financial year's EPS. Sep-28E EPS = half FY28E plus half FY29E (the year ahead of our 12-month target date)."
+       ],
+       [
+        "Sector factor",
+        "The median premium or discount of pharma peers' P/E on 30-Sep-2026 to their own five-year medians (+10.25%); applied to Sun's own median multiple."
+       ],
+       [
+        "Sum of the parts (SOTP)",
+        "Valuing a company as the sum of separately valued pieces; here standalone Sun on P/E plus the pending Organon deal at cost."
+       ],
+       [
+        "Synergies",
+        "Cost savings or extra sales from combining two companies; Sun expects ~$350 mn of cost synergies from Organon in 2-4 years."
+       ],
+       [
+        "DCF, FCFF, Ke",
+        "Discounted cash flow; free cash flow to the firm; cost of equity (the return shareholders require: 11.3% here)."
+       ],
+       [
+        "CWIP, PPA",
+        "Capital work in progress; purchase-price allocation (how an acquisition's price is split into assets, intangibles and goodwill, which sets future amortisation)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY16": "+4%: first full year with Ranbaxy (merged Mar-2015).",
+  "sales@FY18": "−16%: US limited-competition launches of FY17 faded, US generic prices fell and Halol's FDA problems hit supplies.",
+  "ebitdaMargin@FY18": "−1,070bp to 21%: lower US sales on a fixed cost base.",
+  "pat@FY18": "−70%: lower US profits plus ₹947 cr of exceptional charges.",
+  "pat@FY21": "−23%: ₹4,292 cr of exceptional charges (US litigation provisions) in other income.",
+  "otherIncome@FY21": "Negative: Screener nets the ₹4,292 cr of exceptional charges into other income.",
+  "otherIncome@FY22": "Negative: ₹4,532 cr of exceptional charges (Ranbaxy-era US litigation ₹3,936 cr, Taro MDL, impairments).",
+  "pat@FY22": "+13% despite ₹3,444 cr of after-tax exceptional charges.",
+  "pat@FY23": "+159%: exceptional charges fell to ₹164 cr; gRevlimid and specialty growth.",
+  "ebitdaMargin@FY25": "+190bp to 28.7%: innovative medicines and India mix.",
+  "pat@FY25": "+14%: ₹694 cr of exceptional charges (opioid settlement, Lyndra write-off, restructuring) and a deferred-tax write-off.",
+  "otherIncome@FY26": "₹1,895 cr = ₹1,972 cr other income + ₹1,240 cr forex gain − ₹1,314 cr exceptional charges (GxMDL, labour codes, SCD-044).",
+  "pat@FY26": "+5%: forex gains offset ₹949 cr of after-tax exceptional charges; tax rate up to 23.5%.",
+  "sales@FY27E": "+10.3%: ~5 points from the weaker rupee; India +14%, US −4% in dollars. Standalone (no Organon).",
+  "ebitdaMargin@FY27E": "28.4% before forex: no gRevlimid, R&D back to ~6.3% of sales.",
+  "eps@FY27E": "Standalone, before exceptional items; tax 27.5%; only Q1's ₹122 cr of forex gains.",
+  "eps@FY28E": "Standalone. Organon (closing guided for Q4FY27) would add 30-40% before amortisation on street numbers; we value it separately at cost.",
+  "otherIncome@FY28E": "6% on opening net cash (₹38,122 cr) + ₹50 cr; would fall sharply after Organon."
+ }
+}

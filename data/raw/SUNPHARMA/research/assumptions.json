@@ -1,0 +1,258 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Sun Pharmaceutical Industries (consolidated, Rs crore; Net Profit on the attributable basis via tools/authoring/SUNPHARMA.patch.js). STANDALONE SUN: the forecasts exclude Organon & Co., whose acquisition (EV $11.75 bn, signed 26/27-Apr-2026, Organon shareholders approved it in July 2026) was still awaiting regulatory approvals on 30-Sep-2026, with closing guided for Q4FY27 (Jan-Mar 2027). The Organon deal enters the valuation as a separate sum-of-the-parts item (organon block below; tools/authoring/SUNPHARMA.sotp.js carries it into the P/E multiple). Revenue is Screener's revenue from operations (gross sales + other operating revenue); EBITDA is Screener's annual basis, i.e. BEFORE foreign-exchange gains (Sun's own 'EBITDA' includes them: FY26 Rs17,731 cr vs Rs16,501 cr here); forex gains sit in other income. One reportable segment (pharmaceuticals) with four geographies; the business-line build in businessLines is checked against model revenue in the authoring script.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  10.34,
+  8.43,
+  8.11
+ ],
+ "_revenueWhy": "From the business-line build (businessLines). FY27E +10.3%: Q1FY27 revenue from operations +10.5% (India +16.0%, US -0.1% in rupees but -9.7% in dollars, EM +15.4%, RoW +10.4%); management guides to high-single-digit growth (22-May and 31-Jul-2026) and asked analysts to stay with it despite Q1. About 5 points of FY27 growth is the rupee: FY26 averaged ~Rs88.5/$ (US Rs168,242 mn on $1.90 bn), Q1FY27 ~Rs94.7/$ and the rupee closed at 95.81 on 30-Sep-2026; we hold 95.8 from Q2. FY28E +8.4%, FY29E +8.1% at a flat rupee: India +12% / +11.5%, US +6% (dollar growth returns as gRevlimid is out of the base and the specialty launches ramp), EM +7%, RoW +6%. Street FY28E revenue: PL Rs72,562 cr, Emkay Rs71,102 cr; we are 2-4% lower because we assume slower US growth.",
+ "businessLines": {
+  "_why": "FY26 gross sales by business (Q1FY27 investor presentation p.53-54, Rs mn converted to Rs crore): India formulations 19,290.4, US formulations 16,824.2, Emerging Markets 11,186.5, Rest of World 8,568.4, API 2,185.3; 'other' = other sales 165.4 + other operating revenue 241.9 (AR FY26 note 30). Growth is in rupees; for the three overseas lines it combines dollar growth and the rupee (FY26 average ~88.5, FY27E ~95.5, then flat at 95.8). India FY27E +14% (Q1 +16%; FY26 +14%; 8.5% market share, +30bp a year; semaglutide since 21-Mar-2026), +12%, +11.5%. US: dollars -4% in FY27E (Q1 $427 mn, -9.7%: gRevlimid gone and more competition in some generics; innovative medicines growing), then +6% a year; rupees +3.5% / +6.3% / +6.0%. EM: dollars +6% / +7% / +7% (FY26 +13.6%, constant currency +8.2%; Q1FY27 +4.2% on geopolitics and weak macro in some markets); rupees +14.5% / +7.3% / +7.0%. RoW: dollars +3% / +6% / +6% (Q1FY27 $218 mn, flat; FY26 +14.4%); rupees +11.2% / +6.3% / +6.0%. API +8% / +7% / +6% (Q1 +10.5%). The script checks that the lines sum to model revenue.",
+  "base": {
+   "fy": "FY26",
+   "india": 19290.4,
+   "us": 16824.2,
+   "em": 11186.5,
+   "row": 8568.4,
+   "api": 2185.3,
+   "other": 407.3
+  },
+  "growth": {
+   "india": [
+    14,
+    12,
+    11.5
+   ],
+   "us": [
+    3.5,
+    6.3,
+    6
+   ],
+   "em": [
+    14.5,
+    7.3,
+    7
+   ],
+   "row": [
+    11.2,
+    6.3,
+    6
+   ],
+   "api": [
+    8,
+    7,
+    6
+   ],
+   "other": [
+    0,
+    1,
+    1
+   ]
+  },
+  "fx": {
+   "fy26Avg": 88.5,
+   "fy27Avg": 95.5,
+   "spot": 95.81,
+   "_why": "FY26 average implied by US sales of Rs168,242 mn on $1.90 bn (Q4FY26 call); Q1FY27 Rs40,419 mn on $427 mn = 94.7; spot close 95.81 on 30-Sep-2026 (PTI)."
+  },
+  "usdLines": {
+   "usFy26M": 1900,
+   "emFy26M": 1265,
+   "rowFy26M": 969,
+   "usGrowth": [
+    -4,
+    6,
+    6
+   ],
+   "emGrowth": [
+    6,
+    7,
+    7
+   ],
+   "rowGrowth": [
+    3,
+    6,
+    6
+   ]
+  }
+ },
+ "ebitdaMargin": [
+  28.4,
+  29.2,
+  29.6
+ ],
+ "_marginWhy": "EBITDA before forex gains (Screener basis). FY24 26.8%, FY25 28.7%, FY26 28.2%; quarters of FY26 29.4 / 28.3 / 30.9 / 24.1% and Q1FY27 28.1% (Rs4,296 cr; Q1FY26 still had gRevlimid). Gross margin is rising with mix (80.5% in Q1FY27, +90bp) as innovative medicines (22% of sales) and India grow, but three costs rise too: R&D, guided at 6-7% of sales for FY27 (5.4% in Q1, 'to normalise'), the Leqselvi and Unloxcyt launch spend, which management says is now base spend (~$100 mn in FY26), and employee costs (21.1% of sales in Q1 on increments, new field force and forex). FY27E 28.4% (no gRevlimid, R&D ~6.3% of sales), FY28E 29.2% and FY29E 29.6% as the specialty launches and Ilumya in psoriatic arthritis (US decision due late Oct-2026) add high-margin sales. PL has 29.3% / 30.0% on the same basis. Each 1pp of margin is ~Rs700 cr of FY28E EBITDA (~3.7% of EPS).",
+ "capex": [
+  3200,
+  3400,
+  3600
+ ],
+ "_capexWhy": "Capex including intangibles bought (milestones, in-licensing): Rs2,202 / 2,129 / 3,609 cr in FY24-26 (Screener cash flow; FY26 includes the capitalised Leqselvi and Checkpoint intangibles' additions). The new sterile-only greenfield plant in Madhya Pradesh (Q4FY26 call) and continued in-licensing keep it at ~5% of sales; Emkay models Rs3,872 / 4,250 / 4,672 cr incl. intangibles.",
+ "depRateOnGrossBlock": 4.9,
+ "_depWhy": "FY26 depreciation and amortisation Rs2,938 cr = 5.5% of average gross block (Rs53,136 cr), but the gross block jumped by Rs14,371 cr in FY26 as Leqselvi and Unloxcyt intangibles were capitalised late in the year and the rupee fell. Q1FY27 D&A Rs739 cr (Rs2,956 cr annualised). 4.9% on the average gross block gives Rs3,034 cr in FY27E, in line with the Q1 run-rate, rising with capex (CWIP is held flat by the engine).",
+ "treasuryYield": [
+  6,
+  6,
+  6
+ ],
+ "_treasuryWhy": "Applied to opening net cash on Screener's basis (cash Rs11,603 cr + investments Rs24,723 cr - borrowings incl. leases Rs4,627 cr = Rs31,699 cr at Mar-26; the company reports $3.2 bn net cash at Mar-26 and $3.4 bn at Jun-26). FY26 treasury income = interest on bank deposits Rs540.7 cr + interest on debt instruments Rs197.1 cr + dividends Rs59.4 cr + mutual-fund gains Rs876.1 cr (realised Rs779.9 + Rs3.3 cr, fair value Rs92.9 cr) = Rs1,673.3 cr (AR FY26 note 31), 6.1% of opening net cash (Rs27,324 cr) and 5.7% of the average. Rates are lower in India and the US than a year ago, but more of the cash is now in dollars: 6.0%.",
+ "otherIncome": [
+  172,
+  50,
+  50
+ ],
+ "_otherIncomeWhy": "Non-treasury other income, built only from sourced parts. (1) Recurring non-treasury items in AR FY26 note 31: interest on loans and other items excl. the tax refund (Rs1.8 + 47.3 cr), lease rentals Rs16.5 cr, insurance claims Rs16.9 cr and miscellaneous income Rs84.4 cr = ~Rs167 cr (FY25 ~Rs147 cr); held at Rs150 cr. Interest on income-tax refunds (Rs128 cr in FY26, Rs351 cr in FY25) and asset-sale gains are left out as one-offs. (2) Forex: FY26 net forex gain Rs1,240 cr (AR FY26 P&L) came from a 10% fall in the rupee; we include only the Q1FY27 gain already booked (Rs122 cr, Q1 call) and assume no forex gains after that. (3) The engine has no minority or associate line: associates' and the JV's losses (Rs56 cr in FY26, Rs10 cr in Q1FY27) and minorities' share (Rs29 cr in FY26, Rs6 cr in Q1FY27) cost ~Rs75 cr a year after tax; we deduct Rs100 cr pre-tax so that forecast EPS is on the attributable basis of the patched history. FY27E: 150 + 122 - 100 = Rs172 cr; FY28-29E: Rs50 cr. Total FY27E other income (incl. 6% on Rs31,699 cr = Rs1,902 cr) is ~Rs2,070 cr vs Rs1,972 cr in FY26 before forex and Rs2,231 cr in the twelve months to Jun-26 before forex and exceptional items (Q1FY27 alone Rs724 cr, +56% YoY, composition not disclosed); see the reconciliation table in the report.",
+ "interest": [
+  390,
+  380,
+  370
+ ],
+ "_interestLabel": "Interest cost (working-capital debt and leases; excludes any Organon acquisition debt)",
+ "_interestWhy": "FY26 Rs339 cr; Q1FY27 Rs100 cr on Rs4,627 cr of borrowings incl. Rs546 cr of leases at Mar-26 (short-term debt Rs4,050 cr). Standalone Sun: no acquisition debt in these forecasts.",
+ "taxRate": [
+  27.5,
+  27,
+  27
+ ],
+ "_taxWhy": "Effective rate 23.5% in FY26 (AR FY26 note 49, incl. one-off credits for MAT and a rate change), 27.8% in Q1FY27. The CFO said on 31-Jul-2026 that Sun's low Indian tax rate is 'now getting exhausted' and that the rate should stay in the Q1 range until Organon closes (in May she had guided ~25%). The engine taxes associates' losses too; the difference is small. 27.5% / 27% / 27%.",
+ "payout": [
+  33,
+  33,
+  33
+ ],
+ "_payoutWhy": "FY26 dividend Rs16 a share (interim Rs11 + final Rs5), the same as FY25: 33% of reported EPS (Screener 33-35% in FY24-26). On the Organon call the chairman said internal cash-flow plans assume dividends continue, but debt repayment comes first; we keep 33%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.8,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 29.5,
+  "fadeCapexPctTo": 4.5,
+  "depPctOfSales": 4.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Standalone Sun is net cash with diversified, defensive revenue (India branded generics, specialty, EM): below-market sensitivity (Ke 11.3%). The Organon debt (pro-forma net debt/EBITDA ~2.3x) is not in this standalone DCF.",
+  "_tgWhy": "Pharmaceutical demand grows with ageing and access; India and EM branded generics can grow faster than GDP, US generics cannot. 5.5% nominal.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~8% to 7% by year 15.",
+  "_fadeMarginWhy": "29.5%: the FY29E level held; specialty mix offsets US generic price erosion.",
+  "_fadeCapexWhy": "Capex incl. intangibles ~4.5% of sales (FY24-26 average 5.0%); D&A 4.5% of sales (FY26 5.0%, incl. amortisation of acquired intangibles)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Leqselvi and Unloxcyt build quickly, Ilumya wins psoriatic arthritis in Oct-2026 and keeps growing mid-teens, US generics turn up as Halol, Baska and Dadra clear their FDA issues, India keeps gaining share with semaglutide; margin rises ~1pp faster. Organon closes on time and the $350 mn of cost synergies are delivered.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 1,
+   "fadeMarginTo": 31
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The specialty launches stall against JAK and PD-1 rivals (AbbVie's Rinvoq in alopecia is expected by early 2027), US generics keep shrinking with four plants under FDA action, the 100% US tariff on patented imports bites, and EM slows; margin slips ~1.5pp. Organon's EBITDA falls 10% below its $1.9 bn guidance before Sun can fix it.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 27.5
+  }
+ },
+ "organon": {
+  "_why": "Pending acquisition of Organon & Co. (NYSE: OGN). Terms (Sun investor call, 27-Apr-2026): $14.00 a share in cash, equity value $3.99 bn, enterprise value $11.75 bn; funded with $2.0-2.5 bn of Sun's cash and committed bank debt; Organon's gross debt ~$8.5 bn (cost ~5.5%), cash ~$0.9 bn; pro-forma net debt/EBITDA ~2.3x; ~$350 mn of cost synergies over 2-4 years; 'EPS accretive from day one'; closing expected in Q4FY27 (Q1FY27 call, 31-Jul-2026; Organon shareholders approved it in July 2026). Organon FY2025 (8-K, 12-Feb-2026): revenue $6,216 mn (-3%), adjusted EBITDA $1,907 mn (30.7%), adjusted net income $954 mn; 2026 guidance revenue ~$6.2 bn, adjusted EBITDA ~$1.9 bn, interest ~$500 mn. Valuation treatment (SUNPHARMA.sotp.js): Organon is valued at what Sun pays (6.2x 2025 EBITDA), so the deal itself adds nothing in the base case; the base adjustment removes the excess value the P/E multiple puts on the $2.25 bn of cash that leaves Sun (its interest income is in standalone EPS and the multiple capitalises it at more than face value). Bull adds the cost synergies; bear takes off a 10% shortfall in Organon's EBITDA, both at the 6.2x deal multiple.",
+  "cashUsedUsdBn": 2.25,
+  "fx": 95.81,
+  "dealEvUsdBn": 11.75,
+  "equityUsdBn": 3.99,
+  "ebitda2025UsdM": 1907,
+  "ebitda2026GuideUsdM": 1900,
+  "revenue2025UsdM": 6216,
+  "adjNetIncome2025UsdM": 954,
+  "debtDec25UsdBn": 8.64,
+  "cashDec25UsdM": 574,
+  "synergiesUsdM": 350,
+  "synergyDiscountYears": 2,
+  "bearEbitdaShortfallPct": 10,
+  "valuation": {
+   "base": {
+    "standaloneMultiple": 29.5,
+    "sep28Eps": 61.8,
+    "standalonePerShare": 1823,
+    "cashAdjPerShare": -26.24,
+    "synergyOrShortfallPerShare": 0,
+    "organonPerShare": -26.24,
+    "totalPerShare": 1797
+   },
+   "bull": {
+    "standaloneMultiple": 36.5,
+    "sep28Eps": 67.25,
+    "standalonePerShare": 2455,
+    "cashAdjPerShare": -53.79,
+    "synergyOrShortfallPerShare": 69.51,
+    "organonPerShare": 15.72,
+    "totalPerShare": 2470
+   },
+   "bear": {
+    "standaloneMultiple": 24.5,
+    "sep28Eps": 54.2,
+    "standalonePerShare": 1328,
+    "cashAdjPerShare": -6.57,
+    "synergyOrShortfallPerShare": -46.75,
+    "organonPerShare": -53.31,
+    "totalPerShare": 1275
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 29.08,
+      "bull": 36.73,
+      "bear": 23.52
+     },
+     "why": "How the street values Sun: P/E on 12-month-forward or FY28E EPS (Motilal Oswal 38x 12-month forward, Geojit 30x FY28E, Prabhudas Lilladher 25x FY28E combined-entity EPS; ICICI Securities and Emkay use a sum of the parts). Standalone multiple 29.5x = Sun's median one-year-forward P/E since Apr-2021 on EPS before exceptional items (26.6x; no trough years) x the pharma sector factor of +10.25% (median of eight peers' P/E vs their five-year medians on 30-Sep-2026, excluding Sun; PLAYBOOK §7c) = 29.3x, rounded to the half-turn. The house median on reported EPS is 29.1x (=> 32x, a sensitivity). Organon, still pending on 30-Sep-2026, is valued at what Sun pays (6.2x EBITDA): its base-case part is -26.2 rupees a share (the $2.25 bn of cash that leaves Sun is worth face value, not 29.5x its interest income), so the implied multiple on standalone Sep-28E EPS is 29.08x. Bull 36.5x (75th percentile x factor) plus synergies => 36.73x; bear 24.5x (25th percentile x factor) less a 10% Organon EBITDA shortfall => 23.52x."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 19.5,
+      "bull": 21.5,
+      "bear": 17.5
+     },
+     "why": "Counts net cash at face value. 19.5x Sep-28E EBITDA = Sun's 21.3x median trailing EV/EBITDA since Apr-2021 x the +10.25% pharma factor, restated for Sep-28E EBITDA (Rs21,404 cr, before forex) vs the twelve months to Jun-26 on Screener (Rs17,847 cr). Bull 21.5x and bear 17.5x use the 75th and 25th percentiles. Standalone: the Organon part is not added."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether standalone cash flows support the price: 15-year FCFF, Ke 11.3%, terminal growth 5.5%, plus net cash at Mar-27E. Organon is not in it."
+    }
+   ]
+  }
+ }
+}
