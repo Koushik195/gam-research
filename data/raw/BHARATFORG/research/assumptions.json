@@ -1,0 +1,380 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Bharat Forge (consolidated, Rs crore). Segment-driven on the company's management basis (quarterly analyst updates): standalone Bharat Forge (forgings made in India for domestic and export auto and industrial customers), Kalyani Strategic Systems (KSSL, defence), other Indian subsidiaries (K Drive Mobility, the ex-AAM India axle business consolidated from 1-Jul-2025, plus BF Industrial Solutions / JS Autocast), European manufacturing (incl. CDP Bharat Forge, being wound down by end-CY2027), US manufacturing (steel and aluminium forging), e-mobility (Kalyani Powertrain) and inter-company eliminations. Group EBITDA = sum of segment EBITDA less 'unallocated' (the gap to Screener's EBITDA: forex in expenses and other Indian entities, net). Net Profit and FY26 EPS are patched in tools/authoring/BHARATFORG.patch.js (Profit for EPS; 48.87 cr post-QIP shares). Valued on P/E on Sep-28E EPS, as most of the street does; the multiple is derived in tools/authoring/BHARATFORG.ctx.js and written here by BHARATFORG.sync.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "bfl",
+   "name": "Bharat Forge standalone (forgings, India)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 8395.8,
+   "growth": [
+    15,
+    16,
+    15
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    26.8,
+    27.5,
+    27.8
+   ],
+   "hist": {
+    "driver": "bflRev",
+    "revenue": "bflRev",
+    "adjEbitda": "bflEbitda"
+   },
+   "_why": "FY26 Rs8,396 cr (-5%: US Class 8 truck destocking and tariffs cut exports 15%; domestic +6.5%). Q1FY27 +11.5% (exports +12%, domestic +11%, tonnage +8%). Management guides 20-25% growth for the India manufacturing business in FY27, H2-weighted (Aug-2026), and calls FY28 'strong'. Drivers: North American Class 8 recovery (Daimler NA guidance 250-290k for CY26, Volvo 265k), PV exports, aerospace (Rs400 cr, to double in ~2 years), large engines for data-centre and power-gen sets, CDP orders moving to India from late CY2027, and Rs1,800 cr of new forging/machining capacity at an asset turn above 1.5x. We take +15% / +16% / +15%, below Emkay (+21.5% / +18.8% / +16.4%).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin 27.5% FY24, 28.5% FY25, 27.5% FY26, 26.2% in Q1FY27 (160bp hit from energy, input and logistics costs; ~28% normalised per management). Recoveries from customers lift revenue and cost together, so the margin returns gradually, not to 28%: 26.8% / 27.5% / 27.8%."
+  },
+  {
+   "key": "kssl",
+   "name": "Kalyani Strategic Systems (defence)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1562.2,
+   "growth": [
+    35,
+    35,
+    20
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    15,
+    17,
+    18
+   ],
+   "hist": {
+    "driver": "ksslRev",
+    "revenue": "ksslRev",
+    "adjEbitda": "ksslEbitda"
+   },
+   "_why": "KSSL revenue Rs1,422 cr FY24, Rs1,567 cr FY25, Rs1,562 cr FY26 (flat: artillery-shell exports lumpy), Rs423 cr in Q1FY27 (+71%). Defence order book Rs11,196 cr at Jun-2026 (7x FY26 revenue), incl. ATAGS (deliveries start 2-3 months after the FOPM approval, 'a few weeks' late per Aug-2026 call) and CQB carbines (serial production FY27). Management guided 30-40% defence growth for FY27 (Feb-2026). We take +35% / +35% / +20%; Emkay models defence +38% / +29% / +15%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin 4.7% FY24, 6.3% FY25, 10.1% FY26, 17.2% in Q1FY27 (mix and realisations). Management targets a steady-state 22-23% for defence (Aug-2026); the history has never been above 12% for a full year. We take 15% / 17% / 18%: improving with ATAGS and carbines, but well short of the target."
+  },
+  {
+   "key": "othInd",
+   "name": "Other Indian subsidiaries (K Drive, JS Autocast)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1839.4,
+   "growth": [
+    30,
+    18,
+    15
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    8,
+    9.5,
+    10
+   ],
+   "hist": {
+    "driver": "othIndRev",
+    "revenue": "othIndRev",
+    "adjEbitda": "othIndEbitda"
+   },
+   "_why": "FY26: K Drive Rs958 cr for nine months (consolidated from 1-Jul-2025; Rs310 cr in Q1FY27) + BF Industrial Solutions (JS Autocast castings) Rs882 cr (Rs222 cr in Q1FY27, +23%). FY27E +30%: a full year of K Drive (~Rs1,300 cr) and castings +20% (management: castings revenue to triple from acquisition by end-FY27; Rs300 cr Premji Invest funding). Then +18% / +15% (K Drive new EV-axle and northern-India plant orders).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "FY26 8.7% (K Drive 4.4%, BFISL 13.5%); Q1FY27 6.5% (K Drive 3.2%, BFISL 10.9%). Management says K Drive will grow in scale and margin. 8% / 9.5% / 10%."
+  },
+  {
+   "key": "eu",
+   "name": "European manufacturing",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 3864.5,
+   "growth": [
+    3,
+    -14,
+    -26
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    3.5,
+    4.5,
+    7
+   ],
+   "hist": {
+    "driver": "euRev",
+    "revenue": "euRev",
+    "adjEbitda": "euEbitda"
+   },
+   "_why": "FY26 Rs3,865 cr, of which CDP Bharat Forge (German steel forging) Rs1,595 cr (AR FY26). CDP is being wound down by end-CY2027 (closure Q3 CY2027 per Aug-2026 call); part of its orders move to India. FY27E +3% (Q1 +2%; CDP runs the full year). FY28E -14% (CDP ~60% of a year), FY29E -26% (no CDP; the rest - aluminium forging in Germany, Kilsta in Sweden, France, Italy - grows ~4%).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin 0.5% FY23, 3.2% FY24, 2.5% FY25, 3.9% FY26, 2.8% in Q1FY27. Without CDP the margin should rise; CDP's own margin is not disclosed (gap), so we assume 3.5% / 4.5% / 7%."
+  },
+  {
+   "key": "us",
+   "name": "US manufacturing",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1533.5,
+   "growth": [
+    18,
+    12,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    3,
+    7,
+    9
+   ],
+   "hist": {
+    "driver": "usRev",
+    "revenue": "usRev",
+    "adjEbitda": "usEbitda"
+   },
+   "_why": "FY26 Rs1,534 cr (+57%, aluminium forging ramp-up). Q1FY27 Rs461 cr (+22%). FY27E +18%, then +12% and +10% (aluminium utilisation ~65%).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA -11.1% FY24, -4.8% FY25, +3.5% FY26, -0.8% in Q1FY27 (steel presses broke down; ~3 months without production, fixed in Q2). Management targets ~12% (steel) and 15-16% (aluminium) 'hopefully next year' but says the 50% US tariff on Canadian aluminium stands in the way. We take 3% / 7% / 9%."
+  },
+  {
+   "key": "emob",
+   "name": "E-mobility (Kalyani Powertrain)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 105.2,
+   "growth": [
+    60,
+    0,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -8,
+    -5,
+    -3
+   ],
+   "hist": {
+    "driver": "emobRev",
+    "revenue": "emobRev",
+    "adjEbitda": "emobEbitda"
+   },
+   "_why": "FY26 Rs105 cr; Q1FY27 Rs48 cr. Rs450 cr of the e-mobility investment was impaired in Q4FY26; management says it has 'not been very successful' in EVs. Small revenue, held roughly flat after FY27E.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA -Rs138 cr FY24, -Rs67 cr FY25, -Rs42 cr FY26, -Rs3 cr Q1FY27 after the write-down: losses shrink to -8% / -5% / -3% of revenue."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-company eliminations",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": -488.95,
+   "growth": [
+    15,
+    12,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elimRev",
+    "revenue": "elimRev",
+    "adjEbitda": "elimEbitda"
+   },
+   "_why": "Consolidated revenue less the sum of the segments: -Rs643 cr FY24, -Rs890 cr FY25, -Rs489 cr FY26 (mostly standalone forgings sold to KSSL and to the overseas units). Grows with KSSL and group revenue. Zero margin (PLAYBOOK §7).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Eliminations carry no EBITDA here; the EBITDA gap sits in 'unallocated'."
+  }
+ ],
+ "unallocated": [
+  15,
+  -40,
+  -45
+ ],
+ "_unallocLabel": "Forex in expenses and other Indian entities, net (Screener EBITDA less the sum of segments)",
+ "_unallocWhy": "Sum of segment EBITDA less Screener's EBITDA: -Rs29 cr FY24, +Rs24 cr FY25, -Rs124 cr FY26 (negative = Screener higher: other Indian entities and consolidation adjustments net of forex). Q1FY27 +Rs46 cr (forex loss of ~Rs42 cr sits in Screener's expenses). FY27E +15 (the Q1 forex loss, then ~-Rs10 cr a quarter); FY28-29E -40 / -45 (no forex assumed).",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  1700,
+  1600,
+  1200
+ ],
+ "_capexWhy": "Cash capex Rs1,524 cr FY24, Rs1,450 cr FY25, Rs1,140 cr FY26 (plus Rs499 cr for K Drive). Aug-2026: ~Rs1,800 cr of organic growth capex in India over 12-18 months (forging, ring rolling, machining for large engines, power-gen, semiconductor, aerospace; energetics plant in Andhra Pradesh), funded by the Rs2,000 cr QIP; plus ~Rs150-200 cr a year of maintenance and overseas capex. The Odisha mega-site (awaiting forest/environment clearance) is not in our numbers.",
+ "depRateOnGrossBlock": 6.6,
+ "_depWhy": "FY26 depreciation Rs971 cr = 6.95% of average gross block (Rs12,399 cr -> Rs15,538 cr incl. the K Drive acquisition); Q1FY27 Rs263 cr (Rs1,052 cr annualised). The engine holds CWIP (Rs1,298 cr) flat and depreciates capex at once, so we use 6.6%: FY27E ~Rs1,080 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net debt (Rs4,581 cr on Screener's basis at Mar-26: borrowings incl. leases Rs7,309 cr less cash Rs990 cr and investments Rs1,738 cr), so no treasury yield; interest on the QIP cash is in otherIncome.",
+ "otherIncome": [
+  -110,
+  215,
+  190
+ ],
+ "_otherIncomeWhy": "Screener's other income includes exceptional items: Rs217 cr FY24, Rs55 cr FY25, Rs44 cr FY26 (= ~Rs199 cr of normal other income less Rs154 cr of exceptional charges: labour codes, e-mobility write-downs, CDP costs). FY27E -Rs110 cr = Q1 normal Rs57 cr + ~Rs52 cr a quarter after + ~Rs55 cr interest on the QIP cash (Rs2,000 cr from 22-Sep-2026, being spent on capex) - the Q1 exceptional charge of Rs358 cr (CDP manpower redundancy ~Rs334 cr, restructuring consultancy Rs24 cr) - ~Rs20 cr minority interests grossed up for tax (the engine has no minority line; JS Autocast is 23% owned by Premji Invest since Feb-2026). FY28E Rs215 cr / FY29E Rs190 cr = ~Rs200 cr normal + QIP cash interest (Rs45 cr, Rs25 cr) - minorities (Rs30 cr, Rs35 cr gross). No further exceptional items forecast; the CDP closure cash cost (~EUR30 mn) was provided in Q1FY27.",
+ "interest": [
+  360,
+  350,
+  330
+ ],
+ "_interestLabel": "Interest cost",
+ "_interestWhy": "FY24 Rs491 cr, FY25 Rs417 cr (Rs1,650 cr QIP in Dec-2024 repaid overseas debt), FY26 Rs323 cr, Q1FY27 Rs90 cr. Gross debt ~Rs6,997 cr at Jun-2026 (long-term Rs2,152 cr + working capital and bill discounting Rs4,845 cr). The new QIP cash funds capex rather than repaying debt: Rs360 / 350 / 330 cr.",
+ "taxRate": [
+  36,
+  28,
+  27
+ ],
+ "_taxWhy": "Consolidated tax is high because overseas and e-mobility losses earn no tax shield: 37% FY24, 37% FY25, 35% FY26; Q1FY27 Rs133 cr on PBT of Rs44 cr (the CDP charge is not deductible). Indian profits pay ~25-25.5% (standalone 24.7% FY26). FY27E 36% (the Rs358 cr charge and ~Rs360 cr of overseas/EV losses carry no shield); FY28E 28% and FY29E 27% as the CDP losses go and the US recovers. Checked in BHARATFORG.ctx.js against 25.5% of profit excluding loss-making units.",
+ "payout": [
+  30,
+  30,
+  30
+ ],
+ "_payoutWhy": "Dividend payout 44% FY24, 43% FY25, 38% FY26 of reported EPS (Rs8.5 a share FY26). With a capex step-up and EPS depressed by the FY27 charge we assume 30%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 19.5,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Cyclical auto and industrial exports, defence order lumpiness, net debt of ~0.4x equity: beta 1.1 (Ke 13.1%). The engine discounts at the cost of equity; with ~0.4x net debt/equity a WACC would be ~1pp lower (see the sensitivity grid).",
+  "_tgWhy": "India nominal GDP ~10%; forging is mature but defence, aerospace and power-gen grow faster. House range 5-6%; 6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~9% (FY29E, after the CDP exit) to 9% over 15 years: defence and India manufacturing offset mature auto exports.",
+  "_fadeMarginWhy": "EBITDA margin ~20.5% in FY29E fading to 19.5%: auto-cycle downturns and overseas units dilute the India margin.",
+  "_fadeCapexWhy": "Capex ~5% of revenue through the cycle (FY22-26 average ~8%, inflated by overseas aluminium plants)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Defence delivers on guidance: ATAGS and carbines ramp on time, naval gas-turbine and ammunition orders grow, and KSSL earns ~20% margins; the US truck upcycle and data-centre engine demand lift standalone growth ~3 points a year above our base; the US plants reach high-single-digit margins.",
+   "fadeMarginTo": 21,
+   "segments": {
+    "bfl": {
+     "growthDelta": 3,
+     "marginDelta": 0.7
+    },
+    "kssl": {
+     "growthDelta": 15,
+     "marginDelta": 3
+    },
+    "us": {
+     "marginDelta": 2
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "ATAGS approvals and deliveries slip a year and defence margins fall back toward 10%; the US Class 8 recovery stalls under tariffs and high energy prices; standalone growth runs ~5 points a year below our base with margins near 26%; the US plants stay near breakeven.",
+   "fadeMarginTo": 17.5,
+   "segments": {
+    "bfl": {
+     "growthDelta": -5,
+     "marginDelta": -1.5
+    },
+    "kssl": {
+     "growthDelta": -15,
+     "marginDelta": -5
+    },
+    "us": {
+     "marginDelta": -4
+    },
+    "eu": {
+     "marginDelta": -2
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 44,
+      "bull": 48,
+      "bear": 37.5
+     },
+     "why": "How the street values Bharat Forge: consolidated P/E on FY28E (MOSL 40x, ICICI Securities 35x in May-2026). Derived multiple: the stock's own one-year-forward P/E median since Apr-2021 on EPS before exceptional items, cut by the auto-component sector de-rating on 30-Sep-2026 (BHARATFORG.ctx.js; written by BHARATFORG.sync.js)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 19,
+      "bull": 21,
+      "bear": 15.5
+     },
+     "why": "Emkay values the stock on 23x Jun-28E EV/EBITDA. Our multiple: own trailing EV/EBITDA median since Apr-2021 x the sector de-rating, restated from trailing to Sep-28E EBITDA; net debt deducted."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "15-year FCFF at Ke 13.1% and 6% terminal growth, less net debt. Excludes the Rs2,000 cr QIP cash raised in Sep-2026 (engine gap): add ~Rs40 a share."
+    }
+   ]
+  }
+ }
+}

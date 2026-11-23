@@ -1,0 +1,3273 @@
+{
+ "symbol": "HYUNDAI",
+ "listing": "NSE: HYUNDAI · BSE: 544274",
+ "date": "30 September 2026",
+ "rating": "HOLD",
+ "analysts": "GAM Research — Automobiles",
+ "cover": {
+  "headline": "A good car company at a fair price: the launches are coming, the premium is not",
+  "lead": "Hyundai Motor India is India's #4 car maker by domestic volume (12.6% share in FY26, down from 14.6% in FY24) and its largest exporter, 82.5% owned by Hyundai Motor Company, to which it pays a ~2.8% royalty. Volumes and margins are at a low: domestic sales fell two years running as M&M and Tata out-launched it, and a supplier fire and the West Asia conflict cut Q1FY27 EBITDA margin to 9.3% and profit by 35%. Two all-new SUVs (the Bayon mid-SUV and a localised EV), a third shift at Pune and an 8-10% volume guide point to recovery in H2. The street values the stock on **P/E on FY28E (24-30x, median 26x)**. We forecast EPS of ₹63.9 / ₹79.7 / ₹89.7 for FY27-29E, a little below the street. Applying the house rule (**25.5x Sep-28E EPS of ₹84.7**) gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with HOLD.** Cross-checks: EV/EBITDA ₹1,662, DCF ₹1,459. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "The recovery is real, but it starts from a low base",
+    "p": "Domestic sales rose 23% in July and 24% in August (Apr-Aug +12.6%); production lost in June has been made up; Bayon bookings opened on 23-Sep. We model {{F.volume.0|num}} vehicles in FY27E (+{{as.volume.growth.0|n1}}%: domestic +9%, exports flat), then +10% and +8%. FY27E EPS of ₹63.9 is still below FY26's ₹66.9 and FY24's ₹74.6."
+   },
+   {
+    "h": "Share loss is the core problem, and two launches only start to fix it",
+    "p": "Hyundai went from #2 to #4 in FY26 (M&M 660k, Tata 631k, Hyundai 585k). One mid-SUV and one EV will help, but rivals launch several SUVs a year and Kia, its sister company, competes in the same segments. Management targets an exit share above ~12.3%, not a return to 14-15%."
+   },
+   {
+    "h": "Margins: 11-14% guided, 9.3% in Q1; we model {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}",
+    "p": "Commodities (precious metals, copper), the Pune ramp-up, weak exports and launch costs weigh on FY27. Utilisation at Chennai Plant 1 (72% → ~90% in CY27) and lower discounts help FY28. A 2.8% royalty to the parent and rising depreciation (₹45,000 cr capex plan to FY30) cap returns."
+   },
+   {
+    "h": "Valuation: fair, not cheap",
+    "p": "At ₹2,031 the stock trades at 25.5x our FY28E EPS and 33.3x trailing. Its forward P/E has a median of 28.4x over the last 12 months (we skip the first year after the Oct-2024 listing); auto peers sit 10.0% below their own medians for the same window. That gives 25.5x, close to the street's 24-30x. The street's higher targets (median ₹2,334) come mostly from higher FY28 earnings."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "GREEN"
+   },
+   {
+    "k": "Governance (parent and related parties)",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "AMBER"
+   },
+   {
+    "k": "Competitive position",
+    "v": "AMBER"
+   },
+   {
+    "k": "Valuation",
+    "v": "AMBER"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): how much of the June production loss and the margin shortfall came back; export run-rate.",
+   "Bayon launch and pricing (festive 2026) and the localised compact EV (H2FY27): booking and dispatch run-rates, PLI eligibility.",
+   "Festive retail (Oct-Nov 2026) against the GST-boosted base of Oct-Nov 2025; industry growth in H2 (\"low single digits\", management).",
+   "West Asia shipping: whether exports recover to 50k+ a quarter (Middle East orders, Exter LHD, new Venue in 35 markets).",
+   "Pune third shift (from Oct-2026), Pune Phase 2 (250k by CY28) and the FY28 capex plan; any change in royalty or dividend policy."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "stacked",
+       "title": "Exports carried FY26 as domestic volumes fell",
+       "unit": "Vehicles sold ('000)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Domestic",
+         "values": [
+          482,
+          568,
+          615,
+          599,
+          585
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Exports",
+         "values": [
+          129,
+          153,
+          163,
+          163,
+          190
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 60,
+       "source": "AR FY26; investor presentations"
+      },
+      {
+       "type": "line",
+       "title": "Domestic market share: 14.6% in FY23, 12.6% in FY26",
+       "unit": "Hyundai domestic ÷ industry PV wholesales (%)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Market share",
+         "values": [
+          14.6,
+          14.6,
+          13.9,
+          12.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 16,
+       "source": "Company; SIAM"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Quarterly EBITDA margin: from 14% to 9.3%",
+       "unit": "EBITDA margin (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "values": [
+          13.5,
+          12.8,
+          11.3,
+          14.1,
+          13.3,
+          13.9,
+          11.2,
+          10.4,
+          9.3
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 6,
+       "max": 16,
+       "lines": [
+        {
+         "v": 11,
+         "text": "Bottom of the 11-14% guide",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Screener.in; investor presentations"
+      },
+      {
+       "type": "column",
+       "title": "Volumes: 7.75 lakh in FY26, ~9.8 lakh by FY29E",
+       "unit": "Vehicles sold (domestic + exports)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Volume",
+         "ref": "kpi.units",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company; GAM estimates FY27-29E"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "EPS: ₹74.6 in FY24, ₹63.9 in FY27E, ₹90 by FY29E",
+       "unit": "EPS (₹)",
+       "x": "fin.labels",
+       "from": "FY21",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EPS",
+         "ref": "fin.eps",
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Company, Screener.in; GAM estimates FY27-29E"
+      },
+      {
+       "type": "column",
+       "title": "Capex doubles: Pune, EVs and 26 launches",
+       "unit": "Capex (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY21",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Capex",
+         "ref": "fin.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; company guidance (FY27 ~₹7,500 cr); GAM estimates"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: 25.5x now vs 28.4x 12-month median",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2024-10-25",
+        "2024-11-01",
+        "2024-11-08",
+        "2024-11-14",
+        "2024-11-22",
+        "2024-11-29",
+        "2024-12-06",
+        "2024-12-13",
+        "2024-12-20",
+        "2024-12-27",
+        "2025-01-03",
+        "2025-01-10",
+        "2025-01-17",
+        "2025-01-24",
+        "2025-02-01",
+        "2025-02-07",
+        "2025-02-14",
+        "2025-02-21",
+        "2025-02-28",
+        "2025-03-07",
+        "2025-03-13",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-04",
+        "2025-04-11",
+        "2025-04-17",
+        "2025-04-25",
+        "2025-05-02",
+        "2025-05-09",
+        "2025-05-16",
+        "2025-05-23",
+        "2025-05-30",
+        "2025-06-06",
+        "2025-06-13",
+        "2025-06-20",
+        "2025-06-27",
+        "2025-07-04",
+        "2025-07-11",
+        "2025-07-18",
+        "2025-07-25",
+        "2025-08-01",
+        "2025-08-08",
+        "2025-08-14",
+        "2025-08-22",
+        "2025-08-29",
+        "2025-09-05",
+        "2025-09-12",
+        "2025-09-19",
+        "2025-09-26",
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          27.6,
+          27.4,
+          27.5,
+          26.4,
+          27.4,
+          28.7,
+          27.8,
+          26.5,
+          26.4,
+          26.8,
+          27.4,
+          26.7,
+          26.8,
+          25.5,
+          26.2,
+          28.4,
+          27,
+          26.9,
+          25.9,
+          25.7,
+          24.6,
+          25.4,
+          25.5,
+          25.6,
+          25.5,
+          26,
+          26.1,
+          26.9,
+          27.1,
+          29,
+          29.4,
+          28.9,
+          29.1,
+          30.4,
+          31.4,
+          34.3,
+          32.3,
+          32.9,
+          33.2,
+          32.8,
+          34.1,
+          33.2,
+          35.1,
+          37,
+          38.5,
+          39.8,
+          40.1,
+          44,
+          41.3,
+          39.2,
+          37.6,
+          36.7,
+          35.5,
+          38.2,
+          36.4,
+          36.9,
+          36.5,
+          36.4,
+          36.1,
+          36.6,
+          36.3,
+          36.3,
+          35.5,
+          35.4,
+          36.6,
+          35.4,
+          34,
+          34.2,
+          34.1,
+          35.9,
+          33.9,
+          32.8,
+          31.6,
+          30.5,
+          28.4,
+          21.5,
+          22.5,
+          23.9,
+          22.4,
+          22.8,
+          23.3,
+          22.9,
+          23.2,
+          24.1,
+          24,
+          25,
+          24.8,
+          24.7,
+          25,
+          24.9,
+          25,
+          24.5,
+          27.4,
+          27.6,
+          27.6,
+          27.8,
+          28.4,
+          27.7,
+          27.3,
+          27.7,
+          26.5,
+          25.5
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 25.5,
+         "text": "Our multiple: 25.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual EPS, GAM estimates for FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (notes standing on 30-Sep-2026)",
+       "unit": "₹ per share; CMP ₹2,031",
+       "x": [
+        "ICICI Securities (retail)",
+        "Nuvama",
+        "Morgan Stanley",
+        "Motilal Oswal",
+        "BOB Capital Markets",
+        "JM Financial",
+        "Nirmal Bang",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          2520,
+          2500,
+          2438,
+          2334,
+          2327,
+          2130,
+          2069,
+          2160
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes, 30-Jul to 3-Sep-2026 (median ₹2,334), GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Hyundai India does",
+   "kicker": "The business",
+   "title": "One business, two markets: India (three-quarters of revenue) and exports to emerging markets",
+   "blocks": [
+    {
+     "p": "Hyundai Motor India (HMIL) makes and sells Hyundai passenger vehicles in India and exports them to emerging markets in the Middle East, Africa, Latin America and Asia. It sells 13-15 models: SUVs (Creta, Venue, Exter, Alcazar; 68% of FY26 domestic volume, 70% in Q1FY27), hatchbacks (Grand i10, i20) and sedans (Aura, Verna), plus the Creta Electric. It has three assembly plants: two in Chennai (824,000 a year) and Talegaon near Pune (170,000, bought from General Motors in 2023, producing the new Venue since Oct-2025). It also does engineering work for Hyundai Motor Company (HMC) and runs a small insurance-broking subsidiary."
+    },
+    {
+     "p": "Two features make it different from Maruti, Tata or M&M. **It is a subsidiary, not a group flagship**: HMC owns 82.5%, licenses the designs, engines and technology for a royalty (₹1,975 cr in FY26, 2.8% of revenue), and supplies parts through group companies. **It is an export hub**: 190,125 vehicles (25% of volume, 26% of revenue) went abroad in FY26, and HMC now sources the new Venue for some markets from India."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Revenue by source, FY26 (₹ crore)",
+      "head": [
+       "Line",
+       "FY26",
+       "% of revenue",
+       "Note"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Vehicles sold in India",
+        "45,150",
+        "63.8%",
+        "5,84,906 units; ~₹7.7 lakh each net of GST and discounts"
+       ],
+       [
+        "Vehicles exported",
+        "15,598",
+        "22.0%",
+        "1,90,125 units; +21% in value"
+       ],
+       [
+        "Engines, transmissions and parts (India and export)",
+        "3,392",
+        "4.8%",
+        "Parts revenue fell 21% in FY26 (not explained)"
+       ],
+       [
+        "Services (incl. engineering services to the group ₹670 cr)",
+        "5,251",
+        "7.4%",
+        "Distribution fees, insurance broking, extended warranties"
+       ],
+       [
+        "Export incentives and state incentives",
+        "1,372",
+        "1.9%",
+        "Duty drawback ₹591 cr, RoDTEP ₹152 cr, state incentives ₹426 cr"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Revenue from operations**",
+         "**70,763**",
+         "**100%**",
+         "Revenue per vehicle ₹9,13,034"
+        ]
+       }
+      ],
+      "source": "AR FY26, consolidated note 29"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Reach and assets",
+      "head": [
+       "",
+       "Detail"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Capacity",
+        "994,000 a year at Mar-2026 (Chennai 824,000 + Pune 170,000 on three shifts); Pune third shift from Oct-2026; Pune Phase 2 to 250,000 by CY28 and ~320,000 later; >1.1 mn in total by 2030"
+       ],
+       [
+        "Distribution",
+        "1,519 sales and 1,679 service outlets (Jun-2026); six of every ten new outlets are rural; rural share 25.9% of domestic sales in Q1FY27"
+       ],
+       [
+        "Exports",
+        "India's largest cumulative passenger-vehicle exporter (company); Central and South America +23% in Q1FY27; new Venue in 29 markets, 35 planned; Exter left-hand drive to 13 markets by Q3FY27"
+       ],
+       [
+        "Technology and sourcing",
+        "Localisation 83% (target 90% by 2030); 30% of purchases from group companies (Mobis India, Hyundai Transys, Kia India, HMC); RE100 (renewable power) achieved in FY26"
+       ],
+       [
+        "Powertrains",
+        "Petrol, diesel, CNG (18.2% of Q1FY27 sales), EV; plan by 2030: at least 6 CNG models, 4 EVs and 5-6 hybrids"
+       ]
+      ],
+      "source": "Q1FY27 call and presentation; Q4FY26 call; AR FY26"
+     }
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "Thirty years in India: from Santro to SUVs, a pre-IPO cash-out and India's largest IPO",
+   "blocks": [
+    {
+     "p": "HMC set up HMIL in 1996; its Chennai plant (1998) was HMC's first fully integrated plant outside South Korea, and the Santro made it India's #2 car maker by 1999, a position it held for over two decades with i10, i20, Verna and, from 2015, the Creta. It sold ~13.5 mn vehicles in India and abroad by 2026. The listing was a sale by the parent, not a fundraise: HMC took ~₹15,400 cr of dividends out in FY24 and then sold 17.5% in the Oct-2024 IPO for ₹27,859 cr."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Corporate actions and what they did to the numbers",
+      "head": [
+       "When",
+       "What",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Aug-2023",
+        "Talegaon (Pune) plant acquired from General Motors (AR FY26); re-equipped for ~₹6,986 cr.",
+        "Capacity +170k from Oct-2025; depreciation and fixed costs up from H2FY26"
+       ],
+       [
+        "FY24",
+        "~₹15,400 cr of dividends paid to HMC before the IPO (reserves fell by ₹9,389 cr despite ₹6,060 cr of profit; financing outflow ₹15,930 cr): net worth falls from ₹20,055 cr to ₹10,666 cr.",
+        "ROE jumps to 40%+ on a smaller equity base; cash falls to ₹9,017 cr"
+       ],
+       [
+        "15-17 Oct-2024",
+        "IPO: HMC sells 14.22 cr shares (17.5%) at ₹1,960, ₹27,859 cr, India's largest IPO; pure offer for sale, no new money for the company. Subscribed 2.37x.",
+        "–"
+       ],
+       [
+        "22-Oct-2024",
+        "Listed at ₹1,934 on NSE, 1.3% below the issue price.",
+        "–"
+       ],
+       [
+        "22-Sep-2025",
+        "GST 2.0: small cars 28% to 18%; larger SUVs to 40% (no cess).",
+        "Small cars cheaper; Hyundai's mix (mostly sub-4m SUVs and small cars) benefits; H2FY26 domestic +8-9%"
+       ],
+       [
+        "Oct-2025",
+        "Pune plant starts production (Venue), adding 170,000 of capacity.",
+        "Venue moved from Chennai: Chennai Plant 1 utilisation falls to ~72% until new models arrive"
+       ],
+       [
+        "1-Jan-2026",
+        "Tarun Garg becomes HMIL's first Indian MD & CEO, succeeding Unsoo Kim.",
+        "Continuity of strategy; MD pay 41.9x the median employee"
+       ],
+       [
+        "Jun-2026",
+        "Fire at a supplier: ~13,900 vehicles of production lost.",
+        "Q1FY27 domestic growth cut to 5.4%; margin 9.3%"
+       ],
+       [
+        "Sep-2026",
+        "Bayon mid-SUV named (14-Sep) and bookings opened (23-Sep); festive launch.",
+        "Volume and mix support from Q3FY27"
+       ]
+      ],
+      "source": "Company filings; AR FY26; Chittorgarh (IPO); Business Today and Autocar Pro (Bayon)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Indian car demand hit a record after GST 2.0, but SUVs and new launches take the growth",
+   "blocks": [
+    {
+     "p": "India sold 46,43,439 passenger vehicles in FY26 (+7.9%, SIAM wholesales), a record, with utility vehicles (SUVs and MPVs) at 67% of the market. The first half was weak; GST 2.0 (22-Sep-2025) cut the tax on small cars from 29-31% to 18% and on larger cars from 45-50% to a flat 40%, and demand jumped. The new fiscal year began strongly (April +25.4%; Q1FY27 ~12.7 lakh, +26%), but from October the industry laps the post-GST base. Hyundai's MD expects \"lower single digit\" growth in H2 and 6-9% for FY27."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GST 2.0 (effective 22-Sep-2025)",
+      "head": [
+       "Category",
+       "Before",
+       "After",
+       "Hyundai models"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Small cars (under 4 m; petrol ≤1,200cc, diesel ≤1,500cc)",
+        "28% + 1-3% cess (29-31%)",
+        "18%",
+        "Grand i10, Aura, Exter, i20, Venue (most versions)"
+       ],
+       [
+        "Larger cars and SUVs",
+        "28% + 17-22% cess (45-50%)",
+        "40%",
+        "Creta, Alcazar, Verna (larger engines), Bayon"
+       ],
+       [
+        "Electric cars",
+        "5% (unchanged)",
+        "5% (unchanged)",
+        "Creta Electric; compact EV (H2FY27)"
+       ]
+      ],
+      "source": "Autocar India and CarDekho (Sep-2025)"
+     }
+    },
+    {
+     "bullets": [
+      "**Market structure.** Maruti (~39%) leads; M&M, Tata and Hyundai have 12-14% each; Toyota and Kia follow. Hyundai's share was 14.6% in FY23, 14.6% in FY24, 13.9% in FY25 and 12.6% in FY26.",
+      "**West Asia.** US-Iran conflict from the end of FY26 disrupted shipping to the Middle East (Strait of Hormuz); HMIL redirected exports to Central and South America (+23% in Q1FY27) and Mexico (q1call).",
+      "**Currency.** INR 95.7 per US$ on 30-Jul-2026 (JM Financial): helps export realisations, raises the cost of imported parts and the royalty paid to HMC.",
+      "**Regulation.** CAFE-II (FY23-27): HMIL expects no penalty under the revised draft; CAFE-III draft rules out for consultation (q1call, q4call). EVs pay 5% GST; the PLI scheme rewards 50% domestic value addition, which Hyundai targets for its new EV from day one.",
+      "**Exports.** India exported ~905k passenger vehicles in FY26 (+18%, secondary source); Hyundai was 21.0% of that."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Does the GST boom reach Hyundai? Less than its rivals so far",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Four tailwinds, tested",
+      "head": [
+       "Tailwind",
+       "Evidence it is real",
+       "Does it reach Hyundai?",
+       "Catch"
+      ],
+      "wide": [
+       1,
+       3
+      ],
+      "rows": [
+       [
+        "GST 2.0 on small cars and compact SUVs",
+        "Industry FY26 +7.9%; Q1FY27 +26%",
+        "Partly: H2FY26 domestic +8-9%, Q4 a record; Apr-Aug FY27 +12.6%",
+        "Industry grew faster; Hyundai's FY26 domestic volume fell 2.3%"
+       ],
+       [
+        "SUV shift",
+        "UVs 67% of the market",
+        "Yes: SUVs 70% of Hyundai's domestic mix",
+        "Rivals have more and newer SUVs; Hyundai has one mid-SUV leader (Creta)"
+       ],
+       [
+        "Rural demand",
+        "Rural growing faster than urban (Hyundai Q1: +23% vs +3%)",
+        "Yes: rural share 25.9%, a record",
+        "Lower-priced models, more discount-sensitive"
+       ],
+       [
+        "India as an export base",
+        "PV exports +18% in FY26",
+        "Yes: exports +16.4% in FY26; HMC sources the new Venue from India",
+        "Middle East exposure: exports −20% in Q1FY27 and −31% in Aug-2026"
+       ]
+      ],
+      "source": "SIAM, Autocar Pro, company calls, GAM Research"
+     }
+    },
+    {
+     "callout": "**Verdict:** the industry tailwind is real, but Hyundai has been a weaker beneficiary than M&M, Tata or Maruti because it had fewer new products in the right segments in FY25-FY26. FY27-FY28 is the test: if Bayon and the EV do not lift share, Hyundai will keep growing slower than the market it serves."
+    }
+   ]
+  },
+  {
+   "id": "competition",
+   "nav": "Competition",
+   "kicker": "Competition",
+   "title": "From #2 to #4: M&M and Tata overtook Hyundai in FY26",
+   "blocks": [
+    {
+     "p": "Hyundai held India's #2 spot for most of two decades. In FY26 it slipped to #4: M&M sold 660,276 SUVs (+20%) and Tata 631,387 vehicles (+14%) while Hyundai sold 584,906 (−2.3%). Rivals launched more new SUVs and electric SUVs (Maruti's Victoris and e-Vitara among them), and Kia, Hyundai's sister company, competes with the Seltos and other models on shared group platforms. Hyundai's answer is the new Venue (Oct-2025), refreshed Exter and Verna, and two all-new nameplates in H2FY27."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Domestic passenger-vehicle sales, FY26",
+      "head": [
+       "Company",
+       "Units",
+       "YoY growth",
+       "Notes"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Maruti Suzuki",
+        "18,20,000",
+        "+4%",
+        "Small cars and compact SUVs; ~39% share"
+       ],
+       [
+        "Mahindra & Mahindra",
+        "6,60,276",
+        "+20%",
+        "SUVs only; new #2"
+       ],
+       [
+        "Tata Motors PV",
+        "6,31,387",
+        "+14%",
+        "Nexon, Punch; EV leader"
+       ],
+       [
+        "Hyundai",
+        "5,84,906",
+        "−2%",
+        "Creta, Venue, Exter, i20; slipped from #2 to #4"
+       ],
+       [
+        "Toyota Kirloskar",
+        "3,66,896",
+        "+19%",
+        "Hybrids, MPVs; shares models with Maruti"
+       ],
+       [
+        "Kia India",
+        "2,89,035",
+        "+13%",
+        "Hyundai group sister: Seltos, Sonet, Carens"
+       ]
+      ],
+      "source": "Autocar Pro (01-04-2026; Maruti, Toyota and Kia from Autocar Pro FY26 analyses). Maruti rounded."
+     }
+    },
+    {
+     "callout": "**Our read:** Hyundai's products are competitive (Creta remains the mid-SUV leader with ~30% of its segment) but its range is thin where the market is growing fastest. The new models are necessary just to hold share; we model share stabilising near 12.5-13%, not a return to 14-15%."
+    }
+   ]
+  },
+  {
+   "id": "domestic",
+   "nav": "Domestic business",
+   "kicker": "Market: India",
+   "title": "India: two years of lost share; Bayon, an EV and a third Pune shift to turn it",
+   "blocks": [
+    {
+     "p": "Hyundai sold 5,84,906 vehicles in India in FY26 (−2.3%) while the market grew 7.9%. H1FY26 was weak (Q1 −11.5%, Q2 −6.8%) as the market waited for the GST cut; H2 recovered (Q3 +0.4%, Q4 +8.5%, a record quarter). FY27 started well (April-May +13%) until a fire at a supplier cost ~13,900 vehicles of June production, mostly the Creta: Q1FY27 domestic was 1,39,374 (+5.4%). July (+23.3%) and August (+23.6%) made up most of the loss; Apr-Aug was 2,47,980, +12.6%."
+    },
+    {
+     "p": "What drives FY27-FY28: (1) the **Bayon** mid-SUV (named on 14-Sep-2026, bookings from 23-Sep; a 4.0-4.4 m \"technology-first\" SUV between the Venue and the Creta, launched for the festive season); (2) a **localised compact EV** in H2FY27, Hyundai's first mass-market EV, aiming for PLI incentives; (3) the **Pune third shift** from Oct-2026 (more Venue for India and export); and (4) lower discounts (2.8% of price in Q1FY27 vs 3.4%). Against that: the industry laps the post-GST base from October, and a reported production-plan increase for CY26 (to ~820,000 from ~770,000; Autocar Pro, 15-Sep-2026, not confirmed by the company) suggests management sees demand but also that inventory will be built ahead of the launches."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Domestic volumes by quarter: a record Q4FY26, then the fire",
+       "unit": "Domestic wholesales (vehicles)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Domestic",
+         "values": [
+          149455,
+          149639,
+          146022,
+          153550,
+          132259,
+          139521,
+          146548,
+          166578,
+          139374
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor presentations"
+      },
+      {
+       "type": "line",
+       "title": "Revenue per vehicle: ~₹9.1-9.2 lakh, rising slowly",
+       "unit": "Revenue ÷ total vehicles sold (₹ lakh)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Revenue per vehicle",
+         "values": [
+          9.03,
+          8.99,
+          8.93,
+          9.36,
+          9.1,
+          9.15,
+          9.2,
+          9.08,
+          9.17
+         ],
+         "fmt": "n2"
+        }
+       ],
+       "labels": "ends",
+       "min": 8.5,
+       "max": 9.5,
+       "source": "Screener.in revenue ÷ company volumes"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Our volume build (vehicles) and revenue (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Domestic",
+        "5,84,906",
+        "6,37,548",
+        "7,01,302",
+        "7,57,406"
+       ],
+       [
+        "  growth",
+        "−2.3%",
+        "+9.0%",
+        "+10.0%",
+        "+8.0%"
+       ],
+       [
+        "Exports",
+        "1,90,125",
+        "1,90,125",
+        "2,09,138",
+        "2,25,869"
+       ],
+       [
+        "  growth",
+        "+16.4%",
+        "+0.0%",
+        "+10.0%",
+        "+8.0%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total volume**",
+         "**7,75,031**",
+         "**8,27,673**",
+         "**9,10,440**",
+         "**9,83,275**"
+        ]
+       },
+       [
+        "Revenue per vehicle (₹)",
+        "9,13,034",
+        "9,35,860",
+        "9,63,936",
+        "9,88,035"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Revenue**",
+         "**70,763**",
+         "**77,458**",
+         "**87,760**",
+         "**97,151**"
+        ]
+       },
+       [
+        "EBITDA margin",
+        "12.1%",
+        "{{F.ebitdaMargin.0|pct}}",
+        "{{F.ebitdaMargin.1|pct}}",
+        "{{F.ebitdaMargin.2|pct}}"
+       ],
+       [
+        "Capacity at year-end (company plan)",
+        "994,000",
+        "994,000",
+        "~1,070,000 (Pune Phase 2, CY28)",
+        "~1,070,000"
+       ]
+      ],
+      "source": "Company; GAM estimates (assumptions.json \"build\"); model and build agree on volume"
+     }
+    },
+    {
+     "callout": "**Our view:** domestic +9% in FY27E (the middle of guidance; Sep-Mar needs ~+7% on a high base) and +10% / +8% in FY28-29E. That keeps Hyundai's share near 12.5-13% if the industry grows 6-8%. The street is a little more optimistic (JM: domestic +8.5% / +8.2%; MOSL volume CAGR ~9% incl. exports). The swing factor is Bayon: a hit like the Creta (~30% of its segment) would add share; a launch that mainly takes Creta buyers would not."
+    }
+   ]
+  },
+  {
+   "id": "exports",
+   "nav": "Exports",
+   "kicker": "Market: exports",
+   "title": "Exports: a quarter of volume, record FY26, then the West Asia shock",
+   "blocks": [
+    {
+     "p": "Exports were 1,90,125 vehicles in FY26 (+16.4%, against a 7-8% guide) and ₹15,598 cr of vehicle revenue (+21%), helped by a push into Central and South America and by the new Venue, which HMC now sources from India. Then the US-Iran conflict disrupted shipping to the Middle East, a key export region (Nirmal Bang calls the exposure 'meaningful'), from the end of FY26: Q1FY27 exports fell 19.6% to 38,708; July recovered to 21,150 (+31%, the highest in over 100 months) but August fell to 11,400 (−31%) on logistics. Apr-Aug exports were ~71,258, about −12%. Export prices are rising (ASP +7% YoY in Q1FY27) as the rupee weakens and the mix moves to SUVs (only 13-14% of exports are SUVs today, vs 70% at home)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Export volumes by quarter: 51k peak in Q2FY26",
+       "unit": "Export volumes (vehicles)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Exports",
+         "values": [
+          42600,
+          42300,
+          40386,
+          38100,
+          48140,
+          51400,
+          48888,
+          41697,
+          38708
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor presentations"
+      },
+      {
+       "type": "column",
+       "title": "Exports' share of revenue: 22% → 26% in FY26",
+       "unit": "Exports, % of revenue",
+       "x": [
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Export share",
+         "values": [
+          22.3,
+          22,
+          25.6,
+          23.8
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Investor presentations (Other Key Metrics)"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** management still guides 8-10% export growth for FY27 and promises to beat 48,000 a quarter, but Apr-Aug is ~12% down and shipping to the Gulf is still disrupted. We model flat exports in FY27E (H2 +12% on a weak FY26 base) and +10% / +8% after that. Exports earn higher prices than domestic sales and are part of the bull case, but they are also the most uncertain line in our model."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: a strong parent and export base, but no moat in Indian SUVs",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Brands and products",
+       "Moderate",
+       "Creta has ~30% of India's mid-SUV segment (AR FY26) and is the group's anchor; Venue, Exter, i20 and Verna fill the range; SUVs 68-70% of domestic volume",
+       "Pricing power is real in Creta but not across the range: Hyundai lost share in compact SUVs and hatchbacks to M&M, Tata and Maruti"
+      ],
+      [
+       "Parent's technology",
+       "Strong (but rented)",
+       "Platforms, engines, EV and hybrid know-how from HMC (Hyundai Motor Group is the world's third-largest carmaker by passenger-vehicle sales, per the company); ₹1,975 cr royalty in FY26 (2.8% of revenue)",
+       "Access to world-class technology without the R&D bill, at the cost of a permanent royalty and dependence on the parent's product decisions"
+      ],
+      [
+       "Scale and cost",
+       "Moderate",
+       "994k capacity (Chennai 824k + Pune 170k), localisation 83% (target 90% by 2030), EBITDA margin 12-13% vs Maruti's 11-12% (FY26)",
+       "Good cost position, but Maruti is 3x its size and M&M earns higher margins in SUVs"
+      ],
+      [
+       "Export hub",
+       "Strong",
+       "India's largest cumulative PV exporter; 190,125 vehicles exported in FY26 (+16.4%); HMC sources the new Venue from India; export revenue 25.6% of FY26",
+       "A second engine of growth that Indian rivals lack; exposed to the Middle East and to currency swings"
+      ],
+      [
+       "Distribution and service",
+       "Moderate",
+       "1,519 sales and 1,679 service outlets (Jun-2026); 6 of 10 new outlets rural; rural share 25.9%",
+       "Wide, but not unique: Maruti's network is far larger"
+      ],
+      [
+       "Electrification",
+       "Weak so far",
+       "Hyundai's EV range in India is small today (Creta Electric); the first localised mass-market EV arrives in H2FY27; Tata and M&M lead EVs",
+       "An option, not yet an advantage"
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (company filings and calls, SIAM, Autocar Pro, broker notes to Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** Hyundai India has real advantages (a global parent's technology, a respected brand, a lean cost base and an export network no Indian rival has) but no moat in its home market. FY25-FY26 proved it: when M&M and Tata out-launched it, Hyundai lost two points of share in two years and slipped to #4. Its margins (12-13%) are good for a mass-market carmaker but are not protected; they depend on launches, utilisation and the parent's product pipeline, and they are paid for with a permanent 2.8% royalty."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue up 73% since FY21, but profit peaked in FY24 and has fallen for two years",
+   "blocks": [
+    {
+     "p": "Hyundai India's revenue went from ₹40,972 cr in FY21, a Covid year, to ₹69,829 cr in FY24 (+19% a year) as chip supply returned, SUVs (Creta, Venue, then Exter) took over the range and exports grew. Then growth stopped: revenue was ₹69,193 cr in FY25 and ₹70,763 cr in FY26 (+2%), because domestic volumes fell two years running (614,721 → 598,666 → 584,906) while M&M, Tata and Maruti launched more SUVs. EBITDA margin peaked at 13.0% in FY24 and slid to 12.1% in FY26 and 9.3% in Q1FY27. Net profit peaked at ₹6,060 cr (EPS ₹74.6) in FY24 and fell to ₹5,432 cr (₹66.9) in FY26; the year to Jun-2026 was ₹4,950 cr (₹60.9)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: fast to FY24, flat since",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated from FY21; FY19-FY20 standalone), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit peaked at ₹6,060 cr in FY24",
+       "unit": "Net profit (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated from FY21; FY19-FY20 standalone), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 13.0% in FY24, 12.1% in FY26",
+       "unit": "EBITDA margin (%)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 8,
+       "max": 15,
+       "source": "Company filings, Screener.in (consolidated from FY21; FY19-FY20 standalone), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Other income is 12-19% of pre-tax profit",
+       "unit": "Other income, % of profit before tax",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Share of PBT",
+         "ref": "fin.otherIncomeShare",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated from FY21; FY19-FY20 standalone), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** FY21-FY24 was a cyclical recovery plus a product cycle (Creta, Venue, Exter, Alcazar) that Hyundai has not repeated since; FY25-FY26 show what happens when rivals out-launch it. Depreciation is the other drag: the ₹6,986 cr Pune plant came on stream in Oct-2025 and Hyundai plans ₹45,000 cr of investment over FY26-FY30, so depreciation will grow faster than revenue for a few years."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: a fire, a war and a 35% fall in profit; guidance kept",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q1FY27",
+       "Change"
+      ],
+      "rows": [
+       [
+        "Volume (domestic + exports)",
+        "1,80,399",
+        "1,78,082",
+        "−1.3%"
+       ],
+       [
+        "  domestic / exports",
+        "1,32,259 / 48,140",
+        "1,39,374 / 38,708",
+        "+5.4% / −19.6%"
+       ],
+       [
+        "Revenue from operations",
+        "16,413",
+        "16,335",
+        "−0.5%"
+       ],
+       [
+        "EBITDA",
+        "2,185",
+        "1,512",
+        "−30.8%"
+       ],
+       [
+        "EBITDA margin",
+        "13.3%",
+        "9.3%",
+        "−400bp"
+       ],
+       [
+        "Depreciation",
+        "528",
+        "557",
+        "+5.5%"
+       ],
+       [
+        "Other income",
+        "215",
+        "274",
+        "+27.4%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Net profit / EPS (₹)**",
+         "**1,369 / 16.85**",
+         "**889 / 10.94**",
+         "**−35.1%**"
+        ]
+       }
+      ],
+      "source": "Q1FY27 investor presentation and call (30-Jul-2026); Screener.in"
+     }
+    },
+    {
+     "bullets": [
+      "Domestic +5.4% (Apr-May +13%, then a fire at a supplier cost ~13,900 vehicles of June production, mostly Creta); exports -19.6% on the West Asia conflict. Most of the lost output was recovered in July; all of it within Q2.",
+      "EBITDA margin 9.3% (-400bp YoY): lost high-margin volume, weak exports, commodities (~100bp QoQ, ~200bp YoY: precious metals, copper), Pune stabilisation costs; partly offset by three price rises in CY26 (~100bp in all) and a weaker rupee. Discounts 2.8% of price vs 3.4% a year ago.",
+      "Guidance kept: domestic and export volume growth of 8-10% and an EBITDA margin of 11-14% for FY27. 'Comfortable is not the word... we will take actions as and when required' (MD, on margins).",
+      "Two new nameplates in H2FY27: an ICE mid-SUV (4.0-4.4 m, 'technology-first', positioned apart from the Creta; launched in the festive season) and the first mass-market dedicated EV (a localised compact SUV, aiming for PLI eligibility from day one).",
+      "Pune third shift from Oct-2026, about two years early (Pune potential 170k a year on three shifts); Chennai Plant 1 utilisation 72% in CY26, 90-92% expected in CY27 with the new models.",
+      "Industry: H1 strong on the low pre-GST base; H2 growth 'low single digits'; FY27 6-9%. HMIL aims to beat the industry in H2 and exit FY27 above its FY26 share of ~12.3%.",
+      "Rural share a record 25.9% (rural +23%, urban +2.8%); SUVs 70% of domestic volume; CNG 18.2%; localisation 83% (90% target by 2030); expects no CAFE-II penalty for FY23-FY27."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (May-2026 to Jul-2026)",
+      "head": [
+       "When",
+       "Topic",
+       "What was said",
+       "Outcome so far"
+      ],
+      "wide": [
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "8-May-26",
+        "FY27 domestic volume",
+        "Growth of 8-10%, with capacity to go beyond that if demand allows.",
+        "Q1 +5.4% (fire); Apr-Aug +12.6%."
+       ],
+       [
+        "8-May-26",
+        "FY27 exports",
+        "Growth of 8-10% despite an 'extremely uncertain' environment (FY26: +16.4% vs 7-8% guided).",
+        "Q1 -19.6%; Apr-Aug about -12%."
+       ],
+       [
+        "8-May-26",
+        "FY27 EBITDA margin",
+        "Within the 11-14% band (FY26: 12.2%).",
+        "Q1 9.3%; band reiterated 30-Jul-2026."
+       ],
+       [
+        "8-May-26",
+        "Capex",
+        "About ₹7,500 cr in FY27, the highest ever: Pune Phase 2 and Chennai upgrades.",
+        "On track (no update in Q1)."
+       ],
+       [
+        "8-May-26",
+        "Capacity",
+        "Pune 250k by CY28, then +70k to ~320k; total >1.1 mn by 2030.",
+        "Pune third shift brought forward to Oct-2026."
+       ],
+       [
+        "8-May-26",
+        "Launches",
+        "Two all-new nameplates in FY27: a localised compact EV SUV and an ICE mid-SUV.",
+        "Mid-SUV named Bayon (14-Sep-2026); bookings opened 23-Sep-2026."
+       ],
+       [
+        "30-Jul-26",
+        "Market share",
+        "Exit FY27 above the FY26 share of ~12.3%; beat industry growth in H2.",
+        "To be seen (Q1 share ~11% on the fire)."
+       ]
+      ],
+      "source": "Hyundai Motor India calls (8-May-2026, 30-Jul-2026); Business Today, Autocar Pro"
+     }
+    },
+    {
+     "callout": "**Why it matters:** management has a mixed record on guidance. It beat its FY26 export guide (+16.4% vs 7-8%) but missed on domestic volume (−2.3%) and has kept a wide 11-14% margin band that Q1FY27 fell below. To hit the bottom of the band, Q2-Q4 must average ~11.5%; our FY27E ({{F.ebitdaMargin.0|pct}}) assumes exactly that."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "High returns on a lean balance sheet; capex now doubling and dividends to the parent first",
+   "blocks": [
+    {
+     "p": "Hyundai runs on negative working capital: suppliers are paid in ~52 days while inventory is ~26 days and customers pay in ~11, so dealers and suppliers fund the business. Over FY21-FY26 cash from operations was ₹38,043 cr, capex ₹18,928 cr and dividends ₹19,994 cr, of which ₹15,436 cr went out in FY24 (mostly to Hyundai Motor Company) before the IPO. Reported ROE of 30-42% in FY24-FY26 is inflated by that pre-IPO payout, which shrank equity to ₹10,666 cr at Mar-2024. On a normal balance sheet returns are still high (ROCE 38% in FY26 on Screener's basis), but they are falling as capex rises: ₹4,266 cr in FY26, ~₹7,500 cr guided for FY27, and a ₹45,000 cr plan to FY30 (Pune Phase 2 and 3, electrification, 26 launches)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Capex is catching up with operating cash flow",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY21",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated from FY21; FY19-FY20 standalone), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 23% in FY21, 54% in FY25 (shrunken equity), 38% in FY26",
+       "unit": "Return on capital employed (%), Screener basis",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          23,
+          23,
+          33,
+          51,
+          54,
+          38
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 60,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY21-23",
+       "FY24-26",
+       "Six years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "17,125",
+        "20,918",
+        "38,043"
+       ],
+       [
+        "Capex",
+        "6,109",
+        "12,819",
+        "18,928"
+       ],
+       [
+        "Dividends paid",
+        "2,852",
+        "17,142",
+        "19,994"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over**",
+         "**8,164**",
+         "**−9,043**",
+         "**−879**"
+        ]
+       },
+       [
+        "Memo: cash and bank balances at the end",
+        "17,741 (Mar-23)",
+        "10,552 (Mar-26)",
+        ""
+       ]
+      ],
+      "source": "Screener.in cash flow (consolidated). FY24 dividends of ₹15,436 cr were paid before the Oct-2024 IPO."
+     }
+    },
+    {
+     "callout": "**The capital question:** the IPO raised nothing for Hyundai India (Hyundai Motor Company sold 17.5% for ₹27,859 cr), and the cash pile was largely paid to the parent beforehand. With capex of ₹7,500-8,500 cr a year and a ~32% payout, we expect free cash flow near zero in FY27E and modest after that; net cash falls from ~₹9,500 cr to ~₹7,000-8,000 cr. That is still a strong balance sheet, but it is no longer a cash story."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean accounts and strong cash, but the parent takes its share first",
+   "blocks": [
+    {
+     "bullets": [
+      "**Cash backs profit.** Operating cash flow was 135% of net profit in FY26 and 77% in FY25 (working capital and taxes); over FY21-FY26 it averaged well above 100% because suppliers fund inventory.",
+      "**Royalty.** HMIL paid HMC ₹1,975 cr in FY26 (₹1,878 cr in FY25), ~2.8% of revenue and ~21% of pre-royalty profit before tax. It rises with sales; its terms (rate base, duration) are not disclosed in the annual report.",
+      "**Related-party purchases.** ~₹15,740 cr (30% of purchases) came from group companies (Mobis India alone ₹8,733 cr). Prices are said to be at arm's length and are approved by shareholders, but outsiders cannot test them.",
+      "**Incentives in revenue.** ₹1,372 cr of export and state incentives (duty drawback, RoDTEP, Tamil Nadu and Maharashtra schemes) sit in operating revenue: real cash, but policy-dependent (~16% of FY26 EBITDA).",
+      "**Other income** is mostly interest on deposits (₹547 cr) plus exchange gains (₹133 cr in FY26) that we do not forecast.",
+      "**Contingent liabilities.** CCI penalty of ₹420.3 cr (spare parts / dealer practices; enforcement subject to a Madras High Court writ appeal) and a separate ₹87 cr CCI penalty under appeal; GST compensation-cess demand of ₹258.7 cr plus an equal penalty on certain SUVs (stayed by the Madras High Court); excise demand of ₹357.4 cr plus an equal penalty; draft income-tax assessments of ₹172.9 cr pending before the DRP. None is provided for; all are under appeal."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: GREEN.** Unqualified audit by BSR & Co. LLP, a simple balance sheet, net cash and no aggressive capitalisation visible. The watch items are governance, not accounting: the royalty, related-party purchases and old regulatory disputes."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash of ~₹9,500 cr, negative working capital and a new ₹7,000 cr plant",
+   "blocks": [
+    {
+     "p": "At Mar-2026 Hyundai held ₹10,552 cr of cash and bank deposits against ₹1,098 cr of borrowings (mainly a Tamil Nadu sales-tax soft loan and leases): ~₹9,450 cr net, ~₹116 a share. Net fixed assets almost doubled to ₹13,070 cr after the Pune (Talegaon) plant, acquired from General Motors in Aug-2023 and re-equipped for ₹6,986 cr, was capitalised; CWIP fell from ₹4,718 cr to ₹725 cr. Other current financial assets (₹663 cr) are mainly incentives due from the Tamil Nadu and Maharashtra governments. Contingent liabilities are material but old: a ₹420 cr Competition Commission penalty under appeal, tax and duty demands (GST cess ₹259 cr plus an equal penalty, stayed by the Madras High Court)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Suppliers fund the business: payables twice inventory",
+       "unit": "Days (of revenue)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          30,
+          29,
+          28,
+          23,
+          25,
+          26
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          22,
+          17,
+          18,
+          13,
+          13,
+          11
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          71,
+          55,
+          60,
+          53,
+          52,
+          52
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Cash fell by half in FY24 (pre-IPO dividends) and is rebuilding",
+       "unit": "Cash and bank balances (₹ crore)",
+       "x": "A.labels",
+       "from": "FY21",
+       "series": [
+        {
+         "name": "Cash",
+         "ref": "A.cash",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated from FY21; FY19-FY20 standalone), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.3|num}}",
+        "{{A.netWorth.5|num}}",
+        "{{A.netWorth.6|num}}",
+        "{{A.netWorth.7|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "{{A.borrowings.3|num}}",
+        "{{A.borrowings.5|num}}",
+        "{{A.borrowings.6|num}}",
+        "{{A.borrowings.7|num}}"
+       ],
+       [
+        "Cash and bank balances",
+        "{{A.cash.3|num}}",
+        "{{A.cash.5|num}}",
+        "{{A.cash.6|num}}",
+        "{{A.cash.7|num}}"
+       ],
+       [
+        "Net fixed assets",
+        "{{A.fixedAssets.3|num}}",
+        "{{A.fixedAssets.5|num}}",
+        "{{A.fixedAssets.6|num}}",
+        "{{A.fixedAssets.7|num}}"
+       ],
+       [
+        "Capital work in progress",
+        "{{A.cwip.3|num}}",
+        "{{A.cwip.5|num}}",
+        "{{A.cwip.6|num}}",
+        "{{A.cwip.7|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.3|num}}",
+        "{{A.inventories.5|num}}",
+        "{{A.inventories.6|num}}",
+        "{{A.inventories.7|num}}"
+       ],
+       [
+        "Trade receivables",
+        "{{A.receivables.3|num}}",
+        "{{A.receivables.5|num}}",
+        "{{A.receivables.6|num}}",
+        "{{A.receivables.7|num}}"
+       ],
+       [
+        "Trade payables",
+        "{{A.payables.3|num}}",
+        "{{A.payables.5|num}}",
+        "{{A.payables.6|num}}",
+        "{{A.payables.7|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated from FY21; FY19-FY20 standalone), GAM Research. Contingent liabilities: AR FY26 note 35."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: Hyundai Motor Company 82.5%; a 17.5% float now held mostly by Indian funds",
+   "blocks": [
+    {
+     "p": "Hyundai Motor Company owns 82.5% (Jun-2026), unpledged. The 17.5% float is held by mutual funds (7.99%), insurers (3.59%), foreign portfolio investors (3.28%, down from 7.3% in Sep-2025) and 7,69,187 retail and other holders (2.53%). Foreign funds have halved their stake in a year while Indian funds bought: the stock now trades on domestic flows."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Foreign funds halved their holding; Indian funds bought",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Retail shareholders: 12.6 lakh after the IPO, 7.7 lakh now",
+       "unit": "Number of shareholders",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Shareholders",
+         "ref": "SH.rows.No. of Shareholders",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Shareholding (30-Jun-2026)",
+      "head": [
+       "Holder",
+       "Stake"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Hyundai Motor Company, South Korea (promoter)",
+        "82.5%"
+       ],
+       [
+        "Mutual funds (all)",
+        "7.99%"
+       ],
+       [
+        "Insurance companies",
+        "3.59%"
+       ],
+       [
+        "Foreign portfolio investors",
+        "3.28%"
+       ],
+       [
+        "Retail and others",
+        "2.53%"
+       ]
+      ],
+      "source": "BSE shareholding pattern via Screener.in and Trendlyne. Holders above 1% other than HMC could not be retrieved for Jun-2026 (see gaps)."
+     }
+    },
+    {
+     "callout": "**Our read:** HMC can sell down to 75% (minimum public float rules give it time) and has a history of taking cash out (FY24 dividends, the IPO). Any further sale is an overhang; any buyback or higher payout would be a positive. Neither was announced by 30-Sep-2026."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: professional and clean, but run for the parent as much as for minorities",
+   "blocks": [
+    {
+     "p": "MD & CEO Tarun Garg (since 1-Jan-2026; first Indian MD); whole-time directors Wangdo Hur (CFO), Dong Huwy Park (COO) and Gopalakrishnan C.S. (Chief Manufacturing Officer); independent directors Ajay Tyagi, Sree Kirat Patel, Shalini Puchalapalli and John Martin Thompson. Auditor: BSR & Co. LLP."
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "BSR & Co. LLP (KPMG network); unqualified opinion; one segment; simple balance sheet.",
+       "No accounting red flags."
+      ],
+      [
+       "Board",
+       "Moderate",
+       "Four independent directors; four executive directors (MD & CEO, CFO, COO and Chief Manufacturing Officer; the CFO and COO are from HMC).",
+       "Independent, but HMC controls strategy."
+      ],
+      [
+       "Parent and pledges",
+       "Moderate",
+       "82.5% held by HMC, nil pledged; HMC sold 17.5% in the IPO and took ~₹15,400 cr of dividends in FY24.",
+       "Aligned on value, but the parent has shown it will extract cash."
+      ],
+      [
+       "Management",
+       "Strong",
+       "Tarun Garg MD & CEO since 1-Jan-2026 (the first Indian MD); CFO Wangdo Hur.",
+       "Continuity; local leadership."
+      ],
+      [
+       "Pay",
+       "Strong",
+       "Tarun Garg 41.9x the median employee in FY26 (+44%); CFO 26.2x; independent directors 3.7-3.9x.",
+       "Modest by Indian standards."
+      ],
+      [
+       "Related parties and royalty",
+       "Watch",
+       "HMC (82.5%) is also the technology licensor and a supplier. Royalty to HMC ₹1,975 cr in FY26 (2.8% of revenue; ₹1,878 cr in FY25); ~30% of FY26 purchases (₹15,700 cr of ₹53,072 cr) came from group companies (Mobis India ₹8,733 cr, Hyundai Transys Lear ₹1,943 cr, Kia India ₹1,736 cr, HMC ₹1,479 cr, Hyundai's Indonesian plant ₹1,085 cr); HMIL sold ₹2,347 cr to Kia India and ₹1,731 cr to Hyundai Mexico. In Mar-2025 shareholders voted on seven related-party resolutions worth ~₹31,526 cr (~40% of revenue); proxy adviser SES recommended voting against six, IiAS supported all.",
+       "The main governance risk for minority holders."
+      ],
+      [
+       "Capital allocation",
+       "Moderate",
+       "Paid ~₹15,400 cr of dividends to HMC in FY24 before the IPO (derived from the fall in reserves); the IPO was a pure sale by HMC (₹27,859 cr), so none of the money came to the company. Since listing: ₹21 a share each year (~30-31% payout) while capex steps up to ₹7,500 cr (FY27) as part of a ₹45,000 cr FY26-30 plan.",
+       "Disciplined spending, but cash has gone to the parent first."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "AR FY26 (corporate governance report, notes 35 and 37); Business Standard (Mar-2025); shareholding pattern"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EPS back to ₹90 by FY29E, a little below the street",
+   "blocks": [
+    {
+     "p": "We forecast volume (domestic + exports, built separately) × revenue per vehicle, an EBITDA margin of {{F.ebitdaMargin.0|pct}} / {{F.ebitdaMargin.1|pct}} / {{F.ebitdaMargin.2|pct}}, capex of ₹7,500 / 8,500 / 8,500 cr with depreciation at 6.2% of gross block, other income of ~5.8% on net cash plus ~₹300 cr of royalty received, rent and other items, tax of 25.8% and a 32% payout. Every assumption, with our reasoning, is in the Excel model's Assumptions sheet."
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Volume (vehicles)",
+        "ref": "kpi.units"
+       },
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E"
+      ],
+      "rows": [
+       [
+        "EPS (₹), ICICI Securities (31-Jul-26)",
+        "{{F.eps.0|n1}}",
+        "69.2",
+        "{{F.eps.1|n1}}",
+        "90.0"
+       ],
+       [
+        "EPS (₹), JM Financial (30-Jul-26)",
+        "{{F.eps.0|n1}}",
+        "69.0",
+        "{{F.eps.1|n1}}",
+        "88.7"
+       ],
+       [
+        "EPS (₹), BOB Caps (31-Jul-26)",
+        "{{F.eps.0|n1}}",
+        "67.1",
+        "{{F.eps.1|n1}}",
+        "85.3"
+       ],
+       [
+        "EPS (₹), Nirmal Bang (31-Jul-26)",
+        "{{F.eps.0|n1}}",
+        "67.0",
+        "{{F.eps.1|n1}}",
+        "78.7"
+       ],
+       [
+        "EPS (₹), Bloomberg consensus (via BOB Caps)",
+        "{{F.eps.0|n1}}",
+        "68.9",
+        "{{F.eps.1|n1}}",
+        "86.5"
+       ],
+       [
+        "Revenue (₹ cr), Nirmal Bang / BOB Caps",
+        "{{F.sales.0|num}}",
+        "79,212 / 73,640",
+        "{{F.sales.1|num}}",
+        "89,654 / 84,145"
+       ],
+       [
+        "EBITDA margin, Nirmal Bang / BOB Caps / Nomura",
+        "{{F.ebitdaMargin.0|pct}}",
+        "11.0% / 12.1% / 11.5%",
+        "{{F.ebitdaMargin.1|pct}}",
+        "11.4% / 13.3% / 12.7%"
+       ]
+      ],
+      "source": "ICICI Direct, JM Financial, BOB Caps and Nirmal Bang Q1FY27 notes (PDFs); Nomura via Aliceblue (24-Aug-2026)"
+     }
+    },
+    {
+     "callout": "Our FY27E EPS is 6% below the average of the brokers that publish EPS and FY28E 8% below. Our revenue and margins are within the street's range; the gap is mostly depreciation: we charge the ₹7,500-8,500 cr a year of capex at once (6.2% of gross block), so FY28E depreciation is ~₹2,755 cr, a quarter above FY26."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: mostly Buy, targets ₹2,069-2,520, all on 24-30x FY28E P/E",
+   "blocks": [
+    {
+     "p": "Seven houses published after the Q1FY27 results (30-Jul to 3-Sep-2026): ICICI Securities Buy ₹2,520, Nuvama Buy ₹2,500, Morgan Stanley Overweight ₹2,438, Motilal Oswal Buy ₹2,334, BOB Caps Buy ₹2,327, JM Financial Add ₹2,130 and Nirmal Bang Hold ₹2,069: median ₹2,334, ~15% above the 30-Sep-2026 close of ₹2,031. Nomura kept Buy (Aug-2026; target not in our source). Every house that discloses a method uses **P/E on FY28E or Jun-28E EPS: 24-30x (median 26x)**. Most raised targets after Q1 because the launches are now dated; the bulls lean on Bayon, the EV, Pune and exports; the cautious (Nirmal Bang, JM) on exports and margin volatility."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Hyundai has lost domestic share for three years (14.6% in FY24, 12.6% in FY26) and slipped from #2 to #4 behind M&M and Tata; one launch a year is not enough in an SUV market where rivals launch several",
+        "Autocar Pro (1-Apr-2026); Morgan Stanley (Sep-2026: share near its low)"
+       ],
+       [
+        "Exports depend heavily on the Middle East; the West Asia conflict cut Q1 exports 20% and August 31%: 'we remain cautious on the export outlook'",
+        "Nirmal Bang (Hold), 31-Jul-2026"
+       ],
+       [
+        "Margins are volatile and under pressure from commodities (precious metals, copper), Pune ramp-up costs and the growth push",
+        "JM Financial, BOB Caps, Morgan Stanley (Apr-2026 target cut on cost pressure)"
+       ],
+       [
+        "The parent extracts value through royalty and parts purchases; the related-party approvals sought in 2025 equalled ~40% of revenue",
+        "SES (proxy adviser) via Business Standard, Mar-2025"
+       ],
+       [
+        "Earnings will fall again in FY27 before they recover: FY26 EPS ₹66.85 was below FY24's ₹74.58, and Q1FY27 PAT fell 35%",
+        "GAM Research; brokers' FY27E EPS of ₹67-69 imply ~flat earnings"
+       ],
+       [
+        "Capex is stepping up to ₹7,500 cr+ a year (₹45,000 cr plan for FY26-30), so free cash flow will be thin for two to three years",
+        "GAM Research from the Q4FY26 call and AR FY26"
+       ]
+      ],
+      "source": "Broker notes, news and call transcripts to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 25.5x Sep-28E EPS gives {{dcf.tp|inr}}; the stock already trades at ~25x FY28E",
+   "blocks": [
+    {
+     "h": "How the street values Hyundai"
+    },
+    {
+     "p": "We use the street's method so our target is comparable: P/E on the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). The \"At our EPS\" column applies each broker's multiple to our Sep-28E EPS: the gap to the street is mostly earnings, not the multiple."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "ICICI Securities (retail) (31-Jul-26)",
+        "Buy",
+        "2,520",
+        "P/E",
+        "28x",
+        "FY28E",
+        "2,370",
+        "Two launches, Pune third shift, exports and localisation; earnings recovery after a one-off Q1"
+       ],
+       [
+        "Nuvama (31-Jul-26)",
+        "Buy",
+        "2,500",
+        "P/E",
+        "30x core + cash ~₹100",
+        "FY28E",
+        "2,540",
+        "Seven new nameplates by FY30; revenue/EBITDA CAGR 15%/14% FY26-28E; RoIC ~38%"
+       ],
+       [
+        "Morgan Stanley (3-Sep-26)",
+        "Overweight",
+        "2,438",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Margins, volumes and share near their lows; ICE SUV launches and exports can re-rate the stock"
+       ],
+       [
+        "Motilal Oswal (31-Jul-26)",
+        "Buy",
+        "2,334",
+        "P/E",
+        "26x",
+        "FY28E",
+        "2,200",
+        "Q1 beat on other income; H2 launches; volume CAGR ~9% and EPS CAGR ~16% FY26-28E"
+       ],
+       [
+        "BOB Capital Markets (31-Jul-26)",
+        "Buy",
+        "2,327",
+        "P/E",
+        "26x",
+        "Jun-28E",
+        "2,200",
+        "Capacity ramp-up to 1.1 mn by FY28 and pricing to guard margins; FY27-28 EPS cut 7%/3%"
+       ],
+       [
+        "JM Financial (30-Jul-26)",
+        "Add",
+        "2,130",
+        "P/E",
+        "24x",
+        "FY28E",
+        "2,030",
+        "Launches support volume; margins remain volatile"
+       ],
+       [
+        "Nirmal Bang (31-Jul-26)",
+        "Hold",
+        "2,069",
+        "P/E",
+        "24.5x",
+        "Jun-28E",
+        "2,070",
+        "Cautious on exports (Middle East exposure); EBITDA margin 11.0%/11.4% FY27-28E"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**HOLD**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**25.5x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Recovery is priced in; share loss and the parent's take cap the multiple"
+        ]
+       }
+      ],
+      "source": "ICICI Direct, JM, Nirmal Bang and BOB Caps notes (PDFs); MOSL via DSIJ; Nuvama via Business Today (31-Jul-2026); Morgan Stanley via Finwire/Placera (3-Sep-2026). Nuvama adds ~₹100 a share of cash to its multiple."
+     }
+    },
+    {
+     "h": "Our target multiple: 25.5x, and why"
+    },
+    {
+     "p": "Hyundai listed on 22-Oct-2024, so it has under two years of history. Under our rule for recently listed stocks we use its one-year-forward P/E over the last 12 months (Oct-2025 to Sep-2026), skipping the first year after listing, and adjust it by how far auto peers trade below their own medians over the same 12 months, so the two windows match."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the multiple (house rule, PLAYBOOK §4 and §7c)",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1. Own history (12 months)",
+        "Forward P/E on every weekly close, 1-Oct-2025 to 30-Sep-2026: median 28.4x (25th-75th percentile 24.9-35.9x). Oct-25 to Mar-26 on FY27E EPS: 36.1x; Apr-26 to Sep-26 on FY28E: 24.9x. No trough years (FY27E EPS is above half the FY24 peak)",
+        "Starting point 28.4x"
+       ],
+       [
+        "2. Since listing (shown)",
+        "Median 27.8x over all 102 weeks since 22-Oct-2024",
+        "Similar; not used (first year skipped)"
+       ],
+       [
+        "3. Sector move (same window)",
+        "Auto-OEM peers' trailing P/E on 30-Sep-2026 vs their own 12-month medians: Maruti Suzuki −12%, Mahindra & Mahindra −14%, Eicher Motors −11%, Hero MotoCorp −4%, TVS Motor −7%, Ashok Leyland −9%; median −10%. Excluded as distorted: Bajaj Auto (−14%), Escorts Kubota (−23%); with them −11%. Hyundai itself and Tata Motors PV (listed Oct-2025, one-off gains) not used",
+        "× 0.900"
+       ],
+       [
+        "4. Result (nearest half-turn)",
+        "28.4x × 0.900 = 25.6x",
+        "**25.5x**"
+       ],
+       [
+        "5. Bull / bear",
+        "Bull: no sector move (28.4x). Bear: 25th percentile, de-rated (24.9x × 0.900)",
+        "28.5x / 22.5x"
+       ]
+      ],
+      "source": "Screener.in prices and P/E to 30-Sep-2026; GAM estimates for FY27-28E EPS in the forward series"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E since listing (every weekly close)",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2024-10-25",
+        "2024-11-01",
+        "2024-11-08",
+        "2024-11-14",
+        "2024-11-22",
+        "2024-11-29",
+        "2024-12-06",
+        "2024-12-13",
+        "2024-12-20",
+        "2024-12-27",
+        "2025-01-03",
+        "2025-01-10",
+        "2025-01-17",
+        "2025-01-24",
+        "2025-02-01",
+        "2025-02-07",
+        "2025-02-14",
+        "2025-02-21",
+        "2025-02-28",
+        "2025-03-07",
+        "2025-03-13",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-04",
+        "2025-04-11",
+        "2025-04-17",
+        "2025-04-25",
+        "2025-05-02",
+        "2025-05-09",
+        "2025-05-16",
+        "2025-05-23",
+        "2025-05-30",
+        "2025-06-06",
+        "2025-06-13",
+        "2025-06-20",
+        "2025-06-27",
+        "2025-07-04",
+        "2025-07-11",
+        "2025-07-18",
+        "2025-07-25",
+        "2025-08-01",
+        "2025-08-08",
+        "2025-08-14",
+        "2025-08-22",
+        "2025-08-29",
+        "2025-09-05",
+        "2025-09-12",
+        "2025-09-19",
+        "2025-09-26",
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          27.6,
+          27.4,
+          27.5,
+          26.4,
+          27.4,
+          28.7,
+          27.8,
+          26.5,
+          26.4,
+          26.8,
+          27.4,
+          26.7,
+          26.8,
+          25.5,
+          26.2,
+          28.4,
+          27,
+          26.9,
+          25.9,
+          25.7,
+          24.6,
+          25.4,
+          25.5,
+          25.6,
+          25.5,
+          26,
+          26.1,
+          26.9,
+          27.1,
+          29,
+          29.4,
+          28.9,
+          29.1,
+          30.4,
+          31.4,
+          34.3,
+          32.3,
+          32.9,
+          33.2,
+          32.8,
+          34.1,
+          33.2,
+          35.1,
+          37,
+          38.5,
+          39.8,
+          40.1,
+          44,
+          41.3,
+          39.2,
+          37.6,
+          36.7,
+          35.5,
+          38.2,
+          36.4,
+          36.9,
+          36.5,
+          36.4,
+          36.1,
+          36.6,
+          36.3,
+          36.3,
+          35.5,
+          35.4,
+          36.6,
+          35.4,
+          34,
+          34.2,
+          34.1,
+          35.9,
+          33.9,
+          32.8,
+          31.6,
+          30.5,
+          28.4,
+          21.5,
+          22.5,
+          23.9,
+          22.4,
+          22.8,
+          23.3,
+          22.9,
+          23.2,
+          24.1,
+          24,
+          25,
+          24.8,
+          24.7,
+          25,
+          24.9,
+          25,
+          24.5,
+          27.4,
+          27.6,
+          27.6,
+          27.8,
+          28.4,
+          27.7,
+          27.3,
+          27.7,
+          26.5,
+          25.5
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 25.5,
+         "text": "Our multiple: 25.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual EPS to FY26, GAM estimates FY27-28E"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Street median target",
+        "Share price"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          2159,
+          1662,
+          1459,
+          2334,
+          2031
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "Sep-28E EPS ₹84.7",
+        "25.5x (bull 28.5x, bear 22.5x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "Sep-28E EBITDA ₹11,615 cr + net cash",
+        "11x (bull 12x, bear 9.5x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "−23%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "FCFF FY28-42E, Ke {{dcf.ke|n1}}%, g 5.5%",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "−32%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** Both sit below the target. EV/EBITDA: Hyundai's median trailing EV/EBITDA over the same 12 months was 17.9x; de-rated by 10.0% and restated to Sep-28E EBITDA (₹11,615 cr vs ₹7,925 cr in the year to Jun-26, ratio 0.68) it is 11x, worth ₹1,662. The DCF gives ₹1,459: capex of ₹7,500-8,500 cr a year keeps free cash flow thin for three years. Our P/E target assumes the market keeps paying for a recovery in earnings; the cash-flow methods say there is little margin of safety if it does not."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Views we did not put in the base (sensitivity rows only)",
+      "head": [
+       "View",
+       "What it changes",
+       "Value / share (₹)"
+      ],
+      "wide": [
+       0,
+       1
+      ],
+      "rows": [
+       [
+        "Since-listing median with the five-year sector move",
+        "27.8x × 0.931 (peers vs five-year medians: −7%) = 26x",
+        "2,200"
+       ],
+       [
+        "Only the last six months (all on FY28E EPS)",
+        "24.9x × 0.900 = 22.5x",
+        "1,910"
+       ],
+       [
+        "No sector move (bull multiple)",
+        "28.5x on base earnings",
+        "2,410"
+       ],
+       [
+        "Street median multiple",
+        "26x on our EPS",
+        "2,200"
+       ],
+       [
+        "Street EPS at our multiple",
+        "25.5x on consensus FY28E ₹86.5 (FY28E basis)",
+        "2,210"
+       ],
+       [
+        "Growth premium",
+        "EPS CAGR ~10% FY26-29E from a depressed FY27 base",
+        "not applied"
+       ],
+       [
+        "Returns premium",
+        "ROE ~24-25% vs Ke 11.9%, but similar through the window that set the median",
+        "not applied"
+       ]
+      ],
+      "source": "GAM Research. Per PLAYBOOK §7c, growth and returns views are shown, not added to the base multiple."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple 28.5x (no sector move)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Volume +{{as.volume.growth.0|n1}}% / +{{as.volume.growth.1|n1}}% / +{{as.volume.growth.2|n1}}%; EBITDA margin {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 25.5x Sep-28E."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple 22.5x (25th percentile, de-rated)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed auto peers",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "vs 12-month median",
+       "vs 5-yr median",
+       "EV/EBITDA (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "Maruti Suzuki",
+        "3,76,246",
+        "1,83,316",
+        "11.7%",
+        "26.3",
+        "−12%",
+        "−17%",
+        "14.5",
+        "14.4%"
+       ],
+       [
+        "Mahindra & Mahindra",
+        "3,66,799",
+        "1,47,765",
+        "15.2%",
+        "22.5",
+        "−14%",
+        "−15%",
+        "13.4",
+        "23%"
+       ],
+       [
+        "Bajaj Auto (excluded)",
+        "2,98,815",
+        "62,905",
+        "20.8%",
+        "25.4",
+        "−14%",
+        "−7%",
+        "17.9",
+        "28.6%"
+       ],
+       [
+        "Eicher Motors",
+        "1,96,299",
+        "23,408",
+        "24.7%",
+        "33.7",
+        "−11%",
+        "−3%",
+        "23.1",
+        "23.8%"
+       ],
+       [
+        "Hero MotoCorp",
+        "1,04,914",
+        "47,411",
+        "14.9%",
+        "19.0",
+        "−4%",
+        "−7%",
+        "12.6",
+        "28.3%"
+       ],
+       [
+        "TVS Motor",
+        "1,95,071",
+        "47,270",
+        "12.9%",
+        "48.2",
+        "−7%",
+        "+2%",
+        "29.6",
+        "34.2%"
+       ],
+       [
+        "Ashok Leyland",
+        "90,485",
+        "56,362",
+        "19.1%",
+        "24.3",
+        "−9%",
+        "−7%",
+        "12.1",
+        "28.1%"
+       ],
+       [
+        "Escorts Kubota (excluded)",
+        "30,376",
+        "11,540",
+        "13%",
+        "21.3",
+        "−23%",
+        "−39%",
+        "13.9",
+        "21.1%"
+       ],
+       [
+        "Tata Motors PV (not in set)",
+        "1,04,414",
+        "3,35,582",
+        "5.6%",
+        "1.5",
+        "–",
+        "–",
+        "6.6",
+        "72.4%"
+       ],
+       [
+        "**Hyundai Motor India**",
+        "1,65,020",
+        "70,763",
+        "12.1%",
+        "33.3",
+        "–",
+        "–",
+        "17.5",
+        "29.9%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026. M&M and TVS Motor on Screener's standalone basis. Hyundai's trailing P/E is on depressed TTM EPS (₹60.9; 33.3x on the as-of close)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a recovery we expect, at a price that already expects it; HOLD at 25.5x FY28E",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's #4 carmaker and largest car exporter, backed by one of the world's biggest car groups, with ~12.6% of the domestic market, a 12-13% EBITDA margin in normal years, net cash of ~₹9,500 cr, negative working capital, a new plant at Pune and two all-new SUVs arriving in H2FY27."
+    },
+    {
+     "callout": "**What you are paying:** 31.8x our FY27E and 25.5x FY28E EPS, after two years of falling share and profit. The market has paid a median 28.4x forward over the last year and auto stocks were below their own recent medians on 30-Sep-2026. On the street's method and the house multiple the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): HOLD."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹1,880 (BUY on our rule)",
+        "Medium",
+        "The stock would have to fall ~7%"
+       ],
+       [
+        "Bayon and the EV lift domestic share back above 13.5%",
+        "Medium",
+        "Monthly domestic sales vs SIAM; Vahan registrations; waiting periods"
+       ],
+       [
+        "Margins back at 13%+ in FY28 (utilisation, lower discounts, commodities easing)",
+        "Medium",
+        "Quarterly EBITDA margin; discount levels; commodity prices"
+       ],
+       [
+        "Exports back to 50k+ a quarter as West Asia shipping normalises",
+        "Medium",
+        "Monthly exports; Middle East orders"
+       ],
+       [
+        "Higher payout or buyback, or a clear royalty cap",
+        "Low",
+        "Board decisions; AGM notices"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Share keeps falling as M&M, Tata, Maruti and Kia launch more SUVs",
+        "Medium-High",
+        "Domestic growth below the industry; FY28E EPS 10-15% below ours"
+       ],
+       [
+        "Industry slows sharply after the post-GST base (H2FY27 onward)",
+        "Medium",
+        "Volume and discount pressure; operating deleverage on the new capacity"
+       ],
+       [
+        "Commodity inflation persists (precious metals, copper, steel)",
+        "Medium",
+        "Each 1pp of EBITDA margin ≈ ₹8-9 a share of FY28E EPS"
+       ],
+       [
+        "West Asia conflict keeps exports down",
+        "Medium",
+        "Exports are a quarter of volume and earn higher prices"
+       ],
+       [
+        "Parent extracts more value (royalty, parts prices, stake sales)",
+        "Low-Medium",
+        "Lower margins or a share overhang"
+       ],
+       [
+        "Capex overruns: the full ₹45,000 cr plan by FY30",
+        "Medium",
+        "Depreciation up faster; free cash flow negative; ROE toward 20%"
+       ],
+       [
+        "Old disputes crystallise (CCI ₹420 cr, GST cess and excise demands)",
+        "Low",
+        "One-off charges of a few hundred crore"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: HOLD, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would move to BUY below ~₹1,880** and to SELL above ~₹2,270 on today's numbers, or sooner if Bayon and the EV clearly lift share and margins.",
+      "**This is an earnings call more than a multiple call.** Our 25.5x is close to the street's 24-30x; our Sep-28E EPS (₹84.7) is below the street's FY28E (~₹86-90) because we charge more depreciation and expect a slower export recovery. At the street's median target (₹2,334) the stock would be on ~27.6x our Sep-28E EPS.",
+      "**Biggest swing factor:** margins. Each 1pp of EBITDA margin in FY28-29E is ~₹200 a share at our multiple; each 1x on the multiple is ~₹85."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Domestic market share, FY26",
+        "v": "12.6%",
+        "d": "FY24 14.6%; now #4 behind M&M and Tata"
+       },
+       {
+        "k": "EBITDA margin, Q1FY27",
+        "v": "9.3%",
+        "d": "guide 11-14%; FY24 13.0%"
+       },
+       {
+        "k": "Royalty to the parent, FY26",
+        "v": "₹1,975 cr",
+        "d": "2.8% of revenue"
+       },
+       {
+        "k": "Price ÷ our FY28E EPS",
+        "v": "25.5x",
+        "d": "12-month forward median 28.4x"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY19–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 12
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 100
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 15
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 8
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "PV, SUV, MPV",
+        "Passenger vehicles (cars, SUVs, vans); sport-utility vehicles; multi-purpose vehicles. SUVs and MPVs together are \"utility vehicles\"."
+       ],
+       [
+        "Wholesales vs retail",
+        "Wholesales are factory dispatches to dealers (what companies and SIAM report); retail is sales to customers (registrations)."
+       ],
+       [
+        "SIAM",
+        "Society of Indian Automobile Manufacturers: publishes industry wholesale data."
+       ],
+       [
+        "HMC / HMIL",
+        "Hyundai Motor Company (South Korea, the parent, 82.5%) / Hyundai Motor India Ltd (the listed company)."
+       ],
+       [
+        "Royalty",
+        "A fee HMIL pays HMC for using its designs, technology and brand, charged on sales."
+       ],
+       [
+        "Related-party transactions",
+        "Deals with companies of the same group (here HMC, Kia, Mobis and others); they need audit-committee and often shareholder approval."
+       ],
+       [
+        "GST 2.0",
+        "India's Sep-2025 goods and services tax reform: small cars from 28% plus cess to 18%; larger cars to a flat 40%; EVs 5%."
+       ],
+       [
+        "CAFE",
+        "Corporate average fuel efficiency norms: limits on the average CO2 emissions of a maker's fleet, with penalties."
+       ],
+       [
+        "PLI",
+        "Production-linked incentive: government payments for local manufacturing of advanced vehicles that meet local value-addition rules."
+       ],
+       [
+        "CNG, EV, LHD",
+        "Compressed natural gas cars; electric vehicles; left-hand-drive versions for export markets."
+       ],
+       [
+        "Offer for sale (OFS)",
+        "An IPO in which existing shareholders sell shares; the company raises no money."
+       ],
+       [
+        "Revenue per vehicle",
+        "Revenue from operations ÷ vehicles sold (domestic + exports); includes parts, services and incentives."
+       ],
+       [
+        "P/E, EV/EBITDA",
+        "Share price ÷ earnings per share; enterprise value (market value less net cash) ÷ EBITDA."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "Sector move / de-rating",
+        "How far comparable stocks trade below their own median P/E over the same window, on the valuation date."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, as Hyundai has net cash)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY21": "−5% (consolidated from FY21): Covid lockdowns.",
+  "sales@FY23": "+27%: volumes +18% to 7.21 lakh as chip supply returned; SUV mix rose.",
+  "pat@FY23": "+62%: operating leverage; margin 12.5%.",
+  "sales@FY24": "+16%: volumes 7.78 lakh (Exter launched); revenue per vehicle +7%.",
+  "ebitdaMargin@FY24": "13.0%, the peak: mix, softer commodities.",
+  "pat@FY24": "+29% to ₹6,060 cr (EPS ₹74.6); ~₹15,400 cr of dividends paid to HMC before the IPO.",
+  "sales@FY25": "−1%: domestic volume −2.6%; exports flat.",
+  "pat@FY25": "−7%: lower volume, higher costs; listed on 22-Oct-2024.",
+  "cfo@FY25": "−53%: working capital (customer advances fell by ~₹860 cr) and taxes.",
+  "sales@FY26": "+2%: domestic −2.3%, exports +16.4%; GST 2.0 lifted H2.",
+  "ebitdaMargin@FY26": "−80bp to 12.1%: commodities, Pune start-up costs, Labour Codes.",
+  "dep@FY26": "+4%: Pune plant capitalised from Oct-2025 (₹6,986 cr).",
+  "sales@Q2FY26": "Exports a record 51,400.",
+  "opm@Q4FY26": "10.4%: commodities (~120bp, half one-off), Labour Codes, Pune costs.",
+  "sales@Q1FY27": "−0.5%: supplier fire cost ~13,900 vehicles; exports −20%.",
+  "opm@Q1FY27": "9.3%: lost volume, commodities (~100bp QoQ), weak exports.",
+  "pat@Q1FY27": "−35% YoY to ₹889 cr.",
+  "sales@FY27E": "GAM: volume +6.8% (domestic +9%, exports flat), revenue per vehicle +2.5%.",
+  "ebitdaMargin@FY27E": "GAM: 11.0%: Q1 9.3%, ~11.5% for Q2-Q4; bottom of the 11-14% guide.",
+  "capex@FY27E": "Guided ~₹7,500 cr (Pune Phase 2, Chennai upgrades, launches).",
+  "pat@FY28E": "GAM: +25%: volume +10%, margin 12.3%, two new SUVs for a full year."
+ }
+}

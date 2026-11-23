@@ -28,6 +28,11 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 - Banks need a bank layout in the lender engine (deposits/CASA, fees in other income, CRR/SLR, risk-weighted capital). Until then, Team A writes all banks.
 - December year-end companies (e.g. CASTROLIND) need December-year support before they can be written.
+- (B, 23-Nov) Excel export fails ("Cannot read properties of undefined") for a segment model without an `esop` array; TMPV works around it with `esop: [0,0,0]`.
+- (B, 23-Nov) `data/models/MARUTI.json` shows an as-of of 23-Oct-2026, not 30-Sep-2026; please check. TMPV used only Maruti's reported EBITDA because of it.
+- (B, 23-Nov) Industrial engine has no share-issue line: a QIP before the as-of date (BHARATFORG, Sep-2026) needs a patch for the post-issue share count, and the QIP cash isn't on the balance sheet.
+- (B, 23-Nov) Team B fetched `data/raw/TATATECH/screener.json` as a TMPV peer (TATATECH is in Team A's queue); refetch freely.
+- (B, 23-Nov) Chart palette has only 4 colours; a fifth series crashes the chart (MOTHERSON sets it explicitly). DCF value and sensitivity grid round to ₹10, coarse for low-priced stocks.
 
 ## Team A queue (220 companies)
 
@@ -141,7 +146,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 ### Automobile and Auto Components (31)
 
-- B22 · claimed (B, 23-Nov-2026) · MOTHERSON, HYUNDAI published (HOLD, 2,160), BOSCHLTD, TMPV, BHARATFORG
+- B22 · claimed (B, 23-Nov-2026) · MOTHERSON published (SELL, 131), HYUNDAI published (HOLD, 2,160), BOSCHLTD, TMPV published (BUY, 380), BHARATFORG published (HOLD, 2,070)
 - B23 · queued · UNOMINDA, SCHAEFFLER, ATHERENERG, MRF, SONACOMS
 - B24 · queued · BALKRISIND, TIINDIA, ENDURANCE, EXIDEIND, CRAFTSMAN
 - B25 · queued · APOLLOTYRE, ZFCVINDIA, GABRIEL, MSUMI, ASAHIINDIA

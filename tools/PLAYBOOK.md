@@ -179,7 +179,8 @@ close: for short histories compute the series on all weekly closes in your ctx (
 - Auto OEM peer set: MARUTI, M&M, BAJAJ-AUTO, EICHERMOT, HEROMOTOCO, TVSMOTOR, ASHOKLEY, ESCORTS;
   ESCORTS excluded (FY26 profit inflated by the railway-business sale). Median at 30-Sep: −6.9%,
   the same with or without Escorts or Bajaj. Names without a five-year P/E history (TMPV, TMCV,
-  HYUNDAI) are not peers, but they use this sector factor.
+  HYUNDAI) are not peers. When such a name is valued on a 12-month own median, use the same peers'
+  move against their own 12-month medians (same window, as BAJAJHFL and HYUNDAI do), not −6.9%.
 - Pharma peer set (set 23-Nov-2026): SUNPHARMA, DIVISLAB, TORNTPHARM, ZYDUSLIFE, CIPLA, AUROPHARMA,
   ALKEM, IPCALAB, ABBOTINDIA. Excluded as distorted: LUPIN and GLENMARK (loss years inside the
   window), BIOCON and LAURUSLABS (one-off or boom-bust EPS; P/E above 100x inside the window),

@@ -1,0 +1,102 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, competition, peers, street, ownership, governance, moat, critiques, gaps and conflicts. Sources dated on or before 30-Sep-2026 only." },
+ "industry": {
+  "pvFY26": { "units": 4643439, "growthPct": 7.9, "prior": 4301848, "uvSharePct": 67, "src": "https://www.autocarpro.in/news/auto-industry-hits-7-year-peak-in-fy26-as-all-segments-log-record-sales-132106 ; https://www.autocarpro.in/analysis/suv-mpv-sales-cross-3-million-for-the-first-time-in-fy2026-uv-share-of-pvs-jumps-to-67-132168", "published": "2026-04-14" },
+  "pvHistory": [["FY23", 3890114], ["FY24", 4218746], ["FY25", 4301848], ["FY26", 4643439]],
+  "pvApr26": { "units": 437312, "growthPct": 25.4, "src": "https://www.autoguideindia.com/?p=32596", "published": "2026-05" },
+  "pvQ1FY27": { "unitsLakh": 12.7, "growthPct": 26, "src": "ICICI Direct Q1FY27 note (31-Jul-2026)" },
+  "pvExportsFY26": { "units": 905200, "growthPct": 18, "src": "Informist data alert on SIAM (secondary; not checked against SIAM's release)" },
+  "fy27View": "HMIL MD (30-Jul-2026): industry growth strong in H1 on the low pre-GST base, 'lower single digits' in H2, 6-9% for FY27.",
+  "gst": { "smallBefore": "28% + 1-3% cess (29-31%)", "smallAfter": "18%", "largeBefore": "28% + 17-22% cess (45-50%)", "largeAfter": "40%", "ev": "5% (unchanged)", "effective": "2025-09-22", "src": "https://www.autocarindia.com/industry/new-gst-rates-to-bring-car-and-bike-prices-down-437004 ; https://www.cardekho.com/india-car-news/gst-rate-cut-for-cars-cess-removed-all-cars-to-get-cheaper-34975.htm", "published": "2025-09" },
+  "westAsia": "US-Iran conflict from the end of FY26 disrupted shipping to the Middle East (Strait of Hormuz); HMIL redirected exports to Central and South America (+23% in Q1FY27) and Mexico (q1call).",
+  "rupee": "INR 95.7 per US$ on 30-Jul-2026 (JM Financial): helps export realisations, raises the cost of imported parts and the royalty paid to HMC.",
+  "cafe": "CAFE-II (FY23-27): HMIL expects no penalty under the revised draft; CAFE-III draft rules out for consultation (q1call, q4call)."
+ },
+ "competition": {
+  "_note": "FY26 domestic PV wholesales. M&M, Tata: Autocar Pro (1-Apr-2026); Maruti, Toyota, Kia: Autocar Pro FY26 analyses via search summary (Apr-2026). Tata's figure differs between Autocar Pro articles (631,387 vs 651,261): we use 631,387.",
+  "rows": [["Maruti Suzuki", 1820000, 4, "Small cars and compact SUVs; ~39% share"], ["Mahindra & Mahindra", 660276, 20, "SUVs only; new #2"], ["Tata Motors PV", 631387, 14, "Nexon, Punch; EV leader"], ["Hyundai", 584906, -2.3, "Creta, Venue, Exter, i20; slipped from #2 to #4"], ["Toyota Kirloskar", 366896, 19, "Hybrids, MPVs; shares models with Maruti"], ["Kia India", 289035, 13, "Hyundai group sister: Seltos, Sonet, Carens"]],
+  "src": "https://www.autocarpro.in/news/hyundai-slips-to-no-4-as-mahindra-and-tata-motors-both-overtake-it-in-fy26-domestic-pv-sales-131913",
+  "published": "2026-04-01"
+ },
+ "peers": {
+  "set": ["MARUTI", "M&M", "BAJAJ-AUTO", "EICHERMOT", "HEROMOTOCO", "TVSMOTOR", "ASHOKLEY", "ESCORTS"],
+  "excluded": {
+   "BAJAJ-AUTO": "Earnings distorted: the Mar-2026 quarter carries ~Rs1,894 cr of other income when Bajaj took control of KTM, and KTM is consolidated from that quarter, so its trailing P/E on 30-Sep-2026 sits on an inflated TTM EPS (same treatment as in our Eicher report).",
+   "ESCORTS": "Earnings distorted: a Rs1,085 cr exceptional gain on selling the railway-equipment business (Jun-2025 quarter) depressed its trailing P/E series, and the company that remains is not the one in its history (same treatment as in our Eicher report)."
+  },
+  "notInSet": {
+   "TMPV": "Tata Motors Passenger Vehicles: listed separately only since the Oct-2025 demerger, so no five-year or full 12-month history as a PV company; its trailing P/E on 30-Sep-2026 (~1.5x) reflects one-off demerger gains. Shown in the peer table, not in the de-rating."
+  },
+  "notes": {
+   "M&M": "Standalone (Screener); the closest SUV peer.",
+   "MARUTI": "Consolidated; the closest PV peer (also pays a royalty to its Japanese parent)."
+  }
+ },
+ "street": {
+  "brokers": [
+   { "broker": "ICICI Securities (retail)", "date": "2026-07-31", "rating": "Buy", "tp": 2520, "method": "P/E", "multiple": "28x", "on": "FY28E", "eps": { "FY27E": 69.2, "FY28E": 90.0 }, "thesis": "Two launches, Pune third shift, exports and localisation; earnings recovery after a one-off Q1", "src": "https://mailcontent.icicidirect.com/mailcontent/idirect_hyundai_q1fy27.pdf" },
+   { "broker": "Nuvama", "date": "2026-07-31", "rating": "Buy", "tp": 2500, "prev": 2400, "method": "P/E", "multiple": "30x core + cash ~Rs100", "on": "FY28E", "thesis": "Seven new nameplates by FY30; revenue/EBITDA CAGR 15%/14% FY26-28E; RoIC ~38%", "src": "https://www.businesstoday.in/markets/stocks/story/hyundai-motor-shares-jump-9-brokerages-see-new-launches-driving-growth-raise-target-prices-546463-2026-07-31" },
+   { "broker": "Morgan Stanley", "date": "2026-09-03", "rating": "Overweight", "tp": 2438, "prev": 2114, "method": "n.d.", "multiple": "", "on": "", "thesis": "Margins, volumes and share near their lows; ICE SUV launches and exports can re-rate the stock", "src": "https://www.placera.se/telegram/morgan-stanley-ser-uppsida-i-hyundai-motor-india-infor-nya-suv-lanseringar-20260903" },
+   { "broker": "Motilal Oswal", "date": "2026-07-31", "rating": "Buy", "tp": 2334, "method": "P/E", "multiple": "26x", "on": "FY28E", "eps": { "FY27E": 67.9, "FY28E": 89.8 }, "epsNote": "Derived: FY28E = target / 26x; FY27E from 29.7x at the Rs2,018 reco price", "thesis": "Q1 beat on other income; H2 launches; volume CAGR ~9% and EPS CAGR ~16% FY26-28E", "src": "https://insights.dsij.in/markets/reports/report-details/hyundai-motor-india-ltd/44831" },
+   { "broker": "BOB Capital Markets", "date": "2026-07-31", "rating": "Buy", "tp": 2327, "prev": 2261, "method": "P/E", "multiple": "26x", "on": "Jun-28E", "eps": { "FY27E": 67.1, "FY28E": 85.3 }, "thesis": "Capacity ramp-up to 1.1 mn by FY28 and pricing to guard margins; FY27-28 EPS cut 7%/3%", "src": "https://www.barodaetrade.com/Reports/HyundaiMotorsIndia-Q1FY27ResultReview31Jul26-Research.pdf" },
+   { "broker": "JM Financial", "date": "2026-07-30", "rating": "Add", "tp": 2130, "prev": 1950, "method": "P/E", "multiple": "24x", "on": "FY28E", "eps": { "FY27E": 69.0, "FY28E": 88.7 }, "thesis": "Launches support volume; margins remain volatile", "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-07/17854761600.20204800.pdf" },
+   { "broker": "Nirmal Bang", "date": "2026-07-31", "rating": "Hold", "tp": 2069, "method": "P/E", "multiple": "24.5x", "on": "Jun-28E", "eps": { "FY27E": 67.0, "FY28E": 78.7 }, "thesis": "Cautious on exports (Middle East exposure); EBITDA margin 11.0%/11.4% FY27-28E", "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-07/17854760610.54723800.pdf" }
+  ],
+  "other": [
+   { "broker": "Nomura", "date": "2026-08-24", "rating": "Buy", "tp": null, "note": "Volume ~10% in FY27; EPS CAGR 26%; EBITDA margin 11.5% / 12.7% / 13.4%; target not given in the source", "src": "https://aliceblueonline.com/news/hyundai-motor-share-price-target" }
+  ],
+  "consensus": { "FY27E": 68.9, "FY28E": 86.5, "src": "BOB Capital Markets Q1FY27 note (Bloomberg consensus, 31-Jul-2026)" }
+ },
+ "ownership": {
+  "date": "2026-06-30",
+  "totalShares": 812541100,
+  "shareholders": 769187,
+  "categories": { "promoters": 82.5, "fpi": 3.28, "mutualFunds": 7.99, "insurance": 3.59, "otherDii": 0.11, "government": 0.04, "retailAndOthers": 2.53 },
+  "named": [["Hyundai Motor Company, South Korea (promoter)", 82.5]],
+  "src": "Screener.in (BSE shareholding pattern, Jun-2026 quarter); Trendlyne (mutual fund and insurance split for Jun-2026)",
+  "history": "FPIs held 7.08-7.34% through Jun/Sep-2025 and fell to 3.28% by Jun-2026; DIIs rose from 7.0% (Mar-2025) to 11.65%. Free float is only 17.5%."
+ },
+ "governance": {
+  "relatedParty": "HMC (82.5%) is also the technology licensor and a supplier. Royalty to HMC Rs1,975 cr in FY26 (2.8% of revenue; Rs1,878 cr in FY25); ~30% of FY26 purchases (Rs15,700 cr of Rs53,072 cr) came from group companies (Mobis India Rs8,733 cr, Hyundai Transys Lear Rs1,943 cr, Kia India Rs1,736 cr, HMC Rs1,479 cr, Hyundai's Indonesian plant Rs1,085 cr); HMIL sold Rs2,347 cr to Kia India and Rs1,731 cr to Hyundai Mexico. In Mar-2025 shareholders voted on seven related-party resolutions worth ~Rs31,526 cr (~40% of revenue); proxy adviser SES recommended voting against six, IiAS supported all.",
+  "relatedPartySrc": "ar26 note 37; Business Standard (9-Mar-2025)",
+  "capitalAllocation": "Paid ~Rs15,400 cr of dividends to HMC in FY24 before the IPO (derived from the fall in reserves); the IPO was a pure sale by HMC (Rs27,859 cr), so none of the money came to the company. Since listing: Rs21 a share each year (~30-31% payout) while capex steps up to Rs7,500 cr (FY27) as part of a Rs45,000 cr FY26-30 plan.",
+  "auditor": "BSR & Co. LLP (KPMG network); unqualified opinion"
+ },
+ "moat": [
+  ["Brands and products", "Moderate", "Creta has ~30% of India's mid-SUV segment (AR FY26) and is the group's anchor; Venue, Exter, i20 and Verna fill the range; SUVs 68-70% of domestic volume", "Pricing power is real in Creta but not across the range: Hyundai lost share in compact SUVs and hatchbacks to M&M, Tata and Maruti"],
+  ["Parent's technology", "Strong (but rented)", "Platforms, engines, EV and hybrid know-how from HMC (Hyundai Motor Group is the world's third-largest carmaker by passenger-vehicle sales, per the company); Rs1,975 cr royalty in FY26 (2.8% of revenue)", "Access to world-class technology without the R&D bill, at the cost of a permanent royalty and dependence on the parent's product decisions"],
+  ["Scale and cost", "Moderate", "994k capacity (Chennai 824k + Pune 170k), localisation 83% (target 90% by 2030), EBITDA margin 12-13% vs Maruti's 11-12% (FY26)", "Good cost position, but Maruti is 3x its size and M&M earns higher margins in SUVs"],
+  ["Export hub", "Strong", "India's largest cumulative PV exporter; 190,125 vehicles exported in FY26 (+16.4%); HMC sources the new Venue from India; export revenue 25.6% of FY26", "A second engine of growth that Indian rivals lack; exposed to the Middle East and to currency swings"],
+  ["Distribution and service", "Moderate", "1,519 sales and 1,679 service outlets (Jun-2026); 6 of 10 new outlets rural; rural share 25.9%", "Wide, but not unique: Maruti's network is far larger"],
+  ["Electrification", "Weak so far", "Hyundai's EV range in India is small today (Creta Electric); the first localised mass-market EV arrives in H2FY27; Tata and M&M lead EVs", "An option, not yet an advantage"]
+ ],
+ "critiques": [
+  ["Hyundai has lost domestic share for three years (14.6% in FY24, 12.6% in FY26) and slipped from #2 to #4 behind M&M and Tata; one launch a year is not enough in an SUV market where rivals launch several", "Autocar Pro (1-Apr-2026); Morgan Stanley (Sep-2026: share near its low)"],
+  ["Exports depend heavily on the Middle East; the West Asia conflict cut Q1 exports 20% and August 31%: 'we remain cautious on the export outlook'", "Nirmal Bang (Hold), 31-Jul-2026"],
+  ["Margins are volatile and under pressure from commodities (precious metals, copper), Pune ramp-up costs and the growth push", "JM Financial, BOB Caps, Morgan Stanley (Apr-2026 target cut on cost pressure)"],
+  ["The parent extracts value through royalty and parts purchases; the related-party approvals sought in 2025 equalled ~40% of revenue", "SES (proxy adviser) via Business Standard, Mar-2025"],
+  ["Earnings will fall again in FY27 before they recover: FY26 EPS Rs66.85 was below FY24's Rs74.58, and Q1FY27 PAT fell 35%", "GAM Research; brokers' FY27E EPS of Rs67-69 imply ~flat earnings"],
+  ["Capex is stepping up to Rs7,500 cr+ a year (Rs45,000 cr plan for FY26-30), so free cash flow will be thin for two to three years", "GAM Research from the Q4FY26 call and AR FY26"]
+ ],
+ "gaps": [
+  "Named holders other than HMC at 30-Jun-2026 (the filing names holders above 1%; we could not retrieve it; aggregator pages show only later quarters).",
+  "Royalty agreement terms (rate base, cap, duration); only the rupee amounts are disclosed in the annual report.",
+  "Volume, revenue and margin split between domestic and exports (only vehicle revenue by market is disclosed).",
+  "Bayon and the compact EV: prices, launch dates and target volumes (the Bayon launch date was not announced by 30-Sep-2026).",
+  "Capex by year for FY28-30 within the Rs45,000 cr FY26-30 plan; the split of Pune Phase 2 cost.",
+  "FY21 and earlier volumes on the company basis (the annual report shows five years: FY22-FY26).",
+  "Q2FY25 volumes (derived as FY25 less the other three quarters).",
+  "Nuvama's and Morgan Stanley's EPS estimates; Morgan Stanley's valuation method; Nomura's target price.",
+  "A post-results consensus from a database dated before 30-Sep-2026 (we use the Bloomberg consensus quoted by BOB Caps on 31-Jul-2026).",
+  "Aug-2025 exports (16,500 is a rounded media figure).",
+  "Why parts revenue fell 21% in FY26 (Rs3,392 cr vs Rs4,306 cr)."
+ ],
+ "conflicts": [
+  ["FY26 domestic market share", "12.6% (HMIL 584,906 / SIAM 4,643,439; ICICI Direct 12.6%)", "~12.3% (MD on the Q1 call; one analysis 12.29% on a wider industry total)", "We use the SIAM-based 12.6% for the history and quote management's 12.3% where they speak"],
+  ["Tata Motors FY26 domestic PV volume", "631,387 (Autocar Pro, 1-Apr-2026)", "651,261 (another Autocar Pro FY26 table)", "Either way Tata is ahead of Hyundai; we show 631,387"],
+  ["Morgan Stanley target", "Rs2,114 (Apr-2026, cut from Rs2,565)", "Rs2,438 (3-Sep-2026)", "We use the later Rs2,438"],
+  ["FY26 EBITDA margin", "12.15% (company, excluding other income)", "12.1% (Screener: Rs8,561 cr on Rs70,763 cr)", "Same thing, rounding; the model uses Screener"],
+  ["FY26 other income", "Rs949 cr (AR note 30)", "Rs986 cr (Screener, incl. Rs4 cr exceptional and classification)", "We build forecasts from the AR components"],
+  ["FY26 volume", "775,031 (company)", "788,055 (Nirmal Bang table)", "We use the company figure"]
+ ]
+}
