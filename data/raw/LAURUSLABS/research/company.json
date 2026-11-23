@@ -1,0 +1,140 @@
+{
+ "_meta": {
+  "asOf": "2026-09-30",
+  "basis": "Consolidated (Laurus Labs Ltd + Laurus Synthesis (100%), Laurus Bio (78.34%), Sriam Labs, overseas generics subsidiaries; associates ImmunoACT 34.89%, Ethan Energy 26%, Kurnool Renewables 26%; joint venture KRKA Pharma 49%). Screener consolidated; Net Profit patched to profit attributable to owners (tools/authoring/LAURUSLABS.patch.js).",
+  "sources": {
+   "ar26": { "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/18ee28e4-bc0d-4763-aa31-a381a4e120fd.pdf", "published": "2026-06-08", "what": "Integrated Annual Report FY2025-26 with AGM notice (AGM 2-Jul-2026)" },
+   "q4fy26ppt": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ee50d06-7f2d-4b47-b1f6-0e0334ba2886.pdf", "published": "2026-04-30", "what": "Q4FY26 results presentation" },
+   "q4fy26": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d12ab627-2b3d-4940-85ec-b46d30fb9f3d.pdf", "published": "2026-05-05", "what": "Q4FY26 earnings-call transcript (call held 30-Apr-2026)" },
+   "q3fy26": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=733ba0ea-bb83-4bac-b624-0414a23de9e9.pdf", "published": "2026-01-28", "what": "Q3FY26 earnings-call transcript (call held 23-Jan-2026)" },
+   "q1fy27ppt": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77667f33-e7ac-4d89-9b67-da44963ef2d0.pdf", "published": "2026-07-24", "what": "Q1FY27 results presentation" },
+   "q1fy27": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4a19b33-9fe2-4bd0-a9a5-6e92fce415d9.pdf", "published": "2026-07-30", "what": "Q1FY27 earnings-call transcript (call held 24-Jul-2026)" },
+   "sep26ppt": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0902c622-2b24-4754-9131-a5c73d7020d4.pdf", "published": "2026-09-18", "what": "Investor presentation, September 2026 (incl. 'Guiding >30% [EBITDA margin] from FY27+')" },
+   "care": { "src": "https://www.careratings.com/upload/CompanyFiles/PR/202607130740_Laurus_Labs_Limited.pdf", "published": "2026-07-03", "what": "CARE Ratings press release: CARE AA; Stable / CARE A1+ reaffirmed" },
+   "shp": { "src": "https://www.lauruslabs.com/Investors/PDF/Q4/SHP_Q4_FY_26.pdf", "published": "2026-04", "what": "Shareholding pattern, Mar-2026 quarter" },
+   "gilead": { "src": "https://www.gilead.com/news/news-details/2024/gilead-signs-royalty-free-voluntary-licensing-agreements-with-six-generic-manufacturers-to-increase-access-to-lenacapavir-for-hiv-prevention-in-high-incidence-resource-limited-countries", "published": "2024-10-02", "what": "Gilead lenacapavir voluntary licences to six generic makers (Laurus not among them)" }
+  }
+ },
+ "profile": {
+  "founded": 2005,
+  "founder": "Dr. Satyanarayana Chava (Founder, Executive Director & CEO); promoter through NSN Holdings (22.99%)",
+  "hq": "Hyderabad; manufacturing mainly at Visakhapatnam (Vizag), Andhra Pradesh",
+  "listed": "IPO December 2016 (BSE 540222, NSE LAURUSLABS); face value Rs2",
+  "employees": 8126, "scientists": 1540,
+  "sites": "15 manufacturing sites (7 USFDA-approved) and 6 R&D centres in Vizag, Hyderabad, Bangalore and Mumbai (Mumbai through associate ImmunoACT)",
+  "capacity": { "apiReactorKL_FY26": 8200, "apiReactorKL_Sep26": 8800, "fdfUnitsBn": 12, "fermentationKL": 240, "fermentationAddKL": 400 },
+  "divisions": [
+   { "name": "CDMO - small molecules", "what": "Contract development and manufacturing of patented (innovator) intermediates and APIs for human health, animal health and crop science; Laurus Labs (standalone) and Laurus Synthesis (animal health/crop, Rs491 cr FY26 turnover)", "fy26": 1896 },
+   { "name": "CDMO - Bio (Laurus Bio)", "what": "Precision fermentation, enzymes/biocatalysis, animal-origin-free cell-culture ingredients, alternate proteins; acquired Jan-2021 as Richcore Lifesciences (~Rs50 cr revenue then); FY26 turnover Rs200 cr, PAT Rs6.7 cr; Laurus holds 78.34%", "fy26": 184 },
+   { "name": "Affordable Medicines - API", "what": "Generic APIs: anti-retrovirals (ARV, ~2/3 of ARV sales), oncology, cardiovascular, diabetes, gastro; long-term CMO supplies", "fy26": 2746 },
+   { "name": "Affordable Medicines - FDF", "what": "Own formulations: ARV tablets (TLD and others) for global health tenders, non-ARV generics in the US/EU/Canada/RoW; integrated CMO contracts; 12 bn units capacity", "fy26": 1987 }
+  ],
+  "advancedBiologics": "Gene therapy / ADC process-development lab (Hyderabad, Dec-2025) and a >65,000 sq ft cGMP facility under construction (investment >Rs200 cr; qualification mid/end-2027); 34.89% associate ImmunoACT (CAR-T NexCAR19, >660 infusions to Jun-2026; second plant +2,500 treatments a year from Mar-2026); two pre-clinical ADC assets in-licensed from Aarvik Therapeutics for India (Jul-2026; USD2 mn equity investment)",
+  "src": "ar26 (AOC-1, notes 11, 17, 32); q4fy26ppt; q1fy27ppt; sep26ppt; care"
+ },
+ "fy26": { "revenue": 6813, "cdmoSM": 1896, "bio": 184, "api": 2746, "fdf": 1987, "arv": 2807, "grossMarginPct": 60.4, "ebitdaCompany": 1826, "ebitdaCompanyPct": 26.8, "ebitdaScreener": 1785, "otherIncome": 48.38, "financeIncome": 6.57, "financeCost": 170.73, "dep": 480.05, "pbt": 1181.88, "tax": 292.03, "patTotal": 890.14, "patOwners": 888.79, "nci": 1.35, "eps": 16.47, "dps": 2.0, "capex": 1070, "cfo": 1624, "netDebt": 2285, "netDebtToEbitda": 1.25, "roce": 17.7, "rdPct": 4.1, "rd": 282, "exportsCr": 4569, "domesticCr": 2244, "customersAbove10pct": 0, "src": "ar26 (consolidated P&L, notes 17, 18, 23, 25); q4fy26ppt; q4fy26 (CFO)" },
+ "q1fy27": { "revenue": 2026, "revenuePrior": 1570, "cdmoSM": 835, "cdmoSMPrior": 493, "bio": 35, "bioPrior": 29, "api": 654, "apiPrior": 637, "fdf": 502, "fdfPrior": 411, "arv": 669, "arvApi": 415, "arvFdf": 254, "grossMarginPct": 62.7, "grossMarginPriorPct": 59.4, "ebitdaCompany": 644, "ebitdaCompanyPct": 31.8, "ebitdaScreener": 638, "ebitdaScreenerPct": 31.5, "pat": 368, "patPrior": 163, "eps": 6.8, "capex": 394, "netDebt": 2656, "netDebtToEbitda": 1.28, "rdCr": 118, "rdPct": 5.8, "rdCapexAdvBio": 35, "forexGain": 5, "cdmoCommercialPct": 55, "cdmoCommercialPctFY26": 50, "customerAdvances": 0, "roceTtm": 19, "audits": 24, "src": "q1fy27ppt; q1fy27 (CFO, CEO, Head CDMO, ED Generics)" },
+ "otherIncomeNote": {
+  "_note": "Consolidated note 18 (other income) and note 23A (finance income) of AR FY26. Laurus shows finance income separately; Screener's 'other income normal' (Rs55 cr FY26, Rs18 cr FY25) = note 18 + note 23A less profit/loss on sale of PPE, which Screener moves to exceptional items (FY25 +Rs57 cr land sale to the KRKA JV; FY26 -Rs7 cr loss on sale of PPE in other expenses).",
+  "FY25": { "forex": 2.86, "ppeGain": 57.05, "misc": 0.02, "writeBacks": 0, "interest": 15.17, "total": 75.10 },
+  "FY26": { "forex": 30.72, "ppeGain": 0, "misc": 15.94, "writeBacks": 1.72, "interest": 6.57, "total": 54.95 },
+  "quarterly": { "Q2FY26": 26.96, "Q3FY26": 5.76, "Q4FY26": 11.80, "Q1FY27": 9.18, "Q1FY27forex": 5 },
+  "src": "ar26 notes 18 and 23A; Screener quarterly 'other income normal'; q1fy27 (CFO: forex gain Rs5 cr)"
+ },
+ "segmentsHistory": {
+  "_note": "Divisional revenue FY20-FY26 read from the company's Sep-2026 investor presentation (CDMO small-molecule and Affordable Medicines charts) and reconciled to reported revenue; Bio = revenue - small molecules - Affordable Medicines (GAM). FY21 small-molecule label not legible in the chart; CDMO (small molecules + Bio) = Rs528 cr by difference. FY23 small molecules include a large one-off purchase order (company: 'execution of large purchase order').",
+  "rows": [
+   { "fy": "FY20", "revenue": 2832, "cdmoSM": 384, "bio": 0, "api": 1623, "fdf": 825 },
+   { "fy": "FY21", "revenue": 4814, "cdmo": 528, "api": 2621, "fdf": 1664 },
+   { "fy": "FY22", "revenue": 4936, "cdmoSM": 917, "bio": 100, "api": 2039, "fdf": 1880 },
+   { "fy": "FY23", "revenue": 6041, "cdmoSM": 2167, "bio": 125, "api": 2609, "fdf": 1140 },
+   { "fy": "FY24", "revenue": 5041, "cdmoSM": 922, "bio": 160, "api": 2545, "fdf": 1414 },
+   { "fy": "FY25", "revenue": 5554, "cdmoSM": 1374, "bio": 160, "api": 2438, "fdf": 1582 },
+   { "fy": "FY26", "revenue": 6813, "cdmoSM": 1896, "bio": 184, "api": 2746, "fdf": 1987 }
+  ],
+  "arv": { "FY20": 1763, "FY21": 3296, "FY22": 2883, "FY23": 2251, "FY24": 2506, "FY25": 2559, "FY26": 2807, "_note": "Read from the Q4FY26 presentation ARV chart; FY23/FY24 order inferred from the FDF fall in FY23 (GAM reading); FY20, FY25, FY26 confirmed by text and tables" },
+  "src": "sep26ppt pp.12-14; q4fy26ppt pp.15, 26"
+ },
+ "cdmo": {
+  "activeProjects": 125, "activeProjectsFY23": 90, "commercialAPIsLast18m": 3,
+  "items": [
+   { "date": "2026-04-30", "what": "Three NCE APIs delivered commercially in the last 18 months, early in their patent lives; customers gave multi-year forecasts; no destocking seen", "src": "q4fy26" },
+   { "date": "2026-07-24", "what": "Q1FY27 small-molecule CDMO Rs835 cr (+69%): 55% commercial supplies (50% in FY26), rest mostly Phase III supplies; one customer's product received global approval and offtake is scaling up", "src": "q1fy27; MOSL 24-Jul-2026" },
+   { "date": "2026-07-24", "what": "Head CDMO: Q1 run-rate can be maintained 'plus/minus Rs100 crores'; molecules generating Rs200 cr+ exist; no customer, product or therapy concentration; all CDMO revenue is on-patent innovator work (off-patent contract work is booked as CMO in Affordable Medicines)", "src": "q1fy27" },
+   { "date": "2026-07-24", "what": "Onboarded a new big-pharma client; >125 active projects; human health, animal health and crop science", "src": "q1fy27; q1fy27ppt" },
+   { "date": "2026-07-24", "what": "Peptides: commercial-scale peptide block validation from Q2FY27; GLP-1 and non-GLP-1 programmes; no project-level disclosure", "src": "q4fy26; q1fy27" },
+   { "date": "FY26", "what": "CDMO (small molecules + Bio) Rs2,080 cr, 31% of revenue (13% six years earlier); target at least 50% of revenue by FY30", "src": "q4fy26; q1fy27" }
+  ]
+ },
+ "capex": {
+  "history": { "FY21": 689, "FY22": 877, "FY23": 990, "FY24": 678, "FY25": 641, "FY26": 1070, "Q1FY27": 394 },
+  "cumulativeFY22_26": 4300,
+  "guidance": [
+   { "date": "2026-01-23", "item": "FY26 capex about Rs1,000 cr", "src": "q3fy26" },
+   { "date": "2026-04-30", "item": "About Rs3,000 cr over FY27-FY28 (raised from Rs1,000 cr a year); 90% for mid/large-scale manufacturing", "src": "q4fy26" },
+   { "date": "2026-07-24", "item": "FY27 raised to Rs2,000 cr (Rs1,000 cr -> Rs1,500 cr -> Rs2,000 cr at the AGM); FY27-28 'Rs3,000 crores... we may do more'", "src": "q1fy27" },
+   { "date": "2026-09-18", "item": ">Rs3,000 cr cumulative capex over FY27 and FY28; >85% growth capex", "src": "sep26ppt" },
+   { "date": "2026-07-03", "item": "CARE: ~Rs3,000-3,500 cr over FY27-FY29, part debt-funded", "src": "care" }
+  ],
+  "projects": "Unit 7 greenfield large-scale API (first block ready for commercial validation by Mar-2027, four more in FY28; >2,000 KL combined); commercial peptide block (validation Q2FY27); Unit 10 and LSPL Unit 2 animal-health capacity; Laurus Bio fermentation site at Vizag (+400 KL, commissioning by Dec-2026); KRKA JV FDF site in Hyderabad (Phase I mid-2027; Rs400 cr invested, Rs400 cr more, part funded by the partner); gene therapy/ADC cGMP facility Hyderabad (>Rs200 cr); 532-acre Laurus Pharma Zone at Vizag allotted by AP government (>USD600 mn over ~8 years from end-FY27)",
+  "assetTurn": { "FY21": 1.4, "FY25": 0.8, "FY26": 0.89, "Q1FY27": 1.0, "target": ">1.0x medium term; long-term 1.1x", "src": "q4fy26 (CFO: 0.89); q1fy27 (CEO: 'almost there'); sep26ppt" },
+  "src": "Screener cash flow (fixed assets purchased); q4fy26; q1fy27; sep26ppt; care"
+ },
+ "guidance": [
+  { "date": "2026-09-18", "item": "EBITDA margin: 'Guiding >30% from FY27+' (FY26 26.8%)", "who": "Company investor presentation", "src": "sep26ppt" },
+  { "date": "2026-04-30", "item": "'Very confident on maintaining or improving this EBITDA margin [Q4FY26 ~29%] in FY27'", "who": "Dr. Satyanarayana Chava", "src": "q4fy26" },
+  { "date": "2026-07-24", "item": "Gross margin: 'we expect the similar margins we maintain for the coming quarters' (Q1 62.7%)", "who": "Dr. Satyanarayana Chava", "src": "q1fy27" },
+  { "date": "2026-04-30", "item": "ARV revenue to stay around Rs2,800 cr (Rs2,500 cr +/- Rs300 cr); its share to fall", "who": "Dr. Satyanarayana Chava", "src": "q4fy26" },
+  { "date": "2026-07-24", "item": "CDMO to be at least 50% of revenue by FY30; ROCE ~19% this year, 23-25% over time; asset turn >1.0x", "who": "Dr. Satyanarayana Chava", "src": "q1fy27" },
+  { "date": "2026-04-30", "item": "Tax rate 25-26%; gross debt may rise slightly in FY27, net debt/EBITDA similar or lower", "who": "V. V. Ravi Kumar, CFO", "src": "q4fy26" },
+  { "date": "2026-07-24", "item": "Laurus Bio + crop science ~Rs250 cr revenue; 18-24 months to judge how big; Bio ~Rs185-190 cr revenue, Rs35-40 cr EBITDA (FY26)", "who": "Dr. Satyanarayana Chava", "src": "q1fy27; q4fy26" }
+ ],
+ "regulatory": {
+  "record": "21 USFDA inspections since inception (115 site inspections by all regulators); zero product recalls in the last five years; 132 audits in FY26 and 24 in Q1FY27 without critical findings; no active USFDA warning letter or import alert at company-owned sites as of June 2026 (CARE)",
+  "lastUsfda": [ ["Kilo lab / R&D", "2024", 5], ["Unit 1", "2024", 7], ["Unit 2 (FDF)", "2023", 5], ["Unit 3", "2024", 5], ["Unit 4", "2025", 2], ["Unit 5", "2022", 1], ["Unit 6", "2018", 1] ],
+  "_lastUsfdaNote": "[site, year of last USFDA inspection (EIR received), number of USFDA inspections since inception]",
+  "fire": "December 2022 fire at a Vizag unit led to process-safety improvements; no reportable incidents FY25-FY26 (CARE)",
+  "src": "ar26 p.36-37; q1fy27ppt p.18; care"
+ },
+ "management": {
+  "board": [
+   { "name": "Dr. Ravindranath Kancherla", "role": "Chairman, Non-executive Independent Director", "since": "2017", "note": "Founder of Global Hospitals; also a director of ImmunoACT (Laurus's associate)" },
+   { "name": "Dr. Satyanarayana Chava", "role": "Founder, Executive Director & CEO", "since": "2005", "note": "FY26 pay Rs24.80 cr (salary 14.46 + bonus 10.08), 491x median employee (+89%)" },
+   { "name": "Mr. V. V. Ravi Kumar", "role": "Executive Director & CFO", "since": "2006", "note": "FY26 pay Rs6.60 cr; promoter group (Leven Holdings 1.15% + 0.19%)" },
+   { "name": "Dr. C. V. Lakshmana Rao", "role": "Executive Director (quality and regulatory)", "since": "2007", "note": "FY26 pay Rs4.56 cr; promoter group 2.65%" },
+   { "name": "Mr. Krishna Chaitanya Chava", "role": "Executive Director, Head CDMO", "since": "", "note": "Son of Dr. Satyanarayana Chava; FY26 pay Rs2.20 cr; promoter group" },
+   { "name": "Mrs. Soumya Chava", "role": "Executive Director, Generics and Commercial", "since": "2023 (ED from 25-Apr-2024)", "note": "Daughter of Dr. Satyanarayana Chava; FY26 pay Rs1.35 cr; promoter group" },
+   { "name": "Mrs. Aruna Bhinge; Dr. Rajesh Koshy Chandy; Mr. Sekar Karnam; Mr. Ramesh Subrahmanian", "role": "Independent Directors", "since": "", "note": "Commission Rs0.20-0.36 cr each" }
+  ],
+  "payFY26": { "executiveTotal": 39.51, "ceo": 24.80, "ceoRatioToMedian": 491, "ceoPayIncreasePct": 89, "medianEmployeeIncreasePct": 11 },
+  "auditor": "Deloitte Haskins & Sells LLP",
+  "promoterHolding": { "NSN Holdings (Dr. Satyanarayana Chava)": 22.99, "Dr. Satyanarayana Chava": 0.29, "Dr. C. V. Lakshmana Rao": 2.65, "Leven Holdings (V. V. Ravi Kumar)": 1.15, "V. V. Ravi Kumar": 0.19, "Others in promoter group": 0.2, "_asOf": "Mar-2026" },
+  "pledge": "4,000,000 shares pledged by individual promoters = 2.69% of promoter holding (~0.74% of the company), unchanged through Mar-2026; NSN Holdings unpledged",
+  "src": "ar26 (Annexure 4, corporate governance report, note 11.4); shp; HDFC Securities 6-Jan-2026 (pledge 2.69%)"
+ },
+ "accounting": [
+  { "item": "EBITDA definitions differ: the company's EBITDA (Rs1,826 cr FY26) includes other income (forex gains, misc income; FY25 also the Rs59 cr land-sale gain); Screener's (Rs1,785 cr) excludes other income but adds back the Rs7.5 cr loss on sale of PPE. We use Screener's basis throughout.", "src": "ar26 consolidated P&L; q4fy26ppt footnote" },
+  { "item": "FY25 one-off: Rs58.85 cr profit on sale of land at MN Park, Hyderabad to the KRKA joint venture (company: Rs0.9 EPS); Screener books Rs57 cr pre-tax / Rs39 cr after tax as exceptional.", "src": "ar26 note 18; q4fy26ppt" },
+  { "item": "Customer advances: Rs644.6 cr at Mar-26 (Rs395.2 cr Mar-25); none received in Q1FY27. They fund capacity and flatter operating cash flow.", "src": "ar26 note 17(iii); q1fy27" },
+  { "item": "Allowance for bad and doubtful advances and debts Rs80.8 cr in FY26 (Rs53.4 cr FY25), inside other expenses.", "src": "ar26 note 22" },
+  { "item": "R&D on advanced biologics partly capitalised: Q1FY27 R&D Rs118 cr included Rs35 cr of capex R&D; management says some ADC/gene-therapy spend is expensed, not capitalised.", "src": "q1fy27ppt; q3fy26" },
+  { "item": "Corporate guarantees for subsidiaries' borrowings earn guarantee commission; land and PPE pledged as security for term loans.", "src": "ar26 notes 13, 32" }
+ ],
+ "underlyingEps": { "FY19": 1.78, "FY20": 4.79, "FY21": 18.33, "FY22": 15.42, "FY23": 14.67, "FY24": 3.0, "FY25": 5.92, "FY26": 16.57, "_why": "Reported EPS less exceptional items after tax per share (Screener 'Exceptional items AT' / implied shares): FY25 -Rs39 cr (land sale gain), FY26 +Rs6 cr (loss on PPE sale), others Rs0-1 cr." },
+ "timeline": [
+  { "date": "2005", "event": "Founded by Dr. Satyanarayana Chava (promoter; CARE) as a research-driven API maker that built its name in anti-retrovirals", "impact": "ARV API leadership built over the next decade" },
+  { "date": "Dec-2016", "event": "IPO on BSE and NSE", "impact": "Equity capital ~Rs106 cr from FY17" },
+  { "date": "May-2020", "event": "Laurus Synthesis incorporated (CDMO, later animal health and crop)", "impact": "CDMO ring-fenced in a subsidiary" },
+  { "date": "FY21", "event": "ARV formulation boom (TLD tenders) and Covid demand; revenue +70% to Rs4,814 cr", "impact": "EPS Rs4.77 -> Rs18.33; EBITDA margin 32%" },
+  { "date": "Jan-2021", "event": "Acquired majority of Richcore Lifesciences (now Laurus Bio), Rs245 cr", "impact": "Entry into precision fermentation; ~Rs50 cr revenue then, Rs200 cr in FY26" },
+  { "date": "Dec-2021", "event": "Invested in ImmunoACT (CAR-T), now 34.89% associate", "impact": "Option on cell therapy; equity-accounted, small losses" },
+  { "date": "FY23", "event": "A large one-off CDMO purchase order executed; small-molecule CDMO Rs2,167 cr", "impact": "Revenue Rs6,041 cr despite ARV formulation price pressure (FDF Rs1,140 cr)" },
+  { "date": "Dec-2022", "event": "Fire at a Vizag unit", "impact": "Process-safety upgrades (CARE)" },
+  { "date": "FY24", "event": "The purchase order ended; ARV destocking; new capacity costs", "impact": "Revenue -17%, EBITDA margin 15%, EPS Rs2.98, ROCE 6%" },
+  { "date": "Apr/Oct-2024", "event": "KRKA Pharma JV (Laurus 49%, KRKA d.d. 51%); FY25 land sale to the JV for Rs90.65 cr", "impact": "Rs58.85 cr one-off gain in FY25; JV FDF plant Phase I mid-2027" },
+  { "date": "FY25-FY26", "event": "CDMO rebuild: three NCE APIs go commercial; margins recover", "impact": "EPS Rs6.64 -> Rs16.46; EBITDA margin 19% -> 26%" },
+  { "date": "Apr-2026", "event": "532-acre Vizag land allotment; capex raised to ~Rs3,000 cr over FY27-28", "impact": "Capex 16% of sales in FY26, ~24% in FY27E" },
+  { "date": "Jul-2026", "event": "Q1FY27 record: revenue Rs2,026 cr, EBITDA margin 31.5%; FY27 capex raised to Rs2,000 cr; Aarvik ADC in-licensing", "impact": "Stock from ~Rs1,600 to Rs1,980 by 30-Sep-2026" },
+  { "date": "Aug-2026", "event": "MSCI adds Laurus to its India Standard index (effective 1-Sep-2026)", "impact": "Passive inflows estimated at ~USD598 mn (Nuvama, via Reuters)" }
+ ]
+}

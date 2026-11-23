@@ -185,7 +185,9 @@ close: for short histories compute the series on all weekly closes in your ctx (
   ALKEM, IPCALAB, ABBOTINDIA. Excluded as distorted: LUPIN and GLENMARK (loss years inside the
   window), BIOCON and LAURUSLABS (one-off or boom-bust EPS; P/E above 100x inside the window),
   DRREDDY (gRevlimid windfall FY23-26, then the cliff; Q4FY26 EPS ₹2.65), MANKIND (listed May-2023,
-  no five-year median). Including all 15 gives the same medians. At 30-Sep pharma trades **above**
+  no five-year median). For the five A18 names, including all 15 gives the same medians (for names
+  outside the set the all-names median is lower, ~+5.4%; the nine-name set governs). At 30-Sep
+  pharma trades **above**
   its five-year medians, so the factor is a re-rating; apply it the same way (it works in both
   directions). Factors excluding self: SUNPHARMA +10.25%, CIPLA +7.5%, DIVISLAB / TORNTPHARM /
   ZYDUSLIFE +5.45%. A limited-competition windfall (e.g., gRevlimid) is not a one-off under §4: the

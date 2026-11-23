@@ -1,0 +1,106 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, peers, street, ownership, stock, moat, critiques, gaps and conflicts for Laurus Labs. Only sources published on or before 30-Sep-2026; later facts are in research/updates/later-facts.json." },
+ "industry": {
+  "cdmo": { "globalSmallMoleculeUsdBn2025": 85, "globalCagrPct2025_34": 7, "indiaUsdBn2025": 2, "indiaCagrPct2025_34": 14, "indiaCrdmoUsdBn2029": 15, "indiaCrdmoCagrPct2024_29": 13.4, "indiaShareNowPct": 3.8, "indiaShare2029Pct": 4.7, "outsourcingMfgPct2024": 24, "outsourcingMfgPct2029": 39, "src": "Laurus Sep-2026 investor presentation (company-cited industry estimates); HDFC Securities sector thematic 6-Jan-2026 (Frost & Sullivan, Evaluate Pharma)" },
+  "drivers": "Innovators outsource more manufacturing (24% in 2024 to 39% by 2029, HDFC Securities), China+1 and the US BIOSECURE Act push work to India, AI-designed molecules are more complex to make (Laurus Head CDMO, 30-Apr-2026), and GLP-1/peptide demand needs new capacity.",
+  "arv": { "laurusShareOfPatients": "about one-third of the global HIV population", "fy26Rs": 2807, "outlook": "Stable market supported by multilateral funding; dolutegravir use steady for the next couple of years; long-acting injectables face adherence and retention hurdles (company, Q4FY26 presentation)", "lenacapavir": "Gilead granted royalty-free licences for twice-yearly injectable lenacapavir to Dr. Reddy's, Emcure, Eva Pharma, Ferozsons, Hetero and Mylan for 120 countries (2-Oct-2024); Laurus is not a licensee", "src": "q4fy26ppt p.26; q4fy26 call; Gilead press release 2-Oct-2024" },
+  "costs": "The West Asia war (from late Feb-2026) raised solvent prices; Laurus saw 'some impact' in Q4FY26 and 'some pressure' in Q1FY27 but no supply disruption (calls of 30-Apr and 24-Jul-2026).",
+  "src": "as cited"
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": {
+   "LAURUSLABS": "Self; also boom-bust EPS (FY21-23 ARV/CDMO peak, FY24 trough) with P/E above 100x inside the window (PLAYBOOK §7c).",
+   "LUPIN": "Loss years inside the five-year window distort its median (PLAYBOOK §7c).",
+   "GLENMARK": "Loss years inside the window (PLAYBOOK §7c).",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "DRREDDY": "gRevlimid windfall FY23-26 then the cliff; Q4FY26 EPS Rs2.65 (PLAYBOOK §7c).",
+   "MANKIND": "Listed May-2023: no five-year median (PLAYBOOK §7c)."
+  },
+  "cdmo": ["DIVISLAB", "SYNGENE", "SAILIFE", "NEULANDLAB", "PPLPHARMA"],
+  "notes": "Pharma peer set set on 23-Nov-2026 (PLAYBOOK §7c). Laurus is outside the set, so its factor is the median of all nine peers: +8.2% (per-peer re-ratings rounded to 0.1pt; +8.19% unrounded). Including the five other excluded names (all 14 others) gives +5.4%, shown as a sensitivity only. The EV/EBITDA analogue for the same nine peers (trailing EV/EBITDA at the 30-Sep close vs the five-year median of Screener's 'EV Multiple') is +7.5%."
+ },
+ "street": {
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-07-24", "rating": "Buy", "tp": 1980, "prevTp": 1370, "method": "P/E", "multiple": "65x", "on": "12M fwd", "eps": { "FY27E": 22.8, "FY28E": 25.8 }, "ebitdaMargin": { "FY27E": 28.6, "FY28E": 28.6 }, "thesis": "'Blockbuster beat led by CDMO momentum'; EPS raised 21%/16%; FY27 capex Rs20bn backed by contracts; most Phase III CDMO supplies to turn commercial", "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/9cba9080_LAURUS-20260724-MOFSL-RU-PG012.pdf" },
+   { "broker": "ICICI Securities", "date": "2026-07-26", "rating": "Buy", "tp": 1890, "prevTp": null, "method": "EV/EBITDA", "multiple": "38x", "on": "FY28E", "eps": { "FY27E": 24.9, "FY28E": 27.6 }, "ebitdaMargin": { "FY27E": 29.3, "FY28E": 30.0 }, "thesis": "CDMO run-rate up from Rs220-250 cr to ~Rs800 cr a quarter in two years, broad-based unlike the earlier one-off order; premium justified by sustained capex and delivery", "src": "https://mailcontent.icicidirect.com/mailcontent/idirect_laurus_q1fy27.pdf" },
+   { "broker": "Choice Institutional Equities", "date": "2026-07-26", "rating": "Add", "tp": 1705, "prevTp": 1255, "method": "PEG (P/E)", "multiple": "1.7x PEG", "on": "FY27-29E", "eps": { "FY27E": 23.0, "FY28E": 30.0, "FY29E": 38.3 }, "ebitdaMargin": { "FY27E": 27.7, "FY28E": 28.5 }, "thesis": "CDMO revenue CAGR 43% over three years to ~50% of sales by FY30E; capex stays elevated; EPS raised 11%/18%", "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/d2616887_research-report%20(75).pdf" },
+   { "broker": "BOB Capital Markets", "date": "2026-07-27", "rating": "Hold", "tp": 1708, "prevTp": 1160, "method": "P/E", "multiple": "55x", "on": "Jun-28E", "eps": { "FY27E": 26.9, "FY28E": 30.1 }, "ebitdaMargin": { "FY27E": 32.0, "FY28E": 33.0 }, "thesis": "'All optimism baked in to valuations'; multiple raised to 55x (from 50x), in line with Divi's", "src": "https://www.barodaetrade.com/Reports/Lauruslabs-Q1FY27ResultReview27Jul26-Research.pdf" },
+   { "broker": "DRChoksey", "date": "2026-07-27", "rating": "Accumulate", "tp": 1830, "prevTp": 1705, "method": "n.d.", "multiple": null, "on": null, "thesis": "Growth momentum to continue as more late-stage CDMO molecules move to commercial manufacturing (its Oct-2025 note used 45x Sep-27E EPS)", "src": "https://trendlyne.com/research-reports/stock/4984/LAURUSLABS/laurus-labs-ltd ; https://trendlyne.com/posts/5748812/" },
+   { "broker": "InCred Equities", "date": "2026-07-24", "rating": "Add", "tp": 1990, "prevTp": 1020, "method": "n.d.", "multiple": null, "on": null, "thesis": "Upgraded from Hold; highest target on the street; EBITDA margin near 30% by FY28 (secondary summary; note not seen)", "src": "https://askfuzz.ai/discover/news/companies/laurus-labs-q1-revenue-up-29-yoy-margins-hit-31-5" },
+   { "broker": "DAM Capital", "date": "2026-07-24", "rating": "Buy", "tp": 1820, "prevTp": null, "method": "n.d.", "multiple": null, "on": null, "thesis": "CDMO the primary growth driver; higher-margin CDMO mix keeps lifting profitability (secondary summary; note not seen)", "src": "https://askfuzz.ai/discover/news/companies/laurus-labs-q1-revenue-up-29-yoy-margins-hit-31-5" },
+   { "broker": "Kotak Institutional Equities", "date": "2026-07-27", "rating": "Sell", "tp": 1125, "prevTp": 800, "method": "n.d.", "multiple": null, "on": null, "thesis": "Still sees ~33% downside after raising its target post-results (CNBC-TV18 report)", "src": "https://pro.edgex.exchange/en-US/news/article/laurus-labs-hits-record-high-after-broker-upgrades" },
+   { "broker": "Jefferies", "date": "2026-07-29", "rating": "Hold", "tp": 1700, "prevTp": 1100, "method": "n.d.", "multiple": null, "on": null, "thesis": "Maintained Hold; target raised after Q1FY27", "src": "https://stockanalysis.com/quote/nse/LAURUSLABS/forecast/" },
+   { "broker": "HDFC Securities", "date": "2026-01-06", "rating": "Reduce", "tp": 1040, "prevTp": null, "method": "EV/EBITDA", "multiple": "26x", "on": "Q3FY28E", "thesis": "Initiation: CDMO to drive growth and margins but the stock had re-rated 80%+; generic APIs muted (mature ARV); implies 51x P/E. No post-Q1 update found", "src": "https://static.hdfcsec.com/research/reports/019b9700064a7f699680df3040c797a4.pdf" },
+   { "broker": "Sharekhan (Mirae Asset)", "date": "2026-03-27", "rating": "Hold", "tp": 1101, "prevTp": 1101, "method": "P/E", "multiple": "47x", "on": "FY28E", "eps": { "FY27E": 19.6, "FY28E": 23.4 }, "thesis": "CDMO ramp-up awaited; 50% CDMO by FY30 target maintained. Pre-Q1, no later note found", "src": "https://www.sharekhan.com/MediaGalary/docs/LaurusLab-Mar27_2026-202603271902230030415.pdf" }
+  ],
+  "consensus": [
+   { "date": "2026-05-04", "what": "LSEG (via Reuters on Zerodha): 13 analysts, average rating 'hold', median target Rs1,045", "src": "https://www.zerodha.com/markets/stocks/NSE/LAURUSLABS/" },
+   { "date": "2026-07-24", "what": "Tracker cited by AskFuzz: 19 analysts, 11 Buy / 4 Hold / 4 Sell, average 12-month target Rs1,630", "src": "https://askfuzz.ai/discover/news/companies/laurus-labs-q1-revenue-up-29-yoy-margins-hit-31-5" }
+  ],
+  "methodCount": "Disclosed methods among notes standing on 30-Sep-2026: P/E 4 (Motilal Oswal, BOBCAPS, Choice via PEG, Sharekhan), EV/EBITDA 2 (ICICI Securities, HDFC Securities). Not disclosed: DRChoksey, InCred, DAM, Kotak, Jefferies."
+ },
+ "ownership": {
+  "date": "Jun-2026", "totalShares": 539856582, "shareholders": 291653,
+  "categories": { "Promoters": 27.47, "FIIs": 28.0, "DIIs": 13.73, "Public": 30.79, "of which mutual funds (Mar-2026)": 11.22 },
+  "named": [
+   { "holder": "NSN Holdings (Dr. Satyanarayana Chava, promoter)", "pct": 22.99, "asOf": "Mar-26" },
+   { "holder": "New World Fund Inc (FPI)", "pct": 4.77, "asOf": "Mar-26 (6.50% at Mar-25)" },
+   { "holder": "Dr. C. V. Lakshmana Rao (promoter group, Executive Director)", "pct": 2.65, "asOf": "Mar-26" },
+   { "holder": "Leven Holdings (V. V. Ravi Kumar, promoter group, CFO)", "pct": 1.15, "asOf": "Mar-26 (1.24% at Mar-25)" },
+   { "holder": "Dr. Satyanarayana Chava (direct)", "pct": 0.29, "asOf": "Mar-26" },
+   { "holder": "A promoter-group trust", "pct": 0.63, "asOf": "Mar-26 (shown under public, non-institutions)" }
+  ],
+  "pledged": "4.0 mn shares (2.69% of promoter holding, ~0.74% of equity) pledged by individual promoters, unchanged through Mar-2026",
+  "src": "Screener shareholding (BSE, Jun-2026); AR FY26 note 11.3-11.4 (Mar-2026); SHP Q4FY26"
+ },
+ "stock": {
+  "closes": { "2021-08-13": 707.25, "2023-03-31": 292.95, "2025-03-28": 613.4, "2026-03-27": 1008.8, "2026-06-25": 1450, "2026-07-24": 1601.2, "2026-07-31": 1816.2, "2026-08-28": 1938.5, "2026-09-25": 2007, "2026-09-30": 1980 },
+  "events": [
+   { "date": "2026-07-21", "event": "Shares gain on hopes of MSCI Standard index inclusion (Reuters)" },
+   { "date": "2026-07-24", "event": "Q1FY27 results; intraday record Rs1,603; up ~62% in FY27 to date (Angel One)" },
+   { "date": "2026-07-27", "event": "Record high after broker upgrades; Kotak keeps Sell (CNBC-TV18)" },
+   { "date": "2026-08-13", "event": "MSCI confirms inclusion in its Global Standard (India) index effective 1-Sep-2026; Nuvama estimates ~USD598 mn of passive inflows (Reuters)" },
+   { "date": "2026-09-25", "event": "Weekly close Rs2,007, the high before the as-of date; 30-Sep close Rs1,980, ~96% above the end-Mar-2026 level" }
+  ],
+  "src": "Screener weekly prices; NSE close file; Reuters via Zerodha; Angel One; CNBC-TV18 via EdgeX"
+ },
+ "moat": [
+  { "factor": "ARV scale and cost", "score": "Strong", "evidence": "Supplies ARV APIs/formulations for about one-third of the world's HIV patients; ~Rs2,800 cr of ARV revenue at full utilisation; backward integration from intermediates" },
+  { "factor": "Chemistry, scale-up and multi-site capacity", "score": "Strong", "evidence": "8,800 KL of reactors on fungible standard designs; validation at commercial scale on the same equipment train; three NCE APIs commercialised in 18 months; flow chemistry, biocatalysis, high-potency" },
+  { "factor": "Regulatory record", "score": "Strong", "evidence": "21 USFDA inspections since inception, EIRs at all key sites, no active warning letter or import alert (CARE, Jun-2026); zero recalls in five years; 132 audits in FY26 without critical findings" },
+  { "factor": "Innovator relationships", "score": "Moderate", "evidence": ">125 active projects, a new big-pharma client in Q1FY27; but customers, molecules and contract sizes are undisclosed and the FY23 order shows how fast CDMO revenue can vanish" },
+  { "factor": "Switching costs", "score": "Moderate", "evidence": "Once Laurus is filed in a customer's dossier, a change needs re-validation and regulatory approval, but only for the life of each molecule" },
+  { "factor": "Pricing power", "score": "Weak", "evidence": "ARV tenders and generic APIs are price-led with Chinese and Indian rivals; Laurus is not a lenacapavir licensee" },
+  { "factor": "New modalities (Bio, peptides, CGT, ADC)", "score": "Unproven", "evidence": "Bio ~Rs200 cr revenue and Rs7 cr profit; CAR-T via a 35% associate; ADC assets pre-clinical; management: returns 4-5 years away" }
+ ],
+ "critiques": [
+  ["The price already pays for the plan: ~66x our Sep-28E EPS and ~72x FY28E against a ~36x own forward median since 2021; BOBCAPS calls it 'all optimism baked in'", "BOBCAPS (Hold, 27-Jul-2026), Kotak (Sell, Rs1,125), HDFC Securities (Reduce, Jan-2026)"],
+  ["CDMO revenue is lumpy: the FY23 purchase order lifted small-molecule CDMO to Rs2,167 cr before it fell to Rs922 cr in FY24; 45% of Q1FY27 CDMO revenue was Phase III/launch supplies that can pause once customers stock up", "CARE (inherent volatility), MOSL and analysts on the Q1FY27 call"],
+  ["Capex runs ahead of cash: Rs2,000 cr in FY27 (~24% of sales) after Rs4,300 cr in FY22-26; asset turn ~0.9x; free cash flow turns negative in FY27E and debt rises", "CARE, HDFC Securities, Q1FY27 call (capex questions)"],
+  ["ARV is mature and exposed to donor funding and to long-acting injectables; Laurus is not among Gilead's six lenacapavir licensees", "HDFC Securities ('mature ARV portfolio'), Gilead (Oct-2024)"],
+  ["Advanced biologics (gene therapy, ADCs, CAR-T) and Laurus Bio consume capital and R&D (5.8% of sales in Q1FY27) with returns 4-5 years away by management's own account", "Q1FY27 call (CEO, CFO)"],
+  ["Disclosure is thin: no customers, molecules, phase-wise pipeline or segment margins; constant-currency growth was not clarified on the Q1 call", "Calls of 30-Apr and 24-Jul-2026"],
+  ["Much of FY26-27 margin expansion came from gross margin (raw-material softening, mix); operating leverage is only starting while new plants add fixed costs", "Analysts on the Q4FY26 call; Choice, BOBCAPS"]
+ ],
+ "gaps": [
+  "Customers, molecules, contract values and the phase split of the >125 CDMO projects are confidential; we model CDMO only as a revenue line.",
+  "FY21 small-molecule CDMO revenue is not legible in the company chart (CDMO incl. Bio Rs528 cr by difference); FY22-24 Bio revenue is derived by difference; the FY23/FY24 ARV split is our reading of the company chart.",
+  "Q1-Q3FY25 API, FDF and Bio revenue are back-calculated from MOSL's FY26 growth rates and reconcile to the FY25 totals; they are not company-tabled figures.",
+  "Valuation methods not found for DRChoksey (Jul-2026), InCred, DAM Capital, Kotak and Jefferies; InCred and DAM targets come from a secondary summary (AskFuzz, 24-Jul-2026), not the notes. No post-Q1 note found for HDFC Securities or Sharekhan; their pre-Q1 calls are shown as standing.",
+  "No Goldman Sachs, JPMorgan, Morgan Stanley, Citi, Nomura, Nuvama or Axis note dated on or before 30-Sep-2026 was found (Nuvama initiated in Oct-2026: later-facts.json).",
+  "The BOBCAPS Q1FY27 PDF was refused to a direct download (site firewall); it was read through the standard WebFetch tool, with no headers changed. Flagged for the reviewer.",
+  "Jun-2026 named holders (>1%) and pledge status were not retrieved; Mar-2026 figures are used.",
+  "Peptide capacity, Unit 7 block sizes, capex by project and capacity utilisation by site are not disclosed.",
+  "Constant-currency growth for Q1FY27 was not clarified (CFO said ~2%, then referred it to IR).",
+  "Laurus Bio's Q1FY27 loss implied by the minority line (Rs6 cr) is not separately disclosed."
+ ],
+ "conflicts": [
+  ["EBITDA definition", "Company EBITDA Rs1,826 cr in FY26 (Rs644 cr in Q1FY27) includes other income; Screener's operating profit Rs1,785 cr (Rs638 cr) excludes it and adds back the Rs7.5 cr loss on sale of PPE. We use Screener's basis; the company's '>30% from FY27+' guidance is on its own basis, ~0.3-0.7pt higher."],
+  ["FY25 land-sale gain", "Company: Rs59 cr, Rs0.9 EPS; AR note 18: Rs58.85 cr; Screener: Rs57 cr pre-tax / Rs39 cr after tax (Rs0.72 a share). We use Screener's schedule for EPS before exceptional items, consistently across years."],
+  ["FY26 exceptional items", "The AR has no exceptional line; Screener shows -Rs7 cr (loss on sale of PPE); MOSL shows Rs21 cr of extraordinary items in Q3-Q4FY26 (likely incl. the Labour Codes gratuity charge). We use Screener's -Rs7 cr; it changes FY26 EPS by Rs0.11."],
+  ["Capex guidance", "CARE (3-Jul-2026): ~Rs3,000-3,500 cr over FY27-29 (Rs1,000-1,500 cr a year). Company (24-Jul and 18-Sep-2026): Rs2,000 cr in FY27 and >Rs3,000 cr over FY27-28. We follow the later company figures."],
+  ["Q1FY27 profit", "Rs368 cr attributable to owners (company, EPS Rs6.8) vs Rs362 cr total profit (Screener 'Net Profit'); patched to the attributable figure."],
+  ["Q1FY27 CDMO share", "Company presentation: CDMO 43% of revenue (incl. Bio); brokers quote 41% (small molecules only). Both are right on their definitions."]
+ ]
+}

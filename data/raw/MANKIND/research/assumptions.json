@@ -1,0 +1,174 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Mankind Pharma (consolidated, ₹ crore), as of 30-Sep-2026 on Q1FY27 results. Bharat Serums and Vaccines (BSV) has been consolidated since 23-Oct-2024, so the base year FY26 already holds a full year of BSV revenue, EBITDA, purchase-price amortisation (~₹450 cr a year on ₹8,253 cr of acquired intangibles, not tax-deductible; a deferred-tax credit offsets it in book tax) and acquisition interest. One reportable segment (pharmaceuticals), so the engine runs on a single revenue-growth path; the business-line build (domestic prescription business incl. BSV India, consumer healthcare, exports incl. BSV international) sits in `businessLines` and the authoring script checks it sums to model revenue. Net Profit is the attributable figure (MANKIND.patch.js). Valued on P/E on Sep-28E EPS (the street's majority method: Motilal Oswal, Geojit, HDFC Securities), on EPS before the BSV amortisation so the forecast matches the basis of the multiple's history (see MANKIND.ctx.js); EV/EBITDA (JM Financial's method) and a DCF are cross-checks.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  12.05,
+  11.35,
+  10.81
+ ],
+ "_revenueWhy": "Sum of the business-line build below on FY26 revenue of ₹14,278 cr. FY27E ₹15,999 cr (+12.1%): domestic prescription business (ex-consumer) +11% (Q1FY27 +11.0%: chronic +15.8%, acute +10.9%, BSV domestic +17%; management 'double-digit' for FY27; IQVIA secondary +12.7% vs IPM +13.0%), consumer healthcare +7% (Q1 +3.9% after the cash-and-carry channel was shut; guided 'high single digit to double digit' from Q2), exports +20% (Q1 +29%, of which 12-13pp currency; 'high teens' constant-currency guidance for both Mankind and BSV international; the rupee was ~₹95-96 to the dollar in Jul-2026). FY28-29E: domestic +11% / +10.5% (in line with an IPM growing ~10%, chronic share rising toward 50% over 4-5 years), consumer +9% a year, exports +14% / +13% as the currency tailwind fades.",
+ "businessLines": {
+  "_why": "FY26 by line from the Q4FY26 investor presentation: domestic business ex-consumer healthcare ₹11,338 cr (incl. BSV's India business, ~half of BSV), consumer healthcare ₹879 cr, exports ₹2,061 cr (Mankind exports incl. 48 US products plus BSV international). Growth rates are explained in _revenueWhy.",
+  "base": {
+   "domesticRx": 11338,
+   "consumer": 879,
+   "exports": 2061
+  },
+  "growth": {
+   "domesticRx": [
+    11,
+    11,
+    10.5
+   ],
+   "consumer": [
+    7,
+    9,
+    9
+   ],
+   "exports": [
+    20,
+    14,
+    13
+   ]
+  }
+ },
+ "ebitdaMargin": [
+  26,
+  26.5,
+  26.8
+ ],
+ "_marginWhy": "Screener basis (revenue less operating costs, before exceptional items): FY26 25.4% (company adjusted EBITDA 25.4%, reported 24.5% after the ₹130 cr labour-code and other one-off charges), Q1FY27 26.2%. FY27E 26.0% = the middle of management's 25.5-26.5% guidance, reiterated on 30-Jul-2026 even as gross margin is expected to compress from Q2 (West Asia crisis lifting raw-material and freight costs, a weaker rupee); Q1's 72.8% gross margin was helped by low-cost inventory and a weak base. FY28-29E +50bp / +30bp from chronic mix (40% of domestic sales, rising ~1pp a year), BSV's specialty brands growing faster than the base, and employee cost held near 22% of sales (management's stated range). R&D stays at 2.8-3% of sales. Each 1pp of margin is ~₹178 cr of FY28E EBITDA (~₹3.2 of EPS).",
+ "capex": [
+  1040,
+  1050,
+  1000
+ ],
+ "_capexWhy": "Guided at 6-7% of FY27 revenue (Q4FY26 call) as Mankind builds a biotech facility in Vadodara (board approved up to ₹500 cr of investment in Mankind Medicare for it); FY26 ₹737 cr (5.2%), Q1FY27 ₹198 cr. FY27E ₹1,040 cr (6.5%), then ₹1,050 cr and ₹1,000 cr (~5.9% and ~5.1%) as the Vadodara spend peaks and fades. No acquisitions assumed; Rivotril (Roche's clonazepam brand, ~₹20-30 cr of sales) was bought in Q4FY26.",
+ "depRateOnGrossBlock": 4.25,
+ "_depWhy": "FY26 D&A ₹886 cr = 4.19% of average gross block (₹21,147 cr incl. ₹16,126 cr of intangibles, of which ₹8,253 cr are BSV's acquired brands and relationships). Q1FY27 ₹226 cr (₹904 cr annualised), of which roughly half is BSV acquisition amortisation (CFO, Q1FY27 call). 4.25% gives ₹931 / 975 / 1,018 cr. CWIP (₹655 cr plus ₹473 cr of intangibles under development) is held flat by the engine.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Set to zero because the engine applies the yield to net cash, which is negative until FY29E (net debt ₹3,932 cr at Mar-26, ₹3,377 cr at Jun-26). Treasury income on the gross cash and liquid-fund balance is built in otherIncome instead.",
+ "otherIncome": [
+  227,
+  198,
+  280
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (AR FY26 note 30; checked in MANKIND.ctx.js). (1) Treasury income: FY26 interest ₹58 cr + mutual-fund gains ₹127 cr (₹64 cr unrealised) = ₹185 cr on ~₹2,500 cr of average cash, deposits and liquid funds (~7.4%). We apply 6.25% to average gross cash on our path: ₹2,272 cr at Mar-26 (company), ~₹1,560 cr at Mar-27 after repaying ₹2,500 cr of NCDs, ~₹1,320 cr at Mar-28 after the last ₹2,500 cr, ~₹4,190 cr at Mar-29 = ₹120 / 90 / 172 cr. (2) Government grants and export incentives ₹60 cr (FY26 ₹61 cr, FY25 ₹88 cr). (3) Scrap, liabilities written back, insurance and miscellaneous ₹35 cr (FY26 ₹42 cr). (4) Share of associates ₹12 cr (FY26 ₹11.7 cr; Screener counts it in other income). Not forecast: foreign-exchange gains (FY26 ₹70 cr, FY25 ₹20 cr). Excluded as one-offs: exceptional items (FY26 −₹130 cr) and the FY25 ₹164 cr gain on selling Mahananda Spa & Resorts. Total ₹227 / 198 / 280 cr vs FY26 ₹370 cr before exceptional items, ₹336 cr in the twelve months to Jun-26 and ₹49 cr in Q1FY27 (lower cash after the Apr-2026 NCD repayment).",
+ "interest": [
+  368,
+  235,
+  110
+ ],
+ "_interestLabel": "Interest on borrowings (₹5,000 cr acquisition NCDs at 7.97-7.99%, working-capital lines, related-party loans) and leases",
+ "_interestWhy": "Built from the debt schedule (AR FY26 note 22; checked in MANKIND.ctx.js). NCDs: ₹1,250 cr at 7.99% repaid 16-Apr-2026 (15 days in FY27), ₹1,250 cr at 7.99% due 16-Oct-2026 (198 days), ₹2,500 cr at 7.97% due 16-Nov-2027 (full FY27, 229 days of FY28) = ₹258 / 125 / 0 cr; plus 7.5% on ₹1,204 cr of other borrowings (working-capital loans ₹639 cr, related-party loans ₹339 cr, term loans and accrued interest; held flat) = ₹90 cr; leases ~₹10 cr; other finance costs ~₹10 cr. Total ₹368 / 235 / 110 cr. Q1FY27 actual ₹110 cr (₹142 cr in Q4FY26) after the Apr-2026 repayment; FY26 ₹639 cr. We assume the NCDs are repaid from cash, not refinanced (management: acquisition debt repaid by FY28).",
+ "taxRate": [
+  25.3,
+  25.2,
+  25.2
+ ],
+ "_taxWhy": "Q1FY27 25.4% (25.5% per brokers): Mankind moved to the new tax regime (25.17%) in FY27 after the income-tax exemption on its Sikkim plant expired; FY26 was 16.9% and FY25 20.3%. The BSV amortisation is not tax-deductible, but the deferred tax liability created on the acquisition (₹1,800 cr) unwinds at 25.17% of it, so book tax stays near the statutory rate. This is the single biggest drag on FY27E EPS growth (~₹4.5 a share vs FY26's rate).",
+ "payout": [
+  3,
+  3,
+  3
+ ],
+ "_payoutWhy": "Mankind paid its first dividend in FY26: an interim ₹1 a share (₹41.27 cr, 2.2% of profit). Cash goes first to repaying the acquisition NCDs (₹1,250 cr in Apr-2026, ₹1,250 cr in Oct-2026, ₹2,500 cr in Nov-2027). We assume a 3% payout (₹1.7-2.4 a share).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.8,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 27,
+  "fadeCapexPctTo": 4.5,
+  "depPctOfSales": 3,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity: 6.5% + 0.8 x 6% = 11.3%. Net debt is ~3% of capital (₹3,377 cr at Jun-26 against a ~₹1.03 lakh cr market value) and falls to nil by FY28, so WACC ≈ cost of equity; beta 0.8 for a defensive, domestic-led pharma company.",
+  "_tgWhy": "6% nominal: ~85% of revenue is India, where the branded market grows 8-10% a year in value.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~11% to 8% by year 15.",
+  "_fadeMarginWhy": "27%: a little above the FY29E 26.8% as chronic and specialty mix rise, below the 28-29% of the best Indian branded peers (Abbott, Torrent's base).",
+  "_fadeCapexWhy": "4.5% of revenue: maintenance plus capacity for 8% growth after the Vadodara build (FY24-26: 3.8-5.2%).",
+  "_depWhy": "3% of revenue = tax-deductible depreciation and amortisation only (book D&A FY27E ~5.8% of revenue, of which ~2.8pp is BSV acquisition amortisation that gives no tax saving)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The acute recovery and new divisions take domestic growth back to 1.2x the market, BSV's fertility and Anti-D brands keep compounding at 20%+, consumer healthcare returns to double digits, and gross margin holds above 72%.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 1,
+   "fadeMarginTo": 28.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Mankind stays a market-grower in acute (60% of sales) while GLP-1s and trade generics take share, the Anti-D patent (India, to 2028) invites competition, raw-material costs squeeze gross margin, and exports lose the currency tailwind.",
+   "revenueGrowthDelta": -2.5,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 25.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 47.31,
+      "bull": 50.72,
+      "bear": 42.95
+     },
+     "why": "How the street values Mankind: three of the four notes standing on 30-Sep-2026 that disclose a method use P/E (Motilal Oswal 40x 12-month-forward EPS, Geojit 37x FY28E, HDFC Securities 34x Q2FY28E; JM Financial uses EV/EBITDA). 43x Sep-28E EPS BEFORE the BSV acquisition amortisation (~₹450 cr a year, ~₹8.2 a share after its deferred-tax credit) and after minorities, because Mankind's short P/E history mixes years with no, partial and full amortisation (handled as in our Torrent report): Mankind's median one-year-forward P/E since 1-Nov-2023 (listed May-2023; IPO months skipped; every weekly close) on EPS before exceptional items and the BSV amortisation, 38.8x, x 1.110 (nine pharma peers' trailing P/E at the 30-Sep close vs their medians over the same window: +11.0%, PLAYBOOK §7c; reproduced +11.0%) = 43.1x, nearest half-turn 43x. The engine values reported EPS, so the multiple here is the equivalent on reported Sep-28E EPS (43 x adjusted ÷ reported = 47.31x; bull 46.5x and bear 38.5x adjusted = the 75th/25th percentiles x 1.110, translated the same way). Checked in MANKIND.ctx.js; written by MANKIND.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-27E (trailing at the target date)",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "multiple": {
+      "base": 31,
+      "bull": 34.5,
+      "bear": 27.5
+     },
+     "why": "Cross-check (JM Financial's method; neutral to the amortisation). Mankind's median trailing EV/EBITDA since 1-Nov-2023 excluding the BSV transition (23-Oct-2024 to 30-Sep-2025, when EV carried all the deal debt but trailing EBITDA held less than four quarters of BSV) is 29.3x (30.2x with it); x 1.0588 (the peers' EV/EBITDA move against their medians over the same window) = 31.0x, applied to trailing EBITDA at the target date (half FY27E + half FY28E) less net debt at Sep-27. Bull 34.5x / bear 27.5x = 75th / 25th percentiles x the same factor."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 11.3% (cost of equity ≈ WACC: net debt is small and falls to nil), terminal growth 6%; tax shield only on tax-deductible D&A (BSV amortisation excluded); less net debt at Mar-27."
+    }
+   ]
+  }
+ },
+ "otherTreasury": {
+  "base": -1515.28,
+  "label": "Offset: net deferred tax (₹1,840 cr liability, mostly on BSV brands, less ₹325 cr of assets) in other liabilities/assets",
+  "_why": "Engine workaround (MANKIND.patch.js note 3). Screener's Mar-26 other liabilities, which the Excel reads unpatched, include the ₹1,839.98 cr deferred tax liability (₹1,799.87 cr of it created on BSV's acquired intangibles) and other assets include ₹324.70 cr of deferred tax assets; neither is working capital. This entry takes the net ₹1,515.28 cr out of working capital (13.4% of FY26 revenue, close to the company's 52 days) in the engine and the Excel alike; investments are raised by the same amount in the patch, so net debt is unchanged, and CWIP is lowered by it so the balance sheet balances."
+ }
+}

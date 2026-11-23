@@ -1,0 +1,59 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Laurus Labs (consolidated, Rs crore; Net Profit on the attributable basis via tools/authoring/LAURUSLABS.patch.js). Laurus reports one segment and discloses four revenue lines every quarter; the engine runs one revenue-growth path and the four-line build (CDMO small molecules, Laurus Bio, generic API, formulations) sits in businessLines, checked against model revenue in tools/authoring/LAURUSLABS.ctx.js. EBITDA is on Screener's basis (before other income). Laurus has net debt, so treasury income is nil and other income is built from interest on gross cash and recurring items; interest is built from a gross-debt path. Valued on P/E, as most brokers that disclose a method do.",
+ "years": ["FY27E", "FY28E", "FY29E"],
+ "revenueGrowth": [21.63, 12.37, 12.72],
+ "_revenueWhy": "Sum of the four-line build below. FY27 +21.6%: Q1FY27 revenue Rs2,026 cr (+29%); small-molecule CDMO Rs835 cr (+69%) with management saying the run-rate can be held 'plus/minus Rs100 crores' (Head CDMO, 24-Jul-2026); Affordable Medicines +10% in Q1 (API +3%, FDF +22%); ARV flat at ~Rs2,800 cr (CEO, 30-Apr-2026). FY28-29 +12-13%: new capacity (Unit 7 first block validation by Mar-2027 and four more blocks in FY28; commercial peptide block from Q2FY27; fermentation +400 KL by Dec-2026) carries CDMO +20% a year from a much higher base. Street FY27E revenue Rs8,189-8,470 cr (MOSL, ICICI Securities, BOBCAPS, Choice, 24-27 Jul-2026); FY28E Rs9,181-10,310 cr.",
+ "businessLines": {
+  "base": { "fy": "FY26", "cdmo": 1896, "bio": 184, "api": 2746, "fdf": 1987, "_why": "FY26 divisional revenue (Q4FY26 presentation): CDMO small molecules Rs1,896 cr, Laurus Bio Rs184 cr, generic API Rs2,746 cr, formulations (FDF) Rs1,987 cr = Rs6,813 cr." },
+  "growth": { "cdmo": [58, 20, 20], "bio": [14, 29, 26], "api": [4, 5, 5], "fdf": [12, 10, 10] },
+  "_why": "CDMO small molecules +58% in FY27 = Q1 Rs835 cr + ~Rs720 cr a quarter for Q2-Q4 (the low end of management's +/-Rs100 cr band; 45% of Q1 CDMO was Phase III/launch supplies that can pause once customers' stocks are built; MOSL models ~Rs700 cr a quarter); +20% a year in FY28-29 as Unit 7 and the peptide block fill, with 55% of CDMO already commercial. CDMO (incl. Bio) reaches ~44% of revenue in FY29E, short of the company's 50%-by-FY30 aim. Bio +14% in FY27 (Q1 Rs35 cr, +21%; FY26 Rs184 cr), then +29% / +26% when the 400 KL Vizag fermentation plant (commissioning by Dec-2026) ramps over 12-18 months. Generic API +4% / +5% / +5%: ARV revenue ~flat by guidance (ARV API Rs415 cr in Q1), non-ARV APIs grow; Q1 API +3%. FDF +12% / +10% / +10%: Q1 +22% on new capacity (FDF capacity +20% in FY26) and developed-market launches; FY26 Q3 base (Rs607 cr) is high. The KRKA JV (49%) is equity-accounted, so its FDF plant adds no revenue."
+ },
+ "ebitdaMargin": [30.0, 30.5, 31.0],
+ "_marginWhy": "Screener basis (before other income): 15.5% (FY24), 19.0% (FY25), 26.2% (FY26), 31.5% in Q1FY27 on a 62.7% gross margin. Company guidance: 'Guiding >30% from FY27+' (Sep-2026 investor presentation, on the company's basis which includes other income) and 'similar [gross] margins... for the coming quarters' (CEO, 24-Jul-2026). FY27 30.0% = Q1 31.5% and ~29.5% for Q2-Q4: R&D jumped to 5.8% of sales in Q1 (gene therapy/ADC build-out), solvent costs rose with the West Asia war, and the fermentation plant, Unit 7 and the peptide block add costs before revenue. FY28 30.5% and FY29 31.0% as commercial CDMO supplies (higher EBITDA than development work at a similar gross margin, CEO 30-Apr-2026) rise. Street FY27E: Choice 27.7%, MOSL 28.6%, ICICI Securities 29.3%, BOBCAPS 32.0%.",
+ "capex": [2000, 1500, 1500],
+ "_capexWhy": "FY26 capex Rs1,070 cr (16% of sales); Q1FY27 Rs394 cr. Guidance: FY27 Rs2,000 cr (raised from Rs1,000 cr to Rs1,500 cr to Rs2,000 cr at the Jul-2026 AGM); FY27-FY28 '>Rs3,000 crores', 'we may do more' (CEO, 24-Jul-2026; Sep-2026 presentation). FY28 Rs1,500 cr (ICICI Securities Rs1,600 cr). FY29 Rs1,500 cr: the 532-acre Laurus Pharma Zone at Vizag (>USD600 mn over ~8 years) starts from end-FY27; CARE (3-Jul-2026) expects Rs1,000-1,500 cr a year, partly debt-funded.",
+ "depRateOnGrossBlock": 6.9,
+ "_depWhy": "FY26 depreciation Rs480 cr = 7.3% of average gross block (Rs6,608 cr, Screener); Q1FY27 Rs124 cr (Rs496 cr annualised). The engine depreciates capex at once (CWIP held flat at Rs773 cr), so 6.9% gives ~Rs548 / 669 / 772 cr in FY27-29E as the peptide block, fermentation plant and Unit 7 are commissioned (MOSL FY27E Rs548 cr; ICICI Securities Rs496 cr / Rs636 cr).",
+ "treasuryYield": [0, 0, 0],
+ "_treasuryWhy": "Laurus has net debt (Rs2,285 cr at Mar-26, Rs2,656 cr at Jun-26; engine treasury -Rs2,095 cr on Screener's basis, which nets Rs309 cr of investments, mostly in associates and the JV), so no treasury income is applied. Interest on deposits and margin money (Rs6.6 cr in FY26) is in otherIncome.",
+ "otherIncome": [20, 15, 15],
+ "_otherIncomeWhy": "Built from sourced parts (AR FY26 notes 18 and 23A). FY26 other income ex-exceptional Rs55 cr = forex gain Rs30.7 cr + interest income Rs6.6 cr + miscellaneous Rs15.9 cr + write-backs/lease gains Rs1.7 cr; FY25 Rs18 cr ex the Rs57 cr land-sale gain (interest Rs15.2 cr, forex Rs2.9 cr). TTM to Jun-26 Rs54 cr. FY27E Rs20 cr = Q1 actual Rs9.2 cr (incl. Rs5 cr forex, CFO) + Q2-Q4 interest ~Rs5 cr + recurring miscellaneous ~Rs6.6 cr (the FY25-26 average of ~Rs8.8 cr a year, pro rata); FY28-29E Rs15 cr = interest ~Rs6.6 cr + miscellaneous ~Rs8.8 cr. No forex gains forecast beyond Q1 (they follow the rupee) and no share of associates/JV (FY26 +Rs0.3 cr; KRKA JV pre-operational, ImmunoACT small losses). The gap to FY26/TTM is the forex gain and FY26's unusually high miscellaneous income.",
+ "interest": [185, 200, 188],
+ "_interestWhy": "Built in tools/authoring/LAURUSLABS.ctx.js: 5.9% on average term and working-capital loans (FY26 interest on loans Rs150.6 cr on average loans of Rs2,546 cr, AR note 23B) plus ~Rs20 cr of other finance costs (lease interest and others Rs10.4 cr, bank charges Rs5.9 cr, exchange differences Rs3.8 cr). Loans Rs2,397 cr at Mar-26 rise to ~Rs3,160 cr by Mar-27E as the Rs2,000 cr capex runs ahead of cash flow, then ease. FY26 Rs171 cr; Q1FY27 Rs42 cr. CFO: gross debt may rise slightly in FY27, net debt/EBITDA similar or lower.",
+ "taxRate": [25, 25, 25],
+ "_taxWhy": "Effective rate 26.8% (FY25), 24.7% (FY26), 24.8% (Q1FY27); CFO guides 25-26% (30-Apr-2026).",
+ "payout": [12, 12, 12],
+ "_payoutWhy": "Two interim dividends of Rs0.80 and Rs1.20 = Rs2.00 a share in FY26 (12% of EPS; Rs1.20 in FY25). We assume the 12% payout holds while capex is heavy (~Rs3.0-3.8 a share).",
+ "dcf": {
+  "rf": 6.5, "erp": 6, "beta": 0.97, "terminalGrowth": 6, "years": 15, "fadeGrowthTo": 8, "fadeMarginTo": 30, "fadeCapexPctTo": 8, "depPctOfSales": 5.5, "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity. An equity beta of ~1.0 (a cyclical, capex-heavy CDMO with a boom-bust record) gives 12.5%; with net debt ~2.5% of enterprise value at a 4.4% post-tax cost of debt, WACC is ~12.3%. Beta 0.97 sets the engine's rate to that WACC (PLAYBOOK §7).",
+  "_tgWhy": "Top of the house 5-6% range: small-molecule CDMO outsourcing grows faster than nominal GDP and India gains share (company: global small-molecule CDMO ~USD85 bn growing >7%, India ~USD2 bn growing >14%, 2025-34).",
+  "_fadeGrowthWhy": "Revenue growth fades from 12.7% (FY29E) to 8% by FY42E: Laurus grew revenue 14.4% a year in FY16-26 (Rs1,778 cr to Rs6,813 cr) through the ARV boom, the FY23 purchase order and the FY24 bust.",
+  "_fadeMarginWhy": "30%, a little below FY29E's 31%: ARV/API price competition and rising competition for Indian CDMO work cap the margin near today's level.",
+  "_fadeCapexWhy": "Capex falls from 14-24% of sales (FY27-29E) to 8% by FY42E (FY21-26 average ~15%): maintenance near depreciation (~5.5% of sales) plus growth capex at Laurus's ~1x gross asset turn.",
+  "_wcNote": "Operating working capital is ~33% of sales on Screener's balance sheet (inventory Rs2,342 cr, receivables Rs2,155 cr, less payables and other liabilities incl. customer advances), so each rupee of extra sales ties up ~33 paise."
+ },
+ "scenarios": {
+  "bull": { "label": "Bull", "narrative": "Phase III programmes convert to commercial supply on time, the peptide block wins a large GLP-1 or non-GLP-1 contract, Unit 7 fills fast and Laurus Bio's new plant scales; CDMO grows ~30% a year after FY27, revenue grows ~5 points a year faster and the margin reaches ~33%.", "revenueGrowthDelta": 5, "marginDelta": 2, "fadeMarginTo": 33 },
+  "bear": { "label": "Bear", "narrative": "The launch-stocking half of Q1's CDMO revenue pauses, as Laurus's FY23 purchase order did, ARV prices fall as long-acting injectables and funding cuts bite, and new plants run below capacity; growth slows by ~6 points a year and the margin falls back towards 27%.", "revenueGrowthDelta": -6, "marginDelta": -3, "fadeMarginTo": 26 }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe", "name": "P/E", "method": "pe", "role": "primary", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5],
+     "multiple": { "base": 38.5, "bull": 47.5, "bear": 33 },
+     "why": "How most brokers that disclose a method value Laurus: P/E (Motilal Oswal 65x 12-month forward; BOBCAPS 55x Jun-28E; Choice PEG 1.7x; Sharekhan 47x FY28E, Mar-2026) vs EV/EBITDA (ICICI Securities 38x FY28E; HDFC Securities 26x Q3FY28E, Jan-2026). 38.5x = Laurus's own one-year-forward P/E median since Apr-2021 on EPS before exceptional items (35.6x; trough years FY24 and FY25 left out; A18 practice because the FY25 land-sale gain was 11% of profit; the reported-EPS median is 35.8x) x 1.082 pharma sector factor (median of the nine-peer set, PLAYBOOK §7c) = 38.5x, rounded to the nearest half-turn. Sensitivities only: reported-EPS median, no trough exclusion, Laurus's own +47% re-rating, growth. Bull 47.5x (75th percentile 43.7x x 1.082); bear 33.0x (25th percentile 30.4x x 1.082)."
+    },
+    {
+     "key": "ev", "name": "EV/EBITDA", "method": "evEbitda", "role": "cross-check", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5],
+     "multiple": { "base": 22, "bull": 24.5, "bear": 18.5 },
+     "why": "Cross-check on the same basis: Laurus's own one-year-forward EV/EBITDA median since Apr-2021 (EV at the weekly close / next full-year EBITDA; FY24 trough left out; computed in tools/authoring/LAURUSLABS.ctx.js) of 20.4x x 1.082 = 22.1x, rounded to 22.0x Sep-28E EBITDA, less Sep-28E net debt (the EV/EBITDA analogue of the sector factor, +7.5%, gives the same 22.0x). Street: ICICI Securities 38x FY28E, HDFC Securities 26x Q3FY28E. Bull 24.5x / bear 18.5x (75th / 25th percentiles x 1.082)."
+    },
+    { "key": "dcf", "name": "DCF", "method": "dcf", "role": "cross-check", "why": "Tests whether cash flows support the price: 15-year FCFF at a 12.3% WACC, terminal growth 6%, working capital ~33% of sales and heavy capex through FY29E." }
+   ]
+  }
+ }
+}
