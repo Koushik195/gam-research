@@ -1,0 +1,92 @@
+{
+ "symbol": "M&M",
+ "asOf": "2026-09-30",
+ "_note": "Fact base for the M&M initiation, standalone basis (auto + farm) with group stakes valued separately. Every figure has a source and publication date; nothing published after 30-Sep-2026 is used (later facts sit in updates/later-facts.json).",
+ "profile": {
+  "what": "India's largest SUV maker by revenue market share (25.0% in Q1FY27) and the world's largest tractor maker by volume (domestic share 43.6% in FY26), plus the No.1 maker of pickups/LCVs under 3.5 tonnes (52% share). The listed parent (standalone M&M) holds the automotive and farm businesses; it also owns 25.3% of Tech Mahindra, 52.5% of M&M Financial Services, 92.45% of the EV company MEAL and stakes in ~10 other listed and unlisted group companies.",
+  "standaloneFY26": { "revenueFromOps": 145575.77, "investmentIncome": 2189.58, "coreEbitda": 20977, "pbt": 20624.21, "pat": 15638.93, "basicEps": 130.18, "dps": 33, "netWorth": 74325, "liquidFunds": 32965, "debt": 1653, "src": "AR FY26 standalone statements and notes 24-26, 44; CRISIL rating rationale 18-Sep-2026", "published": "2026-07-01" },
+  "shares": { "issued": 1243528831, "esopTrust": 41488827, "benefitTrust": 84470428, "basicWeighted": 1201330127, "note": "EPS in this report uses all 124.35 cr issued shares (Screener basis, = market cap / price); the company's basic EPS excludes 4.15 cr ESOP-trust shares (standalone) and also the 8.45 cr M&M Benefit Trust shares (consolidated).", "src": "AR FY26 notes 15/16, 36", "published": "2026-07-01" }
+ },
+ "segmentsFY26": {
+  "automotive": { "revenue": 109354.93, "pbit": 10141.22, "margin": 9.3, "fy25Revenue": 87443.10, "fy25Pbit": 8277.23 },
+  "farm": { "revenue": 36409.27, "pbit": 7206.27, "margin": 19.8, "fy25Revenue": 29236.66, "fy25Pbit": 5371.02 },
+  "investmentSegments": { "revenue": 2189.58, "result": 1549.55, "note": "Auto investments 32.03/(324.41), farm investments 117.66/(203.21), industrial and consumer-services investments 2,039.89/2,077.17 (revenue/result); results include impairments of group companies." },
+  "src": "AR FY26 standalone note 44 (segment information)", "published": "2026-07-01"
+ },
+ "volumesFY26": {
+  "uvDomestic": 660276, "uvDomesticFY25": 551487, "lcvBelow2T": 38120, "lcv2to3_5T": 251477, "threeWheelers": 112003, "exports": 40990, "truckBus": 14832,
+  "totalVehicles": 1117698, "lmm": 136855, "mealBev": 51820, "tractorsDomestic": 505930, "tractorsExports": 20473, "tractorsTotal": 526403,
+  "standaloneVehiclesSold": 995526, "standaloneTractorsSold": 521203,
+  "src": "M&M sales release 1-Apr-2026 (https://mahindra.com/news-room/press-release/en/mahindra-auto-clocks-60272-suvs-and-99969-total-vehicle-sales-in-march-2026); tractor release 1-Apr-2026; Q1FY27 press release; AR FY26 ten-year summary", "published": "2026-04-01"
+ },
+ "industryFY26": { "uvIndustry": 3105025, "uvGrowth": 11.0, "mmUvShare": 21.3, "pvIndustry": 4643439, "pvGrowth": 7.9, "mmPvShare": 14.2, "lcvBelow3_5TIndustry": 511401, "mmLcvShare": 48.3, "tractorIndustry": 1160231, "tractorGrowth": 23.5, "mmTractorShare": 43.6, "src": "AR FY26 MD&A (SIAM; tractor industry incl. Gromax)", "published": "2026-07-01" },
+ "q1fy27": {
+  "date": "2026-07-30",
+  "standalone": { "revenueFromOps": 41920, "revenueYoY": 23.0, "ebitda": 5111, "ebitdaMargin": 12.2, "ebitdaMarginQ1FY26": 14.3, "otherIncome": 815, "pat": 3685, "patYoY": 6.8, "src": "ICICI Direct Q1FY27 result update 31-Jul-2026 (https://mailcontent.icicidirect.com/mailcontent/idirect_mm_q1fy27.pdf); company press release 30-Jul-2026" },
+  "segments": { "autoRevenue": 31033, "autoPbit": 2212, "autoMargin": 7.1, "autoMarginExEsuv": 8.3, "farmRevenue": 10947, "farmPbit": 2028, "farmMargin": 18.5, "coreTractorMargin": 19.2, "q4fy26": { "autoRevenue": 31116, "autoPbit": 2955, "farmRevenue": 8483, "farmPbit": 1643 }, "q1fy26": { "autoRevenue": 24949, "autoPbit": 2221, "farmRevenue": 9186, "farmPbit": 1819 }, "src": "https://www.mahindra.com/news-room/press-release/en/m-and-m-results-q1-f27" },
+  "consolidated": { "revenue": 58188, "revenueYoY": 28, "pat": 5455, "patYoY": 34, "roe": 23.0, "eps": 48.6, "autoPat": 2129, "farmPat": 1520, "techmShare": 411, "mmfslShare": 486, "growthGems": 136, "investments": 772, "note": "PAT +22% excluding the CIE stake-sale gain", "src": "Q1FY27 analyst-meet presentation slides 4-5, 44 (BSE, 30-Jul-2026)" },
+  "volumes": { "vehicles": 304421, "vehiclesQ1FY26": 247249, "lmm": 42387, "mealBev": 19540, "tractors": 158041, "tractorsQ1FY26": 134089, "suv": 174700, "suvYoY": 15, "lcv": 74000, "lcvYoY": 20 },
+  "shares": { "suvRevenueShare": 25.0, "esuvRevenueShare": 44.3, "esuvPenetration": 12.0, "industryEvPenetration": 9.0, "lcvShare": 52.0, "tractorShare": 44.9, "tractorShareQ1FY26": 45.2, "e3wShare": 39.5 },
+  "bev": { "mealRevenue": 5430, "mealEbitdaMargin": 10.6, "mealPbit": 271, "contractRevenue": 4670, "contractPbitMargin": 0.4, "e2ePbit": 288, "note": "EBITDA positive even without PLI (management)" },
+  "commodity": "Auto absorbed 400-500bp of commodity inflation in Q1 (escalated after Feb-2026 with the West Asia conflict) and an ~85bp hedging loss in the last 10 days of June when commodities fell on news the war was stopping; farm 300-400bp (steel +24%, rubber +30% YTD, unhedgeable). Price increases: auto ~1.5% (spring) + 2.7% average (mid-Jul-2026); tractors ~Rs15,000 per unit (Aug).",
+  "guidance": "Auto: Q1 is the low point; Q2 operating margin maintained or slightly better if commodities hold. Farm: temporary pressure in Q2 (commodities, festival shift to 11-Oct). FY27 (Q4FY26 call, May-2026): M&M UV growth mid-to-high teens, tractor industry mid-single digits, LCV industry high single digits. Capacity, not demand, is the constraint in SUVs.",
+  "capacity": "Operational SUV capacity 64.5k/month at FY26 exit (56.5k ICE + 8k BEV), 68k by Sep-2026, 82k by Mar-2027 (14k of it for FY28 launches), 92k by FY28 exit (NU_IQ phase 2 at Chakan), Nagpur greenfield 20k/month by H1CY29 and another 20k ~12 months later: 2x in five years (FY26-FY31 exit).",
+  "src": "Q1FY27 analyst-meet presentation and transcript (BSE, 30-Jul-2026 / 4-Aug-2026)", "published": "2026-08-04"
+ },
+ "monthly": {
+  "fy27ytdAug": { "uvDomestic": 294050, "uvYoY": 22, "lcvBelow2T": 17851, "lcv2to3_5T": 108350, "threeWheelers": 65715, "exports": 26012, "exportsYoY": 63, "tractorsDomestic": 212664, "tractorsDomesticYoY": 17, "tractorsExports": 9304, "tractorsTotal": 221968, "tractorsYoY": 16 },
+  "aug2026": { "uvDomestic": 59257, "uvYoY": 50, "totalVehicles": 107648, "tractorsDomestic": 27595, "tractorsDomesticYoY": 5 },
+  "jul2026": { "totalVehicles": 103860, "tractorsDomestic": 32643, "tractorsTotal": 34420 },
+  "note": "Sep-2026 volumes were released on 1-Oct-2026, after the as-of date, and are not used.",
+  "src": "https://www.mahindra.com/news-room/press-release/en/mahindra-auto-clocks-59257-suvs-a-growth-of-50-percent-and-107648-total-vehicle-sales-a-growth-of-42-percent-in-august-2026 ; https://www.mahindra.com/news-room/press-release/en/mahindra-farm-equipment-business-sells-27595-tractors-in-august-2026-registering-a-growth-of-5-percent", "published": "2026-09-01"
+ },
+ "groupStakes": {
+  "listed": [
+   { "name": "Tech Mahindra", "shares": 248022598, "pct": 25.3, "cost": 971.75 },
+   { "name": "M&M Financial Services", "shares": 729582599, "pct": 52.49, "cost": 4499.41, "note": "rights issue Jun-2025 (1-for-8 at Rs194)" },
+   { "name": "Mahindra Lifespace Developers", "shares": 111805708, "pct": 52.41, "cost": 1275.18 },
+   { "name": "Mahindra Logistics", "shares": 59112927, "pct": 59.58, "cost": 521.04 },
+   { "name": "Mahindra Holidays & Resorts", "shares": 134835922, "pct": 66.74, "cost": 24.72 },
+   { "name": "SML Mahindra", "shares": 8533726, "pct": 58.96, "cost": 564.77, "note": "acquired Aug-2025" },
+   { "name": "Swaraj Engines", "shares": 6331141, "pct": 52.11, "cost": 322.29 },
+   { "name": "Brainbees (FirstCry)", "shares": 45041821, "cost": 351.13 }
+  ],
+  "unlisted": { "mealCost": 6950.49, "mealStake": 92.45, "mealApproved": 15925, "lmmCost": 901.05, "lmmStake": 78.11, "otherAtCostNet": 9774, "trusts": 1251.75, "impairmentTotal": 7101.15, "quotedMarketValueMar26": 70476.38 },
+  "transactions": [
+   { "what": "BII in MEAL", "amount": 1850, "headlineValuation": 70070, "date": "2022-07-07" },
+   { "what": "Temasek in MEAL", "amount": 1200, "headlineValuation": 80580, "date": "2023-08-03" },
+   { "what": "BII/Temasek CCPS converted into MEAL equity: BII 4.58%, Temasek 2.97% (implies ~Rs40,400 cr post-money)", "date": "2026-05-01" },
+   { "what": "IFC Rs600 cr and IJF Rs400 cr CCPS in LMM converted in FY26 at ~Rs38-42/share; M&M 78.11%", "date": "2026-03-31" }
+  ],
+  "src": "AR FY26 standalone note 8, consolidated notes 42-43, BRSR, AGM notice; Temasek press release 3-Aug-2023", "published": "2026-07-01"
+ },
+ "capitalAllocation": [
+  { "item": "MEAL: Rs15,925 cr approved, Rs6,950 cr invested by Mar-26; BII/Temasek exit window 1-Nov-2027 to 1-Nov-2030 (listing or other route)", "src": "AR FY26", "published": "2026-07-01" },
+  { "item": "Nagpur greenfield: Rs15,000 cr over ten years", "src": "AR FY26 chairman's letter", "published": "2026-07-01" },
+  { "item": "Exits: Sampo Rosenlew (Finland, Sep-2025), Erkunt Foundry (Turkey, Q1FY27), KG Mobility and RBL Bank stakes sold in FY26; SML Isuzu acquired (58.96%, Aug-2025)", "src": "AR FY26; Q1FY27 deck", "published": "2026-08-04" },
+  { "item": "2030 targets (Investor Day, Nov-2025): auto revenue 8x FY20, farm 3x, financial services AUM 5x; Group organic growth 15-40%; path to 18% ROE", "src": "https://www.autocarpro.in/news/mahindra-targets-over-rs-2-lakh-crore-in-automotive-revenues-by-fy-30-sets-sights-on-becoming-worlds-fastest-growing-suv-brand-129852", "published": "2025-11-20" }
+ ],
+ "history": [
+  { "year": "FY20-21", "event": "SsangYong (Korea) put into receivership and written off; Rs3,087 cr standalone exceptional loss in FY21; Anish Shah becomes MD & CEO (Apr-2021) with a capital-allocation framework (exit loss-makers, 18% ROE hurdle)", "src": "AR FY21/FY26 ten-year summary" },
+  { "year": "FY22-23", "event": "XUV700 (Aug-2021) and Scorpio-N (Jun-2022) launches; EV business moved to MEAL with BII's investment (Jul-2022); FY23 exceptional loss Rs1,430 cr (trucks impairment net of Susten/SEL gains)", "src": "AR FY23; Q1FY27 deck slide 17" },
+  { "year": "FY24-25", "event": "Thar Roxx (Aug-2024); INGLO EV platform with BE 6 and XEV 9e (launched Nov-2024); LMM carved out with IFC/IJF money; RBL Bank stake bought (Rs417 cr) and later sold", "src": "AR FY24-FY26" },
+  { "year": "FY26", "event": "GST 2.0 from 22-Sep-2025 (SUVs 40% with no cess, small cars and CVs 18%, tractors 5%); SML Isuzu acquired; XEV 9S launched; record UVs 6.6 lakh and tractors 5.26 lakh; MEAL turned profitable (PAT Rs387 cr)", "src": "AR FY26" },
+  { "year": "Q1FY27", "event": "West Asia conflict drives 400-500bp commodity inflation; CIE stake sold; Erkunt Foundry exited; SML Mahindra's board approves buying M&M's Truck & Bus Division on a slump sale for Rs525 cr (29-Jul-2026; completion targeted in FY27; SML shares +44% in two days)", "src": "Q1FY27 deck and call; https://www.mahindra.com/news-room/press-release/en/sml-mahindra-board-approves-acquisition-of-mahindra-truck-and-bus-division-creating-a-unified-truck-and-bus-business ; https://www.businesstoday.in/markets/stocks/story/sml-mahindra-shares-rally-44-in-two-days-after-board-approves-acquisition-of-mms-truck-bus-business-546179-2026-07-30" }
+ ],
+ "management": [
+  { "name": "Anand G. Mahindra", "role": "Non-Executive Chairman (promoter)" },
+  { "name": "Dr Anish Shah", "role": "Group CEO & Managing Director; remuneration 514x median employee in FY26 (incl. ESOP value)" },
+  { "name": "Rajesh Jejurikar", "role": "Executive Director & CEO, Auto and Farm" },
+  { "name": "Amarjyoti Barua", "role": "Group CFO" },
+  { "name": "Dr Velusamy R", "role": "President, Automotive" },
+  { "name": "Veejay Nakra", "role": "CEO, Farm" }
+ ],
+ "governance": { "auditor": "B S R & Co. LLP", "board": "11 directors, 55% independent, 4 women (36%); LIC nominee on the board", "promoterHolding": "18.44% (Jun-2026); no pledge disclosed", "relatedParty": "Sale of goods to MEAL Rs12,413 cr in FY26 (e-SUVs made under contract); omnibus RPT approvals for MEAL purchases", "src": "AR FY26 corporate governance report, BRSR, related-party note; Screener shareholding", "published": "2026-07-01" },
+ "accounting": [
+  "From FY23 'income from investments related to subsidiaries, associates and JVs' (dividends, interest on loans to group companies, stake-sale gains: Rs2,190 cr in FY26) is shown inside total income from operations, and 'loss from investments' (write-downs: Rs677 cr in FY26) inside expenses. We move both out (M&M.patch.js) so revenue and EBITDA are the operating business only.",
+  "e-SUVs are built by M&M and sold to MEAL at full vehicle value (Rs12,413 cr in FY26) at a ~0.4% PBIT margin: this inflates standalone revenue growth and dilutes the standalone margin as EVs grow.",
+  "Impairments of group investments recur: Rs3,087 cr (FY21), Rs1,430 cr (FY23), Rs253/848/677 cr (FY24-26); cumulative impairment Rs7,101 cr at Mar-26.",
+  "PLI incentives for EVs (Rs1,371 cr of 'government grants and incentives' in FY26 revenue, all schemes) support EV profitability; management says MEAL is EBITDA positive without PLI."
+ ],
+ "gaps": []
+}

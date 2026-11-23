@@ -19,7 +19,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 | Symbol | Team | Status |
 |---|---|---|
-| M&M | A | claimed (batch 11) |
+| M&M | A | published (SELL, ₹2,600) |
 | BAJAJ-AUTO | A | published (SELL, ₹10,030) |
 | HEROMOTOCO | A | published (BUY, ₹6,110) |
 | TVSMOTOR | A | published (SELL, ₹3,330) |

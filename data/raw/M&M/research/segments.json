@@ -1,0 +1,35 @@
+{
+ "asOf": "2026-09-30",
+ "note": "M&M standalone segments, Rs crore. Revenue = segment revenue from operations (automotive includes e-SUVs built for MEAL at full value from FY25; farm includes farm machinery, Powerol and spares). FY23-FY26 from the annual reports (AR FY24 note on FY23-24, AR FY26 note 44 on FY25-26); FY19-FY22 derived as ICICI Direct's company-basis volumes x average realisation (exhibit 2, 31-Jul-2026), which reproduces FY24-FY26 within 0.2%. PBIT before FY23 not collected. Units: 'vehicles'/'tractors' = company basis incl. LMM and MEAL (monthly releases, Gromax in tractors); 'saVehicles'/'saTractors' = sold by the standalone company (AR FY26 ten-year summary). Quarterly: Q1FY27 press release (Q1FY26, Q4FY26), Q3FY26 results filing (Q2FY26, Q3FY25, 9M columns; Q4FY25 = FY25 less 9M). invIncome = income from investments in group companies (moved to other income in this report).",
+ "sources": {
+  "ar26": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/44de8025-5ba1-4dfd-b7ef-ed83aa31bd7e.pdf",
+  "ar24": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/09ee6a86-fe09-444c-baf3-b7e68b0775ee.pdf",
+  "q3fy26": "https://www.mahindra.com/sites/default/files/documents/Q3FY2026/M%26M_Quarterly_Financial_Results_Q3FY26.pdf",
+  "q1fy27": "https://www.mahindra.com/news-room/press-release/en/m-and-m-results-q1-f27",
+  "icici": "https://mailcontent.icicidirect.com/mailcontent/idirect_mm_q1fy27.pdf"
+ },
+ "annual": [
+  { "fy": "FY19", "autoRev": 35353, "farmRev": 16875, "vehicles": 608597, "tractors": 330436, "saVehicles": 607548, "saTractors": 327033 },
+  { "fy": "FY20", "autoRev": 28409, "farmRev": 15402, "vehicles": 476043, "tractors": 301915, "saVehicles": 471141, "saTractors": 298927 },
+  { "fy": "FY21", "autoRev": 25014, "farmRev": 18433, "vehicles": 352281, "tractors": 354498, "saVehicles": 348621, "saTractors": 351431 },
+  { "fy": "FY22", "autoRev": 35587, "farmRev": 19767, "vehicles": 465597, "tractors": 354678, "saVehicles": 465601, "saTractors": 350981 },
+  { "fy": "FY23", "autoRev": 59303, "farmRev": 25744, "autoPbit": 2819, "farmPbit": 4171, "invIncome": 1684, "vehicles": 698466, "tractors": 407545, "saVehicles": 698456, "saTractors": 403981 },
+  { "fy": "FY24", "autoRev": 73513, "farmRev": 25337, "autoPbit": 6199, "farmPbit": 4116, "invIncome": 2456, "vehicles": 824936, "tractors": 378386, "saVehicles": 780475, "saTractors": 374955 },
+  { "fy": "FY25", "autoRev": 87443, "farmRev": 29237, "autoPbit": 8277, "farmPbit": 5371, "invIncome": 2141, "vehicles": 941115, "tractors": 424641, "saVehicles": 846661, "saTractors": 420636, "uvDom": 551487, "uvShare": 19.7 },
+  { "fy": "FY26", "autoRev": 109355, "farmRev": 36409, "autoPbit": 10141, "farmPbit": 7206, "invIncome": 2190, "vehicles": 1117698, "tractors": 526403, "saVehicles": 995526, "saTractors": 521203, "uvDom": 660276, "uvShare": 21.3, "tractorShare": 43.6, "esuvRev": 12413, "mealBev": 51820 }
+ ],
+ "quarterly": [
+  { "q": "Q3FY25", "autoRev": 22410, "autoPbit": 2167, "farmRev": 8167, "farmPbit": 1479, "invIncome": 426 },
+  { "q": "Q4FY25", "autoRev": 24976, "autoPbit": 2306, "farmRev": 6428, "farmPbit": 1250, "invIncome": 255 },
+  { "q": "Q1FY26", "autoRev": 24949, "autoPbit": 2221, "farmRev": 9186, "farmPbit": 1819, "invIncome": 60, "vehicles": 247249, "tractors": 134089, "mealBev": 11027, "suvRevShare": 27.3, "tractorShare": 45.2 },
+  { "q": "Q2FY26", "autoRev": 24929, "autoPbit": 2281, "farmRev": 8540, "farmPbit": 2061, "invIncome": 1658 },
+  { "q": "Q3FY26", "autoRev": 28361, "autoPbit": 2684, "farmRev": 10200, "farmPbit": 1684, "invIncome": 425 },
+  { "q": "Q4FY26", "autoRev": 31116, "autoPbit": 2955, "farmRev": 8483, "farmPbit": 1643, "invIncome": 47, "vehicles": 306508, "tractors": 119811, "mealBev": 16638, "tractorShare": 42.1 },
+  { "q": "Q1FY27", "autoRev": 31033, "autoPbit": 2212, "farmRev": 10947, "farmPbit": 2028, "invIncome": 39, "vehicles": 304421, "tractors": 158041, "mealBev": 19540, "suvRevShare": 25.0, "tractorShare": 44.9, "esuvRev": 4670 }
+ ],
+ "kpiBlocks": [
+  ["1   AUTOMOTIVE (STANDALONE)", [["autoRev", "Segment revenue", "₹ cr", 1], ["autoPbit", "Segment PBIT", "₹ cr", 0, "autoRev"], ["esuvRev", "e-SUVs built for MEAL (revenue)", "₹ cr"], ["vehicles", "Vehicles sold, company basis (incl. LMM, MEAL)", "nos", 1], ["mealBev", "of which e-SUVs sold by MEAL", "nos", 1], ["suvRevShare", "SUV revenue market share", "%"]]],
+  ["2   FARM EQUIPMENT (STANDALONE)", [["farmRev", "Segment revenue", "₹ cr", 1], ["farmPbit", "Segment PBIT", "₹ cr", 0, "farmRev"], ["tractors", "Tractors sold (domestic + exports)", "nos", 1], ["tractorShare", "Domestic tractor market share", "%"]]],
+  ["3   GROUP COMPANIES", [["invIncome", "Income from investments in group companies", "₹ cr"]]]
+ ]
+}

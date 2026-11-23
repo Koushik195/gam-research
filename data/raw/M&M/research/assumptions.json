@@ -1,0 +1,247 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Mahindra & Mahindra, STANDALONE basis (auto + farm equipment; INR crore). Base year FY26A = Screener standalone after M&M.patch.js (revenue = revenue from operations; investment income from group companies moved to other income). Subsidiaries (Tech Mahindra, M&M Finance, MEAL, listed and unlisted group companies) are valued in the sum of the parts (tools/authoring/M&M.ctx.js); M&M.sotp.js writes the SOTP into the P/E primary method as an implied multiple of standalone Sep-28E EPS.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "businessLines": {
+  "_why": "Volume x realisation build, checked against model revenue in M&M.ctx.js. FY26 base on the company's volume basis (monthly sales releases and Q1FY27 press release): domestic UVs 6,60,276 of which MEAL e-SUVs 51,820 (made by M&M under contract and sold to MEAL at full vehicle value: AR FY26 related-party note, sale of goods to MEAL Rs12,413 cr); pickups and LCVs <3.5T 2,64,745 domestic (2-3.5T 2,51,477 + <2T 38,120 less 24,852 Jeeto sold by LMM) plus trucks & buses 14,832; exports 40,990. Standalone automotive revenue Rs1,09,355 cr less e-SUV Rs12,413 cr = Rs96,942 cr over 9,29,023 ICE/LCV/export units = Rs10.435 lakh per vehicle. Tractors 5,26,403 (domestic 5,05,930 + exports 20,473); farm revenue Rs36,409 cr = Rs6.917 lakh per tractor including farm machinery, Powerol and spares. Inter-segment elimination 0.13% (FY26 Rs188 cr).",
+  "lines": [
+   {
+    "key": "iceSuv",
+    "name": "ICE SUVs, domestic (units)",
+    "base": 608456,
+    "units": [
+     675000,
+     723000,
+     765000
+    ],
+    "_why": "Apr-Aug FY27 domestic UVs 2,94,050 (+22%) incl. e-SUVs; ICE SUV capacity 56.5k/month at FY26 exit, 60k from Sep-2026, +10k by Mar-2027 reserved for FY28 NU_IQ launches (Q1FY27 deck slide 37). FY27 ~+11% is capacity-bound; FY28-29 +7%/+6% as NU_IQ adds a new segment and Chakan reaches 92k/month total by FY28 exit; Nagpur (20k/month) only from H1CY29 (FY30)."
+   },
+   {
+    "key": "esuv",
+    "name": "e-SUVs made for MEAL (units)",
+    "base": 51820,
+    "units": [
+     88000,
+     130000,
+     155000
+    ],
+    "_why": "Q1FY27 19,540 (+77%); BEV capacity 8k/month from Sep-2026, 12k by Mar-2027 for the FY28 INGLO launch. FY27 ~19.5k/21k/23k/24k a quarter."
+   },
+   {
+    "key": "lcv",
+    "name": "Pickups, LCVs <3.5T and trucks & buses, domestic (units)",
+    "base": 279577,
+    "units": [
+     315900,
+     338000,
+     361700
+    ],
+    "_why": "Apr-Aug LCV 2-3.5T +19%, <2T +32% on a GST-cut base (CVs 28% to 18% from 22-Sep-2025); management guides high-single-digit industry growth for FY27 (Q4FY26/Q1FY27 calls via MOSL 30-Jul-2026). +13% / +7% / +7%."
+   },
+   {
+    "key": "exports",
+    "name": "Vehicle exports (units)",
+    "base": 40990,
+    "units": [
+     57400,
+     67700,
+     77900
+    ],
+    "_why": "Apr-Aug FY27 exports 26,012 (+63%); +40% FY27 then +18% / +15%."
+   },
+   {
+    "key": "tractors",
+    "name": "Tractors, domestic + exports (units)",
+    "base": 526403,
+    "units": [
+     547500,
+     536500,
+     563300
+    ],
+    "_why": "Apr-Aug FY27 +16% (domestic +17%, exports +9%) on GST cut (12% to 5%, Sep-2025) and labour shortages; but H2FY26 was +31% for the industry and the 2026 monsoon was 87% of LPA (IMD, 30-Sep-2026; June 65%). Management guided mid-single-digit industry growth for FY27. FY27 +4% (Sep-Mar ~-2%), FY28 -2% (El Nino year after a high base), FY29 +5%."
+   }
+  ],
+  "realisation": {
+   "iceLakh": {
+    "base": 10.435,
+    "growth": [
+     4.5,
+     3,
+     3
+    ],
+    "_why": "Price increases of ~1.5% (Apr) and 2.7% average (mid-Jul-2026) for 400-500bp of commodity inflation (Q1FY27 call); Q1FY27 ex-e-SUV realisation +3.6% YoY. Then ~2% price + ~1% SUV mix."
+   },
+   "esuvLakh": {
+    "base": 23.954,
+    "growth": [
+     0,
+     -1,
+     0
+    ],
+    "_why": "Q1FY27 contract revenue Rs4,670 cr for 19,540 units = Rs23.9 lakh; FY28 slightly lower on a cheaper INGLO model."
+   },
+   "tractorLakh": {
+    "base": 6.917,
+    "growth": [
+     3,
+     3,
+     3
+    ],
+    "_why": "Rs15,000-a-tractor increase in Aug-2026 (~2%), shift to 40-50HP (69-70% of Q1FY27 mix), farm machinery +17% in Q1FY27."
+   },
+   "elimPct": -0.13
+  }
+ },
+ "revenueGrowth": [
+  19.64,
+  12.94,
+  11.03
+ ],
+ "_revenueWhy": "Sum of the business-line build (volume x realisation): auto +24% / +16% / +12%, farm +7% / +1% / +8%. Q1FY27 standalone revenue +23%; Aug-2026 vehicles +42% on a weak pre-GST-cut base.",
+ "ebitdaMargin": [
+  12.8,
+  13.4,
+  13.6
+ ],
+ "_marginWhy": "Core EBITDA (excluding investment income) 14.4% in FY26, 12.2% in Q1FY27 after 400-500bp of commodity inflation in auto, 300bp+ in farm and an 85bp hedging loss. Management: Q1 is the low point for auto; farm under pressure in Q2 (steel +24%, rubber +30% YTD). FY27 ~12.5% in H1, ~13.3% in H2. FY28-29 recover only to 13.4-13.6%, not to 14.4%: e-SUV contract revenue (near-zero margin in M&M) rises from 11% to ~20% of auto revenue, and the tractor cycle turns.",
+ "capex": [
+  8000,
+  9500,
+  10000
+ ],
+ "_capexWhy": "FY26 Rs6,308 cr; Chakan ICE/BEV/NU_IQ capacity (64.5k to 92k units a month by FY28 exit) and the Nagpur greenfield (Rs15,000 cr over ten years, first 20k/month by H1CY29). ICICI Direct models Rs8,000 cr a year for FY27-28.",
+ "depRateOnGrossBlock": 8.75,
+ "_depWhy": "FY26 Rs4,293 cr = 9.5% of average gross block; Q1FY27 Rs1,050 cr. 8.75% on the larger gross block gives ~Rs4,450 cr in FY27 (CWIP is held flat in the engine).",
+ "treasuryYield": [
+  7.5,
+  7.5,
+  7.5
+ ],
+ "_treasuryWhy": "Applied by the engine to cash + ALL investments - debt (Rs58,859 cr at Mar-26), which includes Rs27,547 cr of group investments at cost; the otherIncome line removes the yield on those. Liquid funds Rs32,965 cr gross (bank deposits Rs17,719 cr, cash Rs761 cr, mutual funds and bonds Rs14,485 cr). FY26 treasury income Rs2,451 cr (interest Rs1,360 cr + fair-value gains Rs1,088 cr + other) on ~Rs28,400 cr average = 8.6%, flattered by mark-to-market gains; 7.5% assumed.",
+ "otherIncome": [
+  284,
+  209,
+  134
+ ],
+ "_otherIncomeWhy": "Built: income from group companies (dividends from Tech Mahindra, M&M Finance, Swaraj and others plus interest on loans to subsidiaries: FY26 Rs2,190 cr incl. Rs208 cr of stake-sale gains) Rs2,100 / 2,250 / 2,400 cr + rent and other non-operating income Rs250 cr - 7.5% on group investments carried at cost inside the engine's treasury (Rs27,547 cr + Rs3,000 cr a year of new investment, mainly the Rs8,975 cr still to be invested in MEAL) = Rs2,066 / 2,291 / 2,516 cr. No impairment of investments is forecast (FY24-26: Rs253 / 848 / 677 cr).",
+ "groupIncome": [
+  2100,
+  2250,
+  2400
+ ],
+ "groupInvestment": {
+  "atCostFY26": 27547,
+  "perYear": [
+   3000,
+   3000,
+   3000
+  ],
+  "_why": "Non-current investments net of impairment Rs27,547 cr (AR FY26 note 8). M&M has approved Rs15,925 cr for MEAL, Rs6,950 cr invested by Mar-26 (AR FY26 AGM notice); ICICI Direct models Rs2,000-3,000 cr a year."
+ },
+ "interest": [
+  300,
+  280,
+  280
+ ],
+ "_interestWhy": "FY26 Rs250 cr (incl. leases); Q1FY27 Rs100 cr. Gross debt Rs1,653 cr incl. Rs597 cr of leases; Rs475 cr NCD matured 25-Sep-2026.",
+ "taxRate": [
+  24.5,
+  24.5,
+  24.5
+ ],
+ "_taxWhy": "Effective rate 24.2% FY26, 24.3% FY25, 22.8% Q1FY27 (new regime 25.17%; dividends from subsidiaries passed on to shareholders are deductible under s.80M).",
+ "payout": [
+  26,
+  26,
+  26
+ ],
+ "_payoutWhy": "FY26 dividend Rs33/share = Rs4,104 cr, 26% of standalone PAT; FY25 26.5%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.95,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 13,
+  "fadeCapexPctTo": 4.5,
+  "depPctOfSales": 3.2,
+  "rollForwardMonths": 6,
+  "_why": "Cost of equity 6.5% + 0.95 x 6% = 12.2% (cyclical autos and tractors; no net debt, so WACC = Ke). The engine adds cash AND group investments at cost; the report's DCF cross-check replaces investments at cost with their sum-of-the-parts value.",
+  "_betaWhy": "0.95: M&M's businesses are cyclical (rural income, commodities) but it has net cash.",
+  "_tgWhy": "5.5%: below India's ~10% nominal GDP; autos and tractors mature and face EV disruption.",
+  "_fadeGrowthWhy": "Growth fades from ~11% to 8% by year 15.",
+  "_fadeMarginWhy": "13%: between the FY24 (13.1%) and FY26 (14.4%) core margins, allowing for EVs.",
+  "_fadeCapexWhy": "Capex fades from ~4.6% of revenue to 4.5%."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 0.8,
+   "fadeMarginTo": 14,
+   "narrative": "Commodities ease and the 4.2% of price increases stick: margins back to ~14.4% by FY28; NU_IQ and INGLO launches land on time; tractors avoid an El Nino downturn. MEAL and Last Mile Mobility at their 2026 conversion values (~Rs40,400 cr and ~Rs4,849 cr), holding discount 10%."
+  },
+  "bear": {
+   "label": "Bear",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 11.5,
+   "narrative": "Tractor volumes fall in FY28 after the weak monsoon, SUV growth slows to industry rates as new launches slip and the India-EU trade deal brings cheaper European SUVs; commodity inflation keeps margins near 11-12%. Unlisted companies at cost, holding discount 30%."
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "SOTP (as P/E on standalone EPS)",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 15.3,
+      "bull": 21.82,
+      "bear": 12.71
+     },
+     "why": "How the street values M&M: a sum of the parts (ICICI Direct, Motilal Oswal, Anand Rathi): the standalone auto and farm business on P/E or EV/EBITDA, plus listed subsidiaries at market and unlisted ones at investment value, less a holding discount. The multiple shown is our SOTP value divided by standalone Sep-28E EPS (set by M&M.sotp.js), so the Excel model reproduces the SOTP target."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Standalone FCFF, 15 years, Ke 12.2%, terminal growth 5.5%. The engine adds group investments at cost (a floor); the report replaces them with sum-of-the-parts values."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-27E",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "multiple": {
+      "base": 14,
+      "bull": 16,
+      "bear": 12
+     },
+     "why": "Peer median trailing EV/EBITDA at the 30-Sep-2026 close (14x, Bajaj Auto excluded) on Sep-27E EBITDA, the trailing EBITDA at the target date. Engine value includes group investments at cost; the report replaces them with sum-of-the-parts values."
+    }
+   ]
+  }
+ }
+}
