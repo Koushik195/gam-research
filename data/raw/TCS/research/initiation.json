@@ -1,0 +1,4607 @@
+{
+ "symbol": "TCS",
+ "listing": "NSE: TCS · BSE: 532540",
+ "date": "30 September 2026",
+ "rating": "BUY",
+ "analysts": "GAM Research — IT Services",
+ "cover": {
+  "headline": "Slower for good, priced for decline: AI caps TCS's growth but does not justify 12x earnings",
+  "lead": "TCS is India's largest IT-services company (FY26 revenue ₹2,67,021 cr / US$30,017 m; 25% EBIT margin; ~52% ROE), 71.7% owned by Tata Sons. Its revenue fell 2.4% in constant currency in FY26 as the BSNL contract tapered and clients cut discretionary work, and the stock lost 55% from its 2024 peak as investors concluded that generative and agentic AI will shrink traditional IT services. Our answer to the central question: **both** are true. AI takes 10-15% out of each renewal, so growth will stay well below the 8-10% of the 2010s; but the order book (US$40.7 bn TCV in FY26), new AI work (US$2.6 bn run-rate) and the weak rupee keep earnings growing. We forecast USD revenue +3.3% / +4.2% / +4.8% and EPS of ₹157.2 / ₹167.1 / ₹178.9 for FY27-29E, ~4% above the street in FY28E. The street values TCS on **P/E, 14-15x FY28E**. Our multiple is derived from TCS's 26.0x median forward P/E since 2021, cut by the sector's 29% de-rating (TCS itself is 53% below its median): **18.5x Sep-28E EPS of ₹173.0 gives {{dcf.tp|inr}} ({{dcf.upside|chg}}): we initiate with BUY.** Cross-checks: EV/EBITDA ₹2,975, DCF ₹2,835. Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "Growth is slower for good",
+    "p": "FY26 CC growth was −2.4%, the widest gap to peers on record; Q1FY27 recovered to +3.2% YoY but only +0.4% QoQ. TCS passes 10-15% productivity to clients at each renewal. We model USD growth of 3.3 / 4.2 / 4.8% for FY27-29E, below the \"high single digit\" management hopes for once deflation is absorbed."
+   },
+   {
+    "h": "The franchise is intact",
+    "p": "TCV US$40.7 bn in FY26 with five mega deals, plus the US$800 m+ SKF win in Q1; 66 clients over US$100 m a year (from 62); FY26 EBITDA margin 27% vs Infosys 24%, HCLTech 21%, Wipro 19%; AI services US$2.6 bn annualised, +14% a quarter. TCS is losing hours, not clients."
+   },
+   {
+    "h": "The rupee and payouts carry the return",
+    "p": "FY27E EPS +7.7% on FY26's ₹145.99 adjusted base, almost all from the rupee (₹95.4 vs ₹89.0 per dollar). TCS returns ~90% of earnings: ₹110 a share in FY26, a 5.4% dividend yield at ₹2,051. EPS compounds ~7.0% a year to FY29E."
+   },
+   {
+    "h": "Valuation: priced as if it were shrinking",
+    "p": "At ₹2,051 TCS trades at 12.3x FY28E (its lowest forward P/E in ten years; 26.4x median since 2021), a price consistent with only ~3.4% a year rupee earnings growth forever. Our 18.5x applies only the sector's de-rating; the street's 14-15x and today's price assume TCS deserves a much bigger discount (its own −53% gives 12.2x, about the current price)."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBIT margin",
+    "ebitMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "GREEN"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "AMBER"
+   },
+   {
+    "k": "Competitive position",
+    "v": "AMBER"
+   },
+   {
+    "k": "Valuation",
+    "v": "GREEN"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due in October 2026): whether CC growth reaches ~1% QoQ as management's \"Q2 better than Q1\" implies, and margin climbs from 24.0% towards the 25%+ exit.",
+   "AI revenue and deal conversion: the AI run-rate (US$2.6 bn), SKF and UK-telecom ramps, and the BSNL add-on purchase order (final PO awaited in Sep-2026).",
+   "Capital allocation: a buyback \"remains an option\" at a price far below the 2022-23 buybacks (₹4,150-4,500); MHP closing and HyperVault funding.",
+   "Rupee and macro: INR ~₹95.8 per dollar on 30-Sep-2026; West Asia conflict, tariffs and US discretionary spending.",
+   "AI model launches: the February 2026 sell-off showed how each new agentic-AI release moves IT stocks, whatever the near-term numbers."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Constant-currency growth: negative for most of FY26",
+       "unit": "CC revenue growth, YoY (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "CC growth",
+         "values": [
+          4.4,
+          5.5,
+          4.5,
+          2.5,
+          -3.1,
+          -3.3,
+          -2.6,
+          -0.6,
+          3.2
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "TCS fact sheets"
+      },
+      {
+       "type": "column",
+       "title": "US dollar revenue: flat for three years, ~4% growth in our forecasts",
+       "unit": "Revenue (US$ m)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "USD revenue",
+         "values": [
+          22174,
+          25707,
+          27927,
+          29080,
+          30179,
+          30017,
+          30999,
+          32308,
+          33844
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "TCS fact sheets; GAM estimates FY27-29E"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBIT margin: 24-25%, through a revenue decline",
+       "unit": "Operating (EBIT) margin before exceptional items (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBIT margin",
+         "values": [
+          24.7,
+          24.1,
+          24.5,
+          24.2,
+          24.5,
+          25.2,
+          25.2,
+          25.3,
+          24
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 20,
+       "max": 28,
+       "source": "TCS fact sheets"
+      },
+      {
+       "type": "line",
+       "title": "The rupee did the growing: ₹83 to ₹95 per dollar",
+       "unit": "Effective ₹ per US$ (TCS revenue basis)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "₹ per US$",
+         "values": [
+          83.43,
+          83.78,
+          84.86,
+          86.38,
+          85.48,
+          88.13,
+          89.34,
+          92.77,
+          94.8
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "min": 80,
+       "max": 100,
+       "source": "TCS fact sheets; GAM calculation"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Order intake holds at US$9-12 bn a quarter",
+       "unit": "TCV signed (US$ m)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "TCV",
+         "values": [
+          8300,
+          8600,
+          10200,
+          12200,
+          9400,
+          10000,
+          9300,
+          12000,
+          9500
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "TCS fact sheets"
+      },
+      {
+       "type": "column",
+       "title": "EPS: ₹136 reported (₹146 before one-offs) in FY26, ₹179 by FY29E",
+       "unit": "EPS (₹; FY26 reported)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EPS",
+         "ref": "fin.eps",
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; GAM estimates FY27-29E"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward P/E: ~12x now vs 26.0x median since 2021",
+       "unit": "Price ÷ next full-year EPS before one-offs (x)",
+       "x": [
+        "2016-04-08",
+        "2016-05-13",
+        "2016-06-17",
+        "2016-07-22",
+        "2016-08-26",
+        "2016-09-30",
+        "2016-11-04",
+        "2016-12-09",
+        "2017-01-13",
+        "2017-02-17",
+        "2017-03-24",
+        "2017-04-28",
+        "2017-06-02",
+        "2017-07-07",
+        "2017-08-11",
+        "2017-09-15",
+        "2017-10-19",
+        "2017-11-24",
+        "2017-12-29",
+        "2018-02-02",
+        "2018-03-09",
+        "2018-04-13",
+        "2018-05-18",
+        "2018-06-22",
+        "2018-07-27",
+        "2018-08-31",
+        "2018-10-05",
+        "2018-11-09",
+        "2018-12-14",
+        "2019-01-18",
+        "2019-02-22",
+        "2019-03-29",
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward P/E",
+         "values": [
+          18,
+          18.7,
+          19.3,
+          18.6,
+          18.7,
+          18,
+          17.3,
+          16.3,
+          16.7,
+          17.8,
+          18,
+          13.6,
+          15.3,
+          13.9,
+          14.9,
+          14.9,
+          15.4,
+          16,
+          16.1,
+          18.8,
+          18.1,
+          18.3,
+          20.3,
+          21,
+          22.6,
+          24.1,
+          24.4,
+          22.2,
+          23.1,
+          22.1,
+          22.3,
+          23.2,
+          24.3,
+          24.9,
+          24,
+          24.7,
+          23.6,
+          24.1,
+          23.4,
+          25.1,
+          24.4,
+          20.6,
+          17.2,
+          19.3,
+          20.2,
+          21.8,
+          21.9,
+          26.9,
+          25.5,
+          27.3,
+          31.5,
+          27.6,
+          27.5,
+          27.2,
+          28.4,
+          27.7,
+          30.9,
+          33.6,
+          29.5,
+          31.6,
+          33.5,
+          32.1,
+          31.9,
+          28.1,
+          25.3,
+          25.7,
+          26.1,
+          25,
+          24.1,
+          26,
+          25.1,
+          26.5,
+          26,
+          24,
+          24.4,
+          23.7,
+          25.1,
+          25.2,
+          26.3,
+          25,
+          27,
+          28.9,
+          30.8,
+          29.1,
+          26.2,
+          25.1,
+          27.5,
+          29,
+          31,
+          28.2,
+          29.1,
+          28.5,
+          27.9,
+          24.7,
+          20.6,
+          22.7,
+          21.9,
+          20,
+          19.6,
+          18.5,
+          19,
+          20.5,
+          20.4,
+          17.1,
+          15.2,
+          14.8,
+          13.2,
+          12.4,
+          14.1,
+          12.6
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 26,
+         "text": "Median since 2021: 26.0x"
+        }
+       ],
+       "source": "Screener.in prices; EPS before one-offs, GAM estimates FY27-29E"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (Jul-Sep 2026)",
+       "unit": "₹ per share; CMP ₹2,051",
+       "x": [
+        "Motilal Oswal",
+        "Prabhudas Lilladher",
+        "ICICI Direct",
+        "Emkay",
+        "BOBCAPS",
+        "Choice Institutional",
+        "Religare",
+        "Street median (36 targets)",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          2350,
+          2500,
+          2200,
+          2600,
+          1985,
+          2320,
+          2825,
+          2400,
+          3200
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes with published estimates (9-11 Jul 2026); Business Today roundups; GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What TCS does",
+   "kicker": "The business",
+   "title": "India's largest IT services firm: US$30 bn of revenue, 594,000 people, 55 countries",
+   "blocks": [
+    {
+     "p": "TCS builds, runs and changes the technology of large companies. Most of its revenue comes from multi-year contracts to develop and maintain applications, run infrastructure and cloud, implement enterprise software (SAP, Salesforce, Oracle, ServiceNow), test software, secure systems and run back-office processes, with a growing layer of consulting and AI work. It sells by industry: **banks and insurers (BFSI) are 32% of revenue**, consumer businesses (retail, consumer goods, travel) 15.5%, life sciences and healthcare 10.4%, manufacturing 8.8%, technology companies 8.4%, telecoms and media 5.8%, energy and utilities 6%, and \"regional markets\" (India, public sector, products) 13.1%. By market, **North America is 48.6%**, the UK 17.4%, continental Europe 15.4% and India only 5.9%. About 48.7% of revenue is billed in dollars, 15.1% in pounds and 11.9% in euros (Q1FY27)."
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "BFSI is a third of revenue",
+       "unit": "Share of FY26 revenue (%)",
+       "x": [
+        "BFSI",
+        "Consumer Business",
+        "Life Sciences & Healthcare",
+        "Manufacturing",
+        "Technology & Services",
+        "Communication & Media",
+        "Energy, Resources & Utilities",
+        "Regional Markets & Others"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          32,
+          15.5,
+          10.4,
+          8.8,
+          8.4,
+          5.8,
+          6,
+          13.1
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "BFSI",
+       "source": "Q4FY26 fact sheet"
+      },
+      {
+       "type": "hbar",
+       "title": "Two-thirds of revenue from the US and UK",
+       "unit": "Share of FY26 revenue (%)",
+       "x": [
+        "North America",
+        "Latin America",
+        "UK",
+        "Continental Europe",
+        "Asia Pacific",
+        "India",
+        "Middle East & Africa"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          48.6,
+          1.9,
+          17.4,
+          15.4,
+          8.3,
+          5.9,
+          2.5
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "North America",
+       "source": "Q4FY26 fact sheet"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scale, clients and assets",
+      "head": [
+       "",
+       "Detail"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Revenue",
+        "₹2,67,021 cr / US$30,017 m in FY26; Q1FY27 ₹72,275 cr / US$7,624 m"
+       ],
+       [
+        "Clients",
+        "66 clients paying over US$100 m a year, 139 over US$50 m, 504 over US$10 m and 1,401 over US$1 m (Q1FY27, last twelve months)"
+       ],
+       [
+        "People",
+        "5,93,798 employees (35% women, 148 nationalities); voluntary attrition 13.6% (LTM); 202 delivery centres in 55 countries"
+       ],
+       [
+        "Order book",
+        "TCV US$40.7 bn in FY26 (US$39.4 bn FY25, US$42.7 bn FY24); US$9.5 bn in Q1FY27 incl. an US$800 m+ net-new deal with SKF"
+       ],
+       [
+        "AI",
+        "Annualised AI services revenue US$2.6 bn (+13.6% QoQ), ~8.5% of revenue; partnerships with Anthropic (50,000 Claude licences), OpenAI, Mistral, Google, ServiceNow, AMD"
+       ],
+       [
+        "Products and platforms",
+        "TCS BaNCS (banking and capital-markets software), ignio (AI operations), iON (education and assessments), Quartz (blockchain); a small share of revenue"
+       ],
+       [
+        "New businesses",
+        "HyperVault (AI data centres, 51% with TPG 49%; OpenAI 100 MW anchor); Salesforce practice built by acquisition (ListEngage, Coastal Cloud); MHP (Porsche consulting) agreed in Aug-2026"
+       ]
+      ],
+      "source": "Q1FY27 fact sheet and press release; Q4FY26 fact sheet; AR FY26"
+     }
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From a Tata Sons division to India's most valuable IT company, and the slowest years in its listed life",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1968",
+        "Founded as Tata Computer Systems, a division of Tata Sons",
+        "Origin of the Tata Sons majority (71.7% today)"
+       ],
+       [
+        "Aug-2004",
+        "IPO; listed on NSE/BSE",
+        "Tata Sons stays the controlling holder"
+       ],
+       [
+        "2017-2023",
+        "Five buybacks: ₹16,000 cr (2017, 2018, 2020), ₹18,000 cr (2022), ₹17,000 cr (2023, at ₹4,150)",
+        "Share count down from ~197 cr (pre-2018 1:1 bonus, i.e. ~394 cr post-bonus) to 361.8 cr"
+       ],
+       [
+        "Jun-2018",
+        "1:1 bonus issue",
+        "Per-share history adjusted by Screener"
+       ],
+       [
+        "FY22-23",
+        "Post-Covid boom: CC growth 15.4% (FY22) and 13.7% (FY23); headcount +1.26 lakh to 614,795",
+        "USD revenue US$22.2 bn (FY21) to US$27.9 bn (FY23); attrition peaked ~20%"
+       ],
+       [
+        "May-2023",
+        "BSNL 4G advance purchase order (>₹15,000 cr) as consortium lead",
+        "India revenue 5.0% (FY23) to 8.6% (FY25), then -28.6% CC in FY26 as it tapered"
+       ],
+       [
+        "Jun-2023",
+        "K Krithivasan succeeds Rajesh Gopinathan as CEO & MD",
+        "Management continuity (TCS veteran since 1989)"
+       ],
+       [
+        "Q3FY24",
+        "Epic Systems legal settlement, ₹958 cr exceptional",
+        "FY24 EPS cut ~1.5%"
+       ],
+       [
+        "Jul-2025",
+        "Restructuring: ~12,000 roles (2%) released; ₹1,388 cr charge in FY26",
+        "Headcount 613,069 (Jun-25) to 582,163 (Dec-25)"
+       ],
+       [
+        "Oct-2025 to Jan-2026",
+        "Salesforce acquisitions: ListEngage (US$69 m) and Coastal Cloud (US$707 m, closed 14-Jan-2026); HyperVault formed; TPG to fund 49%",
+        "₹6,770 cr acquisition cash in FY26; goodwill ₹1,860 cr to ₹9,108 cr"
+       ],
+       [
+        "Nov-2025 to Jan-2026",
+        "Labour Codes notified (₹2,128 cr charge); CSC/DXC judgement upheld (₹1,010 cr + ₹342 cr interest)",
+        "FY26 reported EPS ₹136.0 vs ₹146.0 before one-offs"
+       ],
+       [
+        "Feb-2026",
+        "Nifty IT -19.5% in the month after Anthropic's agentic AI launches; US-Iran war from 28-Feb-2026",
+        "TCS from ~₹3,190 (end-Jan) to ~₹2,390 (end-Mar-2026)"
+       ],
+       [
+        "Jun-Jul 2026",
+        "US Supreme Court denies TCS's CSC petition; further ₹668 cr charge in Q1FY27",
+        "Q1FY27 EPS ₹36.9 reported vs ₹38.3 before it"
+       ],
+       [
+        "Aug-2026",
+        "MHP (Porsche's consulting arm) acquisition at EUR320 m EV with a Porsche AI transformation deal",
+        "Inorganic growth from FY28; not in our numbers"
+       ]
+      ],
+      "source": "TCS annual reports and fact sheets; AR FY26 notes 20, 25, 26 and Board's report; ICICI Direct (17-Nov-2023, buybacks); Tribune (22-May-2023, BSNL); BT (28-Jul-2025; 24-Feb-2026); Business Standard via search (6-Mar-2026, Nifty IT Feb fall); Outlook Business (16-Jun-2026); Trendlyne (25-Aug-2026)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "One-off items in reported profit (₹ crore, before tax)",
+      "head": [
+       "Year",
+       "Item",
+       "Amount",
+       "EPS effect"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "FY24",
+        "Epic Systems legal settlement",
+        "958",
+        "Net income ₹46,585 cr before vs ₹45,908 cr reported"
+       ],
+       [
+        "FY26",
+        "Restructuring (severance)",
+        "1,388",
+        ""
+       ],
+       [
+        "FY26",
+        "Statutory impact of the new Labour Codes",
+        "2,128",
+        ""
+       ],
+       [
+        "FY26",
+        "CSC/DXC legal claim (+ ₹342 cr interest in finance costs)",
+        "1,010 + 342",
+        "EPS ₹136.01 reported vs ₹145.99 before one-offs"
+       ],
+       [
+        "Q1FY27",
+        "Further CSC/DXC provision after the US Supreme Court",
+        "668",
+        "EPS ₹36.9 vs ₹38.28"
+       ]
+      ],
+      "source": "AR FY26 (P&L, notes 20, 25, 26); Q4FY24 and Q1FY27 fact sheets and press release"
+     }
+    },
+    {
+     "callout": "**Corporate actions and per-share data:** five buybacks (2017-2023) and a 1:1 bonus (2018); 361.8 cr shares since the Dec-2023 buyback. Screener's \"Net Profit\" includes minorities (~0.5% of profit) and its EPS excludes them, so the implied share count is 363.6 cr; the gap is below 1%, so we use Screener's data unchanged and our EPS is on the attributable basis. Screener nets exceptional items into \"other income\" (FY26: −₹124 cr). Our forecasts and forward P/E history exclude the one-offs above (we show both)."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "A low-growth market in the middle of a technology shift",
+   "blocks": [
+    {
+     "p": "IT services is a ~US$1.5 trillion global market (Gartner, ex-cloud infrastructure) growing ~4-5% a year in dollars. Indian firms win share because they deliver from India at a fraction of onshore cost; the top five (TCS, Infosys, HCLTech, Wipro, Tech Mahindra) earn most of their revenue from US and European banks, retailers, manufacturers and tech firms. Growth comes in waves: the 2021-22 cloud-and-digital boom (TCS +15% in constant currency) was followed by three years of cuts to discretionary projects, and since late 2024 by generative and then agentic AI, which can write code, test software and run IT operations with fewer people. That is good for clients and for whoever builds the new systems, and bad for revenue that is billed by the hour or by the head."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Forces acting on IT services (as of 30-Sep-2026)",
+      "head": [
+       "Theme",
+       "Direction",
+       "What it means for TCS"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Market growth",
+        "Slow, positive",
+        "Gartner (27-Jul-2026): worldwide IT services spend +5.3% in 2026 to US$1,570 bn (ex-IaaS), +3.8% in 2025. NASSCOM (24-Feb-2026): Indian tech revenue +6.1% to ~US$315 bn in FY26, FY27 'similar'. ICRA (27-Feb-2026): Indian IT USD growth 2-3% in FY26, 3-4% in FY27. A low-single-digit market for the largest vendor."
+       ],
+       [
+        "Spend moving to AI infrastructure and software",
+        "Headwind, structural",
+        "Gartner: data-centre systems +62.5%, software +15.5%, IaaS +29% in 2026 vs services +5.3%; services fall from 26.8% to 24.7% of IT spend (GAM calculation). BCG IT Spending Pulse (17-Sep-2026): IT budgets +5.8% but the IT-services outlook fell 19 points vs H2-2025, a 'reallocation'. The incremental dollar goes to GPUs, models and software (Kotak, 29-Apr-2026)."
+       ],
+       [
+        "AI productivity passed to clients",
+        "Headwind, structural",
+        "TCS: 10-15% productivity gain passed on 'in most places' as contracts renew (Q1FY27 call). HCLTech (Apr-2026): 3-5% deflation in AI-disrupted services, 2-3% for its portfolio; a 'US$100 m deal would be ~US$80 m today'. Kotak base case 3.5% pricing erosion, first in large multi-year renewals. HFS (30-Jun-2026): clients renegotiate within 24 months, not at renewal. ISG (9-Jul-2026): 'pricing deflation and more provider-funded, AI-powered transformation embedded within contracts'."
+       ],
+       [
+        "New AI work",
+        "Tailwind, growing",
+        "TCS AI services run-rate US$1.5 bn (Q2FY26) to US$2.6 bn (Q1FY27), ~8.5% of revenue; HCLTech advanced-AI revenue US$171 m, +62% YoY (Q1FY27); Infosys AI 8.2% of revenue (Q1FY27). TCS: AI work earns 'much better' revenue productivity; legacy-modernisation deals of US$5-10 m see no pricing pressure (JM Financial, 8-Sep-2026)."
+       ],
+       [
+        "Discretionary spending and macro",
+        "Headwind, cyclical",
+        "US-Iran war from 28-Feb-2026; Accenture lost ~US$100 m of revenue to the Middle East conflict in its May-2026 quarter; Cognizant cut its 2026 guide to +4.0-5.5% CC as discretionary spend stayed tight (29-Jul-2026); Infosys trimmed FY27 guidance to 1.5-3.0% CC (23-Jul-2026); TCS clients deferred projects in Q1FY27. Brent ~US$97 on 30-Sep-2026."
+       ],
+       [
+        "Vendor consolidation and mega deals",
+        "Tailwind for scale players",
+        "TCS: six mega deals in five quarters, FY26 TCV US$40.7 bn (FY25 US$39.4 bn); HCLTech record Q1 bookings US$2.41 bn; Cognizant trailing book-to-bill 1.3x; Accenture 104 clients with US$100 m+ bookings in nine months (+13%). But ISG: mega-deal ACV -27% in Q2-2026 and Americas managed services -12%."
+       ],
+       [
+        "Global capability centres (GCCs)",
+        "Mixed",
+        "Clients in-source work to their own Indian centres; TCS launched a GCC build-operate-transfer business unit (Q1FY27). BCG: net supplier consolidation in every category except AI/ML."
+       ],
+       [
+        "Rupee",
+        "Tailwind",
+        "INR/USD from ~85.5 (Q1FY26 average) to 94.8 (Q1FY27) and 95.83 (30-Sep-2026 close, with RBI selling dollars; 5paisa): ~10% more rupees per dollar of revenue, ~110 bp of margin help in Q4FY26 (TCS)."
+       ]
+      ],
+      "source": "Gartner releases (3-Feb-2026, 22-Apr-2026 and 27-Jul-2026; via TelecomTV); NASSCOM via DQIndia and Reuters (24-Feb-2026); ICRA (27-Feb-2026); BCG (17-Sep-2026); Kotak via Tribune (29-Apr-2026); HFS (30-Jun-2026); ISG Index (9-Jul-2026); HCLTech, Infosys, Wipro, Cognizant, Accenture releases and calls (Apr-Jul 2026); TCS calls; 5paisa (30-Sep-2026)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Q1FY27: all large-caps grew ~14% in rupees, mostly currency",
+       "unit": "Revenue growth, Jun-2026 quarter, YoY (₹, %)",
+       "x": [
+        "TCS",
+        "Infosys",
+        "HCLTech",
+        "Wipro",
+        "Tech Mahindra",
+        "LTIMindtree (LTM)",
+        "Mphasis",
+        "Persistent",
+        "Coforge"
+       ],
+       "series": [
+        {
+         "name": "Growth",
+         "values": [
+          13.9,
+          14,
+          13.9,
+          10.6,
+          17.7,
+          18,
+          17.5,
+          29.1,
+          49.2
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "TCS",
+       "source": "Screener.in (consolidated revenue)"
+      },
+      {
+       "type": "hbar",
+       "title": "Over three years TCS grew slower than most peers",
+       "unit": "Revenue growth, FY23-26, a year (₹, %)",
+       "x": [
+        "TCS",
+        "Infosys",
+        "HCLTech",
+        "Wipro",
+        "Tech Mahindra",
+        "LTIMindtree (LTM)",
+        "Mphasis",
+        "Persistent",
+        "Coforge"
+       ],
+       "series": [
+        {
+         "name": "CAGR",
+         "values": [
+          5.8,
+          6.8,
+          8.7,
+          0.8,
+          2.2,
+          8.4,
+          4.8,
+          20.9,
+          27
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "TCS",
+       "source": "Screener.in (consolidated)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aiquestion",
+   "nav": "The AI question",
+   "kicker": "The central question",
+   "title": "Cycle or de-rating? Both, but the price assumes almost no growth",
+   "blocks": [
+    {
+     "p": "This is the question that decides the stock. TCS fell from ~₹3,190 at the end of January 2026 to ₹2,051 on 30-Sep-2026 (−55% from its 2024 peak), and its one-year-forward P/E from ~20x to ~12x. Two stories explain it. **The cyclical story:** clients have cut discretionary projects for three years, the US-Iran war from late February 2026 and tariffs added uncertainty, and TCS had a company-specific hole: the BSNL network contract, which lifted India to 8.6% of revenue in FY25, tapered in FY26 (India −28.6% in constant currency, ~2.5 points of TCS's −2.4%). **The structural story:** AI lets clients get the same work done with fewer people, so every renewal of an application-maintenance or IT-operations contract is repriced lower, and new money flows to chips, data centres and AI software rather than services."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The evidence, both ways",
+      "head": [
+       "Evidence",
+       "Points to",
+       "Source"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Nifty IT -19.5% in Feb-2026, its worst month since Sep-2008, after Anthropic's Claude Cowork plugins (30-Jan) and Claude Code COBOL modernisation post (24-Feb)",
+        "Market fears structural",
+        "Business Standard via search (6-Mar-2026); BT (4-Feb, 24-Feb-2026)"
+       ],
+       [
+        "TCS passes 10-15% productivity to clients at renewal, mostly offset by extra scope; it 'cannot say' how much of the book has repriced",
+        "Structural, being absorbed",
+        "TCS Q1FY27 call (9-Jul-2026)"
+       ],
+       [
+        "HCLTech walked away from >US$1 bn of TCV; industry deflation 3-5% in AI-disrupted services; '40% of the industry runs the risk of being disrupted'",
+        "Structural",
+        "HCLTech Q4FY26 call (Apr-2026) via Zerodha Daily Brief and Angel One (29-Apr-2026)"
+       ],
+       [
+        "Infosys cut its FY27 guide on 'softer-than-expected volumes and pricing'",
+        "Structural and cyclical",
+        "Infosys Q1FY27 (23-Jul-2026)"
+       ],
+       [
+        "Gartner: services share of IT spend falls ~2 pts in 2026 while AI infrastructure spend soars",
+        "Structural (reallocation)",
+        "Gartner (27-Jul-2026)"
+       ],
+       [
+        "Wipro: traditional IT and BPO 'budgets are getting compressed'; discretionary 'will come back'",
+        "Both",
+        "Wipro Q1FY27 call (16-Jul-2026)"
+       ],
+       [
+        "Deal wins stay high: TCS TCV US$12.0 bn (Q4FY26) and US$9.5 bn (Q1FY27); record HCLTech Q1 bookings; Tech Mahindra US$1.08 bn (+33%)",
+        "Demand intact; conversion and pricing are the issue",
+        "Company releases (Apr-Jul 2026)"
+       ],
+       [
+        "Accenture: AI 'is going to be a tailwind as it scales'; Middle East conflict cost ~US$100 m of consulting revenue",
+        "Cyclical",
+        "Accenture Q3FY26 call (18-Jun-2026)"
+       ],
+       [
+        "Cognizant: 'financial services is really running hot'; guide cut tied to discretionary spend not improving",
+        "Cyclical",
+        "Cognizant Q2-2026 (29-Jul-2026)"
+       ],
+       [
+        "Kotak: current tier-1 prices imply 3-4% USD growth in perpetuity; calls GenAI deflation a 2-3 year phase",
+        "Priced as structural; may be cyclical",
+        "Kotak via Tribune (29-Apr-2026)"
+       ],
+       [
+        "Management (via JM Financial): high-single-digit growth can return once productivity-led deflation is absorbed",
+        "Cyclical-with-a-transition",
+        "BT (8-Sep-2026)"
+       ]
+      ],
+      "source": "As listed; all published by 30-Sep-2026"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Constant-currency growth: −3% in FY26, +3% in Q1FY27",
+       "unit": "Constant-currency revenue growth, YoY (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "CC growth",
+         "values": [
+          4.4,
+          5.5,
+          4.5,
+          2.5,
+          -3.1,
+          -3.3,
+          -2.6,
+          -0.6,
+          3.2
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "TCS fact sheets"
+      },
+      {
+       "type": "column",
+       "title": "AI services run-rate: US$1.5 bn to US$2.6 bn in three quarters",
+       "unit": "Annualised AI services revenue (US$ m)",
+       "x": [
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "AI run-rate",
+         "values": [
+          1500,
+          1800,
+          2300,
+          2600
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "TCS calls (Q2FY26 = figure quoted at the Nov-2025 analyst day)"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**How big is the deflation?** TCS says renewals pass on 10-15% productivity \"in most places\", spread over a contract's life and usually offset by extra scope. If roughly half its revenue is run-type work renewing every 3-5 years, that is a ~1.5-2.5% a year drag on growth, close to HCLTech's 2-3% estimate for its own book and Kotak's 3.5% base case. It is real and it will last as long as AI keeps improving.",
+      "**What offsets it?** AI work (US$2.6 bn run-rate, ~8.5% of revenue, growing ~14% a quarter but lumpy), modernisation of old systems that AI makes cheaper to replace, vendor consolidation (six mega deals in five quarters) and new lines (HyperVault, Salesforce, MHP). Management's own aim for FY27 is to \"arrest the degrowth\".",
+      "**What is cyclical?** BSNL's fall (over by Q2FY26), the consumer and airline weakness tied to the West Asia conflict, and deferred projects that TCS expects to resume. The deal pipeline is intact: TCV US$40.7 bn in FY26 and US$9.5 bn in Q1FY27."
+     ]
+    },
+    {
+     "callout": "**Our verdict:** both are true, and the structural part means TCS will not return to the 8-10% dollar growth of the 2010s: we model 3.3% / 4.2% / 4.8% USD growth for FY27-29E. But at ₹2,051 the stock trades at 11.9x our Sep-28E EPS; with a ~52% ROE and an 11.6% cost of equity, that price is consistent with only ~3.4% a year rupee earnings growth forever, i.e. roughly flat dollar earnings once the rupee's drift is counted. That is a de-rating priced as if AI shrinks TCS, not one that merely slows it. We think the market has overshot."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: scale and the rupee help; AI spending mostly flows elsewhere",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Enterprise AI adoption",
+       "Partly",
+       "AI services run-rate US$2.6 bn; but ~8.5% of revenue and it cannibalises legacy work.",
+       "Net accretive only from FY28 in our view."
+      ],
+      [
+       "AI infrastructure build-out (GPUs, data centres)",
+       "Not yet",
+       "Most of this spend goes to chip makers and hyperscalers; HyperVault (OpenAI 100 MW) is TCS's attempt to capture some of it, revenue from ~FY28.",
+       "Optional upside; capital-heavy."
+      ],
+      [
+       "Vendor consolidation and mega deals",
+       "Yes",
+       "Six mega deals in five quarters (M&S, a UK telecom operator, a US pharmacy retailer, SKF, others); TCV US$40.7 bn in FY26.",
+       "Scale wins renewals, at lower prices."
+      ],
+      [
+       "BFSI technology spending",
+       "Yes",
+       "BFSI CC +2.4% YoY in Q1FY27, 32% of revenue; US banks \"doing very well\" (CEO).",
+       "The steadiest vertical."
+      ],
+      [
+       "Rupee depreciation",
+       "Yes",
+       "INR/USD 85.5 (Q1FY26) to 94.8 (Q1FY27); ~110 bp margin help in Q4FY26.",
+       "Lifts rupee revenue and margins; not guaranteed."
+      ],
+      [
+       "Discretionary spending recovery",
+       "Not yet",
+       "Clients deferred projects in Q1FY27; consumer, auto and airlines weak.",
+       "The main cyclical lever if it comes."
+      ],
+      [
+       "GCCs (captive centres) in India",
+       "No (headwind)",
+       "Clients in-source work; TCS launched a GCC business unit to sell into it.",
+       "Some work moves out of reach."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "TCS fact sheets, press releases, earnings calls and annual reports; GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "verticals",
+   "nav": "Industries & markets",
+   "kicker": "Segments",
+   "title": "Industries and markets: BFSI and technology carry growth; consumer and Europe lag",
+   "blocks": [
+    {
+     "p": "In FY26 only three of eight industries grew in constant currency: BFSI (+1%), Technology (+2.2%) and Energy & Utilities (+3.1%). Regional Markets fell 14.9% as BSNL tapered, and Communications fell 4.7%. By market, North America was flat (+0.2%), the UK fell 1.9% and continental Europe 0.9%. Q1FY27 was broader: six of eight industries grew year on year, led by Energy & Utilities (+6.9%), Technology and Life Sciences (+3.5% each) and BFSI (+2.4%), while Consumer Business shrank 1.2% after large programmes ended. India rose 22.9% on a low base."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Industries: what they are, how they grew, what we model",
+      "head": [
+       "Industry",
+       "FY26 share",
+       "FY26 CC growth",
+       "Q1FY27 CC YoY",
+       "GAM USD growth FY27E / FY28E",
+       "GAM FY28E revenue (US$ m)",
+       "What drives it"
+      ],
+      "wide": [
+       6
+      ],
+      "rows": [
+       [
+        "BFSI",
+        "32%",
+        "+1%",
+        "+2.4%",
+        "+3.8% / +4.5%",
+        "10,419",
+        "Core modernisation, vendor consolidation; US banks strong"
+       ],
+       [
+        "Consumer Business",
+        "15.5%",
+        "-2%",
+        "-1.2%",
+        "-1.5% / +3%",
+        "4,720",
+        "Large projects ended in Q1; airlines, discretionary retail weak; M&S and US pharmacy-retail mega deals"
+       ],
+       [
+        "Life Sciences & Healthcare",
+        "10.4%",
+        "-1.8%",
+        "+3.5%",
+        "+2.5% / +4%",
+        "3,328",
+        "Declined in Q1 (pharma cost cuts); recovery expected"
+       ],
+       [
+        "Manufacturing",
+        "8.8%",
+        "-0.2%",
+        "+2.9%",
+        "+4% / +6%",
+        "2,912",
+        "Auto soft (tariffs, EV reset); SKF US$800 m+ net-new deal ramps"
+       ],
+       [
+        "Technology & Services",
+        "8.4%",
+        "+2.2%",
+        "+3.5%",
+        "+5% / +5.5%",
+        "2,793",
+        "Software and platform firms; ServiceNow deal"
+       ],
+       [
+        "Communication & Media",
+        "5.8%",
+        "-4.7%",
+        "+1.4%",
+        "+2% / +2.5%",
+        "1,820",
+        "Telecom headwinds; UK operator mega deal (Q4FY26)"
+       ],
+       [
+        "Energy, Resources & Utilities",
+        "6%",
+        "+3.1%",
+        "+6.9%",
+        "+7% / +6%",
+        "2,043",
+        "Energy and utilities transformation; AI data-centre power demand"
+       ],
+       [
+        "Regional Markets & Others",
+        "13.1%",
+        "-14.9%",
+        "+9%",
+        "+5.5% / +3%",
+        "4,273",
+        "India (BSNL fall in FY26, add-on order next), public sector, products"
+       ]
+      ],
+      "source": "TCS fact sheets (Q4FY26, Q1FY27); GAM Research (assumptions.json usdBuild)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "BFSI steady; Regional Markets swung with BSNL",
+       "unit": "Constant-currency growth, YoY (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "BFSI",
+         "values": [
+          -0.9,
+          0.1,
+          0.9,
+          2.5,
+          1,
+          1,
+          1.6,
+          0.4,
+          2.4
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Consumer Business",
+         "values": [
+          -0.3,
+          0.1,
+          1.1,
+          -0.2,
+          -3.1,
+          -2.9,
+          -2.7,
+          0.8,
+          -1.2
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Regional Markets & Others",
+         "values": [
+          37.7,
+          50.4,
+          40.9,
+          22.5,
+          -8.6,
+          -18.1,
+          -19.4,
+          -12.8,
+          9
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "TCS fact sheets"
+      },
+      {
+       "type": "hbar",
+       "title": "Q1FY27 by market: India and Europe up, the UK still down",
+       "unit": "Constant-currency growth, Q1FY27 YoY (%)",
+       "x": [
+        "North America",
+        "UK",
+        "Continental Europe",
+        "India"
+       ],
+       "series": [
+        {
+         "name": "CC growth",
+         "values": [
+          2,
+          -0.6,
+          4.3,
+          22.9
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 fact sheet"
+      }
+     ]
+    },
+    {
+     "callout": "**So what:** TCS is a BFSI-and-North-America company (32% and 48% of revenue). Our FY27E USD growth of 3.3% assumes BFSI keeps compounding at ~4%, Consumer stays slightly negative until H2, and the BSNL add-on lifts Regional Markets. The swing factors are Consumer (15%) and the UK (17%), both exposed to discretionary cuts and the West Asia conflict."
+    }
+   ]
+  },
+  {
+   "id": "deals",
+   "nav": "Deals, clients & AI",
+   "kicker": "Order book",
+   "title": "Order book: record mega deals, but revenue converts slowly and at lower prices",
+   "blocks": [
+    {
+     "p": "TCS signed US$40.7 bn of contracts in FY26 (FY25 US$39.4 bn, FY24 US$42.7 bn), ~1.35x a year's revenue, including five mega deals, and US$9.5 bn in Q1FY27 with an US$800 m+ net-new deal from SKF. Roughly half of TCV is renewals and half new programmes (CEO, Apr-2026). The problem is conversion: TCV has stayed at US$39-43 bn a year for three years while revenue went sideways, because renewals carry productivity give-backs and new AI projects are short (12-16 weeks) and must be re-won. Client metrics turned in Q4FY26: every revenue band added clients for the first time in about two years, and the US$100 m+ group went from 62 to 66."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "TCV of US$9-12 bn a quarter",
+       "unit": "Total contract value signed (US$ m)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "TCV",
+         "values": [
+          8300,
+          8600,
+          10200,
+          12200,
+          9400,
+          10000,
+          9300,
+          12000,
+          9500
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "TCS fact sheets"
+      },
+      {
+       "type": "line",
+       "title": "Book-to-bill: TCV ÷ quarterly revenue",
+       "unit": "TCV ÷ revenue in the quarter (x)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Book-to-bill",
+         "values": [
+          1.11,
+          1.12,
+          1.35,
+          1.63,
+          1.27,
+          1.34,
+          1.24,
+          1.57,
+          1.25
+         ],
+         "fmt": "x"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "source": "TCS fact sheets; GAM calculation"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Recent mega deals and AI",
+      "head": [
+       "When",
+       "What",
+       "Why it matters"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Q4FY26",
+        "Marks & Spencer: renewal and expansion of a decade-plus relationship",
+        "Retained a marquee client after its 2025 cyber-attack"
+       ],
+       [
+        "Q4FY26",
+        "Leading UK telecom operator: five-year IT transformation of its consumer business, consolidating several vendors",
+        "First CMI mega deal; vendor consolidation in action"
+       ],
+       [
+        "Q4FY26",
+        "Leading US healthcare and pharmacy retailer: renewal (claims platform)",
+        "Retention, likely at lower price"
+       ],
+       [
+        "Q1FY27",
+        "SKF: US$800 m+ net-new, AI-led S/4HANA, infrastructure and process transformation (five years)",
+        "Proof that clients still buy large transformation from SIs"
+       ],
+       [
+        "Q1FY27",
+        "North American utility (renewal with \"AI-first\" proposition); autonomous GBS deals in HR, finance and customer service",
+        "Outcome- and transaction-based pricing growing"
+       ],
+       [
+        "FY26-Q1FY27",
+        "AI services run-rate US$1.5 bn → US$2.3 bn → US$2.6 bn",
+        "Higher revenue productivity than average (CFO); lumpy"
+       ]
+      ],
+      "source": "TCS calls (Apr-2026, Jul-2026) and Q1FY27 press release; JM Financial via BT (8-Sep-2026) for SKF tenure"
+     }
+    },
+    {
+     "callout": "**So what:** the order book is not the problem; pricing and conversion are. A US$40 bn TCV run-rate that produced 0-3% revenue growth in FY25-27 tells you each dollar of renewal TCV now buys less revenue than before. We model conversion improving only slowly (USD growth 3.3% FY27E, 4.2% FY28E)."
+    }
+   ]
+  },
+  {
+   "id": "people",
+   "nav": "People & delivery",
+   "kicker": "Workforce",
+   "title": "Fewer people, more revenue each: AI productivity is already visible",
+   "blocks": [
+    {
+     "p": "Headcount peaked at 615,318 in Jun-2023 and was 5,84,519 in Mar-2026 after the 2025 restructuring (~12,000 roles, ₹1,388 cr of severance); TCS then added 9,279 people in Q1FY27, the most in over a year. Revenue per employee rose from ~US$46k in FY23 to ~US$50k in FY26. Voluntary attrition is 13.6% (LTM), far below FY22-23's ~17-20%. Wages: FY26 increments were delayed to Sep-2025 and given to ~80% of staff; FY27 increments for all grades from Apr-2026 cost 170 bp of margin in Q1. Subcontracting (fees to external consultants) rose from 4.7% of revenue in Q1FY26 to 5.9% in Q1FY27, a sign of skills TCS does not yet have in-house."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Headcount fell 30,000 in FY26, then rose again",
+       "unit": "Closing headcount",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Headcount",
+         "values": [
+          606998,
+          612724,
+          607354,
+          607979,
+          613069,
+          593314,
+          582163,
+          584519,
+          593798
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "TCS fact sheets"
+      },
+      {
+       "type": "column",
+       "title": "Revenue per employee: up ~9% in three years",
+       "unit": "US$ revenue ÷ average headcount (US$ thousand)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Revenue per employee",
+         "values": [
+          47.6,
+          46.3,
+          47.8,
+          49.9,
+          50.3
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "TCS fact sheets; GAM calculation"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Cost structure (% of revenue, before exceptional items)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q4FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "Employee cost",
+        "59.5%",
+        "56.8%",
+        "58.3%"
+       ],
+       [
+        "Fees to external consultants",
+        "4.7%",
+        "5.6%",
+        "5.9%"
+       ],
+       [
+        "Equipment and software licences",
+        "1.1%",
+        "2.0%",
+        "1.9%"
+       ],
+       [
+        "Project expenses and delivery software",
+        "3.4%",
+        "3.5%",
+        "3.3%"
+       ],
+       [
+        "Depreciation and amortisation",
+        "1.8%",
+        "1.7%",
+        "1.7%"
+       ],
+       [
+        "Other (facilities, travel, marketing, etc.)",
+        "5.0%",
+        "5.1%",
+        "4.9%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Operating (EBIT) margin**",
+         "**24.5%**",
+         "**25.3%**",
+         "**24.0%**"
+        ]
+       }
+      ],
+      "source": "Q1FY27 fact sheet (expense by nature, restated categories)"
+     }
+    },
+    {
+     "callout": "**So what:** TCS is delivering more revenue per person, which is what AI should do; the question is who keeps the gain. So far TCS has kept enough to hold margins at ~25% while passing 10-15% to clients at renewal. FX hedges matter too: TCS had ₹66,475 cr of forwards and options outstanding at Mar-26 and booked a ₹2,771 cr loss on them in FY26 as the rupee fell (offset in translation), so the rupee tailwind reaches margins with a lag."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: real, but it protects share and margins, not the volume of legacy work",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Scale and client relationships",
+       "Strong",
+       "66 clients over US$100 m and 1,401 over US$1 m a year (Q1FY27); decades-long relationships (e.g. M&S renewed and expanded as a mega deal in Q4FY26); US$40.7 bn of FY26 TCV.",
+       "Wins large renewals and consolidation deals; protects share."
+      ],
+      [
+       "Cost and margins",
+       "Strong",
+       "FY26 EBITDA margin (Screener basis) 27.1% vs Infosys 23.7%, HCLTech 20.6%, Wipro 19.2%, LTM 17.9%; EBIT 25.0%; best-in-class pyramid and utilisation.",
+       "Room to price aggressively and still out-earn peers."
+      ],
+      [
+       "Balance sheet",
+       "Strong",
+       "No debt besides leases, ~₹50,000 cr invested funds, ROE ~50%.",
+       "Can fund HyperVault, M&A and payouts at once."
+      ],
+      [
+       "Switching costs",
+       "Moderate",
+       "Run contracts are sticky (renewals ~50% of TCV), but AI lowers transition cost and clients renegotiate early.",
+       "Retention holds; price does not."
+      ],
+      [
+       "Technology and IP",
+       "Weak",
+       "Mostly people-based services; products (BaNCS, ignio, iON) are small; AI partnerships with Anthropic, OpenAI, Mistral, Google are not exclusive.",
+       "No pricing moat from IP."
+      ],
+      [
+       "AI positioning",
+       "Unproven",
+       "Largest AI book in rupees (US$2.6 bn run-rate) but ~8.5% of revenue and lumpy; growth lagged peers in FY26.",
+       "Must show AI is net accretive."
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "GAM research compilation (TCS filings and calls; Screener peer data, Sep-2026)"
+    },
+    {
+     "callout": "**Honest verdict:** TCS has the best cost position and the deepest client relationships in Indian IT, and the balance sheet to keep investing. Those advantages win renewals and consolidation deals, as FY26's mega deals show. But they are advantages of scale in a people-based business, not of technology. When AI lets a client do the same work with fewer people, the moat stops TCS losing the client, not losing the hours. There is no software-like pricing power here; there is a very efficient operator whose market is being repriced."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "A decade of steady compounding; the last three years were the slowest in TCS's listed history",
+   "blocks": [
+    {
+     "p": "TCS's revenue grew from ₹1,08,646 cr in FY16 to ₹2,67,021 cr in FY26, 9.4% a year, and net profit from ₹24,338 cr to ₹49,454 cr (7.3% a year, held back by FY26's ₹4,868 cr of one-off charges). The pattern is a post-Covid boom and a long slowdown. In US dollars revenue rose 15.9% in FY22 and 8.6% in FY23, then 4.1%, 3.8% and −0.5% (FY24-26); constant-currency growth was −2.4% in FY26, its second decline in six years (FY21, the Covid year: −0.8%), and this time in a year without a recession. Rupee revenue kept growing (+4.6% in FY26) only because the rupee fell from ~74 to ~89 per dollar over FY21-26."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: 9% a year in rupees, much of it currency lately",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Company filings, Screener.in (consolidated; Net Profit incl. minorities of ~0.5%), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Profit: FY26 flat after ₹4,868 cr of one-offs",
+       "unit": "Net profit (₹ crore, reported)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; Net Profit incl. minorities of ~0.5%), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: a narrow 26-28% band for a decade",
+       "unit": "EBITDA margin (%), Screener basis (TCS operating margin + depreciation)",
+       "x": "fin.labels",
+       "from": "FY16",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 20,
+       "max": 32,
+       "source": "Company filings, Screener.in (consolidated; Net Profit incl. minorities of ~0.5%), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Employee cost is ~58% of revenue",
+       "unit": "Employee cost (% of revenue)",
+       "x": "A.labels",
+       "from": "FY16",
+       "series": [
+        {
+         "name": "Employee cost",
+         "ref": "A.employeePct",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 40,
+       "max": 65,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** TCS has always been a margin machine: EBITDA margin between 26% and 28% in every year shown, through Covid, the FY22 wage war and the FY26 revenue decline. What changed is growth. EPS compounded ~10.7% a year in FY21-26 (before one-offs), but FY24-26 USD growth averaged ~2.5%, and part of FY26's rupee growth was the falling rupee. The question for the stock is whether that slowdown is a cycle or the new normal (see \"The AI question\")."
+    }
+   ]
+  },
+  {
+   "id": "guidance",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Momentum",
+   "title": "Q1FY27: growth back above zero, wage hit as expected; \"exit at 25% plus\"",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q4FY26",
+       "Q1FY27",
+       "YoY"
+      ],
+      "rows": [
+       [
+        "Revenue (₹ crore)",
+        "63,437",
+        "70,698",
+        "72,275",
+        "+14%"
+       ],
+       [
+        "Revenue (US$ m)",
+        "7,421",
+        "7,621",
+        "7,624",
+        "+3%"
+       ],
+       [
+        "Constant-currency growth, QoQ / YoY",
+        "−3.3% / −3.1%",
+        "+1.2% / −0.6%",
+        "+0.4% / +3.2%",
+        ""
+       ],
+       [
+        "Operating (EBIT) margin",
+        "24.5%",
+        "25.3%",
+        "24%",
+        "−50bp"
+       ],
+       [
+        "Net profit before exceptional items (₹ crore)",
+        "12,760",
+        "13,718",
+        "13,849",
+        "+8.5%"
+       ],
+       [
+        "EPS before / after exceptional items (₹)",
+        "35.27 / 35.27",
+        "37.92 / 37.92",
+        "38.28 / 36.9",
+        ""
+       ],
+       [
+        "TCV (US$ bn)",
+        "9.4",
+        "12.0",
+        "9.5",
+        ""
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Headcount / LTM attrition**",
+         "**613,069 / 13.8%**",
+         "**584,519 / 13.7%**",
+         "**5,93,798 / 13.6%**",
+         ""
+        ]
+       }
+      ],
+      "source": "Q1FY27 and Q4FY26 fact sheets; Q1FY27 press release (9-Jul-2026). Q1FY27 exceptional item: Rs668 cr CSC provision."
+     }
+    },
+    {
+     "bullets": [
+      "Demand: clients deferred some projects as geopolitical uncertainty rose from March; CEO expects demand to improve 'sometime in Q2' on pent-up technology backlog (callQ1FY27).",
+      "Verticals: BFSI good across geographies; Technology growing; Consumer Business hit by inflation and geopolitics (North American airlines, non-essential retail) and large projects ending; Life Sciences declined, recovery 'expected soon'; Manufacturing soft in auto but net-new wins (SKF, ABB); CMI modest; ERU slight decline (callQ1FY27).",
+      "AI deflation: 'in most places, the productivity gain passed on is around 10% to 15%' as contracts renew, usually compensated by additional work; TCS does not see a 'massive contraction' (CEO, callQ1FY27).",
+      "AI revenue is lumpy (12-16 week projects, little annuity); +US$75 m annualised in Q1 vs +US$125 m in Q4 (callQ1FY27).",
+      "Margins: 'exit at 25% plus' in FY27; aspiration to 'progressively inch up closer, at least to the FY26 levels'; longer term 'move towards 26%' (CFO, callQ1FY27 and callQ4FY26).",
+      "Hiring: +9,279 net in Q1; CEO disagrees that AI will drastically cut white-collar employment; 14,000 campus graduates onboarded in Q4FY26 (callQ1FY27).",
+      "Partnerships: Anthropic (50,000 Claude licences, dedicated business unit), Mistral (first GSI partner), ServiceNow, Google Cloud; SovereignSecure Cloud for Europe; GCC business unit (prQ1FY27)."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said (Jan-2026 to Sep-2026)",
+      "head": [
+       "When",
+       "Topic",
+       "What was said",
+       "Outcome so far"
+      ],
+      "wide": [
+       2,
+       3
+      ],
+      "rows": [
+       [
+        "12-Jan-26",
+        "CY2026 outlook",
+        "'Confident of a good CY2026' on client conversations and deal momentum (CEO).",
+        "Q4FY26 CC +1.2% QoQ, Q1FY27 +0.4%: growth, but slow"
+       ],
+       [
+        "12-Jan-26",
+        "Labour codes",
+        "₹2,128 cr provision; ongoing impact ~10-15 bp of margin, no further one-offs expected unless the rules change.",
+        "Salary structures aligned in Q1FY27"
+       ],
+       [
+        "9-Apr-26",
+        "Restructuring",
+        "Restructuring programme 'completed'; no one-offs in Q4.",
+        "Q1FY27 one-off was legal (CSC), not restructuring"
+       ],
+       [
+        "9-Apr-26",
+        "FY27 growth",
+        "'Quite positive' on FY27 and international growth; expects a stronger 1H; no number given.",
+        "Q1FY27 CC +0.4% QoQ, +3.2% YoY"
+       ],
+       [
+        "9-Apr-26",
+        "Wage hike",
+        "Increments for all grades from 1-Apr-2026; impact similar to past cycles, 150-200 bp.",
+        "-170 bp in Q1FY27"
+       ],
+       [
+        "9-Apr-26",
+        "Margin",
+        "Exiting FY26 at a four-year-high 25%; 'would like to move towards 26%, but on a longer-term basis'.",
+        "Q1FY27 24.0%"
+       ],
+       [
+        "9-Apr-26",
+        "AI net accretion",
+        "Initial aim is to 'arrest the degrowth while the AI revenue increase'; AI revenue productivity 'much better' than average.",
+        "AI run-rate US$2.6 bn (Q1FY27), ~8.5% of revenue"
+       ],
+       [
+        "9-Jul-26",
+        "FY27 margin",
+        "Take the wage hit upfront in Q1, inch up through the year; 'exit at 25% plus'.",
+        "Open"
+       ],
+       [
+        "8-Sep-26",
+        "Q2 and medium term (via JM Financial)",
+        "Q2 'better than' Q1; FY27 better than FY26; high-single-digit growth could return once productivity-led deflation is absorbed; BSNL final order awaited, ramp over 6-9 months, smaller than the last; buyback remains an option.",
+        "Open"
+       ]
+      ],
+      "source": "TCS earnings calls; JM Financial management meeting via Business Today (8-Sep-2026)"
+     }
+    },
+    {
+     "callout": "**Why it matters:** TCS does not give numerical guidance, and its tone (\"confident of a good CY2026\" in January) has run ahead of results (Q4FY26 +1.2% QoQ CC, Q1FY27 +0.4%). The two things to test in Q2FY27 (results due in October 2026) are whether growth reaches ~1% QoQ as the street expects, and whether margin starts climbing from 24% towards the promised 25%+ exit."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capital allocation",
+   "kicker": "Capital allocation",
+   "title": "Returns to shareholders: ~90% of operating cash goes back; HyperVault is the new claim on capital",
+   "blocks": [
+    {
+     "p": "TCS needs little capital: capex was ₹16,852 cr over FY22-26 (~1.5% of revenue) against operating cash flow of ₹2,27,254 cr. It paid ₹1,64,536 cr in dividends and spent ~₹43,713 cr on buybacks and buyback tax (₹18,000 cr in 2022 at ₹4,500 and ₹17,000 cr in 2023 at ₹4,150 a share: both well above today's price). ROCE rose to 63-65% in FY24-26. Two things are new. In FY26 TCS spent ₹6,770 cr on acquisitions (Coastal Cloud and ListEngage) and agreed to buy MHP from Porsche (EUR320 m EV) in Aug-2026. And it committed, with TPG, up to ₹18,000 cr to HyperVault, its AI data-centre venture (TCS 51%)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Cash from operations vs capex",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated; Net Profit incl. minorities of ~0.5%), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "ROCE: from ~50% to over 60%",
+       "unit": "Return on capital employed (%)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          50,
+          51,
+          44,
+          39,
+          47,
+          47,
+          49,
+          54,
+          59,
+          64,
+          65,
+          63
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 80,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY22",
+       "FY23",
+       "FY24",
+       "FY25",
+       "FY26",
+       "Five years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "39,949",
+        "41,965",
+        "44,338",
+        "48,908",
+        "52,094",
+        "2,27,254"
+       ],
+       [
+        "Capex",
+        "2,995",
+        "3,100",
+        "2,674",
+        "3,937",
+        "4,146",
+        "16,852"
+       ],
+       [
+        "Acquisitions",
+        "0",
+        "0",
+        "0",
+        "0",
+        "6,768",
+        "6,768"
+       ],
+       [
+        "Dividends paid",
+        "13,375",
+        "41,410",
+        "25,218",
+        "44,962",
+        "39,571",
+        "1,64,536"
+       ],
+       [
+        "Buybacks and buyback tax (other financing items)",
+        "18,091",
+        "4,192",
+        "21,430",
+        "0",
+        "0",
+        "43,713"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Returned as % of cash from operations**",
+         "**79%**",
+         "**109%**",
+         "**105%**",
+         "**92%**",
+         "**76%**",
+         "**92%**"
+        ]
+       }
+      ],
+      "source": "Screener.in cash flow (consolidated); buybacks from Screener \"other financing items\" (FY22 Rs18,000 cr buyback; FY24 Rs17,000 cr buyback plus tax); ICICI Direct (buyback terms)"
+     }
+    },
+    {
+     "callout": "**The capital question:** TCS has always been an asset-light cash machine that hands back almost everything. HyperVault changes the mix: data centres are capital-heavy, earn lower returns and take years to fill, and the CFO has said the business's return ratios will be lower (Oct-2025). TPG funding 49% and project debt limit TCS's share (we model ~₹3,000 cr a year), and a 1 GW plan needs >US$6.5 bn in total. We keep a 90% payout (dividends plus buybacks) in our forecasts; a buyback \"remains an option\" (management via JM Financial, Sep-2026)."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean, cash-backed accounts; legal one-offs keep recurring",
+   "blocks": [
+    {
+     "bullets": [
+      "**Cash backs profit.** Operating cash flow was 111% of net income in FY26 (TCS basis) and 105% on Screener's (reported profit, after one-offs); over FY15-26 cash from operations (₹4,15,786 cr) was 99% of profit.",
+      "**\"One-offs\" are partly a cost of doing business in the US.** Legal charges of ₹958 cr (FY24, Epic Systems), ₹1,352 cr (FY26, CSC/DXC incl. interest) and ₹668 cr (Q1FY27, CSC again), plus FY26's ₹1,388 cr severance and ₹2,128 cr labour-code charge. We exclude them from forecasts and the forward P/E history (as the street does) but count the legal ones as a real, if irregular, cost.",
+      "**Other income is ~6% of pre-tax profit** (₹4,402 cr in FY26 before exceptional items): ₹3,854 cr interest (incl. ₹852 cr on tax refunds, unusual), ₹701 cr investment gains and a −₹611 cr FX loss. TCS also had ₹66,475 cr of FX derivatives outstanding and lost ₹2,771 cr on them in FY26, offset in translation.",
+      "**Related parties.** Revenue from Tata group companies ₹7,071 cr (2.6%); brand fee to Tata Sons ₹368 cr; ₹1,500 cr of inter-corporate deposits placed with a Tata Sons subsidiary; FY25 purchases of ₹8,178 cr from Tata group firms were mainly BSNL network equipment from Tejas Networks, passed through revenue at low margin.",
+      "**Receivables and goodwill.** Debtor days (incl. unbilled) rose to 93 in FY26 from 67 in FY21; goodwill rose to ₹9,108 cr after the Coastal Cloud and ListEngage deals.",
+      "**Disclosure.** Industry and market revenue and CC growth every quarter, TCV, client buckets, headcount and AI revenue; no utilisation or onsite/offshore split any more, and cost categories were restated in Q1FY27."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: GREEN.** Unqualified audit (B S R & Co.; Walker Chandiok proposed from the 2027 AGM), strong cash conversion, no debt. Watch the litigation pattern in the US, receivable days, and how acquired-company revenue is disclosed as M&A picks up."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash of ~₹38,000 cr after leases; receivables have crept up",
+   "blocks": [
+    {
+     "p": "TCS has no borrowings other than lease liabilities (₹11,283 cr at Mar-26). It held ₹50,020 cr of \"invested funds\" (cash, bank deposits, bonds, mutual funds, ₹1,500 cr of inter-corporate deposits and ₹900 cr of reverse repo), so net cash after leases was ~₹38,000 cr, ~5% of its market value at the 30-Sep-2026 price. Goodwill jumped from ₹1,860 cr to ₹9,108 cr with the Salesforce acquisitions. Receivables are the watch item: debtor days (incl. unbilled revenue) rose from 67 in FY21 to 93 in FY26; DSO in dollar terms was 74 days in Q4FY26 and Q1FY27, down from 76 in Q3FY26."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Debtor days up from 67 to 93 since FY21",
+       "unit": "Days of revenue (incl. unbilled)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Debtor days",
+         "values": [
+          79,
+          81,
+          70,
+          74,
+          68,
+          71,
+          67,
+          80,
+          81,
+          81,
+          84,
+          93
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Cash and investments: steady, because cash is paid out",
+       "unit": "Cash and investments (₹ crore, Screener basis)",
+       "x": "A.labels",
+       "from": "FY17",
+       "series": [
+        {
+         "name": "Cash and investments",
+         "ref": "A.cashAndInvestments",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; Net Profit incl. minorities of ~0.5%), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-22",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Lease liabilities (only \"borrowings\")",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and investments (Screener basis)",
+        "{{A.cashAndInvestments.7|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "Net fixed assets (incl. goodwill)",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Trade receivables (billed + unbilled)",
+        "{{A.receivables.7|num}}",
+        "{{A.receivables.9|num}}",
+        "{{A.receivables.10|num}}",
+        "{{A.receivables.11|num}}"
+       ],
+       [
+        "Trade payables",
+        "{{A.payables.7|num}}",
+        "{{A.payables.9|num}}",
+        "{{A.payables.10|num}}",
+        "{{A.payables.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated; Net Profit incl. minorities of ~0.5%), GAM Research. Invested funds per TCS (Rs50,020 cr at Mar-26) also include ICDs and reverse repo held in \"loans\"."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: Tata Sons 71.7%; foreign funds have been selling for two years",
+   "blocks": [
+    {
+     "p": "Tata Sons owns 71.74% and the promoter group 71.77% (Jun-2026), unpledged; TCS paid Tata Sons ₹28,291 cr of dividends in FY26. Foreign investors own 9.07% (12.7% in Dec-2024), Indian institutions 13.41% (LIC 5.52%) and the public 5.69%. Retail shareholders rose from 21.6 lakh to 26.1 lakh in a year as the price fell."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "FIIs down from 12.7% to 9.1% in 18 months; domestic institutions up",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoters unchanged at 71.8%",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "min": 60,
+       "max": 80,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest holders (30-Jun-2026)",
+      "head": [
+       "Holder",
+       "Stake"
+      ],
+      "rows": [
+       [
+        "Tata Sons Pvt Ltd",
+        "71.74%"
+       ],
+       [
+        "Life Insurance Corporation of India",
+        "5.52%"
+       ],
+       [
+        "SBI Nifty 50 ETF",
+        "1.31%"
+       ],
+       [
+        "ICICI Prudential Value Fund",
+        "1.06%"
+       ],
+       [
+        "Mutual funds (all)",
+        "5.68%"
+       ],
+       [
+        "Insurance companies (all)",
+        "6.71%"
+       ],
+       [
+        "Foreign portfolio investors (all)",
+        "9.07%"
+       ]
+      ],
+      "source": "Screener.in shareholding (BSE filing); Trendlyne compilation of the Jun-2026 shareholding pattern"
+     }
+    },
+    {
+     "callout": "**Our read:** an unusually stable owner with a 71.7% stake and every reason to want high payouts. The free float is small (~28%), which limits index weight and liquidity relative to market value. Foreign investors have cut their stake by a third in 18 months; domestic funds and retail have absorbed the selling."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: strong board and accounts; group ties and US litigation to watch",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "N Chandrasekaran",
+        "Chairman (non-executive)",
+        "Chairman of Tata Sons; former TCS CEO (2009-17); took no commission in FY26"
+       ],
+       [
+        "K Krithivasan",
+        "CEO & Managing Director (since Jun-2023)",
+        "With TCS since 1989; FY26 pay ₹28.1 cr (salary ₹1.67 cr, perquisites ₹1.43 cr, commission ₹25 cr), 332.8x the median employee"
+       ],
+       [
+        "Aarthi Subramanian",
+        "Executive Director, President & COO",
+        "Whole-time director 1-May-2025 to 30-Apr-2030; earlier Tata Sons group chief digital officer; FY26 pay ~₹18.3 cr"
+       ],
+       [
+        "Samir Seksaria",
+        "Chief Financial Officer",
+        "CFO since 2021 (succeeded V Ramakrishnan)"
+       ],
+       [
+        "Sudeep Kunnumal",
+        "Chief HR Officer",
+        "Leads hiring, wage and reskilling programmes"
+       ]
+      ],
+      "source": "AR FY26 (Board's report, remuneration annexure); Angel One (May-2026, CEO pay); callQ1FY27 participant list"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "B S R & Co., unqualified; rotation to Walker Chandiok from the 2027 AGM.",
+       "No accounting red flags."
+      ],
+      [
+       "Promoter",
+       "Strong, with group ties",
+       "Tata Sons 71.7%, no pledges; Chairman is the Tata Sons chairman; brand fee ₹368 cr; ICDs with a group company.",
+       "Aligned on payouts; group transactions are small but need watching."
+      ],
+      [
+       "Management",
+       "Strong",
+       "CEO K Krithivasan (since 2023, 35+ years at TCS); COO Aarthi Subramanian to 2030; CFO Samir Seksaria.",
+       "Deep bench; growth record under this team is weak (FY26 −2.4% CC)."
+      ],
+      [
+       "Pay",
+       "Reasonable",
+       "CEO ₹28.1 cr in FY26 (+6.3%), mostly commission; 333x the median employee.",
+       "In line with large-cap peers."
+      ],
+      [
+       "Litigation and compliance",
+       "Watch",
+       "CSC/DXC judgement (~US$220 m in total provisions); Epic Systems (FY24); US EEOC probe and bias class actions (denied).",
+       "Recurring US legal costs."
+      ],
+      [
+       "Capital allocation",
+       "Good, changing",
+       "Returns ~90% of operating cash; buybacks done at ₹4,150-4,500; now M&A and HyperVault.",
+       "Discipline must hold as capital needs rise."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "GAM research compilation (AR FY26, shareholding patterns, filings, press)"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EPS ~7% a year from FY26's adjusted base, nearly half of it from the rupee",
+   "blocks": [
+    {
+     "p": "We build revenue in US dollars by industry and convert at ₹95.44 / 96.87 / 98.32 per dollar (FY26: ₹88.96). EBIT margin is 24.6% / 25.0% / 25.2%. Other income is built from a 7% yield on cash; capex includes TCS's share of HyperVault; payout is 90% (dividends plus buybacks); tax 25%. Forecasts are before exceptional items. Every assumption and our reasoning is in the Excel model's Assumptions sheet, which recalculates the target."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "US dollar revenue build (US$ m; growth in brackets)",
+      "head": [
+       "Industry",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "BFSI",
+        "9,605",
+        "9,970 (+3.8%)",
+        "10,419 (+4.5%)",
+        "10,940 (+5%)"
+       ],
+       [
+        "Consumer Business",
+        "4,653",
+        "4,583 (-1.5%)",
+        "4,720 (+3%)",
+        "4,909 (+4%)"
+       ],
+       [
+        "Life Sciences & Healthcare",
+        "3,122",
+        "3,200 (+2.5%)",
+        "3,328 (+4%)",
+        "3,478 (+4.5%)"
+       ],
+       [
+        "Manufacturing",
+        "2,641",
+        "2,747 (+4%)",
+        "2,912 (+6%)",
+        "3,072 (+5.5%)"
+       ],
+       [
+        "Technology & Services",
+        "2,521",
+        "2,647 (+5%)",
+        "2,793 (+5.5%)",
+        "2,961 (+6%)"
+       ],
+       [
+        "Communication & Media",
+        "1,741",
+        "1,776 (+2%)",
+        "1,820 (+2.5%)",
+        "1,875 (+3%)"
+       ],
+       [
+        "Energy, Resources & Utilities",
+        "1,801",
+        "1,927 (+7%)",
+        "2,043 (+6%)",
+        "2,165 (+6%)"
+       ],
+       [
+        "Regional Markets & Others",
+        "3,932",
+        "4,148 (+5.5%)",
+        "4,273 (+3%)",
+        "4,444 (+4%)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total US$ revenue**",
+         "**30,017**",
+         "**30,999 (+3.3%)**",
+         "**32,308 (+4.2%)**",
+         "**33,844 (+4.8%)**"
+        ]
+       },
+       [
+        "₹ per US$ (change)",
+        "88.96",
+        "95.44 (+7.3%)",
+        "96.87 (+1.5%)",
+        "98.32 (+1.5%)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Revenue, ₹ crore (= model)**",
+         "**2,67,021**",
+         "**{{F.sales.0|num}}**",
+         "**{{F.sales.1|num}}**",
+         "**{{F.sales.2|num}}**"
+        ]
+       }
+      ],
+      "source": "TCS fact sheets (FY26 mix); GAM Research. The build is checked against model revenue in the authoring script."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBIT margin (TCS operating margin)",
+        "ref": "fin.ebitMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda"
+       },
+       {
+        "name": "Other income (actuals after exceptional items)",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "Cash & investments (forecasts: net of leases, incl. ICDs)",
+        "ref": "fin.treasury"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates. FY24 and FY26 actuals include one-offs (FY26 EPS Rs146.0 before them). Cash is gross in actual years. Forecast EPS in model tables is rounded to the rupee."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Other income: built, not plugged (₹ crore)",
+      "head": [
+       "",
+       "FY26 (before exceptional)",
+       "TTM Jun-26",
+       "FY27E",
+       "FY28E"
+      ],
+      "rows": [
+       [
+        "Treasury yield 7.0% × opening net cash after leases",
+        "–",
+        "–",
+        "2,661 (on 38,013)",
+        "2,613"
+       ],
+       [
+        "7.0% on the funds that offset lease liabilities",
+        "–",
+        "–",
+        "~790",
+        "~830"
+       ],
+       [
+        "Recurring other items (tax-refund interest at a normal level, rent, lease gains)",
+        "–",
+        "–",
+        "~200",
+        "~200"
+       ],
+       [
+        "Q1FY27 actual above our run-rate",
+        "–",
+        "–",
+        "655",
+        "–"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total other income**",
+         "**4,402**",
+         "**4,310**",
+         "**{{F.otherIncome.0|num}}**",
+         "**{{F.otherIncome.1|num}}**"
+        ]
+       },
+       [
+        "Memo: FY26 items we do not repeat",
+        "Tax-refund interest 852, FVOCI sale gains 333, litigation awards 191, FX loss −611",
+        "",
+        "",
+        ""
+       ]
+      ],
+      "source": "AR FY26 note 13; Screener quarterly other income (Q2FY26-Q1FY27, adding back exceptional items); GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "Broker (date)",
+       "EPS FY27E",
+       "EPS FY28E",
+       "USD revenue FY27E / FY28E",
+       "EBIT FY27E / FY28E"
+      ],
+      "rows": [
+       [
+        "**GAM**",
+        "**157.2**",
+        "**167.1**",
+        "**30,999 / 32,308**",
+        "**24.6% / 25.0%**"
+       ],
+       [
+        "Motilal Oswal (9-Jul-26)",
+        "156.2",
+        "162.8",
+        "30,665 / 31,589",
+        "24.7% / 25%"
+       ],
+       [
+        "Prabhudas Lilladher (10-Jul-26)",
+        "156.9",
+        "166.3",
+        "–",
+        "–"
+       ],
+       [
+        "ICICI Direct (10-Jul-26)",
+        "155.6",
+        "156.5",
+        "30,763 / 31,813",
+        "24.6% / 24.8%"
+       ],
+       [
+        "Emkay (10-Jul-26)",
+        "154.5",
+        "161.5",
+        "–",
+        "–"
+       ],
+       [
+        "BOBCAPS (10-Jul-26)",
+        "151.5",
+        "155.2",
+        "–",
+        "–"
+       ],
+       [
+        "Choice Institutional (10-Jul-26)",
+        "155.5",
+        "156.7",
+        "–",
+        "–"
+       ],
+       [
+        "Religare (10-Jul-26)",
+        "151.5",
+        "156.9",
+        "–",
+        "–"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Average of the brokers above**",
+         "**154.5**",
+         "**159.4**",
+         "",
+         ""
+        ]
+       }
+      ],
+      "source": "Broker Q1FY27 notes (PDFs, 9-11 Jul-2026); Bloomberg consensus FY27E EPS Rs155.6 (BOBCAPS note)"
+     }
+    },
+    {
+     "callout": "Our FY27E EPS (₹157.2) is 1.7% above the broker average and FY28E (₹167.1) 4.8% above: we hold the rupee near its 30-Sep-2026 level (~₹95.8) with a 1.5% annual drift, and assume slightly faster FY28 growth (BSNL, SKF), and our numbers exclude the Q1FY27 CSC charge. EPS compounds ~7.0% a year over FY26-29E from the ₹145.99 adjusted base (+7.7% in FY27E, almost all of it from the weaker rupee, since the wage hike keeps the margin below FY26's)."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: mostly positive, targets bunched at ₹2,200-2,600, multiples cut to 14-15x",
+   "blocks": [
+    {
+     "p": "After the Q1FY27 results (9-10 Jul 2026) we count 26 brokers with a rating and 10 more with a target only. Ratings: 16 Buy/Add/Accumulate/Overweight, 8 Hold/Neutral, 2 Sell (ICICI Securities ₹1,860, Nirmal Bang ₹1,682). The 36 targets have a median of ₹2,400 and an average of ₹2,441 (range ₹1,682-3,480), set when the stock was ~₹2,050-2,130; on 30-Sep-2026 it was back at ₹2,051. Every house that discloses a method uses **P/E**, and the multiples were cut hard between April and July: 17-19x FY28E in April (MOSL, Nomura 18x, Nirmal Bang 19x) to 14-15x after Q1 (MOSL and PL 15x, ICICI Direct, 360 ONE and Antique 14x; bears at 12-12.7x, Nuvama 18x at the top). Broker FY28E EPS ranges ₹155-166. Later notes: Deven Choksey cut to Accumulate on the MHP deal (25-Aug); JM Financial kept Add, ₹2,375, before Q2 (28-Sep)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "AI deflation is structural: application services are 40-70% of Indian IT revenue and the narrative 'could be too strong to shake'",
+        "Motilal Oswal (Feb-2026, via Reuters/Yahoo)"
+       ],
+       [
+        "Relevance risk: organic USD growth of 1-3% a year FY26-30 as AI deflates the legacy book",
+        "BOBCAPS (10-Jul-2026)"
+       ],
+       [
+        "Spend is shifting to GCCs and AI infrastructure; value the sector at its long-run average less two standard deviations",
+        "ICICI Securities (2-Jul-2026)"
+       ],
+       [
+        "Deal wins do not convert: TCV is high but trailing-twelve-month TCV growth is ~1% and AI additions are slowing",
+        "Citi (10-Jul-2026, via Upstox); Antique"
+       ],
+       [
+        "TCS grew 5-6 points slower than its closest peer in FY26, the widest gap on record",
+        "Nuvama analyst on the Q4FY26 call"
+       ],
+       [
+        "Margin upside is capped by AI reinvestment, partnerships and acquisitions (MHP, Coastal Cloud)",
+        "Choice; JM Financial (8-Sep-2026)"
+       ],
+       [
+        "HyperVault puts a capital-intensive, lower-return data-centre business inside an asset-light company",
+        "GAM; TCS CFO said return ratios of the business will be lower (Oct-2025)"
+       ],
+       [
+        "Bull view: valuation is undemanding and the payout yield supports the price",
+        "Dolat (upgrade), Emkay (10-Jul-2026)"
+       ]
+      ],
+      "source": "Broker notes, calls and filings to 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 18.5x Sep-28E earnings gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values Tata Consultancy Services"
+    },
+    {
+     "p": "The brokers that disclose a method all value TCS on **P/E**, mostly on FY28E (a few on Jun-28E or Sep-28E). We use the same method so our target is comparable, applied to the earnings the market will look at in September 2027 (Sep-28E: half FY28E, half FY29E). The \"At our EPS\" column applies each broker's multiple to our EPS for its year: our EPS is ~4% above the street's FY28E, so most of the gap to the bears is the multiple."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EPS (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Motilal Oswal (9-Jul-26)",
+        "Buy",
+        "2,350",
+        "P/E",
+        "15x",
+        "FY28E EPS",
+        "2,505",
+        "Halting the slide: Q2 better, but evidence of demand recovery is thin; AI deflation still unfolding"
+       ],
+       [
+        "Prabhudas Lilladher (10-Jul-26)",
+        "Buy",
+        "2,500",
+        "P/E",
+        "15x",
+        "FY28E EPS",
+        "2,505",
+        "Recovery from Q2; leakage in the traditional book weighs on growth"
+       ],
+       [
+        "ICICI Direct (10-Jul-26)",
+        "Hold",
+        "2,200",
+        "P/E",
+        "14x",
+        "FY28E EPS",
+        "2,338",
+        "Downgraded from Buy: faster pricing deflation offsets execution and AI"
+       ],
+       [
+        "Emkay (10-Jul-26)",
+        "Add",
+        "2,600",
+        "P/E",
+        "16x",
+        "Jun-28E EPS",
+        "2,720",
+        "Undemanding valuation; re-rating needs visible growth"
+       ],
+       [
+        "BOBCAPS (10-Jul-26)",
+        "Hold",
+        "1,985",
+        "P/E",
+        "12.7x",
+        "Jun-28E EPS",
+        "2,159",
+        "Low single-digit organic growth as AI deflates the legacy book; 'relevance risk'"
+       ],
+       [
+        "Choice Institutional (10-Jul-26)",
+        "Buy",
+        "2,320",
+        "P/E",
+        "~14.8x implied",
+        "FY28E EPS",
+        "–",
+        "Gradual, pocket-led recovery; AI reinvestment caps margins"
+       ],
+       [
+        "Religare (10-Jul-26)",
+        "Buy",
+        "2,825",
+        "P/E",
+        "~18x implied",
+        "FY28E EPS",
+        "–",
+        "AI-led growth, healthy pipeline"
+       ],
+       [
+        "Nuvama (10-Jul-26)",
+        "Buy",
+        "3,000",
+        "P/E",
+        "18x",
+        "FY28E EPS",
+        "3,006",
+        "FY27 recovery; multiple cut from 20x"
+       ],
+       [
+        "Antique (10-Jul-26)",
+        "Hold",
+        "2,385",
+        "P/E",
+        "14x",
+        "Sep-28E EPS (1HFY29E)",
+        "2,422",
+        "TCV beat; conversion slow"
+       ],
+       [
+        "360 ONE (10-Jul-26)",
+        "Hold",
+        "2,290",
+        "P/E",
+        "14x",
+        "FY28E EPS",
+        "2,338",
+        "Re-rating capped by AI, pricing and macro"
+       ],
+       [
+        "Nirmal Bang (10-Jul-26)",
+        "Sell",
+        "1,682",
+        "P/E",
+        "12x",
+        "Mar-28E EPS",
+        "2,004",
+        "GenAI pressure; was Buy at 19x in April"
+       ],
+       [
+        "ICICI Securities (10-Jul-26)",
+        "Sell",
+        "1,860",
+        "P/E",
+        "~12x (long-run average -2 SD)",
+        "FY28E EPS",
+        "–",
+        "Sector Negative: AI deflation, spend shifting to GCCs and AI infrastructure"
+       ],
+       [
+        "Nomura (10-Jul-26)",
+        "Buy",
+        "2,590",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Bookings give visibility; 25%+ EBIT exiting FY27 (18x FY28F in April)"
+       ],
+       [
+        "Goldman Sachs (10-Jul-26)",
+        "Buy",
+        "2,370",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Wage hit; recovery evidence limited"
+       ],
+       [
+        "Morgan Stanley (10-Jul-26)",
+        "Equal-weight",
+        "2,200",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Q2 commentary incrementally positive"
+       ],
+       [
+        "Centrum (10-Jul-26)",
+        "Buy",
+        "3,480",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Record deal wins, AI transformation"
+       ],
+       [
+        "Dolat Capital (10-Jul-26)",
+        "Buy",
+        "2,580",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Upgrade: demand bottoming; payout yield"
+       ],
+       [
+        "Elara (10-Jul-26)",
+        "Accumulate",
+        "2,300",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Gradual margin recovery; 25% exit margin"
+       ],
+       [
+        "Anand Rathi (10-Jul-26)",
+        "Buy",
+        "2,408",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Resilient bookings, better conversion"
+       ],
+       [
+        "Systematix (10-Jul-26)",
+        "Hold",
+        "2,320",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Growth gap with peers may narrow in FY27"
+       ],
+       [
+        "HSBC (10-Jul-26)",
+        "Hold",
+        "2,350",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "AI accretive only mid-to-late FY28"
+       ],
+       [
+        "JPMorgan (10-Jul-26)",
+        "Overweight",
+        "2,400",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "~1% QoQ CC from Q2"
+       ],
+       [
+        "CLSA (10-Jul-26)",
+        "Accumulate",
+        "2,165",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "UBS (10-Jul-26)",
+        "Neutral",
+        "2,545",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "–"
+       ],
+       [
+        "Deven Choksey (25-Aug-26)",
+        "Accumulate",
+        "2,525",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Downgraded from Buy on the MHP acquisition"
+       ],
+       [
+        "JM Financial (28-Sep-26)",
+        "Add",
+        "2,375",
+        "n.d.",
+        "–",
+        "–",
+        "–",
+        "Q2 TCV US$8-10 bn expected; EPS changes 'marginal'; NSE IT ~16x forward"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**BUY**",
+         "**{{dcf.tp|num}}**",
+         "**P/E**",
+         "**18.5x**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Growth permanently slower, not gone; priced for no growth; payout yield supports"
+        ]
+       }
+      ],
+      "source": "Broker PDFs (MOSL, PL, ICICI Direct, Emkay, BOBCAPS, Choice, Religare); Business Today roundups (10-Jul-2026, 28-Sep-2026); AnalyticsInsight, Upstox, Univest, Trendlyne. n.d. = method not disclosed in the sources we saw. Target-only (BT): Kotak 2,450, IIFL 2,700, IDBI Capital 2,400, Phillip Capital 2,240, Ambit 1,990, Avendus Spark 2,480, Mirae 2,770, Investec 3,024, BNP Paribas 2,560, Haitong 2,656"
+     }
+    },
+    {
+     "h": "Our target multiple: 18.5x, and why"
+    },
+    {
+     "p": "We start from TCS's own one-year-forward P/E since April 2021 and cut it by how far the IT-services sector had de-rated by 30-Sep-2026 (the library rule: sector de-rating only, on the batch's eight peers, TCS and Tech Mahindra excluded). TCS's own, larger de-rating is shown as a sensitivity, not blended in. Growth, returns, peers and the street are tests of the result, not further adjustments."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Its own history",
+        "House forwardMedian: 26.4x since Apr-2021 (no trough years). On EPS before the FY24 and FY26 one-offs: 26.0x (25th-75th percentile 21.9-28.4x; low 12.4x, now). 24.0x since 2016; 20.0x over the last two years; 12.3x on 30-Sep-2026 on our FY28E",
+        "Starting point: 26.0x"
+       ],
+       [
+        "2. Sector de-rating",
+        "On 30-Sep-2026 the eight IT-services peers traded below their five-year median P/E: Infosys −49%, HCLTech −21%, Wipro −40%, LTIMindtree (LTM) −38%, Persistent −18%, Coforge −11%, Mphasis −27%, L&T Technology Services −31%: median −29%. Tech Mahindra (−7%; FY24 earnings trough) and TCS itself excluded. Sensitivity: incumbents only (Infosys, HCLTech, Wipro) −40%, i.e. 15.6x",
+        "26.0x × 0.71 ≈ 18.5x"
+       ],
+       [
+        "3. Sensitivities (not the base)",
+        "Incumbents only (Infosys, HCLTech, Wipro) −40%: 15.6x. TCS's own de-rating, −53% vs its five-year median: 12.2x (₹2,104 a share on our Sep-28E EPS). Midpoint of the sector and own figures: 15.3x (₹2,650)",
+        "Shown for reference; the market prices TCS on its own de-rating, close to today's price"
+       ],
+       [
+        "4. Growth and returns (test)",
+        "We forecast ~7.0% EPS growth a year in FY26-29E (from ₹146.0 before one-offs) vs 10.7% in FY21-26. A Gordon-growth P/E at an 11.6% cost of equity and ~52% ROE: 14.4x for 5%, 16.8x for 6%, 18.3x for 6.5% long-run growth",
+        "**18.5x** needs ~6.5% long-run rupee earnings growth: above the street's view, near our FY26-29E pace"
+       ],
+       [
+        "5. Peers",
+        "Trailing P/E: Infosys 12.9x, HCLTech 18.4x, Wipro 11.9x, LTM 21.4x, Persistent 41.9x; TCS 13.8x",
+        "18.5x Sep-28E = 19.2x our FY28E: at HCLTech's trailing level, above Infosys and Wipro"
+       ],
+       [
+        "6. The street and the price",
+        "Street mode 14-15x FY28E (12x to 18x). At ₹2,051 TCS trades at 11.9x Sep-28E, which with a 52% ROE implies ~3.4% a year rupee earnings growth forever",
+        "Our 18.5x is above the street's 14-15x: the gap is the street's extra, TCS-specific discount, which the library rule does not apply"
+       ]
+      ],
+      "source": "Screener.in (P/E history and peers at the 30-Sep-2026 close), TCS EPS before exceptional items, broker notes, GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "One-year-forward P/E: our 18.5x vs history",
+       "unit": "Price ÷ next full-year EPS (x)",
+       "x": [
+        "2016-04-08",
+        "2016-05-13",
+        "2016-06-17",
+        "2016-07-22",
+        "2016-08-26",
+        "2016-09-30",
+        "2016-11-04",
+        "2016-12-09",
+        "2017-01-13",
+        "2017-02-17",
+        "2017-03-24",
+        "2017-04-28",
+        "2017-06-02",
+        "2017-07-07",
+        "2017-08-11",
+        "2017-09-15",
+        "2017-10-19",
+        "2017-11-24",
+        "2017-12-29",
+        "2018-02-02",
+        "2018-03-09",
+        "2018-04-13",
+        "2018-05-18",
+        "2018-06-22",
+        "2018-07-27",
+        "2018-08-31",
+        "2018-10-05",
+        "2018-11-09",
+        "2018-12-14",
+        "2019-01-18",
+        "2019-02-22",
+        "2019-03-29",
+        "2019-05-03",
+        "2019-06-07",
+        "2019-07-12",
+        "2019-08-16",
+        "2019-09-20",
+        "2019-10-27",
+        "2019-11-29",
+        "2020-01-03",
+        "2020-02-07",
+        "2020-03-13",
+        "2020-04-17",
+        "2020-05-22",
+        "2020-06-26",
+        "2020-07-31",
+        "2020-09-04",
+        "2020-10-09",
+        "2020-11-14",
+        "2020-12-18",
+        "2021-01-22",
+        "2021-02-26",
+        "2021-04-01",
+        "2021-05-07",
+        "2021-06-11",
+        "2021-07-16",
+        "2021-08-20",
+        "2021-09-24",
+        "2021-10-29",
+        "2021-12-03",
+        "2022-01-07",
+        "2022-02-11",
+        "2022-03-17",
+        "2022-04-22",
+        "2022-05-27",
+        "2022-07-01",
+        "2022-08-05",
+        "2022-09-09",
+        "2022-10-14",
+        "2022-11-18",
+        "2022-12-23",
+        "2023-01-27",
+        "2023-03-03",
+        "2023-04-06",
+        "2023-05-12",
+        "2023-06-16",
+        "2023-07-21",
+        "2023-08-25",
+        "2023-09-29",
+        "2023-11-03",
+        "2023-12-08",
+        "2024-01-12",
+        "2024-02-16",
+        "2024-03-22",
+        "2024-04-26",
+        "2024-05-31",
+        "2024-07-05",
+        "2024-08-09",
+        "2024-09-13",
+        "2024-10-18",
+        "2024-11-22",
+        "2024-12-27",
+        "2025-02-01",
+        "2025-03-07",
+        "2025-04-11",
+        "2025-05-16",
+        "2025-06-20",
+        "2025-07-25",
+        "2025-08-29",
+        "2025-10-03",
+        "2025-11-07",
+        "2025-12-12",
+        "2026-01-16",
+        "2026-02-20",
+        "2026-03-27",
+        "2026-04-30",
+        "2026-06-05",
+        "2026-07-10",
+        "2026-08-14",
+        "2026-09-18"
+       ],
+       "series": [
+        {
+         "name": "Forward multiple",
+         "values": [
+          18,
+          18.7,
+          19.3,
+          18.6,
+          18.7,
+          18,
+          17.3,
+          16.3,
+          16.7,
+          17.8,
+          18,
+          13.6,
+          15.3,
+          13.9,
+          14.9,
+          14.9,
+          15.4,
+          16,
+          16.1,
+          18.8,
+          18.1,
+          18.3,
+          20.3,
+          21,
+          22.6,
+          24.1,
+          24.4,
+          22.2,
+          23.1,
+          22.1,
+          22.3,
+          23.2,
+          24.3,
+          24.9,
+          24,
+          24.7,
+          23.6,
+          24.1,
+          23.4,
+          25.1,
+          24.4,
+          20.6,
+          17.2,
+          19.3,
+          20.2,
+          21.8,
+          21.9,
+          26.9,
+          25.5,
+          27.3,
+          31.5,
+          27.6,
+          27.5,
+          27.2,
+          28.4,
+          27.7,
+          30.9,
+          33.6,
+          29.5,
+          31.6,
+          33.5,
+          32.1,
+          31.9,
+          28.5,
+          25.7,
+          26.1,
+          26.5,
+          25.4,
+          24.4,
+          26.4,
+          25.4,
+          26.9,
+          26.3,
+          24,
+          24.4,
+          23.7,
+          25.1,
+          25.2,
+          26.3,
+          25,
+          27,
+          28.9,
+          30.8,
+          29.1,
+          28.1,
+          27,
+          29.5,
+          31.1,
+          33.3,
+          30.3,
+          31.2,
+          30.6,
+          29.9,
+          26.6,
+          20.6,
+          22.7,
+          21.9,
+          20,
+          19.6,
+          18.5,
+          19.1,
+          20.5,
+          20.4,
+          17.1,
+          15.2,
+          14.8,
+          13.2,
+          12.4,
+          14.1,
+          12.6
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 2,
+       "lines": [
+        {
+         "v": 26,
+         "text": "Median since 2021: 26.4x"
+        },
+        {
+         "v": 18.5,
+         "text": "Our target: 18.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices; actual earnings, GAM estimates for forecast years"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "P/E (target)",
+        "EV/EBITDA",
+        "DCF",
+        "Share price today"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          3200,
+          2975,
+          2835,
+          2050.6
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "P/E (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**P/E**",
+        "**Target**",
+        "EPS Sep-28E ₹173",
+        "18.5x (bull 22x, bear 12x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "EBITDA Sep-28E ₹86,816 cr",
+        "12x (bull 14x, bear 8x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "-7%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-11%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** EV/EBITDA at 12x Sep-28E EBITDA (₹86,816 cr) plus net cash gives ₹2,975, 7% below the P/E target: 12x is TCS's 20.2x median trailing EV/EBITDA since 2021 cut by the same 29% sector de-rating (14.3x trailing, against 9.6x today), restated for Sep-28E EBITDA being 17% above the twelve months to Jun-26. The DCF (₹2,835) is 11% below the target at an 11.6% cost of equity, 5% terminal growth and EBIT margins easing to ~24.7%: cash flows support well more than today's price, but not all of the P/E target, which assumes TCS re-rates to the sector's de-rated level. All three methods land between ₹2,835 and ₹3,200, 38-56% above the price."
+    },
+    {
+     "exhibit": {
+      "type": "line",
+      "title": "One-year-forward P/E: house series vs EPS before one-offs",
+      "unit": "Price ÷ next full-year EPS (x)",
+      "x": [
+       "2016-04-08",
+       "2016-05-13",
+       "2016-06-17",
+       "2016-07-22",
+       "2016-08-26",
+       "2016-09-30",
+       "2016-11-04",
+       "2016-12-09",
+       "2017-01-13",
+       "2017-02-17",
+       "2017-03-24",
+       "2017-04-28",
+       "2017-06-02",
+       "2017-07-07",
+       "2017-08-11",
+       "2017-09-15",
+       "2017-10-19",
+       "2017-11-24",
+       "2017-12-29",
+       "2018-02-02",
+       "2018-03-09",
+       "2018-04-13",
+       "2018-05-18",
+       "2018-06-22",
+       "2018-07-27",
+       "2018-08-31",
+       "2018-10-05",
+       "2018-11-09",
+       "2018-12-14",
+       "2019-01-18",
+       "2019-02-22",
+       "2019-03-29",
+       "2019-05-03",
+       "2019-06-07",
+       "2019-07-12",
+       "2019-08-16",
+       "2019-09-20",
+       "2019-10-27",
+       "2019-11-29",
+       "2020-01-03",
+       "2020-02-07",
+       "2020-03-13",
+       "2020-04-17",
+       "2020-05-22",
+       "2020-06-26",
+       "2020-07-31",
+       "2020-09-04",
+       "2020-10-09",
+       "2020-11-14",
+       "2020-12-18",
+       "2021-01-22",
+       "2021-02-26",
+       "2021-04-01",
+       "2021-05-07",
+       "2021-06-11",
+       "2021-07-16",
+       "2021-08-20",
+       "2021-09-24",
+       "2021-10-29",
+       "2021-12-03",
+       "2022-01-07",
+       "2022-02-11",
+       "2022-03-17",
+       "2022-04-22",
+       "2022-05-27",
+       "2022-07-01",
+       "2022-08-05",
+       "2022-09-09",
+       "2022-10-14",
+       "2022-11-18",
+       "2022-12-23",
+       "2023-01-27",
+       "2023-03-03",
+       "2023-04-06",
+       "2023-05-12",
+       "2023-06-16",
+       "2023-07-21",
+       "2023-08-25",
+       "2023-09-29",
+       "2023-11-03",
+       "2023-12-08",
+       "2024-01-12",
+       "2024-02-16",
+       "2024-03-22",
+       "2024-04-26",
+       "2024-05-31",
+       "2024-07-05",
+       "2024-08-09",
+       "2024-09-13",
+       "2024-10-18",
+       "2024-11-22",
+       "2024-12-27",
+       "2025-02-01",
+       "2025-03-07",
+       "2025-04-11",
+       "2025-05-16",
+       "2025-06-20",
+       "2025-07-25",
+       "2025-08-29",
+       "2025-10-03",
+       "2025-11-07",
+       "2025-12-12",
+       "2026-01-16",
+       "2026-02-20",
+       "2026-03-27",
+       "2026-04-30",
+       "2026-06-05",
+       "2026-07-10",
+       "2026-08-14",
+       "2026-09-18"
+      ],
+      "series": [
+       {
+        "name": "Before one-offs (GAM)",
+        "values": [
+         18,
+         18.7,
+         19.3,
+         18.6,
+         18.7,
+         18,
+         17.3,
+         16.3,
+         16.7,
+         17.8,
+         18,
+         13.6,
+         15.3,
+         13.9,
+         14.9,
+         14.9,
+         15.4,
+         16,
+         16.1,
+         18.8,
+         18.1,
+         18.3,
+         20.3,
+         21,
+         22.6,
+         24.1,
+         24.4,
+         22.2,
+         23.1,
+         22.1,
+         22.3,
+         23.2,
+         24.3,
+         24.9,
+         24,
+         24.7,
+         23.6,
+         24.1,
+         23.4,
+         25.1,
+         24.4,
+         20.6,
+         17.2,
+         19.3,
+         20.2,
+         21.8,
+         21.9,
+         26.9,
+         25.5,
+         27.3,
+         31.5,
+         27.6,
+         27.5,
+         27.2,
+         28.4,
+         27.7,
+         30.9,
+         33.6,
+         29.5,
+         31.6,
+         33.5,
+         32.1,
+         31.9,
+         28.1,
+         25.3,
+         25.7,
+         26.1,
+         25,
+         24.1,
+         26,
+         25.1,
+         26.5,
+         26,
+         24,
+         24.4,
+         23.7,
+         25.1,
+         25.2,
+         26.3,
+         25,
+         27,
+         28.9,
+         30.8,
+         29.1,
+         26.2,
+         25.1,
+         27.5,
+         29,
+         31,
+         28.2,
+         29.1,
+         28.5,
+         27.9,
+         24.7,
+         20.6,
+         22.7,
+         21.9,
+         20,
+         19.6,
+         18.5,
+         19,
+         20.5,
+         20.4,
+         17.1,
+         15.2,
+         14.8,
+         13.2,
+         12.4,
+         14.1,
+         12.6
+        ],
+        "fmt": "x",
+        "thin": true
+       },
+       {
+        "name": "Reported EPS (house forwardSeries)",
+        "values": [
+         18,
+         18.7,
+         19.3,
+         18.6,
+         18.7,
+         18,
+         17.3,
+         16.3,
+         16.7,
+         17.8,
+         18,
+         13.6,
+         15.3,
+         13.9,
+         14.9,
+         14.9,
+         15.4,
+         16,
+         16.1,
+         18.8,
+         18.1,
+         18.3,
+         20.3,
+         21,
+         22.6,
+         24.1,
+         24.4,
+         22.2,
+         23.1,
+         22.1,
+         22.3,
+         23.2,
+         24.3,
+         24.9,
+         24,
+         24.7,
+         23.6,
+         24.1,
+         23.4,
+         25.1,
+         24.4,
+         20.6,
+         17.2,
+         19.3,
+         20.2,
+         21.8,
+         21.9,
+         26.9,
+         25.5,
+         27.3,
+         31.5,
+         27.6,
+         27.5,
+         27.2,
+         28.4,
+         27.7,
+         30.9,
+         33.6,
+         29.5,
+         31.6,
+         33.5,
+         32.1,
+         31.9,
+         28.5,
+         25.7,
+         26.1,
+         26.5,
+         25.4,
+         24.4,
+         26.4,
+         25.4,
+         26.9,
+         26.3,
+         24,
+         24.4,
+         23.7,
+         25.1,
+         25.2,
+         26.3,
+         25,
+         27,
+         28.9,
+         30.8,
+         29.1,
+         28.1,
+         27,
+         29.5,
+         31.1,
+         33.3,
+         30.3,
+         31.2,
+         30.6,
+         29.9,
+         26.6,
+         20.6,
+         22.7,
+         21.9,
+         20,
+         19.6,
+         18.5,
+         19.1,
+         20.5,
+         20.4,
+         17.1,
+         15.2,
+         14.8,
+         13.2,
+         12.4,
+         14.1,
+         12.6
+        ],
+        "fmt": "x",
+        "thin": true
+       }
+      ],
+      "labels": "last",
+      "yearTicks": true,
+      "yearStep": 2,
+      "lines": [
+       {
+        "v": 26,
+        "text": "Median since 2021 (adjusted): 26.0x"
+       },
+       {
+        "v": 18.5,
+        "text": "Our target: 18.5x",
+        "color": "#cf8f1f"
+       }
+      ],
+      "source": "Screener.in prices; reported EPS (Screener) vs GAM EPS before the FY24 and FY26 one-offs; GAM estimates FY27-29E"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Revenue growth +1.5 pts and margin +0.6 pts a year vs base; multiple 22x (TCS's 25th-percentile forward P/E since 2021, 21.9x)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "USD revenue +3.3% / +4.2% / +4.8% (FY27-29E), rupee ₹95.4 → ₹98.3; EBIT margin 24.6% → 25.2%; 18.5x Sep-28E EPS of ₹173.0."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Revenue growth −2 pts and margin −1.1 pts a year vs base; multiple 12x (TCS's own de-rating level, 12.2x, and its low since 2016)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Add: net cash at Mar-27 (after leases)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research. The engine divides by 363.6 cr shares (Screener basis, incl. the minority ratio) vs 361.8 cr actual, which understates per-share DCF value by ~0.5%."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed IT-services peers (30-Sep-2026 close)",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "vs 5-yr median P/E",
+       "EV/EBITDA (x)",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**TCS**",
+        "7,41,988",
+        "2,67,021",
+        "27.1%",
+        "13.8",
+        "−53%",
+        "9.5",
+        "49%"
+       ],
+       [
+        "Infosys",
+        "4,03,434",
+        "1,78,650",
+        "23.7%",
+        "12.9",
+        "−49%",
+        "8.1",
+        "31.2%"
+       ],
+       [
+        "HCLTech",
+        "3,33,880",
+        "1,30,144",
+        "20.6%",
+        "18.4",
+        "−21%",
+        "10.9",
+        "23%"
+       ],
+       [
+        "Wipro",
+        "1,56,756",
+        "92,624",
+        "19.2%",
+        "11.9",
+        "−40%",
+        "7.5",
+        "15.6%"
+       ],
+       [
+        "Tech Mahindra",
+        "1,49,400",
+        "56,815",
+        "15.9%",
+        "28.1",
+        "−7%",
+        "15.4",
+        "16.9%"
+       ],
+       [
+        "LTIMindtree (LTM)",
+        "1,20,003",
+        "42,308",
+        "17.9%",
+        "21.4",
+        "−38%",
+        "13.4",
+        "21.3%"
+       ],
+       [
+        "Persistent",
+        "87,544",
+        "14,748",
+        "19%",
+        "41.9",
+        "−18%",
+        "26.8",
+        "26.3%"
+       ],
+       [
+        "Coforge",
+        "77,485",
+        "16,403",
+        "17.9%",
+        "40.4",
+        "−11%",
+        "22.1",
+        "21.9%"
+       ],
+       [
+        "Mphasis",
+        "41,171",
+        "15,880",
+        "18.8%",
+        "21.2",
+        "−27%",
+        "12.3",
+        "18.3%"
+       ],
+       [
+        "L&T Technology Services",
+        "34,258",
+        "10,996",
+        "17.6%",
+        "25.7",
+        "−31%",
+        "14.9",
+        "20.4%"
+       ],
+       [
+        "Oracle Financial Services",
+        "92,648",
+        "7,672",
+        "45.3%",
+        "27.1",
+        "+2%",
+        "18.3",
+        "32.6%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026 (consolidated). Sector de-rating median uses the eight services peers; Tech Mahindra (earnings trough) and OFSS (software products) are shown for reference only. LTIMindtree trades as LTM."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a slower TCS, priced as a shrinking one; BUY at 12.3x FY28E",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's largest and most profitable IT-services company (25% EBIT margin, ~52% ROE), with US$40 bn of annual order intake, ~₹38,000 cr of net cash after leases, a 71.7% owner that wants payouts, and a ~90% payout of earnings through dividends and buybacks (₹110 a share in FY26, a 5.4% yield at today's price)."
+    },
+    {
+     "callout": "**What you are paying:** 13.0x our FY27E and 12.3x FY28E EPS, the lowest forward multiple in at least ten years, for ~7.0% EPS growth that leans on the rupee. Growth is structurally lower than in the 2010s: AI takes 10-15% out of every renewal and the new AI work is still ~8.5% of revenue. On the street's method, our inputs and the sector de-rating the target is {{dcf.tp|inr}} ({{dcf.upside|chg}}): BUY, a valuation call, not a growth call."
+    },
+    {
+     "callout": "**What the market's own de-rating implies:** TCS trades 53% below its five-year median P/E, against 29% for its peers. The market is saying TCS's earnings are more exposed to AI repricing than peers', or will grow more slowly. Applied to our numbers, that discount gives 12.2x Sep-28E EPS, ~₹2,100 a share, about today's price; the midpoint of the two de-ratings (15.3x) gives ~₹2,650. Our 18.5x target assumes TCS de-rates only as much as the sector. If the next few quarters confirm that TCS is losing ground to peers (CC growth below Infosys and HCLTech again in FY27), the own-de-rating level is the right anchor and the stock is fairly priced; the bear case uses it."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "CC growth reaches ~1% QoQ from Q2FY27 as deferred projects resume",
+        "Medium",
+        "Q2FY27 results (due in October 2026); Consumer and LSH verticals"
+       ],
+       [
+        "AI revenue keeps compounding and TCV converts (SKF, UK telecom, BSNL add-on)",
+        "Medium",
+        "AI run-rate above US$3 bn; book-to-bill vs revenue growth"
+       ],
+       [
+        "Margin back to 25%+ by Q4FY27 as promised",
+        "Medium-high",
+        "Quarterly EBIT margin; subcontracting costs"
+       ],
+       [
+        "A buyback at today's price",
+        "Low-medium",
+        "Board announcements; management says it \"remains an option\""
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "AI deflation accelerates (renewals repriced 20-30%, as in some anecdotes)",
+        "Medium",
+        "USD growth near zero; EPS 10-15% below ours (bear case)"
+       ],
+       [
+        "Rupee strengthens (oil falls, capital returns to India)",
+        "Medium",
+        "Each 1% appreciation ≈ −1% revenue, −20-30 bp margin, ~−2% EPS"
+       ],
+       [
+        "West Asia conflict and tariffs deepen the discretionary freeze",
+        "Medium",
+        "Q2-Q3FY27 growth below 1% QoQ"
+       ],
+       [
+        "HyperVault and M&A dilute returns (capex, losses, integration of MHP)",
+        "Medium",
+        "ROE drifts down; lower payout"
+       ],
+       [
+        "More US litigation or visa restrictions",
+        "Low-medium",
+        "One-off charges; higher onsite costs"
+       ],
+       [
+        "IT de-rating continues",
+        "Medium",
+        "At 12x Sep-28E on our EPS the stock is worth ~₹2,080"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: BUY, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would stay buyers below ~₹2,780** and turn sellers above ~₹3,370 on today's numbers; we would cut the multiple if Q2-Q3FY27 show CC growth still near zero with renewals repricing faster.",
+      "**Biggest swing factor:** the rupee and the margin together. Each 1 pt of EBIT margin is ~4% of our FY28E EPS and ~₹120 a share at our multiple."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "CC growth, Q1FY27 YoY",
+        "v": "+3.2%",
+        "d": "FY26 −2.4%"
+       },
+       {
+        "k": "TCV, FY26",
+        "v": "US$40.7 bn",
+        "d": "Q1FY27 US$9.5 bn"
+       },
+       {
+        "k": "AI services run-rate",
+        "v": "US$2.6 bn",
+        "d": "~8.5% of revenue"
+       },
+       {
+        "k": "Price ÷ our FY28E EPS",
+        "v": "12.3x",
+        "d": "median since 2021: 26.4x (forward)"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY15–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 12
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 150
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (after exceptional items in actuals)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (incl. minorities)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 12
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 8
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Constant currency (CC) growth",
+        "Revenue growth with exchange rates held at last year's levels: the \"real\" growth in business volume and price, before currency moves."
+       ],
+       [
+        "TCV (total contract value)",
+        "The total value of contracts signed in a period, over their full life (often 3-7 years); includes renewals."
+       ],
+       [
+        "Book-to-bill",
+        "Contracts signed in a period divided by revenue in the same period. Above 1x usually means future growth, unless renewals are repriced lower."
+       ],
+       [
+        "Mega deal",
+        "TCS's term for its largest contracts (typically several hundred million dollars or more over the contract life)."
+       ],
+       [
+        "ADM / run work",
+        "Application development and maintenance, infrastructure and IT operations: multi-year \"keep the lights on\" contracts, the work most exposed to AI automation."
+       ],
+       [
+        "Productivity pass-through / AI deflation",
+        "Giving clients part of the efficiency gain from AI or automation as lower prices or fewer billed people, usually at contract renewal."
+       ],
+       [
+        "Discretionary spending",
+        "Optional projects (new systems, transformations) that clients can delay; the first spending cut in a slowdown."
+       ],
+       [
+        "GCC (global capability centre)",
+        "A client's own technology or back-office centre, often in India; it competes with outsourcing."
+       ],
+       [
+        "Attrition (LTM, voluntary)",
+        "Employees who left by choice in the last twelve months, as % of average headcount."
+       ],
+       [
+        "Subcontracting (fees to external consultants)",
+        "Work done for TCS by outside contractors; rises when TCS lacks skills or capacity."
+       ],
+       [
+        "Operating margin / EBIT margin",
+        "TCS's operating income after depreciation, before other income, as % of revenue. EBITDA (Screener basis) adds back depreciation."
+       ],
+       [
+        "Exceptional items / one-offs",
+        "Large unusual charges reported separately: FY26 severance, labour-code and legal provisions; Q1FY27 CSC legal provision."
+       ],
+       [
+        "Labour Codes",
+        "Four Indian labour laws notified on 21-Nov-2025 that changed how wages and benefits (gratuity, leave) are calculated."
+       ],
+       [
+        "HyperVault",
+        "TCS's AI data-centre subsidiary (51% TCS, 49% TPG), planning >1 GW of capacity; OpenAI is the first customer (100 MW)."
+       ],
+       [
+        "Invested funds",
+        "TCS's cash, bank deposits, bonds, mutual funds and short-term deposits (₹50,020 cr at Mar-26)."
+       ],
+       [
+        "P/E, EV/EBITDA, Sep-28E",
+        "Share price ÷ EPS; enterprise value (market value less net cash) ÷ EBITDA; Sep-28E = half FY28E plus half FY29E, the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "DCF / cost of equity",
+        "Discounted cash flow valuation; the cost of equity (11.6% here) is the annual return investors require, used to discount future cash."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY21": "+5%: Covid year; USD +0.7%, CC −0.8%; rupee weaker.",
+  "sales@FY22": "+17%: post-Covid digital and cloud boom; CC +15.4%, headcount +103,546.",
+  "ebitdaMargin@FY22": "Down ~70bp: wage inflation and subcontracting during the FY22 talent war (attrition 17.4%).",
+  "sales@FY23": "+18%: CC +13.7% and a weaker rupee; USD +8.6%.",
+  "ebitdaMargin@FY23": "−140bp to 26.3%: wage hikes, travel back, attrition ~20%.",
+  "sales@FY24": "+7%: CC +3.4%; discretionary cuts; BSNL ramp-up began.",
+  "otherIncome@FY24": "After a Rs958 cr legal settlement (Epic Systems), netted in by Screener.",
+  "sales@FY25": "+6%: CC +4.2%, of which India +62.6% (BSNL); North America −1.8%.",
+  "sales@FY26": "+4.6% in rupees; USD −0.5%, CC −2.4% as BSNL tapered (India −28.6%); restructuring year.",
+  "otherIncome@FY26": "−Rs124 cr: Rs4,402 cr of other income less Rs4,526 cr of exceptional items (restructuring Rs1,388 cr, labour codes Rs2,128 cr, CSC claim Rs1,010 cr).",
+  "pat@FY26": "+1% reported; Rs52,820 cr (+8.8%) before one-offs (EPS Rs146.0 vs Rs136.0 reported).",
+  "cfo@FY26": "+7% to Rs52,094 cr; 111% of net income before one-offs (TCS basis).",
+  "capex@FY26": "Rs4,146 cr (Screener basis); plus Rs6,768 cr on acquisitions (Coastal Cloud, ListEngage).",
+  "sales@Q1FY26": "Revenue fell QoQ: CC −3.3%, of which ~2.6 pts BSNL ramp-down.",
+  "pat@Q2FY26": "After Rs1,135 cr severance (exceptional).",
+  "pat@Q3FY26": "−14% YoY: Rs3,391 cr of exceptional items (labour codes Rs2,128 cr, CSC claim Rs1,010 cr, severance Rs253 cr).",
+  "otherIncome@Q3FY26": "Negative: exceptional items netted into other income by Screener.",
+  "sales@Q4FY26": "+9.6% YoY in rupees (USD +2.1%, CC −0.6%); rupee 92.8 vs 86.4 a year earlier; Coastal Cloud consolidated from 14-Jan-2026.",
+  "sales@Q1FY27": "+13.9% YoY: CC +3.2%, USD +2.7%, rupee 94.8 vs 85.5.",
+  "opm@Q1FY27": "EBIT margin 24.0% (−130bp QoQ): annual wage increments −170bp, currency +40bp.",
+  "pat@Q1FY27": "Rs13,420 cr incl. minorities after a Rs668 cr CSC provision; Rs13,849 cr attributable before it (+8.5% YoY).",
+  "sales@FY27E": "GAM: USD +3.3% (BFSI, Technology, ERU; BSNL add-on in H2) and rupee +7.3% (95.4 vs 89.0).",
+  "ebitdaMargin@FY27E": "GAM: EBIT 24.6%, Q1's wage hit recovered through the year to a 25%+ exit.",
+  "pat@FY27E": "GAM: before the Q1FY27 CSC charge; +8% vs FY26 before one-offs.",
+  "otherIncome@FY27E": "GAM: includes Q1FY27's actual Rs1,568 cr (gross); 7% yield on net cash thereafter.",
+  "sales@FY28E": "GAM: USD +4.2% (AI work and mega-deal ramps net of 2-3% renewal deflation); rupee +1.5%.",
+  "capex@FY27E": "GAM: Rs4,500 cr core plus Rs3,000 cr TCS share of HyperVault."
+ }
+}

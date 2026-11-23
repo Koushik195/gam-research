@@ -1,0 +1,69 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Tata Consultancy Services (consolidated, Rs crore). Revenue is built in US dollars by industry vertical (usdBuild below) and converted at a stated INR/USD path; the INR growth that results is entered in revenueGrowth (the authoring script checks that the build sums to model revenue). TCS reports an operating (EBIT) margin after depreciation; the engine's EBITDA margin = our EBIT margin + engine depreciation / revenue. Forecasts are before exceptional items (the Q1FY27 Rs668 cr CSC charge is left out, as the street does). Net Profit on Screener includes minorities (~0.5%); the engine's share count (363.6 cr) is inflated by the same ratio, so EPS is on the attributable basis. Valued on P/E, as the street does.",
+ "years": ["FY27E", "FY28E", "FY29E"],
+ "usdBuild": {
+  "baseFy": "FY26", "baseUsdM": 30017,
+  "mixPct": { "bfsi": 32.0, "cbg": 15.5, "lsh": 10.4, "mfg": 8.8, "tech": 8.4, "cmi": 5.8, "eru": 6.0, "rmo": 13.1 },
+  "names": { "bfsi": "BFSI", "cbg": "Consumer Business", "lsh": "Life Sciences & Healthcare", "mfg": "Manufacturing", "tech": "Technology & Services", "cmi": "Communication & Media", "eru": "Energy, Resources & Utilities", "rmo": "Regional Markets & Others" },
+  "growthPct": { "bfsi": [3.8, 4.5, 5.0], "cbg": [-1.5, 3.0, 4.0], "lsh": [2.5, 4.0, 4.5], "mfg": [4.0, 6.0, 5.5], "tech": [5.0, 5.5, 6.0], "cmi": [2.0, 2.5, 3.0], "eru": [7.0, 6.0, 6.0], "rmo": [5.5, 3.0, 4.0] },
+  "inrPerUsd": [95.44, 96.87, 98.32],
+  "inrPerUsdFy26": 88.96,
+  "_why": "USD growth, cross-currency held flat (Q1FY27 GBP/USD 1.34, EUR/USD 1.16). FY27E +3.3%: Q1FY27 US$7,624 m annualised is already +1.6% on FY26; we add ~1% QoQ in Q2-Q3 (management: Q2 'better than' Q1; TCV US$9.5 bn in Q1 and US$40.7 bn in FY26) and a weaker Q4, plus a partial BSNL add-on ramp in H2 (Regional Markets +5.5%) and three extra quarters of Coastal Cloud. By vertical: BFSI +3.8% (Q1 run-rate +1.9%, 'good growth across geographies'); Consumer -1.5% (large projects ended in Q1, airlines and discretionary retail weak); LSH +2.5% (declined in Q1, recovery 'expected soon'); Manufacturing +4% (SKF US$800 m over five years ramps from H2); Technology +5% (Q1 run-rate +2.8%, growing ~1.5% QoQ); CMI +2%; ERU +7% (Q1 run-rate +6.7%). FY28E +4.2% and FY29E +4.7%: AI work (US$2.6 bn run-rate, ~8.5% of revenue, +13.6% QoQ) and mega-deal ramps outgrow 2-3% a year of productivity pass-through on the legacy book (TCS: 10-15% over a contract's life; HCLTech: 2-3% a year). Below management's 'high single digit once deflation is absorbed' and in line with the street (MOSL USD +2.2%/+3.0%, ICICI Direct +2.5%/+3.4%, PL CC +3.5%/+4.5%). HyperVault (data centres) and MHP (Porsche consulting, EUR320 m EV, announced Aug-2026) revenue are not included.",
+  "_fxWhy": "INR/USD (TCS's effective rate = INR revenue / USD revenue): FY26 88.96; Q1FY27 94.80; 30-Sep-2026 close ~95.83 (5paisa). FY27E 95.44 = Q1 actual, Q2 ~95.3 and H2 at the 30-Sep spot. FY28E-29E: 1.5% a year depreciation (the rupee fell ~3% a year over FY16-26). Each 1% on the rupee moves revenue ~1% and EBIT margin ~20-30 bp (Q4FY26: ~110 bp on a 3.8% move; Q1FY27: 40 bp on 2.2%), ~2% of EPS; TCS hedges part of its exposure."
+ },
+ "revenueGrowth": [10.80, 5.785, 6.32],
+ "_revenueWhy": "INR revenue growth from usdBuild: US$30,999 m x 95.44 = Rs2,95,856 cr (+10.8%: +3.3% USD, +7.3% rupee); US$32,308 m x 96.87 = Rs3,12,970 cr (+5.8%); US$33,844 m x 98.32 = Rs3,32,750 cr (+6.3%).",
+ "ebitdaMargin": [26.26, 26.75, 27.02],
+ "_marginWhy": "EBIT (TCS operating) margin 24.6% / 25.0% / 25.2% plus engine depreciation of ~1.7-1.8% of revenue. FY27E 24.6%: Q1 24.0% after the 170 bp wage hit; management wants to 'exit at 25% plus' (Q1 call), so ~24.4/24.8/25.1% in Q2-Q4. FY28E 25.0% = FY26's four-year high: utilisation and pyramid gains, the 1.5% rupee tailwind and AI revenue at higher revenue productivity, offset by continued investment (partnerships, GTM, acquisitions) and renewal pricing. FY29E 25.2%: a step towards the 'move towards 26%, on a longer-term basis' (CFO, Apr-2026). Street FY28E EBIT: MOSL 25.0%, ICICI Direct 24.8%, Choice 24.0%. Depreciation on TCS's share of HyperVault capex sits inside these margins (no HyperVault revenue modelled), a small conservative bias.",
+ "capex": [7500, 7700, 7900],
+ "_capexWhy": "Core IT capex Rs4,500 / 4,700 / 4,900 cr (Screener cash-flow basis: Rs3,937 cr FY25, Rs4,146 cr FY26; IFRS Rs4,885 cr FY26; Q1FY27 Rs750 cr) plus Rs3,000 cr a year for TCS's 51% share of the up-to-Rs18,000 cr HyperVault programme with TPG (~Rs9,200 cr over FY27-29E). Consolidated capex will be higher (TPG's 49% and project debt) but the engine has no minority or project-debt line, so we model TCS's economic share. MHP's EUR320 m (~Rs3,550 cr) is not included.",
+ "depRateOnGrossBlock": 7.6,
+ "_depWhy": "FY26 depreciation Rs5,560 cr = 9.8% of average gross block (Rs56,147 cr; gross block includes Rs9,108 cr of goodwill that is not amortised); Q1FY27 Rs1,239 cr (~Rs4,960 cr annualised) after acquired intangibles ran off (other intangibles Rs940 cr to Rs176 cr in FY26). 7.6% gives Rs4,900 cr in FY27E, rising to ~Rs6,070 cr in FY29E as HyperVault capex is depreciated at once (engine limit: CWIP held flat).",
+ "otherTreasury": { "base": 2400, "_why": "Inter-corporate deposits of Rs1,500 cr (max 24 months) and Rs900 cr of overnight reverse repo at Mar-26 sit in 'loans' (AR FY26 note 8(e)), i.e. inside Screener's other assets. With Screener cash (Rs12,908 cr) and investments (Rs33,988 cr) they make Rs49,296 cr of the Rs50,020 cr 'invested funds' TCS reports." },
+ "treasuryYield": [7.0, 7.0, 7.0],
+ "_treasuryWhy": "Applied to net cash: cash + investments + ICDs - lease liabilities (Rs11,283 cr; TCS has no other debt) = Rs38,013 cr at Mar-26. FY26 recurring treasury income (interest on deposits Rs726 cr + amortised-cost Rs217 cr + FVOCI bonds Rs2,059 cr + dividends Rs35 cr + FVTPL gains Rs368 cr = Rs3,405 cr) was 7.0% of average invested funds (Rs48,621 cr; AR FY26 note 13). Indian bond yields were lower in 2026 than in FY25; we hold 7.0%.",
+ "otherIncome": [1645, 1030, 1070],
+ "_otherIncomeWhy": "Non-treasury and gross-up items: (1) 7.0% on the slice of invested funds that offsets lease liabilities (treasury income is earned on gross funds, but the engine applies the yield to net cash): ~Rs790 / 830 / 870 cr; (2) recurring other items (interest on tax refunds at a normal level, rent, lease-modification gains) ~Rs200 cr; (3) FY27E only: Rs655 cr by which Q1FY27's actual gross other income (Rs1,568 cr = Rs1,295 cr net + Rs273 cr finance costs; composition not disclosed quarterly) exceeded our quarterly run-rate. FY27E total other income ~Rs4,310 cr = TTM to Jun-26 before exceptional items (Rs4,310 cr) and FY26 (Rs4,402 cr). FY28E falls to ~Rs3.7k cr because FY26 and Q1FY27 carried items we do not repeat: Rs852 cr interest on tax refunds, Rs333 cr gains on selling FVOCI bonds and Rs191 cr litigation awards, partly offset by a Rs611 cr FX loss (AR FY26 note 13).",
+ "interest": [900, 870, 910],
+ "_interestLabel": "Finance costs (lease interest; FY27E incl. Rs69 cr on the CSC judgement)",
+ "_interestWhy": "FY26 Rs1,227 cr = lease interest Rs778 cr + other Rs440 cr (incl. Rs342 cr on the CSC judgement). Q1FY27 Rs273 cr incl. ~Rs69 cr CSC interest. Leases grow with new offices (right-of-use assets +19% in FY26).",
+ "taxRate": [25.0, 25.0, 25.0],
+ "_taxWhy": "FY26 effective tax rate 24.6% before exceptional items (CFO); Q1FY27 25.2% (Rs4,692 cr on Rs18,612 cr). Minorities are not in the tax line: the engine's share count already carries Screener's minority ratio.",
+ "payout": [90, 90, 90],
+ "_payoutWhy": "TCS returns 'substantial' free cash flow: dividends were 100% of EPS in FY23, 58% in FY24 (+ a Rs17,000 cr buyback, ~95% in total), 94% in FY25 and 81% of reported EPS in FY26 (Rs110). We use 90% of EPS as dividends and buybacks combined (the engine cannot cut the share count, so a buyback is treated as a dividend; EPS would be ~0.5-1% higher a year if part were a buyback).",
+ "dcf": {
+  "rf": 6.5, "erp": 6, "beta": 0.85, "terminalGrowth": 5, "years": 15, "fadeGrowthTo": 5.5, "fadeMarginTo": 26.5, "fadeCapexPctTo": 2.0, "depPctOfSales": 1.8, "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, the largest and most diversified Indian IT exporter; but AI substitution risk to its business model is a real uncertainty, so we do not go below 0.85 (Ke 11.6%).",
+  "_tgWhy": "In rupees: ~3-3.5% long-run USD growth for a mature IT-services book plus ~1.5-2% rupee depreciation. Below the house 5-6% range's top because AI deflation may cap the industry's long-run growth.",
+  "_fadeGrowthWhy": "INR revenue growth fades from ~6.3% (FY29E) to 5.5% over 15 years.",
+  "_fadeMarginWhy": "EBITDA margin ~27.0% in FY29E (EBIT ~25.2%) eases to 26.5% (EBIT ~24.7%): pricing pressure on renewals offsets rupee tailwinds.",
+  "_fadeCapexWhy": "Capex falls from ~2.4% of revenue (with HyperVault equity) to 2.0% (TCS's history: 1.5-2%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Discretionary spending recovers in 2027 and AI turns net accretive faster: AI work (US$2.6 bn run-rate) keeps growing 40-50% a year, mega deals ramp, CC growth reaches 5-6% by FY28-29 (the 'high single digit' management talks about is in sight) and EBIT margin moves to 25.5-26%.",
+   "revenueGrowthDelta": 1.5,
+   "marginDelta": 0.6,
+   "fadeMarginTo": 27.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "AI deflation wins: productivity pass-through of 3-5% a year on the legacy book (the high end of HCLTech's industry estimate) outruns AI revenue, renewals reprice lower and clients move spend to GCCs and AI software. USD growth stays at 1-2%, the rupee stops depreciating and EBIT margin slips to ~23.5-24%.",
+   "revenueGrowthDelta": -2.0,
+   "marginDelta": -1.1,
+   "fadeMarginTo": 25.0
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    { "key": "pe", "name": "P/E", "method": "pe", "role": "primary", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 18.5, "bull": 22, "bear": 12 }, "why": "How the street values TCS: every broker that discloses a method uses P/E, mostly 14-15x FY28E after Q1FY27 (MOSL and PL 15x, ICICI Direct 14x, 360 ONE 14x, Antique 14x 1HFY29E, Emkay 16x Jun-28E, Nuvama 18x, BOBCAPS 12.7x, Nirmal Bang 12x; Jul-2026). Derived on the library rule (sector de-rating only): (1) TCS's median one-year-forward P/E since Apr-2021 is 26.4x (forwardMedian, no trough years) or 26.0x on EPS before the FY24 and FY26 one-offs (used); (2) the eight IT-services peers of the batch set traded a median 29.0% below their five-year median P/E on 30-Sep-2026 (Infosys -49%, Wipro -40%, LTM -38%, LTTS -31%, Mphasis -27%, HCLTech -21%, Persistent -18%, Coforge -11%; TCS and Tech Mahindra excluded) = 26.0x x 0.71 = 18.5x. Sensitivities, not the base: incumbents only (-39.9%) 15.6x; TCS's own -53% de-rating 12.2x; their midpoint 15.3x. Growth and returns check: a Gordon-growth P/E at an 11.6% cost of equity and a 52% ROE is 14.4x for 5% and 16.8x for 6% long-run growth; 18.5x needs ~6.5% (our FY26-29E EPS growth ~7%, FY21-26 10.7%). Bull 22x (TCS's 25th-percentile forward P/E since Apr-2021, 21.9x); bear 12x (TCS's own de-rating level, 12.2x, and its lowest forward P/E since 2016, 12.4x in Sep-2026)." },
+    { "key": "ev", "name": "EV/EBITDA", "method": "evEbitda", "role": "cross-check", "year": "Sep-28E", "roll": ["FY28E", "FY29E", 0.5], "multiple": { "base": 12, "bull": 14, "bear": 8 }, "why": "Counts net cash at face value. TCS's median trailing EV/EBITDA since Apr-2021 is 20.2x; the same sector de-rating (-29.0%) gives 14.3x trailing, restated for Sep-28E EBITDA being ~17% above the twelve months to Jun-26 (Rs74,079 cr) = 12.2x, rounded to 12x. Bull 14x and bear 8x scale with the P/E cases (bear = TCS's own 52% EV/EBITDA de-rating, 9.6x trailing, restated)." },
+    { "key": "dcf", "name": "DCF", "method": "dcf", "role": "cross-check", "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 11.6%, terminal growth 5%, plus net cash." }
+   ]
+  }
+ }
+}

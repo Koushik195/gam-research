@@ -1,0 +1,57 @@
+// TCS report, part 4b: glossary and statement notes (explain every big change in the statements).
+const glossary = {
+  id: 'glossary', nav: 'Glossary', kicker: 'Appendix', title: 'Glossary',
+  blocks: [
+    { exhibit: { type: 'table', title: 'Terms used in this report', head: ['Term', 'What it means'], wide: [1], rows: [
+      ['Constant currency (CC) growth', 'Revenue growth with exchange rates held at last year\'s levels: the "real" growth in business volume and price, before currency moves.'],
+      ['TCV (total contract value)', 'The total value of contracts signed in a period, over their full life (often 3-7 years); includes renewals.'],
+      ['Book-to-bill', 'Contracts signed in a period divided by revenue in the same period. Above 1x usually means future growth, unless renewals are repriced lower.'],
+      ['Mega deal', 'TCS\'s term for its largest contracts (typically several hundred million dollars or more over the contract life).'],
+      ['ADM / run work', 'Application development and maintenance, infrastructure and IT operations: multi-year "keep the lights on" contracts, the work most exposed to AI automation.'],
+      ['Productivity pass-through / AI deflation', 'Giving clients part of the efficiency gain from AI or automation as lower prices or fewer billed people, usually at contract renewal.'],
+      ['Discretionary spending', 'Optional projects (new systems, transformations) that clients can delay; the first spending cut in a slowdown.'],
+      ['GCC (global capability centre)', 'A client\'s own technology or back-office centre, often in India; it competes with outsourcing.'],
+      ['Attrition (LTM, voluntary)', 'Employees who left by choice in the last twelve months, as % of average headcount.'],
+      ['Subcontracting (fees to external consultants)', 'Work done for TCS by outside contractors; rises when TCS lacks skills or capacity.'],
+      ['Operating margin / EBIT margin', 'TCS\'s operating income after depreciation, before other income, as % of revenue. EBITDA (Screener basis) adds back depreciation.'],
+      ['Exceptional items / one-offs', 'Large unusual charges reported separately: FY26 severance, labour-code and legal provisions; Q1FY27 CSC legal provision.'],
+      ['Labour Codes', 'Four Indian labour laws notified on 21-Nov-2025 that changed how wages and benefits (gratuity, leave) are calculated.'],
+      ['HyperVault', 'TCS\'s AI data-centre subsidiary (51% TCS, 49% TPG), planning >1 GW of capacity; OpenAI is the first customer (100 MW).'],
+      ['Invested funds', 'TCS\'s cash, bank deposits, bonds, mutual funds and short-term deposits (₹50,020 cr at Mar-26).'],
+      ['P/E, EV/EBITDA, Sep-28E', 'Share price ÷ EPS; enterprise value (market value less net cash) ÷ EBITDA; Sep-28E = half FY28E plus half FY29E, the 12-month-forward earnings the market will look at in September 2027.'],
+      ['DCF / cost of equity', 'Discounted cash flow valuation; the cost of equity (11.6% here) is the annual return investors require, used to discount future cash.'],
+    ], source: 'GAM Research' } },
+  ],
+};
+
+const statementNotes = {
+  'sales@FY21': '+5%: Covid year; USD +0.7%, CC −0.8%; rupee weaker.',
+  'sales@FY22': '+17%: post-Covid digital and cloud boom; CC +15.4%, headcount +103,546.',
+  'ebitdaMargin@FY22': 'Down ~70bp: wage inflation and subcontracting during the FY22 talent war (attrition 17.4%).',
+  'sales@FY23': '+18%: CC +13.7% and a weaker rupee; USD +8.6%.',
+  'ebitdaMargin@FY23': '−140bp to 26.3%: wage hikes, travel back, attrition ~20%.',
+  'sales@FY24': '+7%: CC +3.4%; discretionary cuts; BSNL ramp-up began.',
+  'otherIncome@FY24': 'After a Rs958 cr legal settlement (Epic Systems), netted in by Screener.',
+  'sales@FY25': '+6%: CC +4.2%, of which India +62.6% (BSNL); North America −1.8%.',
+  'sales@FY26': '+4.6% in rupees; USD −0.5%, CC −2.4% as BSNL tapered (India −28.6%); restructuring year.',
+  'otherIncome@FY26': '−Rs124 cr: Rs4,402 cr of other income less Rs4,526 cr of exceptional items (restructuring Rs1,388 cr, labour codes Rs2,128 cr, CSC claim Rs1,010 cr).',
+  'pat@FY26': '+1% reported; Rs52,820 cr (+8.8%) before one-offs (EPS Rs146.0 vs Rs136.0 reported).',
+  'cfo@FY26': '+7% to Rs52,094 cr; 111% of net income before one-offs (TCS basis).',
+  'capex@FY26': 'Rs4,146 cr (Screener basis); plus Rs6,768 cr on acquisitions (Coastal Cloud, ListEngage).',
+  'sales@Q1FY26': 'Revenue fell QoQ: CC −3.3%, of which ~2.6 pts BSNL ramp-down.',
+  'pat@Q2FY26': 'After Rs1,135 cr severance (exceptional).',
+  'pat@Q3FY26': '−14% YoY: Rs3,391 cr of exceptional items (labour codes Rs2,128 cr, CSC claim Rs1,010 cr, severance Rs253 cr).',
+  'otherIncome@Q3FY26': 'Negative: exceptional items netted into other income by Screener.',
+  'sales@Q4FY26': '+9.6% YoY in rupees (USD +2.1%, CC −0.6%); rupee 92.8 vs 86.4 a year earlier; Coastal Cloud consolidated from 14-Jan-2026.',
+  'sales@Q1FY27': '+13.9% YoY: CC +3.2%, USD +2.7%, rupee 94.8 vs 85.5.',
+  'opm@Q1FY27': 'EBIT margin 24.0% (−130bp QoQ): annual wage increments −170bp, currency +40bp.',
+  'pat@Q1FY27': 'Rs13,420 cr incl. minorities after a Rs668 cr CSC provision; Rs13,849 cr attributable before it (+8.5% YoY).',
+  'sales@FY27E': 'GAM: USD +3.3% (BFSI, Technology, ERU; BSNL add-on in H2) and rupee +7.3% (95.4 vs 89.0).',
+  'ebitdaMargin@FY27E': 'GAM: EBIT 24.6%, Q1\'s wage hit recovered through the year to a 25%+ exit.',
+  'pat@FY27E': 'GAM: before the Q1FY27 CSC charge; +8% vs FY26 before one-offs.',
+  'otherIncome@FY27E': 'GAM: includes Q1FY27\'s actual Rs1,568 cr (gross); 7% yield on net cash thereafter.',
+  'sales@FY28E': 'GAM: USD +4.2% (AI work and mega-deal ramps net of 2-3% renewal deflation); rupee +1.5%.',
+  'capex@FY27E': 'GAM: Rs4,500 cr core plus Rs3,000 cr TCS share of HyperVault.',
+};
+
+module.exports = { glossary, statementNotes };
