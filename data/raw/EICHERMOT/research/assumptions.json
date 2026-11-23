@@ -1,0 +1,257 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Eicher Motors (consolidated, Rs crore). Consolidated revenue and EBITDA are Royal Enfield only (motorcycles, spares, accessories, apparel, services; India plus the international subsidiaries). VE Commercial Vehicles (VECV, Eicher 54.4%, joint control with Volvo) is a joint venture accounted for by the equity method: none of its revenue or EBITDA is consolidated and Eicher books 54.4% of VECV's profit as one line ('share of profit of joint venture'), which Screener adds to other income. So the model is: RE volume x revenue per motorcycle (engine volume path; the domestic / international / allied build is in `build` and is checked against model revenue in tools/authoring/EICHERMOT.ctx.js) and VECV volume x realisation -> EBITDA -> PAT -> 54.4% share (block `vecv`), which enters `otherIncome`. Volumes are on the company's financial-statement basis (FY26 1,227,977 = domestic 1,107,343 + international 120,634), which differs slightly from the monthly sales releases (FY26 1,238,659) because CKD exports are counted differently. Screener's Net Profit equals Profit for EPS (no minorities), so no patchRaw. Valued on a sum of the parts (RE P/E + VECV P/E) as the street does; the engine carries the SOTP as an implied P/E on consolidated Sep-28E EPS (tools/authoring/EICHERMOT.sotp.js writes it).",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "volume": {
+  "base": 1227977,
+  "growth": [
+   15.8,
+   10,
+   8.79
+  ],
+  "_why": "Royal Enfield motorcycles, financial-statement basis (FY26 1,227,977, +22.4%). FY27E +15.8% to 1.422 mn: Q1FY27 332,940 (+27.4%; domestic 301,174 +32%, international 31,766 -2%); monthly releases show Jul +34% and Aug +11% (Apr-Aug 575,138, +23%; domestic +28%, exports -9%). We assume domestic +12% for Sep-Mar against the GST-boosted base of FY26 (domestic Sep-Mar FY26 ~699k) -> domestic FY27E 1.304 mn (+17.8%); international -2% to 118k (US tariffs, weak Europe and APAC; Brazil and LatAm strong). Capacity is not the limit: 1.5 mn annualised since late Jul-2026, a further module from Oct-2026, 2.0 mn at Cheyyar by Q2FY28. FY28E +10% (domestic +10% as the GST step-up laps; international +10% on Brazil CKD and a low base) and FY29E +8.8% (domestic +8.5%, international +12%). Brokers: FY27E 1.42-1.43 mn (PL, MOSL, ICICI Direct; monthly basis), FY28E 1.59-1.60 mn."
+ },
+ "revPerUnitGrowth": [
+  2.24,
+  2.38,
+  2.29
+ ],
+ "_revPerUnitWhy": "Revenue per motorcycle = consolidated revenue / RE volume (FY26 Rs190,621; FY25 Rs188,158). Built in `build`: motorcycle realisation +2% a year (FY26 Rs162,440 = two-wheeler revenue Rs19,947 cr / volume; price rises of 0.85% in Jan-2026 and 1.75% on most 350cc models in Apr-2026, against a lower share of higher-priced international and >350cc bikes) plus allied revenue (spares, accessories, apparel, warranties, after-sales services, export incentives: Rs3,460 cr in FY26, +21.6%) growing +20% / +15% / +13%. Q1FY27 revenue per unit was Rs199,207 (+3.2% YoY) on a 15.3% international revenue share; H2 is domestic-heavy (festive), so the full year is lower.",
+ "ebitdaMargin": [
+  24.2,
+  24.8,
+  25
+ ],
+ "_marginWhy": "EBITDA margin (Screener basis, before other income and JV share): 26.2% FY24, 25.0% FY25, 24.7% FY26, 24.0% in Q1FY27 (gross margin 41.5%, -270bp YoY: a 4-4.5% commodity and process-cost hit, offset 1.2% by the April price rise, 0.4% value engineering and lower marketing). FY27E 24.2%: commodities 'softening' (management, Jul-2026) but marketing is being ramped up again in the 125th year, Flying Flea (EV) start-up costs and new stores. FY28E 24.8% and FY29E 25.0%: operating leverage at Cheyyar, value engineering on the J-platform, commodities normal. We do not return to FY24's 26.2%: management now prioritises volume over margin (MOSL), and >350cc mix (higher margin) has not recovered. Street: FY27E 24.3-24.6%, FY28E 25.2-25.5%.",
+ "capex": [
+  1700,
+  1800,
+  1700
+ ],
+ "_capexWhy": "Cash capex Rs1,039 cr (FY25) and Rs1,275 cr (FY26). Committed: Cheyyar brownfield Rs958 cr (approved Feb-2026; 2.0 mn capacity by FY27-28), Tada (Andhra Pradesh) greenfield phase 1 Rs1,225 cr (approved 29-Jul-2026; +0.45 mn by FY2029-30, in modules), EV (Flying Flea L-platform), tooling for new models and maintenance. PL models Rs1,610 cr / Rs1,927 cr for FY27E / FY28E. The proposed Volvo Financial Services JV (up to Rs750 cr for 50%) is an investment, not capex, and is not in our treasury forecast (timing and approvals unknown).",
+ "depRateOnGrossBlock": 12.5,
+ "_depWhy": "FY26 depreciation Rs840 cr = 11.6% of average gross block (Rs7,217 cr). Q1FY27 jumped to Rs278 cr (Rs1,110 cr annualised) as the Flying Flea line, the first Cheyyar module and tools and dies were capitalised (average gross block +Rs346 cr, CFO). The engine holds CWIP flat (Rs736 cr) and depreciates capex at once. 12.5% gives ~Rs1,070 cr in FY27E.",
+ "otherTreasury": {
+  "base": 6372,
+  "_why": "Bank deposits Rs5,921 cr (more than 12 months Rs2,909 cr + less than 12 months Rs3,012 cr, other financial assets, AR FY26 consolidated note 11) and bill discounting for VECV's vendors Rs451 cr (note 10, earns 8.3-9.2%) sit in Screener's other assets / loans: they are treasury, not working capital."
+ },
+ "treasuryYield": [
+  5.8,
+  5.8,
+  5.8
+ ],
+ "_treasuryWhy": "Engine workaround: Screener's 'investments' (Rs17,496 cr at Mar-26) include Rs3,723 cr carrying value of VECV (equity method) and Rs181 cr of strategic equity (Stark Future, Flamesun) that earn no interest, and the engine adds the whole VECV profit share to cash every year. The yield is set so that treasury income equals ~6.5% of the true average treasury (Mar-26: cash Rs256 cr + debt funds and bonds Rs13,591 cr + deposits Rs5,921 cr + bill discounting Rs451 cr - borrowings Rs514 cr = Rs19,705 cr). FY26 treasury income: interest Rs474 cr + fund gains Rs746 cr = Rs1,219 cr, 6.5% of average gross treasury. The build and reconciliation are in EICHERMOT.ctx.js.",
+ "otherIncome": [
+  938,
+  1077,
+  1204
+ ],
+ "_otherIncomeWhy": "Non-treasury other income = Eicher's 54.4% share of VECV profit (Rs838 / 967 / 1,084 cr, block `vecv`) + recurring items (facilitation income Rs69 cr, grants, write-backs, misc.: Rs100 / 110 / 120 cr). Exchange gains (Rs140 cr in FY26) are not forecast. FY26: other income Rs1,487 cr + VECV share Rs798 cr = Rs2,284 cr (Screener Rs2,225 cr after Rs57 cr exceptional items); TTM to Jun-26 Rs2,315 cr.",
+ "interest": [
+  88,
+  90,
+  92
+ ],
+ "_interestLabel": "Interest cost (leases, SIPCOT soft loan, working-capital lines)",
+ "_interestWhy": "FY26 Rs72 cr; Q1FY27 Rs22 cr. Borrowings Rs514 cr at Mar-26 (incl. Rs195 cr leases).",
+ "taxRate": [
+  22.7,
+  22.7,
+  22.7
+ ],
+ "_taxWhy": "Tax on PBT including the VECV share, which is already after VECV's own tax: 25.5% on PBT excluding the JV share (FY26 24.9%, Q1FY27 26.3%) is ~22.7% of total PBT (FY26 22.3%). Checked each year in EICHERMOT.ctx.js.",
+ "payout": [
+  41,
+  41,
+  41
+ ],
+ "_payoutWhy": "Dividend per share Rs51 (FY24), Rs70 (FY25), Rs82 (FY26): 35%, 41% and 41% of consolidated EPS.",
+ "build": {
+  "_note": "Royal Enfield revenue build (financial-statement volumes). Revenue = (domestic + international volume) x motorcycle realisation + allied revenue. FY26 actual: two-wheelers Rs19,947.29 cr, spares and components Rs1,541.26 cr, accessories and allied (traded) Rs1,368.70 cr, warranties Rs120.32 cr, other operating revenue Rs429.99 cr (AR FY26 consolidated note 28). Checked against model revenue in EICHERMOT.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "domestic": 1107343,
+   "international": 120634,
+   "motoRevenue": 19947.29,
+   "allied": 3460.27,
+   "revenue": 23407.56
+  },
+  "domesticGrowth": [
+   17.76,
+   10,
+   8.5
+  ],
+  "internationalGrowth": [
+   -2.18,
+   10,
+   12
+  ],
+  "motoRealisationGrowth": [
+   2,
+   2,
+   2
+  ],
+  "alliedGrowth": [
+   20,
+   15,
+   13
+  ],
+  "_why": "Domestic: Apr-Aug +28%, Sep-Mar +12% against the GST-boosted base. International: -2% (P&L basis Q1 -2.4%; monthly exports Apr-Aug -9%), then recovery with CKD in Brazil and Indonesia. Realisation: list price rises ~1.5-2% a year less negative mix. Allied: Q1FY27 +23% (accessories and apparel +30%, service job cards +20%; accessories penetration 87%)."
+ },
+ "vecv": {
+  "_note": "VE Commercial Vehicles (54.4% Eicher, 45.6% Volvo; joint control, equity-accounted). Consolidated VECV P&L from the Eicher investor presentation; EBITDA = revenue less operating costs (FY26 Rs2,501 cr; the company quotes Rs2,563 cr). FY26 PAT Rs1,466.6 cr after a Rs58.8 cr exceptional charge (Rs1,525 cr before). Eicher's share = 54.4% of PAT.",
+  "share": 54.4,
+  "base": {
+   "fy": "FY26",
+   "volume": 103404,
+   "revenue": 27076.6,
+   "ebitda": 2501.1,
+   "dep": 724,
+   "finance": 49,
+   "otherIncome": 298.1,
+   "pbt": 2026.3,
+   "tax": 501,
+   "exceptional": -58.8,
+   "pat": 1466.6,
+   "eicherShare": 797.8
+  },
+  "volumeGrowth": [
+   10,
+   6,
+   6
+  ],
+  "realisationGrowth": [
+   1.5,
+   2.5,
+   2.5
+  ],
+  "ebitdaMargin": [
+   8.6,
+   9,
+   9.2
+  ],
+  "dep": [
+   800,
+   860,
+   920
+  ],
+  "finance": [
+   40,
+   40,
+   40
+  ],
+  "otherIncome": [
+   300,
+   320,
+   340
+  ],
+  "taxRate": [
+   25.2,
+   25.2,
+   25.2
+  ],
+  "_why": "Volume: Q1FY27 24,815 (+14.8%; HD trucks +15.2%, LMD +16.1%, SCV Pro X 1,041, buses +2%); FY26 103,404 (+14.7% vs industry +13%) helped by the Sep-2025 GST cut on trucks and buses (28% to 18%), so H2FY27 faces a high base. FY27E +10% (PARIVARTAN NCR replacement scheme, SCV ramp-up), FY28-29E +6% (mid-cycle). Realisation +1.5% in FY27 (2% price rise in Apr-2026, diluted by small trucks), then +2.5%. EBITDA margin 8.2% in Q1FY27 (commodities), 9.2% in FY26 (our basis): 8.6% / 9.0% / 9.2%. Street FY27E PAT Rs1,475-1,528 cr (MOSL, PL); ICICI Direct FY28E Rs1,730 cr."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 24.5,
+  "fadeCapexPctTo": 4,
+  "depPctOfSales": 4,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash; discretionary but brand-led demand; below-market sensitivity (Ke 11.9%).",
+  "_tgWhy": "India's nominal GDP grows ~10%; premium motorcycles are under-penetrated and Royal Enfield has a global brand. House range 5-6%; 6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~11% to 8% over 15 years: volume 5-6% plus price and mix.",
+  "_fadeMarginWhy": "EBITDA margin held near 24.5%: scale and pricing power against rising competition and EV costs.",
+  "_fadeCapexWhy": "Capex falls from ~5% to 4% of revenue (capacity plus new platforms)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Premiumisation keeps compounding: domestic volumes grow ~3 points a year faster than our base (new 250-750cc launches, Hunter and Classic pulling in first-time buyers, Pay Commission cash), exports recover with Brazil and Indonesia CKD, and the >350cc mix returns; EBITDA margin ~26%, close to the FY24 peak; VECV grows with the replacement scheme.",
+   "volumeGrowthDelta": 3,
+   "revPerUnitDelta": 0.5,
+   "marginDelta": 1,
+   "fadeMarginTo": 26
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The GST boost proves a one-off pull-forward: from H2FY27 domestic growth falls to low single digits against the high base, competition in 350-450cc (Honda, Triumph, Jawa-Yezdi, Harley-Hero) takes share, exports stay weak and commodity inflation persists; EBITDA margin ~23%, back to FY22-FY23 levels; a CV downturn hits VECV.",
+   "volumeGrowthDelta": -5,
+   "revPerUnitDelta": -0.5,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 22.5
+  }
+ },
+ "sotp": {
+  "_note": "Written by tools/authoring/EICHERMOT.sotp.js from EICHERMOT.ctx.js (derived multiples, rounded to the nearest half-turn).",
+  "reMultiple": {
+   "base": 23.5,
+   "bull": 25,
+   "bear": 21.5
+  },
+  "vecvMultiple": {
+   "base": 16.5,
+   "bull": 17.5,
+   "bear": 15.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "SOTP (RE P/E + VECV P/E)",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 22.53,
+      "bull": 24.06,
+      "bear": 20.52
+     },
+     "why": "How the street values Eicher: a sum of the parts, Royal Enfield on P/E and VECV on P/E or EV/EBITDA. Royal Enfield: its own one-year-forward P/E median since Apr-2021 with VECV stripped out, cut by the auto-OEM sector de-rating; VECV: Ashok Leyland's forward P/E median (the closest listed CV maker) cut by the same de-rating. The engine has no P/E-based SOTP, so the SOTP value is carried as an implied multiple of consolidated Sep-28E EPS (written by tools/authoring/EICHERMOT.sotp.js)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 16.5,
+      "bull": 18,
+      "bear": 15.5
+     },
+     "why": "Counts net cash at face value; VECV only at its carrying value inside net cash."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether Royal Enfield's cash flows support the price: 15-year FCFF, Ke 11.9%, terminal growth 6%, plus net cash (VECV only at carrying value)."
+    }
+   ]
+  }
+ }
+}
