@@ -1,0 +1,183 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Cipla (consolidated, ₹ crore; profit attributable to shareholders, see tools/authoring/CIPLA.patch.js). Cipla reports one operating segment (pharmaceuticals) and revenue by customer location (India, USA, One Africa, Rest of world: AR FY26 note 53), so the engine runs on one revenue-growth path and one EBITDA-margin path; the business-line build (US revenue built in US dollars x an assumed rupee rate) sits in `businessLines` and the authoring script checks that it sums to model revenue. Other income = treasury yield x opening net cash on the company's basis (Screener cash and investments + bank deposits in other financial assets - non-current strategic investments - borrowings incl. leases: Rs10,526 cr at Mar-26) + recurring non-treasury income. Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  8.92,
+  11.45,
+  7.98
+ ],
+ "_revenueWhy": "Built by business (see businessLines; the script checks the sum). FY27E +8.9%: One India +11% (Q1 +12.4%, ~8% organic per Elara; management guides double-digit, market-beating growth for FY27-28; Yurpeak ~Rs80 cr in Q1); North America $775mn (FY26 $780mn; Q1 $162mn; we assume $180 / 205 / 228mn in Q2-Q4 as gVentolin ramps, gAdvair (approved 27-Jul-2026) launches in Q2 and one or two of gSymbicort, the third respiratory asset and the peptide (gGattex per Nomura and Elara) arrive in H2: below management's $1bn exit run-rate, which needs ~$250mn in Q4); rupee at Rs94.5/$ (Q1: Rs1,532 cr / $162mn = Rs94.6). One Africa +5.4% in rupees (flat in dollars: the lost South African tender weighs on the next three quarters and marketing spend is now netted from revenue). Rest of world +10% (EMEU +5% in dollars in Q1, API +57%, weaker rupee). Reported growth carries a ~2pp drag from the new revenue presentation (Q1 +2.3% reported, ~4% like-for-like). FY28E +11.4%: full year of the FY27 launches, possible gDovato first-to-file exclusivity (Elara) and partial return of lanreotide; US $900mn at Rs96.5. FY29E +8.0%: US $920mn (price erosion on FY27 launches as competitors enter) at Rs98.5; India +10%.",
+ "businessLines": {
+  "_why": "Revenue by customer location, AR FY26 note 53 (FY26: India Rs12,680 cr, USA Rs6,872 cr, One Africa Rs4,285 cr, Rest of world Rs4,325 cr = Rs28,163 cr). US revenue is modelled in dollars (FY26 North America $780mn = Rs88.1/$ on the USA line) and converted at an assumed rupee rate that weakens ~2% a year from Rs94.5/$ in FY27E (Q1FY27: Rs94.6/$).",
+  "base": {
+   "india": 12680.26,
+   "usa": 6871.5,
+   "africa": 4285.45,
+   "row": 4325.38
+  },
+  "usdMn": [
+   775,
+   900,
+   920
+  ],
+  "fx": [
+   94.5,
+   96.5,
+   98.5
+  ],
+  "growth": {
+   "india": [
+    11,
+    10,
+    10
+   ],
+   "africa": [
+    5.4,
+    8,
+    8
+   ],
+   "row": [
+    10,
+    8,
+    8
+   ]
+  }
+ },
+ "ebitdaMargin": [
+  18.5,
+  21,
+  21
+ ],
+ "_marginWhy": "Company-defined EBITDA margin (excluding other income): 25.9% (FY25), 21.0% (FY26), 16.7% in Q1FY27 (25.6% a year earlier) after gRevlimid ended (last shipments in the Dec-2025 quarter), lanreotide stopped (partner Pharmathen's Greek plant under a USFDA import alert since Apr-2026), war-related costs of 1-2% of revenue and launch costs already in the base. Guidance: 18.5-20% for FY27, H2-weighted and 'predicated on the launches' (CFO, 23-Jul-2026); '20 plus' should be sustained after that (CFO, 13-May-2026). FY27E 18.5%: the bottom of the range, because Q1 was 16.7% and our US build is below management's. FY28E 21.0%: full year of high-margin in-house respiratory launches (gAdvair, gVentolin, gSymbicort), India chronic mix, R&D held at ~7% of sales. FY29E 21.0%: US price erosion offset by India operating leverage. Each 1pp of margin is ~Rs340 cr of EBITDA (~5% of FY28E EPS).",
+ "capex": [
+  2000,
+  1600,
+  1600
+ ],
+ "_capexWhy": "Cash capex (incl. intangibles and in-licensing upfronts): Rs1,349 / 1,548 / 3,079 cr in FY24-26 (Screener cash flow). The CFO said capex 'will probably reduce after another year or so because we've built enough capacity' (13-May-2026); Board approved up to $100mn for InvaGen capex and working capital (19-Mar-2026). We take Rs2,000 cr in FY27E and Rs1,600 cr a year after; acquisitions and in-licensing beyond that are not modelled.",
+ "depRateOnGrossBlock": 5.2,
+ "_depWhy": "FY26 depreciation and amortisation Rs1,211 cr (excl. the Rs42 cr impairment of associates) = 5.6% of average gross block (Rs21,488 cr); Q1FY27 Rs304 cr (Rs1,217 cr annualised). The engine depreciates capex at once while CWIP is held flat, so we use 5.2%: FY27E ~Rs1,270 cr.",
+ "otherTreasury": {
+  "base": 1610,
+  "_why": "Company net cash at Mar-26 = Rs11,140 cr of cash, current investments and fixed deposits less Rs614 cr of borrowings and leases = Rs10,526 cr (Q4FY26 presentation). Screener counts cash Rs1,307 cr and investments Rs8,223 cr, which include Rs544 cr of non-current strategic investments and associates that are not treasury, and misses Rs2,154 cr of bank deposits held in other financial assets (AR FY26 notes 9 and 18). Net adjustment +Rs1,610 cr (= 2,154 - 544), so the model's opening net cash equals the company's Rs10,526 cr."
+ },
+ "treasuryYield": [
+  6.25,
+  6.25,
+  6.25
+ ],
+ "_treasuryWhy": "FY26 treasury income Rs648 cr (bank-deposit interest Rs174.8 cr + gains on sale of current investments Rs344.8 cr + fair-value gains Rs128.1 cr, AR FY26 note 32) on average net cash of ~Rs10,450 cr = 6.2% (FY25: Rs646 cr, ~7.1% on lower cash). We use 6.25% on opening net cash: Rs658 cr in FY27E on Rs10,526 cr.",
+ "otherIncome": [
+  85,
+  88,
+  90
+ ],
+ "_otherIncomeWhy": "Recurring non-treasury other income only (AR FY26 note 32): other interest Rs31.5 cr, rent Rs6.9 cr, government grants Rs0.8 cr and miscellaneous income Rs44.1 cr = Rs83 cr. Left out as one-offs (Rs151 cr in FY26): FX gain Rs52.5 cr, litigation settlement income Rs35.6 cr, gain on asset sales Rs31.8 cr, SEZ land settlement interest Rs21.6 cr, insurance claims, balances written back and tax-refund interest. FY27E total other income ~Rs743 cr vs Rs882 cr in FY26 (company) and Rs834 cr in the twelve months to Jun-26 before the labour-code charge (Screener nets that exceptional item against other income: Rs558 cr); the gap is the one-offs and the Rs1,050 cr dividend paid in Q1FY27.",
+ "interest": [
+  65,
+  65,
+  65
+ ],
+ "_interestLabel": "Interest cost (mostly lease liabilities)",
+ "_interestWhy": "FY26 Rs54 cr; Q1FY27 Rs17 cr (Rs68 cr annualised). Debt is Rs600 cr including leases (Jun-26).",
+ "taxRate": [
+  26,
+  26,
+  26
+ ],
+ "_taxWhy": "Effective tax rate 25.9% in FY26 and 27.3% in Q1FY27 (22.4% in FY25 after deferred-tax credits). 26%: India at the 25.2% concessional rate, the US and South Africa higher, plus a small share of associate losses.",
+ "payout": [
+  27,
+  27,
+  27
+ ],
+ "_payoutWhy": "FY26 dividend Rs13 a share (Rs1,050 cr, paid in Q1FY27) = 27% of EPS; FY25 Rs16 incl. a Rs3 special. Management prefers to keep cash for R&D, biosimilars and acquisitions (Q4FY26 call).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.8,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 21,
+  "fadeCapexPctTo": 4.5,
+  "depPctOfSales": 4,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, AAA-rated, half the business in Indian branded generics; but US earnings swing with approvals, plant inspections and exclusivities. Ke 11.3%.",
+  "_tgWhy": "5.5%: Indian pharma grows ~10% nominal, US generics low single digit in dollars; a blend near 5.5% in rupees.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~8% to 7% (India ~10%, US flattish, Africa and EMEU mid-single digit plus a weaker rupee).",
+  "_fadeMarginWhy": "Holds at 21%, the pre-gRevlimid level (FY22) and management's 'sustainable 20 plus'; no new windfall is assumed.",
+  "_fadeCapexWhy": "Capex settles at 4.5% of revenue (FY24-25 average ~5.5% incl. intangibles; FY26 11% was a peak); depreciation 4% of revenue (FY26 4.3%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Management delivers the $1bn US exit run-rate: gAdvair, gSymbicort and the peptide arrive on time with limited competition, gDovato exclusivity lands in FY28 and lanreotide returns; India keeps growing in the low teens.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 1.5,
+   "fadeMarginTo": 22.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "US approvals slip (Pithampur's seven observations and InvaGen's 483 delay filings), competitors enter gVentolin and gAdvair quickly, the South African tender loss and war costs persist; US revenue stays near $650-700mn.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -2,
+   "fadeMarginTo": 19
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 26.5,
+      "bull": 29,
+      "bear": 20
+     },
+     "why": "How the street values Cipla: P/E on FY28E EPS (ICICI Direct 24x, Axis 25x, ICICI Securities 23x in Apr-2026, Elara 19x core EPS plus cash). 26.5x = Cipla's 24.5x median one-year-forward P/E since Apr-2021 on EPS before exceptional items (FY23 goodwill impairment, FY24 Pulmazole impairment, FY26 labour-code charge and associate impairment; 26.1x on reported EPS; no trough years: forward EPS never fell below half its prior three-year peak; gRevlimid is a windfall, not a one-off, so it stays in), times the pharma sector factor of 1.075 (median of SUNPHARMA, DIVISLAB, TORNTPHARM, ZYDUSLIFE, AUROPHARMA, ALKEM, IPCALAB, ABBOTINDIA trailing P/E at the 30-Sep close vs their five-year medians: +7.5%, PLAYBOOK §7c) = 26.3x, rounded to the nearest half-turn. No growth or returns adjustment (sensitivity rows only). Bull 29x (its 75th-percentile forward P/E since Apr-2021, 29.1x); bear 20x (25th percentile, 20.0x): the range the market has actually paid, as in our Rainbow report."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-27E (trailing at the target date)",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "multiple": {
+      "base": 17,
+      "bull": 17,
+      "bear": 15
+     },
+     "why": "Counts net cash at face value and ignores other income. Cipla's median trailing EV/EBITDA since Apr-2021 is 15.9x (Screener); times the same 1.075 sector factor = 17.1x, rounded to 17x and applied to trailing EBITDA at the target date (Oct-2026 to Sep-2027 = half FY27E + half FY28E), with net cash at Sep-2027. Bull 17x (75th percentile 17.2x: the re-rated median already sits at the top quartile); bear 15x (25th percentile 15.1x)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at an 11.3% cost of equity, terminal growth 5.5%, plus net cash."
+    }
+   ]
+  }
+ }
+}
