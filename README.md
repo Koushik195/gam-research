@@ -52,25 +52,28 @@ Upside from the as-of price to the 12-month target: **BUY** at +15% or more, **H
 
 ## Two teams working in parallel
 
-Two Claude accounts write reports into this repository at the same time. To avoid paying twice or
-overwriting each other:
+Two Claude accounts (Team A and Team B) write reports **on the same computer, in this same folder
+(`C:\Users\Gam\fin-model`), against the same running app (http://localhost:5180)**. There is one
+library and one localhost; every report either team publishes appears there at once.
 
-1. **Split by company.** `tools/WORK-SPLIT.md` lists which team owns which symbols. Claim a batch
-   there (pull first, then commit and push the claim) before starting it. Never work on a symbol the
-   other team owns.
+1. **Split by company.** `tools/WORK-SPLIT.md` holds two non-overlapping queues. Each team works
+   only on its own queue: mark a batch `claimed (B, date)` in that file before starting it, and never
+   touch a symbol in the other queue.
 2. **Touch only your own companies' files:** `data/raw/<SYM>/**`, `tools/authoring/<SYM>*.js`,
-   `data/models/<SYM>.json`, and peer `screener.json` files you fetch. Shared files (`src/`,
-   `public/`, the shared scripts in `tools/`, `tools/PLAYBOOK.md`, `tools/authoring/LENDER-NOTES.md`,
-   `tools/authoring/valuation-blend.js`, `tools/authoring/asof-peers.js`) are changed by Team A only;
-   Team B reports engine gaps instead of editing them.
-3. **Commit only your paths, then pull before you push:**
-   `git add data/raw/SYM tools/authoring/SYM.* data/models/SYM.json` →
-   `git pull --rebase origin main` → `git push origin main`.
-4. **Follow `tools/PLAYBOOK.md` exactly**, including §7c (batch valuation rules already settled).
-   Every report is written as of 30-Sep-2026 and reviewed before `node tools/publish.js SYM --asof 2026-09-30`.
-5. **The website is deployed by Team A only** (`node tools/deploy-pages.js` force-pushes the
-   `gh-pages` branch from the local library, so deploying from a clone that is behind `main` would
-   drop the other team's reports).
+   `data/models/<SYM>.json`, peer `screener.json` files you fetch, and your own scratch folder
+   outside this repo. Shared files (`src/`, `public/`, the shared scripts in `tools/`,
+   `tools/PLAYBOOK.md`, `tools/authoring/LENDER-NOTES.md`, `tools/authoring/valuation-blend.js`,
+   `tools/authoring/asof-peers.js`) are changed by Team A only; Team B reports engine gaps under
+   "Engine requests" in `tools/WORK-SPLIT.md`.
+3. **One app, run by Team A.** Use http://localhost:5180 for render checks and Excel downloads. Do
+   not start a second server, stop it or restart it; if it is down, tell GAM Research.
+4. **Git and the website are Team A's job.** Team B does not run `git` (no commits, pulls or
+   pushes) and does not run `tools/deploy-pages.js`; Team A commits both teams' published work,
+   pushes to GitHub and refreshes the website.
+5. **Follow `tools/PLAYBOOK.md` exactly**, including §7c (batch valuation rules already settled).
+   Every report is written as of 30-Sep-2026. A team publishes its own reviewed reports with
+   `node tools/publish.js SYM --asof 2026-09-30` and marks them `published` in the work-split file.
+6. **At most five company agents per team at a time** (ten in total on this machine).
 
 ## Website version (GitHub Pages)
 

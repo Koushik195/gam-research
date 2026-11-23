@@ -1,13 +1,13 @@
 # Work split between the two teams
 
-Two Claude accounts write reports into this repo at the same time. **Each team works only on its own queue below.** No symbol appears in both queues, so there is no overlap.
+Two Claude accounts write reports **on the same computer, in the same folder, against the same app (http://localhost:5180)**. **Each team works only on its own queue below.** No symbol appears in both queues, so there is no overlap.
 
-- **Team A** = the first account (owns `src/`, `public/`, shared tools, the playbook and the website deploy).
-- **Team B** = the second account.
+- **Team A** = the first account (owns `src/`, `public/`, shared tools, the playbook, the app server, git and the website deploy).
+- **Team B** = the second account (writes its own companies' reports only; no git, no deploy, no server restarts).
 
 ## How to use this file
 
-1. Before starting a batch: `git pull --rebase --autostash origin main`, change the batch's status from `queued` to `claimed (team, date)`, commit only this file, push. If the push is rejected, pull again and re-check.
+1. Before starting a batch: re-read this file, change the batch's status from `queued` to `claimed (team, date)` and save it (edit only that line). Team A commits this file to GitHub with everything else.
 2. Work through your own queue in order (you may reorder batches within your own queue, never take symbols from the other queue).
 3. When a report is published, mark the symbol `published` with its rating and target.
 4. If your queue runs out, ask GAM Research to move a whole batch from the other queue; the owning team marks it `moved to A/B` first.
