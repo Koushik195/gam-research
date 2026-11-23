@@ -1,0 +1,343 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Tata Motors Passenger Vehicles (consolidated, Rs crore). Three segments on the company's own EBITDA definition (includes grant income such as PLI and JLR R&D credits): JLR (revenue built in GBP x INR/GBP in `jlrBuild`), Tata Passenger Vehicles (India PV + EV; volume x realisation in `pvBuild`) and Others (Tata Technologies + unallocated). `unallocated` removes grant income from EBITDA so that model EBITDA is on Screener's basis (grants sit in Screener's other income, and are added back in `otherIncome`). Base year FY26 is distorted (JLR cyber attack; Rs82,616 cr demerger gain in profit), so growth rates off FY26 are not meaningful. Net profit is on the owners' basis (TMPV.patch.js). Valued on a sum of the parts as the street does: JLR and India PV on EV/EBITDA (Sep-28E), Tata Technologies at market, less net debt at Sep-27E and minority claims; multiples written by tools/authoring/TMPV.sotp.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "jlr",
+   "name": "Jaguar Land Rover",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA (company definition)",
+   "base": 273303,
+   "growth": [
+    19.82,
+    7.06,
+    5.49
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    8.8,
+    11,
+    11.8
+   ],
+   "hist": {
+    "driver": "jlrRev",
+    "revenue": "jlrRev",
+    "adjEbitda": "jlrEbitda"
+   },
+   "_why": "Revenue = GBP revenue x INR/GBP (jlrBuild). EBITDA margin (Ind AS segment): 14.3% FY25, 6.7% FY26 (cyber), 8.1% Q1FY27 (EBIT 2.8%). Guidance c.4% EBIT for FY27; we assume 3.5% (Q1 2.8%, China 'may get worse before it stabilises', VME 7.1%), i.e. ~8.8% EBITDA with D&A ~5.3% of revenue. FY28E 11.0% (EBIT ~5.7%): four launches (Range Rover Electric and Sport Electric, Range Rover GT, Jaguar Type 01) and the GBP1.7bn cost programme; FY29E 11.8%. Street: Emkay EBIT 4.0%/5.7% FY27/28E."
+  },
+  {
+   "key": "pv",
+   "name": "Tata Passenger Vehicles (India PV + EV)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA incl. PLI",
+   "base": 58465,
+   "growth": [
+    27.2,
+    15.36,
+    14.33
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    5.8,
+    7,
+    6
+   ],
+   "hist": {
+    "driver": "pvRev",
+    "revenue": "pvRev",
+    "adjEbitda": "pvEbitda"
+   },
+   "_why": "Revenue = wholesales x realisation (pvBuild). EBITDA incl. PLI: 6.9% FY25 and FY26 (5.0% ex PLI in FY26), 4.3% Q1FY27 after a 4.5% commodity hit, Q2 guided flat. FY27E 5.8% (H2 step-up from PLI on new models, price rises, cost cuts), FY28E 7.0%, FY29E 6.0% because PLI (~2.3% of revenue) ends after FY28 and cost cuts only partly replace it. Management: 8% EBITDA by FY29, 10% by FY31; JM Financial FY27E 6.8%."
+  },
+  {
+   "key": "oth",
+   "name": "Others (Tata Technologies, unallocated)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 3814,
+   "growth": [
+    8,
+    8,
+    8
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    13.5,
+    13.5,
+    13.5
+   ],
+   "hist": {
+    "driver": "othRev",
+    "revenue": "othRev",
+    "adjEbitda": "othEbitda"
+   },
+   "_why": "Tata Technologies' external revenue and unallocated items: FY26 Rs3,814 cr at 13.9%; Q1FY27 Rs1,164 cr at 12.5%. Valued at TTL's market price in the SOTP, not on this EBITDA."
+  }
+ ],
+ "jlrBuild": {
+  "base": {
+   "fy": "FY26",
+   "revGbp": 22911,
+   "revInr": 273303,
+   "fx": 119.29
+  },
+  "revGbp": [
+   25500,
+   27300,
+   28800
+  ],
+  "fx": [
+   128.42,
+   128.42,
+   128.42
+  ],
+  "_why": "GBP revenue FY27E GBP25.5bn vs guidance ~GBP26bn (Q1 GBP5.97bn, -9.6%; new EVs add little before H2), FY28E +7% (launches), FY29E +5.5%. INR/GBP held at the Q1FY27 segment rate (Rs76,705 cr / GBP5,973m = 128.4; FY26 average 119.3), so ~7.6 points of FY27E INR growth is currency."
+ },
+ "pvBuild": {
+  "base": {
+   "fy": "FY26",
+   "units": 641587,
+   "realisation": 911256
+  },
+  "unitGrowth": [
+   20,
+   12,
+   11
+  ],
+  "realisationGrowth": [
+   6,
+   3,
+   3
+  ],
+  "_why": "Wholesales incl. exports: Q1FY27 182.3k (+46%); production ramping to 65-70k a month; H2 laps a high base (Q3-Q4FY26 372k); management 'higher double-digit' growth, ICICI Direct +23%, JM +16.5% -> +20% (~770k). FY28-29E +12%/+11% (management 15% CAGR to FY31). Realisation (revenue per unit) Q1FY27 Rs9.84 lakh, +7.9% vs FY26 average on EV mix (20%+) and Sierra: +6% FY27E, then +3%."
+ },
+ "unallocated": [
+  3700,
+  4170,
+  2290
+ ],
+ "_unallocLabel": "Grant income and incentives (in segment EBITDA; Screener shows them in other income)",
+ "_unallocWhy": "FY26 Rs3,603 cr (JLR Rs2,295 cr, India Rs1,276 cr incl. PLI Rs1,044 cr); Q1FY27 Rs764 cr. FY27E: JLR ~Rs1,800 cr + PLI ~Rs1,650 cr (2.2% of India revenue) + other India grants ~Rs250 cr; FY28E Rs1,900 + 2,000 + 270 cr; FY29E Rs2,000 + 0 + 290 cr (PLI ends after FY28).",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "_esopWhy": "Share-based pay is inside employee costs in the segment EBITDA; not separated (zero here).",
+ "capex": [
+  42000,
+  41500,
+  41000
+ ],
+ "_capexWhy": "Screener 'fixed assets purchased' Rs36,282 cr in FY26. JLR investment GBP3.7bn in FY27 (guidance) of which ~GBP2.8bn capitalised (engineering capitalisation 64-74%) = ~Rs36K cr; GBP18bn over FY24-FY28 implies ~GBP3.6bn in FY28. India ~7% of revenue (Rs37.5-40K cr over FY27-31, front-loaded) = Rs5.5-6.5K cr.",
+ "depRateOnGrossBlock": 6.1,
+ "_depWhy": "FY26 depreciation Rs19,784 cr = 6.2% of average gross block (Rs3.17 lakh cr); Q1FY27 Rs4,880 cr. The engine holds CWIP (Rs1.03 lakh cr incl. intangibles under development) flat and depreciates capex at once; 6.1% gives ~Rs20.5K / 23.0K / 25.5K cr, rising as the new JLR platforms are capitalised.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "The engine's treasury is net debt (negative), so no yield; interest income is in otherIncome.",
+ "otherIncome": [
+  5150,
+  5800,
+  4100
+ ],
+ "_otherIncomeWhy": "Screener other income = grants + other income (excl. grants) + share of equity-accounted profit (Q1FY27: 764 + 357 + 24 = 1,145). FY27E: grants 3,700 + interest and other ~1,500 (Q1 357; lower cash than FY26's 2,153) + China JV and associates ~250 - minority share ~300 (Tata Technologies' 46.65%, no minority line in the engine); FY28E 4,170 + 1,600 + 350 - 320; FY29E 2,290 + 1,700 + 450 - 340. FY26 Rs6,411 cr; TTM to Jun-26 Rs6,047 cr.",
+ "interest": [
+  3400,
+  3500,
+  3300
+ ],
+ "_interestLabel": "Finance cost (incl. leases)",
+ "_interestWhy": "FY26 Rs2,827 cr; Q1FY27 Rs835 cr (Rs3,340 cr annualised) after JLR drew GBP1bn+ of new loans; gross debt Rs79K cr incl. leases at Mar-26.",
+ "taxRate": [
+  30,
+  30,
+  30
+ ],
+ "_taxWhy": "FY25 continuing operations 31.8%; Q1FY27 45% on a small PBT; UK 25% plus non-deductible items and other jurisdictions; India losses carried forward. 30%.",
+ "payout": [
+  15,
+  20,
+  20
+ ],
+ "_payoutWhy": "FY26 dividend Rs3 a share (Rs1,105 cr); JLR pays 25% of PAT to the parent. 15-20% of EPS.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.75,
+  "terminalGrowth": 5,
+  "years": 10,
+  "fadeGrowthTo": 6,
+  "fadeMarginTo": 10.5,
+  "fadeCapexPctTo": 8,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Engine discounts at the cost of equity; beta 0.75 sets the rate at 11.0%, our WACC (Ke ~12.5% on 70% equity, after-tax cost of debt ~6% on 30% net debt-to-capital at market).",
+  "_tgWhy": "In INR: UK/US nominal growth ~3-4% plus INR depreciation, India PV faster: 5%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~5-6% to 6% (India PV keeps growing, JLR mature).",
+  "_fadeMarginWhy": "Screener-basis EBITDA margin to 10.5% (company basis ~11%): JLR below its FY24-25 peak of 14%, India PV towards 8-10%.",
+  "_fadeCapexWhy": "Capex 9-10% of revenue now (JLR EV platforms) fading to 8%: luxury cars stay capital-hungry."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "JLR hits its c.4% FY27 EBIT guidance and the new Range Rovers and Jaguar take EBIT back towards 8% by FY29; China stabilises and the Stellantis deal eases US tariffs. India keeps 20%+ volume growth and PLI-free margins reach 8%.",
+   "fadeMarginTo": 11.5,
+   "segments": {
+    "jlr": {
+     "growthDelta": 3,
+     "marginDelta": 1.5
+    },
+    "pv": {
+     "growthDelta": 3,
+     "marginDelta": 1
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "JLR misses guidance: EBIT stays ~2-3% as China worsens, VME stays high and EV launches slip or cannibalise; India commodity inflation persists and competition in EVs cuts margins to ~4-5%.",
+   "fadeMarginTo": 9.5,
+   "segments": {
+    "jlr": {
+     "growthDelta": -4,
+     "marginDelta": -2
+    },
+    "pv": {
+     "growthDelta": -3,
+     "marginDelta": -1
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "Jaguar Land Rover",
+    "seg": "jlr",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA x EV/EBITDA",
+    "multiple": {
+     "base": 2,
+     "bull": 2,
+     "bear": 1.5
+    },
+    "note": "Multiple derived in TMPV.ctx.js (implied JLR multiple in TMPV's own price since the demerger, de-rated)."
+   },
+   {
+    "name": "Tata Passenger Vehicles (India)",
+    "seg": "pv",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA x EV/EBITDA",
+    "multiple": {
+     "base": 12,
+     "bull": 13,
+     "bear": 11
+    },
+    "note": "Multiple derived from Maruti Suzuki's forward EV/EBITDA history, de-rated."
+   },
+   {
+    "name": "Tata Technologies (53.35% at market)",
+    "adj": {
+     "base": 15328,
+     "bull": 15328,
+     "bear": 15328
+    },
+    "metricLabel": "53.35% x 40.61 cr shares x Rs707.5 (30-Sep-2026 close)",
+    "note": "Listed subsidiary at the as-of market price; no holding discount (street uses 20%: sensitivity)."
+   },
+   {
+    "name": "Less: minority claims outside Tata Technologies",
+    "adj": {
+     "base": -7230,
+     "bull": -7230,
+     "bear": -7230
+    },
+    "metricLabel": "NCI Rs6,774 cr less TTL's ~Rs1,830 cr, plus Rs2,286 cr CCPS liability",
+    "note": "Investors in the EV subsidiary (TPEML) and other minorities, at book."
+   },
+   {
+    "name": "Less: net debt at Sep-27E (after investments at book)",
+    "netCash": true,
+    "roll": [
+     "FY27E",
+     "FY28E",
+     0.5
+    ],
+    "metricLabel": "Borrowings incl. leases less cash, liquid funds and investments at book (China JV, associates), half Mar-27E + half Mar-28E",
+    "note": "Engine treasury (Screener basis): includes Rs7.7K cr of equity-accounted and other investments at book, as the street's '1x book' line."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values TMPV: JLR and India PV on EV/EBITDA, investments and Tata Technologies separately, less net debt."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA (consolidated)",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 4,
+      "bull": 4,
+      "bear": 3.5
+     },
+     "why": "TMPV's own consolidated forward EV/EBITDA since the demerger, de-rated (TMPV.ctx.js)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "10-year FCFF at an 11% WACC, terminal growth 5%, plus net cash at Mar-27E (Screener basis)."
+    }
+   ]
+  }
+ }
+}

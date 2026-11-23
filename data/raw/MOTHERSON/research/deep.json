@@ -1,0 +1,96 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, peers, street, ownership (Jun-2026), moat, critiques, gaps and conflicts for SAMIL. Only sources published on or before 30-Sep-2026." },
+ "industry": {
+  "production": { "what": "Q1FY27 global light-vehicle production -1.8% YoY (China -3.1%, the largest market); South Asia the bright spot (India LV +12.8%, India CV +16.2%); global CV production est. +5.4% on the North American recovery; 'planned European OEM launches expected to support growth' in FY27.", "src": "Q1FY27 PPT slide 7 (S&P Global Mobility, GlobalData) and call", "published": "2026-08-06" },
+  "commodities": { "what": "LME copper USD9,519/t (Q1FY26) -> USD12,852 (Q4FY26) -> USD13,324 (Q1FY27), +40% YoY; aluminium +45% YoY; German polymer prices +55% YoY and +66% QoQ; World Container Index +40% YoY and +83% QoQ, all after the Middle East conflict. Pass-through: copper with a 3-6 month lag, polymers mostly settled at year-end.", "src": "Q1FY27 PPT slides 6 and 24; call", "published": "2026-08-06" },
+  "fx": { "what": "Rupee weakened ~13% vs the euro (Rs97.07 -> Rs110.03) and ~11% vs the dollar (Rs85.59 -> Rs94.66) between Q1FY26 and Q1FY27 (quarter averages). Most of SAMIL's revenue is earned abroad, so reported growth in rupees is flattered by translation.", "src": "Q1FY27 PPT slide 24", "published": "2026-08-06" },
+  "europe": { "what": "Europe (Germany 15%, Spain 6%, Hungary 6%, Poland 3%, France 3% of FY26 gross revenue) is SAMIL's biggest region; volumes 'not as meaningful as we have expected'; Chinese OEMs gaining share; supplier distress creates acquisition opportunities ('a record number of bankruptcies').", "src": "Q4FY26 PPT slide 20; Q4FY26 call; Investor Meet 2025", "published": "2026-05-20" },
+  "consolidation": { "what": "OEMs ask SAMIL to take over distressed suppliers (Nexans Autoelectric, Yutaka Giken from Honda, earlier Yachiyo and Atsumitec): 15 entities since Sep-2022 with pro forma revenue of ~USD2.8 bn before the two 2026 deals.", "src": "MOSL 6-Aug-2026; Q1FY27 call", "published": "2026-08-06" }
+ },
+ "peers": {
+  "set": ["BOSCHLTD", "UNOMINDA", "SONACOMS", "BHARATFORG", "ENDURANCE", "MSUMI", "SCHAEFFLER", "TIINDIA", "ZFCVINDIA", "GABRIEL"],
+  "excluded": {
+   "BHARATFORG": "Earnings distorted: a Rs358 cr exceptional charge pushed the Jun-2026 quarter to a Rs90 cr loss (exceptional items in three of the last four quarters), so its trailing P/E on 30-Sep-2026 (~93x) sits on depressed TTM EPS.",
+   "GABRIEL": "No five-year history: Screener's P/E series starts in May-2024 (after Gabriel's restructuring), so there is no five-year median to compare with."
+  },
+  "notes": "Indian listed auto-component makers with Screener data (tyre and battery makers left out: different raw-material cycles). SCHAEFFLER (December year-end) has P/E history only from Feb-2023; MSUMI listed Mar-2022 and ZFCVINDIA's series starts May-2022: their medians cover the history available. MSUMI is 33.43% owned by SAMIL. Sector de-rating uses the set excluding SAMIL and the two names above (PLAYBOOK §7c)."
+ },
+ "street": {
+  "_note": "Notes published 6-Aug to 30-Sep-2026 (after the Q1FY27 results on 6-Aug-2026). Ratings, targets and methods as reported; n.d. = not disclosed in our sources.",
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-08-06", "rating": "Buy", "tp": 178, "method": "P/E", "multiple": "24x", "on": "FY28E", "eps": { "FY27E": 5.4, "FY28E": 7.5 }, "thesis": "Outperformance of global auto, premiumisation and EV content, order backlog, acquisitions integrate; FY28E sales Rs1,75,832 cr, EBITDA 10.1%", "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/bbf1ff77_MOTHERSO-20260806-MOFSL-RU-PG014.pdf" },
+   { "broker": "Emkay Global", "date": "2026-08-07", "rating": "Buy", "tp": 180, "method": "P/E", "multiple": "23x", "on": "Jun-28E", "eps": { "FY27E": 5.5, "FY28E": 7.1 }, "thesis": "Consumer-electronics third plant (41 mn units), CV recovery, order book; multiple raised from 21x; FY29E EPS Rs8.9", "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/79890941_SAMIL%20Q1FY27%20Result%20Update_Others.pdf" },
+   { "broker": "Nuvama", "date": "2026-08-07", "rating": "Buy", "tp": 178, "method": "P/E", "multiple": "26x (blended)", "on": "FY28E", "thesis": "Revenue/earnings CAGR 16%/31% over FY26-28E; acquisitions, order book, content growth", "src": "https://businesstoday.in/markets/stocks/story/samvardhana-motherson-shares-samil-a-buy-after-8-rally-targets-by-citi-jpmorgan-clsa-547842-2026-08-07" },
+   { "broker": "ICICI Securities", "date": "2026-08-07", "rating": "n.d.", "tp": 195, "method": "n.d.", "thesis": "Highest target after Q1", "src": "Business Today, 7-Aug-2026" },
+   { "broker": "Jefferies", "date": "2026-08-07", "rating": "Buy", "tp": 190, "method": "n.d.", "thesis": "n.d.", "src": "Business Today, 7-Aug-2026" },
+   { "broker": "CLSA", "date": "2026-08-07", "rating": "Accumulate", "tp": 190, "method": "n.d.", "thesis": "n.d.", "src": "Business Today, 7-Aug-2026" },
+   { "broker": "Investec", "date": "2026-08-07", "rating": "Buy", "tp": 185, "method": "n.d.", "thesis": "n.d.", "src": "Business Today, 7-Aug-2026" },
+   { "broker": "Morgan Stanley", "date": "2026-08-07", "rating": "Overweight", "tp": 173, "method": "n.d.", "thesis": "n.d.", "src": "Business Today, 7-Aug-2026" },
+   { "broker": "JPMorgan", "date": "2026-08-07", "rating": "n.d.", "tp": 170, "method": "n.d.", "thesis": "n.d.", "src": "Business Today, 7-Aug-2026" },
+   { "broker": "HDFC Securities", "date": "2026-08-07", "rating": "n.d.", "tp": 165, "method": "n.d.", "thesis": "European restructuring gains, rising non-auto share, lower cyclicality", "src": "Business Today, 7-Aug-2026" },
+   { "broker": "Goldman Sachs", "date": "2026-08-07", "rating": "n.d.", "tp": 158, "method": "n.d.", "thesis": "n.d.", "src": "Business Today, 7-Aug-2026" },
+   { "broker": "Citi", "date": "2026-08-07", "rating": "n.d. (lowest target)", "tp": 115, "method": "n.d.", "thesis": "Lowest target on the street", "src": "Business Today, 7-Aug-2026" },
+   { "broker": "Nomura", "date": "2026-08-07", "rating": "Buy", "tp": null, "method": "n.d.", "thesis": "Revenue +11%/+12%/+18% FY27-29F, above consensus; 6-7% FCF yield FY28-29F; operating leverage; acquisitions", "src": "Business Today, 7-Aug-2026" }
+  ],
+  "consensus": { "tp": 167.57, "src": "Business Today, 7-Aug-2026 (consensus target)", "note": "A post-results consensus EPS dated before 30-Sep-2026 was not found." }
+ },
+ "ownership": {
+  "date": "2026-06-30",
+  "totalShares": 10554442601,
+  "categories": { "promoters": 48.6, "fpi": 12.87, "mutualFunds": 15.68, "insurance": 3.41, "otherDii": 1.56, "retailAndOthers": 17.88 },
+  "named": [
+   ["Sehgal Family Trust (Shri Sehgals Trustee Co., promoter)", 13.22], ["Vivek Chaand Sehgal (promoter, chairman)", 12.49], ["Renu Sehgal Trust (promoter)", 11.96], ["Radha Rani Holdings Pte (promoter; 12 cr shares pledged)", 7.33], ["Motherson Engineering Research & Integrated Technologies (promoter)", 1.6],
+   ["Sumitomo Wiring Systems (public since Jun-2025)", 9.37], ["Nippon India Mutual Fund schemes", 2.99], ["Quant Mutual Fund schemes", 2.19], ["SBI Mutual Fund schemes", 2.13], ["ICICI Prudential Mutual Fund schemes", 2.04], ["LIC", 1.67], ["Motilal Oswal Mutual Fund schemes", 1.43], ["NPS Trust (LIC Pension Fund)", 1.13]
+  ],
+  "pledged": "12.0 cr shares (2.34% of promoter holding, 1.14% of equity), held by Radha Rani Holdings",
+  "shareholders": 1193976,
+  "src": "Trendlyne shareholding (30-Jun-2026 tables, from the BSE filing); MarketsMojo (categories, Jun-2026); Screener (shareholder count). Named promoter stakes match AR FY26 note 15 (Mar-2026)."
+ },
+ "stockEvents": [
+  ["2026-08-06", "Q1FY27 results: EBITDA +26%, normalised PAT +55%", "Stock +8% on 7-Aug to a then-record ~Rs167"],
+  ["2026-07-03 / 2026-07-21", "Nexans Autoelectric and Yutaka Giken completed", ""],
+  ["2025-09-05", "Vision 2030 (USD 108 bn) unveiled at the Investor Meet", ""],
+  ["2025-07-21", "1:2 bonus shares allotted", "Prices and EPS restated by Screener"]
+ ],
+ "moat": [
+  ["Customer relationships and scale", "Strong", "Top-3 global mirror maker; India PV harness leader; supplier to every major OEM; USD96 bn booked business; OEMs hand it distressed suppliers to rescue.", "Wins volume and acquisition opportunities others do not get."],
+  ["Diversification (3CX10)", "Strong", "No customer above 9% (VW), no country above 22% (India), no component above 25% (harness).", "Lowers risk, but also means SAMIL is a play on global auto production, not a niche."],
+  ["Pricing power", "Weak", "Commodity costs passed on with a lag; EBITDA margin 8-10% for a decade; OEMs negotiate annual price-downs.", "Margins are capped; returns depend on utilisation and cost-cutting."],
+  ["Integration skill (turnarounds)", "Moderate-Strong", "PKC, SMP, SMRC and Yachiyo turned around; but ROCE (company basis) only 16-17% vs a 40% target, and European plants still need restructuring (FY26 Rs379 cr).", "Real skill, but the cost of buying growth is visible in returns."],
+  ["Technology / content", "Moderate", "Cameras, digital mirrors, lighting electronics, high-voltage harness; engine-agnostic (EV booked business 22%).", "Content per vehicle rises with premium cars and EVs."],
+  ["Low-cost footprint", "Moderate", "All 13-16 new plants in emerging markets; India, Mexico, Morocco, Eastern Europe.", "Helps bids, not a barrier rivals cannot copy."],
+  ["New businesses (consumer electronics, aerospace)", "Unproven", "Consumer electronics 7.5x revenue growth in FY26 to ~Rs1,300 cr at ~8% EBITDA; customer concentration; aerospace order book USD1.6 bn.", "Optionality, not yet a moat."]
+ ],
+ "critiques": [
+  ["Growth is bought: acquisitions and a weaker rupee explain most of FY27 revenue growth; organic volume growth in Europe is close to zero.", "GAM; MOSL/Emkay figures"],
+  ["Returns are low for the risk: ROCE 13% (Screener) / 16% (company) against a 40% target that was also missed in Vision 2025.", "MOSL (targets missed), GAM"],
+  ["Margins are structurally thin (8-10%) and lag commodity moves; Q1 is weak, Q4 carries annual settlements.", "Emkay, Q1FY27 call"],
+  ["Consumer-electronics capex (~Rs7,500 cr) goes into one customer programme that management will not size.", "Q1FY27 call questions (BofA, Goldman, Nomura)"],
+  ["Recurring 'exceptional' restructuring costs (FY24 Rs251 cr, FY26 Rs413 cr) flatter normalised profit.", "GAM from Screener and PPTs"],
+  ["Bulls: content growth, consolidation winner, India and non-auto give a growth premium; 6-7% FCF yield by FY28-29.", "Nomura, MOSL, Nuvama"]
+ ],
+ "governance": {
+  "board": "Founder V.C. Sehgal is non-executive chairman (no remuneration from SAMIL); son L.V. Sehgal non-executive director; Pankaj Mital the only whole-time director; four of seven directors independent (incl. former SBI chairman Dinesh Khara from Sep-2025).",
+  "auditor": "S.R. Batliboi & Co. LLP; unmodified opinion; KAM on impairment of Rs1,421 cr of PPE at loss-making European plants",
+  "relatedParty": "Large intra-group dealings with JVs (MSWIL, Kyungshin, Marelli Motherson) and promoter entities; promoter pledge 12 cr shares (Radha Rani)",
+  "capitalAllocation": "Serial acquirer (15 entities since Sep-2022 plus Nexans and Yutaka); capex ~Rs6,000 cr a year; payout 16%; QIP and CCDs in Sep-2024; leverage 0.8x"
+ },
+ "gaps": [
+  "Yutaka Giken EBITDA margin, net debt/cash at acquisition and depreciation (we assume ~7% EBITDA margin).",
+  "Nexans Autoelectric revenue and EBITDA for CY2025 (we use CY2024: EUR749 mn, EBITDA EUR47.9 mn) and its debt/cash at closing.",
+  "Consumer-electronics revenue, margin and customer by quarter (only FY26 ~Rs1,300 cr at ~8% from an analyst question).",
+  "Organic (constant-currency, ex-acquisition) growth by division: not disclosed.",
+  "Division-wise capital employed and ROCE.",
+  "Full broker notes for Jefferies, CLSA, Investec, Morgan Stanley, JPMorgan, Goldman, Citi, ICICI Securities, HDFC Securities (only targets via Business Today); Citi's rating.",
+  "Named FPI holders above 1% at Jun-2026 (not listed in our sources).",
+  "Deal values and revenue of Atsumitec and the Hellmann logistics JV.",
+  "Pre-FY23 divisional data on the current basis (reporting changed with the 2022 reorganisation and the FY24 divisional realignment)."
+ ],
+ "conflicts": [
+  ["Q4FY26 average INR/EUR and INR/USD", "Q4FY26 deck: Rs102.46 / Rs88.37; Q1FY27 deck shows Rs107.11 / Rs91.52 for the same quarter. We use the Q4FY26 deck in segments.json."],
+  ["Q1FY27 divisional EBITDA", "Divisions sum to Rs3,694 cr; with eliminations of -Rs8 cr that is Rs3,686 cr vs Rs3,702 cr reported economic EBITDA (Rs16 cr gap, not explained)."],
+  ["FY26 EBITDA", "Company Rs12,033 cr; Screener operating profit Rs12,124 cr; MOSL Rs11,903 cr (different treatment of other operating items)."],
+  ["Q1FY27 PAT", "Owners' share Rs1,032 cr (company, Screener 'Profit for EPS'); some media report Rs1,076 cr (before minorities)."],
+  ["Yutaka Giken price", "USD184 mn (company, S&P) vs USD181 mn (Business Today)."]
+ ]
+}

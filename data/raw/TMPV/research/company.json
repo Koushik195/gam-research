@@ -1,0 +1,77 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Fact base for Tata Motors Passenger Vehicles Ltd (TMPVL, formerly Tata Motors Ltd; NSE: TMPV; Screener symbol TMPV, consolidated). Rs crore unless stated; JLR figures in GBP m (IFRS). Every item has src + published (date).",
+  "srcs": {
+   "ar26": { "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b37e4ca4-826d-4b6c-b250-fcdf423e6bc4.pdf", "published": "2026-05-14", "what": "Integrated Annual Report FY2025-26 (accounts approved 14-May-2026; report filed before the AGM)" },
+   "q4ppt": { "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee5addb0-24c8-45de-9071-c06bf3ba6daa.pdf", "published": "2026-05-14", "what": "Q4FY26 investor presentation" },
+   "q4call": { "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4d386d7-de53-4409-8e90-187e08cb4a91.pdf", "published": "2026-05-20", "what": "Q4FY26 call transcript (call 14-May-2026)" },
+   "jlrday": { "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10059fad-ae2a-4feb-acc2-09659bc3eb1f.pdf", "published": "2026-06-17", "what": "JLR Investor Day presentation (Gaydon)" },
+   "indiaday": { "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=014847b7-57ec-4743-8aa6-9cc27be5d081.pdf", "published": "2026-06-23", "what": "TMPV India Investor Day presentation (Mumbai)" },
+   "q1ppt": { "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a68c514-96c1-4dc5-a628-3eda55a7b541.pdf", "published": "2026-08-13", "what": "Q1FY27 investor presentation" },
+   "q1call": { "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf", "published": "2026-08-19", "what": "Q1FY27 call transcript (call 13-Aug-2026)" },
+   "q2ppt": { "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66609a3b-bf4c-44fb-936b-35980e120c69.pdf", "published": "2025-11-14", "what": "Q2FY26 presentation" },
+   "q2call": { "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6684a03-5a4d-4c7a-8da0-d5b2c52ec7d1.pdf", "published": "2025-11-20", "what": "Q2FY26 call transcript" },
+   "q3ppt": { "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd254e14-5794-42bb-8d6f-1caf2bb991e9.pdf", "published": "2026-02-05", "what": "Q3FY26 presentation" }
+  }
+ },
+ "profile": {
+  "what": "Two businesses after the Oct-2025 demerger of commercial vehicles: (1) Jaguar Land Rover (JLR, 100% via TML Holdings, UK; Range Rover, Defender, Discovery, Jaguar; 307.9k wholesales in FY26, 81% of revenue); (2) Tata Passenger Vehicles in India (Tata Motors Passenger Vehicles standalone + Tata Passenger Electric Mobility (TPEML, EVs) + 50% joint operation FIAPL; 641.6k wholesales in FY26, #2 in India on Vahan registrations in H2FY26, ~40% EV market share). Plus 53.35% of listed Tata Technologies (TTL) and 50% of Chery Jaguar Land Rover (China JV, equity-accounted).",
+  "segmentsFY26": { "jlrRev": 273303, "jlrEbitda": 18321, "pvRev": 58465, "pvEbitda": 4061, "othRev": 3814, "othEbitda": 529, "consRev": 335582, "consEbitda": 22911, "grants": 3603, "src": "q4ppt", "note": "Company EBITDA includes grant income/incentives (PLI, JLR R&D credits) and excludes unrealised FX/commodity; Screener's operating profit (Rs18,719 cr) = company EBITDA - grants + unrealised FX/commodity (-590)." },
+  "ttl": { "stakePct": 53.35, "fy26Revenue": 5506, "fy26Ebitda": 853, "fy26Pat": 547, "src": "ar26 (Directors' report; note on subsidiaries)" },
+  "shares": { "count": 3682377563, "date": "2026-03-31", "src": "ar26 (shareholding distribution)" }
+ },
+ "netDebt": {
+  "_note": "Company definition: borrowings incl. leases less cash, bank balances and liquid mutual funds (Rs K cr). Entities: JLR, India PV (standalone PV + TPEML + FIAPL), TML Holdings (JLR's holdco), Others (mainly TTL net cash).",
+  "quarters": [["FY25 (pro forma PV)", -1.0], ["Q1FY26", 11.4], ["Q2FY26", 20.1], ["Q3FY26", 39.4], ["FY26", 30.7], ["Q1FY27", 42.2]],
+  "published": { "Q1FY26": "2025-07-30", "Q2FY26": "2025-11-14", "Q3FY26": "2026-02-05", "FY26": "2026-05-14", "Q1FY27": "2026-08-13" },
+  "byEntityFY26": { "jlr": 32.7, "pv": -6.7, "tmlHoldings": 5.8, "others": -1.1 },
+  "byEntityQ1FY27": { "jlr": 45.2, "pv": -8.0, "tmlHoldings": 5.8, "others": -0.8 },
+  "mar26": { "borrowingsLT": 44248, "borrowingsST": 25705, "leases": 9156, "cash": 22880, "bankBalances": 6804, "liquidMF": 18585, "equityAccounted": 5480, "otherNonCurrentInv": 2248, "ccpsLiability": 2286, "nci": 6774, "src": "ar26 consolidated balance sheet and notes 8-10, 15-16" },
+  "jlrLiquidityQ1FY27": "Cash GBP1.7bn; total liquidity GBP5.9bn incl. undrawn RCF GBP1.7bn, GBP1.0bn of the GBP2bn syndicated loan (signed 19-May-2026) and GBP1.5bn UKEF-backed facility (signed 2-Oct-2025). JLR net debt GBP3.6bn (call).",
+  "src": "q4ppt p8, q1ppt p6, q1call p2"
+ },
+ "annualKpis": [
+  { "fy": "FY22", "jlrRevGbp": 18300, "jlrEbitPct": 0.4, "jlrFcfGbp": -1100, "src": "jlrday p79 (GBP bn rounded)" },
+  { "fy": "FY23", "jlrRevGbp": 22800, "jlrEbitPct": 2.4, "jlrFcfGbp": 500, "src": "jlrday p79" },
+  { "fy": "FY24", "jlrRevGbp": 29000, "jlrEbitPct": 8.5, "jlrFcfGbp": 2300, "jlrWholesales": 401303, "src": "jlrday p79; ICICI Direct Q1FY27 note (volumes)" },
+  { "fy": "FY25", "jlrRevGbp": 28961, "jlrEbitPct": 8.5, "jlrFcfGbp": 1478, "jlrWholesales": 400898, "jlrRetails": null, "jlrPbtGbp": 2489, "pvUnits": 556263, "evUnits": 64300, "pvRev": 48451, "pvEbitdaPct": 6.9, "pli": 352, "src": "q4ppt p10, p27, p40" },
+  { "fy": "FY26", "jlrRevGbp": 22911, "jlrEbitPct": 0.7, "jlrFcfGbp": -2229, "jlrWholesales": 307915, "jlrRetails": 352400, "jlrPbtGbp": 14, "jlrInvestGbp": 3571, "pvUnits": 641587, "evUnits": 92200, "pvRev": 58465, "pvEbitdaPct": 6.9, "pli": 1044, "pvCapex": 4300, "pvFcf": 1900, "src": "q4ppt p10, p15-16, p27; q4call" }
+ ],
+ "q1fy27": {
+  "date": "2026-08-13", "src": "q1ppt p5-6, p8-14, p22-25, p31-33; q1call",
+  "cons": { "revenue": 95799, "revenuePrior": 87677, "ebitdaCo": 7128, "ebitdaCoPrior": 7618, "ebitScreener": 6176, "grants": 764, "ebit": 2272, "ebitPrior": 2879, "pbtBei": 1606, "pbtBeiPrior": 3950, "pat": 859, "patAttrib": 775, "eps": 2.1, "netDebtKcr": 42.2 },
+  "jlr": { "revenueGbp": 5973, "revenueGbpPrior": 6604, "ebitPct": 2.8, "ebitPctPrior": 4.0, "pbtGbp": 109, "pbtGbpPrior": 351, "fcfGbp": -998, "wholesales": 79300, "wholesalesPrior": 87300, "retails": 79900, "vmePct": 7.1, "vmePctPrior": 4.1, "investGbp": 882, "rrRrsDefenderMixPct": 81, "chinaWholesaleYoY": -25, "revenueInr": 76705, "ebitdaInr": 6219 },
+  "pv": { "revenue": 17930, "revenuePrior": 10877, "wholesales": 182300, "wholesalesPrior": 124700, "ebitdaPct": 4.3, "ebitdaPctPrior": 4.0, "ebitPct": -0.5, "pbtBei": 11, "pli": 313, "evUnits": 34000, "vahanSharePct": 14.3, "fcf": 1121, "investment": 1513, "commodityHitPct": 4.5 },
+  "callPoints": [
+   "JLR: wholesales -9% to 79.3k on a fire at a chassis supplier (several days of Solihull production lost), the Middle East conflict and the planned run-out of old Jaguars; China wholesales -25%. VME up to 7.1% of revenue from 4.1%.",
+   "JLR: FY27 guidance (revenue ~GBP26bn, EBIT margin c.4%, investment GBP3.7bn, free cash flow breakeven) not changed, but 'will require strong performance for the remainder of the year' (CFO).",
+   "JLR: Range Rover Electric production from Sep-2026; Range Rover Sport Electric later this year; Range Rover GT and Jaguar Type 01 early next year (no material FY27 volume); ~12,000 EVs pencilled for FY27.",
+   "JLR: GBP1.7bn two-year cost programme to bring breakeven back towards 300k units; MoU with Stellantis for US-built vehicles, definitive agreement targeted by end-2026; credit ratings at the investment-grade border on negative watch.",
+   "India: volumes +46% vs industry +24%; Vahan share 14.3%; EVs ~20% of sales (24% in July), EV bookings ~3.5x pre-crisis levels; production ramping to 65-70k a month; dealer stock ~30 days.",
+   "India: commodity inflation hit 4.5% in Q1 with another ~3% in Q2; price rises of 0.5% in April and July; Q2 margin guided 'flattish' vs Q1; most of the portfolio PLI-certified by Q4; Avinya EV moved to the CJLR Freelander platform and slips to 2027."
+  ]
+ },
+ "guidance": [
+  { "date": "2026-06-17", "item": "JLR FY27", "said": "Revenue ~GBP26bn (FY26 GBP23bn), EBIT margin c.4% (FY26 >0%), investment GBP3.7bn, operating cash flow breakeven (FY26 -GBP2.3bn). Revenue growth ambition +10% a year FY27-FY32.", "src": "jlrday p88", "outcome": "Q1FY27: revenue GBP6.0bn (-9.6%), EBIT 2.8%, FCF -GBP1.0bn; guidance retained on 13-Aug-2026" },
+  { "date": "2026-06-17", "item": "JLR costs", "said": "GBP1.7bn of savings over two years (ex-works cost, warranty, fixed cost) to return breakeven towards 300k units; investment GBP18bn over the five years from FY24.", "src": "jlrday p85; q4ppt p23" },
+  { "date": "2026-06-23", "item": "India PV mid-term", "said": "Volumes 640k (FY26) to 1.2mn+ (FY31), ~15% CAGR, market share towards 20%; FY29 revenue Rs115K cr+, EBITDA 8%, EBIT 4%; FY31 revenue Rs140K cr, EBITDA 10%, EBIT 5%+ after PLI ends; capex ~7% of revenue (Rs37.5-40K cr, front-loaded); cumulative FCF Rs10K cr+ (marginally negative in early years).", "src": "indiaday p85, p75-77" },
+  { "date": "2026-08-13", "item": "India FY27", "said": "'Higher double-digit' volume growth; offset commodities through price rises and cost cuts; margins to step up in H2 with PLI on new products.", "src": "q1call p8-9" }
+ ],
+ "history": [
+  ["2008", "Tata Motors buys Jaguar Land Rover from Ford", "JLR becomes ~3/4 of group revenue; GBP results drive the stock"],
+  ["Jan-2023", "Acquires Ford's Sanand car plant (Tata Passenger Electric Mobility)", "Second car plant in Gujarat for the EV subsidiary"],
+  ["2021-2023", "Private investors subscribe to compulsorily convertible preference shares (CCPS) of TPEML, the EV subsidiary", "CCPS liability Rs2,286 cr at Mar-26; investors will own a minority of TPEML"],
+  ["Nov-2023", "Tata Technologies IPO", "Stake now 53.35%; listed value Rs15,329 cr at the 30-Sep-2026 close"],
+  ["2024", "DVR shares cancelled (equity capital Rs767 cr to Rs736 cr)", "Single class of shares"],
+  ["May-2025", "Tata Motors Finance merged into Tata Capital", "Tata Capital shares went with the CV business in the demerger"],
+  ["Sep-2025", "Cyber attack: JLR shuts all plants for September, restarts manufacturing 8-Oct-2025, normal by mid-November", "Q2-Q3FY26 JLR EBIT -8.6% / -6.8%; Rs2,786 cr exceptional cost; FY26 JLR FCF -GBP2.2bn"],
+  ["1-Oct-2025", "Demerger of commercial vehicles effective (record date 14-Oct-2025, 1:1); company renamed Tata Motors Passenger Vehicles Ltd (13-Oct-2025); CV company (TMCV) listed 12-Nov-2025", "Rs82,616 cr non-cash gain booked in FY26 profit (no effect on net worth); history before FY25 includes CV"],
+  ["Nov-2025 to Jun-2026", "New leaders: Shailesh Chandra MD & CEO (Oct-2025); P B Balaji JLR CEO; Dhiman Gupta CFO (Nov-2025)", "Investor days 17 and 23 Jun-2026 set targets"]
+ ],
+ "management": { "chairman": "N Chandrasekaran (Tata Sons chairman; takes no commission)", "mdCeo": "Shailesh Chandra (MD & CEO from 1-Oct-2025)", "cfo": "Dhiman Gupta (from 17-Nov-2025)", "jlrCeo": "P B Balaji (non-executive director of TMPVL from 17-Nov-2025)", "jlrCfo": "Richard Molyneux", "auditor": "B S R & Co. LLP", "independents": "Om Prakash Bhatt (retired Mar-2026), Vedika Bhandarkar, Al-Noor Ramji, Usha Sangwan, Bharat Puri, Sudha Krishnan", "src": "ar26 (corporate governance report, remuneration ratios)" },
+ "accounting": [
+  "FY26 profit (Rs82,390 cr attributable) includes the CV business's H1 profit (Rs1,406 cr after tax) and an Rs82,616 cr non-cash gain on the demerger; continuing operations lost Rs1,632 cr after Rs4,142 cr of exceptional items (cyber Rs2,786 cr, separation Rs1,044 cr, demerger costs Rs422 cr).",
+  "Reported EPS for FY26 is -Rs0.61 on continuing + discontinued operations in the annual report; Screener shows Rs223.74 because it includes the demerger gain.",
+  "JLR is reported under IFRS in GBP; group accounts are Ind AS. Company EBITDA includes grants (PLI Rs1,044 cr in FY26 for India PV; R&D credits at JLR) and product development expense; JLR capitalises ~64-74% of engineering spend.",
+  "Deferred tax asset rose to Rs14,976 cr (Mar-26) as JLR UK losses were recognised; FY26 tax credit Rs246 cr."
+ ]
+}

@@ -1,0 +1,386 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Samvardhana Motherson International (SAMIL), consolidated, Rs crore. Segment-driven on the company's own divisional disclosure: five business divisions are reported INCLUDING 100% of joint ventures and associates ('economic revenue'), so the model carries two negative lines: inter-segment eliminations (zero margin, PLAYBOOK §7) and the equity-accounted JVs (MSWIL 33.43%, Ningbo SMR Huaxiang, Marelli Motherson lighting, Kyungshin and others), whose revenue and EBITDA are deducted to get reported revenue and EBITDA. JVs' profit comes back below EBITDA as 'share of profit of associates and JVs', which Screener puts in other income. Screener's Net Profit is profit before minorities; tools/authoring/MOTHERSON.patch.js replaces it with Profit for EPS (attributable), and the tax line here carries tax PLUS minorities (engine has no minority line). Acquisitions completed in Jul-2026 (Nexans Autoelectric into Wiring Harness, Yutaka Giken into Emerging Businesses) are in FY27E growth and their purchase price is in FY27E capex (engine has no acquisition line). Valued on P/E on Sep-28E EPS, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "wh",
+   "name": "Wiring Harness",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 36508,
+   "growth": [
+    35,
+    12.5,
+    9
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    10.2,
+    10.6,
+    10.9
+   ],
+   "hist": {
+    "driver": "whRev",
+    "revenue": "whRev",
+    "adjEbitda": "whEbitda"
+   },
+   "_why": "FY26 Rs36,508 cr (+11%); Q1FY27 Rs11,280 cr (+31%: India, North American Class-8 truck recovery, copper pass-through and a 10-13% weaker rupee). FY27E +35% = Q1 actual + Q2-Q4 organic +15% (copper is passed through with a 3-6 month lag; FX tailwind fades from ~+8% to ~+3% by Q4 at today's rates) + Nexans Autoelectric from 3-Jul-2026: CY2024 revenue EUR749 mn, about Rs2,000 cr a quarter at Rs110/EUR, so ~Rs6,000 cr in FY27E. FY28E +12.5% (a full year of Nexans, +Rs2,000 cr, plus ~7% organic), FY29E +9%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin 10.7% FY24, 11.8% FY25, 10.8% FY26, 11.1% Q1FY27 (copper up 40% YoY). Nexans earned 6.4% EBITDA in CY2024 (EUR47.9 mn on EUR749 mn) and management says acquired units start below the division's margin. FY27E 10.2% (organic ~10.8% x ~88% + Nexans ~6% x ~12%), FY28E 10.6%, FY29E 10.9% as Nexans is moved toward group levels (as with PKC, acquired 2017)."
+  },
+  {
+   "key": "mpp",
+   "name": "Modules & Polymer Products",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 62894,
+   "growth": [
+    7,
+    6,
+    6
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    8.3,
+    8.7,
+    9
+   ],
+   "hist": {
+    "driver": "mppRev",
+    "revenue": "mppRev",
+    "adjEbitda": "mppEbitda"
+   },
+   "_why": "Bumpers, door panels, instrument panels, sunroofs (SMRC/SMP, Yachiyo); 57% of revenue made in Europe. FY26 Rs62,894 cr (+5%); Q1FY27 +11% YoY, but the euro averaged Rs110.03 vs Rs97.07 (+13%), so volumes in euros fell. FY27E +7% (Q2-Q4 +6%, mostly translation; European light-vehicle production flat to down, 'demand remained soft'), FY28-29E +6% (programme launches, Chinese OEMs in Europe, emerging-market capacity).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "8.6% FY24, 7.7% FY25, 8.1% FY26, 6.9% Q1FY27 (+50bp YoY after the Central & Western Europe restructuring; Rs379 cr exceptional cost in FY26). Q4 is always the best quarter because annual commodity and volume compensations are settled then (Q4FY26 9.2%). Polymer prices in Germany +55% YoY in Q1FY27 are recovered with a lag. FY27E 8.3%, FY28E 8.7%, FY29E 9.0%: restructuring savings, but no return to the FY19 levels."
+  },
+  {
+   "key": "vs",
+   "name": "Vision Systems",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 21001,
+   "growth": [
+    8,
+    7,
+    7
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    9.6,
+    9.9,
+    10
+   ],
+   "hist": {
+    "driver": "vsRev",
+    "revenue": "vsRev",
+    "adjEbitda": "vsEbitda"
+   },
+   "_why": "Rear-view mirrors and camera systems (SMR); FY26 Rs21,001 cr (+8%), Q1FY27 +10% with FX help. Shenzhen Autocruis (USD6.8 mn revenue, closing Q3FY27) adds digital mirrors and driver monitoring but no meaningful revenue. FY27E +8%, then +7%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "10.3% FY24, 10.0% FY25, 9.7% FY26, 9.2% Q1FY27 (seasonally weak; Q4 11.2%). FY27E 9.6%, rising to 10% with camera-monitoring and premium SKUs."
+  },
+  {
+   "key": "ia",
+   "name": "Integrated Assemblies",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 11035,
+   "growth": [
+    6,
+    8,
+    7
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    13,
+    13.2,
+    13.2
+   ],
+   "hist": {
+    "driver": "iaRev",
+    "revenue": "iaRev",
+    "adjEbitda": "iaEbitda"
+   },
+   "_why": "Cockpit and front-end module assembly (SAS, acquired Nov-2023); revenue is reported net of the pass-through parts (Ind AS 115 agent). FY26 Rs11,035 cr (+9%); Q1FY27 +5% ('near-term demand headwinds' at its main European customers). FY27E +6%, FY28E +8% on the FY27 programme launches, FY29E +7%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "11.5% FY25, 13.6% FY26, 12.6% Q1FY27. Margins on net revenue are high because pass-through parts are excluded; 13.0-13.2%."
+  },
+  {
+   "key": "eb",
+   "name": "Emerging Businesses",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 17072,
+   "growth": [
+    69,
+    30,
+    15
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    9.3,
+    10,
+    10.5
+   ],
+   "hist": {
+    "driver": "ebRev",
+    "revenue": "ebRev",
+    "adjEbitda": "ebEbitda"
+   },
+   "_why": "Lighting & electronics, precision metals & modules (incl. consumer-electronics glass), elastomers, aerospace, logistics, health & medical, technology & industrial solutions, and from Q2FY27 'Vehicle Systems' (Yutaka Giken). FY26 Rs17,072 cr (+50%); Q1FY27 Rs4,795 cr (+30%). FY27E +69% = Q1 actual + Q2-Q4 organic +25% (consumer electronics: third plant commissioned in Q3FY27, aerospace +20%) + Yutaka Giken from 21-Jul-2026 (net sales JPY179 bn in FY3/2025, about Rs10,600 cr a year at Rs0.594/JPY; ~Rs7,350 cr for FY27E). FY28E +30% (full year of Yutaka +Rs3,250 cr; consumer-electronics ramp), FY29E +15%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "13.5% FY24, 12.7% FY25, 10.7% FY26, 8.4% Q1FY27 (start-up costs of new plants, health & medical losses). Yutaka's EBITDA margin is not disclosed (gap): we assume ~7%. FY27E 9.3% (organic ~10%, Yutaka ~7%), FY28E 10.0%, FY29E 10.5%."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-segment eliminations",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": -5222,
+   "growth": [
+    20,
+    11,
+    9
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elimRev",
+    "revenue": "elimRev",
+    "adjEbitda": "elimEbitda"
+   },
+   "_why": "Sales between divisions (-Rs5,222 cr in FY26, 3.6% of divisional revenue). Grown with divisional revenue; zero margin (PLAYBOOK §7). FY26 EBITDA effect was +Rs52 cr.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Zero."
+  },
+  {
+   "key": "jv",
+   "name": "Less: equity-accounted JVs",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": -17184,
+   "growth": [
+    15,
+    12,
+    11
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    13.5,
+    13.8,
+    14
+   ],
+   "hist": {
+    "driver": "jvRev",
+    "revenue": "jvRev",
+    "adjEbitda": "jvEbitda"
+   },
+   "_why": "Revenue of JVs and associates included in the divisions but equity-accounted in the consolidated accounts: -Rs17,184 cr in FY26 (+12%), -Rs4,749 cr in Q1FY27 (+22%). Mostly India (MSWIL, Marelli Motherson lighting, Kyungshin, Highly Marelli thermal) and China (Ningbo SMR Huaxiang mirrors). FY27E +15%, FY28E +12%, FY29E +11% (India grows faster than the group).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "JV EBITDA removed: 14.2% of JV revenue in FY26 (Rs2,439 cr), 12.6% in Q1FY27. 13.5% / 13.8% / 14.0%."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Unallocated (none beyond eliminations)",
+ "_unallocWhy": "Company EBITDA equals the sum of divisions less eliminations and JVs; corporate costs are inside the divisions.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  9900,
+  6500,
+  6500
+ ],
+ "_capexWhy": "Guidance FY27 Rs6,000 cr +/-10% (FY26 actual Rs5,911 cr; Q1FY27 Rs1,614 cr), ~50% growth capex of which ~60% non-auto (consumer electronics: Rs7,500 cr programme, one third spent by Jul-2026, the rest over 2-3 years). FY27E also carries the two acquisitions because the engine has no acquisition line: Nexans Autoelectric EUR207 mn enterprise value (~Rs2,300 cr) and 81% of Yutaka Giken for USD184 mn (~Rs1,600 cr), together ~Rs3,900 cr. FY28-29E Rs6,500 cr (consumer electronics and 10 new plants).",
+ "depRateOnGrossBlock": 6.7,
+ "_depWhy": "FY26 depreciation Rs5,134 cr (Screener) = 6.5% of average gross block (Rs79,306 cr). Q1FY27 Rs1,358 cr (Rs5,432 cr annualised) before the two acquisitions (Yutaka has 13 plants). 6.7% on a gross block that includes the acquisition price gives ~Rs6,150 cr in FY27E. The engine holds CWIP flat (Rs4,094 cr) and depreciates capex at once.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net debt (engine treasury is negative), so no treasury yield; interest income is inside other income. Note the engine's net cash includes Rs6,651 cr of equity-accounted JV investments (carried at book, incl. MSWIL 33.43% at Rs3,794 cr, market value Rs8,179 cr at Mar-26) and treats the Rs1,500 cr CCDs as debt.",
+ "otherIncome": [
+  950,
+  1020,
+  1090
+ ],
+ "_otherIncomeWhy": "Built, not plugged: share of profit of JVs and associates (FY25 Rs528 cr, FY26 Rs583 cr; MSWIL alone Rs155 cr = 33.43% of Rs463 cr) growing ~11-12% a year with JV EBITDA -> ~Rs650 / 720 / 790 cr, plus other income ex one-offs ~Rs300 cr (FY26 Rs310 cr: interest, dividends, export incentives, misc.; FY25 Rs558 cr included a Rs178 cr fair-valuation gain). Total Rs950 / 1,020 / 1,090 cr vs Screener's 'other income normal' Rs879 cr in FY26 and Rs943 cr TTM to Jun-26. Exceptional items (Rs413 cr net in FY26, European restructuring) are not forecast.",
+ "interest": [
+  1850,
+  1800,
+  1750
+ ],
+ "_interestLabel": "Finance cost (incl. leases and the 6.5% CCD coupon)",
+ "_interestWhy": "FY26 Rs1,624 cr (FY25 Rs1,882 cr); Q1FY27 Rs459 cr. Gross debt Rs16,606 cr + leases Rs3,257 cr at Jun-26, before ~Rs3,900 cr paid for Nexans and Yutaka in July and their own debt. FY27E Rs1,850 cr, then easing as free cash flow repays debt.",
+ "taxRate": [
+  29,
+  29,
+  29
+ ],
+ "_taxWhy": "This line is tax PLUS minority interests, as % of PBT (engine has no minority line; our net profit is attributable to SAMIL's owners). FY26: tax Rs1,539 cr + minorities Rs226 cr = 31.4% of PBT, but PBT carried Rs413 cr of exceptional costs with little tax relief; before them, tax was ~28% of PBT excluding the post-tax JV share. Forecast: 28% on PBT ex-JV share + minorities ~5% of PAT (Yutaka's 19% outside holders add) = ~29% of total PBT.",
+ "payout": [
+  18,
+  20,
+  22
+ ],
+ "_payoutWhy": "DPS Rs0.60 in FY25 and FY26 (16% of EPS); policy 'up to 40%' of consolidated profit (Vision 2030). MOSL models 20-22%. We assume 18 / 20 / 22%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5,
+  "years": 12,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 10,
+  "fadeCapexPctTo": 4.2,
+  "depPctOfSales": 3.9,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity; beta 1.0 gives 12.5%, close to our WACC (Ke ~13% on a 1.1 beta for a cyclical global auto supplier, ~10% debt at ~5% post-tax -> ~12.3-12.5%).",
+  "_tgWhy": "Global auto production grows 1-2% a year; content gains, India and non-auto add a few points. 5% nominal.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~9% to 7% over 12 years.",
+  "_fadeMarginWhy": "EBITDA margin 10%: the company has never sustained more than ~10% (FY26 9.5%).",
+  "_fadeCapexWhy": "Capex falls from ~3.9% (FY29E) toward 4.2% of revenue: FY21-26 averaged ~4.6%; maintenance plus content growth."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "European volumes recover with the new OEM launches, copper and polymer costs are fully passed through, the Nexans and Yutaka turnarounds work as PKC's did (margins toward 9-10% in two years) and consumer electronics fills the third plant fast: group EBITDA margin ~10.5% by FY29E.",
+   "fadeMarginTo": 10.8,
+   "segments": {
+    "wh": {
+     "growthDelta": 3,
+     "marginDelta": 0.5
+    },
+    "mpp": {
+     "growthDelta": 2,
+     "marginDelta": 0.7
+    },
+    "eb": {
+     "growthDelta": 10,
+     "marginDelta": 1
+    },
+    "ia": {
+     "growthDelta": 2
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "European light-vehicle production keeps falling as Chinese brands take share, commodity recovery slips, the rupee strengthens (translation turns negative), and the acquisitions and the consumer-electronics plant take longer to earn: EBITDA margin stays near 9%.",
+   "fadeMarginTo": 9,
+   "segments": {
+    "wh": {
+     "growthDelta": -3,
+     "marginDelta": -0.5
+    },
+    "mpp": {
+     "growthDelta": -2,
+     "marginDelta": -0.5
+    },
+    "vs": {
+     "growthDelta": -2,
+     "marginDelta": -0.3
+    },
+    "eb": {
+     "growthDelta": -8,
+     "marginDelta": -1
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 1,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 19,
+      "bull": 21,
+      "bear": 16.5
+     },
+     "why": "How the street values SAMIL: P/E on FY28E or Jun/Sep-28E EPS (MOSL 24x, Emkay 23x, Nuvama blended 26x). Multiple derived per PLAYBOOK §4/§7c in MOTHERSON.ctx.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 7.5,
+      "bull": 8,
+      "bear": 7
+     },
+     "why": "Consolidated EBITDA excludes the JVs; the engine's net debt counts the JV stakes at book value. Minorities are not deducted."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "12-year FCFF at 12.5%, terminal growth 5%, less net debt at Mar-27E (JV stakes at book)."
+    }
+   ]
+  }
+ }
+}
