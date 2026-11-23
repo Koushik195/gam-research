@@ -1,0 +1,204 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Uno Minda Ltd (consolidated, Rs crore). FY26 is the last reported year (revenue Rs19,658 cr incl. Rs69 cr of prior-period income). One reported segment, so revenue is a single growth path computed from the six-division build in `build` and checked in tools/authoring/UNOMINDA.ctx.js. Net profit is on the owners' basis (UNOMINDA.patch.js); the engine has no line for the share of JV profit (post-tax) or minorities, so both enter `otherIncome` grossed up for tax (see _otherIncomeWhy). Valued on P/E, as the street does; the multiple is derived in UNOMINDA.ctx.js and written here by UNOMINDA.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  19.2,
+  17.89,
+  16.94
+ ],
+ "_revenueWhy": "From the division build. FY27E +19.2% on reported FY26 (+19.6% on the Rs19,589 cr ex prior-period income): Q1FY27 grew 26% (normalised) with industry production +22%; from Q3 the base includes the GST 2.0 boost (Sep-2025), so we assume growth slows through the year. Switches +15%, Lighting +12%, Castings +22% (Kharkhoda 4W wheels, Bawal 2W wheels, aluminium pass-through), Green Mobility +60% (Q1 +78%: EV systems, 4W EDU supplies, CNG), Seating +20%, Others +17% (sensors/ADAS, sunroof from end-FY27). FY28E +17.9% and FY29E +16.9%: production +5-7% plus content, new plants (CSN wheels and EV powertrain Q2FY28, 4W seating Q4FY28) and orders already won (2W lamps Rs450 cr peak, seating exports Rs390 cr, sunroof >Rs500 cr). Street FY27E/FY28E revenue: Rs23,438-23,922 cr / Rs27,253-28,344 cr.",
+ "ebitdaMargin": [
+  11.1,
+  11.4,
+  11.5
+ ],
+ "_marginWhy": "Guidance 11% +/-50bp for FY27 'with a bias towards the higher end' (4-Aug-2026). Q1FY27 10.3% (commodity and wage inflation, ~40bp dilution from at-cost pass-through); FY26 11.1% normalised (11.5% reported incl. the prior-period income); 10.7-12.3% since FY17. FY27E 11.1% assumes ~11.3% for Q2-Q4 as price resets catch up; FY28E 11.4% and FY29E 11.5% as new plants pass their start-up year, partly offset by lower-margin EV and electronics. Street: ICICI Direct 11.1%/11.5%, Emkay 10.8%/11.5%/11.6%.",
+ "capex": [
+  1750,
+  1600,
+  1500
+ ],
+ "_capexWhy": "FY27E Rs1,750 cr guided (~Rs650 cr sustaining, ~Rs1,100 cr growth, balance land; reiterated 4-Aug-2026). Announced projects Rs3,788 cr, Rs1,406 cr spent by Jun-2026, ~Rs2,000 cr more over 18-24 months. FY26 cash capex Rs1,572 cr. FY28E Rs1,600 cr, FY29E Rs1,500 cr (sustaining ~Rs700 cr plus the tail of announced projects).",
+ "depRateOnGrossBlock": 7.8,
+ "_depWhy": "FY26 D&A Rs704 cr = 8.2% of average gross block (Rs8,566 cr). Part of capex is land (not depreciated) and the engine depreciates new capex at once while CWIP stays flat, so 7.8%: FY27E ~Rs800 cr (Q1FY27 Rs177 cr; Q4FY26 Rs192 cr; casting is on WDV, so Q1 is seasonally low), FY28E ~Rs930 cr, FY29E ~Rs1,050 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net debt company: Rs2,179 cr at Mar-2026 (borrowings Rs2,537 cr less cash and bank Rs358 cr; leases Rs203 cr more). Interest income is tiny (deposits Rs8 cr in FY26) and is in the recurring other income below.",
+ "otherIncome": [
+  257.1,
+  294.9,
+  331.3
+ ],
+ "_otherIncomeWhy": "Built, not plugged: (1) recurring other income Rs28 / 30 / 32 cr (FY26 Rs34 cr incl. Rs5 cr tax-refund interest and Rs6 cr write-backs; Q1FY27 Rs6 cr); (2) share of JV and associate profit, post-tax, Rs270 / 310 / 350 cr (FY26 Rs249 cr, +38%; Q1FY27 Rs48 cr, flat, hit by commodity costs that the company expects to recover from Q2; Toyoda Gosei airbag plant from Q1FY27; Denso Ten IVI order Rs600 cr peak from Q3FY29) less (3) minorities Rs97 / 110 / 124 cr (FY26 Rs87 cr, Q1FY27 Rs20 cr; mostly Tokai Rika's 49% of Uno Mindarika). (2) and (3) are after tax, so they are divided by (1 - 24.5%) because the engine taxes all other income: 28 + (270 - 97) / 0.755 = Rs257 cr. Net profit then equals owners' PAT. FY26 on Screener's basis: other income Rs34 cr + JV Rs249 cr - exceptional Rs28 cr = Rs256 cr; TTM to Jun-26 Rs250 cr.",
+ "interest": [
+  200,
+  215,
+  210
+ ],
+ "_interestLabel": "Finance cost (borrowings and leases)",
+ "_interestWhy": "FY26 Rs187 cr, Q1FY27 Rs46 cr. Gross debt Rs2,537 cr plus leases Rs203 cr at Mar-2026; FY27 capex above operating cash flow keeps debt rising (MOSL/Emkay see net debt peaking in FY27), easing in FY29E.",
+ "taxRate": [
+  24.5,
+  24.5,
+  24.5
+ ],
+ "_taxWhy": "FY26 24.3% and Q1FY27 24.5% of profit before JV share; the new-regime rate is 25.2% with some incentive income.",
+ "payout": [
+  13,
+  13,
+  13
+ ],
+ "_payoutWhy": "12-14% of PAT every year FY22-FY26 (FY26 Rs2.65 a share = 12.8%).",
+ "build": {
+  "_note": "Division build (Rs crore). FY26 base = sum of the four quarters disclosed in the Q4FY26 and Q1FY27 presentations (Rs19,589 cr; excludes Rs69 cr of prior-period income in reported revenue). Checked against model revenue in UNOMINDA.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "switches": 4871,
+   "lighting": 4402,
+   "castings": 3694,
+   "greenMobility": 1405,
+   "seating": 1416,
+   "others": 3801
+  },
+  "growth": {
+   "switches": [
+    15,
+    13,
+    12
+   ],
+   "lighting": [
+    12,
+    13,
+    13
+   ],
+   "castings": [
+    22,
+    18,
+    16
+   ],
+   "greenMobility": [
+    60,
+    35,
+    30
+   ],
+   "seating": [
+    20,
+    25,
+    28
+   ],
+   "others": [
+    17,
+    18,
+    16
+   ]
+  },
+  "jv": [
+   270,
+   310,
+   350
+  ],
+  "minorities": [
+   97,
+   110,
+   124
+  ],
+  "recurringOI": [
+   28,
+   30,
+   32
+  ],
+  "_why": "Switches: Q1 +20% (4W +24%), Farrukhnagar capacity from Q3FY27, 2W exports. Lighting: Q1 +14%, 4W in consolidation; 2W lamp order (Rs450 cr peak, H2FY28) and new global 4W OEM lift FY28-29. Castings: Q1 +32% (incl. aluminium); 4W wheel capacity to ~7 mn and 2W to ~9.5 mn wheels; CSN Phase 1 Q2FY28. Green Mobility: Q1 +78% to Rs542 cr; Khed EV powertrain H2FY27, CSN Q2FY28 (Rs2,500-3,000 cr peak potential for ~Rs1,200 cr of capex). Seating: Q1 +28%; exports from end-FY28, PV seating Q4FY28. Others: Q1 +21%; sunroof from end-FY27, 2W display Q4FY27."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 11.5,
+  "fadeCapexPctTo": 4.5,
+  "depPctOfSales": 3.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Cyclical auto supplier with modest leverage (net debt ~0.3x equity, ~1x EBITDA): beta 1.0, cost of equity 12.5%. Debt is ~4% of enterprise value, so we use the cost of equity as the discount rate (the engine's DCF has no separate WACC in Excel).",
+  "_tgWhy": "India's nominal GDP grows ~10%; vehicle production ~5-6% a year plus content per vehicle. House range 5-6%: 6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~17% to 8% over 15 years as new categories mature.",
+  "_fadeMarginWhy": "EBITDA margin held at 11.5%: the company's long-run band (10.7-12.3%) with no pricing power to go higher.",
+  "_fadeCapexWhy": "Capex falls from ~4.6% of revenue in FY29E to 4.5% (FY22-26 average 7.7% in a heavy build phase; ~4% sustaining plus growth); depreciation 3.5% of revenue (FY26 3.6%).",
+  "_jvWhy": "FCFF excludes JV profit (cash comes as dividends: Rs137 cr in FY26) and includes minorities' share; JVs enter only at book value (Rs924 cr) through investments in net debt. See the DCF chapter for the effect."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Industry volumes keep growing high single digits after the GST step; EV powertrain, sunroof, PV seating and exports ramp on time; alloy-wheel penetration rises again; margin reaches the top of the 11-12% band as commodity costs ease.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 0.5,
+   "fadeMarginTo": 12
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Volumes flatten against the GST base; commodity and wage inflation is recovered late; new plants ramp slowly (Inovance JV blocked by Chinese approvals); share losses at a key 4W client continue; margin slips back to ~10.5%.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -0.7,
+   "fadeMarginTo": 10.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 35.5,
+      "bull": 39,
+      "bear": 31
+     },
+     "why": "How the street values Uno Minda: P/E on one-year-forward EPS (MOSL 45x FY28E, ICICI Direct 46x, Axis 39x, Emkay 35x). Multiple derived in UNOMINDA.ctx.js and written by UNOMINDA.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 16.5,
+      "bull": 18,
+      "bear": 15
+     },
+     "why": "Values the operating business; the historical multiple already prices the JV stakes, as the market capitalisation includes them."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, cost of equity 12.5%, terminal growth 6%, less net debt (JVs at book value)."
+    }
+   ]
+  }
+ }
+}

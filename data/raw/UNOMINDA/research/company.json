@@ -1,0 +1,75 @@
+{
+ "symbol": "UNOMINDA",
+ "name": "Uno Minda Ltd",
+ "asOf": "2026-09-30",
+ "_note": "Fact base for the Uno Minda initiation (consolidated, Rs crore unless stated). Only sources published on or before 30-Sep-2026. FY26 = year to Mar-2026; Q1FY27 = Apr-Jun 2026.",
+ "sources": {
+  "ar26": { "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2fb445b-227f-4d3a-96f3-b7478bdf8e5d.pdf", "published": "2026-07-03", "what": "Integrated Annual Report FY2025-26 (accounts approved 16-May-2026; AGM 31-Jul-2026)" },
+  "q4deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81deda40-fe6e-490d-91b1-f603b9e61a6b.pdf", "published": "2026-05-18", "what": "Q4FY26 investor presentation" },
+  "q4call": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e74dee4a-934d-42b9-96b2-5e15565efbc0.pdf", "published": "2026-05-18", "what": "Q4FY26 earnings call transcript (call 18-May-2026)" },
+  "q1deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43efd545-cc98-40a2-97ef-bc5481c69f3d.pdf", "published": "2026-08-04", "what": "Q1FY27 investor presentation" },
+  "q1call": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bde2bdb1-2ef3-45ab-9c5c-886371b1c6dd.pdf", "published": "2026-08-10", "what": "Q1FY27 earnings call transcript (call 4-Aug-2026)" },
+  "onkyo": { "src": "https://www.sahi.com/news/uno-minda-reports-q1-net-profit-of-3b-greenlights-minda-onkyo-merger-2829-PE1_COR", "published": "2026-08-04", "what": "Board outcome 4-Aug-2026: Minda Onkyo amalgamation" }
+ },
+ "profile": {
+  "what": "India's largest maker of automotive switches and horns and of 2W seats and PV alloy wheels, and its third-largest automotive lighting maker (ICICI Direct, 5-Aug-2026); 78 plants, 28 product lines, 17 JVs/technical licences, group turnover (incl. JVs) Rs25,203 cr in FY26.",
+  "divisions": ["Switches (2W switches; 4W switches via Uno Mindarika, 51%, Tokai Rika 49%)", "Lighting (2W, 4W; Indonesia plant)", "Castings (4W and 2W alloy wheels, aluminium die casting)", "Seating (2W/CV seats; PV seating via Uno Minda Tachi-S from Q4FY28)", "Green Mobility (alternate fuel/CNG via Minda Westport 76%; EV systems: 2W/3W chargers, DC-DC, motors; 4W EV powertrain via Uno Minda Auto Innovations)", "Others (sensors and ADAS, acoustics/horns, blow moulding, controllers, aftermarket incl. batteries, Uno Minda Katolec EMS, sunroof from end-FY27)"],
+  "mixQ1FY27": { "fourWheeler": 45, "twoWheeler": 45, "threeWheeler": 3, "cv": 4, "offRoad": 3, "india": 89, "international": 11, "oem": 94, "aftermarket": 6, "src": "q1deck p13" },
+  "customers": "Two customers each above 10% of FY26 revenue (none in FY25) (AR FY26 note 32). Key 4W client Maruti Suzuki (Emkay, 5-Aug-2026)."
+ },
+ "shares": { "mar26": 577421816, "faceValue": 2, "fy26Issued": { "esop": 2975997, "businessCombination": 281974 }, "src": "AR FY26 consolidated note 13" },
+ "fy26": {
+  "revenue": 19657.59, "revenueExPriorPeriod": 19589, "priorPeriodIncomeQ1FY26": 69, "ebitda": 2251, "ebitdaNormalised": 2182, "otherIncome": 34.43, "depreciation": 703.56, "financeCost": 187.02,
+  "jvShare": 248.87, "exceptional": -27.57, "pbt": 1616.38, "tax": 332.32, "pat": 1284.06, "patOwners": 1197.13, "minorities": 86.93, "patNormalised": 1166, "eps": 20.78,
+  "governmentGrantsInRevenue": 175.81, "stateIncentivesAccrued": 156.64, "exportsFromIndia": 600, "revenueOutsideIndia": 2175.01,
+  "cfo": 1722, "capex": 1572, "capexSplit": "Rs861 cr expansion projects, Rs149 cr CSN land, rest sustaining (q4call)", "netDebt": 2179, "netDebtMar25": 2091, "netDebtToEquity": 0.30, "roce": 19.2, "roe": 19.1, "dps": 2.65,
+  "src": "AR FY26 consolidated statements and notes 21, 22, 30, 32, 42; q4call; q1deck p18"
+ },
+ "otherIncomeFY26": { "depositInterest": 7.96, "taxRefundInterest": 4.96, "rental": 0.56, "fvGain": 0.85, "ppeGain": 4.55, "writeBacks": 6.23, "investmentGain": 0.28, "misc": 8.87, "other": 0.17, "total": 34.43, "fy25Total": 29.29, "src": "AR FY26 consolidated note 22" },
+ "jv": {
+  "_note": "Equity-accounted, shown below EBITDA as 'share of profit of associates and JVs' (net of tax); Screener adds it to other income.",
+  "fy26": [["Toyoda Gosei Uno Minda (airbags, steering wheels, weather strips)", 49.9, 2902.64, 263.14, 128.75], ["Roki Uno Minda (air filters, canisters)", 49.0, 808.14, 109.12, 53.47], ["Denso Ten Uno Minda (infotainment, displays)", 49.0, 817.25, 92.83, 45.49], ["Tokai Rika Minda (seatbelts, locksets, shifters)", 30.0, 1132.86, 53.86, 16.16]],
+  "fy25ShareOfFour": [78.51, 48.56, 41.67, 8.25], "totalFY26": 248.87, "totalFY25": 180.28, "q1fy27": 48, "q1fy26": 47, "q4fy26": 64,
+  "dividendsReceivedFY26": 137.09, "bookValueMar26": 923.53,
+  "denso_ivi_order": "Rs600 cr peak annual value (vs Denso Ten JV FY26 revenue Rs846 cr), SOP Q3FY29 (q4call)",
+  "src": "AR FY26 consolidated notes 7 and 44(C); related-party note (dividends); q1call"
+ },
+ "nci": {
+  "_note": "Profit attributable to non-controlling interests, FY26 (Rs crore): NCI share of subsidiary profit.",
+  "fy26": [["Uno Mindarika (4W switches; Tokai Rika 49%)", 49.0, 1982.99, 89.42, 43.82], ["Uno Minda Kyoraku (blow moulding; 32.32%)", 32.32, 474.72, 32.08, 10.37], ["Uno Minda Katolec (EMS; 49%)", 49.0, 755.13, 22.47, 11.01], ["Minda Westport (CNG systems; 24.01%)", 24.01, 591.5, 44.97, 10.8], ["Uno Minda EV Systems (NCI bought out in FY26)", 0, 501.46, 24.19, 3.34]],
+  "total": 86.93, "q1fy27": 20, "q1fy26": 18, "fy26Buyout": "49.9% of Uno Minda EV Systems from FRIWO for Rs141.28 cr plus E-drive assets Rs58.01 cr (AR note 41)",
+  "src": "AR FY26 consolidated note 44"
+ },
+ "q1fy27": {
+  "date": "2026-08-04", "revenue": 5557, "revenueGrowthNormalised": 26, "ebitda": 572, "ebitdaMargin": 10.3, "rawMaterial": 3706, "employee": 719, "otherExp": 560, "otherIncome": 6, "dep": 177, "interest": 46, "tax": 87, "jvShare": 48, "pat": 316, "patOwners": 296, "minorities": 20, "eps": 5.11,
+  "divisions": { "switches": [1335, 20], "lighting": [1153, 14], "castings": [1090, 32], "greenMobility": [542, 78], "seating": [408, 28], "others": [1029, 21] },
+  "detail": "4W switches (Uno Mindarika) Rs525 cr +24%; 4W alloy wheels Rs566 cr, 2W alloy wheels Rs284 cr, die casting Rs248 cr (+66%); alternate fuel Rs184 cr, EV systems Rs186 cr (+130%), UMAI (4W EV) Rs123 cr, EV controllers Rs37 cr; sensors/ADAS Rs250 cr, acoustics Rs225 cr, blow moulding Rs125 cr, non-EV controllers Rs80 cr; aftermarket Rs336 cr (+ OEM spares Rs254 cr = 11%); exports from India Rs228 cr vs Rs141 cr.",
+  "marginDrivers": "Commodity and gas inflation only partly recovered; pass-through at cost diluted margin ~40bp; minimum-wage increases (Haryana ~35%); offset by efficiencies and operating leverage. Gross margin down three quarters in a row.",
+  "industry": "Production 9.69 mn (+22%): PV 1.45 mn (+17%), 2W 7.25 mn (+23%), CV 0.29 mn (+15%); e-PV penetration 6.8%, e-2W 9.2%.",
+  "src": "q1deck pp7-18; q1call"
+ },
+ "guidance": {
+  "ebitdaMargin": "11% +/-50bp for FY27, 'with a bias towards the higher end' (q1call, 4-Aug-2026; also q4call 18-May-2026, including known start-up costs)",
+  "capexFY27": "Rs1,750 cr: ~Rs650 cr sustaining, ~Rs1,100 cr growth, balance land (q4call); unchanged in q1call. Announced projects Rs3,788 cr, Rs1,406 cr spent to 30-Jun-2026; ~Rs2,000 cr more over 18-24 months (q1call).",
+  "growth": "Expects to keep outperforming industry volumes; 7 of 11 projects start or ramp up in FY27; EV powertrain (Khed, H2FY27) and sunroof (Bawal, end-FY27) start.",
+  "exports": "Physical exports from India ~Rs600 cr in FY26; 'expect this to cross Rs1,500 cr in next few years' (q4call).",
+  "evPowertrain": "Khed (Rs437 cr) + CSN (Rs549 cr) + CSN EV casting (Rs210 cr; ~Rs300 cr per call): revenue potential >Rs2,500 cr, up to ~Rs3,000 cr at peak (q4call). Inovance JV: India Press Note 3 approval received; China approval pending under tightened rules (q1call).",
+  "orders": "2W lamps ~Rs450 cr peak (SOP H2FY28); seating exports ~Rs390 cr peak (end-FY28/FY29); sunroof order book >Rs500 cr; 2W display ~Rs200 cr (SOP Q4FY27); 4W PV seating anchor customer (Rs320 cr plant, SOP Q4FY28, >2x asset turn).",
+  "src": "q4call; q1call; q1deck p16"
+ },
+ "projectsQ1FY27": [["4W alloy wheels, Kharkhoda (120k/month)", 542, 477, "Phase 1 (60k) commissioned; Phase 2 Q4FY28"], ["4W alloy wheels, CSN (1.8 mn/yr)", 792, 12, "Phase 1 Q2FY28"], ["4W switches, Farrukhnagar (Uno Mindarika)", 116, 114, "Q3FY27"], ["Sunroof, Bawal", 63, 43, "Q4FY27"], ["Airbags, Harohalli (TG Minda JV)", 283, 237, "Q1FY27"], ["2W alloy wheels, Bawal", 196, 145, "Q2FY27"], ["4W EV powertrain, Khed (UMAI)", 437, 170, "H2FY27"], ["2W lighting, Kharkhoda", 279, 125, "Q3FY27"], ["EV casting, CSN", 210, 82, "H2FY27"], ["4W EV powertrain, CSN (UMAI)", 549, 0, "Q2FY28"], ["PV seating, CSN (Uno Minda Tachi-S)", 320, 0, "Q4FY28"]],
+ "history": [
+  ["1958-1993", "Started with ammeters; added horns, automotive switches and lighting"],
+  ["1995-2010", "4W switches through Uno Mindarika (Tokai Rika JV); Indonesia and Vietnam plants; batteries, blow moulding, CNG kits, die casting"],
+  ["2011-2015", "Bought Clarton (horns, Spain); alloy-wheel JV with Kosei"],
+  ["2016-2019", "Bought Rinder (lighting, Spain); JVs with Katolec (EMS) and Onkyo (infotainment)"],
+  ["2020-2023", "Bought and merged Harita Seating; Tachi-S 4W seating JV; Dayou (LPDC wheels) and Asentec (sensors) licences; 2W/3W EV portfolio (the company was formerly Minda Industries, NSE: MINDAIND)"],
+  ["2023-2024", "Bought the rest of Minda Kosei Aluminium Wheel; Minda Westport stake from 50% to 76%; StarCharge licence"],
+  ["2024-2026", "Merged the Kosei entities into Uno Minda; Inovance JV (EV powertrain) and Aisin (sunroof) tie-ups; 2W seat business of Sundaram Auto Components (Mar-2025); FRIWO's 49.9% of Uno Minda EV Systems (FY26)"],
+  ["Aug-2026", "Board approved amalgamation of Minda Onkyo India (99% held after buying Onkyo's 19% for Rs1.02 cr) with appointed date 1-Apr-2026; swap 6 Uno Minda shares per 10,000 Minda Onkyo shares (immaterial)"]
+ ],
+ "historySrc": "AR FY26 'Our Journey' pp28-29; AR FY26 note 41; onkyo",
+ "management": [["Nirmal K Minda", "Executive Chairman (promoter); also MD of Uno Mindarika"], ["Ravi Mehra", "Managing Director (from 1-Apr-2025)"], ["Vivek Jindal", "Whole-time Director"], ["Sunil Bohra", "Group CFO"], ["Tarun Kumar Srivastava", "Company Secretary"]],
+ "remuneration": { "chairmanFY26": 38.92, "chairmanCommission": 30.0, "chairmanFY25": 33.96, "mdFY26": 9.16, "chairmanToMedian": 973, "src": "AR FY26 consolidated related-party note (H); Board's report annexure (Rule 5(1))" },
+ "dividendPolicy": "Payout 12-14% of PAT in FY22-FY26; FY26 Rs2.65 a share (interim Rs0.90 + final Rs1.75), ~Rs153 cr (q4call)."
+}

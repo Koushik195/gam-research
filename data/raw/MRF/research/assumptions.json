@@ -1,0 +1,171 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for MRF Ltd (consolidated, Rs crore). FY26 (Mar-2026) is the last reported year; Q1FY27 (Jun-2026, reported 11-Aug-2026) is the last quarter known on 30-Sep-2026. Model history starts at FY17: MRF moved from a September to a March year (18-month period Oct-2014 to Mar-2016), see MRF.patch.js. Single business (tyres, tubes, flaps, tread rubber) with a channel build below; one EBITDA margin.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  9.85,
+  8.76,
+  8.77
+ ],
+ "_revenueWhy": "From the channel build below (checked against model revenue in MRF.ctx.js). FY27E +9.9%: replacement +10% (CRISIL, 24-Aug-2026: industry volume +4-5% in FY27, replacement and OEM each +4-5%; plus 5-6% of price: the industry took 7-9% of increases by Q1 with more planned in Q2, CLSA/Moneycontrol 12-Aug-2026), OEM +11% (vehicle production still strong after the GST cut; OEM price pass-through of raw material with a lag), exports +5% (flat in FY26 at Rs2,324 cr; Middle East disruption). Q1FY27 revenue +9.6%. FY28-29E: volume ~4-5% plus ~4% price/mix; exports recover to +9%. MOSL (11-Aug-2026): +9.1% / +8.4%.",
+ "build": {
+  "_note": "Channel build (Rs crore). FY26 mix from CARE Ratings (28-Sep-2026): replacement 69.1%, OEM (incl. defence) 23.3% of channel sales; exports the rest (7.6%; CARE says ~8%; standalone exports Rs2,324 cr = 7.6% of standalone revenue, AR FY26). Applied to consolidated revenue of Rs31,149 cr.",
+  "base": {
+   "fy": "FY26",
+   "replacement": 21524,
+   "oem": 7257.7,
+   "exports": 2367.3
+  },
+  "replacementGrowth": [
+   10,
+   9,
+   9
+  ],
+  "oemGrowth": [
+   11,
+   8,
+   8
+  ],
+  "exportsGrowth": [
+   5,
+   9,
+   9
+  ]
+ },
+ "ebitdaMargin": [
+  12.8,
+  14,
+  14.5
+ ],
+ "_marginWhy": "FY26 15.8% (Screener basis; CARE PBILDT incl. other income 15.78%); Q1FY27 11.8% (EBITDA Rs991 cr) as raw material rose to 67.3% of sales (MOSL) with natural rubber ~Rs275/kg in Jun-2026 vs ~Rs220/kg in FY26 (CRISIL) and still ~Rs273/kg on 3-Sep-2026 (Kottayam RSS-4). FY27E 12.8% assumes H1 ~12% and H2 ~13.5% as the 7-9% price increases work through; CRISIL sees the industry at 11.5-12% in FY27 (from 14.2%) and 13-13.5% in FY28; MRF ran ~1.5 pt above the industry in FY26. FY28E 14.0%, FY29E 14.5%: back towards MRF's FY17-26 median of ~15%, not to the FY24 peak (17.0%). MOSL: 13.7% / 14.2%.",
+ "capex": [
+  2000,
+  2100,
+  2200
+ ],
+ "_capexWhy": "Cash capex Rs1,434 cr in FY26 and Rs1,309 cr in FY25 (Screener), after a Rs3,291 cr peak in FY23. Capital commitments doubled to Rs1,514 cr at Mar-26 (Rs714 cr a year earlier) and capital advances rose to Rs236 cr (Rs98 cr), AR FY26 notes 6 and 25; installed capacity 99.4 mn tyres (95.9 mn a year earlier, CARE). CRISIL (24-Aug-2026): the top six tyre makers plan ~Rs18,000 cr over FY27-28, nearly double the previous two years. MRF gives no guidance; we assume Rs2,000-2,200 cr a year (6% of revenue). MOSL assumes Rs1,400/1,500 cr.",
+ "depRateOnGrossBlock": 7.4,
+ "_depWhy": "FY26 depreciation Rs1,754 cr = 7.4% of average gross block (Rs23,581 cr on Screener's basis, FY25-26). Q1FY27 Rs448 cr. The engine depreciates new capex at once and holds CWIP (Rs1,034 cr) flat.",
+ "otherTreasury": {
+  "base": 2012.94,
+  "_why": "Bank deposits with more than 12 months' maturity (consolidated note 5, non-current), which Screener books in other assets. With cash and bank balances (Rs2,183 cr incl. Rs1,867 cr of 3-12-month deposits) and investments (Rs3,398 cr: debt and arbitrage mutual funds Rs3,057 cr, bonds Rs323 cr, equity Rs18 cr) gross treasury was Rs7,594 cr at Mar-26 (CARE: cash and liquid investments Rs7,572 cr). Less borrowings Rs3,207 cr (bank loans Rs2,367 cr, leases Rs840 cr) = net Rs4,387 cr, the engine's opening treasury."
+ },
+ "treasuryYield": [
+  6.2,
+  6.2,
+  6.2
+ ],
+ "_treasuryWhy": "FY26 treasury income Rs395 cr (interest Rs170 cr, mutual-fund fair-value and sale gains Rs225 cr, dividends Rs0.2 cr; note 18) on average gross treasury of ~Rs6,390 cr (Rs5,185 cr at Mar-25, Rs7,594 cr at Mar-26) = 6.2%. The engine applies the yield to opening NET treasury; the income on the part funded by borrowings and the in-year build-up of cash is in otherIncome below, so total treasury income = 6.2% of average gross treasury (checked in MRF.ctx.js).",
+ "otherIncome": [
+  335,
+  340,
+  345
+ ],
+ "_otherIncomeWhy": "Three parts: (1) 6.2% on the Rs3,207 cr of gross treasury matched by borrowings (Rs199 cr; borrowings held flat); (2) half a year's 6.2% on the year's increase in treasury (~Rs50-60 cr; the engine earns only on the opening balance); (3) recurring non-treasury income of ~Rs82 cr (export incentives Rs14 cr, EPCG grant unwinding Rs36 cr, miscellaneous Rs32 cr; FY26 note 18). Left out: insurance claims Rs27 cr (one-off). FY27E total ~Rs610 cr vs FY26 Rs505 cr (reported, before the Rs63 cr labour-code exceptional that Screener nets) and TTM-Jun-26 Rs571 cr; Q1FY27 alone Rs195 cr. MOSL Rs555 cr / Rs611 cr.",
+ "interest": [
+  360,
+  365,
+  370
+ ],
+ "_interestLabel": "Interest cost (bank working-capital loans, term loans, leases, dealer deposits)",
+ "_interestWhy": "FY26 Rs374 cr (Screener; Rs366 cr finance costs in the AR); Q1FY27 Rs88 cr. Bank borrowings fell to Rs2,367 cr (Rs2,905 cr) after repaying Rs200 cr of term loans and the Rs150 cr NCD (Feb-2026); dealer security deposits also carry interest. Held near the Q1 run-rate.",
+ "taxRate": [
+  25,
+  25,
+  25
+ ],
+ "_taxWhy": "FY26 24.7%, FY25 24.6%, Q1FY27 23.8% (new regime, 25.17% statutory).",
+ "payout": [
+  4.5,
+  4.5,
+  4.5
+ ],
+ "_payoutWhy": "MRF pays a small, nearly fixed rupee dividend: Rs235 a share for FY26 (two interims of Rs3 and a final of Rs229) = 4.1% of EPS; Rs235 for FY25 (5.3%), Rs200 for FY24 (4.1%). 4.5% on our EPS is ~Rs230-330 a share.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5.5,
+  "years": 12,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 14.5,
+  "fadeCapexPctTo": 5.5,
+  "depPctOfSales": 5.3,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, a defensive replacement-led revenue mix (69%), but margins swing with natural rubber and crude: 0.9 (Ke 11.9%). Debt is small against treasury, so the cost of equity is the discount rate.",
+  "_tgWhy": "Indian tyre demand grows with the vehicle parc and freight (CRISIL: 7-8% volume in FY26, 4-5% in FY27) plus price; 5.5% nominal terminal growth (house range 5-6%).",
+  "_fadeGrowthWhy": "Revenue growth fades from ~8.8% to 8% over 12 years: volume of 4-5% plus price and mix (radialisation, premium SUV and two-wheeler tyres).",
+  "_fadeMarginWhy": "EBITDA margin held at 14.5%, near MRF's FY17-26 median (~15%) but below the FY24 peak: raw material cycles average out; Chinese imports and new domestic capacity cap pricing.",
+  "_fadeCapexWhy": "Tyres are capital-hungry: capex fades from ~5.4% of revenue to 5.5% (FY17-26 average ~9%; FY25-26 ~4.6%); depreciation 5.3% of revenue (FY26 5.6%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Rubber eases below Rs250/kg by early 2027 (CRISIL's trigger) while the price increases stick; replacement keeps growing at double digits on the GST-boosted parc and new capacity, exports recover, and the margin returns to the FY24-26 average of ~15.8% by FY29E.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 1.25,
+   "fadeMarginTo": 15.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Natural rubber stays at Rs275-300/kg and crude-linked inputs keep rising with the Middle East conflict; a below-normal monsoon slows rural and farm-tyre demand; competition and Chinese imports limit price increases, so the margin stays near the Q1FY27 level (~12-13%) through FY29E.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 13
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 21.5,
+      "bull": 24,
+      "bear": 18
+     },
+     "why": "How the street values MRF: P/E on one-year-forward EPS (MOSL 19x FY28E, 11-Aug-2026; 20x Dec-27E in Feb-2026). Multiple derived in MRF.ctx.js and written by MRF.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 10,
+      "bull": 11.5,
+      "bear": 9
+     },
+     "why": "Values the operating business and the net treasury separately."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 12-year FCFF, Ke 11.9%, terminal growth 5.5%, plus net cash."
+    }
+   ]
+  }
+ }
+}
