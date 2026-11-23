@@ -1,0 +1,393 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Bajaj Auto (consolidated, Rs crore; profit attributable to owners via tools/authoring/BAJAJ-AUTO.patch.js). Three business lines that sum to reported consolidated revenue and EBITDA: STANDALONE (Bajaj Auto Ltd: motorcycles, Chetak electric scooters, three-wheelers, exports, spares, export incentives and PLI), BACL (Bajaj Auto Credit, the captive lender; EBITDA struck after its finance cost, which the patch moves out of 'Interest' in history too) and KTM, OTHER SUBSIDIARIES & CONSOLIDATION (Bajaj Mobility AG / KTM, consolidated from 18-Nov-2025 with a one-quarter lag, plus Brazil, BAIH BV and eliminations). The standalone revenue path comes from a volume x realisation build in `businessLines`, checked against model revenue in BAJAJ-AUTO.ctx.js. BACL's borrowings are operating debt (its funding), so net cash and treasury income exclude them. Valued like the street: P/E on Sep-28E STANDALONE EPS (post-buyback share count) plus BACL at P/B and the 74.94% BMAG stake at market less a holding discount, all computed in BAJAJ-AUTO.ctx.js and carried into the engine as an implied multiple of consolidated Sep-28E EPS by BAJAJ-AUTO.sotp.js.",
+ "_shareNote": "The engine uses the FY26 share count (27.95 cr = profit for owners Rs10,744 cr / EPS Rs384.41). The July-2026 tender buyback (up to 46.94 lakh shares at Rs12,000, Rs5,632.80 cr) cut the count to ~27.48 cr (274.8 mn; MOSL, Anand Rathi and ICICI Direct use 274.8 mn). Engine EPS is therefore ~1.7% below EPS on the post-buyback count; BAJAJ-AUTO.ctx.js shows both, and the SOTP is per post-buyback share.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "sa",
+   "name": "Bajaj Auto standalone (vehicles, spares, incentives)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 58732,
+   "growth": [
+    23.92,
+    11.45,
+    9.55
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    20.6,
+    20.7,
+    20.7
+   ],
+   "hist": {
+    "driver": "saRev",
+    "revenue": "saRev",
+    "adjEbitda": "saEbitda"
+   },
+   "_why": "From the volume x realisation build in businessLines: FY27E volumes 6.07 mn (+18.5%): Apr-Aug 2026 actual 24.49 lakh (+29%: domestic 2W +12%, export 2W +50%, domestic 3W +15%, export 3W +50%) plus Sep-Mar at domestic 2W +4% (a GST-boosted base from Oct-2025), export 2W +22% (management targets 250k a month; Aug-26 242k), domestic 3W +8%, export 3W +22%. Domestic realisation +5% (price rises in Apr and Jun 2026 recovering ~half of 4.5% commodity inflation, EVs and premium bikes in the mix; Q1FY27 domestic realisation ~+8% YoY), export dollar realisation +1% and the rupee at Rs97.2 per export dollar (FY26 Rs90.6 on AR figures; realised USD/INR 94.4 in Q1FY27 vs 85.6 a year earlier). FY28E: volumes +8.5% (domestic 2W +7% on the Pulsar and new-brand launch cycle, exports +10%); FY29E +7%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Standalone EBITDA margin 20.2% (FY25), 20.5% (FY26), 20.9% in Q1FY27 despite commodity inflation of ~4.5% of revenue, offset by price, the weak rupee, mix and cost cuts. Management warned that Q2 carries the full inflation (electronics, labour, logistics too). We model 20.6% / 20.7% / 20.7%: EVs at double-digit margins and premium bikes help, but the rupee tailwind cannot keep growing and PLI income (Rs1,040 cr in FY26, ~9% of EBITDA) is time-bound. Brokers model 20.7-21.0% for FY27E."
+  },
+  {
+   "key": "bacl",
+   "name": "Bajaj Auto Credit (captive lender)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA after finance cost",
+   "base": 3246,
+   "growth": [
+    55,
+    30,
+    24
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    26,
+    25.5,
+    25
+   ],
+   "hist": {
+    "driver": "baclRev",
+    "revenue": "baclRev",
+    "adjEbitda": "baclEbitda"
+   },
+   "_why": "Total income Rs1,041 cr (FY25), Rs3,246 cr (FY26), Rs1,109 cr in Q1FY27 (+84%). AUM ~Rs18,835 cr at Mar-26 (doubled) and ~Rs20,000 cr at Jun-26 (+70%). We assume AUM grows ~38% in FY27, ~27% in FY28 and ~21% in FY29 as penetration of Bajaj's retail (45% in Q3FY26) matures and the e-3W and e-rickshaw book grows; income +55% / +30% / +24% (FY27 also carries the full-year effect of FY26's loan growth).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "PBT before depreciation as % of income (after finance cost and credit cost): 8.0% (FY25, start-up), 28.0% (FY26), 27.6% (Q1FY27). Credit cost was high (impairment Rs543 cr in FY26, ~3.9% of average loans) and funding costs rise as the book grows faster than equity: 26% / 25.5% / 25%. Implies PAT of ~Rs970 / 1,240 / 1,500 cr and ROE ~25% falling to ~24%."
+  },
+  {
+   "key": "ktm",
+   "name": "KTM, other subsidiaries & consolidation",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 927,
+   "growth": [
+    1410.25,
+    14,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    9,
+    10,
+    11
+   ],
+   "hist": {
+    "driver": "subRev",
+    "revenue": "subRev",
+    "adjEbitda": "subEbitda"
+   },
+   "_why": "Consolidated less standalone less BACL. FY26 (Rs927 cr) holds only six weeks of KTM (18-Nov to 31-Dec-2025: Rs1,296 cr of revenue, AR note 46) less eliminations. Q1FY27 (KTM's Jan-Mar 2026) was Rs3,336 cr. FY27E Rs14,000 cr = calendar-2026 KTM: Bajaj Mobility's revenue was EUR331 m in Q1 and EUR370 m in Q2 2026 (+65% in H1); we assume ~EUR1.35-1.40 bn for the year at ~Rs105-108 per euro, less eliminations of Bajaj's sales of India-made KTMs to KTM AG, plus Brazil (+1,410% only because of the six-week base). FY28E +14% and FY29E +12% as KTM rebuilds dealer stock-normalised volumes (2023 revenue was EUR2.66 bn).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "This line's EBITDA was -Rs744 cr in FY26 (KTM's first six weeks: inventory at fair value, restructuring costs) and +Rs322 cr (9.7%) in Q1FY27. Bajaj Mobility's own IFRS EBITDA margin was 1.7% in Q1 2026 and 8.7% in Q2 2026; KTM earned 12-16% in 2021-2023. 9% / 10% / 11%: the turnaround continues but we do not assume a return to pre-crisis margins within the forecast."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Unallocated (none: the three lines sum to reported EBITDA)",
+ "_unallocWhy": "Standalone + BACL + KTM/other subsidiaries & consolidation = consolidated revenue and EBITDA by construction (history in segments.json).",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "businessLines": {
+  "_why": "Standalone revenue build. Domestic = units x domestic revenue per unit (sale of products less exports, so it includes domestic spares): FY26 Rs35,698 cr on 28.67 lakh units = Rs124,491. Exports = units x USD per unit x rupees per export dollar: FY26 $2,253 m (AR Table 4) on 22.50 lakh units = $1,001, and Rs20,416 cr / $2,253 m = Rs90.6. Other operating revenue (export incentives Rs572 cr, PLI/PSI incentives Rs1,040 cr, royalty Rs496 cr, misc.): Rs2,619 cr in FY26 (AR note 23). FY27E volumes = Apr-Aug 2026 actual + Sep-Mar at the growth shown on the Sep-Mar FY26 base. Checked against model revenue in BAJAJ-AUTO.ctx.js.",
+  "units": {
+   "dom2w": [
+    2510352,
+    2686077,
+    2847242
+   ],
+   "exp2w": [
+    2605840,
+    2866424,
+    3095738
+   ],
+   "dom3w": [
+    574279,
+    614479,
+    651348
+   ],
+   "exp3w": [
+    375803,
+    413383,
+    446454
+   ]
+  },
+  "fy26": {
+   "dom2w": 2349040,
+   "exp2w": 1967810,
+   "dom3w": 518444,
+   "exp3w": 282373,
+   "chetak": 302674,
+   "domRevCr": 35697.68,
+   "expRevCr": 20416,
+   "expUsdM": 2253,
+   "otherOpRevCr": 2618.8
+  },
+  "apAug26": {
+   "dom2w": 954192,
+   "exp2w": 1100827,
+   "dom3w": 227786,
+   "exp3w": 165887
+  },
+  "apAug25": {
+   "dom2w": 852732,
+   "exp2w": 734193,
+   "dom3w": 197617,
+   "exp3w": 110311
+  },
+  "sepMarGrowthPct": {
+   "dom2w": 4,
+   "exp2w": 22,
+   "dom3w": 8,
+   "exp3w": 22
+  },
+  "growthFy28Pct": {
+   "dom2w": 7,
+   "exp2w": 10,
+   "dom3w": 7,
+   "exp3w": 10
+  },
+  "growthFy29Pct": {
+   "dom2w": 6,
+   "exp2w": 8,
+   "dom3w": 6,
+   "exp3w": 8
+  },
+  "domRealGrowthPct": [
+   5,
+   3.5,
+   3
+  ],
+  "expUsdRealGrowthPct": [
+   1,
+   1.5,
+   1.5
+  ],
+  "rsPerExportUsd": [
+   97.2,
+   98.2,
+   99.2
+  ],
+  "otherOpRevCr": [
+   3150,
+   3400,
+   3500
+  ]
+ },
+ "standalone": {
+  "_why": "Below-EBITDA lines used to turn the standalone segment into standalone EPS for the P/E part of the SOTP (BAJAJ-AUTO.ctx.js). Depreciation Rs400 cr (FY25), Rs448 cr (FY26), Rs118 cr in Q1FY27; capacity to rise from 7 mn to 9 mn units (EVs, premium bikes, 3W). Interest Rs36 cr (FY26), Rs4 cr in Q1FY27. Other income = the model's treasury-income line (surplus funds at the yield below; FY26 standalone other income Rs1,532 cr, Q1FY27 Rs512 cr; brokers model Rs1,610-1,820 cr for FY27E after ~Rs9,825 cr paid out in July 2026). Tax 25.2% (Q1FY27 25.1%, FY26 24.8%).",
+  "dep": [
+   500,
+   560,
+   620
+  ],
+  "interest": [
+   20,
+   20,
+   20
+  ],
+  "taxRate": [
+   25.2,
+   25.2,
+   25.2
+  ],
+  "sharesCr": 27.4804,
+  "baclDep": [
+   12,
+   15,
+   18
+  ]
+ },
+ "capex": [
+  2100,
+  2200,
+  2200
+ ],
+ "_capexWhy": "Consolidated capex Rs879 cr (FY25), Rs694 cr (FY26; standalone ~Rs500 cr, split equally ICE and EV). FY27-29E: standalone ~Rs900-1,000 cr a year for the 7 mn -> 9 mn unit capacity expansion (EV 2W/3W, premium motorcycles, 3W) plus KTM ~EUR100 m a year (EUR73 m in restructuring-year 2025, EUR178-284 m in 2021-2024) plus BACL ~Rs20 cr.",
+ "depRateOnGrossBlock": 9.5,
+ "_depWhy": "Consolidated depreciation Rs645 cr in FY26 (KTM for six weeks) and Rs405 cr in Q1FY27 (Rs1,620 cr annualised: standalone Rs118 cr, BACL ~Rs3 cr, KTM and others ~Rs284 cr incl. amortisation of the Rs3,925 cr of KTM brand and technology intangibles recognised at acquisition). Gross block Rs15,919 cr at Mar-26 incl. KTM at fair value. 9.5% of average gross block gives ~Rs1,610 cr in FY27E.",
+ "operatingDebt": {
+  "base": 16068,
+  "_why": "BACL's borrowings in the consolidated balance sheet at Mar-26: secured INR term loans Rs13,133 cr, ECB Rs2,409 cr, NCDs Rs500 cr, accrued interest Rs26 cr (AR FY26 consolidated note 16; financing-segment liabilities Rs16,003 cr, note 44). They fund the loan book, so they are working capital of the lending business, not group debt; KTM's bank loans (~Rs6,230 cr incl. the EUR473 m drawn under the EUR550 m facility), leases and sales-tax deferral stay as debt."
+ },
+ "treasuryYield": [
+  8.1,
+  8.1,
+  8.1
+ ],
+ "_treasuryWhy": "Applied to consolidated cash and investments less non-BACL borrowings: Rs21,069 cr at Mar-26 (cash Rs3,072 cr + investments Rs24,642 cr - borrowings Rs22,713 cr incl. leases + BACL borrowings Rs16,068 cr). 8.1% x Rs21,069 cr = Rs1,707 cr in FY27E, in line with standalone other income of Rs1,532 cr in FY26 and Rs512 cr in Q1FY27 and brokers' Rs1,610-1,820 cr for FY27E. The yield looks high because the base is net of KTM's debt, whose interest is charged separately below (engine workaround, as for ASIANPAINT).",
+ "otherIncome": [
+  400,
+  350,
+  350
+ ],
+ "_otherIncomeWhy": "Non-treasury other income of the subsidiaries: consolidated other income exceeded standalone by Rs176 cr in Q1FY27 (KTM, Brazil, BAIH BV interest after KTM repaid its loans in Feb-2026). FY26 reported other income was Rs2,182 cr plus Rs561 cr share of KTM as an associate (incl. Rs1,599 cr one-off remeasurement and currency-reserve gains) less Rs39 cr exceptional items; BAIH BV's interest on its loans to KTM stopped when KTM refinanced in Feb-2026. Consolidated FY27E other income ~Rs2,100 cr vs Rs2,146 cr in FY26 before the associate and exceptional items.",
+ "interest": [
+  330,
+  300,
+  270
+ ],
+ "_interestLabel": "Interest cost (KTM bank debt, leases; BACL's funding cost is in EBITDA)",
+ "_interestWhy": "Consolidated finance cost Rs1,169 cr in FY26, of which BACL Rs908 cr (moved into BACL's EBITDA) and Rs261 cr other; Q1FY27 Rs387 cr of which BACL ~Rs305 cr, leaving Rs82 cr (~Rs330 cr a year): KTM's EUR473 m drawn at EURIBOR+1.40% after the Feb-2026 refinancing, other KTM loans, leases. Falls as KTM repays from Jun-2027.",
+ "taxRate": [
+  26.5,
+  26,
+  25.5
+ ],
+ "_taxWhy": "Tax plus minorities (engine workaround: no minority line). Q1FY27: PBT Rs4,423 cr, attributable profit Rs3,226 cr -> 27.1% (tax 27.9% less a Rs37 cr minority share of KTM's loss). Standalone and BACL pay ~25.2%; KTM's losses carry little tax credit, and as KTM turns profitable the minorities take 25% of its profit. 26.5% / 26.0% / 25.5%.",
+ "payout": [
+  75,
+  65,
+  65
+ ],
+ "_payoutWhy": "Cash returned to shareholders, incl. buybacks, as % of the year's profit (engine workaround: the engine pays out of the same year's profit). FY27: Rs9,825 cr paid in July 2026 = 100% of FY26 standalone profit (final dividend Rs150 a share, Rs4,192 cr, plus a Rs5,633 cr tender buyback at Rs12,000), ~75% of our FY27E profit. FY28-29E 65%: Bajaj paid 70-90% of standalone profit in FY21-23 and 66-72% in FY25 (MOSL models 64-66%).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 19,
+  "fadeCapexPctTo": 2,
+  "depPctOfSales": 1.8,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Two- and three-wheelers are cyclical and half the business is exported to emerging markets with volatile currencies; net cash and a strong balance sheet offset: beta 0.9, cost of equity 11.9%.",
+  "_tgWhy": "India's nominal GDP grows ~10%; two-wheeler demand is maturing in India (motorcycles grew ~4% a year over FY19-26) while exports and EVs add growth. 5.5%, the middle of the house range.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% to 8% over 15 years: ~4-5% volume plus ~3-4% price and mix.",
+  "_fadeMarginWhy": "Consolidated EBITDA margin ~19.5% in FY29E (standalone 20.7%, BACL after funding cost, KTM ~11%) faded to 19%: competition in EVs and the end of PLI and currency tailwinds.",
+  "_fadeCapexWhy": "Capex falls from ~1.9% to 2% of revenue (maintenance plus regular capacity)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Exports run at 250k+ a month and Nigeria and LatAm keep growing; the Pulsar refresh and two new 125cc brands win back domestic share; Chetak capacity unlocks and EVs stay at double-digit margins; standalone margin ~21.5%; KTM's turnaround reaches low-teens margins by FY29.",
+   "fadeMarginTo": 20,
+   "segments": {
+    "sa": {
+     "growthDelta": 3,
+     "marginDelta": 0.8
+    },
+    "bacl": {
+     "growthDelta": 5
+    },
+    "ktm": {
+     "growthDelta": 4,
+     "marginDelta": 2
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "An export market hits a currency crisis again (as Nigeria did in 2023-24), the rupee strengthens and commodity inflation persists; domestic share keeps slipping in the 100-125cc segments; standalone margin falls to ~19%; BACL's credit costs rise; KTM stalls near break-even.",
+   "fadeMarginTo": 17.5,
+   "segments": {
+    "sa": {
+     "growthDelta": -5,
+     "marginDelta": -1.5
+    },
+    "bacl": {
+     "growthDelta": -10,
+     "marginDelta": -3
+    },
+    "ktm": {
+     "growthDelta": -6,
+     "marginDelta": -4
+    }
+   }
+  }
+ },
+ "sotp": {
+  "_why": "Inputs for the SOTP in BAJAJ-AUTO.ctx.js. Core: standalone EPS (post-buyback count) x the derived P/E (own forward median on standalone EPS x the auto-sector de-rating), Sep-28E. BACL: peers' median P/B at 30-Sep-2026 (CHOLAFIN, SHRIRAMFIN, M&MFIN) on BACL's book at Sep-27E (the target date). KTM: 74.94% of Bajaj Mobility AG's market value on 30-Sep-2026 (EUR31.75, Vienna close; 33.797 mn shares; EUR/INR 109.19, FBIL 24-Sep-2026) less a holding discount (Anand Rathi uses 20%).",
+  "baclPeers": [
+   "CHOLAFIN",
+   "SHRIRAMFIN",
+   "M&MFIN"
+  ],
+  "baclBookMar26": 3379.16,
+  "ktm": {
+   "stakePct": 74.94,
+   "sharesM": 33.797,
+   "priceEur": 31.75,
+   "eurInr": 109.19,
+   "discountPct": {
+    "base": 20,
+    "bull": 10,
+    "bear": 30
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "SOTP (P/E-led)",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 17.722,
+      "bull": 20.2352,
+      "bear": 15.6476
+     },
+     "why": "P/E-led sum of the parts carried as a multiple of consolidated Sep-28E EPS (set by BAJAJ-AUTO.sotp.js): standalone Sep-28E EPS x 18x (bull 21x, bear 15x) + BACL at P/B on Sep-27E book + 74.94% of Bajaj Mobility at market less a holding discount, per post-buyback share. See the valuation chapter."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 13,
+      "bull": 15,
+      "bear": 10.5
+     },
+     "why": "Own trailing EV/EBITDA median since Apr-2021 x the auto-sector de-rating, restated from trailing to Sep-28E EBITDA (base 13x, bull 15x, bear 10.5x); applied to consolidated EBITDA plus net cash excluding BACL's operating borrowings."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests cash-flow support: 15-year FCFF on consolidated cash flows (BACL inside on an after-funding-cost basis), cost of equity 11.9%, terminal growth 5.5%, plus net cash excluding BACL's operating borrowings."
+    }
+   ]
+  }
+ }
+}

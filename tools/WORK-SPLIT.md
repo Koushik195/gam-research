@@ -20,7 +20,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 | Symbol | Team | Status |
 |---|---|---|
 | M&M | A | claimed (batch 11) |
-| BAJAJ-AUTO | A | claimed (batch 11) |
+| BAJAJ-AUTO | A | published (SELL, ₹10,030) |
 | HEROMOTOCO | A | claimed (batch 11) |
 | TVSMOTOR | A | claimed (batch 11) |
 
@@ -141,7 +141,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 ### Automobile and Auto Components (31)
 
-- B22 · queued · MOTHERSON, HYUNDAI, BOSCHLTD, TMPV, BHARATFORG
+- B22 · claimed (B, 23-Nov-2026) · MOTHERSON, HYUNDAI, BOSCHLTD, TMPV, BHARATFORG
 - B23 · queued · UNOMINDA, SCHAEFFLER, ATHERENERG, MRF, SONACOMS
 - B24 · queued · BALKRISIND, TIINDIA, ENDURANCE, EXIDEIND, CRAFTSMAN
 - B25 · queued · APOLLOTYRE, ZFCVINDIA, GABRIEL, MSUMI, ASAHIINDIA
