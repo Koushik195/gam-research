@@ -1,0 +1,103 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Lupin (consolidated, Rs crore; profit attributable to owners, see tools/authoring/LUPIN.patch.js). Lupin reports one operating segment and sales by market, so the engine runs on one revenue-growth path and one EBITDA-margin path; the market build (US in US dollars x an assumed rupee rate) sits in `businessLines` and LUPIN.ctx.js checks that it sums to model revenue. Screener 'Sales' = revenue from operations incl. other operating income (export/PLI incentives); EBITDA excludes forex and other income (company definition; Screener's annual operating profit is on the same basis). Other income = treasury yield x opening net cash + the same yield on gross debt (gross cash = net cash + gross debt) + recurring misc income, less the yield on the VISUfarma payment in FY27. Valued on P/E, as the street does.",
+ "years": ["FY27E", "FY28E", "FY29E"],
+ "revenueGrowth": [7.73, 9.06, 6.43],
+ "_revenueWhy": "Built by market (businessLines; the script checks the sum). FY27E +7.7%: guidance is high-single-digit growth in product sales (rupee terms). US USD1,170mn (guided USD1.1-1.2bn: Q1 USD366mn, then USD250-280mn a quarter as Apotex and Teva enter Tolvaptan and Mirabegron pressure runs a full quarter; upper half of the range given Q1 and Lupin's record of beating guidance) at Rs95.0/US$ (Q1 implied Rs93.9; Rs95.8 on 30-Sep). India +13% (Q1 +13.9%, Rx +15.1% vs IPM +13.5%; guided 1.2-1.3x IPM; FY26 base depressed by tender sales and in-licensed product LOEs). Other developed markets +39% (VISUfarma consolidated from Apr-2026, EUR53mn revenue in 2025; Q1 +48%). Emerging markets +16% (Q1 +52% but a higher base from Q2FY26). API +6%. Other operating income Rs260 cr (PLI lower: Rs60 cr in Q1). FY28E +9.1%: US USD1,200mn (+3%: apixaban oral suspension launch around summer 2027 with 10-12 months before generics, full year of pegfilgrastim, ivacaftor exclusivity, nasal sprays, offset by further Tolvaptan erosion and broad Mirabegron entry from Sep-2027) at Rs97; India +12%, Europe-led ODM +13% (guided 10-20%), EM +11%. FY29E +6.4%: US USD1,150mn (apixaban generics enter, Mirabegron and Tolvaptan tails; Dulera, Respimat and biosimilars only start) at Rs99; India +12%, ODM +12%, EM +10%.",
+ "businessLines": {
+  "_why": "Product sales by market, FY26 (Q4FY26 press release): US Rs11,678.3 cr (USD1,318mn: Rs88.6/US$), India Rs8,114.0 cr, other developed markets Rs3,243.9 cr, emerging markets Rs3,482.8 cr, API Rs968.5 cr; other operating income Rs470.5 cr. Total Rs27,958.0 cr = Screener revenue. US in dollars x rupee rate (2% a year weaker from Rs95.0 in FY27E).",
+  "base": { "us": 11678.3, "india": 8114.0, "odm": 3243.9, "em": 3482.8, "api": 968.5, "otherOp": 470.5 },
+  "usdMn": [1170, 1200, 1150],
+  "fx": [95.0, 97.0, 99.0],
+  "growth": { "india": [13, 12, 12], "odm": [39, 13, 12], "em": [16, 11, 10], "api": [6, 5, 5] },
+  "otherOp": [260, 280, 300]
+ },
+ "ebitdaMargin": [25.3, 23.8, 23.0],
+ "_marginWhy": "EBITDA excl. forex and other income on revenue from operations (Screener basis): 23.2% FY25, 29.2% FY26 (company basis on product sales: 23.8% and 29.7%); Q1FY27 30.0% (company). Guidance: ~25% for FY27 (CFO: 'in the range of 24% to 25%' with gross margin moderating as Tolvaptan prices fall and raw material costs rise). FY27E 25.3% (= 25.5% on product sales): Q2-Q4 at ~23.8% after Q1's 30%. FY28E 23.8%: a full year without Tolvaptan pricing and with Mirabegron opened up from Sep-2027, partly offset by apixaban (limited competition), India and Europe operating leverage and adjacencies (100-150bp drag) moving to breakeven; R&D ~8% of sales. FY29E 23.0%: apixaban fades; street FY28E 22.9-26.1% (Emkay 22.9%, PL 23.4%, MOSL 23.6%, BOB 26.1%); Citi sees ~20% by FY29. Each 1pp of margin is ~Rs330 cr of EBITDA (~5% of FY28E EPS).",
+ "capex": [3670, 1300, 1400],
+ "_capexWhy": "FY27E includes the VISUfarma acquisition (enterprise value EUR190mn, ~Rs1,970 cr, cash-funded, closed 2-Apr-2026) so that net cash at Mar-27 is right; organic capex Rs1,700 cr (Q1 Rs279 cr; FY26 Rs1,062 cr). ICRA (8-Jul-2026): capex Rs3,500-4,000 cr in FY27 including VISUfarma and Rs1,000-1,500 cr in FY28. FY28E Rs1,300 cr, FY29E Rs1,400 cr (~4% of sales). In-licensing and further acquisitions are not modelled.",
+ "depRateOnGrossBlock": 6.5,
+ "_depWhy": "FY26 depreciation, amortisation and impairment Rs1,375.5 cr; Q1FY27 Rs452.9 cr (Rs1,812 cr annualised), of which ~Rs107 cr is amortisation of the USD75mn Mirabegron prepaid option (Feb-2026 to Sep-2027, ~USD3.8mn a month). Bottom-up: base D&A Rs346 cr a quarter (incl. VISUfarma intangibles) plus ~7% on new capex = Rs1,443 / 1,548 / 1,643 cr for FY27-29E, plus the licence Rs434 / 222 / 0 cr = Rs1,877 / 1,770 / 1,643 cr (Rs5,290 cr in three years). The engine uses one rate on gross block (Screener Rs23,217 cr at Mar-26, plus capex incl. VISUfarma); 6.5% matches the three-year total (FY27E Rs1,628 cr, ~Rs250 cr below the bottom-up; FY28-29E Rs20-235 cr above it), so Sep-28E EPS carries a ~2% conservative bias. At 7.2% (FY27E = the Q1 run-rate; D&A rising like Emkay's Rs1,953 / 2,124 cr for FY28-29E) Sep-28E EPS would be ~3% lower: see the valuation sensitivity.",
+ "otherTreasury": {
+  "base": 1271.5,
+  "_why": "Screener counts cash and bank balances Rs5,653 cr and investments Rs3,670 cr (of which Rs92.5 cr are non-current strategic and equity-method investments) against borrowings incl. leases of Rs6,616 cr, and misses Rs1,364 cr of earmarked bank deposits held in other non-current financial assets (AR FY26 note 10; they back a US term loan). Adjustment +1,364.0 - 92.5 = +Rs1,271.5 cr, so the model's opening net cash is Rs3,978 cr: company-basis gross cash Rs10,594 cr less all borrowings incl. Rs706 cr of leases. The company's own net cash (Rs4,636 cr) excludes leases (and differs by a further ~Rs48 cr we cannot reconcile). The VISUfarma payment is in FY27E capex."
+ },
+ "treasuryYield": [5.5, 5.5, 5.5],
+ "_treasuryWhy": "FY26 treasury income Rs371.2 cr (deposit interest Rs156.7 cr + CP/debenture interest Rs60.2 cr + mutual-fund gains Rs97.0 cr realised and Rs57.3 cr unrealised, AR FY26 note 31) on average gross cash of ~Rs8,000 cr (Rs5,412 cr at Mar-25, Rs10,594 cr at Mar-26) = 4.6%; Q4FY26 and Q1FY27 run at ~5.6-5.9% annualised as cash built up. 5.5% on gross cash. The engine applies the yield to opening net cash; the gross-debt part sits in otherIncome below.",
+ "otherIncome": [275.5, 368.5, 353.1],
+ "_otherIncomeWhy": "Non-net-cash parts of other income: (a) 5.5% x opening gross debt incl. leases (Rs6,616 / 6,336 / 6,056 cr: ICRA expects repayments of Rs270-290 cr a year; we use Rs280 cr), because the company earns on gross cash = net cash + gross debt; (b) recurring miscellaneous income Rs20 cr (FY26 Rs18.8 cr); less (c) in FY27E, 5.5% on the Rs1,970 cr VISUfarma payment made on 2-Apr-2026, which the engine's opening net cash still includes. FY27E total other income Rs494 cr vs Rs424.5 cr in FY26 (Rs390 cr recurring after Rs34.5 cr of one-offs: business-divestment gain, asset-sale gains, fair-value gain on a non-current investment) and Rs475.7 cr in the twelve months to Jun-26. Forex gains (Rs656.5 cr in FY26; a Rs13.9 cr loss in Q1FY27) are not forecast.",
+ "interest": [440, 421, 402],
+ "_interestLabel": "Finance cost (loans, leases, other)",
+ "_interestWhy": "FY26 Rs434.5 cr on average borrowings incl. leases of ~Rs6,030 cr (7.2%); Q1FY27 Rs109.6 cr (Rs438 cr annualised). 6.8% on average gross debt falling Rs280 cr a year (USD term loans at SOFR + 1.0-1.2%, packing credit, leases, other charges).",
+ "taxRate": [27.5, 27, 27],
+ "_taxWhy": "ETR 22.1% in FY26 and 29.8% in Q1FY27; guided 27-28% for FY27 (Q1 call; 25-26% in May) as incentives on some Indian plants phase out. 27.5% / 27% / 27% (Emkay 27%).",
+ "payout": [16, 16, 16],
+ "_payoutWhy": "FY26 dividend Rs18 a share (900% on Rs2; ~Rs823 cr) = 15.4% of EPS; management keeps cash for specialty acquisitions and R&D.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 22,
+  "fadeCapexPctTo": 4.5,
+  "depPctOfSales": 4.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash and a large Indian branded business, but ~40% of sales and most of the profit swings in the US with exclusivities, approvals, inspections and antitrust litigation; two loss years since FY20. Ke 11.9% (Cipla 11.3% at beta 0.8).",
+  "_tgWhy": "5.5%: India ~10-12% nominal, US generics flat to low single digit in dollars, Europe and EM high single digit; a rupee blend near 5.5%.",
+  "_fadeGrowthWhy": "Revenue growth moves from ~6% to 7% as India, Europe and EM outgrow a flattish US.",
+  "_fadeMarginWhy": "22%: between FY25 (23.2%) and Citi's ~20%; no new windfall assumed, but complex launches keep the US above its FY23 trough.",
+  "_fadeCapexWhy": "Capex 4.5% of revenue (FY26 3.9% organic; FY27 ~5.6% organic incl. growth projects); depreciation 4.5% of revenue (FY26 4.9% incl. impairment and the Mirabegron licence)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Management's view plays out: apixaban oral suspension becomes a Tolvaptan-sized product, ivacaftor and nasal-spray exclusivities land, biosimilars reach a couple of hundred million dollars across the US and Europe, and the US is back above USD300mn a quarter in FY28 (BOB).",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 2,
+   "fadeMarginTo": 24
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Citi's case: the US base keeps losing share and price, falling towards USD975mn by FY29; apixaban is short-lived; a Spiriva generic arrives; margin heads to ~20%.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -2.5,
+   "fadeMarginTo": 20
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": ["FY28E", "FY29E", 0.5],
+     "multiple": { "base": 19, "bull": 22.5, "bear": 17 },
+     "why": "How the street values Lupin: every note that discloses a method uses P/E (Motilal Oswal 22x 12-month-forward, Prabhudas Lilladher 25x FY28E, BOB Capital Markets 26x Jun-28E). 19x = Lupin's 17.6x median one-year-forward P/E since Apr-2021 on EPS before exceptional items (FY26 net exceptional charge Rs557.9 cr; batch practice A18), leaving out the trough year FY23 (forward EPS Rs9.45, below half of FY21's Rs26.81: dates Apr-2021 to Mar-2022, when the P/E ran at 80-125x), times the pharma sector factor of 1.082 (median of the nine-peer set's trailing P/E at the 30-Sep close vs their five-year medians: +8.2%, PLAYBOOK §7c; Lupin is outside the set) = 19.1x, rounded to the nearest half-turn. The windfalls (gSpiriva, Mirabegron, Tolvaptan) stay in the base (§7c). No growth or returns adjustment. Bull 22.5x and bear 17x: the 75th (20.8x) and 25th (15.9x) percentiles of the same series times the same factor."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E (forward EBITDA)",
+     "roll": ["FY28E", "FY29E", 0.5],
+     "multiple": { "base": 13, "bull": 15, "bear": 10 },
+     "why": "Own one-year-forward EV/EBITDA since Apr-2021 (EV = price x shares + Screener net debt at the latest March; EBITDA = next full year, ours for FY27-28E): median 11.9x (no trough years by the half-of-peak rule), times the EV/EBITDA analogue of the sector factor for the same nine peers (+7.46%) = 12.8x, rounded to 13x; bull/bear from the 75th/25th percentiles (14.1x / 9.4x). The engine adds net cash at Sep-28 (half Mar-28 + half Mar-29), a year beyond the target date: ~Rs90 a share generous."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at an 11.9% cost of equity, terminal growth 5.5%, margin fading to 22%, plus net cash."
+    }
+   ]
+  }
+ }
+}
