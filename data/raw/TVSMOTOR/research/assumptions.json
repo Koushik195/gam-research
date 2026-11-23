@@ -1,0 +1,213 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for TVS Motor Company, STANDALONE auto business (INR crore). Base year FY26A from Screener standalone. TVS Credit Services (85.6% after the Jul-2026 purchase) and the other subsidiaries (Norton, TVS EBike, DriveX, PT TVS Indonesia, DMCC, Ultraviolette) are valued separately in the sum of the parts (tools/authoring/TVSMOTOR.ctx.js); TVSMOTOR.sotp.js carries the SOTP into the engine as an implied multiple of standalone Sep-28E EPS.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "volume": {
+  "base": 5889008,
+  "growth": [
+   18.46,
+   9.61,
+   8.15
+  ],
+  "_why": "Sum of the segment build in businessLines (2W + 3W, domestic + exports). FY27E: Q1 1.63mn (+28%) and Jul-Aug 1.25mn (+29%) already reported; H2 assumed +8% on the GST-boosted H2FY26 base (3.10mn). FY28-29E: domestic ICE +6%/+5%, EV +25%/+20%, exports +12%/+10%, 3W +15%/+12%, within the 8.3mn 2W / 0.42mn 3W capacity due by Q4FY27."
+ },
+ "revPerUnitGrowth": [
+  6.48,
+  3.13,
+  2.3
+ ],
+ "_revPerUnitWhy": "From the segment build: FY27E price hikes (~1.5% in Q1, ~0.5% in Q2), EV mix (9% of units vs 6%) and a firmer export realisation (Q1FY27 ₹77.6k vs FY26 ₹71.2k); Q1FY27 revenue per vehicle was already ₹85.2k (+8% YoY). FY28E ~3% (price ~2% + premium/EV mix). FY29E lower (+2.3%) because the auto PLI scheme ends on 31-Mar-2028 (≈0.6% of revenue).",
+ "businessLines": {
+  "_why": "Volume x realisation build (units '000; realisation ₹ per vehicle). FY26 realisations: exports = international business revenue ₹11,280 cr (Q1-Q4FY26 calls: 2,487 + 2,885 + 2,909 + 2,999) ÷ 1,584.8k units; EV = ~₹5,000 cr (Q4FY26 call) ÷ 371.4k; domestic ICE 2W + domestic 3W = residual after government incentives (₹973.6 cr, AR FY26 note 21), incl. domestic spares. Checked against model revenue in TVSMOTOR.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "domIce": 3872.1,
+   "ev": 371.4,
+   "exp2w": 1426.4,
+   "w3": 219.1,
+   "exp3wShare": 0.72,
+   "realDomIce": 76323,
+   "realEv": 134626,
+   "realExp": 71176,
+   "incentivePct": 2.06
+  },
+  "growth": {
+   "domIce": [
+    11.1,
+    6,
+    5
+   ],
+   "ev": [
+    71.8,
+    25,
+    20
+   ],
+   "exp2w": [
+    22.7,
+    12,
+    10
+   ],
+   "w3": [
+    30.4,
+    15,
+    12
+   ]
+  },
+  "realGrowth": {
+   "domIce": [
+    5,
+    3,
+    3
+   ],
+   "ev": [
+    -2,
+    -1,
+    -1
+   ],
+   "exp": [
+    7,
+    3,
+    3
+   ]
+  },
+  "exp3wShare": [
+   0.72,
+   0.72,
+   0.72
+  ],
+  "incentivePct": [
+   2,
+   2,
+   1.4
+  ],
+  "_segWhy": "Domestic ICE 2W: Q1FY27 +20%, Jul-Aug +19%; H2 +5% on the post-GST base → +11%; then industry ~5-6% plus share gains, less EV cannibalisation. EV: Q1 130k (+86%), Jul-Aug 120k; capacity moving to 50k+/month → ~638k (+72%), then +25%/+20% as penetration (10.5% in Aug-2026) rises. Exports 2W: Q1 +32%, Jul-Aug +28%; H2 +15% → +23%. 3W: capacity 0.25 → 0.42mn; Q1 +48%. Realisation: domestic +5% (price + premium mix), EV −2% (Orbiter V1, battery-as-a-service lowers ticket size), exports +7% (Q1 run-rate, rupee)."
+ },
+ "ebitdaMargin": [
+  12.9,
+  13.2,
+  12.9
+ ],
+ "_marginWhy": "FY27E 12.9%: Q1 12.8% absorbed ~3.5% commodity inflation (West Asia conflict) with ~1.5% price and cost cuts; a further ~0.5% commodity hit and ~0.5% price in Q2; operating leverage and better EV contribution. FY28E 13.2%: scale on the 8.3mn capacity, EV contribution rising. FY29E 12.9%: the auto PLI (≈0.6-0.7% of revenue, 0.9% in Q4FY26) ends after FY28 under the Mar-2028 scheme end; we do not assume a renewal.",
+ "capex": [
+  3500,
+  3000,
+  3000
+ ],
+ "_capexWhy": "FY27 guided ~₹3,500 cr (Q4FY26 call: ~₹2,000 cr products/R&D + ₹1,000 cr+ for 1.5mn extra capacity); we hold ~₹3,000 cr thereafter (R&D ₹1,254 cr in FY26 and rising). Excludes ₹1,700-1,900 cr a year of investments in subsidiaries (valued in the SOTP).",
+ "depRateOnGrossBlock": 8.2,
+ "_depWhy": "FY26 depreciation ₹901 cr on average gross block ₹10,769 cr = 8.4%; 8.2% because the engine depreciates capex at once (CWIP held flat). Gives FY27E ~₹1,100 cr vs Q1FY27 run-rate ₹1,060 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Standalone 'treasury' (cash + investments − borrowings) is mostly ₹11,349 cr of investments in subsidiaries at cost (TVS Motor Singapore ₹7,172 cr, TVS Credit ₹2,515 cr, DMCC ₹511 cr, PT TVS ₹477 cr, DriveX ₹314 cr...) that earn no income in the standalone P&L, less ₹3,733 cr of borrowings incl. ₹1,899 cr NCRPS. So no yield is applied; other income is built line by line below.",
+ "otherIncome": [
+  195,
+  58,
+  60
+ ],
+ "_otherIncomeWhy": "Built from AR FY26 note 22 (standalone other income −₹30.0 cr): interest ₹34.6 cr + profit on sale of PPE ₹14.9 cr + sale of investments ₹2.1 cr + other non-operating ₹6.2 cr = ₹57.9 cr recurring, less fair-value losses ₹87.8 cr. FY27E = Q1's booked fair-value gain ₹150 cr + ~₹45 cr recurring for the rest of the year; FY28-29E recurring only (fair-value changes not forecast). TTM to Jun-26 (Screener) ₹45 cr: the swing is fair-value marks.",
+ "interest": [
+  260,
+  220,
+  200
+ ],
+ "_interestWhy": "FY26 ₹204 cr incl. ~₹66 cr of the 6% NCRPS coupon (allotted 1-Sep-2025). Q1FY27 ₹76 cr (NCRPS ~₹28 cr). NCRPS redeemed 1-Sep-2026 (₹1,900 cr), so ~₹47 cr of coupon in FY27E; other borrowings rise to fund capex and subsidiaries (₹500 cr NCD mentioned on the Q1 call).",
+ "taxRate": [
+  26,
+  26,
+  26
+ ],
+ "payout": [
+  16,
+  16,
+  16
+ ],
+ "_payoutWhy": "FY26 interim dividend ₹12/share (₹570 cr, 16% of PAT); the ₹1,900 cr NCRPS bonus (₹40/share, redeemed Sep-2026) was a one-off capital return.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.95,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 13.5,
+  "fadeCapexPctTo": 4,
+  "depPctOfSales": 2.2,
+  "rollForwardMonths": 6,
+  "_why": "Cost of equity 6.5% + 0.95 x 6% = 12.2%; standalone net debt is small, so WACC = Ke. 15 years: revenue growth fades from FY29E's ~11% to 9% (volume ~5% + price/mix ~4%), EBITDA margin to 13.5%, capex to 4% of revenue; terminal growth 6%. Net cash in the engine includes subsidiaries at cost (₹239/share), so the DCF compares with the whole SOTP."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "volumeGrowthDelta": 3,
+   "marginDelta": 0.6,
+   "revPerUnitDelta": 0.5,
+   "fadeMarginTo": 14.5,
+   "narrative": "Domestic share keeps rising (TVS was India's #1 2W seller by total volume in Jun-Aug 2026), EV penetration passes 15% with TVS holding ~27%, exports grow 20%+ a year, PLI is renewed; TVS Credit is separated at the July-2026 deal multiple and Norton finds buyers."
+  },
+  "bear": {
+   "label": "Bear",
+   "volumeGrowthDelta": -4,
+   "marginDelta": -1,
+   "revPerUnitDelta": -1,
+   "fadeMarginTo": 12.5,
+   "narrative": "The GST-led demand fades from Q3FY27 on a high base and El Niño, commodity costs stay high, EV competition (Bajaj, Ather, Hero Vida) caps share and price, PLI ends; Norton and TVS EBike keep losing ~₹1,300 cr a year beyond FY29."
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "SOTP (standalone P/E + TVS Credit P/B + other subsidiaries)",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 28.05,
+      "bull": 34.55,
+      "bear": 21.63
+     },
+     "why": "How the street values TVS Motor: standalone P/E plus TVS Credit on P/B (PL 35x FY28E + ₹93; BOBCAPS 33x Jun-28E + ₹133; Nirmal Bang 34x Jun-28E + 1.5x book; Choice 34x FY28E + ₹101; Axis core P/E + 1.5x book + other investments; Emkay 35x Jun-28E + 2x book; Jul-Aug 2026). The engine cannot add parts to a P/E, so this multiple is the SOTP value per share divided by standalone Sep-28E EPS, written by TVSMOTOR.sotp.js. The parts and the derivation of each multiple are in the valuation chapter."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 17.8,
+      "bull": 22,
+      "bear": 14
+     },
+     "why": "Counts net cash (incl. subsidiaries at cost) at face value. 17.8x Sep-28E EBITDA = TVS Motor's median trailing EV/EBITDA since Apr-2021 less the same sector de-rating, restated for Sep-28E EBITDA being above the twelve months to Jun-26; bull/bear scale with the P/E multiples. Derived in TVSMOTOR.ctx.js."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests cash-flow support: 15-year FCFF of the standalone business, Ke 12.2%, terminal growth 6%, plus net cash (which includes subsidiaries at cost)."
+    }
+   ]
+  }
+ }
+}

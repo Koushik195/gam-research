@@ -1,0 +1,58 @@
+// Hero MotoCorp report, part 4b: glossary and statement notes (explain every big change in the statements).
+const glossary = {
+  id: 'glossary', nav: 'Glossary', kicker: 'Appendix', title: 'Glossary',
+  blocks: [
+    { exhibit: { type: 'table', title: 'Terms used in this report', head: ['Term', 'What it means'], wide: [1], rows: [
+      ['Entry / deluxe / 125cc / premium', 'SIAM motorcycle classes: entry (economy) = basic 100cc bikes such as HF Deluxe; deluxe (executive) = 100-110cc such as Splendor and Passion; 125cc = Glamour, Xtreme 125R; premium = above 125cc.'],
+      ['Commuter motorcycles', 'Entry, deluxe and 125cc bikes together: cheap, fuel-efficient bikes for daily travel.'],
+      ['ICE / EV', 'Internal-combustion (petrol) engine vehicles / battery-electric vehicles. VIDA is Hero\'s EV brand.'],
+      ['Dispatches (wholesale) vs retail (VAHAN)', 'Dispatches are vehicles shipped from factories to dealers (SIAM data); retail is vehicles registered by buyers, from the government VAHAN database.'],
+      ['Realisation / revenue per vehicle', 'Net revenue per unit, after GST and dealer margin. Rises with price increases and a richer mix.'],
+      ['GST cut (Sep-2025)', 'Goods and Services Tax on two-wheelers up to 350cc cut from 28% to 18% from 22-Sep-2025; above 350cc moved to 40%.'],
+      ['PLI', 'Production Linked Incentive: a government subsidy on qualifying locally made EVs, booked as income (~13% of EV revenue for Hero once the whole range qualifies).'],
+      ['PAM', 'Parts, accessories and merchandise.'],
+      ['LEAP', 'Hero\'s cost-saving programme.'],
+      ['Associate / equity accounting', 'A company in which Hero has significant influence but not control (Hero FinCorp, Ather, Euler). Hero carries it at cost plus its share of profits, and books its share of profit or loss in one P&L line.'],
+      ['Dilution gain', 'An accounting gain when an associate issues new shares at a price above Hero\'s carrying value, even though Hero sells nothing (₹722 cr in Q1FY26 on Ather\'s IPO and a private placement).'],
+      ['Holding (holdco) discount', 'A discount to the market value of a stake held by another company, reflecting lack of control, tax on a sale and the fact that the parent may never sell.'],
+      ['Warrants', 'Rights to buy new shares later at a fixed price; Hero paid 25% upfront for 76.19 lakh Ather warrants at ₹1,260 and pays the rest on conversion within 18 months.'],
+      ['Core EPS', 'Here: consolidated earnings per share before the share of associates and one-off items.'],
+      ['Composite multiple', 'The P/E used in our model: core multiple plus the stakes per share divided by Sep-28E EPS (an engine workaround; see Valuation).'],
+      ['Sep-28E', 'Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027.'],
+      ['P/E, EV/EBITDA', 'Share price ÷ earnings per share; enterprise value (market value less net cash) ÷ EBITDA.'],
+      ['DCF / WACC', 'Discounted cash flow valuation; WACC is the required annual return used to discount future cash (here the cost of equity, as Hero has net cash).'],
+      ['LPA', 'Long-period average of monsoon rainfall (~87 cm for June-September).'],
+    ], source: 'GAM Research' } },
+  ],
+};
+
+const statementNotes = {
+  'sales@FY20': '−14%: slowdown before the BS6 emission switch (Apr-2020) and Covid in March.',
+  'sales@FY22': '−5%: Covid second wave, rural stress and BS6-led price increases hit commuter demand.',
+  'ebitdaMargin@FY22': 'Down to 11.0%: steel, aluminium and other input costs spiked faster than prices.',
+  'sales@FY23': '+16%: volume recovery (+8%) plus price increases.',
+  'ebitdaMargin@FY24': 'Up to 13.9%: input deflation, price increases and better mix.',
+  'pat@FY24': '+34%: margin recovery; includes ₹160 cr VRS charge and −₹120 cr share of associates (mainly Ather losses).',
+  'pat@FY25': '+17%; share of associates −₹161 cr.',
+  'sales@FY26': '+16%: volume +9.6% to 64.69 lakh after the GST cut (22-Sep-2025); scooters +46%, exports +39%.',
+  'ebitdaMargin@FY26': '14.9%: ICE margin 17.0% (pricing, LEAP savings, operating leverage) less ~2.3 pts of VIDA losses.',
+  'otherIncome@FY26': 'Screener basis: other income ₹1,058 cr + share of associates ₹385 cr (incl. ₹722 cr dilution gain) − ₹119 cr labour-code exceptional.',
+  'pat@FY26': '+32% reported; +~25% before associates and one-offs (EPS ~₹283 vs ₹287 reported).',
+  'cfo@FY26': '+94% to ₹8,315 cr: payables +₹1,977 cr and receivables −₹1,027 cr (working-capital inflow ₹2,375 cr).',
+  'cfo@FY19': 'Down 74%: receivables rose by ₹1,318 cr.',
+  'sales@Q2FY26': '+17%: GST cut from 22-Sep-2025 and festive restocking; volumes +11%.',
+  'sales@Q4FY26': '+30%: record quarter; volumes +24% on the post-GST surge.',
+  'pat@Q1FY26': '+65%: includes ~₹722 cr one-time gain on dilution of associates (Ather IPO, private placement).',
+  'otherIncome@Q1FY26': 'Screener includes the share of associates (+₹629 cr, mostly the dilution gain).',
+  'sales@Q1FY27': '+35%: volume +23%, mix +8% (scooters, VIDA, premium, exports, parts), ~4.5% price increases.',
+  'opm@Q1FY27': '13%: gross margin −300 bp QoQ on ~4.5% commodity inflation (West Asia); other expenses −14% QoQ.',
+  'pat@Q1FY27': '−17% vs a base with the ₹722 cr gain; standalone +29%. Associates −₹44 cr.',
+  'otherIncome@Q1FY27': '₹460 cr (+48%): higher treasury income; breakdown not disclosed.',
+  'sales@FY27E': 'GAM: volume +8.6% (H1 strong, Sep-Mar ~+3.5% on the post-GST base and a weak monsoon), revenue per vehicle +7.4% (price ~5%, mix, parts +20%).',
+  'ebitdaMargin@FY27E': 'GAM: Q1\'s 13.3% improves modestly as price increases and cost cuts offset commodities; VIDA losses ~₹900 cr.',
+  'otherIncome@FY27E': 'GAM: 8.5% yield on earning treasury; no yield on stakes (incl. ₹2,000 cr into Ather in Aug-26); associates excluded.',
+  'pat@FY27E': 'GAM: before associates; flat on reported FY26 (which had the ₹722 cr gain), ~+2% on FY26 before associates and one-offs.',
+  'ebitdaMargin@FY28E': 'GAM: back into the 14-16% band as VIDA scales with PLI and commodities normalise.',
+};
+
+module.exports = { glossary, statementNotes };

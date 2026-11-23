@@ -1,0 +1,334 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Hero MotoCorp (consolidated, INR crore; Screener basis). Base year FY26A. Forecast profit EXCLUDES the share of associates (Hero FinCorp, Ather Energy, Euler Motors): those stakes are valued separately at market/book in the target (street method). Volume x realisation build by segment in volumeBuild; HEROMOTOCO.ctx.js checks that it reproduces model revenue.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "volume": {
+  "base": 6466373,
+  "growth": [
+   8.59,
+   5.228,
+   4.526
+  ],
+  "_why": "Sum of the segment build (volumeBuild). FY27: Apr-Aug 2026 dispatches 27.79 lakh (+17%) but H2 laps the post-GST surge (Q3FY26 +16%, Q4FY26 +24%), Aug-26 was only +2.7% and the 2026 monsoon ended ~13% short; Sep-Mar assumed +3.5%. FY28-29: industry ~5%, Hero helped by scooters, VIDA and premium, dragged by entry bikes."
+ },
+ "revPerUnitGrowth": [
+  7.438,
+  4.371,
+  4.268
+ ],
+ "_revPerUnitWhy": "Revenue (incl. parts and services) per vehicle, from the build: FY27 ~5% ICE price increases already taken (4.5% blended since Feb-26), early double-digit EV price rises, mix shift to scooters/EV/125cc/premium and parts +20%; FY28-29 ~3% price plus mix.",
+ "volumeBuild": {
+  "_note": "FY26 units by segment: SIAM data compiled by Emkay Research (9-Aug-2026; total 64.66 lakh vs the company's 64.69 lakh). Realisations are net revenue per unit (ex-GST, after dealer margin). EV (Q1FY27 EV revenue Rs660 cr on 56,837 units = Rs1.16 lakh; FY26 assumed ~10% lower after early double-digit price rises) and exports (FY26 ~Rs3,500 cr on 4.02 lakh units, CFO, May-2026 call) are disclosed or derived; domestic ICE segment realisations are not disclosed: the FY26 domestic ICE revenue pool (two-wheeler sales Rs39,085 cr less exports and EV) is spread by a price index built from Hero's model-wise GST price cuts of Sep-2025 (HF Deluxe Rs5,805, Splendor+ Rs6,820, Glamour X Rs7,813, Xtreme 125R Rs8,010, Destini 125 Rs7,197, Xoom 110 Rs6,597, Xtreme 160R Rs10,985: cuts are ~7.8% of ex-showroom price, so they scale with price).",
+  "twoWheelerRev26": 39085.28,
+  "exportRev26": 3500,
+  "evReal26": 105000,
+  "segments": [
+   {
+    "key": "entry",
+    "name": "Domestic motorcycles: entry 100cc (HF Deluxe)",
+    "units26": 1012199,
+    "idx": 0.85,
+    "growth": [
+     -12,
+     -5,
+     -5
+    ],
+    "price": [
+     5,
+     3,
+     3
+    ],
+    "_why": "Q1FY27 -19%: buyers trade up to Splendor; a tactical HF Deluxe price cut in Jul-26 helped, but a weak monsoon hurts the poorest buyers first."
+   },
+   {
+    "key": "deluxe",
+    "name": "Domestic motorcycles: deluxe 100-110cc (Splendor, Passion)",
+    "units26": 3790249,
+    "idx": 1,
+    "growth": [
+     8,
+     4,
+     3
+    ],
+    "price": [
+     5,
+     3,
+     3
+    ],
+    "_why": "Q1FY27 +20.5% (Splendor +15%, 96% segment share); +2,000/day Splendor capacity; H2 laps the GST surge; long run ~3-4%."
+   },
+   {
+    "key": "m125",
+    "name": "Domestic motorcycles: 125cc (Glamour, Super Splendor, Xtreme 125R)",
+    "units26": 616991,
+    "idx": 1.13,
+    "growth": [
+     15,
+     8,
+     7
+    ],
+    "price": [
+     5,
+     3,
+     3
+    ],
+    "_why": "Q1FY27 +45%: share recovered from 12.8% (Q1FY26) to 17.7%; more refreshes planned for Q2FY27."
+   },
+   {
+    "key": "premium",
+    "name": "Domestic motorcycles: premium >125cc (Xtreme 160/250, Xpulse, Karizma, Harley X440, Mavrick)",
+    "units26": 71320,
+    "idx": 2,
+    "growth": [
+     15,
+     15,
+     12
+    ],
+    "price": [
+     4,
+     4,
+     4
+    ],
+    "_why": "Q1FY27 +27% but share only 1.5%; new premium head (Aug-26) and launches over the next 12 months. Index ~2x Splendor (Xtreme 160R ~1.6x, Xtreme 250R ~2.1x, X440 higher)."
+   },
+   {
+    "key": "scooter",
+    "name": "Domestic ICE scooters (Destini 125, Xoom, Pleasure+)",
+    "units26": 424397,
+    "idx": 0.99,
+    "growth": [
+     25,
+     8,
+     6
+    ],
+    "price": [
+     5,
+     3,
+     3
+    ],
+    "_why": "Q1FY27 +84% (share 6.9%); Destini capacity doubled and Xoom +50%; channel stock half of normal."
+   },
+   {
+    "key": "ev",
+    "name": "VIDA electric scooters",
+    "units26": 148473,
+    "real26": 105000,
+    "growth": [
+     89,
+     30,
+     25
+    ],
+    "price": [
+     10,
+     0,
+     -2
+    ],
+    "_why": "Apr-Aug 2026 ~1.05 lakh; capacity 30k/month from Aug-26, 45k/month by Q4FY27; ~11% VAHAN share. FY27E ~2.8 lakh."
+   },
+   {
+    "key": "exports",
+    "name": "Exports (global business)",
+    "units26": 402744,
+    "real26": 87065,
+    "growth": [
+     8,
+     12,
+     12
+    ],
+    "price": [
+     4,
+     3,
+     3
+    ],
+    "_why": "Q1FY27 +63% but Jul-26 -14% and Aug-26 -24.5%; Apr-Aug +20%. Management aims for ~40% a year; we assume a slowdown."
+   }
+  ],
+  "parts": {
+   "rev26": 6592.26,
+   "growth": [
+    20,
+    12,
+    12
+   ],
+   "_why": "Spare parts revenue FY26 Rs6,592 cr (consolidated; +6%); Q1FY27 parts, accessories and merchandise +30%, July ~25%; GPC 2.0 (Rs750 cr) doubles capacity by end-2027."
+  },
+  "other": {
+   "rev26": 1733.7,
+   "growth": [
+    10,
+    8,
+    8
+   ],
+   "_why": "Services (extended warranty, AMC, dealer support: Rs1,371 cr) and other operating revenue incl. export incentives (Rs363 cr) in FY26."
+  }
+ },
+ "ebitdaMargin": [
+  13.7,
+  14.4,
+  14.7
+ ],
+ "_marginWhy": "Consolidated. FY26 14.9% (standalone 14.7%: ICE 17.0% less ~2.3 pts of VIDA losses). Q1FY27 13.3% after a 300 bp gross-margin hit from West Asia-linked commodity inflation (ICE 15.9%). FY27: Q2 cost pressure offset by mix and cost cuts, H2 price increases; VIDA losses ~Rs900 cr. FY28-29: commodity relief, VIDA scale and PLI (13% of EV revenue) take the margin back into the 14-16% medium-term band, at its lower half.",
+ "capex": [
+  1500,
+  1300,
+  1300
+ ],
+ "_capexWhy": "FY27 guidance Rs1,500 cr (EV, scooter and Splendor capacity, GPC 2.0 parts centre Rs750 cr, Neemrana premium line); FY26 actual Rs1,100 cr; ~2% of revenue thereafter.",
+ "treasuryYield": [
+  8.5,
+  8,
+  8
+ ],
+ "_treasuryWhy": "Yield on earning treasury (debt funds, bonds, deposits). FY26 treasury income ~Rs1,144 cr (interest Rs293 cr, dividends Rs23 cr, gains on sale Rs128 cr, fair-value gains Rs533 cr before the Rs222 cr Zero Motorcycles write-down, less ~Rs54 cr gain on BSE shares) on ~Rs13,700 cr average earning treasury = 8.4%. FY27 8.5% (Q1FY27 other income Rs460 cr ran above that); 8% from FY28 as FY26-27 mark-to-market gains came with falling yields.",
+ "otherIncome": [
+  -465,
+  -533,
+  -562
+ ],
+ "_otherIncomeWhy": "Model treasury (cash + investments - borrowings) includes strategic stakes that earn no interest: associates at book (Rs3,901 cr at Mar-26), Euler CCPS Rs210 cr, BSE Rs170 cr, Zero Rs19 cr, Gogoro Rs2 cr = Rs4,302 cr; plus Ather shares bought in Aug-26 (Rs1,758 cr block from GIC + Rs240 cr warrant money) and the Rs720 cr warrant balance assumed paid mid-FY28. Line = -(that year's yield) x average non-earning stakes (FY27 Rs5,468 cr, FY28 Rs6,660 cr, FY29 Rs7,020 cr). Share of associates' profit/loss is excluded from our EPS (stakes valued separately).",
+ "stakes": {
+  "_note": "Value added to the core P/E (street method). Used by tools/authoring/HEROMOTOCO.stakes.js to set the composite P/E multiple in valuation.blend (engine has no add-on line).",
+  "coreMultiple": {
+   "base": 15,
+   "bull": 18,
+   "bear": 12.5
+  },
+  "_coreWhy": "Base 15.0x: own one-year-forward P/E median since Apr-2021 on EPS before associates and one-offs (16.4x; the house forwardMedian on reported EPS is 16.7x, and 17.0x adjusting only one-offs; no trough years) x (1 - 6.9%), the median de-rating of the seven other auto OEMs at 30-Sep-2026 = 15.2x, rounded to the nearest half-turn. The core basis is used because our EPS excludes associates and the stakes are added at market. Bull 18.0x and bear 12.5x = the 75th and 25th percentiles of the same core history (19.2x, 13.7x) after the same de-rating.",
+  "ather": {
+   "price": 1425,
+   "shares": 126963252,
+   "warrants": 7619047,
+   "warrantBalancePerShare": 945,
+   "discount": {
+    "base": 20,
+    "bull": 10,
+    "bear": 30
+   },
+   "_why": "NSE close 30-Sep-2026 Rs1,425. Shares: 11,50,83,252 at Mar-26 (AR FY26 note 9A; 29.48% at Jun-26) + 1,18,80,000 bought from GIC at Rs1,480 on 28-Aug-2026 (Rs1,758 cr). Warrants: 76,19,047 at Rs1,260 allotted 25-Aug-2026, 25% paid, Rs945 a share payable on conversion within 18 months (valued at intrinsic value). 20% holding discount = house precedent (Tata Chemicals' Rallis and quoted shares) and Motilal Oswal/Emkay; Choice uses 30%."
+  },
+  "hfcl": {
+   "bookMar26": 5899.75,
+   "stakePct": 40.45,
+   "pb": {
+    "base": 1,
+    "bull": 1,
+    "bear": 0.7
+   },
+   "discount": {
+    "base": 20,
+    "bull": 20,
+    "bear": 20
+   },
+   "_why": "Unlisted. Net assets Rs5,900 cr at Mar-26 (AR FY26 note 9A); Hero owns 40.45% (5,24,31,893 shares). FY26 loss Rs226 cr; IPO approved by SEBI in 2025 but not launched by Sep-26. Valued at 1.0x book less 20% (street range Rs55-215 a share: PL Rs55, Choice Rs59, MOSL Rs89, Emkay Rs215)."
+  },
+  "others": {
+   "value": 802,
+   "_why": "Carrying values at Mar-26 (AR FY26 notes 9A/9B): Euler Motors associate Rs401 cr + Series E CCPS Rs210 cr, BSE shares Rs170 cr, Zero Motorcycles Rs19 cr, Gogoro Rs2 cr."
+  }
+ },
+ "interest": [
+  85,
+  90,
+  95
+ ],
+ "_interestWhy": "FY26 Rs78 cr (leases and subsidiaries' working-capital loans); Q1FY27 Rs21 cr.",
+ "taxRate": [
+  25,
+  25,
+  25
+ ],
+ "_taxWhy": "Standalone effective rate 24.4% in FY26 and 25.6% in Q1FY27 (new regime, 25.17%).",
+ "payout": [
+  70,
+  70,
+  70
+ ],
+ "_payoutWhy": "Policy of 70%+ payout of standalone profit (CFO, May-2026); FY26 DPS Rs185 (interim Rs110 + final Rs75) = 70% of standalone EPS of Rs263.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 14,
+  "fadeCapexPctTo": 2.5,
+  "depPctOfSales": 2,
+  "rollForwardMonths": 6,
+  "_why": "Cost of equity 6.5% + 0.85 x 6% = 11.6%; net cash, so WACC = Ke. Nominal revenue growth fades to 7% by FY42 (Hero grew revenue 5.2% a year in FY16-26 and 8.9% in FY21-26: ~3% volume + ~4% price/mix) and the EBITDA margin to 14%, the bottom of the 14-16% band, as the EV shift squeezes the ICE franchise; terminal growth 5%.",
+  "_betaWhy": "Hero's two-year weekly beta has been below 1 (defensive commuter demand, net cash); 0.85 as for Maruti.",
+  "_tgWhy": "Two-wheeler penetration is still rising, but Hero's core (commuter motorcycles) is losing share of the market to scooters, EVs and premium bikes."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "volumeGrowthDelta": 2,
+   "marginDelta": 0.7,
+   "revPerUnitDelta": 0.5,
+   "fadeMarginTo": 15,
+   "narrative": "Rural demand shrugs off the weak monsoon, scooters, VIDA (PLI on the whole range from Dec-26) and premium launches keep gaining share, exports recover; EBITDA margin back to ~15% by FY28. Ather valued at a 10% holding discount."
+  },
+  "bear": {
+   "label": "Bear",
+   "volumeGrowthDelta": -3,
+   "marginDelta": -1.2,
+   "revPerUnitDelta": -0.5,
+   "fadeMarginTo": 12.5,
+   "narrative": "The weak 2026 monsoon and the end of the GST boost stall entry and deluxe motorcycles, TVS/Bajaj/Ather out-launch VIDA, commodity costs stay high; margins stuck near 13%. Ather valued at a 30% holding discount and Hero FinCorp at 0.7x book."
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E (15x core) + stakes",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 17.485,
+      "bull": 20.467,
+      "bear": 15.048
+     },
+     "why": "How the street values Hero: P/E on FY28E/Jun-28E core EPS (16-18x: PL 16x, Motilal Oswal, Emkay and Choice 18x) plus the Ather and Hero FinCorp stakes at a 20-30% holding discount. Ours: 15.0x Sep-28E EPS before associates (own forward median since 2021 on that basis 16.4x x 0.931 sector de-rating) plus stakes of ~Rs870 a share (Ather at the 30-Sep close of Rs1,425 less 20%, Hero FinCorp at 1.0x Mar-26 book less 20%, Euler and other holdings at book). ENGINE WORKAROUND: the engine has no add-on line, so the multiple shown is a composite = 15.0x + stakes per share / Sep-28E EPS of each scenario (set by tools/authoring/HEROMOTOCO.stakes.js). Bull core 18x, bear 12.5x."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 9,
+      "bull": 10,
+      "bear": 8.5
+     },
+     "why": "9.0x Sep-28E EBITDA plus model net cash (which carries the stakes at book, not market). Derivation: Hero's 12.9x median trailing EV/EBITDA since Apr-2021 x 0.931 sector de-rating = 12.0x trailing, restated for Sep-28E EBITDA being ~30% above the twelve months to Jun-26 (Rs7,090 cr) = 9.2x, rounded. Bull 10x / bear 8.5x from the 75th/25th percentiles (14.3x, 11.9x) on the same basis."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests cash-flow support: 15-year FCFF, cost of equity 11.6%, terminal growth 5.5%. Net cash includes the stakes at book value."
+    }
+   ]
+  }
+ }
+}
