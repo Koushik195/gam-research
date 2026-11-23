@@ -1,0 +1,221 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Aurobindo Pharma (consolidated, Rs crore; profit attributable to owners, see tools/authoring/AUROPHARMA.patch.js). Aurobindo reports one segment and revenue by business (US, Europe, Growth Markets, ARV formulations; APIs), so the engine runs on one revenue-growth path and one EBITDA-margin path; the business-line build (US and Growth Markets/ARV in US dollars, Europe in euros, each times an assumed rate; APIs in rupees) sits in `businessLines` and AUROPHARMA.ctx.js checks that it equals model revenue. Engine workarounds: (1) the Lannett acquisition (US$247mn paid in Q1FY27, Rs2,335 cr) and A1 Biochem (US$13.6mn) are carried in FY27E capex because the engine has no acquisitions line (Lannett's price buys a plant, products and working capital that are depreciated/amortised like capex); (2) the Rs800 cr buyback of Apr-May 2026 is carried in the FY27E payout (no buyback line) and the per-share target uses the post-buyback count of 57.54 cr shares through an implied multiple written by AUROPHARMA.mult.js; (3) other income is built from gross cash (Aurobindo holds ~Rs8,800 cr of cash and ~Rs8,400 cr of debt at the same time), so treasuryYield is 0 and the build sits in `otherIncomeBuild`; interest is built from gross debt in `interestBuild`. Valued on P/E on Sep-28E EPS, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  16.74,
+  9.82,
+  7.31
+ ],
+ "_revenueWhy": "Built by business (businessLines; the script checks the sum). FY27E +16.7%, of which roughly 9pp is the weaker rupee (FY27E Rs94.5/US$ vs Rs88.3 in FY26; Europe Rs110/EUR vs ~Rs102.5) and ~5pp Lannett: US US$1,800mn (Q1 US$399mn; Q2-Q4 base US$390-410mn a quarter with ~10 launches a quarter offsetting price erosion, plus Lannett ~US$60-70mn a quarter from 29-Jun-2026 incl. gAdvair from Aug-2026); Europe EUR1,105mn (+10%: Q1 EUR267mn, +11% in constant currency, management guides double digits); Growth Markets US$460mn (+16%: Q1 US$113mn incl. the Khandelwal brands from Jan-2026); ARV US$140mn (Q1 US$35mn; tender business); APIs +10% (Q1 +14.6%; Pen-G/6-APA external sales). FY28E +9.8%: US US$1,940mn (base +2.5%, Lannett ~US$290mn full year), Europe EUR1,200mn (+8.5%), Growth Markets US$505mn, ARV US$135mn, APIs +8%, rupee Rs96.5/US$. FY29E +7.3%: US US$2,000mn, Europe EUR1,290mn, Growth Markets US$555mn, ARV US$130mn, APIs +7%, Rs98.5/US$. No biosimilar US revenue and no TheraNym (MSD) revenue before FY29 beyond what is inside Europe and Growth Markets.",
+ "businessLines": {
+  "_why": "FY26 revenue by business (Q4FY26 presentation): US Rs14,408 cr (US$1,631mn), Europe Rs10,315 cr (EUR1,006mn), Growth Markets Rs3,499 cr (US$397mn), ARV Rs1,384 cr (US$157mn), APIs Rs4,047 cr = Rs33,653 cr. The rupee is assumed to weaken ~2% a year from the Q1FY27 average (Rs94.53/US$; Rs110/EUR on Europe's Rs2,937 cr / EUR267mn), the same US$ path as our Cipla and Zydus reports.",
+  "base": {
+   "us": 14408,
+   "europe": 10315,
+   "gm": 3499,
+   "arv": 1384,
+   "api": 4047
+  },
+  "usUsdMn": [
+   1800,
+   1940,
+   2000
+  ],
+  "europeEurMn": [
+   1105,
+   1200,
+   1290
+  ],
+  "gmUsdMn": [
+   460,
+   505,
+   555
+  ],
+  "arvUsdMn": [
+   140,
+   135,
+   130
+  ],
+  "apiGrowth": [
+   10,
+   8,
+   7
+  ],
+  "fxUsd": [
+   94.5,
+   96.5,
+   98.5
+  ],
+  "fxEur": [
+   110,
+   112,
+   114
+  ]
+ },
+ "ebitdaMargin": [
+  21,
+  21.5,
+  21.5
+ ],
+ "_marginWhy": "Company EBITDA before forex and other income: 20.8% (FY25), 20.4% (FY26), 20.6% reported / 21.0% operating in Q1FY27 (before a Rs43 cr one-time lease-receivable write-off). Guidance: 'north of 21%' and EBITDA above Rs8,000 cr in FY27 (6-Aug-2026). FY27E 21.0% (Rs8,250 cr): Pen-G and 6-APA swing from a Rs200 cr+ EBITDA loss in FY26 to profit (PLI Rs240 cr per 10,000 t; minimum import price to Jan-2027), China from a ~US$7mn loss to positive, R&D down to Rs1,450-1,500 cr (4.7% -> 3.8% of revenue) as biosimilar phase-3 trials end; offset by the end of gRevlimid, US price erosion, Eugia remediation, Lannett integration (lower margin at first) and biosimilar launch costs. FY28E-29E 21.5%: Lannett synergies (SG&A, procurement, utilisation from ~40%), Europe above 20%, China scale; we stop short of ICICI Direct's 22.3% because Eugia's best plants cannot launch new products. Each 1pp of FY28E margin is ~Rs430 cr of EBITDA (~6% of EPS).",
+ "capex": [
+  5300,
+  2700,
+  2550
+ ],
+ "_capexWhy": "Screener cash capex Rs3,562 / 2,520 / 3,105 cr in FY24-26 (FY26 net capex US$341mn, company). Q1FY27 net capex US$78mn. CFO (10-Feb-2026): no greenfield beyond biologics, capex not beyond ~US$150-200mn a year plus US$80-120mn for the biologics CMO over two years; TheraNym Unit 2 US$150-180mn from Oct-2026 to 2029; 10,000 L of new bioreactors at CuraTeQ. FY27E = US$300mn organic (~Rs2,835 cr) + Lannett US$247mn (Rs2,335 cr at Rs94.53, paid in Q1FY27; engine workaround, no acquisitions line) + A1 Biochem US$13.6mn (~Rs130 cr) = Rs5,300 cr (ICICI Direct models Rs5,325 cr). FY28E US$280mn (Rs2,700 cr); FY29E US$260mn (Rs2,550 cr), ~5.5% of revenue.",
+ "depRateOnGrossBlock": 6.4,
+ "_depWhy": "FY26 depreciation and amortisation Rs1,778 cr = 6.6% of average gross block (Screener: Rs24,463 cr -> Rs29,251 cr); Q1FY27 Rs487 cr (Rs1,948 cr annualised) before Lannett. The engine holds CWIP flat (Rs5,214 cr) and depreciates capex at once, so we use 6.4%: FY27E ~Rs2,040 cr incl. Lannett's plant and acquired products.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Set to zero: Aurobindo carries gross cash and gross debt side by side (Mar-26: Rs10,676 cr of cash and investments, Rs7,673 cr of debt; Jun-26: Rs8,790 cr and Rs8,393 cr), so a yield on the engine's small net cash would understate both income and interest. Treasury income is built on gross cash in otherIncomeBuild and interest on gross debt in interestBuild.",
+ "otherIncome": [
+  542,
+  488,
+  586
+ ],
+ "_otherIncomeWhy": "Built, not plugged (otherIncomeBuild; AUROPHARMA.ctx.js checks the build). FY26 company other income Rs492 cr (AR FY26 note 25): treasury Rs305 cr (bank-deposit interest Rs265 cr, other deposits Rs27 cr ex the lease receivable, debentures Rs7 cr, investments Rs3 cr, dividends Rs2 cr, gains Rs1 cr) = 3.2% of average company gross cash (Rs9,492 cr); interest on the East Windsor lease receivable Rs27 cr (ends: the receivable was derecognised in Q1FY27); write-backs Rs4 cr (one-off); miscellaneous Rs155 cr (not broken down; treated as recurring). FY27E = Q1 actual Rs212 cr + Q2-Q4 (3.2% x average gross cash, three quarters + miscellaneous Rs155 cr x 3/4). FY28E-29E = 3.2% x average gross cash + miscellaneous Rs160 / 165 cr. Gross cash = engine net cash + Rs154 cr (company vs Screener basis at Mar-26) + gross debt (interestBuild). Forex gains (Rs53 cr in Q1) are not forecast.",
+ "otherIncomeBuild": {
+  "q1Actual": 212,
+  "treasuryYieldPct": 3.2,
+  "misc": [
+   155,
+   160,
+   165
+  ],
+  "basisAdj": 154,
+  "grossCashJun26": 8790,
+  "grossCashMar26": 10676,
+  "treasury26": 305.4,
+  "leaseInterest26": 27.3,
+  "oneOff26": 4,
+  "misc26": 155.3
+ },
+ "interest": [
+  413,
+  394,
+  371
+ ],
+ "_interestLabel": "Interest cost (debt and leases)",
+ "_interestWhy": "FY26 Rs384 cr; Q1FY27 Rs102 cr (average cost 4.8%, down from 5.0%). Built in interestBuild: average gross debt x 4.7% + ~Rs30 cr of lease interest; gross debt Rs7,673 cr (Mar-26), Rs8,393 cr (Jun-26, after Lannett), assumed Rs8,000 cr (Mar-27), Rs7,500 cr (Mar-28), Rs7,000 cr (Mar-29) as packing-credit and term loans are repaid from free cash flow.",
+ "interestBuild": {
+  "grossDebt": [
+   8000,
+   7500,
+   7000
+  ],
+  "grossDebtMar26": 7673,
+  "grossDebtJun26": 8393,
+  "costPct": 4.7,
+  "leaseInterest": 30
+ },
+ "taxRate": [
+  30,
+  28.5,
+  28
+ ],
+ "_taxWhy": "Effective rate 31.5% in FY26 and 31.9% in Q1FY27, high because no deferred-tax credit is booked on losses of new subsidiaries (CuraTeQ, TheraNym, China); CFO guides 28-29% by FY27-end as those turn profitable. FY27E 30% (Q1 32%, then 29%), 28.5% and 28% after.",
+ "payout": [
+  23.5,
+  6.5,
+  6.5
+ ],
+ "_payoutWhy": "FY26 interim dividend Rs4 a share (Rs232 cr, 6.6% of EPS). FY27E payout = Rs4.5 a share (~Rs260 cr) + the Rs800 cr buyback paid in Apr-May 2026 (engine workaround: no buyback line) = ~Rs1,060 cr, 23.5% of FY27E profit. FY28E-29E 6.5%, the historical dividend payout; buybacks (2024 and 2026) are opportunistic and not assumed.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5,
+  "years": 15,
+  "fadeGrowthTo": 6,
+  "fadeMarginTo": 21.5,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 4.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "0.9 (cost of equity 11.9%): two-thirds of revenue from regulated generics where prices fall every year, plant-inspection risk (two Eugia warning letters), a possible US generics tariff from 2028 and a 7% promoter pledge; offset by a diversified, cash-generating base and ~zero net debt (so cost of equity ~ WACC).",
+  "_tgWhy": "5%: US generics grow low single digits in dollars, Europe mid single digits, plus ~2% rupee depreciation; lower than our 5.5% for India-led Cipla.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~7% (FY29E) to 6%.",
+  "_fadeMarginWhy": "21.5% held: no new windfall; biosimilars and the MSD CMO could add upside after FY29 that we do not assume.",
+  "_fadeCapexWhy": "Capex settles at 5% of revenue (FY24-26 9-12% incl. Pen-G, China and biologics; maintenance ~4%); depreciation 4.5% of revenue (FY26 5.3%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "US base grows again (Eugia Unit III and Unit I cleared, Lannett respiratory launches and plant transfers work, US biosimilar filings land on time), Europe keeps double-digit growth, Pen-G and China earn full margins.",
+   "revenueGrowthDelta": 2.5,
+   "marginDelta": 1.5,
+   "fadeMarginTo": 23
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "US price erosion outruns launches, Eugia stays blocked, Lannett synergies slip, the Pen-G import floor lapses in Jan-2027 and a 2028 generics tariff looms.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -2,
+   "fadeMarginTo": 19.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 18.17,
+      "bull": 21.71,
+      "bear": 14.13
+     },
+     "why": "How the street values Aurobindo: P/E on FY28E or 12-month-forward EPS (ICICI Direct 18x FY28E, Prabhudas Lilladher 18x FY28E, Motilal Oswal 20x 12-month forward). Our multiple: Aurobindo's own one-year-forward P/E median since Apr-2021 on EPS before exceptional items (no trough years on that basis), times the pharma sector factor (+5.45%, PLAYBOOK §7c), nearest half-turn; bull = 75th percentile x factor, bear = 25th percentile x factor. Applied to EPS per post-buyback share (57.54 cr shares); the engine carries it as an implied multiple of its own Sep-28E EPS (on the FY26 count of 58.09 cr), written by tools/authoring/AUROPHARMA.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-27E (trailing at the target date)",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "multiple": {
+      "base": 10,
+      "bull": 12,
+      "bear": 8
+     },
+     "why": "Aurobindo's median trailing EV/EBITDA since Apr-2021 (Screener) times the same sector factor, nearest half-turn, on trailing EBITDA at the target date (half FY27E + half FY28E) plus the engine's net cash at Sep-2027; bull/bear at the 75th/25th percentiles x factor."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at an 11.9% cost of equity (~WACC: net debt is ~zero), terminal growth 5%, plus the engine's net cash at Mar-27."
+    }
+   ]
+  },
+  "derivedPe": {
+   "base": 18,
+   "bull": 21.5,
+   "bear": 14,
+   "_note": "Derived P/E on EPS per post-buyback share (57.54 cr); pe.multiple is the same value restated on the engine EPS (58.09 cr shares)."
+  }
+ }
+}

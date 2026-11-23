@@ -63,7 +63,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 ### Healthcare (34)
 
 - A18 · published (A, 23-Nov-2026) · SUNPHARMA published (HOLD, 1,800), DIVISLAB published (SELL, 8,710), TORNTPHARM published (SELL, 4,260), ZYDUSLIFE published (SELL, 950), CIPLA published (BUY, 1,670)
-- A19 · claimed (A, 23-Nov-2026) · LAURUSLABS, DRREDDY, MANKIND, AUROPHARMA, LUPIN
+- A19 · claimed (A, 23-Nov-2026) · LAURUSLABS, DRREDDY, MANKIND, AUROPHARMA published (HOLD, 1,660), LUPIN
 - A20 · queued · GLENMARK, ALKEM, ABBOTINDIA, BIOCON, IPCALAB
 - A21 · queued · GLAND, ANTHEM, AJANTPHARM, GLAXO, EMCURE
 - A22 · queued · LALPATHLAB, SAILIFE, WOCKPHARMA, ACUTAAS, PPLPHARMA
@@ -154,7 +154,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - B23 · published except SCHAEFFLER (B, 23-Nov-2026) · UNOMINDA published (HOLD, 1,180), SCHAEFFLER (blocked: December year-end, waits for engine support), ATHERENERG published (SELL, 1,010), MRF published (BUY, 1,46,570), SONACOMS published (SELL, 760)
 - B24 · published (B, 23-Nov-2026) · BALKRISIND published (HOLD, 2,430), TIINDIA published (BUY, 3,680), ENDURANCE published (HOLD, 2,770), EXIDEIND published (HOLD, 400), CRAFTSMAN published (SELL, 8,580)
 - B25 · published (B, 23-Nov-2026) · APOLLOTYRE published (BUY, 540), ZFCVINDIA published (HOLD, 2,590), GABRIEL published (HOLD, 1,290), MSUMI published (BUY, 54), ASAHIINDIA published (SELL, 810)
-- B26 · queued · FORCEMOT, BELRISE, TENNIND, OLAELEC, MINDACORP
+- B26 · claimed (B, 23-Nov-2026; FORCEMOT, BELRISE, TENNIND now; OLAELEC, MINDACORP later) · FORCEMOT, BELRISE, TENNIND, OLAELEC, MINDACORP
 - B27 · queued · CIEINDIA, ARE&M, CEATLTD, JBMA, RKFORGE
 - B28 · queued · OLECTRA
 
