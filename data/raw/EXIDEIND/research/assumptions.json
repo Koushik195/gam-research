@@ -1,0 +1,313 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "Standalone model (Exide Industries Ltd = the lead-acid business), the basis the street uses for the core (MOFSL, ICICI Securities report standalone numbers). The lithium-ion subsidiary EESL, the HDFC Life stake and other investments are valued separately in the sum of the parts. FY26 base = Screener standalone (revenue Rs17,269 cr, EBITDA Rs1,946 cr, PAT Rs1,111 cr). One segment ('core') so that bull/bear deltas flow through the engine's SOTP scenarios. Core, HDFC Life and EESL values are computed in tools/authoring/EXIDEIND.ctx.js and written here by EXIDEIND.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "core",
+   "name": "Lead-acid batteries (standalone Exide)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 17269,
+   "growth": [
+    12.91,
+    9.35,
+    9.11
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    11.6,
+    11.9,
+    12
+   ],
+   "hist": {
+    "driver": "coreRev",
+    "revenue": "coreRev",
+    "adjEbitda": "coreEbitda"
+   },
+   "_why": "Revenue = sum of five business lines (assumptions.build, checked in EXIDEIND.ctx.js). FY27E +12.9%: Q1FY27 +17.6% (volume double digit in most lines, prices +4-6% YoY), a low Q2 base (Q2FY26 -2% after the GST washout), then a high auto-OEM base in H2 (management, 3-Aug-2026). FY28-29E ~9%: management's medium-term 'high single digit to early double digit' for the core (5-year CAGR 11% +/-1%, Q4FY26 call), replacement demand from the FY26-27 OEM surge (2.5-3 years later), solar and exports recovering; telecom and e-rickshaw keep shifting to lithium.",
+   "_marginWhy": "EBITDA margin (Screener basis): FY26 11.3%, Q1FY27 12.3% (seasonal peak: inverter season; Q2FY26 was 9.5%). FY27E 11.6%: input costs (rupee lead, sulphur up from Rs15 to Rs75/kg, polypropylene) are being passed on in steps; cost-excellence savings. FY28-29E 11.9-12.0%: operating leverage on ~9% growth. Street: MOFSL 11.2%/12.0% FY27-28E, ICICI Securities 11.9%/12.4%."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  500,
+  525,
+  550
+ ],
+ "_capexWhy": "Management keeps ~Rs500 cr a year for the lead-acid business (debottlenecking, automation, brownfield 4W capacity; Q1FY27 call). FY26 capex ~Rs409 cr (MOFSL). Lithium-ion capex sits in EESL, funded by equity infusions (see build.eeslInfusion), not here.",
+ "depRateOnGrossBlock": 7,
+ "_depWhy": "FY26 depreciation Rs501 cr; Q1FY27 Rs118 cr (run-rate ~Rs475 cr as older assets reach full depreciation). 7.0% of average gross block gives FY27E ~Rs480 cr. CWIP is held flat by the engine.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Set to zero: the engine's 'treasury' includes the HDFC Life stake (Rs5,140 cr at Mar-26 fair value) and the EESL investment at cost (Rs4,802 cr), which earn no interest. Treasury income is built on liquid funds only, in otherIncome.",
+ "otherIncome": [
+  58.3,
+  85.5,
+  175.9
+ ],
+ "_otherIncomeWhy": "Built (EXIDEIND.ctx.js checks it): 7% on average liquid funds (cash Rs165 cr + liquid mutual funds Rs254 cr at Mar-26; FY26 treasury income Rs32 cr: mutual-fund gains Rs30.6 cr + interest Rs1.2 cr) after funding EESL infusions, + dividends on investments Rs21-23 cr (HDFC Life, Faering, LIC Housing: Rs18.5 cr in FY26; subsidiaries Rs2.0 cr) + guarantee commission from EESL Rs6 cr (FY26 Rs5.6 cr) + foreign-exchange gains Rs10 cr (FY26 Rs27.9 cr, FY25 Rs9.5 cr; not forecast at the FY26 level) + other Rs7 cr. FY26 (Screener) Rs82 cr; TTM to Jun-2026 Rs79 cr; Q1FY27 Rs14 cr as cash went to EESL.",
+ "interest": [
+  34,
+  35,
+  36
+ ],
+ "_interestLabel": "Finance cost (mostly lease interest)",
+ "_interestWhy": "Standalone is debt-free; FY26 finance cost Rs34.9 cr of which lease interest Rs32.9 cr (AR FY26 note 30). Q1FY27 Rs8 cr.",
+ "taxRate": [
+  25.3,
+  25.3,
+  25.3
+ ],
+ "_taxWhy": "New regime (25.17%) plus small disallowances: FY26 effective 25.5%, Q1FY27 25.0%.",
+ "payout": [
+  15,
+  15,
+  15
+ ],
+ "_payoutWhy": "Rs2 per share for FY24-26 (FY26 dividend Rs170 cr proposed, AR FY26 note 16): 15% of FY26 EPS. Cash is being kept for the lithium-ion project.",
+ "build": {
+  "base": {
+   "autoDomestic": 8600,
+   "homeUps": 2300,
+   "solar": 1000,
+   "exports": 915,
+   "industrialDomestic": 4454
+  },
+  "growth": {
+   "autoDomestic": [
+    14,
+    9,
+    9
+   ],
+   "homeUps": [
+    12,
+    9,
+    8
+   ],
+   "solar": [
+    15,
+    14,
+    12
+   ],
+   "exports": [
+    12,
+    10,
+    10
+   ],
+   "industrialDomestic": [
+    11,
+    9,
+    9
+   ]
+  },
+  "_why": "Auto (OEM + replacement, domestic): OEM +25% for three quarters on the GST cut, 4W replacement volume +10% in Q1FY27; H2 base high. Home UPS/inverter (Rs2,300 cr, 15-25% of revenue by season): a strong summer in Q1FY27. Solar (crossed Rs1,000 cr in FY26; >Rs400 cr in Q1FY27). Exports (Rs915 cr, ~5%; down from ~8%): +20% in Q1FY27 off a low base. Industrial domestic: infrastructure ex-telecom double digit, government tenders soft until H2FY27, telecom (~2-3%) shrinking.",
+  "liquidBase": 418.86,
+  "treasuryRate": 7,
+  "dividendsOnInvestments": [
+   21,
+   22,
+   23
+  ],
+  "guaranteeCommission": [
+   6,
+   6,
+   6
+  ],
+  "fxGain": [
+   10,
+   10,
+   10
+  ],
+  "otherMisc": [
+   7,
+   7,
+   7
+  ],
+  "eeslInfusion": [
+   1400,
+   0,
+   0
+  ],
+  "_eeslInfusionWhy": "FY27E: Board-approved Rs1,400 cr (Rs100 cr paid in July; capex plus operating and working-capital needs). FY28-29E: none in the core cash path. EESL losses after the target date are charged once, as a present value in the EESL line of the sum of the parts (PLAYBOOK §7c); Phase 2 (6 to 12 GWh) is not approved and is excluded.",
+  "eesl": {
+   "bookMar26": 4024.76,
+   "investedJul26": 4902,
+   "loss": {
+    "base": [
+     450,
+     350,
+     190,
+     0
+    ],
+    "bull": [
+     400,
+     220,
+     60,
+     0
+    ],
+    "bear": [
+     550,
+     500,
+     350,
+     150
+    ]
+   },
+   "_lossWhy": "GAM estimates (no company guidance; brokers do not publish EESL forecasts). FY26 loss Rs248 cr before commercial production (AOC-1); the consolidated-less-standalone gap was Rs56 cr in Q1FY27. From commercial start in FY27 depreciation on ~Rs4,500-5,000 cr of plant (~Rs300 cr a year) and interest on ~Rs1,200 cr of subsidiary borrowings (consolidated less standalone borrowings at Mar-26) arrive before volumes: management guides 25-30% utilisation of 6 GWh in the first year and 85% utilisation with 90% yield as the target. Base: breakeven in FY30E. Bull: FY30E with smaller losses (PLI-style support, Hyundai-Kia line). Bear: losses persist into FY30E, breakeven FY31E.",
+   "pvRate": 12.5
+  },
+  "hdfcLife": {
+   "shares": 8.7022222,
+   "price": 521.2,
+   "discount": {
+    "base": 20,
+    "bull": 10,
+    "bear": 30
+   }
+  },
+  "otherInvestmentsBook": 538.13
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5.5,
+  "years": 10,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 12,
+  "fadeCapexPctTo": 3,
+  "depPctOfSales": 2.6,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Debt-free consumer-and-industrial battery maker with lead-price pass-through: beta 1.0, cost of equity 12.5%.",
+  "_tgWhy": "Batteries track vehicle parc, power back-up and industrial capex: ~5.5% nominal long-run growth (house range 5-6%), below India's ~10% nominal GDP as telecom and e-rickshaw move to lithium.",
+  "_fadeWhy": "Growth fades from ~9% to 7%; margin held at 12% (FY17-26 band 10.7-14.0%); capex 3% of sales (FY27-29E ~2.4-2.6% plus periodic capacity steps); depreciation 2.6% of sales.",
+  "_netCashWhy": "The engine adds 'treasury' at FY27E: liquid funds + the HDFC Life stake at Mar-26 fair value + EESL and other investments at cost. So the DCF is a core DCF plus those investments at book, a cross-check only."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The post-GST auto cycle and the replacement wave it creates lift volumes; solar and exports keep growing in double digits; price increases stick and margin reaches ~12.5%; EESL ramps faster (losses shrink, breakeven FY30E); HDFC Life valued near market.",
+   "segments": {
+    "core": {
+     "growthDelta": 2,
+     "marginDelta": 0.5
+    }
+   },
+   "fadeMarginTo": 12.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Auto-OEM growth reverses against the high base, rupee lead and sulphur costs outrun price increases (margin back to ~11%), telecom and e-rickshaw shift to lithium faster; EESL yields and approvals lag (breakeven FY31E) and the market values the plant at half of book; HDFC Life at a 30% discount.",
+   "segments": {
+    "core": {
+     "growthDelta": -3,
+     "marginDelta": -0.8
+    }
+   },
+   "fadeMarginTo": 11
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 10,
+  "parts": [
+   {
+    "name": "Lead-acid core: P/E on Sep-28E standalone EPS (ex HDFC Life dividend)",
+    "adj": {
+     "base": 25550,
+     "bull": 31073,
+     "bear": 13909
+    },
+    "metricLabel": "Sep-28E standalone EPS Rs19.6 less HDFC Life dividend Rs0.16 x 15.5x (bull 17x on Rs21.7, bear 10x on Rs16.5) x 85.00 cr shares",
+    "note": "Core P/E = Exide's own forward P/E net of its investments (median 17x since the Exide Life sale, Jan-2022 to Sep-2026) x the auto-component sector move (−7.8%), nearest half-turn."
+   },
+   {
+    "name": "HDFC Life: 8.70 cr shares at market less discount",
+    "adj": {
+     "base": 3628,
+     "bull": 4082,
+     "bear": 3175
+    },
+    "metricLabel": "8.70 cr shares x Rs521.2 (NSE close, 30-Sep-2026) = Rs4,536 cr, less 20% (bull 10%, bear 30%)",
+    "note": "Discount = the one MOFSL applies (Rs45/share at the 31-Jul-2026 price of Rs548.5); shares unchanged since 1-Jan-2022 (AR FY26 note 4; HDFC Life Jun-2026 pattern)."
+   },
+   {
+    "name": "Exide Energy Solutions (lithium-ion): book less PV of losses to breakeven",
+    "adj": {
+     "base": 4463,
+     "bull": 4756,
+     "bear": 1642
+    },
+    "metricLabel": "Book equity at Sep-27E Rs4,800 cr (Mar-26 Rs4,025 cr + FY27 infusion Rs1,400 cr − losses) x 1 less PV of losses to breakeven Rs337 cr (bear: 0.5x book)",
+    "note": "GAM loss path FY27-30E Rs450/350/190/0 cr (bull 400/220/60/0, bear 550/500/350/150), discounted at 12.5% (PLAYBOOK §7c: present value of losses to breakeven)."
+   },
+   {
+    "name": "Other investments and subsidiaries at book",
+    "adj": {
+     "base": 538,
+     "bull": 538,
+     "bear": 538
+    },
+    "metricLabel": "Mar-26 carrying value: Chloride Metals and other subsidiaries, Faering fund, unquoted stakes (AR FY26 note 4)",
+    "note": "Chloride Metals (lead recycling, 100%) lost Rs14 cr in FY26; book value used."
+   }
+  ],
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values Exide: P/E on the standalone lead-acid EPS plus the lithium-ion plant at book or invested capital plus the HDFC Life stake (MOFSL, ICICI Securities)."
+    },
+    {
+     "key": "pe",
+     "name": "P/E on standalone EPS",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 19,
+      "bull": 20.5,
+      "bear": 14
+     },
+     "why": "The core multiple applied to all standalone EPS, with EESL and HDFC Life left out: shows what the parts add."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF (core + investments at book)",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Ten-year FCFF of the standalone business at a 12.5% cost of equity, plus liquid funds, HDFC Life at Mar-26 fair value and EESL at cost."
+    }
+   ]
+  }
+ }
+}

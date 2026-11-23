@@ -1,0 +1,30 @@
+{
+ "_note": "Exide reports one Ind AS 108 segment (storage batteries and allied products; automotive and industrial aggregated, AR FY26 note on segments). The model is built on the STANDALONE company (the lead-acid business, which is how the street values the core). 'core' = standalone revenue and EBITDA (Screener standalone basis). The lithium-ion subsidiary (Exide Energy Solutions, EESL) sits outside the standalone accounts: 'groupDrag' = consolidated net profit less standalone net profit (EESL and Chloride Metals losses, consolidation entries). Business-line sizes for FY26 are management's ballpark figures (calls of 6-May-2026 and 3-Aug-2026), not reported segments.",
+ "src": "Screener.in standalone and consolidated tables (fetched 23-Nov-2026, frozen at 30-Sep-2026); AR FY26 (Form AOC-1, note 25); Q4FY26 call (6-May-2026); Q1FY27 call (3-Aug-2026) and presentation (1-Aug-2026)",
+ "annual": [
+  { "fy": "FY20", "coreRev": 9857, "coreEbitda": 1369, "consPat": 762, "standalonePat": 826, "groupDrag": -64 },
+  { "fy": "FY21", "coreRev": 10041, "coreEbitda": 1357, "consPat": 803, "standalonePat": 758, "groupDrag": 45 },
+  { "fy": "FY22", "coreRev": 12410, "coreEbitda": 1399, "consPat": 4357, "standalonePat": 4684, "groupDrag": -327, "note": "FY22 standalone PAT includes the Rs4,694 cr pre-tax exceptional gain on the Exide Life sale (AR FY26 10-year table); consolidated basis differs (life business consolidated until sale)." },
+  { "fy": "FY23", "coreRev": 14592, "coreEbitda": 1569, "consPat": 823, "standalonePat": 904, "groupDrag": -81 },
+  { "fy": "FY24", "coreRev": 16029, "coreEbitda": 1874, "consPat": 883, "standalonePat": 1053, "groupDrag": -170 },
+  { "fy": "FY25", "coreRev": 16588, "coreEbitda": 1894, "consPat": 800, "standalonePat": 1077, "groupDrag": -277 },
+  { "fy": "FY26", "coreRev": 17269, "coreEbitda": 1946, "consPat": 860, "standalonePat": 1111, "groupDrag": -251, "eeslRevenue": 158, "eeslPat": -248, "cmlRevenue": 6036, "cmlPat": -14,
+    "lines": { "autoDomestic": 8600, "homeUps": 2300, "solar": 1000, "exports": 915, "industrialDomestic": 4454 },
+    "linesSrc": "Exports Rs915 cr = sales outside India (AR FY26 note 25); home UPS 'more than Rs2,000 cr, around Rs2,300 cr' and auto ~50-53% of revenue (Q4FY26 call); solar 'crossed Rs1,000 cr' (AR FY26); industrial domestic (infrastructure, traction, railways, telecom, submarine, other) is the remainder. GAM split, rounded." }
+ ],
+ "quarterly": [
+  { "q": "Q1FY25", "sales": 4313, "ebitda": 494, "marginPct": 11.5, "pat": 280, "consSales": 4436, "consPat": 221, "groupDrag": -59 },
+  { "q": "Q2FY25", "sales": 4267, "ebitda": 484, "marginPct": 11.3, "pat": 298, "consSales": 4450, "consPat": 233, "groupDrag": -65 },
+  { "q": "Q3FY25", "sales": 3849, "ebitda": 449, "marginPct": 11.7, "pat": 245, "consSales": 4017, "consPat": 158, "groupDrag": -87 },
+  { "q": "Q4FY25", "sales": 4159, "ebitda": 467, "marginPct": 11.2, "pat": 255, "consSales": 4335, "consPat": 188, "groupDrag": -67 },
+  { "q": "Q1FY26", "sales": 4510, "ebitda": 548, "marginPct": 12.2, "pat": 320, "consSales": 4695, "consPat": 275, "groupDrag": -45 },
+  { "q": "Q2FY26", "sales": 4178, "ebitda": 395, "marginPct": 9.5, "pat": 221, "consSales": 4365, "consPat": 174, "groupDrag": -47 },
+  { "q": "Q3FY26", "sales": 4030, "ebitda": 470, "marginPct": 11.7, "pat": 258, "consSales": 4201, "consPat": 195, "groupDrag": -63 },
+  { "q": "Q4FY26", "sales": 4551, "ebitda": 530, "marginPct": 11.6, "pat": 312, "consSales": 4735, "consPat": 217, "groupDrag": -95 },
+  { "q": "Q1FY27", "sales": 5305, "ebitda": 655, "marginPct": 12.3, "pat": 407, "consSales": 5528, "consPat": 351, "groupDrag": -56 }
+ ],
+ "kpiBlocks": [
+  ["1   LEAD-ACID CORE (standalone Exide Industries)", [["sales", "Revenue (standalone)", "₹ cr", 1], ["ebitda", "EBITDA (standalone)", "₹ cr", 0, "sales"], ["pat", "Net profit (standalone)", "₹ cr", 0]]],
+  ["2   GROUP: SUBSIDIARIES (EESL lithium-ion, Chloride Metals)", [["consSales", "Revenue (consolidated)", "₹ cr", 1], ["consPat", "Net profit (consolidated)", "₹ cr", 0], ["groupDrag", "Consolidated less standalone profit (subsidiary losses)", "₹ cr", 0]]]
+ ]
+}

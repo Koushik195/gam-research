@@ -1,0 +1,193 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Craftsman Automation, consolidated, Rs crore, Screener basis. Revenue growth and EBITDA margin come from the three-segment build below (segment EBIT, as the company reports it), synced by CRAFTSMAN.ctx.js: EBITDA = sum of segment EBIT - unallocated corporate costs + depreciation. The Rs2,000 cr QIP of 18-Jun-2026 is in the Mar-26 opening balance sheet (CRAFTSMAN.patch.js) and all per-share figures use the post-QIP 2.6154 cr shares.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  24.08,
+  15.612,
+  14.722
+ ],
+ "_revenueWhy": "From the segment build. FY27E +24%: Q1FY27 was +36% (powertrain +26%, aluminium +38%, industrial +53%); management guided 'mid-teens' in May-2026 at then aluminium prices and indicated ~Rs6,500 cr of aluminium revenue (not guidance); Sunbeam exits may cut its revenue 10-20%. FY28E-29E: aluminium capacity (Hosur, DR Axion Sriperumbudur from FY28) and the large-engine castings ramp (~30% / 50% of a US$100 mn run-rate in FY28 / FY29).",
+ "ebitdaMargin": [
+  15.705,
+  16.172,
+  16.591
+ ],
+ "_marginWhy": "From the segment build: segment EBIT margins plus depreciation. FY26 15.3%, Q1FY27 15.8% (Screener basis). Sunbeam to mid-teens EBITDA by Q4FY27 (from single digits) lifts aluminium; new capacity at low utilisation and large-engine start-up costs hold it back.",
+ "capex": [
+  1500,
+  1200,
+  1100
+ ],
+ "_capexWhy": "FY27: management's ~Rs1,500 cr ('conservatively': standalone >Rs1,000 cr, DR Axion ~Rs430 cr, Sunbeam maintenance), Q1FY27 call. FY28-29: the ~Rs1,000 cr standalone run-rate plus the DR Axion spill-over, then lower as plants fill (maintenance alone Rs250-300 cr). FY24-26 actual: Rs631 / 992 / 1,188 cr.",
+ "depRateOnGrossBlock": 6.3,
+ "_depWhy": "FY26 Rs444 cr on an average gross block of Rs6,473 cr (6.9%); the gross block includes Rs1,190 cr of land, which is not depreciated, and the engine depreciates capex at once (CWIP flat). 6.3% gives ~Rs500 cr in FY27E, matching Q1FY27's Rs120 cr a quarter plus new plants ('close to Rs500 cr', CMD).",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net debt even after the QIP (Rs1,430 cr pro forma at Mar-26 on Screener's basis: borrowings incl. leases Rs3,623 cr less cash Rs179 cr, investments Rs14 cr and the Rs2,000 cr QIP), so no treasury yield; interest on the QIP cash until it is spent is in otherIncome.",
+ "otherIncome": [
+  75,
+  45,
+  40
+ ],
+ "_otherIncomeWhy": "Built, not plugged. FY26 Rs61 cr (AR note 2.2): deposit interest Rs4.8 cr, forex gain Rs27.4 cr (rupee fell to ~95/US$), asset-sale gain Rs14.3 cr (one-off), rent and others Rs14.9 cr. FY27E Rs75 cr = interest on undeployed QIP cash (~Rs700 cr on average at ~6.5% = ~Rs45 cr) + recurring rent/others ~Rs15 cr + forex ~Rs15 cr. Reconciles to Q1FY27 Rs24 cr (x4 = Rs95 cr) and the four quarters to Jun-26 (Rs81 cr). FY28-29E: the QIP cash is spent, so ~Rs45 / 40 cr.",
+ "interest": [
+  300,
+  280,
+  270
+ ],
+ "_interestLabel": "Interest (term loans, working capital, leases)",
+ "_interestWhy": "FY26 Rs309 cr on gross debt that rose from Rs2,358 cr to Rs3,623 cr (incl. leases); Q1FY27 Rs86 cr (Rs344 cr annualised) before the QIP. Part of the QIP prepays debt, but capex of Rs1,500 cr keeps gross debt near Rs3,000 cr: ~Rs72 cr a quarter from Q2 (FY27E Rs300 cr), then Rs280 / 270 cr as net debt / EBITDA falls towards 1.5x.",
+ "taxRate": [
+  26.5,
+  26,
+  25.5
+ ],
+ "_taxWhy": "FY26 28% (Sunbeam's losses carry no tax credit), Q1FY27 25%; India 25.2% plus German and loss-making units. Falls as Sunbeam turns profitable.",
+ "payout": [
+  7,
+  7,
+  7
+ ],
+ "_payoutWhy": "FY26 payout 7%, FY25 6%, FY24 8% (Screener): the company keeps cash for capex.",
+ "build": {
+  "_note": "Segment build (Rs crore). FY26 base = AR FY26 segment note. Segment EBIT is before unallocable corporate costs, other income and finance cost. Checked against model revenue and EBITDA in CRAFTSMAN.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "pt": 2178.9,
+   "al": 4788.8,
+   "ie": 1101.6
+  },
+  "ptGrowth": [
+   15,
+   15,
+   18
+  ],
+  "alGrowth": [
+   28,
+   16,
+   14
+  ],
+  "ieGrowth": [
+   25,
+   15,
+   12
+  ],
+  "ptMargin": [
+   17.5,
+   17,
+   17.5
+  ],
+  "alMargin": [
+   10.6,
+   11.3,
+   11.8
+  ],
+  "ieMargin": [
+   8,
+   8.5,
+   8.5
+  ],
+  "unallocated": [
+   125,
+   140,
+   155
+  ],
+  "_why": "Powertrain: Q1FY27 +26% from a weak base; CMD says it 'has come to a normal situation'; utilisation ~70%, truck demand muted, farm better; +15% in FY27-28, +18% in FY29 as large-engine castings reach ~50% of US$100 mn (~Rs475 cr). EBIT margin 16.6% in FY26, 18.3% in Q1FY27: 17.5% / 17.0% (large-engine start-up, lines at ~10% use) / 17.5%. Aluminium: FY27 +28% (Q1 +38%; Q2-Q4 ~Rs1,500-1,580 cr a quarter vs Rs1,203-1,310 cr a year earlier; Sunbeam exits lose 10-20% of its revenue); +16% / +14% as Hosur and the DR Axion plant fill. EBIT margin 10.3% in FY26, 10.1% in Q1: 10.6% / 11.3% / 11.8% (Sunbeam's turnaround, offset by new-plant depreciation; CMD: no 100-200bp gain 'at this rate'). Industrial & Engineering: Q1 +53% on material handling and storage ('not a one-time spike'); +25% / 15% / 12%; EBIT 4.4% in FY26, 9.1% in Q1: 8% / 8.5% / 8.5%. Unallocated corporate cost Rs110 cr in FY26 (Rs96 cr FY25); ~Rs30 cr in Q1FY27: Rs125 / 140 / 155 cr."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 16.5,
+  "fadeCapexPctTo": 6.5,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Cyclical CV, tractor and auto volumes, aluminium-price pass-through lags and a capex-heavy model: beta 1.1 (Ke 13.1%). After the QIP, net debt is ~5% of enterprise value, so a WACC would be only ~0.3pp lower; the engine discounts at the cost of equity (see the sensitivity grid).",
+  "_tgWhy": "House range 5-6%: 6% (India manufacturing and outsourcing by global OEMs keep growth above vehicle volumes).",
+  "_fadeGrowthWhy": "Revenue growth fades from ~15% to 8% over 15 years.",
+  "_fadeMarginWhy": "EBITDA margin ~16.5% in steady state (FY22-26 range 15-24%; mix has shifted to lower-margin aluminium).",
+  "_fadeCapexWhy": "Capex 6.5% of revenue in steady state (FY22-26: 10-17%, a build-out phase); depreciation 5.5%."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Aluminium wins (Hosur, DR Axion's new plant, exports) fill capacity faster, Sunbeam reaches mid-teens EBITDA on time, large-engine castings ramp a year early and the industrial upcycle lasts: growth ~4pp a year higher and EBITDA margin +0.8pp.",
+   "revenueGrowthDelta": 4,
+   "marginDelta": 0.8,
+   "fadeMarginTo": 17.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "A CV and tractor downturn, aluminium price swings that customers pass through late, Sunbeam's turnaround slipping and new plants running half empty: growth ~5pp a year lower and EBITDA margin -1.5pp.",
+   "revenueGrowthDelta": -5,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 15
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 25.5,
+      "bull": 28,
+      "bear": 17.5
+     },
+     "why": "How the street values Craftsman: P/E on FY28E EPS (Motilal Oswal 28x FY28E, 30-Jul-2026; Emkay uses EV/EBITDA). Multiple derived in CRAFTSMAN.ctx.js (own forward-P/E median x the auto-component de-rating) and written by syncMultiples()."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 8.5,
+      "bull": 9.5,
+      "bear": 6.5
+     },
+     "why": "Emkay's method (17x Jun-28E EV/EBITDA). Our multiple: own trailing EV/EBITDA median x the sector de-rating, restated from trailing to Sep-28E EBITDA; net debt deducted."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "15-year FCFF at Ke 13.1% and 6% terminal growth, less net debt (QIP cash included)."
+    }
+   ]
+  }
+ },
+ "esop": [
+  0,
+  0,
+  0
+ ]
+}
