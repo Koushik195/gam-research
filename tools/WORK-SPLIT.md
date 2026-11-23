@@ -152,9 +152,9 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 - B22 · published (B, 23-Nov-2026) · MOTHERSON published (SELL, 131), HYUNDAI published (HOLD, 2,160), BOSCHLTD published (SELL, 35,800), TMPV published (BUY, 380), BHARATFORG published (HOLD, 2,070)
 - B23 · published except SCHAEFFLER (B, 23-Nov-2026) · UNOMINDA published (HOLD, 1,180), SCHAEFFLER (blocked: December year-end, waits for engine support), ATHERENERG published (SELL, 1,010), MRF published (BUY, 1,46,570), SONACOMS published (SELL, 760)
-- B24 · claimed (B, 23-Nov-2026) · BALKRISIND published (HOLD, 2,430), TIINDIA, ENDURANCE published (HOLD, 2,770), EXIDEIND published (HOLD, 400), CRAFTSMAN published (SELL, 8,580)
+- B24 · published (B, 23-Nov-2026) · BALKRISIND published (HOLD, 2,430), TIINDIA published (BUY, 3,680), ENDURANCE published (HOLD, 2,770), EXIDEIND published (HOLD, 400), CRAFTSMAN published (SELL, 8,580)
 - B25 · claimed (B, 23-Nov-2026) · APOLLOTYRE, ZFCVINDIA, GABRIEL, MSUMI, ASAHIINDIA
-- B26 · queued · FORCEMOT, BELRISE, TENNIND, OLAELEC, MINDACORP
+- B26 · claimed (B, 23-Nov-2026) · FORCEMOT, BELRISE, TENNIND, OLAELEC, MINDACORP
 - B27 · queued · CIEINDIA, ARE&M, CEATLTD, JBMA, RKFORGE
 - B28 · queued · OLECTRA
 

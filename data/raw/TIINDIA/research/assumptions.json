@@ -1,0 +1,341 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Tube Investments of India (TII), consolidated, Rs crore. History is attributable to TII shareholders (Screener Net Profit replaced by Profit for EPS, see tools/authoring/TIINDIA.patch.js). The consolidated P&L is built from four blocks that sum to reported revenue and EBITDA: TII standalone, CG Power (100%), Shanthi Gears (100%) and a residual that is mostly TI Clean Mobility's EV start-up losses (with TI Medical, 3xper, Kcaltech, Sedis and eliminations). The tax line also carries minority interests (43.71% of CG Power, 29.54% of Shanthi Gears). The stock is valued as the street values it: a sum of the parts of the standalone business on P/E, the listed stakes at their 30-Sep-2026 closes less a holding-company discount, and the unlisted subsidiaries at cost. The standalone value and the discount are derived in tools/authoring/TIINDIA.val.js, which writes them into the parts below.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "sa",
+   "name": "TII standalone",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 8556,
+   "growth": [
+    13,
+    10,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    11.5,
+    12.3,
+    12.5
+   ],
+   "hist": {
+    "driver": "saRev",
+    "revenue": "saRev",
+    "adjEbitda": "saEbitda"
+   },
+   "_why": "Engineering (precision tubes, CRSS; 65% of segment revenue), metal formed products (chains, door frames; 19%), cycles (9%) and others (industrial chains, new businesses; 11%). FY26 +8.4%; Q1FY27 +17.9% (engineering volume +17%, MFP +11.5%, cycles +26%) before steel-price pass-through, which comes with a 2-3 quarter lag. FY27E +13% (strong Q1, then a higher base and price pass-through), FY28-29E +10% (engineering volumes ~7-8% plus new capacity in the west; MFP greenfield running 6 months late).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA = PBDIT less other income (AR). 12.2% FY23, 12.1% FY24, 12.2% FY25, 12.7% FY26; Q1FY27 ~10.4% (MOSL) as steel costs rose ahead of price resets. Management expects full recovery, including Q1's shortfall. FY27E 11.5% (recovery from Q2), FY28E 12.3%, FY29E 12.5% (cycles margin +2 points; no further engineering expansion assumed)."
+  },
+  {
+   "key": "cg",
+   "name": "CG Power (100%)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 12418,
+   "growth": [
+    15,
+    16,
+    15
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    12.5,
+    13.2,
+    13.6
+   ],
+   "hist": {
+    "driver": "cgRev",
+    "revenue": "cgRev",
+    "adjEbitda": "cgEbitda"
+   },
+   "_why": "Motors, drives, railway equipment (industrial systems), transformers and switchgear (power systems), and the new semiconductor businesses (CG Semi OSAT, Axiro). Revenue +25% in FY26, +14% in Q1FY27 (power systems +31%). New EHV switchgear plant from Jun-2026; CG Semi's G1 OSAT plant in production from Jul-2026. 15% / 16% / 15%. Consolidated for the P&L only: in the valuation TII's 56.29% is at market. CG Power is covered separately; we take no view on its own valuation here.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Screener EBITDA margin 13.2% FY26, 12.1% Q1FY27 as semiconductor start-up losses rose (segment loss Rs50 cr vs Rs9 cr). 12.5% / 13.2% / 13.6% as OSAT volumes ramp."
+  },
+  {
+   "key": "sg",
+   "name": "Shanthi Gears (100%)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 519,
+   "growth": [
+    -5,
+    12,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    16,
+    18,
+    19
+   ],
+   "hist": {
+    "driver": "sgRev",
+    "revenue": "sgRev",
+    "adjEbitda": "sgEbitda"
+   },
+   "_why": "Industrial gears and gearboxes (steel, cement, power, sugar). Revenue fell 14% in FY26 and 15% in Q1FY27 (Rs115 cr). FY27E -5% (weak H1, recovery in H2 on ~Rs100 cr of capex), then +12% a year.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin 21.3% FY25, 20.0% FY26, 13% Q1FY27. 16% / 18% / 19%."
+  },
+  {
+   "key": "res",
+   "name": "EV and new ventures (residual)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1354,
+   "growth": [
+    40,
+    35,
+    30
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -24,
+    -15,
+    -8
+   ],
+   "hist": {
+    "driver": "resRev",
+    "revenue": "resRev",
+    "adjEbitda": "resEbitda"
+   },
+   "_why": "Consolidated less standalone, CG Power and Shanthi Gears: TI Clean Mobility (EV segment revenue Rs683 cr FY26, Rs239 cr in Q1FY27, +77%), TI Medical (~20% growth guided), 3xper, Kcaltech, Sedis, less eliminations. Residual revenue Rs453 cr in Q1FY27 (+57%). +40% / +35% / +30%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Residual EBITDA -Rs538 cr FY25, -Rs550 cr FY26 (-41%), about -24% in Q1FY27 (EV segment loss Rs147 cr). Management: past peak quarterly losses, one EV business to break even in FY27 and two more in FY28. -24% / -15% / -8%: losses narrow but do not end in our forecast."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Corporate costs not in any block (inside the residual)",
+ "_unallocWhy": "Eliminations and unallocated items are inside the residual block, defined so that the four blocks sum to reported consolidated revenue and EBITDA.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  1800,
+  1700,
+  1600
+ ],
+ "_capexWhy": "Consolidated capex (Screener: FY24 Rs851 cr, FY25 Rs1,213 cr, FY26 Rs1,433 cr). FY27 guidance: TII ~Rs350 cr, Shanthi Gears ~Rs100 cr, group excluding CG Power Rs600-700 cr. CG Power's own capex (switchgear, transformers, CG Semi's OSAT plant) is not guided in our sources (gap): we assume ~Rs1,100 cr in FY27E, falling as the OSAT phase-1 spend ends.",
+ "depRateOnGrossBlock": 7.2,
+ "_depWhy": "FY26 depreciation Rs664 cr = 7.7% of average gross block; Q1FY27 Rs183 cr (Rs732 cr annualised). 7.2% gives ~Rs745 cr in FY27E.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Other income is entered as a build (below), not as a yield on the consolidated cash, because most of the cash sits in CG Power.",
+ "otherIncome": [
+  450,
+  480,
+  510
+ ],
+ "_otherIncomeWhy": "Screener other income before exceptional items ('other income normal'): FY25 Rs371 cr, FY26 Rs387 cr, TTM Jun-26 Rs447 cr (Q1FY27 Rs112 cr). Mostly CG Power's treasury income (Rs208 cr FY26, Rs84 cr in Q1FY27 after its QIP) plus TII's non-dividend other income (~Rs69 cr: grants, rent, MF gains) and Shanthi Gears (~Rs15 cr). TII's dividends from CG Power and Shanthi Gears cancel out on consolidation. Rs450 / 480 / 510 cr.",
+ "interest": [
+  70,
+  75,
+  80
+ ],
+ "_interestLabel": "Interest (incl. lease interest)",
+ "_interestWhy": "FY26 Rs79 cr (incl. ~Rs29 cr on leases), Q1FY27 Rs16 cr. Group gross debt Rs754 cr at Mar-26.",
+ "taxRate": [
+  62.5,
+  58,
+  55
+ ],
+ "_taxWhy": "The tax line also carries minorities (engine workaround, as in GODREJIND and UPL): 43.71% of CG Power's and 29.54% of Shanthi Gears' profits belong to other shareholders, and TICMPL's losses carry no tax credit. FY26: tax Rs734 cr + minorities Rs481 cr = 66% of PBT (Rs1,852 cr); FY25 59%. Our parts build (TII 25.2%, CG 26%, Shanthi 25%, residual untaxed) gives 62.5% / 58% / 55% as the untaxed losses shrink relative to profits.",
+ "saBuild": {
+  "dep": [
+   205,
+   220,
+   235
+  ],
+  "otherIncomeExDiv": [
+   70,
+   75,
+   80
+  ],
+  "interest": [
+   10,
+   10,
+   10
+  ],
+  "taxRate": 25.17,
+  "_why": "TII standalone profit before its dividends from CG Power and Shanthi Gears (they are valued at market, so their dividends must not be capitalised again in the P/E part). FY26 standalone: depreciation Rs188 cr (PBDIT 1,295 less PBIT 1,107), other income Rs211 cr of which Rs142 cr dividends from subsidiaries, interest ~Rs8 cr, tax 23.6% (statutory 25.17%). Core PAT FY26 = 821 - 142.27 x (1 - 25.17%) = Rs715 cr. Depreciation rises with ~Rs350 cr a year of capex; non-dividend other income Rs70-80 cr."
+ },
+ "payout": [
+  8,
+  8,
+  8
+ ],
+ "_payoutWhy": "TII has paid Rs3.50 a share every year since FY21 (~Rs68 cr, ~8-11% of attributable profit).",
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Steel costs are fully passed through and engineering volumes keep growing in double digits; CG Power grows ~20% with semiconductor losses fading fast; TICMPL breaks even on schedule and is worth what outside investors paid; the holding-company discount returns to its 2021-26 median.",
+   "segments": {
+    "sa": {
+     "growthDelta": 2,
+     "marginDelta": 0.7
+    },
+    "cg": {
+     "growthDelta": 4,
+     "marginDelta": 0.8
+    },
+    "sg": {
+     "marginDelta": 2
+    },
+    "res": {
+     "growthDelta": 5,
+     "marginDelta": 5
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Price resets lag again and margins stay near the Q1FY27 level; auto and industrial demand slows; CG Power's semiconductor ramp drags; TICMPL needs the full Rs750 cr programme and its equity is worth nothing; the discount stays as wide as on 30-Sep-2026.",
+   "segments": {
+    "sa": {
+     "growthDelta": -3,
+     "marginDelta": -1
+    },
+    "cg": {
+     "growthDelta": -5,
+     "marginDelta": -1.2
+    },
+    "sg": {
+     "marginDelta": -3
+    },
+    "res": {
+     "growthDelta": -10,
+     "marginDelta": -6
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 10,
+  "parts": [
+   {
+    "name": "TII standalone businesses: P/E on Sep-28E core EPS",
+    "adj": {
+     "base": 17420,
+     "bull": 21543,
+     "bear": 11930
+    },
+    "metricLabel": "Sep-28E core profit (½ FY28E + ½ FY29E, before CG/Shanthi dividends) ₹917 cr × 19x (bull 21x on ₹1,026 cr, bear 15.5x on ₹770 cr)",
+    "note": "TII's own one-year-forward P/E while the share was the standalone business only (listing to Mar-2020): median 20.8x, cut by the 9.4% auto-component de-rating at 30-Sep-2026."
+   },
+   {
+    "name": "CG Power: 56.29% stake at market",
+    "adj": {
+     "base": 75724,
+     "bull": 75724,
+     "bear": 75724
+    },
+    "metricLabel": "88.6 cr shares × ₹854.20 (NSE close, 30-Sep-2026)",
+    "note": "Subsidiary; 88,64,85,532 shares (AR FY26 note 6a)."
+   },
+   {
+    "name": "Shanthi Gears: 70.46% stake at market",
+    "adj": {
+     "base": 3135,
+     "bull": 3135,
+     "bear": 3135
+    },
+    "metricLabel": "5.41 cr shares × ₹579.90 (NSE close, 30-Sep-2026)",
+    "note": "Subsidiary; 5,40,57,475 shares (AR FY26 note 6a)."
+   },
+   {
+    "name": "Less: holding-company discount on the listed stakes",
+    "adj": {
+     "base": -26812,
+     "bull": 0,
+     "bear": -51258
+    },
+    "metricLabel": "Discount × listed stakes ₹78,858 cr (base 34%, bull 0%, bear 65%)",
+    "note": "Derived from TII's own discount at 21 quarter-ends since Jun-2021 (see Valuation)."
+   },
+   {
+    "name": "TI Clean Mobility: TII's investment",
+    "adj": {
+     "base": 1000,
+     "bull": 1576,
+     "bear": -473
+    },
+    "metricLabel": "Base: TII's cost ₹1,000 cr; bull: Mar-26 fair-value mark ₹1,576 cr; bear: equity worth nothing and the remaining ₹500 cr of the ₹750 cr programme lost (PV ₹473 cr)",
+    "note": "Outside investors (~₹1,780 cr) hold CCPS that convert only at an IPO; their stake was marked at ₹2,404.70 cr in Mar-2026."
+   },
+   {
+    "name": "Other unlisted subsidiaries at cost",
+    "adj": {
+     "base": 698,
+     "bull": 698,
+     "bear": 698
+    },
+    "metricLabel": "TI Medical ₹265 cr, 3xper ₹310 cr, Kcaltech ₹62 cr, Financière C10 (Sedis) ₹61 cr",
+    "note": "At TII's cost (AR FY26 note 6a; Q1FY27 deck)."
+   }
+  ],
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values TII (Motilal Oswal: standalone on P/E, listed subsidiaries at a holding-company discount): ~85% of the look-through value is the market value of CG Power and Shanthi Gears."
+    },
+    {
+     "key": "pe",
+     "name": "P/E on consolidated EPS",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 56.5,
+      "bull": 62.5,
+      "bear": 32.5
+     },
+     "why": "Own one-year-forward P/E on consolidated EPS since Apr-2021: median 62.3x (no trough years), cut by the 9.4% sector de-rating: 56.5x. Rough: consolidated EPS carries CG Power at earnings, not at its ~100x market multiple, and TICMPL's losses at 100%."
+    }
+   ]
+  }
+ }
+}
