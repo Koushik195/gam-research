@@ -1,0 +1,390 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Info Edge (India), consolidated, Rs crore. History is attributable to Info Edge shareholders (Screener Net Profit replaced by Profit for EPS, see tools/authoring/NAUKRI.patch.js); actual-year other income includes fair-value gains of the AIF trusts and Screener moves most of them to exceptional items. The consolidated P&L is built from four blocks that sum to reported revenue and EBITDA: the three standalone segments (Recruitment, 99acres, Jeevansathi + Shiksha), whose margins are segment results (after their own depreciation and finance costs), and a residual block of subsidiaries and eliminations (EBITDA basis). The 'unallocated' line reconciles segment results to EBITDA: standalone corporate costs less standalone depreciation and finance costs. Forecasts carry no fair-value gains. The stock is valued as the street values it: a sum of the parts of the operating businesses (Recruitment on P/E, 99acres and Jeevansathi/Shiksha on EV/sales), the Eternal and PB Fintech stakes at their 30-Sep-2026 closes less a holding-company discount, unlisted investments at book and cash. The parts are derived in tools/authoring/NAUKRI.val.js, which writes them below.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "rec",
+   "name": "Recruitment (Naukri)",
+   "driverLabel": "Revenue",
+   "marginLabel": "Segment result",
+   "base": 2255.9,
+   "growth": [
+    14.5,
+    13,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    59,
+    59.5,
+    60
+   ],
+   "hist": {
+    "driver": "recRev",
+    "revenue": "recRev",
+    "adjEbitda": "recRes"
+   },
+   "_why": "Naukri India (B2B), NaukriGulf, Job Hai, candidate services (Naukri 360/FastForward), AmbitionBox, Hirist. Revenue +9.8% FY25, +13.8% FY26, +13.0% in Q1FY27; billings, which lead revenue by about two quarters, +17.5% in Q1FY27 (GCCs +31%, IT/BPM +15%, consultants +1%, other sectors +12%; candidate services +35%) against +10% in FY26. FY27E +14.5% (billings momentum, deferred revenue Rs1,145 cr at Jun-26), FY28E +13%, FY29E +12%: hiring stays replacement-led; AI-Rex, Talent Pulse and price increases add 2-3 points.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment result (PBT before corporate costs): 59.9% FY23, 58.2% FY24, 56.3% FY25, 56.6% FY26, 58.3% in Q1FY27 (52.5% in Q1FY26; Q1 has been the weakest quarter). Management keeps investing in AI. 59% / 59.5% / 60%: half a point a year of operating leverage."
+  },
+  {
+   "key": "re",
+   "name": "99acres (real estate)",
+   "driverLabel": "Revenue",
+   "marginLabel": "Segment result",
+   "base": 488.1,
+   "growth": [
+    15,
+    17,
+    17
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    1.5,
+    7,
+    12
+   ],
+   "hist": {
+    "driver": "reRev",
+    "revenue": "reRev",
+    "adjEbitda": "reRes"
+   },
+   "_why": "Real-estate classifieds (new projects, resale, rental). Revenue +16.9% FY25, +18.8% FY26 (including a one-off Rs20.5 cr provision write-back in Q4FY26), +17.3% in Q1FY27; billings +16.5% in Q1FY27 after +1.9% in Q4FY26 (sales re-organisation). Traffic share ~49-55%. Management aims to double billings in about three years. 15% FY27E (about 20% excluding the FY26 one-off), 17% FY28-29E.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Segment result -24% FY23, -20% FY24, -12% FY25, -12% FY26, -1.6% in Q1FY27 (-17% a year earlier). Management: cash-generative during FY27, 25-30% margins in the long run. 1.5% / 7% / 12%."
+  },
+  {
+   "key": "oth",
+   "name": "Jeevansathi + Shiksha",
+   "driverLabel": "Revenue",
+   "marginLabel": "Segment result",
+   "base": 308,
+   "growth": [
+    3,
+    8,
+    9
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    4,
+    5,
+    6
+   ],
+   "hist": {
+    "driver": "othRev",
+    "revenue": "othRev",
+    "adjEbitda": "othRes"
+   },
+   "_why": "Jeevansathi (matrimony, FY26 revenue Rs138 cr, billings +28%) and Shiksha (education, Rs170 cr). Q1FY27: Jeevansathi revenue +14%, Shiksha -12% (billings -23%) as AI search answers cut referred traffic. FY27E +3%, then +8% / +9% as Jeevansathi's share rises.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Combined result -52% FY23, -25% FY24, -5% FY25, +2.9% FY26, +5.1% in Q1FY27 (Jeevansathi Rs1 cr, Shiksha Rs3 cr). 4% / 5% / 6%."
+  },
+  {
+   "key": "res",
+   "name": "Subsidiaries and eliminations",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 233,
+   "growth": [
+    8,
+    12,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -32,
+    -24,
+    -18
+   ],
+   "hist": {
+    "driver": "resRev",
+    "revenue": "resRev",
+    "adjEbitda": "resEbitda"
+   },
+   "_why": "Consolidated less standalone: Aisle (matchmaking app), Coding Ninjas (Sunrise Mentors, 100% from Jul-2026), Zwayam and DoSelect (recruitment software), 4B Networks and the AIF trusts' running costs, less eliminations. Revenue Rs233 cr FY26; Q1FY27 Rs56 cr (+3%). +8% / +12% / +12%.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA -Rs244 cr FY24, -Rs199 cr FY25, -Rs62 cr FY26; about -Rs22 cr in Q1FY27 (consolidated 'others' segment lost Rs26 cr against +Rs4 cr standalone). -32% / -24% / -18%: Aisle near break-even, Coding Ninjas still losing money."
+  }
+ ],
+ "unallocated": [
+  -18,
+  -17,
+  -16
+ ],
+ "_unallocLabel": "Corporate costs less standalone D&A and finance costs",
+ "_unallocWhy": "Segment results are struck after each segment's depreciation and finance costs, so EBITDA = segment results - corporate costs + standalone D&A + finance costs. Corporate costs Rs89 cr FY26 (Rs25 cr Q1FY27) rising to Rs100 / 110 / 120 cr; standalone D&A Rs89 cr FY26 (Rs24 cr Q1) to Rs97 / 105 / 113 cr; finance costs (leases) Rs21 cr to Rs21 / 22 / 23 cr. Net -Rs18 / -17 / -16 cr (FY26: -Rs21 cr).",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  85,
+  95,
+  105
+ ],
+ "_capexWhy": "Asset-light: consolidated capex ~Rs83 cr FY25 and ~Rs73 cr FY26 (Screener CFO less FCF), mostly computers and office fit-outs. Rs85 / 95 / 105 cr.",
+ "depRateOnGrossBlock": 5.7,
+ "_depWhy": "FY26 D&A Rs123 cr = 5.7% of average gross block (Rs2,159 cr incl. Rs1,334 cr of acquired intangibles and goodwill); Q1FY27 Rs31 cr. 5.7% gives ~Rs128 cr in FY27E.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Other income is entered as a build (below), not as a yield on the model's treasury line, because that line also holds the Eternal and PB Fintech stakes (no income) and is net of deferred tax and minorities.",
+ "otherIncome": [
+  380,
+  410,
+  440
+ ],
+ "_otherIncomeWhy": "Treasury income on Info Edge's cash (Rs4,963 cr at Mar-26, Rs5,034 cr at Jun-26, in bank deposits and debt funds): standalone other income Rs314 cr FY25, Rs335 cr FY26, Rs93 cr in Q1FY27 (Rs373 cr annualised), ~7% on average cash; plus ~Rs5-10 cr in subsidiaries. Cash grows ~Rs600 cr a year after dividends. No fair-value gains on the AIF portfolios or the listed stakes are forecast (Rs821 cr of such gains sat in FY26 reported other income).",
+ "interest": [
+  26,
+  27,
+  28
+ ],
+ "_interestLabel": "Interest (lease interest)",
+ "_interestWhy": "Consolidated finance costs Rs27 cr FY26 (Rs21 cr standalone, almost all on office leases), Rs6 cr in Q1FY27. No borrowings of substance.",
+ "taxRate": [
+  26.8,
+  26.4,
+  26.2
+ ],
+ "_taxWhy": "Standalone profit is taxed at ~25.2%; subsidiaries' losses carry no tax credit, and forecasts assume no fair-value gains (so no minorities of note). Our build: standalone PBT x 25.2% / consolidated PBT = 26.8% / 26.4% / 26.2%. FY26 reported 33% includes deferred tax on fair-value gains.",
+ "payout": [
+  50,
+  50,
+  50
+ ],
+ "_payoutWhy": "FY26 DPS Rs8.40 (two interims of Rs2.40 and a final of Rs3.60) = 49% of standalone EPS before exceptional items, 38% of consolidated EPS (which included fair-value gains). 50% of forecast consolidated EPS.",
+ "saBuild": {
+  "unalloc": [
+   100,
+   110,
+   120
+  ],
+  "dep": [
+   97,
+   105,
+   113
+  ],
+  "fin": [
+   21,
+   22,
+   23
+  ],
+  "taxRate": 25.17,
+  "_why": "Standalone build used for the valuation: Recruitment is valued on its segment result less ALL standalone corporate costs (Rs89 cr FY26; Rs100 / 110 / 120 cr), taxed at the 25.17% statutory rate. Standalone D&A and finance costs are only used to reconcile segment results to EBITDA (see unallocated)."
+ },
+ "otherTreasury": {
+  "base": -3804,
+  "_why": "Moves non-operating items out of working capital and into the treasury line: + bank deposits inside other financial assets (Rs3,640 cr, AR FY26 note 4(f)) - non-controlling interests (Rs2,456 cr, outside investors in the AIFs) - deferred tax liabilities (Rs4,988 cr, mostly on unrealised gains in the Eternal and PB Fintech stakes). Working capital then reflects deferred sales revenue (contract liabilities Rs1,534 cr). Treasury = cash + investments (incl. the listed stakes at their Mar-26 book value) + deposits - borrowings - NCI - deferred tax."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Hiring recovers beyond GCCs and AI products lift Naukri's growth to 16-17% at a 60%+ margin; 99acres reaches double-digit margins a year early; Recruitment earns JM Financial's 30x; the market values the stakes at full market value (no discount), as Info Edge's own history since 2021 would suggest.",
+   "segments": {
+    "rec": {
+     "growthDelta": 2,
+     "marginDelta": 1
+    },
+    "re": {
+     "growthDelta": 5,
+     "marginDelta": 4
+    },
+    "oth": {
+     "growthDelta": 3,
+     "marginDelta": 2
+    },
+    "res": {
+     "marginDelta": 6
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "AI cuts white-collar hiring and recruiters' need for Naukri's database; Recruitment grows ~10% with margins stuck at FY26 levels; 99acres stays loss-making; Recruitment re-rates to IndiaMART's 20x; the holding-company discount returns to its Jun-2026 peak.",
+   "segments": {
+    "rec": {
+     "growthDelta": -4,
+     "marginDelta": -2.5
+    },
+    "re": {
+     "growthDelta": -6,
+     "marginDelta": -5
+    },
+    "oth": {
+     "growthDelta": -5,
+     "marginDelta": -3
+    },
+    "res": {
+     "marginDelta": -8
+    }
+   }
+  }
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 6,
+  "years": 10,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 45,
+  "fadeCapexPctTo": 2.5,
+  "depPctOfSales": 3,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Debt-free, cash-rich classifieds business with cyclical hiring exposure: beta 0.9 gives an 11.9% cost of equity (= WACC). Motilal Oswal uses an 11% WACC.",
+  "_tgWhy": "6%: nominal GDP-like growth after ten years.",
+  "_fadeGrowthWhy": "Consolidated revenue growth fades from ~12% (FY29E) to 7% by year ten.",
+  "_fadeMarginWhy": "EBITDA margin drifts from ~43% (FY29E) to 45% as 99acres matures and subsidiaries' losses shrink.",
+  "_fadeCapexWhy": "Capex ~2.5% of revenue (2-3% historically).",
+  "_note": "The DCF values the consolidated operating business and adds the model's treasury line, which carries the Eternal and PB Fintech stakes at their Mar-2026 book values (Rs229 and Rs1,428 a share) net of deferred tax and minorities, with no holding-company discount. It is a cross-check only."
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 10,
+  "parts": [
+   {
+    "name": "Recruitment (Naukri): P/E on Sep-28E profit after corporate costs",
+    "adj": {
+     "base": 30493,
+     "bull": 41533,
+     "bear": 22495
+    },
+    "metricLabel": "₹1,298 cr × 23.5x (bull 30x on ₹1,384 cr, bear 20x on ₹1,125 cr)",
+    "note": "Median of the two current street multiples: JM Financial 30x (Jul-2026) and Motilal Oswal's DCF value of Naukri (₹22,200 cr), 17.1x our Sep-28E profit. Profit = segment result less all corporate costs, taxed at 25.17%."
+   },
+   {
+    "name": "99acres: EV/sales on Sep-28E revenue",
+    "adj": {
+     "base": 2672,
+     "bull": 3173,
+     "bear": 2181
+    },
+    "metricLabel": "₹713 cr × 3.75x (bull 4x, bear 3.5x)",
+    "note": "Median of JM Financial (4x Mar-28E sales) and Motilal Oswal (DCF value ₹2,500 cr, ~3.5x our Sep-28E revenue)."
+   },
+   {
+    "name": "Jeevansathi + Shiksha: EV/sales on Sep-28E revenue",
+    "adj": {
+     "base": 716,
+     "bull": 768,
+     "bear": 476
+    },
+    "metricLabel": "₹358 cr × 2x (bear 1.5x)",
+    "note": "JM Financial's 2x; Motilal Oswal's 10x FY27E sales is an outlier for a 4%-margin business with a shrinking Shiksha (shown as a sensitivity)."
+   },
+   {
+    "name": "Eternal: 12.43% stake at market",
+    "adj": {
+     "base": 38386,
+     "bull": 38386,
+     "bear": 38386
+    },
+    "metricLabel": "120.0 cr shares × ₹320.00 (NSE close, 30-Sep-2026)",
+    "note": "Group holding 1,19,95,64,695 shares (AR FY26 consolidated investment note; unchanged since the Jul-2021 IPO)."
+   },
+   {
+    "name": "PB Fintech: 12.12% stake at market",
+    "adj": {
+     "base": 6116,
+     "bull": 6116,
+     "bear": 6116
+    },
+    "metricLabel": "5.75 cr shares × ₹1063.90 (NSE close, 30-Sep-2026)",
+    "note": "2.75 cr shares held since before Mar-2023 plus 2.99 cr received in Aug-2025 for the Makesense joint venture (AR FY26)."
+   },
+   {
+    "name": "Less: holding-company discount on the listed stakes",
+    "adj": {
+     "base": -4005,
+     "bull": 0,
+     "bear": -17801
+    },
+    "metricLabel": "Discount × listed stakes ₹44,502 cr (base 9%, bull 0%, bear 40%)",
+    "note": "Derived from Info Edge's own discount at quarter-ends since Sep-2021 (base: median since 2025-09; see Valuation)."
+   },
+   {
+    "name": "Unlisted investments and strategic subsidiaries at book",
+    "adj": {
+     "base": 2828,
+     "bull": 2828,
+     "bear": 2828
+    },
+    "metricLabel": "Info Edge's share of unlisted investments ₹2,476 cr (consolidated unquoted ₹4,932 cr less minorities ₹2,456 cr, Mar-26) + strategic subsidiaries ₹352 cr (Jun-26)",
+    "note": "AIF portfolios, balance-sheet start-up stakes and joint ventures (Adda247, Shipsy, Unnati, NoPaperForms); Aisle, Zwayam, DoSelect and Coding Ninjas at carrying value."
+   },
+   {
+    "name": "Cash (incl. wholly owned subsidiaries)",
+    "adj": {
+     "base": 5034,
+     "bull": 5034,
+     "bear": 5034
+    },
+    "metricLabel": "₹5,034 cr at 30-Jun-2026",
+    "note": "Bank deposits and debt funds (Q1FY27 deck); no debt other than leases."
+   }
+  ],
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values Info Edge (JM Financial, Motilal Oswal, ICICI Securities): Recruitment on P/E or DCF, 99acres and the smaller verticals on EV/sales or DCF, Eternal and PB Fintech at market (JM less a 25% holding-company discount), other investments at book and cash. The listed stakes are ~56% of the market value."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF (consolidated, stakes at book)",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Consolidated free cash flow at an 11.9% cost of equity and 6% terminal growth, plus the treasury line (listed stakes at Mar-26 book, net of deferred tax)."
+    },
+    {
+     "key": "pe",
+     "name": "P/E on consolidated EPS",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 28,
+      "bull": 68,
+      "bear": 23
+     },
+     "why": "Own one-year-forward P/E on consolidated EPS since Apr-2021: median 68.0x (FY24-25 forward years left out as troughs), cut by the 58.7% sector move (IndiaMART): 28x. Rough: consolidated EPS carries only the treasury income of the cash and none of the value of the Eternal and PB Fintech stakes."
+    }
+   ]
+  }
+ }
+}
