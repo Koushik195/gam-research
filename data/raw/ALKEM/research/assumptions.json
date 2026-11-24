@@ -1,0 +1,182 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Alkem Laboratories (consolidated, ₹ crore). Net profit history is attributable to owners (tools/authoring/ALKEM.patch.js); forecast profit includes minorities (the engine has no minority line), and ALKEM.ctx.js deducts them to get EPS to shareholders, the basis of the target. Alkem reports one segment (pharmaceuticals) and sales by business (India, US, other international, other operating income), so the engine runs on one revenue-growth path and one EBITDA-margin path; the business-line build sits in `businessLines` and the authoring script checks that it sums to model revenue. Other income = treasury yield × opening net cash + recurring non-treasury items (built in ALKEM.ctx.js). Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  12.768,
+  11.551,
+  9.913
+ ],
+ "_revenueWhy": "Built by business (see businessLines; ALKEM.ctx.js checks the sum). FY27E +12.8%: India +11% (Q1 +10.3% with trade generics flat and branded generics +12%; the MD expects ~12% for the year, 'could end up close to 12%', 14-Aug-2026 call; we stay 1pp below because trade generics have grown ~4% a year since the carve-out); US +6% in rupees (Q1 +6.5%; guidance 'high single digit to mid', helped by the weaker rupee; Q2 laps a +33% quarter from the sacubitril-valsartan launch; tolvaptan launch in Q2); other international +18% organic (Q1 +34.5%; guidance 'higher teens'); Occlutech ₹400 cr for ~8.5 months (management target, consolidated from mid-Jul-2026); other operating income ₹90 cr (Q1 ₹20 cr vs ₹52 cr a year earlier as Sikkim GST incentives fade). FY28E +11.6%: India +11%, US +5%, international +15%, a full year of Occlutech (₹650 cr). FY29E +9.9%: India +10.5%, US +4% (price erosion on tolvaptan and FY27 launches; the Daman OAI slows new approvals), international +14%, Occlutech ₹750 cr.",
+ "businessLines": {
+  "_why": "Sales by business, Q4FY26 investor presentation (FY26: India ₹9,851.4 cr incl. trade generics, Enzene India biosimilars and the MedTech units; US ₹2,984.5 cr incl. Enzene's US CDMO; other international ₹1,696.4 cr; other operating income ₹179.9 cr = ₹14,712.2 cr). Occlutech (55% owned, consolidated 100% from mid-Jul-2026) is shown as its own line; the company has not said in which line it will report it.",
+  "base": {
+   "india": 9851.4,
+   "us": 2984.5,
+   "row": 1696.4
+  },
+  "growth": {
+   "india": [
+    11,
+    11,
+    10.5
+   ],
+   "us": [
+    6,
+    5,
+    4
+   ],
+   "row": [
+    18,
+    15,
+    14
+   ]
+  },
+  "occlutech": [
+   400,
+   650,
+   750
+  ],
+  "otherOp": [
+   90,
+   95,
+   100
+  ]
+ },
+ "ebitdaMargin": [
+  20,
+  20.8,
+  21.3
+ ],
+ "_marginWhy": "Company EBITDA margin (excluding other income): 19.4% FY25, 20.4% FY26 (21.9/23.0/22.2/14.4% by quarter; Q4 carries the year's peak R&D), 20.5% in Q1FY27 (−145bp YoY) despite a ten-year-high 67.9% gross margin, because staff costs rose 17% (1,200 more reps, increments, Enzene US) and other expenses 25% (Enzene US CDMO opex ~₹60 cr a quarter, Occlutech due diligence, the weak rupee on overseas costs). Guidance: 20-21% for FY27 before Occlutech (Q4FY26 call, 28-May-2026); gross margin 66.5-67% for the rest of FY27 as higher-cost API inventory flows through (Q1 call). FY27E 20.0%: the bottom of the range, because Occlutech (₹400 cr at breakeven EBITDA, management) dilutes ~50bp and the US CDMO will not break even within 12 months (MD). FY28E 20.8%: CDMO revenue towards the $25-30mn breakeven run-rate, Occlutech margin +7-8pp a year (CFO), India mix. FY29E 21.3%. Each 1pp of margin is ~₹185 cr of EBITDA (~5% of FY28E EPS).",
+ "capex": [
+  1650,
+  600,
+  650
+ ],
+ "_capexWhy": "Capex (fixed assets bought) ₹676 cr in FY25 and ₹617 cr in FY26, lifted by Enzene's $50mn New Jersey plant (₹233-339 cr a year in FY22-24; Screener cash flow); further US CDMO capacity 'will not be this year' (MD, Q1 call). We take ₹550 cr of capex in FY27E plus ₹1,100 cr for 55% of Occlutech (Board approval of up to ₹1,100 cr for 51-55%, 13-Feb-2026; closed mid-Jul-2026), then ₹600 / 650 cr. The engine depreciates the acquisition like other capex (~₹70 cr a year), a stand-in for Occlutech's own D&A and the purchase-price amortisation (Occlutech's CY25 EBITDA ~€2mn against a ~€6.8mn net loss, MOSL company update 18-Feb-2026).",
+ "depRateOnGrossBlock": 6.5,
+ "_depWhy": "FY26 D&A ₹382 cr = 7.1% of average gross block (₹4,720 → ₹6,070 cr; the US plant was capitalised during the year); Q1FY27 ₹100 cr (₹400 cr annualised). The engine depreciates capex at once while CWIP is held flat, so 6.5%: FY27E ~₹450 cr incl. Occlutech.",
+ "otherTreasury": {
+  "base": 4770.7,
+  "_why": "(a) +₹3,495.3 cr of bank and NBFC deposits held in other financial assets (AR FY26 notes 3.4 and 3.10: bank deposits over 12 months ₹2,428 cr and NBFC deposits ₹1,165 cr), which takes the model's opening net cash to the company's ₹5,474 cr at Mar-26 (Q4FY26 deck) less ₹423.7 cr of lease liabilities that Screener counts as borrowings; (b) +₹1,804.2 cr net deferred tax (DTA ₹1,819.4 cr incl. ₹1,484.7 cr MAT credit, less DTL ₹15.1 cr) and (c) −₹528.8 cr non-controlling interests, both taken out of working capital; (b) and (c) are offset in ALKEM.patch.js (Investments −₹1,275.4 cr, CWIP +₹1,275.4 cr), so net cash is unchanged. Working capital becomes 22.7% of sales (31.4% unadjusted)."
+ },
+ "treasuryYield": [
+  6.9,
+  6.9,
+  6.9
+ ],
+ "_treasuryWhy": "FY26 treasury income ₹445.4 cr (bank-deposit interest ₹309.5 cr + bonds and debentures ₹82.1 cr + gains on sale of investments ₹64.7 cr − fair-value loss ₹10.9 cr; AR FY26 note 3.20) on average gross treasury of ₹6,474 cr (₹5,788 cr Mar-25, ₹7,160 cr Mar-26: cash, deposits, bonds and funds) = 6.9%. Applied to the engine's opening net cash; the income on cash matched by borrowings and leases is the first recurring item below.",
+ "otherIncome": [
+  194.3,
+  194.3,
+  194.3
+ ],
+ "_otherIncomeWhy": "Non-treasury and gross-up items, built in ALKEM.ctx.js: (1) 6.9% on the ₹2,047 cr of gross borrowings and leases (held flat), because Alkem borrows against its deposits (₹218 cr of overdrafts are secured on fixed deposits and ~₹840 cr of deposits are under lien; AR FY26 notes 3.4, 3.10 and 3.13) and earns the deposit yield on the gross amount while the interest line carries the cost: ₹141.2 cr; (2) recurring items: liabilities written back ₹24.5 cr + miscellaneous income ₹28.6 cr = ₹53.1 cr (FY26). Left out: FX gains (₹84.9 cr in FY26, ₹38.0 cr in FY25), which swing with the rupee. FY27E total ₹543 cr vs ₹583 cr in FY26 (₹498 cr excluding FX) and ₹600 cr in the twelve months to Jun-26.",
+ "interest": [
+  190,
+  195,
+  200
+ ],
+ "_interestLabel": "Finance cost (overdrafts, leases, employee-benefit interest)",
+ "_interestWhy": "FY26 ₹160.8 cr: overdrafts and others ₹95.7 cr, interest on defined-benefit liabilities ₹20.2 cr, other borrowing costs ₹44.8 cr (AR FY26 note 3.24); Q1FY27 ₹46.6 cr (₹186 cr annualised). FY27E ₹190 cr adds Occlutech's borrowing cost from mid-July; +₹5 cr a year after.",
+ "taxRate": [
+  31,
+  30,
+  29
+ ],
+ "_taxWhy": "Effective tax 12.3% in FY25 and 18.0% in FY26, when 24pp came off from tax-holiday units in Sikkim (section 80-IE; AR FY26 note 3.7B). From FY27 Alkem and one Indian subsidiary move to the new 25.17% regime (Finance Act 2026 lets MAT credit be set off under it); the CFO guides 27-29% standalone and 30-32% consolidated because losses at Enzene US and other start-ups carry no deferred-tax credit (Q1 call). Q1FY27: 32.4%. We use 31% for FY27E, 30% for FY28E and 29% for FY29E as the US CDMO loss narrows. Book tax only: the ₹1,485 cr MAT credit lowers cash tax, which the engine does not see.",
+ "payout": [
+  30,
+  28,
+  27
+ ],
+ "_payoutWhy": "FY26 dividend ₹53 a share (interim ₹43 + final ₹10) = 27.5% of EPS; FY25 ₹50 (27.6%). The CFO said the absolute dividend will be broadly maintained as the tax rate rises (Q4FY26 call), so the payout ratio rises in FY27E.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.8,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 21.5,
+  "fadeCapexPctTo": 3.5,
+  "depPctOfSales": 2.6,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, two-thirds of sales in Indian branded generics; but US earnings swing with plant inspections (Daman OAI) and the new businesses (CDMO, MedTech) are loss-making. Ke 11.3%, as for Cipla.",
+  "_tgWhy": "5.5%: the Indian pharmaceutical market grows ~9-10% a year in value, US generics low single digit in dollars; a blend near 5.5% in rupees.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% to 7% (India ~9-10%, the US flat in dollars, international high single digit).",
+  "_fadeMarginWhy": "21.5%: FY29E's 21.3% plus a little operating leverage once the CDMO and Occlutech break even; Alkem's best year was 21.9% (FY21).",
+  "_fadeCapexWhy": "Capex settles at 3.5% of revenue (FY24-26 average 3.8% including the US CDMO plant, ~2.8% without it); depreciation 2.6% of revenue (FY26 2.6%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "India grows 1.5x the market again (chronic, semaglutide, trade generics back to high single digit), the Daman OAI is closed within 6-12 months as management expects, tolvaptan holds price, the US CDMO reaches its $25-30mn breakeven in FY28 and Occlutech hits its margin targets early.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 1,
+   "fadeMarginTo": 22.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Daman's OAI becomes a warning letter (45% of US sales come from the site), new US approvals stall and price erosion returns; trade generics stay flat; the CDMO and Occlutech keep losing money into FY29; API costs squeeze gross margin back to 65%.",
+   "revenueGrowthDelta": -2.5,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 19.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 28.94,
+      "bull": 33.42,
+      "bear": 22.01
+     },
+     "why": "How the street values Alkem: P/E (MOSL 27x 12-month-forward EPS, Choice 25x FY28E, BOBCAPS 21x Jun-28E; Nuvama's last public note used SOTP). 29.5x Sep-28E EPS to shareholders = Alkem's 26.6x median one-year-forward P/E since Apr-2021 on EPS before exceptional items (A18; 26.6x on reported EPS; no trough years) x the pharma sector factor of 1.1025 (median of SUNPHARMA, DIVISLAB, TORNTPHARM, ZYDUSLIFE, CIPLA, AUROPHARMA, IPCALAB, ABBOTINDIA trailing P/E at the 30-Sep close vs their five-year medians, excluding Alkem: +10.25%, PLAYBOOK §7c A20) = 29.3x, rounded to the nearest half-turn. Bull 34x / bear 22.5x = 75th / 25th percentile (30.7x / 20.5x) x the factor. The engine's EPS includes minorities, so the multiple here is the equivalent on engine EPS: 29.5x x 227.8 / 232.2 = 28.94x. No growth, returns or own-de-rating adjustment (sensitivity rows only)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-27E (trailing at the target date)",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "multiple": {
+      "base": 22.5,
+      "bull": 24,
+      "bear": 20.5
+     },
+     "why": "Cross-check. Alkem's median trailing EV/EBITDA since Apr-2021 is 20.6x (Screener); times the EV/EBITDA analogue of the sector factor (+9.1%, same eight peers) = 22.5x, rounded to 22.5x and applied to trailing EBITDA at the target date (half FY27E + half FY28E) with net cash at Sep-2027. Bull 24x / bear 20.5x = 75th / 25th percentile x the factor."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at an 11.3% cost of equity, terminal growth 5.5%, plus net cash."
+    }
+   ]
+  }
+ }
+}

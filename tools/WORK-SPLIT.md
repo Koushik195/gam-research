@@ -69,7 +69,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 - A18 · published (A, 23-Nov-2026) · SUNPHARMA published (HOLD, 1,800), DIVISLAB published (SELL, 8,710), TORNTPHARM published (SELL, 4,260), ZYDUSLIFE published (SELL, 950), CIPLA published (BUY, 1,670)
 - A19 · published (A, 23-Nov-2026) · LAURUSLABS published (SELL, 1,150), DRREDDY published (HOLD, 1,200), MANKIND published (BUY, 3,490), AUROPHARMA published (HOLD, 1,660), LUPIN published (HOLD, 1,950)
-- A20 · claimed (A, 24-Nov-2026) · GLENMARK, ALKEM, ABBOTINDIA, BIOCON, IPCALAB
+- A20 · claimed (A, 24-Nov-2026) · GLENMARK, ALKEM published (BUY, 6,720), ABBOTINDIA, BIOCON, IPCALAB
 - A21 · queued · GLAND, ANTHEM, AJANTPHARM, GLAXO, EMCURE
 - A22 · queued · LALPATHLAB, SAILIFE, WOCKPHARMA, ACUTAAS, PPLPHARMA
 - A23 · queued · NEULANDLAB, GRANULES, COHANCE, CAPLIPOINT, NATCOPHARM
@@ -165,7 +165,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 ### Consumer Services (21)
 
-- B29 · claimed (B, 24-Nov-2026) · ETERNAL, DMART, TRENT, INDHOTEL, LENSKART
+- B29 · claimed (B, 24-Nov-2026; ETERNAL, DMART, INDHOTEL in progress; TRENT, LENSKART later) · ETERNAL, DMART, TRENT, INDHOTEL, LENSKART
 - B30 · queued · MEESHO, NYKAA, NAUKRI, VMM, IRCTC
 - B31 · queued · PWL, ITCHOTELS, JUBLFOOD, URBANCO, EIHOTEL
 - B32 · queued · TBOTEK, DEVYANI, INDIAMART, BLS, LEMONTREE

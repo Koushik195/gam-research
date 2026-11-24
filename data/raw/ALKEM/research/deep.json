@@ -1,0 +1,104 @@
+{
+ "asOf": "2026-09-30",
+ "units": "₹ crore unless stated",
+ "industry": {
+  "ipm": "The Indian pharmaceutical market (IPM) was ~₹2.15 lakh crore at chemist level in FY26 (IQVIA SSA MAT Mar-26; cardiac ₹30,287 cr = 14.1%) and grew 9.0%; growth rose to 12.2% in the Jun-2026 quarter (acute 10.1%, chronic 15.4%), helped by generic semaglutide after its Mar-2026 patent expiry. Alkem's four biggest therapies are acute and grew slowly market-wide in FY26: anti-infectives +4.0%, gastro +5.7%, pain +7.2%, VMN +9.2%; the fast lanes were cardiac +13.8%, anti-diabetic +11.5% and respiratory +11.3%.",
+  "therapy": [["Cardiac", 30287, 14.1, 13.8], ["Gastrointestinal", 23397, 10.9, 5.7], ["Anti-infectives", 21466, 10.0, 4.0], ["Anti-diabetic", 20884, 9.7, 11.5], ["Respiratory", 18287, 8.5, 11.3], ["Vitamins/minerals/nutrients", 17300, 8.1, 9.2], ["Pain/analgesics", 16786, 7.8, 7.2], ["Dermatology", 15005, 7.0, 6.1], ["Neuro/CNS", 13418, 6.3, 9.8], ["Gynaecology", 9617, 4.5, 7.8]],
+  "therapySrc": "AR FY26 MD&A p. 80 (IQVIA SSA MAT Mar-2026): sales ₹ cr, share of IPM %, FY26 growth %",
+  "alkemRanks": [["Anti-infectives", "1", "13.3%", "12.2%", "13.2%"], ["Gastro-intestinal", "4", "7.9%", "12.2%", "10.2%"], ["Vitamins/minerals/nutrients", "2", "6.8%", "21.4%", "15.1%"], ["Pain/analgesics", "3", "5.6%", "20.2%", "11.5%"], ["Anti-diabetic", "13", "2.3%", "21.1%", "15.5%"], ["Neuro/CNS", "8", "2.4%", "8.7%", "12.0%"], ["Respiratory", "14", "1.5%", "16.8%", "10.5%"], ["Dermatology", "19", "1.6%", "16.5%", "10.3%"]],
+  "alkemRanksSrc": "Q1FY27 presentation p. 8 (IQVIA SSA quarter Jun-26): rank by value, market share, Alkem growth, IPM growth in the therapy",
+  "themes": [
+   ["Chronic shift", "Mixed for Alkem", "Chronic grows ~1.2-1.5x acute; Alkem's chronic share is ~22-23% of branded sales and rises ~1pp a year (CEO, Q4FY26 call), so most of Alkem sits in the slower half."],
+   ["Acute anti-infectives", "Headwind", "The category grew only 4% in FY26; oral liquids and injectables struggled (CEO). Alkem is #1 with a 13% share: leadership in a slow market."],
+   ["Semaglutide / GLP-1 generics", "Small tailwind", "Alkem launched on day one (Mar-2026) and is top-3 among generics, but the contribution is 'very small' (MD, Aug-2026); prices are falling fast."],
+   ["Trade generics", "Headwind", "Alkem is #1-2, but 'a lot of big guys have entered' (MD); growth ~4% in FY26 and flat in Q1FY27 as Alkem tightened credit."],
+   ["Price control (NLEM/DPCO) and UCPMP", "Headwind", "Scheduled drugs rise only with WPI; many old acute molecules are scheduled. The Uniform Code for Pharmaceutical Marketing Practices (2024) restricts gifts and sponsored travel for doctors; GST on most medicines was cut to 5% from Sep-2025."],
+   ["US generics", "Headwind", "Volume growth absent in new launches; price erosion 'bottomed out' (MD); Indian plants face rising USFDA scrutiny (Alkem's Daman OAI)."],
+   ["Biologics CDMO / BIOSECURE", "Option", "US buyers want non-Chinese biologics capacity, but 'big companies take a lot of time' and are building their own (MD, May-2026)."]
+  ],
+  "src": "AR FY26 MD&A pp. 80-89; Q4FY26 and Q1FY27 presentations and calls"
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "IPCALAB", "ABBOTINDIA"],
+  "excluded": {
+   "LUPIN": "Loss years inside the five-year window distort its median P/E",
+   "GLENMARK": "Loss years inside the window",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window",
+   "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (Q4FY26 EPS ₹2.65)",
+   "MANKIND": "Listed May-2023: no five-year median"
+  },
+  "note": "PLAYBOOK §7c pharma peer set (set 23-Nov-2026), excluding Alkem itself from its own factor (A20: ALKEM +10.25%). ABBOTINDIA is a standalone Screener file (no subsidiaries).",
+  "src": "tools/PLAYBOOK.md §7c; Screener.in"
+ },
+ "street": {
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-08-15", "rating": "Neutral", "tp": 5770, "prevTp": 5840, "method": "P/E", "multiple": "27x", "on": "12-month-forward EPS", "eps": { "FY27E": 192.7, "FY28E": 216.0 }, "sales": { "FY27E": 16260, "FY28E": 18040 }, "ebitda": { "FY27E": 3471, "FY28E": 3904 }, "thesis": "Front-loaded opex in Enzene CDMO and MedTech: EPS falls ~10% in FY27, revives from FY28; valuation leaves limited upside", "src": "MOSL 1QFY27 result update (PDF via DSIJ): https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/ALKEM-20260815-MOFSL-RU-PG010.pdf" },
+   { "broker": "BOB Capital Markets", "date": "2026-08-14", "rating": "Sell", "tp": 4590, "prevTp": 4638, "method": "P/E", "multiple": "21x", "on": "Jun-28E EPS", "eps": { "FY27E": 181.2, "FY28E": 211.1 }, "sales": { "FY27E": 16504, "FY28E": 18410 }, "ebitda": { "FY27E": 3258, "FY28E": 3830 }, "thesis": "US sales challenging (no volume growth; Daman OAI), tax rate rising to 30-32%, valuation expensive; 21x in line with domestic-focused acute companies", "src": "BOBCAPS Q1FY27 result review: https://www.barodaetrade.com/Reports/AlkemLabs-Q1FY27ResultReview14Aug26-Research.pdf" },
+   { "broker": "Choice Institutional Equities", "date": "2026-08-17", "rating": "Add", "tp": 5755, "prevTp": 5755, "method": "P/E", "multiple": "25x", "on": "FY28E EPS", "eps": { "FY27E": 214.8, "FY28E": 255.3 }, "sales": { "FY27E": 16597, "FY28E": 18728 }, "ebitda": { "FY27E": 3651, "FY28E": 4308 }, "epsNote": "25x was set on its May-2026 FY28E EPS of ₹230.2; the Aug-2026 note raised FY28E EPS to ₹255.3 but kept the ₹5,755 target (22.5x)", "thesis": "Structural margin upside: EBITDA margin to ~22% in FY27E and ~23% in FY28E on easing API costs, launches and CDMO scale", "src": "Choice Q1FY27 result update (17-Aug-2026, PDF): https://investmentguruindia.com/editorial/uploads/news-pdf/2ae9fd8b_research-report%20-%202026-08-24T094956.017.pdf ; May-2026 summary (25x FY28E): investmentguruindia.com" },
+   { "broker": "ICICI Securities", "date": "2026-05-28", "rating": "Buy", "tp": 6850, "prevTp": 6500, "method": null, "multiple": null, "on": null, "thesis": "Decent Q4FY26 (Trendlyne summary); no Q1FY27 note dated by 30-Sep-2026 was found", "src": "Trendlyne research-report listing (PDF behind login)" },
+   { "broker": "Nuvama", "date": "2025-11-13", "rating": "Reduce", "tp": 5100, "prevTp": 4915, "method": "SOTP", "multiple": null, "on": null, "eps": { "FY27E": 183.3, "FY28E": 216.2 }, "thesis": "Tax rate rising to 35-38% (before the new-regime switch) dents FY27E EPS ~11%; CDMO not as high-margin as hoped. Last public note found; it may have been superseded", "src": "Nuvama result update (PDF via Business Standard): https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2025-11/17633697190.28690900.pdf" }
+  ],
+  "consensus": "Bloomberg consensus EPS FY27E ₹195.8 and FY28E ₹227.7 (as printed in BOBCAPS's note, 14-Aug-2026). StockAnalysis showed an average target of ₹5,965 from 20 analysts with a 'Buy' consensus (31-Jul-2026).",
+  "methodCount": "Of the notes standing on 30-Sep-2026 that disclose a method, three value Alkem on P/E (MOSL 27x 12-month forward, Choice 25x FY28E, BOBCAPS 21x Jun-28E) and one on SOTP (Nuvama, Nov-2025, possibly superseded). ICICI Securities' method is not public.",
+  "src": "As cited per broker"
+ },
+ "ownership": {
+  "jun2026": { "promoter": 49.70, "fii": 10.42, "dii": 22.64, "public": 17.25, "shareholders": 62822 },
+  "mar2025": { "promoter": 55.13, "fii": 9.41, "dii": 19.42 },
+  "promoterSales": "Promoter holding 55.13% (Mar-25) → 53.04% (Jun-25: Jayanti Sinha 1.42% block at a ₹4,850 floor) → 51.20% (Sep-25, incl. reclassification of some members to public, approved 15-Jul-2025) → 49.70% (Jun-26: Jayanti Sinha and the Samprada & Nanhamati Singh Family Trust ~1.49% at ₹5,200 on 2-Jun-2026, with a 90-day lock-up)",
+  "pledge": "Nil (Nuvama key data, Nov-2025; none reported in 2026)",
+  "src": "Screener.in / BSE shareholding pattern (Jun-2026, filed in July); Q1FY27 presentation p. 12; Angel One (Jun-2025); Business Today (3-Jun-2026); Venture Intelligence"
+ },
+ "stockEvents": [
+  ["13-Sep-2024", "₹6,366", "All-time high (weekly close) before a flat FY25 (revenue +2%)"],
+  ["28-Mar-2025", "₹4,882", "FY25 ends: US price erosion, Q4 margin 12.4%"],
+  ["26-Sep-2025", "₹5,433", "One year before the as-of date"],
+  ["16-Jan-2026", "₹5,837", "52-week high (weekly close)"],
+  ["29-May-2026", "₹5,498", "Q4FY26 results (28-May): CEO exit, tax guidance 27-29%"],
+  ["5-Jun-2026", "₹5,252", "After the promoter group's ~1.5% block sale at ₹5,200 (2-Jun)"],
+  ["14-Aug-2026", "₹5,368", "Q1FY27: EPS −22% on a 32% tax rate; Daman OAI"],
+  ["11-Sep-2026", "₹5,088", "52-week low (weekly close)"],
+  ["30-Sep-2026", "₹5,163.5", "As-of close (NSE): −5% in a year, +86% since Apr-2021"]
+ ],
+ "stockEventsSrc": "Screener.in weekly price series; NSE close 30-Sep-2026 (data/market/closes)",
+ "moat": [
+  ["Acute brands and anti-infectives leadership", "Strong", "#1 in anti-infectives for 15+ years (13.3% share); Pan family #2 in the IPM (₹1,000 cr+ brand family); Clavam #9; 17 brands above ₹100 cr = 52% of domestic sales.", "Real and durable, but the categories grow 4-9% a year: leadership in slow lanes."],
+  ["Reach: field force and trade generics", "Moderate", "14,500+ reps (attrition 18-19%), #3 by prescriptions; #1-2 in trade generics with a direct distributor network.", "Scale matters, but trade generics is a price game that bigger rivals have now entered."],
+  ["Chronic franchise", "Weak", "~22-23% of branded sales; rank #13 in anti-diabetic, #14 respiratory, #19 derma, #8 CNS.", "Growing 1.2-1.6x the market from a small base; no position of strength yet."],
+  ["US generics", "None", "192 ANDAs filed, no volume growth in recent launches; Daman (45% of US sales) under OAI.", "A price-taker business; no moat, and regulatory risk is live."],
+  ["Biosimilars and CDMO (Enzene)", "Unproven", "8 biosimilars in India (~₹150 cr, profitable); EMA approval for denosumab; US CDMO loses ~₹240 cr a year before revenue.", "Option value; outsiders priced Enzene at ~₹2,800 cr (Feb-2026)."],
+  ["Cost and tax position", "Eroding", "Sikkim tax-holiday units cut the tax rate to 12-18% for a decade; that ends in FY27 (30-32%).", "A ~13pp tax step-up is a permanent EPS reset, not a cycle."]
+ ],
+ "critiques": [
+  ["EPS falls in FY27 on tax alone: the Sikkim holiday ends and the consolidated rate jumps from 18% to 30-32%, so FY27E EPS is below FY26 on our numbers despite ~10% EBITDA growth.", "GAM, BOBCAPS, MOSL"],
+  ["Alkem's core is acute, and acute is the slow half of the market (anti-infectives +4% in FY26); 'outperformance' of 100-200bp still means low-teens growth at best.", "GAM"],
+  ["The new businesses burn cash before they earn it: Enzene US (~₹240 cr opex a year, breakeven only at $25-30mn of sales in FY28), Occlutech (breakeven EBITDA in FY27), ortho MedTech (losses).", "MOSL, BOBCAPS, management"],
+  ["Daman's OAI covers ~45% of US sales; supplies continue, but new approvals from the site are likely to be held until it is cleared.", "BOBCAPS, GAM"],
+  ["Governance: six promoter-family executive directors; KMP and relatives took ~₹135 cr in FY26 (~5.9% of profit); a Sep-2023 tax search with press reports of doctor payments; the professional CEO left after ~3 years.", "GAM"],
+  ["Promoters keep selling (55.1% → 49.7% in five quarters), which caps the stock on rallies.", "GAM, press"],
+  ["Treasury money in non-core assets: a ₹75 cr impairment on real-estate investments in Q4FY26.", "GAM"],
+  ["The street splits 21x (BOBCAPS) to 27x (MOSL) and its targets sit around today's price; only ICICI Securities (Buy, May-2026) sees big upside.", "Street"]
+ ],
+ "gaps": [
+  "Company-defined branded vs trade-generics split of India sales is not disclosed in rupees; we use management's growth rates only.",
+  "Chronic share of Alkem's branded sales is from management commentary (~22-23%), not a disclosed series.",
+  "ICICI Securities' method and estimates (Buy ₹6,850, 28-May-2026) are not public; no ICICI Securities note dated Jun-Sep 2026 was found. Nomura, Jefferies, Macquarie and Kotak views appear only on aggregator sites with conflicting figures, so they are left out.",
+  "Nuvama's latest note before 30-Sep-2026 was not found; its Nov-2025 SOTP note is the last public one.",
+  "FY20-FY24 India and US sales are read from MOSL exhibits (₹bn to one decimal).",
+  "In which reported line Occlutech's sales will appear is not disclosed; we show it separately.",
+  "Occlutech's purchase-price allocation, net debt and exact consideration paid at closing are not disclosed; we use the ₹1,100 cr Board ceiling.",
+  "The pace at which the ₹1,485 cr MAT credit will be used under the new regime is not disclosed; we exclude it from net cash.",
+  "Named institutional holders above 1% for Jun-2026 were not retrieved.",
+  "The text of the Daman Form 483 (seven observations) is not public; only the count and the OAI classification.",
+  "Details and date of the family settlement among Samprada Singh's descendants (BSE filing) were not retrieved.",
+  "Q1FY27 other income split (treasury vs FX) is not disclosed."
+ ],
+ "conflicts": [
+  "Q1FY27 EBITDA margin a year earlier: the company and MOSL show 21.9% (Q1FY26 reported); one news summary shows 19.6%. We use the company's figures.",
+  "FY26 adjusted EPS: MOSL shows ₹213.4 (adds back exceptional items before tax); Choice ₹204.5 and our ₹204.0 add back the after-tax amount.",
+  "Promoter block deal of 2-Jun-2026: most reports give ~17.9 lakh shares (~1.49%) for ~₹930 cr at ₹5,200; one gives 12.4 lakh shares for ₹644 cr. The shareholding pattern (51.20% → 49.70%) supports ~1.5%.",
+  "MOSL writes that the US CDMO 'incurred capex of ~INR600m in 1QFY27'; the call transcript says operating expense of ~₹60 cr a quarter. We follow the transcript.",
+  "US revenue FY26: ₹2,984.5 cr by business (presentation) vs ₹2,962.4 cr by customer location (AR note 3.30). We use the presentation."
+ ]
+}
