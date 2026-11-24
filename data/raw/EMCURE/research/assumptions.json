@@ -1,0 +1,180 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Emcure Pharmaceuticals (consolidated, ₹ crore), as of 30-Sep-2026 on Q1FY27 results (6-Aug-2026). Net Profit is profit attributable to owners (EMCURE.patch.js); Zuventus has been wholly owned since 3-Oct-2025 and Gennova since Jul-2026, so forecasts carry no minorities. One reportable segment (pharmaceuticals) with four geographies (India, Europe, Canada, rest of world), so the engine runs on a single revenue-growth path; the geography build sits in `businessLines` and EMCURE.ctx.js checks it sums to model revenue. EBITDA is on the company's definition (excluding other income, foreign-exchange gains and the Mantra earn-out true-up); Screener's FY26 operating profit (₹1,746 cr, 19.0%) is ₹43 cr below the company's ₹1,789 cr (19.4%) because Screener books the ₹42.86 cr earn-out true-up in expenses. Valued on P/E on Sep-28E EPS (every broker that discloses a method uses P/E: Motilal Oswal, ICICI Direct, BOB Capital Markets, JM Financial), with the multiple derived per PLAYBOOK §7c (own forward median since 1-Jan-2025 × the same-window pharma factor); EV/EBITDA and a DCF are cross-checks.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  14.63,
+  11.79,
+  11
+ ],
+ "_revenueWhy": "Sum of the geography build below on FY26 revenue of ₹9,204 cr (company: India ₹4,027 cr, Europe ₹1,850 cr, Canada ₹1,487 cr, rest of world ₹1,840 cr). FY27E ₹10,550 cr (+14.6%): management guided 'low to mid-teen' growth and on 6-Aug-2026 said it was 'more comfortable being at the higher end'; Q1FY27 was +22.8% with ~6-7pp from the weaker rupee (management assumes ₹92 to the dollar on average for FY27). India +10.5% (Q1 +10.2%, about 6-7% excluding the in-licensed Sanofi diabetes and Roche brands; management expects market-pace growth in Q2 and faster in H2 on a weak Q4FY26 base hit by the Zuventus restructuring; industry growth expected at 8-9%). Europe +18% (Q1 +32.8% incl. ~12-13pp currency; liposomal amphotericin B tenders and the Manx portfolio; management sees mid-teens CAGR over two years). Canada +15% (Q1 +24.6%; share gains, new launches, Cutimed; semaglutide via Dr. Reddy's in Quebec not counted). Rest of world +20% (Q1 +44.8%, ARV two-thirds of the region in the quarter, normalising to 50-55% for the year). FY28-29E: India +11% / +10.5% (market ~9-10% plus chronic and in-licensed brands), Europe +13% / +12%, Canada +12% / +11%, rest of world +12% / +11%, with no further currency tailwind. We are ~2pp below the street's FY28E growth (Motilal Oswal +14.3%, ICICI Direct +13.9%).",
+ "businessLines": {
+  "_why": "FY26 by geography from the Q4FY26 and Q1FY27 investor presentations (₹ mn ÷ 10). Growth rates are explained in _revenueWhy.",
+  "base": {
+   "india": 4027,
+   "europe": 1849.8,
+   "canada": 1486.9,
+   "row": 1839.9
+  },
+  "growth": {
+   "india": [
+    10.5,
+    11,
+    10.5
+   ],
+   "europe": [
+    18,
+    13,
+    12
+   ],
+   "canada": [
+    15,
+    12,
+    11
+   ],
+   "row": [
+    20,
+    12,
+    11
+   ]
+  }
+ },
+ "ebitdaMargin": [
+  20.2,
+  20.8,
+  21.2
+ ],
+ "_marginWhy": "Company EBITDA definition (before other income, foreign-exchange gains and the earn-out true-up): FY24 18.5%, FY25 18.6%, FY26 19.4% (Screener 19.0% after the ₹42.86 cr Mantra earn-out true-up), Q1FY27 19.7% (+50bp) even as gross margin fell 340bp to 58.4% on the shift to Europe and ARV. FY27E 20.2% = FY26's 19.4% plus 80bp, inside management's 70-100bp (Q1FY27 call; 75-100bp in May) guidance, with gross margin guided to ~59% and R&D to 4-5% of revenue (3.5% in Q1, to rise). FY28-29E +60bp / +40bp from operating leverage on a field force whose productivity rose from ₹5.4 lakh to ₹7.0 lakh a month per rep in two years, employee costs growing ~10% against revenue +11-12%, partly offset by a lower-margin international mix. We are below Motilal Oswal (20.4% / 21.7%). Each 1pp of margin is ~₹118 cr of FY28E EBITDA (~₹4.6 of EPS).",
+ "capex": [
+  425,
+  460,
+  500
+ ],
+ "_capexWhy": "Management guided FY27 capex at '₹400 crores rough number... ₹400-425-ish crores' (Q4FY26 call, May-2026); company capex was ₹276 / 376 / 488 cr in FY24-26 (cash: PP&E ₹361 cr plus intangibles ₹187 cr in FY26) and ₹95 cr in Q1FY27. FY27E ₹425 cr (top of guidance), then ₹460 cr and ₹500 cr (~3.9% and 3.8% of revenue) for complex injectables, biosimilars and dossiers. Acquisitions (Gennova minority ₹232 cr and Cutimed up to ₹34 cr in FY27) are not capex; EMCURE.ctx.js deducts them in our own net-debt path.",
+ "depRateOnGrossBlock": 7.25,
+ "_depWhy": "FY26 D&A ₹415 cr = 7.3% of average gross block (₹5,695 cr incl. intangibles and right-of-use assets): PP&E ₹256 cr, right-of-use ₹53 cr, intangibles ₹106 cr (AR FY26 note 35). Q1FY27 ₹110 cr (₹440 cr annualised). 7.25% gives ₹447 / 479 / 514 cr. CWIP (₹273 cr) is held flat by the engine.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Set to zero because the engine applies the yield to net cash, which is negative until FY29E. Treasury income on gross cash is built in otherIncome instead (EMCURE.ctx.js).",
+ "otherIncome": [
+  9,
+  9,
+  42
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (AR FY26 note 30; checked in EMCURE.ctx.js). FY26 other income was only ₹12.66 cr: interest ₹1.68 cr, fund gains ₹1.52 cr, miscellaneous ₹9.46 cr (one-time licence income, sundry balances written back, rent, insurance claims). FY25 ₹67.26 cr included ₹38.24 cr of profit on asset sales, a leasehold-land gain and interest on the IPO money (₹9.04 cr). Forecast: (1) treasury income at 2% on ~₹150 cr of operating cash plus 6.5% on any surplus cash once net debt is repaid; (2) recurring miscellaneous income (rent, scrap, write-backs, insurance) ₹6 cr a year. Not forecast: foreign-exchange gains (₹118.80 cr in FY26 as the rupee fell; ₹23 cr in Q1FY27), which Screener's annual table counts as other income, and one-offs. Twelve months to Jun-26 (Screener, excl. exchange gains): ₹11 cr.",
+ "interest": [
+  156,
+  107,
+  73
+ ],
+ "_interestLabel": "Interest on borrowings (working-capital loans, INR term loan, Canadian term loans), leases, other borrowing costs and the earn-out discount unwind",
+ "_interestWhy": "Built from the debt path (AR FY26 notes 19-20 and 36; checked in EMCURE.ctx.js). FY26 finance cost ₹143.67 cr: interest on borrowings ₹73.94 cr (7.6% on ~₹968 cr of average gross debt), leases ₹26.75 cr, other borrowing costs ₹20.26 cr, unwinding of the Mantra earn-out discount ₹16.89 cr, interest on advance-tax shortfall ₹5.83 cr. Forecast: 7.5% on average gross borrowings from our net-debt path (gross debt ₹1,204 cr at Mar-26, ₹1,291 cr at Jun-26, up to ~₹1,600 cr after the July-2026 Mantra (₹336 cr) and Gennova (₹232 cr) payouts, then falling as free cash flow repays it; management targets net cash by end-FY28); leases ₹27 cr; other borrowing costs ₹18 cr; advance-tax interest ₹3 cr; earn-out unwind ₹5 cr in FY27 only (redeemed Jul-2026). Q1FY27 actual ₹32 cr.",
+ "taxRate": [
+  26,
+  25.8,
+  25.8
+ ],
+ "_taxWhy": "FY26 effective rate 26.9% reported, 26% excluding exceptional items (CFO); Q1FY27 25.7%. India is on the 25.17% regime; Canada (~26.5%) and the UK (25%) are similar. FY27E 26.0%, then 25.8%.",
+ "payout": [
+  6,
+  6,
+  6
+ ],
+ "_payoutWhy": "Emcure paid ₹57 cr of dividends in FY26 (₹3 a share, ~6% of profit). Cash goes first to the July-2026 payouts and debt reduction (net cash by end-FY28 guided). We assume a 6% payout.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7.5,
+  "fadeMarginTo": 22,
+  "fadeCapexPctTo": 4,
+  "depPctOfSales": 4,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity: 6.5% + 0.9 x 6% = 11.9%. Net debt (~₹1,450 cr expected at Sep-26 incl. the July payouts) is ~4% of a ~₹37,000 cr market value and is guided to nil by FY28, so WACC ≈ cost of equity; beta 0.9 (above a domestic branded peer's 0.8) for the 56% of revenue from tender-driven ARV and regulated-market generics and for the governance flags.",
+  "_tgWhy": "5.5% nominal: India (44% of revenue) grows 8-10% in value, Europe and Canada generics 3-6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from 11% to 7.5% by year 15.",
+  "_fadeMarginWhy": "22%: above the FY29E 21.2% as complex injectables and biosimilars scale, below the 25%+ of India-led peers because more than half of revenue is lower-margin international generics and ARV.",
+  "_fadeCapexWhy": "4% of revenue: FY24-27E 3.5-5.3%.",
+  "_depWhy": "4% of revenue = tax-deductible depreciation and amortisation (FY26 4.5%, falling as revenue outgrows the asset base)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "India returns to 1.2x the market as Zuventus accelerates and Poviztra scales, liposomal amphotericin B and semaglutide (Canada) win tenders and share, lenacapavir and the ARV order book keep the rest of world growing in high teens, and gross margin holds near 60%.",
+   "revenueGrowthDelta": 2.5,
+   "marginDelta": 1,
+   "fadeMarginTo": 23.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Zuventus stays a laggard and India grows below the market, ARV tenders turn (pricing, donor funding) and European generics deflation returns, the rupee strengthens, and the Sanofi cardiac distribution deal (initial five years from Mar-2024) is renegotiated on worse terms.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 20.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 27,
+      "bull": 29,
+      "bear": 25.5
+     },
+     "why": "How the street values Emcure: every note standing on 30-Sep-2026 that discloses a method uses P/E (ICICI Direct 30x FY28E, 4-Sep-2026; Motilal Oswal 28x 12-month-forward EPS, 7-Aug-2026; BOB Capital Markets 25x Mar-28E, 6-May-2026; JM Financial 24x Sep-27E, Nov-2025). 27x Sep-28E EPS: Emcure's median one-year-forward P/E since 1-Jan-2025 (listed 10-Jul-2024; IPO months skipped; 92 weekly closes plus the 30-Sep close; FY26 EPS before exceptional items and the ₹42.86 cr earn-out true-up = ₹52.1, then our FY27-28E), 23.3x, × 1.160 (nine pharma peers' trailing P/E at the 30-Sep close vs their medians over the same window: +16.0%, PLAYBOOK §7c; reproduced +16.0%) = 27.0x, nearest half-turn 27x. Bull 29x / bear 25.5x = 75th / 25th percentiles × 1.160. On reported EPS the median is 23.3x (sensitivity). Forecasts carry no exceptional items, so the engine applies the multiple to its own Sep-28E EPS. Checked in EMCURE.ctx.js; written by EMCURE.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-27E (trailing at the target date)",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "multiple": {
+      "base": 19,
+      "bull": 20.5,
+      "bear": 18
+     },
+     "why": "Cross-check. Emcure's median trailing EV/EBITDA since 1-Jan-2025 (Screener, 91 weekly points) is 17.0x; × 1.108 (the nine peers' EV/EBITDA move against their medians over the same window: +10.8%, PLAYBOOK §7c; reproduced +10.8%) = 18.8x → 19x, applied to trailing EBITDA at the target date (half FY27E + half FY28E) less net debt at Sep-27E (engine basis, incl. leases). Bull 20.5x / bear 18x = 75th / 25th percentiles × 1.108."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 11.9% (cost of equity ≈ WACC: net debt is small and guided to nil by FY28), terminal growth 5.5%; less net debt at Mar-27 (engine, incl. the Mantra earn-out paid in Jul-2026)."
+    }
+   ]
+  }
+ },
+ "otherTreasury": {
+  "base": -335.77,
+  "label": "Debt-like: Mantra earn-out payable (CAD 50.23 mn, redeemed Jul-2026) inside other liabilities",
+  "_why": "Engine workaround. At Mar-26 Screener's other liabilities include the CAD 50.23 mn (₹335.77 cr) owed to Mantra's former shareholders for the earn-out, redeemed in July 2026 (AR FY26 note 63). It is deferred acquisition consideration, i.e. debt-like, not working capital. This entry takes it out of working capital (owc 33.1% of FY26 sales instead of 29.5%, close to the company's inventory + receivables − payables of 34%) and adds it to net debt in the engine and the Excel alike, so the July payout is not missed."
+ }
+}
