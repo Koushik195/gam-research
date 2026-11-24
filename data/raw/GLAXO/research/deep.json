@@ -1,0 +1,137 @@
+{
+ "asOf": "2026-09-30",
+ "units": "₹ crore unless stated",
+ "industry": {
+  "ipm": "Indian pharmaceutical market (IPM) ₹2,565 bn in FY26, +9.9% (IQVIA, via Mankind AR FY26, as cited in the Abbott India file); ₹64,000-65,000 cr in the Mar-2026 quarter (GSK, 13-May-2026)",
+  "ipmGrowth": "Q1FY27 IPM +13.5% (IQVIA Jun-2026), 'fairly balanced between volume, price, and new introductions'; acute therapies are 60% of the market, chronic 40%; GSK's represented market grew 10% (Q1FY27 deck)",
+  "pricing": "Scheduled (NLEM) drugs: ceiling prices rise with the wholesale price index each April (+0.65% from 1-Apr-2026); others may rise up to 10% a year. ~40% of GSK India's business is price-controlled",
+  "vaccines": "GSK leads the private (self-pay) paediatric vaccine market (26.1% value share, IQVIA Jun-2026); adult vaccination is a new category in India (Shingrix ~₹100 cr a year; Arexvy authorised 2026)",
+  "oncology": "Oncology was the fastest-growing IPM therapy in Q1FY27 (+27%, MD); India has ~1,000 medical oncologists; 18,000 new multiple myeloma patients a year, 40,000-45,000 prevalent (GSK)",
+  "mnc": "MNC pharma in India (Abbott India, GSK, Sanofi, Pfizer) run asset-light models with high payouts and parent-sourced portfolios; GSK is #2 among MNCs by value (IQVIA MAT Mar-2026)",
+  "src": "GSK Q4FY26 and Q1FY27 decks and transcripts; AR FY26; IQVIA as cited",
+  "published": "2026-08-06"
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": {
+   "LUPIN": "Loss years inside the window distort its median P/E",
+   "GLENMARK": "Loss years inside the window",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window",
+   "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (Q4FY26 EPS ₹2.65)",
+   "MANKIND": "Listed May-2023: no five-year median"
+  },
+  "factorSet": 8.2,
+  "factorEvSet": 7.5,
+  "rule": "PLAYBOOK §7c (A21): GLAXO is outside the nine-company pharma set, so its factor is the median of all nine names' trailing multiples at the 30-Sep-2026 close vs their five-year medians: +8.2% on P/E, +7.5% on EV/EBITDA. Our reproduction: +8.19% and +7.46%."
+ },
+ "street": {
+  "brokers": [
+   {
+    "broker": "Motilal Oswal",
+    "date": "2026-08-03",
+    "rating": "Neutral",
+    "tp": 2870,
+    "prevTp": 3000,
+    "method": "P/E",
+    "multiple": "35x",
+    "on": "12-month forward EPS",
+    "eps": { "FY27E": 69.8, "FY28E": 83.7 },
+    "sales": { "FY27E": 4368, "FY28E": 4951 },
+    "ebitda": { "FY27E": 1511, "FY28E": 1830 },
+    "thesis": "Innovative portfolio scaling (7% of sales); 18% EPS CAGR FY26-28 on 14% revenue growth and margins rising to 37%; limited upside at the price, so Neutral",
+    "src": "MOFSL 1QFY27 results update, 3-Aug-2026: https://investmentguruindia.com/editorial/uploads/news-pdf/58052e84_GLXO-20260803-MOFSL-RU-PG008.pdf"
+   },
+   {
+    "broker": "ICICI Securities (institutional)",
+    "date": "2025-11-09",
+    "rating": "Hold",
+    "tp": 2500,
+    "method": null,
+    "multiple": null,
+    "on": null,
+    "thesis": "Upgraded from Reduce with a lower target after Q2FY26 (revenue hit by the CMO fire; new launches). Report not read: Trendlyne listing and press summary. Standing on 30-Sep-2026 but predates Q3FY26-Q1FY27",
+    "src": "Trendlyne research-report listing; Whalesbook (10-Nov-2025): https://www.whalesbook.com/news/English/healthcarebiotech/GSK-Pharma-Q2-SHOCK-Revenue-Dips-Profits-SOAR-Analyst-Upgrades-Amidst-Bold-New-Drug-Launches/69120cb6d4f9ff86a5dfbed3"
+   },
+   {
+    "broker": "Nirmal Bang",
+    "date": "2025-08-29",
+    "rating": "Buy",
+    "tp": 3425,
+    "method": "P/E",
+    "multiple": "50x",
+    "on": "FY27E EPS",
+    "epsUsed": 68.5,
+    "eps": { "FY27E": 68.5 },
+    "sales": { "FY27E": 4498 },
+    "ebitda": { "FY27E": 1457 },
+    "thesis": "Monthly pick: specialty launches and GSK plc's India focus re-rated the stock into a 33-53x P/E band; 40.6x FY27E was a 'favourable entry point'. Thirteen months old on 30-Sep-2026 and not updated by then: shown for its method only",
+    "src": "Nirmal Bang monthly pick, 29-Aug-2025: https://investmentguruindia.com/editorial/uploads/news-pdf/296e4fc3_Monthly%20Pick%20-%20GSK%20Pharma.pdf"
+   }
+  ],
+  "superseded": [
+   { "broker": "Motilal Oswal", "date": "2025-08-02", "rating": "Neutral", "tp": 3000, "method": "P/E (12-month forward)", "src": "Trendlyne listing" },
+   { "broker": "ICICI Securities", "date": "2025-05-14", "rating": "Sell", "tp": 2600, "method": "n.d.", "src": "Trendlyne listing" },
+   { "broker": "ICICI Securities", "date": "2025-02-17", "rating": "Add", "tp": 2250, "method": "n.d.", "src": "TipRanks analyst record (a 13-May-2026 press article repeats this old call as current; we ignore it)" }
+  ],
+  "consensus": { "note": "No consensus EPS published by 30-Sep-2026 was found; the only standing estimates we could read are Motilal Oswal's (FY27E ₹69.8, FY28E ₹83.7)." },
+  "note": "Coverage is thin. Notes standing on 30-Sep-2026 that we could read or whose summary is public: Motilal Oswal (Neutral ₹2,870, 35x 12-month forward EPS, 3-Aug-2026), ICICI Securities institutional (Hold ₹2,500, 9-Nov-2025, method not disclosed) and Nirmal Bang (Buy ₹3,425, 50x FY27E, 29-Aug-2025, stale). Both houses that disclose a method use P/E. No later ICICI Securities note dated by 30-Sep-2026 was found."
+ },
+ "ownership": {
+  "date": "Jun-2026",
+  "promoters": 75,
+  "promoterEntities": "Glaxo Group Ltd, UK 35.99%; GlaxoSmithKline Pte Ltd, Singapore 28.10%; Eskaylab Ltd, UK 6.94%; Burroughs Wellcome International Ltd, UK 3.97%",
+  "fiis": 4.79,
+  "diis": 7.81,
+  "public": 12.42,
+  "shareholders": 126087,
+  "freeFloatPct": 25,
+  "pledge": "None",
+  "liquidity": "12-month average daily traded value ₹24.1 cr (~US$2.7mn; Motilal Oswal, 3-Aug-2026), ~0.05% of market value a day",
+  "trend": "Promoter holding fixed at 75.00% (the cap under minimum public shareholding); FIIs 2.9% (Dec-2023) → 4.8%; DIIs 8.6% → 7.8%",
+  "src": "BSE shareholding pattern via Screener.in (Jun-2026); AR FY26 note 17; Motilal Oswal 3-Aug-2026",
+  "published": "2026-07-21"
+ },
+ "stockEvents": [
+  { "date": "2024-08-23", "what": "₹2,944 (weekly close) after FY24-25 margin gains; up from ~₹1,300-1,500 in 2022-23" },
+  { "date": "2025-06-27", "what": "All-time high on weekly closes, ₹3,440 (Shingrix, oncology launch plans)" },
+  { "date": "2025-08-14", "what": "₹2,770 after a weak Q1FY26 (revenue -1%: CMO fire)" },
+  { "date": "2026-05-13", "what": "Q4FY26 results and ₹57 dividend; stock closed ₹2,412 (-1.5%)" },
+  { "date": "2026-06-12", "what": "Low of ₹2,122 (weekly), 38% below the Jun-2025 peak" },
+  { "date": "2026-08-03", "what": "Q1FY27: revenue +16.5%; Motilal Oswal Neutral ₹2,870 at ₹2,662" },
+  { "date": "2026-08-28", "what": "₹3,106 (weekly) after a high-volume rally in the second half of August (no company announcement explains it)" },
+  { "date": "2026-09-30", "what": "Close ₹2,769.3 (NSE)" }
+ ],
+ "stockEventsSrc": "Screener.in weekly price and volume series; Kotak Neo (13-May-2026); broker notes; data/market/closes/2026-09-30.json",
+ "moat": {
+  "strengths": ["Brands doctors trust for decades: Augmentin (#3 in the IPM), Calpol (~1/3 of paracetamol), T-Bact (57.5% share), Ceftum, Betnovate, Eltroxin", "Leadership in private paediatric vaccines and first-mover position in adult vaccination (Shingrix, Arexvy)", "Access to GSK plc's global pipeline with a 6-8 month launch lag now (Blenrep, Jemperli, bepirovirsen), no royalty disclosed", "Asset-light, debt-free, ROE above 40%, ₹2,755 cr of cash"],
+  "weaknesses": ["~40% of the business under price control", "General medicines (80% of revenue) grew ~5% a year for a decade; antibiotics and paracetamol are crowded", "Concentrated supply chain: one CMO fire cost more than ₹100 cr of FY26 sales", "Innovation assets are imported, need patient-assistance programmes and are still only 7% of sales"]
+ },
+ "critiques": [
+  ["Revenue grew only 5.5% a year in FY21-26 (2% in FY26); the 12-13% growth needed for ₹8,000 cr has never been delivered", "GAM; analyst questions on the Q4FY26 call (13-May-2026)"],
+  ["Margin expansion (EBITDA 20% → 34% in five years) came from mix, pricing, sourcing and restructuring; management now says it will hold margins and reinvest", "Q4FY26 and Q1FY27 calls"],
+  ["~40% of the portfolio is price-controlled (NLEM); a new list could add more large brands, as in 2022", "Q4FY26 call; AR FY26 risks"],
+  ["Innovation is 7% of sales and depends on self-pay patients and patient-assistance programmes; public 'CARE' accounts not yet unlocked", "Q4FY26 call"],
+  ["Supply concentration: the Apr-2025 CMO fire cut FY26 general-medicine growth to ~0%", "Q3FY26 and Q4FY26 calls"],
+  ["History of value-destroying one-offs: Vemgal plant (~₹890 cr of impairments), Zinetac recall, VRS; and a ₹1,649 cr brand sale to a GSK group company", "AR FY20-FY24"],
+  ["Valuation: 37x FY28E on our EPS; Motilal Oswal sees limited upside (35x)", "Motilal Oswal 3-Aug-2026"]
+ ],
+ "gaps": [
+  "GSK India does not report revenue by business (general medicines, vaccines, specialty) or by brand; we use quarterly 'innovation %' disclosures and statements on calls (general medicines 75-80%+, vaccines +11-12% in FY26)",
+  "FY26 innovation revenue (~₹190 cr) is our estimate from 4% (Q1FY26) and 6% (Q4FY26) of quarterly sales; Q2-Q3FY26 shares were not disclosed",
+  "No consensus EPS published by 30-Sep-2026 was found; ICICI Securities' Nov-2025 note was read only via a listing and a press summary (method not disclosed); Nirmal Bang's note is from Aug-2025",
+  "Business Standard pages on GSK Pharma (Oct-2025, Nov-2025 broker roundups) returned HTTP 403 to automated access; not bypassed",
+  "We did not fetch Screener data for Pfizer, Sanofi India or AstraZeneca Pharma (MNC peers): the house fetch script sends a browser-like user agent, which this task's rules forbid; the MNC comparison uses Abbott India only",
+  "The cause of the late-August 2026 rally (₹2,600 to ₹3,106 on heavy volume) was not found in company announcements or press we could read",
+  "NLEM share of the portfolio is given three ways (35-38%, ~40%, 44-45% of general medicines); no audited figure",
+  "Shingrix, Nucala, Trelegy and oncology revenues are not disclosed individually beyond 'Shingrix crossed ₹100 cr MAT' and 'oncology ~₹10 cr a month'",
+  "EV history: net cash between year-ends is held at the March figure less the final dividend from August; half-year balance sheets not used"
+ ],
+ "conflicts": [
+  "Screener classifies GSK's gains on liquid mutual funds (₹79.6 cr in FY26, ₹69.6 cr in FY25) as exceptional items and shows FY22's discontinued-operations profit (₹1,314 cr) inside other income; we use the company's notes (other income ₹145.4 cr in FY26; exceptional items ₹20.6 cr)",
+  "General medicines' share of revenue: 'more than 80%' (AR FY26) vs '75%-78%' (Q3FY26 call); we use ~80% including the distributed portfolio",
+  "Standalone (company) vs consolidated figures: Q1FY27 revenue ₹924 cr / +15% (standalone, company press release) vs ₹938 cr / +16.5% (consolidated); PAT ₹253 cr standalone includes a one-off dividend from Biddle Sawyer, consolidated PAT ₹237 cr. We model consolidated",
+  "A 13-May-2026 press article cites ICICI Securities 'ADD, ₹2,250' and Motilal Oswal 'NEUTRAL, ₹1,340'; these match older calls (Feb-2025 and 2023), so we ignore them",
+  "TipRanks shows an ICICI Securities Hold with a ₹2,860 target dated 28-Oct-2025; Trendlyne and the press show Hold ₹2,500 on 9/10-Nov-2025; we use the later Trendlyne entry"
+ ]
+}
