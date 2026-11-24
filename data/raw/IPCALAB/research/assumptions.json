@@ -1,0 +1,218 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Ipca Laboratories (consolidated, ₹ crore), as of 30-Sep-2026 on Q1FY27 results. Ipca owns 52.67% of Unichem Laboratories (listed; consolidated since the Sep-2023 open offer) and 58.88% of Trophic Wellness, so consolidated profit carries a non-controlling interest; the engine has no minority line, so the tax line carries tax plus minorities (built in `taxBuild`, as ZYDUSLIFE does) and the model's EPS is EPS to Ipca's shareholders, the basis the street values. Net Profit history is the attributable figure (IPCALAB.patch.js). One reportable segment (pharmaceuticals), so the engine runs on a single revenue-growth path; the business-line build (domestic formulations, export branded / generic / institutional formulations, APIs, subsidiaries net of inter-company sales) sits in `businessLines` and IPCALAB.ctx.js checks it sums to model revenue. Revenue and EBITDA are on Screener's basis (FY26 ₹9,599 cr and ₹1,990 cr; company revenue from operations ₹9,646 cr incl. ~₹47 cr of other operating revenue). Valued on P/E on Sep-28E EPS (the street's majority method: Motilal Oswal, Prabhudas Lilladher, Emkay, Choice, HDFC Securities, Sharekhan); EV/EBITDA (ICICI Direct's method) and a DCF are cross-checks.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  13.9447,
+  11.0489,
+  10.5539
+ ],
+ "_revenueWhy": "Sum of the business-line build below on FY26 revenue of ₹9,599 cr (Screener basis). FY27E ₹10,938 cr (+13.9%): domestic formulations +12.5% (guidance 12-13%, Q1FY27 +12.6%: chronic +17.2%, acute +8.9% with anti-malarials −24%; ~5% volume, 4.5-5% price, ~2% new products), export branded formulations +13% (Q1 +16%; FY26 +14%; guided 12-13%), export generics +20% (Q1 +27%, Europe/UK +70%, US +8%; currency ~5pp of Q1 group growth), institutional anti-malarial tenders +5% to ~₹283 cr (guided ₹260-300 cr; Q1's +107% included ₹40 cr of March shipments), APIs +15% (Q1 +30%, Ratlam near full capacity, new capacity at Dewas and Wardha), subsidiaries net of inter-company sales +14% (Q1 +19%; Unichem guided +10% with its US sales of Ipca's own products growing faster, Q1 +27%). Management raised FY27 consolidated growth guidance to 14-16% on 14-Aug-2026; we sit at the bottom of it because Q1 carried ~5pp of currency and a one-off institutional catch-up. FY28-29E: domestic +11.5% / +11% (market ~10%, Ipca's chronic push), branded exports +12% / +11%, generics +14% / +12% (EU/UK registrations, 7-8 US launches a year across Ipca and Unichem), institutional +3%, APIs +10%, subsidiaries +10%.",
+ "businessLines": {
+  "_why": "FY26 by line (₹ crore): domestic formulations ₹3,817.24 cr, export formulations ₹2,082.58 cr = branded (promotional ROW markets) ₹664 cr + generics ex-tenders ₹1,148.67 cr + institutional ₹269.91 cr, APIs and intermediates ₹1,395.74 cr (domestic ₹348.89 cr, export ₹1,046.85 cr): AR FY26 MD&A break-up of standalone sales and note 23; Q4FY26 call (1-Jun-2026). Subsidiaries net of inter-company sales = Screener consolidated revenue ₹9,599 cr less standalone sales ₹7,295.56 cr = ₹2,303.44 cr (mainly Unichem, ~₹2,200 cr of its own revenue less sales to/from Ipca; also Trophic Wellness ~₹125 cr, Onyx, Pisgah, Ipca UK); PL's split shows ₹2,310 cr on the company's revenue basis. Growth rates are explained in _revenueWhy.",
+  "base": {
+   "domForm": 3817.24,
+   "expBranded": 664,
+   "expGeneric": 1148.67,
+   "expInstitutional": 269.91,
+   "api": 1395.74,
+   "subsidiaries": 2303.44
+  },
+  "growth": {
+   "domForm": [
+    12.5,
+    11.5,
+    11
+   ],
+   "expBranded": [
+    13,
+    12,
+    11
+   ],
+   "expGeneric": [
+    20,
+    14,
+    12
+   ],
+   "expInstitutional": [
+    5,
+    3,
+    3
+   ],
+   "api": [
+    15,
+    10,
+    10
+   ],
+   "subsidiaries": [
+    14,
+    10,
+    10
+   ]
+  }
+ },
+ "ebitdaMargin": [
+  22.8,
+  23.6,
+  24.2
+ ],
+ "_marginWhy": "Screener basis (revenue less operating costs): FY26 20.7% (company 20.5% on revenue from operations), Q1FY27 24.0% on Screener's basis, 22.9% on the company's, which excludes a ₹31.7 cr foreign-exchange gain booked in other expenses. We do not forecast forex gains. FY27E 22.8% vs management's raised ~23% guidance (from 22%), because freight has risen 2-3x on some lanes and input costs rose from Feb-2026 (solvents +40-50%, packaging); management says sales growth will outrun material costs and the guidance includes logistics. The build: Ipca ex-Unichem ~25.5-26% (standalone 25.2% in FY26, 26.3% in Q1 ex-forex; management sees 30% in the medium term) and Unichem ~12.5% (guided 13% for FY27, 11% in Q1, 8% in FY26). FY28-29E +80bp / +60bp as Unichem moves toward mid-teens (Europe, Brazil, Ipca APIs replacing bought-in ones) and the chronic mix rises; still below management's 25-26% consolidated aspiration for FY29 because biosimilar trials will cost money. Each 1pp of margin is ~₹121 cr of FY28E EBITDA (~₹3.5 of EPS after tax and minorities).",
+ "capex": [
+  850,
+  800,
+  800
+ ],
+ "_capexWhy": "Ipca guided ₹700-800 cr of capex for FY27 (Q1FY27 call): extended-release formulation capacity at Pithampur for the US and Europe, new API and intermediate plants at Dewas and Wardha (Ratlam is running out of capacity), continuous-process conversion, ~₹100 cr of biotech pilot facilities and R&D assets, and the Pisgah (US) formulation plant due for commissioning in Q4FY27. Unichem adds ~₹50 cr (solar project) plus maintenance. FY27E ₹850 cr (7.8% of revenue), FY28-29E ₹800 cr (management: more biotech capacity may be needed in 1-2 years). FY26 capex was ₹670 cr and FY25 ₹828 cr (PL).",
+ "depRateOnGrossBlock": 5.5,
+ "_depWhy": "FY26 D&A ₹418 cr = 5.7% of average gross block (₹7,343 cr, Screener); Q1FY27 ₹111 cr (₹443 cr annualised). 5.5% gives ₹446 / 492 / 536 cr. CWIP (₹762 cr at Mar-26) is held flat by the engine, so capex is depreciated from the year it is spent; a slightly lower rate than FY26's offsets that.",
+ "otherTreasury": {
+  "base": -1684.57,
+  "label": "Offset: non-controlling interest (₹1,460 cr) and net deferred tax (₹224 cr) in other liabilities/assets",
+  "_why": "Engine workaround (IPCALAB.patch.js note 2). Screener's Mar-26 other liabilities, which the Excel reads unpatched, include the ₹1,460.25 cr non-controlling interest (Unichem's and Trophic Wellness's outside shareholders) and the ₹244.86 cr net deferred tax liability; other assets include ₹20.54 cr of deferred tax assets. None is working capital. This entry takes the net ₹1,684.57 cr out of working capital (39.1% of FY26 revenue, in line with the company's ~144 days) in the engine and the Excel alike; investments are raised by the same amount in the patch, so net cash is unchanged, and CWIP is lowered by it so the balance sheet balances. Net cash is not reduced by the NCI because the minorities' share of future profit is already deducted in the tax line."
+ },
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Set to zero: the engine's net cash includes the ₹184 cr of equity-accounted Krebs and Lyka stakes and is reduced each year by the minorities' share of profit (carried in the tax line, but in reality kept as cash inside Unichem and Trophic). Treasury income is built on gross cash, deposits and liquid funds in otherIncome instead (IPCALAB.ctx.js).",
+ "otherIncome": [
+  102,
+  138,
+  203
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (AR FY26 note 24; checked in IPCALAB.ctx.js). (1) Treasury income: FY26 ₹92.6 cr (bank interest ₹21.6 cr, other interest ₹10.1 cr, mutual-fund gains ₹33.5 cr realised and ₹27.4 cr unrealised) on ~₹1,180 cr of average cash, deposits and liquid funds (~7.9%). We apply 7.0% (below FY26's 7.9%, which was lifted by unrealised gains as rates fell) to average gross treasury on our path: ₹1,225 cr at Mar-26 (AR: cash ₹437 cr, bank ₹127 cr, liquid funds ₹633 cr, other investments ₹27 cr; of which Unichem ₹295 cr) (engine net cash plus gross debt and the minorities' cash kept inside Unichem/Trophic, less the ₹184 cr of equity-accounted stakes) = ₹85 / 106 / 175 cr. (2) Recurring miscellaneous income, royalty and asset-sale profits ₹12 cr (FY26 ₹16.5 cr, FY25 ₹11.1 cr). (3) Share of JV and associates (Lyka Labs, Krebs until its merger) −₹5 cr (FY26 −₹7.6 cr, FY25 −₹2.3 cr; Screener counts it in other income). Not forecast: the FY26 one-offs (₹60.0 cr gain on deconsolidating Bayshore, ₹5.3 cr on selling a business), forex gains (booked in other expenses) and exceptional items. Total ₹92 / 113 / 182 cr vs FY26 ₹101 cr on the same basis (₹174.5 cr reported less ₹65.4 cr of one-offs, less ₹7.6 cr of JV losses) and ₹167 cr in the twelve months to Jun-26 on Screener's basis (which includes the Bayshore gain); Q1FY27 ₹25.3 cr.",
+ "interest": [
+  47,
+  41,
+  38
+ ],
+ "_interestLabel": "Interest on borrowings (term loans being repaid), leases and other finance costs",
+ "_interestWhy": "Built from the debt schedule (checked in IPCALAB.ctx.js). Consolidated borrowings were ₹704 cr at Mar-26 plus ₹105 cr of leases (AR FY26): Unichem ₹469 cr (mostly short-term working-capital lines; Screener UNICHEMLAB) and Ipca ₹235 cr of term loans, which fell to ~₹193 cr by Jun-26 and should be ~₹70 cr at Mar-27, repaid in FY28 (\"that loan is at much cheaper rate than current market rates\", Q1FY27 call). We hold Unichem's debt flat. Interest: Unichem ~₹30 cr a year (₹7-9 cr a quarter in FY26-Q1FY27); Ipca's term loans at ~6.5% (₹6.4 cr for Q2-Q4 FY27, ₹2.3 cr in FY28); Ipca's leases (₹73.8 cr) at 8.5%; other finance costs ₹1.5-2 cr. FY27E = Q1 actual ₹11.9 cr + nine months = ₹47 cr; FY28E ₹41 cr; FY29E ₹38 cr. FY26 was ₹75.9 cr (company), Q4FY26 ₹20.2 cr.",
+ "taxRate": [
+  29.81,
+  30.17,
+  30.48
+ ],
+ "_taxWhy": "Tax plus minorities (engine workaround: no minority line). Built in `taxBuild`: tax at 26% of PBT (Q1FY27 26.1%; FY26 24.2% consolidated and 26.1% for Ipca standalone; Unichem pays little) plus the minorities' share of profit: 47.33% of Unichem's profit as consolidated and 41.12% of Trophic Wellness's, ₹80 / 103 / 129 cr (FY26 ₹42.7 cr, FY25 ₹47.6 cr, Q1FY27 ~₹21 cr). Engine rate = (26% x PBT + minorities) / PBT = 29.8% / 30.2% / 30.5%, written from the build by IPCALAB.mult.js. The model's profit and EPS are therefore to Ipca's shareholders.",
+ "taxBuild": {
+  "_note": "Engine tax rate = (26% tax on PBT + minorities) / PBT. ₹ crore.",
+  "taxOnPbt": [
+   26,
+   26,
+   26
+  ],
+  "minorities": [
+   80,
+   103,
+   129
+  ],
+  "unichemPat": [
+   130,
+   175,
+   225
+  ],
+  "unichemMinorityPct": 47.33,
+  "trophicPat": [
+   45,
+   50,
+   55
+  ],
+  "trophicMinorityPct": 41.12,
+  "_why": "Ipca owns 52.67% of Unichem and 58.88% of Trophic Wellness (AR FY26 BRSR list of subsidiaries and note on investments). Unichem's profit as consolidated by Ipca (after Ipca's fair-value adjustments from the 2023 acquisition, so below Unichem's own reported profit): ₹130 / 175 / 225 cr on revenue +10% a year and EBITDA margin 12.5% / 14% / 15% (guidance 13% for FY27; 11% in Q1FY27; mid-teens over the medium term per management and Emkay); Unichem's own Q1FY27 profit was ₹41 cr. Trophic Wellness (nutraceuticals, ~₹125 cr of sales, 'profit of almost around ₹40 crores plus', Q4FY26 call): ₹45 / 50 / 55 cr. Minorities = 47.33% x Unichem + 41.12% x Trophic = ₹80 / 103 / 129 cr (Q1FY27 run-rate ₹84 cr a year)."
+ },
+ "payout": [
+  13,
+  13,
+  13
+ ],
+ "_payoutWhy": "FY26 dividend ₹6 a share (₹152.22 cr, 13.3% of profit to owners), up from ₹4 a share for FY22-25 (AR FY26 directors' report). We keep 13% (₹7.6-10.3 a share): management prefers capex (₹700-800 cr) and biotech spending, and keeps cash in mutual funds rather than repaying cheap term loans early.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7.5,
+  "fadeMarginTo": 25,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 4,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity: 6.5% + 0.85 x 6% = 11.6%. Ipca is net cash (gross debt ~₹193 cr at Jun-26 against ~₹1,200 cr of cash and liquid funds), so WACC ≈ cost of equity; beta 0.85 for a pharma company with ~40% of revenue in India branded formulations and the rest in exports and APIs (more cyclical than a pure domestic franchise).",
+  "_tgWhy": "5.5% nominal: India branded (~40% of revenue) grows 8-10% in value; exports and APIs grow mid-single digits in rupees over the long run.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10.6% (FY29E) to 7.5% by year 15.",
+  "_fadeMarginWhy": "25%: management's medium-term consolidated aspiration (25-26%) with Unichem at mid-teens; below the 29% of FY21, which was helped by COVID-era hydroxychloroquine demand.",
+  "_fadeCapexWhy": "5% of revenue: Ipca is capital intensive for a branded company because it makes its own APIs (FY22-26 capex 6-11% of revenue).",
+  "_depWhy": "4% of revenue: D&A was 4.4% of revenue in FY26, all of it tax-deductible (no large acquired brands)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Domestic growth stays at 13%+ with the chronic divisions, Unichem reaches mid-teens margins a year early as Ipca's APIs replace bought-in ones, Europe and the US keep 20%+ growth, and the rupee stays weak.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 1,
+   "fadeMarginTo": 26.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Freight and solvent costs stay high, the institutional anti-malarial business shrinks as donor funding falls, Unichem's US base keeps losing high-volume products, and a USFDA setback at a key plant (Pithampur, Ratlam or Unichem Goa) stalls the US ramp-up.",
+   "revenueGrowthDelta": -2.5,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 23
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 29,
+      "bull": 34.5,
+      "bear": 26.5
+     },
+     "why": "How the street values Ipca: six of the seven notes standing on 30-Sep-2026 that disclose a method use P/E (Motilal Oswal 30x 12-month-forward EPS, Prabhudas Lilladher 30x FY28E, Emkay Sep-28E with Unichem at a separate multiple, Choice 25x FY28E, HDFC Securities 28x Q3FY28E, Sharekhan 45x FY28E); ICICI Direct uses EV/EBITDA. All value consolidated EPS after minorities, as we do (no separate Unichem stake, so nothing is counted twice). 29x Sep-28E EPS = Ipca's median one-year-forward P/E since the Unichem deal (25-Apr-2023 to 30-Sep-2026, every weekly close plus the 30-Sep close) on EPS before exceptional items and one-off gains, 26.2x, x 1.1025 (the eight other pharma peers' trailing P/E at the 30-Sep close vs their five-year medians, PLAYBOOK §7c A20; reproduced +10.25%) = 28.9x, nearest half-turn 29x. The window starts at the deal because earlier prices do not price Unichem while the EPS they would be divided by does (FY24 onwards); the trough rule on reported EPS (FY23 and FY24) would exclude the same dates. Bull 34.5x / bear 26.5x = 75th / 25th percentiles x the factor. The model's EPS is already EPS to shareholders (minorities in the tax line) with no exceptional items, so the engine multiple equals the derived one. Checked in IPCALAB.ctx.js; written by IPCALAB.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 16.5,
+      "bull": 18.5,
+      "bear": 15
+     },
+     "why": "Cross-check (ICICI Direct's method). Ipca's median one-year-forward EV/EBITDA since 25-Apr-2023 (EV = price x 25.37 cr shares + Screener net debt at the latest March; EBITDA = next full fiscal year, FY25-26 actual and FY27-28E ours), 15.1x, x 1.0908 (the eight other peers' trailing EV/EBITDA at the 30-Sep close vs their five-year medians, the EV/EBITDA analogue of the factor) = 16.5x, applied to Sep-28E EBITDA plus the engine's Sep-28E net cash. Like Screener's EV, it leaves out the minorities' claim in history and target alike. Bull 18.5x / bear 15x = 75th / 25th percentiles x the same factor."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 11.6% (cost of equity ≈ WACC: Ipca is net cash), terminal growth 5.5%; the tax rate in the cash flows includes the minorities' share, so the value is after minorities; plus the engine's net cash at Mar-27."
+    }
+   ]
+  }
+ }
+}
