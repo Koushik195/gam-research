@@ -1,0 +1,180 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Anthem Biosciences (consolidated, Rs crore; FY19 standalone column dropped by tools/authoring/ANTHEM.patch.js). Anthem reports two segments (CRDMO, specialty ingredients) and describes CRDMO revenue as commercial molecules, clinical development batches and R&D services; the engine runs one revenue-growth path and the four-line build sits in businessLines, checked against model revenue in tools/authoring/ANTHEM.ctx.js. EBITDA is on Screener's basis (before all other income; the company's own EBITDA includes other income). Anthem is net cash: treasury income is built in ANTHEM.ctx.js as a yield on average net cash plus recurring items and entered in otherIncome (treasuryYield 0). Valued on P/E, the method most brokers that disclose one use.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  13.762,
+  18.57,
+  18.748
+ ],
+ "_revenueWhy": "Sum of the four-line build below. FY27 +13.8%: Q1FY27 revenue Rs418 cr (-22.6%) on deliveries deferred to Q2-Q4; ~60% of the year's revenue in the order book after Q1 (CFO, 22-Jul-2026); management says growth will be 'in line with our historical growth' (~20%) but gives no number, and FY26 delivered 15% against 20% first guided. Our FY27 needs Q2-Q4 revenue of ~Rs1,998 cr, +19% on Rs1,684 cr a year earlier. FY28-29 +18.6% / +18.7%: the four FY26 commercialisations (8-9% of FY26 revenue) ramp over 2-3 years, 10 Phase III molecules start converting in 18-24 months, a new big pharma from Q3/Q4FY27, Unit II (~50-65% used) and Unit III (30-35%) have room until Unit IV (ready end-FY28). Street FY27E Rs2,546-2,566 cr (BOBCAPS, PL, 22-Jul-2026), FY28E Rs3,096-3,115 cr; Jefferies FY29E Rs3,486 cr.",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "commercial": 1291.6,
+   "development": 308,
+   "rd": 173.1,
+   "si": 351.6,
+   "_why": "FY26 revenue Rs2,124.3 cr: CRDMO Rs1,772.7 cr + specialty ingredients Rs351.6 cr (AR FY26 note 41). Within CRDMO, commercial molecules 60.8% of revenue (AR p.35; Q4FY26 deck), development & manufacturing batches for clinical molecules 14.5% (Q4FY26 deck; CFO '~15%', 20-May-2026), R&D services 8.1% by difference (CFO '8-9%')."
+  },
+  "growth": {
+   "commercial": [
+    17,
+    22,
+    22
+   ],
+   "development": [
+    10,
+    12,
+    12
+   ],
+   "rd": [
+    8,
+    10,
+    10
+   ],
+   "si": [
+    8,
+    15,
+    15
+   ]
+  },
+  "_why": "Commercial (14 molecules) +17% in FY27: the base molecules come off FY26 destocking ('restocking now', CEO, 20-May-2026) and the four FY26 launches grow from launch stocking ('growth vis-a-vis what we have delivered in March-26', CFO, 22-Jul-2026) but Q1 deliveries slipped; +22% a year in FY28-29 as Phase III molecules convert (two ADCs among the late-stage ten) and big-pharma relationships deepen. JM's FY25-28E molecule table implies ~15% a year from the six large molecules plus ~9 points from launches. Development batches +10% / +12% / +12%: 10 Phase III programmes (lumpy; one late-stage client acquired by big pharma in Jul-2026). R&D services +8% / +10% / +10%: biotech funding +~50% YoY in Jan-Apr 2026 but smaller projects (CFO). Specialty ingredients +8% in FY27 (Q1 -11.5% on West Asia supply disruption; semaglutide API awaits CDSCO approval), +15% a year in FY28-29 (semaglutide API, enzymes/probiotics; dedicated Unit IV food & nutra plant only from FY29)."
+ },
+ "ebitdaMargin": [
+  40,
+  40.5,
+  40
+ ],
+ "_marginWhy": "Screener basis (before other income): 40.8% (FY23), 35.7% (FY24), 36.4% (FY25), 39.3% (FY26), 36.1% in Q1FY27 on a 23% lower revenue. Gross margin stepped up from ~57-59% (Q1-Q2FY26) to 64.7-66.3% from Q3FY26 after backward integration of the key intermediate that had been bought from China ('that integration is complete', CFO, 20-May-2026); Q1FY27 65.0% (CRDMO 68%, SI 51%, BOBCAPS). Management guides employee cost ~13% and other expenses 9-10% of FY27 sales and calls 38-40% EBITDA margins deliverable. FY27 40.0%: gross margin ~64% (mix: SI and development batches carry less), employee cost ~13.5% (Unit IV hiring), other ~10%. FY28 40.5%: operating leverage. FY29 40.0%: Unit IV's people and overheads arrive before its volumes. Street FY27E: BOBCAPS 38.1%, PL 39.6%; Jefferies ~39% rising to ~42% by FY29.",
+ "capex": [
+  700,
+  700,
+  500
+ ],
+ "_capexWhy": "FY26 capex Rs211 cr (Screener; CWIP Rs264 cr at Mar-26). Guidance: FY27 ~Rs700 cr, 'and then post that will be about Rs500 crores' (CFO, 20-May-2026); Unit IV Phase I Rs1,200 cr split ~50:50 over FY27-28, so FY28 stays elevated (CFO, 22-Jul-2026). FY28 Rs700 cr = Unit IV's second half (~Rs600 cr) plus maintenance; FY29 Rs500 cr as guided. PL: Rs10-12 bn over FY27-28E.",
+ "depRateOnGrossBlock": 7,
+ "_depWhy": "FY26 depreciation Rs134 cr = 9.5% of average gross block (Rs1,404 cr, Screener) after Unit III was commissioned; Q1FY27 Rs30 cr (Rs120 cr annualised). The engine depreciates capex from the year it is spent (CWIP held flat), but Unit IV (Rs1,200 cr) only starts depreciating when it is commissioned at end-FY28, so we use 7.0%: ~Rs130 / 179 / 221 cr in FY27-29E, close to a bottom-up path of ~Rs130 cr (FY27), ~Rs150 cr (FY28) and ~Rs230 cr once Unit IV runs (FY29). Street FY27E: BOBCAPS ~Rs140 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Treasury income is built in tools/authoring/ANTHEM.ctx.js on AVERAGE net cash (the engine would apply a yield to the opening balance only) and entered in otherIncome.",
+ "otherIncome": [
+  88.4,
+  85.8,
+  95.7
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (checked in ANTHEM.ctx.js): (1) treasury income at 6.0% on average net cash (engine path: Rs1,386 cr at Mar-26 incl. Rs158 cr of non-current bank deposits); Q1FY27 financial income was Rs23.6 cr on average company net cash of ~Rs1,547 cr (Mar-26 Rs1,374 cr, Jun-26 Rs1,720 cr) = 6.1% annualised, down from ~8.2% on average gross treasury in FY26 (interest Rs79.3 cr + fund gains Rs9.6 cr) as rates fell; (2) export incentives (RoDTEP) Rs5 cr a year (FY25 Rs5.6 cr, FY26 Rs5.0 cr); (3) miscellaneous income and grants Rs3 cr (FY26 Rs3.5 cr). No forex gains forecast (FY26 Rs58.4 cr with a weak rupee; Q1FY27 operating other income only Rs1.3 cr incl. RoDTEP). FY26 other income was Rs155.8 cr (Screener 'normal' Rs153 cr); TTM to Jun-26 Rs156 cr.",
+ "otherTreasury": {
+  "base": 158.45,
+  "_why": "Other non-current bank balances (fixed deposits) of Rs158.45 cr at Mar-26 (AR FY26 note 7) sit inside Screener's 'Other Assets'. They are treasury, part of the company's Rs1,374 cr net cash; the engine and the Excel take them out of working capital and add them to net cash."
+ },
+ "interest": [
+  4.2,
+  3.3,
+  2.7
+ ],
+ "_interestWhy": "Built in ANTHEM.ctx.js: 7.5% on average borrowings (Rs51 cr at Mar-26 falling to ~Rs35 / 25 / 20 cr as term loans amortise) plus ~Rs1 cr of lease interest and other finance costs. FY26 finance cost Rs6.9 cr; Q1FY27 Rs0.9 cr.",
+ "taxRate": [
+  25.5,
+  25.2,
+  25.2
+ ],
+ "_taxWhy": "FY26 28.2% because NeoAnthem's Rs78.7 cr loss earned no tax credit; Q1FY27 17.0%. CFO: 'about 25% to 25.5% for this full year' as NeoAnthem breaks even (22-Jul-2026); 25.2% (new-regime rate) once Unit III is profitable.",
+ "payout": [
+  18,
+  18,
+  18
+ ],
+ "_payoutWhy": "First dividend Rs2.00 a share for FY26 (19% of EPS; ~Rs113 cr). We assume ~18% while Unit IV is built (Rs2.2-3.0 a share).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 38,
+  "fadeCapexPctTo": 8,
+  "depPctOfSales": 6,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Anthem has no net debt, so WACC equals the cost of equity. Beta 1.0 (12.5%): three customers are 57% of revenue, two molecules ~37%, quarters swing 15-25%, and it has 14 months of trading history; a little above the 0.97 we used for Laurus.",
+  "_tgWhy": "Top of the house 5-6% range: Indian CRDMO is forecast to grow 13.4% a year to 2029 (Frost & Sullivan, AR FY26) and outsourcing keeps rising.",
+  "_fadeGrowthWhy": "Revenue growth fades from 18.7% (FY29E) to 8% by FY42E: revenue grew 22% a year in FY20-26 (Rs633 cr to Rs2,124 cr) with one down year (FY23).",
+  "_fadeMarginWhy": "38%, a little below our FY29E 40%: more commercial volume and bigger customers bring price pressure, and scale-up of biologics is lower-margin early.",
+  "_fadeCapexWhy": "Capex falls from 15-29% of sales (FY27-29E) to 8% by FY42E: maintenance (~6% of sales, FY26 depreciation 6.3%) plus growth capex at Anthem's ~1.4-1.5x gross asset turn.",
+  "_wcNote": "Operating working capital is 28.6% of FY26 sales on Screener's Mar-26 balance sheet (other assets less cash and deposits, less other liabilities). That is low for Anthem (~42% at Mar-25): inventory was Rs125 cr after a record Q4 (Rs340 cr a year earlier) and has been rebuilt for Q2-Q3 deliveries (CFO, 22-Jul-2026). The engine holds 28.6%, which flatters forecast cash by ~Rs250-300 cr at Mar-27; we say so in the report."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Deferred deliveries all land in FY27, the big-pharma additions scale, two or three Phase III molecules (including the ADCs) go commercial by FY29, semaglutide API is approved and the US biosimilar starts; growth runs ~5 points a year faster and the margin reaches ~42%.",
+   "revenueGrowthDelta": 5,
+   "marginDelta": 2,
+   "fadeMarginTo": 41
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "A repeat of FY23: one of the two largest molecules loses volume (destocking, a competing supplier or an acquirer's re-sourcing) while a Phase III programme fails; growth slows ~7 points a year and the margin falls back towards FY24-25's 36-37%.",
+   "revenueGrowthDelta": -7,
+   "marginDelta": -3,
+   "fadeMarginTo": 35
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 65,
+      "bull": 68,
+      "bear": 62.5
+     },
+     "why": "How the street values Anthem: four of the six brokers that disclose a method use P/E (Jefferies 65x Sep-28E, BOBCAPS 57x Jun-28E, PL 55x FY28E, Nomura 50x Dec-27E); HDFC Securities and JM Financial use EV/EBITDA. 65x = Anthem's median one-year-forward P/E since 1-Oct-2025 (listed 21-Jul-2025; IPO months skipped; every weekly close plus the 30-Sep close, 53 points; forward EPS = our FY27E/FY28E, which carry no exceptional items, so the pre-exceptional and reported medians are the same) of 55.3x x 1.172 (nine pharma peers' trailing P/E at the 30-Sep close vs their medians over the same window, PLAYBOOK §7c; reproduced +17.2%) = 64.8x, nearest half-turn. Bull 68x / bear 62.5x = 75th / 25th percentile (58.1x / 53.5x) x 1.172. No own-move blend, no growth uplift (sensitivities only). Written by ANTHEM.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 39.5,
+      "bull": 42.5,
+      "bear": 38
+     },
+     "why": "Cross-check: Anthem's median one-year-forward EV/EBITDA since 1-Oct-2025 (EV at each weekly close less the last published company net cash, over our next-year EBITDA, Screener basis) of 37.0x x 1.067 (the peers' EV/EBITDA move over the same window, PLAYBOOK §7c; reproduced +6.7%) = 39.5x, nearest half-turn, on Sep-28E EBITDA plus Sep-28E net cash. Bull 42.5x / bear 38x = 75th / 25th percentile x 1.067. Street: HDFC Securities 35x Q3FY28E, JM Financial 40x Sep-27E."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 12.5% (cost of equity = WACC; net cash), terminal growth 6%, plus net cash at Mar-27."
+    }
+   ]
+  }
+ }
+}

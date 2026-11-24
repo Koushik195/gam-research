@@ -1,0 +1,116 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, peers, street, ownership, moat, critiques, gaps and conflicts for Anthem Biosciences. Only material published on or before 30-Sep-2026." },
+ "industry": {
+  "global": { "crdmoUsdBn2024": 213, "crdmoUsdBn2029": 330, "cagrPct2024_29": 9.1, "biologicsShare2029Pct": 38, "patentExpiryUsdBn2025_30": 300, "clinicalCandidates": 6000 },
+  "india": { "crdmoUsdBn2019": 4, "crdmoUsdBn2024": 8, "crdmoUsdBn2029": 15, "cagrPct2019_24": 13.2, "cagrPct2024_29": 13.4, "croUsdBn2024": 2, "croUsdBn2029": 4, "cdmoUsdBn2024": 6, "cdmoUsdBn2029": 12 },
+  "drivers": [
+   "Innovators outsource more research, development and manufacturing (asset-light models)",
+   "Biologics, ADCs, peptides and oligonucleotides need specialised capability",
+   "Emerging biotechs (most of the clinical pipeline) own no plants; biotech funding recovered ~50% YoY in Jan-Apr 2026 (Anthem CFO)",
+   "China+1 and the US BIOSECURE Act push work to India",
+   "GLP-1 peptides (semaglutide's Indian patent expired in Mar-2026) create demand for domestic API",
+   "Patent expiries of >USD300 bn of drugs in 2025-30 (biosimilars, generics)"
+  ],
+  "src": "AR FY26 MD&A pp.98-104 (Frost & Sullivan, Evaluate Pharma), published 2026-06-30; Q4FY26 call (20-May-2026)",
+  "published": "2026-06-30"
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": {
+   "LUPIN": "Loss years inside the five-year window (PLAYBOOK §7c).",
+   "GLENMARK": "Loss years inside the window (PLAYBOOK §7c).",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (PLAYBOOK §7c).",
+   "MANKIND": "Listed May-2023: no five-year median (PLAYBOOK §7c)."
+  },
+  "cdmo": ["DIVISLAB", "LAURUSLABS", "SYNGENE", "SAILIFE", "PPLPHARMA", "NEULANDLAB"],
+  "notes": "Pharma peer set set on 23-Nov-2026 (PLAYBOOK §7c). Anthem listed on 21-Jul-2025, so it has no five-year history and is not in the set; its factor is the nine peers' move over Anthem's own window since 1-Oct-2025 (+17.2% P/E, +6.7% EV/EBITDA, PLAYBOOK §7c A21). Listed CRDMO peers are shown as context only."
+ },
+ "street": {
+  "note": "Latest note found for each broker, standing on 30-Sep-2026. Jefferies: Business Upturn and a reprint of the note's numbers (21-Aug-2026); PL and BOBCAPS: original PDFs (22-Jul-2026); DRChoksey: Trendlyne list (PDF blocked to automated access); JPMorgan: Investing.com (26-Aug-2025); Nomura: Business Today (28-Nov-2025); HDFC Securities: HDFC Sky summary (6-Feb-2026); JM Financial: original PDF (31-Oct-2025).",
+  "brokers": [
+   { "broker": "Jefferies", "date": "2026-08-21", "rating": "Buy", "tp": 1050, "method": "P/E", "multiple": "65x", "on": "Sep-28E", "eps": { "FY27E": 12.3, "FY28E": 14.1, "FY29E": 17.9 }, "sales": { "FY29E": 3486 }, "ebitda": { "FY29E": 1460 }, "thesis": "Initiation: 'high-growth Indian CRDMO' with the highest EBITDA margin and ROCE among Indian CRDMOs; fermentation-based peptide capability as a moat; revenue/PAT CAGR 18%/20% FY26-29E; 10% premium to the sector's ~60x forward P/E; flags top-two projects >30% of FY26 sales and Davos ~15%", "src": "https://businessupturn.com/finance/stock-market/brokerages/jefferies-initiates-buy-anthem-biosciences-target-1050/ ; https://inoxtektagliolaser.com/anthem-biosciences-coverage-target.html", "epsNote": "FY27-28E derived from Jefferies' stated EPS growth of 18% and 15% on FY26 EPS of Rs10.4; FY29E Rs17.9 as stated" },
+   { "broker": "Prabhudas Lilladher (PL)", "date": "2026-07-22", "rating": "Buy", "tp": 850, "prevTp": 850, "method": "P/E", "multiple": "55x", "on": "FY28E", "eps": { "FY27E": 13.0, "FY28E": 15.4 }, "sales": { "FY27E": 2566, "FY28E": 3096 }, "ebitda": { "FY27E": 1015, "FY28E": 1240 }, "thesis": "'Weak Q1; FY27 growth outlook remains unchanged': deferred shipments recovered over Q2-Q4; revenue/EBITDA/PAT CAGR ~21%/22%/19% FY26-28E; semaglutide API on CDSCO approval; estimates unchanged", "src": "https://plindia.com/ResReport/ANTHEM-22-7-26-PL.pdf" },
+   { "broker": "BOB Capital Markets", "date": "2026-07-22", "rating": "Buy", "tp": 900, "prevTp": 900, "method": "P/E", "multiple": "57x", "on": "Jun-28E", "eps": { "FY27E": 12.2, "FY28E": 14.8 }, "sales": { "FY27E": 2546, "FY28E": 3115 }, "ebitda": { "FY27E": 970.5, "FY28E": 1193.9 }, "thesis": "In-line quarter, gross margin at its highs (CRDMO 68%); FY27 20% sales guidance read as retained; EBITDA margin cut 200-440bp for Unit IV start-up costs; 57x is a little below the 58x one-year-forward mean", "src": "https://www.barodaetrade.com/Reports/AnthemBiosciences-Q1FY27ResultReview22Jul26-Research.pdf" },
+   { "broker": "DRChoksey (Deven Choksey)", "date": "2026-07-22", "rating": "Accumulate", "tp": 818, "method": null, "multiple": null, "on": null, "thesis": "Post-results Accumulate (method and estimates behind a blocked PDF)", "src": "https://trendlyne.com/research-reports/stock/3161384/ANTHEM/anthem-biosciences-ltd" },
+   { "broker": "HDFC Securities", "date": "2026-02-06", "rating": "Add", "tp": 720, "method": "EV/EBITDA", "multiple": "35x", "on": "Q3FY28E", "thesis": "Margin expansion (backward integration, China intermediate stopped) offset a 15% Q3 revenue fall; destocking easing; four recent approvals (~USD10 bn TAM); risks: no new Phase III additions in Q3, Unit 3 idle, lumpy quarters; ~52x implied P/E. No later note found before 30-Sep-2026", "src": "https://hdfcsky.com/news/hsie-institutional-report-anthem-biosciences-feb-06-2026" },
+   { "broker": "Nomura", "date": "2025-11-28", "rating": "Buy", "tp": 740, "method": "P/E", "multiple": "50x", "on": "Dec-27E", "eps": { "Dec27E": 14.8 }, "thesis": "Initiation: integrated platform across modalities deserves a premium to domestic peers; ~17% growth; fair value range 40-60x; key risk: top two molecules 36-38% of revenue FY26-28E. An aggregator table shows a 'maintain' at Rs900 on 22-May-2026 that we could not verify", "src": "https://www.businesstoday.in/markets/stocks/story/anthem-biosciences-stock-gets-buy-rating-with-18-upside-target-504096-2025-11-28" },
+   { "broker": "JM Financial", "date": "2025-10-31", "rating": "Add", "tp": 782, "method": "EV/EBITDA", "multiple": "40x", "on": "Sep-27E", "eps": { "FY27E": 11.9, "FY28E": 15.1 }, "sales": { "FY27E": 2619, "FY28E": 3285 }, "ebitda": { "FY27E": 958.5, "FY28E": 1212 }, "thesis": "Initiation 'Quality player, but valuations rich': at par with Divi's; 24% CDMO CAGR from six large commercial molecules (USD12 bn to 24 bn sales CY24-29) and four new launches; top-5 customers 71%, Davos BD partner 14% of revenue", "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2025-11/17621619090.90104100.pdf" },
+   { "broker": "JPMorgan", "date": "2025-08-26", "rating": "Neutral", "tp": 820, "method": null, "multiple": null, "on": null, "thesis": "Initiation: innovation-led CRDMO, 26% EPS CAGR FY25-28E, but valuation 'capped' at ~63x FY27E / 52x FY28E P/E (18% premium to Divi's). A Rs900 target in Jul-2026 is cited by a blog we could not verify", "src": "https://ng.investing.com/news/analyst-ratings/jpmorgan-initiates-anthem-biosciences-stock-with-neutral-rating-93CH-2079270" }
+  ],
+  "consensus": { "bobBloombergEps": { "FY27E": 12.9, "FY28E": 15.6 }, "src": "BOBCAPS 22-Jul-2026 key financials table (Bloomberg consensus)" }
+ },
+ "ownership": {
+  "date": "Jun-2026", "promoters": 71.42, "fiis": 2.57, "diis": 13.48, "public": 12.52, "shareholders": 173273, "mutualFunds": 11.15,
+  "named": [
+   { "holder": "Ajay Bhardwaj (promoter, CEO)", "pct": 42.53, "asOf": "Mar-2026" },
+   { "holder": "Ishaan Bhardwaj (promoter, VP)", "pct": 10.16, "asOf": "Mar-2026" },
+   { "holder": "Ganesh Sambasivam (promoter, CSO)", "pct": 8.13, "asOf": "Mar-2026 (9.27% at Mar-2025; sold in the IPO)" },
+   { "holder": "K Ravindra Chandrappa (promoter, COO)", "pct": 7.77, "asOf": "Mar-2026 (8.91% at Mar-2025; sold in the IPO)" },
+   { "holder": "Other promoter-group members", "pct": 2.85, "asOf": "Jun-2026 (6.08% at Mar-2026 less Aruna Ganesh's 3.05% sold on 18-Jun-2026; approximate)" },
+   { "holder": "Viridity Tone LLP (True North)", "pct": 0.18, "asOf": "Mar-2026 (7.97% at Mar-2025)" },
+   { "holder": "Mutual funds (all)", "pct": 11.15, "asOf": "Jun-2026 (PL key data)" }
+  ],
+  "trend": "Promoters 74.69% (Sep-2025) → 74.67% (Mar-2026) → 71.42% (Jun-2026) after Aruna Ganesh's exit; DIIs 7.21% → 13.48% as SBI, HDFC and other funds bought the True North and promoter-group blocks; FIIs 1.66% → 2.57%",
+  "blocks": [
+   { "date": "2025-07-21", "who": "IPO offer for sale (True North Rs1,325 cr; two promoters Rs350 cr each; Portsmouth Technologies and four individuals)", "stake": "59.6 mn shares (10.6%)", "value": "Rs3,395 cr at Rs570" },
+   { "date": "2026-03-09", "who": "Viridity Tone LLP (True North) exit", "stake": "20.31 mn shares (3.62%)", "value": "Rs1,262 cr at Rs621.11; HDFC MF and SBI MF bought 1.65%" },
+   { "date": "2026-06-18", "who": "Aruna Ganesh (promoter group) exit", "stake": "17.11 mn shares (3.05%)", "value": "Rs1,275 cr at Rs744.80; Societe Generale, Prudential HK, Nordea, Premji Invest, SBI/HDFC/Kotak/UTI MFs and insurers bought" }
+  ],
+  "lockIn": "Promoters' minimum 20% contribution is locked in for 18 months from the Jul-2025 allotment (to about Jan-2027) under SEBI ICDR; their holding above it became free after six months",
+  "src": "Screener.in shareholding (Jun-2026); AR FY26 note 15; Medical Dialogues (22-Jun-2026); The Week/PTI (9-Mar-2026); PL 22-Jul-2026",
+  "published": "2026-07-21"
+ },
+ "stock": {
+  "listingPrice": "Rs570 issue; listed at a 27% premium on 21-Jul-2025",
+  "range": "Weekly closes since listing: high Rs940.9 (11-Sep-2026), low Rs587.9 (1-Feb-2026); Rs858.6 on 30-Sep-2026",
+  "events": [
+   { "date": "Aug-2025", "event": "Rallies to ~Rs830-846 after Q1FY26 and broker initiations" },
+   { "date": "Oct-2025 to Feb-2026", "event": "Falls ~30% to ~Rs588 as Q2-Q3 revenue slows (Q3 -15%) on customer destocking and the PE lock-in ends" },
+   { "date": "9-Mar-2026", "event": "True North block at Rs621" },
+   { "date": "Apr-May 2026", "event": "Re-rates to ~Rs780 on the record Q4 (revenue +26%, margin 48% company basis)" },
+   { "date": "18-Jun-2026", "event": "Promoter-group block at Rs744.80" },
+   { "date": "Jul-2026", "event": "Holds ~Rs770-810 despite the Q1 revenue fall" },
+   { "date": "Aug-Sep 2026", "event": "Jefferies initiation (21-Aug); rises to Rs941 (11-Sep) before easing to Rs858.6 on 30-Sep" }
+  ],
+  "src": "Screener.in weekly prices; NSE close 30-Sep-2026; news as cited"
+ },
+ "moat": [
+  { "factor": "Integrated discovery-to-commercial platform (NCE + NBE)", "score": "Strong", "evidence": "One of few Indian CRDMOs doing chemistry and biology from discovery to commercial supply; 100+ early programmes feed 10 Phase III and 14 commercial molecules; all four FY26 Phase III additions came from its own funnel" },
+  { "factor": "Process technology and cost", "score": "Strong", "evidence": "Flow chemistry, biocatalysis, biotransformation, fermentation; gross margin 65% in Q1FY27 after backward integration; company EBITDA margin above 40%, the highest among listed Indian CRDMOs (Jefferies)" },
+  { "factor": "Regulatory record", "score": "Strong", "evidence": "USFDA, PMDA, TGA, ANVISA approvals; four USFDA approvals at Unit I and two clean audits at Unit II; no warning letter disclosed" },
+  { "factor": "Switching costs on commercial molecules", "score": "Moderate", "evidence": "A filed supplier is costly to change for the life of a molecule, but big pharma acquirers re-evaluate suppliers and can dual-source; 14 commercial molecules carry 61% of revenue" },
+  { "factor": "Scale", "score": "Weak", "evidence": "425 KL of custom synthesis vs several thousand KL at Divi's or Laurus; Unit IV only doubles it by FY28-29; cannot bid for large commercial volumes or big biologics" },
+  { "factor": "Customer diversification", "score": "Weak", "evidence": "Top three customers 56.7% of FY26 revenue (61.2% in FY25); top two molecules 36-38% (Nomura); one US BD partner (Davos) brings ~14%" }
+ ],
+ "critiques": [
+  "Bear: three customers are 57% of revenue and two molecules ~37%; a Phase III failure and a product withdrawal cut FY23 revenue 14%, and Q3FY26/Q1FY27 showed how deferrals swing quarters by 15-25%.",
+  "Bear: FY26 growth (15%) missed the 20% management first guided, and FY27 started at -23%; management now refuses to give a number.",
+  "Bear: at ~82x trailing and ~60x our FY28E EPS the stock prices in years of 20%+ growth; the DCF does not support the price.",
+  "Bear: the free float is small (~29%) and the promoter group has been selling (IPO, Jun-2026 block); the 18-month promoter lock-in ends around Jan-2027.",
+  "Bear: other income (~15-20% of PBT) rests on NBFC bonds and FX gains; treasury yields are falling.",
+  "Bull: margins are the best in Indian CRDMO and rose through a revenue dip (Q1FY27 gross margin 65%, +780bp YoY), so the economics do not depend on volume.",
+  "Bull: four molecules went commercial in FY26 (8-9% of revenue already), 10 are in Phase III with ADCs among them, and two big pharmas were added directly in FY26 plus a third in Q1FY27.",
+  "Bull: ~Rs1,720 cr of net cash (Jun-2026) funds the Rs1,200 cr Unit IV without debt or dilution; semaglutide API and a US biosimilar are new legs from FY27."
+ ],
+ "gaps": [
+  "Names of customers A-C and of the top molecules are not disclosed; JM names AbbVie, Novartis and Pfizer as clients, but we cannot map them to revenue",
+  "Molecule-level revenue: only JM's FY25 table (P-1 USD48 mn, P-2 USD35 mn) and Nomura's top-two share (36-38%); we use them as indicative",
+  "Phase mix of the 100+ early-stage programmes (Phase I vs II) is not disclosed",
+  "Exact fermentation capacity: RHP table 182 KL after Unit III; Q4 call 180 KL; Q1FY27 deck still shows 142 KL (Mar-2025 figure)",
+  "FY23 exceptional gain of Rs54 cr (Screener) is not explained in the documents we read",
+  "Broker notes we could not read: DRChoksey (Trendlyne PDF returns 403 to automated access), HDFC Securities Jan-2026 CRDMO initiation (static.hdfcsec.com returns 403), Citi, Kotak, Motilal Oswal, Elara, Nuvama; any JPMorgan or Nomura update after Q4FY26 is unverified",
+  "Segment profit (EBIT) by CRDMO vs specialty ingredients is not reported; BOBCAPS cites Q1FY27 gross margins (CRDMO 68%, SI 51%)",
+  "Davos's share of revenue after FY25 and its commercial terms (13-14% of contract value per JM) are not in the AR",
+  "R&D (discovery) and development revenue split for FY26 is only given as ~8-9% and ~15% (CFO); we take R&D as 8.1% by difference to the 14.5% D&M figure in the Q4 deck"
+ ],
+ "conflicts": [
+  "Listing date: AR note 48 says 21-Jul-2025; Screener's price series starts 25-Jul-2025",
+  "Fermentation capacity: 182 KL (RHP), 180 KL (CFO, 20-May-2026), 142 KL (Q1FY27 deck)",
+  "Exceptional item FY26: company Rs24.39 cr (pre-tax); Screener -Rs22 cr pre-tax (-Rs25 cr Q3, +Rs1 cr Q4)",
+  "FY26 quarterly segment revenue sums (CRDMO Rs1,770.6 cr, SI Rs353.6 cr) differ slightly from the audited annual split (Rs1,772.7 cr / Rs351.6 cr)",
+  "JM Financial target: Rs782 in the initiation PDF; some press summaries say Rs798",
+  "Guidance: BOBCAPS says the 20% FY27 sales guidance was retained; the CFO said on the same call 'we are not giving a guidance of any particular percentage'"
+ ]
+}
