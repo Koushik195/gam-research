@@ -1,0 +1,99 @@
+{
+ "asOf": "2026-09-30",
+ "note": "Gland reports one operating segment (pharmaceuticals). Up to Q4FY26 the investor presentations split the P&L into the base business (Gland Pharma ex-Cenexi) and Cenexi (acquired 27-Apr-2023; sites in France and Belgium; reports in euros). From Q1FY27 the presentation splits revenue into CDMO (all of Cenexi plus Gland's tech-transfer/CDMO work) and B2B (IP-led own and partner ANDAs, B2C India), and by market. EBITDA is the company's definition (PBT + finance cost + depreciation - other income; excludes forex losses from Q1FY27), after ESOP cost; 'adjusted EBITDA' adds back ESOP cost. Q1FY27 base/Cenexi split is GAM-derived: the CFO said the base business grew 24% (10-Aug-2026) and Cenexi revenue was EUR48 mn with EUR2 mn EBITDA; base = Q1FY26 base x 1.24, Cenexi = consolidated less base (implies ~Rs106/EUR, in line with Q4FY26's Rs106.2/EUR). Rs million unless stated.",
+ "src": {
+  "annual": "Investor presentations Q4FY25 (20-May-2025) and Q4FY26 (15-May-2026); AR FY26 MD&A (revenue by market and business model)",
+  "quarterly": "Investor presentations Q1FY26-Q1FY27 (BSE filings); earnings-call transcripts; Screener.in quarterly P&L"
+ },
+ "annual": [
+  {
+   "fy": "FY24",
+   "revenue": 56647,
+   "baseRev": 41769,
+   "cenexiRev": 14878,
+   "cenexiEur": 166,
+   "baseEbitda": 14142,
+   "cenexiEbitda": -812,
+   "ebitda": 13331,
+   "geo": { "USA": 30375, "Europe": 10648, "India": 2810, "Canada": 885, "Australia": 622, "New Zealand": 68, "Rest of World": 11239 },
+   "model": { "ownAnda": 19432, "partnerAnda": 14013, "techTransfer": 22030, "b2cIndia": 942, "exportIncentives": 230 },
+   "src": "Q4FY25 investor presentation (FY24 comparatives; Cenexi from 27-Apr-2023, 11 months); AR FY26 MD&A"
+  },
+  {
+   "fy": "FY25",
+   "revenue": 56165,
+   "baseRev": 41248,
+   "cenexiRev": 14916,
+   "cenexiEur": 164,
+   "baseEbitda": 14451,
+   "cenexiEbitda": -1761,
+   "ebitda": 12689,
+   "geo": { "USA": 30387, "Europe": 10470, "India": 2487, "Canada": 1203, "Australia": 743, "New Zealand": 75, "Rest of World": 10800 },
+   "model": { "ownAnda": 18446, "partnerAnda": 13896, "techTransfer": 22768, "b2cIndia": 794, "exportIncentives": 261 },
+   "src": "Q4FY25 and Q4FY26 investor presentations; AR FY26 MD&A"
+  },
+  {
+   "fy": "FY26",
+   "revenue": 64307,
+   "baseRev": 45613,
+   "cenexiRev": 18693,
+   "cenexiEur": 182,
+   "baseEbitda": 16632,
+   "cenexiEbitda": -336,
+   "ebitda": 16295,
+   "geo": { "USA": 34214, "Europe": 14035, "India": 2672, "Canada": 1300, "Australia": 892, "New Zealand": 76, "Rest of World": 11117 },
+   "model": { "ownAnda": 20358, "partnerAnda": 13657, "techTransfer": 29401, "b2cIndia": 613, "exportIncentives": 277 },
+   "geoSplit": { "usGland": 33181, "usCenexi": 1033, "europeGland": 1883, "europeCenexi": 12152, "rowGland": 6511, "rowCenexi": 4606 },
+   "src": "Q4FY26 investor presentation (15-May-2026); AR FY26 MD&A (by markets; business model)"
+  }
+ ],
+ "quarterly": [
+  { "q": "Q1FY25", "revenue": 14017, "baseRev": 10134, "cenexiRev": 3883, "cenexiEur": 43, "baseEbitda": 2941, "cenexiEbitda": -286, "ebitda": 2654, "grossMarginPct": 59.7, "ebitdaMarginPct": 18.9, "src": "Q1FY26 investor presentation (comparatives); Screener" },
+  { "q": "Q2FY25", "revenue": 14058, "baseRev": 10659, "cenexiRev": 3399, "cenexiEur": 37, "baseEbitda": 3645, "cenexiEbitda": -685, "ebitda": 2961, "grossMarginPct": 59.1, "ebitdaMarginPct": 21.1, "src": "Q2FY26 investor presentation (comparatives)" },
+  { "q": "Q3FY25", "revenue": 13841, "baseRev": 10123, "cenexiRev": 3717, "cenexiEur": 41, "baseEbitda": 3911, "cenexiEbitda": -312, "ebitda": 3600, "grossMarginPct": 66.6, "ebitdaMarginPct": 26.0, "src": "Q3FY26 investor presentation (comparatives)" },
+  { "q": "Q4FY25", "revenue": 14249, "baseRev": 10332, "cenexiRev": 3917, "cenexiEur": 43, "baseEbitda": 3954, "cenexiEbitda": -479, "ebitda": 3475, "grossMarginPct": 65.8, "ebitdaMarginPct": 24.4, "src": "Q4FY25 investor presentation (20-May-2025)" },
+  { "q": "Q1FY26", "revenue": 15056, "baseRev": 10409, "cenexiRev": 4648, "cenexiEur": 47, "baseEbitda": 3592, "cenexiEbitda": 86, "ebitda": 3678, "grossMarginPct": 65.4, "ebitdaMarginPct": 24.4, "cdmoRev": 7411, "b2bRev": 7645, "geoUS": 7443, "geoEurope": 3302, "geoOtherCore": 739, "geoRoW": 2978, "geoIndia": 594, "src": "Q1FY26 investor presentation (Aug-2025); Q1FY27 presentation (comparatives)" },
+  { "q": "Q2FY26", "revenue": 14869, "baseRev": 10767, "cenexiRev": 4102, "cenexiEur": 40, "baseEbitda": 3755, "cenexiEbitda": -616, "ebitda": 3139, "grossMarginPct": 62.8, "ebitdaMarginPct": 21.1, "src": "Q2FY26 investor presentation (Nov-2025)" },
+  { "q": "Q3FY26", "revenue": 16954, "baseRev": 11790, "cenexiRev": 5164, "cenexiEur": 50, "baseEbitda": 4201, "cenexiEbitda": 148, "ebitda": 4349, "grossMarginPct": 66.0, "ebitdaMarginPct": 25.7, "src": "Q3FY26 investor presentation (Feb-2026)" },
+  { "q": "Q4FY26", "revenue": 17428, "baseRev": 12648, "cenexiRev": 4780, "cenexiEur": 45, "baseEbitda": 5084, "cenexiEbitda": 46, "ebitda": 5130, "grossMarginPct": 66.1, "ebitdaMarginPct": 29.4, "cdmoRev": 8059, "b2bRev": 9369, "geoUS": 9807, "geoEurope": 3814, "geoOtherCore": 588, "geoRoW": 2549, "geoIndia": 670, "src": "Q4FY26 investor presentation (15-May-2026); Q1FY27 presentation (comparatives)" },
+  { "q": "Q1FY27", "revenue": 18003, "baseRev": 12907, "cenexiRev": 5096, "cenexiEur": 48, "baseEbitda": 4718, "cenexiEbitda": 212, "ebitda": 4930, "grossMarginPct": 65.3, "ebitdaMarginPct": 27.2, "cdmoRev": 8915, "b2bRev": 9088, "geoUS": 9810, "geoEurope": 3954, "geoOtherCore": 534, "geoRoW": 3039, "geoIndia": 666, "src": "Q1FY27 investor presentation and call (10-Aug-2026); base/Cenexi split GAM-derived (base +24% per CFO; Cenexi EUR48 mn revenue, EUR2 mn EBITDA at ~Rs106/EUR)" }
+ ],
+ "kpiBlocks": [
+  [
+   "1   REVENUE BY BUSINESS (company disclosures)",
+   [
+    ["revenue", "Revenue from operations (consolidated)", "₹ mn", 1],
+    ["baseRev", "Base business (Gland ex-Cenexi)", "₹ mn", 1],
+    ["cenexiRev", "Cenexi", "₹ mn", 1],
+    ["cenexiEur", "Cenexi revenue", "€ mn", 1],
+    ["cdmoRev", "CDMO (incl. Cenexi), new split from Q1FY27", "₹ mn", 1],
+    ["b2bRev", "B2B (own and partner ANDAs, B2C India)", "₹ mn", 1]
+   ]
+  ],
+  [
+   "2   EBITDA BY BUSINESS",
+   [
+    ["ebitda", "EBITDA (company definition, after ESOP)", "₹ mn", 0, "revenue"],
+    ["baseEbitda", "Base business EBITDA", "₹ mn", 0, "baseRev"],
+    ["cenexiEbitda", "Cenexi EBITDA", "₹ mn", 0, "cenexiRev"]
+   ]
+  ],
+  [
+   "3   REVENUE BY MARKET (from Q1FY26)",
+   [
+    ["geoUS", "United States", "₹ mn", 1],
+    ["geoEurope", "Europe", "₹ mn", 1],
+    ["geoOtherCore", "Canada, Australia, New Zealand", "₹ mn", 1],
+    ["geoRoW", "Rest of world", "₹ mn", 1],
+    ["geoIndia", "India", "₹ mn", 1]
+   ]
+  ],
+  [
+   "4   MARGINS",
+   [
+    ["grossMarginPct", "Gross margin (revenue less materials)", "%"],
+    ["ebitdaMarginPct", "EBITDA margin (Screener basis)", "%"]
+   ]
+  ]
+ ]
+}

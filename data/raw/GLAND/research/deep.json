@@ -1,0 +1,449 @@
+{
+ "_meta": {
+  "asOf": "2026-09-30",
+  "note": "Industry, peers, street, ownership, stock, moat, critiques, gaps and conflicts for the Gland Pharma initiation. Only sources published on or before 30-Sep-2026."
+ },
+ "industry": {
+  "iqvia": {
+   "item": "Global medicines market to grow 5-8% a year to ~US$2.4 tn (invoice prices) by 2029; generics and biosimilars partly offset spending growth",
+   "src": "IQVIA, quoted in Gland AR FY26 MD&A",
+   "published": "2026-07-31"
+  },
+  "genericInjectables": {
+   "usdBn2025": 135.4,
+   "usdBn2035": 401.8,
+   "cagrPct": 11.5,
+   "src": "Industry estimate quoted in Gland AR FY26 MD&A",
+   "published": "2026-07-31"
+  },
+  "biologicsCdmo": {
+   "usdBn2024": 17.1,
+   "usdBn2030": 38.1,
+   "cagrPct": 11,
+   "src": "Gland AR FY26 MD&A",
+   "published": "2026-07-31"
+  },
+  "complexTam": {
+   "usdBn": 6.74,
+   "products": 24,
+   "item": "US TAM of Gland's 24 complex injectables (peptides US$1.65 bn, nano-suspension US$3.04 bn, hormones US$0.69 bn, microspheres US$0.71 bn)",
+   "src": "Gland AR FY26 MD&A",
+   "published": "2026-07-31"
+  },
+  "pricing": {
+   "item": "US generic injectables: FY25 volume +9%, price -5% for Gland (CEO, 20-May-2025); the US market grows ~3-4% a year (Srinivas Sadu, 10-Aug-2026); Gland wins share through GPO contracts on a lower cost base",
+   "src": "Q4FY25 and Q1FY27 earnings calls"
+  },
+  "tariffs": {
+   "item": "US confirmed it will not impose Section 232 tariffs on generic pharmaceuticals (Q2FY26 call, Nov-2025); tariffs from 2026 target patented drugs and their APIs. Gland makes no patented products today (CFO/Chairman, 10-Aug-2026); CDMO partners in Europe and the US may move branded supply to the US, which can cut either way",
+   "src": "Q2FY26 and Q1FY27 calls"
+  },
+  "chinaPlusOne": {
+   "item": "Big pharma's sterile manufacturing in Europe costs 5-6x India; companies source from 80-100 sites and want fewer, cheaper partners (Srinivas Sadu, 10-Aug-2026). The BIOSECURE Act (US) restricts certain Chinese biotech suppliers; Gland's Chinese parent is a disclosure point for US partners, though Gland's plants are in India and Europe",
+   "src": "Q1FY27 call; GAM"
+  },
+  "glp1": {
+   "item": "Semaglutide and liraglutide generics open market by market (Canada, India, Brazil and others from 2026; the US around 2031-32); fill-finish capacity for pens/cartridges is scarce; Gland raised cartridge capacity from 40 mn to 140 mn units and has 9 GLP-1 contracts, but expects meaningful US volumes only in FY30-31",
+   "src": "Q4FY26 and Q1FY27 calls; Elara (16-May-2026)"
+  },
+  "westAsia": {
+   "item": "West Asia conflict: glass/vial suppliers asked for 5-6% price rises; 1-2% potential margin impact; Saudi shipments halted in Q4FY26 and NUPCO tender awards delayed",
+   "src": "Q4FY26 and Q1FY27 calls"
+  }
+ },
+ "peers": {
+  "set": [
+   "SUNPHARMA",
+   "DIVISLAB",
+   "TORNTPHARM",
+   "ZYDUSLIFE",
+   "CIPLA",
+   "AUROPHARMA",
+   "ALKEM",
+   "IPCALAB",
+   "ABBOTINDIA"
+  ],
+  "excluded": {
+   "LUPIN": "Loss years inside the five-year window (PLAYBOOK 7c)",
+   "GLENMARK": "Loss years inside the window (PLAYBOOK 7c)",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK 7c)",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window (PLAYBOOK 7c)",
+   "DRREDDY": "gRevlimid windfall FY23-26 then the cliff (PLAYBOOK 7c)",
+   "MANKIND": "Listed May-2023: no five-year median (PLAYBOOK 7c)"
+  },
+  "context": [
+   "AUROPHARMA",
+   "CAPLIPOINT",
+   "SYNGENE",
+   "SAILIFE",
+   "PPLPHARMA",
+   "LAURUSLABS",
+   "DIVISLAB",
+   "BIOCON"
+  ],
+  "notes": "Pharma peer set set on 23-Nov-2026 (PLAYBOOK 7c). Gland is outside the nine-name set, so the five-year factor is the median of all nine: +8.2% P/E (+7.5% EV/EBITDA), as set for A21. Because Gland's base window starts at the Cenexi completion (27-Apr-2023), the factor applied is the nine peers' move against their own medians over that same window (+9.2% P/E, +5.1% EV/EBITDA), computed in tools/authoring/GLAND.ctx.js. Context peers: Aurobindo (Eugia injectables, Gland's closest listed rival in US generic injectables), Caplin Point (Caplin Steriles), and CDMOs (Syngene, Sai Life, Piramal Pharma, Laurus, Divi's); Biocon for biosimilars. CAPLIPOINT screener.json fetched for this report."
+ },
+ "street": {
+  "brokers": [
+   {
+    "broker": "Jefferies",
+    "date": "2026-08-11",
+    "rating": "Buy",
+    "prevRating": "Hold",
+    "tp": 3350,
+    "prevTp": 2080,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "Upgrade after the Q1 beat led by 32% US growth",
+    "src": "https://pro.edgex.exchange/en-US/news/article/gland-pharma-52-week-high-jefferies-goldman-sachs; Business Today 11-Aug-2026"
+   },
+   {
+    "broker": "Nomura",
+    "date": "2026-08-10",
+    "rating": "Buy",
+    "tp": 3330,
+    "prevTp": 2390,
+    "method": "P/E",
+    "multiple": "27.5x",
+    "on": "Sep-28E (FY28-29E avg)",
+    "thesis": "Raised FY27-29F EPS by 9%/5%/5%; expects the stock to trade at 25-30x (20-25x before); revenue growth 13-15% over FY27-29F",
+    "src": "https://askfuzz.ai/discover/news/companies/gland-pharma-q1-profit-jumps-47-yoy-to-317-crore; Reuters via Zerodha (prev Rs2,390, 18-May-2026)"
+   },
+   {
+    "broker": "Investec",
+    "date": "2026-08-11",
+    "rating": "n.d.",
+    "tp": 3330,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "n.d.",
+    "src": "https://businesstoday.in/markets/stocks/story/gland-pharma-shares-rally-10-post-q1-results-highest-and-lowest-target-prices-548420-2026-08-11"
+   },
+   {
+    "broker": "ICICI Direct",
+    "date": "2026-08-11",
+    "rating": "Buy",
+    "tp": 3150,
+    "prevTp": 2645,
+    "method": "P/E",
+    "multiple": "33x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 83.6,
+     "FY28E": 95.4
+    },
+    "rev": {
+     "FY27E": 7536.6,
+     "FY28E": 8768.5
+    },
+    "ebitdaM": {
+     "FY27E": 26.6,
+     "FY28E": 27
+    },
+    "thesis": "Guidance upgraded to 18-20% revenue CAGR; complex products, CDMO deals; risks: US quality issues, Cenexi slowdown",
+    "src": "https://mailcontent.icicidirect.com/mailcontent/idirect_glandpharma_q1fy27.pdf"
+   },
+   {
+    "broker": "Motilal Oswal",
+    "date": "2026-08-10",
+    "rating": "Buy",
+    "tp": 3080,
+    "prevTp": 2300,
+    "method": "P/E",
+    "multiple": "30x",
+    "on": "12M forward",
+    "thesis": "Q1 beat (revenue +5%, EBITDA/PAT +9% vs estimates); raised FY27/28 EPS 3%/4%; 21% earnings CAGR FY26-28 from complex injectables, peptides, GLP-1, liposomes; Cenexi to high-single-digit margin",
+    "src": "https://investmentguruindia.com/newsdetail/buy-gland-pharma-ltd-for-the-target-rs-3-080-by-motilal-oswal-financial-services-ltd393879"
+   },
+   {
+    "broker": "Kotak",
+    "date": "2026-08-11",
+    "rating": "Add",
+    "tp": 3050,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "Retained ADD; 27% EPS CAGR FY26-29; tech-transfer CDMO +22% CAGR; low dividend yield the weak spot",
+    "src": "https://www.kotakneo.com/news/stocks/gland-pharma-shares-jump-52-week-high-q1-results/"
+   },
+   {
+    "broker": "Equirus",
+    "date": "2026-08-11",
+    "rating": "Long",
+    "tp": 2985,
+    "method": "P/E",
+    "multiple": "30x",
+    "on": "Sep-27E",
+    "thesis": "EBITDA CAGR 20% FY26-29E, ROIC +700bp to 22%; GLP-1, Cenexi turnaround, Neuland and liposomal deals",
+    "src": "Business Today 11-Aug-2026"
+   },
+   {
+    "broker": "Elara",
+    "date": "2026-08-11",
+    "rating": "Accumulate",
+    "prevRating": "Buy",
+    "tp": 2956,
+    "prevTp": 2306,
+    "method": "P/E (core EPS + cash)",
+    "multiple": "n.d.",
+    "on": "FY28E core",
+    "eps": {
+     "FY27E": 75.5,
+     "FY28E": 93.2,
+     "FY29E": 106.6
+    },
+    "epsNote": "May-2026 estimates; core EPS raised 5-10% after Q1",
+    "thesis": "Downgrade after a ~40% run-up in three months; 20% CAGR guidance too optimistic",
+    "src": "Business Today 11-Aug-2026; Elara note 16-May-2026 (bsmedia.business-standard.com)"
+   },
+   {
+    "broker": "Nirmal Bang",
+    "date": "2026-08-11",
+    "rating": "n.d.",
+    "tp": 2885,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "n.d.",
+    "src": "Business Today 11-Aug-2026"
+   },
+   {
+    "broker": "360 ONE Capital",
+    "date": "2026-08-11",
+    "rating": "n.d.",
+    "tp": 2835,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "n.d.",
+    "src": "Business Today 11-Aug-2026"
+   },
+   {
+    "broker": "ICICI Securities",
+    "date": "2026-08-11",
+    "rating": "n.d.",
+    "tp": 2825,
+    "prevTp": 2365,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "May note: base business +22%, record 40% base margin; GLP-1 optimum utilisation by CY30",
+    "src": "Business Today 11-Aug-2026 and 18-May-2026"
+   },
+   {
+    "broker": "IIFL",
+    "date": "2026-08-11",
+    "rating": "n.d.",
+    "tp": 2435,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "n.d.",
+    "src": "Business Today 11-Aug-2026"
+   },
+   {
+    "broker": "Goldman Sachs",
+    "date": "2026-08-11",
+    "rating": "Sell",
+    "tp": 2125,
+    "prevTp": 1875,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "Maintained Sell after the Q1 beat",
+    "src": "https://pro.edgex.exchange/en-US/news/article/gland-pharma-52-week-high-jefferies-goldman-sachs"
+   },
+   {
+    "broker": "Ambit",
+    "date": "2026-08-11",
+    "rating": "n.d.",
+    "tp": 1940,
+    "method": "n.d.",
+    "multiple": null,
+    "on": null,
+    "thesis": "Lowest target on the street",
+    "src": "Business Today 11-Aug-2026"
+   }
+  ],
+  "methodNote": "Five brokers disclose a method and all five use P/E on forward earnings (Motilal Oswal, ICICI Direct, Nomura, Equirus; Elara on core EPS plus cash per share). None discloses EV/EBITDA or DCF as the primary method in the sources we found.",
+  "consensus": {
+   "analysts": 18,
+   "buy": 12,
+   "hold": 2,
+   "sell": 4,
+   "asOf": "2026-08-10",
+   "bloombergTp": 2672.53,
+   "src": "askfuzz.ai (10-Aug-2026); Business Today (11-Aug-2026, Bloomberg consensus before revisions)"
+  },
+  "_laterNote": "No broker notes dated September 2026 were found; ICICI Direct (5-Oct) and Axis Direct (15-Nov) are later and sit in updates/later-facts.json."
+ },
+ "ownership": {
+  "date": "Jun-2026",
+  "totalShares": 164756423,
+  "shareholders": 108266,
+  "categories": {
+   "Promoters": 51.77,
+   "FIIs": 8.74,
+   "DIIs": 30.44,
+   "Public": 9.06
+  },
+  "named": [
+   {
+    "holder": "Fosun Pharma Industrial Pte. Ltd., Singapore (promoter; Shanghai Fosun Pharmaceutical)",
+    "pct": 51.83,
+    "asOf": "Mar-26 (sold 6% on 4-Sep-2026, to ~45.8%)"
+   },
+   {
+    "holder": "Mirae Asset Mutual Fund",
+    "pct": 6.92,
+    "asOf": "Mar-26 (6.78% Mar-25)"
+   },
+   {
+    "holder": "HDFC Mutual Fund",
+    "pct": 6.39,
+    "asOf": "Mar-26 (6.56% Mar-25)"
+   },
+   {
+    "holder": "Nippon India Mutual Fund",
+    "pct": 5.04,
+    "asOf": "Mar-26 (6.07% Mar-25)"
+   },
+   {
+    "holder": "SBI Mutual Fund",
+    "pct": 3.28,
+    "asOf": "Mar-26"
+   },
+   {
+    "holder": "ICICI Prudential Mutual Fund",
+    "pct": 3.09,
+    "asOf": "Mar-26"
+   },
+   {
+    "holder": "DSP Mutual Fund",
+    "pct": 1.65,
+    "asOf": "Mar-26"
+   },
+   {
+    "holder": "UTI Mutual Fund",
+    "pct": 1.22,
+    "asOf": "Mar-26"
+   }
+  ],
+  "blockBuyers": "4-Sep-2026 block (BSE leg, 75.05 lakh shares at Rs2,826.60): Kotak MF 27.93 lakh shares (Rs789 cr), Axis MF 13.57 lakh, ICICI Prudential MF 10.39 lakh, plus Aditya Birla Sun Life MF, Mirae, Sundaram, SBI Life, HDFC Life, Kotak Life, Societe Generale",
+  "pledged": 0,
+  "src": "Screener shareholding (BSE, Jun-2026); AR FY26 (shareholders above 1%, Mar-2026); Free Press Journal (6-Sep-2026); Yicai (7-Sep-2026)"
+ },
+ "stock": [
+  {
+   "date": "2020-11-20",
+   "item": "Listed at Rs1,701 vs the Rs1,500 IPO price"
+  },
+  {
+   "date": "2021-10",
+   "item": "Weekly closes near Rs4,000, ~84x one-year-forward EPS"
+  },
+  {
+   "date": "2023-05",
+   "item": "Falls ~20% to a record low after Q4FY23 (weekly close ~Rs930)"
+  },
+  {
+   "date": "2026-05-18",
+   "item": "+12.7% to Rs2,100 after Q4FY26 (profit nearly doubled)"
+  },
+  {
+   "date": "2026-08-11",
+   "item": "+10-12% to a 52-week high (~Rs2,930 intraday) after Q1FY27 and the 55-SKU CDMO deal; up ~67% in calendar 2026 by then"
+  },
+  {
+   "date": "2026-09-04",
+   "item": "Fosun's 6% block at ~Rs2,827-2,829, ~2.7% below the previous close"
+  },
+  {
+   "date": "2026-09-30",
+   "item": "Close Rs2,899.4 (NSE)"
+  }
+ ],
+ "moat": [
+  {
+   "factor": "Cost and scale in sterile manufacturing",
+   "score": "Strong",
+   "evidence": "1.7 bn units of capacity across all formats; wins GPO contracts on cost (FY25 volume +9%); base EBITDA margin 35-40%, far above most US generic injectables makers"
+  },
+  {
+   "factor": "Regulatory record",
+   "score": "Strong",
+   "evidence": "No warning letter or import alert since USFDA approval of Dundigal in 2003; Visakhapatnam clean in Sep-2026; 342 approved ANDAs"
+  },
+  {
+   "factor": "Portfolio breadth and filings",
+   "score": "Moderate-strong",
+   "evidence": "389 ANDAs filed, 1,828 registrations; but much of the portfolio is mature molecules with price erosion"
+  },
+  {
+   "factor": "Partner relationships (B2B)",
+   "score": "Moderate",
+   "evidence": "Long-term supply and profit-share deals; one customer was 13.5% of FY26 revenue and two were 24.7% of FY25; partners own the front end and can switch suppliers on re-filing"
+  },
+  {
+   "factor": "Complex injectables and NDDS",
+   "score": "Unproven",
+   "evidence": "Six complex products launched; the big microsphere/liposome opportunities are post-FY29"
+  },
+  {
+   "factor": "CDMO franchise",
+   "score": "Moderate",
+   "evidence": "46% of revenue incl. Cenexi; new 55-SKU and NDDS deals; but most CDMO work is tech transfer of generics, not innovator molecules ('we don't have any innovative products right now')"
+  },
+  {
+   "factor": "Pricing power",
+   "score": "Weak",
+   "evidence": "US generic injectables lose ~5% a year in price; tender markets (Saudi) are won and lost on price"
+  }
+ ],
+ "critiques": [
+  [
+   "Guidance credibility: medium-term growth was 'low-20s' (May-2025), cut to 15% (May-2026) and raised to ~20% (Aug-2026); Cenexi's breakeven and double-digit margin targets have slipped every year.",
+   "Elara (Aug-2026: 20% CAGR 'too optimistic'); GAM"
+  ],
+  [
+   "Cenexi has destroyed value so far: ~EUR230 mn EV, a ~EUR60 mn capex plan and three years of losses for a business that made EUR2 mn of EBITDA in Q1FY27; management admitted the thesis is 'taking longer than what we estimated'.",
+   "Investor on the Q4FY25 call; CFO Ravi Mitra (20-May-2025)"
+  ],
+  [
+   "The Q4FY26-Q1FY27 margin jump owes much to a few launches (Dalbavancin, multivitamin) and the weak rupee; constant-currency growth was 15% vs 20% reported in Q1FY27.",
+   "IIFL (Rahul Jeewani) on the Q1FY27 call; GAM"
+  ],
+  [
+   "Promoter overhang: Fosun sold 6% in Jun-2024 and 6% in Sep-2026 to fund its own buyback and debt reduction; it is now below 50%.",
+   "Yicai (7-Sep-2026); GAM"
+  ],
+  [
+   "Customer concentration and the B2B model: partners own the front end; one customer was 13.5% of FY26 revenue.",
+   "AR FY26 note 43(c); GAM"
+  ],
+  [
+   "At ~36x FY27E and ~30x FY28E EPS the stock already prices most of the 20% CAGR management only began guiding in August.",
+   "Elara; Goldman Sachs (Sell); GAM"
+  ],
+  [
+   "GLP-1 is a 2030 story for Gland: the 140 mn cartridge line will be filled partly with insulin until US semaglutide generics arrive.",
+   "Q4FY26 and Q1FY27 calls"
+  ]
+ ],
+ "gaps": [
+  "Broker methods, ratings and EPS for Jefferies, Investec, Kotak, IIFL, Nirmal Bang, 360 ONE, ICICI Securities (institutional), Goldman Sachs and Ambit were not disclosed in the press sources we could access; full reports were not available.",
+  "Q1FY27 base-business vs Cenexi split is derived (base +24% per CFO); the company stopped publishing the split from Q1FY27.",
+  "Named holders at Jun-2026 (above 1%) not available; Mar-2026 annual-report list used.",
+  "Capacity utilisation by Indian site and the product-level revenue of Dalbavancin, multivitamin and the top 10 molecules are not disclosed.",
+  "Constant-currency growth for FY26 and Q4FY26 not disclosed (management declined on the Q4 call).",
+  "Profit-share and milestone income are given only as rough percentages on calls, not in rupees."
+ ],
+ "conflicts": [
+  "ICICI Securities target: Business Today lists Rs2,825 (institutional) while the ICICI Direct retail note of 11-Aug-2026 sets Rs3,150 (33x FY28E); both shown as separate rows.",
+  "Fosun's 4-Sep-2026 sale: Free Press Journal reports 4.55% (75.05 lakh shares on BSE, Rs2,121.5 cr) while Fosun's filing reports 9.897 mn shares (6.0%) for ~Rs2,800 cr including open-market trades; we use the filing.",
+  "Nomura's 27.5x on FY28-29E average EPS implies average EPS of ~Rs121, above most of the street; reported by an aggregator, not seen in the original note.",
+  "BofA's 18-May-2026 price objective is reported as Rs1,868 (equal to the 15-May close); not used."
+ ]
+}

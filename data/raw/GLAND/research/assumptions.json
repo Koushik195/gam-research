@@ -1,0 +1,176 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Gland Pharma (consolidated, Rs crore). Gland reports one segment (pharmaceuticals); until FY26 it split the P&L into the base business (Gland ex-Cenexi) and Cenexi (France/Belgium CDMO, acquired 27-Apr-2023), and from Q1FY27 into CDMO vs B2B. The engine runs on a single revenue-growth path and EBITDA margin; the two-line build (base business and Cenexi, revenue and EBITDA) sits in businessLines and tools/authoring/GLAND.ctx.js checks it equals model revenue and EBITDA. Other income = treasury yield x opening net cash (engine treasury) + interest on the cash held against Cenexi's debt and leases + small recurring items; no forex gains are forecast. Valued on P/E, as the brokers that disclose a method do.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  16.54,
+  13.59,
+  14.09
+ ],
+ "_revenueWhy": "Sum of the two-line build (businessLines). FY27E +16.5%: Q1FY27 revenue Rs1,800 cr (+19.6%; constant currency ~15%, CFO 10-Aug-2026); management guides at least 15% constant-currency growth for FY27, with upside if the bag line is approved by the USFDA in Q3 (Srinivas Sadu, 10-Aug-2026); the weaker rupee adds a few points in H1. FY28E +13.6%: management's step 'FY28 could be 15%' (15-May-2026), from CDMO contracts (the NDDS oncology CDMO from H2FY28, USD25-30 mn a year), settlement launches, co-developed products and Cenexi's new Fontenay ampoule line (early 2027); we stay a little below because Gland's medium-term guidance has been cut and raised within a year (May-2025: low-20s for FY27-28; May-2026: 12-13% for FY27 and 15% CAGR; Aug-2026: ~20% CAGR). FY29E +14.1%: complex launches in Q2-Q3FY29 (management's 'one big step up'); the 55-SKU strategic CDMO agreement (USD90-100 mn at peak) only starts in CY2029, so it adds almost nothing to FY29. GLP-1 fill-finish is excluded by management from guidance (major US volumes FY30-31) and by us. Street: ICICI Direct FY27E Rs7,537 cr / FY28E Rs8,769 cr (11-Aug-2026); Elara FY27E Rs7,502 cr, FY28E Rs8,585 cr, FY29E Rs9,436 cr (16-May-2026, before Q1).",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "base": 4561.3,
+   "cenexi": 1869.3,
+   "_why": "FY26 consolidated revenue Rs64,307 mn = base business Rs45,613 mn + Cenexi Rs18,693 mn (EUR182 mn) (Q4FY26 investor presentation, 15-May-2026)."
+  },
+  "growth": {
+   "base": [
+    18,
+    15,
+    16
+   ],
+   "cenexi": [
+    13,
+    10,
+    9
+   ]
+  },
+  "ebitdaMargin": {
+   "base": [
+    36,
+    36.5,
+    37
+   ],
+   "cenexi": [
+    5,
+    8,
+    10
+   ]
+  },
+  "_why": "Base business (Gland ex-Cenexi): FY26 Rs4,561 cr (+10.6%), Q1FY27 +24% (19-20% constant currency, CFO 10-Aug-2026) on US +32% (Dalbavancin, multivitamin infusion with CGT exclusivity, Sugammadex launched 29-Jul-2026, GPO contract wins). Quarterly growth fades through FY27 as Dalbavancin (launched Feb-2026) and the Q3-Q4FY26 GPO wins enter the base: +18% for the year. +15% in FY28 and +16% in FY29 (CDMO ramp-ups, RTU bags, complex launches from Q2FY29). Reported EBITDA margin (after ESOP cost): 35.0% (FY25), 36.5% (FY26), 36.6% in Q1FY27 (GAM: Rs4,930 mn less Cenexi's EUR2 mn); management guides 33-35% for the base (15-May-2026); 36.0% / 36.5% / 37.0% as utilisation rises and CDMO mix grows, partly offset by US price erosion and higher ESOP cost under the 2025 scheme. Cenexi: EUR164 mn (FY25), EUR182 mn (FY26), EUR48 mn in Q1FY27; guidance 'near EUR200 million and high single-digit margins' for FY27 (Neha M., confirmed by management, 10-Aug-2026); Q2 is the summer-shutdown quarter (Q2FY26 EBITDA -EUR6 mn). Rupee value +13% in FY27E (EUR~198 mn at ~Rs107), +10% in FY28E (new Fontenay ampoule line adds ~30 mn ampoules from early 2027) and +9% in FY29E. EBITDA margin -11.8% (FY25), -1.8% (FY26), 4% in Q1FY27: 5% / 8% / 10% vs management's 'mid-teen EBITDA in the midterm', because Cenexi's targets have slipped every year (May-2025: breakeven by Dec-2025 and double-digit in FY27)."
+ },
+ "ebitdaMargin": [
+  27.26,
+  28.72,
+  29.96
+ ],
+ "_marginWhy": "Weighted from the two-line build: FY27E 27.3% (Q1FY27 27.2% on Screener's basis, which includes ESOP cost and a Rs3.6 cr forex loss), FY28E 28.7%, FY29E 30.0%. Consolidated EBITDA margin: 28.3% (FY23, pre-Cenexi), 23.5% (FY24), 22.6% (FY25), 25.3% (FY26). Management targets ~30% adjusted EBITDA (before ESOP) in the near term and 35% in 3-4 years (10-Aug-2026). Street FY27E: ICICI Direct 26.6%, Elara 26.3% (pre-Q1).",
+ "capex": [
+  550,
+  700,
+  750
+ ],
+ "_capexWhy": "FY26 capex Rs494 cr (Screener cash flow; company Rs4,938 mn); Q1FY27 Rs113 cr. Management: 'this year, we are going to spend about INR 550 crores capex. And this will scale up as and when we start building the brownfield' (Srinivas Sadu, 10-Aug-2026), including a Rs165 cr oncology isolator line for the new CDMO contract and a sterile-API block for the Neuland collaboration; the ~Rs2,000 cr programme runs over 3-5 years (vial, ophthalmic, BFS, liposome lines at Pashamylaram Suite 10; Cenexi BLA vial/lyo block and Fontenay ampoule line). Rs700 cr in FY28E and Rs750 cr in FY29E.",
+ "depRateOnGrossBlock": 6.4,
+ "_depWhy": "FY26 depreciation Rs424 cr = 6.8% of average gross block (Rs6,199 cr, Screener; gross block includes Rs1,118 cr of land); Q1FY27 Rs111 cr (Rs445 cr annualised) = ~6.4% of gross block. The engine depreciates capex at once (CWIP held flat), so 6.4% gives ~Rs452 / 492 / 538 cr in FY27-29E.",
+ "treasuryYield": [
+  6.25,
+  6,
+  6
+ ],
+ "_treasuryWhy": "Applied to opening cash net of borrowings (engine treasury: Rs3,359 cr of cash and deposits less Rs284 cr of borrowings and leases at Mar-26 = Rs3,075 cr). Interest on term deposits was Rs203 cr in FY25 and Rs205 cr in FY26 (AR FY26 note 25), 6.5% of average gross cash (Rs2,952 cr at Mar-25 incl. Rs396 cr of non-callable deposits; Rs3,359 cr at Mar-26). Q1FY27 other income Rs61 cr, 'primarily interest income' (CFO), ~7.1% annualised on average cash including small items. Deposit rates are lower after the 2025 repo-rate cuts: 6.25% in FY27E, 6.0% after.",
+ "otherIncome": [
+  33,
+  32,
+  32
+ ],
+ "_otherIncomeWhy": "Two sourced parts. (1) Interest on the gross cash that the engine nets against borrowings: Rs284 cr (Cenexi's external debt and leases) x the same treasury yield = Rs18 cr in FY27E and Rs17 cr after; the matching interest cost sits in the interest line. (2) Recurring items: miscellaneous income Rs14.8 cr (FY26), Rs7.8 cr (FY25), plus small gains on investments and write-backs: Rs15 cr a year. Net forex gains (Rs92 cr in FY26, of which Rs51 cr in Q4; a Rs3.6 cr loss in Q1FY27, booked in other expenses) are not forecast. FY27E other income = Rs192 + 18 + 15 = ~Rs225 cr vs Rs224 cr ex-forex in FY26 (Rs316 cr reported less Rs92 cr forex) and ~Rs232 cr ex-forex in the twelve months to Jun-26.",
+ "interest": [
+  18,
+  17,
+  16
+ ],
+ "_interestWhy": "Rs33 cr in FY26 (incl. Rs2.1 cr of lease interest), Rs4.4 cr in Q1FY27 (Rs18 cr annualised). Cenexi's external debt was Rs243 cr at Mar-26 (CFO, 15-May-2026); we hold it flat (its interest is matched by the interest-income gross-up in otherIncome).",
+ "taxRate": [
+  27,
+  26,
+  25.5
+ ],
+ "_taxWhy": "Effective rate 34.3% (FY25), 29.4% (FY26; company), 27.1% in Q1FY27; Cenexi's losses earn no tax credit, so the blended rate falls as Cenexi turns profitable (CFO, 15-May-2026). Indian rate ~25.2%. 27% / 26% / 25.5%.",
+ "payout": [
+  27,
+  25,
+  24
+ ],
+ "_payoutWhy": "Dividend of Rs18 a share for FY25 (42% of EPS) and Rs20 for FY26 (32%; record date Aug-2026). 27% / 25% / 24% of EPS keeps the dividend at ~Rs21-29 a share.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 30,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net-cash B2B injectables maker with long partner contracts, but a volatile history (revenue -18% in FY23, -1% in FY25) and a controlling foreign parent: 0.9 gives a cost of equity of 11.9% (no net debt, so WACC = cost of equity).",
+  "_tgWhy": "Middle of the house 5-6% range: generic injectables grow with volumes but face US price erosion; CDMO outsourcing and India's cost advantage add to it.",
+  "_fadeGrowthWhy": "Revenue growth fades from 14% (FY29E) to 8% by year 15: Gland grew revenue ~12% a year over FY20-26 including the Cenexi acquisition, ~10% organically.",
+  "_fadeMarginWhy": "30%, about FY29E's level: the mix shift to CDMO and Cenexi's recovery offset continued generic price erosion; no move to management's 35% target in the DCF.",
+  "_fadeCapexWhy": "Capex falls from 7-8% of sales (FY27-29E) to 6% by year 15: maintenance at about depreciation (~5.5% of sales) plus modest growth capex in an asset-light B2B model.",
+  "_wcNote": "Operating working capital is ~38% of sales (inventory ~284 days of material cost, receivables ~107 days on Screener): every rupee of extra sales ties up ~38 paise."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Management's ~20% revenue CAGR plays out: the bag and ophthalmic lines are approved on time, GLP-1 partners launch outside the US early, the strategic CDMO contracts ramp ahead of plan and Cenexi reaches its mid-teen margin.",
+   "revenueGrowthDelta": 4,
+   "marginDelta": 2,
+   "fadeMarginTo": 33
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "US price erosion returns as competitors match Gland's recent launches, Saudi tender volumes stay lost, the rupee recovers and Cenexi stays near breakeven; growth slows to high single digits and the margin falls back to the FY26 level.",
+   "revenueGrowthDelta": -6,
+   "marginDelta": -2.5,
+   "fadeMarginTo": 26
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 27.5,
+      "bull": 33,
+      "bear": 25
+     },
+     "why": "How the brokers that disclose a method value Gland: P/E on forward EPS (Motilal Oswal 30x 12-month forward, ICICI Direct 33x FY28E, Nomura 27.5x FY28-29E average, Equirus 30x Sep-27E; Elara P/E on core EPS plus cash). 27.5x = Gland's own one-year-forward P/E median since the Cenexi acquisition closed (27-Apr-2023) of 25.4x (house forwardMedian from that date; no trough years, exceptional items immaterial) x 1.092, the nine pharma peers' move against their own medians over the same window (PLAYBOOK 7c: a window shorter than five years pairs with the peers' move over that window) = 27.7x, rounded to the nearest half-turn. The window starts at the acquisition so that the multiple's history and the forecast EPS are both on Gland-plus-Cenexi earnings. Sensitivities only: since-2021 median 30.0x x the five-year factor 1.082 = 32.5x (mixes pre-acquisition prices and the FY22 Covid-era dates at ~75x), all weekly closes, window from Apr-2024, own re-rating, street. Bull 33.0x (75th percentile 30.0x x 1.092); bear 25.0x (25th percentile 22.7x x 1.092)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 16,
+      "bull": 19,
+      "bear": 14
+     },
+     "why": "Cross-check on the same basis: Gland's own one-year-forward EV/EBITDA median since 27-Apr-2023 (EV at the weekly close with net cash at the latest March published / next full-year EBITDA, computed in tools/authoring/GLAND.ctx.js) of 15.0x x 1.051 (the nine peers' EV/EBITDA move over the same window) = 15.8x, rounded to 16.0x Sep-28E EBITDA, plus Sep-28E net cash. Bull 19.0x / bear 14.0x (75th / 25th percentiles x 1.051)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at an 11.9% cost of equity (net cash), terminal growth 5.5%, operating working capital ~38% of sales."
+    }
+   ]
+  }
+ }
+}
