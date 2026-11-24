@@ -1,0 +1,290 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for ITC Hotels (consolidated, Rs crore; company EBITDA definition, see ITCHOTELS.patch.js). Two reported segments: Hotels ex-real estate (rooms, F&B, management fees, other operating revenue; kept in businessLines.hotel and checked against the segment in ITCHOTELS.ctx.js) and Real Estate (Sapphire Residences, Colombo: apartment handovers). Minorities are ~0.4% of profit and sit in the tax rate.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "hotel",
+   "name": "Hotels (ex-real estate)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 3928,
+   "growth": [
+    9.8834,
+    11.0026,
+    9.5476
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    35.3,
+    36,
+    36.5
+   ],
+   "hist": {
+    "driver": "hotelRev",
+    "revenue": "hotelRev",
+    "adjEbitda": "hotelEbitda"
+   },
+   "_why": "Sum of the four streams in businessLines.hotel: rooms +9% / +11% / +9% (Q1FY27 +8% with RevPAR +8%: occupancy +290 bps, rate +4%; FY26 +10%; ~200 acquired keys from Q2-Q3FY27 (Welcomhotel Ahmedabad 130, Kumarakom 72) and ~220 new owned keys in FY28 (Bhubaneswar 118, Puri 100+)), F&B +9% / +10% / +9% (Q1 +11%, FY26 +8%), management fees +25% / +20% / +18% (Q1 +35%, FY26 +28%; the 2.5x-of-FY25 target by FY30 needs ~18% a year from FY26), other operating revenue +12% / +10% / +10% (Q1 +14%, FY26 +18%).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA margin ex-real estate FY25 34.0%, FY26 34.6% (+53 bps, +147 bps on a comparable basis), Q1FY27 31.3% (+125 bps YoY in the seasonally weakest quarter). 35.3% / 36.0% / 36.5%: fee mix (fees are almost all margin) and room-rate leverage, partly offset by Kumarakom's renovation and start-up costs and higher energy costs after the West Asia shock."
+  },
+  {
+   "key": "re",
+   "name": "Real estate (Sapphire Residences, Colombo)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 211,
+   "growth": [
+    -24,
+    12.5,
+    0
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    30,
+    30,
+    30
+   ],
+   "hist": {
+    "driver": "reRev",
+    "revenue": "reRev",
+    "adjEbitda": "reEbitda"
+   },
+   "_why": "Revenue is booked when apartments are handed over. FY26 Rs211 cr (Q3 Rs82 cr, Q4 Rs130 cr), Q1FY27 Rs38 cr. Rs160 cr in FY27 (Q1 run-rate plus a stronger H2), then Rs180 cr a year: the AR FY26 says elevated Sri Lankan real-estate taxes have tempered sales momentum. Unsold inventory (Rs1,240 cr at cost, Mar-26) is valued separately in the SOTP.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "FY26 EBITDA Rs64 cr on Rs211 cr (30%); Q1FY27 Rs11 cr on Rs38 cr (29%). 30%."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Corporate costs not in any segment",
+ "_unallocWhy": "Segments sum to consolidated EBITDA as reported (FY26 Rs1,360 + Rs64 = Rs1,424 cr; Q1FY27 Rs281 + Rs11 = Rs292 cr).",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "businessLines": {
+  "_why": "Hotels ex-real estate build (Rs cr). FY26 base: rooms 1,986, F&B 1,535, management fees 173, others 234 = 3,928 (Q4FY26 deck slide 16). Growth per stream in segments[0]._why.",
+  "hotel": {
+   "base": {
+    "room": 1986,
+    "fnb": 1535,
+    "fees": 173,
+    "others": 234
+   },
+   "growth": {
+    "room": [
+     9,
+     11,
+     9
+    ],
+    "fnb": [
+     9,
+     10,
+     9
+    ],
+    "fees": [
+     25,
+     20,
+     18
+    ],
+    "others": [
+     12,
+     10,
+     10
+    ]
+   }
+  }
+ },
+ "otherTreasury": {
+  "base": 528.5,
+  "_why": "Bank deposits with more than 12 months' maturity reported in other non-current financial assets (AR FY26 consolidated note 6: Rs528.50 cr). With Screener's cash (Rs765 cr) and investments (Rs1,956 cr incl. Rs126 cr of associates at equity) gross treasury is Rs3,250 cr; less Rs74 cr of borrowings (leases) = Rs3,175 cr net cash at Mar-26."
+ },
+ "capex": [
+  950,
+  650,
+  650
+ ],
+ "_capexWhy": "FY26 capex Rs410 cr, FY25 Rs386 cr (cash flow statement). Management: 10-12% of cumulative revenue for operating capex, renovations, new builds and expansions (Q1FY27 deck slide 24). FY27E Rs950 cr = ~Rs480 cr organic (~11% of revenue) + The Zuri Kumarakom (Rs205 cr EV, completed 19-May-2026) + Welcomhotel Ahmedabad (GHK, Rs155 cr EV, expected in Q2FY27) + ~Rs110 cr (about a third) of the Rs326.5 cr Yashobhoomi land premium (timing not disclosed). Acquisitions are put in capex because the engine has no acquisition line; their cash leaves net cash either way. FY28-29E Rs650 cr: ~12-13% of revenue as Vizag (Rs328 cr approved), Puri, Bhubaneswar and New Delhi are built.",
+ "depRateOnGrossBlock": 3.9,
+ "_depWhy": "FY26 depreciation Rs417 cr = 3.9% of average gross block (Rs10,742 cr, Screener); Q1FY27 Rs104 cr (Rs416 cr annualised).",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Zero: treasury income is built in otherIncome (see ITCHOTELS.ctx.js).",
+ "otherIncome": [
+  230,
+  255,
+  285
+ ],
+ "_otherIncomeWhy": "Built from AR FY26 consolidated note 25 (Rs192 cr): interest Rs162 cr (bank deposits Rs115 cr, bonds at amortised cost Rs46 cr) + fair-value and sale gains on mutual funds Rs27 cr + other Rs3 cr, on ~Rs2,700 cr average gross treasury = ~7%; plus share of associates (International Travel House 48.96%, Maharaja Heritage Resorts JV) Rs12 cr. FY27E: ~6.75% on ~Rs3,200 cr average treasury (Mar-26 Rs3,250 cr, less ~Rs500 cr of acquisitions and land premium, plus free cash) = ~Rs216 cr + associates ~Rs14 cr = Rs230 cr (Q1FY27: other income Rs59 cr + associates Rs4 cr = Rs63 cr, x4 = Rs252 cr). Then +Rs25-30 cr a year as cash builds. Excludes exceptional items.",
+ "interest": [
+  8,
+  9,
+  10
+ ],
+ "_interestLabel": "Finance cost (lease interest)",
+ "_interestWhy": "FY26 Rs7.93 cr (lease interest Rs6.58 cr; no bank debt), Q1FY27 Rs2 cr.",
+ "taxRate": [
+  26.8,
+  26.8,
+  26.8
+ ],
+ "_taxWhy": "Tax plus minorities (engine has no minority line). FY26 before exceptional items: tax Rs302 cr on PBT Rs1,203 cr = 25.1%; reported 26.9%; Q1FY27 Rs66 cr on Rs249 cr = 26.5%; minorities ~0.3-0.4% of PBT (FY26 Rs4 cr; Q1FY27 Rs2 cr). 26.8%.",
+ "payout": [
+  25,
+  25,
+  25
+ ],
+ "_payoutWhy": "First dividend: Rs1 a share for FY26 (Rs208 cr) = 25% of reported EPS (Rs3.92).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.95,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 36,
+  "fadeCapexPctTo": 9,
+  "depPctOfSales": 8,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash and no debt, so the 12.2% cost of equity is the discount rate; beta 0.95 as for IHCL: hotel demand is cyclical (Covid, West Asia) but there is no financial leverage.",
+  "_tgWhy": "Indian travel and hotel spending grows with nominal GDP; 6% nominal, the top of the house range (as IHCL).",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% to 8% by year 15.",
+  "_fadeMarginWhy": "36%: hotel margin near FY29E with a growing fee share; real estate fades out.",
+  "_fadeCapexWhy": "Capex fades from ~12% of revenue to 9%: renovation ~5% plus owned growth keys (5,700 owned keys today, ~7,500 by 2031)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "West Asia normalises by H2FY27, RevPAR grows ~9-10% a year, management fees reach 2.5x FY25 a year early, Kumarakom, Ahmedabad and Puri ramp fast and the market pays the top quartile of ITC Hotels' own post-listing multiple range after the same sector move.",
+   "fadeMarginTo": 38,
+   "segments": {
+    "hotel": {
+     "growthDelta": 2,
+     "marginDelta": 1
+    },
+    "re": {
+     "growthDelta": 10,
+     "marginDelta": 0
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The 2026 travel shock lingers: inbound and MICE stay weak, RevPAR grows ~4-5%, energy and staff costs squeeze margins, Sapphire sales stall under Sri Lankan property taxes and the stock stays at the bottom quartile of its range after the sector de-rating.",
+   "fadeMarginTo": 33,
+   "segments": {
+    "hotel": {
+     "growthDelta": -3,
+     "marginDelta": -1.5
+    },
+    "re": {
+     "growthDelta": -20,
+     "marginDelta": -5
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "Hotels (owned and managed)",
+    "seg": "hotel",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E hotel EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 20.5,
+     "bull": 23,
+     "bear": 14.5
+    },
+    "note": "Company EBITDA ex-real estate; multiple derived in the valuation chapter."
+   },
+   {
+    "name": "Sapphire Residences: unsold inventory at book less 20%",
+    "adj": {
+     "base": 992,
+     "bull": 1116,
+     "bear": 868
+    },
+    "metricLabel": "Rs1,240 cr inventory at cost (Mar-26) × 0.8 (bull 0.9, bear 0.7)",
+    "note": "Cash still to come from apartments not yet handed over; the margin on units handed over by Sep-28E is in our EBITDA and net cash."
+   },
+   {
+    "name": "Net cash at Sep-28E (cash, investments and long deposits less leases)",
+    "netCash": true,
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "½ Mar-28E + ½ Mar-29E",
+    "note": "Mar-26: Rs3,250 cr gross treasury (incl. Rs126 cr associates at book) less Rs74 cr leases = Rs3,175 cr."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts (EV/EBITDA)",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values ITC Hotels: EV/EBITDA on FY28E (see the street table)."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 36.5,
+      "bull": 40.5,
+      "bear": 27
+     },
+     "why": "Cross-check on earnings: own forward P/E median since 1-Apr-2025 adjusted for the hotel peers' P/E move over the same window."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, 12.2% discount rate, 6% terminal growth, plus net cash."
+    }
+   ]
+  }
+ }
+}

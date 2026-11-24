@@ -1,0 +1,82 @@
+{
+ "symbol": "VMM",
+ "asOf": "2026-09-30",
+ "industry": {
+  "size": "Indian retail ~Rs68-72 trn in CY2023, projected Rs104-112 trn by CY2028 (~9% a year); organised retail Rs14.9 trn (CY2023) to Rs36-38 trn by CY2028 (~20% a year); unorganised still ~80% (AR FY26 MD&A, industry report; HSIE initiation 13-Apr-2026).",
+  "valueRetail": "Listed value retailers grew revenue ~25% y/y in Q1FY27 on ~20% area growth and ~5% sales per sq ft growth (MOSL sector note, 25-Sep-2026): V2 Retail +58% (73% area growth, 56 new stores in the quarter), V-Mart and Baazar Style Retail growing high-teens to 20s. VMM's 10% SSSG compares with 5.5% at DMart and ~7% at Reliance's big-box grocery (Emkay, 23-Jul-2026).",
+  "dmartOverlap": "VMM is strongest in the north and east (~63% of 793 stores at FY26); DMart in the west and south (~84% of its 500). Over half of DMart's stores are in towns of 1 mn+; VMM's core is the 50-250k population band (~39% of stores). In the west ~45% of VMM's 75 stores and in the south ~44% of its 217 stores are in towns with no DMart (HSIE initiation, 13-Apr-2026).",
+  "quickCommerce": "QC is a smaller threat in VMM's towns than in metros: VMM's own hyperlocal service reaches 767 stores; QC drives 6-8% of store revenue where organised competition is thin, 2-3% in crowded urban centres (HSIE). VMM's customers put absolute price ahead of convenience, and QC players lack VMM's own-brand SKUs.",
+  "whitespace": "HSIE maps ~1,246 more large-format stores (to ~2,039), 59% in the south and west; management (Sep-2026) speaks of ~1,200 more LFS plus ~4,000 small-format stores.",
+  "src": "AR FY26 MD&A; HSIE initiation (13-Apr-2026); MOSL value-fashion sector update (25-Sep-2026); Emkay result update (23-Jul-2026)"
+ },
+ "peers": {
+  "set": ["DMART", "TRENT", "METROBRAND", "BATAINDIA", "PAGEIND", "ABFRL", "SHOPERSTOP"],
+  "excluded": {
+   "ABFRL": "Loss-making in every year FY20-26 and restructured by the 2025 demerger of its lifestyle brands: no P/E history to compare.",
+   "SHOPERSTOP": "Net profit Rs11 cr in FY25 and a loss in FY26: the trailing P/E (~258x at 30-Sep-2026) and its history are meaningless."
+  },
+  "note": "Retail peer set set by DMART.ctx.js (consumer-services batch; TRENT matches it): DMART, TRENT, METROBRAND, BATAINDIA, PAGEIND used; ABFRL and SHOPERSTOP excluded as stated; VMM excludes itself. VMM listed on 18-Dec-2024, so its own window is the 12 months from 1-Oct-2025 (the post-listing months to Sep-2025 skipped, PLAYBOOK §7c) and the sector move is measured over the same window: the used peers' trailing P/E at the 30-Sep-2026 close vs their own medians over Oct-2025 to Sep-2026 (HYUNDAI / BAJAJHFL / EMCURE precedent). The five-year move (DMART's -30% basis) is shown as a sensitivity row. Unlisted or uncovered value retailers (V2 Retail, V-Mart, Baazar Style) are not in the house peer set; MOSL's multiples for them are quoted in the text only."
+ },
+ "street": {
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-07-23", "rating": "Buy", "tp": 165, "method": "DCF", "multiple": "~34x Sep-28E pre-Ind AS EV/EBITDA (~51x P/E)", "on": "Sep-28E", "thesis": "Among the most consistent retailers under coverage; moat against offline and online value retailers; lean costs. Risks: promoter (PE) stake sales, key-man risk. Reiterated Buy/Rs165 on 25-Sep-2026.", "src": "Goodreturns (24-Jul-2026) quoting the MOSL 1QFY27 note; MOSL value-fashion sector update (25-Sep-2026, PDF)" },
+   { "broker": "Emkay", "date": "2026-07-23", "rating": "Buy", "tp": 170, "method": "P/E", "multiple": "55x", "on": "Jun-28E", "eps": { "FY27E": 2.3, "FY28E": 2.9, "FY29E": 3.6 }, "revenue": { "FY27E": 15405, "FY28E": 18164, "FY29E": 21208 }, "ebitda": { "FY27E": 2237, "FY28E": 2708, "FY29E": 3195 }, "thesis": "10% SSSG far ahead of DMart (5.5%) and Reliance big-box (7%); entry price points protected; 10-11% space growth; small format ~50% ROIC ex-goodwill. Kept Buy/Rs170 after the Sep-2026 analyst meet (23-Sep-2026).", "src": "Emkay result update PDF (23-Jul-2026); DSIJ summary of Emkay's analyst-meet note (23-Sep-2026)" },
+   { "broker": "ICICI Securities", "date": "2026-07-24", "rating": "Buy", "tp": 150, "method": null, "multiple": null, "on": null, "thesis": "Post-Q1 Buy, target Rs150 (method not visible to us).", "src": "Trendlyne research-report list (24-Jul-2026 entry)" },
+   { "broker": "Aditya Birla Money", "date": "2026-07-23", "rating": "Buy", "tp": 150, "method": null, "multiple": null, "on": null, "thesis": "Q1 revenue 1% above estimate; SSSG 10% vs 8% expected.", "src": "Trendlyne post (23-Jul-2026)" },
+   { "broker": "Elara Capital", "date": "2026-08-24", "rating": "Buy", "tp": 159, "method": null, "multiple": null, "on": null, "thesis": "Q1FY27 in line on revenue, EBITDA and PAT; 10% SSSG, 24 net stores; estimates kept while watching cost inflation and pricing.", "src": "Business Today (24-Aug-2026) citing Elara's post-Q1 view" },
+   { "broker": "Jefferies", "date": "2026-09-24", "rating": "Buy", "tp": 160, "method": null, "multiple": null, "on": null, "thesis": "Clear path from 833 stores to ~2,000; 100+ large-format adds a year; small formats (~4,000 potential); refurbished stores +10-15% sales; private-label margins ~2x national brands in FMCG.", "src": "Business Today (24-Sep-2026)" },
+   { "broker": "Morgan Stanley", "date": "2026-09-24", "rating": "Overweight", "tp": 146, "method": null, "multiple": null, "on": null, "thesis": "100+ LFS openings a year plus 4-5 small stores a quarter; online at cash break-even; CEO reappointment to 2031 eases key-man concerns.", "src": "Business Today (24-Sep-2026; 24-Aug-2026 for the reappointment view)" },
+   { "broker": "HDFC Securities", "date": "2026-09-25", "rating": "Buy", "tp": 140, "method": "DCF", "multiple": "~44x Sep-28E P/E (implied)", "on": "Sep-28E", "eps": { "FY27E": 2.3, "FY28E": 2.9, "FY29E": 3.5 }, "revenue": { "FY27E": 15240, "FY28E": 17763, "FY29E": 20375 }, "ebitdaPreIndAs": { "FY27E": 1518, "FY28E": 1832, "FY29E": 2165 }, "thesis": "Operations well-oiled; ~8% SSSG modelled (management targets double digits); 105-110 stores a year; ~80bp pre-Ind AS margin gain to FY29E; ~40% PE stake is a supply overhang.", "src": "HSIE company update PDF (25-Sep-2026)" },
+   { "broker": "HDFC Securities (Apr)", "date": "2026-04-13", "rating": "Buy", "tp": 130, "method": "DCF", "multiple": "44x FY28E P/E (implied)", "on": "FY28E", "thesis": "Initiation: diversified value play, lowest cost per sq ft among value retailers, 1,246-store whitespace", "src": "HSIE initiating coverage PDF (13-Apr-2026)", "pre": true },
+   { "broker": "Motilal Oswal (Jan)", "date": "2026-01-28", "rating": "Buy", "tp": 170, "method": null, "multiple": null, "on": null, "thesis": "Post-Q3FY26", "src": "Trendlyne research-report list", "pre": true }
+  ],
+  "note": "Standing on 30-Sep-2026: the eight post-Q1FY27 notes with dated, named targets (MOSL, Emkay, ICICI Securities, Aditya Birla Money, Elara, Jefferies, Morgan Stanley, HSIE); all Buy/Overweight. Pre-Q1 notes are shown for method only. ICICI Securities' Oct-2026 note and any post-30-Sep changes are excluded.",
+  "methodSummary": "Where the method is visible, brokers translate their targets into one-year-forward P/E: Emkay 55x Jun-28E EPS; HSIE DCF = ~44x Sep-28E EPS; MOSL DCF = ~34x Sep-28E pre-Ind AS EV/EBITDA, ~51x Sep-28E EPS. P/E on Sep-28E EPS is therefore our primary method; EV/EBITDA and DCF are cross-checks."
+ },
+ "consensus": { "note": "No dated consensus EPS on or before 30-Sep-2026 found. Broker EPS: Emkay 2.3 / 2.9 / 3.6 (FY27-29E, 23-Jul-2026); HSIE 2.3 / 2.9 / 3.5 (25-Sep-2026)." },
+ "ownership": {
+  "date": "2026-06-30",
+  "categories": { "promoters": 40.09, "fii": 20.43, "dii": 34.8, "public": 4.68 },
+  "shareholders": 625567,
+  "trend": "Promoter (Samayat Services LLP) 76.02% after the Dec-2024 IPO, 74.55% (Mar-25), 54.22% (Jun-25, after the 17-Jun-2025 block), 40.12% (Mar-26, after the 27-Feb-2026 block), 40.09% (Jun-26). DIIs 9.9% to 34.8%; FIIs 6.6% to 20.4% (22.0% at Mar-26); shareholders 933,227 to 625,567",
+  "pledged": 0,
+  "named": "Samayat Services LLP 40.12% and HDFC Large and Mid Cap Fund 9.25% at Mar-2026 (AR FY26 note 13A, holders above 5%)",
+  "src": "Shareholding pattern for the quarter ended 30-Jun-2026 (Screener.in categories); AR FY26 note 13A"
+ },
+ "stockEvents": [
+  { "date": "2024-12-18", "event": "Listed at Rs104 on NSE vs the Rs78 IPO price" },
+  { "date": "2025-06-17", "event": "Promoter block of ~19.4% (~Rs10,220 cr)" },
+  { "date": "2026-02-27", "event": "Promoter sells 13.96% at ~Rs117; stock fell ~7-8% on the day" },
+  { "date": "2026-07-24", "event": "Q1FY27 results (23-Jul): stock eased despite 10% SSSG; brokers kept Buy" },
+  { "date": "2026-08-24", "event": "Stock rose ~9% (intraday +11%) after the board reappointed Gunender Kapur to Aug-2031" },
+  { "date": "2026-09-24", "event": "Analyst meet: ~100 LFS a year, ~2,000-store path; Jefferies Buy Rs160, Morgan Stanley OW Rs146" }
+ ],
+ "moat": {
+  "cost": "Lowest retailing cost per sq ft among value retailers (FY25 Rs1,794/sq ft, 19.4% of revenue, vs V-Mart Rs2,406 and DMart Rs2,370; HSIE); leased stores keep capital light (cash capex ~2.5% of revenue).",
+  "brands": "74% own brands; FMCG own brands 30-50% cheaper than market leaders and ~10pp better margin; management holds the discount to leaders at least constant through inflation.",
+  "reach": "819 stores in 559 cities (Jun-2026), ~74% in Tier 2 and smaller towns; loyalty base 175 mn (~95% of revenue).",
+  "weakness": "No pricing power by design (gains are reinvested); apparel competition (Zudio, V2, V-Mart, Style Bazaar) in the same towns; rents and minimum wages rise every year."
+ },
+ "critiques": [
+  "Bulls (Emkay, MOSL, Jefferies): double-digit SSSG with volume-led growth, a 2,000+ store runway and the lowest cost base in value retail justify 50x+ P/E on Sep/Jun-28E.",
+  "Cautious (HSIE): models only ~8% SSSG; the ~40% PE stake (two blocks in nine months) is a medium-term supply overhang; CEO is 65 and succession matters.",
+  "Our critique: the stock de-rated from the high 60s to the high 30s on one-year-forward EPS over the last 12 months without an earnings miss; the overhang and the market's retail de-rating, not the business, set the multiple."
+ ],
+ "governance": "PE-controlled (Kedaara Capital and Partners Group via Samayat, 40.1%), professional management, independent chair; FPI cap of 49.99% proposed to keep Airplaza Indian-owned-and-controlled; promoter entity provides transport and warehousing (Rs103 cr in FY26).",
+ "gaps": [
+  "HSBC's post-Q1 target (Buy, Rs153, reported as a cut) could not be tied to a dated note; Investing.com lists HSBC Buy/Rs170 on 1-Jul-2026. Left out of the table and median.",
+  "Valuation methods for ICICI Securities, Aditya Birla Money, Elara, Jefferies and Morgan Stanley were not visible to us; MOSL's EPS estimates were not available.",
+  "Elara's Q1 note date is not known; we date it by the Business Today report (24-Aug-2026).",
+  "Exact date of the Sep-2026 analyst meet is not stated in the sources (HSIE 25-Sep and Business Today 24-Sep refer to it).",
+  "Region and tier store splits in the presentations are chart labels without clear pairing in the text we extracted; we use HSIE's FY26 regional split only.",
+  "No dated consensus EPS on or before 30-Sep-2026; Trendlyne's consensus page is current (Nov-2026), not as of 30-Sep.",
+  "Store-level economics (capex per store, payback) beyond the IPO-era '19 months payback' (RedSeer, FY23 cohort) are not disclosed."
+ ],
+ "conflicts": [
+  "FY26 EBITDA: company Rs1,883.6 cr (14.6%); Screener operating profit Rs1,918 cr (14.9%), a classification difference of ~Rs35 cr in expenses. The model uses Screener; Q1FY27 agrees (Rs545 cr).",
+  "Feb-2026 block: 13.96% at ~Rs117, Rs7,636 cr (Free Press Journal, exchange bulk-deal data) vs ~14.2% at Rs115 (JM Financial blog). We use 13.96% / Rs117 (matches the 54.09% to 40.13% holding change).",
+  "Jun-2025 block: ~Rs10,220 cr (Bar & Bench) vs Rs10,488 cr (Outlook Business).",
+  "Emkay on 23-Sep-2026: Trendlyne logs a 'decreased' target of Rs170; Emkay's 23-Jul note already had Rs170 unchanged and DSIJ reports it retained. We treat it as unchanged.",
+  "Q3FY26 SSSG: company headline 9.6% (adjusted for Durga Puja falling in Q2) vs 7.5% unadjusted-for-festival and 6.1% reported; MOSL uses 7.5%."
+ ]
+}

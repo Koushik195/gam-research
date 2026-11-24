@@ -1,0 +1,171 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Vishal Mega Mart, consolidated, Rs crore. FY26 (Mar-2026) is the last reported year; Q1FY27 (Jun-2026, reported 23-Jul-2026) the last quarter known on 30-Sep-2026. One segment (value retail: apparel, general merchandise, FMCG). Revenue is modelled as a store build (effective retail area x revenue per sq ft); the engine runs on revenueGrowth and ebitdaMargin and VMM.ctx.js checks the build reproduces model revenue. All stores are leased: EBITDA is after Ind AS 116 (rent sits in depreciation and finance cost), capex includes new lease (right-of-use) assets, and lease liabilities are treated as debt throughout. No minorities. Shares: 468.43 cr at Jun-2026 (VMM.patch.js restates FY26 EPS onto that count).",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "build": {
+  "_note": "Store build (consolidated; VMM has one segment and all stores are leased). Retail area 13.45 mn sq ft at Mar-26 (795 stores), 13.8 mn at Jun-26 (819 stores), ~833 stores at the Sep-2026 analyst meet. Openings are spread through the year (FY26 net adds by quarter 21 / 25 / 29 / 24), so effective (average) area = opening area + 50% of the year's additions; for FY26 that is the simple average of 12.16 and 13.45 = 12.805 mn sq ft (the average of the quarterly averages is 12.78). Revenue per effective sq ft FY26 = Rs12,906 cr / 12.805 mn = Rs10,079 (FY25 Rs9,250, FY24 Rs8,411: +10% and +9% in FY25-26 on 12.3% and 11.0% SSSG). MOSL's monthly sales per sq ft (Rs841 average in FY26, Rs912 in Q1FY27, +7% y/y) is the same measure.",
+  "base": {
+   "fy": "FY26",
+   "stores": 795,
+   "areaClose": 13.45,
+   "areaOpen": 12.16,
+   "revenue": 12906,
+   "areaEff": 12.805
+  },
+  "netAdds": [
+   105,
+   110,
+   115
+  ],
+  "_netAddsWhy": "Management (analyst meet, Sep-2026): ~100 large-format stores a year with line of sight on ~400 over four years, plus small-format stores on top (16 at Jun-2026; 4-5 a quarter per Morgan Stanley). FY26: 105 gross, 6 closures, 99 net; Q1FY27 27 gross, 3 closures, 24 net; ~833 stores by Sep-2026. HSIE builds 105-110 a year, Emkay 110-130 net. We use 105 / 110 / 115 net.",
+  "sqftPerNetStore": 0.0135,
+  "_sqftWhy": "Area added per net store: FY26 1.29 mn sq ft for 99 net stores (13.0k, after area cuts in Karnataka stores), Q1FY27 0.35 mn for 24 (14.6k). New large stores are 17-18k sq ft, small stores ~8k, and closures remove ~17k each; average store size fell from 18.3k (FY23) to 16.9k (Mar-26). 13.5k sq ft per net store gives area growth of ~10.5% a year (HSIE ~10%, Emkay 10-11%).",
+  "phasing": 0.5,
+  "revPerSqftGrowth": [
+   6.5,
+   6,
+   6
+  ],
+  "_rpsWhy": "Revenue per effective sq ft = SSSG less the drag from young stores (~2-3pp: FY26 SSSG 11.0% gave +9.0%). Q1FY27 SSSG 10.0% (7-8% new customers, 3% spend per customer) and monthly sales per sq ft +7% (MOSL). Management targets double-digit SSSG (annual, volume-led); we assume ~8.5-9% SSSG (inflation in West Asia-linked inputs, minimum-wage pressure on shoppers, HSIE models ~8%) and +6.5% / +6% / +6% per sq ft."
+ },
+ "revenueGrowth": [
+  17.7592,
+  16.8648,
+  16.3131
+ ],
+ "_revenueWhy": "From the store build (checked in VMM.ctx.js): effective area +10.6% / +10.2% / +9.7% and revenue per sq ft +6.5% / +6% / +6%, giving revenue of Rs15,198 / 17,761 / 20,659 cr. Q1FY27 revenue +18.7%; management guides 18-20% for 2-3 years; HSIE Rs15,240 / 17,763 / 20,375 cr; Emkay Rs15,405 / 18,164 / 21,208 cr.",
+ "ebitdaMargin": [
+  14.8,
+  15,
+  15.2
+ ],
+ "_marginWhy": "Reported EBITDA (after Ind AS 116, so rent is excluded, and after ESOP cost), Screener basis, which moves bank charges (~0.25% of revenue) into finance cost: FY24 14.3%, FY25 14.6%, FY26 14.9% (company 14.0 / 14.3 / 14.6%); Q1FY27 14.6% (flat y/y): gross margin +30bp on fewer promotions, offset by minimum-wage increases (staff cost +25% y/y). FY27E 14.8%: West Asia-linked input inflation (fabric +10-11%), vendors absorb ~half, no price rises on entry price points; ESOP cost falls (Rs8 cr in Q1 vs Rs12.6 cr). FY28E 15.0%, FY29E 15.2%: rent escalates ~5% a year vs ~9% SSSG (operating leverage), while gross-margin gains are reinvested in price. HSIE: +80bp pre-Ind AS margin over FY26-29E; Emkay company-basis 14.5 / 14.9 / 15.1%.",
+ "capex": [
+  1160,
+  1270,
+  1380
+ ],
+ "_capexWhy": "Capex here = cash capex PLUS new right-of-use (lease) assets, because every store is leased: the engine depreciates this block (ROU amortisation is ~70% of D&A) and treats it as investment in the DCF, so leases are not free. FY26: cash capex Rs325 cr (Rs3.1 cr per gross store incl. DCs, IT, refurbishment) + Rs718 cr of new ROU assets = Rs1,043 cr. FY27-29E cash capex Rs360 / 390 / 420 cr (more stores, the four-hub DC network, RFID: HSIE Rs335-367 cr) + ROU additions Rs800 / 880 / 960 cr (area +10-11% a year plus renewals at ~5% a year higher rent).",
+ "depRateOnGrossBlock": 7.3,
+ "_depWhy": "FY26 D&A Rs673 cr: ROU amortisation Rs479 cr, PPE Rs189 cr, software Rs5 cr; Q1FY27 Rs185.5 cr (Rs742 cr annualised, +17% y/y). The gross block includes Rs4,284 cr of goodwill (not amortised), so the rate on gross block is low; it is set so FY27E D&A is ~Rs780 cr (+16%), rising with the store base.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "The engine treasury is cash + investments less borrowings, and Screener books the Rs1,988 cr of lease liabilities as borrowings, so treasury starts negative (-Rs339 cr) even though VMM has no bank debt and Rs1,714 cr of cash, deposits and liquid funds. Treasury income is therefore built in otherIncome below.",
+ "otherIncome": [
+  130,
+  180,
+  235
+ ],
+ "_otherIncomeWhy": "Built (AR FY26 note 19): FY26 Rs86 cr = treasury income Rs72 cr (liquid-fund gains Rs65 cr, deposit interest Rs7 cr) on average gross cash of ~Rs1,280 cr (5.6%) + recurring non-treasury items Rs15 cr (security-deposit interest Rs8 cr, lease-modification gains Rs6.5 cr). Gross cash rose Rs863 cr in FY26 (cash flow after capex, lease payments and ESOP proceeds) and keeps building with no dividend: average ~Rs2,100 / 3,000 / 4,000 cr in FY27-29E at 5.5% = Rs115 / 165 / 220 cr, plus Rs15 cr = Rs130 / 180 / 235 cr. Q1FY27 Rs33 cr (Rs132 cr annualised); Screener four quarters to Jun-26 Rs103 cr. HSIE non-operating income Rs125 / 152 / 204 cr.",
+ "interest": [
+  228,
+  256,
+  288
+ ],
+ "_interestLabel": "Finance cost incl. bank charges (lease interest plus card/bank charges; no bank debt)",
+ "_interestWhy": "Screener (and so the model) books bank and card charges (Rs32.4 cr in FY26, AR note 24) in finance cost: FY26 Rs204 cr = lease interest Rs169.7 cr + other interest Rs1.8 cr + bank charges Rs32.4 cr (the company reports Rs171.5 cr). Lease interest is ~9.1% of average lease liabilities (~Rs1,860 cr in FY26) and grows ~11% a year with area: Rs190 / 212 / 236 cr; bank charges stay ~0.25% of revenue: Rs38 / 44 / 52 cr. Total Rs228 / 256 / 288 cr. Q1FY27 finance cost Rs46.3 cr (company basis).",
+ "taxRate": [
+  25.3,
+  25.3,
+  25.3
+ ],
+ "_taxWhy": "Statutory 25.17%; FY26 effective 25.4%, Q1FY27 25.2%.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividend since listing; the CEO deferred to the board when asked (May-2026). Cash builds.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 15.2,
+  "fadeCapexPctTo": 5.5,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Discretionary-leaning value retail (44% apparel): earnings steadier than the market but more cyclical than DMart's grocery (beta 0.75). No bank debt; lease liabilities (~4% of market value) are deducted as debt, so the cost of equity (11.9%) is the discount rate.",
+  "_tgWhy": "Organised retail is ~20% of Indian retail and projected to grow ~20% a year to CY2028 (AR FY26 MD&A); 6% nominal terminal growth (house range 5-6%) after 15 years.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~16% (FY29E) to 9% over 15 years as the ~2,000-store large-format runway fills (small formats extend it).",
+  "_fadeMarginWhy": "Reported EBITDA margin held at 15.2%: management reinvests gross-margin gains in price; rent and wage inflation absorb operating leverage at maturity.",
+  "_fadeCapexWhy": "Capex incl. new leases fades from ~6.7% of revenue (FY29E) to 5.5%; D&A (mostly lease amortisation) 5.0% of revenue (FY26 5.2%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "SSSG stays at the double-digit \"north star\" (11-12%) as down-trading lifts footfall, small formats add 20+ stores a year on top of ~110 large stores, and operating leverage on rent lifts the margin; the PE overhang clears and retail multiples stop falling.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 0.4,
+   "fadeMarginTo": 16,
+   "volumeGrowthDelta": 0
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Inflation squeezes mass-market budgets and apparel competition (Zudio, V2 Retail, V-Mart) intensifies in Tier 2-3 towns: SSSG falls to 4-5%, openings slip to ~80 a year, and VMM protects entry prices at the cost of ~60bp of margin while the remaining 40% PE stake is sold into the market.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -0.6,
+   "fadeMarginTo": 14,
+   "volumeGrowthDelta": 0
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 39.5,
+      "bull": 45,
+      "bear": 36.5
+     },
+     "why": "How the street values VMM: one-year-forward P/E, directly (Emkay 55x Jun-28E) or as the stated equivalent of DCF targets (HSIE ~44x Sep-28E; MOSL ~51x Sep-28E). Multiple derived in VMM.ctx.js: VMM listed on 18-Dec-2024, so its own one-year-forward P/E median over the 12 months to 30-Sep-2026 (post-listing months skipped, PLAYBOOK §7c) x the retail peers' P/E move against their own medians over the same window, nearest half-turn. Bull: no sector move; bear: 25th percentile x the move."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 18.5,
+      "bull": 21,
+      "bear": 17
+     },
+     "why": "Cross-check (MOSL ~34x Sep-28E pre-Ind AS): VMM's trailing EV/EBITDA median over the same 12 months x the same sector move x trailing-to-Sep-28E EBITDA; values the stores after Ind AS 116 and deducts lease liabilities net of cash."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether 15 years of store-led cash flows (new leases counted as capex) support the price: FCFF at an 11.9% cost of capital, terminal growth 6%."
+    }
+   ]
+  }
+ }
+}
