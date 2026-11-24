@@ -1,0 +1,276 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Biocon Ltd (consolidated, Rs crore; Net Profit on the attributable basis via tools/authoring/BIOCON.patch.js; 162.97 cr shares). Biocon Biologics (BBL, biosimilars) became wholly owned on 29-Jun-2026 (MOSL 6-Aug-2026; Q1FY27 press release); Syngene (research services, 52.4% owned, AR FY26 note 39) is consolidated. Revenue is Screener's revenue from operations; EBITDA is Screener's basis, i.e. BEFORE other income (Biocon's own 'EBITDA' includes other income: FY26 Rs3,798 cr vs Rs3,471 cr here). The business-line build (businessLines: biosimilars, generics, services on the AR FY26 note 40 external-revenue basis) and the segment EBITDA build are checked against model revenue and EBITDA in BIOCON.ctx.js. The engine has no minority line: Syngene's minorities (47.6%) are deducted inside otherIncome on a pre-tax-equivalent basis so that forecast EPS stays attributable (syngene block). Valuation: sum of the parts carried by BIOCON.sotp.js as an implied P/E on Sep-28E EPS.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  11.38,
+  11.58,
+  10
+ ],
+ "_revenueWhy": "From the business-line build (businessLines; the ctx script checks it within 0.3%). FY27E +11.4%: Q1FY27 revenue from operations +10% (biosimilars +16%, generics +21%, services -16%; Q1FY27 press release). About 8 points of the biosimilars and generics growth is the rupee: Biocon is 'largely a dollarized company' (CFO, Q4FY26 call) and the rupee averaged ~88.5/$ in FY26 vs ~94.7 in Q1FY27 and 95.81 at 30-Sep-2026 (PTI, as in SUNPHARMA). FY28E +11.6% and FY29E +10.0% at a flat rupee: full-year aflibercept, denosumab and aspart in the US, then slower. MOSL (6-Aug-2026) has Rs18,970 cr / Rs21,507 cr for FY27E / FY28E; Axis Securities (19-Sep-2026) Rs20,971 cr / Rs22,344 cr. We are in line with MOSL and 6-10% below Axis.",
+ "businessLines": {
+  "_why": "FY26 external revenue by segment (AR FY26 note 40, Rs mn converted to Rs crore): biosimilars 10,379.8, generics 2,858.7, services (Syngene; 'CRDMO' until FY26) 3,688.5 = Rs16,927.0 cr. External revenue already nets inter-segment sales (FY26: generics sold Rs309 cr of API to the other segments). Growth in rupees. Biosimilars +17% / +13% / +10%: Q1FY27 +16% (Rs2,855 cr) of which ~10 points was the rupee (Q1FY26 ~85.6/$, Q1FY27 ~94.7/$), i.e. ~5% in constant currency; management guides to 'meaningful acceleration in the second half' (Q1 call) from Yesafili (aflibercept, US launch Aug-2026, interchangeable), Bosaya/Aukelso (denosumab, US launch May-2026), Kirsty (insulin aspart) moving to commercial US channels in 2HFY27 and the second Malaysia drug-product line (EMA-approved, supplying from Q2FY27). FY27E +17% = ~8% rupee + ~9% constant currency; FY28E +13% (full year of the launches, flat rupee; MOSL models a 16% FY26-28 CAGR to Rs14,000 cr, Nuvama ~21%); FY29E +10% (price erosion in the base portfolio, more aflibercept and denosumab competitors). Generics +16% / +12% / +10%: Q1FY27 +21% (Rs760 cr) with liraglutide 'in single digits' of the segment (Q1 call); FY26 +17% like for like; API is ~60% of the segment. Services (Syngene) -8% / +6% / +10%: Syngene guides to a single-digit rupee decline in FY27 after losing volume at a large biologics client (Q1: -16%), and a return to growth from FY28 (Q1 call); MOSL models a -3.4% FY26-28 CAGR.",
+  "base": {
+   "fy": "FY26",
+   "biosimilars": 10379.8,
+   "generics": 2858.7,
+   "services": 3688.5
+  },
+  "growth": {
+   "biosimilars": [
+    17,
+    13,
+    10
+   ],
+   "generics": [
+    16,
+    12,
+    10
+   ],
+   "services": [
+    -8,
+    6,
+    10
+   ]
+  },
+  "margin": {
+   "_why": "Segment EBITDA BEFORE other income (Screener basis), from AR FY26 note 40: total revenue less segment costs less inter-segment costs. FY26: biosimilars Rs2,565.9 cr (24.7% of external revenue; company's segment EBITDA incl. Rs184.9 cr of other income = Rs2,751 cr, 26%), generics Rs43.0 cr (1.5%; company Rs166 cr incl. Rs122.4 cr of other income), services Rs918.5 cr (24.9%), eliminations and unallocated -Rs72.1 cr; total Rs3,455 cr vs Screener Rs3,471 cr. FY25: biosimilars Rs1,900 cr (21.3%), generics Rs297 cr (10.8%, incl. one-time US lenalidomide), services Rs1,042 cr. Q1FY27 (company basis, incl. other income): biosimilars Rs728 cr (25%), generics Rs56 cr (7%), Syngene operating EBITDA margin 12%. Biosimilars 25.0% / 26.0% / 26.5%: management guides to 'mid-20s' and says FY26's 27% (company basis) was flattered by a North America-heavy allocation in Q3; launches carry higher margins but US price erosion is 'real' (Q1 call). Generics 6% / 9% / 11%: Q4FY26 8% and Q1FY27 7% on the company basis; gross margin 'early 40s'; new plants (Vizag, Hyderabad, Bengaluru peptides, Cranbury US) still under-used. Services 18% / 23% / 24.5% (Syngene operating EBITDA; FY26 24.6% on Syngene's own numbers, Q1FY27 12.4%; the company talks of a return to the mid-20s, which needs a much stronger second half). Corporate and eliminations -80 / -85 / -90.",
+   "biosimilars": [
+    25,
+    26,
+    26.5
+   ],
+   "generics": [
+    6,
+    9,
+    11
+   ],
+   "services": [
+    18,
+    23,
+    24.5
+   ],
+   "corporate": [
+    -80,
+    -85,
+    -90
+   ]
+  },
+  "fx": {
+   "fy26Avg": 88.5,
+   "q1fy27Avg": 94.7,
+   "spot": 95.81,
+   "_why": "FY26 average ~88.5 and Q1FY27 ~94.7 Rs/$ as used in SUNPHARMA (implied by Sun's US sales in rupees and dollars); spot 95.81 at 30-Sep-2026 (PTI). Biocon does not disclose its own average rates."
+  }
+ },
+ "ebitdaMargin": [
+  19.98,
+  22.08,
+  23.03
+ ],
+ "_marginWhy": "Consolidated EBITDA before other income = sum of the segment builds (businessLines.margin): FY27E Rs3,766 cr (20.0%), FY28E Rs4,644 cr (22.1%), FY29E Rs5,328 cr (23.0%), vs 20.5% in FY26 (Screener) and 19.5% in Q1FY27 (Rs847 cr). Each 1pp of consolidated margin is ~Rs210 cr of FY28E EBITDA, ~14% of FY28E EPS: Biocon's earnings are very sensitive to the margin because interest and amortisation absorb most of EBITDA. MOSL has 21.1% / 22.0% on the same basis (Rs4,012 cr / Rs4,742 cr); Axis Securities Rs4,446 cr / Rs4,782 cr. Management's 'mid-20s' FY27 margin talk (MOSL's reading of the Q1 call) is on the company's basis including other income and still looks ambitious to us.",
+ "capex": [
+  1500,
+  1400,
+  1400
+ ],
+ "_capexWhy": "Cash capex incl. intangibles: Rs1,912 cr in FY26 (Screener: cash from operations Rs1,994 cr less free cash flow Rs82 cr) and ~$204 mn in the June-2026 investor presentation (Syngene, biosimilars and generics). Management: the 'major investment phase is substantially complete', no large greenfield capex, minor debottlenecking in Bengaluru; the Malaysia drug-substance doubling completes 'towards the end of this financial year' (Q4FY26 call). Syngene keeps investing (~Rs400-500 cr a year). MOSL models only Rs700 / 650 cr; we keep capitalised development and Syngene in, so Rs1,500 / 1,400 / 1,400 cr.",
+ "depRateOnGrossBlock": 4.75,
+ "_depWhy": "FY26 depreciation and amortisation Rs1,957 cr = 4.4% of the average gross block (Screener: Rs40,804 cr to Rs48,079 cr; the block includes Rs18,377 cr of goodwill, which is not amortised, and jumped with the rupee). Q1FY27 D&A Rs548 cr (Rs2,192 cr annualised) and rising: launches move product intangibles out of 'under development' (Rs2,392 cr at Jun-26) and the Malaysia line is capitalised (CFO, Q1 call). 4.75% of the average block gives Rs2,319 / 2,388 / 2,455 cr (MOSL Rs2,297 / 2,499 cr). The engine holds CWIP flat (Rs6,987 cr incl. intangibles under development), which understates the step-up as those assets go live.",
+ "treasuryYield": [
+  6,
+  6,
+  6
+ ],
+ "_treasuryWhy": "Not used: the engine applies the yield only to positive net cash, and Biocon has net debt (Screener basis Rs10,461 cr at Mar-26). Interest on Biocon's gross cash is built inside otherIncome instead.",
+ "otherIncome": [
+  155,
+  57,
+  -2
+ ],
+ "_otherIncomeWhy": "Built from sourced parts, then reduced by Syngene's minorities (the engine has no minority line). (1) Gross other income Rs220 / 230 / 240 cr: AR FY26 note 22 shows Rs342.5 cr in FY26 = interest on deposits Rs96.6 cr + other interest Rs18.8 cr + gains on current investments Rs83.7 cr + fair-value gains Rs79.5 cr + other non-operating income Rs63.9 cr; Q1FY27 was Rs55 cr (Rs80 cr a year earlier), i.e. ~Rs220 cr a year. We take interest at ~5.5% on ~Rs2,800 cr of cash and liquid investments (Rs2,833 cr at Jun-26: cash Rs1,518 cr + other bank balances Rs836 cr + current investments Rs479 cr) = ~Rs155 cr, plus ~Rs65-85 cr of fund gains and sundry income; no forex gains (none guided; the dollar debt is a natural hedge). (2) Less Syngene's minorities on a pre-tax-equivalent basis: 47.6% x Syngene profit (syngene block: Rs112 / 284 / 392 cr) = Rs54 / 135 / 187 cr after tax, grossed up at Biocon's tax rate = Rs65 / 173 / 242 cr. Result: Rs155 / 57 / -2 cr (the ctx script rebuilds it and checks it within Rs3 cr). BBL has no minorities from 29-Jun-2026 (Q1FY27 minorities were a net credit of Rs4 cr, Syngene's share of its loss).",
+ "interest": [
+  820,
+  745,
+  630
+ ],
+ "_interestLabel": "Finance costs (BBL's $800 mn 6.67% notes and syndicated loan, working-capital debt, leases, Syngene)",
+ "_interestWhy": "FY26 Rs990 cr (Screener; Q1FY26 Rs277 cr falling to Rs213 cr in Q1FY27 after the structured instruments were redeemed with the June-2025 QIP: ~Rs300 cr a year of savings, CFO Q4FY26 call). Gross debt Rs15,551 cr at Jun-26 incl. Rs598 cr of leases (balance sheet), ~5.5% average cost (Q1 annualised Rs852 cr). Rs820 / 745 / 630 cr = 5.5% on our own average gross-debt path: Rs15,434 cr at Mar-26 falling to ~Rs10,300 cr at Mar-29 as free cash goes to debt (CFO); the path is the model's net debt plus the working capital the engine misses, with cash held at Mar-26 levels. BIOCON.ctx.js rebuilds it and checks it within 5%. The $800 mn notes are callable from Oct-2026 at a premium; we assume no refinancing.",
+ "taxRate": [
+  18,
+  22,
+  23
+ ],
+ "_taxWhy": "Effective tax rate before exceptional items 21% in FY26 and 23% in FY25 (Board's report, AR FY26); Q1FY27 had a credit (tax -Rs6 cr on PBT Rs141 cr, MOSL: 'tax benefit'). FY27E 18% (Q1 credit plus ~22% for the rest of the year), then 22% and 23% (MOSL 19.1% / 21.0%). The engine taxes the pre-tax minority deduction at the same rate, which keeps PAT attributable.",
+ "payout": [
+  12,
+  10,
+  10
+ ],
+ "_payoutWhy": "Dividend Rs0.50 a share for FY25 and FY26 (Rs81 cr, ~21% of FY26 attributable profit; AR FY26). Free cash goes to debt reduction first (CFO, Q4FY26 and Q1FY27 calls). 12% / 10% / 10% keeps the dividend around Rs0.50-1.0.",
+ "syngene": {
+  "_why": "Syngene's own P&L, used only for the minority deduction (the stake itself is valued at market in the SOTP). Base FY26 (Syngene, Screener consolidated): revenue Rs3,739 cr, operating EBITDA Rs921 cr (24.6%), D&A Rs453 cr, interest Rs49 cr, other income -Rs9 cr (hedge losses), net profit Rs317 cr; Q1FY27 revenue Rs736 cr, EBITDA Rs91 cr, loss Rs9 cr. Revenue growth and margin as in businessLines (services); D&A Rs470 / 490 / 510 cr (FY26 Rs453 cr plus new ADC and biologics capacity); interest Rs45 / 40 / 35 cr (Rs458 cr of debt incl. Rs449 cr leases at Mar-26); other income Rs40 / 55 / 65 cr (Rs1,574 cr of cash and investments at Mar-26, less hedge losses in FY27); tax 22%. Biocon's stake 52.4% (AR FY26 note 39), minorities 47.6%.",
+  "revenue26": 3739,
+  "dep": [
+   470,
+   490,
+   510
+  ],
+  "interest": [
+   45,
+   40,
+   35
+  ],
+  "otherIncome": [
+   40,
+   55,
+   65
+  ],
+  "tax": 22,
+  "stake": 52.4,
+  "minority": 47.6,
+  "netCash26": 1116,
+  "shares": 40.3,
+  "price": 365.3
+ },
+ "sotp": {
+  "_why": "Written by tools/authoring/BIOCON.sotp.js from BIOCON.ctx.js (derived multiples and the parts per case). Do not edit by hand.",
+  "syngeneDiscountPct": 20,
+  "bicara": {
+   "shares": 5523897,
+   "usd": 18.61,
+   "fx": 95.81
+  },
+  "base": {
+   "biosimilarsMultiple": 21,
+   "genericsMultiple": 9.5,
+   "sep28Eps": 9.05,
+   "parts": {
+    "bs": 77630,
+    "gen": 3722,
+    "nd": -9193,
+    "syn": 6171,
+    "bic": 788
+   },
+   "totalCr": 79119,
+   "perShare": 485.47
+  },
+  "bull": {
+   "biosimilarsMultiple": 22,
+   "genericsMultiple": 11.5,
+   "sep28Eps": 12.4,
+   "parts": {
+    "bs": 92780,
+    "gen": 5146,
+    "nd": -8100,
+    "syn": 6171,
+    "bic": 788
+   },
+   "totalCr": 96784,
+   "perShare": 593.87
+  },
+  "bear": {
+   "biosimilarsMultiple": 19.5,
+   "genericsMultiple": 8,
+   "sep28Eps": 5.05,
+   "parts": {
+    "bs": 59891,
+    "gen": 2601,
+    "nd": -10537,
+    "syn": 6171,
+    "bic": 788
+   },
+   "totalCr": 58914,
+   "perShare": 361.5
+  }
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.72,
+  "terminalGrowth": 5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 24,
+  "fadeCapexPctTo": 5.5,
+  "depPctOfSales": 8,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity (PLAYBOOK §7); beta 0.72 gives 10.8%, our WACC: market value Rs60,348 cr at Rs370.3, gross debt Rs15,551 cr at Jun-26 (20% of capital) at ~5.5% pre-tax (4.3% after tax), cost of equity ~12.5% at beta 1.0 for a leveraged, US-exposed biosimilars company.",
+  "_tgWhy": "5% nominal: biosimilar volumes grow with biologic loss-of-exclusivity waves (~$200 bn of biologic sales lose protection over the next decade, company presentations) but prices fall every year; insulin and oncology are mature.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% in FY29E to 7% by year 15.",
+  "_fadeMarginWhy": "24%: roughly the FY29E consolidated margin held; launches offset price erosion, Syngene recovers to the mid-20s.",
+  "_fadeCapexWhy": "5.5% of revenue (FY26 ~11% in the investment phase; FY27-29E ~6-8%).",
+  "_depWhy": "8% of revenue = the tax-deductible D&A in the long run (FY26 book D&A 11.6% of revenue incl. amortisation of the acquired Viatris intangibles, which runs off).",
+  "_minorityNote": "The engine's DCF values 100% of Syngene's cash flows and does not deduct Syngene's minorities; the report shows the DCF less 47.6% of Syngene at market as well."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Yesafili (aflibercept) and Bosaya/Aukelso (denosumab) take meaningful US share before most rivals arrive, Kirsty (aspart) wins commercial formularies, the second Malaysia line fills, the FDA's lighter biosimilar rules cut development costs by half as management says, Syngene recovers to mid-20s margins in FY28, and liraglutide/GLP-1 peptides lift generics margins into the teens.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 1.5,
+   "fadeMarginTo": 26
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "US price erosion accelerates as Chinese and Korean biosimilars and new entrants crowd aflibercept, denosumab and ustekinumab; insulin share gains stall; a US tariff or an FDA action on a Bengaluru or Malaysia site interrupts supply; generics plants stay under-used; Syngene's lost biologics volume is not replaced.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -2,
+   "fadeMarginTo": 21
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "Sum of the parts (implied P/E)",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 53.62,
+      "bull": 47.89,
+      "bear": 71.58
+     },
+     "why": "How the street values Biocon: a sum of the parts (MOSL 6-Aug-2026: biosimilars 22x EV/EBITDA, generics 10x, Syngene at market less 15%; Axis Securities 19-Sep-2026 and Nuvama, JM Financial earlier: SOTP). Biosimilars 21x Sep-28E EBITDA = Biocon's own look-through one-year-forward EV/EBITDA for the business since Apr-2023 (median 19.4x on 183 weekly points: market value less the Syngene stake at market less 20%, plus net debt, less generics at Aurobindo's forward median, with BBL's minorities taken pro rata) x the pharma EV/EBITDA factor of +7.46% (nine-name set; Biocon is outside it; PLAYBOOK §7c), rounded to the half-turn. Generics 9.5x = Aurobindo's forward EV/EBITDA median since Apr-2021 (8.9x) x the same factor (stated peer basis: no own history). Less biopharma net debt at Sep-28E; plus 52.4% of Syngene and the Bicara stake at 30-Sep market value less 20% (house precedent; MOSL uses 15%). No minorities left in parts valued at 100% (BBL wholly owned from 29-Jun-2026). Sum Rs485 a share = 53.62x Sep-28E EPS (Rs9.1). Bull 22x / 11.5x (75th percentiles) on bull EBITDA => 47.89x; bear 19.5x / 8x (25th percentiles) on bear EBITDA => 71.58x."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA (consolidated)",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 14.5,
+      "bull": 18,
+      "bear": 11
+     },
+     "why": "Consolidated, on Biocon's own history: 14.5x Sep-28E EBITDA = the 17.6x median trailing EV/EBITDA since Apr-2021 (Screener, EBITDA incl. other income) x the +7.46% factor, restated from the twelve months to Jun-26 (Rs3,854 cr incl. other income) to Sep-28E EBITDA before other income (Rs4,987 cr). Bull 18x and bear 11x use the 75th and 25th percentiles. The history counts 100% of EBITDA but leaves BBL's minorities (23-24% until Jan-2026) out of EV, so it understates the multiple."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether consolidated cash flows support the price: 15-year FCFF at 10.8% (beta set so the cost of equity equals our WACC), terminal growth 5%, plus the model's net debt at Mar-27E. It counts 100% of Syngene; the report also shows it less Syngene's minorities at market."
+    }
+   ]
+  }
+ }
+}

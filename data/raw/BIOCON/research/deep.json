@@ -1,0 +1,102 @@
+{
+ "_meta": { "symbol": "BIOCON", "asOf": "2026-09-30", "note": "Industry, peers, street, ownership, moat, critiques. Only sources published on or before 30-Sep-2026. Later facts: updates/later-facts.json." },
+ "industry": {
+  "biosimilars": [
+   "A biosimilar is a near-copy of a biologic drug made in living cells (insulins, antibodies). It needs a factory, a cell line and years of analytical and clinical work, so there are fewer competitors than in pill generics, and prices fall more slowly: Biocon's pegfilgrastim still has 'a fifth to a fourth' of its US market eight years after launch (Q1FY27 call).",
+   "The US is the prize and the hardest market: hospital ('medical benefit') drugs are priced on average selling prices that fall as share rises, so 'market share and ASP have always been inversely proportional' (CEO, Q4FY26 call); pharmacy drugs need formulary listings from the big benefit managers, contracted in July-September each year (Q1FY27 call).",
+   "Regulation is turning friendlier: the FDA's draft guidance waiving comparative efficacy (phase-3) studies 'reduced development cost by 50%' and cuts 3-4 years (CEO, Q4FY26 call), and interchangeability rules are being simplified. The flip side: cheaper entry invites more rivals, incl. Chinese insulin makers (Q4FY26 call).",
+   "US tariffs: generics and biosimilars are exempt under current law; a presidential post threatened tariffs within two years (Q1FY27 call).",
+   "Biocon puts its portfolio's total market opportunity at $200 bn+ (June-2026 investor presentation, GlobalData); slide 21 shows US addressable markets (CY2025) of ~$6 bn for aflibercept (US launch H2 CY2026), ~$5 bn bevacizumab (Oct-25), ~$7 bn denosumab (Apr-26), ~$8 bn ustekinumab (Feb-25), ~$3 bn aspart (Sep-25), ~$1 bn liraglutide (H1 CY2026) and ~$34 bn semaglutide (DMF filed) (product order as we read the slide).",
+   "Global insulin market ~$7-8 bn, of which recombinant human insulin ~$1.5 bn and glargine/aspart ~$3 bn each; Biocon is the only biosimilar insulin maker in the US (CEO, Q4FY26 call)."
+  ],
+  "generics": [
+   "Biocon's generics are mostly APIs (60-67%): fermentation-based molecules (statins, immunosuppressants such as tacrolimus and mycophenolate) and peptides, where 'there is hardly any competition' in fermentation-based peptides (CEO, Q4FY26 call). Formulations are sold in the US (Cranbury, New Jersey plant), Europe and emerging markets.",
+   "GLP-1s: liraglutide (Victoza/Saxenda copies) approved in the UK (first generic GLP-1 in a regulated market, 2024), the EU, Australia and the US (Q4FY26); semaglutide DMF filed, products filed in Canada and Brazil (June-2026 presentation). Many Indian companies are launching semaglutide copies where patents lapse in 2026, so GLP-1 prices will fall fast."
+  ],
+  "services": [
+   "Syngene (NSE: SYNGENE) is a contract research, development and manufacturing company (CRDMO) for global pharma and biotech. FY27 is a 'transition year' after lower offtake from one large biologics client; revenue -16% in Q1FY27, 12% operating margin; return to growth from FY28 (Q1FY27 call). Its share price fell from ~Rs700 in 2024 to Rs365.3 on 30-Sep-2026 (Screener)."
+  ]
+ },
+ "peers": {
+  "list": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "allFifteen": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA", "LUPIN", "GLENMARK", "BIOCON", "LAURUSLABS", "DRREDDY", "MANKIND"],
+  "excluded": {
+   "BIOCON": "The company itself; also one-off and boom-bust EPS, P/E above 100x inside the window (PLAYBOOK §7c).",
+   "LUPIN": "Loss years inside the five-year window (PLAYBOOK §7c).",
+   "GLENMARK": "Loss years inside the window (PLAYBOOK §7c).",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (PLAYBOOK §7c).",
+   "MANKIND": "Listed May-2023; no five-year median (PLAYBOOK §7c)."
+  },
+  "genericsPeer": { "symbol": "AUROPHARMA", "why": "Closest listed Indian peer to Biocon's generics: vertically integrated API + US/EU formulations, low-to-mid margins, a nascent biosimilars arm. Used as the stated peer basis for the generics multiple (Biocon has no listed generics history). Its forward EBITDA for FY27E-FY29E comes from GAM Research's published AUROPHARMA model." },
+  "globalBiosimilars": "No listed Indian pure-play biosimilars peer exists (Intas is unlisted; Dr Reddy's, Zydus, Lupin and Aurobindo carry small biosimilar units). Global peers (Celltrion, Sandoz, Alvotech, Samsung Bioepis inside Samsung Biologics) are not in our data set at the 30-Sep close; we do not use them (gap)."
+ },
+ "street": {
+  "_note": "Notes published on or before 30-Sep-2026. 'standing' = the latest note we found from that broker by 30-Sep. Later rating changes (Oct-Nov 2026) are in updates/later-facts.json.",
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-08-06", "rating": "Buy", "tp": 520, "priceAtNote": 437, "method": "SOTP", "multiple": "Biosimilars 22x EV/EBITDA, generics 10x EV/EBITDA, Syngene stake at market less 15%", "on": "n.d.", "eps": { "FY27E": 5.4, "FY28E": 8.4 }, "ests": { "salesFY27E": 18970, "salesFY28E": 21507, "ebitdaFY27E": 4012, "ebitdaFY28E": 4742, "patFY27E": 883, "patFY28E": 1376 }, "thesis": "Biosimilars and generics growth (launches, Malaysia capacity) offsets weak research services; cut FY27/FY28 EPS by 12%/3% after a 16% EBITDA miss in Q1", "standing": true, "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/48524335_BIOS-20260806-MOFSL-RU-PG012.pdf" },
+   { "broker": "BofA Securities", "date": "2026-08-10", "rating": "Sell (downgrade)", "tp": 410, "method": "n.d.", "multiple": "n.d.", "on": "n.d.", "thesis": "Downgraded after Q1FY27 (rationale not public in our sources)", "standing": true, "src": "https://in.investing.com/equities/biocon-consensus-estimates (rating-action table)" },
+   { "broker": "Axis Securities (retail)", "date": "2026-09-19", "rating": "Buy", "tp": 424, "priceAtNote": 385, "method": "SOTP", "multiple": "Higher multiple for biosimilars (parts not disclosed); 16.6x / 14.9x consolidated EV/EBITDA FY27E / FY28E at CMP", "on": "FY28E", "eps": { "FY27E": 9.8, "FY28E": 11.3 }, "ests": { "salesFY27E": 20971, "salesFY28E": 22344, "ebitdaFY27E": 4446, "ebitdaFY28E": 4782, "patFY27E": 1590, "patFY28E": 1839 }, "thesis": "Malaysia second line doubles insulin drug-product capacity; biosimilar margins to mid-20s with 2HFY27 acceleration; interest -23% YoY; aflibercept and denosumab launches", "standing": true, "src": "https://insights.dsij.in/markets/reports/report-details/biocon-ltd/45552" },
+   { "broker": "Bernstein", "date": "2026-05", "rating": "Underperform", "tp": 326, "method": "n.d.", "multiple": "n.d.", "on": "n.d.", "thesis": "n.d.", "standing": true, "src": "investing.com consensus page, as summarised by web search (date approximate)" },
+   { "broker": "Geojit BNP Paribas", "date": "2026-01-02", "rating": "Accumulate", "tp": 439, "priceAtNote": 393, "method": "n.d.", "multiple": "n.d.", "on": "n.d.", "thesis": "Upgrade after the BBL integration announcement", "standing": true, "src": "https://trendlyne.com/research-reports/stock/197/BIOCON/biocon-ltd/" },
+   { "broker": "ICICI Direct (retail)", "date": "2025-12-10", "rating": "Sell (Reduce)", "tp": 350, "priceAtNote": 379, "method": "SOTP", "multiple": "n.d.", "on": "FY28E", "thesis": "Valuation full after the integration rally", "standing": true, "src": "https://www.icicidirect.com/mailcontent/idirect_biocon_coupdate_dec25.pdf" },
+   { "broker": "ICICI Securities", "date": "2025-11-14", "rating": "Sell", "tp": 320, "priceAtNote": 411, "method": "n.d.", "multiple": "n.d.", "on": "n.d.", "thesis": "Cost of new generics plants; biologics margins below expectations (Aug-2025 note)", "standing": true, "src": "https://trendlyne.com/research-reports/stock/197/BIOCON/biocon-ltd/" },
+   { "broker": "Nuvama", "date": "2025-11-12", "rating": "Buy", "tp": 480, "method": "SOTP", "multiple": "Biosimilars 20x EV/EBITDA (from 17x), CRDMO 22x, generics 9x", "on": "n.d.", "thesis": "Upgrade: biosimilar launches and deleveraging; May-2026 note expects ~21% biosimilar revenue CAGR FY26-28E and ~200bp margin gain (rating and target not public)", "standing": true, "src": "https://www.business-standard.com/amp/markets/news/biocon-scales-biosimilars-cuts-debt-analysts-bullish-post-q2-results-125111300557_1.html" },
+   { "broker": "JM Financial", "date": "2025-11-12", "rating": "Buy", "tp": 476, "method": "SOTP", "multiple": "n.d.", "on": "n.d.", "thesis": "Biosimilar ramp-up; muted EBITDA trajectory and higher minority payments in estimates", "standing": true, "src": "https://www.business-standard.com/amp/markets/news/biocon-scales-biosimilars-cuts-debt-analysts-bullish-post-q2-results-125111300557_1.html" },
+   { "broker": "Citi", "date": "2025-11", "rating": "Sell (double downgrade)", "tp": 360, "method": "n.d.", "multiple": "n.d.", "on": "n.d.", "thesis": "n.d.", "standing": true, "src": "https://www.muthootsecurities.com/CorporateInfo/ComNews/Biocon-Ltd/24324010115" }
+  ]
+ },
+ "ownership": {
+  "date": "2026-06-30", "totalShares": 1629694135, "lockedInPct": 12.48, "shareholders": 392833,
+  "categories": { "promoters": 44.68, "mutualFunds": 15.47, "insurance": 6.37, "aif": 1.38, "fpi": 8.14, "foreignCompanies": 5.64, "bodiesCorporate": 6.15, "retailUpTo2L": 5.84, "hni": 4.42, "nri": 0.62, "other": 1.29 },
+  "named": [
+   ["Kiran Mazumdar-Shaw (founder, executive chairperson)", 29.73], ["Glentec International, Mauritius (controlled by Kiran Mazumdar-Shaw)", 14.56], ["Ravi Mazumdar (promoter group)", 0.33], ["Mylan Inc. (Viatris), locked in at 30-Jun", 5.64], ["SBI Mutual Fund schemes (largest: 'Magnum Hybrid Long Short Fund' line)", 8.75], ["Life Insurance Corporation of India", 3.73], ["Serum Institute Life Sciences, locked in", 3.40], ["ISIF Equity Ex-Top 100 Long-Short Fund", 1.46], ["Kotak Nifty Midcap index fund", 1.29], ["Activ Pine LLP, locked in", 1.08], ["HDFC Life Insurance", 1.01]
+  ],
+  "notes": "Promoters fell from 60.64% (Mar-25) to 54.45% (Jun-25 QIP) and 44.68% (Jan-26 swap and QIP); nothing pledged. Mylan's 9.20 cr shares carried a six-month lock-up from the January-2026 allotment (Fierce Pharma, Dec-2025), so they became saleable from July 2026: an overhang. FIIs only 8.14% (17.7% in 2017).",
+  "src": "https://www.biocon.com/docs/SHP-Website-Q1-FY27.pdf", "published": "2026-07-03"
+ },
+ "events": [
+  { "date": "2023-02-21", "what": "Kotak Special Situations Fund NCDs Rs1,070 cr (structured funding for the Viatris deal)", "impact": "Raised interest; redeemed 1-Oct-2025" },
+  { "date": "2024-06", "what": "Q1FY25: sale of the India branded formulations business (slump sale); Rs1,057 cr gain in other income", "impact": "FY25 EPS Rs8.44 incl. the gain; underlying ~Rs1-2" },
+  { "date": "2024-09", "what": "Bicara Therapeutics IPO on Nasdaq; FY24 had a Rs530 cr dilution / fair-value gain on Bicara", "impact": "FY24 EPS inflated" },
+  { "date": "2025-06-19", "what": "Rs4,500 cr QIP at Rs330", "impact": "Structured debt retired; -10% dilution" },
+  { "date": "2025-12-06", "what": "BBL integration announced ($5.5 bn valuation)", "impact": "Stock +; minorities bought out" },
+  { "date": "2026-01-14", "what": "Rs4,150 cr QIP at Rs368.35", "impact": "Funded Viatris cash; shares 162.09 cr" },
+  { "date": "2026-05-08", "what": "Q4FY26 results; stock fell up to 9% intraday", "impact": "Growth moderated by plant upgrades" },
+  { "date": "2026-08-05", "what": "Q1FY27 results: EBITDA 16% below MOSL; stock Rs437 before, Rs370.3 at 30-Sep", "impact": "-15% in eight weeks" }
+ ],
+ "moat": [
+  { "factor": "Scale and integration in biologics manufacturing", "score": 4, "evidence": "300+ KL of biosimilar drug-substance capacity, 100 mn+ injectable units (June-2026 presentation); 215+ cGMP approvals; only US biosimilar insulin maker; oncology shares 23-25% held for years." },
+  { "factor": "Regulatory and development know-how", "score": 3, "evidence": "Several industry firsts (first interchangeable glargine and aspart in the US, first US trastuzumab); but the FDA's lighter rules lower the bar for new entrants." },
+  { "factor": "Commercial reach", "score": 3, "evidence": "Self-led in North America and Europe since the Viatris deal (~120 countries); but US payer access is contract-by-contract and others (Sandoz, Celltrion, Amgen, Samsung Bioepis) are bigger." },
+  { "factor": "Pricing power", "score": 1, "evidence": "None: biosimilar prices fall every year; management prioritises margin over share, which caps growth." },
+  { "factor": "Generics", "score": 1, "evidence": "Commodity APIs and small US formulations business; FY26 segment EBITDA before other income Rs43 cr on Rs2,859 cr of revenue." },
+  { "factor": "Balance sheet and returns", "score": 1, "evidence": "ROCE ~4-6% for four years (Screener); goodwill and intangibles Rs26,500 cr+ from the Viatris deal; net debt ~3x EBITDA at Mar-26." }
+ ],
+ "moatVerdict": "A narrow, real moat in biosimilar manufacturing and insulin, not in pricing. The returns record says the moat has not yet earned its cost of capital.",
+ "critiques": [
+  "Bulls (MOSL Rs520, Axis Rs424, Nuvama, JM): the investment phase is over; five launches (aflibercept, denosumab, aspart, ustekinumab, bevacizumab) and the Malaysia capacity drive a second-half step-up; interest falls ~Rs300 cr a year; leverage halves by FY28.",
+  "Bears (BofA Rs410 Sell, Bernstein Rs326, ICICI Securities, Citi): promised second-half acceleration has slipped before; most rupee growth in Q1 was currency (constant-currency biosimilars ~+5%); US price erosion and new entrants (aflibercept already has a strong first-mover biosimilar); Syngene's client loss; dilution (163 cr shares vs 120 cr in Mar-25) means per-share earnings recover far less than group profit.",
+  "Our view: both are right about different things. The business is better than its EPS shows (EBITDA up 2.5x since FY22), but the equity has been diluted 36% and the P/E on Sep-28E EPS is ~41x. The SOTP works only if the market keeps paying ~19-20x forward EBITDA for biosimilars, which it has done since FY24."
+ ],
+ "gaps": [
+  "Product-level biosimilar revenue by year (only bands: insulin >$300 mn, adalimumab >$250 mn, pegfilgrastim and trastuzumab ~$200 mn, bevacizumab >$100 mn).",
+  "Biosimilar revenue by region in rupees (only ~40/35/25% North America/Europe/EM).",
+  "Restated FY26 quarterly generics revenue after the FY27 change of basis (Q1FY26 Rs630 cr and Q4FY26 Rs776 cr given; Q2-Q3 not).",
+  "Average rupee/dollar rates used by Biocon (we use 88.5 for FY26 and 94.7 for Q1FY27, as in SUNPHARMA).",
+  "Exact BBL minority percentage at Mar-23 (we use the Mar-24 value of 24.4% for FY24 dates).",
+  "Bicara's shares outstanding at 30-Sep-2026 (we value Biocon's 5.52 mn shares directly, so not needed for the SOTP).",
+  "Broker notes after Q1FY27 other than MOSL, BofA (rating only) and Axis Securities; NSE archives refused automated download, so the Q1FY27 investor presentation was not read (press release, fact sheet and transcript were).",
+  "Syngene's Jun-26 net cash (Syngene publishes a half-year balance sheet only); we use Mar-26.",
+  "FDA classification of the Apr-2026 pre-licence inspection at Biocon Park (pending at 30-Sep-2026).",
+  "Outcome of the 2022 CBI bribery case (no update found)."
+ ],
+ "conflicts": [
+  "Biocon's 'EBITDA' includes other income (FY26 Rs3,798 cr); Screener and our model exclude it (Rs3,471 cr). Segment EBITDA in the presentations also includes other income; we strip it using AR note 40.",
+  "Screener FY26 exceptional items -Rs335 cr vs the annual report's -Rs402.9 cr (Screener reclassifies part into other income).",
+  "Bicara stake: 10.1% (AR FY26) vs 9.8% (June-2026 presentation); we value the share count (5,523,897).",
+  "Syngene stake: 52.4% (AR, Biocon Ltd) vs 52.59% promoter group (Syngene shareholding pattern); we use 52.4%.",
+  "Generics segment revenue changed basis in FY27 (Q4FY26: Rs847 cr in the Q4 deck vs Rs776 cr in the Q1FY27 release; the difference moved to inter-segment eliminations); our build uses external revenue."
+ ]
+}
