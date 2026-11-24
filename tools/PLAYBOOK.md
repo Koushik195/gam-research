@@ -197,7 +197,10 @@ close: for short histories compute the series on all weekly closes in your ctx (
   peers' move against their medians over the same window, +11.0%. Batch practice (A18): where
   exceptional items are material, the base median uses EPS before them (forecasts carry none) and
   the reported-EPS median is a sensitivity row. A pharma name valued on EV/EBITDA uses the EV/EBITDA
-  analogue of the factor (e.g., TORNTPHARM +5.55%).
+  analogue of the factor (e.g., TORNTPHARM +5.55%). A20: ALKEM, ABBOTINDIA, IPCALAB +10.25%
+  (set excluding self); GLENMARK, BIOCON +8.2% (outside the set). Listed stakes inside an operating
+  company's SOTP: 30-Sep market value less 20% (BAJAJ-AUTO / M&M / HEROMOTOCO precedent) unless the
+  street clearly does otherwise. Never send a disguised browser user-agent or other changed headers.
 
 ## 8. Do not
 
