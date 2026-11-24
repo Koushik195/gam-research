@@ -1,0 +1,28 @@
+{
+ "asOf": "2026-09-30",
+ "note": "₹ crore. Ajanta reports one segment (pharmaceuticals) and sales by market. Annual: FY20-FY23 India / Africa (branded + institutional) / Asia / US from ICICI Direct's Q4FY23 result update (May-2023, exhibit 3, company data); FY24 from the Q1FY27 investor presentation (three-year charts: India ₹1,308 cr, Asia ₹1,057 cr, Africa branded ₹585 cr, US ₹964 cr) with Africa institutional ₹249 cr as the balance to revenue less ~₹46 cr of other operating revenue (AR FY24 not re-read; flagged in deep.json gaps); FY25-FY26 from AR FY26 note 53 and MD&A exhibit 1. EBITDA margin = Screener's annual operating profit, which is before the mark-to-market hedge loss (company 'adjusted EBITDA' basis). Quarterly: company press releases (Q3FY26 release gives Q3 and nine-month splits for FY25 and FY26; Q1FY27 release gives Q1FY26 and Q1FY27; Q4 = full year less nine months); Q1FY25 and Q2FY25 from MOSL's KPI exhibit (Africa branded and institutional combined); gross margin and reported EBITDA margin from ICICI Direct's quarterly table (3-Aug-2026); adjusted EBITDA margin (before FX losses) from MOSL's quarterly model (30-Jul-2026 and 5-May-2026).",
+ "annual": [
+  { "fy": "FY20", "consRev": 2588, "india": 769, "asia": 674, "africaTotal": 594, "us": 515, "ebitdaMarginPct": 26.4, "src": "ICICI Direct Q4FY23 result update (May-2023), exhibit 3; Screener" },
+  { "fy": "FY21", "consRev": 2890, "india": 813, "asia": 713, "africaTotal": 673, "us": 637, "ebitdaMarginPct": 34.6, "src": "ICICI Direct Q4FY23 result update (May-2023), exhibit 3; Screener" },
+  { "fy": "FY22", "consRev": 3341, "india": 982, "asia": 813, "africaTotal": 793, "us": 696, "ebitdaMarginPct": 27.9, "src": "ICICI Direct Q4FY23 result update (May-2023), exhibit 3; Screener" },
+  { "fy": "FY23", "consRev": 3743, "india": 1181, "asia": 957, "africaTotal": 749, "us": 827, "ebitdaMarginPct": 21.6, "src": "ICICI Direct Q4FY23 result update (May-2023), exhibit 3; Screener" },
+  { "fy": "FY24", "consRev": 4209, "india": 1308, "asia": 1057, "africa": 585, "inst": 249, "africaTotal": 834, "us": 964, "ebitdaMarginPct": 27.8, "src": "Q1FY27 investor presentation (three-year charts); institutional as balance" },
+  { "fy": "FY25", "consRev": 4648, "india": 1452.49, "asia": 1191, "africa": 750.08, "inst": 146.71, "africaTotal": 896.79, "us": 1047.23, "otherOp": 60.59, "ebitdaMarginPct": 27.3, "src": "AR FY26 note 53 and MD&A exhibit 1" },
+  { "fy": "FY26", "consRev": 5453, "india": 1653.85, "asia": 1175, "africa": 861.56, "inst": 159.82, "africaTotal": 1021.38, "us": 1557.03, "otherOp": 45.6, "ebitdaMarginPct": 27.5, "src": "AR FY26 note 53 and MD&A exhibit 1" }
+ ],
+ "quarterly": [
+  { "q": "Q1FY25", "consRev": 1145, "india": 353, "asia": 277, "africaTotal": 272, "us": 228, "grossMarginPct": 76.6, "ebitdaMarginPct": 28.9, "adjEbitdaMarginPct": 31.5, "src": "MOSL KPI exhibit (5-May-2026); ICICI Direct quarterly table" },
+  { "q": "Q2FY25", "consRev": 1187, "india": 386, "asia": 296, "africaTotal": 256, "us": 232, "grossMarginPct": 77.9, "ebitdaMarginPct": 26.2, "adjEbitdaMarginPct": 28.4, "src": "MOSL KPI exhibit (5-May-2026); ICICI Direct quarterly table" },
+  { "q": "Q3FY25", "consRev": 1146, "india": 345, "asia": 316, "africa": 173, "inst": 33, "africaTotal": 206, "us": 263, "grossMarginPct": 77.5, "ebitdaMarginPct": 28.0, "adjEbitdaMarginPct": 28.0, "src": "Q3FY26 press release (prior-year column)" },
+  { "q": "Q4FY25", "consRev": 1170, "india": 369.5, "asia": 303, "africa": 133.1, "inst": 28.7, "africaTotal": 161.8, "us": 324.2, "grossMarginPct": 75.8, "ebitdaMarginPct": 25.4, "adjEbitdaMarginPct": 25.4, "src": "FY25 (AR FY26 note 53) less nine months (Q3FY26 press release)" },
+  { "q": "Q1FY26", "consRev": 1303, "india": 409, "asia": 304, "africa": 228, "inst": 38, "africaTotal": 266, "us": 310, "grossMarginPct": 78.8, "ebitdaMarginPct": 27.0, "adjEbitdaMarginPct": 28.9, "src": "Q1FY27 press release (prior-year column)" },
+  { "q": "Q2FY26", "consRev": 1354, "india": 432, "asia": 310, "africa": 221, "inst": 32, "africaTotal": 253, "us": 343, "grossMarginPct": 76.6, "ebitdaMarginPct": 24.2, "adjEbitdaMarginPct": 27.2, "src": "Nine months (Q3FY26 press release) less Q1 and Q3" },
+  { "q": "Q3FY26", "consRev": 1375, "india": 409, "asia": 288, "africa": 230, "inst": 41, "africaTotal": 271, "us": 399, "grossMarginPct": 79.2, "ebitdaMarginPct": 27.8, "adjEbitdaMarginPct": 28.3, "src": "Q3FY26 press release (30-Jan-2026)" },
+  { "q": "Q4FY26", "consRev": 1422, "india": 403.9, "asia": 273, "africa": 182.6, "inst": 48.8, "africaTotal": 231.4, "us": 505, "grossMarginPct": 78.6, "ebitdaMarginPct": 23.5, "adjEbitdaMarginPct": 26.4, "src": "FY26 (AR FY26 note 53) less nine months (Q3FY26 press release)" },
+  { "q": "Q1FY27", "consRev": 1626, "india": 509, "asia": 255, "africa": 295, "inst": 70, "africaTotal": 365, "us": 487, "grossMarginPct": 79.8, "ebitdaMarginPct": 26.1, "adjEbitdaMarginPct": 27.9, "src": "Q1FY27 press release and presentation (30-Jul-2026)" }
+ ],
+ "kpiBlocks": [
+  ["1   SALES BY MARKET (company)", [["consRev", "Revenue from operations", "₹ cr", 1], ["india", "India branded generics", "₹ cr", 1], ["asia", "Asia branded generics", "₹ cr", 1], ["africa", "Africa branded generics", "₹ cr", 1], ["inst", "Africa institutional (anti-malarial tenders)", "₹ cr", 1], ["africaTotal", "Africa, branded + institutional", "₹ cr", 1], ["us", "US generics", "₹ cr", 1]]],
+  ["2   MARGINS (company / brokers)", [["grossMarginPct", "Gross margin", "%"], ["ebitdaMarginPct", "EBITDA margin, reported (after FX losses)", "%"], ["adjEbitdaMarginPct", "EBITDA margin, adjusted (before FX losses)", "%"]]]
+ ]
+}

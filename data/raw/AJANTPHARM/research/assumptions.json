@@ -1,0 +1,185 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Ajanta Pharma (consolidated, ₹ crore). Ajanta has no minority interests (all subsidiaries wholly owned; Q1FY27 results note 2), so Screener's Net Profit is profit to shareholders and no patch is needed. Ajanta reports one segment (pharmaceuticals) and sales by market (India branded generics, Asia branded, Africa branded, US generics, Africa institutional), so the engine runs one revenue-growth path and one EBITDA-margin path; the market build sits in `businessLines` and AJANTPHARM.ctx.js checks that it sums to model revenue (AJANTPHARM.mult.js writes revenueGrowth from it). EBITDA margin is the company's 'adjusted EBITDA' basis (before the mark-to-market hedge loss booked in other expenses), the same basis as Screener's annual operating profit; FX gains in other income are not forecast either (net FX assumed nil). Other income = 7.5% on net cash added after Mar-26 + FY26 treasury income on the Mar-26 book + miscellaneous income (built in AJANTPHARM.ctx.js). Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  14.908,
+  10.613,
+  10.133
+ ],
+ "_revenueWhy": "Built by market (businessLines; AJANTPHARM.ctx.js checks the sum). FY27E: India branded +17% (Q1 +24%, IQVIA MAT Jun-26 +15% vs IPM +11%; guidance 'mid-teens'; 8 launches in Q1, 250-300 reps being added); Asia branded +10% (Q1 −16% as Middle East war disrupted shipping; management expects the deferred shipments in Q2 and cut its FY27 guidance from 'high teens' to 'mid-to-high teens' on 30-Jul-2026; we stay below because the war had not ended by 30-Sep); Africa branded +20% (Q1 +29%; guidance 'high double digit', Q1 'a little higher' than the year will be); US generics +14% in rupees (Q1 +57%, but no launches until Q4; guidance mid-to-upper-mid single digit in constant currency; the rupee was ~₹95/$ in Q1FY27 vs ~₹92 in Q4FY26 per PL's US$51 mn = ₹487 cr; Q2-Q4 need only +3% YoY on a base that included a strong flu season); Africa institutional +15% (Q1 ₹70 cr vs ₹38 cr; lumpy tenders); other operating income flat at ₹45.6 cr. FY28E: India +14%, Asia +13% (recovery from a war-hit base, 15 launches in FY26), Africa +15%, US +4% (price erosion on the eight FY25-26 launches; FY27 filings cut to 5-7 from the 8-12 target in the FY26 annual report), institutional flat. FY29E: India +13%, Asia +12%, Africa +14%, US +4%, institutional flat.",
+ "businessLines": {
+  "_why": "Sales by market, AR FY26 note 53 (disaggregation of revenue) and MD&A exhibit 1: India ₹1,653.85 cr, emerging markets ₹2,036.56 cr (Asia ₹1,175.0 cr, Africa branded ₹861.56 cr), Africa institution ₹159.82 cr, USA ₹1,557.03 cr = ₹5,407.26 cr from contracts with customers; plus other operating revenue ₹45.60 cr (export incentives ₹25.22 cr, others ₹20.38 cr; AR note 37) = ₹5,452.86 cr.",
+  "base": {
+   "india": 1653.85,
+   "asia": 1175,
+   "africa": 861.56,
+   "us": 1557.03,
+   "inst": 159.82
+  },
+  "growth": {
+   "india": [
+    17,
+    14,
+    13
+   ],
+   "asia": [
+    10,
+    13,
+    12
+   ],
+   "africa": [
+    20,
+    15,
+    14
+   ],
+   "us": [
+    14,
+    4,
+    4
+   ],
+   "inst": [
+    15,
+    0,
+    0
+   ]
+  },
+  "otherOp": [
+   45.6,
+   45.6,
+   45.6
+  ]
+ },
+ "ebitdaMargin": [
+  27.6,
+  27.8,
+  28
+ ],
+ "_marginWhy": "Company 'adjusted EBITDA' (before the mark-to-market hedge loss in other expenses; Screener's annual operating profit is on the same basis): 27.8% FY24, 27.3% FY25, 27.5% FY26, 27.9% in Q1FY27 (−100bp YoY) as gross margin rose to 79.8% (+100bp) but staff costs rose 26% (increments, 300 reps in FY26) and other expenses 32% (new therapies, registrations, freight). Guidance (30-Jul-2026): gross margin ~78% ±1pp, EBITDA margin ~27% ±1pp excluding FX; raw-material inflation from the Middle East war to show from Q2 (Q1 was protected by inventory). FY27E 27.6%: Q1 level less some cost pressure. FY28E 27.8% and FY29E 28.0%: the lower-margin US business falls from 28% to 25% of sales while branded generics grow, partly reinvested in field force and registrations. Each 1pp of margin is ~₹69 cr of EBITDA (~4% of FY28E EPS).",
+ "capex": [
+  400,
+  350,
+  350
+ ],
+ "_capexWhy": "Capex ₹330 cr in FY26 (company; Screener cash flow ₹365 cr incl. capital creditors): oral-solid block and liquid plant at Pithampur, a new office in Andheri and maintenance. FY27 guidance ~₹400 cr (30-Jul-2026 call: ~₹300 cr Pithampur expansion for emerging markets, ~₹100 cr maintenance; the 5-May-2026 call split it ₹250 / 150 cr). No guidance beyond FY27: we take ₹350 cr a year (maintenance ₹100-150 cr plus continued capacity), 4.6-5.0% of sales vs 6.6% in FY26.",
+ "depRateOnGrossBlock": 5.7,
+ "_depWhy": "FY26 depreciation ₹173 cr = 5.9% of average gross block (₹2,801 → ₹3,046 cr); Q1FY27 ₹44.5 cr (₹178 cr annualised). The engine depreciates capex at once while CWIP (₹258 cr) is held flat, so 5.7%: FY27E ~₹185 cr.",
+ "treasuryYield": [
+  7.5,
+  7.5,
+  7.5
+ ],
+ "_treasuryWhy": "Applied by the engine to opening net cash (₹433 cr at Mar-26 on Screener's basis: cash ₹105 cr + investments ₹588 cr − borrowings and leases ₹260 cr). The FY26 treasury income on the Mar-26 book is carried in otherIncome, so the engine's 7.5% × ₹433 cr is deducted there: in effect 7.5% is earned only on net cash added after Mar-26. 7.5% sits a little below the ~8.1% the debt funds earned in FY26 (₹10.3 cr of gains on ~₹127 cr average holdings, AR notes 15 and 38); the FY26 total treasury yield (₹61.9 cr on ~₹640 cr of average year-end cash and current investments, ~9.7%) is flattered by higher balances during the year and cannot be split from other interest, so we do not extrapolate it.",
+ "otherIncome": [
+  42.4,
+  42.4,
+  42.4
+ ],
+ "_otherIncomeWhy": "Built in AJANTPHARM.ctx.js from AR FY26 note 38: (1) treasury income on the Mar-26 book (cash ₹103.3 cr, current investments ₹559.9 cr in debt funds, NCDs and commercial paper, bank balances ₹1.5 cr): FY26 interest on investments and deposits ₹51.6 cr + gains on redemption ₹10.25 cr = ₹61.85 cr, held flat; (2) miscellaneous income ₹13.05 cr (FY26); less (3) the engine's 7.5% on the opening ₹433 cr (₹32.5 cr), which would otherwise count the Mar-26 book twice. Left out: FX gains (₹97.2 cr in FY26, ₹50.5 cr in Q1FY27), which are offset by mark-to-market hedge losses in other expenses (₹103.0 cr in FY26, ₹30.6 cr in Q1FY27) that our EBITDA margin also excludes. FY27E total ₹74.9 cr vs FY26 ₹75.0 cr excluding FX (₹172.1 cr reported) and ₹78.5 cr in the twelve months to Jun-26 excluding FX.",
+ "interest": [
+  13,
+  13,
+  13
+ ],
+ "_interestLabel": "Finance cost (working-capital loans, leases, other)",
+ "_interestWhy": "FY26 ₹16.1 cr (incl. lease interest on ₹48 cr of leases and the US subsidiary's new working-capital loans, ₹212 cr at Mar-26, which replaced receivable factoring); Q1FY27 ₹3.2 cr (₹12.7 cr annualised). We hold ₹13 cr a year.",
+ "taxRate": [
+  26,
+  26,
+  26
+ ],
+ "_taxWhy": "Effective tax 22.6% FY25, 23.3% FY26, 25.2% in Q1FY27. Guidance ~26% for FY27 (30-Jul-2026); on 5-May-2026 the CFO guided 26-26.5% because a manufacturing facility exits its tax-exemption period. We use 26% for all three years.",
+ "payout": [
+  35,
+  40,
+  40
+ ],
+ "_payoutWhy": "FY26 dividend ₹28 a share (₹350 cr, 33% of EPS); no buyback in FY26 after five since 2019 (₹1,122 cr in all; FY24-25 payout incl. buybacks 76-79%). The Board declared a first interim of ₹32 a share (₹400 cr) for FY27 on 30-Jul-2026, already 34% of our FY27E EPS. We take 35% in FY27E and 40% after, as working-capital needs settle and the ₹1,000 cr in-licensing/acquisition budget (ICICI Direct, May-2026) is not spent in our model.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.8,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 28,
+  "fadeCapexPctTo": 4.5,
+  "depPctOfSales": 3,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, ~70% of sales from branded generics in India, Asia and Africa (prescription-led, sticky); offsets: 28% of sales in US generics (price erosion, plant inspections), emerging-market currency and war risk. Ke 11.3%, as for Cipla and Alkem.",
+  "_tgWhy": "5.5%: branded generics in India and Africa grow ~8-12% a year in value, US generics low single digit in dollars; a blend near 5.5% in rupees.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% to 7% by FY42 (India and Africa branded ~9-10%, Asia high single digit, the US flat in dollars).",
+  "_fadeMarginWhy": "28%: FY29E level held; Ajanta's adjusted margin has been 27-29% in four of the last six years.",
+  "_fadeCapexWhy": "Capex settles at 4.5% of revenue (FY24-26 average 5.5% incl. Pithampur expansion; FY22-24 ~4%); depreciation 3.0% of revenue (FY26 3.2%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Asia rebounds as management expects (mid-to-high teens) once Middle East shipping normalises, India keeps growing ~1.5x the market with gynaecology and nephrology adding, Africa stays in the high teens, US price erosion is mild and the Q4FY27 launches land, and semaglutide approvals in Asia and Africa arrive on time.",
+   "revenueGrowthDelta": 2.5,
+   "marginDelta": 1,
+   "fadeMarginTo": 29
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The Middle East war drags on (Asia flat, freight and API costs up), US prices fall sharply on the recent launches with no new approvals, Africa institutional tenders shrink as donor funding is cut, and India slows to market growth as the cardiology data gap persists.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 26
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 30,
+      "bull": 33.5,
+      "bear": 25
+     },
+     "why": "How the street values Ajanta: P/E (MOSL 32x 12-month-forward EPS, PL and ICICI Direct 32x FY28E, BOBCAPS 30x Jun-28E, ICICI Securities 28x FY28E; Jefferies' method not public). 30x Sep-28E EPS = Ajanta's 27.8x median one-year-forward P/E since Apr-2021 (house forwardMedian, reported EPS: the company reports no exceptional items; no trough years) x the pharma sector factor of 1.082 (median of the nine-peer set's trailing P/E at the 30-Sep close vs their five-year medians: +8.2% for names outside the set, PLAYBOOK §7c A21) = 30.1x, rounded to the nearest half-turn. Bull 33.5x / bear 25x = 75th / 25th percentile (30.8x / 23.0x) x the factor. No growth, returns or own-move adjustment (sensitivity rows only)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-27E (trailing at the target date)",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "multiple": {
+      "base": 25,
+      "bull": 26,
+      "bear": 18
+     },
+     "why": "Cross-check. Ajanta's median trailing EV/EBITDA since Apr-2021 is 23.1x (Screener); times the EV/EBITDA analogue of the sector factor (+7.5%, PLAYBOOK §7c A21) = 24.8x, rounded to 25x and applied to trailing EBITDA at the target date (half FY27E + half FY28E) with net cash at Sep-2027. Bull 26x / bear 18x = 75th / 25th percentile x the factor."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at an 11.3% cost of equity, terminal growth 5.5%, plus net cash."
+    }
+   ]
+  }
+ }
+}

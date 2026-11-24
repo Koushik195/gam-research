@@ -1,0 +1,131 @@
+{
+ "asOf": "2026-09-30",
+ "units": "₹ crore unless stated",
+ "industry": {
+  "ipm": "The Indian pharmaceutical market (IPM) was worth ₹2,56,500 cr at retail prices in the year to Mar-2026 and grew 10% (8% the year before) on IQVIA data; PharmaTrac puts FY26 growth at 8.6%. Branded generics are ~87% of value, but price-led growth now outpaces volume and trade generics are substituting some branded sales (AR FY26 MD&A).",
+  "therapy": [
+   ["Cardiology", 34362, 14, 7, 17],
+   ["Pain management", 20027, 8, 12, 27],
+   ["Dermatology", 17426, 7, 14, 13],
+   ["Ophthalmology", 4934, 9, 14, 2]
+  ],
+  "therapyHead": "therapy, market size MAT Mar-26 (₹ cr), market growth FY26 (%), Ajanta growth FY26 (%), Ajanta rank",
+  "therapySrc": "AR FY26 MD&A exhibit 3 (IQVIA MAT Mar-2026)",
+  "jun26": [
+   ["Cardiology", 15, 9, 9],
+   ["Ophthalmology", 10, 15, 1],
+   ["Dermatology", 8, 14, 1],
+   ["Pain management", 10, 15, 5],
+   ["Overall", 11, 15, 24]
+  ],
+  "jun26Head": "therapy, IPM growth (%), Ajanta growth (%), rank in covered market (overall = IPM rank)",
+  "jun26Src": "Q1FY27 press release and presentation (IQVIA MAT Jun-2026)",
+  "global": "Global branded generics: ~US$394 bn in 2025, US$435 bn in 2026, ~10.7% CAGR to 2030 (Research and Markets via AR FY26). US generics: ~US$146 bn in 2025 to ~US$244 bn by 2035, ~5.3% CAGR (Precedence Research via AR FY26). Africa's private branded market grows ~7-12% a year (MD, Q1FY27 call).",
+  "themes": [
+   ["Chronic shift in India", "Supports Ajanta: 65% of its India sales are chronic (cardiac, ophthal, derma)", "Q1FY27 presentation; IPM cardiology +14-15%"],
+   ["Price control and trade generics", "Limited: 11% of India sales under NLEM; trade generics only ₹188 cr in FY26", "Q1FY27 presentation; Q4FY26 call"],
+   ["First-to-market launches", "Ajanta's core edge: 26 India launches in FY26 (5 first-to-market); ~50% of products first to market", "AR FY26; Q1FY27 presentation"],
+   ["Emerging-market currencies and conflict", "A real risk: Middle East war from end-Feb-2026 disrupted Asia shipments (Q4FY26 −10%, Q1FY27 −16%) and raised freight", "AR FY26 MD&A; Q1FY27 call"],
+   ["US generic price erosion", "Ajanta is a price-taker; FY26 growth came from eight launches in 15 months and a strong flu season; guidance mid-single digit", "Q4FY26 and Q1FY27 calls"],
+   ["US tariffs (Section 232)", "Generics exempt until Apr-2027; a study pending", "Q1FY27 call"],
+   ["GLP-1 (semaglutide) generics", "Option: India launch is a crowded field ('plateaued'); EM rights via Biocon (26 countries) from ~FY29", "Q1FY27 call; Biocon release (23-Dec-2025)"],
+   ["Donor-funded anti-malarial tenders", "Lumpy and policy-dependent: Africa institutional ₹249 cr (FY24) → ₹147 cr (FY25) → ₹160 cr (FY26)", "AR FY26; Q1FY27 presentation"]
+  ],
+  "src": "AR FY26 MD&A; Q4FY26 and Q1FY27 calls and presentations"
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": {
+   "LUPIN": "loss years inside the window",
+   "GLENMARK": "loss years inside the window",
+   "BIOCON": "one-off / boom-bust EPS; P/E above 100x inside the window",
+   "LAURUSLABS": "one-off / boom-bust EPS; P/E above 100x inside the window",
+   "DRREDDY": "gRevlimid windfall FY23-26, then the cliff",
+   "MANKIND": "listed May-2023; no five-year median"
+  },
+  "note": "PLAYBOOK §7c (set 23-Nov-2026): AJANTPHARM is outside the nine-name set, so its factor is the median of all nine: +8.2% P/E, +7.5% EV/EBITDA (A21)."
+ },
+ "street": {
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-07-30", "rating": "Buy", "tp": 4000, "prevTp": 3400, "method": "P/E", "multiple": "32x", "on": "12-month-forward EPS", "eps": { "FY27E": 97.5, "FY28E": 113.7 }, "sales": { "FY27E": 6398, "FY28E": 7230 }, "ebitda": { "FY27E": 1762, "FY28E": 2040 }, "thesis": "India/Africa outperformance and US share gains; 15/16/16% revenue/EBITDA/PAT CAGR FY26-28; multiple raised from 30x", "src": "MOSL 1QFY27 results update (DSIJ PDF): https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/AJP-20260730-MOFSL-RU-PG012.pdf" },
+   { "broker": "BOB Capital Markets", "date": "2026-07-30", "rating": "Hold", "tp": 3787, "prevTp": 3347, "method": "P/E", "multiple": "30x", "on": "Jun-28E EPS (₹126)", "eps": { "FY27E": 98.7, "FY28E": 119.4 }, "sales": { "FY27E": 6246, "FY28E": 7207 }, "ebitda": { "FY27E": 1679, "FY28E": 2048 }, "thesis": "Higher earnings growth already in the price; downgraded from Buy; US to normalise to +8% in FY27", "src": "BOBCAPS Q1FY27 result review: https://www.barodaetrade.com/Reports/AjantaPharma-Q1FY27ResultReview30Jul26-Research.pdf" },
+   { "broker": "Prabhudas Lilladher", "date": "2026-07-31", "rating": "Buy", "tp": 3730, "prevTp": 3400, "method": "P/E", "multiple": "32x", "on": "FY28E EPS", "eps": { "FY27E": 101.3, "FY28E": 116.6 }, "sales": { "FY27E": 6423, "FY28E": 7394 }, "ebitda": { "FY27E": 1804, "FY28E": 2083 }, "thesis": "Branded generics (70% of sales) across India, Asia, Africa; FCF ₹800-1,000 cr a year supports investment and M&A; 18% EBITDA/PAT CAGR FY26-28", "src": "PL Q1FY27 result update: https://plindia.com/ResReport/AJP-31-7-26-PL.pdf" },
+   { "broker": "ICICI Securities (institutional)", "date": "2026-07-31", "rating": "Hold", "tp": 3260, "prevTp": null, "method": "P/E", "multiple": "28x", "on": "FY28E EPS", "thesis": "Results ahead of estimates (India +24%, Africa branded +29%) but valuation expensive; downgraded to Hold", "src": "Trendlyne research-report listing (PDF behind login); multiple from an aggregator summary (askfuzz.ai, 31-Jul-2026), not seen in the note itself" },
+   { "broker": "Jefferies", "date": "2026-07-31", "rating": "Buy", "tp": 4050, "prevTp": 3550, "method": null, "multiple": null, "on": null, "thesis": "India outperformance; Asia to rebound after the Middle East hit; US growth may moderate on competition", "src": "Business Upturn (31-Jul-2026)" },
+   { "broker": "ICICI Direct", "date": "2026-08-03", "rating": "Buy", "tp": 3960, "prevTp": 3520, "method": "P/E", "multiple": "32x", "on": "FY28E EPS (₹123.7)", "eps": { "FY27E": 106.9, "FY28E": 123.7 }, "sales": { "FY27E": 6241, "FY28E": 7038 }, "ebitda": { "FY27E": 1711, "FY28E": 1975 }, "thesis": "Branded traction and consistent FCF; one of the best capital allocators; US to taper (mid-single-digit guidance). Switched from 23x FY28E EV/EBITDA (May-2026) to P/E", "src": "ICICI Direct result update: https://mailcontent.icicidirect.com/mailcontent/idirect_ajantapharma_q1fy27.pdf" }
+  ],
+  "consensus": "Bloomberg consensus EPS FY27E ₹96.9 and FY28E ₹111.2 (as printed in BOBCAPS's note, 30-Jul-2026).",
+  "methodCount": "All five notes standing on 30-Sep-2026 that disclose a method value Ajanta on P/E (MOSL 32x 12-month forward, PL 32x FY28E, ICICI Direct 32x FY28E, BOBCAPS 30x Jun-28E, ICICI Securities 28x FY28E per a secondary source); Jefferies' method is not public. ICICI Direct used 23x FY28E EV/EBITDA in May-2026 before switching to P/E in Aug-2026.",
+  "older": "Nuvama: Buy, ₹3,250 (Nov-2025, Q2FY26 note; method not retrieved: the Business Standard page blocks automated access); no later Nuvama note found. Trendlyne also lists MOSL Buy ₹3,400 (5-May-2026), PL Buy ₹3,400 and BOBCAPS Buy ₹3,347 (6-May-2026), ICICI Direct Buy ₹3,520 (6-May-2026), all superseded.",
+  "src": "As cited per broker; Trendlyne research-report listing (fetched 24-Nov-2026, rows dated to 3-Aug-2026 used)"
+ },
+ "ownership": {
+  "jun2026": { "promoter": 63.49, "fii": 7.68, "dii": 21.8, "mf": 18.08, "public": 7.03, "shareholders": 65296 },
+  "mar2026": { "promoter": 66.25, "fii": 8.26, "dii": 18.36, "public": 7.14 },
+  "promoterEntities": [
+   ["Yogesh Agrawal Trust (Yogesh M. Agrawal, trustee)", 14.47],
+   ["Rajesh Agrawal Trust (Rajesh M. Agrawal, trustee)", 14.47],
+   ["Aayush Agrawal Trust (Aayush M. Agrawal, trustee)", 11.30],
+   ["Ravi Agrawal Trust (Ravi P. Agrawal, trustee)", 10.24],
+   ["Gabs Investments Pvt Ltd", 10.08],
+   ["Ganga Exports (Yogesh, Rajesh and Ravi Agrawal)", 2.68],
+   ["Ravi P. Agrawal and Aayush M. Agrawal (direct)", 0.25]
+  ],
+  "promoterEntitiesSrc": "AR FY26 note 23.8 (Mar-2026 holdings); Ravi Agrawal Trust after the 9-Jun-2026 sale (13.00% → 10.24%, exchange data via HDFC Sky/Whalesbook)",
+  "pledge": "22.53% of promoter holding (14.30% of total equity) pledged at 27-Jul-2026 (CARE, 14-Aug-2026)",
+  "blockBuyers": "Kotak Mahindra MF (2.1 mn shares) and Aditya Birla Sun Life MF (1.3 mn shares) bought in the 9-Jun-2026 block",
+  "src": "BSE shareholding pattern via Screener.in (Jun-2026, filed Jul-2026); PL key data (31-Jul-2026: mutual funds 18.08%); CARE; exchange block data"
+ },
+ "stockEvents": [
+  ["30-Jan-2026", "Q3FY26: revenue +20%, US +52%", "Weekly close ~₹2,780"],
+  ["5-May-2026", "Q4FY26 beat; FY27 guidance 16-18% revenue growth, 27% margin", "₹2,898 → ₹3,096 next day (Trendlyne price at reco)"],
+  ["9-Jun-2026", "Ravi Agrawal Trust sells 2.76% at ₹2,968", "Stock rose; mutual funds absorbed the block"],
+  ["2-Jul-2026", "Paithan EIR with VAI status", "Removes a US regulatory overhang"],
+  ["30-Jul-2026", "Q1FY27: revenue +25%, PAT +31%", "₹3,436 on results day"],
+  ["14-Aug-2026", "Weekly close peak ₹3,673", "52-week range ₹2,402-3,673 (weekly closes)"],
+  ["30-Sep-2026", "NSE close ₹3,620.8", "~+50% in a year (engine performance table); 2.5x since Sep-2021"]
+ ],
+ "stockEventsSrc": "Screener.in weekly prices; NSE close (data/market/closes/2026-09-30.json); company filings; Trendlyne",
+ "moat": [
+  ["Brands and first-to-market launches", "Strong in niches: #1 in ophthalmology and dermatology in its covered markets (IQVIA Jun-26), ~50% of products first to market, 17 brands above ₹25 cr; but only #24 in the IPM and #17 in cardiology", "Narrow"],
+  ["Emerging-market distribution", "On-the-ground teams in 30+ countries, top-5 positions in key African and Asian markets, 220+ products registered; registrations take years to copy", "Narrow"],
+  ["Cost and manufacturing", "Seven Indian plants, ~80% gross margin, clean inspection history (Paithan VAI Jul-2026); not unique", "None to narrow"],
+  ["US generics", "Commodity business; 20%+ share on many products but no pricing power", "None"],
+  ["R&D", "₹252 cr (5% of sales), formulation-led; no specialty or complex-generics pipeline of note", "None"],
+  ["Balance sheet and capital allocation", "Net cash, ~30%+ ROCE, buybacks and dividends", "Supports, not a moat"]
+ ],
+ "moatVerdict": "Narrow moat: real but local. Ajanta's edge is speed to market with differentiated branded generics in small Indian therapy niches and in African/Asian markets where few Indian peers have field forces. It does not protect the US business (28% of sales), and the Indian niches are not deep: cardiology growth lagged the market in FY26 (7% vs 14%).",
+ "critiques": [
+  ["Valuation already prices the good news", "At ₹3,621 the stock trades at ~38x FY27E and ~34x FY28E on our EPS, above its 26-28x forward median since 2021; four of six brokers have targets within 10% of the price (BOBCAPS and ICICI Securities moved to Hold)", "Valuation section"],
+  ["US earnings are at a peak", "US sales rose 49% in FY26 on eight launches and a strong flu season; Q1FY27 was down 7% QoQ in dollars (US$51 mn, PL); no launches until Q4FY27 and filings cut to 5-7", "US chapter"],
+  ["Cash conversion fell", "CFO ₹529 cr in FY26 (50% of PAT) as factoring ended; receivable days 125; management calls it the new normal", "Earnings quality"],
+  ["Asia is exposed to the Middle East war", "Asia branded −1% in FY26 and −16% in Q1FY27; guidance cut to mid-to-high teens", "Asia & Africa chapter"],
+  ["Promoter selling, pledges and pay", "2.76% sold in Jun-2026; 14.3% of the company pledged; MD and JMD paid ₹27.5 cr each; income-tax search pending", "Governance"],
+  ["Cardiology lag", "Ajanta's largest Indian therapy (37%) grew 7-9% vs the market's 14-15% on IQVIA; the company blames data capture", "India chapter"]
+ ],
+ "gaps": [
+  "Company earnings-call transcripts on ajantapharma.com block automated access (HTTP 406); we used transcript summaries from StockAnalysis and Investing.com and broker call notes instead. Direct quotes may differ slightly from the official transcripts.",
+  "NSE archive PDFs (Q4FY26 and Q2FY26 board outcomes) timed out; Q4FY26 numbers were taken from the AR FY26, the Q1FY27 deck (comparatives) and broker notes.",
+  "ICICI Securities' (institutional) note of 31-Jul-2026 is behind a login; its 28x FY28E multiple comes from an aggregator summary.",
+  "Jefferies' valuation method and estimates (Buy ₹4,050, 31-Jul-2026) are not public.",
+  "Nuvama's last public note (Nov-2025, Buy ₹3,250) could not be read (Business Standard blocks automated access); no later note found.",
+  "FY24 Africa institutional sales (₹249 cr) are derived as revenue less the other markets and ~₹46 cr of other operating revenue; FY20-FY23 Africa branded and institutional are available only combined.",
+  "Q1FY25 and Q2FY25 Africa branded vs institutional split not retrieved (MOSL shows them combined).",
+  "The split of FY26 'interest from others' (₹51.6 cr) between treasury instruments and other interest is not disclosed; average intra-year treasury balances are not disclosed, so the realised treasury yield cannot be computed reliably.",
+  "Which plant exits its tax exemption in FY27, and the exemption's size, are not disclosed (CFO: 26-26.5% ETR).",
+  "Capacity utilisation by plant and the capacity added by the ₹300 cr Pithampur expansion were not disclosed.",
+  "The family relationship of Ravi P. Agrawal and Aayush M. Agrawal to the founders is not stated in the AR; we describe them only as promoters not in management.",
+  "Named institutional holders above 1% for Jun-2026 were not retrieved (beyond the block-deal buyers).",
+  "The text of the five Paithan Form 483 observations (Apr-2026) is not public.",
+  "US product-level sales (e.g., the seasonal flu product) are not disclosed."
+ ],
+ "conflicts": [
+  "Q1FY27 Asia sales: ₹255 cr in the press release and deck vs ₹225 cr in a transcript summary; Africa institutional ₹70 cr (deck) vs ₹49 cr (summary). We use the company's press release.",
+  "FY26 capex: ₹330 cr (company, MD&A and call) vs ₹365 cr (Screener cash flow, fixed assets purchased) vs ₹360 cr (ICICI Direct). We use the company figure in the text.",
+  "FY27 capex split: ₹250 cr expansion + ₹150 cr maintenance (5-May-2026 call) vs ₹300 cr + ₹100 cr (30-Jul-2026 call). We use the latest.",
+  "FY27 US filing target: 8-12 ANDAs (AR FY26, MOSL) vs 5-7 (Q1FY27 call per PL, BOBCAPS, ICICI Direct). We use 5-7 (latest).",
+  "PL's target: ₹3,730 on the cover, ₹3,725 in the text (32x FY28E). We use ₹3,730.",
+  "CARE puts FY26 revenue at ₹5,550 cr (total operating income on its own definition) vs ₹5,453 cr reported. We use the reported figure.",
+  "Screener classifies the FY26 mark-to-market hedge loss as an exceptional item (−₹73 cr after tax); the company reports no exceptional items. See the valuation chapter for how we treat it."
+ ]
+}
