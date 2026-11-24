@@ -156,13 +156,13 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - B23 · published except SCHAEFFLER (B, 23-Nov-2026) · UNOMINDA published (HOLD, 1,180), SCHAEFFLER (blocked: December year-end, waits for engine support), ATHERENERG published (SELL, 1,010), MRF published (BUY, 1,46,570), SONACOMS published (SELL, 760)
 - B24 · published (B, 23-Nov-2026) · BALKRISIND published (HOLD, 2,430), TIINDIA published (BUY, 3,680), ENDURANCE published (HOLD, 2,770), EXIDEIND published (HOLD, 400), CRAFTSMAN published (SELL, 8,580)
 - B25 · published (B, 23-Nov-2026) · APOLLOTYRE published (BUY, 540), ZFCVINDIA published (HOLD, 2,590), GABRIEL published (HOLD, 1,290), MSUMI published (BUY, 54), ASAHIINDIA published (SELL, 810)
-- B26 · claimed (B, 23-Nov-2026; FORCEMOT, BELRISE, TENNIND now; OLAELEC, MINDACORP later) · FORCEMOT published (SELL, 8,810), BELRISE published (SELL, 225), TENNIND published (BUY, 620), OLAELEC, MINDACORP
-- B27 · claimed (B, 24-Nov-2026) · CIEINDIA (blocked: December year-end, waits for engine support), ARE&M, CEATLTD, JBMA, RKFORGE
-- B28 · queued · OLECTRA
+- B26 · claimed (B, 23-Nov-2026; FORCEMOT, BELRISE, TENNIND now; OLAELEC, MINDACORP later) · FORCEMOT published (SELL, 8,810), BELRISE published (SELL, 225), TENNIND published (BUY, 620), OLAELEC, MINDACORP published (SELL, 650)
+- B27 · claimed (B, 24-Nov-2026) · CIEINDIA (blocked: December year-end, waits for engine support), ARE&M, CEATLTD published (HOLD, 3,340), JBMA, RKFORGE
+- B28 · claimed (B, 24-Nov-2026) · OLECTRA
 
 ### Consumer Services (21)
 
-- B29 · queued · ETERNAL, DMART, TRENT, INDHOTEL, LENSKART
+- B29 · claimed (B, 24-Nov-2026) · ETERNAL, DMART, TRENT, INDHOTEL, LENSKART
 - B30 · queued · MEESHO, NYKAA, NAUKRI, VMM, IRCTC
 - B31 · queued · PWL, ITCHOTELS, JUBLFOOD, URBANCO, EIHOTEL
 - B32 · queued · TBOTEK, DEVYANI, INDIAMART, BLS, LEMONTREE

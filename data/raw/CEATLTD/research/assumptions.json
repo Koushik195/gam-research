@@ -1,0 +1,250 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for CEAT Ltd (consolidated, Rs crore). FY26 (Mar-2026) is the last reported year; Q1FY27 (Jun-2026, reported 16-Jul-2026) is the last quarter known on 30-Sep-2026. CEAT reports one segment; we model two parts: CEAT standalone (the six Indian plants: replacement, OEM and exports) and the subsidiaries (the Camso off-highway construction tyres and tracks business bought from Michelin on 1-Sep-2025, plus small subsidiaries), each with revenue and EBITDA margin. Consolidated EBITDA = sum of the two (excluding the Sri Lanka JV share, which is in other income). Minorities are negligible (Rs8 cr of equity), so EPS = profit / 4.04 cr shares.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "build": {
+  "_note": "Standalone channel build (Rs crore). FY26 standalone revenue Rs15,215 cr (Q4FY26 call) split 51% replacement / 30% OEM / 19% international (Q1FY27 presentation, FY26 standalone mix). Checked against the standalone segment growth in CEATLTD.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "replacement": 7759.65,
+   "oem": 4564.5,
+   "international": 2890.85
+  },
+  "replacementGrowth": [
+   14,
+   11,
+   10
+  ],
+  "oemGrowth": [
+   14,
+   9,
+   9
+  ],
+  "internationalGrowth": [
+   18,
+   13,
+   12
+  ],
+  "subsidiaryRevenue": [
+   800,
+   1200,
+   1330
+  ]
+ },
+ "segments": [
+  {
+   "key": "india",
+   "name": "CEAT standalone (India plants, incl. exports)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 15214.9,
+   "growth": [
+    14.76,
+    10.79,
+    10.11
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    10.7,
+    12.8,
+    13
+   ],
+   "hist": {
+    "driver": "indiaRev",
+    "revenue": "indiaRev",
+    "adjEbitda": "indiaEbitda"
+   },
+   "_why": "From the channel build. FY27E: replacement +14% (Q1 mid-teens; ~11% of price increases by mid-July plus 4-6% more planned for Jul-Aug; management expects replacement volume to moderate to mid-single digits for truck and car tyres and high single digits for two-wheelers, Q1FY27 call 17-Jul-2026); OEM +14% (Q1 low teens; a 3% index increase in April and a double-digit index increase from 1-Jul; OEM car and two-wheeler demand growing at double digits); international +18% (Q1 ~30% even with the Middle East, ~15% of exports, nearly shut; 5-7% price). Q1FY27 standalone revenue +18.2% (volume +13-14%). H2 growth slows against a GST-boosted base (Q3FY26 +20%, Q4FY26 +18%). FY28E: volume ~6-7% on new capacity (Chennai car tyres 95 to 130 lakh a year by FY28; Nagpur two-wheeler 80,000 to 100,000 tyres a day) plus price carry-over; FY29E ~10%. MOSL consolidated +13.3% / +12.1%; Emkay +18.8% / +12.2% / +9.8%.",
+   "_revWhy": "Driver is standalone revenue itself.",
+   "_marginWhy": "Standalone EBITDA margin 13.4% in FY26 (Q4 14.6%), 11.3% in FY25; Q1FY27 9.1% as raw materials rose 16-18% q/q (natural rubber ~Rs280/kg, a 15-year high; crude above $100; rupee 93-94 to 96.5). Q2 brings another 8-10% raw-material increase against more price increases, so we assume ~9% in Q2, ~11.5% in Q3 and ~13% in Q4: FY27E 10.7%. FY28E 12.8% and FY29E 13.0%: gross margin back towards the 40-41% management calls normal (33.5% in Q1), but below FY26 because industry capacity is rising (CRISIL: ~Rs18,000 cr of capex by the top six over FY27-28) and CEAT ran ~1 pt below the industry margin in FY26 (CRISIL industry ~14.2%). CRISIL (24-Aug-2026) sees industry margins at 11.5-12% in FY27 and 13-13.5% in FY28."
+  },
+  {
+   "key": "subs",
+   "name": "Camso and other subsidiaries",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 463.1,
+   "growth": [
+    72.75,
+    50,
+    10.83
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    8,
+    10
+   ],
+   "hist": {
+    "driver": "subsRev",
+    "revenue": "subsRev",
+    "adjEbitda": "subsEbitda"
+   },
+   "_why": "Consolidated less standalone revenue: Rs463 cr in FY26 (Camso Rs421 cr for seven months, AR FY26 note 52), Rs155 cr in Q1FY27 (down 15% q/q). During the transition CEAT sells to Michelin, which keeps 25-30% of the value chain (Q4FY26 call); the business runs at ~USD10 mn a month at customer prices (~USD120 mn a year). ~60% of customers had moved to CEAT by June and ~90% are expected by September, so H2FY27 revenue is billed at customer prices. FY27E Rs800 cr (Q1 Rs155 cr, Q2 ~Rs165 cr, H2 ~Rs480 cr); FY28E Rs1,200 cr (~USD125 mn, the first full year with the whole value chain); FY29E Rs1,330 cr (+11%: replacement recovery; OEM wins take time).",
+   "_revWhy": "Driver is subsidiary revenue itself.",
+   "_marginWhy": "EBITDA ~Rs5 cr in FY26 and about -Rs15 cr in Q1FY27 (negative: new warehouses, offices and staff in Europe and the US before revenue moves over). Analysts recalled earlier guidance of 12-13% margins on Rs1,000-1,200 cr of revenue (CLSA question, Q1FY27 call); management says the outlook is unchanged but will take time. FY27E 0% (H1 negative, H2 ~5%); FY28E 8% (upstream mixers and calenders only from ~Mar-2027); FY29E 10%."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Not used (no corporate cost line)",
+ "_unallocWhy": "Standalone EBITDA already carries all corporate costs.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  1600,
+  1500,
+  1920
+ ],
+ "_capexWhy": "FY26 capex Rs1,076 cr plus Rs236 cr for Camso intangibles (Q4FY26 call); Screener investing cash flow (Rs2,271 cr) also includes the Rs1,120 cr Camso payment. FY27 guidance: Rs1,350-1,400 cr for India (Q4FY26 call; held at Rs1,300-1,400 cr on 17-Jul-2026) plus USD20-25 mn of Camso upstream equipment (USD30 mn budget): FY27E Rs1,600 cr. Q1FY27 Rs293 cr. FY28E Rs1,500 cr: car-tyre and two-wheeler capacity plus the new Rs1,205 cr two-wheeler project (53,000 tyres a day by FY31, approved 16-Jul-2026). FY29E Rs1,500 cr plus ~Rs420 cr for the Camso brand, which CEAT must buy for USD44 mn three years after the 1-Sep-2025 closing (AR FY26 notes 42 and 52: Rs388 cr at the March-2026 rate; ~Rs420 cr at Rs96/USD). Capital commitments rose to Rs1,785 cr at Mar-26 (Rs706 cr). MOSL Rs1,400 cr / Rs1,500 cr.",
+ "depRateOnGrossBlock": 6.5,
+ "_depWhy": "FY26 depreciation Rs697 cr (incl. right-of-use assets and the Camso intangibles from Sep-2025) = 6.5% of average gross block (Rs10,728 cr, Screener basis, FY25-26); Q1FY27 Rs186 cr (Rs744 cr annualised) with seven months of Camso already in the base. The engine depreciates new capex at once and holds CWIP (Rs638 cr) flat; 6.5% gives FY27E ~Rs815 cr vs MOSL Rs808 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "CEAT has net debt (Rs3,011 cr of borrowings plus ~Rs260 cr of leases against Rs43 cr of cash at Mar-26), so the engine treasury is negative and earns nothing; finance cost is set below.",
+ "otherIncome": [
+  40,
+  40,
+  45
+ ],
+ "_otherIncomeWhy": "Built from AR FY26 note 29 (Rs40.4 cr): interest Rs7.7 cr, other non-operating income Rs9.2 cr, foreign-exchange gain Rs22.1 cr, gains on investments Rs1.4 cr; plus the Sri Lanka JV share of profit (CEAT Kelani; Rs15.8 cr in FY26, Rs21.8 cr in FY25, note 40), which we keep out of segment EBITDA. Recurring core ~Rs20 cr plus JV ~Rs18 cr; FX gains are not assumed. Q1FY27 non-operating income Rs6 cr plus JV ~Rs5 cr (~Rs44 cr annualised). FY27E-FY28E Rs40 cr, FY29E Rs45 cr. Screener shows FY26 other income of -Rs31 cr because it nets the Rs71 cr of exceptional items (labour codes Rs58 cr, VRS Rs13 cr); we forecast no exceptional items.",
+ "interest": [
+  455,
+  400,
+  400
+ ],
+ "_interestLabel": "Finance cost (borrowings, leases, dealer deposits, Sri Lanka FX)",
+ "_interestWhy": "FY26 Rs359 cr (AR note 33: interest on borrowings Rs314 cr, leases Rs20 cr, other Rs25 cr). Q1FY27 Rs146 cr, of which ~Rs48 cr was a Sri Lankan-rupee loss on the USD80 mn loan to the Camso entity (cannot be hedged); without it ~Rs98 cr, guided ~5% higher for the next one or two quarters (CFO). FY27E Rs455 cr = Rs146 cr + 3 x ~Rs103 cr; no further LKR loss assumed (USD24.5 mn of the loan is being converted to equity). FY28-29E Rs400 cr on ~Rs3,300-3,500 cr of borrowings at ~8.5% plus dealer-deposit interest and leases. MOSL Rs443 cr / Rs382 cr.",
+ "taxRate": [
+  28,
+  26.5,
+  26
+ ],
+ "_taxWhy": "FY26 28.6% (AR: Rs279 cr on Rs976 cr), FY25 26.7%; Q1FY27 103% because losses at the Camso and Sri Lankan entities get no tax credit. Standalone ~25% (new regime). FY27E 28% (subsidiary losses in H1), FY28E 26.5%, FY29E 26%. MOSL 28% / 28%.",
+ "payout": [
+  20,
+  20,
+  20
+ ],
+ "_payoutWhy": "Dividend Rs35 a share for FY26 (Rs30 for FY25) = 20% of reported EPS (Rs172.8); MOSL assumes 18-20%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 5.5,
+  "years": 12,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 12.5,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 4.6,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity, so we set beta to give our WACC: debt is ~19% of enterprise value (net debt ~Rs3,000 cr vs ~Rs13,200 cr of market value), pre-tax cost of debt ~8.5% (6.3% after tax), cost of equity ~12.8% (beta 1.05 for a cyclical, raw-material-driven tyre maker with net debt): WACC ~11.6%. Beta 0.85 gives 11.6%.",
+  "_tgWhy": "Indian tyre demand grows with the vehicle parc, freight and farm incomes plus price; Camso adds a global off-highway niche. 5.5% nominal (house range 5-6%).",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% (FY29E) to 8% over 12 years: volume 5-6% plus price and mix (premium car tyres, radials, exports).",
+  "_fadeMarginWhy": "EBITDA margin fades to 12.5%: CEAT's FY20-26 consolidated margin ranged 7.7-13.8% (median 11.2%); a larger premium, export and Camso mix supports a little more than the median, competition and new capacity cap it.",
+  "_fadeCapexWhy": "Capex fades from ~8% of revenue (FY29E, incl. the Camso brand payment) to 6% (FY21-26 average ~8%; tyres are capital-hungry); depreciation 4.6% of revenue (FY26 4.4%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Natural rubber eases from Rs280/kg back towards Rs200-220/kg in H2FY27 while the 15-16% price increases stick (management intends to hold prices until gross margin returns to 40-41%); replacement and OEM volume stay near double digits; Camso reaches the 12-13% margin management talked about by FY29 on Rs1,300 cr+ of revenue.",
+   "fadeMarginTo": 13.5,
+   "segments": {
+    "india": {
+     "growthDelta": 2,
+     "marginDelta": 1
+    },
+    "subs": {
+     "growthDelta": 5,
+     "marginDelta": 2
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Rubber and crude-linked inputs stay high with the West Asia conflict; a weak monsoon (El Nino) and 15%+ price increases slow replacement demand; competitors hold back on prices so CEAT gives up margin; Camso stays loss-making through FY28 as customers churn in the move from Michelin and the Sri Lankan rupee keeps hitting finance costs.",
+   "fadeMarginTo": 11,
+   "segments": {
+    "india": {
+     "growthDelta": -3,
+     "marginDelta": -1.25
+    },
+    "subs": {
+     "growthDelta": -10,
+     "marginDelta": -4
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 13,
+      "bull": 16.5,
+      "bear": 10.5
+     },
+     "why": "How the street values CEAT: P/E on one-year-forward EPS (MOSL ~18x FY28E, 17-Jul-2026; Emkay 18x FY28E in its 6-Jul-2026 sector note, TP rolled to Jun-27 on 18-Jul; Nuvama 16x FY28E in Apr-2026). Multiple derived in CEATLTD.ctx.js and written by CEATLTD.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 5,
+      "bull": 6.5,
+      "bear": 4.5
+     },
+     "why": "Values the operating business and deducts net debt (CEAT carries ~Rs3,000 cr): the cross-check that is not flattered or hurt by finance costs."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 12-year FCFF at an 11.6% WACC, terminal growth 5.5%, less net debt."
+    }
+   ]
+  }
+ }
+}

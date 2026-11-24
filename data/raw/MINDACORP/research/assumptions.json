@@ -1,0 +1,186 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Minda Corporation Ltd (consolidated, Rs crore). FY26 is the last reported year (revenue Rs6,185 cr). One reported segment; revenue is a single growth path computed from the vertical build in `build` (Mechatronics organic, Information & Connected Systems, Minda Vast consolidated from FY27) and checked in tools/authoring/MINDACORP.ctx.js. Net profit is on the owners' basis and per-share figures on 24.673 cr fully diluted shares (MINDACORP.patch.js: promoter warrants treated as converted, Rs315.56 cr balance added to cash). The engine has no line for the share of associate/JV profit (post-tax, mainly 49% of Flash Electronics) or minorities, so both enter `otherIncome` grossed up for tax (see _otherIncomeWhy). Forecasts exclude the Q1FY27 Rs106 cr one-off gain on consolidating Minda Vast. Valued on P/E, as the street does; the multiple is derived in MINDACORP.ctx.js and written here by MINDACORP.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  24.83,
+  14.18,
+  14.08
+ ],
+ "_revenueWhy": "From the vertical build. FY27E +24.8%: Q1FY27 +33% reported, ~+24% organic (Minda Vast added ~Rs125 cr); Vast adds ~Rs560 cr for the year (FY26 ~Rs500 cr, Q1 +22%). Organic: Mechatronics +12% (Q1 ex-Vast +14%), ICS +19% (Q1 +34%: harness >30%, clusters >35%), slowing from Q3 against the GST-boosted base; Q2-Q4 organic growth implied ~14%. FY28E +14.2% and FY29E +14.1%: production +5-7% plus content (TFT clusters, HV harness, smart access), switch JV (Toyodenso, SOP Q4FY27; ~Rs150 cr in FY28, peak FY29) and die-casting exports; sunroof (HCMF) and Turntide are equity-accounted JVs, not revenue. Management's 'at least 1.5x industry' and Vision 2030 need ~19-20%; street FY27E/FY28E/FY29E revenue Rs7,362-7,653 / 8,679-8,830 / 9,909-10,260 cr.",
+ "ebitdaMargin": [
+  11.6,
+  11.8,
+  12
+ ],
+ "_marginWhy": "FY26 11.7%; Q1FY27 11.5% (11.9% in Q4FY26) with Vast at 8.4% diluting ~25bp. CFO: 11.5-12% for the rest of FY27 with back-to-back commodity pass-through (1-2 quarter lag); 12.5% by FY30 (Vision 2030). We assume 11.6% / 11.8% / 12.0% as Vast's margin improves and operating leverage offsets wage and commodity inflation. Range since FY21: 9.2-11.7%. Street: Emkay 11.7/11.9/11.9%, MNCL 11.6/12.0/12.2%, Choice 11.6/11.9/12.0%.",
+ "capex": [
+  450,
+  450,
+  450
+ ],
+ "_capexWhy": "FY26 Rs413 cr (record). FY27 guided ~Rs400-450 cr (22-May-2026) and ~Rs400 cr (13-Aug-2026); Vast's capex is now consolidated, so Rs450 cr. Vision 2030: ~Rs2,000 cr over five years (two die-casting greenfields, one cluster plant, land bought in FY26). Emkay Rs454/450/400 cr.",
+ "depRateOnGrossBlock": 9.5,
+ "_depWhy": "FY26 D&A Rs230 cr = 9.0% of average gross block (Rs2,566 cr); Q1FY27 Rs69 cr (incl. Minda Vast, consolidated from Apr-2026) runs at ~Rs280 cr a year. Vast's fixed assets are not in the FY26 base (gap), so 9.5%: FY27E ~Rs278 cr, FY28E ~Rs320 cr, FY29E ~Rs363 cr (Emkay Rs277 / 311 / 358 cr). The engine depreciates new capex at once and keeps CWIP flat.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net debt company (Rs1,065 cr at Mar-2026 excl. leases; Rs750 cr pro forma for the warrant balance). The engine's 'treasury' nets the Flash (Rs1,474 cr) and JV stakes held at book in investments against debt, so it is positive; that is not cash and earns no interest. Interest income is small and sits in recurring other income.",
+ "otherIncome": [
+  109.26,
+  134.55,
+  165.32
+ ],
+ "_otherIncomeWhy": "Built, not plugged: (1) recurring other income Rs12 / 14 / 16 cr (FY26 Rs15 cr, Q1FY27 Rs2 cr); (2) share of associate and JV profit, post-tax, Rs77 / 100 / 125 cr: Flash 49% Rs80 / 100 / 122 cr (FY26 ~Rs70 cr; Flash guides 20-24% growth and a 16-17% margin; Q1FY27 ~Rs18 cr after PPA depreciation) plus Furukawa (17.5%) ~Rs5-8 cr, less start-up losses at HCMF (sunroof), Turntide and Infac; Vast leaves this line (FY26 Rs5 cr) as it is consolidated; Emkay Rs77 / 104 / 133 cr; less (3) minorities Rs6 / 12 / 16 cr (50% of Vast's profit; 40% of the Toyodenso JV once profitable). (2) and (3) are after tax, so they are divided by (1 - 27%) because the engine taxes all other income: 12 + (77 - 6) / 0.73 = Rs109 cr. Net profit then equals owners' PAT. FY26 on the engine's basis: other income Rs14 cr (Screener) plus associates Rs81 cr below the tax line.",
+ "interest": [
+  118,
+  100,
+  85
+ ],
+ "_interestLabel": "Finance cost (borrowings and leases)",
+ "_interestWhy": "FY26 Rs122 cr (Flash acquisition debt for a full year), Q1FY27 Rs31 cr. Gross debt Rs1,212 cr plus leases Rs259 cr at Mar-2026; the Rs316 cr warrant balance (due by Dec-2026) and free cash flow cut debt from H2FY27 (Emkay net debt Rs1,324 cr FY26 to Rs826 cr FY28E).",
+ "taxRate": [
+  27,
+  27,
+  27
+ ],
+ "_taxWhy": "Tax on profit before associates: FY26 27.7%, FY25 28.6%, Q1FY27 27.4% excluding the gain on Vast (20.7% reported). New-regime rate 25.2% plus disallowances and loss-making start-ups.",
+ "payout": [
+  10,
+  10,
+  10
+ ],
+ "_payoutWhy": "Rs1.40 a share for FY26 = 9% of EPS; 9-15% since FY22.",
+ "build": {
+  "_note": "Vertical build (Rs crore). FY26 base from the Q4FY26 presentation (Mechatronics, Aftermarket & Others Rs2,843 cr; ICS Rs3,342 cr; total = reported Rs6,185 cr). Minda Vast (50%, consolidated from 1-Apr-2026) is a separate line. Checked against model revenue in MINDACORP.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "mechatronics": 2843,
+   "ics": 3342,
+   "vast": 0
+  },
+  "growth": {
+   "mechatronics": [
+    12,
+    13,
+    14
+   ],
+   "ics": [
+    19,
+    15,
+    14
+   ]
+  },
+  "vast": [
+   560,
+   644,
+   741
+  ],
+  "associates": [
+   77,
+   100,
+   125
+  ],
+  "minorities": [
+   6,
+   12,
+   16
+  ],
+  "recurringOI": [
+   12,
+   14,
+   16
+  ],
+  "_why": "Mechatronics (vehicle access, die casting, aftermarket, EV systems): Q1 ex-Vast +14%; die-casting export plant (Pune), switch JV from Q4FY27 (Rs650 cr target by 2030), aftermarket steady. ICS: Q1 +34%; TFT cluster orders entering SOP across PV/CV/2W, HV harness and connector localisation; harness share gains in 2W/3W/CV (Japanese PV makers are served by Furukawa Minda, an associate). Vast: FY26 ~Rs500 cr, Q1 +22%; +15% a year as smart-access content grows."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 12,
+  "fadeCapexPctTo": 4,
+  "depPctOfSales": 3.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Cyclical auto supplier with moderate leverage (net debt ~0.3x equity pro forma): beta 1.0, cost of equity 12.5%. Debt is ~5% of enterprise value, so we use the cost of equity as the discount rate (the engine's DCF has no separate WACC in Excel).",
+  "_tgWhy": "India's nominal GDP grows ~10%; vehicle production ~5-6% plus content. House range 5-6%: 6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~14% to 8% over 15 years.",
+  "_fadeMarginWhy": "EBITDA margin fades to 12.0%: above the 9-12% history, below the 12.5% Vision 2030 target.",
+  "_fadeCapexWhy": "Capex falls from ~4.5% of revenue in FY29E to 4.0% (FY22-26 average ~7%); depreciation 3.5% of revenue (FY26 3.7%).",
+  "_assocWhy": "FCFF excludes associate profit (mainly Flash); Flash and the JVs enter only at book value (Rs1,474 cr and ~Rs90 cr) through investments in the engine's net cash. The DCF therefore understates Flash's value (see the DCF chapter)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Volumes keep growing high single digits after the GST step; TFT clusters, HV harness, smart access and the switch JV ramp on time; Vast's margin converges to the group's; commodity costs ease; margin moves towards the 12.5% Vision 2030 target.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 0.4,
+   "fadeMarginTo": 12.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Volumes flatten against the GST base; commodity and wage inflation is recovered late; 2W EV makers in-source electronics; Flash's margin stays near 15%; new JVs lose money for longer; margin slips back to ~11%.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -0.7,
+   "fadeMarginTo": 11
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 26,
+      "bull": 28.5,
+      "bear": 19.5
+     },
+     "why": "How the street values Minda Corp: P/E on one-year-forward EPS (Emkay 33x and MNCL 34x Jun-28E, Axis 32x FY28E). Multiple derived in MINDACORP.ctx.js and written by MINDACORP.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 13,
+      "bull": 14,
+      "bear": 9.5
+     },
+     "why": "Values the consolidated business; Flash and the JVs are added at book value through the engine's net cash."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether consolidated cash flows support the price: 15-year FCFF, cost of equity 12.5%, terminal growth 6%, plus Flash and JVs at book value."
+    }
+   ]
+  }
+ }
+}

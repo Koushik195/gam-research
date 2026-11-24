@@ -1,0 +1,39 @@
+{
+ "_note": "Minda Corporation reports one operating segment under Ind AS 108 (automobile components). It discloses revenue for two business verticals in its investor presentations (Rs crore, consolidated): Mechatronics, Aftermarket and Others (vehicle access incl. Minda Vast from Q1FY27, die casting, aftermarket, EV systems) and Information & Connected Systems (wiring harness, instrument clusters, sensors). No vertical profit is disclosed. Q2FY25 is derived as FY25 less Q1, Q3 and Q4 as disclosed; Q2FY26 as FY26 less the other three quarters. Q1FY27 Mechatronics includes ~Rs125 cr from Minda Vast (consolidated from 1-Apr-2026).",
+ "src": "Investor presentations: Q4FY24 (May-2024) p11, Q1FY25 (Aug-2024) p8, Q4FY25 (May-2025) p8, Q4FY26 (22-May-2026) p8, Q1FY27 (13-Aug-2026) p6; Q1FY27 call (Vast contribution)",
+ "annual": [
+  { "fy": "FY23", "mechatronics": 2061, "ics": 2239, "total": 4300, "reported": 4300 },
+  { "fy": "FY24", "mechatronics": 2251, "ics": 2400, "total": 4651, "reported": 4651 },
+  { "fy": "FY25", "mechatronics": 2475, "ics": 2581, "total": 5056, "reported": 5056 },
+  { "fy": "FY26", "mechatronics": 2843, "ics": 3342, "total": 6185, "reported": 6185 }
+ ],
+ "quarterly": [
+  { "q": "Q1FY25", "mechatronics": 617, "ics": 575, "sales": 1192, "ebitda": 132 },
+  { "q": "Q2FY25", "mechatronics": 596, "ics": 694, "sales": 1290, "ebitda": 147, "derived": true },
+  { "q": "Q3FY25", "mechatronics": 608, "ics": 645, "sales": 1253, "ebitda": 144 },
+  { "q": "Q4FY25", "mechatronics": 654, "ics": 667, "sales": 1321, "ebitda": 153 },
+  { "q": "Q1FY26", "mechatronics": 650, "ics": 736, "sales": 1386, "ebitda": 156 },
+  { "q": "Q2FY26", "mechatronics": 712, "ics": 823, "sales": 1535, "ebitda": 178, "derived": true },
+  { "q": "Q3FY26", "mechatronics": 710, "ics": 850, "sales": 1560, "ebitda": 184 },
+  { "q": "Q4FY26", "mechatronics": 771, "ics": 933, "sales": 1704, "ebitda": 203 },
+  { "q": "Q1FY27", "mechatronics": 863, "ics": 983, "sales": 1846, "ebitda": 212, "vast": 125 }
+ ],
+ "products": {
+  "_note": "Product split of revenue (%), company presentations.",
+  "FY25": { "wiringHarness": 28, "vehicleAccess": 24, "dieCasting": 16, "clusters": 16, "others": 16 },
+  "FY26": { "wiringHarness": 31, "vehicleAccess": 22, "dieCasting": 15, "clusters": 17, "others": 15 },
+  "Q1FY26": { "wiringHarness": 30, "vehicleAccess": 23, "dieCasting": 15, "clusters": 15, "others": 17 },
+  "Q1FY27": { "wiringHarness": 32, "vehicleAccess": 25, "dieCasting": 15, "clusters": 16, "others": 12 }
+ },
+ "endMarkets": {
+  "FY25": { "twoThreeW": 47, "cv": 28, "pv": 14, "aftermarket": 11 },
+  "FY26": { "twoThreeW": 48, "cv": 28, "pv": 14, "aftermarket": 10 },
+  "Q1FY26": { "twoThreeW": 47, "cv": 29, "pv": 15, "aftermarket": 9 },
+  "Q1FY27": { "twoThreeW": 46, "cv": 27, "pv": 19, "aftermarket": 8 }
+ },
+ "kpiBlocks": [
+  ["1   MECHATRONICS, AFTERMARKET & OTHERS (vehicle access incl. Minda Vast from Q1FY27, die casting, aftermarket, EV)", [["mechatronics", "Revenue", "₹ cr", 1]]],
+  ["2   INFORMATION & CONNECTED SYSTEMS (wiring harness, instrument clusters, sensors)", [["ics", "Revenue", "₹ cr", 1]]],
+  ["3   COMPANY", [["sales", "Revenue from operations", "₹ cr", 1], ["ebitda", "EBITDA", "₹ cr", 0, "sales"]]]
+ ]
+}
