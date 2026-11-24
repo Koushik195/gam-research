@@ -1,0 +1,200 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Glenmark (consolidated, Rs crore; profit attributable to owners, see tools/authoring/GLENMARK.patch.js). Glenmark reports one segment and revenue by region, so the engine runs one revenue-growth path and one EBITDA-margin path; the regional build sits in `businessLines` and GLENMARK.ctx.js checks it sums to model revenue. FORECASTS ARE CORE: they exclude all ISB 2001 out-licensing income. The US$700mn AbbVie upfront is a one-off (US$525mn booked in Q2FY26, the other US$175mn recognised at US$17.5mn a quarter to Mar-2028 with no cash attached, since the cash came in Sep-2025), so FY27-28E revenue leaves out the ~US$70mn a year of deferred income that reported revenue will still carry, while IGI's ~US$70mn a year of R&D (which that income matches) stays in costs. No milestones or royalties are forecast. Reported FY26 (actual) keeps the Rs3,981.5 cr of licensing income, so FY27E revenue growth is negative on paper. Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  -4.08,
+  12.5,
+  11.54
+ ],
+ "_revenueWhy": "Built by region (businessLines; the script checks the sum). FY26 base Rs16,982.5 cr = core Rs13,001 cr + ISB 2001 income Rs3,981.5 cr. FY27E core Rs16,289 cr (+25% on core; -4.1% on reported FY26): India Rs5,399 cr (+45% on a FY26 base cut by ~Rs1,000 cr of GST-driven destocking in Q2FY26; Q1FY27 Rs1,432 cr, +15.5%; management: over Rs4,800 cr in FY27 and 12-15% a year), North America core US$420mn x Rs95 (FY26 US$357mn; Q1 core +19.8% on gFlovent 44 and other launches; 2-3 respiratory approvals and two sole first-to-files in H2), Europe +9% (guided high single digit), emerging markets +18% (Q1 +27.7%; Ryaltris Brazil and Aumolertinib in H2), other revenue Rs50 cr. Adding back the deferred ISB income (US$70mn, ~Rs665 cr) gives Rs16,954 cr on the reported basis, at the bottom of the Rs17,000-18,000 cr guidance. FY28E +12.5%: India +13%, NA US$460mn (Monroe differentiated injectables, full year of H2FY27 launches, first-to-file exclusivities fading), Europe +11% (guided double digit), EM +14%. FY29E +11.5%: India +13%, NA US$490mn, Europe +11%, EM +13%; inside the 13-15% medium-term CAGR the company targets only if the oncology launches work.",
+ "businessLines": {
+  "_why": "FY26 revenue by region (AR FY26 segment table): India Rs3,723.7 cr, North America Rs7,139.0 cr = core Rs3,157.5 cr + ISB 2001 income Rs3,981.5 cr (Rs3,670.0 cr booked net in Q2FY26 = US$525mn Rs4,500 cr less Rs830 cr of one-time charges netted in revenue, plus Rs311.5 cr of deferred income in H2, note 19), Europe Rs3,100.7 cr, emerging markets Rs2,940.5 cr, other revenue Rs78.6 cr. Total Rs16,982.5 cr = Screener revenue. North America core in US dollars x an assumed rupee rate (FY26 Rs88.33/$; Q1FY27 Rs94.53).",
+  "base": {
+   "india": 3723.7,
+   "na": 3157.5,
+   "europe": 3100.7,
+   "em": 2940.5,
+   "other": 78.6,
+   "isb": 3981.5
+  },
+  "naUsdMn": [
+   420,
+   460,
+   490
+  ],
+  "fx": [
+   95,
+   97,
+   99
+  ],
+  "growth": {
+   "india": [
+    45,
+    13,
+    13
+   ],
+   "europe": [
+    9,
+    11,
+    11
+   ],
+   "em": [
+    18,
+    14,
+    13
+   ]
+  },
+  "other": [
+   50,
+   55,
+   60
+  ],
+  "isb": [
+   0,
+   0,
+   0
+  ],
+  "isbReportedUsdMn": [
+   70,
+   70,
+   0
+  ]
+ },
+ "ebitdaMargin": [
+  17.8,
+  19,
+  19.8
+ ],
+ "_marginWhy": "Core EBITDA margin (excluding ISB 2001 income, after IGI's R&D): FY26 core EBITDA Rs591 cr (4.5% of core revenue Rs13,001 cr) was crushed by the India destocking and the one-time IGI bonus and deal costs; H2FY26 core 18.0% (Q3 19.0%, Q4 16.8%); Q1FY27 core 16.6% (reported 20.0% = Rs804.8 cr incl. Rs165.5 cr deferred income). Guidance: 21-22% reported for FY27 (incl. the ~Rs665 cr deferred income, worth ~3.5pp), i.e. ~17.5-18.5% core. FY27E 17.8% core = 21.0% on the reported basis (bottom of guidance: Q1 was 20.0%, freight and API costs up, oncology launch spending). FY28E 19.0% core (~21.9% reported: management's ~1pp improvement from operating leverage, US respiratory and injectables, branded mix). FY29E 19.8%: the deferred income stops in Mar-2028, so reported and core converge; without milestones, the reported margin would fall from ~21.9% to ~19.8% that year. IGI's ~US$70mn a year (about half of group R&D of 7-8% of sales) stays in all three years. Street FY27E: MOSL 20.9%, Choice 21.0% (both reported, incl. deferred income). Each 1pp of FY28E margin is ~Rs183 cr of EBITDA (~6% of EPS).",
+ "capex": [
+  900,
+  950,
+  1000
+ ],
+ "_capexWhy": "CFO (Q4FY26 call): FY26 was a one-off with 'close to Rs800 cr plus' of intangibles (in-licensing upfronts and milestones for oncology/dermatology, US injectable partnerships) on top of Rs1,358 cr of fixed-asset purchases (Screener); FY27 'around Rs900 cr sort of capex number total'. FY28-29E Rs950 / 1,000 cr (~5% of sales), including further in-licensing milestones (Aumolertinib, Trastuzumab Rezetecan, envafolimab). Acquisitions not modelled.",
+ "depRateOnGrossBlock": 5.6,
+ "_depWhy": "FY26 depreciation, amortisation and impairment Rs573.5 cr; Q1FY27 Rs173 cr (Rs692 cr annualised) after FY26's intangibles and the Rs594 cr of new leases. 5.6% of average gross block (Screener Rs12,072 cr at Mar-26 plus capex) gives Rs701 / 753 / 808 cr for FY27-29E, matching the Q1 run-rate in FY27E.",
+ "otherTreasury": {
+  "base": -1842.8,
+  "_why": "Debt-like items taken out of the opening net cash (AR FY26 notes 14-18): litigation liabilities and provisions Rs963.6 cr (Rs403.9 cr current and Rs281.6 cr non-current financial liabilities, Rs101.5 cr and Rs176.6 cr provisions; payable over ~2 years per management) and the Rs879.2 cr customer advance (US$96mn received Mar-2026 under a 3.3-year supply contract, to be repaid in product). Model opening net cash = Screener cash Rs1,176 cr + investments Rs42 cr - leases Rs594 cr - Rs1,843 cr = -Rs1,219 cr, against the company's net cash of Rs1,176 cr (which excludes leases and these items). The Rs1,314 cr of ISB 2001 income received in advance is non-cash and is NOT treated as debt; it stays in operating liabilities."
+ },
+ "treasuryYield": [
+  5,
+  5,
+  5
+ ],
+ "_treasuryWhy": "Applied by the engine to the model's net cash when positive (it is negative at Mar-26 after the debt-like items, so it adds nothing in FY27E and a little from FY28E). 5%: FY26 interest income Rs41.3 cr on ~Rs1,200-2,700 cr of average cash; Indian treasury rates ~5-6%.",
+ "otherIncome": [
+  240,
+  250,
+  260
+ ],
+ "_otherIncomeWhy": "Built from AR FY26 note 20 and Q1FY27: (a) interest on operating cash (~Rs800-900 cr held, CFO) Rs40 cr (FY26 Rs41.3 cr); (b) working-capital 'interest-rate arbitrage' income Rs140 / 145 / 150 cr, which the CFO says now sits in other income while the matching cost sits in finance cost (Q1FY27 other income Rs66 cr = ~Rs40 cr arbitrage + ~Rs11 cr interest + ~Rs15 cr misc); (c) miscellaneous income Rs60 / 65 / 70 cr (FY26 Rs60.1 cr). Forex gains (Rs359.2 cr in FY26) and the ISB 2001 income are not forecast. FY27E Rs240 cr vs Rs460.6 cr in FY26 (Rs101 cr ex forex) and Rs264 cr Q1-annualised.",
+ "interest": [
+  215,
+  205,
+  195
+ ],
+ "_interestLabel": "Finance cost (leases, bank charges, working-capital arbitrage)",
+ "_interestWhy": "No borrowings since Mar-26, but Q1FY27 finance cost was Rs54 cr (Rs216 cr annualised): interest on Rs594 cr of leases (~Rs50 cr a year at ~9%), bank commitment charges and the cost side of the working-capital arbitrage whose income is in other income (CFO). FY26 Rs208.7 cr (bank loans Rs120.8 cr, repaid). Rs215 / 205 / 195 cr.",
+ "taxRate": [
+  26,
+  26,
+  26
+ ],
+ "_taxWhy": "Q1FY27 ETR 24.9% (tax Rs160 cr on PBT Rs643 cr); FY25 25.2%; IGI's Swiss/US losses get little tax relief, so the group rate stays above India's 25.2%. MOSL 27.5%. 26% flat.",
+ "payout": [
+  8,
+  8,
+  8
+ ],
+ "_payoutWhy": "FY26 dividend Rs5.0 a share (~10% of reported EPS, ~Rs141 cr cash); FY25 Rs2.5. 8% of core EPS (~Rs5 a share).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 21,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 4,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash only after the AbbVie upfront; a history of USFDA warning letters (three sites since 2022), US antitrust settlements in three of the last four years, two India destocking episodes and a loss year (FY24). Ke 12.5%, above Lupin (11.9%) and Cipla (11.3%).",
+  "_tgWhy": "5.5%: India 10-12% nominal, emerging markets and Europe high single digit, US generics flat to low single digit in dollars.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~11.5% to 7%.",
+  "_fadeMarginWhy": "21% core: the branded mix (India, EM, European respiratory and dermatology, oncology in-licensing) lifts margins slowly, but IGI's burn continues unless milestones arrive; the company's own 23% (2022 target) was not met.",
+  "_fadeCapexWhy": "Capex 5% of revenue (FY27E 5.5% incl. in-licensing); depreciation 4% of revenue (FY27E 4.3%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The Investor Day plan works: 13-15% growth, US respiratory approvals and the two first-to-files land on time, Monroe ramps, Aumolertinib and Trastuzumab Rezetecan scale in India and EM, Ryaltris heads for US$250-300mn, margins reach ~23%.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 2,
+   "fadeMarginTo": 23
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "US launches slip (Indore stays under the warning letter, respiratory approvals delayed), another India channel disruption, more US litigation charges and freight/API costs keep core margin near 16-17%.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -2.5,
+   "fadeMarginTo": 18
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 22,
+      "bull": 34.5,
+      "bear": 17.5
+     },
+     "why": "How the street values Glenmark: both brokers that disclose a method use P/E (Motilal Oswal 25x 12-month-forward EPS plus a Rs290 NPV for ISB 2001; Deven Choksey 25x Sep-27E EPS in its Jan-2026 note). 22x = Glenmark's 20.2x median one-year-forward P/E since Apr-2021 on EPS before exceptional items and before the ISB 2001 licensing income (batch practice A18; the upfront treated as a one-off), leaving out the trough years FY24 (a loss) and FY26 (core EPS Rs7.2, below half of FY25's Rs47.0), times the pharma sector factor of 1.082 (median of the nine-peer set's trailing P/E at the 30-Sep close vs their five-year medians: +8.2%, PLAYBOOK §7c A20; Glenmark is outside the set) = 21.9x, rounded to the nearest half-turn. No growth or returns adjustment and no separate value for IGI/ISB 2001 (only one of the two brokers that disclose a method adds it; shown as a sensitivity). Bull 34.5x and bear 17.5x: the 75th (31.7x) and 25th (16.2x) percentiles of the same series times the same factor."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E (forward EBITDA)",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 13,
+      "bull": 19,
+      "bear": 12
+     },
+     "why": "Own one-year-forward EV/EBITDA since Apr-2021 (EV = price x 28.22 cr shares + Screener net debt at the latest March; EBITDA = next full year, FY26 on a core basis excluding the ISB 2001 income, ours for FY27-28E): median 11.9x leaving out the FY26 trough (core EBITDA Rs591 cr), times the EV/EBITDA analogue of the sector factor for the same nine peers (+7.46%) = 12.8x, rounded to 13x; bull/bear from the 75th/25th percentiles (17.9x / 11.0x). The engine adds the model net cash at Sep-28 (after the debt-like items), a year beyond the target date."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at a 12.5% cost of equity, terminal growth 5.5%, core margin fading to 21%, plus the model's net cash (after debt-like items)."
+    }
+   ]
+  }
+ }
+}
