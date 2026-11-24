@@ -201,6 +201,11 @@ close: for short histories compute the series on all weekly closes in your ctx (
   (set excluding self); GLENMARK, BIOCON +8.2% (outside the set). Listed stakes inside an operating
   company's SOTP: 30-Sep market value less 20% (BAJAJ-AUTO / M&M / HEROMOTOCO precedent) unless the
   street clearly does otherwise. Never send a disguised browser user-agent or other changed headers.
+- Turnarounds (decided 24-Nov-2026, FORCEMOT): when earnings break structurally upward inside the
+  window (loss or near-zero EPS to a much higher level) and the trough rule doesn't catch it, the
+  since-2021 forward median (on realised forward EPS) is dragged down by the pre-turnaround years.
+  Start the own window at the break (LTF precedent) and pair it with the peers' move over the same
+  window (HYUNDAI/BAJAJHFL); show the since-2021 median as a sensitivity row.
 
 ## 8. Do not
 
