@@ -54,7 +54,11 @@ function rewrite(src, name) {
 (async () => {
   fs.rmSync(OUT, { recursive: true, force: true });
   const cov = JSON.parse(await get('/api/coverage'));
-  const rows = (cov.rows || cov.companies || cov).filter(r => r.published);
+  // tools/export-hold.txt: symbols published locally but held off the website pending review (one per line, # comments)
+  const holdFile = path.join(ROOT, 'tools', 'export-hold.txt');
+  const HOLD = fs.existsSync(holdFile) ? fs.readFileSync(holdFile, 'utf8').split(/\r?\n/).map(l => l.replace(/#.*/, '').trim()).filter(Boolean) : [];
+  if (HOLD.length) console.log(`Held off the website: ${HOLD.join(', ')}`);
+  const rows = (cov.rows || cov.companies || cov).filter(r => r.published && !HOLD.includes(r.symbol));
   const syms = rows.map(r => r.symbol);
   if (Array.isArray(cov)) write('api/coverage.json', JSON.stringify(rows));
   else write('api/coverage.json', JSON.stringify({ ...cov, [cov.rows ? 'rows' : 'companies']: rows }));
