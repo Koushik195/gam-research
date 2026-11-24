@@ -54,12 +54,12 @@ function buildValuation(wb, M, ctx) {
   const tot = (label, f, fmt, nm) => { ws.getCell(`A${r}`).value = label; ws.getCell(`A${r}`).font = { bold: true }; const c = fml(`J${r}`, f, fmt, { bold: true }); if (nm) wb.definedNames.add(`Valuation!$J$${r}`, nm); return { c, row: r++ }; };
   let tp;
   if (ROLES) {
-    tp = tot(`12-month target price = primary method, rounded to ₹${rnd}`, `MROUND(H${primRow},${rnd})`, 'num', 'TargetPrice');
+    tp = tot(`12-month target price = primary method, rounded to ₹${rnd}`, `ROUND(H${primRow}/${rnd},0)*${rnd}`, 'num', 'TargetPrice');
     for (let x = first; x <= last; x++) fml(`J${x}`, `H${x}/H${primRow}-1`, 'pct');
   } else {
     tot('Weights (should total 100%)', `SUM(I${first}:I${last})`, 'pct');
     const bv = tot('Blended value per share', `SUMPRODUCT(H${first}:H${last},I${first}:I${last})/SUM(I${first}:I${last})`, 'num');
-    tp = tot(`12-month target price (rounded to ₹${rnd})`, `MROUND(J${bv.row},${rnd})`, 'num', 'TargetPrice');
+    tp = tot(`12-month target price (rounded to ₹${rnd})`, `ROUND(J${bv.row}/${rnd},0)*${rnd}`, 'num', 'TargetPrice');
   }
   tp.c.fill = fill;
   tot('Upside / (downside) vs CMP', 'TargetPrice/CMP-1', 'pct', 'Upside');

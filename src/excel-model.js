@@ -525,7 +525,7 @@ function buildOperatingModel(wb, M) {
   sumRow(`Value per share (end-${years[0]})`, `${out['Equity value']}/Shares`, 'num');
   const tpLabel = BLEND ? '12-month DCF value per share (rolled forward at Ke)' : '12-month target price (rolled forward at Ke, rounded to ₹10)';
   if (BLEND) { sumRow(tpLabel, `${out[`Value per share (end-${years[0]})`]}*(1+Ke/100)^(RollMonths/12)`, 'num', true, 'DCFValue'); sumRow('DCF value vs CMP', 'DCFValue/CMP-1', 'pct', true); }
-  else { sumRow(tpLabel, `MROUND(${out[`Value per share (end-${years[0]})`]}*(1+Ke/100)^(RollMonths/12),10)`, 'num', true, 'TargetPrice'); sumRow('Upside / (downside) vs CMP', 'TargetPrice/CMP-1', 'pct', true, 'Upside'); }
+  else { sumRow(tpLabel, `ROUND(${out[`Value per share (end-${years[0]})`]}*(1+Ke/100)^(RollMonths/12)/10,0)*10`, 'num', true, 'TargetPrice'); sumRow('Upside / (downside) vs CMP', 'TargetPrice/CMP-1', 'pct', true, 'Upside'); }
   sumRow('Terminal value as % of enterprise value', `${out['Present value of terminal value']}/${out[`Enterprise value (end-${years[0]})`]}`, 'pct');
   const tpRef = BLEND ? 'DCFValue' : 'TargetPrice';
   sumRow(`Implied P/E on ${years[1]} EPS`, `${tpRef}/${m('eps', 1)}`, 'x');
@@ -543,7 +543,7 @@ function buildOperatingModel(wb, M) {
     steps.forEach((_, j) => {
       const cc = colL(2 + j), w = `$B${rr}`, g = `${cc}$${sr}`;
       const cell = wd.getCell(`${cc}${rr}`);
-      cell.value = { formula: `MROUND((SUMPRODUCT(${fcffR},(1+${w}/100)^-(${kR}-0.5))+$${LL}$${RR[FC]}*(1+${g}/100)/((${w}-${g})/100)/(1+${w}/100)^${N}+${nc})/Shares*(1+Ke/100)^(RollMonths/12),10)` };
+      cell.value = { formula: `ROUND((SUMPRODUCT(${fcffR},(1+${w}/100)^-(${kR}-0.5))+$${LL}$${RR[FC]}*(1+${g}/100)/((${w}-${g})/100)/(1+${w}/100)^${N}+${nc})/Shares*(1+Ke/100)^(RollMonths/12)/10,0)*10` };
       cell.numFmt = FMT.num;
       if (i === 2 && j === 2) { cell.font = { bold: true }; cell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: INPUT } }; }
     });
@@ -737,7 +737,7 @@ function buildSotpSheet(wb, M, { R, nH, years, col }) {
   tot('Shares (crore)', 'Shares', 'd2', null, false);
   const vps = tot('Value per share', `K${eq}/Shares`, 'num');
   if (BL) { wb.definedNames.add(`SOTP!$K${vps}`, 'SOTPValue'); tot('SOTP value vs CMP', 'SOTPValue/CMP-1', 'pct'); }
-  else { const tp = tot(`12-month target price (rounded to ₹${v.round || 5})`, `MROUND(K${vps},${v.round || 5})`, 'num', 'TargetPrice'); ws.getCell(`K${tp}`).fill = fill; tot('Upside / (downside) vs CMP', 'TargetPrice/CMP-1', 'pct', 'Upside'); }
+  else { const tp = tot(`12-month target price (rounded to ₹${v.round || 5})`, `ROUND(K${vps}/${v.round || 5},0)*${v.round || 5}`, 'num', 'TargetPrice'); ws.getCell(`K${tp}`).fill = fill; tot('Upside / (downside) vs CMP', 'TargetPrice/CMP-1', 'pct', 'Upside'); }
   tot('Market value at CMP', 'CMP*Shares', 'num', null, false);
   if (cashRow) tot('Value the market puts on the businesses (market value less net cash)', `CMP*Shares-K${cashRow}`, 'num', null, false);
   ws.getCell(`A${r + 1}`).value = 'Value = metric × live multiple + live adjustment. Adjustments carry items such as the present value of losses still to be funded before a business breaks even.';
@@ -833,12 +833,12 @@ function buildValuationSheet(wb, M, { R, nH, years, col, intrinsic }) {
   const tot = (label, f, fmt, nm) => { ws.getCell(`A${r}`).value = label; ws.getCell(`A${r}`).font = { bold: true }; const c = ws.getCell(`J${r}`); c.value = { formula: f }; c.numFmt = FMT[fmt]; c.font = { bold: true }; if (nm) wb.definedNames.add(`Valuation!$J${r}`, nm); return r++; };
   let tp;
   if (ROLES) {
-    tp = tot(`12-month target price = primary method, rounded to ₹${B.round || 10}`, `MROUND(H${primRow},${B.round || 10})`, 'num', 'TargetPrice');
+    tp = tot(`12-month target price = primary method, rounded to ₹${B.round || 10}`, `ROUND(H${primRow}/${B.round || 10},0)*${B.round || 10}`, 'num', 'TargetPrice');
     for (let x = first; x <= last; x++) { ws.getCell(`J${x}`).value = { formula: `H${x}/TargetPrice-1` }; ws.getCell(`J${x}`).numFmt = FMT.pct; }
   } else {
     tot('Weights (should total 100%)', `SUM(I${first}:I${last})`, 'pct');
     const bv = tot('Blended value per share', `SUMPRODUCT(H${first}:H${last},I${first}:I${last})/SUM(I${first}:I${last})`, 'num');
-    tp = tot(`12-month target price (rounded to ₹${B.round || 10})`, `MROUND(J${bv},${B.round || 10})`, 'num', 'TargetPrice');
+    tp = tot(`12-month target price (rounded to ₹${B.round || 10})`, `ROUND(J${bv}/${B.round || 10},0)*${B.round || 10}`, 'num', 'TargetPrice');
   }
   ws.getCell(`J${tp}`).fill = fill;
   tot('Upside / (downside) vs CMP', 'TargetPrice/CMP-1', 'pct', 'Upside');
