@@ -1,0 +1,288 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "Standalone model (Amara Raja Energy & Mobility Ltd = the lead-acid business, lubes and a little lithium trading), the basis the street uses for the core (MOFSL, Nuvama, Anand Rathi, 360 ONE, ICICI Direct and Avendus value standalone FY28E EPS). The lithium-ion subsidiary ARACT and the other subsidiaries (ARCSPL recycling, ARPSL, ARBME) are valued separately in the sum of the parts. FY26 base = Screener standalone (revenue Rs13,549 cr, EBITDA Rs1,551 cr, PAT Rs970 cr incl. Rs259 cr net exceptional income). One segment ('core') so that bull/bear deltas flow through the engine's SOTP scenarios. Core and ARACT values are computed in tools/authoring/ARE&M.ctx.js and written here by ARE&M.val.js, which also writes the built other income and finance cost.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "core",
+   "name": "Lead-acid batteries and allied products (standalone Amara Raja)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 13549,
+   "growth": [
+    14.59,
+    9.24,
+    9.05
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    10.8,
+    11.6,
+    12
+   ],
+   "hist": {
+    "driver": "coreRev",
+    "revenue": "coreRev",
+    "adjEbitda": "coreEbitda"
+   },
+   "_why": "Revenue = sum of three business lines (assumptions.build, checked in ARE&M.ctx.js). FY27E +14.6%: Q1FY27 +20.6% (OEM 4W +24%, 2W +35%, aftermarket ~+15%, home energy +60%), price increases of ~3% in June and 2-3% in August, a normal Q2 base (Q2FY26 +8%), then the post-GST OEM base from Q3; automotive exports (−20% in Q1) and telecom lead-acid stay weak; lithium pack trading moves to ARACT from Q2. FY28-29E ~9%: management's 9-10% medium-term volume growth for lead-acid (Q1FY27 call), replacement demand from the FY26-27 OEM surge, exports recovering, industrial ex-telecom (UPS, data centres) growing. Street FY27E: MOFSL Rs15,526 cr, Nuvama Rs15,628 cr, Anand Rathi Rs15,409 cr, 360 ONE Rs15,975 cr.",
+   "_marginWhy": "EBITDA margin (Screener standalone basis): FY24 14.4%, FY25 13.2%, FY26 11.4%, Q1FY27 10.1% (−140bp YoY: ~0.9pp strategic spending on brand, the Amaron Assist pilot and debottlenecking, plus alloy, sulphuric acid and plastics costs, warranty provisions and freight). FY27E 10.8%: price increases of ~3% (June) and 2-3% (August) catch up with costs, B2B with a lag; strategic spending normalises 'over the next couple of quarters'; traded tubular batteries fall as the own plant meets demand. FY28-29E 11.6-12.0%: operating leverage on ~9% growth and less trading; below management's 13-14% aim, which has no date. Street FY27/28E: MOFSL 10.7/11.8%, Nuvama 11.3/11.5%, Anand Rathi 10.7/12.1%, 360 ONE 11.5/12.9%."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  400,
+  450,
+  500
+ ],
+ "_capexWhy": "Lead-acid capex: ~Rs400 cr in FY27 (of the ~Rs1,700 cr group plan, ~Rs1,300 cr is New Energy in ARACT; Q1FY27 call); FY26 ~Rs600 cr gross, ~Rs500 cr net of insurance (Q4FY26 call). FY28-29E Rs450-500 cr: debottlenecking 4W/2W capacity ('more throughput in the same four walls') and the tubular plant. ARACT capex is funded by equity infusions (build.aract.infusion), not here.",
+ "depRateOnGrossBlock": 7.7,
+ "_depWhy": "FY26 depreciation Rs548 cr; Q1FY27 Rs140 cr (run-rate ~Rs560 cr). The rate on average gross block is set so FY27E depreciation is ~Rs570 cr. CWIP is held flat by the engine.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Set to zero: the engine's 'treasury' includes the investments in subsidiaries at cost (ARACT, ARCSPL, ARPSL: Rs2,234 cr at Mar-26), which earn no interest. Interest on liquid funds and on borrowings is built in ARE&M.ctx.js and written into otherIncome and interest.",
+ "otherIncome": [
+  73,
+  86,
+  133.8
+ ],
+ "_otherIncomeWhy": "Built (ARE&M.ctx.js checks it): foreign-exchange gains Rs30 cr (FY26 Rs42.8 cr, FY25 Rs38.2 cr; exports ~12% of revenue, not forecast at the FY26 level) + scrap sales Rs12 cr (FY26 Rs12.5 cr) + interest on the Rs120 cr loans to ARPSL and other deposits Rs9 cr (FY26 Rs4.0 cr, loans given during FY26) + other items Rs22 cr (FY26 Rs28.6 cr incl. write-backs) + 7% on positive net liquid funds after ARACT infusions. FY26 normal other income Rs91.9 cr (AR FY26 note 23, before Rs259 cr exceptional income that Screener adds to other income); TTM to Jun-2026 Rs88 cr (Screener 'other income normal'); FY27E is lower because mutual-fund gains (Rs8 cr) go with the cash and FX gains are not assumed to repeat in full.",
+ "interest": [
+  51.8,
+  47,
+  29
+ ],
+ "_interestLabel": "Finance cost (warranty unwinding, leases, working-capital debt)",
+ "_interestWhy": "Built: unwinding of discount on warranty provisions Rs17 cr + lease interest Rs10 cr (FY26 Rs16.8 + 10.0 cr, AR FY26 note 26) + 7.5% on average net borrowings (FY26 'others' Rs13.9 cr on average borrowings of ~Rs210 cr). The parent had net debt of Rs156 cr at Mar-26 (borrowings Rs271 cr, cash Rs115 cr) and borrows to fund ARACT in FY27.",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "New regime (25.17%) plus disallowances: FY26 effective ~25.8%, Q1FY27 25.5%.",
+ "payout": [
+  20,
+  20,
+  20
+ ],
+ "_payoutWhy": "DPS Rs10.6 for FY26 = 20% of EPS (Rs194 cr); 20% in FY24-26 (Screener; AR FY26).",
+ "build": {
+  "base": {
+   "automotive": 10199,
+   "industrial": 3018,
+   "others": 332
+  },
+  "growth": {
+   "automotive": [
+    18,
+    10.5,
+    10
+   ],
+   "industrial": [
+    3,
+    4,
+    5
+   ],
+   "others": [
+    15,
+    12,
+    10
+   ]
+  },
+  "_why": "Automotive (OEM Rs1,800 cr + aftermarket, home energy and auto exports Rs8,399 cr in FY26, Nuvama): Q1FY27 domestic auto +20%+, home energy +60%, exports −20%; H2 against the post-GST OEM base. Industrial (Rs3,018 cr: telecom, UPS and data centres, railways, power, solar, industrial exports): +2% in Q1FY27 as UPS (+10% volume) offsets telecom moving to lithium; Nuvama models +2%/+4%. Others (Rs332 cr: lubes Rs205.5 cr, services, export incentives and scrap): lubes ~Rs50 cr a quarter and growing.",
+  "netLiquidBase": -156.09,
+  "treasuryRate": 7,
+  "borrowRate": 7.5,
+  "fixedFinance": [
+   27,
+   28,
+   29
+  ],
+  "fxGain": [
+   30,
+   30,
+   30
+  ],
+  "scrap": [
+   12,
+   13,
+   14
+  ],
+  "loanInterest": [
+   9,
+   9,
+   9
+  ],
+  "otherMisc": [
+   22,
+   22,
+   22
+  ],
+  "aract": {
+   "bookMar26": 1431.18,
+   "investedAug26": 1900,
+   "infusion": [
+    1000,
+    0,
+    0
+   ],
+   "_infusionWhy": "FY27E: brings the investment in ARACT from Rs1,500 cr (Mar-26) to the ~Rs2,500 cr 'initial risk capital' management says completes the five facilities (Q1FY27 call); Rs400 cr was already in by Aug-2026. FY28-29E: none in the core cash path; further cell capacity is not approved and is excluded (a risk, see the report).",
+   "loss": {
+    "base": [
+     80,
+     170,
+     100,
+     0
+    ],
+    "bull": [
+     60,
+     100,
+     30,
+     0
+    ],
+    "bear": [
+     110,
+     250,
+     200,
+     100
+    ]
+   },
+   "_lossWhy": "GAM estimates (no company guidance; brokers publish only NPVs). FY26 ARACT loss Rs73 cr (Rs98 cr before tax; AOC-1) on Rs787 cr of pack revenue; consolidated less standalone profit −Rs12 cr in Q1FY27. FY27E: cell R&D of Rs100-150 cr (Q1FY27 call), BESS start-up from Q3FY27 (5-8% operating margin guided). FY28E: the 2 GWh cell line starts (Q2-CY2027) with depreciation and low utilisation. FY29E: BESS at ~5 GWh and better cell utilisation narrow the loss; breakeven FY30E. Bull: BESS ramps fast, breakeven FY30E with smaller losses. Bear: cell approvals lag, breakeven only after FY30E.",
+   "pvRate": 12.5
+  },
+  "otherSubsBook": 695.24
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5.5,
+  "years": 10,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 12.5,
+  "fadeCapexPctTo": 3.5,
+  "depPctOfSales": 3.3,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Lead-acid battery maker with near-zero leverage and lead-price pass-through: beta 1.0, cost of equity 12.5% (same as Exide).",
+  "_tgWhy": "Batteries track the vehicle parc, power back-up and industrial capex: ~5.5% nominal long-run growth (house range 5-6%), below nominal GDP as telecom, e-rickshaw and EV traction move to lithium.",
+  "_fadeWhy": "Growth fades from ~9% to 7%; margin 12.5% (between FY26's 11.4% and management's 13-14% aim); capex 3.5% of sales (FY27-29E 2.6-2.7% plus periodic capacity steps); depreciation 3.3% of sales (FY26 4.0%).",
+  "_netCashWhy": "The engine adds 'treasury' at FY27E: net liquid funds plus the investments in subsidiaries at cost. So the DCF is a core DCF plus ARACT and the other subsidiaries at cost, a cross-check only."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "OEM demand and the replacement wave keep lead-acid volumes growing double digit, price increases stick and trading falls, so margin reaches ~12.5% by FY29E; ARACT's BESS plant fills fast and losses shrink (breakeven FY30E).",
+   "segments": {
+    "core": {
+     "growthDelta": 2,
+     "marginDelta": 0.6
+    }
+   },
+   "fadeMarginTo": 13
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Auto-OEM growth reverses against the post-GST base, alloy, acid and plastic costs outrun prices (margin ~11%), exports stay weak and telecom moves to lithium faster; ARACT's cells are not approved on time, losses last beyond FY30E and the market values the subsidiary at half of book.",
+   "segments": {
+    "core": {
+     "growthDelta": -3,
+     "marginDelta": -1
+    }
+   },
+   "fadeMarginTo": 11
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 10,
+  "parts": [
+   {
+    "name": "Lead-acid core: P/E on Sep-28E standalone EPS",
+    "adj": {
+     "base": 16125,
+     "bull": 19599,
+     "bear": 10631
+    },
+    "metricLabel": "Sep-28E standalone EPS Rs63.0 x 14x (bull 15x on Rs71.4, bear 11.5x on Rs50.5) x 18.29 cr shares",
+    "note": "Core P/E = Amara Raja's own forward P/E net of its subsidiaries and before exceptional items (median 15.2x, Apr-2021 to Sep-2026) x the auto-component sector move (−7.8%), nearest half-turn."
+   },
+   {
+    "name": "ARACT (lithium-ion): book less PV of losses to breakeven",
+    "adj": {
+     "base": 2096,
+     "bull": 2246,
+     "bear": 721
+    },
+    "metricLabel": "Book equity at Sep-27E Rs2,266 cr (Mar-26 Rs1,431 cr + Rs1,000 cr FY27 infusion − losses) x 1 less PV of losses to breakeven Rs171 cr (bear: 0.5x book)",
+    "note": "GAM loss path FY27-30E Rs80/170/100/0 cr (bull 60/100/30/0, bear 110/250/200/100), discounted at 12.5% (PLAYBOOK §7c: present value of losses to breakeven)."
+   },
+   {
+    "name": "Other subsidiaries at book (ARCSPL recycling, ARPSL, ARBME)",
+    "adj": {
+     "base": 695,
+     "bull": 695,
+     "bear": 695
+    },
+    "metricLabel": "Mar-26 net worth: ARCSPL Rs615 cr + ARPSL Rs71 cr + ARBME Rs9 cr (AR FY26 Form AOC-1)",
+    "note": "ARCSPL (lead recycling, 100%) earned Rs21.5 cr in FY26; ARPSL (chargers, power systems) lost Rs20.7 cr; book value used."
+   }
+  ],
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values Amara Raja: P/E on standalone (lead-acid) FY28E EPS plus the New Energy subsidiary separately at invested capital, book, P/B or NPV (MOFSL, Nuvama, Anand Rathi, ICICI Direct, Avendus)."
+    },
+    {
+     "key": "pe",
+     "name": "P/E on standalone EPS",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 15,
+      "bull": 16,
+      "bear": 12
+     },
+     "why": "One multiple on all standalone EPS, with the subsidiaries left to the multiple (as 360 ONE does): shows what the parts add."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF (core + subsidiaries at cost)",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Ten-year FCFF of the standalone business at a 12.5% cost of equity, plus net liquid funds and the subsidiaries at cost."
+    }
+   ]
+  }
+ }
+}

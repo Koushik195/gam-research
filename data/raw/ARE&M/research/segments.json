@@ -1,0 +1,30 @@
+{
+ "_note": "The model is built on the STANDALONE company (Amara Raja Energy & Mobility Ltd = the lead-acid business plus some lithium trading and lubes), which is how the street values the core (MOFSL, Nuvama, Anand Rathi, 360 ONE, ICICI Direct, Avendus all use standalone FY28E EPS). The lithium-ion subsidiary Amara Raja Advanced Cell Technologies (ARACT: packs, the cell giga-factory, the BESS plant), the lead recycler Amara Raja Circular Solutions (ARCSPL) and Amara Raja Power Systems (ARPSL) sit outside the standalone accounts: 'groupDrag' = consolidated net profit less standalone net profit. Consolidated segments (Ind AS 108, from FY24): 'Lead acid batteries and allied products' and 'New energy business' (lithium packs, chargers). History: the New Energy business was moved from the standalone company to ARACT by slump sale on 1-Jun-2023 (Rs223.96 cr, AR FY24 note 22); the plastic-components business of Mangal Industries was demerged into the company with appointed date 1-Apr-2022 (NCLT order 10-Jan-2024; FY23 restated in AR FY24; Screener keeps FY23 as first reported).",
+ "src": "Screener.in standalone and consolidated tables (fetched 23/24-Nov-2026, frozen at 30-Sep-2026); AR FY26 (consolidated note 33 segments, Form AOC-1); Q1FY27 presentation (10-Aug-2026)",
+ "annual": [
+  { "fy": "FY20", "coreRev": 6839, "coreEbitda": 1099, "consPat": 661, "standalonePat": 661, "groupDrag": 0 },
+  { "fy": "FY21", "coreRev": 7150, "coreEbitda": 1117, "consPat": 647, "standalonePat": 647, "groupDrag": 0 },
+  { "fy": "FY22", "coreRev": 8696, "coreEbitda": 1030, "consPat": 513, "standalonePat": 511, "groupDrag": 2 },
+  { "fy": "FY23", "coreRev": 10390, "coreEbitda": 1450, "consPat": 731, "standalonePat": 731, "groupDrag": 0, "note": "FY23 PBT after a Rs47.65 cr net exceptional charge (Chittoor tubular plant fire, 30-Jan-2023)." },
+  { "fy": "FY24", "coreRev": 11260, "coreEbitda": 1625, "consPat": 934, "standalonePat": 906, "groupDrag": 28, "note": "New Energy business moved to ARACT from 1-Jun-2023 (standalone revenue +8% vs consolidated +13%)." },
+  { "fy": "FY25", "coreRev": 12405, "coreEbitda": 1634, "consPat": 945, "standalonePat": 964, "groupDrag": -19, "labRev": 12345, "nebRev": 501, "labResult": 1234, "nebResult": -46, "note": "Standalone PBT includes Rs111.07 cr insurance (exceptional)." },
+  { "fy": "FY26", "coreRev": 13549, "coreEbitda": 1551, "consPat": 896, "standalonePat": 970, "groupDrag": -74, "labRev": 13005, "nebRev": 809, "labResult": 1270, "nebResult": -135, "aractRevenue": 787, "aractPat": -73, "arcsplRevenue": 1456, "arcsplPat": 22, "arpslPat": -21, "note": "Standalone PBT includes Rs259.14 cr net exceptional income (insurance Rs181.15 + 121.79 cr, labour-code charge Rs43.80 cr).",
+   "lines": { "automotive": 10199, "industrial": 3018, "others": 332 },
+   "linesSrc": "Nuvama result update 11-Aug-2026 ('Key revenue assumptions', Source: Company, Nuvama Research): automotive 2W & 4W (OEM Rs1,800 cr, aftermarket incl. home energy and auto exports Rs8,399 cr) Rs10,199 cr, industrial Rs3,018 cr, others Rs332 cr = standalone revenue Rs13,549 cr. Others ~ lubes Rs205.5 cr + services Rs68.0 cr + other operating revenue Rs54.1 cr (AR FY26 standalone note 22). Exports (outside India) Rs1,652.7 cr; traded goods Rs2,127.5 cr (AR FY26 note 22)." }
+ ],
+ "quarterly": [
+  { "q": "Q1FY25", "sales": 3131, "ebitda": 430, "marginPct": 13.7, "pat": 245, "consSales": 3263, "consPat": 249, "groupDrag": 4 },
+  { "q": "Q2FY25", "sales": 3136, "ebitda": 441, "marginPct": 14.1, "pat": 241, "consSales": 3251, "consPat": 236, "groupDrag": -5 },
+  { "q": "Q3FY25", "sales": 3164, "ebitda": 416, "marginPct": 13.1, "pat": 312, "consSales": 3272, "consPat": 298, "groupDrag": -14 },
+  { "q": "Q4FY25", "sales": 2974, "ebitda": 342, "marginPct": 11.5, "pat": 167, "consSales": 3060, "consPat": 162, "groupDrag": -5 },
+  { "q": "Q1FY26", "sales": 3350, "ebitda": 387, "marginPct": 11.6, "pat": 194, "consSales": 3401, "consPat": 165, "groupDrag": -29 },
+  { "q": "Q2FY26", "sales": 3388, "ebitda": 406, "marginPct": 12.0, "pat": 302, "consSales": 3467, "consPat": 276, "groupDrag": -26 },
+  { "q": "Q3FY26", "sales": 3351, "ebitda": 374, "marginPct": 11.2, "pat": 152, "consSales": 3410, "consPat": 140, "groupDrag": -12 },
+  { "q": "Q4FY26", "sales": 3460, "ebitda": 377, "marginPct": 10.9, "pat": 322, "consSales": 3536, "consPat": 314, "groupDrag": -8 },
+  { "q": "Q1FY27", "sales": 4041, "ebitda": 407, "marginPct": 10.1, "pat": 203, "consSales": 4215, "consPat": 191, "groupDrag": -12 }
+ ],
+ "kpiBlocks": [
+  ["1   LEAD-ACID CORE (standalone Amara Raja Energy & Mobility)", [["sales", "Revenue (standalone)", "₹ cr", 1], ["ebitda", "EBITDA (standalone)", "₹ cr", 0, "sales"], ["pat", "Net profit (standalone)", "₹ cr", 0]]],
+  ["2   GROUP: SUBSIDIARIES (ARACT lithium-ion, ARCSPL recycling, ARPSL)", [["consSales", "Revenue (consolidated)", "₹ cr", 1], ["consPat", "Net profit (consolidated)", "₹ cr", 0], ["groupDrag", "Consolidated less standalone profit (subsidiaries)", "₹ cr", 0]]]
+ ]
+}
