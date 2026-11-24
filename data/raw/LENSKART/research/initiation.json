@@ -1,0 +1,4331 @@
+{
+ "symbol": "LENSKART",
+ "listing": "NSE: LENSKART · BSE: 544600",
+ "date": "30 September 2026",
+ "rating": "SELL",
+ "analysts": "GAM Research — Consumer services (retail)",
+ "cover": {
+  "headline": "India's eyewear category-builder: a better business every quarter, but the price already runs ahead of it",
+  "lead": "Lenskart designs, makes and sells glasses through 3,459 stores (2,725 in India) and an app, and owns Owndays (Japan) and Meller (Spain). It listed on 10-Nov-2025 at ₹402; the stock has risen 70% since. FY26 revenue grew 32.5% to ₹8,814 cr and EBITDA margin reached 19.9% (13.3% after rent in Q1FY27, against a ~25% long-term aim). We forecast EPS of ₹5.05 / ₹6.94 / ₹9.29 for FY27-29E, in the middle of the street. The street values Lenskart on **EV/EBITDA 1.5-2 years forward** (48-58x EBITDA after rent). The house rule (its own forward EV/EBITDA median since listing, 30.6x, adjusted by the retail peers' −11.6% move over the same ten months) gives **27x Sep-28E EBITDA of ₹3,540 cr = {{dcf.tp|inr}} ({{dcf.upside|chg}}): we initiate with SELL.** That is ≈41.2x after-rent EBITDA on the street's basis. Cross-checks: P/E ₹592, DCF ₹402. Bull {{scen.bull.tp|inr}}; bear {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "The business is creating its own market, and it shows in the numbers",
+    "p": "India revenue +30.7% in Q1FY27 with SSSG 18.3%, 63 lakh eye tests (+43%, half first-ever) and 116 net new stores; ~6,100 Indian pin codes still have no Lenskart store. Product margin crossed 70% as frames and lenses moved in-house. We model India +{{as.segments.0.growth.0|pct0}} / +{{as.segments.0.growth.1|pct0}} / +{{as.segments.0.growth.2|pct0}} on ~560 openings a year."
+   },
+   {
+    "h": "International has turned the corner",
+    "p": "International (41% of revenue) went from a 3.6% margin after rent in FY25 to 7.0% in FY26 and 10.6% in Q1FY27, on same-store growth (+38%, ~29% in constant currency) with only 16 new stores. Meller is tracking towards ~US$70 mn. We take 21.0% before rent and ESOP in FY27E (Q1 is the sunglasses season)."
+   },
+   {
+    "h": "Read the margin after rent",
+    "p": "Reported EBITDA (21.7% in Q1FY27) excludes rent under Ind AS 116; after rent the margin is 13.3%. On our numbers after-rent EBITDA rises from ~₹971 cr in FY26 to ₹2,533 cr in FY29E (~15.1% of revenue). Operating leverage is real, but SSSG is cooling (24% to 18% in two quarters) and openings move to smaller towns."
+   },
+   {
+    "h": "Valuation: the street pays for the next decade today",
+    "p": "At ₹685.05 the stock trades at 33.4x Sep-28E EBITDA before rent and 98.7x FY28E EPS, above its 30.6x forward median since listing, while retail peers trade ~12% below their own medians over the same months. The street's median target (₹707, 12 post-results notes) needs 48-58x after-rent EBITDA. Pre-IPO funds (SoftBank, ADIA, Alpha Wave) have been selling into strength since May."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin (before rent)",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n2"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Governance",
+    "v": "GREEN"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "RED"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): India SSSG after 18.3% in Q1, International margin after the sunglasses season, store additions against the ~600 plan.",
+   "Further block sales by pre-IPO holders (SoftBank 7.3%, ADIA, PI Opportunities Fund, Macritchie, Steadview): supply on rallies.",
+   "Hyderabad plant (~18 months from May-2026): capex peak in FY27, then product-margin gains.",
+   "Acquisitions funded from the ₹683 cr IPO allocation and the ₹4,104 cr net cash.",
+   "Smart glasses (B by Lenskart): 80,000+ sign-ups by Aug-2026; no revenue in our model."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: ₹3,788 cr (FY23) to ₹8,814 cr (FY26), ₹{{F.sales.2|num}} cr in FY29E",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY23",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; GAM estimates FY27-29E"
+      },
+      {
+       "type": "stacked",
+       "title": "Stores: 1,959 (FY23) to 3,459 (Jun-26), India-led",
+       "unit": "Stores (period end)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "India",
+         "values": [
+          1416,
+          1785,
+          2067,
+          2609,
+          2725
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "International",
+         "values": [
+          543,
+          604,
+          656,
+          718,
+          734
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 400,
+       "source": "RHP via ICICI Direct; shareholders' letters"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "India and International both grew 30%+ in FY26 and Q1FY27",
+       "unit": "Revenue growth (%)",
+       "x": [
+        "India FY26",
+        "International FY26",
+        "India Q1FY27",
+        "International Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Growth",
+         "values": [
+          29.5,
+          36.7,
+          30.7,
+          38
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26 note 41; Q1FY27 letter (proforma base)"
+      },
+      {
+       "type": "column",
+       "title": "Margin after rent: 9.1% to 13.3% in a year",
+       "unit": "Pre-IndAS 116 EBITDA margin (%)",
+       "x": [
+        "Q1FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "India",
+         "values": [
+          13.3,
+          15.4
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "International",
+         "values": [
+          4.5,
+          10.6
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Consolidated",
+         "values": [
+          9.1,
+          13.3
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q1FY27 shareholders' letter"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "EPS: ₹2.84 in FY26, ₹{{F.eps.2|n2}} in FY29E",
+       "unit": "EPS (₹)",
+       "x": "fin.labels",
+       "from": "FY24",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EPS",
+         "ref": "fin.eps",
+         "fmt": "n2"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in (after minorities); GAM estimates FY27-29E"
+      },
+      {
+       "type": "line",
+       "title": "Forward EV/EBITDA: 37.5x FY28E now vs a 30.6x median since listing",
+       "unit": "EV ÷ next full-year EBITDA (x)",
+       "x": [
+        "2025-11-10",
+        "2025-11-11",
+        "2025-11-12",
+        "2025-11-13",
+        "2025-11-14",
+        "2025-11-17",
+        "2025-11-18",
+        "2025-11-19",
+        "2025-11-20",
+        "2025-11-21",
+        "2025-11-24",
+        "2025-11-25",
+        "2025-11-26",
+        "2025-11-27",
+        "2025-11-28",
+        "2025-12-01",
+        "2025-12-02",
+        "2025-12-03",
+        "2025-12-04",
+        "2025-12-05",
+        "2025-12-08",
+        "2025-12-09",
+        "2025-12-10",
+        "2025-12-11",
+        "2025-12-12",
+        "2025-12-15",
+        "2025-12-16",
+        "2025-12-17",
+        "2025-12-18",
+        "2025-12-19",
+        "2025-12-22",
+        "2025-12-23",
+        "2025-12-24",
+        "2025-12-26",
+        "2025-12-29",
+        "2025-12-30",
+        "2025-12-31",
+        "2026-01-01",
+        "2026-01-02",
+        "2026-01-05",
+        "2026-01-06",
+        "2026-01-07",
+        "2026-01-08",
+        "2026-01-09",
+        "2026-01-12",
+        "2026-01-13",
+        "2026-01-14",
+        "2026-01-16",
+        "2026-01-19",
+        "2026-01-20",
+        "2026-01-21",
+        "2026-01-22",
+        "2026-01-23",
+        "2026-01-27",
+        "2026-01-28",
+        "2026-01-29",
+        "2026-01-30",
+        "2026-02-01",
+        "2026-02-02",
+        "2026-02-03",
+        "2026-02-04",
+        "2026-02-05",
+        "2026-02-06",
+        "2026-02-09",
+        "2026-02-10",
+        "2026-02-11",
+        "2026-02-12",
+        "2026-02-13",
+        "2026-02-16",
+        "2026-02-17",
+        "2026-02-18",
+        "2026-02-19",
+        "2026-02-20",
+        "2026-02-23",
+        "2026-02-24",
+        "2026-02-25",
+        "2026-02-26",
+        "2026-02-27",
+        "2026-03-02",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-23",
+        "2026-03-24",
+        "2026-03-25",
+        "2026-03-27",
+        "2026-03-30",
+        "2026-04-01",
+        "2026-04-02",
+        "2026-04-06",
+        "2026-04-07",
+        "2026-04-08",
+        "2026-04-09",
+        "2026-04-10",
+        "2026-04-13",
+        "2026-04-15",
+        "2026-04-16",
+        "2026-04-17",
+        "2026-04-20",
+        "2026-04-21",
+        "2026-04-22",
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30",
+        "2026-05-04",
+        "2026-05-05",
+        "2026-05-06",
+        "2026-05-07",
+        "2026-05-08",
+        "2026-05-11",
+        "2026-05-12",
+        "2026-05-13",
+        "2026-05-14",
+        "2026-05-15",
+        "2026-05-18",
+        "2026-05-19",
+        "2026-05-20",
+        "2026-05-21",
+        "2026-05-22",
+        "2026-05-25",
+        "2026-05-26",
+        "2026-05-27",
+        "2026-05-29",
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-19",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          28.2,
+          29.1,
+          29.5,
+          28,
+          28.6,
+          30.2,
+          29.7,
+          30,
+          29.2,
+          29.2,
+          29,
+          29,
+          28.3,
+          28.5,
+          28.7,
+          30.1,
+          29.8,
+          28.7,
+          28.4,
+          29.2,
+          28.5,
+          28.6,
+          28.4,
+          28.4,
+          28.4,
+          28.3,
+          28.3,
+          28.3,
+          28.7,
+          32.8,
+          32.7,
+          32.6,
+          31.7,
+          31.6,
+          31.7,
+          32.3,
+          31.6,
+          30.7,
+          31.7,
+          31.2,
+          31.2,
+          31.8,
+          31.3,
+          32.1,
+          31.9,
+          31.3,
+          32.1,
+          31.6,
+          31.1,
+          30.1,
+          30.6,
+          30.9,
+          29.7,
+          30.4,
+          30.6,
+          31.3,
+          32,
+          30.7,
+          31.1,
+          32.2,
+          31.7,
+          31.3,
+          32,
+          32.5,
+          33.3,
+          32.8,
+          36,
+          35.2,
+          35.1,
+          33.7,
+          34.1,
+          33.6,
+          34.3,
+          34,
+          34,
+          35.5,
+          36,
+          37.7,
+          36.9,
+          36.8,
+          36.8,
+          36.5,
+          35.6,
+          36.1,
+          35,
+          35.4,
+          35.1,
+          35,
+          35.2,
+          35.9,
+          35.2,
+          36.9,
+          35.2,
+          35.2,
+          34.7,
+          35.7,
+          35,
+          27.4,
+          26.5,
+          27.5,
+          27.4,
+          27.6,
+          28.1,
+          29.9,
+          30,
+          29.4,
+          29.5,
+          29.2,
+          29.1,
+          29.6,
+          29.7,
+          29.4,
+          29.2,
+          28.7,
+          29.4,
+          28.4,
+          28.2,
+          28.2,
+          27.7,
+          27.5,
+          26.6,
+          26.7,
+          26.8,
+          26,
+          26,
+          25.9,
+          25.6,
+          26,
+          26.9,
+          26.6,
+          27.2,
+          28.1,
+          27.5,
+          27.9,
+          28.5,
+          28.6,
+          28.4,
+          28.7,
+          28.2,
+          28,
+          27.7,
+          27.6,
+          27.5,
+          27.3,
+          27.4,
+          27,
+          27.3,
+          27.5,
+          27.5,
+          27.6,
+          28,
+          28.3,
+          28.1,
+          28.2,
+          27.8,
+          27.6,
+          28.1,
+          29,
+          29,
+          29.1,
+          29.3,
+          29.3,
+          29.3,
+          29.9,
+          29.7,
+          29.5,
+          29.4,
+          29.8,
+          29.2,
+          29.4,
+          29.6,
+          30,
+          30.6,
+          30.5,
+          30.4,
+          31.3,
+          30.3,
+          30.6,
+          30.8,
+          30.7,
+          31.1,
+          31,
+          31.3,
+          30.9,
+          31.2,
+          32.1,
+          32.2,
+          32.1,
+          32.7,
+          33.5,
+          33.3,
+          34.4,
+          35,
+          35.9,
+          36.2,
+          36.1,
+          35.9,
+          35.5,
+          35.1,
+          34.8,
+          36.3,
+          36.4,
+          36.7,
+          36.8,
+          37.5,
+          37.7,
+          38.1,
+          38,
+          38,
+          37.4,
+          37.6,
+          37,
+          37.3,
+          38.8,
+          37.5,
+          37.9,
+          37.6,
+          37,
+          37.3,
+          35.9,
+          37,
+          37.5
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "lines": [
+        {
+         "v": 27,
+         "text": "Our multiple: 27x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in daily prices; FY27-28E EBITDA GAM estimates"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Share price: ₹402 IPO, ₹685.05 on 30-Sep-2026",
+       "unit": "₹ per share (daily close)",
+       "x": [
+        "2025-11-10",
+        "2025-11-11",
+        "2025-11-12",
+        "2025-11-13",
+        "2025-11-14",
+        "2025-11-17",
+        "2025-11-18",
+        "2025-11-19",
+        "2025-11-20",
+        "2025-11-21",
+        "2025-11-24",
+        "2025-11-25",
+        "2025-11-26",
+        "2025-11-27",
+        "2025-11-28",
+        "2025-12-01",
+        "2025-12-02",
+        "2025-12-03",
+        "2025-12-04",
+        "2025-12-05",
+        "2025-12-08",
+        "2025-12-09",
+        "2025-12-10",
+        "2025-12-11",
+        "2025-12-12",
+        "2025-12-15",
+        "2025-12-16",
+        "2025-12-17",
+        "2025-12-18",
+        "2025-12-19",
+        "2025-12-22",
+        "2025-12-23",
+        "2025-12-24",
+        "2025-12-26",
+        "2025-12-29",
+        "2025-12-30",
+        "2025-12-31",
+        "2026-01-01",
+        "2026-01-02",
+        "2026-01-05",
+        "2026-01-06",
+        "2026-01-07",
+        "2026-01-08",
+        "2026-01-09",
+        "2026-01-12",
+        "2026-01-13",
+        "2026-01-14",
+        "2026-01-16",
+        "2026-01-19",
+        "2026-01-20",
+        "2026-01-21",
+        "2026-01-22",
+        "2026-01-23",
+        "2026-01-27",
+        "2026-01-28",
+        "2026-01-29",
+        "2026-01-30",
+        "2026-02-01",
+        "2026-02-02",
+        "2026-02-03",
+        "2026-02-04",
+        "2026-02-05",
+        "2026-02-06",
+        "2026-02-09",
+        "2026-02-10",
+        "2026-02-11",
+        "2026-02-12",
+        "2026-02-13",
+        "2026-02-16",
+        "2026-02-17",
+        "2026-02-18",
+        "2026-02-19",
+        "2026-02-20",
+        "2026-02-23",
+        "2026-02-24",
+        "2026-02-25",
+        "2026-02-26",
+        "2026-02-27",
+        "2026-03-02",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-23",
+        "2026-03-24",
+        "2026-03-25",
+        "2026-03-27",
+        "2026-03-30",
+        "2026-04-01",
+        "2026-04-02",
+        "2026-04-06",
+        "2026-04-07",
+        "2026-04-08",
+        "2026-04-09",
+        "2026-04-10",
+        "2026-04-13",
+        "2026-04-15",
+        "2026-04-16",
+        "2026-04-17",
+        "2026-04-20",
+        "2026-04-21",
+        "2026-04-22",
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30",
+        "2026-05-04",
+        "2026-05-05",
+        "2026-05-06",
+        "2026-05-07",
+        "2026-05-08",
+        "2026-05-11",
+        "2026-05-12",
+        "2026-05-13",
+        "2026-05-14",
+        "2026-05-15",
+        "2026-05-18",
+        "2026-05-19",
+        "2026-05-20",
+        "2026-05-21",
+        "2026-05-22",
+        "2026-05-25",
+        "2026-05-26",
+        "2026-05-27",
+        "2026-05-29",
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-19",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Price",
+         "values": [
+          403.1,
+          415.35,
+          421.2,
+          400.15,
+          409.05,
+          431.45,
+          424.8,
+          428.75,
+          416.7,
+          417.45,
+          414.5,
+          414.95,
+          405,
+          407.7,
+          410.45,
+          430.5,
+          425.95,
+          410.15,
+          405.55,
+          417.2,
+          407.9,
+          408.45,
+          405.25,
+          405.95,
+          405.95,
+          405.2,
+          405.1,
+          404.3,
+          410.05,
+          467.7,
+          467.05,
+          465.8,
+          452,
+          451.05,
+          452.35,
+          460.8,
+          450.7,
+          438.5,
+          452.15,
+          445.25,
+          445.15,
+          453.2,
+          447.4,
+          457.75,
+          455.2,
+          446.95,
+          457.7,
+          451.2,
+          443.4,
+          429.75,
+          436.9,
+          440.65,
+          423.95,
+          434.25,
+          436.65,
+          446.2,
+          457.35,
+          437.95,
+          444.15,
+          459.3,
+          452.65,
+          447,
+          457.3,
+          463.95,
+          475.4,
+          467.6,
+          513,
+          502.2,
+          499.75,
+          480.5,
+          486.35,
+          479.9,
+          489.4,
+          485.2,
+          484.5,
+          505.45,
+          512.75,
+          537.4,
+          525.85,
+          523.8,
+          524.7,
+          520.1,
+          506.75,
+          514.55,
+          499.1,
+          504.55,
+          499.8,
+          498.7,
+          501.15,
+          511.25,
+          501.6,
+          526.2,
+          501.5,
+          502,
+          495.3,
+          509.35,
+          499.3,
+          501.85,
+          484.95,
+          503.05,
+          500.65,
+          505.6,
+          514.4,
+          547.55,
+          549.2,
+          538.1,
+          540.05,
+          534.55,
+          532.7,
+          541,
+          543.95,
+          537.9,
+          533.85,
+          524.4,
+          537,
+          519.95,
+          515.95,
+          515.6,
+          506.7,
+          503.25,
+          487.75,
+          489.25,
+          489.85,
+          475.95,
+          476.95,
+          474.35,
+          469.25,
+          476.25,
+          492.7,
+          486.85,
+          498.5,
+          513.95,
+          503.75,
+          510.75,
+          521,
+          523.85,
+          518.95,
+          524.2,
+          516.15,
+          513.05,
+          506.45,
+          504.65,
+          503.4,
+          500.15,
+          502.25,
+          494.1,
+          499.35,
+          503.05,
+          503.65,
+          505.05,
+          511.95,
+          517,
+          513.7,
+          516.35,
+          508.9,
+          505.85,
+          514.95,
+          530.55,
+          530.4,
+          533,
+          536.15,
+          535.6,
+          536.55,
+          545.95,
+          543.65,
+          539.15,
+          537.9,
+          544.35,
+          533.65,
+          537.2,
+          541.7,
+          549.05,
+          559.35,
+          557.4,
+          555.9,
+          572,
+          554.65,
+          559.65,
+          563.2,
+          561.4,
+          568.35,
+          567.5,
+          572.65,
+          565,
+          569.7,
+          586.15,
+          589.2,
+          586.45,
+          596.9,
+          611.85,
+          607.6,
+          628.4,
+          639.6,
+          654.8,
+          661.4,
+          659.75,
+          655.95,
+          647.15,
+          640.6,
+          636.15,
+          662.4,
+          663.75,
+          668.9,
+          672.45,
+          684.9,
+          688,
+          695.75,
+          693.9,
+          693.3,
+          681.75,
+          685.4,
+          675.85,
+          679.95,
+          707.2,
+          683.85,
+          691.45,
+          686.7,
+          676,
+          680.25,
+          655.2,
+          674.6,
+          685.05
+         ],
+         "fmt": "inr",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "lines": [
+        {
+         "v": 402,
+         "text": "IPO ₹402",
+         "color": "#8c8c8c"
+        }
+       ],
+       "source": "Screener.in; NSE close on 30-Sep-2026"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (post-results notes)",
+       "unit": "₹ per share; CMP ₹685.05",
+       "x": [
+        "Ambit Capital (8-Sep)",
+        "HSBC (13-Aug)",
+        "Citi (13-Aug)",
+        "Macquarie (13-Aug)",
+        "Jefferies (13-Aug)",
+        "Equirus (12-Aug)",
+        "Goldman Sachs (13-Aug)",
+        "Morgan Stanley (30-Sep)",
+        "Emkay Global (13-Aug)",
+        "ICICI Securities (21-Aug)",
+        "Motilal Oswal (9-Sep)",
+        "Nomura (31-Aug)",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          496,
+          575,
+          650,
+          675,
+          680,
+          698,
+          715,
+          718,
+          725,
+          750,
+          800,
+          888,
+          570
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Dated notes 12-Aug to 30-Sep-2026 (see the street table); median ₹707; GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What it does",
+   "kicker": "The business",
+   "title": "An eye-test-to-delivery machine: it makes its own glasses and sells them through 3,459 stores and an app",
+   "blocks": [
+    {
+     "p": "Omnichannel eyewear company that designs, makes and sells prescription glasses, sunglasses, contact lenses and accessories. Owns the chain from frame and lens manufacturing (Bhiwadi, Rajasthan; Hyderabad plant under construction; 50% Thailand frame JV) and a central supply chain to 3,459 stores (Jun-2026: 2,725 India, 734 International), an app and website, home eye tests and remote optometry. Brands: Lenskart, John Jacobs, Vincent Chase, Owndays (Japan, acquired 2022), Meller (Spain, acquired FY26), Hustlr. International = Japan, Singapore and South-East Asia, the Middle East, Spain (Meller) and others (14 international markets, Q4FY26 letter). In FY26 revenue was ₹8,814 cr: India ₹5,260 cr (59%) and International ₹3,606 cr (41%). FY26: 23.8 mn eye tests, ~29 mn India eyewear units, 8.8 mn Lenskart Gold members, 20,000+ employees; ~50% of India revenue digitally influenced (55% in Q1FY27)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The two segments (FY26)",
+      "head": [
+       "Segment",
+       "Revenue (₹ cr)",
+       "Growth",
+       "Segment EBITDA (₹ cr, after Ind AS 116)",
+       "Margin",
+       "Stores (Jun-2026)",
+       "What it is"
+      ],
+      "wide": [
+       6
+      ],
+      "rows": [
+       [
+        "India",
+        "5,260",
+        "+29.5%",
+        "1,070",
+        "20.3%",
+        "2,725",
+        "Lenskart, John Jacobs, Vincent Chase, Hustlr, Owndays lenses; 2,609 stores at Mar-2026, mostly company-owned; online ~50-55% \"digitally influenced\"; Indian plants also supply International"
+       ],
+       [
+        "International",
+        "3,606",
+        "+36.7%",
+        "691",
+        "19.2%",
+        "734",
+        "Owndays (Japan and Asia), Lenskart in Singapore, Thailand, Indonesia and the Middle East (41 stores in FY26), Meller (Spain, sunglasses); 14 markets"
+       ]
+      ],
+      "source": "AR FY26 note 41 (segment information); Q1FY27 shareholders' letter and call (12-Aug-2026)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "donut",
+       "title": "India is 59% of revenue, International 41%",
+       "unit": "% of FY26 segment revenue",
+       "x": [
+        "India",
+        "International"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          59.3,
+          40.7
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "source": "AR FY26 note 41"
+      },
+      {
+       "type": "stacked",
+       "title": "Stores: 1,959 (FY23) to 3,459 (Jun-2026), India-led",
+       "unit": "Stores (period end)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "India",
+         "values": [
+          1416,
+          1785,
+          2067,
+          2609,
+          2725
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "International",
+         "values": [
+          543,
+          604,
+          656,
+          718,
+          734
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "RHP via ICICI Direct IPO note (30-Oct-2025) for FY23-25; Q4FY26 shareholders' letter (20-May-2026); Q1FY27 shareholders' letter and call (12-Aug-2026)"
+      }
+     ]
+    },
+    {
+     "callout": "**How it makes money:** Lenskart earns a ~70% product margin (revenue less the cost of frames and lenses) because it designs, makes and sells its own glasses: the Bhiwadi plant makes frames and lenses for India and much of International, and a central lab ships made-to-order glasses next day in 78 cities. From that margin it pays staff (optometrists in every store), rent and marketing. Every eye test is the top of the funnel: 23.8 mn in FY26, about half of them first-ever tests in India. Gold, a paid membership (8.8 mn members, ₹200 cr of fees in FY26), keeps customers coming back."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "Built by acquisition as much as by stores: Owndays, Meller, Dealskart, then a ₹7,278 cr IPO",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Corporate history and what it did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "2008",
+        "Incorporated in Delhi; founders Peyush Bansal, Neha Bansal, Amit Chaudhary and Sumeet Kapahi (today's promoters)",
+        "Online first, then stores, then global"
+       ],
+       [
+        "FY23",
+        "Majority stake in Owndays, a Japan-headquartered eyewear chain",
+        "Revenue +152% to ₹3,788 cr; goodwill and intangibles ~₹2,700 cr; FY23-24 losses on amortisation and integration"
+       ],
+       [
+        "FY25",
+        "Further 4.40% of Owndays bought; deferred consideration revalued",
+        "₹167 cr non-cash gain in FY25 other income: FY25 profit ₹296 cr reported, ~₹130 cr underlying"
+       ],
+       [
+        "FY25-26",
+        "Franchise network bought in: master franchisee Dealskart consolidated; FoFo stores converted to company stores",
+        "Commissions fell from ₹733 cr (FY25) to ₹181 cr (FY26); staff costs and rent rose; \"proforma\" figures restate the prior year"
+       ],
+       [
+        "FY26",
+        "Meller (Spain, sunglasses) and GeoIQ acquired; 50% Thailand frame JV; ₹421 cr spent on acquisitions",
+        "International growth +37% in FY26 includes Meller"
+       ],
+       [
+        "10-Nov-2025",
+        "IPO at ₹402: fresh issue ₹2,150 cr (5.35 cr shares) and offer for sale ₹5,128 cr (12.76 cr shares)",
+        "Shares 173.6 cr at Mar-2026; ₹1,770 cr of IPO cash unspent at Mar-2026 (in deposits)"
+       ],
+       [
+        "May-2026",
+        "Six-month lock-up on pre-IPO shareholders ended",
+        "Institutions rose from ~20% to ~36% of the register by Jun-2026 as pre-IPO holders sold (see ownership)"
+       ]
+      ],
+      "source": "AR FY26 (directors' report, notes 25, 30, 45, 52); RHP via ICICI Direct IPO note; Screener.in; GAM Research"
+     }
+    },
+    {
+     "callout": "**Why it matters:** about 40% of revenue and most of the goodwill came through acquisitions, and the FY25-26 franchise buy-back changed the cost structure (commissions down, staff and rent up). The clean, like-for-like history is short: the company itself presents \"proforma\" numbers to bridge it. Lenskart has shown it can integrate (Owndays' margin is up, Meller has doubled), but acquisitions remain part of the plan."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "India needs 78 cr pairs of eyes corrected and only 35% of them wear glasses: a market that grows by being created",
+   "blocks": [
+    {
+     "p": "The company's own build of the Indian market (AR FY26, using Redseer and government data): 145 cr people, 53% needing vision correction (77.7 cr), only 35% of them actually using correction (27.4 cr), 0.88 pairs a year each: 24.2 cr pairs at ~₹2,370 = ₹573 bn of prescription eyewear in FY25, ₹788 bn including contact lenses and sunglasses (₹894 bn estimated for FY26). By FY30 it projects 62% needing correction, 41% penetration, ₹1,478 bn. India imported 44 cr ophthalmic lenses in FY25 (~22 cr pairs), up 11% a year in volume since FY19 (DGCIS)."
+    },
+    {
+     "p": "Most of the market is still unorganised: neighbourhood opticians who buy frames and lenses from wholesalers and test eyes by hand. Lenskart had a 4-6% share of Indian prescription eyewear in FY25 (RHP via ICICI Direct, 30-Oct-2025). Abroad, its markets (South-East Asia, Japan, Middle East) were a ₹1,716 bn eyewear market in FY26, growing 7-10% a year in Japan, 10-14% in South-East Asia and 15-20% in the Middle East for organised and direct-to-consumer players; in Japan the direct-to-consumer share rose from 25% to 31% in five years and Owndays is the third-largest such chain with 287 stores against 500+ each for the top two (AR FY26)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "India eyewear market: the company's build-up",
+      "head": [
+       "Building block",
+       "FY25E",
+       "FY30E"
+      ],
+      "rows": [
+       [
+        "Population (mn)",
+        "1,454",
+        "1,516"
+       ],
+       [
+        "% needing vision correction",
+        "53%",
+        "62%"
+       ],
+       [
+        "People needing correction (mn)",
+        "777",
+        "943"
+       ],
+       [
+        "Penetration (% actually using)",
+        "35%",
+        "41%"
+       ],
+       [
+        "Pairs sold a year (mn)",
+        "242",
+        "389"
+       ],
+       [
+        "Average selling price (₹ per pair)",
+        "2,370",
+        "2,797"
+       ],
+       [
+        "Prescription eyewear (₹ bn)",
+        "573",
+        "1,080"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Eyewear incl. contact lenses and sunglasses (₹ bn)**",
+         "**788**",
+         "**1,478**"
+        ]
+       }
+      ],
+      "source": "AR FY26 (\"Sizing the opportunity\", Redseer and DGCIS data). Company projections, not independent forecasts."
+     }
+    },
+    {
+     "callout": "**So what:** the market grows ~13-14% a year in the company's own numbers, so Lenskart's 30% India growth comes mostly from taking share from unorganised opticians and from creating first-time buyers through free eye tests. That is a good sign (share gains have a long runway at 4-6% share) and a warning (growth depends on Lenskart keeping its cost and service edge as it moves into smaller towns)."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Does the tailwind reach the company?",
+   "title": "Yes: Lenskart is the main channel through which India's eyewear market is being organised",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Tailwind test",
+      "head": [
+       "Tailwind",
+       "Reaches Lenskart?",
+       "Evidence"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Rising myopia and screen time",
+        "Yes",
+        "Myopia-control lens volumes +111% in Q1FY27; ~70% of children tested need correction (company)"
+       ],
+       [
+        "First-time eye tests in small towns",
+        "Yes",
+        "63 lakh India eye tests in Q1FY27 (+42.7%), about half first-ever; 254 of FY26's 542 India stores in Tier 2+ towns; 786 remote-optometry stores"
+       ],
+       [
+        "Premiumisation",
+        "Yes",
+        "₹10,000+ orders 20.5% of India revenue in FY26; India ASP ₹1,856 (+6.4%) in Q1FY27; Owndays premium lenses ~₹1,500 cr of sales"
+       ],
+       [
+        "Organised retail and omnichannel",
+        "Yes",
+        "App downloads 12 cr; 55% of India sales digitally influenced; next-day delivery in 78 cities"
+       ],
+       [
+        "Smart glasses",
+        "Not yet",
+        "B by Lenskart launched Q4FY26 (80,000+ sign-ups by Aug-2026); management: \"revenue upside is not factored in the near term\""
+       ],
+       [
+        "Weak rupee vs RMB/yen",
+        "Against",
+        "Imported frames and components cost more; offset so far by in-house manufacturing (product margin 70.3% in Q1FY27); International revenue gains in rupees"
+       ]
+      ],
+      "source": "Q4FY26 shareholders' letter (20-May-2026); Q1FY27 shareholders' letter and call (12-Aug-2026); GAM Research"
+     }
+    },
+    {
+     "callout": "**Verdict:** the structural tailwind (more people needing glasses, more of them buying from organised chains) clearly reaches Lenskart: it is the largest organised player and is adding ~600 stores a year. The question is not demand but price: how much of this the share price already discounts (see valuation)."
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "nav": "India",
+   "kicker": "Segment 1",
+   "title": "India: revenue +30%, stores +26% a year, and margins still rising (15.4% after rent in Q1FY27)",
+   "blocks": [
+    {
+     "p": "India revenue rose from ₹4,061 cr in FY25 to ₹5,260 cr in FY26 (+29.5%) and ₹1,531 cr in Q1FY27 (+30.7%). Growth comes from three places: same-store sales (SSSG 20.8% in FY26, 24.2% in Q4FY26, 18.3% in Q1FY27), new stores (542 net in FY26, 116 in Q1FY27, two-thirds in Tier 2+ towns) and price/mix (India ASP ₹1,856 in Q1FY27, +6.4%). Units grew 22.8% in Q1FY27; eye tests 42.7%. Same-pin-code growth (SPSG, 24.3%) running ~6 points above SSSG is the company's evidence that new stores add demand rather than cannibalise."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "India segment EBITDA margin: 15.5% (Q4FY25) to 21.4% (Q1FY27)",
+       "unit": "India segment EBITDA ÷ revenue (%), after Ind AS 116",
+       "x": [
+        "Q4FY25",
+        "Q1FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "After Ind AS 116 (before rent)",
+         "values": [
+          15.5,
+          19.4,
+          21.1,
+          21.4
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Pre-Ind AS 116 (after rent)",
+         "values": [
+          9,
+          13.3,
+          15.3,
+          15.4
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 shareholders' letter (20-May-2026); Q1FY27 shareholders' letter and call (12-Aug-2026). Q4FY25 and Q1FY26 are proforma (prior-year) figures quoted in those letters."
+      },
+      {
+       "type": "column",
+       "title": "Our India store build: ~560 stores a year, revenue per store +5%",
+       "unit": "India stores at year end",
+       "x": [
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "India stores",
+         "values": [
+          2067,
+          2609,
+          3149,
+          3709,
+          4289
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company (FY25-26); GAM estimates"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "India build: stores x revenue per store (our forecast)",
+      "head": [
+       "",
+       "FY25",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Net new stores",
+        "282",
+        "542",
+        "540",
+        "560",
+        "580"
+       ],
+       [
+        "Stores at year end",
+        "2,067",
+        "2,609",
+        "3,149",
+        "3,709",
+        "4,289"
+       ],
+       [
+        "Revenue per average store (₹ cr, incl. online)",
+        "2.11",
+        "2.25",
+        "2.36",
+        "2.48",
+        "2.59"
+       ],
+       [
+        "India revenue (₹ cr)",
+        "4,061",
+        "5,260",
+        "6,786",
+        "8,482",
+        "10,348"
+       ],
+       [
+        "growth",
+        "–",
+        "+29.5%",
+        "+29.1%",
+        "+25.1%",
+        "+22.1%"
+       ],
+       [
+        "Segment EBITDA margin (before ESOP)",
+        "12.3%",
+        "20.5%",
+        "22.3%",
+        "23.3%",
+        "24.2%"
+       ]
+      ],
+      "source": "AR FY26 note 41; Q4FY26 shareholders' letter (20-May-2026); GAM estimates. Our model grows India revenue at +29% / +25% / +22%; the store build reproduces it within 1.5 points (checked in LENSKART.ctx.js)."
+     }
+    },
+    {
+     "callout": "**Our view:** India is the engine and it is accelerating in stores but slowing in same-store growth (24.2% in Q4FY26, 18.3% in Q1FY27). New Tier 2+ stores do ₹16-18 lakh a month (₹2 cr a year), slightly below the India average of ~₹2.25 cr including online. We assume revenue per store grows ~5% a year: lower than recent SSSG because every year a larger share of the base is young, smaller-town stores."
+    }
+   ]
+  },
+  {
+   "id": "international",
+   "nav": "International",
+   "kicker": "Segment 2",
+   "title": "International: profitable at last, 10.6% margin after rent in Q1FY27, with few new stores",
+   "blocks": [
+    {
+     "p": "International revenue rose from ₹2,639 cr (FY25) to ₹3,606 cr (FY26, +36.7%, with Meller added and rupee weakness) and ₹1,203 cr in Q1FY27 (+38%; ~29% in constant currency). Only 61 net new stores were added in FY26 and 16 in Q1FY27: growth is same-store and online. Japan (Owndays) grew mainly through same stores with better unit economics; Singapore, Thailand and the UAE are growing online; the Middle East had 41 stores at Mar-2026; Meller (Spanish sunglasses brand, ~US$35 mn at acquisition) is tracking to ~US$70 mn and is now in 1,000+ Lenskart stores. Product margin is higher than India's (77.1% vs 64.2% in Q1FY27) because ASPs are ~3x (₹5,267 vs ₹1,856)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "International margin after rent: 3.6% (FY25), 7.0% (FY26), 10.6% (Q1FY27)",
+       "unit": "Pre-Ind AS 116 EBITDA margin (%)",
+       "x": [
+        "FY25",
+        "FY26",
+        "Q4FY25",
+        "Q1FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "International (after rent)",
+         "values": [
+          3.6,
+          7,
+          8.1,
+          4.5,
+          9.2,
+          10.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 shareholders' letter (20-May-2026); Q1FY27 shareholders' letter and call (12-Aug-2026)"
+      },
+      {
+       "type": "line",
+       "title": "Segment EBITDA margins (before ESOP): ours for FY27-29E",
+       "unit": "Segment EBITDA ÷ revenue (%), after Ind AS 116",
+       "x": [
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "India",
+         "values": [
+          12.3,
+          20.5,
+          22.3,
+          23.3,
+          24.2
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "International",
+         "values": [
+          17.6,
+          19.3,
+          21,
+          21.8,
+          22.5
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 10,
+       "max": 26,
+       "source": "AR FY26 note 41 (ESOP added back); GAM estimates"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** management asks investors to read International on a trailing basis because Q1 carries the sunglasses season (units +58% in Q1FY27). We take 21.0% for FY27E before ESOP (FY26 19.3%; Q1FY27 21.9%) and add ~0.7-0.8 points a year. The risk is currency: International is ~41% of revenue and earns in yen, Singapore dollars and dirhams, so a stronger rupee would cut reported growth."
+    }
+   ]
+  },
+  {
+   "id": "margins",
+   "nav": "Margins: before and after rent",
+   "kicker": "Unit economics",
+   "title": "Two margins tell the story: 21.7% before rent, 13.3% after rent in Q1FY27, against a ~25% long-term aim",
+   "blocks": [
+    {
+     "p": "Under Ind AS 116, store rent is not an operating expense: it becomes depreciation of a \"right-of-use\" asset plus interest on a lease liability. Lenskart's reported EBITDA (21.7% in Q1FY27) therefore excludes rent; its \"EBITDA pre-IndAS 116\" (13.3%) deducts it. The gap (~8 points) is the rent bill. Management's long-term aim of ~25% is on the after-rent basis, so even our FY29E (EBITDA {{F.ebitdaMargin.2|pct}} before rent) implies only ~16-17% after rent."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 margins by segment",
+      "head": [
+       "",
+       "India",
+       "International",
+       "Consolidated"
+      ],
+      "rows": [
+       [
+        "Revenue (₹ cr)",
+        "1,531",
+        "1,203",
+        "2,714"
+       ],
+       [
+        "Product margin",
+        "64.2%",
+        "77.1%",
+        "70.3%"
+       ],
+       [
+        "EBITDA after Ind AS 116 (before rent)",
+        "₹328 cr / 21.4%",
+        "₹263 cr / 21.9%",
+        "₹588 cr / 21.7%"
+       ],
+       [
+        "EBITDA pre-Ind AS 116 (after rent)",
+        "₹236 cr / 15.4%",
+        "₹127 cr / 10.6%",
+        "₹361 cr / 13.3%"
+       ],
+       [
+        "Same quarter a year ago (after rent)",
+        "13.3%",
+        "4.5%",
+        "9.1%"
+       ]
+      ],
+      "source": "Q1FY27 shareholders' letter and call (12-Aug-2026)"
+     }
+    },
+    {
+     "bullets": [
+      "**Product margin** (revenue less cost of goods) rose from 68.7% to 70.3% in Q1FY27 despite a weaker rupee against the renminbi: in-house frames and lenses (Bhiwadi, Thailand JV, Hyderabad from ~FY28) and premium mix.",
+      "**Employee cost** is the largest line (23% of FY26 revenue): optometrists and store staff. It rose with company stores (franchise buy-back) and new Tier 2+ stores are staffed before revenue ramps.",
+      "**Marketing** fell to 4.8% of India revenue in Q1FY27 (5.7% a year earlier); International stays ~9% as brands are built.",
+      "**Rent** fell to 5.8% of India revenue in Q4FY26 (6.5% a year earlier) as SSSG outran ~5% rent escalations; International 12.2%."
+     ]
+    },
+    {
+     "callout": "**So what:** most of the margin gain since FY24 is operating leverage on a largely fixed store and head-office base. It continues only if same-store growth stays well above rent and wage inflation. With SSSG falling from 24% to 18% and openings shifting to smaller towns, we model ~1 point of segment margin a year, not the ~4 points of FY26."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "A real but narrow moat: scale in manufacturing and eye tests, not in brand pricing power",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Vertical integration (cost)",
+       "Strong",
+       "Own frame and lens plants, central lab, ~70% product margin; Hyderabad (~50 mn pairs a year) to add capacity",
+       "Lets it sell a ₹500 pair profitably and still earn more on ₹10,000+ orders"
+      ],
+      [
+       "Eye-test funnel and data",
+       "Strong",
+       "23.8 mn tests in FY26, half first-time; remote optometry in 786 stores; AI self-test in pilots",
+       "Unorganised opticians cannot match the reach; tests feed sales"
+      ],
+      [
+       "Store network and logistics",
+       "Moderate-Strong",
+       "3,459 stores; next-day delivery in 78 cities; stores double as service and pickup points",
+       "Hard to replicate quickly, but capital is the main barrier and well-funded rivals can build it"
+      ],
+      [
+       "Brand and loyalty",
+       "Moderate",
+       "Gold 9.35 mn members; NPS 81.4 (Q4FY26); ~50% word-of-mouth acquisition",
+       "Strong consideration, but eyewear buyers are price-aware; Lenskart passes mix gains back in value campaigns"
+      ],
+      [
+       "Pricing power",
+       "Weak-Moderate",
+       "India ASP flat at ~₹1,760-1,865 for years; growth is volume (~25%)",
+       "The moat protects cost, not price"
+      ],
+      [
+       "International",
+       "Moderate",
+       "Owndays #3 direct-to-consumer chain in Japan; Meller brand; margins rising",
+       "Sub-scale against the top two Japanese chains"
+      ]
+     ],
+     "head": [
+      "Factor",
+      "Score",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Competitive advantage scorecard",
+     "source": "Q4FY26 shareholders' letter (20-May-2026); Q1FY27 shareholders' letter and call (12-Aug-2026); AR FY26; GAM Research"
+    },
+    {
+     "callout": "**Verdict:** Lenskart has a genuine cost and reach advantage over unorganised opticians, which is where its share gains come from. It is a narrow moat in a fragmented market: it does not give pricing power, and returns depend on executing ~600 openings a year without hurting service. That is enough to justify a premium retail multiple; it is not a platform-style moat."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue up 2.3x in three years and EBITDA margin from 7% to 20%: Lenskart has crossed from losses to scale profits",
+   "blocks": [
+    {
+     "p": "Revenue went from ₹3,788 cr in FY23 (the first year with Owndays, which lifted revenue 152%) to ₹8,814 cr in FY26, 32.5% a year. EBITDA rose from ₹264 cr to ₹1,754 cr and the margin from 7.0% to 19.9% (after Ind AS 116, i.e. before rent; the company's own pre-IndAS 116 EBITDA, after rent, passed ₹1,000 cr in FY26, ~11% of revenue). Net profit after minorities went from a ₹64 cr loss in FY23 to ₹494 cr in FY26; FY25's ₹296 cr includes a ₹167 cr non-cash gain on the Owndays deferred consideration, so the underlying FY25 profit was ~₹130 cr. Three things drove the margin: product margin (revenue less materials) up from 64% to 71% as frames and lenses moved in-house; the switch from franchise (FoFo) to company stores (CoCo), which cut commissions from ₹733 cr to ₹181 cr while staff costs rose; and operating leverage on stores, marketing and head office."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: ₹3,788 cr in FY23, ₹8,814 cr in FY26",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY23",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; net profit after minorities), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit: a ₹64 cr loss in FY23, ₹494 cr in FY26",
+       "unit": "Net profit after minorities (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY23",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; net profit after minorities), GAM Research. FY25 includes a ₹167 cr non-cash Owndays deferred-consideration gain."
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 7.0% in FY23, 19.9% in FY26",
+       "unit": "EBITDA margin, after Ind AS 116 (%)",
+       "x": "fin.labels",
+       "from": "FY23",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 25,
+       "source": "Company filings, Screener.in (consolidated; net profit after minorities), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Materials fell from 36% to 29% of revenue; staff costs rose with company stores",
+       "unit": "% of revenue",
+       "x": "fin.labels",
+       "from": "FY23",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Materials",
+         "ref": "A.materialPct",
+         "fmt": "pct0"
+        },
+        {
+         "name": "Employees",
+         "ref": "A.employeePct",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in cost split"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the margin gain is real and mostly structural (manufacturing, franchise buy-backs, scale), not a one-year accident. But read the headline EBITDA carefully: it excludes rent. Rent (lease depreciation ₹704 cr and lease interest ₹163 cr in FY26) is the biggest cost of a store chain, and Lenskart's own pre-IndAS 116 margin was ~11% in FY26 and 13.3% in Q1FY27, against a long-term aim of ~25%."
+    }
+   ]
+  },
+  {
+   "id": "q1",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Latest quarter",
+   "title": "Q1FY27: revenue +34% (proforma), EBITDA margin 21.7%, profit ₹228 cr, and no change to the ~25% long-term margin aim",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore)",
+      "head": [
+       "",
+       "Q1FY27",
+       "YoY",
+       "Comment"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Revenue from operations",
+        "2,714",
+        "+33.6% proforma (+43.3% reported)",
+        "Reported growth flattered by Dealskart/Meller consolidation"
+       ],
+       [
+        "  India",
+        "1,531",
+        "+30.7%",
+        "SSSG 18.3%, SPSG 24.3%, 116 net new stores"
+       ],
+       [
+        "  International",
+        "1,203",
+        "+38%",
+        "~29% in constant currency; 16 net new stores"
+       ],
+       [
+        "EBITDA (after Ind AS 116)",
+        "588",
+        "+61% proforma",
+        "21.7% (18% a year ago)"
+       ],
+       [
+        "EBITDA pre-Ind AS 116 (after rent)",
+        "361",
+        "~2x",
+        "13.3% (9.1%)"
+       ],
+       [
+        "Net profit (incl. minorities)",
+        "228",
+        "+182% on proforma ₹81 cr",
+        "₹222 cr to owners; Q1 alone is 45% of FY26's profit"
+       ],
+       [
+        "Operating cash / capex",
+        "297 / 207",
+        "",
+        "Capex: stores ₹75 cr, plant (Hyderabad-led) ₹132 cr; net cash ₹4,104 cr at Jun-2026"
+       ]
+      ],
+      "source": "Q1FY27 shareholders' letter and call (12-Aug-2026); Screener.in"
+     }
+    },
+    {
+     "bullets": [
+      "**Growth yardstick:** Track annual volume growth of ~25% as 'the cleanest yardstick'; do not use any single quarter as the base expectation (FY26 volume +24.7%, Q1FY27 +25.7%).",
+      "**Stores:** Net new store additions in FY27 'at or around FY26 levels' (603 in FY26); 132 added in Q1FY27. India 'points past 10,000 stores' over time (6,100 unserved pin codes, ~3,000 densification).",
+      "**Margin:** Long-term steady-state EBITDA (pre-IndAS 116) margin ~25% (FY26 ~11%, Q1FY27 13.3%); near-term margins may vary with store phasing, marketing and long-term bets.",
+      "**Capex:** Hyderabad plant (~50 mn pairs a year) commissioning in ~18 months from May-2026, with a large part of the initial outlay in FY27; Q1FY27 capex ₹207 cr (stores ₹75 cr, plant ₹132 cr), funded from operating cash.",
+      "**International:** Measured store additions (16 in Q1FY27); margins to be judged on a trailing-twelve-month basis; Q1 benefits from the sunglasses season."
+     ]
+    },
+    {
+     "callout": "**What we take from it:** a clean beat on margins, led by International (pre-IndAS margin 10.6% vs 4.5%) and product margin above 70%, with India growth still ~30%. The soft spots: India SSSG has come down from 24% to 18% in two quarters, and management is asking investors not to extrapolate any single quarter. Guidance is about volumes (~25%) and stores (~600), not profits."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "Stores pay for themselves; the IPO cash is still in the bank: ₹58 cr left over in FY26 after capex and rent",
+   "blocks": [
+    {
+     "p": "Over FY23-26 Lenskart generated ₹3,483 cr of operating cash and spent ₹2,106 cr on capex (Screener). Operating cash is flattered by Ind AS 116: rent is paid in the financing section. In FY26 operating cash of ₹1,670 cr paid for ₹829 cr of capex (603 net new stores, the Bhiwadi expansion and Hyderabad), ₹620 cr of lease principal and ₹163 cr of lease interest, leaving ₹58 cr (company: ₹34 cr \"before M&A and IPO\"). Acquisitions took another ₹421 cr (Meller, Dealskart and others), funded by pre-IPO cash. The ₹2,150 cr fresh issue (Nov-2025) was almost all unspent at Mar-2026 (₹177 cr used). Company-reported ROCE was 14.7% in FY26, 23.1% excluding idle IPO money, and 23.2% in Q1FY27."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash now covers capex, but rent eats most of the rest",
+       "unit": "₹ crore",
+       "x": [
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Cash from operations",
+         "values": [
+          1231,
+          1670
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "values": [
+          427,
+          829
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Lease payments (principal + interest)",
+         "values": [
+          593,
+          783
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26 consolidated cash flow statement and notes"
+      },
+      {
+       "type": "line",
+       "title": "ROCE (Screener basis, incl. idle cash and goodwill): 8% in FY26",
+       "unit": "Return on capital employed (%), Screener basis",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          -3,
+          0,
+          2,
+          6,
+          8
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": -5,
+       "max": 25,
+       "source": "Screener.in. Company-reported ROCE: 14.7% (FY26), 23.1% excluding IPO proceeds."
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY25",
+       "FY26"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "1,231",
+        "1,670"
+       ],
+       [
+        "Capex (PPE incl. right-of-use purchases and intangibles)",
+        "427",
+        "829"
+       ],
+       [
+        "Lease principal paid",
+        "469",
+        "620"
+       ],
+       [
+        "Lease interest paid",
+        "125",
+        "163"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left after capex and rent**",
+         "**210**",
+         "**58**"
+        ]
+       },
+       [
+        "Acquisitions of subsidiaries (Meller, Dealskart and others)",
+        "133",
+        "421"
+       ],
+       [
+        "Memo: IPO fresh issue received (gross)",
+        "–",
+        "2,150"
+       ]
+      ],
+      "source": "AR FY26 consolidated cash flow statement and notes (FY25 capex includes ₹10 cr of intangibles)"
+     }
+    },
+    {
+     "callout": "**The capital question:** the store machine funds itself, and returns on the core are high (company: stores pay back in under a year). The open questions are the ₹4,104 cr of net cash (Jun-2026): Hyderabad (~₹1,500 cr estimated) will absorb a large part over FY27-28, and the IPO objects allow ₹683 cr for acquisitions and general purposes. Lenskart has been an active buyer (Owndays, Meller, Dealskart, GeoIQ, the Thailand JV); acquisitions at high prices are the main way returns could disappoint."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Accounting",
+   "title": "Clean audit; three adjustments: proforma vs reported, rent outside EBITDA, and a one-off in FY25",
+   "blocks": [
+    {
+     "bullets": [
+      "**Two sets of numbers.** The letters quote \"proforma\" growth (Dealskart, GeoIQ and Meller consolidated in the base year); the audited accounts are \"reported\". From Q3FY26 the two are identical, but FY26 growth rates differ (Q1FY27 revenue +33.6% proforma, +43.3% reported). We use reported figures in the model and say when we quote proforma.",
+      "**EBITDA excludes rent.** Ind AS 116 moves rent into depreciation (right-of-use ₹704 cr) and interest (₹163 cr) and the cash into financing (lease principal ₹620 cr). Operating cash flow (₹1,670 cr) therefore overstates cash earnings; we treat lease principal as capex in the forecasts.",
+      "**FY25 one-off.** FY25 other income includes a ₹167 cr non-cash gain on the Owndays deferred consideration; FY26 includes ₹19 cr of liabilities written back and a call-option gain, and a ₹16 cr exceptional loss (investment impairment, IPO costs). Our forecasts carry none of these.",
+      "**Minorities.** ₹7.3 cr of FY26 profit and ~₹6-7 cr in Q1FY27 belong to minority partners; we use profit after minorities (LENSKART.patch.js) and load ~1.5 points onto the tax rate in forecasts.",
+      "**ESOP cost is small** (₹12.8 cr in FY26) because most options were granted before the IPO; grants at listed-market prices would raise it. We deduct ₹{{as.esop.0|num}}-{{as.esop.2|num}} cr a year.",
+      "**Goodwill** (₹2,198 cr) and brands (₹980 cr) from Owndays and Meller are tested for impairment yearly; no impairment of goodwill in FY26."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: GREEN-AMBER (we show AMBER).** S.R. Batliboi (EY) audits the accounts and we found nothing improper. The amber reflects the short like-for-like history, the proforma presentation in the letters and a headline EBITDA that excludes the largest store cost."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net cash of ₹3,881 cr before leases at Mar-2026 (₹4,104 cr at Jun-2026); ₹2,877 cr of lease liabilities",
+   "blocks": [
+    {
+     "p": "At Mar-2026 Lenskart held ₹4,100 cr of cash, deposits and liquid funds (₹1,544 cr cash and bank balances, ₹513 cr of investments, ₹2,013 cr of bank deposits in \"other financial assets\") against ₹220 cr of bank borrowings: net cash ₹3,881 cr on the company's definition. Lease liabilities were another ₹2,877 cr; Screener counts them as borrowings (₹3,097 cr), so its net debt figure below is not comparable with the company's. Goodwill and brands are large (₹2,198 cr and ₹980 cr, mostly Owndays and Meller). Inventory was 43 days of sales at Mar-2026 (59 days a year earlier); the company expects it to rise again as stock is rebuilt."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Inventory days fell in FY26; payables stretched",
+       "unit": "Days (Screener basis, on cost of goods)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          141,
+          163,
+          148,
+          198,
+          150
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          21,
+          27,
+          23,
+          7,
+          7
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          109,
+          154,
+          111,
+          135,
+          138
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Screener net debt includes leases: ₹982 cr at Mar-2026",
+       "unit": "Borrowings incl. leases less cash and investments (₹ crore)",
+       "x": "A.labels",
+       "from": "FY23",
+       "series": [
+        {
+         "name": "Net debt incl. leases",
+         "ref": "A.netDebt",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; net profit after minorities), GAM Research. Excludes ₹1,985 cr of bank deposits held in other financial assets; including them, net cash after leases was ~₹1,003 cr."
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-23",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth (owners)",
+        "{{A.netWorth.3|num}}",
+        "{{A.netWorth.4|num}}",
+        "{{A.netWorth.5|num}}",
+        "{{A.netWorth.6|num}}"
+       ],
+       [
+        "Borrowings incl. lease liabilities",
+        "{{A.borrowings.3|num}}",
+        "{{A.borrowings.4|num}}",
+        "{{A.borrowings.5|num}}",
+        "{{A.borrowings.6|num}}"
+       ],
+       [
+        "Cash, bank balances and investments (Screener)",
+        "{{A.cashAndInvestments.3|num}}",
+        "{{A.cashAndInvestments.4|num}}",
+        "{{A.cashAndInvestments.5|num}}",
+        "{{A.cashAndInvestments.6|num}}"
+       ],
+       [
+        "Net fixed assets incl. goodwill and right-of-use",
+        "{{A.fixedAssets.3|num}}",
+        "{{A.fixedAssets.4|num}}",
+        "{{A.fixedAssets.5|num}}",
+        "{{A.fixedAssets.6|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.3|num}}",
+        "{{A.inventories.4|num}}",
+        "{{A.inventories.5|num}}",
+        "{{A.inventories.6|num}}"
+       ],
+       [
+        "Trade payables",
+        "{{A.payables.3|num}}",
+        "{{A.payables.4|num}}",
+        "{{A.payables.5|num}}",
+        "{{A.payables.6|num}}"
+       ],
+       [
+        "Memo: bank deposits in other financial assets",
+        "–",
+        "–",
+        "–",
+        "1,985"
+       ],
+       [
+        "Memo: lease liabilities (in borrowings)",
+        "–",
+        "1,679",
+        "2,227",
+        "2,877"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated; net profit after minorities), GAM Research; AR FY26 notes 6-7 and 36 (deposits, leases)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: founders 17.5%; institutions doubled to 36% by Jun-2026 as pre-IPO investors sold",
+   "blocks": [
+    {
+     "p": "At Jun-2026 the founders (promoters) held 17.53%, foreign institutions 12.76%, Indian institutions 23.56% and others 45.73% (Screener's \"public\" includes the pre-IPO sovereign and venture holders). The six-month lock-up on pre-IPO shares ended on 8-May-2026 and the sovereign and venture investors began to sell: block deals of at least 8.15 cr shares at ₹473 that day (Alpha Wave, KKR's Birdseye View, TR Capital and others; buyers included Citi, BlackRock, Fidelity, HDFC MF and ICICI Pru MF), SoftBank 5.65 cr shares (3.25%) at ~₹509 on 3-Jun and a reported ADIA block of 4 cr shares at ₹490 on 11-Jun. Foreign institutions went from 4.3% (Mar-2026) to 12.8% and Indian institutions from 15.5% to 23.6% by Jun-2026. In the September quarter SoftBank sold another 4.5 cr shares at ₹642 (24-Aug; stake 9.86% → 7.28%), Alpha Wave sold ~2.95 cr shares at ₹630 (28-Aug, reported full exit) and an undisclosed holder sold ~3.5 cr shares at ₹688 (21-Sep); MSCI added the stock from 1-Sep."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Foreign funds 3.9% → 12.8%, Indian funds 15.9% → 23.6% in six months",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "Public (incl. pre-IPO investors)",
+         "ref": "SH.rows.Public",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in. Screener counts the pre-IPO venture and sovereign holders (SoftBank, ADIA and others) as \"public\"."
+      },
+      {
+       "type": "column",
+       "title": "Founder (promoter) stake ~17.5% since listing",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 30,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest shareholders at 31-Mar-2026 (latest named list)",
+      "head": [
+       "Holder",
+       "% of shares"
+      ],
+      "rows": [
+       [
+        "SVF II Lightbulb (Cayman) (SoftBank)",
+        "13.13"
+       ],
+       [
+        "Platinum Jasmine A 2018 Trust (ADIA)",
+        "12.08"
+       ],
+       [
+        "Peyush Bansal",
+        "8.80"
+       ],
+       [
+        "Neha Bansal",
+        "7.19"
+       ],
+       [
+        "PI Opportunities Fund-II",
+        "4.48"
+       ],
+       [
+        "Macritchie Investments",
+        "4.26"
+       ],
+       [
+        "Unilazer Alternative Ventures",
+        "3.82"
+       ],
+       [
+        "Alpha Wave Ventures II",
+        "3.70"
+       ],
+       [
+        "Alpha Wave Ventures",
+        "3.43"
+       ],
+       [
+        "Steadview Capital Mauritius",
+        "3.32"
+       ]
+      ],
+      "source": "AR FY26, Corporate governance report (top ten shareholders at 31-Mar-2026) and note 15A. KKR (Birdseye View Holdings) held 1.92%. The Jun-2026 pattern by name was not available to us; category totals are from Screener.in."
+     }
+    },
+    {
+     "callout": "**Our read:** Lenskart has no controlling shareholder: the founders own ~17.5% and the largest pre-IPO funds (SoftBank 7.3% after August, ADIA, PI Opportunities Fund, Macritchie, Steadview, Unilazer) are sellers on any strength. The overhang has been absorbed well so far (the stock rose ~45% between the ₹473 block in May and the ₹688 block in September), and index inclusion (FTSE in Jun-2026, MSCI in Sep-2026) brought passive buyers. But supply will keep meeting every rally until these funds are out."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Founder-run, professionally audited; the founders own only ~17.5%",
+   "blocks": [
+    {
+     "p": "Management: Peyush Bansal (co-founder, Chairman, MD & CEO); Neha Bansal (Executive Director, co-founder; from 1-Jun-2025), Amit Chaudhary (Executive Director, co-founder; from 11-Jul-2025); CFO Abhishek Gupta; Company Secretary Ashish Kumar Srivastava. Auditor: S.R. Batliboi & Associates LLP (EY network). The four promoters (Peyush Bansal, Neha Bansal, Amit Chaudhary, Sumeet Kapahi) held ~17.5% after the IPO; the rest is spread across sovereign, venture and mutual funds."
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "S.R. Batliboi & Associates (EY); clean opinion; proforma reconciled to reported in the letters",
+       "No accounting red flags."
+      ],
+      [
+       "Board and control",
+       "Moderate",
+       "Founder-CEO with three founder-executives on the board; no controlling shareholder (founders ~17.5%)",
+       "Independent directors and institutions carry real weight."
+      ],
+      [
+       "Capital allocation",
+       "Moderate",
+       "Disciplined store payback (<1 year, company) but frequent acquisitions; IPO money largely unspent",
+       "Watch acquisition prices and Hyderabad returns."
+      ],
+      [
+       "Disclosure",
+       "Strong",
+       "Quarterly shareholders' letters with segment revenue, EBITDA before and after rent, SSSG, SPSG, ASP, volumes, cash flow",
+       "Better than most Indian retailers."
+      ],
+      [
+       "Shareholder supply",
+       "Weak",
+       "Pre-IPO funds selling ~2-3% at a time since May-2026",
+       "Overhang on every rally."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "AR FY26; shareholders' letters; exchange filings; GAM Research"
+    },
+    {
+     "callout": "**Overall:** Good disclosure and a clean audit; the governance risk is not misconduct but a dispersed, exiting shareholder base and an acquisitive management whose deals are hard for outsiders to price."
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EPS ₹{{F.eps.0|n2}} / ₹{{F.eps.1|n2}} / ₹{{F.eps.2|n2}} for FY27-29E",
+   "blocks": [
+    {
+     "p": "India revenue +{{as.segments.0.growth.0|pct0}} / +{{as.segments.0.growth.1|pct0}} / +{{as.segments.0.growth.2|pct0}} and International +{{as.segments.1.growth.0|pct0}} / +{{as.segments.1.growth.1|pct0}} / +{{as.segments.1.growth.2|pct0}}: consolidated revenue +{{F.salesGrowth.0|pct0}} / +{{F.salesGrowth.1|pct0}} / +{{F.salesGrowth.2|pct0}}. EBITDA margin (after Ind AS 116) {{F.ebitdaMargin.0|pct}} / {{F.ebitdaMargin.1|pct}} / {{F.ebitdaMargin.2|pct}}; capex including lease principal ₹{{as.capex.0|num}} / {{as.capex.1|num}} / {{as.capex.2|num}} cr (Hyderabad peaks in FY27E); depreciation {{as.depRateOnGrossBlock|n1}}% of gross block; other income 6.5% on net cash plus ₹{{as.otherIncome.0|num}} cr (income on the cash netted against leases, and recurring items); finance cost ₹{{as.interest.0|num}}-{{as.interest.2|num}} cr (leases); tax {{as.taxRate.0|n1}}% including minorities; no dividend. EPS compounds ~48% a year over FY26-29E from a low base (FY26 ₹2.84)."
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA (after Ind AS 116)",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Finance cost",
+        "ref": "fin.interest"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n2"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex (forecast incl. lease principal)",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       }
+      ],
+      "source": "Company, GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM",
+       "Motilal Oswal (09/26)",
+       "Emkay Global (08/26)",
+       "Equirus (08/26)",
+       "JM Financial (05/26)"
+      ],
+      "rows": [
+       [
+        "Revenue FY27E (₹ cr)",
+        "{{F.sales.0|num}}",
+        "11,810",
+        "11,390",
+        "11,440",
+        "11,420"
+       ],
+       [
+        "Revenue FY28E (₹ cr)",
+        "{{F.sales.1|num}}",
+        "14,990",
+        "14,030",
+        "13,820",
+        "13,660"
+       ],
+       [
+        "EPS FY27E (₹)",
+        "{{F.eps.0|n2}}",
+        "5.40",
+        "5.00",
+        "4.60",
+        "4.50"
+       ],
+       [
+        "EPS FY28E (₹)",
+        "{{F.eps.1|n2}}",
+        "8.40",
+        "7.00",
+        "6.00",
+        "5.60"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM vs street median, FY28E EPS**",
+         "**+7%**",
+         "",
+         "",
+         "",
+         ""
+        ]
+       }
+      ],
+      "source": "Motilal Oswal (9-Sep-2026), Emkay (13-Aug-2026), Equirus (12-Aug-2026) result updates; JM Financial (21-May-2026; no post-Q1 note found). Foreign brokers published only percentage revisions."
+     }
+    },
+    {}
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: 9 of 12 post-results notes are Buy; median target ₹707, all on EV/EBITDA after rent",
+   "blocks": [
+    {
+     "p": "Coverage began after the IPO quiet period (Jefferies, Macquarie, Emkay and Avendus in Nov-Dec 2025; Ambit published a Sell before listing) and widened in 2026 (Antique, Motilal Oswal, Elara, CLSA, BofA, J.P. Morgan, Nomura, ICICI Securities). After the Q1FY27 results (12-Aug-2026) 12 houses published dated targets: median ₹707 (+3% vs the 30-Sep-2026 close of ₹685.05); including the older notes still standing, the median is ₹663. 9 are Buy or equivalent, Citi and HSBC are neutral and Ambit is the lone Sell (₹496). Every multiple we could confirm is EV/EBITDA on pre-IndAS (after-rent) EBITDA 1.5-2 years forward: Motilal Oswal 49x Sep-28E, Emkay 56x Jun-28E, Equirus 58x, Jefferies and Elara 50x FY28E; JM Financial (DCF, 53x implied) and ICICI Securities (DCF, ~48x India implied). Nobody uses P/E or EV/Sales as the main method; Bloomberg consensus P/E was 119x / 87x one/two-year forward (Motilal Oswal, 9-Sep-2026)."
+    },
+    {
+     "p": "Bloomberg consensus (Motilal Oswal, 9-Sep-2026): post-IndAS EBITDA ₹2,726 cr / ₹3,460 cr and PAT ₹1,011 cr / ₹1,391 cr one/two years forward; EV/EBITDA 44.4x / 35.0x, P/E 119x / 87x at ₹692. 20 analysts on Bloomberg, 10 Buy (Business Today, 13-Aug-2026)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "The headline EBITDA excludes rent. After rent (pre-IndAS) the margin was ~11% in FY26 and 13.3% in Q1FY27; the street's 48-58x multiples are applied to that smaller after-rent number."
+       ],
+       [
+        "India SSSG fell from 24.2% (Q4FY26) to 18.3% (Q1FY27); Equirus links part of it to negative publicity. Growth is shifting to new, smaller-town stores with lower revenue per store."
+       ],
+       [
+        "Ambit (Sell, ₹496): a capex-heavy, made-to-order model whose free cash flow lags its profit; Citi and HSBC (Neutral/Hold): the valuation already prices much of the growth."
+       ],
+       [
+        "Rupee weakness against the renminbi and yen raises the cost of imported frames and components; the product margin has held so far through in-house manufacturing."
+       ],
+       [
+        "Supply: pre-IPO funds have sold ~20% of the company since May-2026 and still hold large stakes."
+       ],
+       [
+        "Acquisitive: Owndays, Meller, Dealskart, GeoIQ and the Thailand JV in four years; ₹683 cr of IPO money is earmarked for acquisitions and general purposes."
+       ]
+      ],
+      "source": "Broker notes and company filings as cited; GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 27x Sep-28E EBITDA gives {{dcf.tp|inr}}; the market pays 33.4x",
+   "blocks": [
+    {
+     "h": "How the street values Lenskart"
+    },
+    {
+     "p": "The street uses EV/EBITDA on EBITDA after rent (\"pre-IndAS 116\"), 1.5-2 years forward, at 48-58x. We use the same method on the same date (Sep-28E: half FY28E, half FY29E) but on reported EBITDA before rent, with lease liabilities (₹2,877 cr at Mar-2026) counted as debt. The two are equivalent ways of treating rent; ours is the one on which the stock's own history and our model can be measured consistently. To compare, our target equals **41.2x** Sep-28E EBITDA after rent (₹2,255 cr, our estimate) on the street's basis. The \"At our EBITDA\" column applies each broker's multiple to our after-rent EBITDA."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock (latest dated note per broker)",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EBITDA (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Morgan Stanley (30-Sep-26)",
+        "Overweight",
+        "718",
+        "Not disclosed (scenario-based)",
+        "–",
+        "–",
+        "–",
+        "Raised from ₹666: International revenue +0-2% and earnings +3-7% for FY27-30E; India unchanged"
+       ],
+       [
+        "ICICI Direct (retail research) (10-Sep-26) – not in median",
+        "Buy",
+        "850",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "\"Clear vision of growth with moat in place\""
+       ],
+       [
+        "Motilal Oswal (9-Sep-26)",
+        "Buy",
+        "800",
+        "EV/EBITDA (pre-IndAS), SOTP; reverse-DCF check",
+        "49x (India 55x, Intl ~37.5x)",
+        "Sep-28E",
+        "671",
+        "Stock +70% since listing on upgrades, not re-rating; payback under 10 months; ~4,500 India stores by FY29E; FY27-28E pre-IndAS EBITDA raised 4-8%"
+       ],
+       [
+        "Ambit Capital (8-Sep-26)",
+        "Sell",
+        "496",
+        "Not disclosed",
+        "–",
+        "–",
+        "–",
+        "Capex-heavy made-to-order model, free cash flow delayed (initiation ₹337); upside risks: store productivity, International efficiency"
+       ],
+       [
+        "Nomura (31-Aug-26)",
+        "Buy (initiation)",
+        "888",
+        "Not disclosed",
+        "–",
+        "–",
+        "–",
+        "10,000+ store opportunity over ~15 years; ~5% share of Rx eyewear (2x the #2); costs 35-40% below the industry"
+       ],
+       [
+        "ICICI Securities (21-Aug-26)",
+        "Buy (initiation)",
+        "750",
+        "DCF (WACC 10.5%, g 5%)",
+        "~48x FY28E India (implied)",
+        "FY28E",
+        "–",
+        "~25% revenue CAGR FY26-28E; pre-IndAS margin 11.2% to 17%; India stores 3,979 by FY28E; bull ₹900 / bear ₹450"
+       ],
+       [
+        "Emkay Global (13-Aug-26)",
+        "Buy",
+        "725",
+        "EV/EBITDA (pre-IndAS)",
+        "56x",
+        "Jun-28E",
+        "761",
+        "EBITDA ~20% above estimate; 4x India store potential; cracked the ₹500 price point (Hustlr); raised from ₹675"
+       ],
+       [
+        "Jefferies (13-Aug-26)",
+        "Buy",
+        "680",
+        "EV/EBITDA (pre-IndAS) at initiation",
+        "50x (initiation)",
+        "FY28E",
+        "684",
+        "Raised from ₹600: supply, not demand, constrains India; International margins answer the key concern"
+       ],
+       [
+        "Goldman Sachs (13-Aug-26)",
+        "Buy",
+        "715",
+        "Not disclosed",
+        "–",
+        "–",
+        "–",
+        "Raised from ₹625: India growth and margin expansion in both segments"
+       ],
+       [
+        "Macquarie (13-Aug-26)",
+        "Outperform",
+        "675",
+        "Not disclosed",
+        "–",
+        "–",
+        "–",
+        "Raised from ₹625: International margins stronger than expected; FY27E EPS +4%"
+       ],
+       [
+        "Citi (13-Aug-26)",
+        "Neutral",
+        "650",
+        "Not disclosed",
+        "–",
+        "–",
+        "–",
+        "Raised from ₹600: strong growth, but the valuation already factors in much of the upside; high H2 base"
+       ],
+       [
+        "HSBC (13-Aug-26)",
+        "Hold",
+        "575",
+        "Not disclosed",
+        "–",
+        "–",
+        "–",
+        "EBITDA beat on International; premium valuation reflects much of the growth"
+       ],
+       [
+        "Equirus (12-Aug-26)",
+        "Long",
+        "698",
+        "EV/EBITDA (pre-IndAS)",
+        "58x",
+        "Sep-27 TP date",
+        "787",
+        "Resilient quarter despite negative publicity (India SSSG 18% vs 24%); International +29% cc; 500/60 store adds a year"
+       ],
+       [
+        "CLSA (2-Jun-26)",
+        "Outperform (initiation)",
+        "604",
+        "Not disclosed",
+        "–",
+        "–",
+        "–",
+        "Brand, omnichannel, store runway; margin gains from operating leverage and overseas profitability"
+       ],
+       [
+        "BofA Securities (2-Jun-26)",
+        "Buy (initiation)",
+        "575",
+        "Not disclosed",
+        "–",
+        "–",
+        "–",
+        "Large unmet need for vision correction; integrated design-to-retail model"
+       ],
+       [
+        "Elara Capital (26-May-26)",
+        "Buy (initiation)",
+        "615",
+        "EV/EBITDA (pre-IndAS)",
+        "50x",
+        "FY28E",
+        "684",
+        "Eyewear's \"Tanishq\"; 25% revenue / 38% pre-IndAS EBITDA CAGR FY26-29E"
+       ],
+       [
+        "JM Financial (21-May-26)",
+        "Buy",
+        "585",
+        "DCF (WACC 12%, g 6%)",
+        "53x (implied)",
+        "FY28E",
+        "722",
+        "Q4FY26 robust (India SSSG 24.2%); FY27-28E pre-IndAS EBITDA +3%; no post-Q1 note found"
+       ],
+       [
+        "Antique (19-Jan-26)",
+        "Hold (initiation)",
+        "455",
+        "Not disclosed",
+        "–",
+        "–",
+        "–",
+        "Organised penetration only 24%; margin 13.1% by FY28E; valuation already prices growth (stale)"
+       ],
+       [
+        "Avendus Spark (29-Dec-25)",
+        "Add (initiation)",
+        "490",
+        "Not disclosed",
+        "–",
+        "–",
+        "–",
+        "21% revenue CAGR FY25-28E, +550 bp EBITDA margin (stale)"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**SELL**",
+         "**{{dcf.tp|num}}**",
+         "**EV/EBITDA (reported, leases as debt)**",
+         "**27x (≈41.2x after rent)**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "A quality compounder priced for more than its own listed history supports; supply overhang"
+        ]
+       }
+      ],
+      "source": "UBS (₹800), Axis Capital (₹715), IIFL (₹715) appear only in a Bloomberg-based list (Business Today, 13-Aug-2026) that does not pair brokers with targets; J.P. Morgan initiated Overweight on 10-Jul-2026 (~16% upside; the ₹635 figure is from an undated aggregator); Kotak Securities (retail) Add in May-2026 without a fair value. Left out of the table and median. Sources: broker PDFs and dated press reports as listed in deep.json (12-Aug to 30-Sep-2026 for post-results notes)."
+     }
+    },
+    {
+     "h": "Our target multiple: 27x, and why"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the multiple (house rule, PLAYBOOK §4 and §7c; recently listed)",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1. Window",
+        "Listed 10-Nov-25: 10.6 months to 30-Sep-2026, under the 12 months used for other recent listings (TENNIND precedent). Whole period on every daily close (222 points); the sector is measured over the same window. IPO-premium check: the listing weeks (Nov-Dec 2025, median price ₹415) traded near the ₹402 issue price and well below the later range, so no months are skipped",
+        "Window: listing to 30-Sep-2026"
+       ],
+       [
+        "2. Own forward EV/EBITDA (used)",
+        "EV (price × 173.9 cr shares less ₹1,003 cr net cash after leases) ÷ next full-year reported EBITDA (FY27E to Mar-2026, FY28E from Apr-2026, our estimates): median 30.6x, 25th-75th percentile 28.5-34.4x, range 25.6-38.8x; no loss or trough years",
+        "**Starting point: 30.6x**"
+       ],
+       [
+        "3. One-offs",
+        "FY25's Owndays gain and FY26 exceptional items sit below EBITDA and in years that are never the forward year inside the window",
+        "No adjustment"
+       ],
+       [
+        "4. Sector move (same window)",
+        "Retail peers' trailing EV/EBITDA on 30-Sep-2026 vs their medians since 10-Nov-25: DMart −10.2%, Trent −12.7%, Metro Brands −21.8%, Bata India −11.6%, Page Industries −1.9%; median −11.6% (P/E basis −12.1%). Excluded: Aditya Birla Fashion, Shoppers Stop, Vishal Mega Mart (DMART retail set). Five-year medians (shown): −36.1%. Lenskart itself is not used",
+        "× 0.884"
+       ],
+       [
+        "5. Growth vs the street",
+        "The street's 48-58x after-rent multiples come with higher EBITDA for some (Motilal Oswal FY28E ₹2,370 cr after rent vs our ₹1,977 cr) and similar for others (Emkay ₹2,020 cr)",
+        "No adjustment (§7c); see sensitivity"
+       ],
+       [
+        "6. Peers",
+        "Retail peer median trailing EV/EBITDA 33.5x; Lenskart 55.1x trailing",
+        "Lenskart is the most expensive retailer on trailing numbers, justified only by growth"
+       ],
+       [
+        "7. Result (nearest half-turn)",
+        "30.6x × 0.884 = 27.1x",
+        "**27x Sep-28E EBITDA of ₹3,540 cr**"
+       ],
+       [
+        "8. Bull / bear",
+        "Bull: no sector move (30.6x). Bear: 25th-percentile forward EV/EBITDA with the move (28.5x × 0.884)",
+        "30.5x / 25x"
+       ]
+      ],
+      "source": "Screener.in daily prices to 30-Sep-2026; GAM estimates for FY27-28E EBITDA; peers' Screener EV/EBITDA series"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward EV/EBITDA since listing: median 30.6x; 37.5x FY28E now",
+       "unit": "EV ÷ next full-year EBITDA, after Ind AS 116 (x)",
+       "x": [
+        "2025-11-10",
+        "2025-11-11",
+        "2025-11-12",
+        "2025-11-13",
+        "2025-11-14",
+        "2025-11-17",
+        "2025-11-18",
+        "2025-11-19",
+        "2025-11-20",
+        "2025-11-21",
+        "2025-11-24",
+        "2025-11-25",
+        "2025-11-26",
+        "2025-11-27",
+        "2025-11-28",
+        "2025-12-01",
+        "2025-12-02",
+        "2025-12-03",
+        "2025-12-04",
+        "2025-12-05",
+        "2025-12-08",
+        "2025-12-09",
+        "2025-12-10",
+        "2025-12-11",
+        "2025-12-12",
+        "2025-12-15",
+        "2025-12-16",
+        "2025-12-17",
+        "2025-12-18",
+        "2025-12-19",
+        "2025-12-22",
+        "2025-12-23",
+        "2025-12-24",
+        "2025-12-26",
+        "2025-12-29",
+        "2025-12-30",
+        "2025-12-31",
+        "2026-01-01",
+        "2026-01-02",
+        "2026-01-05",
+        "2026-01-06",
+        "2026-01-07",
+        "2026-01-08",
+        "2026-01-09",
+        "2026-01-12",
+        "2026-01-13",
+        "2026-01-14",
+        "2026-01-16",
+        "2026-01-19",
+        "2026-01-20",
+        "2026-01-21",
+        "2026-01-22",
+        "2026-01-23",
+        "2026-01-27",
+        "2026-01-28",
+        "2026-01-29",
+        "2026-01-30",
+        "2026-02-01",
+        "2026-02-02",
+        "2026-02-03",
+        "2026-02-04",
+        "2026-02-05",
+        "2026-02-06",
+        "2026-02-09",
+        "2026-02-10",
+        "2026-02-11",
+        "2026-02-12",
+        "2026-02-13",
+        "2026-02-16",
+        "2026-02-17",
+        "2026-02-18",
+        "2026-02-19",
+        "2026-02-20",
+        "2026-02-23",
+        "2026-02-24",
+        "2026-02-25",
+        "2026-02-26",
+        "2026-02-27",
+        "2026-03-02",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-23",
+        "2026-03-24",
+        "2026-03-25",
+        "2026-03-27",
+        "2026-03-30",
+        "2026-04-01",
+        "2026-04-02",
+        "2026-04-06",
+        "2026-04-07",
+        "2026-04-08",
+        "2026-04-09",
+        "2026-04-10",
+        "2026-04-13",
+        "2026-04-15",
+        "2026-04-16",
+        "2026-04-17",
+        "2026-04-20",
+        "2026-04-21",
+        "2026-04-22",
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30",
+        "2026-05-04",
+        "2026-05-05",
+        "2026-05-06",
+        "2026-05-07",
+        "2026-05-08",
+        "2026-05-11",
+        "2026-05-12",
+        "2026-05-13",
+        "2026-05-14",
+        "2026-05-15",
+        "2026-05-18",
+        "2026-05-19",
+        "2026-05-20",
+        "2026-05-21",
+        "2026-05-22",
+        "2026-05-25",
+        "2026-05-26",
+        "2026-05-27",
+        "2026-05-29",
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-19",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          28.2,
+          29.1,
+          29.5,
+          28,
+          28.6,
+          30.2,
+          29.7,
+          30,
+          29.2,
+          29.2,
+          29,
+          29,
+          28.3,
+          28.5,
+          28.7,
+          30.1,
+          29.8,
+          28.7,
+          28.4,
+          29.2,
+          28.5,
+          28.6,
+          28.4,
+          28.4,
+          28.4,
+          28.3,
+          28.3,
+          28.3,
+          28.7,
+          32.8,
+          32.7,
+          32.6,
+          31.7,
+          31.6,
+          31.7,
+          32.3,
+          31.6,
+          30.7,
+          31.7,
+          31.2,
+          31.2,
+          31.8,
+          31.3,
+          32.1,
+          31.9,
+          31.3,
+          32.1,
+          31.6,
+          31.1,
+          30.1,
+          30.6,
+          30.9,
+          29.7,
+          30.4,
+          30.6,
+          31.3,
+          32,
+          30.7,
+          31.1,
+          32.2,
+          31.7,
+          31.3,
+          32,
+          32.5,
+          33.3,
+          32.8,
+          36,
+          35.2,
+          35.1,
+          33.7,
+          34.1,
+          33.6,
+          34.3,
+          34,
+          34,
+          35.5,
+          36,
+          37.7,
+          36.9,
+          36.8,
+          36.8,
+          36.5,
+          35.6,
+          36.1,
+          35,
+          35.4,
+          35.1,
+          35,
+          35.2,
+          35.9,
+          35.2,
+          36.9,
+          35.2,
+          35.2,
+          34.7,
+          35.7,
+          35,
+          27.4,
+          26.5,
+          27.5,
+          27.4,
+          27.6,
+          28.1,
+          29.9,
+          30,
+          29.4,
+          29.5,
+          29.2,
+          29.1,
+          29.6,
+          29.7,
+          29.4,
+          29.2,
+          28.7,
+          29.4,
+          28.4,
+          28.2,
+          28.2,
+          27.7,
+          27.5,
+          26.6,
+          26.7,
+          26.8,
+          26,
+          26,
+          25.9,
+          25.6,
+          26,
+          26.9,
+          26.6,
+          27.2,
+          28.1,
+          27.5,
+          27.9,
+          28.5,
+          28.6,
+          28.4,
+          28.7,
+          28.2,
+          28,
+          27.7,
+          27.6,
+          27.5,
+          27.3,
+          27.4,
+          27,
+          27.3,
+          27.5,
+          27.5,
+          27.6,
+          28,
+          28.3,
+          28.1,
+          28.2,
+          27.8,
+          27.6,
+          28.1,
+          29,
+          29,
+          29.1,
+          29.3,
+          29.3,
+          29.3,
+          29.9,
+          29.7,
+          29.5,
+          29.4,
+          29.8,
+          29.2,
+          29.4,
+          29.6,
+          30,
+          30.6,
+          30.5,
+          30.4,
+          31.3,
+          30.3,
+          30.6,
+          30.8,
+          30.7,
+          31.1,
+          31,
+          31.3,
+          30.9,
+          31.2,
+          32.1,
+          32.2,
+          32.1,
+          32.7,
+          33.5,
+          33.3,
+          34.4,
+          35,
+          35.9,
+          36.2,
+          36.1,
+          35.9,
+          35.5,
+          35.1,
+          34.8,
+          36.3,
+          36.4,
+          36.7,
+          36.8,
+          37.5,
+          37.7,
+          38.1,
+          38,
+          38,
+          37.4,
+          37.6,
+          37,
+          37.3,
+          38.8,
+          37.5,
+          37.9,
+          37.6,
+          37,
+          37.3,
+          35.9,
+          37,
+          37.5
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "lines": [
+        {
+         "v": 27,
+         "text": "Our multiple: 27x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in daily prices; FY27-28E EBITDA GAM estimates (the step in Apr-2026 is the switch from FY27E to FY28E)"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "EV/EBITDA (target)",
+        "P/E",
+        "DCF",
+        "Street median (post-Q1)",
+        "Share price"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          568,
+          592,
+          402,
+          707,
+          685
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "EV/EBITDA (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**EV/EBITDA**",
+        "**Target**",
+        "Sep-28E EBITDA ₹3,540 cr plus net cash after leases",
+        "27x (bull 30.5x, bear 25x)",
+        "**{{dcf.blend.methods.0.value|n1}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|n1}}",
+        "{{scen.bear.blend.methods.0.value|n1}}"
+       ],
+       [
+        "P/E",
+        "Cross-check",
+        "Sep-28E EPS ₹8.12",
+        "73x (bull 83x, bear 67.5x)",
+        "{{dcf.blend.methods.1.value|n1}}",
+        "+4%",
+        "{{scen.bull.blend.methods.1.value|n1}}",
+        "{{scen.bear.blend.methods.1.value|n1}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "FCFF FY28-42E (lease principal as capex), Ke {{dcf.ke|n1}}%, g 6%",
+        "–",
+        "{{dcf.blend.methods.2.value|n1}}",
+        "−29%",
+        "{{scen.bull.blend.methods.2.value|n1}}",
+        "{{scen.bear.blend.methods.2.value|n1}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** P/E (73x Sep-28E EPS of ₹8.12: Lenskart's 83.1x forward median since listing × the retail peers' −12.1% P/E move) gives ₹592, close to the EV/EBITDA value. The DCF gives ₹402: at a 12.5% cost of equity, 6% terminal growth and EBITDA fading up to 27% of revenue (consistent with the ~25% after-rent aim), cash flows support well under today's price, because store and lease spending absorb most of the EBITDA for years. **The stock at ₹685.05 prices 33.4x Sep-28E EBITDA, above the 30.6x it has commanded on average since listing; with retail multiples ~12% below their own averages over the same months, the rule gives a lower value.**"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Views we did not put in the base (sensitivity rows only)",
+      "head": [
+       "View",
+       "What it changes",
+       "Value / share (₹)"
+      ],
+      "wide": [
+       0,
+       1
+      ],
+      "rows": [
+       [
+        "Five-year sector move instead of the same-window move",
+        "Retail peers vs their five-year EV/EBITDA medians −36.1% instead of −11.6%: 30.6x → 19.5x",
+        "416"
+       ],
+       [
+        "Only the months valued on FY28E (Apr-Sep 2026)",
+        "Own forward median 29.4x → 26x",
+        "548"
+       ],
+       [
+        "Skip the listing weeks (calendar 2026 only)",
+        "Own median 31.1x → 27.5x",
+        "579"
+       ],
+       [
+        "Retail set including Vishal Mega Mart",
+        "−12.1% (vs −11.6%) → 27x",
+        "568"
+       ],
+       [
+        "Internet platforms instead of retailers",
+        "Eternal, Info Edge, IndiaMART, Nykaa: −4.9% → 29x",
+        "609"
+       ],
+       [
+        "No sector move (bull multiple)",
+        "30.6x → 30.5x",
+        "640"
+       ],
+       [
+        "Street multiple on our numbers (Motilal Oswal 49x Sep-28E after rent)",
+        "49x our Sep-28E pre-IndAS EBITDA (₹2,255 cr) plus net cash before leases",
+        "671"
+       ],
+       [
+        "Street median-type multiple (Emkay 56x)",
+        "56x our Sep-28E pre-IndAS EBITDA",
+        "761"
+       ],
+       [
+        "Growth premium",
+        "EBITDA after rent grows ~38% a year FY26-29E in our model; the listing-period multiple already priced fast growth",
+        "not applied"
+       ]
+      ],
+      "source": "GAM Research. Per PLAYBOOK §7c, sub-windows, other peer sets, street multiples and growth views are shown, not added to the base multiple."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple 30.5x (no sector move) on Sep-28E EBITDA of ₹3,948 cr."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Revenue {{F.sales.0|num}} / {{F.sales.1|num}} / {{F.sales.2|num}} cr; EBITDA margin {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 27x Sep-28E EBITDA of ₹3,540 cr."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple 25x (25th percentile, with the sector move) on ₹2,889 cr."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Net cash after lease liabilities at Mar-27",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|n1}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rolled forward 6 months at Ke)**",
+         "**₹{{dcf.blend.methods.2.value|n1}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research. Bank debt is negligible and leases are deducted as debt, so the cost of equity is the discount rate."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of equity down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "Ke / g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed retail peers (and internet platforms for reference)",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "EV/EBITDA (x)",
+       "EV/EBITDA vs median since Nov-25",
+       "P/E vs median since Nov-25",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Lenskart**",
+        "1,19,266",
+        "8,814",
+        "19.9%",
+        "181.0",
+        "55.1",
+        "–",
+        "–",
+        "6.8%"
+       ],
+       [
+        "DMart",
+        "2,47,999",
+        "68,821",
+        "7.5%",
+        "81.1",
+        "45.7",
+        "−10%",
+        "−9%",
+        "12.9%"
+       ],
+       [
+        "Trent",
+        "1,39,792",
+        "20,074",
+        "18.7%",
+        "76.4",
+        "35.2",
+        "−13%",
+        "−12%",
+        "27.7%"
+       ],
+       [
+        "Metro Brands",
+        "22,939",
+        "2,864",
+        "30.5%",
+        "56.5",
+        "24.6",
+        "−22%",
+        "−20%",
+        "22.5%"
+       ],
+       [
+        "Bata India",
+        "7,949",
+        "3,516",
+        "20.6%",
+        "45.8",
+        "11.1",
+        "−12%",
+        "−14%",
+        "8.5%"
+       ],
+       [
+        "Page Industries",
+        "40,583",
+        "5,247",
+        "22%",
+        "51.9",
+        "33.5",
+        "−2%",
+        "−2%",
+        "52.5%"
+       ],
+       [
+        "Aditya Birla Fashion (excluded)",
+        "5,659",
+        "8,176",
+        "8.6%",
+        "31.1",
+        "11.4",
+        "−16%",
+        "–",
+        "-13.1%"
+       ],
+       [
+        "Shoppers Stop (excluded)",
+        "4,577",
+        "5,043",
+        "14.8%",
+        "257.7",
+        "9.7",
+        "+5%",
+        "−8%",
+        "-11.8%"
+       ],
+       [
+        "Vishal Mega Mart (excluded)",
+        "47,316",
+        "12,906",
+        "14.9%",
+        "53.1",
+        "23.5",
+        "−20%",
+        "−21%",
+        "12.1%"
+       ],
+       [
+        "Eternal (internet, reference)",
+        "3,08,896",
+        "54,364",
+        "2.2%",
+        "713.2",
+        "100.4",
+        "−4%",
+        "−24%",
+        "1.2%"
+       ],
+       [
+        "Info Edge (internet, reference)",
+        "79,042",
+        "3,285",
+        "36.1%",
+        "53.6",
+        "34.4",
+        "−0%",
+        "−2%",
+        "4.8%"
+       ],
+       [
+        "IndiaMART (internet, reference)",
+        "9,797",
+        "1,569",
+        "30.3%",
+        "19.8",
+        "13.8",
+        "−15%",
+        "−10%",
+        "20.7%"
+       ],
+       [
+        "Nykaa (FSN) (internet, reference)",
+        "91,691",
+        "10,022",
+        "7.5%",
+        "344.4",
+        "105.1",
+        "−6%",
+        "−27%",
+        "14.9%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026. Lenskart's EV/EBITDA is on trailing reported EBITDA with leases in debt."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a strong business at 33.4x Sep-28E EBITDA; SELL on valuation, not on quality",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's largest organised eyewear company, growing ~30% with ~600 new stores a year, a ~70% product margin from its own factories, an International business that has just become properly profitable (10.6% margin after rent in Q1FY27), ₹4,104 cr of net cash and a long runway (4-6% share of a market that is itself being created). The quality is not in question."
+    },
+    {
+     "callout": "**What you are paying:** ₹685.05 is 135.7x our FY27E and 98.7x FY28E EPS, and 33.4x Sep-28E EBITDA before rent (≈50.1x after rent on the street's basis). Since listing the stock has traded at a median 30.6x forward EBITDA; retail multiples have fallen ~12% over the same months. The street (median ₹707) pays 48-58x after-rent EBITDA, a premium the stock's own short history and the sector's de-rating do not support under our rule."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "India SSSG re-accelerates above 20% while openings stay ~600",
+        "Medium",
+        "SSSG 18.3% in Q1FY27 (24.2% in Q4FY26); SPSG gap over SSSG"
+       ],
+       [
+        "After-rent margin climbs faster towards ~25%",
+        "Medium",
+        "Pre-IndAS margin 13.3% in Q1FY27; we model ~16.5-18% by FY29E on our numbers"
+       ],
+       [
+        "Hyderabad on time and product margin above 71%",
+        "Medium-High",
+        "Commissioning ~18 months from May-2026 (late 2027); frames and lenses in-house"
+       ],
+       [
+        "Pre-IPO supply cleared",
+        "Medium",
+        "SoftBank 7.3%, ADIA, PI Opportunities, Macritchie, Steadview stakes in the next patterns"
+       ],
+       [
+        "A price fall to our BUY level",
+        "–",
+        "Below ~₹495 the rule gives BUY on today's numbers"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Same-store growth fades as stores densify and move to smaller towns",
+        "Medium",
+        "India revenue growth in the low 20s; operating leverage stalls"
+       ],
+       [
+        "Rupee weakness against the renminbi/yen",
+        "Medium",
+        "Imported frames and components cost more; product margin under pressure"
+       ],
+       [
+        "Expensive acquisitions",
+        "Medium",
+        "₹683 cr of IPO money for acquisitions and general purposes; goodwill already ₹2,198 cr"
+       ],
+       [
+        "Continued block sales by pre-IPO funds",
+        "High",
+        "Supply on every rally; ~2% blocks in Aug and Sep-2026"
+       ],
+       [
+        "Execution of ~600 stores a year (staff, optometrists, service)",
+        "Medium",
+        "NPS and SSSG fall; new-store payback lengthens"
+       ],
+       [
+        "International margins revert (Q1 was seasonally strong)",
+        "Medium",
+        "FY27E International margin below our {{as.segments.1.marginPct.0|pct}}"
+       ],
+       [
+        "The street keeps paying 50x+ after rent",
+        "Medium-High",
+        "Upside risk to our SELL: at Motilal Oswal's 49x on our EBITDA the value is ~₹671"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: SELL, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would move to HOLD below ~₹600** and to BUY below ~₹495 on today's numbers.",
+      "**This is a valuation call, not a business call.** Our EPS is in the middle of the street (FY28E ₹6.94 vs ₹5.6-8.4); the gap is the multiple: the street's 48-58x after-rent EBITDA vs our ≈41.2x, which comes from Lenskart's own 30.6x median since listing and the retail sector's de-rating.",
+      "**Biggest swing factors:** the multiple (each 1x of Sep-28E EBITDA is ~₹20 a share) and the margin (each point of Sep-28E EBITDA margin moves the target by ~₹24)."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "India revenue growth",
+        "v": "+30.7%",
+        "d": "Q1FY27; SSSG 18.3%"
+       },
+       {
+        "k": "Margin after rent",
+        "v": "13.3%",
+        "d": "Q1FY27; aim ~25% long term"
+       },
+       {
+        "k": "Stores",
+        "v": "3,459",
+        "d": "~600 net additions a year"
+       },
+       {
+        "k": "EV ÷ Sep-28E EBITDA",
+        "v": "33.4x",
+        "d": "median since listing: 30.6x forward"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY23–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 30
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA (after Ind AS 116)",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 200
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation (incl. right-of-use)"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (history: net of exceptional items and associates)",
+        "flag": {
+         "type": "pct",
+         "th": 60
+        }
+       },
+       {
+        "key": "interest",
+        "name": "Finance cost (mostly lease interest)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (after minorities)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 40
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n2"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations (before lease payments)",
+        "flag": {
+         "type": "pct",
+         "th": 60
+        }
+       },
+       {
+        "key": "capex",
+        "name": "Capex (forecast: incl. lease principal)"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L (as reported by 30-Sep-2026)",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 30
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (net of exceptional items)"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (after minorities)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Ind AS 116",
+        "The accounting rule for leases: store rent is booked as depreciation of a right-of-use asset plus interest on a lease liability, not as an operating cost."
+       ],
+       [
+        "EBITDA (post-IndAS / reported)",
+        "Earnings before interest, tax, depreciation and amortisation as reported; under Ind AS 116 it excludes rent."
+       ],
+       [
+        "EBITDA pre-IndAS 116 (after rent)",
+        "EBITDA after deducting rent; the measure Lenskart's ~25% long-term aim and the street's multiples use."
+       ],
+       [
+        "Proforma",
+        "Prior-year figures restated by the company as if acquisitions (Dealskart, GeoIQ, Meller) had been owned throughout."
+       ],
+       [
+        "SSSG",
+        "Same-store sales growth: revenue growth of stores open at least a year."
+       ],
+       [
+        "SPSG",
+        "Same-pin-code sales growth: revenue growth of all stores in pin codes where Lenskart already had a store; shows whether new stores add or cannibalise demand."
+       ],
+       [
+        "ASP",
+        "Average selling price per eyewear unit."
+       ],
+       [
+        "Product margin",
+        "Revenue less the cost of goods sold (frames, lenses, materials), as a % of revenue."
+       ],
+       [
+        "CoCo / FoFo",
+        "Company-owned company-operated stores / franchise-owned franchise-operated stores."
+       ],
+       [
+        "Remote optometry",
+        "Eye tests done by an optometrist connected by video to a store."
+       ],
+       [
+        "Lenskart Gold",
+        "Paid membership giving discounts and offers; 9.35 mn members at Jun-2026."
+       ],
+       [
+        "Tier 2+",
+        "Smaller cities and towns below the metros and Tier 1 cities."
+       ],
+       [
+        "Lock-up",
+        "A period after an IPO in which existing holders may not sell."
+       ],
+       [
+        "Block deal",
+        "A large negotiated sale of shares in a single trade on the exchange."
+       ],
+       [
+        "EV/EBITDA, P/E",
+        "Enterprise value (market value plus debt including leases, less cash) ÷ EBITDA; share price ÷ earnings per share."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "Sector move",
+        "How far comparable stocks trade above or below their own median multiple over a window on the valuation date."
+       ],
+       [
+        "DCF",
+        "Discounted cash flow valuation; here discounted at the cost of equity, with lease payments in cash flow."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY23": "+152%: first year with Owndays (majority stake acquired).",
+  "ebitdaMargin@FY24": "12.5% from 7.0%: product margin up (materials 31% of revenue vs 36%), Owndays integration.",
+  "otherIncome@FY25": "Includes a ₹167 cr non-cash gain on the Owndays deferred consideration and ₹73 cr of mutual-fund gains.",
+  "pat@FY25": "₹296 cr reported; ~₹130 cr excluding the Owndays gain.",
+  "sales@FY26": "+32.5%: India +29.5%, International +36.7% (Meller added; rupee weaker).",
+  "ebitdaMargin@FY26": "19.9%: commissions fell (FoFo to CoCo) and operating leverage; ~11% after rent.",
+  "otherIncome@FY26": "₹174 cr less a ₹16 cr exceptional loss and ₹4 cr of associates' losses; IPO cash from Nov-2025.",
+  "pat@FY26": "After ₹7 cr of minorities (₹501 cr before).",
+  "cfo@FY26": "Before ₹620 cr of lease principal and ₹163 cr of lease interest (financing cash flow).",
+  "capex@FY27E": "Forecast capex includes lease principal (₹760 cr in FY27E); Hyderabad plant peaks.",
+  "otherIncome@Q4FY25": "Includes the ₹167 cr Owndays deferred-consideration gain.",
+  "pat@Q3FY25": "Tax 77% of a small profit.",
+  "sales@Q3FY26": "Dealskart and Meller fully consolidated (reported = proforma from Q3FY26).",
+  "pat@Q4FY26": "₹204 cr before minorities.",
+  "sales@Q1FY27": "+43% reported, +34% proforma; India +30.7%, International +38%.",
+  "opm@Q1FY27": "21.7% before rent; 13.3% after rent (9.1% a year earlier)."
+ }
+}

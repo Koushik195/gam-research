@@ -1,0 +1,290 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Lenskart Solutions (consolidated, Rs crore). FY26 (Mar-2026) is the base year. Segment model: India and International revenue grow at the rates below; segment EBITDA (after Ind AS 116, before ESOP) is a margin on segment revenue; inter-segment sales are a negative segment with zero margin; consolidated EBITDA = segments less the inter-segment EBITDA elimination (unallocated) less ESOP. The India store build (net additions x revenue per store) is kept in storeBuild and checked against India revenue in LENSKART.ctx.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "roll": [
+  "FY28E",
+  "FY29E",
+  0.5
+ ],
+ "segments": [
+  {
+   "key": "india",
+   "name": "India",
+   "driverLabel": "Revenue",
+   "base": 5260.1,
+   "growth": [
+    29,
+    25,
+    22
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    22.3,
+    23.3,
+    24.2
+   ],
+   "marginLabel": "segment EBITDA (before ESOP)",
+   "hist": {
+    "driver": "indiaRev",
+    "revenue": "indiaRev",
+    "adjEbitda": "indiaEbitdaPreEsop"
+   },
+   "_why": "FY26 +29.5% (₹4,061 cr to ₹5,260 cr, AR FY26 note 41); Q1FY27 +30.7% (SSSG 18.3%, SPSG 24.3%, 116 net new stores). FY27E +29%: stores grow ~21% (store build) on top of SSSG in the mid-teens; Q1 SSSG was already 6 points below Q4FY26's 24.2%. FY28-29E +25% / +22%: management's ~25% volume yardstick, slower SSSG as the base matures and Tier 2+ stores (lower revenue per store) dominate openings.",
+   "_marginWhy": "Segment EBITDA before ESOP was 12.3% of revenue in FY25 and 20.5% in FY26; Q1FY27 21.4% after ESOP (19.4% a year earlier). FY26 quarters rose from 19.4% (Q1) to 21.1% (Q4), so a full year runs ~1 point above Q1. We assume 22.3% / 23.3% / 24.2%: about 1 point a year from employee, marketing and rent leverage (Q4FY26 letter: 270 bp, 80 bp, 70 bp), partly reinvested in Tier 2+ staffing. Pre-IndAS this is ~16.5-18.5% against the ~25% long-term aim."
+  },
+  {
+   "key": "intl",
+   "name": "International",
+   "driverLabel": "Revenue",
+   "base": 3606,
+   "growth": [
+    27,
+    20,
+    18
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    21,
+    21.8,
+    22.5
+   ],
+   "marginLabel": "segment EBITDA (before ESOP)",
+   "hist": {
+    "driver": "intlRev",
+    "revenue": "intlRev",
+    "adjEbitda": "intlEbitdaPreEsop"
+   },
+   "_why": "FY26 +36.7% (₹2,639 cr to ₹3,606 cr) with Meller added and rupee weakness; Q1FY27 +38.0% reported, ~29% in constant currency, with only 16 net new stores. FY27E +27%: constant-currency ~22-24% plus a fading currency gain; FY28-29E +20% / +18% (same-store led, Meller scaling towards ~US$70 mn, measured store additions).",
+   "_marginWhy": "19.3% before ESOP in FY26 (17.6% in FY25); Q1FY27 21.9% (16.9% a year earlier), helped by the sunglasses season; management asks investors to judge it on a trailing twelve-month basis. Pre-IndAS margin 3.6% (FY25), 7.0% (FY26), 10.6% (Q1FY27). We assume 21.0% / 21.8% / 22.5%: product-margin gains (77.1% in Q1FY27) and rent leverage, with marketing kept high."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-segment sales",
+   "driverLabel": "Revenue",
+   "base": -52.1,
+   "growth": [
+    29,
+    25,
+    22
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elim",
+    "revenue": "elim",
+    "adjEbitda": null
+   },
+   "_why": "India sells frames and lenses to International: ₹46.7 cr in FY25, ₹52.1 cr in FY26 (~1% of India revenue), eliminated on consolidation. Grows with India.",
+   "_marginWhy": "Zero: the margin effect is in the unallocated line."
+  }
+ ],
+ "unallocated": [
+  8,
+  8,
+  8
+ ],
+ "_unallocLabel": "Inter-segment EBITDA elimination",
+ "_unallocWhy": "Consolidated EBITDA less the two segments: +₹23 cr in FY25, −₹8 cr in FY26 (AR FY26 note 41: unrealised profit on inter-segment stock). We assume a ₹8 cr cost a year.",
+ "esop": [
+  16,
+  19,
+  22
+ ],
+ "_esopWhy": "Share-based payment ₹8.9 cr in FY25 and ₹12.8 cr in FY26 (AR FY26 note 27; standalone ₹9.0 cr). Small for a listed consumer-tech company. We assume ₹16 / 19 / 22 cr as grants under the 2021 plan continue (non-cash; added back to cash flow and equity).",
+ "capex": [
+  1760,
+  1820,
+  1850
+ ],
+ "_capexWhy": "Cash capex plus the principal part of lease payments, because reported EBITDA excludes rent (ETERNAL/SWIGGY treatment). Cash capex: ₹416 cr in FY25, ₹828 cr in FY26 (stores, plant, Hyderabad land), ₹207 cr in Q1FY27 (stores ₹75 cr, plant ₹132 cr). Hyderabad (~₹1,500 cr estimated, foundation stone Mar-2025) is commissioning in ~18 months from May-2026 with a large part of the outlay in FY27. We assume cash capex ₹1,000 / 900 / 750 cr (plant ₹600 / 450 / 250 cr, stores and technology ₹400 / 450 / 500 cr for ~600 net new stores a year). Lease principal ₹469 cr (FY25), ₹620 cr (FY26); we assume ₹760 / 920 / 1,100 cr as the store base grows ~20% a year.",
+ "depRateOnGrossBlock": 13.2,
+ "_depWhy": "FY26 depreciation ₹1,048 cr (right-of-use ₹704 cr, AR note 28) = 12.9% of average gross block (₹8,136 cr, Screener incl. right-of-use). Q1FY27 ₹305 cr (₹1,220 cr annualised, rising ~5% a quarter). 13.2% gives FY27E ~₹1,310 cr. The engine depreciates capex (including the lease-principal proxy for new right-of-use assets) at once; CWIP (₹112 cr) is held flat.",
+ "treasuryYield": [
+  6.5,
+  6.5,
+  6.5
+ ],
+ "otherIncome": [
+  212,
+  212,
+  212
+ ],
+ "_treasuryWhy": "Applied to the model's opening net treasury: cash ₹1,544 cr + investments ₹571 cr + bank deposits in other financial assets ₹1,985 cr (otherTreasury) less borrowings including ₹2,877 cr of lease liabilities = ₹1,003 cr at Mar-2026. Bank deposits and debt funds earn ~6.5%.",
+ "_otherIncomeWhy": "Two parts, each sourced. (1) Income on the gross cash that the model nets against lease liabilities: the company's net cash was ₹3,881 cr at Mar-2026 (₹4,104 cr at Jun-2026) before leases, and 6.5% on the ₹2,877 cr lease offset = ₹187 cr. (2) Recurring non-treasury items, ₹24 cr in FY26 (AR note 25: security-deposit interest ₹7.4 cr, grants ₹6.1 cr, misc ₹7.0 cr, lease-termination gains ₹3.1 cr), ~₹25 cr. FY27E total ≈ ₹277 cr = Q1FY27's ₹69 cr annualised (₹276 cr). FY26's ₹174 cr is lower because the IPO cash arrived in Nov-2025 and includes ₹19 cr of one-offs (liabilities written back, call-option gain); the TTM to Jun-2026 is ₹186 cr.",
+ "interest": [
+  220,
+  265,
+  315
+ ],
+ "_interestLabel": "Finance cost (mostly lease interest)",
+ "_interestWhy": "FY26 ₹178 cr, of which lease interest ₹163 cr (AR note 29); Q1FY27 ₹53 cr (₹212 cr annualised). Lease interest grows with the store base (~20% a year); bank debt is small (₹220 cr).",
+ "taxRate": [
+  26.5,
+  26.5,
+  26.5
+ ],
+ "_taxWhy": "Q1FY27 24%, FY26 26.4% (incl. non-deductible IPO costs and impairment). India 25.17% regime plus higher-tax overseas units (Japan). The engine has no minority line, so we add ~1.5 points for minorities' share (2.1% of PAT in the year to Jun-2026, 1.5% in FY26): 26.5%.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividend since listing; cash goes to stores, Hyderabad and acquisitions (IPO objects include ₹683 cr for acquisitions and general purposes).",
+ "otherTreasury": {
+  "base": 1985,
+  "label": "Bank deposits held in other financial assets (treasury)",
+  "_why": "Company-reported net cash ₹3,880.8 cr at Mar-2026 (Q4FY26 letter, excluding IPO-related payables) plus ₹219.6 cr of bank borrowings = ₹4,100 cr gross, less Screener's cash ₹1,544 cr and investments ₹571 cr. Matches AR note 7 (bank deposits due within 12 months ₹1,976 cr, NBFC deposits ₹10.6 cr) and note 6 (long deposits ₹26.9 cr)."
+ },
+ "storeBuild": {
+  "_why": "India stores: 2,067 (Mar-25), 2,609 (Mar-26), 2,725 (Jun-26). Net additions FY27 'at or around FY26 levels' (company); we assume 540 / 560 / 580 in India. India revenue per average store rose 6.7% in FY26 (₹2.25 cr on 2,338 average stores vs ₹2.11 cr; India revenue includes online, ~50% digitally influenced). We assume +4.8% / +5.0% / +4.6% (SSSG in the mid-teens diluted by young Tier 2+ stores, which start at ~₹16-18 lakh a month, i.e. ~₹2 cr a year), which must reproduce the India growth above within 1.5 points (checked in LENSKART.ctx.js).",
+  "indiaStoresMar26": 2609,
+  "indiaStoresMar25": 2067,
+  "netAdds": [
+   540,
+   560,
+   580
+  ],
+  "revPerStoreGrowth": [
+   4.8,
+   5,
+   4.6
+  ]
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 27,
+  "fadeCapexPctTo": 8,
+  "depPctOfSales": 7.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Discretionary-medical retail with high growth and a short listed history: beta 1.0, cost of equity 12.5%. Bank debt is negligible; lease liabilities are deducted as debt, so the cost of equity is the discount rate.",
+  "_tgWhy": "Eyewear is under-penetrated (78 cr Indians need correction, ~35% use glasses, company) and premiumising: 6%, the top of the house range.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~20% in FY29E to 9% by FY42E.",
+  "_fadeMarginWhy": "EBITDA (post-IndAS) fades up to 27% of revenue: consistent with the ~25% pre-IndAS long-term aim less ~6-8 points of rent that sits in depreciation and interest, but below a full delivery of it.",
+  "_fadeCapexWhy": "Capex including lease principal fades from ~11% of revenue (FY29E) to 8% (cash capex ~3%, leases ~5%); depreciation incl. right-of-use 7.5% of revenue long run (11.9% in FY26)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "India SSSG stays near 20% and Tier 2+ stores ramp like the older ones; International keeps compounding at 25% with Meller and the Middle East; operating leverage takes segment EBITDA ~1.5 points above our base by FY29E; Hyderabad brings frames and lenses in-house on time.",
+   "segments": {
+    "india": {
+     "growthDelta": 3,
+     "marginDelta": 1.2
+    },
+    "intl": {
+     "growthDelta": 3,
+     "marginDelta": 1
+    }
+   },
+   "fadeMarginTo": 29
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Store additions outrun demand: SSSG drops to high single digits, Tier 2+ stores mature at lower revenue; the rupee keeps weakening against the RMB/yen (imported frames), squeezing product margin; International margins slip back towards FY26 levels as marketing stays high.",
+   "segments": {
+    "india": {
+     "growthDelta": -6,
+     "marginDelta": -1.8
+    },
+    "intl": {
+     "growthDelta": -6,
+     "marginDelta": -1.5
+    }
+   },
+   "fadeMarginTo": 23
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 27,
+      "bull": 30.5,
+      "bear": 25
+     },
+     "why": "How the street values Lenskart: EV/EBITDA, 1.5-2 years forward (MOFSL 49x Sep-28E, Emkay 56x Jun-28E, Equirus 58x, Jefferies/Elara 50x FY28E, all on pre-IndAS EBITDA; JM and ICICI Securities DCF-implied 48-53x). We apply the multiple to reported (post-IndAS) EBITDA with lease liabilities in net debt, the basis on which the stock's own history can be measured. Derived in LENSKART.ctx.js (own forward EV/EBITDA median since listing x the retail peers' EV/EBITDA move over the same window) and written by LENSKART.val.js."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 73,
+      "bull": 83,
+      "bear": 67.5
+     },
+     "why": "Own forward P/E median since listing x the retail peers' P/E move over the same window (LENSKART.ctx.js)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF (lease principal treated as capex), cost of equity 12.5%, terminal growth 6%."
+    }
+   ]
+  }
+ },
+ "rentBuild": {
+  "_why": "Rent under Ind AS 116 = lease principal + lease interest (cash), used only to translate our post-IndAS EBITDA into the pre-IndAS (after-rent) EBITDA the street values. FY25 ₹469 + ₹125 cr, FY26 ₹620 + ₹163 cr (AR FY26 cash flow); Q1FY27 rent implied by the company's two EBITDA figures ₹227 cr (₹588 cr less ₹361 cr). Lease principal as in capex; lease interest = finance cost less ~₹15 cr of other interest.",
+  "leasePrincipal": [
+   760,
+   920,
+   1100
+  ],
+  "leaseInterest": [
+   205,
+   250,
+   300
+  ],
+  "fy26": {
+   "leasePrincipal": 619.6,
+   "leaseInterest": 163.4
+  }
+ }
+}
