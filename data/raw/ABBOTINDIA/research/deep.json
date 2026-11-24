@@ -1,0 +1,136 @@
+{
+ "asOf": "2026-09-30",
+ "units": "₹ crore unless stated",
+ "industry": {
+  "ipm": "Indian domestic formulations market ₹2,565 bn in FY26, +9.9% (IQVIA, via Mankind AR FY26 industry section); Abbott India: the IPM 'has historically delivered 8-9% growth', volume growth 'moderate at 5-6%', pricing 'stable and regulated' (AR FY26 MD&A)",
+  "ipmGrowth": "IPM growth rose to double digits in 2026: Q1FY27 IPM +13.0% ex-tirzepatide (Mankind deck); ~12% IQVIA growth for Abbott India's brands in the June quarter (ICICI Direct)",
+  "pricing": "Scheduled (NLEM) drugs: ceiling prices +0.65% from 1-Apr-2026 (WPI 2025); non-scheduled: up to 10% a year. ~26% of Abbott's own portfolio is NLEM (Thyronorm fully)",
+  "glp1": "Semaglutide's patent expired 20-Mar-2026; 20+ companies launched, Novo cut prices up to 48%. Abbott commercialises Extensior (second Ozempic brand) from Feb-2026; Rybelsus (Novo, marketed by Abbott) fell 16% (IQVIA MAT Jul-26)",
+  "insulin": "Novo Nordisk is winding down cartridge and pen insulin formats in India (Apr-2025); Biocon, Wockhardt, Eris and Lupin are expanding to fill a ~₹450-600 cr gap",
+  "mnc": "MNC pharma in India (Abbott India, Sanofi India, Pfizer, GSK Pharma) run asset-light models with high payouts, parent-sourced brands and limited new-molecule pipelines; Abbott India is the largest and fastest-growing listed MNC (ICICI Direct: 'standout performer among MNCs')",
+  "src": "AR FY26 MD&A (pp. 35-36); https://www.bseindia.com/xml-data/corpfiling/AttachHis/8d06aceb-5f6d-4492-bac3-ad6b6d063172.pdf; ICICI Direct 13-Aug-2026; Medical Dialogues / Business Standard (insulin); Business Today 31-Mar-2026",
+  "published": "2026-08-13"
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": {
+   "LUPIN": "Loss years inside the window distort its median P/E",
+   "GLENMARK": "Loss years inside the window",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window",
+   "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (Q4FY26 EPS ₹2.65)",
+   "MANKIND": "Listed May-2023: no five-year median"
+  },
+  "factorSet": 10.25,
+  "factorEvSet": 9.08,
+  "note": "PLAYBOOK §7c pharma peer set (set 23-Nov-2026). Factor for ABBOTINDIA (A20) = median of the other eight names' trailing P/E at the 30-Sep-2026 close vs their five-year medians: +10.25%. EV/EBITDA analogue over the same eight: +9.08% (our reproduction; used only for the EV/EBITDA cross-check)."
+ },
+ "street": {
+  "brokers": [
+   {
+    "broker": "BOB Capital Markets",
+    "date": "2026-09-03",
+    "rating": "Buy",
+    "tp": 30839,
+    "prevTp": 37431,
+    "method": "P/E",
+    "multiple": "32x",
+    "on": "Sep-28E EPS",
+    "epsUsed": 964,
+    "eps": { "FY27E": 794.4, "FY28E": 887.9, "FY29E": 999.6 },
+    "sales": { "FY27E": 7373, "FY28E": 7993, "FY29E": 8714 },
+    "ebitda": { "FY27E": 2077, "FY28E": 2334, "FY29E": 2643 },
+    "thesis": "Core portfolio grows with the IPM (+10% MAT Jul-26) but Udiliv, Digene and Duphaston lag and the 35% Novo portfolio declines; growth normalises to 8-9%, so multiple cut from 40x to 32x",
+    "src": "BOBCAPS company update, 3-Sep-2026: https://www.barodaetrade.com/Reports/AbbottIndia-CompanyUpdate3Sep26-Research.pdf"
+   },
+   {
+    "broker": "ICICI Direct",
+    "date": "2026-08-13",
+    "rating": "Buy",
+    "tp": 32210,
+    "prevTp": 32400,
+    "method": "P/E",
+    "multiple": "36x",
+    "on": "FY28E EPS",
+    "epsUsed": 894.6,
+    "eps": { "FY27E": 800.6, "FY28E": 894.6 },
+    "sales": { "FY27E": 7488, "FY28E": 8237 },
+    "ebitda": { "FY27E": 2065, "FY28E": 2314 },
+    "thesis": "Power brands (Thyronorm, Cremaffin Plus, Vertin, Influvac) offset Novo-led fluctuations; Q1 may be an aberration; premium justified by brand stickiness and 75 launches planned in five years",
+    "src": "ICICI Securities retail (ICICI Direct) result update, 13-Aug-2026: https://dsijpub.s3.ap-south-1.amazonaws.com/productAttachment/BrokerRecommendation/idirect_abbott_q1fy27.pdf"
+   },
+   {
+    "broker": "ICICI Securities (institutional)",
+    "date": "2025-11-09",
+    "rating": "Buy",
+    "tp": 34500,
+    "method": "P/E",
+    "multiple": "38x",
+    "on": "FY27E EPS",
+    "thesis": "Q2FY26 update (report not read; Trendlyne listing and press summary). Standing on 30-Sep-2026 but predates Q4FY26 and Q1FY27",
+    "src": "Trendlyne research-report listing (9-Nov-2025); Whalesbook summary: https://www.whalesbook.com/news/English/healthcarebiotech/Abbott-India-HUGE-Investment-Opportunity-Unveiled-ICICI-Securities-Upgrades-to-BUY-See-the-New-Target/691205c3d4f9ff86a5dfb0c6"
+   }
+  ],
+  "superseded": [
+   { "broker": "BOB Capital Markets", "date": "2026-08-13", "rating": "Buy", "tp": 37431, "method": "P/E 40x Jun-28E EPS (₹936)", "src": "https://www.barodaetrade.com/Reports/AbbottIndia-Q1FY27ResultReview13Aug26-Research.pdf" },
+   { "broker": "BOB Capital Markets", "date": "2026-05-13", "rating": "Buy", "tp": 36457, "method": "P/E 40x Mar-28E EPS", "src": "https://www.barodaetrade.com/Reports/AbbottIndia-Q4FY26ResultReview13May26-Research.pdf" },
+   { "broker": "ICICI Direct", "date": "2026-05-12", "rating": "Buy", "tp": 32400, "method": "n.d. (Trendlyne listing)", "src": "Trendlyne" },
+   { "broker": "Sharekhan", "date": "2025-09-17", "rating": "Buy", "tp": 34470, "method": "n.d.", "src": "Trendlyne listing; older than 12 months on 30-Sep-2026" }
+  ],
+  "consensus": { "epsFY27E": 818.7, "epsFY28E": 903.2, "src": "Bloomberg consensus as printed in BOBCAPS company update, 3-Sep-2026", "avgTpJun26": 32563, "analystsJun26": 8, "tpSrc": "StockAnalysis (S&P Global), 5-Jun-2026: https://stockanalysis.com/quote/bom/500488/forecast/" },
+  "note": "Notes standing on 30-Sep-2026 that we could read or whose summary is public. All three that disclose a method use P/E: BOB Capital Markets 32x Sep-28E EPS (3-Sep-2026), ICICI Direct 36x FY28E (13-Aug-2026), ICICI Securities institutional 38x FY27E (9-Nov-2025, not updated by 30-Sep). Abbott India holds no earnings calls; coverage is thin. Notes from other houses dated by 30-Sep-2026 were not found; later Q2FY27 notes (Nov-2026) are not used."
+ },
+ "ownership": {
+  "date": "Jun-2026",
+  "promoters": 74.99,
+  "promoterEntities": "Abbott Capital India Ltd, UK 50.45%; Abbott Healthcare Products Ltd, UK 17.62%; British Colloids Ltd, UK 6.92% (stakes implied by FY26 dividends remitted ÷ ₹475 a share; AR FY26 BRSR gives 50.45% for Abbott Capital India)",
+  "fiis": 0.38,
+  "diis": 8.77,
+  "public": 15.85,
+  "shareholders": 78320,
+  "freeFloatPct": 25.01,
+  "pledge": "None",
+  "liquidity": "3-month average daily traded value ~US$3.0mn (BOBCAPS, 2-Sep-2026), ~0.05% of market value a day",
+  "trend": "Promoter holding fixed at 74.99% (the 75% cap under minimum public shareholding); FIIs 0.16% → 0.38% since Mar-2025; DIIs steady at 8.7-9.2%",
+  "src": "BSE shareholding pattern via Screener.in (Jun-2026); AR FY26 note 39 and BRSR; BOBCAPS 3-Sep-2026",
+  "published": "2026-07-21"
+ },
+ "stockEvents": [
+  { "date": "2025-06-27", "what": "All-time high on weekly closes, ₹34,940" },
+  { "date": "2025-11-07", "what": "Q2FY26: revenue +7.6%; stock ~₹28,800" },
+  { "date": "2026-04-24", "what": "Low of ₹25,180 (weekly) after a 28% fall from the peak, as revenue growth slowed to 7-8% and Novo brands declined" },
+  { "date": "2026-05-11", "what": "FY26 results and ₹656 dividend (incl. ₹131 special); stock ~₹26,900" },
+  { "date": "2026-08-12", "what": "Q1FY27: revenue +4.3% (below expectations), PAT +17%; stock ~₹27,800 before, ~₹27,060 a week later" },
+  { "date": "2026-09-03", "what": "BOBCAPS cuts target to ₹30,839 (32x) from ₹37,431 (40x); stock ~₹26,000" },
+  { "date": "2026-09-30", "what": "Close ₹27,125 (NSE)" }
+ ],
+ "stockEventsSrc": "Screener.in weekly price series; broker notes; data/market/closes/2026-09-30.json",
+ "moat": {
+  "strengths": ["Category-leading brands with decades of prescriber trust (Thyronorm, Udiliv, Duphalac, Cremaffin, Digene, Vertin, Duphaston)", "Access to Abbott's global brands and in-licensing at no royalty", "Asset-light model, ~0 capex, 35%+ return on equity, ₹4,400 cr of cash"],
+  "weaknesses": ["No own R&D pipeline; launches are line extensions and in-licensed products", "35% of revenue is a low-margin distribution business that depends on Novo Nordisk's choices", "Key molecules face generics (dydrogesterone) and price control (levothyroxine)"]
+ },
+ "critiques": [
+  ["Growth has slowed to 8% (FY26) and 4% (Q1FY27); the 15-17% EPS growth of FY21-25 came partly from margin expansion that is now mature", "BOBCAPS (3-Sep-2026): normalised growth 8-9%, multiple cut to 32x"],
+  ["The Novo portfolio (35% of sales) is shrinking: cartridges discontinued, Mixtard −31%, Rybelsus −16% after semaglutide generics; Extensior faces 20+ generics", "BOBCAPS; ICICI Direct"],
+  ["Udiliv (+3% MAT Jul-26), Digene (−1%) and Duphaston (+6%) grow below the market; dydrogesterone faces cheaper generics", "BOBCAPS; AR FY26 women's health"],
+  ["No earnings calls since 2022; the company does not split own vs partner revenue, so investors rely on IQVIA/Pharmarack", "ICICI Direct; investor meet 2022"],
+  ["Thyronorm (largest own brand) is fully price-controlled; ~26% of own business is NLEM; the FY27 WPI increase is only 0.65%", "Investor meet 2022; NPPA"],
+  ["Cash (₹4,400 cr, 7.7% of market value) earns ~6% pre-tax and the parent decides how much comes back as dividends", "GAM"]
+ ],
+ "gaps": [
+  "Abbott India does not disclose revenue by therapy, by brand or own vs partner (Novo) business; we use BOBCAPS' company-sourced split (FY21-24) and its 65/35 estimate for FY26",
+  "No management guidance: no earnings calls or presentations since Sep-2022",
+  "The economics of the Novo distribution agreement (margin, term, renewal) are not disclosed",
+  "NLEM share of the own portfolio is last disclosed for 2022 (26%); no update",
+  "Medical representative count last disclosed by a broker for FY24 (~3,250)",
+  "Broker notes from houses other than BOBCAPS and ICICI dated by 30-Sep-2026 not found; ICICI Securities institutional's Nov-2025 note read only via a summary; Sharekhan's Sep-2025 method not disclosed",
+  "Half-year (Sep-2025) balance sheet treasury not used for the EV history; net cash between year-ends is interpolated"
+ ],
+ "conflicts": [
+  "BOBCAPS lists 'increase in royalty from the parent company' as a key risk, but the AR FY26 says no price is paid or payable for marketing rights obtained from Abbott affiliates and no royalty line appears in related-party transactions; we follow the annual report",
+  "BOBCAPS' FY26 revenue base differs between notes (₹6,929 cr in Aug-2026, ₹6,827 cr in Sep-2026); we use the reported ₹6,929 cr",
+  "BOBCAPS shows free float of 50% (2026 notes) and 24% (2025 initiation); the shareholding pattern gives 25.0%",
+  "Screener's EV/EBITDA for Abbott includes other income in EBITDA and deducts only cash equivalents (not long-term deposits); we compute our own EV/EBITDA (operating EBITDA, all treasury deducted) for the cross-check",
+  "Press summaries give Q1FY27 revenue as ₹1,889 cr (total income incl. other income) and ₹1,814 cr (revenue from operations); we use ₹1,813.7 cr"
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Abbott India (standalone; no subsidiaries; FY = April-March, ₹ crore). One reported segment, so the engine runs one revenue-growth path and one EBITDA-margin path; the business-line build (own brands vs Novo Nordisk partner brands) sits in `businessLines` and the authoring script checks that it sums to model revenue. Other income = treasury yield x opening net cash on the company's basis (cash + all bank term deposits incl. those over 12 months, less lease liabilities: Rs4,238 cr at Mar-26) + recurring non-treasury income. Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  5.75,
+  7.8,
+  7.9
+ ],
+ "_revenueWhy": "Built by business (see businessLines; the script checks the sum). FY27E +5.75%: own brands +11% (Q1FY27 ~+11% on Pharmarack; IQVIA ~12% for the June quarter; most power brands +10-12%; Thyronorm +12.7%, Cremaffin Plus +19.8%, Vertin +18.3%, Influvac +25.2% on MAT Jul-26, but Udiliv +3%, Digene -1%, Duphaston +6% (Pharmarack); price growth limited: NLEM ceiling +0.65% from Apr-2026 on ~26% of the own portfolio) and Novo partner brands -4% (cartridge and pen insulins discontinued from 2025, Mixtard -31% and Rybelsus -16% on MAT Jul-26, partly offset by Extensior from Mar-2026). Q1FY27 was +4.3%; Q2-Q4 at the Q1 run-rate with normal seasonality gives ~Rs7,320 cr. FY28E +7.8%: own +10.5%, partner +2% (Extensior volume, Novo decline annualised). FY29E +7.9%: own +10%, partner +3%. Below the street (BOBCAPS +8% FY27E, ICICI Direct +8%) because we take the Q1 partner decline as lasting.",
+ "businessLines": {
+  "_why": "Company does not split revenue. FY26 base = 65% own brands / 35% Novo partner brands (BOBCAPS Q4FY26 review: core portfolio 65% of sales; BOBCAPS 3-Sep-2026: in-licensed Novo portfolio 35% of sales; company split FY21-24 was 64-66% / 34-36%). Own brands include services income from Abbott affiliates (Rs81 cr).",
+  "base": {
+   "own": 4504.03,
+   "partner": 2425.02
+  },
+  "growth": {
+   "own": [
+    11,
+    10.5,
+    10
+   ],
+   "partner": [
+    -4,
+    2,
+    3
+   ]
+  }
+ },
+ "ebitdaMargin": [
+  28.5,
+  29,
+  29.5
+ ],
+ "_marginWhy": "EBITDA before other income: 26.4% (FY25), 27.3% (FY26), 28.8% in Q1FY27 (gross margin +283bp to 48.6% as low-margin partner sales fell and own brands grew). Mix does most of the work: BOBCAPS puts the core portfolio's EBITDA margin at 41.8% (Q4FY26) against a distribution margin of a few per cent on Novo products, so each point of mix shift adds ~0.4pp. FY27E 28.5%: Q1 28.8%, with Q3 carrying the annual salary cycle (Q3FY26 26.9%) and FY26's labour-code charge (Rs18 cr) not repeating. FY28E 29.0% and FY29E 29.5%: own brands rise from 68% to 71% of revenue; we hold the own-brand margin roughly flat (more launches, field-force investment). BOBCAPS models 28.2/29.2/30.3%, ICICI Direct 27.6/28.1%.",
+ "capex": [
+  60,
+  60,
+  65
+ ],
+ "_capexWhy": "Cash capex Rs53 cr (FY25) and Rs41 cr (FY26) plus right-of-use additions (Rs169 cr in FY25 for a new office lease, Rs15 cr in FY26); capital commitments only Rs0.5 cr at Mar-26 (AR FY26 note 37). We use Rs60-65 cr a year including lease additions.",
+ "depRateOnGrossBlock": 13.2,
+ "_depWhy": "FY26 depreciation Rs76 cr (PPE Rs28.7 cr, intangibles Rs2.9 cr, right-of-use Rs44.4 cr); Q1FY27 Rs19.8 cr (Rs79 cr annualised). Rate chosen so FY27E depreciation is ~Rs80 cr on the engine's gross block (CWIP held flat).",
+ "otherTreasury": {
+  "base": 2155.38,
+  "_why": "Company treasury at Mar-26 = cash and equivalents Rs442.33 cr + term deposits of 3-12 months Rs1,790.00 cr + term deposits with more than 12 months to maturity Rs2,178.00 cr (non-current other financial assets) = Rs4,410.33 cr (AR FY26 notes 6, 10, 11). Screener counts Rs2,254.95 cr as cash (incl. Rs21.28 cr earmarked for unpaid dividends and Rs1.34 cr of margin money) and puts the long deposits in other assets. Adjustment = 2,178.00 - 21.28 - 1.34 = +Rs2,155.38 cr, so the model's opening treasury equals the company's Rs4,410 cr; less Rs172 cr of lease liabilities (Screener borrowings) = Rs4,238 cr of net cash. Interest accrued on deposits (Rs139 cr) is left out."
+ },
+ "treasuryYield": [
+  6,
+  5.75,
+  5.75
+ ],
+ "_treasuryWhy": "FY26 interest on fixed deposits Rs256.75 cr on average deposits and cash of Rs4,098 cr (Mar-25 Rs3,785 cr, Mar-26 Rs4,410 cr) = 6.27% (AR FY26 notes 10-12, 25). Deposits were placed when the repo rate was 6.5%; it was 5.25% when the RBI held it on 5-Aug-2026, so the yield drifts down as one-to-two-year deposits roll over: 6.0% in FY27E, 5.75% after. Applied to opening net cash (the engine has no intra-year timing; the Rs1,394 cr FY26 dividend leaves in Aug-2026 and the engine deducts the FY27 dividend instead, of similar size).",
+ "otherIncome": [
+  10,
+  10,
+  10
+ ],
+ "_otherIncomeWhy": "Recurring non-treasury other income (AR FY26 note 25): steady items ~Rs3 cr (interest on security deposits Rs1.1 cr, rent from an affiliate Rs1.2 cr, other interest and miscellaneous Rs0.7 cr) plus lumpy liabilities written back and insurance/carrier claims (Rs14.8 cr in FY25, Rs12.0 cr in FY26), of which we take about half: ~Rs10 cr a year. Left out as one-offs (Rs16.4 cr in FY26): interest on an income-tax refund Rs10.6 cr, gain on selling two Mumbai offices Rs4.1 cr, exchange gain Rs1.6 cr. FY27E total other income ~Rs264 cr vs Rs288 cr in FY26 and Rs291 cr in the twelve months to Jun-26: the gap is the one-offs, half the lumpy items and the lower deposit yield (6.0% vs 6.27%).",
+ "interest": [
+  24,
+  22,
+  20
+ ],
+ "_interestLabel": "Finance cost (interest on lease liabilities, unwinding of provisions)",
+ "_interestWhy": "FY26 Rs25.0 cr = lease interest Rs18.0 cr (Rs125 cr of the Rs172 cr lease liability is to Abbott Healthcare for office space) + other Rs2.7 cr + unwinding of provisions Rs4.3 cr; Q1FY27 Rs5.9 cr. Falls as the lease liability amortises. No borrowings.",
+ "taxRate": [
+  25.3,
+  25.3,
+  25.3
+ ],
+ "_taxWhy": "Effective rate 25.4% in FY26 (25.7% before Rs6.8 cr of prior-year credits) and 25.1% in Q1FY27; new-regime 25.17% plus disallowances.",
+ "payout": [
+  80,
+  80,
+  80
+ ],
+ "_payoutWhy": "Total payout (final + special) 84.6% / 73.2% / 72.7% / 72.5% / 71.4% / 89.8% in FY21-26: average 77%; the final dividend alone has been ~72% for three years and specials come irregularly (FY26 Rs131 a share). No target payout is disclosed. We use 80%. Timing: the engine deducts each year's dividend in that year; in reality it is paid in August of the next year, so FY27's engine outflow (~Rs1,390 cr) stands in for the Rs1,394 cr FY26 dividend actually paid in Aug-2026.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.8,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 30,
+  "fadeCapexPctTo": 1,
+  "depPctOfSales": 1.1,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Debt-free, cash-rich, India-only branded pharma with an MNC parent: defensive earnings. We keep 0.8 (Ke 11.3%), the same as the other pharma initiations, rather than a lower beta that would flatter the DCF.",
+  "_tgWhy": "6%: the Indian pharma market grows ~9-10% in value; Abbott's own brands grow with it, the partner business slower; a long-run nominal rupee growth of 6% is below both.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~8% to 8% (own brands ~10%, partner brands low single digits, mix shifting to own brands).",
+  "_fadeMarginWhy": "Margin creeps from 29.5% to 30% on mix; no further expansion is assumed (reinvestment in launches and field force).",
+  "_fadeCapexWhy": "Capex ~1% of revenue (incl. right-of-use additions; FY24-26 average ~0.8% plus leases); depreciation 1.1% of revenue (FY26 1.1%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Own brands keep growing at 12-13% (IPM in double digits, Thyronorm, Cremaffin, Vertin, Arachitol and the 75 planned launches), Extensior and Ryzodeg stabilise the partner business, and mix lifts margins faster.",
+   "revenueGrowthDelta": 2.5,
+   "marginDelta": 1,
+   "fadeMarginTo": 31
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Novo shrinks its Indian portfolio further or ends the arrangement, generics erode Duphaston and Udiliv, and price control caps Thyronorm; revenue grows ~3% a year and margins stall.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 28
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 40,
+      "bull": 43,
+      "bear": 37.5
+     },
+     "why": "How the street values Abbott India: P/E (BOB Capital Markets 32x Sep-28E EPS, 3-Sep-2026; ICICI Direct 36x FY28E, 13-Aug-2026; ICICI Securities 38x FY27E, Nov-2025). 40x = Abbott's 36.1x median one-year-forward P/E since Apr-2021 (house forwardMedian on reported EPS; exceptional items are immaterial, so the pre-exceptional median is also 36.1x; no trough years: forward EPS was never below 108.3% of its prior three-year peak) times the pharma sector factor of 1.1025 (median of SUNPHARMA, DIVISLAB, TORNTPHARM, ZYDUSLIFE, CIPLA, AUROPHARMA, ALKEM, IPCALAB trailing P/E at the 30-Sep close vs their five-year medians: +10.25%, PLAYBOOK §7c; our reproduction +10.25%) = 39.8x, rounded to the nearest half-turn. No blend with Abbott's own de-rating (−25.6%) and no growth adjustment (sensitivity rows only). Bull 43x (75th percentile 39.1x x factor); bear 37.5x (25th percentile 34.1x x factor)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-27E (trailing at the target date)",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "multiple": {
+      "base": 39.5,
+      "bull": 41.5,
+      "bear": 37
+     },
+     "why": "Counts net cash at face value and ignores other income. Abbott's own trailing EV/EBITDA since Apr-2021 (market value less company net cash incl. long deposits, over operating EBITDA before other income; Screener's series includes other income and ignores long deposits) has a median of 36.0x; times the EV/EBITDA analogue of the sector factor (+9.1%, same eight peers) = 39.3x, rounded to 39.5x and applied to trailing EBITDA at the target date (half FY27E + half FY28E) plus net cash at Sep-2027. Bull 41.5x / bear 37x (75th / 25th percentile x factor)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at an 11.3% cost of equity, terminal growth 6%, plus net cash."
+    }
+   ]
+  }
+ }
+}
