@@ -1,0 +1,354 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for The Indian Hotels Company (consolidated, Rs crore). Built by reported segment: Hotels (room, F&B, other operating income and management fees, kept in businessLines.hotel and checked against the segment in INDHOTEL.ctx.js), Air catering (TajSATS, 51%) and the inter-segment elimination. Group operating EBITDA = sum of segments (post-Ind AS 116, as reported; other income below EBITDA). Minorities and associates have no line in the engine: they sit in the tax rate (see _taxWhy) and in the SOTP.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "hotel",
+   "name": "Hotels",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 8487,
+   "growth": [
+    14.29,
+    11.07,
+    10.19
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    35,
+    35.6,
+    36
+   ],
+   "hist": {
+    "driver": "hotelRev",
+    "revenue": "hotelRev",
+    "adjEbitda": "hotelEbitda"
+   },
+   "_why": "Sum of the four streams in businessLines.hotel: room revenue +14.5% / +11% / +10% (like-for-like RevPAR +7-9% a year, management's range, plus ~800 leased/owned keys in FY27 incl. Frankfurt, ANK/Pride, Atmantan and Brij for a full year; Q1FY27 room +16%), F&B +9.5% / +8.5% / +8% (Q1 +9%; weddings and MICE), other operating income +28% / +14% / +12% (Atmantan consolidated from 16-Jan-2026; Q1 +49%), management fees +19% / +18% / +17% (Q1 +26%; guide high-teens; 26,250 managed keys in the pipeline). FY27 +14.3% sits at the top of the 12-14% consolidated guide because air catering grows slower.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Operating EBITDA margin FY25 34.0%, FY26 34.3%, Q1FY27 30.1% (+1.1 pp YoY despite ~Rs12-15 cr of Frankfurt and Noida start-up costs; Q1 is the seasonally weakest quarter). 35.0% / 35.6% / 36.0%: operating leverage on like-for-like rate growth and a rising fee share (fees are ~80% margin), partly offset by leased hotels (license fees) and lower-margin acquisitions."
+  },
+  {
+   "key": "ac",
+   "name": "Air catering (TajSATS, 51%)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1210,
+   "growth": [
+    7,
+    12,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    21.5,
+    23,
+    23.5
+   ],
+   "hist": {
+    "driver": "acRev",
+    "revenue": "acRev",
+    "adjEbitda": "acEbitda"
+   },
+   "_why": "FY26 Rs1,210 cr (+17%, partly the full-year effect of consolidation from Aug-2024); Q1FY27 +3% as West Asia flight cuts hit international meals. +7% in FY27 (recovery from H2, management: 'three to six months' from double digits), then +12% with the Noida kitchen and airport traffic growth.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "FY26 23.7% (airport levy pass-through cost ~1-2 pp), Q1FY27 19.5% with Noida kitchen start-up costs. 21.5% / 23.0% / 23.5%."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-segment elimination",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": -8,
+   "growth": [
+    12,
+    11,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elimRev",
+    "revenue": "elimRev",
+    "adjEbitda": "elimEbitda"
+   },
+   "_why": "TajSATS meals sold to IHCL hotels; FY26 -Rs8 cr. Engine has no elimination line, so it is a negative segment with zero margin.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Nil EBITDA."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Corporate costs not in any segment",
+ "_unallocWhy": "Segments sum to consolidated operating EBITDA as reported (FY26 Rs2,907 + Rs287 = Rs3,194 cr vs Rs3,195 cr; Screener Rs3,196 cr).",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "businessLines": {
+  "_why": "Hotel segment build (Rs cr). FY26 base: room 4,283, F&B 2,829, other operating income 690, management fees 685 = 8,487 (Q4FY26 deck slide 45). Growth per stream in segments[0]._why.",
+  "hotel": {
+   "base": {
+    "room": 4283,
+    "fnb": 2829,
+    "other": 690,
+    "fees": 685
+   },
+   "growth": {
+    "room": [
+     14.5,
+     11,
+     10
+    ],
+    "fnb": [
+     9.5,
+     8.5,
+     8
+    ],
+    "other": [
+     28,
+     14,
+     12
+    ],
+    "fees": [
+     19,
+     18,
+     17
+    ]
+   }
+  }
+ },
+ "capex": [
+  1350,
+  1300,
+  1300
+ ],
+ "_capexWhy": "Cash capex guide Rs1,100-1,300 cr for FY27 and Rs1,000-1,200 cr a year after (renovations, greenfield on-balance-sheet keys: Bandstand, Shiroda, Lakshadweep, Ginger Goa Mopa, Bengaluru airport) plus ~Rs100-150 cr a year of new leases (right-of-use; Frankfurt in FY27), because the model's net cash deducts lease liabilities. FY26 capex Rs1,037 cr, FY25 Rs1,074 cr. Brij (Rs222 cr, Apr-2026) is not in capex; it is in the net cash bridge in the valuation chapter.",
+ "depRateOnGrossBlock": 3.8,
+ "_depWhy": "FY26 depreciation Rs605 cr = 3.8% of average gross block (Rs15,911 cr incl. right-of-use); Q1FY27 Rs163 cr (Rs652 cr annualised). 3.8% gives FY27E ~Rs670 cr with Frankfurt.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Zero: the engine would apply it to net cash after lease liabilities. Treasury income is built on gross cash in otherIncome.",
+ "otherIncome": [
+  330,
+  360,
+  390
+ ],
+ "_otherIncomeWhy": "Built from AR FY26 consolidated note 25 (Rs282 cr): treasury Rs219 cr (bank interest Rs93 cr + mutual-fund gains Rs126 cr) on ~Rs3,700 cr average gross cash = ~5.9%; dividends on equity investments Rs33 cr; other Rs30 cr. FY27E: ~6% on ~Rs4,700 cr average gross cash (Rs4,439 cr at Jun-26) = ~Rs280 cr + dividends ~Rs35 cr + other ~Rs15 cr = Rs330 cr (Q1FY27 Rs80 cr x 4 = Rs320 cr). Then +Rs30 cr a year as cash builds. Excludes exceptional items (Screener's FY26 Rs557 cr includes Rs309 cr of them) and the share of associates (in the tax rate).",
+ "interest": [
+  235,
+  245,
+  255
+ ],
+ "_interestLabel": "Finance cost (mostly lease interest)",
+ "_interestWhy": "FY26 Rs221 cr with gross bank debt of only Rs51 cr: it is almost all interest on Rs2,786 cr of lease liabilities. Q1FY27 Rs57 cr (Rs228 cr annualised); Frankfurt lease from Jun-2026 adds ~Rs10 cr.",
+ "taxRate": [
+  31,
+  31,
+  31
+ ],
+ "_taxWhy": "Tax plus minorities less associates (engine workaround: no minority or associate line). FY26 before exceptional items: PBT Rs2,650 cr, PAT before minorities and associates Rs1,960 cr (tax 26.0%), associates + minorities -Rs111 cr, attributable PAT Rs1,849 cr = 30.2% leakage. Q1FY27: PBT Rs533 cr to Rs358 cr = 32.8% (associates nil). 31%: tax ~25.5% + minorities ~6.5% of PBT (TajSATS 49%, PIEM 41%, Benares 48%, St James 20%, ANK/Pride/Atmantan/Brij 49%) less associates ~1%.",
+ "payout": [
+  20,
+  20,
+  20
+ ],
+ "_payoutWhy": "FY26 dividend Rs3.25 a share (incl. a special Rs0.50) = 22% of reported EPS; Rs2.75 ordinary = 21% of EPS before exceptional items. 20%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.95,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 34,
+  "fadeCapexPctTo": 8,
+  "depPctOfSales": 6,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash after lease liabilities, so the 12.2% cost of equity is also the WACC; beta 0.95: travel demand is cyclical (Covid, West Asia) but IHCL has no financial leverage.",
+  "_tgWhy": "Indian travel and hotel spending grows with nominal GDP; 6% nominal, the top of the house range.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10-11% to 8% by year 15 as like-for-like rate growth normalises and the managed pipeline matures.",
+  "_fadeMarginWhy": "34%: hotel margins ~36% diluted by TajSATS (~23%) and leased hotels; FY26 33.0%.",
+  "_fadeCapexWhy": "Capex fades from ~11% of revenue to 8% (renovation ~5% plus growth keys); FY26 10.7%."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "West Asia normalises by H2FY27, like-for-like RevPAR grows ~10% a year (Jefferies case), Frankfurt and the acquisitions ramp fast, fees compound at 20%+ and the market pays the top quartile of IHCL's own post-Covid multiple range after the same sector move.",
+   "fadeMarginTo": 36,
+   "segments": {
+    "hotel": {
+     "growthDelta": 2,
+     "marginDelta": 1
+    },
+    "ac": {
+     "growthDelta": 3,
+     "marginDelta": 1
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The 2026 travel shock lingers: inbound and MICE stay weak, like-for-like RevPAR grows ~4-5%, new supply in Goa, Bengaluru and Delhi caps rates, TajSATS stays near 20% margins and hotel multiples stay at the bottom quartile after the sector de-rating.",
+   "fadeMarginTo": 31,
+   "segments": {
+    "hotel": {
+     "growthDelta": -3,
+     "marginDelta": -1.5
+    },
+    "ac": {
+     "growthDelta": -4,
+     "marginDelta": -1.5
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 10,
+  "parts": [
+   {
+    "name": "Hotels (owned, leased and managed)",
+    "seg": "hotel",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E hotel EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 17.5,
+     "bull": 20.5,
+     "bear": 14.5
+    },
+    "note": "Post-Ind AS EBITDA; lease liabilities are in the net cash line. Multiple derived in the valuation chapter."
+   },
+   {
+    "name": "TajSATS: IHCL's 51% at the same multiple",
+    "seg": "ac",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E air catering EBITDA × EV/EBITDA × 51%",
+    "multiple": {
+     "base": 8.925,
+     "bull": 10.455,
+     "bear": 7.395
+    },
+    "note": "Same EV/EBITDA as hotels (ICICI Securities values TajSATS on its hotel multiple) × 51%; SATS's 49% is therefore not deducted again."
+   },
+   {
+    "name": "Less: minorities in hotel subsidiaries",
+    "adj": {
+     "base": -3550,
+     "bull": -4470,
+     "bear": -2630
+    },
+    "metricLabel": "5.0% (hotel minorities ÷ hotel profit before minorities) × hotel EV",
+    "note": "PIEM 41.35%, Benares 48.03%, St James Court 20.33%, United Hotels / NIHL ~45%, ANK, Pride, Atmantan and Brij 49% (AR FY26 note 39). Checked in INDHOTEL.ctx.js."
+   },
+   {
+    "name": "Oriental Hotels (35.86%) at market less 20%, replacing book",
+    "adj": {
+     "base": 408,
+     "bull": 499,
+     "bear": 316
+    },
+    "metricLabel": "6.40 cr shares × Rs142.36 (30-Sep-2026) × 0.8 − Rs322 cr book in model cash",
+    "note": "Listed associate; bull 10%, bear 30% discount. The 24-Aug-2026 merger scheme (25 IHCL for 117 OHL) is shown as a sensitivity."
+   },
+   {
+    "name": "Less: Brij acquisition paid after Mar-26 (not in model cash)",
+    "adj": {
+     "base": -222,
+     "bull": -222,
+     "bear": -222
+    },
+    "metricLabel": "Up to Rs222 cr for 51% (IHCL ~Rs127 cr, ANK ~Rs34 cr, Pride ~Rs61 cr), completed 21-Apr-2026",
+    "note": "Brij's EBITDA is in our hotel forecasts from FY27; its 49% minority is in the hotel minorities line."
+   },
+   {
+    "name": "Net cash at Sep-28E (model: cash and investments less borrowings incl. leases)",
+    "netCash": true,
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "½ Mar-28E + ½ Mar-29E",
+    "note": "Mar-26: Screener cash Rs1,831 cr + investments Rs3,606 cr (incl. JVs/associates at book) − borrowings Rs2,837 cr (bank Rs51 cr + leases Rs2,786 cr) = Rs2,600 cr."
+   }
+  ],
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts (EV/EBITDA)",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values IHCL: EV/EBITDA on FY28E or Jun-28E EBITDA (ICICI Direct 29x, Axis 27x, Anand Rathi ~26x, Nomura ~23x), three as a SOTP that deducts minorities and adds Oriental Hotels and 51% of TajSATS (Motilal Oswal 28x, ICICI Securities 30x)."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 26,
+      "bull": 30.5,
+      "bear": 22.5
+     },
+     "why": "Cross-check on attributable earnings: own forward P/E median adjusted for the sector P/E move."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, 12.2% discount rate, 6% terminal growth, plus net cash after leases."
+    }
+   ]
+  }
+ }
+}

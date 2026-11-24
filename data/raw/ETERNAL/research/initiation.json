@@ -1,0 +1,3395 @@
+{
+ "symbol": "ETERNAL",
+ "listing": "NSE: ETERNAL · BSE: 543320",
+ "date": "30 September 2026",
+ "rating": "HOLD",
+ "analysts": "GAM Research — Internet & Consumer Platforms",
+ "cover": {
+  "headline": "The best franchise in Indian consumer internet, fairly priced",
+  "lead": "Eternal owns India's #1 food-delivery app (Zomato), the #1 quick-commerce network (Blinkit), a going-out app (District) and a restaurant-supplies business (Hyperpure). At ₹{{P.last|num}} the stock is 8% below its 52-week high. Q1FY27 was strong: B2C order value +54%, food-delivery margin 5.6% of order value, and Blinkit profitable for a third quarter while adding 200 stores. But at a market value of ~₹3,08,812 cr the market already pays for most of the quick-commerce plan: valuing the other parts as we do, the price implies ~1.0x Blinkit's Sep-28E order value. Our sum of the parts gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with HOLD.** Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}} ({{scen.bear.upside|chg}}).",
+  "arguments": [
+   {
+    "h": "Food delivery: the profitable leader, growing faster again",
+    "p": "Zomato's NOV grew 20.1% in Q1FY27 (four quarters of acceleration) at a 5.6% margin, near the top of the 5-6% target. It is bigger, faster-growing and roughly twice as profitable as Swiggy's food business. Price-led entrants (Toing, Ownly) are the risk to watch."
+   },
+   {
+    "h": "Blinkit has won the quick-commerce scale race",
+    "p": "NOV +86.2% to ₹17,132 cr, ~2.9x Instamart; 2,443 stores; adjusted EBITDA +₹102 cr while every rival loses money. Management raised the steady-state margin target to 6% of NOV. We assume only 3.4% by FY29E."
+   },
+   {
+    "h": "Self-funding, but profit is thin and the tax rate is rising",
+    "p": "Cash rose to ₹18,288 cr in Q1FY27; the business now pays for its own stores and inventory. But reported profit is small (₹92 cr in Q1FY27) and tax jumped to 66% of profit before tax as the parent's past losses ran out. Our FY27E EPS ({{F.eps.0|n1}}) is well below consensus."
+   },
+   {
+    "h": "Valuation: fair, with Blinkit priced at ~1x order value",
+    "p": "Our sum of the parts (food 37.5x Sep-28E EBITDA, the street's median; Blinkit 1.2x Sep-28E NOV, the median broker value) gives {{dcf.tp|inr}}, {{dcf.upside|chg}}: just short of our BUY line. Valuing the other parts as we do, the price implies ~1.0x Blinkit's NOV. The street's median target is ₹390."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA (₹ cr)",
+    "ebitda",
+    "num"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Balance sheet",
+    "v": "GREEN"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): Blinkit order growth after Q1's +19% QoQ, and whether its margin keeps rising while competitors subsidise grocery.",
+   "Food delivery: does NOV growth hold at ~20% against Swiggy's Toing and Rapido's Ownly price-led entries?",
+   "District: losses narrowing toward breakeven while order value grows 50%+.",
+   "Tax: the parent's carried-forward losses run out in FY27, so the tax rate stays high until Blinkit's profits can be sheltered."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Order value: up 54% in a year, Blinkit now the biggest part",
+       "unit": "B2C net order value by quarter (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Food delivery",
+         "values": [
+          7928,
+          8281,
+          8443,
+          8210,
+          8967,
+          9423,
+          9846,
+          9757,
+          10769
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Quick commerce",
+         "values": [
+          4061,
+          4928,
+          6020,
+          7362,
+          9203,
+          11679,
+          13300,
+          14386,
+          17132
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Going-out",
+         "values": [
+          1031,
+          1562,
+          2158,
+          1868,
+          2013,
+          2063,
+          2587,
+          2736,
+          3218
+         ],
+         "fmt": "num"
+        }
+       ],
+       "stacked": true,
+       "labels": "ends",
+       "source": "Eternal shareholders' letters, GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Adjusted EBITDA: food earns it, Blinkit has turned positive",
+       "unit": "Adjusted EBITDA by quarter (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Food delivery",
+         "values": [
+          313,
+          341,
+          423,
+          428,
+          451,
+          503,
+          531,
+          532,
+          606
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Quick commerce",
+         "values": [
+          -3,
+          -8,
+          -103,
+          -178,
+          -162,
+          -156,
+          4,
+          37,
+          102
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Eternal shareholders' letters, GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Quick commerce, Q1FY27: Blinkit ~3x Instamart, and profitable",
+       "unit": "Net order value (₹ crore)",
+       "x": [
+        "Blinkit (Eternal)",
+        "Instamart (Swiggy)"
+       ],
+       "series": [
+        {
+         "name": "NOV",
+         "values": [
+          17132,
+          5817
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Blinkit (Eternal)",
+       "source": "Eternal and Swiggy Q1FY27 letters"
+      },
+      {
+       "type": "hbar",
+       "title": "Food delivery, Q1FY27: Zomato earns ~2x Swiggy's profit",
+       "unit": "Adjusted EBITDA (₹ crore)",
+       "x": [
+        "Zomato (Eternal)",
+        "Swiggy food"
+       ],
+       "series": [
+        {
+         "name": "Adj. EBITDA",
+         "values": [
+          606,
+          292
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Zomato (Eternal)",
+       "source": "Eternal and Swiggy Q1FY27 letters"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Share price: 8% below the 52-week high",
+       "unit": "₹, weekly",
+       "x": "P.series[].0",
+       "series": [
+        {
+         "name": "Price",
+         "ref": "P.series[].1",
+         "fmt": "num",
+         "thin": true
+        }
+       ],
+       "labels": "extremes",
+       "yearTicks": true,
+       "yearStep": 1,
+       "source": "Screener.in, NSE"
+      },
+      {
+       "type": "column",
+       "title": "Cash steady at ~₹18,000 cr: the business funds its own build-out",
+       "unit": "Cash balance, quarter end (₹ crore)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Cash",
+         "values": [
+          18857,
+          18314,
+          17820,
+          17972,
+          18288
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Eternal shareholders' letters, GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Our forecast: EBITDA rises ~4x by FY29E",
+       "unit": "Reported EBITDA (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "series": [
+        {
+         "name": "EBITDA",
+         "ref": "fin.ebitda",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company, GAM Research estimates"
+      },
+      {
+       "type": "hbar",
+       "title": "Sum of the parts: Blinkit and food are ~90% of the value",
+       "unit": "₹ per share",
+       "x": [
+        "Food delivery",
+        "Quick commerce",
+        "Going-out",
+        "B2B supplies",
+        "Others",
+        "Net cash",
+        "Add back lease liabilities"
+       ],
+       "series": [
+        {
+         "name": "₹/share",
+         "values": [
+          133,
+          197,
+          12,
+          3,
+          -1,
+          11,
+          5
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "GAM Research estimates"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Eternal does",
+   "kicker": "The business",
+   "title": "Four businesses on one delivery network",
+   "blocks": [
+    {
+     "p": "Eternal (called Zomato until 2025) runs consumer apps that connect customers with restaurants, stores and events, and delivers the order, usually in 10-30 minutes. Its headline measure is **net order value (NOV)**: the value of orders after discounts. In food delivery and going-out it earns a **take rate** (commissions, customer fees and advertising). In quick commerce it now buys and sells the goods itself (the **inventory or \"1P\" model**), so revenue there is close to the full sale value and margin is best read as a share of order value."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The businesses in FY26",
+      "head": [
+       "Business",
+       "What it is",
+       "NOV (₹ cr)",
+       "Adj. revenue (₹ cr)",
+       "Adj. EBITDA (₹ cr)",
+       "Margin, % of NOV"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "**Food delivery (Zomato)**",
+        "Restaurant delivery; the original business",
+        "37,993",
+        "11,698",
+        "2,017",
+        "5.3%"
+       ],
+       [
+        "**Quick commerce (Blinkit)**",
+        "Groceries and household goods in ~10 minutes from 2,243 stores (Mar-26); owns its inventory",
+        "48,568",
+        "37,779",
+        "-277",
+        "-0.6%"
+       ],
+       [
+        "**Going-out (District)**",
+        "Restaurant bookings, movie and event tickets",
+        "9,399",
+        "973",
+        "-319",
+        "-3.4%"
+       ],
+       [
+        "**B2B supplies (Hyperpure)**",
+        "Supplies ingredients and goods to restaurants",
+        "–",
+        "5,366",
+        "-17",
+        "–"
+       ],
+       [
+        "**Others**",
+        "New bets: Bistro (10-minute food), Nugget (AI customer support)",
+        "–",
+        "87",
+        "-215",
+        "–"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total**",
+         "",
+         "95,959",
+         "55,903",
+         "1,189",
+         "1.2%"
+        ]
+       }
+      ],
+      "source": "Eternal shareholders' letters (sum of FY26 quarters)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Order value: Blinkit overtook food in FY26",
+       "unit": "NOV, FY26 (₹ crore)",
+       "x": [
+        "Quick commerce",
+        "Food delivery",
+        "Going-out"
+       ],
+       "series": [
+        {
+         "name": "NOV",
+         "values": [
+          48568,
+          37993,
+          9399
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Eternal shareholders' letters, GAM Research"
+      },
+      {
+       "type": "hbar",
+       "title": "Profit: food delivery earns all of it (FY26)",
+       "unit": "Adjusted EBITDA, FY26 (₹ crore)",
+       "x": [
+        "Food delivery",
+        "B2B supplies",
+        "Others",
+        "Quick commerce",
+        "Going-out"
+       ],
+       "series": [
+        {
+         "name": "Adj. EBITDA",
+         "values": [
+          2017,
+          -17,
+          -215,
+          -277,
+          -319
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Food delivery",
+       "source": "Eternal shareholders' letters, GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "Eternal in numbers (Q1FY27)",
+      "tiles": [
+       {
+        "k": "Food customers",
+        "v": "27.2 mn",
+        "d": "average monthly transacting"
+       },
+       {
+        "k": "Blinkit customers",
+        "v": "31.8 mn",
+        "d": "331.0 mn orders in the quarter"
+       },
+       {
+        "k": "Blinkit stores",
+        "v": "2,443",
+        "d": "+200 in Q1; ₹8.27 lakh NOV per store a day"
+       },
+       {
+        "k": "Delivery partners",
+        "v": "638k food",
+        "d": "521k Blinkit (monthly active)"
+       },
+       {
+        "k": "Cash balance",
+        "v": "₹18,288 cr",
+        "d": "Jun-2026; no debt besides leases"
+       }
+      ],
+      "source": "Eternal Q1FY27 shareholders' letter"
+     }
+    },
+    {
+     "callout": "**Why \"adjusted\" EBITDA?** Eternal's segment profit (adjusted EBITDA) leaves out ESOP cost and counts rent as an operating cost. Reported EBITDA does the reverse on rent (Ind AS 116 moves it below EBITDA). In FY26 adjusted EBITDA was ₹1,189 cr and reported EBITDA ₹1,208 cr: ESOP cost of ₹819 cr was roughly offset by rent of ₹838 cr. The earnings-quality chapter walks through the bridge."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From restaurant listings to a quick-commerce leader in five deals",
+   "blocks": [
+    {
+     "p": "Zomato began in 2008 as a restaurant-listings site (Foodiebay) and later built food delivery on top of it. Five corporate actions made the company you buy today: the Uber Eats India deal (2020) that left a two-player food market; the 2021 IPO that built the cash pile; the Blinkit purchase (2022) that created the quick-commerce business, now the largest part of the value; the Paytm ticketing deal (2024) behind District; and the 2025 cap on foreign ownership that let Blinkit own its inventory. Each changed the numbers, as the table shows."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "2008",
+        "Founded as Foodiebay (restaurant listings) by Deepinder Goyal and Pankaj Chaddah; renamed Zomato",
+        "Origin of the brand"
+       ],
+       [
+        "Jan-2020",
+        "Bought Uber Eats India for ~9.99% of Zomato in shares",
+        "Consolidated food delivery into a two-player market"
+       ],
+       [
+        "Jul-2021",
+        "IPO at ₹76: ₹9,375 cr (₹9,000 cr fresh)",
+        "Most of today's cash pile"
+       ],
+       [
+        "Jun/Aug-2022",
+        "Bought Blinkit for ~₹4,447 cr in shares (62.9 cr new shares); consolidated from 10-Aug-2022",
+        "Entry into quick commerce; FY23 loss of ₹971 cr"
+       ],
+       [
+        "FY24",
+        "First full-year profit (₹351 cr); food delivery adjusted EBITDA positive",
+        "Proof that food delivery makes money"
+       ],
+       [
+        "Aug-2024",
+        "Bought Paytm's movie and event ticketing business for ₹2,048 cr in cash",
+        "Created the going-out business; District app launched Nov-2024"
+       ],
+       [
+        "Nov-2024",
+        "QIP: ₹8,500 cr at ₹252.62 (33.6 cr shares)",
+        "~3.5% dilution; cash for Blinkit's build-out"
+       ],
+       [
+        "Dec-2024 / Mar-2025",
+        "Joined the Sensex (Dec-2024) and the Nifty 50 (Mar-2025)",
+        "Passive index buying; register turned domestic"
+       ],
+       [
+        "Mar-2025",
+        "Renamed Eternal Ltd",
+        "Holding company for Zomato, Blinkit, District, Hyperpure"
+       ],
+       [
+        "Apr/May-2025",
+        "49.5% foreign-ownership cap; Indian-owned and controlled status confirmed",
+        "Allowed Blinkit to own inventory"
+       ],
+       [
+        "Q1-Q2FY26",
+        "Blinkit moved to the inventory (1P) model",
+        "Revenue booked gross: FY26 revenue +169%; Hyperpure's seller business shrank"
+       ],
+       [
+        "Aug-2025",
+        "Antfin (Alibaba) sold its last 14.1 cr shares at ₹289.91 (~₹4,097 cr)",
+        "Overhang removed"
+       ],
+       [
+        "Feb-2026",
+        "Deepinder Goyal stepped down as Group CEO; Albinder Dhindsa (Blinkit) took over",
+        "Leadership passes to the quick-commerce founder"
+       ],
+       [
+        "Jul-2026",
+        "Q1FY27: B2C NOV +54%, Blinkit profitable for a third quarter; tax charge jumps as parent's losses run out",
+        "Profit down on the quarter despite higher EBITDA"
+       ]
+      ],
+      "source": "Company filings and letters, FY26 annual report, Business Standard, Inc42, YourStory"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Consolidated adjusted EBITDA: losses to profit in three years",
+       "unit": "Adjusted EBITDA (₹ crore)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Adj. EBITDA",
+         "values": [
+          -973,
+          -783,
+          372,
+          1079,
+          1189
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Eternal Q4 letters (FY22 before the rent deduction), sum of quarters FY25-26"
+      },
+      {
+       "type": "column",
+       "title": "Blinkit stores: from 377 to 2,443 in three years",
+       "unit": "Stores at year end (Q1FY27 = Jun-26)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Stores",
+         "values": [
+          377,
+          526,
+          1301,
+          2243,
+          2443
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Eternal shareholders' letters"
+      }
+     ]
+    },
+    {
+     "h": "Capital raised and what it cost shareholders"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Corporate actions",
+      "head": [
+       "Action",
+       "Date",
+       "Amount (₹ cr)",
+       "Effect on shareholders"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "IPO at ₹76",
+        "Jul-2021",
+        "9,375 (9,000 fresh)",
+        "Funded the losses of FY22-23 and most of today's cash."
+       ],
+       [
+        "Blinkit acquisition (in shares)",
+        "Jun-Aug 2022",
+        "~4,447",
+        "62.9 cr new shares at ~₹70.8. Bought at the bottom of the cycle: Blinkit is now worth ~₹1,90,339 cr in our SOTP."
+       ],
+       [
+        "Paytm ticketing (cash)",
+        "Aug-2024",
+        "2,048",
+        "Created the going-out business (District); still loss-making."
+       ],
+       [
+        "QIP at ₹252.62",
+        "Nov-2024",
+        "8,500",
+        "33.6 cr new shares (~3.5% dilution); funded Blinkit's stores and inventory."
+       ],
+       [
+        "Shares issued to the ESOP trust",
+        "FY25",
+        "–",
+        "47.8 cr shares (incl. bonus) parked for employee options; 45.7 cr still in the trust at Mar-26 (4.7%)."
+       ],
+       [
+        "49.5% foreign-ownership cap",
+        "Apr/May-2025",
+        "–",
+        "Indian-owned status let Blinkit hold inventory; foreign index weight cut."
+       ],
+       [
+        "Dividends / buybacks",
+        "Never",
+        "–",
+        "All cash is retained for growth."
+       ]
+      ],
+      "source": "Company filings, FY26 annual report, Business Standard"
+     }
+    },
+    {
+     "callout": "**What this means:** management has been a good allocator of capital. The two big deals were paid largely in shares at low prices (Uber Eats, Blinkit) and both businesses now lead their markets. The cost is dilution: shares in issue have risen to 965 cr, and ESOPs add ~1% a year."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry & competition",
+   "kicker": "Industry",
+   "title": "Two markets: a profitable duopoly and a crowded race",
+   "blocks": [
+    {
+     "p": "**Food delivery** is a two-player market (Zomato and Swiggy) in which both now make money. Redseer: India's food-services market ~US$90bn in FY26, ~US$150bn by FY31; online delivery's share rises from 11% to 18%, i.e. 20-22% a year growth (IBEF, 9-Jul-2026). Zomato is the larger and more profitable player: in Q1FY27 its food NOV (₹10,769 cr) exceeded Swiggy's GOV (₹9,490 cr) even though NOV is the stricter measure, and it earned twice Swiggy's food profit. New price-led apps (Swiggy's Toing, Rapido's Ownly) are the first challenge to the duopoly's pricing in years."
+    },
+    {
+     "p": "**Quick commerce** (groceries and essentials in 10-20 minutes) is the growth market and far more crowded. Blinkit, Instamart and Zepto together hold ~90% of quick commerce; Flipkart Minutes, Amazon Now and BigBasket are in single digits each (Infisum via Business Today, 14-Sep-2026). Discounts eased to 19-20% of order value from 24-27% in Oct-25 to Mar-26 (UBS). Scale decides who makes money: a store breaks even only when it handles enough orders a day (~1,100-1,200 by Business Today's estimate), and Blinkit is the only major player that is profitable."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Quick commerce: who is who",
+      "head": [
+       "Player",
+       "Stores",
+       "Date",
+       "Economics"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Blinkit (Eternal)**",
+        "2,443",
+        "Jun-26",
+        "Only EBITDA-positive major player (~₹3 per order profit, Q1FY27)"
+       ],
+       [
+        "Zepto (private)",
+        "1,225",
+        "Sep-26",
+        "Loses ~₹60 per order (Q4FY26); IPO filed (Jun-2026), reported on hold"
+       ],
+       [
+        "Instamart (Swiggy)",
+        "1,181",
+        "Sep-26",
+        "Loses ~₹68 per order; inventory model approved Aug-2026"
+       ],
+       [
+        "Flipkart Minutes (Walmart)",
+        "1,000",
+        "Sep-26",
+        "Adding ~100 stores a month toward ~1,500"
+       ],
+       [
+        "Amazon Now",
+        "500",
+        "mid-2026",
+        "Amazon plans to invest US$48bn in India by 2030"
+       ]
+      ],
+      "source": "Eternal Q1FY27 letter; Business Today (14-Sep-2026); TechCrunch (Jun-2026); Outlook Business"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Quick-commerce order value, Q1FY27: Blinkit ~3x Instamart",
+       "unit": "Net order value (₹ crore)",
+       "x": [
+        "Blinkit",
+        "Instamart"
+       ],
+       "series": [
+        {
+         "name": "NOV",
+         "values": [
+          17132,
+          5817
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Blinkit",
+       "source": "Eternal and Swiggy Q1FY27 letters (Zepto is private and does not report quarterly)"
+      },
+      {
+       "type": "hbar",
+       "title": "Food delivery order value, Q1FY27: Zomato ahead",
+       "unit": "₹ crore (Zomato NOV; Swiggy GOV, a broader measure)",
+       "x": [
+        "Zomato",
+        "Swiggy"
+       ],
+       "series": [
+        {
+         "name": "Order value",
+         "values": [
+          10769,
+          9490
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Zomato",
+       "source": "Eternal and Swiggy Q1FY27 letters"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Regulation: what could change the economics",
+      "head": [
+       "Theme",
+       "Direction",
+       "Detail"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Foreign-ownership rules for inventory e-commerce",
+        "Tailwind (already used)",
+        "Only Indian-owned and controlled companies may hold inventory. Eternal capped foreign ownership at 49.5% (2025) and Blinkit moved to 1P in FY26; Swiggy is about a year behind."
+       ],
+       [
+        "Gig-worker social security (Code on Social Security, in force Nov-2025)",
+        "Headwind",
+        "Aggregators must pay 1-2% of turnover, capped at 5% of payouts to gig workers. Rate and start date were still not notified by 30-Sep-2026; not in our numbers."
+       ],
+       [
+        "GST on delivery charges",
+        "Headwind",
+        "From 22-Sep-2025 platforms pay 18% GST on delivery by unregistered riders. Legacy demands of ~₹447 cr (2019-24) are contested."
+       ],
+       [
+        "Competition Commission (CCI)",
+        "Headwind",
+        "Investigation into food-delivery practices open since FY22; restaurant and distributor complaints about quick-commerce pricing."
+       ]
+      ],
+      "source": "FY26 annual report (note 37), Q4FY26 letter, Outlook Business, Inc42"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: Eternal captures the growth in both markets",
+   "blocks": [
+    {
+     "p": "A company in a growing industry is not automatically a winner. The test is whether it captures its share of each tailwind. Eternal passes on most counts; the exceptions are cost headwinds that hit every platform."
+    },
+    {
+     "verdicts": [
+      [
+       "Online food delivery growing ~20% a year",
+       "Yes",
+       "Zomato NOV +20.1% in Q1FY27 vs Swiggy food GOV +17.4%.",
+       "Gaining share, at a higher margin."
+      ],
+      [
+       "Quick-commerce adoption",
+       "Yes",
+       "Blinkit NOV +86.2% vs Instamart +38.9%; 2,443 stores.",
+       "Takes most of the new demand among listed players."
+      ],
+      [
+       "Scale economics in dark stores",
+       "Yes",
+       "Blinkit adjusted EBITDA +₹102 cr in Q1FY27; rivals lose money on every order.",
+       "The economics favour the leader."
+      ],
+      [
+       "Inventory (1P) model",
+       "Yes",
+       "Owned inventory since Q2FY26; gross profit 27.5% of NOV in Q1FY27.",
+       "A year ahead of Swiggy."
+      ],
+      [
+       "Going-out (movies, events, dining)",
+       "Partly",
+       "District NOV +59.9% but still loss-making (-2% of NOV).",
+       "Growth captured; profit not yet."
+      ],
+      [
+       "Price-led food entrants (Toing, Ownly)",
+       "Headwind",
+       "Lower commissions and fees; management says impact \"limited\" so far.",
+       "Caps take-rate increases."
+      ],
+      [
+       "Gig-worker levies and GST on delivery",
+       "Headwind",
+       "1-2% of turnover levy pending; GST on delivery charges since Sep-2025.",
+       "A cost for all platforms; not in our numbers."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "Eternal and Swiggy Q1FY27 letters, GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "nav": "Food delivery (Zomato)",
+   "kicker": "Segment 1",
+   "title": "Food delivery: growth re-accelerating at a 5.6% margin",
+   "blocks": [
+    {
+     "p": "Food delivery is the profit engine. Net order value rose from ₹32,862 cr in FY25 to ₹37,993 cr in FY26 (+16%) and adjusted EBITDA from ₹1,505 cr to ₹2,017 cr. Growth has accelerated for four straight quarters, from +13.1% in Q1FY26 to +20.1% in Q1FY27 (₹10,769 cr), driven by more customers (27.2 mn a month, up from 22.9 mn). Margin rose to 5.6% of NOV, near the top of management's 5-6% steady-state range. Contribution (profit after delivery costs and discounts, before fixed costs) is steady at ~10% of NOV, so the margin gain comes from spreading fixed costs over more orders."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Food order value: growth back above 20%",
+       "unit": "Food NOV by quarter (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Food NOV",
+         "values": [
+          7928,
+          8281,
+          8443,
+          8210,
+          8967,
+          9423,
+          9846,
+          9757,
+          10769
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Eternal shareholders' letters, GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Margin up from 3.9% to 5.6% of NOV in two years",
+       "unit": "Food adjusted EBITDA, % of NOV",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Margin",
+         "values": [
+          3.9,
+          4.1,
+          5,
+          5.2,
+          5,
+          5.3,
+          5.4,
+          5.5,
+          5.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Eternal shareholders' letters, GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Zomato vs Swiggy in food delivery, Q1FY27",
+      "head": [
+       "",
+       "Zomato (Eternal)",
+       "Swiggy",
+       "What it tells you"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Order value (₹ cr)",
+        "10,769 (NOV)",
+        "9,490 (GOV)",
+        "Zomato larger even on the stricter NOV measure"
+       ],
+       [
+        "Growth YoY",
+        "+20.1% (NOV)",
+        "+17.4% (GOV)",
+        "Zomato growing faster; its GOV grew \"a few points\" faster than NOV"
+       ],
+       [
+        "Adjusted EBITDA (₹ cr)",
+        "606",
+        "292",
+        "Zomato 2.1x"
+       ],
+       [
+        "Margin",
+        "5.6% of NOV",
+        "3.1% of GOV",
+        "Zomato roughly 2.5pp higher"
+       ],
+       [
+        "Monthly customers (mn)",
+        "27.2",
+        "19.2",
+        "Zomato ~40% more"
+       ]
+      ],
+      "source": "Eternal and Swiggy Q1FY27 shareholders' letters, GAM Research"
+     }
+    },
+    {
+     "p": "**The new price fighters.** Swiggy launched Toing, a budget-meals app, and Rapido launched Ownly, both with lower restaurant commissions and delivery fees. Management says the impact has been \"limited\": the same restaurants, similar or longer delivery times and lower prices paid for by thinner economics. Its answer is Bistro (10-minute food at ₹50-150 from its own kitchens), reported under \"Others\". Zomato's Q1FY27 growth acceleration suggests the entrants have not dented it yet; the risk is that price-led entrants push the whole category's take rates down."
+    },
+    {
+     "callout": "**Our view:** food delivery is a profitable, growing duopoly position in which Zomato is the clear leader. We forecast NOV growth of 20% / 18% / 17% for FY27-29E and margins of 5.6% / 5.8% / 5.9% of NOV, giving adjusted EBITDA of {{F.seg.food.adjEbitda.0|num}} / {{F.seg.food.adjEbitda.1|num}} / {{F.seg.food.adjEbitda.2|num}} cr. Margin upside is limited (management guides 5-6% steady state), so from here profit growth tracks order growth."
+    }
+   ]
+  },
+  {
+   "id": "blinkit",
+   "nav": "Quick commerce (Blinkit)",
+   "kicker": "Segment 2",
+   "title": "Blinkit: the market leader, profitable and still growing ~86%",
+   "blocks": [
+    {
+     "p": "Blinkit delivers groceries and household goods in about ten minutes from 2,443 stores (Jun-2026). Order value more than doubled from ₹22,371 cr in FY25 to ₹48,568 cr in FY26, and reached ₹17,132 cr in Q1FY27 (+86.2% YoY, +19% QoQ). Since Q2FY26 Blinkit has owned its inventory (the 1P model, allowed once Eternal became Indian-owned and controlled), which raised gross profit to 27.5% of NOV. Adjusted EBITDA has improved for five quarters, from −₹162 cr in Q1FY26 to +₹102 cr in Q1FY27 (0.6% of NOV), while 900 stores were added in a year."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Blinkit order value: up ~4x in two years",
+       "unit": "Quick-commerce NOV by quarter (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "NOV",
+         "values": [
+          4061,
+          4928,
+          6020,
+          7362,
+          9203,
+          11679,
+          13300,
+          14386,
+          17132
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Eternal shareholders' letters, GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Adjusted EBITDA turned positive in Q3FY26",
+       "unit": "Quick-commerce adjusted EBITDA (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Adj. EBITDA",
+         "values": [
+          -3,
+          -8,
+          -103,
+          -178,
+          -162,
+          -156,
+          4,
+          37,
+          102
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Eternal shareholders' letters, GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Contribution has stepped up; EBITDA margin is following",
+       "unit": "% of NOV",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Contribution",
+         "values": [
+          4.9,
+          4.7,
+          3.9,
+          3.9,
+          3.9,
+          4.6,
+          5.5,
+          5.4,
+          5.3
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Adjusted EBITDA",
+         "values": [
+          -0.1,
+          -0.2,
+          -1.7,
+          -2.4,
+          -1.8,
+          -1.3,
+          0,
+          0.3,
+          0.6
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "Eternal shareholders' letters, GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Stores: ~200 added every quarter",
+       "unit": "Blinkit stores, quarter end",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Stores",
+         "values": [
+          1544,
+          1816,
+          2027,
+          2243,
+          2443
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Eternal shareholders' letters, GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Blinkit vs Swiggy Instamart, Q1FY27",
+      "head": [
+       "",
+       "Blinkit",
+       "Instamart",
+       "What it tells you"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Net order value (₹ cr)",
+        "17,132",
+        "5,817",
+        "Blinkit ~2.9x larger"
+       ],
+       [
+        "Growth YoY",
+        "+86.2%",
+        "+38.9%",
+        "The gap is widening"
+       ],
+       [
+        "Adjusted EBITDA (₹ cr)",
+        "+102",
+        "-778",
+        "Blinkit profitable; Instamart loses ~10% of GOV"
+       ],
+       [
+        "Stores",
+        "2,443 (+200 in Q1)",
+        "1,171",
+        "Blinkit has ~2x the network"
+       ],
+       [
+        "Inventory model",
+        "Owns inventory since Q2FY26",
+        "Approved Aug-2026; switch within 2-4 quarters",
+        "Blinkit about a year ahead"
+       ]
+      ],
+      "source": "Eternal and Swiggy Q1FY27 shareholders' letters, GAM Research"
+     }
+    },
+    {
+     "h": "Management's steady-state economics (Q1FY27 letter)"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What a mature Blinkit store is meant to earn",
+      "head": [
+       "Item",
+       "Steady state (Q1FY27)",
+       "Earlier assumption",
+       "Today (Q1FY27)"
+      ],
+      "rows": [
+       [
+        "Capex per store (incl. warehousing)",
+        "₹2.5 cr",
+        "₹1 cr",
+        "~₹700 cr capex for 200 stores in Q1 (lumpy warehousing)"
+       ],
+       [
+        "Net working capital",
+        "12 days of NOV (3.3%)",
+        "18 days (5%)",
+        "₹2,545 cr (~14 days)"
+       ],
+       [
+        "NOV per store per day",
+        "₹11 lakh",
+        "₹7 lakh",
+        "₹8.27 lakh"
+       ],
+       [
+        "Adjusted EBITDA, % of NOV",
+        "6%",
+        "5-6%",
+        "0.6%"
+       ],
+       [
+        "EBIT, % of NOV (after ESOP, depreciation)",
+        "4%",
+        "4%",
+        "negative"
+       ],
+       [
+        "Pre-tax return on capital",
+        "~42%",
+        "–",
+        "not yet"
+       ]
+      ],
+      "source": "Eternal Q1FY27 shareholders' letter and call (22-Jul-2026)"
+     }
+    },
+    {
+     "p": "Two risks sit under these numbers. **Competition:** Q1FY27 was \"the peak of competitive intensity\" (CEO Albinder Dhindsa), with Zepto, Instamart, Flipkart Minutes, Amazon Now and BigBasket subsidising groceries and delivery fees; Blinkit says it will not match discount-led growth. **Capital intensity:** capex per store has risen to ₹2.5 cr and owning stock ties up working capital; inventory losses are ~1.8% of NOV. A 42% return on capital needs both the 6% margin and ₹11 lakh a day per store, neither achieved yet."
+    },
+    {
+     "callout": "**Our view:** Blinkit has won the scale race and is the main reason to own Eternal. We model NOV growth of 72% / 55% / 45% (guidance: \"north of 60%\" a year for three years) and adjusted EBITDA margins of 1.0% / 2.5% / 3.8% of NOV, giving {{F.seg.qc.adjEbitda.0|num}} / {{F.seg.qc.adjEbitda.1|num}} / {{F.seg.qc.adjEbitda.2|num}} cr. Even our FY29E margin is well short of the 6% target. **Brutal truth:** quick commerce is a capital-hungry retail business in a seven-player market; the leader can earn good returns, but only if rivals stop subsidising, and the current share price already assumes much of that success."
+    }
+   ]
+  },
+  {
+   "id": "others",
+   "nav": "District, Hyperpure & new bets",
+   "kicker": "Segments 3-5",
+   "title": "District, Hyperpure and new bets: small, growing, and mostly loss-making",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Smaller segments by quarter (₹ crore)",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q2FY26",
+       "Q3FY26",
+       "Q4FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "Going-out NOV",
+        "2,013",
+        "2,063",
+        "2,587",
+        "2,736",
+        "3,218"
+       ],
+       [
+        "Going-out adjusted EBITDA",
+        "-54",
+        "-63",
+        "-121",
+        "-81",
+        "-65"
+       ],
+       [
+        "Hyperpure revenue",
+        "2,295",
+        "1,023",
+        "1,070",
+        "978",
+        "1,034"
+       ],
+       [
+        "Hyperpure adjusted EBITDA",
+        "-18",
+        "-5",
+        "1",
+        "5",
+        "6"
+       ],
+       [
+        "Others revenue (Bistro, Nugget)",
+        "4",
+        "2",
+        "13",
+        "68",
+        "95"
+       ],
+       [
+        "Others adjusted EBITDA",
+        "-45",
+        "-55",
+        "-51",
+        "-64",
+        "-94"
+       ]
+      ],
+      "source": "Eternal shareholders' letters, GAM Research"
+     }
+    },
+    {
+     "bullets": [
+      "**Going-out (District):** movie and event tickets, table bookings and dining payments, enlarged by the Paytm ticketing purchase (Aug-2024). NOV ₹9,399 cr in FY26 and ₹3,218 cr in Q1FY27 (+59.9%); losses narrowed to -2% of NOV. Management targets US$3bn of NOV by FY30. We assume breakeven during FY29E and value it at {{dcf.sotp.parts.2.value|num}} cr.",
+      "**B2B supplies (Hyperpure):** ingredients and supplies for restaurants. Revenue fell from ₹2,295 cr in Q1FY26 to ~₹1,000 cr a quarter once quick-commerce sellers' supplies moved inside Blinkit; the restaurant business grew 27% like-for-like in Q1FY27 at a 0.6% margin. Low-margin distribution; we value it at {{dcf.sotp.parts.3.value|num}} cr.",
+      "**Others (Bistro, Nugget):** losses rose from ₹45 cr in Q1FY26 to ₹94 cr in Q1FY27, mostly R&D at Nugget and kitchen build-out at Bistro. Management calls it \"the cost of experimentation\" and says it will shut what does not work. We deduct three years of FY28E losses ({{dcf.sotp.parts.4.value|num}} cr)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: scale leadership in both big markets",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Food-delivery network",
+       "Advantage",
+       "27.2 mn monthly customers, 3,28,000 restaurants, 6,38,000 delivery partners; one of two national networks and the larger one.",
+       "Pricing power: 5.6% margin vs Swiggy 3.1%."
+      ],
+      [
+       "Quick-commerce scale and density",
+       "Advantage",
+       "2,443 stores; NOV ~2.9x Instamart's; profitable while rivals lose 10%+ of order value.",
+       "Scale lowers cost per order; the leader can out-invest rivals."
+      ],
+      [
+       "Supply chain and inventory (1P)",
+       "Advantage",
+       "Owns stock since Q2FY26 with a warehouse network (~19 mn sq ft); rivals are only now converting.",
+       "Better margins and assortment; but capital-hungry."
+      ],
+      [
+       "Customer loyalty",
+       "Parity",
+       "Blinkit cohorts: 46-50% still order four quarters later and spend ~3x after three years; but switching apps costs a customer nothing.",
+       "Habit, not lock-in."
+      ],
+      [
+       "Price-led competition (Toing, Ownly, Zepto, Amazon, Flipkart)",
+       "Threat",
+       "Well-funded rivals subsidise groceries and delivery fees; Q1FY27 was the peak so far.",
+       "Caps how fast margins can rise."
+      ],
+      [
+       "Balance sheet",
+       "Advantage",
+       "₹18,288 cr of cash (Jun-2026), no debt other than leases.",
+       "Can fund store growth from profits and cash."
+      ]
+     ],
+     "head": [
+      "Dimension",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Moat scorecard",
+     "source": "Eternal and Swiggy Q1FY27 shareholders' letters, GAM Research"
+    },
+    {
+     "callout": "**Honest verdict:** Eternal has a **real scale advantage** in both its big markets: it is the larger, more profitable food-delivery network, and Blinkit has won the quick-commerce scale race (profitable while every rival loses money). That is a moat of scale and density, not of lock-in: customers can switch apps in seconds, and deep-pocketed rivals (Amazon, Flipkart, Reliance) can keep subsidising. The advantage is durable as long as Eternal keeps investing, which is why margins will rise more slowly than the order value."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue has jumped 27x in five years; profit is still thin",
+   "blocks": [
+    {
+     "p": "Eternal's reported revenue rose from ₹1,994 cr in FY21 to ₹54,364 cr in FY26. Two things drove it: food delivery kept growing (order value up ~80% from FY22 to FY25), and quick commerce (Blinkit, bought in 2022) grew into the largest business. The FY26 jump (+169%) is mostly an accounting change: from Q2FY26 Blinkit owns the goods it sells (the \"1P\" or inventory model), so revenue now includes the full sale value, not just a commission. The company turned profitable in FY24 (₹351 cr), but profit is small against a ~₹3 lakh crore market value: ₹366 cr in FY26 and ₹92 cr in Q1FY27, after a sharp rise in tax."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: the FY26 jump is mostly Blinkit's switch to owning inventory",
+       "unit": "Revenue from operations (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY21",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num",
+         "growth": true
+        }
+       ],
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit: positive since FY24, but small",
+       "unit": "Net profit / (loss), ₹ crore",
+       "x": "fin.labels",
+       "from": "FY21",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Quarterly EBITDA has risen five quarters in a row",
+       "unit": "Reported EBITDA, quarterly (₹ crore)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "EBITDA",
+         "ref": "Q.ebitda",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "…but quarterly profit fell in Q1FY27 as tax jumped",
+       "unit": "Quarterly net profit (₹ crore)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "Q.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** reported margins look tiny (EBITDA 2.2% of revenue in FY26) because Blinkit's revenue is now gross sale value. The better yardstick is profit as a share of order value: adjusted EBITDA was 1.2% of B2C net order value in FY26 and 1.8% in Q1FY27. Depreciation nearly doubled in FY26 (₹863 cr → ₹1,597 cr) as stores and warehouses were added, and tax will take a larger bite from FY27 because the parent company's past losses are used up. The path from EBITDA to earnings per share is therefore slower than the order growth suggests."
+    }
+   ]
+  },
+  {
+   "id": "earnings",
+   "nav": "Reported vs adjusted",
+   "kicker": "Earnings quality",
+   "title": "Reported vs adjusted profit: ESOPs, rent, tax and a change in revenue",
+   "blocks": [
+    {
+     "p": "Eternal's \"adjusted EBITDA\" and reported EBITDA happen to be close (₹1,189 cr vs ₹1,208 cr in FY26), but only because two large items cancel out. Share-based pay (ESOP, ₹819 cr) is left out of adjusted EBITDA, which flatters it; rent (₹838 cr) is counted in adjusted EBITDA but moved below EBITDA in the reported accounts, which flatters reported EBITDA. ESOP cost is real: it is paid in new shares, and the share count has risen every year."
+    },
+    {
+     "pair": [
+      {
+       "type": "waterfall",
+       "title": "FY26: from adjusted to reported EBITDA",
+       "unit": "₹ crore",
+       "x": [
+        "Adjusted EBITDA",
+        "ESOP cost",
+        "Rent moved below EBITDA",
+        "Reported EBITDA"
+       ],
+       "series": [
+        {
+         "name": "Bridge",
+         "values": [
+          1189,
+          -819,
+          838,
+          1208
+         ]
+        }
+       ],
+       "fmt": "num",
+       "totalFmt": "num",
+       "source": "Eternal shareholders' letters (Annexure B), FY26 quarters summed"
+      },
+      {
+       "type": "column",
+       "title": "ESOP cost: ~₹200-250 cr every quarter",
+       "unit": "Share-based payment expense (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ESOP",
+         "values": [
+          185,
+          179,
+          217,
+          217,
+          210,
+          174,
+          227,
+          208,
+          255
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Eternal shareholders' letters, GAM Research"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**Revenue recognition changed in Q2FY26.** Once Blinkit began owning inventory, its revenue became the full sale value rather than a commission. Reported revenue grew 169% in FY26, but like-for-like growth was ~64%. Compare growth on order value, not revenue, and read margins as a share of NOV.",
+      "**Tax is stepping up.** Until FY26 Eternal paid tax mainly on treasury income. The parent company (which houses food delivery) uses up its carried-forward losses in FY27, so its business profit is now taxed, while the subsidiaries that run Blinkit, District and Hyperpure still carry losses that cannot be set off against it. Q1FY27 tax was ₹180 cr on profit before tax of ₹272 cr (66%). This is why profit fell in Q1FY27 even though EBITDA rose 29% QoQ.",
+      "**Other income is large and partly market-driven.** Treasury income was ₹1,396 cr in FY26, more than reported EBITDA, and includes mark-to-market gains on debt funds; the company's cash table counts only cash received (₹953 cr in FY26).",
+      "**Nothing is capitalised.** Management says all employee and technology costs are expensed above adjusted EBITDA (Q1FY27 letter). Inventory losses (~1.8% of quick-commerce NOV) are inside cost of goods sold."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** We see no sign of aggressive accounting, and the company reconciles every adjusted number. But large ESOPs paid in shares, a change in how Blinkit's revenue is booked, a rising tax rate and market-driven treasury income all make the headline numbers harder to read than the order-value story suggests."
+    }
+   ]
+  },
+  {
+   "id": "cash",
+   "nav": "Cash & balance sheet",
+   "kicker": "Balance sheet",
+   "title": "Cash: ₹18,288 cr, no debt, and the business now funds itself",
+   "blocks": [
+    {
+     "p": "Eternal holds ₹18,288 cr of cash and treasury investments (Jun-2026, company figure), built mostly from the IPO (Jul-2021) and an ₹8,500 cr share placement (QIP) in Nov-2024. It has no bank debt: the \"borrowings\" on the balance sheet (₹4,592 cr at Mar-26) are lease liabilities for stores, warehouses and offices. The cash pile has been broadly flat for a year (₹18,824 cr at Mar-25, ₹17,972 cr at Mar-26) because operating profit plus treasury income roughly paid for capex and the inventory that Blinkit now holds. Note that the company's own cash figure is higher than \"cash + investments\" below because ~₹1,600 cr of bank deposits sit inside other assets."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash flow positive since FY24",
+       "unit": "Cash from operations (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY21",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "CFO",
+         "ref": "fin.cfo",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Equity raised in FY21-FY22 (private rounds, IPO) and FY25 (QIP)",
+       "unit": "Cash from financing (₹ crore)",
+       "x": "A.labels",
+       "from": "FY21",
+       "series": [
+        {
+         "name": "CFF",
+         "ref": "A.cff",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings (lease liabilities only)",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Investments",
+        "{{A.investments.9|num}}",
+        "{{A.investments.10|num}}",
+        "{{A.investments.11|num}}"
+       ],
+       [
+        "Cash & equivalents",
+        "{{A.cash.9|num}}",
+        "{{A.cash.10|num}}",
+        "{{A.cash.11|num}}"
+       ],
+       [
+        "Fixed assets (incl. right-of-use)",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Cash from operations",
+        "{{A.cfo.9|num}}",
+        "{{A.cfo.10|num}}",
+        "{{A.cfo.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated), GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "waterfall",
+      "title": "FY26 cash bridge: profit and treasury income paid for capex; inventory took the rest",
+      "unit": "Company cash balance, ₹ crore",
+      "x": [
+       "Mar-25 cash",
+       "Adj. EBITDA",
+       "Treasury income",
+       "Capex",
+       "Working capital",
+       "Other",
+       "Mar-26 cash"
+      ],
+      "series": [
+       {
+        "name": "Cash",
+        "values": [
+         18824,
+         1189,
+         953,
+         -1746,
+         -1228,
+         -20,
+         17972
+        ]
+       }
+      ],
+      "fmt": "num",
+      "totalFmt": "num",
+      "source": "Eternal Q1FY27 shareholders' letter (consolidated cash balance table)"
+     }
+    },
+    {
+     "callout": "**Funding:** cash rose ₹316 cr in Q1FY27 to ₹18,288 cr: adjusted EBITDA (₹555 cr) and treasury income (₹311 cr) more than covered capex (₹711 cr) and inventory (₹170 cr). Eternal no longer needs outside money. Our model shows free cash flow of {{F.fcf.0|num}} / {{F.fcf.1|num}} / {{F.fcf.2|num}} cr for FY27-29E, lower than the company's own cash table because the model holds working capital at FY26's ratio to revenue (8.8%, a balance-sheet measure that includes GST and other receivables), above the company's own net working capital (~3.3% of quick-commerce NOV at steady state). That costs about ₹4 a share in our valuation."
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: foreign investors out, Indian funds in",
+   "blocks": [
+    {
+     "p": "Eternal has **no promoter**. Its largest holder is Info Edge (Naukri's parent, an early investor) with 12.4%; founder Deepinder Goyal owns 4.4%. Indian institutions now dominate the register: mutual funds held 31.7% at Jun-2026 and all domestic institutions 39.3%, against 29.1% for foreign investors. Two forces drove the shift: the **49.5% cap on foreign ownership** (approved by shareholders in May-2025), which keeps Eternal Indian-owned and controlled so Blinkit can own inventory; and the exit of the early foreign backers (Alipay, Antfin, Uber, SoftBank, Kuwait Investment Authority). About 4.6% sits in the employee ESOP trust."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "DIIs now own more than FIIs",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Retail and other public holders steady at ~26-29%",
+       "unit": "% of shares in the Public bucket",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Public",
+         "ref": "SH.rows.Public",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Who owns Eternal (Jun-2026)",
+      "head": [
+       "Holder",
+       "Type",
+       "Stake"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Info Edge (India) Ltd",
+        "Corporate (board nominee)",
+        "12.38%"
+       ],
+       [
+        "Deepinder Goyal",
+        "Founder, Vice Chairman",
+        "4.4%"
+       ],
+       [
+        "HDFC Flexi Cap Fund",
+        "Mutual fund",
+        "4.31%"
+       ],
+       [
+        "SBI Nifty 50 ETF",
+        "Mutual fund",
+        "3.64%"
+       ],
+       [
+        "Kotak Flexicap Fund",
+        "Mutual fund",
+        "3.02%"
+       ],
+       [
+        "ICICI Prudential Balanced Advantage Fund",
+        "Mutual fund",
+        "3.01%"
+       ],
+       [
+        "Nippon India ETF Nifty 50 BeES",
+        "Mutual fund",
+        "2.55%"
+       ],
+       [
+        "UTI Flexi Cap Fund",
+        "Mutual fund",
+        "2.3%"
+       ],
+       [
+        "Axis Large Cap Fund",
+        "Mutual fund",
+        "1.95%"
+       ],
+       [
+        "NPS Trust (SBI Pension Fund)",
+        "Pension fund",
+        "1.87%"
+       ],
+       [
+        "Camas Investments (Temasek-linked)",
+        "Foreign investor",
+        "1.74%"
+       ],
+       [
+        "Mutual funds (all)",
+        "Aggregate",
+        "31.68%"
+       ],
+       [
+        "All domestic institutions",
+        "Aggregate",
+        "39.3%"
+       ],
+       [
+        "Foreign investors (FPI + FDI)",
+        "Aggregate",
+        "29.09%"
+       ],
+       [
+        "ESOP trust and others",
+        "Aggregate",
+        "4.61%"
+       ]
+      ],
+      "source": "Exchange shareholding filing for the quarter to Jun-2026 (as reproduced by Trendlyne; BSE pages blocked automated access), FY26 annual report"
+     }
+    },
+    {
+     "callout": "**Our read:** the register is now mostly long-only Indian money (index funds, flexi-cap funds, pensions), and the large foreign sellers have gone, which removes the 2023-25 supply overhang. With no promoter, there is no natural buyer of last resort, but Info Edge (12.4%) is a patient strategic holder. The 49.5% foreign cap limits how much foreign money can come back in."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Management and governance: a clean succession, founders who take no salary, and large ESOPs",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Albinder Singh Dhindsa",
+        "CEO, Eternal (from 1-Feb-2026); founder of Blinkit",
+        "Succeeded Deepinder Goyal; waives his salary, paid in ESOPs"
+       ],
+       [
+        "Deepinder Goyal",
+        "Founder; Vice Chairman, non-executive (from 13-Mar-2026)",
+        "Stepped down as Group CEO on 1-Feb-2026; owns 4.4%; no pay"
+       ],
+       [
+        "Akshant Goyal",
+        "Chief Financial Officer",
+        "Waived salary since Jan-2022"
+       ],
+       [
+        "Aditya Mangla",
+        "CEO, food delivery (from Jul-2025)",
+        "Replaced Rakesh Ranjan"
+       ],
+       [
+        "Rishi Arora",
+        "CEO, Hyperpure",
+        ""
+       ],
+       [
+        "Kaushik Dutta",
+        "Independent Chairman",
+        "Board of six: four independent, two non-executive (one Info Edge nominee)"
+       ]
+      ],
+      "source": "FY26 annual report (published 28-Jul-2026), company announcements (21-Jan-2026)"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Board and chair",
+       "Strong",
+       "Independent chairman; four of six directors independent; auditor Deloitte Haskins & Sells (unmodified FY26 opinion).",
+       "Normal for a professionally run company with no promoter."
+      ],
+      [
+       "Succession",
+       "Strong",
+       "Founder handed the CEO role to Blinkit's founder (announced Jan-2026), who built the business now driving most of the value.",
+       "Orderly; continuity of strategy."
+      ],
+      [
+       "Pay and ESOPs",
+       "Weak",
+       "Founder, CEO and CFO take no salary, but ESOP cost was ₹819 cr in FY26 (more than FY26 profit before tax of ₹615 cr) and ~16 cr options were outstanding at Mar-26.",
+       "Aligned with shareholders, but a steady transfer of value through dilution."
+      ],
+      [
+       "Related parties",
+       "Moderate",
+       "Bistro moved to a new subsidiary (₹57 cr slump sale, Oct-2025); no material dealings with outside related parties found.",
+       "Internal restructurings only."
+      ],
+      [
+       "Guidance credibility",
+       "Strong",
+       "Food margin reached the 5-6% steady-state range; Blinkit turned profitable in Q3FY26 and the steady-state margin target was raised to 6%.",
+       "We still haircut the 60%+ Blinkit growth guidance."
+      ],
+      [
+       "Tax and legal cases",
+       "Moderate",
+       "GST demands on delivery charges of ~₹447 cr plus interest (contested); CCI investigation open since FY22; gig-worker case in the Supreme Court.",
+       "Manageable against ₹18,288 cr of cash; not provided for in our numbers."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "FY26 annual report, Eternal shareholders' letters, GAM research"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EBITDA ~4x by FY29E, led by Blinkit",
+   "blocks": [
+    {
+     "p": "We build the forecast business by business. Each segment's order value (or revenue) grows at our assumed rate; revenue and adjusted EBITDA are a % of it. Group reported EBITDA is the sum of the segments, less ESOP cost, plus rent (moved below EBITDA by accounting rules). A small negative line turns adjusted revenue into reported revenue. Every assumption is in the Assumptions sheet of the Excel model, which recalculates the target price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Segment forecasts (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       {
+        "sec": "Food delivery"
+       },
+       [
+        "NOV",
+        "37,993",
+        "{{F.seg.food.driver.0|num}}",
+        "{{F.seg.food.driver.1|num}}",
+        "{{F.seg.food.driver.2|num}}"
+       ],
+       [
+        "Adjusted revenue",
+        "11,698",
+        "{{F.seg.food.revenue.0|num}}",
+        "{{F.seg.food.revenue.1|num}}",
+        "{{F.seg.food.revenue.2|num}}"
+       ],
+       [
+        "Adjusted EBITDA",
+        "2,017",
+        "{{F.seg.food.adjEbitda.0|num}}",
+        "{{F.seg.food.adjEbitda.1|num}}",
+        "{{F.seg.food.adjEbitda.2|num}}"
+       ],
+       {
+        "sec": "Quick commerce (Blinkit)"
+       },
+       [
+        "NOV",
+        "48,568",
+        "{{F.seg.qc.driver.0|num}}",
+        "{{F.seg.qc.driver.1|num}}",
+        "{{F.seg.qc.driver.2|num}}"
+       ],
+       [
+        "Revenue (1P)",
+        "37,779",
+        "{{F.seg.qc.revenue.0|num}}",
+        "{{F.seg.qc.revenue.1|num}}",
+        "{{F.seg.qc.revenue.2|num}}"
+       ],
+       [
+        "Adjusted EBITDA",
+        "-277",
+        "{{F.seg.qc.adjEbitda.0|num}}",
+        "{{F.seg.qc.adjEbitda.1|num}}",
+        "{{F.seg.qc.adjEbitda.2|num}}"
+       ],
+       {
+        "sec": "Going-out (District)"
+       },
+       [
+        "NOV",
+        "9,399",
+        "{{F.seg.go.driver.0|num}}",
+        "{{F.seg.go.driver.1|num}}",
+        "{{F.seg.go.driver.2|num}}"
+       ],
+       [
+        "Adjusted EBITDA",
+        "-319",
+        "{{F.seg.go.adjEbitda.0|num}}",
+        "{{F.seg.go.adjEbitda.1|num}}",
+        "{{F.seg.go.adjEbitda.2|num}}"
+       ],
+       {
+        "sec": "B2B supplies (Hyperpure)"
+       },
+       [
+        "Revenue",
+        "5,366",
+        "{{F.seg.hp.revenue.0|num}}",
+        "{{F.seg.hp.revenue.1|num}}",
+        "{{F.seg.hp.revenue.2|num}}"
+       ],
+       [
+        "Adjusted EBITDA",
+        "-17",
+        "{{F.seg.hp.adjEbitda.0|num}}",
+        "{{F.seg.hp.adjEbitda.1|num}}",
+        "{{F.seg.hp.adjEbitda.2|num}}"
+       ],
+       {
+        "sec": "Others (Bistro, Nugget)"
+       },
+       [
+        "Revenue",
+        "87",
+        "{{F.seg.oth.revenue.0|num}}",
+        "{{F.seg.oth.revenue.1|num}}",
+        "{{F.seg.oth.revenue.2|num}}"
+       ],
+       [
+        "Adjusted EBITDA",
+        "-215",
+        "{{F.seg.oth.adjEbitda.0|num}}",
+        "{{F.seg.oth.adjEbitda.1|num}}",
+        "{{F.seg.oth.adjEbitda.2|num}}"
+       ]
+      ],
+      "source": "Company (FY26), GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "Group P&L and cash flow summary (₹ crore)",
+      "from": "FY24",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Reported EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "Cash from operations",
+        "ref": "fin.cfo"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       }
+      ],
+      "source": "Company, GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs consensus (S&P Capital IQ via Trendlyne, 11-Sep-2026)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "Street FY27E",
+       "GAM FY28E",
+       "Street FY28E"
+      ],
+      "rows": [
+       [
+        "Revenue (₹ cr)",
+        "{{F.sales.0|num}}",
+        "97,445",
+        "{{F.sales.1|num}}",
+        "1,42,055"
+       ],
+       [
+        "EPS (₹)",
+        "{{F.eps.0|n1}}",
+        "1.7",
+        "{{F.eps.1|n1}}",
+        "4.0"
+       ]
+      ],
+      "source": "S&P Capital IQ consensus via Trendlyne (Wayback capture of 11-Sep-2026; 30 revenue and 22 EPS estimates), GAM Research"
+     }
+    },
+    {
+     "p": "Our revenue is close to the street. Our EPS is well below it for two reasons. (1) Tax: Q1FY27 tax was 66% of profit before tax because the parent's past losses are used up while subsidiary losses cannot be offset; we assume ~58% for FY27E, which the street does not appear to fully reflect (consensus FY27E net profit ~₹1,535 cr against our {{F.pat.0|num}} cr). (2) Blinkit margins: we assume 1.0% / 2.2% / 3.4% of NOV for FY27-29E, below management's path to 6% (Nomura forecasts 0.9-2% for FY27-28). EPS does not drive our valuation, which rests on segment EBITDA and order value, but it is why the stock looks expensive on P/E (~115x our FY28E EPS)."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: 15 Buys and 1 Underperform after Q1FY27; median target ₹390",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Broker calls standing on 30-Sep-2026",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Date",
+       "Method"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Elara",
+        "Buy",
+        "400",
+        "2026-07-23",
+        "SOTP"
+       ],
+       [
+        "Motilal Oswal",
+        "Buy",
+        "400",
+        "2026-07-22",
+        "SOTP"
+       ],
+       [
+        "Emkay",
+        "Buy",
+        "400",
+        "2026-07-23",
+        "DCF (by segment)"
+       ],
+       [
+        "Axis",
+        "Buy",
+        "360",
+        "2026-07-23",
+        "SOTP"
+       ],
+       [
+        "JM Financial",
+        "Buy",
+        "400",
+        "2026-07-23",
+        "P/E (65x NTM, Mar-26)"
+       ],
+       [
+        "Kotak",
+        "Buy",
+        "395",
+        "2026-07-23",
+        "SOTP"
+       ],
+       [
+        "ICICI",
+        "Buy",
+        "360",
+        "2026-07-23",
+        "SOTP"
+       ],
+       [
+        "CLSA",
+        "HC Outperform",
+        "506",
+        "2026-07-23",
+        "n.d."
+       ],
+       [
+        "Jefferies",
+        "Buy",
+        "415",
+        "2026-07-23",
+        "n.d."
+       ],
+       [
+        "JPMorgan",
+        "Overweight",
+        "390",
+        "2026-07-23",
+        "n.d."
+       ],
+       [
+        "Nomura",
+        "Buy",
+        "350",
+        "2026-07-23",
+        "n.d."
+       ],
+       [
+        "Citi",
+        "Buy",
+        "385",
+        "2026-07-23",
+        "n.d."
+       ],
+       [
+        "HSBC",
+        "Buy",
+        "340",
+        "2026-07-23",
+        "n.d."
+       ],
+       [
+        "Axis Capital",
+        "n.d.",
+        "405",
+        "2026-07-23",
+        "n.d."
+       ],
+       [
+        "Morgan Stanley",
+        "Overweight",
+        "373",
+        "2026-07-23",
+        "n.d."
+       ],
+       [
+        "Macquarie",
+        "Underperform",
+        "190",
+        "2026-09-30",
+        "n.d."
+       ],
+       [
+        "Goldman Sachs",
+        "Buy",
+        "385",
+        "2026-09-29",
+        "SOTP"
+       ],
+       [
+        "Nuvama (pre-Q1, stale)",
+        "Buy",
+        "380",
+        "2026-04-29",
+        "SOTP"
+       ],
+       [
+        "Nirmal Bang (pre-Q1, stale)",
+        "Buy",
+        "334",
+        "2026-04-29",
+        "n.d."
+       ],
+       [
+        "Ambit Capital (pre-Q1, stale)",
+        "Sell",
+        "202",
+        "2025-10-20",
+        "DCF (by segment)"
+       ],
+       [
+        "Bernstein (pre-Q1, stale)",
+        "Outperform",
+        "390",
+        "2025-11-04",
+        "n.d."
+       ]
+      ],
+      "source": "Broker notes and press reports published on or before 30-Sep-2026; n.d. = not disclosed. Stale calls are kept out of the median."
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Targets range from ₹190 to ₹506; we are below the median",
+       "unit": "₹ per share",
+       "x": [
+        "Elara",
+        "Motilal Oswal",
+        "Emkay",
+        "Axis",
+        "JM Financial",
+        "Kotak",
+        "ICICI",
+        "CLSA",
+        "Jefferies",
+        "JPMorgan",
+        "Nomura",
+        "Citi",
+        "HSBC",
+        "Axis Capital",
+        "Morgan Stanley",
+        "Macquarie",
+        "Goldman Sachs",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          400,
+          400,
+          400,
+          360,
+          400,
+          395,
+          360,
+          506,
+          415,
+          390,
+          350,
+          385,
+          340,
+          405,
+          373,
+          190,
+          385,
+          360
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes, GAM Research"
+      },
+      {
+       "type": "hbar",
+       "title": "What brokers pay for Zomato food",
+       "unit": "EV/EBITDA multiple on food EBITDA (x)",
+       "x": [
+        "Motilal Oswal",
+        "Emkay (DCF-implied)",
+        "Nuvama",
+        "Elara",
+        "GAM (base)",
+        "GAM on Swiggy food"
+       ],
+       "series": [
+        {
+         "name": "Multiple",
+         "values": [
+          35,
+          34.5,
+          40,
+          42,
+          37.5,
+          30
+         ],
+         "fmt": "x"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "source": "Broker notes (Apr-Jul 2026), GAM Research"
+      }
+     ]
+    },
+    {
+     "p": "The street is almost uniformly positive: 15 of 17 brokers with a post-Q1 call rate Eternal a Buy (Overweight / Outperform), on the argument that Blinkit has won quick commerce and food delivery is a growing cash engine. Macquarie (Underperform, ₹190) is the lone bear: the price already discounts much of the quick-commerce opportunity. The median target is ₹390 (consensus from S&P Capital IQ ₹378). The brokers that disclose their method use a sum of the parts or a segment DCF: food at 34.5-42x EBITDA and Blinkit at ₹209-257 a share. Our Blinkit value (₹197 a share) is at the low end; our food value is close to the median."
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: sum of the parts, the street's method, gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values Eternal"
+    },
+    {
+     "p": "Brokers value Eternal **part by part (sum of the parts)** or with a DCF built segment by segment: food delivery on EV/EBITDA (34.5-42x, FY28E or Sep-28E), Blinkit on EV/EBITDA (50-52x), EV/NOV or a DCF, District and Hyperpure on EV/sales, plus cash. P/E is not useful: earnings are small, the tax rate is changing and the own forward P/E has averaged over 200x. We use the same method as for Swiggy, so the two reports can be compared line by line."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "Thesis"
+      ],
+      "wide": [
+       6
+      ],
+      "rows": [
+       [
+        "Elara",
+        "Buy",
+        "400",
+        "SOTP",
+        "Food 42x, Blinkit 52x",
+        "Sep-28E",
+        "District 5x sales, Hyperpure 3x sales"
+       ],
+       [
+        "Motilal Oswal",
+        "Buy",
+        "400",
+        "SOTP",
+        "Food 35x",
+        "n.d.",
+        "Blinkit DCF (WACC 12%, g 4.5%)"
+       ],
+       [
+        "Emkay",
+        "Buy",
+        "400",
+        "DCF by segment",
+        "Food ~34.5x implied",
+        "FY28E",
+        "Blinkit ~1.75x FY28E NOV implied"
+       ],
+       [
+        "Nuvama (Apr-2026)",
+        "Buy",
+        "380",
+        "SOTP",
+        "Food 40x, Blinkit 50x",
+        "FY28E",
+        "Pre-Q1 call, stale"
+       ],
+       [
+        "Kotak (retail)",
+        "Buy",
+        "395",
+        "SOTP",
+        "n.d.",
+        "Sep-27",
+        "Components not disclosed"
+       ],
+       [
+        "Axis Securities",
+        "Buy",
+        "360",
+        "SOTP",
+        "n.d.",
+        "–",
+        "Components not disclosed"
+       ],
+       [
+        "JM Financial",
+        "Buy",
+        "400",
+        "P/E (Mar-26 note)",
+        "65x NTM",
+        "–",
+        "Q1 note not seen"
+       ],
+       [
+        "Macquarie",
+        "Underperform",
+        "190",
+        "n.d.",
+        "–",
+        "–",
+        "Price discounts much of the QC opportunity"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**HOLD**",
+         "**{{dcf.tp|num}}**",
+         "**Sum of the parts**",
+         "**–**",
+         "**–**",
+         "Food 37.5x Sep-28E adj. EBITDA; Blinkit 1.2x Sep-28E NOV; District, Hyperpure, new bets, net cash"
+        ]
+       }
+      ],
+      "source": "Broker notes published on or before 30-Sep-2026 (Elara, MOFSL, Emkay PDFs read directly; others from press); n.d. = not disclosed"
+     }
+    },
+    {
+     "h": "Our multiples: food 37.5x EBITDA, Blinkit 1.2x NOV, and why"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Own forward P/E (house starting point)",
+        "Median one-year-forward P/E since Apr-2021: 224.7x (no trough years under the house rule, but earnings were losses or near zero until FY24)",
+        "Not meaningful for a business whose profit is small and whose tax rate is changing; not used"
+       ],
+       [
+        "2. The street on Zomato food",
+        "Motilal Oswal 35x (basis not stated); Emkay (DCF-implied) 34.5x (FY28E); Nuvama 40x (FY28E (Apr-2026)); Elara 42x (Sep-28E)",
+        "Median 37.5x → **37.5x** Sep-28E adjusted EBITDA"
+       ],
+       [
+        "3. Sector move (§7c)",
+        "Internet peers with a five-year P/E history: Info Edge −38% and IndiaMART −59% vs their medians (median −48%). Swiggy, Paytm and PB Fintech (losses for most of the window) and Nykaa (P/E above 1,000x) excluded",
+        "Not applied: the street multiples are already current (Jul-2026), not five-year averages; applying it would give 19.4x (sensitivity only)"
+       ],
+       [
+        "4. Consistency with Swiggy",
+        "Our Swiggy food multiple is 30x: a ~20% discount for a lower margin (3.1% of GOV vs 5.6% of NOV) and slower growth (17% vs 20%)",
+        "Consistent with 37.5x for the leader"
+       ],
+       [
+        "5. Blinkit",
+        "The three disclosed broker values of Blinkit: Elara (52x Sep-28E EBITDA) ₹1,93,440 cr; Motilal Oswal (DCF) ₹1,70,372 cr; Emkay (DCF) ₹2,45,200 cr. Median ₹1,93,440 cr",
+        "= **1.2x** our Sep-28E NOV (₹1,58,616 cr); bull 1.75x (Emkay), bear 1.05x (MOFSL)"
+       ],
+       [
+        "6. Smaller parts",
+        "District 0.6x NOV less losses to breakeven (as Swiggy's out-of-home); Hyperpure 0.5x sales; Bistro/Nugget three years of losses (as Swiggy's new bets)",
+        "Together ~₹14/share"
+       ]
+      ],
+      "source": "Screener.in, GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "hbar",
+      "title": "Target and cross-checks vs the share price",
+      "unit": "₹ per share (base case)",
+      "x": [
+       "Sum of the parts (target)",
+       "DCF",
+       "EV/EBITDA",
+       "Share price today"
+      ],
+      "series": [
+       {
+        "name": "Value",
+        "values": [
+         360,
+         431,
+         343,
+         320
+        ],
+        "fmt": "inr"
+       }
+      ],
+      "labels": "all",
+      "highlight": "Sum of the parts (target)",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**Sum of the parts**",
+        "**Target**",
+        "Sum of the parts",
+        "–",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.1.value|num}}",
+        "+20%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "EBITDA Sep-28E ₹8,572 cr",
+        "37.5x (bull 50x, bear 30x)",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-5%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "Cross-checks: the DCF (13.1% cost of equity, 6% terminal growth) gives ₹431 (+20% vs our SOTP), because it credits Blinkit with reaching its 6% margin over 15 years; EV/EBITDA at 37.5x Sep-28E group EBITDA gives ₹343 (−5%). The swing factor is Blinkit: each 0.1x of NOV is worth ~₹16 a share."
+    },
+    {
+     "h": "Sum of the parts in detail"
+    },
+    {
+     "p": "We value each business separately on our Sep-28E forecasts (the average of FY28E and FY29E), add the net cash we expect at March 2027 and add back lease liabilities (rent is already deducted in segment EBITDA). Every input is live in the SOTP sheet of the Excel model, with Base / Bull / Bear switches."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Sum-of-the-parts valuation (base case)",
+      "head": [
+       "Business",
+       "Method",
+       "Metric (₹ cr)",
+       "Multiple",
+       "Adjustment (₹ cr)",
+       "Value (₹ cr)",
+       "₹ / share"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Food delivery (Zomato)",
+        "Sep-28E adjusted EBITDA × EV/EBITDA",
+        "3,417",
+        "37.5x",
+        "–",
+        "{{dcf.sotp.parts.0.value|num}}",
+        "{{dcf.sotp.parts.0.perShare|num}}"
+       ],
+       [
+        "Quick commerce (Blinkit)",
+        "Sep-28E NOV × EV/NOV",
+        "1,58,616",
+        "1.2x",
+        "–",
+        "{{dcf.sotp.parts.1.value|num}}",
+        "{{dcf.sotp.parts.1.perShare|num}}"
+       ],
+       [
+        "Going-out (District)",
+        "Sep-28E NOV × EV/NOV, less losses to breakeven",
+        "20,429",
+        "0.6x",
+        "-300",
+        "{{dcf.sotp.parts.2.value|num}}",
+        "{{dcf.sotp.parts.2.perShare|num}}"
+       ],
+       [
+        "B2B supplies (Hyperpure)",
+        "Sep-28E revenue × EV/sales",
+        "6,105",
+        "0.5x",
+        "–",
+        "{{dcf.sotp.parts.3.value|num}}",
+        "{{dcf.sotp.parts.3.perShare|num}}"
+       ],
+       [
+        "Others (Bistro, Nugget)",
+        "FY28E adjusted EBITDA (loss) × years of losses",
+        "-383",
+        "3x",
+        "–",
+        "{{dcf.sotp.parts.4.value|num}}",
+        "{{dcf.sotp.parts.4.perShare|num}}"
+       ],
+       [
+        "Net cash at end-FY27E (after leases)",
+        "",
+        "10,319",
+        "–",
+        "–",
+        "{{dcf.sotp.parts.5.value|num}}",
+        "{{dcf.sotp.parts.5.perShare|num}}"
+       ],
+       [
+        "Add back lease liabilities",
+        "Rent is already deducted in segment EBITDA",
+        "–",
+        "–",
+        "4,592",
+        "{{dcf.sotp.parts.6.value|num}}",
+        "{{dcf.sotp.parts.6.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Equity value**",
+         "",
+         "",
+         "",
+         "",
+         "3,47,248",
+         "360"
+        ]
+       },
+       {
+        "hl": true,
+        "cells": [
+         "**SOTP target (rounded)**",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "{{dcf.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research estimates"
+     }
+    },
+    {
+     "bullets": [
+      "**Food delivery (Zomato):** Median of the four food-delivery multiples the street disclosed after Q1FY27 or in its last dated note (MOFSL 35x, Emkay DCF-implied 34.5x FY28E, Nuvama 40x FY28E, Elara 42x Sep-28E) = 37.5x. Bull: Elara's 42x. Bear: 30x, our multiple for Swiggy's food business. Applied to Sep-28E adjusted EBITDA.",
+      "**Quick commerce (Blinkit):** The street's three disclosed Blinkit enterprise values (Elara ₹1,93,400 cr, MOFSL ₹1,70,372 cr, Emkay ₹2,45,200 cr) have a median of ₹1,93,400 cr = 1.2x our Sep-28E NOV. Bull: Emkay's 1.75x NOV. Bear: MOFSL's DCF value, 1.05x our NOV. NOV (order value) rather than EBITDA because Blinkit earns 1-3% of NOV today, so an EBITDA multiple swings wildly; this matches how we value Swiggy's Instamart (EV/GOV).",
+      "**Going-out (District):** 0.6x Sep-28E NOV, the multiple we use for Swiggy's out-of-home business, less ~₹300 cr of losses to breakeven (FY29E in our model; bear: two years later). The street values District at ~₹10,000 cr (Elara 5x sales, Emkay DCF ₹9,800 cr).",
+      "**B2B supplies (Hyperpure):** 0.5x Sep-28E revenue: a restaurant-supplies distributor earning ~1-1.5% of revenue (0.5x sales ≈ 35-40x EBITDA). The street ranges from ₹1,900 cr (Emkay DCF) to ~₹16,400 cr (Elara 3x sales, which would be ~200x EBITDA). Bear 0.2x, our multiple for Swiggy's supply-chain arm.",
+      "**Others (Bistro, Nugget):** Start-up losses (Bistro, Nugget) valued as the cost still to come: three years of FY28E losses (bull: one year; bear: five), as for Swiggy's new bets.",
+      "**Net cash at end-FY27E (after leases):** Model forecast: cash + investments + deposits − lease liabilities at Mar-27.",
+      "**Add back lease liabilities:** Lease liabilities (₹4,592 cr, Mar-26) are store and warehouse rent obligations; segment EBITDA is after rent, so deducting them again would double count (as in our Swiggy SOTP)."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Value / share",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Food grows ~18% at ~5.8% margins (37.5x); Blinkit grows ~57% a year to FY29E and reaches 3.4% of NOV (1.2x NOV); District breaks even in FY29E."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}}"
+       ]
+      ],
+      "source": "GAM Research estimates"
+     }
+    },
+    {
+     "callout": "**Cross-check: what is the market paying for?** Market value is ~₹3,08,812 cr. If food, District, Hyperpure, new bets and net cash are worth what we think (₹1,56,909 cr), the market is valuing Blinkit at ~₹1,51,903 cr, or ~1.0x its Sep-28E NOV, against the 1.2x median of broker values. Put the other way, with Blinkit at our value the price buys food delivery at ~26.3x Sep-28E EBITDA. Neither looks stretched; neither is a bargain."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Internet peers at the 30-Sep-2026 close",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "Trailing P/E",
+       "Trailing EV/EBITDA",
+       "FY26 revenue (₹ cr)",
+       "FY26 EBITDA margin"
+      ],
+      "rows": [
+       [
+        "**Eternal**",
+        "3,08,896",
+        "713.2x",
+        "100.4x",
+        "54,364",
+        "2.2%"
+       ],
+       [
+        "Swiggy",
+        "68,908",
+        "loss",
+        "n.m.",
+        "23,053",
+        "-14%"
+       ],
+       [
+        "Info Edge (India)",
+        "79,042",
+        "53.6x",
+        "34.4x",
+        "3,285",
+        "36.1%"
+       ],
+       [
+        "Indiamart Intermesh",
+        "9,797",
+        "19.8x",
+        "13.8x",
+        "1,569",
+        "30.3%"
+       ],
+       [
+        "FSN E-Commerce Ventures",
+        "91,691",
+        "344.4x",
+        "105.1x",
+        "10,022",
+        "7.5%"
+       ],
+       [
+        "One 97 Communications",
+        "1,07,766",
+        "132.7x",
+        "71.0x",
+        "8,437",
+        "5.9%"
+       ],
+       [
+        "PB Fintech",
+        "49,493",
+        "65.8x",
+        "50.1x",
+        "6,794",
+        "7.5%"
+       ]
+      ],
+      "source": "Screener.in data at the NSE close on 30-Sep-2026, GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: the best business in Indian consumer internet, priced for much of its success",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's leading food-delivery app (5.6% margin, growing 20%) and the leading, already-profitable quick-commerce network (growing ~86%), plus ₹18,288 cr of cash, for a market value of ~₹3,08,812 cr. Our sum of the parts gives {{dcf.tp|inr}} ({{dcf.upside|chg}})."
+    },
+    {
+     "callout": "**What you are paying for:** valuing food, District, Hyperpure and cash as we do, the price implies ~1.0x Blinkit's Sep-28E order value (we use 1.2x). That is a bet that Blinkit keeps growing ~50% a year and gets to its 6% margin target. If competition keeps margins near 1-2% (our bear case), the stock is worth {{scen.bear.tp|inr}}."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key risks",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact",
+       "What we watch"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Quick-commerce price war lasts longer (Zepto, Instamart, Flipkart Minutes, Amazon Now)",
+        "Medium-high",
+        "High: Blinkit margin stuck near 1-2%",
+        "Blinkit adjusted EBITDA % of NOV; rivals' discounts and funding"
+       ],
+       [
+        "Blinkit growth slows sharply",
+        "Medium",
+        "High: Blinkit is ~55% of our value",
+        "QoQ NOV growth, store additions, NOV per store per day"
+       ],
+       [
+        "Price-led food entrants (Toing, Ownly) erode take rates",
+        "Medium",
+        "Medium",
+        "Food adjusted revenue % of NOV; NOV growth vs Swiggy"
+       ],
+       [
+        "Capital intensity rises (capex per store, inventory)",
+        "Medium",
+        "Medium: lower free cash flow",
+        "Capex per store, net working capital days, inventory losses"
+       ],
+       [
+        "Regulation: gig-worker levies, GST on delivery fees, inventory (FDI) rules, competition-law complaints",
+        "Medium",
+        "Low-medium",
+        "Social Security Code notifications; state levies; CCI"
+       ],
+       [
+        "Higher tax rate for longer",
+        "Medium",
+        "Low (EPS, not SOTP)",
+        "Quarterly effective tax rate"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: HOLD, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**Buy below ~₹315**, or if Blinkit's margin reaches 2% of NOV while NOV growth stays above 60%.",
+      "**Sell above ~₹380**, or if Blinkit's margin turns negative again for two quarters or food NOV growth falls below 15%.",
+      "**Position size:** a full weight is justified by the quality of the franchise; add on price weakness around results rather than chasing rallies."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "B2C order value, Q1FY27",
+        "v": "₹31,120 cr",
+        "d": "+54.2% YoY"
+       },
+       {
+        "k": "Food margin, Q1FY27",
+        "v": "5.6% of NOV",
+        "d": "top of 5-6% target range"
+       },
+       {
+        "k": "Blinkit adj. EBITDA, Q1FY27",
+        "v": "₹102 cr",
+        "d": "0.6% of NOV; target 6%"
+       },
+       {
+        "k": "Implied Blinkit value",
+        "v": "1.0x NOV",
+        "d": "Sep-28E; we use 1.2x"
+       },
+       {
+        "k": "Target / bear",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY20–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 40
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 500
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation",
+        "flag": {
+         "type": "pct",
+         "th": 40
+        },
+        "inverse": true
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit / (loss)",
+        "hl": true
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 60
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit / (loss)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "NOV (net order value)",
+        "Value of orders after all discounts. Eternal's headline activity measure from Q1FY27."
+       ],
+       [
+        "GOV (gross order value)",
+        "Value of orders before discounts, including taxes and fees. Eternal stopped disclosing it in Q1FY27; Swiggy still reports it."
+       ],
+       [
+        "B2C",
+        "The consumer businesses: food delivery, quick commerce and going-out."
+       ],
+       [
+        "Take rate",
+        "Revenue as a % of order value: commissions, customer fees and advertising."
+       ],
+       [
+        "Contribution",
+        "Profit on each order after delivery costs, discounts and (in quick commerce) store costs, before head-office and technology costs."
+       ],
+       [
+        "Adjusted revenue",
+        "Reported revenue plus customer delivery charges and platform fees in food delivery that are not booked as revenue."
+       ],
+       [
+        "Adjusted EBITDA",
+        "Eternal's profit measure: EBITDA before ESOP cost, with rent counted as an operating cost."
+       ],
+       [
+        "Reported EBITDA",
+        "Operating profit under accounting rules: includes ESOP cost, excludes rent (moved to depreciation and interest by Ind AS 116)."
+       ],
+       [
+        "1P / inventory model",
+        "The platform buys and owns the goods it sells, booking the full sale value as revenue."
+       ],
+       [
+        "IOCC",
+        "Indian-owned and controlled company: required to run an inventory model in e-commerce."
+       ],
+       [
+        "Dark store",
+        "A small warehouse closed to the public, used only to pack quick-commerce orders."
+       ],
+       [
+        "ESOP",
+        "Employee stock options: a non-cash cost in the accounts that dilutes existing shareholders."
+       ],
+       [
+        "QIP",
+        "Qualified institutional placement: a share sale to institutional investors."
+       ],
+       [
+        "SOTP",
+        "Sum of the parts: valuing each business separately and adding them up."
+       ],
+       [
+        "EV/EBITDA, EV/NOV, EV/sales",
+        "Enterprise value (market value less net cash) divided by EBITDA, order value or revenue."
+       ],
+       [
+        "Sep-28E",
+        "The 12 months to September 2028: the average of our FY28E and FY29E figures, the basis of our 12-month target."
+       ],
+       [
+        "bp / pp",
+        "100 basis points (bp) = 1 percentage point (pp)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY21": "COVID year: revenue fell 23%; Uber Eats India (bought for shares in Jan-2020) folded in.",
+  "sales@FY22": "Recovery from COVID; IPO year (Jul-2021).",
+  "sales@FY23": "Blinkit consolidated from 10-Aug-2022 (acquired for ~₹4,447 cr in shares).",
+  "sales@FY25": "Blinkit order value (GOV) +127%; going-out enlarged by the Paytm ticketing purchase (Aug-2024).",
+  "sales@FY26": "Blinkit switched to owning inventory (1P) from Q2FY26: revenue now includes the full sale value. Like-for-like growth ~64%.",
+  "dep@FY23": "Blinkit consolidated from 10-Aug-2022 (stores and warehouses).",
+  "dep@FY26": "Store and warehouse build-out (2,243 Blinkit stores at Mar-26 vs 1,301 a year earlier) and leases.",
+  "pat@FY24": "First full-year profit: food delivery margins rose and treasury income covered Blinkit's losses.",
+  "pat@FY26": "Profit fell as Blinkit expansion, District losses and new bets (Bistro, Nugget) absorbed food profits.",
+  "pat@FY27E": "GAM estimate: EBITDA more than doubles, but the tax rate jumps (~58%) as the parent's carried-forward losses run out.",
+  "sales@FY27E": "First full year of Blinkit's inventory model (revenue = full sale value) plus ~72% NOV growth.",
+  "ebitdaMargin@FY29E": "Blinkit margin ~3.8% of NOV; still below the 6% steady-state target.",
+  "sales@Q2FY26": "Blinkit moved to owning inventory: revenue now includes the full sale value (like-for-like growth ~65%).",
+  "pat@Q1FY27": "Tax rose to ₹180 cr (66% of PBT): the parent's past losses are being used up."
+ }
+}
