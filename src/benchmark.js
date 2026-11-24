@@ -34,7 +34,7 @@ function loadBenchmark() {
 
 async function refreshBenchmark() {
   const r = await fetch(`https://www.screener.in/api/company/${SCREENER_INDEX_ID}/chart/?q=Price-DMA50-DMA200-Volume&days=10000`, {
-    headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130 Safari/537.36' },
+    headers: { 'User-Agent': require('./http-identity').UA },
   });
   if (!r.ok) throw new Error(`benchmark ${r.status}`);
   const j = await r.json();

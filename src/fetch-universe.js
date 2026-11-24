@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 
-const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36';
+const { UA } = require('./http-identity');
 const INDEX_URL = 'https://www.screener.in/company/1005/';
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const clean = s => s.replace(/\s+/g, ' ').trim();

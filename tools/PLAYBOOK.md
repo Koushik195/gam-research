@@ -200,7 +200,7 @@ close: for short histories compute the series on all weekly closes in your ctx (
   analogue of the factor (e.g., TORNTPHARM +5.55%). A20: ALKEM, ABBOTINDIA, IPCALAB +10.25%
   (set excluding self); GLENMARK, BIOCON +8.2% (outside the set). Listed stakes inside an operating
   company's SOTP: 30-Sep market value less 20% (BAJAJ-AUTO / M&M / HEROMOTOCO precedent) unless the
-  street clearly does otherwise. Never send a disguised browser user-agent or other changed headers.
+  street clearly does otherwise. Never send a disguised browser user-agent or other changed headers. Our tools identify themselves from src/http-identity.js (switched 24-Nov-2026; Screener serves everything to it); if a site refuses that identity, record the gap rather than work around it.
   A21: GLAND, AJANTPHARM, GLAXO +8.2% P/E (+7.5% EV/EBITDA), five-year. ANTHEM (listed Jul-2025):
   own median since 1-Oct-2025 × same-window move +17.2% P/E (+6.7% EV/EBITDA). EMCURE (listed
   Jul-2024): own median since 1-Jan-2025 × same-window move +16.0% P/E (+10.8% EV/EBITDA). Any own

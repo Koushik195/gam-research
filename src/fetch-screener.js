@@ -6,13 +6,13 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 
-const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36';
+const { UA } = require('./http-identity');
 const BASE = 'https://www.screener.in';
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function get(url, json = false) {
   for (let i = 0; i < 3; i++) {
-    const r = await fetch(url, { headers: { 'User-Agent': UA, 'X-Requested-With': 'XMLHttpRequest' } });
+    const r = await fetch(url, { headers: { 'User-Agent': UA } });
     if (r.ok) return json ? r.json() : r.text();
     if (r.status === 429) { await sleep(3000 * (i + 1)); continue; }
     throw new Error(`${r.status} ${url}`);
