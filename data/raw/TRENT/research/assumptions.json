@@ -1,0 +1,190 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Trent Ltd, consolidated, Rs crore. FY26 (Mar-2026) is the last reported year; Q1FY27 (Jun-2026, results 6-Aug-2026) is the last quarter known on 30-Sep-2026. Trent reports one segment (retail). We model revenue as a store build for the fashion business (Westside, Zudio and the small concepts, all in the listed company): effective retail area x revenue per sq ft of that area, plus the consolidated subsidiaries (consolidated less standalone: Zudio UAE, Booker wholesale, the Star stores held in Fiora Hypermarket, net of intra-group sales). Star (Trent Hypermarket, 50:50 with Tesco) and the Inditex associates (Zara 20%, Massimo Dutti) are equity-accounted: their share of profit sits in other income. The engine runs on revenueGrowth and ebitdaMargin; TRENT.ctx.js checks that the build below reproduces both exactly. Shares 53.32 cr after the 1:2 bonus (record date 4-Jun-2026); Screener EPS is restated for it. Minorities (Booker 49%) are tiny (Rs1.7 cr of FY26 profit).",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "build": {
+  "_note": "Fashion retail area at year end: 17.7 mn sq ft at Mar-26 (300 Westside, 963 Zudio, 23 other stores), 18.04 mn at Jun-26 (1,312 stores; Q1FY27 presentation); 5.3 / 7.0 / 9.4 / 13.5 mn at Mar-22 to Mar-25 (AR FY26). Openings are back-ended (FY26 net adds by quarter 1 / 53 / 65 / 131; ~13.6 mn sq ft at Jun-25), so effective average area = opening area + 32% of the area added in the year (FY26: average of quarterly averages, with Sep-25 and Dec-25 area interpolated on net store adds, = 14.84 mn = 13.5 + 32% of 4.2). Revenue per effective sq ft FY26 = Rs19,701 cr / 14.84 mn = Rs13,276 (our measure); FY25 Rs15,560 on the same basis (16,668 / 10.71).",
+  "base": {
+   "fy": "FY26",
+   "stores": 1286,
+   "areaClose": 17.7,
+   "areaEff": 14.84,
+   "standaloneRev": 19701,
+   "standaloneEbitda": 3705,
+   "subsRev": 373,
+   "subsEbitda": 40
+  },
+  "storeAdds": [
+   250,
+   260,
+   270
+  ],
+  "_storeAddsWhy": "Net fashion store additions. FY26: 272 opened (60 Westside, 212 Zudio), 22 consolidated, ~250 net; 'c.250 new stores a year' for the last few years (Q4FY26 presentation). AGM (23-Jun-2026, per Apparel Resources 24-Jun-2026): ~50 Westside and 200-250 Zudio a year, medium-term 700 Westside and ~5,000 Zudio. Q1FY27: 23 opened, 26 net incl. 6 other concepts; management: annual trajectory 'broadly consistent' with the AGM outlook. ICICI Direct (7-Aug-2026): ~49 Westside and 210-220 Zudio still to open in FY27.",
+  "sqftPerNewStore": 0.016,
+  "_sqftWhy": "FY26 added 4.2 mn sq ft for ~250 net stores (16.8k each: Westside ~24k average, Zudio ~11k). We use 16k as the mix shifts to Zudio and smaller towns.",
+  "phasing": 0.32,
+  "revPerSqftGrowth": [
+   -8,
+   -1,
+   1
+  ],
+  "_revPerSqftWhy": "Revenue per effective sq ft fell ~15% in FY26 (Rs15,560 to Rs13,276) and ~10% y/y in Q1FY27 (Rs5,666 cr on ~17.9 mn sq ft vs Rs4,781 cr on ~13.55 mn; MOSL 6-Aug-2026 also -10%). Like-for-like growth was 'low single digits' in FY26 and Q1FY27 (company); >80% of new Zudio stores open in Tier II-III towns and peripheral micro-markets that 'mature over a two- to three-year period' (Q1FY27 presentation), and denser clusters cannibalise. Annualised FY26 sales per sq ft: Rs15,318 metro/Tier I, Rs13,390 Tier II, Rs12,504 rest of India (AR FY26). FY27E -8% (the FY26 cohort, 52% opened in Q4, ramps; mix keeps shifting to smaller towns), FY28E -1%, FY29E +1% as cohorts mature and LFL stays low single digit.",
+  "subsGrowth": [
+   -5,
+   5,
+   5
+  ],
+  "_subsWhy": "Consolidated less standalone revenue: Rs467 cr FY25, Rs373 cr FY26 (-20%), Rs89 cr in Q1FY27 (-13% y/y): Zudio UAE (7 stores; TGTL total income Rs61 cr, loss Rs14 cr), Booker wholesale (total income Rs199 cr), Star stores held in Fiora Hypermarket (Rs264 cr, down from Rs344 cr), net of intra-group sales (AR FY26 board report). FY27E -5%, then +5% a year. EBITDA Rs40 cr FY26, Rs8 cr Q1FY27: Rs35 / 40 / 45 cr.",
+  "standaloneMargin": [
+   19.3,
+   19.5,
+   19.6
+  ],
+  "subsEbitda": [
+   35,
+   40,
+   45
+  ],
+  "_marginWhy": "Standalone EBITDA margin (Ind AS, Screener annual basis, bank charges in finance cost) 18.8% in FY26 (16.9% FY25; 18.5% on the quarterly basis). Q1FY27 19.6% (17.5% a year earlier): gross margin +149bp to 46.6% (ICICI Direct, MOSL) on mix and inventory health; operating EBITDA (pre-Ind AS) +36%. Management flags 'escalation in the cost levels of select inputs' (Q1FY27 presentation) and keeps prices stable. FY27E 19.3%, FY28E 19.5%, FY29E 19.6%. Subsidiaries' EBITDA Rs40 cr FY26, Rs8 cr Q1FY27."
+ },
+ "revenueGrowth": [
+  17.2446,
+  19.9033,
+  19.2769
+ ],
+ "_revenueWhy": "From the store build (checked in TRENT.ctx.js). Q1FY27 consolidated revenue +17.9%, standalone +18.5%. Street: ICICI Direct FY27E Rs23,582 cr / FY28E Rs29,101 cr (7-Aug-2026); MOSL standalone revenue CAGR ~21% FY26-29E (6-Aug-2026).",
+ "ebitdaMargin": [
+  19.1581,
+  19.3846,
+  19.5062
+ ],
+ "_marginWhy": "From the build: standalone EBITDA plus subsidiaries' EBITDA over consolidated revenue. FY26 18.7%, Q1FY27 19.4% (quarterly basis). See build._marginWhy.",
+ "capex": [
+  2850,
+  3200,
+  3550
+ ],
+ "_capexWhy": "Capex here = cash capex plus cash lease payments (rent paid under Ind AS 116 shows up as lease repayment, not opex), so that free cash flow and the DCF are after rent. FY26: cash capex Rs1,737 cr (Screener: CFO 2,668 less FCF 931; the model history shows Screener's Rs1,763 cr) + payment of lease liabilities Rs797 cr (AR FY26 consolidated cash flow; Rs540 cr in FY25) = ~Rs2,530 cr; right-of-use additions were Rs1,242 cr (note 4). A new Zudio store needs Rs3-4 cr incl. capex, deposits and inventory (AR FY26). FY27E Rs1,900 + 950 cr, FY28E Rs2,100 + 1,100 cr, FY29E Rs2,300 + 1,250 cr. The Rs2,500 cr equity raise approved in principle on 22-Apr-2026 (store upgrades, new brands, warehousing, Star real estate) had not been launched by 30-Sep-2026 and is not modelled.",
+ "depRateOnGrossBlock": 16,
+ "_depWhy": "FY26 depreciation Rs1,361 cr (right-of-use amortisation ~Rs910 cr of it) = ~19% of the average gross block in the model; Q1FY27 Rs410 cr (7.1% of revenue, Rs1,640 cr annualised). 16% on the gross block gives Rs1.6k / 2.1k / 2.6k cr (6.8% / 7.3% / 7.7% of revenue): management says newer stores raise depreciation relative to revenue, but the engine also never retires assets, so the drift up is partly mechanical (see the report). CWIP (Rs254 cr) held flat.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "The engine's treasury is cash + investments less borrowings incl. Rs2,061 cr of lease liabilities, so it is negative (net debt incl. leases) and earns nothing; income on Trent's ~Rs1,150 cr of liquid funds is built into other income below.",
+ "otherIncome": [
+  115,
+  120,
+  130
+ ],
+ "_otherIncomeWhy": "Screener 'other income' = reported other income + share of JVs/associates + exceptional items: FY26 Rs85 cr = 114.8 (AR FY26 consolidated note 29) + 3.9 (JV/associate share) - 26.1 (labour-code exceptional) - 7.6 (loss on assets discarded). Built: treasury income ~Rs55-65 cr (cash Rs281 cr, liquid funds Rs648 cr, bonds and G-secs Rs196 cr at Mar-26 less the Rs500 cr NCD repaid 29-May-2026, rebuilt by free cash) + unwinding of security deposits ~Rs30-40 cr (Rs28.6 cr FY26) + fair-value/sale gains and misc ~Rs20 cr + JV/associate share ~0-10 (Star loss share ~-Rs65 cr vs Zara/Massimo Dutti ~+Rs47 cr in FY26; FY26 total +Rs3.9 cr, FY25 +Rs86.5 cr). Screener quarters: Q1FY27 Rs30 cr; trailing four quarters Rs91 cr incl. the -Rs26 cr exceptional (Rs117 cr before it). FY27E Rs115 cr, FY28E Rs120 cr, FY29E Rs130 cr.",
+ "interest": [
+  245,
+  285,
+  330
+ ],
+ "_interestLabel": "Finance cost (lease interest, NCD, bank charges)",
+ "_interestWhy": "Screener annual finance cost Rs233 cr in FY26 = reported Rs168 cr (lease interest Rs134 cr, NCD Rs29 cr, other Rs5 cr; AR note 31) + ~Rs64 cr of bank charges Screener moves out of expenses. The 5.78% Rs500 cr NCD was repaid on 29-May-2026. Q1FY27 quarterly finance cost Rs47 cr. FY27E Rs245 cr (lease interest ~Rs165 cr, bank charges ~Rs75 cr, NCD ~Rs5 cr), FY28E Rs285 cr, FY29E Rs330 cr as the lease book grows ~15% a year.",
+ "taxRate": [
+  24.5,
+  24.5,
+  24.5
+ ],
+ "_taxWhy": "FY26 23.0% (Rs515 cr on Rs2,236 cr, incl. a Rs59 cr deferred-tax credit), FY25 24.4%, Q1FY27 25.1%. Standalone pays ~25% (new regime); JV/associate share is post-tax.",
+ "payout": [
+  12,
+  12,
+  12
+ ],
+ "_payoutWhy": "FY26 dividend Rs6 per pre-bonus share (Rs4 post-bonus), Rs213 cr = 12% of profit; Trent pays 8-18%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.95,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 10,
+  "fadeMarginTo": 18,
+  "fadeCapexPctTo": 7,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Discretionary fashion retail: earnings more cyclical than staples (DMart 0.75). Debt excluding leases is nil after the May-2026 NCD repayment; leases (~Rs2,100 cr) are ~1.5% of market value, so the cost of equity (12.2%) is the WACC.",
+  "_tgWhy": "Organised fashion and lifestyle retail in India is a ~Rs8-9 trn market with Trent at ~2% share (management, AGM 2026); a 6% nominal terminal rate (house range 5-6%) after 15 years of fade.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~19% (FY29E) to 10% over 15 years as the store base (1,300 now; ambition ~5,700) matures.",
+  "_fadeMarginWhy": "EBITDA margin (Ind AS, rent below EBITDA) fades to 18%: FY23-26 15-19%; leases keep rent out of EBITDA, so capex here includes right-of-use additions.",
+  "_fadeCapexWhy": "Capex incl. right-of-use additions fades from ~12% of revenue (FY29E) to 7% as new stores fall relative to the base (lease renewals continue); depreciation incl. right-of-use 5.5% of revenue (FY26 6.8%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Zudio keeps opening 250+ stores a year and its Tier II-III cohorts ramp faster, like-for-like growth recovers to mid-to-high single digits, Westside steps up to ~100 openings a year, and gross margin holds at the Q1FY27 high.",
+   "revenueGrowthDelta": 4,
+   "marginDelta": 0.5,
+   "fadeMarginTo": 19,
+   "volumeGrowthDelta": 0
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Value fashion gets crowded (Reliance Yousta, Max, Style Union, Vishal, quick-commerce fashion), new stores in small towns stay unproductive, like-for-like growth turns negative, and input-cost inflation forces Trent to choose between price and margin.",
+   "revenueGrowthDelta": -5,
+   "marginDelta": -1,
+   "fadeMarginTo": 16.5,
+   "volumeGrowthDelta": 0
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 49,
+      "bull": 70,
+      "bear": 32.5
+     },
+     "why": "How the street values Trent: the brokers that show their method use a sum of the parts in which Westside + Zudio are ~95% of value, on ~40x pre-Ind AS EV/EBITDA (MOSL) or 64x Sep-28E P/E (Elara), and every target equals 58-64x FY28E EPS (MOSL 62x, Nuvama 58x at the CMP). Star and the Inditex stakes are inside consolidated EPS (equity-accounted). Multiple derived (TRENT.ctx.js): Trent one-year-forward P/E median since Apr-2021 69.8x (no trough years; 69.8x also on EPS before the FY24 lease gain) x (1 - 29.6% retail-sector de-rating at 30-Sep-2026: DMart -21.8%, Metro Brands -29.1%, Bata -30.3%, Page -30.1%) = 49.1x, nearest half-turn 49x. Bull 70x (no de-rating); bear 32.5x (25th percentile 46.3x de-rated)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 27.5,
+      "bull": 39.5,
+      "bear": 21.5
+     },
+     "why": "Cross-check (MOSL values Westside + Zudio on 40x pre-Ind AS EBITDA): Trent trailing EV/EBITDA median since Apr-2021 (60.2x, Screener, EV incl. lease liabilities) x the same sector factor x trailing-to-Sep-28E EBITDA (0.653) = 27.5x on Ind AS EBITDA, less net debt incl. leases."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether 15 years of store-led cash flows (after rent, via right-of-use additions in capex) support the price: FCFF at a 12.2% cost of capital, terminal growth 6%."
+    }
+   ]
+  }
+ }
+}

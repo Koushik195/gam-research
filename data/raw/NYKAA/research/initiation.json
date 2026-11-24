@@ -1,0 +1,2855 @@
+{
+ "symbol": "NYKAA",
+ "listing": "NSE: NYKAA · BSE: 543384",
+ "date": "30 September 2026",
+ "rating": "HOLD",
+ "analysts": "GAM Research — Internet & Consumer Platforms",
+ "cover": {
+  "headline": "India's beauty leader is accelerating and finally profitable, but the price already pays for it",
+  "lead": "Nykaa is India's largest specialist beauty retailer (app, website and 324 stores), owns a fast-growing set of beauty brands, runs a premium fashion platform and supplies small shops through Superstore. At ₹{{P.last|num}} the stock is 7% below its 52-week high and ~70% above its bonus-adjusted IPO price of ₹187.5. Q1FY27 was its best quarter in years: revenue +29%, EBITDA +68%, Beauty growing 29% at a 10.3% margin and Fashion at breakeven. But at ~₹91,691 cr the market already pays ~43x Beauty's Sep-28E EBITDA. Our sum of the parts gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with HOLD.** Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}} ({{scen.bear.upside|chg}}).",
+  "arguments": [
+   {
+    "h": "Beauty: the profitable leader, growing faster again",
+    "p": "Beauty GMV rose 28% in Q1FY27 (NSV +29%; group revenue growth was the fastest in 13 quarters) at a 10.3% EBITDA margin on NSV. Owned brands (House of Nykaa, ₹1,700 cr of NSV in FY26) and premium global brands lift the gross margin; 324 stores add reach. We assume 25-27% GMV growth, the low end of the FY30 ambition."
+   },
+   {
+    "h": "Fashion has turned the corner, but is not yet a profit engine",
+    "p": "Fashion GMV +53% in Q1FY27 and EBITDA at breakeven for a second quarter, after a ₹93 cr loss in FY25, as marketing fell from 28% to 23% of NSV. The Nike partnership (from Feb-2026) flatters growth until Q4FY27. We value Fashion at 1.5x Sep-28E GMV."
+   },
+   {
+    "h": "Profit is finally scaling, with almost no dilution",
+    "p": "EBITDA +68% and profit ₹80 cr in Q1FY27; cash from operations ₹644 cr in FY26 against capex of ₹154 cr. ESOP cost was only ₹17 cr in FY26, unlike most Indian internet peers. But depreciation, interest and a 38% tax rate leave net profit at ~3% of revenue, so EPS stays small: {{F.eps.0|n2}} in FY27E."
+   },
+   {
+    "h": "Valuation: fair, with the target just short of a Buy",
+    "p": "Our sum of the parts (Beauty 50x Sep-28E EBITDA, the street's median; Fashion 1.5x GMV) gives {{dcf.tp|inr}}, {{dcf.upside|chg}}. With Fashion at our value, the price implies ~43x Beauty's Sep-28E EBITDA. Our DCF at a 12.5% cost of equity gives only ₹184: the street multiples assume very long, fast growth. Street median target ₹398."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA (₹ cr)",
+    "ebitda",
+    "num"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n2"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Balance sheet",
+    "v": "GREEN"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): does Beauty hold its 29% NSV growth with the festive season shifting (flagged on the Q1 call), and does Superstore's GST-led price drag fade as management expects from Q3?",
+   "Fashion: growth once the Nike partnership enters the base (mid-Q4FY27), and whether EBITDA stays positive.",
+   "Quick commerce: Blinkit, Zepto, Instamart and Flipkart Minutes adding beauty; Nykaa Now (60-minute delivery) is Nykaa's answer.",
+   "Store roll-out toward ~600 by FY30 (324 now) and the closing of the Aminu Wellness purchase (expected Q2FY27)."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "GMV: up 34% in a year, Fashion now growing faster",
+       "unit": "GMV by quarter (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Beauty",
+         "values": [
+          2543,
+          2784,
+          3390,
+          3058,
+          3208,
+          3551,
+          4302,
+          3892,
+          4105
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Fashion",
+         "values": [
+          774,
+          863,
+          1130,
+          1037,
+          964,
+          1180,
+          1476,
+          1334,
+          1471
+         ],
+         "fmt": "num"
+        }
+       ],
+       "stacked": true,
+       "labels": "ends",
+       "source": "Nykaa investor presentations, GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "EBITDA: Beauty earns it all; Fashion has reached breakeven",
+       "unit": "EBITDA by quarter (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Beauty",
+         "values": [
+          125,
+          135,
+          165,
+          168,
+          165,
+          178,
+          245,
+          233,
+          244
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Fashion",
+         "values": [
+          -23,
+          -23,
+          -18,
+          -29,
+          -18,
+          -12,
+          -8,
+          1,
+          0.4
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Nykaa investor presentations, GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Margins rising in both verticals",
+       "unit": "EBITDA, % of net sales value (NSV)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Beauty",
+         "values": [
+          8.5,
+          8.6,
+          8.8,
+          9.6,
+          9,
+          9,
+          10.1,
+          10.3,
+          10.3
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Fashion",
+         "values": [
+          -9.4,
+          -8.5,
+          -5.5,
+          -10.4,
+          -6.1,
+          -3.5,
+          -2,
+          0.3,
+          0.1
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "source": "Nykaa investor presentations, GAM Research"
+      },
+      {
+       "type": "hbar",
+       "title": "Fashion's turnaround: marketing cut from 31% to 23% of NSV",
+       "unit": "Fashion marketing and S&D expense, % of NSV",
+       "x": [
+        "FY25",
+        "FY26",
+        "Q1FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "% of NSV",
+         "values": [
+          31.4,
+          26.4,
+          28.2,
+          22.9
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "highlight": "Q1FY27",
+       "source": "Nykaa Q4FY26 and Q1FY27 presentations"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Share price: 7% below the 52-week high, above the IPO price",
+       "unit": "₹, weekly (bonus-adjusted)",
+       "x": "P.series[].0",
+       "series": [
+        {
+         "name": "Price",
+         "ref": "P.series[].1",
+         "fmt": "num",
+         "thin": true
+        }
+       ],
+       "labels": "extremes",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 187.5,
+         "text": "IPO ₹187.5"
+        }
+       ],
+       "source": "Screener.in, NSE"
+      },
+      {
+       "type": "column",
+       "title": "Cash from operations: from zero in FY24 to ~4x capex in FY26",
+       "unit": "₹ crore",
+       "x": [
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Cash from operations",
+         "values": [
+          0,
+          467,
+          644
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Cash capex",
+         "values": [
+          111,
+          127,
+          154
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in (consolidated cash flow)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Our forecast: EBITDA ~2.9x FY26 by FY29E",
+       "unit": "Reported EBITDA (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "series": [
+        {
+         "name": "EBITDA",
+         "ref": "fin.ebitda",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company, GAM Research estimates"
+      },
+      {
+       "type": "hbar",
+       "title": "Sum of the parts: Beauty is ~86% of the value",
+       "unit": "₹ per share",
+       "x": [
+        "Beauty",
+        "Fashion",
+        "Others",
+        "Net debt",
+        "Dot & Key minority"
+       ],
+       "series": [
+        {
+         "name": "₹/share",
+         "values": [
+          311,
+          56,
+          0,
+          -3,
+          -1
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "GAM Research estimates"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Nykaa does",
+   "kicker": "The business",
+   "title": "A beauty retailer with its own brands, plus a fashion platform",
+   "blocks": [
+    {
+     "p": "Nykaa (the listed company is FSN E-Commerce Ventures) sells beauty and personal-care products through its app, website and 324 stores, and fashion through Nykaa Fashion. In Beauty it mostly **buys and sells the goods itself** (it owns the inventory), so revenue is close to the value of what it sells; in Fashion it is mainly a **marketplace** earning a commission, so revenue is a small share of the value of goods sold. It reports three measures: **GMV** (gross merchandise value, the price of goods ordered before discounts, returns and taxes), **NSV** (net sales value, after them) and revenue. Since FY26 it reports two verticals: Beauty (which now includes the Superstore eB2B arm and owned brands) and Fashion."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The verticals in FY26",
+      "head": [
+       "Vertical",
+       "What it is",
+       "GMV (₹ cr)",
+       "NSV (₹ cr)",
+       "Revenue (₹ cr)",
+       "EBITDA (₹ cr)",
+       "EBITDA, % of NSV"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "**Beauty**",
+        "Nykaa app and stores; House of Nykaa brands; Superstore (eB2B to small shops); Nykaa Man grooming",
+        "14,954",
+        "8,504",
+        "9,139",
+        "819",
+        "9.6%"
+       ],
+       [
+        "**Fashion**",
+        "Nykaa Fashion (curated premium marketplace), LBB, Nykaa Man lifestyle; runs Nike.in",
+        "4,954",
+        "1,447",
+        "832",
+        "-37",
+        "-2.6%"
+       ],
+       [
+        "**Others**",
+        "Gulf (GCC) and international",
+        "55",
+        "–",
+        "51",
+        "-30",
+        "–"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Total**",
+         "",
+         "19,963",
+         "10,000",
+         "10,022",
+         "752",
+         "7.5%"
+        ]
+       }
+      ],
+      "source": "Nykaa Q4FY26 investor presentation (full-year vertical reporting)"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "GMV: Beauty is three-quarters of the business",
+       "unit": "GMV, FY26 (₹ crore)",
+       "x": [
+        "Beauty",
+        "Fashion"
+       ],
+       "series": [
+        {
+         "name": "GMV",
+         "values": [
+          14954,
+          4954
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Nykaa investor presentations, GAM Research"
+      },
+      {
+       "type": "hbar",
+       "title": "Revenue per ₹100 of GMV: Beauty owns stock, Fashion is a marketplace",
+       "unit": "Revenue as % of GMV, FY26",
+       "x": [
+        "Beauty",
+        "Fashion"
+       ],
+       "series": [
+        {
+         "name": "% of GMV",
+         "values": [
+          61.1,
+          16.8
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Nykaa investor presentations, GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "Nykaa in numbers (Q1FY27)",
+      "tiles": [
+       {
+        "k": "Customers",
+        "v": "60 mn",
+        "d": "cumulative base, +33% YoY"
+       },
+       {
+        "k": "Beauty buyers",
+        "v": "20.8 mn",
+        "d": "annual unique; AOV ₹2,102"
+       },
+       {
+        "k": "Stores",
+        "v": "324",
+        "d": "105 cities; +11 in Q1"
+       },
+       {
+        "k": "Brands",
+        "v": "10,275",
+        "d": "160+ new in Beauty in Q1"
+       },
+       {
+        "k": "Superstore retailers",
+        "v": "523k",
+        "d": "GMV ₹336 cr in Q1"
+       }
+      ],
+      "source": "Nykaa Q1FY27 investor presentation"
+     }
+    },
+    {
+     "callout": "**Why value Beauty on EBITDA and Fashion on GMV?** Beauty earns 9.6% of NSV (FY26) and its profit is the thing to value: we use 50x Sep-28E EBITDA, the street's median. Fashion has only just reached breakeven, so an EBITDA multiple would be meaningless; we value its order flow (GMV) at 1.5x, the median of the two broker values that were disclosed."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From a 2021 IPO darling to a 70% fall, and back above the IPO price",
+   "blocks": [
+    {
+     "p": "Nykaa listed in November 2021 at the peak of India's internet boom: the IPO was priced at ₹1,125 and the stock opened ~78% higher. A 5:1 bonus issue in November 2022 multiplied the share count by six (equity capital rose from ₹47 cr to ₹285 cr), so every per-share number before then must be divided by six: the IPO price is ₹187.5 on today's basis. The stock then fell ~70% from its listing-month high to ~₹121 in April 2023 (weekly closes), as pre-IPO investors sold after their lock-ins expired, profits stayed tiny and the market turned against loss-making or barely profitable internet stocks. It has since recovered to ₹320 as growth re-accelerated and margins rose."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Milestones and corporate actions",
+      "head": [
+       "When",
+       "What happened",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "2012",
+        "Company incorporated; Falguni Nayar a director from April 2012",
+        "Online beauty retail; inventory-led model from the start"
+       ],
+       [
+        "2015",
+        "First owned brand (Nykaa Cosmetics): the start of House of Nykaa",
+        "Owned brands now ~16% of GMV and lift the gross margin"
+       ],
+       [
+        "Sep-2021",
+        "Buys 51% of Dot & Key (skincare); put option on the other 49%",
+        "Put option liability ₹270 cr at Mar-26 (deducted in our SOTP)"
+       ],
+       [
+        "Nov-2021",
+        "IPO at ₹1,125 (₹187.5 bonus-adjusted); lists ~78% above it",
+        "Cash from financing ₹927 cr in FY22"
+       ],
+       [
+        "Nov-2022",
+        "5:1 bonus issue (record date 11-Nov-2022); one-year lock-in of pre-IPO investors ends",
+        "Share count ×6 to ~285 cr; EPS history restated"
+       ],
+       [
+        "FY23",
+        "Superstore (eB2B) and Fashion losses peak; warehouses and stores expand",
+        "Profit falls to ₹19 cr; depreciation +80%"
+       ],
+       [
+        "Nov-2024",
+        "Earth Rhythm stake raised to 74.6%",
+        "Small minority interest"
+       ],
+       [
+        "Feb-2026",
+        "Takes over Nike.in and the Nike app in India",
+        "Lifts Fashion GMV growth to 53% in Q1FY27 until it laps in Q4FY27"
+       ],
+       [
+        "FY26",
+        "Resegments into Beauty (including Superstore) and Fashion",
+        "eB2B losses no longer shown separately"
+       ],
+       [
+        "Jun-2026",
+        "Investor Day: GMV 2.5-3x and EBITDA 4-5x by FY30",
+        "Sets the bar the market now judges"
+       ],
+       [
+        "Aug-2026",
+        "Agrees to buy 51% of Aminu Wellness (premium skincare) for ₹32 cr",
+        "Small; closing expected in Q2FY27"
+       ]
+      ],
+      "source": "FY26 annual report (note 53), Nykaa presentations, Business Standard (bonus and lock-in reports, Oct-Nov 2022)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "line",
+      "title": "Share price since listing: a long round trip",
+      "unit": "₹, weekly (bonus-adjusted)",
+      "x": "P.series[].0",
+      "series": [
+       {
+        "name": "Price",
+        "ref": "P.series[].1",
+        "fmt": "num",
+        "thin": true
+       }
+      ],
+      "labels": "extremes",
+      "yearTicks": true,
+      "yearStep": 1,
+      "lines": [
+       {
+        "v": 187.5,
+        "text": "IPO price"
+       }
+      ],
+      "source": "Screener.in, NSE"
+     }
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Beauty: a $23bn market growing 12% a year, and online twice as fast",
+   "blocks": [
+    {
+     "p": "India's beauty and personal-care (BPC) market was about $23bn in FY26 and is expected to grow 12%+ a year to ~$42bn by FY31 (by then the fourth-largest in the world), according to Redseer research presented at Nykaa's June 2026 Investor Day. Online is growing 20%+ a year. Growth comes from more urban households, skincare routines spreading beyond the big cities and \"premiumisation\" (people trading up to costlier brands). Fashion is a much bigger market, where online grows ~22-25% a year and premium online fashion is expected to roughly triple by FY31. These are the company's own commissioned forecasts: useful for direction, optimistic by design."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The markets Nykaa sells into",
+      "head": [
+       "Market",
+       "FY26 size",
+       "Expected growth to FY31",
+       "Nykaa's position"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Beauty & personal care (India)",
+        "~$23bn",
+        "12%+ a year; online 20%+",
+        "Largest specialist; Beauty GMV ₹14,954 cr in FY26"
+       ],
+       [
+        "Online fashion (India)",
+        "much larger than beauty",
+        "22-25% a year (premium ~3x by FY31)",
+        "Niche premium player; GMV ₹4,954 cr in FY26"
+       ],
+       [
+        "General-trade beauty (small shops)",
+        "large, fragmented",
+        "n.a.",
+        "Superstore: ₹1,187 cr GMV in FY26, 523k retailers"
+       ]
+      ],
+      "source": "Redseer and Euromonitor data in Nykaa's Investor Day presentation (18-Jun-2026); company data"
+     }
+    },
+    {
+     "h": "Competition"
+    },
+    {
+     "bullets": [
+      "**Reliance (Tira)**: deep-pocketed omnichannel beauty retailer with its own stores and app; the main specialist rival.",
+      "**Myntra (Flipkart)**: sells both fashion and beauty to a much larger fashion customer base; Nykaa Fashion's main rival.",
+      "**Amazon, Purplle and brand-owned websites (D2C)**: compete on mass and mid-priced beauty.",
+      "**Quick-commerce apps** (Blinkit, Zepto, Swiggy Instamart, Flipkart Minutes): deliver mass beauty in 10-30 minutes. Elara (25-Aug-2026) argues Nykaa's curated range and higher order values (₹2,102 in Beauty) protect it; Nykaa launched Nykaa Now (60-minute delivery in 13 cities) and says it does not discount from its own pocket."
+     ]
+    },
+    {
+     "callout": "**So what:** the market is large and growing, and Nykaa is the specialist leader. But it is not a winner-takes-all market: brands sell everywhere, and the same lipstick is available on Tira, Myntra, Amazon and Blinkit at a price the brand sets. Nykaa wins on choice (10,000+ brands), authenticity, content and exclusive launches, not on price."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Does the beauty boom reach Nykaa? Yes: it is growing ~2x the market",
+   "blocks": [
+    {
+     "p": "If the BPC market grows ~12% a year and online ~20%, a specialist that grows Beauty GMV at 28% (Q1FY27) and 27% (FY26) is gaining share. HSIE (22-Jun-2026) points out that part of FY24-26 growth came from two tailwinds that will fade: House of Nykaa (~60% a year, helped by the Dot & Key purchase) and Superstore (~41% a year); core Beauty grew ~22%. So the tailwind is real, but our forecast of 25-27% GMV growth asks core Beauty to keep beating the online market."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Tailwind scorecard",
+      "head": [
+       "Tailwind",
+       "Reaches Nykaa?",
+       "Evidence"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Online beauty growth (20%+)",
+        "**Yes**",
+        "Beauty GMV +28%; annual buyers +25% to 20.8 mn (Q1FY27)"
+       ],
+       [
+        "Premiumisation",
+        "**Yes**",
+        "Beauty AOV +5% to ₹2,102; Rare Beauty, SK-II, K18 and other premium launches"
+       ],
+       [
+        "Smaller cities",
+        "**Partly**",
+        "Stores in 105 cities, 50% in tier 2 and beyond; Superstore in 1,200+ cities; but quick commerce is chasing the same buyers"
+       ],
+       [
+        "Online fashion growth (22-25%)",
+        "**Yes, recently**",
+        "Fashion GMV +53% in Q1FY27, but only +30% in FY26 and +12% in FY25"
+       ],
+       [
+        "Owned brands",
+        "**Yes**",
+        "House of Nykaa NSV ₹1,700 cr in FY26 (+65%), 13 consumer brands growing 43% in Q1FY27"
+       ]
+      ],
+      "source": "Nykaa presentations (Q1FY27, Investor Day), HSIE (22-Jun-2026), GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "beauty",
+   "nav": "Beauty",
+   "kicker": "Segment: Beauty",
+   "title": "Beauty: growing 28% at a 10.3% margin, with owned brands doing the heavy lifting",
+   "blocks": [
+    {
+     "p": "Beauty is ~75% of GMV and all of Nykaa's profit. It combines the Nykaa app and website (most of the business), 324 stores, the House of Nykaa brands (Nykaa Cosmetics, Kay Beauty, Dot & Key and others: ₹1,700 cr of NSV in FY26, ~16% of group GMV), Superstore (eB2B supply to small shops) and Nykaa Man grooming. In Q1FY27 GMV rose 28% to ₹4,105 cr on more buyers (annual unique customers +25% to 20.8 mn) and slightly bigger baskets (AOV +5% to ₹2,102). The EBITDA margin rose to 10.3% of NSV from 9% a year earlier."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Beauty NSV: growth back near 30%",
+       "unit": "Beauty NSV by quarter (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "NSV",
+         "values": [
+          1470,
+          1565,
+          1882,
+          1757,
+          1834,
+          1981,
+          2421,
+          2269,
+          2371
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Nykaa investor presentations (vertical reporting), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Beauty margin: from 8.5% to 10.3% of NSV in two years",
+       "unit": "Beauty EBITDA, % of NSV",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "values": [
+          8.5,
+          8.6,
+          8.8,
+          9.6,
+          9,
+          9,
+          10.1,
+          10.3,
+          10.3
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Nykaa investor presentations (vertical reporting), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Beauty unit economics (% of NSV)",
+      "head": [
+       "",
+       "FY25",
+       "FY26",
+       "Q1FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "Gross margin",
+        "43.6%",
+        "44.7%",
+        "44.7%",
+        "45.0%"
+       ],
+       [
+        "Fulfilment",
+        "9.4%",
+        "9.3%",
+        "9.3%",
+        "9.6%"
+       ],
+       [
+        "Marketing and selling",
+        "12.2%",
+        "12.8%",
+        "12.8%",
+        "12.7%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "Contribution margin",
+         "22.0%",
+         "22.5%",
+         "22.6%",
+         "22.9%"
+        ]
+       },
+       [
+        "Employee and other overheads",
+        "13.2%",
+        "12.9%",
+        "13.6%",
+        "12.6%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "EBITDA margin",
+         "8.9%",
+         "9.6%",
+         "9.0%",
+         "10.3%"
+        ]
+       }
+      ],
+      "source": "Nykaa Q4FY26 and Q1FY27 presentations (vertical reporting); GAM calculations"
+     }
+    },
+    {
+     "p": "Where the margin comes from: the gross margin is up ~1.5pp in two years (owned brands earn more than third-party brands; premium brands; brands paying for advertising on the app), and overheads have fallen as a share of sales. Fulfilment and marketing have stayed roughly flat: Nykaa is reinvesting in faster delivery (Nykaa Now) and customer acquisition. That is a healthy mix: the gains are structural, not from cutting growth spending."
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "Beauty drivers (Q1FY27, YoY)",
+      "tiles": [
+       {
+        "k": "Visits",
+        "v": "500 mn",
+        "d": "+22%"
+       },
+       {
+        "k": "Monthly unique visitors",
+        "v": "48.4 mn",
+        "d": "+25%"
+       },
+       {
+        "k": "Orders",
+        "v": "17.3 mn",
+        "d": "+19%"
+       },
+       {
+        "k": "Average order value",
+        "v": "₹2,102",
+        "d": "+5%"
+       },
+       {
+        "k": "Stores",
+        "v": "324",
+        "d": "246 a year ago; target ~600 by FY30"
+       }
+      ],
+      "source": "Nykaa Q1FY27 presentation"
+     }
+    },
+    {
+     "h": "Superstore: the drag inside Beauty"
+    },
+    {
+     "p": "Superstore supplies beauty and personal-care products to 523k registered small retailers (chemists, general stores) in 1,200+ cities. GMV was ~₹1,187 cr in FY26 and ₹336 cr in Q1FY27 (+17%; NSV +28%, as GST cuts lowered retail prices). Nykaa stopped reporting its profit when it merged Superstore into Beauty in FY26; HSIE estimates an EBITDA loss of ~7% of NSV in FY26. Management targets ₹3,500 cr of GMV and breakeven by FY30. Our Beauty margin forecast includes these losses, which is one reason we add only ~0.4pp of GMV a year."
+    },
+    {
+     "callout": "**Our forecast:** Beauty GMV +27% / +26% / +25% in FY27-29E and EBITDA of 6.0% / 6.4% / 6.8% of GMV (≈10.4% / 11.1% / 11.8% of NSV), giving Sep-28E EBITDA of ₹1,783 cr, which we value at 50x."
+    }
+   ]
+  },
+  {
+   "id": "fashion",
+   "nav": "Fashion",
+   "kicker": "Segment: Fashion",
+   "title": "Fashion: GMV +53% and at breakeven, but still a long way from Beauty's margins",
+   "blocks": [
+    {
+     "p": "Nykaa Fashion is a curated, premium fashion platform: mostly a marketplace, so revenue was only 16.8% of GMV in FY26. For years it grew slowly and lost money (EBITDA -₹93 cr in FY25, -8.3% of NSV). That has changed fast: GMV growth rose from 12% (FY25) to 30% (FY26) and 53% in Q1FY27, while marketing fell from 31% of NSV (FY25) to 23% (Q1FY27), so EBITDA reached breakeven in Q4FY26 and Q1FY27. Management credits a richer brand line-up (130+ new brands in Q1), cheaper customer acquisition (~30% lower cost per new customer in two years) and more repeat buyers."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Fashion GMV: acceleration in the last four quarters",
+       "unit": "Fashion GMV by quarter (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "GMV",
+         "values": [
+          774,
+          863,
+          1130,
+          1037,
+          964,
+          1180,
+          1476,
+          1334,
+          1471
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Nykaa investor presentations (vertical reporting), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Fashion EBITDA: losses closed out",
+       "unit": "Fashion EBITDA by quarter (₹ crore)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBITDA",
+         "values": [
+          -23,
+          -23,
+          -18,
+          -29,
+          -18,
+          -12,
+          -8,
+          1,
+          0.4
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Nykaa investor presentations (vertical reporting), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Fashion unit economics (% of NSV)",
+      "head": [
+       "",
+       "FY25",
+       "FY26",
+       "Q1FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "Gross margin",
+        "49.1%",
+        "47.8%",
+        "47.3%",
+        "44.8%"
+       ],
+       [
+        "Fulfilment",
+        "9.8%",
+        "11.2%",
+        "11.2%",
+        "10.4%"
+       ],
+       [
+        "Marketing and selling",
+        "31.5%",
+        "26.4%",
+        "28.2%",
+        "22.8%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "Contribution margin",
+         "7.9%",
+         "10.2%",
+         "8.2%",
+         "11.3%"
+        ]
+       },
+       [
+        "Employee and other overheads",
+        "16.2%",
+        "12.8%",
+        "14.3%",
+        "11.3%"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "EBITDA margin",
+         "-8.3%",
+         "-2.6%",
+         "-6.1%",
+         "0.1%"
+        ]
+       }
+      ],
+      "source": "Nykaa Q4FY26 and Q1FY27 presentations (vertical reporting); GAM calculations"
+     }
+    },
+    {
+     "bullets": [
+      "**Nike is a boost, not the whole story.** Since Feb-2026 Nykaa runs Nike.in and the Nike app in India (1.5 mn+ app installs in six months). JM Financial asked on the Q1 call how growth looks once Nike enters the base in mid-Q4FY27; management said Q1 growth was \"largely reflective of the underlying platform\" and kept its 3-3.5x-by-FY30 guidance.",
+      "**Customers:** visits +28%, annual buyers +38% to 4.7 mn and orders +48% in Q1FY27; AOV fell 2% to ₹4,414, likely because men's (+83% GMV) and kids' (+57%) categories grew fastest.",
+      "**Competition:** Myntra (Flipkart) is the online fashion leader; Ajio (Reliance), Amazon and brand websites compete too. Nykaa Fashion is a niche premium player, not a leader."
+     ]
+    },
+    {
+     "callout": "**Our forecast:** GMV +42% / +32% / +30% in FY27-29E and EBITDA of 0.3% / 0.9% / 1.5% of GMV (≈1% / 3% / 5% of NSV, short of the high-single-digit FY30 target). We value Fashion at 1.5x Sep-28E GMV (₹10,679 cr): ₹56 a share."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: a real but narrow moat in Beauty; none yet in Fashion",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Assortment and brand relationships",
+       "GREEN",
+       "10,000+ brands; first or only Indian home for many global brands (Rare Beauty, Charlotte Tilbury and Kiehl's outlets, Unilever Prestige and P&G exclusives)",
+       "Global brands choose Nykaa to enter India: hard for a generalist to copy quickly"
+      ],
+      [
+       "Authenticity and trust",
+       "GREEN",
+       "Buys most beauty stock itself; brands fund discounts; no retailer-funded price war",
+       "Matters in beauty, where fakes are common"
+      ],
+      [
+       "Owned brands",
+       "GREEN",
+       "House of Nykaa NSV ₹1,700 cr (FY26), 16% of GMV, higher margins",
+       "Profit pool rivals cannot access on Nykaa's platform"
+      ],
+      [
+       "Scale and cost",
+       "AMBER",
+       "Fulfilment ~9-10% of NSV, flat for two years; stores add cost",
+       "Scale helps overheads, not logistics"
+      ],
+      [
+       "Switching costs and network effects",
+       "RED",
+       "Shoppers can buy the same brand on Tira, Myntra, Amazon or Blinkit at the brand's price",
+       "Loyalty must be re-earned with content, range and service"
+      ],
+      [
+       "Fashion",
+       "RED",
+       "Small vs Myntra; just at breakeven; reliant on partnerships such as Nike",
+       "No moat yet"
+      ]
+     ],
+     "head": [
+      "Source of advantage",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Competitive advantage scorecard",
+     "source": "Nykaa presentations, MOFSL (4-Aug-2026), Elara (25-Aug-2026), GAM Research"
+    },
+    {
+     "callout": "**Verdict: a narrow moat in Beauty.** Nykaa's edge is curation, trust and brand relationships, plus a growing owned-brand business, which together explain why it keeps ~10% margins while growing ~28%. It is not a monopoly: brands sell everywhere and rivals with deeper pockets (Reliance, Flipkart, Amazon, the quick-commerce apps) are investing in beauty. Fashion has no moat yet. Our 50x Beauty multiple assumes the moat holds; if quick commerce compresses Beauty growth to ~20%, our bear case applies."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue up 4x in five years; profit finally scaling",
+   "blocks": [
+    {
+     "p": "Nykaa's revenue rose from ₹2,441 cr in FY21 to ₹10,022 cr in FY26 (33% a year), and growth has sped up again: +26% in FY26 and +29% in Q1FY27, the fastest in 13 quarters. Unlike most Indian internet companies, Nykaa has made a profit every year since FY21, but it was tiny until recently: profit attributable to shareholders was ₹19 cr in FY23 and ₹32 cr in FY24, as stores, warehouses, Fashion and the eB2B arm (Superstore) absorbed the profit from beauty. FY26 was the break-out year: EBITDA +59% to ₹752 cr and profit to ₹199 cr. Q1FY27 added EBITDA +68% and profit ₹80 cr."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: 33% a year since FY21",
+       "unit": "Revenue from operations (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY21",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num",
+         "growth": true
+        }
+       ],
+       "source": "Company filings, Screener.in (consolidated; profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Profit: small for years, then tripled in FY26",
+       "unit": "Net profit attributable to owners (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY21",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to owners), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Quarterly EBITDA has nearly tripled in two years",
+       "unit": "Reported EBITDA, quarterly (₹ crore)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "EBITDA",
+         "ref": "Q.ebitda",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "EBITDA margin: from ~5% to 8.5% of revenue",
+       "unit": "EBITDA margin, quarterly (%)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "Q.opm",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "ends",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to owners), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** the margin gains are real and come from three places: a higher gross margin (45.9% of revenue in Q1FY27 vs 44.6% a year earlier, from owned brands, premium brands and advertising income from brands), lower marketing as a share of sales in Fashion, and overheads growing slower than revenue. But reported net profit is still only 2.9% of revenue, because depreciation (3.2% of revenue, including leased stores), interest (~1%) and a high tax rate (38%) sit between EBITDA and earnings. That is why the P/E looks so high."
+    }
+   ]
+  },
+  {
+   "id": "earnings",
+   "nav": "Earnings quality",
+   "kicker": "Earnings quality",
+   "title": "Earnings quality: clean accounts, but a high tax rate and a minority to buy out",
+   "blocks": [
+    {
+     "p": "Nykaa's accounts are straightforward for an Indian internet company: it reports EBITDA as profit before tax plus interest and depreciation, less other income, and its vertical EBITDA adds up exactly to that number (FY26: ₹819 cr Beauty, ₹-37 cr Fashion, ₹-30 cr others = ₹752 cr). Share-based pay is inside EBITDA and is small (₹16.7 cr in FY26). Five things still need care."
+    },
+    {
+     "bullets": [
+      "**Rent sits below EBITDA.** Under Ind AS 116, store and warehouse rent shows up as depreciation of right-of-use assets and interest on lease liabilities (₹491 cr at Mar-26), not as an operating cost. EBITDA therefore overstates cash profit; we deduct lease liabilities as debt in our valuation.",
+      "**A minority to buy out.** Nykaa owns 51% of Dot & Key and has promised to buy the other 49% (a put option). The liability was revalued from ₹136 cr to ₹270 cr in FY26 as Dot & Key grew; it is booked in equity, not the P&L. Minorities took ₹4.5 cr of FY26 profit, so profit attributable to shareholders was ₹199 cr, not the ₹204 cr headline.",
+      "**High tax rate.** Tax was 38% of profit before tax in FY26 and Q1FY27, because profits in the parent are taxed at ~25% while losses in subsidiaries (Fashion, others) cannot be set off. The rate should fall as Fashion turns profitable; we assume 35% / 32% / 30%.",
+      "**Advertising income inside revenue.** Brands pay Nykaa to promote products on its app; management cites \"marketing income\" as one driver of the gross-margin gain. It is high-margin but depends on brands' marketing budgets.",
+      "**Less disclosure after resegmentation.** Since FY26 Superstore (eB2B), which loses money, is reported inside Beauty, so investors can no longer see its losses. An exceptional charge of ₹17.4 cr was taken in FY26."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** No sign of aggressive accounting: S.R. Batliboi gave a clean opinion, adjusted metrics reconcile and dilution is tiny. Amber because rent is below EBITDA, the put option grows with Dot & Key's success, and the eB2B losses are now out of sight."
+    }
+   ]
+  },
+  {
+   "id": "cash",
+   "nav": "Cash & balance sheet",
+   "kicker": "Balance sheet",
+   "title": "Balance sheet: small net debt, funded by suppliers and short-term loans",
+   "blocks": [
+    {
+     "p": "Nykaa holds ₹320 cr of cash and bank balances (Mar-26) against ₹747 cr of bank borrowings (almost all short-term working-capital loans) and ₹491 cr of lease liabilities on stores and warehouses: net debt of ₹918 cr including leases, or ₹427 cr without them. The business needs inventory (₹1,642 cr at Mar-26: it buys much of what it sells in Beauty), partly funded by suppliers (trade payables ₹732 cr). Cash from operations turned solidly positive in FY25 (₹467 cr) and FY26 (₹644 cr), and capex is light (₹154 cr in FY26), so free cash flow now covers the business; the company repaid debt in FY25-FY26 (cash from financing negative)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash flow positive and rising since FY25",
+       "unit": "Cash from operations (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY21",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "CFO",
+         "ref": "fin.cfo",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to owners), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "IPO money came in FY22; since FY25 cash goes out to lenders",
+       "unit": "Cash from financing (₹ crore)",
+       "x": "A.labels",
+       "from": "FY21",
+       "series": [
+        {
+         "name": "CFF",
+         "ref": "A.cff",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; profit attributable to owners), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.6|num}}",
+        "{{A.netWorth.7|num}}",
+        "{{A.netWorth.8|num}}"
+       ],
+       [
+        "Borrowings (incl. leases)",
+        "{{A.borrowings.6|num}}",
+        "{{A.borrowings.7|num}}",
+        "{{A.borrowings.8|num}}"
+       ],
+       [
+        "Cash & bank",
+        "{{A.cash.6|num}}",
+        "{{A.cash.7|num}}",
+        "{{A.cash.8|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.6|num}}",
+        "{{A.inventories.7|num}}",
+        "{{A.inventories.8|num}}"
+       ],
+       [
+        "Fixed assets (incl. right-of-use)",
+        "{{A.fixedAssets.6|num}}",
+        "{{A.fixedAssets.7|num}}",
+        "{{A.fixedAssets.8|num}}"
+       ],
+       [
+        "Cash from operations",
+        "{{A.cfo.6|num}}",
+        "{{A.cfo.7|num}}",
+        "{{A.cfo.8|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated; profit attributable to owners), GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "waterfall",
+      "title": "FY26: operating cash profit of ₹795 cr became ₹491 cr of free cash flow",
+      "unit": "₹ crore",
+      "x": [
+       "Operating cash profit",
+       "Working capital",
+       "Tax paid",
+       "Capex",
+       "Free cash flow"
+      ],
+      "series": [
+       {
+        "name": "Cash",
+        "values": [
+         795,
+         -15,
+         -135,
+         -154,
+         491
+        ]
+       }
+      ],
+      "fmt": "num",
+      "totalFmt": "num",
+      "source": "Screener.in consolidated cash-flow schedule (FY26 annual report)"
+     }
+    },
+    {
+     "callout": "Free cash flow paid down borrowings and lease liabilities (cash from financing -₹433 cr in FY26) rather than building cash. Our model shows free cash flow of {{F.fcf.0|num}} / {{F.fcf.1|num}} / {{F.fcf.2|num}} cr in FY27-29E: lower than FY26 in FY27E because inventory grows with sales (our model ties working capital to revenue), then rising. Net debt including leases moves from ₹918 cr (Mar-26) to {{F.treasury.0|num}} / {{F.treasury.2|num}} cr (FY27E / FY29E, negative = net debt)."
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: the Nayar family controls 52%; Indian funds are the next-largest owners",
+   "blocks": [
+    {
+     "p": "The Nayar family controls Nykaa through six family trusts holding 52.1%, unchanged over the past year. Indian funds (24.1%) own almost twice as much as foreign investors (13.7%): SBI Contra Fund is the largest single fund holder at 4.2%."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "DIIs own nearly twice what FIIs own",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoter stake steady at ~52%",
+       "unit": "% of shares held by promoters",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Who owns Nykaa (Jun-2026)",
+      "head": [
+       "Holder",
+       "Type",
+       "Stake"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Falguni Nayar Family Trust",
+        "Promoter",
+        "21.02%"
+       ],
+       [
+        "Sanjay Nayar Family Trust",
+        "Promoter",
+        "21.02%"
+       ],
+       [
+        "Adwaita Nayar Family Trust",
+        "Promoter",
+        "3.44%"
+       ],
+       [
+        "Anchit Nayar Family Trust",
+        "Promoter",
+        "3.44%"
+       ],
+       [
+        "Two Nayar joint family trusts",
+        "Promoter",
+        "3.10%"
+       ],
+       [
+        "SBI Contra Fund",
+        "Mutual fund",
+        "4.22%"
+       ],
+       [
+        "Harindarpal Singh Banga",
+        "Individual investor",
+        "2.86%"
+       ],
+       [
+        "ICICI Prudential Life Insurance",
+        "Insurance",
+        "2.71%"
+       ],
+       [
+        "Mirae Asset Large & Midcap Fund",
+        "Mutual fund",
+        "2.64%"
+       ],
+       [
+        "Nippon India Multi Cap Fund",
+        "Mutual fund",
+        "2.29%"
+       ],
+       [
+        "HDFC Flexi Cap Fund",
+        "Mutual fund",
+        "1.87%"
+       ],
+       [
+        "ICICI Prudential Large & Mid Cap Fund",
+        "Mutual fund",
+        "1.54%"
+       ],
+       [
+        "HDFC Life Insurance",
+        "Insurance",
+        "1.49%"
+       ],
+       [
+        "Narotam S. Sekhsaria",
+        "Individual investor",
+        "1.20%"
+       ],
+       [
+        "All promoters",
+        "Aggregate",
+        "52.08%"
+       ],
+       [
+        "Domestic institutions (DII)",
+        "Aggregate",
+        "24.10%"
+       ],
+       [
+        "Foreign portfolio investors (FPI)",
+        "Aggregate",
+        "13.70%"
+       ],
+       [
+        "Retail and others",
+        "Aggregate",
+        "10.12%"
+       ]
+      ],
+      "source": "BSE shareholding pattern for Jun-2026 as reproduced by Trendlyne; Screener.in"
+     }
+    },
+    {
+     "callout": "**So what:** a stable, family-controlled register. The family's 52% means no takeover risk and long-term ownership, but also that minority shareholders depend on the family's judgement (four of eleven directors are Nayars). Domestic funds have been buying; foreign ownership rose from 11.6% (Jun-2025) to 13.7%."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: founder-led and family-controlled, with a majority-independent board",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Falguni Nayar",
+        "Founder, Executive Chairperson, MD and CEO",
+        "Built Nykaa from 2012; family trusts hold 52.1%"
+       ],
+       [
+        "Anchit Nayar",
+        "Executive Director, CEO Beauty",
+        "Son of the founder; runs the largest vertical"
+       ],
+       [
+        "Adwaita Nayar",
+        "Executive Director, CEO House of Nykaa brands",
+        "Daughter of the founder"
+       ],
+       [
+        "Abhijeet Dabas",
+        "CEO, Nykaa Fashion",
+        "Professional CEO of the turnaround vertical"
+       ],
+       [
+        "Vishal Gupta",
+        "CEO, Nykaa Distribution (Superstore)",
+        "Runs eB2B"
+       ],
+       [
+        "P. Ganesh",
+        "Chief Financial Officer",
+        "Signed the FY26 accounts"
+       ]
+      ],
+      "source": "Q1FY27 call transcript (4-Aug-2026), FY26 annual report"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Board",
+       "AMBER",
+       "11 directors, 6 independent (54.5%); 4 family members (Falguni, Sanjay, Adwaita and Anchit Nayar)",
+       "Independent majority, but family succession is built in"
+      ],
+      [
+       "Audit and accounts",
+       "GREEN",
+       "S.R. Batliboi (EY network); clean opinion; adjusted metrics reconcile to reported EBITDA",
+       "No accounting red flags found"
+      ],
+      [
+       "Capital allocation",
+       "GREEN",
+       "Small, staged brand buys (Dot & Key, Earth Rhythm, Aminu for ₹32 cr) with options on the rest; capex light",
+       "Disciplined; put options add a ₹270 cr liability"
+      ],
+      [
+       "Shareholder dilution",
+       "GREEN",
+       "ESOP cost only ₹16.7 cr in FY26; share count up just 0.1% a year",
+       "Unlike most Indian internet peers, dilution is negligible"
+      ],
+      [
+       "Disclosure",
+       "AMBER",
+       "Vertical P&L down to contribution margin; but the eB2B (Superstore) P&L is no longer shown separately since the FY26 resegmentation",
+       "Losses in eB2B are now hidden inside Beauty"
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "FY26 annual report (published 1-Aug-2026), company presentations, GAM Research"
+    },
+    {
+     "p": "Our read: a founder who has built and run the business for 14 years, with two of her children now running Beauty and the owned brands and professional CEOs in Fashion and Superstore. The board has an independent majority and the auditor is a large firm. The main governance question is succession and family influence, not honesty: the auditor's opinion on the FY26 accounts is unmodified and we saw no accounting concerns."
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EBITDA nearly triples by FY29E; EPS grows faster",
+   "blocks": [
+    {
+     "p": "We build the forecast vertical by vertical. Each vertical's GMV (revenue for the small GCC business) grows at our assumed rate; revenue and EBITDA are a % of GMV. Group EBITDA is the sum of the verticals, as Nykaa reports it. Below EBITDA, depreciation is a % of gross block (including leased stores), interest covers leases and working-capital loans, and tax falls from 35% to 30% as Fashion turns profitable."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Vertical forecasts (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       {
+        "sec": "Beauty"
+       },
+       [
+        "GMV",
+        "14,954",
+        "{{F.seg.beauty.driver.0|num}}",
+        "{{F.seg.beauty.driver.1|num}}",
+        "{{F.seg.beauty.driver.2|num}}"
+       ],
+       [
+        "Revenue",
+        "9,139",
+        "{{F.seg.beauty.revenue.0|num}}",
+        "{{F.seg.beauty.revenue.1|num}}",
+        "{{F.seg.beauty.revenue.2|num}}"
+       ],
+       [
+        "EBITDA",
+        "819",
+        "{{F.seg.beauty.adjEbitda.0|num}}",
+        "{{F.seg.beauty.adjEbitda.1|num}}",
+        "{{F.seg.beauty.adjEbitda.2|num}}"
+       ],
+       {
+        "sec": "Fashion"
+       },
+       [
+        "GMV",
+        "4,954",
+        "{{F.seg.fashion.driver.0|num}}",
+        "{{F.seg.fashion.driver.1|num}}",
+        "{{F.seg.fashion.driver.2|num}}"
+       ],
+       [
+        "Revenue",
+        "832",
+        "{{F.seg.fashion.revenue.0|num}}",
+        "{{F.seg.fashion.revenue.1|num}}",
+        "{{F.seg.fashion.revenue.2|num}}"
+       ],
+       [
+        "EBITDA",
+        "-37",
+        "{{F.seg.fashion.adjEbitda.0|num}}",
+        "{{F.seg.fashion.adjEbitda.1|num}}",
+        "{{F.seg.fashion.adjEbitda.2|num}}"
+       ],
+       {
+        "sec": "Others (GCC, international)"
+       },
+       [
+        "Revenue",
+        "51",
+        "{{F.seg.oth.revenue.0|num}}",
+        "{{F.seg.oth.revenue.1|num}}",
+        "{{F.seg.oth.revenue.2|num}}"
+       ],
+       [
+        "EBITDA",
+        "-30",
+        "{{F.seg.oth.adjEbitda.0|num}}",
+        "{{F.seg.oth.adjEbitda.1|num}}",
+        "{{F.seg.oth.adjEbitda.2|num}}"
+       ]
+      ],
+      "source": "Company (FY26), GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "Group P&L and cash flow summary (₹ crore)",
+      "from": "FY24",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Interest",
+        "ref": "fin.interest"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n2"
+       },
+       {
+        "name": "Cash from operations",
+        "ref": "fin.cfo"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       }
+      ],
+      "source": "Company, GAM Research estimates"
+     }
+    },
+    {
+     "callout": "**Against management's FY30 ambition** (EBITDA 4-5x FY26, i.e. ₹3,000-3,750 cr): our FY29E EBITDA of {{F.ebitda.2|num}} cr is ~2.9x FY26, which would need another ~40% in FY30 to reach the low end. We are a little behind the plan on purpose: Q1FY27 margins were boosted by Fashion's sudden turn, and quick commerce is a live threat in mass beauty."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: 6 Buys, 1 Neutral after Q1FY27; median target ₹398",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Broker calls standing on 30-Sep-2026",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Date",
+       "Method"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Elara",
+        "Buy",
+        "475",
+        "25-Aug-2026",
+        "SOTP"
+       ],
+       [
+        "Nuvama",
+        "Buy",
+        "414",
+        "05-Aug-2026",
+        "SOTP"
+       ],
+       [
+        "Nomura",
+        "Buy",
+        "411",
+        "05-Aug-2026",
+        "n.d."
+       ],
+       [
+        "Jefferies",
+        "Buy",
+        "400",
+        "05-Aug-2026",
+        "n.d."
+       ],
+       [
+        "JM Financial",
+        "Not stated (positive)",
+        "395",
+        "05-Aug-2026",
+        "DCF"
+       ],
+       [
+        "HSBC",
+        "Buy",
+        "380",
+        "05-Aug-2026",
+        "n.d."
+       ],
+       [
+        "CLSA",
+        "Outperform",
+        "376",
+        "05-Aug-2026",
+        "n.d."
+       ],
+       [
+        "MOFSL",
+        "Neutral",
+        "370",
+        "04-Aug-2026",
+        "SOTP"
+       ],
+       [
+        "Kotak (pre-Q1, stale)",
+        "Add",
+        "340",
+        "30-Jun-2026",
+        "n.d."
+       ],
+       [
+        "HSIE (pre-Q1, stale)",
+        "Sell",
+        "220",
+        "22-Jun-2026",
+        "DCF"
+       ]
+      ],
+      "source": "Broker notes and press reports published on or before 30-Sep-2026; n.d. = not disclosed. Stale calls are kept out of the median."
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Targets range from ₹370 to ₹475; we are at the low end",
+       "unit": "₹ per share",
+       "x": [
+        "Elara",
+        "Nuvama",
+        "Nomura",
+        "Jefferies",
+        "JM Financial",
+        "HSBC",
+        "CLSA",
+        "MOFSL",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          475,
+          414,
+          411,
+          400,
+          395,
+          380,
+          376,
+          370,
+          365
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes, GAM Research"
+      },
+      {
+       "type": "hbar",
+       "title": "What brokers pay for Beauty",
+       "unit": "EV/EBITDA multiple (x)",
+       "x": [
+        "MOFSL",
+        "JM Financial (DCF-implied)",
+        "HSIE (DCF-implied, pre-Q1)",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Multiple",
+         "values": [
+          50,
+          45,
+          60,
+          50
+         ],
+         "fmt": "x"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "source": "MOFSL (4-Aug-2026), JM Financial (5-Aug-2026), HSIE (22-Jun-2026), GAM Research"
+      }
+     ]
+    },
+    {
+     "p": "After Q1FY27 the street turned almost uniformly positive: 6 of 8 brokers with a post-Q1 call rate Nykaa a Buy or Outperform, on faster Beauty growth, the Fashion turnaround and margin expansion. MOFSL (Neutral, ₹370) likes the business but calls valuation \"a key deterrent\". Before the results, HSIE was at Sell (₹220, DCF), arguing that the FY30 ambitions are lofty. The median post-Q1 target is ₹398. Brokers that disclose a method use a sum of the parts (MOFSL, Nuvama, Elara) or a DCF (JM Financial, HSIE); Beauty is valued at 45-60x EV/EBITDA or 75x P/E (Elara), Fashion at a DCF value (MOFSL ₹24,900 cr) or 4x sales (Elara)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs MOFSL estimates (the only post-Q1 forecasts published in full)",
+      "head": [
+       "",
+       "GAM FY27E",
+       "MOFSL FY27E",
+       "GAM FY28E",
+       "MOFSL FY28E"
+      ],
+      "rows": [
+       [
+        "Revenue (₹ cr)",
+        "{{F.sales.0|num}}",
+        "13,428",
+        "{{F.sales.1|num}}",
+        "17,403"
+       ],
+       [
+        "EBITDA (₹ cr)",
+        "{{F.ebitda.0|num}}",
+        "1,256",
+        "{{F.ebitda.1|num}}",
+        "1,755"
+       ],
+       [
+        "EPS (₹)",
+        "{{F.eps.0|n2}}",
+        "1.75",
+        "{{F.eps.1|n2}}",
+        "2.94"
+       ]
+      ],
+      "source": "MOFSL 1QFY27 result update (4-Aug-2026), GAM Research estimates"
+     }
+    },
+    {
+     "p": "We are below MOFSL on revenue (we grow Beauty GMV at 27% and keep revenue at ~61% of GMV, in line with Q1FY27) and on margins (we add ~0.4pp of GMV a year in Beauty and assume Fashion reaches only ~3% of NSV in FY28E). No as-of consensus capture was available, so we compare with the one broker whose full model we read."
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: sum of the parts, the street's method, gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values FSN E-Commerce Ventures"
+    },
+    {
+     "p": "Brokers value Nykaa **part by part (sum of the parts)** or with a DCF: Beauty on EV/EBITDA (45-60x, FY28E-FY29E) or P/E (Elara 75x), Fashion on a DCF or a sales multiple, plus net debt. A plain P/E is not useful: profit is only ~3% of revenue, so the own forward P/E has rarely been below 100x. We use the same method as for Eternal and Swiggy, so the internet reports can be compared."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "Thesis"
+      ],
+      "wide": [
+       6
+      ],
+      "rows": [
+       [
+        "Elara",
+        "Buy",
+        "475",
+        "SOTP",
+        "BPC 75x P/E",
+        "n.d.",
+        "Fashion 4x sales"
+       ],
+       [
+        "Nuvama",
+        "Buy",
+        "414",
+        "SOTP",
+        "n.d.",
+        "–",
+        "Switched from DCF; components not disclosed"
+       ],
+       [
+        "Nomura",
+        "Buy",
+        "411",
+        "n.d.",
+        "–",
+        "–",
+        "Margin levers starting to work"
+       ],
+       [
+        "Jefferies",
+        "Buy",
+        "400",
+        "n.d.",
+        "–",
+        "–",
+        "Strong beat; valuation elevated"
+       ],
+       [
+        "JM Financial",
+        "n.d. (positive)",
+        "395",
+        "DCF (Jun-27)",
+        "45x EV/EBITDA implied",
+        "FY29E",
+        "Margins raised 30-70bp"
+       ],
+       [
+        "HSBC",
+        "Buy",
+        "380",
+        "n.d.",
+        "–",
+        "–",
+        "Third quarter of 150bp+ margin gain"
+       ],
+       [
+        "CLSA",
+        "Outperform",
+        "376",
+        "n.d.",
+        "–",
+        "–",
+        "Owned brands support margins"
+       ],
+       [
+        "MOFSL",
+        "Neutral",
+        "370",
+        "SOTP",
+        "BPC 50x EV/EBITDA",
+        "FY28E",
+        "Fashion DCF ₹87/sh; valuation a deterrent"
+       ],
+       [
+        "HSIE (Jun-2026)",
+        "Sell",
+        "220",
+        "DCF",
+        "60x EV/EBITDA implied",
+        "Jun-28E",
+        "Pre-Q1, stale: ambitions lofty"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**HOLD**",
+         "**{{dcf.tp|num}}**",
+         "**Sum of the parts**",
+         "**–**",
+         "**–**",
+         "Beauty 50x Sep-28E EBITDA; Fashion 1.5x Sep-28E GMV; others' losses; net debt; Dot & Key minority"
+        ]
+       }
+      ],
+      "source": "Broker notes published on or before 30-Sep-2026 (MOFSL and HSIE PDFs read directly; others from press); n.d. = not disclosed"
+     }
+    },
+    {
+     "h": "Our multiples: Beauty 50x EBITDA, Fashion 1.5x GMV, and why"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Own forward P/E (house starting point)",
+        "Median one-year-forward P/E since listing (Nov-2021): 263x, excluding FY23 as a trough year (324x with it)",
+        "Not meaningful: earnings were 0.2-2% of revenue for most of the window; not used"
+       ],
+       [
+        "2. The street on Beauty",
+        "MOFSL 50x (FY28E Beauty EBITDA); JM Financial (DCF-implied) 45x (FY29E group EBITDA); HSIE (DCF-implied, pre-Q1) 60x (Jun-28E group EBITDA)",
+        "Median 50.0x → **50x** Sep-28E Beauty EBITDA; bull 60x, bear 45x"
+       ],
+       [
+        "3. Sector move (§7c)",
+        "Internet peers with a five-year P/E history: Info Edge −38% and IndiaMART −59% vs their medians (median −48%). Eternal, Swiggy, Paytm and PB Fintech excluded (losses or P/E in the hundreds inside the window), as in our Eternal report",
+        "Not applied: the street multiples are already current (Aug-2026), not five-year averages; applying it would give 25.8x (sensitivity only)"
+       ],
+       [
+        "4. Fashion",
+        "Two disclosed broker values: MOFSL (DCF) ₹24,900 cr; Elara (4x sales on our Sep-28E Fashion revenue) ₹7,261 cr. Median ₹16,081 cr",
+        "= **1.5x** our Sep-28E GMV (₹10,679 cr); bull 2.3x (MOFSL), bear 0.7x (Elara)"
+       ],
+       [
+        "5. Consistency",
+        "Our Eternal food multiple is 37.5x EBITDA for a 20%-growth business with no store capex; Beauty grows ~26% and earns ~10% of NSV",
+        "50x for faster growth with a smaller, store-heavy margin: consistent"
+       ],
+       [
+        "6. Smaller parts",
+        "GCC and international: three years of FY28E losses; Dot & Key minority at the put-option value (₹270 cr)",
+        "Together ~₹1-2/share"
+       ]
+      ],
+      "source": "Screener.in, GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "hbar",
+      "title": "Target and cross-checks vs the share price",
+      "unit": "₹ per share (base case)",
+      "x": [
+       "Sum of the parts (target)",
+       "DCF",
+       "EV/EBITDA",
+       "Share price today"
+      ],
+      "series": [
+       {
+        "name": "Value",
+        "values": [
+         363,
+         184,
+         327,
+         320
+        ],
+        "fmt": "inr"
+       }
+      ],
+      "labels": "all",
+      "highlight": "Sum of the parts (target)",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**Sum of the parts**",
+        "**Target**",
+        "Sum of the parts",
+        "–",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.1.value|num}}",
+        "-49%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "EV/EBITDA",
+        "Cross-check",
+        "EBITDA Sep-28E ₹1,883 cr",
+        "50x (bull 60x, bear 45x)",
+        "{{dcf.blend.methods.2.value|num}}",
+        "-10%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "Cross-checks: the DCF (12.5% cost of equity, 6% terminal growth, margin rising to 15%) gives ₹184 (−49% vs our SOTP). That gap is the honest bear case: a 50x EBITDA multiple prices in fast growth for well over a decade. EV/EBITDA at 50x Sep-28E group EBITDA gives ₹327 (−10%): Fashion's GMV is worth more than its still-small EBITDA. Each 5x on Beauty is worth ~₹31 a share; each 0.5x of Fashion GMV ~₹19."
+    },
+    {
+     "h": "Sum of the parts in detail"
+    },
+    {
+     "p": "We value each business on our Sep-28E forecasts (the average of FY28E and FY29E), deduct the net debt (including lease liabilities, because segment EBITDA is before rent) we expect at March 2027, and deduct the value of the Dot & Key minority that Nykaa has agreed to buy. Every input is live in the SOTP sheet of the Excel model, with Base / Bull / Bear switches."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Sum-of-the-parts valuation (base case)",
+      "head": [
+       "Business",
+       "Method",
+       "Metric (₹ cr)",
+       "Multiple",
+       "Adjustment (₹ cr)",
+       "Value (₹ cr)",
+       "₹ / share"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Beauty (BPC)",
+        "Sep-28E EBITDA × EV/EBITDA",
+        "1,783",
+        "50x",
+        "–",
+        "{{dcf.sotp.parts.0.value|num}}",
+        "{{dcf.sotp.parts.0.perShare|num}}"
+       ],
+       [
+        "Fashion",
+        "Sep-28E GMV × EV/GMV",
+        "10,679",
+        "1.5x",
+        "–",
+        "{{dcf.sotp.parts.1.value|num}}",
+        "{{dcf.sotp.parts.1.perShare|num}}"
+       ],
+       [
+        "Others (GCC, international)",
+        "FY28E EBITDA (loss) × years of losses",
+        "-33",
+        "3x",
+        "–",
+        "{{dcf.sotp.parts.2.value|num}}",
+        "{{dcf.sotp.parts.2.perShare|num}}"
+       ],
+       [
+        "Net debt at end-FY27E (incl. leases)",
+        "",
+        "-942",
+        "–",
+        "–",
+        "{{dcf.sotp.parts.3.value|num}}",
+        "{{dcf.sotp.parts.3.perShare|num}}"
+       ],
+       [
+        "Dot & Key minority (put option)",
+        "49% stake Nykaa is committed to buy",
+        "–",
+        "–",
+        "-270",
+        "{{dcf.sotp.parts.4.value|num}}",
+        "{{dcf.sotp.parts.4.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Equity value**",
+         "",
+         "",
+         "",
+         "",
+         "1,03,844",
+         "363"
+        ]
+       },
+       {
+        "hl": true,
+        "cells": [
+         "**SOTP target (rounded)**",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "{{dcf.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research estimates"
+     }
+    },
+    {
+     "bullets": [
+      "**Beauty (BPC):** Median of the three EV/EBITDA multiples the street disclosed by 30-Sep-2026 (MOSL 50x FY28E Beauty EBITDA; JM Financial's DCF target implies 45x FY29E EBITDA; HSIE's DCF target implies 60x Jun-28E EBITDA, pre-Q1) = 50x. Bull 60x (HSIE-implied), bear 45x (JM-implied). Applied to Sep-28E Beauty EBITDA, which is after Superstore (eB2B) losses and before rent.",
+      "**Fashion:** Two brokers disclosed a Fashion value: MOSL's DCF ₹24,900 cr (₹87/share) and Elara's 4x sales, which on our Sep-28E Fashion revenue is ~₹7,300 cr. Their median (₹16,100 cr) = 1.5x our Sep-28E GMV. Bull 2.3x (MOSL), bear 0.7x (Elara). GMV rather than EBITDA because Fashion has just reached breakeven, so an EBITDA multiple is meaningless.",
+      "**Others (GCC, international):** Start-up losses valued as the cost still to come: three years of FY28E losses (bull one, bear five), as for Eternal's and Swiggy's new bets.",
+      "**Net debt at end-FY27E (incl. leases):** Model forecast: cash and bank less working-capital borrowings and lease liabilities at Mar-27. Leases are deducted because segment EBITDA is before rent (Ind AS 116).",
+      "**Dot & Key minority (put option):** Beauty is valued at 100%, but 49% of Dot & Key belongs to its founders and Nykaa has written a put option to buy it; the liability was ₹269.5 cr at Mar-26 (FY26 annual report, note 53A). Other minorities (Earth Rhythm ~25%) are immaterial (minority profit ₹4.5 cr in FY26)."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Value / share",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Beauty GMV grows 25-27% and its margin reaches ~11.8% of NSV by FY29E (50x); Fashion grows 30-42% and reaches ~5% of NSV (1.5x GMV)."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}}"
+       ]
+      ],
+      "source": "GAM Research estimates"
+     }
+    },
+    {
+     "callout": "**Cross-check: what is the market paying for?** Market value is ~₹91,691 cr. If Fashion is worth our 1.5x GMV, the price values Beauty at ~43x Sep-28E EBITDA, below the street's 50x. Put the other way, with Beauty at 50x the price gives Fashion only ~0.4x GMV, below Elara's bear-case 0.7x. The stock is not expensive against the street's own yardsticks; it is expensive against cash flows."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Internet peers at the 30-Sep-2026 close",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "Trailing P/E",
+       "Trailing EV/EBITDA",
+       "FY26 revenue (₹ cr)",
+       "FY26 EBITDA margin"
+      ],
+      "rows": [
+       [
+        "**Nykaa**",
+        "91,691",
+        "344.4x",
+        "105.1x",
+        "10,022",
+        "7.5%"
+       ],
+       [
+        "Eternal",
+        "3,08,896",
+        "713.2x",
+        "100.4x",
+        "54,364",
+        "2.2%"
+       ],
+       [
+        "Swiggy",
+        "68,908",
+        "loss",
+        "n.m.",
+        "23,053",
+        "-14%"
+       ],
+       [
+        "Info Edge (India)",
+        "79,042",
+        "53.6x",
+        "34.4x",
+        "3,285",
+        "36.1%"
+       ],
+       [
+        "Indiamart Intermesh",
+        "9,797",
+        "19.8x",
+        "13.8x",
+        "1,569",
+        "30.3%"
+       ],
+       [
+        "One 97 Communications",
+        "1,07,766",
+        "132.7x",
+        "71.0x",
+        "8,437",
+        "5.9%"
+       ],
+       [
+        "PB Fintech",
+        "49,493",
+        "65.8x",
+        "50.1x",
+        "6,794",
+        "7.5%"
+       ]
+      ],
+      "source": "Screener.in data at the NSE close on 30-Sep-2026, GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a better business than the 2023 market thought, at a price that already says so",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's leading specialist beauty retailer (Beauty GMV +28% at a 10.3% margin on NSV), a portfolio of owned brands, and a Fashion business that has just reached breakeven, for a market value of ~₹91,691 cr. Our sum of the parts gives {{dcf.tp|inr}} ({{dcf.upside|chg}})."
+    },
+    {
+     "callout": "**What you are paying for:** with Fashion at our value, ~43x Beauty's Sep-28E EBITDA (we use 50x, the street's median), or ~103x our Sep-28E EPS. Our DCF at a 12.5% cost of equity gives only ₹184: to justify today's price on cash flows you need fast growth for 15+ years. If quick commerce slows Beauty to ~21% and Fashion stalls (our bear case), the stock is worth {{scen.bear.tp|inr}}."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key risks",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact",
+       "What we watch"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Quick commerce (Blinkit, Zepto, Instamart, Flipkart Minutes) takes mass beauty",
+        "Medium-high",
+        "High: Beauty growth and the 50x multiple",
+        "Beauty order growth (+19% in Q1FY27) and AOV; Nykaa Now share of orders"
+       ],
+       [
+        "Reliance (Tira) and Myntra spend to win beauty share",
+        "Medium",
+        "Medium-high",
+        "Beauty marketing as % of NSV; exclusive brand launches"
+       ],
+       [
+        "Fashion growth fades after Nike laps (Q4FY27)",
+        "Medium",
+        "Medium: Fashion is ~15% of our value",
+        "Fashion GMV growth ex-Nike; EBITDA staying positive"
+       ],
+       [
+        "Superstore (eB2B) losses persist",
+        "Medium",
+        "Low-medium",
+        "Superstore GMV growth (+17% in Q1FY27); any loss disclosure"
+       ],
+       [
+        "Valuation de-rating of Indian internet stocks",
+        "Medium",
+        "High: Info Edge and IndiaMART trade 38-59% below their five-year P/E medians",
+        "Sector multiples; FII flows"
+       ],
+       [
+        "Dot & Key buy-out costs more than booked",
+        "Low",
+        "Low (₹270 cr liability today)",
+        "Put-option revaluation"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: HOLD, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**Buy below ~₹315**, or if Beauty NSV growth holds near 30% while its margin passes 11% of NSV.",
+      "**Sell above ~₹385**, or if Beauty NSV growth falls below 20% for two quarters (the quick-commerce risk showing up).",
+      "**Position size:** a market weight; the business deserves to be owned, but the margin of safety is thin and the DCF gap is wide."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Beauty GMV growth, Q1FY27",
+        "v": "+28%",
+        "d": "NSV +29%"
+       },
+       {
+        "k": "Beauty margin, Q1FY27",
+        "v": "10.3% of NSV",
+        "d": "target: healthy double digit"
+       },
+       {
+        "k": "Fashion EBITDA, Q1FY27",
+        "v": "₹0.4 cr",
+        "d": "GMV +53%"
+       },
+       {
+        "k": "SOTP target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "{{dcf.upside|chg}} vs ₹{{P.last|num}}"
+       },
+       {
+        "k": "DCF value",
+        "v": "₹184",
+        "d": "at 12.5% cost of equity"
+       }
+      ],
+      "source": "Nykaa Q1FY27 presentation, GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY20–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 40
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 150
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation",
+        "flag": {
+         "type": "pct",
+         "th": 40
+        },
+        "inverse": true
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (owners)",
+        "hl": true
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 35
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (owners)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Glossary",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "Meaning"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "GMV",
+        "Gross merchandise value: the price of goods ordered, before discounts, cancellations, returns and taxes."
+       ],
+       [
+        "NSV",
+        "Net sales value: GMV after discounts, cancellations, returns and taxes. Nykaa quotes vertical margins as a % of NSV."
+       ],
+       [
+        "Revenue from operations",
+        "Sales of goods Nykaa owns plus commissions, advertising and logistics income. Close to NSV in Beauty (inventory model), much smaller in Fashion (marketplace)."
+       ],
+       [
+        "EBITDA",
+        "Earnings before interest, tax, depreciation and amortisation; at Nykaa, after share-based pay and before store rent (Ind AS 116)."
+       ],
+       [
+        "Contribution margin",
+        "Gross profit less fulfilment, marketing and selling costs, as a % of NSV."
+       ],
+       [
+        "AOV / AUTC",
+        "Average order value; annual unique transacting customers."
+       ],
+       [
+        "House of Nykaa (HoN)",
+        "Nykaa's owned brands: Nykaa Cosmetics, Kay Beauty, Dot & Key, Earth Rhythm and others."
+       ],
+       [
+        "Superstore / eB2B",
+        "Nykaa's business supplying beauty products to small retailers via an app (electronic business-to-business)."
+       ],
+       [
+        "Nykaa Now",
+        "Nykaa's 60-minute delivery service in 13 cities."
+       ],
+       [
+        "Quick commerce",
+        "Apps delivering groceries and household goods in 10-30 minutes from small local warehouses (Blinkit, Zepto, Instamart)."
+       ],
+       [
+        "Sum of the parts (SOTP)",
+        "Valuing each business separately and adding them up, less net debt and minorities."
+       ],
+       [
+        "EV/EBITDA; EV/GMV",
+        "Enterprise value (market value plus net debt) divided by EBITDA or by GMV."
+       ],
+       [
+        "Sep-28E",
+        "The average of our FY28E and FY29E forecasts, i.e. the twelve months to September 2028: the earnings a buyer will look at in a year."
+       ],
+       [
+        "Put option",
+        "A promise to buy the remaining 49% of Dot & Key from its founders, booked as a liability (₹270 cr at Mar-26)."
+       ],
+       [
+        "Ind AS 116",
+        "The accounting rule that moves rent on leased stores and warehouses below EBITDA (into depreciation and interest)."
+       ],
+       [
+        "DCF",
+        "Discounted cash flow: the value today of future free cash flows, discounted at the cost of capital."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY21": "COVID year (stores shut for part of it): revenue +38% and the first full-year profit (₹62 cr).",
+  "sales@FY22": "IPO year (Nov-2021); revenue +55%.",
+  "pat@FY23": "Profit fell to ₹19 cr: losses in Fashion and the new eB2B arm (Superstore) and higher depreciation from stores and warehouses.",
+  "dep@FY23": "Warehouse and store build-out (depreciation +80%).",
+  "cfo@FY22": "Inventory build (₹372 cr) as Nykaa bought more stock for owned and exclusive brands.",
+  "pat@FY26": "Profit tripled: Beauty margin 9.6% of NSV (8.9%), Fashion losses cut to ₹37 cr (₹93 cr); ₹17 cr exceptional charge.",
+  "ebitdaMargin@FY26": "Gross margin +132bp (owned brands, premium mix, ad income) and overhead leverage.",
+  "sales@FY27E": "GAM estimate: Beauty GMV +27%, Fashion GMV +42% (Nike partnership until it laps in Q4FY27).",
+  "pat@FY27E": "GAM estimate: EBITDA +50%; tax 35% (losses in Fashion subsidiaries still not offset).",
+  "ebitdaMargin@FY29E": "Beauty ~11.8% of NSV; Fashion ~5% of NSV (target: high single digit by FY30).",
+  "pat@Q3FY26": "Exceptional charge (₹16 cr pre-tax) in the quarter; festive season.",
+  "sales@Q1FY27": "Revenue +29%, the fastest in 13 quarters; Fashion GMV +53% (Nike partnership).",
+  "ebitda@Q1FY27": "EBITDA +68%: Beauty 10.3% of NSV, Fashion at breakeven."
+ }
+}

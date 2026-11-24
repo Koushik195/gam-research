@@ -1,0 +1,306 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "Segment-driven model (as ETERNAL / SWIGGY): each vertical's GMV grows; revenue and EBITDA are % of GMV. Segment EBITDA is the company's reported vertical EBITDA (after ESOP cost, before Ind AS 116 rent), so the verticals add up to reported EBITDA with no unallocated line. Valued on sum of the parts on Sep-28E (roll FY28E/FY29E 50:50). ₹ crore.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "roll": [
+  "FY28E",
+  "FY29E",
+  0.5
+ ],
+ "segments": [
+  {
+   "key": "beauty",
+   "name": "Beauty (BPC online, stores, owned brands, Superstore)",
+   "driverLabel": "GMV",
+   "base": 14954,
+   "growth": [
+    27,
+    26,
+    25
+   ],
+   "revPct": [
+    61.2,
+    61.2,
+    61.2
+   ],
+   "marginPct": [
+    6,
+    6.4,
+    6.8
+   ],
+   "hist": {
+    "driver": "bGmv",
+    "revenue": "bRev",
+    "adjEbitda": "bEbitda"
+   },
+   "_why": "Beauty GMV grew 27% in FY26 and 28% in Q1FY27 (NSV +29%, the fastest in 13 quarters). Management's FY30 ambition is 2.5-3x FY26 GMV (25-32% a year; Investor Day, 18-Jun-2026). We assume 27% / 26% / 25%: the low end of the ambition, as HSIE (22-Jun-2026) doubts the core can keep pace once House of Nykaa and eB2B growth slows.",
+   "_revWhy": "Revenue (sale of goods, marketing income, marketplace fees) was 61.1% of GMV in FY26 and 61.3% in Q1FY27; held at 61.2%.",
+   "_marginWhy": "EBITDA was 5.5% of GMV (9.6% of NSV) in FY26 and 5.9% of GMV (10.3% of NSV) in Q1FY27, up 128bp of NSV YoY on gross margin (owned brands, premium brands, ad income) and marketing leverage. We assume 6.0% / 6.4% / 6.8% of GMV (≈10.4% / 11.1% / 11.8% of NSV): about +0.4pp a year, slower than Q1's jump, because eB2B (Superstore, ~-7% of NSV per HSIE) still loses money and new stores dilute."
+  },
+  {
+   "key": "fashion",
+   "name": "Fashion (Nykaa Fashion, LBB, Nykaa Man lifestyle)",
+   "driverLabel": "GMV",
+   "base": 4954,
+   "growth": [
+    42,
+    32,
+    30
+   ],
+   "revPct": [
+    17,
+    17,
+    17
+   ],
+   "marginPct": [
+    0.3,
+    0.9,
+    1.5
+   ],
+   "hist": {
+    "driver": "fGmv",
+    "revenue": "fRev",
+    "adjEbitda": "fEbitda"
+   },
+   "_why": "Fashion GMV +30% in FY26 and +53% in Q1FY27, helped by the Nike partnership (Nykaa runs Nike.in and the Nike app from Feb-2026), which enters the base in Q4FY27 (JM Financial on the Q1 call). Management guides 3-3.5x FY26 scale by FY30 (32-37% a year). We assume 42% for FY27E (Nike laps late in the year), then 32% / 30%.",
+   "_revWhy": "Fashion is largely a marketplace: revenue was 16.8% of GMV in FY26 and 17.2% in Q1FY27; held at 17%.",
+   "_marginWhy": "EBITDA turned from -8.3% of NSV in FY25 and -6.2% in Q1FY26 to +0.3% in Q4FY26 and +0.1% in Q1FY27 as marketing fell from 28% to 23% of NSV. Target: high single digit % of NSV by FY30. We assume 0.3% / 0.9% / 1.5% of GMV (≈1% / 3% / 5% of NSV, with NSV ~31% of GMV)."
+  },
+  {
+   "key": "oth",
+   "name": "Others (GCC and international)",
+   "driverLabel": "Revenue",
+   "base": 51,
+   "growth": [
+    20,
+    20,
+    20
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -55,
+    -45,
+    -35
+   ],
+   "hist": {
+    "driver": "othRev",
+    "revenue": "othRev",
+    "adjEbitda": "othEbitda"
+   },
+   "_why": "Total less Beauty less Fashion: the Gulf (Nysaa) and international businesses. Revenue ₹51 cr in FY26 (₹13 cr in Q1FY27); 20% growth assumed.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "EBITDA -₹30 cr in FY26 and -₹8 cr in Q1FY27 (about -60% of revenue); losses assumed roughly flat at ~₹30 cr a year."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "None: the verticals add up to reported EBITDA",
+ "_unallocWhy": "Nykaa's vertical EBITDA sums exactly to reported EBITDA (FY26: 819 - 37 - 30 = 752), with corporate costs already allocated.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "_esopWhy": "Share-based pay (₹16.7 cr in FY26, FY26 annual report note 51) is already inside reported and vertical EBITDA, so no separate line.",
+ "capex": [
+  450,
+  520,
+  600
+ ],
+ "_capexWhy": "Cash capex (property, plant, equipment and intangibles) was ₹154 cr in FY26; right-of-use assets for new stores and warehouses rose from ₹330 cr to ₹461 cr even after depreciation. Management plans ~600 stores by FY30 (313 at Mar-26), ~70 a year. We include ~₹250-350 cr a year of new leases so that depreciation (which includes right-of-use assets) keeps pace.",
+ "depRateOnGrossBlock": 16.5,
+ "_depWhy": "Depreciation ₹320 cr in FY26 (17.6% of average gross block incl. right-of-use assets) and ₹89 cr in Q1FY27 (₹356 cr annualised); 16.5% gives ~₹375 cr in FY27E, ~3% of revenue as in FY26.",
+ "treasuryYield": [
+  6.5,
+  6.5,
+  6.5
+ ],
+ "otherIncome": [
+  35,
+  38,
+  40
+ ],
+ "_treasuryWhy": "Nykaa has net debt (working-capital loans ₹729 cr and leases ₹491 cr against ₹320 cr of cash and bank at Mar-26), so the treasury yield applies only if net cash turns positive.",
+ "_otherIncomeWhy": "Other income ₹32.8 cr in FY26 (₹25 cr interest, mostly on security and bank deposits) and ₹9.3 cr in Q1FY27; rising slowly with deposits.",
+ "interest": [
+  120,
+  130,
+  140
+ ],
+ "_interestLabel": "Finance cost (lease interest + working-capital loans)",
+ "_interestWhy": "Finance cost ₹117 cr in FY26 and ₹27 cr in Q1FY27 (₹74 cr interest on loans and finance charges in FY26; the rest on leases); rising with stores and inventory.",
+ "taxRate": [
+  35,
+  32,
+  30
+ ],
+ "_taxWhy": "Effective tax 38% in FY26 and 38% in Q1FY27: profitable Beauty pays 25%, while losses in Fashion and other subsidiaries cannot be set off. As Fashion turns profitable the group rate falls toward ~30% (MOSL assumes 35.5% / 31.1% for FY27E / FY28E).",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 15,
+  "fadeCapexPctTo": 2.5,
+  "depPctOfSales": 2.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Consumer internet retailer with a profitable core; market-like sensitivity (cost of equity 12.5%). Net debt is small (leases and working-capital loans), so cost of equity ≈ WACC (MOSL uses an 11% WACC for Fashion).",
+  "_tgWhy": "6%: nominal GDP-like growth after 15 years.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~26% (FY29E) to 9% by year 15.",
+  "_fadeMarginWhy": "15% reported EBITDA margin at maturity (year 15): management aims for an early-to-mid-teens margin by FY30 (Investor Day, 18-Jun-2026); we give it 15 years to get there and hold it, because Fashion and eB2B dilute and competition caps take rates.",
+  "_fadeCapexWhy": "Store fit-outs, warehouses and leases settle at ~2.5% of revenue."
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "Beauty (BPC)",
+    "seg": "beauty",
+    "field": "adjEbitda",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA × EV/EBITDA",
+    "multiple": {
+     "base": 50,
+     "bull": 60,
+     "bear": 45
+    },
+    "note": "Median of the three EV/EBITDA multiples the street disclosed by 30-Sep-2026 (MOSL 50x FY28E Beauty EBITDA; JM Financial's DCF target implies 45x FY29E EBITDA; HSIE's DCF target implies 60x Jun-28E EBITDA, pre-Q1) = 50x. Bull 60x (HSIE-implied), bear 45x (JM-implied). Applied to Sep-28E Beauty EBITDA, which is after Superstore (eB2B) losses and before rent."
+   },
+   {
+    "name": "Fashion",
+    "seg": "fashion",
+    "field": "driver",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E GMV × EV/GMV",
+    "multiple": {
+     "base": 1.5,
+     "bull": 2.3,
+     "bear": 0.7
+    },
+    "note": "Two brokers disclosed a Fashion value: MOSL's DCF ₹24,900 cr (₹87/share) and Elara's 4x sales, which on our Sep-28E Fashion revenue is ~₹7,300 cr. Their median (₹16,100 cr) = 1.5x our Sep-28E GMV. Bull 2.3x (MOSL), bear 0.7x (Elara). GMV rather than EBITDA because Fashion has just reached breakeven, so an EBITDA multiple is meaningless."
+   },
+   {
+    "name": "Others (GCC, international)",
+    "seg": "oth",
+    "field": "adjEbitda",
+    "year": "FY28E",
+    "metricLabel": "FY28E EBITDA (loss) × years of losses",
+    "multiple": {
+     "base": 3,
+     "bull": 1,
+     "bear": 5
+    },
+    "note": "Start-up losses valued as the cost still to come: three years of FY28E losses (bull one, bear five), as for Eternal's and Swiggy's new bets."
+   },
+   {
+    "name": "Net debt at end-FY27E (incl. leases)",
+    "netCash": true,
+    "note": "Model forecast: cash and bank less working-capital borrowings and lease liabilities at Mar-27. Leases are deducted because segment EBITDA is before rent (Ind AS 116)."
+   },
+   {
+    "name": "Dot & Key minority (put option)",
+    "metricLabel": "49% stake Nykaa is committed to buy",
+    "adj": {
+     "base": -270,
+     "bull": -270,
+     "bear": -270
+    },
+    "note": "Beauty is valued at 100%, but 49% of Dot & Key belongs to its founders and Nykaa has written a put option to buy it; the liability was ₹269.5 cr at Mar-26 (FY26 annual report, note 53A). Other minorities (Earth Rhythm ~25%) are immaterial (minority profit ₹4.5 cr in FY26)."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "A profitable Beauty business and a Fashion business at breakeven need different yardsticks. The street's method (MOSL, Nuvama, Elara). Primary."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Whole-company cash flows over 15 years at a 12.5% cost of equity; JM Financial and HSIE value Nykaa this way."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 50,
+      "bull": 60,
+      "bear": 45
+     },
+     "role": "cross-check",
+     "why": "Group Sep-28E EBITDA at the Beauty multiple (50x): what the company is worth if Fashion earned Beauty's multiple on its (small) EBITDA. Bull 60x, bear 45x."
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Beauty grows ~30% a year (the middle of management's ambition) and reaches ~12.5% of NSV by FY29E at 60x; Fashion keeps growing ~40% and reaches ~7.5% of NSV, valued at MOSL's 2.3x GMV.",
+   "segments": {
+    "beauty": {
+     "growthDelta": 3,
+     "marginDelta": 0.4
+    },
+    "fashion": {
+     "growthDelta": 8,
+     "marginDelta": 0.8
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Quick commerce and Tira / Myntra take share: Beauty growth slows to ~21% and margins stall near 10% of NSV (45x); Fashion growth halves once Nike laps and it stays near breakeven, worth Elara's 0.7x GMV.",
+   "segments": {
+    "beauty": {
+     "growthDelta": -5,
+     "marginDelta": -0.6
+    },
+    "fashion": {
+     "growthDelta": -12,
+     "marginDelta": -1
+    }
+   }
+  }
+ }
+}

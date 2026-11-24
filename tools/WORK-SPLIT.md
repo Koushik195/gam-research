@@ -165,9 +165,9 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 ### Consumer Services (21)
 
-- B29 · claimed (B, 24-Nov-2026; ETERNAL, DMART, INDHOTEL in progress; TRENT, LENSKART later) · ETERNAL published (HOLD, 360), DMART published (HOLD, 4,040), TRENT, INDHOTEL published (SELL, 540), LENSKART
-- B30 · claimed (B, 24-Nov-2026) · MEESHO, NYKAA, NAUKRI, VMM, IRCTC
-- B31 · queued · PWL, ITCHOTELS, JUBLFOOD, URBANCO, EIHOTEL
+- B29 · claimed (B, 24-Nov-2026; ETERNAL, DMART, INDHOTEL in progress; TRENT, LENSKART later) · ETERNAL published (HOLD, 360), DMART published (HOLD, 4,040), TRENT published (SELL, 2,410), INDHOTEL published (SELL, 540), LENSKART
+- B30 · claimed (B, 24-Nov-2026) · MEESHO published (SELL, 205), NYKAA published (HOLD, 365), NAUKRI, VMM, IRCTC
+- B31 · claimed (B, 24-Nov-2026) · PWL, ITCHOTELS, JUBLFOOD, URBANCO, EIHOTEL
 - B32 · queued · TBOTEK, DEVYANI, INDIAMART, BLS, LEMONTREE
 - B33 · queued · FIRSTCRY
 
