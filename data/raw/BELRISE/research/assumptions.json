@@ -1,0 +1,173 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Belrise Industries (consolidated; Rs crore). Revenue has two lines with very different margins: manufacturing (sheet-metal, chassis, exhaust, polymer, suspension and other parts; 81% of FY26 revenue, 13.7% EBITDA margin) and trading of goods (steel and other goods sold mainly outside India; 19%, ~5% margin). The engine takes one growth rate and one margin, so the two-line build is kept in lineBuild and checked against model revenue and EBITDA in BELRISE.ctx.js. Share count and Mar-26 balance sheet are pro forma for the Jul-2026 QIP (BELRISE.patch.js). The pending merger of the two promoter companies (BAPL, EITSPL) is NOT in the base: it still needed NCLT approval on 30-Sep-2026 (shown as a sensitivity). Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  14.08,
+  14.25,
+  13.54
+ ],
+ "_revenueWhy": "Sum of the two lines in lineBuild. Manufacturing +18% / +16% / +15%: Q1FY27 +20% (Q4FY26 +21%); orders won in FY26-27 start in Q2-Q4FY27 (exhaust and fuel tank for a fast-growing 2W/3W OEM ~Rs90 cr a year, chassis Rs65 cr and Rs50 cr, solar-tracker assemblies up to Rs150 cr at peak, a 4W EV localisation programme, brakes and suspensions); the Hyva tipper business (bought for Rs54 cr, closing Q3FY27) adds from H2; 4W/CV doubling target. Trading -3% / +5% / +5%: Q1FY27 -19% (Middle East disruption), management expects recovery but slower than manufacturing. Management guidance: mid-teens revenue growth (May and Aug-2026 calls).",
+ "lineBuild": {
+  "_why": "FY26 from the Q4FY26 presentation (p7-8, 16): manufacturing revenue Rs7,734.6 cr (EBITDA Rs1,057.7 cr, 13.7%), trading Rs1,774.5 cr (EBITDA Rs96.1 cr = total Rs1,153.8 cr less manufacturing), total Rs9,509.1 cr. Q1FY27: manufacturing Rs2,197.9 cr at 12.7%, trading Rs348.6 cr at 4.0%.",
+  "fy26": {
+   "manufacturing": 7734.63,
+   "trading": 1774.47,
+   "mfgEbitda": 1057.7,
+   "tradingEbitda": 96.07
+  },
+  "mfgGrowth": [
+   18,
+   16,
+   15
+  ],
+  "tradingGrowth": [
+   -3,
+   5,
+   5
+  ],
+  "mfgMargin": [
+   13.2,
+   13.5,
+   13.6
+  ],
+  "tradingMargin": [
+   4.5,
+   4.5,
+   4.5
+  ]
+ },
+ "ebitdaMargin": [
+  11.82,
+  12.19,
+  12.37
+ ],
+ "_marginWhy": "Blended from lineBuild. Manufacturing 13.2% in FY27 (Q1 12.7%: steel and polymer cost lag, the April wage increments and minimum-wage hike, staff hired ahead of four new plants; management says the cost pain is behind it and margins rise in the coming quarters), 13.5% / 13.6% in FY28-29 as new plants fill and SDM (France) turns EBITDA positive, still below FY25's 13.9%. Trading 4.5% (FY25 6.1%, FY26 5.4%, Q1FY27 4.0%). Group margin 11.8% in FY27 vs 12.1% in FY26: in line with JM Financial (11.8%) and with management's 'broadly stable' guidance only if trading stays small.",
+ "capex": [
+  624,
+  662,
+  761
+ ],
+ "_capexWhy": "Guidance: capex 6-6.5% of manufacturing revenue (Q4FY26 call, incl. R&D). 6.25% of our manufacturing revenue plus Rs54 cr for the Hyva tipper business in FY27. FY26 capex Rs486 cr (company), Rs618 cr of fixed assets purchased in the cash-flow statement. Further acquisitions from the QIP money (management intends to deploy most of it in FY27) are not modelled: targets and prices are unknown.",
+ "depRateOnGrossBlock": 7,
+ "_depWhy": "FY26 depreciation Rs361 cr = 6.9% of average gross block (Rs5,210 cr); Q1FY27 Rs99 cr (~Rs395 cr annualised).",
+ "treasuryYield": [
+  6.5,
+  6.5,
+  6.5
+ ],
+ "_treasuryWhy": "Applied by the engine to net cash (cash + investments - borrowings incl. leases). Pro forma Mar-26 net cash ~Rs1,090 cr after the Rs1,657 cr net QIP proceeds (net debt Rs598 cr before it). Bank deposits / liquid funds ~6.5%. Includes Rs113 cr of unlisted equity investments (Rs99 cr in BAPL) that earn nothing: overstates other income by ~Rs7 cr a year.",
+ "otherIncome": [
+  55,
+  50,
+  50
+ ],
+ "_otherIncomeWhy": "Non-treasury other income: FY26 Rs110 cr = interest Rs45 cr (IPO cash parked before the Jun-2025 debt repayment), miscellaneous Rs53 cr (incl. scrap and incentives), FX gain Rs11 cr, rent Rs1 cr (AR FY26 note 28). Q1FY27 Rs18 cr; the four quarters to Jun-2026 Rs99 cr. Rs55 cr in FY27 (Q1 plus ~Rs12 cr a quarter), Rs50 cr after; FX gains not repeated.",
+ "interest": [
+  175,
+  165,
+  160
+ ],
+ "_interestWhy": "FY26 Rs232 cr (IPO repaid Rs1,596 cr of debt in Jun-2025); Q1FY27 Rs46 cr on ~Rs1,500 cr of gross debt incl. leases and bill discounting. Part of the QIP repays debt (Rs532 cr deployed by 30-Sep-2026, mainly debt repayment and vendor payments, per CRISIL): ~Rs43 cr a quarter from Q2.",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "FY26 effective 25.4% (Rs169 cr on Rs666 cr), Q1FY27 26.9%; new regime 25.17% plus some non-deductible items.",
+ "payout": [
+  10,
+  10,
+  10
+ ],
+ "_payoutWhy": "FY26 final dividend Rs0.55 a share (~Rs49 cr on 89 cr shares, ~10% of profit; Screener payout 10%). First dividend as a listed company; no stated policy.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 12.5,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 3.8,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Two-wheeler-heavy auto supplier (82% of manufacturing revenue), cyclical, with net cash after the QIP: beta 1.0, cost of equity 12.5%, used as the discount rate.",
+  "_tgWhy": "Indian vehicle production ~5-6% plus content gains; house range 5-6%: 6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~13.5% in FY29E to 8%.",
+  "_fadeMarginWhy": "Group EBITDA margin drifts to 12.5% as trading shrinks in the mix.",
+  "_fadeCapexWhy": "Capex ~5% of total revenue (6-6.5% of manufacturing revenue) in the long run; depreciation ~3.8% of revenue (FY26 3.8%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The new 2W/3W customers and the 4W/CV programmes ramp as guided, the solar and aerospace lines scale, trading recovers, and manufacturing margins return to ~14%; the QIP money buys earnings-accretive businesses.",
+   "volumeGrowthDelta": 0,
+   "revenueGrowthDelta": 3,
+   "marginDelta": 0.7,
+   "fadeMarginTo": 13
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Two-wheeler demand fades after the GST-cut boost, the largest customer keeps losing share, steel and wage costs are recovered late, trading stays weak and the acquired aerospace units keep losing money.",
+   "volumeGrowthDelta": 0,
+   "revenueGrowthDelta": -4,
+   "marginDelta": -1,
+   "fadeMarginTo": 11.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 26.5,
+      "bull": 28,
+      "bear": 24.5
+     },
+     "why": "How the street values Belrise: P/E on FY28E EPS (Jefferies and JM Financial 26x FY28E, May-2026). Multiple derived in BELRISE.ctx.js (own forward P/E median over the 12 months to 30-Sep-2026 x the same-window auto-component sector move) and written by BELRISE.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 10,
+      "bull": 11,
+      "bear": 9.5
+     },
+     "why": "Own trailing EV/EBITDA median over the same 12 months with the same sector move, restated to Sep-28E EBITDA."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, cost of equity 12.5%, terminal growth 6%."
+    }
+   ]
+  }
+ }
+}

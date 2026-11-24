@@ -1,0 +1,172 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Tenneco Clean Air India (consolidated; Rs crore). Two reported segments measured on value-added revenue (VAR = revenue less pass-through substrates): Clean Air & Powertrain Solutions (CA&PT) and Advanced Ride Technologies (ART). The engine models one revenue line; the segment build (CA&PT VAR + ART VAR + substrates = revenue) is kept in lineBuild and checked against model revenue in TENNIND.ctx.js. Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  17.8,
+  15.1,
+  14.1
+ ],
+ "_revenueWhy": "Revenue = VAR + substrates. VAR: CA&PT +11% / +14% / +13% and ART +22% / +16% / +15% (lineBuild). FY27: Q1FY27 VAR +18.4% (CA&PT +9.6%, ART +27.9%) on the post-GST-cut PV boom; ART runs above 90% utilisation, so H2 growth slows against Q3-Q4FY26 bases that already grew 24-26%. FY28-29: the Rs12,400 cr lifetime order book covers more than 100% of the FY28 revenue target (company, Mar-2026); CAFE-3 (expected from 2027) and Kharkhoda (Clean Air, SoP ~Q3FY27) and the western ART plant lift CA&PT; DaVinci DCx and semi-active dampers keep ART ahead of PV production. Substrates (precious-metal coated, passed through at cost) held at ~11% of VAR (Q1FY27 11.8%, FY26 9.9%).",
+ "lineBuild": {
+  "_why": "Company disclosure (Q4FY26 call, 3-Jun-2026): FY26 VAR Rs4,918 cr = CA&PT Rs2,430 cr + ART Rs2,489 cr; revenue from operations Rs5,404 cr, so substrates Rs486 cr. Forecast VAR by segment below; substrates are the balance to model revenue and must stay within 9-13% of VAR (ctx check).",
+  "fy26": {
+   "caVar": 2429.6,
+   "artVar": 2488.5,
+   "substrates": 486
+  },
+  "caVar": [
+   2697,
+   3075,
+   3474
+  ],
+  "artVar": [
+   3036,
+   3522,
+   4050
+  ],
+  "caGrowth": [
+   11,
+   14,
+   13
+  ],
+  "artGrowth": [
+   22,
+   16,
+   15
+  ]
+ },
+ "ebitdaMargin": [
+  16.2,
+  16.7,
+  16.9
+ ],
+ "_marginWhy": "On revenue (Screener basis). FY26 17.1% of revenue = 18.8% of VAR (highest ever); Q1FY27 16.0% of revenue = 17.9% of VAR, down 170 bp YoY on non-indexed commodity costs (crude-linked rubber, plastics after the West Asia war), rupee weakness and the running cost of a listed company. Mix works against the margin: in FY25 CA&PT earned 23.8% of VAR and ART 12.8% (RHP via JM Financial), and ART is the faster-growing half (53-54% of VAR by FY28-29E vs 47% in FY25); at FY26 segment margins the mix alone takes ~0.2-0.3 points a year off. FY27E 18.0% of VAR: steel is indexed with a one-quarter lag and recoveries are under negotiation (CFO, Aug-2026). FY28-29E 18.6-18.8% of VAR as listing costs are absorbed (CFO, Dec-2025: margins 'come back to the same levels') and DCx/export mix helps (export margins 'in line or better'). Royalty (2.5% of revenue net of intercompany sales) and network service fees stay inside costs.",
+ "capex": [
+  350,
+  280,
+  280
+ ],
+ "_capexWhy": "FY27 guidance Rs350-450 cr ('indicative', fully from internal accruals, Q1FY27 call), including Rs140 cr for the two announced plants (Kharkhoda Clean Air Rs71 cr; western India ART Rs69 cr). We take the low end because FY26 cash capex was only Rs115 cr and H1 spend had not been disclosed by 30-Sep. Rs280 cr a year in FY28-29 for semi-active suspension, CAFE-3/BS-VII hot ends and export-transfer lines.",
+ "depRateOnGrossBlock": 9,
+ "_depWhy": "FY26 depreciation Rs108 cr = 9.0% of average gross block (Rs1,195 cr; Screener schedules). Q1FY27 Rs28 cr. The engine depreciates capex at once (CWIP flat), so 9% on a growing block front-loads depreciation.",
+ "treasuryYield": [
+  6.5,
+  6.5,
+  6.5
+ ],
+ "_treasuryWhy": "Applied to opening net cash (Mar-2026: cash Rs571 cr less Rs51 cr of lease liabilities = Rs520 cr). Bank deposits ~6.5%.",
+ "otherIncome": [
+  6,
+  6,
+  6
+ ],
+ "_otherIncomeWhy": "Recurring non-treasury items (export incentives, scrap/asset-sale gains, interest on deposits with landlords). FY26 other income Rs59 cr before the Rs27 cr labour-code exceptional (AR FY26), but Q1FY26 carried a one-off from the Motocare disposal and other one-off income (CFO, Aug-2026; Q1FY26 Rs31 cr); the last three quarters ran at Rs9-12 cr a quarter before exceptional items. FY27E = Rs34 cr treasury + Rs6 cr = Rs40 cr, in line with the ~Rs37 cr TTM run rate.",
+ "interest": [
+  34,
+  36,
+  38
+ ],
+ "_interestWhy": "FY26 finance cost Rs34 cr (Q1FY27 Rs8 cr): lease interest plus interest on other items (AR FY26: Rs24 cr 'interest on others'); no bank debt.",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "New regime 25.17% plus non-deductible items; FY25 24.5%, FY26 25.9% (incl. exceptional), Q1FY27 25%.",
+ "payout": [
+  0,
+  25,
+  30
+ ],
+ "_payoutWhy": "All FY26 dividends (Rs1,037 cr, Rs25.68 a share) were paid to Tenneco before the IPO (Apr-Aug 2025); the Board recommended no final dividend for FY26, citing capacity expansion, technology and 'other business opportunities' (AR FY26), and management talked of M&A options for surplus cash (Aug-2026). No interim declared by 30-Sep, so FY27E 0%; we assume a policy payout of 25-30% from FY28E (our assumption, not guidance).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.95,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 16.5,
+  "fadeCapexPctTo": 3.5,
+  "depPctOfSales": 2.2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Tied to Indian truck, tractor and car production (cyclical) but net cash and diversified across PV/CV/off-highway: beta 0.95, cost of equity 12.2%. No debt, so the cost of equity is the discount rate.",
+  "_tgWhy": "Indian vehicle production ~5-6% plus emission and ride content; but clean-air content disappears in battery EVs: 6%, the top of the house range only because ART is powertrain-agnostic.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~14% in FY29E to 8%.",
+  "_fadeMarginWhy": "EBITDA margin fades to 16.5% of revenue (~18.3% of VAR): exhaust content shrinks as EV share rises.",
+  "_fadeCapexWhy": "Capex ~3.5% of revenue long run (FY23-26 1.2-2.1%, FY27E 5.5%); depreciation ~2.2% of revenue."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "PV and truck production keep growing near double digits; DCx becomes standard in A/B-segment cars; CAFE-3 and BS-VII arrive on time; exports rise towards 20% of VAR (JM Financial's FY30 view) at better margins; VAR margin back above 19%.",
+   "volumeGrowthDelta": 0,
+   "revenueGrowthDelta": 3,
+   "marginDelta": 0.8,
+   "fadeMarginTo": 17.5
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Post-GST demand fades and CVs turn down; BS-VII is watered down and CAFE-3 delayed; commodity costs are not recovered; the parent raises its charges or moves export programmes elsewhere; VAR margin stuck near 17%.",
+   "volumeGrowthDelta": 0,
+   "revenueGrowthDelta": -5,
+   "marginDelta": -1.2,
+   "fadeMarginTo": 15
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 28,
+      "bull": 29,
+      "bear": 26.5
+     },
+     "why": "How the street values Tenneco India: P/E on one-year-forward EPS (JM Financial 29x FY28E, Motilal Oswal 30x Sep-28E). Multiple derived in TENNIND.ctx.js (own forward P/E median since listing x the auto-component peers' move over the same window) and written by TENNIND.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 15.5,
+      "bull": 16.5,
+      "bear": 15
+     },
+     "why": "Own trailing EV/EBITDA median since listing with the same sector move, restated to Sep-28E EBITDA."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, cost of equity 12.2%, terminal growth 6%."
+    }
+   ]
+  }
+ }
+}

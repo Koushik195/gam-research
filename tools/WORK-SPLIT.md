@@ -27,7 +27,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 ## Engine requests (for Team A)
 
 - Banks need a bank layout in the lender engine (deposits/CASA, fees in other income, CRR/SLR, risk-weighted capital). Until then, Team A writes all banks.
-- December year-end companies (e.g. CASTROLIND, SCHAEFFLER) need December-year support before they can be written.
+- December year-end companies (e.g. CASTROLIND, SCHAEFFLER, CIEINDIA) need December-year support before they can be written.
 - (B, 23-Nov) Excel export fails ("Cannot read properties of undefined") for a segment model without an `esop` array; TMPV works around it with `esop: [0,0,0]`.
 - (B, 23-Nov) `data/models/MARUTI.json` shows an as-of of 23-Oct-2026, not 30-Sep-2026; please check. TMPV used only Maruti's reported EBITDA because of it.
 - (B, 23-Nov) Industrial engine has no share-issue line: a QIP before the as-of date (BHARATFORG, Sep-2026) needs a patch for the post-issue share count, and the QIP cash isn't on the balance sheet.
@@ -35,6 +35,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - (B, 23-Nov) Chart palette has only 4 colours; a fifth series crashes the chart (MOTHERSON sets it explicitly). DCF value and sensitivity grid round to ₹10, coarse for low-priced stocks.
 - (B, 23-Nov) No acquisition line; and Screener back-fills restated quarters after a common-control deal (BOSCHLTD's Sep-2025 and Jun-2026 quarters show the Nov-2026 RBIC restatement), which is look-ahead. BOSCHLTD.patch.js restores the as-reported figures.
 - (B, 23-Nov) Year-end change: MRF's Screener history starts with Sep-2014 and an 18-month Mar-2016 column (MRF.patch.js drops both). Treasury yield applies to net treasury, so income on debt-funded investments must go in `otherIncome`. Small Excel/engine differences can flip the ₹10 rounding of a scenario target. `snap-ic` doesn't check for raw `{{...}}` tokens.
+- (B, 24-Nov) Playbook question: for turnaround stocks the own forward-P/E median (on realised forward EPS) is dragged down by the years before the turnaround, and the trough rule doesn't catch them. FORCEMOT: 9.8x median → SELL ₹8,810 (−48%) vs street ₹21,470, DCF ₹14,921, EV/EBITDA ₹16,427; since-Apr-2024 median 17.5x → ₹17,140. Published per the rule; GAM Research to decide whether the rule needs a turnaround exception.
 - (B, 23-Nov) SOTP parts can only be segment metric × multiple (no P/E-on-PAT part; scenarios only change per-segment inputs); EXIDEIND computes parts in its ctx. Net cash includes strategic stakes (HDFC Life, subsidiaries). No segment-EBIT model (CRAFTSMAN reports EBIT only). Interest isn't linked to the debt path and the summary tables have no interest row; forecast ROCE is effectively pre-tax ROE.
 - (B, 23-Nov) Screener data quirks for recent listings (ATHERENERG): standalone years labelled "Mar 2024 (S)" in tables but "Mar 2024" in schedules (capex/cash blank unless patched); cash-flow rows one year late; a missing quarter. No forward EV/Sales routine; ESOP array only for segment models; the cover's implied P/E row shows for loss-makers.
 
@@ -154,8 +155,8 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - B23 · published except SCHAEFFLER (B, 23-Nov-2026) · UNOMINDA published (HOLD, 1,180), SCHAEFFLER (blocked: December year-end, waits for engine support), ATHERENERG published (SELL, 1,010), MRF published (BUY, 1,46,570), SONACOMS published (SELL, 760)
 - B24 · published (B, 23-Nov-2026) · BALKRISIND published (HOLD, 2,430), TIINDIA published (BUY, 3,680), ENDURANCE published (HOLD, 2,770), EXIDEIND published (HOLD, 400), CRAFTSMAN published (SELL, 8,580)
 - B25 · published (B, 23-Nov-2026) · APOLLOTYRE published (BUY, 540), ZFCVINDIA published (HOLD, 2,590), GABRIEL published (HOLD, 1,290), MSUMI published (BUY, 54), ASAHIINDIA published (SELL, 810)
-- B26 · claimed (B, 23-Nov-2026; FORCEMOT, BELRISE, TENNIND now; OLAELEC, MINDACORP later) · FORCEMOT, BELRISE, TENNIND, OLAELEC, MINDACORP
-- B27 · queued · CIEINDIA, ARE&M, CEATLTD, JBMA, RKFORGE
+- B26 · claimed (B, 23-Nov-2026; FORCEMOT, BELRISE, TENNIND now; OLAELEC, MINDACORP later) · FORCEMOT published (SELL, 8,810), BELRISE published (SELL, 225), TENNIND published (BUY, 620), OLAELEC, MINDACORP
+- B27 · claimed (B, 24-Nov-2026) · CIEINDIA (blocked: December year-end, waits for engine support), ARE&M, CEATLTD, JBMA, RKFORGE
 - B28 · queued · OLECTRA
 
 ### Consumer Services (21)
