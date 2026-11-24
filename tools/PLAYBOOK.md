@@ -201,6 +201,11 @@ close: for short histories compute the series on all weekly closes in your ctx (
   (set excluding self); GLENMARK, BIOCON +8.2% (outside the set). Listed stakes inside an operating
   company's SOTP: 30-Sep market value less 20% (BAJAJ-AUTO / M&M / HEROMOTOCO precedent) unless the
   street clearly does otherwise. Never send a disguised browser user-agent or other changed headers.
+  A21: GLAND, AJANTPHARM, GLAXO +8.2% P/E (+7.5% EV/EBITDA), five-year. ANTHEM (listed Jul-2025):
+  own median since 1-Oct-2025 × same-window move +17.2% P/E (+6.7% EV/EBITDA). EMCURE (listed
+  Jul-2024): own median since 1-Jan-2025 × same-window move +16.0% P/E (+10.8% EV/EBITDA). Any own
+  window shorter than five years (structural break, recent listing) pairs with the peers' move over
+  that same window.
 - Turnarounds (decided 24-Nov-2026, FORCEMOT): when earnings break structurally upward inside the
   window (loss or near-zero EPS to a much higher level) and the trough rule doesn't catch it, the
   since-2021 forward median (on realised forward EPS) is dragged down by the pre-turnaround years.
