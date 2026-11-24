@@ -160,12 +160,12 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - B24 · published (B, 23-Nov-2026) · BALKRISIND published (HOLD, 2,430), TIINDIA published (BUY, 3,680), ENDURANCE published (HOLD, 2,770), EXIDEIND published (HOLD, 400), CRAFTSMAN published (SELL, 8,580)
 - B25 · published (B, 23-Nov-2026) · APOLLOTYRE published (BUY, 540), ZFCVINDIA published (HOLD, 2,590), GABRIEL published (HOLD, 1,290), MSUMI published (BUY, 54), ASAHIINDIA published (SELL, 810)
 - B26 · claimed (B, 23-Nov-2026; FORCEMOT, BELRISE, TENNIND now; OLAELEC, MINDACORP later) · FORCEMOT published (SELL, 8,810), BELRISE published (SELL, 225), TENNIND published (BUY, 620), OLAELEC (built, held: Excel MROUND engine fix needed), MINDACORP published (SELL, 650)
-- B27 · claimed (B, 24-Nov-2026) · CIEINDIA (blocked: December year-end, waits for engine support), ARE&M published (BUY, 1,030), CEATLTD published (HOLD, 3,340), JBMA published (BUY, 760), RKFORGE
+- B27 · published except CIEINDIA (B, 24-Nov-2026) · CIEINDIA (blocked: December year-end, waits for engine support), ARE&M published (BUY, 1,030), CEATLTD published (HOLD, 3,340), JBMA published (BUY, 760), RKFORGE published (SELL, 330)
 - B28 · published (B, 24-Nov-2026) · OLECTRA published (BUY, 1,960)
 
 ### Consumer Services (21)
 
-- B29 · claimed (B, 24-Nov-2026; ETERNAL, DMART, INDHOTEL in progress; TRENT, LENSKART later) · ETERNAL, DMART, TRENT, INDHOTEL, LENSKART
+- B29 · claimed (B, 24-Nov-2026; ETERNAL, DMART, INDHOTEL in progress; TRENT, LENSKART later) · ETERNAL, DMART published (HOLD, 4,040), TRENT, INDHOTEL, LENSKART
 - B30 · queued · MEESHO, NYKAA, NAUKRI, VMM, IRCTC
 - B31 · queued · PWL, ITCHOTELS, JUBLFOOD, URBANCO, EIHOTEL
 - B32 · queued · TBOTEK, DEVYANI, INDIAMART, BLS, LEMONTREE

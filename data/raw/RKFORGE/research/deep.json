@@ -1,0 +1,305 @@
+{
+ "_meta": {
+  "asOf": "2026-09-30",
+  "note": "Industry, peers, street, ownership (Jun-2026), moat, critiques, gaps and conflicts for the Ramkrishna Forgings initiation. Only sources published on or before 30-Sep-2026."
+ },
+ "industry": {
+  "indiaCv": {
+   "fy26RetailUnits": 1060906,
+   "fy26RetailGrowthPct": 11.74,
+   "fy26MhcvProduction": 458506,
+   "fy27OutlookPct": "4-6% (ICRA, as quoted in the FY26 annual report)",
+   "src": "ar26",
+   "published": "2026-08-05"
+  },
+  "usTrucks": {
+   "class8Retail2025": "~2.08-2.10 lakh units, down ~13-14%",
+   "comment": "A 'bottoming' year: weak freight demand, high costs, tariff uncertainty; strong close to the year (AR FY26)",
+   "src": "ar26",
+   "published": "2026-08-05"
+  },
+  "tariffs": "US tariffs on Indian goods and Section 232 duties on truck parts hit FY26 exports (standalone exports -20%, North America -35%); management said in May-2026 that 'the tariff is behind us' and contracts pass currency and steel through with a quarter's lag.",
+  "costs": "Energy (gas, power) and shipping are the main unrecovered costs: shipping +15-20% and transit +15-20 days after the West Asia conflict (Q4FY26 call, May-2026)."
+ },
+ "peers": {
+  "set": [
+   "MOTHERSON",
+   "BOSCHLTD",
+   "UNOMINDA",
+   "SONACOMS",
+   "BHARATFORG",
+   "ENDURANCE",
+   "MSUMI",
+   "SCHAEFFLER",
+   "TIINDIA",
+   "ZFCVINDIA",
+   "GABRIEL"
+  ],
+  "excluded": {
+   "BHARATFORG": "Earnings distorted: exceptional charges in three of the last four quarters (Rs358 cr in Jun-2026, which turned the quarter into a loss), so its ~93x trailing P/E on 30-Sep-2026 sits on depressed EPS (same exclusion as the Bosch, Motherson, Uno Minda, Sona, Craftsman, Belrise and JBM initiations).",
+   "GABRIEL": "No five-year history: Screener's P/E series starts in May-2024 (after Gabriel's restructuring), so there is no five-year median (same exclusion as the other auto-component initiations)."
+  },
+  "self": "RKFORGE itself is left out of the de-rating (its own trailing P/E of ~113x sits on trough FY26 earnings).",
+  "forging": [
+   "BHARATFORG",
+   "HAPPYFORGE",
+   "GNA",
+   "CIEINDIA",
+   "CRAFTSMAN"
+  ],
+  "note": "The auto-component peer set used by the Bosch, Motherson, Uno Minda, Sona, Craftsman, Belrise and JBM Auto initiations (their union), Ramkrishna Forgings itself left out. SCHAEFFLER (December year-end) has P/E history from Feb-2023, ZFCVINDIA from May-2022 and MSUMI from Apr-2022: their medians cover the history available. Forging peers (Bharat Forge, Happy Forgings, GNA Axles, CIE Automotive, Craftsman) are shown in the peer table for reference; Happy Forgings (listed Dec-2023) has no five-year median and CIE reports on December years. Peer multiples at the 30-Sep-2026 close from tools/authoring/asof-peers.js."
+ },
+ "street": {
+  "_note": "Coverage is thin and mostly behind logins. Notes standing on 30-Sep-2026 that we could read: Dalal & Broacha (1-Jun-2026). The S&P Global consensus (via StockAnalysis, 31-Jul-2026) shows four analysts, three Hold and one Sell, average target Rs634 (range Rs550-680); individual names were not shown. Monarch Networth (13-Oct-2026, Buy, Rs806, 27x Sep-28E EPS) and Antique (2-Nov-2026, Buy, Rs872, 13x EV/EBITDA) initiated after our as-of date and are not used.",
+  "postQ1From": "2026-07-24",
+  "brokers": [
+   {
+    "broker": "Dalal & Broacha",
+    "date": "2026-06-01",
+    "rating": "Buy",
+    "tp": 663,
+    "method": "P/E",
+    "multiple": "27x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 14.54,
+     "FY28E": 24.58
+    },
+    "revenue": {
+     "FY27E": 5243.2,
+     "FY28E": 6316.8
+    },
+    "ebitda": {
+     "FY27E": 895.7,
+     "FY28E": 1094.1
+    },
+    "thesis": "Management-meet note: diversification beyond CVs (PV/EV, railways, aluminium forgings), utilisation-led operating leverage, ~200bp margin gain to ~17% by FY28E; 27x for better earnings visibility. Risks: tariffs, leverage.",
+    "src": "https://www.dalalbroacha.com/ClientPortal/Reports/Research/90145c65-f5b9-4aa4-8490-61c8f425bd40.pdf",
+    "stillStanding": "No later note found by 30-Sep-2026"
+   }
+  ],
+  "consensus": {
+   "date": "2026-07-31",
+   "analysts": 4,
+   "rating": "Hold",
+   "split": "3 Hold, 1 Sell",
+   "avgTp": 634,
+   "lowTp": 550,
+   "highTp": 680,
+   "eps": {
+    "FY27E": 13.6,
+    "FY28E": 22.6
+   },
+   "revenue": {
+    "FY27E": 5396
+   },
+   "src": "https://stockanalysis.com/quote/nse/RKFORGE/forecast/",
+   "note": "S&P Global consensus as shown by StockAnalysis; the 31-Jul-2026 average and range come from a dated search extract; the monthly rating split (Jul-Aug 2026: 3 Hold, 1 Sell) and the FY27E/FY28E EPS are from the page's history table (FY28E EPS shown as 'next year' on a later visit, so treat it as indicative)."
+  },
+  "earlier": [
+   {
+    "broker": "Nuvama",
+    "date": "2025-08-04",
+    "rating": "Reduce",
+    "tp": 540,
+    "note": "After Q1FY26; cut from Rs560. No later Nuvama note found.",
+    "src": "https://www.business-standard.com/markets/news/ramkrishna-forgings-share-price-bse-nse-q1-results-profit-revenue-125080400272_1.html"
+   }
+  ],
+  "afterAsOf": [
+   {
+    "broker": "Monarch Networth",
+    "date": "2026-10-13",
+    "rating": "Buy",
+    "tp": 806,
+    "method": "27x Sep-28E EPS",
+    "src": "https://www.aryanage.com/article/47513/ramkrishna-forgings-shares-rally-34-in-2026-as-monarch-sets"
+   },
+   {
+    "broker": "Antique",
+    "date": "2026-11-02",
+    "rating": "Buy",
+    "tp": 872,
+    "method": "13x EV/EBITDA (FY28-29E)",
+    "src": "https://exencialrp.substack.com/p/antique-starts-ramkrishna-forgings"
+   }
+  ]
+ },
+ "ownership": {
+  "asOf": "Jun-2026",
+  "src": "https://ramkrishnaforgings.com/wp-content/uploads/2026/07/Q1-Shareholding-Pattern-Quarter-ended-Jun-2026.pdf",
+  "categories": {
+   "promoters": 43.39,
+   "mutualFunds": 1.91,
+   "otherDii": 3.18,
+   "fpi": 20.43,
+   "publicAndOthers": 30.89,
+   "employeeTrust": 0.2
+  },
+  "named": [
+   [
+    "Riddhi Portfolio Pvt Ltd (promoter)",
+    34.74
+   ],
+   [
+    "Maa Chandi Financial Advisory (formerly Ramkrishna Rail & Infrastructure; promoter group, has asked to be reclassified as public)",
+    3.57
+   ],
+   [
+    "Chaitanya Jalan (promoter; +34 lakh shares from warrants on 24-Sep-2026)",
+    1.67
+   ],
+   [
+    "Naresh Jalan (MD, promoter)",
+    1.52
+   ],
+   [
+    "Rashmi Jalan (promoter)",
+    1.15
+   ],
+   [
+    "Naresh Jalan HUF",
+    0.74
+   ],
+   [
+    "Smallcap World Fund (Capital Group)",
+    5.96
+   ],
+   [
+    "Bhanshali family (Akash, Lata, Payal)",
+    6.3
+   ],
+   [
+    "Blue Daimond Properties",
+    1.57
+   ],
+   [
+    "Old Bridge Focused Fund",
+    1.54
+   ],
+   [
+    "Blue Lotus Investment Fund",
+    1.38
+   ],
+   [
+    "Massachusetts Institute of Technology",
+    1.27
+   ],
+   [
+    "BNP Paribas Financial Markets (ODI)",
+    1.2
+   ],
+   [
+    "LIC New Pension Plus Growth Fund",
+    1.14
+   ],
+   [
+    "Morgan Stanley Asia (Singapore) (ODI)",
+    1.12
+   ],
+   [
+    "Cohesion MK Best Ideas Sub-Trust",
+    1.08
+   ],
+   [
+    "Aadi Financial Advisors LLP",
+    1.02
+   ]
+  ],
+  "pledge": {
+   "shares": 12300000,
+   "pctOfPromoter": 15.56,
+   "pctOfTotal": 6.75,
+   "detail": "Riddhi Portfolio 1.10 cr shares (17.4% of its holding); Naresh Jalan 47% of his 27.65 lakh shares"
+  },
+  "shareholders": 105810,
+  "after": "Smallcap World Fund sold 12.89 lakh shares (~0.7%) in a block in Jul-2026 at Rs573.88 (press reports). The 24-Sep-2026 conversion lifted promoter holding before any reclassification; the Sep-2026 pattern (filed in October) is not used."
+ },
+ "stockEvents": [
+  {
+   "date": "2023-11-13",
+   "event": "QIP at Rs614 (Rs1,000 cr)"
+  },
+  {
+   "date": "2024-10-18",
+   "event": "All-time high on our weekly data: Rs1,021"
+  },
+  {
+   "date": "2025-04-25",
+   "event": "Rs657 before the inventory-discrepancy disclosure; Rs566 two weeks later"
+  },
+  {
+   "date": "2025-06-15",
+   "event": "Fact-finding report: Rs220.5 cr overstatement; promoter warrants at Rs2,100"
+  },
+  {
+   "date": "2025-12-19",
+   "event": "Low of Rs478 (weekly close) after weak FY26 quarters and US tariffs"
+  },
+  {
+   "date": "2026-07-24",
+   "event": "Q1FY27: margin 18%, Rs8,000 cr FY29 target; stock Rs581"
+  },
+  {
+   "date": "2026-08-28",
+   "event": "Rs751 weekly close"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "Close Rs702.3"
+  }
+ ],
+ "moat": [
+  [
+   "Scale and range",
+   "Second-largest Indian forger; 3.96 lakh t capacity across hammer, press, ring rolling, cold/warm forging, castings and machining",
+   "AMBER",
+   "Breadth helps win full-axle and engine programmes, but Bharat Forge is several times larger and smaller rivals (Happy Forgings, GNA) earn higher margins"
+  ],
+  [
+   "Customer relationships",
+   "Long-standing supplier to Indian and North American/European truck makers (customers not named in our sources); programme lives of ~4 years; 109-363 new products developed a year by facility (AR FY26)",
+   "GREEN",
+   "Qualified positions on safety-critical parts are sticky; switching costs are real"
+  ],
+  [
+   "Pricing power",
+   "Steel passed through with a quarter's lag; energy, freight not passed through; FY25-26 margins fell to 14-15%",
+   "RED",
+   "A price-taker with powerful OEM customers"
+  ],
+  [
+   "Cost position",
+   "Jamshedpur cluster near steel suppliers; integrated machining",
+   "AMBER",
+   "FY22-24 margins of 21-22% show what full plants earn; utilisation is the swing factor"
+  ],
+  [
+   "Diversification",
+   "Railways 7.5%, mining/farm 5.9%, PV/EV and aluminium early; wheel JV with an assured Indian Railways offtake",
+   "AMBER",
+   "Still ~75% CV-linked; the wheel JV is the one genuinely protected new business"
+  ]
+ ],
+ "critiques": [
+  "Accounting and controls: a Rs220.5 cr inventory overstatement (FY25, Rs50 cr in FY24) found only at the year-end count; ratings moved to Negative/downgraded; it will take clean years to rebuild trust.",
+  "Repeated over-promising: the Rs8,000 cr revenue target has moved from FY28 to FY29; FY26 revenue grew 5%.",
+  "Capital intensity: Rs2,958 cr of investing cash flow in FY24-26 against Rs1,494 cr of operating cash flow; net debt ~Rs1,900 cr; ROCE 5.6% in FY26.",
+  "Reported EPS is noisy: FY25 EPS of Rs22.9 included a Rs193 cr deferred-tax credit and an Rs83 cr gain from a sold subsidiary; on clean earnings FY25 EPS was ~Rs6.",
+  "Promoter pledge: 15.6% of promoter shares (6.75% of the company) pledged at Jun-2026."
+ ],
+ "gaps": [
+  "Broker notes standing on 30-Sep-2026: only Dalal & Broacha (1-Jun-2026) could be read; the S&P consensus (4 analysts) does not show names. Monarch and Antique initiated after 30-Sep-2026 and are not used.",
+  "The 24-Sep-2026 NSE allotment filing did not load for us; the conversion (34 lakh shares, Rs149.94 cr, 18,55,70,017 shares) is taken from search extracts of that filing and the warrant terms in the FY26 annual report.",
+  "Standalone domestic/export revenue before FY24: only the revenue-mix percentages (FY22-FY26) are disclosed in our sources.",
+  "Forging volumes and realisation by quarter: the presentation charts did not extract cleanly; not used.",
+  "Wheel JV economics (capex, debt, pricing) are not disclosed; our JV share of profit is an estimate from the 40,000/80,000-wheel offtake and the Rs400-450 cr revenue indication.",
+  "Exact date of the Globe All India Services sale (FY25) not in our sources.",
+  "Original (pre-restatement) FY24 accounts: Screener and the company now show FY24 restated for the Rs50.22 cr inventory overstatement; we use the restated figures."
+ ],
+ "conflicts": [
+  "Inventory discrepancy: first estimated at 4-5% of net worth (Apr-2025), finally Rs220.52 cr at Mar-25 and Rs50.22 cr at Mar-24 (~6.7% of net worth); one press report cites ~Rs270 cr (both years added).",
+  "FY25 deferred tax credit: the call transcript quoted ~Rs223 cr; the annual report shows a Rs187.4 cr asset on ACIL's losses plus other items (FY25 consolidated deferred tax credit Rs193.0 cr). We use the annual report.",
+  "Capex guidance FY27: Rs300-400 cr incl. Rs50 cr JV (May-2026) vs ~Rs350 cr (Jul-2026). We use Rs350 cr."
+ ]
+}

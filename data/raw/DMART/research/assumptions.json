@@ -1,0 +1,188 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Avenue Supermarts (DMart), consolidated, Rs crore. FY26 (Mar-2026) is the last reported year; Q1FY27 (Jun-2026, reported 11-Jul-2026) is the last quarter known on 30-Sep-2026. DMart reports one segment. We model revenue as a store build (DMart stores: effective retail area x revenue per sq ft of that area) plus the subsidiaries (consolidated less standalone: mainly DMart Ready, net of purchases from DMart, plus the food-court and other small subsidiaries). The engine runs on revenueGrowth and ebitdaMargin; DMART.ctx.js checks that the build below reproduces both exactly. Minorities are nil (-Rs1.7 cr of equity), so EPS = profit / 65.2 cr shares.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "build": {
+  "_note": "Store build (standalone). Retail business area at year end: 20.6 mn sq ft at Mar-26 (500 stores), 20.7 mn at Jun-26 (503 stores; Q1FY27 presentation). New stores ~40,000 sq ft (FY26: 85 stores added 3.4 mn sq ft). Openings are back-ended (58 of FY26's 85 in Q4; 3 in Q1FY27, 2 more by 28-Jul-2026), so the effective average area = opening area + 30% of the area added in the year (FY26 actual: the average of the quarterly averages of 17.2 / 17.6 / 17.9 / 18.3 / 20.6 mn = 18.18 mn sq ft, equal to opening + 29% of the year's additions). Revenue per effective sq ft FY26 = Rs66,968 cr / 18.18 mn = Rs36,836 (our measure; the company's own measure on year-end area was Rs33,422 in FY26 vs Rs33,896 in FY25).",
+  "base": {
+   "fy": "FY26",
+   "stores": 500,
+   "areaClose": 20.6,
+   "areaEff": 18.18,
+   "standaloneRev": 66968,
+   "standaloneEbitda": 5255,
+   "subsRev": 1853,
+   "subsEbitda": -66
+  },
+  "storeAdds": [
+   75,
+   85,
+   95
+  ],
+  "sqftPerNewStore": 0.04,
+  "phasing": 0.3,
+  "revPerSqftGrowth": [
+   -2.5,
+   1,
+   1.5
+  ],
+  "_revPerSqftWhy": "Revenue per effective sq ft fell ~3% y/y in Q1FY27 (Rs18,343 cr on ~20.65 mn sq ft vs Rs15,932 cr on ~17.4 mn): like-for-like growth slowed to 5.5% (7.1% a year earlier) and the 58 stores opened in Q4FY26 are still ramping up. Metro stores are near capacity and losing small baskets to quick commerce (management, 28-Jul-2026 analyst meet: same-store growth to stay around last year's ~8%, older metro stores flat in Q1 per Emkay/GS). FY27E -2.5%: LFL ~6-7% against ~9% dilution from the young store base; FMCG price increases are passed through. FY28E +1% and FY29E +1.5% as the FY26 cohort matures; new stores in Tier 2-3 towns are less productive than metro stores (management).",
+  "subsGrowth": [
+   5,
+   8,
+   10
+  ],
+  "_subsWhy": "Consolidated less standalone revenue: Rs1,853 cr in FY26, Rs452 cr in Q1FY27 (+5.6% y/y). DMart Ready (Avenue E-Commerce, Rs4,094 cr of sales in FY26, +17%) left 7 cities in FY26-27 and now serves 11; its revenue grew only ~5% in Q1FY27 (Citi, Nuvama). FY27E +5%, FY28E +8%, FY29E +10%.",
+  "standaloneMargin": [
+   7.8,
+   7.9,
+   8
+  ],
+  "subsEbitda": [
+   -60,
+   -30,
+   0
+  ],
+  "_marginWhy": "Standalone EBITDA margin 7.85% in FY26 (7.86% FY25); Q1FY27 8.3% (8.2% a year earlier): gross margin +~50 bp, but staff cost +30%+ (capability build, wage code from Dec-2025). Management (28-Jul-2026): gross margin 14-15% and net margin ~5% are the 'North Star'; savings are passed to customers. FY27E 7.8% (new-store overheads of the 58 Q4FY26 stores, wage inflation), FY28E 7.9%, FY29E 8.0% as new stores ramp. Subsidiaries' EBITDA -Rs66 cr in FY26 (DMart Ready -Rs185 cr, packing and food-court subsidiaries positive); Q1FY27 -Rs28 cr. Exiting 7 cities should narrow the loss: -Rs60 / -30 / 0 cr. HSIE (4-Aug-2026, standalone) 7.8 / 7.9 / 8.0%; MOSL (28-Jul-2026) consolidated ~7.6 / 7.7 / 7.8%."
+ },
+ "revenueGrowth": [
+  15.0278,
+  15.4686,
+  15.8736
+ ],
+ "_revenueWhy": "From the store build (checked in DMART.ctx.js): standalone revenue +15.3% / +15.7% / +16.0% (effective area +18.3% / +14.5% / +14.3%, revenue per sq ft -2.5% / +1% / +1.5%) plus subsidiaries +5% / +8% / +10%. Store additions of 75 / 85 / 95 follow management's internal benchmark of ~15% of the store base a year (28-Jul-2026), MOSL 75 / 85 / 90 and HSIE 75-85. Q1FY27 consolidated revenue +14.9%. Street FY27E consolidated revenue: MOSL Rs81,100 cr, PL Rs81,302 cr (we are ~2% lower).",
+ "ebitdaMargin": [
+  7.5325,
+  7.6856,
+  7.8254
+ ],
+ "_marginWhy": "From the build: standalone EBITDA plus subsidiaries' EBITDA over consolidated revenue. FY26 7.54%, Q1FY27 8.0% (Q1 is seasonally strong; Q4 weakest). See build._marginWhy.",
+ "capex": [
+  4300,
+  4700,
+  5100
+ ],
+ "_capexWhy": "Consolidated capex Rs4,113 cr in FY26 (Rs3,423 cr FY25), mostly land and buildings for owned stores; capital commitments Rs5,294 cr at Mar-26 (Rs4,299 cr a year earlier) for sites under construction (AR FY26 note 39). DMart owns ~86% of its stores (68 of 500 leased); land is bought 2-3 years before opening (management). FY27E Rs4,300 cr, FY28E Rs4,700 cr, FY29E Rs5,100 cr for 75 / 85 / 95 stores a year plus distribution centres (84 at Mar-26). PL (28-Jul-2026) expects ~Rs4,300 cr by FY29 on fewer stores.",
+ "depRateOnGrossBlock": 4.6,
+ "_depWhy": "FY26 depreciation Rs1,037 cr (incl. right-of-use assets) on average gross block; Q1FY27 Rs288 cr (Rs1,152 cr annualised). Land (~40-50% of the block, not depreciated) keeps the rate low. The engine depreciates new capex at once and holds CWIP (Rs1,300 cr) flat.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "DMart turned net debt in FY26: Rs965 cr of commercial paper and short-term loans plus Rs1,460 cr of lease liabilities against Rs308 cr of cash, deposits and investments at Mar-26 (consolidated balance sheet). The engine treasury is negative and earns nothing; other income is set below.",
+ "otherIncome": [
+  80,
+  75,
+  75
+ ],
+ "_otherIncomeWhy": "AR FY26 consolidated note 28 (Rs74 cr): interest on deposits and advances Rs54 cr, gain on sale of current investments Rs4 cr, rent Rs5 cr, FX gain Rs7 cr, miscellaneous Rs4 cr (FY25 Rs124 cr when cash was larger). Screener trailing four quarters to Jun-26 Rs81 cr (Q1FY27 Rs26 cr). FY27E Rs80 cr, then Rs75 cr as cash stays low.",
+ "interest": [
+  250,
+  300,
+  340
+ ],
+ "_interestLabel": "Finance cost (lease interest plus commercial paper / NCDs)",
+ "_interestWhy": "FY26 Rs142 cr: lease interest Rs121 cr, other Rs21 cr (AR note 31). Q1FY27 Rs54 cr (Rs216 cr annualised). Lease liabilities rose to Rs1,460 cr (Rs820 cr) as 15 of FY26's 85 stores were leased; borrowings may reach ~Rs2,000 cr by Mar-27 (CFO, 28-Jul-2026; Rs1,000 cr NCD approved). FY27E Rs250 cr, FY28E Rs300 cr, FY29E Rs340 cr.",
+ "taxRate": [
+  27,
+  27,
+  26.5
+ ],
+ "_taxWhy": "FY26 27.2% (Rs1,112 cr on Rs4,082 cr; standalone 25.3%); DMart Ready's losses get no tax credit. Q1FY27 27%.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "DMart has never paid a dividend; all cash goes into stores.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.75,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 8,
+  "fadeCapexPctTo": 3.5,
+  "depPctOfSales": 1.6,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Staples retail: earnings far steadier than the market. Debt (~Rs2,400 cr incl. leases) is ~1% of market value, so the cost of equity (11%) is the WACC.",
+  "_tgWhy": "Organised retail is ~13% of Indian retail (CRISIL via AR FY26) and grows ~15% a year; a 6% nominal terminal rate (house range 5-6%) after 15 years of fade.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~16% (FY29E) to 9% over 15 years as store additions slow relative to the base.",
+  "_fadeMarginWhy": "EBITDA margin fades to 8.0%: FY20-26 consolidated 7.2-8.6% (median ~8%); management will not expand margin at the customer's expense.",
+  "_fadeCapexWhy": "Capex fades from ~5% of revenue to 3.5% as the share of new stores in the base falls; depreciation 1.6% of revenue (FY26 1.5%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Store additions run at 90-100 a year (leases fill gaps in NCR and the south), same-store growth returns to ~9-10% on FMCG inflation and Tier 2 ramp-up, DMart Ready breaks even in its 11 cities, and gross margin holds at the top of the 14-15% band.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 0.3,
+   "fadeMarginTo": 8.5,
+   "volumeGrowthDelta": 0
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Quick commerce takes the small and mid-sized baskets in metros and spreads to the next 50-100 cities; like-for-like growth falls to 3-4%, new stores ramp slowly, land delays cut additions to ~60 a year, and DMart cuts prices to defend traffic.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -0.5,
+   "fadeMarginTo": 7.2,
+   "volumeGrowthDelta": 0
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 61.5,
+      "bull": 88.5,
+      "bear": 55.5
+     },
+     "why": "How the street values DMart: one-year-forward P/E, directly or as the stated equivalent of DCF / EV/EBITDA targets (JM 65x Mar-28E; HSIE DCF = 58x Jun-28E; Emkay DCF = 54x FY28E standalone; MOSL 35x EV/EBITDA = ~60x Sep-28E). Multiple derived (DMART.ctx.js): DMart forward P/E median since Apr-2021 88.4x (no trough years) x (1 - 30.2% retail-sector de-rating at 30-Sep-2026: Trent -47.3%, Metro Brands -29.1%, Bata -30.3%, Page -30.1%) = 61.7x, nearest half-turn 61.5x. Bull 88.5x (no de-rating); bear 55.5x (25th percentile 79.3x de-rated)."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 31.5,
+      "bull": 45,
+      "bear": 28
+     },
+     "why": "Cross-check (MOSL uses 35x Sep-28E EV/EBITDA): DMart trailing EV/EBITDA median since Apr-2021 (64.2x) x the same sector factor x trailing-to-Sep-28E EBITDA (0.704) = 31.5x; values the store business and deducts net debt incl. leases."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether 15 years of store-led cash flows support the price: FCFF at 11% cost of capital, terminal growth 6%."
+    }
+   ]
+  }
+ }
+}

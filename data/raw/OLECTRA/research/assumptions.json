@@ -1,0 +1,183 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Olectra Greentech, consolidated, Rs crore, Screener basis (Screener's other income includes the share of profit of the Evey Trans SPV associates). Revenue growth and EBITDA margin come from the two-segment build below (vehicles x revenue per vehicle for the Mobility Division; growth for the Energy Division; segment EBIT as the company reports it), synced by OLECTRA.ctx.js: EBITDA = segment EBIT - bridge + model depreciation, where the bridge is the other income that the company books inside segment results. Net profit is attributable (OLECTRA.patch.js); minorities (~Rs2 cr) are carried in the tax rate.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  28.907,
+  30.609,
+  18.627
+ ],
+ "_revenueWhy": "From the segment build. FY27E: 1,850 vehicles (Q1FY27 358; management guides 2,000-2,500 with ~500 in Q2 and 600-700 in Q4, but delivered only 64% of its ~2,000 FY26 target) at Rs1.40 cr of Mobility revenue per vehicle (Q1FY27 Rs1.38 cr, FY26 Rs1.55 cr; more 9-metre TGSRTC buses), insulators +20%. FY28-29E: 2,400 / 2,800 vehicles as the 5,000-a-year Seetharampur plant fills on an ~8,000-bus order book (MSRTC ~4,000, BEST ~2,000, TGSRTC 1,085, BMTC 700) and the e-truck starts.",
+ "ebitdaMargin": [
+  12.422,
+  12.73,
+  12.7
+ ],
+ "_marginWhy": "From the segment build: Mobility EBIT 9.0% / 9.5% / 9.5% (FY25 11.9%, FY26 9.8%, Q1FY27 8.2%) and insulators 24% (FY25 25.6%, FY26 34.5%, Q1FY27 22.1%). Screener-basis EBITDA margin FY26 14.3%, Q1FY27 11.8%; management's band is 12-15%, normalising to 10-12% in the long run.",
+ "capex": [
+  250,
+  250,
+  150
+ ],
+ "_capexWhy": "Q1FY27 call: ~Rs450 cr for new bus and truck platforms and ~Rs150 cr of infrastructure; Q4FY26 call: ~Rs400 cr over FY27-28; e-truck ~Rs400 cr over two years (overlapping). FY25 Rs177 cr, FY26 Rs159 cr. We take Rs250 / 250 / 150 cr.",
+ "depRateOnGrossBlock": 7,
+ "_depWhy": "Set in OLECTRA.ctx.js check: the Seetharampur plant was capitalised from 31-Dec-2025; Q1FY27 depreciation Rs14.6 cr (Rs58 cr a year) against Rs44.8 cr in FY26.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net debt; cash is mostly margin money and the investments are equity in Evey Trans SPVs, so no treasury yield. Interest on deposits and the associates' share of profit are in otherIncome.",
+ "otherIncome": [
+  20,
+  22,
+  24
+ ],
+ "_otherIncomeWhy": "Built, not plugged. FY26 Rs22.4 cr (Screener) = interest Rs11.2 cr (mostly on margin-money deposits) + FX gain Rs2.1 cr + miscellaneous Rs1.0 cr (AR FY26 note 23) + share of associates' profit Rs8.1 cr. Q1FY27 Rs4.7 cr (other income Rs2.1 cr + associates Rs2.5 cr); four quarters to Jun-26 Rs20 cr. FY27E Rs20 cr: deposit interest ~Rs10 cr, associates ~Rs10 cr, no FX gain assumed; associates' share rises with the SPV fleets in FY28-29E.",
+ "interest": [
+  95,
+  110,
+  115
+ ],
+ "_interestLabel": "Finance costs (working-capital loans, plant term loan, bank charges)",
+ "_interestWhy": "FY26 Rs61 cr after Rs13.7 cr was capitalised into the new plant; Q1FY27 Rs23.6 cr (+97%) once capitalisation stopped and working-capital loans rose. FY27E Rs95 cr (Q1 x4); Rs110-115 cr in FY28-29E as working capital and the platform/truck capex lift net debt in our model.",
+ "taxRate": [
+  26.5,
+  26.5,
+  26.5
+ ],
+ "_taxWhy": "Effective tax plus the minority share: FY26 27.9% (tax 27.1% + minorities 0.8%), FY25 26.1%, Q1FY27 25.3%. 26.5%.",
+ "payout": [
+  3,
+  3,
+  3
+ ],
+ "_payoutWhy": "FY26 dividend Rs0.60 a share on EPS Rs21.62 (2.8%); FY25 Rs0.40.",
+ "build": {
+  "_note": "Two-segment build (Rs crore). FY26 base = AR FY26 note 34. Mobility revenue = vehicles x revenue per vehicle (includes services, spares and bus-operation revenue). Segment EBIT is profit before interest and tax as reported; it includes other income and the associates' share, so bridge = otherIncome (FY24 Rs19 cr, FY25 Rs14 cr, FY26 Rs22 cr, Q1FY27 Rs5 cr: see OLECTRA.ctx.js).",
+  "base": {
+   "fy": "FY26",
+   "units": 1280,
+   "mobRev": 1986.72,
+   "enRev": 325.44
+  },
+  "units": [
+   1850,
+   2400,
+   2800
+  ],
+  "revPerUnit": [
+   1.4,
+   1.43,
+   1.46
+  ],
+  "enGrowth": [
+   20,
+   18,
+   15
+  ],
+  "mobMargin": [
+   9,
+   9.5,
+   9.5
+  ],
+  "enMargin": [
+   24,
+   24,
+   24
+  ],
+  "_why": "Vehicles: FY26 1,280 (+32%); Q1FY27 358 (+122%). Guidance 2,000-2,500 for FY27; Olectra delivered 64% of its FY26 target (~2,000 guided, 1,280 delivered; MSRTC deliveries ~1,200 of 5,150 by Apr-2026), so 1,850 / 2,400 / 2,800 (FY29E = 56% of the 5,000 plant). Revenue per vehicle Rs1.40 / 1.43 / 1.46 cr (FY26 Rs1.55 cr, Q1FY27 Rs1.38 cr; more 9-metre buses in the TGSRTC/BMTC orders, trucks from Q4FY27). Mobility EBIT 9.0% / 9.5% / 9.5%: Q1FY27 8.2%, FY26 9.8%, FY25 11.9%; tender pricing and a new plant's fixed costs offset softer raw materials. Insulators: FY26 +81% (Rs325 cr) with a 34.5% EBIT margin, Q1FY27 +47% but 22.1%; management targets 5x revenue in three years (new products, capacity, exports): +20% / +18% / +15% at 24%."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.15,
+  "terminalGrowth": 6,
+  "years": 10,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 11,
+  "fadeCapexPctTo": 3,
+  "depPctOfSales": 2.2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Tender-driven volumes, one group customer (Evey) for most sales, technology dependence on BYD and a small-cap retail-held stock. Net debt is small (~2-5% of enterprise value), so WACC is close to the cost of equity; beta 1.15 gives 13.4%.",
+  "_tgWhy": "House range 5-6%: 6%, as bus electrification has decades to run (penetration ~5-7% in FY26).",
+  "_fadeGrowthWhy": "Revenue growth fades from ~18% to 9% over ten years.",
+  "_fadeMarginWhy": "EBITDA margin 11% in steady state: management's own long-run band is 10-12%.",
+  "_fadeCapexWhy": "Capex 3% of revenue (FY24-26: 7-15% while the plant was built); depreciation 2.2%. Working capital stays at ~30% of revenue (the engine holds the FY26 ratio)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Deliveries hit guidance (2,300+ in FY27E, 3,500 by FY29E) as MSRTC, BEST and TGSRTC buses flow from the new plant, e-trucks find MEIL and outside buyers, and insulators keep FY26-like margins: growth ~8pp a year higher and EBITDA margin +1pp.",
+   "revenueGrowthDelta": 8,
+   "marginDelta": 1,
+   "fadeMarginTo": 12
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Execution slips again (depots, BYD parts, Evey's funding), MSRTC or another STU cancels part of an order, Evey pays more slowly so Olectra borrows more, and tender prices squeeze margins: growth ~10pp a year lower and EBITDA margin -1.5pp.",
+   "revenueGrowthDelta": -10,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 10
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 60,
+      "bull": 64.5,
+      "bear": 46
+     },
+     "why": "How the street and the market value Olectra: P/E on forward EPS (Geojit, the only broker with published calls, valued it on P/E; no broker note dated Sep-2025 to Sep-2026 found). Multiple derived in tools/authoring/OLECTRA.ctx.js: own one-year-forward P/E median since Apr-2021 (no trough years) times the auto-OEM sector de-rating at 30-Sep-2026 (PLAYBOOK 4, 7c), nearest half-turn; written by syncMultiples()."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 29.5,
+      "bull": 31.5,
+      "bear": 21.5
+     },
+     "why": "Separates the operating business from net debt. Multiple derived in OLECTRA.ctx.js from the stock's own trailing EV/EBITDA median since Apr-2021 and the same sector move, restated from trailing to Sep-28E EBITDA; net debt (SPV equity at book counted as investments) deducted."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 10-year FCFF at 13.4% (cost of equity, close to WACC with little debt) and 6% terminal growth, less net debt. Working capital stays at ~30% of revenue."
+    }
+   ]
+  }
+ },
+ "esop": [
+  0,
+  0,
+  0
+ ]
+}

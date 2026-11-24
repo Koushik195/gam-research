@@ -1,0 +1,77 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, peers, street, ownership, events, moat, critiques, gaps and conflicts for Olectra Greentech. Sources dated on or before 30-Sep-2026 only; keys in src refer to company.json sources unless a URL is given." },
+ "industry": {
+  "size": "Indian bus sales 35,000-50,000 a year historically, ~67,000 in FY26 (KPMG, Mar-2026, in AR FY26 MD&A; buses above 7 m). E-buses: 0.6k (FY20), 1.2k (FY22), 3.7k (FY24), 3.5k (FY25), 4.9k (FY26), over 90% bought by state transport undertakings on gross-cost contracts. The company puts FY26 domestic e-bus sales at 5,423 (+~30%) and penetration at 4.7% (9-12 m buses ~9%).",
+  "pipeline": "~46,000 e-buses awarded for deployment over 2-3 years (KPMG in AR FY26); over 10,000 more tenders expected in the next 12 months (company, Jun-2026). Schemes: PM e-Bus Sewa (10,000 buses in 169 cities), PM E-DRIVE (CESL tenders, e.g. 1,085 TGSRTC, 700 BMTC), FAME-II earlier. Penetration could reach 35-40% by FY35 (industry estimate quoted in AR FY26).",
+  "competition": "Tata Motors (now TML CV), Ashok Leyland's Switch Mobility, PMI Foton, JBM (Solaris platform), EKA, Pinnacle and others (ICRA, Oct-2025). Tenders are priced per kilometre, so the operator (often the maker's group company) carries the contract; makers compete on price per km, financing and delivery.",
+  "insulators": "Indian insulator market ~US$0.5 bn (FY25, AR FY26); demand from 500 GW renewables integration, inter-state transmission and railway electrification. Olectra's Energy Division sells composite polymer insulators to PGCIL, EPC contractors (Kalpataru, L&T) and exports (~37% of FY26 division revenue: Nepal, Niger, Mozambique, Malawi, Tunisia).",
+  "src": "ar26, icra"
+ },
+ "peers": {
+  "set": ["MARUTI", "M&M", "BAJAJ-AUTO", "EICHERMOT", "HEROMOTOCO", "TVSMOTOR", "ASHOKLEY", "ESCORTS"],
+  "excluded": {
+   "BAJAJ-AUTO": "Earnings distorted: the Mar-2026 quarter carries ~Rs1,894 cr of other income when Bajaj took control of KTM, and KTM is consolidated from that quarter, so its trailing P/E on 30-Sep-2026 sits on an inflated TTM EPS (same treatment as the Eicher, Hyundai and Force Motors initiations).",
+   "ESCORTS": "Earnings distorted: a Rs1,085 cr exceptional gain on selling the railway-equipment business (Jun-2025 quarter) depressed its trailing P/E series, and the company that remains is not the one in its five-year median (PLAYBOOK 7c)."
+  },
+  "extra": ["JBMA"],
+  "notSelf": "OLECTRA is not in the set (PLAYBOOK 7c: exclude the company itself). Why auto OEMs: Screener classifies Olectra under Automobiles and its peer list is vehicle makers (Maruti, M&M, Hyundai, Tata Motors PV, Force Motors); ICRA rates it under its commercial-vehicles methodology and names Tata Motors and Ashok Leyland as competitors; it sells finished vehicles. The auto-component set (used for JBM Auto) is not the street's grouping for Olectra. Hyundai and the Tata Motors demerged companies have no five-year P/E history and are not peers for the five-year de-rating.",
+  "extraNote": "JBM Auto, the other listed e-bus maker, is shown in the peer table and as a sensitivity, not in the de-rating set (it is valued with the auto-component set, and its own P/E history is an e-bus re-rating too).",
+  "note": "House auto-OEM set (PLAYBOOK 7c; median move at 30-Sep-2026 -6.9%). Multiples at the 30-Sep-2026 close from tools/authoring/asof-peers.js."
+ },
+ "street": {
+  "_note": "Coverage is very thin. Trendlyne lists six notes on Olectra, all from Geojit BNP Paribas; the latest is dated 21-Aug-2025 (Accumulate, target Rs1,732, a 12-month target that had expired by our as-of date; the excerpt gives the FY26 delivery plan of ~2,000 buses and the 10,000-bus order book but no multiple). An earlier Geojit target (Rs1,485, 11-Feb-2025) is said by a TipRanks listing to be 37x FY27E EPS; we could not confirm that from the note and do not use it. The only target published between Jan and Sep 2026 that we found is from Uniresearch Global (a SEBI-registered research analyst linked to Univest): Rs1,750 base, Rs2,010 bull, Rs1,370 bear, on estimates as of 29-Jun-2026 (page updated 2-Jul-2026, price then ~Rs1,522), with no multiple or EPS disclosed. Nomura and Axis Capital hosted the company's calls in 2024-25; we found no published targets from them.",
+  "brokers": [
+   { "broker": "Geojit BNP Paribas", "date": "2025-08-21", "rating": "Accumulate", "tp": 1732, "method": "P/E (multiple not shown in the public excerpt)", "multiple": null, "on": "FY27E (inferred)", "thesis": "Order book >10,000 buses; ~2,000 deliveries planned in FY26, back-ended; risk: chassis and battery supply.", "standing": false, "standingNote": "12-month target expired before 30-Sep-2026; no later Geojit note on Trendlyne.", "src": "https://trendlyne.com/posts/5275671/olectra-greentech-limited" },
+   { "broker": "Uniresearch Global (Univest)", "date": "2026-07-02", "rating": "Positive (12-month target)", "tp": 1750, "method": "Fundamental estimate (FY27 growth, margin normalisation, sector re-rating); multiple not disclosed", "multiple": null, "on": "FY27E", "thesis": "Revenue growth and margin recovery re-rate the stock; bull Rs2,010, bear Rs1,370.", "standing": true, "src": "https://univest.in/blogs/olectra-greentech-share-price-target-2026-2" }
+  ],
+  "methodView": "The only broker with a published history of calls (Geojit) values Olectra on P/E, and the market quotes it on P/E; we therefore value it on P/E on one-year-forward EPS at the target date (Sep-28E = half FY28E + half FY29E), with EV/EBITDA and a DCF as cross-checks. We could not confirm from a note dated on or before 30-Sep-2026 that the street uses FY28E specifically; Sep-28E is the house convention for a 12-month target."
+ },
+ "ownership": {
+  "asOf": "Jun-2026",
+  "categories": { "promoters": 50.02, "fii": 7.95, "dii": 0.58, "public": 41.47, "shareholders": 433537 },
+  "named": [["MEIL Holdings Ltd (promoter)", 50.02]],
+  "namedNote": "AR FY26 note 15 (Mar-2026; unchanged at Jun-2026 per the shareholding pattern summary on Screener). Non-promoter holders above 1% at Jun-2026: not collected (see gaps).",
+  "trend": "Promoter stake unchanged at 50.02% for at least twelve quarters. FIIs 5.4% (Mar-2025) to 7.95% (Jun-2026); DIIs below 1% throughout; shareholders fell from ~525,000 (Mar-2025) to ~434,000 (Jun-2026).",
+  "src": "Screener.in shareholding (BSE filings); ar26"
+ },
+ "stockEvents": [
+  ["2023-07", "MSRTC 5,150-bus LoI: shares +20% (Bajaj Broking, 27-May-2025)."],
+  ["2024-02", "All-time high ~Rs2,034 (Screener weekly close)."],
+  ["2025-05-26", "Maharashtra minister orders the MSRTC contract cancelled after missed deadlines; a revised schedule follows (FPJ)."],
+  ["2026-03-20", "Shares +26% from a 52-week low of ~Rs880 on heavy volume; company clarification (Business Today headline)."],
+  ["2026-06-01", "Q4FY26 results and dividend: shares +9% to ~Rs1,290 (Business Today)."],
+  ["2026-06-19", "Shares ~Rs1,500 after a ~20% three-day rally (Univest)."],
+  ["2026-08-14/17", "Q1FY27: revenue +66%, attributable profit flat, EBITDA margin down; guidance cut from 2,500 to 2,000-2,500 vehicles (Sahi)."],
+  ["2026-09-30", "Close Rs1,134.2: −27% in a year, −44% from the Feb-2024 peak."]
+ ],
+ "moat": {
+  "verdict": "A narrow, execution-dependent position, not a moat. Olectra has a real installed base (3,800+ vehicles), BYD technology and a plant that can make 5,000 vehicles a year, and its group company Evey wins large gross-cost contracts. But the technology is licensed, tenders are won on price per km by the operator, and the bus maker's margin is set inside a group deal. The insulator business has better economics (25-35% EBIT) but is small.",
+  "src": "GAM Research from ar26, icra"
+ },
+ "critiques": [
+  "Most revenue is sold to companies controlled by its own parent: 75% of FY26 revenue went to related parties (mainly Evey Trans SPVs), and 72% of trade receivables were owed by them at Mar-26.",
+  "Prices to Evey are set by 'comparable market benchmarking' and were 'jointly worked out' with Evey before bidding; minority shareholders cannot see Evey's accounts or its contract economics.",
+  "Execution has repeatedly missed guidance: ~2,000 vehicles guided for FY26, 1,280 delivered; MSRTC deliveries ~1,200 of 5,150 by Apr-2026 after a cancellation threat in May-2025.",
+  "Olectra carries part of its customers' risk: an REC letter-of-comfort undertaking tied to Evey's loans (Rs272 cr at Mar-25) and receivables that depend on Evey drawing down project debt and STUs paying.",
+  "Profit growth has lagged revenue: FY26 revenue +28%, Mobility EBIT +1%; Q1FY27 revenue +66%, attributable profit flat, as interest doubled after the new plant was capitalised.",
+  "The insulator division earned 37% of FY26 segment EBIT on 14% of revenue; its Q1FY27 margin fell to 22% from 38% in Q4FY26, so FY26 group margins flattered the bus business.",
+  "Dependence on BYD (China) for batteries, chassis and parts is a geopolitical and supply risk (ICRA)."
+ ],
+ "gaps": [
+  "Broker notes: no note with a disclosed multiple and earnings year dated on or before 30-Sep-2026; the street table has one standing target (Uniresearch, method not disclosed) and one expired Geojit target.",
+  "Q1FY27 and Q4FY26 call transcripts: the company's transcript links (olectra.com) no longer resolve after its website redesign; we used press (Sahi, 18-Aug and 3-Sep-2026) and Sovrenn summaries.",
+  "Order book in rupees, by customer and by delivery year: not disclosed (only 'over 8,000' buses, incl. ~4,000 MSRTC and ~2,000 BEST, per call summaries).",
+  "Evey Trans and its SPVs' accounts (revenue, debt, receivables from STUs): not disclosed; we cannot check Evey's ability to pay.",
+  "Jun-2026 balance sheet: not published (half-yearly); we use Mar-26.",
+  "Named non-promoter holders above 1% at Jun-2026: not collected.",
+  "ICRA rationale after Oct-2025: not found; AR FY26 says the ICRA outlook was revised to Positive and India Ratings is A-/Positive.",
+  "Q2FY25 and Q2FY26 insulator segment figures are derived (nine months less Q1 and Q3)."
+ ],
+ "conflicts": [
+  "Market share: '20%+' (AR FY26 MD&A), ~24% (1,280 of 5,423 units), 'over 30%' (Q1FY27 call press summary).",
+  "FY27 delivery target: 2,500 (1-Jun-2026 call) vs 2,000-2,500 (17-Aug-2026 call).",
+  "Order book: ~10,000 buses (Mar-26, AR FY26) vs 'over 8,000' (Aug-2026 call); the difference is mostly deliveries.",
+  "Plant capacity: '5,000 units/year' (presentations) vs '2,500 per shift' and a Phase II to 5,000 by March-end (press summary, 3-Sep-2026).",
+  "Capex: ~Rs400 cr over FY27-28 (Jun-2026 call) vs ~Rs450 cr platforms + ~Rs150 cr infrastructure and ~Rs400 cr for trucks over two years (Aug-2026 press summaries); some overlap is likely."
+ ]
+}
