@@ -1,0 +1,343 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "Segment-driven model (as MEESHO/SWIGGY): each segment's NTV grows; revenue and adjusted EBITDA (company definition, after rent) are % of NTV. Reported EBITDA = Σ segment adjusted EBITDA + rent added back − KSA JV loss − ESOP. Valued on a sum of the parts on Sep-28E (roll FY28E/FY29E 50:50). ₹ crore.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "roll": [
+  "FY28E",
+  "FY29E",
+  0.5
+ ],
+ "segments": [
+  {
+   "key": "ics",
+   "name": "India consumer services (ex-InstaHelp)",
+   "driverLabel": "NTV",
+   "base": 3167,
+   "growth": [
+    24,
+    20,
+    18
+   ],
+   "revPct": [
+    34,
+    34,
+    34
+   ],
+   "marginPct": [
+    5.6,
+    6.8,
+    7.8
+   ],
+   "hist": {
+    "driver": "icsNtv",
+    "revenue": "icsRev",
+    "adjEbitda": "icsAe"
+   },
+   "_why": "NTV +19% in FY26 and +29% in Q1FY27, the fourth quarter of acceleration (10% → 19% → 21% → 26% → 29%), helped by a rain-hit Q1FY26 base (+10%). Users +21%, spend per user +7%, Tier 2 cities +36%. Management gives no growth guidance. We use 24% / 20% / 18% (20.7% a year FY26-29E), close to Emkay (19.8%) and above Ambit (18%) and MOSL (17%).",
+   "_revWhy": "Revenue was 34.3% of NTV in FY26 and 33.7% in Q1FY27 (commission, fees and B2B2C product sales to partners). We hold 34%.",
+   "_marginWhy": "Adjusted EBITDA 4.1% of NTV in FY26 (3.3% in FY25) and 6.9% in Q1FY27 (+170 bp YoY; Q1 is the seasonal high). Steady-state target 9-10% \"over the next few years\". We assume +150 bp in FY27E (5.6%), then 6.8% and 7.8%: about 120 bp a year, below the pace of FY25-26 and short of the target by FY29E."
+  },
+  {
+   "key": "intl",
+   "name": "International (UAE, Singapore)",
+   "driverLabel": "NTV",
+   "base": 700,
+   "growth": [
+    50,
+    35,
+    28
+   ],
+   "revPct": [
+    27,
+    27,
+    27
+   ],
+   "marginPct": [
+    1.5,
+    3,
+    4.5
+   ],
+   "hist": {
+    "driver": "intlNtv",
+    "revenue": "intlRev",
+    "adjEbitda": "intlAe"
+   },
+   "_why": "NTV +75% in FY26 and +76% in Q1FY27 (+58% in constant currency; the weaker rupee added ~18 pp). UAE demand fell 15-20% in late Mar-2026 with the Middle East conflict. We assume 50% / 35% / 28%.",
+   "_revWhy": "Revenue 26.4% of NTV in FY26, 27.4% in Q1FY27; 27%.",
+   "_marginWhy": "Adjusted EBITDA turned positive in FY26 (₹6 cr, 0.9% of NTV; 1.3% in Q1FY27), with contribution margin steady at 17-18%. Operating leverage lifts it to 1.5% / 3% / 4.5%; management wants growth over margins here."
+  },
+  {
+   "key": "native",
+   "name": "Native (water purifiers, smart locks)",
+   "driverLabel": "NTV",
+   "base": 345,
+   "growth": [
+    45,
+    35,
+    30
+   ],
+   "revPct": [
+    79,
+    79,
+    79
+   ],
+   "marginPct": [
+    -5,
+    0,
+    3
+   ],
+   "hist": {
+    "driver": "nativeNtv",
+    "revenue": "nativeRev",
+    "adjEbitda": "nativeAe"
+   },
+   "_why": "NTV +122% in FY26 and +51% in Q1FY27 (growth slowing from a small base); new purifier and lock models launched in Q1FY27. We assume 45% / 35% / 30%.",
+   "_revWhy": "Revenue 77% of NTV in FY26 (products are sold, not commissioned) and 80% in Q1FY27; 79%.",
+   "_marginWhy": "Loss narrowed from −25.1% of NTV (FY25) to −8.9% (FY26) and −7.3% (Q1FY27); management sees profitability \"over the next few quarters\". Rupee and commodity costs are a headwind. −5% / 0% / +3%."
+  },
+  {
+   "key": "ih",
+   "name": "InstaHelp (on-demand house help)",
+   "driverLabel": "NTV",
+   "base": 79,
+   "growth": [
+    265,
+    80,
+    50
+   ],
+   "revPct": [
+    21,
+    21,
+    21
+   ],
+   "marginPct": [
+    -195,
+    -92,
+    -49
+   ],
+   "hist": {
+    "driver": "ihNtv",
+    "revenue": "ihRev",
+    "adjEbitda": "ihAe"
+   },
+   "_why": "NTV ₹79 cr in FY26 (first year) and ₹53 cr in Q1FY27 (orders +43% QoQ to 3.8 mn; AOV ₹138 and falling). We assume ~20% QoQ growth through FY27 (₹288 cr), then +80% and +50%. TAM in the top 15 cities ₹7,000-12,000 cr (company).",
+   "_revWhy": "Revenue 21% of NTV in FY26 and Q1FY27.",
+   "_marginWhy": "Loss ₹235 cr in FY26 and ₹132 cr in Q1FY27 (₹346 an order). Management: investment for \"the next 2 years, if not longer\"; pricing has to rise from ~₹150 to ~₹200 an hour to break even, which may take \"a couple of years\" or five. We assume ~₹560 cr of losses in FY27E, ~₹480 cr in FY28E and ~₹380 cr in FY29E, so the group misses the Q3FY28 breakeven guidance by about a year."
+  }
+ ],
+ "unallocated": [
+  -31,
+  -47,
+  -58
+ ],
+ "_unallocLabel": "Rent added back less KSA JV loss",
+ "_unallocWhy": "Company adjusted EBITDA deducts rent (lease payments ₹38 cr in FY26, ₹11 cr in Q1FY27); Ind AS EBITDA does not, so we add it back: ₹46 / 52 / 58 cr. Screener's EBITDA includes the share of the KSA JV loss (₹31 cr in FY26, ₹5 cr in Q1FY27; the JV sees profit \"in the coming quarters\"): ₹15 / 5 / 0 cr. Net: −31 / −47 / −58 (negative = adds to EBITDA).",
+ "esop": [
+  150,
+  160,
+  170
+ ],
+ "_esopWhy": "ESOP cost ₹104 cr in FY26 and ₹38 cr in Q1FY27 (₹150 cr annualised) as post-IPO grants vest; 10 cr options outstanding. Non-cash, but it dilutes shareholders (counted in our 156.2 cr shares).",
+ "capex": [
+  85,
+  95,
+  105
+ ],
+ "_capexWhy": "Capex on equipment and offices ₹40 cr in FY26 (₹14 cr in Q1FY27), plus lease-principal repayments (₹26 cr in FY26) that we treat as capex because the engine adds rent back to EBITDA: ₹85 / 95 / 105 cr.",
+ "depRateOnGrossBlock": 20,
+ "_depWhy": "D&A ₹45 cr in FY26 on ₹236 cr of average gross block incl. right-of-use assets (19%); ₹16 cr in Q1FY27 (₹64 cr annualised) as new office leases started. 20% gives ₹62-81 cr in FY27-29E.",
+ "treasuryYield": [
+  7.2,
+  7.2,
+  7.2
+ ],
+ "otherIncome": [
+  6,
+  6,
+  6
+ ],
+ "_treasuryWhy": "Treasury income (bonds, bank and corporate deposits, mutual funds) ₹130.8 cr in FY26 (AR note 22) on ~₹1,930 cr of average company cash; the engine applies the yield to cash less lease liabilities (₹1,885 cr at Mar-26), so 7.2% on that base. FY27E other income ₹142 cr vs ₹137 cr in FY26 and ₹144 cr in the twelve months to Jun-26.",
+ "_otherIncomeWhy": "Royalty from the KSA JV (₹3.1 cr) and other small items (₹2.8 cr) in FY26: ₹6 cr a year.",
+ "interest": [
+  13,
+  15,
+  17
+ ],
+ "_interestLabel": "Finance cost (interest on lease liabilities)",
+ "_interestWhy": "Finance cost ₹12 cr in FY26 and ₹3 cr in Q1FY27, all lease interest; no borrowings.",
+ "taxRate": [
+  0,
+  0,
+  25
+ ],
+ "_taxWhy": "Statutory ~25% from FY29E, the first profitable year in our model; 0% in loss-making FY27-28E (no tax credit is booked on group losses, and setting 0% keeps the Excel model, which would otherwise book a credit, identical to ours). in practice profitable subsidiaries paid ₹8 cr in Q1FY27 while the group lost money (not modelled; a gap). ₹151 cr of deferred-tax assets remain and could be reversed further if InstaHelp losses persist.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "otherTreasury": {
+  "base": 227,
+  "label": "Fixed deposits held in other assets (treasury)",
+  "_why": "Company cash & treasury investments ₹2,021 cr at Mar-26 (Q4FY26 letter) less ₹1,794 cr shown as cash and investments on Screener's balance sheet; the difference is deposits reported in other financial assets."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 10,
+  "fadeMarginTo": 22,
+  "fadeCapexPctTo": 2,
+  "depPctOfSales": 2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Long-duration, loss-making consumer-internet stock; 1.1 gives a 13.1% cost of equity, as for Eternal and Meesho. No debt beyond leases, so cost of equity = WACC.",
+  "_tgWhy": "6%: nominal GDP-like growth after 15 years.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~23% (FY29E) to 10% by year 15: online share of home services is still ~1%.",
+  "_fadeMarginWhy": "22% reported EBITDA margin on revenue: India services at ~9% of NTV (the steady-state target) is ~26% of revenue; less ESOP, plus International and InstaHelp at lower margins.",
+  "_fadeCapexWhy": "Capex incl. lease principal ~2% of revenue at maturity (FY26 4.2% of revenue on a small base)."
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "India consumer services (ex-InstaHelp)",
+    "seg": "ics",
+    "field": "driver",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E NTV × EV/NTV",
+    "multiple": {
+     "base": 2.7,
+     "bull": 3.05,
+     "bear": 2.4
+    },
+    "note": "EV / one-year-forward NTV derived from the stock's own trading since 1-Nov-2025 × the internet sector's move over the same window (see the derivation table); one multiple for the whole core (India services, International, Native), applied to each part's Sep-28E NTV."
+   },
+   {
+    "name": "International (UAE, Singapore)",
+    "seg": "intl",
+    "field": "driver",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E NTV × EV/NTV",
+    "multiple": {
+     "base": 2.7,
+     "bull": 3.05,
+     "bear": 2.4
+    },
+    "note": "EV / one-year-forward NTV derived from the stock's own trading since 1-Nov-2025 × the internet sector's move over the same window (see the derivation table); one multiple for the whole core (India services, International, Native), applied to each part's Sep-28E NTV."
+   },
+   {
+    "name": "Native",
+    "seg": "native",
+    "field": "driver",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E NTV × EV/NTV",
+    "multiple": {
+     "base": 2.7,
+     "bull": 3.05,
+     "bear": 2.4
+    },
+    "note": "EV / one-year-forward NTV derived from the stock's own trading since 1-Nov-2025 × the internet sector's move over the same window (see the derivation table); one multiple for the whole core (India services, International, Native), applied to each part's Sep-28E NTV."
+   },
+   {
+    "name": "InstaHelp (losses still to fund)",
+    "seg": "ih",
+    "field": "adjEbitda",
+    "year": "FY28E",
+    "metricLabel": "FY28E adjusted EBITDA (loss) × PV factor of losses to breakeven",
+    "multiple": {
+     "base": 2.1,
+     "bull": 1.6,
+     "bear": 3.7
+    },
+    "note": "Start-up losses valued as the present value of the losses still to come after Mar-2027 (PLAYBOOK §7c): our path of ~₹480 / 380 / 250 / 100 cr in FY28-31E discounted at 13.1% (factor on FY28E). Bull: breakeven in FY30E; bear: ~₹480 cr a year for five years. Any value of a category winner is upside."
+   },
+   {
+    "name": "Net cash at end-FY27E",
+    "netCash": true,
+    "note": "Model forecast: cash, deposits and treasury investments less lease liabilities at Mar-27."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "The street's method (JM Financial, Motilal Oswal, Kotak, Emkay): four businesses at different stages. The profitable core (India services, International, Native) on EV/NTV, the one yardstick we can derive from the stock's own short history; InstaHelp at the present value of its losses to breakeven; plus cash. Primary."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Whole-company cash flows over 15 years at a 13.1% cost of equity (Ambit and Emkay use a DCF); tests whether the NTV multiple is backed by a credible path to cash."
+    },
+    {
+     "key": "evs",
+     "name": "EV/sales (Goldman Sachs)",
+     "method": "evSales",
+     "year": "FY28E",
+     "multiple": {
+      "base": 9,
+      "bull": 9,
+      "bear": 9
+     },
+     "role": "cross-check",
+     "why": "Goldman Sachs' disclosed yardstick: ~9x FY28E EV/sales. On our FY28E revenue it shows what the street's sales multiple implies."
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "India services grows ~25% a year (Q1FY27 pace holds) and reaches 9% of NTV by FY29E; International and Native grow faster; InstaHelp breaks even in FY30E; the market keeps the stock's own median multiple (no sector move).",
+   "segments": {
+    "ics": {
+     "growthDelta": 4,
+     "marginDelta": 1
+    },
+    "intl": {
+     "growthDelta": 10
+    },
+    "native": {
+     "growthDelta": 10
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "India services slows to ~15% growth (as in FY25-26) with margins stuck near 6% of NTV; the InstaHelp subsidy war deepens and losses stay near ₹600 cr a year for five years; the multiple falls to the stock's own 25th percentile × the sector move.",
+   "segments": {
+    "ics": {
+     "growthDelta": -5,
+     "marginDelta": -1
+    },
+    "ih": {
+     "marginDelta": -30
+    }
+   }
+  }
+ }
+}

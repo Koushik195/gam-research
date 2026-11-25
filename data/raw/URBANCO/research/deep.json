@@ -1,0 +1,821 @@
+{
+ "asOf": "2026-09-30",
+ "method": "Research to 30-Sep-2026 only: FY26 annual report (5-Jun-2026), Q4FY26 letter (8-May-2026) and call (10-May-2026), Q1FY27 letter (31-Jul-2026) and call (2-Aug-2026), broker notes and press reports dated on or before 30-Sep-2026.",
+ "peers": {
+  "set": [
+   "ETERNAL",
+   "SWIGGY",
+   "NAUKRI",
+   "INDIAMART",
+   "NYKAA",
+   "PAYTM",
+   "POLICYBZR"
+  ],
+  "drSet": [
+   "ETERNAL",
+   "SWIGGY",
+   "NAUKRI",
+   "INDIAMART",
+   "NYKAA",
+   "PAYTM",
+   "POLICYBZR"
+  ],
+  "peSubset": [
+   "NAUKRI",
+   "INDIAMART"
+  ],
+  "excluded": {
+   "URBANCO": "Self",
+   "MEESHO": "Listed 10-Dec-2025, after our window opens (1-Nov-2025); shown as a sensitivity only"
+  },
+  "note": "Natural set: the internet platforms in our library. Only Info Edge and IndiaMART have a usable P/E history (the set our Eternal initiation fixed), fewer than three names, so per the thin-peer-set rule we widen the base to the full seven-name set on the analogue of our own multiple: market value ÷ trailing sales (Screener), at the 30-Sep-2026 close vs each name's own median over the same window as ours (1-Nov-2025 to 30-Sep-2026). Every name has positive sales throughout, so all seven are usable. The two-name P/E move and no move are sensitivity rows.",
+  "unlisted": "Direct competitors are unlisted: NoBroker (home services, Zivora beauty), Snabbit and Pronto (on-demand house help), Housejoy and local unorganised providers; they cannot be valued from market data."
+ },
+ "street": {
+  "asOf": "2026-09-30",
+  "brokers": [
+   {
+    "broker": "BofA Securities",
+    "short": "BofA",
+    "rating": "Underperform",
+    "tp": 155,
+    "date": "2026-08-26",
+    "method": "n/a",
+    "methodShort": "n.d.",
+    "multiple": "n/a",
+    "basis": "12-month",
+    "forecasts": "FY28E EPS -0.73 (from -0.59); FY29E EPS 1.41 (from 2.27); InstaHelp EBITDA loss Rs1.3bn in 1QFY27",
+    "thesis": "Downgrade Neutral->Underperform: expensive after ~30% rally, losses, distorted risk-reward, rising instant-help competition (Snabbit/Pronto funding). Analyst Sachin Salgaonkar.",
+    "src": "https://www.tradingview.com/news/moneycontrol:2c0dabb3e094b:0-urban-company-shares-snap-3-day-rally-as-bofa-downgrades-stock-to-underperform-check-target-price/",
+    "published": "2026-08-26",
+    "confidence": "confirmed",
+    "earlier": [
+     {
+      "rating": "Neutral",
+      "tp": 155,
+      "date": "2026-05-11",
+      "src": "https://inc42.com/buzz/urban-company-tumbles-11-after-q4-loss-surges/"
+     }
+    ],
+    "current": true,
+    "stale": false,
+    "preQ1": false
+   },
+   {
+    "broker": "Emkay Global",
+    "short": "Emkay",
+    "rating": "Buy",
+    "tp": 190,
+    "date": "2026-08-23",
+    "method": "DCF-based SOTP (three-stage DCF, WACC 14.4%, beta 1.25, Rf 6.9%)",
+    "methodShort": "DCF-based SOTP (WACC 14.4%): India services ₹107/sh (57x FY28E adj. EBITDA), InstaHelp ₹28/sh, International+Native+KSA ₹42/sh, cash ₹13/sh",
+    "multiple": "ICS Rs167.2bn = Rs107/sh (57.3x/40.5x FY28E/29E adj EBITDA); InstaHelp Rs42.9bn = Rs28/sh (7.1x/3.4x FY28E/29E NTV); International+Native+KSA Rs66.3bn = Rs42/sh; cash Rs20.2bn = Rs13/sh",
+    "basis": "Jun-2027",
+    "forecasts": "ICS NTV CAGR 19.8% and adj EBITDA CAGR 47.4% FY26-29E; revenue CAGR 29.1% FY26-29E; InstaHelp loss peaks Rs9.4bn FY28E, breakeven FY31E; consolidated profitable FY30E; FY27E/28E/29E revenue 20.8/26.7/33.5bn",
+    "thesis": "Density compounds the hyperlocal network moat; trust layer supports 27.5% take rate; InstaHelp burn is the right playbook to drive frequency and cross-sell. CMP 159.",
+    "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-08/17875566750.10615400.pdf",
+    "published": "2026-08-23",
+    "confidence": "confirmed",
+    "earlier": [],
+    "current": true,
+    "stale": false,
+    "preQ1": false
+   },
+   {
+    "broker": "UBS",
+    "short": "UBS",
+    "rating": "Buy",
+    "tp": 180,
+    "date": "2026-08-21",
+    "method": "not disclosed",
+    "methodShort": "n.d.",
+    "multiple": "n/a",
+    "basis": "12-month",
+    "forecasts": "NTV CAGR 32% FY26-29 (Rs4,300cr -> ~Rs10,000cr); InstaHelp breakeven ahead of company target; FY31 adj EBITDA Rs11.3bn",
+    "thesis": "Online home services entering a 'Blinkit moment'; product-market fit, balance sheet, execution and unit-economics focus; market under-appreciates growth acceleration. Street-high TP at the time.",
+    "src": "https://www.businesstoday.in/markets/stocks/story/urban-company-ubs-expects-32-cagr-for-ntv-growth-turns-bullish-550488-2026-08-21",
+    "published": "2026-08-21",
+    "confidence": "confirmed",
+    "earlier": [],
+    "current": true,
+    "stale": false,
+    "preQ1": false
+   },
+   {
+    "broker": "Kotak Institutional Equities",
+    "short": "Kotak",
+    "rating": "Add",
+    "tp": 150,
+    "date": "2026-08-03",
+    "method": "SOTP (fair value), rolled forward to Sep-2028",
+    "methodShort": "SOTP fair value, rolled to Sep-27",
+    "multiple": "n/a",
+    "basis": "Sep-2028 valuation roll-forward",
+    "forecasts": "Revenue CAGR ~25% FY26-29",
+    "thesis": "Retained ADD after Q1FY27 beat on segment EBITDA margins.",
+    "src": "https://www.kotakneo.com/news/stocks/urban-company-q1-fy-2026-27-results-revenue-up-shares-jump-despite-loss/",
+    "published": "2026-08-03",
+    "confidence": "article-only",
+    "earlier": [
+     {
+      "rating": "SELL",
+      "tp": 120,
+      "date": "2025-11-28",
+      "src": "https://in.investing.com/news/analyst-ratings/kotak-initiates-urban-company-stock-with-sell-rating-inr120-price-target-93CH-5129324"
+     },
+     {
+      "rating": "ADD",
+      "tp": 150,
+      "date": "2026-05-13",
+      "src": "https://au.investing.com/equities/urban-consensus-estimates"
+     }
+    ],
+    "current": true,
+    "stale": false,
+    "preQ1": false
+   },
+   {
+    "broker": "Morgan Stanley",
+    "short": "Morgan Stanley",
+    "rating": "Overweight",
+    "tp": 165,
+    "date": "2026-08-03",
+    "method": "not disclosed",
+    "methodShort": "n.d.",
+    "multiple": "n/a",
+    "basis": "12-month",
+    "forecasts": "Company guidance reiterated: consol adj EBITDA breakeven 3QFY28; Rs10bn adj EBITDA FY31",
+    "thesis": "Double upgrade UW->OW: core India and International improving faster; sustained InstaHelp losses may drive industry consolidation and strengthen UC's position.",
+    "src": "https://inc42.com/buzz/urban-company-jumps-18-as-morgan-stanley-bets-on-core-business-growth/",
+    "published": "2026-08-03",
+    "confidence": "confirmed",
+    "earlier": [
+     {
+      "rating": "Underweight",
+      "tp": 117,
+      "date": "2025-10-23",
+      "src": "https://www.businesstoday.in/markets/stocks/story/urban-company-morgan-stanley-initiates-coverage-see-up-to-26-upside-heres-why-499282-2025-10-23"
+     },
+     {
+      "rating": "Underweight",
+      "tp": 119,
+      "date": "2025-12-11",
+      "src": "https://scanx.trade/stock-market-news/stocks/morgan-stanley-maintains-underweight-rating-on-urban-company-with-119-price-target/26970530"
+     },
+     {
+      "rating": "Underweight",
+      "tp": 128,
+      "date": null,
+      "src": "https://inc42.com/buzz/urban-company-jumps-18-as-morgan-stanley-bets-on-core-business-growth/"
+     }
+    ],
+    "current": true,
+    "stale": false,
+    "preQ1": false
+   },
+   {
+    "broker": "JM Financial",
+    "short": "JM Financial",
+    "rating": "Reduce",
+    "tp": 135,
+    "date": "2026-08-01",
+    "method": "SOTP",
+    "methodShort": "SOTP: India services 45x FY28E adj. EBITDA; Native 3x FY28E sales; International 35x FY28E EBITDA; InstaHelp nil (Aug-26)",
+    "multiple": "ICS 45x adj EBITDA; Native 3x revenue; International 35x adj EBITDA; InstaHelp zero value",
+    "basis": "Jun-2027",
+    "forecasts": "FY27E/28E/29E revenue 21.1/26.7/32.7bn; EBITDA -4.5/-1.9/+0.35bn; InstaHelp EBITDA loss Rs4-5.5bn p.a. FY27-29E",
+    "thesis": "Core India NTV +29%, adj EBITDA margin 6.9%; but InstaHelp losses widen (Rs1.32bn) with AOV below viable; await better entry; CMP 129. TP unchanged (prior 135, raised from 130 sometime May-Jul).",
+    "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-08/17857349820.19030800.pdf",
+    "published": "2026-08-01",
+    "confidence": "confirmed",
+    "earlier": [
+     {
+      "rating": "BUY",
+      "tp": 125,
+      "date": "2026-02-26",
+      "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-02/17721943850.94815000.pdf"
+     },
+     {
+      "rating": "REDUCE",
+      "tp": 125,
+      "date": null,
+      "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-05/17784856070.58209400.pdf"
+     },
+     {
+      "rating": "REDUCE",
+      "tp": 130,
+      "date": "2026-05-10",
+      "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-05/17784856070.58209400.pdf"
+     }
+    ],
+    "current": true,
+    "stale": false,
+    "preQ1": false
+   },
+   {
+    "broker": "Motilal Oswal",
+    "short": "Motilal Oswal",
+    "rating": "Neutral",
+    "tp": 140,
+    "date": "2026-07-31",
+    "method": "SOTP",
+    "methodShort": "SOTP: India services 50x EV/EBITDA; Native 3x and International 2x FY28E EV/sales; InstaHelp 1.5x FY28E EV/NTV (Mar-26)",
+    "multiple": "n/a",
+    "basis": "12-month",
+    "forecasts": "n/a",
+    "thesis": "Raised TP after Q1FY27 (revenue +44%); kept Neutral. Analyst Abhishek Pathak.",
+    "src": "https://trendlyne.com/research-reports/stock/3246538/URBANCO/urban-company-ltd",
+    "published": "2026-07-31",
+    "confidence": "confirmed",
+    "earlier": [
+     {
+      "rating": "Neutral",
+      "tp": 125,
+      "date": "2026-03-24",
+      "src": "https://www.businesstoday.in/markets/stocks/story/urban-company-shares-down-45-in-6-months-why-motilal-sees-convenience-at-rich-valuation-522048-2026-03-24"
+     },
+     {
+      "rating": "Neutral",
+      "tp": 135,
+      "date": "2026-05-10",
+      "src": "https://trendlyne.com/research-reports/stock/3246538/URBANCO/urban-company-ltd"
+     }
+    ],
+    "current": true,
+    "stale": false,
+    "preQ1": false
+   },
+   {
+    "broker": "Ventura Securities",
+    "short": "Ventura",
+    "rating": "Buy",
+    "tp": 185,
+    "date": "2026-04-22",
+    "method": "n/a",
+    "methodShort": "n.d.",
+    "multiple": "n/a",
+    "basis": "n/a",
+    "forecasts": "n/a",
+    "thesis": "Listed on Trendlyne only; CMP 144.43 at reco.",
+    "src": "https://trendlyne.com/research-reports/stock/3246538/URBANCO/urban-company-ltd",
+    "published": "2026-04-22",
+    "confidence": "article-only",
+    "earlier": [],
+    "current": true,
+    "stale": false,
+    "preQ1": true
+   },
+   {
+    "broker": "Ambit Capital",
+    "short": "Ambit",
+    "rating": "Sell",
+    "tp": 97,
+    "date": "2026-03-24",
+    "method": "DCF (cost of equity 13%, terminal growth 6%)",
+    "methodShort": "DCF (cost of equity 13%, terminal growth 6%)",
+    "multiple": "Ex-InstaHelp Rs82/sh (implies 35x EV/FY28E adj EBITDA core India); InstaHelp Rs15/sh; EV ~Rs129.5bn",
+    "basis": "12-month",
+    "forecasts": "Core India NTV CAGR 18% FY26-28E, 14% FY26-42E; exit adj EBITDA margin 10% core / 7% InstaHelp; InstaHelp breakeven FY31; InstaHelp NTV ~6x FY26-28; FY31 adj EBITDA Rs7.6bn vs co. target Rs10bn; InstaHelp loss Rs3.36bn FY27E",
+    "thesis": "Top-8 city penetration ~51%, growth needs costly non-top8 expansion; InstaHelp discounting/competition (Snabbit/Pronto) persist; CMP implies 20% revenue CAGR vs 17% est. CMP 110.",
+    "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-03/17744324190.36424900.pdf",
+    "published": "2026-03-24",
+    "confidence": "confirmed",
+    "earlier": [],
+    "current": true,
+    "stale": false,
+    "preQ1": true
+   },
+   {
+    "broker": "Goldman Sachs",
+    "short": "Goldman Sachs",
+    "rating": "Neutral",
+    "tp": 140,
+    "date": "2025-10-23",
+    "method": "50/50 DCF and P/E",
+    "methodShort": "DCF and P/E (50:50); ~9x FY28E EV/sales, 64x FY28E EV/EBITDA for India ex-InstaHelp",
+    "multiple": "implies 9x FY28E EV/Sales; 64x FY28E EV/EBITDA India services ex-InstaHelp; PEG 1.4x",
+    "basis": "12-month",
+    "forecasts": "Revenue CAGR 24% FY25-30E; India services ex-InstaHelp EBITDA CAGR 35% FY25-30E",
+    "thesis": "Leading online home/beauty platform, defensible model and strong execution, but premium valuation already reflects strengths; ~9-11% downside at initiation.",
+    "src": "https://ng.investing.com/news/analyst-ratings/goldman-sachs-initiates-urban-company-stock-with-neutral-rating-93CH-2159498",
+    "published": "2025-10-23",
+    "confidence": "confirmed",
+    "earlier": [],
+    "current": true,
+    "stale": false,
+    "preQ1": true
+   },
+   {
+    "broker": "Mastertrust",
+    "short": "Mastertrust",
+    "rating": "Buy",
+    "tp": 219,
+    "date": "2025-09-24",
+    "method": "n/a",
+    "methodShort": "n.d.",
+    "multiple": "n/a",
+    "basis": "n/a",
+    "forecasts": "n/a",
+    "thesis": "Post-listing call listed on Trendlyne only; CMP 178.57 at reco.",
+    "src": "https://trendlyne.com/research-reports/stock/3246538/URBANCO/urban-company-ltd",
+    "published": "2025-09-24",
+    "confidence": "article-only",
+    "earlier": [],
+    "current": false,
+    "stale": true,
+    "preQ1": true
+   }
+  ],
+  "summary": {
+   "n": 10,
+   "medianTp": 152.5,
+   "meanTp": 154,
+   "highTp": 190,
+   "lowTp": 97,
+   "buys": 5,
+   "holds": 2,
+   "sells": 3
+  },
+  "note": "Latest call per broker published on or before 30-Sep-2026. Kotak \"Add\" counted as a buy-side rating. Mastertrust (24-Sep-2025, a week after listing) is shown but excluded from the median as a stale listing-day note. Goldman Sachs maintained Neutral/₹140 at Q4FY26 (investing.com, 10-May-2026).",
+  "excludedAfterAsOf": [
+   {
+    "broker": "GS",
+    "rating": "Neutral",
+    "tp": 130,
+    "date": "2026-10-20"
+   },
+   {
+    "broker": "MS",
+    "rating": "Overweight",
+    "tp": 190,
+    "date": "2026-10-20"
+   },
+   {
+    "broker": "KIE",
+    "rating": "SELL",
+    "tp": 155,
+    "date": "2026-10-07"
+   },
+   {
+    "broker": "MOSL",
+    "rating": "Neutral",
+    "tp": 165,
+    "date": "2026-10-16"
+   },
+   {
+    "broker": "Emkay",
+    "rating": "BUY",
+    "tp": 200,
+    "date": "2026-10-18"
+   }
+  ]
+ },
+ "consensus": {
+  "lseg": [
+   {
+    "date": "2026-02-27",
+    "analysts": null,
+    "avgRating": "Neutral",
+    "medianTarget": null,
+    "avgTarget": 131.33,
+    "breakdown": null,
+    "src": "https://www.whalesbook.com/news/English/tech/Urban-Company-Analyst-Buy-Amidst-Growth-Profitability-Puzzles/69a13518fa7d0695d1ab5613",
+    "note": "aggregator, not LSEG"
+   },
+   {
+    "date": "2026-03-24",
+    "analysts": null,
+    "avgRating": "hold",
+    "medianTarget": 125,
+    "breakdown": null,
+    "src": "https://zerodha.com/markets/stocks/NSE/URBANCO/",
+    "note": "Reuters/LSEG item 'Motilal, Ambit start coverage'"
+   },
+   {
+    "date": "2026-08-21",
+    "analysts": 7,
+    "avgRating": "hold",
+    "medianTarget": 137.5,
+    "breakdown": null,
+    "src": "https://zerodha.com/markets/stocks/NSE/URBANCO/",
+    "note": "Reuters/LSEG item on UBS initiation; Moneycontrol same day cites 8 analysts: 3 Buy/3 Hold/2 Sell (https://www.tradingview.com/news/moneycontrol:2c0f78535094b:0-urban-company-shares-rise-6-as-ubs-initiates-buy-sees-blinkit-moment-for-home-services/)"
+   },
+   {
+    "date": "2026-08-24",
+    "analysts": 7,
+    "avgRating": "hold",
+    "medianTarget": 137.5,
+    "breakdown": null,
+    "src": "https://zerodha.com/markets/stocks/NSE/URBANCO/",
+    "note": "Reuters/LSEG item on Emkay initiation"
+   },
+   {
+    "date": "2026-08-26",
+    "analysts": 9,
+    "avgRating": null,
+    "medianTarget": 145,
+    "breakdown": "4 buy or higher / 2 hold / 3 sell",
+    "src": "https://zerodha.com/markets/stocks/NSE/URBANCO/",
+    "note": "Reuters/LSEG item on BofA downgrade; latest LSEG snapshot on or before 2026-09-30"
+   }
+  ]
+ },
+ "events": [
+  {
+   "what": "Anchor book: Rs853.87cr, 8.29cr shares at Rs103, 59 funds",
+   "date": "2025-09-09",
+   "src": "https://inc42.com/buzz/urban-company-ipo-inr-854-cr-raised-from-anchor-investors"
+  },
+  {
+   "what": "IPO opens 10-12 Sep; price band Rs98-103; issue ~Rs1,900cr = fresh Rs472cr (45.8mn sh) + OFS Rs1,428cr (138.6mn sh); valuation Rs14,790cr at upper band. OFS: Accel 3.79cr sh/Rs390cr, Elevation 3.36cr/Rs346cr, Bessemer 1.68cr/Rs173cr, VY Capital 2.10cr/Rs216cr, Tiger Global (Internet Fund V) 2.94cr/Rs303cr",
+   "date": "2025-09-10",
+   "src": "https://inc42.com/?p=531722"
+  },
+  {
+   "what": "Subscription 103.63x overall (QIB 140.20x, NII 74.04x, Retail 39.25x)",
+   "date": "2025-09-12",
+   "src": "https://www.freepressjournal.in/business/urban-company-ipo-oversubscribed-10363-times-reflects-massive-investor-enthusiasm"
+  },
+  {
+   "what": "Listing: NSE open Rs162.25 (+57.5%), BSE Rs161 (+56.3%); day high Rs179; close ~Rs166.8 (+62%)",
+   "date": "2025-09-17",
+   "src": "https://www.businesstoday.in/markets/stocks/story/urban-company-shares-list-at-58-premium-hnis-make-rs-120-lakh-profit-494311-2025-09-17"
+  },
+  {
+   "what": "All-time high Rs201.18 (note: outside 52-week window as of 2026-09-30)",
+   "date": "2025-09-22",
+   "src": "https://www.businesstoday.in/markets/stocks/story/urban-company-morgan-stanley-initiates-coverage-see-up-to-26-upside-heres-why-499282-2025-10-23"
+  },
+  {
+   "what": "Tax notice of Rs51.3cr (Reuters)",
+   "date": "2025-09-29",
+   "src": "https://zerodha.com/markets/stocks/NSE/URBANCO/"
+  },
+  {
+   "what": "30-day anchor lock-in expiry: ~4.15cr shares (~Rs680cr); stock -3.8% to ~Rs157.9 (prior close 164.60)",
+   "date": "2025-10-16",
+   "src": "https://www.business-standard.com/markets/news/urban-company-shares-fall-4pc-as-first-lockin-for-anchor-investors-ends-125101600301_1.html"
+  },
+  {
+   "what": "GS (Neutral 140) and MS (UW 117) initiate; stock -3.7% to ~Rs152",
+   "date": "2025-10-23",
+   "src": "https://inc42.com/buzz/urban-companys-shares-fall-over-3-intraday-amid-mixed-brokerage-reports/"
+  },
+  {
+   "what": "Q2FY26 results (1-Nov): stock fell as much as 6.8% to Rs147.01",
+   "date": "2025-11-03",
+   "src": "https://www.businesstoday.in/markets/stocks/story/urban-company-shares-tumble-6-as-q2-loss-widens-on-insta-help-investments-500547-2025-11-03"
+  },
+  {
+   "what": "90-day anchor lock-in (ended 14-Dec): 41.45mn shares (2.9%) freed; record low Rs121.4 (-5.8%)",
+   "date": "2025-12-15",
+   "src": "https://www.business-standard.com/markets/capital-market-news/urban-company-slides-after-shareholder-lock-in-expiry-stock-hits-record-low-125121500604_1.html"
+  },
+  {
+   "what": "Q3FY26 results; close -3.4% at Rs125.2 (BSE); later down to Rs116.58 (lowest since listing at that time, per Samco 27-Jan); guidance Rs10bn adj EBITDA FY31, consol adj EBITDA breakeven 3QFY28",
+   "date": "2026-01-23",
+   "src": "https://inc42.com/buzz/urban-company-q3-posts-inr-21-cr-loss-amid-ongoing-instahelp-investments/"
+  },
+  {
+   "what": "Stock breaks below Rs103 IPO price, intraday low Rs102.48; 52w low disputed: Rs96.35 on 2-Mar (AngelOne 22-Jun-2026; JM/Emkay show 96) vs Rs100.70 on 4-Mar (Upstox/ICICIdirect)",
+   "date": "2026-03-02",
+   "src": "https://www.motilaloswal.com/news/stocks/118358"
+  },
+  {
+   "what": "Lock-in expiry ~0.5% of equity",
+   "date": "2026-03-05",
+   "src": "https://www.motilaloswal.com/news/stocks/118358"
+  },
+  {
+   "what": "Six-month pre-IPO lock-in expiry: 94.1cr shares (~66% of equity, Nuvama); low Rs107.30 (-5.3%). Same day NSE bulk deal: SBI MF bought 35.1mn sh (~Rs109.85); ABG Capital sold 17.4mn; DF International Partners II sold 17.7mn",
+   "date": "2026-03-17",
+   "src": "https://www.businesstoday.in/markets/stocks/story/urban-company-shares-slip-amid-lock-in-expiry-what-analysts-say-520895-2026-03-17"
+  },
+  {
+   "what": "Stock +14% intraday (high Rs131.60), close Rs121.20 (+10%) after SBI MF bulk buy",
+   "date": "2026-03-18",
+   "src": "https://www.businesstoday.in/markets/stocks/story/urban-company-shares-profitbooking-slip-price-targets-521338-2026-03-19"
+  },
+  {
+   "what": "Tax demand of Rs8.7cr (Reuters)",
+   "date": "2026-05-05",
+   "src": "https://zerodha.com/markets/stocks/NSE/URBANCO/"
+  },
+  {
+   "what": "Q4FY26 results; close -4.84% at Rs139.55",
+   "date": "2026-05-08",
+   "src": "https://www.businesstoday.in/markets/stocks/story/urban-company-shares-slip-5-as-q4-loss-widens-530557-2026-05-08"
+  },
+  {
+   "what": "Further fall: low Rs124.4-124.5 (-10.8%), close Rs126.2 (-9.5%)",
+   "date": "2026-05-11",
+   "src": "https://inc42.com/buzz/urban-company-tumbles-11-after-q4-loss-surges/"
+  },
+  {
+   "what": "12th AGM results (ordinary business; no fund-raise resolution found)",
+   "date": "2026-06-30",
+   "src": "https://nsearchives.nseindia.com/corporate/URBANCO_30062026183413_UC_12AGM_Result_30June_2026.pdf"
+  },
+  {
+   "what": "Q1FY27 results (31-Jul after market); stock +17.7% intraday to Rs152.20, close +13.2% at Rs146.50; MS double upgrade",
+   "date": "2026-08-03",
+   "src": "https://inc42.com/buzz/urban-company-jumps-18-as-morgan-stanley-bets-on-core-business-growth/"
+  },
+  {
+   "what": "UC files Delhi HC defamation/disparagement suit vs Kent RO over Native purifier ads; 12-Aug hearing Kent agrees to withdraw ads (earlier May-2026 Kent suit: UC agreed to edit one ad)",
+   "date": "2026-08-11",
+   "src": "https://www.barandbench.com/news/litigation/kent-ro-tells-delhi-hc-it-will-withdraw-ads-against-urban-companys-water-purifier"
+  },
+  {
+   "what": "Block deal: SBI MF bought 3,15,00,022 sh at Rs136 (Rs428.4cr), stake ~5.9% -> ~8%; sellers reported as Accel India IV (2cr sh, 6.14%->4.84%), Vy Capital; Bessemer ~1.21cr sh (~Rs170cr) per weaker sources; stock +4%",
+   "date": "2026-08-13",
+   "src": "https://www.outlookbusiness.com/corporate/sbi-mutual-funds-stake-in-urban-company-nears-8-pc-after-rs-428-cr-block-deal"
+  },
+  {
+   "what": "MSCI India Domestic Small Cap Index addition announced (Aug-2026 review), effective 1-Sep-2026",
+   "date": "2026-08-13",
+   "src": "https://upstox.com/news/market-news/stocks/urban-company-shares-jump-5-after-428-crore-block-deal-msci-index-addition-move-key-things-to-know/article-198592/"
+  },
+  {
+   "what": "UBS initiates Buy 180; stock +8% intraday (high Rs157.35 BSE). FTSE announces addition to FTSE EM All Cap, SmallCap and Global Total Cap, effective 21-Sep-2026",
+   "date": "2026-08-21",
+   "src": "https://upstox.com/news/market-news/stocks/urban-company-share-price-jumps-7-after-ftse-index-addition-move-what-investors-should-know/article-199112/"
+  },
+  {
+   "what": "Emkay initiates Buy 190; stock +6.7% to Rs169.1",
+   "date": "2026-08-24",
+   "src": "https://www.business-standard.com/markets/news/urban-company-jumps-7-as-emkay-sees-strong-growth-potential-ahead-126082400377_1.html"
+  },
+  {
+   "what": "BofA downgrade to Underperform; stock -0.7% to Rs168.12",
+   "date": "2026-08-26",
+   "src": "https://www.tradingview.com/news/moneycontrol:2c0dabb3e094b:0-urban-company-shares-snap-3-day-rally-as-bofa-downgrades-stock-to-underperform-check-target-price/"
+  },
+  {
+   "what": "Stock +3% to Rs162.99 intraday; YTD +23%",
+   "date": "2026-09-16",
+   "src": "https://upstox.com/news/market-news/stocks/urban-company-shares-jump-3-over-constructive-outlook-here-s-what-ubs-analysts-predict-next/article-200354/"
+  },
+  {
+   "what": "FTSE index inclusion effective",
+   "date": "2026-09-21",
+   "src": "https://upstox.com/news/market-news/stocks/urban-company-share-price-jumps-7-after-ftse-index-addition-move-what-investors-should-know/article-199112/"
+  }
+ ],
+ "ownershipView": {
+  "asOf": "Mar-26 named holders (FY26 annual report); Jun-26 categories (BSE shareholding pattern via Screener)",
+  "intro": "The three founders are the promoters, with 6.34% each (19.0% together). The rest of the register is mostly the venture and growth funds that financed the company before the IPO. Because most of them are foreign entities, they sit in the \"FII\" bucket, which is why foreign holdings look so high (55% at Jun-2026). The six-month lock-in on pre-IPO holders ended on 17-Mar-2026; since then SBI Mutual Fund has been the main buyer and venture funds the main sellers.",
+  "named": [
+   {
+    "name": "Elevation Capital V",
+    "category": "Venture investor",
+    "pct": 8.13
+   },
+   {
+    "name": "VYC11 (VY Capital)",
+    "category": "Venture investor",
+    "pct": 7.37
+   },
+   {
+    "name": "Naspers Ventures (Prosus)",
+    "category": "Strategic / venture investor",
+    "pct": 7.01
+   },
+   {
+    "name": "Accel India IV (Mauritius)",
+    "category": "Venture investor",
+    "pct": 6.99
+   },
+   {
+    "name": "SBI Mutual Fund",
+    "category": "Mutual fund",
+    "pct": 6.72
+   },
+   {
+    "name": "Steadview Capital Mauritius",
+    "category": "Growth investor",
+    "pct": 6.46
+   },
+   {
+    "name": "Abhiraj Singh Bhal",
+    "category": "Promoter (co-founder, CEO)",
+    "pct": 6.34
+   },
+   {
+    "name": "Varun Khaitan",
+    "category": "Promoter (co-founder, COO)",
+    "pct": 6.34
+   },
+   {
+    "name": "Raghav Chandra",
+    "category": "Promoter (co-founder, CTO)",
+    "pct": 6.34
+   },
+   {
+    "name": "Urban Company ESOP Trust",
+    "category": "Employee trust (treasury shares)",
+    "pct": 5.19
+   },
+   {
+    "name": "Bessemer India Capital Holding II",
+    "category": "Venture investor",
+    "pct": 5.05
+   }
+  ],
+  "categories": [
+   {
+    "category": "Promoters (Jun-26)",
+    "pct": 19.02
+   },
+   {
+    "category": "Foreign investors incl. venture funds (Jun-26)",
+    "pct": 55.28
+   },
+   {
+    "category": "Domestic institutions (Jun-26)",
+    "pct": 11.42
+   },
+   {
+    "category": "Public (Jun-26)",
+    "pct": 9.74
+   },
+   {
+    "category": "Others incl. ESOP trust (Jun-26)",
+    "pct": 4.52
+   }
+  ],
+  "source": "FY26 annual report (note 14, holders above 5% at 31-Mar-2026); BSE shareholding pattern Jun-2026 via Screener.in",
+  "read": "**What this means:** the free float is still growing as venture funds exit. Accel cut its stake from 6.1% to 4.8% in the 13-Aug-2026 block deal (SBI Mutual Fund bought ₹428 cr at ₹136); VY Capital and Bessemer also sold. With ~40% still held by pre-IPO investors, supply will keep meeting every rally. The founders own only 19% between them, so they are managers more than controlling owners."
+ },
+ "governanceView": {
+  "title": "Management & governance: founder-led, transparent reporting, high pay",
+  "people": [
+   [
+    "Abhiraj Singh Bhal",
+    "Co-founder, Chairperson, MD & CEO",
+    "6.34% stake; FY26 pay 33.6x the median employee"
+   ],
+   [
+    "Varun Khaitan",
+    "Co-founder, Executive Director & COO",
+    "6.34%; same pay ratio"
+   ],
+   [
+    "Raghav Chandra",
+    "Co-founder, Executive Director & CTO/CPO",
+    "6.34%; same pay ratio"
+   ],
+   [
+    "Abhay Krishna Mathur",
+    "Chief Financial Officer",
+    "KMP; no change in FY26"
+   ],
+   [
+    "Ashish Gupta, Shyamal Mukherjee, Ireena Vittal, Rajesh Gopinathan",
+    "Independent directors",
+    "Four of eight board seats"
+   ],
+   [
+    "Vamsi Krishna Duvvuri",
+    "Non-executive director (VY Capital)",
+    "Nominee rights lapsed on listing (1-Nov-2025)"
+   ]
+  ],
+  "peopleSource": "FY26 annual report (board's report, KMP and remuneration tables)",
+  "verdicts": [
+   [
+    "Disclosure",
+    "Good",
+    "Quarterly shareholders' letter with segment P&Ls, contribution margin, NTV by segment, a full reconciliation to Ind AS and free cash flow; InstaHelp unit economics by quarter.",
+    "Among the best in Indian internet."
+   ],
+   [
+    "Accounting",
+    "Amber",
+    "Adjusted EBITDA deducts rent but leaves out ESOP (₹104 cr FY26) and the KSA JV loss; FY25 profit was a ₹211 cr tax credit; ₹60 cr DTA reversed in FY26; ₹151 cr DTA still on the books.",
+    "Read profit on the reconciled lines, not the headline."
+   ],
+   [
+    "Capital allocation",
+    "Amber",
+    "Core cash is being spent on InstaHelp (₹235 cr loss in FY26, ₹132 cr in Q1FY27 alone) in a subsidy war with venture-funded rivals.",
+    "Rational if it wins the category; costly if the war drags on."
+   ],
+   [
+    "Pay and dilution",
+    "Amber",
+    "Founders paid 33.6x the median employee; 10 cr options (6.4% of shares) outstanding at ₹1; ESOP cost ~₹150 cr a year.",
+    "Real cost to shareholders."
+   ],
+   [
+    "Board",
+    "Good",
+    "Half independent, with well-known names; auditor rotated from Price Waterhouse to BSR & Co at the 2026 AGM (end of term).",
+    "No red flags found."
+   ],
+   [
+    "Service partners",
+    "Amber",
+    "Its model depends on ~79,000 monthly active partners; partner protests in 2021 and the new labour codes (1-2% of turnover for gig-worker welfare) show the regulatory and social risk.",
+    "A risk to margins, not to the franchise."
+   ]
+  ],
+  "source": "FY26 annual report, shareholders' letters, press reports (ThePrint, YourStory) dated on or before 30-Sep-2026"
+ },
+ "industryView": {
+  "market": "India's home-services market is large but almost entirely offline: Redseer (in the IPO prospectus) puts it at US$59 bn in CY2024, growing 10-11% a year to ~US$97 bn by CY2029, with online platforms under 1% of it. Brokers' estimates are similar: ₹5.1-5.2 lakh crore in FY25 rising to ₹8.4-8.6 lakh crore by FY30, online share 0.8% → 1.3% (Ambit, Mar-2026); online full-stack home services ₹4,100-4,300 cr in FY25, growing 18-22% a year, of which Urban Company has ~65-70% (MOSL, Mar-2026).",
+  "competition": "In its core categories Urban Company has no listed or scaled online rival: competition is the local beautician, electrician or cleaner found by word of mouth, plus NoBroker's home services (~2 lakh requests a month, Zivora beauty brand). InstaHelp is different: on-demand house help has drawn venture money. Snabbit raised US$56 mn in Apr-2026 (valued ~US$350 mn) and ran ~1.85 mn orders in Jul-2026; Pronto raised US$45 mn at a ~US$200 mn valuation by May-2026 (~0.95 mn orders a month). InstaHelp is the largest, with >100,000 daily orders by Aug-2026, but all three subsidise orders."
+ },
+ "historyRows": [
+  [
+   "Dec-2014",
+   "Incorporated as UrbanClap Technologies by three co-founders",
+   "Venture-funded losses until FY24"
+  ],
+  [
+   "FY22",
+   "Peak loss ₹514 cr; ₹1,383 cr raised in financing",
+   "Cash cushion that still funds InstaHelp"
+  ],
+  [
+   "FY24",
+   "Loss cut to ₹93 cr; core India services near breakeven",
+   "Operating leverage visible"
+  ],
+  [
+   "FY25",
+   "First profit ₹240 cr, from a ₹211 cr deferred-tax credit; KSA into a 50:50 JV (Jan-2025); InstaHelp launched",
+   "Underlying PBT only ₹29 cr"
+  ],
+  [
+   "Sep-2025",
+   "IPO at ₹103 (₹472 cr fresh, ₹1,428 cr offer for sale); listed 17-Sep at +57%",
+   "Net cash rose to ₹2,136 cr"
+  ],
+  [
+   "FY26",
+   "InstaHelp loss ₹235 cr; group loss ₹235 cr incl. ₹60 cr DTA reversal; labour codes in force (21-Nov-2025)",
+   "Core adjusted EBITDA up 9x to ₹106 cr"
+  ],
+  [
+   "Mar-2026",
+   "Pre-IPO lock-in ended (17-Mar); stock fell below the issue price (low ~₹96-101)",
+   "Supply overhang; SBI MF steps in"
+  ],
+  [
+   "Q1FY27",
+   "NTV +42%; core adjusted EBITDA ₹67 cr; InstaHelp loss ₹132 cr",
+   "Stock +13% on results day"
+  ]
+ ],
+ "historySource": "FY26 annual report, shareholders' letters, exchange and press reports (Inc42, Business Today, Business Standard) dated on or before 30-Sep-2026",
+ "moat": [
+  [
+   "Trust and quality control (training, background checks, ratings, warranties)",
+   "Strong",
+   "Average rating 4.79/5 over millions of jobs; 83% of FY26 India NTV from retained users; the model is hard to copy without a decade of operating data."
+  ],
+  [
+   "Local density (supply and demand in each micro-market)",
+   "Moderate-strong",
+   "Partner hours up from 59 to 90 a month (FY22-FY26); UC Instant cuts waiting times where density is high; Tier 2 cities growing 36%."
+  ],
+  [
+   "Brand",
+   "Moderate",
+   "Largest online home-services brand in India (~65-70% of the online full-stack market, MOSL); Native sells half its purifiers to new users."
+  ],
+  [
+   "Cost advantage",
+   "Weak-moderate",
+   "Contribution margin ~21% of NTV in India; AI-led support savings; but InstaHelp shows rivals can undercut on price with venture money."
+  ],
+  [
+   "Switching costs",
+   "Weak",
+   "Customers and partners can and do go offline after the first booking (\"disintermediation\"); commissions cap partner loyalty."
+  ]
+ ],
+ "critiques": [
+  "Bulls (UBS, Emkay, Morgan Stanley): a near-monopoly online franchise in a market with <1% online penetration, core margins heading to 9-10% of NTV, International a second profit engine; InstaHelp could be a \"Blinkit moment\" for home services.",
+  "Bears (Ambit, JM Financial, BofA): the core grows ~18-20% a year, not 30%; InstaHelp is a subsidy war with well-funded rivals and weak unit economics (AOV ₹138, loss ₹346 an order); the stock already prices the core at 45-60x FY28E EBITDA.",
+  "Our critique: the core is good and getting better, but on our forecasts the group only breaks even in FY29E, and the InstaHelp losses still to come are a real cost, which most bulls ignore or value positively."
+ ],
+ "gaps": [
+  "Q2FY26 and Q3FY26 shareholders' letters were not downloaded; quarterly segment data for those quarters are taken from the restated tables in the Q4FY26 and Q1FY27 letters.",
+  "Morgan Stanley ₹128 target, JM Financial's Buy→Reduce change, Kotak's Sell→Add upgrade and BofA's initiation are undated in public sources; we use the earliest dated sighting.",
+  "Method and multiples not disclosed publicly for Morgan Stanley, BofA, UBS and Ventura.",
+  "52-week low disputed: ₹96.35 on 2-Mar-2026 (AngelOne; JM and Emkay show ₹96) vs ₹100.70 on 4-Mar-2026 (Upstox, ICICIdirect).",
+  "KSA JV (Yammak) is equity-accounted: we have its NTV and adjusted EBITDA (100% basis) but not its balance sheet.",
+  "Tax paid by profitable subsidiaries while the group makes a loss (₹8 cr in Q1FY27) cannot be modelled: the engine taxes only positive PBT."
+ ],
+ "conflicts": [
+  "IPO split: Inc42 and the RHP give ₹472 cr fresh issue / ₹1,428 cr OFS; Entrackr reported ₹429 cr / ₹1,471 cr. We use ₹472 / ₹1,428 (the company's cash bridge shows ₹469 cr net primary capital).",
+  "Share count: 146.22 cr outstanding net of 8.0 cr ESOP-trust shares (154.22 cr issued) at Mar-26; Screener implies ~154.6 cr. We value on 156.21 cr fully diluted (146.22 cr + 10.0 cr options at ₹1).",
+  "FY26 EBITDA: Screener −₹254 cr (includes the ₹31 cr KSA JV loss) vs company Ind AS EBITDA −₹223 cr and adjusted EBITDA −₹129 cr (after rent, before ESOP)."
+ ],
+ "streetNotes": [
+  "Coverage found (latest at or before 30-Sep-2026): 10 brokers: BofA, Emkay, UBS, Kotak, Morgan Stanley, JM Financial, Motilal Oswal, Ventura, Ambit, Goldman Sachs; LSEG counted 9 (26-Aug-2026: 4 buy or higher, 2 hold, 3 sell, median ₹145).",
+  "Excluded as published after 30-Sep-2026: Kotak Sell ₹155 (7-Oct), MOSL Neutral ₹165 (16-Oct), Emkay Buy ₹200 (18-Oct), Goldman Neutral ₹130 and Morgan Stanley Overweight ₹190 (20-Oct)."
+ ]
+}

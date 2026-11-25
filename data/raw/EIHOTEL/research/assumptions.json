@@ -1,0 +1,252 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for EIH Ltd (Oberoi group; consolidated, Rs crore). EIH reports one segment (hotels, incl. Oberoi Flight Services); we forecast it stream by stream (rooms, F&B incl. flight catering, other services; businessLines.hotel, checked against the segment in EIHOTEL.ctx.js). Operating EBITDA is post-Ind AS 116 and excludes other income (the company's own 'EBITDA' includes it). Share of associates and JVs (EIH Associated Hotels 36.81%, Avis India Mobility 40%, Oberoi Mauritius, La Roseraie de l'Atlas) sits in other income, as on Screener; minorities have no engine line and sit in the tax rate (see _taxWhy) and in the SOTP.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "hotel",
+   "name": "Hotels (incl. flight catering)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 2939.6,
+   "growth": [
+    11.7344,
+    10.9705,
+    12.3228
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    35,
+    35.8,
+    36.5
+   ],
+   "hist": {
+    "driver": "hotelRev",
+    "revenue": "hotelRev",
+    "adjEbitda": "hotelEbitda"
+   },
+   "_why": "Sum of the three streams in businessLines.hotel. Rooms +13% / +12% / +14%: owned-hotel RevPAR +14% in Q1FY27 (Rs14,972 vs Rs13,082) and the industry +11-13% (HVS Anarock, Jul-2026), 'business on books for Q2 very positive' (12-Aug-2026 call), Rajgarh (opened Nov-2025) ramping over ~3 years; held back by renovations at Trident Nariman Point, The Oberoi Mumbai, Bengaluru and BKC (finished by October), Trident Jaipur and The Oberoi Grand Kolkata closed (Grand reopens ~Sep-2028, 197 keys) and Wildflower Hall run only on an interim operating arrangement. FY29 +14% with the Grand back and Goa/London nearer. F&B +10% / +10% / +11%: hotel F&B +6-7% in Q1 (call), flight catering (OFS Rs154 cr in Q1, 'very healthy growth'). Other services +12% / +10% / +10% (FY26 +15%).",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Operating EBITDA margin FY24 36.9%, FY25 37.5%, FY26 34.8% (OFS mix with a higher airport levy: Rs71 cr vs Rs44 cr; a Rs30 cr political donation and Rs14 cr of CSR inside other expenses; higher repairs), Q1FY27 25.4% vs 27.9% (Rajgarh ramp-up, Rs4 cr extra marketing, Rs7.5 cr renovation write-offs, fuel costs; like-for-like ex-Rajgarh margin 30.6% on the company's measure). 35.0% / 35.8% / 36.5%: rate-led operating leverage and no repeat of the donation, against labour-code wage costs, Rajgarh and the Grand's pre-opening costs."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Corporate costs not in the segment",
+ "_unallocWhy": "Single reported segment: the segment is consolidated operating EBITDA.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "businessLines": {
+  "_why": "FY26 base (AR FY26 consolidated note 30, Rs cr): rooms 1,410.5, food & beverage 1,095.6 (incl. flight catering), other services 433.5 = 2,939.6. Growth per stream in segments[0]._why.",
+  "hotel": {
+   "base": {
+    "room": 1410.5,
+    "fnb": 1095.6,
+    "other": 433.5
+   },
+   "growth": {
+    "room": [
+     13,
+     12,
+     14
+    ],
+    "fnb": [
+     10,
+     10,
+     11
+    ],
+    "other": [
+     12,
+     10,
+     10
+    ]
+   }
+  }
+ },
+ "capex": [
+  650,
+  700,
+  800
+ ],
+ "_capexWhy": "FY26 Rs680 cr on the company's measure (Rs330 cr to convert the Mumbai hotel land from leasehold to freehold, ~Rs125 cr Rajgarh, ~Rs100 cr renovations, the rest replacement). CFO: 'we'll keep spending in that range [Rs600-700 cr] in the next one or two years ... it will go up higher towards FY29-30' (29-May-2026 call); CARE (Dec-2025): ~Rs500-600 cr a year. Rs650 / 700 / 800 cr: Grand Kolkata, Goa, London, Tirupati, Gandikota, then Hebbal (120 + 300 keys and ~7.6 lakh sq ft of commercial space).",
+ "depRateOnGrossBlock": 3,
+ "_depWhy": "FY26 depreciation Rs143 cr = ~3.5% of average gross block (Rs4,096 cr; AR ten-year table Rs3,737 cr -> Rs4,455 cr); Q1FY27 Rs37 cr (Rs148 cr annualised). 3.0% on the model's gross block (Screener Rs4,679 cr incl. right-of-use and intangibles) gives ~Rs150 cr in FY27E, rising with capex.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Zero: the engine would apply it to net cash after lease liabilities and strategic stakes; treasury income is built in otherIncome.",
+ "otherIncome": [
+  200,
+  215,
+  230
+ ],
+ "_otherIncomeWhy": "Screener basis (other income incl. share of associates, before exceptional items): FY25 Rs195 cr, FY26 Rs222 cr = company other income Rs166 cr + associates and JVs Rs57 cr. Built: treasury ~6.5% on ~Rs1,450 cr average surplus funds (Rs1,335 cr Mar-26, Rs1,368 cr Jun-26) = ~Rs95 cr (FY26 interest Rs81 cr + fund gains Rs16 cr); rent from investment property ~Rs30 cr (FY26 Rs29 cr); shared services and miscellaneous ~Rs20 cr (FY26 Rs23 cr; we drop the Rs16 cr of write-backs); associates and JVs ~Rs55 cr (FY25 Rs59 cr, FY26 Rs57 cr, Q1FY27 Rs4 cr in the weak quarter) = Rs200 cr. Then +Rs15 cr a year as cash builds and EIH Associated Hotels opens Visakhapatnam (2027).",
+ "interest": [
+  24,
+  25,
+  26
+ ],
+ "_interestLabel": "Finance cost (lease interest)",
+ "_interestWhy": "No bank debt since FY24 (AR ten-year table). FY26 finance cost Rs23 cr, of which lease interest Rs21 cr (AR note 34); Q1FY27 Rs5 cr.",
+ "taxRate": [
+  30,
+  30,
+  30
+ ],
+ "_taxWhy": "Tax plus minorities (engine workaround: no minority line). FY25: tax ~25% of PBT before exceptional items plus minorities ~3% = 28%; FY26: tax was higher (Q4 32%; 'PAT was down due to the tax impact'), leakage ~33%; Q1FY27: tax Rs49 cr + minorities Rs3 cr on PBT Rs169 cr = 30.8%. 30%: tax ~26-27% (associates' profit is post-tax) plus minorities ~3% (Svara 40%, Oberoi Kerala 20%, Indonesian partners).",
+ "payout": [
+  15,
+  15,
+  15
+ ],
+ "_payoutWhy": "FY26 dividend Rs1.50 a share (FY25 Rs1.20, FY24 Rs1.10) = 15% of consolidated EPS (Rs10.05). 15%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.95,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 36,
+  "fadeCapexPctTo": 12,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "No bank debt and net cash, so the 12.2% cost of equity is the discount rate; beta 0.95, as for IHCL and ITC Hotels: travel demand is cyclical (Covid, the 2026 West Asia shock), no financial leverage.",
+  "_tgWhy": "Indian luxury travel grows with nominal GDP; 6% nominal, the top of the house range (IHCL, ITC Hotels).",
+  "_fadeGrowthWhy": "Revenue growth fades from ~12% to 8% by year 15 as the owned pipeline opens and rate growth normalises.",
+  "_fadeMarginWhy": "36%: near FY29E; EIH earned 37-38% in FY24-25 before the flight-catering mix shift.",
+  "_fadeCapexWhy": "Capex fades from ~20% of revenue (FY29E, Hebbal and the owned pipeline) to 12%: EIH grows mainly by owning (825 owned keys in the pipeline vs 1,833 managed), renovation ~5% plus growth keys."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Foreign arrivals return by H2FY27, owned RevPAR grows ~14-15% a year, Rajgarh and the Grand ramp fast, EIH keeps Wildflower Hall on a long contract and the market pays the top quartile of EIH's own post-Covid multiple range after the same sector move.",
+   "fadeMarginTo": 38,
+   "segments": {
+    "hotel": {
+     "growthDelta": 2,
+     "marginDelta": 1.5
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The 2026 travel shock lingers (Oberoi hotels depend more on foreign guests), RevPAR grows ~6-7%, Wildflower Hall is lost, project delays (Grand, Gandikota, Goa) continue, labour-code wage costs stick and the multiple stays at the bottom quartile after the sector de-rating.",
+   "fadeMarginTo": 33,
+   "segments": {
+    "hotel": {
+     "growthDelta": -4,
+     "marginDelta": -2
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "Hotels (owned, associate-managed and managed; incl. flight catering)",
+    "seg": "hotel",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 13,
+     "bull": 17.5,
+     "bear": 10
+    },
+    "note": "Post-Ind AS operating EBITDA; lease liabilities in the net cash line. Multiple derived in the valuation chapter."
+   },
+   {
+    "name": "Less: minorities in hotel subsidiaries",
+    "adj": {
+     "base": -728,
+     "bull": -1067,
+     "bear": -482
+    },
+    "metricLabel": "4.0% (minorities ÷ profit before minorities) × hotel EV",
+    "note": "Svara Hotels 40%, Oberoi Kerala 20%, PT Widja Putra Karya 30%, PT Waka Oberoi 10%, PT Astina Graha Ubud 40% (AR FY26 note 48). Checked in EIHOTEL.ctx2.js."
+   },
+   {
+    "name": "EIH Associated Hotels (36.81%) at market less 20%, replacing book",
+    "adj": {
+     "base": 293,
+     "bull": 360,
+     "bear": 227
+    },
+    "metricLabel": "2.243 cr shares × Rs297.15 (30-Sep-2026) × 0.8 − Rs240 cr book in model cash",
+    "note": "Listed associate that owns Trident hotels managed by EIH (incl. Jaipur; Visakhapatnam from 2027); bull 10%, bear 30% discount (house rule for listed stakes)."
+   },
+   {
+    "name": "Net cash at Sep-28E (model: cash and investments less lease liabilities)",
+    "netCash": true,
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "½ Mar-28E + ½ Mar-29E",
+    "note": "Mar-26 on Screener: cash and investments less borrowings (all lease liabilities). Other JVs (Avis India 40%, Oberoi Mauritius, La Roseraie) stay at book."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts (EV/EBITDA)",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values hotel companies and has valued EIH: EV/EBITDA on two-year-forward EBITDA (ICICI Securities and ICICI Direct 2022-23; Axis Capital initiated Buy on 29-Sep-2026, method not public). Sep-28E EBITDA, less minorities, the listed associate at market less 20%, plus net cash."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 17,
+      "bull": 22.5,
+      "bear": 13
+     },
+     "why": "Cross-check on attributable earnings: own forward P/E median since Apr-2022 adjusted for the hotel peers' P/E move over the same windows."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, 12.2% discount rate, 6% terminal growth, plus net cash."
+    }
+   ]
+  }
+ }
+}

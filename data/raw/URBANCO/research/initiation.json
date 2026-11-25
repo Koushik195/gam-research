@@ -1,0 +1,3615 @@
+{
+ "symbol": "URBANCO",
+ "listing": "NSE: URBANCO · BSE: 544515",
+ "date": "30 September 2026",
+ "rating": "SELL",
+ "analysts": "GAM Research — Internet & Consumer Platforms",
+ "cover": {
+  "headline": "A trusted franchise, with a costly new bet and a full price",
+  "lead": "Urban Company is India's largest online home-services platform: 9.3 million customers booked beauty, cleaning and repair jobs from ~79,000 trained partners in the year to Jun-2026. The core is accelerating (India services NTV +29% in Q1FY27 at a 6.9% margin) and International and Native are profitable or close. But InstaHelp, its on-demand house-help service, lost ₹132 cr in the quarter, twice what the core earned. The stock trades at ₹{{P.last|num}}, 53% above the ₹103 IPO price, and ~3.34x next year's core NTV against a median of 3.05x since November. Our sum of the parts gives **{{dcf.tp|inr}} ({{dcf.upside|chg}})**: **we initiate with SELL.** Bull case {{scen.bull.tp|inr}}; bear case {{scen.bear.tp|inr}} ({{scen.bear.upside|chg}}). The street's median target is ₹152.5.",
+  "arguments": [
+   {
+    "h": "The core is a quality business, and it is accelerating",
+    "p": "India services NTV grew 29% in Q1FY27, the fourth quarter of acceleration, at a 6.9% of NTV margin (+170 bp). International (+76% NTV) and Native are profitable or close to it. Together the core earned ₹67 cr of adjusted EBITDA in one quarter, against ₹106 cr in all of FY26."
+   },
+   {
+    "h": "InstaHelp is a subsidy war that will run for years",
+    "p": "The house-help service lost ₹132 cr in Q1FY27, twice what the core earned, at ₹346 an order, against venture-funded Snabbit and Pronto. Management needs pricing to rise from ~₹150 to ~₹200 an hour and says that could take up to five years. We forecast losses of ₹380-560 cr a year to FY29E and value them at −₹1,003 cr."
+   },
+   {
+    "h": "Cash-rich, but supply is heavy",
+    "p": "₹2,019 cr of cash and no debt mean no new money is needed on our numbers. But venture funds still own ~40% and have sold into every rally since the Mar-2026 lock-in expiry; SBI Mutual Fund has been the buyer."
+   },
+   {
+    "h": "Valuation: the price already assumes the good outcome",
+    "p": "At ₹157 the market pays 3.34x next year's core NTV, against a median of 3.05x since Nov-2025, while internet stocks de-rated −11.8% over the same months. At our derived 2.7x Sep-28E core NTV, less InstaHelp losses, the sum of the parts gives {{dcf.tp|inr}} ({{dcf.upside|chg}}): SELL. The street's median target is ₹152.5."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA (₹ cr)",
+    "ebitda",
+    "num"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Predictability",
+    "v": "AMBER"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "GREEN"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Balance sheet",
+    "v": "GREEN"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): does India services growth hold above 25% against a tougher base, and does the InstaHelp loss stop rising?",
+   "InstaHelp pricing and rivals: average order value (₹138) and loss per order (₹346); Snabbit and Pronto fund-raising.",
+   "Supply: venture funds still hold ~40%; block sales by Accel, VY Capital and Bessemer have met every rally.",
+   "Guidance test: group adjusted EBITDA breakeven by Q3FY28 needs the InstaHelp loss to roughly halve within 18 months."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Group NTV: ₹1,465 cr in Q1FY27, +42%",
+       "unit": "Net transaction value by quarter (₹ crore)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "NTV",
+         "values": [
+          1031,
+          1030,
+          1081,
+          1148,
+          1465
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters and FY26 annual report, GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "India services growth has accelerated for four quarters",
+       "unit": "India services NTV growth, YoY %",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "NTV growth",
+         "values": [
+          10,
+          19,
+          21,
+          26,
+          29
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters and FY26 annual report, GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "The core earns more each year (Q1 is the seasonal high)...",
+       "unit": "Adjusted EBITDA excl. InstaHelp (₹ crore)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Core adj. EBITDA",
+         "values": [
+          31,
+          10,
+          44,
+          22,
+          67
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters and FY26 annual report, GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "...and InstaHelp spends more than all of it",
+       "unit": "InstaHelp adjusted EBITDA (₹ crore)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "InstaHelp",
+         "values": [
+          -10,
+          -44,
+          -61,
+          -119,
+          -132
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters and FY26 annual report, GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Share price: +53% on the ₹103 IPO price, 13% off the 52-week high",
+       "unit": "₹, daily",
+       "x": "P.series[].0",
+       "series": [
+        {
+         "name": "Price",
+         "ref": "P.series[].1",
+         "fmt": "num",
+         "thin": true
+        }
+       ],
+       "labels": "extremes",
+       "maxTicks": 6,
+       "source": "Screener.in, NSE"
+      },
+      {
+       "type": "line",
+       "title": "The market pays 3.34x forward core NTV; the median since November is 3.05x",
+       "unit": "EV ÷ next full year core NTV (x)",
+       "x": [
+        "2025-11-03",
+        "2025-11-04",
+        "2025-11-06",
+        "2025-11-07",
+        "2025-11-10",
+        "2025-11-11",
+        "2025-11-12",
+        "2025-11-13",
+        "2025-11-14",
+        "2025-11-17",
+        "2025-11-18",
+        "2025-11-19",
+        "2025-11-20",
+        "2025-11-21",
+        "2025-11-24",
+        "2025-11-25",
+        "2025-11-26",
+        "2025-11-27",
+        "2025-11-28",
+        "2025-12-01",
+        "2025-12-02",
+        "2025-12-03",
+        "2025-12-04",
+        "2025-12-05",
+        "2025-12-08",
+        "2025-12-09",
+        "2025-12-10",
+        "2025-12-11",
+        "2025-12-12",
+        "2025-12-15",
+        "2025-12-16",
+        "2025-12-17",
+        "2025-12-18",
+        "2025-12-19",
+        "2025-12-22",
+        "2025-12-23",
+        "2025-12-24",
+        "2025-12-26",
+        "2025-12-29",
+        "2025-12-30",
+        "2025-12-31",
+        "2026-01-01",
+        "2026-01-02",
+        "2026-01-05",
+        "2026-01-06",
+        "2026-01-07",
+        "2026-01-08",
+        "2026-01-09",
+        "2026-01-12",
+        "2026-01-13",
+        "2026-01-14",
+        "2026-01-16",
+        "2026-01-19",
+        "2026-01-20",
+        "2026-01-21",
+        "2026-01-22",
+        "2026-01-23",
+        "2026-01-27",
+        "2026-01-28",
+        "2026-01-29",
+        "2026-01-30",
+        "2026-02-01",
+        "2026-02-02",
+        "2026-02-03",
+        "2026-02-04",
+        "2026-02-05",
+        "2026-02-06",
+        "2026-02-09",
+        "2026-02-10",
+        "2026-02-11",
+        "2026-02-12",
+        "2026-02-13",
+        "2026-02-16",
+        "2026-02-17",
+        "2026-02-18",
+        "2026-02-19",
+        "2026-02-20",
+        "2026-02-23",
+        "2026-02-24",
+        "2026-02-25",
+        "2026-02-26",
+        "2026-02-27",
+        "2026-03-02",
+        "2026-03-04",
+        "2026-03-05",
+        "2026-03-06",
+        "2026-03-09",
+        "2026-03-10",
+        "2026-03-11",
+        "2026-03-12",
+        "2026-03-13",
+        "2026-03-16",
+        "2026-03-17",
+        "2026-03-18",
+        "2026-03-19",
+        "2026-03-20",
+        "2026-03-23",
+        "2026-03-24",
+        "2026-03-25",
+        "2026-03-27",
+        "2026-03-30",
+        "2026-04-01",
+        "2026-04-02",
+        "2026-04-06",
+        "2026-04-07",
+        "2026-04-08",
+        "2026-04-09",
+        "2026-04-10",
+        "2026-04-13",
+        "2026-04-15",
+        "2026-04-16",
+        "2026-04-17",
+        "2026-04-20",
+        "2026-04-21",
+        "2026-04-22",
+        "2026-04-23",
+        "2026-04-24",
+        "2026-04-27",
+        "2026-04-28",
+        "2026-04-29",
+        "2026-04-30",
+        "2026-05-04",
+        "2026-05-05",
+        "2026-05-06",
+        "2026-05-07",
+        "2026-05-08",
+        "2026-05-11",
+        "2026-05-12",
+        "2026-05-13",
+        "2026-05-14",
+        "2026-05-15",
+        "2026-05-18",
+        "2026-05-19",
+        "2026-05-20",
+        "2026-05-21",
+        "2026-05-22",
+        "2026-05-25",
+        "2026-05-26",
+        "2026-05-27",
+        "2026-05-29",
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-19",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "EV/forward core NTV",
+         "values": [
+          3.97,
+          3.881,
+          3.725,
+          3.694,
+          3.426,
+          3.802,
+          3.705,
+          3.643,
+          3.648,
+          3.775,
+          3.863,
+          3.769,
+          3.749,
+          3.713,
+          3.561,
+          3.498,
+          3.574,
+          3.515,
+          3.486,
+          3.487,
+          3.49,
+          3.349,
+          3.342,
+          3.343,
+          3.253,
+          3.328,
+          3.286,
+          3.24,
+          3.309,
+          3.151,
+          3.11,
+          3.128,
+          3.137,
+          3.257,
+          3.196,
+          3.195,
+          3.255,
+          3.297,
+          3.288,
+          3.386,
+          3.444,
+          3.381,
+          3.419,
+          3.578,
+          3.462,
+          3.543,
+          3.427,
+          3.504,
+          3.491,
+          3.5,
+          3.522,
+          3.358,
+          3.324,
+          3.203,
+          3.276,
+          3.333,
+          3.203,
+          3.136,
+          3.17,
+          3.206,
+          3.187,
+          3.085,
+          3.12,
+          3.176,
+          3.143,
+          3.154,
+          3.125,
+          3.156,
+          3.268,
+          3.166,
+          3.095,
+          3.1,
+          2.984,
+          3.044,
+          3.062,
+          3.015,
+          3.001,
+          2.851,
+          2.757,
+          2.72,
+          2.724,
+          2.697,
+          2.581,
+          2.681,
+          2.725,
+          2.668,
+          2.706,
+          2.77,
+          2.817,
+          2.905,
+          2.783,
+          2.872,
+          2.783,
+          3.098,
+          2.892,
+          2.897,
+          2.783,
+          2.899,
+          2.896,
+          2.91,
+          3.032,
+          2.554,
+          2.508,
+          2.545,
+          2.516,
+          2.571,
+          2.631,
+          2.8,
+          2.814,
+          2.838,
+          2.792,
+          2.779,
+          2.796,
+          2.862,
+          3.113,
+          3.027,
+          2.981,
+          3.018,
+          2.991,
+          3.097,
+          3.193,
+          3.223,
+          3.079,
+          3.065,
+          3.078,
+          2.929,
+          2.617,
+          2.526,
+          2.617,
+          2.564,
+          2.499,
+          2.529,
+          2.522,
+          2.466,
+          2.466,
+          2.478,
+          2.584,
+          2.555,
+          2.555,
+          2.478,
+          2.477,
+          2.504,
+          2.559,
+          2.555,
+          2.603,
+          2.483,
+          2.559,
+          2.539,
+          2.546,
+          2.626,
+          2.676,
+          2.681,
+          2.708,
+          2.738,
+          2.71,
+          2.867,
+          2.78,
+          2.778,
+          2.703,
+          2.747,
+          2.738,
+          2.675,
+          2.75,
+          2.751,
+          2.795,
+          2.903,
+          2.772,
+          2.867,
+          2.77,
+          2.777,
+          2.753,
+          2.797,
+          2.774,
+          2.715,
+          2.79,
+          2.802,
+          2.727,
+          2.72,
+          2.702,
+          2.717,
+          2.714,
+          2.736,
+          2.719,
+          2.693,
+          3.079,
+          2.98,
+          2.995,
+          2.998,
+          3.023,
+          2.921,
+          2.931,
+          2.915,
+          2.968,
+          3.038,
+          3.042,
+          3.051,
+          3.117,
+          3.063,
+          3.364,
+          3.599,
+          3.609,
+          3.569,
+          3.565,
+          3.589,
+          3.559,
+          3.571,
+          3.668,
+          3.797,
+          3.88,
+          3.765,
+          3.666,
+          3.662,
+          3.501,
+          3.554,
+          3.355,
+          3.501,
+          3.46,
+          3.605,
+          3.704,
+          3.722,
+          3.688,
+          3.654,
+          3.602,
+          3.424,
+          3.481,
+          3.338
+         ],
+         "fmt": "n2",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "maxTicks": 6,
+       "lines": [
+        {
+         "v": 3.0475000000000003,
+         "text": "Median 3.05x (our multiple 2.7x, after a −11.8% sector move)"
+        }
+       ],
+       "source": "Screener.in prices; NTV actual and GAM estimates"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Our forecast: EBITDA turns positive in FY29E",
+       "unit": "EBITDA, Screener definition (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY23",
+       "series": [
+        {
+         "name": "EBITDA",
+         "ref": "fin.ebitda",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company, GAM Research estimates"
+      },
+      {
+       "type": "hbar",
+       "title": "Sum of the parts: India services is most of the value",
+       "unit": "₹ per share",
+       "x": [
+        "India consumer services (ex-InstaHelp)",
+        "International (UAE, Singapore)",
+        "Native",
+        "InstaHelp (losses still to fund)",
+        "Net cash at end-FY27E"
+       ],
+       "series": [
+        {
+         "name": "₹/share",
+         "values": [
+          88.8,
+          27.9,
+          13.4,
+          -6.4,
+          10.1
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "GAM Research estimates"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What Urban Company does",
+   "kicker": "The business",
+   "title": "A managed marketplace for jobs inside the home",
+   "blocks": [
+    {
+     "p": "Urban Company runs an app on which households book services at home: beauty and spa, cleaning and pest control, electricians, plumbers, carpenters, appliance repair and painting. It is a **full-stack** (managed) marketplace: it does not just list providers but trains them, sells them tools and consumables, sets prices, checks quality through ratings and stands behind the job. Partners are independent; Urban Company keeps a commission plus fees (its \"take rate\"). It also sells its own **Native** water purifiers and smart locks, runs the same model in the **UAE and Singapore** (and Saudi Arabia through a JV), and since 2025 offers **InstaHelp**, on-demand house help. Its headline measure is **NTV**, what customers pay for services and Native products."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Urban Company in FY26 and Q1FY27",
+      "head": [
+       "Measure",
+       "FY26",
+       "Q1FY27",
+       "What it tells you"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Annual transacting users",
+        "8.43 mn",
+        "9.28 mn",
+        "+21% in India services; Tier 2 cities growing fastest"
+       ],
+       [
+        "Orders",
+        "33.6 mn",
+        "13.2 mn",
+        "+79% YoY, mostly InstaHelp (3.8 mn)"
+       ],
+       [
+        "Group NTV (₹ cr)",
+        "4,290",
+        "1,465",
+        "+31% in FY26; +42% in Q1"
+       ],
+       [
+        "Revenue, % of NTV",
+        "36.3%",
+        "36.0%",
+        "Commission, fees and products"
+       ],
+       [
+        "India services adj. EBITDA, % of NTV",
+        "4.1%",
+        "6.9%",
+        "Rising; target 9-10%"
+       ],
+       [
+        "Group adj. EBITDA (₹ cr)",
+        "-129",
+        "-65",
+        "Core +67, InstaHelp -132 in Q1"
+       ],
+       [
+        "Monthly active partners",
+        "59,473",
+        "78,824",
+        "Average rating 4.79/5"
+       ],
+       [
+        "Cash (₹ cr)",
+        "2,021",
+        "2,019",
+        "No debt"
+       ]
+      ],
+      "source": "Q4FY26 and Q1FY27 shareholders' letters"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "India services is three-quarters of NTV",
+       "unit": "Q1FY27 NTV by segment (₹ crore)",
+       "x": [
+        "India services",
+        "International",
+        "Native",
+        "InstaHelp"
+       ],
+       "series": [
+        {
+         "name": "NTV",
+         "values": [
+          1056,
+          237,
+          119,
+          53
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters and FY26 annual report, GAM Research"
+      },
+      {
+       "type": "waterfall",
+       "title": "Q1FY27: from segment profit to group adjusted EBITDA",
+       "unit": "₹ crore",
+       "x": [
+        "India services",
+        "International",
+        "Native",
+        "InstaHelp",
+        "Group"
+       ],
+       "series": [
+        {
+         "name": "Bridge",
+         "values": [
+          73,
+          3,
+          -9,
+          -132,
+          -65
+         ]
+        }
+       ],
+       "fmt": "num",
+       "totalFmt": "num",
+       "source": "Urban Company shareholders' letters and FY26 annual report, GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "Urban Company in numbers (Q1FY27)",
+      "tiles": [
+       {
+        "k": "Customers",
+        "v": "9.28 mn",
+        "d": "annual transacting users"
+       },
+       {
+        "k": "Partners",
+        "v": "78,824",
+        "d": "monthly active"
+       },
+       {
+        "k": "Cities",
+        "v": "51",
+        "d": "India, UAE, Singapore (+ KSA JV)"
+       },
+       {
+        "k": "Core margin",
+        "v": "6.9%",
+        "d": "India services, % of NTV"
+       },
+       {
+        "k": "Cash",
+        "v": "₹2,019 cr",
+        "d": "Jun-2026; no debt"
+       }
+      ],
+      "source": "Q1FY27 shareholders' letter"
+     }
+    },
+    {
+     "callout": "**Two numbers matter most.** The India-services margin (adjusted EBITDA as a % of NTV) shows whether the core is turning scale into profit: 4.1% in FY26, 6.9% in Q1FY27 (seasonally strong), target 9-10%. The InstaHelp loss shows how much of that profit is being reinvested: ₹132 cr in Q1FY27. The group breaks even when the first outgrows the second."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "Eleven years to build trust in the home; a profitable core by FY26",
+   "blocks": [
+    {
+     "p": "Urban Company was set up in 2014 as UrbanClap, a marketplace that connected customers with local service providers. It found that listing providers was not enough: customers wanted a guaranteed standard. So it moved to a \"full-stack\" model in which it trains, equips, prices and rates its partners and stands behind the job. That model took a decade and ~₹1,400 cr of venture money in FY22 alone to scale, but by FY24 the India business was close to breakeven. Three recent events shape today's numbers: the 2025 launch of InstaHelp (a costly new category), the Sep-2025 IPO, and the Mar-2026 end of the pre-IPO lock-in."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "Dec-2014",
+        "Incorporated as UrbanClap Technologies by three co-founders",
+        "Venture-funded losses until FY24"
+       ],
+       [
+        "FY22",
+        "Peak loss ₹514 cr; ₹1,383 cr raised in financing",
+        "Cash cushion that still funds InstaHelp"
+       ],
+       [
+        "FY24",
+        "Loss cut to ₹93 cr; core India services near breakeven",
+        "Operating leverage visible"
+       ],
+       [
+        "FY25",
+        "First profit ₹240 cr, from a ₹211 cr deferred-tax credit; KSA into a 50:50 JV (Jan-2025); InstaHelp launched",
+        "Underlying PBT only ₹29 cr"
+       ],
+       [
+        "Sep-2025",
+        "IPO at ₹103 (₹472 cr fresh, ₹1,428 cr offer for sale); listed 17-Sep at +57%",
+        "Net cash rose to ₹2,136 cr"
+       ],
+       [
+        "FY26",
+        "InstaHelp loss ₹235 cr; group loss ₹235 cr incl. ₹60 cr DTA reversal; labour codes in force (21-Nov-2025)",
+        "Core adjusted EBITDA up 9x to ₹106 cr"
+       ],
+       [
+        "Mar-2026",
+        "Pre-IPO lock-in ended (17-Mar); stock fell below the issue price (low ~₹96-101)",
+        "Supply overhang; SBI MF steps in"
+       ],
+       [
+        "Q1FY27",
+        "NTV +42%; core adjusted EBITDA ₹67 cr; InstaHelp loss ₹132 cr",
+        "Stock +13% on results day"
+       ]
+      ],
+      "source": "FY26 annual report, shareholders' letters, exchange and press reports (Inc42, Business Today, Business Standard) dated on or before 30-Sep-2026"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Group NTV: +31% in FY26",
+       "unit": "Net transaction value (₹ crore)",
+       "x": [
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "NTV",
+         "values": [
+          2564,
+          3271,
+          4290
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 shareholders' letter"
+      },
+      {
+       "type": "column",
+       "title": "India services margin: from a loss to 4.1% of NTV in two years",
+       "unit": "India services adjusted EBITDA, % of NTV",
+       "x": [
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Margin",
+         "values": [
+          -0.5,
+          3.3,
+          4.1
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 shareholders' letter"
+      }
+     ]
+    },
+    {
+     "h": "Capital raised and what it cost shareholders"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Corporate actions",
+      "head": [
+       "Action",
+       "Date",
+       "Amount (₹ cr)",
+       "Effect on shareholders"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Venture rounds (Accel, Elevation, Bessemer, Tiger, VY Capital, Prosus, Steadview and others)",
+        "FY15-FY25",
+        "n.d.",
+        "Funded the losses to FY24; these funds still held ~40% at Mar-2026."
+       ],
+       [
+        "Pre-IPO secondary sales (founders and early investors)",
+        "Sep-2024 to Mar-2025",
+        "~1,400",
+        "Founders sold ~₹780 cr; Bessemer, Accel and Tiger ~₹615 cr (Entrackr). No cash to the company."
+       ],
+       [
+        "KSA moved into a 50:50 JV with SMASCO",
+        "Jan-2025",
+        "–",
+        "Deconsolidated: Saudi NTV and revenue leave the group; its loss shows as a share of JV loss."
+       ],
+       [
+        "IPO at ₹103",
+        "10-12 Sep 2025; listed 17-Sep-2025",
+        "1,900 (472 fresh, 1,428 OFS)",
+        "~4.6 cr new shares (~3% dilution); ₹469 cr net to the company; subscribed 104x."
+       ],
+       [
+        "ESOP trust and options",
+        "Mar-2026",
+        "–",
+        "8.0 cr treasury shares held by the trust; 10.0 cr options outstanding at ₹1. We value on 156.2 cr diluted shares."
+       ],
+       [
+        "Dividends / buybacks",
+        "Never",
+        "–",
+        "All cash retained."
+       ]
+      ],
+      "source": "FY26 annual report, IPO coverage (Inc42, Entrackr), Q4FY26 letter"
+     }
+    },
+    {
+     "callout": "**What this means:** the venture-funded years are mostly over for the core, which now funds itself; the IPO added only ₹469 cr. The cash pile (₹2,019 cr) is what pays for InstaHelp. The bigger cost to shareholders today is supply: the six-month lock-in ended on 17-Mar-2026, freeing ~66% of the shares, and venture funds have been sellers since."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry & competition",
+   "kicker": "Industry",
+   "title": "A huge market that is still 99% offline; the only online rivals of size are in house help",
+   "blocks": [
+    {
+     "p": "India's home-services market is large but almost entirely offline: Redseer (in the IPO prospectus) puts it at US$59 bn in CY2024, growing 10-11% a year to ~US$97 bn by CY2029, with online platforms under 1% of it. Brokers' estimates are similar: ₹5.1-5.2 lakh crore in FY25 rising to ₹8.4-8.6 lakh crore by FY30, online share 0.8% → 1.3% (Ambit, Mar-2026); online full-stack home services ₹4,100-4,300 cr in FY25, growing 18-22% a year, of which Urban Company has ~65-70% (MOSL, Mar-2026)."
+    },
+    {
+     "p": "In its core categories Urban Company has no listed or scaled online rival: competition is the local beautician, electrician or cleaner found by word of mouth, plus NoBroker's home services (~2 lakh requests a month, Zivora beauty brand). InstaHelp is different: on-demand house help has drawn venture money. Snabbit raised US$56 mn in Apr-2026 (valued ~US$350 mn) and ran ~1.85 mn orders in Jul-2026; Pronto raised US$45 mn at a ~US$200 mn valuation by May-2026 (~0.95 mn orders a month). InstaHelp is the largest, with >100,000 daily orders by Aug-2026, but all three subsidise orders."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Who Urban Company competes with",
+      "head": [
+       "Player",
+       "Owner",
+       "Model",
+       "What it means for Urban Company"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Urban Company**",
+        "Listed (Sep-2025)",
+        "Full-stack marketplace; 51 cities; Native products",
+        "9.28 mn annual customers; NTV ₹4,290 cr in FY26"
+       ],
+       [
+        "Local, unorganised providers",
+        "–",
+        "Word of mouth, cash, no warranty",
+        "The real competitor: >98% of the market; cheaper, but no quality guarantee"
+       ],
+       [
+        "NoBroker home services (Zivora)",
+        "NoBroker (unlisted)",
+        "Home services attached to a property platform",
+        "Smaller (~2 lakh requests a month); competes in cleaning, painting, beauty"
+       ],
+       [
+        "Snabbit",
+        "Venture-funded (unlisted)",
+        "On-demand house help",
+        "Raised US$56 mn (Apr-2026); ~1.85 mn orders in Jul-2026"
+       ],
+       [
+        "Pronto",
+        "Venture-funded (unlisted)",
+        "On-demand house help",
+        "Raised to ~US$200 mn valuation (May-2026); ~0.95 mn orders a month"
+       ],
+       [
+        "Kent RO, Aquaguard and others",
+        "Listed and unlisted",
+        "Water purifiers",
+        "Native's rivals; Kent withdrew disparaging ads after Urban Company sued (Aug-2026)"
+       ]
+      ],
+      "source": "Company filings, broker notes (JM Financial, Emkay), press (Entrackr, Enterprise, Inc42, Bar & Bench)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Market facts",
+      "head": [
+       "Measure",
+       "Value",
+       "Source"
+      ],
+      "rows": [
+       [
+        "India home-services market",
+        "US$59 bn (CY24) → ~US$97 bn (CY29)",
+        "Redseer, in the RHP"
+       ],
+       [
+        "Online share",
+        "<1% of NTV; 0.8% (FY25) → 1.3% (FY30P)",
+        "Redseer; Ambit (Mar-2026)"
+       ],
+       [
+        "Online full-stack home services",
+        "₹4,100-4,300 cr (FY25), +18-22% a year",
+        "MOSL (Mar-2026)"
+       ],
+       [
+        "Urban Company share of online full-stack",
+        "~65-70%",
+        "MOSL (Mar-2026)"
+       ],
+       [
+        "InstaHelp TAM, top 15 cities",
+        "₹7,000-12,000 cr of NTV",
+        "Company (Q1FY27 letter)"
+       ]
+      ],
+      "source": "As cited; all published on or before 30-Sep-2026"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Tailwind test: Urban Company captures the shift online, but slowly",
+   "blocks": [
+    {
+     "p": "A growing market does not guarantee a winner. The test is whether Urban Company captures each tailwind and turns it into profit."
+    },
+    {
+     "verdicts": [
+      [
+       "Households moving from informal to trusted, online services",
+       "Yes",
+       "Annual customers +24% in FY26 to 8.43 mn; 83% of FY26 India NTV from retained users.",
+       "The core of the story; still under 2% of the market."
+      ],
+      [
+       "Growth beyond the metros",
+       "Yes",
+       "Tier 2 cities NTV +36% in Q1FY27 vs +29% in the top 10.",
+       "A second growth engine, early."
+      ],
+      [
+       "Premium beauty and wellness at home",
+       "Yes",
+       "Beauty \"resurgence\" over six months (Q1FY27 letter).",
+       "Highest-value category; quality matters."
+      ],
+      [
+       "Quick, on-demand services (\"instant\")",
+       "Partly",
+       "UC Instant cuts waiting times; InstaHelp grew orders 43% QoQ but loses ₹346 an order.",
+       "Lifts frequency at a large cost."
+      ],
+      [
+       "Gulf demand for organised home services",
+       "Yes",
+       "International NTV +75% in FY26; UAE and Singapore profitable.",
+       "A real second profit pool; Middle East risk."
+      ],
+      [
+       "Gig-worker regulation",
+       "Headwind",
+       "Labour codes (21-Nov-2025): 1-2% of turnover to a welfare fund, capped at 5% of payouts.",
+       "A small permanent cost."
+      ],
+      [
+       "Venture money in house help",
+       "Headwind",
+       "Snabbit and Pronto raised >US$100 mn in 2026.",
+       "Keeps InstaHelp prices and margins low."
+      ]
+     ],
+     "head": [
+      "Industry tailwind",
+      "Captured?",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Tailwind test",
+     "source": "Urban Company Q4FY26 and Q1FY27 letters, broker notes and press (Jan-Sep 2026), GAM Research"
+    }
+   ]
+  },
+  {
+   "id": "ics",
+   "nav": "India services",
+   "kicker": "Segment: India consumer services",
+   "title": "The core: growth accelerating to 29%, margin at 6.9% of NTV and rising",
+   "blocks": [
+    {
+     "p": "India consumer services (excluding InstaHelp) is 74% of group NTV and the source of nearly all profit. Customers book a job (a facial, a deep clean, an AC repair) at a fixed price; a trained partner arrives with Urban Company's tools and products; Urban Company keeps ~34% of what the customer pays as commission, fees and product sales to the partner. NTV grew 29% in Q1FY27 to ₹1,056 cr: users +21% to 8.2 mn, spend per user +7%. Growth has accelerated for four quarters (10% → 19% → 21% → 26% → 29%), partly because Q1FY26 was hit by unseasonal rain."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "India services NTV: ₹1,000 cr in a quarter for the first time",
+       "unit": "NTV by quarter (₹ crore)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "NTV",
+         "values": [
+          816,
+          762,
+          781,
+          808,
+          1056
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters (Q4FY26, Q1FY27), GAM Research"
+      },
+      {
+       "type": "line",
+       "title": "Margins rise each year; Q1 is the seasonal high",
+       "unit": "% of NTV",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Contribution profit",
+         "values": [
+          20.6,
+          20.6,
+          21.5,
+          21.8,
+          21.4
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "Adjusted EBITDA",
+         "values": [
+          5.2,
+          2.4,
+          5.6,
+          3.3,
+          6.9
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters (Q4FY26, Q1FY27), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "India services by year (₹ crore; margins % of NTV)",
+      "head": [
+       "",
+       "FY24",
+       "FY25",
+       "FY26",
+       "Q1FY27",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "NTV",
+        "2,216",
+        "2,667",
+        "3,167",
+        "1,056",
+        "{{F.seg.ics.driver.0|num}}",
+        "{{F.seg.ics.driver.1|num}}",
+        "{{F.seg.ics.driver.2|num}}"
+       ],
+       [
+        "NTV growth",
+        "–",
+        "+20%",
+        "+19%",
+        "+29%",
+        "+24%",
+        "+20%",
+        "+18%"
+       ],
+       [
+        "Revenue, % of NTV",
+        "32%",
+        "33%",
+        "34.3%",
+        "33.7%",
+        "34.0%",
+        "34.0%",
+        "34.0%"
+       ],
+       [
+        "Contribution profit",
+        "19.6%",
+        "20.2%",
+        "21.2%",
+        "21.4%",
+        "–",
+        "–",
+        "–"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "Adjusted EBITDA",
+         "-0.5%",
+         "3.3%",
+         "4.1%",
+         "6.9%",
+         "5.6%",
+         "6.8%",
+         "7.8%"
+        ]
+       }
+      ],
+      "source": "Q4FY26 and Q1FY27 letters; GAM Research estimates"
+     }
+    },
+    {
+     "p": "**How the margin keeps rising.** The +170 bp YoY in Q1FY27 came in equal parts from contribution margin (AI tools cut customer and partner support costs) and operating leverage (revenue grew faster than salaries and overheads). Partners work more hours as density rises (59 a month in FY22, 90 in FY26), which raises their earnings and cuts churn and onboarding costs. Management targets 9-10% of NTV \"over the next few years\" and says it will not \"squeeze all the margins out overnight\". We assume ~120 bp a year: 5.6% / 6.8% / 7.8% for FY27-29E."
+    },
+    {
+     "callout": "**Our view:** this is a good business: a decade of operating data, a trusted brand and density that rivals cannot buy quickly. Growth near 20% and margins rising toward 9-10% of NTV are credible. The risks are the partners (pay, social-security rules, protests) and disintermediation (customers rebooking the same partner offline)."
+    }
+   ]
+  },
+  {
+   "id": "intlnative",
+   "nav": "International & Native",
+   "kicker": "Segments: International and Native",
+   "title": "International is a second profit engine; Native is close to breakeven",
+   "blocks": [
+    {
+     "p": "**International** (UAE and Singapore, wholly owned) runs the India playbook for local customers and the diaspora. NTV grew 75% in FY26 (ex-KSA) to ₹700 cr and 76% in Q1FY27 (58% in constant currency); adjusted EBITDA turned positive in FY26 (₹6 cr) and was ₹3 cr in Q1FY27. The Middle East conflict cut UAE demand 15-20% in late March 2026, without a lasting fall in frequency. In Saudi Arabia Urban Company runs **Yammak**, a 50:50 JV with SMASCO: NTV ₹77 cr in Q1FY27 (+135%), loss narrowing to ₹9 cr (100% basis)."
+    },
+    {
+     "p": "**Native** sells Urban Company's own water purifiers (sold with long service plans) and electronic door locks, on the app, on marketplaces and in stores. NTV grew 122% in FY26 to ₹345 cr and 51% in Q1FY27; the loss narrowed from −25.1% of NTV (FY25) to −8.9% (FY26) and −7.3% (Q1FY27). More than half of FY26 purifier buyers were new to Urban Company. Management targets a ₹1,000 cr revenue business and sees profit \"over the next few quarters\"; the weaker rupee and commodity prices are a near-term cost headwind."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "International NTV +76% in Q1FY27",
+       "unit": "International (ex-KSA) NTV by quarter (₹ crore)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "NTV",
+         "values": [
+          135,
+          160,
+          193,
+          211,
+          237
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters (Q4FY26, Q1FY27), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Native: loss stable at ~₹9 cr a quarter as NTV grows",
+       "unit": "Native adjusted EBITDA by quarter (₹ crore)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Adj. EBITDA",
+         "values": [
+          -9,
+          -9,
+          -4,
+          -9,
+          -9
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters (Q4FY26, Q1FY27), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** both are real businesses, not options. We forecast International NTV +50% / 35% / 28% at margins rising to 4.5% of NTV, and Native +45% / 35% / 30%, breaking even in FY28E. Together they add ₹{{dcf.sotp.parts.1.perShare|n1}} and ₹{{dcf.sotp.parts.2.perShare|n1}} a share to our sum of the parts."
+    }
+   ]
+  },
+  {
+   "id": "instahelp",
+   "nav": "InstaHelp",
+   "kicker": "Segment: InstaHelp",
+   "title": "InstaHelp: from 72,000 to 3.8 mn orders a quarter, at a loss of ₹346 an order",
+   "blocks": [
+    {
+     "p": "InstaHelp sends a house-help professional on demand for daily cleaning and housekeeping, booked by the hour. It started in 2025 and grew from 72,000 orders in Q1FY26 to 3.8 mn in Q1FY27. It is the most frequent service Urban Company offers: weekly or daily, against monthly or quarterly for the core. But it is in a price war: the average order fell from ₹172 (Q3FY26) to ₹138, venture-funded Snabbit and Pronto subsidise orders too, and InstaHelp lost ₹132 cr in Q1FY27 (₹235 cr in FY26). Management says the category needs ~₹200 an hour to break even (~₹150 covers only the partner and gross costs) and that getting there could take \"a couple of years\" or, in the worst case, five."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "InstaHelp orders: +43% QoQ in Q1FY27",
+       "unit": "Fulfilled orders (thousand)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Orders",
+         "values": [
+          72,
+          582,
+          1607,
+          2670,
+          3823
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters (Q4FY26, Q1FY27), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "InstaHelp loss: ₹132 cr a quarter and still rising",
+       "unit": "Adjusted EBITDA (₹ crore)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Adj. EBITDA",
+         "values": [
+          -10,
+          -44,
+          -61,
+          -119,
+          -132,
+          -562,
+          -478,
+          -381
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters (Q4FY26, Q1FY27), GAM Research; FY27-29E are full years"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "InstaHelp unit economics",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q2FY26",
+       "Q3FY26",
+       "Q4FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "Orders (thousand)",
+        "72",
+        "582",
+        "1,607",
+        "2,670",
+        "3,823"
+       ],
+       [
+        "NTV (₹ cr)",
+        "0.9",
+        "9.9",
+        "27.6",
+        "40.1",
+        "52.9"
+       ],
+       [
+        "Average order (₹)",
+        "122",
+        "170",
+        "172",
+        "150",
+        "138"
+       ],
+       [
+        "Adjusted EBITDA (₹ cr)",
+        "-10",
+        "-44",
+        "-61",
+        "-119",
+        "-132"
+       ],
+       [
+        "Loss per order (₹)",
+        "−1,374",
+        "−760",
+        "−381",
+        "−447",
+        "−346"
+       ]
+      ],
+      "source": "Q1FY27 shareholders' letter"
+     }
+    },
+    {
+     "callout": "**Our view:** we value InstaHelp at the present value of the losses still to fund after Mar-2027 (−₹1,003 cr, ~₹6 a share; factor 2.1 on our FY28E loss), not at an option value. The strategic case is real (frequency, a \"volume moat\" around the core), and it could become valuable if rivals run out of money. But today each order loses more than twice what it brings in, and the street's positive values for InstaHelp (Emkay ₹28 a share, MOSL ₹10) assume an outcome that is not yet visible."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: a real moat in trust and density, weaker on price",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Trust and quality control (training, background checks, ratings, warranties)",
+       "Strong",
+       "Average rating 4.79/5 over millions of jobs; 83% of FY26 India NTV from retained users; the model is hard to copy without a decade of operating data.",
+       "Hard to copy quickly"
+      ],
+      [
+       "Local density (supply and demand in each micro-market)",
+       "Moderate-strong",
+       "Partner hours up from 59 to 90 a month (FY22-FY26); UC Instant cuts waiting times where density is high; Tier 2 cities growing 36%.",
+       "Helps, can be matched"
+      ],
+      [
+       "Brand",
+       "Moderate",
+       "Largest online home-services brand in India (~65-70% of the online full-stack market, MOSL); Native sells half its purifiers to new users.",
+       "Helps, can be matched"
+      ],
+      [
+       "Cost advantage",
+       "Weak-moderate",
+       "Contribution margin ~21% of NTV in India; AI-led support savings; but InstaHelp shows rivals can undercut on price with venture money.",
+       "Not a source of excess returns"
+      ],
+      [
+       "Switching costs",
+       "Weak",
+       "Customers and partners can and do go offline after the first booking (\"disintermediation\"); commissions cap partner loyalty.",
+       "Not a source of excess returns"
+      ]
+     ],
+     "head": [
+      "Source of advantage",
+      "Strength",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Competitive advantage scorecard",
+     "source": "Company filings, broker notes (MOSL, JM Financial, Emkay), GAM Research"
+    },
+    {
+     "callout": "**Verdict: a narrow but real moat in the core.** In beauty, cleaning and repairs, no online rival of size has emerged in a decade: the hard part (training, quality control, local density, trust inside the home) is what Urban Company has built. The moat is weaker against the informal market (customers can rebook a partner directly) and in InstaHelp, where the product is simpler and venture money can buy share. Pricing power exists in premium beauty, less so elsewhere."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue up 7x in six years; the core now makes money, InstaHelp spends it",
+   "blocks": [
+    {
+     "p": "Urban Company's revenue rose from ₹219 cr in FY20 to ₹1,556 cr in FY26 (+36% in FY26). Revenue is the company's share of what customers pay (commission and fees), plus products it sells to its service partners and Native's water purifiers and locks; it is ~36% of the value customers spend on the platform (NTV, ₹4,290 cr in FY26). The loss peaked at ₹514 cr in FY22, fell to ₹93 cr in FY24, and FY25 showed a ₹240 cr profit only because of a ₹211 cr one-time tax credit. In FY26 the loss was back at ₹235 cr: the core businesses earned ₹106 cr of adjusted EBITDA, but the new InstaHelp house-help service lost ₹235 cr and ₹60 cr of deferred-tax assets were written back."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: 36% growth in FY26, 44% in Q1FY27",
+       "unit": "Revenue from operations (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY20",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num",
+         "growth": true
+        }
+       ],
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit: FY25's \"profit\" was a tax credit",
+       "unit": "Net profit / (loss), ₹ crore",
+       "x": "fin.labels",
+       "from": "FY20",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Quarterly revenue keeps rising",
+       "unit": "Revenue from operations, quarterly (₹ crore)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "Q.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Quarterly EBITDA: the InstaHelp build-out shows from Q2FY26",
+       "unit": "EBITDA as reported by Screener, quarterly (₹ crore)",
+       "x": "Q.labels",
+       "series": [
+        {
+         "name": "EBITDA",
+         "ref": "Q.ebitda",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** read Urban Company in two halves. The core (India services, International, Native) is profitable and its margin is rising: adjusted EBITDA went from ₹12 cr in FY25 to ₹106 cr in FY26 and ₹67 cr in Q1FY27 alone. InstaHelp is a start-up inside a listed company, losing more than the core earns. Group EBITDA as reported (Screener −₹254 cr in FY26) also carries ESOP cost (₹104 cr) and the Saudi JV loss (₹31 cr). Treasury income (₹137 cr) covers about half of the loss."
+    }
+   ]
+  },
+  {
+   "id": "earnings",
+   "nav": "Reported vs adjusted",
+   "kicker": "Earnings quality",
+   "title": "Reported vs adjusted: rent, ESOPs, the Saudi JV and tax credits",
+   "blocks": [
+    {
+     "p": "Urban Company's headline profit measure, **adjusted EBITDA**, is the sum of its four segment results. It is stricter than most on one point (it deducts rent, ₹38 cr in FY26) and looser on others (it leaves out ESOP cost, one-offs and the loss of the Saudi JV). In FY26 adjusted EBITDA was −₹129 cr; adding back rent and deducting ESOP (₹104 cr) and one-offs (₹28 cr of listing costs and a warehouse fire) gives Ind AS EBITDA of −₹223 cr. After depreciation (₹45 cr), the JV loss (₹31 cr), lease interest (₹12 cr) and treasury income (₹137 cr), the pre-tax loss was ₹175 cr; a ₹60 cr tax charge (deferred-tax assets written back) took the net loss to ₹235 cr."
+    },
+    {
+     "pair": [
+      {
+       "type": "waterfall",
+       "title": "FY26: from adjusted EBITDA to net loss",
+       "unit": "₹ crore",
+       "x": [
+        "Adj. EBITDA",
+        "Rent added back",
+        "ESOP",
+        "One-offs",
+        "D&A and interest",
+        "KSA JV loss",
+        "Other income",
+        "Tax",
+        "Net loss"
+       ],
+       "series": [
+        {
+         "name": "Bridge",
+         "values": [
+          -129,
+          38,
+          -104,
+          -28,
+          -57,
+          -31,
+          137,
+          -60,
+          -235
+         ]
+        }
+       ],
+       "fmt": "num",
+       "totalFmt": "num",
+       "source": "Q4FY26 letter (reconciliations, pp. 23-26)"
+      },
+      {
+       "type": "column",
+       "title": "ESOP cost is rising after the IPO grants",
+       "unit": "Share-based compensation (₹ crore)",
+       "x": [
+        "FY24",
+        "FY25",
+        "FY26",
+        "Q1FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "ESOP",
+         "values": [
+          57,
+          73,
+          104,
+          23,
+          38
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Urban Company shareholders' letters and FY26 annual report, GAM Research"
+      }
+     ]
+    },
+    {
+     "bullets": [
+      "**FY25 was not a real profit.** The ₹240 cr net profit included a ₹211 cr one-time deferred-tax credit; PBT was ₹29 cr. In FY26 ₹60 cr of those assets were written back because some tax losses may lapse while InstaHelp keeps the group loss-making, and ₹151 cr remain on the standalone balance sheet.",
+      "**ESOP is a real cost.** 10.0 cr options (~6.4% of the company) were outstanding at Mar-26 at ₹1. We count them in the share count (156.2 cr) and charge ₹150-170 cr a year in our forecasts (₹38 cr in Q1FY27).",
+      "**Treasury income props up the bottom line.** ₹131 cr of interest on bonds and deposits in FY26 covered half of the operating loss; it shrinks as cash funds InstaHelp.",
+      "**Two \"EBITDA\"s.** Screener's FY26 EBITDA (−₹254 cr) includes the ₹31 cr Saudi JV loss; the company's Ind AS EBITDA (−₹223 cr) does not. Our model follows Screener's definition for history and forecasts.",
+      "**Tax is paid even in a loss.** Profitable subsidiaries paid ₹8 cr of tax in Q1FY27. Our model taxes only positive group profit, so FY27-28E losses are slightly understated.",
+      "**Contingent liabilities are modest:** ₹116 cr, mainly GST demands (₹52 cr paid under protest)."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** Disclosure is excellent: segment P&Ls, a reconciliation to Ind AS and free cash flow every quarter, and the auditor's report is clean. But ESOP cost, a JV loss outside adjusted EBITDA, and tax credits that came and went make the headline numbers easy to misread."
+    }
+   ]
+  },
+  {
+   "id": "cash",
+   "nav": "Cash & balance sheet",
+   "kicker": "Balance sheet",
+   "title": "Cash: ₹2,019 cr, no debt, customers pay up front",
+   "blocks": [
+    {
+     "p": "Urban Company held ₹2,019 cr of cash, deposits and treasury investments at Jun-2026 (company figure) and has no borrowings: the ₹136 cr of \"borrowings\" on Screener are lease liabilities on offices and training centres. The IPO brought in ₹469 cr net in Sep-2025. Working capital is negative: customers pay when they book, while partners and suppliers are paid later, so growth releases a little cash; Native's inventory (₹90 cr at Mar-26) is the main use. Screener's \"cash + investments\" (₹1,794 cr at Mar-26) is lower than the company figure because ₹227 cr of deposits sit inside other assets."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash flow turned negative again in FY26",
+       "unit": "Cash from operations (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY20",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "CFO",
+         "ref": "fin.cfo",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Equity raised in FY22 (venture rounds) and FY26 (IPO)",
+       "unit": "Cash from financing (₹ crore)",
+       "x": "A.labels",
+       "from": "FY20",
+       "series": [
+        {
+         "name": "CFF",
+         "ref": "A.cff",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth",
+        "{{A.netWorth.4|num}}",
+        "{{A.netWorth.5|num}}",
+        "{{A.netWorth.6|num}}"
+       ],
+       [
+        "Borrowings (lease liabilities only)",
+        "{{A.borrowings.4|num}}",
+        "{{A.borrowings.5|num}}",
+        "{{A.borrowings.6|num}}"
+       ],
+       [
+        "Investments",
+        "{{A.investments.4|num}}",
+        "{{A.investments.5|num}}",
+        "{{A.investments.6|num}}"
+       ],
+       [
+        "Cash & equivalents",
+        "{{A.cash.4|num}}",
+        "{{A.cash.5|num}}",
+        "{{A.cash.6|num}}"
+       ],
+       [
+        "Company cash & treasury investments (incl. deposits)",
+        "1,316",
+        "1,630",
+        "2,021"
+       ],
+       [
+        "Other liabilities (incl. partner and supplier payables)",
+        "{{A.otherLiab.4|num}}",
+        "{{A.otherLiab.5|num}}",
+        "{{A.otherLiab.6|num}}"
+       ],
+       [
+        "Cash from operations",
+        "{{A.cfo.4|num}}",
+        "{{A.cfo.5|num}}",
+        "{{A.cfo.6|num}}"
+       ]
+      ],
+      "source": "Screener.in; Q4FY26 letter (company cash balance)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "waterfall",
+      "title": "FY26 cash bridge: the IPO money paid for InstaHelp",
+      "unit": "Company cash & treasury investments, ₹ crore",
+      "x": [
+       "Mar-25 cash",
+       "Core adj. EBITDA",
+       "InstaHelp loss",
+       "Treasury income",
+       "Capex",
+       "JV and other",
+       "IPO (net)",
+       "Mar-26 cash"
+      ],
+      "series": [
+       {
+        "name": "Cash",
+        "values": [
+         1630,
+         106,
+         -235,
+         115,
+         -40,
+         -26,
+         472,
+         2021
+        ]
+       }
+      ],
+      "fmt": "num",
+      "totalFmt": "num",
+      "source": "Q4FY26 letter (reconciliation of adjusted EBITDA to change in cash: working capital +5, investment in JV −20, other −11)"
+     }
+    },
+    {
+     "callout": "**Funding:** cash burn was ₹80 cr in FY26 and ₹3 cr in Q1FY27 (working capital released ₹36 cr in the quarter); free cash flow (after rent and capex) was −₹176 cr in FY26 and −₹44 cr in Q1FY27. Cash of ₹2,019 cr covers several years of InstaHelp losses at today's rate, so on our numbers no new equity is needed. Our model has free cash flow of {{F.fcf.0|num}} / {{F.fcf.1|num}} / {{F.fcf.2|num}} cr for FY27-29E and net cash of {{F.treasury.0|num}} cr at Mar-27."
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: venture funds selling, SBI Mutual Fund buying",
+   "blocks": [
+    {
+     "p": "The three founders are the promoters, with 6.34% each (19.0% together). The rest of the register is mostly the venture and growth funds that financed the company before the IPO. Because most of them are foreign entities, they sit in the \"FII\" bucket, which is why foreign holdings look so high (55% at Jun-2026). The six-month lock-in on pre-IPO holders ended on 17-Mar-2026; since then SBI Mutual Fund has been the main buyer and venture funds the main sellers."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Domestic institutions doubled their stake after the lock-in",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "FIIs (incl. venture funds)",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Promoters (the three founders) hold 19%",
+       "unit": "% of shares held by promoters",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Who owns Urban Company",
+      "head": [
+       "Holder",
+       "Type",
+       "Stake"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Elevation Capital V",
+        "Venture investor",
+        "8.13%"
+       ],
+       [
+        "VYC11 (VY Capital)",
+        "Venture investor",
+        "7.37%"
+       ],
+       [
+        "Naspers Ventures (Prosus)",
+        "Strategic / venture investor",
+        "7.01%"
+       ],
+       [
+        "Accel India IV (Mauritius)",
+        "Venture investor",
+        "6.99%"
+       ],
+       [
+        "SBI Mutual Fund",
+        "Mutual fund",
+        "6.72%"
+       ],
+       [
+        "Steadview Capital Mauritius",
+        "Growth investor",
+        "6.46%"
+       ],
+       [
+        "Abhiraj Singh Bhal",
+        "Promoter (co-founder, CEO)",
+        "6.34%"
+       ],
+       [
+        "Varun Khaitan",
+        "Promoter (co-founder, COO)",
+        "6.34%"
+       ],
+       [
+        "Raghav Chandra",
+        "Promoter (co-founder, CTO)",
+        "6.34%"
+       ],
+       [
+        "Urban Company ESOP Trust",
+        "Employee trust (treasury shares)",
+        "5.19%"
+       ],
+       [
+        "Bessemer India Capital Holding II",
+        "Venture investor",
+        "5.05%"
+       ],
+       [
+        "Promoters (Jun-26)",
+        "Aggregate",
+        "19.02%"
+       ],
+       [
+        "Foreign investors incl. venture funds (Jun-26)",
+        "Aggregate",
+        "55.28%"
+       ],
+       [
+        "Domestic institutions (Jun-26)",
+        "Aggregate",
+        "11.42%"
+       ],
+       [
+        "Public (Jun-26)",
+        "Aggregate",
+        "9.74%"
+       ],
+       [
+        "Others incl. ESOP trust (Jun-26)",
+        "Aggregate",
+        "4.52%"
+       ]
+      ],
+      "source": "FY26 annual report (note 14, holders above 5% at 31-Mar-2026); BSE shareholding pattern Jun-2026 via Screener.in"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Lock-ins and large trades (to 30-Sep-2026)",
+      "head": [
+       "Date",
+       "What happened"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "2025-10-16",
+        "30-day anchor lock-in expiry: ~4.15cr shares (~Rs680cr); stock -3.8% to ~Rs157.9 (prior close 164.60)"
+       ],
+       [
+        "2025-12-15",
+        "90-day anchor lock-in (ended 14-Dec): 41.45mn shares (2.9%) freed; record low Rs121.4 (-5.8%)"
+       ],
+       [
+        "2026-03-05",
+        "Lock-in expiry ~0.5% of equity"
+       ],
+       [
+        "2026-03-17",
+        "Six-month pre-IPO lock-in expiry: 94.1cr shares (~66% of equity, Nuvama); low Rs107.30 (-5.3%). Same day NSE bulk deal: SBI MF bought 35.1mn sh (~Rs109.85); ABG Capital sold 17.4mn; DF International Partners II sold 17.7mn"
+       ],
+       [
+        "2026-03-18",
+        "Stock +14% intraday (high Rs131.60), close Rs121.20 (+10%) after SBI MF bulk buy"
+       ],
+       [
+        "2026-08-13",
+        "Block deal: SBI MF bought 3,15,00,022 sh at Rs136 (Rs428.4cr), stake ~5.9% -> ~8%; sellers reported as Accel India IV (2cr sh, 6.14%->4.84%), Vy Capital; Bessemer ~1.21cr sh (~Rs170cr) per weaker sources; stock +4%"
+       ]
+      ],
+      "source": "NSE/BSE bulk and block deals and lock-in calendars as reported by Business Standard, Business Today, Outlook Business and Motilal Oswal"
+     }
+    },
+    {
+     "callout": "**What this means:** the free float is still growing as venture funds exit. Accel cut its stake from 6.1% to 4.8% in the 13-Aug-2026 block deal (SBI Mutual Fund bought ₹428 cr at ₹136); VY Capital and Bessemer also sold. With ~40% still held by pre-IPO investors, supply will keep meeting every rally. The founders own only 19% between them, so they are managers more than controlling owners."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Management & governance: founder-led, transparent reporting, high pay",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key people",
+      "head": [
+       "Name",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Abhiraj Singh Bhal",
+        "Co-founder, Chairperson, MD & CEO",
+        "6.34% stake; FY26 pay 33.6x the median employee"
+       ],
+       [
+        "Varun Khaitan",
+        "Co-founder, Executive Director & COO",
+        "6.34%; same pay ratio"
+       ],
+       [
+        "Raghav Chandra",
+        "Co-founder, Executive Director & CTO/CPO",
+        "6.34%; same pay ratio"
+       ],
+       [
+        "Abhay Krishna Mathur",
+        "Chief Financial Officer",
+        "KMP; no change in FY26"
+       ],
+       [
+        "Ashish Gupta, Shyamal Mukherjee, Ireena Vittal, Rajesh Gopinathan",
+        "Independent directors",
+        "Four of eight board seats"
+       ],
+       [
+        "Vamsi Krishna Duvvuri",
+        "Non-executive director (VY Capital)",
+        "Nominee rights lapsed on listing (1-Nov-2025)"
+       ]
+      ],
+      "source": "FY26 annual report (board's report, KMP and remuneration tables)"
+     }
+    },
+    {
+     "verdicts": [
+      [
+       "Disclosure",
+       "Good",
+       "Quarterly shareholders' letter with segment P&Ls, contribution margin, NTV by segment, a full reconciliation to Ind AS and free cash flow; InstaHelp unit economics by quarter.",
+       "Among the best in Indian internet."
+      ],
+      [
+       "Accounting",
+       "Amber",
+       "Adjusted EBITDA deducts rent but leaves out ESOP (₹104 cr FY26) and the KSA JV loss; FY25 profit was a ₹211 cr tax credit; ₹60 cr DTA reversed in FY26; ₹151 cr DTA still on the books.",
+       "Read profit on the reconciled lines, not the headline."
+      ],
+      [
+       "Capital allocation",
+       "Amber",
+       "Core cash is being spent on InstaHelp (₹235 cr loss in FY26, ₹132 cr in Q1FY27 alone) in a subsidy war with venture-funded rivals.",
+       "Rational if it wins the category; costly if the war drags on."
+      ],
+      [
+       "Pay and dilution",
+       "Amber",
+       "Founders paid 33.6x the median employee; 10 cr options (6.4% of shares) outstanding at ₹1; ESOP cost ~₹150 cr a year.",
+       "Real cost to shareholders."
+      ],
+      [
+       "Board",
+       "Good",
+       "Half independent, with well-known names; auditor rotated from Price Waterhouse to BSR & Co at the 2026 AGM (end of term).",
+       "No red flags found."
+      ],
+      [
+       "Service partners",
+       "Amber",
+       "Its model depends on ~79,000 monthly active partners; partner protests in 2021 and the new labour codes (1-2% of turnover for gig-worker welfare) show the regulatory and social risk.",
+       "A risk to margins, not to the franchise."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "FY26 annual report, shareholders' letters, press reports (ThePrint, YourStory) dated on or before 30-Sep-2026"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: the core triples its profit, the group breaks even in FY29E",
+   "blocks": [
+    {
+     "p": "We forecast NTV for each of the four segments and express revenue and adjusted EBITDA (after rent) as a % of it. Group EBITDA adds rent back, deducts the Saudi JV loss and ESOP cost. Other income is 7.2% on cash less leases; tax is 25% of any profit. Every assumption is in the Assumptions sheet of the Excel model, which recalculates the target price."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Segment forecasts (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       {
+        "sec": "India consumer services"
+       },
+       [
+        "NTV",
+        "3,167",
+        "{{F.seg.ics.driver.0|num}}",
+        "{{F.seg.ics.driver.1|num}}",
+        "{{F.seg.ics.driver.2|num}}"
+       ],
+       [
+        "Revenue",
+        "1,087",
+        "{{F.seg.ics.revenue.0|num}}",
+        "{{F.seg.ics.revenue.1|num}}",
+        "{{F.seg.ics.revenue.2|num}}"
+       ],
+       [
+        "Adjusted EBITDA",
+        "131",
+        "{{F.seg.ics.adjEbitda.0|num}}",
+        "{{F.seg.ics.adjEbitda.1|num}}",
+        "{{F.seg.ics.adjEbitda.2|num}}"
+       ],
+       {
+        "sec": "International"
+       },
+       [
+        "NTV",
+        "700",
+        "{{F.seg.intl.driver.0|num}}",
+        "{{F.seg.intl.driver.1|num}}",
+        "{{F.seg.intl.driver.2|num}}"
+       ],
+       [
+        "Revenue",
+        "185",
+        "{{F.seg.intl.revenue.0|num}}",
+        "{{F.seg.intl.revenue.1|num}}",
+        "{{F.seg.intl.revenue.2|num}}"
+       ],
+       [
+        "Adjusted EBITDA",
+        "6",
+        "{{F.seg.intl.adjEbitda.0|num}}",
+        "{{F.seg.intl.adjEbitda.1|num}}",
+        "{{F.seg.intl.adjEbitda.2|num}}"
+       ],
+       {
+        "sec": "Native"
+       },
+       [
+        "NTV",
+        "345",
+        "{{F.seg.native.driver.0|num}}",
+        "{{F.seg.native.driver.1|num}}",
+        "{{F.seg.native.driver.2|num}}"
+       ],
+       [
+        "Revenue",
+        "267",
+        "{{F.seg.native.revenue.0|num}}",
+        "{{F.seg.native.revenue.1|num}}",
+        "{{F.seg.native.revenue.2|num}}"
+       ],
+       [
+        "Adjusted EBITDA",
+        "-31",
+        "{{F.seg.native.adjEbitda.0|num}}",
+        "{{F.seg.native.adjEbitda.1|num}}",
+        "{{F.seg.native.adjEbitda.2|num}}"
+       ],
+       {
+        "sec": "InstaHelp"
+       },
+       [
+        "NTV",
+        "79",
+        "{{F.seg.ih.driver.0|num}}",
+        "{{F.seg.ih.driver.1|num}}",
+        "{{F.seg.ih.driver.2|num}}"
+       ],
+       [
+        "Revenue",
+        "17",
+        "{{F.seg.ih.revenue.0|num}}",
+        "{{F.seg.ih.revenue.1|num}}",
+        "{{F.seg.ih.revenue.2|num}}"
+       ],
+       [
+        "Adjusted EBITDA",
+        "-235",
+        "{{F.seg.ih.adjEbitda.0|num}}",
+        "{{F.seg.ih.adjEbitda.1|num}}",
+        "{{F.seg.ih.adjEbitda.2|num}}"
+       ],
+       {
+        "sec": "Group"
+       },
+       {
+        "hl": true,
+        "cells": [
+         "Adjusted EBITDA (company definition)",
+         "-129",
+         "-352",
+         "-115",
+         "160"
+        ]
+       },
+       [
+        "ESOP cost",
+        "-104",
+        "-150",
+        "-160",
+        "-170"
+       ]
+      ],
+      "source": "Company (FY26), GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "Group P&L and cash flow summary (₹ crore)",
+      "from": "FY24",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA (Screener definition)",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n2"
+       },
+       {
+        "name": "Cash from operations",
+        "ref": "fin.cfo"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       }
+      ],
+      "source": "Company, GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street: growth and margin assumptions",
+      "head": [
+       "Source (date)",
+       "India services NTV growth",
+       "Margin / profit path",
+       "InstaHelp"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "**GAM**",
+        "21% a year FY26-29E",
+        "India services 5.6% / 6.8% / 7.8% of NTV; group adj. EBITDA positive in FY29E",
+        "Loss ₹562 / 478 / 381 cr"
+       ],
+       [
+        "Company guidance",
+        "None",
+        "Group adj. EBITDA breakeven by Q3FY28; ~₹1,000 cr by FY31; India services 9-10% of NTV",
+        "\"2 years, if not longer\" of investment"
+       ],
+       [
+        "Emkay (Aug-2026)",
+        "19.8% FY26-29E",
+        "Group profitable in FY30E",
+        "Loss peaks ₹940 cr in FY28E; breakeven FY31E"
+       ],
+       [
+        "UBS (Aug-2026)",
+        "Group NTV ~32% CAGR",
+        "–",
+        "–"
+       ],
+       [
+        "Ambit (Mar-2026)",
+        "18% FY26-28E",
+        "DCF; India ex-InstaHelp valued at 35x FY28E EBITDA",
+        "Breakeven FY31E"
+       ],
+       [
+        "Kotak (Nov-2025)",
+        "17% FY25-28E",
+        "International NTV +33% a year",
+        "–"
+       ],
+       [
+        "Motilal Oswal (Mar-2026)",
+        "~17% a year to FY37E",
+        "India services 50x EBITDA",
+        "1.5x FY28E NTV"
+       ],
+       [
+        "Goldman Sachs (Oct-2025)",
+        "Revenue +24% a year FY25-30E",
+        "India ex-InstaHelp EBITDA +35% a year",
+        "–"
+       ]
+      ],
+      "source": "Broker notes as reported on or before 30-Sep-2026 (Business Standard broker PDFs, Business Today, investing.com, Inc42); GAM Research"
+     }
+    },
+    {
+     "p": "Our India-services growth (24% in FY27E, ~21% a year to FY29E) is at the top of the street's 17-20% range because the core has accelerated for four quarters. Our InstaHelp losses sit between management's breakeven guidance and Emkay's much larger build-out, so our group breakeven comes in FY29E, about a year after guidance. Consensus EPS is not meaningful while the group is loss-making."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: 5 buys, 2 holds, 3 sells; median target ₹152.5",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Broker calls standing on 30-Sep-2026 (latest per broker)",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Date",
+       "Method"
+      ],
+      "wide": [
+       4
+      ],
+      "rows": [
+       [
+        "BofA",
+        "Underperform",
+        "155",
+        "2026-08-26",
+        "n.d."
+       ],
+       [
+        "Emkay",
+        "Buy",
+        "190",
+        "2026-08-23",
+        "DCF-based SOTP (WACC 14.4%): India services ₹107/sh (57x FY28E adj. EBITDA), InstaHelp ₹28/sh, International+Native+KSA ₹42/sh, cash ₹13/sh"
+       ],
+       [
+        "UBS",
+        "Buy",
+        "180",
+        "2026-08-21",
+        "n.d."
+       ],
+       [
+        "Kotak*",
+        "Add",
+        "150",
+        "2026-08-03",
+        "SOTP fair value, rolled to Sep-27"
+       ],
+       [
+        "Morgan Stanley",
+        "Overweight",
+        "165",
+        "2026-08-03",
+        "n.d."
+       ],
+       [
+        "JM Financial",
+        "Reduce",
+        "135",
+        "2026-08-01",
+        "SOTP: India services 45x FY28E adj. EBITDA; Native 3x FY28E sales; International 35x FY28E EBITDA; InstaHelp nil (Aug-26)"
+       ],
+       [
+        "Motilal Oswal",
+        "Neutral",
+        "140",
+        "2026-07-31",
+        "SOTP: India services 50x EV/EBITDA; Native 3x and International 2x FY28E EV/sales; InstaHelp 1.5x FY28E EV/NTV (Mar-26)"
+       ],
+       [
+        "Ventura*",
+        "Buy",
+        "185",
+        "2026-04-22",
+        "n.d."
+       ],
+       [
+        "Ambit",
+        "Sell",
+        "97",
+        "2026-03-24",
+        "DCF (cost of equity 13%, terminal growth 6%)"
+       ],
+       [
+        "Goldman Sachs",
+        "Neutral",
+        "140",
+        "2025-10-23",
+        "DCF and P/E (50:50); ~9x FY28E EV/sales, 64x FY28E EV/EBITDA for India ex-InstaHelp"
+       ],
+       [
+        "Mastertrust* (stale)",
+        "Buy",
+        "219",
+        "2025-09-24",
+        "n.d."
+       ]
+      ],
+      "source": "Broker notes and reports as published on or before 30-Sep-2026 (Business Standard broker PDFs, Business Today, Inc42, investing.com, Trendlyne, Reuters/LSEG via Zerodha). * = secondary source only; n.d. = not disclosed. Mastertrust (a week after listing) is not counted."
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "Targets range from ₹97 to ₹190; the price sits near the median",
+       "unit": "₹ per share",
+       "x": [
+        "BofA",
+        "Emkay",
+        "UBS",
+        "Kotak",
+        "Morgan Stanley",
+        "JM Financial",
+        "Motilal Oswal",
+        "Ventura",
+        "Ambit",
+        "Goldman Sachs",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          155,
+          190,
+          180,
+          150,
+          165,
+          135,
+          140,
+          185,
+          97,
+          140,
+          135
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes, GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "The consensus target rose as the stock recovered",
+       "unit": "Median (or average*) target of covering brokers, ₹",
+       "x": [
+        "2026-02-27",
+        "2026-03-24",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-26"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          131,
+          125,
+          137.5,
+          137.5,
+          145
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "source": "Reuters items citing LSEG data (via Zerodha); *27-Feb-2026 is an aggregator average"
+      }
+     ]
+    },
+    {
+     "p": "The street is split almost evenly. The bulls (UBS, Emkay, Morgan Stanley, Kotak, Ventura) argue that Urban Company is the only scaled, trusted online brand in a market less than 1% online, that core margins are heading to the 9-10% of NTV target, and that InstaHelp can become a frequency engine (UBS calls it a \"Blinkit moment\" for home services). The sceptics (Ambit, JM Financial, BofA) say the core grows ~18-20% a year rather than 30%, InstaHelp has poor unit economics against well-funded rivals, and the price already pays 45-60x FY28E EBITDA for the core. Most brokers use a sum of the parts with the core on EV/EBITDA (JM 45x, MOSL 50x, Emkay ~57x FY28E); Goldman Sachs and Ambit lean on a DCF. The LSEG median was ₹145 (9 brokers) on 26-Aug-2026; our table of 10 gives ₹152.5."
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: sum of the parts on order value gives {{dcf.tp|inr}}",
+   "blocks": [
+    {
+     "h": "How the street values Urban Company"
+    },
+    {
+     "p": "Urban Company makes a loss, so P/E is no use. Brokers value it as a sum of the parts: the core on EV/EBITDA two years out, Native and International on sales, InstaHelp on NTV or at nil; Goldman Sachs and Ambit use a DCF. We keep the sum of the parts, but value the core on EV/NTV, the one yardstick we can derive from the stock's own trading (EBITDA is too small and too volatile a base), deduct the present value of InstaHelp's losses to breakeven (our house rule for start-up losses), and add the cash. A DCF and Goldman Sachs' EV/sales are cross-checks."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "Thesis"
+      ],
+      "wide": [
+       6
+      ],
+      "rows": [
+       [
+        "BofA",
+        "Underperform",
+        "155",
+        "n.d.",
+        "–",
+        "–",
+        "Downgrade Neutral->Underperform: expensive after ~30% rally, losses, distorted risk-reward, rising instant-hel…"
+       ],
+       [
+        "Emkay",
+        "Buy",
+        "190",
+        "DCF-based SOTP",
+        "WACC 14.4%; ~57x FY28E (India services)",
+        "Jun-27",
+        "Density compounds the hyperlocal network moat; trust layer supports 27.5% take rate; InstaHelp burn is the rig…"
+       ],
+       [
+        "UBS",
+        "Buy",
+        "180",
+        "n.d.",
+        "–",
+        "–",
+        "Online home services entering a 'Blinkit moment'; product-market fit, balance sheet, execution and unit-econom…"
+       ],
+       [
+        "Kotak",
+        "Add",
+        "150",
+        "SOTP",
+        "n.d.",
+        "Sep-27",
+        "Retained ADD after Q1FY27 beat on segment EBITDA margins."
+       ],
+       [
+        "Morgan Stanley",
+        "Overweight",
+        "165",
+        "n.d.",
+        "–",
+        "–",
+        "Double upgrade UW->OW: core India and International improving faster; sustained InstaHelp losses may drive ind…"
+       ],
+       [
+        "JM Financial",
+        "Reduce",
+        "135",
+        "SOTP",
+        "45x FY28E EBITDA (India services)",
+        "Jun-27",
+        "Core India NTV +29%, adj EBITDA margin 6.9%; but InstaHelp losses widen (Rs1.32bn) with AOV below viable; awai…"
+       ],
+       [
+        "Motilal Oswal",
+        "Neutral",
+        "140",
+        "SOTP",
+        "50x EBITDA (India services)",
+        "FY28E",
+        "Raised TP after Q1FY27 (revenue +44%); kept Neutral. Analyst Abhishek Pathak."
+       ],
+       [
+        "Ventura",
+        "Buy",
+        "185",
+        "n.d.",
+        "–",
+        "–",
+        "Listed on Trendlyne only; CMP 144.43 at reco."
+       ],
+       [
+        "Ambit",
+        "Sell",
+        "97",
+        "DCF",
+        "Ke 13%, g 6%",
+        "–",
+        "Top-8 city penetration ~51%, growth needs costly non-top8 expansion; InstaHelp discounting/competition (Snabbi…"
+       ],
+       [
+        "Goldman Sachs",
+        "Neutral",
+        "140",
+        "DCF + P/E (50:50)",
+        "~9x FY28E EV/sales",
+        "Sep-26 target",
+        "Leading online home/beauty platform, defensible model and strong execution, but premium valuation already refl…"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**SELL**",
+         "**{{dcf.tp|num}}**",
+         "**Sum of the parts**",
+         "**–**",
+         "**–**",
+         "Core 2.7x Sep-28E NTV; InstaHelp at the PV of losses; net cash"
+        ]
+       }
+      ],
+      "source": "Broker notes as reported on or before 30-Sep-2026; n.d. = not disclosed"
+     }
+    },
+    {
+     "h": "Our core multiple: 2.7x NTV, and why"
+    },
+    {
+     "p": "Urban Company listed on 17-Sep-2025 at a 57% premium to its ₹103 issue price, so its own history is short. Following our rule for recent listings (HYUNDAI, HDBFS, MEESHO), we skip the IPO-premium months: September (median 4.51x forward core NTV, peak 4.96x) and October (4.11x), until the anchor lock-in expiry, the first broker initiations and the first results as a listed company. We use every daily close from 1-Nov-2025 to 30-Sep-2026: 226 closes, eleven months rather than twelve. We pair it with the sector's move over the same window."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the target multiple",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1. Own forward P/E (house starting point)",
+        "Forward EPS is a loss in every year of the window (FY27E, FY28E)",
+        "Not usable; not applied"
+       ],
+       [
+        "2. Own EV / forward core NTV, 1-Nov-2025 to 30-Sep-2026",
+        "Median 3.05x (25th-75th percentile 2.75-3.39x; range 2.47-3.97x). EV = diluted market value − (company cash − leases); NTV of India services + International + Native in the next full year (FY27E to Mar-26, FY28E from Apr-26). At 30-Sep-2026: 3.34x",
+        "Starting point 3.05x"
+       ],
+       [
+        "3. Sector move, same window (§7c, thin-peer-set rule)",
+        "Only Info Edge and IndiaMART have a usable P/E history, too few, so we use all seven internet platforms on market value ÷ sales, the analogue of our multiple, vs their medians since 1-Nov-2025: Eternal −11.8%, Swiggy −23.9%, Info Edge −1.6%, IndiaMART −24.4%, Nykaa +4.0%, Paytm +28.0%, PB Fintech −40.2%; median −11.8%. Meesho excluded (listed Dec-2025)",
+        "× 0.88 → 2.69x → **2.7x** (nearest 0.05x)"
+       ],
+       [
+        "4. Sensitivities (not applied)",
+        "Two-name P/E move (Info Edge −2.3%, IndiaMART −10.6%; −6.5%): 2.85x. With Meesho in the set (−6.7%): 2.85x. Twelve months from 1-Oct-2025: 2.75x. Since listing: 2.75x. Apr-Sep 2026 only (FY28E NTV): 2.45x. No sector move: 3.05x",
+        "Range 2.45-3.05x"
+       ],
+       [
+        "5. The street",
+        "Brokers value the core on EV/EBITDA (JM 45x, MOSL 50x, Emkay ~57x FY28E); on our FY28E India-services adjusted EBITDA that would be 1.92-2.43x our Sep-28E core NTV before International and Native. Goldman Sachs uses ~9x FY28E EV/sales",
+        "Shown as cross-checks; not applied"
+       ],
+       [
+        "6. Bull / bear",
+        "Bull: own median with no sector move (3.05x). Bear: own 25th percentile × the move (2.4x)",
+        "3.05x / 2.4x"
+       ]
+      ],
+      "source": "Screener.in daily prices and market value/sales series, company NTV and cash, GAM estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "hbar",
+      "title": "Target and cross-checks vs the share price",
+      "unit": "₹ per share (base case)",
+      "x": [
+       "Sum of the parts (target)",
+       "DCF",
+       "EV/sales (Goldman Sachs)",
+       "Share price today"
+      ],
+      "series": [
+       {
+        "name": "Value",
+        "values": [
+         134,
+         82,
+         161,
+         157.48
+        ],
+        "fmt": "inr"
+       }
+      ],
+      "labels": "all",
+      "highlight": "Sum of the parts (target)",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**Sum of the parts**",
+        "**Target**",
+        "Sum of the parts",
+        "–",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "DCF (cash flows)",
+        "–",
+        "{{dcf.blend.methods.1.value|num}}",
+        "-39%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "EV/sales (Goldman Sachs)",
+        "Cross-check",
+        "Revenue FY28E ₹2,627 cr",
+        "9x (bull 9x, bear 9x)",
+        "{{dcf.blend.methods.2.value|num}}",
+        "+20%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "Cross-checks: the DCF (13.1% cost of equity, 6% terminal growth, margin fading to 22% of revenue) gives only ₹82 (−38.6% vs our SOTP): on our forecasts the group only reaches a meaningful profit after FY29E, and 70%+ of DCF value sits in the terminal year. Goldman Sachs' ~9x FY28E EV/sales on our FY28E revenue gives ₹161 (+20.2%), close to the price: the market is paying the street's sales multiple, not a discount for InstaHelp."
+    },
+    {
+     "h": "Sum of the parts in detail"
+    },
+    {
+     "p": "We value the three core businesses on our Sep-28E NTV (the average of FY28E and FY29E) at one derived multiple, deduct the present value of InstaHelp's losses after Mar-2027 (₹1,003 cr; factor 2.1 on the FY28E loss) and add the net cash we expect at March 2027. Every input is live in the SOTP sheet of the Excel model, with Base / Bull / Bear switches."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Sum-of-the-parts valuation (base case)",
+      "head": [
+       "Part",
+       "Method",
+       "Metric (₹ cr)",
+       "Multiple",
+       "Value (₹ cr)",
+       "₹ / share"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "India consumer services (ex-InstaHelp)",
+        "Sep-28E NTV × EV/NTV",
+        "5,137",
+        "2.7x",
+        "{{dcf.sotp.parts.0.value|num}}",
+        "{{dcf.sotp.parts.0.perShare|n1}}"
+       ],
+       [
+        "International (UAE, Singapore)",
+        "Sep-28E NTV × EV/NTV",
+        "1,616",
+        "2.7x",
+        "{{dcf.sotp.parts.1.value|num}}",
+        "{{dcf.sotp.parts.1.perShare|n1}}"
+       ],
+       [
+        "Native",
+        "Sep-28E NTV × EV/NTV",
+        "777",
+        "2.7x",
+        "{{dcf.sotp.parts.2.value|num}}",
+        "{{dcf.sotp.parts.2.perShare|n1}}"
+       ],
+       [
+        "InstaHelp (losses still to fund)",
+        "FY28E adjusted EBITDA (loss) × PV factor of losses to breakeven",
+        "-478",
+        "2.1x",
+        "{{dcf.sotp.parts.3.value|num}}",
+        "{{dcf.sotp.parts.3.perShare|n1}}"
+       ],
+       [
+        "Net cash at end-FY27E",
+        "",
+        "1,575",
+        "–",
+        "{{dcf.sotp.parts.4.value|num}}",
+        "{{dcf.sotp.parts.4.perShare|n1}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Equity value**",
+         "",
+         "",
+         "",
+         "20,901",
+         "133.8"
+        ]
+       },
+       {
+        "hl": true,
+        "cells": [
+         "**SOTP target (rounded)**",
+         "",
+         "",
+         "",
+         "",
+         "{{dcf.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research estimates; 156.2 cr fully diluted shares"
+     }
+    },
+    {
+     "bullets": [
+      "**India consumer services (ex-InstaHelp):** EV / one-year-forward NTV derived from the stock's own trading since 1-Nov-2025 × the internet sector's move over the same window (see the derivation table); one multiple for the whole core (India services, International, Native), applied to each part's Sep-28E NTV.",
+      "**International (UAE, Singapore):** EV / one-year-forward NTV derived from the stock's own trading since 1-Nov-2025 × the internet sector's move over the same window (see the derivation table); one multiple for the whole core (India services, International, Native), applied to each part's Sep-28E NTV.",
+      "**Native:** EV / one-year-forward NTV derived from the stock's own trading since 1-Nov-2025 × the internet sector's move over the same window (see the derivation table); one multiple for the whole core (India services, International, Native), applied to each part's Sep-28E NTV.",
+      "**InstaHelp (losses still to fund):** Start-up losses valued as the present value of the losses still to come after Mar-2027 (PLAYBOOK §7c): our path of ~₹480 / 380 / 250 / 100 cr in FY28-31E discounted at 13.1% (factor on FY28E). Bull: breakeven in FY30E; bear: ~₹480 cr a year for five years. Any value of a category winner is upside.",
+      "**Net cash at end-FY27E:** Model forecast: cash, deposits and treasury investments less lease liabilities at Mar-27."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Value / share",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "India services NTV +21% a year to FY29E and 7.8% of NTV by FY29E; InstaHelp losses ₹480 cr in FY28E falling to nil by FY32E; 2.7x Sep-28E core NTV (own median × sector move)."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}}"
+       ]
+      ],
+      "source": "GAM Research estimates"
+     }
+    },
+    {
+     "callout": "**What is the market paying for?** At ₹157 the enterprise value is ~₹22,717 cr. With InstaHelp at our (negative) value, that is ~3.15x our Sep-28E core NTV (₹7,529 cr), against 3.05x the stock's own median since November and 2.7x in our target. Put differently, the price either gives InstaHelp a positive value (Emkay ₹28 a share, MOSL ₹10) or pays above the stock's own history for the core while internet stocks de-rated. Each 0.1x of core NTV is worth ~₹5 a share; each year of InstaHelp losses at ₹480 cr ~₹3."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Internet peers at the 30-Sep-2026 close",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "Trailing P/E",
+       "Trailing EV/EBITDA",
+       "FY26 revenue (₹ cr)",
+       "FY26 EBITDA margin",
+       "Mcap/sales vs median since Nov-25"
+      ],
+      "rows": [
+       [
+        "**Urban Company**",
+        "24,600",
+        "loss",
+        "n.m.",
+        "1,556",
+        "-16.3%",
+        "–"
+       ],
+       [
+        "Eternal",
+        "3,08,896",
+        "713.2x",
+        "100.4x",
+        "54,364",
+        "2.2%",
+        "−11.8%"
+       ],
+       [
+        "Swiggy",
+        "68,908",
+        "loss",
+        "n.m.",
+        "23,053",
+        "-14%",
+        "−23.9%"
+       ],
+       [
+        "Info Edge",
+        "79,042",
+        "53.6x",
+        "34.4x",
+        "3,285",
+        "36.1%",
+        "−1.6%"
+       ],
+       [
+        "IndiaMART",
+        "9,797",
+        "19.8x",
+        "13.8x",
+        "1,569",
+        "30.3%",
+        "−24.4%"
+       ],
+       [
+        "Nykaa",
+        "91,691",
+        "344.4x",
+        "105.1x",
+        "10,022",
+        "7.5%",
+        "+4.0%"
+       ],
+       [
+        "Paytm",
+        "1,07,766",
+        "132.7x",
+        "71.0x",
+        "8,437",
+        "5.9%",
+        "+28.0%"
+       ],
+       [
+        "PB Fintech",
+        "49,493",
+        "65.8x",
+        "50.1x",
+        "6,794",
+        "7.5%",
+        "−40.2%"
+       ],
+       [
+        "Meesho",
+        "1,05,534",
+        "loss",
+        "n.m.",
+        "12,626",
+        "-11.8%",
+        "+10.1%"
+       ]
+      ],
+      "source": "Screener.in data at the NSE close on 30-Sep-2026 (Urban Company market value on 156.2 cr diluted shares), GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a good core, an expensive experiment, a full price",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's only scaled, trusted online home-services brand, with a core that grows ~20-30% and earns rising margins (India services 6.9% of NTV in Q1FY27), profitable international operations, a Native products arm near breakeven, ₹2,019 cr of cash and no debt. Our sum of the parts gives {{dcf.tp|inr}} ({{dcf.upside|chg}})."
+    },
+    {
+     "callout": "**What you are paying for:** ~₹24,600 cr of market value. With InstaHelp at the present value of its losses (−₹1,003 cr), the price implies ~3.15x our Sep-28E core NTV, above the stock's own median (3.05x) and our 2.7x, at a time when internet stocks have de-rated. To justify it, either India services must reach its 9-10% margin target sooner while growing 25%+, or InstaHelp must turn from a ₹500 cr-a-year cost into a valuable business. Both are possible; neither is in our base case."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key risks",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact",
+       "What we watch"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Upside: India services keeps growing ~30% with margins toward 9-10% of NTV",
+        "Medium",
+        "High: the bull case and the street bulls",
+        "Q2-Q3FY27 NTV growth (the Q1 base was weak); margin on an annual basis"
+       ],
+       [
+        "Upside: InstaHelp wins the category and prices rise to ~₹200 an hour",
+        "Low-medium",
+        "High: a positive value instead of −₹6 a share",
+        "Loss per order (₹346 in Q1FY27); AOV; rivals' funding"
+       ],
+       [
+        "InstaHelp subsidy war lasts longer or costs more",
+        "Medium-high",
+        "Medium-high: each year of ₹480 cr losses ~₹3 a share",
+        "Quarterly InstaHelp loss vs ₹132 cr; Snabbit/Pronto fund-raises"
+       ],
+       [
+        "Partner supply, social-security costs and protests",
+        "Medium",
+        "Medium: labour codes cost 1-2% of turnover (capped at 5% of payouts)",
+        "Partner earnings and churn; state gig-worker rules"
+       ],
+       [
+        "Supply overhang from venture funds (~40%)",
+        "High",
+        "Medium: price pressure around block deals",
+        "Bulk/block deals; Accel, VY, Bessemer, Elevation, Prosus stakes"
+       ],
+       [
+        "Middle East conflict and rupee",
+        "Medium",
+        "Low-medium: International is ~16% of NTV",
+        "UAE demand; Native and B2B2C input costs"
+       ],
+       [
+        "Tax: further reversal of ₹151 cr deferred-tax assets; GST disputes (₹116 cr contingent)",
+        "Low-medium",
+        "Low: up to ~₹1-2 a share",
+        "Tax notes; GST orders"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: SELL, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**Buy below ~₹115**, or if InstaHelp's quarterly loss falls clearly below ₹100 cr while India services keeps growing above 25% (it would put our bull case in play).",
+      "**Sell above ~₹140** (our sell line), or if India services growth falls back below 20% or the InstaHelp loss rises above ₹150 cr a quarter.",
+      "**Position size:** underweight. The core franchise is real and improving, but the price already discounts the good outcome for InstaHelp, the sector has de-rated, and venture holders keep selling."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "India services NTV, Q1FY27",
+        "v": "₹1,056 cr",
+        "d": "+29% YoY; 6.9% margin"
+       },
+       {
+        "k": "Core adj. EBITDA",
+        "v": "₹67 cr",
+        "d": "Q1FY27; ₹106 cr in all of FY26"
+       },
+       {
+        "k": "InstaHelp loss",
+        "v": "₹132 cr",
+        "d": "Q1FY27; ₹346 per order"
+       },
+       {
+        "k": "Price implies",
+        "v": "3.15x core NTV",
+        "d": "Sep-28E; we use 2.7x"
+       },
+       {
+        "k": "Target / bear",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY20–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 40
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 800
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit / (loss)",
+        "hl": true
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 60
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit / (loss)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "NTV (net transaction value)",
+        "What customers pay for services booked on the platform (incl. taxes, after discounts and cancellations) plus Native product sales. Urban Company's headline activity measure."
+       ],
+       [
+        "Take rate",
+        "Revenue as a % of NTV: the share of what the customer pays that Urban Company keeps (commission, fees, product sales)."
+       ],
+       [
+        "Full-stack / managed marketplace",
+        "The platform does not just list providers: it trains, equips, prices, insures and rates them, and handles complaints."
+       ],
+       [
+        "Service partner",
+        "An independent professional (beautician, electrician, cleaner) who delivers jobs booked through the app."
+       ],
+       [
+        "Contribution profit",
+        "Revenue less the costs of each job: products, payment and support costs, partner incentives, refunds, cloud costs."
+       ],
+       [
+        "Adjusted EBITDA",
+        "Urban Company's segment profit: after rent, before ESOP cost, one-offs, the Saudi JV loss, depreciation, interest and other income."
+       ],
+       [
+        "InstaHelp",
+        "On-demand house help (daily cleaning, housekeeping) booked by the hour; launched in 2025."
+       ],
+       [
+        "Native",
+        "Urban Company's own-brand water purifiers and electronic door locks."
+       ],
+       [
+        "Yammak / KSA JV",
+        "Urban Company's 50:50 joint venture in Saudi Arabia with SMASCO; equity-accounted."
+       ],
+       [
+        "ATU",
+        "Annual transacting users: customers who ordered at least once in the last twelve months."
+       ],
+       [
+        "ESOP / ESOP trust",
+        "Employee stock options; the trust holds shares bought to settle them (treasury shares)."
+       ],
+       [
+        "DTA",
+        "Deferred-tax asset: future tax savings from past losses, booked as an asset; written back if the losses may lapse."
+       ],
+       [
+        "Lock-in",
+        "The six months after an IPO during which pre-IPO shareholders may not sell (ended 17-Mar-2026)."
+       ],
+       [
+        "SOTP",
+        "Sum of the parts: valuing each business separately and adding them up."
+       ],
+       [
+        "EV/NTV, EV/sales, EV/EBITDA",
+        "Enterprise value (market value less net cash) divided by NTV, revenue or EBITDA."
+       ],
+       [
+        "PV of losses",
+        "The present value of the losses a start-up still has to fund before it breaks even, deducted from value."
+       ],
+       [
+        "Sep-28E",
+        "The 12 months to September 2028: the average of our FY28E and FY29E figures, the basis of our 12-month target."
+       ],
+       [
+        "bp / pp",
+        "100 basis points (bp) = 1 percentage point (pp)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY22": "Post-Covid rebound (+77%); heavy spending on growth.",
+  "pat@FY22": "Peak loss: expansion and marketing.",
+  "pat@FY24": "Loss cut to ₹93 cr; India services near adjusted-EBITDA breakeven.",
+  "pat@FY25": "Includes a one-time deferred-tax credit of ₹211 cr; PBT only ₹29 cr. KSA deconsolidated into a JV from Jan-2025.",
+  "ebitda@FY26": "InstaHelp loss ₹235 cr; listing costs ₹19 cr and a ₹9 cr warehouse-fire loss; KSA JV loss (₹31 cr) sits inside Screener's EBITDA.",
+  "pat@FY26": "Includes ₹60 cr reversal of deferred-tax assets (losses likely to lapse; ESOP exercises).",
+  "cfo@FY26": "Operating cash outflow as InstaHelp scaled; the IPO (₹469 cr net) funded it.",
+  "pat@FY27E": "GAM estimate: InstaHelp loss ~₹560 cr against ~₹210 cr of core adjusted EBITDA; ESOP ₹150 cr.",
+  "ebitda@FY28E": "India services 6.8% of NTV; InstaHelp loss ~₹480 cr; ESOP ₹160 cr.",
+  "pat@FY29E": "First full-year profit in our model; group adjusted EBITDA ~₹160 cr.",
+  "pat@Q4FY26": "InstaHelp loss ₹119 cr and ₹61 cr deferred-tax write-back.",
+  "pat@Q3FY25": "Includes the ₹211 cr one-time deferred-tax credit.",
+  "pat@Q1FY27": "Core adjusted EBITDA ₹67 cr; InstaHelp loss ₹132 cr; ESOP ₹38 cr."
+ }
+}
