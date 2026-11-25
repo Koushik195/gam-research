@@ -1,0 +1,260 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for TBO Tek (consolidated, Rs crore). Segment model on gross transaction value (GTV): each segment's GTV grows; revenue = GTV x take rate (revPct); gross profit = GTV x GP/GTV (marginPct, the engine's segment 'EBITDA' line). 'Unallocated' = SG&A before ESOP cost (employee, hosting, payment-gateway and other opex of TBO and Classic Vacations), so EBITDA = gross profit - SG&A - ESOP, as the company reports it (before FX loss). Valued on P/E, as the street does; the multiple is derived in tools/authoring/TBOTEK.ctx.js and written here by TBOTEK.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "air",
+   "name": "Airlines (organic)",
+   "driverLabel": "GTV",
+   "marginLabel": "Gross profit",
+   "base": 12977.2,
+   "growth": [
+    12,
+    11,
+    11
+   ],
+   "revPct": [
+    2.25,
+    2.25,
+    2.25
+   ],
+   "marginPct": [
+    1.2,
+    1.2,
+    1.2
+   ],
+   "hist": {
+    "driver": "airGtv",
+    "revenue": "airRev",
+    "adjEbitda": "airGp"
+   },
+   "_why": "Organic airline GTV rose 13.7% in Q1FY27 (India air +14.7%; consolidated +16.9%, +16.3% in constant currency) after ~9% in FY26 (Rs12,977 cr; Q2FY26 split estimated). 93% of air GTV is India-sourced, where passenger traffic grows ~9% a year (Choice). 12% in FY27E, 11% after.",
+   "_revWhy": "Air take rate fell from 2.6% (Q4FY25, Q1FY26) to 2.3% (Q3-Q4FY26) and 2.2% in Q1FY27 as airlines cut commissions and TBO priced to win share; 2.25% held flat.",
+   "_marginWhy": "Air GP/GTV 1.25% in FY26 (1.39% in Q1FY26, 1.18% in Q1FY27). 1.2%."
+  },
+  {
+   "key": "hot",
+   "name": "Hotels, ancillary & others (organic)",
+   "driverLabel": "GTV",
+   "marginLabel": "Gross profit",
+   "base": 21745.2,
+   "growth": [
+    21,
+    18,
+    17
+   ],
+   "revPct": [
+    8.1,
+    8.2,
+    8.2
+   ],
+   "marginPct": [
+    5.45,
+    5.55,
+    5.6
+   ],
+   "hist": {
+    "driver": "hotGtv",
+    "revenue": "hotRev",
+    "adjEbitda": "hotGp"
+   },
+   "_why": "Organic hotel GTV +19.3% in FY26 (AR) and +27.3% in Q1FY27 in rupees, ~16% in constant currency: the rupee added ~11 points. Europe +37% (CC 24%), APAC +56% (CC 41%), MEA flat, India -2%. Management: growth returns to the pre-war (Jan-Feb 2026) profile once the Middle East normalises; timing unknown. FY27E 21% (rupee translation persists for most of the year, MEA flat), FY28E 18%, FY29E 17%: ~16-17% CC growth on the new sales force plus a small FX tailwind.",
+   "_revWhy": "Take rate (revenue/GTV, incl. other products) 8.43% in FY26, 8.05% in Q1FY27 (MEA mix, price cuts). 8.1% FY27E, 8.2% after.",
+   "_marginWhy": "GP/GTV 5.71% in FY26, 5.61% in Q4FY26, 5.34% in Q1FY27 (H&A alone 5.2%) as the higher-margin Middle East shrank and TBO cut prices to hold volume; management expects a return 'towards the historical average'. 5.45% FY27E, 5.55% FY28E, 5.6% FY29E (still below FY26)."
+  },
+  {
+   "key": "cv",
+   "name": "Classic Vacations",
+   "driverLabel": "GTV",
+   "marginLabel": "Gross profit",
+   "base": 2086,
+   "growth": [
+    110,
+    8,
+    8
+   ],
+   "revPct": [
+    25.5,
+    25.5,
+    25.5
+   ],
+   "marginPct": [
+    13,
+    13,
+    13
+   ],
+   "hist": {
+    "driver": "cvGtv",
+    "revenue": "cvRev",
+    "adjEbitda": "cvGp"
+   },
+   "_why": "FY26 holds only six months (Q3-Q4: GTV Rs1,045 cr and Rs1,041 cr, net of intercompany sales). Q1FY27 Rs1,236 cr is the seasonal peak (check-in basis) and Q2 the low. FY27E Rs4,381 cr (+110%: four quarters, ~Rs1,095 cr average). Then +8% (US luxury travel in USD ~4-5% plus rupee, before revenue synergies, which management says are 'a few quarters away').",
+   "_revWhy": "Revenue/GTV 25.6% in FY26 (H2), 26.8% in Q1FY27; ~half is commission passed to advisors (Choice). 25.5%.",
+   "_marginWhy": "GP/GTV 12.9% in FY26 H2, 13.5% in Q1FY27 (peak season). 13.0%. Management: full-year CV EBITDA ~2.5% of GTV, i.e. ~Rs110 cr on FY27E GTV."
+  }
+ ],
+ "unallocated": [
+  1607,
+  1750,
+  1905
+ ],
+ "_unallocLabel": "SG&A before ESOP cost (employee, hosting, payment gateway, other opex)",
+ "_unallocWhy": "FY26 SG&A before ESOP Rs1,274.5 cr (GP Rs1,674.0 cr less EBITDA Rs378.5 cr less ESOP Rs21.0 cr), incl. Rs14.5 cr of acquisition costs and CV for six months (~Rs218 cr). Organic SG&A ex-ESOP was Rs279.1 cr in Q1FY27 (+12.3% reported, +4% CC); management expects growth to 'expand a little' but stay below GP growth. Organic Rs1,145 cr FY27E (+11.5% on ~Rs1,027 cr, of which the rupee is ~6 points), +10% a year after; CV Rs462 cr FY27E (Q1 Rs123 cr, the peak; GP less ~2.5% of GTV EBITDA), +6% a year after.",
+ "esop": [
+  24,
+  26,
+  28
+ ],
+ "_esopWhy": "ESOP cost Rs21.0 cr in FY26 (Rs24.9 cr FY25), Rs6.4 cr in Q1FY27. Rs24-28 cr.",
+ "capex": [
+  85,
+  95,
+  105
+ ],
+ "_capexWhy": "Cash capex Rs67 cr in FY26, Rs53 cr in FY25 (Screener), mostly capitalised technology (Rs50 cr of employee cost capitalised in FY26). Rising with the platform migration of CV and AI tools.",
+ "depRateOnGrossBlock": 7.2,
+ "_depWhy": "Placeholder; set so FY27E depreciation is ~Rs133 cr (Q1FY27 Rs33.0 cr, incl. amortisation of CV customer and brand intangibles). Gross block includes Rs555 cr of goodwill that is not amortised, so the rate on gross block is low.",
+ "otherTreasury": {
+  "base": 51,
+  "_why": "AR FY26: cash and equivalents incl. bank balances, bank deposits and liquid investments Rs1,591.8 cr vs Screener cash + investments Rs1,541 cr; the Rs51 cr difference is deposits inside other assets."
+ },
+ "treasuryYield": [
+  3.5,
+  3.5,
+  3.5
+ ],
+ "_treasuryWhy": "Applied to opening net treasury (Mar-26: ~Rs836 cr after Rs756 cr of borrowings incl. leases). FY26 interest on financial assets Rs32.1 cr plus short-term investment income Rs2.5 cr = Rs34.6 cr; much of the cash is customer float held in operating accounts in many currencies, and the IPO money earning interest in FY25 was spent. 3.5%.",
+ "otherIncome": [
+  20,
+  21,
+  22
+ ],
+ "_otherIncomeWhy": "Non-treasury other income: liabilities no longer required written back Rs15.5 cr in FY26 (Rs19.0 cr FY25) and miscellaneous income. Rs20-22 cr. FY27E total ~Rs49 cr vs Rs51.2 cr in FY26 and Rs12.9 cr in Q1FY27 (x4 = Rs52 cr). Exceptional items (+Rs2.4 cr FY26) and FX losses are not forecast.",
+ "interest": [
+  55,
+  46,
+  34
+ ],
+ "_interestLabel": "Finance costs (acquisition loan, working-capital lines, leases)",
+ "_interestWhy": "Finance costs Rs43.6 cr in FY26 (loan for half a year), Rs14.6 cr in Q1FY27. The USD 70 mn loan amortises over four years from Q3FY27 (~USD 17.5 mn a year). Rs55 cr / Rs46 cr / Rs34 cr. FX losses (Rs8.8 cr FY26) are not forecast.",
+ "taxRate": [
+  18.5,
+  19,
+  19
+ ],
+ "_taxWhy": "FY26 16.7%; Q1FY27 19.3%; CFO guided FY27 ETR ~18-18.5% (most profit is earned in the UAE holding company at 9% corporate tax; India at ~25%).",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividend since listing; cash kept for growth, debt repayment and acquisitions.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.05,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 26,
+  "fadeCapexPctTo": 2,
+  "depPctOfSales": 2.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Travel demand is cyclical and shock-prone (Covid FY21 revenue -75%; the Middle East in FY26-27), the business is mostly international and in foreign currency, and the stock has a short, volatile listed history: 1.05 (Ke 12.8%).",
+  "_tgWhy": "Global travel spend grows with nominal GDP plus a share shift to assisted and B2B channels: 6% in rupees.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~14% (FY29E) to 8% over 15 years.",
+  "_fadeMarginWhy": "EBITDA margin (on revenue) rises from ~21% (FY29E) to 26% as SG&A grows slower than gross profit; scaled peers earn 45-60% of GP, which on TBO's mix is ~28-35% of revenue.",
+  "_fadeCapexWhy": "Asset-light: capex ~2% of revenue; depreciation and amortisation ~2.5%."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The Middle East normalises by H2FY27 and pent-up demand returns (Jan-Feb 2026 organic growth was 'far higher than 15%'); hotel GP/GTV goes back to ~5.8%; CV revenue synergies start after the platform migration.",
+   "fadeMarginTo": 29,
+   "segments": {
+    "hot": {
+     "growthDelta": 3,
+     "marginDelta": 0.15
+    },
+    "cv": {
+     "growthDelta": 3
+    },
+    "air": {
+     "growthDelta": 2
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The Middle East crisis becomes a long Russia-Ukraine-type disruption; hotel growth slows to the mid-teens in rupees as the FX tailwind fades; price cuts keep GP/GTV near 5.3-5.4%; CV integration slips.",
+   "fadeMarginTo": 22,
+   "segments": {
+    "hot": {
+     "growthDelta": -4,
+     "marginDelta": -0.1
+    },
+    "cv": {
+     "growthDelta": -3
+    },
+    "air": {
+     "growthDelta": -3
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 32,
+      "bull": 35.5,
+      "bear": 27.5
+     },
+     "why": "How the street values TBO: P/E on FY28E (MOSL 35x, Anand Rathi 40x) or the FY28-29E average (Choice 35x). Multiple = own one-year-forward P/E median over the 12 months to 30-Sep-2026 (recently listed) x the same-window move of the widened travel + internet peer set (IRCTC, Thomas Cook, Info Edge, IndiaMART); derived in TBOTEK.ctx.js and written by TBOTEK.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 21,
+      "bull": 23,
+      "bear": 17.5
+     },
+     "why": "Values the operating business and net cash separately (own forward EV/EBITDA over the same window, computed in TBOTEK.ctx.js)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 12.8%, terminal growth 6%, plus net cash."
+    }
+   ]
+  }
+ }
+}

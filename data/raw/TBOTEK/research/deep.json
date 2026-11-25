@@ -1,0 +1,93 @@
+{
+ "symbol": "TBOTEK",
+ "asOf": "2026-09-30",
+ "industry": {
+  "structure": "Travel is sold to end travellers through three routes: suppliers' own sites (brand direct), consumer OTAs (Booking, Expedia, MakeMyTrip) and assisted travel through ~millions of retail travel agents, tour operators and advisors. B2B platforms such as TBO, Hotelbeds (HBX Group), WebBeds (Web Travel Group) and regional aggregators supply agents with inventory, payments and credit. TBO calls itself one of the top 4 B2B travel distribution platforms globally.",
+  "hotelsVsAir": "Air is commoditised: ~300 airlines carry 80-85% of traffic, 40-50% of bookings flow through GDSs, and B2B take rates are ~1-3%. Hotels are fragmented: of 3-4 mn properties only 2-3% belong to major chains, so aggregation earns 8-10% take rates (Choice, 22-Sep-2026).",
+  "demand": "Global luxury leisure hospitality spend is forecast to grow from USD 239 bn (2023) to USD 391 bn (2028), HNI segments ~85% of the growth (McKinsey, May-2024, cited in TBO's Jun-2026 deck). India's outbound travel market USD 18.8 bn (FY24), expected ~11% CAGR to ~USD 55 bn by FY34 (Choice).",
+  "shock": "From Q4FY26 the Middle East conflict disrupted Gulf hub carriers (the East-West corridor), destination choice and sentiment; MEA was ~24% of TBO's FY26 hotel GTV and among its higher-margin markets. MEA GTV was flat in Q1FY27 (+1% in constant currency); India hotel GTV fell 2% as travellers rerouted east to cheaper destinations.",
+  "fx": "Most international GTV is in USD/EUR/AED; INR depreciation inflated Q1FY27 reported hotel GTV growth by ~11 points (49.8% reported vs 38.9% constant currency) and SG&A growth (12.3% reported vs 4% CC).",
+  "globalPeers": "Management: scaled B2B peers (Hotelbeds, WebBeds) earn 45-60% EBITDA/GP vs TBO's ~26% (Q1FY27 call).",
+  "src": "Q1FY27 letter and call; AR FY26; Jun-2026 deck; Choice initiation (22-Sep-2026)"
+ },
+ "peers": {
+  "approach": "No listed Indian B2B travel distributor. Brokers group TBO with travel platforms (Choice: ixigo, IRCTC, RateGain; Screener: IRCTC, BLS, ixigo, Thomas Cook, Easy Trip) and value it as a growth internet platform on P/E. TBO listed in May-2024, so we use a 12-month window (Oct-2025 to Sep-2026) for its own forward P/E and measure each peer's trailing P/E at the 30-Sep close against its own median over the same window (as HYUNDAI and HDBFS).",
+  "travel": ["IRCTC", "THOMASCOOK"],
+  "internet": ["NAUKRI", "INDIAMART"],
+  "set": ["IRCTC", "THOMASCOOK", "NAUKRI", "INDIAMART"],
+  "irctcSet": ["NAUKRI", "INDIAMART", "CONCOR", "RAILTEL", "RITES"],
+  "excluded": {
+   "EASEMYTRIP": "Travel platform, but loss-making in FY26 and the twelve months to Jun-26 (EPS -0.11 / -0.05); only 26 positive P/E points in the window",
+   "IXIGO": "Travel platform, but a Q2FY26 loss (EPS -0.08) pushed its trailing P/E to 254x inside the window (79x at 30-Sep): earnings-distorted, as pharma excludes boom-bust EPS",
+   "ETERNAL": "P/E 624-1,759x inside the window: earnings too small to give a meaningful P/E",
+   "SWIGGY": "Loss-making; no P/E",
+   "NYKAA": "P/E 356-951x inside the window",
+   "PAYTM": "Losses for part of the window (35 positive points only)",
+   "POLICYBZR": "P/E 72-213x as earnings scale from a low base",
+   "CONCOR, RAILTEL, RITES": "Railway-PSU services used for IRCTC; no business link to TBO. Shown as a sensitivity (IRCTC's five-name set) only",
+   "BLS, YATRA, RATEGAIN": "Visa services / small OTA / hotel software: different businesses (no screener history fetched)"
+  },
+  "thin": "The natural travel set has only two usable names (IRCTC, Thomas Cook): fewer than three, so per the thin-peer rule we widen to the next group brokers use for TBO, the internet platforms with a usable P/E history (Info Edge, IndiaMART), and use all four names in the base. Travel-only, internet-only, IRCTC's five-name set and a five-name set including ixigo are sensitivity rows.",
+  "src": "Screener peer list; Choice (22-Sep-2026); data/raw/<SYM>/screener.json"
+ },
+ "street": {
+  "brokers": [
+   {"broker": "Motilal Oswal", "short": "MOSL", "date": "2026-07-30", "rating": "Buy", "tp": 1850, "method": "P/E", "multiple": "35x", "on": "FY28E", "revenue": {"FY27E": 3910.5, "FY28E": 4892.2}, "ebitda": {"FY27E": 624.1, "FY28E": 806.1}, "pat": {"FY27E": 380.0, "FY28E": 566.5}, "thesis": "Q1 beat across estimates; H&A mix lifts take rate; GP outgrowing SG&A; CV revenue synergies; FY26-28 EBITDA CAGR 46%", "src": "https://insights.dsij.in/markets/reports/report-details/tbo-tek-ltd/44838"},
+   {"broker": "Anand Rathi", "short": "Anand Rathi", "date": "2026-07-30", "rating": "Buy", "tp": 2200, "method": "P/E", "multiple": "40x", "on": "FY28E", "ebitdaMarginFY28E": 17.0, "revenueCagrFY26_28": 38.1, "epsCagrFY26_28": 55.7, "thesis": "Asset-light aggregator with network effects; Middle East recovery from 2HFY27; operating leverage as hiring is done", "src": "https://insights.dsij.in/markets/reports/report-details/tbo-tek-ltd/44863"},
+   {"broker": "ICICI Securities", "short": "I-Sec", "date": "2026-07-30", "rating": "Hold", "tp": 1550, "method": "n.a.", "multiple": "n.a.", "on": "n.a.", "thesis": "Steady execution despite macro headwinds; Middle East uncertainty may be an overhang", "src": "Trendlyne research-report list (title and target); PDF not accessible"},
+   {"broker": "Choice Institutional Equities", "short": "Choice", "date": "2026-09-22", "rating": "Buy", "tp": 2075, "method": "P/E", "multiple": "35x", "on": "avg FY28-29E", "revenue": {"FY27E": 3829.9, "FY28E": 4718.1, "FY29E": 5396.0}, "ebitda": {"FY27E": 625.6, "FY28E": 823.7, "FY29E": 1001.8}, "pat": {"FY27E": 418.3, "FY28E": 559.8, "FY29E": 705.6}, "eps": {"FY27E": 39.2, "FY28E": 52.4, "FY29E": 66.1}, "thesis": "Supply-aggregation moat; CV gives access to US luxury advisors (~10,000); EBITDA margin 14.1% (FY26) to 18.6% (FY29E); 0.8x PEG", "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/90fe86fd_research-report%20-%202026-09-23T094317.567.pdf"}
+  ],
+  "earlier": [
+   {"broker": "Motilal Oswal", "date": "2026-06-15", "rating": "Buy", "tp": 1765, "method": "38x FY28E"},
+   {"broker": "Motilal Oswal", "date": "2026-05-30", "rating": "Buy", "tp": 1485},
+   {"broker": "Anand Rathi", "date": "2026-05-29", "rating": "Buy", "tp": 2000},
+   {"broker": "Geojit BNP Paribas", "date": "2026-04-16", "rating": "Buy", "tp": 1540, "method": "quant/technical call"},
+   {"broker": "Motilal Oswal", "date": "2026-03-24", "rating": "Buy", "tp": 1360, "method": "initiation"},
+   {"broker": "JM Financial", "date": "2025-11-04", "rating": "Buy", "tp": 1750, "method": "40x NTM P/E, Sep-2026 target (expired by the as-of date)"}
+  ],
+  "consensusNote": "Four views standing on 30-Sep-2026: three Buys (Rs1,850-2,200) and one Hold (Rs1,550). All brokers who state a method use P/E on FY28E (35-40x) or the FY28-29E average (35x).",
+  "src": "Trendlyne research-report list (dates, ratings, targets); DSIJ and investmentguruindia summaries as cited"
+ },
+ "ownership": {
+  "period": "Jun-2026",
+  "categories": {"promoters": 44.41, "fpi": 28.93, "dii": 21.09, "mutualFunds": 18.29, "insurance": 1.11, "public": 4.02},
+  "named": [["LAP Travel Pvt Ltd (promoter group)", 21.60], ["Gaurav Bhatnagar (co-founder)", 17.33], ["General Atlantic Singapore TBO Pte Ltd", 14.40], ["Augusta TBO (Singapore) Pte Ltd", 5.05], ["Manish Dhingra (promoter group)", 4.87], ["ISIF Equity Ex-Top 100 Long-Short Fund", 4.18], ["Nippon India Value Fund", 3.87], ["TBO Korea Holdings Ltd", 2.86], ["Canara Robeco Small Cap", 2.48], ["SBI Nifty 500 Index Fund", 2.03], ["Government Pension Fund Global (Norway)", 1.81], ["Ankush Nijhawan (co-founder)", 0.60]],
+  "trend": "FPIs fell from 42.8% (Jun-2024) to 28.9% (Jun-2026) as pre-IPO investors sold; DIIs rose from 6.6% to 21.1%. Pre-IPO financial investors (General Atlantic, Augusta, TBO Korea) still held 22.3% in Jun-2026: a supply overhang.",
+  "src": "https://trendlyne.com/equity/share-holding/2245414/TBOTEK/30-06-2026/tbo-tek-ltd/ ; Screener shareholding"
+ },
+ "moat": [
+  ["Supply aggregation (1 mn+ hotels, direct contracts)", "Moderate", "Fragmented hotel supply; direct contracting and Platinum collection lift GP/GTV", "Hotelbeds, WebBeds and OTAs' B2B arms aggregate the same supply; agents multi-home"],
+  ["Buyer network (159k agents, 33.7k monthly transacting)", "Moderate", "Two-sided network; credit, payments and service in 88 currencies and 16 languages", "Switching cost is low per booking; TBO cut prices in Q1FY27 to hold volume in the Middle East"],
+  ["Technology and cost", "Moderate", "One platform across 100+ countries; hosting cost -13.7% YoY in Q1FY27", "No proprietary inventory; AI agents could compress agent workflows"],
+  ["Air distribution", "Weak", "Traffic and cross-sell engine in India", "Take rate ~2.2% and falling; airlines push direct/NDC"]
+ ],
+ "critiques": [
+  ["Bull: a global hotel-led B2B platform whose fixed cost base is now built; organic EBITDA/GP rose from 23.5% to 27.5% in one quarter and could approach scaled peers' 45-60% over time", "MOSL, Anand Rathi, Choice"],
+  ["Bull: CV gives an entry into US luxury advisors at ~1.1x revenue; revenue synergies start after platform migration (end-CY2026)", "Choice, company"],
+  ["Bear: reported growth is flattered by acquisitions and the rupee: organic GTV +15% in constant currency in Q1FY27, consolidated +30% CC vs +37% reported", "Q1FY27 letter; MOSL"],
+  ["Bear: the Middle East (a quarter of hotel GTV, higher margins) may stay disrupted; take rates fell as TBO cut prices", "I-Sec (Hold); company"],
+  ["Bear: no dividend, Rs555 cr of goodwill, a sub-judice FEMA notice (Rs49 cr in contravention, up to 3x penalty) and 22% held by pre-IPO funds", "AR FY26; GAM"]
+ ],
+ "governance": {
+  "board": "Eight directors: independent chairman (Ravindra Dhariwal) and three other independents, three executive directors (two co-founder Joint MDs and the CTO), one non-executive nominee director (Shantanu Rastogi; AR FY26 does not name the nominating shareholder in the extract we read)",
+  "auditor": "S.R. Batliboi & Co. LLP (EY network); unmodified FY26 opinion (AR FY26)",
+  "pay": "Joint MDs earn 114x and 79x the median employee; increases of 7% in FY26 vs a 9% median rise (AR FY26)",
+  "regulatory": "FEMA show-cause notice (19-Sep-2023) on Rs49.4 cr of foreign agents' INR payments (Rs71.2 cr identified in total); RBI refused post-facto approval (Apr-2025); sub-judice; ED search May-2022 (AR FY26 secretarial audit)",
+  "capitalAllocation": "No dividends; IPO proceeds (Rs382 cr net) fully used on technology, overseas market development and general purposes by Mar-2026; Classic Vacations bought for USD 125 mn with USD 70 mn of debt"
+ },
+ "gaps": [
+  "Q2FY26 airline vs hotel split of revenue and GP not found in any retrievable document (the shareholders' letter for Q2FY26 is not on Screener's document list and the company site blocks automated access): estimated from the Q1/Q3 airline take rate and GP/revenue; totals are reported.",
+  "Broker PDFs on Trendlyne require a login: MOSL and Anand Rathi figures come from DSIJ summaries; ICICI Securities' method, multiple and estimates are unknown.",
+  "Nuvama initiated with Buy and Rs2,200 (35% earnings CAGR FY27-29E) at a market value of ~Rs18,300 cr, but we could not confirm the date (the source page is gone); left out of the street table.",
+  "Axis Capital (ADD, Rs1,920) and Goldman Sachs (Buy, 2024 initiation): dates/standing on 30-Sep-2026 not confirmed; left out.",
+  "Classic Vacations stand-alone history before Oct-2025 (growth, margins) not disclosed beyond the deal terms.",
+  "FX loss is not forecast (FY26 Rs8.8 cr; Q1FY27 Rs5.5 cr); Screener books it in interest in the annual P&L and in expenses in the quarterly P&L.",
+  "Sep-2026 shareholding (filed in October) is after the as-of date and not used."
+ ],
+ "conflicts": [
+  "Screener FY26 interest Rs52 cr = finance costs Rs43.6 cr + FX loss Rs8.8 cr (company EBITDA walk); Screener FY26 other income Rs54 cr = other income Rs51.2 cr + exceptional gain Rs2.4 cr.",
+  "Q1FY27 EBITDA: Screener operating profit Rs138 cr vs company EBITDA Rs143.5 cr (Screener deducts the Rs5.5 cr FX loss).",
+  "Consolidated Q3FY26 GP shown as Rs483 cr (rounded) in the Feb-2026 deck; Rs482.9 cr is implied by the FY26 total (Rs1,674.0 cr).",
+  "MOSL's report price is shown as Rs1,499 and Rs1,543.65 in different places on the DSIJ page; we quote only target and rating."
+ ]
+}
