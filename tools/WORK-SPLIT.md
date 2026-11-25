@@ -26,6 +26,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 ## Engine requests (for Team A)
 
+- (A, 25-Nov, from WOCKPHARMA) Renderer limits: `kpiBlocks` must be in array form or the Excel export fails (".for is not iterable"); the chart palette has four colours, so a fifth series crashes the chart (worked around with `slot`/`grey`). Also: no separate amortisation line (WOCKPHARMA routes Zaynich amortisation through the interest input, labelled). Open, Team A.
 - Banks need a bank layout in the lender engine (deposits/CASA, fees in other income, CRR/SLR, risk-weighted capital). Until then, Team A writes all banks.
 - December year-end companies (e.g. CASTROLIND, SCHAEFFLER, CIEINDIA) need December-year support before they can be written.
 - (B, 23-Nov) Excel export fails ("Cannot read properties of undefined") for a segment model without an `esop` array; TMPV works around it with `esop: [0,0,0]`.
@@ -71,7 +72,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - A19 · published (A, 23-Nov-2026) · LAURUSLABS published (SELL, 1,150), DRREDDY published (HOLD, 1,200), MANKIND published (BUY, 3,490), AUROPHARMA published (HOLD, 1,660), LUPIN published (HOLD, 1,950)
 - A20 · published (A, 24-Nov-2026) · GLENMARK published (SELL, 1,780), ALKEM published (BUY, 6,720), ABBOTINDIA published (BUY, 36,210), BIOCON published (BUY, 490), IPCALAB published (HOLD, 2,130)
 - A21 · published (A, 24-Nov-2026) · GLAND published (HOLD, 2,990), ANTHEM published (BUY, 990), AJANTPHARM published (SELL, 3,400), GLAXO published (BUY, 3,320), EMCURE published (HOLD, 2,170)
-- A22 · in progress (A, 24-Nov-2026) · LALPATHLAB published (HOLD, 2,200), SAILIFE published (SELL, 1,250), WOCKPHARMA, ACUTAAS published (SELL, 2,280), PPLPHARMA
+- A22 · in progress (A, 24-Nov-2026) · LALPATHLAB published (HOLD, 2,200), SAILIFE published (SELL, 1,250), WOCKPHARMA published (HOLD, 2,170), ACUTAAS published (SELL, 2,280), PPLPHARMA
 - A23 · in progress (A, 25-Nov-2026; NEULANDLAB, GRANULES, COHANCE now; CAPLIPOINT, NATCOPHARM next) · NEULANDLAB, GRANULES, COHANCE, CAPLIPOINT, NATCOPHARM
 - A24 · queued · ONESOURCE, SYNGENE, POLYMED, CONCORDBIO
 
@@ -166,9 +167,9 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 ### Consumer Services (21)
 
 - B29 · claimed (B, 24-Nov-2026; ETERNAL, DMART, INDHOTEL in progress; TRENT, LENSKART later) · ETERNAL published (HOLD, 360), DMART published (HOLD, 4,040), TRENT published (SELL, 2,410), INDHOTEL published (SELL, 540), LENSKART published (SELL, 570)
-- B30 · claimed (B, 24-Nov-2026) · MEESHO published (SELL, 205), NYKAA published (HOLD, 365), NAUKRI published (HOLD, 1,270), VMM published (BUY, 120), IRCTC (paused: built, needs peer-set fix before publishing)
-- B31 · claimed (B, 24-Nov-2026; paused: PWL built, JUBLFOOD part-done, URBANCO and EIHOTEL just started) · PWL, ITCHOTELS published (BUY, 205), JUBLFOOD, URBANCO, EIHOTEL
-- B32 · queued · TBOTEK, DEVYANI, INDIAMART, BLS, LEMONTREE
+- B30 · claimed (B, 24-Nov-2026) · MEESHO published (SELL, 205), NYKAA published (HOLD, 365), NAUKRI published (HOLD, 1,270), VMM published (BUY, 120), IRCTC (built, peer-set fix in progress)
+- B31 · claimed (B, 24-Nov-2026) · PWL, ITCHOTELS published (BUY, 205), JUBLFOOD, URBANCO, EIHOTEL
+- B32 · claimed (B, 25-Nov-2026) · TBOTEK, DEVYANI, INDIAMART, BLS, LEMONTREE
 - B33 · queued · FIRSTCRY
 
 ### Oil Gas & Consumable Fuels (17)

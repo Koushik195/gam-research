@@ -1,0 +1,242 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Wockhardt (consolidated, Rs crore; profit attributable to owners, see tools/authoring/WOCKPHARMA.patch.js). One reported segment, so the engine runs one revenue-growth path and one EBITDA-margin path; the build by region and the separate Zaynich line sit in `businessLines` (WOCKPHARMA.ctx.js checks they sum to model revenue and EBITDA). Forecasts carry no exceptional items and no minorities (14.15% of Wockhardt Bio AG; FY26 minorities absorbed Rs14 cr of losses). Valued on P/E on Sep-28E EPS (no broker note standing on 30-Sep-2026 discloses a method; P/E is the house and sector yardstick), multiple from Wockhardt's own forward P/E since the earnings break (1-Oct-2025) x the nine pharma peers' move over the same window (PLAYBOOK §7c turnaround rule).",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  15.06,
+  15.94,
+  16.33
+ ],
+ "_revenueWhy": "Built by region (businessLines; the script checks the sum). FY26 base Rs3,373 cr = UK Rs1,318 cr (GBP 111mn) + Ireland/Europe Rs357 cr (EUR 35mn) + India branded Rs523 cr + India others Rs217 cr + emerging markets Rs958 cr. FY27E Rs3,881 cr (+15.1%): UK GBP 114mn at Rs126 (Q1FY27 GBP 27mn, flat in sterling; Rs127/GBP), Europe EUR 40mn at Rs110 (Q1 EUR 11mn, Ireland +28%), India branded +16% (Q1 +21%; Emrok +29%, Miqnaf, diabetes, regenerative derma), India others Rs205 cr (FY26 Rs217 cr, Q1 Rs46 cr, falling), emerging markets +22% (Q1 +64% on insulin; FY26 +35%; tender-driven and lumpy, Q4FY26 Rs320 cr vs Q1FY27 Rs263 cr), Zaynich Rs24 cr (India launch Dec-26/Jan-27, US stocking from early 2027). FY28E +16.0% (base +10.4%, Zaynich Rs243 cr) and FY29E +16.3% (base +9.5%, Zaynich Rs575 cr): biosimilars doubling in 24-36 months (management) drives emerging markets +18% / +15%; UK +3-4% in sterling. Management's press-reported ambition of Rs6,000 cr by FY28 is well above our Rs4,500 cr.",
+ "businessLines": {
+  "_why": "FY26 by region from the Q4FY26 press release (4-May-2026). Rupee rates: UK FY26 Rs118.7/GBP (Rs1,318 cr / GBP 111mn), Q1FY27 Rs127; Europe FY26 Rs102/EUR, Q1FY27 ~Rs110. Zaynich: India (Rs cr) from launch around Dec-2026/Jan-2027, priced at 20-25% of the US (management: 75-80% discount); US in USD mn from early 2027 (management: new anti-infectives do ~US$30-50mn collectively in their first ~3 years; price-neutral to rivals at US$10-15k a course); EU + emerging markets from FY28 (EMA approval expected by end-2026; 7-8 emerging markets in 18-24 months). No UK NHS subscription income is assumed (no award found by 30-Sep-2026).",
+  "base": {
+   "uk": 1318,
+   "europe": 357,
+   "indiaBranded": 523,
+   "indiaOthers": 217,
+   "em": 958,
+   "zaynich": 0
+  },
+  "ukGbpMn": [
+   114,
+   118,
+   122
+  ],
+  "gbpInr": [
+   126,
+   127,
+   128
+  ],
+  "europeEurMn": [
+   40,
+   43,
+   46
+  ],
+  "eurInr": [
+   110,
+   111,
+   112
+  ],
+  "growth": {
+   "indiaBranded": [
+    16,
+    14,
+    13
+   ],
+   "em": [
+    22,
+    18,
+    15
+   ]
+  },
+  "indiaOthers": [
+   205,
+   210,
+   215
+  ],
+  "zaynich": {
+   "indiaCr": [
+    15,
+    100,
+    180
+   ],
+   "usUsdMn": [
+    1,
+    10,
+    25
+   ],
+   "usdInr": [
+    92,
+    93,
+    94
+   ],
+   "euEmCr": [
+    0,
+    50,
+    160
+   ]
+  },
+  "margin": {
+   "_why": "EBITDA on Screener's basis (FY26 Rs652 cr = 19.3%; company basis Rs630 cr after R&D). Base business (ex-Zaynich) 21.3% / 21.8% / 22.3%: Q1FY27 was 20.7% (Screener) including some Zaynich pre-launch cost; biosimilars and India branded grow fastest; UK flat. Zaynich EBITDA -Rs60 / -45 / +100 cr: management guides a slight loss or neutral for 12-18 months from launch and breakeven by month 12-18; we assume a US team plus operating partner, India and EM launch costs of ~Rs80 cr in FY27E rising to ~Rs360 cr by FY29E against an ~80% gross margin.",
+   "baseMarginPct": [
+    21.3,
+    21.8,
+    22.3
+   ],
+   "zaynichEbitda": [
+    -60,
+    -45,
+    100
+   ]
+  }
+ },
+ "ebitdaMargin": [
+  19.62,
+  19.62,
+  21.76
+ ],
+ "_marginWhy": "19.62% / 19.62% / 21.76% = the base business (21.3% / 21.8% / 22.3%) and Zaynich (-Rs60 / -45 / +100 cr), see businessLines.margin. Reported EBITDA keeps excluding most R&D because NCE development is capitalised (FY26: ~10% of revenue spent, 3.6% expensed); the cost returns as amortisation (depreciation line). Each 1pp of FY28E margin is ~Rs45 cr of EBITDA, ~10% of FY28E EPS.",
+ "capex": [
+  300,
+  320,
+  340
+ ],
+ "_capexWhy": "ICRA (21-May-2026): capex ~Rs300 cr in each of FY27-28 (incl. NCE development it counts as capex), funded by internal accruals and Rs162 cr of unused QIP money; chairman (4-Jun-2026): normal capex Rs200-300 cr a year for three years, mainly biologics capacity, plus R&D at about the same share of sales. Rs300 / 320 / 340 cr.",
+ "depRateOnGrossBlock": 3.45,
+ "_depWhy": "Base depreciation only (Zaynich amortisation is carried separately, see interest): FY26 Rs227 cr; Q1FY27 Rs55 cr (Rs220 cr a year), growing with capex. 3.45% on gross block (Rs6,164 cr at Mar-26 plus capex) gives Rs218 / 229 / 240 cr.",
+ "otherTreasury": {
+  "base": 190,
+  "nci": -341,
+  "netDeferredTax": 440,
+  "assetsHeldForSale": 91,
+  "_why": "Three non-operating items Screener leaves inside other assets / other liabilities, moved out of working capital into the net cash line (AR FY26 balance sheet and notes 9, 40, 42): (1) the 14.15% minority in Wockhardt Bio AG, Rs341 cr at book, a claim on consolidated assets, so the EV/EBITDA and DCF cross-checks value only the owners' share; (2) net deferred tax assets Rs440 cr (Rs477 cr incl. Rs196 cr MAT credit, less Rs37 cr deferred tax liabilities), which cut future cash taxes that the engine otherwise pays in full; (3) assets held for sale Rs91 cr. Net +Rs190 cr. Without this the engine's working capital would be 49.9% of revenue (it would carry the DTA and the minority as operating items) instead of 34.1%. Model opening net debt = borrowings Rs2,233 cr (incl. Rs108 cr leases and ~Rs950 cr promoter loans) - cash Rs250 cr - investments Rs412 cr - Rs190 cr = Rs1,381 cr."
+ },
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "The engine applies the yield only to positive net cash; the model's net cash stays negative (net debt ~Rs1.6-1.9k cr) in all three years, so treasury income is entered in otherIncome on gross liquid funds instead.",
+ "otherIncome": [
+  74,
+  60,
+  62
+ ],
+ "_otherIncomeWhy": "Built from AR FY26 note 28 and Q1FY27. Recurring base = interest income + liabilities written back + other non-operating income excluding profit on asset sales: FY25 Rs59 cr (9 + 23 + 27), FY26 Rs56 cr (7 + 15 + 34); FY26 also had Rs55 cr of profit on asset sales (not repeated). FY27E Rs74 cr = Q1FY27 actual Rs31 cr + three quarters at the FY25-26 recurring run-rate (~Rs14.5 cr a quarter). FY28E Rs60 cr and FY29E Rs62 cr = the recurring base (treasury income on ~Rs470 cr of liquid funds at ~6% is ~Rs28 cr of it). TTM to Jun-26 Rs122 cr includes the Rs55 cr of asset-sale profit (Rs67 cr without it).",
+ "interest": [
+  227,
+  278,
+  263
+ ],
+ "_interestLabel": "Finance cost + Zaynich amortisation (engine workaround)",
+ "_interestWhy": "Finance cost Rs205 / 190 / 175 cr plus Zaynich amortisation Rs22 / 88 / 88 cr (see zaynichAmortisation). Finance cost: FY26 Rs213 cr (leases Rs11 cr); Q1FY27 Rs52 cr; external repayments of Rs171 cr (FY27) and Rs198 cr (FY28) per ICRA plus some reduction of ~Rs950 cr of promoter loans (5.9-12.3%). Refinancing at the improved A- rating is upside.",
+ "taxRate": [
+  12,
+  18,
+  22
+ ],
+ "_taxWhy": "FY26 effective rate 16.3% (Rs118 cr of tax losses used with no deferred tax created); Q1FY27 ~8%. Wockhardt Ltd still files under the old regime (34.9%) with Rs196 cr of MAT credit and loss carry-forwards; overseas profits are taxed at 12.5-25%. As the unrecognised losses run out the rate rises: 12% / 18% / 22%. The size of the remaining loss pool is not disclosed (gap).",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividend since FY17; promoter loans, term debt and Zaynich launch costs come first.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.15,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 26,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Ke 13.4%: a single-asset launch (Zaynich) by a company with no US commercial record, three Indian sites still under USFDA import alert, a decade of losses until FY25, promoter pledges and promoter loans. Debt is ~5% of enterprise value, so the cost of equity is used as the discount rate (engine limit, PLAYBOOK §7).",
+  "_tgWhy": "5.5%: branded/biosimilar emerging markets and India grow faster; Zaynich's exclusivity ends in the late 2030s.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~16% (FY29E) to 7% over 15 years as Zaynich ramps and then matures.",
+  "_fadeMarginWhy": "26%: Zaynich at scale carries a much higher margin than the generic base (management's US$1.5-2bn peak would imply far more; we do not assume it).",
+  "_fadeCapexWhy": "Capex ~6% of revenue (biologics capacity, NCE development); depreciation ~5% of revenue (incl. NCE amortisation)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull: Zaynich launches well and biosimilars double",
+   "narrative": "Zaynich adoption in US academic centres and India ICUs runs ahead (UK subscription, EU approval in early 2027), biosimilars double by FY28 and the base margin reaches 24%.",
+   "revenueGrowthDelta": 4,
+   "marginDelta": 2
+  },
+  "bear": {
+   "label": "Bear: a slow launch and a lumpy base",
+   "narrative": "Zaynich follows the slow path of recent US antibiotic launches (US$10-20mn a year), launch costs run for longer, emerging-market insulin tenders slip and the UK stays flat.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -2.5
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 78,
+      "bull": 103,
+      "bear": 74.5
+     },
+     "why": "Turnaround rule (PLAYBOOK §7c, decided 24-Nov-2026): earnings broke from losses to profit in the Jul-Sep 2025 quarter (PBT Rs91 cr, the first of four profitable quarters), the same day the Zaynich NDA was filed (30-Sep-2025), so Wockhardt's own window starts on 1-Oct-2025. Its one-year-forward P/E over the 52 weekly closes since then: median 66.7x (25th-75th 63.4-87.8x; forward EPS FY27E/FY28E, no exceptional items). Nine pharma peers' P/E moved +17.2% over the same window (sector-factor.js --from 2025-10-01; +17.2%). 66.7x x 1.172 = 78.2x, nearest half-turn 78x on Sep-28E EPS. Bull 103x (75th percentile x factor), bear 74.5x (25th). Since-2021 median 67.5x (EPS before exceptional items, FY23-25 troughs out) x the five-year +8.2% = 73x is a sensitivity row."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 33.5,
+      "bull": 39.5,
+      "bear": 32
+     },
+     "why": "Cross-check: own one-year-forward EV/EBITDA since 1-Oct-2025 (EV = market value + net debt incl. promoter loans and the Bio AG minority, less net deferred tax and assets held for sale; forward EBITDA FY27E/FY28E): median 31.3x x the peers' EV/EBITDA move over the same window (+6.7%) = 33.5x on Sep-28E EBITDA; bull 39.5x, bear 32x."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 13.4% (cost of equity used as the discount rate; debt ~5% of EV), terminal growth 5.5%, margin fading to 26%, plus the model's net debt (incl. promoter loans and the Bio AG minority at book) at Mar-27E."
+    }
+   ]
+  }
+ },
+ "zaynichAmortisation": [
+  22,
+  88,
+  88
+ ],
+ "_zaynichAmortisationWhy": "Zaynich intangible Rs1,055 cr at Mar-26 (~Rs1,150 cr with FY27 spend); the AR says it will be capitalised by FY28; we assume from launch (~Jan-2027), straight-line over ~13 years (between the 2038 patent expiry and a 15-year life): ~Rs88 cr a year, Rs22 cr in FY27E. ENGINE WORKAROUND: the engine has one depreciation rate on gross block and holds CWIP (where Screener carries the intangible under development) flat, so it cannot show a step-up in amortisation; a single compromise rate would overstate FY27E and understate FY28-29E, which alone moved the target by ~13% (it feeds both the forward P/E history and Sep-28E EPS). We therefore add the amortisation to the finance-cost input (labelled), so EPS is right in each year; EBITDA, the EV/EBITDA cross-check and the DCF are unaffected.",
+ "financeCost": [
+  205,
+  190,
+  175
+ ]
+}
