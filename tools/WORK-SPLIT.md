@@ -71,7 +71,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - A19 · published (A, 23-Nov-2026) · LAURUSLABS published (SELL, 1,150), DRREDDY published (HOLD, 1,200), MANKIND published (BUY, 3,490), AUROPHARMA published (HOLD, 1,660), LUPIN published (HOLD, 1,950)
 - A20 · published (A, 24-Nov-2026) · GLENMARK published (SELL, 1,780), ALKEM published (BUY, 6,720), ABBOTINDIA published (BUY, 36,210), BIOCON published (BUY, 490), IPCALAB published (HOLD, 2,130)
 - A21 · published (A, 24-Nov-2026) · GLAND published (HOLD, 2,990), ANTHEM published (BUY, 990), AJANTPHARM published (SELL, 3,400), GLAXO published (BUY, 3,320), EMCURE published (HOLD, 2,170)
-- A22 · in progress (A, 24-Nov-2026) · LALPATHLAB, SAILIFE published (SELL, 1,250), WOCKPHARMA, ACUTAAS, PPLPHARMA
+- A22 · in progress (A, 24-Nov-2026) · LALPATHLAB, SAILIFE published (SELL, 1,250), WOCKPHARMA, ACUTAAS published (SELL, 2,280), PPLPHARMA
 - A23 · queued · NEULANDLAB, GRANULES, COHANCE, CAPLIPOINT, NATCOPHARM
 - A24 · queued · ONESOURCE, SYNGENE, POLYMED, CONCORDBIO
 

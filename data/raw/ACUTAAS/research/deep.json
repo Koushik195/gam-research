@@ -1,0 +1,113 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, peers, street, ownership, moat, critiques, gaps. Every broker note is dated on or before 30-Sep-2026; later notes are in updates/later-facts.json." },
+ "industry": {
+  "cdmoGlobal": { "usdBn2025": 166.0, "usdBn2033": 293.6, "cagrPct": 7.4 },
+  "cdmoIndia": { "usdBn2025": 8.52, "usdBn2034": 16.53, "cagrPct": 7.39 },
+  "pharmaGlobal": { "usdBn2025": 1738.0, "usdBn2033": 2776.7, "cagrPct": 6.1 },
+  "specialtyGlobal": { "usdBn2025": 757.98, "usdBn2034": 1167.22, "cagrPct": 4.9 },
+  "specialtyIndia": { "usdBn2025": 67.0, "usdBn2034": 93.4 },
+  "semiChemGlobal": { "usdBn2025": 16.29, "usdBn2034": 45.53, "cagrPct": 12.1 },
+  "semiSalesGlobal2025": 791.7,
+  "koreaSemiMaterials": { "usdBn2024": 1.69, "usdBn2035": 3.82, "cagrPct": 7.7 },
+  "liIonMarket2025UsdBn": 150,
+  "electrolyteAdditives": { "usdBn2023": 1.6, "usdBn2028": 3.4, "cagrPct": 16.0, "src": "HSIE 21-Sep-2026" },
+  "src": "AR FY26 Management Discussion & Analysis (PDF pp.59-63), citing industry sources; HSIE 21-Sep-2026 (electrolyte additives)"
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": {
+   "LUPIN": "Loss years inside the window (PLAYBOOK §7c).",
+   "GLENMARK": "Loss years inside the window (PLAYBOOK §7c).",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (PLAYBOOK §7c).",
+   "MANKIND": "Listed May-2023: no history over the window (PLAYBOOK §7c)."
+  },
+  "chemSet": ["SRF", "FLUOROCHEM", "PIIND", "AARTIIND", "DEEPAKNTR", "CLEAN", "VINATIORGA", "ANURAS", "TATVA", "ATUL", "NAVINFLUOR", "HSCL", "EPIGRAL", "LXCHEM", "ALKYLAMINE"],
+  "chemSetsByReport": {
+   "NAVINFLUOR": ["SRF", "FLUOROCHEM", "PIIND", "AARTIIND", "DEEPAKNTR", "CLEAN", "VINATIORGA", "ANURAS", "TATVA"],
+   "AARTIIND": ["DEEPAKNTR", "ATUL", "VINATIORGA", "NAVINFLUOR", "SRF", "CLEAN", "LXCHEM", "ALKYLAMINE"],
+   "DEEPAKNTR": ["AARTIIND", "ATUL", "VINATIORGA", "NAVINFLUOR", "CLEAN", "SRF", "HSCL", "EPIGRAL"]
+  },
+  "context": ["DIVISLAB", "LAURUSLABS", "NEULANDLAB", "SAILIFE", "ANTHEM", "NAVINFLUOR", "PIIND", "CLEAN", "VINATIORGA", "ANURAS", "TATVA"],
+  "notes": "Acutaas is classified as Pharmaceuticals by Screener and NSE but calls itself a specialty-chemicals company, and most covering analysts sit on chemicals desks. PLAYBOOK rule: the pharma nine-name set governs (Acutaas is outside it: +7.8% P/E / +7.5% EV/EBITDA over its own window since 1-Apr-2022). The chemicals set is the union of the peer sets in the published NAVINFLUOR, AARTIIND and DEEPAKNTR reports, shown as a sensitivity only."
+ },
+ "street": {
+  "note": "Latest note found for each broker, standing on 30-Sep-2026. PL (24-Jul-2026) and HSIE (21-Sep-2026): original PDFs; Kotak Institutional Equities: Kotak PCG 'Rating Monitor' summary (27-Jul-2026); SBICAP: DSIJ summary of the 27-Aug-2026 note; JM Financial: Business Today report of the 10-Sep-2026 note; IDBI Capital and DRChoksey: Trendlyne research list only (PDFs not retrieved). Bloomberg consensus EPS FY27E Rs54.9 / FY28E Rs72.7 (HSIE, 21-Sep-2026).",
+  "brokers": [
+   { "broker": "HDFC Securities (HSIE)", "date": "2026-09-21", "rating": "Sell", "tp": 2210, "prevTp": 1569, "method": null, "multiple": null, "on": null, "eps": { "FY27E": 53.1, "FY28E": 65.8, "FY29E": 76.7 }, "sales": { "FY27E": 1722, "FY28E": 2082, "FY29E": 2451 }, "ebitda": { "FY27E": 614, "FY28E": 763, "FY29E": 893 }, "thesis": "Maintains SELL (target raised from Rs1,569): a 'multi-specialty and advanced materials platform' (CDMO, semiconductors, battery) but revenue/EBITDA/PAT CAGR 22/23/21% FY26-29E and flat RoIC (~29%) do not justify ~58x one-year-forward P/E vs a ~41x five-year average; method not restated in the update (target ~31x Sep-28E / ~34x FY28E on its EPS)", "src": "https://www.hdfcsec.com/hsl.docs//Acutaas%20-%20Update%20-%20Sep26%20-%20HSIE-202609211504107364255.pdf" },
+   { "broker": "JM Financial", "date": "2026-09-10", "rating": "Buy", "tp": 3800, "method": null, "multiple": null, "on": null, "thesis": "Resumed coverage, upgraded from Add: CDMO ~28% CAGR FY26-30; four new CDMO molecules Rs320 cr by FY30; apixaban patent expiry (Nov-2026) a Rs440 cr opportunity; legacy pharma +12% a year to Rs880 cr; specialty chemicals Rs170 cr to Rs730 cr by FY30 (45% CAGR)", "src": "https://www.businesstoday.in/markets/stocks/story/multibagger-stock-rallies-7-after-jms-buy-rating-heres-share-price-target-554508-2026-09-10" },
+   { "broker": "SBICAP Securities", "date": "2026-08-27", "rating": "Buy", "tp": 3815, "method": null, "multiple": null, "on": null, "eps": { "FY27E": 55.6, "FY28E": 73.8, "FY29E": 92.0 }, "sales": { "FY27E": 1770, "FY28E": 2323, "FY29E": 2983 }, "ebitda": { "FY27E": 636, "FY28E": 827, "FY29E": 1045 }, "thesis": "Pharma intermediates the core earnings driver; commodity exit offset by BFC; battery supplies started with contracts in place; semiconductor and electronic chemicals scalable after commercialisation; method not stated (EPS derived from its adjusted PAT of Rs455/604/753 cr on 8.19 cr shares)", "src": "https://insights.dsij.in/markets/reports/report-details/acutaas-chemicals-ltd/45375" },
+   { "broker": "DRChoksey (Deven Choksey)", "date": "2026-07-29", "rating": "Accumulate", "tp": 3567, "method": null, "multiple": null, "on": null, "thesis": "Post-results Accumulate (method and estimates not retrieved; Trendlyne list)", "src": "https://trendlyne.com/research-reports/stock/644637/ACUTAAS/acutaas-chemicals-ltd/" },
+   { "broker": "Kotak Institutional Equities", "date": "2026-07-27", "rating": "Reduce", "tp": 3110, "method": "SoTP", "multiple": "Nubeqa stream separately + rest at 35x", "on": "Jun-28E", "thesis": "Downgrade from Buy: strong Q1 but 'valuations have run up too far too soon' given high revenue concentration in Nubeqa intermediates; Nubeqa goes off patent in the mid-2030s, pressuring growth and margins; SoTP values the business ex-Nubeqa at an implied 35x Jun-28E P/E", "src": "https://www.kotakneo.com/uploads/Rating_Monitor_Acutaas_Chemicals_27_July_2026_ae2db38f7f.pdf" },
+   { "broker": "IDBI Capital", "date": "2026-07-27", "rating": "Buy", "tp": 4001, "method": null, "multiple": null, "on": null, "thesis": "Post-results Buy (method and estimates not retrieved; Trendlyne list)", "src": "https://trendlyne.com/research-reports/stock/644637/ACUTAAS/acutaas-chemicals-ltd/" },
+   { "broker": "Prabhudas Lilladher (PL)", "date": "2026-07-24", "rating": "Buy", "tp": 3790, "prevTp": 3707, "method": "P/E", "multiple": "56x", "on": "FY28E", "eps": { "FY27E": 54.2, "FY28E": 67.7 }, "sales": { "FY27E": 1699, "FY28E": 2102 }, "ebitda": { "FY27E": 604, "FY28E": 744 }, "thesis": "Upgrade from Accumulate: 'long term growth outlook intact'; Fermion ramp, four CDMO molecules from H2FY27, battery from Q2FY27, rising semiconductor share; 25% revenue CAGR FY26-28E; other income Rs53/65 cr", "src": "https://plindia.com/ResReport/ACUTAAS-24-7-26-PL.pdf" }
+  ]
+ },
+ "ownership": {
+  "date": "Jun-2026", "promoters": 32.66, "fiis": 21.61, "diis": 19.55, "mutualFunds": 14.17, "otherDii": 5.39, "public": 26.16, "shareholders": 125569, "pledged": 0,
+  "named": [
+   { "holder": "Nareshkumar R. Patel (founder, CMD)", "pct": 17.69, "asOf": "Mar-2026 (1,44,83,327 shares; sold 13,48,921 in FY26)" },
+   { "holder": "Chetankumar C. Vaghasia (co-founder, WTD)", "pct": 14.97, "asOf": "Mar-2026 (1,22,58,079 shares; sold 13,48,921 in FY26)" },
+   { "holder": "Government Pension Fund Global (Norway)", "pct": 3.54, "asOf": "Mar-2026" },
+   { "holder": "Dhwani Girishkumar Chovatia", "pct": 3.35, "asOf": "Mar-2026" },
+   { "holder": "Kotak Multicap Fund", "pct": 1.79, "asOf": "Mar-2026" },
+   { "holder": "SBI Healthcare Opportunities Fund", "pct": 1.10, "asOf": "Mar-2026" },
+   { "holder": "Axis Max Life Insurance (High Growth Fund)", "pct": 1.00, "asOf": "Mar-2026" },
+   { "holder": "Vanguard (two index funds)", "pct": 1.75, "asOf": "Mar-2026" },
+   { "holder": "Government of Singapore", "pct": 0.83, "asOf": "Mar-2026" },
+   { "holder": "Virendra Nath Mishra (WTD)", "pct": 0.81, "asOf": "Mar-2026" },
+   { "holder": "Mutual funds (all)", "pct": 14.17, "asOf": "Jun-2026 (13.86% at Mar-2026, 109 schemes)" }
+  ],
+  "history": "Promoters 41.05% (Mar-22) -> 39.41% (Mar-23) -> 39.91% (Mar-24) -> 35.98% (Jun-24, QIP dilution) -> 32.66% (Jun-25, promoter sale); FIIs 2.2% -> 21.6% and DIIs 5.6% -> 19.6% over Mar-22 to Jun-26",
+  "src": "AR FY26 Corporate Governance Report sections IX-X (PDF pp.117-118); Screener/BSE shareholding (Jun-2026); Q1FY27 deck p.8"
+ },
+ "stock": {
+  "ipoPriceAdj": 305, "listingDate": "2021-09-14", "high52": 3740, "low52": 1125,
+  "events": [
+   ["14-Sep-2021", "Listed at Rs902 (Rs451 split-adjusted) vs IPO price Rs610 (Rs305)"],
+   ["Jun-2024", "QIP at Rs1,240 (Rs620 split-adjusted)"],
+   ["25-Apr-2025", "1:2 split"],
+   ["Jun-2025", "Promoters sell 3.3% of the company"],
+   ["Mar-2026 to Jul-2026", "Stock doubles (Rs1,825 at 1-Feb-26 to Rs3,695 at 3-Jul-26) on Q3-Q4FY26 margins"],
+   ["24-Jul-2026", "Falls ~6% after Q1FY27 (Rs3,242)"],
+   ["30-Sep-2026", "NSE close Rs3,279.4"]
+  ],
+  "src": "Screener weekly prices; Business Standard (listing); PL 24-Jul-2026 (52-week range)"
+ },
+ "moat": [
+  { "factor": "Process chemistry and backward integration", "score": "Strong", "evidence": "90%+ of pharma intermediates integrated to basic chemicals; 50-90% global share in key intermediates (trazodone, dolutegravir, entacapone, pazopanib); gross margin 46-47% even before CDMO; 26 process patents filed" },
+  { "factor": "Regulatory lock-in on the darolutamide CDMO contract", "score": "Strong", "evidence": "10-year supply agreement (CY22) with Fermion; intermediates filed in the innovator's dossiers; patent protection to 2033 (US, Japan) and 2035 (major EU)" },
+  { "factor": "Customer and molecule spread", "score": "Weak", "evidence": "CDMO was ~47% of FY26 revenue (Rs635 cr, PL) and mostly one molecule for one customer; it explains almost all of the margin step-up from 23% to 36%" },
+  { "factor": "Scale", "score": "Moderate", "evidence": "~1,100 KL of reactors and Rs1,339 cr of revenue: a niche leader, far smaller than Divi's or Laurus; Sachin is full and Ankleshwar fills by ~FY28" },
+  { "factor": "New verticals (battery, semiconductors)", "score": "Unproven", "evidence": "Battery additives started in Q1FY27 at ~15% target margins against Chinese incumbents; BFC has shrunk from Rs51 cr to Rs16 cr on one customer; Indichem has no revenue until FY28" },
+  { "factor": "Cost and quality record", "score": "Moderate", "evidence": "USFDA EIRs, PMDA GMP, EcoVadis Platinum; no warning letter found; but most legacy products are generic intermediates sold on price" }
+ ],
+ "critiques": [
+  "Concentration: CDMO (mostly darolutamide intermediates for one customer) was ~47% of FY26 revenue and the source of the margin jump; Kotak Institutional Equities downgraded to Reduce on exactly this (27-Jul-2026).",
+  "Patent clock: Nubeqa's key patents run to 2033 in the US and 2035 in Europe (UK 2029); generic darolutamide would end the premium economics of the anchor contract within ~7-9 years.",
+  "The base business is not growing: pharma intermediates excluding CDMO were Rs511 cr (FY24), Rs572 cr (FY25) and Rs539 cr (FY26) as low-margin products were dropped.",
+  "New engines are early and lower-margin: battery additives target ~15% EBITDA at full use and compete with Chinese suppliers; Indichem starts revenue only in FY28; BFC has shrunk for three years.",
+  "Other income flatters FY26: Rs32.5 cr of forex gains (6.7% of PBT) fell to Rs0.1 cr in Q1FY27; the street (PL Rs53 cr FY27E) still models high other income.",
+  "Valuation: ~75x trailing and ~60x one-year-forward on the street's FY27E vs HSIE's ~41x five-year average; the stock rose ~2.6x in the twelve months to Sep-2026.",
+  "Promoter selling and value transfer: the two promoters sold 3.3% in Jun-2025; the Korean partner received 25% of Indichem for no cash (Rs47.5 cr of goodwill)."
+ ],
+ "gaps": [
+  "Customer concentration is not disclosed in the AR (no customers-above-10% note); the darolutamide/Fermion share of revenue is inferred from PL's CDMO series (company data) and Kotak's comment, not disclosed by the company",
+  "CDMO revenue FY24-26 (Rs57/282/635 cr) comes from PL's initiation (Exhibit 21, 'Company, PL'); the company does not split CDMO and non-CDMO publicly ('we are not giving any split', Q1FY27 call)",
+  "Battery additive prices, contracted volumes and customer names are not disclosed; our battery revenue path is our estimate",
+  "Segment EBITDA is not audited (single segment in the AR); quarterly segment margins come from CFO remarks (Q4FY26 pharma 44% / specialty 29%; Q1FY27 36% / 24%)",
+  "Broker notes read only as summaries or lists: KIE (Kotak PCG summary), SBICAP (DSIJ summary), JM Financial (Business Today), IDBI Capital and DRChoksey (Trendlyne list; PDFs not retrieved); methods of HSIE (not restated in the update), JM, SBICAP, IDBI and DRChoksey are not disclosed in what we read",
+  "NSE PDF of the 22-Aug-2026 board outcome timed out for our tool; the Rs212 cr / 81,000 MTPA electronic-grade chemicals details come from two secondary reports and HSIE",
+  "Acquisition price for the Gujarat Organics units (FY22-23) and the FY24 warrant issue terms were not found in the documents we read",
+  "FY24 EPS before the exceptional item is computed by us (reported EPS x (attributable profit + Rs32.1 cr) / attributable profit), as the company gives only an adjusted consolidated PAT (Rs80.8 cr)",
+  "Bayer/Orion quarterly Nubeqa sales are cited only via PL; we did not read the Bayer filings",
+  "Sep-2026 shareholding is excluded under the as-of rule (filed in October); Jun-2026 used"
+ ],
+ "conflicts": [
+  "FY25 EPS: Screener Rs19.38 vs AR basic Rs19.81 (weighted shares after the Jun-2024 QIP). We use Screener's for the forward-P/E history (house convention).",
+  "FY24 exceptional item: Screener shows Rs19 cr after tax (Rs25 cr in Q2FY24); the company's adjusted PAT adds back the full Rs32.1 cr (no tax effect on the JV impairment). We use the company's treatment.",
+  "Screener shows a 41% FY25 tax rate; the AR gives Rs55.7 cr of tax on Rs216.2 cr of PBT (25.8%).",
+  "Net cash: company Rs198.3 cr at Mar-26 (cash + bank balances - borrowings, excl. leases); Screener-based engine Rs189 cr (deducts Rs9.1 cr of lease liabilities)."
+ ]
+}

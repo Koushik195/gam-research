@@ -1,0 +1,184 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Acutaas Chemicals (consolidated, Rs crore; Net Profit patched to profit attributable to owners by tools/authoring/ACUTAAS.patch.js). The company reports two verticals in its decks (pharma intermediates incl. CDMO; specialty chemicals incl. battery and semiconductor chemicals) but one segment in its audited accounts; the engine runs one revenue-growth path and the five-line build sits in businessLines, checked against model revenue in tools/authoring/ACUTAAS.ctx.js. EBITDA is on Screener's basis (before other income), which is also the company's basis. Other income is built in ACUTAAS.ctx.js (treasury yield on average net cash plus a small recurring item; no forex) and entered in otherIncome (treasuryYield 0). Valued on P/E, the method of the brokers that disclose one.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  24.857,
+  21.996,
+  19.703
+ ],
+ "_revenueWhy": "Sum of the five-line build below. FY27 +24.9%: management guides ~25% with Q1FY27 revenue already +59% (CDMO and core intermediates), and H1 is typically ~40% of the year; our FY27 needs Q2-Q4 revenue of ~Rs1,342 cr, +19% on Rs1,132 cr a year earlier. FY28 +22.0% / FY29 +19.7%: CDMO reaches ~Rs1,010 cr in FY28 (guidance Rs1,000 cr, 'confident to beat'), battery additives ramp toward full use of 4,000 MT in three years, Indichem starts in FY28. Street FY27E: PL Rs1,699 cr, HSIE Rs1,722 cr, SBICAP Rs1,770 cr; FY28E Rs2,082-2,323 cr.",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "cdmo": 635.1,
+   "exCdmo": 539,
+   "semis": 15.7,
+   "commodity": 149.5,
+   "battery": 0,
+   "_why": "FY26 revenue Rs1,339.4 cr: Advanced Pharmaceutical Intermediates Rs1,174.1 cr + Specialty Chemicals Rs165.2 cr (Q4FY26 deck). CDMO Rs635.1 cr (PL initiation, company data); pharma ex-CDMO Rs539.0 cr by difference; semiconductor (BFC) Rs15.7 cr and commodity chemicals Rs149.5 cr (corporate deck, Mar-2026); battery nil."
+  },
+  "growth": {
+   "cdmo": [
+    35,
+    18,
+    15
+   ],
+   "exCdmo": [
+    15,
+    12,
+    10
+   ],
+   "commodity": [
+    -20,
+    -5,
+    5
+   ]
+  },
+  "levels": {
+   "battery": [
+    50,
+    160,
+    280
+   ],
+   "semis": [
+    25,
+    60,
+    115
+   ]
+  },
+  "_why": "CDMO +35% in FY27 (Bayer expects ~50% Nubeqa growth in 2026; Q1FY27 pharma +76.5%; PL FY27E Rs800 cr), +18% in FY28 (~Rs1,010 cr vs the Rs1,000 cr guide; four validated molecules start in H2FY27, Rs50-100 cr each at peak) and +15% in FY29 as darolutamide growth slows. Pharma ex-CDMO +15/12/10% after a flat FY24-26 (portfolio reshuffle done in 9MFY26; apixaban generics from 2026-28; JM models +12% a year). Battery additives Rs50/160/280 cr: supplies began in Q1FY27, 2,000 MT VC + 2,000 MT FEC fully contracted over three years, a third additive from Q3FY27; PL puts Phase 1 peak revenue at ~Rs380 cr, HSIE FY28 at Rs100-200 cr. Semiconductor Rs25/60/115 cr: BFC recovers from Rs15.7 cr; Indichem revenue from FY28 ('slow start'; HSIE USD20-25 mn within three years of operation). Commodity chemicals -20% in FY27 as they are phased out, then flat-to-up as new products use the same plant. The Rs212 cr electronic-grade chemicals plant (end-FY28) is not in revenue before FY30."
+ },
+ "ebitdaMargin": [
+  35.5,
+  35,
+  34.5
+ ],
+ "_marginWhy": "Screener/company basis (before other income): 19.9% (FY23), 17.9% (FY24), 23.0% (FY25), 35.9% (FY26; Q4 42.4%), 34.3% in Q1FY27. The jump came from the darolutamide CDMO ramp and dropping low-margin products: gross margin 45% (FY25) to 58% (FY26). Guidance: FY27 margin 'similar' to FY26 ('Q4 is too ambitious'), because lower-margin battery additives offset CDMO growth. Segment build: pharma ~38.5% (Q4FY26 44%, Q1FY27 36%), battery ~5% in FY27 rising to ~15% at full use (PL), semiconductor ~25-30% during Indichem's start-up, commodity ~10-12%. That gives 35.3% / 34.5% / 34.1% for FY27-29; we use 35.5% / 35.0% / 34.5%. Street: PL 35.5/35.4%, HSIE 35.7/36.6/36.4%, SBICAP 35.9/35.6/35.0%.",
+ "capex": [
+  175,
+  250,
+  250
+ ],
+ "_capexWhy": "FY26 Rs328 cr (Screener, incl. Indichem). FY27: ~Rs50 cr spillover (battery Phase 2, Sachin pilot plant) + ~Rs45 cr maintenance (Q1FY27 call) + ~Rs20 cr to finish Indichem (Rs15 cr in Q1) + ~Rs60 cr first year of the Rs212 cr electronic-grade chemicals plant = Rs175 cr. FY28-29 Rs250 cr a year: the rest of the electronic-chemicals plant (end-FY28), maintenance, and our allowance of ~Rs100-150 cr a year for the new R&D centre, land and the next pharma block (Sachin is full and Ankleshwar fills by ~FY28; amounts not yet announced). HSIE's balance sheet implies ~Rs170-210 cr a year.",
+ "depRateOnGrossBlock": 5,
+ "_depWhy": "FY26 depreciation Rs36 cr = 4.8% of average gross block (Rs757 cr, Screener); Q1FY27 Rs9.8 cr. The engine depreciates capex from the year it is spent but holds CWIP (Rs332 cr at Mar-26, mostly Indichem and battery Phase 2, which commission in FY27) flat, so 5.0% on gross block plus capex gives ~Rs47 / 58 / 71 cr for FY27-29E, close to a bottom-up path once Indichem (~Rs200 cr) and battery Phase 2 start depreciating. Street FY27E: PL Rs50 cr, HSIE Rs56 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Treasury income is built in tools/authoring/ACUTAAS.ctx.js on AVERAGE net cash (the engine would apply a yield to the opening balance only) and entered in otherIncome.",
+ "otherIncome": [
+  9.9,
+  15.6,
+  23
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (checked in ACUTAAS.ctx.js; written by ACUTAAS.mult.js): (1) treasury income at 3.5% on average net cash (engine path from Rs189 cr at Mar-26); FY26 interest income was Rs8.5 cr on average cash and bank balances of ~Rs237 cr (3.6%) and Q1FY27 other income of Rs1.8 cr (Rs0.1 cr forex) on average net cash of ~Rs256 cr is ~2.7% annualised; (2) miscellaneous Rs0.5 cr (FY26 asset sales and ECL reversal Rs0.6 cr). No forex gains are forecast (FY26 Rs32.5 cr with a weak rupee against the euro; Q1FY27 Rs0.1 cr). Export incentives are in revenue (other operating revenue Rs10.4 cr in FY26), not in other income. FY26 other income was Rs41.6 cr; twelve months to Jun-26 Rs27.5 cr.",
+ "interest": [
+  4,
+  3.5,
+  3.1
+ ],
+ "_interestWhy": "Built in ACUTAAS.ctx.js: 8.5% on average borrowings (Rs26.5 cr of short-term debt at Mar-26 falling to ~Rs20 / 15 / 10 cr) plus ~Rs2 cr of lease interest and other finance costs (incl. MSME interest, Rs1.2 cr in FY26). FY26 finance cost Rs3.3 cr; Q1FY27 Rs1.1 cr.",
+ "taxRate": [
+  26.5,
+  26,
+  25.8
+ ],
+ "_taxWhy": "FY26 26.2%, Q1FY27 27.8%: losses in Indichem (Rs5.4 cr) and the electrolyte subsidiary (Rs3.7 cr) get no tax credit; easing as both turn profitable. Standalone rate 25.17%. Street: PL 27%, HSIE 25.8/25.1/25.2%.",
+ "payout": [
+  6,
+  6,
+  6
+ ],
+ "_payoutWhy": "Final dividend Rs2.50 a share for FY26 (5.7% of EPS; Rs1.50 for FY25). We assume ~6% while capex continues.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 30,
+  "fadeCapexPctTo": 7,
+  "depPctOfSales": 3.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Acutaas is net cash, so WACC equals the cost of equity. Beta 1.0 (12.5%): one customer/molecule drives about half of revenue, the chemicals side is cyclical, and the stock has swung widely (Rs434-3,695 since Apr-2022).",
+  "_tgWhy": "5.5%, mid-range of the house 5-6%: Indian CDMO is forecast to grow ~7.4% a year to 2034 (AR FY26 MD&A), but the darolutamide contract loses patent protection in 2033-35.",
+  "_fadeGrowthWhy": "Revenue growth fades from 19.7% (FY29E) to 7% by FY42E: revenue grew 33% a year in FY20-26, but much of it is one molecule.",
+  "_fadeMarginWhy": "30% by FY42E, below our FY29E 34.5%: generic darolutamide from the mid-2030s, more battery and commodity-like volume, and price pressure on intermediates.",
+  "_fadeCapexWhy": "Capex falls from 10-15% of sales (FY27-29E) to 7%: maintenance (~3.5% of sales; FY26 depreciation 2.7%) plus growth capex at Acutaas's ~1.5x gross asset turn.",
+  "_wcNote": "Operating working capital is ~29% of FY26 sales on Screener's Mar-26 balance sheet (other assets less cash, less other liabilities incl. Rs57 cr of minority interest that Screener puts there); the company reports 120 days. The engine holds the ratio, consistent with 99-120 days."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Nubeqa keeps growing ~30-50% a year with label expansions, the four new CDMO molecules and apixaban generics land on time, battery additives fill the plant in two years and Indichem wins Korean customers; growth runs ~5 points a year faster and the margin ~2 points higher.",
+   "revenueGrowthDelta": 5,
+   "marginDelta": 2,
+   "fadeMarginTo": 33
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Darolutamide orders flatten (destocking, a second supplier at Fermion, or slower label growth), the new CDMO molecules slip and battery additives meet Chinese price competition; growth slows ~8 points a year and the margin falls ~3 points toward FY25's mix.",
+   "revenueGrowthDelta": -8,
+   "marginDelta": -3,
+   "fadeMarginTo": 27
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 34.5,
+      "bull": 49,
+      "bear": 27
+     },
+     "why": "How the street values Acutaas: of the brokers that disclose a method, PL uses P/E (56x FY28E) and Kotak Institutional Equities a sum of the parts that puts 35x Jun-28E P/E on the business outside the Nubeqa contract; HSIE frames its SELL against the stock's ~41x five-year average one-year-forward P/E. 34.5x = Acutaas's median one-year-forward P/E since 1-Apr-2022 (listed 14-Sep-2021; IPO months skipped; every weekly close plus the 30-Sep close, 236 points; forward EPS = FY24 before the Rs32.1 cr JV impairment (Rs10.1 vs Rs5.80 reported; the median is 31.8x on reported EPS too), FY25-26 reported, our FY27E/FY28E) of 31.8x x 1.078 (nine pharma peers' trailing P/E at the 30-Sep close vs their medians over the same window, PLAYBOOK §7c; reproduced +7.8%) = 34.3x, nearest half-turn. Trough rule: FY24 reported EPS Rs5.80 is just above half the prior three-year peak (Rs5.72), so no year is left out. Bull 49x / bear 27x = 75th / 25th percentile (45.4x / 24.9x) x 1.078. No own-move blend, no growth uplift, no chemicals factor (sensitivities only). Written by ACUTAAS.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 21.5,
+      "bull": 28.5,
+      "bear": 18.5
+     },
+     "why": "Cross-check: Acutaas's median one-year-forward EV/EBITDA since 1-Apr-2022 (EV at each weekly close = price x shares then outstanding less the last published net cash, over the next full year's EBITDA, Screener basis) of 20.1x x 1.075 (the nine peers' EV/EBITDA move over the same window; reproduced +7.5% unrounded) = 21.6x, nearest half-turn, on Sep-28E EBITDA plus Sep-28E net cash. Bull 28.5x / bear 18.5x = 75th / 25th percentile x 1.075."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 12.5% (cost of equity = WACC; net cash), terminal growth 5.5%, plus net cash at Mar-27."
+    }
+   ]
+  }
+ }
+}
