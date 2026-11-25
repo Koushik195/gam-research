@@ -1,0 +1,24 @@
+{
+ "_note": "Coal India reports one segment (coal). The business lines are sales channels: FSA (fuel supply agreements at notified prices), e-auction (market-linked premiums) and washed coal and others. Volumes in million tonnes (sales quantity); realisations in Rs per tonne excluding other charges (levies and recoveries passed through in the billing price). EBITDA = our definition (excludes other income and JV share; includes the stripping activity credit), equal to Screener's after COALINDIA.patch.js. Revenue is on the new basis (levies collected as principal inside revenue) from FY25; Screener's FY25 quarters are still on the old net basis, so quarterly revenue starts at Q1FY26.",
+ "src": "Company presentations (Q1FY26-Q1FY27 decks of 12-Feb-2026, 27-Apr-2026, 27-Jul-2026); AR FY26; PL 28-Jul-2026 exhibit 4 (FY21-FY24 channel mix); Screener.in (quarterly revenue and EBITDA as reported)",
+ "annual": [
+  { "fy": "FY21", "qty": 574.48, "fsaMt": 466, "eaMt": 94, "fsaEx": 1379, "eaEx": 1569, "eaPremiumPct": 13.7, "ebitda": 18628 },
+  { "fy": "FY22", "qty": 661.88, "fsaMt": 540, "eaMt": 111, "fsaEx": 1407, "eaEx": 1879, "eaPremiumPct": 33.6, "ebitda": 24721 },
+  { "fy": "FY23", "qty": 694.69, "fsaMt": 621, "eaMt": 62, "fsaEx": 1475, "eaEx": 4841, "eaPremiumPct": 228.3, "ebitda": 44232 },
+  { "fy": "FY24", "qty": 753.51, "fsaMt": 670, "eaMt": 70, "fsaEx": 1536, "eaEx": 3059, "eaPremiumPct": 99.1, "ebitda": 47971 },
+  { "fy": "FY25", "qty": 761.45, "fsaMt": 666.46, "eaMt": 79.09, "washMt": 15.90, "fsaEx": 1432.08, "eaEx": 2423.80, "washEx": 3888.79, "avgEx": 1586.39, "eaPremiumPct": 69.3, "ebitda": 47205 },
+  { "fy": "FY26", "qty": 743.60, "fsaMt": 645.99, "eaMt": 83.83, "washMt": 13.78, "fsaEx": 1443.52, "eaEx": 2259.74, "washEx": 3401.21, "avgEx": 1571.82, "eaPremiumPct": 56.5, "ebitda": 41243 }
+ ],
+ "quarterly": [
+  { "q": "Q1FY26", "qty": 190.56, "fsaMt": 165.77, "eaMt": 21.25, "washMt": 3.54, "fsaEx": 1468.44, "eaEx": 2227.51, "avgEx": 1590.35, "sales": 42919, "ebitda": 12588, "ebitdaPerT": 661 },
+  { "q": "Q2FY26", "qty": 166.01, "fsaMt": 147.42, "eaMt": 15.37, "washMt": 3.22, "sales": 36553, "ebitda": 6593, "ebitdaPerT": 397, "derived": true },
+  { "q": "Q3FY26", "qty": 188.18, "fsaMt": 165.14, "eaMt": 19.52, "washMt": 3.52, "sales": 34924, "ebitda": 9331, "ebitdaPerT": 496 },
+  { "q": "Q4FY26", "qty": 198.83, "fsaMt": 167.70, "eaMt": 27.63, "washMt": 3.49, "fsaEx": 1460.47, "eaEx": 2202.63, "avgEx": 1597.85, "sales": 46490, "ebitda": 12673, "ebitdaPerT": 637 },
+  { "q": "Q1FY27", "qty": 198.23, "fsaMt": 168.07, "eaMt": 26.52, "washMt": 3.64, "fsaEx": 1435.40, "eaEx": 2320.50, "avgEx": 1594.96, "sales": 46255, "ebitda": 12069, "ebitdaPerT": 609 }
+ ],
+ "kpiBlocks": [
+  ["1   VOLUMES (million tonnes sold)", [["qty", "Coal sold (all channels)", "MT", 1], ["fsaMt", "FSA (notified price)", "MT", 1], ["eaMt", "E-auction", "MT", 1], ["washMt", "Washed coal and others", "MT"]]],
+  ["2   REALISATION, excl. other charges", [["fsaEx", "FSA", "₹/t", 1], ["eaEx", "E-auction", "₹/t", 1], ["avgEx", "Average", "₹/t", 1]]],
+  ["3   COMPANY", [["sales", "Revenue from operations", "₹ cr", 1], ["ebitda", "EBITDA (incl. stripping credit)", "₹ cr", 0, "sales"], ["ebitdaPerT", "EBITDA per tonne sold", "₹/t"]]]
+ ]
+}

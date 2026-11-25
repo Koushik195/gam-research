@@ -1,0 +1,288 @@
+{
+ "symbol": "COALINDIA",
+ "asOf": "2026-09-30",
+ "industry": {
+  "demand": "Coal is ~75% of India's power generation (CARE, Apr-2026); coal's share of generation fell from ~71% in FY25 to ~68% in FY26 while renewables rose from ~22% to ~26% (ICICI Direct, 30-Jul-2026). Thermal generation rose 9.9% in Apr-Aug 2026 and power-plant coal stocks fell to ~23 MT (~8 days) by early September (Equirus via Business Today, 10-Sep-2026).",
+  "supply": "Captive and commercial mines produced 210.5 MT in FY26 (+10%, vs 191.0 MT in FY25) and take a growing share of incremental output (CARE; ICICI Direct). Coal India produced 768 MT (-1.6%) and sold 745 MT (-2.4%) in FY26.",
+  "pricing": "FSA (notified) prices are set by Coal India with an eye on the Government and power tariffs; no general notified-price increase was announced between FY26 and 30-Sep-2026 (BCCL's WPI-linked coking-coal revision of +0.24% from Apr-2026). E-auction premiums over notified prices: 228% (PL basis, FY23), 99% (FY24), 69% (FY25), 57% (FY26); 36% in Q4FY26, ~47% in Q1FY27, 43% average Apr-Jul 2026 (Chairman, AGM).",
+  "policy": "GST on coal raised to 18% from 5% and the Rs400/t compensation cess abolished from 22-Sep-2025 (CARE). Supreme Court allowed states to tax mineral rights retrospectively (Coal India's estimate: Rs31,591 cr gross, ~Rs6,000 cr net). Middle-East conflict raised diesel costs in 2026; Coal India chose to absorb them rather than raise prices (Kotak Neo, Apr-2026).",
+  "src": "CARE 13-Apr-2026; ICICI Direct 30-Jul-2026; PL 28-Jul-2026; Business Today 10-Sep-2026; ANI/Devdiscourse 31-Aug-2026; Free Press Journal (BCCL price revision, Apr-2026)"
+ },
+ "peers": {
+  "set": [
+   "ONGC",
+   "OIL",
+   "IOC",
+   "BPCL",
+   "GAIL",
+   "PETRONET"
+  ],
+  "excluded": {
+   "HINDPETRO": "Earnings distorted: P/E of 44.6x on 30-Sep-2026 on trough trailing EPS (Q1FY27 marketing loss; TTM EPS Rs6.75 vs Rs84.81 in FY26) and loss quarters inside the window"
+  },
+  "subsets": {
+   "upstream": [
+    "ONGC",
+    "OIL"
+   ],
+   "miners": [
+    "ONGC",
+    "OIL",
+    "NMDC"
+   ],
+   "refinersAdded": [
+    "ONGC",
+    "OIL",
+    "IOC",
+    "BPCL",
+    "GAIL",
+    "PETRONET",
+    "MRPL",
+    "CHENNPETRO"
+   ],
+   "sail": "SAIL"
+  },
+  "sailNote": "SAIL (metals PSU) would be excluded as distorted: a trough year inside its five-year window (FY23 EPS Rs5.27 vs Rs29.64 in FY22).",
+  "note": "Team B brief: Coal India's closest peers are the upstream PSUs ONGC and OIL. Two names is a thin set, so per the thin-peer rule we widen to the oil, gas and consumable fuels group that NSE classifies Coal India in, matching the set the ONGC initiation in this batch uses (ONGC.ctx.js: upstream + oil marketing + gas; HPCL excluded as distorted). Mining PSUs (NMDC; SAIL distorted) and the brief's wider refiner list (adding MRPL and Chennai Petroleum) are sensitivity rows only. Coal India itself is excluded. ONGC is on Screener's standalone basis."
+ },
+ "street": {
+  "brokers": [
+   {
+    "broker": "Anand Rathi",
+    "date": "2026-07-28",
+    "rating": "Buy",
+    "tp": 520,
+    "method": "EV/EBITDA",
+    "multiple": "6x",
+    "on": "FY28E",
+    "thesis": "In-line Q1; target retained",
+    "src": "Kotak Neo/Business Standard brokerage roundups, 28-Jul-2026"
+   },
+   {
+    "broker": "Motilal Oswal",
+    "date": "2026-07-27",
+    "rating": "Buy",
+    "tp": 510,
+    "method": "EV/EBITDA",
+    "multiple": "6x",
+    "on": "FY28E",
+    "thesis": "Estimates retained; stock at 4.9x FY28E EV/EBITDA is attractive; Q1 EBITDA/t Rs517 ex-OBR",
+    "src": "Goodreturns 28-Jul-2026 (MOSL quote); Moneycontrol via askfuzz"
+   },
+   {
+    "broker": "PL Capital",
+    "date": "2026-07-28",
+    "rating": "Accumulate",
+    "tp": 472,
+    "method": "EV/EBITDA",
+    "multiple": "5.25x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 53.9,
+     "FY28E": 55.1
+    },
+    "ebitda": {
+     "FY27E": 45407,
+     "FY28E": 47798
+    },
+    "volumeMt": {
+     "FY27E": 758,
+     "FY28E": 781
+    },
+    "thesis": "Q1 EBITDA ex-OBR 10% below estimate on diesel and contract costs; costs near peak; ~7% dividend yield; TP cut from Rs515",
+    "src": "PL result update PDF, 28-Jul-2026"
+   },
+   {
+    "broker": "ICICI Direct (retail)",
+    "date": "2026-07-30",
+    "rating": "Hold",
+    "tp": 480,
+    "method": "EV/EBITDA",
+    "multiple": "4.5x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 59.8,
+     "FY28E": 62.6
+    },
+    "ebitda": {
+     "FY27E": 48810,
+     "FY28E": 52442
+    },
+    "volumeMt": {
+     "FY27E": 800,
+     "FY28E": 840
+    },
+    "thesis": "Downgrade from Buy: renewables and captive mines keep volume growth muted (production ~4% CAGR to 825 MT by FY28E); ~7% dividend yield and net cash are positives",
+    "src": "ICICI Direct company update PDF, 30-Jul-2026"
+   },
+   {
+    "broker": "Jefferies",
+    "date": "2026-07-28",
+    "rating": "Buy",
+    "tp": 500,
+    "method": "n.d.",
+    "thesis": "EBITDA miss; higher global coal prices a positive",
+    "src": "Tradebrains/Kotak Neo roundups, 28-Jul-2026"
+   },
+   {
+    "broker": "Citi",
+    "date": "2026-07-28",
+    "rating": "Neutral",
+    "tp": 430,
+    "method": "n.d.",
+    "thesis": "Volumes muted; limited e-auction upside given inventories; valuation gives downside support; TP cut from Rs440",
+    "src": "Tradebrains roundup, 28-Jul-2026"
+   },
+   {
+    "broker": "JPMorgan",
+    "date": "2026-07-28",
+    "rating": "Neutral",
+    "tp": 430,
+    "method": "n.d.",
+    "thesis": "Adjusted EBITDA below estimate; TP cut from Rs435",
+    "src": "Tradebrains roundup, 28-Jul-2026"
+   },
+   {
+    "broker": "Morgan Stanley",
+    "date": "2026-07-28",
+    "rating": "Equal-weight",
+    "tp": 420,
+    "method": "n.d.",
+    "thesis": "Weak operations, FSA and e-auction realisations below expectations; cheap but no re-rating trigger",
+    "src": "Tradebrains roundup, 28-Jul-2026"
+   },
+   {
+    "broker": "Kotak (via Kotak Neo)",
+    "date": "2026-07-28",
+    "rating": "Sell",
+    "tp": 370,
+    "method": "n.d.",
+    "thesis": "Subdued start to FY27; ~45 GW of new coal capacity helps demand but medium-term growth limited; BCCL loss; no near-term catalyst",
+    "src": "Kotak Neo market news, 28-Jul-2026"
+   },
+   {
+    "broker": "Nuvama",
+    "date": "2026-09-02",
+    "rating": "Hold",
+    "tp": 454,
+    "method": "EV/EBITDA",
+    "multiple": "5x",
+    "on": "FY28E",
+    "thesis": "Upgrade from Reduce (TP Rs396) on strong e-auction premiums; stock at 4.1x FY28E EV/EBITDA",
+    "src": "Business Today, 2-Sep-2026"
+   },
+   {
+    "broker": "Equirus",
+    "date": "2026-09-10",
+    "rating": "Add",
+    "tp": 450,
+    "method": "EV/EBITDA",
+    "multiple": "5x",
+    "on": "Dec-27 (one year forward)",
+    "thesis": "Upgrade from Reduce: low power-plant stocks (~8 days) could lift e-auction premiums from ~45-50% to 75-80%+",
+    "src": "Business Today, 10-Sep-2026"
+   },
+   {
+    "broker": "JM Financial",
+    "date": "2026-03",
+    "rating": "Reduce",
+    "tp": 420,
+    "method": "EV/EBITDA",
+    "multiple": "5x",
+    "on": "FY28E",
+    "thesis": "Pre-Q4 note; not confirmed after Q1FY27",
+    "src": "Business Standard broker-tips PDF, Mar-2026 (search summary)",
+    "stale": true
+   }
+  ],
+  "method": "The street values Coal India on EV/EBITDA on FY28E (or one year forward): 4.5x-6x in the notes that disclose a method (MOSL 6x, Anand Rathi 6x, PL 5.25x, Nuvama 5x, Equirus 5x, ICICI Direct 4.5x, JM 5x). None of the dated notes uses P/E as the valuation method; P/E (7-8x) and dividend yield (~7%) are quoted as support.",
+  "consensus": "Post-Q1 targets (11 brokers, 27-Jul to 10-Sep-2026) range Rs370-520; median Rs454. FY27E EPS: PL Rs53.9, ICICI Rs59.8; FY28E: PL Rs55.1, ICICI Rs62.6."
+ },
+ "ownership": {
+  "date": "2026-06-30",
+  "categories": {
+   "promoters": 61.13,
+   "fii": 10.37,
+   "dii": 22.2,
+   "mutualFunds": 9.93,
+   "otherDomesticInstitutions": 12.28,
+   "government": 0.1,
+   "public": 6.18
+  },
+  "named": [
+   [
+    "President of India (Government of India, promoter)",
+    61.13
+   ],
+   [
+    "Life Insurance Corporation of India (31-Mar-2026, AR FY26; Jun-2026 figure not in our sources)",
+    11.05
+   ]
+  ],
+  "shareholders": 2551169,
+  "pledged": 0,
+  "note": "Promoter fell from 63.13% to 61.13% after the 27/29-May-2026 OFS; FIIs rose from 8.38% to 10.37% in the same quarter (they took much of the OFS).",
+  "src": "Screener.in shareholding (quarter ended Jun-2026); PL 28-Jul-2026 (mutual funds, domestic institutions); AR FY26 (LIC at Mar-2026)"
+ },
+ "stockEvents": [
+  {
+   "date": "2026-05-27",
+   "event": "Government OFS (2%) at Rs412 floor vs ~Rs458 close; non-retail 8.1x subscribed; green shoe exercised"
+  },
+  {
+   "date": "2026-07-28",
+   "event": "Q1FY27 results: stock -3% to ~Rs415 (EBITDA miss on diesel and contract costs)"
+  },
+  {
+   "date": "2026-09-02",
+   "event": "Nuvama upgrade to Hold: stock +4% in early trade"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "Close Rs425 (NSE); 52-week range Rs368-491 (PL)"
+  }
+ ],
+ "moat": {
+  "scale": "Near-monopoly (~74-80% of domestic output), ~49% of proven reserves, low-cost open-cast mines (97% of output) and ~618 MTPA of power linkages.",
+  "pricing": "Weak: notified prices are effectively policy-set (no general notified-price increase announced from Apr-2025 to 30-Sep-2026 in our sources; 2026 diesel costs absorbed), so Coal India cannot pass on wage and diesel inflation at will. Market pricing exists only in e-auctions (11-13% of volume).",
+  "threats": "Captive/commercial mines (+10% in FY26), renewables (coal's share of generation down ~3 points in FY26), high-cost legacy subsidiaries (BCCL, ECL) and a large, unionised workforce.",
+  "verdict": "A scale-and-reserves franchise without pricing power: it earns a high ROE because the asset base is old and the State lets it, not because it can raise prices. Moat: narrow."
+ },
+ "critiques": {
+  "bull": [
+   "~6-7% dividend yield and ~Rs57,000 cr of gross cash and current investments (~Rs92 a share)",
+   "Tight coal stocks at power plants could lift e-auction premiums (Equirus: 75-80%+)",
+   "Volume growth resumed (Apr-Aug offtake +6.7%) with pithead stocks drawn down",
+   "Subsidiary listings (BCCL, CMPDI, MCL, SECL) crystallise value"
+  ],
+  "bear": [
+   "Volume growth capped by renewables and captive mines (ICICI Direct, Kotak)",
+   "Cost inflation: diesel, explosives, outsourcing; NCWA-XII wage settlement due from 1-Jul-2026 is not provided for",
+   "Government OFS overhang (May-2026) and minority leakage as subsidiaries list",
+   "No pricing power on 85%+ of volume"
+  ]
+ },
+ "governance": {
+  "board": "One independent director at 31-Mar-2026 against six functional and two government directors (SEBI LODR requires half independent; appointments rest with the Ministry)",
+  "audit": "Unqualified, with emphasis of matter on levies shown as revenue (principal) and stripping-activity accounting; C&AG supplementary audit",
+  "relatedParty": "Sales to state utilities and government entities at notified prices; policy-directed diversification (fertiliser JVs HURL/TFL, gasification JVs with BHEL and GAIL, solar, critical minerals)",
+  "src": "AR FY26"
+ },
+ "gaps": [
+  "LIC's stake at 30-Jun-2026 (11.05% at 31-Mar-2026 per AR FY26); the Jun-2026 BSE shareholding pattern was not readable from our sources.",
+  "Size and timing of the NCWA-XII (non-executive) wage revision: NCWA-XI expired 30-Jun-2026 and JBCCI-12 had not been constituted by 20-Sep-2026; our provision is an assumption.",
+  "Remaining balance of the old stripping-activity (ratio-variance) provision that is being reversed into revenue (Rs1,965 cr in FY26, Rs2,882 cr in FY25).",
+  "No FY27 offtake (dispatch) target published by the company in our sources; production target 815 MT (CARE, company).",
+  "Q2FY26 and Q3FY26 realisations were presented on a different basis and are not comparable; left blank.",
+  "Valuation methods of Jefferies, Citi, JPMorgan, Morgan Stanley and Kotak were not visible in our sources.",
+  "No Q1FY27 earnings-call transcript on file (Screener lists presentations only for 2026).",
+  "Minority share of profit after the BCCL and CMPDI listings is not split out in our sources (FY26 owners Rs31,094 cr vs total Rs31,071 cr).",
+  "MCL IPO price and timing (DRHP of 1-Sep-2026 only)."
+ ],
+ "conflicts": [
+  "Executive pay-scale upgradation: CARE (13-Apr-2026) and the Q3FY26 deck say Rs2,201 cr was expensed in Q3FY26; the AR FY26 MD&A cites a Rs1,458 cr provision. We use Rs2,201 cr as the FY26 one-off (the larger, earlier and quarter-specific figure) and note both.",
+  "FY27 production target: 815 MT (CARE; company clarification) vs 810 MT in one May-2026 report; we use 815 MT.",
+  "PL: one news aggregator reported a PL 'Buy, Rs520'; the PL PDF of 28-Jul-2026 says Accumulate, TP Rs472 at 5.25x FY28E EV/EBITDA. We use the PDF.",
+  "MOSL: 6x FY28E EV/EBITDA is the target multiple; 4.9x is where the stock traded (Goodreturns quote)."
+ ]
+}

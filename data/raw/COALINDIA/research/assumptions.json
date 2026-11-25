@@ -1,0 +1,215 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Coal India (consolidated, Rs crore). Base year FY26 from Screener after COALINDIA.patch.js (stripping activity credit back in operating costs for FY25/FY26; owners' profit). Revenue is one growth path computed from the business-line build in `build` (coal sold x realisation by channel, plus other charges and other operating revenue); EBITDA margin comes from the build's EBITDA per tonne. Both are checked against the model in tools/authoring/COALINDIA.ctx.js. We do not use the engine's volume x price path because its Excel labels are vehicle-specific (engine gap). Valued on EV/EBITDA (Sep-28E), as the street does; the multiple is derived in COALINDIA.ctx.js and written here by COALINDIA.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  7.39,
+  4.65,
+  4.66
+ ],
+ "_revenueWhy": "From the build. FY27E: coal sold +4.5% to 777 MT (Apr-Aug offtake +6.7% to 322.9 MT as pithead stocks were drawn down; we assume +3% for Sep-Mar against a weak H2FY26 base, below the 815 MT production target), e-auction 13% of volume (11.3% FY26, 13.4% Q1FY27), FSA price flat at Rs1,445/t (no notified increase), e-auction Rs2,380/t (+5%; premium ~43% Apr-Jul), other charges Rs675/t (Rs650 FY26, Rs682 Q1 after the Jharkhand land cess). FY28-29E: volume +3.5% a year, FSA +1%, e-auction +1%. Street FY27E revenue: PL Rs1,75,080 cr, ICICI Direct Rs1,87,298 cr.",
+ "ebitdaMargin": [
+  24.28,
+  24.43,
+  24.58
+ ],
+ "_marginWhy": "Build EBITDA per tonne sold: Rs565 / Rs575 / Rs585 (FY24 Rs637, FY25 Rs620, FY26 Rs555 incl. the Rs2,201 cr one-off executive pay provision, i.e. ~Rs584 before it; Q1FY27 Rs609 vs Rs661). FY27E: higher e-auction volume and premium and no repeat of the pay provision, offset by diesel/explosives (+27% materials in Q1), outsourcing (+11%), inventory drawdown and a provision for the NCWA-XII wage settlement due from 1-Jul-2026 (our assumption: ~Rs2,300 cr in FY27, ~Rs3,000 cr a year after). Street: PL Rs599/t on 758 MT, ICICI Rs610/t on 800 MT.",
+ "capex": [
+  18000,
+  19000,
+  20000
+ ],
+ "_capexWhy": "Company capex (incl. land, R&R and JV equity): Rs21,776 cr FY25, Rs19,607 cr FY26 against a Rs16,000 cr target; FY27 target Rs16,500 cr (Q1 Rs3,399 cr, 20.6%); CARE: Rs16,000-16,500 cr a year FY27-29. Coal India beat its target by 23-40% in the last two years, so we take Rs18,000-20,000 cr. Gasification JVs (BCGCL Rs25,000 cr project with BHEL) add equity calls not yet scheduled.",
+ "depRateOnGrossBlock": 7,
+ "_depWhy": "FY26 D&A Rs10,137 cr = 7.7% of average gross block (Rs1,30,854 cr, incl. impairment and stripping-asset amortisation; land Rs34,822 cr is not depreciated). 7.0% on the engine's gross block (capex added at once, CWIP flat) gives Rs10,290 cr / Rs11,590 cr / Rs12,950 cr (ICICI Direct Rs10,470 cr / Rs11,919 cr). Q1FY27 D&A Rs2,303 cr.",
+ "treasuryYield": [
+  6.5,
+  6.5,
+  6.5
+ ],
+ "_treasuryWhy": "Bank deposits and liquid funds: FY26 interest excluding tax-refund and escrow interest (Rs2,997 cr) plus fund gains (Rs249 cr) = Rs3,246 cr = 6.9% of average cash, bank balances and current investments (Rs47,076 cr). We take 6.5% after the repo rate fell to 5.25%. The engine applies it to net treasury (cash Rs52,574 cr + investments Rs10,226 cr - borrowings Rs14,072 cr = Rs48,728 cr); the Rs8,034 cr difference to the interest-earning gross (debt less JV equity) is added in otherIncome.",
+ "otherIncome": [
+  7672,
+  7102,
+  6932
+ ],
+ "_otherIncomeWhy": "Non-treasury other income, built (AR FY26 note 12.2): escrow interest Rs950/1,030/1,110 cr (Rs876 cr FY26; deposits ~Rs1,640 cr a year); interest on income-tax refunds Rs1,500/750/400 cr (Rs2,365 cr FY26, Rs2,274 cr FY25; current tax assets fell to Rs5,343 cr from Rs9,823 cr, so this runs off); provisions and liabilities written back Rs2,000 cr a year (Rs2,932 cr FY26, Rs2,496 cr FY25: recurring but lumpy); miscellaneous income Rs1,800/1,850/1,900 cr (Rs1,774 cr FY26: penalties, e-auction fees, scrap); JV share Rs900/950/1,000 cr (Rs758 cr FY26, Rs240 cr Q1FY27; Screener books it in other income); and 6.5% on the Rs8,034 cr gross-up (Rs522 cr). With treasury interest FY27E other income is ~Rs10,800 cr vs Rs12,033 cr FY26 and Rs12,555 cr TTM Jun-26: the gap is lower tax-refund interest (-Rs865 cr) and write-backs (-Rs932 cr).",
+ "interest": [
+  1330,
+  1380,
+  1430
+ ],
+ "_interestLabel": "Finance cost (unwinding of mine-closure discount, borrowings, leases)",
+ "_interestWhy": "FY26 Rs1,216 cr (unwinding Rs775 cr, borrowing costs Rs437 cr); Q1FY27 Rs327 cr (+23%, BCCL and ECL borrowings and mine-closure plan revision).",
+ "taxRate": [
+  25,
+  25,
+  25
+ ],
+ "_taxWhy": "FY26 25.9%, Q1FY27 24.5% (on PBT including the post-tax JV share); 25.17% statutory.",
+ "payout": [
+  52,
+  52,
+  52
+ ],
+ "_payoutWhy": "FY26 Rs26.50 a share = 52.5% of EPS (FY25 46%, FY24 42%); first FY27 interim Rs5.50 (Jul-2026). CPSE floor: 30% of PAT or 4% of net worth.",
+ "build": {
+  "_note": "Business-line build (volumes MT, prices Rs/t, revenue Rs crore). FY26 base from the Q4FY26 deck and AR FY26: sale of products Rs1,65,186 cr = FSA 645.99 MT x Rs1,443.52 + e-auction 83.83 MT x Rs2,259.74 + washed/others 13.78 MT x Rs3,401.21 (Rs1,16,880 cr) + other charges, transport, evacuation and CQV recoveries (Rs48,306 cr = Rs649.6/t); other operating revenue Rs3,214 cr (services Rs1,231 cr, stripping provision reversal Rs1,965 cr, subsidy Rs18 cr). Checked against model revenue and EBITDA in COALINDIA.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "qty": 743.6,
+   "fsa": 645.99,
+   "ea": 83.83,
+   "wash": 13.78,
+   "pFsa": 1443.52,
+   "pEa": 2259.74,
+   "pWash": 3401.21,
+   "saleOfProducts": 165186.01,
+   "otherOp": 3214.25,
+   "ebitda": 41243
+  },
+  "qtyGrowth": [
+   4.5,
+   3.5,
+   3.5
+  ],
+  "eaSharePct": [
+   13,
+   13,
+   13
+  ],
+  "washMt": [
+   16,
+   17,
+   18
+  ],
+  "pFsa": [
+   1445,
+   1460,
+   1475
+  ],
+  "pEa": [
+   2380,
+   2400,
+   2420
+  ],
+  "pWash": [
+   3550,
+   3620,
+   3690
+  ],
+  "otherChargesPerT": [
+   675,
+   690,
+   705
+  ],
+  "services": [
+   1300,
+   1350,
+   1400
+  ],
+  "strippingReversal": [
+   2000,
+   1500,
+   1000
+  ],
+  "ebitdaPerT": [
+   565,
+   575,
+   585
+  ],
+  "wageProvision": [
+   2300,
+   3000,
+   3100
+  ],
+  "_why": "E-auction premium over FSA (ex charges) ~65% FY27E vs 57% FY26 and 62% in Q1FY27 (Rs2,320 vs Rs1,435). Washed coal rises with new washeries (Bhojudih 2 MTPA from May-2026). Stripping-provision reversal declines as the old ratio-variance provision runs off (balance not disclosed: gap). wageProvision is the part of EBITDA per tonne set aside for NCWA-XII (assumption: ~10% on ~Rs30,000 cr of non-executive pay from 1-Jul-2026)."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 4,
+  "years": 15,
+  "fadeGrowthTo": 3,
+  "fadeMarginTo": 23,
+  "fadeCapexPctTo": 7,
+  "depPctOfSales": 6,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, but a single regulated commodity with policy-set prices, energy-transition risk and a government owner that sells down: beta 1.0, Ke 12.5%.",
+  "_tgWhy": "Below the house 5-6% range on purpose: Indian coal demand is expected to keep rising into the 2030s (1 bn t target by FY30) but to plateau as renewables grow; 4% nominal (~flat volume plus inflation in prices) after year 15.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~4.7% to 3% by FY42 as volumes flatten.",
+  "_fadeMarginWhy": "EBITDA margin drifts to 23% (FY26 24.5%): wage and diesel inflation, older underground subsidiaries, partly offset by e-auction and productivity.",
+  "_fadeCapexWhy": "Capex ~10% of revenue in FY27-29E falls to ~7% as evacuation and first-mile projects finish (by FY29-30, CARE); D&A ~6% of revenue."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Tight coal stocks at power plants push e-auction premiums to 75-80% (Equirus) and e-auction share to 15%; volume +6-7% a year towards the 1 bn t plan; a notified-price increase accompanies the wage settlement; EBITDA per tonne ~₹640.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 2,
+   "fadeMarginTo": 25
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Renewables and captive mines cap volume at +1-2%; e-auction premium falls back to ~35% (Q4FY26); NCWA-XII costs ~₹5,000 cr a year with no price increase; diesel stays high; EBITDA per tonne ~₹510.",
+   "revenueGrowthDelta": -2.5,
+   "marginDelta": -2.5,
+   "fadeMarginTo": 21
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 4,
+      "bull": 5,
+      "bear": 3
+     },
+     "why": "How the street values Coal India: EV/EBITDA on FY28E (MOSL and Anand Rathi 6x, PL 5.25x, Nuvama and Equirus 5x, ICICI Direct 4.5x). Multiple derived in COALINDIA.ctx.js and written by COALINDIA.val.js."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 6,
+      "bull": 7,
+      "bear": 5
+     },
+     "why": "Own one-year-forward P/E median since Apr-2021, moved with the peers' P/E against their five-year medians."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "15-year FCFF at Ke 12.5%, terminal growth 4%, plus net cash."
+    }
+   ]
+  }
+ }
+}
