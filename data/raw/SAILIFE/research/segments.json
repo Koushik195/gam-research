@@ -1,0 +1,33 @@
+{
+ "asOf": "2026-09-30",
+ "note": "Sai Life reports one segment (contract research and manufacturing) but discloses revenue from Contract Development and Manufacturing (CDMO/CMC) and Contract Research (CRO/discovery) in its revenue note, and both lines in its decks. 'cdmo' and 'cro' below are deck figures (the deck adds other operating income, solvent sales and government incentives, to CDMO, so the two sum to revenue); 'cdmoContract' and 'croContract' are the audited note. Rs crore. Quarterly CDMO/CRO split is disclosed only as shares and growth rates (Q1FY27: 60/40; CRO +24%, CDMO +6%), so Q1FY26 is derived. EBITDA margin on Screener's basis (forex in other income); material margin = 100 - Screener material cost %.",
+ "src": {
+  "ar26": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d17f3109-ec43-47ab-bb5d-af0cc06255c9.pdf",
+  "ar25": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8281e663-cf99-4bc9-bd64-2284b74ea6fa.pdf",
+  "q4ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=314914ca-c23d-4ce4-8978-7ab4195b97f9.pdf",
+  "q1ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b86f38d-7a42-4a09-8c5d-4bf013f94a85.pdf"
+ },
+ "annual": [
+  { "fy": "FY22", "revenue": 870, "materialMarginPct": 70.2, "ebitdaMarginPct": 14.5, "src": "Screener" },
+  { "fy": "FY23", "revenue": 1217, "materialMarginPct": 65.3, "ebitdaMarginPct": 13.9, "src": "Screener" },
+  { "fy": "FY24", "revenue": 1465, "cdmoContract": 959.3, "croContract": 497.2, "materialMarginPct": 69.6, "ebitdaMarginPct": 19.6, "top10pctCustomers": 0, "src": "ar25 note 27" },
+  { "fy": "FY25", "revenue": 1694.6, "cdmo": 1068, "cro": 626, "cdmoContract": 1034.0, "croContract": 626.4, "materialMarginPct": 72.5, "ebitdaMarginPct": 24.2, "topCustomerPct": 21.5, "top10pctCustomers": 2, "src": "ar26 note 27; q4ppt p.11; ar25" },
+  { "fy": "FY26", "revenue": 2192.5, "cdmo": 1417, "cro": 775, "cdmoContract": 1361.5, "croContract": 775.4, "materialMarginPct": 74.0, "ebitdaMarginPct": 28.9, "topCustomerPct": 12.2, "top10pctCustomers": 1, "src": "ar26 notes 27, 42; q4ppt p.11" }
+ ],
+ "quarterly": [
+  { "q": "Q1FY25", "revenue": 280, "otherIncome": 8.1, "materialMarginPct": 73.8, "ebitdaMarginPct": 9.3, "src": "Screener" },
+  { "q": "Q2FY25", "revenue": 396, "otherIncome": 10.0, "materialMarginPct": 73.7, "ebitdaMarginPct": 25.8, "src": "Screener" },
+  { "q": "Q3FY25", "revenue": 440, "otherIncome": 9.1, "materialMarginPct": 72.5, "ebitdaMarginPct": 27.3, "src": "Screener" },
+  { "q": "Q4FY25", "revenue": 580, "otherIncome": 9.6, "materialMarginPct": 71.1, "ebitdaMarginPct": 27.2, "src": "Screener" },
+  { "q": "Q1FY26", "revenue": 496, "cdmo": 313, "cro": 179, "otherIncome": 9.9, "materialMarginPct": 71.6, "ebitdaMarginPct": 24.4, "src": "Screener; split derived from Q1FY27 growth rates" },
+  { "q": "Q2FY26", "revenue": 537, "otherIncome": 15.3, "materialMarginPct": 73.9, "ebitdaMarginPct": 27.2, "src": "Screener" },
+  { "q": "Q3FY26", "revenue": 556, "otherIncome": 8.4, "materialMarginPct": 77.0, "ebitdaMarginPct": 33.8, "src": "Screener (other income net of the Rs8.3 cr labour-code exceptional)" },
+  { "q": "Q4FY26", "revenue": 602, "otherIncome": 15.5, "materialMarginPct": 73.1, "ebitdaMarginPct": 29.4, "src": "Screener" },
+  { "q": "Q1FY27", "revenue": 554, "cdmo": 332, "cro": 222, "otherIncome": 3.5, "materialMarginPct": 73.9, "ebitdaMarginPct": 26.7, "src": "q1ppt; q1call; Screener" }
+ ],
+ "kpiBlocks": [
+  ["1   REVENUE BY BUSINESS (company disclosures)", [["revenue", "Revenue from operations (consolidated)", "₹ cr", 1], ["cdmo", "CDMO / CMC (development and manufacturing; deck basis)", "₹ cr", 1, "revenue"], ["cro", "CRO (discovery services)", "₹ cr", 1, "revenue"]]],
+  ["2   MARGINS", [["materialMarginPct", "Material margin (100 - material cost %)", "%"], ["ebitdaMarginPct", "EBITDA margin (Screener basis, forex in other income)", "%"]]],
+  ["3   OTHER INCOME", [["otherIncome", "Other income (Screener: incl. forex)", "₹ cr"]]]
+ ]
+}

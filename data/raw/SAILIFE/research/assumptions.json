@@ -1,0 +1,168 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Sai Life Sciences (consolidated, Rs crore). Sai reports one segment but discloses CDMO (development and manufacturing; deck basis incl. other operating income) and CRO (discovery) revenue; the engine runs one revenue-growth path and the two-line build sits in businessLines, checked against model revenue in tools/authoring/SAILIFE.ctx.js. EBITDA on Screener's basis (forex in other income; the company's own EBITDA includes forex). Other income and interest are built in SAILIFE.ctx.js from sourced parts and written here by SAILIFE.mult.js. Valued on EV/EBITDA, the method all brokers that disclose one use.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  16.8285,
+  19,
+  17.6308
+ ],
+ "_revenueWhy": "Sum of the two-line build below. FY27 +16.8%: Q1FY27 revenue +12% (CRO +24%, CDMO +6%); management expects H2 to be stronger than H1 as the first 225 KL block at Bidar starts in H2/Q3 and says it has over 90% visibility on FY27 targets; production started on 3 of the 4 commercial molecules added last year. FY27 needs Q2-Q4 revenue of ~Rs2,007 cr, +18% on Rs1,695 cr a year earlier. FY28 +19.0% / FY29 +17.6%: both 225 KL blocks run (capacity ~1,150 KL), 14 late-phase molecules (two regulatory milestones in FY27, one in Q2FY28) convert to commercial supply, FTE contracts with large pharma scale. Guidance: 15-20% a year over three to five years. Street: HDFC Securities FY27E Rs2,551 cr / FY28E Rs3,036 cr (Jan-2026); Jefferies 17% sales CAGR FY26-28 (Mar-2026).",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "cdmo": 1417,
+   "cro": 775,
+   "_why": "FY26 revenue Rs2,192 cr: CDMO Rs1,417 cr (+33%) and CRO Rs775 cr (+24%) on the deck basis (Q4FY26 deck p.11); the audited note shows CDMO contract revenue Rs1,361.5 cr and CRO Rs775.4 cr, with Rs55.7 cr of other operating income (solvent sales, government incentives) that the deck adds to CDMO."
+  },
+  "growth": {
+   "cdmo": [
+    14,
+    19,
+    18
+   ],
+   "cro": [
+    22,
+    19,
+    17
+   ]
+  },
+  "_why": "CDMO +14% in FY27: Q1 +6% on campaign timing; H2 lifted by the first new Bidar block and three new commercial molecules in production (two of them as primary supplier); FY26's +33% was helped by recovery from FY25 destocking. +19% / +18% in FY28-29 as the second block fills, late-phase molecules convert and the large-pharma FTE engagements (five of the last six late-phase additions) move into supply. CRO +22% in FY27 (Q1 +24%; a discovery facility opened in Q1 is already sold out; a pilot converted into a long-term high-volume partnership), easing to +19% / +17% as the base grows (discovery revenue grew ~30-35% a year over four to five years, CFO)."
+ },
+ "ebitdaMargin": [
+  28,
+  28.5,
+  29
+ ],
+ "_marginWhy": "Screener basis (forex gains in other income): 19.6% (FY24), 24.2% (FY25), 28.9% (FY26), 26.7% in Q1FY27. FY26 was flattered by a Rs34 cr provision reversal (~1.2 points; FY25 depressed by the original provision). Company guidance is 28-30% over two to three years on its own basis, which includes forex (FY26 company 30.1%, of which forex ~1.4 points); management warns of near-term inefficiencies from new capacity. FY27 28.0%: material margin ~74%, people cost ~31% of sales, new blocks and formulation/peptide labs before revenue. FY28 28.5% and FY29 29.0%: operating leverage as utilisation rises from 65%. Street: HDFC Securities 28.1% FY27E, 29.1% FY28E.",
+ "capex": [
+  1200,
+  900,
+  700
+ ],
+ "_capexWhy": "FY26 capex Rs633 cr (company; budget Rs700 cr). FY27 guidance Rs1,100-1,300 cr (~75% capacity, ~25% capability), reiterated on 7-Aug-2026; Rs263 cr spent in Q1. FY28 not guided: we assume Rs900 cr for the Choutuppal greenfield (~1,400 KL planned; commercial peptide plant by 2028; peptide spend under Rs300 cr to 2028) and the second Bidar block; FY29 Rs700 cr. Capital commitments Rs354 cr at Mar-26.",
+ "depRateOnGrossBlock": 6,
+ "_depWhy": "FY26 depreciation Rs167 cr (incl. Rs47 cr on lease assets) = 7.1% of average Screener gross block; Q1FY27 Rs46 cr (Rs184 cr annualised). The engine depreciates capex in the year it is spent (CWIP held flat), but much of FY27-28 capex sits in CWIP (Choutuppal, peptide plant) until 2028, so we use 6.0%: ~Rs192 / 255 / 303 cr in FY27-29E. HDFC Securities FY27E Rs191 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Treasury income is built in SAILIFE.ctx.js on the gross cash and deposits Sai keeps (the engine's net figure turns into net debt as capex is borrowed) and entered in otherIncome.",
+ "otherIncome": [
+  11.69,
+  9.97,
+  9.97
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (checked in SAILIFE.ctx.js): (1) interest on cash, deposits and funds at 4.74%, the yield Sai realised in FY26 (deposit interest Rs18.48 cr on average gross treasury of ~Rs390 cr: Rs508 cr at Mar-25 incl. unspent IPO money, Rs273 cr at Mar-26), applied to the gross cash and deposits we assume Sai keeps (Rs273 cr at Mar-26, ~Rs200 cr thereafter, borrowing the rest of its capex); (2) other small items Rs0.5 cr (FY26 Rs0.9 cr). No forex gains forecast (FY26 Rs29.8 cr, FY25 Rs19.1 cr; the company reports them inside EBITDA). Government incentives (Rs31.3 cr in FY26) are revenue, not other income. FY26 other income Rs49.1 cr incl. forex (Screener, net of the Rs9.0 cr exceptional: Rs40.2 cr); Q1FY27 Rs3.5 cr (Rs14 cr annualised) as the IPO cash was spent.",
+ "otherTreasury": {
+  "base": 111.5,
+  "_why": "Fixed deposits with financial institutions (Rs47.5 cr non-current, Rs60.0 cr current) and margin-money deposits (Rs4.0 cr) at Mar-26 sit in other financial assets (AR FY26 note 10), inside Screener's Other Assets. They are treasury; the engine and the Excel take them out of working capital and add them to net cash."
+ },
+ "interest": [
+  60.08,
+  102.37,
+  118.35
+ ],
+ "_interestWhy": "Built in SAILIFE.ctx.js: 8.5% on average bank debt (Rs95 -> 743 -> 1090 -> 1119 cr, Mar-26 to Mar-29E: the engine's net debt plus the ~Rs200 cr of gross cash less Rs193 cr of leases; AA-rated borrower) plus lease interest at FY26's 11.1% on Rs193 cr of lease liabilities (Rs21.5 cr) plus ~Rs3 cr of other finance costs. FY26 finance cost Rs39.2 cr (borrowings Rs11.0 cr, leases Rs23.2 cr, other Rs5.0 cr); Q1FY27 Rs8 cr. Capitalised interest during construction (nil in FY26) is not assumed.",
+ "taxRate": [
+  25.2,
+  25.2,
+  25.2
+ ],
+ "_taxWhy": "FY26 25.1%, Q1FY27 25.3%; new-regime rate 25.17%.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividend declared since listing (FY25-26 payout nil); FY27-29 capex exceeds operating cash flow, so we assume none.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 28,
+  "fadeCapexPctTo": 8,
+  "depPctOfSales": 7,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Beta 1.0 (12.5% cost of equity). Net debt stays modest relative to market value, so WACC is close to the cost of equity; the engine discounts at the cost of equity. Revenue is lumpy (Q1FY27 CDMO +6%) but spread over 300+ customers.",
+  "_tgWhy": "Top of the house 5-6% range: Indian CRDMO is forecast to grow 15-16% a year to CY2035 (AR FY26 MD&A) and outsourcing keeps rising.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~18% (FY29E) to 8% by FY42E; revenue grew ~24% a year in FY21-26 (Rs760 cr to Rs2,192 cr).",
+  "_fadeMarginWhy": "28%, below our FY29E 29%: larger commercial volumes carry tighter pricing and new modalities start at lower margins.",
+  "_fadeCapexWhy": "Capex falls from ~47% / 30% / 20% of sales (FY27-29E) to 8% by FY42E: maintenance (~7% of sales; FY26 depreciation 7.6% incl. leases) plus growth capex at Sai's ~0.85x gross asset turn.",
+  "_wcNote": "Operating working capital is ~19% of FY26 sales on Screener's Mar-26 balance sheet (other assets less cash and deposits, less other liabilities incl. capex creditors); the engine holds it at that level."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Late-phase molecules convert on time, the large-pharma FTE engagements turn into commercial supply and both Bidar blocks fill quickly; growth runs ~4 points a year faster and the margin reaches the top of the 28-30% guide.",
+   "revenueGrowthDelta": 4,
+   "marginDelta": 1.5,
+   "fadeMarginTo": 30
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "A repeat of FY25: a large customer destocks and CDMO stalls while the new capacity and its people are already paid for; growth slows ~6 points a year and the margin falls back towards FY25's 24-25%.",
+   "revenueGrowthDelta": -6,
+   "marginDelta": -2.5,
+   "fadeMarginTo": 25
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 29,
+      "bull": 32.5,
+      "bear": 27.5
+     },
+     "why": "How the street values Sai Life: all three brokers that disclose a method use EV/EBITDA (HDFC Securities 29x Q3FY28E, Jan-2026; JM Financial 32x Sep-27E, Nov-2025; Jefferies initiated on 27x FY27 pre-Ind AS EV/EBITDA, Mar-2025); Kotak and Morgan Stanley targets come without a method. 29x = Sai's median one-year-forward EV/EBITDA since 1-Jul-2025 (listed 18-Dec-2024; IPO months skipped; every weekly close plus the 30-Sep close, 66 points; EV = market value less the last published net cash incl. deposits and leases; forward EBITDA = our FY27E/FY28E, which carry no exceptional items, so the pre-exceptional and reported medians are the same) of 26.8x x 1.091 (nine pharma peers' trailing EV/EBITDA at the 30-Sep close vs their medians over the same window, PLAYBOOK §7c; reproduced +9.1%) = 29.2x, nearest half-turn, on Sep-28E EBITDA plus Sep-28E net cash (negative: net debt incl. leases). Bull 32.5x / bear 27.5x = 75th / 25th percentile (29.7x / 25.2x) x 1.091. No own-move blend, no growth uplift (sensitivities only). Written by SAILIFE.mult.js."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 65,
+      "bull": 78.5,
+      "bear": 61.5
+     },
+     "why": "Cross-check: Sai's median one-year-forward P/E since 1-Jul-2025 (same weekly closes; forward EPS = our FY27E/FY28E) of 54.7x x 1.185 (the nine peers' P/E move over the same window, PLAYBOOK §7c; reproduced +18.5%) = 64.8x, nearest half-turn, on Sep-28E EPS. Bull 78.5x / bear 61.5x = 75th / 25th percentile x 1.185."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 12.5% (cost of equity; modest net debt), terminal growth 6%, plus net cash at Mar-27."
+    }
+   ]
+  }
+ }
+}

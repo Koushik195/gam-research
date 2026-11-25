@@ -1,0 +1,309 @@
+{
+ "_meta": {
+  "asOf": "2026-09-30",
+  "note": "Industry, peers, street, ownership, moat, critiques, gaps and conflicts for Sai Life Sciences. Only material published on or before 30-Sep-2026; later items are in updates/later-facts.json."
+ },
+ "industry": {
+  "global": {
+   "cdmoUsdBn2026": 214.95,
+   "cdmoUsdBn2034": 419.93,
+   "cdmoCagrPct": 8.7,
+   "croUsdBn2025": 45.3,
+   "croUsdBn2033": 83.3,
+   "croCagrPct": 8,
+   "src": "AR FY26 MD&A (Fortune Business Insights; Grand View Research)"
+  },
+  "india": {
+   "crdmoUsdBnCY25Low": 3.4,
+   "crdmoUsdBnCY25High": 4,
+   "cagrPctCY26_35": "15-16",
+   "usdBnCY30": "7-9",
+   "usdBnCY35": "14-18",
+   "nearTermGrowth": "CRDMO revenue growth forecast at 8-10% in FY2026-27 on lower biopharma funding",
+   "src": "AR FY26 MD&A pp.131-135"
+  },
+  "drivers": [
+   "Innovators outsource more research and manufacturing; integrated CRO-CDMO partnerships gain relevance (Q4FY26 deck p.7).",
+   "Large pharma diversifies supply chains away from China ('geopolitical uncertainty and concerns around intellectual property', CEO, 7-Aug-2026).",
+   "Biotech funding recovering but skewed to mid-to-late stage assets; ~18 US biotech IPOs and several large acquisitions in 2026 (CEO).",
+   "Peptides beyond GLP-1 (three blockbuster peptide launches in 2026), ADCs/XDCs, oligonucleotides: new modalities need specialist capacity."
+  ],
+  "biosecure": {
+   "status": "Enacted on 18-Dec-2025 as Section 851 of the FY2026 NDAA. Unlike the 2024 bill it names no companies: 'biotechnology companies of concern' come from the Pentagon's 1260H list and a separate OMB process; OMB's first list is due within a year of enactment (by Dec-2026), followed by guidance and, for OMB-listed firms, a five-year wind-down of existing contracts. WuXi AppTec was added to the 1260H list in Jun-2026; a US court enjoined that designation on 7-Aug-2026.",
+   "src": "https://www.ropesgray.com/en/insights/alerts/2026/01/biosecure-act-enacted ; https://www.hklaw.com/en/insights/publications/2026/06/wuxi-apptec-added-to-dows-1260h-list ; https://www.gtlaw.com/en/insights/2026/9/biosecure-act-update-court-enjoins-wuxi-apptecs-1260h-designation-but-strategic-and-compliance-clocks-keep-running",
+   "published": "2026-01 to 2026-09"
+  },
+  "tariffs": "Sai: 'no impact seen so far'; big pharma has taken its own steps to mitigate tariffs (Q4FY26 deck p.10). West Asia conflict raised input and logistics costs; Sai is seeking price revisions, 'though recoveries may not always be contemporaneous'."
+ },
+ "peers": {
+  "set": [
+   "SUNPHARMA",
+   "DIVISLAB",
+   "TORNTPHARM",
+   "ZYDUSLIFE",
+   "CIPLA",
+   "AUROPHARMA",
+   "ALKEM",
+   "IPCALAB",
+   "ABBOTINDIA"
+  ],
+  "excluded": {
+   "LUPIN": "Loss years inside the five-year window (PLAYBOOK §7c).",
+   "GLENMARK": "Loss years inside the window (PLAYBOOK §7c).",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (PLAYBOOK §7c).",
+   "MANKIND": "Listed May-2023: no five-year median (PLAYBOOK §7c)."
+  },
+  "cdmo": [
+   "DIVISLAB",
+   "LAURUSLABS",
+   "SYNGENE",
+   "ANTHEM",
+   "PPLPHARMA",
+   "NEULANDLAB",
+   "ACUTAAS"
+  ],
+  "notes": "Pharma peer set set on 23-Nov-2026 (PLAYBOOK §7c). Sai Life listed on 18-Dec-2024, so it has no five-year history and is not in the set; its factor is the nine peers' move over Sai's own window since 1-Jul-2025 (IPO months skipped, as for EMCURE and MANKIND): +18.5% P/E, +9.1% EV/EBITDA (tools/authoring/sector-factor.js --from 2025-07-01). Listed CDMO/CRDMO peers are context only."
+ },
+ "street": {
+  "note": "Latest note found for each broker, standing on 30-Sep-2026. Three brokers disclose a method and all three use EV/EBITDA: HDFC Securities (29x Q3FY28E, primary PDF), JM Financial (32x Sep-27E EBITDA in its Nov-2025 note) and Jefferies (initiated on 27x FY27 pre-Ind AS EV/EBITDA, Mar-2025; the multiples in its later notes were not in the sources we could read). Kotak and Morgan Stanley targets come from tracker pages that disagree on attribution, without a method. Notes from other brokers could not be retrieved (gap).",
+  "brokers": [
+   {
+    "broker": "Jefferies",
+    "date": "2026-08-12",
+    "rating": "Buy",
+    "tp": 1610,
+    "method": "EV/EBITDA",
+    "multiple": "27x FY27 pre-Ind AS at its Mar-2025 initiation; later multiple n.d.",
+    "on": null,
+    "thesis": "Top Indian CRDMO pick; 'follow-the-molecule' integrated model; sales and EBITDA CAGR of 17% and 20% over FY26-28 (Mar-2026 note); target raised from Rs1,270 after Q1FY27; pipeline end-market sales of over USD13 bn by end-2028",
+    "src": "https://stockanalysis.com/quote/nse/SAILIFE/forecast/ ; https://www.businesstoday.in/markets/stocks/story/waaree-energies-patanjali-sai-life-jefferies-initiates-coverage-on-3-stocks-check-targets-468260-2025-03-18 ; https://www.whalesbook.com/news/English/healthcarebiotech/Sai-Life-Sciences-Jefferies-Buy-Call-Faces-Expensive-Valuation-Check/69b238a317d794d3dcfba4de",
+    "history": "Hold Rs720 (18-Mar-2025) -> Buy Rs1,000 (Aug-2025) -> Rs1,180 (9-Jan-2026) -> Rs1,300 (Mar-2026) -> Rs1,270 (19-May-2026) -> Rs1,610 (12-Aug-2026)"
+   },
+   {
+    "broker": "Kotak Institutional Equities",
+    "date": "2026-08-10",
+    "rating": "Buy",
+    "tp": 1450,
+    "method": null,
+    "multiple": null,
+    "on": null,
+    "thesis": "Target raised from Rs1,225 after Q1FY27 (tracker; method not disclosed; attribution conflicts between tracker pages)",
+    "src": "https://in.investing.com/equities/sai-life-sciences-consensus-estimates"
+   },
+   {
+    "broker": "Morgan Stanley",
+    "date": "2026-04-08",
+    "rating": "Overweight",
+    "tp": 1160,
+    "method": null,
+    "multiple": null,
+    "on": null,
+    "thesis": "Target raised from Rs1,123 (tracker; method not disclosed)",
+    "src": "https://in.investing.com/equities/sai-life-sciences-consensus-estimates"
+   },
+   {
+    "broker": "JM Financial",
+    "date": "2026-02-27",
+    "rating": "Buy",
+    "tp": 1318,
+    "method": "EV/EBITDA",
+    "multiple": "32x Sep-27E in its Nov-2025 note; Feb-2026 multiple n.d.",
+    "on": null,
+    "thesis": "Reiterated Buy as the stock made a new high; Nov-2025 note valued Sai at 32x Sep-27E EBITDA (Rs1,197)",
+    "src": "https://www.whalesbook.com/news/English/healthcarebiotech/Sai-Life-Sciences-Hits-New-High-Amidst-Growth-and-Valuation-Concerns/69a126f0fa7d0695d1ab45c7"
+   },
+   {
+    "broker": "HDFC Securities",
+    "date": "2026-01-06",
+    "rating": "Buy",
+    "tp": 1160,
+    "method": "EV/EBITDA",
+    "multiple": "29x",
+    "on": "Q3FY28E",
+    "eps": {
+     "FY27E": 18.6,
+     "FY28E": 23.6
+    },
+    "sales": {
+     "FY27E": 2551,
+     "FY28E": 3036
+    },
+    "ebitda": {
+     "FY27E": 717,
+     "FY28E": 884
+    },
+    "thesis": "Initiation: science-led integrated CRDMO; 21% sales and 30% EBITDA CAGR FY25-28E; margin to 29.1% in FY28E; 29x Q3FY28E EBITDA = Rs1,160 (52x implied P/E); assumed capex of ~Rs530 cr a year (before the FY27 guide of Rs1,100-1,300 cr)",
+    "src": "https://www.hdfcsec.com/hsl.docs//Pharma%20-%20CRDMO%20-%20Sector%20Thematic%20-%20HSIE-202601061115425680440.pdf",
+    "epsNote": "EPS = HSIE PAT (Rs390 cr / Rs497 cr) / 21.0 cr shares"
+   }
+  ],
+  "consensus": {
+   "note": "A Jul-2026 tracker snapshot showed six analysts, average target ~Rs1,275 (Rs1,225-1,371), 'Strong Buy' (stockanalysis.com); targets set before Aug-2026 sat well below the Rs1,524.5 close on 30-Sep-2026.",
+   "src": "https://stockanalysis.com/quote/nse/SAILIFE/forecast/"
+  }
+ },
+ "ownership": {
+  "date": "Jun-2026",
+  "promoters": 34.53,
+  "fiis": 19.65,
+  "diis": 32.71,
+  "public": 13.11,
+  "shareholders": 125096,
+  "named": [
+   {
+    "holder": "Marigold Partners (Kanumuri Mytreyi; promoter)",
+    "pct": 10.48,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "Sunflower Partners (Dr K Ranga Raju; promoter)",
+    "pct": 7.36,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "Tulip Partners (promoter)",
+    "pct": 4.38,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "Lily Partners (promoter)",
+    "pct": 3.26,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "Sai Quest Syn Pvt Ltd (promoter)",
+    "pct": 2.17,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "K Krishnam Raju (MD & CEO)",
+    "pct": 1.42,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "Invesco India Mutual Fund",
+    "pct": 7.27,
+    "asOf": "Mar-2026 (2.88% at Mar-2025)"
+   },
+   {
+    "holder": "Nippon India Mutual Fund",
+    "pct": 6.16,
+    "asOf": "Mar-2026 (2.48% at Mar-2025)"
+   },
+   {
+    "holder": "TPG Asia VII SF Pte Ltd",
+    "pct": 0,
+    "asOf": "Mar-2026 (24.73% at Mar-2025; exited Jun/Aug-2025)"
+   }
+  ],
+  "trend": "Promoters 35.23% (Dec-2024) -> 34.53% (Jun-2026), diluted only by ESOP allotments; DIIs 11.95% -> 32.71% and FIIs 11.72% -> 19.65% as TPG's 24.7% was placed with institutions in Jun and Aug-2025; public 41.1% -> 13.1%",
+  "blocks": [
+   {
+    "date": "2025-06-20",
+    "who": "TPG Asia VII SF (seller); Nippon India MF, BlackRock, Societe Generale, Morgan Stanley among buyers",
+    "stake": "~10%",
+    "value": "~Rs1,505 cr at ~Rs722"
+   },
+   {
+    "date": "2025-08-26",
+    "who": "TPG Asia VII SF (seller, full exit); Societe Generale, Goldman Sachs among buyers",
+    "stake": "14.72%",
+    "value": "~Rs2,676 cr at Rs871-872"
+   }
+  ],
+  "src": "Screener.in shareholding (Jun-2026); AR FY26 note 17; Business Standard 20-Jun-2025; PTI 26-Aug-2025",
+  "published": "2026-08-25"
+ },
+ "stock": {
+  "listingPrice": "Rs549 issue; listed 18-Dec-2024 at ~20% premium",
+  "range": "Weekly closes since 1-Jul-2025: low ~Rs795 (23-Jan-2026), high Rs1,600.5 (18-Sep-2026); Rs1,524.5 on 30-Sep-2026 (NSE close), up ~95% from the TPG exit price",
+  "events": [
+   {
+    "date": "2024-12-18",
+    "event": "Listing at ~20% premium to the Rs549 issue price"
+   },
+   {
+    "date": "2025-06-20",
+    "event": "TPG block (~10%) at ~Rs722"
+   },
+   {
+    "date": "2025-08-26",
+    "event": "TPG exits (14.72%) at ~Rs871"
+   },
+   {
+    "date": "2026-01-06",
+    "event": "HDFC Securities initiates Buy (Rs1,160)"
+   },
+   {
+    "date": "2026-05-15",
+    "event": "Q4FY26: FY26 revenue +29%; FY27 capex guided at Rs1,100-1,300 cr"
+   },
+   {
+    "date": "2026-08-07",
+    "event": "Q1FY27: revenue +12%, PAT +22%; stock fell ~6% on the day, then rallied ~20% by mid-September"
+   }
+  ],
+  "src": "Screener.in weekly prices; NSE close 30-Sep-2026; news as cited"
+ },
+ "moat": [
+  {
+   "factor": "Integrated discovery-to-commercial platform",
+   "score": "Strong",
+   "evidence": "Discovery chemistry, biology, DMPK and toxicology in Hyderabad and Boston feed process R&D (Hyderabad, Manchester) and 700 KL of GMP manufacturing; ~65% of discovery customers buy more than one service; 17 launches supported in five years"
+  },
+  {
+   "factor": "Large-pharma relationships and FTE model",
+   "score": "Strong",
+   "evidence": "19 of the top 25 pharma companies; >90% of revenue from returning customers; ~91% of CDMO revenue from large pharma (FY25, HSIE); five of six recent late-phase additions came through dedicated-team (FTE) contracts"
+  },
+  {
+   "factor": "Regulatory and quality record",
+   "score": "Strong",
+   "evidence": "USFDA and PMDA inspections cleared at all R&D and manufacturing sites; PSCI audits; EcoVadis Platinum (2026)"
+  },
+  {
+   "factor": "Scale and capacity",
+   "score": "Moderate",
+   "evidence": "700 KL, rising to ~1,150 KL in FY27 and a ~1,400 KL greenfield later: still a fraction of Divi's or Laurus; capacity has been a constraint (discovery facility sold out on opening)"
+  },
+  {
+   "factor": "Customer and molecule spread",
+   "score": "Moderate",
+   "evidence": "Top customer 12.2% of FY26 revenue (two customers 21.5% in FY25); 33-34 commercial molecules; but quarterly CDMO revenue swings with a few campaigns (Q1FY27 +6%)"
+  },
+  {
+   "factor": "New modalities (peptides, XDCs, oligos)",
+   "score": "Weak",
+   "evidence": "~4% of revenue; commercial peptide plant only in 2028; no biologics or mAb capability ('we will discuss this strategy at a later point')"
+  }
+ ],
+ "critiques": [
+  "The street's EPS looks too high: the FY27 capex guide (Rs1,100-1,300 cr) is roughly double FY26 and more than operating cash flow, so Sai moves from ~zero net debt to several hundred crore of borrowing; HDFC Securities' Jan-2026 model assumed ~Rs530 cr of capex and flat interest of ~Rs40 cr a year.",
+  "Valuation is stretched on any trailing basis: ~88x trailing P/E and ~46x trailing EV/EBITDA at the 30-Sep close (Screener); the stock nearly doubled in eight months (Rs795 on 23-Jan-2026 to Rs1,524.5) while most targets lagged the price.",
+  "CDMO growth slowed to 6% in Q1FY27 after +33% in FY26; management asks investors to judge it over three to five years and guides only 15-20% a year.",
+  "FY26 margin had help: a Rs34 cr provision reversal and Rs30 cr of forex gains (in company EBITDA); underlying company margin was ~27.5%, below the 28-30% guide.",
+  "Returns are ordinary for the multiple: ROE 14% and ROCE 18% in FY26 (MD&A), and capital intensity is rising again; heavy capex ahead of demand risks under-utilisation (65% in Q1FY27).",
+  "Governance: the MD & CEO's pay rose 124% to Rs13.1 cr (231x the median employee) in the first full listed year.",
+  "BIOSECURE helps the narrative more than the numbers so far: the enacted law names no Chinese CDMO, WuXi's 1260H listing was enjoined in Aug-2026, and OMB's list is due only in Dec-2026.",
+  "Pipeline disclosure is thin: no customer or molecule names, no revenue per molecule; 'over 90% visibility' on FY27 is not a number investors can test."
+ ],
+ "gaps": [
+  "Q4FY26, Q3FY26, Q2FY26 and Q1FY26 call transcripts not read (the company-hosted Q4FY26 link returned 'page not found'); Q4FY26 commentary taken from the deck.",
+  "Broker notes: only HDFC Securities' note read in full; Jefferies, JM Financial, Kotak and Morgan Stanley from secondary reports and trackers; the multiples behind Jefferies' Rs1,610 and JM's Rs1,318, and Kotak's and Morgan Stanley's methods, are not known.",
+  "No FY22-FY23 CDMO/CRO split (prospectus not read); quarterly split disclosed only for Q1FY27.",
+  "The Sep-2025 half-year balance sheet was not read: the EV/EBITDA history uses the Mar-2025 and Mar-2026 net cash (a gap of ~Rs170 cr, under 1% of EV).",
+  "No customer or molecule names, no revenue per molecule, utilisation only for Q1FY27 (65%).",
+  "Exact FY28 capex not guided (we assume Rs900 cr); Choutuppal project cost not disclosed.",
+  "Pre-Ind AS EBITDA (Jefferies' basis) not computed; we use reported (post-Ind AS) EBITDA with lease liabilities in net debt.",
+  "Promoter-group holdings beyond the eight named promoters (Screener 34.5% vs ~29.2% named) not itemised."
+ ],
+ "conflicts": [
+  "Q1FY27 CRO growth: 24% (deck, press release) vs 26% (CEO/CFO on the call); revenue Rs553 cr (call) vs Rs554 cr (deck). We use the deck.",
+  "FY26 CDMO revenue: Rs1,417 cr in the deck (includes other operating income) vs Rs1,361.5 cr in the audited note; CRO Rs775 cr in both.",
+  "Tracker pages attribute the Rs1,450 (10-Aug-2026) and Rs1,160 (8-Apr-2026) targets to Kotak and Morgan Stanley inconsistently.",
+  "A Mar-2026 article cites '47x FY27' next to Jefferies' Rs1,300 target; Jefferies' initiation valued Sai on EV/EBITDA, and we read 47x as the stock's own multiple, not the target basis.",
+  "Company EBITDA FY26 Rs661 cr (incl. Rs30 cr forex) vs Screener Rs634 cr (forex in other income)."
+ ]
+}
