@@ -58,7 +58,15 @@ function rewrite(src, name) {
   const holdFile = path.join(ROOT, 'tools', 'export-hold.txt');
   const HOLD = fs.existsSync(holdFile) ? fs.readFileSync(holdFile, 'utf8').split(/\r?\n/).map(l => l.replace(/#.*/, '').trim()).filter(Boolean) : [];
   if (HOLD.length) console.log(`Held off the website: ${HOLD.join(', ')}`);
-  const rows = (cov.rows || cov.companies || cov).filter(r => r.published && !HOLD.includes(r.symbol));
+  // A report reaches the website only after Team A has checked and committed it: a published report whose
+  // research/history.json is not yet tracked in git (e.g. just published by Team B) is left out until then.
+  let UNCHECKED = [];
+  try {
+    const st = require('child_process').execSync('git status --porcelain --untracked-files=all -- data/raw', { cwd: ROOT, encoding: 'utf8' });
+    UNCHECKED = [...new Set(st.split(/\r?\n/).map(l => l.match(/^\?\? data\/raw\/([^/]+)\/research\/history\.json$/)).filter(Boolean).map(m => m[1]))];
+  } catch (e) { console.warn(`git status failed (${e.message}); exporting without the committed-only check`); }
+  if (UNCHECKED.length) console.log(`Not yet checked and committed, held off the website: ${UNCHECKED.join(', ')}`);
+  const rows = (cov.rows || cov.companies || cov).filter(r => r.published && !HOLD.includes(r.symbol) && !UNCHECKED.includes(r.symbol));
   const syms = rows.map(r => r.symbol);
   if (Array.isArray(cov)) write('api/coverage.json', JSON.stringify(rows));
   else write('api/coverage.json', JSON.stringify({ ...cov, [cov.rows ? 'rows' : 'companies']: rows }));
