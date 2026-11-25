@@ -1,0 +1,355 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Devyani International (consolidated, Rs crore), standalone: the Sapphire Foods merger was still awaiting CCI and NCLT approval on 30-Sep-2026, so it is not in the base (pro-forma shown as a sensitivity, BELRISE precedent). FY26 (Mar-2026) is the base year. Two parts: India (KFC, Pizza Hut, Costa and other franchisee brands, Vaango, Biryani By Kilo, food courts) and International (KFC Thailand, KFC/Pizza Hut Nigeria and Nepal), each with revenue growth and EBITDA margin after Ind AS 116 (rent excluded). India revenue is built from KFC stores x revenue per store plus the other brands (businessLines), checked in DEVYANI.ctx.js. Minorities (52.45% effective of Thailand via Camas/Temasek; 12.69% of Nigeria) sit in the tax line for EPS and are deducted in the SOTP.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "roll": [
+  "FY28E",
+  "FY29E",
+  0.5
+ ],
+ "segments": [
+  {
+   "key": "india",
+   "name": "India",
+   "driverLabel": "Revenue",
+   "base": 3752.1,
+   "growth": [
+    10.6,
+    12.2,
+    12.2
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    16.6,
+    17.2,
+    17.8
+   ],
+   "marginLabel": "EBITDA (after Ind AS 116)",
+   "hist": {
+    "driver": "indiaRev",
+    "revenue": "indiaRev",
+    "adjEbitda": "indiaEbitda"
+   },
+   "_why": "India revenue +13.1% in FY26 (Rs3,318 cr to Rs3,752 cr; KFC +9.0% on 87 net new stores with SSSG -0.8%, Pizza Hut -1.6%, own brands +Rs231 cr from Biryani By Kilo, bought 10-Jun-2025); Q1FY27 +14.5% (KFC +11.7%, SSSG +3.3%; Pizza Hut -1.6%; own brands +Rs63 cr, mostly the BBK base effect, so +7-8% excluding it). Built from KFC stores (100-120 net adds guided for FY27; we assume 110 / 115 / 120) x revenue per average store (-1.0% / +0.5% / +1.0%: SSSG 3-5% less new-store dilution) plus Pizza Hut (no net new stores in calendar 2026; -1.5% / +3% / +5%), own brands (+32% / +20% / +18%), Costa and other franchisee brands (+7% / +10% / +10%) and food courts and other (+5%).",
+   "_marginWhy": "India EBITDA margin (post-Ind AS) 18.8% in FY25, 16.1% in FY26 (KFC SSSG negative for 13 quarters to Q3FY26, Pizza Hut losses at brand level, BBK consolidation). India operating EBITDA (pre-Ind AS) 8.0% in Q1FY27 vs 7.1% a year earlier; KFC brand contribution 17.0% (+1.4 points). We assume 16.6% / 17.2% / 17.8%: KFC ADS creeping towards the Rs105-110k at which management says brand margin passes 20%, offset by Pizza Hut (brand contribution still negative) and LPG and wage inflation. No merger synergies (merger not approved by 30-Sep-2026)."
+  },
+  {
+   "key": "intl",
+   "name": "International",
+   "driverLabel": "Revenue",
+   "base": 1859.4,
+   "growth": [
+    17,
+    12,
+    11
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    14.5,
+    14.8,
+    15
+   ],
+   "marginLabel": "EBITDA (after Ind AS 116; consolidated less India)",
+   "hist": {
+    "driver": "intlRev",
+    "revenue": "intlRev",
+    "adjEbitda": "intlEbitda"
+   },
+   "_why": "International revenue +13.8% in FY26 (Thailand Rs1,692 cr, +13.7%; Nigeria and Nepal Rs168 cr); Q1FY27 +20.7% (Rs523 cr), helped by a weaker rupee (Rs95.6 to the US dollar in July 2026) and 24 new stores in the year. Thailand KFC ADS has been flat at THB 55-57k for two years, so growth is mostly stores and currency. We assume +17% / +12% / +11% with ~20-25 net new stores a year and no further rupee depreciation after FY27.",
+   "_marginWhy": "International EBITDA margin (post-Ind AS) 13.3% (FY25), 13.5% (FY26); brand contribution 17.1% (FY26) and 18.2% in Q1FY27 (+1.5 points); operating EBITDA (pre-Ind AS) 12.6% in Q1FY27 vs 10.2% a year earlier. We assume 14.5% / 14.8% / 15.0%."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Consolidation difference",
+ "_unallocWhy": "International EBITDA is consolidated less India, so the two parts add to the company's EBITDA by construction.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "_esopWhy": "Share-based payment (Rs2.4 cr in FY26, AR cash flow) is inside segment EBITDA; the array is kept at zero for the Excel model.",
+ "businessLines": {
+  "_why": "India revenue = KFC (average stores x revenue per average store) + Pizza Hut + own brands + franchisee brands + food courts and other. FY26: KFC Rs2,373.7 cr on 739.5 average stores (696 to 783) = Rs3.210 cr per store; Pizza Hut Rs720.6 cr; own brands Rs305.9 cr; franchisee brands Rs213.3 cr; other Rs138.6 cr (India revenue less the four brand groups; includes food courts and the inter-company elimination).",
+  "kfcStoresMar25": 696,
+  "kfcStoresMar26": 783,
+  "kfcRevFY26": 2373.7,
+  "netAdds": [
+   110,
+   115,
+   120
+  ],
+  "revPerStoreGrowth": [
+   -1,
+   0.5,
+   1
+  ],
+  "phRevFY26": 720.6,
+  "phGrowth": [
+   -1.5,
+   3,
+   5
+  ],
+  "ownRevFY26": 305.9,
+  "ownGrowth": [
+   32,
+   20,
+   18
+  ],
+  "franchRevFY26": 213.3,
+  "franchGrowth": [
+   7,
+   10,
+   10
+  ],
+  "otherRevFY26": 138.6,
+  "otherGrowth": [
+   5,
+   5,
+   5
+  ]
+ },
+ "capex": [
+  680,
+  745,
+  810
+ ],
+ "_capexWhy": "Cash capex plus lease principal, because reported EBITDA excludes rent (JUBLFOOD/LENSKART treatment). Cash capex (PPE and intangibles) Rs491 cr (FY25), Rs459 cr (FY26) for 217 net new stores; 200-225 net new stores guided for FY27 at an unchanged capex per store. We assume Rs480 / 520 / 560 cr. Lease principal Rs141.5 cr (FY25), Rs180.4 cr (FY26); we assume Rs200 / 225 / 250 cr.",
+ "depRateOnGrossBlock": 7.75,
+ "_depWhy": "FY26 depreciation and impairment Rs670 cr (Screener) = 8.3% of average gross block (Rs8,044 cr incl. right-of-use assets). Q1FY27 depreciation Rs180.4 cr plus impairment Rs1.1 cr (~Rs726 cr annualised). 7.75% gives FY27E ~Rs722 cr; the engine never retires assets, so a rate a little below history keeps depreciation near 11% of revenue (11.9% in FY26).",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "otherIncome": [
+  50,
+  55,
+  60
+ ],
+ "_treasuryWhy": "The model's net treasury is negative (borrowings Rs1,361 cr and lease liabilities Rs2,473 cr against Rs497 cr of cash and investments at Mar-2026), so no yield is applied; interest on deposits is in the fixed other income.",
+ "_otherIncomeWhy": "Company other income Rs37.0 cr (FY25) and Rs45.1 cr (FY26: interest Rs15.7 cr, gains on lease terminations Rs23.8 cr, write-backs and other); Screener's line nets impairment, exchange differences and exceptional items against it (FY26 Rs31 cr; trailing four quarters to Jun-2026 Rs30 cr). Q1FY27 company other income Rs19.2 cr. We assume Rs50 / 55 / 60 cr net of ~Rs15 cr a year of store impairments: above the trailing figure (which carries the Rs21.5 cr exceptional Labour Code charge) and below the Q1 run-rate.",
+ "interest": [
+  285,
+  300,
+  318
+ ],
+ "_interestLabel": "Finance cost (mostly lease interest)",
+ "_interestWhy": "FY26 Rs275.7 cr = lease interest Rs223.4 cr + interest on borrowings ~Rs52 cr; Q1FY27 Rs70.1 cr (Rs280 cr annualised). Lease interest grows ~8% a year with the store base (Rs240 / 258 / 278 cr); bank interest edges down (Rs45 / 42 / 40 cr) as the short-term loan raised for the Thai equity infusion was repaid in April 2026 (management, Q4 call).",
+ "taxRate": [
+  46,
+  34,
+  32
+ ],
+ "_taxWhy": "Tax ~25% of PBT (Q1FY27 Rs5.8 cr on Rs22.9 cr). The engine has no minority line, so minorities' share of profit (Rs2.5 cr in Q1FY27; we assume ~Rs10 / 13 / 16 cr) is added to the tax rate: 25% + 21 / 9 / 7 points on our PBT of ~Rs47 / 139 / 240 cr.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividend since listing.",
+ "capexBuild": {
+  "_why": "Engine capex = cash capex + lease principal (checked in DEVYANI.ctx.js).",
+  "cash": [
+   480,
+   520,
+   560
+  ],
+  "leasePrincipal": [
+   200,
+   225,
+   250
+  ]
+ },
+ "rentBuild": {
+  "_why": "Rent under Ind AS 116 = lease principal + lease interest (cash), used to translate our post-Ind AS EBITDA into the pre-Ind AS (after-rent) 'operating EBITDA' the street values. FY26: principal Rs180.4 cr + interest Rs223.4 cr = Rs403.8 cr, equal to reported less operating EBITDA (Rs855.4 cr less Rs450.1 cr = Rs405.3 cr). FY25: Rs141.5 cr + Rs206.0 cr = Rs347.5 cr (Rs842.2 cr less Rs494.3 cr = Rs347.9 cr).",
+  "leasePrincipal": [
+   200,
+   225,
+   250
+  ],
+  "leaseInterest": [
+   240,
+   258,
+   278
+  ],
+  "fy26": {
+   "leasePrincipal": 180.4,
+   "leaseInterest": 223.4
+  },
+  "fy25": {
+   "leasePrincipal": 141.5,
+   "leaseInterest": 206
+  }
+ },
+ "minorities": {
+  "thaiNciPct": 52.45,
+  "thaiShareOfIntlPct": 91,
+  "_why": "Devyani owns 51% of Devyani International DMCC, which holds the Thai KFC business (Restaurants Development Co.); Camas (a Temasek affiliate) owns 49%; through the Thai holding companies the effective non-controlling interest is 52.45% (AR FY26 note 51). Thailand is 91% of International revenue (Rs1,692 cr of Rs1,859 cr); we assume the same share of International EBITDA. Nigeria's minorities (12.69% at RV Enterprizes, 31.25% at the Nigerian company) hold a negative net worth and are ignored. Minorities' claim in the SOTP = 52.45% x Thailand's share of group EBITDA x equity value before minorities (assumes Thailand carries the group's leverage per rupee of EBITDA). Camas's put option is written on the RJ Corp holding company, not on Devyani; Devyani's call option is not booked (AR FY26 note 44).",
+  "sharePct": 14.6
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 18.5,
+  "fadeCapexPctTo": 9,
+  "depPctOfSales": 9,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Beta 0.85 gives 11.6%, which we use as the discount rate: a WACC of ~11.6% with lease liabilities and bank debt at ~17% of enterprise value (cost of equity ~12.5%, after-tax cost of debt and leases ~7.5%). The engine discounts at one rate, so beta is set to land on the WACC (PLAYBOOK §7).",
+  "_tgWhy": "Eating out is under-penetrated in India and KFC is the fastest-growing Yum! brand there; Thailand is mature. 5.5%, mid-range of the house 5-6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~11-12% in FY29E to 8% by FY42E.",
+  "_fadeMarginWhy": "EBITDA (after Ind AS 116) edges from 16.9% (FY29E) to 18.5% (FY25 was 17.0%): operating leverage at KFC, partly absorbed by Pizza Hut and wage, rent and aggregator costs.",
+  "_fadeCapexWhy": "Capex incl. lease principal fades from ~10.2% of revenue (FY29E) to 9% (cash capex ~6%, lease principal ~3%); depreciation incl. right-of-use 9% long run (11.9% in FY26)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "KFC SSSG reaches the 5-6% guide from H2FY27 and ADS passes Rs105k by FY28, lifting KFC brand margin towards 20%; Pizza Hut turns brand-positive; BBK compounds; Thailand keeps adding stores with a stable baht.",
+   "segments": {
+    "india": {
+     "growthDelta": 2.5,
+     "marginDelta": 0.9
+    },
+    "intl": {
+     "growthDelta": 3,
+     "marginDelta": 0.5
+    }
+   },
+   "fadeMarginTo": 20
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "KFC SSSG slips back to zero as aggregators' cheap meals and new chicken chains take share; Pizza Hut keeps shrinking; LPG, wage and rent inflation keep India margins flat; Thai consumer weakness and a stronger rupee cut International growth.",
+   "segments": {
+    "india": {
+     "growthDelta": -3,
+     "marginDelta": -1
+    },
+    "intl": {
+     "growthDelta": -5,
+     "marginDelta": -1.5
+    }
+   },
+   "fadeMarginTo": 17
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "India EBITDA at the group EV/EBITDA",
+    "seg": "india",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E India EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 22,
+     "bull": 24,
+     "bear": 19.5
+    },
+    "note": "Post-Ind AS EBITDA; lease liabilities are in the net cash line. Multiple derived in the valuation chapter (one group multiple)."
+   },
+   {
+    "name": "International EBITDA at the group EV/EBITDA",
+    "seg": "intl",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E International EBITDA × the same multiple",
+    "multiple": {
+     "base": 22,
+     "bull": 24,
+     "bear": 19.5
+    },
+    "note": "Same multiple as India: the multiple is derived on the consolidated history, which has included Thailand since Jan-2024."
+   },
+   {
+    "name": "Less: minorities (Camas's 52.45% of Thailand)",
+    "adj": {
+     "base": -3617,
+     "bull": -4441,
+     "bear": -2482
+    },
+    "metricLabel": "14.6% (Camas's 52.45% of Thailand ≈ minorities' share of Sep-28E EBITDA) × equity value before minorities",
+    "note": "Bull 14.6%, bear 13.7%; Thailand taken as 91% of International EBITDA and as carrying the group's leverage per rupee of EBITDA; base-case Sep-28E net cash used in all three cases. Set by DEVYANI.val.js."
+   },
+   {
+    "name": "Net cash at Sep-28E (model: cash and investments less borrowings incl. leases)",
+    "netCash": true,
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "½ Mar-28E + ½ Mar-29E",
+    "note": "Mar-26: cash and investments Rs497 cr − borrowings Rs3,833 cr (bank and preference Rs1,361 cr + leases Rs2,473 cr) = −Rs3,336 cr."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "EV/EBITDA (sum of the parts)",
+     "method": "sotp",
+     "role": "primary",
+     "why": "placeholder"
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 78.5,
+      "bull": 93.5,
+      "bear": 63.5
+     },
+     "why": "placeholder"
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF (lease principal treated as capex), discount rate 11.6%, terminal growth 5.5%. Before minorities (the engine has no minority line)."
+    }
+   ]
+  }
+ }
+}
