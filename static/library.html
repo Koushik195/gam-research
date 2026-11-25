@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coverage Library · GAM Research</title>
+<link rel="stylesheet" href="/gam-research/static/style.css">
+<style>
+  .lib { max-width: 1280px; margin: 0 auto; padding: 24px 28px 60px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 18px 0 24px; }
+  .tile { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .tile .k { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  .tile .v { font: 600 26px Georgia, serif; color: var(--navy); margin-top: 4px; }
+  .tile .d { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  h2.sec { font: normal 22px Georgia, serif; color: var(--navy); margin: 30px 0 8px; }
+  p.note { color: var(--muted); font-size: 13px; margin: 0 0 10px; }
+  table.lt { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid var(--line); font-size: 13px; }
+  table.lt th { background: var(--navy); color: #fff; font-weight: 600; text-align: left; padding: 8px 10px; font-size: 12px; white-space: nowrap; }
+  table.lt td { padding: 8px 10px; border-top: 1px solid var(--line); vertical-align: top; }
+  table.lt td.r, table.lt th.r { text-align: right; }
+  table.lt tr:hover td { background: #fbf8f0; }
+  .rt { display: inline-block; min-width: 46px; text-align: center; padding: 2px 8px; border-radius: 4px; font-weight: 700; font-size: 11.5px; color: #fff; }
+  .rt.BUY { background: var(--pos); } .rt.HOLD { background: var(--gold); } .rt.SELL { background: var(--neg); } .rt.DRAFT { background: #9aa1ad; }
+  .fl { display: inline-block; font-size: 11px; padding: 2px 7px; border-radius: 10px; margin: 1px 2px 1px 0; white-space: nowrap; }
+  .fl.update { background: #fdecc8; color: #7a5200; } .fl.band { background: #fde2e1; color: #8d1c1c; } .fl.draft { background: #e6e9ef; color: #3b4352; }
+  .chg.upgrade { color: var(--pos); font-weight: 700; } .chg.downgrade { color: var(--neg); font-weight: 700; } .chg.initiated { color: var(--navy); font-weight: 700; }
+  .pos { color: var(--pos); } .neg { color: var(--neg); }
+  .links a { margin-right: 8px; font-size: 12px; }
+  .bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .rule { background: var(--cream); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; font-size: 13px; margin-top: 8px; }
+  .attn li { margin: 4px 0; font-size: 13.5px; }
+  .tablewrap { overflow-x: auto; }
+</style>
+<style>#refresh{display:none!important}.snapnote{position:fixed;right:10px;bottom:8px;font:11px system-ui,sans-serif;color:#6b7280;background:#fffc;padding:3px 8px;border-radius:6px;z-index:50}@media print{.snapnote{display:none}}</style>
+</head>
+<body>
+<div class="topbar"></div>
+<header class="site">
+  <a class="brand" href="/gam-research/"><img src="/gam-research/assets/guardian-logo.png" alt=""><div><div class="name">GAM <b>Research</b></div><div class="tag">Coverage library</div></div></a>
+</header>
+<main class="lib">
+  <p class="eyebrow">Coverage library</p>
+  <div class="bar"><h1 style="font:normal 30px Georgia,serif;color:var(--navy);margin:0;flex:1">Every report, rating and target we have published</h1>
+    <a class="btn primary" href="/gam-research/">All BSE-500 companies</a>
+    <button class="btn primary" id="refresh">↻ Refresh prices &amp; results</button></div>
+  <div class="rule" id="rule"></div>
+  <div class="tiles" id="tiles"><div class="tile"><div class="k">Loading</div><div class="v">…</div></div></div>
+
+  <h2 class="sec">Needs attention</h2>
+  <p class="note">Reports whose results basis is out of date, or whose upside at today's price has moved outside the band of the published rating.</p>
+  <ul class="attn" id="attn"></ul>
+
+  <h2 class="sec">Coverage</h2>
+  <p class="note">Published call (rating and target) vs today's price. "Rule now" is the rating the rule would give at today's price; the published rating changes only when we publish an update.</p>
+  <div class="tablewrap"><table class="lt"><thead><tr>
+    <th>Company</th><th>Rating</th><th class="r">Target (₹)</th><th class="r">Price (₹)</th><th class="r">Upside</th><th>Rule now</th><th>Report basis</th><th>Latest results</th><th>Last published</th><th>Last rating change</th><th>Flags</th><th>Open</th>
+  </tr></thead><tbody id="rows"></tbody></table></div>
+
+  <h2 class="sec">Rating and target changes</h2>
+  <p class="note">Every initiation and update, newest first: what we said, at what price, on which quarter's results.</p>
+  <div class="tablewrap"><table class="lt"><thead><tr>
+    <th>Date</th><th>Company</th><th>Action</th><th>Rating</th><th class="r">Target (₹)</th><th class="r">Price then (₹)</th><th class="r">Upside then</th><th>Basis</th><th>Method</th><th>Note</th>
+  </tr></thead><tbody id="log"></tbody></table></div>
+</main>
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const n0 = v => v == null ? '–' : Number(v).toLocaleString('en-IN', { maximumFractionDigits: 0 });
+const pc = v => v == null ? '–' : `<span class="${v >= 0 ? 'pos' : 'neg'}">${v > 0 ? '+' : ''}${Number(v).toFixed(1)}%</span>`;
+const dt = d => d ? new Date(d + 'T00:00:00').toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : '–';
+const rt = r => `<span class="rt ${esc(r)}">${esc(r)}</span>`;
+const TYPE = { initiation: 'Initiation', 'results-update': 'Results update', 'rating-change': 'Rating change', 'target-change': 'Target change' };
+function render(D) {
+  const pub = D.companies.filter(c => c.published), drafts = D.companies.filter(c => !c.published && !c.error);
+  const cnt = r => pub.filter(c => c.status.rating === r).length;
+  const due = pub.filter(c => c.status.updateDue).length, band = pub.filter(c => c.status.ruleRating !== c.status.rating).length;
+  const qtr = pub.map(c => c.status.latestQuarter).sort().slice(-1)[0];
+  const moves = D.events.filter(e => e.change && ['upgrade', 'downgrade'].includes(e.change.rating));
+  document.getElementById('rule').innerHTML = `<b>Rating rule:</b> upside from the price to our 12-month target of <b>+${D.rule.buy}% or more = BUY</b>, <b>${D.rule.sell}% to +${D.rule.buy}% = HOLD</b>, <b>below ${D.rule.sell}% = SELL</b>. Each report is frozen at its as-of date until we publish an update.`;
+  document.getElementById('tiles').innerHTML = [
+    ['Companies covered', pub.length, `${drafts.length} draft report${drafts.length === 1 ? '' : 's'} not yet published`],
+    ['BUY', cnt('BUY'), 'published ratings'], ['HOLD', cnt('HOLD'), 'published ratings'], ['SELL', cnt('SELL'), 'published ratings'],
+    ['Results updates due', due, qtr ? `latest results: ${qtr}` : ''],
+    ['Rating outside band', band, 'at today\'s price'],
+    ['Upgrades / downgrades', `${moves.filter(e => e.change.rating === 'upgrade').length} / ${moves.filter(e => e.change.rating === 'downgrade').length}`, 'since coverage began'],
+  ].map(([k, v, d]) => `<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="d">${esc(d)}</div></div>`).join('');
+  const attn = [
+    ...pub.flatMap(c => c.status.flags.map(f => `<li><b><a href="/gam-research/company/${c.symbol}/initiation/">${esc(c.name)}</a></b>: <span class="fl ${f.k}">${{ update: 'Update due', band: 'Rating band', draft: 'Unpublished change' }[f.k]}</span> ${esc(f.t)}</li>`)),
+    ...drafts.map(c => `<li><b><a href="/gam-research/company/${c.symbol}/initiation/">${esc(c.name)}</a></b>: <span class="fl draft">Draft</span> report written (${esc(c.draft.date || '')}, draft ${esc(c.draft.rating || '')}) but not yet published to the library</li>`),
+  ];
+  document.getElementById('attn').innerHTML = attn.length ? attn.join('') : '<li class="muted">Nothing outstanding.</li>';
+  const rows = [...pub.sort((a, b) => (b.marketCap || 0) - (a.marketCap || 0)), ...drafts];
+  document.getElementById('rows').innerHTML = rows.map(c => {
+    const s = c.status, links = `<span class="links"><a href="/gam-research/company/${c.symbol}/initiation/">Report</a><a href="/gam-research/api/excel/${c.symbol}.xlsx">Excel</a><a href="/gam-research/api/pdf/${c.symbol}.pdf">PDF</a></span>`;
+    if (!s) return `<tr><td><b>${esc(c.name)}</b><div class="muted">${esc(c.symbol)} · ${esc(c.sector)}</div></td><td>${rt('DRAFT')}</td><td class="r">${n0(c.draft?.tp)}</td><td class="r">${n0(c.draft?.price)}</td><td class="r">${pc(c.draft?.upside)}</td><td colspan="5" class="muted">Not yet published</td><td><span class="fl draft">Draft</span></td><td>${links}</td></tr>`;
+    return `<tr><td><b>${esc(c.name)}</b><div class="muted">${esc(c.symbol)} · ${esc(c.sector)}</div></td><td>${rt(s.rating)}</td><td class="r">${n0(s.tp)}<div class="muted">bull ${n0(s.bull)} · bear ${n0(s.bear)}</div></td><td class="r">${n0(s.price)}<div class="muted">${dt(s.priceDate)}</div></td><td class="r">${pc(s.upside)}</td>
+      <td>${s.ruleRating === s.rating ? '<span class="muted">same</span>' : rt(s.ruleRating)}</td><td>${esc(s.basisQuarter)}<div class="muted">as of ${dt(s.asOf || s.date)}</div></td><td>${esc(s.latestQuarter)}</td>
+      <td>${TYPE[s.type] || esc(s.type)}<div class="muted">${dt(s.date)}</div></td><td>${s.lastChange ? `<span class="chg ${s.lastChange.kind}">${s.lastChange.from} → ${s.lastChange.to}</span><div class="muted">${dt(s.lastChange.date)}</div>` : `<span class="muted">none since initiation (${dt(s.initiated)})</span>`}</td>
+      <td>${s.flags.map(f => `<span class="fl ${f.k}">${{ update: 'Update due', band: 'Rating band', draft: 'Unpublished change' }[f.k]}</span>`).join('') || '<span class="muted">–</span>'}</td><td>${links}</td></tr>`;
+  }).join('');
+  document.getElementById('log').innerHTML = D.events.map(e => {
+    const ch = e.change || {}, act = ch.rating === 'initiated' ? `<span class="chg initiated">Initiated</span>` : ch.rating === 'maintained' ? 'Maintained' : `<span class="chg ${ch.rating}">${ch.rating === 'upgrade' ? 'Upgrade' : 'Downgrade'} from ${esc(ch.from)}</span>`;
+    const tp = ch.tpFrom && ch.tpFrom !== e.tp ? `${n0(ch.tpFrom)} → <b>${n0(e.tp)}</b> <span class="muted">(${ch.tpChangePct > 0 ? '+' : ''}${ch.tpChangePct}%)</span>` : `<b>${n0(e.tp)}</b>`;
+    return `<tr><td>${dt(e.date)}</td><td><a href="/gam-research/company/${e.symbol}/initiation/">${esc(e.name)}</a></td><td>${TYPE[e.type] || esc(e.type)}<div>${act}</div></td><td>${rt(e.rating)}${e.override ? ' <span class="muted" title="' + esc(e.reason) + '">(override)</span>' : ''}</td><td class="r">${tp}</td><td class="r">${n0(e.price)}</td><td class="r">${pc(e.upside)}</td><td>${esc(e.basisQuarter)}</td><td class="muted">${esc(e.method || '')}</td><td class="muted">${esc(e.note || '')}</td></tr>`;
+  }).join('') || '<tr><td colspan="10" class="muted">No published reports yet.</td></tr>';
+}
+async function load(refresh) {
+  const b = document.getElementById('refresh');
+  if (refresh) { b.disabled = true; b.textContent = '⏳ Refreshing (about 15 s per company)…'; }
+  try { render(await (await fetch('/gam-research/api/coverage.json', { cache: 'no-cache' })).json()); }
+  finally { b.disabled = false; b.textContent = '↻ Refresh prices & results'; }
+}
+document.getElementById('refresh').onclick = () => load(true);
+load(false);
+</script>
+<div class="snapnote">Snapshot exported 25 Nov 2026 · prices as of export</div>
+</body>
+</html>
