@@ -1,0 +1,255 @@
+{
+ "asOf": "2026-09-30",
+ "method": "Research to 30-Sep-2026 only: FY26 annual report (29-Aug-2026), Q4FY26 presentation (26-May-2026) and call (transcript 2-Jun-2026), Q1FY27 presentation and call (13-Aug-2026; transcript 20-Aug-2026), Q1-Q3FY26 presentations, JM Financial notes (Apr and May 2026, full PDFs), press reports dated on or before 30-Sep-2026.",
+ "peers": {
+  "set": [
+   "ETERNAL",
+   "SWIGGY",
+   "NAUKRI",
+   "INDIAMART",
+   "NYKAA",
+   "PAYTM",
+   "POLICYBZR"
+  ],
+  "peSubset": [
+   "NAUKRI",
+   "INDIAMART"
+  ],
+  "excluded": {
+   "FIRSTCRY": "Self",
+   "MEESHO": "Listed 10-Dec-2025, inside our window (from 1-Oct-2025): sensitivity only",
+   "URBANCO": "Listed 17-Sep-2025; its IPO-premium months fall inside our window: sensitivity only",
+   "LENSKART": "Listed 10-Nov-2025, inside our window: sensitivity only"
+  },
+  "retail": [
+   "DMART",
+   "TRENT",
+   "METROBRAND",
+   "BATAINDIA",
+   "PAGEIND"
+  ],
+  "retailExcluded": {
+   "ABFRL": "No usable P/E (losses)",
+   "SHOPERSTOP": "P/E in the hundreds on near-zero profit (distorted)",
+   "VMM": "Listed Dec-2024: shown in the retail sensitivity row only (DMART.ctx.js set)"
+  },
+  "note": "Natural set: JM Financial covers FirstCry in its Internet team and the stock trades on sales and EBITDA multiples, so the natural set is the internet platforms in our library. Only Info Edge and IndiaMART have a usable P/E history, fewer than three names, so under the thin-peer-set rule we widen the base to the full seven-name internet set on the analogue of our own multiple: market value ÷ trailing sales (Screener), at the 30-Sep-2026 close vs each name's median over our own window (1-Oct-2025 to 30-Sep-2026), as URBANCO does. Sub-sets (two-name P/E move; retail P/E and market value/sales moves from the DMART.ctx.js set; recent listings added; no move) are sensitivity rows.",
+  "unlisted": "Direct competitors are unlisted or divisions: Amazon, Flipkart (and its Myntra), Reliance (AJIO), quick-commerce apps (Blinkit, Zepto, Swiggy Instamart, Flipkart Minutes) in diapers and essentials, Hopscotch, Mothercare (Reliance) and Hamleys in stores; in the Gulf, Amazon.ae/.sa and Noon. None can be valued from market data except Eternal and Swiggy (quick commerce inside larger groups)."
+ },
+ "street": {
+  "asOf": "2026-09-30",
+  "brokers": [
+   {
+    "broker": "JM Financial",
+    "short": "JM",
+    "rating": "Add",
+    "tp": 265,
+    "prevTp": 260,
+    "date": "26-May-2026",
+    "published": "2026-05-26",
+    "current": true,
+    "method": "SOTP on Mar-27: India multi-channel 20x, Globalbees 20x, Others 15x FY28E pre-Ind AS adjusted EBITDA; International 1x FY28E sales; plus Mar-26 net cash ₹12.8 bn; 533 mn diluted shares",
+    "parts": {
+     "imc": [
+      20,
+      4.27,
+      85.3,
+      160
+     ],
+     "intl": [
+      1,
+      11.3,
+      11.3,
+      21
+     ],
+     "gb": [
+      20,
+      1.4,
+      27.9,
+      52
+     ],
+     "oth": [
+      15,
+      0.18,
+      2.7,
+      5
+     ],
+     "cash": [
+      12.8,
+      24
+     ]
+    },
+    "eps": {
+     "FY27E": 1.54,
+     "FY28E": 5.85,
+     "FY29E": 10.89
+    },
+    "est": {
+     "revFY27E": 9946,
+     "revFY28E": 11397,
+     "revFY29E": 12972,
+     "ebitdaFY27E": 577,
+     "ebitdaFY28E": 934,
+     "ebitdaFY29E": 1302,
+     "adjEbitdaFY28E": 1014
+    },
+    "thesis": "Broadly in-line Q4; diaper discounting and input costs hurt gross margin; RocketBees, Qwik and offline re-assortment gaining traction; expects a meaningful pick-up in India GMV growth in FY27",
+    "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-05/17798633440.33916800.pdf"
+   },
+   {
+    "broker": "Morgan Stanley",
+    "short": "MS",
+    "rating": "Equal-weight",
+    "tp": 300,
+    "date": "27-May-2026",
+    "published": "2026-05-27",
+    "current": true,
+    "possiblyStale": true,
+    "method": "n.d.",
+    "thesis": "Kept Equal-weight after Q4FY26 (Dec-2025: Overweight, ₹365); ₹300 implied ~10% upside then",
+    "src": "https://inc42.com/buzz/firstcry-tumbles-7-on-q4-loss-margin-pressure/"
+   }
+  ],
+  "history": [
+   [
+    "19-Dec-2024",
+    "JM Financial",
+    "Buy",
+    692
+   ],
+   [
+    "13-Aug-2025",
+    "JM Financial",
+    "Buy",
+    460
+   ],
+   [
+    "15-Nov-2025",
+    "JM Financial",
+    "Buy",
+    480
+   ],
+   [
+    "Dec-2025",
+    "Morgan Stanley",
+    "Overweight",
+    365
+   ],
+   [
+    "14-Feb-2026",
+    "JM Financial",
+    "Buy",
+    390
+   ],
+   [
+    "7-Apr-2026",
+    "JM Financial",
+    "Add",
+    260
+   ],
+   [
+    "26-May-2026",
+    "JM Financial",
+    "Add",
+    265
+   ],
+   [
+    "27-May-2026",
+    "Morgan Stanley",
+    "Equal-weight",
+    300
+   ]
+  ],
+  "historySrc": "JM Financial recommendation history (26-May-2026 note, p.9); Morgan Stanley: ScanX (Dec-2025) and Inc42 (27-May-2026)"
+ },
+ "consensus": [
+  {
+   "date": "2026-07-15",
+   "source": "Trendlyne consensus",
+   "avgTarget": 277.86,
+   "note": "as reported by an aggregator search snippet; low 212.62",
+   "src": "https://trendlyne.com/equity/consensus-estimates/2487439/FIRSTCRY/brainbees-solutions-ltd/"
+  },
+  {
+   "date": "2026-09-08",
+   "source": "S&P Global (7 analysts)",
+   "rating": "Hold",
+   "avgTarget": 243.14,
+   "low": 205,
+   "high": 266,
+   "src": "https://stockanalysis.com/quote/nse/FIRSTCRY/forecast/"
+  }
+ ],
+ "streetNotes": [
+  "Coverage is thin in the public domain: only JM Financial publishes full notes we could read; Morgan Stanley's view comes from press reports. Goldman Sachs, BofA and others covered the stock after the IPO, but no 2026 targets were found.",
+  "Street median for the as-of date: we use the S&P Global consensus average of ₹243 (8-Sep-2026, seven analysts, range ₹205-266). Its ₹266 high suggests Morgan Stanley's ₹300 (May) had already been cut by September; the two named targets (JM Financial ₹265, Morgan Stanley ₹300) have a median of ₹283.",
+  "JM values Globalbees at 100% (₹52/share) although FirstCry owns 51.68% of it; at FirstCry's share the part is worth ~₹27/share, about ₹25 off JM's target."
+ ],
+ "ownership": {
+  "asOf": "Jun-2026 categories (BSE pattern via Screener); named holders at Mar-2026 (FY26 annual report)",
+  "categories": {
+   "FIIs": 3.61,
+   "DIIs": 22.71,
+   "Public": 66.7,
+   "Others": 6.98
+  },
+  "othersNote": "\"Others\" (6.98%) is the Brainbees ESOP Trust (7.0% at Mar-26). No promoter category: the company declares no identifiable promoter. SoftBank, Mahindra, Premji Invest and the founder sit in \"Public\"."
+ },
+ "industry": {
+  "market": "India's childcare market is projected by RedSeer (July-2024 report, cited in the FY26 annual report) to grow 12-14% a year; childcare products alone are put at ₹5,150-5,450 bn by FY29 in India, against ₹640-680 bn in Saudi Arabia and ₹240-280 bn in the UAE. Spending per child is far lower in India (₹9,280-9,350 in FY24) than in KSA (₹61,000-71,000) or the UAE (₹160,000-170,000). About 21% of India's population is aged 0-12.",
+  "gst": "GST rationalisation (from Q2FY26) moved most childcare products to the 5% slab: good for organised retail, but it lowered MRPs, so GMV (measured at MRP) grew slower than revenue in Q1FY27.",
+  "competition": "Diapers (~15% of India GMV) became a price war from Q3FY26 as quick-commerce apps and horizontals with fresh capital used them to win young parents; pharmacy chains launched own-label diapers. In the Gulf, two horizontal e-commerce players that entered in 2024 kept promotions high.",
+  "src": "FY26 annual report (MD&A, RedSeer), Q1FY27 presentation slide 33, Q1FY27 call"
+ },
+ "moat": [
+  [
+   "Category leadership and assortment (2.1 mn SKUs, 7,900+ brands)",
+   "Moderate",
+   "India's largest specialist; but horizontals and quick commerce match price in the high-frequency items (diapers) that bring parents in."
+  ],
+  [
+   "Home brands (BabyHug and others, >58% of India GMV)",
+   "Moderate-strong",
+   "Share up from 37% in FY20; higher gross margin than third-party brands; manufacturing exposes it to input costs (FY26 rupee and crude shock)."
+  ],
+  [
+   "Omnichannel network (1,188 stores, 36% of top-50-city GMV from cross-channel customers)",
+   "Moderate",
+   "Stores, warehouses and franchisees support 2-3 hour delivery (Qwik) that pure apps struggle to offer across 2 mn SKUs; but store growth paused in FY26."
+  ],
+  [
+   "Customer lifetime and community (parenting app, 13,500+ hospital partnerships)",
+   "Moderate",
+   "Cohorts keep buying for 8-12 years; new-customer GMV grew only 2% in FY26, so acquisition is getting harder."
+  ],
+  [
+   "International (UAE, KSA)",
+   "Weak",
+   "Still loss-making after 6 years; competes with Amazon and Noon."
+  ],
+  [
+   "Globalbees (D2C brand roll-up)",
+   "Weak",
+   "Marketplace-dependent brands; repeated impairments; 3% adjusted EBITDA margin."
+  ]
+ ],
+ "moatVerdict": "A real but narrow moat in India: the specialist assortment, home brands and the online-plus-stores network are hard to copy, and the business is profitable at segment level. It has not protected growth or margins from quick commerce in diapers, and the two other segments have no moat.",
+ "critiques": [
+  "Bulls (JM Financial, Morgan Stanley earlier): India growth is re-accelerating on fixes the company controls (own delivery, Qwik, store assortment); gross margin should recover as input costs are passed on and diaper pricing normalises; Globalbees and International losses are shrinking; the stock trades below 1x forward sales.",
+  "Bears: four quarters of high single-digit growth before Q1FY27 suggest structural share loss to quick commerce; adjusted EBITDA flatters (ESOP 2.6% of sales, rent ₹255 cr below the line, recurring exceptionals); minorities take almost half of Globalbees; no breakeven date for International; reported profit remains negative."
+ ],
+ "gaps": [
+  "Named shareholders at Jun-2026 (BSE detailed pattern) not downloaded; we show Jun-2026 categories (Screener) and named >5% holders at Mar-2026 (annual report).",
+  "JM Financial's ₹255 Buy note: date and method not found (reported only in a Nov-2026 article); its Aug-2026 Q1FY27 update was not available.",
+  "Morgan Stanley ₹300 (27-May-2026): no note or method found; it may have been cut before 30-Sep (the S&P consensus high on 8-Sep was ₹266).",
+  "India/International GMV split for FY23-FY24 not found; segment GMV history starts in FY25.",
+  "Rent by segment not disclosed, so JM's pre-Ind AS segment EBITDA cannot be rebuilt exactly; we convert using group cash rent.",
+  "Share prices: Screener gives weekly closes for FIRSTCRY; the own-multiple series uses those (53 points in the 12-month window) plus the 30-Sep NSE close.",
+  "Quarterly Ind AS 103 B55 employment cost not disclosed (nil in FY26), so FY24-FY25 quarterly reported EBITDA differs slightly from Screener."
+ ],
+ "conflicts": [
+  "Share count: 522.1 mn basic (incl. 36.5 mn ESOP-trust shares) vs 485.5 mn in standalone share capital (net of trust); company fully diluted 532.4 mn; Screener implies ~521 mn. We use 532.4 mn (company and JM).",
+  "Q1FY27 revenue: the company reports ₹2,106 cr; one press report gave ₹2,153 cr (total income incl. other income). We use ₹2,106 cr.",
+  "India multi-channel revenue grew 17.7% in Q1FY27 but GMV only 12%: the company attributes the gap to own manufacturing sales and GST-led MRP cuts (GMV is at MRP)."
+ ]
+}

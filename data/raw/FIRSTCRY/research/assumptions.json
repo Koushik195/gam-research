@@ -1,0 +1,431 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "Segment-driven model (as NYKAA / URBANCO). India multi-channel and International grow GMV; revenue and adjusted EBITDA are % of GMV. Globalbees, Others and inter-segment sales grow revenue directly. Segment EBITDA is the company's adjusted EBITDA (before ESOP cost, before rent under Ind AS 116); reported EBITDA = Σ segments + inter-segment EBITDA − ESOP. Valued on sum of the parts on Sep-28E (roll FY28E/FY29E 50:50). ₹ crore.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "roll": [
+  "FY28E",
+  "FY29E",
+  0.5
+ ],
+ "segments": [
+  {
+   "key": "imc",
+   "name": "India multi-channel",
+   "driverLabel": "GMV",
+   "base": 9783.3,
+   "growth": [
+    13,
+    13,
+    13
+   ],
+   "revPct": [
+    60.5,
+    60.5,
+    60.5
+   ],
+   "marginPct": [
+    4.6,
+    5.2,
+    5.55
+   ],
+   "hist": {
+    "driver": "indiaGmv",
+    "revenue": "imcRev",
+    "adjEbitda": "imcAe"
+   },
+   "_why": "India GMV grew 11% in FY26 (Q4 +12%) and 12% in Q1FY27, with revenue +17.7%. Management expects growth to stay \"elevated\" (RocketBees >50% of shipments, Qwik in 12 cities, ~100 new stores in FY27 after a pause). JM Financial assumes group GMV +13% / +12% / +12% (May-2026). We assume 13% a year: Q1's pace plus stores, below the high-teens of FY24.",
+   "_revWhy": "Revenue was 58.8% of India GMV in FY26 and 61.1% in Q1FY27 (own manufacturing sales; GST cuts lowered MRP-based GMV). Held at 60.5%.",
+   "_marginWhy": "Adjusted EBITDA was 8.8% of revenue in FY26 (9.5% in FY25) but 5.7% in Q1FY27 after a ~260bp gross-margin hit (diaper price war; rupee and crude in own manufacturing). Management expects input costs passed on by end-Q2 and diaper pricing to normalise over 4-6 quarters. We assume 7.6% / 8.6% / 9.2% of revenue (4.6% / 5.2% / 5.55% of GMV): FY27E below FY26, FY29E still below FY25."
+  },
+  {
+   "key": "intl",
+   "name": "International (UAE, KSA)",
+   "driverLabel": "GMV",
+   "base": 1860.2,
+   "growth": [
+    9,
+    11,
+    12
+   ],
+   "revPct": [
+    53,
+    53,
+    53
+   ],
+   "marginPct": [
+    -3.2,
+    -1.85,
+    -0.8
+   ],
+   "hist": {
+    "driver": "intlGmv",
+    "revenue": "intlRev",
+    "adjEbitda": "intlAe"
+   },
+   "_why": "GMV +5% in FY26 (Q4 +2%) and +9% in Q1FY27 despite Gulf geopolitics and promotions by two horizontals. 9% / 11% / 12%.",
+   "_revWhy": "Revenue was 50.9% of GMV in FY26 and 54.4% in Q1FY27 (more first-party sales); 53%.",
+   "_marginWhy": "Adjusted EBITDA -9.6% of revenue in FY26, -7.2% in Q1FY27 (-25% in FY23). No breakeven date. We assume -6% / -3.5% / -1.5% of revenue (-3.2% / -1.85% / -0.8% of GMV): breakeven around FY30E."
+  },
+  {
+   "key": "gb",
+   "name": "Globalbees (51.68% owned)",
+   "driverLabel": "Revenue",
+   "base": 1894.3,
+   "growth": [
+    10,
+    16,
+    16
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    4.5,
+    5.5,
+    6.5
+   ],
+   "hist": {
+    "driver": "gbRev",
+    "revenue": "gbRev",
+    "adjEbitda": "gbAe"
+   },
+   "_why": "Revenue +20% in FY26 (core brands +28%), flat in Q1FY27 (planned transition at one core brand, Flipkart settlement change); growth back from Q3. 10% for FY27E, then 16%.",
+   "_revWhy": "Driver is revenue.",
+   "_marginWhy": "Adjusted EBITDA 3.0% in FY26, 3.9% in Q1FY27, 5.8% in Q4FY26; core brands ~5% after corporate cost. 4.5% / 5.5% / 6.5%."
+  },
+  {
+   "key": "oth",
+   "name": "Others (preschools)",
+   "driverLabel": "Revenue",
+   "base": 47.2,
+   "growth": [
+    30,
+    25,
+    25
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    26,
+    27,
+    28
+   ],
+   "hist": {
+    "driver": "othRev",
+    "revenue": "othRev",
+    "adjEbitda": "othAe"
+   },
+   "_why": "Revenue +11% in FY26 and +47% in Q1FY27 as preschools double. 30% / 25% / 25%.",
+   "_revWhy": "Driver is revenue.",
+   "_marginWhy": "Adjusted EBITDA 27% in FY26, 26% in Q1FY27; held at 26-28%."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-segment sales",
+   "driverLabel": "Revenue",
+   "base": -94.3,
+   "growth": [
+    15,
+    14,
+    14
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elimRev",
+    "revenue": "elimRev",
+    "adjEbitda": "elimAe"
+   },
+   "_why": "Consolidated revenue less the four segments: -₹94 cr in FY26 (-1.1%), -₹25 cr in Q1FY27. Grows with India multi-channel.",
+   "_revWhy": "Driver is revenue.",
+   "_marginWhy": "Zero margin (PLAYBOOK §7); the small inter-segment EBITDA is in the unallocated line."
+  }
+ ],
+ "unallocated": [
+  -3,
+  -3,
+  -4
+ ],
+ "_unallocLabel": "Inter-segment EBITDA (eliminations)",
+ "_unallocWhy": "Consolidated adjusted EBITDA exceeded the four segments by ₹3.2 cr in FY26 and ₹0.8 cr in Q1FY27; kept at ₹3-4 cr (a negative cost).",
+ "esop": [
+  120,
+  80,
+  60
+ ],
+ "_esopWhy": "Share-based pay was ₹224 cr in FY26 and ₹30 cr in Q1FY27. The company's schedule for options already granted is ₹118 / 64 / 30 cr for FY27-FY29 (Q1FY27 presentation, slide 43); we add ~₹15-30 cr a year for new grants from FY28E.",
+ "capex": [
+  350,
+  400,
+  430
+ ],
+ "_capexWhy": "Cash capex ₹189 cr in FY26 (₹186 cr PPE + intangibles) plus ~₹145 cr of new leases (right-of-use additions), which the engine must carry so depreciation keeps pace. ~100 new stores in FY27 and more in FY28: ₹350 / 400 / 430 cr incl. leases.",
+ "depRateOnGrossBlock": 8,
+ "_depWhy": "D&A ₹407 cr in FY26 (8.6% of average gross block incl. right-of-use and brand intangibles; brand amortisation ₹88 cr, falling) and ₹94 cr in Q1FY27 (₹377 cr annualised). 8% gives ~₹400 cr in FY27E.",
+ "treasuryYield": [
+  6,
+  6,
+  6
+ ],
+ "otherIncome": [
+  175,
+  175,
+  180
+ ],
+ "_treasuryWhy": "The engine's treasury is net of all borrowings and lease liabilities (₹148 cr at Mar-26), so a 6% yield on it captures little of the interest actually earned on ₹1,741 cr of gross cash and deposits.",
+ "_otherIncomeWhy": "Other income ₹184 cr in FY26: ₹99 cr interest on bank deposits (~5.6% on ~₹1,760 cr average), ₹15 cr other interest, ₹71 cr miscellaneous (incl. government grants). Q1FY27 ₹47 cr (Q1FY26 ₹48 cr). The fixed ₹175-180 cr plus the yield gives ₹184 cr in FY27E, in line with FY26 and the Q1 run-rate.",
+ "interest": [
+  150,
+  152,
+  158
+ ],
+ "_interestLabel": "Finance cost (lease interest + borrowings + earn-out unwinding)",
+ "_interestWhy": "Finance cost ₹156 cr in FY26 (lease interest ₹103 cr) and ₹37 cr in Q1FY27; rising with new store leases.",
+ "taxRate": [
+  60,
+  35,
+  28
+ ],
+ "_taxWhy": "Profitable entities (India multi-channel parent, manufacturing) pay tax while Globalbees and International losses cannot be set off: tax was ₹37 cr in FY26 on a group loss. 60% of FY27E PBT gives ~₹42 cr; the rate falls toward 25% as losses shrink (JM assumes 22-24% from FY27E on a larger PBT).",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "otherTreasury": {
+  "base": 333.8,
+  "label": "Bank deposits > 12 months",
+  "_why": "Bank deposits with maturity beyond 12 months (₹333.8 cr, FY26 annual report note 10) sit in other non-current financial assets."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 9,
+  "fadeCapexPctTo": 2.5,
+  "depPctOfSales": 2.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Loss-making consumer-internet retailer: 1.1 gives a 13.1% cost of equity, as for Urban Company and Meesho. Debt is small beyond leases, so cost of equity ≈ WACC.",
+  "_tgWhy": "6%: nominal GDP-like growth after 15 years.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~14% (FY29E) to 9% by year 15.",
+  "_fadeMarginWhy": "9% reported EBITDA margin (after ESOP, before rent) at maturity: India multi-channel at ~11% of revenue, International and Globalbees at mid-single digits.",
+  "_fadeCapexWhy": "Stores, warehouses and leases settle at ~2.5% of revenue."
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "India multi-channel",
+    "seg": "imc",
+    "field": "revenue",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E revenue × EV/sales",
+    "multiple": {
+     "base": 1.15,
+     "bull": 1.3,
+     "bear": 1
+    },
+    "note": "EV / one-year-forward sales derived from FirstCry's own trading over the last 12 months (1-Oct-2025 to 30-Sep-2026, after the IPO-premium months) × the internet sector's move over the same window (see the derivation table). One multiple for every segment, as the street's own SOTP works out to ~1.0-1.2x sales for each part."
+   },
+   {
+    "name": "International (UAE, KSA)",
+    "seg": "intl",
+    "field": "revenue",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E revenue × EV/sales",
+    "multiple": {
+     "base": 1.15,
+     "bull": 1.3,
+     "bear": 1
+    },
+    "note": "EV / one-year-forward sales derived from FirstCry's own trading over the last 12 months (1-Oct-2025 to 30-Sep-2026, after the IPO-premium months) × the internet sector's move over the same window (see the derivation table). One multiple for every segment, as the street's own SOTP works out to ~1.0-1.2x sales for each part."
+   },
+   {
+    "name": "Globalbees (100%)",
+    "seg": "gb",
+    "field": "revenue",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E revenue × EV/sales",
+    "multiple": {
+     "base": 1.15,
+     "bull": 1.3,
+     "bear": 1
+    },
+    "note": "EV / one-year-forward sales derived from FirstCry's own trading over the last 12 months (1-Oct-2025 to 30-Sep-2026, after the IPO-premium months) × the internet sector's move over the same window (see the derivation table). One multiple for every segment, as the street's own SOTP works out to ~1.0-1.2x sales for each part."
+   },
+   {
+    "name": "Others (preschools)",
+    "seg": "oth",
+    "field": "revenue",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E revenue × EV/sales",
+    "multiple": {
+     "base": 1.15,
+     "bull": 1.3,
+     "bear": 1
+    },
+    "note": "EV / one-year-forward sales derived from FirstCry's own trading over the last 12 months (1-Oct-2025 to 30-Sep-2026, after the IPO-premium months) × the internet sector's move over the same window (see the derivation table). One multiple for every segment, as the street's own SOTP works out to ~1.0-1.2x sales for each part."
+   },
+   {
+    "name": "Inter-segment sales",
+    "seg": "elim",
+    "field": "revenue",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E revenue × EV/sales",
+    "multiple": {
+     "base": 1.15,
+     "bull": 1.3,
+     "bear": 1
+    },
+    "note": "EV / one-year-forward sales derived from FirstCry's own trading over the last 12 months (1-Oct-2025 to 30-Sep-2026, after the IPO-premium months) × the internet sector's move over the same window (see the derivation table). One multiple for every segment, as the street's own SOTP works out to ~1.0-1.2x sales for each part."
+   },
+   {
+    "name": "Globalbees minorities (48.32%)",
+    "seg": "gb",
+    "field": "revenue",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E Globalbees revenue × −48.32% of the EV/sales multiple",
+    "multiple": {
+     "base": -0.5557,
+     "bull": -0.6282,
+     "bear": -0.4832
+    },
+    "note": "Globalbees is valued at 100% above; 48.32% of it belongs to other shareholders (FirstCry owns 51.68%, FY26 annual report), so their share is deducted (PLAYBOOK §7c)."
+   },
+   {
+    "name": "Globalbees earn-outs (FirstCry share)",
+    "metricLabel": "51.68% × ₹387.5 cr consideration payable",
+    "adj": {
+     "base": -200,
+     "bull": -200,
+     "bear": -200
+    },
+    "note": "Consideration payable to selling shareholders of Globalbees brands, ₹387.5 cr at Mar-26 (FY26 annual report, notes 27-28): debt-like; FirstCry bears 51.68%."
+   },
+   {
+    "name": "Net cash at end-FY27E (after leases)",
+    "netCash": true,
+    "note": "Model forecast: cash, bank balances, long deposits and investments less borrowings and lease liabilities at Mar-27. Leases are deducted because sales and adjusted EBITDA are before rent."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "The street's method (JM Financial: segment SOTP on FY28E). Each segment at the EV/sales multiple derived from FirstCry's own trading and the sector move, Globalbees minorities and earn-outs deducted, plus net cash. Primary."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Whole-company cash flows over 15 years at a 13.1% cost of equity; includes 100% of Globalbees (minorities not deducted), so it flatters slightly."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA (street-implied)",
+     "method": "evEbitda",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 13.5,
+      "bull": 13.5,
+      "bear": 13.5
+     },
+     "role": "cross-check",
+     "why": "JM Financial's May-2026 SOTP implies ~13.5x its FY28E reported EBITDA (target EV ₹127 bn ÷ ₹9.3 bn); applied to our Sep-28E reported EBITDA (after ESOP, before rent)."
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "India GMV grows ~16% a year as Qwik and new stores work and the diaper war ends; gross margin fully recovers (India adjusted EBITDA ~10% of revenue by FY29E); Globalbees grows ~20% at 7-8%; International breaks even by FY29E. Valued at FirstCry's own 12-month median EV/sales with no sector discount.",
+   "segments": {
+    "imc": {
+     "growthDelta": 3,
+     "marginDelta": 0.5
+    },
+    "intl": {
+     "marginDelta": 1
+    },
+    "gb": {
+     "growthDelta": 4,
+     "marginDelta": 1
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Quick commerce keeps taking diapers and essentials: India GMV grows ~9%, margins stay near Q1FY27 levels (~7% of revenue); Globalbees stalls at ~10% growth and 3-5% margins; International losses persist. Valued at the 25th percentile of FirstCry's own range × the sector move.",
+   "segments": {
+    "imc": {
+     "growthDelta": -4,
+     "marginDelta": -0.6
+    },
+    "intl": {
+     "growthDelta": -4,
+     "marginDelta": -1
+    },
+    "gb": {
+     "growthDelta": -6,
+     "marginDelta": -1.5
+    }
+   }
+  }
+ }
+}

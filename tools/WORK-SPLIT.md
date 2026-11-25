@@ -170,11 +170,11 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - B30 · claimed (B, 24-Nov-2026) · MEESHO published (SELL, 205), NYKAA published (HOLD, 365), NAUKRI published (HOLD, 1,270), VMM published (BUY, 120), IRCTC published (BUY, 650)
 - B31 · published (B, 24-Nov-2026) · PWL published (BUY, 150), ITCHOTELS published (BUY, 205), JUBLFOOD published (BUY, 605), URBANCO published (SELL, 135), EIHOTEL published (HOLD, 315)
 - B32 · published (B, 25-Nov-2026) · TBOTEK published (HOLD, 1,840), DEVYANI published (BUY, 170), INDIAMART published (BUY, 2,480), BLS published (HOLD, 250), LEMONTREE published (BUY, 140)
-- B33 · claimed (B, 25-Nov-2026; paused, research started) · FIRSTCRY
+- B33 · published (B, 25-Nov-2026) · FIRSTCRY published (BUY, 230)
 
 ### Oil Gas & Consumable Fuels (17)
 
-- B34 · claimed (B, 25-Nov-2026; paused: RELIANCE and ONGC just started, the rest not started) · RELIANCE, ONGC, COALINDIA, IOC, BPCL
+- B34 · claimed (B, 25-Nov-2026) · RELIANCE, ONGC, COALINDIA, IOC, BPCL
 - B35 · queued · GAIL, OIL, HINDPETRO, ATGL, AEGISLOG
 - B36 · queued · PETRONET, MRPL, AEGISVOPAK, CHENNPETRO, IGL
 - B37 · queued · CASTROLIND, MGL
