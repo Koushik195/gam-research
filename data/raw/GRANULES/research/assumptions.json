@@ -1,0 +1,176 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Granules India (consolidated, Rs crore). The Mar-26 balance sheet and the share count are pro forma for the 16-Sep-2026 warrant conversion (fully diluted 27.28 cr shares; Rs1,096.9 cr of balance money as cash) via tools/authoring/GRANULES.patch.js, so FY27E-FY29E EPS are on the post-conversion share count. Granules reports one segment and discloses four divisions every quarter; the engine runs one revenue-growth path and the four-line build (finished dosages, API, PFI, peptide CDMO) sits in businessLines, checked against model revenue in tools/authoring/GRANULES.ctx.js. EBITDA on Screener's basis (before other income). Other income is built from interest on gross cash and recurring items (treasuryYield 0), interest from a gross-loan path. Valued on P/E, as five of the six brokers that disclose a method do.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  14.02,
+  11.8,
+  11.21
+ ],
+ "_revenueWhy": "Sum of the four-line build below (FY26 base Rs5,365.6 cr; Screener Rs5,366 cr). FY27 +14.0%: Q1FY27 revenue Rs1,477 cr (+22% YoY, flat QoQ) and the CMD's 'we are confident it will continue'; we assume FD keeps growing ~2.5% a quarter and API holds the Q1 run-rate, which means Q2-Q4 growth slows to ~11% YoY against a higher FY26 base (Q2-Q4FY26 rose 7-14% sequentially). FY28-29 +11-12%: GLS capacity (+40% FD capacity, >50% utilised by end-FY27), controlled-substance launches (3 over the next 12 months per GPI's President), the 9 Gagillapur approvals (~USD11 bn market) starting to come through in FY28 once the FDA re-inspects, and the peptide CDMO; offset by price pressure in legacy molecules. Street FY27E revenue Rs6,050-6,175 cr (Emkay, ICICI Securities), FY28E Rs6,803-7,028 cr; MOSL ~17% CAGR FY26-28E.",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "fd": 3989.3,
+   "api": 682.2,
+   "pfi": 534.8,
+   "cdmo": 159.3,
+   "_why": "FY26 division revenue (Q4FY26 deck, AR FY26): finished dosages Rs3,989.3 cr, API Rs682.2 cr, PFI Rs534.8 cr, peptide CDMO Rs159.3 cr = Rs5,365.6 cr."
+  },
+  "growth": {
+   "fd": [
+    14,
+    13,
+    12
+   ],
+   "api": [
+    12,
+    6,
+    6
+   ],
+   "pfi": [
+    4,
+    4,
+    4
+   ],
+   "cdmo": [
+    57,
+    25,
+    25
+   ]
+  },
+  "_why": "FD +14% in FY27 (Q1 +22% YoY to Rs1,093 cr; complex generics 50% of FD; FD grew 18% in FY25 and 16% in FY26 with no new approvals from Gagillapur), +13% in FY28 and +12% in FY29 as Gagillapur approvals and GLS volumes add to controlled substances; Emkay FD +14%/+15%/+20%, MOSL ~18% CAGR FY26-28E. API +12% in FY27 (Q1 Rs194 cr x4 = Rs777 cr, +14%; new APIs in Europe), then +6% a year: the legacy molecules (paracetamol, metformin, guaifenesin) face Chinese prices and no pass-through of 2026 cost inflation. PFI +4% a year (Q1 +9% YoY but -3% QoQ; Emkay +2.5%). Peptide CDMO +57% to ~Rs250 cr in FY27 (Q1 Rs60 cr x4 is 'the minimum', H2 stronger; Emkay Rs239 cr), then +25% a year to ~Rs391 cr in FY29E (~USD41 mn), below the company's USD50 mn run-rate target in about three years."
+ },
+ "ebitdaMargin": [
+  23,
+  23.5,
+  24
+ ],
+ "_marginWhy": "Screener basis (before other income): 19.0% (FY24), 21.2% (FY25), 22.1% (FY26), 23.0% in Q1FY27 on a 65.6% gross margin. Guidance: margins in the 22-23% range 'we expect that to continue' (CMD, 21-Jul-2026); R&D 5.5-6% of sales (5.3% in FY26). FY27 23.0%: the peptide unit swings from a Rs44.5 cr EBITDA loss in FY26 to a small profit (PAT positive target) and FDA remediation costs fall from ~Rs60 cr (FY26) to <USD1 mn a quarter, together worth ~2 points; R&D steps up ~0.5 point and raw-material/freight inflation from West Asia reaches the P&L once the US inventory bought earlier runs down, which we put at ~1 point. FY28 23.5% and FY29 24.0% as GLS utilisation and complex generics rise. Street FY27E: Emkay 22.9%, ICICI Securities 23.6%; FY28E 24.2-24.3%; FY29E Emkay 25.9%.",
+ "capex": [
+  600,
+  650,
+  650
+ ],
+ "_capexWhy": "FY26 capex Rs555 cr; Q1FY27 Rs89 cr (Genome Valley complete). Guidance: ~Rs600 cr in FY27 (CFO, 21-Jul-2026) for a new API facility, digitalisation and a US distribution centre (Rs200 cr plus); ~Rs2,000 cr of organic capex over three to four years (CFO, 29-Sep-2026) incl. peptide intermediates (~Rs100 cr) and peptide API (~Rs200 cr) in India. We use Rs650 cr a year in FY28-29E. Acquisitions (the CMD is 'very actively looking') are not modelled.",
+ "depRateOnGrossBlock": 6.3,
+ "_depWhy": "FY26 depreciation Rs296 cr = 6.7% of average gross block (Rs4,435 cr, Screener; gross block jumped as GLS and Senn came in); Q1FY27 Rs79.6 cr (Rs318 cr annualised). The engine depreciates capex at once (CWIP held flat at Rs410 cr), so 6.3% gives ~Rs333 / 373 / 414 cr in FY27-29E (Emkay Rs332 / 368 / 405 cr).",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Other income is built from its parts in tools/authoring/GRANULES.ctx.js (interest on gross cash above an operating balance, plus recurring items), so no engine treasury yield is applied. The engine's net cash at Mar-26 is pro forma +Rs535 cr (Screener cash Rs949 cr + investments Rs1 cr - borrowings incl. leases Rs1,512 cr + Rs1,097 cr warrant money).",
+ "otherIncome": [
+  45.1,
+  67.3,
+  87.4
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (AR FY26 notes 7B, 16): FY26 other income Rs20.3 cr = interest on bank deposits Rs5.8 cr + other interest Rs1.3 cr + forex gain Rs9.2 cr + other non-operating Rs4.1 cr (FY25 Rs12.9 cr). TTM to Jun-26 Rs6.3 cr (forex losses in Q2-Q3FY26); Q1FY27 Rs2.3 cr. FY27E = Q1 actual + interest at 5.8% (FY26 deposit interest / average bank deposits) on the Rs1,097 cr warrant balance from mid-September + the FY26 recurring items ex-forex (Rs11.1 cr) for Q2-Q4. FY28-29E = 5.8% on average gross cash above the Mar-26 level (Rs949 cr, whose earnings sit in the recurring Rs11.1 cr) + Rs11.1 cr. No forex gains forecast. Street other income FY27E-29E: Emkay Rs22 / 37 / 69 cr (it assumed the warrant money in FY28).",
+ "interest": [
+  82.7,
+  71.9,
+  69.6
+ ],
+ "_interestWhy": "Built in tools/authoring/GRANULES.ctx.js: 4.45% on average loans (FY26 loan interest Rs58.5 cr on average loans of Rs1,312 cr; foreign-currency packing credit at 4.19-4.60%, AR note 13A) + lease interest Rs12.9 cr + other borrowing costs. FY26 finance cost Rs114.4 cr incl. Rs42.9 cr of other borrowing costs (AR note 20); Q1FY27 Rs21.1 cr after loans were repaid (net debt Rs101 cr at Jun-26), implying other borrowing costs of ~Rs20 cr a year now. Loans Rs1,338 cr at Mar-26 fall to ~Rs900 cr by Mar-27 (rupee loans and term debt repaid; cheap dollar packing credit kept) and ~Rs850 / 800 cr after.",
+ "taxRate": [
+  25,
+  25,
+  25
+ ],
+ "_taxWhy": "Effective rate 24.0% (FY25), 24.2% (FY26), 25.1% (Q1FY27); enacted 25.17%.",
+ "payout": [
+  7,
+  7,
+  7
+ ],
+ "_payoutWhy": "Rs1.50 a share for FY25 and FY26 (~6% of EPS); the CFO said the board will relook at raising the payout. 7% of EPS = ~Rs2.0-2.8 a share.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 23,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity. Granules is net cash after Sep-2026, so WACC equals the cost of equity: beta 1.0 (a US-generics exporter with regulatory and commodity risk) gives 12.5%.",
+  "_tgWhy": "Middle of the house 5-6% range: US generic volumes grow with nominal GDP; peptides and complex generics add some growth, price erosion takes some away.",
+  "_fadeGrowthWhy": "Growth fades from 11.2% (FY29E) to 7% by FY42E: revenue grew 15% a year in FY16-26 (Rs1,357 cr to Rs5,366 cr) but only 6% a year in FY23-26.",
+  "_fadeMarginWhy": "23%, a point below FY29E: generic price erosion and new competition in ADHD products cap the margin near today's 22-24%.",
+  "_fadeCapexWhy": "Capex falls from 8.5-10% of sales (FY27-29E) to 6% by FY42E (FY21-26 average ~10%): maintenance near depreciation (~5% of sales) plus modest growth capex.",
+  "_wcNote": "Engine operating working capital is ~37% of sales on Screener's balance sheet (inventory Rs1,673 cr, receivables Rs909 cr, other assets, less payables and other liabilities); the company's own NWC measure is 29-33%."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The FDA clears Gagillapur in FY27 and the 9 pending approvals launch in FY28; a sole first-to-file (generic Lumryz or Dyanavel) wins exclusivity; GLS fills and the peptide CDMO reaches its USD50 mn run-rate early. Revenue grows ~4 points a year faster and the margin is ~1.5 points higher.",
+   "revenueGrowthDelta": 4,
+   "marginDelta": 1.5,
+   "fadeMarginTo": 25
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The re-inspection goes badly and approvals stay blocked into FY29; legacy-molecule prices fall while 2026 cost inflation sticks; the peptide unit keeps losing money. Revenue grows ~5 points a year slower and the margin falls ~2 points.",
+   "revenueGrowthDelta": -5,
+   "marginDelta": -2,
+   "fadeMarginTo": 20
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 19.5,
+      "bull": 22.5,
+      "bear": 17
+     },
+     "why": "How the street values Granules: of the six brokers that disclose a method, five use P/E (ICICI Securities 28x FY28E, Choice 25x FY28E, MOSL 23x 12-month forward, Elara 24x FY28E core EPS plus cash, DRChoksey 18x Sep-27E in its last disclosed note) and one a sum of the parts (Emkay). 19.5x = Granules' own one-year-forward P/E median since Apr-2021 (house forwardMedian: reported EPS, every 5th weekly close, 58 points; no trough years: FY24 EPS Rs16.72 and FY25 Rs20.68 are above half the prior three-year peak, Rs11.09 and Rs10.67) of 17.9x x 1.082 (median of the nine-name pharma set's P/E at the 30-Sep close vs its five-year median; Granules is outside the set, PLAYBOOK §7c) = 19.4x, nearest half-turn. Exceptional items are 2-4% of profit, so the base uses reported EPS (the ex-exceptional median is 17.9x, a sensitivity row). Bull 22.5x / bear 17x = 75th / 25th percentile (21.0x / 15.8x) x 1.082. No own-move blend, no growth uplift (sensitivities only). Written by GRANULES.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 10.5,
+      "bull": 12,
+      "bear": 9.5
+     },
+     "why": "Cross-check: Granules' own one-year-forward EV/EBITDA median since Apr-2021 over the same weeks (EV = price x shares then outstanding + latest published net debt incl. leases; fully diluted with the warrant balance as cash from the Feb-2026 issue; over the next full year's EBITDA, Screener basis) of 9.9x x 1.075 (the nine peers' EV/EBITDA move, five-year) = 10.6x, nearest half-turn, on Sep-28E EBITDA plus Sep-28E net cash. Bull 12x / bear 9.5x = 75th / 25th percentile x 1.075."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 12.5% (net cash, so WACC = cost of equity), terminal growth 5.5%, working capital ~37% of sales."
+    }
+   ]
+  }
+ }
+}

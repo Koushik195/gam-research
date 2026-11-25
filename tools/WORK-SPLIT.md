@@ -73,7 +73,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - A20 · published (A, 24-Nov-2026) · GLENMARK published (SELL, 1,780), ALKEM published (BUY, 6,720), ABBOTINDIA published (BUY, 36,210), BIOCON published (BUY, 490), IPCALAB published (HOLD, 2,130)
 - A21 · published (A, 24-Nov-2026) · GLAND published (HOLD, 2,990), ANTHEM published (BUY, 990), AJANTPHARM published (SELL, 3,400), GLAXO published (BUY, 3,320), EMCURE published (HOLD, 2,170)
 - A22 · published (A, 25-Nov-2026) · LALPATHLAB published (HOLD, 2,200), SAILIFE published (SELL, 1,250), WOCKPHARMA published (HOLD, 2,170), ACUTAAS published (SELL, 2,280), PPLPHARMA published (BUY, 280)
-- A23 · in progress (A, 25-Nov-2026) · NEULANDLAB published (SELL, 12,420), GRANULES, COHANCE published (SELL, 310), CAPLIPOINT published (SELL, 2,090), NATCOPHARM
+- A23 · published (A, 25-Nov-2026) · NEULANDLAB published (SELL, 12,420), GRANULES published (SELL, 710), COHANCE published (SELL, 310), CAPLIPOINT published (SELL, 2,090), NATCOPHARM published (SELL, 600)
 - A24 · queued · ONESOURCE, SYNGENE, POLYMED, CONCORDBIO
 
 ### Fast Moving Consumer Goods (26)
@@ -169,12 +169,12 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - B29 · claimed (B, 24-Nov-2026; ETERNAL, DMART, INDHOTEL in progress; TRENT, LENSKART later) · ETERNAL published (HOLD, 360), DMART published (HOLD, 4,040), TRENT published (SELL, 2,410), INDHOTEL published (SELL, 540), LENSKART published (SELL, 570)
 - B30 · claimed (B, 24-Nov-2026) · MEESHO published (SELL, 205), NYKAA published (HOLD, 365), NAUKRI published (HOLD, 1,270), VMM published (BUY, 120), IRCTC published (BUY, 650)
 - B31 · published (B, 24-Nov-2026) · PWL published (BUY, 150), ITCHOTELS published (BUY, 205), JUBLFOOD published (BUY, 605), URBANCO published (SELL, 135), EIHOTEL published (HOLD, 315)
-- B32 · claimed (B, 25-Nov-2026) · TBOTEK published (HOLD, 1,840), DEVYANI published (BUY, 170), INDIAMART published (BUY, 2,480), BLS, LEMONTREE
-- B33 · claimed (B, 25-Nov-2026) · FIRSTCRY
+- B32 · published (B, 25-Nov-2026) · TBOTEK published (HOLD, 1,840), DEVYANI published (BUY, 170), INDIAMART published (BUY, 2,480), BLS published (HOLD, 250), LEMONTREE published (BUY, 140)
+- B33 · claimed (B, 25-Nov-2026; paused, research started) · FIRSTCRY
 
 ### Oil Gas & Consumable Fuels (17)
 
-- B34 · claimed (B, 25-Nov-2026) · RELIANCE, ONGC, COALINDIA, IOC, BPCL
+- B34 · claimed (B, 25-Nov-2026; paused: RELIANCE and ONGC just started, the rest not started) · RELIANCE, ONGC, COALINDIA, IOC, BPCL
 - B35 · queued · GAIL, OIL, HINDPETRO, ATGL, AEGISLOG
 - B36 · queued · PETRONET, MRPL, AEGISVOPAK, CHENNPETRO, IGL
 - B37 · queued · CASTROLIND, MGL

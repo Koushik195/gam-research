@@ -1,0 +1,67 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Natco Pharma: industry, peers, street, ownership, moat, critiques, gaps and conflicts. Only sources published on or before 30-Sep-2026; later facts are in updates/later-facts.json." },
+ "industry": {
+  "usGenerics": { "text": "US generics is a 'winner takes all' market for first-to-file (FTF) para-IV products: the first filer can get 180 days of exclusivity; after that, prices fall 80-90% as more generics enter. Natco's model is to pick hard-to-make or litigated molecules with few filers and partner with a US marketer (Teva, Mylan/Viatris, Breckenridge, Lupin, Dr. Reddy's, Sun, Alvogen) who shares litigation cost and pays a profit share.", "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/08737473-9fef-496b-881b-746b8ab600b1.pdf", "published": "2025-08-29" },
+  "usFilerReality": { "text": "CEO (29-May-2026): 'especially if you're doing an NCE-1, chances are most products, you have 8 or 10 or 15 or 20 guys who file on day'; 'if we're able to pull off in a 3 to 4 year time period... even 3 of those, you have done a great job'. FY26: 7-8 US filings, no major FTF.", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=230327e4-9a77-4095-b46d-b9c836cc9b96.pdf", "published": "2026-06-04" },
+  "indiaGlp1": { "text": "Semaglutide went off patent in India in Mar-2026; Natco launched the first generic vial on day one and the pen a month later; 10-15 generics; CEO: 'The market is cutthroat'; own brand ~Rs2 cr a month; vial < Rs1,000 a month vs pen Rs3,000-4,000.", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9bf1f51a-1007-47be-ba9b-ab9bfe320cf0.pdf", "published": "2026-08-18" },
+  "southAfrica": { "text": "Adcock Ingram is the second-largest South African pharma company by private-market share; four divisions (prescription, OTC, hospital, consumer); three plants near Johannesburg and 49% of an Indian JV with two plants.", "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1842b22f-cb53-45cb-bcb2-0388e7070364.pdf", "published": "2026-08-19" },
+  "cropProtection": { "text": "Indian crop-protection market ~US$2.6-2.7 bn (2025-26), projected US$3.36 bn by 2031 (4.45% CAGR); input costs rose 25-30% after the West Asia war (Natco CHS head, 29-May-2026).", "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0d25dc00-4a7e-4acc-b5a8-d747c870ab2f.pdf", "published": "2026-09-04" }
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": { "LUPIN": "Loss years inside the five-year window (PLAYBOOK §7c)", "GLENMARK": "Loss years inside the five-year window", "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window", "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window", "DRREDDY": "gRevlimid windfall FY23-26, then the cliff", "MANKIND": "Listed May-2023: no five-year median" },
+  "factorSet": 8.2,
+  "factorSetEv": 7.5,
+  "note": "PLAYBOOK §7c: names outside the nine-peer set use the median of all nine: +8.2% P/E, +7.5% EV/EBITDA (five-year; reproduced with tools/authoring/sector-factor.js on 25-Nov-2026: 8.20% and 7.50%). Natco itself is outside the set (gRevlimid windfall FY23-26, like DRREDDY)."
+ },
+ "street": {
+  "brokers": [
+   { "broker": "ICICI Securities", "date": "2026-05-31", "rating": "Hold", "tp": 1000, "method": "P/E", "multiple": "18x core + NPV Rs100", "on": "FY28E", "thesis": "Loss of gRevlimid exclusivity took a toll on Q4FY26; FY27 is a consolidation year; growth from FY28 on US, Canada and Brazil launches, Adcock and future exclusivities; 'new launches and M&As critical to revive growth'", "url": "https://www.tradingview.com/news/moneycontrol:1a99c90d4094b:0-hold-natco-pharma-target-of-rs-1000-icici-securities/", "url2": "https://trendlyne.com/posts/5680188/new-launches-and-m-as-critical-to-revive-growth" },
+   { "broker": "Investec", "date": "2026-06-02", "rating": "Buy", "tp": 1220, "method": "n.d.", "multiple": "", "on": "", "thesis": "Healthy Q4 core business without meaningful gRevlimid; FY27/FY28 EPS raised 5%/4%; semaglutide India, Brazil/Canada/US launches; ~Rs2,500 cr cash for deals (target raised from Rs1,035)", "url": "https://tradebrains.in/stock-to-buy-pharma-stock-with-31-upside-potential/" },
+   { "broker": "Geojit BNP Paribas", "date": "2026-03-18", "rating": "Accumulate", "tp": 1058, "method": "n.d.", "multiple": "", "on": "", "thesis": "Revenue to moderate as Revlimid competition rises; generic Pomalyst and RoW partly offset; semaglutide partnerships lift India; two acquisitions under evaluation (pre-Q4 note)", "url": "https://trendlyne.com/posts/5566520/natco-pharma" }
+  ],
+  "superseded": [ { "broker": "ICICI Securities", "date": "2025-11-15", "rating": "Sell", "tp": 750, "thesis": "Earnings hiccups imminent", "url": "https://trendlyne.com/posts/5420116/earnings-hiccups-imminent" } ],
+  "consensusNote": "We found no broker note on Natco dated between the Q1FY27 results (14-Aug-2026) and 30-Sep-2026 that we could read. Trendlyne lists no note for that window. A press tracker quotes an S&P Global poll of 11 analysts (consensus Hold, average target Rs1,021, ~19-Jun-2026); we could not open the underlying page and do not use it.",
+  "eps": { "ICICI Securities": { "FY28E core (implied)": 50, "_why": "(Rs1,000 - Rs100 NPV) / 18x = Rs50 core FY28E EPS (our arithmetic)" } }
+ },
+ "ownership": {
+  "asOf": "2026-06-30",
+  "categories": { "promoters": 49.41, "fii": 16.99, "dii": 5.63, "public": 27.97, "mutualFunds": 1.92, "insurance": 3.64, "bodiesCorporate": 1.53, "shareholders": 403166 },
+  "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1842b22f-cb53-45cb-bcb2-0388e7070364.pdf",
+  "promoterHolders": [ ["V.C. Nannapaneni (Chairman & MD)", 15.66], ["Time Cap Pharma Labs Pvt Ltd", 9.59], ["V.S. Swathi Kantamani", 8.90], ["Natsoft Information Systems Pvt Ltd", 8.81], ["Neelima Nannapaneni Trust", 2.28], ["Durga Devi Nannapaneni", 1.98], ["Rajeev Nannapaneni (Vice Chairman & CEO)", 0.60] ],
+  "promoterSrc": "AR FY26 consolidated note 15 (vi), holdings at 31-Mar-2026; promoter group total 49.43% at 31-Mar-2026, 49.41% at 30-Jun-2026",
+  "pledge": "No promoter pledge disclosed in the AR FY26 shareholding notes (gap: we did not open the Jun-2026 BSE pattern).",
+  "trend": "Promoters 48.8% (Mar-21 to Mar-23) rose to 49.7% after the FY24 buyback, then edged down to 49.4% (small family sales: Satya Vani and Sanjay Nannapaneni sold in FY26). DIIs fell from 16.1% (Mar-21) to 5.6% (Jun-26); retail shareholders rose from 85,509 to ~403,000."
+ },
+ "moat": {
+  "rows": [
+   ["Techno-legal skill in para-IV / FTF generics", "Strong", "gRevlimid, Copaxone (glatiramer), Tamiflu, Afinitor: a long record of picking litigated molecules; 28 para-IVs, 17 approvals pending; but FY26 produced no major new FTF"],
+   ["Scale and cost", "Weak", "~Rs3,000 cr of revenue without lenalidomide; small next to Sun, Cipla or Dr. Reddy's; relies on partners for US distribution and litigation"],
+   ["Branded India franchise (oncology)", "Moderate", "Top-3 in the oncology segment it operates in; 10 brands above Rs10 cr; but the domestic business is only Rs441 cr and grew 10% in FY26"],
+   ["Emerging-market front ends (Brazil, Canada, South Africa)", "Building", "Brazil single source for everolimus for four years; Canada top-10 generic company; Adcock gives the #2 position in South Africa, at 49% only"],
+   ["Regulatory record", "Mixed", "Kothur warning letter Apr-2024, closed Sep-2025; Mekaguda and Chennai cleared in 2025; Vizag due for inspection"],
+   ["Earnings durability", "Weak", "CEO: 'certain businesses are roller coaster'; FY25 EPS Rs104, FY27E ~Rs40"]
+  ],
+  "verdict": "Natco has a real skill (finding and litigating limited-competition generics) but no durable moat: each exclusivity decays, and the base business that remains is sub-scale. Adcock adds stable earnings but Natco does not control it."
+ },
+ "critiques": [
+  { "who": "ICICI Securities (Nov-2025, Sell, Rs750)", "text": "'Earnings hiccups imminent' as gRevlimid ended; raised to Hold Rs1,000 by May-2026 after a 20% fall in the share price", "url": "https://trendlyne.com/posts/5420116/earnings-hiccups-imminent" },
+  { "who": "GAM Research", "text": "FY27 profit guidance of ~Rs750 cr includes ~Rs220 cr from Adcock (29% of PAT), a business Natco does not control, at a 49% stake bought at a higher price in July 2026 than in Nov-2025." },
+  { "who": "GAM Research", "text": "Capital allocation: Rs3,000 cr spent on a minority stake, then a Rs1,279 cr rights issue at Rs750 four months later to repay the debt that funded it; management rules out buybacks ('No')." }
+ ],
+ "gaps": [
+  "Lenalidomide (gRevlimid) revenue and profit by year are not disclosed by Natco; our estimates are US revenue less an ex-lenalidomide US base of ~Rs700 cr a year.",
+  "Broker notes after the Q1FY27 results (Aug-Sep 2026): none found that we could read; ICICI Securities and Trendlyne PDFs need a login; Business Standard returned HTTP 403 (not bypassed).",
+  "ICRA rating rationales (Aug-2025, Nov-2025) need a download form: not used.",
+  "Named institutional holders at Jun-2026 (BSE shareholding pattern): not opened; categories from the Q1FY27 presentation.",
+  "Natco does not name its FY28 US exclusivity launches (confidentiality); carfilzomib (settlement launch CY2027) is the only one stated.",
+  "Adcock Ingram's own audited accounts (delisted Nov-2025) are not public; we use Natco's associate note and call disclosures.",
+  "Balance sheet at Jun-2026 (after the July Adcock tranche) is not published; borrowings of ~Rs1,000 cr are our estimate from the rights-issue objects (Rs810.5 cr of named loans)."
+ ],
+ "conflicts": [
+  "Brazil FY26: Rs287.5 cr (AR FY26 MD&A) vs 'about Rs257 crores... plus some billing directly from India' (CEO, 29-May-2026). We use the AR figure (it includes the India billing).",
+  "Canada FY26: Rs251.7 cr (AR FY26) vs Rs229 cr (CEO, 29-May-2026, subsidiary only). We use the AR figure.",
+  "FY27 revenue guidance: 'Rs3,400-3,500 crores of revenue' (29-May-2026) vs 'gross sales will be between Rs3,300-3,400 crores' (14-Aug-2026). We read May as total revenue (incl. other income) and August as sales.",
+  "The user brief gives trailing EPS to Jun-26 of ~Rs46; the four quarters to Jun-26 sum to Rs63.3 (Screener). Rs45.9 is the trailing EPS to Sep-26, which includes Q2FY27 (after the as-of date)."
+ ]
+}

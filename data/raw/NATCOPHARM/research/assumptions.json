@@ -1,0 +1,253 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Natco Pharma (consolidated, Ind AS, Rs crore; Screener basis: revenue from operations, EBITDA before other income). One revenue path (sum of the business-line build in `businessLines`, checked in tools/authoring/NATCOPHARM.ctx.js) and one EBITDA margin. The 49% associate Adcock Ingram (South Africa, delisted from the JSE in Nov-2025, equity-accounted) has no engine line: Natco's share of its profit is carried in `otherIncome` (pre-tax) and the tax rate is set so tax falls only on profit before the associate share (`taxBuild`). Other income is built in `otherIncomeBuild` from sourced parts. Shares: 179.11 mn in issue (NATCOPHARM.patch.js). The Sep-2026 rights issue (Rs1,279 cr at Rs750, record date 1-Oct-2026) is NOT in the base: the 30-Sep-2026 close is cum-rights and the engine cannot change the share count; a post-rights view is shown in the valuation chapter. Valued on P/E on Sep-28E EPS, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  -26.4399,
+  16.6667,
+  11.2857
+ ],
+ "_revenueWhy": "Sum of the business-line build (`businessLines`). FY26 revenue from operations Rs4,078.3 cr (AR FY26 consolidated P&L): export formulations Rs3,234.5 cr (US Rs2,381.0 cr, Brazil Rs287.5 cr, Canada Rs251.7 cr, rest of world Rs314.3 cr by difference), domestic formulations Rs440.9 cr, API Rs234.7 cr, Crop Health Sciences Rs138.2 cr, other operating revenue Rs30.0 cr (Q1FY27 investor presentation; AR FY26 MD&A). FY27E Rs3,000 cr (-26%): no lenalidomide (Q1FY27 'negligible'); Q1FY27 revenue Rs735 cr is the run-rate (Rs2,940 cr annualised) and we add a modest H2 lift from Brazil (US$55-60 mn guided), CHS's kharif quarter and US approvals. Management guided 'gross sales' of Rs3,300-3,400 cr (14-Aug-2026 call; Rs3,400-3,500 cr total revenue in May): we are ~10% below because the guidance needs a ~20% jump over Q1 for the rest of the year. FY28E +16.7%: two US launches with exclusivity guided for FY28 (unnamed; carfilzomib's settlement launch is in CY2027), Brazil and Canada launches, domestic +13%. FY29E +11.3%.",
+ "ebitdaMargin": [
+  25,
+  27,
+  27.5
+ ],
+ "_marginWhy": "Screener basis (revenue from operations less operating costs; other income excluded). History: 14% FY22 (pre-gRevlimid), 35% FY23, 44% FY24, 50% FY25, 36% FY26 (24.6% in Q3FY26 and 17.3% in Q4FY26 with 'literally no Revlimid'; Q4 carried a R&D spike and a Rs20-30 cr engineering-spares write-down), 25.3% in Q1FY27 (low R&D quarter; management: 'there will be a little bit higher spend going forward'). FY27E 25.0%: Q1 level held (R&D 7-9% of sales guided vs 10.5% in FY26 offsets higher spend later in the year). FY28E 27.0%: limited-competition US launches carry high margins; FY29E 27.5%. We do not assume the 44-50% of the gRevlimid years.",
+ "capex": [
+  300,
+  300,
+  300
+ ],
+ "_capexWhy": "CFO Amit Parekh (14-Aug-2026): 'Organically, I think every year, we have around INR 250 crores to INR 300 crores of capex'. FY26 purchase of PPE Rs388 cr, FY25 Rs401 cr (AR FY26 cash flow). We use the top of the range: Rs300 cr a year. Acquisitions (Adcock tranche, July 2026) are handled in `otherIncomeBuild`, not capex.",
+ "depRateOnGrossBlock": 4.4,
+ "_depWhy": "FY26 depreciation, amortisation and impairment Rs206.6 cr = 5.0% of average gross block (Screener Rs4,016 cr / Rs4,256 cr); Q1FY27 Rs47.1 cr (Rs188 cr annualised, 4.4% of the Mar-26 gross block). 4.4% on the growing block gives ~Rs194 / 207 / 220 cr. CWIP (Rs294 cr) held flat by the engine.",
+ "otherTreasury": {
+  "base": 703.6,
+  "_why": "Deposits with financial institutions (other than banks) inside Screener's 'other assets': Rs663.6 cr current + Rs40.0 cr non-current (AR FY26 consolidated note 9). With cash and bank balances Rs1,551 cr, investments Rs3,127 cr (of which Rs2,275.7 cr is the equity-accounted Adcock stake, note 41) and borrowings Rs714 cr (incl. leases), the engine's opening treasury is Rs4,668 cr, i.e. ~Rs2,392 cr of net cash plus the Adcock stake at book (management: 'net cash would be around INR 2,400 crores at a group level', 29-May-2026)."
+ },
+ "treasuryYield": [
+  6.5,
+  6.5,
+  6.5
+ ],
+ "_treasuryWhy": "FY26 interest income Rs231.5 cr (AR FY26 note 23) on average gross cash and deposits of roughly Rs3,500 cr before the Nov-2025 Adcock payment (6.5-7%). We use 6.5%. The engine applies it to its opening treasury, which includes the non-yielding Adcock stake; `otherIncomeBuild` removes that yield and adds the yield on cash funded by borrowings.",
+ "otherIncome": [
+  116.18,
+  81.07,
+  94.08
+ ],
+ "_otherIncomeWhy": "Built in `otherIncomeBuild`: Natco's share of Adcock Ingram's profit (Rs218 / 215 / 235 cr) + forex gains Rs25 cr a year (FY26 Rs39.1 cr, FY25 Rs19.8 cr) + recurring miscellaneous income Rs25 cr (FY26 misc Rs20.6 cr + wind power Rs3.5 cr + investment gains Rs2.4 cr) + 6.5% on the cash funded by ~Rs1,000 cr of borrowings (Rs65 cr) - 6.5% on the non-yielding Adcock stake inside the engine's treasury (Rs3,336 cr at the start of FY27, growing with half of Natco's share of Adcock's profit, which we assume is retained). FY27E other income including the associate: ~Rs420 cr (treasury ~Rs152 cr) vs FY26 Rs297.6 cr + associate Rs46.6 cr; no land-sale gains (FY25 Rs90.1 cr) are forecast.",
+ "interest": [
+  60,
+  65,
+  65
+ ],
+ "_interestLabel": "Finance cost (term loans, overdraft and short-term borrowings)",
+ "_interestWhy": "FY26 Rs36.7 cr on borrowings of Rs706 cr at Mar-26 (Rs400 cr term loan drawn in FY26); Q1FY27 Rs13.0 cr. The July-2026 Adcock tranche (Rs1,060 cr) was part-funded with debt: the rights-issue terms (25-Sep-2026) name Rs810.5 cr of loans to repay (SBI term loan Rs300 cr, IndusInd overdraft Rs200 cr, Bajaj Finance Rs310.5 cr). We hold gross borrowings at ~Rs1,000 cr (no rights issue in the base) at ~6.5%: Rs60 / 65 / 65 cr.",
+ "taxRate": [
+  21.34,
+  21.79,
+  22.01
+ ],
+ "_taxWhy": "Tax on profit before the associate share (engine has no associate line). Built in `taxBuild`: 28% / 27% / 27% of PBT excluding the Adcock share (new regime from FY27: 25.17% statutory; CFO: 'roughly in India will be around 27%' with CSR disallowances; Brazil above 35%; Q1FY27 34%). The engine rate = that tax / PBT including the associate share. Checked each year in NATCOPHARM.ctx.js. FY26's 8% effective rate included a one-time Rs115 cr deferred-tax credit on moving to the new regime.",
+ "payout": [
+  15,
+  15,
+  15
+ ],
+ "_payoutWhy": "Quarterly interim dividends: Rs5.0 a share paid in FY26 (Rs2.0 + 1.5 + 1.5; Rs89.6 cr), Rs6.0 in FY25; Rs1.50 declared for Q1FY27 (14-Aug-2026). 15% of our EPS is ~Rs6-8 a share. No buyback planned: CEO on 29-May-2026, asked about a buyback, 'No... this cash should be used for an acquisition'.",
+ "businessLines": {
+  "_note": "Revenue from operations by business line (Rs crore). FY26 from the Q1FY27 investor presentation (segment table) and AR FY26 MD&A (US, Brazil, Canada); rest of world by difference. Checked against model revenue in NATCOPHARM.ctx.js (tolerance 0.5%).",
+  "base": {
+   "fy": "FY26",
+   "us": 2381,
+   "brazil": 287.5,
+   "canada": 251.7,
+   "row": 314.3,
+   "domestic": 440.9,
+   "api": 234.7,
+   "chs": 138.2,
+   "otherOp": 30,
+   "total": 4078.3
+  },
+  "us": [
+   860,
+   1080,
+   1200
+  ],
+  "brazil": [
+   530,
+   620,
+   700
+  ],
+  "canada": [
+   270,
+   310,
+   345
+  ],
+  "row": [
+   345,
+   375,
+   405
+  ],
+  "domestic": [
+   540,
+   610,
+   685
+  ],
+  "api": [
+   260,
+   280,
+   300
+  ],
+  "chs": [
+   165,
+   195,
+   230
+  ],
+  "otherOp": [
+   30,
+   30,
+   30
+  ],
+  "_why": "US: Q1FY27 export formulations Rs477 cr less Brazil Rs178 cr and Canada Rs56 cr leaves ~Rs243 cr a quarter for the US and other markets with negligible lenalidomide; US ~Rs165 cr a quarter, plus H2 approvals ('two US orders'; eribulin approved in Q1) gives Rs860 cr for FY27E; FY28E Rs1,080 cr with the two exclusivity launches management guides for FY28 (we assume ~Rs200 cr in the first year), FY29E Rs1,200 cr. Brazil: FY26 Rs287.5 cr; 'should go to US$55-60 million this year' (29-May-2026); Q1FY27 Rs178 cr (+180%): Rs530 / 620 / 700 cr. Canada: FY26 Rs251.7 cr (AR; Rs229 cr for the subsidiary on the call), 'grow around 10% to 15%', big launches in FY28: Rs270 / 310 / 345 cr. Rest of world (MENA tenders, Asia, China): +10% / +9% / +8%. Domestic: FY26 Rs440.9 cr; Q1FY27 Rs136 cr (+27%), semaglutide ~Rs2 cr a month own brand plus partners, 'domestic will increase by about 25% in volumes': +22% / +13% / +12%. API: FY26 Rs234.7 cr, Q1 Rs66.7 cr: Rs260 / 280 / 300 cr. CHS: FY26 Rs138.2 cr (FY25 Rs59.8 cr), Q1 Rs40.8 cr, breakeven targeted for FY27; demerger planned by ~Mar-2027 (kept in the base: it is near breakeven and shareholders keep the value): Rs165 / 195 / 230 cr."
+ },
+ "otherIncomeBuild": {
+  "_note": "Engine other income = 6.5% x opening engine treasury (treasuryYield) + otherIncome; otherIncome = associate + forex + misc + carry - yield on non-yielding stake (Rs crore).",
+  "yieldPct": 6.5,
+  "grossBorrowings": 1000,
+  "carry": [
+   65,
+   65,
+   65
+  ],
+  "nonYieldingOpen": [
+   3335.7,
+   3444.7,
+   3552.2
+  ],
+  "assoc": [
+   218,
+   215,
+   235
+  ],
+  "forex": [
+   25,
+   25,
+   25
+  ],
+  "misc": [
+   25,
+   25,
+   25
+  ],
+  "adcockPat": [
+   542,
+   470,
+   510
+  ],
+  "_why": "Non-yielding stake: Adcock carrying value Rs2,275.7 cr at Mar-26 (AR FY26 note 41) + the 13.25% tranche bought in July 2026 for ZAR1.81 bn (~Rs1,060 cr; CEO 14-Aug-2026), both still inside the engine's treasury because the engine cannot book an acquisition; it grows each year by half of Natco's share of Adcock's profit (we assume half is paid out as dividends; FY26 dividend received Rs36.9 cr). Adcock profit (100%): Q1FY27 Rs242.2 cr (flu season), 'normally the profit is usually around INR 100 crores per quarter' (CFO, 14-Aug-2026): FY27E Rs542 cr; Natco's share = Q1 Rs84.3 cr actual + Q2 at a blended 44.6% + Q3-Q4 at 49% - ~Rs3 cr a quarter of purchase-price amortisation = Rs218 cr. FY28E Adcock Rs470 cr (normal year, May-2026 guidance US$47-48 mn PAT), FY29E Rs510 cr: 49% less ~Rs15 cr amortisation = Rs215 / 235 cr. Carry: 6.5% on ~Rs1,000 cr of gross borrowings, which the engine nets against cash.",
+  "refundOffset": [
+   0,
+   385,
+   385
+  ]
+ },
+ "taxBuild": {
+  "_note": "Engine tax rate = tax at taxOnPbtExAssoc% on (PBT - associate share) / PBT.",
+  "taxOnPbtExAssoc": [
+   28,
+   27,
+   27
+  ],
+  "_why": "New tax regime from FY27 (25.17% statutory); India effective ~27% with disallowances (CFO, 14-Aug-2026); Brazil above 35%; Q1FY27 34% on a large Brazil share. 28% for FY27E, 27% thereafter."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 26,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Net cash, so the cost of equity is the discount rate. Natco's earnings are lumpy (exclusivity windows, litigation outcomes): beta 0.9 gives 11.9%, above DRREDDY's 11.6%.",
+  "_tgWhy": "House range 5-6%; we use 5.0% because a third of the business is US limited-competition generics whose profits decay after each launch.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~11% (FY29E) to 7%.",
+  "_fadeMarginWhy": "Screener-basis EBITDA margin fades from 27.5% to 26%: exclusivity launches recur but each erodes; the branded and Brazil base runs at mid-20s.",
+  "_fadeCapexWhy": "Capex moves from ~8% of revenue (FY29E; FY23-FY26 ran at 8-10%) to 6% in the long run: maintenance plus new lines for a business several times today's size."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The FY28 US exclusivities (carfilzomib and a second unnamed product) launch on time with few competitors; olaparib wins at trial; Brazil keeps doubling; Adcock earns US$55 mn+ a year; EBITDA margin returns to ~30%.",
+   "revenueGrowthDelta": 4,
+   "marginDelta": 2,
+   "fadeMarginTo": 28
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "US launches slip or face many generics; Brazil tenders fall back; semaglutide stays a price war in India; Adcock's rand profits disappoint; a new USFDA problem at Kothur or Vizag; margins stuck near 22%.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -3,
+   "fadeMarginTo": 23
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 11.5,
+      "bull": 23,
+      "bear": 8.5
+     },
+     "why": "How the street values Natco: P/E on one-year-forward EPS (ICICI Securities, 31-May-2026: 18x FY28E core EPS plus an NPV of Rs100 a share for exclusive products; the other brokers we could read do not disclose a method). Our multiple: Natco's own one-year-forward P/E median since Apr-2021 on reported EPS (house forwardMedian; trough years FY27 and FY28 excluded by the rule) x the pharma sector factor for names outside the nine-peer set (+8.2%, PLAYBOOK §7c), nearest half-turn; bull = 75th percentile x factor, bear = 25th percentile x factor. Written by tools/authoring/NATCOPHARM.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 10,
+      "bull": 17.5,
+      "bear": 6.5
+     },
+     "why": "Own one-year-forward EV/EBITDA median since Apr-2021 (trough rule applied to forward EBITDA) x the nine peers' EV/EBITDA factor (+7.5%), nearest half-turn; plus the engine's treasury at Sep-28E (net cash and the Adcock stake at book). NATCOPHARM.ctx.js."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "15-year FCFF at the 11.9% cost of equity, terminal growth 5.0%, plus the engine's treasury at Mar-27 (net cash and the Adcock stake at book)."
+    }
+   ]
+  }
+ }
+}

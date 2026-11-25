@@ -1,0 +1,299 @@
+{
+ "_meta": {
+  "asOf": "2026-09-30",
+  "note": "Industry, peers, street (notes standing on 30-Sep-2026), ownership (Jun-2026), moat, critiques, gaps and conflicts for the Granules India initiation."
+ },
+ "industry": {
+  "usGenerics": "The US buys ~72-75% of Granules' output. US generics are a volume business where prices fall every year once several makers are approved; shortages reward reliable suppliers. Wholesalers are consolidating purchases with fewer, dependable vendors (GPI President, 29-Sep-2026).",
+  "controlled": "Schedule II drugs (ADHD stimulants, opioids) are regulated by the DEA as well as the FDA: each maker gets a yearly quota and both API and dosage must be made in the US. Quota cuts caused ADHD shortages after 2023. US ADHD market ~USD10.7 bn and controlled-substance market ~USD55 bn in CY25 (Elara, citing company and Grand View Research).",
+  "api": "Commodity APIs (paracetamol, metformin, ibuprofen) are dominated by Chinese and Indian makers; prices spiked after COVID and then fell. Granules' API revenue fell 54% from FY23 to FY25 (Rs1,341 cr to Rs619 cr). Chinese competitors cut DCDA prices sharply in 2025-26 (CMD).",
+  "peptides": "Demand for peptide manufacturing capacity is rising with GLP-1 (diabetes and obesity) drugs; liquid-phase synthesis is gaining as peptides scale from kilograms to tonnes. India's peptide CDMOs are small; Senn had ~USD20 mn of revenue in FY26.",
+  "src": "q1ppt; webinar; Elara initiation (5-Mar-2026); ar26"
+ },
+ "peers": {
+  "set": [
+   "SUNPHARMA",
+   "DIVISLAB",
+   "TORNTPHARM",
+   "ZYDUSLIFE",
+   "CIPLA",
+   "AUROPHARMA",
+   "ALKEM",
+   "IPCALAB",
+   "ABBOTINDIA"
+  ],
+  "excluded": {
+   "LUPIN": "Loss years inside the window (PLAYBOOK §7c).",
+   "GLENMARK": "Loss years inside the window (PLAYBOOK §7c).",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (PLAYBOOK §7c).",
+   "MANKIND": "Listed May-2023: no five-year median (PLAYBOOK §7c)."
+  },
+  "context": [
+   "AUROPHARMA",
+   "LAURUSLABS",
+   "IPCALAB",
+   "NATCOPHARM",
+   "ZYDUSLIFE",
+   "CIPLA",
+   "ALKEM",
+   "NEULANDLAB",
+   "AJANTPHARM",
+   "DRREDDY"
+  ],
+  "note": "Granules is outside the nine-name set, so the factor is the median of all nine: +8.2% P/E, +7.5% EV/EBITDA (PLAYBOOK §7c; reproduced by tools/authoring/sector-factor.js). Context peers are API/US-generics names for the peer table only."
+ },
+ "street": {
+  "note": "Latest note found for each broker, standing on 30-Sep-2026. ICICI Securities (24-Jul-2026), Emkay (22-Jul-2026) and Elara (5-Mar-2026): original PDFs; Motilal Oswal (21-Jul-2026): DSIJ and InvestmentGuru summaries; Choice (22-Jul-2026): InvestmentGuru summary; DRChoksey (23-Jul-2026) and Geojit (15-May-2026): Trendlyne research list only (PDFs need a login). Of the six brokers that disclose a method, five use P/E (MOSL, ICICI Securities, Choice, Elara, and DRChoksey in its last disclosed note) and one a sum of the parts (Emkay).",
+  "brokers": [
+   {
+    "broker": "Motilal Oswal (MOSL)",
+    "date": "2026-07-21",
+    "rating": "Buy",
+    "tp": 1010,
+    "method": "P/E",
+    "multiple": "23x",
+    "on": "12M fwd",
+    "pat": null,
+    "thesis": "In-line 1QFY27; complex generics 50% of FD; FDF/API drive growth, CDMO in ramp-up; FY26-28E revenue CAGR ~17%, EBITDA margin +205 bp, PAT CAGR ~30% (FDF Rs5,530 cr in FY28E); Gagillapur re-inspection the key risk",
+    "src": "https://insights.dsij.in/markets/reports/report-details/granules-india-ltd/44602"
+   },
+   {
+    "broker": "ICICI Securities",
+    "date": "2026-07-24",
+    "rating": "Buy",
+    "tp": 1045,
+    "method": "P/E",
+    "multiple": "28x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 30.3,
+     "FY28E": 37.3
+    },
+    "sales": {
+     "FY27E": 6174.5,
+     "FY28E": 7028.4
+    },
+    "ebitda": {
+     "FY27E": 1459.1,
+     "FY28E": 1710
+    },
+    "pat": {
+     "FY27E": 827.7,
+     "FY28E": 1017.8
+    },
+    "thesis": "Tilt to complex generics (CNS, ADHD, oncology); Genome Valley capacity; Senn to USD50 mn with ~30% EBITDA margin; revenue/EBITDA CAGR 14.7%/21.3% FY26-28E, margin 24.3% by FY28E; EPS on 27.3 cr diluted shares",
+    "src": "https://mailcontent.icicidirect.com/mailcontent/idirect_granules_q1fy27.pdf"
+   },
+   {
+    "broker": "Choice Institutional Equities",
+    "date": "2026-07-22",
+    "rating": "Buy",
+    "tp": 1110,
+    "method": "P/E",
+    "multiple": "25x",
+    "on": "FY28E",
+    "pat": null,
+    "thesis": "Upgraded to Buy; FY27E/FY28E EPS raised 6.6%/16.1%; revenue CAGR ~21% and earnings CAGR 20-22% over three years, EBITDA margin 22-24%; PEG 0.8x; FDA remediation outlook improving",
+    "src": "https://investmentguruindia.com/newsdetail/buy-granules-india-ltd-for-target-rs-1-110-by-choice-institutional-equities-ltd950478"
+   },
+   {
+    "broker": "Emkay Global",
+    "date": "2026-07-22",
+    "rating": "Buy",
+    "tp": 950,
+    "method": "SOTP",
+    "multiple": null,
+    "on": "Jun-27",
+    "eps": {
+     "FY27E": 29.9,
+     "FY28E": 35.3,
+     "FY29E": 45.1
+    },
+    "sales": {
+     "FY27E": 6049.7,
+     "FY28E": 6802.6,
+     "FY29E": 7941
+    },
+    "ebitda": {
+     "FY27E": 1382.7,
+     "FY28E": 1646.6,
+     "FY29E": 2053.2
+    },
+    "pat": {
+     "FY27E": 740.7,
+     "FY28E": 925.5,
+     "FY29E": 1229.5
+    },
+    "thesis": "1QFY27 EBITDA/PAT 7%/11% above estimates on gross margin; GLS 50%+ utilisation by end-FY27; Senn profitable in FY27; Gagillapur clearance in FY27 an upside; PAT CAGR ~27% FY26-29E. SOTP-based (initiation 31-Mar-2026: Mar-27 TP Rs800, implied ~12x EV/EBITDA); EPS on 24.8 cr shares in FY27E (warrants assumed converted in FY28E)",
+    "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/1f7f59e3_GRAN%20Q1FY27%20Result%20Update_Others.pdf"
+   },
+   {
+    "broker": "DRChoksey (Deven Choksey)",
+    "date": "2026-07-23",
+    "rating": "Accumulate",
+    "tp": 959,
+    "method": null,
+    "multiple": null,
+    "on": null,
+    "pat": null,
+    "thesis": "Complex generics driving structural margin expansion; FY27 catalysts incl. Gagillapur resolution and Genome Valley ramp. Method not seen (its Nov-2025 note used 18x Sep-27E EPS)",
+    "src": "https://trendlyne.com/posts/5743905/complex-generics-driving-structural-margin-expansion"
+   },
+   {
+    "broker": "Geojit BNP Paribas",
+    "date": "2026-05-15",
+    "rating": "Accumulate",
+    "tp": 856,
+    "method": null,
+    "multiple": null,
+    "on": null,
+    "pat": null,
+    "thesis": "Post-Q4FY26 note; target reached by Jul-2026 and not updated by 30-Sep",
+    "src": "https://trendlyne.com/posts/5646728/granules-india"
+   },
+   {
+    "broker": "Elara Securities",
+    "date": "2026-03-05",
+    "rating": "Buy",
+    "tp": 775,
+    "method": "P/E",
+    "multiple": "24x",
+    "on": "FY28E",
+    "pat": null,
+    "thesis": "Initiation: ~15% revenue CAGR and ~17-18% EBITDA CAGR FY26-28E; 24x FY28E core EPS plus cash per share; Gagillapur remediation likely near-term. Target passed in Jun-2026; not updated by 30-Sep",
+    "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-03/17726959610.18297500.pdf"
+   }
+  ]
+ },
+ "ownership": {
+  "date": "Jun-2026",
+  "promoters": 38.01,
+  "fiis": 17.5,
+  "diis": 16.11,
+  "public": 28.36,
+  "shareholders": 169422,
+  "pledged": 0,
+  "named": [
+   {
+    "holder": "Dr Krishna Prasad Chigurupati (founder, CMD)",
+    "pct": 30.99,
+    "asOf": "Mar-2026 (7,67,99,111 shares); sold ~1.72 cr shares on 11-Sep-2026"
+   },
+   {
+    "holder": "Life Insurance Corporation of India",
+    "pct": 5.22,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "Uma Devi Chigurupati (ED)",
+    "pct": 3.73,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "Tyche Investments Pvt Ltd (promoter group)",
+    "pct": 1.43,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "Pragnya Chigurupati / Priyanka Chigurupati (promoter group)",
+    "pct": 1.47,
+    "asOf": "Mar-2026 (0.74% + 0.73%)"
+   }
+  ],
+  "trend": "Promoters 41.97% (Dec-2023) to 38.87% after the May-2024 sale, 38.02% after the Feb-2026 issue (they did not take the 51 lakh shares), ~37.4% after the Sep-2026 sale and conversion (our arithmetic). FIIs fell from 20.4% (Jun-2024) to 13.2% (Jun-2025) and recovered to 17.5% (Jun-2026); DIIs peaked at 23.5% (Jun-2025) and fell to 16.1%.",
+  "pledgeNote": "No pledge in the shareholding data to Dec-2025 (Elara); 41 lakh shares were pledged in Mar-2024 and released after the May-2024 sale",
+  "src": "Screener shareholding (BSE); ar26 note 8.3-8.4; Elara initiation; promoterSale"
+ },
+ "stock": {
+  "events": [
+   [
+    "Sep-Dec 2024",
+    "Gagillapur 483, voluntary pause, OAI tag: stock fell ~10% on the OAI news (Dec-2024)"
+   ],
+   [
+    "Feb-2025",
+    "Warning letter; stock fell ~8%"
+   ],
+   [
+    "Dec-2025",
+    "52-week high on the Gagillapur remediation and growth recovery (Business Standard, 24-Dec-2025)"
+   ],
+   [
+    "Feb-2026",
+    "Preferential issue at Rs585 (stock ~Rs590)"
+   ],
+   [
+    "Jul-2026",
+    "Q1FY27: stock ~Rs875; 52-week range Rs433-910 (Emkay, 22-Jul-2026)"
+   ],
+   [
+    "Sep-2026",
+    "CMD's ~Rs1,500 cr share sale at ~Rs870 (11-Sep); 30-Sep close Rs846.55"
+   ]
+  ],
+  "src": "Business Standard; Emkay 22-Jul-2026; promoterSale; data/market/closes/2026-09-30.json"
+ },
+ "moat": [
+  {
+   "item": "Scale and integration in a few big molecules",
+   "score": "Medium",
+   "evidence": "Makes API, PFI and tablets for paracetamol, metformin, guaifenesin; one of two integrated US paracetamol suppliers; Bonthapally 34,560 TPA API",
+   "verdict": "A real cost edge, but in commodities: Granules could not pass on raw-material inflation in Q1FY27"
+  },
+  {
+   "item": "US controlled substances (DEA quota, US manufacturing)",
+   "score": "Medium-High",
+   "evidence": "3rd largest US controlled-substance maker by value; top-3 in 6 of 7 ADHD products; quota rising every year; N-1 model (intermediate in India, finish in US)",
+   "verdict": "The best part of the business and a genuine barrier, but concentrated in one US plant and a handful of products"
+  },
+  {
+   "item": "Complex generics and first-to-file pipeline",
+   "score": "Low-Medium",
+   "evidence": "Complex 50% of FD; 2 sole FTFs (>USD350 mn market) in litigation; 4-5 more FTFs for FY30-34",
+   "verdict": "Promising but unproven: timing depends on courts and the FDA"
+  },
+  {
+   "item": "Regulatory record",
+   "score": "Low",
+   "evidence": "Main FD/PFI site under a warning letter since Feb-2025; cyber incident in FY24; 7 of 8 sites clean",
+   "verdict": "A weakness until Gagillapur is cleared"
+  },
+  {
+   "item": "Peptide CDMO (Senn)",
+   "score": "Low",
+   "evidence": "~USD20 mn revenue, EBITDA loss Rs44.5 cr in FY26; Swiss heritage and customer access",
+   "verdict": "No moat yet: sub-scale and loss-making against much larger peptide CDMOs"
+  }
+ ],
+ "moatVerdict": "Narrow moat at best, and only in US controlled substances. The rest is a well-run, cost-focused generics business without pricing power.",
+ "critiques": [
+  "Gagillapur has been under OAI/warning letter for two years; 9 approvals (~USD11 bn market) are blocked and the re-inspection date is the FDA's call. A second failure would push launches out by another 12-18 months.",
+  "More than half of revenue is still legacy molecules (56% legacy generics in FY26) sold on price; costs rose in 2026 and Granules held back supply rather than pass them on.",
+  "The US is ~72-75% of revenue; US generic prices fall every year once competition arrives.",
+  "Working capital is heavy (29-33% of sales; inventory Rs1,673 cr); FY26 operating cash flow was 67% of EBITDA.",
+  "Governance: CMD pay Rs28.4 cr (4.8% of profit), four family executive directors, cheap promoter warrants.",
+  "The peptide CDMO is small and loss-making; the USD50 mn target is three years away and depends on customers' clinical programmes.",
+  "The stock re-rated from ~15-18x one-year-forward EPS (dates in FY22-FY24) to ~23x Sep-28E and ~25x FY28E on the 'Granules 2.0' story; it was ~19x during FY26 before the Q4/Q1 beats."
+ ],
+ "gaps": [
+  "Volumes and prices by molecule are not disclosed; legacy-5 price trends are qualitative (management comments).",
+  "Genome Valley capex is not disclosed separately (inside FY22-FY26 capex of Rs2,311 cr).",
+  "Jun-2026 shareholding pledge column not seen directly; nil per data to Dec-2025.",
+  "No consensus EPS source on file for 30-Sep-2026; street compared broker by broker.",
+  "DRChoksey (Jul-2026) and Geojit (May-2026) methods and estimates: PDFs need a login.",
+  "ICRA (Jan-2026) and India Ratings (Jan-2026) rationales: ICRA's PDF needs a login and India Ratings' page did not load for our tool; not used.",
+  "Choice and MOSL absolute estimates not seen (summaries only).",
+  "The IIFL webinar transcript (event 29-Sep-2026) was filed after the as-of date; only what was said on the day is used.",
+  "Q2FY27 results (in the Screener fetch) excluded by the as-of rule."
+ ],
+ "conflicts": [
+  "Molecule concentration: AR FY26 value-creation page says Legacy Gx 56% / Non-legacy 44%; the AR's BRSR life-cycle table attributes ~65% of turnover to products built on paracetamol, metformin and guaifenesin APIs. We quote both.",
+  "FY26 other income: Screener Rs7 cr (nets exceptional items of Rs-13.1 cr) vs AR other income Rs20.3 cr and exceptional items Rs-10.0 cr. We use the AR.",
+  "FY26 EPS: Screener Rs24.01 (profit / year-end shares) vs AR basic Rs24.47 (weighted shares).",
+  "Q1FY26 regions restated: NA Rs930 cr / Europe Rs167 cr in the Q1FY26 deck vs Rs936 cr / Rs161 cr in later decks; we use the restated figures.",
+  "Q3FY26 complex share of FD: 48% (Q4FY26 deck chart, as we read it) vs 49% (Elara); we use 49%.",
+  "Q1FY27 peptide EBITDA: loss Rs12.4 cr (company deck) vs Rs2.4 cr in one summary of the MOSL note; we use the deck."
+ ]
+}
