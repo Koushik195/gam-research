@@ -1,0 +1,46 @@
+// Neuland Laboratories report, part 5b: valuation (first half: method, multiple derivation, exceptional item, earnings step-up,
+// sector factor). P/E primary (the method of most brokers that disclose one) with the multiple from Neuland's own forward P/E since
+// 1-Apr-2021 x the pharma five-year factor (+8.2%; Neuland outside the nine-name set). The second half is part5d.
+const X = require('./NEULANDLAB.ctx2');
+const { D, n0, n1, pc1, ASOF_TXT, price, MULT, epsU, epsSep28, HB, HREP, HSCR, HBRK, HBRK2, HFY, FM, troughChk, eps25ex, eps25scr, eps25nuv, sPe, PEER_SET, MW, MWEV, MBRK, sectorCalc, sectorEvCalc, sectorBrk, sectorBrk2, SECTOR, SECTOR_EV, k, shortName, P, ownMv, ownEvMv, epsCagr, salesCagr, ebitdaCagr, implPeAtPrice, fwdNow, trailEps, SENS, rating, epsRep } = X;
+const P5d = require('./NEULANDLAB.part5d');
+const sortDesc = (arr, o) => [...arr].sort((a, c) => o[c].mv - o[a].mv);
+const brk = SENS.find(r => /earnings break/.test(r.name)), brk2 = SENS.find(r => /1-Apr-2023/.test(r.name)), repRow = SENS[1];
+
+const blocksA = [
+  { h: 'How the street values Neuland' },
+  { p: 'Of the four broker notes whose method we could see, three rest on **P/E** (Nuvama 48x H1FY28E; Goldman Sachs a sum of the parts on P/E; B&K 38x FY27E, an older note) and one on **EV/EBITDA** (30x Jun-28E, a broker reported in Aug-2026). We therefore value on **P/E on Sep-28E EPS (half FY28E, half FY29E)**, with EV/EBITDA and a DCF as cross-checks. Neuland has no minorities and our forecasts carry no exceptional items, so forecast EPS needs no adjustment.' },
+  { h: `Our target multiple: ${MULT.base}x, and why` },
+  { p: `We use Neuland's one-year-forward P/E **since 1-Apr-2021** (PLAYBOOK §4) on every weekly close plus the ${ASOF_TXT} close (${HB.n} points): price ÷ the next full fiscal year's EPS as it actually turned out. Forward EPS is FY23 for dates in FY22, FY24 for FY23, FY25 for FY24, FY26 for FY25, our FY27E for FY26 and our FY28E for Apr-Sep 2026. **Exceptional item:** FY25 included a ₹76.4 cr gain on transferring the Nanakramguda property (~₹69 cr after tax by our estimate, a quarter of FY25 profit), so the base uses FY25 EPS before it (₹${n1(eps25ex)} vs ₹${epsRep[2025]} reported; batch practice A18). The reported-EPS median is ${n1(HREP.med)}x (sensitivity). **Trough rule:** no year is left out: FY23 EPS (₹${troughChk[2023].eps}) is far above half the prior three-year peak (₹${n1(troughChk[2023].line)}, half of FY21's ₹62.9), and FY25 before the gain (₹${n1(troughChk[2025].eps)}) is above half of FY24's ₹233.9 (₹${n1(troughChk[2025].line)}). We multiply the median by the nine pharma peers' five-year move (+${SECTOR}%; Neuland is outside the set) and round to the nearest half-turn. No blend with Neuland's own move, no growth uplift (sensitivities below).` },
+  { exhibit: { type: 'table', title: 'Deriving the target multiple', head: ['Yardstick', 'Evidence', 'What it implies'], wide: [1, 2], rows: [
+    ['1. Its own history', `Forward P/E since 1-Apr-2021: median **${n1(HB.med)}x** (25th-75th percentile ${n1(HB.p25)}-${n1(HB.p75)}x; range ${n1(HB.min)}-${n1(HB.max)}x). By forward year: FY23 EPS ${n1(HFY[2023].med)}x, FY24 ${n1(HFY[2024].med)}x, FY25 ${n1(HFY[2025].med)}x, FY26 ${n1(HFY[2026].med)}x, FY27E ${n1(HFY[2027].med)}x, FY28E ${n1(HFY[2028].med)}x. Reported EPS: ${n1(HREP.med)}x; house forwardMedian (every 5th week, reported EPS) ${n1(FM.median)}x`, `Starting point: ${n1(HB.med)}x`],
+    ['2. Sector move', `Nine pharma peers' trailing P/E at the ${ASOF_TXT} close vs each one's five-year median (table below): median **+${SECTOR}%** (reproduced ${pc1(sectorCalc)})`, `${n1(HB.med)}x × ${k.toFixed(3)} = ${n1(HB.med * k)}x → **${MULT.base}x**`],
+    ['3. Growth', `EPS ~${Math.round(epsCagr)}% a year FY26-29E (revenue ~${Math.round(salesCagr)}%, EBITDA ~${Math.round(ebitdaCagr)}%); management aspires to 18-20% revenue growth`, 'No premium or discount (sensitivity below)'],
+    ['4. Peers', `Trailing P/E on ${ASOF_TXT}: Divi's ${n1(P.DIVISLAB.pe)}x, Laurus ${n1(P.LAURUSLABS.pe)}x, Sai Life ${n1(P.SAILIFE.pe)}x, Anthem ${n1(P.ANTHEM.pe)}x, Acutaas ${n1(P.ACUTAAS.pe)}x, Syngene ${n1(P.SYNGENE.pe)}x; Neuland ${n1(P.NEULANDLAB.pe)}x`, `${MULT.base}x Sep-28E ≈ ${n1(MULT.base * epsSep28 / trailEps)}x trailing EPS: well below CDMO peers`],
+    ['5. Returns', 'ROE 21% in FY26, {{F.roe.0|pct}} / {{F.roe.2|pct}} in FY27E / FY29E vs a 12.5% cost of equity', 'No premium: good returns, falling as capex rises'],
+    ['6. Street basis', `Nuvama 48x H1FY28E; the Aug-2026 EV/EBITDA user 30x Jun-28E; the price is ${n1(implPeAtPrice)}x our Sep-28E`, 'We sit far below the street'],
+  ], source: `Screener.in weekly prices to ${ASOF_TXT}; GAM estimates; peers' Screener files (asof-peers.js)` } },
+  { h: 'The earnings step-up: does it change the window?' },
+  { p: `Neuland's EPS stepped up sharply from FY23 (₹49.7 in FY22, ₹127.5 in FY23, ₹233.9 in FY24), but not from a loss or near-zero EPS, so the batch turnaround rule (PLAYBOOK §7c) does not apply and we follow §4 as written: the window runs from Apr-2021. That choice matters a lot here. Because the forward P/E uses EPS as it actually came in, the market's failure to foresee the jumps shows up as very low multiples: in FY23 the stock traded at ${n1(HFY[2024].min)}-${n1(HFY[2024].max)}x the FY24 EPS that followed, and in FY22 at ${n1(HFY[2023].min)}-${n1(HFY[2023].max)}x FY23's. Starting the window at the break (1-Apr-2022, FY23 being the first stepped-up year) and pairing it with the peers' move over the same window (${pc1(sectorBrk)}) gives **${brk.mult}x (₹${n0(brk.tp)}, ${Math.round(brk.up)}% vs the price)**; starting in Apr-2023, once EPS had reached the FY24 level, gives ${brk2.mult}x (₹${n0(brk2.tp)}, ${Math.round(brk2.up)}%). **Neither changes the rating: all three windows give a ${rating}.** As in the Acutaas report, we keep the house window in the base and show the break windows as sensitivities.` },
+  { exhibit: { type: 'table', title: 'The window question and the exceptional item: what each choice gives', head: ['Choice', 'Own median', 'Factor', 'Multiple', 'Value (₹)', 'vs CMP', 'Rating'], rows: [
+    { hl: true, cells: ['**Base: since 1-Apr-2021, FY25 EPS before the gain**', `${n1(HB.med)}x`, `+${SECTOR}% (five-year)`, `**${MULT.base}x**`, '**{{dcf.tp|num}}**', '{{dcf.upside|chg}}', `**${rating}**`] },
+    ['Reported FY25 EPS (incl. the gain)', `${n1(HREP.med)}x`, `+${SECTOR}%`, `${repRow.mult}x`, n0(repRow.tp), `${Math.round(repRow.up)}%`, X.ratingFor(repRow.up)],
+    [`Screener's split of the gain (FY25 EPS ₹${n1(eps25scr)}); Nuvama's ₹${n1(eps25nuv)} lies between`, `${n1(HSCR.med)}x`, `+${SECTOR}%`, `${SENS[2].mult}x`, n0(SENS[2].tp), `${Math.round(SENS[2].up)}%`, X.ratingFor(SENS[2].up)],
+    ['From the break, 1-Apr-2022', `${n1(HBRK.med)}x`, `${pc1(sectorBrk)} (same window)`, `${brk.mult}x`, n0(brk.tp), `${Math.round(brk.up)}%`, X.ratingFor(brk.up)],
+    ['From 1-Apr-2023', `${n1(HBRK2.med)}x`, `${pc1(sectorBrk2)} (same window)`, `${brk2.mult}x`, n0(brk2.tp), `${Math.round(brk2.up)}%`, X.ratingFor(brk2.up)],
+  ], source: 'GAM Research; tools/authoring/sector-factor.js --from 2022-04-01 / 2023-04-01 for the same-window moves' } },
+  { exhibit: { type: 'table', title: `Pharma sector factor: trailing multiples at the ${ASOF_TXT} close vs five-year medians`, head: ['Company', 'P/E (x)', 'Five-year median (x)', 'P/E vs median', 'EV/EBITDA vs median', 'P/E vs median since Apr-22'], rows: [
+    ...sortDesc(PEER_SET, MW).map(s => [shortName(s), n1(MW[s].cur), n1(MW[s].med), pc1(MW[s].mv), pc1(MWEV[s].mv), pc1(MBRK[s].mv)]),
+    { hl: true, cells: [`**Median of the nine (brief: +${SECTOR}% / +${SECTOR_EV}%)**`, '', '', `**${pc1(sectorCalc)}**`, `**${pc1(sectorEvCalc)}**`, pc1(sectorBrk)] },
+    ['Neuland (not in the set: own stock)', n1(MW.NEULANDLAB.cur), n1(MW.NEULANDLAB.med), pc1(ownMv), pc1(ownEvMv), '–'],
+    ...Object.entries(D.peers.excluded).map(([s, why]) => [shortName(s), '', '', '', '', `Excluded: ${why}`]),
+  ], source: `Screener.in "Price to Earning" and "EV Multiple" series to ${ASOF_TXT}, scaled to the NSE close (asof-peers.js); tools/authoring/sector-factor.js gives +8.20% (P/E) and +7.50% (EV/EBITDA; per-peer moves rounded, ${sectorEvCalc.toFixed(2)}% unrounded)` } },
+  { exhibit: { type: 'line', title: `Forward P/E since Apr-2021: median ${n1(HB.med)}x, our ${MULT.base}x, today ~${Math.round(fwdNow)}x FY28E`, unit: 'Price ÷ next full-year EPS (x)', x: sPe.map(x => x[0]), series: [{ name: 'Forward P/E', values: sPe.map(x => x[1]), fmt: 'x', thin: true }], labels: 'last', yearTicks: true, yearStep: 1, min: 0, max: 70, lines: [{ v: HB.med, text: `Median: ${n1(HB.med)}x` }, { v: MULT.base, text: `Our target: ${MULT.base}x`, color: '#cf8f1f' }, { v: brk.mult, text: `From the break: ${brk.mult}x`, color: '#7a7a7a' }], source: 'Screener.in weekly prices; FY25 EPS before the property gain; GAM estimates FY27-28E' } },
+];
+
+const valuation = {
+  id: 'valuation', nav: 'Valuation', kicker: 'Valuation', title: `Valuation: ${MULT.base}x Sep-28E EPS gives {{dcf.tp|inr}}; the price pays ~${Math.round(implPeAtPrice)}x and needs ~${Math.round(X.gNeeded)}% growth for 15 years`,
+  blocks: [...blocksA, ...P5d.blocks],
+};
+
+module.exports = { valuation };

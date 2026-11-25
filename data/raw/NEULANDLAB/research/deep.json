@@ -1,0 +1,299 @@
+{
+ "_meta": {
+  "asOf": "2026-09-30",
+  "note": "Industry, peers, street, ownership, moat, critiques, gaps. Every broker note used is dated on or before 30-Sep-2026; later notes and facts are in updates/later-facts.json."
+ },
+ "industry": {
+  "pharmaGlobal": {
+   "usdBn2025": 1999.2
+  },
+  "apiGlobal": {
+   "usdBn2025": 326.5,
+   "usdBn2035": 519.8,
+   "cagrPct": 4.8
+  },
+  "cdmoGlobal": {
+   "usdBn2025": 258.9,
+   "usdBn2026": 275.27,
+   "usdBn2031": 374.7
+  },
+  "cdmoIndia": {
+   "usdBn2025": 25.8,
+   "usdBn2026": 29.5,
+   "usdBn2031": 57.9
+  },
+  "apiIndia": {
+   "usdBn2025": 14.2,
+   "usdBn2026": 15.3
+  },
+  "pharmaIndia": {
+   "usdBn": 60,
+   "usdBn2030": 130,
+   "exportsUsdBnFY25": 30.5
+  },
+  "peptideApi": {
+   "usdBn2025": 6,
+   "usdBn2026": 7,
+   "usdBn2030": 14,
+   "cagrPct": 18.5,
+   "cdmoUsdBn": "5-6 (consultants, per the CEO)"
+  },
+  "biotechShare": "Biotech companies' share of small-molecule approvals rose from 60% (2016) to 76% (2025); Big Pharma's fell from 40% to 24%",
+  "patentCliff": "An estimated USD200-300 bn of branded sales lose exclusivity in the coming years",
+  "policy": "US Section 232 investigation (Apr-2025) and the threatened 100% tariff on branded drug imports (Oct-2025) pushed innovators to dual-source and near-shore; APIs from India are a preferred alternative to China (company view)",
+  "src": "AR FY26 Management Discussion & Analysis (PDF pp.76-80) and strategy pages (pp.34-35), citing industry sources; Q4FY26 call (peptide CDMO market)"
+ },
+ "peers": {
+  "set": [
+   "SUNPHARMA",
+   "DIVISLAB",
+   "TORNTPHARM",
+   "ZYDUSLIFE",
+   "CIPLA",
+   "AUROPHARMA",
+   "ALKEM",
+   "IPCALAB",
+   "ABBOTINDIA"
+  ],
+  "excluded": {
+   "LUPIN": "Loss years inside the window (PLAYBOOK §7c).",
+   "GLENMARK": "Loss years inside the window (PLAYBOOK §7c).",
+   "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).",
+   "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (PLAYBOOK §7c).",
+   "MANKIND": "Listed May-2023: no five-year median (PLAYBOOK §7c)."
+  },
+  "context": [
+   "DIVISLAB",
+   "LAURUSLABS",
+   "SYNGENE",
+   "SAILIFE",
+   "ANTHEM",
+   "ACUTAAS",
+   "COHANCE",
+   "GRANULES",
+   "GLAND"
+  ],
+  "notes": "Neuland is outside the nine-name pharma set, so it uses the median of all nine (PLAYBOOK §7c): +8.2% P/E / +7.5% EV/EBITDA over five years (tools/authoring/sector-factor.js reproduces both). API/CDMO names (Divi's, Laurus, Syngene, Sai Life, Anthem, Acutaas, Cohance, Granules, Gland) are context only."
+ },
+ "street": {
+  "note": "Latest note found for each broker, standing on 30-Sep-2026. Goldman Sachs: news summaries of its 13-May-2026 note (askfuzz.ai, 13-May-2026; scanx, 16-May-2026); Nuvama: original PDF of its 9-Dec-2025 company update (the latest Nuvama note we could find; a post-Q4FY26 or post-Q1FY27 update may exist); the 30x Jun-28E EV/EBITDA note: Business Standard report of 6-Aug-2026 (broker not named in the summary; the site refuses automated access, so we could not read it); B&K Securities: original PDF (14-Oct-2024, older, shown for its method only). Consensus: S&P Global via StockAnalysis, snapshot dated 31-Jul-2026 (4 analysts, mean Rs21,222, range Rs20,550-22,913).",
+  "brokers": [
+   {
+    "broker": "Goldman Sachs",
+    "date": "2026-05-13",
+    "rating": "Buy",
+    "tp": 19550,
+    "prevTp": 17275,
+    "method": "P/E",
+    "multiple": "SoTP",
+    "on": "(house framework)",
+    "methodNote": "Goldman values its India CRO/CDMO coverage on a sum of the parts based on P/E (sector note, 11-Apr-2024); the May-2026 summaries do not restate the multiple",
+    "eps": null,
+    "thesis": "Q4FY26 beat; 20%+ revenue CAGR and 25%+ EBITDA CAGR over FY26-28E; FY27-29E EPS raised by up to 8%"
+   },
+   {
+    "broker": "Nuvama Institutional Equities",
+    "date": "2025-12-09",
+    "rating": "Buy",
+    "tp": 22130,
+    "prevTp": 17700,
+    "method": "P/E",
+    "multiple": "48x",
+    "on": "H1FY28E",
+    "eps": {
+     "FY26E": 277.2,
+     "FY27E": 438.5,
+     "FY28E": 476.9
+    },
+    "sales": {
+     "FY26E": 1973,
+     "FY27E": 2598,
+     "FY28E": 2818
+    },
+    "ebitda": {
+     "FY26E": 557,
+     "FY27E": 831,
+     "FY28E": 902
+    },
+    "thesis": "CMS-led growth (one more molecule to commercialise), peptides; revenue/PAT CAGR 24%/49% FY25-28E; EBITDA margin 25-30%; initiated Sep-2025 at 44x Sep-27E EPS (Rs17,700)"
+   },
+   {
+    "broker": "Unnamed broker (Business Standard, 6-Aug-2026)",
+    "date": "2026-08-06",
+    "rating": "Buy",
+    "tp": 25819,
+    "method": "EV/EBITDA",
+    "multiple": "30x",
+    "on": "Jun-28E",
+    "eps": null,
+    "thesis": "Retained Buy after Q1FY27; 'sharp ramp-up in the commercial CMS business'"
+   },
+   {
+    "broker": "B&K Securities (older)",
+    "date": "2024-10-14",
+    "rating": "Buy",
+    "tp": 20000,
+    "method": "P/E",
+    "multiple": "38x",
+    "on": "FY27E",
+    "eps": {
+     "FY27E": 527
+    },
+    "thesis": "Cobenfy (xanomeline) approval; CMS molecules xanomeline, bempedoic acid and deutetrabenazine; not known to stand at 30-Sep-2026"
+   }
+  ],
+  "consensus": {
+   "date": "2026-07-31",
+   "analysts": 4,
+   "rating": "Strong Buy",
+   "meanTp": 21222,
+   "lowTp": 20550,
+   "highTp": 22913,
+   "src": "S&P Global via stockanalysis.com (snapshot quoted in search results)"
+  },
+  "methodCount": "Of the notes that disclose a method: P/E - Nuvama (48x H1FY28E), Goldman (SoTP on P/E, house framework), B&K (38x FY27E, older); EV/EBITDA - one unnamed broker (30x Jun-28E). Majority: P/E."
+ },
+ "ownership": {
+  "date": "Jun-2026",
+  "promoters": 32.62,
+  "fiis": 21.08,
+  "diis": 16.52,
+  "public": 29.79,
+  "shareholders": 44340,
+  "pledged": 0,
+  "named": [
+   {
+    "holder": "Davuluri Ownership Trust (promoter family trust)",
+    "pct": 25.98,
+    "asOf": "Mar-2026 (33,33,352 shares; created in FY25 from Dr. D. R. Rao's and Mrs. Vijaya Rao's holdings)"
+   },
+   {
+    "holder": "D. Sucheth Rao (Executive Vice Chairman)",
+    "pct": 2.01,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "Dr. D. R. Rao (Executive Chairman)",
+    "pct": 1.63,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "D. Saharsh Rao (CEO & MD)",
+    "pct": 1.52,
+    "asOf": "Mar-2026 (sold 12,500 shares in FY26)"
+   },
+   {
+    "holder": "Other promoter-group members (11)",
+    "pct": 1.49,
+    "asOf": "Mar-2026"
+   },
+   {
+    "holder": "Malabar India Fund",
+    "pct": 5.65,
+    "asOf": "Mar-2026 (5.76% a year earlier)"
+   },
+   {
+    "holder": "Mukul Mahavir Agrawal (individual investor)",
+    "pct": 3.1,
+    "asOf": "Jun-2026 (4,00,000 shares; Business Standard, 6-Aug-2026)"
+   }
+  ],
+  "history": "Promoters 32.80% (Dec-23) to 32.62% (Jun-26), almost unchanged; FIIs 22.7% to 21.1% (peak 26.5% in Sep-24); DIIs 6.0% to 16.5%; public 38.1% to 29.8%; shareholders 27,723 to 44,340",
+  "src": "AR FY26 note 12 (PDF p.186); Screener/BSE shareholding (Jun-2026); Business Standard 6-Aug-2026 (via search summary; the site blocks automated access)"
+ },
+ "stock": {
+  "high52": 23535,
+  "low52": 11995,
+  "rangeNote": "Weekly closes, 52 weeks to 30-Sep-2026: high 11-Sep-2026, low 20-Mar-2026",
+  "events": [
+   [
+    "Apr-2021",
+    "Rs2,185: forward P/E on the FY23 EPS that later came in, ~17x"
+   ],
+   [
+    "May-2022",
+    "Rs1,025: low after the FY22 EPS fall (Rs49.7); forward P/E on FY24's realised Rs234 under 5x"
+   ],
+   [
+    "Mar-2024",
+    "Rs6,322 as CMS commercial molecules lift FY24 EPS to Rs234"
+   ],
+   [
+    "Oct-2024",
+    "Rs14,000+ after the US approval of Cobenfy (xanomeline), a molecule brokers link to Neuland"
+   ],
+   [
+    "Mar-2026",
+    "Pullback to ~Rs12,000 (weekly close Rs11,995 on 20-Mar-2026); Business Standard reported a 75% rise from the March low to a record by 9-Jul-2026"
+   ],
+   [
+    "6-Aug-2026",
+    "Record high Rs21,950 intraday after Q1FY27 (+10%)"
+   ],
+   [
+    "30-Sep-2026",
+    "Rs21,350 close (NSE)"
+   ]
+  ],
+  "src": "Screener weekly prices; NSE close file; Business Standard 9-Jul-2026 and 6-Aug-2026 (search summaries)"
+ },
+ "moat": [
+  {
+   "factor": "Complex process chemistry",
+   "score": "Strong",
+   "evidence": "40 years of API chemistry; 300+ processes, 100+ APIs; deuterated molecules, chiral, cryogenic, peptides; supplies APIs to innovators for 4 approved NDAs and 27 INDs"
+  },
+  {
+   "factor": "Regulatory record",
+   "score": "Strong",
+   "evidence": "Three USFDA-inspected plants; no Official Action Indicated, warning letter or import alert ever (CRISIL); Unit 1 closed with no observations (Mar-2024); 1,010+ filings, 75 active US DMFs"
+  },
+  {
+   "factor": "CMS customer lock-in",
+   "score": "Moderate",
+   "evidence": "Exclusive supply written into innovators' filings; 'no one wants to disrupt supply chain' (CEO); but a handful of molecules and top-5 customers at 93% of CMS revenue"
+  },
+  {
+   "factor": "Prime API cost position",
+   "score": "Weak",
+   "evidence": "Mature, crowded molecules (Mirtazapine, Ezetimibe, Levetiracetam); Prime revenue fell 5% in FY26; management calls Prime low-margin"
+  },
+  {
+   "factor": "Diversification",
+   "score": "Weak",
+   "evidence": "Three customer groups = 54% of FY26 revenue; top-5 products 65% of revenue (72% in Q1FY27)"
+  },
+  {
+   "factor": "Peptides",
+   "score": "Unproven",
+   "evidence": "15+ years of peptide process R&D; 6.37 kL plant commissioning from Sep-2026; first revenue expected in FY28; 8-10 programmes in development"
+  }
+ ],
+ "critiques": [
+  "Concentration: three customer groups were 54% of FY26 revenue (34% in FY25) and the CEO says 'about 3' commercial CMS molecules drive the business; the company does not name them.",
+  "Lumpiness: the quarterly EBITDA margin swung from 11.6% (Q1FY26) to 39.6% (Q4FY26); FY25 revenue fell 5%; management itself says Q4FY26 was 'a Q3 plus Q4' quarter.",
+  "Sponsor risk: the molecules brokers link to Neuland belong to BMS (xanomeline), Esperion/Daiichi Sankyo (bempedoic acid; Esperion received a takeover bid in May-2026) and Teva (deutetrabenazine); destocking, second-sourcing or patent expiry at any of them would hit profit hard.",
+  "The generic base is shrinking: Prime and Specialty APIs fell from Rs717 cr (FY24) to Rs688 cr (FY26); Specialty fell 16% in FY26 on Paliperidone delays.",
+  "Capex and returns: Rs1,460 cr approved in 13 quarters, 'much higher' capex ahead and possibly overseas M&A for new modalities; management expects ROCE to dip.",
+  "Governance: the three promoter directors were paid Rs42 cr in FY26 (8.6% of PBT); an investor alleged an edited call transcript (the company denies any change); no segment margins or molecule names are disclosed.",
+  "Valuation: Rs21,350 is ~55x trailing EPS (Rs388 for the twelve months to Jun-2026); the street pays for continued 20% growth from a peak-margin base."
+ ],
+ "gaps": [
+  "Broker notes: only four notes found (Goldman via news summaries, Nuvama's Dec-2025 PDF, one unnamed EV/EBITDA note via a Business Standard headline, B&K's 2024 PDF) plus an S&P Global consensus snapshot; Business Standard refuses our tool (HTTP 403) and Trendlyne lists no recent notes; JM Financial and ICICI Securities cover the stock but their notes were not found. No consensus EPS standing on 30-Sep-2026 was available.",
+  "Segment margins (Prime, Specialty, CMS) are not disclosed; only management's qualitative ranking (Prime low, Specialty and CMS high).",
+  "Prime and Specialty rupee revenue are derived from disclosed percentage shares x revenue (CRISIL's FY26 growth rates match); Others is a residual.",
+  "CMS molecule and customer names are not disclosed; the molecules come from B&K (Oct-2024) and an analyst's question on the Q4FY26 call.",
+  "Tax on the FY25 exceptional gain is our estimate from the AR tax reconciliation (Rs7.2 cr); a Rs9.95 cr deferred-tax charge on 'capital items' in FY25 may also relate to the property.",
+  "India Ratings' Jul-2026 rationale could not be read (page renders only with JavaScript).",
+  "Utilisation by named unit and the total peptide programme cost (beyond the Rs254 cr reactor expansion) are not disclosed; FY20-21 segment mix not collected.",
+  "USFDA Unit 3 (Aug-2026): closure/EIR status at 30-Sep-2026 not confirmed in a primary filing."
+ ],
+ "conflicts": [
+  "FY25 exceptional gain after tax: Screener Rs86 cr (FY25 EPS ex Rs135.6); Nuvama removes Rs76.4 cr (adjusted EPS Rs143.2); our AR-based estimate Rs69.2 cr (Rs148.8). We use Rs148.8; the reported-EPS and Screener versions are sensitivities.",
+  "EPS: company decks show standalone EPS (FY26 Rs283.0); Screener and the AR consolidated figure is Rs283.71. We use consolidated.",
+  "Exports: the company says ~90-92% of revenue is exported (by end market); the AR segment note puts customers located in India at 24% of FY26 revenue (Indian buyers that export).",
+  "Utilisation (CFO, May-2026): 'those 3 units are close to between 85% to 90% and the last unit is around 65%' - the split by unit is unclear.",
+  "Q1FY27 revenue: Rs641.5 cr (company) vs Rs642 cr (Screener, rounded)."
+ ]
+}

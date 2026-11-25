@@ -1,0 +1,176 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Neuland Laboratories (consolidated, Rs crore; no minorities, so Screener's Net Profit is attributable profit and no patch is needed). Neuland reports one audited segment; its decks split revenue into CMS (CDMO), Prime APIs, Specialty APIs and Others. The engine runs one revenue-growth path and the four-line build sits in businessLines, checked against model revenue in tools/authoring/NEULANDLAB.ctx.js. EBITDA is on Screener's basis (before other income; the company's 'EBITDA' includes other income). Other income and interest are built in NEULANDLAB.ctx.js and entered here (treasuryYield 0). Valued on P/E, the method of most brokers that disclose one.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  20.24,
+  16.19,
+  14.89
+ ],
+ "_revenueWhy": "Sum of the four-line build below (checked in NEULANDLAB.ctx.js). FY27 +20%: management 'aspired to grow at about 20%, and we expect that FY27 & FY28 also' (Q1FY27 call), CRISIL expects >15%; Q1FY27 revenue Rs642 cr (+119%) already covers 26% of our FY27, and Q2-Q4 need only ~Rs1,790 cr vs Rs1,730 cr a year earlier, because Q4FY26 was 'a Q3 plus Q4' quarter. FY28 +16% / FY29 +15%: below the 18-20% aspiration, which management itself calls 'aspirational' and 'not linear'; peptides add revenue only from FY28 (CRISIL). Street (Nuvama, Dec-2025): FY27E Rs2,598 cr, FY28E Rs2,818 cr; Goldman (May-2026): 20%+ revenue CAGR FY26-28E.",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "cms": 1244,
+   "prime": 465.3,
+   "specialty": 222.5,
+   "others": 91.2,
+   "_why": "FY26 revenue Rs2,023.0 cr: CMS Rs1,244 cr (commercial Rs1,146 cr + development Rs98 cr, Q4FY26 deck); Prime 23% and Specialty 11% of revenue (FY26 deck; CRISIL: Prime -5%, Specialty -16%); Others = residual (4.5%; the deck rounds Others to 6%)."
+  },
+  "growth": {
+   "cms": [
+    27,
+    20,
+    18
+   ],
+   "prime": [
+    10,
+    8,
+    7
+   ],
+   "specialty": [
+    8,
+    12,
+    12
+   ],
+   "others": [
+    10,
+    8,
+    8
+   ]
+  },
+  "_why": "CMS +27% in FY27: Q1FY27 CMS Rs438 cr vs Rs133 cr a year earlier; 'about 3' commercial molecules drive it with 'a fairly healthy future over the next 5 to 6 years'; one more commercialisation in FY27 and development revenue rising; we assume Q2-Q4 CMS of ~Rs1,140 cr vs Rs1,111 cr a year earlier (the inflated Q4FY26 makes the comparison hard). +20% in FY28 (one or two commercialisations, first peptide revenue) and +18% in FY29. Prime +10/8/7%: Q1FY27 Prime ~Rs116 cr (+23%), Ezetimibe 'likely to drive growth'; FY26 fell 5%. Specialty +8/12/12%: FY26 fell 16% on Paliperidone shipment delays at a customer; Q1FY27 ~Rs51 cr (+10%); Gland Pharma sterile collaboration and new DMFs (Vonoprazan, Edoxaban) later. Others grow with the business."
+ },
+ "ebitdaMargin": [
+  31,
+  30.5,
+  30.5
+ ],
+ "_marginWhy": "Screener basis (before other income): 15.1% (FY22), 22.9% (FY23), 29.7% (FY24), 22.4% (FY25), 28.7% (FY26), 34.7% in Q1FY27 (Q4FY26 39.6%, Q1FY26 11.6%). Margins follow revenue (operating leverage on ~45% fixed costs: employees 17%, manufacturing and other costs ~17-18% of sales) and the CMS share (61% in FY26, 67% in Q1FY27). FY27 31%: Q2-Q4 at ~29.7% vs 31.6% a year earlier. FY28-29 30.5%: the peptide plant and the new R&D centre add fixed costs before revenue, and FY26 had 'favourable conditions in terms of exchange rates'. Management's own planning margin is '25% plus'; Nuvama (Dec-2025) 32%/32% for FY27-28E.",
+ "capex": [
+  480,
+  450,
+  450
+ ],
+ "_capexWhy": "FY26 Rs397 cr; Q1FY27 Rs122 cr. Rs1,460 cr approved over 13 quarters with Rs870 cr spent leaves ~Rs590 cr committed (peptide Phase II by end-FY27, the ~Rs190 cr R&D centre, the Rs196 cr Unit 1 expansion). FY27 Rs480 cr = Q1 Rs122 cr + ~Rs360 cr of committed projects; FY28-29 Rs450 cr a year: the rest of the committed list plus land and new blocks ('forward capex will be much higher than the capex that we've deployed so far'; CRISIL rates Rs522 cr of proposed term loans).",
+ "depRateOnGrossBlock": 6.8,
+ "_depWhy": "FY26 depreciation Rs91.7 cr (incl. right-of-use assets); Q1FY27 Rs27 cr (Rs108 cr annualised) as the R&D centre lease and Unit 3 block started. The engine depreciates capex from the year it is spent but holds CWIP (Rs211 cr at Mar-26) flat; 6.8% on gross block plus capex gives ~Rs120 / 152 / 183 cr for FY27-29E, in line with the new peptide plant, R&D centre and blocks being commissioned.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Treasury income is built in tools/authoring/NEULANDLAB.ctx.js on AVERAGE gross cash (engine net cash plus our borrowing path) and entered in otherIncome.",
+ "otherIncome": [
+  20.9,
+  25.4,
+  32.5
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (checked in NEULANDLAB.ctx.js; written by NEULANDLAB.mult.js): (1) treasury income at 5% on average gross cash and deposits = engine net cash (Rs56 / 18 / 94 / 262 cr, Mar-26 to Mar-29E, after leases) plus our borrowing path (debt Rs197 / 300 / 350 / 350 cr, leases Rs105 / 100 / 95 / 90 cr); FY26 earned 4.9% (interest on deposits Rs10.1 cr plus mutual-fund gains Rs7.6 cr on average cash, deposits and funds of ~Rs361 cr); (2) write-backs of Rs1.5 cr (FY25 Rs1.6 cr, FY26 Rs2.0 cr). No forex gains are forecast (FY26 Rs10.6 cr, helped by the weak rupee). FY26 other income Rs30.2 cr (company) / Rs24.9 cr (Screener, net of a Rs5.3 cr loss on asset sales); twelve months to Jun-26 Rs30.0 cr (Screener).",
+ "interest": [
+  31.3,
+  36.7,
+  38.2
+ ],
+ "_interestWhy": "Built in NEULANDLAB.ctx.js: 7.5% on average bank debt (Rs197 → 300 → 350 → 350 cr; CRISIL: capex partly debt-funded, Rs130 cr R&D-centre loan tied up, Rs522 cr of proposed term loans rated) + 7.5% on average lease liabilities (Rs105 → 100 → 95 → 90 cr; the R&D-centre lease) + Rs5 cr of other borrowing costs net of capitalisation. FY26 finance cost Rs23.9 cr (borrowings Rs11.7 cr, leases Rs7.0 cr, other Rs6.8 cr, capitalised -Rs1.5 cr); Q1FY27 Rs7 cr.",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "FY26 25.6% (Rs125.0 cr on Rs489.0 cr), Q1FY27 25.4%; statutory 25.17% plus non-deductible items (CSR) and foreign subsidiaries.",
+ "payout": [
+  12,
+  12,
+  12
+ ],
+ "_payoutWhy": "FY26 dividend Rs34 a share = 12.0% payout (FY25 Rs12, 5.9%; FY24 Rs14, 6.0%). We keep 12% while capex is heavy.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 26,
+  "fadeCapexPctTo": 7,
+  "depPctOfSales": 4.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Neuland has net cash, so WACC equals the cost of equity. Beta 1.0 (12.5%): three customer groups are 54% of revenue, a handful of CMS molecules drive profit, and quarters swing from 12% to 40% margins. The company tests goodwill at a 12.5% post-tax discount rate (AR FY26 note 37).",
+  "_tgWhy": "5.5%, mid-range of the house 5-6%; the company's own goodwill test uses 5%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~15% (FY29E) to 7% by FY42E: revenue grew 15% a year in FY16-26 with long flat spells (FY18, FY22, FY25).",
+  "_fadeMarginWhy": "26% by FY42E, below our FY29E 30.5% and near management's '25% plus': today's commercial CMS molecules lose patent protection over the next decade and generic API pricing is tough.",
+  "_fadeCapexWhy": "Capex falls from 14-20% of sales (FY27-29E) to 7%: maintenance (~4.5% of sales, FY26 depreciation) plus growth capex at ~2.5x asset turnover.",
+  "_wcNote": "Operating working capital on Screener's Mar-26 balance sheet is ~37% of FY26 sales (137 days, a peak; 84 days at Jun-26). The engine holds the ratio, so our cash path is conservative if working capital normalises."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The commercial CMS molecules keep growing with their brands, one or two new molecules and the first peptide programmes commercialise on time, and Specialty recovers; growth runs ~5 points a year faster and the margin ~2 points higher.",
+   "revenueGrowthDelta": 5,
+   "marginDelta": 2,
+   "fadeMarginTo": 29
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "A big CMS customer destocks or second-sources (a takeover, a weak launch), as in FY25 when revenue fell 5%; peptides slip a year and GDS pricing stays tough; growth ~8 points a year slower and the margin ~4 points lower, near FY25's 22%.",
+   "revenueGrowthDelta": -8,
+   "marginDelta": -4,
+   "fadeMarginTo": 23
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 28.5,
+      "bull": 45,
+      "bear": 13.5
+     },
+     "why": "How the street values Neuland: of the brokers whose method we could see, Nuvama uses P/E (48x H1FY28E EPS, Dec-2025), Goldman Sachs a sum of the parts on P/E (its CRO/CDMO framework) and B&K P/E (38x FY27E, 2024); one broker reported in Aug-2026 uses 30x Jun-28E EV/EBITDA. 28.5x = Neuland's median one-year-forward P/E since 1-Apr-2021 (every weekly close plus the 30-Sep close, 288 points; forward EPS = the next full fiscal year's realised EPS, FY25 before the Rs76.4 cr gain on the Nanakramguda property (Rs148.8 vs Rs202.7 reported; the median is 24.1x on reported EPS), our FY27E/FY28E) of 26.4x x 1.082 (the nine pharma peers' trailing P/E at the 30-Sep close vs their five-year medians, PLAYBOOK §7c, Neuland outside the set; reproduced +8.2%) = 28.6x, nearest half-turn. Trough rule: no year is left out (FY23 Rs127.5 vs a Rs31.4 line, half of FY21's Rs62.9; FY25 Rs148.8 vs Rs116.9). Earnings stepped up from FY23 but not from a loss, so the turnaround rule does not apply: the window from the break (1-Apr-2022) x the peers' same-window move gives 37x, a sensitivity row. Bull 45x / bear 13.5x = 75th / 25th percentile (41.4x / 12.7x) x 1.082. No own-move blend, no growth uplift (sensitivities only). Written by NEULANDLAB.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 17,
+      "bull": 27,
+      "bear": 9
+     },
+     "why": "Cross-check: Neuland's median one-year-forward EV/EBITDA since 1-Apr-2021 (EV at each weekly close = price x 1.283 cr shares less the last published company net cash, over the next full year's EBITDA, Screener basis) of 15.9x x 1.075 (the nine peers' five-year EV/EBITDA move; reproduced +7.5%) = 17.1x, nearest half-turn, on Sep-28E EBITDA plus Sep-28E net cash. Bull 27x / bear 9x = 75th / 25th percentile x 1.075."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 12.5% (cost of equity = WACC; net cash), terminal growth 5.5%, plus net cash at Mar-27."
+    }
+   ]
+  }
+ }
+}
