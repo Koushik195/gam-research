@@ -1,0 +1,177 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Caplin Point Laboratories (consolidated, ₹ crore), as of 30-Sep-2026 on Q1FY27 results. Net Profit history is the attributable figure (tools/authoring/CAPLIPOINT.patch.js: Screener 'Profit for EPS'); minorities (mainly the 31% of the Guatemala distributor the group does not own) are carried in the tax line (taxBuild), so the model's profit and EPS are to Caplin Point's shareholders. Caplin reports two segments, Rest of the World (Latin America and Africa, 79% of FY26 revenue) and USA (Caplin Steriles, 21%); the engine runs one revenue-growth path and one EBITDA-margin path, the segment build sits in `businessLines` and CAPLIPOINT.ctx.js checks that it sums to model revenue (CAPLIPOINT.mult.js writes revenueGrowth from it). EBITDA is Screener's operating profit, i.e. before other income (the company's own 'EBITDA' of ₹876 cr in FY26 includes ₹116 cr of other income). Other income = treasury yield on the gross treasury book + government grants and miscellaneous income, no FX gains (built in CAPLIPOINT.ctx.js). Screener files the ₹216.6 cr of Caplin Steriles CCPS held by Eight Roads / F-Prime as borrowings; we leave them there (a claim on Caplin Steriles, not Caplin Point equity). Valued on P/E, as the street does.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  16.28,
+  12.228,
+  12.383
+ ],
+ "_revenueWhy": "Built by segment (businessLines; CAPLIPOINT.ctx.js checks the sum). Rest of the World (Latin America + Africa) +14% in FY27E: Q1FY27 +18% (El Salvador tender spill-over, $7 mn of Central American emergency tenders over two quarters, Chile tenders of $12 mn over 18 months); the Vice-Chairman's AR letter lists ~$24 mn of tender wins in Guatemala, El Salvador and Nicaragua plus Chile's $9.5 mn for FY27 against $18 mn a year earlier; in dollars LatAm grew only 3% in FY26 ($150 mn to $155 mn) and Central America 7%, so roughly 6-7 points of FY27E growth is the rupee (FY26 average ₹88.4/$, Mar-26 close ₹94.65/$; AR FY26 AOC-1). FY28E and FY29E +10%: no further currency gain assumed; Chile and Mexico registrations (29 Mexican approvals, 120+ filings planned) start to contribute, management talks of 18-24 months of 'gestation'. USA (Caplin Steriles, incl. its US front-end) +25% in FY27E: guided 25-30% for FY27 (14-May-2026 call), Q1 +26%, own label targeted at ~₹200 cr vs ~₹100 cr; but the plant is 'booked out till February' and Line 7 starts only in 6-7 months (12-Aug-2026 call), and the 10-observation Form 483 of 21-Aug-2026 adds risk. FY28E and FY29E +20%: new capacity (Line 7, then five lines in the COL-II block from Q1FY28) needs 9-10 months of post-approval supplements per product before it sells into the US, so growth slows from FY26's 28% until FY29.",
+ "businessLines": {
+  "_why": "Segment revenue, consolidated results and AR FY26 note 26 (disaggregation): USA ₹453.40 cr, Rest of the World ₹1,733.79 cr = revenue from operations ₹2,187.19 cr (sale of products ₹2,083.90 cr, service income ₹87.48 cr, export incentives ₹15.81 cr). The USA segment equals Caplin Steriles' consolidated turnover (₹453.40 cr, AR FY26 AOC-1), so it includes CSL's small non-US regulated-market sales.",
+  "base": {
+   "row": 1733.79,
+   "us": 453.4
+  },
+  "growth": {
+   "row": [
+    14,
+    10,
+    10
+   ],
+   "us": [
+    25,
+    20,
+    20
+   ]
+  }
+ },
+ "ebitdaMargin": [
+  35,
+  34.8,
+  35.2
+ ],
+ "_marginWhy": "Screener operating margin (before other income): 32.6% FY24, 33.6% FY25, 35.0% FY26, 35.0% in Q1FY27 (ICICI Direct table: 34.8% / 35.0%). Gross margin 59.8% in Q1FY27, guided to stay ~60% (CFO, 12-Aug-2026; the long-standing commitment is 55%). Mix helps: Caplin Steriles' EBITDA margin rose to 30% in FY26 (33% in Q4FY26) from 27.9%, and LatAm's PBT margin rose from 42% to 45% (AR FY26). Costs that hold it back: the oncology plant (Caplin One Labs, PBT −₹19 cr in FY26), the Vizag API unit and Amaris Clinical are not yet breaking even (14-May-2026 call); the Rest of World segment's PBT margin slid from 37.5% in Q1FY26 to ~33% in Q1FY27; Middle East war freight and raw-material inflation. FY27E 35.0% (Q1 level). FY28E 34.8%: the COL-II injectable block and the new Pondicherry OSD/derma plant start (Q1FY28) with staff and overheads ahead of revenue. FY29E 35.2%: utilisation and the US mix. Each 1pp of margin is ~₹28 cr of EBITDA (~3% of FY28E EPS).",
+ "capex": [
+  320,
+  300,
+  220
+ ],
+ "_capexWhy": "Capex ₹248 cr in FY26 (Screener cash flow; CFO 14-May-2026). Of the ~₹1,000-1,100 cr programme, ₹510 cr remained to be spent over 18-24 months from May-2026 (CFO): COL-II injectable block at Gummidipoondi, the Pondicherry OSD/derma plant, the Thervoy oncology API plant, IV-bag line expansion; Q1FY27 capex ₹55 cr. Not in that figure: the Mexico plant (₹100-125 cr, ICICI Direct Q3FY26 note; construction from mid-2027, AR FY26), Chile warehouses and a quality lab, Amaris expansion to 120 beds. FY27E ₹320 cr, FY28E ₹300 cr (programme tail + Mexico start), FY29E ₹220 cr (Mexico completion + maintenance ~₹100 cr).",
+ "depRateOnGrossBlock": 8,
+ "_depWhy": "FY26 depreciation ₹72.8 cr = 8.0% of average gross block (₹859 → ₹965 cr, Screener); Q1FY27 ₹21.6 cr (₹86.5 cr annualised) after the oncology injectable plant and CSL Line 6 were capitalised in April 2026. The engine depreciates capex at once while CWIP (₹234 cr) is held flat, so 8.0%: FY27E ~₹90 cr, FY28E ~₹114 cr.",
+ "treasuryYield": [
+  6.4,
+  6.4,
+  6.4
+ ],
+ "_treasuryWhy": "FY26 treasury income ₹85.3 cr (interest ₹66.34 cr, realised gains ₹16.81 cr, fair-value gains ₹2.14 cr; AR FY26 note 27) on an average treasury book of ₹1,331 cr (cash, bank deposits and current and non-current investments: ₹1,181.9 cr at Mar-25, ₹1,480.1 cr at Mar-26) = 6.4%. The engine applies the yield to its opening net cash, which deducts the ₹216.6 cr CCPS and ₹4.6 cr of leases and loans that Screener files as borrowings; the yield on that gap is added back in otherIncome (CAPLIPOINT.ctx.js), so in effect 6.4% is earned on the whole gross book. Management is moving 'up the risk chain' into credit and debt funds (12-Aug-2026 call); we assume no change in yield.",
+ "otherIncome": [
+  25.8,
+  25.8,
+  25.8
+ ],
+ "_otherIncomeWhy": "Built in CAPLIPOINT.ctx.js from AR FY26 note 27: (1) 6.4% on the ₹221 cr gap between the gross treasury book and the engine's net cash (the CCPS and leases are not interest-bearing debt), so the yield applies to the whole ₹1,480 cr book; (2) government grants ₹2.38 cr and miscellaneous income ₹9.25 cr (FY26), held flat. Left out: FX gains (₹18.62 cr in FY26, ₹20.78 cr in FY25), which depend on the rupee's fall against the dollar and the currencies of Caplin's markets; a weaker rupee is already in our FY27E revenue. FY27E total other income ≈ ₹106 cr vs ₹115.5 cr reported in FY26 (₹96.9 cr excluding FX) and ₹126 cr in the twelve months to Jun-26 including FX.",
+ "interest": [
+  1,
+  1,
+  1
+ ],
+ "_interestLabel": "Finance cost (leases, small working-capital loans)",
+ "_interestWhy": "FY26 ₹0.87 cr (interest on borrowings ₹0.54 cr, leases ₹0.33 cr; AR FY26 note 31); Q1FY27 ₹0.18 cr. No bank debt (Vice-Chairman, 12-Aug-2026).",
+ "taxRate": [
+  21.55,
+  21.55,
+  21.52
+ ],
+ "_taxWhy": "Tax plus minorities (engine workaround: no minority line). Built in `taxBuild`: tax at 20.5% of PBT (FY26 19.1%, Q1FY27 20.5% 'in line with our target of 20%', CFO 12-Aug-2026; ~21% per the Q3FY26 call) plus minorities. Engine rate = (20.5% x PBT + minorities) / PBT, written from the build by CAPLIPOINT.mult.js. The model's profit and EPS are therefore to Caplin Point's shareholders.",
+ "taxBuild": {
+  "_note": "Engine tax rate = (tax on PBT + minorities) / PBT. ₹ crore.",
+  "taxOnPbt": [
+   20.5,
+   20.5,
+   20.5
+  ],
+  "minorities": [
+   9.5,
+   10.5,
+   11.5
+  ],
+  "_why": "Minorities: FY24 ₹4 cr, FY25 ₹4.78 cr, FY26 ₹8.49 cr, Q1FY27 ₹2.18 cr (Q1FY26 −₹2.04 cr): mainly the 31% of Nuevos Eticos Neo Ethicals S.A., Guatemala (AR FY26 note 43), plus 0.1% of Argus Salud. Grown in line with the Rest of World business. The Eight Roads / F-Prime CCPS in Caplin Steriles take no share of profit in the accounts (they sit inside equity attributable to owners); their claim is shown separately in the valuation."
+ },
+ "payout": [
+  10,
+  10,
+  10
+ ],
+ "_payoutWhy": "FY26 dividend ₹8 a share (₹4 interim paid 8-Jun-2026 + ₹4 final approved at the 25-Sep-2026 AGM) = ₹60.8 cr, 9.5% of EPS; FY25 ₹6 (8.5%); FY24 ₹5. Caplin has never bought back shares. Management prefers acquisitions (a Mexican or Chilean distributor, ANDAs) and capex, and offers dividends only if no acquisition comes (Chairman, 12-Aug-2026). We keep 10%, so cash builds; no acquisition is modelled.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 33,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 3.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity: 6.5% + 1.0 x 6% = 12.5%. Caplin has no debt and ₹1,480 cr of gross treasury, so WACC ≈ cost of equity. Beta 1.0, above Ajanta and Ipca (0.8-0.9): small and politically volatile markets (Central America, Ecuador), currency and receivable risk (128 days), one US sterile site carrying a fresh 10-observation Form 483, and a founder-led board.",
+  "_tgWhy": "5.5% nominal in rupees: generic volumes in Latin America and US injectables grow mid-single digit in dollars, plus some rupee depreciation.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~12% (FY29E) to 7% by year 15.",
+  "_fadeMarginWhy": "33%: below the 35% of FY26-27 because the US mix (30% EBITDA margin) rises and LatAm generic pricing is competitive; above the 30-31% of FY21-23.",
+  "_fadeCapexWhy": "5% of revenue (FY24-26 average ~10% during the ₹1,000 cr programme; FY21-22 ~3-7%).",
+  "_depWhy": "3.5% of revenue (FY26 3.3%, rising as the new plants are capitalised)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Latin America keeps growing in the mid-teens as Chile and Mexico tenders and private-market launches scale and the rupee stays weak; the Form 483 closes without escalation, Line 7 and COL-II start on time and the US grows 25-30% a year; the oncology plant and API unit break even.",
+   "revenueGrowthDelta": 2.5,
+   "marginDelta": 1,
+   "fadeMarginTo": 35
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The 483 escalates (warning letter or import alert) and the US stalls; Central American tenders lapse after FY27 and dollar growth reverts to the 3% of FY26; receivables stretch further in government markets and new plants run below break-even for longer.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -2,
+   "fadeMarginTo": 30
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 19,
+      "bull": 23,
+      "bear": 13.5
+     },
+     "why": "How the street values Caplin: the only broker note standing on 30-Sep-2026 that discloses a method (ICICI Securities, 13-Aug-2026) uses P/E, 26x FY28E EPS; ICICI used EV/EBITDA until Feb-2026. P/E is also the house method for thinly covered pharma names. 19x Sep-28E EPS = Caplin's 17.7x median one-year-forward P/E since Apr-2021 (house forwardMedian, 58 points, reported EPS: the company reports no exceptional items; no trough years, EPS rose every year from ₹32.0 in FY21 to ₹84.4 in FY26) x the pharma sector factor of 1.082 (median of the nine-peer set's trailing P/E at the 30-Sep close vs their five-year medians: +8.2% for names outside the set, PLAYBOOK §7c A21; reproduced at 8.19%) = 19.2x, rounded to the nearest half-turn. Bull 23x / bear 13.5x = 75th / 25th percentile (21.2x / 12.6x) x the factor. No growth, returns or own-move adjustment; the post-re-rating window since Apr-2024 (21.8x, 24x with the same-window peer move) is a sensitivity row. The model's EPS is EPS to shareholders (minorities in the tax line). Checked in CAPLIPOINT.ctx.js; written by CAPLIPOINT.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-27E (trailing at the target date)",
+     "roll": [
+      "FY27E",
+      "FY28E",
+      0.5
+     ],
+     "multiple": {
+      "base": 16.5,
+      "bull": 20.5,
+      "bear": 13
+     },
+     "why": "Cross-check. Caplin's median trailing EV/EBITDA since Apr-2021 is 15.5x (Screener); times the EV/EBITDA analogue of the sector factor (+7.5%, PLAYBOOK §7c A21) = 16.7x, rounded to 16.5x and applied to trailing EBITDA at the target date (half FY27E + half FY28E) plus the engine's net cash at Sep-2027 (which deducts the ₹216.6 cr Caplin Steriles CCPS at book). Bull 20.5x / bear 13x = 75th / 25th percentile x the factor."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at a 12.5% cost of equity, terminal growth 5.5%, plus net cash (after the CCPS at book)."
+    }
+   ]
+  }
+ }
+}
