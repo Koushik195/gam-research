@@ -1,0 +1,268 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "Channel model (as the company now reports): Online, Offline and Others grow on revenue; channel EBITDA = channel pre-IndAS EBITDA + channel lease payments (Ind AS 116 basis, before ESOP, corporate costs allocated as the company does). Model EBITDA = channels − ESOP (Screener basis: before other income, after ESOP). Valued on EV/EBITDA on Sep-28E (roll FY28E/FY29E 50:50), the street's method; the multiple is derived in PWL.ctx.js and written by PWL.val.js. ₹ crore.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "roll": [
+  "FY28E",
+  "FY29E",
+  0.5
+ ],
+ "segments": [
+  {
+   "key": "online",
+   "name": "Online",
+   "driverLabel": "Revenue",
+   "base": 2011.11,
+   "growth": [
+    32,
+    28,
+    25
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    28.5,
+    30.5,
+    31.5
+   ],
+   "marginLabel": "channel EBITDA (Ind AS, before ESOP)",
+   "hist": {
+    "driver": "onlineRev",
+    "revenue": "onlineRev",
+    "adjEbitda": "onlineSegEst"
+   },
+   "_why": "Online revenue +39% in FY26 (old basis) and +33% in Q1FY27 despite a 28% fall in NEET collections in the quarter (the exam was re-held); collections +51% from 1-Jul to 13-Aug. K-12 and early learning +88%, ACPU +10%. We use 32% for FY27E (JM 31%), then 28% and 25% as JEE/NEET mature and the newer categories (K-12, state boards, vernacular, NEET PG) carry growth. BofA has 29% a year FY26-29, Motilal 28% FY26-30.",
+   "_marginWhy": "Online pre-IndAS margin ~27% in FY26 (management, Q1FY27 call; Motilal and DAM ~26%), 12% in seasonally weak Q1FY27 (6% a year earlier). Adding ~1% of revenue for online lease payments gives ~28% on our basis. We assume 28.5% / 30.5% / 31.5% (pre-IndAS ~27.5% / 29.5% / 30.5%), in line with Motilal (~30% by FY28) and DAM (~31% by FY28) and below JPMorgan (33%)."
+  },
+  {
+   "key": "offline",
+   "name": "Offline (Vidyapeeth, Pathshala, other centres, Xylem, Utkarsh, Knowledge Planet)",
+   "driverLabel": "Revenue",
+   "base": 1844.11,
+   "growth": [
+    24,
+    18,
+    15
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    6.5,
+    10,
+    12
+   ],
+   "marginLabel": "channel EBITDA (Ind AS, before ESOP)",
+   "hist": {
+    "driver": "offlineRev",
+    "revenue": "offlineRev",
+    "adjEbitda": "offlineSegEst"
+   },
+   "_why": "Offline +31% in FY26 (old basis) on 155 new centres; +14% in Q1FY27 as the NEET re-exam delayed batches (20-25% without it, management); enrolments +82% since July. Centre additions have slowed: 366 at Jun-26 against 353 at Mar-26, with new plans 'opportunistic'. We assume 24% in FY27E (JM 27.7%), then 18% and 15% as growth shifts to filling existing centres and ARPU (+7% in Q1).",
+   "_marginWhy": "Offline pre-IndAS margin ~-19% in FY25 and ~-10% in FY26 (Q4FY26 call), -22% in seasonally weak Q1FY27 (-26% a year earlier). Guidance: near break-even in FY27; mature 2023-24 centres earn 13-15%. Lease payments are ~14% of offline revenue, so our Ind AS basis = pre-IndAS + ~13 points. We assume pre-IndAS -6% / -3% / -1% (Ind AS 6.5% / 10% / 12%): break-even a year later than guided, as JM (-2.5% in FY27E) and DAM (positive only in FY28) also doubt the FY27 target; Motilal has +3% by FY28."
+  },
+  {
+   "key": "others",
+   "name": "Others (ads, content licensing, FinZ, new bets)",
+   "driverLabel": "Revenue",
+   "base": 44.32,
+   "growth": [
+    13,
+    10,
+    9
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -40,
+    -25,
+    -15
+   ],
+   "marginLabel": "channel EBITDA (Ind AS, before ESOP)",
+   "hist": {
+    "driver": "othersRev",
+    "revenue": "othersRev",
+    "adjEbitda": "othersSegEst"
+   },
+   "_why": "₹44 cr in FY26 (new basis), ₹15 cr in Q1FY27. FinZ lending is being sold (term sheet signed, Aug-2026). Immaterial to value.",
+   "_marginWhy": "Loss ₹5 cr in Q1FY27 (-34%); losses narrow as FinZ is exited (JM cut its Others loss estimates after Q1). -40% / -25% / -15%."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Unallocated corporate costs",
+ "_unallocWhy": "The company allocates corporate costs to the channels (₹57 cr in Q1FY27, Appendix C), so nothing is left unallocated.",
+ "esop": [
+  170,
+  180,
+  190
+ ],
+ "_esopWhy": "Share-based pay ₹171 cr in FY26 (4.4% of revenue; ₹91 cr in FY25) and ₹39 cr in Q1FY27 (flat YoY). Options at ₹1 exercise price; new grants each year. Non-cash but dilutive.",
+ "capex": [
+  500,
+  560,
+  620
+ ],
+ "_capexWhy": "Cash capex ₹343 cr in FY26 (centre fit-outs, servers, content) plus lease principal ₹167 cr. Centre openings slow in FY27 (plans to be set over Q2-Q3); the IPO earmarked ₹461 cr for fit-outs (₹441 cr unspent at Mar-26). We use cash capex ₹300 / 330 / 360 cr plus lease principal ₹200 / 230 / 260 cr (new right-of-use assets), so the DCF pays for rent.",
+ "depRateOnGrossBlock": 16,
+ "_depWhy": "D&A ₹437 cr in FY26 on average gross block (incl. right-of-use) of ~₹2,540 cr = 17%; Q1FY27 ₹111 cr (₹444 cr annualised). 16% gives ₹475 / 560 / 655 cr.",
+ "treasuryYield": [
+  6.5,
+  6.5,
+  6.5
+ ],
+ "otherIncome": [
+  68,
+  75,
+  82
+ ],
+ "_treasuryWhy": "Treasury ₹5,027 cr at Mar-26 and ₹5,601 cr at Jun-26 (company), earning ~6.5-7% (other income ₹232 cr in FY26 on a treasury that rose from ~₹1,400 cr to ₹5,000 cr with the Nov-2025 IPO; ₹109 cr in Q1FY27). The model earns the yield on treasury net of lease liabilities, so the fixed item adds 6.5% on the ~₹1,050-1,260 cr of lease liabilities, i.e. on the gross treasury.",
+ "_otherIncomeWhy": "Yield on the part of gross treasury that the model nets against lease liabilities (6.5% × ₹1,050 / 1,150 / 1,260 cr). No other recurring non-operating income.",
+ "interest": [
+  105,
+  115,
+  125
+ ],
+ "_interestLabel": "Finance cost (lease interest ~80%)",
+ "_interestWhy": "Finance cost ₹102 cr in FY26 (lease interest ~₹85 cr), ₹26 cr in Q1FY27. Bank debt only ₹10.5 cr.",
+ "taxRate": [
+  26,
+  26,
+  26
+ ],
+ "_taxWhy": "Statutory ~25.2% plus losses in subsidiaries and new bets that cannot be offset (FY26 tax ₹34 cr on PBT ₹10 cr). Carried-forward losses with a deferred tax asset are small (₹51 cr).",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividend policy; cash is kept for acquisitions, AI and centres.",
+ "otherTreasury": {
+  "base": 1475.25,
+  "label": "Bank deposits and other treasury in other financial assets",
+  "_why": "Company treasury ₹5,027.25 cr at Mar-26 (AR FY26, Q4 letter: investments, other financial assets, cash and bank balances) less Screener's investments ₹2,426 cr and cash ₹1,126 cr; the difference sits in other financial assets (₹1,868 cr, mainly fixed deposits). Screener files ₹823.60 cr of equity (other equity reserve) as preference capital in borrowings; PWL.patch.js offsets it in investments, so net treasury = ₹5,027 cr less true borrowings of ₹1,052 cr (leases ₹1,041.6 cr, bank ₹10.5 cr) = ₹3,975 cr."
+ },
+ "rentBuild": {
+  "_why": "Lease payments (principal + interest) translate our Ind AS EBITDA into the pre-IndAS EBITDA the company and the street use. FY26 ₹252 cr (Q4FY26 letter), Q1FY27 ₹71 cr.",
+  "lease": [
+   290,
+   335,
+   385
+  ],
+  "fy26": 251.99
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 9,
+  "fadeMarginTo": 24,
+  "fadeCapexPctTo": 7,
+  "depPctOfSales": 6.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Young listed consumer-internet/edtech stock with regulatory risk: beta 1.1, cost of equity 13.1% (as Eternal and Meesho). Bank debt is nil; lease liabilities are deducted as debt, so the cost of equity is the discount rate.",
+  "_tgWhy": "6%: India's test-prep and tuition market grows ~13% (Redseer via AR FY26) and online penetration is ~4%; 6% nominal after 15 years.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~20% in FY29E to 9% by year 15.",
+  "_fadeMarginWhy": "EBITDA (Ind AS, after ESOP) rises from ~20% in FY29E to 24%: online at ~31% and offline at its 13-15% mature-centre level, less ESOP of ~2.5% of revenue.",
+  "_fadeCapexWhy": "Capex incl. lease principal 8.4% of revenue in FY29E, fading to 7% (cash capex ~3.5%, leases ~3.5%); D&A incl. right-of-use 6.5% long run (11.2% in FY26)."
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 28,
+      "bull": 29,
+      "bear": 24.5
+     },
+     "why": "How the street values PW: EV/EBITDA 1.5-2 years forward, mostly by channel (JM 32x online / 15x offline on Jun-28E; Motilal 50x / 15x FY28E; JPMorgan 30x / 10x) or for the group (HSBC 35x FY28E adjusted EBITDA). We apply one multiple to group EBITDA (Ind AS, after ESOP, lease liabilities in net debt), the basis on which the stock's own history can be measured. Derived in PWL.ctx.js (own one-year-forward EV/EBITDA median since 1-Jan-2026 × the internet platforms' EV/EBITDA move over the same window) and written by PWL.val.js."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 56.5,
+      "bull": 60.5,
+      "bear": 49.5
+     },
+     "why": "Own one-year-forward P/E median since 1-Jan-2026 × the same internet platforms' P/E move over the window (PWL.ctx.js); JM's ₹110 initiation implied 70x FY28 P/E."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF (lease principal treated as capex), cost of equity 13.1%, terminal growth 6%."
+    }
+   ]
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Online keeps growing above 30% as K-12, state boards and vernacular scale and AI products (PW Books, AI tutor) monetise; offline hits its FY27 break-even guidance and mature-centre margins spread; the market pays its own forward median with no sector de-rating.",
+   "segments": {
+    "online": {
+     "growthDelta": 4,
+     "marginDelta": 1.5
+    },
+    "offline": {
+     "growthDelta": 4,
+     "marginDelta": 2
+    }
+   },
+   "fadeMarginTo": 26
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "JEE/NEET online saturates and free AI tutors cap pricing; the offline network stays loss-making as Allen, Aakash and local players fight for seats and Kota-style demand shocks spread; growth halves to the mid-teens; the market pays the 25th percentile of its own forward multiple, with the sector move.",
+   "segments": {
+    "online": {
+     "growthDelta": -6,
+     "marginDelta": -2
+    },
+    "offline": {
+     "growthDelta": -6,
+     "marginDelta": -3
+    }
+   },
+   "fadeMarginTo": 21
+  }
+ }
+}

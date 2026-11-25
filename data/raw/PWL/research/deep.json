@@ -1,0 +1,381 @@
+{
+ "asOf": "2026-09-30",
+ "method": "EV/EBITDA on Sep-28E (street: channel EV/EBITDA SOTP on FY28E/Jun-28E, or group EV/EBITDA)",
+ "peers": {
+  "set": [
+   "ETERNAL",
+   "SWIGGY",
+   "NAUKRI",
+   "INDIAMART",
+   "NYKAA",
+   "PAYTM",
+   "POLICYBZR"
+  ],
+  "drSet": [
+   "NAUKRI",
+   "INDIAMART"
+  ],
+  "evUsable": [
+   "ETERNAL",
+   "NAUKRI",
+   "INDIAMART",
+   "NYKAA",
+   "PAYTM",
+   "POLICYBZR"
+  ],
+  "excluded": {
+   "PWL": "Self",
+   "SWIGGY": "EBITDA negative throughout the window (no EV/EBITDA)"
+  },
+  "education": "No listed Indian test-prep or edtech company of comparable size: Screener's peer list for PWL is Jaro Institute (₹862 cr market value), Veranda Learning (₹239 cr), Robokidz, Fusion Klassroom, Sodhani Academy and Jetking (all below ₹200 cr). Global listed test-prep (e.g., Chinese after-school tutors) operate under different regulation; not used.",
+  "note": "Natural set: internet platforms with a usable five-year history (Info Edge, IndiaMART; our Eternal initiation). Two names are too few, so per the thin-peer-set rule the base uses the widened set the brokers group PW with (India internet): every internet platform with positive EBITDA through the 1-Jan to 30-Sep-2026 window (Eternal, Info Edge, IndiaMART, Nykaa, Paytm, PB Fintech), on EV/EBITDA vs their own medians over the same window. Swiggy excluded (negative EBITDA). The two-name subset and no move are sensitivity rows.",
+  "subsetNote": "Five-year usable-history subset (Info Edge, IndiaMART) shown as a sensitivity; Eternal, Nykaa, Paytm and PB Fintech lack a usable five-year P/E history (losses or P/E above 300x) but have positive EBITDA over the nine-month window."
+ },
+ "street": {
+  "asOf": "2026-09-30",
+  "brokers": [
+   {
+    "broker": "Motilal Oswal",
+    "short": "MOSL",
+    "rating": "Buy",
+    "tp": 200,
+    "date": "2026-09-04",
+    "method": "SOTP, FY28E: online 50x EV/EBITDA (₹172), offline 15x EV/EBITDA (₹4), others 1x EV/sales (₹1), cash (₹20)",
+    "methodShort": "SOTP EV/EBITDA FY28E (50x/15x)",
+    "multiple": "50x online, 15x offline",
+    "basis": "FY28E",
+    "forecasts": "Online revenue ~28% CAGR FY26-30; online pre-IndAS margin ~26% (FY26) to ~30% (FY28); offline revenue ~20% CAGR; offline pre-IndAS margin ~3% by FY28.",
+    "thesis": "Affordable education, scalable economics: 100 mn+ YouTube subscribers give near-free student acquisition; ~80% of offline admissions come from the online base; centre-expansion phase ending.",
+    "src": "https://www.businesstoday.in/markets/stocks/story/physicswallah-shares-jump-9-percent-as-motilal-oswal-sees-66-percent-upside-553374-2026-09-04",
+    "published": "2026-09-04",
+    "earlier": [],
+    "current": true,
+    "preQ1": false
+   },
+   {
+    "broker": "BofA Securities",
+    "short": "BofA",
+    "rating": "Underperform",
+    "tp": 110,
+    "date": "2026-09-22",
+    "method": "Not disclosed in reports",
+    "methodShort": "n.d.",
+    "multiple": "n.d.",
+    "basis": "n.d.",
+    "forecasts": "Online revenue CAGR 29% FY26-29.",
+    "thesis": "Valuation ahead of fundamentals after a 55% rally in six months; loss-making offline classes and unproven unit economics make growth and profit hard to balance; slowing test-prep demand and regulation.",
+    "src": "https://zerodha.com/markets/stocks/NSE/PWL/",
+    "published": "2026-09-22",
+    "earlier": [],
+    "current": true,
+    "preQ1": false
+   },
+   {
+    "broker": "JPMorgan",
+    "short": "JPM",
+    "rating": "Overweight",
+    "tp": 148,
+    "date": "2026-08-17",
+    "method": "SOTP: online/hybrid 30x EV/EBITDA, offline 10x (initiation); year not reported",
+    "methodShort": "SOTP EV/EBITDA (30x/10x)",
+    "multiple": "30x online, 10x offline",
+    "basis": "n.d.",
+    "forecasts": "Online growth ~30% FY26-28, online margin 30% to 33%; revenue CAGR 28% FY26-28E.",
+    "thesis": "Low-cost one-to-many online delivery; online is the core; offline an option on utilisation. Upgraded after Q1 beat despite NEET; FY27 ~30% growth guidance kept; FinZ exit.",
+    "src": "https://inc42.com/buzz/physicswallah-jumps-9-5-after-q1-results-jpmorgan-jm-financial-upgrade-rating/",
+    "published": "2026-08-17",
+    "earlier": [
+     {
+      "target": 148,
+      "rating": "Neutral",
+      "date": "2026-07-10",
+      "note": "Downgraded to Neutral/Hold with target raised to ₹148 (Investing.com table: 'Hold 148.00 from 127.00, Downgrade, Jul 10, 2026')",
+      "src": "https://www.investing.com/equities/physicswallah-consensus-estimates"
+     },
+     {
+      "target": 125,
+      "rating": "Overweight",
+      "date": "2026-04-21",
+      "note": "Initiation",
+      "src": "https://www.multibagg.ai/market-pulse/articles/physicswallah-jpmorgan-overweight-target-125-cmo8nhwz4d5n0ph0jp4boa5lo"
+     }
+    ],
+    "current": true,
+    "preQ1": false
+   },
+   {
+    "broker": "JM Financial",
+    "short": "JM",
+    "rating": "Buy",
+    "tp": 140,
+    "date": "2026-08-14",
+    "method": "SOTP, Jun-28E: online 32x EV/EBITDA (₹111), offline 15x (₹6), others nil, net cash Mar-28 (₹21); Jun-27 target",
+    "methodShort": "SOTP EV/EBITDA Jun-28E (32x/15x)",
+    "multiple": "32x online, 15x offline",
+    "basis": "Jun-28E channel EBITDA",
+    "forecasts": "Revenue ₹5,015 / 6,255 / 7,491 cr FY27-29E; EBITDA ₹770 / 1,182 / 1,631 cr; pre-IndAS ₹646 / 1,038 / 1,449 cr; adj. PAT ₹359 / 600 / 887 cr; EPS ₹1.2 / 2.0 / 3.0.",
+    "thesis": "Decent Q1 despite NEET; online broadening (K-12 +88%); offline economics improving; FinZ exit addresses capital-allocation concerns; >20% correction made risk-reward favourable.",
+    "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-08/17869437740.92845000.pdf",
+    "published": "2026-08-14",
+    "earlier": [
+     {
+      "target": 140,
+      "rating": "Add",
+      "date": "unknown",
+      "note": "Previous rating Add at ₹140 (note's 'previous reco / previous target'); date of the move from Buy ₹110 not found"
+     },
+     {
+      "target": 110,
+      "rating": "Buy",
+      "date": "2026-02-27",
+      "note": "Initiation, Mar-27 target, 70x FY28 P/E implied; 30x online multiple",
+      "src": "https://www.outlookbusiness.com/news/jm-financial-initiates-coverage-on-physicswallah-estimates-revenue-to-grow-at-28-cagr"
+     }
+    ],
+    "current": true,
+    "preQ1": false,
+    "eps": {
+     "FY27E": 1.2,
+     "FY28E": 2.01,
+     "FY29E": 2.97
+    }
+   },
+   {
+    "broker": "DAM Capital",
+    "short": "DAM",
+    "rating": "Buy",
+    "tp": 140,
+    "date": "2026-06-10",
+    "method": "Not disclosed in reports",
+    "methodShort": "n.d.",
+    "multiple": "n.d.",
+    "basis": "n.d.",
+    "forecasts": "Revenue CAGR 27% FY26-28; online pre-IndAS margin ~26% to ~31% by FY28; offline revenue CAGR 21%; offline adjusted EBITDA positive only in FY28.",
+    "thesis": "Low acquisition cost (ads ~9% of revenue); profitable online core (~20% share in JEE/NEET online); new categories; 52% of Vidyapeeth centres profitable.",
+    "src": "https://www.multibagg.ai/market-pulse/articles/physicswallah-dam-buy-140-target-cmq81h6r45gtarv0jfaw1hsrj",
+    "published": "2026-06-10",
+    "earlier": [],
+    "current": true,
+    "preQ1": true
+   },
+   {
+    "broker": "HSBC",
+    "short": "HSBC",
+    "rating": "Buy",
+    "tp": 135,
+    "date": "2026-05-11",
+    "method": "35x FY28E EV/EBITDA on adjusted EBITDA ₹960 cr, plus ~₹5,000 cr cash = ₹38,600 cr equity",
+    "methodShort": "EV/EBITDA FY28E (35x)",
+    "multiple": "35x",
+    "basis": "FY28E adjusted EBITDA",
+    "forecasts": "Revenue ~30% a year FY26-28; adjusted EBITDA ~7x to ₹960 cr by FY28 (margin ~3.6% to ~15%); offline break-even FY27, profitable FY28.",
+    "thesis": "Online fixed-cost model lifts margins; Vidyapeeth utilisation; ARPU up with less discounting.",
+    "src": "https://www.outlookbusiness.com/corporate/physicswallah-could-deliver-7-fold-profit-jump-by-fy28-says-hsbc",
+    "published": "2026-05-11",
+    "earlier": [],
+    "current": true,
+    "preQ1": true
+   },
+   {
+    "broker": "Axis Capital",
+    "short": "Axis",
+    "rating": "Add",
+    "tp": 138,
+    "date": "2026-01-21",
+    "method": "Not disclosed in reports",
+    "methodShort": "n.d.",
+    "multiple": "n.d.",
+    "basis": "n.d.",
+    "forecasts": "None reported.",
+    "thesis": "Seat scarcity keeps test-prep demand; organic YouTube funnel keeps acquisition costs low; offline faces organised chains and local players. (An IPO book-runner.)",
+    "src": "https://entrackr.com/snippets/axis-capital-initiates-coverage-on-physicswallah-with-add-rating-targets-rs-138-11018376",
+    "published": "2026-01-21",
+    "earlier": [],
+    "current": true,
+    "preQ1": true
+   },
+   {
+    "broker": "Goldman Sachs",
+    "short": "GS",
+    "rating": "Neutral",
+    "tp": 135,
+    "date": "2025-12-24",
+    "method": "Not disclosed in reports; 12-month target",
+    "methodShort": "n.d.",
+    "multiple": "n.d.",
+    "basis": "n.d.",
+    "forecasts": "Revenue CAGR 24% FY25-30; adjusted EBITDA margin 3% (FY25) to 26% (FY30); online 40% and offline 10% margins by FY30; ~500 centres in three years; bull ₹181, bear ₹89.",
+    "thesis": "Strong organic funnel and benign edtech competition, but the offline scale-up (negative mid-teens margins in FY25) limits upside. (An IPO book-runner.)",
+    "src": "https://ca.investing.com/news/stock-market-news/goldman-sachs-starts-physicswallah-with-neutral-rating-flags-offline-growth-ris-4378367",
+    "published": "2025-12-24",
+    "earlier": [],
+    "current": true,
+    "preQ1": true
+   }
+  ],
+  "excluded": [
+   {
+    "broker": "Kotak Institutional Equities",
+    "note": "Initiated Reduce ₹125 on 6-Oct-2026: after the as-of date."
+   },
+   {
+    "broker": "Prabhudas Lilladher",
+    "note": "Accumulate ₹141, 27-Oct-2026: after the as-of date."
+   },
+   {
+    "broker": "HSBC / DAM / Motilal / Axis / Goldman Nov-2026 revisions",
+    "note": "After the Nov-2026 investor day: after the as-of date."
+   }
+  ]
+ },
+ "consensus": {
+  "lseg": [
+   {
+    "date": "2026-09-22",
+    "analysts": 9,
+    "avgRating": "Buy",
+    "medianTarget": 144,
+    "src": "https://zerodha.com/markets/stocks/NSE/PWL/",
+    "note": "Reuters item on the BofA initiation"
+   },
+   {
+    "date": "2026-05-11",
+    "analysts": 6,
+    "avgRating": "Buy",
+    "medianTarget": 130,
+    "src": "https://zerodha.com/markets/stocks/NSE/PWL/",
+    "note": "Reuters item on the HSBC initiation"
+   }
+  ]
+ },
+ "events": [
+  {
+   "what": "IPO priced at ₹109 (top of ₹103-109 band); ₹3,100 cr fresh issue, ₹380 cr offer for sale; 1.8x subscribed",
+   "date": "2025-11-13",
+   "src": "AR FY26 p4"
+  },
+  {
+   "what": "Listed at ₹145 on NSE (+33%), intraday high ₹161.99",
+   "date": "2025-11-18",
+   "src": "https://www.business-standard.com/amp/markets/news/bumper-debut-physicswallah-lists-at-33-premium-beats-gmp-forecasts-125111800212_1.html"
+  },
+  {
+   "what": "Goldman Sachs and others initiate after the quiet period",
+   "date": "2025-12-24",
+   "src": "Investing.com"
+  },
+  {
+   "what": "Q3FY26 results: revenue +34%, PAT ₹102 cr",
+   "date": "2026-02-06",
+   "src": "Q3FY26 call"
+  },
+  {
+   "what": "Stock low ₹79.6 (Mar-2026) as pre-IPO lock-ins approached and markets fell",
+   "date": "2026-03",
+   "src": "Screener prices"
+  },
+  {
+   "what": "Q4FY26 results: FY26 revenue +35%, pre-IndAS EBITDA ₹300 cr; FY27 guidance >30% growth",
+   "date": "2026-05-27",
+   "src": "Q4FY26 letter"
+  },
+  {
+   "what": "NEET-UG 2026 cancelled (12-May) and re-held (21-Jun); results 16-Jul",
+   "date": "2026-05-12",
+   "src": "Q1FY27 letter"
+  },
+  {
+   "what": "Q1FY27 results (filed on the last permitted day): revenue +24%, pre-IndAS EBITDA -₹44 cr (vs -₹89 cr); FinZ exit; stock +9.5% intraday",
+   "date": "2026-08-14",
+   "src": "Q1FY27 letter; Inc42 17-Aug-2026"
+  },
+  {
+   "what": "Motilal Oswal initiates Buy ₹200; stock +8.6% intraday",
+   "date": "2026-09-04",
+   "src": "Business Today"
+  },
+  {
+   "what": "BofA initiates Underperform ₹110",
+   "date": "2026-09-22",
+   "src": "Reuters via Zerodha"
+  },
+  {
+   "what": "AGM",
+   "date": "2026-09-25",
+   "src": "AR FY26 notice"
+  }
+ ],
+ "ownershipView": {
+  "jun26": {
+   "promoters": 71.27,
+   "fii": 12.01,
+   "dii": 13.12,
+   "public": 3.6,
+   "shareholders": 179493,
+   "src": "Screener (BSE shareholding pattern, Jun-2026)"
+  },
+  "named": [
+   {
+    "holder": "Alakh Pandey",
+    "pct": 36.15,
+    "date": "Mar-26"
+   },
+   {
+    "holder": "Prateek Boob",
+    "pct": 36.15,
+    "date": "Mar-26"
+   },
+   {
+    "holder": "WestBridge AIF I",
+    "pct": 5.84,
+    "date": "Mar-26"
+   }
+  ],
+  "src": "AR FY26 note 9 (holders above 5%, 31-Mar-2026)",
+  "note": "Founders own ~71%: free float only ~29%. Promoter shares are locked in until 18 months after listing (May-2027) for the minimum promoter contribution (SEBI ICDR; exact split not read)."
+ },
+ "governanceView": "Board of six: three independent directors (chair Deepak Amitabh), two founder executives and one WestBridge nominee. Auditor S.R. Batliboi (EY). Founders cut their own pay by 84% and 61% in FY26. Positives: channel EBITDA now auditor-reviewed; FinZ lending exited after investor pushback. Watch: many EBITDA definitions; related-party and acquisition put options (redemption liability); Q1 results filed on the last permitted day.",
+ "industryView": "India's education market ₹15-16 lakh crore (FY25); test preparation ₹1.0-1.1 lakh crore (~7%); online penetration of education ~4% (Redseer in AR FY26 MD&A). Test-prep TAM ~6 crore students growing 13-15% (management, Q3FY26 call). Competitors: Allen and Aakash (offline JEE/NEET leaders), Unacademy, Vedantu, regional coaching. Regulation: Ministry of Education guidelines for coaching centres circulated to states on 16-Jan-2024 (registration, no enrolment below 16 or before secondary-school exams, graduate tutors; advisory until states legislate; Business Today 19-Jan-2024); NEET moving online from 2027 (NTA).",
+ "moat": [
+  {
+   "k": "Brand and organic funnel",
+   "score": "Strong",
+   "why": "142 mn+ social subscribers; ads only 9.1% of revenue (FY26) yet 4.87 mn paying online users."
+  },
+  {
+   "k": "Cost position (online)",
+   "score": "Strong",
+   "why": "~₹4,000 a year versus ₹1-2 lakh offline; one teacher to many; online margin ~27%."
+  },
+  {
+   "k": "Offline",
+   "score": "Weak",
+   "why": "Capital and people heavy; loss-making in FY26; results (top ranks) still trail Allen/Kota incumbents."
+  },
+  {
+   "k": "Switching costs",
+   "score": "Weak",
+   "why": "Annual purchase decisions; students leave after their exam."
+  },
+  {
+   "k": "AI disruption",
+   "score": "Risk",
+   "why": "Free AI tutors could compress online prices; PW is building its own (AI Guru, Ask AI)."
+  }
+ ],
+ "gaps": [
+  "FY26 channel EBITDA not disclosed (first auditor-reviewed split came in Q1FY27); our FY26 split is an estimate from management's ~27% online margin.",
+  "Q4FY26 call: no transcript filed (audio only); we rely on the company letter and a third-party summary (cofacto.ai).",
+  "Valuation methods of BofA, DAM Capital, Axis Capital and Goldman Sachs not reported; HSBC, DAM, Axis and Goldman notes predate Q1FY27 and later revisions (if any before 30-Sep) were not found.",
+  "Named shareholders at Jun-2026 beyond categories not read; promoter lock-in split not read.",
+  "Options granted after Mar-2026 and outstanding at 30-Sep not disclosed; we use JM's 290.09 cr diluted shares.",
+  "Minority interests (Xylem 22.75%, Utkarsh 24.5%, Sarrthi 49%) are not deducted in the model (no minority line); JM estimates ~₹35 cr a year of profit to minorities.",
+  "FY22-FY24 detail (pre-IPO restatements) not re-read from the RHP; Screener used."
+ ],
+ "conflicts": [
+  "JPMorgan: initiation ₹125 (Apr-2026, aggregator) vs '₹127' as the prior target in Investing.com's Jul-2026 downgrade row.",
+  "Goldman Sachs: ₹135 at initiation; Investing.com's Nov-2026 row says 'from ₹133', implying a later cut on an unknown date. We show ₹135.",
+  "Axis Capital: ₹138 at initiation (Jan-2026); Investing.com's Nov-2026 row says 'from ₹143' (date of the move unknown). We show ₹138.",
+  "FY26 channel revenue differs by basis: Q4 letter 1,954 / 1,774 / 172 vs AR 2,011 / 1,844 / 44 (Q1FY27 reclassification of B2B and others)."
+ ]
+}

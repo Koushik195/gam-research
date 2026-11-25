@@ -1,0 +1,60 @@
+{
+ "symbol": "IRCTC", "name": "Indian Railway Catering and Tourism Corporation Ltd", "asOf": "2026-09-30",
+ "_note": "Fact base to 30-Sep-2026. Rs crore unless stated. Consolidated (subsidiary IRCTC Payments Ltd is small). AR FY26 figures are in Rs lakh in the source and converted here.",
+ "sources": {
+  "ar26": { "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/677a48a0-7237-4f0c-bb99-06c3edfb1d4c.pdf", "published": "2026-08-01", "_dateNote": "Accounts signed 26-May-2026; AR filed before the AGM (Screener document list). Exact filing date not visible to us; used only for FY26 numbers known since 26-May-2026." },
+  "q4call": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b914f14-22d6-44be-b3bb-8d31b83e4499.pdf", "published": "2026-05-27" },
+  "q1call": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87a3947a-975c-43aa-b153-218d6518615c.pdf", "published": "2026-08-19" },
+  "plQ1": { "src": "https://plindia.com/ResReport/IRCTC-14-8-26-PL.pdf", "published": "2026-08-14" },
+  "plQ4": { "src": "https://plindia.com/ResReport/IRCTC-27-5-26-PL.pdf", "published": "2026-05-27" }
+ },
+ "profile": {
+  "owner": "Government of India (President of India) 62.40% (Jun-2026); Navratna CPSE under the Ministry of Railways",
+  "monopolies": "Only entity authorised by Indian Railways to sell reserved railway tickets online, to provide catering on trains and at stations under the 2017 catering policy, and to supply packaged drinking water (Rail Neer) on the network",
+  "segments": [
+   ["Catering", "Onboard catering on prepaid trains (Vande Bharat, Rajdhani, Shatabdi, Duronto, Tejas; food price is in the fare), licence fees from mobile (pantry car, train-side vending) and static units, e-catering (~1.6-1.7 lakh meals a day), election specials. Model is largely licensing: IRCTC tenders the service to licensees"],
+   ["Internet ticketing", "Convenience fee per e-ticket (Rs10 non-AC / Rs20 AC on UPI; Rs15 / Rs30 on cards and credit lines) plus non-convenience income: advertising, agents, payment gateway, e-wallet loyalty, iPay commissions. ~89% of reserved railway tickets are booked online through IRCTC"],
+   ["Tourism (incl. State Teertha)", "Bharat Gaurav and state pilgrimage trains, luxury trains, two Tejas Express trains run as 'private' corporate trains, holiday packages, air/hotel/bus booking"],
+   ["Rail Neer", "Packaged drinking water at Rs14 a bottle (Q1FY27 call) from own and PPP plants (15 operational in FY22, corporate presentation Sep-2023); installed capacity 17.77 lakh bottles a day (Aug-2026), supply ~15.5 lakh vs demand well above that. Profit shared with Indian Railways 15:85 (departmental plants) and 40:60 (PPP plants)"]
+  ],
+  "railwayShare": "Licence fees and service charges are booked gross; the share paid to Indian Railways is an expense (AR FY26 note 49)"
+ },
+ "shares": { "count": 800000000, "faceValue": 2, "src": "Shareholding pattern Jun-2026 (President of India 499,172,170 shares = 62.40%)" },
+ "fy26": { "revenue": 5214.86, "otherIncome": 260.47, "totalIncome": 5475.33, "ebitda": 1666, "pbt": 1875, "pat": 1393, "eps": 17.42, "exceptional": 16.8, "dpsTotal": 9, "dividendCr": 720, "dividendInterimCr": 680, "dividendFinalCr": 40,
+  "q4OneOffs": "CSR Rs31 cr booked in Q4 (Rs7 cr a year earlier); ECL provision Rs16 cr (Rs8 cr); Q4FY25 had a Rs48 cr legacy write-back",
+  "segmentRevenue": { "catering": 2399, "railNeer": 391, "internetTicketing": 1536, "tourism": 890 }, "src": "Q4FY26 call (27-May-2026); AR FY26 note 23 and consolidated statements" },
+ "otherIncomeFY26": { "interestFDR": 170.24, "interestOther": 5.74, "interestTotal": 175.98, "finesPenalties": 53.35, "deferredDepositAmortisation": 10.41, "rental": 2.91, "countermanding": 3.86, "misc": 13.62, "nonOperatingTotal": 84.49, "fy25": { "interestTotal": 166.6, "nonOperatingTotal": 62.49, "total": 229.09 }, "src": "AR FY26 consolidated note 23" },
+ "treasuryMar26": { "cash": 412.04, "fdUnder1y": 2293.79, "marginTdr": 148.51, "marginTdrOther": 1.05, "restricted": 13.18, "interestAccrued": 93.16, "leaseLiabilities": 80.73, "tradeReceivables": 1881.58, "contractLiabilities": 602.32, "otherCurrentLiabilities": 1524.06, "tradePayables": 930.0,
+  "mar25": { "cash": 372.34, "fdUnder1y": 1655.0, "marginTdr": 127.15, "fdOver1yDueIn12m": 110.0, "interestAccrued": 76.13, "restricted": 7.55, "leaseLiabilities": 89.8 },
+  "src": "AR FY26 consolidated balance sheet and notes 10.2, 10.3, 10.4, 70 (Rs lakh /100)", "note": "Screener 'cash' (Rs2,868 cr) = cash plus other bank balances; accrued interest and margin TDRs in other financial assets are outside it. The cash partly reflects ticket and catering money due to Indian Railways (other current liabilities Rs1,524 cr), but receivables from the Railways (Rs1,882 cr) are larger." },
+ "q1fy27": { "revenue": 1369.53, "revenuePrior": 1159.68, "ebitda": 386.7, "ebitdaPrior": 397.3, "ebitdaMarginPct": 28.2, "ebitdaMarginPriorPct": 34.3, "otherIncome": 71.7, "otherIncomePrior": 61.2, "pat": 330.2, "patPrior": 330.7, "eps": 4.13, "employeeCost": 104.2, "employeePrior": 75.7,
+  "oneOffs": "HR cost ~Rs20 cr (gratuity ceiling Rs20 lakh to Rs25 lakh, post-retirement benefits; Rs10 cr in catering), proof-of-concept catering trains ~Rs4 cr, IT maintenance Rs10 cr",
+  "catering": { "onboardPrepaid": [301, 413], "licenceFeeMobile": [192, 224], "licenceFeeStatic": [20, 33], "eCateringLF": [9, 22], "electionSpecials": [5, 41], "other": 15, "total": 747, "eMealsPerDayLakh": [1.25, 1.69] },
+  "kpi": { "ticketsCr": 13.27, "dailyLakh": 14.58, "sharePct": 88.92, "upiPct": 51.22, "convFee": 248, "convFeePrior": 236, "nonConvFee": 113, "nonConvFeePrior": 123, "railNeerCapacityLakh": 17.77, "railNeerSupplyLakh": 15.5, "optOutPct": "25-30" },
+  "src": "Q1FY27 call (13-Aug-2026); PL result update (14-Aug-2026); Screener quarterly" },
+ "guidance": [
+  { "date": "2026-05-27", "item": "Growth by segment", "said": "Catering ~15% a year, tourism ~20% (FY26 +19%), IT ~7% with more non-convenience income; overall EBITDA margin 'aspiring to maintain 30%'", "outcome": "Q1FY27: catering +34%, tourism +14%, IT +0.6%; margin 28.2%" },
+  { "date": "2026-05-27", "item": "Convenience fee", "said": "'At the moment, we are not planning to announce anything. But, of course, when it will pinch us, we'll think about it.'", "outcome": "Not raised for about seven years (investor on the Q1FY27 call)" },
+  { "date": "2026-05-27", "item": "Capital use", "said": "Asset-light; invest in the e-ticketing platform and security, four new Rail Neer plants plus two expansions, exploring hotels; buyback is DIPAM's decision", "outcome": "No buyback; dividend Rs720 cr for FY26" },
+  { "date": "2026-08-13", "item": "Non-convenience income", "said": "Down to Rs113 cr (ads removed from the new website, agent restrictions, RailOne diversion); 'we will try to come back to Rs150 crores'", "outcome": "Watch Q2-Q3" },
+  { "date": "2026-08-13", "item": "Tourism", "said": "Rs745 cr (FY25) to Rs890 cr (FY26); 'next year it may cross Rs1,000 plus crores'", "outcome": "Q1 Rs168 cr (+13.8%)" },
+  { "date": "2026-08-13", "item": "Catering margin", "said": "Q1 one-offs (HR Rs10 cr, proof-of-concept Rs4 cr) will not repeat; POC trains end by Nov-2026; 'traditionally 10-12%'", "outcome": "Q1 9.3% (FY26 10.4%)" },
+  { "date": "2026-08-13", "item": "IT margin", "said": "'Normally it remains between 80% to 85%'; NGET infrastructure refresh (~Rs150 cr invested) and an active-active disaster-recovery site (Secunderabad) will cost more in Q2-Q4", "outcome": "Q1 80.2%" },
+  { "date": "2026-08-13", "item": "New trains", "said": "~20 Vande Bharat sleeper trains in the next year; licence fee ~Rs6 cr per train (~Rs120 cr); passenger growth ~8%", "outcome": "Ministry decision" },
+  { "date": "2026-08-13", "item": "Rail Neer", "said": "Ambernath 2 to 3 lakh and Danapur 1 to 2 lakh bottles a day this year; new plants at Prayagraj, Mysore, Ranchi (land allotted) and Bhagalpur may spill into next year", "outcome": "Capacity fell to 17.77 lakh/day after a plant closure" },
+  { "date": "2026-08-13", "item": "iPay (payment aggregator)", "said": "Final application to RBI submitted (deadline 4-Aug-2026); RBI response expected within FY27; then IRCTC-wide, railway and external use", "outcome": "Pending" }
+ ],
+ "history": [
+  { "when": "1999", "what": "Incorporated as a Ministry of Railways company to run catering, tourism and online ticketing", "impact": "Monopoly mandates came from the Railways, not from markets", "src": "Screener company profile" },
+  { "when": "Oct-2019", "what": "IPO (100% offer for sale by the government) at Rs320 a share (Rs64 after the split), subscribed ~112 times; listed 14-Oct-2019 at Rs644", "impact": "Government 100% to 87.4%; no new money for the company", "src": "https://www.business-standard.com/amp/article/markets/irctc-makes-stellar-debut-at-101-premium-at-rs-644-119101400179_1.html", "published": "2019-10-14" },
+  { "when": "FY21", "what": "Covid: trains stopped, catering suspended", "impact": "Revenue Rs777 cr (-66%), EPS Rs2.34 (FY20 Rs6.41); catering segment margin -37% in FY21 and 5% in FY22", "src": "Screener; corporate presentation (Sep-2023)" },
+  { "when": "Dec-2020", "what": "Government OFS of 20% (15% plus 5% green shoe)", "impact": "Promoter 87.4% to 67.4% (shareholding pattern)", "src": "https://www.business-standard.com/article/markets/irctc-shares-tank-over-10-as-govt-begins-to-offload-20-stake-via-ofs-120121001277_1.html", "published": "2020-12-10" },
+  { "when": "Oct-2021", "what": "1:5 share split (Rs10 to Rs2 face value; record date 29-Oct-2021)", "impact": "800 mn shares; per-share history adjusted", "src": "https://www.business-standard.com/article/news-cm/irctc-sets-29-oct-as-record-date-for-stock-split-121093000180_1.html", "published": "2021-09-30" },
+  { "when": "28/29-Oct-2021", "what": "Railway Ministry ordered IRCTC to share 50% of convenience fees from 1-Nov-2021; withdrawn the next day 'given the market sentiment'", "impact": "Stock fell ~29% intraday, then recovered. The clearest example of policy risk", "src": "https://www.businesstoday.in/amp/latest/economy/story/railway-ministry-withdraws-decision-of-50-sharing-of-convenience-fee-on-irctc-310797-2021-10-29", "published": "2021-10-29" },
+  { "when": "Dec-2022", "what": "Government OFS of 5% at a Rs680 floor price", "impact": "Promoter 67.4% to 62.4%", "src": "https://business-standard.com/article/markets/irctc-share-tanks-over-6-as-govt-to-sell-up-to-5-stake-via-ofs-122121501101_1.html", "published": "2022-12-15" },
+  { "when": "Jun/Jul-2026", "what": "CMD Sanjay Kumar Jain resigned (personal reasons), effective 20-Jul-2026; Rahul Himalian (Director Tourism & Marketing) holds charge; new CFO Rajneesh Narain on the Q1 call", "impact": "Leadership in transition during the OFS window", "src": "https://www.sahi.com/news/irctc-q1-revenue-up-18-to-1-369-53-crore-government-plans-fy27-ofs-3360-PE1_COR", "published": "2026-08-13" },
+  { "when": "Aug-2026", "what": "Government reported to plan a ~5% OFS in IRCTC in FY27 (with Hindustan Zinc, Hindustan Copper, Mazagon Dock)", "impact": "~40 mn shares of supply (~Rs1,800 cr at Rs455); floor prices are usually set at a discount", "src": "https://www.freepressjournal.in/amp/business/govt-plans-fresh-ofs-in-hindustan-zinc-hindustan-copper-mdl-and-irctc-in-fy27", "published": "2026-08-12" }
+ ],
+ "management": { "cmd": "Rahul Himalian, Director (Tourism & Marketing), holding charge of CMD after Sanjay Kumar Jain's resignation (effective 20-Jul-2026)", "cfo": "Rajneesh Narain, Director (Finance) & CFO (Q1FY27 call); Sudhir Kumar signed the FY26 accounts", "catering": "Manoj Kumar Sharma, Director (Catering Services)", "auditor": "N.K. Bhargava & Co. (appointed by the Comptroller and Auditor General)", "cs": "Suman Kalra" },
+ "dividendPolicy": "DIPAM guidelines for CPSEs: at least 30% of PAT or 4% of net worth, whichever is higher; buybacks are decided by DIPAM. FY26 payout 52% (Rs9 a share)"
+}

@@ -1,0 +1,312 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for IRCTC (consolidated, Rs crore). Segment model: each segment's gross revenue grows and earns a segment result (EBIT as the company reports it: after segment depreciation, CSR and ECL; FY26 base and margins exclude the Rs16.8 cr of exceptional items allocated to segments). A negative 'inter-segment' line removes Rail Neer water sold to catering so revenue equals revenue from operations. 'Unallocated' = sum of segment results less reported EBITDA (segment results are after Rs50 cr of depreciation; corporate costs are partly unallocated). Valued on P/E, as the street does; the multiple is derived in tools/authoring/IRCTC.ctx.js and written here by IRCTC.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "cat",
+   "name": "Catering",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBIT",
+   "base": 2398.8,
+   "growth": [
+    19,
+    13,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    10,
+    10.5,
+    10.5
+   ],
+   "hist": {
+    "driver": "catRev",
+    "revenue": "catRev",
+    "adjEbitda": "catEbitEx"
+   },
+   "_why": "FY26 +12.9%; Q1FY27 +33.9% (prepaid-train onboard sales Rs301 cr to Rs413 cr, licence fees +17%, e-catering, Rs41 cr of election specials). Management guides ~15% a year. FY27E +19% = Q1 +34%, Q2-Q4 ~+14% against Q3-Q4FY26 bases that were already +19% and +27%. FY28E +13%, FY29E +12%: ~8% passenger growth, ~20 Vande Bharat sleepers (~Rs6 cr licence fee each), e-catering. PL: sales CAGR 11% FY26-28E for the company.",
+   "_marginWhy": "Segment EBIT margin 10.4% in FY26 (FY24 13.8%, FY25 11.2%); Q1FY27 9.3% after ~Rs14 cr of one-offs (HR cost Rs10 cr, proof-of-concept trains Rs4 cr), ~11.2% without them. Management: 'traditionally 10-12%'. Prepaid trains (no input-tax credit on the 5% GST) keep rising in the mix: 10.0% FY27E, 10.5% FY28-29E."
+  },
+  {
+   "key": "it",
+   "name": "Internet ticketing",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBIT",
+   "base": 1535.5,
+   "growth": [
+    4,
+    6,
+    6
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    80,
+    80.5,
+    80.5
+   ],
+   "hist": {
+    "driver": "itRev",
+    "revenue": "itRev",
+    "adjEbitda": "itEbitEx"
+   },
+   "_why": "FY26 +7.7%; Q1FY27 +0.6%: convenience fee Rs236 cr to Rs248 cr (+5%), non-convenience Rs123 cr to Rs113 cr (ads removed from the new website, agent curbs, RailOne). The fee is unchanged since 2019 and UPI (Rs10/Rs20 vs Rs15/Rs30 on cards) rose to 51% of tickets. FY27E +4% (fee +5-6% on tickets, non-convenience flat), FY28-29E +6% (management target ~7%, non-convenience back towards Rs150 cr a quarter with iPay and loyalty). No fee increase assumed.",
+   "_marginWhy": "Segment EBIT margin 81.8% in FY26 before exceptional items (84-85% in FY23-25 quarters), 80.2% in Q1FY27 (Rs10 cr platform maintenance). Management: 'normally 80% to 85%', with NGET infrastructure refresh and an active-active disaster-recovery site adding cost in Q2-Q4. 80.0% FY27E, 80.5% after."
+  },
+  {
+   "key": "tour",
+   "name": "Tourism (incl. State Teertha)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBIT",
+   "base": 890.1,
+   "growth": [
+    15,
+    14,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    13.5,
+    13.5,
+    13.5
+   ],
+   "hist": {
+    "driver": "tourRev",
+    "revenue": "tourRev",
+    "adjEbitda": "tourEbitEx"
+   },
+   "_why": "FY26 +19.5% (Rs890 cr); Q1FY27 +13.8%. Management: 'next year it may cross Rs1,000 plus crores' and ~20% a year. We take +15% (Rs1,024 cr), +14%, +12%: Bharat Gaurav and pilgrimage demand, but West Asia disruption and lumpy state contracts.",
+   "_marginWhy": "13.6% in FY26 before exceptional items (FY25 11.5%, FY24 1.5% after Q1FY24 losses); Q1FY27 11.5% (seasonally weak quarter), Q3-Q4 16-19%. 13.5%."
+  },
+  {
+   "key": "rn",
+   "name": "Rail Neer",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBIT",
+   "base": 407.6,
+   "growth": [
+    4,
+    8,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    11.5,
+    12.5,
+    12.5
+   ],
+   "hist": {
+    "driver": "rnRev",
+    "revenue": "rnRev",
+    "adjEbitda": "rnEbitEx"
+   },
+   "_why": "Gross segment revenue (incl. water sold to catering). FY26 +3.4%; Q1FY27 +3.1%. Capacity 17.77 lakh bottles/day after a plant closure, supply ~15.5 lakh: growth is capacity-bound. Ambernath (+1 lakh) and Danapur (+1 lakh) expansions during FY27; Prayagraj, Mysore, Ranchi and Bhagalpur plants from FY28-29 (land allotted at two). +4%, +8%, +12%.",
+   "_marginWhy": "13.6% in FY26 (FY24 8.5%, FY25 11.2%); Q1FY27 9.8% as resin (preform) costs rose with oil after the West Asia crisis. 11.5% FY27E, 12.5% after; the Rs14 price is administered and profit is shared with the Railways."
+  },
+  {
+   "key": "elim",
+   "name": "Inter-segment (Rail Neer to catering)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBIT",
+   "base": -17,
+   "growth": [
+    4,
+    8,
+    12
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elim",
+    "revenue": "elim",
+    "adjEbitda": null
+   },
+   "_why": "Revenue from operations less the sum of segments: -Rs14 cr (FY23), -Rs16 cr (FY24), -Rs15 cr (FY25), -Rs17 cr (FY26). Grows with Rail Neer.",
+   "_marginWhy": "No margin (eliminated at cost)."
+  }
+ ],
+ "unallocated": [
+  15,
+  17,
+  19
+ ],
+ "_unallocLabel": "Sum of segment results less EBITDA (segment results are after depreciation; net corporate items)",
+ "_unallocWhy": "Sum of segment results before exceptional items less reported EBITDA: Rs16.6 cr in FY26 (Rs1,682.6 cr vs Rs1,666 cr), -Rs8 cr in FY25, -Rs6 cr in FY23; FY24 is distorted by Rs59 cr of exceptional charges inside segment results. Rs15-19 cr, rising with depreciation.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  120,
+  150,
+  150
+ ],
+ "_capexWhy": "Cash capex Rs77 cr in FY26 and Rs47 cr in FY25 (PL). FY27-29E: NGET ticketing-platform refresh (~Rs150 cr cited as invested), a disaster-recovery site, two Rail Neer expansions and four new plants (cost not disclosed; gap) and possible hotels. PL models Rs90 cr / Rs120 cr for FY27E / FY28E.",
+ "depRateOnGrossBlock": 4,
+ "_depWhy": "FY26 depreciation Rs50 cr = 3.95% of average gross block (Rs1,265 cr incl. right-of-use assets); Q1FY27 Rs12.4 cr. 4.0% keeps FY27E at ~Rs55 cr (PL Rs54 cr).",
+ "otherTreasury": {
+  "base": 81,
+  "_why": "Treasury outside Screener's 'cash' (Rs2,868 cr = cash Rs412 cr + other bank balances Rs2,455 cr): interest accrued on deposits Rs93.2 cr and margin-money TDRs in other financial assets Rs1.0 cr, less restricted balances (unpaid dividend, unspent CSR, EPR fund) Rs13.2 cr (AR FY26 notes 10.3, 10.4). With Rs80.7 cr of lease liabilities, net treasury at Mar-26 is Rs2,868 cr (~Rs36 a share). Part of the cash reflects money due to the Railways, but receivables from the Railways are larger."
+ },
+ "treasuryYield": [
+  6.75,
+  6.5,
+  6.5
+ ],
+ "_treasuryWhy": "Applied by the engine to opening net treasury. FY26 interest income Rs176 cr (FDRs Rs170.2 cr + others) was 7.8% of opening (Mar-25) net treasury of ~Rs2,251 cr and ~6.9% of the average, helped by deposits placed before the RBI's cuts. With the repo rate at 5.25% we take 6.75% for FY27E (Rs194 cr) and 6.5% after.",
+ "otherIncome": [
+  80,
+  85,
+  90
+ ],
+ "_otherIncomeWhy": "Non-treasury other income (AR FY26 note 23): contractual fines and penalties Rs53.4 cr, amortisation of deferred security deposits Rs10.4 cr, rent Rs2.9 cr, countermanding charges Rs3.9 cr, misc. Rs13.6 cr = Rs84.5 cr in FY26 (Rs62.5 cr in FY25). Rs80-90 cr. FY27E total ~Rs274 cr vs Rs260 cr in FY26 and Rs271 cr in the twelve months to Jun-26 (both before exceptional items); Q1FY27 Rs72 cr. Exceptional items (Rs16.8 cr in FY26, mostly legacy write-backs) are not forecast.",
+ "interest": [
+  18,
+  19,
+  20
+ ],
+ "_interestLabel": "Interest cost (leases and other)",
+ "_interestWhy": "FY26 Rs18 cr; Q1FY27 Rs4.3 cr. No borrowings other than leases.",
+ "taxRate": [
+  25.5,
+  25.5,
+  25.5
+ ],
+ "_taxWhy": "Q1FY27 25.3%; FY26 25.7%; new regime ~25.2% plus disallowances.",
+ "payout": [
+  52,
+  52,
+  52
+ ],
+ "_payoutWhy": "FY26 Rs9 a share (Rs720 cr, 52%); FY25 49%, FY24 47%. DIPAM guideline: at least 30% of PAT or 4% of net worth.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 27,
+  "fadeCapexPctTo": 2,
+  "depPctOfSales": 1,
+  "rollForwardMonths": 6,
+  "_betaWhy": "A debt-free monopoly with steady railway demand, but its fees are set by its owner and regulator and the stock carries OFS supply: 0.9 (Ke 11.9%).",
+  "_tgWhy": "Rail passenger and food spending grow with nominal GDP; ticketing is near saturation. 6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~11% to 8% over 15 years.",
+  "_fadeMarginWhy": "EBITDA margin drifts from ~29% to 27% as catering (9-12%) keeps growing faster than ticketing (80%+).",
+  "_fadeCapexWhy": "Asset-light: capex ~2% of revenue at most; depreciation ~1%."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The Railways allow a convenience-fee revision (or the UPI fee moves to the card level) and iPay and the unified portal lift non-convenience income; catering keeps growing ~16% on Vande Bharat sleepers and e-catering.",
+   "fadeMarginTo": 29,
+   "segments": {
+    "it": {
+     "growthDelta": 4,
+     "marginDelta": 1.5
+    },
+    "cat": {
+     "growthDelta": 3
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Ticketing stalls: RailOne takes more bookings at no fee, UPI keeps cutting the fee per ticket, or the Railways reopen a fee share; catering margins slip as prepaid trains (no tax credit) and branded-catering trials grow; tourism slows.",
+   "fadeMarginTo": 24,
+   "segments": {
+    "it": {
+     "growthDelta": -5,
+     "marginDelta": -5
+    },
+    "cat": {
+     "marginDelta": -1.5
+    },
+    "tour": {
+     "growthDelta": -6,
+     "marginDelta": -2
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 31.5,
+      "bull": 42.5,
+      "bear": 28.5
+     },
+     "why": "How the street values IRCTC: P/E on forward EPS (PL 35x FY28E; Choice 25x the FY28-29E average). Multiple = own forward P/E median since Apr-2021 x the five-name sector move (Info Edge, IndiaMART, Container Corp, RailTel, RITES); derived in IRCTC.ctx.js and written by IRCTC.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 25,
+      "bull": 34,
+      "bear": 23
+     },
+     "why": "Values the operating business and the treasury separately (forward EV/EBITDA history computed in IRCTC.ctx.js)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 11.9%, terminal growth 6%, plus net treasury."
+    }
+   ]
+  }
+ }
+}
