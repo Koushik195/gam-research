@@ -1,0 +1,236 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Lemon Tree Hotels Ltd (consolidated, Rs crore). One reported segment (hotels); we forecast it in two streams (owned and leased hotels; fees from third-party managed and franchised hotels; businessLines.hotel, checked against the segment in LEMONTREE.ctx.js). Operating EBITDA is post-Ind AS 116 and excludes other income. Minorities (41.09% of Fleur Hotels, Warburg Pincus) have no engine line: they sit in the tax rate (see _taxWhy) and in the SOTP. We model the group as it stands on 30-Sep-2026 (the Fleur scheme is not yet effective); the scheme is a sensitivity.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "hotel",
+   "name": "Hotels (owned, leased and managed)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1444.5,
+   "growth": [
+    9.1255,
+    11.097,
+    10.4746
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    47.8,
+    49.5,
+    50.5
+   ],
+   "hist": {
+    "driver": "hotelRev",
+    "revenue": "hotelRev",
+    "adjEbitda": "hotelEbitda"
+   },
+   "_why": "Sum of the two streams in businessLines.hotel. Owned and leased hotels +8% / +10% / +9%: Q1FY27 owned revenue +7% (RevPAR +6%: occupancy +314 bps, ARR +2% as the West Asia shock pushed the mix to retail); 'July was great ... August solid', double-digit growth from Q2 guided (10-Aug-2026 call); Keys RevPAR +19% after renovation; Aurika Shimla (90 rooms) opens in FY27, Aurika Shillong (165, leased) in H2FY28, Varanasi (47) in FY29; ICRA (29-Sep-2026) sees premium-hotel revenue +7-9% in FY27. Third-party fees +30% / +28% / +30%: FY26 +23%, Q1FY27 +42%; ~2,000 keys to open in FY27 and ~5,000 rooms signed in FY26 open around FY29.",
+   "_revWhy": "Driver is revenue itself.",
+   "_marginWhy": "Operating EBITDA margin FY24 48.8%, FY25 49.3%, FY26 47.8% (renovation, technology and the GST change cost 5.8% of revenue), Q1FY27 43.4% vs 44.5% (GST input-credit loss 2.3% of revenue, SAR provision 0.8%). Guide: FY27 net margin 'well better than' 47%, FY28 at least 50% as renovation and GST costs fall to ~3.7% of revenue. 47.8% / 49.5% / 50.5%: FY27 flat on FY26 (GST full year offsets lower renovation), then the guided step-up, rising fee mix in FY29; we stay a little below the 50% FY28 guide on an operating basis (the company figure includes ~0.5 pp of other income)."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Corporate costs not in the segment",
+ "_unallocWhy": "Single reported segment: the segment is consolidated operating EBITDA.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "businessLines": {
+  "_why": "FY26 base: revenue from operations Rs1,444.5 cr = fees from third-party managed and franchised hotels Rs73.9 cr (Q4FY26 call) + owned and leased hotels Rs1,370.6 cr (remainder). Fees from Fleur (Rs95.8 cr) are intra-group. Growth per stream in segments[0]._why.",
+  "hotel": {
+   "base": {
+    "owned": 1370.6,
+    "fees": 73.9
+   },
+   "growth": {
+    "owned": [
+     8,
+     10,
+     9
+    ],
+    "fees": [
+     30,
+     28,
+     30
+    ]
+   }
+  }
+ },
+ "capex": [
+  100,
+  100,
+  100
+ ],
+ "_capexWhy": "CRISIL (17-Jul-2026): capex of Rs90-100 cr a year over FY27-29 to add about 250 premium keys (Aurika Shimla, Shillong, Varanasi) plus renovation capex, funded from accruals and debt; renovation spend to fall towards ~1% of revenue from FY28 (10-Aug-2026 call). Aurika Nehru Place (572 rooms; capex 'to be announced', opening FY30 or later) and Warburg-funded acquisitions (~2,500 keys under discussion, none signed) are not in our numbers.",
+ "depRateOnGrossBlock": 3.1,
+ "_depWhy": "FY26 depreciation Rs139 cr (assets Rs113 cr + right-of-use Rs25 cr) = 3.0% of the model gross block (Rs4,693 cr incl. right-of-use); Q1FY27 Rs36 cr (Rs145 cr annualised). 3.1% gives ~Rs148 cr in FY27E, rising with capex.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Zero: Lemon Tree has net debt; finance income is built in otherIncome.",
+ "otherIncome": [
+  20,
+  22,
+  24
+ ],
+ "_otherIncomeWhy": "Screener basis (other income + finance income + share of associates, before exceptional items): FY26 Rs8.2 cr + Rs12.3 cr − Rs0.9 cr = Rs19.6 cr; Q1FY27 Rs2.1 cr + Rs4.1 cr − Rs0.3 cr = Rs5.9 cr (Rs24 cr annualised, includes interest on ~Rs200 cr of cash). Rs20 / 22 / 24 cr: interest on cash, miscellaneous income; no exceptional items.",
+ "interest": [
+  150,
+  120,
+  90
+ ],
+ "_interestLabel": "Finance cost (bank debt + leases)",
+ "_interestWhy": "FY26 Rs179.5 cr (borrowings Rs136.7 cr + leases Rs42.8 cr); Q1FY27 Rs40.5 cr (Rs29.8 cr + Rs10.7 cr) on gross debt of Rs1,475 cr at 7.48%, falling each quarter (Rs1,658 cr a year earlier). We let free cash flow (~Rs370-540 cr a year in our model) repay bank debt, as the company has done since FY24 (CRISIL: Rs180-200 cr of scheduled repayments a year; aim to be debt-free at Lemon Tree in 3-4 years): bank interest ~Rs105 / 75 / 45 cr at ~7.4% plus lease interest ~Rs43-46 cr (Shillong from FY28). Acquisitions with Warburg money would add debt and EBITDA; neither is in our numbers.",
+ "taxRate": [
+  41,
+  41,
+  41
+ ],
+ "_taxWhy": "Tax plus minorities (engine workaround: no minority line). FY25: attributable Rs197 cr on PBT Rs296 cr = 33.5% leakage; FY26 before exceptional items: Rs245 cr on Rs392 cr = 37.6%; Q1FY27: tax Rs21.8 cr + minorities Rs11.3 cr on PBT Rs79.1 cr = 41.8%. 41%: tax ~25.5% of PBT (Q1 27.6%; FY26 19.7% helped by deferred tax) plus minorities ~21% of profit after tax (FY26 21.2%, Q1 19.7%; Warburg's 41.09% of Fleur).",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividend for FY26 (AR FY26) or any earlier year; cash goes to debt reduction and, after the scheme, to Fleur's growth.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.8,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 52,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 7,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity; Lemon Tree carries debt, so beta 0.8 sets the rate at 11.3%, our WACC: cost of equity ~12.5% (beta 1.0) on ~83% of capital, post-tax debt ~5.6% (7.48% × 0.75) on ~17% (net debt incl. leases ~Rs1,800 cr vs ~Rs8,700 cr market value).",
+  "_tgWhy": "Indian travel grows with nominal GDP; 6% nominal, as for the other hotel reports.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~10% to 8% by year 15 as fee growth normalises.",
+  "_fadeMarginWhy": "52%: a rising share of fees (75-80% margin business) on a mid-market owned base that earns ~45-50%.",
+  "_fadeCapexWhy": "Capex fades to 6% of revenue: Lemon Tree (asset-light) needs little; the owned base needs renovation (~2-3%) and some growth keys."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Corporate travel recovers fast after the West Asia shock, ARR grows ~8-10% a year, Keys and the renovated hotels re-price, managed openings run ahead of the 2,000-key FY27 target, margins pass 50% in FY28 and the market pays the top quartile of Lemon Tree's own post-Covid multiple after the same sector move.",
+   "fadeMarginTo": 54,
+   "segments": {
+    "hotel": {
+     "growthDelta": 2,
+     "marginDelta": 1.5
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Corporate demand stays soft, new supply weighs on Mumbai and Gurugram, ARR stalls, GST and renovation costs fall more slowly, managed openings slip and the multiple stays at the bottom quartile after the sector de-rating.",
+   "fadeMarginTo": 49,
+   "segments": {
+    "hotel": {
+     "growthDelta": -4,
+     "marginDelta": -2
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "Hotels and the management business (consolidated, 100%)",
+    "seg": "hotel",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 16,
+     "bull": 18,
+     "bear": 12.5
+    },
+    "note": "Post-Ind AS operating EBITDA; lease liabilities in the net debt line. Multiple derived in the valuation chapter."
+   },
+   {
+    "name": "Less: minorities (Warburg Pincus's 41.09% of Fleur Hotels)",
+    "adj": {
+     "base": -2947,
+     "bull": -3606,
+     "bear": -1966
+    },
+    "metricLabel": "21% (minorities ÷ profit after tax) × (hotel EV − net debt)",
+    "note": "Minorities' share of the consolidated equity value, on their share of FY26 profit (21.2%); checked in LEMONTREE.ctx2.js."
+   },
+   {
+    "name": "Net debt at Sep-28E (model: borrowings incl. leases less cash and investments)",
+    "netCash": true,
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "½ Mar-28E + ½ Mar-29E",
+    "note": "Mar-26 on Screener: borrowings Rs2,004 cr (bank Rs1,500 cr + leases Rs503 cr) less cash, bank and investments."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts (EV/EBITDA)",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values Lemon Tree: EV/EBITDA on FY28E EBITDA, adjusted for the Fleur minority (ICICI Direct 20x FY28E on EBITDA less APG's 41.09% of Fleur; Motilal Oswal 17x on standalone and Lemon Tree's share of Fleur, 30x on the management company; PL 22x fee / 20x asset-heavy). Sep-28E consolidated EBITDA, less minorities, less net debt."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 31,
+      "bull": 34.5,
+      "bear": 27.5
+     },
+     "why": "Cross-check on attributable earnings: own forward P/E median since Apr-2022 adjusted for the hotel peers' P/E move over the same windows."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at an 11.3% WACC, 6% terminal growth, less net debt."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,280 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for BLS International (consolidated, Rs crore). Two reported segments on the company's EBITDA basis: Visa & Consular (incl. Citizenship Invest, iDATA, UK hotel and the new UIDAI Aadhaar Seva Kendras) and Digital Services (BLS E-Services group, incl. Atyati from 2-Jul-2026). Each segment's growth and margin come from a business-line build kept in `businessLines` and checked in tools/authoring/BLS.ctx.js. Screener's annual P&L moves bank charges (Rs29.9 cr in FY26) from costs to interest, so the 'unallocated' line adds them back to EBITDA (negative) and `interest` carries them. Net Profit is attributable to owners (BLS.patch.js: Screener 'Profit for EPS'); the tax line also carries minorities. Valued on P/E; the multiple is derived in BLS.ctx.js and written here by BLS.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "businessLines": {
+  "visaCore": {
+   "base": 1840.3,
+   "growth": [
+    13,
+    11,
+    10
+   ],
+   "margin": [
+    40.5,
+    40.5,
+    40.5
+   ],
+   "_why": "Visa & Consular ex-Aadhaar. FY26 +11.3%; Q1FY27 +21.6% reported, ~+15% excluding Aadhaar (Rs17.5 cr) and the UK hotel (Rs16 cr vs Rs2.5 cr): volumes flat at 11.3 lakh (West Asia war), net revenue per application +11%, Citizenship Invest Rs17.5 cr vs Rs11 cr. Management: 12-15% growth (travel 7-8% + ~5% pricing/mix), or 10-15% after expiries and wins (Aug-2026). +13% FY27E (Q1 at ~+15%), +11%, +10%. Margin 40.1% in FY26 and 40.3% in Q1FY27, guided 'maintain ~40%': 40.5% on the business ex-Aadhaar."
+  },
+  "aadhaar": {
+   "revenue": [
+    180,
+    400,
+    420
+   ],
+   "margin": [
+    12.5,
+    12.5,
+    12.5
+   ],
+   "_why": "UIDAI work order Rs2,055 cr over six years (management: ~Rs2,500 cr of revenue over the term, i.e. ~Rs400-420 cr a year at full run-rate), plus Bihar enrolment centres (Rs100 cr). Rs17.5 cr in Q1FY27; phase 3 completes in Q2, full revenue 'from Q4 to Q1'. FY27E ~Rs180 cr (Q1 17.5, Q2 ~30, Q3 ~50, Q4 ~80), FY28E Rs400 cr, FY29E Rs420 cr. Margin: management said 15-20% (May-2026) and 10-15% (Aug-2026): we take 12.5%."
+  },
+  "digitalOrganic": {
+   "base": 1157.9,
+   "growth": [
+    20,
+    17,
+    15
+   ],
+   "margin": [
+    7.8,
+    8.1,
+    8.4
+   ],
+   "_why": "BLS E-Services ex-Atyati. FY26 +114% (Aadifidelis consolidated from Nov-2024); Q1FY27 +32% organically (both quarters include Aadifidelis): BC GTV +13%, loan distribution, Aadhaar-linked assisted services. +20%, +17%, +15%. Margin 7.0% in FY26, 8.0% in Q1FY27; management: margins rise with scale but stay structurally low (loan distribution earns 4-5%)."
+  },
+  "atyati": {
+   "revenue": [
+    206,
+    300,
+    330
+   ],
+   "margin": [
+    7.5,
+    7.5,
+    7.5
+   ],
+   "_why": "Bought 2-Jul-2026 for Rs156.82 cr: FY26 revenue ~Rs275 cr, EBITDA Rs20-21 cr (CFO, Aug-2026). FY27E = nine months (~Rs206 cr); ~+9-10% a year after. Margin 7.5% (Rs20.5 cr / Rs275 cr)."
+  },
+  "_check": "visa = visaCore + aadhaar; digital = digitalOrganic + atyati. Segment growth/margin below are these sums (BLS.ctx.js throws if they differ by more than Rs1 cr)."
+ },
+ "segments": [
+  {
+   "key": "visa",
+   "name": "Visa & Consular Services",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1840.3,
+   "growth": [
+    22.78,
+    19.86,
+    9.26
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    38.27,
+    36.36,
+    36.53
+   ],
+   "hist": {
+    "driver": "visaRev",
+    "revenue": "visaRev",
+    "adjEbitda": "visaEbitda"
+   },
+   "_why": "Sum of the visa core and Aadhaar lines (businessLines). FY27E +22.8% (Q1 +21.6%), FY28E +19.9% (first full Aadhaar year), FY29E +9.3%.",
+   "_marginWhy": "Mix: ~40.5% on visa and consular, 12.5% on Aadhaar, so the segment margin falls from 40.1% (FY26) to 38.3% (FY27E) and ~36.4-36.5% (FY28-29E)."
+  },
+  {
+   "key": "dig",
+   "name": "Digital Services",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 1157.9,
+   "growth": [
+    37.79,
+    20.7,
+    14.22
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    7.76,
+    8.01,
+    8.26
+   ],
+   "hist": {
+    "driver": "digRev",
+    "revenue": "digRev",
+    "adjEbitda": "digEbitda"
+   },
+   "_why": "Organic digital plus Atyati (businessLines): +37.8% in FY27E (+20% organic, ~18 points from Atyati), +20.7%, +14.2%.",
+   "_marginWhy": "7.0% in FY26, 8.0% in Q1FY27; 7.8-8.3% (Atyati at 7.5%)."
+  }
+ ],
+ "unallocated": [
+  -38.55,
+  -46.34,
+  -51.59
+ ],
+ "_unallocLabel": "Bank charges added back (Screener's annual P&L shows them in interest)",
+ "_unallocWhy": "Company EBITDA = sum of segments (FY26: Rs737.8 + Rs81.0 = Rs818.8 cr vs Rs818.9 cr reported). Screener's annual EBITDA (Rs849 cr) excludes bank charges (Rs29.9 cr in FY26, 1.0% of revenue; AR note 26), which it puts in interest. We keep 1.0% of revenue and add the same amount to interest, so PBT is unaffected.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  220,
+  190,
+  200
+ ],
+ "_capexWhy": "Cash capex Rs137 cr in FY26, Rs161 cr in FY25. FY27E: remaining Aadhaar phases (Rs125 cr in all, Rs75 cr spent by Aug-2026), new visa centres and technology; Screener's gross block also takes new leased centres (right-of-use assets), which the engine adds only through capex, so the figures include ~Rs50-60 cr of new leases a year.",
+ "depRateOnGrossBlock": 6.7,
+ "_depWhy": "FY26 D&A Rs94 cr on an average gross block of ~Rs1,800 cr (which includes ~Rs1,213 cr of goodwill and intangibles; goodwill is not amortised). Q1FY27 Rs31.7 cr, 'a little higher' in Q2 as the Aadhaar centres complete: ~Rs140 cr in FY27E. 6.7% on gross block gives ~Rs141 cr.",
+ "otherTreasury": {
+  "base": -172,
+  "_why": "Items outside Screener's cash and investments: term deposits over 12 months Rs152.1 cr and accrued interest Rs16.9 cr (AR note 5) are treasury; the associate stake inside investments (Rs20.8 cr) is not; non-controlling interests at book (Rs320.2 cr, inside Screener's other liabilities) are counted as a claim like debt, so they come out of working capital (KIMS precedent). Lease liabilities (Rs200 cr) sit in Screener borrowings. Engine net treasury at Mar-26, after BLS.patch.js takes out the Atyati price (Rs156.8 cr) and the Rs45.2 cr spent on BLS E-Services shares, is ~Rs730 cr; the company's own net cash (before leases and minorities) was Rs1,434 cr (Rs1,617 cr at Jun-26)."
+ },
+ "treasuryYield": [
+  10,
+  7,
+  6.4
+ ],
+ "_treasuryWhy": "Applied to the engine's opening net treasury, which is net of leases and minority book value (~Rs520 cr that earn nothing), so the rate is higher than a deposit rate. Equivalent to ~5.0% on gross cash, deposits and debt funds: FY26 treasury income (deposits Rs52.1 cr, bonds Rs3.8 cr, fund gains Rs13.6 cr = Rs69.4 cr) was ~5.0% of average gross treasury (~Rs1,400 cr); Q1FY27 total other income Rs22.7 cr. FY27E ~Rs73 cr on ~Rs1,463 cr gross after the Atyati and BLS E-Services payments; the rate steps down as the base grows (no acquisitions or buyback assumed).",
+ "otherIncome": [
+  18,
+  19,
+  20
+ ],
+ "_otherIncomeWhy": "Non-treasury other income (AR note 23): insurance and commission Rs7.2 cr, miscellaneous Rs10.1 cr, other interest Rs0.7 cr = Rs18.0 cr in FY26. The FX gain (Rs7.9 cr, mostly one-off) is not forecast. FY27E total ~Rs91 cr vs Rs95.2 cr in FY26 and Rs22.7 cr x 4 = Rs91 cr in Q1FY27.",
+ "interest": [
+  71.55,
+  82.34,
+  89.59
+ ],
+ "_interestLabel": "Finance cost (leases, borrowings) plus bank charges (Screener basis)",
+ "_interestWhy": "Finance cost Rs23.2 cr in FY26 and Rs7.7 cr in Q1FY27 (new Aadhaar leases): Rs33 cr, Rs36 cr, Rs38 cr; plus bank charges at 1.0% of revenue (see unallocated).",
+ "taxRate": [
+  17.5,
+  18,
+  18
+ ],
+ "_taxWhy": "Tax PLUS minorities (engine workaround; Net Profit is attributable). FY26: PBT Rs797 cr, tax Rs73 cr (9.2%), minorities Rs37 cr, owners' profit Rs687 cr = 13.8% leakage. Q1FY27: PBT Rs236 cr, tax Rs34 cr (14.4%), minorities Rs12 cr = 19.5%. Management guides ~12% tax for FY27 (UAE free zone; India's share rising with Aadhaar); a UAE rate change could add ~1 point. Minorities ~5.5% of PBT: ~47% of BLS E-Services (BLS 53.2% after Apr-Aug 2026 purchases), 43% of Aadifidelis, 9% of Zero Mass, with Atyati inside BLS E-Services. 12% + 5.5% = 17.5% FY27E; 18% after.",
+ "payout": [
+  15,
+  15,
+  15
+ ],
+ "_payoutWhy": "FY26 DPS Rs2.50 (Rs103 cr, 15% of owners' profit); FY25 ~8%. Management prefers M&A to buybacks; 15% kept.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 24,
+  "fadeCapexPctTo": 3,
+  "depPctOfSales": 3,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Tender-driven revenue from a few governments, regulatory events (MEA debarment and its reversal), FX and a promoter-controlled board: 1.0 (Ke 12.5%) despite net cash.",
+  "_tgWhy": "Cross-border travel and outsourced visa volumes grow ~7-9% a year (industry estimates in the company deck); 6% in perpetuity.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~11% (FY29E) to 8% over 15 years.",
+  "_fadeMarginWhy": "EBITDA margin drifts from ~24.7% (FY29E, Screener basis) to 24% as Digital (8%) and Aadhaar keep growing faster than visa.",
+  "_fadeCapexWhy": "Asset-light (leased centres): capex and depreciation ~3% of revenue.",
+  "_minorityNote": "The DCF counts minorities only at book (Rs320 cr inside otherTreasury); their share of BLS E-Services' market value is higher, so the DCF overstates value per share slightly."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Visa volumes recover after the West Asia war and new global contracts (Slovakia, Cyprus, a further European tender) ramp; Aadhaar runs at the top of its margin range; digital keeps compounding.",
+   "fadeMarginTo": 26,
+   "segments": {
+    "visa": {
+     "growthDelta": 4,
+     "marginDelta": 1.5
+    },
+    "dig": {
+     "growthDelta": 3
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "A large European contract is lost or re-tendered at lower prices, visa volumes stay flat, Indian-mission work shrinks (the MEA issues a fresh notice), and Aadhaar earns the bottom of its range.",
+   "fadeMarginTo": 21,
+   "segments": {
+    "visa": {
+     "growthDelta": -7,
+     "marginDelta": -3
+    },
+    "dig": {
+     "growthDelta": -5,
+     "marginDelta": -1
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 11,
+      "bull": 18.5,
+      "bear": 7.5
+     },
+     "why": "How the street values BLS: P/E on forward EPS (IDBI Capital, the only active broker: 21.5x FY27E at its Dec-2025 initiation; May-2026 note's year and multiple behind a login). Multiple = own one-year-forward P/E median since Apr-2021 x the sector move of TBO Tek's widened travel + internet set (IRCTC, Thomas Cook, Info Edge, IndiaMART) vs five-year medians; derived in BLS.ctx.js and written by BLS.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 8.5,
+      "bull": 14,
+      "bear": 5.5
+     },
+     "why": "Values the operating business and the treasury separately (own forward EV/EBITDA history computed in BLS.ctx.js)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 12.5%, terminal growth 6%, plus net treasury (after leases and minorities at book)."
+    }
+   ]
+  }
+ }
+}

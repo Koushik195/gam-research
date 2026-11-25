@@ -1,0 +1,85 @@
+{
+ "symbol": "BLS",
+ "asOf": "2026-09-30",
+ "industry": {
+  "market": "Global visa market ~US$7.7 bn by value (2024; outsourced ~US$2.2 bn ex-USA, 31%) and ~133 mn applications (outsourced ~38%); outsourced value seen growing ~14% a year to ~US$3.2 bn by 2029 and the outsourced share of applications from 38% to 50% (industry estimates in the company deck). Consular outsourcing ~US$134 mn (2024); investment migration ~US$0.9 bn.",
+  "structure": "Two global leaders: VFS Global (unlisted; Blackstone/Temasek-owned) and BLS, followed by TLScontact (Teleperformance), iDATA (now BLS), Visametric (now BLS) and regional players. Governments award 3-10-year, usually exclusive, country or regional contracts by tender; the applicant pays (user-pay), so the price is set in the tender and value-added services carry the margin.",
+  "drivers": "Outbound travel from India, the Gulf, China and Africa to Europe/North America; digital/e-visas and visa-free arrangements reduce in-person applications over time (the company itself lists the shift to digital visa applications as an industry trend).",
+  "src": "Company deck Q1FY27 pp.32-35 (industry reports cited by the company); IDBI Capital initiation (Dec-2025)"
+ },
+ "peers": {
+  "approach": "No listed Indian or global pure-play visa outsourcer (VFS Global and TLScontact are unlisted or inside larger groups). Screener's peer list puts BLS with travel names (IRCTC, TBO Tek, ixigo, Thomas Cook, Easy Trip, Waterways Leisure); IDBI Capital's sector tag is 'Tour & Travel'. We use the services/travel set already used for TBO Tek (TBOTEK.ctx.js): the two usable travel names widened to the internet platforms brokers use, all four in the base. BLS has a five-year P/E history, so each peer's P/E at the 30-Sep close is compared with its own five-year median (as IRCTC); TBO Tek used a 12-month window only because it listed in May-2024.",
+  "set": ["IRCTC", "THOMASCOOK", "NAUKRI", "INDIAMART"],
+  "travel": ["IRCTC", "THOMASCOOK"],
+  "internet": ["NAUKRI", "INDIAMART"],
+  "irctcSet": ["NAUKRI", "INDIAMART", "CONCOR", "RAILTEL", "RITES"],
+  "excluded": {
+   "BLS": "The company itself (§7c).",
+   "TBOTEK, IXIGO": "Listed May-2024 and Jun-2024: no five-year P/E median.",
+   "EASEMYTRIP": "Loss-making in FY26 and the twelve months to Jun-26: no meaningful P/E.",
+   "WATERWAYS (Waterways Leisure)": "Cruise operator with no screener history fetched and earnings scaling from a low base (P/E 84x).",
+   "BLSE (BLS E-Services)": "BLS's own 51-53% subsidiary: not an independent peer.",
+   "ETERNAL, SWIGGY, NYKAA, PAYTM, POLICYBZR": "Excluded from the TBO Tek set as loss-making or with earnings too small for a meaningful P/E (TBOTEK deep.json)."
+  },
+  "thin": "The natural set (listed visa outsourcers) is empty and the travel set has only two usable names (IRCTC, Thomas Cook): fewer than three, so per the thin-peer rule we widen to the internet platforms with a five-year P/E history (Info Edge, IndiaMART), as TBO Tek does, and use all four in the base. Travel-only, internet-only and IRCTC's five-name set are sensitivity rows.",
+  "src": "Screener peer list (BLS page); TBOTEK.ctx.js / TBOTEK deep.json; data/raw/<SYM>/screener.json"
+ },
+ "street": {
+  "brokers": [
+   { "broker": "IDBI Capital", "short": "IDBI", "date": "2026-05-21", "rating": "Buy", "tp": 330, "method": "P/E (initiation basis; the May-2026 multiple and year are not public)", "multiple": "n.d.", "on": "n.d.", "thesis": "Strong FY26 (revenue +37%, EBITDA +30%, PAT +34%) on operating leverage, better pricing in new contracts and value-added services; Visa margin 40.1%. Target cut from ₹389 (Feb-2026) and ₹445 (Dec-2025).", "standing": true, "src": "https://trendlyne.com/posts/5651505/bls-international-bls-q4fy26-result-review (summary; PDF behind a login)" },
+   { "broker": "IDBI Capital", "short": "IDBI (Feb)", "date": "2026-02-09", "rating": "Buy", "tp": 389, "method": "n.d.", "multiple": "n.d.", "on": "n.d.", "thesis": "Q3FY26 revenue +44%, PAT +33%; Visa margin ~40%.", "standing": false, "src": "https://trendlyne.com/posts/5521426/bls-international-bls-q3fy26-result-review" },
+   { "broker": "IDBI Capital", "short": "IDBI (init.)", "date": "2025-12-03", "rating": "Buy", "tp": 445, "method": "P/E", "multiple": "21.5x", "on": "FY27E", "eps": { "FY26E": 17.9, "FY27E": 20.7 }, "revenue": { "FY26E": 2908.4, "FY27E": 3347.1 }, "ebitda": { "FY26E": 836.1, "FY27E": 983.2 }, "thesis": "Quasi-annuity government contracts, digital anchors growth; 24% revenue CAGR FY25-27E; EBITDA margin to 29.4%; net cash for acquisitions.", "standing": false, "src": "https://www.blsinternational.com/assets/pdf/analyst-coverage/BLS-International-Initiating-Coverage-Research-Report.pdf" },
+   { "broker": "Edelweiss (Nuvama)", "short": "Edelweiss", "date": "2024-11-13", "rating": "Buy", "tp": 604, "method": "n.d.", "multiple": "n.d.", "on": "n.d.", "thesis": "Last note found; no later update.", "standing": false, "src": "https://trendlyne.com/research-reports/post/BLS/4751/bls-international-services-ltd/" }
+  ],
+  "consensus": "Only one broker (IDBI Capital) has a current target on 30-Sep-2026: Buy, ₹330 (21-May-2026). There is no dated multi-broker consensus.",
+  "method": "The only published method is P/E (IDBI: 21.5x FY27E at initiation). We could not confirm the earnings year or multiple of the May-2026 note (behind a login); at ₹330 it would be ~15.6x our FY28E EPS."
+ },
+ "ownership": {
+  "period": "Jun-2026",
+  "categories": { "promoters": 70.39, "fii": 4.14, "dii": 3.10, "bodiesCorporate": 3.05, "others": 19.32 },
+  "promoters": "Aggarwal family: individuals (Diwakar 5.76%, Gaurav 4.83%, Madhukar 4.80%, Vinod 4.80%, Sushil 2.43%, Alka 1.94%, Shikhar 1.92%) and family investment companies (Azadpur Finvest 4.92%, GRB, Hawai Capital, Hillman Properties, Intime Finance ~4.86% each, BLS Finvest and Goodwork Finvest 4.48% each), Mar-26.",
+  "namedInstitutions": "Life Insurance Corporation of India, Sixteenth Street Capital, Government Pension Fund Global (Norway), Dovetail India Fund, iShares Core Emerging Markets, Axis Max Life Insurance, Vanguard, Abu Dhabi Investment Authority (top shareholders named in the Q1FY27 deck; stakes not disclosed there).",
+  "trend": "FIIs fell from 10.93% (Dec-2024) to 6.14% (Mar-2026) and 4.14% (Jun-2026); shareholders rose from 1.70 lakh to 2.24 lakh; promoters steady at ~70.4%.",
+  "src": "Q1FY27 deck p.40; AR FY26 note 13 (promoter holdings); Screener shareholding"
+ },
+ "moat": {
+  "scale": "One of two global scale players: 46 client governments, 100+ countries, 44.1 lakh applications in FY26; the iDATA and Visametric purchases removed a mid-sized rival in Germany/Italy-facing markets.",
+  "switching": "Contracts are exclusive for 3-10 years but are re-tendered: incumbency helps (infrastructure, security clearance, track record) but does not guarantee renewal. Governments can and do switch (e.g. the MEA's debarment attempt in 2025).",
+  "pricing": "Fees are set in the tender and paid by applicants; value-added services and self-managed centres lifted net revenue per application from ₹1,613 (FY23) to ₹3,302 (FY26), but management says it is now 'stabilising'.",
+  "verdict": "A real but narrow moat: scale, compliance track record and a duopoly-like market structure in government visa outsourcing, against re-tender risk, client concentration (Spain and Indian missions), political risk and low switching costs at renewal. Digital Services has no moat (BC and loan distribution earn 4-8% margins)."
+ },
+ "critiques": [
+  "Earnings quality: the jump in Visa margins (15% in FY22 to 40% in FY26) came from taking partner-run centres in-house and from value-added services; the MEA's 2025 order cited complaints about charging for optional services. Regulators could cap VAS.",
+  "Volumes stalled: 11.3 lakh applications in Q1FY27 vs 11.4 lakh a year earlier; growth now depends on price/mix, Aadhaar and acquisitions.",
+  "Acquisition-led: ₹899 cr spent in FY25 and ₹157 cr on Atyati in FY26-27; goodwill ₹1,213 cr (49% of net worth) and management could not quantify value created when asked (Aug-2026 call).",
+  "Minorities: ~47% of the fast-growing digital arm belongs to outside shareholders.",
+  "Low tax (~9-12%) rests on the UAE free-zone structure; a UAE tax change or a shift of profit to India raises it.",
+  "Related-party rent (₹8.4 cr to the chairman in FY26) and a sharp rise in the executive chairman's pay (₹0.22 cr to ₹4.56 cr)."
+ ],
+ "governance": {
+  "board": "Promoter-led board: Chairman (executive) Diwakar Aggarwal, Joint MD Shikhar Aggarwal (a relative of a director, per the AR), MD Nikhil Gupta, non-executive director Karan Aggarwal; independent directors include Sarthak Behuria (former Chairman of Indian Oil Corporation, per the AR), Atul Seksaria, R.P. Sinha, Dr Savita (from 16-May-2026) and Manoj Joshi (additional director from 7-Aug-2026).",
+  "flags": [
+   "MEA debarment (9-Oct-2025) quashed by the Delhi High Court (18-Dec-2025) on natural-justice grounds; the court left the MEA free to issue a fresh, specific show-cause notice on alleged substandard service.",
+   "Related-party rent paid to the chairman ₹8.41 cr in FY26 (₹4.49 cr in FY25); rent also paid to other family members.",
+   "Executive chairman's pay rose to ₹4.56 cr (FY25 ₹0.22 cr) after he became executive in Aug-2025; managerial pay rose 18.3% vs 1.4% for the median employee.",
+   "Auditor's opinion on the FY26 consolidated accounts is unmodified, with an emphasis of matter on the Punjab e-governance subsidiary (contract terminated in 2018; going concern relied on management)."
+  ],
+  "src": "AR FY26 (directors' report, related-party note); Delhi High Court judgment W.P.(C) 16352/2025"
+ },
+ "gaps": [
+  "IDBI Capital's May-2026 note (₹330): multiple and earnings year behind a Trendlyne login; not reconstructed.",
+  "No other broker note dated Jan-Sep 2026 found; no dated consensus.",
+  "Atyati's cash, debt and net assets at acquisition (2-Jul-2026) not published by 30-Sep-2026; the full ₹156.82 cr price is taken out of treasury.",
+  "Stakes of named institutional holders (LIC, Norway GPFG, Vanguard etc.) at Jun-2026 not disclosed in the deck; BSE shareholding pages block automated access.",
+  "Revenue by client country (Spain, Indian missions) not disclosed for FY26; Indian missions ~12% of revenue in Q1FY26 (company, Oct-2025).",
+  "iDATA purchase price not extracted (FY25 acquisition outflow ₹899 cr in total; Citizenship Invest ₹260 cr).",
+  "Spain contract term and next re-tender date not verified.",
+  "FY25 quarterly segment figures sum to slightly different totals than the FY25 annual segment figures (Visa ₹1,648 cr vs ₹1,653 cr; Digital EBITDA ₹64.8 cr vs ₹59.7 cr): quarters shown as reported."
+ ],
+ "conflicts": [
+  "BLS E-Services stake: 51% in the Q1FY27 deck (Jun-2026) vs ~70% sometimes quoted (that is BLS plus promoters: 69.8%). BLS bought 2.21% more in Apr-Aug 2026.",
+  "Aadhaar margin: 15-20% (May-2026 call) vs 10-15% (Aug-2026 call); we use 12.5%.",
+  "Atyati price: ₹154 cr (Feb-2026 announcement) vs ₹156.82 cr (completion, Jul-2026); ₹138 cr re-allocated from IPO proceeds.",
+  "Q4FY26 call: management said 'there is no ban' (the High Court had quashed it); some broker pages still described the company as debarred in Apr-2026."
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for IndiaMART InterMESH (consolidated, Rs crore). Segment model by legal entity, as the company reports it: IndiaMART standalone (the B2B marketplace, adjusted EBITDA before ESOP cost), Busy Infotech (accounting software) and Others (other subsidiaries and inter-company items, revenue only). EBITDA = segments - unallocated - ESOP, where unallocated = share of associates' losses (Screener deducts it inside expenses, so the model EBITDA equals Screener operating profit) + the EBITDA loss of the other subsidiaries. Valued on P/E, as the street does; the multiple is derived in tools/authoring/INDIAMART.ctx.js and written here by INDIAMART.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "im",
+   "name": "IndiaMART (marketplace, standalone)",
+   "driverLabel": "Revenue",
+   "marginLabel": "Adjusted EBITDA (before ESOP)",
+   "base": 1443,
+   "growth": [
+    9.5,
+    10,
+    10
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    39.5,
+    39.5,
+    39.5
+   ],
+   "hist": {
+    "driver": "imRev",
+    "revenue": "imRev",
+    "adjEbitda": "imAdjEbitda"
+   },
+   "_why": "Revenue = paying suppliers x ARPU, recognised from deferred revenue. FY26 +9.3% (suppliers 217K to 220K, ARPU Rs61K to Rs66K); Q1FY27 +9% with suppliers flat YoY at 218K (net -1.85K QoQ, Silver churn ~7% a month) and ARPU +8% to Rs69K. Standalone collections +10% in FY26 and +8% in Q1FY27; deferred revenue +14% YoY to Rs1,858 cr (~20% recognised within three months). Management guides 10-12% consolidated revenue growth for FY27 (May-2026) and gives no net-add guidance. We assume ARPU-led growth: +9.5% FY27E, +10% FY28-29E (flat to slightly rising suppliers, ARPU +8-9% a year from price increases and category-based Platinum pricing). MOSL models ~8-9% collection growth over FY27-28E.",
+   "_marginWhy": "Standalone adjusted EBITDA margin (before ESOP): 40.2% FY25, 38.5% FY26, 41.5% Q1FY27 (lower acquisition spend; headcount -4% YoY). Management guides ~33% consolidated EBITDA (+/-1-2 pts) for FY27 and says sustained leverage needs subscriber growth; any return to gross adds raises sales cost. 39.5% flat gives ~33.8% consolidated (company basis) in FY27E, inside the guided band (MOSL 33.6%, Choice 33.3%)."
+  },
+  {
+   "key": "busy",
+   "name": "Busy Infotech (accounting software)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 119,
+   "growth": [
+    32,
+    27,
+    25
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    12,
+    15,
+    17
+   ],
+   "hist": {
+    "driver": "busyRev",
+    "revenue": "busyRev",
+    "adjEbitda": "busyEbitda"
+   },
+   "_why": "Revenue Rs66 cr FY25, Rs119 cr FY26 (+80%: shift from perpetual licences to subscriptions; ~44% normalised), Q1FY27 Rs36 cr (+47%), deferred revenue Rs146 cr (+44%), billing +10% (Q1FY26 had ~Rs10 cr of one-off win-backs). Management: ~27-30% CAGR over the next couple of years (Q1FY27 call); ~25% (May-2026 interview). +32% FY27E (deferred revenue already booked), +27%, +25%.",
+   "_marginWhy": "EBITDA margin 7% FY25, 17.6% FY26, 8% Q1FY27 (Busy Magic relaunch, product and team investment). 12% FY27E rising to 17% by FY29E as subscriptions scale; management expects improving margins."
+  },
+  {
+   "key": "oth",
+   "name": "Others (subsidiaries, inter-company)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 7,
+   "growth": [
+    20,
+    15,
+    15
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "othRev",
+    "revenue": "othRev",
+    "adjEbitda": null
+   },
+   "_why": "Livekeeping and other small subsidiaries less inter-company items: revenue Rs2 cr FY25, Rs7 cr FY26, Rs3 cr Q1FY27.",
+   "_marginWhy": "Their EBITDA (FY26 -Rs11 cr, Q1FY27 -Rs6 cr) is carried in the unallocated line."
+  }
+ ],
+ "unallocated": [
+  82,
+  77,
+  70
+ ],
+ "_unallocLabel": "Share of associates' losses + other subsidiaries' EBITDA loss",
+ "_unallocWhy": "Associates (Vyapar, Mobisy/Bizom, Truckhall/SuperProcure, Fleetx and others, equity-accounted): Rs49 cr FY25, Rs55 cr FY26, Rs14.6 cr Q1FY27 -> Rs58 cr, Rs55 cr, Rs50 cr as the larger investees approach break-even. Others' EBITDA: +Rs5 cr FY25, -Rs11 cr FY26, -Rs6 cr Q1FY27 (Livekeeping; IndiaMART Finance being set up) -> -Rs24 cr, -Rs22 cr, -Rs20 cr. FY26 check: 555 + 21 - 35 (ESOP) - 66 = 475 = Screener operating profit.",
+ "esop": [
+  30,
+  32,
+  34
+ ],
+ "_esopWhy": "Standalone ESOP cost (adjusted less reported EBITDA): Rs17 cr FY25, Rs35 cr FY26, Rs7 cr Q1FY27 (consolidated FY26 Rs36.6 cr, AR note 21). Rs30-34 cr.",
+ "capex": [
+  10,
+  12,
+  12
+ ],
+ "_capexWhy": "Asset-light: cash capex Rs7-16 cr a year in FY23-26 and nil in Q1FY27 (company cash-utilisation slide). Rs10-12 cr.",
+ "depRateOnGrossBlock": 4,
+ "_depWhy": "FY26 depreciation and amortisation Rs28.4 cr (AR note 23: PPE Rs4.8 cr, right-of-use Rs9.4 cr, Busy/Livekeeping intangibles Rs14.2 cr) = 4.3% of average gross block (Rs655 cr, which includes Rs454 cr of goodwill that is not amortised); Q1FY27 Rs6.4 cr. 4.0% gives ~Rs26-27 cr a year.",
+ "otherTreasury": {
+  "base": 160,
+  "_why": "Treasury inside Screener's other assets: inter-corporate deposits (loans Rs90 cr) and bank deposits in other financial assets (~Rs70 cr), so that Screener cash Rs91 cr + investments Rs3,792 cr + Rs160 cr = Rs4,043 cr = the company's cash and treasury investments (Rs3,280 cr) + strategic investments at book (Rs763 cr) at Mar-26 (Q1FY27 deck). Net of Rs23 cr of lease liabilities the engine's net treasury is Rs4,020 cr."
+ },
+ "treasuryYield": [
+  7,
+  6.75,
+  6.75
+ ],
+ "_treasuryWhy": "Applied by the engine to opening net treasury, which includes the Rs763 cr of strategic stakes (they earn no yield: see other income). Treasury income (debt funds, bonds, ETFs, InvITs at fair value, plus deposit interest) was Rs200 cr in FY25 (7.7% of average treasury of Rs2,613 cr) and Rs122 cr in FY26 (4.0% of Rs3,083 cr: bond mark-to-market loss of Rs34 cr net other income in Q4FY26, 'notional, would reverse'); Q1FY27 other income Rs107 cr, 'primarily mark-to-market gains on the treasury portfolio'. Through-the-cycle return on a high-grade debt book ~7%: 7.0% in FY27E (Q1 already booked), 6.75% after (repo 5.25%).",
+ "otherIncome": [
+  -50,
+  -49,
+  -49
+ ],
+ "_otherIncomeWhy": "Fixed items: minus the yield on the strategic stakes held inside treasury (7.0%/6.75% x Rs763 cr = -Rs53/-Rs52 cr: associates are equity-accounted and other investees are valued at fair value, not yielding) plus write-backs and interest on security deposits (~Rs3-4 cr; Rs4.4 cr FY26). Fair-value gains on strategic investments (Rs42.6 cr FY25, Rs77.7 cr FY26) and the FY25 gain on selling an associate stake (Rs29.2 cr) are one-offs and not forecast. Built FY27E other income ~Rs232 cr vs Rs204 cr reported in FY26 (Rs126 cr before strategic fair-value gains) and Rs218 cr in the twelve months to Jun-26; Q1FY27 alone Rs107 cr.",
+ "interest": [
+  2,
+  2,
+  2
+ ],
+ "_interestLabel": "Interest cost (leases)",
+ "_interestWhy": "Lease interest Rs2.7 cr FY26 (AR note 22, plus Rs0.3 cr on deferred consideration); Rs0.5 cr in Q1FY27. No borrowings.",
+ "taxRate": [
+  26,
+  26,
+  26
+ ],
+ "_taxWhy": "Effective rate on profit after associates: 26.7% FY26, 22.0% FY25 (lower-taxed capital gains), 25.8% Q1FY27. Associates' losses are not tax-deductible, so ~25% statutory becomes ~26% on our PBT.",
+ "payout": [
+  60,
+  60,
+  60
+ ],
+ "_payoutWhy": "Dividend Rs50/share for FY25 (Rs30 final + Rs20 special, 55% of EPS) and Rs60 for FY26 (Rs30 final + Rs30 special, 76%); policy: surplus capital returned by dividends or buybacks; ~40-60% of cash generated distributed over the last 3-4 years (CFO, Q4FY26 call). 60%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 30,
+  "fadeCapexPctTo": 1,
+  "depPctOfSales": 1.2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Debt-free, cash-rich, subscription revenue collected in advance, but a single-platform business facing churn and search/LLM disruption: 1.0 (Ke 12.5%).",
+  "_tgWhy": "B2B digitisation of ~1.6 crore GST-registered businesses; but the paying base is flat and AI search is a real threat to discovery: 5.5%, below nominal GDP.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~11% to 7% over 15 years (ARPU-led growth cannot compound at the current pace without customer growth).",
+  "_fadeMarginWhy": "Model EBITDA margin (after associates) ~30.5% in FY27E-29E; held at 30%.",
+  "_fadeCapexWhy": "Capex below 1% of revenue; depreciation ~1-1.5%."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Silver churn falls and net supplier additions resume (~2-3K a quarter), category-based Platinum pricing lifts ARPU ~10% a year, and Busy keeps growing ~30% with rising margins; acquisition spend stays measured.",
+   "fadeMarginTo": 32,
+   "segments": {
+    "im": {
+     "growthDelta": 3,
+     "marginDelta": 1
+    },
+    "busy": {
+     "growthDelta": 5,
+     "marginDelta": 2
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Buyer enquiries keep falling as search traffic moves to AI assistants, the paying-supplier base shrinks (~2K a quarter) and price rises stall; IndiaMART has to spend more on acquisition to defend the base, and Busy slows to ~15%.",
+   "fadeMarginTo": 27,
+   "segments": {
+    "im": {
+     "growthDelta": -4,
+     "marginDelta": -2.5
+    },
+    "busy": {
+     "growthDelta": -12,
+     "marginDelta": -3
+    }
+   }
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 22.5,
+      "bull": 36,
+      "bear": 17
+     },
+     "why": "How the street values IndiaMART: P/E on FY28E EPS (Choice 20x FY28E; Motilal Oswal's DCF target is ~21x its FY28E EPS). Multiple = own forward P/E median since Apr-2021 on EPS before fair-value gains on strategic investments x the sector move of the widened internet and online-classifieds set; derived in INDIAMART.ctx.js and written by INDIAMART.val.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 18.5,
+      "bull": 30,
+      "bear": 13
+     },
+     "why": "Values the operating business and the treasury separately (own forward EV/EBITDA history computed in INDIAMART.ctx.js)."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF, Ke 12.5%, terminal growth 5.5%, plus net treasury (incl. strategic stakes at book)."
+    }
+   ]
+  }
+ },
+ "assocShare": [
+  58,
+  55,
+  50
+ ],
+ "_assocShareWhy": "Memo (not an engine input): the associates' share inside the unallocated line, used to show EBITDA on the company basis (model EBITDA + associates)."
+}

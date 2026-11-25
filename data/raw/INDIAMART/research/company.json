@@ -1,0 +1,96 @@
+{
+ "symbol": "INDIAMART",
+ "name": "IndiaMART InterMESH Ltd",
+ "asOf": "2026-09-30",
+ "_note": "Fact base to 30-Sep-2026. Rs crore unless stated (AR figures are in Rs million in the source and converted here). Consolidated unless marked standalone.",
+ "sources": {
+  "q1deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b1eca98-8f74-45c0-b142-cddc20ce2265.pdf", "published": "2026-07-21" },
+  "q1call": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c7c99e2-b516-4077-b9ff-61349aab22ef.pdf", "published": "2026-07-21", "_dateNote": "Webinar held 21-Jul-2026; transcript filed on BSE shortly after (exact filing date not visible to us)." },
+  "q4deck": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d75789b6-045a-461c-bbde-45c260c1355a.pdf", "published": "2026-04-30" },
+  "q4call": { "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a08b97bb-936d-413a-be28-6d840995cc8f.pdf", "published": "2026-04-30" },
+  "ar26": { "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/63748427-df36-415f-b060-bf630894730f.pdf", "published": "2026-07-01", "_dateNote": "Accounts approved 30-Apr-2026; the AR was filed before the AGM (Screener document list). Exact filing date not visible to us; used only for FY26 figures known since 30-Apr-2026." },
+  "ar24": { "src": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ba5c19f8-b5a8-474f-a9a0-6ade1a4d3cb5.pdf", "published": "2024-07-01" },
+  "guidance": { "src": "https://www.angelone.in/news/stocks/indiamart-guides-for-10-12-percent-growth-margins-seen-around-33-percent-in-fy27", "published": "2026-05-04", "_note": "Management interview with CNBC-TV18, reported by Angel One." }
+ },
+ "profile": {
+  "what": "India's largest online B2B marketplace. Suppliers (mostly MSME manufacturers, traders and distributors) list products free; buyers post requirements free. IndiaMART earns subscription fees from paying suppliers for better visibility and buy leads (Silver monthly/annual, Gold, Platinum tiers), collected in advance and recognised over the subscription. Busy Infotech (100%) sells desktop/cloud accounting and GST software to MSMEs.",
+  "scale": "8.8 Mn supplier storefronts, 218K paying suppliers, ~41 Mn active buyers, 26 Mn unique business enquiries a quarter, 132 Mn live product listings, ARPU Rs69K (Q1FY27 deck). Platinum and Gold are ~50% of paying suppliers and >75% of revenue; the top ~10% of customers make ~50% of revenue (Q4FY26 call). Four industries (plant & machinery, industrial and electrical equipment) are ~30% of paying suppliers.",
+  "market": "~1.6 crore GST-registered businesses in India; ~50 lakh GST-identified sellers registered on IndiaMART, 2.2 lakh paying (Q4FY26 call). Management: about 50% of the serviceable market is already on the free tier.",
+  "employees": 6066,
+  "_employeesSrc": "MOSL 21-Jul-2026 (Q1FY27 headcount; 6,222 at Mar-26 per AR FY26)"
+ },
+ "shares": { "count": 6.008, "_note": "Crore shares: promoter Dinesh Agarwal's 1,68,27,523 shares = 28.01% (AR FY26) -> 6.008 crore. 1:1 bonus in Q1FY24; buyback in FY24." },
+ "fy26": {
+  "sales": 1569, "ebitdaCo": 530, "assoc": 54.8, "ebitdaScr": 475, "otherIncome": 204.1, "pbtPreAssoc": 702.7, "pbt": 647.9, "tax": 173.3, "pat": 474.7, "eps": 79.0, "dps": 60, "esop": 36.6, "dep": 28.4,
+  "collections": 1857, "deferredRevenue": 1965, "cfo": 694, "cashTreasury": 3280, "strategic": 763, "leases": 23,
+  "src": "AR FY26 consolidated P&L and notes 20-23; Q1FY27 deck p36-38"
+ },
+ "otherIncomeBuild": {
+  "_note": "Consolidated other income (AR FY26 note 20; FY24-FY23 AR FY24 note 20). Rs crore.",
+  "rows": [
+   ["Treasury: fair value, interest and sale income on mutual funds, ETFs, bonds, debentures, InvITs", 90.8, 177.9, 197.5, 112.9],
+   ["Interest on bank and corporate deposits, security deposits, other", null, null, 2.9, 9.1],
+   ["Fair value gain on measurement (and sale) of investments in other entities (strategic, FVTPL)", 83.8, 28.7, 42.6, 77.7],
+   ["Gain on sale of investment in associates", 0, 0, 29.2, 0],
+   ["Write-backs and miscellaneous", null, null, 0.1, 4.4]
+  ],
+  "years": ["FY23", "FY24", "FY25", "FY26"],
+  "total": [180.5, 210.6, 272.4, 204.1],
+  "oneOffs": [83.8, 28.7, 71.8, 77.7],
+  "_oneOffNote": "Fair-value gains on strategic investments and the gain on selling an associate stake are not treasury income and are not forecast. FY23-FY24 interest, write-back and miscellaneous lines (Rs5.9 cr and Rs4.0 cr in total) are not split in our AR FY24 extract."
+ },
+ "q1fy27": {
+  "sales": 414, "ebitdaCo": 146.4, "ebitdaMargin": 35.4, "assoc": 14.6, "otherIncome": 106.7, "pat": 172.2, "eps": 28.63, "collections": 463, "deferredRevenue": 2014, "cfo": 163, "cashTreasury": 3553, "strategic": 741,
+  "standalone": { "sales": 376, "adjEbitda": 156, "ebitda": 149, "collections": 402, "deferredRevenue": 1858, "payingSuppliersK": 218, "netAddsK": -1.85, "arpuK": 69, "ube": "26 Mn" },
+  "busy": { "revenue": 36, "ebitda": 3, "billing": 59, "deferredRevenue": 146, "cfo": 16, "newLicensesK": 12, "licensesCumK": 454 },
+  "call": [
+   "Silver monthly churn ~7%, Silver annual ~4%; Platinum churn well below 1% a month, Gold 1-1.5% (Q4FY26 call); 'nothing has changed' (Q1FY27).",
+   "Management will not chase gross additions until renewal behaviour (product-market fit) improves: acquiring low-end customers 'will make the CAC go higher and the LTV go lower'.",
+   "Unique business enquiries 26-27 Mn, flattish; ~4-5% of the YoY decline from OTP buyer verification (bot filtering), the rest unexplained between own changes, traffic moving to LLMs and the war.",
+   "Board approved IndiaMART Finance Ltd, a wholly owned subsidiary to facilitate short-term transaction finance with partner lenders; no large lending from its own balance sheet.",
+   "Busy: billing +10% (Q1FY26 had ~Rs10 cr of one-off win-backs; ~30% normalised); revenue +47%; target 27-30% CAGR for the next couple of years; Busy Magic relaunch.",
+   "Other income Rs107 cr 'primarily due to mark-to-market gains on our treasury portfolio' (CFO)."
+  ],
+  "src": "Q1FY27 deck and webinar (21-Jul-2026); MOSL 21-Jul-2026 (associates, headcount)"
+ },
+ "guidance": [
+  ["FY27 revenue growth 10-12%", "Management to CNBC-TV18, 4-May-2026"],
+  ["FY27 EBITDA margin ~33%, +/-1-2 pts", "Management to CNBC-TV18, 4-May-2026"],
+  ["Collections growth ~8-9% standalone, ~13% consolidated (recent run-rate)", "Management to CNBC-TV18, 4-May-2026"],
+  ["No guidance on net supplier additions 'until we have multiple quarters of continual success'", "Q4FY26 call, 30-Apr-2026"],
+  ["Busy: ~27-30% revenue CAGR over the next couple of years; licence growth target 15-20%", "Q1FY27 call, 21-Jul-2026"]
+ ],
+ "history": [
+  ["1996", "Founded by Dinesh Agarwal and Brijesh Agrawal as an online B2B directory (AR FY24: 'Established in 1996')."],
+  ["Jul-2019", "IPO and listing on NSE/BSE (offer for sale; price series from 5-Jul-2019)."],
+  ["FY21", "QIP: ~Rs1,070 cr raised (AR FY24), lifting cash and treasury from Rs931 cr to Rs2,365 cr (Q1FY27 deck)."],
+  ["FY22-FY23", "Strategic investments of Rs395 cr and Rs570 cr: Vyapar, Mobisy (Bizom), Truckhall (SuperProcure), Fleetx, IB MonotaRO and others; Busy Infotech acquired (100%, Rs509 cr invested) and Livekeeping (Rs96 cr). Goodwill of Rs454 cr from FY23."],
+  ["Q1FY24", "1:1 bonus issue; buyback (tender route) in FY24: Rs681 cr returned to shareholders that year including dividends."],
+  ["FY25", "Gain of Rs29.2 cr on sale of an associate stake; FY25 dividend Rs50 (Rs30 final + Rs20 special)."],
+  ["Q2FY26", "Silver-tier price increase; gross additions slow; paying suppliers 222K (Sep-25) to 218K (Jun-26)."],
+  ["Apr-2026", "FY26 dividend Rs60 (Rs30 final + Rs30 special), paid Jul-2026; ~Rs1,650 cr returned to shareholders since FY21."],
+  ["Jul-2026", "Board approves IndiaMART Finance Ltd (transaction-finance facilitation)."]
+ ],
+ "capitalUse": {
+  "years": ["FY21", "FY22", "FY23", "FY24", "FY25", "FY26", "Q1FY27"],
+  "cfo": [323, 402, 476, 559, 623, 694, 163],
+  "strategic": [-10, -395, -570, -25, -144, -75, 0],
+  "capex": [3, -4, -16, -14, -8, -7, 0],
+  "returned": [-1, -46, -130, -681, -120, -300, 0],
+  "closing": [2365, 2419, 2335, 2340, 2886, 3280, 3553],
+  "src": "Q1FY27 deck p38 (cash generation and utilisation)"
+ },
+ "stakes": {
+  "_note": "Strategic investments at cost (Rs crore) and holding (AR FY26). Book value of all strategic investments Rs763 cr at Mar-26, Rs741 cr at Jun-26.",
+  "rows": [["Fleetx Technologies", 161, 22.2], ["IB MonotaRO (Industry Buying)", 118, 21.0], ["Baldor Technologies (IDfy)", 113, 10.3], ["Simply Vyapar Apps (Vyapar)", 108, 28.6], ["Mobisy Technologies (Bizom)", 72, 32.5], ["Mynd Solutions (M1xchange)", 53, 9.6], ["Truckhall (SuperProcure)", 38, 34.5], ["Agillos E-Commerce (Aerchain)", 26, 24.5], ["Edgewise Technologies (EasyEcom)", 18, 26.0], ["Zimyo Consulting", 17, 10.0], ["Adansa Solutions", 14, 26.0], ["Legistify Services", 9, 15.4], ["Instant Procurement Services", 1, 13.0]],
+  "subsidiaries": [["Busy Infotech", 509, 100], ["Livekeeping Technologies", 96, 100]]
+ },
+ "management": {
+  "ceo": "Dinesh Chandra Agarwal (co-founder, MD & CEO); FY26 remuneration Rs8.33 cr (164.9x median employee)",
+  "wtd": "Brijesh Kumar Agrawal (co-founder, Whole-time Director; leads Busy); FY26 remuneration Rs6.17 cr",
+  "cfo": "Jitin Diwan",
+  "promoters": "Dinesh Agarwal 28.01%, Brijesh Agrawal 18.98%, promoter group ~2.1% (Mar-26, AR FY26); promoter total 49.07% (Jun-26)",
+  "src": "AR FY26 (remuneration annexure; note 12 shareholding of promoters)"
+ },
+ "dividendPolicy": "Surplus capital returned through dividends or buybacks (AR FY26); 'about 40% to 60% of the cash which we have generated' distributed over the last three-four years (CFO, Q4FY26 call)."
+}
