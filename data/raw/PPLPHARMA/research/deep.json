@@ -1,0 +1,89 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, peers, street, ownership, stock, moat, critiques, gaps and conflicts for the Piramal Pharma initiation. Sources dated on or before 30-Sep-2026." },
+ "industry": {
+  "cdmo": { "item": "Global CDMO market ~US$250 bn, growing 7-8% a year (industry estimates in AR FY26 MD&A). US biotech funding rose 30% in FY26 and 75% YoY in H2FY26 (company, industry sources), and 'over 100%' in H1CY26 vs H1CY25 (Q1FY27 presentation). Customers want regulator-grade, multi-site supply outside China; US sites are exempt from US pharma tariffs and UK sites get a nil rate under the UK-US deal, while India's innovation-related work depends on customer negotiations (Chairperson, Q4FY26 call). Competitors have added capacity since the Covid boom and pricing is competitive (CEO, Q4FY26 call).", "src": "AR FY26 MD&A; Q4FY26 call (29-Apr-2026); Q1FY27 presentation (29-Jul-2026)" },
+  "adc": { "item": "Antibody-drug conjugates are among the fastest-growing CDMO niches; Piramal's Grangemouth (UK) site was the world's first USFDA-approved commercial ADC CDMO site; ADC revenue ~US$64 mn in FY26, conjugation is the anchor service (CEO).", "src": "Q4FY26 presentation slide 17 and call" },
+  "inhalationAnaesthesia": { "item": "Global inhalation-anaesthesia market ~US$1 bn; sevoflurane ~84% of it; sevoflurane, isoflurane and desflurane ~81% of the IA market; high entry barriers (dedicated API and drug-product plants, vaporisers, hospital/GPO relationships). Piramal is #1 in US sevoflurane (48% value share, IQVIA) but ex-US markets face Chinese price competition; Piramal answers with lower-cost supply from Digwal.", "src": "AR FY26 MD&A; Q1FY27 presentation; Q4FY26 call" },
+  "otc": { "item": "Indian OTC market ~US$9 bn, growing ~8% a year to over US$11 bn by 2029 (AR FY26 MD&A); quick commerce is ~50% of Piramal's e-commerce sales; Piramal's consumer business grew about twice its markets in FY26 (Chairperson).", "src": "AR FY26 MD&A; Q4FY26 call" },
+  "westAsia": { "item": "The Middle East conflict in 2026 raised sourcing, utility, freight and insurance costs and may force extra inventory; pass-through depends on contracts (CFO, Q4FY26 call).", "src": "Q4FY26 call (29-Apr-2026)" }
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": { "LUPIN": "Loss years inside the window (PLAYBOOK 7c)", "GLENMARK": "Loss years inside the window (PLAYBOOK 7c)", "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK 7c)", "LAURUSLABS": "Boom-bust EPS; P/E above 100x (PLAYBOOK 7c)", "DRREDDY": "gRevlimid windfall FY23-26 then the cliff (PLAYBOOK 7c)", "MANKIND": "Listed May-2023, no five-year median (PLAYBOOK 7c)" },
+  "context": ["SYNGENE", "SAILIFE", "GLAND", "ANTHEM", "LAURUSLABS", "DIVISLAB", "NEULANDLAB"],
+  "notes": "Pharma peer set set on 23-Nov-2026 (PLAYBOOK 7c). Piramal Pharma is outside the nine-name set, so all nine count. Its own window starts on 1-May-2023 (post-listing months skipped), so the factor is the nine peers' move over the same window: +5.1% EV/EBITDA (+9.5% P/E), reproduced with tools/authoring/sector-factor.js --from 2023-05-01 --metric ev. CDMO and hospital-generics names (Syngene, Sai Life, Gland, Anthem, Laurus, Divi's, Neuland) are shown for context only."
+ },
+ "street": {
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-07-30", "rating": "Buy", "prevRating": "Buy", "tp": 230, "prevTp": 190, "method": "SOTP (EV/EBITDA)", "multiple": "CDMO 23x, CHG 11x, ICH 13x", "on": "12m fwd", "thesis": "Return to profitability on broad-based growth and operating leverage; CDMO back to 19% growth after four quarters of decline; adj. PAT Rs110 cr FY27E / Rs300 cr FY28E (raised 6% / 4%)", "src": "DSIJ report summary 44849 and Trendlyne post 5760847 (30-Jul-2026); Trendlyne research list (prev Rs190 on 29-Apr-2026)" },
+   { "broker": "ICICI Direct", "date": "2026-07-30", "rating": "Buy", "prevRating": "Buy", "tp": 240, "prevTp": 220, "method": "SOTP", "multiple": "CDMO 17x EBITDA, CHG 15x EBITDA, PCH 2x sales, AbbVie JV 10x PAT", "on": "FY28E", "thesis": "Growth momentum restored; 157-molecule pipeline; US$1.2 bn CDMO target by FY30; EBITDA Rs1,685 cr / Rs2,080 cr, EPS Rs3.1 / Rs4.5 for FY27E / FY28E; FY28E net debt Rs4,468 cr", "src": "ICICI Direct result update (30-Jul-2026), mailcontent.icicidirect.com/mailcontent/idirect_piramalpharma_q1fy27.pdf" },
+   { "broker": "ICICI Securities (institutional)", "date": "2026-07-31", "rating": "Buy", "prevRating": "Buy", "tp": 245, "prevTp": 265, "method": "n.d.", "multiple": null, "on": null, "thesis": "'Entering next growth orbit': broad-based 15-19% growth, margin +308bp", "src": "Trendlyne post 5757236 and research list (31-Jul-2026); prev Rs265 on 29-Jul-2025" },
+   { "broker": "Choice Institutional Equities", "date": "2026-07-30", "rating": "Reduce", "prevRating": "Reduce", "tp": 200, "prevTp": null, "method": "EV/EBITDA", "multiple": "24x", "on": "FY28E", "thesis": "Order book has not yet caught up with better funding; CDMO high single-digit growth until RFPs convert; FY27E margin 13%; PAT understates earnings power while tax is elevated (PEG 1.2x)", "src": "investmentguruindia.com Choice note summary (published 2-Aug-2026)" },
+   { "broker": "JM Financial", "date": "2026-04-16", "rating": "Buy", "prevRating": "Buy", "tp": 211, "prevTp": 313, "method": "n.d. (SOTP in Sep-2025)", "multiple": null, "on": null, "thesis": "Botanix Sofdra API win at Riverview (US$15-20 mn peak); 16% / 48% revenue / EBITDA CAGR FY26-28E; CDMO margins from high single digit to high teens by FY28; 17x / 11x FY27E / FY28E EV/EBITDA at CMP", "src": "JM Financial flash note (16-Apr-2026, Business Standard broker tips); Business Today (3-Sep-2025, Rs313 SOTP)" },
+   { "broker": "InCred Equities", "date": "2025-09-24", "rating": "Buy", "prevRating": null, "tp": 276, "prevTp": null, "method": "EV/EBITDA", "multiple": "24.6x (peer median)", "on": "FY27F", "thesis": "Initiation: FY27F EBITDA Rs1,749 cr, net debt Rs4,625 cr; no later note found", "src": "Business Standard (26-Sep-2025) via search snippet" }
+  ],
+  "methodNote": "Of the brokers that disclose a method in their latest note, two use a sum of the parts (Motilal Oswal: all three businesses on EV/EBITDA; ICICI Direct: CDMO and CHG on EV/EBITDA, PCH on EV/sales, the AbbVie JV on P/E) and two a single consolidated EV/EBITDA (Choice 24x FY28E; InCred 24.6x FY27F, a year old). JM Financial's last disclosed method (Sep-2025) was also a sum of the parts. Majority: sum of the parts built on EV/EBITDA. Nobody uses P/E: earnings are near zero.",
+  "consensus": { "avgTp": 233.27, "highTp": 265, "lowTp": 200, "buy": 10, "hold": 0, "sell": 1, "asOf": "2026-08-20", "src": "Investing.com consensus page (dated 20-Aug-2026, via search)" },
+  "_laterNote": "Notes after 30-Sep-2026 (Motilal Oswal and ICICI Securities after Q2FY27) are in updates/later-facts.json and are not used."
+ },
+ "ownership": {
+  "date": "Jun-2026",
+  "totalShares": 132.92,
+  "shareholders": 461096,
+  "categories": { "promoters": 34.8, "fiis": 12.51, "diis": 14.57, "public": 37.62, "others": 0.48 },
+  "categoriesMar26": { "promoters": 34.85, "fiis": 30.17, "diis": 15.61, "public": 19.01, "others": 0.34 },
+  "named": [
+   { "holder": "Ajay Piramal and family (promoter group)", "pct": 34.8, "asOf": "Jun-26 (34.85% Mar-26; 35.02% Mar-24 after subscribing to the rights issue)" },
+   { "holder": "CA Alchemy Investments (Carlyle Group affiliate; 'foreign direct investment' category)", "pct": 17.95, "asOf": "Mar-26 (AR FY26 shareholding distribution: 23.87 cr shares); a 6-10% sell-down was planned and reported cancelled on 14-Aug-2026" },
+   { "holder": "Mutual funds (25 schemes)", "pct": 14.12, "asOf": "Mar-26" },
+   { "holder": "Foreign portfolio investors", "pct": 12.23, "asOf": "Mar-26" },
+   { "holder": "Insurance companies", "pct": 1.24, "asOf": "Mar-26" },
+   { "holder": "Resident individuals", "pct": 13.74, "asOf": "Mar-26" },
+   { "holder": "Employee welfare trust", "pct": 0.34, "asOf": "Mar-26" }
+  ],
+  "reclassNote": "Screener's Jun-2026 categories move 17.7pp from 'FIIs' to 'public' with no matching trade; the size matches CA Alchemy's 17.95%, which the company classes as foreign direct investment rather than portfolio investment. We could not open the Jun-2026 BSE filing (HTTP 403), so we treat Carlyle's stake as unchanged.",
+  "pledged": 0,
+  "src": "Screener shareholding (BSE, Jun-2026); AR FY26 shareholding distribution (31-Mar-2026); CARE (17-Jul-2026); sahi.com/IFR (14-Aug-2026)"
+ },
+ "stock": [
+  { "date": "2022-10-19", "item": "Listed after the demerger from Piramal Enterprises; first weekly close Rs167" },
+  { "date": "2023-03-17", "item": "All-time low of ~Rs65 (weekly close) as FY23 EBITDA fell to Rs629 cr" },
+  { "date": "2023-08", "item": "Rs1,050 cr rights issue at Rs81" },
+  { "date": "2024-11-01", "item": "High of ~Rs282 (weekly close) after the FY30 analyst-day targets and strong H1FY25" },
+  { "date": "2026-03-20", "item": "52-week low of ~Rs138 (weekly close) as FY26 turned to a loss" },
+  { "date": "2026-07-31", "item": "Rs196 after Q1FY27 (+17% revenue, EBITDA +72%); Rs219 by 28-Aug" },
+  { "date": "2026-09-30", "item": "Close Rs206.52 (NSE); market value ~Rs27,450 cr; +18% in 2026, -27% from the 2024 high" }
+ ],
+ "moat": [
+  { "factor": "Regulatory track record", "score": "Strong", "evidence": "415 inspections incl. 49 by the USFDA since FY12 with no OAI; 209 customer audits in FY26; a rare record among Indian CDMOs and a real selling point for big-pharma work." },
+  { "factor": "Niche hospital franchises", "score": "Strong", "evidence": "#1 in US sevoflurane (48%) with its own API in Bethlehem and KSM in Dahej; #1 in US intrathecal baclofen; Kenalog has limited competition. CHG earns ~20% EBITDA margins (GAM estimate) with stable cash." },
+  { "factor": "CDMO capabilities", "score": "Moderate", "evidence": "Integrated East-West network (13 of the top-20 customers use two or more sites), ADC conjugation at Grangemouth, HPAPI at Riverview, sterile fill-finish at Lexington; but 53% of CDMO revenue is 'other' (generic/off-patent) commercial work and on-patent manufacturing was only US$96 mn in FY26." },
+  { "factor": "Scale and cost", "score": "Weak", "evidence": "Overseas sites are sub-scale: CDMO EBITDA margin is high single digits vs 25-40% at Divi's, Sai Life or Anthem; ROCE 3% in FY26 on Rs8,700 cr of fixed assets." },
+  { "factor": "Customer concentration", "score": "Moderate", "evidence": "~500 customers, top-10 36% of CDMO revenue, but one on-patent product's destocking cut FY26 CDMO revenue 10% and swung the group to a loss." },
+  { "factor": "Consumer brands", "score": "Moderate", "evidence": "Little's, Lacto Calamine, i-pill and Saridon grow 20%+ with e-commerce at 27-28% of sales, but margins are low single digits after ~12% of sales spent on advertising." },
+  { "factor": "Balance sheet", "score": "Weak", "evidence": "Net debt Rs4,140 cr, 3.6x company EBITDA (4.3x on CARE's basis), above CARE's 3.5x downgrade trigger; more capex and Kenalog payments ahead." }
+ ],
+ "critiques": [
+  ["The street's 23x CDMO multiple (MOSL) is a premium for a business earning high single-digit margins; it prices in the FY30 margin goal well before it shows up.", "GAM; Choice (Reduce, 30-Jul-2026)"],
+  ["Order book has not yet strengthened to match better biotech funding; CDMO may grow only high single digits until RFPs convert.", "Choice Institutional Equities (30-Jul-2026)"],
+  ["Earnings quality: half of FY26 other income was forex and write-backs; Q1FY27 other income was lifted by provision reversals; the tax bill exceeds PBT.", "AR FY26 note 27; Q1FY27 call; GAM"],
+  ["Guidance credibility: FY26 guidance was cut from low single-digit growth (May-2025) to flat (Oct-2025) and the year ended at -3% and a loss.", "Quartr/Niftytrader summaries; GAM"],
+  ["Executive pay rose 67-126% in a loss year (Chairperson 74x, CEO 73x the employee median).", "AR FY26 managerial remuneration table; GAM"],
+  ["Carlyle's 17.95% stake is an overhang: two sell-down attempts were reported (Jul-2025, Aug-2026) and both were called off.", "Business Standard (3-Jul-2025); sahi.com/IFR (14-Aug-2026)"],
+  ["Leverage sits above CARE's 3.5x trigger; contingent Kenalog payments (up to US$65 mn) and Lexington capex keep net debt high through FY27.", "CARE (17-Jul-2026); Q4FY26 call"]
+ ],
+ "gaps": [
+  "Segment EBITDA: Piramal reports one segment and publishes no business-level EBITDA; our CDMO/CHG/PCH margins are GAM estimates anchored on JM Financial (CDMO high single digit) and CARE (PCH low single digit).",
+  "Broker methods for ICICI Securities (institutional), Kotak and Nuvama, and any JM Financial note after Q1FY27, were not available; HDFC Securities' report returned HTTP 403.",
+  "Jun-2026 named shareholders (BSE filing returned HTTP 403); Carlyle's stake is taken from the Mar-2026 annual report.",
+  "Kenalog's revenue and the timing of the up-to-US$65 mn contingent consideration are not disclosed.",
+  "AbbVie JV profit for FY24 and earlier (used only in the look-through EV history) not sourced; FY25's Rs69.1 cr share is used for earlier dates.",
+  "No USFDA inspection history by site before Sep-2024 beyond the company's aggregate 'zero OAI' statement."
+ ],
+ "conflicts": [
+  "Net debt Mar-26: Rs4,140 cr in the Q4FY26 presentation vs Rs4,163.82 cr in the AR FY26 MD&A (Mar-25: Rs4,199 cr vs Rs4,331.73 cr). We use the presentation figure for the company basis and Screener's balance sheet (incl. leases, net of all investments) in the model.",
+  "Company EBITDA FY26 Rs1,135 cr (incl. other income) vs Screener Rs922 cr (before other income) vs CARE PBILDT Rs1,014 cr; we use Screener's basis throughout and say so.",
+  "ICICI Securities: Rs240 (ICICI Direct retail, 30-Jul-2026) and Rs245 (institutional, 31-Jul-2026) shown as separate rows.",
+  "US sevoflurane share: 47% (Q4FY26 presentation, Mar-26) vs 48% (CARE and Q1FY27 presentation)."
+ ]
+}

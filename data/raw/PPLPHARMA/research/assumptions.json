@@ -1,0 +1,296 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Piramal Pharma Ltd (consolidated, Rs crore). Net Profit on Screener equals profit attributable to owners (minority share nil to Jun-2026); tools/authoring/PPLPHARMA.patch.js only restates FY26 EPS on the 132.92 cr shares in issue (Screener's rounded EPS of -2.45 implies 133.06 cr). Revenue is revenue from operations; EBITDA is Screener's basis, i.e. BEFORE other income (Piramal's own EBITDA includes other income: FY26 Rs1,135 cr vs Rs922 cr here) and before the share of associates. The business-line build (businessLines: CDMO, Complex Hospital Generics, Consumer Healthcare, eliminations) is checked against model revenue and EBITDA in PPLPHARMA.ctx.js. Other income here = the company's other income plus the share of associates (AbbVie Therapeutics India JV 49%, Yapan Bio 33.33%), built from sourced parts (otherIncomeBuild). Valuation: sum of the parts (operating businesses on a derived EV/EBITDA, the AbbVie JV on 10x its share of profit, less net debt) carried by PPLPHARMA.sotp.js as an implied EV/EBITDA on Sep-28E EBITDA.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  15.3211,
+  11.9292,
+  10.664
+ ],
+ "_revenueWhy": "From the business-line build (businessLines; the ctx script checks it within 0.3%). FY27E +15.3%: management guides to 'early-to-mid-teens' growth in rupees for FY27 across each business (Q4FY26 call, 29-Apr-2026), reaffirmed after Q1 (Q1FY27 call, 30-Jul-2026); Q1FY27 revenue grew 17% (CDMO +19%, CHG +17%, PCH +15%) of which the rupee contributed 'about 9% to 10%' (CFO). The guidance excludes any sales of the destocked on-patent product. We assume ~7 points of FY27 growth from the rupee (FY26 average ~88.5/$, ~95 for FY27 on the Q1 average of ~94.7 and 95.81 at 30-Sep-2026) on the ~77% of revenue that is exported (CARE, 17-Jul-2026). FY28E +11.9% and FY29E +10.7% at a flat rupee. ICICI Direct (30-Jul-2026) has Rs10,264 cr / Rs11,617 cr for FY27E / FY28E; Choice (30-Jul-2026) a 13% FY26-29E CAGR. We are in line with ICICI Direct for FY27E and 1.5% below for FY28E.",
+ "businessLines": {
+  "_why": "Business revenue FY26 (Q4FY26 presentation, 28-Apr-2026): CDMO Rs4,915 cr, Complex Hospital Generics (CHG) Rs2,703 cr, Consumer Healthcare (PCH) Rs1,274 cr; the three add to Rs8,892 cr vs revenue from operations Rs8,869 cr, the Rs23 cr gap being inter-segment sales and unallocated items (eliminations, zero margin). CDMO +15% / +13% / +12%: Q1FY27 +19% with RFPs and orders up after biotech funding recovered (H1CY26 funding 'up over 100%', Q1 presentation); ~7 points of FY27 is the rupee; no sales assumed from the destocked on-patent product ('we don't currently anticipate anything this fiscal year', CEO, Q1 call); Lexington sterile capacity completes in H2 CY2027; ADC sales (~US$64 mn in FY26) to grow. CHG +16% / +9% / +7%: Q1FY27 +17% on ex-US inhalation anaesthesia; Kenalog (bought from BMS for US$35 mn upfront plus up to US$65 mn contingent) supplies from Q2FY27 at CHG-like margins; ~6 points of FY27 is the rupee (CHG is 73% regulated markets). PCH +15% / +14% / +13%: FY26 +17%, Q1FY27 +15%; power brands (52-53% of sales) grow 23-24%, e-commerce (~28%) 40-48% (Q4FY26 and Q1FY27 presentations).",
+  "base": {
+   "fy": "FY26",
+   "cdmo": 4915,
+   "chg": 2703,
+   "pch": 1274,
+   "elim": -23
+  },
+  "growth": {
+   "cdmo": [
+    15,
+    13,
+    12
+   ],
+   "chg": [
+    16,
+    9,
+    7
+   ],
+   "pch": [
+    15,
+    14,
+    13
+   ]
+  },
+  "elim": [
+   -25,
+   -27,
+   -29
+  ],
+  "margin": {
+   "_why": "Piramal discloses no segment EBITDA, so the split is a GAM estimate anchored on what has been said, and it must add to the consolidated EBITDA before other income (Screener basis). FY26 (Rs922 cr, 10.4%): CDMO 'high single-digit EBITDA margin owing to losses at its underutilised international facilities' (JM Financial, 16-Apr-2026) -> ~7% (Rs344 cr); PCH 'profitability margins ... in the low single digits' (CARE, 17-Jul-2026) -> ~3% (Rs38 cr); CHG the remainder, ~20% (Rs540 cr), 'stable and will remain stable' (CFO, Q1 call). FY25 (Rs1,445 cr, 15.8%) fits CDMO ~16%, CHG ~21%, PCH ~2%: the destocked high-margin on-patent product explains most of the CDMO swing. Forecasts: CDMO 11% / 15% / 17.5% (operating leverage on fixed-cost overseas sites as utilisation rises; JM expects high-teens CDMO margins by FY28; management's FY30 goal is ~25%); CHG 20.5% / 21% / 21% (Kenalog 'in line with CHG'); PCH 4.5% / 6% / 7.5% (premiumisation, e-commerce profitability).",
+   "cdmo": [
+    11,
+    15,
+    17.5
+   ],
+   "chg": [
+    20.5,
+    21,
+    21
+   ],
+   "pch": [
+    4.5,
+    6,
+    7.5
+   ]
+  },
+  "fx": {
+   "fy26Avg": 88.5,
+   "q1fy27Avg": 94.7,
+   "spot": 95.81,
+   "_why": "FY26 average ~88.5 and Q1FY27 ~94.7 Rs/$ as used in the house SUNPHARMA and BIOCON models; 95.81 at 30-Sep-2026 (PTI). Piramal does not disclose its average rates; the CFO put the Q1FY27 currency benefit at 'about 9% to 10%'."
+  }
+ },
+ "ebitdaMargin": [
+  13.0081,
+  15.5136,
+  17.0606
+ ],
+ "_marginWhy": "Consolidated EBITDA before other income = sum of the business builds (businessLines.margin): FY27E Rs1,331 cr (13.0%), FY28E Rs1,776 cr (15.5%), FY29E Rs2,161 cr (17.1%), vs 10.4% in FY26 and 15.8% in FY25. Q1 is always the weakest quarter (Q1FY25 10.5% vs FY25 15.8%; Q1FY26 5.5% vs FY26 10.4%), so Q1FY27's 8.6% (Rs195 cr) is consistent with ~13% for the year. Choice (30-Jul-2026) also has 13% for FY27E; ICICI Direct has 16.4% / 17.9% (Rs1,685 cr / Rs2,080 cr). We stay below the bulls because H2 depends on converting RFPs into orders, the Middle East disruption has raised input, freight and utility costs (Q4FY26 call), and every 1pp of margin is ~Rs115 cr of FY28E EBITDA, about a third of FY28E PAT.",
+ "capex": [
+  1580,
+  1000,
+  950
+ ],
+ "_capexWhy": "FY27E: US$120-135 mn guided (Q4FY26 and Q1FY27 calls; ~Rs1,250 cr at ~95/$; CARE puts FY27 capex at ~Rs1,300 cr) plus the Kenalog upfront payment (US$35 mn; Rs331.94 cr commitment in AR FY26 note on commitments) = Rs1,580 cr. FY28E Rs1,000 cr and FY29E Rs950 cr: CARE expects Rs2,000-2,300 cr over FY27-28 and 'relatively lower capex requirements in coming years'; the Lexington expansion (part of US$90 mn) completes in H2 CY2027. The Kenalog contingent consideration (up to US$65 mn) is not in the model; see the valuation risks.",
+ "depRateOnGrossBlock": 5.9,
+ "_depWhy": "FY26 depreciation and amortisation Rs831 cr (incl. Rs46.8 cr of right-of-use amortisation) = 6.0% of the average gross block (Screener: Rs13,077 cr to Rs14,829 cr; the block includes Rs1,257 cr of goodwill, which is not amortised, and rose with the rupee). Q1FY27 Rs224 cr (Rs894 cr annualised). 5.9% of the average block gives Rs921 / 998 / 1,055 cr as Riverview's payload-linker suite and Kenalog's product rights start depreciating (ICICI Direct Rs894 / 1,111 cr). The engine holds CWIP flat (Rs1,100 cr incl. intangibles under development at Mar-26).",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Not used: the engine applies the yield only to positive net cash and Piramal has net debt (Rs4,140 cr at Mar-26, company basis). Interest on gross cash is inside otherIncome (otherIncomeBuild).",
+ "otherIncome": [
+  271,
+  224,
+  228
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (otherIncomeBuild; the ctx script rebuilds it and checks it to Rs1 cr). Company other income (AR FY26 note 27: Rs213.3 cr in FY26, Rs134.8 cr in FY25): (a) interest and fund income Rs25 cr a year (FY26: bank deposits 5.17 + income-tax refund 1.90 + FVTPL 13.81 + gains on investments 6.92 = Rs27.8 cr); (b) miscellaneous income incl. grant and deferred-income amortisation Rs65 cr (FY26 Rs71.9 cr, FY25 Rs53.1 cr); (c) lease rent and asset-sale gains Rs6 cr (FY26 Rs7.5 cr); (d) write-backs of liabilities and provisions no longer required Rs55 cr in FY27E (FY26 Rs55.7 cr; Q1FY27 'driven by a reversal of some provisions no longer required', CFO) and Rs25 cr after (FY25 Rs18.3 cr); (e) foreign-exchange gains Rs60 cr in FY27E (FY26 Rs50.3 cr, FY25 Rs38.1 cr; the rupee fell from ~88.5 to ~95/$) and Rs40 cr after. Share of associates: AbbVie Therapeutics India 49% of a JV profit of Rs122.9 cr in FY26 (Rs60.2 cr share; FY25 Rs69.1 cr) growing 5% a year = Rs63 / 66 / 70 cr; Yapan Bio -Rs3 cr a year (FY26 -Rs3.0 cr). Total Rs271 / 224 / 228 cr vs Rs270 cr in FY26 and Rs303 cr in the twelve months to Jun-26 before exceptional items (Q1FY27 alone Rs109 cr incl. associates).",
+ "otherIncomeBuild": {
+  "interestFund": [
+   25,
+   25,
+   25
+  ],
+  "miscGrant": [
+   65,
+   65,
+   65
+  ],
+  "rentGains": [
+   6,
+   6,
+   6
+  ],
+  "writeBacks": [
+   55,
+   25,
+   25
+  ],
+  "forex": [
+   60,
+   40,
+   40
+  ],
+  "abbvieJvPat26": 122.92,
+  "abbvieStake": 49,
+  "abbvieGrowth": [
+   5,
+   5,
+   5
+  ],
+  "yapan": [
+   -3,
+   -3,
+   -3
+  ]
+ },
+ "interest": [
+  380,
+  410,
+  400
+ ],
+ "_interestLabel": "Finance costs (term loans and working-capital debt at Piramal and its US/UK subsidiaries, NCDs, leases)",
+ "_interestWhy": "FY26 Rs340.8 cr (AR FY26 note 32) on average gross debt incl. leases of ~Rs5,265 cr (Rs4,856 cr to Rs5,675 cr) = 6.5%; Q1FY27 Rs88 cr (Rs352 cr annualised). Gross debt rises in FY27 as capex (~Rs1,250 cr) and the Kenalog payment are funded partly with debt: management expects net debt/EBITDA to stay 'range bound ... at about 3.6' through FY27 (CFO, Q4FY26 call), CARE expects debt to stay broadly stable. Rs380 / 410 / 400 cr = ~6.1-6.2% on our gross-debt path (Q1FY27 annualised ~6.0% on ~Rs5,900 cr; FY26 6.5%) (the model's net debt plus cash held at ~Rs1,250 cr). PPLPHARMA.ctx.js rebuilds it and checks it within 8%.",
+ "taxRate": [
+  80,
+  48,
+  35
+ ],
+ "_taxWhy": "Piramal pays tax in profitable jurisdictions (India, where standalone profit before tax and exceptional items was Rs969 cr in FY26) while losses at under-used overseas sites get little or no tax credit: FY26 tax Rs150 cr on consolidated PBT (after associates, before exceptional items) of Rs20 cr; FY25 Rs324 cr on Rs415 cr; Q1FY27 Rs62 cr on a pre-tax loss of Rs7 cr (incl. a disallowed R&D credit). Management: the tax rate 'will remain elevated in this financial year', normalising to 24-25% only at scale (Q1FY27 call). We model the tax bill in rupees (~Rs245 / 290 / 330 cr, i.e. FY27E ~Q1 x4) and express it as 80% / 48% / 35% of the engine's PBT. ICICI Direct models Rs345 / 353 cr. The engine books no tax credit on losses.",
+ "payout": [
+  0,
+  10,
+  10
+ ],
+ "_payoutWhy": "Dividends of Rs0.11 (FY24) and Rs0.14 a share (FY25); none declared for the FY26 loss year (AR FY26). We assume none for FY27E and 10% of profit thereafter: free cash goes to capex and debt (long-term net debt/EBITDA goal ~1x).",
+ "sotp": {
+  "_why": "Written by tools/authoring/PPLPHARMA.sotp.js from PPLPHARMA.ctx.js. Do not edit by hand.",
+  "window": "2023-05-01",
+  "sectorFactorEvPct": 5.1,
+  "troughYearsLeftOut": [],
+  "troughTest": "EBITDA (reviewer decision 25-Nov-2026)",
+  "epsTestMedian": 15.42,
+  "ownMedian": 19.98,
+  "ownP25": 14.34,
+  "ownP75": 24.79,
+  "points": 179,
+  "jv": {
+   "multiple": 10,
+   "sep28Share": 68.06,
+   "value": 681,
+   "book": 122.13
+  },
+  "base": {
+   "opsMultiple": 21,
+   "sep28Ebitda": 1969,
+   "sep28NetCash": -4872,
+   "parts": {
+    "ops": 41339,
+    "jv": 681,
+    "nd": -4994
+   },
+   "totalCr": 37025,
+   "perShare": 278.54,
+   "impliedEvEbitda": 21.28
+  },
+  "bull": {
+   "opsMultiple": 26,
+   "sep28Ebitda": 2363,
+   "sep28NetCash": -4756,
+   "parts": {
+    "ops": 61425,
+    "jv": 681,
+    "nd": -4879
+   },
+   "totalCr": 57227,
+   "perShare": 430.52,
+   "impliedEvEbitda": 26.24
+  },
+  "bear": {
+   "opsMultiple": 15,
+   "sep28Ebitda": 1521,
+   "sep28NetCash": -4978,
+   "parts": {
+    "ops": 22815,
+    "jv": 681,
+    "nd": -5100
+   },
+   "totalCr": 18396,
+   "perShare": 138.39,
+   "impliedEvEbitda": 15.37
+  }
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.92,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 22,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 6.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity (PLAYBOOK §7); beta 0.92 gives 12.0%, our WACC: market value Rs27,451 cr at Rs206.52 (132.92 cr shares), net debt incl. leases ~Rs4,300 cr (14% of capital) at ~6.5% pre-tax (~4.9% after tax), cost of equity ~13% (beta ~1.1) for a leveraged CDMO with lumpy earnings.",
+  "_tgWhy": "5.5% nominal: CDMO outsourcing grows 7-8% a year (AR FY26 MD&A, industry estimates) and Indian OTC ~8%, but inhalation anaesthesia is a mature ~US$1 bn market.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~11% in FY29E to 7% by year 15.",
+  "_fadeMarginWhy": "22%: below management's ~25% FY30 goal (which needs US$1.2 bn of CDMO revenue at ~25% margins); the best year so far was 23% (FY21, before the overseas capacity build).",
+  "_fadeCapexWhy": "6% of revenue (FY27-29E ~8-15% in the build phase; maintenance plus growth).",
+  "_depWhy": "6.5% of revenue = long-run tax-deductible D&A (FY26 9.4% of revenue with under-used overseas plants)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "RFP momentum converts into multi-year orders at the overseas sites, ADC and high-potency work scale, the destocked on-patent product returns in FY28, Kenalog and ex-US sevoflurane beat plan, and consolidated margins climb towards management's 25% FY30 goal.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 2,
+   "fadeMarginTo": 25
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Biotech funding cools again and RFPs do not convert, overseas sites stay under-used, Chinese competition erodes ex-US sevoflurane prices, the Middle East disruption keeps input and freight costs high, and the tax bill stays near today's level.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -2.5,
+   "fadeMarginTo": 18
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "Sum of the parts (implied EV/EBITDA)",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 21.28,
+      "bull": 26.24,
+      "bear": 15.37
+     },
+     "why": "How the street values Piramal Pharma: a sum of the parts on EV/EBITDA (Motilal Oswal 30-Jul-2026: CDMO 23x, CHG 11x, ICH 13x 12-month-forward EBITDA; ICICI Direct 30-Jul-2026: CDMO 17x, CHG 15x FY28E EBITDA, PCH 2x sales, AbbVie JV 10x PAT; JM Financial Sep-2025: SOTP); Choice (24x FY28E) and InCred (24.6x FY27F) use one consolidated multiple. Piramal reports one segment, so the operating businesses take one multiple derived the house way: 21x Sep-28E EBITDA (before other income) = Piramal's own one-year-forward EV/EBITDA median since 1-May-2023 (post-listing months skipped; EV = market value + net debt incl. leases, less the JV's value above book; 179 weekly points) of 20.0x, with no trough years under the EBITDA version of the PLAYBOOK §4 test (house precedent for EV/EBITDA histories: NH, FORTIS, MAXHEALTH, TORNTPHARM; FY26 EBITDA fell 36%, above half its peak; the EPS reading would drop the Apr-2024 to Mar-2025 dates, median 33.0x, and give 15.4x, a sensitivity row), x the nine pharma peers' EV/EBITDA move over the same window, +5.1% (PLAYBOOK §7c; reproduced +5.1%), nearest half-turn. Plus the AbbVie Therapeutics India JV (49%; its profit share is in other income, not EBITDA) at 10x its Sep-28E share of profit (Rs68.1 cr; ICICI Direct basis) = Rs681 cr, less net debt at Sep-28E incl. leases (Rs4,872 cr on Screener's basis, plus the JV's Rs122.1 cr book value so it is not counted twice; Yapan Bio and other investments at book). Sum Rs37,025 cr = Rs278.5 a share = an implied 21.28x Sep-28E EBITDA after net debt. Bull 26x / bear 15x (75th / 25th percentile x the factor) on bull / bear EBITDA => implied 26.24x / 15.37x. No own-move blend, no growth uplift (sensitivities only). Written by PPLPHARMA.sotp.js."
+    },
+    {
+     "key": "pe",
+     "name": "P/E (pharma peers' median)",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 34.5,
+      "bull": 35.5,
+      "bear": 27
+     },
+     "why": "Relative cross-check on earnings: the nine-name pharma set's median trailing P/E at the 30-Sep-2026 close (34.5x; 75th / 25th percentile 35.5x / 27x, nearest half-turn) on Sep-28E EPS. Piramal's own P/E history is not meaningful (losses in FY23 and FY26, EPS below Rs1 in FY24-25). It asks what the stock is worth if, in a year, the market paid a typical Indian pharma earnings multiple for Piramal's then-forward earnings."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether consolidated cash flows support the price: 15-year FCFF at 12.0% (beta set so the cost of equity equals our WACC), terminal growth 5.5%, margins fading to 22%, plus the model's net debt at Mar-27E (associates at book value)."
+    }
+   ]
+  }
+ }
+}
