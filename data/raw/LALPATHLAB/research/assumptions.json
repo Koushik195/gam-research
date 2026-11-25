@@ -1,0 +1,211 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Dr Lal PathLabs (consolidated, ₹ crore), as of 30-Sep-2026 on Q1FY27 results. One reportable segment (diagnostic services), so the engine runs on a single revenue-growth path; the driver build (patients × revenue per patient) sits in `revenueBuild` and LALPATHLAB.ctx.js checks it reproduces model revenue. Revenue and EBITDA are on Screener's basis (FY26 ₹2,763 cr and ₹783 cr = 28.3%, before the ₹30.1 cr labour-code charge that Screener books as an exceptional item in other income). Net Profit history is the attributable figure (LALPATHLAB.patch.js); minorities (~₹5 cr a year) are carried in the tax line, so the model's EPS is EPS to shareholders. The announced acquisitions that had not been consolidated by 30-Sep-2026 (70% of SN Genelab, up to ₹168 cr, close expected by 30-Nov-2026; 80% of Sunshine Healthcare, Ghana, ~₹38 cr) are left out of the base, as Emkay does ('ex-acquisition'); their effect is shown separately in the report (roughly EPS-neutral by Sep-28E on our arithmetic). Valued on P/E on Sep-28E EPS (the street's majority method among brokers that disclose one: JM Financial, HDFC Securities, Nomura); EV/EBITDA and a DCF are cross-checks.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  15.56,
+  13.42,
+  12.3575
+ ],
+ "_revenueWhy": "Patients × revenue per patient (RPP), built in `revenueBuild` on FY26 revenue of ₹2,763 cr = 30.3 mn patients × ₹912 (AR FY26 MD&A). FY27E +15.6%: patients +7.0% (guided 6-7% at the start of the year; Q1 +8.2% with Q2-Q3 fever-season comparisons still to come) and RPP +8.0% (Q1 +10%: the CGHS/ECHS rate revision worth 2-3% of revenue for 'at least another 2-3 quarters', plus test and geography mix; SwasthFit growing ~20% at 27% of revenue). Management moved FY27 guidance to 'more towards mid-teens' after Q1. FY28E +13.4%: patients +7.0% (12-15 labs a year and ~1,000 collection centres maturing; Suburban back to double-digit growth), RPP +6.0% (mix and specialised tests; a price increase is under review after H1FY27 but not assumed beyond ~1pp). FY29E +12.4%: patients +6.5%, RPP +5.5%. Industry growth is 8-10% (AR FY26 MD&A); Dr Lal grew 10-12% organically in FY24-26.",
+ "revenueBuild": {
+  "_why": "FY26 patients 30.3 mn and revenue ₹2,763 cr (RPP ₹912, AR FY26 MD&A; Q4FY26 PPT). Growth rates explained in _revenueWhy. LALPATHLAB.ctx.js checks patients × RPP = model revenue each year.",
+  "patientsMn": 30.3,
+  "patientGrowth": [
+   7,
+   7,
+   6.5
+  ],
+  "rppGrowth": [
+   8,
+   6,
+   5.5
+  ]
+ },
+ "ebitdaMargin": [
+  29.3,
+  29.3,
+  29.6
+ ],
+ "_marginWhy": "Screener basis (= the company's margin before the labour-code charge): FY25 28.3%, FY26 28.3%, Q1FY27 31.0% (+232bp: operating leverage, employee cost +7% on revenue +19%, and the CGHS pass-through). Management guides 27-28% and says it will reinvest any excess (labs, radiology, precision diagnostics, international, A&P), a guide it beat in FY26 (28.3% before the one-off). FY27E 29.3%: Q1's 31.0% plus ~+100bp year on year in Q2-Q4 (FY26 quarters 30.6% / 27.2% / 26.6%), as the CGHS benefit runs for 2-3 quarters and reinvestment absorbs part of it. FY28E 29.3%: the CGHS step-up is in the base; new labs and radiology/international start-ups offset operating leverage. FY29E 29.6%: maturing network. Gross margin ~81% is stable (imported reagents: a weak rupee and West-Asia freight are risks; inventory and long-term contracts cover 3-4 months). Each 1pp of margin is ~₹36 cr of FY28E EBITDA (~₹1.6 of EPS).",
+ "capex": [
+  215,
+  210,
+  225
+ ],
+ "_capexWhy": "Cash capex plus new leases (right-of-use assets), because EBITDA excludes rent under Ind AS 116 and the leases are capital spent on the network (as in our hospital reports). Cash capex: ₹100-120 cr guided at Q4FY26, ~₹140-150 cr at Q1FY27 (12-15 labs, 3-4 radiology centres, precision-diagnostics lab, maintenance; normal run-rate ₹50-70 cr before the step-up, Q3FY26 call); we use ₹145 / 140 / 150 cr. New leases: ₹78.7 cr in FY26, ₹28.6 cr in FY25 (AR FY26 note 30a); we use ₹70 / 70 / 75 cr for 12-15 labs and collection-centre expansion a year. Acquisitions (SN Genelab, Ghana) are not included. FY26 total on the same basis: ₹252 cr (PPE ₹167 cr incl. the precision-lab property, intangibles ₹6 cr, new leases ₹79 cr).",
+ "depRateOnGrossBlock": 6.4,
+ "_depWhy": "FY26 D&A ₹161.8 cr (PPE ₹56.4 cr, right-of-use ₹40.0 cr, investment property ₹0.6 cr, intangibles ₹64.8 cr of which Suburban brand ₹39.2 cr, customer relationships ₹16.2 cr, trademarks ₹1.65 cr, non-compete ₹0.8 cr, software ₹7.0 cr; AR FY26 notes 5 and 31) = 7.9% of average gross block (₹2,059 cr, which includes ₹548 cr of goodwill that is not amortised). The Suburban brand (₹22.1 cr left) is fully amortised in FY27, so acquisition amortisation falls from ₹57.8 cr (FY26) to ₹40.6 cr (FY27E) and ₹17.8 cr (FY28-29E) while PPE and lease depreciation rise with the network. Our bottom-up schedule (`daBuild`) gives ₹162 / 153 / 167 cr; the engine applies one rate to gross block, and 6.4% matches the three-year total (₹146 / 160 / 174 cr): FY27E D&A is ₹16 cr lower than the schedule (EPS +₹0.7) and FY28-29E ₹7 cr higher (Sep-28E EPS −₹0.3). Disclosed in the report.",
+ "daBuild": {
+  "_why": "₹ crore. PPE + software depreciation grows with the capex step-up (FY25 ₹45.1 + 7.5 cr, FY26 ₹56.4 + 7.0 cr; capex ₹54 cr → ₹167 cr → ₹145 cr): +18% / +12% / +10%. Right-of-use depreciation (FY26 ₹40.0 cr; ROU assets ₹174 cr at Mar-26, up from ₹136 cr) rises with ₹70-75 cr of new leases a year. Acquisition intangibles from the Suburban purchase and its 2025 liquidation: brand ₹22.06 cr carrying value (₹39.15 cr a year, so FY27 takes the remainder), customer relationships ₹138.4 cr at ₹16.17 cr a year, trademarks ₹11.96 cr at ₹1.65 cr a year, non-compete ₹0.68 cr left (AR FY26 note 5).",
+  "ppeSoftware": [
+   74.8,
+   83.8,
+   92.2
+  ],
+  "rou": [
+   46,
+   51,
+   56
+  ],
+  "investmentProperty": [
+   0.6,
+   0.6,
+   0.6
+  ],
+  "acquisitionIntangibles": [
+   40.56,
+   17.82,
+   17.82
+  ]
+ },
+ "otherTreasury": {
+  "base": 193.92,
+  "label": "Non-current bank deposits (inside other financial assets)",
+  "_why": "AR FY26 note 7: ₹193.92 cr of bank balances with more than twelve months to maturity sit in non-current other financial assets, which Screener folds into 'Other Assets'. They are treasury, not working capital: with them, cash and investments are ₹1,526 cr at Mar-26 (cash ₹242.8 cr + other bank balances ₹666.7 cr + current investments ₹422.6 cr + ₹193.9 cr), the company's 'net cash and cash equivalents' of ₹1,526 cr. Engine net cash = ₹1,328 cr after ₹199 cr of lease liabilities (Screener's borrowings)."
+ },
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Set to zero: the engine's treasury is net of lease liabilities, so treasury income is built on gross cash, deposits and liquid funds in otherIncome instead (LALPATHLAB.ctx.js).",
+ "otherIncome": [
+  120,
+  145,
+  175
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (AR FY26 note 27; checked in LALPATHLAB.ctx.js). (1) Treasury income: FY26 ₹94.6 cr (bank-deposit interest ₹66.95 cr, mutual-fund fair-value gains ₹19.36 cr, gains on sale ₹8.34 cr) on average cash, deposits and liquid funds of ₹1,378 cr (₹1,229 cr at Mar-25, ₹1,526 cr at Mar-26) = 6.9%; FY25 ~8.0%. We apply 6.75% (repo at 5.25% since early 2026; Q1FY27's ₹31.9 cr was ~7.9% annualised, helped by fund gains) to average gross treasury on our path (engine net cash plus lease liabilities, `leaseBuild`). (2) Recurring non-treasury income ₹6 cr: rent from investment property ₹3.42 cr, keyman-policy value ₹0.34 cr, miscellaneous ₹2.09 cr. Not forecast: bad debts recovered (₹0.70 cr), interest on tax refunds, any refund from the Jul-2026 ESOP-deduction appeal, and the FY26 labour-code charge that Screener nets into other income. FY26 on the same basis ₹100.5 cr (₹101.27 cr less ₹0.70 cr recovered and ₹0.06 cr refund interest); twelve months to Jun-26 ₹105 cr (Screener 'other income normal').",
+ "leaseBuild": {
+  "_why": "Lease liabilities ₹199.0 cr at Mar-26 (₹157.4 cr at Mar-25); new leases ₹70 / 70 / 75 cr a year (as in capex) less principal repaid (FY26 ₹36.8 cr) ~₹40 / 40 / 45 cr → ₹229 / 259 / 289 cr. Interest at 11.5% of average lease liabilities (FY26 ₹22.74 cr on ₹178 cr = 12.8%; Q1FY27 ₹6.3 cr = ~11.7% annualised) plus ₹0.5 cr of other finance costs.",
+  "mar26": 198.99,
+  "closing": [
+   229,
+   259,
+   289
+  ],
+  "rate": 11.5,
+  "otherFinance": 0.5
+ },
+ "interest": [
+  25.1,
+  28.6,
+  32
+ ],
+ "_interestLabel": "Interest on lease liabilities (no bank debt) and other finance costs",
+ "_interestWhy": "Built from `leaseBuild` (checked in LALPATHLAB.ctx.js): 11.5% of average lease liabilities plus ₹0.5 cr. Dr Lal has no borrowings since it repaid the Suburban term loan in FY25; FY26 finance cost ₹22.8 cr was ₹22.74 cr of lease interest (AR FY26 note 30).",
+ "taxRate": [
+  26.02,
+  25.99,
+  25.95
+ ],
+ "_taxWhy": "Tax plus minorities (engine workaround: no minority line). Built in `taxBuild`: tax at 25.4% of PBT (statutory 25.168%; FY26 current-year charge 25.6% before a ₹12.2 cr prior-year credit; Q1FY27 25.4%; management guides ~25%) plus minorities of ₹5.5 / 6.0 / 6.5 cr (FY26 ₹4.98 cr, FY25 ₹5.11 cr: 20-30% outside stakes in Paliwal, APRL, Centrapath, Chanre and Bangladesh). Engine rate = (25.4% x PBT + minorities) / PBT, written from the build by LALPATHLAB.mult.js. The model's profit and EPS are therefore to Dr Lal's shareholders.",
+ "taxBuild": {
+  "_note": "Engine tax rate = (tax on PBT + minorities) / PBT. ₹ crore.",
+  "taxOnPbt": [
+   25.4,
+   25.4,
+   25.4
+  ],
+  "minorities": [
+   5.5,
+   6,
+   6.5
+  ],
+  "_why": "Minorities grow with the subsidiaries' profits (FY24 ₹4.6 cr, FY25 ₹5.1 cr, FY26 ₹5.0 cr; Q1FY27 ~₹1.0 cr). SN Genelab's 30% minority is outside the base (acquisition not closed by 30-Sep-2026)."
+ },
+ "payout": [
+  45,
+  45,
+  45
+ ],
+ "_payoutWhy": "FY26 dividends declared ₹14.0 per post-bonus share (interims ₹6 and ₹7 before the 1:1 bonus = ₹6.5, plus ₹3.5 and a ₹4 final after it) = ~46% of profit to owners; FY25 ₹12 (bonus-adjusted) = ~41%. Q1FY27 interim ₹5. We use 45%: the cash pile (₹1,693 cr at Jun-26) is earmarked mainly for M&A, so we do not assume special payouts.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.85,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 27,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity: 6.5% + 0.85 x 6% = 11.6%. Dr Lal has no borrowings and ~₹1,500-1,700 cr of cash (lease liabilities ~₹200 cr), so WACC ≈ cost of equity; beta 0.85 for a defensive, cash-generative consumer-healthcare business with ~75% B2C revenue.",
+  "_tgWhy": "6% nominal: diagnostics volumes grow with an ageing population, chronic disease and the shift from unorganised labs (industry 8-10% a year, AR FY26), but pricing is competitive.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~12% (FY29E) to 8% by year 15.",
+  "_fadeMarginWhy": "27%: below today's ~29% because competition (online aggregators, hospital chains, pharma entrants) and expansion into lower-margin regions should erode some of the North-India premium over fifteen years; above the 24% of FY23, the post-COVID low.",
+  "_fadeCapexWhy": "6% of revenue including new leases (FY27-29E 6-7%; FY23-25 2-4% when expansion slowed).",
+  "_depWhy": "5% of revenue: FY26 D&A was 5.9% of revenue including ₹58 cr of acquisition amortisation that ends (brand) or shrinks; ex that, ~3.8%. Lease depreciation is part of it."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Patient growth holds at 8%+ as the new labs and Suburban mature, the price increase under review is taken in H2FY27 without losing volume, SwasthFit and specialised tests keep lifting revenue per patient, and the CGHS gain is kept rather than reinvested.",
+   "revenueGrowthDelta": 2,
+   "marginDelta": 1,
+   "fadeMarginTo": 29
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "The Q1 spurt fades with the CGHS base effect, aggregators and hospital labs restart price competition, the new labs and radiology centres dilute margins, and an expensive acquisition (the cash pile is earmarked for M&A) earns less than the treasury income it replaces.",
+   "revenueGrowthDelta": -2.5,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 25
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 45.5,
+      "bull": 56.5,
+      "bear": 39
+     },
+     "why": "How the street values Dr Lal: of the notes standing on 30-Sep-2026 that disclose a method, three use P/E on forward EPS (JM Financial 48x Jun-28E, Nomura 45x Mar-28E, HDFC Securities 44x Q3FY28E) and one uses DCF (Emkay, cross-checked at 46-48x FY28E P/E); Kotak, ICICI Securities and 360 ONE do not disclose theirs. 45.5x Sep-28E EPS = Dr Lal's median one-year-forward P/E from 1-Apr-2021 to 30-Sep-2026 (every weekly close plus the 30-Sep close, 288 points) on EPS before exceptional items (FY25 ex the ₹40.8 cr Suburban-liquidation tax credit, FY26 ex the ₹30.1 cr labour-code charge), 45.7x, x 0.994 (the three diagnostics peers' P/E at the 30-Sep close vs their five-year medians: Metropolis -7.5%, Vijaya +21.9%, Thyrocare -0.6%; median -0.6%, PLAYBOOK §7c) = 45.4x, nearest half-turn 45.5x. No trough years (FY23's ₹14.33 is above half of FY22's COVID-boosted ₹20.69). The window includes the FY22 COVID-testing year as §4 requires (a windfall is not a one-off); the median from 1-Apr-2022 (43.0x, 42.5x after the factor) is a sensitivity. Bull 56.5x / bear 39x = 75th / 25th percentiles x the factor. The model's EPS is EPS to shareholders (minorities in the tax line) with no exceptional items, so the engine multiple equals the derived one. Checked in LALPATHLAB.ctx.js; written by LALPATHLAB.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 35,
+      "bull": 42,
+      "bear": 31
+     },
+     "why": "Cross-check. Dr Lal's median one-year-forward EV/EBITDA since 1-Apr-2021 (EV = price x 16.76 cr shares + net debt at the latest March, lease liabilities less cash, investments and disclosed non-current deposits; EBITDA = next full fiscal year, FY22-26 actual and FY27-28E ours), 28.9x, x 1.215 (the same three peers' EV/EBITDA at the 30-Sep close vs their five-year medians: Metropolis -8.9%, Vijaya +23.5%, Thyrocare +21.5%; median +21.5%) = 35x, applied to Sep-28E EBITDA plus the engine's Sep-28E net cash (after lease liabilities). Bull 42x / bear 31x = 75th / 25th percentiles x the same factor. The EV factor is far above the P/E factor because Thyrocare, the median peer in both, grew profit much faster than EBITDA in FY26; see the valuation chapter."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 11.6% (cost of equity ≈ WACC: no borrowings), terminal growth 6%; capex includes new leases; the tax rate includes the minorities' small share; plus the engine's net cash (after lease liabilities) at Mar-27."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "asOf": "2026-09-30",
+ "industry": {
+  "summary": "Indian pathology is large and fragmented: over 3 lakh labs, most of them standalone or inside hospitals; organised chains hold only ~15-20% (AR FY26 MD&A). Company slide: standalone centres 42-46%, hospital-based labs 36-40%, diagnostic chains 16-20% (Q1FY27 PPT p.19, 'industry data'). Leading organised players (a CareEdge sample covering ~10-12% of the industry) grew tests from 214 mn (FY21) to 401 mn (FY25) and patients from 64 mn to 99 mn; bundled preventive packages rose from ~6-12% to ~12-25% of their revenue. Urban areas are >70% of diagnostic revenue although >60% of people live in villages. Industry growth is expected at ~8-10% a year over the medium term, mostly volumes (AR FY26 MD&A, citing CareEdge). North and East India lead demand (IMARC, cited in the AR).",
+  "drivers": ["Chronic and lifestyle disease (diabetes, heart, cancer) needs repeat monitoring", "Preventive check-ups and bundled packages", "Ageing: 60+ population from 10 crore (2011) to 23 crore (2036)", "Insurance and government schemes (PM-JAY, CGHS/ECHS rate revisions)", "Shift from unorganised to organised labs (slow: low entry barriers)", "Tier-3/4 and rural penetration through franchised collection centres"],
+  "threats": ["Online aggregators and e-pharmacies (Tata 1mg, PharmEasy-owned Thyrocare, Healthians, Redcliffe) selling tests at deep discounts", "Hospital chains and pharma companies entering diagnostics (CARE: 'entry of several large pharmaceutical and hospital players ... led to pressure on test pricing')", "Point-of-care testing (early)", "Regulation and accreditation costs", "Imported reagents (rupee, freight)"],
+  "pricing": "Dr Lal has not raised list prices for over three years and passed on the Q3FY26 GST cut on reagents (12% → 5%); management says competitors have raised prices (JM, Mar-2026) and that pricing is 'neither ... too favorable' nor worse (Q1FY27 call); CGHS/ECHS raised its common rate card in 2026 (2-3% of Dr Lal's revenue). HDFC Securities (Dec-2025): 'test pricing scenario is stable across traditional companies, new-aged ones, and online peers'.",
+  "src": "AR FY26 MD&A pp.122-125; Q1FY27 PPT; CARE (1-Apr-2026); HDFC Securities (30-Dec-2025); JM Financial (14-Mar-2026)"
+ },
+ "peers": {
+  "set": ["METROPOLIS", "VIJAYA", "THYROCARE"],
+  "excluded": {},
+  "note": "Listed diagnostics peers with five-year histories (data from Oct-2021); none is in the BSE-500. Nephrocare (dialysis), Suraksha and Krsnaa are recent listings or different models and are not in the set. Sector factor = median of the three peers' P/E (EV/EBITDA) at the 30-Sep-2026 close vs their five-year medians, excluding Dr Lal (PLAYBOOK §7c; tools/authoring/sector-factor.js): P/E −0.6% (Metropolis −7.5%, Vijaya +21.9%, Thyrocare −0.6%), EV/EBITDA +21.5% (−8.9%, +23.5%, +21.5%). In both cases the median peer is Thyrocare, whose profit rose faster than EBITDA in FY26 (PAT +79%, EBITDA +38%, Screener) as depreciation and tax normalised after FY23-25, so its P/E sits at its median while its EV/EBITDA is 21.5% above it.",
+  "profiles": {
+   "METROPOLIS": "Mumbai-based, West and South focus; heavier B2B mix; FY26 revenue ₹1,646 cr, EBITDA margin 24.7% (Screener); net debt after acquisitions (Core Diagnostics, others).",
+   "VIJAYA": "Hyderabad-based, integrated pathology + radiology in Telangana/AP; FY26 revenue ₹814 cr, EBITDA margin 41.4% (Screener; radiology-heavy, post-Ind AS 116).",
+   "THYROCARE": "Navi Mumbai central-lab model, B2B and wellness; owned by API Holdings (PharmEasy); FY26 revenue ₹829 cr, EBITDA margin 31.7% (Screener)."
+  }
+ },
+ "street": {
+  "note": "Broker notes and press summaries dated on or before 30-Sep-2026 (Emkay PDFs via Business Standard broker-tips and InvestmentGuruIndia; Kotak Neo PCG summary of KIE; Trendlyne research-report list; HDFC Securities PDF; AskFuzz/Zerodha news summaries). n.d. = method not disclosed in what we could retrieve. Business Standard articles return HTTP 403 to our tool and were not read.",
+  "brokers": [
+   { "broker": "Emkay Global", "date": "2026-09-25", "rating": "BUY", "tp": 2100, "method": "DCF", "multiple": "implied 48x FY28E", "on": "Sep-27E target", "eps": { "FY27E": 36.3, "FY28E": 43.2, "FY29E": 50.4 }, "sales": { "FY27E": 3166, "FY28E": 3652, "FY29E": 4153 }, "ebitda": { "FY27E": 912, "FY28E": 1057, "FY29E": 1220 }, "thesis": "Growth acceleration on the anvil; SN Genelab (~16x FY26 EV/EBITDA) adds genomics and Gujarat; estimates ex-acquisition (revenue/EBITDA CAGR 15%/16% FY26-29E)", "src": "https://investmentguruindia.com/newsdetail/buy-dr-lal-pathlabs-ltd-for-the-target-rs-2-100-by-emkay-global-financial-services-ltd604792; estimates from the 24-Jul-2026 result update (https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-07/17851285050.21277800.pdf)" },
+   { "broker": "Nomura", "date": "2026-09-25", "rating": "BUY", "tp": 2150, "method": "P/E", "multiple": "45x (May-26 basis)", "on": "Mar-28E (May-26)", "thesis": "Q1 beat on realisations (revenue/EBITDA/PAT 4.5%/12.9%/13.3% above its estimates); marginal near-term EPS dilution from SN Genelab", "src": "https://zerodha.com/markets/stocks/NSE/LALPATHLAB/ (25-Sep-2026); May-2026 basis 45x Mar-28E EPS of ₹41.3 per press summary" },
+   { "broker": "JM Financial", "date": "2026-07-27", "rating": "BUY", "tp": 2195, "method": "P/E", "multiple": "48x", "on": "Jun-28E", "thesis": "Top diagnostics pick; patients returning to organised offline labs; growth reverting to 13-14%+; price hikes a lever", "src": "https://askfuzz.ai/discover/news/companies/dr-lal-pathlabs-q1-profit-jumps-28-to-169-5-crore; JM 14-Mar-2026 note via InvestmentGuruIndia" },
+   { "broker": "Kotak Institutional Equities", "date": "2026-07-26", "rating": "BUY", "tp": 2030, "method": null, "multiple": null, "on": null, "thesis": "Mid-teens FY27 growth; Suburban near double-digit; EBITDA / adjusted EPS CAGR ~16% / 15% FY26-29E", "src": "https://www.kotakneo.com/uploads/Pick_of_the_week_Dr_Lal_Pathlabs_27th_July_2026_e6888b7b9a.pdf" },
+   { "broker": "ICICI Securities", "date": "2026-07-26", "rating": "HOLD", "tp": 1690, "method": null, "multiple": null, "on": null, "thesis": "Beat on all fronts, but valuation pricey; Q2 run-rate will show whether the trend has changed (downgraded from BUY)", "src": "https://trendlyne.com/posts/5750389/spurt-in-high-value-testing-boosts-performance-valuation-pricey; AskFuzz" },
+   { "broker": "360 ONE", "date": "2026-09-21", "rating": "BUY", "tp": 1950, "method": null, "multiple": null, "on": null, "thesis": "Robust demand and stable pricing keep diagnostics volumes strong in FY27 (article text not retrievable)", "src": "Business Standard, 21-Sep-2026 (search snippet only)" },
+   { "broker": "FundsIndia", "date": "2026-04-13", "rating": "BUY", "tp": 1644, "method": null, "multiple": null, "on": null, "thesis": "Expanding access to advanced diagnostics (target met)", "src": "https://trendlyne.com/research-reports/post/LALPATHLAB/1877/dr-lal-pathlabs-ltd" },
+   { "broker": "Geojit BNP Paribas", "date": "2026-02-17", "rating": "HOLD", "tp": 1577, "method": null, "multiple": null, "on": null, "thesis": "Hold (target met)", "src": "https://trendlyne.com/research-reports/post/LALPATHLAB/1877/dr-lal-pathlabs-ltd" },
+   { "broker": "HDFC Securities", "date": "2025-12-30", "rating": "BUY", "tp": 1740, "method": "P/E", "multiple": "44x", "on": "Q3FY28E", "thesis": "Volume-led growth, steady ~28.5% margin; 44x is a ~10% discount to its 49x average P/E (latest note retrieved; stale)", "src": "https://www.hdfcsec.com/hsl.docs/Dr%20Lal%20Pathlabs%20-%20Update%20-%20Dec%2025%20-%20HSIE-202512301049017398464.pdf" }
+  ],
+  "consensus": "Bloomberg (late Jul-2026): 25 of 31 analysts Buy, average target ₹1,907 (AskFuzz). LSEG (25-Sep-2026): median target ₹2,025 (Zerodha news). Pre-Q1 Bloomberg consensus for Q1FY27 EBITDA was ₹213 cr (Emkay exhibit 8); actual ₹247 cr.",
+  "methodNote": "Of the four notes that disclose a method, three use P/E on forward EPS (JM Financial 48x Jun-28E, Nomura 45x Mar-28E, HDFC Securities 44x Q3FY28E) and one uses DCF (Emkay, cross-checked at 46-48x FY28E P/E). We follow the majority: P/E."
+ },
+ "ownership": {
+  "asOf": "Jun-2026",
+  "promoters": 53.19, "fiis": 17.35, "diis": 21.59, "government": 0.01, "public": 7.48, "others": 0.38, "shareholders": 111037,
+  "mutualFundsMar26": 18.90,
+  "note": "Promoters are the Lal family (Executive Chairman Dr Arvind Lal, Executive Director Dr Vandana Lal, Non-Executive Director Dr Archana Lal Erdmann and family entities). Promoter holding drifted from 58.2% (Mar-17) to 53.2% (Jun-26) through small sales; FIIs fell from 26.8% (Dec-24) to 17.4%, domestic institutions rose from 12.9% to 21.6% (Screener shareholding). Mutual funds and AIFs held 3.17 cr shares (18.90%) at Mar-26 (AR FY26 corporate governance report). Named non-promoter holders for Jun-2026 were not retrieved.",
+  "src": "BSE shareholding pattern via Screener.in; Q1FY27 PPT p.15; AR FY26"
+ },
+ "moat": {
+  "verdict": "A narrow, regional moat: brand and density in North India (Delhi NCR 31% of revenue, North + East ~77%) that gives Dr Lal the industry's best margins and a B2C mix (~75%) that prices above B2B. Outside its home markets the moat has not travelled: West slipped from 15% to 14% of revenue after Suburban, South is 6%. Low entry barriers and aggregator discounting cap pricing (no list-price increase in three years).",
+  "scores": [
+   ["Brand and doctor trust (North)", "Strong", "75 years; 30 mn patients a year; CAP/NABL accreditation; Delhi NCR is the highest-realisation market and still grows double digit"],
+   ["Scale and network density", "Strong", "312 labs, 7,727 PSCs, 13,935 PUPs: the largest network; hub-and-spoke spreads fixed lab cost; gross margin ~81%"],
+   ["Pricing power", "Weak", "No list-price increase for 3+ years; GST cut passed on; CGHS rate revision is a government decision, not Dr Lal's"],
+   ["Switching costs", "Weak", "Patients and doctors can switch labs at no cost; aggregators compare prices online"],
+   ["Specialised testing / science", "Moderate", "136 new tests in FY26 (13 first in India); genomics <5% of revenue; SN Genelab adds capability"],
+   ["Replicability outside the North", "Weak", "Suburban (₹925 cr, 2021) stagnated for ~3 quarters in FY25-26; South still 6% of revenue"]
+  ]
+ },
+ "critiques": [
+  "Growth is flattered: Q1FY27's 19% included 2-3pp from the CGHS/ECHS rate revision, which laps in a year; ICICI Securities downgraded to HOLD calling the valuation 'pricey'.",
+  "One region pays the bills: North + East are ~77% of revenue and Delhi NCR alone 31%; the West (Suburban) and South have not scaled.",
+  "Suburban was expensive: ₹925 cr (18.5x EBITDA) in 2021; three years later the West's share of revenue has fallen and its margin is below the group's; ₹58 cr a year of acquisition amortisation still runs through the P&L in FY26.",
+  "Idle cash: ~₹1,700 cr earns ~7% pre-tax; the stated use is M&A (SN Genelab, Ghana), where Dr Lal's record (Suburban) is mixed.",
+  "Premium price: ~59x trailing EPS at 30-Sep-2026 against peers at 47-79x, with growth that has averaged 10-12% organically since COVID.",
+  "Competition never goes away: aggregators, hospital labs and pharma entrants (CARE), and management itself says 'none of us are banking on competitive intensity reducing'."
+ ],
+ "gaps": [
+  "Business Standard articles (Q1 broker roundup of 27-Jul-2026, 360 ONE note of 21-Sep-2026, the 16-Jun-2026 stock move) return HTTP 403 to our tool; not read.",
+  "Notes from Motilal Oswal, Morgan Stanley, Goldman Sachs, Jefferies, Investec, Antique, IIFL, PhillipCapital, Nuvama and ICICI Direct dated before 30-Sep-2026 were not retrieved; their ratings and methods are not in the street table.",
+  "Kotak Institutional Equities and ICICI Securities valuation methods not disclosed in the summaries retrieved; Nomura's Jul/Sep-2026 multiple and EPS not retrieved (May-2026 basis used).",
+  "Suburban's standalone revenue and margin since FY24 are not disclosed (merged into the parent in Mar-2025; no longer reported separately).",
+  "SN Genelab's EBITDA and profit not disclosed; Emkay's ~16x FY26 EV/EBITDA implies ~₹15 cr on ₹58 cr revenue. Ghana (Sunshine Healthcare) financials not disclosed.",
+  "SwasthFit share before FY24 and patient numbers for Q1-Q2FY25 not retrieved.",
+  "Named shareholders for Jun-2026 and promoter entity split not retrieved."
+ ],
+ "conflicts": [
+  "SN Genelab consideration: Kotak Neo and Angel One report 'up to ₹168 cr including a ₹31.5 cr earn-out'; Zerodha/ScanX and Emkay report ₹168 cr in cash plus earn-outs capped at ₹31.5 cr (₹0.3 bn). We use ₹168 cr for the cash at closing and show the earn-out as a range.",
+  "Q1FY27 revenue per patient: company ₹968; Emkay's exhibit ₹973 (own calculation). We use the company figure.",
+  "Q1FY27 EBITDA: company ₹247 cr; Screener ₹248 cr (rounding). Q1FY27 total income ₹830 cr (incl. other income) is sometimes quoted as revenue."
+ ]
+}
