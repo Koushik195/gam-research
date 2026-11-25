@@ -756,7 +756,12 @@ function buildSegmentKpiSheet(wb, M) {
   const byQ = f => q.map(x => (isNum(x[f]) ? x[f] : null));
   const S = [];
   const L = (key, label, unit, hv, opt = {}) => S.push({ key, label, unit, hv, ...opt });
-  const blocks = M.research.segments.kpiBlocks || [
+  // kpiBlocks: [[title, [[field, label, unit, growth, marginOf], ...]], ...]. Object forms are accepted too
+  // ({ title, rows: [{ key, label, unit, growth, marginOf }] } or { title: rows }), so a format slip can't break the export.
+  const kpiRow = r => (Array.isArray(r) ? r : [r.key ?? r.field ?? r.f, r.label, r.unit, r.growth, r.marginOf]);
+  const kpiBlock = b => (Array.isArray(b) ? [b[0], (b[1] || []).map(kpiRow)] : [b.title ?? b.band ?? b.name ?? '', (b.rows ?? b.items ?? []).map(kpiRow)]);
+  const rawKpi = M.research.segments.kpiBlocks;
+  const blocks = rawKpi ? (Array.isArray(rawKpi) ? rawKpi : Object.entries(rawKpi)).map(kpiBlock) : [
     ['1   CONSOLIDATED', [['gov', 'B2C gross order value (GOV)', '₹ cr', 1], ['revenue', 'Revenue from operations', '₹ cr', 1], ['adjEbitda', 'Adjusted EBITDA', '₹ cr', 0, 'revenue'], ['pat', 'Net profit / (loss)', '₹ cr'], ['cash', 'Cash & investments', '₹ cr']]],
     ['2   FOOD DELIVERY', [['foodGov', 'Gross order value', '₹ cr', 1], ['foodRev', 'Revenue', '₹ cr', 1], ['foodAdjEbitda', 'Adjusted EBITDA', '₹ cr', 0, 'foodGov'], ['foodContribPct', 'Contribution margin, % of GOV', '%'], ['mtu', 'Platform monthly transacting users', 'mn', 1]]],
     ['3   INSTAMART (QUICK COMMERCE)', [['imGov', 'Gross order value', '₹ cr', 1], ['imRev', 'Revenue', '₹ cr', 1], ['imAdjEbitda', 'Adjusted EBITDA', '₹ cr', 0, 'imGov'], ['imContribPct', 'Contribution margin, % of GOV', '%'], ['imStores', 'Dark stores (period end)', 'nos'], ['imSqftMn', 'Dark-store area', 'mn sq ft'], ['imAov', 'Average order value', '₹', 1]]],

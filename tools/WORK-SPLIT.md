@@ -26,7 +26,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 ## Engine requests (for Team A)
 
-- (A, 25-Nov, from WOCKPHARMA) Renderer limits: `kpiBlocks` must be in array form or the Excel export fails (".for is not iterable"); the chart palette has four colours, so a fifth series crashes the chart (worked around with `slot`/`grey`). Also: no separate amortisation line (WOCKPHARMA routes Zaynich amortisation through the interest input, labelled). Open, Team A.
+- (A, 25-Nov, from WOCKPHARMA) **kpiBlocks FIXED by Team A (25-Nov): object forms are now accepted.** Renderer limits: `kpiBlocks` had to be in array form or the Excel export fails (".for is not iterable"); the chart palette has four colours, so a fifth series crashes the chart (worked around with `slot`/`grey`). Also: no separate amortisation line (WOCKPHARMA routes Zaynich amortisation through the interest input, labelled). Open, Team A.
 - Banks need a bank layout in the lender engine (deposits/CASA, fees in other income, CRR/SLR, risk-weighted capital). Until then, Team A writes all banks.
 - December year-end companies (e.g. CASTROLIND, SCHAEFFLER, CIEINDIA) need December-year support before they can be written.
 - (B, 23-Nov) Excel export fails ("Cannot read properties of undefined") for a segment model without an `esop` array; TMPV works around it with `esop: [0,0,0]`.
