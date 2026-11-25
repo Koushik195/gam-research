@@ -1,0 +1,501 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Reliance Industries (consolidated, Rs crore). Five reported segments on the company basis (gross revenue = value of sales and services incl. GST; EBITDA = company definition) plus a negative line for GST, excise duty and inter-segment sales (zero margin, PLAYBOOK §7) so that revenue ties to Screener. Company EBITDA includes other income (mostly treasury income in Others); `unallocated` removes it so model EBITDA is on Screener's basis, and `otherIncome` adds it back below EBITDA. History is attributable to RIL shareholders (RELIANCE.patch.js); the tax line also carries minorities.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "o2c",
+   "name": "Oil to Chemicals (O2C)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA (company definition)",
+   "base": 662401,
+   "growth": [
+    22,
+    -8,
+    3
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    8.4,
+    8.9,
+    8.9
+   ],
+   "hist": {
+    "driver": "o2cRev",
+    "revenue": "o2cRev",
+    "adjEbitda": "o2cEbitda"
+   },
+   "_why": "Revenue tracks crude: Brent averaged $104.5/bbl in Q1FY27 (Q1FY26 ~$68) and O2C revenue rose 30%; we assume ~$95 for FY27 (Hormuz still disrupted at 30-Sep, Brent ~$100-107 in September) and ~$80 in FY28-29: +22%, -8%, +3%. EBITDA Rs60,546 cr in FY26 (9.1%); Q1FY27 Rs17,010 cr (8.4%) despite a planned turnaround, export duties/SAED, PSU under-recoveries and record crude premiums and freight. FY27E ~Rs68K cr (Q1 run-rate), FY28E ~Rs66K cr as cracks normalise, FY29E ~Rs68K cr (8.9%). Street: Emkay Jun-28E O2C EBITDA Rs67.7K cr; MOSL FY28E O2C+E&P Rs80.4K cr."
+  },
+  {
+   "key": "ep",
+   "name": "Oil and Gas (E&P)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA (company definition)",
+   "base": 23861,
+   "growth": [
+    2.7,
+    -6,
+    -6
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    79,
+    77,
+    76
+   ],
+   "hist": {
+    "driver": "epRev",
+    "revenue": "epRev",
+    "adjEbitda": "epEbitda"
+   },
+   "_why": "KG-D6 gas fell from 26.6 to 24.8 MMSCMD in a year (natural decline) at a capped $8.9/MMBtu for H1FY27; liquids earn $107/bbl. FY27E +2.7% on oil prices, then -6% a year as volumes decline and oil normalises; margin 79% (Q1FY27) easing to 76%. EBITDA ~Rs19.4K / 17.7K / 16.4K cr. Street: Emkay Jun-28E Rs14.0K cr, BOBCAPS Rs19.0K cr."
+  },
+  {
+   "key": "jio",
+   "name": "Digital Services (Jio)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA (company definition)",
+   "base": 176164,
+   "growth": [
+    12,
+    14,
+    11
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    44.5,
+    45.5,
+    46
+   ],
+   "hist": {
+    "driver": "jioRev",
+    "revenue": "jioRev",
+    "adjEbitda": "jioEbitda"
+   },
+   "_why": "Gross revenue (value of services). FY26 +14%; Q1FY27 JPL gross +12% with ARPU Rs215.6 (+Rs7 YoY) and no tariff increase in 12 months; subscribers 533 mn, FWA 14 mn. FY27E +12% (no tariff rise assumed before FY28); FY28E +14% on a ~10% effective tariff increase (street assumes ~15%; Jefferies moved its assumed hike to Dec-2026), FY29E +11%. EBITDA margin on gross revenue 43.5% in FY26, ~46% in Q1FY27 (JPL 53.3% on operating revenue): 44.5% / 45.5% / 46%. Sep-28E EBITDA ~Rs1.08 lakh cr vs MOSL RJio Rs1.04 lakh cr, BOBCAPS Jun-28E Rs85K cr."
+  },
+  {
+   "key": "ret",
+   "name": "Retail (RRVL)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA (company definition)",
+   "base": 371085,
+   "growth": [
+    7.8,
+    14,
+    14
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    6.9,
+    7.2,
+    7.7
+   ],
+   "hist": {
+    "driver": "retRev",
+    "revenue": "retRev",
+    "adjEbitda": "retEbitda"
+   },
+   "_why": "FY26 gross Rs3,71,085 cr includes the consumer-brands business until its demerger on 1-Dec-2025. Q1FY27 +7.4% reported, +11.6% like-for-like. FY27E +7.8% reported (~+12% underlying), FY28-29E +14% as online scale builds. EBITDA margin on gross 7.3% in FY26, 7.0% in Q1FY27 (hyper-local investment): 6.9% / 7.2% / 7.7%: EBITDA +2% / +19% / +22%, ~1.5x in three years vs management's 2x objective (FY27-29). Street Sep/Jun-28E: MOSL Rs31.8K cr, BOBCAPS Rs34.6K cr, Emkay ~Rs35.7K cr (100%)."
+  },
+  {
+   "key": "oth",
+   "name": "Others (media, consumer brands, treasury, unallocated)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA incl. treasury income",
+   "base": 80522,
+   "growth": [
+    35,
+    20,
+    15
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    16.6,
+    17,
+    17
+   ],
+   "hist": {
+    "driver": "othRev",
+    "revenue": "othRev",
+    "adjEbitda": "othEbitda"
+   },
+   "_why": "JioStar (FY26 revenue Rs34,917 cr), RCPL (Q1FY27 Rs8,600 cr, 2.1x), other businesses, treasury income and unallocable costs. Revenue +35% in FY27E (RCPL now outside Retail and doubling), then +20%, +15%. EBITDA incl. treasury income: FY26 Rs15,797 cr ex the Rs8,924 cr Asian Paints gain; Q1FY27 Rs4,520 cr. 16.6% / 17% / 17% = Rs18.0K / 22.2K / 25.5K cr. Valued in the SOTP on broker and transaction values, not on this EBITDA."
+  },
+  {
+   "key": "elim",
+   "name": "GST, excise and inter-segment sales",
+   "driverLabel": "Revenue",
+   "marginLabel": "Zero margin",
+   "base": -258253,
+   "growth": [
+    17.1,
+    2.55,
+    8.18
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0,
+    0,
+    0
+   ],
+   "hist": {
+    "driver": "elimRev",
+    "revenue": "elimRev",
+    "adjEbitda": "elimEbitda"
+   },
+   "_why": "Screener revenue = gross segment revenue less GST, excise duty and inter-segment sales: 19.3% of gross in FY25, 19.65% in FY26. Held at 19.65%; growth synced by RELIANCE.sync.js to the gross total."
+  }
+ ],
+ "unallocated": [
+  23000,
+  21000,
+  21000
+ ],
+ "_unallocLabel": "Other income inside company EBITDA (removed to reach Screener EBITDA, added back in otherIncome)",
+ "_unallocWhy": "Company EBITDA = Screener operating profit + other income (FY26: 1,79,065 + 28,846 = 2,07,911). Same values as otherIncome.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "_esopWhy": "No separate share-based cost line; zero (keeps the Excel segment model working).",
+ "capex": [
+  145000,
+  140000,
+  130000
+ ],
+ "_capexWhy": "Capex Rs1,44,271 cr in FY26 (segment note) and Rs38,682 cr in Q1FY27 (new energy, hyper-local retail, O2C projects, data centres); management gives no number but keeps capex within operating cash flow and net debt/EBITDA below 1x. We model Rs1.45 / 1.40 / 1.30 lakh cr as 5G spending is done and new energy peaks.",
+ "depRateOnGrossBlock": 3.75,
+ "_depWhy": "FY26 depreciation Rs57,688 cr = 3.94% of average gross block; Q1FY27 Rs15,100 cr (5G assets capitalised). The engine depreciates capex at once while CWIP (Rs2.38 lakh cr) is held flat, so we use 3.75%: FY27E ~Rs61K cr.",
+ "treasuryYield": 0,
+ "_treasuryWhy": "Net debt on the engine's basis, so no yield on treasury; other income is built in otherIncome.",
+ "otherIncome": [
+  23000,
+  21000,
+  21000
+ ],
+ "_otherIncomeWhy": "Built: interest and gains on ~Rs2.5 lakh cr of cash and marketable securities (~7% = ~Rs17.5K cr) + income on the Rs98,881 cr JDFPL preference shares and other investments + share of JVs/associates (FY26 Rs144 cr). FY26 Rs28,846 cr incl. the Rs8,924 cr Asian Paints gain = Rs19,922 cr recurring; TTM to Jun-26 Rs20,393 cr; Q1FY27 Rs6,550 cr (treasury gains). FY27E Rs23K cr (Q1 run-rate tempered), FY28-29E Rs21K cr as cash funds capex.",
+ "interest": [
+  33500,
+  33000,
+  32000
+ ],
+ "_interestLabel": "Finance cost",
+ "_interestWhy": "FY26 Rs27,061 cr; Q1FY27 Rs8,337 cr (+18.5% YoY) as interest on 5G spectrum and network is no longer capitalised. FY27E Rs33.5K cr, easing slowly. Jio IPO proceeds (up to Rs27,500 cr to repay RJIL debt) are not in the base: the issue was not priced by 30-Sep.",
+ "taxRate": [
+  34.75,
+  35.5,
+  35.9
+ ],
+ "_taxWhy": "This line is tax PLUS minority interests, as % of PBT (no minority line in the engine; profit is attributable). Tax 25% of PBT (Q1FY27 24.9%). Minorities 13% / 14% / 14.5% of PAT: FY26 Rs14,979 cr = 15.6% of PAT, Q1FY27 Rs2,250 cr = 9.7% (RCPL/JioStar losses shared); Jio (33.57% outside) grows fastest. Combined: 1 - 0.75 x (1 - m).",
+ "payout": [
+  10,
+  10,
+  10
+ ],
+ "_payoutWhy": "FY26 dividend Rs6/share = 10% of EPS (FY25 Rs5.50).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.75,
+  "terminalGrowth": 5,
+  "years": 10,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 17,
+  "fadeCapexPctTo": 7,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at one rate; beta 0.75 gives 11.0%, our WACC (Ke ~12% on ~88% equity at market, after-tax debt ~6.5% on ~12%).",
+  "_tgWhy": "Nominal India growth with mature refining: 5%.",
+  "_fadeGrowthWhy": "Revenue growth fades to 7% (consumer and digital outgrow O2C).",
+  "_fadeMarginWhy": "Screener-basis margin ~16-17% in FY27-29E stays ~17% as Jio and Retail gain weight against low-margin O2C revenue.",
+  "_fadeCapexWhy": "Capex ~11% of revenue now fades to 7% (new energy and 5G build-outs done)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Hormuz stays disrupted longer and middle-distillate cracks hold; Jio raises tariffs ~15% in FY28 and the IPO is priced at the US$130 bn+ talked about; Retail gets close to its 2x EBITDA goal.",
+   "fadeMarginTo": 18,
+   "segments": {
+    "o2c": {
+     "marginDelta": 1
+    },
+    "jio": {
+     "growthDelta": 3,
+     "marginDelta": 1
+    },
+    "ret": {
+     "growthDelta": 2,
+     "marginDelta": 0.5
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "A lasting ceasefire and Middle East restarts normalise cracks fast while export duties linger; no tariff rise before FY29; Retail margins stay squeezed by quick commerce.",
+   "fadeMarginTo": 16,
+   "segments": {
+    "o2c": {
+     "marginDelta": -1.5
+    },
+    "jio": {
+     "growthDelta": -3,
+     "marginDelta": -1
+    },
+    "ret": {
+     "growthDelta": -3,
+     "marginDelta": -0.7
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "Oil to Chemicals (O2C)",
+    "seg": "o2c",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA x EV/EBITDA",
+    "multiple": {
+     "base": 3.5,
+     "bull": 4,
+     "bear": 2
+    },
+    "note": "Refiner set (IOC, BPCL, HPCL, MRPL, CPCL): median one-year-forward EV/EBITDA since Apr-2021, x the set's EV/EBITDA move at 30-Sep-2026 (RELIANCE.val.js)."
+   },
+   {
+    "name": "Oil and Gas (E&P)",
+    "seg": "ep",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA x EV/EBITDA",
+    "multiple": {
+     "base": 5,
+     "bull": 6,
+     "bear": 4.5
+    },
+    "note": "Broker-anchored: median of the disclosed E&P multiples (BOBCAPS 4.5x, MOSL 5.0x, Emkay 6.0x). Listed upstream peers consolidate refineries (ONGC: HPCL, MRPL; OIL: NRL), so their history cannot isolate an E&P multiple."
+   },
+   {
+    "name": "Jio Platforms (100%)",
+    "seg": "jio",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA x EV/EBITDA",
+    "multiple": {
+     "base": 7,
+     "bull": 8,
+     "bear": 6.5
+    },
+    "note": "Telecom set (Bharti Airtel, Indus Towers, Tata Communications): median one-year-forward EV/EBITDA since Apr-2021, x the set's EV/EBITDA move at 30-Sep-2026."
+   },
+   {
+    "name": "Less: other shareholders' 33.57% of Jio Platforms",
+    "seg": "jio",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "-33.57% x (Jio EV less JPL net debt and spectrum dues)",
+    "multiple": {
+     "base": -2.3499,
+     "bull": -2.6856,
+     "bear": -2.1821
+    },
+    "adj": {
+     "base": 42678,
+     "bull": 42678,
+     "bear": 42678
+    },
+    "note": "Meta, Google, PIF, KKR and others own 33.57% (DRHP). Their share of Jio's EV, less their share of JPL net debt (Rs27,579 cr, Mar-26) and spectrum dues (Rs99,552 cr)."
+   },
+   {
+    "name": "Retail (100%)",
+    "seg": "ret",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA x EV/EBITDA",
+    "multiple": {
+     "base": 22.5,
+     "bull": 35,
+     "bear": 19.5
+    },
+    "note": "Retail set (DMart, Trent, Metro Brands, Bata, Page): median one-year-forward EV/EBITDA since Apr-2021, x the set's EV/EBITDA move at 30-Sep-2026."
+   },
+   {
+    "name": "Less: other shareholders' 16.44% of Reliance Retail",
+    "seg": "ret",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "-16.44% x Retail EV (RRVL net debt not disclosed)",
+    "multiple": {
+     "base": -3.699,
+     "bull": -5.754,
+     "bear": -3.2058
+    },
+    "note": "QIA, KKR, Silver Lake, ADIA, GIC, Mubadala, TPG and others own 16.44%. RRVL's own net debt is not public, so we deduct their share of EV (slightly overstates them)."
+   },
+   {
+    "name": "JioStar (49.35% effective) at the merger value",
+    "adj": {
+     "base": 34719,
+     "bull": 34719,
+     "bear": 34719
+    },
+    "metricLabel": "49.35% x Rs70,352 cr post-money (Nov-2024)",
+    "note": "RIL direct 16.34% + 70.49% of Viacom18's 46.82%. Transaction value, as MOSL (Rs26/share)."
+   },
+   {
+    "name": "Reliance Consumer Products (83.56%)",
+    "adj": {
+     "base": 52900,
+     "bull": 52900,
+     "bear": 52900
+    },
+    "metricLabel": "MOSL: 2x FY28E EV/sales, RIL share Rs52,900 cr",
+    "note": "Broker-anchored: the only disclosed RCPL value (MOSL, 18-Jul-2026, Rs39/share)."
+   },
+   {
+    "name": "New Energy at invested capital",
+    "adj": {
+     "base": 75000,
+     "bull": 150000,
+     "bear": 37500
+    },
+    "metricLabel": "1.0x the Rs75,000 cr committed (bull 2.0x, bear 0.5x)",
+    "note": "Pre-revenue giga-factories at cost: BOBCAPS 1.0x, Emkay and PL 2.0x on Rs75,000 cr. No value above cost until they earn returns."
+   },
+   {
+    "name": "Less: net debt at Sep-27E (company basis)",
+    "adj": {
+     "base": -111150,
+     "bull": -111150,
+     "bear": -111150
+    },
+    "metricLabel": "Gross debt less cash and marketable securities; half Mar-27E + half Mar-28E from our cash-flow bridge (RELIANCE.sync.js)",
+    "note": "Mar-26 Rs1,24,717 cr; Jun-26 Rs1,22,914 cr. Bridge: company EBITDA - cash tax - interest - capex - dividends, no working-capital release."
+   },
+   {
+    "name": "Add: investments at book (JDFPL preference shares, JVs, bonds)",
+    "adj": {
+     "base": 144605,
+     "bull": 144605,
+     "bear": 144605
+    },
+    "metricLabel": "Non-current investments Rs1,50,901 cr less Rs6,296 cr of marketable securities already in net debt (Mar-26)",
+    "note": "JDFPL preference shares Rs98,881 cr (fair value, Level 3), JVs and associates Rs16,226 cr, bonds and other."
+   },
+   {
+    "name": "Less: lease liabilities",
+    "adj": {
+     "base": -23579,
+     "bull": -23579,
+     "bear": -23579
+    },
+    "metricLabel": "Mar-26 (segment EBITDA is before rent)",
+    "note": "Ind AS 116 leases, mostly retail stores and towers."
+   },
+   {
+    "name": "Less: spectrum deferred payment liabilities (non-current)",
+    "adj": {
+     "base": -99552,
+     "bull": -99552,
+     "bear": -99552
+    },
+    "metricLabel": "AR FY26 note 17, Mar-26",
+    "note": "Debt-like dues for spectrum bought in 2021-24 auctions; outside Screener borrowings and outside the company's net debt, but inside Bharti's borrowings (consistent with the telecom EV)."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values RIL: O2C, E&P, Jio and Retail on EV/EBITDA, new businesses at invested or transaction value, less net debt and minorities."
+    },
+    {
+     "key": "pe",
+     "name": "P/E (own history)",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 22.5,
+      "bull": 22.5,
+      "bear": 22.5
+     },
+     "why": "RIL's own one-year-forward P/E median since Apr-2021 (RELIANCE.val.js), nearest half-turn."
+    }
+   ]
+  }
+ }
+}

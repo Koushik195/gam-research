@@ -1,0 +1,80 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, peers, street (notes standing on 30-Sep-2026), ownership (Jun-2026), moat, critiques, gaps, conflicts. Broker figures are from the broker PDF where marked 'note', otherwise from press reports (Business Today, Business Standard roundups) on the dates shown." },
+ "industry": {
+  "refining": "The US-Iran war (from 28-Feb-2026) and repeated closures of the Strait of Hormuz shut in >10 mb/d of Middle East oil and ~300 mcm/d of LNG for over 100 days (CFR, 8-Jul-2026). Brent peaked at $144/bbl intraday and averaged $104.5 in Q1FY27; ME refining (3 mb/d) and ethylene (~30 MMT) capacity was hit; diesel/ATF cracks reached ~$63/bbl. A US-Iran ceasefire announcement eased prices at quarter-end, but strikes resumed from 30-Aug and Brent was ~$100-107 in September. Global oil demand fell 4.8 mb/d YoY in Q1FY27; RIL expects -1 mb/d in CY2026 and +2 mb/d in CY2027.",
+  "policy": "India froze pump prices (since Apr-2022) and cut excise Rs10/l (27-Mar-2026); PSU marketers absorbed ~Rs1 lakh cr of under-recoveries in ~10 weeks (Mar-May 2026) and raised prices Rs3/l on 15-May-2026. Export duties/SAED on diesel and ATF from 26-Mar-2026 (diesel peaked at Rs55.5/l on 11-Apr; Rs20/l from 16-Sep-2026), reviewed fortnightly. US sanctions on Rosneft and Lukoil (22-Oct-2025) ended RIL's Russian crude at its export refinery from 20-Nov-2025; 2026 waivers allowed some cargoes until 17-Jun-2026.",
+  "telecom": "Three private operators; Jio 533 mn subscribers (Q1FY27), ARPU Rs215.6 with no tariff increase in the last 12 months (Q1FY27 call); street expects ~10-15% in FY27-28. Jio has >78% of fixed-wireless (FWA) share.",
+  "retail": "Quick commerce (Blinkit, Instamart, Zepto) is pulling grocery and electronics online; RRVL responds with hyper-local delivery from stores (JioMart orders +116% YoY in Q1FY27) at a margin cost. Listed retailers de-rated ~30% vs five-year medians by 30-Sep-2026.",
+  "src": "Q1FY27 presentation (17-Jul-2026); CFR; Business Today; RIL filings"
+ },
+ "peers": {
+  "sets": { "o2c": ["IOC", "BPCL", "HINDPETRO", "MRPL", "CHENNPETRO"], "jio": ["BHARTIARTL", "INDUSTOWER", "TATACOMM"], "ret": ["DMART", "TRENT", "METROBRAND", "BATAINDIA", "PAGEIND"], "upstream": ["ONGC", "OIL"] },
+  "excluded": {
+   "HINDPETRO": "From the refiners' sector move only: Q1FY27 under-recoveries collapsed its trailing earnings (P/E 44.6x vs 5.0x five-year median). Its forward-multiple history stays in the level.",
+   "IDEA": "Vodafone Idea: losses in every year, no multiple history.",
+   "BHARTIHEXA": "Listed Apr-2024: no five-year history.",
+   "ABFRL, SHOPERSTOP, VMM": "As in DMART.ctx.js: loss-making / meaningless P/E / listed Dec-2024.",
+   "ONGC, OIL": "Not used for E&P: their consolidated accounts carry refineries (HPCL and MRPL; NRL), so their multiples are not E&P multiples. E&P is broker-anchored."
+  },
+  "note": "Segment multiples are EV/EBITDA, so the sector move uses the EV/EBITDA analogue of §7c (trailing EV/EBITDA at the 30-Sep close vs five-year median); P/E moves shown as sensitivity."
+ },
+ "street": {
+  "_note": "Post-Q1FY27 notes (17-Jul to 30-Sep-2026); for brokers without one, their latest earlier note. MOSL, Emkay and BOBCAPS figures from the broker PDFs; others from press reports.",
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-07-18", "rating": "Buy", "tp": 1550, "tpOld": 1690, "method": "SOTP", "on": "Sep-28E", "multiple": "O2C 7.5x, E&P 5.0x FY28E EV/EBITDA; RJio ~11.5x (DCF-implied); RRVL ~28x blended; 25% holdco discount on JPL; New Energy Rs174/sh; RCPL Rs39/sh; JioStar Rs26/sh", "eps": { "FY27E": 60.1, "FY28E": 63.4 }, "thesis": "Energy rebound offsets soft Retail; capex peak behind; ~Rs90K cr FCF FY26-28E", "src": "MOSL result update PDF (investmentguruindia.com)", "conf": "note" },
+   { "broker": "Emkay Global", "date": "2026-07-20", "rating": "Buy", "tp": 1680, "tpOld": 1680, "method": "SOTP", "on": "Jun-28E", "multiple": "O2C 7.0x (from 8.0x), upstream 6.0x, retail 27x, Jio 12x, others 13.5x EV/EBITDA (attributable EBITDA); New Energy 2.0x invested capital (Rs75,000 cr)", "eps": { "FY27E": 60.5, "FY28E": 66.0, "FY29E": 76.3 }, "thesis": "Q1 beat on O2C and upstream; retail missed by 10%; FY27E EPS +2%", "src": "Emkay result update PDF", "conf": "note" },
+   { "broker": "BOB Capital Markets", "date": "2026-07-18", "rating": "Buy", "tp": 1670, "tpOld": 1610, "method": "SOTP", "on": "Jun-28E", "multiple": "Refining 6.5x, petchem 5.5x, E&P 4.5x, Jio 12x, Retail 35x EV/EBITDA; green energy 1.0x book (Rs75,000 cr); net debt Rs2.28 lakh cr", "eps": { "FY27E": 70.8, "FY28E": 78.0 }, "thesis": "Telecom and Retail drive growth; O2C volatile", "src": "BOBCAPS result review PDF (barodaetrade.com)", "conf": "note" },
+   { "broker": "Goldman Sachs", "date": "2026-07-17", "rating": "Buy", "tp": 1870, "tpOld": 1910, "method": "n.d.", "on": "n.d.", "thesis": "Core EBITDA in line; highest target", "src": "Business Today, 20-Jul-2026", "conf": "press" },
+   { "broker": "JPMorgan", "date": "2026-07-17", "rating": "Overweight", "tp": 1660, "method": "n.d.", "on": "n.d.", "thesis": "Refining/petchem spreads and weaker INR help; valuation reasonable", "src": "Business Today, 20-Jul-2026", "conf": "press" },
+   { "broker": "Jefferies", "date": "2026-07-20", "rating": "Buy", "tp": 1705, "tpOld": 1675, "method": "SOTP", "on": "n.d.", "thesis": "Buy maintained after Q1", "src": "Business Today; MarketScreener, 20-Jul-2026", "conf": "press" },
+   { "broker": "Nomura", "date": "2026-07-20", "rating": "Buy", "tp": 1690, "tpOld": 1640, "method": "SOTP (rolled to June)", "on": "Jun-28E", "thesis": "Record Q1, 6% beat; FY27 EBITDA retained (O2C up, Retail down)", "src": "Business Today, 20-Jul-2026", "conf": "press" },
+   { "broker": "Citi", "date": "2026-07-17", "rating": "Buy", "tp": 1690, "method": "n.d.", "on": "n.d.", "thesis": "Positive after Q1", "src": "Business Today, 20-Jul-2026", "conf": "press" },
+   { "broker": "CLSA", "date": "2026-07-17", "rating": "Outperform", "tp": 1800, "tpOld": 1800, "method": "n.d.", "on": "n.d.", "thesis": "O2C beat offset by retail miss and higher interest; no value for AI, FMCG, media", "src": "Business Today, 20-Jul-2026", "conf": "press" },
+   { "broker": "Macquarie", "date": "2026-07-17", "rating": "Outperform", "tp": 1510, "method": "n.d.", "on": "n.d.", "thesis": "Upside risk to Jio and Retail consensus; lowest target", "src": "Business Today, 20-Jul-2026", "conf": "press" },
+   { "broker": "Nuvama", "date": "2026-07-17", "rating": "Buy", "tp": 1765, "method": "n.d.", "on": "n.d.", "thesis": "'Golden refining era' ($10+/bbl GRM); New Energy could add 50%+ to PAT", "src": "Business Standard roundup, 19-Jul-2026 (search summary; page blocked)", "conf": "search-summary" },
+   { "broker": "Elara Capital", "date": "2026-07-17", "rating": "Buy", "tp": 1619, "tpOld": 1717, "method": "n.d.", "on": "n.d.", "thesis": "FY27-29 EBITDA raised 6-8%", "src": "Business Today, 20-Jul-2026", "conf": "press" },
+   { "broker": "Equirus", "date": "2026-07-18", "rating": "Long", "tp": 1586, "tpOld": 1586, "method": "n.d.", "on": "Sep-27 TP", "thesis": "In-line quarter; retail margin at a 15-quarter low", "src": "Business Today, 18-Jul-2026", "conf": "press" },
+   { "broker": "Antique", "date": "2026-09-10", "rating": "Buy", "tp": 1717, "method": "SOTP", "on": "1HFY29E", "multiple": "Jio 12x EV/EBITDA (DRHP-implied ~12.7x); New Energy Rs123/sh", "thesis": "Three catalysts: refining margins high for 12-18 months, Jio IPO with ~15% tariff hike, New Energy from Jan-2027", "src": "Business Today, 10-Sep-2026", "conf": "press" },
+   { "broker": "Morgan Stanley", "date": "2026-06-17", "rating": "Overweight", "tp": 1803, "method": "SOTP", "on": "n.d.", "thesis": "Top pick; discount to global peers unwarranted; New Energy ~US$20 bn", "src": "Business Today, 17-Jun-2026", "conf": "press" },
+   { "broker": "Systematix", "date": "2026-06-22", "rating": "Buy", "tp": 1700, "method": "SOTP", "on": "n.d.", "thesis": "Jio IPO started; AI as a fourth pillar", "src": "Business Today, 22-Jun-2026", "conf": "press" },
+   { "broker": "Prabhudas Lilladher", "date": "2026-04-26", "rating": "Buy", "tp": 1635, "tpOld": 1688, "method": "n.d.", "on": "n.d.", "thesis": "Q4FY26 in line; retail under pressure", "src": "Trendlyne, 26-Apr-2026", "conf": "press" },
+   { "broker": "JM Financial", "date": "2026-03-05", "rating": "Buy", "tp": 1730, "method": "n.d.", "on": "n.d.", "thesis": "Iran-war correction overdone", "src": "Business Standard, 5-Mar-2026 (search summary)", "conf": "search-summary" }
+  ],
+  "consensus": [
+   { "text": "FactSet via MarketScreener: mean target Rs1,682 (31 analysts), mean rating Buy", "date": "2026-07-20" },
+   { "text": "Business Today: ~20 updates after Q1, range Rs1,510-1,870, majority Buy", "date": "2026-07-20" }
+  ],
+  "jioValues": [ ["MOSL (JPL EV, 18-Jul)", "US$133 bn EV / Rs12.8 trn"], ["Emkay (21-Jun, media reports of the raise)", "~Rs12.5 trn equity"], ["BOBCAPS (Jio EV, 18-Jul)", "Rs10.2 trn (US$105 bn)"], ["Media at SEBI nod (29-Aug)", "~US$137 bn (people familiar); Bloomberg >US$100 bn"] ]
+ },
+ "ownership": { "date": "2026-06-30", "categories": { "promoters": 50.48, "fii": 17.19, "dii": 21.10, "government": 0.17, "public": 11.05 }, "shareholders": 4651863, "src": "BSE shareholding pattern via Screener.in (Jun-2026)", "trend": "FIIs 22.1% (Dec-2023) to 17.2%; DIIs 16.6% to 21.1%; promoters ~50%." },
+ "moat": [
+  ["O2C scale and complexity", "Strong", "The Jamnagar complex: deep conversion, ethane cracking, own crude sourcing and product placement; but a commodity business, earnings swing with cracks and policy."],
+  ["Jio network and spectrum", "Strong", "#1 by subscribers, standalone 5G, >78% of FWA; three-player market with rational pricing but no pricing power without regulators' and rivals' cooperation."],
+  ["Retail footprint", "Moderate", "20,169 stores and 78 mn sq ft, but margins under quick-commerce attack and no format leadership outside grocery and electronics."],
+  ["New Energy", "Unproven", "Integrated giga-factories; no revenue yet, Chinese competitors far ahead on cost."],
+  ["Capital access", "Strong", "Above-sovereign ratings (A-/Baa1); ability to sell minority stakes to global investors."]
+ ],
+ "critiques": [
+  "Conglomerate discount: minorities own a third of Jio and a sixth of Retail; MOSL applies a 25% holdco discount to the Jio stake.",
+  "Capex consumes almost all operating cash: net debt has not fallen in two years despite record EBITDA.",
+  "Retail growth slowed to single digits while it spends on hyper-local delivery; the 2x EBITDA ambition is a stretch by management's own words.",
+  "O2C earnings now depend on war-driven cracks taxed by export duties; a ceasefire would cut them.",
+  "Jio IPO is primary (no OFS): RIL shareholders get no cash, only a reservation."
+ ],
+ "gaps": [
+  "Named shareholders at 30-Jun-2026 (we show categories only).",
+  "Reliance Retail Ventures' own net debt and FY26 PAT split (we deduct minorities' share of Retail EV, not equity).",
+  "New Energy capital actually invested to date (we use the Rs75,000 cr commitment, as the street does).",
+  "Segment revenue and EBITDA for RCPL and JioStar beyond the quarter figures disclosed; RCPL FY26 revenue.",
+  "Jio IPO price band, size and dates (not announced by 30-Sep-2026); Jio Platforms pre-issue share count.",
+  "Segment multiples behind the targets of Goldman, JPMorgan, Jefferies, Citi, CLSA, Macquarie, Nomura, Nuvama, Elara.",
+  "30-Sep-2026 close cross-checked to the NSE file (Rs1,187)."
+ ],
+ "conflicts": [
+  "Q1FY27 PAT: Rs23,196 cr (PAT before minorities, recurring) vs Rs20,946 cr (attributable). Both correct on their basis.",
+  "Jio FY26 revenue: Rs1,46,885 cr (restated operating revenue, DRHP) vs Rs2.22 lakh cr (Business Today, likely gross/total income); EBITDA Rs76,255 vs Rs89,135 cr.",
+  "Retail FY26 gross revenue: Rs3,70,026 cr (RRVL, AGM) vs Rs3,71,085 cr (segment note).",
+  "Motilal Oswal: Rs1,550 (18-Jul note) vs Rs1,690 attributed to it in one roundup (that figure is Nomura's).",
+  "FY23 consolidated EBITDA: Rs1,54,691 cr (Q4FY23 presentation) vs Rs1,53,920 cr (restated in the FY24 presentation); we use the restated figure."
+ ]
+}

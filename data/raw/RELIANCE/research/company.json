@@ -1,0 +1,55 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Reliance Industries fact base (Rs crore unless stated). Sources: Q1FY27 presentation and call (17-Jul-2026), Q4FY26 presentation and call (24-Apr-2026), Integrated Annual Report FY26 (notice dated 28-May-2026), AR FY22 and FY24 segment notes, Jio Platforms DRHP coverage (19-Jun-2026), AGM coverage (19-Jun-2026)." },
+ "profile": {
+  "shares": { "value": 1353.24, "unit": "crore shares", "note": "1,353,24,72,634 shares at 31-Dec-2025 after the 1:1 bonus (record date 28-Oct-2024; 676.6 cr bonus shares allotted 29-Oct-2024). No buyback or issue since.", "src": "https://www.ril.com (Build up of equity share capital); BSE bonus allotment filing", "published": "2024-10-29" },
+  "stakes": [
+   { "entity": "Jio Platforms (JPL)", "ril": 66.43, "others": "Meta 9.98%, Google 7.73%, PIF 2.31%, KKR 2.31%, Vista 2.31%, Silver Lake 1.88%, Mubadala 1.85%, General Atlantic 1.34%, ADIA 1.16%, TPG 0.93%", "src": "Jio Platforms DRHP as reported by 5paisa/Kotak Neo", "published": "2026-06-22" },
+   { "entity": "Reliance Retail Ventures (RRVL)", "ril": 83.56, "others": "QIA, KKR, Silver Lake, Mubadala, ADIA, GIC, TPG, General Atlantic, PIF (16.44% in all; 10.09% sold for Rs47,265 cr in 2020; QIA ~0.99% for Rs8,278 cr in 2023)", "src": "RIL filings on RCPL demerger; 2020/2023 deal announcements", "published": "2025-12-03" },
+   { "entity": "Reliance Consumer Products (RCPL)", "ril": 83.56, "others": "Same investors as RRVL (mirror shareholding after the 1:2 demerger effective 1-Dec-2025)", "src": "RIL filing on demerger of consumer brands business", "published": "2025-12-03" },
+   { "entity": "JioStar India", "ril": 49.35, "others": "Disney 36.84%; RIL direct 16.34% + Viacom18 46.82% (RIL owns 70.49% of Viacom18). Effective economic interest = 16.34 + 0.7049 x 46.82 = 49.35% (GAM calculation); RIL controls and consolidates it.", "src": "RIL/Disney merger completion release", "published": "2024-11-14" }
+  ],
+  "dealValues": { "jiostarPostMoney": 70352, "src": "RIL/Disney merger completion (post-money Rs70,352 cr)", "published": "2024-11-14" }
+ },
+ "netDebt": {
+  "mar26": { "grossDebt": 374421, "cashAndMarketable": 249704, "netDebt": 124717, "dplNonCurrent": 99552, "dplCurrent": 4962, "leases": 23579, "nonCurrentInvestments": 150901, "equityAccounted": 16226, "prefJdfpl": 98881, "nci": 181836, "src": "AR FY26 consolidated balance sheet, notes 2, 16, 17 and capital-management note", "published": "2026-05-28" },
+  "quarters": [["Mar-25", 117083], ["Jun-25", 117581], ["Sep-25", 118545], ["Dec-25", 117102], ["Mar-26", 124717], ["Jun-26", 122914]],
+  "jplNetDebtMar26": { "value": 27579, "src": "Jio Platforms DRHP (restated), as reported", "published": "2026-08-19" },
+  "ratings": "S&P A- / Moody's Baa1 per Q1FY27 presentation (BBB+/Baa2 a year earlier); ICRA AAA/Stable",
+  "capexQ1fy27": 38682, "capexFy26": 144271, "capexFy25": 131107
+ },
+ "q1fy27": {
+  "date": "2026-07-17",
+  "consolidated": { "grossRevenue": 340257, "ebitda": 54067, "ebitdaYoY": 10.1, "finance": 8337, "dep": 15100, "pbt": 30630, "tax": 7629, "pat": 23196, "patAttrib": 20946, "otherIncome": 6550, "note": "Q1FY26 base excludes the Rs8,924 cr gain on selling Asian Paints shares; including it EBITDA fell 6.8% and PAT 24.6%." },
+  "o2c": { "rev": 201803, "ebitda": 17010, "throughputMmt": 18.1, "throughputPrev": 19.1, "brent": 104.5, "notes": "Fuel cracks 2.6-4.4x a year earlier (gasoline $35.4, gasoil $62.9, ATF $63.0/bbl); PE delta +46%, polyester chain +17%; weighed down by SAED/export duties, under-recoveries on domestic fuel sales and sales to PSUs, crude premiums up to ~$20/bbl, freight ~10x, planned CDU and coker turnaround (volumes -10%)." },
+  "ep": { "rev": 6298, "ebitda": 4973, "kgd6Mmscmd": 24.8, "kgd6Price": 8.89, "oilPrice": 107.4, "ceilingH1fy27": 8.9 },
+  "jio": { "grossRev": 45961, "opRev": 39173, "ebitda": 20865, "margin": 53.3, "pat": 7764, "finance": 2980, "subsMn": 533.3, "arpu": 215.6, "fiveGmn": 285, "fbbMn": 28.6, "airFiberMn": 14.0, "note": "ARPU +Rs7 YoY with no tariff increase in the last 12 months; finance cost +42% as 5G spectrum is capitalised." },
+  "retail": { "grossRev": 90408, "netRev": 79745, "ebitda": 6309, "marginNet": 7.9, "pat": 2805, "stores": 20169, "areaMnSqft": 78.4, "note": "Gross revenue +7.4% (+11.6% adjusted for the consumer-brands demerger); EBITDA -1.1% on hyper-local delivery build-out; 3-year objective to double operating EBITDA through FY27-FY29 (no margin target)." },
+  "rcpl": { "grossRev": 8600, "growth": "2.1x YoY", "campa": 2900, "independence": 3200 },
+  "jiostar": { "rev": 10946, "ebitda": 1049, "ebitdaOps": 933, "mauMn": 530, "note": "FY26 revenue Rs34,917 cr, net profit Rs3,434 cr (AGM)." },
+  "newEnergy": "~1 GWp of HJT modules produced; scaling to 20 GWp module and 120 GWh battery capacity, 40 GWh battery to be commissioned this year; Kutch installation to start after the monsoon with power exports this year; US$3 bn green-ammonia contract with Samsung C&T.",
+  "src": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01d1656c-cf53-4d52-94c3-7ed0edd50271.pdf"
+ },
+ "fy26": { "grossRevenue": 1175919, "ebitda": 207911, "pat": 95754, "patAttrib": 80775, "eps": 59.69, "dps": 6.0, "exceptionalGain": 8924, "jplPat": 30049, "rrvlPat": 12838, "rrvlGross": 370026, "standalonePat": 43851, "src": "Q4FY26 presentation; AR FY26; AGM (19-Jun-2026)", "published": "2026-06-19" },
+ "guidance": [
+  { "item": "Retail", "text": "Double absolute operating EBITDA over FY27-FY29; FY27 a foundation year (scale online), FY28-29 value conversion.", "src": "Q1FY27 presentation p.25-26 and call", "published": "2026-07-17" },
+  { "item": "Group", "text": "Net debt to EBITDA below 1x through cycles; capex within operating cash flow (Q1FY27 capex Rs38,682 cr); no specific capex guidance.", "src": "Q1FY27 presentation and call", "published": "2026-07-17" },
+  { "item": "Jio IPO", "text": "DRHP filed 19-Jun-2026 for a fresh issue of up to 27 cr shares (no OFS; up to Rs27,500 cr to repay RJIL debt); SEBI observations received 28-Aug-2026; price band and dates not announced by 30-Sep-2026 (media: issue ~Rs37,700 cr, valuation ~US$130-137 bn).", "src": "RIL filings 19-Jun and 28-Aug-2026; ET/Bloomberg reports", "published": "2026-08-29" },
+  { "item": "New Energy", "text": "Battery 40 GWh this year; modules to 20 GWp; Kutch power this year; AGM: electrolyser manufacturing before end-CY2026; Antique expects commissioning from Jan-2027.", "src": "Q1FY27 presentation; AGM coverage", "published": "2026-07-17" },
+  { "item": "Group EBITDA", "text": "Chairman at AGM 2026: EBITDA could double over the next five years; exports target US$125-150 bn by 2032.", "src": "AGM coverage (Business Today live blog)", "published": "2026-06-19" }
+ ],
+ "history": [
+  ["2016", "Jio launched (free voice, cheap data)"], ["2019-20", "Jio Platforms sells about a third of itself to Meta, Google and global funds; RIL rights issue"],
+  ["2020", "Reliance Retail sells 10.09% for Rs47,265 cr"], ["2021", "O2C carved out as a segment; New Energy plan (Rs75,000 cr over three years) announced"],
+  ["2023", "Jio Financial Services demerged (1 share per RIL share, Jul-2023); QIA (~0.99% for Rs8,278 cr) and KKR (follow-on) invest in RRVL"],
+  ["2024", "1:1 bonus (Oct-2024); Viacom18-Star India merger creates JioStar (Nov-2024)"],
+  ["2025", "Asian Paints stake sold (Rs8,924 cr gain, Q1FY26); US sanctions on Rosneft/Lukoil (Oct-2025); consumer brands demerged from RRVL to RCPL (1-Dec-2025)"],
+  ["2026", "US-Iran war from 28-Feb-2026 and Hormuz disruption; export duties/SAED on diesel and ATF from 26-Mar-2026; Jio DRHP (19-Jun), SEBI nod (28-Aug)"]
+ ],
+ "management": { "chairman": "Mukesh D. Ambani (Chairman and MD)", "nextGen": "Akash Ambani (Jio), Isha Ambani (Retail), Anant Ambani (Executive Director; new energy) - re-appointment on the 49th AGM agenda (item 4)", "cfo": "Srikanth Venkatachari", "board": "Independent directors include K.V. Kamath, Haigreve Khaitan, Arundhati Bhattacharya, Dr. Shumeet Banerji, K.V. Chowdary, Yasir Al-Rumayyan (PIF/Aramco chair, non-executive)" },
+ "accounting": [
+  "JDFPL preference shares Rs98,881 cr (consolidated) at fair value through OCI: Level 3, a key audit matter (fibre-asset cash flows).",
+  "Deferred spectrum payment liabilities Rs1,04,514 cr sit outside 'borrowings' and outside the company's net-debt figure (Rs1,24,717 cr).",
+  "Large CWIP and intangibles under development (Rs2.38 lakh cr at Mar-26 incl. spectrum under development Rs8,611 cr): interest and depreciation step up as assets are capitalised (5G in FY26-27).",
+  "Segment EBITDA includes other income attributed to segments; treasury income sits in 'Others'."
+ ]
+}
