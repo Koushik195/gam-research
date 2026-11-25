@@ -1,0 +1,189 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Cohance Lifesciences (consolidated, Rs crore; Net Profit patched to profit attributable to owners and FY25 EPS put on the post-merger share count by tools/authoring/COHANCE.patch.js). One audited segment; the five-line business build sits in businessLines and is checked against model revenue in tools/authoring/COHANCE.ctx.js. EBITDA is Screener's (= the company's reported EBITDA, after one-time costs, before FX gains). taxRate is tax PLUS minorities (engine workaround, APOLLOHOSP precedent): NJ Bio's losses get no tax credit and 44% of them fall to its minority holders; COHANCE.ctx.js builds it entity by entity and COHANCE.mult.js writes it. Other income is built (treasury yield on average cash and liquid funds plus a small recurring item); interest is built on borrowings and leases. Valued on P/E, the method of the one broker that discloses one (BOBCAPS) and of the CDMO peer reports.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  -1.907,
+  15.953,
+  12.787
+ ],
+ "_revenueWhy": "Sum of the five-line build below. FY27 -1.9%: Q1FY27 revenue fell 23% to Rs422 cr; management guides Q2 better than Q1, year-on-year comparability by end-H1 and growth only in H2 (Q2 'stable', CDMO deliveries moved from Q1 into Q2, a restocking order for Q4FY27-FY28). Our FY27 needs Rs1,803 cr from Q2-Q4, +5% on Rs1,719 cr a year earlier. FY28 +16.0%: restocking of one destocked molecule (order spread over two years) and two newly commercial molecules (six intermediates) lift small-molecule CDMO 25%; API+ and Specialty Chemicals guided to double-digit growth from FY28. FY29 +12.8%. Street FY27E: BOBCAPS Rs2,250 cr; S&P consensus Rs2,260 cr (Rs2,120-2,450 cr); FY28E BOBCAPS Rs2,491 cr.",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "smallMol": 651.15,
+   "njBio": 188.45,
+   "sapala": 49.7,
+   "apiPlus": 1088,
+   "specChem": 291.3,
+   "_why": "FY26 revenue Rs2,268.6 cr: Pharma CDMO Rs889.3 cr, API+ Rs1,088.0 cr, Specialty Chemicals Rs291.3 cr (restated split, Q4FY26 deck p.12). NJ Bio Rs188.45 cr and Sapala Rs49.7 cr (AR FY26 note 18(b), before inter-company eliminations) sit in Pharma CDMO; small-molecule CDMO including the India ADC-payload business = Rs651.15 cr by difference."
+  },
+  "levels": {
+   "smallMol": [
+    590,
+    740,
+    850
+   ],
+   "njBio": [
+    150,
+    175,
+    210
+   ],
+   "sapala": [
+    100,
+    125,
+    150
+   ]
+  },
+  "growth": {
+   "apiPlus": [
+    3,
+    11,
+    10
+   ],
+   "specChem": [
+    -9,
+    12,
+    12
+   ]
+  },
+  "_why": "Small-molecule CDMO Rs590 cr in FY27 (-9%): Q1FY27 only ~Rs62 cr (Pharma CDMO Rs124.8 cr less NJ Bio Rs35.0 cr and Sapala Rs27.4 cr) after FY26's ~Rs260 cr destocking; deliveries moved into Q2, two new commercial molecules ship in Q2-Q3, the restocking order starts in Q4. FY28 Rs740 cr (+25%) on restocking over two years and two more commercial molecules in 12-15 months; FY29 Rs850 cr, still below FY25's ~Rs1,024 cr. NJ Bio Rs150/175/210 cr: Q1FY27 Rs35 cr with 'FTE contract risk this year'; the US facility expansion supports FY28. Sapala Rs100/125/150 cr: Q1FY27 Rs27.4 cr (2.5x) with 'confirmed orders in hand'. API+ +3/11/10%: Q1 -10% on timing, 'robust order book', Nacharam normalising, ~10 formulation launches and seven API filings in FY27, double-digit growth guided from FY28. Specialty Chemicals -9/12/12%: Q1 -35%, FY27 a qualification year weighted to H2, double-digit growth from FY28."
+ },
+ "ebitdaMargin": [
+  15.5,
+  19.5,
+  22.5
+ ],
+ "_marginWhy": "Reported basis (after one-time costs, before FX gains): 30.6% (FY25 restated), 18.8% (FY26; adjusted 21.0%), 0.3% in Q1FY27 (adjusted 2.2%). Bottom-up: gross margin ~71% (FY26 70.8%, Q1FY27 71.5%) less a cost base of ~Rs300 cr a quarter (employee Rs133 cr, manufacturing Rs93 cr, other Rs74 cr in Q1FY27; management says the elevated other costs 'will continue'). FY27E 15.5% needs ~19% over Q2-Q4 (Q3-Q4FY26 were 17.5% and 15.9%). Entity view: NJ Bio EBITDA about -Rs95 / -55 / -25 cr (Q1FY27 -Rs32.8 cr; cost to be matched to revenue), Sapala ~30% margins, standalone ~21% / 23% / 25% (FY26 22.4% reported, 24.6% adjusted). Management guides FY27 'closer to' FY26's 21% adjusted margin; we are below it. Street: BOBCAPS 18 / 23 / 26%.",
+ "capex": [
+  300,
+  260,
+  250
+ ],
+ "_capexWhy": "FY27 ~Rs300 cr guided (Q4FY26 call; Rs59.8 cr in Q1FY27): oligonucleotide amidites at Nacharam, NJ Bio US facility (~US$10 mn), high-potency upgrades at Vizag, a commercial flow reactor at Jaggaiahpet. FY28-29 Rs260/250 cr (FY24-26 capex Rs261 / 315 / 215 cr, company pro forma); no new large plant announced.",
+ "depRateOnGrossBlock": 4.7,
+ "_depWhy": "FY26 D&A Rs187.3 cr = 4.67% of average Screener gross block (Rs4,010 cr, which includes Rs1,284 cr of goodwill that is not amortised); Q1FY27 Rs49.5 cr. 4.7% on gross block plus capex gives Rs206 / 219 / 231 cr for FY27-29E. Amortisation of acquired intangibles is small (other intangibles Rs95 cr at Mar-26), so history and forecasts are on the same basis.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Treasury income is built in COHANCE.ctx.js on AVERAGE cash and liquid funds and entered in otherIncome (the engine's net cash includes the Rs696 cr minority buy-out liability, leases and the Rs260 cr Raisin investment, so a yield on it would be wrong).",
+ "otherIncome": [
+  26.4,
+  29.4,
+  35.5
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (COHANCE.ctx.js; written by COHANCE.mult.js): (1) treasury income at 6.5% on average cash, bank and current investments (Rs326 cr at Mar-26; path moves with the engine's cash flow); FY26 MF gains Rs19.2 cr + deposit interest Rs2.7 cr = Rs21.9 cr on ~Rs310 cr average = 7.1%, Q1FY27 Rs6.8 cr ex-FX on ~Rs392 cr = 6.9% annualised; (2) recurring miscellaneous income Rs3.0 cr (FY26 Rs4.8 cr, FY25 Rs2.8 cr). Not forecast: FX gains (Rs5.5 cr in FY26 other income), the Rs1.8 cr asset-sale gain, derivative fair-value gains; the Raisin Aggregator investment (Rs260 cr) earns nothing in the P&L. FY26 other income was Rs34.1 cr (Rs4.6 cr on Screener after it nets the Rs29.5 cr exceptional items); twelve months to Jun-26 Rs37 cr incl. FX.",
+ "interest": [
+  30.2,
+  30.3,
+  28.8
+ ],
+ "_interestWhy": "Built in COHANCE.ctx.js: 7.0% on lease liabilities (~Rs225 cr; FY26 lease interest Rs17.8 cr on ~Rs229 cr) + 7.5% on average borrowings (Rs170 cr at Mar-26, Rs208 cr at Jun-26, assumed Rs190 / 170 / 150 cr at Mar-27/28/29) + ~Rs1 cr other. FY26 finance cost Rs37.2 cr; Q1FY27 Rs6.8 cr.",
+ "taxRate": [
+  8.3,
+  20.7,
+  24.1
+ ],
+ "_taxWhy": "Tax PLUS minorities as a share of consolidated PBT (engine workaround: there is no minority line), built entity by entity in COHANCE.ctx.js and written by COHANCE.mult.js: tax at 25.5% on PBT excluding NJ Bio (standalone statutory 25.17%; FY26 standalone 27.1% incl. prior years), no tax credit on NJ Bio's losses, less the minorities' share (44% of NJ Bio's pre-tax loss of about Rs157 / 117 / 87 cr, plus 32.5% of Sapala's profit). FY26: PBT Rs207.0 cr, tax Rs56.9 cr, NCI -Rs29.1 cr, owners Rs179.2 cr = 13.4%. Q1FY27: PBT -Rs42.9 cr, owners -Rs24.1 cr.",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividend for FY25 or FY26 (the last Suven dividend was for FY24); capex, losses at NJ Bio and the Rs696 cr minority buy-out obligation come first.",
+ "otherTreasury": {
+  "base": -695.53,
+  "label": "Liability to buy out minorities (NJ Bio 44%, Sapala 32.5%): debt-like",
+  "_why": "AR FY26 note 22(a): Rs695.53 cr 'liability towards obligation to acquire non-controlling interest' (NJ Bio put option; Sapala in two tranches), recognised at fair value against equity. Screener counts it in other liabilities, which would make working capital look like 8% of sales (the company's core NWC is 154 days). We move it out of working capital and into net debt: the engine's opening net cash becomes Rs60 cr cash + Rs529 cr investments (incl. the Rs260 cr Raisin stake) - Rs400 cr borrowings and leases - Rs696 cr = -Rs507 cr, and working capital 38.5% of sales."
+ },
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.05,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 25,
+  "fadeCapexPctTo": 6.5,
+  "depPctOfSales": 6,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Cost of equity 12.8% (beta 1.05): earnings collapsed and are loss-making in Q1FY27, a promoter holdco loan is secured on 54% of the shares, and US regulatory action is open at two sites. Net debt including the minority buy-out liability is ~7% of market value, so WACC is close to the cost of equity.",
+  "_tgWhy": "5.5%, mid-range of the house 5-6%: pharma CDMO is forecast to grow ~7% a year to 2034 (AR FY26 MD&A).",
+  "_fadeGrowthWhy": "Revenue growth fades from 12.8% (FY29E) to 7% by FY42E.",
+  "_fadeMarginWhy": "25% by FY42E: above FY29E's 22.5% as NJ Bio stops losing money and CDMO recovers, but below FY25's 30.6% and the 'mid-30s' aspiration, because API+ is now ~half of sales.",
+  "_fadeCapexWhy": "Capex falls from 9-13% of sales (FY27-29E) to 6.5%: maintenance plus growth capex at ~1x gross asset turn on new capacity.",
+  "_wcNote": "Working capital 38.5% of FY26 sales on Screener's Mar-26 balance sheet once the minority buy-out liability is moved to net debt (Rs123 cr of NCI equity stays in other liabilities); the company reports core NWC of Rs959 cr (154 days)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Both destocked molecules come back in FY27-28, the four new commercial molecules and the Phase III book convert, Sapala doubles again and NJ Bio breaks even by FY29; growth runs ~5 points a year faster and the margin ~3 points higher, toward FY25's 30%.",
+   "revenueGrowthDelta": 5,
+   "marginDelta": 3,
+   "fadeMarginTo": 28
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Only one molecule restocks, agrochemicals stay in the downturn, NJ Bio keeps burning ~₹150 cr a year and the Pashamylaram 483 or the Nacharam Warning Letter delays customer awards; growth ~6 points a year slower and the margin ~3 points lower.",
+   "revenueGrowthDelta": -6,
+   "marginDelta": -3,
+   "fadeMarginTo": 22
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 43.5,
+      "bull": 49.5,
+      "bear": 37
+     },
+     "why": "How the street values Cohance: BOBCAPS, the one broker whose method we could read, uses P/E (40x Jun-28E EPS); the CDMO peers are valued on P/E. Structural break: Suven Pharmaceuticals absorbed Cohance Lifesciences from 1-May-2025 (11 Suven shares for 295 Cohance shares; 25.46 cr to 38.26 cr shares). The own window from that date holds two forward years, FY27E (Rs3.24) and FY28E (Rs5.88), and both are trough years (below half of FY25's Rs13.11 before exceptional items, i.e. Rs6.56), so the post-merger window gives no usable median (all points 131.4x; FY28E points 74.8x). 43.5x = the median one-year-forward P/E of the listed share since 1-Apr-2021 on every weekly close plus the 30-Sep close (post-merger per-share basis: FY25 restated EPS on 38.37 cr shares; FY23-24 Suven), on EPS before exceptional items, trough years FY26-FY28 left out (157 points from the FY23-FY25 forward years), of 40.4x x 1.082 (the nine pharma peers' trailing P/E at the 30-Sep close vs their five-year medians, the house factor for names outside the set; reproduced +8.2%) = 43.7x, nearest half-turn. Reported-EPS median 38.4x (sensitivity). Bull 49.5x / bear 37x = 75th / 25th percentile (45.9x / 34.3x) x 1.082. No own-move blend, no growth uplift (sensitivities only). Written by COHANCE.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 27,
+      "bull": 31,
+      "bear": 24
+     },
+     "why": "Cross-check: median one-year-forward EV/EBITDA on the same dates (EV = price x shares then outstanding less the last published net cash; Suven for the FY23-24 forward years, merged pro forma for FY25) of 25.2x x 1.075 (the nine peers' EV/EBITDA move against five-year medians; reproduced +7.5%) = 27.1x, nearest half-turn, on Sep-28E EBITDA plus Sep-28E net cash after the Rs696 cr minority buy-out liability. Bull 31x / bear 24x = 75th / 25th percentile x 1.075."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 12.8% (cost of equity; net debt incl. the minority buy-out liability is small against market value), terminal growth 5.5%, less net debt at Mar-27E including the Rs696 cr minority buy-out liability and leases, plus the Rs260 cr Raisin investment."
+    }
+   ]
+  }
+ }
+}

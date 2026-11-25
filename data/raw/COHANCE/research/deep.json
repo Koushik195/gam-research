@@ -1,0 +1,67 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, peers, street (notes standing on 30-Sep-2026), ownership (Jun-2026 pattern), stock events, moat, critiques, gaps and conflicts for Cohance Lifesciences. Later facts are in updates/later-facts.json only." },
+ "industry": {
+  "cdmoGlobal": "Global pharma CDMO market ~US$197.4 bn in 2025, projected ~US$368.7 bn by 2034 (7.15% CAGR) (AR FY26 MD&A, citing industry reports)",
+  "apiGlobal": "Global API market ~US$270.5 bn in 2025 to ~US$419 bn by 2033 (5.55% CAGR); synthetic small molecules still the bulk (AR FY26 MD&A)",
+  "adc": "22 ADCs approved globally by May-2026 (14 by the US FDA); ADC sales ~US$16.1 bn in 2025 (Enhertu US$5.0 bn, Padcev US$3.0 bn, Adcetris US$1.6 bn); ADC contract manufacturing ~US$8.9 bn (2024) to ~US$16.5 bn (2030), ~10.9% a year; bioconjugation CDMO ~US$2.2 bn (2025) to ~US$4.4 bn (2030), ~15% a year (AR FY26 MD&A)",
+  "oligo": "Oligonucleotide CDMO ~US$0.91 bn (2024) to ~US$3.16 bn (2033), ~15% a year (AR FY26 MD&A); company deck: oligo market US$1 bn (FY24) to US$4 bn (FY29E)",
+  "specialty": "Global specialty chemicals ~US$941 bn (2025) to ~US$1,377 bn (2035), 3.5% CAGR; agrochemicals in a global downturn with Chinese generic price pressure (AR FY26; q1call)",
+  "china": "US de-risking from Chinese suppliers (Department of Defense list naming Chinese CDMOs; BIOSECURE-type legislation) is lifting late-stage RFQs to Indian CDMOs, but customers already have one or two sources, so conversion is slow (Cohance CDMO CEO, q1call)",
+  "src": "ar26 MD&A p.120-141; q1ppt p.25; q1call"
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": { "LUPIN": "Loss years inside the window (PLAYBOOK §7c).", "GLENMARK": "Loss years inside the window (PLAYBOOK §7c).", "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).", "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).", "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (PLAYBOOK §7c).", "MANKIND": "Listed May-2023: no five-year median (PLAYBOOK §7c)." },
+  "context": ["DIVISLAB", "SAILIFE", "ACUTAAS", "ANTHEM", "NEULANDLAB", "LAURUSLABS", "SYNGENE", "PPLPHARMA"],
+  "notes": "Cohance is outside the nine-name set, so the set governs with no exclusion of self (PLAYBOOK §7c: names outside the set use the median of all nine). CDMO names are shown for context only (several are recent listings or boom-bust earners)."
+ },
+ "street": {
+  "note": "Notes standing on 30-Sep-2026. Only BOBCAPS discloses its method in the material we could access (P/E on Jun-28E EPS); ICICI Securities, Jefferies and Goldman Sachs targets are from report summaries and press reports without the method. Consensus (S&P Global, 10 analysts, targets last updated 6-Aug-2026): Hold, average target ₹510.5, median ₹460, low ₹280, high ₹1,150; FY27E EPS ₹5.00 (range ₹3.40-5.83). Bloomberg consensus FY27E EPS ₹6.5 before the Q1FY27 cuts (BOBCAPS, 10-Aug-2026).",
+  "brokers": [
+   { "broker": "BOB Capital Markets (BOBCAPS)", "date": "2026-08-10", "rating": "Sell", "tp": 315, "prevTp": 341, "method": "P/E", "multiple": 40, "on": "Jun-28E EPS ₹7.9", "eps": { "FY27E": 4.20, "FY28E": 7.23, "FY29E": 9.88 }, "sales": { "FY27E": 2249.6, "FY28E": 2490.9, "FY29E": 2776.3 }, "ebitda": { "FY27E": 404.9, "FY28E": 572.9, "FY29E": 721.8 }, "thesis": "Cut EPS 30% / 15% / 13% for FY27-29E after a Q1 loss; FY27 flat to single-digit growth, double-digit only from FY28; 40x (stock at 56x) because ~60% of sales is low-margin API+, two CDMO molecules lose patents, only one of two destocked molecules is restocking, and biotech funding hurts NJ Bio", "src": "https://www.barodaetrade.com/Reports/CohanceLifesciences-Q1FY27ResultReview10Aug26-Research.pdf" },
+   { "broker": "ICICI Securities", "date": "2026-08-06", "rating": "Sell", "tp": 365, "prevTp": null, "method": null, "multiple": null, "on": null, "eps": null, "thesis": "'Long road to recovery': Q1FY27 sub-par because of lumpy CDMO revenue, a high cost base and mounting NJ Bio losses (summary only; method not in the accessible summary)", "src": "https://trendlyne.com/posts/5771227/long-road-to-recovery" },
+   { "broker": "Jefferies", "date": "2026-08-06", "rating": "Underperform", "tp": 350, "prevTp": 300, "method": null, "multiple": null, "on": null, "eps": null, "thesis": "Downgraded to Underperform (from Hold) on 13-May-2026 with target cut to ₹300 (from ₹340) and FY27-28E EPS cut 14-17% on margin pressure, Middle East costs and growth investments; recovery only in H2FY27; target raised to ₹350 after Q1 with the rating kept", "src": "https://stockanalysis.com/quote/nse/COHANCE/forecast/ (S&P Global ratings log); https://www.whalesbook.com/news/English/healthcarebiotech/Jefferies-Downgrades-Cohance-Life-on-Q4-Miss-Despite-New-CEO/6a03f7219444064ed0e64dfd" },
+   { "broker": "Goldman Sachs", "date": "2026-08", "rating": "Buy", "tp": 500, "prevTp": 525, "method": null, "multiple": null, "on": null, "eps": null, "thesis": "Buy kept after a weak Q1 in Pharma CDMO and agrochemicals; recovery from Q2FY27 on scheduled commercial deliveries and normalising operations (press summary; exact date and method not verified; earlier raised to ₹525 from ₹475)", "src": "https://groww.in/stocks/suven-pharmaceuticals-ltd/market-news (Moneycontrol summary)" },
+   { "broker": "Macquarie", "date": "2026-08", "rating": "Outperform", "tp": 1150, "prevTp": null, "method": null, "multiple": null, "on": null, "eps": null, "thesis": "Outperform kept with ₹1,150 target, expecting sequential recovery from the September quarter (press roundup; the target is the consensus high and looks unrevised since 2025)", "src": "Press roundup of Q1FY27 brokerage views (search summary; original note not accessed)" }
+  ]
+ },
+ "ownership": { "date": "Jun-2026", "promoters": 57.49, "fiis": 6.50, "diis": 20.09, "public": 15.92, "shareholders": 99149, "pledged": 54.36, "pledgedNote": "Promoters pledged 20,79,74,582 shares (54.36% of equity; 94.6% of their holding) to a consortium for a US$285 mn term loan on 16-Jun-2026, replacing the encumbrance under the 29-May-2024 notes purchase agreement; covenants cover their full 57.49%",
+  "named": [ { "holder": "Berhyanda Ltd (Advent International)", "pct": 33.34, "asOf": "Mar-2026 (12,75,39,592 shares; 50.10% of Suven before the merger)" }, { "holder": "Jusmiral Holdings Ltd (Advent International)", "pct": 24.15, "asOf": "Mar-2026 (9,23,90,578 shares after selling 3,41,48,000 in Sep-2025)" }, { "holder": "Jasti Property and Equity Holdings (Suven founders)", "pct": 2.51, "asOf": "Mar-2026 (96,16,009 shares; 9.90% of Suven at Mar-2025)" }, { "holder": "HDFC Mutual Fund and SBI Mutual Fund", "pct": null, "asOf": "Bought 1.67% between them in the Sep-2025 block; current holdings not in our sources" } ],
+  "history": "Promoters 60% (Suven, Jasti family) to 50.1% (Advent, Mar-2024) to 66.41% after the merger (Jun-2025) to 57.49% after the Sep-2025 block; DIIs 11.4% (Jun-2025) to 20.1% (Jun-2026); FIIs 11.1% (Mar-2025) to 6.5%",
+  "src": "Screener.in shareholding (Jun-2026 pattern); ar26 note 17; block; pledge" },
+ "stock": { "high52": 904.75, "low52": 279.9, "events": [["1-May-2025", "Merger effective at ~₹1,100 (weekly closes ₹1,048-1,136 in May-2025)"], ["14-Aug-2025", "Falls after a weak Q1FY26"], ["18-Sep-2025", "Advent block of 8.92% at ~₹906; stock -5.9% to ₹909.8"], ["29-Oct-2025", "MD resigns; stock -10% intraday to ₹767"], ["13-Nov-2025", "FY26 guidance cut; -7.7% on the day, -27% over 11 sessions"], ["Feb to Mar-2026", "Second guidance cut, Nacharam Warning Letter, CEO exit: low ₹279.9 (weekly close, 6-Mar-2026; ~₹267 intraday)"], ["27-Apr-2026", "Umang Vohra named Chairman & Group CEO: +20% upper circuit, +43% in two days"], ["13-May-2026", "Q4FY26 miss; Jefferies downgrade; -7%"], ["5-Aug-2026", "Q1FY27 loss (as guided); stock ~₹440-446"], ["30-Sep-2026", "NSE close ₹444.0, 59% below the merger-day price"]], "src": "Screener weekly prices; block; mdExit; q2news; upper; whalesbook (13-May-2026); BOBCAPS 10-Aug-2026 (52-week range)" },
+ "moat": [
+  { "factor": "Innovator relationships", "score": "Moderate", "evidence": "Top 20 innovators give >85% of small-molecule revenue; 30-year Suven relationships; but 'a lot of these customers did not necessarily increase the width of their business with us in the past 2 to 3 years' (Umang Vohra) and two commercial molecules destocked" },
+  { "factor": "Chemistry and niche APIs", "score": "Moderate", "evidence": "Top-3 global position in 8 of the top 10 API molecules; >50% share with some innovators; controlled substances (regulatory entry barrier); gross margin ~71%" },
+  { "factor": "New modalities (ADC, oligonucleotides)", "score": "Weak", "evidence": "Early: niche technologies 15-16% of revenue; NJ Bio loses ~₹50 cr a quarter before minorities; Sapala is small (₹27 cr in Q1FY27) but growing fast" },
+  { "factor": "Regulatory track record", "score": "Weak", "evidence": "Warning Letter at Nacharam (Feb-2026), Form 483 with five observations at Pashamylaram (Aug-2026); Jaggaiahpet clean" },
+  { "factor": "Scale and integration", "score": "Moderate", "evidence": "3,000+ kL across 15 sites, backward integration in APIs; utilisation is low after the FY26-27 revenue fall" },
+  { "factor": "Management stability", "score": "Weak", "evidence": "Executive Chairman, MD, CEO and CFO all changed between Oct-2025 and Sep-2026; the new chairman calls the churn a reason peers 'moved faster than Cohance'" }
+ ],
+ "critiques": [
+  "The merger was sold as a CDMO platform with a US$1 bn revenue target at mid-30s margins by FY30; 17 months later revenue is 13% lower (FY26), Q1FY27 EBITDA margin is 0.3% and the target is 'an aspiration'.",
+  "Earnings have collapsed: attributable EPS ₹12.68 (FY25, restated) to ₹4.68 (FY26) to a loss in Q1FY27; the reported loss would be twice as large without NJ Bio's minority partners absorbing 44% of its losses.",
+  "NJ Bio (₹548 cr for 56% plus a put option on the rest) loses ~₹50 cr a quarter; its goodwill test assumes 24% revenue growth and a lower discount rate (10.1% vs 10.7%).",
+  "API+ is now ~60% of sales; BOBCAPS calls it an industry-low-margin mix for a CDMO and values the stock at 40x for that reason.",
+  "Advent controls 57.49% and has pledged 54.36% of the company for a US$285 mn holdco loan; Advent sold 8.92% at ~₹906 in Sep-2025 to repay holdco debt. A further sell-down is an overhang.",
+  "Leadership churn: four senior exits in eleven months; the CFO left on 13-Sep-2026 with no successor named by 30-Sep.",
+  "Quality: a US FDA Warning Letter (Nacharam) and a Form 483 at a key CDMO site (Pashamylaram) in the same year."
+ ],
+ "gaps": [
+  "Segment EBITDA is not disclosed (one audited segment); segment margins in this report are our inference from standalone vs subsidiary data.",
+  "Customer concentration by molecule or customer is not disclosed (management declined on the Q4FY26 call); the two destocked molecules are not named.",
+  "Broker methods: only BOBCAPS's is in the material we could access; ICICI Securities, Jefferies, Goldman Sachs and Macquarie methods and EPS are not.",
+  "JP Morgan initiated at Overweight (₹1,300) in 2025; its standing view on 30-Sep-2026 is not in our sources. The ₹280 consensus low target is not attributed.",
+  "Jun-2026 named holders: the AR gives Mar-2026 holders above 5% only; mutual-fund holdings are not itemised in our sources.",
+  "NJ Bio and Sapala quarterly P&L below EBITDA are not disclosed; our NJ Bio pre-tax loss (~₹48 cr in Q1FY27) is derived from the NCI share and consolidated vs standalone D&A and finance cost.",
+  "Raisin Aggregator LP (₹260 cr) is described only as an unquoted US equity investment; its underlying business is not stated in the AR.",
+  "Timing and price of the minority buy-outs (Sapala tranches, NJ Bio put) are not disclosed beyond 'full ownership of Sapala by FY30'."
+ ],
+ "conflicts": [
+  "FY25 EPS: Screener ₹19.14 (restated profit over pre-merger shares) vs AR ₹12.79 basic / ₹12.68 diluted; we use the AR (COHANCE.patch.js).",
+  "Q1FY27 loss: ₹24.1 cr (attributable) vs ₹45.2 cr (before minorities); both are correct on their basis; our EPS is attributable.",
+  "FY26 segment growth: deck text says API+ -8.0% and Spec Chem -2.1%, matching the restated chart (API+ ₹1,182.6 cr to ₹1,088.0 cr); the restated split differs from the quarterly decks.",
+  "Goldman Sachs target reported as ₹500 (post-Q1 summary) and ₹525 (an earlier raise); we use ₹500 as the later.",
+  "Exceptional items FY25: AR charge ₹15.78 cr (compounding fees) vs Screener's positive 'exceptional' ₹25.2 cr; we use the AR."
+ ]
+}
