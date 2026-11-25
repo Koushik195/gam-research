@@ -1,0 +1,34 @@
+{
+ "_note": "Consolidated segment data, Rs crore. IOC reports four segments from FY25 (petroleum products; petrochemicals; gas; other business = E&P, explosives & cryogenics, wind and solar). Up to FY24 gas sat inside 'other business', so we combine gas and other into one segment ('Gas & other') for a consistent FY21-FY26 history. Segment EBITDA = segment result before exchange gain/loss + segment depreciation & amortisation. Segment revenue is external revenue; excise duty (the gap between external revenue and Screener's net sales) is taken out of petroleum products, so the segments add up to Screener's net sales. 'Unallocated' = Screener operating profit (EBITDA) less the sum of segment EBITDA: almost all of it is exchange losses (segmental and unallocable) and derivative losses. IOC does not split petroleum products into refining, marketing and pipelines.",
+ "src": "Consolidated segment note: AR FY22 note 39 (FY21-FY22), AR FY24 note 39 (FY23-FY24), AR FY26 note 39 (FY25-FY26); Q1FY27 consolidated results (NSE iXBRL filing, board meeting 31-Jul-2026); operating volumes from AR FY26 five-year summary and investor presentations; Screener.in (consolidated) for net sales and operating profit.",
+ "annual": [
+  { "fy": "FY21", "petExt": 488313.68, "excise": 156287, "petRev": 332027, "petEbitda": 34177.62, "pcRev": 19149.78, "pcEbitda": 6136.84, "goRev": 12773.38, "goEbitda": 432.72, "sales": 363950, "ebitda": 39929, "unalloc": -818, "fxSegmental": 689.09 },
+  { "fy": "FY22", "petExt": 684635.84, "excise": 147395, "petRev": 537241, "petEbitda": 40846.60, "pcRev": 28091.37, "pcEbitda": 5550.24, "goRev": 24003.63, "goEbitda": 2802.67, "sales": 589336, "ebitda": 46619, "unalloc": -2580, "fxSegmental": -1196.37, "petVol": 79.657, "throughput": 67.665 },
+  { "fy": "FY23", "petExt": 892496.24, "excise": 109654, "petRev": 782842, "petEbitda": 34270.44, "pcRev": 22259.11, "pcEbitda": 716.13, "goRev": 36654.59, "goEbitda": 3413.42, "sales": 841756, "ebitda": 30683, "unalloc": -7717, "fxSegmental": -4530.10, "petVol": 89.025, "throughput": 72.408 },
+  { "fy": "FY24", "petExt": 814954.18, "excise": 104883, "petRev": 710071, "petEbitda": 73662.59, "pcRev": 26186.80, "pcEbitda": 906.54, "goRev": 40094.47, "goEbitda": 2619.88, "sales": 776352, "ebitda": 75650, "unalloc": -1539, "fxSegmental": -858.48, "petVol": 88.537, "throughput": 73.308, "grm": 12.05 },
+  { "fy": "FY25", "petExt": 784006.60, "excise": 101257, "petRev": 682750, "petEbitda": 34297.47, "pcRev": 27981.71, "pcEbitda": 948.83, "goRev": 47374.42, "goEbitda": 3233.09, "gasRev": 42210.70, "gasEbitda": 1831.67, "othRev": 5163.72, "othEbitda": 1401.42, "sales": 758106, "ebitda": 36040, "unalloc": -2439, "fxSegmental": -1506.85, "petVol": 89.880, "throughput": 71.564, "grm": 4.80 },
+  { "fy": "FY26", "petExt": 823907.04, "excise": 117038, "petRev": 706869, "petEbitda": 81314.43, "pcRev": 28050.17, "pcEbitda": 2494.97, "goRev": 49495.49, "goEbitda": 1630.11, "gasRev": 44262.43, "gasEbitda": 129.98, "othRev": 5233.06, "othEbitda": 1500.13, "sales": 784415, "ebitda": 77108, "unalloc": -8331, "fxSegmental": -4576.39, "petVol": 94.180, "throughput": 75.451, "grm": null, "grmNote": "FY26 GRM not disclosed (Q4FY26 withheld)" }
+ ],
+ "quarterly": [
+  { "q": "Q1FY27", "basis": "consolidated", "petSegRev": 264200.61, "pcSegRev": 9516.94, "gasSegRev": 14481.49, "othSegRev": 2047.88, "interSeg": 8313.85, "petResult": -1705.02, "pcResult": 216.85, "gasResult": 526.05, "othResult": 624.57, "financeCost": 1729.53, "jvShare": 697.13, "pbt": -932.59, "patOwners": -1630.74, "minorities": 489.65, "eps": -1.18, "src": "NSE iXBRL consolidated results, 31-Jul-2026 (amounts in Rs lakh converted)" }
+ ],
+ "operating": {
+  "_note": "Standalone operating data (MMT unless stated). Q1 figures from the Q1FY27 investor presentation and call (1-Aug-2026); annual from AR FY26 and the Q4FY26 presentation (19-May-2026).",
+  "FY26": { "throughput": 75.451, "utilisation": 107.4, "pipeline": 105.556, "salesTotal": 105.117, "petDomestic": 88.967, "petExports": 5.111, "gas": 7.276, "petchem": 3.396, "retailOutlets": 42818 },
+  "Q1FY26": { "throughput": 18.7, "utilisation": 106.7, "pipeline": 26.3, "salesTotal": 26.328, "grm": 2.2 },
+  "Q4FY26": { "throughput": 19.7, "utilisation": 113.9, "pipeline": 27.7, "salesTotal": 27.343, "grm": null },
+  "Q1FY27": { "throughput": 19.2, "utilisation": 109.4, "pipeline": 28.5, "salesTotal": 26.211, "petDomestic": 22.542, "petExports": 0.939, "grm": 15.59, "grmPreSaed": 36, "retailOutlets": 43138, "distillateYield": 79.0, "fuelLoss": 8.04 }
+ },
+ "grmQuarterly": {
+  "_note": "Reported GRM (US$/bbl) by quarter as charted in Prabhudas Lilladher's Q1FY27 note (Exhibit 5, 1-Aug-2026); Q4FY26 not disclosed by IOC. FY24 12.05 and FY25 4.80 are IOC's own full-year figures (Q4FY25 call, 2-May-2025).",
+  "labels": ["Q1FY25", "Q2FY25", "Q3FY25", "Q4FY25", "Q1FY26", "Q2FY26", "Q3FY26", "Q4FY26", "Q1FY27"],
+  "values": [6.4, 1.6, 3.0, 7.9, 2.2, 10.7, 12.2, null, 15.6]
+ },
+ "kpiBlocks": [
+  ["1   PETROLEUM PRODUCTS (consolidated)", [["petSegRev", "Segment revenue (incl. excise, before inter-segment)", "₹ cr", 1], ["petResult", "Segment result (EBIT)", "₹ cr", 0, "petSegRev"]]],
+  ["2   PETROCHEMICALS", [["pcSegRev", "Segment revenue", "₹ cr", 1], ["pcResult", "Segment result (EBIT)", "₹ cr", 0, "pcSegRev"]]],
+  ["3   GAS", [["gasSegRev", "Segment revenue", "₹ cr", 1], ["gasResult", "Segment result (EBIT)", "₹ cr", 0, "gasSegRev"]]],
+  ["4   OTHER BUSINESS (E&P, explosives, wind/solar)", [["othSegRev", "Segment revenue", "₹ cr", 1], ["othResult", "Segment result (EBIT)", "₹ cr", 0, "othSegRev"]]],
+  ["5   GROUP", [["jvShare", "Share of JV and associate profit", "₹ cr"], ["patOwners", "Profit attributable to owners", "₹ cr"], ["minorities", "Minority interests", "₹ cr"]]]
+ ]
+}

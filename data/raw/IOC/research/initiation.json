@@ -1,0 +1,4129 @@
+{
+ "symbol": "IOC",
+ "listing": "NSE: IOC · BSE: 530965",
+ "date": "30 September 2026",
+ "rating": "SELL",
+ "analysts": "GAM Research — Oil, Gas & Consumable Fuels",
+ "cover": {
+  "headline": "Cheap on paper, but the cycle and the state set the margins: SELL",
+  "lead": "Indian Oil refines ~31% of India's crude, owns >20,000 km of pipelines and sells 42% of its fuel. It earned ₹42,096 cr for shareholders in FY26, then lost ₹1,631 cr in Q1FY27 as crude hit US$100/bbl and retail prices were held. The stock looks cheap: 6.8x our FY28E EPS of ₹19.9 and ~0.8x book. But it has always looked cheap: its own one-year-forward EV/EBITDA (after taking out its investments) has a median of 4.2x since Apr-2021, and oil marketers and refiners trade 12.8% below their five-year medians. On 3.5x Sep-28E EBITDA of ₹64,215 cr, less net debt and minorities, plus its ONGC, GAIL, Oil India and Petronet stakes at market less 20%, we get **{{dcf.tp|inr}} ({{dcf.upside|chg}}): we initiate with SELL.** The street (median ₹163; ₹150 for the three notes after Q1) uses 4.5-5.5x. Bull {{scen.bull.tp|inr}}; bear {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "Earnings are a policy variable",
+    "p": "Petroleum-segment EBITDA per tonne sold was ₹3,800 in FY23 and FY25 and ₹8,300-8,600 in FY24 and FY26. The difference was not volume or efficiency but whether retail prices kept up with crude and how wide refining cracks were. In Q1FY27 the government cut excise by ₹10/litre and allowed staggered price rises, yet IOC still lost money before a ~₹15,000 cr inventory gain. We forecast ₹3,800/t in FY27E and ₹5,600-5,900/t after, a little below the FY22-26 average."
+   },
+   {
+    "h": "The expansions are real; the returns are not guaranteed",
+    "p": "~₹90,000 cr of projects (Panipat 15→25 MMTPA, Gujarat 13.7→18, Barauni 6→9, PX-PTA) are 89-95% complete and due by Dec-2026; throughput is guided at 77 / 85 / 90 MMT for FY27-29. That lifts our petroleum volumes ~3% a year. But capex stays at ₹30,000-40,000 cr a year (petrochemicals next), so free cash flow stays thin: ₹−177 / 10,779 / 17,514 cr in FY27-29E."
+   },
+   {
+    "h": "Investments are ~₹20 a share, not a free option",
+    "p": "The listed stakes are worth ₹34,005 cr at the 30-Sep close (ONGC alone ₹22,284 cr), ₹20 a share after a 20% discount; Petronet and ~30 unlisted JVs (fertiliser, LNG, Russian upstream) add ~₹16 a share at book. Against that, 48% of Chennai Petroleum belongs to others (₹10,287 cr at market) and net debt was ~₹54,000 cr even after counting every investment."
+   },
+   {
+    "h": "Valuation: we follow the street's method, not its multiple",
+    "p": "The street adds investments to 4.5-5.5x EBITDA. IOC's own history says the market pays ~4.2x for the operating business once the stakes are taken out (5.2x if they are left in), and the sector trades below its averages. 3.5x gives {{dcf.tp|inr}}; the stock at ₹135 prices ~3.9x FY28E core EBITDA, i.e. our FY28E earnings with little discount for another policy squeeze. Cross-checks: P/E ₹105, DCF ₹197 (only if mid-cycle margins hold for a decade)."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n1"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ],
+   [
+    "ROE",
+    "roe",
+    "pct"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting (inventory gains, LPG compensation timing)",
+    "v": "AMBER"
+   },
+   {
+    "k": "Governance (no independent directors; state pricing)",
+    "v": "RED"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "AMBER"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation (vs own history)",
+    "v": "AMBER"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): marketing margins after the May-June price rises, LPG under-recovery (~₹250/cylinder guided), inventory effects, debt after the Q1 jump.",
+   "Commissioning of Gujarat (Nov-2026), Panipat and Barauni (Dec-2026) and PX-PTA: first crude in, then a 60% / 80% / 100% ramp over three years.",
+   "Government decisions: retail price changes, SAED and export duties (reviewed fortnightly), compensation for the ₹29,730 cr negative LPG buffer.",
+   "Crude and the Strait of Hormuz: each US$10/bbl moves IOC's working capital and its marketing margin.",
+   "Board appointments: independent directors and a reconstituted Audit Committee."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "EBITDA per tonne: ₹3,800 in bad years, ₹8,300+ in good ones",
+       "unit": "Petroleum-segment EBITDA per tonne sold (₹)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "₹ per tonne",
+         "values": [
+          5128,
+          3850,
+          8320,
+          3816,
+          8634,
+          3800,
+          5600,
+          5900
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY22-26 segment notes, AR FY26 volumes; GAM estimates FY27-29E"
+      },
+      {
+       "type": "column",
+       "title": "Throughput guided to 90 MMT by FY29 as three expansions start",
+       "unit": "Standalone refinery throughput (MMT)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Throughput",
+         "values": [
+          67.7,
+          72.4,
+          73.3,
+          71.6,
+          75.5,
+          77,
+          85,
+          90
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26 five-year summary; Q1FY27 call (guidance)"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Quarterly EBITDA: ₹24,800 cr in Q4FY26, ₹4,100 cr in Q1FY27",
+       "unit": "EBITDA (₹ crore)",
+       "x": [
+        "Q2FY24",
+        "Q3FY24",
+        "Q4FY24",
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "EBITDA",
+         "values": [
+          23171,
+          16733,
+          11975,
+          9921,
+          3467,
+          7573,
+          15029,
+          13267,
+          16245,
+          22745,
+          24804,
+          4062
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in (consolidated)"
+      },
+      {
+       "type": "line",
+       "title": "Reported GRM: US$2-12 in FY25-26, US$15.6 in Q1FY27 (net of export duty)",
+       "unit": "GRM (US$/bbl)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "GRM",
+         "values": [
+          6.4,
+          1.6,
+          3,
+          7.9,
+          2.2,
+          10.7,
+          12.2,
+          15.6
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "source": "Prabhudas Lilladher (1-Aug-2026), company; Q4FY26 not disclosed"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Net debt after all investments: ~₹54,000 cr",
+       "unit": "Net debt (₹ crore)",
+       "x": [
+        "Mar-24",
+        "Mar-25",
+        "Mar-26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Net debt",
+         "values": [
+          63929,
+          82408,
+          54109,
+          54264,
+          47139,
+          33996
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; GAM estimates (investments held at Mar-26 book)"
+      },
+      {
+       "type": "line",
+       "title": "Forward core EV/EBITDA: 4.2x median, our 3.5x",
+       "unit": "EV less investments ÷ next year's EBITDA (x)",
+       "x": [
+        "2021-04-01",
+        "2021-04-09",
+        "2021-04-16",
+        "2021-04-23",
+        "2021-04-30",
+        "2021-05-07",
+        "2021-05-14",
+        "2021-05-21",
+        "2021-05-28",
+        "2021-06-04",
+        "2021-06-11",
+        "2021-06-18",
+        "2021-06-25",
+        "2021-07-02",
+        "2021-07-09",
+        "2021-07-16",
+        "2021-07-23",
+        "2021-07-30",
+        "2021-08-06",
+        "2021-08-13",
+        "2021-08-20",
+        "2021-08-27",
+        "2021-09-03",
+        "2021-09-09",
+        "2021-09-17",
+        "2021-09-24",
+        "2021-10-01",
+        "2021-10-08",
+        "2021-10-14",
+        "2021-10-22",
+        "2021-10-29",
+        "2021-11-04",
+        "2021-11-12",
+        "2021-11-18",
+        "2021-11-26",
+        "2021-12-03",
+        "2021-12-10",
+        "2021-12-17",
+        "2021-12-24",
+        "2021-12-31",
+        "2022-01-07",
+        "2022-01-14",
+        "2022-01-21",
+        "2022-01-28",
+        "2022-02-04",
+        "2022-02-11",
+        "2022-02-18",
+        "2022-02-25",
+        "2022-03-04",
+        "2022-03-11",
+        "2022-03-17",
+        "2022-03-25",
+        "2022-04-01",
+        "2022-04-08",
+        "2022-04-13",
+        "2022-04-22",
+        "2022-04-29",
+        "2022-05-06",
+        "2022-05-13",
+        "2022-05-20",
+        "2022-05-27",
+        "2022-06-03",
+        "2022-06-10",
+        "2022-06-17",
+        "2022-06-24",
+        "2022-07-01",
+        "2022-07-08",
+        "2022-07-15",
+        "2022-07-22",
+        "2022-07-29",
+        "2022-08-05",
+        "2022-08-12",
+        "2022-08-19",
+        "2022-08-26",
+        "2022-09-02",
+        "2022-09-09",
+        "2022-09-16",
+        "2022-09-23",
+        "2022-09-30",
+        "2022-10-07",
+        "2022-10-14",
+        "2022-10-21",
+        "2022-10-28",
+        "2022-11-04",
+        "2022-11-11",
+        "2022-11-18",
+        "2022-11-25",
+        "2022-12-02",
+        "2022-12-09",
+        "2022-12-16",
+        "2022-12-23",
+        "2022-12-30",
+        "2023-01-06",
+        "2023-01-13",
+        "2023-01-20",
+        "2023-01-27",
+        "2023-02-03",
+        "2023-02-10",
+        "2023-02-17",
+        "2023-02-24",
+        "2023-03-03",
+        "2023-03-10",
+        "2023-03-17",
+        "2023-03-24",
+        "2023-03-31",
+        "2023-04-06",
+        "2023-04-13",
+        "2023-04-21",
+        "2023-04-28",
+        "2023-05-05",
+        "2023-05-12",
+        "2023-05-19",
+        "2023-05-26",
+        "2023-06-02",
+        "2023-06-09",
+        "2023-06-16",
+        "2023-06-23",
+        "2023-06-30",
+        "2023-07-07",
+        "2023-07-14",
+        "2023-07-21",
+        "2023-07-28",
+        "2023-08-04",
+        "2023-08-11",
+        "2023-08-18",
+        "2023-08-25",
+        "2023-09-01",
+        "2023-09-08",
+        "2023-09-15",
+        "2023-09-22",
+        "2023-09-29",
+        "2023-10-06",
+        "2023-10-13",
+        "2023-10-20",
+        "2023-10-27",
+        "2023-11-03",
+        "2023-11-12",
+        "2023-11-17",
+        "2023-11-24",
+        "2023-12-01",
+        "2023-12-08",
+        "2023-12-15",
+        "2023-12-22",
+        "2023-12-29",
+        "2024-01-05",
+        "2024-01-12",
+        "2024-01-20",
+        "2024-01-25",
+        "2024-02-02",
+        "2024-02-09",
+        "2024-02-16",
+        "2024-02-23",
+        "2024-03-02",
+        "2024-03-07",
+        "2024-03-15",
+        "2024-03-22",
+        "2024-03-28",
+        "2024-04-05",
+        "2024-04-12",
+        "2024-04-19",
+        "2024-04-26",
+        "2024-05-03",
+        "2024-05-10",
+        "2024-05-18",
+        "2024-05-24",
+        "2024-05-31",
+        "2024-06-07",
+        "2024-06-14",
+        "2024-06-21",
+        "2024-06-28",
+        "2024-07-05",
+        "2024-07-12",
+        "2024-07-19",
+        "2024-07-26",
+        "2024-08-02",
+        "2024-08-09",
+        "2024-08-16",
+        "2024-08-23",
+        "2024-08-30",
+        "2024-09-06",
+        "2024-09-13",
+        "2024-09-20",
+        "2024-09-27",
+        "2024-10-04",
+        "2024-10-11",
+        "2024-10-18",
+        "2024-10-25",
+        "2024-11-01",
+        "2024-11-08",
+        "2024-11-14",
+        "2024-11-22",
+        "2024-11-29",
+        "2024-12-06",
+        "2024-12-13",
+        "2024-12-20",
+        "2024-12-27",
+        "2025-01-03",
+        "2025-01-10",
+        "2025-01-17",
+        "2025-01-24",
+        "2025-02-01",
+        "2025-02-07",
+        "2025-02-14",
+        "2025-02-21",
+        "2025-02-28",
+        "2025-03-07",
+        "2025-03-13",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-04",
+        "2025-04-11",
+        "2025-04-17",
+        "2025-04-25",
+        "2025-05-02",
+        "2025-05-09",
+        "2025-05-16",
+        "2025-05-23",
+        "2025-05-30",
+        "2025-06-06",
+        "2025-06-13",
+        "2025-06-20",
+        "2025-06-27",
+        "2025-07-04",
+        "2025-07-11",
+        "2025-07-18",
+        "2025-07-25",
+        "2025-08-01",
+        "2025-08-08",
+        "2025-08-14",
+        "2025-08-22",
+        "2025-08-29",
+        "2025-09-05",
+        "2025-09-12",
+        "2025-09-19",
+        "2025-09-26",
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          5.78,
+          5.74,
+          5.69,
+          5.63,
+          5.71,
+          5.83,
+          6.02,
+          6.12,
+          6.28,
+          5.69,
+          5.71,
+          5.62,
+          5.6,
+          5.51,
+          5.47,
+          5.44,
+          5.44,
+          5.35,
+          5.43,
+          5.4,
+          5.36,
+          5.43,
+          5.65,
+          5.64,
+          5.8,
+          5.77,
+          6.08,
+          6.21,
+          6.29,
+          6.17,
+          6.09,
+          6.29,
+          6.24,
+          6.13,
+          5.88,
+          5.92,
+          5.86,
+          5.64,
+          5.56,
+          5.6,
+          5.81,
+          5.95,
+          5.91,
+          5.98,
+          5.98,
+          5.92,
+          5.89,
+          5.63,
+          5.65,
+          5.97,
+          5.89,
+          5.82,
+          2.4,
+          2.46,
+          2.47,
+          2.55,
+          2.45,
+          2.45,
+          2.39,
+          2.34,
+          2.3,
+          2.46,
+          2.45,
+          2.29,
+          2.35,
+          2.39,
+          2.35,
+          2.31,
+          2.34,
+          2.36,
+          2.36,
+          2.33,
+          2.34,
+          2.34,
+          2.33,
+          2.35,
+          2.3,
+          2.26,
+          2.25,
+          2.26,
+          2.24,
+          2.26,
+          2.28,
+          2.28,
+          2.3,
+          2.29,
+          2.36,
+          2.43,
+          2.43,
+          2.43,
+          2.36,
+          2.42,
+          2.49,
+          2.53,
+          2.54,
+          2.5,
+          2.46,
+          2.48,
+          2.5,
+          2.44,
+          2.45,
+          2.47,
+          2.47,
+          2.46,
+          2.45,
+          5.13,
+          5.11,
+          5.15,
+          5.27,
+          5.32,
+          5.35,
+          5.45,
+          5.61,
+          6.06,
+          6.08,
+          6.15,
+          6.04,
+          6.12,
+          6.42,
+          6.32,
+          6.42,
+          6.27,
+          6.15,
+          6.2,
+          6.12,
+          6.14,
+          6.03,
+          6.22,
+          6.14,
+          6.15,
+          6.1,
+          6.06,
+          6.1,
+          6.08,
+          5.95,
+          6.29,
+          6.39,
+          6.55,
+          6.58,
+          6.88,
+          7.17,
+          7.36,
+          7.35,
+          7.59,
+          7.7,
+          7.8,
+          8.28,
+          8.12,
+          8.85,
+          9.6,
+          9.77,
+          9.35,
+          9.21,
+          9.3,
+          8.78,
+          8.94,
+          9.04,
+          4.23,
+          4.27,
+          4.2,
+          4.29,
+          4.28,
+          4.07,
+          4.17,
+          4.24,
+          3.73,
+          3.76,
+          3.87,
+          3.8,
+          3.79,
+          3.89,
+          3.81,
+          3.78,
+          3.98,
+          4,
+          3.85,
+          3.81,
+          3.92,
+          3.99,
+          3.98,
+          3.92,
+          3.81,
+          4.04,
+          3.84,
+          3.74,
+          3.78,
+          3.44,
+          3.42,
+          3.34,
+          3.24,
+          3.2,
+          3.31,
+          3.36,
+          3.41,
+          3.28,
+          3.26,
+          3.3,
+          3.16,
+          3.12,
+          3.12,
+          3.07,
+          3.06,
+          2.92,
+          3,
+          2.86,
+          3.06,
+          3.07,
+          3.18,
+          3.11,
+          5.9,
+          5.95,
+          6.04,
+          6.05,
+          6.34,
+          6.23,
+          6.39,
+          6.36,
+          6.74,
+          6.7,
+          6.69,
+          6.63,
+          6.92,
+          7.06,
+          7.03,
+          7.01,
+          6.91,
+          6.71,
+          6.67,
+          6.68,
+          6.67,
+          6.56,
+          6.66,
+          6.76,
+          6.96,
+          6.84,
+          7.02,
+          7.15,
+          7.11,
+          7.02,
+          7.54,
+          7.65,
+          7.72,
+          7.59,
+          7.4,
+          7.47,
+          7.47,
+          7.43,
+          7.35,
+          7.57,
+          7.26,
+          7.39,
+          7.21,
+          7.33,
+          7.85,
+          7.9,
+          7.8,
+          8.26,
+          7.63,
+          7.23,
+          6.83,
+          6.6,
+          4.35,
+          4.55,
+          4.61,
+          4.56,
+          4.53,
+          4.59,
+          4.36,
+          4.47,
+          4.49,
+          3.98,
+          4.04,
+          4.1,
+          4.11,
+          4.06,
+          4,
+          4.06,
+          3.99,
+          4.02,
+          4.1,
+          4.01,
+          3.93,
+          3.96,
+          3.97,
+          3.91,
+          3.95,
+          3.92
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 4.22851351018312,
+         "text": "Median 4.2x"
+        },
+        {
+         "v": 3.5,
+         "text": "Our multiple: 3.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in prices and accounts; GAM estimates for FY27-28E EBITDA"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "hbar",
+       "title": "What makes up our ₹110 target (₹ per share)",
+       "unit": "₹ per share",
+       "x": [
+        "Petroleum products",
+        "Petrochemicals",
+        "Gas & other",
+        "FX / unallocated",
+        "Net debt (Sep-27E)",
+        "Listed stakes: revaluation",
+        "Minorities (CPCL)"
+       ],
+       "series": [
+        {
+         "name": "₹/share",
+         "values": [
+          147,
+          12,
+          8,
+          -4,
+          -37,
+          -7,
+          -8
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "source": "GAM Research"
+      },
+      {
+       "type": "hbar",
+       "title": "Our ₹110 vs the street and the price",
+       "unit": "₹ per share; CMP ₹135",
+       "x": [
+        "Prabhudas Lilladher (Aug)",
+        "Motilal Oswal (Aug)",
+        "BOB Capital Markets (Aug)",
+        "ICICI Securities (May)",
+        "Geojit BNP Paribas (May)",
+        "Nomura (May)",
+        "UBS (May)",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          147,
+          150,
+          163,
+          185,
+          153,
+          180,
+          175,
+          110
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Broker notes and listings as cited in the street table; GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What it does",
+   "kicker": "The business",
+   "title": "India's largest refiner, pipeline owner and fuel retailer, majority-owned by the state",
+   "blocks": [
+    {
+     "p": "Indian Oil Corporation (IndianOil) is a Maharatna public-sector company: the Government owns 51.5% and two other state companies (ONGC and Oil India) a further 19.4%. It runs 10 refineries including Chennai Petroleum (51.89%), with 80.75 MMTPA of capacity (~31% of India's 258.1 MMTPA), moves crude and products through >20,000 km of pipelines (5,300 km crude, 13,300 km products, 1,300 km gas) and sells through 43,138 fuel stations, LPG distributors and aviation stations. In FY26 it sold 105.117 MMT of products, 42% of India's petroleum sales (54% of jet fuel, 46% of LPG)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Four reported segments, FY26 (consolidated)",
+      "head": [
+       "Segment",
+       "What it is",
+       "Revenue (₹ cr, net)",
+       "EBITDA (₹ cr)",
+       "Capital employed (₹ cr)"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Petroleum products",
+        "Refining (10 refineries), pipelines, marketing of petrol, diesel, LPG, jet fuel, lubricants (Servo), bitumen, exports",
+        "7,06,869",
+        "81,314",
+        "2,34,918"
+       ],
+       [
+        "Petrochemicals",
+        "Polymers (PP, PE), PX, PTA, LAB, glycols from Panipat, Paradip and Gujarat",
+        "28,050",
+        "2,495",
+        "42,336"
+       ],
+       [
+        "Gas",
+        "Natural gas and LNG trading, city gas distribution (7.3 MMT sold)",
+        "44,262",
+        "130",
+        "8,316"
+       ],
+       [
+        "Other business",
+        "Oil & gas exploration, explosives, cryogenics, wind and solar",
+        "5,233",
+        "1,500",
+        "14,846"
+       ]
+      ],
+      "source": "AR FY26 consolidated note 39. Revenue net of excise (all excise allocated to petroleum products); EBITDA = segment result before exchange differences + segment depreciation."
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "donut",
+       "title": "FY26 revenue: diesel 44%, petrol 23%, LPG 12%",
+       "unit": "% of external revenue (incl. excise)",
+       "x": [
+        "Diesel (HSD)",
+        "Petrol (MS)",
+        "LPG",
+        "Jet fuel (ATF)",
+        "Others"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          43.9,
+          23,
+          12.1,
+          4.6,
+          16.3
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "source": "AR FY26 consolidated note 39"
+      },
+      {
+       "type": "donut",
+       "title": "95% of FY26 segment EBITDA came from petroleum products",
+       "unit": "% of segment EBITDA",
+       "x": [
+        "Petroleum products",
+        "Petrochemicals",
+        "Gas",
+        "Other"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          95.2,
+          2.9,
+          0.2,
+          1.8
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "source": "AR FY26 consolidated note 39; GAM"
+      }
+     ]
+    },
+    {
+     "p": "Two things make IOC different from a private refiner. First, it is integrated end to end: it refines ~75 MMT itself, buys the rest of what it sells from CPCL, other refiners and imports, and carries most of it by its own pipelines. Second, its retail prices for petrol, diesel and household LPG are, in practice, decided with the Government. When crude spikes the state can ask the three PSU marketers (IOC, BPCL, HPCL) to hold prices and absorb the loss, and compensates them later, partly or not at all. Petroleum products are therefore one business with two very different margin pools: a refining margin set by global cracks and a marketing margin set in Delhi. IOC does not report them separately."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "Sixty years of building India's fuel system: the events that shaped the numbers",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Key events and what they did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "1-Sep-1964",
+        "Indian Oil Corporation formed by merging Indian Refineries Ltd with Indian Oil Company (1959)",
+        "State-owned refiner and marketer from the start"
+       ],
+       [
+        "2016-17, 2018",
+        "Two 1:1 bonus issues; buyback in FY19",
+        "Share count rebased; Screener history adjusted"
+       ],
+       [
+        "Jun/Jul-2022",
+        "1:2 bonus: 941 cr → 1,412 cr shares",
+        "EPS history restated ×2/3; 34.97 cr shares sit in the IOC Shares Trust (treasury)"
+       ],
+       [
+        "FY23",
+        "Ukraine war: crude above US$100, retail prices frozen",
+        "EBITDA ₹30,683 cr; profit to owners ₹9,792 cr"
+       ],
+       [
+        "FY24",
+        "Crude eased while prices stayed",
+        "Record EBITDA ₹75,650 cr; profit ₹41,730 cr"
+       ],
+       [
+        "FY25",
+        "Refining cracks collapsed (GRM US$4.80/bbl)",
+        "EBITDA ₹36,040 cr; profit ₹13,598 cr"
+       ],
+       [
+        "Oct-2025",
+        "MoPNG approves ₹14,486 cr LPG compensation, paid monthly from Nov-2025",
+        "₹6,036 cr recognised in FY26; ₹3,622 cr in Q1FY27"
+       ],
+       [
+        "FY26",
+        "Record throughput 75.5 MMT, sales 105.1 MMT; rupee −11%",
+        "EBITDA ₹77,108 cr, profit ₹42,096 cr; FX losses ~₹8,300 cr"
+       ],
+       [
+        "End-Feb 2026 onward",
+        "US-Iran war; Hormuz disrupted; SAED cut ₹10/litre (27-Mar); export duties back",
+        "Q1FY27 consolidated loss ₹1,631 cr to owners; borrowings +₹31,000 cr"
+       ],
+       [
+        "28-Mar-2026",
+        "Audit Committee discontinued (no independent directors on the board)",
+        "Results approved by the full board"
+       ],
+       [
+        "Nov-Dec 2026 (planned)",
+        "Gujarat, Panipat, Barauni expansions and PX-PTA commissioned",
+        "Group capacity 80.75 → ~98 MMTPA by FY28"
+       ]
+      ],
+      "source": "AR FY22/FY24/FY26; Q4FY26 and Q1FY27 calls; Q1FY27 results notes; businesstoday.in (27-Mar-2026)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "A growing fuel market with administered prices, hit by the 2026 Gulf war",
+   "blocks": [
+    {
+     "p": "India refining capacity 258.1 MMTPA (FY26), throughput 272.1 MMT; IOC group 80.75 MMTPA (~31%), going to ~98 MMTPA by FY28. Petroleum product consumption +2% in FY26 (diesel +4%, petrol +6%); in Q1FY27 petrol +7% and diesel +5% QoQ, ATF -5%, LPG -20% (commercial supply curbs). India imports most of its crude (and much of its LPG and LNG), so the rupee and the Gulf matter as much as demand."
+    },
+    {
+     "p": "US-Iran conflict from end-Feb 2026: Strait of Hormuz traffic disrupted, Qatar's Ras Laffan LNG under force majeure. Indian basket US$63.87 (Q3FY26) -> US$83.01 (Q4FY26) -> US$100.74/bbl (Q1FY27). Government cut SAED on petrol and diesel by ₹10/litre on 27-Mar-2026 and re-imposed export duties on diesel and ATF; retail prices raised in tranches from May-2026 (~₹3/litre each at first, ~₹7.5 on diesel cumulatively per the Q1 call). A 60-day US-Iran truce from mid-June eased prices before renewed escalation."
+    },
+    {
+     "p": "Petrol and diesel prices are formally deregulated but in practice set by the three PSU OMCs with the government's consent; prices were held for long stretches, including through the 2026 Gulf war. Household LPG is sold below cost and losses are compensated by the government case by case: in Oct-2025 MoPNG approved ₹14,486 cr for IOC for under-recoveries up to Mar-2026, paid in 12 monthly instalments from Nov-2025."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Who's who in Indian refining and marketing",
+      "head": [
+       "Company",
+       "Owner",
+       "Role",
+       "Note"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Indian Oil (incl. CPCL)",
+        "Government 51.5%",
+        "Refining, pipelines, marketing, petchem, gas",
+        "Largest in each; ~42% of petroleum sales"
+       ],
+       [
+        "BPCL",
+        "Government",
+        "Refining and marketing",
+        "Peer OMC; prices move together with IOC"
+       ],
+       [
+        "HPCL",
+        "ONGC (majority)",
+        "Marketing-heavy; buys much of its product",
+        "Most exposed to marketing losses"
+       ],
+       [
+        "MRPL",
+        "ONGC / HPCL",
+        "Standalone refiner",
+        "Pure refining-margin exposure"
+       ],
+       [
+        "Reliance, Nayara",
+        "Private",
+        "Export-oriented refiners with smaller retail arms",
+        "Sell at market prices; gain share when PSU prices are held"
+       ]
+      ],
+      "source": "AR FY26; company filings; GAM"
+     }
+    },
+    {
+     "callout": "**So what:** demand growth (3-5% a year) is not the issue for IOC; who bears the cost of high crude is. In 2022 and again in 2026 the answer was the PSU marketers first and the Government later. The industry structure protects IOC's volumes and network, not its margins."
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Tailwind test",
+   "title": "Do India's energy tailwinds reach IOC's shareholders? Volumes yes, margins only sometimes",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Tailwind test",
+      "head": [
+       "Tailwind",
+       "Evidence it reaches IOC",
+       "Verdict"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Fuel demand growth",
+        "Domestic petroleum sales 84.96 → 88.97 MMT in FY26 (+4.7%), ahead of the market (+2%); 2,597 new fuel stations in FY26",
+        "Reaches it (volume)"
+       ],
+       [
+        "High global refining margins after the war",
+        "Pre-SAED GRM US$36/bbl in Q1FY27, but US$15.6 after the export duty; product prices at home held",
+        "Partly: the state taxes or caps the windfall"
+       ],
+       [
+        "Lower crude (when it comes)",
+        "FY24: crude down, prices held → ₹8,320/t EBITDA",
+        "Reaches it, if prices are not cut"
+       ],
+       [
+        "Refining capacity expansion",
+        "~17 MMTPA (+21%) by Dec-2026; throughput 77 → 85 → 90 MMT",
+        "Reaches it from FY28 (ramp 60/80/100%)"
+       ],
+       [
+        "Petrochemical demand",
+        "PX-PTA, PBR; petchem intensity 6.5% → 15% planned",
+        "Uncertain: FY23-25 EBITDA margins 2-3%"
+       ],
+       [
+        "Energy transition (EVs, gas, renewables)",
+        "Ethanol 20% blend; 31 GW renewables by 2030 planned; EVs cap long-run petrol demand",
+        "Mostly a cost (capex) for now"
+       ]
+      ],
+      "source": "AR FY26; Q4FY26 and Q1FY27 calls; GAM"
+     }
+    }
+   ]
+  },
+  {
+   "id": "petroleum",
+   "nav": "Petroleum products",
+   "kicker": "Segment: petroleum products",
+   "title": "Petroleum products: 95% of EBITDA, two margin pools, one of them political",
+   "blocks": [
+    {
+     "p": "The petroleum segment refines crude (IOC standalone 75.451 MMT in FY26 at 107% utilisation, plus CPCL ~10 MMT), carries it through IOC's pipelines (105.556 MMT in FY26) and sells it (88.967 MMT in India, 5.213 MMT exported). Its EBITDA is the sum of a refining margin (GRM: product value less crude cost, US$/bbl), a marketing margin (retail price less the refinery-gate price, taxes and dealer commission, ₹/litre), pipeline tariffs and inventory gains or losses, less operating costs. IOC disclosed GRM until Q3FY26 (US$12.05/bbl in FY24, US$4.80 in FY25) and has paused it \"while volatility lasts\"; it has never disclosed the marketing margin."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Petroleum products: the cycle in one table",
+      "head": [
+       "",
+       "FY21",
+       "FY22",
+       "FY23",
+       "FY24",
+       "FY25",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Segment revenue, net of excise (₹ cr)",
+        "3,32,027",
+        "5,37,241",
+        "7,82,842",
+        "7,10,071",
+        "6,82,750",
+        "7,06,869",
+        "8,79,621",
+        "8,37,575",
+        "8,71,329"
+       ],
+       [
+        "Segment EBITDA (₹ cr)",
+        "34,178",
+        "40,847",
+        "34,270",
+        "73,663",
+        "34,297",
+        "81,314",
+        "36,325",
+        "55,406",
+        "60,125"
+       ],
+       [
+        "Petroleum sales incl. exports (MMT)",
+        "–",
+        "79.7",
+        "89.0",
+        "88.5",
+        "89.9",
+        "94.2",
+        "95.6",
+        "98.9",
+        "101.9"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**EBITDA per tonne sold (₹)**",
+         "–",
+         "**5,128**",
+         "**3,850**",
+         "**8,320**",
+         "**3,816**",
+         "**8,634**",
+         "**3,800**",
+         "**5,600**",
+         "**5,900**"
+        ]
+       },
+       [
+        "Standalone throughput (MMT)",
+        "–",
+        "67.7",
+        "72.4",
+        "73.3",
+        "71.6",
+        "75.5",
+        "77",
+        "85",
+        "90"
+       ],
+       [
+        "Reported GRM (US$/bbl)",
+        "–",
+        "–",
+        "–",
+        "12.05",
+        "4.80",
+        "n.d.",
+        "–",
+        "–",
+        "–"
+       ]
+      ],
+      "source": "AR FY22/FY24/FY26 segment notes and five-year summary; Q4FY25 call (GRMs); Q1FY27 call (throughput guidance); GAM estimates"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "EBITDA per tonne: FY22-26 average ₹5,949; ours ₹3,800 → 5,900",
+       "unit": "₹ per tonne",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "₹/t",
+         "values": [
+          5128,
+          3850,
+          8320,
+          3816,
+          8634,
+          3800,
+          5600,
+          5900
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "lines": [
+        {
+         "v": 5949,
+         "text": "FY22-26 average"
+        }
+       ],
+       "source": "GAM from AR segment notes"
+      },
+      {
+       "type": "column",
+       "title": "Volumes: +1.5% in FY27E, then the expansions",
+       "unit": "Petroleum sales incl. exports (MMT)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "MMT",
+         "values": [
+          89,
+          88.5,
+          89.9,
+          94.2,
+          95.6,
+          98.9,
+          101.9
+         ],
+         "fmt": "n1"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26; GAM estimates"
+      }
+     ]
+    },
+    {
+     "h": "Refining: bigger, more complex, and taxed when it booms"
+    },
+    {
+     "p": "Three expansions add ~17 MMTPA (+21%) to IOC's refining: Panipat 15→25 MMTPA (₹38,231 cr, 94% complete), Gujarat 13.7→18 (₹18,936 cr, 89%) and Barauni 6→9 (₹18,113 cr, 92%), all due Nov-Dec 2026, with a 60% / 80% / 100% ramp-up over three years. Management guides throughput of 77 / 85 / 90 MMT for FY27-29 and expects higher distillate yields (79-80% now) and lower fuel & loss (8.0% in Q1FY27, the lowest since BS-VI). The 2026 war pushed product cracks very high: Q1FY27 GRM was US$36/bbl before the special export duty and US$15.59 after it (crude inventory loss US$3-4/bbl). The state took most of the windfall through the export duty, as it did with the 2022 windfall tax."
+    },
+    {
+     "h": "Marketing: volumes grow, margins are decided elsewhere"
+    },
+    {
+     "p": "IOC sells ~42% of India's petroleum products through 43,138 fuel stations (Jun-2026) and ~46% of its LPG. Volumes grew 4.7% in FY26, ahead of the market. But in Q1FY27 retail prices were held while the crude basket averaged US$100.74/bbl: LPG under-recovery reached ₹670/cylinder in May and ₹665 in June, then ~₹475 in July; petrol and diesel lost money until price rises in tranches from May (the SAED cut of ₹10/litre on 27-Mar helped). The quarter's EBITDA (₹4,062 cr consolidated) was only positive because of a ~₹15,000 cr gain on finished-goods inventory. IOC expects LPG losses to fall to ~₹250/cylinder in Q2 and is \"confident\" of compensation, but the timing and amount are the Government's call: the negative LPG buffer stood at ₹29,730 cr at Jun-2026."
+    },
+    {
+     "callout": "**Our forecast:** petroleum EBITDA of ₹36,325 / 55,406 / 60,125 cr (₹3800 / 5600 / 5900 per tonne). FY27E assumes Q2-Q4 average ~₹4,800/t after Q1's ~₹850/t: falling LPG losses, retail prices that roughly cover cost, refining margins well above pre-war levels but taxed. FY28-29E sit ~6% below the FY22-26 average of ₹5,949/t. Each ₹500/t is ~₹4,947 cr of FY28E EBITDA (~₹3 of EPS)."
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "nav": "Petrochemicals, gas & other",
+   "kicker": "Segments: petrochemicals, gas, other",
+   "title": "Petrochemicals and gas: 5% of EBITDA today, where the next ₹1 lakh cr goes",
+   "blocks": [
+    {
+     "p": "Petrochemicals (polymers, PX, PTA, LAB, glycols) earned segment EBITDA of ₹6,137 cr in FY21 and ₹5,550 cr in FY22, then ₹716-949 cr a year in FY23-FY25 (2-3% margins) as Chinese capacity flooded the market, and ₹2,495 cr in FY26 (Q4 EBIT ₹1,209 cr, the best ever). Q1FY27 EBIT was ₹217 cr on 0.77 MMT. The ₹13,805 cr PX-PTA complex at Paradip (95% complete) and the ₹2,949 cr polybutadiene rubber plant at Panipat start in FY27; another ~₹1 lakh cr of petchem projects (petchem intensity 6.5% → 15%) is planned to FY30. We forecast EBITDA of ₹2,800 / 4,500 / 5,200 cr."
+    },
+    {
+     "p": "Gas (LNG and natural gas trading, city gas) and other businesses (E&P, explosives, cryogenics, wind and solar) earned ₹3,233 cr in FY25 and ₹1,630 cr in FY26 (gas alone only ₹130 cr). Q1FY27 was unusually strong (EBIT: gas ₹526 cr, other ₹625 cr). We forecast ₹3,600 / 3,000 / 3,200 cr. The bigger long-term bets sit in joint ventures and are in our valuation at book: IndianOil LNG (Ennore terminal), IndianOil-Adani Gas, Hindustan Urvarak (fertiliser), Terra Clean (renewables, 2.65 GW of grid connectivity) and the Russian and Abu Dhabi upstream stakes."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Petrochemicals EBITDA: ₹6,100 cr (FY21) to ₹700 cr (FY23)",
+       "unit": "Segment EBITDA (₹ crore)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Petrochemicals",
+         "values": [
+          6137,
+          5550,
+          716,
+          907,
+          949,
+          2495,
+          2800,
+          4500,
+          5200
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "AR segment notes; GAM estimates"
+      },
+      {
+       "type": "column",
+       "title": "Gas & other EBITDA",
+       "unit": "Segment EBITDA (₹ crore)",
+       "x": [
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Gas & other",
+         "values": [
+          433,
+          2803,
+          3413,
+          2620,
+          3233,
+          1630,
+          3600,
+          3000,
+          3200
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "AR segment notes; GAM estimates"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "Competitive advantage: real scale advantages, no pricing power; the moat protects volumes, not returns",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Scale and integration",
+       "Strong",
+       "~31% of India's refining, the largest pipeline network, 43,000+ fuel stations, 54% of jet fuel.",
+       "Lowest-cost logistics in the country."
+      ],
+      [
+       "Pricing power",
+       "None",
+       "Retail prices for petrol, diesel and LPG are set with the Government; FY23 and Q1FY27 show losses are absorbed first.",
+       "Returns cannot be defended in a spike."
+      ],
+      [
+       "Refining quality",
+       "Moderate",
+       "Distillate yield ~79-80%, fuel & loss 8%; older, smaller refineries than Jamnagar; expansions add complexity.",
+       "GRMs historically below the best private refiner."
+      ],
+      [
+       "Customer captivity",
+       "Weak-moderate",
+       "Fuel is a commodity; brand (Servo, XTRAPREMIUM) helps only in lubricants and premium fuels.",
+       "Share held by network density."
+      ],
+      [
+       "Regulatory position",
+       "Mixed",
+       "State ownership brings LPG compensation and cheap funding, but also price controls, windfall taxes and policy capex.",
+       "A two-way street."
+      ]
+     ],
+     "head": [
+      "Source",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Competitive advantage scorecard",
+     "source": "AR FY26; calls; GAM"
+    },
+    {
+     "callout": "**Honest verdict:** IOC has the strongest physical franchise in Indian oil, and nobody will take its volumes. But a moat that does not let you set prices does not earn excess returns through the cycle: ROE averaged ~18% in FY22-FY26 (standalone 22.6%, 7.1%, 29.8%, 8.7%, 22.7%), close to the cost of equity once the trough years are weighted honestly."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Boom, bust, boom, bust, boom: EBITDA of ₹31,000-77,000 cr in alternate years",
+   "blocks": [
+    {
+     "p": "IOC's revenue follows the crude price (₹3.6 lakh cr in FY21, ₹8.4 lakh cr in FY23, ₹7.8 lakh cr in FY26, net of excise), so revenue growth says little. What matters is the margin per tonne, and it swings with two things IOC does not control: refining margins (cracks) and how far the government lets retail prices follow crude. EBITDA was ₹46,619 cr in FY22, ₹30,683 cr in FY23 (retail prices held while crude spiked after the Ukraine war), ₹75,650 cr in FY24 (crude fell, prices did not), ₹36,040 cr in FY25 (refining margins collapsed to US$4.80/bbl) and ₹77,108 cr in FY26. Profit attributable to shareholders went ₹25,102 → 9,792 → 41,730 → 13,598 → 42,096 cr. Two of the last five years were troughs; Q1FY27 (a loss) starts a third."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "EBITDA alternates between ~₹35,000 and ~₹77,000 cr",
+       "unit": "EBITDA (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBITDA",
+         "ref": "fin.ebitda",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Net profit to shareholders: ₹42,096 cr in FY26, a loss in Q1FY27",
+       "unit": "Net profit, owners (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 3.6-11%; mid-cycle ~7-8%",
+       "unit": "EBITDA margin (%), on net sales",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 12,
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      },
+      {
+       "type": "column",
+       "title": "Revenue tracks crude, not volumes",
+       "unit": "Net sales (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated), GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** IOC has no \"normal\" year to forecast from; the right base is a cycle average. Over FY22-FY26 petroleum-segment EBITDA averaged ~₹5,950 per tonne sold (₹3,800 in trough years, ₹8,300-8,600 in good years). We forecast ₹3,800/t for FY27E (Q1 was close to zero before inventory gains), then ₹5,600/t and ₹5,900/t as the expansions add volume, i.e. slightly below the five-year average because the 2026 war showed again that marketing margins are a policy decision."
+    }
+   ]
+  },
+  {
+   "id": "q1fy27",
+   "nav": "Q1FY27 and what we know of FY27",
+   "kicker": "Latest quarter",
+   "title": "Q1FY27: a loss at US$100 crude, cushioned by a ~₹15,000 cr inventory gain",
+   "blocks": [
+    {
+     "p": "In the Jun-2026 quarter the Indian crude basket averaged US$100.74/bbl (US$83.01 in Q4FY26) and retail prices rose only in tranches. Standalone EBITDA collapsed to ₹2,332 cr (₹22,345 cr in Q4FY26) and IOC lost ₹2,661 cr; the group lost ₹1,631 cr for shareholders (EPS ₹-1.18) after CPCL's refining profits (minorities took ₹490 cr). Without a ~₹15,000 cr gain on finished-goods inventory, the loss would have been several times larger. Refining was strong but taxed: GRM US$15.59/bbl after the export duty (US$36 before it). Volumes held: throughput 19.2 MMT (109% utilisation), sales 26.2 MMT, record pipeline throughput 28.5 MMT. Borrowings rose ₹30,785 cr in the quarter to ₹1,41,453 cr."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance",
+      "head": [
+       "",
+       "Q1FY26",
+       "Q4FY26",
+       "Q1FY27"
+      ],
+      "rows": [
+       [
+        "Revenue, consolidated net (₹ cr)",
+        "1,92,341",
+        "2,08,289",
+        "2,66,407"
+       ],
+       [
+        "EBITDA, consolidated (₹ cr)",
+        "13,267",
+        "24,804",
+        "4,062"
+       ],
+       [
+        "Net profit to owners (₹ cr)",
+        "6,814",
+        "14,458",
+        "-1,631"
+       ],
+       [
+        "Standalone EBITDA (₹ cr)",
+        "–",
+        "22,345",
+        "2,332"
+       ],
+       [
+        "GRM (US$/bbl)",
+        "2.2",
+        "not disclosed",
+        "15.59 (36 before SAED)"
+       ],
+       [
+        "Refinery throughput (MMT)",
+        "18.7",
+        "19.7",
+        "19.2"
+       ],
+       [
+        "Total sales (MMT)",
+        "26.33",
+        "27.34",
+        "26.21"
+       ],
+       [
+        "Standalone borrowings, period end (₹ cr)",
+        "–",
+        "1,10,668",
+        "1,41,453"
+       ]
+      ],
+      "source": "Screener.in (consolidated); Q1FY27 presentation and call (1-Aug-2026); NSE iXBRL consolidated results (31-Jul-2026)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What management said on 1-Aug-2026 (known by 30-Sep)",
+      "head": [
+       "Topic",
+       "What was said"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "LPG",
+        "LPG under-recovery Rs665/cylinder in June (after the price revision), ~Rs475 in July, ~Rs250 expected as the Q2 average (Saudi CP 796 -> 592 -> 632). Confident of compensation 'based on past practice', timing and quantum uncertain."
+       ],
+       [
+        "Crude sourcing",
+        "Indian basket US$100.74/bbl in Q1 vs US$83.01 in Q4FY26. Crude premium peaked ~US$10/bbl over Brent (all-in), US$2-3 in July; spot share 84% (51% a year earlier); Russian crude 50-54% of intake."
+       ],
+       [
+        "Inventory",
+        "Finished-goods inventory gain ~Rs15,000 cr; crude inventory loss US$3-4/bbl (crude marked ~US$87/bbl at 31-Mar, ~US$83 at 30-Jun)."
+       ],
+       [
+        "Throughput",
+        "~77 MMT FY27, ~85 MMT FY28, ~90 MMT FY29 (standalone)."
+       ],
+       [
+        "Projects",
+        "Panipat 15->25 MMTPA (Rs38,231 cr, 94% complete, Dec-26); Gujarat 13.7->18 (Rs18,936 cr, 89%, Nov-26); Barauni 6->9 (Rs18,113 cr, 92%, Dec-26); PX-PTA Paradip (Rs13,805 cr, 95%, ~Aug-26); PBR Panipat (Rs2,949 cr, Dec-26); ~Rs90,000 cr in total. Ramp-up 60% / 80% / 100% over three years (Q4 call)."
+       ],
+       [
+        "Capex",
+        "Rs30,000-40,000 cr a year for the next 2-3 years; petchem intensity 6.5% -> 15% (~Rs1 lakh cr over 5-6 years, another ~5 MMTPA of petchem by FY30); 18 GW renewables in 3-4 years."
+       ],
+       [
+        "Costs",
+        "Project SPRINT saved ~Rs2,200 cr in FY26; SPRINT 2 targets Rs2,000-2,500 cr more in FY27."
+       ],
+       [
+        "Debt",
+        "Rs1,41,453 cr at 30-Jun (Rs1,10,668 cr at 31-Mar): +Rs31,000 cr in one quarter on working capital, at higher rates."
+       ]
+      ],
+      "source": "Q1FY27 earnings call transcript (1-Aug-2026)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "Capex of ₹28,000-37,000 cr a year has absorbed almost all the cash; ROE 6-30% with the cycle",
+   "blocks": [
+    {
+     "p": "Over FY24-FY26 IOC generated ₹1,81,740 cr of operating cash and spent ₹1,00,505 cr on capex and ₹34,220 cr on dividends; over FY21-FY23 ₹1,03,864 cr, ₹78,425 cr and ₹22,585 cr. The money went into the Panipat (15→25 MMTPA), Gujarat (13.7→18) and Barauni (6→9) refinery expansions, the Paradip PX-PTA complex and pipelines: ~₹90,000 cr of projects due to be commissioned by Dec-2026. Management does not plan a pause: it guides ₹30,000-40,000 cr a year for another 2-3 years (petrochemicals ~₹1 lakh cr over 5-6 years, renewables, CBG, SAF, ships). Returns follow the cycle: ROE 22.7% in FY26 and 8.7% in FY25 (standalone), 29.8% in FY24 and 7.1% in FY23."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash vs capex: the gap is the cycle",
+       "unit": "₹ crore",
+       "x": "A.labels",
+       "from": "FY21",
+       "series": [
+        {
+         "name": "Cash from operations",
+         "ref": "A.cfo",
+         "fmt": "num"
+        },
+        {
+         "name": "Capex (incl. CWIP)",
+         "ref": "A.capex",
+         "fmt": "num"
+        }
+       ],
+       "labels": "none",
+       "source": "Company filings, Screener.in (consolidated), GAM Research. Capex = fixed assets purchased + capital work in progress (cash flow)."
+      },
+      {
+       "type": "line",
+       "title": "ROCE: 7% in trough years, ~20% in good ones",
+       "unit": "Return on capital employed (%), Screener basis",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          6,
+          14,
+          20,
+          22,
+          16,
+          5,
+          15,
+          16,
+          8,
+          21,
+          7,
+          19
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 25,
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY21-23",
+       "FY24-26",
+       "Six years"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "1,03,864",
+        "1,81,740",
+        "2,85,604"
+       ],
+       [
+        "Capex (incl. capital work in progress)",
+        "78,425",
+        "1,00,505",
+        "1,78,930"
+       ],
+       [
+        "Dividends paid",
+        "22,585",
+        "34,220",
+        "56,805"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left over**",
+         "**2,854**",
+         "**47,015**",
+         "**49,869**"
+        ]
+       },
+       [
+        "Memo: borrowings incl. leases at the end",
+        "1,48,977 (Mar-23)",
+        "1,31,822 (Mar-26)",
+        ""
+       ]
+      ],
+      "source": "Screener.in cash flow (consolidated); capex adds the capital-work-in-progress line (IOC.patch.js). Investments in JVs (₹622-6,364 cr a year) are on top."
+     }
+    },
+    {
+     "callout": "**The capital question:** the expansions should lift group refining capacity from 80.75 to ~98 MMTPA, but the returns depend on margins IOC cannot fix, and the next ₹1 lakh cr goes into petrochemicals, where IOC earned 2-3% EBITDA margins in FY23-FY25. A PSU also has policy roles (energy security, strategic reserves, LPG access) that a private refiner would not take on."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Accounting",
+   "title": "Earnings quality: inventory gains, compensation timing and FX move profit by thousands of crores",
+   "blocks": [
+    {
+     "p": "The accounts are audited by C&AG-appointed firms and are unqualified, but four items make reported profit a poor guide to the run-rate: (1) **inventory gains and losses**: IOC carries ~₹1.2 lakh cr of inventory, so a US$10/bbl move in crude swings profit by thousands of crores (Q1FY27: ~₹15,000 cr finished-goods gain, crude loss of US$3-4/bbl); (2) **LPG compensation**: the ₹14,486 cr approved in Oct-2025 is booked in monthly instalments (₹6,036 cr in FY26, ₹3,622 cr in Q1FY27) while the cumulative negative buffer of ₹29,730 cr is not on the balance sheet; (3) **exchange losses** of ₹8,331 cr in FY26 sit outside segment results; (4) Screener adds **exceptional items** (₹1,945 cr in FY25) to other income. Screener also shows profit before minorities; we use profit to owners and IOC's own share count (1,377.16 cr, excluding the 34.97 cr treasury shares in the IOC Shares Trust)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "From Screener to our basis (FY26, ₹ crore)",
+      "head": [
+       "",
+       "₹ crore",
+       "Note"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Net profit (Screener, before minorities)",
+        "43,677",
+        "Includes 100% of CPCL"
+       ],
+       [
+        "Less: minorities",
+        "−1,581",
+        "48.11% of CPCL, 25% of Lanka IOC"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Profit to owners**",
+         "**42,096**",
+         "Our \"net profit\""
+        ]
+       },
+       [
+        "Shares (cr): in issue / outside the trust",
+        "1,412.12 / 1,377.16",
+        "IOC reports EPS on 1,377.16 cr"
+       ],
+       [
+        "EPS: Screener / IOC / ours (₹)",
+        "29.81 / 30.57 / 30.57",
+        "IOC.patch.js"
+       ],
+       [
+        "Capex FY26: Screener \"fixed assets purchased\" / incl. CWIP",
+        "4,002 / 28,362",
+        "CWIP spending added back (IOC.patch.js)"
+       ]
+      ],
+      "source": "AR FY26 consolidated statements, EPS note; Screener.in; GAM"
+     }
+    },
+    {
+     "callout": "**Our approach:** forecasts carry no inventory gains or losses, no exceptional items and ₹1,500 cr a year of FX losses; LPG compensation is assumed to continue to offset under-recoveries only partially (inside our ₹/tonne margin). We value the cycle, not a quarter."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & debt",
+   "kicker": "Balance sheet",
+   "title": "Net debt ~₹54,000 cr at Mar-26 after ₹73,000 cr of investments; borrowings +₹31,000 cr in Q1FY27",
+   "blocks": [
+    {
+     "p": "At Mar-2026 consolidated borrowings were ₹1,31,822 cr including ₹11,733 cr of leases, against ₹4,415 cr of cash and ₹73,298 cr of investments (listed stakes in ONGC, GAIL and Oil India at fair value ₹34,157 cr; Petronet LNG and ~30 other joint ventures at equity value ₹25,009 cr; ₹6,185 cr of government securities; other ₹7,947 cr). Net of all investments, debt was ~₹54,000 cr; net of cash only, ~₹1,27,000 cr. Working capital swings with crude: in Q1FY27 standalone borrowings rose from ₹1,10,668 cr to ₹1,41,453 cr (gross debt/equity 0.71x) as inventories were carried at war prices. Off balance sheet: a negative LPG buffer (under-recoveries not yet compensated) of ₹29,730 cr at Jun-2026, and contingent tax and other claims."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Net debt (after investments at book) fell to ~₹54,000 cr in FY26",
+       "unit": "Net debt (₹ crore)",
+       "x": "A.labels",
+       "from": "FY20",
+       "series": [
+        {
+         "name": "Net debt",
+         "ref": "A.netDebt",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated), GAM Research. Borrowings incl. leases less cash and investments."
+      },
+      {
+       "type": "line",
+       "title": "Inventory days 60-110: working capital follows crude",
+       "unit": "Days (of revenue)",
+       "x": [
+        "FY15",
+        "FY16",
+        "FY17",
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          46,
+          54,
+          87,
+          77,
+          64,
+          59,
+          111,
+          84,
+          59,
+          70,
+          63,
+          68
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          29,
+          31,
+          41,
+          40,
+          34,
+          24,
+          49,
+          37,
+          27,
+          34,
+          34,
+          33
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-23",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth (owners)",
+        "{{A.netWorth.8|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings incl. leases",
+        "{{A.borrowings.8|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash and equivalents",
+        "{{A.cash.8|num}}",
+        "{{A.cash.9|num}}",
+        "{{A.cash.10|num}}",
+        "{{A.cash.11|num}}"
+       ],
+       [
+        "Investments (stakes, JVs, government securities)",
+        "{{A.investments.8|num}}",
+        "{{A.investments.9|num}}",
+        "{{A.investments.10|num}}",
+        "{{A.investments.11|num}}"
+       ],
+       [
+        "Net fixed assets",
+        "{{A.fixedAssets.8|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Capital work in progress",
+        "{{A.cwip.8|num}}",
+        "{{A.cwip.9|num}}",
+        "{{A.cwip.10|num}}",
+        "{{A.cwip.11|num}}"
+       ],
+       [
+        "Inventories",
+        "{{A.inventories.8|num}}",
+        "{{A.inventories.9|num}}",
+        "{{A.inventories.10|num}}",
+        "{{A.inventories.11|num}}"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated), GAM Research. Investments: AR FY26 consolidated note 4. Q1FY27 standalone borrowings from the Q1 call (1-Aug-2026)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: the Government 51.5%, ONGC and Oil India 19.4%, LIC 6%; free float ~23%",
+   "blocks": [
+    {
+     "p": "The Government of India (President of India) owns 51.5% and has not sold since the bonus; ONGC (14.20%) and Oil India (5.16%), both government-controlled, bring state-related ownership to ~71% (Screener's \"government\" category 19.57%). LIC owned 6.04% at Mar-2026. Foreign funds hold 9.08% and Indian institutions 9.52%; 28,59,833 shareholders hold the rest. 2.48% sits in the IOC Shares Trust (treasury shares, no dividends). The free float in practice is ~23%. A Government offer for sale is possible (it has to keep 51%), but there is little room above that line."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Foreign funds 7.5% → 9.8% → 9.1%; Indian institutions ~9-10%",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "About 2.9 million shareholders",
+       "unit": "Number of shareholders",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Shareholders",
+         "ref": "SH.rows.No. of Shareholders",
+         "fmt": "num"
+        }
+       ],
+       "labels": "ends",
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Shareholding",
+      "head": [
+       "Holder",
+       "Stake"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "President of India (Government of India)",
+        "51.50%"
+       ],
+       [
+        "ONGC",
+        "14.20%"
+       ],
+       [
+        "Life Insurance Corporation of India (Mar-26)",
+        "6.04%"
+       ],
+       [
+        "Oil India",
+        "5.16%"
+       ],
+       [
+        "IOC Shares Trust (treasury shares)",
+        "2.48%"
+       ],
+       [
+        "SBI Mutual Fund (Mar-26)",
+        "0.83%"
+       ],
+       [
+        "Foreign portfolio investors (Jun-26)",
+        "9.08%"
+       ],
+       [
+        "Domestic institutions (Jun-26)",
+        "9.52%"
+       ],
+       [
+        "Retail and others (Jun-26)",
+        "10.32%"
+       ]
+      ],
+      "source": "BSE shareholding pattern via Screener.in (Jun-2026); named holders from AR FY26 (31-Mar-2026)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Governance: competent operators, but no independent directors and a controlling shareholder that sets prices",
+   "blocks": [
+    {
+     "p": "Chairman A.S. Sahney (previously head of IOC's petrochemicals vertical); Director (Finance) Anuj Jain. As a Maharatna CPSE, IOC's board is appointed by the Ministry of Petroleum & Natural Gas; the statutory auditors are appointed by the Comptroller and Auditor General (C&AG), who also comments on the accounts (AR FY26 carries a revised auditor's report after C&AG comments)."
+    },
+    {
+     "verdicts": [
+      [
+       "Board independence",
+       "Weak",
+       "No independent directors on the board: the Audit Committee was discontinued from 28-Mar-2026 and the Q1FY27 results were approved by the full board.",
+       "A listed company without an audit committee is a basic failure; appointments are the Ministry's."
+      ],
+      [
+       "Audit and accounts",
+       "Moderate",
+       "C&AG-appointed auditors; unqualified; complex consolidation (CPCL, ~30 JVs, treasury shares).",
+       "Clean, but inventory and compensation timing need adjusting."
+      ],
+      [
+       "Minority alignment",
+       "Weak",
+       "Retail petrol, diesel and LPG prices are set in consultation with the government; minority shareholders bear under-recoveries until (and unless) compensated.",
+       "The state is both owner and price-setter."
+      ],
+      [
+       "Related parties",
+       "Watch",
+       "Large purchases from JVs (Petronet LNG ₹11,414 cr of products in FY26) approved by shareholders as material related-party transactions.",
+       "Large, but mostly JVs with other PSUs."
+      ],
+      [
+       "Capital allocation",
+       "Moderate",
+       "Projects delivered close to schedule; but capex continues into petchem and renewables partly for policy reasons.",
+       "Growth over payouts."
+      ],
+      [
+       "Disclosure",
+       "Moderate",
+       "Quarterly calls and presentations; GRM paused from Q4FY26; no refining/marketing split.",
+       "Less than investors need in a crisis."
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "AR FY26; Q1FY27 results notes; calls"
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EPS ₹10.3 in FY27E, ₹19.9 in FY28E, ₹22.2 in FY29E",
+   "blocks": [
+    {
+     "p": "We forecast three segments. Petroleum products = sales volume × realisation (revenue) and volume × EBITDA per tonne; petrochemicals and gas & other on revenue and margin. Capex ₹34,000 / 32,000 / 32,000 cr; depreciation at 5.7% of gross block; other income (dividends, interest, JV profits) ₹6,000-6,600 cr; finance cost ₹8,300-9,000 cr; tax plus minorities 27.5-29%; payout 30%. Every assumption, with our reasoning, is in the Excel model's Assumptions sheet."
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY23",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Net profit (owners)",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n1"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       },
+       {
+        "name": "ROE",
+        "ref": "fin.roe",
+        "fmt": "pct"
+       }
+      ],
+      "source": "Company, GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM",
+       "PL (1-Aug)",
+       "BOB Capital (1-Aug)",
+       "MOSL (1-Aug)",
+       "ICICI Sec (20-May)"
+      ],
+      "rows": [
+       [
+        "FY27E EPS (₹)",
+        "{{F.eps.0|n1}}",
+        "11.2",
+        "10.5",
+        "–",
+        "−15.9"
+       ],
+       [
+        "FY28E EPS (₹)",
+        "{{F.eps.1|n1}}",
+        "21.4",
+        "16.0",
+        "20.8",
+        "20.0"
+       ],
+       [
+        "FY27E EBITDA (₹ cr)",
+        "{{F.ebitda.0|num}}",
+        "40,000",
+        "42,582",
+        "–",
+        "−5,400"
+       ],
+       [
+        "FY28E EBITDA (₹ cr)",
+        "{{F.ebitda.1|num}}",
+        "61,100",
+        "56,129",
+        "–",
+        "64,300"
+       ]
+      ],
+      "source": "Broker notes as cited in the street table; GAM Research. PL and ICICI Securities EPS are on 1,377 cr shares; consolidated."
+     }
+    },
+    {
+     "callout": "**Where we differ:** our earnings are close to the street; our valuation is not. Our Sep-28E EBITDA of ₹64,215 cr and EPS of ₹21.0 sit inside the range of the four notes. The gap to the street's targets (median ₹163) is the multiple and the treatment of investments and minorities (next chapters)."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: ₹147-185, median ₹163; after Q1 only three notes, median ₹150",
+   "blocks": [
+    {
+     "p": "Seven fundamental targets stood on 30-Sep-2026: three written after the Q1FY27 results (Prabhudas Lilladher Accumulate ₹147, Motilal Oswal Neutral ₹150, BOB Capital Buy ₹163, all on 1-Aug-2026) and four from May-2026, after Q4FY26 and before the Q1 loss (ICICI Securities Buy ₹185, Nomura Buy ₹180, UBS Neutral ₹175, Geojit Hold ₹153). Median ₹163 (+21% vs the 30-Sep-2026 close of ₹134.9); the post-Q1 median is ₹150. Three of the four that disclose a method use EV/EBITDA (4.5-5.5x on Dec-27E to FY28E) plus investments; PL uses 0.8x FY28E book. The targets fell after the war started (ICICI Sec ₹190 → 185, PL ₹163 → 145 → 147, BOB ₹173 → 163, MOSL ₹165 → 150). Emkay Global and Avendus Spark moved to Add after Q4FY26 with targets of ~₹150-160 (range only, whalesbook.com). HDFC Securities Buy ₹190 (4-Feb-2026): written before the Gulf war; no later note found."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument",
+       "Who"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Marketing margins are a policy variable: in 2022 and 2026 the government held prices while crude spiked, wiping out a year's marketing profit.",
+        "Street (MOSL, BOB), GAM"
+       ],
+       [
+        "Inventory gains flatter Q1FY27 (~₹15,000 cr finished goods); without them the quarter was a large loss.",
+        "Motilal Oswal, Sanjay Mookim (JPM) on the call"
+       ],
+       [
+        "Capex does not fall after the expansions: ₹30,000-40,000 cr a year continues into petchem (₹1 lakh cr) and renewables, keeping free cash flow thin.",
+        "Citi (Saurabh Handa) on the Q1 call; GAM"
+       ],
+       [
+        "Petchem returns are uncertain: naphtha crackers and PTA face Chinese capacity; IOC's petchem EBITDA margin was 2-3% in FY23-FY25.",
+        "Nomura (Bineet Banka) on the Q1 call"
+       ],
+       [
+        "Governance: no independent directors, an Audit Committee discontinued, and dividends that track government needs.",
+        "GAM"
+       ]
+      ],
+      "source": "Broker notes and call participants as cited; GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 3.5x Sep-28E EBITDA plus stakes gives {{dcf.tp|inr}}; the stock trades at 3.9x FY28E core EBITDA",
+   "blocks": [
+    {
+     "h": "How the street values Indian Oil"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock (standing on 30-Sep-2026)",
+      "head": [
+       "Broker",
+       "Date",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Prabhudas Lilladher",
+        "01-08-2026",
+        "Accumulate",
+        "147",
+        "P/B",
+        "0.8x",
+        "FY28E",
+        "Upgrade from Reduce: core GRM US$19.1/bbl in Q1 despite peak SAED; LPG under-recovery narrowing; government support expected. GRM US$10.0/6.5, GMM ₹1.5/4.7 per litre FY27E/28E."
+       ],
+       [
+        "Motilal Oswal",
+        "01-08-2026",
+        "Neutral",
+        "150",
+        "EV/EBITDA + investments",
+        "4.5x",
+        "Dec-27E",
+        "Q1 beat driven by >₹150bn of marketing inventory gains; capex cycle nearing its end; risks: LPG under-recoveries, borrowings ₹1.4 lakh cr, SAED changes."
+       ],
+       [
+        "BOB Capital Markets",
+        "01-08-2026",
+        "Buy",
+        "163",
+        "EV/EBITDA + investments",
+        "5.5x",
+        "Jun-28E",
+        "Volume growth and expansions positive, but retail margins challenged by elevated crude; TP cut from ₹173; major benefit of capex only after FY29."
+       ],
+       [
+        "ICICI Securities",
+        "20-05-2026",
+        "Buy",
+        "185",
+        "SOTP: EV/EBITDA + listed investments at market",
+        "5.5x",
+        "FY28E",
+        "Refining expansion of 17-18 MTPA, petchem, DER ~0.54x; valuation attractive (6.7x FY28E P/E, <1x P/B); FY27E cut to a loss for Gulf-conflict marketing losses."
+       ],
+       [
+        "Geojit BNP Paribas",
+        "25-05-2026",
+        "Hold",
+        "153",
+        "n.d.",
+        "–",
+        "–",
+        "n.d."
+       ],
+       [
+        "Nomura",
+        "20-05-2026",
+        "Buy",
+        "180",
+        "n.d.",
+        "–",
+        "–",
+        "Target cut from ₹190 after Q4FY26"
+       ],
+       [
+        "UBS",
+        "20-05-2026",
+        "Neutral",
+        "175",
+        "n.d.",
+        "–",
+        "–",
+        "Kept Neutral after the Q4 beat"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "30-09-2026",
+         "**SELL**",
+         "**{{dcf.tp|num}}**",
+         "**SOTP: EV/EBITDA + stakes at market less 20%**",
+         "**3.5x**",
+         "**Sep-28E**",
+         "Fair business, policy-capped margins; own history pays ~4x core EBITDA"
+        ]
+       }
+      ],
+      "source": "PL, BOB Capital and ICICI Securities notes read in full; Motilal Oswal via investmentguruindia.com (3-Aug-2026); Geojit via Trendlyne; Nomura via MarketScreener feed (date inferred); UBS via Zee Business. n.d. = not disclosed"
+     }
+    },
+    {
+     "h": "Our target multiple: 3.5x, and why"
+    },
+    {
+     "p": "House rule (PLAYBOOK §4, §7c): start from the stock's own one-year-forward multiple from Apr-2021 to 30-Sep-2026, leave out trough years, then apply the sector's move against its five-year medians. Because the street values IOC on EV/EBITDA plus investments, we measure the same thing: EV less ALL investments at their latest book value (so the stakes we add back separately are not counted twice), divided by the next full year's consolidated EBITDA (realised for past years, our FY27E-FY28E for recent dates), on every weekly close. FY25 is left out as a trough (EBITDA ₹36,040 cr, below half of FY24's ₹75,650 cr). Our 3.5x applies to EBITDA before other income, like the street's."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the multiple (house rule, PLAYBOOK §4 and §7c)",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1. Own history since Apr-2021",
+        "Forward core EV/EBITDA, 235 weekly points: median 4.2x (25th-75th percentile 3.1-6.0x). Trough year left out: FY25; with it 5.4x. By forward year: FY23 5.8x, FY24 2.4x, FY25 6.2x (trough), FY26 3.8x, FY27 7.0x, FY28 4.1x",
+        "Starting point 4.2x"
+       ],
+       [
+        "2. Sector move",
+        "OMC/refiner peers' trailing EV/EBITDA on 30-Sep-2026 vs five-year medians: BPCL −5.5%, MRPL −18.1%, Chennai Petroleum −12.8%; median −12.8%. Excluded: HPCL (+108.8%; Q1 marketing loss collapsed its trailing EBITDA). IOC itself (−15.7%) is not in the set",
+        "× 0.872"
+       ],
+       [
+        "3. Result (nearest half-turn)",
+        "4.2x × 0.872 = 3.7x",
+        "**3.5x**"
+       ],
+       [
+        "4. Bull / bear",
+        "Bull: no sector move (4.2x). Bear: 25th percentile, moved (3.1x × 0.872)",
+        "4x / 2.5x"
+       ],
+       [
+        "5. Street multiples",
+        "4.5-5.5x EBITDA plus investments. On the same weekly data, EV WITHOUT deducting investments has a median of 5.2x: the street's multiples match the gross figure, but it then adds the investments again",
+        "Shown, not applied"
+       ],
+       [
+        "6. Returns",
+        "ROE ~11% on FY28-29E (cost of equity 12.5%); FY22-26 average ~18% including two troughs",
+        "Shown, not applied"
+       ]
+      ],
+      "source": "Screener.in prices and balance sheets to 30-Sep-2026; GAM estimates FY27-28E EBITDA; peers from their Screener files at the NSE close"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Sum of the parts (base case)",
+      "head": [
+       "Part",
+       "Basis",
+       "Multiple",
+       "Value (₹ cr)",
+       "₹ / share"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "Petroleum products (refining, marketing, pipelines)",
+        "₹57,765 cr",
+        "3.5x",
+        "2,02,179",
+        "146.8"
+       ],
+       [
+        "Petrochemicals",
+        "₹4,850 cr",
+        "3.5x",
+        "16,975",
+        "12.3"
+       ],
+       [
+        "Gas & other businesses",
+        "₹3,100 cr",
+        "3.5x",
+        "10,850",
+        "7.9"
+       ],
+       [
+        "Less: unallocated costs (FX losses)",
+        "₹-1,500 cr",
+        "3.5x",
+        "-5,250",
+        "-3.8"
+       ],
+       [
+        "Less: net debt at Sep-27E (investments at book inside)",
+        "₹50,702 cr net debt",
+        "–",
+        "-50,702",
+        "-36.8"
+       ],
+       [
+        "Listed stakes: 30-Sep-2026 market value less 20%, minus book",
+        "–",
+        "–",
+        "-9,739",
+        "-7.1"
+       ],
+       [
+        "Less: minorities (48.11% of CPCL at market; others at book)",
+        "–",
+        "–",
+        "-10,972",
+        "-8.0"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Equity value / target (rounded)**",
+         "",
+         "",
+         "**1,53,341**",
+         "**{{dcf.tp|num}}**"
+        ]
+       }
+      ],
+      "source": "GAM Research. Listed stakes: ONGC 98.7 cr sh × ₹225.80; GAIL (India) 16.3 cr sh × ₹170.55; Oil India 8.0 cr sh × ₹448.65; Petronet LNG (12.5%) 18.8 cr sh × ₹284.50 = ₹34,005 cr; Mar-26 book ₹36,942 cr. Minorities: 48.11% × CPCL market value ₹21,382 cr = ₹10,287 cr + others ₹685 cr at book. Shares 1,377.16 cr."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**Sum of the parts (EV/EBITDA)**",
+        "**Target**",
+        "Sep-28E EBITDA ₹64,215 cr + stakes − net debt − minorities",
+        "3.5x (bull 4x, bear 2.5x)",
+        "**{{dcf.blend.methods.0.value|num}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|num}}",
+        "{{scen.bear.blend.methods.0.value|num}}"
+       ],
+       [
+        "P/E",
+        "Cross-check",
+        "Sep-28E EPS ₹21.0",
+        "5x (bull 5x, bear 3x)",
+        "{{dcf.blend.methods.1.value|num}}",
+        "−6%",
+        "{{scen.bull.blend.methods.1.value|num}}",
+        "{{scen.bear.blend.methods.1.value|num}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "FCFF FY28-37E, WACC {{dcf.ke|n1}}%, g 4%",
+        "–",
+        "{{dcf.blend.methods.2.value|num}}",
+        "+77%",
+        "{{scen.bull.blend.methods.2.value|num}}",
+        "{{scen.bear.blend.methods.2.value|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward core EV/EBITDA since Apr-2021: median 4.2x",
+       "unit": "EV less investments ÷ next year's EBITDA (x)",
+       "x": [
+        "2021-04-01",
+        "2021-04-09",
+        "2021-04-16",
+        "2021-04-23",
+        "2021-04-30",
+        "2021-05-07",
+        "2021-05-14",
+        "2021-05-21",
+        "2021-05-28",
+        "2021-06-04",
+        "2021-06-11",
+        "2021-06-18",
+        "2021-06-25",
+        "2021-07-02",
+        "2021-07-09",
+        "2021-07-16",
+        "2021-07-23",
+        "2021-07-30",
+        "2021-08-06",
+        "2021-08-13",
+        "2021-08-20",
+        "2021-08-27",
+        "2021-09-03",
+        "2021-09-09",
+        "2021-09-17",
+        "2021-09-24",
+        "2021-10-01",
+        "2021-10-08",
+        "2021-10-14",
+        "2021-10-22",
+        "2021-10-29",
+        "2021-11-04",
+        "2021-11-12",
+        "2021-11-18",
+        "2021-11-26",
+        "2021-12-03",
+        "2021-12-10",
+        "2021-12-17",
+        "2021-12-24",
+        "2021-12-31",
+        "2022-01-07",
+        "2022-01-14",
+        "2022-01-21",
+        "2022-01-28",
+        "2022-02-04",
+        "2022-02-11",
+        "2022-02-18",
+        "2022-02-25",
+        "2022-03-04",
+        "2022-03-11",
+        "2022-03-17",
+        "2022-03-25",
+        "2022-04-01",
+        "2022-04-08",
+        "2022-04-13",
+        "2022-04-22",
+        "2022-04-29",
+        "2022-05-06",
+        "2022-05-13",
+        "2022-05-20",
+        "2022-05-27",
+        "2022-06-03",
+        "2022-06-10",
+        "2022-06-17",
+        "2022-06-24",
+        "2022-07-01",
+        "2022-07-08",
+        "2022-07-15",
+        "2022-07-22",
+        "2022-07-29",
+        "2022-08-05",
+        "2022-08-12",
+        "2022-08-19",
+        "2022-08-26",
+        "2022-09-02",
+        "2022-09-09",
+        "2022-09-16",
+        "2022-09-23",
+        "2022-09-30",
+        "2022-10-07",
+        "2022-10-14",
+        "2022-10-21",
+        "2022-10-28",
+        "2022-11-04",
+        "2022-11-11",
+        "2022-11-18",
+        "2022-11-25",
+        "2022-12-02",
+        "2022-12-09",
+        "2022-12-16",
+        "2022-12-23",
+        "2022-12-30",
+        "2023-01-06",
+        "2023-01-13",
+        "2023-01-20",
+        "2023-01-27",
+        "2023-02-03",
+        "2023-02-10",
+        "2023-02-17",
+        "2023-02-24",
+        "2023-03-03",
+        "2023-03-10",
+        "2023-03-17",
+        "2023-03-24",
+        "2023-03-31",
+        "2023-04-06",
+        "2023-04-13",
+        "2023-04-21",
+        "2023-04-28",
+        "2023-05-05",
+        "2023-05-12",
+        "2023-05-19",
+        "2023-05-26",
+        "2023-06-02",
+        "2023-06-09",
+        "2023-06-16",
+        "2023-06-23",
+        "2023-06-30",
+        "2023-07-07",
+        "2023-07-14",
+        "2023-07-21",
+        "2023-07-28",
+        "2023-08-04",
+        "2023-08-11",
+        "2023-08-18",
+        "2023-08-25",
+        "2023-09-01",
+        "2023-09-08",
+        "2023-09-15",
+        "2023-09-22",
+        "2023-09-29",
+        "2023-10-06",
+        "2023-10-13",
+        "2023-10-20",
+        "2023-10-27",
+        "2023-11-03",
+        "2023-11-12",
+        "2023-11-17",
+        "2023-11-24",
+        "2023-12-01",
+        "2023-12-08",
+        "2023-12-15",
+        "2023-12-22",
+        "2023-12-29",
+        "2024-01-05",
+        "2024-01-12",
+        "2024-01-20",
+        "2024-01-25",
+        "2024-02-02",
+        "2024-02-09",
+        "2024-02-16",
+        "2024-02-23",
+        "2024-03-02",
+        "2024-03-07",
+        "2024-03-15",
+        "2024-03-22",
+        "2024-03-28",
+        "2024-04-05",
+        "2024-04-12",
+        "2024-04-19",
+        "2024-04-26",
+        "2024-05-03",
+        "2024-05-10",
+        "2024-05-18",
+        "2024-05-24",
+        "2024-05-31",
+        "2024-06-07",
+        "2024-06-14",
+        "2024-06-21",
+        "2024-06-28",
+        "2024-07-05",
+        "2024-07-12",
+        "2024-07-19",
+        "2024-07-26",
+        "2024-08-02",
+        "2024-08-09",
+        "2024-08-16",
+        "2024-08-23",
+        "2024-08-30",
+        "2024-09-06",
+        "2024-09-13",
+        "2024-09-20",
+        "2024-09-27",
+        "2024-10-04",
+        "2024-10-11",
+        "2024-10-18",
+        "2024-10-25",
+        "2024-11-01",
+        "2024-11-08",
+        "2024-11-14",
+        "2024-11-22",
+        "2024-11-29",
+        "2024-12-06",
+        "2024-12-13",
+        "2024-12-20",
+        "2024-12-27",
+        "2025-01-03",
+        "2025-01-10",
+        "2025-01-17",
+        "2025-01-24",
+        "2025-02-01",
+        "2025-02-07",
+        "2025-02-14",
+        "2025-02-21",
+        "2025-02-28",
+        "2025-03-07",
+        "2025-03-13",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-04",
+        "2025-04-11",
+        "2025-04-17",
+        "2025-04-25",
+        "2025-05-02",
+        "2025-05-09",
+        "2025-05-16",
+        "2025-05-23",
+        "2025-05-30",
+        "2025-06-06",
+        "2025-06-13",
+        "2025-06-20",
+        "2025-06-27",
+        "2025-07-04",
+        "2025-07-11",
+        "2025-07-18",
+        "2025-07-25",
+        "2025-08-01",
+        "2025-08-08",
+        "2025-08-14",
+        "2025-08-22",
+        "2025-08-29",
+        "2025-09-05",
+        "2025-09-12",
+        "2025-09-19",
+        "2025-09-26",
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          5.78,
+          5.74,
+          5.69,
+          5.63,
+          5.71,
+          5.83,
+          6.02,
+          6.12,
+          6.28,
+          5.69,
+          5.71,
+          5.62,
+          5.6,
+          5.51,
+          5.47,
+          5.44,
+          5.44,
+          5.35,
+          5.43,
+          5.4,
+          5.36,
+          5.43,
+          5.65,
+          5.64,
+          5.8,
+          5.77,
+          6.08,
+          6.21,
+          6.29,
+          6.17,
+          6.09,
+          6.29,
+          6.24,
+          6.13,
+          5.88,
+          5.92,
+          5.86,
+          5.64,
+          5.56,
+          5.6,
+          5.81,
+          5.95,
+          5.91,
+          5.98,
+          5.98,
+          5.92,
+          5.89,
+          5.63,
+          5.65,
+          5.97,
+          5.89,
+          5.82,
+          2.4,
+          2.46,
+          2.47,
+          2.55,
+          2.45,
+          2.45,
+          2.39,
+          2.34,
+          2.3,
+          2.46,
+          2.45,
+          2.29,
+          2.35,
+          2.39,
+          2.35,
+          2.31,
+          2.34,
+          2.36,
+          2.36,
+          2.33,
+          2.34,
+          2.34,
+          2.33,
+          2.35,
+          2.3,
+          2.26,
+          2.25,
+          2.26,
+          2.24,
+          2.26,
+          2.28,
+          2.28,
+          2.3,
+          2.29,
+          2.36,
+          2.43,
+          2.43,
+          2.43,
+          2.36,
+          2.42,
+          2.49,
+          2.53,
+          2.54,
+          2.5,
+          2.46,
+          2.48,
+          2.5,
+          2.44,
+          2.45,
+          2.47,
+          2.47,
+          2.46,
+          2.45,
+          5.13,
+          5.11,
+          5.15,
+          5.27,
+          5.32,
+          5.35,
+          5.45,
+          5.61,
+          6.06,
+          6.08,
+          6.15,
+          6.04,
+          6.12,
+          6.42,
+          6.32,
+          6.42,
+          6.27,
+          6.15,
+          6.2,
+          6.12,
+          6.14,
+          6.03,
+          6.22,
+          6.14,
+          6.15,
+          6.1,
+          6.06,
+          6.1,
+          6.08,
+          5.95,
+          6.29,
+          6.39,
+          6.55,
+          6.58,
+          6.88,
+          7.17,
+          7.36,
+          7.35,
+          7.59,
+          7.7,
+          7.8,
+          8.28,
+          8.12,
+          8.85,
+          9.6,
+          9.77,
+          9.35,
+          9.21,
+          9.3,
+          8.78,
+          8.94,
+          9.04,
+          4.23,
+          4.27,
+          4.2,
+          4.29,
+          4.28,
+          4.07,
+          4.17,
+          4.24,
+          3.73,
+          3.76,
+          3.87,
+          3.8,
+          3.79,
+          3.89,
+          3.81,
+          3.78,
+          3.98,
+          4,
+          3.85,
+          3.81,
+          3.92,
+          3.99,
+          3.98,
+          3.92,
+          3.81,
+          4.04,
+          3.84,
+          3.74,
+          3.78,
+          3.44,
+          3.42,
+          3.34,
+          3.24,
+          3.2,
+          3.31,
+          3.36,
+          3.41,
+          3.28,
+          3.26,
+          3.3,
+          3.16,
+          3.12,
+          3.12,
+          3.07,
+          3.06,
+          2.92,
+          3,
+          2.86,
+          3.06,
+          3.07,
+          3.18,
+          3.11,
+          5.9,
+          5.95,
+          6.04,
+          6.05,
+          6.34,
+          6.23,
+          6.39,
+          6.36,
+          6.74,
+          6.7,
+          6.69,
+          6.63,
+          6.92,
+          7.06,
+          7.03,
+          7.01,
+          6.91,
+          6.71,
+          6.67,
+          6.68,
+          6.67,
+          6.56,
+          6.66,
+          6.76,
+          6.96,
+          6.84,
+          7.02,
+          7.15,
+          7.11,
+          7.02,
+          7.54,
+          7.65,
+          7.72,
+          7.59,
+          7.4,
+          7.47,
+          7.47,
+          7.43,
+          7.35,
+          7.57,
+          7.26,
+          7.39,
+          7.21,
+          7.33,
+          7.85,
+          7.9,
+          7.8,
+          8.26,
+          7.63,
+          7.23,
+          6.83,
+          6.6,
+          4.35,
+          4.55,
+          4.61,
+          4.56,
+          4.53,
+          4.59,
+          4.36,
+          4.47,
+          4.49,
+          3.98,
+          4.04,
+          4.1,
+          4.11,
+          4.06,
+          4,
+          4.06,
+          3.99,
+          4.02,
+          4.1,
+          4.01,
+          3.93,
+          3.96,
+          3.97,
+          3.91,
+          3.95,
+          3.92
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "yearTicks": true,
+       "yearStep": 1,
+       "lines": [
+        {
+         "v": 3.5,
+         "text": "Our multiple: 3.5x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in; GAM"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "SOTP (target)",
+        "P/E",
+        "DCF",
+        "Street median target",
+        "Share price"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          111,
+          105,
+          197,
+          163,
+          134.93
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "SOTP (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "callout": "**What the cross-checks tell us.** P/E: own forward P/E on IOC's EPS basis since Apr-2021 has a median of only 4.3x (FY23, FY25, FY27 left out as troughs; the house function on Screener's EPS gives 4.4x), and OMC/refiner P/Es have re-rated (+15.9%) as their debt fell: 5x Sep-28E EPS gives ₹105, close to our target. The DCF (₹197) is well above the price: if IOC earned a 6% EBITDA margin on growing volumes for a decade, with capex held at 3.5% of revenue, it would be worth much more. The market has never priced IOC that way, because the state decides when that margin is earned. We treat the DCF as the upside if policy turns benign, not as fair value."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Views we did not put in the base (sensitivity rows only)",
+      "head": [
+       "View",
+       "What it changes",
+       "Value / share (₹)"
+      ],
+      "wide": [
+       0,
+       1
+      ],
+      "rows": [
+       [
+        "Sector move incl. HPCL",
+        "−9.1% → 4x",
+        "135"
+       ],
+       [
+        "Widened oil & gas set (+ Reliance, ONGC, Oil India, GAIL, Petronet)",
+        "−9.9% → 4x",
+        "135"
+       ],
+       [
+        "No sector move (bull multiple)",
+        "4x",
+        "135"
+       ],
+       [
+        "Trough year kept in the median",
+        "5.4x × 0.872 → 4.5x",
+        "160"
+       ],
+       [
+        "Listed stakes at full market value (ICICI Sec)",
+        "No 20% discount",
+        "115"
+       ],
+       [
+        "Street method on its own terms: gross multiple + stakes at market",
+        "5.2x gross is the market's own pricing; adding stakes on top double counts",
+        "not computed"
+       ],
+       [
+        "Street median target",
+        "₹163 = 4.6x Sep-28E core EBITDA on our other parts",
+        "163"
+       ]
+      ],
+      "source": "GAM Research. Per PLAYBOOK §7c, sub-sets, alternative windows and street views are shown, not used for the target."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} 4x; stakes at market."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Petroleum EBITDA ₹3,800 / 5,600 / 5,900 per tonne; EBITDA {{F.ebitda.0|num}} / {{F.ebitda.1|num}} / {{F.ebitda.2|num}} cr; 3.5x Sep-28E; stakes at market less 20%."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} 2.5x; stakes less 30%. Leverage magnifies: each ₹1,000 cr of EBITDA is ~₹2.5 a share."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of explicit free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Less: net debt (investments at book)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share",
+        "{{dcf.perShare|num}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rounded)**",
+         "**{{dcf.intrinsicTp|inr}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research. Discount rate = WACC 9.6% (beta set to 0.52 so the engine's rate equals our WACC; cost of equity 12.5%). Minorities not deducted in the DCF."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): cost of capital down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "WACC \\ g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Oil marketing, refining and wider oil & gas peers",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "vs 5-yr",
+       "EV/EBITDA (x)",
+       "vs 5-yr",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Indian Oil**",
+        "1,90,927",
+        "7,84,415",
+        "9.8%",
+        "5.7",
+        "−1.7%",
+        "4.3",
+        "−15.7%",
+        "21.5%"
+       ],
+       [
+        "BPCL",
+        "1,31,671",
+        "4,55,228",
+        "9.1%",
+        "8.5",
+        "+19.7%",
+        "5.2",
+        "−5.5%",
+        "28.5%"
+       ],
+       [
+        "HPCL (excluded)",
+        "74,481",
+        "4,41,771",
+        "6.9%",
+        "44.6",
+        "+792.0%",
+        "11.9",
+        "+108.8%",
+        "30.9%"
+       ],
+       [
+        "MRPL",
+        "29,740",
+        "88,667",
+        "7.1%",
+        "10.7",
+        "−7.0%",
+        "5.9",
+        "−18.1%",
+        "14.2%"
+       ],
+       [
+        "Chennai Petroleum",
+        "21,382",
+        "63,148",
+        "7.5%",
+        "5.1",
+        "+15.9%",
+        "3.4",
+        "−12.8%",
+        "32.1%"
+       ],
+       [
+        "Reliance (widened set)",
+        "16,06,656",
+        "10,55,780",
+        "17%",
+        "21.5",
+        "−15.4%",
+        "9.1",
+        "−24.8%",
+        "11%"
+       ],
+       [
+        "ONGC (widened set)",
+        "2,84,126",
+        "1,32,506",
+        "46.6%",
+        "6.8",
+        "−8.1%",
+        "3.4",
+        "−17.1%",
+        "10.2%"
+       ],
+       [
+        "Oil India (widened set)",
+        "72,961",
+        "33,081",
+        "31.6%",
+        "8.7",
+        "+6.1%",
+        "6.2",
+        "+6.9%",
+        "14%"
+       ],
+       [
+        "GAIL (widened set)",
+        "1,12,079",
+        "1,41,598",
+        "8.1%",
+        "11.4",
+        "−2.6%",
+        "7.5",
+        "−3.8%",
+        "8.7%"
+       ],
+       [
+        "Petronet LNG (widened set)",
+        "42,616",
+        "43,495",
+        "12.3%",
+        "10.1",
+        "−7.3%",
+        "5.4",
+        "−6.9%",
+        "18.6%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026; five-year medians from 30-Sep-2021. IOC's Screener market value uses 1,412 cr shares."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: India's best fuel franchise, priced about right for its earnings and too high for its risks; SELL",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** ~31% of India's refining, the largest pipeline network, 43,000+ fuel stations, ~₹90,000 cr of expansions about to start, stakes in ONGC, GAIL, Oil India and Petronet worth ₹34,005 cr, and a 51.5% state owner that decides retail prices. EPS of ₹10.3 / 19.9 / 22.2 in FY27-29E on our numbers."
+    },
+    {
+     "callout": "**What you are paying:** ₹134.9 is 6.8x FY28E EPS and 3.9x FY28E core EBITDA (after taking out all investments at book). That is about the stock's own history (4.2x median) and above it once the sector's discount to its averages is applied. Our 3.5x Sep-28E EBITDA (₹64,215 cr) gives {{dcf.tp|inr}} ({{dcf.upside|chg}}): SELL. The street is more generous (median ₹163) because it pays 4.5-5.5x EBITDA AND adds the investments at market."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Price below ~₹96 (BUY on our rule) or ~₹116 for HOLD",
+        "Medium",
+        "The stock would have to fall ~14% for HOLD"
+       ],
+       [
+        "Retail prices move back to market (daily pricing) with crude",
+        "Low-Medium",
+        "Price changes after Q2; SAED and export duty reviews"
+       ],
+       [
+        "Full compensation of the ₹29,730 cr negative LPG buffer",
+        "Medium",
+        "Each ₹10,000 cr is ~₹5 a share after tax"
+       ],
+       [
+        "Expansions ramp faster than 60/80/100% and lift GRM",
+        "Medium",
+        "Throughput vs 77 / 85 / 90 MMT guidance; distillate yield"
+       ],
+       [
+        "Independent directors appointed; audit committee restored",
+        "Medium",
+        "Board notices"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Crude stays above US$90 with retail prices frozen (elections, inflation)",
+        "Medium",
+        "Each ₹500/t of petroleum EBITDA ≈ ₹4,947 cr (₹12.6 a share at 3.5x)"
+       ],
+       [
+        "LPG under-recoveries not compensated, or compensated late",
+        "Medium",
+        "Cash and debt; FY23 precedent"
+       ],
+       [
+        "Windfall/export duties on refining margins kept or raised",
+        "High",
+        "Caps the refining upside (US$36 → 15.6 GRM in Q1)"
+       ],
+       [
+        "Petchem capex (~₹1 lakh cr) earns 2-3% margins as in FY23-25",
+        "Medium",
+        "Low returns on a fifth of capital employed"
+       ],
+       [
+        "Working capital and debt spike with crude (+₹31,000 cr in Q1FY27)",
+        "High in a crisis",
+        "Interest cost; leverage magnifies equity value swings"
+       ],
+       [
+        "ONGC and other stakes fall in value",
+        "Medium",
+        "Each 10% on the listed stakes ≈ ₹2.0 a share"
+       ],
+       [
+        "Government offer for sale (above 51%) or policy-driven capex",
+        "Low-Medium",
+        "Supply overhang; lower returns"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: SELL, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would move to HOLD if the price fell below ~₹116**, and to BUY below ~₹96, on today's numbers.",
+      "**This is a multiple and policy call, not an earnings call.** Our FY28E EBITDA (₹61,406 cr) is in line with the street's. Each 0.5x on the EV/EBITDA multiple is ~₹23 a share; the bull multiple (4x, no sector move) with stakes at market gives {{scen.bull.tp|inr}}.",
+      "**What would change our mind:** evidence that marketing margins are being protected in this cycle (a price path that follows crude, compensation paid on time), or a material fall in the price."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Share of India's refining",
+        "v": "~31%",
+        "d": "80.75 → ~98 MMTPA by FY28"
+       },
+       {
+        "k": "Petroleum EBITDA per tonne",
+        "v": "₹3,800-8,600",
+        "d": "trough vs good years, FY22-26"
+       },
+       {
+        "k": "Q1FY27 profit to owners",
+        "v": "−₹1,631 cr",
+        "d": "after a ~₹15,000 cr inventory gain"
+       },
+       {
+        "k": "Price ÷ FY28E core EBITDA",
+        "v": "3.9x",
+        "d": "own forward median 4.2x"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY19–FY29E (consolidated; profit and EPS to owners)",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue (net of excise)",
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 40
+        }
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 250
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. JV share; Screener adds exceptional items)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (owners)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 40
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹, 1,377 cr shares)",
+        "fmt": "n1"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations"
+       },
+       {
+        "key": "capex",
+        "name": "Capex (incl. CWIP)"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 20
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. JV share)"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (owners)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "OMC",
+        "Oil marketing company: here the three state-owned fuel retailers IOC, BPCL and HPCL."
+       ],
+       [
+        "GRM",
+        "Gross refining margin: value of products made less the cost of crude, in US$ per barrel."
+       ],
+       [
+        "Marketing margin (GMM)",
+        "Retail price less the refinery-gate price, taxes and dealer commission, in ₹ per litre."
+       ],
+       [
+        "Under-recovery",
+        "The loss on selling a product (mainly household LPG) below cost at the Government's request."
+       ],
+       [
+        "LPG buffer",
+        "The running total of LPG under-recoveries not yet compensated (₹29,730 cr negative at Jun-2026)."
+       ],
+       [
+        "SAED",
+        "Special additional excise duty: on petrol and diesel sold in India (cut ₹10/litre on 27-Mar-2026) and, re-imposed in 2026, on exports of diesel and jet fuel."
+       ],
+       [
+        "MMT / MMTPA",
+        "Million metric tonnes / million metric tonnes per year (capacity)."
+       ],
+       [
+        "Throughput",
+        "Crude processed by the refineries."
+       ],
+       [
+        "Inventory gain/loss",
+        "Profit or loss from holding crude and products while prices move."
+       ],
+       [
+        "Core EV/EBITDA",
+        "Market value plus debt, less cash and all investments, divided by EBITDA before other income."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "Sector move",
+        "How far comparable stocks trade above or below their own five-year median multiple on the valuation date."
+       ],
+       [
+        "SOTP",
+        "Sum of the parts: each business and stake valued separately, less net debt and minorities."
+       ],
+       [
+        "Minorities",
+        "The share of a subsidiary owned by others (48.11% of Chennai Petroleum)."
+       ],
+       [
+        "Treasury shares",
+        "IOC's own 34.97 cr shares held by the IOC Shares Trust; excluded from EPS and from our share count."
+       ],
+       [
+        "DCF / WACC",
+        "Discounted cash flow valuation; WACC is the blended cost of debt and equity (9.6% here)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "pat@FY20": "Loss to owners after a ₹11,305 cr exceptional charge (Screener).",
+  "ebitda@FY21": "Covid year: revenue −25%, EBITDA margin 11%.",
+  "sales@FY22": "+62%: crude price recovery.",
+  "ebitda@FY23": "Retail prices held while crude spiked after the Ukraine war.",
+  "pat@FY23": "₹9,792 cr: marketing losses.",
+  "ebitda@FY24": "Record: crude fell, retail prices did not.",
+  "pat@FY24": "₹41,730 cr; GRM US$12.05/bbl.",
+  "ebitda@FY25": "GRM fell to US$4.80/bbl; LPG losses.",
+  "pat@FY25": "₹13,598 cr incl. ₹1,945 cr of exceptional items (Screener adds them to other income).",
+  "ebitda@FY26": "₹77,108 cr after ~₹8,300 cr of FX losses; ₹6,036 cr LPG compensation booked.",
+  "pat@FY26": "₹42,096 cr to owners (₹43,677 cr before minorities).",
+  "pat@Q2FY25": "Loss: weak refining margins (GRM ~US$1.6/bbl per PL).",
+  "pat@Q4FY26": "₹14,458 cr: inventory bought before the war.",
+  "pat@Q1FY27": "Loss of ₹1,631 cr at US$100 crude, after a ~₹15,000 cr finished-goods inventory gain.",
+  "ebitda@FY27E": "GAM: ₹3,800/t petroleum EBITDA (Q1 near zero).",
+  "ebitda@FY28E": "GAM: expansions add volume; ₹5,600/t.",
+  "capex@FY27E": "GAM: guidance ₹32,700 cr standalone."
+ }
+}

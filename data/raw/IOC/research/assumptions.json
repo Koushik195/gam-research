@@ -1,0 +1,369 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Indian Oil Corporation (consolidated, Rs crore). Three segments, as reported (gas and 'other business' combined for a consistent history): petroleum products (refining + marketing + pipelines, incl. 51.89%-owned Chennai Petroleum), petrochemicals, gas & other. Segment EBITDA = segment result before FX + segment D&A; 'unallocated' = exchange and derivative losses. Petroleum products revenue = sales volume x realisation per tonne and EBITDA = volume x EBITDA per tonne (the build in `petBuild`, checked against the model in IOC.ctx.js). Net Profit and EPS are attributable to owners on 1,377.16 cr shares (IOC.patch.js); the tax line also carries minorities (CPCL 48.11%), as in UPL/TIINDIA. Investments (Rs73,298 cr at Mar-26 book: listed stakes in ONGC, GAIL, Oil India at fair value; Petronet and ~30 JVs at equity value; Rs6,783 cr of government securities) stay inside treasury (net debt); the SOTP marks the listed stakes to the 30-Sep-2026 close less 20% in a separate line. Valued on a sum of the parts: EV/EBITDA on Sep-28E EBITDA.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "pet",
+   "name": "Petroleum products",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 706869,
+   "growth": [
+    24.439,
+    -4.78,
+    4.03
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    4.1296,
+    6.615,
+    6.9004
+   ],
+   "hist": {
+    "driver": "petRev",
+    "revenue": "petRev",
+    "adjEbitda": "petEbitda"
+   },
+   "_why": "Revenue net of excise = petroleum sales volume x realisation (see petBuild). Volume +1.5% in FY27E (Q1 petroleum sales 23.48 MMT vs 23.3 a year earlier; LPG demand down ~20% QoQ on supply curbs, ATF down on airspace closures), +3.5% FY28E and +3% FY29E as Panipat, Gujarat and Barauni add ~17 MMTPA of refining (throughput guided 77 / 85 / 90 MMT) and surplus product is exported. Realisation +22.6% in FY27E: the Indian crude basket averaged $100.7/bbl in Q1FY27 vs $83 in Q4FY26 and ~$64 in Q3FY26 (Q1 realisation ~Rs1.02 lakh/t); we assume prices ease through the year. -8% in FY28E as crude normalises, +1% FY29E.",
+   "_marginWhy": "EBITDA per tonne of petroleum product sold (consolidated segment EBITDA / standalone petroleum sales incl. exports): Rs5,128 (FY22), 3,849 (FY23), 8,320 (FY24), 3,816 (FY25), 8,634 (FY26); average FY22-26 Rs5,950. FY27E Rs3,800: Q1FY27 segment EBITDA only ~Rs2,000 cr (segment loss Rs1,705 cr after ~Rs3,800 cr of D&A) despite a ~Rs15,000 cr finished-goods inventory gain, because retail prices were held while crude averaged $100; Q2-Q4 need ~Rs4,800/t as LPG under-recovery falls (Rs665/cyl in June, Rs475 in July, ~Rs250 expected for Q2) and the Rs14,486 cr LPG compensation keeps accruing at ~Rs1,207 cr a month to Oct-2026. FY28E Rs5,600 and FY29E Rs5,900: below the FY22-26 average because marketing margins stay political; refining helped by the new capacity (60% / 80% / 100% ramp-up)."
+  },
+  {
+   "key": "pc",
+   "name": "Petrochemicals",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 28050.17,
+   "growth": [
+    17.646,
+    21.212,
+    7.5
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    8.485,
+    11.25,
+    12.093
+   ],
+   "hist": {
+    "driver": "pcRev",
+    "revenue": "pcRev",
+    "adjEbitda": "pcEbitda"
+   },
+   "_why": "Q1FY27 segment revenue Rs9,517 cr (+41% YoY on prices); sales 0.768 MMT vs 0.901 in Q4FY26. The Rs13,805 cr PX-PTA complex at Paradip (94.6% complete at Jun-26, commissioning Aug-26 guided) and the Rs2,949 cr polybutadiene rubber plant at Panipat (Dec-26) add volume from H2FY27. Revenue Rs33,000 / 40,000 / 43,000 cr.",
+   "_marginWhy": "EBITDA margin 2.0-3.4% in FY23-FY25 (cyclical trough, Chinese capacity), 8.9% in FY26 (Q4 EBIT Rs1,209 cr, the best ever). Q1FY27 EBIT Rs217 cr (~6% EBITDA margin). We assume 8.5% / 11.25% / 12.1% (EBITDA Rs2,800 / 4,500 / 5,200 cr): PTA is a low-margin commodity, so we stay below FY21-FY22 peaks (32% / 20%)."
+  },
+  {
+   "key": "go",
+   "name": "Gas & other businesses",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 49495.49,
+   "growth": [
+    13.142,
+    -1.786,
+    4.545
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    6.429,
+    5.455,
+    5.565
+   ],
+   "hist": {
+    "driver": "goRev",
+    "revenue": "goRev",
+    "adjEbitda": "goEbitda"
+   },
+   "_why": "Natural gas trading and city gas (gas sales 7.28 MMT in FY26; 1.87 MMT in Q1FY27) plus E&P, explosives, cryogenics and wind/solar. Q1FY27 revenue Rs16,529 cr (gas Rs14,481 cr, other Rs2,048 cr) on LNG prices lifted by Qatar's force majeure. Revenue Rs56,000 / 55,000 / 57,500 cr.",
+   "_marginWhy": "EBITDA Rs3,233 cr in FY25 and Rs1,630 cr in FY26 (gas EBITDA only Rs130 cr, a loss before D&A in some quarters); Q1FY27 EBIT Rs1,151 cr (gas Rs526 cr, other Rs625 cr), unusually high. We assume EBITDA Rs3,600 cr in FY27E, then Rs3,000 / 3,200 cr as LNG prices normalise."
+  }
+ ],
+ "petBuild": {
+  "_note": "Petroleum products build: volume = standalone petroleum sales incl. exports (MMT); realisation = segment revenue net of excise per tonne; EBITDA per tonne = consolidated segment EBITDA / that volume. Checked against the segment growth and margin above in IOC.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "vol": 94.18,
+   "rev": 706869,
+   "ebitda": 81314.43
+  },
+  "volGrowth": [
+   1.5,
+   3.5,
+   3
+  ],
+  "realGrowth": [
+   22.6,
+   -8,
+   1
+  ],
+  "ebitdaPerTonne": [
+   3800,
+   5600,
+   5900
+  ],
+  "throughput": [
+   77,
+   85,
+   90
+  ],
+  "_throughputWhy": "Standalone refinery throughput guided on the Q1FY27 call (1-Aug-2026): ~77 MMT FY27, ~85 MMT FY28, ~90 MMT FY29 (FY26 75.5 MMT). CPCL adds ~10 MMT."
+ },
+ "unallocated": [
+  1500,
+  1500,
+  1500
+ ],
+ "_unallocLabel": "Unallocated (exchange and derivative losses)",
+ "_unallocWhy": "Exchange and derivative losses not in segment EBITDA: Rs8,331 cr in FY26 (rupee fell 11% to 94.84/$), Rs2,439 cr FY25, Rs1,539 cr FY24, Rs7,717 cr FY23. Q1FY27 standalone FX loss only ~Rs100 cr (rupee 94.8 -> ~95.5). We assume Rs1,500 cr a year (~1.5% annual depreciation on ~$12bn of foreign-currency liabilities).",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  34000,
+  32000,
+  32000
+ ],
+ "_capexWhy": "Standalone capex budget FY27 Rs32,700 cr (Q1 Rs6,461 cr); management expects Rs30,000-40,000 cr a year for the next 2-3 years (petchem programme ~Rs1 lakh cr over 5-6 years, renewables via Terra Clean, pipelines, CBG, SAF, ships). Consolidated capex was Rs33,157 cr in FY26 (standalone Rs32,405 cr incl. Rs663 cr of equity in JVs). We model Rs34,000 / 32,000 / 32,000 cr.",
+ "depRateOnGrossBlock": 5.7,
+ "_depWhy": "D&A Rs18,420 cr in FY26 (6.0% of average gross block of Rs3,05,800 cr; Rs16,777 cr FY25); Q1FY27 Rs4,408 cr. The engine depreciates capex at once and holds CWIP (Rs86,049 cr at Mar-26, mostly the three refinery expansions) flat, which roughly stands in for the ~Rs90,000 cr of projects being capitalised in H2FY27. 5.7% of average gross block gives ~Rs19,000 / 20,900 / 22,700 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "IOC is a net borrower (borrowings incl. leases Rs1,31,822 cr at Mar-26, Rs1,41,453 cr standalone at Jun-26), so interest income is in the other-income line below, not a yield on net cash.",
+ "otherIncome": [
+  6000,
+  6300,
+  6600
+ ],
+ "_otherIncomeWhy": "Screener other income before exceptional items: Rs5,015 cr FY24, Rs5,167 cr FY25, Rs6,695 cr FY26, TTM Jun-26 Rs6,516 cr (Q1FY27 Rs1,143 cr = Rs446 cr other income + Rs697 cr share of JV/associate profit). FY26 build (AR note 39): interest and dividend income Rs3,513 cr (dividends from ONGC, GAIL, Oil India; interest on government securities, loans), share of JV and associate profit Rs2,976 cr (Petronet, Hindustan Urvarak, IndianOil Adani Gas, IOT, others), other Rs640 cr. FY27E Rs6,000 cr (JV share ~Rs2,600 cr, dividends and interest ~Rs3,100 cr after redemption of the oil bonds, other ~Rs300 cr), rising ~5% a year.",
+ "interest": [
+  8300,
+  9000,
+  8800
+ ],
+ "_interestLabel": "Finance cost",
+ "_interestWhy": "Finance cost Rs8,354 cr FY26 (Rs9,311 cr FY25); Q1FY27 Rs1,730 cr. Borrowings rose by ~Rs31,000 cr in Q1FY27 on working capital at higher rates; FY28E rises as interest on the ~Rs90,000 cr of completed projects stops being capitalised.",
+ "taxRate": [
+  29,
+  27.5,
+  27.5
+ ],
+ "_taxWhy": "Tax line includes minorities (engine workaround). FY26: tax Rs13,795 cr + minorities Rs1,581 cr = 26.8% of PBT (Rs57,472 cr); FY24 27.2%. Statutory rate 25.17%; minorities are 48.11% of CPCL's profit (and 25% of Lanka IOC). FY27E 29% because CPCL (a pure refiner) earns a larger share of a smaller group profit (Q1FY27: minorities Rs490 cr against a group loss).",
+ "payout": [
+  30,
+  30,
+  30
+ ],
+ "_payoutWhy": "Dividend payout 31-50% of standalone PAT in FY22-FY26 (31% FY26, 32% FY25); DIPAM's CPSE guideline asks for 30% of PAT or 4% of net worth, whichever is higher. We assume 30% of group PAT.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.52,
+  "terminalGrowth": 4,
+  "years": 10,
+  "fadeGrowthTo": 5,
+  "fadeMarginTo": 6,
+  "fadeCapexPctTo": 3.5,
+  "depPctOfSales": 2.3,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at rf + beta x ERP; IOC carries ~Rs1.3 lakh cr of debt, so we set beta so that the rate equals our WACC: cost of equity 12.5% (beta 1.0), post-tax cost of debt ~5.5% (7.3% x (1-25.2%)), debt 41% of capital at the 30-Sep-2026 market value -> WACC ~9.6%; beta 0.52 gives 9.62%.",
+  "_tgWhy": "4%, below the house 5-6% range: Indian fuel demand grows ~3-4% a year now, but EVs, CNG/LNG trucks and ethanol cap petrol and diesel growth over the long run, and IOC's prices are partly set by the government.",
+  "_fadeGrowthWhy": "Revenue growth fades to 5% (nominal, with volume ~2-3% and price ~2%).",
+  "_fadeMarginWhy": "EBITDA margin fades to 6.0%: Screener-basis margins were 11.0%, 7.9%, 3.6%, 9.7%, 4.8%, 9.8% in FY21-FY26 (average 7.8%); we use a lower mid-cycle because marketing margins are capped by policy in high-crude years and new capacity adds lower-margin petrochemicals.",
+  "_fadeCapexWhy": "Capex ~3.5% of revenue now and management expects Rs30,000-40,000 cr a year for 2-3 more years (petchem Rs1 lakh cr over 5-6 years, renewables): we hold 3.5% of revenue, above depreciation (2.3%), for the whole period."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The Gulf disruption keeps refining margins high while crude settles near $75: GRMs stay well above pre-war levels, the three expansions ramp on time, the government compensates more of the LPG buffer (Rs29,730 cr negative at Jun-26) and marketing margins recover to the FY24/FY26 level; the market pays its own median multiple again.",
+   "fadeMarginTo": 7,
+   "segments": {
+    "pet": {
+     "marginDelta": 1.2
+    },
+    "pc": {
+     "marginDelta": 2
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Crude stays above $90 with retail prices frozen into state elections, LPG losses are only partly compensated, the expansions slip and stabilise slowly, petchem margins stay weak; earnings stay near trough levels (FY23/FY25) and the stock trades at its lower-quartile multiple.",
+   "fadeMarginTo": 5,
+   "segments": {
+    "pet": {
+     "marginDelta": -1
+    },
+    "pc": {
+     "marginDelta": -2
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "Petroleum products (refining, marketing, pipelines)",
+    "seg": "pet",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 3.5,
+     "bull": 4,
+     "bear": 2.5
+    },
+    "note": "Own one-year-forward core EV/EBITDA since Apr-2021 (EV less all investments at book; forward consolidated EBITDA; FY25 left out as a trough): median 4.2x, × the OMC/refiner move vs five-year medians (BPCL −5.5%, MRPL −18.1%, Chennai Petroleum −12.8%; median −12.8%; HPCL excluded as distorted) = 3.7x → 3.5x (bull 4x = no move; bear 2.5x = 25th percentile 3.1x × move)."
+   },
+   {
+    "name": "Petrochemicals",
+    "seg": "pc",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA × EV/EBITDA",
+    "multiple": {
+     "base": 3.5,
+     "bull": 4,
+     "bear": 2.5
+    },
+    "note": "Own one-year-forward core EV/EBITDA since Apr-2021 (EV less all investments at book; forward consolidated EBITDA; FY25 left out as a trough): median 4.2x, × the OMC/refiner move vs five-year medians (BPCL −5.5%, MRPL −18.1%, Chennai Petroleum −12.8%; median −12.8%; HPCL excluded as distorted) = 3.7x → 3.5x (bull 4x = no move; bear 2.5x = 25th percentile 3.1x × move)."
+   },
+   {
+    "name": "Gas & other businesses",
+    "seg": "go",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA × EV/EBITDA",
+    "multiple": {
+     "base": 3.5,
+     "bull": 4,
+     "bear": 2.5
+    },
+    "note": "Own one-year-forward core EV/EBITDA since Apr-2021 (EV less all investments at book; forward consolidated EBITDA; FY25 left out as a trough): median 4.2x, × the OMC/refiner move vs five-year medians (BPCL −5.5%, MRPL −18.1%, Chennai Petroleum −12.8%; median −12.8%; HPCL excluded as distorted) = 3.7x → 3.5x (bull 4x = no move; bear 2.5x = 25th percentile 3.1x × move)."
+   },
+   {
+    "name": "Less: unallocated costs (FX losses)",
+    "unalloc": true,
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E unallocated costs × the same multiple",
+    "multiple": {
+     "base": 3.5,
+     "bull": 4,
+     "bear": 2.5
+    },
+    "note": "Own one-year-forward core EV/EBITDA since Apr-2021 (EV less all investments at book; forward consolidated EBITDA; FY25 left out as a trough): median 4.2x, × the OMC/refiner move vs five-year medians (BPCL −5.5%, MRPL −18.1%, Chennai Petroleum −12.8%; median −12.8%; HPCL excluded as distorted) = 3.7x → 3.5x (bull 4x = no move; bear 2.5x = 25th percentile 3.1x × move)."
+   },
+   {
+    "name": "Less: net debt at Sep-27E (investments at book inside)",
+    "netCash": true,
+    "roll": [
+     "FY27E",
+     "FY28E",
+     0.5
+    ],
+    "metricLabel": "½ Mar-27E + ½ Mar-28E: borrowings and leases less cash and all investments at Mar-26 book",
+    "note": "Model forecast"
+   },
+   {
+    "name": "Listed stakes: 30-Sep-2026 market value less 20%, minus book",
+    "adj": {
+     "base": -9739,
+     "bull": -2938,
+     "bear": -13139
+    },
+    "metricLabel": "ONGC 98.7 cr × ₹225.80; GAIL 16.3 cr × ₹170.55; Oil India 8.0 cr × ₹448.65; Petronet LNG 18.8 cr × ₹284.50 = ₹34,005 cr at market; less 20% (bull 0%, bear 30%), minus Mar-26 book ₹36,942 cr already inside net debt",
+    "note": "PLAYBOOK §7c: listed stakes in an operating company at the 30-Sep-2026 market value less 20% (BAJAJ-AUTO / M&M precedent). ICICI Securities adds them at market (our bull case)."
+   },
+   {
+    "name": "Less: minorities (48.11% of CPCL at market; others at book)",
+    "adj": {
+     "base": -10972,
+     "bull": -10972,
+     "bear": -10972
+    },
+    "metricLabel": "48.11% × CPCL market value ₹21,382 cr (30-Sep-2026 close) = ₹10,287 cr; other minorities (mainly 25% of Lanka IOC) at Mar-26 book ₹685 cr",
+    "note": "Consolidated EBITDA includes 100% of CPCL, so the outside shareholders' 48.11% is deducted (PLAYBOOK §7c: deduct minorities only in parts valued at 100%)."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts (EV/EBITDA)",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values IOC (Motilal Oswal 4.5x Dec-27E, BOB Capital 5.5x Jun-28E, ICICI Securities 5.5x FY28E EV/EBITDA, each plus investments). Segment EBITDA on Sep-28E × 3.5x, less net debt at Sep-27E, plus listed stakes at market less 20%, less minorities. Own one-year-forward core EV/EBITDA since Apr-2021 (EV less all investments at book; forward consolidated EBITDA; FY25 left out as a trough): median 4.2x, × the OMC/refiner move vs five-year medians (BPCL −5.5%, MRPL −18.1%, Chennai Petroleum −12.8%; median −12.8%; HPCL excluded as distorted) = 3.7x → 3.5x (bull 4x = no move; bear 2.5x = 25th percentile 3.1x × move)."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 5,
+      "bull": 5,
+      "bear": 3
+     },
+     "why": "Own one-year-forward P/E since Apr-2021 on IOC's EPS basis (FY23, FY25, FY27 left out as trough years): median 4.3x, × the OMC/refiner P/E move vs five-year medians (+15.9%): 5x Sep-28E EPS. Bear = 25th percentile × move."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 10-year FCFF at a 9.6% WACC, terminal growth 4%, less net debt (investments at book)."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,520 @@
+{
+ "asOf": "2026-09-30",
+ "units": "Rs crore unless stated",
+ "industry": {
+  "crude": "Brent averaged US$70.45/bbl in FY26 (US$78.91 in FY25) and traded US$60-70 for most of the year; the West Asia (Strait of Hormuz) crisis from March 2026 sent it to ~US$97-98 in Q1FY27 (ONGC call) and ~US$96 in Jul-Sep 2026. EIA (9-Sep-2026) expects ~US$90 in 2H2026, US$77 in Q2-2027 and ~US$67 in 2H2027 as shut-in output returns (2027 average US$74).",
+  "india": "India produced 27.95 MMT of crude (-2.6%) and 34.78 BCM of gas (-3.7%) in FY26; import dependence 88.7% (Mar-2026). ONGC: 73% of crude, 57% of gas (AR FY26).",
+  "policy": "Gas from old (nomination) fields is priced by formula with a cap (US$7.00/mmBtu in FY27 vs a US$9.00 formula price in Sep-2026), so ONGC does not keep the upside on ~76% of its gas; new-well gas (24% of Q1FY27 sales) gets 1.2x the formula price uncapped. Crude is sold at Brent-linked prices. Windfall tax (SAED) Jul-2022 to Dec-2024 took ₹23,800 cr from ONGC; not re-imposed by 30-Sep-2026. Royalty cut 8-May-2026 (offshore crude 9.09%->8%, gas 10%->8%). Samudra Manthan: ₹84,084 cr government deepwater exploration scheme.",
+  "src": [
+   "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a521f688-6bf3-465c-8f05-b20ed08b2f32.pdf",
+   "https://www.eia.gov/outlooks/steo/archives/sep26.pdf",
+   "https://ongcindia.com/documents/77751/2660534/Transcription-Q1-FY2627.pdf"
+  ]
+ },
+ "peers": {
+  "set": [
+   "OIL",
+   "COALINDIA",
+   "IOC",
+   "BPCL",
+   "HINDPETRO",
+   "GAIL",
+   "PETRONET"
+  ],
+  "excluded": {
+   "ONGC": "Self.",
+   "HINDPETRO": "Distorted: HPCL lost ₹12,265 cr in Q1FY27 (marketing under-recoveries after the Hormuz crisis), so its trailing P/E on 30-Sep-2026 (~45x) is ~9x its five-year median; it also had loss quarters inside the window. It is also ONGC's 54.9% subsidiary."
+  },
+  "subsets": {
+   "upstream": [
+    "OIL",
+    "COALINDIA"
+   ],
+   "omc": [
+    "IOC",
+    "BPCL"
+   ],
+   "gas": [
+    "GAIL",
+    "PETRONET"
+   ]
+  },
+  "note": "Brief's oil-and-gas set (upstream + OMC + gas). P/E at the 30-Sep-2026 close vs each name's five-year median (Screener weekly P/E from 30-Sep-2021). BPCL had loss weeks in FY23 (negative P/E points dropped from its median); its current earnings are not distorted, so it stays in."
+ },
+ "street": {
+  "coverage": "Wide: S&P Global counted 31 analysts in Sep-2026 (18 strong buy, 5 buy, 4 hold, 3 sell, 1 strong sell). Notes we read or saw summarised from the Q1FY27 results cycle (4-31 Aug 2026): JM Financial, BOB Caps, Motilal Oswal, PL, ICICI Securities, Kotak, Geojit; target-only rows for Jefferies, JP Morgan, Nomura, Goldman Sachs and Morgan Stanley (24-Sep).",
+  "method": "Mostly a sum of the parts: standalone earnings on a P/E of 6.3-8x (FY28E, Dec-27E or Jun-28E), plus the listed stakes at market less a 20-25% holding discount (Geojit 50%), and ONGC Videsh valued separately (JM 7x FY28E EPS = ₹7/share; MOSL 0.5x FY25 book = ₹23/share). BOB Caps applies 6.5x to consolidated EPS and adds only IOC, GAIL and Petronet. JM uses FY28E standalone EPS before dividend income ('core', ₹29.2).",
+  "assumptions": "Crude: JM US$80 FY27E then US$70; MOSL US$80 rest of FY27 then US$75; BOB US$80; APM gas US$6.9-7.2. JM: the share price discounts ~US$60/bbl net because of windfall-tax fears; JM and CLSA see no windfall-tax risk.",
+  "brokers": [
+   {
+    "broker": "JM Financial",
+    "short": "JM",
+    "rating": "BUY",
+    "tp": 300,
+    "prevTp": 300,
+    "date": "2026-08-04",
+    "method": "SOTP: standalone 7.0x FY28E core EPS (₹29.2) = ₹205; OVL 7.0x FY28E EPS (₹1.0) = ₹7; listed stakes ₹69 (IOC 18, PLNG 3, GAIL 4, HPCL 29, MRPL 14); other unlisted ₹20 (OPaL 5.5x FY27 EBITDA + New Energy); total investments ₹89",
+    "multiple": "Holdco discount: 20% to CMP on IOC, PLNG, GAIL, HPCL, MRPL",
+    "ovl": "7.0x FY28E EPS = ₹7/sh",
+    "earningsYear": "FY28E",
+    "eps": "FY27E 38.6 / FY28E 39.2 (consolidated diluted (FY29E 40.1))",
+    "crude": "Brent $80 FY27E, $70 FY28E onward",
+    "thesis": "Strong Q1 beat on realisation/lower DW write-off; output growth from Western Offshore, KG-98/2, Mumbai High",
+    "standing": "Current",
+    "src": "https://jmflresearch.com/Download?DownloadType=show&ReportId=22211"
+   },
+   {
+    "broker": "BOB Capital Markets",
+    "short": "BOB Caps",
+    "rating": "BUY (upgraded from HOLD)",
+    "tp": 295,
+    "prevTp": 286,
+    "date": "2026-08-05",
+    "method": "6.5x Jun-28E EPS (₹41.4) = ₹269 (10Y avg P/E) + listed investments ₹25 (IOC 18, PLNG 3, GAIL 4)",
+    "multiple": "Holdco discount: 20% to CMP (IOC, PLNG, GAIL only)",
+    "ovl": "not separately valued",
+    "earningsYear": "Jun-28E",
+    "eps": "FY27E 40.3 / FY28E 40.5 (adj consolidated (FY29E 44.1))",
+    "crude": "Brent $80 FY27E-FY29E (from $75); INR 97/USD; APM gas $6.9/7.2/7.2 per mmBtu FY27E/28E/29E",
+    "thesis": "Higher realisations; BP tie-up for Mumbai High; Daman/DSF-II gas adds",
+    "standing": "Current",
+    "src": "https://www.barodaetrade.com/Reports/ONGC-Q1FY27ResultReview5Aug26-Research.pdf"
+   },
+   {
+    "broker": "Motilal Oswal",
+    "short": "MOSL",
+    "rating": "BUY",
+    "tp": 290,
+    "prevTp": 288,
+    "date": "2026-08-05",
+    "method": "SOTP: standalone 6.5x Dec-27E EPS + listed investments ₹64/sh + OVL ₹23/sh",
+    "multiple": "Holdco discount: 25% to CMP on listed investments",
+    "ovl": "0.5x FY25 BVPS = ₹23/sh (upside case 8x FY27E P/E = ₹38)",
+    "earningsYear": "Dec-27E",
+    "eps": "FY27E n.d. / FY28E n.d. (adj PAT ₹523bn FY27E / ₹530bn FY28E; 5.7x FY28E consol P/E)",
+    "crude": "$80 rest of FY27E, $75 FY28E; market implies ~$65",
+    "thesis": "Value play with growth optionality",
+    "standing": "Current",
+    "src": "https://insights.dsij.in/markets/reports/report-details/oil-natural-gas-corporation-ltd/45020"
+   },
+   {
+    "broker": "Prabhudas Lilladher (PL Capital)",
+    "short": "PL",
+    "rating": "ACCUMULATE",
+    "tp": 273,
+    "prevTp": 266,
+    "date": "2026-08-06",
+    "method": "8x FY28E standalone adj EPS (₹26.2) = ₹210 + listed investments ₹63",
+    "multiple": "Holdco discount: 25% on IOC, PLNG, GAIL, MRPL, HPCL",
+    "ovl": "not separately valued",
+    "earningsYear": "FY28E",
+    "eps": "FY27E 38.2 / FY28E 41.5 (consolidated)",
+    "crude": "n.d. (Q1 realisation $99.5)",
+    "thesis": "Volume outlook trimmed amid muted Q1 production",
+    "standing": "Current",
+    "src": "https://plindia.com/ResReport/ONGC-6-8-26-PL.pdf"
+   },
+   {
+    "broker": "ICICI Securities",
+    "short": "ICICI Sec",
+    "rating": "BUY",
+    "tp": 365,
+    "prevTp": 360,
+    "date": "2026-08-06",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "n.d.",
+    "thesis": "Strong standalone beat",
+    "standing": "Current",
+    "src": "https://trendlyne.com/posts/5771128/"
+   },
+   {
+    "broker": "Kotak Institutional Equities",
+    "short": "Kotak",
+    "rating": "BUY",
+    "tp": 360,
+    "prevTp": null,
+    "date": "2026-08-06",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "implied pre-Oct deck $85 FY27 / $75 FY28 (from Oct report saying FY27 raised to $90 from $85, FY28 unchanged $75)",
+    "thesis": "Strong quarter, weak volumes",
+    "standing": "Current",
+    "src": "https://www.kotakneo.com/uploads/ONGC_One_Pager_Q1_FY_27_Update_985b0b043a.pdf"
+   },
+   {
+    "broker": "Geojit BNP Paribas",
+    "short": "Geojit",
+    "rating": "BUY",
+    "tp": 297,
+    "prevTp": null,
+    "date": "2026-08-31",
+    "method": "SOTP: standalone 6.3x FY28E P/E = ₹209; investments gross ₹125/sh (HPCL, OVL, IOC, GAIL, OPaL, MRPL, PLNG) less holding discount ₹38",
+    "multiple": "Holdco discount: 50% holding discount (line-level split garbled in PDF)",
+    "ovl": "included in investments; exact basis unclear",
+    "earningsYear": "FY28E",
+    "eps": "FY27E 40.2 / FY28E 33.1 (standalone; raised 34.8%/6.2% on higher post-Hormuz crude)",
+    "crude": "n.d. (raised)",
+    "thesis": "Firm realisations, richer gas mix, BP-led Western Offshore, OVL Sakhalin revival, Samudra Manthan",
+    "standing": "Current",
+    "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/34144038_Oil%20&%20Natural%20Gas%20Corporation%20Ltd.pdf"
+   },
+   {
+    "broker": "Jefferies",
+    "short": "Jefferies",
+    "rating": "Buy",
+    "tp": 310,
+    "prevTp": 320,
+    "date": "2026-08-06",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "n.d.",
+    "thesis": "n.d.",
+    "standing": "Current (aggregator row; note not seen)",
+    "src": "https://stockanalysis.com/quote/nse/ONGC/forecast/"
+   },
+   {
+    "broker": "JPMorgan",
+    "short": "JPMorgan",
+    "rating": "Hold/Neutral",
+    "tp": 230,
+    "prevTp": 300,
+    "date": "2026-08-06",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "n.d.",
+    "thesis": "n.d.",
+    "standing": "Current (aggregator row; note not seen)",
+    "src": "https://uk.investing.com/equities/oil---natural-gas-corporation-consensus-estimates"
+   },
+   {
+    "broker": "Nomura/Instinet",
+    "short": "Nomura",
+    "rating": "Hold/Neutral",
+    "tp": 265,
+    "prevTp": 295,
+    "date": "2026-08-07",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "n.d.",
+    "thesis": "n.d.",
+    "standing": "Current (aggregator row; note not seen)",
+    "src": "https://uk.investing.com/equities/oil---natural-gas-corporation-consensus-estimates"
+   },
+   {
+    "broker": "Morgan Stanley",
+    "short": "MS",
+    "rating": "Buy/Overweight",
+    "tp": 331,
+    "prevTp": null,
+    "date": "2026-09-24",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "n.d.",
+    "thesis": "n.d.",
+    "standing": "Current (aggregator row; note not seen)",
+    "src": "https://stockanalysis.com/quote/nse/ONGC/forecast/"
+   },
+   {
+    "broker": "Goldman Sachs",
+    "short": "GS",
+    "rating": "Hold/Neutral (upgrade)",
+    "tp": 270,
+    "prevTp": null,
+    "date": "2026-07-01",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "n.d.",
+    "thesis": "n.d.",
+    "standing": "Current (aggregator row; note not seen)",
+    "src": "https://stockanalysis.com/quote/nse/ONGC/forecast/"
+   },
+   {
+    "broker": "CLSA",
+    "short": "CLSA",
+    "rating": "High-Conviction Outperform",
+    "tp": 405,
+    "prevTp": 415,
+    "date": "2026-05-12",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "Stock priced for $65 Brent; Mar-2026 note used Brent $89 FY27 / $82 FY28",
+    "thesis": "Royalty cuts + last year's law remove fear of 2022-style windfall tax",
+    "standing": "Older (latest found by 30-Sep-2026)",
+    "src": "https://www.businesstoday.in/markets/stocks/story/why-ongc-oil-india-rose-7-9-clsa-sees-44-upside-in-one-of-worst-performing-global-upstream-stocks-530975-2026-05-12"
+   },
+   {
+    "broker": "HDFC Securities",
+    "short": "HDFC Sec",
+    "rating": "REDUCE",
+    "tp": 276,
+    "prevTp": 220,
+    "date": "2026-05-29",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "n.d.",
+    "thesis": "Production decline concern; OMCs still losing on auto fuels despite SAED cut",
+    "standing": "Older (latest found by 30-Sep-2026)",
+    "src": "https://www.businesstoday.in/amp/markets/stocks/story/ongc-shares-fall-7-in-two-days-post-q4-results-buy-sell-or-hold-533883-2026-05-29"
+   },
+   {
+    "broker": "Macquarie",
+    "short": "Macquarie",
+    "rating": "Outperform",
+    "tp": 300,
+    "prevTp": null,
+    "date": "2026-03-12",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "n.d.",
+    "thesis": "~6% dividend yield; production ramp-up key to re-rating. Possibly reaffirmed post-Q4 late May 2026 (Business Standard blocked, unverified)",
+    "standing": "Older (latest found by 30-Sep-2026)",
+    "src": "https://tradebrains.in/can-ongcs-production-outlook-and-dividend-yield-push-the-stock-price-higher/"
+   },
+   {
+    "broker": "Nuvama",
+    "short": "Nuvama",
+    "rating": "Reduce/negative (switch to RIL)",
+    "tp": null,
+    "prevTp": null,
+    "date": "2026-06-05",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "n.d.",
+    "thesis": "Undated blog cites Reduce ₹200 (unverified)",
+    "standing": "Older (latest found by 30-Sep-2026)",
+    "src": "https://www.businesstoday.in/amp/markets/stocks/story/buy-ril-shares-switch-from-ongc-bpcl-hpcl-ioc-igl-and-mgl-says-nuvama-535082-2026-06-05"
+   },
+   {
+    "broker": "IDBI Capital",
+    "short": "IDBI",
+    "rating": "Buy",
+    "tp": 342,
+    "prevTp": null,
+    "date": "2026-02-23",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "n.d.",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "n.d.",
+    "thesis": "n.d.",
+    "standing": "Older (latest found by 30-Sep-2026)",
+    "src": "https://trendlyne.com/research-reports/stock/974/ONGC/oil-and-natural-gas-corporation-ltd/"
+   },
+   {
+    "broker": "Axis Capital",
+    "short": "Axis",
+    "rating": "Sell (initiation)",
+    "tp": 205,
+    "prevTp": null,
+    "date": "2025-12-15",
+    "method": "n.d.",
+    "multiple": "Holdco discount: n.d.",
+    "ovl": "OVL and OPaL called value-destructive",
+    "earningsYear": "n.d.",
+    "eps": "FY27E n.d. / FY28E n.d. ()",
+    "crude": "n.d.",
+    "thesis": "No 2026 update found",
+    "standing": "Older (latest found by 30-Sep-2026)",
+    "src": "https://www.business-standard.com/amp/markets/news/axis-capital-starts-coverage-on-ongc-with-sell-sees-14-downside-125121500561_1.html"
+   }
+  ],
+  "consensus": [
+   {
+    "source": "S&P Global via stockanalysis.com (monthly rating counts)",
+    "date": "2026-09",
+    "analysts": 31,
+    "breakdown": {
+     "strongBuy": 18,
+     "buy": 5,
+     "hold": 4,
+     "sell": 3,
+     "strongSell": 1
+    },
+    "url": "https://stockanalysis.com/quote/bom/500312/forecast/"
+   },
+   {
+    "source": "S&P Global via stockanalysis.com",
+    "date": "2026-09-24 (label)",
+    "analysts": 29,
+    "avgTp": 287.07,
+    "medianTp": 278,
+    "lowTp": 210,
+    "highTp": 405,
+    "caveat": "Same figure appears on Investing.com page captured in Nov-2026 that already includes ICICI's 2026-11-09 cut; not a clean 30-Sep snapshot",
+    "url": "https://stockanalysis.com/quote/nse/ONGC/forecast/"
+   },
+   {
+    "source": "S&P Global (press)",
+    "date": "2026-05-26",
+    "analysts": 30,
+    "avgTp": 307.93
+   },
+   {
+    "source": "press (multibagg)",
+    "date": "2026-03-24",
+    "analysts": 31,
+    "breakdown": {
+     "buy": 19,
+     "hold": 6,
+     "sell": 6
+    },
+    "url": "https://www.multibagg.ai/market-pulse/articles/ongc-stock-price-target-clsa-cmn4p6sfg0001o30jdyef5p6z"
+   }
+  ],
+  "blocked": [
+   "zeebiz.com (HTTP 402)",
+   "business-standard.com (HTTP 403)",
+   "aninews.in (HTTP 403)",
+   "alphaspread.com (HTTP 403)",
+   "indiaipo.in (HTTP 410)",
+   "marketscreener.com (empty/JS-rendered)",
+   "businessupturn Jefferies ₹360 (actually Aug-2025 article with 2026 'updated' stamp)",
+   "univest.in blogs (undated)",
+   "Trendlyne consensus (dated 2026-11-25, out of scope)"
+  ],
+  "notFound": [
+   "Citi",
+   "Emkay",
+   "Antique",
+   "Elara",
+   "Centrum",
+   "Systematix",
+   "HSBC"
+  ]
+ },
+ "ownership": {
+  "asOf": "Jun-2026 (Screener/BSE categories); named holders from AR FY26 (31-Mar-2026)",
+  "promoter": 58.89,
+  "fii": 8.01,
+  "dii": 19.31,
+  "government": 10.3,
+  "public": 3.5,
+  "named": [
+   [
+    "President of India",
+    58.89
+   ],
+   [
+    "LIC",
+    10.18
+   ],
+   [
+    "Indian Oil (cross-holding)",
+    7.84
+   ],
+   [
+    "GAIL (cross-holding)",
+    2.45
+   ],
+   [
+    "ICICI Prudential Value Fund",
+    1.79
+   ],
+   [
+    "SBI Nifty 50 ETF",
+    1.79
+   ],
+   [
+    "CPSE ETF",
+    1.25
+   ]
+  ],
+  "note": "Screener's 'Government' 10.3% = IOC 7.84% + GAIL 2.45% (state-owned companies). Effective state control incl. LIC ~79%: free float for private investors ~21%. The promoter holding fell from 68.07% (Mar-2017) to 58.89% (Mar-2023 onward); no government offer for sale was announced in 2026 in our sources."
+ },
+ "stockEvents": [
+  [
+   "Mar-2020",
+   "Covid and oil crash: share fell to ~₹66 (13-Mar-2020)"
+  ],
+  [
+   "Jul-2022",
+   "Windfall tax (SAED) on domestic crude imposed"
+  ],
+  [
+   "Dec-2024",
+   "Windfall tax abolished"
+  ],
+  [
+   "Dec-2025",
+   "Sakhalin-1 stake restored to OVL (accounted from Jan-2026)"
+  ],
+  [
+   "Mar-2026",
+   "West Asia / Strait of Hormuz crisis: Brent spikes; ONGC rallies to ~₹300 (Apr-May 2026)"
+  ],
+  [
+   "8-May-2026",
+   "Royalty rates cut on offshore crude and gas"
+  ],
+  [
+   "Jun-2026",
+   "Share falls to ~₹233 as HPCL's under-recovery losses and windfall-tax fears weigh"
+  ],
+  [
+   "4-Aug-2026",
+   "Q1FY27: record standalone PBT ₹22,848 cr; HPCL loss ₹12,265 cr"
+  ],
+  [
+   "30-Sep-2026",
+   "Close ₹225.80"
+  ]
+ ],
+ "moat": "Scale and incumbency in Indian upstream (73% of crude, 57% of gas; nomination acreage held since before 1999; 518 MMtoe of 1P reserves); but a price-taker on crude, a price-controlled seller on 76% of its gas, with mature fields declining 5-8% a year. No pricing power; the advantage is access to acreage and infrastructure, and the cost of capital of a sovereign-backed company.",
+ "critiques": [
+  "Production has not grown in five years: standalone crude 19.3-19.6 MMT since FY22, gas down from 20.9 to 19.5 BCM; KG-98/2 oil has disappointed.",
+  "Policy takes the upside: windfall tax (₹23,800 cr in FY23-25), the APM cap, and pressure to share OMC losses (HPCL, its own subsidiary, lost ₹12,265 cr in Q1FY27).",
+  "Capital allocation is directed by the state: HPCL (₹36,915 cr in 2018), OPaL (₹21,181 cr invested, still loss-making in Q1FY27), and deepwater exploration under Samudra Manthan.",
+  "Consolidated earnings are hostage to OMC marketing margins; standalone is what most of the street values.",
+  "Contingent liabilities: Panna-Mukta-Tapti arbitration ₹15,216 cr where ONGC chose not to defend itself at the ministry's request."
+ ],
+ "gaps": [
+  "FY27 royalty rate by field: we apply the announced cuts to the FY26 mix; ONGC's own estimate of the saving is not in our sources.",
+  "OVL FY26 standalone accounts (book value, PAT) not read in full: AOC-1 extraction garbled; press puts OVL FY26 PAT at ₹1,152 cr (unverified). We value OVL from the two broker values we have (JM, MOSL).",
+  "OPaL's FY26 balance sheet and debt not read; valued at ONGC's cost in the base case and at zero in the bear case.",
+  "HPCL and MRPL FY26 final dividends (paid in FY27) not checked; FY27E dividend income is an estimate.",
+  "Quarterly realisations for Q2-Q3FY26 and quarterly volumes before Q1FY26 not in our sources (blank in the KPI sheet).",
+  "Kotak's ₹360: a cut to ₹355 appears in press on 2-Oct-2026 (after the as-of date) and an aggregator dates it 29-Sep; we keep ₹360.",
+  "Consensus average (₹287, 29 analysts, labelled 24-Sep-2026) may include later changes; used only as context.",
+  "Indian-basket and INR/US$ annual series are PPAC chart labels in the AR; year order read from the chart."
+ ],
+ "conflicts": [
+  "Q1FY27 consolidated PAT: ₹6,554 cr (total) vs ₹11,899 cr (attributable to owners): both correct; HPCL's loss is 45% minority.",
+  "Q1FY27 Brent: management said US$97-98 average; other sources ~US$103. We use management's figure for the realisation premium.",
+  "FY23 EPS: ₹30.86 as reported (Screener) vs ₹31.87 restated (AR FY26 ten-year table). We keep the as-reported series."
+ ]
+}

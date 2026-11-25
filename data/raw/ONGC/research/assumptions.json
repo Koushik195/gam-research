@@ -1,0 +1,355 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for ONGC, standalone (domestic E&P), Rs crore. One segment ('ep') whose revenue and EBITDA come from the price x volume and cost build in 'build' (checked in tools/authoring/ONGC.ctx.js). ONGC is valued as the street values it: a sum of the parts of the standalone business on P/E (core profit, before dividends from the stakes), the listed stakes at the 30-Sep-2026 closes less a holding discount, ONGC Videsh and the unlisted subsidiaries. Parts are written by tools/authoring/ONGC.val.js.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "ep",
+   "name": "ONGC standalone (domestic E&P)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 132506,
+   "growth": [
+    31.18,
+    -14.85,
+    3.49
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    55.17,
+    50.87,
+    50.99
+   ],
+   "hist": {
+    "driver": "rev",
+    "revenue": "rev",
+    "adjEbitda": "ebitda"
+   },
+   "_why": "Growth and margin are copied from the build below by ONGC.val.js (see 'build'). FY26 revenue Rs132,506 cr (crude 63%, gas 27%, value-added products 9%); EBITDA margin 46.6% after exploration write-offs. Q1FY27: revenue +45% to Rs46,460 cr, margin 61% at US$99.45/bbl."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Corporate costs not in the segment",
+ "_unallocWhy": "Single business: all costs are in the segment.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "build": {
+  "base": {
+   "rev": 132506,
+   "crudeRev": 83810,
+   "gasRev": 36330,
+   "crudeSoldMmt": 18.79,
+   "gasSoldBcm": 15.491,
+   "brent": 70.45,
+   "gasUsd": 7.3,
+   "inrUsd": 88.31
+  },
+  "_baseWhy": "FY26 actuals (AR FY26 ten-year table): crude Rs83,810 cr on 18.79 MMT sold, gas Rs36,330 cr on 15.491 BCM; Brent US$70.45 (AR MD&A), INR/US$ 88.31 (PPAC). Gas US$7.3/mmBtu = average 'overall' realisation of the FY26 quarters (JM: US$7.1-7.6). Each line scales with volume, price and the rupee.",
+  "crudeSoldMmt": [
+   18.4,
+   18.9,
+   19.1
+  ],
+  "_crudeVolWhy": "Q1FY27 crude production -5% YoY (KG-98/2 reservoir problems, Western Offshore pipeline work, well shut-ins during project hook-ups); management expects oil to recover to about last year's level by year-end and +~0.5 MMT in FY28 (half of the ~1 MMTOE FY28 gain). PL cut FY27E standalone oil to 18.9 MMT production (-2%).",
+  "brent": [
+   90.5,
+   69.5,
+   70
+  ],
+  "_brentWhy": "FY27E: Q1 ~US$97.5 (management), Jul-Sep ~US$96, then the EIA Sep-2026 path (US$90 in 2H2026, ~US$85 in Q1-2027). FY28E: EIA's US$77 in Q2-2027 and ~US$67 in 2H2027 and after. FY29E: US$70, between EIA's 2027 exit and management's US$75+ long-run view. The street uses US$80 FY27E and US$70-75 from FY28E. Realisation tracks Brent (contracts with refiners at a small premium; Q1FY27 US.45 vs Brent ~US-98).",
+  "inrUsd": [
+   95,
+   96.5,
+   98
+  ],
+  "_fxWhy": "Rupee ~95.4/US$ in Aug-2026 (JM key data) vs 88.31 FY26 average; we assume ~1.5% a year depreciation thereafter.",
+  "gasSoldBcm": [
+   15.2,
+   16,
+   16.4
+  ],
+  "_gasVolWhy": "Q1FY27 gas sales 3.7 BCM (-4% YoY; offtake problems at isolated fields). New gas from DUDP (+2 mmscmd by Dec-26), East Coast CPP (1.3), Tapti/Daman (0.5) and KG-98/2 (3 mmscmd by Q4FY27, 6-7 by Q4FY28): management guides +1 BCM in FY27 production and ~+0.5 MMTOE gas in FY28. PL: FY28E gas production 20.4 BCM (+5%).",
+  "gasUsd": [
+   8.7,
+   7.8,
+   7.8
+  ],
+  "_gasPriceWhy": "Q1FY27 US$9.2 overall (APM capped at US$7.00, new-well gas US$13.31 on 24% of sales). FY27E: formula price US$9.0 in Sep-2026 falls with crude, so new-well gas (1.2x the formula, uncapped) eases to ~US$10-11: US$8.7 average. FY28-29E: at ~US$70 crude the formula (10% of the Indian basket) is ~US$7.0, at or below the US$7.25-7.50 ceiling; new-well gas ~US$8.4 on 28-30% of volumes: ~US$7.8 overall.",
+  "vapRev": [
+   14200,
+   12800,
+   13100
+  ],
+  "_vapWhy": "LPG, naphtha, ethane-propane: FY26 Rs11,879 cr; Q1FY27 ~Rs3,830 cr (JM) at US$97 crude. Scaled with crude and the rupee.",
+  "otherOpRev": [
+   500,
+   510,
+   520
+  ],
+  "cessPct": [
+   15.55,
+   15.55,
+   15.55
+  ],
+  "_cessWhy": "OIDB cess (charged on nomination crude) = 15.55% of crude revenue in FY26 (Rs13,034 cr).",
+  "royaltyPct": [
+   9.8,
+   9.65,
+   9.65
+  ],
+  "_royaltyWhy": "Royalty was 10.8% of crude and gas revenue in FY26 (Rs12,965 cr). Cut from 8-May-2026: offshore crude 9.09%->8%, gas 10%->8% (onland nomination crude restored to 16.66% on 4-Jun-2026): about -1.1 point on the FY27 mix, for ~10.5 months of FY27.",
+  "otherLevies": [
+   90,
+   90,
+   90
+  ],
+  "_leviesWhy": "National calamity duty ~Rs86 cr; no windfall tax (SAED abolished Dec-2024, not re-imposed by 30-Sep-2026; bear case adds it back).",
+  "opex": [
+   29600,
+   31000,
+   32400
+  ],
+  "_opexWhy": "FY26 Rs28,209 cr (+2.7%). Q1FY27 ~Rs6,500 cr. +5% in FY27E (rupee weakness lifts dollar-linked rig and vessel costs), +4.5% a year after.",
+  "explorationWo": [
+   10000,
+   10500,
+   10500
+  ],
+  "_explWhy": "Survey plus dry wells: FY25 Rs9,826 cr, FY26 Rs9,729 cr (Q4FY26 dry wells Rs5,110 cr). Q1FY27 low (dry wells Rs1,108 cr; surveys delayed by retendering) but management expects a big post-monsoon survey programme and more deepwater wells (Rs800-1,000 cr each) under Samudra Manthan.",
+  "otherCosts": [
+   5000,
+   4000,
+   4000
+  ],
+  "_otherWhy": "Provisions and write-offs (FY26 Rs3,948 cr) plus exchange loss (Rs2,699 cr) and other items: Rs6,702 cr in FY26. Q1FY27 implies ~Rs1,100 cr a quarter; the rupee's fall keeps FY27 high."
+ },
+ "capex": [
+  26500,
+  27000,
+  28000
+ ],
+ "_capexWhy": "Guidance US$3.5-4.0 bn a year (Rs33,000-38,000 cr at Rs95); FY26 Rs35,878 cr. The engine adds capex to the gross block and the cost build already expenses dry wells, so we enter capex less ~Rs8,500-10,000 cr of exploratory wells that end up written off: Rs35,000 / 36,500 / 37,500 cr of total spend.",
+ "depRateOnGrossBlock": 6.5,
+ "_depWhy": "Depletion, depreciation and amortisation (incl. impairment) Rs25,134 cr in FY26; Q1FY27 Rs6,283 cr (Rs25,100 cr a year). Rate set so FY27E is ~Rs25,500 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Other income is built (below), not a yield on 'treasury', because the engine's treasury here also holds the stakes at book value.",
+ "otherIncome": [
+  9600,
+  10000,
+  10500
+ ],
+ "_otherIncomeWhy": "FY26 Rs10,356 cr = interest Rs4,051 cr (bank deposits Rs2,174 cr on Rs28,660 cr cash; site-restoration fund Rs1,617 cr) + dividends Rs4,807 cr (HPCL 1,811, IOC+GAIL 2,202, MRPL 502, Petronet 188, OVL 51, PMHB 53) + other Rs1,498 cr. TTM Jun-26 Rs11,007 cr; Q1FY27 Rs1,861 cr (no dividends in Q1). FY27E: interest 4,100 + dividends 4,000 (HPCL's Q1 loss rules out interims) + other 1,500; FY28E 4,300 + 4,200 + 1,500; FY29E 4,500 + 4,500 + 1,500.",
+ "dividendIncome": [
+  4000,
+  4200,
+  4500
+ ],
+ "interest": [
+  4350,
+  4200,
+  4100
+ ],
+ "_interestLabel": "Interest (mostly on leases)",
+ "_interestWhy": "FY26 Rs4,529 cr, Q1FY27 Rs1,086 cr: mostly interest on Rs25,822 cr of lease liabilities (rigs, vessels); borrowings only Rs7,823 cr.",
+ "taxRate": [
+  23.84,
+  23.2,
+  23.13
+ ],
+ "_taxWhy": "Statutory 25.17%; dividends received are deductible under section 80M, so the effective rate is ~25.17% x (PBT - dividends) / PBT. Set by ONGC.val.js from the build.",
+ "payout": [
+  40,
+  40,
+  40
+ ],
+ "_payoutWhy": "FY26 DPS Rs13.25 (interims Rs6.00 and Rs6.25 plus a final) = 51% of EPS (Rs16,669 cr); FY24-25 38-43%. With FY27E profit ~75% higher we assume a 40% payout (MOSL 38%): DPS rises, the ratio falls.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 1,
+  "years": 10,
+  "fadeGrowthTo": 1,
+  "fadeMarginTo": 45,
+  "fadeCapexPctTo": 20,
+  "depPctOfSales": 17,
+  "rollForwardMonths": 6,
+  "_betaWhy": "A commodity producer with state ownership: market-like sensitivity; cost of equity 12.5%. Debt is small (borrowings Rs7,823 cr), so the cost of equity is used as the discount rate.",
+  "_tgWhy": "Mature, depleting fields: 1% nominal terminal growth (house range 5-6% is for growing businesses). ONGC 1P reserves (518 MMtoe) are ~13 years of FY26 output; it holds production flat only with continuous capex, so we fade growth to 1%.",
+  "_fadeWhy": "Margin fades to 45% (FY26 47% at US crude, before any windfall tax); capex to 20% of revenue (FY24-26 ~25% incl. written-off wells); depreciation 17% of revenue (FY26 19%)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Brent stays near US$80 after the Hormuz premium (management's US$75+ view); KG-98/2 and the Western Offshore projects lift output ~4% a year; no windfall tax; the market keeps a 20% holding discount and values OVL at MOSL's ₹23 a share.",
+   "segments": {
+    "ep": {
+     "growthDelta": 4,
+     "marginDelta": 3
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Brent falls to ~US$60 as EIA's 2H2027 surplus deepens, or a windfall tax returns; output stays flat; HPCL's losses deepen and the holding discount widens to 25% (MOSL, PL); OVL at JM's ₹7 a share; OPaL worth nothing.",
+   "segments": {
+    "ep": {
+     "growthDelta": -5,
+     "marginDelta": -4
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "ONGC standalone (core): P/E on Sep-28E core profit",
+    "adj": {
+     "base": 131635,
+     "bull": 258917,
+     "bear": 67304
+    },
+    "metricLabel": "Sep-28E core profit (½ FY28E + ½ FY29E, before dividends from the stakes) ₹37,610 cr × 3.5x (bull 5.5x on ₹47,076 cr, bear 2.5x on ₹26,922 cr)",
+    "note": "ONGC's own implied forward P/E on core profit since Apr-2021 (median 3.3x), times the +2.2% oil-and-gas sector move at 30-Sep-2026."
+   },
+   {
+    "name": "HPCL: 54.9% stake at market",
+    "adj": {
+     "base": 40930,
+     "bull": 40930,
+     "bear": 40930
+    },
+    "metricLabel": "116.83 cr shares × ₹350.35 (NSE close, 30-Sep-2026)",
+    "note": "Subsidiary; AR FY26 note 11.1."
+   },
+   {
+    "name": "MRPL: 71.63% stake at market",
+    "adj": {
+     "base": 21252,
+     "bull": 21252,
+     "bear": 21252
+    },
+    "metricLabel": "125.53 cr shares × ₹169.29 (NSE close, 30-Sep-2026)",
+    "note": "Subsidiary (HPCL holds a further 16.96%); AR FY26 note 11.1."
+   },
+   {
+    "name": "Indian Oil: 14.2% stake at market",
+    "adj": {
+     "base": 27065,
+     "bull": 27065,
+     "bear": 27065
+    },
+    "metricLabel": "200.58 cr shares × ₹134.93 (NSE close, 30-Sep-2026)",
+    "note": "Investment (FVTOCI); AR FY26 note 11.1."
+   },
+   {
+    "name": "GAIL: 4.97% stake at market",
+    "adj": {
+     "base": 5572,
+     "bull": 5572,
+     "bear": 5572
+    },
+    "metricLabel": "32.67 cr shares × ₹170.55 (NSE close, 30-Sep-2026)",
+    "note": "Investment (FVTOCI); AR FY26 note 11.1."
+   },
+   {
+    "name": "Petronet LNG: 12.5% stake at market",
+    "adj": {
+     "base": 5334,
+     "bull": 5334,
+     "bear": 5334
+    },
+    "metricLabel": "18.75 cr shares × ₹284.50 (NSE close, 30-Sep-2026)",
+    "note": "Associate; AR FY26 note 11.1."
+   },
+   {
+    "name": "Less: holding discount on the listed stakes",
+    "adj": {
+     "base": -20031,
+     "bull": -20031,
+     "bear": -25038
+    },
+    "metricLabel": "Base 20%, bull 20%, bear 25% of the listed stakes",
+    "note": "House rule for listed stakes inside an operating company: 20% unless the street clearly differs (JM and BOB 20%, MOSL and PL 25%, Geojit 50%)."
+   },
+   {
+    "name": "ONGC Videsh (100%)",
+    "adj": {
+     "base": 18870,
+     "bull": 28934,
+     "bear": 8806
+    },
+    "metricLabel": "₹15 a share: midpoint of JM (7x FY28E EPS, ₹7) and MOSL (0.5x FY25 book, ₹23); bull MOSL, bear JM",
+    "note": "Overseas E&P; Sakhalin-1 restored from Jan-2026; ONGC cost ₹15,000 cr."
+   },
+   {
+    "name": "Other unlisted subsidiaries, JVs and associates at cost",
+    "adj": {
+     "base": 27592,
+     "bull": 27592,
+     "bear": 6411
+    },
+    "metricLabel": "OPaL ₹21,181 cr, ONGC Green ₹4,700 cr, others ₹1,711 cr (bear: OPaL at zero)",
+    "note": "At ONGC's cost (AR FY26 note 11.1)."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values ONGC (JM, MOSL, PL, Geojit): standalone on P/E plus the stakes."
+    },
+    {
+     "key": "pe",
+     "name": "P/E on standalone EPS",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 5.5,
+      "bull": 8,
+      "bear": 5
+     },
+     "why": "ONGC's own one-year-forward P/E on reported standalone EPS since Apr-2021: median 5.5x (no trough years in the window), times the 2.2% sector move: 5.5x. It prices the stakes through their dividends, at ONGC's multiple."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF (standalone, plus investments at book)",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Standalone free cash flow; the engine's net cash includes ONGC's investments at book value (cost for subsidiaries, fair value for IOC and GAIL)."
+    }
+   ]
+  }
+ }
+}

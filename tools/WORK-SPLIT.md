@@ -174,7 +174,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 
 ### Oil Gas & Consumable Fuels (17)
 
-- B34 · claimed (B, 25-Nov-2026) · RELIANCE published (HOLD, 1,200), ONGC, COALINDIA, IOC, BPCL
+- B34 · claimed (B, 25-Nov-2026) · RELIANCE published (HOLD, 1,200), ONGC published (SELL, 205), COALINDIA, IOC published (SELL, 110), BPCL
 - B35 · queued · GAIL, OIL, HINDPETRO, ATGL, AEGISLOG
 - B36 · queued · PETRONET, MRPL, AEGISVOPAK, CHENNPETRO, IGL
 - B37 · queued · CASTROLIND, MGL

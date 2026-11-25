@@ -1,0 +1,237 @@
+{
+ "_meta": {
+  "symbol": "IOC",
+  "asOf": "2026-09-30",
+  "note": "Only sources published on or before 30-Sep-2026. Broker notes read in full: PL (1-Aug-2026, 20-May-2026), BOB Capital (1-Aug-2026), ICICI Securities (20-May-2026). Others from dated secondary listings."
+ },
+ "industry": {
+  "capacity": "India refining capacity 258.1 MMTPA (FY26), throughput 272.1 MMT; IOC group 80.75 MMTPA (~31%), going to ~98 MMTPA by FY28.",
+  "demand": "Petroleum product consumption +2% in FY26 (diesel +4%, petrol +6%); in Q1FY27 petrol +7% and diesel +5% QoQ, ATF -5%, LPG -20% (commercial supply curbs).",
+  "pricing": "Petrol and diesel prices are formally deregulated but in practice set by the three PSU OMCs with the government's consent; prices were held for long stretches, including through the 2026 Gulf war. Household LPG is sold below cost and losses are compensated by the government case by case: in Oct-2025 MoPNG approved ₹14,486 cr for IOC for under-recoveries up to Mar-2026, paid in 12 monthly instalments from Nov-2025.",
+  "war2026": "US-Iran conflict from end-Feb 2026: Strait of Hormuz traffic disrupted, Qatar's Ras Laffan LNG under force majeure. Indian basket US$63.87 (Q3FY26) -> US$83.01 (Q4FY26) -> US$100.74/bbl (Q1FY27). Government cut SAED on petrol and diesel by ₹10/litre on 27-Mar-2026 and re-imposed export duties on diesel and ATF; retail prices raised in tranches from May-2026 (~₹3/litre each at first, ~₹7.5 on diesel cumulatively per the Q1 call). A 60-day US-Iran truce from mid-June eased prices before renewed escalation.",
+  "src": "ar26 MD&A; q4call; q1call; businesstoday.in (27-Mar-2026); ICICI Securities (20-May-2026)"
+ },
+ "competition": "BPCL and HPCL are the other two state OMCs (both refiners with large retail networks; HPCL relies most on bought-in product); Reliance (Jamnagar) and Nayara (Vadinar) are private refiners with smaller retail networks; MRPL (ONGC group) and CPCL (IOC group) are standalone refiners. IOC has the largest refining capacity (~31% of India), the largest pipeline network and ~42% of domestic petroleum sales (ar26).",
+ "peers": {
+  "set": [
+   "BPCL",
+   "HINDPETRO",
+   "MRPL",
+   "CHENNPETRO"
+  ],
+  "excluded": {
+   "HINDPETRO": "Earnings distorted on 30-Sep-2026: HPCL has the highest marketing-to-refining ratio of the three OMCs, so the Q1FY27 marketing loss collapsed its trailing earnings; trailing EV/EBITDA 11.9x (five-year median 5.7x) and P/E 44.6x are not a re-rating. Shown with HPCL as a sensitivity row."
+  },
+  "widened": [
+   "RELIANCE",
+   "ONGC",
+   "OIL",
+   "GAIL",
+   "PETRONET"
+  ],
+  "note": "IOC itself is excluded from its sector move. The natural set leaves three usable names (BPCL, MRPL, CPCL), the minimum under the thin-peer-set rule; the widened oil & gas set is shown as a sensitivity. Sector move measured on EV/EBITDA (our primary method), the EV/EBITDA analogue of the house P/E factor (pharma precedent, PLAYBOOK §7c)."
+ },
+ "street": {
+  "_note": "Standing on 30-Sep-2026. Fundamental targets only. Post-Q1 notes (1-Aug-2026): PL, Motilal Oswal, BOB Capital. Pre-Q1 notes (May-2026) still standing as far as public sources show: ICICI Securities, Geojit, Nomura, UBS.",
+  "brokers": [
+   {
+    "broker": "Prabhudas Lilladher",
+    "date": "2026-08-01",
+    "rating": "Accumulate",
+    "tp": 147,
+    "method": "P/B",
+    "multiple": "0.8x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": 11.2,
+     "FY28E": 21.4
+    },
+    "ebitda": {
+     "FY27E": 40000,
+     "FY28E": 61100
+    },
+    "thesis": "Upgrade from Reduce: core GRM US$19.1/bbl in Q1 despite peak SAED; LPG under-recovery narrowing; government support expected. GRM US$10.0/6.5, GMM ₹1.5/4.7 per litre FY27E/28E.",
+    "src": "https://plindia.com/ResReport/IOCL-2-8-26-PL.pdf"
+   },
+   {
+    "broker": "Motilal Oswal",
+    "date": "2026-08-01",
+    "rating": "Neutral",
+    "tp": 150,
+    "method": "EV/EBITDA + investments",
+    "multiple": "4.5x",
+    "on": "Dec-27E",
+    "eps": {
+     "FY28E": 20.8
+    },
+    "thesis": "Q1 beat driven by >₹150bn of marketing inventory gains; capex cycle nearing its end; risks: LPG under-recoveries, borrowings ₹1.4 lakh cr, SAED changes.",
+    "src": "https://investmentguruindia.com/newsdetail/neutral-indian-oil-corporation-ltd-for-the-target-rs-150-by-motilal-oswal-financial-services-ltd143477 (3-Aug-2026)"
+   },
+   {
+    "broker": "BOB Capital Markets",
+    "date": "2026-08-01",
+    "rating": "Buy",
+    "tp": 163,
+    "method": "EV/EBITDA + investments",
+    "multiple": "5.5x",
+    "on": "Jun-28E",
+    "eps": {
+     "FY27E": 10.5,
+     "FY28E": 16
+    },
+    "ebitda": {
+     "FY27E": 42582,
+     "FY28E": 56129
+    },
+    "thesis": "Volume growth and expansions positive, but retail margins challenged by elevated crude; TP cut from ₹173; major benefit of capex only after FY29.",
+    "src": "https://www.barodaetrade.com/Reports/IndianOilCorp-Q1FY27ResultReview1Aug26-Research.pdf"
+   },
+   {
+    "broker": "ICICI Securities",
+    "date": "2026-05-20",
+    "rating": "Buy",
+    "tp": 185,
+    "method": "SOTP: EV/EBITDA + listed investments at market",
+    "multiple": "5.5x",
+    "on": "FY28E",
+    "eps": {
+     "FY27E": -15.9,
+     "FY28E": 20
+    },
+    "ebitda": {
+     "FY27E": -5400,
+     "FY28E": 64300
+    },
+    "thesis": "Refining expansion of 17-18 MTPA, petchem, DER ~0.54x; valuation attractive (6.7x FY28E P/E, <1x P/B); FY27E cut to a loss for Gulf-conflict marketing losses.",
+    "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-05/17792584390.52315600.pdf"
+   },
+   {
+    "broker": "Geojit BNP Paribas",
+    "date": "2026-05-25",
+    "rating": "Hold",
+    "tp": 153,
+    "method": null,
+    "multiple": null,
+    "on": null,
+    "thesis": "n.d.",
+    "src": "https://trendlyne.com/research-reports/stock/639/IOC/indian-oil-corporation-ltd/"
+   },
+   {
+    "broker": "Nomura",
+    "date": "2026-05-20",
+    "dateNote": "MarketScreener feed dated 05-20, year inferred from neighbouring items",
+    "rating": "Buy",
+    "tp": 180,
+    "method": null,
+    "multiple": null,
+    "on": null,
+    "thesis": "Target cut from ₹190 after Q4FY26",
+    "src": "https://uk.marketscreener.com/quote/stock/INDIAN-OIL-CORPORATION-LI-9743425/news-broker-research/"
+   },
+   {
+    "broker": "UBS",
+    "date": "2026-05-20",
+    "dateNote": "Zee Business report after Q4FY26 (article paywalled; date approximate)",
+    "rating": "Neutral",
+    "tp": 175,
+    "method": null,
+    "multiple": null,
+    "on": null,
+    "thesis": "Kept Neutral after the Q4 beat",
+    "src": "https://www.zeebiz.com/markets/stocks/news-indian-oil-climbs-after-strong-q4-show-ubs-keeps-neutral-with-this-target-395776"
+   }
+  ],
+  "notCounted": [
+   "Emkay Global and Avendus Spark moved to Add after Q4FY26 with targets of ~₹150-160 (range only, whalesbook.com).",
+   "HDFC Securities Buy ₹190 (4-Feb-2026): written before the Gulf war; no later note found."
+  ],
+  "methodView": "The street values IOC on EV/EBITDA of consolidated EBITDA (4.5-5.5x, on Dec-27E to FY28E) plus investments at or near market (Motilal Oswal, BOB Capital, ICICI Securities), or on P/B (PL 0.8x FY28E). We follow the EV/EBITDA sum of the parts and show P/E and DCF as cross-checks."
+ },
+ "ownership": {
+  "date": "2026-06-30",
+  "totalSharesIssued": 1412.12,
+  "sharesOutsideTrust": 1377.16,
+  "shareholders": 2859833,
+  "categories": {
+   "promoters": 51.5,
+   "government": 19.57,
+   "fii": 9.08,
+   "dii": 9.52,
+   "public": 10.32
+  },
+  "named": [
+   [
+    "President of India (Government of India)",
+    51.5
+   ],
+   [
+    "ONGC",
+    14.2
+   ],
+   [
+    "Life Insurance Corporation of India (Mar-26)",
+    6.04
+   ],
+   [
+    "Oil India",
+    5.16
+   ],
+   [
+    "IOC Shares Trust (treasury shares)",
+    2.48
+   ],
+   [
+    "SBI Mutual Fund (Mar-26)",
+    0.83
+   ]
+  ],
+  "src": "Screener.in (BSE shareholding pattern, Jun-2026); named holders from ar26 (top-10 holders at 31-Mar-2026)",
+  "history": "Government 51.5% unchanged; ONGC and Oil India (both government-controlled) a further 19.4% ('Government' category 19.57%). FIIs 7.5% (Jun-25) -> 9.8% (Mar-26) -> 9.1% (Jun-26)."
+ },
+ "governance": {
+  "board": "Chairman A.S. Sahney (previously head of IOC's petrochemicals vertical); Director (Finance) Anuj Jain. As a Maharatna CPSE, IOC's board is appointed by the Ministry of Petroleum & Natural Gas; the statutory auditors are appointed by the Comptroller and Auditor General (C&AG), who also comments on the accounts (AR FY26 carries a revised auditor's report after C&AG comments).",
+  "independentDirectors": "No independent directors on the board: the Audit Committee was discontinued from 28-Mar-2026 and the Q1FY27 results were approved by the full board.",
+  "pricing": "Retail petrol, diesel and LPG prices are set in consultation with the government; minority shareholders bear under-recoveries until (and unless) compensated.",
+  "relatedParty": "Large purchases from JVs (Petronet LNG ₹11,414 cr of products in FY26) approved by shareholders as material related-party transactions.",
+  "src": "ar26; q1cons note 1"
+ },
+ "moat": "Scale and infrastructure: ~31% of India's refining capacity, >20,000 km of pipelines (the cheapest way to move crude and products inland), 43,000+ fuel stations, 46% of LPG and 54% of ATF. These lower costs but do not protect margins: prices are administered, the product is a commodity and the government decides when OMCs absorb losses.",
+ "critiques": [
+  [
+   "Marketing margins are a policy variable: in 2022 and 2026 the government held prices while crude spiked, wiping out a year's marketing profit.",
+   "Street (MOSL, BOB), GAM"
+  ],
+  [
+   "Inventory gains flatter Q1FY27 (~₹15,000 cr finished goods); without them the quarter was a large loss.",
+   "Motilal Oswal, Sanjay Mookim (JPM) on the call"
+  ],
+  [
+   "Capex does not fall after the expansions: ₹30,000-40,000 cr a year continues into petchem (₹1 lakh cr) and renewables, keeping free cash flow thin.",
+   "Citi (Saurabh Handa) on the Q1 call; GAM"
+  ],
+  [
+   "Petchem returns are uncertain: naphtha crackers and PTA face Chinese capacity; IOC's petchem EBITDA margin was 2-3% in FY23-FY25.",
+   "Nomura (Bineet Banka) on the Q1 call"
+  ],
+  [
+   "Governance: no independent directors, an Audit Committee discontinued, and dividends that track government needs.",
+   "GAM"
+  ]
+ ],
+ "gaps": [
+  "Refining vs marketing EBITDA split is not disclosed; our petroleum build uses EBITDA per tonne, not GRM x throughput + GMM x volume.",
+  "FY26 and Q4FY26 GRMs not disclosed by IOC (paused from Q4FY26). Quarterly GRMs FY25-FY26 taken from PL's chart; FY21-FY23 annual GRMs not sourced.",
+  "Quarterly segment results Q1FY25-Q4FY26 not compiled (only Q1FY27 consolidated segments from the NSE iXBRL filing).",
+  "CPCL's FY26 throughput not sourced (management: 'another 10' MMT).",
+  "Q3FY26 investor presentation is a scanned image; its figures could not be read.",
+  "Nomura and UBS targets come from news feeds; the notes, methods and exact dates were not read. Geojit's method not disclosed.",
+  "No Q2FY27 data used; Brent/crude-basket averages for Jul-Sep 2026 not sourced, so FY27E H2 margins are assumptions.",
+  "Market value of unlisted JVs (HURL, IndianOil LNG, Russian upstream) not available: carried at book.",
+  "Oil India: we use the 8.03 cr shares held at Mar-26 (AR FY26); any bonus or change between Apr and Sep-2026 not checked."
+ ],
+ "conflicts": [
+  "Q1FY27 standalone loss: ₹2,661.37 cr (company presentation and call) vs ₹2,662.37 cr in one press report; we use the company figure.",
+  "PL quotes net GRM ~US$15.2/bbl in its concall notes and US$15.6 elsewhere; the company reported US$15.59.",
+  "BOB Capital's Q1 EBITDA (standalone ₹1,947 cr) differs from the company's 'EBITDA contribution' (₹2,332 cr) on the treatment of exchange differences."
+ ]
+}
