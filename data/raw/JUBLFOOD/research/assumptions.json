@@ -1,0 +1,340 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Jubilant FoodWorks (consolidated, continuing operations, Rs crore). FY26 (Mar-2026) is the base year. Two-part model: India (sales within India: Domino's, Popeyes, Hong's) and International (DP Eurasia, Sri Lanka, Bangladesh), each with revenue growth and EBITDA margin after Ind AS 116 (rent excluded, ESOP included). India revenue is built from Domino's stores x revenue per store plus the emerging brands (businessLines), checked in JUBLFOOD.ctx.js. Minorities (DP Eurasia ~6.35%, Bangladesh 49%) sit in the tax line for EPS and are deducted in the SOTP.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "roll": [
+  "FY28E",
+  "FY29E",
+  0.5
+ ],
+ "segments": [
+  {
+   "key": "india",
+   "name": "India",
+   "driverLabel": "Revenue",
+   "base": 6848.1,
+   "growth": [
+    10.7,
+    11.7,
+    11.6
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    20.2,
+    20.8,
+    21.3
+   ],
+   "marginLabel": "EBITDA (standalone, after Ind AS 116)",
+   "hist": {
+    "driver": "indiaRev",
+    "revenue": "indiaRev",
+    "adjEbitda": "indiaEbitda"
+   },
+   "_why": "Sales within India +13.1% in FY26 (Rs6,057 cr to Rs6,848 cr; Domino's +12.0% on 276 net new stores and LFL 6.5%); Q1FY27 standalone +9.2% (Domino's +7.4%, LFL 2.5%, orders +6.5%; Popeyes +97%). Built from Domino's stores (230-250 openings guided for FY27) x revenue per average store, which falls in FY27 as LFL stays below the 5-7% medium-term guide and new stores split old catchments, plus Popeyes and Hong's at +65% / +45% / +35% (businessLines).",
+   "_marginWhy": "Standalone EBITDA margin 19.7% (FY25), 20.0% (FY26), 19.5% in Q1FY27 (19.3% a year earlier) after ~200 bp of cost inflation (LPG, minimum wages, Labour Codes) was cut to ~20 bp by pricing and productivity. Management keeps a +200 bp pre-Ind AS target (emerging-brand drag ~200 bp to ~100 bp by end-FY28, ~100 bp from Domino's). We assume 20.2% / 20.8% / 21.3%: ~+125 bp over three years, below guidance because the Rs99 minimum order value and dine-in weakness cost margin."
+  },
+  {
+   "key": "intl",
+   "name": "International",
+   "driverLabel": "Revenue",
+   "base": 2664.4,
+   "growth": [
+    22,
+    15,
+    13
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    18.8,
+    19,
+    19.2
+   ],
+   "marginLabel": "EBITDA (consolidated less standalone)",
+   "hist": {
+    "driver": "intlRev",
+    "revenue": "intlRev",
+    "adjEbitda": "intlEbitda"
+   },
+   "_why": "Sales outside India +30.1% in FY26 (DP Eurasia +28.8% in rupees, Sri Lanka +64%, Bangladesh +27%); Q1FY27 DP Eurasia +28.2%. Rupee growth is mostly Turkish inflation less lira depreciation: Domino's Turkey LFL +30.6% in lira but -1.3% after inflation. We assume +22% / +15% / +13% as Turkish inflation eases, with ~60 net new stores a year.",
+   "_marginWhy": "19.1% (FY25), 19.3% (FY26); Q1FY27 20.0% vs 20.5% a year earlier as the IAS 29 monetary gain shrank (ex-MGL margin +15 bp). We assume 18.8% / 19.0% / 19.2%: a smaller monetary gain as inflation falls, offset by operating leverage; DP Eurasia PAT margin guided at 7-9% for FY27."
+  }
+ ],
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Consolidation difference",
+ "_unallocWhy": "International EBITDA is defined as consolidated less standalone, so the two parts add to the company's EBITDA by construction.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "_esopWhy": "Share-based payment (Rs28.8 cr in FY26, AR cash flow) is already inside segment EBITDA; the array is kept at zero for the Excel model.",
+ "businessLines": {
+  "_why": "India revenue = Domino's India (average stores x revenue per average store) + emerging brands (Popeyes, Hong's). FY26: Domino's Rs6,629.4 cr on 2,317 average stores (2,179 to 2,455) = Rs2.861 cr per store (FY25 Rs2.835 cr on 2,087 average stores, 1,995 to 2,179); emerging brands Rs218.7 cr (sales within India less Domino's). Revenue per average store +0.9% in FY26 with LFL 6.5%: new and split stores dilute it by ~5-6 points. We assume -2.0% / +0.5% / +1.0% with LFL ~4.5% / ~6% / ~6%.",
+  "dominosStoresMar26": 2455,
+  "dominosStoresMar25": 2179,
+  "dominosRevFY26": 6629.4,
+  "netAdds": [
+   240,
+   250,
+   260
+  ],
+  "revPerStoreGrowth": [
+   -2,
+   0.5,
+   1
+  ],
+  "emergingRevFY26": 218.7,
+  "emergingGrowth": [
+   65,
+   45,
+   35
+  ]
+ },
+ "capex": [
+  1405,
+  1495,
+  1585
+ ],
+ "_capexWhy": "Cash capex plus lease principal, because reported EBITDA excludes rent (LENSKART/ETERNAL treatment). Cash capex (PPE and intangibles) Rs863 cr (FY25), Rs999 cr (FY26: India Rs803 cr, outside India Rs191 cr). Guidance Rs750-900 cr a year for India (stores, store upgrades, technology; supply chain past its peak after the Mumbai commissary). We assume India Rs850 / 875 / 900 cr and International Rs210 / 230 / 250 cr. Lease principal (lease payments less lease interest) ~Rs243 cr in FY25 and ~Rs303 cr in FY26; we assume Rs345 / 390 / 435 cr.",
+ "depRateOnGrossBlock": 8.6,
+ "_depWhy": "FY26 depreciation Rs959 cr = 8.8% of average gross block (Rs10,885 cr, Screener incl. right-of-use). Q1FY27 Rs255 cr (Rs1,020 cr annualised) with the Mumbai commissary in for a full quarter. 8.6% gives FY27E ~Rs1,070 cr; the engine never retires assets, so a rate a little below history keeps depreciation near 9.7% of revenue (10.1% in FY26).",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "otherIncome": [
+  85,
+  90,
+  95
+ ],
+ "_treasuryWhy": "The model's net treasury is negative (borrowings Rs1,745 cr and lease liabilities Rs3,157 cr against Rs434 cr of cash and investments at Mar-2026), so no yield is applied; income on deposits is in the fixed other income.",
+ "_otherIncomeWhy": "Other income Rs73.7 cr (FY25) and Rs74.1 cr (FY26: interest on sub-lease receivables Rs39.2 cr, bank deposits Rs10.8 cr, security deposits Rs8.2 cr, mutual funds Rs5.6 cr, other Rs10.3 cr; AR note 25), plus the share of associates (Rs7.0 cr in FY26, Rs4.1 cr in Q1FY27), which the engine has no line for. Q1FY27: Rs18.7 cr + Rs4.1 cr = Rs22.8 cr (Rs91 cr annualised). We assume Rs85 / 90 / 95 cr.",
+ "interest": [
+  480,
+  505,
+  530
+ ],
+ "_interestLabel": "Finance cost (mostly lease interest)",
+ "_interestWhy": "FY26 Rs436 cr = lease interest Rs337 cr + interest on borrowings Rs99 cr (Rs217 cr in FY25, before DP Eurasia's lira loans were refinanced in euro); Q1FY27 Rs120 cr (Rs481 cr annualised). Lease interest grows ~9-10% with the store base; bank interest edges down as debt is repaid.",
+ "taxRate": [
+  31,
+  30,
+  30
+ ],
+ "_taxWhy": "Tax on continuing PBT before exceptional items ~27-28% in FY26 (India 25.17%, Turkey 25-30% plus dividend withholding tax). The engine has no minority line, so ~2.5-3 points are added for minorities' share of profit (Rs15.8 cr in FY26, ~Rs3 cr in Q1FY27). Q1FY27 attributable profit was 66% of PBT (34% combined), inflated by tax on Turkish dividends.",
+ "payout": [
+  20,
+  20,
+  20
+ ],
+ "_payoutWhy": "Dividend Rs1.20 a share for FY25 and FY26 (Rs79 cr, ~18% of FY26 attributable profit).",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.9,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 21.5,
+  "fadeCapexPctTo": 9,
+  "depPctOfSales": 8.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Beta 0.9 gives 11.9%, which we use as the discount rate: it equals a WACC of ~11.9% with lease liabilities and bank debt at ~13% of enterprise value (cost of equity ~12.5%, after-tax cost of debt and leases ~7.5%). The engine discounts at one rate, so beta is set to land on the WACC (PLAYBOOK §7).",
+  "_tgWhy": "Eating out is under-penetrated in India (management: 6-7 million Indians eat pizza in a month); Turkey adds inflation-driven nominal growth. 5.5%, mid-range of the house 5-6%.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~12% in FY29E to 8% by FY42E.",
+  "_fadeMarginWhy": "EBITDA (after Ind AS 116) edges from 20.6% (FY29E) to 21.5%: about half of the guided +200 bp, as rent, wages and aggregator-led price competition absorb part of the operating leverage.",
+  "_fadeCapexWhy": "Capex including lease principal fades from ~11.6% of revenue (FY29E) to 9% (cash capex ~6%, lease principal ~3%); depreciation incl. right-of-use 8.5% of revenue long run (10.1% in FY26)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Domino's LFL returns to the 5-7% guide from H2FY27 as dine-in recovers; Popeyes reaches Rs1,000 cr by FY29-30 and turns EBITDA-positive; the +200 bp pre-Ind AS margin target is met by FY28; Turkey keeps compounding with lower inflation.",
+   "segments": {
+    "india": {
+     "growthDelta": 2.5,
+     "marginDelta": 0.9
+    },
+    "intl": {
+     "growthDelta": 3,
+     "marginDelta": 0.5
+    }
+   },
+   "fadeMarginTo": 23
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "LFL stays near 0-3% as aggregators (Rs49-99 minimum orders) and rivals take share; new stores cannibalise old ones; LPG, cheese and wage inflation keep margins flat; a lira devaluation or a hyperinflation shock cuts rupee profit from Turkey.",
+   "segments": {
+    "india": {
+     "growthDelta": -3,
+     "marginDelta": -1
+    },
+    "intl": {
+     "growthDelta": -6,
+     "marginDelta": -1.5
+    }
+   },
+   "fadeMarginTo": 20
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "India EBITDA at the group EV/EBITDA",
+    "seg": "india",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E India EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 17,
+     "bull": 23.5,
+     "bear": 15
+    },
+    "note": "Post-Ind AS EBITDA; lease liabilities are in the net cash line. Multiple derived in the valuation chapter (one group multiple)."
+   },
+   {
+    "name": "International EBITDA at the group EV/EBITDA",
+    "seg": "intl",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E International EBITDA × the same multiple",
+    "multiple": {
+     "base": 17,
+     "bull": 23.5,
+     "bear": 15
+    },
+    "note": "Same multiple as India: the multiple is derived on the consolidated history, which has included DP Eurasia since FY25. A lower DP Eurasia multiple is shown as a sensitivity."
+   },
+   {
+    "name": "Less: minorities",
+    "adj": {
+     "base": -1236,
+     "bull": -1940,
+     "bear": -917
+    },
+    "metricLabel": "3% (minorities' share of profit) × equity value before minorities",
+    "note": "DP Eurasia's outside holders (6.35%) and the 49% partner in Bangladesh; base-case Sep-28E net cash used in all three cases. Set by JUBLFOOD.val.js."
+   },
+   {
+    "name": "Net cash at Sep-28E (model: cash and investments less borrowings incl. leases)",
+    "netCash": true,
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "½ Mar-28E + ½ Mar-29E",
+    "note": "Mar-26: cash and bank Rs235 cr + investments Rs199 cr − borrowings Rs4,902 cr (bank Rs1,745 cr + leases Rs3,157 cr) = −Rs4,468 cr."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "EV/EBITDA (sum of the parts)",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values JFL: a sum of the parts on EV/EBITDA after rent, 1.5-2 years forward (Emkay India 24x / International 15x Jun-28E, Prabhudas Lilladher 26x FY28E standalone + DP Eurasia P/E, Motilal Oswal 28x / 18x Mar-28E, BOB Capital Markets 30x). We apply one group multiple to reported (post-Ind AS) Sep-28E EBITDA of India and International with lease liabilities in net debt, less minorities. Multiple derived in JUBLFOOD.ctx.js (own forward EV/EBITDA median since Apr-2021 x the QSR peers' five-year EV/EBITDA move) and written by JUBLFOOD.val.js."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 78.5,
+      "bull": 93.5,
+      "bear": 63.5
+     },
+     "why": "Own forward P/E median since Apr-2021 on EPS before exceptional and discontinued items x the retail set's five-year P/E move (QSR peers have no usable P/E). Cross-check only: the history is inflated by the FY24-25 earnings dip."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF (lease principal treated as capex), discount rate 11.9%, terminal growth 5.5%."
+    }
+   ]
+  }
+ },
+ "capexBuild": {
+  "_why": "Engine capex = India cash capex + International cash capex + lease principal (checked in JUBLFOOD.ctx.js).",
+  "india": [
+   850,
+   875,
+   900
+  ],
+  "intl": [
+   210,
+   230,
+   250
+  ],
+  "leasePrincipal": [
+   345,
+   390,
+   435
+  ]
+ },
+ "rentBuild": {
+  "_why": "Rent under Ind AS 116 = lease principal + lease interest (cash), used only to translate our post-Ind AS EBITDA into the pre-Ind AS (after-rent) EBITDA the street values. FY26: lease payments Rs641.4 cr in the cash flow (principal and interest together; standalone check: Rs500.7 cr paid vs Rs511.8 cr EBITDA less adjusted EBITDA), of which lease interest Rs338.4 cr (note 3b, incl. Rs1.6 cr Dunkin) and principal ~Rs303 cr; FY25 Rs545.0 cr (interest Rs303.6 cr). Lease interest = finance cost less bank interest (Rs110 / 100 / 90 cr).",
+  "leasePrincipal": [
+   345,
+   390,
+   435
+  ],
+  "leaseInterest": [
+   370,
+   405,
+   440
+  ],
+  "fy26": {
+   "leasePrincipal": 303,
+   "leaseInterest": 338.4
+  },
+  "fy25": {
+   "leasePrincipal": 241.4,
+   "leaseInterest": 303.6
+  }
+ },
+ "minorities": {
+  "sharePct": 3,
+  "_why": "Minorities' share of profit: Rs3.0 cr of Rs100.0 cr in Q1FY27 (3.0%); FY26 Rs15.8 cr of Rs444.2 cr (3.6%), incl. ~Rs5 cr share of the Russia sale gain (Russia sat under DP Eurasia), ~2.7% excluding it. Holders: 6.35% of DP Eurasia and 49% of Jubilant Golden Harvest (Bangladesh). Applied to the equity value in the SOTP (INDHOTEL precedent). The put option on DP Eurasia minorities (Rs63 cr booked against equity) is the same claim and is not deducted again."
+ }
+}

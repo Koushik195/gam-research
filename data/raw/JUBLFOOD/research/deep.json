@@ -1,0 +1,603 @@
+{
+ "symbol": "JUBLFOOD",
+ "asOf": "2026-09-30",
+ "industry": {
+  "summary": "Chained quick-service restaurants (QSR) are a small slice of Indian food spending. JFL's FY26 presentation (citing industry reports) sizes India's chained QSR market at ~US$3.2 bn in 2024 growing to ~US$5.4 bn by 2028 (~14% a year), with chains at ~6% of a ~US$60 bn foodservice market (US ~US$800 bn, China ~US$760 bn). Delivery is the growth channel: food aggregators cut minimum order values to Rs99 and then Rs49, which pulled small, solo orders away from dine-in and takeaway and forced Domino's to match (Rs149 to Rs99). Listed rivals: Westlife (McDonald's West & South), Devyani (KFC, Pizza Hut, Costa) and Sapphire (KFC, Pizza Hut) - both Yum franchisees - and Restaurant Brands Asia (Burger King India). KFC (Devyani, Sapphire) is the fried-chicken incumbent Popeyes is attacking. Most listed rivals made losses or near-zero profit in FY26 as same-store sales fell.",
+  "dominosShare": "Domino's gained ~80 bp of delivery share among the top 25 QSR brands year on year in Q1FY27 (NielsenIQ, per the Q1FY27 letter); JFL calls itself the largest QSR player for 30 years, ~1.7x the second largest (FY26 presentation).",
+  "turkey": "DP Eurasia runs 787 Domino's stores in Turkey, Azerbaijan and Georgia and COFFY is the 5th largest coffee brand in Turkey by stores (194). Turkey has been hyperinflationary under IAS 29 since 2022; Domino's Turkey LFL was +30.6% in lira but -1.3% after inflation in Q1FY27.",
+  "src": [
+   "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f598ee7d-95f4-4cd9-a881-52bf581eb7a9.pdf (20-May-2026, slides 4, 20)",
+   "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98a0f2de-64cd-437f-9fb8-45673d1c2aed.pdf (13-Aug-2026)",
+   "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2d974a8-0d78-41a0-922c-ba226e1f1632.pdf (call 13-Aug-2026)"
+  ]
+ },
+ "peers": {
+  "set": [
+   "WESTLIFE",
+   "DEVYANI",
+   "SAPPHIRE",
+   "RBA"
+  ],
+  "excluded": {
+   "RBA": "Restaurant Brands Asia's consolidated EBITDA was negative or near zero (Indonesia losses) from Oct-2021 to May-2022, so Screener has no EV/EBITDA for 35 of the 261 weeks: no complete five-year median (the pharma precedent drops peers with loss years inside the window). Shown as a sensitivity row."
+  },
+  "retail": [
+   "DMART",
+   "TRENT",
+   "METROBRAND",
+   "BATAINDIA",
+   "PAGEIND"
+  ],
+  "note": "QSR set (natural peers; same customers, delivery aggregators and landlords). The valuation metric is EV/EBITDA, on which Westlife, Devyani and Sapphire have positive EBITDA through the whole window, so their five-year EV/EBITDA medians are usable; their net profits are tiny or negative, so their P/E histories are not, and the P/E cross-check uses the retail set fixed in DMART.ctx.js (DMART, TRENT, METROBRAND, BATAINDIA, PAGEIND). Sapphire listed 18-Nov-2021 and misses the first 7 weeks of the window (Metro Brands precedent in the retail set). Three usable QSR peers: a thin set, so the retail set's EV/EBITDA move is shown as a sensitivity row. Devyani and Sapphire agreed to merge on 1-Jan-2026 (177 Devyani shares for 100 Sapphire; Business Today, 2-Jan-2026, https://www.businesstoday.in/markets/stocks/story/sapphire-foods-merger-here-is-fresh-target-price-for-devyani-international-509053-2026-01-02); both still traded separately on 30-Sep-2026, so since January their prices move together.",
+  "src": "Screener.in (EV Multiple and P/E series, prices to 30-Sep-2026); NSE closes 30-Sep-2026"
+ },
+ "ownership": {
+  "asOf": "Jun-2026",
+  "categories": {
+   "promoters": 40.27,
+   "fii": 13.32,
+   "dii": 39.59,
+   "public": 6.49,
+   "others": 0.33
+  },
+  "named": [
+   {
+    "holder": "Jubilant Consumer Pvt Ltd (Bhartia family, promoter)",
+    "pct": 40.27,
+    "at": "Mar-2026"
+   },
+   {
+    "holder": "SBI Focused Equity Fund",
+    "pct": 9.33,
+    "at": "Mar-2026"
+   }
+  ],
+  "mar26Detail": "Mutual funds 30.29%, banks and insurers 5.45%, foreign portfolio investors 17.29%, AIFs 0.48% (AR FY26 shareholding distribution).",
+  "trend": "Promoter stake 41.94% to 40.27% in the Jun-2025 quarter (1.1 cr shares sold). Foreign investors fell from 27.75% (Dec-2023) to 13.32% (Jun-2026) while Indian funds rose from 21.94% to 39.59%.",
+  "src": "Screener.in shareholding (BSE pattern) to Jun-2026; AR FY26 notes 13 and shareholder information, https://www.bseindia.com/xml-data/corpfiling/AttachHis/2e877d90-c940-4f9a-af8b-c052b2811ce4.pdf"
+ },
+ "governance": {
+  "relatedParty": "Promoter entity Jubilant Consumer Pvt Ltd supplied raw materials worth Rs59.6 cr (Rs51.0 cr in FY25) and IT/digital services worth Rs31.9 cr (Rs33.2 cr) in FY26; purchases of stock-in-trade from Hindustan Coca-Cola Beverages Rs28.1 cr (AR FY26 note 35). Small (~1% of costs) but recurring.",
+  "board": "Chairman Shyam S. Bhartia and Co-Chairman Hari S. Bhartia (promoters); CEO & MD Sameer Khetarpal; auditor Deloitte Haskins & Sells LLP (unmodified opinion FY26).",
+  "capitalAllocation": "DP Eurasia bought for ~Rs770 cr for the stake added in FY24 (plus the earlier ~33% holding); Dunkin' exited and Hong's not funded further (management: 'painful' capital-allocation calls); supply-chain capex now past its peak."
+ },
+ "moat": [
+  {
+   "k": "Scale and delivery network",
+   "v": "Strong",
+   "why": "2,455 Domino's stores in 540 cities, own rider fleet (45,000+ partners), 20-minute delivery; 76% of Domino's revenue is delivery, mostly on its own app (19.5 mn monthly active users across brands)."
+  },
+  {
+   "k": "Supply chain",
+   "v": "Strong",
+   "why": "Commissaries sized for ~5,000 stores after the Mumbai plant; lowest-ever supply-chain cost (Q4FY26 call)."
+  },
+  {
+   "k": "Brand and pricing power",
+   "v": "Moderate",
+   "why": "Gross margin 75%+, but Domino's had to match aggregators' Rs99 minimum order and LFL slowed from 11.6% to 0.2% in four quarters."
+  },
+  {
+   "k": "Franchise terms",
+   "v": "Weak point",
+   "why": "Domino's and Popeyes are licensed (royalties to Domino's Pizza Inc. and RBI); the master-franchise agreements are long-dated but not owned."
+  }
+ ],
+ "critiques": [
+  "Domino's LFL fell from 11.6% (Q1FY26) to 0.2% (Q4FY26) and 2.5% (Q1FY27) while stores grew ~12%: revenue per store is falling.",
+  "Reported EBITDA excludes rent; after rent the standalone margin was 12.6% in FY26, and the +200 bp target set at the 2025 Investor Day now runs to end-FY28.",
+  "Turkey's rupee profits depend on IAS 29 monetary gains and the lira, and come with minorities (6.35% of DP Eurasia). Most of the group's Rs1,745 cr of bank debt is euro acquisition debt for DP Eurasia (two term loans of Jubilant FoodWorks Netherlands, EUR 45.6 mn + EUR 64 mn = Rs1,183 cr, guaranteed by the parent; AR FY26 note 16), so a weaker rupee raises it.",
+  "Return on capital is modest: Screener ROCE 15% in FY26 (company standalone pre-Ind AS ROCE 18.9%)."
+ ],
+ "stockEvents": [
+  {
+   "date": "2026-05-20",
+   "event": "Q4FY26 results; Domino's LFL 0.2%; Dunkin' exit disclosed"
+  },
+  {
+   "date": "2026-08-13",
+   "event": "Q1FY27 results; LFL 2.5%, Popeyes +97%"
+  },
+  {
+   "date": "2026-08-27",
+   "event": "AGM; dividend Rs1.20"
+  }
+ ],
+ "gaps": [
+  "Q2FY26 results on the re-presented (ex-Dunkin') basis are not in our sources; quarterly segment rows skip Q2FY26.",
+  "Domino's India store count at Jun-2026 and Q1FY27 India/International pre-Ind AS EBITDA are in image tables of the Q1FY27 letter that could not be extracted.",
+  "Popeyes revenue is not disclosed; emerging-brand revenue (Popeyes + Hong's) is derived as sales within India less Domino's India revenue.",
+  "The IAS 29 monetary gain/loss in DP Eurasia's EBITDA is not quantified in rupees in our sources.",
+  "Consolidated pre-Ind AS EBITDA is not reported for FY26; we derive it as EBITDA less lease payments (principal + interest) from the cash flow statement.",
+  "Named shareholders at Jun-2026 (BSE pattern by name) not retrieved; Mar-2026 named holders from the AR are used with category totals to Jun-2026.",
+  "Lease principal is derived as lease payments in the cash flow less lease interest (note 29), as the cash flow shows them together.",
+  "Kotak, Axis Capital, Bernstein and J.P. Morgan targets come from aggregator rows (no primary note found); Nuvama's note was seen only via a Business Standard search snippet; methods are not visible for most foreign brokers.",
+  "Motilal Oswal's 13-Aug-2026 note does not label its 28x/18x as pre-Ind AS (its later, out-of-window note does); Prabhudas Lilladher's pre-Ind AS basis is inferred from its implied EV."
+ ],
+ "conflicts": [
+  "Screener FY26 EBITDA Rs1,902 cr vs company Rs1,887.8 cr: Screener shows the Rs14.4 cr loss on disposal/discard of store assets below EBITDA. We forecast on the company basis.",
+  "Screener's Q1FY26 and Q2FY26 quarters are as first reported (Dunkin' inside); the company's re-presented Q1FY26 revenue is Rs2,252 cr vs Screener Rs2,261 cr."
+ ],
+ "street": {
+  "brokers": [
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "Motilal Oswal",
+    "date": "2026-08-13",
+    "rating": "Buy",
+    "tp": 625,
+    "method": "SOTP on EV/EBITDA (pre-Ind AS implied)",
+    "methodFull": "SOTP EV/EBITDA: India 28x + International 18x (pre-Ind AS implied: model shows pre-Ind AS EBITDA; the 13-Oct note, outside the window, says pre-Ind AS explicitly)",
+    "multiple": "India 28x, Intl 18x",
+    "mult": 28,
+    "on": "Mar-28E",
+    "basis": "consolidated",
+    "thesis": "Upgraded from Neutral to Buy in its early-Aug QSR thematic; Q1 in line, Domino's LFL +2.5% with orders +6.5%, Popeyes is a second growth engine; models 13% standalone revenue CAGR FY26-28E and a 12.5-13.0% pre-Ind AS margin.",
+    "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/47fd3bd8_JUBI-20260813-MOFSL-RU-PG012.pdf ; https://insights.dsij.in/markets/reports/report-details/jubilant-foodworks-ltd/45210",
+    "revenue": {
+     "FY27E": 10644,
+     "FY28E": 12067
+    },
+    "preEbitda": {
+     "FY27E": 1561,
+     "FY28E": 1809
+    },
+    "postEbitda": {
+     "FY27E": 2143,
+     "FY28E": 2472
+    },
+    "eps": {
+     "FY27E": 7.5,
+     "FY28E": 9.4
+    }
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "Prabhudas Lilladher",
+    "date": "2026-08-13",
+    "rating": "Buy",
+    "tp": 574,
+    "method": "SOTP: standalone EV/EBITDA pre-Ind AS + DP Eurasia P/E",
+    "methodFull": "SOTP: standalone 26x FY28E EV/EBITDA, pre-Ind AS implied (Rs506/sh; implied EV Rs334.5bn = 26 x ~Rs12.9bn, not the Rs19.4bn post-Ind AS figure) + DP Eurasia P/E on CY27 PAT Rs1,951mn (Rs68/sh)",
+    "multiple": "26x standalone; DP Eurasia 23x P/E",
+    "mult": 26,
+    "on": "FY28E (Mar-28E); DPEU CY27E",
+    "basis": "standalone",
+    "thesis": "Healthy near-term demand; price hikes, mix and supply chain limit the inflation hit; Popeyes 40%+ SSG; flat FY27 margin, then ~90bp expansion FY26-28; 32.8% standalone EPS CAGR FY26-28. TP trimmed from Rs576.",
+    "src": "https://plindia.com/ResReport/JUBI-13-8-26-PL.pdf",
+    "revenue": {
+     "FY27E": 7934,
+     "FY28E": 9282
+    },
+    "postEbitda": {
+     "FY27E": 1597,
+     "FY28E": 1936
+    },
+    "eps": {
+     "FY27E": 4.7,
+     "FY28E": 7.4
+    }
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "BOB Capital Markets",
+    "date": "2026-08-13",
+    "rating": "Buy",
+    "tp": 604,
+    "method": "SOTP: India EV/EBITDA (pre-Ind AS) + DP Eurasia P/E",
+    "methodFull": "SOTP: India EV/EBITDA (pre-Ind AS) + DP Eurasia P/E",
+    "multiple": "India 30x; DP Eurasia 35x P/E",
+    "mult": 30,
+    "on": "not stated",
+    "basis": "consolidated",
+    "thesis": "Order-led recovery: Domino's orders +6.5%, Popeyes +97% revenue; margins resilient; estimates unchanged; revenue/EBITDA CAGR 9.9%/10.2% FY26-29E. TP Rs604, up from Rs590 (21-May-2026).",
+    "src": "https://www.barodaetrade.com/Reports/JubilantFoodworks-Q1FY27ResultReview13Aug26-Research.pdf",
+    "revenue": {
+     "FY27E": 10418,
+     "FY28E": 11526
+    },
+    "postEbitda": {
+     "FY27E": 2005,
+     "FY28E": 2280
+    },
+    "eps": {
+     "FY27E": 7.1,
+     "FY28E": 8.5
+    }
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "Emkay Global",
+    "date": "2026-08-14",
+    "rating": "Buy",
+    "tp": 600,
+    "method": "SOTP on EV/EBITDA pre-Ind AS",
+    "methodFull": "SOTP EV/EBITDA pre-Ind AS 116: India 24x Jun-28E (Rs13.0bn -> Rs470/sh) + International 15x Jun-28E (Rs6.6bn -> Rs130/sh); implied 21x total",
+    "multiple": "India 24x, Intl 15x (21x blended)",
+    "mult": 21,
+    "on": "Jun-28E",
+    "basis": "consolidated",
+    "thesis": "TP up ~10% from Rs550 on management's confidence in an FY27 LFL pick-up (dine-in revival, ~400 store upgrades) and Popeyes traction (Rs10bn target); standalone pre-Ind AS margin fell only ~20bp despite ~200bp of inflation; the ~200bp FY28 margin goal is reaffirmed.",
+    "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/eaa873a1_JUBI Q1FY27 Result Update_Others.pdf ; https://investmentguruindia.com/newsdetail/buy-jubilant-foodworks-ltd-for-the-target-rs-600-by-emkay-global-financial-services-ltd250835",
+    "revenue": {
+     "FY27E": 10825,
+     "FY28E": 12283
+    },
+    "preEbitda": {
+     "FY27E": 1550,
+     "FY28E": 1880
+    },
+    "postEbitda": {
+     "FY27E": 2217,
+     "FY28E": 2647
+    },
+    "eps": {
+     "FY27E": 8,
+     "FY28E": 10.6
+    }
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "ICICI Securities",
+    "date": "2026-08-14",
+    "rating": "Buy",
+    "tp": 570,
+    "method": "DCF (May-2026 note; target unchanged)",
+    "methodFull": "DCF (stated in the 21-May-2026 note; the Aug note keeps TP Rs570 unchanged)",
+    "multiple": "DCF",
+    "mult": null,
+    "on": "–",
+    "basis": "consolidated",
+    "thesis": "'More on the menu': Q1 gives early evidence of improving operating momentum; LFL recovered to 2.5% from 0.2%; orders +6.5% and delivery +12.1% point to better demand than the LFL headline.",
+    "src": "https://trendlyne.com/posts/5796717/more-on-the-menu ; https://www.whalesbook.com/news/English/brokerage-reports/Jubilant-FoodWorks-ICICI-Securities-Retains-indian-rupee570-Target/6a82b8016ffbe1e6461f2ca3 ; https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-05/17793420160.84743800.pdf",
+    "eps": {
+     "FY27E": 7.6,
+     "FY28E": 9.3
+    },
+    "postEbitda": {
+     "FY27E": 2133,
+     "FY28E": 2464
+    },
+    "fcstFrom": "21-May-2026 note"
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "Jefferies",
+    "date": "2026-08-14",
+    "rating": "Buy",
+    "tp": 650,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "TP raised to Rs650 from Rs600 (set 21-May-2026). In-line quarter; Domino's India LFL still weak but expected to accelerate on a favourable base; EBITDA margin decline contained; Popeyes ADS above Rs95k.",
+    "src": "https://businessupturn.com/finance/stock-market/brokerages/jubilant-foodworks-jefferies-raises-target-to-rs-650-but-calls-it-an-in-line-quarter/ ; https://www.freepressjournal.in/business/jubilant-foodworks-shares-jump-4-after-q1-results"
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "CLSA",
+    "date": "2026-08-14",
+    "rating": "Outperform",
+    "tp": 554,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "Standalone sales +9.2%, LFL 2.5%; gross margin beat by 46bp; management guides 5-7% LFL in FY27 with improvement from Q2; FY27-29E estimates raised 12-14%. Previous view was Outperform, TP Rs520 (7-Jul-2026).",
+    "src": "https://www.freepressjournal.in/business/jubilant-foodworks-shares-jump-4-after-q1-results ; https://growmudra.com/news/details/fad68b730c6c465f6a6630b0ed0199cb/jubilant-foodworks-stock-jumps-4-ter-q1-brokerages-eye-domino-s-growth-improvement-popeyes-momentum"
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "HSBC",
+    "date": "2026-08-14",
+    "rating": "Hold",
+    "tp": 500,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "Domino's growth muted (LFL 2.5%) but margins well managed; Popeyes the standout; expects a gradual recovery (models 5% LFL in Q2FY27); commodity inflation is the key monitorable. Hold and Rs500 retained.",
+    "src": "https://www.freepressjournal.in/business/jubilant-foodworks-shares-jump-4-after-q1-results"
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "Nuvama",
+    "date": "2026-08-14",
+    "rating": "Buy",
+    "tp": 668,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "TP raised to Rs668 from Rs646 (the May-2026 note was 'Buy with negative bias', down from Rs744). Raised FY27/28E revenue 1.4-1.7% and EBITDA 2.7-6.4%; stock at Rs496 = 52x FY28E EPS. Per a Business Standard 19-Aug-2026 article (403, seen only via search snippet) and an Investing.com table.",
+    "src": "https://www.business-standard.com/markets/news/growth-margin-recovery-ahead-for-jubilant-foodworks-as-demand-improves-126081901203_1.html ; https://www.investing.com/equities/jubilant-foodworks-consensus-estimates"
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "Kotak Institutional Equities",
+    "date": "2026-08-14",
+    "rating": "Buy",
+    "tp": 540,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "Only the aggregator row exists: Buy, TP Rs540 (from Rs520), 14-Aug-2026. No primary note or article found.",
+    "src": "https://www.investing.com/equities/jubilant-foodworks-consensus-estimates",
+    "aggregator": true
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "Axis Capital",
+    "date": "2026-08-14",
+    "rating": "Sell",
+    "tp": 505,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "Initiation (new coverage) per an Investing.com aggregator row only; not confirmed by any primary note or article.",
+    "src": "https://in.investing.com/equities/jubilant-foodworks-consensus-estimates",
+    "aggregator": true
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "Bernstein",
+    "date": "2026-08-14",
+    "rating": "Outperform",
+    "tp": 680,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "Outperform maintained (~38% upside). Domino's India LFL of 2.5% was below expectations, but Bernstein stays positive on Popeyes momentum. Date is approximate (post-Q1 coverage); source is a secondary Swastika blog that now returns 404.",
+    "src": "https://www.swastika.co.in/blog/jubilant-foodworks-limited-share-price-q1-fy27-results-and-popeyes-momentum",
+    "aggregator": true
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "J.P. Morgan",
+    "date": "2026-08-18",
+    "rating": "Neutral",
+    "tp": 520,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "StockAnalysis lists analyst Latika Chopra, 'Maintains', Rs520 on 18-Aug-2026. The earlier visible JPM note was Neutral, TP cut to Rs500 (30-Mar-2026: LPG disruption, West Asia demand slowdown, FY27 EBITDA cut 7%).",
+    "src": "https://stockanalysis.com/quote/nse/JUBLFOOD/forecast/ ; https://sahi.com/news/jpmorgan-trims-jubilant-foodworks-target-to-500-energy-crisis-meets-demand-headwinds-3014-PE1_COR",
+    "aggregator": true
+   },
+   {
+    "current": true,
+    "postQ1": true,
+    "broker": "Macquarie",
+    "date": "2026-08-26",
+    "rating": "Neutral",
+    "tp": 520,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "QSR sector upgrade: demand recovery gaining pace, channel checks show Q2 SSSG ahead of Q1, and sector EBITDA CAGR above 20% FY26-29E. JFL is ranked last of the four (behind Devyani, Sapphire, Westlife) given EPS volatility from Turkey. TP raised from Rs375.",
+    "src": "https://businessupturn.com/finance/stock-market/brokerages/qsr-stocks-macquarie-constructive-devyani-sapphire-westlife-jubilant/"
+   },
+   {
+    "current": true,
+    "postQ1": false,
+    "broker": "Morgan Stanley",
+    "date": "2026-07-07",
+    "rating": "Equal-weight",
+    "tp": 486,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "Reaction to the Q1FY27 business update: India revenue +9.2% in line, LFL improved to 2.5%, 58 stores (ahead); consolidated growth of 14.1% below estimates; margin pressure from input inflation. Downgraded from OW (TP 693) to EW, TP 486, on ~17-Apr-2026. No post-results note found.",
+    "src": "https://univest.in/blogs/jubilant-foodworks-share-price-target-morgan-stanley-486 ; https://www.sahi.com/news/morgan-stanley-slashes-jubilant-foodworks-target-to-486-navigating-the-qsr-chill-3014-PE1_COR"
+   },
+   {
+    "current": true,
+    "postQ1": false,
+    "broker": "Elara Securities",
+    "date": "2026-07-02",
+    "rating": "Accumulate",
+    "tp": 500,
+    "method": "Not visible (Feb-2026: standalone EV/EBITDA + DP Eurasia P/E)",
+    "methodFull": "– (Feb-2026 method was standalone 36x EV/EBITDA pre-Ind AS + DPEU 40x P/E Dec-27E; the method behind the May cut is not visible)",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "Q1FY27 consumer preview: delivery-driven JUBI may post 3-4% LFL; EBITDA margin may shed ~78bp to ~19.7%. Accumulate, TP Rs500, set 20-May-2026 (downgraded from Buy, cut from Rs780). No post-Q1 Elara note found.",
+    "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/8cd4cbd0_Elara Securities -Expect steady recovery across pockets    -  2 July 2026.pdf"
+   },
+   {
+    "current": true,
+    "postQ1": false,
+    "broker": "Geojit",
+    "date": "2026-06-09",
+    "rating": "Accumulate",
+    "tp": 475,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "Downgraded from Buy (TP 602, Feb-2026): strong brand and delivery traction, but dine-in and takeaway demand softer than expected.",
+    "src": "https://trendlyne.com/posts/5685631/jubilant-foodworks-limited"
+   },
+   {
+    "current": true,
+    "postQ1": false,
+    "broker": "Citi",
+    "date": "2026-06-01",
+    "rating": "–",
+    "tp": 650,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "TP cut ~19% to Rs650 (implies ~Rs800 before) on a sluggish SSS recovery. The date is the article date; the note may be from late May 2026.",
+    "src": "https://www.whalesbook.com/news/English/consumer-products/Jubilant-FoodWorks-Valuation-Stretched-as-Brokerages-Pivot/6a1d0434cc8b4288bbd02bea"
+   },
+   {
+    "current": true,
+    "postQ1": false,
+    "broker": "Goldman Sachs",
+    "date": "2026-05-21",
+    "rating": "Neutral",
+    "tp": 460,
+    "method": "Not visible",
+    "methodFull": "–",
+    "multiple": "–",
+    "mult": null,
+    "on": "–",
+    "basis": "–",
+    "thesis": "After Q4FY26: TP cut from Rs480 and earnings estimates cut; expects Domino's India growth to lag peers in FY27; near-term margin pressure from energy, wages and RM. No post-Q1 GS note found.",
+    "src": "https://www.whalesbook.com/news/English/consumer-products/Jubilant-FoodWorks-Profit-Dips-But-Margins-Improve-Amid-Cost-Gains/6a0e9402e28c1d234356ac9f"
+   },
+   {
+    "current": true,
+    "postQ1": false,
+    "broker": "Centrum",
+    "date": "2026-02-10",
+    "rating": "Buy",
+    "tp": 690,
+    "method": "SOTP on EV/EBITDA",
+    "methodFull": "SOTP EV/EBITDA: domestic 33x + international 12x",
+    "multiple": "Domestic 33x, Intl 12x",
+    "mult": 33,
+    "on": "Mar-28E",
+    "basis": "–",
+    "thesis": "Post-Q3FY26: TP raised from Rs670; FY26/FY27 EPS raised 15%/20%. STALE: predates Q4FY26, and no later Centrum note was found (likely superseded).",
+    "src": "https://bsmedia.business-standard.com/_media/bs/data/market-reports/equity-brokertips/2026-02/17707916420.27136200.pdf",
+    "stale": "Feb-2026 note, before Q4FY26: superseded in substance; kept in the all-notes median only"
+   }
+  ],
+  "consensus": [
+   {
+    "date": "2026-08-13",
+    "source": "BOBCAPS note citing Bloomberg consensus",
+    "item": "Consensus EPS FY26 Rs5.9, FY27E Rs7.3, FY28E Rs9.1",
+    "src": "https://www.barodaetrade.com/Reports/JubilantFoodworks-Q1FY27ResultReview13Aug26-Research.pdf"
+   },
+   {
+    "date": "2026-07-22",
+    "source": "Trendlyne consensus page (snapshot date per search snippet)",
+    "item": "Average target Rs538 from 29 analysts; FY27 revenue growth 11.5%, profit growth 8.0%",
+    "src": "https://trendlyne.com/equity/consensus-estimates/701/JUBLFOOD/jubilant-foodworks-ltd/"
+   },
+   {
+    "date": "2026-06-22",
+    "source": "StockAnalysis / S&P Global (snapshot)",
+    "item": "29 analysts, consensus Buy, average TP Rs542.34 (close Rs433.30)",
+    "src": "https://stockanalysis.com/quote/nse/JUBLFOOD/forecast/"
+   },
+   {
+    "date": "2026-08-18 (last target update; snapshot date uncertain, possibly early Oct)",
+    "source": "StockAnalysis / S&P Global",
+    "item": "28 analysts, consensus Buy, average TP Rs561.46, range Rs417-680",
+    "src": "https://stockanalysis.com/quote/nse/JUBLFOOD/forecast/"
+   },
+   {
+    "date": "undated (between Aug and Oct 2026)",
+    "source": "Investing.com",
+    "item": "Average 12M TP Rs558.96, high Rs680, low Rs417 (28-29 analysts)",
+    "src": "https://in.investing.com/equities/jubilant-foodworks-consensus-estimates"
+   }
+  ],
+  "notes": [
+   "Street valuation framework (a): every domestic broker with a visible method uses SOTP EV/EBITDA on pre-Ind AS (IndAS-116-excluded) EBITDA for India/standalone, plus a separate international or DP Eurasia leg. Post-Q1 India/standalone multiples: MOFSL 28x Mar-28E; PL 26x FY28E; BOBCAPS 30x (year not stated); Emkay 24x Jun-28E. International: MOFSL 18x EV/EBITDA Mar-28E; Emkay 15x pre-Ind AS EBITDA Jun-28E (Rs6.6bn -> Rs130/sh). Emkay's blended implied multiple is 21x Jun-28E pre-Ind AS EBITDA. Pre-Q4 benchmarks: Centrum 33x domestic / 12x international Mar-28E (Feb-2026); Elara 36x standalone pre-Ind AS + DPEU 40x P/E Dec-27E (Feb-2026); PL 33x FY27 standalone + 22x DPEU PAT (late 2025/early 2026). Multiples have compressed sharply since Feb-2026.",
+   "Trading multiple at the Q1 print, from MOFSL's 13-Aug-2026 table at CMP Rs494: consolidated EV/EBITDA FY28E is ~18.2x pre-Ind AS and ~13.3x post-Ind AS (my reading of a garbled PDF table: the ratio of the two rows matches the ratio of pre/post-Ind AS EBITDA, 24,719/18,086 = 1.37). P/E is 52.6x FY28E. BOBCAPS at Rs492: EV/EBITDA (post) 14.2x FY28E, P/E 57.7x. Nuvama at Rs496: 52x FY28E EPS.",
+   "DP Eurasia in SOTPs (b): PL (13-Aug-2026) values it at Rs68/sh on CY27E PAT Rs1,951mn x 23x (the text says 22x; the exhibit math is 23x), equity value Rs44.9bn. BOBCAPS (13-Aug-2026) uses DP Eurasia 35x P/E (per-share value not shown). Emkay (14-Aug-2026) values international as a whole (DPEU + Sri Lanka + Bangladesh) at 15x Jun-28E pre-Ind AS EBITDA = Rs98bn EV, Rs8bn net debt -> Rs130/sh. MOFSL (13-Aug-2026) values international at 18x Mar-28E EV/EBITDA (per-share value not shown). Elara (10-Feb-2026): DPEU 40x P/E Dec-27E. Centrum (10-Feb-2026): international 12x EV/EBITDA Mar-28E. PL guidance context: DPEU PAT margin 7-9%; Ind AS 29 hyperinflation accounting depresses reported PAT.",
+   "Rating mix of the latest note per broker <= 30-Sep-2026 (20 brokers): Buy/Outperform 11 (MOFSL, PL, BOBCAPS, Emkay, I-Sec, Jefferies, CLSA, Nuvama, Kotak, Bernstein, Centrum-stale); Hold/Neutral/EW/Accumulate 7 (HSBC, JPM, Macquarie, MS, GS, Elara, Geojit); Sell 1 (Axis Capital); Citi rating not stated. TP range Rs460 (GS) to Rs690 (Centrum, stale) or Rs680 (Bernstein, current). Simple mean of the 20 TPs is ~Rs569; excluding stale Centrum it is ~Rs562.",
+   "MOFSL sequence: Neutral, TP Rs475, after the 7-Jul-2026 Q1 business update (Business Standard 7-Jul-2026); upgraded to Buy, TP Rs625, in the QSR thematic (~4-Aug-2026, file CONSUMER-QSR-20260804-MOFSL); reiterated 13-Aug-2026.",
+   "Other pre-Q1 points: Jefferies cut its TP from Rs850 to Rs600 on 21-May-2026 (FY27-28 EBITDA cut 10-12%). BOBCAPS Buy Rs590 (21-May-2026). Emkay Buy Rs550 (21-May-2026, 22x Mar-28 EBITDA). I-Sec Buy Rs570 DCF (21-May-2026). PL Buy Rs576 (20-May-2026). Nuvama Buy, negative bias, Rs646 from Rs744 (May-2026). Antique upgraded to Buy, TP Rs620 from Rs600 (Business Standard, 7-Jan-2026); no later Antique note found, so it is not in the brokers list. UBS: Sell, TP Rs540, 12-Jan-2026 per its disclosure table; a later Rs600 Buy existed before the 9-Nov-2026 cut, but its date is unknown and could be October, so UBS is excluded. Avendus Spark: undated items (Add, Rs700 from Rs735; upgrade to Buy, Rs675), date unverifiable, so excluded.",
+   "BP Wealth published a Q1FY27 result update (14-Aug-2026) on Trendlyne, but the rating and TP are behind a login. JM Financial, Sharekhan, HDFC Sec, ICICI Direct, Axis Securities, Choice, Ambit, Systematix, Nomura, BofA: no note dated May-Sep 2026 was found.",
+   "Low-confidence entries (aggregator only, no primary text): Kotak (Rs540), Axis Capital (Sell, Rs505), JPM (Rs520 on 18-Aug), Bernstein (Rs680; date approximate). Nuvama's Rs668 is backed by Investing.com plus a Business Standard snippet. Business Standard pages return 403 and were not read in full.",
+   "Q1FY27 actuals cited by brokers: consolidated revenue Rs25,697mn (+14.1%); EBITDA Rs5,039mn (19.6%); standalone revenue Rs18,489mn (+9.2%); standalone EBITDA post-Ind AS Rs3,597mn (19.5%); standalone pre-Ind AS margin 12.1% (-20bp); Domino's LFL +2.5%; orders +6.5%; Popeyes revenue +97%, LFL 40-45%; DP Eurasia revenue +28.2%."
+  ],
+  "rejectedLaterThanAsOf": [
+   {
+    "date": "2026-10-13",
+    "item": "MOFSL 'Steady performer; attractive valuation': Buy, TP Rs625; India 27x / Intl 15x pre-Ind AS EV/EBITDA Sep-28E; stock at 15x FY28E pre-Ind AS EV/EBITDA",
+    "src": "https://investmentguruindia.com/newsdetail/buy-jubilant-foodworks-ltd-for-the-target-rs-625-by-motilal-oswal-financial-services-ltd127759"
+   },
+   {
+    "date": "2026-11-06",
+    "item": "PL Q2FY27 note: 25x FY28 pre-Ind AS EV/EBITDA standalone (Rs464/sh) + DPEU Rs68",
+    "src": "https://www.plindia.com/ResReport/JUBI-6-11-26-PL.pdf"
+   },
+   {
+    "date": "2026-11-07",
+    "item": "MOFSL Q2FY27: Buy, TP Rs625 (27x/15x Sep-28E)",
+    "src": "https://investmentguruindia.com/newsdetail/buy-jubilant-foodworks-ltd-for-target-rs-625-by-motilal-oswal-financial-services-ltd432542"
+   },
+   {
+    "date": "2026-11-09",
+    "item": "ICICI Securities Buy, TP cut to Rs500 (DCF)",
+    "src": "https://trendlyne.com/posts/5943215/recovery-is-on-the-menu"
+   },
+   {
+    "date": "2026-11-09",
+    "item": "CLSA Outperform, TP Rs550 (from Rs554); UBS Buy Rs540 (from Rs600); Kotak Buy Rs530 (from Rs540); JPM Neutral Rs520; HSBC Rs510",
+    "src": "https://www.businesstoday.in/markets/stocks/story/jubilant-foodworks-clsa-cuts-target-price-after-q2-results-stock-tanks-5-566518-2026-11-09 ; https://www.investing.com/equities/jubilant-foodworks-consensus-estimates"
+   },
+   {
+    "date": "2026-11-11",
+    "item": "Business Standard Q2 article citing MOFSL Rs614 and a Rs610 Buy",
+    "src": "https://www.business-standard.com/markets/news/consistent-growth-margin-gains-to-drive-upside-for-jubilant-foodworks-126111101282_1.html"
+   },
+   {
+    "date": "2026-11 (live pages)",
+    "item": "Trendlyne average TP Rs547.50 from 5 brokers; StockAnalysis 29 analysts avg Rs545.28 (15 SB / 5 B / 6 H / 2 S / 1 SS); Investing.com 20 Buy / 6 Hold / 3 Sell, avg Rs545.28",
+    "src": "https://trendlyne.com/research-reports/stock/701/JUBLFOOD/jubilant-foodworks-ltd/"
+   },
+   {
+    "date": "2026-10/11",
+    "item": "Any reference to Q2FY27 (LFL 4.1%, revenue +11%); Elara/others' Q2 views",
+    "src": "various"
+   }
+  ],
+  "methodSummary": "Every broker with a visible method values JFL as a sum of the parts on EV/EBITDA before Ind AS 116 (after rent, EV without lease liabilities): India or standalone at 24-30x FY28E/Jun-28E (Emkay 24x, Prabhudas Lilladher 26x, Motilal Oswal 28x, BOB Capital Markets 30x) and International at 15-18x EBITDA (Emkay, Motilal Oswal) or DP Eurasia on 23-35x P/E (Prabhudas Lilladher, BOB Capital Markets). Emkay's blend is 21x Jun-28E. In Feb-2026 India multiples were 33-36x (Centrum, Elara): the street has already cut them by about a quarter. ICICI Securities uses a DCF.",
+  "consensusText": "Consensus before 30-Sep-2026: Bloomberg EPS FY27E Rs7.3, FY28E Rs9.1 (cited by BOB Capital Markets, 13-Aug-2026); average target Rs538 from 29 analysts (Trendlyne, 22-Jul-2026) and Rs542 (StockAnalysis/S&P, 22-Jun-2026).",
+  "notInTable": "Not in the table: UBS (Buy Rs600; date not confirmable before 30-Sep), Avendus Spark (undated), Antique (last seen Jan-2026), BP Wealth (behind a login). Kotak, Axis Capital, Bernstein and J.P. Morgan are aggregator rows (Investing.com, StockAnalysis, a blog) without a primary note."
+ }
+}

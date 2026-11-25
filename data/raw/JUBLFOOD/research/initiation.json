@@ -1,0 +1,4276 @@
+{
+ "symbol": "JUBLFOOD",
+ "listing": "NSE: JUBLFOOD · BSE: 533155",
+ "date": "30 September 2026",
+ "rating": "BUY",
+ "analysts": "GAM Research — Consumer services (QSR)",
+ "cover": {
+  "headline": "India's pizza leader is cheap against its own history: growth is slower, but the multiple has fallen further",
+  "lead": "Jubilant FoodWorks (JFL) runs Domino's in India (2,455 stores), Popeyes and Hong's Kitchen, and since Feb-2024 owns 93.65% of DP Eurasia (Domino's and COFFY in Turkey, Azerbaijan, Georgia). FY26 revenue rose 17.4% to ₹9,513 cr, but Domino's India like-for-like (LFL) growth fell from 11.6% to 0.2% during the year and was 2.5% in Q1FY27. We forecast EPS of ₹7.09 / ₹9.15 / ₹11.27 for FY27-29E, in line with consensus. The street values JFL on **EV/EBITDA after rent, India plus International (24-30x and 15-18x FY28E)**. The house rule (its own forward EV/EBITDA median since Apr-2021, 23.5x, times the QSR peers' −27.0% move against their five-year medians) gives **17x Sep-28E EBITDA of ₹2,648 cr, less minorities = {{dcf.tp|inr}} ({{dcf.upside|chg}}): we initiate with BUY.** That is ≈23.0x EBITDA after rent on the street's basis, inside its range. Cross-checks: P/E ₹802, DCF ₹333. Bull {{scen.bull.tp|inr}}; bear {{scen.bear.tp|inr}}.",
+  "arguments": [
+   {
+    "h": "The multiple has fallen more than the business",
+    "p": "At ₹456.70 JFL trades at 13.4x Sep-28E EBITDA (after Ind AS 116, leases in debt), against a 23.5x one-year-forward median since Apr-2021 and 21.4x since Turkey was consolidated. Its trailing EV/EBITDA is −44.3% below its five-year median; Westlife, Devyani and Sapphire are a median −27.0% below theirs. EBITDA still grew ~19% in FY26 and 14% in Q1FY27."
+   },
+   {
+    "h": "Domino's India: orders are growing, ticket size is not",
+    "p": "Q1FY27 orders +6.5%, delivery revenue +12.1%, but LFL only 2.5% as the ₹99 minimum order (matching aggregators) cut ticket sizes and dine-in kept shrinking. We assume LFL of ~4.5% in FY27E against the 5-7% guide and ~240-260 new stores a year: India revenue +{{as.segments.0.growth.0|pct0}} / +{{as.segments.0.growth.1|pct0}} / +{{as.segments.0.growth.2|pct0}}."
+   },
+   {
+    "h": "Popeyes and the supply chain are the operating leverage",
+    "p": "Popeyes grew revenue 97% in Q1FY27 with LFL above 40% for a third quarter; management targets a ₹1,000 cr brand in 3-4 years. Supply-chain capex is past its peak (capacity for ~5,000 stores), so capex stays ~₹750-900 cr while revenue grows. Management keeps a +200 bp after-rent margin goal by FY28; we model about +125 bp over three years."
+   },
+   {
+    "h": "Turkey: real growth hidden by inflation accounting",
+    "p": "DP Eurasia (₹2,456 cr revenue, ₹204 cr PAT in FY26) grows ~28% in rupees, but Domino's Turkey LFL was −1.3% after inflation in Q1FY27 and reported EBITDA swings with the IAS 29 monetary gain. It brings minorities (6.35%), most of the ₹1,745 cr bank debt (euro loans due in FY27) and currency risk; we value it at the group multiple and show a lower one as a sensitivity."
+   }
+  ],
+  "keyRows": [
+   [
+    "Revenue (₹ cr)",
+    "sales",
+    "num"
+   ],
+   [
+    "growth",
+    "salesGrowth",
+    "chg"
+   ],
+   [
+    "EBITDA margin (before rent)",
+    "ebitdaMargin",
+    "pct"
+   ],
+   [
+    "Net profit (₹ cr)",
+    "pat",
+    "num"
+   ],
+   [
+    "EPS (₹)",
+    "eps",
+    "n2"
+   ],
+   [
+    "EPS growth",
+    "epsGrowth",
+    "chg"
+   ]
+  ],
+  "flags": [
+   {
+    "k": "Accounting",
+    "v": "AMBER"
+   },
+   {
+    "k": "Governance",
+    "v": "GREEN"
+   },
+   {
+    "k": "Earnings momentum",
+    "v": "AMBER"
+   },
+   {
+    "k": "Competitive position",
+    "v": "GREEN"
+   },
+   {
+    "k": "Valuation",
+    "v": "GREEN"
+   }
+  ],
+  "catalysts": [
+   "Q2FY27 results (due by mid-November 2026): management expects Domino's LFL above Q1's 2.5%; the base eases from Q3 (5.0%, then 0.2%).",
+   "Refinancing of the two euro term loans (EUR 109.6 mn, ~₹1,183 cr) that fall due in FY27.",
+   "Popeyes: 35-40 openings a year and the path to EBITDA break-even.",
+   "Dunkin' exit under way (27 stores at Mar-2026, 15 at Jun-2026): a cleaner standalone P&L from FY27.",
+   "Turkish inflation and the lira: a lower monetary gain cuts reported International EBITDA."
+  ]
+ },
+ "sections": [
+  {
+   "id": "narrative",
+   "nav": "The story in charts",
+   "kicker": "The story in 8 exhibits",
+   "title": "The story in charts",
+   "blocks": [
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: ₹4,396 cr (FY22) to ₹9,513 cr (FY26), ₹{{F.sales.2|num}} cr in FY29E",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY22",
+       "to": "FY29E",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in; GAM estimates FY27-29E"
+      },
+      {
+       "type": "stacked",
+       "title": "Revenue mix: International a quarter of the total in FY25, 28% in FY26",
+       "unit": "Revenue (₹ crore)",
+       "x": [
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "India",
+         "values": [
+          5096,
+          5341,
+          6057,
+          6848,
+          7581,
+          8468,
+          9450
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "International",
+         "values": [
+          62,
+          313,
+          2047,
+          2664,
+          3251,
+          3738,
+          4224
+         ],
+         "fmt": "num"
+        }
+       ],
+       "minLabel": 300,
+       "source": "AR FY24/FY26 geographic note; GAM estimates. FY23-24 India incl. Dunkin'."
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Domino's India LFL: 11.6% (Q1FY26) to 0.2% (Q4FY26), 2.5% in Q1FY27",
+       "unit": "LFL revenue growth (%)",
+       "x": [
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "LFL",
+         "values": [
+          11.6,
+          9.1,
+          5,
+          0.2,
+          2.5
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 presentation slide 15; Q1FY27 letter"
+      },
+      {
+       "type": "column",
+       "title": "EBITDA margin before and after rent: ~20% and ~13%",
+       "unit": "EBITDA margin (%)",
+       "x": [
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "After Ind AS 116 (before rent)",
+         "values": [
+          19.6,
+          19.8,
+          19.8,
+          20.2,
+          20.7
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "After rent (pre-Ind AS)",
+         "values": [
+          12.8,
+          13.1,
+          13.2,
+          13.7,
+          14.3
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26 (EBITDA less lease payments); GAM estimates"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "EPS before one-offs: ₹6.55 (FY22), ₹3.70 (FY25), ₹{{F.eps.2|n2}} in FY29E",
+       "unit": "EPS before exceptional and discontinued items (₹)",
+       "x": [
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "EPS",
+         "values": [
+          6.55,
+          5.47,
+          4.14,
+          3.7,
+          6.08,
+          7.09,
+          9.15,
+          11.27
+         ],
+         "fmt": "n2"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in (profit for P/E), AR FY26 (continuing PAT before exceptional items less minorities); GAM estimates"
+      },
+      {
+       "type": "line",
+       "title": "Forward EV/EBITDA: 14.4x FY28E now vs a 23.5x median since Apr-2021",
+       "unit": "EV (incl. leases and minorities) ÷ next full-year EBITDA (x)",
+       "x": [
+        "2021-04-01",
+        "2021-04-16",
+        "2021-04-30",
+        "2021-05-14",
+        "2021-05-28",
+        "2021-06-11",
+        "2021-06-25",
+        "2021-07-09",
+        "2021-07-23",
+        "2021-08-06",
+        "2021-08-20",
+        "2021-09-03",
+        "2021-09-17",
+        "2021-10-01",
+        "2021-10-14",
+        "2021-10-29",
+        "2021-11-12",
+        "2021-11-26",
+        "2021-12-10",
+        "2021-12-24",
+        "2022-01-07",
+        "2022-01-21",
+        "2022-02-04",
+        "2022-02-18",
+        "2022-03-04",
+        "2022-03-17",
+        "2022-04-01",
+        "2022-04-13",
+        "2022-04-29",
+        "2022-05-13",
+        "2022-05-27",
+        "2022-06-10",
+        "2022-06-24",
+        "2022-07-08",
+        "2022-07-22",
+        "2022-08-05",
+        "2022-08-19",
+        "2022-09-02",
+        "2022-09-16",
+        "2022-09-30",
+        "2022-10-14",
+        "2022-10-28",
+        "2022-11-11",
+        "2022-11-25",
+        "2022-12-09",
+        "2022-12-23",
+        "2023-01-06",
+        "2023-01-20",
+        "2023-02-03",
+        "2023-02-17",
+        "2023-03-03",
+        "2023-03-17",
+        "2023-03-31",
+        "2023-04-13",
+        "2023-04-28",
+        "2023-05-12",
+        "2023-05-26",
+        "2023-06-09",
+        "2023-06-23",
+        "2023-07-07",
+        "2023-07-21",
+        "2023-08-04",
+        "2023-08-18",
+        "2023-09-01",
+        "2023-09-15",
+        "2023-09-29",
+        "2023-10-13",
+        "2023-10-27",
+        "2023-11-12",
+        "2023-11-24",
+        "2023-12-08",
+        "2023-12-22",
+        "2024-01-05",
+        "2024-01-20",
+        "2024-02-02",
+        "2024-02-16",
+        "2024-03-02",
+        "2024-03-15",
+        "2024-03-28",
+        "2024-04-12",
+        "2024-04-26",
+        "2024-05-10",
+        "2024-05-24",
+        "2024-06-07",
+        "2024-06-21",
+        "2024-07-05",
+        "2024-07-19",
+        "2024-08-02",
+        "2024-08-16",
+        "2024-08-30",
+        "2024-09-13",
+        "2024-09-27",
+        "2024-10-11",
+        "2024-10-25",
+        "2024-11-08",
+        "2024-11-22",
+        "2024-12-06",
+        "2024-12-20",
+        "2025-01-03",
+        "2025-01-17",
+        "2025-02-01",
+        "2025-02-14",
+        "2025-02-28",
+        "2025-03-13",
+        "2025-03-28",
+        "2025-04-11",
+        "2025-04-25",
+        "2025-05-09",
+        "2025-05-23",
+        "2025-06-06",
+        "2025-06-20",
+        "2025-07-04",
+        "2025-07-18",
+        "2025-08-01",
+        "2025-08-14",
+        "2025-08-29",
+        "2025-09-12",
+        "2025-09-26",
+        "2025-10-10",
+        "2025-10-24",
+        "2025-11-07",
+        "2025-11-21",
+        "2025-12-05",
+        "2025-12-19",
+        "2026-01-02",
+        "2026-01-16",
+        "2026-02-01",
+        "2026-02-13",
+        "2026-02-27",
+        "2026-03-13",
+        "2026-03-27",
+        "2026-04-10",
+        "2026-04-24",
+        "2026-05-08",
+        "2026-05-22",
+        "2026-06-05",
+        "2026-06-19",
+        "2026-07-03",
+        "2026-07-17",
+        "2026-07-31",
+        "2026-08-14",
+        "2026-08-28",
+        "2026-09-11",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          35.1,
+          33.6,
+          34.4,
+          33.4,
+          37.1,
+          37.9,
+          36.7,
+          36.6,
+          41.9,
+          43.6,
+          46.6,
+          48.3,
+          48.1,
+          47.5,
+          51.7,
+          43.3,
+          47,
+          43,
+          44.5,
+          40.4,
+          44.2,
+          43.5,
+          37.7,
+          35.1,
+          31,
+          30.2,
+          31.5,
+          32.1,
+          31.6,
+          27.5,
+          29.9,
+          30.4,
+          30.9,
+          33.3,
+          33.6,
+          33.3,
+          34.5,
+          35,
+          36.2,
+          36,
+          34.5,
+          34.3,
+          32.6,
+          32.2,
+          31,
+          29.6,
+          28.9,
+          29.6,
+          25,
+          26.5,
+          25.6,
+          24.8,
+          25.6,
+          18.4,
+          18.9,
+          19.7,
+          20.4,
+          20.8,
+          20.7,
+          21.3,
+          20.2,
+          22.3,
+          20.8,
+          21.9,
+          23,
+          23,
+          23.2,
+          21.8,
+          22,
+          23.5,
+          24.1,
+          25,
+          23.9,
+          22.6,
+          21.4,
+          21.4,
+          20.3,
+          19.4,
+          19.5,
+          16.8,
+          15.9,
+          16.8,
+          17,
+          20,
+          21.2,
+          21.8,
+          21.4,
+          23.1,
+          24.4,
+          24.6,
+          25.6,
+          25.9,
+          23.9,
+          22.3,
+          23.1,
+          24.1,
+          26.1,
+          25.4,
+          28.4,
+          26,
+          27.7,
+          25.2,
+          23.7,
+          22.7,
+          25.1,
+          22.9,
+          23.2,
+          22.4,
+          22.3,
+          23.9,
+          23.9,
+          24.4,
+          23.5,
+          22.2,
+          21.9,
+          21.8,
+          22,
+          21.1,
+          21,
+          20.6,
+          20.1,
+          20.5,
+          20.7,
+          19.7,
+          19.4,
+          18.6,
+          17.5,
+          18.8,
+          18.3,
+          16.4,
+          16.3,
+          13.8,
+          15.1,
+          14.6,
+          13.6,
+          13.6,
+          13.4,
+          13.7,
+          13.4,
+          13.9,
+          15.8,
+          15.4,
+          14.8,
+          15.2,
+          14.4
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "lines": [
+        {
+         "v": 17,
+         "text": "Our multiple: 17x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in weekly prices; realised EBITDA, FY27-28E GAM estimates"
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Share price: ₹456.70 on 30-Sep-2026, 23% below Apr-2021",
+       "unit": "₹ per share (weekly close)",
+       "x": [
+        "2021-04-01",
+        "2021-04-09",
+        "2021-04-16",
+        "2021-04-23",
+        "2021-04-30",
+        "2021-05-07",
+        "2021-05-14",
+        "2021-05-21",
+        "2021-05-28",
+        "2021-06-04",
+        "2021-06-11",
+        "2021-06-18",
+        "2021-06-25",
+        "2021-07-02",
+        "2021-07-09",
+        "2021-07-16",
+        "2021-07-23",
+        "2021-07-30",
+        "2021-08-06",
+        "2021-08-13",
+        "2021-08-20",
+        "2021-08-27",
+        "2021-09-03",
+        "2021-09-09",
+        "2021-09-17",
+        "2021-09-24",
+        "2021-10-01",
+        "2021-10-08",
+        "2021-10-14",
+        "2021-10-22",
+        "2021-10-29",
+        "2021-11-04",
+        "2021-11-12",
+        "2021-11-18",
+        "2021-11-26",
+        "2021-12-03",
+        "2021-12-10",
+        "2021-12-17",
+        "2021-12-24",
+        "2021-12-31",
+        "2022-01-07",
+        "2022-01-14",
+        "2022-01-21",
+        "2022-01-28",
+        "2022-02-04",
+        "2022-02-11",
+        "2022-02-18",
+        "2022-02-25",
+        "2022-03-04",
+        "2022-03-11",
+        "2022-03-17",
+        "2022-03-25",
+        "2022-04-01",
+        "2022-04-08",
+        "2022-04-13",
+        "2022-04-22",
+        "2022-04-29",
+        "2022-05-06",
+        "2022-05-13",
+        "2022-05-20",
+        "2022-05-27",
+        "2022-06-03",
+        "2022-06-10",
+        "2022-06-17",
+        "2022-06-24",
+        "2022-07-01",
+        "2022-07-08",
+        "2022-07-15",
+        "2022-07-22",
+        "2022-07-29",
+        "2022-08-05",
+        "2022-08-12",
+        "2022-08-19",
+        "2022-08-26",
+        "2022-09-02",
+        "2022-09-09",
+        "2022-09-16",
+        "2022-09-23",
+        "2022-09-30",
+        "2022-10-07",
+        "2022-10-14",
+        "2022-10-21",
+        "2022-10-28",
+        "2022-11-04",
+        "2022-11-11",
+        "2022-11-18",
+        "2022-11-25",
+        "2022-12-02",
+        "2022-12-09",
+        "2022-12-16",
+        "2022-12-23",
+        "2022-12-30",
+        "2023-01-06",
+        "2023-01-13",
+        "2023-01-20",
+        "2023-01-27",
+        "2023-02-03",
+        "2023-02-10",
+        "2023-02-17",
+        "2023-02-24",
+        "2023-03-03",
+        "2023-03-10",
+        "2023-03-17",
+        "2023-03-24",
+        "2023-03-31",
+        "2023-04-06",
+        "2023-04-13",
+        "2023-04-21",
+        "2023-04-28",
+        "2023-05-05",
+        "2023-05-12",
+        "2023-05-19",
+        "2023-05-26",
+        "2023-06-02",
+        "2023-06-09",
+        "2023-06-16",
+        "2023-06-23",
+        "2023-06-30",
+        "2023-07-07",
+        "2023-07-14",
+        "2023-07-21",
+        "2023-07-28",
+        "2023-08-04",
+        "2023-08-11",
+        "2023-08-18",
+        "2023-08-25",
+        "2023-09-01",
+        "2023-09-08",
+        "2023-09-15",
+        "2023-09-22",
+        "2023-09-29",
+        "2023-10-06",
+        "2023-10-13",
+        "2023-10-20",
+        "2023-10-27",
+        "2023-11-03",
+        "2023-11-12",
+        "2023-11-17",
+        "2023-11-24",
+        "2023-12-01",
+        "2023-12-08",
+        "2023-12-15",
+        "2023-12-22",
+        "2023-12-29",
+        "2024-01-05",
+        "2024-01-12",
+        "2024-01-20",
+        "2024-01-25",
+        "2024-02-02",
+        "2024-02-09",
+        "2024-02-16",
+        "2024-02-23",
+        "2024-03-02",
+        "2024-03-07",
+        "2024-03-15",
+        "2024-03-22",
+        "2024-03-28",
+        "2024-04-05",
+        "2024-04-12",
+        "2024-04-19",
+        "2024-04-26",
+        "2024-05-03",
+        "2024-05-10",
+        "2024-05-18",
+        "2024-05-24",
+        "2024-05-31",
+        "2024-06-07",
+        "2024-06-14",
+        "2024-06-21",
+        "2024-06-28",
+        "2024-07-05",
+        "2024-07-12",
+        "2024-07-19",
+        "2024-07-26",
+        "2024-08-02",
+        "2024-08-09",
+        "2024-08-16",
+        "2024-08-23",
+        "2024-08-30",
+        "2024-09-06",
+        "2024-09-13",
+        "2024-09-20",
+        "2024-09-27",
+        "2024-10-04",
+        "2024-10-11",
+        "2024-10-18",
+        "2024-10-25",
+        "2024-11-01",
+        "2024-11-08",
+        "2024-11-14",
+        "2024-11-22",
+        "2024-11-29",
+        "2024-12-06",
+        "2024-12-13",
+        "2024-12-20",
+        "2024-12-27",
+        "2025-01-03",
+        "2025-01-10",
+        "2025-01-17",
+        "2025-01-24",
+        "2025-02-01",
+        "2025-02-07",
+        "2025-02-14",
+        "2025-02-21",
+        "2025-02-28",
+        "2025-03-07",
+        "2025-03-13",
+        "2025-03-21",
+        "2025-03-28",
+        "2025-04-04",
+        "2025-04-11",
+        "2025-04-17",
+        "2025-04-25",
+        "2025-05-02",
+        "2025-05-09",
+        "2025-05-16",
+        "2025-05-23",
+        "2025-05-30",
+        "2025-06-06",
+        "2025-06-13",
+        "2025-06-20",
+        "2025-06-27",
+        "2025-07-04",
+        "2025-07-11",
+        "2025-07-18",
+        "2025-07-25",
+        "2025-08-01",
+        "2025-08-08",
+        "2025-08-14",
+        "2025-08-22",
+        "2025-08-29",
+        "2025-09-05",
+        "2025-09-12",
+        "2025-09-19",
+        "2025-09-26",
+        "2025-10-03",
+        "2025-10-10",
+        "2025-10-17",
+        "2025-10-24",
+        "2025-10-31",
+        "2025-11-07",
+        "2025-11-14",
+        "2025-11-21",
+        "2025-11-28",
+        "2025-12-05",
+        "2025-12-12",
+        "2025-12-19",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-09",
+        "2026-01-16",
+        "2026-01-23",
+        "2026-02-01",
+        "2026-02-06",
+        "2026-02-13",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-03-06",
+        "2026-03-13",
+        "2026-03-20",
+        "2026-03-27",
+        "2026-04-02",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-04-30",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-19",
+        "2026-06-25",
+        "2026-07-03",
+        "2026-07-10",
+        "2026-07-17",
+        "2026-07-24",
+        "2026-07-31",
+        "2026-08-07",
+        "2026-08-14",
+        "2026-08-21",
+        "2026-08-28",
+        "2026-09-04",
+        "2026-09-11",
+        "2026-09-18",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Price",
+         "values": [
+          590.15,
+          576.27,
+          564.13,
+          568.93,
+          578.34,
+          548.11,
+          561.05,
+          604.03,
+          624.12,
+          634.9,
+          643.6,
+          658.44,
+          623.57,
+          629.15,
+          621.75,
+          629.04,
+          713.87,
+          755.03,
+          743.17,
+          756.3,
+          793.64,
+          762.47,
+          822.62,
+          819.54,
+          820.56,
+          823.39,
+          809.18,
+          801.36,
+          881.92,
+          740.25,
+          737.86,
+          755.13,
+          800.75,
+          763.16,
+          731.7,
+          760.11,
+          757.61,
+          710.67,
+          686.85,
+          718.22,
+          752.69,
+          786.3,
+          740.34,
+          660.92,
+          641.58,
+          616,
+          596.07,
+          588.14,
+          525.6,
+          572.92,
+          512.17,
+          523.42,
+          545.09,
+          558.37,
+          556.16,
+          574.35,
+          546,
+          496.55,
+          475.3,
+          487.55,
+          516.75,
+          543.4,
+          524.7,
+          490.55,
+          533.6,
+          541.45,
+          575.2,
+          565.3,
+          581.05,
+          550.25,
+          575.65,
+          574.15,
+          596.6,
+          591,
+          606.4,
+          601,
+          626.55,
+          621.05,
+          622.7,
+          618.95,
+          597.6,
+          590.7,
+          594.2,
+          606.35,
+          563.05,
+          551.05,
+          556.25,
+          547.65,
+          535.65,
+          520.2,
+          511.25,
+          511.05,
+          498,
+          497.65,
+          510,
+          484.3,
+          430,
+          460.35,
+          456.95,
+          442.15,
+          441.35,
+          453.6,
+          426.7,
+          440.95,
+          440.1,
+          433,
+          435.15,
+          442.55,
+          446.45,
+          465.15,
+          467.35,
+          468.7,
+          483.65,
+          492.05,
+          479.55,
+          498.15,
+          478.85,
+          501.25,
+          493.25,
+          470.7,
+          466.95,
+          477.7,
+          517.15,
+          498.15,
+          481.35,
+          485.1,
+          506.05,
+          532.7,
+          533.4,
+          531,
+          533.1,
+          532.9,
+          538.15,
+          527,
+          505,
+          506.8,
+          508.3,
+          528.05,
+          544.85,
+          565.4,
+          559.75,
+          565.45,
+          581.45,
+          565.05,
+          555.55,
+          525.65,
+          523.2,
+          508.25,
+          494.85,
+          482.05,
+          496,
+          493.5,
+          468.4,
+          453.4,
+          447.55,
+          452.45,
+          448.85,
+          460.5,
+          461.35,
+          435.65,
+          437.35,
+          462.75,
+          462.6,
+          469.4,
+          466.75,
+          494,
+          518.5,
+          530.65,
+          551.95,
+          563.25,
+          570.55,
+          582.05,
+          560.15,
+          581.35,
+          606.7,
+          598.9,
+          645,
+          650.25,
+          650.3,
+          647.65,
+          679.05,
+          703.4,
+          688.25,
+          629.15,
+          629.7,
+          625,
+          585.25,
+          577.55,
+          607.25,
+          608.15,
+          637.65,
+          644.55,
+          694.5,
+          681.3,
+          672.7,
+          708.1,
+          759.1,
+          737,
+          692.7,
+          671,
+          739.8,
+          688.4,
+          669.3,
+          692.35,
+          626.1,
+          602.8,
+          596.35,
+          629.05,
+          664.35,
+          679.6,
+          685.3,
+          697.75,
+          694.3,
+          699.95,
+          670.2,
+          674.3,
+          664.45,
+          655.55,
+          695.2,
+          681.45,
+          695.8,
+          709.95,
+          710.05,
+          678.6,
+          681.8,
+          649.05,
+          641.95,
+          624.45,
+          631.85,
+          619.15,
+          627.75,
+          656,
+          635.15,
+          626.4,
+          606.9,
+          628.45,
+          602.3,
+          592.65,
+          590.55,
+          597.85,
+          576.5,
+          615.3,
+          589.05,
+          601.5,
+          593.2,
+          583.55,
+          563.7,
+          559.8,
+          552.95,
+          521.75,
+          527.8,
+          492.6,
+          492.3,
+          544.25,
+          533.1,
+          532.4,
+          519.9,
+          492,
+          458.15,
+          451.55,
+          454.35,
+          446.55,
+          445,
+          458.95,
+          491.95,
+          478.6,
+          473.3,
+          461.35,
+          436.65,
+          427.5,
+          427.2,
+          419.35,
+          419,
+          423.2,
+          429.6,
+          438.05,
+          417.15,
+          418.25,
+          438.25,
+          486.5,
+          504.1,
+          506.75,
+          490.45,
+          482.7,
+          470.25,
+          500,
+          484.55,
+          456.7
+         ],
+         "fmt": "inr",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in; NSE close on 30-Sep-2026"
+      },
+      {
+       "type": "hbar",
+       "title": "Our {{dcf.tp|inr}} vs the street (post-results notes)",
+       "unit": "₹ per share; CMP ₹456.70",
+       "x": [
+        "HSBC (14-Aug)",
+        "Axis Capital (14-Aug)",
+        "J.P. Morgan (18-Aug)",
+        "Macquarie (26-Aug)",
+        "Kotak Institutional Equities (14-Aug)",
+        "CLSA (14-Aug)",
+        "ICICI Securities (14-Aug)",
+        "Prabhudas Lilladher (13-Aug)",
+        "Emkay Global (14-Aug)",
+        "BOB Capital Markets (13-Aug)",
+        "Motilal Oswal (13-Aug)",
+        "Jefferies (14-Aug)",
+        "Nuvama (14-Aug)",
+        "Bernstein (14-Aug)",
+        "GAM (base)"
+       ],
+       "series": [
+        {
+         "name": "Target",
+         "values": [
+          500,
+          505,
+          520,
+          520,
+          540,
+          554,
+          570,
+          574,
+          600,
+          604,
+          625,
+          650,
+          668,
+          680,
+          605
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "GAM (base)",
+       "lines": [
+        {
+         "v": "P.last",
+         "axis": "x",
+         "text": "CMP",
+         "color": "#b4232a"
+        }
+       ],
+       "source": "Dated notes 13-Aug to 26-Aug-2026 (see the street table); median ₹572; GAM Research"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "business",
+   "nav": "What it does",
+   "kicker": "The business",
+   "title": "A pizza-delivery machine with two growth add-ons: 3,636 stores in six countries, 72% of revenue from India",
+   "blocks": [
+    {
+     "p": "Master franchisee of Domino's Pizza in India, Sri Lanka and Bangladesh and of Popeyes in India; owns Hong's Kitchen (Indo-Chinese, India) and, through DP Eurasia (93.65% at Mar-2026), Domino's master franchise in Turkey, Azerbaijan and Georgia plus the COFFY cafe brand in Turkey. Dunkin' India was discontinued (board decision 30-Mar-2026 not to renew the rights; 27 stores at Mar-2026, 15 at Jun-2026). The Russian Domino's business (Pizza Restaurants LLC) was sold in FY26. In FY26 revenue was ₹9,513 cr: sales within India ₹6,848 cr (72%; Domino's ₹6,629 cr) and outside India ₹2,664 cr (DP Eurasia ₹2,456 cr, Sri Lanka ₹129 cr, Bangladesh ₹80 cr). Group system sales, including sub-franchisees' stores, were ₹10,984 cr."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "The businesses (FY26, continuing operations)",
+      "head": [
+       "Business",
+       "Revenue (₹ cr)",
+       "Growth",
+       "Stores (Mar-26)",
+       "What it is"
+      ],
+      "wide": [
+       4
+      ],
+      "rows": [
+       [
+        "Domino's India",
+        "6,629",
+        "+12%",
+        "2,455",
+        "76% delivery, own app and rider fleet; 540 cities at Jun-2026; LFL 6.5% in FY26, 2.5% in Q1FY27"
+       ],
+       [
+        "Popeyes + Hong's Kitchen (India)",
+        "219",
+        "–",
+        "78 + 29",
+        "Popeyes fried chicken (US franchise, mall-led, SSG 28% in FY26); Hong's Indo-Chinese (own brand, not being expanded)"
+       ],
+       [
+        "DP Eurasia (93.65%)",
+        "2,456",
+        "+28.8%",
+        "787 + 194 COFFY",
+        "Domino's master franchise in Turkey, Azerbaijan and Georgia (incl. sub-franchised stores) and COFFY cafes; PAT ₹204 cr (8.3%)"
+       ],
+       [
+        "Sri Lanka / Bangladesh",
+        "129 / 80",
+        "+64.3% / +27.4%",
+        "53 / 40",
+        "Domino's; Bangladesh is a 51:49 joint venture"
+       ],
+       [
+        "Discontinued: Dunkin' India, Russia",
+        "32 (Dunkin')",
+        "–",
+        "27 (Dunkin')",
+        "Dunkin' rights not renewed (Mar-2026); Russia sold in FY26"
+       ]
+      ],
+      "source": "Q4FY26 presentation (20-May-2026) slides 5-6, 19-21; AR FY26 notes 43 and 45. Popeyes + Hong's revenue derived as sales within India less Domino's India."
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "donut",
+       "title": "India is 72% of revenue",
+       "unit": "% of FY26 revenue",
+       "x": [
+        "Domino's India",
+        "Popeyes and Hong's",
+        "DP Eurasia",
+        "Sri Lanka + Bangladesh"
+       ],
+       "series": [
+        {
+         "name": "Share",
+         "values": [
+          69.7,
+          2.3,
+          25.8,
+          2.2
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "source": "AR FY26; Q4FY26 presentation (20-May-2026)"
+      },
+      {
+       "type": "stacked",
+       "title": "Stores: 3,285 (Mar-25) to 3,636 (Mar-26) and 3,712 (Jun-26)",
+       "unit": "Stores (period end, ex-Dunkin')",
+       "x": [
+        "Mar-25",
+        "Mar-26"
+       ],
+       "series": [
+        {
+         "name": "Domino's India",
+         "values": [
+          2179,
+          2455
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Popeyes + Hong's",
+         "values": [
+          94,
+          107
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "DP Eurasia (Domino's + COFFY)",
+         "values": [
+          923,
+          981
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Sri Lanka + Bangladesh",
+         "values": [
+          89,
+          93
+         ],
+         "fmt": "num",
+         "color": "#7a6fb0"
+        }
+       ],
+       "minLabel": 80,
+       "source": "Q4FY26 presentation (20-May-2026)"
+      }
+     ]
+    },
+    {
+     "callout": "**How it makes money:** JFL buys and processes its own ingredients in central commissaries, delivers through its own riders, and keeps a ~75% gross margin on Domino's India. Out of that it pays staff (~17% of revenue), royalties to Domino's Pizza Inc., rent (~7.5% of India revenue), marketing, energy and delivery costs. What is left is ~20% EBITDA before rent and ~12.6% after it in India. Scale is the business model: more stores in the same city lower the delivery time and the supply-chain cost per order."
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "nav": "History & corporate actions",
+   "kicker": "History",
+   "title": "From one Domino's store in 1996 to a multi-country group: the Turkey deal changed the numbers more than anything else",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Corporate history and what it did to the numbers",
+      "head": [
+       "When",
+       "Event",
+       "Impact on the numbers"
+      ],
+      "wide": [
+       1,
+       2
+      ],
+      "rows": [
+       [
+        "1995-96",
+        "Incorporated by the Jubilant Bhartia group; first Domino's store in 1996",
+        "Domino's master franchisee for India; Sri Lanka and Bangladesh added later"
+       ],
+       [
+        "FY20",
+        "Ind AS 116 adopted",
+        "Rent left EBITDA (margin up ~5 points) and lease liabilities entered borrowings (₹1,670 cr)"
+       ],
+       [
+        "FY23",
+        "Shares split to ₹2 face value",
+        "~66 cr shares since; per-share history adjusted"
+       ],
+       [
+        "1-Feb-2024",
+        "Control of DP Eurasia (Turkey, Azerbaijan, Georgia, Russia) after a tender offer; 94.33% by Mar-2024",
+        "₹770 cr for the additional stake; ₹170 cr remeasurement gain (exceptional, FY24); FY25 revenue +43%; euro acquisition loans"
+       ],
+       [
+        "FY26",
+        "Russia (Pizza Restaurants LLC) sold",
+        "₹85 cr gain in discontinued operations; bankruptcy claims provision written back"
+       ],
+       [
+        "Nov-2025",
+        "Labour Codes notified",
+        "₹34 cr exceptional charge in Q3FY26 (gratuity and leave)"
+       ],
+       [
+        "30-Mar-2026",
+        "Dunkin' India rights not renewed",
+        "Re-presented as discontinued (FY26 loss ₹24 cr); 15 stores left at Jun-2026"
+       ],
+       [
+        "Mar-2026",
+        "Mumbai supply-chain centre commissioned",
+        "Depreciation up in Q1FY27; \"major supply chain capacity investments now largely complete\""
+       ]
+      ],
+      "source": "AR FY26 notes 45 and 41; AR FY24 note 41; Q4FY26 presentation (20-May-2026); Q1FY27 letter and call (13-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**What it means for the numbers:** comparisons across FY24-FY26 need care. FY24 includes two months of Turkey and a one-off gain; FY25 is the first full Turkey year; FY25-26 were re-presented without Dunkin'; and Turkey has been hyperinflationary since 30-Jun-2022, so DP Eurasia reports under IAS 29 (Ind AS 29) (IAS 29), restating each quarter to the latest price level and translating at the closing lira rate."
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "nav": "Industry",
+   "kicker": "Industry",
+   "title": "Indian QSR: a small, fast-growing category where aggregators now set the price of convenience",
+   "blocks": [
+    {
+     "p": "Chained quick-service restaurants (QSR) are a small slice of Indian food spending. JFL's FY26 presentation (citing industry reports) sizes India's chained QSR market at ~US$3.2 bn in 2024 growing to ~US$5.4 bn by 2028 (~14% a year), with chains at ~6% of a ~US$60 bn foodservice market (US ~US$800 bn, China ~US$760 bn). Delivery is the growth channel: food aggregators cut minimum order values to ₹99 and then ₹49, which pulled small, solo orders away from dine-in and takeaway and forced Domino's to match (₹149 to ₹99). Listed rivals: Westlife (McDonald's West & South), Devyani (KFC, Pizza Hut, Costa) and Sapphire (KFC, Pizza Hut) - both Yum franchisees - and Restaurant Brands Asia (Burger King India). KFC (Devyani, Sapphire) is the fried-chicken incumbent Popeyes is attacking. Most listed rivals made losses or near-zero profit in FY26 as same-store sales fell."
+    },
+    {
+     "p": "Domino's gained ~80 bp of delivery share among the top 25 QSR brands year on year in Q1FY27 (NielsenIQ, per the Q1FY27 letter); JFL calls itself the largest QSR player for 30 years, ~1.7x the second largest (FY26 presentation). DP Eurasia runs 787 Domino's stores in Turkey, Azerbaijan and Georgia and COFFY is the 5th largest coffee brand in Turkey by stores (194). Turkey has been hyperinflationary under IAS 29 since 2022; Domino's Turkey LFL was +30.6% in lira but -1.3% after inflation in Q1FY27."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What drives the category (and what is against it)",
+      "head": [
+       "Factor",
+       "Direction",
+       "Evidence"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Under-penetration of eating out",
+        "Tailwind",
+        "Management: 6-7 mn Indians eat pizza in a month, ~3 of 1,000 meals a year; chains ~6% of foodservice (company presentation)"
+       ],
+       [
+        "Delivery and digital adoption",
+        "Tailwind for Domino's",
+        "Delivery 76% of Domino's India revenue; own apps 19.5 mn monthly active users (+21%)"
+       ],
+       [
+        "Aggregator price war on convenience",
+        "Headwind",
+        "Minimum orders cut to ₹99 and ₹49; Domino's matched at ₹99 (\"a lagging action... it hurts the economics\")"
+       ],
+       [
+        "Cost inflation (LPG, cheese, oil, wages)",
+        "Headwind",
+        "~200 bp margin headwind seen for FY27, ~20 bp after pricing and productivity in Q1"
+       ],
+       [
+        "Shift from dine-in",
+        "Headwind",
+        "Solo orders under ₹250 fell most; ~400 dine-in-heavy stores being upgraded"
+       ],
+       [
+        "Peers' weak same-store sales",
+        "Mixed",
+        "Devyani, Sapphire and RBA loss-making in FY26; Macquarie (26-Aug-2026) saw Q2 SSSG ahead of Q1 across QSR"
+       ]
+      ],
+      "source": "Q4FY26 presentation (20-May-2026); Q1FY27 letter and call (13-Aug-2026); Screener.in; Macquarie via Business Upturn (26-Aug-2026)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tailwind",
+   "nav": "Tailwind test",
+   "kicker": "Does the tailwind reach the company?",
+   "title": "Partly: JFL wins the delivery share, but the aggregators take the economics of small orders",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Tailwind test",
+      "head": [
+       "Tailwind",
+       "Reaches JFL?",
+       "Evidence"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "More Indians ordering food online",
+        "Yes",
+        "Domino's orders +10.4% in Q4FY26 and +6.5% in Q1FY27; delivery share +80 bp among the top 25 QSRs (NielsenIQ)"
+       ],
+       [
+        "Higher spend per order",
+        "No",
+        "Average order value fell with the ₹99 minimum order; LFL (2.5%) below order growth (6.5%) despite 140 bp of price"
+       ],
+       [
+        "Smaller towns joining organised QSR",
+        "Yes",
+        "19 new cities in Q1FY27 (540 in all); smaller delivery-and-carry-out stores (600-700 sq ft)"
+       ],
+       [
+        "Protein and chicken demand",
+        "Yes",
+        "Popeyes LFL 40%+, revenue +97%; Chicken Maxxx at Domino's"
+       ],
+       [
+        "Turkish consumption",
+        "In lira, yes; in real terms, no",
+        "Domino's Turkey LFL +30.6% in lira, -1.3% after inflation (Q1FY27)"
+       ]
+      ],
+      "source": "Q4FY26 presentation (20-May-2026); Q1FY27 letter and call (13-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Verdict:** the volume tailwind reaches JFL, and it is gaining share in delivery. The value tailwind does not, at least not now: aggregators have made small orders cheap, so Domino's sells more orders at lower tickets, and LFL lags order growth. Popeyes is the cleaner beneficiary of the protein trend."
+    }
+   ]
+  },
+  {
+   "id": "dominos",
+   "nav": "Domino's India",
+   "kicker": "Business 1",
+   "title": "Domino's India: orders up, tickets down; LFL of 2.5% in Q1FY27 against a 5-7% guide",
+   "blocks": [
+    {
+     "p": "Domino's India revenue grew 12% in FY26 to ₹6,629 cr on 276 net new stores (2,455 at Mar-2026) and LFL growth of 6.5% (simple average of the quarters: 11.6%, 9.1%, 5%, 0.2%). In Q1FY27 revenue grew 7.4% and LFL 2.5% on a high base (11.6%), with orders +6.5%, delivery revenue +12.1% (76.1% of revenue) and ~140 bp of net price increases. Two things hold LFL back: the ₹149→₹99 minimum order value cut lower tickets, and dine-in/takeaway (DITA) keeps losing small solo orders to ₹49-99 aggregator deliveries. Management has put a dedicated leader on DITA, is upgrading ~400 dine-in-heavy stores and says Q2 started better. Revenue per average store rose only 0.9% in FY26 (₹2.84 cr to ₹2.86 cr) despite 6.5% LFL: new and split stores dilute it."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "LFL by quarter: a strong FY26 first half, then near zero",
+       "unit": "Domino's India LFL growth (%)",
+       "x": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25",
+        "Q1FY26",
+        "Q2FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "LFL",
+         "values": [
+          3,
+          2.8,
+          12.5,
+          12.1,
+          11.6,
+          9.1,
+          5,
+          0.2,
+          2.5
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 presentation (20-May-2026) slide 15; Q1FY27 letter and call (13-Aug-2026)"
+      },
+      {
+       "type": "column",
+       "title": "Our store build: ~250 Domino's openings a year",
+       "unit": "Domino's India stores at year end",
+       "x": [
+        "FY24",
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Stores",
+         "values": [
+          1995,
+          2179,
+          2455,
+          2695,
+          2945,
+          3205
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY24; Q4FY26 presentation; GAM estimates"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "India build: Domino's stores x revenue per store + emerging brands (our forecast)",
+      "head": [
+       "",
+       "FY25",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "Domino's net new stores",
+        "184",
+        "276",
+        "240",
+        "250",
+        "260"
+       ],
+       [
+        "Domino's stores at year end",
+        "2,179",
+        "2,455",
+        "2,695",
+        "2,945",
+        "3,205"
+       ],
+       [
+        "Revenue per average store (₹ cr)",
+        "2.84",
+        "2.86",
+        "2.80",
+        "2.82",
+        "2.85"
+       ],
+       [
+        "Domino's India revenue (₹ cr)",
+        "5,918",
+        "6,629",
+        "7,220",
+        "7,947",
+        "8,752"
+       ],
+       [
+        "Popeyes + Hong's (₹ cr)",
+        "140",
+        "219",
+        "361",
+        "523",
+        "706"
+       ],
+       [
+        "Sales within India (₹ cr)",
+        "6,057",
+        "6,848",
+        "7,581",
+        "8,470",
+        "9,458"
+       ],
+       [
+        "growth",
+        "–",
+        "+13.1%",
+        "+10.7%",
+        "+11.7%",
+        "+11.7%"
+       ],
+       [
+        "India EBITDA margin (standalone, after Ind AS 116)",
+        "19.7%",
+        "20%",
+        "20.2%",
+        "20.8%",
+        "21.3%"
+       ]
+      ],
+      "source": "AR FY26 note 43; Q4FY26 presentation (20-May-2026); GAM estimates. The build reproduces the model's India growth (+10.7% / +11.7% / +11.6%) within 0.3 points (checked in JUBLFOOD.ctx.js). FY25 emerging brands = sales within India less Domino's (Dunkin' excluded)."
+     }
+    },
+    {
+     "callout": "**Our view:** we assume LFL of ~4.5% in FY27E (2.5% in Q1, easier base from Q3) and ~6% after, inside the 5-7% guide but not at the top, and revenue per store -2% / +0.5% / +1%. The volume story is sound (orders, delivery share, new cities). The value story depends on whether aggregators keep subsidising small orders; that is outside JFL's control."
+    }
+   ]
+  },
+  {
+   "id": "emerging",
+   "nav": "Popeyes & emerging brands",
+   "kicker": "Business 2",
+   "title": "Popeyes: revenue +97% and LFL 40%+ in Q1FY27; the second engine, still loss-making",
+   "blocks": [
+    {
+     "p": "Popeyes had 78 stores at Mar-2026 and 88 at Jun-2026 (+10 in Q1FY27). Same-store growth was 28% in FY26 and above 40% for three quarters to Q1FY27; revenue grew 97% in Q1FY27 and system average daily sales passed ₹95,000 (seven cities above ₹1 lakh for the quarter), vs ~₹80,000 for a mature Domino's store. Management targets a ₹1,000 cr brand in three to four years with 35-40 openings a year (sites identified for the next 200) and says EBITDA profitability is \"the next challenge\": restaurant-level profits exist, but marketing and the team built for a ₹1,000 cr brand weigh on a business of a few hundred crore. Hong's Kitchen (29 stores) is not being funded further and Dunkin' has been exited. The drag of emerging brands on standalone after-rent EBITDA was ~220 bp in FY26 (~200 bp without Dunkin'), and management aims to bring it to ~100 bp by end-FY28."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Popeyes + Hong's revenue: ₹219 cr in FY26, ~₹706 cr in FY29E (ours)",
+       "unit": "₹ crore",
+       "x": [
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "Popeyes + Hong's",
+         "values": [
+          218.7,
+          361,
+          523,
+          706
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Derived from AR FY26 and the Q4FY26 presentation; GAM estimates (+65% / +45% / +35%)"
+      },
+      {
+       "type": "column",
+       "title": "Popeyes stores: 61 → 78 → 88 (Jun-26)",
+       "unit": "Stores",
+       "x": [
+        "Mar-25",
+        "Mar-26",
+        "Jun-26"
+       ],
+       "series": [
+        {
+         "name": "Popeyes",
+         "values": [
+          61,
+          78,
+          88
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 presentation (20-May-2026); Q1FY27 letter and call (13-Aug-2026)"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** Popeyes has found product-market fit faster than we expected, but at ~2% of revenue (with Hong's) it cannot move group numbers much before FY29. We model emerging-brand revenue of ~₹706 cr in FY29E, short of the ₹1,000 cr ambition, and no separate break-even date. If it breaks even sooner, the ~100 bp of India margin it carries is worth ~₹22 a share at our multiple."
+    }
+   ]
+  },
+  {
+   "id": "international",
+   "nav": "International (DP Eurasia)",
+   "kicker": "Business 3",
+   "title": "International: +28% in rupees, mostly inflation; a cash-generating Turkish franchise with noisy accounting",
+   "blocks": [
+    {
+     "p": "Sales outside India rose from ₹2,047 cr (FY25) to ₹2,664 cr (FY26, +30.1%). DP Eurasia (93.65% owned) reported revenue of ₹2,456 cr (+28.8%) and PAT of ₹204 cr (8.3%), up 62% with lower interest after its lira loans were moved into euro; Q1FY27 revenue +28.2%. Real growth is far lower: Domino's Turkey LFL was +30.6% in lira but -1.3% after inflation, COFFY +15.6% and -12.6%. Reported EBITDA includes the IAS 29 monetary gain on net monetary liabilities, which fell in Q1FY27 as inflation eased: International EBITDA margin was 20.0% vs 20.5% a year earlier, but +15 bp excluding it. DP Eurasia has upstreamed ~₹52 cr of dividends in nine months; management guides a 7-9% PAT margin for FY27."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "International revenue and EBITDA margin by quarter",
+       "unit": "International EBITDA ÷ revenue (%, consolidated less standalone)",
+       "x": [
+        "Q4FY25",
+        "Q1FY26",
+        "Q3FY26",
+        "Q4FY26",
+        "Q1FY27"
+       ],
+       "series": [
+        {
+         "name": "Margin",
+         "values": [
+          16.1,
+          20.5,
+          17.8,
+          17.1,
+          20
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "Q4FY26 presentation (20-May-2026) slides 24-25; Q1FY27 letter and call (13-Aug-2026). Q4 is restated to the year-end price level and rate under IAS 29."
+      },
+      {
+       "type": "line",
+       "title": "EBITDA margins after Ind AS 116: ours for FY27-29E",
+       "unit": "EBITDA ÷ revenue (%)",
+       "x": [
+        "FY25",
+        "FY26",
+        "FY27E",
+        "FY28E",
+        "FY29E"
+       ],
+       "series": [
+        {
+         "name": "India",
+         "values": [
+          19.7,
+          20,
+          20.2,
+          20.8,
+          21.3
+         ],
+         "fmt": "pct"
+        },
+        {
+         "name": "International",
+         "values": [
+          19.1,
+          19.3,
+          18.8,
+          19,
+          19.2
+         ],
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26; GAM estimates"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** we model International revenue +{{as.segments.1.growth.0|pct0}} / +{{as.segments.1.growth.1|pct0}} / +{{as.segments.1.growth.2|pct0}} and a margin of 18.8% / 19.0% / 19.2%, a little below FY26 as the monetary gain fades. The franchise is sound (787 Domino's stores, strong order growth and cash generation; COFFY the 5th largest coffee chain in Turkey by stores), but rupee profits depend on how fast the lira falls relative to Turkish inflation, and the street values it at 15-18x EBITDA after rent, below India. We use one group multiple and show the street's lower International multiple as a sensitivity."
+    }
+   ]
+  },
+  {
+   "id": "margins",
+   "nav": "Margins: before and after rent",
+   "kicker": "Unit economics",
+   "title": "Two margins: ~20% before rent, ~13% after it; we model 14.3% after rent by FY29E",
+   "blocks": [
+    {
+     "p": "Under Ind AS 116 store rent is not an operating cost: it becomes depreciation of a right-of-use asset plus interest on a lease liability. JFL's reported EBITDA (19.8% in FY26) therefore excludes rent; its \"adjusted EBITDA\" (pre-Ind AS 116) deducts it. Standalone, that was 12.6% in FY26 (12.3% in FY25), and Domino's India alone 14.5% in both years: the ~2 points between is the emerging-brand drag. Consolidated after-rent EBITDA is not reported; EBITDA less the cash paid on leases gives ~₹1,246 cr (13.1%) for FY26. The street's multiples are on this after-rent basis."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "From reported EBITDA to EBITDA after rent (₹ crore)",
+      "head": [
+       "",
+       "FY26",
+       "FY27E",
+       "FY28E",
+       "FY29E"
+      ],
+      "rows": [
+       [
+        "EBITDA (after Ind AS 116)",
+        "1,888",
+        "2,142",
+        "2,472",
+        "2,824"
+       ],
+       [
+        "Less: lease principal",
+        "303",
+        "345",
+        "390",
+        "435"
+       ],
+       [
+        "Less: lease interest",
+        "338",
+        "370",
+        "405",
+        "440"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**EBITDA after rent (pre-Ind AS)**",
+         "**1,246**",
+         "**1,427**",
+         "**1,677**",
+         "**1,949**"
+        ]
+       },
+       [
+        "margin",
+        "13.1%",
+        "13.2%",
+        "13.7%",
+        "14.3%"
+       ],
+       [
+        "Rent as % of revenue",
+        "6.7%",
+        "6.6%",
+        "6.5%",
+        "6.4%"
+       ]
+      ],
+      "source": "AR FY26 cash flow (lease payments ₹641 cr) and note 3b (lease interest ₹338 cr); GAM estimates (rentBuild)"
+     }
+    },
+    {
+     "callout": "**Our view:** management's +200 bp target is on the after-rent standalone margin (12.6% in FY26). We assume about +125 bp over three years: Popeyes scaling and supply-chain leverage help, but the ₹99 minimum order, wage codes and LPG/cheese inflation take part of it. Each point of after-rent margin on Sep-28E revenue is worth ~₹32 a share at our multiple."
+    }
+   ]
+  },
+  {
+   "id": "moat",
+   "nav": "Competitive advantage",
+   "kicker": "Moat",
+   "title": "A real moat in delivery logistics and supply chain; a licence, not a brand it owns",
+   "blocks": [
+    {
+     "verdicts": [
+      [
+       "Scale and delivery network",
+       "Strong",
+       "2,455 Domino's stores in 540 cities, own rider fleet (45,000+ partners), 20-minute delivery; 76% of Domino's revenue is delivery, mostly on its own app (19.5 mn monthly active users across brands).",
+       "Lowest delivery cost and time in pizza; rivals rely on aggregators"
+      ],
+      [
+       "Supply chain",
+       "Strong",
+       "Commissaries sized for ~5,000 stores after the Mumbai plant; lowest-ever supply-chain cost (Q4FY26 call).",
+       "Cost advantage that grows with every store"
+      ],
+      [
+       "Brand and pricing power",
+       "Moderate",
+       "Gross margin 75%+, but Domino's had to match aggregators' ₹99 minimum order and LFL slowed from 11.6% to 0.2% in four quarters.",
+       "Protects volume, not price"
+      ],
+      [
+       "Franchise terms",
+       "Weak point",
+       "Domino's and Popeyes are licensed (royalties to Domino's Pizza Inc. and RBI); the master-franchise agreements are long-dated but not owned.",
+       "Royalties cap margins; renewal risk is low but real"
+      ]
+     ],
+     "head": [
+      "Factor",
+      "Score",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Competitive advantage scorecard",
+     "source": "Q4FY26 presentation (20-May-2026); Q1FY27 letter and call (13-Aug-2026); AR FY26; GAM Research"
+    },
+    {
+     "callout": "**Verdict:** JFL has a genuine moat in pizza delivery: the densest store and rider network in India, own app, commissaries built for ~5,000 stores, and ~1.7x the scale of the next QSR. It does not give pricing power, as FY26 showed, and the brands (Domino's, Popeyes) are licensed. A wide moat in operations, a narrow one in economics."
+    }
+   ]
+  },
+  {
+   "id": "trajectory",
+   "nav": "Financial trajectory",
+   "kicker": "Financials",
+   "title": "Revenue doubled in four years, mostly by buying Turkey; EBITDA margin stuck near 20% and EPS still below FY22",
+   "blocks": [
+    {
+     "p": "Revenue went from ₹4,396 cr in FY22 to ₹9,513 cr in FY26 (21% a year), but nearly half of the increase is DP Eurasia (Turkey, Azerbaijan, Georgia), consolidated from 1-Feb-2024 and worth ₹2,456 cr of FY26 revenue. Sales within India grew from ~₹5,100 cr (FY23, incl. Dunkin') to ₹6,848 cr (FY26, ex-Dunkin'), ~10-11% a year. EBITDA (after Ind AS 116, i.e. before rent) rose from ₹1,106 cr to ₹1,902 cr (Screener; company ₹1,888 cr), with the margin drifting from 25% (FY22, the post-Covid delivery boom) to ~20%. Net profit after minorities fell from ₹420 cr (FY22) to ₹211 cr (FY25) as depreciation, store openings, acquisition debt and Turkish accounting piled up, then recovered to ₹428 cr in FY26, helped by an ₹82 cr gain on selling the Russian business. EPS before one-offs was ₹6.58 in FY22 and ~₹5.86 in FY26."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Revenue: ₹4,396 cr (FY22) to ₹9,513 cr (FY26); Turkey added from FY24",
+       "unit": "Revenue (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Revenue",
+         "ref": "fin.sales",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; net profit after minorities), GAM Research. FY25-26 re-presented without Dunkin'."
+      },
+      {
+       "type": "column",
+       "title": "Net profit: ₹420 cr in FY22, ₹211 cr in FY25, ₹428 cr in FY26",
+       "unit": "Net profit after minorities (₹ crore)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Net profit",
+         "ref": "fin.pat",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; net profit after minorities), GAM Research. FY24 includes a ₹170 cr DP Eurasia remeasurement gain (pre-tax); FY26 an ₹82 cr Russia sale gain."
+      }
+     ]
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "EBITDA margin: 25% in FY22, ~20% since FY24",
+       "unit": "EBITDA margin, after Ind AS 116 (%)",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "EBITDA margin",
+         "ref": "fin.ebitdaMargin",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 30,
+       "source": "Company filings, Screener.in (consolidated; net profit after minorities), GAM Research. FY20 onwards after Ind AS 116 (rent excluded)."
+      },
+      {
+       "type": "line",
+       "title": "Materials up to 28% of revenue with Turkey and Popeyes; staff costs ~17%",
+       "unit": "% of revenue",
+       "x": "fin.labels",
+       "from": "FY19",
+       "to": "FY26",
+       "series": [
+        {
+         "name": "Materials",
+         "ref": "A.materialPct",
+         "fmt": "pct0"
+        },
+        {
+         "name": "Employees",
+         "ref": "A.employeePct",
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "source": "Screener.in cost split"
+      }
+     ]
+    },
+    {
+     "callout": "**Our view:** JFL's headline growth since FY24 is bought growth: Turkey added ~₹2,500 cr of revenue at a similar EBITDA margin but with acquisition debt, minorities and hyperinflation accounting. The Indian core has grown ~11% a year with a flat ~20% EBITDA margin (12-13% after rent). EPS before one-offs only got back above ₹5.5 in FY26; the earnings story from here is operating leverage on a supply chain built for ~5,000 stores, not more acquisitions."
+    }
+   ]
+  },
+  {
+   "id": "q1",
+   "nav": "Q1FY27 & guidance",
+   "kicker": "Latest quarter",
+   "title": "Q1FY27: revenue +14.1%, EBITDA +14.2%, profit flat; cost inflation of ~200 bp held to ~20 bp",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Q1FY27 at a glance (₹ crore, continuing operations)",
+      "head": [
+       "",
+       "Q1FY27",
+       "YoY",
+       "Comment"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "Revenue from operations",
+        "2,570",
+        "+14.1%",
+        "System sales ₹3,077 cr; 76 net new stores (3,712 in all)"
+       ],
+       [
+        "  Standalone (India)",
+        "1,849",
+        "+9.2%",
+        "Domino's +7.4% (LFL 2.5%, orders +6.5%); Popeyes +97%"
+       ],
+       [
+        "  International (consolidated less standalone)",
+        "721",
+        "+28.9%",
+        "DP Eurasia +28.2% in rupees; Domino's Turkey LFL −1.3% after inflation"
+       ],
+       [
+        "EBITDA (after Ind AS 116)",
+        "504",
+        "+14.2%",
+        "19.6% (19.6% a year ago); standalone 19.5% (19.3%), gross margin 75.5% (+133 bp)"
+       ],
+       [
+        "Depreciation / finance cost",
+        "255 / 120",
+        "+18.8% / +9.2%",
+        "Mumbai commissary in for a full quarter"
+       ],
+       [
+        "PAT, continuing operations",
+        "103",
+        "−0.8%",
+        "Lower IAS 29 monetary gain and tax on Turkish dividends; Q1FY26 had a one-off tax set-off"
+       ],
+       [
+        "Net profit to owners (after Dunkin' loss ₹3 cr)",
+        "97",
+        "+5.4%",
+        "EPS ₹1.47; after-rent PAT margin 4.7%"
+       ]
+      ],
+      "source": "Q1FY27 letter and call (13-Aug-2026); Screener.in (profit for EPS)"
+     }
+    },
+    {
+     "bullets": [
+      "**Domino's India LFL:** 5-7% medium term; Q2FY27 expected better than Q1's 2.5%.",
+      "**Stores:** ~230-250 Domino's India openings in FY27; 1,000 stores across brands in India over FY26-28 'on track'; Popeyes 35-40 a year.",
+      "**Margins:** +200 bp standalone pre-Ind AS EBITDA margin over ~two years: emerging-brand drag ~200 bp (ex Dunkin') to ~100 bp by end-FY28, plus ~100 bp at Domino's India; short-term cost pressure.",
+      "**Capex:** ₹750-900 cr a year (stores, store upgrades, technology); supply-chain capex past its peak after the Mumbai commissary (Mar-2026).",
+      "**DP Eurasia:** FY27 PAT margin 7-9%; judge on full-year basis because of IAS 29."
+     ]
+    },
+    {
+     "callout": "**What we take from it:** a quarter of better orders and well-managed costs, not yet of better LFL. The parts that matter for FY27 are the Q2 LFL (management: better than Q1), whether the 140 bp of price sticks without hurting orders, and the size of the Turkish monetary gain. Management did not change any guidance."
+    }
+   ]
+  },
+  {
+   "id": "capital",
+   "nav": "Capex & returns",
+   "kicker": "Capital allocation",
+   "title": "Cash after capex and rent turned positive again: ₹142 cr in FY26 after ₹999 cr of capex",
+   "blocks": [
+    {
+     "p": "Over FY22-26 JFL generated ₹6,518 cr of operating cash and spent ₹4,039 cr on capex (Screener), plus ₹770 cr for control of DP Eurasia in FY24. Operating cash is flattered by Ind AS 116: rent is paid in the financing section. In FY26 ₹1,894 cr of operating cash paid for ₹999 cr of capex (351 net new stores, the Mumbai commissary, technology), ₹641 cr of lease payments (principal and interest) and ₹111 cr of other interest, leaving ₹142 cr; dividends took ₹81 cr. Management says supply-chain capex is past its peak (capacity for ~5,000 stores) and guides ₹750-900 cr a year for India. Return on capital is modest: Screener ROCE (incl. goodwill and right-of-use assets) 15% in FY26; the company's standalone pre-Ind AS ROCE was 18.9% (target 20%+)."
+    },
+    {
+     "pair": [
+      {
+       "type": "column",
+       "title": "Operating cash covers capex; rent takes another third",
+       "unit": "₹ crore",
+       "x": [
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Cash from operations",
+         "values": [
+          1658,
+          1894
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Capex",
+         "values": [
+          863,
+          999
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Lease payments (principal + interest)",
+         "values": [
+          545,
+          641
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "AR FY26 consolidated cash flow statement and notes"
+      },
+      {
+       "type": "line",
+       "title": "ROCE fell from 44% (FY19) to 11-15% after Ind AS 116 and Turkey",
+       "unit": "Return on capital employed (%), Screener basis",
+       "x": [
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "ROCE",
+         "values": [
+          34,
+          44,
+          30,
+          16,
+          21,
+          16,
+          11,
+          13,
+          15
+         ],
+         "fmt": "pct0"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 50,
+       "source": "Screener.in (capital employed includes right-of-use assets and goodwill). Company standalone pre-Ind AS ROCE: 18.9% in FY26."
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Where the cash went (₹ crore)",
+      "head": [
+       "",
+       "FY25",
+       "FY26"
+      ],
+      "rows": [
+       [
+        "Cash from operations",
+        "1,658",
+        "1,894"
+       ],
+       [
+        "Capex (PPE and intangibles)",
+        "863",
+        "999"
+       ],
+       [
+        "Lease payments (principal and interest)",
+        "545",
+        "641"
+       ],
+       [
+        "Other finance cost paid",
+        "220",
+        "111"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Left after capex, rent and interest**",
+         "**30**",
+         "**142**"
+        ]
+       },
+       [
+        "Dividends paid",
+        "79",
+        "81"
+       ],
+       [
+        "Memo: DP Eurasia additional stake (FY24)",
+        "–",
+        "770 (FY24)"
+       ]
+      ],
+      "source": "AR FY26 consolidated cash flow statement and notes; AR FY24 note 41 (DP Eurasia consideration)"
+     }
+    },
+    {
+     "callout": "**The capital question:** the store machine now funds itself with a little to spare, and FY26 interest fell by ₹118 cr as Turkish lira debt was refinanced in euro. The risk is the reverse of the past: two euro term loans that financed DP Eurasia (₹1,183 cr) fall due in FY27 and must be refinanced or repaid, and Popeyes (35-40 stores a year) is still loss-making at the EBITDA level."
+    }
+   ]
+  },
+  {
+   "id": "quality",
+   "nav": "Earnings quality",
+   "kicker": "Accounting",
+   "title": "Clean audit; four things to adjust for: rent outside EBITDA, Turkey's inflation accounting, one-offs and minorities",
+   "blocks": [
+    {
+     "bullets": [
+      "**EBITDA excludes rent.** Ind AS 116 moves rent into depreciation and interest (lease interest ₹337 cr in FY26) and the cash into financing (₹641 cr of lease payments). Operating cash flow (₹1,894 cr) therefore overstates cash earnings; we treat lease principal as capex in the forecasts and show EBITDA after rent separately.",
+      "**Hyperinflation (IAS 29).** DP Eurasia's results are restated to the latest Turkish price level each period, include a monetary gain or loss on net monetary items inside EBITDA, and are translated at the closing lira rate. Quarterly International margins and DP Eurasia's PAT are therefore noisy; management asks investors to judge them on a full year.",
+      "**One-offs.** FY24: ₹170 cr gain on remeasuring the old DP Eurasia stake. FY25: ₹4.5 cr associate write-down; Dunkin' and Russia losses (₹33 cr) in discontinued operations. FY26: ₹33.7 cr Labour Code charge; discontinued operations +₹58 cr (Russia gain ₹82 cr less Dunkin' ₹24 cr). EPS before these: ₹4.14 (FY24), ₹3.70 (FY25), ₹6.08 (FY26) vs reported ₹6.05, ₹3.19, ₹6.49. Our forecasts carry none of them; Screener's annual \"other income\" includes them, so its FY24 and FY26 profit look better than the business.",
+      "**Minorities.** ₹15.8 cr of FY26 profit (₹3 cr in Q1FY27) belongs to DP Eurasia's 6.35% outside holders and the Bangladesh partner; we use profit after minorities (JUBLFOOD.patch.js), add ~2.5-3 points to the tax rate in forecasts and deduct their share of value in the SOTP.",
+      "**Screener vs company EBITDA.** Screener's FY26 EBITDA (₹1,902 cr) is ₹14 cr above the company's (₹1,888 cr) because it shows losses on store discards below EBITDA; we forecast on the company basis. Screener's Q1-Q2FY26 quarters still include Dunkin'.",
+      "**Intangibles.** Goodwill ₹799 cr and other intangibles ₹1,355 cr (mostly DP Eurasia's brand and master-franchise rights, indefinite-life, tested yearly; no impairment in FY26)."
+     ]
+    },
+    {
+     "callout": "**Accounting flag: AMBER.** Deloitte Haskins & Sells gives a clean opinion and we found nothing improper. The amber reflects how much judgement sits between reported and underlying profit: hyperinflation restatement, two years of re-presented discontinued operations, and a headline EBITDA that leaves out the largest store cost."
+    }
+   ]
+  },
+  {
+   "id": "balance",
+   "nav": "Balance sheet & cash",
+   "kicker": "Balance sheet",
+   "title": "Net debt ₹4,468 cr at Mar-2026, of which ₹3,157 cr is store leases and ₹1,745 cr bank debt",
+   "blocks": [
+    {
+     "p": "At Mar-2026 JFL had ₹1,745 cr of bank borrowings (two euro term loans for DP Eurasia ₹1,183 cr, guaranteed by the parent; a secured term loan ₹372 cr; working-capital lines) and ₹3,157 cr of lease liabilities, against ₹434 cr of cash, bank deposits and investments (incl. ~₹99 cr of non-current investments, mostly associates). Screener counts leases as borrowings, so its net debt (₹4,468 cr) is the lease-inclusive figure; bank net debt was ~₹1,311 cr, about 1.1x FY26 EBITDA after rent (₹1,246 cr, our estimate). Goodwill (₹799 cr) and intangible assets (₹1,355 cr, mainly the DP Eurasia brand and master-franchise rights, treated as indefinite-life) are large. Working capital is negative: suppliers fund the inventory (cash conversion cycle −84 days)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Negative working capital: payables far exceed inventory",
+       "unit": "Days (Screener basis)",
+       "x": [
+        "FY18",
+        "FY19",
+        "FY20",
+        "FY21",
+        "FY22",
+        "FY23",
+        "FY24",
+        "FY25",
+        "FY26"
+       ],
+       "series": [
+        {
+         "name": "Inventory days",
+         "values": [
+          31,
+          32,
+          35,
+          67,
+          59,
+          52,
+          112,
+          66,
+          42
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Receivable days",
+         "values": [
+          2,
+          3,
+          2,
+          2,
+          2,
+          2,
+          17,
+          15,
+          14
+         ],
+         "fmt": "num"
+        },
+        {
+         "name": "Payable days",
+         "values": [
+          185,
+          173,
+          166,
+          268,
+          198,
+          164,
+          215,
+          146,
+          139
+         ],
+         "fmt": "num"
+        }
+       ],
+       "labels": "last",
+       "source": "Screener.in"
+      },
+      {
+       "type": "column",
+       "title": "Net debt incl. leases: ₹616 cr (FY22) to ₹4,468 cr (FY26)",
+       "unit": "Borrowings incl. leases less cash and investments (₹ crore)",
+       "x": "A.labels",
+       "from": "FY20",
+       "series": [
+        {
+         "name": "Net debt incl. leases",
+         "ref": "A.netDebt",
+         "fmt": "num"
+        }
+       ],
+       "labels": "all",
+       "source": "Company filings, Screener.in (consolidated; net profit after minorities), GAM Research. The FY24 jump is DP Eurasia's debt and leases plus the euro acquisition loan."
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Balance sheet snapshot (₹ crore)",
+      "head": [
+       "",
+       "Mar-23",
+       "Mar-24",
+       "Mar-25",
+       "Mar-26"
+      ],
+      "rows": [
+       [
+        "Net worth (owners)",
+        "{{A.netWorth.8|num}}",
+        "{{A.netWorth.9|num}}",
+        "{{A.netWorth.10|num}}",
+        "{{A.netWorth.11|num}}"
+       ],
+       [
+        "Borrowings incl. lease liabilities",
+        "{{A.borrowings.8|num}}",
+        "{{A.borrowings.9|num}}",
+        "{{A.borrowings.10|num}}",
+        "{{A.borrowings.11|num}}"
+       ],
+       [
+        "Cash, bank balances and investments",
+        "{{A.cashAndInvestments.8|num}}",
+        "{{A.cashAndInvestments.9|num}}",
+        "{{A.cashAndInvestments.10|num}}",
+        "{{A.cashAndInvestments.11|num}}"
+       ],
+       [
+        "Net fixed assets incl. goodwill and right-of-use",
+        "{{A.fixedAssets.8|num}}",
+        "{{A.fixedAssets.9|num}}",
+        "{{A.fixedAssets.10|num}}",
+        "{{A.fixedAssets.11|num}}"
+       ],
+       [
+        "Memo: lease liabilities (in borrowings)",
+        "–",
+        "–",
+        "2,870",
+        "3,157"
+       ],
+       [
+        "Memo: bank borrowings",
+        "–",
+        "–",
+        "1,502",
+        "1,745"
+       ]
+      ],
+      "source": "Company filings, Screener.in (consolidated; net profit after minorities), GAM Research; AR FY26 balance sheet and note 16"
+     }
+    }
+   ]
+  },
+  {
+   "id": "ownership",
+   "nav": "Who owns it",
+   "kicker": "Ownership",
+   "title": "Ownership: the Bhartia family 40.3%; Indian funds now 40%, foreign funds down to 13%",
+   "blocks": [
+    {
+     "p": "At Jun-2026 the promoter group held 40.27%, foreign institutions 13.32%, Indian institutions 39.59% and the public 6.49%. Promoter stake 41.94% to 40.27% in the Jun-2025 quarter (1.1 cr shares sold). Foreign investors fell from 27.75% (Dec-2023) to 13.32% (Jun-2026) while Indian funds rose from 21.94% to 39.59%. Mutual funds 30.29%, banks and insurers 5.45%, foreign portfolio investors 17.29%, AIFs 0.48% (AR FY26 shareholding distribution)."
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Foreign funds 27.8% → 13.3%, Indian funds 21.9% → 39.6% in 2½ years",
+       "unit": "% of shares",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "FIIs",
+         "ref": "SH.rows.FIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "DIIs",
+         "ref": "SH.rows.DIIs",
+         "fmt": "pct"
+        },
+        {
+         "name": "Public",
+         "ref": "SH.rows.Public",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "last",
+       "source": "BSE shareholding pattern, Screener.in (to Jun-2026)"
+      },
+      {
+       "type": "column",
+       "title": "Promoter stake 41.9% → 40.3% (Jun-2025 quarter sale)",
+       "unit": "Promoter holding (%)",
+       "x": "SH.periods",
+       "series": [
+        {
+         "name": "Promoters",
+         "ref": "SH.rows.Promoters",
+         "fmt": "pct"
+        }
+       ],
+       "labels": "all",
+       "min": 0,
+       "max": 50,
+       "source": "BSE shareholding pattern, Screener.in"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Largest named shareholders at 31-Mar-2026 (latest named list)",
+      "head": [
+       "Holder",
+       "% of shares"
+      ],
+      "rows": [
+       [
+        "Jubilant Consumer Pvt Ltd (Bhartia family, promoter)",
+        "40.27"
+       ],
+       [
+        "SBI Focused Equity Fund",
+        "9.33"
+       ]
+      ],
+      "source": "AR FY26 note 13; Jun-2026 category totals from Screener.in (the Jun-2026 pattern by name was not available to us)"
+     }
+    },
+    {
+     "callout": "**Our read:** a stable promoter with a long record, and a shift from foreign to Indian funds that has matched the de-rating: foreign holders more than halved their stake over 2½ years. A one-off 1.7% promoter sale in mid-2025 was not repeated by Jun-2026."
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "nav": "Management & governance",
+   "kicker": "Governance",
+   "title": "Promoter-controlled, professionally run; small but recurring related-party purchases",
+   "blocks": [
+    {
+     "p": "Management: Shyam S. Bhartia (Chairman (promoter)); Hari S. Bhartia (Co-Chairman (promoter)); Sameer Khetarpal (CEO & MD (joined 'four years ago', Q4FY26 call)); Suman Hegde (EVP & CFO). Auditor: Deloitte Haskins & Sells LLP. Chairman Shyam S. Bhartia and Co-Chairman Hari S. Bhartia (promoters); CEO & MD Sameer Khetarpal; auditor Deloitte Haskins & Sells LLP (unmodified opinion FY26)."
+    },
+    {
+     "verdicts": [
+      [
+       "Audit and accounts",
+       "Strong",
+       "Deloitte; clean opinion; discontinued operations and IAS 29 explained in detail",
+       "No accounting red flags; complexity is the issue, not honesty"
+      ],
+      [
+       "Related parties",
+       "Moderate",
+       "Promoter entity Jubilant Consumer Pvt Ltd supplied raw materials worth ₹59.6 cr (₹51.0 cr in FY25) and IT/digital services worth ₹31.9 cr (₹33.2 cr) in FY26; purchases of stock-in-trade from Hindustan Coca-Cola Beverages ₹28.1 cr (AR FY26 note 35). Small (~1% of costs) but recurring.",
+       "Small (~1% of costs) but worth watching"
+      ],
+      [
+       "Capital allocation",
+       "Moderate",
+       "DP Eurasia bought for ~₹770 cr for the stake added in FY24 (plus the earlier ~33% holding); Dunkin' exited and Hong's not funded further (management: 'painful' capital-allocation calls); supply-chain capex now past its peak.",
+       "Turkey earns its keep in cash; returns on the whole group are ~15% ROCE"
+      ],
+      [
+       "Disclosure",
+       "Strong",
+       "Shareholder letters with Q&A, LFL, ADS, store counts by brand and market, pre-Ind AS margins for India",
+       "Better than most consumer peers; Popeyes revenue and DP Eurasia's monetary gain still not quantified"
+      ],
+      [
+       "Promoter alignment",
+       "Strong",
+       "40.27% held via Jubilant Consumer Pvt Ltd (Bhartia family); 1.7% sold in the Jun-2025 quarter",
+       "Long-term owner"
+      ]
+     ],
+     "head": [
+      "Area",
+      "Verdict",
+      "Evidence",
+      "So what"
+     ],
+     "title": "Governance scorecard",
+     "source": "AR FY26; shareholder letters; GAM Research"
+    },
+    {
+     "callout": "**Overall: GREEN.** Governance is sound. The decisions to exit Dunkin', stop funding Hong's and sell Russia show willingness to cut losers; the Turkey deal (₹770 cr for control) has so far paid back in cash dividends and growth, at the cost of complexity."
+    }
+   ]
+  },
+  {
+   "id": "forecasts",
+   "nav": "Our forecasts",
+   "kicker": "Earnings model",
+   "title": "Our forecasts: EPS ₹{{F.eps.0|n2}} / ₹{{F.eps.1|n2}} / ₹{{F.eps.2|n2}} for FY27-29E, in line with consensus",
+   "blocks": [
+    {
+     "p": "India revenue +{{as.segments.0.growth.0|pct0}} / +{{as.segments.0.growth.1|pct0}} / +{{as.segments.0.growth.2|pct0}} and International +{{as.segments.1.growth.0|pct0}} / +{{as.segments.1.growth.1|pct0}} / +{{as.segments.1.growth.2|pct0}}: consolidated revenue +{{F.salesGrowth.0|pct0}} / +{{F.salesGrowth.1|pct0}} / +{{F.salesGrowth.2|pct0}}. EBITDA margin (after Ind AS 116) {{F.ebitdaMargin.0|pct}} / {{F.ebitdaMargin.1|pct}} / {{F.ebitdaMargin.2|pct}}; after rent 13.2% / 13.7% / 14.3%. Capex including lease principal ₹{{as.capex.0|num}} / {{as.capex.1|num}} / {{as.capex.2|num}} cr; depreciation {{as.depRateOnGrossBlock|n1}}% of gross block; other income ₹{{as.otherIncome.0|num}}-{{as.otherIncome.2|num}} cr (incl. associates); finance cost ₹{{as.interest.0|num}}-{{as.interest.2|num}} cr; tax incl. minorities {{as.taxRate.0|n1}}% / {{as.taxRate.1|n1}}%; payout {{as.payout.0|pct0}}. EPS compounds ~23% a year over FY26-29E from ₹6.08 before one-offs (reported ₹6.49), driven by EBITDA growth of ~14% a year and slower growth in depreciation and interest."
+    },
+    {
+     "exhibit": {
+      "type": "rows",
+      "title": "P&L and cash flow summary (₹ crore)",
+      "from": "FY22",
+      "rowsRef": [
+       {
+        "name": "Revenue",
+        "ref": "fin.sales",
+        "hl": true
+       },
+       {
+        "name": "growth",
+        "ref": "fin.salesGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "EBITDA (after Ind AS 116)",
+        "ref": "fin.ebitda",
+        "hl": true
+       },
+       {
+        "name": "EBITDA margin",
+        "ref": "fin.ebitdaMargin",
+        "fmt": "pct"
+       },
+       {
+        "name": "Depreciation",
+        "ref": "fin.dep"
+       },
+       {
+        "name": "Other income",
+        "ref": "fin.otherIncome"
+       },
+       {
+        "name": "Finance cost",
+        "ref": "fin.interest"
+       },
+       {
+        "name": "Net profit",
+        "ref": "fin.pat",
+        "hl": true
+       },
+       {
+        "name": "EPS (₹)",
+        "ref": "fin.eps",
+        "fmt": "n2"
+       },
+       {
+        "name": "EPS growth",
+        "ref": "fin.epsGrowth",
+        "fmt": "chg"
+       },
+       {
+        "name": "Capex (forecast incl. lease principal)",
+        "ref": "fin.capex"
+       },
+       {
+        "name": "Free cash flow",
+        "ref": "fin.fcf"
+       }
+      ],
+      "source": "Company, GAM Research estimates"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "GAM vs the street (estimates standing on 30-Sep-2026)",
+      "head": [
+       "",
+       "GAM",
+       "Motilal Oswal (13-08)",
+       "Prabhudas Lilladher (13-08)",
+       "BOB Capital Markets (13-08)",
+       "Emkay Global (14-08)",
+       "ICICI Securities (14-08)",
+       "Consensus"
+      ],
+      "rows": [
+       [
+        "Revenue FY28E (₹ cr)",
+        "{{F.sales.1|num}}",
+        "12,067",
+        "9,282",
+        "11,526",
+        "12,283",
+        "–",
+        "–"
+       ],
+       [
+        "EBITDA FY28E, after Ind AS 116 (₹ cr)",
+        "{{F.ebitda.1|num}}",
+        "2,472",
+        "1,936",
+        "2,280",
+        "2,647",
+        "2,464",
+        "–"
+       ],
+       [
+        "EPS FY27E (₹)",
+        "{{F.eps.0|n2}}",
+        "7.50",
+        "4.70",
+        "7.10",
+        "8.00",
+        "7.60",
+        "7.30"
+       ],
+       [
+        "EPS FY28E (₹)",
+        "{{F.eps.1|n2}}",
+        "9.40",
+        "7.40",
+        "8.50",
+        "10.60",
+        "9.30",
+        "9.10"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM vs broker median, FY28E EPS**",
+         "**−2%**",
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+        ]
+       }
+      ],
+      "source": "Broker notes 13-14 Aug-2026 (ICICI Securities: 21-May-2026 forecasts); Prabhudas Lilladher is standalone; consensus = Bloomberg as cited by BOB Capital Markets (13-Aug-2026)"
+     }
+    },
+    {
+     "callout": "**Where we differ:** hardly at all on earnings. Our FY28E EBITDA (₹2,472 cr) sits between BOB Capital Markets (₹2,280 cr) and Emkay (₹2,647 cr) and matches Motilal Oswal; our EPS is within 2% of consensus. The difference in our call is the multiple, not the numbers."
+    }
+   ]
+  },
+  {
+   "id": "street",
+   "nav": "Street view",
+   "kicker": "Street",
+   "title": "The street: 10 of 14 post-results notes are Buy-rated; median target ₹572, on SOTP EV/EBITDA after rent",
+   "blocks": [
+    {
+     "p": "After the Q1FY27 results (13-Aug-2026) 14 houses published dated targets: median ₹572 (+25% vs the 30-Sep-2026 close of ₹456.70); including older notes still standing, the median is ₹562. 10 are Buy or Outperform, 3 are Hold/Neutral and Axis Capital initiated at Sell (₹505). Targets were raised after Q1 (Jefferies ₹600→650, Emkay ₹550→600, CLSA ₹520→554, Macquarie ₹375→520 with an upgrade), but the multiples are far below the start of the year. Every broker with a visible method values JFL as a sum of the parts on EV/EBITDA before Ind AS 116 (after rent, EV without lease liabilities): India or standalone at 24-30x FY28E/Jun-28E (Emkay 24x, Prabhudas Lilladher 26x, Motilal Oswal 28x, BOB Capital Markets 30x) and International at 15-18x EBITDA (Emkay, Motilal Oswal) or DP Eurasia on 23-35x P/E (Prabhudas Lilladher, BOB Capital Markets). Emkay's blend is 21x Jun-28E. In Feb-2026 India multiples were 33-36x (Centrum, Elara): the street has already cut them by about a quarter. ICICI Securities uses a DCF."
+    },
+    {
+     "p": "Consensus before 30-Sep-2026: Bloomberg EPS FY27E ₹7.3, FY28E ₹9.1 (cited by BOB Capital Markets, 13-Aug-2026); average target ₹538 from 29 analysts (Trendlyne, 22-Jul-2026) and ₹542 (StockAnalysis/S&P, 22-Jun-2026)."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Critiques we take seriously",
+      "head": [
+       "Argument"
+      ],
+      "wide": [
+       0
+      ],
+      "rows": [
+       [
+        "Domino's LFL fell from 11.6% (Q1FY26) to 0.2% (Q4FY26) and 2.5% (Q1FY27) while stores grew ~12%: revenue per store is falling."
+       ],
+       [
+        "Reported EBITDA excludes rent; after rent the standalone margin was 12.6% in FY26, and the +200 bp target set at the 2025 Investor Day now runs to end-FY28."
+       ],
+       [
+        "Turkey's rupee profits depend on IAS 29 monetary gains and the lira, and come with minorities (6.35% of DP Eurasia). Most of the group's ₹1,745 cr of bank debt is euro acquisition debt for DP Eurasia (two term loans of Jubilant FoodWorks Netherlands, EUR 45.6 mn + EUR 64 mn = ₹1,183 cr, guaranteed by the parent; AR FY26 note 16), so a weaker rupee raises it."
+       ],
+       [
+        "Return on capital is modest: Screener ROCE 15% in FY26 (company standalone pre-Ind AS ROCE 18.9%)."
+       ]
+      ],
+      "source": "Broker notes and company filings as cited; GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "valuation",
+   "nav": "Valuation",
+   "kicker": "Valuation",
+   "title": "Valuation: 17x Sep-28E EBITDA less minorities gives {{dcf.tp|inr}}; the market pays 13.4x",
+   "blocks": [
+    {
+     "h": "How the street values JFL"
+    },
+    {
+     "p": "The street uses a sum of the parts on EV/EBITDA after rent (\"pre-Ind AS 116\"): India at 24-30x FY28E/Jun-28E and International at 15-18x, or DP Eurasia on P/E. We use EV/EBITDA on the same horizon (Sep-28E: half FY28E, half FY29E), but on reported EBITDA before rent with lease liabilities (₹3,157 cr at Mar-2026) counted as debt, the basis on which the stock's own history can be measured. We apply one group multiple to India and International (the history has included Turkey since FY25) and deduct minorities (3.0% of equity value). On the street's basis our target equals **23.0x** Sep-28E after-rent EBITDA (₹1,813 cr), inside its 21-26x blended range. The \"At our EBITDA\" column applies each broker's headline multiple to our after-rent EBITDA."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "How the street values the stock (latest dated note per broker on or before 30-Sep-2026)",
+      "head": [
+       "Broker",
+       "Rating",
+       "Target (₹)",
+       "Method",
+       "Multiple",
+       "On",
+       "At our EBITDA (₹)",
+       "Thesis"
+      ],
+      "wide": [
+       7
+      ],
+      "rows": [
+       [
+        "Motilal Oswal (13-Aug-26)",
+        "Buy",
+        "625",
+        "SOTP on EV/EBITDA (pre-Ind AS implied)",
+        "India 28x, Intl 18x",
+        "Mar-28E",
+        "737",
+        "Upgraded from Neutral to Buy in its early-Aug QSR thematic; Q1 in line, Domino's LFL +2.5% with orders +6.5%, Popeyes is a second growth engine; models 13% standalone revenue CAGR FY26-28E and a 12.5-13.0% pre-Ind AS mar"
+       ],
+       [
+        "Prabhudas Lilladher (13-Aug-26)",
+        "Buy",
+        "574",
+        "SOTP: standalone EV/EBITDA pre-Ind AS + DP Eurasia P/E",
+        "26x standalone; DP Eurasia 23x P/E",
+        "FY28E (Mar-28E); DPEU CY27E",
+        "684",
+        "Healthy near-term demand; price hikes, mix and supply chain limit the inflation hit; Popeyes 40%+ SSG; flat FY27 margin, then ~90bp expansion FY26-28; 32.8% standalone EPS CAGR FY26-28. TP trimmed from ₹576."
+       ],
+       [
+        "BOB Capital Markets (13-Aug-26)",
+        "Buy",
+        "604",
+        "SOTP: India EV/EBITDA (pre-Ind AS) + DP Eurasia P/E",
+        "India 30x; DP Eurasia 35x P/E",
+        "not stated",
+        "790",
+        "Order-led recovery: Domino's orders +6.5%, Popeyes +97% revenue; margins resilient; estimates unchanged; revenue/EBITDA CAGR 9.9%/10.2% FY26-29E. TP ₹604, up from ₹590 (21-May-2026)."
+       ],
+       [
+        "Emkay Global (14-Aug-26)",
+        "Buy",
+        "600",
+        "SOTP on EV/EBITDA pre-Ind AS",
+        "India 24x, Intl 15x (21x blended)",
+        "Jun-28E",
+        "550",
+        "TP up ~10% from ₹550 on management's confidence in an FY27 LFL pick-up (dine-in revival, ~400 store upgrades) and Popeyes traction (₹10bn target); standalone pre-Ind AS margin fell only ~20bp despite ~200bp of inflation;"
+       ],
+       [
+        "ICICI Securities (14-Aug-26)",
+        "Buy",
+        "570",
+        "DCF (May-2026 note; target unchanged)",
+        "DCF",
+        "–",
+        "–",
+        "'More on the menu': Q1 gives early evidence of improving operating momentum; LFL recovered to 2.5% from 0.2%; orders +6.5% and delivery +12.1% point to better demand than the LFL headline."
+       ],
+       [
+        "Jefferies (14-Aug-26)",
+        "Buy",
+        "650",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "TP raised to ₹650 from ₹600 (set 21-May-2026). In-line quarter; Domino's India LFL still weak but expected to accelerate on a favourable base; EBITDA margin decline contained; Popeyes ADS above ₹95k."
+       ],
+       [
+        "CLSA (14-Aug-26)",
+        "Outperform",
+        "554",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "Standalone sales +9.2%, LFL 2.5%; gross margin beat by 46bp; management guides 5-7% LFL in FY27 with improvement from Q2; FY27-29E estimates raised 12-14%. Previous view was Outperform, TP ₹520 (7-Jul-2026)."
+       ],
+       [
+        "HSBC (14-Aug-26)",
+        "Hold",
+        "500",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "Domino's growth muted (LFL 2.5%) but margins well managed; Popeyes the standout; expects a gradual recovery (models 5% LFL in Q2FY27); commodity inflation is the key monitorable. Hold and ₹500 retained."
+       ],
+       [
+        "Nuvama (14-Aug-26)",
+        "Buy",
+        "668",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "TP raised to ₹668 from ₹646 (the May-2026 note was 'Buy with negative bias', down from ₹744). Raised FY27/28E revenue 1.4-1.7% and EBITDA 2.7-6.4%; stock at ₹496 = 52x FY28E EPS. Per a Business Standard 19-Aug-2026 artic"
+       ],
+       [
+        "Kotak Institutional Equities (14-Aug-26) †",
+        "Buy",
+        "540",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "Only the aggregator row exists: Buy, TP ₹540 (from ₹520), 14-Aug-2026. No primary note or article found."
+       ],
+       [
+        "Axis Capital (14-Aug-26) †",
+        "Sell",
+        "505",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "Initiation (new coverage) per an Investing.com aggregator row only; not confirmed by any primary note or article."
+       ],
+       [
+        "Bernstein (14-Aug-26) †",
+        "Outperform",
+        "680",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "Outperform maintained (~38% upside). Domino's India LFL of 2.5% was below expectations, but Bernstein stays positive on Popeyes momentum. Date is approximate (post-Q1 coverage); source is a secondary Swastika blog that n"
+       ],
+       [
+        "J.P. Morgan (18-Aug-26) †",
+        "Neutral",
+        "520",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "StockAnalysis lists analyst Latika Chopra, 'Maintains', ₹520 on 18-Aug-2026. The earlier visible JPM note was Neutral, TP cut to ₹500 (30-Mar-2026: LPG disruption, West Asia demand slowdown, FY27 EBITDA cut 7%)."
+       ],
+       [
+        "Macquarie (26-Aug-26)",
+        "Neutral",
+        "520",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "QSR sector upgrade: demand recovery gaining pace, channel checks show Q2 SSSG ahead of Q1, and sector EBITDA CAGR above 20% FY26-29E. JFL is ranked last of the four (behind Devyani, Sapphire, Westlife) given EPS volatili"
+       ],
+       [
+        "Morgan Stanley (7-Jul-26)",
+        "Equal-weight",
+        "486",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "Reaction to the Q1FY27 business update: India revenue +9.2% in line, LFL improved to 2.5%, 58 stores (ahead); consolidated growth of 14.1% below estimates; margin pressure from input inflation. Downgraded from OW (TP 693"
+       ],
+       [
+        "Elara Securities (2-Jul-26)",
+        "Accumulate",
+        "500",
+        "Not visible (Feb-2026: standalone EV/EBITDA + DP Eurasia P/E)",
+        "–",
+        "–",
+        "–",
+        "Q1FY27 consumer preview: delivery-driven JUBI may post 3-4% LFL; EBITDA margin may shed ~78bp to ~19.7%. Accumulate, TP ₹500, set 20-May-2026 (downgraded from Buy, cut from ₹780). No post-Q1 Elara note found."
+       ],
+       [
+        "Geojit (9-Jun-26)",
+        "Accumulate",
+        "475",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "Downgraded from Buy (TP 602, Feb-2026): strong brand and delivery traction, but dine-in and takeaway demand softer than expected."
+       ],
+       [
+        "Citi (1-Jun-26)",
+        "–",
+        "650",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "TP cut ~19% to ₹650 (implies ~₹800 before) on a sluggish SSS recovery. The date is the article date; the note may be from late May 2026."
+       ],
+       [
+        "Goldman Sachs (21-May-26)",
+        "Neutral",
+        "460",
+        "Not visible",
+        "–",
+        "–",
+        "–",
+        "After Q4FY26: TP cut from ₹480 and earnings estimates cut; expects Domino's India growth to lag peers in FY27; near-term margin pressure from energy, wages and RM. No post-Q1 GS note found."
+       ],
+       [
+        "Centrum (10-Feb-26) – stale",
+        "Buy",
+        "690",
+        "SOTP on EV/EBITDA",
+        "Domestic 33x, Intl 12x",
+        "Mar-28E",
+        "870",
+        "Post-Q3FY26: TP raised from ₹670; FY26/FY27 EPS raised 15%/20%. STALE: predates Q4FY26, and no later Centrum note was found (likely superseded)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**GAM Research**",
+         "**BUY**",
+         "**{{dcf.tp|num}}**",
+         "**EV/EBITDA SOTP (reported, leases as debt)**",
+         "**17x (≈23.0x after rent)**",
+         "**Sep-28E**",
+         "**{{dcf.tp|num}}**",
+         "Volume growth intact; the multiple has fallen further than the peers'"
+        ]
+       }
+      ],
+      "source": "† aggregator row, no primary note found. Not in the table: UBS (Buy ₹600; date not confirmable before 30-Sep), Avendus Spark (undated), Antique (last seen Jan-2026), BP Wealth (behind a login). Kotak, Axis Capital, Bernstein and J.P. Morgan are aggregator rows (Investing.com, StockAnalysis, a blog) without a primary note. \"At our EBITDA\" applies the India/standalone or blended multiple to all of our after-rent EBITDA, so it overstates SOTPs with a lower International multiple."
+     }
+    },
+    {
+     "h": "Our target multiple: 17x, and why"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Deriving the multiple (house rule, PLAYBOOK §4 and §7c)",
+      "head": [
+       "Yardstick",
+       "Evidence",
+       "What it implies"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "1. Own forward EV/EBITDA since Apr-2021 (used)",
+        "EV (market value grossed up for minorities, plus net debt incl. leases from the latest March balance sheet) ÷ next full-year EBITDA (realised; FY27E-28E ours), 288 weekly closes: median 23.5x, 25th-75th percentile 20.6-31.9x, range 13.4-51.7x. Trough years (forward EBITDA below half the prior three-year peak): none",
+        "**Starting point: 23.5x**"
+       ],
+       [
+        "2. One-offs",
+        "The FY24 remeasurement gain, FY26 Labour Code charge and discontinued operations all sit below EBITDA",
+        "No adjustment"
+       ],
+       [
+        "3. Sector move (five years)",
+        "QSR peers' trailing EV/EBITDA on 30-Sep-2026 vs their five-year medians (Screener): Westlife −19.0%, Devyani −41.2%, Sapphire −27.0%; median −27.0%. Excluded: Restaurant Brands Asia (Burger King) (Restaurant Brands Asia's consolidated EBITDA was negative or near zero (Indonesia losses) from Oct-2021 to May-2022, so Screener has no EV/EBITDA for 35 of the 261 weeks). JFL itself −44.3% (not used). Three usable names; the move is in the base and wider sets are sensitivity rows",
+        "× 0.730"
+       ],
+       [
+        "4. Growth vs the street",
+        "Our EBITDA and EPS match consensus (FY28E EPS ₹9.15 vs ₹9.1); the street's own India multiples have fallen from 33-36x (Feb-2026) to 24-30x",
+        "No adjustment (§7c)"
+       ],
+       [
+        "5. Peers",
+        "QSR peer median trailing EV/EBITDA 20.4x; JFL 17.0x trailing, below Westlife and Devyani, above Sapphire, and the only one with material net profits",
+        "JFL is not expensive against peers on EBITDA"
+       ],
+       [
+        "6. Returns",
+        "ROCE ~15% (Screener) against a ~12% cost of capital; standalone pre-Ind AS ROCE 18.9%",
+        "Supports a market multiple, not a premium"
+       ],
+       [
+        "7. Result (nearest half-turn)",
+        "23.5x × 0.730 = 17.1x",
+        "**17x Sep-28E EBITDA of ₹2,648 cr**"
+       ],
+       [
+        "8. Bull / bear",
+        "75th / 25th percentile forward EV/EBITDA with the move: 31.9x / 20.6x × 0.730",
+        "23.5x / 15x"
+       ]
+      ],
+      "source": "Screener.in weekly prices to 30-Sep-2026; GAM estimates for FY27-28E EBITDA; peers' Screener EV/EBITDA series"
+     }
+    },
+    {
+     "pair": [
+      {
+       "type": "line",
+       "title": "Forward EV/EBITDA since Apr-2021: median 23.5x; 14.4x FY28E now",
+       "unit": "EV ÷ next full-year EBITDA, after Ind AS 116 (x)",
+       "x": [
+        "2021-04-01",
+        "2021-04-16",
+        "2021-04-30",
+        "2021-05-14",
+        "2021-05-28",
+        "2021-06-11",
+        "2021-06-25",
+        "2021-07-09",
+        "2021-07-23",
+        "2021-08-06",
+        "2021-08-20",
+        "2021-09-03",
+        "2021-09-17",
+        "2021-10-01",
+        "2021-10-14",
+        "2021-10-29",
+        "2021-11-12",
+        "2021-11-26",
+        "2021-12-10",
+        "2021-12-24",
+        "2022-01-07",
+        "2022-01-21",
+        "2022-02-04",
+        "2022-02-18",
+        "2022-03-04",
+        "2022-03-17",
+        "2022-04-01",
+        "2022-04-13",
+        "2022-04-29",
+        "2022-05-13",
+        "2022-05-27",
+        "2022-06-10",
+        "2022-06-24",
+        "2022-07-08",
+        "2022-07-22",
+        "2022-08-05",
+        "2022-08-19",
+        "2022-09-02",
+        "2022-09-16",
+        "2022-09-30",
+        "2022-10-14",
+        "2022-10-28",
+        "2022-11-11",
+        "2022-11-25",
+        "2022-12-09",
+        "2022-12-23",
+        "2023-01-06",
+        "2023-01-20",
+        "2023-02-03",
+        "2023-02-17",
+        "2023-03-03",
+        "2023-03-17",
+        "2023-03-31",
+        "2023-04-13",
+        "2023-04-28",
+        "2023-05-12",
+        "2023-05-26",
+        "2023-06-09",
+        "2023-06-23",
+        "2023-07-07",
+        "2023-07-21",
+        "2023-08-04",
+        "2023-08-18",
+        "2023-09-01",
+        "2023-09-15",
+        "2023-09-29",
+        "2023-10-13",
+        "2023-10-27",
+        "2023-11-12",
+        "2023-11-24",
+        "2023-12-08",
+        "2023-12-22",
+        "2024-01-05",
+        "2024-01-20",
+        "2024-02-02",
+        "2024-02-16",
+        "2024-03-02",
+        "2024-03-15",
+        "2024-03-28",
+        "2024-04-12",
+        "2024-04-26",
+        "2024-05-10",
+        "2024-05-24",
+        "2024-06-07",
+        "2024-06-21",
+        "2024-07-05",
+        "2024-07-19",
+        "2024-08-02",
+        "2024-08-16",
+        "2024-08-30",
+        "2024-09-13",
+        "2024-09-27",
+        "2024-10-11",
+        "2024-10-25",
+        "2024-11-08",
+        "2024-11-22",
+        "2024-12-06",
+        "2024-12-20",
+        "2025-01-03",
+        "2025-01-17",
+        "2025-02-01",
+        "2025-02-14",
+        "2025-02-28",
+        "2025-03-13",
+        "2025-03-28",
+        "2025-04-11",
+        "2025-04-25",
+        "2025-05-09",
+        "2025-05-23",
+        "2025-06-06",
+        "2025-06-20",
+        "2025-07-04",
+        "2025-07-18",
+        "2025-08-01",
+        "2025-08-14",
+        "2025-08-29",
+        "2025-09-12",
+        "2025-09-26",
+        "2025-10-10",
+        "2025-10-24",
+        "2025-11-07",
+        "2025-11-21",
+        "2025-12-05",
+        "2025-12-19",
+        "2026-01-02",
+        "2026-01-16",
+        "2026-02-01",
+        "2026-02-13",
+        "2026-02-27",
+        "2026-03-13",
+        "2026-03-27",
+        "2026-04-10",
+        "2026-04-24",
+        "2026-05-08",
+        "2026-05-22",
+        "2026-06-05",
+        "2026-06-19",
+        "2026-07-03",
+        "2026-07-17",
+        "2026-07-31",
+        "2026-08-14",
+        "2026-08-28",
+        "2026-09-11",
+        "2026-09-25",
+        "2026-09-30"
+       ],
+       "series": [
+        {
+         "name": "Forward EV/EBITDA",
+         "values": [
+          35.1,
+          33.6,
+          34.4,
+          33.4,
+          37.1,
+          37.9,
+          36.7,
+          36.6,
+          41.9,
+          43.6,
+          46.6,
+          48.3,
+          48.1,
+          47.5,
+          51.7,
+          43.3,
+          47,
+          43,
+          44.5,
+          40.4,
+          44.2,
+          43.5,
+          37.7,
+          35.1,
+          31,
+          30.2,
+          31.5,
+          32.1,
+          31.6,
+          27.5,
+          29.9,
+          30.4,
+          30.9,
+          33.3,
+          33.6,
+          33.3,
+          34.5,
+          35,
+          36.2,
+          36,
+          34.5,
+          34.3,
+          32.6,
+          32.2,
+          31,
+          29.6,
+          28.9,
+          29.6,
+          25,
+          26.5,
+          25.6,
+          24.8,
+          25.6,
+          18.4,
+          18.9,
+          19.7,
+          20.4,
+          20.8,
+          20.7,
+          21.3,
+          20.2,
+          22.3,
+          20.8,
+          21.9,
+          23,
+          23,
+          23.2,
+          21.8,
+          22,
+          23.5,
+          24.1,
+          25,
+          23.9,
+          22.6,
+          21.4,
+          21.4,
+          20.3,
+          19.4,
+          19.5,
+          16.8,
+          15.9,
+          16.8,
+          17,
+          20,
+          21.2,
+          21.8,
+          21.4,
+          23.1,
+          24.4,
+          24.6,
+          25.6,
+          25.9,
+          23.9,
+          22.3,
+          23.1,
+          24.1,
+          26.1,
+          25.4,
+          28.4,
+          26,
+          27.7,
+          25.2,
+          23.7,
+          22.7,
+          25.1,
+          22.9,
+          23.2,
+          22.4,
+          22.3,
+          23.9,
+          23.9,
+          24.4,
+          23.5,
+          22.2,
+          21.9,
+          21.8,
+          22,
+          21.1,
+          21,
+          20.6,
+          20.1,
+          20.5,
+          20.7,
+          19.7,
+          19.4,
+          18.6,
+          17.5,
+          18.8,
+          18.3,
+          16.4,
+          16.3,
+          13.8,
+          15.1,
+          14.6,
+          13.6,
+          13.6,
+          13.4,
+          13.7,
+          13.4,
+          13.9,
+          15.8,
+          15.4,
+          14.8,
+          15.2,
+          14.4
+         ],
+         "fmt": "x",
+         "thin": true
+        }
+       ],
+       "labels": "last",
+       "lines": [
+        {
+         "v": 17,
+         "text": "Our multiple: 17x",
+         "color": "#cf8f1f"
+        }
+       ],
+       "source": "Screener.in weekly prices; GAM estimates for FY27-28E (2021-22 values reflect the post-Covid delivery boom)"
+      },
+      {
+       "type": "hbar",
+       "title": "Target and cross-checks vs the share price",
+       "unit": "₹ per share (base case)",
+       "x": [
+        "EV/EBITDA SOTP (target)",
+        "P/E",
+        "DCF",
+        "Street median (post-Q1)",
+        "Share price"
+       ],
+       "series": [
+        {
+         "name": "Value",
+         "values": [
+          606,
+          802,
+          333,
+          572,
+          457
+         ],
+         "fmt": "inr"
+        }
+       ],
+       "labels": "all",
+       "highlight": "EV/EBITDA SOTP (target)",
+       "source": "GAM Research"
+      }
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Sum of the parts (base case, Sep-28E)",
+      "head": [
+       "Part",
+       "Basis",
+       "Multiple",
+       "Value (₹ cr)",
+       "₹ per share"
+      ],
+      "rows": [
+       [
+        "India EBITDA at the group EV/EBITDA",
+        "Sep-28E India EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+        "17x",
+        "32,080",
+        "486.5"
+       ],
+       [
+        "International EBITDA at the group EV/EBITDA",
+        "Sep-28E International EBITDA × the same multiple",
+        "17x",
+        "12,931",
+        "196.1"
+       ],
+       [
+        "Less: minorities",
+        "3% (minorities' share of profit) × equity value before minorities",
+        "–",
+        "-1,236",
+        "-18.7"
+       ],
+       [
+        "Net cash at Sep-28E (model: cash and investments less borrowings incl. leases)",
+        "½ Mar-28E + ½ Mar-29E",
+        "–",
+        "-3,807",
+        "-57.7"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Equity value / target**",
+         "",
+         "",
+         "**39,968**",
+         "**{{dcf.tp|inr}}**"
+        ]
+       }
+      ],
+      "source": "GAM Research (JUBLFOOD.val.js sets the multiples and the minorities line)"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Target price and cross-checks",
+      "head": [
+       "Method",
+       "Role",
+       "Basis",
+       "Multiple",
+       "Value / share (₹)",
+       "vs target",
+       "Bull (₹)",
+       "Bear (₹)"
+      ],
+      "rows": [
+       [
+        "**EV/EBITDA SOTP**",
+        "**Target**",
+        "Sep-28E EBITDA ₹2,648 cr, net debt incl. leases, less minorities",
+        "17x (bull 23.5x, bear 15x)",
+        "**{{dcf.blend.methods.0.value|n1}}**",
+        "–",
+        "{{scen.bull.blend.methods.0.value|n1}}",
+        "{{scen.bear.blend.methods.0.value|n1}}"
+       ],
+       [
+        "P/E",
+        "Cross-check",
+        "Sep-28E EPS ₹10.21",
+        "78.5x (bull 93.5x, bear 63.5x)",
+        "{{dcf.blend.methods.1.value|n1}}",
+        "+32%",
+        "{{scen.bull.blend.methods.1.value|n1}}",
+        "{{scen.bear.blend.methods.1.value|n1}}"
+       ],
+       [
+        "DCF",
+        "Cross-check",
+        "FCFF FY28-42E (lease principal as capex), discount rate {{dcf.ke|n1}}%, g {{as.dcf.terminalGrowth|n1}}%",
+        "–",
+        "{{dcf.blend.methods.2.value|n1}}",
+        "−45%",
+        "{{scen.bull.blend.methods.2.value|n1}}",
+        "{{scen.bear.blend.methods.2.value|n1}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month target (rounded)**",
+         "",
+         "",
+         "",
+         "**{{dcf.tp|inr}}**",
+         "{{dcf.upside|chg}} vs CMP",
+         "{{scen.bull.tp|inr}}",
+         "{{scen.bear.tp|inr}}"
+        ]
+       }
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "callout": "**What the cross-checks tell us.** P/E (78.5x Sep-28E EPS: JFL's 112.4x forward median on EPS before one-offs since Apr-2021 × the retail set's −30.1% P/E move; QSR peers have no usable P/E) gives ₹802, well above the target: EPS before one-offs fell from ₹6.55 (FY22) to ₹3.70 (FY25) while the price held up, so the P/E history is inflated by a near-trough earnings period (the house function on reported EPS gives 96.1x). That is why the street and we use EV/EBITDA. The DCF gives ₹333: at {{dcf.ke|n1}}%, {{as.dcf.terminalGrowth|n1}}% terminal growth and EBITDA fading to {{as.dcf.fadeMarginTo|n1}}% of revenue, store and lease spending absorb much of the cash, so the DCF supports less than today's price. **We weight neither; the rule gives 17x, and the market pays 13.4x.**"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Views we did not put in the base (sensitivity rows only)",
+      "head": [
+       "View",
+       "What it changes",
+       "Value / share (₹)"
+      ],
+      "wide": [
+       0,
+       1
+      ],
+      "rows": [
+       [
+        "Own window since the Turkey consolidation (Apr-2024)",
+        "Own median 21.4x × QSR move over the same window (−27.1%) → 15.5x",
+        "548"
+       ],
+       [
+        "QSR set including Restaurant Brands Asia",
+        "−23.0% instead of −27.0% → 18x",
+        "645"
+       ],
+       [
+        "Devyani out (merging with Sapphire; prices linked since Jan-2026)",
+        "Westlife + Sapphire −23.0% → 18x",
+        "645"
+       ],
+       [
+        "Retail set (DMART.ctx.js) on EV/EBITDA instead of QSR",
+        "−36.1% → 15x",
+        "528"
+       ],
+       [
+        "International at 60% of the group multiple (the street's India/International ratio)",
+        "India 17x, International 10.2x",
+        "530"
+       ],
+       [
+        "No sector move",
+        "23.5x → 23.5x",
+        "859"
+       ],
+       [
+        "Street multiple on our numbers: Emkay 21x after rent (blended)",
+        "21x our Sep-28E after-rent EBITDA (₹1,813 cr), EV without leases",
+        "550"
+       ],
+       [
+        "Street India multiple for the whole group: Prabhudas Lilladher 26x",
+        "26x after rent, all of EBITDA",
+        "684"
+       ]
+      ],
+      "source": "GAM Research. Per PLAYBOOK §7c, other windows, peer sets, street multiples and segment splits are shown, not added to the base multiple."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Scenarios",
+      "head": [
+       "Scenario",
+       "Target",
+       "vs CMP",
+       "What has to happen"
+      ],
+      "wide": [
+       3
+      ],
+      "rows": [
+       [
+        "**Bull**",
+        "{{scen.bull.tp|inr}}",
+        "{{scen.bull.upside|chg}}",
+        "{{as.scenarios.bull.narrative}} Multiple 23.5x (75th percentile, with the sector move)."
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**Base (GAM)**",
+         "{{dcf.tp|inr}}",
+         "{{dcf.upside|chg}}",
+         "Revenue {{F.sales.0|num}} / {{F.sales.1|num}} / {{F.sales.2|num}} cr; EBITDA margin {{F.ebitdaMargin.0|pct}} → {{F.ebitdaMargin.2|pct}}; 17x Sep-28E EBITDA of ₹2,648 cr."
+        ]
+       },
+       [
+        "**Bear**",
+        "{{scen.bear.tp|inr}}",
+        "{{scen.bear.upside|chg}}",
+        "{{as.scenarios.bear.narrative}} Multiple 15x (25th percentile, with the sector move)."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "The DCF cross-check in detail"
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF summary",
+      "head": [
+       "",
+       "₹ crore / ₹ per share"
+      ],
+      "rows": [
+       [
+        "Present value of FY28-42E free cash flow",
+        "{{dcf.pvExplicit|num}}"
+       ],
+       [
+        "Present value of terminal value",
+        "{{dcf.pvTv|num}}"
+       ],
+       [
+        "Enterprise value",
+        "{{dcf.ev|num}}"
+       ],
+       [
+        "Net debt incl. lease liabilities at Mar-27 (negative = debt)",
+        "{{dcf.netCash|num}}"
+       ],
+       [
+        "Equity value",
+        "{{dcf.equity|num}}"
+       ],
+       [
+        "Value per share (Mar-27)",
+        "{{dcf.perShare|n1}}"
+       ],
+       {
+        "hl": true,
+        "cells": [
+         "**12-month DCF value (rolled forward 6 months)**",
+         "**₹{{dcf.blend.methods.2.value|n1}}**"
+        ]
+       },
+       [
+        "Terminal value share of EV",
+        "{{dcf.tvShare|pct}}"
+       ]
+      ],
+      "source": "GAM Research. Beta 0.9 sets the single discount rate at ~11.9%, our WACC with debt and leases at ~13% of EV; minorities are not deducted in the DCF (~3% of value)."
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "DCF value sensitivity (₹): discount rate down the side, terminal growth across",
+      "grid": "dcf.sens.grid",
+      "rowsRef": "dcf.sens.waccs",
+      "colsRef": "dcf.sens.gs",
+      "corner": "Rate / g",
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Listed QSR peers (and the retail set used for the P/E move)",
+      "head": [
+       "Company",
+       "Market value (₹ cr)",
+       "FY26 revenue (₹ cr)",
+       "EBITDA margin",
+       "P/E (x)",
+       "EV/EBITDA (x)",
+       "EV/EBITDA vs 5-yr median",
+       "P/E vs 5-yr median",
+       "ROE"
+      ],
+      "rows": [
+       [
+        "**Jubilant FoodWorks**",
+        "30,135",
+        "9,513",
+        "20%",
+        "79.1",
+        "17.0",
+        "−44%",
+        "−33%",
+        "20.2%"
+       ],
+       [
+        "Westlife (McDonald's W&S)",
+        "9,194",
+        "2,626",
+        "13.1%",
+        "n.m.",
+        "29.4",
+        "−19%",
+        "n.m.",
+        "5.2%"
+       ],
+       [
+        "Devyani (KFC, Pizza Hut)",
+        "16,027",
+        "5,611",
+        "15.3%",
+        "n.m.",
+        "20.4",
+        "−41%",
+        "n.m.",
+        "-3.3%"
+       ],
+       [
+        "Sapphire (KFC, Pizza Hut)",
+        "6,833",
+        "3,125",
+        "15.2%",
+        "n.m.",
+        "15.4",
+        "−27%",
+        "n.m.",
+        "-2.3%"
+       ],
+       [
+        "Restaurant Brands Asia (Burger King) (excluded)",
+        "6,524",
+        "2,823",
+        "11.6%",
+        "n.m.",
+        "20.9",
+        "−15%",
+        "n.m.",
+        "-25%"
+       ],
+       [
+        "DMart (retail, P/E move)",
+        "2,47,999",
+        "68,821",
+        "7.5%",
+        "81.1",
+        "45.7",
+        "−27%",
+        "−22%",
+        "12.9%"
+       ],
+       [
+        "Trent (retail, P/E move)",
+        "1,39,792",
+        "20,074",
+        "18.7%",
+        "76.4",
+        "35.2",
+        "−38%",
+        "−47%",
+        "27.7%"
+       ],
+       [
+        "Metro Brands (retail, P/E move)",
+        "22,939",
+        "2,864",
+        "30.5%",
+        "56.5",
+        "24.6",
+        "−36%",
+        "−29%",
+        "22.5%"
+       ],
+       [
+        "Bata India (retail, P/E move)",
+        "7,949",
+        "3,516",
+        "20.6%",
+        "45.8",
+        "11.1",
+        "−54%",
+        "−30%",
+        "8.5%"
+       ],
+       [
+        "Page Industries (retail, P/E move)",
+        "40,583",
+        "5,247",
+        "22%",
+        "51.9",
+        "33.5",
+        "−30%",
+        "−30%",
+        "52.5%"
+       ]
+      ],
+      "source": "Screener.in, trailing multiples at the NSE close on 30-Sep-2026 (EV includes lease liabilities). n.m. = not meaningful (profit near zero or negative)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "risks",
+   "nav": "Risks & honest summary",
+   "kicker": "Summary",
+   "title": "Our honest summary: a slower but sound business at 13.4x Sep-28E EBITDA; BUY on valuation",
+   "blocks": [
+    {
+     "callout": "**What you are buying:** India's largest QSR (2,455 Domino's stores, 76% delivery on its own app and fleet), a supply chain built for ~5,000 stores, Popeyes growing ~100%, and a cash-generating Turkish franchise (DP Eurasia, ₹204 cr PAT in FY26). Growth has slowed: Domino's LFL 2.5% in Q1FY27, revenue per store flat, margins ~20% before rent and ~13% after it."
+    },
+    {
+     "callout": "**What you are paying:** ₹456.70 is 13.4x Sep-28E EBITDA (leases in debt), ≈17.5x after rent on the street's basis, and 49.9x FY28E EPS. Since Apr-2021 the stock has traded at a median 23.5x forward EBITDA; QSR peers trade ~27% below their five-year medians, JFL ~44% below its own. The rule gives 17x; the street median is ₹572."
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What would make us more positive",
+      "head": [
+       "Trigger",
+       "Likelihood",
+       "What we watch"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "Domino's LFL back in the 5-7% range",
+        "Medium",
+        "Q2FY27 LFL (management: better than Q1); dine-in/takeaway trend in the ~400 upgraded stores"
+       ],
+       [
+        "After-rent margin +200 bp by FY28 as guided",
+        "Medium-Low",
+        "Standalone adjusted EBITDA margin 12.6% in FY26; we model ~+125 bp over three years"
+       ],
+       [
+        "Popeyes EBITDA break-even",
+        "Medium",
+        "35-40 openings a year; ADS above ₹1 lakh in more cities"
+       ],
+       [
+        "Aggregators raise minimum order values again",
+        "Low-Medium",
+        "Would restore Domino's ticket sizes and dine-in traffic"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "What could make it worse",
+      "head": [
+       "Risk",
+       "Likelihood",
+       "Impact"
+      ],
+      "wide": [
+       2
+      ],
+      "rows": [
+       [
+        "LFL stays near zero as aggregators and rivals compete on price",
+        "Medium",
+        "India growth only from stores; revenue per store falls further"
+       ],
+       [
+        "Input inflation (LPG, cheese, oil, chicken) and wage codes",
+        "Medium-High",
+        "Margin flat or down; more price increases risk orders"
+       ],
+       [
+        "Lira collapse or a hyperinflation shock in Turkey",
+        "Medium",
+        "Lower rupee EBITDA and dividends; a weaker rupee also raises the euro loans"
+       ],
+       [
+        "Refinancing of ~₹1,183 cr of euro loans due in FY27",
+        "Low",
+        "Interest cost up if refinanced at higher rates; cash if repaid"
+       ],
+       [
+        "Cannibalisation from ~250 Domino's openings a year",
+        "Medium",
+        "New stores split catchments; store-level returns fall"
+       ],
+       [
+        "Franchise terms (Domino's Pizza Inc., RBI for Popeyes)",
+        "Low",
+        "Royalty or renewal changes would hit margins"
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    },
+    {
+     "h": "How we would act"
+    },
+    {
+     "bullets": [
+      "**Rating: BUY, target {{dcf.tp|inr}} ({{dcf.upside|chg}}).** Our ratings follow the upside to our 12−month target: BUY at +15% or more, HOLD between −5% and +15%, SELL below −5%.",
+      "**We would move to HOLD above ~₹525** and to SELL above ~₹635 on today's numbers.",
+      "**This is a multiple call, not an earnings call.** Our EPS matches consensus (FY28E ₹9.15 vs ₹9.1). The stock has de-rated by more than its peers (trailing EV/EBITDA 17.0x vs a 30.5x five-year median), and our 17x only assumes it trades like its peers relative to its own history.",
+      "**Biggest swing factors:** the multiple (each 1x of Sep-28E EBITDA is ~₹39 a share) and the margin (each point of Sep-28E EBITDA margin moves the target by ~₹32).",
+      "**What would change our mind:** a second year of LFL below 3% with flat margins would argue that the old multiple history no longer applies; we would then lean on the post-Turkey window (sensitivity row: 15.5x)."
+     ]
+    },
+    {
+     "exhibit": {
+      "type": "tiles",
+      "title": "The case in five numbers",
+      "tiles": [
+       {
+        "k": "Domino's India LFL",
+        "v": "2.5%",
+        "d": "Q1FY27; guide 5-7%"
+       },
+       {
+        "k": "Order growth",
+        "v": "+6.5%",
+        "d": "Q1FY27, Domino's India"
+       },
+       {
+        "k": "Popeyes revenue",
+        "v": "+97%",
+        "d": "Q1FY27; 88 stores"
+       },
+       {
+        "k": "EV ÷ Sep-28E EBITDA",
+        "v": "13.4x",
+        "d": "median since Apr-2021: 23.5x forward"
+       },
+       {
+        "k": "Target",
+        "v": "{{dcf.tp|inr}}",
+        "d": "bull {{scen.bull.tp|inr}} · bear {{scen.bear.tp|inr}}"
+       }
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  },
+  {
+   "id": "statements",
+   "nav": "Annotated financials",
+   "kicker": "Appendix",
+   "title": "Annotated financials",
+   "blocks": [
+    {
+     "statement": {
+      "title": "Profit & loss, FY22–FY29E",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "flag": {
+         "type": "pct",
+         "th": 25
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA (after Ind AS 116)",
+        "hl": true
+       },
+       {
+        "key": "ebitdaMargin",
+        "name": "EBITDA margin %",
+        "fmt": "pct",
+        "flag": {
+         "type": "bps",
+         "th": 200
+        }
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation (incl. right-of-use)"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (history: incl. exceptional items, associates and discontinued operations)",
+        "flag": {
+         "type": "pct",
+         "th": 60
+        }
+       },
+       {
+        "key": "interest",
+        "name": "Finance cost (mostly lease interest)"
+       },
+       {
+        "key": "pbt",
+        "name": "Profit before tax"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (after minorities)",
+        "hl": true,
+        "flag": {
+         "type": "pct",
+         "th": 40
+        }
+       },
+       {
+        "key": "eps",
+        "name": "EPS (₹)",
+        "fmt": "n2"
+       },
+       {
+        "key": "cfo",
+        "name": "Cash from operations (before lease payments)",
+        "flag": {
+         "type": "pct",
+         "th": 60
+        }
+       },
+       {
+        "key": "capex",
+        "name": "Capex (forecast: incl. lease principal)"
+       }
+      ]
+     }
+    },
+    {
+     "statement": {
+      "quarterly": true,
+      "title": "Quarterly P&L (as reported by 30-Sep-2026)",
+      "rows": [
+       {
+        "key": "sales",
+        "name": "Revenue",
+        "yoy": true,
+        "flag": {
+         "type": "pct",
+         "th": 30
+        },
+        "hl": true
+       },
+       {
+        "key": "ebitda",
+        "name": "EBITDA"
+       },
+       {
+        "key": "opm",
+        "name": "EBITDA margin %",
+        "fmt": "pct0"
+       },
+       {
+        "key": "otherIncome",
+        "name": "Other income (incl. exceptional and discontinued items)"
+       },
+       {
+        "key": "dep",
+        "name": "Depreciation"
+       },
+       {
+        "key": "pat",
+        "name": "Net profit (after minorities)",
+        "hl": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "glossary",
+   "nav": "Glossary",
+   "kicker": "Appendix",
+   "title": "Glossary",
+   "blocks": [
+    {
+     "exhibit": {
+      "type": "table",
+      "title": "Terms used in this report",
+      "head": [
+       "Term",
+       "What it means"
+      ],
+      "wide": [
+       1
+      ],
+      "rows": [
+       [
+        "QSR",
+        "Quick-service restaurant: fast food sold over the counter, for takeaway or delivery."
+       ],
+       [
+        "LFL",
+        "Like-for-like growth: revenue growth of mature stores (Domino's: non-split stores opened before the previous financial year)."
+       ],
+       [
+        "ADS",
+        "Average daily sales per store."
+       ],
+       [
+        "DITA",
+        "Dine-in and takeaway: orders placed or collected in the store."
+       ],
+       [
+        "MOV",
+        "Minimum order value for free delivery (₹99 at Domino's, cut from ₹149; ₹49-99 at aggregators)."
+       ],
+       [
+        "Aggregators",
+        "Food-delivery apps (Zomato, Swiggy) that list many restaurants and deliver for them."
+       ],
+       [
+        "Master franchisee",
+        "A company licensed to run and sub-license a global brand in a country, paying royalties to the brand owner."
+       ],
+       [
+        "Ind AS 116",
+        "The lease rule: rent is booked as depreciation of a right-of-use asset plus interest on a lease liability, not as an operating cost."
+       ],
+       [
+        "EBITDA (reported / post-Ind AS)",
+        "Earnings before interest, tax, depreciation and amortisation as reported; it excludes rent."
+       ],
+       [
+        "EBITDA after rent (pre-Ind AS / adjusted)",
+        "EBITDA less rent; the basis of management's margin targets and the street's multiples."
+       ],
+       [
+        "IAS 29 / hyperinflation accounting",
+        "Rules for economies with very high inflation (Turkey since 2022): figures are restated to the latest price level, and a monetary gain or loss is booked on net monetary items."
+       ],
+       [
+        "Monetary gain/loss (MGL)",
+        "The gain (or loss) from holding net monetary liabilities (or assets) while prices rise; inside DP Eurasia's reported EBITDA."
+       ],
+       [
+        "Discontinued operations",
+        "Businesses being exited (Dunkin' India, Russia), shown in one line below continuing profit; prior years are re-presented."
+       ],
+       [
+        "Minorities (non-controlling interest)",
+        "Outside shareholders of subsidiaries (6.35% of DP Eurasia, 49% of the Bangladesh company)."
+       ],
+       [
+        "SOTP",
+        "Sum of the parts: each business valued separately and added up, less debt and minorities."
+       ],
+       [
+        "EV/EBITDA, P/E",
+        "Enterprise value (market value plus debt incl. leases and minorities, less cash) ÷ EBITDA; share price ÷ earnings per share."
+       ],
+       [
+        "Sep-28E",
+        "Half of FY28E plus half of FY29E: the 12-month-forward earnings the market will look at in September 2027."
+       ],
+       [
+        "Sector move",
+        "How far comparable stocks trade above or below their own five-year median multiple on the valuation date."
+       ],
+       [
+        "DCF",
+        "Discounted cash flow valuation; one discount rate (here ~11.9%), lease principal treated as capex."
+       ]
+      ],
+      "source": "GAM Research"
+     }
+    }
+   ]
+  }
+ ],
+ "statementNotes": {
+  "sales@FY21": "−16%: Covid lockdowns.",
+  "sales@FY22": "+33%: recovery with delivery-led growth.",
+  "pat@FY24": "Includes a ₹170 cr pre-tax gain on remeasuring the earlier DP Eurasia stake (control from 1-Feb-2024); ~₹273 cr before it.",
+  "sales@FY24": "DP Eurasia consolidated for February-March 2024.",
+  "sales@FY25": "+43%: first full year of DP Eurasia; re-presented without Dunkin'.",
+  "pat@FY25": "Discontinued Dunkin' and Russia losses ₹33 cr; continuing profit before one-offs ₹245 cr.",
+  "interest@FY25": "Includes ₹217 cr of bank interest (DP Eurasia lira loans, euro acquisition loans).",
+  "interest@FY26": "Bank interest down to ₹99 cr after lira loans moved to euro; lease interest ₹337 cr.",
+  "otherIncome@FY26": "Screener line includes the ₹34 cr Labour Code charge, the +₹58 cr discontinued result (Russia gain) and associates.",
+  "pat@FY26": "After ₹15.8 cr of minorities; ~₹401 cr to owners before exceptional and discontinued items.",
+  "ebitda@FY26": "Company EBITDA ₹1,888 cr; Screener ₹1,902 cr (store-discard losses below EBITDA).",
+  "cfo@FY26": "Before ₹641 cr of lease payments (principal and interest, financing cash flow).",
+  "capex@FY27E": "Forecast capex includes lease principal (₹345 cr in FY27E).",
+  "otherIncome@Q2FY26": "Includes the Russia sale gain (discontinued operations).",
+  "pat@Q2FY26": "Includes the Russia sale gain; as first reported (Dunkin' inside).",
+  "pat@Q4FY24": "Includes the DP Eurasia remeasurement gain.",
+  "otherIncome@Q3FY26": "Net of the ₹34 cr Labour Code exceptional charge.",
+  "opm@Q1FY27": "19.6%; standalone 19.5% with gross margin 75.5%."
+ }
+}
