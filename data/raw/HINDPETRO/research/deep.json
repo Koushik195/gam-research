@@ -1,0 +1,68 @@
+{
+ "_meta": { "symbol": "HINDPETRO", "asOf": "2026-09-30", "note": "Only sources published on or before 30-Sep-2026. Broker notes read in full: Prabhudas Lilladher (24-Jul-2026), BOB Capital (23-Jul-2026), Emkay (24-Jul-2026). Motilal Oswal from DSIJ's summary of its 23-Jul-2026 note; others from dated secondary listings." },
+ "industry": {
+  "structure": "Three state oil marketing companies (IOC, BPCL, HPCL) sell most of India's petrol, diesel and LPG at prices set in practice with the Government; Reliance and Nayara are export-oriented private refiners with smaller retail networks; MRPL (ONGC group) and CPCL (IOC group) are standalone refiners. HPCL is the smallest refiner of the three OMCs but has the third-largest retail network (25,098 outlets) and is the second-largest LPG marketer (ar26).",
+  "pricing": "Petrol and diesel prices are formally deregulated but were held for long stretches, including through the 2026 Gulf war; household LPG is sold below cost and compensated case by case (₹7,920 cr for HPCL conveyed in Oct-2025 for under-recoveries to Mar-2026). Losses on LPG not yet compensated sit off the balance sheet in a 'negative buffer' (₹16,410 cr for HPCL at Jun-2026).",
+  "war2026": "US-Iran conflict from end-Feb 2026: Strait of Hormuz disrupted; Brent averaged ~US$105/bbl in Q1FY27 vs US$76 in Q4FY26 (BOB); diesel cracks ~US$50/bbl and petrol ~US$25 (BOB). The Government cut excise (SAED) on petrol and diesel by ₹10/litre in Mar-2026, re-imposed export duties, and allowed retail price rises in tranches from May. The three OMCs lost money on fuel marketing in Q1FY27; refiners and HPCL's refining arm earned record cracks, part of which the export duty took away.",
+  "src": "ar26; bob; pl; IOC research file (industry facts, sourced there)"
+ },
+ "competition": "HPCL refines ~24.5 MMTPA itself (Mumbai, Visakh) against ~51 MMT of sales, the lowest refining cover of the OMCs (IOC ~31% of India's refining with ~42% of sales; BPCL is closer to balanced). The gap is filled from JV refineries (HMEL, MRPL, and from Jul-2026 HRRL) and third parties, so HPCL earns relatively more of its profit, and loses more in a squeeze, on marketing.",
+ "peers": {
+  "set": ["IOC", "BPCL", "MRPL", "CHENNPETRO"],
+  "excluded": {},
+  "selfNote": "HPCL itself is excluded from its own sector move (its trailing EV/EBITDA of 11.9x vs a 5.7x five-year median is distorted by the Q1FY27 loss). No peer in the set is distorted on 30-Sep-2026: IOC's and BPCL's trailing EBITDA stayed positive and close to normal.",
+  "widened": ["RELIANCE", "ONGC", "OIL", "GAIL", "PETRONET"],
+  "note": "Same OMC/refiner set and method as the IOC initiation (IOC.ctx.js), with IOC in and HPCL out. Four usable names; the widened oil & gas set is a sensitivity row only. Sector move on EV/EBITDA (our primary method), the EV/EBITDA analogue of the house P/E factor (PLAYBOOK §7c)."
+ },
+ "street": {
+  "_note": "Standing on 30-Sep-2026. Fundamental targets only. Post-Q1 notes (23-24 Jul-2026): Motilal Oswal, ICICI Securities, BOB Capital, Emkay, PL, Nomura. Pre-Q1 notes still standing as far as public sources show: Kotak (22-Jun), Geojit (25-May), Nuvama (14-May).",
+  "brokers": [
+   { "broker": "Motilal Oswal", "date": "2026-07-23", "rating": "Buy", "tp": 470, "method": "SOTP: EV/EBITDA + investments", "multiple": "6.0x", "on": "Dec-27E", "ebitda": { "FY27E": 3500, "FY28E": 25300 }, "pat": { "FY27E": -4000, "FY28E": 11200 }, "thesis": "Q1 operating loss ₹16,130 cr (37% worse than expected) on negative marketing margins; GRM US$23.8 a partial offset; HRRL ramp-up the main catalyst; models ₹4.5/litre marketing margin in H2FY27-FY28. SOTP: standalone 6x Dec-27E EBITDA; MRPL at market less 25%; HMEL 6x FY24 PAT; Chhara LNG terminal 0.5x book; HRRL 0.8x equity invested.", "src": "https://insights.dsij.in/markets/reports/report-details/hindustan-petroleum-corporation-ltd/44650" },
+   { "broker": "ICICI Securities", "date": "2026-07-23", "rating": "Buy", "tp": 495, "method": null, "multiple": null, "on": null, "thesis": "n.d. (note not read; target from Trendlyne's listing)", "src": "https://trendlyne.com/research-reports/stock/556/HINDPETRO/hindustan-petroleum-corporation-ltd" },
+   { "broker": "BOB Capital Markets", "date": "2026-07-23", "rating": "Hold", "tp": 427, "method": "EV/EBITDA + listed investments", "multiple": "6.0x", "on": "Jun-28E", "eps": { "FY27E": 23.1, "FY28E": 55.2 }, "ebitda": { "FY27E": 14078, "FY28E": 21747 }, "thesis": "Volumes healthy, but crude and crack volatility pressure retail margins; Vizag RUF to add ~US$2.5/bbl once stable. TP cut from ₹438: 6x Jun-28E standalone EBITDA (₹22,434 cr) + MRPL and Oil India (₹33/share) − net debt ₹50,728 cr; HRRL and HMEL not valued separately.", "src": "https://www.barodaetrade.com/Reports/HindustanPetroleumCorp-Q1FY27ResultReview23Jul26-Research.pdf" },
+   { "broker": "Emkay Global", "date": "2026-07-24", "rating": "Add", "tp": 410, "method": "SOTP: EV/EBITDA + listed investments", "multiple": "6.0x", "on": "Jun-28E", "eps": { "FY27E": 3.3, "FY28E": 44.9 }, "ebitda": { "FY27E": 9781, "FY28E": 22329 }, "thesis": "Cautious on OMCs given geopolitics and crude volatility; rolled to Jun-28E with an unchanged ₹410. SOTP: refining, pipelines and marketing at a blended 6.0x Jun-28E standalone EBITDA (₹23,300 cr) less adjusted net debt at Jun-27E (₹57,000 cr), plus MRPL and Oil India at market less a 30% holdco discount (₹23/share); HMEL nil. Estimates standalone.", "src": "https://investmentguruindia.com/editorial/uploads/news-pdf/3ee99ff4_HPCL%20Q1FY27%20Result%20Update_Others.pdf" },
+   { "broker": "Prabhudas Lilladher", "date": "2026-07-24", "rating": "Reduce", "tp": 350, "method": "P/B", "multiple": "1.1x", "on": "FY28E", "eps": { "FY27E": -31.3, "FY28E": 62.9 }, "ebitda": { "FY27E": -2400, "FY28E": 25000 }, "thesis": "Downgrade from Hold (TP ₹386): implied marketing margin −₹14.9/litre in Q1; GMM −₹0.5/litre FY27E, ₹4.4 FY28E; GRM US$8.7/7.9; RUF benefits only after a few quarters; leverage up to 1.43x.", "src": "https://plindia.com/ResReport/HPCL-24-7-26-PL.pdf" },
+   { "broker": "Nomura", "date": "2026-07-24", "dateNote": "Undated report; implied upside of 9.1% to ₹420 fits the ~₹385 price of 23-24 Jul-2026, after Q1", "rating": "Neutral", "tp": 420, "method": null, "multiple": null, "on": null, "thesis": "Target cut from ₹440 on high leverage and crude sensitivity; prefers IOC and BPCL.", "src": "https://askfuzz.ai/discover/news/investment-ideas/hpcl-downgraded-to-reduce-with-350-target-price" },
+   { "broker": "Kotak Institutional Equities", "date": "2026-06-22", "rating": "Reduce", "tp": 400, "method": null, "multiple": null, "on": null, "thesis": "Upgrade from Sell as marketing margins recovered; still cautious on the sector.", "src": "https://www.whalesbook.com/news/English/commodities/Kotak-Upgrades-IOC-BPCL-HPCL-to-Reduce-as-Marketing-Margins-Improve/6a38b25ca1c5bf084328718b" },
+   { "broker": "Geojit BNP Paribas", "date": "2026-05-25", "rating": "Hold", "tp": 420, "method": null, "multiple": null, "on": null, "thesis": "n.d.", "src": "https://trendlyne.com/research-reports/stock/556/HINDPETRO/hindustan-petroleum-corporation-ltd" },
+   { "broker": "Nuvama", "date": "2026-05-14", "rating": "Reduce", "tp": 372, "method": null, "multiple": null, "on": null, "thesis": "Q1FY27 may see a loss on weak marketing margins at high crude prices.", "src": "https://businesstoday.in/markets/stocks/story/omc-stock-hpcl-stares-at-huge-q1-losses-on-petrol-diesel-lpg-share-price-targets-531380-2026-05-14" }
+  ],
+  "notCounted": [
+   "Jefferies Underperform (raised from ₹275 after Q1): secondary reports disagree on the new target (₹315 vs ₹345) and none is clearly dated, so it is not counted.",
+   "HDFC Securities Buy ₹579 (4-Feb-2026, 4.5x Mar-27E EV/EBITDA): written before the Gulf war; no later note found.",
+   "InCred Hold ₹384: reported in a secondary summary without a verifiable date."
+  ],
+  "methodView": "Three of the four notes that disclose a method value HPCL on EV/EBITDA of standalone EBITDA (6.0x on Dec-27E to Jun-28E) plus investments (MOSL also values HRRL and HMEL; BOB and Emkay add only the listed MRPL and Oil India stakes); PL uses 1.1x FY28E book. We follow the EV/EBITDA sum of the parts of the IOC template and show P/E and DCF as cross-checks."
+ },
+ "ownership": {
+  "date": "2026-06-30", "sharesIssued": 212.7822517, "shareholders": 518531,
+  "categories": { "promoters": 54.9, "fii": 13.58, "dii": 22.85, "public": 8.65 },
+  "named": [["Oil and Natural Gas Corporation (ONGC)", 54.9], ["Mutual funds (Mar-26)", 15.81], ["Foreign portfolio investors (Mar-26)", 17.27], ["Insurance companies (Mar-26)", 3.68], ["Individuals (Mar-26)", 6.58]],
+  "history": "ONGC 54.90% unchanged. FIIs 12.55% (Mar-25) → 17.26% (Mar-26) → 13.58% (Jun-26), selling into the war; DIIs 19.58% → 22.85%.",
+  "src": "Screener.in (BSE shareholding pattern, Jun-2026); ar26 shareholding pattern at 31-Mar-2026"
+ },
+ "moat": "Network rather than refining: 25,098 fuel stations, 6,389 LPG distributors, pipelines (25.5 MMT) and terminals in the west and south, plus offtake rights over JV refineries (HMEL, HRRL). Refining is mid-sized (24.5 MMTPA own; Visakh now 11.6 Nelson complexity). None of it protects margins: prices are administered, the product is a commodity, and the most marketing-heavy OMC is the first to bleed when prices are held.",
+ "critiques": [
+  ["HPCL's marketing tilt makes it the most exposed OMC when retail prices are held: Q1FY27 loss ₹12,265 cr against IOC's ₹1,631 cr.", "Nomura, PL, GAM"],
+  ["Leverage: gross debt rose from ₹47,600 cr to ₹72,600 cr in one quarter (debt/equity ~1.4-1.5x), and HRRL's ~₹53,000 cr of project debt sits off balance sheet.", "PL, Emkay, Nomura"],
+  ["HRRL cost nearly doubled to ₹79,459 cr and came ~4 years late; returns on HPCL's ₹19,600 cr equity are unproven.", "Cabinet approval (Apr-2026), GAM"],
+  ["The Vizag residue upgrade did not run stably in Q1; its GRM uplift (~US$2.5/bbl) is still a promise.", "Emkay, PL"],
+  ["Governance: one independent director on an 8-member board; Audit Committee out of compliance; parent ONGC and the Ministry decide.", "ar26 secretarial audit, GAM"]
+ ],
+ "gaps": [
+  "Refining vs marketing EBITDA split not disclosed (one reportable segment); our build uses consolidated EBITDA per tonne sold.",
+  "Annual GRMs for FY22-FY24 not taken from company documents: FY23 and FY24 are averages of the quarterly GRMs charted by PL (24-Jul-2026); FY22 not sourced.",
+  "Q1FY27 investor presentation and call transcript not read in full; call points from PL, Emkay, MOSL and a sahi.com summary.",
+  "ICICI Securities, Nomura, Kotak, Geojit and Nuvama methods not disclosed in the sources found.",
+  "HRRL's debt and financial statements not disclosed; ~₹53,000 cr is implied by the ₹79,459 cr cost and HPCL's ₹19,600 cr for 74% of equity.",
+  "Market sales for FY21 not sourced (five-year table starts FY22).",
+  "Oil India: 4.01 cr shares at Mar-26 (ar26); any change between Apr and Sep-2026 not checked.",
+  "Jul-Sep 2026 crude and crack averages not sourced; H2FY27 margins are assumptions."
+ ],
+ "conflicts": [
+  "HRRL start: scheduled commercial operation 22-Jun-2026 (MOSL, sahi) vs commercial operations from 4-Jul-2026 (PL); the AR says it was dedicated to the nation on 4-Jul. We say 'end-June/July'.",
+  "Q4FY26 GRM: US$14.3/bbl (PL) vs US$14.5 (BOB).",
+  "Q1FY27 standalone EBITDA: −₹16,141 cr (PL, BOB) vs −₹18,110 cr 'adjusted' (Emkay, which strips other items); we use the reported figure.",
+  "Q1FY27 net sales: ₹1,40,490 cr (PL), ₹1,39,890 cr (BOB), ₹1,38,505 cr (Emkay) on different treatments of other operating revenue; the model uses Screener's consolidated ₹1,40,584 cr."
+ ]
+}

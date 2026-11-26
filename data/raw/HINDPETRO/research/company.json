@@ -1,0 +1,79 @@
+{
+ "_meta": { "symbol": "HINDPETRO", "name": "Hindustan Petroleum Corporation Ltd", "asOf": "2026-09-30", "basis": "consolidated (Screener); subsidiaries are all 100%-owned, so there are no minorities. HRRL (74%) and HMEL (48.99%) are joint ventures and MRPL (16.96%) an associate: all equity-accounted, so their debt is outside HPCL's balance sheet.",
+  "sources": {
+   "ar26": "HPCL Integrated Annual Report FY2025-26, filed with BSE/NSE 31-Jul-2026: https://www.bseindia.com/xml-data/corpfiling/AttachHis/f1214176-9f1e-4788-b748-fa356cd72b25.pdf",
+   "pl": "Prabhudas Lilladher, HPCL Q1FY27 result update, 24-Jul-2026: https://plindia.com/ResReport/HPCL-24-7-26-PL.pdf",
+   "bob": "BOB Capital Markets, HPCL Q1FY27 result review, 23-Jul-2026: https://www.barodaetrade.com/Reports/HindustanPetroleumCorp-Q1FY27ResultReview23Jul26-Research.pdf",
+   "emkay": "Emkay Global, HPCL result update, 24-Jul-2026: https://investmentguruindia.com/editorial/uploads/news-pdf/3ee99ff4_HPCL%20Q1FY27%20Result%20Update_Others.pdf",
+   "mosl": "Motilal Oswal, HPCL Q1FY27 (summary on DSIJ, 23-Jul-2026): https://insights.dsij.in/markets/reports/report-details/hindustan-petroleum-corporation-ltd/44650",
+   "sahi": "Q1FY27 call summary (sahi.com, Jul-2026): https://www.sahi.com/news/hpcl-outlines-1-500-crore-samriddhi-2-0-ebitda-target-and-curbs-fy27-capex-934-PE1_CORP",
+   "ccea": "Cabinet (CCEA) approval of HRRL revised cost, 8-Apr-2026: https://www.tribuneindia.com/news/balotra/cabinet-approves-rs-79459-crore-revised-cost-for-hpcl-rajasthan-refinery-project-in-rajasthan ; https://www.psuconnect.in/psu-news/hpcl-rajasthan-refinery-project-cost-revised-to-79459-crore-equity-commitment-raised-to-19600-crore",
+   "screener": "Screener.in consolidated (fetched after the as-of date; the model freezes data at 30-Sep-2026: quarters to Jun-2026, balance sheet to Mar-2026)"
+  }
+ },
+ "business": {
+  "summary": "State-controlled refiner and fuel marketer (Maharatna CPSE; ONGC owns 54.90%). Two own refineries (Mumbai 9.5 MMTPA, Visakhapatnam 15 MMTPA after the VRMP expansion) processed a record 26.04 MMT in FY26 (106.3% utilisation), but HPCL sold 51.45 MMT: it buys about half of what it sells from joint-venture refineries (HMEL Bathinda 11.3 MMTPA, MRPL 15 MMTPA, and from Jul-2026 HRRL Barmer 9 MMTPA) and third parties. That makes it the most marketing-heavy of the three state oil marketing companies.",
+  "capacityOwn": 24.5, "refineries": { "Mumbai": 9.5, "Visakh": 15.0 },
+  "jvRefineries": { "HMEL (48.99%), Bathinda": 11.3, "MRPL (16.96%)": 15.0, "HRRL (74%), Barmer": 9.0 },
+  "fy26": { "throughput": 26.04, "throughputMumbai": 10.0, "throughputVisakh": 16.04, "utilisation": 106.3, "marketSales": 51.45, "pipeline": 25.54, "grm": 8.79, "grmMumbai": 8.04, "grmVisakh": 9.26, "retailOutlets": 25098, "newOutlets": 1353, "lpgSales": 9.41, "lpgDistributors": 6389, "aviation": 1.16, "lubesTmt": 686, "directSales": 5.9, "employees": 8256, "standalonePat": 17175.23, "standaloneEps": 80.72, "netWorthStandalone": 59847.09, "debtEquity": 0.80, "debtEquityMar25": 1.38, "borrowingsStandalone": 47599, "borrowingsStandaloneMar25": 63323, "dps": 24.25, "dpsNote": "interim ₹5.00 + final ₹19.25 recommended", "capexTotal": 15705, "capexStandalone": 11269.6 },
+  "fiveYear": { "_note": "AR FY26 performance profile (standalone). MMT.", "labels": ["FY22", "FY23", "FY24", "FY25", "FY26"], "throughput": [13.97, 19.09, 22.33, 25.27, 26.04], "mumbai": [5.56, 9.8, 9.64, 9.96, 10.0], "visakh": [8.41, 9.29, 12.69, 15.31, 16.04], "pipeline": [19.91, 23.25, 25.83, 26.9, 25.54], "marketSales": [39.14, 43.45, 46.82, 49.82, 51.45], "ebitdaStandalone": [13145.54, -5453.09, 27221.16, 19022.39, 33181.55], "patStandalone": [6382.63, -8974.03, 14693.83, 7364.86, 17175.23], "capex": [14069.79, 10853.71, 10829.94, 10223.37, 11269.6] },
+  "grmAnnual": { "FY25": 5.74, "FY26": 8.79, "_src": "ar26 MD&A (gross of export cess)" },
+  "segments": "One reportable segment (downstream petroleum: refining and marketing); 'all other' (E&P via Prize Petroleum, sugar/ethanol via HPCL Biofuels) had revenue of ₹475 cr and an EBIT loss of ₹241 cr in FY26 (ar26 consolidated note 60).",
+  "segmentFY26": { "dpRevenue": 478518.63, "dpEbit": 24349.94, "dpDa": 7092.68, "othRevenue": 474.77, "othEbit": -241.49, "othDa": 255.46, "unallocAdj": -286.52, "interestIncome": 1719.35, "interestExpense": -3395.75, "jvShare": 1492.59, "pbt": 23638.12, "tax": -5591.23, "pat": 18046.89 },
+  "segmentFY25": { "dpEbit": 11508.3, "othEbit": -144.76, "interestIncome": 1452.46, "jvShare": -119.59, "pat": 6735.7 },
+  "src": "ar26 (performance highlights, MD&A, performance profile, consolidated note 60)"
+ },
+ "investments": {
+  "_note": "Consolidated, Mar-26 (ar26 notes 6, 7, 12, 61). Screener 'Investments' ₹28,012 cr = equity-accounted ₹22,897 cr + other non-current ₹2,008 cr + G-secs ₹3,107 cr.",
+  "listed": [
+   { "name": "Mangalore Refinery & Petrochemicals (16.96%)", "sym": "MRPL", "shares": 29.7153518, "carrying": 2390.84, "basis": "equity method (associate)", "mvMar26": 5344.01 },
+   { "name": "Oil India", "sym": "OIL", "shares": 4.0125825, "carrying": 1907.78, "basis": "FVTOCI" }
+  ],
+  "hrrl": { "stake": 74, "equityShares": 1063.01370, "equityInvested": 10630.14, "carrying": 10192.09, "subDebt": 8286, "subDebtMar25": 4325, "subDebtLimit": 8950, "projectCost": 79459, "projectCostOld": 43129, "hpclEquityCommitment": 19600, "capacity": "9 MMTPA refinery with 2.4 MMTPA petrochemicals (26% petchem intensity)", "progressMar26": 91.7, "cod": "Scheduled commercial operation declared 22-Jun-2026 (MOSL, sahi); dedicated to the nation 4-Jul-2026 (ar26); PL reports commercial operations from 4-Jul.", "rampUp": "~50-60% in Q2FY27, 80-85% in Q3FY27, full refinery capacity in Q4FY27; petrochemicals by end-FY27 (Q1 call via PL, Emkay)", "src": "ar26 notes 1.3.6, 6, 49 (sub-debt); ccea; pl; emkay; mosl" },
+  "hmel": { "stake": 48.99, "carrying": 7676.14, "netAssets": 15668, "patFY26": 1716.71, "patFY25": -347.57, "netDebtMar26": 38093, "revenueFY26": 99499.4, "dividendFY26": 157.58, "purchasesFromHmelFY26": 72034.14, "src": "ar26 note 61 and related-party note" },
+  "otherEquityAccounted": 2638.07,
+  "otherJvList": "Hindustan Colas ₹378 cr, IHB ₹724 cr, Petronet MHB ₹333 cr, Aavantika Gas ₹300 cr, Bhagyanagar Gas ₹288 cr, GSPL India Gasnet/Transco ₹206 cr, others",
+  "govtSecurities": 3106.84, "otherNonCurrent": 100.42,
+  "total": 28012,
+  "src": "ar26 consolidated notes 6, 7, 12, 61"
+ },
+ "q1fy27": {
+  "date": "Results 22-Jul-2026",
+  "consolidated": { "revenue": 140584, "ebitda": -16122, "otherIncome": 648, "interest": 818, "dep": 1878, "pbt": -18170, "pat": -12265, "eps": -57.64, "src": "Screener (consolidated); BOB Fig 1" },
+  "standalone": { "revenue": 139890, "ebitda": -16141, "fxLoss": 20, "pat": -11526, "patQ1FY26": 4371, "ebitdaQ4FY26": 8978, "ebitdaQ1FY26": 7602, "grm": 23.8, "grmNote": "pre-SAED (export duty); GRM US$14.3/bbl in Q4FY26 (PL; BOB says 14.5) and US$3.1 in Q1FY26", "throughput": 6.5, "salesTotal": 13.1, "salesDomestic": 12.2, "exports": 0.88, "pipeline": 6.6, "distillateYield": 77, "impliedGmm": -14.9, "impliedGmmQ4FY26": 6.3, "debt": 72600, "debtMar26": 47600, "debtEquity": 1.43, "capex": 1734, "jvShare": 29, "src": "pl; bob; emkay; sahi" },
+  "call": {
+   "underRecovery": "Marketing under-recoveries above ₹26,000 cr in Q1FY27: ~₹20,000 cr on petrol and diesel, the rest on domestic LPG. LPG under-recovery ₹510/cylinder on average in Q1, ₹680 in June, ~₹490 in July; July 'materially better'.",
+   "lpgBuffer": "Negative LPG buffer ₹16,410 cr at 30-Jun-2026 (₹12,799 cr at 31-Mar-2026), after ₹1,980 cr of compensation received in Q1. MoPNG conveyed ₹7,920 cr of compensation in Oct-2025, accrued in 12 monthly instalments from Nov-2025 (₹3,300 cr in FY26).",
+   "inventory": "HPCL deliberately carried more crude than usual to keep the refineries running, and took inventory write-downs in Q1; without them the loss would have been 'well below a five-digit crore' figure.",
+   "crude": "Crude bought mostly spot; requirements tied up to August, September under way; availability no longer a concern, prices volatile. LPG harder to diversify (historically via the Strait of Hormuz).",
+   "hrrl": "HRRL commercial operations from end-June/4-Jul; CDU at ~60%, 80-85% in Q3FY27, full in Q4FY27; petrochemicals by end-FY27.",
+   "rug": "Vizag Residue Upgradation Facility (3.55 MMTPA LC-Max, commissioned Dec-2025/Jan-2026) not yet stable in Q1 (high pressure/temperature and catalyst issues); stabilisation expected Q2-Q3FY27; BOB expects +US$2.5/bbl on Vizag's GRM once stable.",
+   "sourcing": "Petrol/diesel sourcing in Q1: 50% own refineries, 27% JV refineries, 24% third parties; next year ~56% own (with RUF), ~40% JVs (mainly HRRL), only a small balance from third parties; no third-party diesel needed.",
+   "capex": "FY27 capex ₹9,700 cr (cap agreed with the Government), likely lower; Q1 ₹1,734 cr (mostly refinery maintenance).",
+   "samriddhi": "Samriddhi 1.0 added ₹1,691 cr of EBITDA in FY26; Samriddhi 2.0 targets ₹1,500 cr run-rate savings, ~₹1,000 cr in FY27.",
+   "balanceSheet": "Priority: lower leverage, conserve cash, cut interest cost. Gross debt ₹72,600 cr at Jun-26 (₹47,600 cr at Mar-26); standalone debt/equity ~1.43-1.5x.",
+   "src": "pl (call takeaways); emkay (KTAs); sahi; mosl"
+  }
+ },
+ "corporateActions": [
+  ["2018", "ONGC buys the Government's controlling stake for ₹36,915 cr; HPCL becomes an ONGC subsidiary", "Controlling holder is another state company; stake 54.90% after later buybacks"],
+  ["FY21-FY22", "Open-market share buybacks (one of up to ₹2,500 cr at ≤₹250 a share; ₹966 cr spent in FY22)", "Equity capital ₹1,524 cr (Mar-20) → ₹1,419 cr (Mar-22)"],
+  ["FY23", "Ukraine war: retail prices held while crude spiked", "EBITDA −₹7,192 cr, net loss ₹6,980 cr"],
+  ["FY22-FY25", "Visakh Refinery Modernisation (8.3 → 15 MMTPA)", "Throughput 13.97 → 25.27 MMT"],
+  ["Jun-2024", "1:2 bonus (record date 21-Jun-2024)", "Shares 141.85 cr → 212.78 cr; Screener EPS restated"],
+  ["Oct-2025", "MoPNG conveys ₹7,920 cr LPG compensation, paid monthly from Nov-2025", "₹3,300 cr booked in FY26"],
+  ["Dec-2025", "Vizag Residue Upgradation Facility (3.55 MMTPA) commissioned", "Nelson complexity 11.6; GRM uplift once stable"],
+  ["Mar-May 2026", "Independent directors' terms end; one left on an 8-member board", "Board and Audit Committee out of compliance with SEBI LODR"],
+  ["8-Apr-2026", "Cabinet approves HRRL cost of ₹79,459 cr (from ₹43,129 cr); HPCL equity commitment ₹19,600 cr", "HPCL's largest investment"],
+  ["Q1FY27", "US-Iran war; Hormuz disrupted; retail prices held", "Consolidated loss ₹12,265 cr; debt ₹47,600 → 72,600 cr"],
+  ["Jun/Jul-2026", "HRRL (9 MMTPA, Barmer) starts commercial operation", "Equity-accounted JV; ramp to full capacity in Q4FY27"]
+ ],
+ "corporateActionsSrc": "ar26 (bonus note, board report, performance profile); ONGC research (2018 acquisition); ccea; pl; Screener",
+ "governance": {
+  "board": "8 directors: 5 whole-time (CMD Vikas Kaushal from 17-Mar-2025; Directors Refineries S. Bharathan, Marketing Amit Garg, HR K S Shetty, Finance Srividya Venkataraman from 24-Jun-2026), 2 Government nominees (MoPNG's Alok Tripathi; ONGC's Vikram Saxena) and 1 independent director (Abhay Sharma, from 9-May-2025).",
+  "independence": "Two independent directors' one-year terms ended on 27-Mar-2026 and a third on 4-May-2026; the Secretarial report flags that the board lacked the required independent directors and a properly constituted Audit Committee. Appointments rest with the Government.",
+  "auditCag": "Statutory auditors appointed by the C&AG; 14 pending C&AG paras at Mar-26 (leave encashment, idle storage investment, purchases from private oil companies, etc.).",
+  "cfoChange": "Director (Finance) Rajneesh Narang retired 31-May-2026; Srividya Venkataraman (ex-BPCL treasury) CFO from 7-Jul-2026.",
+  "src": "ar26 board report and secretarial audit"
+ }
+}

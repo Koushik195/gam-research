@@ -1,0 +1,252 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Hindustan Petroleum (consolidated, ₹ crore). One segment, as reported: downstream petroleum (refining at Mumbai and Visakh + marketing of own, JV and bought-in product; tiny E&P and biofuel units included). Revenue = market sales volume × realisation; EBITDA = volume × EBITDA per tonne (the build in `dpBuild`, checked against the model in HINDPETRO.ctx.js). No minorities (all subsidiaries 100%). HRRL (74%), HMEL (48.99%) and MRPL (16.96%) are equity-accounted: their profits come through other income and their debt is not consolidated. Investments (₹28,012 cr at Mar-26 book) stay inside treasury (net debt); the SOTP marks MRPL and Oil India to the 30-Sep-2026 close less 20% and adds the ₹8,286 cr subordinated loan to HRRL (held in loans, not investments) in separate lines. Valued on a sum of the parts: EV/EBITDA on Sep-28E EBITDA.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "dp",
+   "name": "Refining & marketing",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 441771,
+   "growth": [
+    18.32,
+    -4.21,
+    4.03
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    0.70279,
+    4.64211,
+    4.80993
+   ],
+   "hist": {
+    "driver": "dpRev",
+    "revenue": "dpRev",
+    "adjEbitda": "dpEbitda"
+   },
+   "_why": "Revenue net of excise = market sales incl. exports × realisation (see dpBuild). Volume +2% in FY27E (Q1 13.1 MMT, +1% YoY: petrol +6.9%, diesel +8.7%, LPG −22% on supply curbs), +3% in FY28E and FY29E (FY22-26 +7% a year as Visakh expanded; demand now ~3-5%). Realisation +16% in FY27E: Q1 revenue was +27% YoY with Brent ~US$105/bbl (BOB); we assume crude eases through the year. −7% in FY28E as crude normalises, +1% in FY29E.",
+   "_marginWhy": "EBITDA per tonne sold (consolidated EBITDA ÷ market sales): ₹2,617 (FY22), −1,655 (FY23), 5,324 (FY24), 3,301 (FY25), 5,956 (FY26); average ₹3,109 with FY23, ₹4,300 without it. FY27E ₹700: Q1 EBITDA was −₹16,122 cr (−₹12,300/t) after >₹26,000 cr of marketing under-recoveries; Q2-Q4 need ~₹5,000/t as LPG losses fall (₹680/cylinder in June, ~₹490 in July) and July was 'materially better' (EBITDA ~₹3,700 cr for the year; MOSL ₹3,500 cr, PL −₹2,400 cr, BOB ₹14,078 cr). FY28E ₹4,300 = the FY22-26 average without the FY23 loss year: the Vizag residue upgrade (~US$2.5/bbl on 15 MMT, ~₹450/t of sales at full run) roughly offsets the risk of another policy squeeze. FY29E ₹4,500 as HRRL supply cuts third-party purchases."
+  }
+ ],
+ "dpBuild": {
+  "_note": "Volume = market sales incl. exports (MMT, AR performance profile); realisation = consolidated net sales per tonne; EBITDA per tonne = consolidated EBITDA ÷ that volume. Checked against the segment growth and margin above in HINDPETRO.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "vol": 51.45,
+   "rev": 441771,
+   "ebitda": 30645
+  },
+  "volGrowth": [
+   2,
+   3,
+   3
+  ],
+  "realGrowth": [
+   16,
+   -7,
+   1
+  ],
+  "ebitdaPerTonne": [
+   700,
+   4300,
+   4500
+  ],
+  "throughput": [
+   26,
+   26.5,
+   26.8
+  ],
+  "_throughputWhy": "Own refineries ran at 106% of 24.5 MMTPA in FY26 (26.04 MMT); Q1FY27 6.5 MMT; PL models ~26 MMT a year. The Vizag RUF changes the yield, not the crude run."
+ },
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Unallocated (none: HPCL has one segment)",
+ "_unallocWhy": "Consolidated EBITDA is the single segment's EBITDA; exchange losses (₹2,490 cr in FY26, ₹20 cr in Q1FY27 per PL) are inside the per-tonne margin.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  9000,
+  11000,
+  11000
+ ],
+ "_capexWhy": "FY27 capex capped at ₹9,700 cr in agreement with the Government and 'likely lower' (Q1 ₹1,734 cr, mostly maintenance); standalone capex was ₹11,270 cr in FY26 and ₹10,223-14,070 cr in FY22-FY25 (AR performance profile). Screener's 'fixed assets purchased' (₹8,331 cr in FY26) misses capital advances. We model ₹9,000 / 11,000 / 11,000 cr (BOB ₹12,500 cr in FY28-29E; PL ₹12,000 cr FY28E). HRRL: HPCL has invested ₹18,916 cr (₹10,630 cr equity + ₹8,286 cr subordinated loan) of its ₹19,600 cr commitment; the ~₹700 cr balance is small and left out.",
+ "depRateOnGrossBlock": 5.4,
+ "_depWhy": "D&A ₹7,347 cr in FY26 (5.6% of average gross block of ₹1,32,156 cr; ₹6,154 cr in FY25); Q1FY27 ₹1,878 cr (₹7,500 cr annualised). The engine depreciates capex at once and holds CWIP (₹8,033 cr at Mar-26) flat; 5.4% gives ~₹7,900 / 8,400 / 9,000 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "HPCL is a net borrower (₹55,964 cr of borrowings and leases at Mar-26, ~₹72,600 cr gross at Jun-26), so interest income sits in the other-income build below.",
+ "otherIncome": [
+  2600,
+  2750,
+  3200
+ ],
+ "_otherIncomeWhy": "Screener other income (incl. share of JV/associate profit): ₹2,731 cr FY21, 3,897 FY22, 3,942 FY23, 3,725 FY24, 2,072 FY25, 3,736 FY26; Q1FY27 ₹648 cr. FY26 build (AR note 60): interest income ₹1,719 cr (incl. the HRRL subordinated loan, G-secs, LPG and dealer receivables), share of JV/associate profit ₹1,493 cr (HMEL ₹1,717 cr PAT × 48.99%, MRPL ₹1,834 cr × 16.96%, others ₹365 cr), dividends and other ~₹524 cr. FY27E ₹2,600 cr (≈ Q1 × 4): interest ~₹1,500 cr, JV share ~₹500 cr (HRRL losses while it ramps up offset HMEL/MRPL's high cracks; Q1 JV share was only ₹29 cr), dividends and other ~₹600 cr. FY28E ₹2,750 cr, FY29E ₹3,200 cr as HRRL turns profitable.",
+ "interest": [
+  3800,
+  3600,
+  3400
+ ],
+ "_interestLabel": "Finance cost",
+ "_interestWhy": "Finance cost ₹3,396 cr FY26 (₹3,365 cr FY25); Q1FY27 ₹818 cr while gross debt rose from ₹47,600 cr to ₹72,600 cr. FY27E ₹3,800 cr on higher average debt; falling to ₹3,400 cr as working capital normalises and management cuts leverage.",
+ "taxRate": [
+  0,
+  25.2,
+  25.2
+ ],
+ "_taxWhy": "Statutory 25.17% (new regime); effective 24-25% in FY24-FY26. Q1FY27 had a tax credit of ₹5,905 cr on the loss. FY27E is set at 0%: the engine books no tax credit on a loss while the Excel model would apply the rate to a negative PBT, so 0% keeps the two identical. This is conservative: a 25% credit would cut the FY27E loss by ~₹1,370 cr (~₹6 a share of net debt). 25.2% from FY28E.",
+ "payout": [
+  0,
+  30,
+  30
+ ],
+ "_payoutWhy": "Payout 27-33% in FY24-FY26 (DPS ₹24.25 for FY26); none in loss years (FY23: zero). DIPAM asks CPSEs for 30% of PAT or 4% of net worth, whichever is higher, but HPCL paid nothing for FY23. We assume no FY27E dividend (a loss year; PL also models none) and 30% from FY28E.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.48,
+  "terminalGrowth": 4,
+  "years": 10,
+  "fadeGrowthTo": 5,
+  "fadeMarginTo": 4,
+  "fadeCapexPctTo": 2.2,
+  "depPctOfSales": 1.8,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at rf + beta × ERP; HPCL carries ₹56,000-73,000 cr of debt, so we set beta so that the rate equals our WACC: cost of equity 12.5% (beta 1.0), post-tax cost of debt ~5.5% (7.3% × (1 − 25.2%)), debt ~45% of capital at the 30-Sep-2026 market value (₹74,481 cr equity) → WACC ~9.4%; beta 0.48 gives 9.38%.",
+  "_tgWhy": "4%, below the house 5-6% range, as for IOC: fuel demand grows ~3-4% a year, EVs, gas and ethanol cap petrol and diesel in the long run, and prices are partly set by the Government.",
+  "_fadeGrowthWhy": "Revenue growth fades to 5% (volume ~3%, price ~2%).",
+  "_fadeMarginWhy": "EBITDA margin fades to 4.0%: Screener-basis margins were 7.0%, 2.9%, −1.6%, 5.7%, 3.8%, 6.9% in FY21-FY26 (average 4.1%).",
+  "_fadeCapexWhy": "Capex ~2.2% of revenue (₹11,000 cr on ~₹5 lakh cr), above depreciation (1.8% of revenue): HPCL keeps building marketing infrastructure, the Mumbai lube/bitumen project and gas/renewables."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Crude settles near US$70-75 with retail prices held, so marketing margins return to the FY24/FY26 level (₹5,300-6,000 a tonne); the Vizag residue upgrade runs stably and HRRL reaches full capacity on time; the Government compensates the ₹16,410 cr LPG buffer; the market pays its own median multiple again.",
+   "fadeMarginTo": 5,
+   "segments": {
+    "dp": {
+     "marginDelta": 0.8
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Crude stays above US$90 into state elections with prices frozen, LPG losses are only partly compensated, the residue upgrade and HRRL stabilise slowly (HRRL losses on ~₹53,000 cr of debt), and debt stays above ₹70,000 cr; earnings stay near FY23/FY25 levels and the stock trades at its lower-quartile multiple.",
+   "fadeMarginTo": 3,
+   "segments": {
+    "dp": {
+     "marginDelta": -0.8
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "Refining & marketing (consolidated EBITDA)",
+    "seg": "dp",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 3.5,
+     "bull": 4,
+     "bear": 2
+    },
+    "note": "Own one-year-forward core EV/EBITDA since Apr-2021 (EV less all investments at book; forward consolidated EBITDA; FY23 and FY27 left out as troughs): median 3.9x, × the OMC/refiner move vs five-year medians (Indian Oil −15.7%, BPCL −5.5%, MRPL −18.1%, Chennai Petroleum −12.8%; median −14.3%; HPCL itself excluded) = 3.3x → 3.5x (bull 4x = no move; bear 2x = 25th percentile 2.6x × move)."
+   },
+   {
+    "name": "Less: net debt at Sep-27E (investments at book inside)",
+    "netCash": true,
+    "roll": [
+     "FY27E",
+     "FY28E",
+     0.5
+    ],
+    "metricLabel": "½ Mar-27E + ½ Mar-28E: borrowings and leases less cash and all investments at Mar-26 book (incl. HRRL ₹10,192 cr and HMEL ₹7,676 cr equity)",
+    "note": "Model forecast"
+   },
+   {
+    "name": "Listed stakes: 30-Sep-2026 market value less 20%, minus book",
+    "adj": {
+     "base": 1166,
+     "bull": 2532,
+     "bear": 483
+    },
+    "metricLabel": "Mangalore Refinery & Petrochemicals 29.7 cr × ₹169.29; Oil India 4.0 cr × ₹448.65 = ₹6,831 cr at market; less 20% (bull 0%, bear 30%), minus Mar-26 book ₹4,299 cr already inside net debt",
+    "note": "PLAYBOOK §7c: listed stakes in an operating company at the 30-Sep-2026 market value less 20% (BAJAJ-AUTO / M&M precedent; IOC template). MOSL takes 25% off MRPL, Emkay 30%."
+   },
+   {
+    "name": "HRRL subordinated loan (outside investments)",
+    "adj": {
+     "base": 8286,
+     "bull": 8286,
+     "bear": 4941
+    },
+    "metricLabel": "₹8,286 cr disbursed by Mar-26, to be converted into HRRL equity (base and bull at book). Bear: HRRL at 0.8x invested capital (MOSL's basis) = 0.8 × ₹18,916 cr less the ₹10,192 cr book equity already in net debt",
+    "note": "HRRL's equity (₹10,192 cr) is already inside net debt at book; the loan sits in 'loans', not investments, so it is added here at book (base and bull). MOSL values HRRL at 0.8x equity invested; BOB and Emkay give it nothing."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts (EV/EBITDA)",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values HPCL (Motilal Oswal 6x Dec-27E, BOB Capital 6x Jun-28E, Emkay 6x Jun-28E EV/EBITDA on standalone EBITDA, each plus investments). Consolidated EBITDA on Sep-28E × 3.5x, less net debt at Sep-27E (investments, incl. HRRL and HMEL equity, at book), plus MRPL and Oil India at market less 20%, plus the HRRL loan. Own one-year-forward core EV/EBITDA since Apr-2021 (EV less all investments at book; forward consolidated EBITDA; FY23 and FY27 left out as troughs): median 3.9x, × the OMC/refiner move vs five-year medians (Indian Oil −15.7%, BPCL −5.5%, MRPL −18.1%, Chennai Petroleum −12.8%; median −14.3%; HPCL itself excluded) = 3.3x → 3.5x (bull 4x = no move; bear 2x = 25th percentile 2.6x × move)."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 4.5,
+      "bull": 4.5,
+      "bear": 2.5
+     },
+     "why": "Own one-year-forward P/E since Apr-2021 (FY23, FY25, FY27 left out as trough years): median 4.0x, × the OMC/refiner P/E move vs five-year medians (+7.1%): 4.5x Sep-28E EPS. Bear = 25th percentile × move."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 10-year FCFF at a 9.4% WACC, terminal growth 4%, less net debt (investments at book)."
+    }
+   ]
+  }
+ }
+}

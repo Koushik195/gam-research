@@ -1,0 +1,294 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Bharat Petroleum (consolidated, Rs crore). Two segments, as reported: downstream petroleum (refining, marketing, gas, petchem, lubes; Mumbai, Kochi and Bina refineries) and E&P (BPRL). Downstream revenue = domestic market sales volume x realisation and EBITDA = volume x EBITDA per tonne (the build in `dsBuild`, checked against the model in BPCL.ctx.js). E&P carries BPRL's pre-production costs (no Mozambique or Brazil output before FY29/FY31). EPS is on 427.26 cr shares outside the BPCL Trust for Investment in Shares (BPCL.patch.js). Investments (Rs30,136 cr at Mar-26 book: Petronet and IGL at equity value, Oil India at fair value, BPRL's Russian and other upstream JVs and the CGD JVs at equity value) stay inside treasury (net debt); the SOTP marks the listed stakes to the 30-Sep-2026 close less 20% and adds BPRL's non-investment E&P assets at invested value in separate lines. Valued on a sum of the parts: EV/EBITDA on Sep-28E downstream EBITDA.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "segments": [
+  {
+   "key": "ds",
+   "name": "Downstream (refining & marketing)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 455075.84,
+   "growth": [
+    23.83,
+    -6.27,
+    4.03
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    3.51316,
+    5.79092,
+    5.83983
+   ],
+   "hist": {
+    "driver": "dsRev",
+    "revenue": "dsRev",
+    "adjEbitda": "dsEbitda"
+   },
+   "_why": "Revenue net of excise = domestic market sales x realisation (see dsBuild). Volume +1.5% in FY27E (Q1 domestic sales 13.62 MMT, +0.3% YoY: petrol +8%, diesel +8%, LPG −21% on supply curbs), +3% in FY28E and FY29E (FY26 +3.5%; BPCL buys ~20% of what it sells, so sales can grow ahead of its 35.3 MMTPA of refining, which only rises when Bina reaches 11 MMTPA around 2028). Realisation +22% in FY27E: Q1 revenue per tonne ~₹1.11 lakh vs ₹84,000 in FY26 (crude basket ~US$100/bbl vs ~US$70); we assume prices ease through the year; −9% in FY28E as crude normalises, +1% FY29E.",
+   "_marginWhy": "EBITDA per tonne of domestic sales (consolidated downstream EBITDA / domestic market sales): ₹4,500 (FY22), 2,261 (FY23), 8,638 (FY24), 4,862 (FY25), 7,689 (FY26); average FY22-26 ₹5,590. FY27E ₹3,600: Q1FY27 downstream EBITDA was about −₹3,900 cr (segment loss ₹5,920 cr after ~₹2,060 cr of D&A), about −₹2,800/t, even after a ₹3,134 cr marketing inventory gain, because retail prices lagged crude (implied marketing margin −₹5.4/litre) while refining earned US$17/bbl net of the export duty. Q2-Q4 need ~₹5,700/t as LPG under-recovery falls (₹510/cylinder in Q1, ₹490 July, ~₹210 expected for August) and the ₹7,594 cr compensation accrues at ₹633 cr a month to Oct-2026. FY28E ₹5,400 and FY29E ₹5,500: a little below the FY22-26 average because marketing margins stay political; the refining edge (GRM premium to Singapore) stays."
+  },
+  {
+   "key": "ep",
+   "name": "E&P (BPRL)",
+   "driverLabel": "Revenue",
+   "marginLabel": "EBITDA",
+   "base": 152.16,
+   "growth": [
+    0,
+    0,
+    0
+   ],
+   "revPct": [
+    100,
+    100,
+    100
+   ],
+   "marginPct": [
+    -262.88,
+    -262.88,
+    -262.88
+   ],
+   "hist": {
+    "driver": "epRev",
+    "revenue": "epRev",
+    "adjEbitda": "epEbitda"
+   },
+   "_why": "Small producing interests in India (Cauvery, Cambay); revenue ₹146-188 cr a year in FY22-FY26 (Q1FY27 ₹48 cr). The large assets are not producing: Mozambique LNG first cargo mid-2028 (FY29), Brazil BM-SEAL-11 first oil FY31; the Russian and Lower Zakum interests are equity-accounted (inside other income). We hold revenue flat.",
+   "_marginWhy": "Segment EBITDA (result + D&A) −₹460 cr (FY22), −132, −201, −337, −414 cr (FY26): exploration write-offs and overheads. We assume −₹400 cr a year and leave Mozambique cash flows out of FY29E (first cargo mid-2028, ramp-up and debt service unknown); they sit in the invested value we add in the sum of the parts."
+  }
+ ],
+ "dsBuild": {
+  "_note": "Downstream build: volume = domestic market sales (MMT); realisation = segment revenue net of excise per tonne; EBITDA per tonne = consolidated downstream EBITDA / that volume. Checked against the segment growth and margin above in BPCL.ctx.js.",
+  "base": {
+   "fy": "FY26",
+   "vol": 54.18,
+   "rev": 455075.84,
+   "ebitda": 41657.53
+  },
+  "volGrowth": [
+   1.5,
+   3,
+   3
+  ],
+  "realGrowth": [
+   22,
+   -9,
+   1
+  ],
+  "ebitdaPerTonne": [
+   3600,
+   5400,
+   5500
+  ],
+  "throughput": [
+   41.5,
+   42,
+   42.5
+  ],
+  "_throughputWhy": "No guidance given. 41.15 MMT in FY26 (116% utilisation); Q1FY27 10.15 MMT. We assume ~41.5 / 42 / 42.5 MMT: Mumbai and Kochi already run above nameplate; Bina's 7.8 → 11 MMTPA expansion comes with the petchem complex around 2028."
+ },
+ "unallocated": [
+  0,
+  0,
+  0
+ ],
+ "_unallocLabel": "Unallocated (reconciliation to Screener EBITDA)",
+ "_unallocWhy": "Screener EBITDA less the sum of segment EBITDA was −₹41 cr to +₹473 cr in FY22-FY26 (exchange differences sit inside the downstream result). We assume nil.",
+ "esop": [
+  0,
+  0,
+  0
+ ],
+ "capex": [
+  26000,
+  30000,
+  30000
+ ],
+ "_capexWhy": "FY27 guidance ₹25,000 cr kept after Q1 (Q1 ₹4,430 cr), possibly ₹26,000-27,000 cr: refinery and petchem ~₹11,000 cr, marketing ~₹10,000 cr, BPRL equity ~₹2,250 cr, CGD ~₹1,700 cr. FY26 ₹20,400 cr (segment capex ₹20,053 cr). The ₹1.7 lakh cr FY24-FY29 plan peaks in FY28-FY29 (Bina ₹49,800 cr, ₹5,900 cr spent by Jun-26; Mumbai PRFCC ~₹14,000 cr to Sep-2029; Brazil ~US$1.2bn over 3-4 years). We model ₹26,000 / 30,000 / 30,000 cr. The Andhra refinery (~₹95,000 cr) is not sanctioned and not included.",
+ "depRateOnGrossBlock": 5.4,
+ "_depWhy": "D&A ₹7,856 cr in FY26 (5.8% of average gross block of ₹1,34,650 cr; ₹7,257 cr and 5.8% in FY25); Q1FY27 ₹2,069 cr. The engine depreciates capex at once while most of the next three years' spend (Bina) sits in CWIP until ~2028, so we use 5.4%: ~₹8,300 / 9,800 / 11,400 cr.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "BPCL is a net borrower at group level (borrowings incl. leases ₹54,424 cr at Mar-26 vs cash ₹17,761 cr), so interest income is in the other-income line below.",
+ "otherIncome": [
+  4800,
+  5000,
+  5200
+ ],
+ "_otherIncomeWhy": "FY26 other income before exceptional items ₹4,810 cr (AR note 59): interest income ₹1,862 cr, other income ₹1,427 cr (dividends incl. Oil India, other), share of JV and associate profit ₹1,511 cr (Petronet, IGL, CGD JVs, upstream JVs), fair-value gain ₹10 cr. TTM to Jun-26 ₹4,904 cr before exceptional items (Q1FY27 ₹1,650 cr: other ₹1,249 cr + JV share ₹401 cr; the ₹1,885 cr FCTR gain left out). FY27E ₹4,800 cr (interest ~₹1,700 cr as cash is used, other ~₹1,500 cr, JV share ~₹1,600 cr), then +~4% a year.",
+ "interest": [
+  3000,
+  3400,
+  3800
+ ],
+ "_interestLabel": "Finance cost",
+ "_interestWhy": "Finance cost ₹2,953 cr FY26 (₹3,591 cr FY25), incl. ~₹800 cr on leases; Q1FY27 ₹627 cr. Standalone debt rose from ₹10,480 cr to ₹17,396 cr in Q1 on losses and working capital; FY28-29E rise as capex is debt-funded (group debt/equity guided to peak below 1x) and interest on Bina stops being capitalised.",
+ "taxRate": [
+  26,
+  26,
+  26
+ ],
+ "_taxWhy": "FY26 tax ₹8,948 cr = 25.7% of PBT (₹34,791 cr); FY25 26.6%. Statutory 25.17%; BPRL's overseas losses get no tax shield and JV profits are post-tax. 26% throughout.",
+ "payout": [
+  40,
+  30,
+  30
+ ],
+ "_payoutWhy": "Payout 29% of consolidated PAT in FY26 (₹17.5/share, ₹7,592 cr), 32-48% in earlier years (Screener). DIPAM's CPSE guideline asks for 30% of PAT or 4% of net worth, whichever is higher: 4% of ~₹1 lakh cr of equity (~₹4,000 cr) binds in FY27E, hence 40%; 30% after.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.65,
+  "terminalGrowth": 4,
+  "years": 10,
+  "fadeGrowthTo": 5,
+  "fadeMarginTo": 5.5,
+  "fadeCapexPctTo": 3,
+  "depPctOfSales": 2,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at rf + beta x ERP; BPCL carries ₹54,424 cr of debt incl. leases, so we set beta so that the rate equals our WACC: cost of equity 12.5% (beta 1.0), post-tax cost of debt ~5.5% (7.3% x (1−25.2%)), debt 30% of capital at the 30-Sep-2026 market value → WACC ~10.4%; beta 0.65 gives 10.4%.",
+  "_tgWhy": "4%, below the house 5-6% range: Indian fuel demand grows ~3% a year now, but EVs, CNG/LNG trucks and ethanol cap petrol and diesel growth over the long run, and BPCL's prices are partly set by the Government.",
+  "_fadeGrowthWhy": "Revenue growth fades to 5% (volume ~2-3%, price ~2%).",
+  "_fadeMarginWhy": "EBITDA margin fades to 5.5%: Screener-basis margins were 9%, 6%, 2.3%, 10%, 6%, 9% in FY21-FY26 (average 7.0%); we use a lower mid-cycle because marketing margins are capped by policy in high-crude years and the new capacity is lower-margin petrochemicals.",
+  "_fadeCapexWhy": "Capex was 4.0%, 2.2%, 1.8%, 2.1%, 3.4% and 4.3% of net revenue in FY21-FY26 (Screener fixed assets purchased; average 3.0%); the ₹1.7 lakh cr plan lifts it in FY27-FY29. We fade to the six-year average of 3.0%, above depreciation (2%), for the rest of the period."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The Gulf disruption keeps refining margins high while crude settles near $75: BPCL's complex refineries keep their GRM premium, marketing margins recover to the FY24/FY26 level, the Government compensates the ₹15,800 cr LPG buffer, Bina and Mozambique start on time; the market pays the stock's own median multiple again.",
+   "fadeMarginTo": 6.5,
+   "segments": {
+    "ds": {
+     "marginDelta": 1
+    }
+   }
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Crude stays above $90 with retail prices frozen into state elections, LPG losses are only partly compensated, Bina slips and upstream is impaired again; earnings stay near trough levels (FY23/FY25) and the stock trades at its lower-quartile multiple.",
+   "fadeMarginTo": 4.5,
+   "segments": {
+    "ds": {
+     "marginDelta": -1
+    }
+   }
+  }
+ },
+ "valuation": {
+  "method": "sotp",
+  "round": 5,
+  "parts": [
+   {
+    "name": "Downstream (refining & marketing)",
+    "seg": "ds",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Sep-28E EBITDA (½ FY28E + ½ FY29E) × EV/EBITDA",
+    "multiple": {
+     "base": 4,
+     "bull": 4.5,
+     "bear": 3
+    },
+    "note": "Own one-year-forward core EV/EBITDA since Apr-2021 (EV less all investments at book; forward consolidated EBITDA; FY27 left out as a trough): median 4.5x, × the OMC/refiner move vs five-year medians (Indian Oil −15.7%, MRPL −18.1%, Chennai Petroleum −12.8%; median −15.7%; HPCL excluded as distorted) = 3.8x → 4x (bull 4.5x = no move; bear 3x = 25th percentile 3.3x × move)."
+   },
+   {
+    "name": "E&P (BPRL): non-investment assets at invested value",
+    "seg": "ep",
+    "field": "adjEbitda",
+    "year": "Sep-28E",
+    "roll": [
+     "FY28E",
+     "FY29E",
+     0.5
+    ],
+    "metricLabel": "Pre-production EBITDA not capitalised; value = Mar-26 E&P segment assets less segment liabilities less equity-accounted investees (already in net debt)",
+    "multiple": {
+     "base": 0,
+     "bull": 0,
+     "bear": 0
+    },
+    "adj": {
+     "base": 16633,
+     "bull": 16633,
+     "bear": 9980
+    },
+    "note": "BPRL's E&P assets other than its equity-accounted JVs (mainly Mozambique Area 1 and Brazil, ₹17,648 cr of non-current assets in Mozambique) at Mar-26 book: segment assets ₹33,101 cr less segment liabilities ₹210 cr less JVs ₹16,259 cr (inside net debt at book). Not producing, so no EBITDA multiple; bear 40% lower (Motilal Oswal's discount on Mozambique). The debt that funds it is in net debt."
+   },
+   {
+    "name": "Less: net debt at Sep-27E (investments at book inside)",
+    "netCash": true,
+    "roll": [
+     "FY27E",
+     "FY28E",
+     0.5
+    ],
+    "metricLabel": "½ Mar-27E + ½ Mar-28E: borrowings and leases less cash and all investments at Mar-26 book",
+    "note": "Model forecast"
+   },
+   {
+    "name": "Listed stakes: 30-Sep-2026 market value less 20%, minus book",
+    "adj": {
+     "base": 2099,
+     "bull": 4443,
+     "bear": 927
+    },
+    "metricLabel": "Petronet LNG 18.8 cr × ₹284.50; Indraprastha Gas 31.5 cr × ₹145.61; Oil India 4.0 cr × ₹448.65 = ₹11,721 cr at market; less 20% (bull 0%, bear 30%), minus Mar-26 book ₹7,278 cr already inside net debt",
+    "note": "PLAYBOOK §7c: listed stakes in an operating company at the 30-Sep-2026 market value less 20% (BAJAJ-AUTO / M&M / IOC precedent). JM Financial also uses market less 20%; Motilal Oswal 25%; Emkay 30%."
+   }
+  ],
+  "blend": {
+   "round": 5,
+   "methods": [
+    {
+     "key": "sotp",
+     "name": "Sum of the parts (EV/EBITDA)",
+     "method": "sotp",
+     "role": "primary",
+     "why": "How the street values BPCL (Motilal Oswal 6x Dec-27E, JM Financial 5.5x FY28E, Emkay 5.8x Jun-28E, Antique 6.5x FY28E EV/EBITDA, each plus investments). Downstream EBITDA on Sep-28E × 4x, less net debt at Sep-27E, plus listed stakes at market less 20%, plus BPRL's E&P assets at invested value. Own one-year-forward core EV/EBITDA since Apr-2021 (EV less all investments at book; forward consolidated EBITDA; FY27 left out as a trough): median 4.5x, × the OMC/refiner move vs five-year medians (Indian Oil −15.7%, MRPL −18.1%, Chennai Petroleum −12.8%; median −15.7%; HPCL excluded as distorted) = 3.8x → 4x (bull 4.5x = no move; bear 3x = 25th percentile 3.3x × move)."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 4.5,
+      "bull": 4.5,
+      "bear": 2.5
+     },
+     "why": "Own one-year-forward P/E since Apr-2021 on BPCL's EPS basis (FY23, FY25, FY27 left out as trough years): median 4.7x, × the OMC/refiner P/E move vs five-year medians (−1.7%): 4.5x Sep-28E EPS. Bear = 25th percentile × move."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 10-year FCFF at a 10.4% WACC, terminal growth 4%, less net debt (investments at book). Upstream invested value and the listed-stake revaluation are not added."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "_note": "Consolidated, ₹ crore. HPCL reports one segment (downstream petroleum: refining and marketing); 'all other' (E&P, sugar/ethanol) is <0.1% of revenue and an EBIT loss of ₹241 cr in FY26, so the model carries one segment equal to Screener's consolidated net sales and operating profit (EBITDA before other income; exchange losses, ₹2,490 cr in FY26 per PL, are inside it). Volume = market sales incl. exports (MMT, standalone; AR FY26 performance profile). EBITDA per tonne = consolidated EBITDA ÷ market sales. Refining throughput (MMT) and GRM (US$/bbl) are standalone. FY23-FY24 GRMs are averages of the quarterly GRMs charted by PL (24-Jul-2026); FY25-FY26 are HPCL's own annual figures (AR FY26 MD&A).",
+ "src": "Screener.in (consolidated) for sales, EBITDA, profit; AR FY26 performance profile (volumes, throughput) and MD&A (GRM); PL Q1FY27 note Exhibit 3 (quarterly GRM); BOB and PL for Q1FY27 operating data.",
+ "annual": [
+  { "fy": "FY21", "dpRev": 233248, "dpEbitda": 16055, "sales": 233248, "ebitda": 16055, "pat": 10663 },
+  { "fy": "FY22", "dpRev": 349913, "dpEbitda": 10244, "sales": 349913, "ebitda": 10244, "pat": 7294, "dpVol": 39.14, "ebitdaPerT": 2617, "realPerT": 89400, "throughput": 13.97 },
+  { "fy": "FY23", "dpRev": 440709, "dpEbitda": -7192, "sales": 440709, "ebitda": -7192, "pat": -6980, "dpVol": 43.45, "ebitdaPerT": -1655, "realPerT": 101429, "throughput": 19.09, "grm": 12.05 },
+  { "fy": "FY24", "dpRev": 433857, "dpEbitda": 24928, "sales": 433857, "ebitda": 24928, "pat": 16015, "dpVol": 46.82, "ebitdaPerT": 5324, "realPerT": 92665, "throughput": 22.33, "grm": 9.05 },
+  { "fy": "FY25", "dpRev": 434106, "dpEbitda": 16448, "sales": 434106, "ebitda": 16448, "pat": 6736, "dpVol": 49.82, "ebitdaPerT": 3301, "realPerT": 87135, "throughput": 25.27, "grm": 5.74 },
+  { "fy": "FY26", "dpRev": 441771, "dpEbitda": 30645, "sales": 441771, "ebitda": 30645, "pat": 18047, "dpVol": 51.45, "ebitdaPerT": 5956, "realPerT": 85864, "throughput": 26.04, "grm": 8.79 }
+ ],
+ "quarterly": [
+  { "q": "Q1FY25", "sales": 113888, "ebitda": 2089, "otherIncome": 933, "pat": 634, "grm": 5.0 },
+  { "q": "Q2FY25", "sales": 99957, "ebitda": 2296, "otherIncome": 526, "pat": 143, "grm": 3.1 },
+  { "q": "Q3FY25", "sales": 110608, "ebitda": 5495, "otherIncome": 462, "pat": 2544, "grm": 6.0 },
+  { "q": "Q4FY25", "sales": 109633, "ebitda": 5788, "otherIncome": 930, "pat": 3415, "grm": 8.4 },
+  { "q": "Q1FY26", "sales": 110825, "ebitda": 7461, "otherIncome": 507, "pat": 4111, "grm": 3.1, "salesMmt": 13.0, "throughput": 6.7 },
+  { "q": "Q2FY26", "sales": 100856, "ebitda": 6852, "otherIncome": 715, "pat": 3859, "grm": 8.8 },
+  { "q": "Q3FY26", "sales": 115153, "ebitda": 6998, "otherIncome": 727, "pat": 4011, "grm": 8.9 },
+  { "q": "Q4FY26", "sales": 114937, "ebitda": 9211, "otherIncome": 1910, "pat": 6065, "grm": 14.3, "salesMmt": 13.0, "throughput": 6.4 },
+  { "q": "Q1FY27", "sales": 140584, "ebitda": -16122, "otherIncome": 648, "pat": -12265, "grm": 23.8, "grmNote": "pre-SAED", "salesMmt": 13.1, "throughput": 6.5 }
+ ],
+ "kpiBlocks": [
+  ["1   CONSOLIDATED (₹ crore)", [["sales", "Revenue (net of excise)", "₹ cr", 1], ["ebitda", "EBITDA", "₹ cr", 0, "sales"], ["otherIncome", "Other income (incl. JV share)", "₹ cr"], ["pat", "Net profit", "₹ cr"]]],
+  ["2   OPERATIONS (standalone)", [["grm", "Reported GRM (US$/bbl)", "US$/bbl"], ["salesMmt", "Market sales incl. exports (MMT)", "MMT"], ["throughput", "Refinery throughput (MMT)", "MMT"]]]
+ ]
+}
