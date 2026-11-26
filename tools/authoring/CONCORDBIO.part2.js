@@ -1,0 +1,38 @@
+// Concord Biotech report, part 2: what the company does, and history & corporate actions (industry and tailwind test in part2b).
+const X = require('./CONCORDBIO.ctx2');
+const { C, n0, n1, SA, FY26, FY25, Q1, TRE } = X;
+const P2b = require('./CONCORDBIO.part2b');
+
+const business = {
+  id: 'business', nav: 'What Concord does', kicker: 'The business', title: 'What Concord does: fermentation APIs for transplant, cancer and infection medicines (79% of revenue), and the formulations made from them (21%)',
+  blocks: [
+    { p: `Most APIs are made by chemistry. Concord makes a narrower set by **fermentation**: it grows selected strains of bacteria or fungi in large steel tanks for 30-50 days, then extracts and purifies the molecule they produce (ICRA). The process is slow, capital-heavy and hard to scale, so few companies outside China and Europe do it at size. Concord has 1,250 m³ of fermenters at two API plants near Ahmedabad, 30+ fermentation APIs and 150+ drug master files (DMFs) filed around the world, and says it holds a 20%+ global volume share in five molecules. In FY26 APIs brought ₹${n1(FY26.api)} cr (79% of revenue) and formulations ₹${n1(FY26.formulations)} cr (21%).` },
+    { exhibit: { type: 'table', title: 'The product basket', head: ['Therapy', 'Key molecules', 'What they treat', 'Weight'], wide: [1, 2], rows: [
+      ['Immunosuppressants', 'Tacrolimus, mycophenolate mofetil and sodium, cyclosporine, sirolimus, everolimus, pimecrolimus, voclosporin', 'Stop the body rejecting a transplanted organ; autoimmune disease', '**74% of API revenue, 58% of total (FY26, ICRA)**'],
+      ['Oncology', 'Temsirolimus, everolimus, romidepsin, mitomycin, dactinomycin, midostaurin', 'Kidney, breast, blood and other cancers', 'Small but growing faster (Q1FY27 call)'],
+      ['Anti-infectives', 'Mupirocin, polymyxin B, teicoplanin, vancomycin, fidaxomicin, fusidic acid (new)', 'Skin and hospital bacterial infections', 'Fastest growing with oncology'],
+      ['Antifungals', 'Anidulafungin, caspofungin, micafungin, amphotericin B, nystatin (new)', 'Serious fungal infections', 'Nystatin "doing very well" (Q1FY27 call)'],
+      ['Others', 'Lovastatin, pravastatin, enzymes', 'Cholesterol', 'Small'],
+      ['Formulations', 'Mycophenolate, tacrolimus, teriflunomide, tofacitinib tablets and capsules; injectables', 'India (nephrology and critical-care brands), emerging markets, US (7 ANDAs)', `₹${n1(FY26.formulations)} cr in FY26 (21%)`],
+    ], source: 'Q1FY27 deck pp.12-13, 18-19; ICRA (23-Sep-2026); Q1FY27 call' } },
+    { pair: [
+      { type: 'column', title: 'Formulations grew from 11% (FY23) to 22% (FY25) of revenue', unit: 'Formulations, share of revenue (%)', x: SA.map(s => s.fy), series: [{ name: 'Formulations', values: SA.map(s => Math.round(s.formulations / s.revenue * 1000) / 10), fmt: 'pct' }], labels: 'all', min: 0, max: 30, source: 'Company decks' },
+      { type: 'column', title: 'India (incl. Indian formulators) vs exports: about half each', unit: 'Revenue (₹ crore)', x: SA.map(s => s.fy), series: [{ name: 'India', values: SA.map(s => s.domestic), fmt: 'num' }, { name: 'Exports', values: SA.map(s => s.exports), fmt: 'num' }], labels: 'all', source: 'Company decks; AR FY26 note 40 (FY26)' },
+    ] },
+    { p: `**Who buys.** Concord sells APIs to 300+ generic drug makers in 70+ countries, including the regulated markets (US, Europe, Japan) through its DMFs. "Domestic" sales (₹${n1(FY26.domestic)} cr in FY26, 53%) are largely to Indian formulators who export the finished drug, so the US matters more than its direct US sales (₹${n1(FY26.usa)} cr, 10%) suggest: management calls most of its US business "indirect". The top ten customers were ${FY26.top10Pct}% of FY26 revenue (48.2% in FY21) and no customer reaches 10% (AR FY26). Concord does not disclose a regulated vs emerging-market split, customer names or molecule revenues.` },
+    { p: `**What is new.** Three businesses are being built on top of the API base: (1) **injectables** (Unit IV, commercial since Mar-2025, ₹600 cr peak revenue potential, ~5% utilised); (2) **Stellon Biotech Inc.**, a 75%-owned US company that started selling Concord's (and in-licensed) formulations in Q1FY27; (3) **CDMO**, contract work on innovators' molecules (1-2% of revenue; one animal-health product commercial). Management sees ₹3,000 cr of revenue from today's plants in 5-6 years (₹2,200-2,300 cr APIs, ₹600-700 cr formulations), almost three times FY26.` },
+    { callout: '**So what:** this is a specialist API maker whose profits come from a handful of mature, hard-to-make molecules, sold to generic companies that can and do switch timing. The fermentation know-how is real; the formulation and injectable add-ons are still a cost, not a profit, and their payoff is a forecast.' },
+  ],
+};
+
+const history = {
+  id: 'history', nav: 'History & corporate actions', kicker: 'History', title: 'From a loss-making Hoechst-promoted enzyme unit (2000) to a listed fermentation leader; the IPO paid the PE investor, not the company',
+  blocks: [
+    { exhibit: { type: 'table', title: 'Milestones and what they did to the numbers', head: ['When', 'Event', 'Impact'], wide: [1, 2], rows: C.timeline.map(t => [/^\d{4}-\d{2}-\d{2}$/.test(t.date) ? X.shortDate(t.date) : t.date, t.event, ({ '2000': 'The base: one block making the amidase enzyme', '2016': '₹475 cr bought shares from existing holders; no new money for Concord', 'FY2021-22': 'Depreciation +₹22 cr in FY22; EPS fell from ₹22.5 to ₹16.7', '2023-08-18': 'No new shares, no cash to the company; non-promoters own 55.9% after listing', '2025-03': '~₹38-39 cr a year of costs in FY26 with little revenue', '2025-07': 'Stellon FY26 loss ₹7.2 cr (25% borne by the partner)', '2026-09-23': 'Share count doubles to 20.92 cr once allotted (due within two months of approval); value unchanged', '2022-07': 'Share count 10.46 cr from then until the 2026 bonus' })[t.date] || '–']), source: 'ICRA; IPO documents; AR FY26; company decks; exchange filings' } },
+    { p: `**Corporate actions that matter for per-share data.** In Jul-2022 Concord split its ₹10 shares into ten ₹1 shares and issued one bonus share for every ten (AR FY26 note 16), taking the count to 10.46 cr. On 23-Sep-2026, a week before our as-of date, the board approved a **1:1 bonus** (its first as a listed company), subject to shareholder approval, and raised authorised capital from ₹11 cr to ₹22 cr. The bonus changes the number of shares, not the value of the company. Every per-share figure in this report (price ₹1,373.6, EPS, DPS, target) is on the 10.46 cr shares in issue on 30-Sep-2026; after the bonus, halve them.` },
+    { p: `**Acquisitions and overseas moves (all small, verified in AR FY26).** Stellon Biotech Inc. (USA, 75% from 1-Jul-2025); Concord Lifegen Ltd (India, 100%, Jul-2025, domestic formulations); Celliimune Biotech Pvt Ltd (cell and gene therapy research, 100% from 2-Apr-2026 for ₹66 lakh, bought from director Ravi Kapoor); 26% of Clean Max Everglades (₹6.1 cr, captive solar power, Jan-2025); 71,472 shares of Palvella Therapeutics Inc. (US biotech; ₹${n1(TRE.mar26.palvella)} cr fair value at Mar-26); and the 50% Japan JV (since Oct-2019). None is material to revenue yet. Management says it is exploring acquisitions in "adjacencies" of fermentation (peptides, veterinary products) with its cash.` },
+    { callout: '**So what:** Concord has funded every plant from its own cash; the IPO was an exit for Quadria Capital, which sold its entire 20% (₹1,550.5 cr at ₹741 a share). The recent acquisitions are tiny, but they show where the cash pile could go next.' },
+  ],
+};
+
+module.exports = { business, history, industry: P2b.industry, tailwind: P2b.tailwind };

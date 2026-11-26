@@ -1,0 +1,36 @@
+{
+ "asOf": "2026-09-30",
+ "note": "Syngene reports one operating segment (contract research and manufacturing services, AR FY26 note 33). It discloses the research services / CDMO split only as shares on its calls (FY25 ~65/35, FY26 ~two-thirds/one-third, Q4FY26 59/41, Q1FY27 78/22); 'research' and 'cdmo' rupee figures below are GAM derivations from those shares and are marked as such. Revenue, EBITDA margin (Screener basis = company operating EBITDA incl. forex hedge results) and material margin (100 - Screener material cost %) are reported. Rs crore.",
+ "src": {
+  "ar26": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9aef0fb3-a57b-4b56-9f45-9fb073779304.pdf",
+  "q1ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dce7362f-915c-40a8-9bf6-9ac049615f53.pdf",
+  "q4call": "https://www.syngeneintl.com/wp-content/uploads/2026/05/IR-Call-Transcript-Q4FY26.pdf",
+  "q3call": "https://cdn.syngeneintl.com/2026/01/29214627/Earnings-call-transcript_Jan23-2026.pdf",
+  "q1call": "https://www.syngeneintl.com/wp-content/uploads/2026/08/Q1-FY27-Earnings-Call-Transcript.pdf"
+ },
+ "annual": [
+  { "fy": "FY20", "revenue": 2012, "materialMarginPct": 74.2, "ebitdaMarginPct": 30.7, "src": "Screener" },
+  { "fy": "FY21", "revenue": 2184, "materialMarginPct": 75.9, "ebitdaMarginPct": 31.0, "src": "Screener" },
+  { "fy": "FY22", "revenue": 2604, "materialMarginPct": 71.2, "ebitdaMarginPct": 28.5, "src": "Screener" },
+  { "fy": "FY23", "revenue": 3193, "materialMarginPct": 73.1, "ebitdaMarginPct": 29.5, "src": "Screener" },
+  { "fy": "FY24", "revenue": 3489, "materialMarginPct": 73.3, "ebitdaMarginPct": 29.1, "usdMn": 418, "src": "Screener; q4call" },
+  { "fy": "FY25", "revenue": 3642, "research": 2367, "cdmo": 1275, "materialMarginPct": 74.1, "ebitdaMarginPct": 28.7, "usdMn": 430, "topTwoCustomersPct": 41.1, "src": "Screener; split ~65/35 (CFO, q3call), derived; ar26 note 33" },
+  { "fy": "FY26", "revenue": 3739, "research": 2430, "cdmo": 1309, "materialMarginPct": 75.4, "ebitdaMarginPct": 24.6, "usdMn": 419, "topTwoCustomersPct": 37.2, "usPct": 62.8, "europePct": 30.7, "src": "Screener; split ~65/35 (q3call, q4call), derived; ar26 notes 18.1, 33" }
+ ],
+ "quarterly": [
+  { "q": "Q1FY25", "revenue": 790, "otherIncome": 50, "materialMarginPct": 70.4, "ebitdaMarginPct": 21.5, "src": "Screener (other income incl. Rs32 cr insurance exceptional)" },
+  { "q": "Q2FY25", "revenue": 891, "otherIncome": 16, "materialMarginPct": 73.5, "ebitdaMarginPct": 27.5, "src": "Screener" },
+  { "q": "Q3FY25", "revenue": 944, "otherIncome": 18, "materialMarginPct": 74.8, "ebitdaMarginPct": 30.1, "src": "Screener" },
+  { "q": "Q4FY25", "revenue": 1018, "otherIncome": 19, "materialMarginPct": 76.9, "ebitdaMarginPct": 33.8, "src": "Screener" },
+  { "q": "Q1FY26", "revenue": 874, "research": 583, "cdmo": 291, "otherIncome": 18, "materialMarginPct": 75.1, "ebitdaMarginPct": 23.6, "src": "Screener; split two-thirds/one-third (derived)" },
+  { "q": "Q2FY26", "revenue": 911, "otherIncome": 15, "materialMarginPct": 73.8, "ebitdaMarginPct": 22.0, "src": "Screener" },
+  { "q": "Q3FY26", "revenue": 917, "research": 611, "cdmo": 306, "otherIncome": -55, "materialMarginPct": 75.0, "ebitdaMarginPct": 22.8, "src": "Screener (other income net of the Rs71 cr labour-code exceptional); split ~two-thirds/one-third (q3call), derived" },
+  { "q": "Q4FY26", "revenue": 1036, "research": 611, "cdmo": 425, "otherIncome": 16, "materialMarginPct": 77.5, "ebitdaMarginPct": 29.2, "src": "Screener; split 59/41 (CEO, q4call), derived" },
+  { "q": "Q1FY27", "revenue": 736, "research": 574, "cdmo": 162, "otherIncome": 12, "materialMarginPct": 76.4, "ebitdaMarginPct": 12.4, "src": "Screener; split 78/22 (q1ppt, q1call), derived" }
+ ],
+ "kpiBlocks": [
+  ["1   REVENUE BY BUSINESS (GAM split of company shares)", [["revenue", "Revenue from operations (consolidated)", "₹ cr", 1], ["research", "Research services (derived from disclosed share)", "₹ cr", 1, "revenue"], ["cdmo", "CDMO, small + large molecules (derived)", "₹ cr", 1, "revenue"]]],
+  ["2   MARGINS", [["materialMarginPct", "Material margin (100 - material cost %)", "%"], ["ebitdaMarginPct", "EBITDA margin (Screener basis = company operating EBITDA)", "%"]]],
+  ["3   CONCENTRATION AND CURRENCY", [["topTwoCustomersPct", "Two customers above 10% of revenue (share of revenue)", "%"], ["usdMn", "Revenue in US$ mn (company)", "US$ mn"]]]
+ ]
+}

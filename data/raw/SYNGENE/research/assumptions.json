@@ -1,0 +1,168 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Syngene International (consolidated, Rs crore). Syngene reports one segment (contract research and manufacturing) and discloses only the share of research services vs CDMO; the engine runs one revenue-growth path and the two-line build sits in businessLines, checked against model revenue in tools/authoring/SYNGENE.ctx.js. EBITDA on Screener's basis = the company's 'operating EBITDA' (excludes other income, includes forex hedge gains/losses). Other income and interest are built in SYNGENE.ctx.js from sourced parts and written here by SYNGENE.mult.js. Valued on EV/EBITDA, the method the brokers that disclose one use.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  -7.0334,
+  9.6769,
+  10.8312
+ ],
+ "_revenueWhy": "Sum of the two-line build below. FY27 -7.0%: Q1FY27 revenue -16% (Rs736 cr) on no Zoetis offtake and attrition of a few research clients; guidance is a single-digit rupee decline ('mid-single-digit', CFO, 30-Jul-2026) with H2 stronger than H1. Our -7% needs Q2-Q4 revenue of ~Rs2,740 cr, -4% on last year's Rs2,864 cr; we sit a little below the guide because guidance was cut in Jan-2026 (FY26) and again in Jul-2026 (FY27). FY28 +9.7% and FY29 +10.8%: Librela is out of the base, Bayview (US) starts earning in FY28, Mangaluru and Unit 3 fill, and the BMS centre grows with US inflation; management aims for double-digit growth from FY28 but gave no number. Rupee: FY26 ~Rs89/$ (US$419 mn), ~Rs94-95/$ in Q1FY27; we assume no further move after FY27.",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "research": 2430,
+   "cdmo": 1308.7,
+   "_why": "FY26 revenue Rs3,738.7 cr split ~65/35 between research services (discovery, dedicated R&D centres, translational & clinical) and CDMO (small- and large-molecule development and manufacturing): 'two-thirds, one-third... around 65, 35' (CFO, Q3FY26 call), 41% CDMO in Q4FY26 (CEO, Q4 call). Company does not disclose rupee figures; this split is ours."
+  },
+  "growth": {
+   "research": [
+    0.5,
+    7,
+    8
+   ],
+   "cdmo": [
+    -21,
+    16,
+    17
+   ]
+  },
+  "_why": "Research +0.5% in FY27: Q1 research ~Rs574 cr (78% of Rs736 cr) vs ~Rs583 cr a year earlier (two-thirds of Rs874 cr), i.e. ~-1.5%, after losing commoditised clients on price; the rupee (~+6%) and the BMS extension to 2035 hold it flat for the year. +7% / +8% in FY28-29 as biotech funding recovers (6-12 month lag) and the AI/new-modality offering is sold; still below the 11% market growth. CDMO -21% in FY27: Librela (~US$50 mn in FY26 by our estimate from 'impact nearly $50 million', q1call) falls to minor late-year deliveries; Q1 CDMO ~Rs162 cr (22%) vs ~Rs291 cr; ex-Librela CDMO grows ~13% on Mangaluru lock-ins and Unit 3 clinical batches. +16% / +17% in FY28-29: Bayview contracts (one or two converted), Mangaluru and Unit 3 ramp from a low base; no large commercial biologic replaces Librela in our base case."
+ },
+ "ebitdaMargin": [
+  20,
+  23.5,
+  25
+ ],
+ "_marginWhy": "Screener basis = company operating EBITDA (incl. forex hedge results, ex other income): 28.6% FY25, 24.6% FY26 (incl. a Rs61 cr hedge loss), 12.3% Q1FY27 (incl. a Rs50 cr hedge loss; 19% without it). Guidance: 'mid-20s' for FY27, which needs ~29% in Q2-Q4 against 25% a year earlier when Librela was still shipping. We take 20.0%: Q2-Q4 at ~22.7%, with the rupee still well above the hedge rates (Q3FY26 hedged at ~Rs86.9 vs spot ~Rs89.4), staff costs at ~33% of revenue and the empty biologics capacity (Unit 3 capitalised from Q1FY26), offset by FY26-27 cost cuts. FY28 23.5%: hedge losses fade, revenue grows, but Bayview is capitalised and its costs enter the P&L before it fills. FY29 25.0%: utilisation; still below the 28-30% of FY23-25.",
+ "capex": [
+  400,
+  450,
+  500
+ ],
+ "_capexWhy": "Screener capex (CFO less FCF): Rs489 cr FY24, Rs770 cr FY25 (incl. Bayview, US$36.5 mn), Rs368 cr FY26 (~US$45 mn guided). Q1FY27 Rs70 cr, mostly Bayview and technology/AI. No FY27 number guided; we assume Rs400 cr (Bayview operationalisation, capability labs, maintenance), Rs450 cr and Rs500 cr as growth returns; Rs1,040 cr of CWIP at Mar-26 (Bayview and others) is held flat by the engine.",
+ "depRateOnGrossBlock": 7.6,
+ "_depWhy": "FY26 depreciation and amortisation Rs453 cr (incl. Rs42 cr on right-of-use assets) on Screener's gross block; Q1FY27 Rs112 cr (Rs448 cr a year). Bayview (~Rs410 cr in CWIP incl. land and pre-operating cost) is not capitalised in FY27 (CEO, q1call) and adds ~Rs25-30 cr a year from FY28. The rate is set so depreciation runs ~Rs465 / 490 / 520 cr in FY27-29E (see SYNGENE.ctx.js output).",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Treasury income is built in SYNGENE.ctx.js on gross cash, deposits, ICDs and liquid funds (engine net cash + leases + borrowings) and entered in otherIncome.",
+ "otherIncome": [
+  82.11,
+  94.33,
+  113.24
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (checked in SYNGENE.ctx.js): (1) treasury income at 4.27%, the yield Syngene realised in FY26 (interest on deposits and ICDs Rs59.1 cr + gains on liquid funds Rs9.4 cr on average year-end gross treasury of ~Rs1,605 cr: Rs1,399 cr at Mar-25, Rs1,810 cr at Mar-26), applied to average gross treasury (engine net cash + Rs449 cr of leases + Rs9.4 cr of bank debt - Rs39.7 cr of strategic unlisted stakes): Rs1,810 -> 1,990 -> 2,383 -> 2,876 cr, Mar-26 to Mar-29E; (2) interest on lease and security deposits ~Rs1 cr (FY26 Rs1.1 cr). Tax-refund interest (FY26 Rs1.1 cr, FY25 Rs4.7 cr) is not repeated; forex sits in EBITDA. FY26 company other income Rs70.7 cr; Q1FY27 Rs25 cr; twelve months to Jun-26 ~Rs79 cr. Screener's history nets exceptional items (FY26 -Rs9 cr).",
+ "otherTreasury": {
+  "base": 275.4,
+  "_why": "Bank deposits with maturity of more than 12 months (Rs275.4 cr at Mar-26, Rs1.8 cr at Mar-25) sit in non-current other financial assets (AR26 note 6(a)), inside Screener's Other Assets; they are treasury. With them, net cash excluding leases equals the company's Rs1,800 cr."
+ },
+ "interest": [
+  40.25,
+  40.25,
+  40.25
+ ],
+ "_interestWhy": "Built in SYNGENE.ctx.js: lease interest at FY26's 8.4% (Rs38.2 cr on average leases of ~Rs454 cr) on Rs449 cr of lease liabilities held flat (Rs37.8 cr) + 10% on Rs9.4 cr of short-term bank debt + ~Rs1.5 cr of exchange differences and other finance costs (FY26 Rs4.0 cr as packing-credit debt fell from Rs120 cr). FY26 finance cost Rs48.8 cr (borrowings Rs6.6 cr, leases Rs38.2 cr, exchange difference Rs4.0 cr); Q1FY27 Rs10 cr.",
+ "taxRate": [
+  23,
+  24,
+  24
+ ],
+ "_taxWhy": "FY26 normalised 22.1% (Rs108 cr on pre-exceptional PBT of Rs488 cr); FY26 guide 21-23%; Q4FY26 24.2% as profit shifts across units; MAT credit of Rs95 cr left at Mar-26 (AR26 note 7). 23% in FY27, 24% after as SEZ benefits run off.",
+ "payout": [
+  25,
+  15,
+  13
+ ],
+ "_payoutWhy": "Dividend of Rs1.25 a share for FY25 and FY26 (~Rs50 cr); we keep ~Rs1.25-1.40 a share: 25% of FY27E EPS, 15% / 13% after.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.95,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 26,
+  "fadeCapexPctTo": 10,
+  "depPctOfSales": 9,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Beta 0.95 (12.2% cost of equity). Net cash, so WACC equals the cost of equity; earnings have proved more volatile than a contract-research model suggests (Librela).",
+  "_tgWhy": "5.5%, mid-range of the house 5-6%: outsourcing keeps growing (CRO market ~11% a year to 2029) but Syngene's research arm is losing price-sensitive work.",
+  "_fadeGrowthWhy": "Growth fades from ~11% (FY29E) to 7% by FY42E; Syngene grew revenue ~11% a year in FY19-26 (Rs1,826 cr to Rs3,739 cr).",
+  "_fadeMarginWhy": "26%: back towards the mid-20s guided as normal, below the 29-31% of FY19-25 when Librela carried the biologics plants.",
+  "_fadeCapexWhy": "Capex ~11-12% of sales in FY27-29E fades to 10% (maintenance ~9% of sales plus growth capex at Syngene's ~0.8x gross asset turn).",
+  "_wcNote": "Operating working capital is negative (~-16% of FY26 sales on Screener's balance sheet) because customers pay advances (Rs664 cr) and fund some assets (deferred revenue); the engine holds it at that level, so falling revenue in FY27 costs cash."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The new commercial team wins a commercial biologic for Unit 3 or Bayview, Zoetis orders more Librela for FY28, BIOSECURE moves China-sourced molecules to India and discovery pricing firms; growth runs ~3 points a year faster and margins return to the high 20s.",
+   "revenueGrowthDelta": 3,
+   "marginDelta": 2,
+   "fadeMarginTo": 28
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Discovery keeps losing price-sensitive clients, Bayview stays empty after capitalisation and hedge losses persist; growth runs ~4 points a year slower and margins stay near FY27's ~20%.",
+   "revenueGrowthDelta": -4,
+   "marginDelta": -3,
+   "fadeMarginTo": 23
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 28,
+      "bull": 34.5,
+      "bear": 24.5
+     },
+     "why": "How the street values Syngene: the brokers that disclose a method use EV/EBITDA (ICICI Securities 24x FY27E in its last accessible note, Apr-2025; Nuvama values Syngene at 22x EV/EBITDA inside its Biocon sum of the parts, Nov-2025; YES Securities shows EV/EBITDA in its valuation table); Macquarie, Jefferies, Goldman Sachs and Kotak targets come without a method. 28x = Syngene's median one-year-forward EV/EBITDA since 1-Apr-2021 (every weekly close plus the 30-Sep close, 288 points; EV = price x shares then outstanding less the net cash last published at the March year-end, incl. leases; forward EBITDA = the next full year's: actual FY23-26, our FY27E/FY28E; EBITDA is before exceptional items, so the pre-exceptional and reported medians are the same; no trough year: FY27E EBITDA is above half the FY24-26 peak) of 26.2x x 1.075 (the nine pharma peers' EV/EBITDA at the 30-Sep close vs their five-year medians; Syngene is outside the set, PLAYBOOK §7c; reproduced +7.5%) = 28.2x, nearest half-turn, on Sep-28E EBITDA plus Sep-28E net cash. Bull 34.5x / bear 24.5x = 75th / 25th percentile (31.9x / 23.0x) x 1.075. No own-move blend, no growth uplift (sensitivities only). Written by SYNGENE.mult.js."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 57.5,
+      "bull": 72.5,
+      "bear": 51
+     },
+     "why": "Cross-check: Syngene's median one-year-forward P/E since 1-Apr-2021 on EPS before exceptional items (same weekly closes; FY27 left out as a trough year: FY27E EPS Rs5.22 is below half of FY24's Rs12.96) of 53.0x x 1.082 (nine peers' five-year P/E move, PLAYBOOK §7c; reproduced +8.2%) = 57.3x, nearest half-turn, on Sep-28E EPS. Reported-EPS median 53.6x (sensitivity). Bull 72.5x / bear 51x = 75th / 25th percentile x 1.082."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 12.2% (cost of equity; net cash), terminal growth 5.5%, plus net cash at Mar-27."
+    }
+   ]
+  }
+ }
+}

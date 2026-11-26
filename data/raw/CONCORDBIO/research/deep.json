@@ -1,0 +1,86 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Street, peers, ownership and judgement calls for the Concord Biotech initiation. Broker notes are those found dated on or before 30-Sep-2026; Business Standard refuses automated access, so its reports are cited through Business Today and aggregators." },
+ "industry": {
+  "fermentation": "Fermentation APIs are made by growing microbes (bacteria, fungi) in large steel fermenters, then extracting and purifying the molecule; cycles take 30-50 days (ICRA). Scale, strain know-how and regulatory approvals are the barriers; few players outside China and Europe.",
+  "market": "Global microbial (fermentation) API market growing ~6.7% a year to 2030; biological APIs ~29.5% of the global API market by synthesis (Fortune Business Insights, cited in AR FY26 MD&A)",
+  "drivers": "Patent expiries; chronic transplant and autoimmune therapy (immunosuppressants); supply-chain de-risking away from China (second-source demand); tariff clarity (generics exempt from US tariffs, Q3FY26 call); India-EU FTA (Q3FY26 call)",
+  "headwinds": "Customers moved from bulk to staggered quarterly buying in FY26; US tariff uncertainty in H1FY26; CDSCO written-confirmation delays for EU supply; Middle East conflict hit tender supply; Indian formulators (Concord's domestic customers) export to the US, so 'domestic' sales also carry US risk",
+  "src": "ar26 MD&A; icra; q3call; q4call"
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": { "LUPIN": "Loss years inside the window (PLAYBOOK §7c).", "GLENMARK": "Loss years inside the window (PLAYBOOK §7c).", "BIOCON": "One-off and boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).", "LAURUSLABS": "Boom-bust EPS; P/E above 100x inside the window (PLAYBOOK §7c).", "DRREDDY": "gRevlimid windfall FY23-26, then the cliff (PLAYBOOK §7c).", "MANKIND": "Listed May-2023: no five-year median (PLAYBOOK §7c)." },
+  "context": ["DIVISLAB", "BIOCON", "LAURUSLABS", "NEULANDLAB", "GRANULES", "IPCALAB", "GLAND", "ANTHEM", "SAILIFE"],
+  "notes": "Concord is outside the nine-name set and listed on 18-Aug-2023, so its own window is shorter than five years and pairs with the nine peers' move over that same window (PLAYBOOK §7c, EMCURE/MANKIND/ANTHEM precedent): tools/authoring/sector-factor.js --from 2024-01-01 gives +10.7% (P/E) and +4.3% (EV/EBITDA). Context peers are fermentation and API makers; Biocon is the closest product overlap (tacrolimus, mycophenolate, other fermentation immunosuppressants)."
+ },
+ "street": {
+  "note": "Latest note found for each broker, standing on 30-Sep-2026. Choice: Business Today (4-Aug-2026) and investmentguruindia summaries of its 2-Jun-2026 and Mar-2026 notes; Antique: Business Today (6-Jan-2026; a later Antique note may exist but we found none); Kotak, Citi, Jefferies: Investing.com broker table (rating, target, prior target, date; methods not disclosed). Consensus: S&P Global via StockAnalysis/Investing.com, snapshot of 22-Jul-2026 (5 analysts, mean Rs1,216, range Rs1,020-1,400), before Choice's Aug-2026 upgrade.",
+  "brokers": [
+   { "broker": "Choice Institutional Equities", "date": "2026-08-04", "rating": "Add", "tp": 1645, "prevTp": 1045, "method": "P/E", "multiple": "40x", "on": "FY28E", "eps": { "FY28E": 41.1 }, "thesis": "Q1FY27 beat; FY27E/FY28E EPS raised 9.0%/18.2%; upgraded from Reduce (2-Jun-2026: 30x FY28E, Rs1,045, estimates cut 18.5%/13.1% on West Asia and approval delays)", "src": "https://www.businesstoday.in/markets/stocks/story/concord-biotech-shares-jhunjhunwalal-backed-stock-head-for-strong-upside-check-targets-547137-2026-08-04" },
+   { "broker": "Kotak Institutional Equities", "date": "2026-06-29", "rating": "Buy", "tp": 1400, "prevTp": 1275, "method": null, "multiple": null, "on": null, "thesis": "Target raised after Q4FY26 (method not disclosed in the summary we could read)", "src": "https://in.investing.com/equities/concord-biotech-consensus-estimates" },
+   { "broker": "Citi", "date": "2026-04-20", "rating": "Hold", "tp": 1190, "prevTp": 1680, "method": null, "multiple": null, "on": null, "thesis": "Target cut by 29% before Q4FY26 (method not disclosed)", "src": "https://in.investing.com/equities/concord-biotech-consensus-estimates" },
+   { "broker": "Jefferies", "date": "2026-01-09", "rating": "Hold", "tp": 1290, "prevTp": 1500, "method": null, "multiple": null, "on": null, "thesis": "Target cut after the weak H1FY26 (method not disclosed)", "src": "https://in.investing.com/equities/concord-biotech-consensus-estimates" },
+   { "broker": "Antique Stock Broking", "date": "2026-01-06", "rating": "Buy", "tp": 1520, "prevTp": 1520, "method": "P/E", "multiple": "25x", "on": "FY28E", "eps": { "FY28E": 60.8 }, "thesis": "FY25-28E revenue/EBITDA/PAT CAGR 18%/17%/19%, margins ~42%; Unit III could scale from ~Rs200 cr to Rs1,200-1,300 cr of revenue; CDMO a Rs400 cr opportunity in 3-5 years; FY26/FY27 EPS cut 13%/5%", "src": "https://www.businesstoday.in/markets/stocks/story/jhunjhunwala-stock-this-rs-3400-crore-bet-tanked-38-in-12-months-buy-says-antique-509551-2026-01-06" }
+  ],
+  "consensus": { "date": "2026-07-22", "analysts": 5, "meanTp": 1216, "lowTp": 1020, "highTp": 1400, "rating": "Buy (4 Buy, 1 Hold)", "src": "https://stockanalysis.com/quote/nse/CONCORDBIO/forecast/ (S&P Global)", "note": "FY27-28E consensus EPS on that date not readable without a subscription" },
+  "method": "Both brokers that disclose a method (Choice, Antique) value Concord on P/E of FY28E EPS (40x and 25x)."
+ },
+ "ownership": {
+  "period": "Jun-2026",
+  "categories": { "promoters": 44.08, "fiis": 7.53, "diis": 9.37, "public": 39.04, "shareholders": 83325 },
+  "named": [
+   { "holder": "Sudhir Vaid (chairman and MD)", "pct": 28.84, "type": "Promoter" },
+   { "holder": "Manju Sudhir Vaid", "pct": 9.55, "type": "Promoter group" },
+   { "holder": "Sudman Consultants LLP", "pct": 4.54, "type": "Promoter group" },
+   { "holder": "Ankur Vaid (JMD and CEO)", "pct": 0.56, "type": "Promoter" },
+   { "holder": "Megha Vaid / Sonal Kumra", "pct": 0.59, "type": "Promoter group" },
+   { "holder": "Aryaman, Aryavir and Nishtha Jhunjhunwala Discretionary Trusts (Rekha Jhunjhunwala, trustee)", "pct": 24.09, "type": "Public (non-promoter): three trusts of 8.03% each" }
+  ],
+  "ipo": "The Aug-2023 IPO was a 100% offer for sale by Helix Investment Holdings (Quadria Capital; 20% bought in 2016 for ~Rs475 cr): 2.09 cr shares at Rs741 (Rs1,550.5 cr); Quadria exited completely. Anchors took Rs465 cr (FPIs 48.9%, mutual funds 39.4%, insurers 11.7%), incl. GIC, ADIA, Amundi, Pinebridge, Polar Capital and Bajaj Allianz Life. Since then FIIs rose from 6.5% (Mar-24) to 9.4% (Mar-25) and fell back to 7.5%; DIIs 8.4% to 9.4%.",
+  "src": "Screener.in shareholding (BSE filings to Jun-2026); AR FY26 note 16 (holdings at Mar-26, unchanged in Jun-2026 promoter total); Business Today 4-Aug-2026 (trusts at 30-Jun-2026); chittorgarh.com IPO page; dealstreetasia/theasset (Quadria exit, anchors)"
+ },
+ "stock": {
+  "listing": { "date": "2023-08-18", "issue": 741, "close": 942.8 },
+  "events": [
+   { "date": "2023-12-22", "px": 1505, "what": "Post-listing re-rating ends; price moves sideways at Rs1,395-1,560 for the next five months" },
+   { "date": "2025-01-17", "px": 2178, "what": "Peak weekly close (87x the FY26 EPS that followed; ~70x trailing)" },
+   { "date": "2025-02-28", "px": 1496, "what": "-29% during Feb-2025 after Q3FY25 results (revenue +1%)" },
+   { "date": "2026-03-27", "px": 1015, "what": "Low weekly close as FY26 revenue fell 12%" },
+   { "date": "2026-09-30", "px": 1373.6, "what": "As-of close; +35% from the March low, -37% from the peak; board approved a 1:1 bonus on 23-Sep-2026" }
+  ],
+  "src": "Screener.in weekly closes (bonus restatement undone, x2); NSE close 30-Sep-2026"
+ },
+ "moat": [
+  { "factor": "Fermentation scale and know-how", "score": "Strong", "why": "1,250 m3 of fermentation capacity, 30+ fermentation APIs, 20%+ global volume share in five molecules; strain development and scale-up take years and large fermenters" },
+  { "factor": "Regulatory record", "score": "Strong", "why": "USFDA, EU-GMP, PMDA, MFDS, ANVISA approvals; no warning letter found; latest US inspections ended with procedural observations only" },
+  { "factor": "Customer stickiness", "score": "Medium", "why": "300+ customers, top-10 only 37.6%; but generic API buyers dual-source and FY26 showed they can defer orders for quarters; recent wallet-share gains came from lower prices" },
+  { "factor": "Product breadth", "score": "Weak-Medium", "why": "Immunosuppressants are 58% of revenue (ICRA); tacrolimus and mycophenolate are decades-old generics; oncology and anti-infectives are still small" },
+  { "factor": "Formulations and injectables", "score": "Weak", "why": "A late, sub-scale entrant (injectables at 5% utilisation); integration from API is the only edge" }
+ ],
+ "critiques": [
+  "FY26 revenue fell 12% and EPS 30%: 'timing' explanations (staggered orders, tenders, approvals) may hide share loss or customer destocking that recurs",
+  "Q1FY27 growth was 'primarily driven by pricing': Concord cut prices to win share, which supports volume but not margins",
+  "Inventory of Rs326 cr (Mar-26) and receivables of Rs460 cr tie up 61% of sales; cash conversion depends on the unwind",
+  "Injectables and Stellon cost ~Rs48 cr a year (4.6 points of margin) with little revenue; the injectable ramp already slipped two quarters",
+  "Cash (Rs442 cr) may go to acquisitions in unfamiliar adjacencies (peptides, cell and gene therapy start-up bought from a director)",
+  "The stock trades at ~52x trailing earnings with a short, volatile listed history; 24% sits with one family trust group whose selling would weigh on the price"
+ ],
+ "gaps": [
+  "FY20-FY22 API/formulation and geography splits (IPO prospectus not read)",
+  "Therapy split beyond ICRA's FY26 immunosuppressant share (74% of APIs, 58% of revenue); no molecule-level revenue or price data, so price erosion in tacrolimus/mycophenolate is described only from management comments",
+  "Customer names and the top-5 share (only top-10 shares disclosed)",
+  "Valuation methods of Kotak, Citi and Jefferies; any Antique note after Jan-2026",
+  "Injectable revenue to date (only utilisation of ~5% disclosed) and the injectable/Stellon breakeven point",
+  "Palvella Therapeutics share value at 30-Sep-2026 (we carry the Mar-26 fair value of Rs84.1 cr)",
+  "Duration of the Gujarat (GSBTM) incentives (Rs7.9 cr a year)",
+  "Named mutual-fund and FPI holders at Jun-2026",
+  "Business Standard articles (Antique, Jan-2026) refuse automated access; read through Business Today instead"
+ ],
+ "conflicts": [
+  "Domestic vs export FY26: Q4FY26 deck shows Rs491.3 cr domestic / Rs563.6 cr exports; AR FY26 note 40 and the CFO (53:47, domestic -15%, exports -9%) say Rs563.8 cr India / Rs491.3 cr outside India. We use the AR.",
+  "FY26 revenue: company Rs1,054.9 cr; ICRA 'operating income' Rs1,083.6 cr (its own definition) and operating margin 36.6% vs the company's 34.8%",
+  "Capex: FY26 Rs65 cr (CFO) vs Rs95 cr (Screener cash flow); FY27 Rs20-30 cr maintenance plus a topical block (management, Jun-2026) vs Rs120-130 cr (ICRA, Sep-2026)",
+  "Dec-25 cash: the CFO said Rs1,263 cr on the call; the transcript corrects it to Rs350 cr",
+  "Kotak targets: Rs1,560 (10-Dec-2025) and Rs1,400 'from Rs1,275' (29-Jun-2026) in the same aggregator table, implying an unrecorded cut in between"
+ ]
+}

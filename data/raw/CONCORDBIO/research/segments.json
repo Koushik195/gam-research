@@ -1,0 +1,25 @@
+{
+ "asOf": "2026-09-30",
+ "note": "Concord reports one operating segment. Revenue splits are management disclosures in results decks and calls (APIs exclude inter-unit sales to the formulation business). Domestic/export: AR FY26 note 40 and the CFO's split; the Q4FY26 deck labels FY26 domestic and export the other way round. FY20-22 splits were not found in the documents we read (IPO prospectus not read). Rs crore.",
+ "src": "Q4FY24, Q4FY25, Q4FY26 and Q1FY27 investor presentations; Q3FY26, Q4FY26, Q1FY27 calls; AR FY26 note 40; Screener.in (margins)",
+ "annual": [
+  { "fy": "FY23", "revenue": 853.2, "api": 761.3, "formulations": 91.9, "apiPct": 89.2, "domestic": 432.1, "exports": 421.0, "exportPct": 49.3, "ebitdaMarginPct": 40.3, "top10Pct": 44.3, "src": "q4fy24ppt pp.6-7" },
+  { "fy": "FY24", "revenue": 1016.9, "api": 828.0, "formulations": 188.9, "apiPct": 81.4, "domestic": 534.2, "exports": 482.7, "exportPct": 47.5, "ebitdaMarginPct": 42.5, "top10Pct": 42.0, "src": "q4fy24ppt pp.6-7; q4fy25ppt p.7" },
+  { "fy": "FY25", "revenue": 1200.1, "api": 940.1, "formulations": 260.0, "apiPct": 78.3, "domestic": 661.8, "exports": 538.3, "usa": 138.0, "exportPct": 44.9, "ebitdaMarginPct": 42.2, "top10Pct": 37.8, "src": "q4fy25ppt pp.7-8; ar26 note 40" },
+  { "fy": "FY26", "revenue": 1054.9, "api": 828.8, "formulations": 226.1, "apiPct": 78.6, "domestic": 563.8, "exports": 491.3, "usa": 108.0, "exportPct": 46.6, "ebitdaMarginPct": 34.9, "top10Pct": 37.6, "immunoPctApi": 74, "immunoPctTotal": 58, "src": "q4ppt p.7; ar26 note 40; icra (immunosuppressants)" }
+ ],
+ "quarterly": [
+  { "q": "Q3FY25", "revenue": 244.0, "api": 177, "formulations": 68, "ebitdaMarginPct": 40.2, "src": "q3call (Q3FY25 comparatives); Screener" },
+  { "q": "Q4FY25", "revenue": 429.9, "api": 362.4, "formulations": 67.5, "domestic": 239.4, "exports": 190.5, "ebitdaMarginPct": 44.3, "src": "q4fy25ppt pp.7-8" },
+  { "q": "Q1FY26", "revenue": 204.0, "api": 153.8, "formulations": 50.2, "domestic": 121.0, "exports": 83.0, "ebitdaMarginPct": 30.1, "src": "q1ppt p.7" },
+  { "q": "Q2FY26", "revenue": 247.4, "api": 192.2, "formulations": 55.6, "ebitdaMarginPct": 35.6, "src": "derived: FY26 (q4ppt) less Q1 (q1ppt), Q3 (q3call), Q4 (q4ppt)" },
+  { "q": "Q3FY26", "revenue": 277.6, "api": 219, "formulations": 58, "ebitdaMarginPct": 35.6, "src": "q3call" },
+  { "q": "Q4FY26", "revenue": 326.1, "api": 263.8, "formulations": 62.3, "domestic": 168.7, "exports": 157.4, "ebitdaMarginPct": 36.4, "src": "q4ppt pp.7-8 (domestic/export per the CFO's 52:48)" },
+  { "q": "Q1FY27", "revenue": 257.5, "api": 218.9, "formulations": 38.6, "domestic": 135.8, "exports": 121.7, "ebitdaMarginPct": 32.0, "src": "q1ppt pp.6-7" }
+ ],
+ "kpiBlocks": [
+  ["1   REVENUE BY PRODUCT LINE (company disclosures)", [["revenue", "Revenue from operations (consolidated)", "₹ cr", 1], ["api", "APIs (fermentation and semi-synthetic)", "₹ cr", 1, "revenue"], ["formulations", "Formulations (oral solids, soft gel, injectables)", "₹ cr", 1, "revenue"]]],
+  ["2   REVENUE BY GEOGRAPHY", [["domestic", "India (incl. sales to Indian exporters)", "₹ cr", 1, "revenue"], ["exports", "Exports", "₹ cr", 1, "revenue"]]],
+  ["3   MARGIN", [["ebitdaMarginPct", "EBITDA margin (before other income)", "%"]]]
+ ]
+}

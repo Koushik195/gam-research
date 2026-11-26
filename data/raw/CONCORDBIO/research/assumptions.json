@@ -1,0 +1,164 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Concord Biotech (consolidated, Rs crore). Per-share figures are on the 10.46 cr shares that traded on 30-Sep-2026: the 1:1 bonus approved on 23-Sep-2026 had not been allotted by then, so tools/authoring/CONCORDBIO.patch.js undoes Screener's bonus restatement (and puts Net Profit on the attributable basis: 25% of Stellon Biotech Inc. belongs to outsiders). Concord reports one operating segment; its decks split revenue into APIs and formulations. The engine runs one revenue-growth path and the two-line build sits in businessLines, checked against model revenue in tools/authoring/CONCORDBIO.ctx.js. EBITDA is before other income. Other income is built in CONCORDBIO.ctx.js and entered here (treasuryYield 0). Valued on P/E, the method of every broker that discloses one.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  16.77,
+  16.77,
+  15.59
+ ],
+ "_revenueWhy": "Sum of the two-line build below (checked in CONCORDBIO.ctx.js): +16.8% / +16.8% / +15.6%. FY27: management expects growth 'slightly better' than its historical ~18% (Q4FY26 call, 1-Jun-2026) and 'better than our historical growth rates' (Q1FY27 call, 3-Aug-2026); ICRA (23-Sep-2026) expects 14-15%; Choice (2-Jun-2026) models a ~15% CAGR for FY26-29E. Q1FY27 revenue Rs257.5 cr (+26%) covers 21% of our FY27, and Q2-Q4 need Rs974 cr vs Rs851 cr a year earlier (+14%), against a Q4FY26 that fell 24%. We sit below management because FY26 showed how fast procurement can stall, and price-led wallet-share gains (Q1FY27 call) lift volume more than value. FY28-29: the Rs3,000 cr revenue potential of today's plants (Q4FY26 and Q1FY27 calls) is a 5-6 year goal (~19-20% a year); we assume 16-17%.",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "api": 828.8,
+   "formulations": 226.1,
+   "_why": "FY26 revenue Rs1,054.9 cr: APIs Rs828.8 cr (79%) and formulations Rs226.1 cr (21%), Q4FY26 investor presentation (May-2026) p.7. CDMO (third-party IP) is inside APIs at 1-2% of revenue (Q1FY27 call)."
+  },
+  "growth": {
+   "api": [
+    20,
+    16,
+    15
+   ],
+   "formulations": [
+    5,
+    20,
+    18
+   ]
+  },
+  "_why": "APIs +20% in FY27: Q1FY27 API revenue Rs218.9 cr (+42%) on wallet-share gains at existing customers, new products (Nystatin, fusidic acid) and spill-over of FY26 orders; Q2-Q4 need Rs776 cr vs Rs675 cr a year earlier (+15%). +16% / +15% in FY28-29: Unit III (Limbasi) at ~55% utilisation has room, 2-3 launches a year, one CDMO project expected in FY27, but immunosuppressants (74% of API revenue, ICRA) are mature molecules with some price give-backs. Formulations +5% in FY27: Q1FY27 fell 23% to Rs38.6 cr (Middle East tender and the US Veterans Affairs tender still on hold, ~Rs25 cr each, Q4FY26 call); injectables (5% utilisation, Rs600 cr peak potential) supply third parties only from H2FY27 and Stellon Biotech began US sales in Q1FY27. +20% / +18% in FY28-29 as emerging-market registrations for injectables (12-15 months, Q1FY27 call) and US ANDAs (mycophenolate mofetil, tofacitinib tablets, approved Q1FY27) start to sell."
+ },
+ "ebitdaMargin": [
+  36,
+  38,
+  38.5
+ ],
+ "_marginWhy": "Before other income: 40.2% (FY23), 42.4% (FY24), 42.2% (FY25), 34.8% (FY26), 32.0% in Q1FY27. FY26 carried ~Rs38-39 cr of injectable-plant costs and ~Rs10 cr of Stellon Biotech costs with almost no revenue (Q4FY26 call): excluding them the company puts FY26 at 38.8% and Q1FY27 at 37%. FY27 36%: operating leverage on those now fully built costs and 1-1.5 points of solar-power savings (Q4FY26 call), partly offset by price-led wallet-share gains and dearer fuel; Choice expects +100-150 bp. FY28 38% / FY29 38.5%: management targets ~40% in FY28 once injectables and Stellon break even ('next financial year'); we stay below it because the injectable ramp has already slipped 'a couple of quarters' and gross margins are guided flat.",
+ "capex": [
+  100,
+  90,
+  110
+ ],
+ "_capexWhy": "FY26 Rs95 cr on Screener's cash-flow basis (the CFO cited Rs65 cr; soft-gel line and plant changes for an innovator project); Q1FY27 Rs9.5 cr. Management guides maintenance capex of Rs20-30 cr a year plus a small topical facility in FY27 (Q4FY26 call); ICRA (23-Sep-2026) puts FY27 capex at Rs120-130 cr. We take Rs100 cr for FY27 and Rs90-110 cr for FY28-29: maintenance, the topical block, CDMO-specific changes and the Rs50-100 cr of debottlenecking management sees in 2-3 years. A Unit III expansion only comes at 80-85% utilisation, beyond FY29.",
+ "depRateOnGrossBlock": 6.3,
+ "_depWhy": "FY26 depreciation Rs74.5 cr on average gross block of ~Rs1,128 cr = 6.6% (the injectable plant's first full year); Q1FY27 Rs18 cr (~Rs72 cr annualised). 6.3% on gross block plus capex gives ~Rs76 / 82 / 89 cr for FY27-29E (CWIP of Rs79 cr is held flat by the engine).",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Treasury income is built in tools/authoring/CONCORDBIO.ctx.js on AVERAGE yield-bearing cash (engine net cash less the Palvella Therapeutics shares and the Japan JV stake) and entered in otherIncome.",
+ "otherIncome": [
+  41.4,
+  47.8,
+  56.6
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (checked in CONCORDBIO.ctx.js; written by CONCORDBIO.mult.js): (1) treasury income at 6% on average yield-bearing cash = engine net cash (Rs503 / 585 / 718 / 877 cr, Mar-26 to Mar-29E) less the Palvella Therapeutics shares (Rs84.1 cr, fair value through OCI) and the Japan JV stake (Rs3.7 cr), plus Rs2.3 cr of leases: Rs417 / 499 / 632 / 791 cr. FY26 earned 6.4% (bank interest Rs2.5 cr, gains on sale of funds Rs11.5 cr, fair-value gains Rs9.6 cr on average cash and funds of ~Rs367 cr); (2) Gujarat (GSBTM) power-tariff and employment incentives for the Limbasi plant Rs7.9 cr (FY25 Rs7.9 cr, FY26 Rs7.9 cr); (3) write-backs and miscellaneous income Rs4 cr (FY25 Rs4.4 cr, FY26 Rs4.9 cr); (4) share of the 50% Japan JV Rs2 cr (FY26 Rs2.9 cr, FY25 -Rs1.3 cr; Screener includes it in other income). No forex gains are forecast (FY26 Rs16.0 cr, FY25 Rs8.2 cr). FY26 other income Rs52.4 cr, Rs36.3 cr before forex; twelve months to Jun-26 Rs52.0 cr (Screener).",
+ "interest": [
+  0.4,
+  0.4,
+  0.4
+ ],
+ "_interestWhy": "No borrowings (Rs2 cr on Screener's Mar-26 balance sheet is lease liabilities); FY26 finance cost Rs0.3 cr, FY25 Rs0.5 cr. Rs0.4 cr a year.",
+ "taxRate": [
+  25.2,
+  25.2,
+  25.2
+ ],
+ "_taxWhy": "FY26 24.8% (Rs85.4 cr on Rs344.6 cr), FY25 24.8%, Q1FY27 26.9% (Rs21 cr on Rs78 cr); statutory 25.17%.",
+ "payout": [
+  30,
+  30,
+  30
+ ],
+ "_payoutWhy": "FY26 final dividend Rs7.55 a share (pre-bonus) = 30% of EPS (AR FY26 note 46); FY25 Rs10.70 a share (Rs111.9 cr paid in FY26) = 30%. We keep 30%.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 34,
+  "fadeCapexPctTo": 5,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "Concord has no debt, so WACC equals the cost of equity. Beta 1.0 (12.5%): immunosuppressants are 58% of revenue (ICRA), FY26 showed revenue can fall 12% in a year on customer timing, and the injectable bet is unproven.",
+  "_tgWhy": "5.5%, the middle of the house 5-6% range.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~16% (FY29E) to 7% by FY42E: revenue grew ~16% a year in FY16-25 and 12% a year in FY21-26 (ICRA), with a fall in FY26.",
+  "_fadeMarginWhy": "34% by FY42E, below our FY29E 38.5%: the core immunosuppressants are decades-old generics that face slow price erosion, and formulations (lower margin) gain share.",
+  "_fadeCapexWhy": "Capex falls from 6-8% of sales (FY27-29E) to 5%: maintenance (~5% of sales, FY26 depreciation 7%) plus a new fermentation block every few years.",
+  "_wcNote": "Operating working capital on Screener's Mar-26 balance sheet is ~61% of FY26 sales (ICRA: 63%, up from 53% in FY25, as inventory built up when customers staggered orders). The engine holds the ratio, so our cash path is conservative if inventory unwinds as management expects."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "Second-source wins with large customers and two CDMO projects convert, the Middle East and Veterans Affairs tenders return, and injectables reach breakeven in FY28; growth runs ~5 points a year faster and the margin reaches management's ~40%.",
+   "revenueGrowthDelta": 5,
+   "marginDelta": 2,
+   "fadeMarginTo": 37
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Customers stagger orders again (tariffs, inventory), price give-backs in mature immunosuppressants deepen and the injectable plant stays sub-scale; growth ~7 points a year slower and the margin ~3.5 points lower, near FY26's 35%.",
+   "revenueGrowthDelta": -7,
+   "marginDelta": -3.5,
+   "fadeMarginTo": 30
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 61,
+      "bull": 73,
+      "bear": 45.5
+     },
+     "why": "How the street values Concord: both brokers that disclose a method use P/E on FY28E EPS (Choice 40x, Add, 4-Aug-2026; Antique 25x, Buy, 6-Jan-2026); Kotak (Buy), Citi and Jefferies (Hold) do not disclose one in the summaries we found. Concord listed on 18-Aug-2023, so there is no five-year history: we skip the post-listing months and start on 1-Jan-2024, when the post-listing re-rating had run its course (Rs943 at listing to ~Rs1,505-1,550 by late Dec-2023, then sideways at Rs1,395-1,560 to mid-2024), the 90-day anchor lock-in had ended (Nov-2023) and two quarters had been reported as a listed company. 61x = Concord's median one-year-forward P/E since 1-Jan-2024 (every weekly close plus the 30-Sep close, 144 points; forward EPS = the next full fiscal year's reported EPS on the pre-bonus 10.46 cr shares: FY25 Rs35.52, FY26 Rs24.94, our FY27E/FY28E) of 54.9x x 1.107 (the nine pharma peers' trailing P/E at the 30-Sep close vs their medians since 1-Jan-2024, PLAYBOOK §7c same-window rule; tools/authoring/sector-factor.js --from 2024-01-01 = +10.7%) = 60.8x, nearest half-turn. Trough rule: no year is left out (FY26 Rs24.94 vs a Rs17.8 line, half of FY25's Rs35.52; FY27E Rs29.1 vs Rs17.8). Exceptional items are immaterial (Rs3.3 cr labour-code charge in FY26), so the base uses reported EPS. The median is high because FY26 EPS fell 30%: the 52 weeks priced on it trade at 67.9x; leaving them out gives 47.5x (sensitivity). Bull 73x / bear 45.5x = 75th / 25th percentile (66.1x / 41.1x) x 1.107. No own-move blend, no growth uplift (sensitivities only). Written by CONCORDBIO.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 38.5,
+      "bull": 48,
+      "bear": 30
+     },
+     "why": "Cross-check: Concord's median one-year-forward EV/EBITDA since 1-Jan-2024 (EV at each weekly close = price x 10.46 cr shares less the last published net cash, Screener basis; over the next full year's EBITDA; FY26 EBITDA Rs368 cr is above half of FY25's Rs506 cr, so no trough year) of 37.1x x 1.043 (the nine peers' EV/EBITDA move over the same window, +4.3%) = 38.6x, nearest half-turn, on Sep-28E EBITDA plus Sep-28E net cash. Bull 48x / bear 30x = 75th / 25th percentile x 1.043."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 12.5% (cost of equity = WACC; no debt), terminal growth 5.5%, plus net cash at Mar-27."
+    }
+   ]
+  }
+ }
+}

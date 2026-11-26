@@ -1,0 +1,72 @@
+{
+ "_meta": { "asOf": "2026-09-30", "note": "Industry, peers, street, ownership, moat and critiques for Syngene International, using only material published on or before 30-Sep-2026. Later facts sit in updates/later-facts.json." },
+ "industry": {
+  "markets": [
+   { "segment": "Contract research (pre-clinical + clinical), global", "y2024": 84, "y2029": 140, "cagrPct": 11 },
+   { "segment": "CDMO (small + large molecules), global", "y2024": 130, "y2029": 190, "cagrPct": 8 },
+   { "segment": "Small-molecule CDMO", "y2024": 105, "y2029": 146, "cagrPct": 7 },
+   { "segment": "Large-molecule (biologics) CDMO", "y2024": 24, "y2029": 44, "cagrPct": 13 }
+  ],
+  "marketsSrc": "Frost & Sullivan via Syngene AR FY26 MD&A pp.182-186 (US$ bn)",
+  "drivers": "Pharma patent cliff 2024-28 and US drug-price pressure (IRA) push cost-cutting and outsourcing; biotech funding recovered in H2-2025 but reaches CRO revenue with a 6-12 month lag; new modalities (ADCs, peptides, oligonucleotides, bispecifics) are over 40% of clinical pipelines (q4call); China+1 pilots and vendor qualification; AI may shorten individual programmes but widen the pool of candidates (AR26 MD&A).",
+  "biosecure": "The BIOSECURE Act became US law in Dec-2025 inside the defence authorisation act. The final text names no company: it relies on the Defense Department's 1260H list and a later list of 'biotechnology companies of concern', with due process and grandfathering of existing contracts, so the near-term effect is gradual (AR26 MD&A p.183). Syngene says enquiry levels and RFPs for non-China CRDMOs have risen (AR26) and that the listing of some Chinese companies helps shift molecules to India (CEO, q1call). In FY26 the Act's delays also held back client spending on research projects (AR26 p.185). We see no sign of it in Syngene's revenue yet: Q1FY27 revenue fell 16%.",
+  "tariffs": "Management assesses the impact of US Section 232 pharma tariffs on Syngene as negligible; RFPs continue (q4call). The US Bayview site is pitched to clients who want US-made biologics (q1call).",
+  "src": "ar26 MD&A; q4call; q1call"
+ },
+ "peers": {
+  "set": ["SUNPHARMA", "DIVISLAB", "TORNTPHARM", "ZYDUSLIFE", "CIPLA", "AUROPHARMA", "ALKEM", "IPCALAB", "ABBOTINDIA"],
+  "excluded": { "LUPIN": "loss years inside the window", "GLENMARK": "loss years inside the window", "BIOCON": "one-off/boom-bust EPS; Syngene's parent", "LAURUSLABS": "boom-bust EPS, P/E above 100x inside the window", "DRREDDY": "gRevlimid windfall then cliff", "MANKIND": "listed May-2023, no five-year median" },
+  "factorNote": "PLAYBOOK §7c: Syngene is outside the nine-name pharma set, so it takes the median of all nine: +8.2% P/E, +7.5% EV/EBITDA (five-year medians from 30-Sep-2021, peers at the 30-Sep-2026 close). Reproduced with tools/authoring/sector-factor.js --metric pe|ev: +8.20% / +7.50%.",
+  "cdmo": ["DIVISLAB", "SAILIFE", "LAURUSLABS", "ANTHEM", "COHANCE", "NEULANDLAB", "PPLPHARMA"],
+  "cdmoNote": "Indian CDMO/CRDMO names for context (multiples at the 30-Sep-2026 close via asof-peers.js). Global listed comparables (WuXi Biologics, Samsung Biologics, Lonza, Charles River) are not in the app's data; not used."
+ },
+ "street": {
+  "note": "Latest note found for each broker, standing on 30-Sep-2026. Methods are rarely visible in accessible material. The brokers that disclose a method for Syngene use EV/EBITDA: ICICI Securities (24x FY27E EBITDA in its last accessible note, Apr-2025; its Jul-2026 view is known only from a Reuters summary), Kotak Securities' retail desk (EV/EBITDA table, older) and Nuvama, which values Syngene inside its Biocon sum of the parts at 22x EV/EBITDA (Nov-2025). YES Securities' Nov-2025 note shows EV/EBITDA in its valuation table (25.0x FY26E, 19.1x FY27E) but the basis of its Jan-2026 Sell target was not accessible. Jefferies, Macquarie, Goldman Sachs and Kotak Institutional targets come from news and tracker pages without a method. No broker in accessible material used P/E as the stated basis. Consensus (LSEG, 30-Jul-2026, after Q1): eight brokerages, average rating Buy, median target Rs532.",
+  "brokers": [
+   { "broker": "Macquarie", "date": "2026-07-30", "rating": "Outperform", "tp": 735, "method": null, "multiple": null, "on": null, "thesis": "Retained after Q1 despite 'an all-round miss' (revenue ~20% and EBITDA ~42% below its estimates); cut from Rs835 on 25-Jun-2026: weakness priced in, new team focused on commercial execution, 'from transition to transformation'", "src": "https://businessupturn.com/finance/stock-market/why-are-syngene-international-shares-down-nearly-8-today-explained/ ; https://tradebrains.in/why-does-macquarie-thinks-syngene-shares-could-rally-67-from-current-levels/" },
+   { "broker": "ICICI Securities", "date": "2026-07-30", "rating": null, "tp": null, "method": "EV/EBITDA", "multiple": "24x FY27E EBITDA (Hold Rs700, Apr-2025, last note accessed)", "on": "FY27E", "thesis": "Q1FY27 'below par on all parameters'; BMS extension to 2035 a positive (Reuters summary, 30-Jul-2026); Apr-2025 note flagged that loss of large-molecule revenue could hurt", "src": "https://zerodha.com/markets/stocks/NSE/SYNGENE/ ; https://www.icicidirect.com/mailimages/IDirect_Syngene_Q4FY25.pdf" },
+   { "broker": "Jefferies", "date": "2026-05-04", "rating": "Underperform", "tp": 410, "method": null, "multiple": null, "on": null, "thesis": "Downgraded to Underperform from Hold on 26/27-Jan-2026 (Rs660 -> Rs480) after the Q3 miss and guidance cut; cut again to Rs410 after Q4FY26", "src": "https://www.marketscreener.com/quote/stock/SYNGENE-INTERNATIONAL-LIM-46731329/consensus/ (as summarised by web search; page not readable); https://zerodha.com/markets/stocks/NSE/SYNGENE/" },
+   { "broker": "YES Securities", "date": "2026-01-27", "rating": "Sell", "tp": 450, "method": null, "multiple": "n.d. (EV/EBITDA shown in its Nov-2025 valuation table)", "on": null, "thesis": "Downgraded to Sell from Neutral after the Q3FY26 guidance cut; profitability concerns", "src": "MarketScreener rating log (search summary); https://www.whalesbook.com/news/English/healthcarebiotech/Syngene-Expands-BMS-Deal-Bets-on-New-Tech-Amid-Client-Struggles/69f81c579d1c90664820ac3a" },
+   { "broker": "Goldman Sachs", "date": "2025-07-25", "rating": "Buy", "tp": 775, "method": null, "multiple": null, "on": null, "thesis": "Q1FY26 beat; early-teens growth expected across verticals in FY26 (since missed); later notes not found", "src": "https://businessupturn.com/finance/stock-market/brokerages/goldman-sachs-maintains-buy-on-syngene-bullish-on-fy26-early-teens-growth-outlook-sees-15-5-upside-on-q1-beat-and-rising-cro-led-margin-gains/" },
+   { "broker": "Nuvama (inside Biocon SOTP)", "date": "2025-11-12", "rating": null, "tp": null, "method": "EV/EBITDA", "multiple": "22x (CRDMO part of its Biocon sum of the parts)", "on": null, "thesis": "Values Syngene on EV/EBITDA within its Biocon target", "src": "https://www.business-standard.com/amp/markets/news/biocon-scales-biosimilars-cuts-debt-analysts-bullish-post-q2-results-125111300557_1.html" }
+  ],
+  "consensus": { "lsegJul26": { "date": "2026-07-30", "brokers": 8, "rating": "Buy", "medianTp": 532 }, "lsegJan26": { "date": "2026-01-23", "brokers": 8, "rating": "Buy", "medianTp": 725 }, "lsegApr25": { "date": "2025-04-24", "brokers": 10, "rating": "Buy", "medianTp": 835 }, "spAug26": "S&P Global recommendation count for Aug-2026: 4 Strong Buy, 1 Buy, 2 Hold, 1 Strong Sell (8)", "src": "https://zerodha.com/markets/stocks/NSE/SYNGENE/ (Reuters); https://stockanalysis.com/quote/nse/SYNGENE/forecast/ (monthly table)" },
+  "estimatesGap": "No broker FY27-29E estimates standing on 30-Sep-2026 could be read; the S&P Global consensus estimates visible later (Nov-2026) post-date the as-of date and are not used."
+ },
+ "ownership": {
+  "asOf": "Jun-2026",
+  "rows": { "Promoters (Biocon group)": 52.59, "FIIs": 11.82, "DIIs": 28.01, "Public": 7.15, "Others": 0.43 },
+  "named": [
+   { "holder": "Biocon Ltd", "pct": 52.41, "when": "Mar-26", "src": "AR26 note 12" },
+   { "holder": "Nippon Life India Trustee (mutual funds)", "pct": 5.99, "when": "Mar-26", "src": "AR26 note 12" },
+   { "holder": "ICICI Prudential (mutual funds)", "pct": 5.38, "when": "Mar-26", "src": "AR26 note 12" }
+  ],
+  "trend": "FIIs 20.9% (Mar-24) -> 11.8% (Jun-26); DIIs 15.8% -> 28.0%: domestic funds bought what foreign investors sold as the stock fell",
+  "src": "Screener shareholding (BSE pattern), AR26"
+ },
+ "stock": { "close": 365.3, "closeDate": "2026-09-30", "lowNote": "On 30-Jul-2026 the stock hit a six-year intraday low of Rs375.25 (Reuters); the 52-week range to 30-Sep-2026 is computed from Screener weekly closes in SYNGENE.ctx.js","events": [ ["2025-04-24", "Record one-day fall of 12.3% to Rs656.7 after FY26 guide (mid-20s margin, lower PAT)"], ["2026-01-27", "Fell 8.1% to Rs506, lowest since Mar-2021, after FY26 guidance cut to a 3-5% decline"], ["2026-04-30", "Rose ~17% intraday to ~Rs505 after Q4FY26 (29% margin)"], ["2026-07-30", "Fell 9.4% to a six-year low of Rs375.25 after the Q1FY27 loss and guidance cut"] ], "src": "Reuters via zerodha.com; https://www.niftytrader.in/markets/syngene-q4-pat-rs148cr-stock-jumps-17pct/" },
+ "moat": [
+  { "factor": "Scale and breadth (discovery to commercial, small and large molecules)", "score": "Medium-high", "why": "One of India's largest integrated CRDMOs: 5,778 scientists, ~3 mn sq ft, biologics manufacturing that few Indian peers have" },
+  { "factor": "Anchor relationships", "score": "High (BMS) / broken (Zoetis)", "why": "BMS since 1998, extended to 2035; the Zoetis commercial supply that was meant to anchor biologics manufacturing has largely gone" },
+  { "factor": "Pricing power in discovery", "score": "Low", "why": "Management itself says Syngene drifted into commoditised research services where it loses clients to cheaper rivals (q1call)" },
+  { "factor": "Regulatory and quality record", "score": "High", "why": "USFDA, EMA, PMDA, UK VMD approvals; 85 audits in FY26; 6 successful USFDA audits in five years" },
+  { "factor": "Switching costs", "score": "Medium", "why": "Dedicated centres and commercial supply are sticky; FTE and fee-for-service discovery is not" }
+ ],
+ "critiques": [
+  "Bear (Jefferies Underperform, YES Sell): Librela was not a blip; research services also lost clients; guidance was cut in Jan-2026 (FY26) and again in Jul-2026 (FY27) and the stock trades at ~16x trailing EV/EBITDA, 39% below its own five-year median.",
+  "Bull (Macquarie Outperform Rs735): the CMO problem is one product; research services, biologics capacity and a new Biocon-bred management team can rebuild growth from FY28; net cash of Rs1,800 cr protects the downside.",
+  "Our view: both are partly right. The balance sheet is safe and the BMS franchise is real, but the biologics capacity (Unit 3, Bayview, the original Bengaluru plant) was built for a customer that has gone, and replacing ~$50 mn of high-margin commercial supply with clinical batches takes years, not quarters."
+ ],
+ "gaps": [
+  "Revenue split by business is disclosed only as shares (FY26 ~65/35 research/CDMO; Q4FY26 59/41; Q1FY27 78/22); small vs large molecule CDMO and Librela revenue are not disclosed. Our FY26 split (Rs2,430 / 1,309 cr) and Librela estimate (~US$50 mn in FY26) are derived from management's statements.",
+  "Broker methods: only ICICI Securities (Apr-2025) discloses one in accessible material; Jefferies, Macquarie, Kotak Institutional and Goldman notes were not accessible. StreetInsider (403) and assettype/BloombergQuint (Cloudflare block) refused our tool's identity; not worked around.",
+  "No FY27 capex guidance found in the Q4FY26 or Q1FY27 materials; our Rs400-500 cr a year follows the FY26 run-rate (~US$45 mn) and Bayview operationalisation.",
+  "Bayview operating costs before capitalisation and Unit 3 utilisation are not quantified by the company.",
+  "Syngene publishes a balance sheet only half-yearly; Jun-26 net cash (Rs1,541 cr) is from the call."
+ ],
+ "conflicts": [
+  "FY27 revenue guide: 'single-digit degrowth' (deck, Chairperson) vs 'mid-single-digit decline' (CFO) vs 'low single digits' (analyst paraphrase, Business Upturn). We forecast -7%.",
+  "Biocon's stake: 52.41% (Biocon Ltd, AR26 note 12) vs 52.59% promoter group (shareholding pattern, incl. Mazumdar-Shaw family). We use 52.4% for Biocon.",
+  "Stelis Unit 3 price: Rs702 cr announced (Jul-2023) vs Rs617 cr revised gross value at closing (Dec-2023); Rs395 cr paid on completion."
+ ]
+}
