@@ -74,7 +74,7 @@ Queues built 23-Nov-2026: 440 companies left (BSE-500 minus 56 published minus 4
 - A21 · published (A, 24-Nov-2026) · GLAND published (HOLD, 2,990), ANTHEM published (BUY, 990), AJANTPHARM published (SELL, 3,400), GLAXO published (BUY, 3,320), EMCURE published (HOLD, 2,170)
 - A22 · published (A, 25-Nov-2026) · LALPATHLAB published (HOLD, 2,200), SAILIFE published (SELL, 1,250), WOCKPHARMA published (HOLD, 2,170), ACUTAAS published (SELL, 2,280), PPLPHARMA published (BUY, 280)
 - A23 · published (A, 25-Nov-2026) · NEULANDLAB published (SELL, 12,420), GRANULES published (SELL, 710), COHANCE published (SELL, 310), CAPLIPOINT published (SELL, 2,090), NATCOPHARM published (SELL, 600)
-- A24 · in progress (A, 25-Nov-2026) · ONESOURCE, SYNGENE published (BUY, 730), POLYMED, CONCORDBIO published (BUY, 2,440)
+- A24 · in progress (A, 25-Nov-2026) · ONESOURCE published (BUY, 1,840), SYNGENE published (BUY, 730), POLYMED, CONCORDBIO published (BUY, 2,440)
 
 ### Fast Moving Consumer Goods (26)
 

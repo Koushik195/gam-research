@@ -1,0 +1,164 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for OneSource Specialty Pharma (consolidated, Rs crore). FY21-23 (Stelis alone) dropped and FY26 PAT/EPS put on the 30-Sep-2026 share count by tools/authoring/ONESOURCE.patch.js; FY24 is pre-demerger. OneSource reports one segment and no modality split; the engine runs one revenue-growth path and the two-line build (DDC & biologics; base business of sterile injectables and soft gels) sits in businessLines, checked against model revenue in ONESOURCE.ctx.js. EBITDA is before other income (company and Screener agree). Depreciation includes the Rs137.8 cr a year of scheme amortisation in history and forecasts alike. OneSource has net debt: other income and interest are built in ONESOURCE.ctx.js and written here by ONESOURCE.mult.js. Valued on EV/EBITDA, the method most brokers that disclose one use.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  51.195,
+  45,
+  22
+ ],
+ "_revenueWhy": "Sum of the two-line build below. FY27E +51%: Q1FY27 revenue Rs449 cr (+37%); the second cartridge line is commercial from Q2 (doubling sterile production days) and the third is installed within FY27; management promises sequential growth every quarter, with H2 stronger, but a ~4-month shutdown at one sterile-injectables site falls in Q2-Q3. Our FY27E needs Q2-Q4 revenue of ~Rs1,700 cr (~Rs567 cr a quarter, a Q4 exit of ~Rs640 cr). FY28E +45% and FY29E +22%: three DDC lines (675 sterile days), larger batch sizes, Brazil and other emerging markets, biologics MSAs; FY28E Rs3,118 cr is ~18% below the US$400m guidance (~Rs3,780 cr at Rs94.5/US$): FY26 was guided at ~30% growth and fell 2%, so we assume the ramp runs about a year behind plan. Street FY27E Rs2,354-2,803 cr, FY28E Rs3,407-3,762 cr (ICICI Securities 6-Sep-2026, SBICAP 5-Jan-2026, JM 6-May-2025).",
+ "businessLines": {
+  "base": {
+   "fy": "FY26",
+   "ddc": 622,
+   "core": 800,
+   "_why": "GAM estimate: the company discloses no split. 'Our soft gels and injectables business are trending closer to the US$100 million mark' (Chairman, 13-May-2026) = ~Rs800-900 cr at Rs89.9/US$; soft gels sold to Strides-group entities alone were Rs371.5 cr in FY26 (AR note 32). We put the base business at Rs800 cr and DDC & biologics (incl. MSA development income) at the remaining Rs622 cr of FY26 revenue of Rs1,422 cr (Screener; AR Rs1,421.6 cr)."
+  },
+  "growth": {
+   "core": [
+    6,
+    18,
+    12
+   ],
+   "ddc": [
+    109.32,
+    62.59,
+    26.73
+   ]
+  },
+  "_why": "Base business (sterile injectables incl. penicillin, soft gels) +6% in FY27E (four-month shutdown at one sterile site for lyophilisation and high-viscosity PFS; soft-gel capacity tripled to 2.4bn and fills over 12-15 months as tech transfers land), +18% in FY28E (the new injectables capacity for a full year; soft gel full), +12% in FY29E (greenfield soft-gel plant not before FY29-30). DDC & biologics is the balance: ~2.1x in FY27E (line 1 at full revenue in Q1; line 2 from Q2; India and Canada semaglutide, liraglutide, other peptides), +63% in FY28E (three lines, 500L batches, Brazil and MENA), +27% in FY29E (fourth line; biologics commercial supply starts; US and Europe still closed)."
+ },
+ "ebitdaMargin": [
+  31.5,
+  37.5,
+  39
+ ],
+ "_marginWhy": "FY26 21.4% (6% in Q3FY26 on delayed Canadian approvals; 21.5% in Q4); Q1FY27 27.5%: line 1 at full revenue, but the opex for lines 2-3 and 380+ hires is already in the base (CEO, 25-Jul-2026). FY27E 31.5%: quarterly margins rising from 27.5% to ~36% as the new lines fill (operating leverage), less the injectables shutdown. FY28E 37.5% and FY29E 39%: close to but below the guided ~40% steady state (FY25 reached 32% on MSA-heavy revenue; Q4FY25 43%). FY26 EBITDA included a Rs31.4 cr forex gain inside other expenses; we forecast none. Street FY27E 38.7-40.0%, FY28E 40.0-41.3%.",
+ "capex": [
+  450,
+  400,
+  350
+ ],
+ "_capexWhy": "FY26 Rs569 cr (AR cash flow); US$100m DDC programme ~80% committed by Jul-2026 (capital commitments Rs282 cr at Mar-26); FY27E Rs450 cr = third line and the balance of the programme, injectables upgrade, soft-gel greenfield start; FY28E Rs400 cr = fourth DDC line and biologics (+5KL microbial, +4KL mammalian, 'significantly lower than DDC'); FY29E Rs350 cr. Karnataka incentive (~Rs70 cr) not netted.",
+ "depRateOnGrossBlock": 4.35,
+ "_depWhy": "FY26 depreciation and amortisation Rs279 cr: PPE Rs78.9 cr, right-of-use Rs23.7 cr, intangibles Rs176.5 cr (of which scheme amortisation Rs137.8 cr, which continues to FY34). Q1FY27 Rs72 cr. Screener's gross block (Rs6,799 cr) includes goodwill, so the rate is a calibration: 4.35% gives ~Rs305 / 324 / 341 cr in FY27-29E as lines 2-4 are commissioned.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Net debt: no treasury book. Interest on the operating cash buffer is built in ONESOURCE.ctx.js and entered in otherIncome.",
+ "otherIncome": [
+  9.6,
+  9.6,
+  9.6
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (ONESOURCE.ctx.js): 6.5% on an operating cash and margin-money buffer of ~Rs100 cr (Mar-26 cash Rs35.7 cr + other bank balances Rs61.9 cr; CARE: ~Rs100 cr at Dec-25) = Rs6.5 cr; unwinding of discount on security deposits Rs0.7 cr; scrap sales Rs0.6 cr; support-service income from promoter-group entities Rs1.8 cr (AR note 21). FY26 Rs15.0 cr earned interest of Rs11.0 cr on a larger average cash balance (Rs301 cr at Mar-25), plus one-offs.",
+ "interest": [
+  130.18,
+  136.76,
+  104.21
+ ],
+ "_interestWhy": "Built in ONESOURCE.ctx.js: 8.25% on average gross borrowings (engine net debt + a Rs100 cr cash buffer; effective cost 'below 9%', CFO 13-May-2026) + Rs20 cr lease interest + Rs10 cr guarantee and bank charges, less Rs10 cr capitalised in FY27E. FY26 finance cost Rs122.2 cr (AR note 24); Q1FY27 Rs31 cr.",
+ "taxRate": [
+  10,
+  15,
+  25.2
+ ],
+ "_taxWhy": "OneSource carries Rs447.6 cr of unrecognised deferred tax assets on unabsorbed losses and depreciation (AR note 34) and booked a tax credit in Q1FY27 (PBT Rs20 cr, PAT Rs25 cr); it has not yet opted for the 25.17% regime. FY27E 10% and FY28E 15% (MAT-type current tax while losses are used); FY29E 25.2% (conservative: unused losses could shelter part of FY29).",
+ "payout": [
+  0,
+  0,
+  0
+ ],
+ "_payoutWhy": "No dividend so far; capex is debt-funded.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 1.05,
+  "terminalGrowth": 5.5,
+  "years": 15,
+  "fadeGrowthTo": 7,
+  "fadeMarginTo": 37,
+  "fadeCapexPctTo": 7,
+  "depPctOfSales": 5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity; beta 1.05 gives 12.8%, ~our WACC (cost of equity ~13%, net debt ~6% of EV at ~6.5% after tax): customer concentration, a two-year track record and a single-product ramp.",
+  "_tgWhy": "5.5%: middle of the house 5-6% range; GLP-1 volumes keep growing but CDMO prices fall as capacity arrives.",
+  "_fadeGrowthWhy": "From 22% (FY29E) to 7% by FY42E: US and Europe semaglutide from ~FY31-32, tirzepatide later, biologics commercial supply from FY29.",
+  "_fadeMarginWhy": "37%, below the guided 40%: more commercial (CSA) than MSA revenue and price competition in fill-finish.",
+  "_fadeCapexWhy": "From ~9% of sales (FY29E) to 7%.",
+  "_wcNote": "Engine operating working capital is 31.4% of FY26 sales (Screener Mar-26: other assets less cash, less other liabilities, which include Rs227.6 cr of lease liabilities). True operating working capital excluding leases was ~47% of FY26 sales and ~37% of Q1FY27 annualised revenue (receivables 177 days; customer-funded inventory); management expects it to normalise in FY27. Treating leases as debt and normalising working capital to ~33% gives almost the same Sep-28E net debt (see report)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The ramp runs to plan: lines 2-3 fill in FY27, Dr Reddy's resumes quickly, Brazil and MENA approvals arrive early and batch sizes rise; FY28 revenue reaches ~US$360-370m and the margin ~39.5%.",
+   "revenueGrowthDelta": 8,
+   "marginDelta": 2,
+   "fadeMarginTo": 39
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "A repeat of FY26: approvals slip again, a large partner's supply stays disrupted and generic semaglutide prices squeeze CDMO volumes or rates; growth runs ~12 points a year slower and the margin stays ~3 points lower.",
+   "revenueGrowthDelta": -12,
+   "marginDelta": -3,
+   "fadeMarginTo": 34
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 16.5,
+      "bull": 17,
+      "bear": 16
+     },
+     "why": "How the street values OneSource: three of the four brokers that disclose a method use EV/EBITDA (ICICI Securities a sum of the parts at 19x DDC and 16x soft gel and injectables FY28E EBITDA, Sep-2026; JM Financial 22x Sep-27E, Nov-2025; Investec 23x FY27E, May-2025); DAM Capital uses 30x FY28E EPS; SBICAP states no method. 16.5x = OneSource's median one-year-forward EV/EBITDA since 13-May-2026 (listed 24-Jan-2025; the window starts at the Q4FY26 results, the first of the profitable quarters after the Q3FY26 loss, and the forward year is FY28E throughout; every weekly close plus the 30-Sep close, 21 points; EV = market value + the last published company net debt excl. leases, as in the engine; forward EBITDA = our FY28E, before exceptional items, so the pre-exceptional and reported medians are the same) of 16.8x x 0.983 (nine pharma peers' trailing EV/EBITDA at the 30-Sep close vs their medians over the same window, PLAYBOOK §7c; reproduced −1.7%) = 16.5x, nearest half-turn, on Sep-28E EBITDA plus Sep-28E net debt. Bull 17x / bear 16x = 75th / 25th percentile (17.2x / 16.3x) x 0.983. Trough test on EBITDA: FY28E is far above half the best of FY24-26 (FY25 Rs467 cr); none. No own-move blend, no growth uplift (sensitivities only). Written by ONESOURCE.mult.js."
+    },
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 30,
+      "bull": 31,
+      "bear": 29
+     },
+     "why": "Cross-check: OneSource's median one-year-forward P/E since 13-May-2026 (same weekly closes; forward EPS = our FY28E, reported basis incl. the Rs137.8 cr scheme amortisation, no exceptional items) of 30.2x x 0.994 (the nine peers' P/E move over the same window, PLAYBOOK §7c; reproduced −0.6%) = 30.0x, nearest half-turn, on Sep-28E EPS. Bull 31x / bear 29x = 75th / 25th percentile x 0.994. DAM Capital: 30x FY28E EPS."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 12.8% (cost of equity ~ WACC; net debt is small against market value), terminal growth 5.5%, less engine net debt at Mar-27E."
+    }
+   ]
+  }
+ }
+}
