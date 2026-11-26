@@ -1,0 +1,43 @@
+// Poly Medicure report, part 5b: valuation, first half (street method, multiple derivation, trough rule, sector factor,
+// med-tech and wider-healthcare sensitivities). P/E primary; multiple = own forward P/E median since Apr-2021 (market value at
+// each date, so the QIP is handled; FY26 before one-offs) x the pharma factor for names outside the set (+8.2%).
+const X = require('./POLYMED.ctx');
+const { n1, n2, pc1, ASOF_TXT, MULT, HB, HR, HY, H22, H23, FM, yearWin, TROUGH_BASE, TROUGH_REP, troughRow, epsBase, epsRepAll, epsSep, epsU, PHARMA, WIDE, P, PE5, EV5, sectorCalc, sectorEvCalc, SECTOR, SECTOR_EV, k, sectorWide, pharmaSameWin, ownMove, ownMoveEv, shortName, MT_FROM, epsCagr, histEpsCagr, SENS, D } = X;
+const C5 = require('./POLYMED.part5c');
+const tb = troughRow(epsBase, [2024, 2025, 2026]);
+const sortDesc = arr => [...arr].sort((a, c) => PE5[c].move - PE5[a].move);
+
+const blocksA = [
+  { h: 'How the street values Polymed' },
+  { p: `Every broker note we could read that discloses a method values Polymed on **P/E** on forward EPS: Waya 50x FY28E (Dec-2025), IIFL 52x FY27 (Feb-2025, before its Feb-2026 downgrade), LKP ~50x FY27E (Mar-2025) and FundsIndia 61x FY26E (Dec-2024); only ICICI Securities used EV/EBITDA (30x FY26E, 2024). We follow the majority: **P/E on Sep-28E EPS (half FY28E, half FY29E)**, on consolidated EPS to shareholders. EV/EBITDA and a DCF are cross-checks.` },
+  { h: `Our target multiple: ${MULT.base}x, and why` },
+  { p: `The house rule (PLAYBOOK §4) starts from the stock's own one-year-forward P/E since Apr-2021, leaving out trough years, and multiplies the median by the sector's move against its own history. Four choices matter here. **(1) The Aug-2024 QIP.** Shares rose 5.5% on 22-Aug-2024 and ₹985 cr of cash came in. To keep per-share figures consistent with the share count at each date, we compute each point as market value on that date (price x shares outstanding then) ÷ the next full year's profit to shareholders; Screener-style EPS on year-end shares (${n1(HY.med)}x) is a sensitivity. **(2) One-offs.** FY26 profit carries ₹16.5 cr of labour-code and acquisition costs (₹12.4 cr after tax, 4% of profit); the base uses profit before them (forecasts carry none) and the reported median (${n1(HR.med)}x) is a sensitivity. **(3) Every weekly close plus the ${ASOF_TXT} close** (${HB.n} points). **(4) The sector factor.** Listed Indian medical-device makers are too few or too new for a five-year median, so under the thin-peer-set rule we use the nine-name pharma factor for names outside the set: **+${SECTOR}%**. No own de-rating, growth or returns adjustment enters the base.` },
+  { exhibit: { type: 'table', title: 'The trough rule, checked (P/E, so on EPS)', head: ['Forward year', 'EPS (₹)', 'Highest of previous three years (₹)', 'Half of it (₹)', 'Trough?'], rows: [
+    ...tb.map(t => [`FY${String(t.fy).slice(2)}`, n2(t.eps), n2(t.peak), n2(t.half), 'No']),
+    ['FY27E-FY28E', `${n1(epsU[0])} / ${n1(epsU[1])}`, n2(Math.max(epsBase[2025], epsBase[2026])), n2(Math.max(epsBase[2025], epsBase[2026]) / 2), 'No'],
+  ], source: `Screener.in; AR FY26; GAM. EPS = attributable profit ÷ year-end shares; FY26 before one-offs. Trough years: base ${TROUGH_BASE.length ? TROUGH_BASE.join(', ') : 'none'}; reported ${TROUGH_REP.length ? TROUGH_REP.join(', ') : 'none'}. Earnings never fell by half: no year leaves the window, and no structural break (turnaround rule) applies.` } },
+  { exhibit: { type: 'table', title: 'Deriving the target multiple', head: ['Yardstick', 'Evidence', 'What it implies'], wide: [1, 2], rows: [
+    ['1. Its own history', `Forward P/E since 1-Apr-2021: median **${n1(HB.med)}x** (25th-75th percentile ${n1(HB.p25)}-${n1(HB.p75)}x; range ${n1(HB.min)}-${n1(HB.max)}x). By forward year: ${yearWin.map(w => `${w.fy} ${n1(w.med)}x`).join(', ')}. No trough years. Reported profit ${n1(HR.med)}x; year-end-share EPS ${n1(HY.med)}x; house forwardMedian ${n1(FM.median)}x; from Apr-2022 ${n1(H22.med)}x; last three years ${n1(H23.med)}x`, `Starting point: ${n1(HB.med)}x`],
+    ['2. Sector move', `Nine pharma peers' P/E at the ${ASOF_TXT} close vs their five-year medians: median **+${SECTOR}%** (reproduced ${pc1(sectorCalc)}); EV/EBITDA +${SECTOR_EV}% (${pc1(sectorEvCalc)}). Thin-peer-set rule: med-tech names are sensitivity rows`, `${n1(HB.med)}x × ${k.toFixed(3)} = ${n1(HB.med * k)}x → **${MULT.base}x**`],
+    ['3. Growth', `EPS ${Math.round(epsCagr)}% a year FY26-29E on our numbers vs ~${Math.round(histEpsCagr)}% in FY22-26; the history includes 2024, when the market priced 25%+ growth that did not come`, 'No adjustment (rule); the window\'s mix of hope and disappointment is the main caveat'],
+    ['4. Peers', `Pharma P/E at 30-Sep: Sun ${n1(P.SUNPHARMA.pe)}x, Cipla ${n1(P.CIPLA.pe)}x, Divi's ${n1(P.DIVISLAB.pe)}x; Laxmi Dental ${n1(P.LAXMIDENTL.pe)}x; Polymed ${n1(P.POLYMED.pe)}x trailing`, `${MULT.base}x Sep-28E = ${n1(MULT.base * epsSep / epsU[0])}x FY27E EPS`],
+    ['5. Returns', 'ROE ~11% (FY26) and {{F.roe.0|pct}} / {{F.roe.2|pct}} in FY27E / FY29E vs a 12.2% cost of equity; standalone ROIC ex cash 21% (company)', 'Group returns do not justify a premium; the core business does'],
+    ['6. Street basis', 'Waya 50x FY28E; IIFL 52x FY27 (2025); LKP ~50x FY27E', `Our ${MULT.base}x sits inside the street's range`],
+  ], source: `Screener.in prices and EPS to ${ASOF_TXT}; AR FY25-26; GAM; peers' Screener files (asof-peers.js, sector-factor.js)` } },
+  { exhibit: { type: 'table', title: `Pharma sector factor (base): P/E and EV/EBITDA at the ${ASOF_TXT} close vs five-year medians`, head: ['Company', 'P/E (x)', '5-yr median (x)', 'vs median', 'EV/EBITDA (x)', '5-yr median (x)', 'vs median'], rows: [
+    ...sortDesc(PHARMA).map(s => [shortName(s), n1(PE5[s].cur), n1(PE5[s].med), pc1(PE5[s].move), n1(EV5[s].cur), n1(EV5[s].med), pc1(EV5[s].move)]),
+    { hl: true, cells: ['**Median of the nine**', '', '', `**${pc1(sectorCalc)}**`, '', '', `**${pc1(sectorEvCalc)}**`] },
+    ['Poly Medicure (not in the set; own stock)', n1(PE5.POLYMED.cur), n1(PE5.POLYMED.med), pc1(ownMove), n1(EV5.POLYMED.cur), n1(EV5.POLYMED.med), pc1(ownMoveEv)],
+  ], source: 'Screener.in "Price to Earning" and "EV Multiple" series since 30-Sep-2021 (positive weekly points), scaled to the NSE close on 30-Sep-2026; node tools/authoring/sector-factor.js --metric pe|ev reproduces +8.20% / +7.50% exactly.' } },
+  { exhibit: { type: 'table', title: 'Sensitivity sets (not used in the base)', head: ['Set', 'Window', 'Names', 'Move vs own median', 'Multiple'], wide: [2], rows: [
+    ['Med-tech with a short history: Laxmi Dental', `From ${X.shortDate(MT_FROM.LAXMIDENTL)} (IPO months skipped)`, `P/E ${n1(PE5.LAXMIDENTL.cur)}x vs ${n1(PE5.LAXMIDENTL.med)}x`, pc1(PE5.LAXMIDENTL.move), `${SENS.medtech}x`],
+    ['Pharma nine over the same window', `From ${X.shortDate(MT_FROM.LAXMIDENTL)}`, PHARMA.length + ' names', pc1(pharmaSameWin), `${SENS.pharmaSame}x`],
+    ['Tarsons (lab plastics)', 'Five years', `P/E ${n1(PE5.TARSONS.cur)}x vs ${n1(PE5.TARSONS.med)}x`, `${pc1(PE5.TARSONS.move)} (EPS collapsed: distorted)`, 'not used'],
+    ['Wider healthcare (pharma + diagnostics + hospitals + CRDMO)', 'Five years', `${PHARMA.length + WIDE.length} names (${WIDE.map(shortName).join(', ')} added; excl. ${Object.keys(D.peers.widerExcluded).join(', ')})`, pc1(sectorWide), `${SENS.wide}x`],
+    ['Molbio Diagnostics / Sahajanand Medical', '–', 'Listed 17-Aug-2026 / after 30-Sep-2026', 'no usable history', '–'],
+  ], source: 'Screener.in; asof-peers.js; GAM (same arithmetic as sector-factor.js)' } },
+  { p: `**Is there a better base set?** We do not think the evidence argues for one. The only listed hospital-device maker with any history, Laxmi Dental (dental aligners and prosthetics), has de-rated ${pc1(PE5.LAXMIDENTL.move)} from its post-IPO multiple while the pharma nine re-rated ${pc1(pharmaSameWin)} over the same 17 months: one small, recently listed name is a story about one company, not a sector. Tarsons' P/E is inflated by collapsed earnings. A wider healthcare set that adds diagnostics, hospitals and Syngene moves ${pc1(sectorWide)} (hospitals and diagnostics have de-rated), which would give ${SENS.wide}x and ₹${X.n0(Math.round(SENS.wide * epsSep / 10) * 10)} (still a BUY). We keep the rule's pharma set and show the others.` },
+];
+
+const valuation = { id: 'valuation', nav: 'Valuation', kicker: 'Valuation', title: `Valuation: ${MULT.base}x Sep-28E EPS gives {{dcf.tp|inr}}, {{dcf.upside|chg}} from the 30-Sep close: ${X.rating}`, blocks: [...blocksA, ...C5.blocksB] };
+module.exports = { valuation };

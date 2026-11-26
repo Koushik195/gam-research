@@ -1,0 +1,195 @@
+{
+ "asOf": "2026-09-30",
+ "_note": "GAM Research forecast drivers for Poly Medicure (consolidated, ₹ crore), as of 30-Sep-2026 on Q1FY27 results. One reportable segment (medical devices), so the engine runs on a single revenue-growth path; the build (India + international organic + PendraCare/Citieffe + export incentives) sits in `revenueBuild` and POLYMED.ctx.js checks it reproduces model revenue. Revenue and EBITDA are on Screener's basis (FY26 ₹1,875 cr and ₹446 cr = 23.8%; the company's 'operating EBITDA' of ₹457.7 cr also includes the Egyptian associate's ₹5.7 cr, which Screener and we carry in other income, and excludes the ₹6.8 cr labour-code charge). Net Profit history is the attributable figure (POLYMED.patch.js); PendraCare's 10% minority (a share of losses) is carried in the tax line, so model EPS is EPS to Polymed's shareholders. No acquisitions beyond those closed by 30-Sep-2026. Valued on P/E on Sep-28E EPS (the method of the brokers that disclose one: Waya 50x FY28E, IIFL 52x FY27 in Feb-2025, LKP ~50x FY27E, FundsIndia 61x FY26E; ICICI Securities used EV/EBITDA); EV/EBITDA and a DCF are cross-checks.",
+ "years": [
+  "FY27E",
+  "FY28E",
+  "FY29E"
+ ],
+ "revenueGrowth": [
+  22.12,
+  13.78,
+  13.24
+ ],
+ "_revenueWhy": "Written by POLYMED.mult.js from `revenueBuild`. FY27E +22%: a full year of PendraCare and Citieffe (₹292 cr vs ₹117 cr for 4-6 months in FY26) plus organic growth of ~13% (Q1FY27 +12.4%); slightly below the ₹2,300-2,400 cr guidance because the Middle East (6-8% of revenue, −32% in Q1) is still blocked by shipping. FY28-29E +13-14%: India +16-17%, international organic +12.5-13% as new CE/FDA registrations, the two new plants and the recovery of West Asia come through; acquisitions +10% (Citieffe 10-12% in EUR guided; PendraCare flat until the Middle East recovers). Management's 'Vision 2030' (2x revenue by FY30, ~18% a year incl. ~20% acquired) needs more M&A than we assume.",
+ "revenueBuild": {
+  "_why": "FY26 bases (Q4FY26 PPT; AR FY26 note 38): India ₹581.7 cr (+19.6%); international ₹1,280.2 cr, of which PendraCare ₹44.2 cr and Citieffe (Medistream group) ₹72.6 cr since acquisition, so international organic ₹1,163.5 cr (−0.6%); export incentives (other operating revenue) ₹13.3 cr. India +18 / 17 / 16% (FY26 +19.6%, Q1FY27 +16.2%, guidance '>20%' standalone; import substitution and hospital insurance); international organic +11.5 / 13 / 12.5% (Q1FY27 +10.4%: Europe +17.6% organic, RoW +4.0% with the Middle East −32%; guidance '>15%' standalone international); acquisitions ₹292 cr in FY27E (Q1FY27 ₹72.3 cr; FY26 pro-forma ₹260.5 cr = ₹116.7 cr + ₹104.9 cr + ₹38.9 cr), then +10% a year; export incentives ₹14 / 15 / 16 cr.",
+  "india": 581.7,
+  "intlOrganic": 1163.5,
+  "acquisitions": 116.7,
+  "otherOp": 13.3,
+  "indiaGrowth": [
+   18,
+   17,
+   16
+  ],
+  "intlGrowth": [
+   11.5,
+   13,
+   12.5
+  ],
+  "acqLevel": [
+   292,
+   321.2,
+   353.3
+  ],
+  "otherOpLevel": [
+   14,
+   15,
+   16
+  ]
+ },
+ "ebitdaMargin": [
+  23.5,
+  23.8,
+  24.3
+ ],
+ "_marginWhy": "Screener basis (excludes the associate). FY25 27.3%, FY26 23.8% (company 24.4% incl. associate; acquisitions and a weak export year), Q1FY27 23.8% with standalone at 28.0% helped by 4-5% price increases and inventory gains. Guidance: consolidated 23-25%, standalone 25-27% (upper end), subsidiaries 12-14% now, 18-20% in 2-3 years. FY27E 23.5%: standalone gross margin normalises to 68-69% (management), Haryana minimum wages +35% from Apr-2026, freight 2-3x, offset by price increases and H2 operating leverage. FY28E 23.8%: synergies at Citieffe/PendraCare and better export mix, less two new plants' start-up costs and R&D rising from 1.7% towards ~3% of sales. FY29E 24.3%. We do not assume a return to FY24-25's 26-27% while the acquired businesses run at low margins. Each 1pp of FY28E margin is ~₹26 cr of EBITDA (~₹1.9 of EPS).",
+ "capex": [
+  215,
+  240,
+  260
+ ],
+ "_capexWhy": "FY27E ₹215 cr: guidance ₹200-225 cr (FY26 ₹296 cr standalone, ₹308 cr consolidated); Palwal/Faridabad plant by Mar-2027 and Noida/YEIDA in Q1FY28. FY28-29E ₹240 / 260 cr: management's asset turn of 1.2-1.4x on new capacity implies ~₹230-270 cr a year for ₹300-350 cr of extra revenue; CRISIL expects ₹200-300 cr a year from internal accruals. Excludes acquisitions and the ₹33 cr Himalayan Mineral Water IBC payment (already paid in FY26).",
+ "depRateOnGrossBlock": 5.8,
+ "_depWhy": "Q1FY27 D&A ₹36.3 cr (₹145 cr annualised, incl. amortisation of ~₹131 cr of acquired intangibles); FY26 ₹116 cr. 5.8% of average gross block gives ₹150 / 163 / 177 cr in FY27-29E, i.e. the Q1 run-rate plus the two new plants. Gross block includes ₹274 cr of goodwill (not amortised), which the single rate absorbs.",
+ "treasuryYield": [
+  0,
+  0,
+  0
+ ],
+ "_treasuryWhy": "Set to zero: the engine's treasury is net of ₹354 cr of borrowings and leases, so treasury income is built on gross cash and investments in otherIncome instead (POLYMED.ctx.js).",
+ "otherIncome": [
+  101,
+  110,
+  125
+ ],
+ "_otherIncomeWhy": "Built from sourced parts (AR FY26 note 29, AR FY25 note 25; checked in POLYMED.ctx.js): (1) treasury income at 6.33% (FY26 return on mutual funds, AR FY26 key ratios; FY26 treasury income ₹64.0 cr = 6.19% of average gross cash) on average gross cash and investments on our path (engine net cash plus debtBuild): ₹54.8 / 60.2 / 69.7 cr; (2) share of profit of the Egyptian associate (Ultra for Medical Products, 30%; FY25 ₹5.2 cr, FY26 ₹5.7 cr, Q1FY27 ₹1.6 cr; Screener books it in other income) ₹6.3 / 6.9 / 7.6 cr; (3) recurring government grants and miscellaneous income ₹10 cr (FY24 ₹6.2 cr, FY25 ₹8.4 cr, FY26 ₹15.4 cr); (4) foreign-exchange gains at 2.27% of international organic revenue, the FY24-26 average (FY24 ₹15.7 cr = 1.63%, FY25 ₹21.6 cr = 1.85%, FY26 ₹38.6 cr = 3.32%): ₹29.4 / 33.2 / 37.4 cr. Exporters gain when the rupee drifts down while receivables are outstanding; a flat rupee would remove this part (~₹2.2-2.7 of EPS). Not forecast: provisions written back. FY26 ₹120.1 cr (treasury ₹64.0 cr, forex ₹38.6 cr, grants/misc ₹15.4 cr, other ₹2.0 cr); twelve months to Jun-26 ₹117 cr (Screener). FY27E is lower because the QIP cash was spent on PendraCare, Citieffe and capex (gross cash ₹1,227 cr at Mar-25, ₹842 cr at Mar-26).",
+ "debtBuild": {
+  "_why": "Borrowings and leases ₹354 cr at Mar-26 on Screener (₹341.6 cr of debt: ~₹250 cr standalone revolving working-capital lines, Citieffe's ~€9 mn of loans repaid at €1.5-2 mn a year, PendraCare none; plus ₹12 cr of leases). We hold working-capital lines flat and repay ~₹15-20 cr a year: ₹340 / 320 / 300 cr. Interest at 7.3% of average debt (Q1FY27 ₹6.5 cr annualised on ~₹354 cr; FY26 ₹18.3 cr on a lower average).",
+  "mar26": 354,
+  "closing": [
+   340,
+   320,
+   300
+  ],
+  "rate": 7.3
+ },
+ "interest": [
+  25.3,
+  24.1,
+  22.6
+ ],
+ "_interestLabel": "Interest on working-capital and acquisition debt and leases",
+ "_interestWhy": "Built from `debtBuild` (checked in POLYMED.ctx.js).",
+ "taxRate": [
+  25.57,
+  25.32,
+  25.2
+ ],
+ "_taxWhy": "Tax plus minorities (engine workaround: no minority line). Built in `taxBuild` and written by POLYMED.mult.js.",
+ "taxBuild": {
+  "_note": "Engine tax rate = (tax on PBT + minorities) / PBT. ₹ crore. Minorities are negative while PendraCare makes losses.",
+  "taxOnPbt": [
+   26,
+   25.5,
+   25.2
+  ],
+  "minorities": [
+   -2,
+   -1,
+   0
+  ],
+  "_why": "FY26 effective tax 25.0% (106.7/427.5), FY25 25.2%; Q1FY27 27.3% because subsidiary losses earn no tax credit. 26.0% / 25.5% / 25.2% as the acquired businesses move to profit. Minorities: 10% of PendraCare's result (FY26 loss before tax ₹14.1 cr in six months; Screener minority share −₹1 cr in FY26 and Q1FY27)."
+ },
+ "payout": [
+  11,
+  11,
+  11
+ ],
+ "_payoutWhy": "FY26 dividend ₹3.50 a share (₹35.5 cr, 11% of profit); FY25 ₹3.0 (~9%). Cash is earmarked for capex and acquisitions ('strategic reserve'), so we assume no special payouts.",
+ "dcf": {
+  "rf": 6.5,
+  "erp": 6,
+  "beta": 0.95,
+  "terminalGrowth": 6,
+  "years": 15,
+  "fadeGrowthTo": 8,
+  "fadeMarginTo": 24,
+  "fadeCapexPctTo": 6,
+  "depPctOfSales": 5.5,
+  "rollForwardMonths": 6,
+  "_betaWhy": "The engine discounts at the cost of equity: 6.5% + 0.95 x 6% = 12.2%. Net debt is negative (gross cash ₹842 cr vs ₹354 cr of debt), so WACC ≈ cost of equity; beta 0.95 for a mid-cap exporter with crude-linked costs, tender pricing and acquisition risk (above defensive consumer healthcare).",
+  "_tgWhy": "6% nominal: medical consumables grow with procedures, ageing and insurance (India ~13% a year, world ~5%), but prices are tender-driven.",
+  "_fadeGrowthWhy": "Revenue growth fades from ~13% (FY29E) to 8% by year 15.",
+  "_fadeMarginWhy": "24%: Polymed's consolidated margin with the acquired businesses; the standalone 26-27% is offset by lower-margin subsidiaries and rising R&D.",
+  "_fadeCapexWhy": "6% of revenue (FY27-29E 9%; FY23-26 15-21% during the build-out).",
+  "_depWhy": "5.5% of revenue (FY26 6.2%, incl. acquisition amortisation)."
+ },
+ "scenarios": {
+  "bull": {
+   "label": "Bull",
+   "narrative": "The Middle East reopens, Europe keeps its 17% organic pace, US approvals turn into real orders, the anti-dumping duty lifts renal, and Citieffe/PendraCare reach mid-teens margins with production moved to India.",
+   "revenueGrowthDelta": 2.5,
+   "marginDelta": 1,
+   "fadeMarginTo": 26
+  },
+  "bear": {
+   "label": "Bear",
+   "narrative": "Exports stay weak (West Asia, US tariffs, Chinese competition), the acquired businesses keep losing money, crude-linked costs and wages squeeze margins back towards 22%, and working capital keeps absorbing cash.",
+   "revenueGrowthDelta": -3,
+   "marginDelta": -1.5,
+   "fadeMarginTo": 22
+  }
+ },
+ "valuation": {
+  "blend": {
+   "round": 10,
+   "methods": [
+    {
+     "key": "pe",
+     "name": "P/E",
+     "method": "pe",
+     "role": "primary",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 48.5,
+      "bull": 60.5,
+      "bear": 39
+     },
+     "why": "How the street values Polymed: every broker note we could read that discloses a method uses P/E on forward EPS (Waya 50x FY28E, Dec-2025; IIFL 52x FY27 in Feb-2025 before its Feb-2026 downgrade; LKP ~50x FY27E; FundsIndia 61x FY26E) except ICICI Securities (30x FY26E EV/EBITDA, 2024). 48.5x Sep-28E EPS = Polymed's median one-year-forward P/E from 1-Apr-2021 to 30-Sep-2026 (every weekly close plus the 30-Sep close, 288 points; market value at each date over the next full year's profit to shareholders, so the Aug-2024 QIP shares count only from their allotment; FY26 before the ₹16.5 cr labour-code and acquisition costs), 44.9x, x 1.082 (thin-peer-set rule: listed med-tech names are too few or too new, so the nine-name pharma factor for names outside the set, +8.2%, PLAYBOOK §7c; reproduced +8.2%) = 48.6x, nearest half-turn 48.5x. No trough years. Bull 60.5x / bear 39x = 75th / 25th percentiles x the factor. Sensitivities (not used): reported profit 48.5x, Screener EPS on year-end shares 50.5x, from Apr-2022 46x, wider healthcare set 44x, Laxmi Dental's same-window move 26x. Checked in POLYMED.ctx.js; written by POLYMED.mult.js."
+    },
+    {
+     "key": "ev",
+     "name": "EV/EBITDA",
+     "method": "evEbitda",
+     "role": "cross-check",
+     "year": "Sep-28E",
+     "roll": [
+      "FY28E",
+      "FY29E",
+      0.5
+     ],
+     "multiple": {
+      "base": 34,
+      "bull": 39,
+      "bear": 26
+     },
+     "why": "Cross-check. Polymed's median one-year-forward EV/EBITDA since 1-Apr-2021 (EV = price x shares at the date + net debt at the latest March, with the ₹985 cr net QIP proceeds deducted from the 22-Aug-2024 allotment; EBITDA = next full fiscal year, Screener FY22-26 and our FY27-28E), 31.5x, x 1.075 (the pharma EV/EBITDA factor for names outside the set, +7.5%; reproduced +7.5%) = 34x, applied to Sep-28E EBITDA plus the engine's Sep-28E net cash. Bull 39x / bear 26x = 75th / 25th percentiles x the factor."
+    },
+    {
+     "key": "dcf",
+     "name": "DCF",
+     "method": "dcf",
+     "role": "cross-check",
+     "why": "Tests whether cash flows support the price: 15-year FCFF at 12.2% (cost of equity ≈ WACC: net cash), terminal growth 6%; the tax rate includes PendraCare's small minority; plus the engine's net cash at Mar-27."
+    }
+   ]
+  }
+ }
+}
